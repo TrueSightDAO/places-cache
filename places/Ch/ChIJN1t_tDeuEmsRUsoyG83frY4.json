@@ -1,0 +1,258 @@
+{
+  "fetched_at": "2026-05-02T05:33:12Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "name": "Google Sydney - Pirrama Road",
+  "place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Ground Floor",
+        "short_name": "Ground Floor",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "48",
+        "short_name": "48",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pirrama Road",
+        "short_name": "Pirrama Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pyrmont",
+        "short_name": "Pyrmont",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Council of the City of Sydney",
+        "short_name": "Sydney",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New South Wales",
+        "short_name": "NSW",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Australia",
+        "short_name": "AU",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "2009",
+        "short_name": "2009",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Ground Floor/48 Pirrama Rd, Pyrmont NSW 2009, Australia",
+    "formatted_phone_number": "(02) 9374 4000",
+    "geometry": {
+      "location": {
+        "lat": -33.866489,
+        "lng": 151.1958561
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -33.8655112697085,
+          "lng": 151.1971156302915
+        },
+        "southwest": {
+          "lat": -33.8682092302915,
+          "lng": 151.1944176697085
+        }
+      }
+    },
+    "name": "Google Sydney - Pirrama Road",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104113609296713658107\">Jim Sill</a>"
+        ],
+        "photo_reference": "Ab43m-vj1ozDxjf4GW-ECmsToBUDguc67kLsa2vaNJj-xuaDFQab-vR1o8N8ijGyRZMdWjzgAMLRiyBY_p09JeH6ru7BR8J3GxAdIRii_YhTz7f_9c-kCCfh0hrgFd-zd1RgaC8vIzhvhSRTt9QUMkLH4oAEnPOcC-GbthHhbmqIdaHC9A-7b33SLwnCGxDwdpJI9a3li3oMbv_b96Xqp4wgmedQXqfFAppYpupYZmj26V-pKGKpWPmd3lDAHGCYCh4pFuotVZcG9av6vt-sXNK2o7rbD6fefMSyHDso70vMvSF8NG7mpvp7It9zR6tJ6GFLCjjyeWqtEpZ8mJzLS-jRP-Fdxt2AQXBsbmTGtbUDIydLyfBrDz3SSDjsSCBD7gchMXwWFVR8NByu03eeZP2dU6L53IGBcjfV2RmEOtKaPaZCthm7",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101956238415981825199\">Sagar Timalsina</a>"
+        ],
+        "photo_reference": "Ab43m-vPT0MsAgbWO2zWQHkcLx7sob0pitgviYS59qobZpWpBTx7nATtHufOcFQDe0VVvzqu7gqmOE9pix-u-AaVXr3a3eCZDHAOTm89jEEMknCe9mtGxc83KcNYELCISbn-gSObKK-YJJ8hDhcaY3QfN03Zaf2VvCC1J1IwRIr6NtGHr_tQoModQU7YdH2ZXNvpgJjRA-8ASUExUkQD_TW8-cn47BpMTpWpybodQU5DnnGTO7-6eAyV_rUBM0HKFVBUmhDGjXZjMtl1icfyCR16tZUPxWd7Z5gKylD3_BEOdAGD_Qtp1wVgINA53TiMQSUmbmwgE_l9jehJbRfDLpsnG3AZc_vws6CUAQpFt7LNKIuErhHgz1qaUQZ1iOvP8elN7ROSLBPw21bzxVdWTvViL2e0PzZMwD0xC4JyEEIl4wpL8w",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114497279196125951733\">Jeremiah Bennett Gunasekar</a>"
+        ],
+        "photo_reference": "Ab43m-t-URuILJKH0_vEXUdK8yEAyi2Yl87wiI4I3ytDNLmKReJwr9wqGhVaiBUmPbGqSr3Sv2Xxj-cqQ_rnYASO1GqtHT1NAo3d9rstlOfMfQeFBuwtqMk8wLocnSqpChm7e3pqHYt9CRJggfaxI0a4one7yHNMZ28PxuRy7KfVkFqi9ko23BjsxWiQjdC1KHX3ThmLBjGrDKuQvL4m9kbaJhTU6-jperBSxX0FH_noj4foc7mLKT0-AAOidm0e0uriqovgVZS8irTYtWzKlBDn7wLTAO3vK0GgTffK1DODysDebj1HH1Ljq85fQRVkQD9G1P1zkzyyNoY-m1mK426VZ7Z5oPa7bNxpONIa9_LkYsbxVo2_TNRBRJcb49AKEpZRzEEKPq6qJIydWhYCyO9Bn1KSZITtvCA0lZrtLvUmWwWKLcSB",
+        "width": 4032
+      },
+      {
+        "height": 3921,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102987930970147458128\">Garrett N.</a>"
+        ],
+        "photo_reference": "Ab43m-uTVcaMKEa1r3_wdlaS_4DMUVMzExvRrjfpMbsMVqSiyWlSbtaLBuovJLhRdPX8dKVkkiZiwaMg2Br_t84TVbFIRsgg-IpMdCxPZIfwSy9ZRflBBDzNA3gLkWzRkFai0GZDA3oqoF7t3wDyGR1wzjfpDt-EufAqOwz2ehkH7y3AXXOJ2NUOF2HHl9-8JrSdasVgZQFuXadb8CrwnEdrE9tR0LFY--FUa88sH_fRxUmw7nGGue7SanNU5cyT8LqnyyJ5Lfmnb3s9dDvhWDZOHuO9xS35hckK-4Vde-dDgEPKJaJLYccoWqSUWfrD_WowrpBZVSLKR4lRitu1fYzEFu4Fj6627HnyzS53G1CmPo56cry0yuJhCyLttEaOHdvE0I7vtz2anlAQt8rbbrLR3_MEuBRy13X972FjMgbcSYwALAuP",
+        "width": 2941
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101534139940201264733\">Nick Major</a>"
+        ],
+        "photo_reference": "Ab43m-uIzCCYYyFUr3vdg_rcVRV5lPnBVeYPwhA-oDPrwU6oa7ReZFZxLY9UWyEcL2INW4HI1djVoEuPTyjR-rPz9TC72d8-_22mwSdmGF-spFN1u7pazoheLleMvy_Ec-49fOKTJVFdYjNneyk1bPcPCUodLhNvRyB5g4ASYRih15vVThsX-GNbVeYRjrWIv20rSmhd2Q4wj5rsJdSh5SGjPz2__BcTn6YbIHO7Ksy1lBvuHmUCAB77TOGYTasCCl7BlglrxjPnEA8C98jLrVSUhYwnfMwiimRSYT9d5tCamZOl23s-TvOBbMAbremTaMcKDcAwSjk6QssBs6o4z5VMbZJdkzzs2LOTslFNOUDwfofQr6YBGG0TP3klPx6ba510IBYuqMf0tQ_IB-Zuend7VVIqDDeFZk0myVMKFqx188sKXg",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102022700299564577013\">David Lewis</a>"
+        ],
+        "photo_reference": "Ab43m-vvR4mNjJGbU4mhvpcnn1P6RI1WvKhSO9gsEJx5rGYOtmBP0dVFesAtnaFUBg-dEAMSKFprf3yg7UlEtDurcZJNX08n8xL7YIxFJt7EOrBHDTVPv37hqnJFU_7Unm-1UPksGvfiYBHpCSjlEegItMFP5FDfSdYAAT_ob1kwCrLmbjBM2IDEIH_Qx-Ak47xAqvrlz0ZHpun0r-4PNYMPE1r7OgqAqDrCZxlhAgbZzSgQq5Lge1iSV3nKr6iP6RWOg4-C1IsuHWcBRVfGnv1fwQU9uJTsvVRS9nwTlDKZA0K8sNMGisZ2LLXfBdVdIA517rriOOQRqblzVqBo_8J7J5NoX16IG8Nv9D6Z6-8tA-1EMkdx5hMeUY77_Pg0OYUjqLLyy353pLZqJ263djB0Rhd-03EBRpjd7MBlWDskJLuk4w-w",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114407633649912979337\">Muthuramakrishnan Viswanathan</a>"
+        ],
+        "photo_reference": "Ab43m-tXrSi_V4sas2_Xrmu8yzTzmrVZ7kHzMGjeoKTNWELNLGNHw1AoJ1EWUdwtbn-27X8_7yVnjt8Gh1FK407MZar-PbJ8ui73IRz3RsKOfn0RLcSkI9nZsbl5Vvob5t6qEzM6N8iBdNLOollYAfe1iaiP2Ps5Y4rS-qFtRvhvYr62UMSufx6i0RkKelLgunWBp6EsxeYVABf1Rr0wygSpbgPleLpxN1Lrvc7QFb4a0b9Ngn1tadbrb1NZAXdYW3djWhLDEO1AKYdz-1lO9p1h5N8dxGSKYkv25Xcq5HyddhKgVhdLXlDT1nTG9d01BSC2GMTk7eJfdhalPOVqfxzmQa2dm5K0fjT7_01YUEtilje9gFjtX0W04Lpeiex7Fa5btbCx2YgPzBDSfeaoqAYzcA8n1ASpTSPuRBtOTWVOkVsWQfKg",
+        "width": 4032
+      },
+      {
+        "height": 498,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103245129386449712319\">Simon TestOne</a>"
+        ],
+        "photo_reference": "Ab43m-vbFmDt6fiXJwT1a7YdEbcSkxmX9qLKtCaOHekjCJvTGaRCTX6dCAVg69Yreyb9C_ua9tER-SAjj_5lyCpVbjApBDjlpaNSgaEc4TrnGG29OPiJ8OWnlRCdyRUa5SWSUcXJm5_4K62c8SMkGtT5qej0YoDeT05Q8tiBfMthC5LyND_nrttuVzPVGpRL0Tmqq77aLpBxtzGXu1VR4DasyPNb0_KAR6CvgglDfrk2AeEITITVhtMBmLehS6kNfAJMf8r5D0JEbNTmMnYnASBbfTrc1EiJuvL-jHY6v56z6pKcZVJIoXg4XbVTpcxM6L0IDtoDMknB91iqjnexoCkDdHIJRYxiCgDcmHP7QwBJsuJ_ZAC1VzzHiaSbnSDeVvtpRtjw60I9FyHinMm3WQmQxGQouK0sxPBuY_06VNTjSnjolA",
+        "width": 750
+      },
+      {
+        "height": 1184,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106645265231048995466\">Malik</a>"
+        ],
+        "photo_reference": "Ab43m-vAl8GWO51o-KmSIp4hKMhePJEu4JPF3nLM8VXupJddt1eqs4UitDB41TJ-vv2ddL5tmXLGDSM8r1lnECZbf8m7GsT8X4mBVeIk_w4MzmBeY2XkJp45UCukcgNMPXIvmvDOBJLv041aawy7BDd-Yv0wiymoo1wxEGn3nrWQ7ClXYxacz010BPkSc4hiAtdLXoy7ki5Q71IfT-9nsAa8kxdUHzRFIROMI7If9mHE6Ja3WRQRpmq2FO8n3T-gmMsUUUAJ-5uosfHYkLEx4fsu7xh2INu_P7VcGhs1nD4qbzI_s8nPPnq-DRAsYzdLHhtIgeoI-rhDwqWngUuXevr-IGcyraZrw6TPl100c2WaBxW13OjSXwUJg1zo_oc8gw1GeiHAisAGqWeQ1a0SGFdWPN8BEQbfggLndMZrO27JY0C_tK1D",
+        "width": 1776
+      },
+      {
+        "height": 1184,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106645265231048995466\">Malik</a>"
+        ],
+        "photo_reference": "Ab43m-vD7bhBdl4nbj11nPWCSxNnpyGIzA-9zsqwoLA9moXZRvDFKIXfkYhPWVKamcm6rrGBV6eRh0O1QmQQBTh_50wryQHDw8JDvtP8BqqFg8-WJB63YtI9agE1Zoip78qe48dmWuj33ENPKN3NZGwPLuw05NiJSkVZhjMoxGgtpuT5WsOV2PirOBW2zG0jC7YmXk7KMN1JatsFedXMGMrn7opGNhlbTqxc93w4YrBjax-HK_H2-QzETZyqginEVJOmdvAukmrlg-_ljxf41dtD71L_PomqUSlwXP8-5r3Fggvk5WB-zjinWzBIkm1chYrQGzRA14RVa9VCy6hwJ8kxTBzVhMXdf3ZI9yelVGRfnyL2teOkk4YRw_AvXyFISlN6jg2VwgEKf0YtPw4U6_59D25TCtq-0vm-Q6r6tnjvzDk",
+        "width": 1776
+      }
+    ],
+    "place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10281119596374313554",
+    "vicinity": "Google Sydney - Pirrama Road, Ground Floor/48 Pirrama Rd, Pyrmont",
+    "website": "http://google.com/"
+  }
+}
