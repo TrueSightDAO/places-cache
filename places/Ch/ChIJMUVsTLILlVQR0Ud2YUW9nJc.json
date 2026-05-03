@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Brothers Apothecary",
+  "place_id": "ChIJMUVsTLILlVQR0Ud2YUW9nJc",
+  "result": {
+    "formatted_address": "825 Southeast Madison Street, Portland, OR",
+    "formatted_phone_number": "(650) 569-1093",
+    "geometry": {
+      "location": {
+        "lat": 45.5132154,
+        "lng": -122.6571018
+      }
+    },
+    "name": "The Brothers Apothecary",
+    "place_id": "ChIJMUVsTLILlVQR0Ud2YUW9nJc",
+    "website": "http://thebrothersapothecary.com/"
+  }
+}
