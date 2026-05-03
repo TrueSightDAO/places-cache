@@ -1,40 +1,285 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:39Z",
+  "fetched_at": "2026-05-03T07:07:09Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "EarthTones Gifts, Gallery & Center for Healing",
   "place_id": "ChIJpUf9FF3F7IARIpxPoCilBKU",
   "result": {
-    "formatted_address": "790 Pine St, Paso Robles, CA",
+    "address_components": [
+      {
+        "long_name": "790",
+        "short_name": "790",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pine Street",
+        "short_name": "Pine St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Paso Robles",
+        "short_name": "Paso Robles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93446",
+        "short_name": "93446",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7248",
+        "short_name": "7248",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "790 Pine St, Paso Robles, CA 93446, USA",
     "formatted_phone_number": "(805) 238-4413",
     "geometry": {
       "location": {
-        "lat": 35.6220844,
-        "lng": -120.6883424
+        "lat": 35.6226262,
+        "lng": -120.6878035
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.6240184302915,
+          "lng": -120.6865460697085
+        },
+        "southwest": {
+          "lat": 35.6213204697085,
+          "lng": -120.6892440302915
+        }
       }
     },
     "name": "EarthTones Gifts, Gallery & Center for Healing",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-t_jcpcYDIqNaI2koWpoCi6BM7tFdz_T0S5XRcOdMqDbuHR75jOUKTw9eQV7xo8_KQBkMCotJ42DWyGnEAK0e9YL9KqVysPmWs2Rdxe9ryfkFW5MECGIzdL_uFbQ0PQbBHXz5JYTEqymPGpf8i4xyFVT7RA30CIguYaaVzo9y5Ok2Ado0okBaTPj4Ohwu9cK-qeDpGMzUvEV8au74TbCgVdIfLZWBnMW0k-wS5oQ4-Fhov4NRp_RXzhnEkQDUro7OdrhJA5RcAMw_uvSkM1WyOTMwBy4yE74VVLUIF2zO1s7g",
+        "width": 3600
+      },
+      {
+        "height": 512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-trV3uEZ3CWkHTm_0ezy29Tr2fipMdhn36fYLq_ZJznYwT0BTaS80hkMFlGqBH3IzqotS9ApOQKNLBfHWvcB_k-eh_oh3iA8i7hb1J-8Nq8Ec4ziDyzkNHFT6huDEbO4RyIEv_v-0bvF2Ve8A-vAhp8loEL6q2ympj6WMzGi5F5Y0WspsB-_KWQ-67b45eks9rf903wtpD8LRgG9AIlRuv8banzGuQlO43A457u7Kc0TqzVxSxK9SvE2HiO4NjMCbsode4xLL6fUAy68VpIEvCwDrrv4t5_xSt_Db4oQOOQbA",
+        "width": 512
+      },
+      {
+        "height": 3238,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101683660822447009248\">Mary Uebersax</a>"
+        ],
+        "photo_reference": "Ab43m-tDwcmyLjpay0VSnW79MUNnvIhJ7o8Vr3VB3DvJ1aN0khBwqiCfGx19hkNp1uQnIST7AFrIx0_u1jz9KFBq-TFLae_McqTg9ySmlkHM3nIrq_RraDHggn2vjrqEu_ZskgJmdRlpR__VnaDaN8mthUKNWBr3GQtklkBQoUMhjf0YVcU918LSKtAzwbN-UBHT-v_Mr283gpYB3T89KMKpiwkE5aKxggc_8jzvLjdctnqTWICYU-NLUZrEWY9g2hClqilcQUh4iP2-Fnm8G9AsnDBDmU__y59JW9vh7h111PBpNHpLLPPy1ybqR2xXrVxSpJVl7iD4Wl0wYtWsQas4NtHPJh-U6R0bP7yS4EPSzoXXBqtFK_6qwxhY8j849mqBdqororqeuPcqjwodDoIMcaEVXMOLEFfvXmuuKQv7znDT0g",
+        "width": 4800
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-tLehYKXzN2r2hskpg-Wnoc_bjsTM0BjKXVZzd9_yEe31lsXyaIgUTy6xinGXuclU0LWX_qlg5YkxbFE-CsnGdxrNQhgdamqNdzoXSSs1HxsI2kWC8QsRF-8UHjsDHL8MFPc_kbPLfjkO9rGgKR_QmlUhrjXzH7xE4DXiD_PZvqdu35TiIQcyRYuP5O-USYfxWmrWEcUJl1KWAKeq_Hjt97ZUAZzw1km4tZ27KOA_yurz1R_xiQ-OUcsoSttrZQWdhJ4z8zi8zthj4VPl1GahqXV2RbMcaAwMGME8tbUqAVJg",
+        "width": 2048
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-s4XGUtAiY8C7HMY2meVDCXD84hvUC1fHRknyQjWgmacR5yWs5frXhtTP_YX_vT1HYY7FwHqzqaBhle-4ZmevrjZjah1bHugEGsQh3nAewJ2CTyF9iLV9Dg_eQbXrSs6zBolZjZ6Pyavqz0H6LwDzsmsqXp8RTm_JT8dVx3rdODtL2-XE0HEwtyIv5nIwtDFsyqXxSrCZpqTAhMowSZgMMdQGjtq5PjOoNr31adiulgE_iQns9tYyg1tTiADD3udJ1RnJu2y3nHO-GgKgrvRhBpJDwzB4Tj-ZwWAFAQJgtvMw",
+        "width": 1848
+      },
+      {
+        "height": 1291,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-ugEdytw8tWGLT9th0B_N7acrjaKGFaXaaZXkBHFSWgMCLGzFHR8Ren6-F2_pCZUI2eIxG1i2uSjRfevkGrF9EQtNpDa1CY3baWhVo9bKSm3xgYl_Xng2gkcRN5zL4Wd3Nj6gxeApnrrQN_80IPs46ovFzGmDZvzv0x_mpmLeIaf7Mzh26AXnbJqgx2eQga-tnZEKjDAt_8Q62y3n8m3ixvTX6a3P2ev2qCrHI_yh0uKVzzMuPscwk4MeHjKyQq_cnsO94uhTbaGblxX6RW_UWzKCdr9LwSnorbObOSVnFHUg",
+        "width": 2048
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-tv9m5Hn0e_U9Tvy-e7VKDjSRMUDG7lRKF-1vZf7cvIu_kMi0lVcOgRmRsx5ASUcf0b9RkAl6XvVSoH38gNNuh2iVNSnezvFMpQpSOSfdwTJebdGZuIPlUivsWXqoe10GCIV0DIqt6YZMZQTqk-qgx2McB3AXr-ceOMwHanTr9NKuHdMHjuAZiEf--JjE_t1vfd7Hr2EREtjJjUEvGEpUFa8Oa3JVXK6gYet-skl3ekSsIEEnUCbODyztELns4jKkkSQ9HOek-criPm-9QOJQkvtRNlCvRLHX34otWq4aMx_A",
+        "width": 2252
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110734037050927496351\">Shiv M</a>"
+        ],
+        "photo_reference": "Ab43m-vt43f1ehzOO3oPpsmedLrPtLBieWK1biMsuPmKgHV8c8xgOy2HmgQcjz72791VieM72pgWNNb1AajHmdTm0FjL-KCDs9BGlnM7MhMKii8pHQNijuvXX2och8DP7RJcMvq6WbeU1Dm00n7d8rxGkAWNa9LmhA-yVgiYIRIT7zEMtKD02pKLoAyZ56NIUuLHvDjcXwv7bcmpM_30vnbY0lk76f9KbaIFvgEhC1UIXQFQd-FvhSXnVQGlxrFfUWbaW5pDyLs0SPh5131Memv8BAmVSr9_A_eCdLsDRz24_UtG8WOQJF0MPhCrjhxtwEI8fCdW2Nb1cYTd-ShAanoLkKxXF5h7WK7JjLTDMfKaL32FyNz-VjknFeUVEEU0OMzTdyF3Zmccnyos0U3yHDq88wPpAhuUqYOCyilK-Tn1M93i-EH8",
+        "width": 3024
+      },
+      {
+        "height": 2328,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-sw2Pm4j5U01wHEESMgIXo1trA6XydqcuMegMkiGaTHnGl5AKPm_Wq8Q_kFII5sTi_LhCA5ay2v2GEEX-ZiSBwIxug4bdkNYSg6OVjD24tZI1y34ZDHNmDUcLqX7ZvQKnwCAAKnqetViURd_S3x0FUwCkEdHTyS8DxKXWVACZ0SOCULoL2r0f1CyVBomSmz5jjPx8hpFoy2P4yNvvKQ4_X34ynyjM-WLRajF4bzfYDVVOn-677zqRu3LkE9Xb_wHj0MK9k0T2fJaK3EviZN73KF_MNX31r5QP0W04fQdOheQQ",
+        "width": 2378
+      },
+      {
+        "height": 2328,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104803945964455688807\">EarthTones Gifts, Gallery &amp; Center for Healing</a>"
+        ],
+        "photo_reference": "Ab43m-tPApW6I-OTZLarytFcHPiugEvX5f1bGn7p1gy4FUz0nrSOAWI0K5733thEDV8Iu-HNnJW5D1RWq7XHOYAjUjoV79qffN77tVB9UpZfYpQgPHQnMvqE0wMcFbELe_qYracDEpHX12pOeMkZutVx9sqF7TGW3HaZM_3Uqz7kdhzO0WFimZsMW8tnifXATZAR5LBLQpghjHYwfkhs_U2TeVQAHwINJrAPEWuF37_boJ_6xDvJrYN8BwLKQqQFXPj-ujSCQzqu0j5ft_342GbbTD6bgPs6ixN2LeRZM2KIB8AFWg",
+        "width": 2378
+      }
+    ],
     "place_id": "ChIJpUf9FF3F7IARIpxPoCilBKU",
+    "types": [
+      "art_gallery",
+      "book_store",
+      "establishment",
+      "gym",
+      "health",
+      "point_of_interest",
+      "school",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11890810510071798818",
+    "vicinity": "790 Pine St, Paso Robles",
     "website": "http://www.earthtonesgifts.com/"
   }
 }
