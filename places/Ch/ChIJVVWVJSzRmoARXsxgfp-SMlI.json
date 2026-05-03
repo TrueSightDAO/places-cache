@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Enlightened Beauty",
+  "place_id": "ChIJVVWVJSzRmoARXsxgfp-SMlI",
+  "result": {
+    "formatted_address": "530 12th Street, Sacramento, CA",
+    "formatted_phone_number": "(916) 365-7958",
+    "geometry": {
+      "location": {
+        "lat": 38.5841482,
+        "lng": -121.4890174
+      }
+    },
+    "name": "Enlightened Beauty",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: Closed",
+        "Thursday: 10:30 \u2013 18:30",
+        "Friday: 10:30 \u2013 18:30",
+        "Saturday: 10:30 \u2013 18:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJVVWVJSzRmoARXsxgfp-SMlI",
+    "website": "https://www.enlightenedbeautysacramento.com/contact/"
+  }
+}
