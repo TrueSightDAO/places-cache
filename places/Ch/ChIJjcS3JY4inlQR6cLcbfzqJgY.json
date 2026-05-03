@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lilac City Midwifery, LLC",
+  "place_id": "ChIJjcS3JY4inlQR6cLcbfzqJgY",
+  "result": {
+    "formatted_address": "2314 Cherry Street, Spokane Valley, WA",
+    "formatted_phone_number": "(509) 413-9093",
+    "geometry": {
+      "location": {
+        "lat": 47.6786621,
+        "lng": -117.2387425
+      }
+    },
+    "name": "Lilac City Midwifery, LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJjcS3JY4inlQR6cLcbfzqJgY",
+    "website": "http://www.lilaccitymidwifery.com/"
+  }
+}
