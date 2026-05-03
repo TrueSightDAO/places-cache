@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:42Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La Sirena Botanica",
+  "place_id": "ChIJRZgXaWynlVQR-t4gofac-mg",
+  "result": {
+    "formatted_address": "1722 Northeast Alberta Street, Portland, OR",
+    "formatted_phone_number": "(916) 877-0240",
+    "geometry": {
+      "location": {
+        "lat": 45.5589071,
+        "lng": -122.6471543
+      }
+    },
+    "name": "La Sirena Botanica",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 17:30",
+        "Wednesday: 10:30 \u2013 17:30",
+        "Thursday: 10:30 \u2013 17:30",
+        "Friday: 10:30 \u2013 18:00",
+        "Saturday: 11:00 \u2013 17:30",
+        "Sunday: 11:00 \u2013 5:30"
+      ]
+    },
+    "place_id": "ChIJRZgXaWynlVQR-t4gofac-mg",
+    "website": "https://instagram.com/la_sirena_botanica_?igshid=OGQ5ZDc2ODk2ZA=="
+  }
+}
