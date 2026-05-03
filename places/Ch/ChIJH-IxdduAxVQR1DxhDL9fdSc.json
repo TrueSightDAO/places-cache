@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Substance",
+  "place_id": "ChIJH-IxdduAxVQR1DxhDL9fdSc",
+  "result": {
+    "formatted_address": "315 2nd Avenue, Gold Hill, OR",
+    "formatted_phone_number": "(541) 317-1814",
+    "geometry": {
+      "location": {
+        "lat": 42.4313879,
+        "lng": -123.0472997
+      }
+    },
+    "name": "Substance",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 13:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJH-IxdduAxVQR1DxhDL9fdSc",
+    "website": "http://www.substancemarket.com/"
+  }
+}
