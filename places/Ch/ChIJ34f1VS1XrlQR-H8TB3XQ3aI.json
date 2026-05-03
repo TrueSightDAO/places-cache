@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Grounded Botanicals",
+  "place_id": "ChIJ34f1VS1XrlQR-H8TB3XQ3aI",
+  "result": {
+    "formatted_address": "4948 West Kootenai Street, Boise, ID",
+    "formatted_phone_number": "(208) 861-3758",
+    "geometry": {
+      "location": {
+        "lat": 43.5936637,
+        "lng": -116.2428816
+      }
+    },
+    "name": "Grounded Botanicals",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ34f1VS1XrlQR-H8TB3XQ3aI",
+    "website": "https://www.groundedbotanicals.shop/"
+  }
+}
