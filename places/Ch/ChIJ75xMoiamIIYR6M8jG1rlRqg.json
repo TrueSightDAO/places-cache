@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Miss Anne's Maypop Herb Shop",
+  "place_id": "ChIJ75xMoiamIIYR6M8jG1rlRqg",
+  "result": {
+    "formatted_address": "2701 Saint Claude Avenue, New Orleans, LA",
+    "formatted_phone_number": "(504) 304-5067",
+    "geometry": {
+      "location": {
+        "lat": 29.9689762,
+        "lng": -90.0490444
+      }
+    },
+    "name": "Miss Anne's Maypop Herb Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ75xMoiamIIYR6M8jG1rlRqg",
+    "website": "https://missannesmaypopherbshop.com/"
+  }
+}
