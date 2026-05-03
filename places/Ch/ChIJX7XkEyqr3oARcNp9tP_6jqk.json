@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kettle & Stone",
+  "place_id": "ChIJX7XkEyqr3oARcNp9tP_6jqk",
+  "result": {
+    "formatted_address": "1619 West Lewis Street, San Diego, CA",
+    "formatted_phone_number": "(619) 915-6051",
+    "geometry": {
+      "location": {
+        "lat": 32.7515909,
+        "lng": -117.1782815
+      }
+    },
+    "name": "Kettle & Stone",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 14:00",
+        "Tuesday: 7:00 \u2013 14:00",
+        "Wednesday: 7:00 \u2013 14:00",
+        "Thursday: 7:00 \u2013 14:00",
+        "Friday: 7:00 \u2013 14:00",
+        "Saturday: 7:00 \u2013 14:00",
+        "Sunday: 8:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJX7XkEyqr3oARcNp9tP_6jqk",
+    "website": "http://www.kettleandstonecafe.com/"
+  }
+}
