@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herbology - McHenry",
+  "place_id": "ChIJoVmc16NRkIARx4UCmOn4w4I",
+  "result": {
+    "formatted_address": "2308 McHenry Avenue, Modesto, CA",
+    "formatted_phone_number": "(209) 404-6880",
+    "geometry": {
+      "location": {
+        "lat": 37.6758642,
+        "lng": -120.9936591
+      }
+    },
+    "name": "Herbology - McHenry",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 22:00",
+        "Tuesday: 8:00 \u2013 22:00",
+        "Wednesday: 8:00 \u2013 22:00",
+        "Thursday: 8:00 \u2013 22:00",
+        "Friday: 8:00 \u2013 22:00",
+        "Saturday: 8:00 \u2013 22:00",
+        "Sunday: 8:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJoVmc16NRkIARx4UCmOn4w4I",
+    "website": "https://herbologyca.com/locations/modesto-mchenry/"
+  }
+}
