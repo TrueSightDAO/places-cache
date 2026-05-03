@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Anh Shenh",
+  "place_id": "ChIJ6QfqRr5qkFQR0Sg9yFadL7E",
+  "result": {
+    "formatted_address": "1041 South King Street, Seattle, WA",
+    "formatted_phone_number": "(425) 247-9129",
+    "geometry": {
+      "location": {
+        "lat": 47.59816,
+        "lng": -122.31779
+      }
+    },
+    "name": "Anh Shenh",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ6QfqRr5qkFQR0Sg9yFadL7E",
+    "website": "http://www.luandongherbs.com/"
+  }
+}
