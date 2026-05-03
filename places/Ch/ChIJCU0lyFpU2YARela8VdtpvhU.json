@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herb Shoppe",
+  "place_id": "ChIJCU0lyFpU2YARela8VdtpvhU",
+  "result": {
+    "formatted_address": "3618 El Cajon Boulevard, San Diego, CA",
+    "formatted_phone_number": "(619) 280-5621",
+    "geometry": {
+      "location": {
+        "lat": 32.7554784,
+        "lng": -117.1153036
+      }
+    },
+    "name": "Herb Shoppe",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 17:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJCU0lyFpU2YARela8VdtpvhU"
+  }
+}
