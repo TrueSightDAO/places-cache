@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "ACQUIRE and Company",
+  "place_id": "ChIJIZPuXdKrr1QRoyMnjTzTgfg",
+  "result": {
+    "formatted_address": "55 South 2nd Street, Eagle, ID",
+    "formatted_phone_number": "(208) 725-3800",
+    "geometry": {
+      "location": {
+        "lat": 43.6946002,
+        "lng": -116.3516427
+      }
+    },
+    "name": "ACQUIRE and Company",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJIZPuXdKrr1QRoyMnjTzTgfg",
+    "website": "https://acquireandco.com/"
+  }
+}
