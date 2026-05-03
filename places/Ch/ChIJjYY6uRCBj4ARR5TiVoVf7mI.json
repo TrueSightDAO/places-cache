@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Seasonal Apothecary",
+  "place_id": "ChIJjYY6uRCBj4ARR5TiVoVf7mI",
+  "result": {
+    "formatted_address": "66 Franklin Street, Oakland, CA",
+    "formatted_phone_number": "(415) 691-7546",
+    "geometry": {
+      "location": {
+        "lat": 37.7943526,
+        "lng": -122.2756469
+      }
+    },
+    "name": "The Seasonal Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 20:00",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJjYY6uRCBj4ARR5TiVoVf7mI",
+    "website": "http://www.theseasonalapothecary.com/"
+  }
+}
