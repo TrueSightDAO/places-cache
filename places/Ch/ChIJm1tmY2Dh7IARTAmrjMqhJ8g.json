@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lumin Earth Apothecary",
+  "place_id": "ChIJm1tmY2Dh7IARTAmrjMqhJ8g",
+  "result": {
+    "formatted_address": "2024 harvest\n\nUtilized descriptions provide provided by Christine and the rest, Morro Bay, CA",
+    "formatted_phone_number": "(805) 225-1466",
+    "geometry": {
+      "location": {
+        "lat": 35.3666915,
+        "lng": -120.8502279
+      }
+    },
+    "name": "Lumin Earth Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 16:00",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJm1tmY2Dh7IARTAmrjMqhJ8g",
+    "website": "http://www.luminearthapothecary.com/"
+  }
+}
