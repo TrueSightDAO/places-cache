@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Artemisia Acupuncture and Apothecary",
+  "place_id": "ChIJz5NpqRjDwoARDHj1rvOEZRY",
+  "result": {
+    "formatted_address": "30 North Raymond Avenue, Pasadena, CA",
+    "formatted_phone_number": "(626) 208-9697",
+    "geometry": {
+      "location": {
+        "lat": 34.1464925,
+        "lng": -118.1485272
+      }
+    },
+    "name": "Artemisia Acupuncture and Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:30",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 17:30",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJz5NpqRjDwoARDHj1rvOEZRY",
+    "website": "http://www.artemisiawellness.com/"
+  }
+}
