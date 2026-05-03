@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Services | A New Holistic Life",
+  "place_id": "ChIJVVW5Ikyij4ARFMNM0X_Q2fM",
+  "result": {
+    "formatted_address": "797 Arguello Street, Redwood City, CA",
+    "formatted_phone_number": "(650) 503-8164",
+    "geometry": {
+      "location": {
+        "lat": 37.4886492,
+        "lng": -122.2355362
+      }
+    },
+    "name": "Services | A New Holistic Life",
+    "place_id": "ChIJVVW5Ikyij4ARFMNM0X_Q2fM"
+  }
+}
