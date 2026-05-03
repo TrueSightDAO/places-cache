@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mojave Moon Apothecary",
+  "place_id": "ChIJCzS2uFC5woARAEEg3Z7ZCuA",
+  "result": {
+    "formatted_address": "5688 The Plaza, Twentynine Palms, CA",
+    "formatted_phone_number": "(760) 401-8040",
+    "geometry": {
+      "location": {
+        "lat": 34.1504703,
+        "lng": -116.055085
+      }
+    },
+    "name": "Mojave Moon Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJCzS2uFC5woARAEEg3Z7ZCuA",
+    "website": "http://www.mojavemoon.net/"
+  }
+}
