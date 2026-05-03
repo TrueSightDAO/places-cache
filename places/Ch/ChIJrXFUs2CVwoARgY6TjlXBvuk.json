@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Crooked Path",
+  "place_id": "ChIJrXFUs2CVwoARgY6TjlXBvuk",
+  "result": {
+    "formatted_address": "2020 West Magnolia Boulevard, Burbank, CA",
+    "formatted_phone_number": "(818) 736-5919",
+    "geometry": {
+      "location": {
+        "lat": 34.1732897,
+        "lng": -118.3303644
+      }
+    },
+    "name": "The Crooked Path",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJrXFUs2CVwoARgY6TjlXBvuk",
+    "website": "http://www.thecrookedpathshop.com/"
+  }
+}
