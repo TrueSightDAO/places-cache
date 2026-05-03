@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "That's Kava",
+  "place_id": "ChIJyVujrCaBbIcRcN0XbqM07O8",
+  "result": {
+    "formatted_address": "3394 South Broadway, Englewood, CO",
+    "formatted_phone_number": "(720) 319-7743",
+    "geometry": {
+      "location": {
+        "lat": 39.6551821,
+        "lng": -104.9873864
+      }
+    },
+    "name": "That's Kava",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 2:30",
+        "Tuesday: 8:00 \u2013 2:30",
+        "Wednesday: 8:00 \u2013 2:30",
+        "Thursday: 8:00 \u2013 2:30",
+        "Friday: 8:00 \u2013 2:30",
+        "Saturday: 8:00 \u2013 2:30",
+        "Sunday: 8:00 \u2013 2:30"
+      ]
+    },
+    "place_id": "ChIJyVujrCaBbIcRcN0XbqM07O8",
+    "website": "http://www.thatskava.com/"
+  }
+}
