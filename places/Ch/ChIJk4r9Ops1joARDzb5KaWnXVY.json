@@ -1,40 +1,268 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:05Z",
+  "fetched_at": "2026-05-03T07:06:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Saia Holistic",
+  "name": "Saia Wholistic",
   "place_id": "ChIJk4r9Ops1joARDzb5KaWnXVY",
   "result": {
-    "formatted_address": "1645 S Bascom Ave #9, Campbell, CA",
+    "address_components": [
+      {
+        "long_name": "9",
+        "short_name": "9",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1645",
+        "short_name": "1645",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Bascom Avenue",
+        "short_name": "S Bascom Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pruneyard / Dry Creek",
+        "short_name": "Pruneyard / Dry Creek",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Campbell",
+        "short_name": "Campbell",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95008",
+        "short_name": "95008",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1645 S Bascom Ave #9, Campbell, CA 95008, USA",
     "formatted_phone_number": "(669) 223-8955",
     "geometry": {
       "location": {
-        "lat": 37.2935556,
-        "lng": -121.932519
+        "lat": 37.2933279,
+        "lng": -121.9322672
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.2947875802915,
+          "lng": -121.9310583197085
+        },
+        "southwest": {
+          "lat": 37.29208961970851,
+          "lng": -121.9337562802915
+        }
       }
     },
-    "name": "Saia Holistic",
+    "name": "Saia Wholistic",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:30 \u2013 18:30",
-        "Wednesday: 11:30 \u2013 18:30",
-        "Thursday: 11:30 \u2013 18:30",
-        "Friday: 11:30 \u2013 18:30",
-        "Saturday: 11:30 \u2013 18:30",
+        "Tuesday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118096408046470317944\">mona chopade</a>"
+        ],
+        "photo_reference": "Ab43m-va8Yc3PYEGa5_CtXwVS72MGg1UZD2FmOKWZYe-mtzl8UmLZREnskEj3oS9Gh1KvqrzWPP-qjVNpdwgy6QkwDekW7yc8_yRAGLRJjz33LGb-Sh7TORsw4ONJPeuS9xFMijDCmFwyQ6Z-wQNhnxw8O1B_etGE5GiZ6whyPjvxdqUm_uUgKHfTCgaEXiWjqzthbKjRQnRheOoqjYsABQWi3ByT8XpeHCKh8ceNoaq56ul2KMNNrd8IBtfsHBoC1svjaI67DxESIZVwM4Vuyte-Gb6za02vz_vIfLcFtjB4fZJb7ShVW2RWAbd2ViEV2q0XlkzS6P2h00dkKVyEhzl9KVvWu4hfQbn3yCY-s7JNbQ4EtXCNVFC3ymqSJOSwPpAq14vrf_RZ6Q2ubEfRDbSmn_5LTRHVlXEVLm7pMxBU06XJ99CZUkwT_GlYrlVvJCM",
+        "width": 4032
+      },
+      {
+        "height": 698,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108404023142983910797\">Radhika Gupta</a>"
+        ],
+        "photo_reference": "Ab43m-vnrRKlIZC0d339LpEJ-r0leXLYGjWmfIdIMwiT4cZ7vLBUWOpIVo9Q-MsMIF0jW10FuUdyrbG6Qxui2Ihdf1kAy4iYPWIZuoM-3nprUfouNPYhm2CGblmmZmhwGWKYIzFrxqF_CQpsb1EmmxaH28ZsoYyXHPmBklGL_Kh-W9Aey_HhdLiRWxk74J-Lib0lIJjX7XyDC5hL5F-apbaDavt4C-5si5wVYD1FJa-nTRcE_DnnNEBWCr2KKi8QVo9E3YGoUfXiLkynht1GYBYs9nZ_qN188Qx7myVxqx4lPnP5V4S1hGdxBDA8Cl0NJTTmqICfIUnyJcBzS7a5pI8OUAE8eFt3Dem67jc6aXSqiUlRQxB3HmNNnFuYlLS9JwfecT62KSilS-gmt1VmR9KDxs5jKEqrDLwWt7WN9ZIZsnScfQ",
+        "width": 1280
+      },
+      {
+        "height": 1194,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118426274102150976827\">Saia Wholistic</a>"
+        ],
+        "photo_reference": "Ab43m-ucGckmLU2VvRNkpzfXEgcKXNkz_Hddzkax5oggR_6CR2UlCJcStH5jSEDKBEWiBSJNfMXEOz63zbv20uY6RdK2Xj0bR8gb9Tp-9C5F1EdSoNINGhjKPmol-Wdiaj2GMqn9iUWSK2VGQ7FHEtwPJoR6iO41TVX-vsLimRSuDL_1qaDc6HjCH2urJrgFd3hwQVihTjyVVbDuH0KPi8yEjFVuR4CNBtZMrAOVNQ0T_gizVmn-QsN5-0oT2VeYvjzKoCSOUvZ1kaJOEUVOYs1sNcyvY8YsOwjmA3ePCqbOFBmzIw",
+        "width": 950
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118426274102150976827\">Saia Wholistic</a>"
+        ],
+        "photo_reference": "Ab43m-tBSOPLwEQqhG11kglbFwXfoMUcCWjS8uTBnodbrYKY8-2hRmW6CLVdy0ZWiUvgjAxu4zjpaW60QloQbTjLnk47O0kISayZkYROrEjz5R_0XyKlRRczoOC8uKyUolj-ojtjumi3e6AJ1OoExnHpImphhuO4F9RNPJXYw31p_YDZBmcBeN9Zw_5uotGHCP72A-KGwcYgHsx7-mYKnMxyDFrnv0rIRFrKwA8M-BJgjafma2uR1Lmjnpy5cwnywTzdgEg9IxH8p_JwMp89YeHkwX7m3RvYEN7SCJdUZ590of1wcg",
+        "width": 3599
+      },
+      {
+        "height": 1323,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118426274102150976827\">Saia Wholistic</a>"
+        ],
+        "photo_reference": "Ab43m-t6meTVAmPLQjEdzrXWp60BgcokZO_lLNplZ9QlzLxzxCW56kP5VC0zo3Ygg-olYSCYAJOVbhhefw7J0TayvtEVAhZ-szAMGUcnGI-NpiWOUt-hyRPmkGEeI1HHTAO694dCg8iFIXOstiGDEYJZULrSx1Rn9o7nAMNjVPIt1DHqzHxKTsyPu_CeofHvpEDYxtHchkZZQ-Fw0a8Z61BEHuVQWMhJHGJPrfxnKtSj7n3RP41c8fHj7n_H-Z0oVNGvLXAZYDcP0TNprVIieW9joBTnQhdkmTRDC0Fj-MdZhcr3yg",
+        "width": 1320
+      },
+      {
+        "height": 1116,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118426274102150976827\">Saia Wholistic</a>"
+        ],
+        "photo_reference": "Ab43m-vqOI1ONQq1OSnakBe71LsYdOb-GuTgN7ZXcax2hZWF0XU3ZBw1cBvfdqjivonI9QEJFNOOpv91jmLOVXxRiNSdXRbBC9CHBALJMLQlctJ_Qh3fEzhHy5WTA5r9EaAMqtdhiMjUnMjZqjm01kNCz5WXjmdg6vSyq8EYYKyhtxGvl5-5sJzhgiCyvfDaHTnbKhVoeEPVz9xN62URl6NGM_KV-lq48vsk3_juvqH0eDNyVXs2PpYT6oRX9-xBe_7nx9ux1_3ue5AZhk0laxcHCipZjnHwEp-gpjAsREgubOk9tg",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115563338056661646866\">Danny Mendez</a>"
+        ],
+        "photo_reference": "Ab43m-vIacQeLLNcgNF4yM1Oakhzt9p2Dg-cSknuef0Mx5LjoOuTFmesQVWyHSew1F0VlhehK9n48Qi2Kzz31wRfjRKD7Gnn60cT6e2OVHswaqY9dECvkgZVL_QdX_i-WeU_Gpn1B1c3LyP7YkGUW-RH9UkNoFBH4nIENxgd414FLMlAP7SQSDWYfojPXmRhGddPjA4NqumV7i5uvCiFDbd0B1G2nruHizC_H_F92WXfb3sA87MaEfAYLVvfmPklFsom0tahC3KYoOZq2dXhB_ZjsD_bGq2aIOwXkEsRmNdvZlDPVzOUhJBpH-9qYclO8f0U6LlQ7iZ7o6kNB6HfvQ3N7k6ttdTyq_NKQYShp9AOMslo0SgTfOXG0ITpa2ymJFRvf3yn8osLNz7RxXetwAgxIKJINMMGSt-Jl8-UZiPkoxN5wEEz",
+        "width": 3024
+      },
+      {
+        "height": 966,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116889705735034117819\">Sonam Dhanda</a>"
+        ],
+        "photo_reference": "Ab43m-vEEiLnlsIv5nsuYY2f1af3UqkyR0SomaRxEG8rm4S07OsWhgZqckQBO3Oe4EgQ7_aK_Anz7et6qOJZf5z-uFS_6A-WUhWX287TxhgUcVp5oDKwBCK9zc7DM4vGZ-eMDrNVj1kBOaGdSMwWwcKjomij5PG6TVpYQNNAsSAXPbzHQlgO-LZkDPl-eOEzOwRHvMboAP5-dbAfJg8G9AiooPGP7NyyOJXKGqBhmcwcdwFTmV4IvS8e0-LQrhsxQgmk6m8tQ8bQpctqdtG1Z9KKwofefHN1_7GRqMF_qPSe7enVPdsFVrT4NWK0z9LJb8c7iutg7r4Nmuwsq32KTAbuqVd_GI60hBG5JKqKA-tYCN3hrf7Ha2o8KU0xjuGew0uJ0BRINHKtzkZ1x7mbWuPGAgluScGqr0TxPqlBJqIxn7WWnota",
+        "width": 1024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107842246984593187835\">RADHIKA GUPTA</a>"
+        ],
+        "photo_reference": "Ab43m-tg-bLf65JkwWCtFVjiRUogGMKvRVkpe1OcGQ14kXU33eQM_UIqPjfZABPpBqPpH-tCxaKHBi7nPr9bgWrAAB3ixnxRIZTS8JGeSoTtRu2BJXgWk3P087US8oqSQiErZUsCB-O6Kkl8ac6chd1HpPJgNfO0BQCk-2CHO-aNRfg1lIU4MU3_fRqwtcUVCDiUqnySE82xS50rghLxPjTr8wT1Ll2yWUN1lXeaiIr1_3eg-VKhEj7P0coO0UwbPk6aZc4fo7Yh8NZ6YqUYU-n8OmahF2L61i7z5m8Da1tZ3hPoTbgCq6OGcJWWnF4H8WSEyE1ibb0UdwSJm9lxkNCMd_zsz70ktXOZz1xAcxqGX6a71_WsXgVjyDvUS3gvXOd6gEycUAaOWIxGmIyEqXpGf54mC4PvqfhS2KNEkl2dUGs",
+        "width": 1300
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107842246984593187835\">RADHIKA GUPTA</a>"
+        ],
+        "photo_reference": "Ab43m-vejV-h3ssTK4kIlOy0ER5EWgS1Ztd2GBTaZxDu4XuUuWOFFf0fu3f7xg60meBEAuB2FHrWHPPfWXml5Iy0NSCH_eXP5fWfMvM5OtpRVMp-KmuHBPbD8_zyB3H4n7Zhp9P68h0beA4lsj3Y_Zb5_0C7qhOhmiHqBeOAKbUGiRBL2N6znXByR2VRYXEcUE_jQOVUKrxIzHDAQf4rEa4GPFLrHWST6vLqI4otgX8WyiRBNoKh8gMrk3EOnzW-iggEO6NwHXS1dya1JnA4h4tH2XS-Ohed8DUHQ2-THYnWwkts_LGZDGuWHF43S8kAgnpX8ZcBbeUoXP9Nx3w19zL5GkVP9sRxGdha7kibfSH62RME1hsTqCiBuKO1YL1R7tU0AURO5X_ZgRmiUq4sRSe60UeoomiT8VagVvJMDCvwu8qaK6Pk",
+        "width": 461
+      }
+    ],
     "place_id": "ChIJk4r9Ops1joARDzb5KaWnXVY",
-    "website": "https://saiawholistic.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6223314587911534095",
+    "vicinity": "1645 S Bascom Ave #9, Campbell",
+    "website": "http://www.saiawholistic.com/"
   }
 }
