@@ -1,26 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:59Z",
+  "fetched_at": "2026-05-03T09:07:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sun&Moon",
   "place_id": "ChIJwTyZwYfFkIARxEMYhaopWbA",
   "result": {
-    "formatted_address": "83 South Stewart Street, Sonora, CA",
+    "address_components": [
+      {
+        "long_name": "83",
+        "short_name": "83",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Stewart Street",
+        "short_name": "S Stewart St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonora",
+        "short_name": "Sonora",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tuolumne County",
+        "short_name": "Tuolumne County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95370",
+        "short_name": "95370",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "83 S Stewart St, Sonora, CA 95370, USA",
     "formatted_phone_number": "(209) 396-1154",
     "geometry": {
       "location": {
         "lat": 37.9844429,
         "lng": -120.3818979
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.9858575302915,
+          "lng": -120.3805939197085
+        },
+        "southwest": {
+          "lat": 37.9831595697085,
+          "lng": -120.3832918802915
+        }
       }
     },
     "name": "Sun&Moon",
-    "place_id": "ChIJwTyZwYfFkIARxEMYhaopWbA"
+    "photos": [
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114191951370284491351\">Miranda Hughes</a>"
+        ],
+        "photo_reference": "Ab43m-usaovBxLws0bJX0EWq1e-UT1wVC4R7L4eYm8G0lgBbgHCbHGOPyYLwhLPJbDGFavx3eOUQUoxD1zOYHtGtsh_p4WCiItoCS_WcFxnyk_QLzaE6NFwMsuKkjY7UiJc0cRhjT7wM097WU4DydqvXxc_fwpWV86hNtRUFXIYn7YG7Z-8JFGUI5lFV0qrInoQzTpI0VDidubbRaWRgew8Qf-V9sDpJl52SjK5tHSqA7IaBqdAcrnfuO9tHe_0_7mXuDxVeANz0xLsk_Z3qZG2kWEqnJq7HbnOvCHIcRmvVwOi2CQ-4ItlBCyOy3PRlZUqM8pPl08Q5VuB0Sp5bAIOJLAUTWZdICGXMqLGZmQTl4X_pZjpzmMjAxhIs2OD5X5n5RqaYu25RoSY4NF2KHnUh3SzHaW_OHG-wGtvB_gGPartKIQ",
+        "width": 3060
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112642446202002729378\">Sarah Francis</a>"
+        ],
+        "photo_reference": "Ab43m-sBREmqjAMkdpBOScVRytD4P7AKjTFr1_ruwKUlUUyxdIxCASOwn00UXcxXeibhHja3tLpJzAjnBc5MwwJiq_Sxpf6o_UWRGIg7Npl-iSbNhGaoWn7ecPKZRXA9s2XJ1DCQL7p7feVdcOu1vdqBNp5-EZIg4QZKRQ_M716Z3UBqSMFyC_0JfbzM05YVQVXxor2d7p2EDXDULFTccTELhpuqj4FTXooF-BMhBTzPE62RC5alKEABrVKsgZoOK5lLofIwKAfjOhVO3jeUvl5UHC63uY-wO_OiWTLPC1G-Osw7vL2BQmdEsQ1K_w_OJEtB6h9FRUDiyCHZmuKVtq96Y1bLE5zVQJk9lXyqiohlMtwMHVmoae-j4rLZ-nKTJH-1UHxXr_5qksDScRWKqQAIwdna_pmHTvqKqLwXr6nKElLReA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108054606529195308152\">Isabella</a>"
+        ],
+        "photo_reference": "Ab43m-tIXYnvvD9VwLE9qPgt3_MyJUAmuPP2dBEY1qw8_7ufVtjIYAUFRyRpO5WKPX0KjRxwzGFw4jFTmwwRZE_iPQpSP9Rf4_TLApoY11qoZEwlMLBQkRvcSW8cMopuIQcRCzlv9CEAACQh97pbsX8jWR0m7NgZb9twdfHgL78N8TiEngPeMdATXhqFjGL8OyZ3RJKRkTzbDKJM6GDDfeKYRJbufKiXHeG_KhoN4c_T9c0AraskzteFl0a3B8xvX_brZ9UhagfYvmKMZVwa_QpmLzXZtXyeRPX7qVxB_uqpSdb9Y9AN3RSutVVQFJglGMZ4T2guTs3w4ap_fS_p0eefvWqw07OAjIuu2VpT_uj2lBdzVN6dXkezFHAZ2ZJZhoaHPDJRX2s5tgOTMaOZxr3ueK9pqai25RhOOanB5UeRe_PXXQ",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105056519660715120099\">Jennifer Guhl</a>"
+        ],
+        "photo_reference": "Ab43m-tDUqDbM5c0wdEk6J-NbY8qrpNGiF4gM15j5hpo8VuTGv3z-QBA0esguJImIacmaGu_OmdZxYFjR4WkAsz8Wbo-w2msLFQz3abkrpsEhyB_s1Yzf2qlWtO7waI8q2Sc6jLpZhRRA_NWr8evUjkZAAARCLL73u7SHqame8F-TESZtQupdcnK0zqaNPh6adOJWrIGPBFDRvqQUTblzBPT46t5AqrjkCOzgzNRkJQfKASRDh2A9YoVcTu3ghpWpg5oNnwI2LVORxJR0xWvayABw0oKdgmQnP9JNSrHuMQKOSM2UxYL58GsGV9x7CWuZWESGzBXd8FQj-P_FRSQsp0D8m-auY4G2pwVtIbM1eQxFjZqLkYPViKy3Hkp8-sN24lckAQWuCPGvaMHSpb-veTEPc7hLO7hH3PJgjX6izGiYTE",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858717095720173684\">Dawn Calin</a>"
+        ],
+        "photo_reference": "Ab43m-v7WCEPP9KBVxJ44_Z2sUWWPCaM1Jer5pVVytw5uA_ZbfCsG544A-QWhTTlS6I5WA09fwU7CEPdtxd6caK-9J-svhU5CRR9AnkZoPUgz6astxxXwrIq7ABJfmfX4pYKhAmjoS9F3o7oynOtB2iq22sPMouHzNlVNsEcHHKPbhxscK0IK5NoyBkZGtws8aEyaF_5oHA-Yzz7ck1GDsd04LVeRn53FyTgMDbgTDa9E4uLzqPyRXVYhOxBKJ0q6HrVIBLzL9pBzMMIREGiGaA59ac4cBIZz8GOOrKT1F1Izr2LD_XkSsIAxG2SA5k8hOVhA7M1hrSiphWU9Gq50-_DWPsJmZ1Efpb2iQD22qVU4RCelP0nXZqnjJT6seoCBvTLzLIYKSGNlcbBTFB2TrsYbtt_HmmCeYeqLsayZyowdQJSgA",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106230738732338782288\">Theresa Cruz</a>"
+        ],
+        "photo_reference": "Ab43m-sx69BxdLkWeXpxHB3IvZF3xD_-asSECN2ICHKKyEcPCRtsR21GzTVAVs5VbTOcSp530kbFjwsQ_nytkZWGH7RaLP_2RoCNEngC-inOdxSONKzCa-rnrBaWsqZqZx7_XB7t-uEqxmquyWzgwUWeOmZH2nCkDVonzmYAWLgjBRiqiHCrWmk5Z-NSMxefHJKE5QP0QmSDSdH5y5YnZE_mn8q3gCjpqybiUn90Zd8UGgj8u7EDIpSAEBVO0YcmpPq7bmkkhudKIsI5-v3pH_MaGj-6qXH81cs6T32CLoqcw1x81kYSTAvdNUaHLYrBsS2uARI-u0TU3h52JN80WdLIIsibNY1jM5iS-mfufIegos62DGE6QiyIsMJRm7LBNZGuHnymykwV24U-jTNxB3WoW5F-pBi2SGOra8aRv9K2VGbeuw",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108054606529195308152\">Isabella</a>"
+        ],
+        "photo_reference": "Ab43m-vSxHM2mwyY_07H154YF8Gh6nDLZpVAQIU9ZRbjJtSTIuiCiyosYKaBdBG1uyPZzeH8L0TIZUkS5urc2tHO7dhs5gUYsExSP0kS9VszImuQVX-DFR1eZR0dAv2ZZiJPoSkMvFveaIMsoRL1E0DDZXEg1cqEKLv_yUkpuaAXUPblsGIRE3jf6phoEDx5q0W57vxJoD2cguakM9nXSHmKqKkgKvo6Dsqnjwznvm9iRKOHUqFe1pI8QC80PF2sbP__P6xHkEOJLvPxsSTQQzb_qCRKwc-pQVpjFYvw596sbvYKlmdnCnGyZHVLVuuev29DbPm2mLiqLVZOtIaZQtCI6XJPlqr_kL_VacW715oAtCAuSvGMWrIzAF2mjHjS6wabAHyFppiBpe3mA00jw5lxfedsG87475DuFyOktkjm0S0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112156105342243978682\">Jordan Phillips</a>"
+        ],
+        "photo_reference": "Ab43m-tIIE7HQ5AXErBszMiOXa3I4zYVvxhS0myTFki1mcQHaD4s_CoUdDthJvLFhkvuJhA-A_tReFhrQ4yeian3MusLwXQNQiuL-Y8uaoLs06doWGY1n9umMiIarl123OdS9KCzdwkPyLUNPIMOgfEzlTNof0NYDWDKRLN0oAhzbvbOBn2rARL23iFm6nScKK0bH7TChx5VlnaHLg90tL4xhT5J5LZWCp5B0SpAWwf5BXx1LTS7uScU2_mfZvYfRcH-SrLA3txkS2vOCklvUfHXCNtzNxqm0bbsi-PY8PkY8YNd0fYsFMuqLziho8iiU45FZCsS1k8BhD3y33pQb97QZI8qVBnuUU_j1IbMh7X8BCFt9ro5uZjmcSFeQiuMDPfRcB25O-Vz3FjFCXyueW2buk85GZ-KhO0cREtHKaNa8XozFUjW",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105056519660715120099\">Jennifer Guhl</a>"
+        ],
+        "photo_reference": "Ab43m-voEVBKyKNpKmIEQoYPW8tgioOWSvdIWtBXjfHjtVXhHdvOC2cDzkPD-vhOr0OsAKZ3Kxzt0OJ28_mg4ZcTEgCXlqnvSXZ5POiib3gca55rSxVIYoNbEQ2BWtU9CF5gy5fpB7b2LzCB4XTd9lfM-ev2MGY3Gj13DU6Q2AZh515Atg1uUGwGVk6LSbef8JdoXYekrmkSTji41pcwhQe1-WlLBBdZka9b2F5oe5TwBTZ702uQraiq2m8HSYnaBIqQHE8gw79wznjRGTJFX61-cmerTrSCTWR-ZuU1H1efRbLODhlccIPzkYrB9o5jjDrx5SkM9-tI-G3uVXg1CsTlzuLCfhv4P1msfb8VhrZoV9crIKGaDNRBuCN3t7PZj3jFO7tsuNlZK6mddtCZUESMx3lUf9XcbsGK6h4OvlO_-uPKVRs",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108054606529195308152\">Isabella</a>"
+        ],
+        "photo_reference": "Ab43m-tV6D3KsUXMZ4lphGnzDwRpHn3WfJfouJuXtbgElh9YW8rSHXYT0VmXwnJV3bztZVEEuoOyh1lb-sFXxAz-eC7sIPbVbPiFbfGrpBhlXaYtHiqVZcbKZzbfo46SuIrmiWNWvzQjuCs99Jah98QfigMgRayYvOhDqops-cmcwEXKGG4RgyrraVg4kW8n_5xAO-co3j48tzrh8Y5qD16DgbNAUnVY0WbzFj7Rk0SzHy8-qXkaPTdVtB0cCpPDniGRdfRhW575dq7tqfnWyYVuiYRn9JRWTO09kgNIG4jWe0h2b1E7lyzUnX6_VWtLlwuujnBe3yt9xZiZRR0jynfnv-W8GRepoowIvatx44AmYxhb4OwOPUJzcr_8CQhxQVzol4J0k_jNOZOHJQGxOdipGEA3QJQ9Fb-bxgyCqwkRnO6Dd4gS",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJwTyZwYfFkIARxEMYhaopWbA",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12707233635956704196",
+    "vicinity": "83 S Stewart St, Sonora"
   }
 }
