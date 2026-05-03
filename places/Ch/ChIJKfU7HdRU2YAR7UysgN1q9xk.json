@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lazy Acres Market - Mission Hills",
+  "place_id": "ChIJKfU7HdRU2YAR7UysgN1q9xk",
+  "result": {
+    "formatted_address": "422 West Washington Street, San Diego, CA",
+    "formatted_phone_number": "(619) 272-4289",
+    "geometry": {
+      "location": {
+        "lat": 32.7503968,
+        "lng": -117.1678252
+      }
+    },
+    "name": "Lazy Acres Market - Mission Hills",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:00 \u2013 22:00",
+        "Tuesday: 6:00 \u2013 22:00",
+        "Wednesday: 6:00 \u2013 22:00",
+        "Thursday: 6:00 \u2013 22:00",
+        "Friday: 6:00 \u2013 22:00",
+        "Saturday: 6:00 \u2013 22:00",
+        "Sunday: 6:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJKfU7HdRU2YAR7UysgN1q9xk",
+    "website": "https://www.lazyacres.com/find-a-store/mission-hills"
+  }
+}
