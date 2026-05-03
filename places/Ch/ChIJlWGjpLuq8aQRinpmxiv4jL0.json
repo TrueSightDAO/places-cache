@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mysite",
+  "place_id": "ChIJlWGjpLuq8aQRinpmxiv4jL0",
+  "result": {
+    "formatted_address": "5902 California Ave SW, Seattle, WA 98136, United States, Seattle, WA",
+    "formatted_phone_number": "(206) 588-2445",
+    "geometry": {
+      "location": {
+        "lat": 47.5501567,
+        "lng": -122.3868348
+      }
+    },
+    "name": "Mysite",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJlWGjpLuq8aQRinpmxiv4jL0",
+    "website": "https://mysite.vagaro.com/westcoastwillowapothecary"
+  }
+}
