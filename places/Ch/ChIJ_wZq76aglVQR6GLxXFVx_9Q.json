@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Clary Sage Herbarium",
+  "place_id": "ChIJ_wZq76aglVQR6GLxXFVx_9Q",
+  "result": {
+    "formatted_address": "2901 NE Alberta St, Portland, OR 97211, United States, Portland, OR",
+    "formatted_phone_number": "(503) 236-6737",
+    "geometry": {
+      "location": {
+        "lat": 45.5591257,
+        "lng": -122.635803
+      }
+    },
+    "name": "Clary Sage Herbarium",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ_wZq76aglVQR6GLxXFVx_9Q",
+    "website": "http://clarysageherbarium.com/"
+  }
+}
