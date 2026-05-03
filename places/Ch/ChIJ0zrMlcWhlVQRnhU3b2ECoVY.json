@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Mossy Tonic \u2013 Herbal Goods & Education",
+  "place_id": "ChIJ0zrMlcWhlVQRnhU3b2ECoVY",
+  "result": {
+    "formatted_address": "Southeast Salmon Street, Portland, OR",
+    "geometry": {
+      "location": {
+        "lat": 45.5120721,
+        "lng": -122.5929547
+      }
+    },
+    "name": "Mossy Tonic \u2013 Herbal Goods & Education",
+    "place_id": "ChIJ0zrMlcWhlVQRnhU3b2ECoVY",
+    "website": "http://www.mossytonic.com/"
+  }
+}
