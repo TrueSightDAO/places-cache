@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Battle Ground Farmers Market",
+  "place_id": "ChIJf0mUB3a1lVQRAJvsZlifXpg",
+  "result": {
+    "formatted_address": "15 Northeast Grace Avenue, Battle Ground, WA",
+    "geometry": {
+      "location": {
+        "lat": 45.781619,
+        "lng": -122.5289153
+      }
+    },
+    "name": "Battle Ground Farmers Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 14:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJf0mUB3a1lVQRAJvsZlifXpg",
+    "website": "https://www.bgfm.org/"
+  }
+}
