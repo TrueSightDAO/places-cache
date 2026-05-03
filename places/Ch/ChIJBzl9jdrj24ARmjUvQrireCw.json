@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Swan Apothecary",
+  "place_id": "ChIJBzl9jdrj24ARmjUvQrireCw",
+  "result": {
+    "formatted_address": "11937 Woodside Avenue, Lakeside, CA",
+    "formatted_phone_number": "(858) 215-1103",
+    "geometry": {
+      "location": {
+        "lat": 32.854845,
+        "lng": -116.9353078
+      }
+    },
+    "name": "Swan Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 14:30",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 14:30",
+        "Thursday: Closed",
+        "Friday: 10:00 \u2013 14:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJBzl9jdrj24ARmjUvQrireCw",
+    "website": "http://www.swanapothecary.com/"
+  }
+}
