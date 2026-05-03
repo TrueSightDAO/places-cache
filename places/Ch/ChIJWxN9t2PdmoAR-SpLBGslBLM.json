@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Botanica Village Apothecary",
+  "place_id": "ChIJWxN9t2PdmoAR-SpLBGslBLM",
+  "result": {
+    "formatted_address": "10112 Fair Oaks Boulevard, Fair Oaks, CA",
+    "formatted_phone_number": "(916) 709-2280",
+    "geometry": {
+      "location": {
+        "lat": 38.6409341,
+        "lng": -121.2699806
+      }
+    },
+    "name": "Botanica Village Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJWxN9t2PdmoAR-SpLBGslBLM",
+    "website": "http://botanicadeb.com/"
+  }
+}
