@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kindred",
+  "place_id": "ChIJHQOS7aWplVQR7lFDxbXV4ZA",
+  "result": {
+    "formatted_address": "2213 Main Street, Vancouver, WA",
+    "formatted_phone_number": "(360) 719-2745",
+    "geometry": {
+      "location": {
+        "lat": 45.6382165,
+        "lng": -122.6712031
+      }
+    },
+    "name": "Kindred",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJHQOS7aWplVQR7lFDxbXV4ZA",
+    "website": "http://www.kindredvancouver.com/"
+  }
+}
