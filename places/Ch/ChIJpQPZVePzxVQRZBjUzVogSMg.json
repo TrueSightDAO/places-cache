@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Popp's Apothecary and Oddities",
+  "place_id": "ChIJpQPZVePzxVQRZBjUzVogSMg",
+  "result": {
+    "formatted_address": "21891 Oregon 62, Shady Cove, OR",
+    "formatted_phone_number": "(541) 263-8007",
+    "geometry": {
+      "location": {
+        "lat": 42.6161402,
+        "lng": -122.8118885
+      }
+    },
+    "name": "Popp's Apothecary and Oddities",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 18:00 \u2013 20:00",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJpQPZVePzxVQRZBjUzVogSMg",
+    "website": "http://www.poppsapothecary.com/"
+  }
+}
