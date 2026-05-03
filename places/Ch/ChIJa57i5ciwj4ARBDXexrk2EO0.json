@@ -1,40 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:02Z",
+  "fetched_at": "2026-05-03T07:06:35Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "iChakras Smart Healing Center",
+  "name": "iChakras Smart Meditation Club + iJuice Lounge",
   "place_id": "ChIJa57i5ciwj4ARBDXexrk2EO0",
   "result": {
-    "formatted_address": "398 Main St, Los Altos, CA",
-    "formatted_phone_number": "(650) 797-8077",
+    "address_components": [
+      {
+        "long_name": "398",
+        "short_name": "398",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North Los Altos",
+        "short_name": "North Los Altos",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Altos",
+        "short_name": "Los Altos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94022",
+        "short_name": "94022",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2805",
+        "short_name": "2805",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "398 Main St, Los Altos, CA 94022, USA",
+    "formatted_phone_number": "(650) 785-4190",
     "geometry": {
       "location": {
-        "lat": 37.3779829,
-        "lng": -122.1177077
+        "lat": 37.3780259,
+        "lng": -122.1177343
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.37930808029149,
+          "lng": -122.1163369197085
+        },
+        "southwest": {
+          "lat": 37.3766101197085,
+          "lng": -122.1190348802915
+        }
       }
     },
-    "name": "iChakras Smart Healing Center",
+    "name": "iChakras Smart Meditation Club + iJuice Lounge",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 17:00",
-        "Saturday: 9:00 \u2013 17:00",
-        "Sunday: 9:00 \u2013 17:00"
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-snzYZVSqeUJ8ziL0tj-SfMm4FuBpqHT1qSPF0AYLBjZ7_sHmC9t7HLiL8A0knLMf5nPiqd-dhwRFlx2SDsmAiF5dKdZKrLXq2ynD3-vVee-EuztREXpbqqsc1ErPk5Z0SZfTKwCEBy-CVfWBUuQ41uiF0sd1ZquDquRLsIawysuy1lSdC07Vb2Fr1L12QshKj8MZLFOZDC9M8Qr8MUGF8QGIT57D4F1aAHt38gHmxO7Qx9zpVWBiW5vPImwjK00d2qF_5xBmbeT5rKpdbWLrSSU2L3clLaUJWl9b8vc55C1g",
+        "width": 1800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-s2DtYqs6WZl7vF6wiL-tQ5iKqhqJRtbmCVndXXkZ46VukJl8iXB8zuvIEwTeU4FY1egWMi-Z-ov0bAhKg0RHnonnUy_m-UhImucI2LeYp9EALSq15m_Jd-HBIED8xJlv0Rx0EtYlw99ak13VOj5WFdTzKYSUXLmI3au0K6IKVfIxnlJnzqiUYyMT4qejdIT-XuWjeid4XwhXrUMx-04lSQ_xQdnYspQ_dnL1DKxfQZdoZQmVQA_Z4gNnG9EK3QxKWvfN9dIFPv72iaMkrvDW3nMYu2os0uBDQ_QQ90jvvuIQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-sABSxYgfHWJAVV55Zx0fBqR9S_NLmj7Dl2LN_AYifh-6bVj2cL3OKGoXmjpYTQe9_IVXwdPxJq9qJGvlyNZ0Q08dTOPFpPTbZucuV8fEZX3TPJZ4QUfRJxFrwXsBu6JKcZ-8uJ8uGU5LHUhX-2a2MAjF-CDEX8iakG8BWfBjehGaeOOVeis8U1D4jHHb9eqcgHBx38ZRskr3VlcK-Zm2Y3lqMk_EnuN0pq5w7jUwb3vA9PCbBKLVo5Livrn6YgRokZZOw8z-XUgvsaDZ2j9BmG46RJQO5QfVZ6_8gPl66q0g",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113305919995230455128\">Alex</a>"
+        ],
+        "photo_reference": "Ab43m-ua_-wMM7QekG6CeusQUrzybFotqSHS4qDK6sFi6QvVIREmRNuEMj36n6rZhyXBkaHsKld_QBrf4_uoOPCiV1f4JYmrAEkuwpsf-AK5tp_G_Bh8aWtur2ExII1xQ4eW4xXvDqecIFsesb6lVD--ERu95DrLNs7ZSpOirxVWMq5UheqWPQjmUeQtgxUwDYMVLlfQAvsjDjckIFHZIhtSf_9futyVNEvk9I3yarssuVGdrBI7DDRiwz5XkDQJCNa5i3A4_e4hcRL3-ntzW-pPCT3jvG1FWF2i5SaKMWgtoUw0NfhohrnkZslCqBg5UsAytQQllYcDpfu70Ia2131gwTtvHpGlQ0Ii8lVxUgzzFRhVVTOIHN6kun2ru5E9FiPczUpmwmpVv-5zo2YP00y_bZs3bDPLQyWjMZ4xKPFXYSL5aA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-vF3IwtQsFZRpUPhRrHrFHWMNlXBjtkl0pftxSidqQl0r7uJyT98eoUyG4wJSWLnnpnj_TY-yT_51RyjEDLn6XAEIM6a6vwHrS56FiUHAyEClnrngB0cytU3OscaUrU7-Qsy1zYiQoMEcZru1yCoW_ysUI6zFIUMHjDqYJpJAxp0KtcPMKK3eWKnAyV4VaGIN3uQLiPEQSqy6lUDkAStiEKIpymoI6K7STc9PRHlfgAOeleFj6DjNoz-RicDjJmFqbeQtqsyl8fxpwmDQcJ9Mwuu9akAMahmEIRqXA3Bj1tYQ",
+        "width": 3024
+      },
+      {
+        "height": 2275,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109849026903893201606\">Jayasimha Nuggehalli</a>"
+        ],
+        "photo_reference": "Ab43m-vdI_g5vvLTyb5YnrFxI580ELVh0n-DG6QNX2ueFS-CNVgUFyN0pHwg8Uh4DpQg6aI0T4PGk74TWTIm3QejkDjBFg21_4p8VnHkr05VzjX6z1zHN0d4J79UmR3jZmtP9hLuu9dslfytrhr23Uur3fQCNKMGldTaTg5xoODYfJWZtsriT1CYad0fqx3DwKgOljvXWIBZTfb3SkCblziOaItdteooQaMsbfkACKMSIRpM5-DT7nCvn03TXpkF5qyupHLg1XMTxlrhWKA75BtzpdO1sUKjG0xXiPJIlJ0rxwivYwvXG2m5Ic-4Haa6kf_1vZHgBDJUscol54V7sJn5GOQ__tQ6ZcD4L60_Z_-GtmkXl9ZdqCPRIu9f8U5Nn9JDk2GmAlFeqApSWBqj0Xvdbm_CYcNg5YDmiNY25KHVCc3Oqw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-s1v9N7OSpggfEKA-aycszDxMfbyiC5LoVXA5dgBuMgNZTRLN1pSn847qyW694I6c05oWP0xTaR39MnlYXDnmNe87N2vb5RskmDBR7Mtseeu1IG3XVUXctBzQCkUlL-vp0RdzvtKWb0p3Gbn2OBuu-EqtPhUE0mAM6aNnre0pVQrU_8i-u5jMZQieJwOmSTqZAdDu08ToOw84cqDNrQRkfT1sBogw3q1ykm258heeijcOmrwubm9TMKS6x4pMBLzsA9a5lnjRDlr575iq8pxD_DGrAStuRHbX-M3gAS80Z1kA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-vNSvnvHO6uX-cPwvGBv-zd7LVMKTT1wo_FxjqsqoLHIEkQhG-vHQTgh5eZDU3iha8AFGOjle6fSYiKs5_7cFcCN_GhBrDiNPHIP8GNdJQiT7yJ2JMfHKPllkTPZJw6Ym92_MKHtlpgqVMqPL3Yp4nUVATYhO_C1Agr2O_vGdAwKS_crXyTNUlfYD5AD6MyOpRNBi0LrMJmDIy8uOFShynGG6xc-wWXJv209euwdhzKQOl7xnIiwYkqYGU4hsye2wL7OTTET5KxotAElHFmyRWI5Wuh7eCaZH3AIKmzKL3H9g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-vrY7lqVTybRnNXrJ72puuhtkDjMAj5oOIDIcV_PjJZFMoc9JMfxP_bjb5dPf2yy4QfYi4n3tWAb3pO74xa7QI3IkTQjp9SURIJbbrpn5pCoFtVfm6FP3j1uTvwTpkNg1Dk6UYa1aOuPotCP33N6Z0-Z9ZKDkv3olGOm11VOMWC5sHnyf11Z7tEBwXtperqlIKMyrK0PRLDucw5ps_GQC5N76uTQm-QrZol94_xvD3Zg7vI3zuwtc6d4oS0W6DLyfSoN38RETG5J4xQpISCbixgDb7cGSKt_ik-9-n-K0SPfA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116382325546779981501\">iChakras Smart Meditation Club + iJuice Lounge</a>"
+        ],
+        "photo_reference": "Ab43m-uk9m6BY0GhgVkSXtYwHqKcpZxjJY8iUm0lXuEHSNrN2EkuBfQ-thVYmwOSwj908qR1EnTlyX8lJupoddD6_TcNlf7oKmNuQbv1YTnIQQ3aMizsS3i8vkS1_jemUWVyg-_RXDz9ReyjhoW4Srf-CNI6uiuqYHT2s-9uNwKFhxsGGTONoDtE9hb3auZOMxZOcME2EcLU_64YjpZHyYBQsjoZdTN9kVWam8MPFdn-Qff1ulYtXQa3BkD1Yl27OXuMJYkMAi0i7b_rwyUtewQdi1z9K9muyYZ0Dp0nrLE8K38YXA",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJa57i5ciwj4ARBDXexrk2EO0",
-    "website": "https://www.ichakras.com/"
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17082213558149592324",
+    "vicinity": "398 Main St, Los Altos",
+    "website": "http://www.ichakras.com/"
   }
 }
