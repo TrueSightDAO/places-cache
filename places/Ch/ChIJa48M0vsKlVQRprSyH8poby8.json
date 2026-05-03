@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apothecary Shoppe",
+  "place_id": "ChIJa48M0vsKlVQRprSyH8poby8",
+  "result": {
+    "formatted_address": "5005 S Macadam Ave, Portland, OR 97239, United States, Portland, OR",
+    "formatted_phone_number": "(503) 244-0726",
+    "geometry": {
+      "location": {
+        "lat": 45.4869202,
+        "lng": -122.6758311
+      }
+    },
+    "name": "Apothecary Shoppe",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 16:30",
+        "Tuesday: 8:30 \u2013 16:30",
+        "Wednesday: 8:30 \u2013 16:30",
+        "Thursday: 8:30 \u2013 16:30",
+        "Friday: 8:30 \u2013 16:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJa48M0vsKlVQRprSyH8poby8",
+    "website": "http://www.apothecary-shoppe.com/"
+  }
+}
