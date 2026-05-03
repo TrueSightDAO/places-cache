@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Holistic Haven",
+  "place_id": "ChIJi7iNBF0k6IARj3O4-Aiv6LU",
+  "result": {
+    "formatted_address": "890 Hampshire Road, Thousand Oaks, CA",
+    "formatted_phone_number": "(818) 865-1900",
+    "geometry": {
+      "location": {
+        "lat": 34.1546445,
+        "lng": -118.8303234
+      }
+    },
+    "name": "Holistic Haven",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJi7iNBF0k6IARj3O4-Aiv6LU",
+    "website": "https://www.holistichaven.com/"
+  }
+}
