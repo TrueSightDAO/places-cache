@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:58Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Brewster Nutrition",
+  "place_id": "ChIJR9Y5ZtWbwoAR1Cu6q3x1fDc",
+  "result": {
+    "formatted_address": "7121 Canby Avenue, Los Angeles, CA",
+    "formatted_phone_number": "(818) 881-4251",
+    "geometry": {
+      "location": {
+        "lat": 34.2000282,
+        "lng": -118.5348888
+      }
+    },
+    "name": "Brewster Nutrition",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJR9Y5ZtWbwoAR1Cu6q3x1fDc",
+    "website": "https://www.testlabinc.com/"
+  }
+}
