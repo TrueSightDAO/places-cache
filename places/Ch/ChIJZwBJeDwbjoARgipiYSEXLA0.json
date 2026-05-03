@@ -1,38 +1,277 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:52Z",
+  "fetched_at": "2026-05-03T07:07:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Salud al Natural",
   "place_id": "ChIJZwBJeDwbjoARgipiYSEXLA0",
   "result": {
-    "formatted_address": "428 Main Street, Watsonville, CA",
+    "address_components": [
+      {
+        "long_name": "428",
+        "short_name": "428",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Watsonville",
+        "short_name": "Watsonville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95076",
+        "short_name": "95076",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "428 Main St, Watsonville, CA 95076, USA",
     "formatted_phone_number": "(831) 406-2571",
     "geometry": {
       "location": {
-        "lat": 36.9107203,
-        "lng": -121.7572835
+        "lat": 36.9108137,
+        "lng": -121.7573195
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9122099802915,
+          "lng": -121.7560915197085
+        },
+        "southwest": {
+          "lat": 36.9095120197085,
+          "lng": -121.7587894802915
+        }
       }
     },
     "name": "Salud al Natural",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:30 \u2013 18:00",
-        "Tuesday: 10:30 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 10:30 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Monday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJZwBJeDwbjoARgipiYSEXLA0"
+    "photos": [
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109443995042788293127\">Salud al Natural</a>"
+        ],
+        "photo_reference": "Ab43m-thQOPXR-wLb6FzXBCPRWg1vCxEVLWqCEbToOpXE2gCJ76fTIrXf3oH2ZN9uy71eoznEG184A09ghOUeg-R_pjoA6RP59Hoef7g_5EFUw9dES8p8thE2cr-IJMbeHBQK3TZQPP8ykWz6OOBLdlT39Yn6VdbPhHAQ_5Vf4QJtHnUkOTzKuRFZr6G-p2sp76Eh9iZSWYL4jajEBiEZCzZvgqM8qKxxCe-c-3jQVXYjzSkBqmpL8qV405S6b4fcKDhlIQk_xkFv2hrD6Bw5Vyl9saISsO_YIAp21Mh_Ln4Ot4QcQ",
+        "width": 693
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109443995042788293127\">Salud al Natural</a>"
+        ],
+        "photo_reference": "Ab43m-ufdJxKWfuBhdRd14EJLW-OlfWyHcbBJGjaEHnWd9HHqxWG71TZM0APav3CTOPbvzbD9bN1WB2QHFhL8lZRpHFCPMJ2xs4vb-CV0qDAmvHmNEvRoZphmdZpotRSl_SdsQCB5kMu2BWBV5xqg0hIH5D1mY7lzm24wAJKmILSXnqg0c73UdKJAQXHm99dLphzLavSv_yx9gVn6VGNLp57YP-Bq6nxISSAQxdcQW78JxIvuZq-zkJ1Oty3UaoVhxLB9oE9TnJ0Orfb-kSBdOQrd5IqfOgxjF1kSGl4hT06OXox3A",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115912827568537784692\">Antonio Villanueva</a>"
+        ],
+        "photo_reference": "Ab43m-v-S6cq9eNSd-FRYqlIkpUICQo9woxAKDegKHtiRVowgKimzj3IYDqgwTxenWu_kDsp35QrvhylD7Vs5V56LUC9aKtxoY6Nu7VCmM9wTN6c78cja2Jfg7hBv-oiBT1L_WdMmnsoTnPi55n2VNRzH0GEJKua-z0y_QOzH3k3A0PftUe7wDAK_KeCwhTyWieuORcYEYodWUSTcegdNmZun79hayiFet9DcaS1IzOSDY1K4TwdxQovFgGd9w-k7QMmBFHlBMNMb4VlZhxyWUiFrdcIPSJyrUQ8cGOSvV6wld2-fXtnIicVy3Mg3dOnlARyXS8DYRvn2zw52fftVrjtHaqI2kdwfGbOcqnbUr7xy07nnnE4I3KSmzNx4xHSUnWpYJhqmxEtLkfUIr7nT7Cb6T7usES8rcQEhldKAn19BNhNybA",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109443995042788293127\">Salud al Natural</a>"
+        ],
+        "photo_reference": "Ab43m-uEbs4jWf_4TKEr01Bx-82hsCYrWkvvCLILndD_7n67iPqG5Ud_eCDUs-MX_PrQHh7TgztdggH4v7ILYTNmdJTVGJi9sOsWUu3gNevhvrWnkINbXU0-NDq7_Z25BoEsLqwFvRgE3f2sfVBMqPIStyGfJ7424s-dinmaDq4zYNN8mWwlf8CnNvouXdUZgr7lbLnT2zRMJfzsGjrsaAzVKklMwmWg_u7RQJMH2twNAUnWm1VSVW1YCzmfxBPA5zEaVso-JIazL5FgpW1QBQxxHTHBxNW6HkcNMPkWnKRDRk3NGA",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109443995042788293127\">Salud al Natural</a>"
+        ],
+        "photo_reference": "Ab43m-urCiqoSxw8EFRElmlCOGcdMFlKkJmxFrEK9QfS8pTTddxVecgr-re6DP1o72QYKjrN0jDqO76sTwaVNs0MRiZgnSxzOezSynUwXGxE2HfRc2vkkqHFKov1nTBSuWSLkbbcCICwMtXOxQFBcEGvidCv5b9TUSODKG3IuTUm6VAaks_efWWzvVE9pHgRdvGuzX5dQVCdOcEU1JgF5sEeWA0sIxwZ1wch6b19M8MAAPUcpf-gKP9D6cdcgqE67cqlSwws8XNpMYDHrhaGI-ONLpxXoKQgCAxyPXnJfpPpt3XkCw",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108904033452486480703\">Lynda Villanueva</a>"
+        ],
+        "photo_reference": "Ab43m-s5vJtmx325kIHZn1LUK2W2GMSzTaVNdCN9pQjlmBuMnEJiVhrdLfWDQMQ_3T_HzDvtQWSALIyQpAlG6pD_OjIvpypb_DQ2i80YeG1hjUhAir4gOsDgCcqrqYnpDboKnUrtjZEhyERUk4o469bxhDXR_x_h7oNIBcpd6_-gnB3-05V0w65vdM_NdprMyEl1PAf2CgwiyjnrAUvYusEBUmuPM_R8PnBIVgna8CRPA2SjHEG9mEHZ3JuQ5062IavvuyMRx5tnqFgZb6SEConUxSPg2UB7wZ0Q4Uj8BI-7gGlS7EsZFgwWz_u0amGtEkaWNkyJjuxWGN47VIRQbVHnp6AqT5ER6Jasw990cyUWB4KEY3JpctsJ0YjMiVSa9SV5jrO2Cmt3hDhu5KcHx_0GajalICwA18hP8M3ZlKWPcwRpzjyS",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109443995042788293127\">Salud al Natural</a>"
+        ],
+        "photo_reference": "Ab43m-sHvr0kbeecwbqEwG6JkFH8ghrO8ifwPSxbqCF2WXY6E0aBD9GJU4NWEFRpqGR80Fa8kZlQD_hYcDMSfsDlFx0oo08fBbW9M_IdCcrfPyfkKTcCxyDce2fqnJbcHm_jEw8K_Q4Am_jUJk3qfUaVqgGVtRXsF-xN9R8Ovlx2Lszh9m-ZsfRfgNrSG1P0-y2aP4rXr-jZTp1Tl6Yz5Rm9Mt97Jtzbp-mssGLHONIoT2BogFjgnLpYVxR5Ayzta_hM8qdtVUNIfixDphgiuybJXhQYhSvp75a9j2sFACj_PRPS1Q",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108904033452486480703\">Lynda Villanueva</a>"
+        ],
+        "photo_reference": "Ab43m-ucG-9oBbha8qCbjg_vQKlpO_s-o4qvKY7HUNsBDOoDNCoKSnWvXIK0UB-f9-aEzUHgqy3K71JsxuwPRatJJP1tiOV3wEs5V8pO4cG-QWCsxo111wuTOZkDWdXrdWqKBwh2c03mebg-EGgvohnHtU2rRCjGf6x8-Wg3C50OGYsGUhObrIdjkjSeuOivbuYZmD7EQpzWUG1FE4c0da3XC8kcY3B2g-2pe0UObwQsF1Q4hSRWsBRJtNeJelOPydKRtQZouTlt8Kjq8hQKeGa2Z6GJkW2ztt4tK8-Ih3eQyPqiYsXhp7pVLtHjv3vL-q1fIVRdwzie6Yct2AIDi2YhGXH-lNIkRgPyb1OU2YL16p7LfkimWvYnru6PSBtXbW5QAIubpx_WVQGwrCyYSP2aCMuCAe8kqFspaboOT9Pn9NcR6w",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108904033452486480703\">Lynda Villanueva</a>"
+        ],
+        "photo_reference": "Ab43m-su6jNBZjjYqrH95bLJb2ILUvKMR8pgUgN4RSmBV5VIxvc2tLFvTL4oM4DRyNiM-71v3qs9XjCIS17fO8Qpp_EvXsptT64jpYORqH84nv6IlHb02FI9XhLS6YstlDnbcro5QNMQYKbU2PIyLNSsVb5Vy_eIYQ6spa7Tw8iqnJm7qAtwdxZI2JDImNDBfvpY9I4sY1RhmEAHODQC_0c-uMPhCMNqa_G-BIggAi0ibUTegTHhLU2Nk95HRvQ1hWvx5o_tP9SIM2xFv8LCxQ-yCnFj6sMSfXuyuO6V0yb7YtwcikLB52TRYZ4NQ01O73nKVqS_5QSOiOQBs0jS00n428RHbV4dSuAwOI5aD6LvM3WnSqfHY9cPtARMUbosqBEe4_QE8UbptnrejXI5o7RtkJhQZaLm1wpb_ccRc0Lhl3ShqABx",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108904033452486480703\">Lynda Villanueva</a>"
+        ],
+        "photo_reference": "Ab43m-uKGS1w6tE2osaVk1kGcpzZWb9LBArT-O3DDSUehboc3qKuVgimfqLQhCx-PKes-9tRqi1pwHW9RDAmIyRPYl7JFfcgEdYkixw2xrDceIWumj2UYADRXOVJbGP4wnzc-0ZLJKTHFyyIEvoABEVyH6PWV9ibRXwvqDQF7bYp46zz5Pl-nnUZ8SEwa9AzBY4NHs-yjl38tjE8Y-8xbSOyDBreGORo28igxT8H-78nEcge6oeQVTI8T0fmswvUvZlYlz2JPOnNYJoNIGqG6XtiO5f4YQD0Q2RbDN5hVmemlwuR0hW4EfgrD3sFUM7-9k7d7u689C-7Kp4HL9rEe7hYFv2pittl2-KuMZYkSMw15r25mkofuotwTB2brPKtYh0epYKNVMrhSwAG3u0aScBOHNuZazkLrkrpE5woVXyMhPk6E7B9",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJZwBJeDwbjoARgipiYSEXLA0",
+    "types": [
+      "drugstore",
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "pharmacy",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=949159053603515010",
+    "vicinity": "428 Main St, Watsonville"
   }
 }
