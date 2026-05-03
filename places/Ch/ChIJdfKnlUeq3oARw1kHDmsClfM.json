@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ocean Beach People's Food Co-op",
+  "place_id": "ChIJdfKnlUeq3oARw1kHDmsClfM",
+  "result": {
+    "formatted_address": "4765 Voltaire Street, San Diego, CA",
+    "formatted_phone_number": "(619) 224-1387",
+    "geometry": {
+      "location": {
+        "lat": 32.7494833,
+        "lng": -117.2428708
+      }
+    },
+    "name": "Ocean Beach People's Food Co-op",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: 8:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJdfKnlUeq3oARw1kHDmsClfM",
+    "website": "http://obpeoplesfood.coop/"
+  }
+}
