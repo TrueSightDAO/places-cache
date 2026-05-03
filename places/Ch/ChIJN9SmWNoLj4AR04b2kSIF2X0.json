@@ -1,40 +1,264 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:49Z",
+  "fetched_at": "2026-05-03T07:07:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Small Town Sweets",
   "place_id": "ChIJN9SmWNoLj4AR04b2kSIF2X0",
   "result": {
-    "formatted_address": "617 Main Street, Half Moon Bay, CA",
+    "address_components": [
+      {
+        "long_name": "617",
+        "short_name": "617",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Half Moon Bay",
+        "short_name": "Half Moon Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94019",
+        "short_name": "94019",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "617 Main St, Half Moon Bay, CA 94019, USA",
     "formatted_phone_number": "(650) 713-0782",
     "geometry": {
       "location": {
-        "lat": 37.46233612,
-        "lng": -122.4294724
+        "lat": 37.4623259,
+        "lng": -122.4292372
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.4636696302915,
+          "lng": -122.4279952197085
+        },
+        "southwest": {
+          "lat": 37.4609716697085,
+          "lng": -122.4306931802915
+        }
       }
     },
     "name": "Small Town Sweets",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 17:00",
+        "Monday: 12:00\u2009\u2013\u20095:00\u202fPM",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104216519638585407676\">Richard Bernhardt</a>"
+        ],
+        "photo_reference": "Ab43m-tKdPB-7iG4s1En5DozzoTP_-lqg-KNvmwNspQ4raP2KdUNpWQipUiqZFsMFnuNH0DJVSjQ6UfkuxiB7O63W6ZpCN1bdmuUb2W851xFJXRHr2N_KUnIrfh9BEthmJs08QxVIYoWVQSRruoxvoxdzTFCfgFEdHuCqSN9egUyqczCxRbx1j4QjZ5nwW-C2mrtGsTOftfEwmYy9lisNnkZFvPGxTIe7UK4HOa1JWmFav-4yCQEzkwvPVyWUZ8LOV1yLPhp4PHNUqcvdyBwdIeW_Y2rcyTWLe1KJGHPNn-j0XKcc0rpk2-ARrnyQ3GSs5g1VKuGhPi-Rtku5GXJ3xW09Dx5RMw8JpynOrabxOFcm_EbFIYPres38L5qTKANb-cTUq7wSErhlv60Vf4srNVwkU8OPIVp_jIKLDAK7gVck9WCbewF",
+        "width": 2184
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113435563271091813625\">Small Town Sweets</a>"
+        ],
+        "photo_reference": "Ab43m-tofoJSj5wCA_EXlWocctDv2I-VTwptl7E4xnqe3bnK7KaSiURcS6qwfYSEmRBXpHCxuXCdr6-f0MqpLZYuacvOHwxXbbLELL6lxPRwedIfGfjpwcgjW3Xhj8I2oyre6Pa3GJL5oPa91L01oC5xvO3yyKtNIZc61RU27mvIEW85qNYWEQfDtOzC08N11GtsZsf5DIVCzORGHRx5Sd9-i4DQiFdYUypASHprgCk1-smvRIY5umYHD6bwKqkrxBcFJxrUzcL0w_6O58V3M79UnCPpdIVc0bNSYXRD4PQPvuqgDw",
+        "width": 3264
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110694682941243079802\">Mai-Trang Nguyen</a>"
+        ],
+        "photo_reference": "Ab43m-tP_LzxHGTLgS_e4iLLMZzm0grn6zXEZeTby_VTc-bWZKl3FUa4TKQY-lveJLHg2jmetOBN4B-E3DxZOXwMsFVVyDKZLOBIFnCOKvmSxfC4umA0lccXRQhBancDcj8lUXHvxhLNTYn6yZzXL9t_WXkS5ohrsMvsvhOqCAzPiGawymZtDSlTi5F6pb3EdOEh9FIS3JeI0nIzhKmF067ZXAAWxtAWa1JNTkvb4TKPRGe_OqAbEG-6gbSb98PIc9HjuvdhYyf-9VJczTmmdjPiHI29RGtIVYW05CyhO51DnCZNw1HsLB5950i9SWs8qa3koNjx17pD9Irr5VkC-SmGCL84LuLjwEth46Wvp3lpjNPJjfpz2FlLUPt2XvKY-87tSO4yAklkBwfGWuNHBpCEYNVdrt5HbkeyvE6EKxXy_DD-DMlMmNkXjUE4cbwZpKiR",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101718188915490600209\">Michele Ryba</a>"
+        ],
+        "photo_reference": "Ab43m-tow5yn2CmQG0TOIyf57fgMVSlh31nONoBsgxTZETesjQ8pcrhvTE65brrQ9aE3Tl881uRRcj_kOyn4LE6i50sfQyfwdMvuWzDkTTOk_Qgv5rIAJM1whylZrSB34RRqoQ4qIpKsOwjUrX25L2ZCEMr6Cf6j_4tHVj271YuffNdRmpa4081VZFX_rZmfTkE_k6uONR-A0VHCsY1__FM3mWuOTvRrw1qumq0H7DBYfP4so_0qBFsMWyUQiTQ3fX9qC6BkNcEYCnbz2xs2OwQBS7HqUQY_1XvogFlUyBnTQsJ-bFxf6sQ4gt__L919Uye1LiLdU2wnXEtHNHGdPs4liEGpOQ0bNPQ9OU_IM9eu9brMioJuQ4Tm4SO3oDl6PX5TNv2mo51xVYfSuvGvKAV4APrhpUm4PEzeEdOaaA4NhulaUQ",
+        "width": 3024
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101604334147734489484\">Chris \u201cVectrexer\u201d Romero</a>"
+        ],
+        "photo_reference": "Ab43m-txN5fzREjM5urAiXB6nqDlH9_93g4iT_s_Vhf_uorHguIzVAh-zgHJIBff7efngKyRS4iR0nABJGWUF6qbno9CEq2ETbFS8NzU3W2N2-HR5WsIRw4es8CTRy7VE1SWzcwr3SUAHteSRvMxgmFGu-KOQ0P7un9mfK1bRhBVBoznIE09QGVFCVJnjtsywyEXHG4kb76X_T41lcNXGHX2EZG-JR-8Eg8-x6gze2mlRjA_wOTUGW_QO7MNGiH0scW9TnPWNOv6RzizJr1UqeyY_MsQIRUnouznW_zV7F8Ha2RkwHwH7qFY55tUvdSScZn6hnIU94Bug9e4SgBcvlVJ-ukQFlRK1YnOtryn61NwPEqOvVri0slZ6d_VrNeN1jXCvrVvRCzMlfAMldLIOTzHrZhUQ7M8pJ0ZWlI6Ys9Lgb6cc6w0",
+        "width": 4608
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110694682941243079802\">Mai-Trang Nguyen</a>"
+        ],
+        "photo_reference": "Ab43m-vS4HzV8fLtsfAKr5Rh201PD9wxrMaeWooyzyXyvg_daPhM2IP-xAPnpsUO8uwXA5ztw74EVzveB2H_Z-hpvfqPCKbYBjFVul7VenCcbgx0-oNRPDVCV0EQZYSZ0SFZpmiC-PDGfwe_pw5ATBR1abhNsORID15sGsstftfHK3zG1hdSxO6mrXtPV5bHvVszLqPSFleNfCq3FhluSNBPKJD7T1CCqLkfxEwj5cajrmaakWGR_3x3AcxbMLRb003473TNp40x1v1mzOLTzog4kiRrG4mVDPaVYw5B8FH2K-oLdWF9Ph73NVX0keAYLxy7HSTi6CCVGXlunAfRYqG_GXfJtMJhLBlkvOTid2p1dl-JcWBZyQYZKxO_0BpYO7ckep-tjKeO8taQEyKq9YzsTsS7AqVLWgaM6HX3GZdzQ_nCNS_8bNQ23Acr1HGQWx3B",
+        "width": 3000
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101604334147734489484\">Chris \u201cVectrexer\u201d Romero</a>"
+        ],
+        "photo_reference": "Ab43m-sgpnbPmMPk7AK6DpTGsfGYO5bhdzjiB1xwnI8tOf26MJWi1ncO8jXZ3VjGbgVK-xidbYwacvaP0DmGCegO66J7df-Q7ihoJZg4Dv6XThujWY0W0dHhbdeefVaTmMpG3gv8BT357zw82DOnS7KNDAE9RmfRUBZQ-KQf4VU4GBRRCuo66_RrFWcjOj1riOA6BQoyvMzZXDqkf3h1XErT_AwLd7f_c8XasQqqxBcvh_0v38PTfGf_bB-SGXs0nj4ycNAuoUav2bSJO1G5f1Ck2E_lwaDJicMfSfynOCULgLwdeaGmlbboEBMbLNmr-mH70YZ8FqjCwsc5CECNzLhr9QDHkFCyKaIIZ6YsAGyl8l4nKLD2gx2R-9m5atErtRaxyk8vFbB6Wf8ijFpgV2TGX1_Yzei74CBZWGKbk8bdatGQ3Pb-",
+        "width": 4608
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110694682941243079802\">Mai-Trang Nguyen</a>"
+        ],
+        "photo_reference": "Ab43m-uG55ffYWSVgNiOkQrDBiP4cWIEC-Q9dqL5lWq0NL08ALgZaPbCjf2DQ6rzSZCpJ2-ArMfJf4TO8jye5Po7MLWKkAmQRtyEicJgc3Kk9EVUJsxA4F22SEA_v7Bq_YoBa6FTUaS5jQs6YFrTAs1svGIpeVrUNRCb4kKW4TrNR3_MOEjXch0mAS6SoT0niVM_cwRmOuUHW_249a9dkCepYQ4ozRA8YZjTNBnAGrDdopgTtadE2MIlKLIXLAY11CFs_yrd454Iznq8FTEKUyAhfBTSaS10By14HXjyY_c7BUWuVhuvpmPDnRkYu5IOG2qwdiZJx-BfAf9DznFWBUP2jtiyfLFLbAbg-T0cLzxcgAfVZKWe5xgfqA6-vTvoPP7etVZVxvDiZsif3mJRy5vJOOzfVzYc-XWNY2nirBX0PwxqObsssYLc6bDi2bloTw",
+        "width": 4000
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113435563271091813625\">Small Town Sweets</a>"
+        ],
+        "photo_reference": "Ab43m-uVNZPecKWQhqTXV8cOVaA39P4-mWJmZ5BqsxZsY6TC7hZ95oBRgOaHBEhT5FM_mjslvYdLDkm5EcB1jvoBjF41kWTPLeL9i7r2vonHhrTlocBWHMyqDPqbAUdzz00kGwIeUp8QLmwTPNT7HerxJsHhAFyTUH-9bJtGXCHjjLx-ReO4iKRSu5JUHhIHdD7LBQuhgIlN1s0_1UrwQkmJDEWIlg0ymx2oqwkDJWLhxUo8hEajEKZyXgVpIYVILQrcXiUt63dsGPtX21yEbURAiUBiFPy1jKklZaGGXc8z_nM5mQ",
+        "width": 3264
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101604334147734489484\">Chris \u201cVectrexer\u201d Romero</a>"
+        ],
+        "photo_reference": "Ab43m-unFJSIfZX22yBy8LgH0k2N99pUBoKr5WCMZJMP7qFAcCXduFlo1rfxWGBBuvI--2LOoPS1fmHiClOOSTTWk_1zFMLLYgJuaxxqxO7gEv-E2KnBeXu2njhrx0LnET5JQBAkUd95FwgpNsqtQ32F0WcWXF2YdWkZ5lBT56duUauORNK6WG6qymRDXVw-XWXsYOAU_8xET1MCtt1FylESFeID8EQBJyHLoexER0tac89OkEy1tAuNNTPCquSVu0sGncXTYEiFk4U7K376AcQR31n7WKsd7t95cF7DzNJiGJVj-FrybUIXKQPM8oH1ARQLmIVC7vxxk2f-eYdJEtb88UFERAUsTo_WXHXi3v3LSWDu_BBsAwgmgO55fOmdjeuPnACIfEZN_N4B3jMxYtphn28MT5XEbI5JGZ-O4gJpsZa1k5Y",
+        "width": 4608
+      }
+    ],
     "place_id": "ChIJN9SmWNoLj4AR04b2kSIF2X0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9068284970723083987",
+    "vicinity": "617 Main St, Half Moon Bay",
     "website": "http://www.smalltownsweetshmb.com/"
   }
 }
