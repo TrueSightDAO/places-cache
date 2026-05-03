@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Way Home Shop \u2013 Metaphysical Store in SE Portland",
+  "place_id": "ChIJf40MqZoNlVQRfwlfRzXYea0",
+  "result": {
+    "formatted_address": "8437 SE Stark St, Portland, OR 97216, United States, Portland, OR",
+    "formatted_phone_number": "(971) 940-4091",
+    "geometry": {
+      "location": {
+        "lat": 45.5192296,
+        "lng": -122.576344
+      }
+    },
+    "name": "The Way Home Shop \u2013 Metaphysical Store in SE Portland",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 16:00",
+        "Wednesday: 11:00 \u2013 16:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJf40MqZoNlVQRfwlfRzXYea0",
+    "website": "https://thewayhomeshop.com/"
+  }
+}
