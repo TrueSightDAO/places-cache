@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Obsidian Healing Camp",
+  "place_id": "ChIJ63OEBJN_hYARBpnY0m5MMTo",
+  "result": {
+    "formatted_address": "1200 24th Street, Oakland, CA",
+    "formatted_phone_number": "(510) 947-4042",
+    "geometry": {
+      "location": {
+        "lat": 37.8176174,
+        "lng": -122.284624
+      }
+    },
+    "name": "Obsidian Healing Camp",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJ63OEBJN_hYARBpnY0m5MMTo",
+    "website": "http://obsidianhealingcamp.org/"
+  }
+}
