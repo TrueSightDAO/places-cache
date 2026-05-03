@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Phantom Quartz",
+  "place_id": "ChIJUw5PHCBrkFQRtSyl_Mj-xBg",
+  "result": {
+    "formatted_address": "711 N 35th St B, Seattle, WA 98103, United States, Seattle, WA",
+    "geometry": {
+      "location": {
+        "lat": 47.6502477,
+        "lng": -122.3491217
+      }
+    },
+    "name": "Phantom Quartz",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJUw5PHCBrkFQRtSyl_Mj-xBg",
+    "website": "http://www.phantom-quartz.com/"
+  }
+}
