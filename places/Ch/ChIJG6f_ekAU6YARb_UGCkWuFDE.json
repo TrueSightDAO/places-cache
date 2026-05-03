@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lazy Acres Market - Santa Barbara",
+  "place_id": "ChIJG6f_ekAU6YARb_UGCkWuFDE",
+  "result": {
+    "formatted_address": "302 Meigs Road, Santa Barbara, CA",
+    "formatted_phone_number": "(805) 564-4410",
+    "geometry": {
+      "location": {
+        "lat": 34.4003601,
+        "lng": -119.7217486
+      }
+    },
+    "name": "Lazy Acres Market - Santa Barbara",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:00 \u2013 22:00",
+        "Tuesday: 6:00 \u2013 22:00",
+        "Wednesday: 6:00 \u2013 22:00",
+        "Thursday: 6:00 \u2013 22:00",
+        "Friday: 6:00 \u2013 22:00",
+        "Saturday: 6:00 \u2013 22:00",
+        "Sunday: 6:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJG6f_ekAU6YARb_UGCkWuFDE",
+    "website": "https://www.lazyacres.com/"
+  }
+}
