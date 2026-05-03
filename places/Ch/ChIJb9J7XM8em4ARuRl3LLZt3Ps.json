@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Aries Alchemy & Artifacts",
+  "place_id": "ChIJb9J7XM8em4ARuRl3LLZt3Ps",
+  "result": {
+    "formatted_address": "16981 Placer Hills Road, Meadow Vista, CA",
+    "formatted_phone_number": "(916) 225-0224",
+    "geometry": {
+      "location": {
+        "lat": 39.0000782,
+        "lng": -121.0231034
+      }
+    },
+    "name": "Aries Alchemy & Artifacts",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJb9J7XM8em4ARuRl3LLZt3Ps",
+    "website": "https://m.facebook.com/ariesalchemyandartifacts/?ref=page_internal&mt_nav=0"
+  }
+}
