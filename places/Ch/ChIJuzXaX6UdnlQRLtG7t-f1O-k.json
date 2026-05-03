@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Infused Wellness",
+  "place_id": "ChIJuzXaX6UdnlQRLtG7t-f1O-k",
+  "result": {
+    "formatted_address": "413 West Hastings Road, Spokane, WA",
+    "formatted_phone_number": "(509) 863-9027",
+    "geometry": {
+      "location": {
+        "lat": 47.7683857,
+        "lng": -117.4202162
+      }
+    },
+    "name": "Infused Wellness",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:30",
+        "Wednesday: 11:00 \u2013 17:30",
+        "Thursday: 11:00 \u2013 17:30",
+        "Friday: 11:00 \u2013 17:30",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJuzXaX6UdnlQRLtG7t-f1O-k",
+    "website": "http://www.infused-wellness.com/"
+  }
+}
