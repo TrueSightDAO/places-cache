@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Milk & Honey",
+  "place_id": "ChIJZUQRO6cwhIARhy9DGETLSvc",
+  "result": {
+    "formatted_address": "123 North Main Street, Sebastopol, CA",
+    "formatted_phone_number": "(707) 824-1155",
+    "geometry": {
+      "location": {
+        "lat": 38.4025579,
+        "lng": -122.8242063
+      }
+    },
+    "name": "Milk & Honey",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJZUQRO6cwhIARhy9DGETLSvc",
+    "website": "http://www.milk-and-honey.com/"
+  }
+}
