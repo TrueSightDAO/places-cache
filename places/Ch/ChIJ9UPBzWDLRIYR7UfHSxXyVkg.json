@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Thestoneapothecary",
+  "place_id": "ChIJ9UPBzWDLRIYR7UfHSxXyVkg",
+  "result": {
+    "formatted_address": "9501 N Capital of Texas Hwy UNIT 301B, Austin, TX 78759, Austin, TX",
+    "formatted_phone_number": "(512) 931-1119",
+    "geometry": {
+      "location": {
+        "lat": 30.3875117,
+        "lng": -97.7494581
+      }
+    },
+    "name": "Thestoneapothecary",
+    "place_id": "ChIJ9UPBzWDLRIYR7UfHSxXyVkg",
+    "website": "https://www.thestoneapothecary.com/"
+  }
+}
