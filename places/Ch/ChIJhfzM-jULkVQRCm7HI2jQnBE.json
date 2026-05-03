@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Smokester Vape, Beer & Herbal Apothecary",
+  "place_id": "ChIJhfzM-jULkVQRCm7HI2jQnBE",
+  "result": {
+    "formatted_address": "3959 Martin Way East, Olympia, WA",
+    "formatted_phone_number": "(360) 747-7440",
+    "geometry": {
+      "location": {
+        "lat": 47.0473481,
+        "lng": -122.8363423
+      }
+    },
+    "name": "Smokester Vape, Beer & Herbal Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 22:00",
+        "Tuesday: 9:00 \u2013 22:00",
+        "Wednesday: 9:00 \u2013 22:00",
+        "Thursday: 9:00 \u2013 22:00",
+        "Friday: 9:00 \u2013 22:00",
+        "Saturday: 9:00 \u2013 22:00",
+        "Sunday: 9:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJhfzM-jULkVQRCm7HI2jQnBE",
+    "website": "https://smokester.co/"
+  }
+}
