@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Elevated Coffee & Confections",
+  "place_id": "ChIJw2HqMcpR2YARFNH1d3M34Hk",
+  "result": {
+    "formatted_address": "8091 Broadway, Lemon Grove, CA",
+    "formatted_phone_number": "(619) 439-7668",
+    "geometry": {
+      "location": {
+        "lat": 32.7424371,
+        "lng": -117.0235712
+      }
+    },
+    "name": "Elevated Coffee & Confections",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 15:00",
+        "Tuesday: 7:00 \u2013 15:00",
+        "Wednesday: 7:00 \u2013 15:00",
+        "Thursday: 7:00 \u2013 15:00",
+        "Friday: 7:00 \u2013 15:00",
+        "Saturday: 7:00 \u2013 15:00",
+        "Sunday: 7:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJw2HqMcpR2YARFNH1d3M34Hk",
+    "website": "http://elevatedcnc.com/"
+  }
+}
