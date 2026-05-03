@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Rock Rose Apothecary",
+  "place_id": "ChIJ8bFHTqJ_24ARzZSAR2M3tV4",
+  "result": {
+    "formatted_address": "29995 Technology Drive, Murrieta, CA",
+    "geometry": {
+      "location": {
+        "lat": 33.559898,
+        "lng": -117.1371471
+      }
+    },
+    "name": "Rock Rose Apothecary",
+    "place_id": "ChIJ8bFHTqJ_24ARzZSAR2M3tV4",
+    "website": "http://www.rockroseapothecary.com/"
+  }
+}
