@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:58Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Rosarium & Rosarium Blends",
+  "place_id": "ChIJlXnVPsiXkVQRINDo-Ci1KW8",
+  "result": {
+    "formatted_address": "408 Washington Street Southeast, Olympia, WA",
+    "formatted_phone_number": "(360) 464-4503",
+    "geometry": {
+      "location": {
+        "lat": 47.0446715,
+        "lng": -122.900238
+      }
+    },
+    "name": "The Rosarium & Rosarium Blends",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJlXnVPsiXkVQRINDo-Ci1KW8",
+    "website": "https://rosariumblends.com/"
+  }
+}
