@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Elliott's Natural Foods",
+  "place_id": "ChIJaxHiUtrbmoARnE2XeNedrPk",
+  "result": {
+    "formatted_address": "3347 El Camino Avenue, Sacramento, CA",
+    "formatted_phone_number": "(916) 481-3173",
+    "geometry": {
+      "location": {
+        "lat": 38.611052,
+        "lng": -121.385711
+      }
+    },
+    "name": "Elliott's Natural Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJaxHiUtrbmoARnE2XeNedrPk",
+    "website": "https://elliottsvitamins.com/"
+  }
+}
