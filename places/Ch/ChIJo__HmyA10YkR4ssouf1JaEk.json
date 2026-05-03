@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "breathe yoga & juice bar",
+  "place_id": "ChIJo__HmyA10YkR4ssouf1JaEk",
+  "result": {
+    "formatted_address": "19 South Main Street, Pittsford, NY",
+    "formatted_phone_number": "(585) 248-9070",
+    "geometry": {
+      "location": {
+        "lat": 43.0903517,
+        "lng": -77.5157652
+      }
+    },
+    "name": "breathe yoga & juice bar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:30 \u2013 19:00",
+        "Tuesday: 6:30 \u2013 19:30",
+        "Wednesday: 6:30 \u2013 20:30",
+        "Thursday: 6:30 \u2013 19:30",
+        "Friday: 6:30 \u2013 17:00",
+        "Saturday: 6:30 \u2013 17:00",
+        "Sunday: 7:30 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJo__HmyA10YkR4ssouf1JaEk",
+    "website": "http://www.breatheyoga.com/"
+  }
+}
