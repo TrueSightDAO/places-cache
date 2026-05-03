@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mithril Moon Herbs",
+  "place_id": "ChIJ87K6zpoVkFQRkoyGMqpphCM",
+  "result": {
+    "formatted_address": "6711 4th Avenue Northwest, Seattle, WA",
+    "formatted_phone_number": "(617) 335-0246",
+    "geometry": {
+      "location": {
+        "lat": 47.6781745,
+        "lng": -122.361835
+      }
+    },
+    "name": "Mithril Moon Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 13:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ87K6zpoVkFQRkoyGMqpphCM"
+  }
+}
