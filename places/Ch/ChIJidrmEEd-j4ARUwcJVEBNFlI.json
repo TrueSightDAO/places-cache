@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La Casa De La Salud",
+  "place_id": "ChIJidrmEEd-j4ARUwcJVEBNFlI",
+  "result": {
+    "formatted_address": "3203 24th Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 285-0391",
+    "geometry": {
+      "location": {
+        "lat": 37.7522802,
+        "lng": -122.4165458
+      }
+    },
+    "name": "La Casa De La Salud",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 17:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJidrmEEd-j4ARUwcJVEBNFlI",
+    "website": "https://a.co/d/0V4V9Wv"
+  }
+}
