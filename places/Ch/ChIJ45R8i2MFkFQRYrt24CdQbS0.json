@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Good Vibrations Apothecary",
+  "place_id": "ChIJ45R8i2MFkFQRYrt24CdQbS0",
+  "result": {
+    "formatted_address": "17602 Highway 99, Lynnwood, WA",
+    "formatted_phone_number": "(786) 618-8671",
+    "geometry": {
+      "location": {
+        "lat": 47.8388804,
+        "lng": -122.3003135
+      }
+    },
+    "name": "Good Vibrations Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 20:00",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 11:00 \u2013 20:00",
+        "Saturday: 11:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ45R8i2MFkFQRYrt24CdQbS0",
+    "website": "https://gvapnw.com/"
+  }
+}
