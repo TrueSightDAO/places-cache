@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Scout Coffee",
+  "place_id": "ChIJG9s8Dojh7IARxGVhe1ONh0k",
+  "result": {
+    "formatted_address": "390 Morro Bay Boulevard, Morro Bay, CA",
+    "formatted_phone_number": "(805) 225-1266",
+    "geometry": {
+      "location": {
+        "lat": 35.3657251,
+        "lng": -120.8491318
+      }
+    },
+    "name": "Scout Coffee",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:30 \u2013 18:30",
+        "Tuesday: 6:30 \u2013 18:30",
+        "Wednesday: 6:30 \u2013 18:30",
+        "Thursday: 6:30 \u2013 18:30",
+        "Friday: 6:30 \u2013 18:30",
+        "Saturday: 6:30 \u2013 18:30",
+        "Sunday: 6:30 \u2013 18:30"
+      ]
+    },
+    "place_id": "ChIJG9s8Dojh7IARxGVhe1ONh0k",
+    "website": "https://scoutcoffeeco.com/"
+  }
+}
