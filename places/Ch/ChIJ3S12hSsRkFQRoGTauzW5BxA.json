@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Babushka Baba Yaga's Apothacary and Tea Cave",
+  "place_id": "ChIJ3S12hSsRkFQRoGTauzW5BxA",
+  "result": {
+    "formatted_address": "3015 Northeast 143rd Street, Seattle, WA",
+    "geometry": {
+      "location": {
+        "lat": 47.7312052,
+        "lng": -122.2955341
+      }
+    },
+    "name": "Babushka Baba Yaga's Apothacary and Tea Cave",
+    "place_id": "ChIJ3S12hSsRkFQRoGTauzW5BxA"
+  }
+}
