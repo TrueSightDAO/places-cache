@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Audrey\u2019s Holistic Skin Care",
+  "place_id": "ChIJ8-ZNrMprkFQR36xve6hz600",
+  "result": {
+    "formatted_address": "4531 Rainier Avenue South, Seattle, WA",
+    "formatted_phone_number": "(206) 734-8210",
+    "geometry": {
+      "location": {
+        "lat": 47.5619252,
+        "lng": -122.2878465
+      }
+    },
+    "name": "Audrey\u2019s Holistic Skin Care",
+    "place_id": "ChIJ8-ZNrMprkFQR36xve6hz600",
+    "website": "http://www.helloaudreys.com/"
+  }
+}
