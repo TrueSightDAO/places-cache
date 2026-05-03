@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Spruce Apothecary",
+  "place_id": "ChIJaYyUB5RBkFQRjNhg8MSoT4M",
+  "result": {
+    "formatted_address": "4156 California Avenue Southwest, Seattle, WA",
+    "formatted_phone_number": "(206) 933-3002",
+    "geometry": {
+      "location": {
+        "lat": 47.5648603,
+        "lng": -122.3864807
+      }
+    },
+    "name": "Spruce Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJaYyUB5RBkFQRjNhg8MSoT4M",
+    "website": "https://spruceapothecary.co/"
+  }
+}
