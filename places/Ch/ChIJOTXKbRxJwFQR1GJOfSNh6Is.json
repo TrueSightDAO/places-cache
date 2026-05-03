@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:38Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "SOHA: Sanctuary of Healing Arts",
+  "place_id": "ChIJOTXKbRxJwFQR1GJOfSNh6Is",
+  "result": {
+    "formatted_address": "23321 Alsea Highway, Philomath, OR",
+    "formatted_phone_number": "(707) 373-9966",
+    "geometry": {
+      "location": {
+        "lat": 44.4973867,
+        "lng": -123.4410701
+      }
+    },
+    "name": "SOHA: Sanctuary of Healing Arts",
+    "place_id": "ChIJOTXKbRxJwFQR1GJOfSNh6Is",
+    "website": "http://www.soha.center/"
+  }
+}
