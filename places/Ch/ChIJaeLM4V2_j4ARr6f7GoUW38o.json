@@ -1,40 +1,273 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:12Z",
+  "fetched_at": "2026-05-03T07:06:46Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Fremont Natural Foods/Healing",
   "place_id": "ChIJaeLM4V2_j4ARr6f7GoUW38o",
   "result": {
-    "formatted_address": "5180 Mowry Ave, Fremont, CA",
+    "address_components": [
+      {
+        "long_name": "5180",
+        "short_name": "5180",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mowry Avenue",
+        "short_name": "Mowry Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "28 Palms",
+        "short_name": "28 Palms",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Fremont",
+        "short_name": "Fremont",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94538",
+        "short_name": "94538",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5180 Mowry Ave, Fremont, CA 94538, USA",
     "formatted_phone_number": "(510) 792-0163",
     "geometry": {
       "location": {
-        "lat": 37.5345172,
-        "lng": -121.9996629
+        "lat": 37.5337473,
+        "lng": -121.9982721
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.53514588029149,
+          "lng": -121.9968940697085
+        },
+        "southwest": {
+          "lat": 37.5324479197085,
+          "lng": -121.9995920302915
+        }
       }
     },
     "name": "Fremont Natural Foods/Healing",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103539641615871162180\">Fremont Natural Foods/Healing</a>"
+        ],
+        "photo_reference": "Ab43m-spDPgUSwrx8Qo5MOAaFYLQP-hkWUecuGlG00U-lOlJyRyudA0cNtktYRGIr0AneEv8KFukPDFqmLo0WW-ha6qq5rb76ROt5ClW1Vt2hkiRTdpQPpFaP4is7zh89WQlMpoS62iWeDhpJH719WUVKkPWluFG_63U8V7lK1lF9HtDW1SnqycCbufuDKp2wyF50igMxWIeTceOnkRTSWli5Ak7k7xZyVb34dGYk5aYTDXZqHVf8pOVCRynSMLP3_Vrk7L-8m7XIavp_hlThio3s62kGcNL69bbylNO4NnbS5cG-Q",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103539641615871162180\">Fremont Natural Foods/Healing</a>"
+        ],
+        "photo_reference": "Ab43m-tNtI6iUUNnoUf2Lm5nIHxOENN6QpF4Z462DTRPFsVkSxL4n2JxzZGt9JX7mHrbWBramX-MRD5DdoI2hh0vhq619pKIPl351Ugl5FxL8Qs9FnN-SgooZmTVK_dPlgZgmQO-_NfZzH4ekeaIWjKPy1hKolAuZvMR4bkOpaza-fI3lL0jrl7tRui-ZXXttEYI_Aua5qzOSgmcnKqkiiEVZIjt-8-8UTnURwSWeBhZv0OPYCbWBV4aNUanA6Zz3rF0pCV1mEuaymWwf6YnFU0mUrdISDokopkGn_XCKQ5RQweGiA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110919738961672796569\">Young Kim</a>"
+        ],
+        "photo_reference": "Ab43m-vnz5_m8Fk1ILAbkj3jsMjLP9D6D8nUrgTRchHVKfwaT982dszYgTvo1A6e75ydUs9d6orYEEb_60FhVnHcr0SvlC66JXmXMyrw7TfTLpvNGePiYpCulBnhJUq-_Tr9HY0Ko_d1WdRGe2fsysOjS3C_pGfxBgRpIqXwhuPv2HjBUYsGQq2KxEal2L1RZpuAz4KYliCBlx9u0NLFr63b7smsQ8e8OkxJOqX-FqAscBJIj3LUKSGPjp6dQcSJY96njEs6WBxNFk7BvW_chvyox6kuMYHmoNvAUCZMuAos301eEy-yhxhA-WZWXXFYoG71l1HKbNMv0a4-1LzQ-_BiGBU8aSLpCnYUEV-ntJ_x1TkS_FeteQh-0TQ8wSjTDeMNlbBDQaUHnSfUediUhGTnTP3UavPUI2VT6zTnTlVytPBDXBs2",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113154809340305556253\">Skeet B.</a>"
+        ],
+        "photo_reference": "Ab43m-vp2jV_LZIxQTCKPIwZolVjRrc0XVBqaBDur5JySFcrY4sRX-P35ticwS61R5Bi6WM-aL8aBhJYHmfHDQZcSqmUedN4jSy445jm23THdCaB2ovV6-hvtUhdfDaPLncJq8JHND3ZAxdo0nxwsg79pEKUh3JoEOdg4184vH-10oIO2Zs2t0qos0MqsRODZbLEcd0RG5n__D3Q-RXuL7Qg7j1guJOCMUYwxpduBxszDior-KIDanPZz71uREuEufzIpALVMM2iRfpZISIwfVGLOiQQyeHKMzuXTzxSaO8iwdPW-DnVbo5tOn_UMSsuaC3oWyr-rZv3ef06rQujPZ49sxgYKvFU2uucHWIjR8HdtZy7RWwNw5ET_B0m-M3puHrYMo5u0_vdAqgdhSfnOvG2FTLloi5cPWqgp_4Zi3RsItOnvg",
+        "width": 4000
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103539641615871162180\">Fremont Natural Foods/Healing</a>"
+        ],
+        "photo_reference": "Ab43m-sfOAo24h3aJ1Gua7Y7R7OUiEQVOGVVfWdjBQ6MTTjxU2p70C7DlJbdkSpLTOBZrIEGlp_Hv_clNMH9vUJ7wnfVOd4YdESuzeB69gbXD7Uiz71kCAdhr_83IdugJvlhOYJ9mrpImyv4hOg2aG4bznYpUEyRTfk6uf1-z5Z7BiEUA2lHEDFhUAI08ofk4oMk_u0okOl-fTLs4lr7kN9VvCV6706lfHdn1XiCNiQZF5i8ESuw5zZK0aOXHVIIq-9wtvXy8FqZS8kC6guvDA6CPXMR4TXAfyIRXxclg01F08Fp4g",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110919738961672796569\">Young Kim</a>"
+        ],
+        "photo_reference": "Ab43m-tmAtynMnnU2pcGRUm0ORA_M7ni2YCZz_3OETZfjPuErnvI5LNgLD6GNnhzle8H-pjWiMTnO9b_X8sML8ayIefnHN6EQqKwQO_cvzgO_5DUR8iLJ468wvCEf2_f3H7dF-fmfHtqcBQj6-YgpMguZ8VZ2gLfn-f-tsXE9bRBjWk2Gyq6q8JyHQ-wUua4OmiSCtZVdLks6c2N2xrtmMcQoiyOaqSNUKO2Cr-tCG-l0jyZEQ77HeMIBTUb7yA4J5ouXGr8zXyWxReHLVudGIdSKFe03Y4wftYxvbIpylQ1cbRziaMLQufLyskn3dSehR25f9rpvJuGOKc9RN8N2g-qfTJafsYLYD7gHy0lKlM4LGnfX7zpTMbyJBrXXVCOfIb3LhQSVYCWaeAImtDSfsjk-huRczt0ny6O67EQDZO9kPWGmQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110919738961672796569\">Young Kim</a>"
+        ],
+        "photo_reference": "Ab43m-u_WkmWbXIbmtJKtvZJBg1LUMxC_5J5fHBJkWB-_hJLimvOStVYKiQqaZiRR_GdgdGRS0kLzlfAZs62PVyOnn3eSvCr-9FC1Ny0ezEzl8Htq9jxVhic9hN7Lp6gDd7h8dugMwgUrnqBNpGr2ohXIh64OLNh5WD70XWkGd0zuGvBXHNhYMlnZJplzfrZrnYpkpMiJLfD30YA7heOqnDA68UwrQI3is1opZ2fry3PlpY7qUB61ZSviPLKLPnnYMu35qHRqE_yXkAhPH0VCGLBI4LdkpxlG4MYOJNWMPh3iEVxRp4rZLgbVSoHkK8UO72F9-O-ulsasZsKMXnA9damK_8olGoloZKPVAEPVGgncvjOv_FvR-edYnrMYE-qizb0cA2pgkmOq9NXwfpPTefOsA7GtR9Ghxouk9bLqcv6fCqwZw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103539641615871162180\">Fremont Natural Foods/Healing</a>"
+        ],
+        "photo_reference": "Ab43m-v6S8kI-GwfU3z4QftzNfSG2La_18WLvJQa29-WnkBox4yCvPeY2jGK33ivYLX8QubIbxEPHH0dCH2zDq41hOvwYqY7qcy6mPc5S5rrHQLQAlM3Zecnj1EUc-SIgCVTfF7eT9deVt3CoA-HPPTxTCWRfguRGHMXyVPKbGDe9xdBKCNIw2lsm1HpTs9Fgwe6PaWlyyGfIj4Y38TwejjeAF0byHNNn9gNpvYf-x125t2LTFRMdGwSxh4xsb5KwqQgk5Z5ocpa8OJZdUKfvxywnLYPyeHGMLG2t8cC8na9hUpGUw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110919738961672796569\">Young Kim</a>"
+        ],
+        "photo_reference": "Ab43m-tMZuKrr1q1mGnYq0RY1X042kA6geFxVGGOJ4_XL7Vhw6pZue5BOcOul16IGRsitGOjA4yd8ALXu9obd9m1DQKgfQ3aiUkhoRZvEiORvYfqEvUi0Fx22Lb65v1sNoII91yFZSjj1urgVPDr56SQ_5MtnRxUdI9CBGbm_MS1mSqnQyPQ67zy5KcjkIGsPCqWaS1yP1mCyQm4fJnB5sMpmIhVnJ8omq7Z_MzxYxEOpF_KzaVvSODIQEJ5iaaInglz45p87PnyEqJB4xIvfyGSsWlGFPB8__78MwSWW32LC51RC0koSXKQQ_kaTxziIPDAwBKf3TdASKOqUhkELSFdS6KlW_7-jPM5ETMR9kXXyypjrDTpQ3HaLSidmlCTp3SUtxrcwHTha2sdoqU3MBXexa1K9_zOebjjnbwFsOGarManHQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103539641615871162180\">Fremont Natural Foods/Healing</a>"
+        ],
+        "photo_reference": "Ab43m-uJJOm-bcFWGA93ljYjZFm_TIXqk9XBDmt4WgSlPAY02ctk3APtlbuQbHafxE6V2QFUsT0v4NQKhYnQk1M2-OlhD7pxvpwMRlcpW5W1SvDm38gFBvEsp9Tr--Mgz6cHSDzs_M1XxDsJ7USeYRvBTlLwnm68BIKqD2KwPbuuBbQv6NomuWjmHjiPqYj73vNfj5HV-sf5E8xkZnrmZZobgSIz1OrA-ysjUkCgIxuKpvLPPec3T7ZblXHzHGULFk7VYoQuxb-CoZDfk16jTZ2dkrS7vgSb3JNpNgQyBT5doa5gRQ",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJaeLM4V2_j4ARr6f7GoUW38o",
+    "types": [
+      "establishment",
+      "health",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14618427676407080879",
+    "vicinity": "5180 Mowry Ave, Fremont",
     "website": "https://www.facebook.com/FremontNatural"
   }
 }
