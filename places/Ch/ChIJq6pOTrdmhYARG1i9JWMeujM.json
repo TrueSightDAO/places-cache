@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Food Safety Consultant - Reasonable and Attainable Food Safety Programs - HACCP, HARPC, FSMA, PCQI",
+  "place_id": "ChIJq6pOTrdmhYARG1i9JWMeujM",
+  "result": {
+    "formatted_address": "824 Ruth Drive, Pleasant Hill, CA",
+    "formatted_phone_number": "(510) 282-3044",
+    "geometry": {
+      "location": {
+        "lat": 37.9651226,
+        "lng": -122.0662013
+      }
+    },
+    "name": "Food Safety Consultant - Reasonable and Attainable Food Safety Programs - HACCP, HARPC, FSMA, PCQI",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJq6pOTrdmhYARG1i9JWMeujM",
+    "website": "http://foodsafetyguy.net/"
+  }
+}
