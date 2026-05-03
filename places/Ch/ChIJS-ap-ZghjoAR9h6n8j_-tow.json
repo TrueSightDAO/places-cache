@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Top Knot General Store & Apothecary (The FillerUp Shop)",
+  "place_id": "ChIJS-ap-ZghjoAR9h6n8j_-tow",
+  "result": {
+    "formatted_address": "125 West Main Avenue, Morgan Hill, CA",
+    "formatted_phone_number": "(408) 710-6665",
+    "geometry": {
+      "location": {
+        "lat": 37.129095,
+        "lng": -121.6571186
+      }
+    },
+    "name": "Top Knot General Store & Apothecary (The FillerUp Shop)",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJS-ap-ZghjoAR9h6n8j_-tow",
+    "website": "http://www.topknotlovesyou.com/"
+  }
+}
