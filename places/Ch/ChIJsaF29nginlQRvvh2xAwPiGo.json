@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Veda Lux Boutique",
+  "place_id": "ChIJsaF29nginlQRvvh2xAwPiGo",
+  "result": {
+    "formatted_address": "1106 South Perry Street, Spokane, WA",
+    "formatted_phone_number": "(509) 475-1674",
+    "geometry": {
+      "location": {
+        "lat": 47.6451934,
+        "lng": -117.390369
+      }
+    },
+    "name": "Veda Lux Boutique",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJsaF29nginlQRvvh2xAwPiGo",
+    "website": "http://vedalux.com/"
+  }
+}
