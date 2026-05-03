@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Duong Xuan Duong",
+  "place_id": "ChIJlVdGfFJV2YARhfzvPBSws_4",
+  "result": {
+    "formatted_address": "6947 Linda Vista Road, San Diego, CA",
+    "formatted_phone_number": "(858) 492-9835",
+    "geometry": {
+      "location": {
+        "lat": 32.7856692,
+        "lng": -117.1692372
+      }
+    },
+    "name": "Duong Xuan Duong",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 13:00",
+        "Tuesday: 10:00 \u2013 13:00",
+        "Wednesday: 9:30 \u2013 17:30",
+        "Thursday: 9:30 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 9:30 \u2013 17:30",
+        "Sunday: 9:30 \u2013 17:30"
+      ]
+    },
+    "place_id": "ChIJlVdGfFJV2YARhfzvPBSws_4"
+  }
+}
