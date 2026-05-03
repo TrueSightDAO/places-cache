@@ -1,40 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:36Z",
+  "fetched_at": "2026-05-03T07:07:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Esalen Institute Gift Shop",
+  "name": "Esalen Institute",
   "place_id": "ChIJN59E0qvojYARheq25SkaLpk",
   "result": {
-    "formatted_address": "55000 CA-1, Big Sur, CA",
+    "address_components": [
+      {
+        "long_name": "55000",
+        "short_name": "55000",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 1",
+        "short_name": "CA-1",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Big Sur",
+        "short_name": "Big Sur",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monterey County",
+        "short_name": "Monterey County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93920",
+        "short_name": "93920",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9546",
+        "short_name": "9546",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "55000 CA-1, Big Sur, CA 93920, USA",
     "formatted_phone_number": "(831) 667-3000",
     "geometry": {
       "location": {
-        "lat": 36.1248106,
-        "lng": -121.637744
+        "lat": 36.1237291,
+        "lng": -121.6357031
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.1251091802915,
+          "lng": -121.6343700197085
+        },
+        "southwest": {
+          "lat": 36.1224112197085,
+          "lng": -121.6370679802915
+        }
       }
     },
-    "name": "Esalen Institute Gift Shop",
+    "name": "Esalen Institute",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 20:00",
-        "Tuesday: 9:00 \u2013 17:00",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 20:00",
-        "Saturday: 9:00 \u2013 17:00",
-        "Sunday: 9:00 \u2013 17:00"
+        "Monday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100591251251383012086\">Gian R</a>"
+        ],
+        "photo_reference": "Ab43m-uDTEJduwrWkbmlhG-66fOKeO-nSuW0-A0cvsmZO2Z-aIKZ-_vzODYfh7PMaR0aVwBLL13AYGfhtdvT6tpwlUYA05oxzC6isV90rQjhyEBOJlZ956bMQ_iiJpXFOHaiY1RkiLEciKw4r3uQZEdwPzSHpsTYwaoqFvSFcCqt807vtvkzz77GW8UI7_QSgogeY3sx82BFIU_vVRAJyim-yauXW3aj038CsCU3IewxzAKkyAXHyvME36EitcQiXOqaotfQ7GjSXkKm8F53smQxUdNRI90rB3DcBM7P5d5XTS9JjC357Q73J6tSKviTD1vc9FztK0BfQoWQPTK1LRsLjMDIbogtOo--YOtS7XwzDL8XqwA-LUpc47Z7PviJsLIRQdFMd2uPEAR3vfnadnz5GRgUpVevRk8C3ecPsnBXUT0PmZUJ",
+        "width": 3264
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111353246041941492777\">Jigish Shah</a>"
+        ],
+        "photo_reference": "Ab43m-vEqNQPyKVpkEDEXY7MKcpQeAyNjhfOTOHWYxF9c83FjPoqR0g2dnLdz9r9-84Jq42w3ofwJWSHagAOHm7SgleEIhskcu_GNMm8mMRIYf5KjfbrB_IBd0o3V3ipBJmWk8XpFl0vROkCb-orYWZ7zYZpNw8FbcWqerXhN2qh6t7_0PZ4cMuMBwj2LnM-ovuBVcObDjZZ3sOtJT7Mgg7moMrTBONlAvPI3E1ETYhoanVZjZXwEk-Iz805bxE49w1kheeSvUODYgb4p3pczLzO5-u4RM6_5a_LY9di2YKcAKauhgHKO-1n01yPpfP-ED7_fVvMZNNivRCYVu7N_ntRj4KyjNPwOC7QxQmbiUzgaW-QWS1lbrNnSGDhTdhT65l-HrtSvmM8XoJA53LLJT5cJJ1sIgDY_GRtyhCXGBQO0qk",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111525419844258308080\">Ramona Turner</a>"
+        ],
+        "photo_reference": "Ab43m-tyD2k6qqiza6NbkT90sA5q4cxvlYr8w7oykuSkeQVLkNAWzRv_GyDfJ3UhQVnq_4ksw4pspyhtdj6BUV9-cQ6JZnJLglNDG1bGQoQlrIFLXY6jXa78fBNQSqhX7m3XvIGWZxYi99SrRNhyAf-VBMdsKqJv1tt1hPWZcJkz5o0PSfX3jfEOgCdTFoUJvNbXZtSYFvLuMLL4xbEj_8y67h2eoAxqmXbCzaxaJFLR9cvL06ywAUltlC_KmU3RSibrN2Y58FJFyFq-FJv6hpC-qjoVj-OxZiWy8074f5N8Fi4QgLB0Q7cj0jW_LqSCFCl4wudHVRS8YdVxErX1iRxcNIRD6vaQaynGZNSXrXlq8LOaMU4bpPn-gSglqmT71M_U5IammOxaZYSBNSf8es2n4Hr6j6EcpgcnnfIxHDhuu7Rwatg",
+        "width": 4000
+      },
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114675567611442677958\">Cindy Tsai</a>"
+        ],
+        "photo_reference": "Ab43m-t2yR3IUIZP47GCjSWX1QjcD614iEW9Lw2W-7pn_iLQKYovhe8fRp4rWNeQkzB7FWCQR1QzCzxEAuRTIbjtv2GvCS_uP9OXLv20_eHrNsQevshqw9_OGW6hs6b_BGvRPAVhtOM6F1osn9RTik7yhJ49QupxfR3CWG_vePRbJPlV5EIEKSAWifPn9NMnFw1ycGWfgSJQZWFVDXGuKEFPfn1XaETU7b1EZmWkVZwGyYtbTvDJ6S8U5KtGFg6bnhsuEFwuqXIgxsGnXk8zx3tpeu4wQiPzYaUhiKe_p2nGpWG12WOuIgMb2SrYovHc-x8E2ah3-8r65NlnfXheZM-KscsNAwxl1sfVGi1rzYkj-sscPUvvMe8Rc1vB0ezePnoyaGXql1roAhGBadpUhsEHWCvLshc7AHAQDOhqRpzCYG9Ngw",
+        "width": 4624
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118112237520709979911\">Sherry W</a>"
+        ],
+        "photo_reference": "Ab43m-tDjCUN1Q06HrQBijIwyivV6x5WFhxUNMgMXwTZJUqHmunnLaoKD1NNEW-_uiQ31yfx-QKpoKrxrPQ1wC-pgeBxcBkIIej6YkQUGzVAB5SayXPsiC4nA18s8boeQqJjj9BrAJpUyd1RLZvG0GRuCUBEp2FKj9jDEJcpbqHqELtZA9np3Pwk7xZLsmb3q4eqUK7zJAxWfBmcLMppUcgLiGdXzhht4HVJ7GlcpUdmMuNonCq0kbLmKTlpcOWvlkgCQqgD3S57cVvgDGeseohHAO0IdLlcTQpwE7Utbh7uW1Oufw-ZYVN2_6GQLeUlaAXypGQetpizPwFAloH7JbHIk4XQZb4nKybFmDuW12_mqxZfm3IubrrQUqXg3W6os5L3PULTbYMXORVulZnev_J7yIcbOG9Q8pNzwRpgjvJBcwYj2A",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113913532303167198922\">Tony Giantomaso</a>"
+        ],
+        "photo_reference": "Ab43m-tWos8UqKwpSGktqH4kek-3xZE_Osn6qhdtLPfxOnTbsZ1n2KhQnMsDlzO0c_vxDy2RB2RPgA8erjTzG5c14fJxH54G8p9EImXkvb-FllBI4fTv_kZTPn33D_KlscCU_fmo4TDY-0gnpEaDc7XVprXpw2AqszgyBcpFFQfA_HZqxqk7AxNexZmA5JwFEvt2iSO4-bfURB5acvQT04R-8C9ZXGmmK_ShrtPSlL3PLBhfJ6nFPoAFDQSvS5uFChKGo6gKpu6obcBBmirn47QyR2DqjYEhhIqRTBxf_2Ul_H8rEw_8SEuXR3kq-2a9rejDLJqRv53N77hgOGHlAxeOFufDL3BpdDiPoF3aP-oOaJz6M-82XI86VwIeSxBrt-thMyUIZa988o4kkeAoQL3gh8_ZLBb5xHXogRdb7mmoz0qJoQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Ab43m-uv4gM5tFdI2wMUPrUkC3_qySjNiARiEMPJow9EO_UX62cgjA1qJLzrq6pFd5QM-LWrpBxoKHvTXoWTtWuartSrgfHuXWoLko-b-76jBllwI4UePhhdVH7BYYuwYEPaaO_7vIvABZCML_Gswq3sDpaJVENcrq5ZIJeCTA8qoAUTQWgYxk7tI2nGU1AapSJjpAmaEgebvTqs-Wu6lWMeP1LvLRhiUrjsEWNMbk8rE47NYalgMIb232ctV9C1hnU2Ilvu8qZLaJPf1xdPIkKW9D_io_MwypjyqdKPvAcIdgiUIyRHIVKzYy-9TJCp9KRUqjlZRk0neBHylFHCeNu62N_T_TdrVQ68o_XGkfKHsVuYlFFNkEpssx6AI8nC4q3mpO1Hf1GPW0w6_nzQos_zn2BQBLW1ZA9-Jmyz1GzSKagoyXrw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111413908076583992389\">J</a>"
+        ],
+        "photo_reference": "Ab43m-tdMjKutluulMEFIaDV4-cUClFSWLyve1pHAFh1CA8Uzak32qBTiygnniqzLFClpthu1cCLcrU71HpUNN8IqwmAyAMWm4QaUm4fBTVYcCn499pKXkpIlk_UX2kYECXz3yTdQrPKtjFjCU4QAifzz_wkzUFH2IwQmh38tnKISG0o-q41Y4PS1iT5VcJ2nJK8OwYLc3aAy428-Yxl57UsjoikV0sbI4gTs24InNuRaWplWuYM36Wb_z419sN4F5sCR0CSDIUUrIZqfJGcVJd5wQ4x_7ezjn7gSTJur_o74WKJ82ErQiI2AFpXbyM2Slp9qcf04TEWMsOZA19Hwf-YCUHxjSj-zhow7nIMIKUcra3qF9ocOSE8xE2oCAYv7q9BkBtVVKaNAnlcjm2tJwv7Awy_Svt01vaXg0vDDXWbLjhS_Q",
+        "width": 4032
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111263185778191008800\">Francisco Rios</a>"
+        ],
+        "photo_reference": "Ab43m-utujCsCsYqv-SSD-ldbSONJuuopcJy5i4pt1KYwHzsXSWvqICr-2EUBAY4zTgPNRlpe_XsC6Cxictm2CkFkbPHGAS7J6BtX-F3QJ4Trq_AINrSRY1h-k1vLq4H5r0iG5mJRjyv9JUkp6M_hCKoXMs5VhxMNAG8-HWD-dofcbJwRf4d3dZqTO4Tt_eOufvSgzcbzL_NOvSvtI8wM672uYcYi0MHjaAxlz5gjPHobUWgH_peQ7K9Bs8UKeBaHE4DykgnoEmDQshe5gY8ppaDfKClmZMHq2gPnsxbCjF5sQ65K66E5D6HyC8nk-53Nt6sx7OaYu18ba-OqdAPIaAhbkarUoYj3BfzA8pRUgYorqck-Q_lssFhwYZ_NDdVjCjqog9e6tredINN4XWfDrz-PZm788EWK5xPB05B5McyBgCr9AvR",
+        "width": 3264
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100591251251383012086\">Gian R</a>"
+        ],
+        "photo_reference": "Ab43m-shcm-qxPqc6ZRel8FiBd-lm_h4sOuViOxcW_uidUOIyDUFhEWPJeFEBE6zj7WLIhxpzkDPk8Z70Xn0ie82SqYV-74cS9casSVX_WWzsaAl7myek_sENpldErww0cp25QIF4cXi06CoCdrRJhY4yaS3B6ddWOCbZ6IG-eejMfF7C4fqwGdH8qgMZB7TwlEMcFs-JJ2winkeA6f9GMn0xq0rtKqHHlnlDnauhMOPKiZCvMG1a5M502XY-zEmzM_GSJz6XZY3CeCMORV6n707HLdOWwNocq_tY_UmH1Wearm_t9ZGMWQCCY1xlYHbt3ih9t-B_wXxVU1jCnJ6tm5Z09U_LSJN5P8ue0HT4BRrpQAXdyLP-SxCnF-6AjebpvSrVVjmWpLukS_aK19JSr2rkooJadnMQZH6YRJh0hgCPmo",
+        "width": 3264
+      }
+    ],
     "place_id": "ChIJN59E0qvojYARheq25SkaLpk",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11037788503981615749",
+    "vicinity": "55000 CA-1, Big Sur",
     "website": "https://www.esalen.org/"
   }
 }
