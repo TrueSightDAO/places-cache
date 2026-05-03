@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Keyman",
+  "place_id": "ChIJfSqTkcl7z1QRiOeKTuXeoLE",
+  "result": {
+    "formatted_address": "1617 North Riverside Avenue, Medford, OR",
+    "formatted_phone_number": "(541) 690-1751",
+    "geometry": {
+      "location": {
+        "lat": 42.3424986,
+        "lng": -122.8791793
+      }
+    },
+    "name": "The Keyman",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 17:30",
+        "Tuesday: 8:30 \u2013 17:30",
+        "Wednesday: 8:30 \u2013 17:30",
+        "Thursday: 8:30 \u2013 17:30",
+        "Friday: 8:30 \u2013 17:30",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJfSqTkcl7z1QRiOeKTuXeoLE",
+    "website": "https://tkmso.com/"
+  }
+}
