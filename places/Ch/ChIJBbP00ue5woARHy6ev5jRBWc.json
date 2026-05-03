@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Nappily Naturals & Apothecary",
+  "place_id": "ChIJBbP00ue5woARHy6ev5jRBWc",
+  "result": {
+    "formatted_address": "4342 Degnan Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(323) 903-6655",
+    "geometry": {
+      "location": {
+        "lat": 34.0047775,
+        "lng": -118.3312338
+      }
+    },
+    "name": "Nappily Naturals & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 13:00 \u2013 18:00",
+        "Wednesday: 10:30 \u2013 18:00",
+        "Thursday: 10:30 \u2013 18:00",
+        "Friday: 10:30 \u2013 18:00",
+        "Saturday: 10:30 \u2013 18:00",
+        "Sunday: 10:30 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJBbP00ue5woARHy6ev5jRBWc",
+    "website": "http://www.nappilynaturals.com/"
+  }
+}
