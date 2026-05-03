@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Dax Lee's Part Deux",
+  "place_id": "ChIJ3fu47jh_hYAR45KaNAnIavU",
+  "result": {
+    "formatted_address": "421 40th Street, Oakland, CA",
+    "formatted_phone_number": "(510) 454-8339",
+    "geometry": {
+      "location": {
+        "lat": 37.8284149,
+        "lng": -122.2607034
+      }
+    },
+    "name": "Dax Lee's Part Deux",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 16:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ3fu47jh_hYAR45KaNAnIavU",
+    "website": "http://www.daxlees.com/"
+  }
+}
