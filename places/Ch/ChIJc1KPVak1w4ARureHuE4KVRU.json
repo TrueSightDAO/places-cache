@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blissed by Sol Apothecary + Bodywork",
+  "place_id": "ChIJc1KPVak1w4ARureHuE4KVRU",
+  "result": {
+    "formatted_address": "3400 Inland Empire Boulevard, Ontario, CA",
+    "formatted_phone_number": "(323) 325-5507",
+    "geometry": {
+      "location": {
+        "lat": 34.071561,
+        "lng": -117.5782217
+      }
+    },
+    "name": "Blissed by Sol Apothecary + Bodywork",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 20:00",
+        "Tuesday: 8:00 \u2013 20:00",
+        "Wednesday: 8:00 \u2013 20:00",
+        "Thursday: 8:00 \u2013 20:00",
+        "Friday: 8:00 \u2013 20:00",
+        "Saturday: 8:00 \u2013 20:00",
+        "Sunday: 8:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJc1KPVak1w4ARureHuE4KVRU",
+    "website": "https://www.blissedbysol.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17201266920778807325"
+  }
+}
