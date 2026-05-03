@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Olfactorie Candles Apothecary & Spa",
+  "place_id": "ChIJm0TofxaHj4AR6rqMl2tcP3U",
+  "result": {
+    "formatted_address": "2052 Mountain Boulevard, Oakland, CA",
+    "formatted_phone_number": "(510) 501-6958",
+    "geometry": {
+      "location": {
+        "lat": 37.8266273,
+        "lng": -122.209337
+      }
+    },
+    "name": "Olfactorie Candles Apothecary & Spa",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 18:00",
+        "Wednesday: 10:30 \u2013 18:00",
+        "Thursday: 10:30 \u2013 18:00",
+        "Friday: 10:30 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJm0TofxaHj4AR6rqMl2tcP3U",
+    "website": "http://www.olfactoriecandles.com/"
+  }
+}
