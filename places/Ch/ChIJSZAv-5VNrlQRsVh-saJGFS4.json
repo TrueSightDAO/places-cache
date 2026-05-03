@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Compass Eudaemonia",
+  "place_id": "ChIJSZAv-5VNrlQRsVh-saJGFS4",
+  "result": {
+    "formatted_address": "345 Caldwell Boulevard, Nampa, ID",
+    "formatted_phone_number": "(208) 475-3960",
+    "geometry": {
+      "location": {
+        "lat": 43.5909075,
+        "lng": -116.5834812
+      }
+    },
+    "name": "Compass Eudaemonia",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJSZAv-5VNrlQRsVh-saJGFS4",
+    "website": "http://compasseud.com/"
+  }
+}
