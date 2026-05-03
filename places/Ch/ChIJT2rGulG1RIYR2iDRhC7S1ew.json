@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earthworksbotanicals",
+  "place_id": "ChIJT2rGulG1RIYR2iDRhC7S1ew",
+  "result": {
+    "formatted_address": "1701 Toomey Rd, Austin, TX 78704, Austin, TX",
+    "formatted_phone_number": "(737) 802-0873",
+    "geometry": {
+      "location": {
+        "lat": 30.264437,
+        "lng": -97.7615416
+      }
+    },
+    "name": "Earthworksbotanicals",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJT2rGulG1RIYR2iDRhC7S1ew",
+    "website": "https://earthworksbotanicals.com/"
+  }
+}
