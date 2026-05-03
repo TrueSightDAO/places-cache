@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Holistic Growth Lab, Inc",
+  "place_id": "ChIJiYjX3om3woARuBAGAO40kO4",
+  "result": {
+    "formatted_address": "4321 Leimert Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(213) 574-9554",
+    "geometry": {
+      "location": {
+        "lat": 34.0050865,
+        "lng": -118.3304363
+      }
+    },
+    "name": "Holistic Growth Lab, Inc",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 16:00",
+        "Tuesday: 10:00 \u2013 16:00",
+        "Wednesday: 10:00 \u2013 16:00",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJiYjX3om3woARuBAGAO40kO4",
+    "website": "https://sbsrestorationclinic.com/"
+  }
+}
