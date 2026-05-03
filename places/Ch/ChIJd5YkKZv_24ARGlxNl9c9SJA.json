@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "99 Ranch Market",
+  "place_id": "ChIJd5YkKZv_24ARGlxNl9c9SJA",
+  "result": {
+    "formatted_address": "7330 Clairemont Mesa Boulevard, San Diego, CA",
+    "formatted_phone_number": "(858) 974-8899",
+    "geometry": {
+      "location": {
+        "lat": 32.8336331,
+        "lng": -117.1608732
+      }
+    },
+    "name": "99 Ranch Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 22:00",
+        "Tuesday: 8:00 \u2013 22:00",
+        "Wednesday: 8:00 \u2013 22:00",
+        "Thursday: 8:00 \u2013 22:00",
+        "Friday: 8:00 \u2013 22:00",
+        "Saturday: 8:00 \u2013 22:00",
+        "Sunday: 8:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJd5YkKZv_24ARGlxNl9c9SJA",
+    "website": "https://www.99ranch.com/stores-search"
+  }
+}
