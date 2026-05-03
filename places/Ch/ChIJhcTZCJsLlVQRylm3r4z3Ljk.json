@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Rose City Healing",
+  "place_id": "ChIJhcTZCJsLlVQRylm3r4z3Ljk",
+  "result": {
+    "formatted_address": "9115 Southwest Barbur Boulevard, Portland, OR",
+    "formatted_phone_number": "(503) 462-3240",
+    "geometry": {
+      "location": {
+        "lat": 45.459117,
+        "lng": -122.7096584
+      }
+    },
+    "name": "Rose City Healing",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJhcTZCJsLlVQRylm3r4z3Ljk"
+  }
+}
