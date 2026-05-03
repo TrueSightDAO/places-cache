@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Eufloria Botanica",
+  "place_id": "ChIJ_XsCEBFZkVQRsALnp6iHHpU",
+  "result": {
+    "formatted_address": "319 Middle Fork Road, Chehalis, WA",
+    "geometry": {
+      "location": {
+        "lat": 46.5914176,
+        "lng": -122.827247
+      }
+    },
+    "name": "Eufloria Botanica",
+    "place_id": "ChIJ_XsCEBFZkVQRsALnp6iHHpU",
+    "website": "http://www.eufloriabotanica.com/"
+  }
+}
