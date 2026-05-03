@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "New Frontiers Natural Marketplace",
+  "place_id": "ChIJFXEe3JtU6YAR558kSpWKT1Y",
+  "result": {
+    "formatted_address": "1984 Old Mission Drive, Solvang, CA",
+    "formatted_phone_number": "(805) 693-1746",
+    "geometry": {
+      "location": {
+        "lat": 34.5989852,
+        "lng": -120.1293706
+      }
+    },
+    "name": "New Frontiers Natural Marketplace",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 20:00",
+        "Tuesday: 7:00 \u2013 20:00",
+        "Wednesday: 7:00 \u2013 20:00",
+        "Thursday: 7:00 \u2013 20:00",
+        "Friday: 7:00 \u2013 20:00",
+        "Saturday: 7:00 \u2013 20:00",
+        "Sunday: 7:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJFXEe3JtU6YAR558kSpWKT1Y",
+    "website": "https://newfrontiersmarket.com/"
+  }
+}
