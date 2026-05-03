@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Vitality Springs Health & Wellness Center, LLC",
+  "place_id": "ChIJIe70JnsnoFQRW_jReShC3Tw",
+  "result": {
+    "formatted_address": "609 North Almon Street, Moscow, ID",
+    "formatted_phone_number": "(208) 997-8606",
+    "geometry": {
+      "location": {
+        "lat": 46.7425144,
+        "lng": -117.0071743
+      }
+    },
+    "name": "Vitality Springs Health & Wellness Center, LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 17:00",
+        "Tuesday: 8:00 \u2013 17:00",
+        "Wednesday: 8:00 \u2013 17:00",
+        "Thursday: 8:00 \u2013 17:00",
+        "Friday: 8:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJIe70JnsnoFQRW_jReShC3Tw",
+    "website": "http://www.vitalitysprings.center/"
+  }
+}
