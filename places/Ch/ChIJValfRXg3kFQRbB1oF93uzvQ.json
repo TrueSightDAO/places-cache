@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Avebury Mystikals",
+  "place_id": "ChIJValfRXg3kFQRbB1oF93uzvQ",
+  "result": {
+    "formatted_address": "544 4th Street, Bremerton, WA",
+    "formatted_phone_number": "(360) 286-4734",
+    "geometry": {
+      "location": {
+        "lat": 47.5659753,
+        "lng": -122.6282986
+      }
+    },
+    "name": "Avebury Mystikals",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJValfRXg3kFQRbB1oF93uzvQ",
+    "website": "http://www.aveburymystikals.net/"
+  }
+}
