@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Alternative Health Center",
+  "place_id": "ChIJKT9gSuv-v1QRJW0jQ5D20FE",
+  "result": {
+    "formatted_address": "1826 Lancaster Drive Northeast, Salem, OR",
+    "formatted_phone_number": "(503) 364-0538",
+    "geometry": {
+      "location": {
+        "lat": 44.9517262,
+        "lng": -122.9819608
+      }
+    },
+    "name": "Alternative Health Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJKT9gSuv-v1QRJW0jQ5D20FE",
+    "website": "http://www.alternativehealthcenter.co/"
+  }
+}
