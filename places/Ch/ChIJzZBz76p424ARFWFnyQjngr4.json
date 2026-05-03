@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mojave Rain Salon & Apothecary",
+  "place_id": "ChIJzZBz76p424ARFWFnyQjngr4",
+  "result": {
+    "formatted_address": "33321 Temecula Parkway, Temecula, CA",
+    "formatted_phone_number": "(951) 395-0177",
+    "geometry": {
+      "location": {
+        "lat": 33.4859643,
+        "lng": -117.0772801
+      }
+    },
+    "name": "Mojave Rain Salon & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:00 \u2013 16:00",
+        "Wednesday: 9:00 \u2013 16:00",
+        "Thursday: 9:00 \u2013 16:00",
+        "Friday: 9:00 \u2013 16:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJzZBz76p424ARFWFnyQjngr4",
+    "website": "http://www.mojaverainsalon.com/"
+  }
+}
