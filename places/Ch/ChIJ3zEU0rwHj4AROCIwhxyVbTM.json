@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "\u2026love\u2026 Pescadero",
+  "place_id": "ChIJ3zEU0rwHj4AROCIwhxyVbTM",
+  "result": {
+    "formatted_address": "270 Stage Road, Pescadero, CA",
+    "formatted_phone_number": "(916) 420-7964",
+    "geometry": {
+      "location": {
+        "lat": 37.2530753,
+        "lng": -122.3829534
+      }
+    },
+    "name": "\u2026love\u2026 Pescadero",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 12:00 \u2013 16:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJ3zEU0rwHj4AROCIwhxyVbTM",
+    "website": "https://www.lovepescadero.com/"
+  }
+}
