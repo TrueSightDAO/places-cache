@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Natural Shilajit Resin",
+  "place_id": "ChIJcwGs8VC7woARsn3XOCdOCvo",
+  "result": {
+    "formatted_address": "2400 Main Street, Santa Monica, CA",
+    "formatted_phone_number": "(888) 416-3907",
+    "geometry": {
+      "location": {
+        "lat": 34.0037626,
+        "lng": -118.4857142
+      }
+    },
+    "name": "Natural Shilajit Resin",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: 8:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJcwGs8VC7woARsn3XOCdOCvo",
+    "website": "https://naturalshilajit.com/"
+  }
+}
