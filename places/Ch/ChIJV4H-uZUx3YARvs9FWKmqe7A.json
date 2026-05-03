@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Urban Bodywork & Apothecary",
+  "place_id": "ChIJV4H-uZUx3YARvs9FWKmqe7A",
+  "result": {
+    "formatted_address": "1736 East Broadway, Long Beach, CA",
+    "formatted_phone_number": "(562) 606-9798",
+    "geometry": {
+      "location": {
+        "lat": 33.7674923,
+        "lng": -118.1705678
+      }
+    },
+    "name": "Urban Bodywork & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJV4H-uZUx3YARvs9FWKmqe7A",
+    "website": "http://urbanbodyworkandapothecary.com/"
+  }
+}
