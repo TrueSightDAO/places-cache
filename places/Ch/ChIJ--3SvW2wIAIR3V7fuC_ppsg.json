@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Earth Kandee",
+  "place_id": "ChIJ--3SvW2wIAIR3V7fuC_ppsg",
+  "result": {
+    "formatted_address": "2280 East Main Street, Ventura, CA",
+    "formatted_phone_number": "(231) 580-1502",
+    "geometry": {
+      "location": {
+        "lat": 34.2764485,
+        "lng": -119.2658013
+      }
+    },
+    "name": "Earth Kandee",
+    "place_id": "ChIJ--3SvW2wIAIR3V7fuC_ppsg",
+    "website": "https://earthkandee.com/"
+  }
+}
