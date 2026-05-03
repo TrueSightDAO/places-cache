@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herbs & Arts",
+  "place_id": "ChIJt5LQvMp-bIcR5n8mXqB3kCg",
+  "result": {
+    "formatted_address": "2015 East Colfax Avenue, Denver, CO",
+    "formatted_phone_number": "(303) 388-2544",
+    "geometry": {
+      "location": {
+        "lat": 39.7402778,
+        "lng": -104.9630556
+      }
+    },
+    "name": "Herbs & Arts",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJt5LQvMp-bIcR5n8mXqB3kCg",
+    "website": "http://www.herbsandarts.com/"
+  }
+}
