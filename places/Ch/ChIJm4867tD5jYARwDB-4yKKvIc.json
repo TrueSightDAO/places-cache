@@ -1,40 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:34Z",
+  "fetched_at": "2026-05-03T07:07:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Apotheca",
+  "name": "Apotheca.",
   "place_id": "ChIJm4867tD5jYARwDB-4yKKvIc",
   "result": {
-    "formatted_address": "9 E Gabilan St, Salinas, CA",
+    "address_components": [
+      {
+        "long_name": "9",
+        "short_name": "9",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Gabilan Street",
+        "short_name": "E Gabilan St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Salinas",
+        "short_name": "Salinas",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monterey County",
+        "short_name": "Monterey County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93901",
+        "short_name": "93901",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9 E Gabilan St, Salinas, CA 93901, USA",
     "formatted_phone_number": "(831) 783-5852",
     "geometry": {
       "location": {
-        "lat": 36.6757542,
-        "lng": -121.6550127
+        "lat": 36.6758234,
+        "lng": -121.6547718
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.6771131802915,
+          "lng": -121.6534458697085
+        },
+        "southwest": {
+          "lat": 36.6744152197085,
+          "lng": -121.6561438302915
+        }
       }
     },
-    "name": "Apotheca",
+    "name": "Apotheca.",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105936921090008604871\">Apotheca.</a>"
+        ],
+        "photo_reference": "Ab43m-uzt5uQ5qM8aKgvLhx1M_4fC2Qcd4tp7KFgvLWuKk79vIj6I1FPQBW-SZEz5hEpRmKTIWA1geazF8YD7nRkiZjSuchOpW1W23iZdhg5pP6SYBTXDsZ7Lgy9b7V5tm_QBNhBZilt8Co4NThywMJg-2im4j1gyhAIEE9o05g8jlJd_5xPyQHnj_lWpRqWKLfKFHtOjaEl1W78nHj4wF7QipmeJvA97U8EvXMslw5WXKCdiHNxdXx33Gm2Ru1_S_k3yFpV_3C5d31y5YpDrYPFP5l92CGTv1-cuq5fXLUvACYqWg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105936921090008604871\">Apotheca.</a>"
+        ],
+        "photo_reference": "Ab43m-ve2fZKFIWwQjsG0ZA-pxyeyFeD8gKc3OM78C4yaArU0Ihq74vVZuA-heM3IzrObn0SaAZSuZi0JNEJhyBeFTf3LeYDueqfFb6RygdBFbwrX74KDJMihVl3gCAk7b2UNulvlRU5NXjhT5s0ZHB9dfQywV1GlOCCo3iMxNpnSqpYyOEUFK4EwUCenB0xQZX4L8PmRQisY4Mufu0-Hk2J3nJ-93U88FX2f_Z7vXDp6itTHqvsFbBStNHZyo3Z3-Kcb8PVIY-T-1K8y2og3dILp5ZkDQw7vtXdGev-zv4vMQzkdw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111672648523361847113\">Zarah P</a>"
+        ],
+        "photo_reference": "Ab43m-tOOgGogxiqGhZziUDPUx5YTo0MGhQ7YG_TaoBsdMemstbXEEOE2ulWnnNJaL__pH6hOK9LLwBGBQzjC2ecmZ4ivVlExoZzbpUWDsFeipU4De3O5mGPFWC-uD0DEGlNx_QumqDR7cRMba0mWSa3Z-ooDl5iZ-5tkq9WusrIxdCQbxI4V-TgfWdM3OTTfsmUqVwbtSPbLEA7ezPaXQnjdf0N03HkdfeQijPlDsIxWFX1hsElHaEx2DBC95b6XY3ne4v7DG4Hs1ptNpdm8mGg3g_oPA68MtPUvsVOub6zSip1w1YU9wSMqKoylpe9HLL1GXCn4V_2FKFMhvlZEdP6esPg7t4jCf0R15jkiVmNdupEcqCimTKWGqY95hChguSsQ89gThJWn2a0Rq6jG8Uav7GG0mMJx8nO2BZYvll8OueaqA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111672648523361847113\">Zarah P</a>"
+        ],
+        "photo_reference": "Ab43m-uAAhO05rfxEYiGsF6LCCoCszoUvbncl1QRf2WpuPR8fxV4wdihmZXpdcqoHqXh4N8a1vLffLQ6YA2ZHKaKnCURgEJl_r-Jg4VUzdS4O-lgmmuPpY1S9PCVbpLm2YHNNzZo-e4VpzGD7hqDnvSDqBVWBZz9gK05Q-taaEx8MQAmm8AoRdoyyXXOTDZLUL6Do8A-ZjzZ-EmQWUbv0eYt8gtqt9pj7hYk2fQjmb7YcKKeNAD8VkBE_IRBtogtgAsuGjCWOYr9jUjw8rj-jJ4GpYX8xFPVidUmdEdOgETnIlq2Gq0ACPKcYs0TwQyhi0Gbz5cUlzUeCRU98eDtrUeaQ-qSQJn7mtvAs3dFHqJ1fkBQqy7bY7wR9kEZ3t9OQZNUH_aGVl81ZxLEYjx6dVHeZk86Tx8TVxL798UyZDJ312HcXqO6",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111102825580201959510\">Cristina st. germain</a>"
+        ],
+        "photo_reference": "Ab43m-urXXspXBgZSmY_3ki9ABXEN20xO7ck-so3FeAbGS78JzHQ3Tc1TgeLKkc45_Dxae87nLI8JmlAxA4XU4rnKSEv9ZcWezpWTxIKA3GHM2QznkJ2WnJhE2HvFG4_ZuXV_ux1qTybsoZbX68trr_HhUUjxvMf1IwGvUcZ597q3P-Ywd0kTR10w9SPDZezdQlUAye15qDbqiM_EOaskbNBIrH4o-cSOUbpcIWLbFBNmIZ9ALEksXm4sFHBY6qiIZRH9pIz5XXooGmBY-4_L1KSuGSEC1L2hJcAQILbs_E5bwZFobqxz7U2iSh1rUJfrm94Or0EpwrFxU1QV31160HmmSo23-M5dcaVqa1r2GMtlPfbuNgVovAQVSR3CnjjA56MD-QwxA5FGAgN2YeALSxnfc5mgYXOjzuUAekBBNFO2OY",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102707101500551870286\">Mari Wari</a>"
+        ],
+        "photo_reference": "Ab43m-tXVwc0V2YISDaUjWpdW5DwoIhvZ0Dk7aJeVuC8ZKJh2FtJWGnBMR5GQPRMuFJvvbJhFUWck26gbw4Va8Bdpc6r1HqptWrS0ynq8S0wkC80kR08U4nWolY4nLj6r8007dEIEH3NVFRXl3_Cya5AK5EgEwMCFr4hqx8Hke7fwUpIuWBaL4TrSar8E3J6-_TRcOdu2qL6aIWikTWQuKR6BQ_UhPCcMpuOTZd42m1GyKyHWCK9Haf0zxJHVYGlPIifcATWg6_dqJToCCWttkJ8WNL4f66yZvZlxaSoebK2TVc8XEu1-3sJdYgXxueqADx_ih-Sw2cIPTRXZbYOgjUg6sM23H8oHOHj-Md6EKDMdR1HM9zFYUik_GX8-uP9cDIC8ePy1iU6LU9G1L6eWiTzh9RwieshxAyuM6KTDegV7gmlwmqxShTATb6hEFbR1TiC",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105936921090008604871\">Apotheca.</a>"
+        ],
+        "photo_reference": "Ab43m-uq0e2Sh2RaBsVr3571qQdpLGwG_f0my3yFs3UdedH4xvE7YkIabGzHRKrdR7Tam4WNzHYfhf-ElUGFQ-doUZrnlOTpOHmIFEMG0Mh1QLok6O1inhgBFGd3BGBfxl_GdixoK1ilq06-54oYEygiN5HQVS7OplRPu1P_SJAunZHa-XmEmw1YO6oRl84rRbPTLUiLtIzKrj1jiJHnPCboVpSzsRnVyp6laq9h703p7-oq36qGrbOch0Df4Nx18pnk4eglQvvHFzBP59Izz6V1V6nkDN-tPfuExletekfhXU9WpQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105936921090008604871\">Apotheca.</a>"
+        ],
+        "photo_reference": "Ab43m-tTH98XVd4j4iH8IEM4lcpegB8HRUMMo79AMuLog_4nQivcD17krEbm7Wk7Pteg1xtSGTJn1Eetw8QjwKw_izHalE2w76EAImoeqGy6lMb-XyCl-r9hYvTDUyAB1N6thPi3Q_mtGr48n87plKQqXULrrfTZf1YviwiwSZfaSYXRqLmLHWKN5PKO8g8AmNAFi6CBGMm2jMRixUDn6nNRu_C9u4glqfb71aw9-wbDwh8dIac3JPPzCMYc3zDxgT97J9RXW-Uw8AOtvq4DzEJc0lEC8yV34smvKQnKjQNoL1vI_w",
+        "width": 4032
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100842150615170132154\">Allyson Pumphrey</a>"
+        ],
+        "photo_reference": "Ab43m-sKsGi7D7DAe0X-YSr-HEv9I7JcOUWnLkJMFK4cKhegnhW1qYva9CfIJYqZGxAGA1-MHVPGlcL2VOaPwhjGjQFWRakOqfm320XEdbeG-7IFhLxnQQ0i3T83jlsSkPuD7a2-cfuNUpCml7qoU9s8wNMkJVabXfrd4PBUXYcm5JLa6nCvRdm_IymjG1CWSmSS-i8puTZwtT1bCBjHUPWIdKwQMdUgswu2aMd5wtIRucNYd9bQ6B_XVrHsqBS7QD-sD6uz05ylE3AwBMLeTJmtIjZXUN_Cxut8umBFbZLk6rpF29pjnwoQIxj8ZgRJQzcf-M6OqMgqacwvUICcpXiKhKqPpOzEwflbRHU7gEUM-AAV2b5VgxfkVJ5V1uifbTGNuFUp_-5t97cYY46GQg2YZ1UQDyZ4MpkEYqGzQ4ZwE5WuaA-h",
+        "width": 1920
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105936921090008604871\">Apotheca.</a>"
+        ],
+        "photo_reference": "Ab43m-v47EcnulmdLJfDA5dSy8umylFrY-46ILYKPaG-enpZ2dMBX0AjkpWS2aAThMRXqNOJ_d3ary_ZVygkNtjYR64In9wj5dJ8-oNASxLUjKnSLBZqXL58yPSQILiVUW9Cb3xkNYsY7MXjKMZwdXVj1t4pCUXLpjyrmPcrmuUR5VubSJS1_PwM1rYzrXGx840VkXj0t-BwPgptjgPY3ZgWxnJNtdQWDQyzNOY6AIqengHAXP5uTBmqflKqZDzr9YDOJG4D1JvrKR0bFDGnwlp6Vid6U-hv0aOTjylLWBJPr0twcg",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJm4867tD5jYARwDB-4yKKvIc",
+    "types": [
+      "book_store",
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9780844373192093888",
+    "vicinity": "9 E Gabilan St, Salinas",
     "website": "https://shopapotheca.com/"
   }
 }
