@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earth Cura Apothecary",
+  "place_id": "ChIJR4YT8V7njYARWlHIOVVRZko",
+  "result": {
+    "formatted_address": "San Carlos Street, Carmel-by-the-Sea, CA",
+    "formatted_phone_number": "(831) 717-1187",
+    "geometry": {
+      "location": {
+        "lat": 36.5530971,
+        "lng": -121.9219875
+      }
+    },
+    "name": "Earth Cura Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJR4YT8V7njYARWlHIOVVRZko",
+    "website": "https://www.earthcuraapothecary.com/"
+  }
+}
