@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Iguana Comics & Gifts LLC",
+  "place_id": "ChIJ-RjomSR6xVQRM1ySMrOU-OQ",
+  "result": {
+    "formatted_address": "100 Northeast Midland Avenue, Grants Pass, OR",
+    "formatted_phone_number": "(541) 474-9730",
+    "geometry": {
+      "location": {
+        "lat": 42.4553132,
+        "lng": -123.3213106
+      }
+    },
+    "name": "Iguana Comics & Gifts LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ-RjomSR6xVQRM1ySMrOU-OQ",
+    "website": "https://www.facebook.com/IguanaComics/"
+  }
+}
