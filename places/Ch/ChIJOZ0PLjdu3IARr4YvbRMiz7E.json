@@ -1,40 +1,288 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:56Z",
+  "fetched_at": "2026-05-03T07:07:25Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mystic Soul Ritual Shop",
   "place_id": "ChIJOZ0PLjdu3IARr4YvbRMiz7E",
   "result": {
-    "formatted_address": "212 Artist Alley, Oceanside, CA",
-    "formatted_phone_number": "(760) 547-1822",
+    "address_components": [
+      {
+        "long_name": "E",
+        "short_name": "E",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "212",
+        "short_name": "212",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Artist Alley",
+        "short_name": "Artist Alley",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Townsite",
+        "short_name": "Townsite",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oceanside",
+        "short_name": "Oceanside",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92054",
+        "short_name": "92054",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "212 Artist Alley E, Oceanside, CA 92054, USA",
+    "formatted_phone_number": "(760) 801-1549",
     "geometry": {
       "location": {
         "lat": 33.1966689,
         "lng": -117.3796482
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.1981021302915,
+          "lng": -117.3782555697085
+        },
+        "southwest": {
+          "lat": 33.1954041697085,
+          "lng": -117.3809535302915
+        }
       }
     },
     "name": "Mystic Soul Ritual Shop",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 21:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110243517603552658371\">Sasha Zeilig</a>"
+        ],
+        "photo_reference": "Ab43m-u4j-2FnuM-qGyDfqwaX4r2DBHwRK4HgSsKgF4WiBnm6-QbxQ7o9Rkb58qrLvvGI-T8AWWsGgTGzL1PBRGzyvVfbXEEP-KLZCf2LeEmcVX-jERW0tiYEFap6-NJvLokQryWaQYe8fLKS7wW_uiAet7kulJ9bUo_EoQdMF7Z1TsxROxwnvxIO4RU4xOS5zo0iuJ4zmdP9IiK03svxjdrXWJWUUFK0osV15hfhKUSZWsttC6qyWCBDfhY7jfiF-nWpxLRZo0wscJ7ODCAz8Akmfkp0tOaTcpZBYOM7llFHRhJY4pTscECR8gt86NS6sqqHdpXngNZz3s8Oeci2T3uMKbEmxrUXL2MwZ5Q_rkDeLywLtj4iGLEyYbRQpqSBiXhv5o0ARVNBaIHSsP3GlCAX9z94kbvhF0V80qzM7zSZ4WvfA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102860485318032077028\">Mystic Soul Ritual Shop</a>"
+        ],
+        "photo_reference": "Ab43m-shuWsTYck6rhNb28W7KjHDLops9_VNocMfnJZCF5xQP6v7KIWiy6yp-1trO2_UvExDXcLQSWwpOSK8s0ZjX1_XDy_WjhFqnhKJ-Qs3tlr6qoJ9EfDDjvKqN2y2IEMR6TRGfxnmVdIYATqPxNtfaeRRaXuRVBBvnndypnnNDM0CRZTVQ0F2b7UXm_o0indImo1wif42TJca30IpoDGOfhgZeVYIFvtXc5yzw1jcnM7v6x0CjRM_H0ac1tfTt1S5r0fEaF15fqPjM08_hZzo8RU4955Y1e21kUTimsiFHaA0Dg",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-uK0-Ovkkr6nUZv2dMnGCX3iCQMeBzOCydXDb9pnEP7nc3mTi20QVhpV7IbfYyn79O8qhj9DFA45ssqbd49udnGNnmyIGtgjFqPypw_TtuoPa4dwS0RLyPnBKKQXbFkZ0JXPcxZP5YZYZ_gvzFk-BS2nepY91XOxv54eqSHld6gaw8gAUHErGTxdvxZA3PbLgXXFCBMnns-XYiLO_7FBOr2vMPQhz9btuzrEIirDlJWtwIwmwEJm0iOsmvJWKBzvme5DsetIeX6YotsYkqef5WL3qtMsjg5IthJYZosSfN_oGJu3fcT5sDoL2BOw6RHw2YalvOjvDLjPmsCfgimREGXpbQsUzq20DPwDJ57KfUclV6OTf9Z2-_C7zPe5yqP0pTBmzy3UAVcCtZpJtuMQZ2OgNXOT5lnxjzc65xUb_jti7DW",
+        "width": 3000
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102860485318032077028\">Mystic Soul Ritual Shop</a>"
+        ],
+        "photo_reference": "Ab43m-v_NzTAJXZ5JM8z33zB3305xWC-4Utuud5ifQ1Da5Y1wbxwR30FIwj6MNazHA6b36UYB0FfXCIkFzAe0MOB2CrxOmvBvUwFJRRDwyjhRH1AUxpd6mbKBgh1Nou6Jcm58-TvbxqYMhiPn3w0YwNuD_J7U0C0v3JrrprgOezlDpg16VfUmJNQeKJ5RdZimCb0-BngmZr-FP2jDUz2E06PPbAywhY1nQJXA0M-zrEY1wPiXqrWT-1kbUc12KQFKrZ3oa-sCmyCYkk2XLoc2gU2nc8tFt134_y0S1r6Tc9S70_JKg",
+        "width": 768
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-vw3_43iyPNunfLbGdr0ZxkIBjlHz-ZxwN8VOGNMdRpw8-dZ8XY1nN98iV-C--iDeinShB8cS74mljvc5MgxhTH5CsVDD_gQw07DFhF-lHHOKTEy99kLeUSSmoVqvezurrGrLE3mWJd4UzUnxOcftMlj4snXeNiEu_0wUtPLMDImwNhCHQn8NHkj3Y2C5oQF8QFVvq1yZpTOuP1VyuXvO3hSXLCIffZ0pf6VsTo1AbEetRh7txWpVCl0qt_z9hqcPDylt_7BAEePGleUtwm01vsk85-EyBoO7E-_xO3qW3fmyhL8pKb9NSS1r5l3km3ZNqPJbtCtLzwp43IyhaaH3J4ZFTsgBqVvItHW2L1V1gtxTUt6snb2jewyv3A0ggF33NbdGFodXMhG1fqn8tozZGVM60-pmRBaBeQH9QRZmykKA",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-vCW7WomFNBxGCxLqfsnK6juGpSXcdHiHKfPzhBn_cE9Yyw4jr_jFuqkjCcINr1P4nj224mNhonFnJlVnk3jjLPKMT3fmaHYBKu1U5zuakJAfxxGL9GR3YDWC5EuJzXyi9UQqMiNJm6v2EY_8qAEvnZBbBtVeRppFfv1GC10AIt5hBGnIxQqTFV_P4vLi24C4xsocp74WdAAUkesLZ124sDR7J129EUqP6gRzrOQXuZD2aMEfz6nTjCGfIU4VMuQt5_H5GSYRdA3nhqRrRmcfk6wpk0SlV--BBC4ofbquo6NHope-TWwcQExFyyGKoBF2TxC9FIitP5ZGQfUgE8lVpxZlkSMxXFwol-HTmiiwXKZOvd9thVHGcaQh5IriuKqScrp6vR50bH6WHNB-Ww7rXANVXe5F6rPQhQKP20aQdtsYIl",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-sBE3_dKE3frW699BBw8MzuDtw8UAX30LEeqssIn8AKzdiPnFzq2n-X6xBPseiyPGRWRUwXdt8IqPaJtqyB2VvUhC61YzN4yq_rH8rk_vNbuZB-P6PoBGLxQ0L8wuD9qk87v2hmEZ-oHrqvZQGJCliruSohi707d-RPALXrGnMc64egmkvuU6IK4i_OWAH9a_LwEeQxhM4UKNtE8S_Eiuq1oxzx2I3_uAz23TgLdQnW0PjSKQiAm9YwJEsIuggOI_VlQv16y5plPh0GstdS5bXE_nbCuOX_WSFth87hZQoqEU-CNz4hI0IDPrgYIE7_M6WCAppvm-BRPvBWB_ACsfW5EqkRVkzpxDeJ_YEIU-eTPK8fJuK3zFKYhdv_jy79ERkUTOPnv8i8fCLiR__Y2Vq-BvOo2etkdv0YxgHJzXk",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-sOYRjTxLAh8Mdlm2-430Mlfo8MDGuJ7vQu0oq6wwOkDTBFUOiLi1F2xMykzwl2-m6PBWM0TiAkrWZzlODqz4S301MFaI25EPb06pvQhlAunMW5PhFV0dqFh9q9eaQCpCBs1p_bHLJ0AvdUxouG0Jc1NuLUiEzCzHlQs31vdCJ-UrkzGuiBXRR75rgf744ObnTvA9IHLUl5llDN14DPp4geFzt7FjJDl2ZG-UNu3ZzsSRPiPTsswlYYkwjuD_NuQrrl26iNfNaAUq9_QK13D4ZottQR01BNDbfM6XPp3hDxqVTmcvau6XWXdQPuhhATVHQEGIkVpN4zlDZSuJML3qtOCYw2wj082GV1XUlQtXxApNq7xwRdhb_f4GqjzkL9eMFAK8hPTFd1KUI4ELuRNGV1RTXrStkn7kt9VKq6wi1AMw",
+        "width": 4000
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102860485318032077028\">Mystic Soul Ritual Shop</a>"
+        ],
+        "photo_reference": "Ab43m-tawR6mJjQlrxu96vTh-sVpEFUI_M-4JNFbyYygftgS_BSPHGbFLa395VFLUKOLe1msvi3-GFuDwDqlNxs688IF4LWtDLbYudQtduB-InNrXPT_FFzNwLH3DuLvfImLqnTLm0ph3q-9bN1_gi9UoaJon6A6YOazFKrGx3vDtgNtOWmrtzyxy2X6hzv3JDT7kcGW1beI1KmI9sw_8U-Yn20udfrNmXuzd_a6Xt-ORgY9_yBPiNpiSKDBf2LuMBUVUQR_qENmEK-K5tgndGUVEiRV7533JoRsdeC6qC9JgDAC1g",
+        "width": 960
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112294010505772230828\">E</a>"
+        ],
+        "photo_reference": "Ab43m-tMd9Ohpb7OhLz0yqfq4whCjfwUdrB1Ne9PBe4O28A96BKHCPGnOGr0xiuEosXKpN2G_2jsF-w1A_tJoqlWW2pZrBqhj_MQtUgQuxP8EkWJyqlhaXA-1aPaHcXprGhwuoBD0vlP59sQT67rOg6-rKJwPIOUDe0KekeI19hkRcO5wevdkoYYdm1tuWHyKYEK1qNVFJzo3Vurs2q-IPFuxdcChFgVCMheiSkDSCisUf_fdzvx-IX8Sa5KG1X24wCtO_j6Ro9DsI3jSAQhysrr9-1efqBJyqFLBg8yy3WTDz7Xa9ukwkK7QN9xGhW3OYDsnGvfOx3jaNPvSYg1E0Q0xTwTC3GK1eCULNmJmjtzSl6BDRO67V08ZnWKiPAGk72gMGzw_S7oNWBCB676r_7slOkDUsClYWB0-3_Wb6SpmTFTTQ",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJOZ0PLjdu3IARr4YvbRMiz7E",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12812496931723904687",
+    "vicinity": "212 Artist Alley E, Oceanside",
     "website": "http://www.mysticsoulritualshop.com/"
   }
 }
