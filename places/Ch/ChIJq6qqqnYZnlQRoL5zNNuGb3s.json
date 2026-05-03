@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Amanda's Herbal Apothecary",
+  "place_id": "ChIJq6qqqnYZnlQRoL5zNNuGb3s",
+  "result": {
+    "formatted_address": "Spokane, Spokane, WA",
+    "formatted_phone_number": "(509) 263-0492",
+    "geometry": {
+      "location": {
+        "lat": 47.7000724,
+        "lng": -117.4517076
+      }
+    },
+    "name": "Amanda's Herbal Apothecary",
+    "place_id": "ChIJq6qqqnYZnlQRoL5zNNuGb3s"
+  }
+}
