@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Sword and Rose",
+  "place_id": "ChIJUZHuV1SHhYAR601AOfPZXQs",
+  "result": {
+    "formatted_address": "85 Carl Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 681-5434",
+    "geometry": {
+      "location": {
+        "lat": 37.7656889,
+        "lng": -122.4495389
+      }
+    },
+    "name": "The Sword and Rose",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 18:00",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJUZHuV1SHhYAR601AOfPZXQs",
+    "website": "http://www.theswordandrose.net/"
+  }
+}
