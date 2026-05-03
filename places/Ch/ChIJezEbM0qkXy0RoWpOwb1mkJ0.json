@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Honey + Mud Farms",
+  "place_id": "ChIJezEbM0qkXy0RoWpOwb1mkJ0",
+  "result": {
+    "formatted_address": "216 North 9th Street, Boise, ID",
+    "geometry": {
+      "location": {
+        "lat": 43.6171006,
+        "lng": -116.2035141
+      }
+    },
+    "name": "Honey + Mud Farms",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00 \u2013 15:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJezEbM0qkXy0RoWpOwb1mkJ0",
+    "website": "https://honeyandmud.com/"
+  }
+}
