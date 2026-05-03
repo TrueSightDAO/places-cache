@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Redwood Village Office",
+  "place_id": "ChIJm_SVsGMWjoARp7vCXdqq6Gw",
+  "result": {
+    "formatted_address": "3060 Valencia Avenue, Aptos, CA",
+    "formatted_phone_number": "(831) 566-9597",
+    "geometry": {
+      "location": {
+        "lat": 36.9767085,
+        "lng": -121.8865299
+      }
+    },
+    "name": "Redwood Village Office",
+    "place_id": "ChIJm_SVsGMWjoARp7vCXdqq6Gw"
+  }
+}
