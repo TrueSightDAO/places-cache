@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earthwell Refill",
+  "place_id": "ChIJWz6UofFU2YARGEKPBkyDVHg",
+  "result": {
+    "formatted_address": "4114 Adams Avenue, San Diego, CA",
+    "formatted_phone_number": "(619) 888-1190",
+    "geometry": {
+      "location": {
+        "lat": 32.763418,
+        "lng": -117.1069421
+      }
+    },
+    "name": "Earthwell Refill",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 18:00",
+        "Wednesday: 10:30 \u2013 18:00",
+        "Thursday: 10:30 \u2013 18:00",
+        "Friday: 10:30 \u2013 18:00",
+        "Saturday: 10:30 \u2013 17:00",
+        "Sunday: 10:30 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJWz6UofFU2YARGEKPBkyDVHg",
+    "website": "http://www.earthwellrefill.com/"
+  }
+}
