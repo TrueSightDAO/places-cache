@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Planted on Main- the original home of Flowers on Main",
+  "place_id": "ChIJvfe8lLRQmoARJ-6vQo5sBjQ",
+  "result": {
+    "formatted_address": "318 Main Street, Placerville, CA",
+    "formatted_phone_number": "(530) 622-1121",
+    "geometry": {
+      "location": {
+        "lat": 38.7282675,
+        "lng": -120.8022123
+      }
+    },
+    "name": "Planted on Main- the original home of Flowers on Main",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:30 \u2013 16:00",
+        "Wednesday: 9:30 \u2013 16:00",
+        "Thursday: 9:30 \u2013 16:00",
+        "Friday: 9:30 \u2013 16:00",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJvfe8lLRQmoARJ-6vQo5sBjQ",
+    "website": "https://placervilleflowersonmain.com/"
+  }
+}
