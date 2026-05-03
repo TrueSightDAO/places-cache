@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apotheca",
+  "place_id": "ChIJm4867tD5jYARwDB-4yKKvIc",
+  "result": {
+    "formatted_address": "9 E Gabilan St, Salinas, CA",
+    "formatted_phone_number": "(831) 783-5852",
+    "geometry": {
+      "location": {
+        "lat": 36.6757542,
+        "lng": -121.6550127
+      }
+    },
+    "name": "Apotheca",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJm4867tD5jYARwDB-4yKKvIc",
+    "website": "https://shopapotheca.com/"
+  }
+}
