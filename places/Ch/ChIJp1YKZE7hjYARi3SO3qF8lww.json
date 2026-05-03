@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:33Z",
+  "fetched_at": "2026-05-03T07:07:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Mindshop (Gifts from the Heart)",
+  "name": "The Mindshop: Metaphysical Books & Gifts from the Heart",
   "place_id": "ChIJp1YKZE7hjYARi3SO3qF8lww",
   "result": {
-    "formatted_address": "10 minute list, Pacific Grove, CA",
+    "address_components": [
+      {
+        "long_name": "522",
+        "short_name": "522",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Central Avenue",
+        "short_name": "Central Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pacific Grove",
+        "short_name": "Pacific Grove",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monterey County",
+        "short_name": "Monterey County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93950",
+        "short_name": "93950",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2705",
+        "short_name": "2705",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "522 Central Ave, Pacific Grove, CA 93950, USA",
     "formatted_phone_number": "(831) 372-2971",
     "geometry": {
       "location": {
-        "lat": 36.621958,
-        "lng": -121.915872
+        "lat": 36.6221365,
+        "lng": -121.9158177
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.6235061802915,
+          "lng": -121.9145541697085
+        },
+        "southwest": {
+          "lat": 36.6208082197085,
+          "lng": -121.9172521302915
+        }
       }
     },
-    "name": "The Mindshop (Gifts from the Heart)",
+    "name": "The Mindshop: Metaphysical Books & Gifts from the Heart",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 17:00",
-        "Tuesday: 12:00 \u2013 17:00",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Monday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-vUKZFXlJuqukDon1TXYlPUG0H-i_FyRcBV6iTY2-vYnuVzQH_hSIxJQGf6ZWncA8GQ659gcWMEBDKlOlmqK3yCsaa3Rv0ElXajcEJ5bVbxAw7kM9cJVsccM0NIm37IxuopdlsSwhy4Hx2COAErwLtnZAh29dgb0WDmM6Ltf2mNpXQuwjcqwqnpcwb5SahDV5raNm87jN3xhzNQJ3Y_pBfDn6BBsxqvG5WzEfeC0tx1iWLaN0xw39JsAOHbg_-XTqtDVq_yaoxeIqS3FEN_M5kvRZJKMFiT3UN0a1FOAfdNnA",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104883584330116921710\">Caryn Machado</a>"
+        ],
+        "photo_reference": "Ab43m-v-TBXshErQ7XYa4861x8ggVa3tDRNf-dCf31p3yLD4o_7TscM7dQnNXILSMjkchQkVC_n5Z-yOt1gRZNwU6Jigg8sv9E3I6Vj1YU2u8juUV1cXDFcyOHSOEKTXdVmQXaRKfGejoipIAu4svM9jfNJfgcslHy8KYIzF0SBYvBB7Z79qvdUYqMB1GHTmY4T2YnsDjbzOIhoid3EZlm9S_M3lvWatM0myr3Z9FH4blx5d8xeuGgk2sQ2TLCazix2JsfmMrAT1wAW-6_pCIxZ3BZTaJYxVwkg6BcxlrRCy4ehRpumjT0cRR4ITiOfVEO33sOQuNqKUrny_7r_zOCZV-PFXWN70SextKTdPtRzzkLpquM9GQ9ncEURstEUwOXCRl1GKqWt8TmGrUBx0hlGDuJ_iKKyQaSawPlB12dJU7vw",
+        "width": 3024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-vbRxI2WTJwF0FQ2gnV9qVyMd18NINyrGViGRD1Gd4WrofJs-QirDqjL7l2yX1krctILRyBHHm54i9G9Wd07VnWebwtjYL227le7y_BsOMirQCRp-HYIBG4NqFTkJJhnP3xssHD7NXWD_rGttrYDjC5fL33PjcCe1p_1uCIiEGKWOmw8pq90RWpBK7XCzv4jMAgptNXCY13Qw8kGTgmWuyoKntiSfiGXGwAYZfgLpUH8i6JOVmbYnH_gyTK8zJB4XTuNkHAzqPdxeZx4Gxmv4Ue-hagwVofD4jAaUr3vW39_Q",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-vSSMPHlIY5yQX5XCx8B_YVuBg3aNLzZ6-s-f4wFaCdp8jU7jUTr6FDHOzWSCxAfNbuZBHxYR7cFKASHfGYSiXiyYLhWMoJuAsbKOONTHvpoAT3pyk9BuktoTNNSaHAKDjriHVOilBNHSa_SU9ZiRWrEpAb1uO11zlcPma9gWK0ZckM0WvQX-xSsFVPp_I3ELrFFgLzEfwYZns8-pT_ZdTLTlbIQoNcTVDc3p4TbZ3T_LxiSlwbB2XvHPS9qOQa_pHYo8m6peyUzGGEydKdZc-UFHONKJ8IVDHAtcwYupOkgw",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-tlaLKAbr2WA3lV6qoqFf1jgw3llf1T1OPOZA-D0pj0-ZQdt9zRgiJ4uBebQWn0ROEzqnxc7jiHkUaDZHcX0vVuyHBQZre3Jzx5wEuWAqSrwxm0O917YdrrVFgHDUO-oFSmhlkLRMpBOyowqz1jqwV-5OG-5tarRq7ROuEvy8V7t2zYOREwfLM8oLuqjer0UBhw0N7zB4Dnt5cF1L7xwazmuaKQlSpiYGmtoX8bl75DCtaBhDusMj_kUCWtMqnZp4IL6Ro5dorVEK9YqODK7vw8CavDhdDXVzPxqMUFKGYziQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-sgRT3TNjeMAhbPLZ39f0gtPmWrL59d878Vk2S4KNqGnhbTBqb4frlf6GBqmzfZKRE3MJLiUliyjyOOuh2oVxP_5zMmaR4j1ttg7s73YOJ-UDX4JSDn9I3QtVuUdrmrsO3iLf4DZFh9c2Dw9sY4lUvhxiSJS07Kl4KKXRM6fhUu-nDOgwt0TcIoQ2yv1IQ2b3V8up3_moDJSeKi03D3Ib-w9WOgKV0UtOZu4RSDVuCltMkCbLGINj1MAPNPLOuwhIpjECnPYw-dVRFKwn1UBC94yi8qAqg0vukp7FVBLweaSg",
+        "width": 3024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-uJxFqHxZ9MIu--tM_eMDhwWG3ZLaoEbOhyp1BT75KE5pm85Al0ajSGAZ_NsEbKDl4-FHkLt4u01BTKFdfdmJFPUGPnnjHHyM2rgxifGkJCTVvZVkFzgfJEf9t5YLB6niXrYRfFbsQHP76tPAlFSfxAmr0TDOx0qtZwT0eHTBiYxsmUTZAagg1ws6Ib9u_4tJwpfXNye9NmKIoI6WbHlzHlwpRhNrZ_HeLVTk9rY_bmmVcRFpJ_EiYH5hare7ooUYZKNdbkN0X7UGGhP1JhBXsLwJeRuPe5AQbFKTkPEseDSg",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-swdyLAyAitOsKGG_3PAaiNmc8vgwRLB5qhbauA_b3gca_xTe8rG9sma88VlUT8YR2Fclul5etrFO20K4pWJRtpP-j7Q06lOhupF3lJdWi45GOV_d8i6A0wBsQ440dme3FHc1Fhw-468AL9YAA3B5pUudVZVCMxfsWayAMywdHvfXMRf_orrpUu2LdE67Efq73ufIz25kDqJ7uJBL_XlpYl7AzwiSN6jL6xAw31X41O5Q86PHYhzffvE9mR6NgeeBwtKiwwOaeVq_9hG8qte4MmORo_6weJeziETj42tsnj3g",
+        "width": 4032
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-tqQOnOAWKlrByGaedUp5cFokgdwmuutTHTQ1w4Gdh5s5MNzuA8CubPN0d7GADr7L1Zi9I5H_Ih6Jg8dY5parHJ1xqo2GegPc8mg1Dtds4mYQVXvJ7Xxy7sJxhdJNb2x-qGlFCZv6q_cN-z3faqf62HjmAt3koRCGQ5HnXu8vl0RcBGuwrmaF1KHq7_Q_LcL55wEGq1juYme1DGAA0RJGCBdwr4V6XTNaqT4HLHSY0uE_UIVxCiqWoPdEdGp5xVK5ScsMrNHCdZ6MDKlVnOXfcfWtdMLUubGzZlBLXwHxVr9w",
+        "width": 768
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115938354121173021323\">The Mindshop: Metaphysical Books &amp; Gifts from the Heart</a>"
+        ],
+        "photo_reference": "Ab43m-v31_gxNyAaXjIa4AO8Njpu9oQ2MciN67xkmuXlsYav73HgvFvPthp7_Jdx6KnfAkTkcZAKWw6BhRoRJTP45mdr0tY8uJlPCFCsnA8M-IpAtcW8UreGE60Y30U6_Z30OPlvB9RE1fhqcnbqd8aJemYDMIFOPNvy0tuYnPWUZzB4C87MNmAIdlZN_eS9g9D1fIH8n6k86pqXmb4wTC9nRUlPWlXDwA8CqE4q7DgTIl3gN1LfGwy1qKhzECSmJlpXHr0jHmat16BCtVzDb-h6QWHcrU0GOAcGwfMDpWoppg4wpw",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJp1YKZE7hjYARi3SO3qF8lww",
-    "website": "https://dapp.truesight.me/stores_nearby.html?store=the-mindshop-gifts-from-the-heart__522-central-ave__pacific-grove__ca&status=Rejected"
+    "types": [
+      "book_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=907330884603901067",
+    "vicinity": "522 Central Ave, Pacific Grove",
+    "website": "https://www.centerforspiritualawakening.org/themindshop.html"
   }
 }
