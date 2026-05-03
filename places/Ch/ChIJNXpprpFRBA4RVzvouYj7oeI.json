@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Elke's Estuary Aesthetics & Apothecary",
+  "place_id": "ChIJNXpprpFRBA4RVzvouYj7oeI",
+  "result": {
+    "formatted_address": "23604 Southeast 192nd Street, Maple Valley, WA",
+    "formatted_phone_number": "(760) 920-0177",
+    "geometry": {
+      "location": {
+        "lat": 47.4320962,
+        "lng": -122.0260911
+      }
+    },
+    "name": "Elke's Estuary Aesthetics & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJNXpprpFRBA4RVzvouYj7oeI",
+    "website": "https://www.elkesestuary.com/"
+  }
+}
