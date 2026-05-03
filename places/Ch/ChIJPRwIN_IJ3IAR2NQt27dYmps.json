@@ -1,40 +1,206 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:49Z",
+  "fetched_at": "2026-05-03T09:06:30Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Source Sanctuary Spiritual Wellness Studio",
   "place_id": "ChIJPRwIN_IJ3IAR2NQt27dYmps",
   "result": {
-    "formatted_address": "2720 Via De La Valle, Del Mar, CA",
+    "address_components": [
+      {
+        "long_name": "Suite L- D130",
+        "short_name": "Suite L- D130",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "2720",
+        "short_name": "2720",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Via De La Valle",
+        "short_name": "Via De La Valle",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North City",
+        "short_name": "North City",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Del Mar",
+        "short_name": "Del Mar",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92014",
+        "short_name": "92014",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2720 Via De La Valle Suite L- D130, Del Mar, CA 92014, USA",
     "formatted_phone_number": "(858) 353-4777",
     "geometry": {
       "location": {
         "lat": 32.9814274,
         "lng": -117.249646
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.9827159302915,
+          "lng": -117.2482795697085
+        },
+        "southwest": {
+          "lat": 32.9800179697085,
+          "lng": -117.2509775302915
+        }
       }
     },
     "name": "Source Sanctuary Spiritual Wellness Studio",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 20:00",
-        "Sunday: 9:00 \u2013 12:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u200912:00\u202fPM"
       ]
     },
     "place_id": "ChIJPRwIN_IJ3IAR2NQt27dYmps",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11212371768971744472",
+    "vicinity": "2720 Via De La Valle Suite L- D130, Del Mar",
     "website": "https://www.sourcesanctuarystudio.com/"
   }
 }
