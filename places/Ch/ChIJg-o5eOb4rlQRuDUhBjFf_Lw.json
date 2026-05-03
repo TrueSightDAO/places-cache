@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:42Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "SALON APOTHECARY STUDIO 6",
+  "place_id": "ChIJg-o5eOb4rlQRuDUhBjFf_Lw",
+  "result": {
+    "formatted_address": "1109 West Main Street, Boise, ID",
+    "formatted_phone_number": "(208) 890-1366",
+    "geometry": {
+      "location": {
+        "lat": 43.6176669,
+        "lng": -116.2078821
+      }
+    },
+    "name": "SALON APOTHECARY STUDIO 6",
+    "place_id": "ChIJg-o5eOb4rlQRuDUhBjFf_Lw"
+  }
+}
