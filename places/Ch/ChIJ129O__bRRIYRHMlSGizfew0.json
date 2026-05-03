@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Amethyst Garden",
+  "place_id": "ChIJ129O__bRRIYRHMlSGizfew0",
+  "result": {
+    "formatted_address": "4401 I 35 N Frontage Rd, Round Rock, TX 78665, Round Rock, TX",
+    "formatted_phone_number": "(512) 843-5186",
+    "geometry": {
+      "location": {
+        "lat": 30.5671424,
+        "lng": -97.6898547
+      }
+    },
+    "name": "The Amethyst Garden",
+    "place_id": "ChIJ129O__bRRIYRHMlSGizfew0"
+  }
+}
