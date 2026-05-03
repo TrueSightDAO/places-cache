@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ocean Greens",
+  "place_id": "ChIJJ1JpyLZqkFQRjLnHsVruwgk",
+  "result": {
+    "formatted_address": "10526 Aurora Avenue North, Seattle, WA",
+    "formatted_phone_number": "(206) 910-1290",
+    "geometry": {
+      "location": {
+        "lat": 47.7059283,
+        "lng": -122.344499
+      }
+    },
+    "name": "Ocean Greens",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 23:30",
+        "Tuesday: 8:00 \u2013 23:30",
+        "Wednesday: 8:00 \u2013 23:30",
+        "Thursday: 8:00 \u2013 23:30",
+        "Friday: 8:00 \u2013 23:30",
+        "Saturday: 8:00 \u2013 23:30",
+        "Sunday: 8:00 \u2013 23:30"
+      ]
+    },
+    "place_id": "ChIJJ1JpyLZqkFQRjLnHsVruwgk",
+    "website": "http://oceangreensseattle.com/"
+  }
+}
