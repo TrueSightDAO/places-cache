@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Pacific Health Food",
+  "place_id": "ChIJORj6L9EO6YAR1m9aitGIo4E",
+  "result": {
+    "formatted_address": "944 Linden Avenue, Carpinteria, CA",
+    "formatted_phone_number": "(805) 684-2115",
+    "geometry": {
+      "location": {
+        "lat": 34.3984365,
+        "lng": -119.5186612
+      }
+    },
+    "name": "Pacific Health Food",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 19:00",
+        "Tuesday: 7:00 \u2013 19:00",
+        "Wednesday: 7:00 \u2013 19:00",
+        "Thursday: 7:00 \u2013 19:00",
+        "Friday: 7:00 \u2013 19:00",
+        "Saturday: 7:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJORj6L9EO6YAR1m9aitGIo4E",
+    "website": "http://www.pacifichealthfood.com/"
+  }
+}
