@@ -1,26 +1,110 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:00Z",
+  "fetched_at": "2026-05-03T09:07:03Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Ministry of Divine Consciousness",
+  "name": "32 E San Francisco Ave",
   "place_id": "ChIJQy5YK4qZgYARbqoDkFyUVWs",
   "result": {
-    "formatted_address": "32 East San Francisco Avenue, Willits, CA",
+    "address_components": [
+      {
+        "long_name": "32",
+        "short_name": "32",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East San Francisco Avenue",
+        "short_name": "E San Francisco Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Willits",
+        "short_name": "Willits",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mendocino County",
+        "short_name": "Mendocino County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95490",
+        "short_name": "95490",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3957",
+        "short_name": "3957",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "formatted_address": "32 E San Francisco Ave, Willits, CA 95490, USA",
     "geometry": {
       "location": {
-        "lat": 39.4076784,
+        "lat": 39.40767839999999,
         "lng": -123.3513742
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.40902738029148,
+          "lng": -123.3500698697085
+        },
+        "southwest": {
+          "lat": 39.40632941970848,
+          "lng": -123.3527678302915
+        }
       }
     },
-    "name": "Ministry of Divine Consciousness",
+    "name": "32 E San Francisco Ave",
     "place_id": "ChIJQy5YK4qZgYARbqoDkFyUVWs",
-    "website": "https://www.ministryofdivineconsciousness.com/contact"
+    "types": [
+      "street_address",
+      "subpremise"
+    ],
+    "url": "https://maps.google.com/?cid=7734251060352756334",
+    "vicinity": "32 E San Francisco Ave, Willits"
   }
 }
