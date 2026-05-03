@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:42Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Isla Vista Food Cooperative",
+  "place_id": "ChIJf25rLmg_6YAR7hBeO1-Idv8",
+  "result": {
+    "formatted_address": "6575 Seville Road, Isla Vista, CA",
+    "formatted_phone_number": "(805) 968-1401",
+    "geometry": {
+      "location": {
+        "lat": 34.4115595,
+        "lng": -119.8576623
+      }
+    },
+    "name": "Isla Vista Food Cooperative",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJf25rLmg_6YAR7hBeO1-Idv8",
+    "website": "https://www.islavistafood.coop/"
+  }
+}
