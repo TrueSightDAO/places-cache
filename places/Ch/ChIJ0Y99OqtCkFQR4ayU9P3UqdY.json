@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "4sistersholisticremedies",
+  "place_id": "ChIJ0Y99OqtCkFQR4ayU9P3UqdY",
+  "result": {
+    "formatted_address": "903 S 3rd St, Renton, WA 98057, United States, Renton, WA",
+    "formatted_phone_number": "(425) 572-0147",
+    "geometry": {
+      "location": {
+        "lat": 47.47954,
+        "lng": -122.2051481
+      }
+    },
+    "name": "4sistersholisticremedies",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ0Y99OqtCkFQR4ayU9P3UqdY",
+    "website": "https://4sistersholisticremedies.com/"
+  }
+}
