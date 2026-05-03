@@ -1,40 +1,284 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:03:55Z",
+  "fetched_at": "2026-05-03T07:06:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Miss Tomato Sandwiches and liquor",
   "place_id": "ChIJj0ixiWx8j4AR2v5O5ceLP1g",
   "result": {
-    "formatted_address": "199 87th St, Daly City, CA",
+    "address_components": [
+      {
+        "long_name": "199",
+        "short_name": "199",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "87th Street",
+        "short_name": "87th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Francis",
+        "short_name": "St. Francis",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Daly City",
+        "short_name": "Daly City",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94015",
+        "short_name": "94015",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "199 87th St, Daly City, CA 94015, USA",
     "formatted_phone_number": "(650) 994-7676",
     "geometry": {
       "location": {
-        "lat": 37.693173,
-        "lng": -122.472086
+        "lat": 37.6931607,
+        "lng": -122.4720459
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.69456428029149,
+          "lng": -122.4706965197085
+        },
+        "southwest": {
+          "lat": 37.6918663197085,
+          "lng": -122.4733944802915
+        }
       }
     },
     "name": "Miss Tomato Sandwiches and liquor",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2330"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2330"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2330"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2330"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 23:30",
-        "Tuesday: 8:00 \u2013 23:30",
-        "Wednesday: 8:00 \u2013 23:30",
-        "Thursday: 8:00 \u2013 23:30",
-        "Friday: 8:00 \u2013 0:00",
-        "Saturday: 8:00 \u2013 0:00",
-        "Sunday: 8:00 \u2013 22:00"
+        "Monday: 8:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100074552278433782549\">Deanna Leung</a>"
+        ],
+        "photo_reference": "Ab43m-spCNN_GoOyojF2FVzX5ckVeTAMX_QVSq08mtGqcph7LQpmw5aeSRSTVvDYiJ19oD-RXIvfhOAEPlJ0n_PR4bda4DnY75OMilRdDcmgJQfdWsOyEXnuY-q2U5X7ffDOpOlivPmnSqjDh956-bpXUxJTPVoB_fzr7COxM__5NTcEewWOc5UzW2wdaPRfk15uY8CMW5Ypgwm5m59Mu3QsGouH6Fhy86-N2hlYloLurvDJrQ1bpfxYKOhnBSw1_YvQmjNAr1HcCUpo5ctUDgxHVIwaLmR9-pRhQUNh9oIOYlDdXxuowELh3OIw29kbnOLBlSDPg9D5iGbDXDOhcHkxDDWKDVndPve2H1t12Y9dmNM3LzCN0FcrhXybtBDWjq-HlytTViB7M208qtjNcCwhwZAqQyqYagmj9CBf9i71VH3_zf67cqEpHPMoHdRp-A",
+        "width": 3072
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102882104527774224263\">Mike H.</a>"
+        ],
+        "photo_reference": "Ab43m-snexmpj87nbCDhIpVvxFBmdgH836PGvom3GEn2W0xpoxZkhzYOJNR1i2_VeQXtBuR5Q8M3oXA8b0W54h9Jcj2qII10EZktfT-Yz0dx0iN6tLhZFUoMF6DE0ZsZKdHV6Ud_pGSn9ECItFtbohI2rFEwlqPWSvkiO5IWOUpVvFcY5ksEvzLgOoNIrvGGuxJUBics_CiyPfzfXfJ37zsjxZBqeOPS69-vJ8jubfbq9GLaPWRkqgaQr3tlITokdN-fDVJWtC68A3OeaKzu4UuCoQnqEHHkh9M3u6xgQHv0bc4ger2RWBcHLwdPDF7V-VfBCCpgd6y63SGHZERbMms1FxyrufrmMxP_-ByErmL6cM34r_Np3-XOp4sYQV8isIwi23AIK9P1rwHka4elCxbDVCrMwlE6aZmALvAuAmzj_gZtkpw",
+        "width": 4800
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111931812183924571160\">Miss Tomato Sandwiches and liquor</a>"
+        ],
+        "photo_reference": "Ab43m-snv64TpvzUc2QZEawxVKe4afH6dEW4-PcJMRTe9s7bXL0oRibbhwm_PAJveD-1dU_sZuM5g9poGIbhZutchjob7zCvwpLpw4_mob-NH0BUqFxzv-cq7oN0pdrA_Tqdy-AiyfSJwL2jPMxeIjrS4puPFI_IlPRjVIqlzRd2qYPcQkD42-hxpZ2J6PUQRdEVTMN_eJmDjySzKFaqPw4psbtxDASPVKFyaTRQ9gtexX7sEc_ROdNLX_vSF-CjdSes9JashaK4iz3xyVcvG31W5FKmAok0N6DJp8eAoTi0i7KZdg",
+        "width": 1200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111812437179775288605\">Juan Sotelo</a>"
+        ],
+        "photo_reference": "Ab43m-twMhQzjwK1xJzLKQxRbIEaIRGwUvA-yFQdqW7tnr3t-NyiJ4TmgkHVRx8EAENq4Am6nieQn79lz8Zc8bS6ZyJpomR_f4mnPUpHQiP_3cOm_n6AkVi8VHnPRu_DmMu7Lu07sBTtnsrV3_v2WtQHg5z90WX-HnTZ90zdNlzMl37FxDGsR75_44KGUhML3Opp7g0IFcBpEkBaGppFj5XQkJRgpWka_TGo_B1au4klNU4YP7pdrBATXtC4Us8pBX9yaIUvs6yE89PKzlNlUorI213TS46wLIKQfxEJU3gWrK6JCFSju0L129qD1nE2Zitx1_tEMa5tTQYYgEChua1XOGilMmbNBwfsZeX2aeLeJF_rkQzajaoFUIE7RtSYw__drhQ5ImrbcnivbISgEi0Oh7pB8py7MV1PJ-YZE5TsGnlwIPM",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104032030505805328044\">Claudia Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-vDYPHwRvAqo-qTyjqNfxATv-Gp2xbGzi7oLyf_6PsVI8GW_aEgMSeviOZk78WgADh7uAQXym_87g-jjB1Kg7LkXS9gtODJuNFUUSxrcMUjKTFbN7D2wRmqJnVADeEBrtyaOZlgRR1ganIXviLwlX7ugndfKRWLhhB-k67Qzuh3CqYId8ZNqsICtK1zXfx_Zg3X1BLDbOviZ6kgxG2kgMXe-1XD9_02IsKZ78yRzKut-honRj4fOh-VkJgYtr8g31aI9qwLnt-ZfE_BREAESKv9K0fHjM8tOc3SHg3EcwWnZYbPtpef8ULYEyq95UCeV27FwRXMUoKaJ-PPtbusPfhNBjmrKm7qvL3mCpXNcQEpGz79dHi0YJzSp8_LBs8EU2z0mL01Nw2-FOIk01BMrTOy31u4uzz7KRIr-sjmGBT6fw",
+        "width": 4800
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108649344011016756337\">Jeff Ho</a>"
+        ],
+        "photo_reference": "Ab43m-tPVjiVvGqvNtpvvhurFpbNKXzVL2fMcFmsR6hDaQhW9eEHyaBYQymvYzSZNNRQC9SB5-3vi1t7kHAsfPF_7aB-BciuuzuQuwdzve0b0gmQ1eXIittQKHIRIlBOUCeyd3KST-bVXJXtCOGvt3ooQH644-XR9eaI5HNctNmttxU3kaS1YEiYe5BK8qFOp193HSXlS0sl_zzI6tqouGWlinPefVnWU3YNmVMoB2MDbV1eiRRGaYaQFmgoFZJgtVDI9yDoD7-sMLho_ZqRrbGWcEuvfZP9WnEKllkHPvtEILX9GbiAAvU49vB0losIfvGJWJF52ErtxRJ9Fa01hWpOccyUk9ZKD9QRqKq8GHD9P2crlFsAJLJGMAsCrf5bCLvWzmHhC9C8Std59eEbOV4Ttsi--NLDWmFCRDCdj4ancpUn0hQ",
+        "width": 1600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110820811754868262404\">Ron Lui</a>"
+        ],
+        "photo_reference": "Ab43m-uyvbVdbWIdJ8o-yqiDSlMhFC4eglCrN5UctCo_FYvAWw7Mk6mlz3Qg_DJEUwYyWEbexyoByF7b1c1tmjxVDNWIi3rIBfnxP-Q6CBhHzP02eTx0c0CfqJpyFVx5uzwjwApwlfbCauNhHQ7pXCYxcwD4xU1EpHbm74Rp0FvLL_wvIPf0hoTsvDpHcghXF6xfUO0yJuzPhACxl_3XborRtuhjqylmGoQwkXukuxB9yoYCnic1GTRztEkGVhnEBL355M5lOq3PtBqlDAidzhKVJUyb-Gtswf3_aM_oEFyXt5QmPeQab_ECAbbkm9Mz566rE4dErKF6L1yFzqNEFSUbkOJRsr5h2-zmShgNDmY4nc5UFb7HCTTbfkOLZXuwK0cRcJt-GAH6n8aTO6Da2zkdpw2lXYa_tPCF08iyhOVo3vw",
+        "width": 1800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104032030505805328044\">Claudia Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-ushxiMEMX8dow-EDrHjbY01N5tazdO7DCwFpL29YASdld9Pe95EUk3kmf0-rHvTxQg6W_svMa-nDcnzY7VDB3cAcYrUyJyZRY2BLWFLuGXMCIAgWty1svT5jWWrbcqde2P3hHNiP9Mv2qdtp34xtg-H3G9KwbOXd2jmgGXrWM9x0C7yzHgLr2XQfFTQKi6YDnSpfy9F3wcTzbkg1eg-UV-pSSpC__njYh6w6nWjQ8o-9qz_KvKGvSsNfkavi7NnhINJG8mtoQUpIWQrE1WiO-LCm5TN4NFftPhTlaf-_5irnhjVcZrR_lC1LoCNNdjzlrE9QUoFH3i85NEFIQhrDUpYScEZfqnGtXfrEjDf5hQnJGTPllCIB7bFAFeHwwk7VaTX8XKGqSxRY8Fl_QXp1Oo5VpNi3lEpP4_G5iCVTny1T9d",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114711890300638320351\">Angela Maiorca</a>"
+        ],
+        "photo_reference": "Ab43m-sOSHwB4Cb75HAvtj7xhlVzttZXswnZ6Phfti8MQ8uhGsif45YOC-Qslogc5_IyOaVRPdhrjn_CC3JQTRndPQHvLZjDO-s30wbrMs1a7SxoHfsXZ_ISYtYza4wZP3V_Jr4t4gRM_8Ouy-NU62MEFzTgsiLmmDRuJS7DzgkgWLTGRf6yvquRet1NsYk4zwy0AUP455yliNBq1PbcS0MRGy_9YkYpsBC04pp2Amah2z-ZqF--p2J8kZrnaQ_a2Yx35z1vQos8ErMzEFKRwmLvba_ltp4KyJgIA6hIU5kWVmu-NwnwsFKw0--E8kINDd_Ik_0tRNPBlDJ7gzv0_s4lSicaUznjxYan3VN-QhbPP5MFca1nlZc9ebGWhpLIFjQ3S1AUabZW3UDTGUEPpM_GtJIs_fdItVIJFQnyZuQr3dwHpw",
+        "width": 3024
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105850784938434021282\">Justin Simonsen</a>"
+        ],
+        "photo_reference": "Ab43m-sXh8qmdQ7IlEK0avMZHLmP2Xxmjo-uQhuwBSJPvk8LZ9YUa7TxC7S8OCRuYGwzT9al9h7POJU-I1lYjwU2p83E4IA5n4bbjISH1DgZlL8i7r_fYFr1I_lAW_EbRndfyU37QMjwxck88Fpxk01cmzcb764PFFHwYRnuaYheclbKntspdTEHa2hSfaLC-JvBCtD5R3Jw4Difp8kYMa9pIoz8jJayejGovaBdImsahZh1l-wPv0MdgOaLq2LTf137CFriFBFfVedd9pOqQpSYg5aua41NUa2H6u6i_6lNTJ79QQCqcunV3ILVIZ7svzH1HFoL0bnU7h4VykWLGWOJzGnOVUADpNJ5aP5poPrZnZkMV8aEUCCIQBkEj4ggUHakJwqOWUAG-NsGFiyTNmAE1UtLgXuBHUHP9zfYPy3YR_2tTA4",
+        "width": 2448
+      }
+    ],
     "place_id": "ChIJj0ixiWx8j4AR2v5O5ceLP1g",
+    "types": [
+      "establishment",
+      "food",
+      "liquor_store",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6358954889532341978",
+    "vicinity": "199 87th St, Daly City",
     "website": "http://misstomatos.com/"
   }
 }
