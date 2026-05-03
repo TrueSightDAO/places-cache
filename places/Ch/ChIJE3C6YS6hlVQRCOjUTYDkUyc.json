@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "WolfCraft Apothecary LLC",
+  "place_id": "ChIJE3C6YS6hlVQRCOjUTYDkUyc",
+  "result": {
+    "formatted_address": "3153 Southeast Belmont Street, Portland, OR",
+    "formatted_phone_number": "(503) 888-7460",
+    "geometry": {
+      "location": {
+        "lat": 45.5165657,
+        "lng": -122.6325433
+      }
+    },
+    "name": "WolfCraft Apothecary LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 23:00",
+        "Tuesday: 10:00 \u2013 23:00",
+        "Wednesday: 10:00 \u2013 23:00",
+        "Thursday: 10:00 \u2013 23:00",
+        "Friday: 10:00 \u2013 23:00",
+        "Saturday: 10:00 \u2013 23:00",
+        "Sunday: 10:00 \u2013 23:00"
+      ]
+    },
+    "place_id": "ChIJE3C6YS6hlVQRCOjUTYDkUyc"
+  }
+}
