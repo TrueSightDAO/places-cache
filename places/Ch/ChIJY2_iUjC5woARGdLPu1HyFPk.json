@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kiehl's Since 1851",
+  "place_id": "ChIJY2_iUjC5woARGdLPu1HyFPk",
+  "result": {
+    "formatted_address": "6333 West 3rd Street, Los Angeles, CA",
+    "formatted_phone_number": "(323) 933-3306",
+    "geometry": {
+      "location": {
+        "lat": 34.0722018,
+        "lng": -118.3604936
+      }
+    },
+    "name": "Kiehl's Since 1851",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 10:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJY2_iUjC5woARGdLPu1HyFPk",
+    "website": "https://stores.kiehls.com/ca/los-angeles/6333-west-3rd-street.html"
+  }
+}
