@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Crystalspiritllc",
+  "place_id": "ChIJHddKun5VkFQR4aRE9oud2Ss",
+  "result": {
+    "formatted_address": "3802 S Cedar St # B, Tacoma, WA 98409, United States, Tacoma, WA",
+    "formatted_phone_number": "(253) 272-4367",
+    "geometry": {
+      "location": {
+        "lat": 47.2221109,
+        "lng": -122.4769368
+      }
+    },
+    "name": "Crystalspiritllc",
+    "place_id": "ChIJHddKun5VkFQR4aRE9oud2Ss",
+    "website": "https://crystalspiritllc.com/"
+  }
+}
