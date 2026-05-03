@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "100% Pure",
+  "place_id": "ChIJeY0eCs59hYARWrAvGCE4KnI",
+  "result": {
+    "formatted_address": "2983 College Avenue, Berkeley, CA",
+    "formatted_phone_number": "(510) 548-8595",
+    "geometry": {
+      "location": {
+        "lat": 37.8565379,
+        "lng": -122.2527713
+      }
+    },
+    "name": "100% Pure",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJeY0eCs59hYARWrAvGCE4KnI",
+    "website": "https://www.100percentpure.com/"
+  }
+}
