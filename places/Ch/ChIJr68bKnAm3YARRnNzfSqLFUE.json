@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Brow and Skin Studio with Apothecary",
+  "place_id": "ChIJr68bKnAm3YARRnNzfSqLFUE",
+  "result": {
+    "formatted_address": "16099 Goldenwest Street, Huntington Beach, CA",
+    "formatted_phone_number": "(714) 841-6624",
+    "geometry": {
+      "location": {
+        "lat": 33.7282649,
+        "lng": -118.0070857
+      }
+    },
+    "name": "The Brow and Skin Studio with Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJr68bKnAm3YARRnNzfSqLFUE",
+    "website": "http://www.thebrowandskinstudio.com/"
+  }
+}
