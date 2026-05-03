@@ -1,24 +1,113 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:18Z",
+  "fetched_at": "2026-05-03T07:06:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Sacred Well",
+  "name": "Temple of Earth Apothecary",
   "place_id": "ChIJIc2HEQCHj4ARcbIHM5Rn39s",
   "result": {
-    "formatted_address": "536 Grand Ave, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "536",
+        "short_name": "536",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Grand Avenue",
+        "short_name": "Grand Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cleveland Heights",
+        "short_name": "Cleveland Heights",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94610",
+        "short_name": "94610",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "536 Grand Ave, Oakland, CA 94610, USA",
     "geometry": {
       "location": {
-        "lat": 37.8089237,
-        "lng": -122.2508367
+        "lat": 37.8089372,
+        "lng": -122.250746
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8102263302915,
+          "lng": -122.2493169697085
+        },
+        "southwest": {
+          "lat": 37.8075283697085,
+          "lng": -122.2520149302915
+        }
       }
     },
-    "name": "The Sacred Well",
-    "place_id": "ChIJIc2HEQCHj4ARcbIHM5Rn39s"
+    "name": "Temple of Earth Apothecary",
+    "place_id": "ChIJIc2HEQCHj4ARcbIHM5Rn39s",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=15843495900321657457",
+    "vicinity": "536 Grand Ave, Oakland"
   }
 }
