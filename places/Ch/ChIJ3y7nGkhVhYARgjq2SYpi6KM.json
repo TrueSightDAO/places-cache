@@ -1,0 +1,36 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "French Prairie",
+  "place_id": "ChIJ3y7nGkhVhYARgjq2SYpi6KM",
+  "result": {
+    "formatted_address": "6277 Bethel Island Road, Bethel Island, CA",
+    "geometry": {
+      "location": {
+        "lat": 38.0161466,
+        "lng": -121.641278
+      }
+    },
+    "name": "French Prairie",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 16:00",
+        "Tuesday: 12:00 \u2013 16:00",
+        "Wednesday: 12:00 \u2013 16:00",
+        "Thursday: 12:00 \u2013 16:00",
+        "Friday: 12:00 \u2013 16:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ3y7nGkhVhYARgjq2SYpi6KM"
+  }
+}
