@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blissfusion Wellness Lounge l Mt. Shasta",
+  "place_id": "ChIJ__9rEuHmzVQRDsGLQVytY2k",
+  "result": {
+    "formatted_address": "105 East Alma Street, Mount Shasta, CA",
+    "formatted_phone_number": "(530) 859-3050",
+    "geometry": {
+      "location": {
+        "lat": 41.3152563,
+        "lng": -122.3143536
+      }
+    },
+    "name": "Blissfusion Wellness Lounge l Mt. Shasta",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ__9rEuHmzVQRDsGLQVytY2k",
+    "website": "http://www.blissfusionshasta.com/"
+  }
+}
