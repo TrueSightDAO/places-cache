@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Gypsy Chic Vintage Market",
+  "place_id": "ChIJH9U7XTs9m4AR6aB0vrPteXc",
+  "result": {
+    "formatted_address": "109 Flocchini Circle, Lincoln, CA",
+    "formatted_phone_number": "(916) 800-2811",
+    "geometry": {
+      "location": {
+        "lat": 38.8843099,
+        "lng": -121.2946186
+      }
+    },
+    "name": "Gypsy Chic Vintage Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 15:00",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: 11:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJH9U7XTs9m4AR6aB0vrPteXc",
+    "website": "https://gypsyvintagemarket.com/"
+  }
+}
