@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "ETHA Kratom Escondido",
+  "place_id": "ChIJ278neePz24ARbYy_FOxG45w",
+  "result": {
+    "formatted_address": "601 East Valley Parkway, Escondido, CA",
+    "formatted_phone_number": "(760) 390-9865",
+    "geometry": {
+      "location": {
+        "lat": 33.1266324,
+        "lng": -117.0749836
+      }
+    },
+    "name": "ETHA Kratom Escondido",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ278neePz24ARbYy_FOxG45w",
+    "website": "https://ethanaturals.com/"
+  }
+}
