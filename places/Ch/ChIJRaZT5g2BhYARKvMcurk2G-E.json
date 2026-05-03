@@ -1,28 +1,209 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:03:59Z",
+  "fetched_at": "2026-05-03T07:06:32Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Infinity Coven",
   "place_id": "ChIJRaZT5g2BhYARKvMcurk2G-E",
   "result": {
-    "formatted_address": "447 Stockton St, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "447",
+        "short_name": "447",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Stockton Street",
+        "short_name": "Stockton St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Union Square",
+        "short_name": "Union Square",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94108",
+        "short_name": "94108",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3608",
+        "short_name": "3608",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "447 Stockton St, San Francisco, CA 94108, USA",
     "formatted_phone_number": "(650) 420-5932",
     "geometry": {
       "location": {
-        "lat": 37.7528109,
-        "lng": -122.388333
+        "lat": 37.79023919999999,
+        "lng": -122.4073482
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7915941802915,
+          "lng": -122.4059132697085
+        },
+        "southwest": {
+          "lat": 37.7888962197085,
+          "lng": -122.4086112302915
+        }
       }
     },
     "name": "Infinity Coven",
+    "photos": [
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104262745080752670130\">Infinity Coven</a>"
+        ],
+        "photo_reference": "Ab43m-uxWkPlaRMzUr11fjiGSo5H8Dw-n9EodUriVQWF_mEsRGWvU3DMkciocB-igL1EA15ERTSaPQeVkA9rZABeBDowYfnOvBnISUfiXNVNqveuItdJ7K1PLRuqd108LiLo3v2ghwthvl_8QkS827p7P5szUJTZwD0aDqK3DNsUpEN7WrcQOZ-ZmiTNsyEB4wlhR8S2GFtV8v9B-gXwRp73za4pmJvV4CmbWvnEzxmEAvAg_C4XoS8_ofAztQJdLrlYqA9WUPabFUqk67lezonTZV4eM771Rns17McuN5ez_f5nQQ",
+        "width": 2016
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "Ab43m-uqTMDEVciqw71UEJoErR_gdRvF_HrFWb4hBSQRMw3KVYJLIbWA6ZUQzNuRLZT6UFiIxNZBirO-OjKE9DOeqstTPcVkTNp2e_ttMn16O7fzmmOSIaUbirLVqizFJhCnkJyvGf9j_ievN-3sPQkymtxQfUJMEAq4KaFS8a15Z7sW3t64s_fdDi-68U3GB4n5dGlVtKfSFX0Odc5v1eiGboz-vucIRw7hdXDzAyxu9FVRX_XBKBSW5kRCBsjIh8A22zPAD2cTaz-OEtKovQL0AjFRZoMJP5dsTdz2axjWyQFWHHRLzvG8tMUTv2HL6rLymmClJtaLCvr6YEdRD5Li2K9BotIxBXereSRHIFHQb3BfV7lxzztv80YsHHdbPvfGM0-SdtnlvXhp1ZdeakgCUrSNTObZcQ6KfTzw3d5SRee7MA",
+        "width": 4032
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104262745080752670130\">Infinity Coven</a>"
+        ],
+        "photo_reference": "Ab43m-shIjci6lakBKlcQv-wLvLwkWqbprHCx7S39D6MN0hGovkdc0PoyMhsP-A3WkZ1NCghFYCMYeA7709eBLlKUGuPBJwhueTyQhlm3MR3iUV9763pJ7Lo7DnjFArJOH67SjwVioCq848oX6gJgkcQ2fa0uDkme1GL7bkMZWUlD20LHab_PTkgjWo6huQ8pkqKiRolsxrtnshKrq9VyEzqAfGWBPaWJnRgdPQHa2gyZViAhARiaGoy9cXqNk-JJTFjBOX3ia4qcxkdfXEr6zbs6WohKKDYOtOVhcxzJaEXRvIQ-A",
+        "width": 2400
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104262745080752670130\">Infinity Coven</a>"
+        ],
+        "photo_reference": "Ab43m-uKi0Ac-KueSyFvgZBIjLmJh9MuSH8lzg3WWyRa2miMfMZoljZbmqR2fZ8--NO7IllZOplQJaOvzprM_b1vkvQE3-H4sv5Zjl46S9UMCs2w_TsqYwicwraa26DdUub77Zh5utKzuNwmUtqVFoNfffZYubMAFk_3Zjje-N8AZilgFDiAdipBdIb3NzgWzEFk3TX89xlh45GS_hgSLmQy8U-PNqxO1PWVOACbkvZtZ-4oHROLyzbeycrFIKVMSLZEs8B5JPX36OG5fBcc3WAz1KN8cCiqRqpsB1EYbBHApQAB0w",
+        "width": 2016
+      },
+      {
+        "height": 1228,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104262745080752670130\">Infinity Coven</a>"
+        ],
+        "photo_reference": "Ab43m-uAvPhCSRAlhFQLm16lP11KgWnwLd625dEI9OBwEQKncyVj-odbH5Vywd4AUCMsMuCM1yYc90PD4486Hu9Jt842NKnOgyzU94sjUaF1okzjr4KA-e8ImAT8zIBgmabJEzpuES8Ft3ZXK8zMvS7dKdqZej3GKGUQMdtO9HfcCn0FhrBHTFVs7ZLs8aYBipvUYvvDJV3cezrFLiBphxhVXMAUhzQjTevd3wkJMcH0NpGk6JgUNoTUcsXTdRCCTkaLDRHcMgDP1syFW5ahBuRbu8Wm3VjDc-jJy9Q-NzKAGcd6kg",
+        "width": 928
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107217268095134606014\">Eric Curry</a>"
+        ],
+        "photo_reference": "Ab43m-v440_p9FAy1xd1x2tLuhVWCG2ww1K6S-iwoPtq4rdDS6jVTt21oCr2oxLzTNx6BKQAgxMIh-dvKt1FAYMLkxs1EKhTliW0MWMv0dYyWrnpQZh_LPJu3AqYCz0q76gwjphpmG8mkd9ni8Se2EUr9ndq-se1O48R--lyA4Px6g6wjNmQ5pAB1FwhVPwDBroyBrv9JoplKHQ2XQV9V2XsW-NFpuTeuDN5QQse_Pjl8-Qo-01QktOQLbjA_2oIMmbpJQ7Fuy5B5srHU9hFTCRF8MBcPUqwsFO8koQI8dqa-6rH_BgdOfXBLJ2rDyXHEgTw99IHf8I9HeIMtabYE18HlgvZc4cKa-uOb4MtJ163aUYWVaY5rNO9exHup9VFR43Pj1EU7kun6xpiYSrGs-8oCrl-_3DdR7IpQqYAluoCRPWQpeo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "Ab43m-tfX4GhqNP-Fzt2S-NUTyy89_JdcpmXEiW_-y56MKGlyd8tNgPLwmWVjQTJaU7ffujFOMil5HwDODycpJZoD6MyT7iuuhnTh_IIf0hsxDzpKEpvQ56mi3JnArRQeafr2fHje96IwvLWlrwCfypfoo2dqjZyh1D59vpne1s1pGz6nO6lO4SlGo-NbOUMFRd8o5Zv1pOiMixsGQDQhmrCIrpTokipsUJNR5VqaPp_rvRtPqZSHzOiTIiDIpABKhPxaOfRELY9qYTSdoRrQ6yOgRAC02kroBWdPpMnYGZUEzblCSJMEoqQceWGxB0v2aqbotIhm2QJLNJS_LjyBGoodxvV8_FgcsR9IxHQDW5c2qsBEonVDjVc7zFwsi-RwYhuzkbfOnOsnfQrfyXnBKKVJi1xkdBcqu87-T4HVn1bMog",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "Ab43m-vUgXnTK5DCq_krsttMl_F5Kw1aRJTQGt3uDB5oi48fwNAHZlAdoUqQzWf5RfU5I9VYzuDACOz8wr-Ppxp663b8DPWRSQvMO-Vm8GJG3gKsmR5tuHkdV4vSdtgiYJ__eO7N7nNnLNHLy3sWgiBd3jGTdJPMdGiQW71_EckBzWL_mSUL_gEDkGC8oUKYwmItYOgyiTFmKzm0mPq1xhGXGJbSV1PKuG9YWv-DF3KDZzqDwwjgJH7CD8OJBDOPin3ROIiL01xqFcnYsf3jBqt22E4lKradCeogNMPaoKAtyWZ-vbWl5ftDa1GRb10pGW-dPRjvQLXrFtsjgfRC0SFTFyUa7bfenNOESTMfYEDch6CnB9ouQtbc88_1IcWJAU23frmKdUak2hhnjFrz1nUWTjI9OzWShSXs9VKNfHvhvdgdK7Sa",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "Ab43m-t8CmhDsNkoN3Hqg0VWBekNOdc3fKyOPU_YftC6rN1WehmHGFxXnJl0cBPKWxwprzErPfvXeFqHn9obrrB515_sHOMVY-e21eiPHxgADFpdygB31XzYZIclRXayTclO5LNy7paYwuXMBvfO7YGQ2JMt6cNZlAfiJNsW1pYgusOHWWTW8vxokJGHsLUpqcfon6Lj1Vn-ikMwQhzaEDUGKfPa9Gbwo5FSYUYAe8Ib5lprFSPUC9Dae-GQXsrHC7SUmuDSODwbsCbVw9HH4uQXdHzE7qV3KOVOlLRpaNaML0yGAo5ROGA5CjNhpG0cuoUQHTmCvRtLM_lNUKzK5AtKTat0JIsog0OjkKoNO1fZFXFd_rIkdkcBv08qzMOMxTXOV7jyWdNPd9cV8Y9RKIlkvojkgQrvFkD-m9m0mK0zFfSiJQ",
+        "width": 4032
+      },
+      {
+        "height": 1063,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104262745080752670130\">Infinity Coven</a>"
+        ],
+        "photo_reference": "Ab43m-uM2A3aaGiaOfL1Hacyrhk_WRMtdEmPbxQkRE7GcAHoCb_GqpoJjStZWNQNrW2fG8eiy6XgeRRR0YL57zxa6w3RfONXvoR8-P1rSInvwzpD9MwRhIeTn_cf50spqbTEaO5FOqEFEUY9S7CMTxoNsJ9eWUfUUQowptj9xl2sBCDyPcpquTzwKYzHLnZjA1EowzZITwmG6QV3Q8wuFjvgxrAe7K05bQHEpmQPTv02hCdv0OThc3iHOuWyQH3L8rZb795lu60WRlsG7Ldxjc2-5aDFmIpkwireplYADLcWr8ZCFQ",
+        "width": 1415
+      }
+    ],
     "place_id": "ChIJRaZT5g2BhYARKvMcurk2G-E",
+    "types": [
+      "book_store",
+      "clothing_store",
+      "establishment",
+      "food",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16220618654224282410",
+    "vicinity": "447 Stockton St, San Francisco",
     "website": "http://www.infinitycoven.com/"
   }
 }
