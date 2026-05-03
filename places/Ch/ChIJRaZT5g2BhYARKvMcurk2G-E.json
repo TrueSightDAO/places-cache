@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Infinity Coven",
+  "place_id": "ChIJRaZT5g2BhYARKvMcurk2G-E",
+  "result": {
+    "formatted_address": "447 Stockton St, San Francisco, CA",
+    "formatted_phone_number": "(650) 420-5932",
+    "geometry": {
+      "location": {
+        "lat": 37.7528109,
+        "lng": -122.388333
+      }
+    },
+    "name": "Infinity Coven",
+    "place_id": "ChIJRaZT5g2BhYARKvMcurk2G-E",
+    "website": "http://www.infinitycoven.com/"
+  }
+}
