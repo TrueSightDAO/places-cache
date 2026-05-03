@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sugarpill Apothecary",
+  "place_id": "ChIJUQqZ9F75j1QRkpi0NciZsYA",
+  "result": {
+    "formatted_address": "214 1st Street, Langley, WA",
+    "formatted_phone_number": "(206) 322-7455",
+    "geometry": {
+      "location": {
+        "lat": 48.0409426,
+        "lng": -122.4086608
+      }
+    },
+    "name": "Sugarpill Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJUQqZ9F75j1QRkpi0NciZsYA",
+    "website": "https://sugarpillseattle.com/"
+  }
+}
