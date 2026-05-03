@@ -1,40 +1,275 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:10Z",
+  "fetched_at": "2026-05-03T07:06:43Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Go Ask Alice",
   "place_id": "ChIJLZ_u5idAjoAROdfGi3N7PFg",
   "result": {
-    "formatted_address": "1125 Pacific Ave, Santa Cruz, CA",
+    "address_components": [
+      {
+        "long_name": "1125",
+        "short_name": "1125",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pacific Avenue",
+        "short_name": "Pacific Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz",
+        "short_name": "Santa Cruz",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95060",
+        "short_name": "95060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1125 Pacific Ave, Santa Cruz, CA 95060, USA",
     "formatted_phone_number": "(831) 469-4372",
     "geometry": {
       "location": {
-        "lat": 36.9719889,
-        "lng": -122.0256564
+        "lat": 36.9724261,
+        "lng": -122.0258993
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9737857302915,
+          "lng": -122.0244527697085
+        },
+        "southwest": {
+          "lat": 36.9710877697085,
+          "lng": -122.0271507302915
+        }
       }
     },
     "name": "Go Ask Alice",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 20:00",
-        "Tuesday: 11:00 \u2013 20:00",
-        "Wednesday: 11:00 \u2013 20:00",
-        "Thursday: 11:00 \u2013 20:00",
-        "Friday: 11:00 \u2013 20:00",
-        "Saturday: 11:00 \u2013 20:00",
-        "Sunday: 11:00 \u2013 20:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111970366655381794306\">Rahul Rajeev</a>"
+        ],
+        "photo_reference": "Ab43m-v-hP6XPtGZhGLTFx6k6QPLTAXePom4axEDdc6k72-TvUFTp-mP8vGYfDk9BGMFuFWZrT-c_-o1zqh5QUs5mW2sCymMxsKgvW7K4mcZotzD5fYsiG9isBHMYCJN_91m6vA1l1sv7CN_-zXth-ELhvyHLpJDAk8F7Yxhe1M54MWqujZGqyYBjjDTxQ571boqqKgH6LFZMXQOFiiBs3IaFuIZGIeC0d7KEsg6Ew_nbkezGfqPRuDxAhS0yPotU7OiJ4G4qw4T0FvTZ4Gqo25bx_sawaRDyLJvg9vSVvIxJTdNn0ZRK_Vt58eRHmRx-6ia9V4j1iTdRM5lkZnaupQCYhrd20Ewkz8VUwtqgkLTRnXqf4UVO7t7qFQA3E_JScHThLehGjAOpYkzw3HEsqSUYXu52IMEuSyxelzebA0lA3PNPIvd",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104041375487945885332\">Leah Knight</a>"
+        ],
+        "photo_reference": "Ab43m-s_bftRupKapHyQOzQROtjkXqgG0Wi81vF6WCZ9254_-ksDyOn_wCZfITtlNQv6Mlf_Pr-B_2GJskGZn5GNbOXSIBtW92HRzT59OZ-77raQDx3V7sqFl6abkEKJi4jkjPmwRBbJymCO5dlYrVY7xZSnVcD5Ao0NlP8SeuMcP51f2dqadfeupcvwE7GIkdfepzz18ye3oychQVLmsGtll-NKp3INpgf0zSW_7W2AOzrl6VsQd5wr_n1NNYbC8FacQGkzU_-qeUNSQ6S6ul6cFdGU0FtMi06AbBLTNpbPnx-xNQy2f3tcT1Jwb-mxnSadGYJLyP8UpEgNzOTAMBxHgKaF8jYHdDU-oTqGsTuws1a5PMcI8M22lcmwgI1_8TTWk508f9uoGSVdwIsKp0vAQHe5luocadOnj1WAcZKkIlHHtEC5gksIu4_hYQSkJYsy",
+        "width": 4032
+      },
+      {
+        "height": 2720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-uY7z_gFapTYpS0p-wjeC7Dn5797XATwIRlMCmq8nSo0K53b5-pNWv8_q2dKh5MNsInjZh8obZFilM5YAzG5gYkESmtWz3i0EQ8qP1f3xVcGsZwoq1kNu9_1K2KYwcH794LInktNtvKRVz9xeHZbJ7ghOyeET1LYd_64Y_IO-7W-UNb_CQAXk6ZKS3daht06UshUfAq_yDp8Jd9Z8hbTHtC2rz5Eq05lsNniJf5CGCjGnKHpgpYQRdslCTiDEpNjlwygH00uKSR6MWvtn0QJeFY3zaVk9Hc_SwREzgOzYMEQg",
+        "width": 4080
+      },
+      {
+        "height": 2720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-tl-qnBtCyWEfRWzhAFXDkzegrBlP7zxd4PnG6DfqFjSDvivvKVtaI3YTKGTotmaZwDd96X4eGwMYxShjTXfxkSok_mXSdeXEWJmzcS2lj9tZF3ztPkUGoNjRsrqOlwVvtRlo6FWugOHFTRt7w3S6jGOP_XZDSsddgsB4o_u_qdyTndCMuv_UNpKP-Sq6OtTxFOtpyhw9DGnl-cIk4eW6QQVHbAvvkkNRgnrhddgWWov_aLKmGJ49hhYqALhlkbalYA6QG6kyxBRCSDG36jc_5ClumMDu0hk6e8qB0tBVZ3yw",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111346536143996088164\">Magda M. Cooney</a>"
+        ],
+        "photo_reference": "Ab43m-uCVFPVW2u91_lqfP5JAPn8g9Wa1azlId24uc1i9WEFGktGoAhI3kRlKRT43lg8EFMsniy0tFhKJ9A1F6Zt9k_v-tzcHINAgN2Es86wbtgrS1D1Q_cOjaJ69ys4GMChQQVoQM85qTbjGar2RHMkV-PjZouuxVHutXO-VbVsqWkaHOtIOh3blc5sALZjFNinopRukWK-4eoZL8Y8ugKibYXtlAbqQWi5KlRTVTP6UVP-Qyc9DWEdwThYK2lY6XGxp2VRk7MjugUc_g1U7sLNE7PN--sbCwFaEt4HQNx1oRVh5mRXw7Jha4dbDIXEkmYgBPo7hNNVuGcWpRHnUC6yBFQ5fa09jiRR4QX_irAp8Kh6rT4H5Y5TmxxMRjpXH0_C63WCIL5T8MaJD2EYwYkMhRqdebdEK4U2uBB4bjW-DVM",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-thL6KAXs4fObT3BxrVFxRpa_F64JDS-05MajkgaQZdfBQ3M2qOQ58OAfOAwoUl4Q7dtVm4iCVt5NPCIS-td5btVFa1WTC5sw7wSQtbIV9lv5JKCvQ58-P1-5iUeEbJbMXkpaGeXy7-1RVzQoI_61m63c_Hhu_jTbb9SbQdh06svCxDW2YES_-ZzwXaw8SWgk-wqP5CfZg17VPvw96vG4CDV_Bghb_eeGxbjiQtGv2v3auGicjfr9_9MDw8p9sXDo2zNvgTnFXIFPH83XBVVO-OIzIWdMyyNkt3ALODNb08AA",
+        "width": 2720
+      },
+      {
+        "height": 2720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-ssqGqGOs8m2dBEa7gfa5GkCF-2VqlcVcDfTnKJwwThtr1bdwth04TS5-9MZGTyBLjKee22hAoagDwtD80m9KUkV8D3FFRYxpfzzEr5QkzRcNmOhZZcivu72pFyaTcc2Qv5OJkTj816FYtQ8YkAu7Ecv2LF97pH1IRYiyY1-oKkERKfEMZ9UhCuwgYg7qlQ1OI5nAMFLZ49PZ5DO1mftT01lR_7l7FwsgOMwZWfsjrq-qEkN59bmRlCK2tUxqLNrK8mlGflqylWqRc7R2Ww1WztfTA69Jj9bUk2cVqUgeUlnw",
+        "width": 4080
+      },
+      {
+        "height": 2720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-v1mUayvq_DQWca4GyNx0yw5yCc6AjgPCJWyGq7swTqU_v96AJZydeusf66h8UJq8NF_VoHnoOy5pjCgGkCYr22D0in0LY9bPcPqaKzkYpr9_tDhR1mwE5PiunJVL82xK465V5wnd-WMd56Z4fvd9s4LgcaZL5V1VOyrHzBrSUpML_TrFPGt2RKd-ABJ51Rgdi4UNmFSUyJaDhtTwfG3DK5J9iJKNI_JBV0Z6p2Bn1cxZ8ilOss4LKhgRuQIrT13nZAsn47SPEQD0mAkfO0LD_lVg6F3lnKALf9kp9-GLH5TA",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118224541638194993954\">Our Towns</a>"
+        ],
+        "photo_reference": "Ab43m-vOGk7z0-UGCd3QTdJyejdchuO_aVonv8ftc7DRHT2BeB_9424x_mxcu5Fo9azys-AjxtmjgONcUVje2NmIXAQAyV0UdfjY1ru0bR733jafvuZcazd4hJ47Fl67kN_dyB4wnM-xSTIEeLUi-Qp4Is7ZbqGvN9uGgxXO9yiSwBhoWqT8zVwGPQvDez35tkpYwa7jQEA5ZM2FO67MRdeFgYNrMF9cK1RIjwXBzikUQdvxoQN8SeT7_WpUSEatZaUo9hPUr4TjaxUrxtLoPHV6oDTKaFqeUx0YO9mvZm760_n1Efsmy15nwH9EVFl6EKP0EYQRFvc77SXwPn1iPZLGWFBEQ8IY_akkCh1VyltidzzsjRvgaeeyYyX38m_16lqM_ObW2XdNae6SZwyhUYrwgcqndkRWAS8NHNsVpUtHHpLJExDW",
+        "width": 3060
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107083400568179613706\">Go Ask Alice</a>"
+        ],
+        "photo_reference": "Ab43m-tz1axUukg-j_fP6rWJuVKqkB8CkP6DCJzrGw-8ptF0iDukdxtHWgCMGcdTM_G0ObP-g8KoVESIq8XsTGEWkHnkK1pAX1aGqWje_Vb6NRa8zELMSYLTxYvYz08LlHQItFiMbYJ6rxCJ2MbHQA6lvPTsQZwX2Wk90PxEwqmgIEqCai5rLu6jbCRvisT-ah6adrEcoPiK06_oi1gCcM8ejzTprgM-7leiipUOKCptI2R38KaP0osiQuzgEZuaUI8QN02KXCX-til78LKXLHDDYw1TU-KYuVNAWcoYSFuRYwJLug",
+        "width": 2048
+      }
+    ],
     "place_id": "ChIJLZ_u5idAjoAROdfGi3N7PFg",
-    "website": "https://www.goaskalicesantacruz.com/"
+    "types": [
+      "clothing_store",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6358092510136817465",
+    "vicinity": "1125 Pacific Ave, Santa Cruz",
+    "website": "http://goaskalicesantacruz.com/"
   }
 }
