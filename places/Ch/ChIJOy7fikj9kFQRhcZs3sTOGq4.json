@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:50Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "MiraBee Aesthetics",
+  "place_id": "ChIJOy7fikj9kFQRhcZs3sTOGq4",
+  "result": {
+    "formatted_address": "13921 Meridian East, Puyallup, WA",
+    "formatted_phone_number": "(253) 202-8133",
+    "geometry": {
+      "location": {
+        "lat": 47.1295059,
+        "lng": -122.2924169
+      }
+    },
+    "name": "MiraBee Aesthetics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 16:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJOy7fikj9kFQRhcZs3sTOGq4",
+    "website": "https://www.mirabeeaesthetics.com/"
+  }
+}
