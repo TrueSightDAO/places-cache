@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Vita Herbs Tienda Naturista",
+  "place_id": "ChIJPfAQB6DHwoARmrB3JrA9y7c",
+  "result": {
+    "formatted_address": "2119 West 6th Street, Los Angeles, CA",
+    "formatted_phone_number": "(323) 762-6087",
+    "geometry": {
+      "location": {
+        "lat": 34.0600835,
+        "lng": -118.275373
+      }
+    },
+    "name": "Vita Herbs Tienda Naturista",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJPfAQB6DHwoARmrB3JrA9y7c",
+    "website": "https://usspanish.4life.com/Vitaherbs/shop/"
+  }
+}
