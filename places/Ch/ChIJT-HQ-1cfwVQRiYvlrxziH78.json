@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apokalypsis Culture-Change Research and Facilitation",
+  "place_id": "ChIJT-HQ-1cfwVQRiYvlrxziH78",
+  "result": {
+    "formatted_address": "1280 Pearl Street, Eugene, OR",
+    "geometry": {
+      "location": {
+        "lat": 44.0457991,
+        "lng": -123.0899557
+      }
+    },
+    "name": "Apokalypsis Culture-Change Research and Facilitation",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJT-HQ-1cfwVQRiYvlrxziH78",
+    "website": "https://roquirkehealing.com/"
+  }
+}
