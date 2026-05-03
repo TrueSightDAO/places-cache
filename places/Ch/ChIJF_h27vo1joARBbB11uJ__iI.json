@@ -1,40 +1,275 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:11Z",
+  "fetched_at": "2026-05-03T07:06:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Moonstone Metaphysical",
   "place_id": "ChIJF_h27vo1joARBbB11uJ__iI",
   "result": {
-    "formatted_address": "130 N Santa Cruz Ave, Los Gatos, CA",
+    "address_components": [
+      {
+        "long_name": "130",
+        "short_name": "130",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Santa Cruz Avenue",
+        "short_name": "N Santa Cruz Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Los Gatos",
+        "short_name": "Los Gatos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95030",
+        "short_name": "95030",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "130 N Santa Cruz Ave, Los Gatos, CA 95030, USA",
     "formatted_phone_number": "(408) 313-4744",
     "geometry": {
       "location": {
-        "lat": 37.2251574,
-        "lng": -121.9822178
+        "lat": 37.2252532,
+        "lng": -121.9823919
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.2265941302915,
+          "lng": -121.9811749697085
+        },
+        "southwest": {
+          "lat": 37.2238961697085,
+          "lng": -121.9838729302915
+        }
       }
     },
     "name": "Moonstone Metaphysical",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 19:00",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117800561066090220938\">Jonamir Ian Ventura</a>"
+        ],
+        "photo_reference": "Ab43m-tLPP2CaP4ys9ta0XaqwhTgRlbrqCBIVs6E97CcRqd7-Gekkk39UJNztt42doIiVUiv4yVMHoRPPzlVW_TBCs1wkpWETXxuKIk-ADYHU4-sTi-xmJdGyAR93tgimFOE5jRPj1_L3SF50RBFx5lRsX7aK0SmFsK0z5zVWFiSZXUOTB2DXtWDrm_5vxYdn2npYq1iO5K-XwL2Ia09XmgaJWtN7B8oSkpPJYGP_ZXUmb5grquSiS59J-z9c4iQuw3avYrq9zVimQQ967dAGtu-A97sjtcqeGN1_NbyjQWBIn3IvkwCsjBllRKVcWQEfYOc-a4WHOy68vyVW0RazP8oTOOSIItDr8OvDG-ZjLR0zAAIKG0iYZoQ1_DzWf_nCbgmfucjBGQVRSpyPUlgFm-bNgH1Azq_RjOInbyzPAocS7zMISW6",
+        "width": 3000
+      },
+      {
+        "height": 1136,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114962047189134736590\">Moonstone Metaphysical</a>"
+        ],
+        "photo_reference": "Ab43m-t9CSyiVfz_S2lJ6kewpqwfiDZRO4Y4o1uBnmXDvrgS7-n5zZx-iAfXlCESVy2Lugv6x1a2cbasLi3O61wOm4eZTK2_NVLocQmFsAMvehEGCNIdkVpDI0So5hD4b8Wq1ZrunxyrB2pnz-ka_Rp6NewUxkTVNpcftKg34GGPojnVpmCZHEkjgNOzNtOQRZmK4YU9r504cmjmH22juIQ5Im6HAgtoxqBURNL9jP2zU7qWDYGbgTbihofGayjVfT5gNsHEK3kVwOfY8c3NcLMQemFY5F9EWetYsEohOtskKSyU1w",
+        "width": 640
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114962047189134736590\">Moonstone Metaphysical</a>"
+        ],
+        "photo_reference": "Ab43m-t7H0PcVhmOwFED3DIRguy0dnv6YI0G1cKa58nyZmIlWKslvsmFUANXQBSh7eaddIHWkZXmqs7GhnTBa4IlfP8k1WeUBCgnvQ8UQtGsaNEpoz4qSMmOD2w_4KVPdtdMBRYuhIQFaXq7SBvDA-SEFLMY7IqjhTZUjVfhTU6vncCFja-9_yyjeZfPpgDFh-6pP5cA0_4htSoSY6fRJ4UEt7A3wgT3pUriY4xFT3xhxWpzgBg4TC84h3nrXOTMqc24mhLAQCEhBRghVz_qNHghndODR7-GZ8C4QwXzBF16e8dGsQ",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-vGNWY9YIyoWwJj48mQ6g3Cy5ESnc2UMc606vx_SG_xnNCZhwqZ36K5uP_hiAbyj9b_sMMJbQjaUVVRtyQp7TgHFzmbpPSVSWc3vR8wyN3OMk5a4K24i7zw1cG7nI-tk_7nMiyzbHGm3CNNvsw5ReRWFuisa4-EdoOlKQNjn8TAH95PUZ7UD8N06YYeMVw3iOfsBr9t7suZ469DEin7jcbwdmH41DMVT8dl384igwUGoqU2XL0cSZgw8yaAHPne0RkkKcReiugjae1nJixsqM9__ZF7yzWqUKQeI5OmYXK0YBU_ysgUsN7dZL_l-n1bVzSQRvO28oQ6CkRH3u0hD60wvCERDC6WZXRUJObQqAu-Uq9WtY2zFzBI8z61le2Wctx4X_DF-OlsDVIZM7xr-3LpXhS3rs6gMGx1u2UNuIo",
+        "width": 3000
+      },
+      {
+        "height": 1136,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114962047189134736590\">Moonstone Metaphysical</a>"
+        ],
+        "photo_reference": "Ab43m-v8pvXOqK4rUsFpiVdlFGYAuvZMbAdYBIFqmjFv5j3TSTohXBENUbmW7QwXxm4Q_z3pAHKgY9Hu7XePdruxX43T3kRo7BtOdSF5hh_B09aHJEPoYzld7wcyOid-T7s4M770eNUiyWTywFPaYFI30gn6Nr2xnZtj22bFfg_uMeWHRoaH1rOKqhriDL5-bt5_jWfBOveFUsYVr0mVl9Z_uk_w0n04n_7zOcqzhg-fSw27bCNEBiX_eT_ict7ZkOUOty7-Oi-4h0hx5aUafDQ_LJHnZIOgFUDHdYH1jKv-TnoSYw",
+        "width": 640
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-tWoOmgfRDkFu7Te5y_IwwW9SXCu8jpOOjZq5T6RrQjqPyRW6bX676ifeLMD_Jisukk79mA3R4dDYbrUaw6lqTzaiGMmQN97PGxkKoDu8F0DVXZkFU__bLJ-EeB39K84uH85xg6t3p1syppyO6uu2QGVEKqw3gJZuJogCRXgbBulTLiJaSaUCQv31YbBu3SzPAudHaHUe2Gyi6d-uFdIvVubWQ1n2WBBhDFXKnw8c0Pu1QmnE-l3WxiL-oZHBCqTJ5OQdQwpnwTj5fzpbyxrUQ_kWxkKuHQyKs5KKJ1Yp_fXtYROc139McS29ZyMChnoCjw-yB4WKeIdSXDGIzztDxCnNv75hXbySEMm1yQIFUr7hBCCAFe1pnqBKJIzdI8fHFjIMVc2lvewCrlt_TQACU9Z756_lw1qm8XxcxyXpv9u4o0",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-uUYRCR3fc3E1eo6N87mzdkPckW_iWlqza_AKEnEzC7knzFQCQSoGajIyoNPNGlSmEqTlLwM3QzGh2tsxOVeQfE5tjmszb1SGewl78s6ww_lFtOl1yAPwRm6R9Vak2WsmixNEIQvXBigC8IMvyqjmVR8OtdwMXphh9juMxjqkJSc9lvmy3BKnl1kwHmxkslBNiZt5Ffq3K7Z3CsOALyOExkHp5rXxZu3P09sZwoV1tb50LYUk9B-susLmHByDsSU_Z0JJ_xwtvk3C2TH2MOdJmlekKxIE6eVdJuBYe85pCCQWv4afbBLJgkMoGdakSm4Y2dSJhG9kPA1lTSqLqBkSXusl_K4jOJrzutIIXG4kmHa7AtlZ6CTRU3e7aahEkoaXo7DyyyDzMLSFdkftZDCCBCBJ8w7rbyslA0i4vot2iJCw",
+        "width": 3000
+      },
+      {
+        "height": 836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114962047189134736590\">Moonstone Metaphysical</a>"
+        ],
+        "photo_reference": "Ab43m-tF_UxMjFqcHLEhNcWSPIi85XQgI7lJ4LiZhsFsoPXjsOlYYJVmnbt9ttVllaQXGIbnBhFVtcenup2YuKBBwxUhWDMKWmJi35idAeMVpAaWnx7N9HA4uvlHMivJ0jYrMivQJgrRqM3I8R451doux_GxaKZXBmsCZ6kvQLh4HUggmfU-2CyrLW8AFSSwaVwigILySp18uife87J1J17Y5_hHdnDt5taq1foj0U5fvVW67GOcV0RQ9ME3M65thNMD9G7_I6bAMWTclDCvPg5H2YRnOJv4JWnwKJkgwlbt8Vb3wQ",
+        "width": 650
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114962047189134736590\">Moonstone Metaphysical</a>"
+        ],
+        "photo_reference": "Ab43m-sjRQFAA03KRVjz_CQw34cLlWX76vlOivnqzfNHr8vN3G3xJWUVwc-BYXWjapUuElnsPHljOMCCOFeApvoaDFpqmCTG-ChjF-JULBQABgzrod3xbhar8LcZGdgJsdae4CHBAxvzdPM9nqbPHuuTyAEhv_b2t30O9M7wPefN0KNQMosCso2n9zHMVE7vTFPXy-rXGiDttM0uCNKz2CXF4WPqtxZHHV8pWCx4t1h7GjBefvdNqvNJu1hgqOYr-EQnJxfBdv6IP3fhGHDDUqn21CqJUUdEmqpvQgLsOA2wP5_uQA",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-sQr7lzu4WSBYKcIrkdeDB0cm5hILRMWKMcuzlaa9UHmtxmQM1LRHi4wR2gaWS379HkjxXxZbnAbyDL5YQKbF_0F_e75OOTDKKVBoh0myHBsFCb7Y4ZY7crV-xh08HdV7qk8R9FWeDKcYKwZKw4H3ixh0XX8YFnq3WuDBaW-nYFDpwagYmbhEsodkKmRG9fTHLbGJFwynhOPFiMerV8EpO4d87JKJW5dYdMVlZssSjpavPpOLSS7tmXcAsrOs5lAYPxwgOftjLWvgxVAQWTz8nu6pU49IVzf0QSdrNmDTIt2AHj1G6DkNxlXz3QuYhj79m_-NJ5qqPeABrAsGaEgrqdIaIibc86K_MFs8FzS7uy8NLe1zjBJpHF5yBXMF07Dla7wkYq1olO5e76nj-r9WiZkvA5kGrc71sCnvsJvf56_A",
+        "width": 4000
+      }
+    ],
     "place_id": "ChIJF_h27vo1joARBbB11uJ__iI",
-    "website": "https://moonstone-metaphysical.business.site"
+    "types": [
+      "book_store",
+      "establishment",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2521593453611429893",
+    "vicinity": "130 N Santa Cruz Ave, Los Gatos"
   }
 }
