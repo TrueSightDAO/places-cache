@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mind+Set Apothecary + Restoreum",
+  "place_id": "ChIJfcn2wf1PkFQRLgjkMRqwH8c",
+  "result": {
+    "formatted_address": "17917 Vashon Highway Southwest, Vashon, WA",
+    "formatted_phone_number": "(206) 408-7012",
+    "geometry": {
+      "location": {
+        "lat": 47.4442042,
+        "lng": -122.460906
+      }
+    },
+    "name": "Mind+Set Apothecary + Restoreum",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJfcn2wf1PkFQRLgjkMRqwH8c",
+    "website": "https://mindsetapothecary.com/"
+  }
+}
