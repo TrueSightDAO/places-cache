@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Scisters Salon & Apothecary",
+  "place_id": "ChIJxe56eCFX2YARhf4LUdSAm1s",
+  "result": {
+    "formatted_address": "7957 University Avenue, La Mesa, CA",
+    "formatted_phone_number": "(619) 466-6332",
+    "geometry": {
+      "location": {
+        "lat": 32.7640496,
+        "lng": -117.0266634
+      }
+    },
+    "name": "Scisters Salon & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 15:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJxe56eCFX2YARhf4LUdSAm1s",
+    "website": "https://www.scisters.com/"
+  }
+}
