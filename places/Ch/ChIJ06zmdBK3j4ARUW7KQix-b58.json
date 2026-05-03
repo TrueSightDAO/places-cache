@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "HackerDojo",
+  "place_id": "ChIJ06zmdBK3j4ARUW7KQix-b58",
+  "result": {
+    "formatted_address": "855 Maude Ave, Mountain View, CA",
+    "formatted_phone_number": "(650) 429-8605",
+    "geometry": {
+      "location": {
+        "lat": 37.3962356,
+        "lng": -122.0491779
+      }
+    },
+    "name": "HackerDojo",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJ06zmdBK3j4ARUW7KQix-b58",
+    "website": "https://hackerdojo.org/"
+  }
+}
