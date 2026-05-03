@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Holistic Science Co.",
+  "place_id": "ChIJDc43fEeq3oARmu5t20JLT5g",
+  "result": {
+    "formatted_address": "733 Main Street, Ramona, CA",
+    "formatted_phone_number": "(619) 365-9708",
+    "geometry": {
+      "location": {
+        "lat": 33.0444578,
+        "lng": -116.8647378
+      }
+    },
+    "name": "The Holistic Science Co.",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 16:00",
+        "Tuesday: 10:00 \u2013 16:00",
+        "Wednesday: 10:00 \u2013 16:00",
+        "Thursday: 10:00 \u2013 16:00",
+        "Friday: 10:00 \u2013 16:00",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJDc43fEeq3oARmu5t20JLT5g",
+    "website": "http://www.theholisticscienceco.com/"
+  }
+}
