@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "California Herbology Apothecary",
+  "place_id": "ChIJo3fD4ZM_6oARXmnmBFf7la8",
+  "result": {
+    "formatted_address": "5013 Green Clover Avenue, Bakersfield, CA",
+    "formatted_phone_number": "(661) 564-1879",
+    "geometry": {
+      "location": {
+        "lat": 35.27003,
+        "lng": -119.0582029
+      }
+    },
+    "name": "California Herbology Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJo3fD4ZM_6oARXmnmBFf7la8",
+    "website": "https://californiaherbology.com/"
+  }
+}
