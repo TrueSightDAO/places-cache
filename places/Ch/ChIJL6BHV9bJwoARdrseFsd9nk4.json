@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Village Market Place Store & Soulful Cafe",
+  "place_id": "ChIJL6BHV9bJwoARdrseFsd9nk4",
+  "result": {
+    "formatted_address": "6569 South Vermont Avenue, Los Angeles, CA",
+    "formatted_phone_number": "(213) 746-1216",
+    "geometry": {
+      "location": {
+        "lat": 33.9794058,
+        "lng": -118.2921065
+      }
+    },
+    "name": "Village Market Place Store & Soulful Cafe",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 7:00 \u2013 18:00",
+        "Wednesday: 7:00 \u2013 18:00",
+        "Thursday: 7:00 \u2013 18:00",
+        "Friday: 7:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJL6BHV9bJwoARdrseFsd9nk4",
+    "website": "http://www.vmpla.com/"
+  }
+}
