@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Live Well With Carmen",
+  "place_id": "ChIJcQw30GTlYVMRkw5wvwdT840",
+  "result": {
+    "formatted_address": "15325 North Newport Highway, Mead, WA",
+    "formatted_phone_number": "(509) 991-3437",
+    "geometry": {
+      "location": {
+        "lat": 47.7972809,
+        "lng": -117.3508729
+      }
+    },
+    "name": "Live Well With Carmen",
+    "place_id": "ChIJcQw30GTlYVMRkw5wvwdT840",
+    "website": "http://livewellwithcarmen.com/"
+  }
+}
