@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Candy Vault",
+  "place_id": "ChIJHd5BcNHFkIARVozynD28ZDk",
+  "result": {
+    "formatted_address": "42 South Washington Street, Sonora, CA",
+    "formatted_phone_number": "(209) 532-2388",
+    "geometry": {
+      "location": {
+        "lat": 37.9846817,
+        "lng": -120.3830753
+      }
+    },
+    "name": "The Candy Vault",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 20:00",
+        "Saturday: 10:00 \u2013 20:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJHd5BcNHFkIARVozynD28ZDk",
+    "website": "https://www.facebook.com/TheCandyVault/"
+  }
+}
