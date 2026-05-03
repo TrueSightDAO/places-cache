@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Yoliabotanica",
+  "place_id": "ChIJdZueMTdx1oYRo8W8GLJPRUc",
+  "result": {
+    "formatted_address": "1307 W St Marys Rd, Tucson, AZ 85745, United States, Tucson, AZ",
+    "formatted_phone_number": "(520) 780-5539",
+    "geometry": {
+      "location": {
+        "lat": 32.2289874,
+        "lng": -110.9925862
+      }
+    },
+    "name": "Yoliabotanica",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJdZueMTdx1oYRo8W8GLJPRUc",
+    "website": "https://www.yoliabotanica.com/"
+  }
+}
