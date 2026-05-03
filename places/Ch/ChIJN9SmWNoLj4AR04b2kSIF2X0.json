@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Small Town Sweets",
+  "place_id": "ChIJN9SmWNoLj4AR04b2kSIF2X0",
+  "result": {
+    "formatted_address": "617 Main Street, Half Moon Bay, CA",
+    "formatted_phone_number": "(650) 713-0782",
+    "geometry": {
+      "location": {
+        "lat": 37.46233612,
+        "lng": -122.4294724
+      }
+    },
+    "name": "Small Town Sweets",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJN9SmWNoLj4AR04b2kSIF2X0",
+    "website": "http://www.smalltownsweetshmb.com/"
+  }
+}
