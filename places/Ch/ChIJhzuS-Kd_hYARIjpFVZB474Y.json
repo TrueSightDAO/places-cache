@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Berkeley Alembic",
+  "place_id": "ChIJhzuS-Kd_hYARIjpFVZB474Y",
+  "result": {
+    "formatted_address": "2820 7th St, Berkeley, CA",
+    "formatted_phone_number": "(707) 546-5789",
+    "geometry": {
+      "location": {
+        "lat": 37.8540849,
+        "lng": -122.293467
+      }
+    },
+    "name": "The Berkeley Alembic",
+    "place_id": "ChIJhzuS-Kd_hYARIjpFVZB474Y",
+    "website": "http://berkeleyalembic.org/"
+  }
+}
