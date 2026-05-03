@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Source Sanctuary Spiritual Wellness Studio",
+  "place_id": "ChIJPRwIN_IJ3IAR2NQt27dYmps",
+  "result": {
+    "formatted_address": "2720 Via De La Valle, Del Mar, CA",
+    "formatted_phone_number": "(858) 353-4777",
+    "geometry": {
+      "location": {
+        "lat": 32.9814274,
+        "lng": -117.249646
+      }
+    },
+    "name": "Source Sanctuary Spiritual Wellness Studio",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 20:00",
+        "Saturday: 10:00 \u2013 20:00",
+        "Sunday: 9:00 \u2013 12:00"
+      ]
+    },
+    "place_id": "ChIJPRwIN_IJ3IAR2NQt27dYmps",
+    "website": "https://www.sourcesanctuarystudio.com/"
+  }
+}
