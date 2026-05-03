@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Boise Tonic Co.",
+  "place_id": "ChIJNV2_3GRVrlQRofMWTWXciRI",
+  "result": {
+    "formatted_address": "2840 Wildwood Street, Boise, ID",
+    "geometry": {
+      "location": {
+        "lat": 43.6308476,
+        "lng": -116.3212272
+      }
+    },
+    "name": "Boise Tonic Co.",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJNV2_3GRVrlQRofMWTWXciRI",
+    "website": "http://www.boisetonicco.com/"
+  }
+}
