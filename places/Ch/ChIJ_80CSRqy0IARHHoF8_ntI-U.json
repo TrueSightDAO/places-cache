@@ -1,26 +1,191 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:03:57Z",
+  "fetched_at": "2026-05-03T07:06:29Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Ponderosa",
+  "name": "California Ponderosa",
   "place_id": "ChIJ_80CSRqy0IARHHoF8_ntI-U",
   "result": {
-    "formatted_address": "Slab City, Niland, CA",
+    "address_components": [
+      {
+        "long_name": "1111",
+        "short_name": "1111",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Coachella Canal Road",
+        "short_name": "Coachella Canal Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Niland",
+        "short_name": "Niland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Imperial County",
+        "short_name": "Imperial County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92257",
+        "short_name": "92257",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1111 Coachella Canal Rd, Niland, CA 92257, USA",
     "formatted_phone_number": "(760) 925-7724",
     "geometry": {
       "location": {
-        "lat": 33.2464681,
-        "lng": -115.4770366
+        "lat": 33.2587875,
+        "lng": -115.4565386
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.2600971802915,
+          "lng": -115.4552479697085
+        },
+        "southwest": {
+          "lat": 33.2573992197085,
+          "lng": -115.4579459302915
+        }
       }
     },
-    "name": "The Ponderosa",
-    "place_id": "ChIJ_80CSRqy0IARHHoF8_ntI-U"
+    "name": "California Ponderosa",
+    "photos": [
+      {
+        "height": 1447,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-u0y_G7K3i07BgnDkK-5H7-jyrZ7dd9HD1C-ggCh3HoRioEFxts4596EMtVHqP-GshcSoZOKpvB4qvCuIWT--_xdVUVg2uLch6nCptsFdVG9WFSIk4CfptUZHWWUwe-UzkwD3TpRlQyar8Om_RvAH_Gwv5gxF5Vt9HZNNJsd8aKukbvmGbYuzBwCN002g8-D3nFuRB432Bt_HoFAQgcTWQCUwPvxHfcEJQXBrjmtr_NA_Hl1KCR6LS-rhcrJfTXummjw33WSD_KW-JwhwoRv0bR2WnMaaX662gy_omo4BFd2Q",
+        "width": 1080
+      },
+      {
+        "height": 1447,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-t8pgEyUdbBdeuSg8J63gKpogxOv1WAbAsndm5IPeK7FkcpvmYSShqtUUcG2dWB0BxzcWB0Xgbdf-IKbEKyi5EPvkp2yrzkIkD_thGHc7TgvQh9F79kCZ5sDdDsNmDGwP5K6HTaIJpMxgEFLObe6ABkkTil7aKW5VDXyH0twoGNoiHewQAjLEsKPkeVlVcdVs33tCAEJl3_Wl2WbubOod5JKCDFXNDjAKDg0rKKTU5MuRD8O0JN2CBh1kvcJvcCj4EyVNiL2nmbkkAoIppVTgqqBllX9_JpnWsYSN-nAYc78g",
+        "width": 1080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-tnzq9fdgOsi5eGinecPaR9pDMeHYymVran3B8ujSoXlnBr059y14g-JqmF40zODWZ6W7z45uSF4CbwU26-XKXH66mOvAzYtjKpNp_4RyI6SH5FIHfAyp8w33y0Tg5g3XVmMv8UIlUzs9_2sFtOsXKrUSbaiiPwmxuco5z4xG8Lw08-FxpNs_Ze4piZtOJ7ZsNsyX-1Un1e4UcaDLPtkzKhBe1FYUE8_b08H-Ux3z_zIsFz1KeTof26hRqkKZY3iAvKz8j-F3AUHJWx0iO7FU1lMNio3I-flkfpPnoWv7_mow",
+        "width": 3000
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-v4yiItdX_IWCRDH_AL5bKK86kaLak0rt_sMoB9UmXKigcWcMaebgjUY6w-Bchm8Q_DVRU7ZpPKN68iGMk5mff7X_PlFCwmN98Lf8g2vhu-ZdAKCPa1WuNBiINuglMxJvHr67w6gmnCNTDxM0JkOFcxWnw0if43nwFJOb8Q-yaP3i1pV__b2RW4apudPfqAYO6ZedHm0jmMBSMqTLL-aNYARTclW0saRcMiJxCcOoYZDDBRt1ZAPOK9bBwBRVgewPCX5RGjDnmHn_7lR7OcJ9qJyKqWUTPpbnxrB6pdbfr7IA",
+        "width": 1080
+      },
+      {
+        "height": 1276,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-sfzUry_fugbbr_2LOUs-NcMFHJY5aH7xk7IGXU_qcN-KCTnTVW-KitxKdd42tDnnkbZao_05wltj2vC4XWV4fzrU6c6IVEFtwpP-fV7qTzpLh5RIuvkXHneCYVNcxw1maQOMqfcy1MI3F5EecgERC3ZN3sG7modZIytlV8s0UCGNaddSUmkXFxC4vaxeQadR7rcIU8aAr0Y-W1XUxbobMEyy6aCcABBQoXmxtC59mJpFM-i6EXlxo9TeEVwtFBOtYtbzAuTMi7IckxmKsE-hL0kRdrTTpIZHsN7Raz7VEZHg",
+        "width": 1199
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-tMpb_fI1FU5G9NbdC0M-kiIyDMcW4GULzQhMt_ltG-AD-7a38v7P5WXZnqN15cAVaigw1fBV4FHQ4s8XUKgONMQO8r_KJ7Y9hdvg42Q-257TfOm1sMxdMrG6GVRgbKLhq8BxUSzYvBNOZLGFNN7Kv2JvR_UzlP62R6is8oD9WCcVwOvlps9NZmnTFKooYtTkPlP3B1_FfYbo9Sn4DNCLVA7na4CH9p8nwXs2oTTxHuoX4kR34fUKQ9r2_2KJbZqJbe10tpGWih6Lvjpuk9R9E3RXAuz7DzeMd6mewmepGEPw",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-suAzpQWfIeCeFZcPvuCfGWFqY-H-mx4QSg8j89eRHe3fC9HO330OsFz1g6eBEahQZCp_4LBcFDAlYHyCISEcpcKHtIcoU3fmhn4hKotz13buEQijtQyIyfGvL8bvoed89nb7WLHCknRLdnjW5TQ2ObVruTUy652m3__F3njHdlB1HV15B1qaI631yITwdVJncdR9z67njHM_zRDX41n_om1ZLOh3GBK5rQvkvof5iGE7k1TiBCx93vdcbO-fwrHzsi3D088SLdlA7tKxTvGLR-6f9Y3syhIzY9rkSwy9eWWw",
+        "width": 1800
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-tjjCKG8PXZPO4kvdYtUVNK2fkv7PY2jBDMoz2YDUTgYjjalCq1C6h_a49oke1qJaHupAjAtgymC0mKRchUF2wNu90Ogf0NYzvAlnnhxGd3dnOUluWDy49PigaSmHpl4SEAQtLUIyUQwj-6IEr-y7_RN44P76OCb5bB4PhGF0QGl4uC21r6_RV9wJ2Huq26foQj4aBiw2kNrOznyausDO5889HUXK9L8LNHOXk1CUtDglX7flwdU5EyUamQI4TL6piG3OS0ZQtOVAyCGm3BNFFFC4MnaZk4tdhm5uBTEx8y4Q",
+        "width": 650
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-smqqYvLtQ15KSt8utXDJ2m5NBKBvxdnTB0Ni8K_Q5l83x0HeHbCgWscmA1tWBaUQx45z5UiQ3qi9cDOPongH_Njb1fb80yUhn9tg_YdIFimn8mLCHExQfXCYI0fuegXWlxGHy-E4PiOudgiM48pdBKNg7jDSaFps0vbQ5KsS_n-HCFfE9x5lSpy9_QIyt2PhSlz5XrFjcsZGDjv8U7UQBSqJ2V-R0l-ahOPXecMDPCIFi3lZIFkGeJ9STCcJoXXJD4G1itQyiZ2LypRr6xYO-xSmi2uF3EgVZlmfYPN3egQg",
+        "width": 650
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107008138212947562961\">California Ponderosa</a>"
+        ],
+        "photo_reference": "Ab43m-vMXCDzXPEn8WgALOeNGmuL2ViGBCC7oAN2uQRJcwuRjxCGpeEWqsmbRiayxxKwH2tXGawW1bvOQOmaUGEDqBleCilsL3Ugk7tB2-KxtuKLEW1yywn57RM2S-E0Ub8aNVJHS8uMrLUjGWn3UtilkcVLxB-O11lhQxs62fnraFpHEpNU81hnLZOzIFaJGYM177AQ_pTeh1rCdmrGUATJCNX9n1PvX71CycsQMIuuMr8BhkWD9fwjtC32QTofaJfEoSUfE9ADMMRP7mxAq4BCmYFo5lfpYSXXlKdvsIdWAONobw",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJ_80CSRqy0IARHHoF8_ntI-U",
+    "types": [
+      "bar",
+      "establishment",
+      "lodging",
+      "night_club",
+      "point_of_interest",
+      "rv_park"
+    ],
+    "url": "https://maps.google.com/?cid=16511302316650232348",
+    "vicinity": "1111 Coachella Canal Rd, Niland"
   }
 }
