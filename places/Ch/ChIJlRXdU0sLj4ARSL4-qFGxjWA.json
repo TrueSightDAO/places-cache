@@ -1,40 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:08Z",
+  "fetched_at": "2026-05-03T07:06:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Tokenz",
   "place_id": "ChIJlRXdU0sLj4ARSL4-qFGxjWA",
   "result": {
-    "formatted_address": "530 Main St, Half Moon Bay, CA",
+    "address_components": [
+      {
+        "long_name": "530",
+        "short_name": "530",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Half Moon Bay",
+        "short_name": "Half Moon Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94019",
+        "short_name": "94019",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1922",
+        "short_name": "1922",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "530 Main St, Half Moon Bay, CA 94019, USA",
     "formatted_phone_number": "(650) 712-8457",
     "geometry": {
       "location": {
-        "lat": 37.4630927,
-        "lng": -122.4295534
+        "lat": 37.4630712,
+        "lng": -122.4295078
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.4644282302915,
+          "lng": -122.4280733197085
+        },
+        "southwest": {
+          "lat": 37.4617302697085,
+          "lng": -122.4307712802915
+        }
       }
     },
     "name": "Tokenz",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 17:00",
-        "Wednesday: 10:30 \u2013 17:00",
-        "Thursday: 10:30 \u2013 17:00",
-        "Friday: 10:30 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1993,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102697527755882610286\">Steve Steinmetz</a>"
+        ],
+        "photo_reference": "Ab43m-srdXARHLTGkPEbV0lRCrMOihDtfwRUAVTJinovZxK9QWPzZ7IiaAa3HE_8o7e7hzCaKM4bNmxx5dMuR1_fIlJsBqfUBxTc_lFwdaVMTYYrw6TB1jw22UqgoE7VFlb9j5rbSOtJBXlaL2I7xZhJzQL33Enu4Gq9QSOCfEk9ZprK8T26gLXtitPw8YKtttnBtYnXye5a81FMPdGIJibb7klEF_MUu5zpu4_AAYLzMqw-ndsRE0jSCCgjRHEj-Y4gKF74Og-alaXU3BWcTHJ3DYXAXOeIBq0rRp0dVublQDLieaO1-KSYcCKol93Op6qfI0rfUS-xaLdhorHstoSPqzgk4-7wt4LIbu71ZhMSfMQV8Y9gjoRQ_u4Pqx_sATd2ihnFYoUEKe9QiXA5w2SN1CxSjziqhQhDK6lGGlDPV_g",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117073312630296675837\">Volkan G\u00dcLPINAR</a>"
+        ],
+        "photo_reference": "Ab43m-tKGbRnR9Ubihg2yIwNTCwDt-N3WwgK0Wu8ke7VNgsGdBbKBPVNCjAra19JFu3PI8fuuCMPkCGa4QGgLlp1HeDe3Yi6GS0hEDHFI6NHlRBuRii46ssAvrkwk8xCo-it5FGZIM3wBrS1FcbR_mfqpxaaM73DHzWPwzq8YknO-F7ej0KwvSvv6By1OS-C0WVUn6Y5V8A1DM6vbgE3FVvZUiicy6CvgAj0LaG0ZDp9pzn_AlKPGD_qGb8dHWIgjxbdJVXv5EMhwI0JtiyJtxxY37hygvyhvCjy22v0Mw1uxKUC8VAAhfB77J8ZXJZ6S_L300nrNc7K1Xz02bQC-viBoZn11Zhaa5biEICOQd3uvbO7arXcL8G3Q09dInZ0bMYGmm17B2LpAwHVSF4z0YV-9doewhEuNTKTgzl0ZHgJ3Q3R8jY6bNm6hMg8Nfw4yqU3",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117803599799712642346\">Wendy Irwin</a>"
+        ],
+        "photo_reference": "Ab43m-ta1H56PHtCGqsgIXxp-Oo1Ofx_g_YL-J7sQFSNBptpAc-gHlrz_cdKWZgqEvcWBKtUyQx1SbXUJ1jbVwL-Xp0vqYK3wQH_mVPKwXhqsW6VG1iRyVBemZ5RiZplX_fBVdVQf1N64rUq2OAMQTF-uUFCO6ab2bW3gmk-1Y502g5vkymtnrhcLJJERrlH1R-Qzc-TLXTf58eX2n-uW3bcSw_LwSu8Eda1XAH0HeUhcLQsffWebp2k96PJozDpWWnpvM8QZWKMYukct7YhXXvckZLtzA1oI-NsTBxSn48KmRQunjoTKtrJuRCPXhFsmC9XBkITLKIMUL0gKlcI35Ub8qHcZKa0hsVaZdYaRHRCzgIC-W3SsHUApWnj474bL4hiH5Pkr5O8cvjzbIOVcpg6KD2yMDjGgAFmKS2xZgcUTas-Kw",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Ab43m-tMwkSj5SzLy0Xeo35Nuvi7L6ZLNOS98QjCpAz7cZk5UWykR5BDZUZB5duKaxLijhGRqKuDbgl5YCkuu3OgifjpsxgyDQiqbTNmA4Ur32jfOjJmoGtbLDnx3R5JvZs4S-nroogWbg3t9v7WUQQw2f4Dx7RKyUS9LbMu23ouSGJ_4FX54kPYwkFVbhnBuUjJG2ofsWDuUDSAo8DfV5t1u0eOeyUwmVaEpk5o-THe3_PgrG-_ux-fiBKfLRGlbm6ZulVlk40Aoe6durgAwKfGlSuLRZw5yxi3OnF1XhcWuGdkn-IU4cNUBpsHchJMwTDbn5oPngPs2SkSzQsLl0S-8otUAY1xcku00uhhZxFpW6VBJCYC0Z3wsXR01zjZyAC85O4-irEUGx5U6W-Sg5olED77MNH9OvXlHGTqknnJwFDIgA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Ab43m-uLaHORIa4A8rF5mttQHP1P1pxn43aTDmaQVYkuo5PysZzx3CO5TPDcw2Ve1844r3jvdLx2xTwQ7xYOQu80zTAlKsx7BgAGm67FMdFELtYsYYAcFLjygMXfKMhphWRDflI35ND8ZcRs5sJd0ru93oFaOG_cIUiPxs8at0iBv6kEgsCLpz8E4iFtqhoppAEPVrHDhE8DiCBpO9HU8ghaiDSjg3uZGtoDJiEpXx4gZLAoH6GIhg8te2eK0xxdZqDVHTyejfNDXfu9zR4xcnlIPMsG0vJ3xbQP-N-C6Tos2GlVZFM6yAlrsFamiCeLyNQRH4ECa3Ekz6gb0_cwACYtRGrPCfvSu-h0GAa1s2PhMD8oRwtsMHquc1YHwfQ8B3tXMjWhWs8CYAQvAnVgJa2C-W-4aJG3EhqGFBgpyY6mMNh-SkY",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106458996790768134120\">Leon</a>"
+        ],
+        "photo_reference": "Ab43m-uYkF6dreKR5rCL-1FMHJup34YMWopGYfPEUTBkn_OtqcRjFOZlYSDnZKLrIqqHgJ96unvJm_NmGABXvzkw3QkYx0ytAcMaXjjeDqTlfTog11FodlbuhDIPZl7rEbTRb0ooU0yoywAG3gQb3hxCRTsTJSRz5LLg4FItbQHOMIFCBABwbD1jvu_XEWIa8mpR0bEQbuWkuwGSQXGlS6eHRgHOWSAUEmNGlIzoOdRiR_Pj8LAdCYWh72ffARZ7SjxDH1s_ElcvQxomD2RxeVlNwYUsGPXKZ4r5-vgSgLO5YjU63p7pfX6q1WZfHgP1hYLZIo6tomF88emA0EPLgJHR1xhtEbqkXuoakLgGmQ4ZO1nqpCPpwUNEx2mlER5W6zTF7WnAZEOP7D5PyZAX3x4jOVjoDxvmHhlQDfedQc7PW3lzVv35",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Ab43m-taC4UjtpFXuP0vP8BYNZOaYRSqPDbqnP_5h7Yt9wMqWc6OLm0taYqTJ0WkEeszew-2eTAoDFbgR542Zou8b3rNFayQZ5VlsRdeeJ3veNxAn6F_XfHEF1SN18M_fHfKGGI8-grJuM4rmFWqI-GEdyYbppyoXJ6Jy5W0d8lurun91-jd6slk-s4g9AUk0z8HdMXbyJjJ7HKa_PPiLYPfKwAuXqpiJ_rfhIQTbfYechmHDrSRw3Wd8xFoqbWQWSztRmWCvOh_dzJJwNd1tzJSJkGCtLv0sdQwIR_u6ahQmCOGKaquq6I1I6fhQVrkSJO_LFGFxOudRjpvgVO1lc1h2-HQSc7WEesrfumRwQ_3lqHmSpZPJJZ5l2_gj7WNIZW7io1MCAJo8DahUnvQxRP_El4lFFVrmooygshfvOTABR4vxSM",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Ab43m-tTyVHbqfJ6VzLAMaRH_lTQbmGFTxq9PCbKMpnXnI3_tcyxKpmiw3h5swtw8YXd4-525Pd30BFssAQg1s5b3NOL-mNdm-OWvaP3zUNaw6WnOd5EPK8s2nS8Ogkm12bn3ozE8HCKTM7jQwYwEP8J8nIajp96SR-BHhuaL6cj06-Bbb0IHfn_0XGb02llJcyuzOoH-dJaOMF7de29nBh6Pu2SddjSrKiRm0yVvLFNlZ1aTxYoELtV2XfD8xv6jMkYA3Z0wAO-r5qQ6UnGvAKTRATgmit_y8yo5x43VMFNTpwdDWk3rDR4_cg6A4-E_qY8lcgm4uS02ASGWCmgSQ74y_fhvio-KQCK88rkoM2mWVhhlWI5-063LXUrU9q2IBOAAd502xhQPkA3_KhY58HM47BhjZ0pP3L_e_6OkanX8p2eWRE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Ab43m-t6ruf0jtpWL9Ar_H0RzheZo6sD8dbBKcFcHxCl_ISXIHpc3upv9QPDAQLyuC8PQRNECiZalNsrQC0ZcEXhwMGT8xgIaNSHa99VLsu-L7cBHGws12xvnT7hYEv1ED37UKPj7RzUdGskaG9xIPGz8h7U8qP-1ItfiRyP0qTH9TPb6NMeiNEw4z84lo5KaeoMBpLZzC26yZ6ySg28FaH5wj4SpjdWqk1sgg3APzJfH2DGRjd-LiTGTvErkfdyMGU8DyxRhFrtkUNdwUgWM6sdCe5Sm88094-PQroBMHj9bEx2QAdIxMJ7C5dNlakwWRvLvvfyVsRZ_5hjU296ufz58CHN2loagF_5GYFZ6c61M4kLgnYAVIxO_pPB_mh2s4QLAXAO7ueectLe7W-Dh1KEhgvewIHSLP4zcYLczvlJxLpw4g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104155913898862985947\">Nic K</a>"
+        ],
+        "photo_reference": "Ab43m-uWcRfqCo844w6st6pV6t7aTwQfSRRU_zYRSe-kJoa2stHFJhb_6dl3iu0GenxSGJfdSr9TG2_1cY-iHZmD-MDDzdfzars-fXwUA91aIIC2kKkR5-ief8svYttBB3Uw8DkN714iMVBXdZHh5-upuB74fOx6WkNA1sfwOeT0jnhZZT8w2NhzADLrHEmgRhbNcrv-GtGafg0mMoCa63BE9D7QxqCf05TjL4-qmfw38m-NoV2tt4H-BOMnva2K5D5xK1rCjV_udga9isLtkNhsFR2NeCdmjiTYuxshgowNRhLASYoJi0N0_0SHR5Y_lUijxLYW0lwVU8gtYSjfl4cl_gcu-740yzmUL3GgSy1RJwYiWzjBqvuZeoZSpwzFbfnNYkUs96Bws-LBwKY-aVf39Wotn_q4_V_mGDFabKJl7rZH7NH0",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJlRXdU0sLj4ARSL4-qFGxjWA",
-    "website": "https://www.tokenzhmb.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6957411963630435912",
+    "vicinity": "530 Main St, Half Moon Bay",
+    "website": "http://tokenzhmb.com/"
   }
 }
