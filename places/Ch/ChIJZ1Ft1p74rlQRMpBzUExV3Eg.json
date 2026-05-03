@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Crone's Cupboard",
+  "place_id": "ChIJZ1Ft1p74rlQRMpBzUExV3Eg",
+  "result": {
+    "formatted_address": "712 North Orchard Street, Boise, ID",
+    "formatted_phone_number": "(208) 550-5338",
+    "geometry": {
+      "location": {
+        "lat": 43.6111901,
+        "lng": -116.2430805
+      }
+    },
+    "name": "Crone's Cupboard",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:30 \u2013 18:00",
+        "Tuesday: 11:30 \u2013 18:00",
+        "Wednesday: 11:30 \u2013 18:00",
+        "Thursday: 11:30 \u2013 18:00",
+        "Friday: 11:30 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJZ1Ft1p74rlQRMpBzUExV3Eg",
+    "website": "https://www.cronescupboard.com/"
+  }
+}
