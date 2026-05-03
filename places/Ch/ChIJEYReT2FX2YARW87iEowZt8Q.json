@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Healing Therapies",
+  "place_id": "ChIJEYReT2FX2YARW87iEowZt8Q",
+  "result": {
+    "formatted_address": "9578 Murray Drive, La Mesa, CA",
+    "formatted_phone_number": "(619) 460-6091",
+    "geometry": {
+      "location": {
+        "lat": 32.7798872,
+        "lng": -116.990788
+      }
+    },
+    "name": "Healing Therapies",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJEYReT2FX2YARW87iEowZt8Q",
+    "website": "https://healingtherapiessd.com/"
+  }
+}
