@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Elle & S Apothecary",
+  "place_id": "ChIJZ_be5BW5woARV4OSHQwii2E",
+  "result": {
+    "formatted_address": "1017 South Fairfax Avenue, Los Angeles, CA",
+    "geometry": {
+      "location": {
+        "lat": 34.0576116,
+        "lng": -118.3642754
+      }
+    },
+    "name": "Elle & S Apothecary",
+    "place_id": "ChIJZ_be5BW5woARV4OSHQwii2E"
+  }
+}
