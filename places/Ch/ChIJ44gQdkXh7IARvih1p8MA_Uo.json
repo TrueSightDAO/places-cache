@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Coastwine",
+  "place_id": "ChIJ44gQdkXh7IARvih1p8MA_Uo",
+  "result": {
+    "formatted_address": "257 Morro Bay Boulevard, Morro Bay, CA",
+    "formatted_phone_number": "(805) 203-3027",
+    "geometry": {
+      "location": {
+        "lat": 35.3661231,
+        "lng": -120.8507131
+      }
+    },
+    "name": "Coastwine",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 13:00 \u2013 20:00",
+        "Friday: 13:00 \u2013 20:00",
+        "Saturday: 13:00 \u2013 20:00",
+        "Sunday: 13:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ44gQdkXh7IARvih1p8MA_Uo",
+    "website": "https://www.coastwine.com/"
+  }
+}
