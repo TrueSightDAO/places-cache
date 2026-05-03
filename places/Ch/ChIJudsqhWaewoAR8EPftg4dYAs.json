@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bristol Farms",
+  "place_id": "ChIJudsqhWaewoAR8EPftg4dYAs",
+  "result": {
+    "formatted_address": "23379 Mulholland Drive, Los Angeles, CA",
+    "formatted_phone_number": "(818) 449-8606",
+    "geometry": {
+      "location": {
+        "lat": 34.1590682,
+        "lng": -118.634428
+      }
+    },
+    "name": "Bristol Farms",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:00 \u2013 22:00",
+        "Tuesday: 6:00 \u2013 22:00",
+        "Wednesday: 6:00 \u2013 22:00",
+        "Thursday: 6:00 \u2013 22:00",
+        "Friday: 6:00 \u2013 22:00",
+        "Saturday: 6:00 \u2013 22:00",
+        "Sunday: 6:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJudsqhWaewoAR8EPftg4dYAs",
+    "website": "https://www.bristolfarms.com/stores/mulholland"
+  }
+}
