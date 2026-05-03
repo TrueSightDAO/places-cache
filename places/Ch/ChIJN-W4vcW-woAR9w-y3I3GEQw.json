@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Natural Divine Store",
+  "place_id": "ChIJN-W4vcW-woAR9w-y3I3GEQw",
+  "result": {
+    "formatted_address": "7901 Santa Monica Boulevard, West Hollywood, CA",
+    "formatted_phone_number": "(323) 822-2866",
+    "geometry": {
+      "location": {
+        "lat": 34.091029,
+        "lng": -118.3618133
+      }
+    },
+    "name": "Natural Divine Store",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJN-W4vcW-woAR9w-y3I3GEQw"
+  }
+}
