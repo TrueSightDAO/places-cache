@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herban Wellness",
+  "place_id": "ChIJLe5riN0SkFQRrn6kA1lVpvc",
+  "result": {
+    "formatted_address": "103 Lake Street, Kirkland, WA",
+    "formatted_phone_number": "(206) 330-2171",
+    "geometry": {
+      "location": {
+        "lat": 47.6752627,
+        "lng": -122.2065725
+      }
+    },
+    "name": "Herban Wellness",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJLe5riN0SkFQRrn6kA1lVpvc",
+    "website": "http://www.herbanwellness.net/"
+  }
+}
