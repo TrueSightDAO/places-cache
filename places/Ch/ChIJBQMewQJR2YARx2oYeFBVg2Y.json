@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lemon Grove Coffee",
+  "place_id": "ChIJBQMewQJR2YARx2oYeFBVg2Y",
+  "result": {
+    "formatted_address": "7801 Broadway, Lemon Grove, CA",
+    "formatted_phone_number": "(619) 467-7033",
+    "geometry": {
+      "location": {
+        "lat": 32.7424508,
+        "lng": -117.0303764
+      }
+    },
+    "name": "Lemon Grove Coffee",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:00 \u2013 17:00",
+        "Tuesday: 6:00 \u2013 17:00",
+        "Wednesday: 6:00 \u2013 17:00",
+        "Thursday: 6:00 \u2013 17:00",
+        "Friday: 6:00 \u2013 17:00",
+        "Saturday: 6:00 \u2013 17:00",
+        "Sunday: 6:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJBQMewQJR2YARx2oYeFBVg2Y",
+    "website": "https://lemongrovecoffee.com/"
+  }
+}
