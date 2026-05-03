@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Tokenz",
+  "place_id": "ChIJlRXdU0sLj4ARSL4-qFGxjWA",
+  "result": {
+    "formatted_address": "530 Main St, Half Moon Bay, CA",
+    "formatted_phone_number": "(650) 712-8457",
+    "geometry": {
+      "location": {
+        "lat": 37.4630927,
+        "lng": -122.4295534
+      }
+    },
+    "name": "Tokenz",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 17:00",
+        "Wednesday: 10:30 \u2013 17:00",
+        "Thursday: 10:30 \u2013 17:00",
+        "Friday: 10:30 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJlRXdU0sLj4ARSL4-qFGxjWA",
+    "website": "https://www.tokenzhmb.com/"
+  }
+}
