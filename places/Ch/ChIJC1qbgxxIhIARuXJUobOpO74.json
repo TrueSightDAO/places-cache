@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bath & Body Works",
+  "place_id": "ChIJC1qbgxxIhIARuXJUobOpO74",
+  "result": {
+    "formatted_address": "1071 Santa Rosa Plaza, Santa Rosa, CA",
+    "formatted_phone_number": "(707) 542-1140",
+    "geometry": {
+      "location": {
+        "lat": 38.4385817,
+        "lng": -122.7165674
+      }
+    },
+    "name": "Bath & Body Works",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 20:00",
+        "Tuesday: 10:00 \u2013 20:00",
+        "Wednesday: 10:00 \u2013 20:00",
+        "Thursday: 10:00 \u2013 20:00",
+        "Friday: 10:00 \u2013 20:00",
+        "Saturday: 10:00 \u2013 20:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJC1qbgxxIhIARuXJUobOpO74",
+    "website": "https://www.bathandbodyworks.com/?cm_mmc=local_BBW01316"
+  }
+}
