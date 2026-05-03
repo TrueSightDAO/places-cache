@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Modern Apothecary",
+  "place_id": "ChIJm0LT8vH5rlQRGqNNOPeE6pU",
+  "result": {
+    "formatted_address": "413 South 8th Street, Boise, ID",
+    "formatted_phone_number": "(208) 805-2450",
+    "geometry": {
+      "location": {
+        "lat": 43.6129935,
+        "lng": -116.2063032
+      }
+    },
+    "name": "Modern Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJm0LT8vH5rlQRGqNNOPeE6pU",
+    "website": "http://modernapothecaryboise.com/"
+  }
+}
