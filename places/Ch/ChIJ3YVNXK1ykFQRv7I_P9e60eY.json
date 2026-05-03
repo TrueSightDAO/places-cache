@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Jacqueline Hyde - Hyden Studio & Apothecary",
+  "place_id": "ChIJ3YVNXK1ykFQRv7I_P9e60eY",
+  "result": {
+    "formatted_address": "16744 Marmount Street Southeast, Monroe, WA",
+    "formatted_phone_number": "(206) 351-2733",
+    "geometry": {
+      "location": {
+        "lat": 47.8629272,
+        "lng": -122.0062472
+      }
+    },
+    "name": "Jacqueline Hyde - Hyden Studio & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ3YVNXK1ykFQRv7I_P9e60eY",
+    "website": "http://www.jacquelinehyde.com/"
+  }
+}
