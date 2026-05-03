@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Local Collective",
+  "place_id": "ChIJi4sOfdrFkIARyCKQbeMLLgE",
+  "result": {
+    "formatted_address": "189 South Washington Street, Sonora, CA",
+    "formatted_phone_number": "(209) 694-7030",
+    "geometry": {
+      "location": {
+        "lat": 37.9828378,
+        "lng": -120.3818191
+      }
+    },
+    "name": "Local Collective",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJi4sOfdrFkIARyCKQbeMLLgE",
+    "website": "http://locogoods.com/"
+  }
+}
