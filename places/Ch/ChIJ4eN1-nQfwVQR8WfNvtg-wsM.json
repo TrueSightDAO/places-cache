@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Community Apothecary",
+  "place_id": "ChIJ4eN1-nQfwVQR8WfNvtg-wsM",
+  "result": {
+    "formatted_address": "271 West 8th Avenue, Eugene, OR",
+    "formatted_phone_number": "(503) 470-1593",
+    "geometry": {
+      "location": {
+        "lat": 44.0511618,
+        "lng": -123.0965608
+      }
+    },
+    "name": "The Community Apothecary",
+    "place_id": "ChIJ4eN1-nQfwVQR8WfNvtg-wsM",
+    "website": "https://www.thecommunityapothecary.com/"
+  }
+}
