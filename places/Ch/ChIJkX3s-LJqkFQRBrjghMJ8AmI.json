@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Gemheaven",
+  "place_id": "ChIJkX3s-LJqkFQRBrjghMJ8AmI",
+  "result": {
+    "formatted_address": "1501 Pike Pl #408, Seattle, WA 98101, United States, Seattle, WA",
+    "formatted_phone_number": "(206) 381-9302",
+    "geometry": {
+      "location": {
+        "lat": 47.6086127,
+        "lng": -122.3409216
+      }
+    },
+    "name": "Gemheaven",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJkX3s-LJqkFQRBrjghMJ8AmI",
+    "website": "http://www.gemheaven.net/"
+  }
+}
