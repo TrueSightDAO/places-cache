@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Los Angeles Brands",
+  "place_id": "ChIJN_KrmKaVwoARRZbMDhpOdzM",
+  "result": {
+    "formatted_address": "303 North Glenoaks Boulevard, Burbank, CA",
+    "formatted_phone_number": "(310) 230-5800",
+    "geometry": {
+      "location": {
+        "lat": 34.1846153,
+        "lng": -118.3089084
+      }
+    },
+    "name": "Los Angeles Brands",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 18:00",
+        "Tuesday: 8:00 \u2013 18:00",
+        "Wednesday: 8:00 \u2013 18:00",
+        "Thursday: 8:00 \u2013 18:00",
+        "Friday: 8:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJN_KrmKaVwoARRZbMDhpOdzM",
+    "website": "http://www.inspiredbrandsla.com/"
+  }
+}
