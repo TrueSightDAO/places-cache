@@ -1,40 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:29Z",
+  "fetched_at": "2026-05-03T07:07:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "World of Stones and Mystics",
   "place_id": "ChIJH8Tj7yVAjoARY8VK1dMhtoQ",
   "result": {
-    "formatted_address": "835 Front St, Santa Cruz, CA",
+    "address_components": [
+      {
+        "long_name": "835",
+        "short_name": "835",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Front Street",
+        "short_name": "Front St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz",
+        "short_name": "Santa Cruz",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95060",
+        "short_name": "95060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "835 Front St, Santa Cruz, CA 95060, USA",
     "formatted_phone_number": "(831) 316-5159",
     "geometry": {
       "location": {
-        "lat": 36.9758896,
-        "lng": -122.026157
+        "lat": 36.975954,
+        "lng": -122.026274
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9773320802915,
+          "lng": -122.0248768697085
+        },
+        "southwest": {
+          "lat": 36.9746341197085,
+          "lng": -122.0275748302915
+        }
       }
     },
     "name": "World of Stones and Mystics",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 16:00",
-        "Wednesday: 11:00 \u2013 16:00",
-        "Thursday: 11:00 \u2013 16:00",
-        "Friday: 11:00 \u2013 16:00",
-        "Saturday: 11:00 \u2013 16:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100852343252226351928\">Ron Stafford</a>"
+        ],
+        "photo_reference": "Ab43m-tWsQjSAKg6TTteXrtG5efmEIe9Qt8K5SVNzZCQFv9doXJCFOdiHUvhqtBBjQf8fxASruv-raIkKRRg7w4VoTFBjjOpzza0aF0MlQgKeylymQLfc1n74M1XgT5hCCnTilgx7meKRbSe-eVDgGPyBKy49CVG1WIAOSCWYI-JWxZ-ICY8RA_WtzNyfV8PN4p2K0u5-VjtzCtAHLjBJ2M1-AB_xK_nOpNXBum-cBTJxdAyr9VymljrZqDvUdq3Lk7eda7WB5gEVyQdZxHgO2eQHv89wBdE55tkNPl1PxorKSP0B6tatNuCJUvU5VbUjJv0_yuh25uS0ayS4GhTOsOLRpyX3F9bSJbpYtWusBVQXguCArGUXBS4LEXIcjUa7vZWP9qxEiPUTb-j26QtKUiAmBFL5k54jOycohU0aIl7vYHCMm4",
+        "width": 3264
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114012176852719084421\">World of Stones and Mystics</a>"
+        ],
+        "photo_reference": "Ab43m-u8QB88ju7Dn9Fd1msXItmXEJink4fE_5QxtTvX3WsddIICS2ArQhLcN8IJBMpGXaugat91SzggttUJe9FVFnAkDEeFUL5iiIE-RbdotcDkVuHLcydrZp5Yj6SL-64CsiHMJ1XZSc7k0C6cjmS3hlx3E8StmS1Fkgdg2S5tgzq_eMpA1PBNe4CSKz8OI__v4DZZwTQ2_6z-Re8anX_QJtGAUK5s-RM7QA2r8cCvy_iq-9LR8gkOcP_7Q3XX7cTpr7j3PhRWYyeEtFtaMd1f63Ak5dHqiAkoINDwpSgOcOfX5Q",
+        "width": 720
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117729410283277605381\">Allyza M Santos</a>"
+        ],
+        "photo_reference": "Ab43m-uJf3MDHzDBVIF9P6E_e5r96vj4-vuB9I7M3DanPVNmsJiFz5LTHPnnPqM4UIgeFcM2bs6pdmxFiy6jhZ-g9wPA24MZr0wnP6yDRRst2FKivx61a12qH61G5esXgJb-eNHRC9clrQr0dV9gkTSxeSn5ZGhm_rvTIP59V8FyecHpZzHvCHd91osGajCTYrqa7tuATIneIyIkPPpzq9TYt8VAK9TFvlvd4P59UgheCaIM0wqfHwNIAGLTq9fPA3PCU8lS94SkXSb-3bSnYrJ5ulQcpbbztX0bzegOe4I5D4SlFpH9Cnb3vICrmkDjPwf_GEw-1H6uj2t_b57p3MqBiqXbEhheQwMrTlx5bmpXFa6gjMH4CW_mI02A8mF89F4Uq4XPeZFqmiSDoi5b1A9lZdUu6_5r4U_TusqVkgJ7NH7-ZA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117729410283277605381\">Allyza M Santos</a>"
+        ],
+        "photo_reference": "Ab43m-ulUbA69hAiAbqJTrgluA6ZE5SL9xuVqHuep0WyaeKBkkMc2h_B8ecl-aOEvSUe6B-Y1Uu-e2SNQ6Jm_N6_HsJMGZ1piefxdcxFEjU24U1KQh_IuXpg3yYg49mamJ7ICuTgurK9lD_3lQUkPqgHl7EmxLlmRZdtwJ7pOU7jtQu8_5LhqY29xOzwUkLQRltvt4m4a0if_D4Df2BVSFYl3PgLziqoCS0mncIZFzT4CMzNerv8nNQb8ThvKx6M-5ccQxRBkbfGA1-OfqoOPylHYI3fFlkTHCexnJN0QC3-7uszTJml2dtx3_bFvSCHCsMkcoXdSOwXnZ0OA5fEBRai8-jjT-chIVm_156HQOaZ6LGMbBCLRipN_TmZONpo_yUjcyVyCEizfdLLIEx8u77oiDI5TePelWMfrhWttF3-k5PQD147",
+        "width": 4032
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114012176852719084421\">World of Stones and Mystics</a>"
+        ],
+        "photo_reference": "Ab43m-ta_gdWbj4kJqePXBeKrqmOVbaZu9NSgFuHZ3E1yAy5FotLT6nKXhI4PB_AhNibQDp8KF6dcv4_Flb1dwph9N4sLj1t49_OMQJb37ICpOju4iSM7V0w7Rd0Xlv9Cj_rjo93OTAykj8CIL-xlHPC5mLAxY-QpBzHAWw22GisUXZkI0ou_pojDC5SHENOGca1JoztxwylNpizO63r46vRQSP7XLkk42mgoWBgG8_KRMaTq06wWrv5etpMAhRTxSL5wPZcEdKosDwW6xgnNIWTiJHFDoNfwJNPXcCbZUSZ5tjBbw",
+        "width": 2448
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114012176852719084421\">World of Stones and Mystics</a>"
+        ],
+        "photo_reference": "Ab43m-unGDUxu2fSbojdvyVp8O8CSm-NHJ6xY945xTlHOMkQzuWh_tqd5kIPRSuICFE56fLr2ZqHZdGIM8ttTl28YWAo3VRvRh1EAKSzwvBLErZcvZ0Xti9By5L_q4nL8jChJZD9r1OOaoCFe9Q4O1FyiKGJl7O3ULEKhEqGqsXgtqHE818rKOAzD-1-6YkT6LwX4KnBX33viS2oo9-HGdtAYSdDWla7JSx40lOTzphcRB1t-JPDoEufJM72f9hegRVXnzpnc4GdjCpAJnMSbaHTz65VZkILC6k7hRi7Ok6xiTu1yQ",
+        "width": 960
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117729410283277605381\">Allyza M Santos</a>"
+        ],
+        "photo_reference": "Ab43m-tjmuXIWz4tQL4mn_jNm5fofO4XHJKmhnhykUQiGlXCrWhNYP-Htce-oSN5ArGrtxVJ2cozFWXl04nY-AFKiEb6oOgZA02A4b4p5ZrFVrBZ8qCJdMhX2DombcsvuT0RpwbGXsVNo9Mui0v2M1_LJTzoJlv7EeIgnNwXvXZHSCBm9ALxMuKP8pPwNM6uhRGF8HfStsEFFyvZshgQ0jS_qnU_Yze9C0neXIFKEr-CFiy-ruEcfMRpr2vTcMSz4fFrb2eQ9XfvVFS8EsComHb9m42BslJ7XJ918hwLRPdw60BSQtkuPEU76FKdDunNavOsHq8mFnFE-fusUb4TInGRmQaI20HlGqgl_m4_kK3CwoMwMSuv6OwM9eEVEkZxymq1lP1XPZ0cbZUumwiuyMSZnEfTqPsgUecMR9FS_Ndcsn_OJ6HC",
+        "width": 4032
+      },
+      {
+        "height": 2447,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114012176852719084421\">World of Stones and Mystics</a>"
+        ],
+        "photo_reference": "Ab43m-sMJOZ7g6rP5cf19s9l3YJX-OnnbeBqioGO13FrQF6QGafL0cse1ekoiovbvqaJK-_6zHIyPsmKKDoCjUnfnxhH65072YqtyQR3fU-0cBUncsi8s3wf5I55Nkuy2-XiOtXy4XfPvaGHe5giz2P0lEF8bAPD-2f7_H8zavNl0Q_tkB1zxlW2l-LVLuFbKygPr02iPtuYp9xh5y5CaYK-S2cVE4QkKmcSubZYRbbKJQsFKV3MbcLtZGyB7rwlsPWC1jhZa4aJskSm3uTcllcs3Gr45uJngJIKknSh_i96Umg_gw",
+        "width": 2447
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114012176852719084421\">World of Stones and Mystics</a>"
+        ],
+        "photo_reference": "Ab43m-vgouHfoOKiWdocDknMki76MxEu-r0LvvyOrI5Wiy-Hhl0P-6E1cDdRfBMbUqaU7xmbVeBfcjdPQj9-pW4yDsauZ6r4VFuExgRCPg3gsp6h21QVCUVRKk1cFyXN0StMH5fiBAhjeDcCkFIXoQFO5oOaHib_r6NLfgP--K0jrvYUZ9onlKHWd8S8ojJAKfOMzrwOUkZjRwREG-aLfx-jFC7P7cE3Qw-D_R7g4No8wLsbMApf6Z5s3to5a3Hk10YrZ6pxl8_q5hJ6KWwhkN1Fc6AElBwhOlSNBF_AGkHavGpYoQ",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117729410283277605381\">Allyza M Santos</a>"
+        ],
+        "photo_reference": "Ab43m-uRbkQGZmckequrZ8ZG5gK2iaLp99xBmxhIVFKaAZT2OP0WjcVbNAcNLUF3cYxbx4wQaG7RUhSlAaWigbDndDCajwE3Z661RbEqSqkQgY-F2WNZTfjL9jgAseWMo0rjpPAOjyAUkyDbQuetbfHm_-k5yuGbW4cIRntkV_64hO9NKg_6JLFcpt717wsTZ0w1JJx7fzK9G4-57yW-F-8BbZaWuPfD6qUWNNxeozhFOntUAep89dUCpuYi1J0YmTE4iD69XUW2svqC8eBrniflrEeiAm3LWZ839mgU6XeEUjv6nwcrthYzn_4GcXzzQIDWzB_Sa4cqyPFtq610aS_ncsqhUmayBJtVUKhX0wwHLnyhWdNpvZTZcSO4-YHcxe4iJ5GNDJiBCycqUbF7Dooxl-R8KdDDNVAVH-hNC8F0W2WhTA",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJH8Tj7yVAjoARY8VK1dMhtoQ",
+    "types": [
+      "establishment",
+      "finance",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9562868052468090211",
+    "vicinity": "835 Front St, Santa Cruz",
     "website": "https://www.facebook.com/worldofstonesandmystics/"
   }
 }
