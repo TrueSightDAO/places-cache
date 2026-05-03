@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earth Elements Boutique",
+  "place_id": "ChIJNbVWKdzhwFQRvTXfkdyMMj4",
+  "result": {
+    "formatted_address": "331 Main Street, Springfield, OR",
+    "geometry": {
+      "location": {
+        "lat": 44.0460338,
+        "lng": -123.0213074
+      }
+    },
+    "name": "Earth Elements Boutique",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJNbVWKdzhwFQRvTXfkdyMMj4",
+    "website": "https://www.earthelementsboutique.com/"
+  }
+}
