@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Preston's Candy & Ice Cream",
+  "place_id": "ChIJl0JpqCV2j4AR0IuuU7HqpkY",
+  "result": {
+    "formatted_address": "1170 Broadway, Burlingame, CA",
+    "formatted_phone_number": "(650) 344-3254",
+    "geometry": {
+      "location": {
+        "lat": 37.5866861,
+        "lng": -122.3643484
+      }
+    },
+    "name": "Preston's Candy & Ice Cream",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 11:00 \u2013 21:00",
+        "Saturday: 11:00 \u2013 21:00",
+        "Sunday: 12:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJl0JpqCV2j4AR0IuuU7HqpkY",
+    "website": "http://www.prestonscandyshop.com/"
+  }
+}
