@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sun Kissed Herbal",
+  "place_id": "ChIJN4_hVhpKw4ARGHJOTrHx4Z8",
+  "result": {
+    "formatted_address": "12410 South Mainstreet, Rancho Cucamonga, CA",
+    "formatted_phone_number": "(909) 367-4544",
+    "geometry": {
+      "location": {
+        "lat": 34.1110658,
+        "lng": -117.5347036
+      }
+    },
+    "name": "Sun Kissed Herbal",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 21:00",
+        "Saturday: 11:00 \u2013 21:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJN4_hVhpKw4ARGHJOTrHx4Z8",
+    "website": "http://www.sunkissedherbal.com/"
+  }
+}
