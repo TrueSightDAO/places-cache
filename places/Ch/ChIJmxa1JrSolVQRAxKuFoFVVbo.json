@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Compass Coffee",
+  "place_id": "ChIJmxa1JrSolVQRAxKuFoFVVbo",
+  "result": {
+    "formatted_address": "817 Washington Street, Vancouver, WA",
+    "formatted_phone_number": "(888) 723-2007",
+    "geometry": {
+      "location": {
+        "lat": 45.6278463,
+        "lng": -122.6725222
+      }
+    },
+    "name": "Compass Coffee",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 6:00 \u2013 19:00",
+        "Tuesday: 6:00 \u2013 19:00",
+        "Wednesday: 6:00 \u2013 19:00",
+        "Thursday: 6:00 \u2013 22:00",
+        "Friday: 6:00 \u2013 22:00",
+        "Saturday: 6:00 \u2013 19:00",
+        "Sunday: 6:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJmxa1JrSolVQRAxKuFoFVVbo",
+    "website": "http://www.compasscoffeeroasting.com/"
+  }
+}
