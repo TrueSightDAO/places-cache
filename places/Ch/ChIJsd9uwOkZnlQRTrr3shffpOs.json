@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Herbal Sunshine Apothecary",
+  "place_id": "ChIJsd9uwOkZnlQRTrr3shffpOs",
+  "result": {
+    "formatted_address": "503 East 9th Avenue, Spokane, WA",
+    "formatted_phone_number": "(509) 979-2835",
+    "geometry": {
+      "location": {
+        "lat": 47.6469488,
+        "lng": -117.4030654
+      }
+    },
+    "name": "Herbal Sunshine Apothecary",
+    "place_id": "ChIJsd9uwOkZnlQRTrr3shffpOs"
+  }
+}
