@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Le Labo",
+  "place_id": "ChIJfzPZFMaAhYARrxCtzkyeNdg",
+  "result": {
+    "formatted_address": "2238 Fillmore Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 931-3212",
+    "geometry": {
+      "location": {
+        "lat": 37.7904207,
+        "lng": -122.4339554
+      }
+    },
+    "name": "Le Labo",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJfzPZFMaAhYARrxCtzkyeNdg",
+    "website": "http://www.lelabofragrances.com/"
+  }
+}
