@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Ice Cream Bar",
+  "place_id": "ChIJu5QEZlSHhYARItnzG0WPrsI",
+  "result": {
+    "formatted_address": "815 Cole Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 742-4932",
+    "geometry": {
+      "location": {
+        "lat": 37.766458,
+        "lng": -122.450251
+      }
+    },
+    "name": "The Ice Cream Bar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 14:00 \u2013 22:00",
+        "Thursday: 14:00 \u2013 22:00",
+        "Friday: 13:00 \u2013 22:00",
+        "Saturday: 13:00 \u2013 22:00",
+        "Sunday: 13:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJu5QEZlSHhYARItnzG0WPrsI",
+    "website": "http://theicecreambarsf.com/"
+  }
+}
