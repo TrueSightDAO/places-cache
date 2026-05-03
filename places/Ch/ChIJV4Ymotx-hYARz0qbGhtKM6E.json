@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kiehl's Since 1851",
+  "place_id": "ChIJV4Ymotx-hYARz0qbGhtKM6E",
+  "result": {
+    "formatted_address": "1848 Fourth Street, Berkeley, CA",
+    "formatted_phone_number": "(510) 548-0130",
+    "geometry": {
+      "location": {
+        "lat": 37.868999,
+        "lng": -122.3004828
+      }
+    },
+    "name": "Kiehl's Since 1851",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJV4Ymotx-hYARz0qbGhtKM6E",
+    "website": "https://stores.kiehls.com/ca/berkeley/1848-4th-st.html?y_source=1_NDcyMTUyMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ=="
+  }
+}
