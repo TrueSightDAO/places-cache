@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Skin Apothecary",
+  "place_id": "ChIJSdHO4hOtr1QR2MmnnI3Hq0M",
+  "result": {
+    "formatted_address": "11104 West State Street, Star, ID",
+    "formatted_phone_number": "(208) 202-2319",
+    "geometry": {
+      "location": {
+        "lat": 43.6922158,
+        "lng": -116.4920281
+      }
+    },
+    "name": "The Skin Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJSdHO4hOtr1QR2MmnnI3Hq0M",
+    "website": "https://www.starmedicalspa.com/"
+  }
+}
