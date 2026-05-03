@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:50Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Market of Choice Willamette",
+  "place_id": "ChIJk-qbpFQewVQR9iUOLucy9tk",
+  "result": {
+    "formatted_address": "67 West 29th Avenue, Eugene, OR",
+    "formatted_phone_number": "(541) 338-8455",
+    "geometry": {
+      "location": {
+        "lat": 44.0269413,
+        "lng": -123.0939892
+      }
+    },
+    "name": "Market of Choice Willamette",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 22:00",
+        "Tuesday: 7:00 \u2013 22:00",
+        "Wednesday: 7:00 \u2013 22:00",
+        "Thursday: 7:00 \u2013 22:00",
+        "Friday: 7:00 \u2013 22:00",
+        "Saturday: 7:00 \u2013 22:00",
+        "Sunday: 7:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJk-qbpFQewVQR9iUOLucy9tk",
+    "website": "https://marketofchoice.com/locations-willamette/"
+  }
+}
