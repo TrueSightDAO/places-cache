@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Wild Poppy Massage & Apothecary",
+  "place_id": "ChIJjZeEvDRfl1QRuYcAJ5FVOO8",
+  "result": {
+    "formatted_address": "West 4th Street, Naches, WA",
+    "formatted_phone_number": "(208) 479-2041",
+    "geometry": {
+      "location": {
+        "lat": 46.7339593,
+        "lng": -120.7042199
+      }
+    },
+    "name": "Wild Poppy Massage & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 17:00",
+        "Tuesday: 8:30 \u2013 17:00",
+        "Wednesday: 8:30 \u2013 17:00",
+        "Thursday: 8:30 \u2013 17:00",
+        "Friday: 8:30 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJjZeEvDRfl1QRuYcAJ5FVOO8",
+    "website": "http://mywildpoppy.com/"
+  }
+}
