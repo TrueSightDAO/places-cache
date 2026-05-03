@@ -1,0 +1,36 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Theory",
+  "place_id": "ChIJn7VuewCBj4ARW20TTW4EiHI",
+  "result": {
+    "formatted_address": "1644 Telegraph Avenue, Oakland, CA",
+    "geometry": {
+      "location": {
+        "lat": 37.8066366,
+        "lng": -122.269992
+      }
+    },
+    "name": "Theory",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 14:00 \u2013 0:00",
+        "Wednesday: 14:00 \u2013 0:00",
+        "Thursday: 14:00 \u2013 0:00",
+        "Friday: 14:00 \u2013 0:00",
+        "Saturday: 14:00 \u2013 0:00",
+        "Sunday: 14:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJn7VuewCBj4ARW20TTW4EiHI"
+  }
+}
