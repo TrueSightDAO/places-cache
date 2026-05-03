@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Nature's Touch Nursery & Harvest",
+  "place_id": "ChIJt8WHYa_E7IAR4blV509bj2Y",
+  "result": {
+    "formatted_address": "225 South Main Street, Templeton, CA",
+    "formatted_phone_number": "(805) 712-3478",
+    "geometry": {
+      "location": {
+        "lat": 35.5505904,
+        "lng": -120.7036887
+      }
+    },
+    "name": "Nature's Touch Nursery & Harvest",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJt8WHYa_E7IAR4blV509bj2Y",
+    "website": "http://naturestouchnurseryandharvest.store/"
+  }
+}
