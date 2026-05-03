@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Viable Solutions, Llc",
+  "place_id": "ChIJhbzEePRMrlQRtHD_5YY4hTc",
+  "result": {
+    "formatted_address": "62 6th Street North, Nampa, ID",
+    "geometry": {
+      "location": {
+        "lat": 43.5958083,
+        "lng": -116.5687511
+      }
+    },
+    "name": "Viable Solutions, Llc",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 16:00",
+        "Tuesday: 8:00 \u2013 16:00",
+        "Wednesday: 8:00 \u2013 16:00",
+        "Thursday: 8:00 \u2013 16:00",
+        "Friday: 8:00 \u2013 16:00",
+        "Saturday: 8:00 \u2013 13:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJhbzEePRMrlQRtHD_5YY4hTc",
+    "website": "https://viablekratom.com/"
+  }
+}
