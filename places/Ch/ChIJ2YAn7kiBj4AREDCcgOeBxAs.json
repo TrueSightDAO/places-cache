@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:15Z",
+  "fetched_at": "2026-05-03T07:06:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Queen Hippie Gypsy",
   "place_id": "ChIJ2YAn7kiBj4AREDCcgOeBxAs",
   "result": {
-    "formatted_address": "337 14th St, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "337",
+        "short_name": "337",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "14th Street",
+        "short_name": "14th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Oakland",
+        "short_name": "Downtown Oakland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94612",
+        "short_name": "94612",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3906",
+        "short_name": "3906",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "337 14th St, Oakland, CA 94612, USA",
     "formatted_phone_number": "(510) 282-7829",
     "geometry": {
       "location": {
-        "lat": 37.803137,
-        "lng": -122.268591
+        "lat": 37.8031367,
+        "lng": -122.2686011
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8045553802915,
+          "lng": -122.2672123697085
+        },
+        "southwest": {
+          "lat": 37.8018574197085,
+          "lng": -122.2699103302915
+        }
       }
     },
     "name": "Queen Hippie Gypsy",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2269,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-uISvdHx6zF9cCkB5VgyVR162dcR4hKXm4T4IClZzVdYVV15ClDM8YttHVWq_NEkZxVXrVQspKLeiVq341r-fsVWfE-ugd9UBOA57gWuT4VzGiQ0DcAq68m0fYpG68VFQkUr3kC4G4HCa89eGMRFDD5XJyUt7mtofIeISieZoSDEiFNHK4FKjoMFi9wT-6VpYvMyB7Cwovmgf_buJ2bs0y_HK1XHwaCwe-BQbHObIkExFLCVN7QHCfpb9bkmfhd9AwqKtkFKCkxWWzPkV5I0o2lQRhEnx7LqP0u4dd3rSnvqQ",
+        "width": 4032
+      },
+      {
+        "height": 2359,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-s-O5sJCYJ-5MYHSp7YIZCD72QsinNNQcP32pezr4JGgqdHRC2daKZ1P71imITWGFLLwBg2nPmwHcs9gSOVOrbRv4O3kzP77aV93u8BXyHHlISTKcoV4vBXNqgB8PG2ubk7afwvCXxCSpmN7A0f4hrMJnayedyCbcokGkHLlPCmv8oG768uPh623Q3G44ZXGBad-QD21CZ7fl9unLmJZlLZUglAkKEJxI9Z2MaQcBGU7cCzeCg3jACIskEJLwMdzIAhrJWXBiVvpOLtDx7WGTyCdNQ3HMT8BmBrL35ON8j86A",
+        "width": 4192
+      },
+      {
+        "height": 304,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-u5EMTD5QPcEXLs9SR9s3kJfbxo8JG4dh1jgu9fCpL-ZBNCAX3WE67kPuQZHIlVjIipXwUlOs6Kes3WuhW9fNu-xaehzNxYAo9EehVkZyikJUsDHzRYiLXzKkhgsvqluSe3dsLlqGWwF0nW8gnrztn_5C-CPdby_kpS_TPgaaiwu4W09XThqyHZNKyLOH5tFoNtEKbOsj6LBh42__euGjxPjvHqpjz1TE-h4s28wbDHLOOE3j9nLMBA3IPRhXvdT7mRqSUd6vpTMF4rKkP0bc9Mj2epaKVVSz8dMt2-w8BNbA",
+        "width": 491
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113970913374672841892\">Dena</a>"
+        ],
+        "photo_reference": "Ab43m-ukUH-tT7HqWtYEPKQlBBC57Bg155mc_-aYOl1Jx6unpRhFDW646QLh9O7sVtSB6ViWllXObqJem-l_SChvjBcjkwYke9Lt-vXfvyHklSCUEKeHfPLxpqGpltLv9UFrkNLDV2TrQjakjyZknjY-eV-dL0qeGby_9stJEhvfYJPwloznnNA1COzIKs89_4D_EbA3Lk2_hnE_1lmnZaWaIZQuM6lvA6NEtqqSwpOmjVqS6Lk0E7PkgXHiHS3RDmu1JhkNPcoGCXM34sfdNBZUU5bMvWUsg1hVYznwUftyGT2cI588AjeEnQ_xBPU7jjZ6Bdv-ps7MxTEbnckBBnGuKA1H_3Hsb1PYsElPI6K1gqgIJijL0EPzHlr2uGGxb3TdcDWwc6xKspVtcn13-2zr5PScSg5w-rgh2qWyOb8bZS0W9M6v",
+        "width": 3472
+      },
+      {
+        "height": 3067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-siJ2QO_v3Ja045fMinLhXyebru9VDZe-4_fRtzWzg7GRnUidnOCVDsi1ONMfR2JDKVxCQ6vQEdmf681VzR-eZTCyt6B8xgsA1vukR7p6cmSlKcLQtmtcF77yv52cBIArRnpCYSCk1dTgf44PfU06HWbuvhRnAkPL_RPxq4vrtk6x_S482_K7nrii_qGp10z8NfGEVOFrc5uSsfHoz61ilU5kh32grUre0D-nkxA3vzcok-6PNAIFDO5HWW0aOaPk2c3TNUBI-BNrDv3MNYqB3e-iiEVNcPCTUB_QNwc5T6oA",
+        "width": 4600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115126609619652945317\">Sharlene Simon</a>"
+        ],
+        "photo_reference": "Ab43m-s7t5V2u1282V7DxwjXiZttcXNT1eG7guk0Gc8E_b7FW4vnY6_mE0kHu950YKRjJJ_rM9y5xCGIzweeMvRlNlVqw831gB6BhQLSzKyRDwR53q4Ia7xqKWXVHV9I-sAyPIDyQp8eYwgLvpXztD8U4oDyhHeEKzRBVZWNALqfwRbR_EvUPQwmidXwY5wPQbRKrMg99B-016yH-M3IgRFfz8Q4iye1hn1kI2ZFBanTa-nHZQDZn1wTZKEstWv58Zkg9fvJ9YeK7j55jva_iLZzCAbbZN11BLAolhCRfxtjtBYJ_9gyYe9x9PENBemxdBqooO_7vVx0f4Rcfdv51z3xg9gTl2Zu8sV4A2wmiOCsGtBOJyHU7LcZxZJELSuJ1XPIm57D10uJC8CdKPHEYR5O-SbYH583vzdg3oglY4ohkHuYdihSQ-eiWpfUJMjxIw",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-vuEH70ohVm6kM0--lNgJkKmzU38IKv786Fs-zoQKlBiLUPVIExZmStoJ2YbR6OgBQUGebbMY3FfQqCSM613ORK2_9Y5ma1BevoKvbOj0efSzMJBL9xwk9Zec10uh1jPWj_nD5dYblKYq2QmqgvTSTHckizxVuE6ppPrBbT8gZmF_s6EMz5FaNangnfNq9cuEDnCf0W35WhoZm7lhA03S5i7f3PkU--NUvAWBD0QlgOK_rWpKJfpjfEMeOJqlfw33rskcXof4z3Hv6zGz44dX2CtOrH7GRlgAom-1VCvW_bqw",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115126609619652945317\">Sharlene Simon</a>"
+        ],
+        "photo_reference": "Ab43m-sq7p4V2RXNY1r1_-odyaHN19hkTWvLWUnokNO3cs3mf5fgRk8OVEc1pMCCcnuiwLaTZ0ylDA7VXQ3ONXOPRn_8FBmgJ_qaWk1CHq6KKs7asU08kWdGLkY-GfofLpyBRZsBxStbzQXoRovCkEAjPKuyxTREYcN6WoT9zfbJv4-PC2CEEfdwbfEBABraVfgvJlB4Ww0w06478bAwFVjXzbbGv2lsZDhN30c-NaXtpQ0gOf0d5JLucD5kX8YUzxlfG6FqG2b2tTOHDoOrXAlSVoDxfeZdC-82okypTAlCkO2I_5u3NkCQHKF1q7bKizf62QDQYCjeV_l-ZzXA6PAc_UOGc-n1si_EUsCSNGCTerRIVuFSnCRF8sSz3pYNRWrsnZhtK7PoVKMrvl9rSnsf9feKnOpIO1hd2KNyeeNBV5_Q8yis9oh08r8ew53-0LNC",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-v4wEhdpTWlbg11nmXNJ-wzVv8JM5OrOD4PNeAl6CcnrtzdLwAQ5EUiUVTLMjgLMawXabCQSj_9Fg9kUrYrTUXAvQToV8AgwD_ZYx1MDLaeFCOwfeoJpbWV2MtbSbwqdQRkosvDJffja3LSTo3i3LgN7AuXG_VlAL9voEcuG7DQK5rC0whmBQpbX_fStCxSPSYgXfSJ7_5i_ga7Sh5iWK6n_jHlPNu0OPbLM0pVABNCF36TmtgrWJpX6DzSG0J1u4jX3bLjNRoKZzmnD3NyXPKdx8sUItGEOOkPMwk69MWM3w",
+        "width": 3024
+      },
+      {
+        "height": 3266,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115435975841079474502\">Queen Hippie Gypsy</a>"
+        ],
+        "photo_reference": "Ab43m-sUtJRCahruINA5FzMNQjecQwgIRXbGKYCWJDWUZ5vnVDWns7njzRhHcMPCBpudz4afqjkaqIYj36djA0Sd1lh7_DMUDVABmLZIJeB4OvdIuYtXDe8VxBdmadacrTKQDYdAhUguluIBKrZluh-GhrRNuDzDatGHiFSKZomQQFABZ5tF2PxZkIwQCLXu4piMksGk82UwpHMulRgybr7_w6bSNVE5zqkErjoyWq7vLUwwsQpOYvx-BBhWxzN5wk4zD7APonbgsdk7DZqxqpW1KnuvMeFN4wwv8ukFRxaidorhWg",
+        "width": 2450
+      }
+    ],
     "place_id": "ChIJ2YAn7kiBj4AREDCcgOeBxAs",
-    "website": "https://www.queenhippiegypsy.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=847945461147643920",
+    "vicinity": "337 14th St, Oakland",
+    "website": "http://queenhippiegypsy.com/"
   }
 }
