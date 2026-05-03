@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Proper Xchange",
+  "place_id": "ChIJyQ9OhIbHwoARR1I2d33WQk8",
+  "result": {
+    "formatted_address": "300 North Beaudry Avenue, Los Angeles, CA",
+    "formatted_phone_number": "(213) 293-7761",
+    "geometry": {
+      "location": {
+        "lat": 34.0618857,
+        "lng": -118.2518878
+      }
+    },
+    "name": "Proper Xchange",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJyQ9OhIbHwoARR1I2d33WQk8",
+    "website": "https://www.properxchange.com/"
+  }
+}
