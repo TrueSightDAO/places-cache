@@ -1,40 +1,176 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:59Z",
+  "fetched_at": "2026-05-03T09:06:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary Energy Wellness Center",
   "place_id": "ChIJn7LAMlHPmoARTKiuum7nts0",
   "result": {
-    "formatted_address": "6385 Auburn Boulevard, Citrus Heights, CA",
+    "address_components": [
+      {
+        "long_name": "Ste B-3",
+        "short_name": "Ste B-3",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "6385",
+        "short_name": "6385",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Auburn Boulevard",
+        "short_name": "Auburn Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Arcade Creek Office Park",
+        "short_name": "Arcade Creek Office Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Citrus Heights",
+        "short_name": "Citrus Heights",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95621",
+        "short_name": "95621",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6385 Auburn Blvd Ste B-3, Citrus Heights, CA 95621, USA",
     "formatted_phone_number": "(916) 296-7348",
     "geometry": {
       "location": {
         "lat": 38.683144,
         "lng": -121.314811
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6844116802915,
+          "lng": -121.3136585697085
+        },
+        "southwest": {
+          "lat": 38.6817137197085,
+          "lng": -121.3163565302915
+        }
       }
     },
     "name": "Apothecary Energy Wellness Center",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 19:00",
-        "Tuesday: 12:00 \u2013 22:00",
-        "Wednesday: 12:00 \u2013 22:00",
-        "Thursday: 12:00 \u2013 22:00",
+        "Monday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u200910:00\u202fPM",
         "Friday: Closed",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
     "place_id": "ChIJn7LAMlHPmoARTKiuum7nts0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14823289686300993612",
+    "vicinity": "6385 Auburn Blvd Ste B-3, Citrus Heights",
     "website": "https://linktr.ee/apothecaryenergy"
   }
 }
