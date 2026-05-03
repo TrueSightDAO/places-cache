@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Sun&Moon",
+  "place_id": "ChIJwTyZwYfFkIARxEMYhaopWbA",
+  "result": {
+    "formatted_address": "83 South Stewart Street, Sonora, CA",
+    "formatted_phone_number": "(209) 396-1154",
+    "geometry": {
+      "location": {
+        "lat": 37.9844429,
+        "lng": -120.3818979
+      }
+    },
+    "name": "Sun&Moon",
+    "place_id": "ChIJwTyZwYfFkIARxEMYhaopWbA"
+  }
+}
