@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "FleurSana Apothecary",
+  "place_id": "ChIJC_zb3bdrkFQRxFT-IaiVmI4",
+  "result": {
+    "formatted_address": "3616 34th Avenue South, Seattle, WA",
+    "geometry": {
+      "location": {
+        "lat": 47.5710032,
+        "lng": -122.2896565
+      }
+    },
+    "name": "FleurSana Apothecary",
+    "place_id": "ChIJC_zb3bdrkFQRxFT-IaiVmI4"
+  }
+}
