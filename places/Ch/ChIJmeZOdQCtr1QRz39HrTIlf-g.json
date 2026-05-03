@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Washhouse Apothecary",
+  "place_id": "ChIJmeZOdQCtr1QRz39HrTIlf-g",
+  "result": {
+    "formatted_address": "218 North Main Street, Star, ID",
+    "formatted_phone_number": "(208) 830-6226",
+    "geometry": {
+      "location": {
+        "lat": 43.6939475,
+        "lng": -116.4900494
+      }
+    },
+    "name": "Washhouse Apothecary",
+    "place_id": "ChIJmeZOdQCtr1QRz39HrTIlf-g",
+    "website": "http://shopwashhouse.com/"
+  }
+}
