@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Farmacy Santa Ana",
+  "place_id": "ChIJWUDqpjXZ3IARhNprMfO_Ij0",
+  "result": {
+    "formatted_address": "1327 East Saint Gertrude Place, Santa Ana, CA",
+    "formatted_phone_number": "(714) 576-2150",
+    "geometry": {
+      "location": {
+        "lat": 33.719851,
+        "lng": -117.852724
+      }
+    },
+    "name": "Farmacy Santa Ana",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJWUDqpjXZ3IARhNprMfO_Ij0",
+    "website": "https://farmacyshop.com/santa-ana-dispensary/?utm_source=GBP+Organic&utm_medium=clicks&utm_campaign=2024"
+  }
+}
