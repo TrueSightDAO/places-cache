@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Cityalchemist",
+  "place_id": "ChIJbZ5XDAa1RIYRnIr6Cg7vWW0",
+  "result": {
+    "formatted_address": "1105 E 6th St, Austin, TX 78705, Austin, TX",
+    "formatted_phone_number": "(512) 215-2288",
+    "geometry": {
+      "location": {
+        "lat": 30.264515,
+        "lng": -97.731267
+      }
+    },
+    "name": "Cityalchemist",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 12:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJbZ5XDAa1RIYRnIr6Cg7vWW0",
+    "website": "http://www.cityalchemist.co/"
+  }
+}
