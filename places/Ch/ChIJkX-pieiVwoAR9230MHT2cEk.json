@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Green Man",
+  "place_id": "ChIJkX-pieiVwoAR9230MHT2cEk",
+  "result": {
+    "formatted_address": "824 North Hollywood Way, Burbank, CA",
+    "formatted_phone_number": "(818) 985-2010",
+    "geometry": {
+      "location": {
+        "lat": 34.165349,
+        "lng": -118.3455328
+      }
+    },
+    "name": "The Green Man",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJkX-pieiVwoAR9230MHT2cEk",
+    "website": "http://www.thegreenmanstore.com/"
+  }
+}
