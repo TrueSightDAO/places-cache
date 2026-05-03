@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:38Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Herb Bar",
+  "place_id": "ChIJ66Crs-S0RIYR6xll8X_7vC4",
+  "result": {
+    "formatted_address": "3200 Merrie Lynn Avenue, Austin, TX",
+    "formatted_phone_number": "(512) 444-6251",
+    "geometry": {
+      "location": {
+        "lat": 30.2855459,
+        "lng": -97.7123974
+      }
+    },
+    "name": "The Herb Bar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 18:00",
+        "Wednesday: 10:30 \u2013 18:00",
+        "Thursday: 10:30 \u2013 18:00",
+        "Friday: 10:30 \u2013 18:00",
+        "Saturday: 10:30 \u2013 18:00",
+        "Sunday: 10:30 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ66Crs-S0RIYR6xll8X_7vC4",
+    "website": "http://www.theherbbar.com/"
+  }
+}
