@@ -1,40 +1,288 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:03Z",
+  "fetched_at": "2026-05-03T07:06:36Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ancient Ways",
   "place_id": "ChIJxcVXt-J9hYARHBBmhb5nZoM",
   "result": {
-    "formatted_address": "4075 Telegraph Ave, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "4075",
+        "short_name": "4075",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Telegraph Avenue",
+        "short_name": "Telegraph Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Temescal",
+        "short_name": "Temescal",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94609",
+        "short_name": "94609",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2404",
+        "short_name": "2404",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4075 Telegraph Ave, Oakland, CA 94609, USA",
     "formatted_phone_number": "(510) 653-3244",
     "geometry": {
       "location": {
-        "lat": 37.829871,
-        "lng": -122.2644831
+        "lat": 37.8298946,
+        "lng": -122.2645711
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8312905802915,
+          "lng": -122.2631497197085
+        },
+        "southwest": {
+          "lat": 37.8285926197085,
+          "lng": -122.2658476802915
+        }
       }
     },
     "name": "Ancient Ways",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 19:00",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108850070775200606803\">Ancient Ways</a>"
+        ],
+        "photo_reference": "Ab43m-uvtzeiENmnGqEHiiw8z57UHn2c-mD-8N_g0hJeIkHMOcSJiSgPdOF3JFHWm97QFcZqsu9qztmVr1OmbbkEnuUKwbxzVnDZkedJFchrE9KFJDFF00lZMa3T-frbryukqkBTq9PEDkSugR3AD-eTtyb_Ac5njcBhHamNivceIi-1L9VuPe7zkw7cTjeFKESFFeMkNYJNCf2Gsr30MzvOBQzxutkHeYsMkpNb6MHgAJkvx4viYlFG4-yTArUaBeBPXOMsTAWGvE_-7jVFYRy-uJxoeFsEL2lSUOypfPXo5VPikA",
+        "width": 1600
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112124204659761129738\">Lilith</a>"
+        ],
+        "photo_reference": "Ab43m-sbFqKRY_ANkpp5JD8ZG9_Ky-EfCSfSYYWCIzHLBjFAAJJZSj0kq4E-vAuhHkD3XeLofeekPa0fX43BJYTZjYSLDzV9LhRhVEng9qMfHc_dj3Pyx-5EZ2MejIa8LnIEWLsULbamFkkQ3kKXPjtwESQszukqt5yhwi48YBa_iJlqQ-FupQF_nxXeywyxOdBw1BQjU9i1zLJTY3PV7tSLfJB_XAMwViLj9GBtW547P_3yjBZ2NrG1vjoPpxBXmSogJXH7gPzmArQkPCDRNnZAeBqpQAzZq_g55D5Fu_n4YX8do3tfBvapCJBTxezpJtKU5a8dpFKZFKwvPSsJ56e37O08bLWcYXRb2ZyLlfL-79TtjxX0d0gYDR3jd0IzlPIl0xIWEbbVxHR3Jqa0KqEW4yFbEUPysdPZGjfYSuY7-BZEyQ",
+        "width": 2688
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101597193210578688608\">Lana Larue</a>"
+        ],
+        "photo_reference": "Ab43m-uR-tBiy5OTfHYFi8MwdtZzuKfj6jvKI-WVOlc6IxfcCzbWo9CI54MZVvqpMcs8lcH4kqcVe8DDDMwD2Rr0YAih-2xpSktfdvtLuHQEqvQaiF6BkK123ByKL_TXsHaPBW9j8cVn5P9l8vQc3PbYFjdjUbkXmXsr968gPdB98YKK_wDHhvopSd9RGvve2fn6LqMrpR-FdQ46PwytcXn-83nAiPJWBhqq7udU4xMwHiR5R9DhLiEedzv9WQ-aVjw9tvdoZS4H79SiSrknQRcPiNmJZGsZz6WG2aTYPdwHFAtQxLszQVUciSNP2BvXAn54N3Iq2drqbViioFiHVVuK15_pDO6WF3c9tv2o2shYb80_5PCe6aQWRwCSUaVQEdcwW6Aa7cBUz7YNn-7RuSHLynLhQ0uRZBwJLyJn6i26npkAPw7y",
+        "width": 1536
+      },
+      {
+        "height": 375,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108850070775200606803\">Ancient Ways</a>"
+        ],
+        "photo_reference": "Ab43m-ssDPw_VMhSShRd8Vxy6LAxRDlbFPYQlfp_d9NDiqEV-gWIdLWFmjRdWyDEC_DbDkhlPWDEoQR2a5XRiD0uNyaNRa2MVzrMIQF3w27qriDj5g4PJstbXc4zauLQuQkQ01tO7xDgIH0D3S7hUh1yHjyhanWAGXRDgc1Jf1jfkendhTN_1u6qQCEVR2afunk8AeqALmxSQuOrb6wcBkkoTi2BB7NaX9DNr4u3NGudj9f9CZwd1IJhlIiWIzBJ8ikcc0VV2gwlDNA-A5QvZWLYN-GX2HXPOsG44AjBS11HARUatw",
+        "width": 500
+      },
+      {
+        "height": 4320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112394270229960227362\">Rosemarie Radford</a>"
+        ],
+        "photo_reference": "Ab43m-v3OnwmtqwH7ATicBifH-xQRqug4zgFNihLOgdK-cTVAP5hAGu1glCM1LD6l76UGffoo6fDW83rIqa56CI2KeNrlEBTGm-XwjYvb-L2y6qKaoX9xF_wrzxPNtm5WMZMsjp3KjcC3IhF6KvGPyA8NeQIyj9o3BJy2xe49nh7r1zRo5r_oa2dt0u_o5bqZ0DupCsA63nCTcXwMlDT_fPFSk6KcJJocE9QGS9UUW6N7We08tlIDFElvF9R6ZTmdKnmN4d0POoSH27ixBC3U_Fn7K4YGgjE1b9i5ecD4Rm8-ttqn2m6P3jwR0GRsvLhh0mrERJPvlYugmg4OU7d_kt85PpPcim-izehn-a4v6hrMtV6vUPYTO8smUPvfp3sa255Wle32vj9ZCJj7VlTffFu4DDddvHgB5ZnJ16oAxEE42Q",
+        "width": 2432
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110984256236176107816\">Poetiser the Nerd</a>"
+        ],
+        "photo_reference": "Ab43m-vgYW8zA9I0DVqg3JQUMh2c-wOMdduN4jAD_lQlrZB06oz5dRMCz2m6Dtef2V5SITR5pCb-evzkv8ntsAC6yz7OEFALJhLtHZoanrm7qDHlOnVilCe4e3C29i-Jgp3owABJvnjNevDh5xpxfzNwO39EDBnU7k4WRzJIHaTZfStm0UWI__-3sSDyADbIfLxrZqfZuLTK722VPLEbF3Y8Tv5dwhhqT-csZTl_JEnGdxGBfK6eetFuMeCu8iyK0wjI8ew2mqN8m3wfSeCAjlaEHEvGSx_yQgJaLndv9NU8cz8VxP0WfTYvUlK_zG06Ecnb-0kb0JtEu54SWZvuevfLS3m0hCYUss56myi7YWiZsikxW2WVjt0J10XFeov5twDb-NwA0bjTlnyCvPMqeXE_6euQHRJs0QamVomRHh1ebccle0I",
+        "width": 2268
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107659270854403021540\">Lyn</a>"
+        ],
+        "photo_reference": "Ab43m-tYkh7UeC7_RGLm0OsaERWwxpWC-xx200ci6ZFbryzxX6eVZkb_dClH7LLlo4t9_DUUQZO3TOxmapUCdbsXv4b6j5ilL59K7Lvhd39nV01Jy2DOIwXcVIDkGCENgER-wQXbo6dtHhH1JjytMPG7YwzyL238AS_kUWGcbleTIG4cKYAyx2okPbvRZXG8zpVXCeEkMxNzY4Pq1fHpUoVGgNnqn7aO2nRia1M7a1rLFceQvkR21upNmueZc4j8ioE4S3X1BSKUVbZpXJIOqBG49I7scprtvWnfGI-n2d1jqbpCvI5R3P2T66pb7nXJ1Taa-sNGZrtjsvzzdP0iTpr_BLsKrdfDSEKid_oy1x8RN6dYANi5Wc5k1F1occH1Z3RV1dYYlAgHkhzFCA-rpOojq4zAFq4Va-Nd-ak-cYjDdaEj1mTm",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110984256236176107816\">Poetiser the Nerd</a>"
+        ],
+        "photo_reference": "Ab43m-vkD0HcXsLcWlr7KLQCrNcjHfAw1OlFVk3jIa9Rw4ebZ23NPzSBGT_jxAvhJk-rKcsp_ZzupcGBRaCOMWbssMLDaMr-nXIExxE61kRrxV3SJZ64G7OEiqdWmxb2Ci38-oLC6pKxQE-iYgeIUsLnVBzrDwvK5Y1htlWoJNbujK9nFP3_6WCD3XNIPgaiCzN_Y5UyEJ358i5caAzBrdQg8C8g-p6-_rnhDL9LJUbRUT1iRsQM4ESZkpOvJq9Yfx9Ku49zxB8ASo7cIswqZkHT_me5FxpfrxALhcbViRoWFRcIe-ag2mhSBxrKI0OTPr6jdXV3CvA-QLOkeB_dd4ItvIcUzjL9RBRCnff60q_Y4P5PWuxZMBHHqabLCoWeDestbPbfOUje4DWYZG41vSbc1jnXTqEs-RXNjMbMxv6p_y4",
+        "width": 2268
+      },
+      {
+        "height": 1908,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620350089983672250\">David Boone</a>"
+        ],
+        "photo_reference": "Ab43m-vkl0wFTs2AUuOYoacYaHqsoRXNcI8MtLhKLsShbFjoAsXWPho7CM7KDQKKTKX8CyFnlYcnqN0hdrk9Ezv4IdysyXJ4ac0GrsOvwuy0ZvCsDkRge6zGtNA1Qpr8RAmfLhJRn-g1hSQXWHWuke2_VbGYR9H3wsCDpqYt_WRFxGzxHyzjaydqMtkpwTGKUN966nPAU5FLzv8M7mOBKYFPL87qn2EDioiXJXFBysC_zKpMOQu9RfNE7-eTQ1TMXcsCAQbnoX-YLWEYzH1Rq_Nw5k7Jp7lfD6HQa1zU3bftNgRYngjlPLsPmG4g4KcCXkfMMdfowtsO6Aa7RSK7namdKenB-OamUOGd7NTGBbfo4w5_ffFWmTMZVZoacoycwzNzb17dXxrkgPju7Z1ExTlGjiPe1Qqybyhw2TqZO91lj7V3qiHQ_JyRHLUt6S91oA",
+        "width": 4032
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112124204659761129738\">Lilith</a>"
+        ],
+        "photo_reference": "Ab43m-tfUZ99CxDvC3k2yc-BwonvQlhnXhMB7qjsixQqOKLRDykE_bPK_ajNFDsKJx3Y8w4xMKRV19lAwoLuTHjo7LguSfz1wDRBRjXKenlx_x0SJEqFCv3PDSfAZM8fZyz4hqGiftZhkxtZy6eQNI7k2yN63sn5piXS_yKYcJ_9EaepUqeZY48Fg0DybHJAlGtlsKXzh2LvdSUc8UGziWkzEqZGP_T0KeCS-pzwYnhvYUsjnCOeSJQD65BUKjZRxOY3Pg56ZO9NGnTOOuz1KstNPTm72jEWNY86LdG0QOi68d-dGxlpPe-NVnRVAPmouupdZ25q2Hw7hKnb-5ux34Qr1RXP4VBTpAx2jQYmSk7obxqkHREiIZis0V_GI-yfEnnGRpcoDfdDoQ3j4h8QxB-C9PcOtBn3ZsknrzbeoBYI-nqtDQ",
+        "width": 1512
+      }
+    ],
     "place_id": "ChIJxcVXt-J9hYARHBBmhb5nZoM",
-    "website": "https://www.ancientways.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9468369334572552220",
+    "vicinity": "4075 Telegraph Ave, Oakland",
+    "website": "http://ancientways.com/"
   }
 }
