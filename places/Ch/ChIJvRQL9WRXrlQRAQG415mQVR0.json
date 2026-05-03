@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "October Violet Apothecary",
+  "place_id": "ChIJvRQL9WRXrlQRAQG415mQVR0",
+  "result": {
+    "formatted_address": "4136 East Blueberry Street, Meridian, ID",
+    "geometry": {
+      "location": {
+        "lat": 43.5883621,
+        "lng": -116.3427884
+      }
+    },
+    "name": "October Violet Apothecary",
+    "place_id": "ChIJvRQL9WRXrlQRAQG415mQVR0",
+    "website": "https://www.octoberviolet.com/"
+  }
+}
