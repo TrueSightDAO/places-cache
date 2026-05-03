@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "THE GROVE MERCANTILE",
+  "place_id": "ChIJKV0oscHVkIARYBjdETvgsEM",
+  "result": {
+    "formatted_address": "18687 Main Street, Groveland, CA",
+    "formatted_phone_number": "(209) 309-7858",
+    "geometry": {
+      "location": {
+        "lat": 37.8379452,
+        "lng": -120.2310333
+      }
+    },
+    "name": "THE GROVE MERCANTILE",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJKV0oscHVkIARYBjdETvgsEM",
+    "website": "https://thegrovemercantile.com/"
+  }
+}
