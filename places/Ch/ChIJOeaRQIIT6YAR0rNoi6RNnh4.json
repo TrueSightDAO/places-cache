@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Montecito Natural Foods",
+  "place_id": "ChIJOeaRQIIT6YAR0rNoi6RNnh4",
+  "result": {
+    "formatted_address": "1470 East Valley Road, Montecito, CA",
+    "formatted_phone_number": "(805) 969-1411",
+    "geometry": {
+      "location": {
+        "lat": 34.4375076,
+        "lng": -119.6336976
+      }
+    },
+    "name": "Montecito Natural Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 6:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJOeaRQIIT6YAR0rNoi6RNnh4",
+    "website": "https://montecitonaturalfoods.com/"
+  }
+}
