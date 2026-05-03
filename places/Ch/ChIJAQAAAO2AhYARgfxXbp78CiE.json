@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "E Wightman & Co",
+  "place_id": "ChIJAQAAAO2AhYARgfxXbp78CiE",
+  "result": {
+    "formatted_address": "1476 66th Street, Emeryville, CA",
+    "formatted_phone_number": "(510) 652-2800",
+    "geometry": {
+      "location": {
+        "lat": 37.8477457,
+        "lng": -122.293477
+      }
+    },
+    "name": "E Wightman & Co",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJAQAAAO2AhYARgfxXbp78CiE",
+    "website": "http://www.elizabethw.com/"
+  }
+}
