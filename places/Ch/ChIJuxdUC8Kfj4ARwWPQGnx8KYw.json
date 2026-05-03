@@ -1,40 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:07Z",
+  "fetched_at": "2026-05-03T07:06:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mystic Flora Apothecary",
   "place_id": "ChIJuxdUC8Kfj4ARwWPQGnx8KYw",
   "result": {
-    "formatted_address": "1501 El Camino Real Suite F, San Mateo, CA",
+    "address_components": [
+      {
+        "long_name": "Suite F",
+        "short_name": "Suite F",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1501",
+        "short_name": "1501",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "El Camino Real",
+        "short_name": "El Camino Real",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Belmont",
+        "short_name": "Belmont",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94002",
+        "short_name": "94002",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1501 El Camino Real Suite F, Belmont, CA 94002, USA",
     "formatted_phone_number": "(650) 622-4264",
     "geometry": {
       "location": {
-        "lat": 37.5164,
-        "lng": -122.2931
+        "lat": 37.51555099999999,
+        "lng": -122.2696866
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.5169353802915,
+          "lng": -122.2683651197085
+        },
+        "southwest": {
+          "lat": 37.5142374197085,
+          "lng": -122.2710630802915
+        }
       }
     },
     "name": "Mystic Flora Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 19:00",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 19:00",
-        "Sunday: 12:00 \u2013 18:00"
+        "Monday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105402744556774712731\">Mystic Flora Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-u_BgUvYBum3DZ-5u8iveh1IK-yjcbJU4GZQq9vTjFMISg7Od7U_L9cmxc7EsUI6Mdn8ZyURHwdkHrgm-AEkPNif1F5OpHqTDFT3KLE2yrzvVyn0v_z_T4LKCtzMnqo4p9UhNq9y_gXlvGzH6BfpVXljzekxj9_0M_8Y6FHlJHYYDCSzn7LFHlbYLPgEXPdka10Z8b7QILomFmSD16eN0drUJUgcuEUptN4_lxSeMJywPyxri6yJKkbeqXWAtBNj34bIza310dB5RIhX5H76Sjoesnqc0AeWIrxEvhqTuBiDg",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105402744556774712731\">Mystic Flora Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tFdgY2-d0E0WbXxxDRTjG6hGMkjAI4fhRe3X5G57QaF-e9YbAUd8Z8ZQu4jVDljafRJjmDtW3hUUcdhhftUMVRNya9pPT8SeLQs3tqWon67oO8BSHftChligsSX2Vv585_YR5uwTNh-15nqfk_qHvyJKQYND5SFhYsPH7_3QZGcJgMdsn3f6UMv4wkdwTSQhdHlPl-vEiZHPYtRgSmDSHTwGR7AjTmtzIk5GWnRhfpsukORUQEiLHPZwoaCd1oC6OW0LJqoez4edEfeNvWAacEqN-UgPy3_a7NUdn6JyDrxw",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100333015103283254803\">J K</a>"
+        ],
+        "photo_reference": "Ab43m-skD_8DglQ29HklEokZQ7_H2YS3ouHuqh_XXcz1kuutcE10bh1hQRugJXSxzfH3PL6doPl-J0IZ-AWtpgtGEFySB2RwTmlN9rwjgRBNWyuLwFLCpDt_qpqjHmK2osQ6ssFw1OhO_bCgJSVP7BVnEiH4_k_6iy9idaa1EOJ1t_xeNuNZdF3kgCSVZcfUEgxDEbUkZmebLVn6zHBapi9_g_PGP9c0npWnB1CAa6kAeGmgTN09h1FmiRuqoeMGfmaWdG-EXxJ9PXE7cAGyhYvW1U0cKCrtN4tZSvI4Bjg073dDJeCN0USCvzvGNMBIXLGEzVFZQ-bbHqSkOzCpWuFaSQk3tW1yDPqxdDaFF2PocZh_neHqi057eOt9mNqvfI7fwvrg308TxGg7PalqjNxiLVqEfeLRh1l3J9k54S9ab9R_J5Sr",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100333015103283254803\">J K</a>"
+        ],
+        "photo_reference": "Ab43m-vL4GDejrBkp5QmfW7mFJAWar7q-ptzyicNDWxjtPvz98qPsQxItoaRCXwlCFRzbG4FApcnynZqY6rF8sIvl3mPf4oC3SL7RixYDFneBq5pZPVGJGWGEdZY-T7fkAmsh-LtIF5Ydz9o3jwh15LuSnudaqH43h_3iSEufPydhgTg-0QN9d97cFTZNRvnDIvWCTbxIJuiKlPBm8r11BFG-SXgHISE_r9m7Fk0VqFaFOtZnzTD_eyITpjy_xj45k_xbhoE8VaprC-4teyWnKaopWFX7WrfkdkeDrFNwmCeTxKQeVUeE0oiAx37QWUXERfgNFP6zYIhcBDqie9CVapPgh6uU9IUQQv3BUbTdCzSj1OKHe5RBQ-H7gBjv_svzwUlJWU9OyKIlal_5kpvjn_JD207CCVZ7q1mm7r_2k39JWdNxw",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102515695920805923152\">Rinahdi</a>"
+        ],
+        "photo_reference": "Ab43m-s6W3a1PzB_VjW4tKM_VAFYYorjXWK4YFfybxF78GY17BLbomjpLEzATEkh-Q1-vI1uYIZlFr2fccwV7_wuE6mpzWH4Ii_aCGqQSUpU_JAW7yEwJ7QpfwG5TSDg8zjdRSYgoDaaKqbVK-aK2haVrOfNNwJMlamoDbYUzZC2FHPwtxOSC83NS80xtrkRkoiB210CwCm2l5wJ7Xa3RixBz0iYOPI2yADGjpp1yH8xrISjlgrTGBM4t9cuHBXJItIffP_UwJDX-1v0B7AGBCuuY_8mVJ0N36nXkK57pak7UuwZqNTPTavcjbW6glrh6rwSD6haxgTelDKQBkPqgELVnIDFkDhxFfSQYdvA9FzbeiL6IxqQH82Q7mvd7cAGh3RY2kNYn6tQsbMzhXmq3jwRJBawGhsRUJinIExqYAl2BPrC8d_PCjz0Wu7dy81SElzE",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105402744556774712731\">Mystic Flora Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-uG7KGZ0aewQfnA3Non02ReoiFhs_TX2jx-qeetz5NoOcyNyU6Zu2NqNRRA7X1dv7FI3fGKCs4d0zAPLCZpNA_LZLc5cnQtnZhlHdZ3zHBfeacOzlvb2131-9ToE6h7yCcUck209jPqZe_XQDyZlxvirfmA66rxybb08Sr7zjGnvCxTTO2bfypjzCvn73bharkKQUWx7FQQSLfT_VfNb4xqVvJ8rEVcDXL8EYkwB1crDWMV88QwPZLp3ajvVl8ZY4EvbQxQo_po_2OO3CjAWBdflOSbFo0FmyoPMbtUhvhzJQ",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102990067485307941536\">Levitica Caz</a>"
+        ],
+        "photo_reference": "Ab43m-vBYOh6qBZaCQBefMzhMc22rAeh-CNF2ybVmH1VDRCDuqXpZtMQi-RZmVEDSqeMw2hWnsYfzdrU4RvZy7SEJgwN-cGxcmUKJdYahbicgfibIhiswzZ-mpael5UxBLNpdZ-y_6Q-fDPjkJEB52EdIM5C6vrFasX0p-LEt49HWp5lYqs8g06lMPN2mV5PctPZj2QK_YSGFGb4A6br0QXbu5B45GvgcdaWuvc-oJMN9qBGUQCuTNqKak4WWSxD7hFwYWuCyBJiJ1IXRi-vKxC8UShyskduHqjmckdwTzGCArCID3l1H_Zgwpqp1xSpF62Jq8LH8VNrMAZfZUFBa3moxi2D8vO-hAfziGabj1FyY1PIsVWcfRU5byeulS1egKC_MSqzXCSapDSvoQKTdLqYXSiS8Kr0NE_sIWOfOdM6MkuRE7w",
+        "width": 3000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102515695920805923152\">Rinahdi</a>"
+        ],
+        "photo_reference": "Ab43m-sSZs7bPQYphw-20jmHrENbwwfLHwOBRYIRkKTC-xCThy8cEvZdbYThLal5qivmyapWdeoqpjHYSVfsDOO4RZZISVG9OjSG2Haf7FvIJaDbPVtIYC-t0W7om3XYw7U4Z6-ceyTIrfYhiJFHDkcsBcBxupNzYnTs8UpPzTEZkp6lJgWrypjXXx3l3TuMuEM9fyr5kAoBxeiRQvFKspsqS9o3sNmqzgdRkMfRfSoxQDr47ntj9Pn8N1834zC9xRxMm7QRTW8NQOkdZFIK3O0nWiXELggaaj3ShaI65hkfuwq4z4MnMSVgWaUXIeubylALRgasC8EbrFdkgFgRk1PbQszE21jy4ZvieKTdAkKS-u2iAVt1c6UTQU8eGjyS0UH5KFBp8UdRlxXgT1IRb94GlWH2Ollr3VGURvmbPaRRICbnswmeKzCAn2W_q5x8xQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106426048035499667271\">Evangeline Landas</a>"
+        ],
+        "photo_reference": "Ab43m-txG3fs-RggCgr8Zf8QFs6YpmDddp_uKt4kCFFSDCw2vZxF25vbnQkJTfT2OHqsxkETUkHT8vpzQ9LtnqR9v262ZuegRIGFXEceVrJdUSsEStAFUYtxD2MzaNJi4f99RAjSQwXTKx_qIPjSWgBgd3tsZbxPRLYp-hB5w37cm_MClI02EPYRcCxuUXwQR_jxaqg_Oy4tlZo3R21JScUFqD0os64c7fpPt6lZNjllzYK3RMycEh8Po0OG0ZpVzs4JhsD9AYSjRnfnPVqrkSFtwJEIm_ObCnGRU1pKViiJf6gm5tIGRg5mlB7jkNiVmRAP2QeCHEDj6rUC7EKVM5HzBCIYGobq9Fxn_Vd0qpSMCBIKFXmitQR6YPlWxQohEZDzEK4JVjQ-2U-uYHPaCIrwyqWLLQ6KiPdzuHRVBQZjTfk9wQ",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102990067485307941536\">Levitica Caz</a>"
+        ],
+        "photo_reference": "Ab43m-t9CXrwzsp9NGwNfg8WkUF0R4g9m9x8SWvnor_eoe8PBw2xzAhymsNU7yVL3xjyr71fX1y3P6lMwR3ZVWN4b_NSP9ohOnC1EJxuyAgfeUCcKGrV85j9CqYmCRfc_sak1DqpccU5C246nHcgsAcEtyO1vZam6DgaBkrASSLeKFZ4moZ0FPW_fra4us6LSqyi4evvMMiyxyX5GS-Ao4eS2bgsYKHkKsSCf1Ux1Ha6plrGL5FibXpXK4NTTmi2VMGhT6-YIr3C6bXMW4Gc-58W796suCiESgwtV2DWe_mTVXmapibj6mX00s9wqgjNQVWp1FNkexX6rxffrr8NdudGAaKyRSAdjapTbAB5R305dKlGRmm3JZDS-BsKYOBixtxB4JmatgGtWJAOP__LEIPK7tocNoTraNyNq_5Y-qJA04GGwV6G",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJuxdUC8Kfj4ARwWPQGnx8KYw",
-    "website": "https://www.mysticflora.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10099740511822701505",
+    "vicinity": "1501 El Camino Real Suite F, Belmont",
+    "website": "http://www.mysticflora.com/"
   }
 }
