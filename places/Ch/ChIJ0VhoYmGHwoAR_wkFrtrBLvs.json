@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Olde World Apothecary & Botanica",
+  "place_id": "ChIJ0VhoYmGHwoAR_wkFrtrBLvs",
+  "result": {
+    "formatted_address": "25848 Tournament Road, Santa Clarita, CA",
+    "formatted_phone_number": "(661) 666-7507",
+    "geometry": {
+      "location": {
+        "lat": 34.3923143,
+        "lng": -118.5615157
+      }
+    },
+    "name": "The Olde World Apothecary & Botanica",
+    "place_id": "ChIJ0VhoYmGHwoAR_wkFrtrBLvs",
+    "website": "https://www.oldeworldemporium.com/"
+  }
+}
