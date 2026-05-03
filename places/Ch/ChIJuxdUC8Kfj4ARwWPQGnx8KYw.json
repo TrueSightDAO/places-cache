@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mystic Flora Apothecary",
+  "place_id": "ChIJuxdUC8Kfj4ARwWPQGnx8KYw",
+  "result": {
+    "formatted_address": "1501 El Camino Real Suite F, San Mateo, CA",
+    "formatted_phone_number": "(650) 622-4264",
+    "geometry": {
+      "location": {
+        "lat": 37.5164,
+        "lng": -122.2931
+      }
+    },
+    "name": "Mystic Flora Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 12:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJuxdUC8Kfj4ARwWPQGnx8KYw",
+    "website": "https://www.mysticflora.com/"
+  }
+}
