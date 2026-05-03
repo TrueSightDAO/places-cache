@@ -1,40 +1,272 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:40Z",
+  "fetched_at": "2026-05-03T07:07:10Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Lumin Earth Apothecary",
   "place_id": "ChIJm1tmY2Dh7IARTAmrjMqhJ8g",
   "result": {
-    "formatted_address": "2024 harvest\n\nUtilized descriptions provide provided by Christine and the rest, Morro Bay, CA",
-    "formatted_phone_number": "(805) 225-1466",
+    "address_components": [
+      {
+        "long_name": "Unit C",
+        "short_name": "Unit C",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "875",
+        "short_name": "875",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Morro Bay",
+        "short_name": "Morro Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93442",
+        "short_name": "93442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "875 Main St Unit C, Morro Bay, CA 93442, USA",
+    "formatted_phone_number": "(805) 225-5444",
     "geometry": {
       "location": {
-        "lat": 35.3666915,
-        "lng": -120.8502279
+        "lat": 35.366745,
+        "lng": -120.8504178
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.3681612302915,
+          "lng": -120.8490454197085
+        },
+        "southwest": {
+          "lat": 35.3654632697085,
+          "lng": -120.8517433802915
+        }
       }
     },
     "name": "Lumin Earth Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 16:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tkSZYaapJAX4VXUIspi7oB86MPEZUgwyGXUJMElD62zGeXvWHKCylT-ITBDK15cQqjyjGKc4aCyCXnxlbXjO7AnL5nl8pGxqnOolHWWbW1ZePgsJIxEWjfZ1CRv_BuLK0Z6NH3kME8fG4NCKwCJ3RkA5MaU-jl6xGGJeUHFu157XbYCVaqqNCcrDfQXysu0SxpJYirYZh5HkWTKLbZykoIFiyRpA4XimJT2YXjNrlRMjwG3kvwHbZ-naeCRcCTqm_zrZxqI0tT5xbfRL-QjeFQ3rQHN3sOj-cAnffnh2K46g",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109839692584126422187\">Casey Sanders</a>"
+        ],
+        "photo_reference": "Ab43m-vZIqhBxrXCjNc1LZqfQpESqCOzylF5MwQaXWhfoblI_tAsy9TdMOGsxbxnaJzmJpQY1OUO8YMoS9EeqUzAoCgLjg-krpVrwLbA-ROEX9YSeVAl-dpgCB22KT65birqEBaFpuIojugQeNuJY6uVwGNzuDEY1dvYzGeZ9FsGd6aPMhDfHlImTtyfkHeYIEAeB_Ly2CjPHdW8PyVXqBbcFUM23RoPFKnuNqn3W_mLWY7Tp7-TV8ti1hvHNZbtSnOiCXFN3btif5GNxB7brltBKc7X2H9qhHqiqkaet0MdsGRtlpVbXxd9i7GAAzCZXH2pmPXSBqE4U6uwZ761xIAP-J1LJLaafvajtUlYTHEv-A7DzEz3YuPku75k8v4Pjol4E7m02MV4F2APIRiENE_kP4A_SpXqOW6MawjLx2qkM_rJoxGz",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vH528iDgSo3ikmzKHKNr-3Be4tjteu1jYZDwlP6COSmsqfqufdkILn4I2CgQ8lAhqmsrDG2IyioeLeuda3l-z6Ik7Cjxpm2O1xJpxngp46G-T-bEXMnkd9UWpTFzxJ-SKop86S7ntaJkhCVMBbG-A-Ttg-yIGzoUXLEtC78K38uUX6HlWCauzFITbaMmHz9fomdLxLQYbs_DJRu9a9SK-JWEfCvRXzcBNe0vjtlwtf4lWa97NAl28n4TpJfcE5o1a0pfcpyyR0MB6n4zzEMChSQtW3shJ2rD4TRhfNyjaVag",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109839692584126422187\">Casey Sanders</a>"
+        ],
+        "photo_reference": "Ab43m-uTEOdTYjJ0vVAti4lXZ9QGtR5u8NYzDTImnF9a3z7Vx8kclf7YR26WeHbu2W4rpvaiNCLXnBXuRCBHt3ZmOqKTE6CmOUoo8cOWy8CbYVwnqEGrlIcHa2j3WuiksimK-PN6TiL3TegQ_zWx5NRJ4R1bDnlbO9Q-WKx_7my1TS-zT2R-lHeqxkfC-m8K4miwGq3RM7cPZGyNERXaUyswgp4Y_c7RVLw19mJhg9nxFkWBtNH5eokRqc3l60k1YVTh7KnLXBB046M1YT4Xoc5m9wEXS80u407PkD5AweuL6E7mXle_YCmCWQMFI3enwLMQjgkxs25bCbG2tdSKzXI8K2-c193X3iZMBrZ6IGH_9OzU0nFABy0pciy089bv68jgEhxZwcKk9j6u8C2a0xg_Vd8uwP4R_N0yrqaNbAZqi__kAG3-",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109839692584126422187\">Casey Sanders</a>"
+        ],
+        "photo_reference": "Ab43m-udQGA0Bt7Nh2vIHLdqFBf0RS27u4i5W-637mpEESsNI-66FVCyZRKBhN51e4tSk-IiNyqb7R5l6YI1eEYRy0yrg5FO5TViddzv_uemc-TOQSZ5fxqct_naNvalthna-H2MGXM5oWXqAVxeHH01zwlyJ1houhrT-30Q87YiNdjzpVG8ZAn_IBpF8ozfG0JaLMYYWy48QwJdNNR-ttb4gbAyiNR1rdxrMbKwqyZuobIcSR08XEWrKeFAu8FZlcZr9H2macj-gbwz4CauBzWqLCGQc5wacZ8A9o6sJf52xKHOXi3YZHtdgEh-2YJl_TJXlGgA_QyDIAW5ylhkY_LvI2y3VmU0x-aaQtOu5MBP23rzgo3JbUqHVBCAVxA5q8DD1vzE_im7XCmJ_AwY5Gu77x48HfpdHjE2hpSlVTS5Grg",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vdxaqDBtgTS5lVjKuSYa9R35yKy9rmatI9bXDg2dVPB6hR6nhrzfvX2VZwxJ79CQd6WQlCxPrjhedqrxh15SZFP2xvf9II2O2q4RpZpSFGP9L9y1zeBJt1zTANAQnCEw5xL7YYR4O_Ss8_wTgSmMQg_UFPW_DyMl65H8_2W6sirAgbOJAeCJ71GhWZ7KWhLXwetUU387ic6suie8gvtJ7npG5KuhpI0IYCPNxCSuIN5B01GHns11a6jlawKBS7aPJF_aDxR4gH2gH1IsWbP28bfoS_uiKR3Opz2fUlUBV-5Q",
+        "width": 3600
+      },
+      {
+        "height": 2293,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-uheUdXu116EyVrxbL4Wfi9SHB9ofxrbnFTNOlFWehzNFaM409KGkZABffcjKjtYmpqxrq0GHIq1bBfDbKeaCil0MKoPq6r_gaGtGdsoaVlPgVKgfwuh6uDN5sqgneYdhWSb_6av3mkzDCY1688ArzR78p5hQMrInuf_tRyWy0imEetjiqHYRpwZKZ4p3DLGsvnBLCs9Yaat4sb9nvNuuwnTvnS6dABGcKn33_mS0-5HzQU9Vnjuqie_AOtEVYZYbC0lyXvv19MrysSGvx1GTrukkuopB1_3LvcCarJAnR6pg",
+        "width": 1290
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109839692584126422187\">Casey Sanders</a>"
+        ],
+        "photo_reference": "Ab43m-soeSCnUzlK3LK_XnVprQxLfPdNfk5-F7OYAun7MI_t8FZoxQ5QG72MZYohtmuR3QRWDxuxfXlA5wuJ_iv_kbwlxh8mReGUQcguEdOIOlrPcfli9EiNv-z93p85yo22cgoRd2ctzFr2ton1_4au8s3c1jPgQLdf7kjnaOrGoHZhks1gugf6YmYrcQKlD20va8oOvbXcWUvV11SIBJkVArt5Yu9a-p9GMBlaw8lD_R4UgC8LAGde7XcM_5fYo8_tpqvgytaXkvptj-XL-3dJZOzEJYnl0jErzgfFgIR4VJYV2P9jrVy42Y1YzVvenAOTigt7pozgB8-How2QlDqGHa90I-g4zP2BEpb_RcAJZZF9Ie_j_vvsgTHjAE04FkTJo4JqifRzrEaXyUfIVtv9eEoBt6iqQpZ09C-P1sHpqkE",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vc2pWCoipGOZnZXKSr-Jnv9PYEY_1_JqjLbvoLwtSSyoQsnD3vv-ecZnJvRYQVHQlyAYKzmiZBgxOyLBjTgY2tYZUqDqKmF7Cbt9Blcu1hnaZ0Sq0atuJfZau7YWb1161f4cOKkmPFht52Q826j3KqhVtAjdg598pGcuvLXBjD_aSZCVHkKGpvCEq-BKQuYa9Wjk97Y3s1GNe-qonx5KcBRfqjLOPgF4pfcOTV1O9DaDDHASpHk-8Q_-xZVaO0TNjPkr3ogy7faS4DJxlTmB3Nf83jRSGVDtZUkJv2Z_srbg",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103533046957439404933\">Lumin Earth Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vXBVzIfbl6vpxn2rn0hQz75C5dYzjdekWNvT0cYo2_ImJIZmfcrbrRVVgl6XtWJGocMycU2vjXf6EvDQTF8pcKb0rDj0APGf0ypLUaP78PqFA3-jvVlKSTcZlXvbbVsbYGwgRkxDm6mWtJHSAwTqfgdgYkw0uPfe0yWtbyu5LI_RCQNCk6UBtVBjhDoORO4ys_md02AeP5lZjqhLVo8EYCjSRo6MRcvdQjzJKYlPaMY3RyuFPGkDsbwx9NFrWRxIVlEZC0SQHI0lroPSVCQP8o76OufzJd5KSO0IJgg9P6-w",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJm1tmY2Dh7IARTAmrjMqhJ8g",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14422674222992787788",
+    "vicinity": "875 Main St Unit C, Morro Bay",
     "website": "http://www.luminearthapothecary.com/"
   }
 }
