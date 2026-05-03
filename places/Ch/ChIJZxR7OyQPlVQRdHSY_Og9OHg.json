@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Through The Veil",
+  "place_id": "ChIJZxR7OyQPlVQRdHSY_Og9OHg",
+  "result": {
+    "formatted_address": "6698 Northeast Alder Street, Hillsboro, OR",
+    "geometry": {
+      "location": {
+        "lat": 45.5297249,
+        "lng": -122.9122057
+      }
+    },
+    "name": "Through The Veil",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJZxR7OyQPlVQRdHSY_Og9OHg",
+    "website": "https://www.throughtheveilshop.com/"
+  }
+}
