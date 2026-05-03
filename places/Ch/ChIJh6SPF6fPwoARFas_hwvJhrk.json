@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Centro de Nutricion Cuevas",
+  "place_id": "ChIJh6SPF6fPwoARFas_hwvJhrk",
+  "result": {
+    "formatted_address": "738 South Atlantic Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(323) 261-1156",
+    "geometry": {
+      "location": {
+        "lat": 34.0215,
+        "lng": -118.156679
+      }
+    },
+    "name": "Centro de Nutricion Cuevas",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJh6SPF6fPwoARFas_hwvJhrk"
+  }
+}
