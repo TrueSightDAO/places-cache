@@ -1,28 +1,197 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:24Z",
+  "fetched_at": "2026-05-03T07:06:57Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Berkeley Alembic",
   "place_id": "ChIJhzuS-Kd_hYARIjpFVZB474Y",
   "result": {
-    "formatted_address": "2820 7th St, Berkeley, CA",
+    "address_components": [
+      {
+        "long_name": "2820",
+        "short_name": "2820",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Seventh Street",
+        "short_name": "Seventh St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Berkeley",
+        "short_name": "West Berkeley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Berkeley",
+        "short_name": "Berkeley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94710",
+        "short_name": "94710",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2820 Seventh St, Berkeley, CA 94710, USA",
     "formatted_phone_number": "(707) 546-5789",
     "geometry": {
       "location": {
-        "lat": 37.8540849,
-        "lng": -122.293467
+        "lat": 37.85417169999999,
+        "lng": -122.2934207
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.85555683029149,
+          "lng": -122.2921298697085
+        },
+        "southwest": {
+          "lat": 37.85285886970849,
+          "lng": -122.2948278302915
+        }
       }
     },
     "name": "The Berkeley Alembic",
+    "photos": [
+      {
+        "height": 2019,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102326714362957929300\">The Berkeley Alembic</a>"
+        ],
+        "photo_reference": "Ab43m-vYm6nqPcJVtSmgJorALyIACgjlncf32VDT0DwoBDsThoDFdBXcjbMDv_ni7wIGwhzt-L9QmxXcuXqD-iHl9M6ths9NHyjdIVH4G4UeK5s8OIKXPEQda6Yp-rbH8sf-3IYfQKM4-EShhHrHaBc30yAiHkPoLSy60tT_K6KcecYit7C-USDNYJgDGWQ2O1tNdGPUlG3CApPQwb7UWN3uBAfGFs36n1VLGJ6gabrnh7AiQkC8x1P21IC57tyDx9MuiWbCwVEKLSFETqN7eW1Ld6gk1ItMnySNYpC-A7ea_EJyxQ",
+        "width": 2746
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101124898505986597612\">Raphaela Pandy</a>"
+        ],
+        "photo_reference": "Ab43m-t_2OotWnNGbb8o3GFSAfCAnGyuRG9C9V8JsboRDYz1YfwTkrw-Uxg57y3zeDXM09fXx_UO14PZLcKzi90C72tJ-Lj1Oa3CxNt7ZQLmy4CW0sRV8sWyupbdfmpoqKl9gcXRf_tQCIMeXtXdUsM_x2ApP2tmp0KdIaNDElIGAUbGSzl8fx7-KTFdPgt4ugKbiIETgpqgoUiKoiRYMRk0oiaeRViZggHaOOaRmftkNwpfIgHdRarAqQzp21c2lIIinvUdskAnHH1-ndNn3gBACuoOBVZD9YMIFecZx6Nq4psmqF9GS_yn3mX_P114tNGnTv4HJoc61bweIgBjH6pKWfjKZQHvAu2us94kkhPaoJOQvh8JjS56Oyu8RF3Q135EAp3gElXQ27Jy1mtS7Z5i98ftvXWfrkF6kqPKBU_2e-sVP0xS9C51_J_t1jBnr701",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101124898505986597612\">Raphaela Pandy</a>"
+        ],
+        "photo_reference": "Ab43m-vLuXrvJ66PH3X6_mUWmFdEwq6s_TUa1yv_l76f6hZMghs1RaK94LJDfbU39aGvvOx8qAY9lvvolvG5m6HP0mzu8l3tCOdQRqQ9CXn6PAizvytOVjf5agZuGVWQByIS5qW-Muzg881qMMwps2KAJt52WFQ8ikAk0RfifLjaAPx6NDVQFwB9vTgboAtaocz301X-NwxWPrmhEfruN3XrkJCWcpJsIuAjppbk4S3hu208wDzoTTMnhH8C607piXR2dDd-ZxvVDX6qfJOmHK3aqTz-N0xADjAqy_MShyx-u-0IlHH0yWhxK32s4Ip3i6OP9saXgWH0QIDA1-hicPBc7DmVgtPe2EnMT5tRjCDGGPbWUUkxLYZbTetVFtQdQJJLx9TpIZItADnnvTZm6Xx27unOr712wvT_IMwpFlBifgqXBqghQXw5lZDyBblFog",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111303732287242594427\">H</a>"
+        ],
+        "photo_reference": "Ab43m-u0IWYSC--dmILBfY_tdbc3CMreGCzvUb-Db_VwNhVc2rgE2pubUQx9l0xbjcMXkm42oRK_ZMDCbnx03VINCYbNmPzaN_WTQOKFRhYAe_aMkIOJHC0hfFK90BaB7iDzZGSFWCkP8uR4gP2IAwhIxcPirNnLEFayO4EGA0TEy8qixMzZ1ONEsrYe9ux3hPKpPPGVut4zFxxbHdmAjuyfKl766Gcl_QrBc7L_chu-AsU9qKo1udZNHTEkAmwwEVP48kFDqh7eUip7SSZmgTRw6vujwaGmOn5EIb4Q10vwOId0A40OKM0EZLh5mFv07-P6ys4ZtPOCyZ0cd3LojpZS9y_Prn2fB7LWyThnzc4V8RSApApXd9Dk7vKaOK-KgAENh_D-bqMYa5MEWZX2I0NGOyFYIe1Dof7p2CfQl6pZVQU",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111303732287242594427\">H</a>"
+        ],
+        "photo_reference": "Ab43m-u4iw9vPXFXgu9gXSN8MMnGUH0cXBh1Vh_bBBKwMQFGqyDAs-xW8kvs-riwTCOPjxcp-JEwH74jwipvaLRNvIgRigGtIiFfvAd5MT25czVmPNkHbde_l2E2SaJ8mkMfF-snL5OLpFdQhNuABTnaoz9-ertRxH8XDPNJrDa2NGzAq4_7t0pwb-9bjTs8JwY8UJrVtpSvSGmUqQwDP0OyI6PYnv8qdu17IhtAGt07NLq2HgkWRwdATXdDzYIJgvXG_KXkllKX2JSPN5eLov8P0Wq_8rT8N-rBh9CI2laXSHBKcFmE6bVB-3iuxxssZOTgWDXgz3Vx4pCjwhRM8O9HkfXMrYU7qM6bCSPLoTb0JE3GngerWPnL3jhq6IPSmZouMvaXDlKIj76sOCKIRUMONyIKqc2U6tA8XjXQco7B0CBQow",
+        "width": 4032
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102326714362957929300\">The Berkeley Alembic</a>"
+        ],
+        "photo_reference": "Ab43m-sM4gbG7t0RICTl5NsOKl9Bg02Da4qGkMKoJN-ouThlyVdlpqw4gcEzWwAKDaBpavvAHJgvz9b-6IV1N0AgaynRldUiJt2xTDO2MNC9Opc73I-9tegUWXBL1M-4S6NDnosKInNhpF-QkTxTseygM38vnlVM6awe8Fjf0On-xe6qZ0-sTzB0kVDOGWR9UCVPWXk0ipzJqUNGTCGZOcRpLDFMkQs8AdM_tV1z7WF_CQOFrrPWp2xxpRnlvvGMNkTJjyLy8F6n7Te5ideboXmN91ywI-jXC1Plc4gHkwZllQKLlQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111303732287242594427\">H</a>"
+        ],
+        "photo_reference": "Ab43m-vp0aExIUf_OJm5zVy1MLOttGXpAZpNVettTG85jsD5-z01GC7I0dJ0l6h-ozLprFmK4O2dMgPQpFmd4JYhIE69IxkklMq6qru1C7prNoQd0kLxoTyDbcTLfeV5ET5QoGCDqMMKKvM06YR3hUfobE_CRiVmUPlOe32HkoEqJi9K4rUJJEaTsplgCU3ucAIK62j_i5207003ZTZNn02__DKsBDgOxCxAxfXfibCxaWFNrAgLZbG-FsOeXACDqtxACL9b5s1fuv0aK8SYsA1PpIjk-6gj5HR-SfSZI2jK0vl-6yP4ZHjtDKc81WMNE1yJQaOWEmuNe_lHEHQsuQPpU6JbiTvHqqr953DKENkz17ekMuIhtwDqddiZYZhw2pW86CZeio83VwGQyBlbwOlUfChIry2DrzvbthQAsIJRPG6nm2y9",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111303732287242594427\">H</a>"
+        ],
+        "photo_reference": "Ab43m-tcN6SPw7H_Tm6BxhBhBJGWksKhcAfUdSXMOe8h2I_-XOhtWVio0kV5Q2TjpJ0m5PaL7STfTXtRfMLGevo0BDN16dV85r2TtPRxjEPJ62JX5F8iNw3eY_fn2-DXgA3o6pakkgdyQ5qKMJp3TUgc0Hqww2i_VGLWIAW0D6dQpPdwSUWy8peKnlycPBhyvxZPxKWZu94dj_Arr3OokPKC1vKRXLOkAext1uFbo0jxIZKwBMjb-QX68I7-_WRYm1QdBoZX_PoDymHaIFmY_lACVijYlNWLkUgyNiI9sZFh9PCXZQiYx3sdH0Y7jD6xmjITGBO4jaan4LUtpPFBdAwpblqayGJp1r6ALGHgN8oSpSHrUBcgTjQkgZUJbn0fmnrAc1pgamo7B89_Z9FCl1-oZHGf6AZmJrpi7Yv3MQfnIn73KAqc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111303732287242594427\">H</a>"
+        ],
+        "photo_reference": "Ab43m-vxZh6IFWhxGhuvr-DoBgx2Ert4m_bme0JwLb3SzQaujbGsIfNTR7nk1zPhKmf82510D1Iu3cEdXqyjNzwt3Xu0MlfOkTXP7a2-FO0U3YoOEvCGVPi1p5x9lklXNehAbH0MNlBkH1P3hW3EF9qgR7faZSRzLSMiI-SbwxLVHlie6BzT6w42KEVYFS-HjBmODShzGa0wosZAf82PGUTs2gixxWldmoBws7j_U3Qbyn4iSlEuHahnFlcwSBKE2VohWGkHTDHfMcp_3phOf9CemDLQZCk5THKgMgtn2tpGAT7kRvV8Z4fPD7yyEbcJFTgFGhL4cQRQ76Qko5hEYYbiG5GJLlAi4G8qfgGu_R18NQNXaMjYTUhsaoeD5xrVvK0teqnWAeBCsELLQUKk880ar7X4TnW8piurrmiio6Ie4oSvAQ",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105463885118541059357\">Hans van Rietschote</a>"
+        ],
+        "photo_reference": "Ab43m-tKkuC7_1e4SAKcUbZVvnksFCR-FqOmmUBKbmuzcwjsUaYs3ec5WzLKxABT6W5g5G0qVTA4jlx3QpEJMEKbB6BE9e307vdkx_4CFW5oxV-iMuvp1IOd2VtFCWpy05wRIi6KesJA1n2vKipbNnSNVJYe7uW9qffvoxvapFZ8EidkFMKqUEcvrmUDvVQ8nkWEONm6GpxbXLjM6uMvlAvgCHVT1vZ2LFTcyRRgi2GkWOnt26RohqBLpimp9tBSiks7oDUMzyeD5VnHIWLG7QkOIq5RKociXBq02AsQ1Jnv08j30ICsHzqMadpq0NlWvtr9Zneq5K0rCqsh9mih_Qn7qM7HMuISYpTicuxB-BFuxwhMXJ4ytJ8j6IH10pTyNsffeKhcLMhLcyw0zIs7bcx3RZM5NX27D_kjHET7Ai5kWImPu1n5",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJhzuS-Kd_hYARIjpFVZB474Y",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9723122681817414178",
+    "vicinity": "2820 Seventh St, Berkeley",
     "website": "http://berkeleyalembic.org/"
   }
 }
