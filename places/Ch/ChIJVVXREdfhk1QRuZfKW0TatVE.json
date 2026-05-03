@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Nature Nurture Farmacy",
+  "place_id": "ChIJVVXREdfhk1QRuZfKW0TatVE",
+  "result": {
+    "formatted_address": "403 North Market Boulevard, Chehalis, WA",
+    "formatted_phone_number": "(360) 996-4387",
+    "geometry": {
+      "location": {
+        "lat": 46.6644173,
+        "lng": -122.9687848
+      }
+    },
+    "name": "Nature Nurture Farmacy",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:30",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJVVXREdfhk1QRuZfKW0TatVE",
+    "website": "http://naturenurturefarmacy.org/"
+  }
+}
