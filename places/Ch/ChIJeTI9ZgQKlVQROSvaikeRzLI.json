@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "underU4men",
+  "place_id": "ChIJeTI9ZgQKlVQROSvaikeRzLI",
+  "result": {
+    "formatted_address": "1013 Southwest Morrison Street, Portland, OR",
+    "formatted_phone_number": "(503) 274-2555",
+    "geometry": {
+      "location": {
+        "lat": 45.5202323,
+        "lng": -122.6824379
+      }
+    },
+    "name": "underU4men",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJeTI9ZgQKlVQROSvaikeRzLI",
+    "website": "https://underu4men.com/"
+  }
+}
