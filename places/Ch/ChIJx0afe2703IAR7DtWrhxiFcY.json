@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Erba San Clemente",
+  "place_id": "ChIJx0afe2703IAR7DtWrhxiFcY",
+  "result": {
+    "formatted_address": "114 Avenida Del Mar, San Clemente, CA",
+    "formatted_phone_number": "(949) 492-2355",
+    "geometry": {
+      "location": {
+        "lat": 33.4270515,
+        "lng": -117.6136708
+      }
+    },
+    "name": "Erba San Clemente",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:30",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJx0afe2703IAR7DtWrhxiFcY"
+  }
+}
