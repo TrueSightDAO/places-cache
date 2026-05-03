@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Secrets Of The Garden",
+  "place_id": "ChIJffOO_QLx7IARahmwtGB7GgE",
+  "result": {
+    "formatted_address": "2050 Parker Street, San Luis Obispo, CA",
+    "formatted_phone_number": "(805) 544-4372",
+    "geometry": {
+      "location": {
+        "lat": 35.2718234,
+        "lng": -120.6687225
+      }
+    },
+    "name": "Secrets Of The Garden",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:30 \u2013 17:00",
+        "Wednesday: 9:30 \u2013 17:00",
+        "Thursday: 9:30 \u2013 17:00",
+        "Friday: 9:30 \u2013 17:00",
+        "Saturday: 9:30 \u2013 17:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJffOO_QLx7IARahmwtGB7GgE",
+    "website": "https://www.organicherbshop.com/"
+  }
+}
