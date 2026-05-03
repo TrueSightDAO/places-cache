@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Raw Market Company LLC",
+  "place_id": "ChIJgfowmL_FmoARS9ruSs4s6_I",
+  "result": {
+    "formatted_address": "3120 O Street, Sacramento, CA",
+    "formatted_phone_number": "(916) 291-0955",
+    "geometry": {
+      "location": {
+        "lat": 38.5668151,
+        "lng": -121.4669156
+      }
+    },
+    "name": "Raw Market Company LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 17:00 \u2013 21:00",
+        "Tuesday: 17:00 \u2013 21:00",
+        "Wednesday: 17:00 \u2013 21:00",
+        "Thursday: 17:00 \u2013 21:00",
+        "Friday: 17:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJgfowmL_FmoARS9ruSs4s6_I",
+    "website": "https://www.massagebook.com/search/CA/Sacramento%20/massage-therapy/RawMarketCompany"
+  }
+}
