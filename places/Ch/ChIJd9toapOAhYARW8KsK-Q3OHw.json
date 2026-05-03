@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Liquid Gold",
+  "place_id": "ChIJd9toapOAhYARW8KsK-Q3OHw",
+  "result": {
+    "formatted_address": "1040 Hyde Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 660-5142",
+    "geometry": {
+      "location": {
+        "lat": 37.790628,
+        "lng": -122.4171816
+      }
+    },
+    "name": "Liquid Gold",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 15:00 \u2013 22:00",
+        "Tuesday: 15:00 \u2013 22:00",
+        "Wednesday: 15:00 \u2013 22:00",
+        "Thursday: 15:00 \u2013 22:00",
+        "Friday: 15:00 \u2013 23:00",
+        "Saturday: 15:00 \u2013 23:00",
+        "Sunday: 14:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJd9toapOAhYARW8KsK-Q3OHw",
+    "website": "https://www.liquidgoldsf.com/"
+  }
+}
