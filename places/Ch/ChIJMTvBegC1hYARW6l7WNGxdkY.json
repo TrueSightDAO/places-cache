@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Three Sisters Apothecary Experience",
+  "place_id": "ChIJMTvBegC1hYARW6l7WNGxdkY",
+  "result": {
+    "formatted_address": "Penngrove, Penngrove, CA",
+    "geometry": {
+      "location": {
+        "lat": 38.2954993,
+        "lng": -122.6652706
+      }
+    },
+    "name": "Three Sisters Apothecary Experience",
+    "place_id": "ChIJMTvBegC1hYARW6l7WNGxdkY"
+  }
+}
