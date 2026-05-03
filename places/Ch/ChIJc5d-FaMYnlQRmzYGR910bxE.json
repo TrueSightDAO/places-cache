@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Greencastle Soap at Maker's Apothecary",
+  "place_id": "ChIJc5d-FaMYnlQRmzYGR910bxE",
+  "result": {
+    "formatted_address": "6401 East Sprague Avenue, Spokane Valley, WA",
+    "formatted_phone_number": "(509) 466-7223",
+    "geometry": {
+      "location": {
+        "lat": 47.6572454,
+        "lng": -117.3179786
+      }
+    },
+    "name": "Greencastle Soap at Maker's Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJc5d-FaMYnlQRmzYGR910bxE",
+    "website": "http://www.greencastlesoap.com/"
+  }
+}
