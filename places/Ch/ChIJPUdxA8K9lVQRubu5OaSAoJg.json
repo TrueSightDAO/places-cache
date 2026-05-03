@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Petal and Thorn Naturopathic Wellness and Apothecary",
+  "place_id": "ChIJPUdxA8K9lVQRubu5OaSAoJg",
+  "result": {
+    "formatted_address": "327 Northeast 5th Avenue, Camas, WA",
+    "formatted_phone_number": "(360) 210-7226",
+    "geometry": {
+      "location": {
+        "lat": 45.586456,
+        "lng": -122.4052786
+      }
+    },
+    "name": "Petal and Thorn Naturopathic Wellness and Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 15:00",
+        "Wednesday: 9:00 \u2013 15:00",
+        "Thursday: 10:00 \u2013 15:00",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJPUdxA8K9lVQRubu5OaSAoJg",
+    "website": "http://www.petalandthornwellness.com/"
+  }
+}
