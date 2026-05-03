@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mystic Soul Ritual Shop",
+  "place_id": "ChIJOZ0PLjdu3IARr4YvbRMiz7E",
+  "result": {
+    "formatted_address": "212 Artist Alley, Oceanside, CA",
+    "formatted_phone_number": "(760) 547-1822",
+    "geometry": {
+      "location": {
+        "lat": 33.1966689,
+        "lng": -117.3796482
+      }
+    },
+    "name": "Mystic Soul Ritual Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 21:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJOZ0PLjdu3IARr4YvbRMiz7E",
+    "website": "http://www.mysticsoulritualshop.com/"
+  }
+}
