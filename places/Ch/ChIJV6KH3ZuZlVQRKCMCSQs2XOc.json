@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Care Rituals, LLC",
+  "place_id": "ChIJV6KH3ZuZlVQRKCMCSQs2XOc",
+  "result": {
+    "formatted_address": "501 Northeast 3rd Street, Gresham, OR",
+    "formatted_phone_number": "(971) 804-5522",
+    "geometry": {
+      "location": {
+        "lat": 45.4998523,
+        "lng": -122.4255537
+      }
+    },
+    "name": "Care Rituals, LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 13:00 \u2013 19:00",
+        "Tuesday: Closed",
+        "Wednesday: 13:00 \u2013 19:00",
+        "Thursday: 13:00 \u2013 19:00",
+        "Friday: 13:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 13:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJV6KH3ZuZlVQRKCMCSQs2XOc",
+    "website": "https://www.carerituals.com/"
+  }
+}
