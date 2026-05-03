@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "If The Broom Fits",
+  "place_id": "ChIJVewJVicNlVQRnV4sOllbzKk",
+  "result": {
+    "formatted_address": "4145 Southwest 109th Avenue, Beaverton, OR",
+    "formatted_phone_number": "(971) 777-1636",
+    "geometry": {
+      "location": {
+        "lat": 45.4901156,
+        "lng": -122.789139
+      }
+    },
+    "name": "If The Broom Fits",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJVewJVicNlVQRnV4sOllbzKk",
+    "website": "https://www.facebook.com/ifthebroomfits/"
+  }
+}
