@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "DragonMarsh Apothecary & Teas",
+  "place_id": "ChIJdRyW9u-x3IARVTnAUvUf0Ws",
+  "result": {
+    "formatted_address": "3643 University Avenue, Riverside, CA",
+    "formatted_phone_number": "(951) 276-1116",
+    "geometry": {
+      "location": {
+        "lat": 33.981788,
+        "lng": -117.373697
+      }
+    },
+    "name": "DragonMarsh Apothecary & Teas",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJdRyW9u-x3IARVTnAUvUf0Ws",
+    "website": "http://www.dragonmarsh.com/"
+  }
+}
