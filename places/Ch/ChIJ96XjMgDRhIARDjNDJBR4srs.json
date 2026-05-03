@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Wild Grove Collective",
+  "place_id": "ChIJ96XjMgDRhIARDjNDJBR4srs",
+  "result": {
+    "formatted_address": "510 Main Street, Woodland, CA",
+    "formatted_phone_number": "(530) 637-3733",
+    "geometry": {
+      "location": {
+        "lat": 38.6771917,
+        "lng": -121.7743245
+      }
+    },
+    "name": "The Wild Grove Collective",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ96XjMgDRhIARDjNDJBR4srs",
+    "website": "http://thewildgrovecollective.com/"
+  }
+}
