@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bath & Body Works",
+  "place_id": "ChIJIWqvvFr36YARZXrYqhxhAFo",
+  "result": {
+    "formatted_address": "5701 Outlets at Tejon Parkway, Arvin, CA",
+    "formatted_phone_number": "(661) 282-2274",
+    "geometry": {
+      "location": {
+        "lat": 34.985241,
+        "lng": -118.9407161
+      }
+    },
+    "name": "Bath & Body Works",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 20:00",
+        "Tuesday: 10:00 \u2013 20:00",
+        "Wednesday: 10:00 \u2013 20:00",
+        "Thursday: 10:00 \u2013 20:00",
+        "Friday: 10:00 \u2013 20:00",
+        "Saturday: 10:00 \u2013 20:00",
+        "Sunday: 10:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJIWqvvFr36YARZXrYqhxhAFo",
+    "website": "https://www.bathandbodyworks.com/?cm_mmc=local_BBW02457"
+  }
+}
