@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ritual House Acupuncture & Apothecary",
+  "place_id": "ChIJlQt3tYTrwoARZAz7J0dnu_Q",
+  "result": {
+    "formatted_address": "2043 Montrose Avenue, La Crescenta-Montrose, CA",
+    "formatted_phone_number": "(818) 621-3727",
+    "geometry": {
+      "location": {
+        "lat": 34.2058749,
+        "lng": -118.2245658
+      }
+    },
+    "name": "Ritual House Acupuncture & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJlQt3tYTrwoARZAz7J0dnu_Q",
+    "website": "https://ritualhousela.com/facialrejuvenation"
+  }
+}
