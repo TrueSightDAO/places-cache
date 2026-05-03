@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Unique Shop",
+  "place_id": "ChIJrwHh3Tf5jYARDrFEFkhQcYI",
+  "result": {
+    "formatted_address": "345 Main Street, Salinas, CA",
+    "formatted_phone_number": "(831) 208-6031",
+    "geometry": {
+      "location": {
+        "lat": 36.6726556,
+        "lng": -121.6542785
+      }
+    },
+    "name": "Unique Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 13:00 \u2013 18:00",
+        "Thursday: 13:00 \u2013 18:00",
+        "Friday: 13:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: 10:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJrwHh3Tf5jYARDrFEFkhQcYI"
+  }
+}
