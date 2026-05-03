@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kneaders Bakery and Cafe",
+  "place_id": "ChIJyZ6fJABVrlQRfz0jZZGAFFM",
+  "result": {
+    "formatted_address": "1245 West Chinden Boulevard, Meridian, ID",
+    "formatted_phone_number": "(208) 884-4600",
+    "geometry": {
+      "location": {
+        "lat": 43.6623199,
+        "lng": -116.4094172
+      }
+    },
+    "name": "Kneaders Bakery and Cafe",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 21:00",
+        "Tuesday: 7:00 \u2013 21:00",
+        "Wednesday: 7:00 \u2013 21:00",
+        "Thursday: 7:00 \u2013 21:00",
+        "Friday: 7:00 \u2013 22:00",
+        "Saturday: 7:00 \u2013 22:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJyZ6fJABVrlQRfz0jZZGAFFM",
+    "website": "https://www.kneaders.com/"
+  }
+}
