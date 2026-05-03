@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lori's Natural Foods Center",
+  "place_id": "ChIJ-2DUvwRL0YkRqft-FgftdKc",
+  "result": {
+    "formatted_address": "900 Jefferson Road, Rochester, NY",
+    "formatted_phone_number": "(585) 424-2323",
+    "geometry": {
+      "location": {
+        "lat": 43.0883007,
+        "lng": -77.6148095
+      }
+    },
+    "name": "Lori's Natural Foods Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: 9:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJ-2DUvwRL0YkRqft-FgftdKc",
+    "website": "http://www.lorisnatural.com/"
+  }
+}
