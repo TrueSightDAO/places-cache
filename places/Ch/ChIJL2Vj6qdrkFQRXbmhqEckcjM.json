@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Archaic Apothecary",
+  "place_id": "ChIJL2Vj6qdrkFQRXbmhqEckcjM",
+  "result": {
+    "formatted_address": "2509 East Cherry Street, Seattle, WA",
+    "formatted_phone_number": "(206) 485-4658",
+    "geometry": {
+      "location": {
+        "lat": 47.6078358,
+        "lng": -122.2994934
+      }
+    },
+    "name": "Archaic Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 16:00",
+        "Tuesday: 7:00 \u2013 16:00",
+        "Wednesday: 7:00 \u2013 16:00",
+        "Thursday: 7:00 \u2013 16:00",
+        "Friday: 7:00 \u2013 16:00",
+        "Saturday: 7:00 \u2013 16:00",
+        "Sunday: 8:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJL2Vj6qdrkFQRXbmhqEckcjM",
+    "website": "http://www.archaicapothecary.com/"
+  }
+}
