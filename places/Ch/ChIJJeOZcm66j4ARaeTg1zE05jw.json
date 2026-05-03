@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "7 Rays Holistic Center",
+  "place_id": "ChIJJeOZcm66j4ARaeTg1zE05jw",
+  "result": {
+    "formatted_address": "3035 El Camino Real, Palo Alto, CA",
+    "formatted_phone_number": "(650) 798-4168",
+    "geometry": {
+      "location": {
+        "lat": 37.421713,
+        "lng": -122.1398505
+      }
+    },
+    "name": "7 Rays Holistic Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:30",
+        "Tuesday: 9:00 \u2013 17:30",
+        "Wednesday: 9:00 \u2013 17:30",
+        "Thursday: 9:00 \u2013 17:30",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJJeOZcm66j4ARaeTg1zE05jw",
+    "website": "http://www.7raysholisticcenter.com/"
+  }
+}
