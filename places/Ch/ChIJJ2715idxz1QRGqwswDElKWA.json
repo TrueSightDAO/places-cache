@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Petro Travel Center",
+  "place_id": "ChIJJ2715idxz1QRGqwswDElKWA",
+  "result": {
+    "formatted_address": "3730 Fern Valley Road, Phoenix, OR",
+    "formatted_phone_number": "(541) 535-3372",
+    "geometry": {
+      "location": {
+        "lat": 42.2804732,
+        "lng": -122.8119059
+      }
+    },
+    "name": "Petro Travel Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJJ2715idxz1QRGqwswDElKWA",
+    "website": "https://www.ta-petro.com/location/or/petro-phoenix"
+  }
+}
