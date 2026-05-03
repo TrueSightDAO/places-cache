@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "rosalie Apothecary",
+  "place_id": "ChIJ9Z8y8PWlIIYRF7jb1-MjImo",
+  "result": {
+    "formatted_address": "3201 Toulouse Street, New Orleans, LA",
+    "formatted_phone_number": "(504) 488-4425",
+    "geometry": {
+      "location": {
+        "lat": 29.9733513,
+        "lng": -90.0893872
+      }
+    },
+    "name": "rosalie Apothecary",
+    "place_id": "ChIJ9Z8y8PWlIIYRF7jb1-MjImo",
+    "website": "https://rosaliebotanicals.com/"
+  }
+}
