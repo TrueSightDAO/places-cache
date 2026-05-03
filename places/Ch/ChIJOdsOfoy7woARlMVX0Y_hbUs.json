@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kiehl's Since 1851",
+  "place_id": "ChIJOdsOfoy7woARlMVX0Y_hbUs",
+  "result": {
+    "formatted_address": "10250 Santa Monica Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(310) 277-0461",
+    "geometry": {
+      "location": {
+        "lat": 34.0593649,
+        "lng": -118.4186275
+      }
+    },
+    "name": "Kiehl's Since 1851",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 21:00",
+        "Tuesday: 10:00 \u2013 21:00",
+        "Wednesday: 10:00 \u2013 21:00",
+        "Thursday: 10:00 \u2013 21:00",
+        "Friday: 10:00 \u2013 22:00",
+        "Saturday: 10:00 \u2013 22:00",
+        "Sunday: 11:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJOdsOfoy7woARlMVX0Y_hbUs",
+    "website": "http://www.kiehls.com/?y_source=1_NjM0MjAwOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ=="
+  }
+}
