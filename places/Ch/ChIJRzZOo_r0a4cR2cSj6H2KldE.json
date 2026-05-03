@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Little Herbal Apothecary",
+  "place_id": "ChIJRzZOo_r0a4cR2cSj6H2KldE",
+  "result": {
+    "formatted_address": "210 South Public Road, Lafayette, CO",
+    "formatted_phone_number": "(303) 666-6951",
+    "geometry": {
+      "location": {
+        "lat": 39.9964394,
+        "lng": -105.0901981
+      }
+    },
+    "name": "Little Herbal Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJRzZOo_r0a4cR2cSj6H2KldE",
+    "website": "https://thelittleherbalapothecary.com/"
+  }
+}
