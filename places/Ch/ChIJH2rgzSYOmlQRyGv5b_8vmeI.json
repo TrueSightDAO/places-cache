@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Roslyn Herbs",
+  "place_id": "ChIJH2rgzSYOmlQRyGv5b_8vmeI",
+  "result": {
+    "formatted_address": "600 South 1st Street, Roslyn, WA",
+    "formatted_phone_number": "(509) 649-5432",
+    "geometry": {
+      "location": {
+        "lat": 47.2170161,
+        "lng": -120.9882396
+      }
+    },
+    "name": "Roslyn Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 20:00",
+        "Tuesday: 10:00 \u2013 20:00",
+        "Wednesday: 10:00 \u2013 20:00",
+        "Thursday: 10:00 \u2013 20:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 10:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJH2rgzSYOmlQRyGv5b_8vmeI",
+    "website": "http://roslynherbs.com/"
+  }
+}
