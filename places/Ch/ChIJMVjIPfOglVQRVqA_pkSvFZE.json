@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Roosevelt's Terrariums",
+  "place_id": "ChIJMVjIPfOglVQRVqA_pkSvFZE",
+  "result": {
+    "formatted_address": "1510 Southeast 44th Avenue, Portland, OR",
+    "formatted_phone_number": "(503) 734-9996",
+    "geometry": {
+      "location": {
+        "lat": 45.5119339,
+        "lng": -122.6170488
+      }
+    },
+    "name": "Roosevelt's Terrariums",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJMVjIPfOglVQRVqA_pkSvFZE",
+    "website": "http://www.rooseveltspdx.com/"
+  }
+}
