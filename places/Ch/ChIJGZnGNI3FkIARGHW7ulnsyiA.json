@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mountain Wellness",
+  "place_id": "ChIJGZnGNI3FkIARGHW7ulnsyiA",
+  "result": {
+    "formatted_address": "North Stewart Street, Sonora, CA",
+    "formatted_phone_number": "(209) 454-0010",
+    "geometry": {
+      "location": {
+        "lat": 37.9890155,
+        "lng": -120.3841468
+      }
+    },
+    "name": "Mountain Wellness",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJGZnGNI3FkIARGHW7ulnsyiA",
+    "website": "https://mountain-wellness209.square.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4CGNhbGxzaXRlAjE1AAGnhKBiINHP0_HXAWiJLuP5Tg1vQ1HhS0uIGlGsCnIFZfiXo5iJW853KGMQqrw_aem_rqdAUFETZz4oFyUOkgo_DA"
+  }
+}
