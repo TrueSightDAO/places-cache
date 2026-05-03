@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Garden Wedding Chapel",
+  "place_id": "ChIJZ45bhJ3h7IARPtWGgtBfAWU",
+  "result": {
+    "formatted_address": "845 Main Street, Morro Bay, CA",
+    "formatted_phone_number": "(805) 772-2880",
+    "geometry": {
+      "location": {
+        "lat": 35.366405,
+        "lng": -120.8502439
+      }
+    },
+    "name": "Garden Wedding Chapel",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:30",
+        "Tuesday: 10:00 \u2013 17:30",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: 10:00 \u2013 17:30",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJZ45bhJ3h7IARPtWGgtBfAWU",
+    "website": "http://www.coalescebookstore.com/"
+  }
+}
