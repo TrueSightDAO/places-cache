@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Third Eye - Yoga & Meditation Lounge",
+  "place_id": "ChIJ_9XhfJi1RIYRSocoNgNVSUA",
+  "result": {
+    "formatted_address": "1701 Toomey Road, Austin, TX",
+    "formatted_phone_number": "6513987027",
+    "geometry": {
+      "location": {
+        "lat": 30.2644519,
+        "lng": -97.7616508
+      }
+    },
+    "name": "Third Eye - Yoga & Meditation Lounge",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:30",
+        "Tuesday: 8:00 \u2013 21:30",
+        "Wednesday: 8:00 \u2013 21:30",
+        "Thursday: 8:00 \u2013 21:30",
+        "Friday: 8:00 \u2013 22:00",
+        "Saturday: 8:00 \u2013 22:00",
+        "Sunday: 8:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJ_9XhfJi1RIYRSocoNgNVSUA",
+    "website": "https://flowyogatx.com/locations/austin/3rd-eye/"
+  }
+}
