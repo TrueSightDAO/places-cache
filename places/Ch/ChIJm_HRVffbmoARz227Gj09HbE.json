@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Token Beauty Salon + Apothecary",
+  "place_id": "ChIJm_HRVffbmoARz227Gj09HbE",
+  "result": {
+    "formatted_address": "1715 Professional Drive, Sacramento, CA",
+    "formatted_phone_number": "(916) 891-5720",
+    "geometry": {
+      "location": {
+        "lat": 38.5965993,
+        "lng": -121.3874457
+      }
+    },
+    "name": "Token Beauty Salon + Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:30",
+        "Wednesday: 10:00 \u2013 18:30",
+        "Thursday: 10:00 \u2013 18:30",
+        "Friday: 10:00 \u2013 18:30",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJm_HRVffbmoARz227Gj09HbE",
+    "website": "http://www.token-beauty.com/"
+  }
+}
