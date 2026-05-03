@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Gather Natural Market",
+  "place_id": "ChIJV3NplP7D7IARZ5XEkYYOsio",
+  "result": {
+    "formatted_address": "4825 El Camino Real, Atascadero, CA",
+    "formatted_phone_number": "(805) 460-7400",
+    "geometry": {
+      "location": {
+        "lat": 35.4961651,
+        "lng": -120.6794698
+      }
+    },
+    "name": "Gather Natural Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 19:00",
+        "Tuesday: 8:00 \u2013 19:00",
+        "Wednesday: 8:00 \u2013 19:00",
+        "Thursday: 8:00 \u2013 19:00",
+        "Friday: 8:00 \u2013 19:00",
+        "Saturday: 8:00 \u2013 19:00",
+        "Sunday: 8:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJV3NplP7D7IARZ5XEkYYOsio",
+    "website": "http://gathernaturalmarket.com/"
+  }
+}
