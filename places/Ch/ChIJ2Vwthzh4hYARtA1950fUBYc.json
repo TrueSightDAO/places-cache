@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "William's Natural Foods",
+  "place_id": "ChIJ2Vwthzh4hYARtA1950fUBYc",
+  "result": {
+    "formatted_address": "12249 San Pablo Avenue, Richmond, CA",
+    "formatted_phone_number": "(510) 232-1911",
+    "geometry": {
+      "location": {
+        "lat": 37.9346965,
+        "lng": -122.325059
+      }
+    },
+    "name": "William's Natural Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ2Vwthzh4hYARtA1950fUBYc",
+    "website": "https://www.williamsnaturalfoods.com/"
+  }
+}
