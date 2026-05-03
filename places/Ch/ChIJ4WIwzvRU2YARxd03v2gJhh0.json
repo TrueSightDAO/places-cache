@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Datura",
+  "place_id": "ChIJ4WIwzvRU2YARxd03v2gJhh0",
+  "result": {
+    "formatted_address": "3552 30th Street, San Diego, CA",
+    "formatted_phone_number": "(619) 432-5681",
+    "geometry": {
+      "location": {
+        "lat": 32.7433674,
+        "lng": -117.1303588
+      }
+    },
+    "name": "Datura",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 18:00",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ4WIwzvRU2YARxd03v2gJhh0",
+    "website": "https://earthandbone.com/"
+  }
+}
