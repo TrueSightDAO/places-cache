@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Apothecary by the Moon",
+  "place_id": "ChIJ04ztRSg9hYARL8L2-N4NEf0",
+  "result": {
+    "formatted_address": "685 White Oak Lane, Vacaville, CA",
+    "formatted_phone_number": "(707) 416-9719",
+    "geometry": {
+      "location": {
+        "lat": 38.3463426,
+        "lng": -121.943778
+      }
+    },
+    "name": "Apothecary by the Moon",
+    "place_id": "ChIJ04ztRSg9hYARL8L2-N4NEf0",
+    "website": "http://www.apothecarybythemoon.com/"
+  }
+}
