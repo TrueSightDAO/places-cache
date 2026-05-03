@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Hail Mary Barber and Apothecary",
+  "place_id": "ChIJHf_atbhRhIAR_gpHjqL55WE",
+  "result": {
+    "formatted_address": "1225 Main Street, St. Helena, CA",
+    "formatted_phone_number": "(425) 260-2463",
+    "geometry": {
+      "location": {
+        "lat": 38.5039902,
+        "lng": -122.4685838
+      }
+    },
+    "name": "Hail Mary Barber and Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: Closed",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJHf_atbhRhIAR_gpHjqL55WE",
+    "website": "http://hailmarybarber.com/"
+  }
+}
