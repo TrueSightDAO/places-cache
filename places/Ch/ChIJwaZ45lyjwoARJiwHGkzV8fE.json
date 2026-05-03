@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Be-L'evated Holistic Wellness and Apothecary",
+  "place_id": "ChIJwaZ45lyjwoARJiwHGkzV8fE",
+  "result": {
+    "formatted_address": "\ue0c89112 S Western Avenue 222 Main St Venice, Ca 730 Arizona Ave Santa Monica, Los Angeles, CA 90047, United States, Los Angeles, CA",
+    "formatted_phone_number": "(661) 916-0606",
+    "geometry": {
+      "location": {
+        "lat": 34.020465,
+        "lng": -118.4928982
+      }
+    },
+    "name": "Be-L'evated Holistic Wellness and Apothecary",
+    "place_id": "ChIJwaZ45lyjwoARJiwHGkzV8fE",
+    "website": "https://belevatedllc.com/"
+  }
+}
