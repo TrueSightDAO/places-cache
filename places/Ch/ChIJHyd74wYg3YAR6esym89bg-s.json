@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "TReSs Apothecary + Salon",
+  "place_id": "ChIJHyd74wYg3YAR6esym89bg-s",
+  "result": {
+    "formatted_address": "3404 Via Oporto, Newport Beach, CA",
+    "formatted_phone_number": "(949) 877-0112",
+    "geometry": {
+      "location": {
+        "lat": 33.6183104,
+        "lng": -117.9280749
+      }
+    },
+    "name": "TReSs Apothecary + Salon",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJHyd74wYg3YAR6esym89bg-s",
+    "website": "http://tressapothecary.com/"
+  }
+}
