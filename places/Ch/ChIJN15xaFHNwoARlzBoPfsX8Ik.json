@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Urban Apothecary",
+  "place_id": "ChIJN15xaFHNwoARlzBoPfsX8Ik",
+  "result": {
+    "formatted_address": "7017 Myrrh Street, Paramount, CA",
+    "formatted_phone_number": "(323) 949-0533",
+    "geometry": {
+      "location": {
+        "lat": 33.892895,
+        "lng": -118.176864
+      }
+    },
+    "name": "Urban Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJN15xaFHNwoARlzBoPfsX8Ik"
+  }
+}
