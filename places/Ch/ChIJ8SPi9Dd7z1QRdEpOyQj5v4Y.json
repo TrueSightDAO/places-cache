@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Noohra Sacred Living",
+  "place_id": "ChIJ8SPi9Dd7z1QRdEpOyQj5v4Y",
+  "result": {
+    "formatted_address": "26 Hawthorne Street, Medford, OR",
+    "geometry": {
+      "location": {
+        "lat": 42.3288945,
+        "lng": -122.8669209
+      }
+    },
+    "name": "Noohra Sacred Living",
+    "place_id": "ChIJ8SPi9Dd7z1QRdEpOyQj5v4Y",
+    "website": "https://noohrasacredliving.offeringtree.com/"
+  }
+}
