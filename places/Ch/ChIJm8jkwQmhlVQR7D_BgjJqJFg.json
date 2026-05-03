@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Primrose Apothecary",
+  "place_id": "ChIJm8jkwQmhlVQR7D_BgjJqJFg",
+  "result": {
+    "formatted_address": "81 Southeast Yamhill Street, Portland, OR",
+    "formatted_phone_number": "(971) 258-8022",
+    "geometry": {
+      "location": {
+        "lat": 45.5160316,
+        "lng": -122.6650844
+      }
+    },
+    "name": "Primrose Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJm8jkwQmhlVQR7D_BgjJqJFg",
+    "website": "https://primroseapothecary.com/"
+  }
+}
