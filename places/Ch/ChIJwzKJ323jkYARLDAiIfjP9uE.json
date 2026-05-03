@@ -1,0 +1,230 @@
+{
+  "fetched_at": "2026-05-03T05:37:17Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "name": "Celestial Trading",
+  "place_id": "ChIJwzKJ323jkYARLDAiIfjP9uE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "85",
+        "short_name": "85",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "5th Street",
+        "short_name": "5th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Gilroy",
+        "short_name": "Gilroy",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95020",
+        "short_name": "95020",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "85 5th St, Gilroy, CA 95020, USA",
+    "formatted_phone_number": "(408) 767-2252",
+    "geometry": {
+      "location": {
+        "lat": 37.0082312,
+        "lng": -121.5704949
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.0095334302915,
+          "lng": -121.5690467197085
+        },
+        "southwest": {
+          "lat": 37.0068354697085,
+          "lng": -121.5717446802915
+        }
+      }
+    },
+    "name": "Celestial Trading",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108403262427183091645\">Paulo Paredes</a>"
+        ],
+        "photo_reference": "Ab43m-uv-acUi_RdSEZiAQzJF7qbz8hoS4wWFb4xYvPWGOypbA1GxKAMtTKdPbVGZl4sz0Z9G_2XvCqhKYzZ69V_wpJ6jqpQpyDuDaDndMYEGfB3-Na2qslMdJpLt-i7CiurQIampWfKie38cMRH9Ka0QjqmOlxJ2dcSJ-g4qOyO87mL70v_byzLVP3Ul7bDtdRj-SSbQxi_EhkGdwXJFvhXvIaYOfe62OnQZIaZciMcD6rRV2YsVMveS25M3GF6Ts9ldAYds_73POSveC7wuHaFT7shMJC6HKkZymvfqCx09x5-PpoFzV-jzjxuvgrDIBPioFyeUFSh5MiEeqvQrnu8uKeR5Lr_BqczW_pFyvOo5806r_B0XX5fXzK6FQy8D8faJQKALVuK0DyvCETLl7ZH1l2Ks_O7yws0LD8BOaqH7qjrE18",
+        "width": 1512
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108403262427183091645\">Paulo Paredes</a>"
+        ],
+        "photo_reference": "Ab43m-sbbPBSOScln_113XM0Ap2i9dVxZYmpsZrw8cD4VysD6NTwMewM2xnAtV9jB_bmEFfMzJm-2teJRU7ymlT3iL2LrC4Tbh23OAksAG7jvos-wDXpoJKrTigqlVsYgvd-sTyt4QP08qznnCTOKloYGQX8s81Vc1ZJfzJXepGBjwYQ3HW6lz8YEhIUjbk5o2kXLV8SYo9CxtQnx_7ZnHmqGYp1WuMbiYd59tB7-vZHMQv1fD8ys5-GvUIvTPgbc2EVeAcyQ0Sgue9nS1ZliMuzyJ9Zq1jyIqkB-Wk5qB-0f9YiZdADVJNLCfOmUuujLx8M29XsasED5aXwCQYpWdKXOxW6WZCS_1FuNgktI5-au-JArxCgRsafNSNyAOLZ0S4PS6SEP-RBHGh8Q8Ws_5uvLlsjFHDC2QU6ZP4XyCjne6JRCQ",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102829498329970088410\">Sherri Dodd</a>"
+        ],
+        "photo_reference": "Ab43m-saawhLhSxiMPEFDX4k9MV3jBSBHbuOrEe0BDHQ0fgMjYinhELK2gBiliYV8geS2ajJjeFdowplHwELx06lPR1k4z874YA8rHdTq08nmfL0_d0aTJD3sE8sHO4aW6wyUBBaHaZ0NlbQjOXcBzKJZYL-vYb4c8qG57rjokSit9zwsSpA_R0nQ0YdUSdjcPH7jZnLlwn_lNXL8UIPVnOGdfbaZIxEv69axfTltwEwskXILJxzkEvGrPZ3gzVYMUA4iJdKacXBqN7AP1UUVMw2_RdXRdN9NZOl5Lz_gz2JHLZ4zRrshnh6gP6z9hFlYUfJsGrH5z3aqx22_8YXnZySSg3VvaDOZoBmXJjiCZ8TTHDbHupOyHcrMA7PUTWGq0ZCFVNOEN9Rm04tTTjnTwMLgxpdQ-ECvbZcVsxtHBw3P172awc",
+        "width": 3024
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108403262427183091645\">Paulo Paredes</a>"
+        ],
+        "photo_reference": "Ab43m-sypNIN0Ui1hJt96-ZpAENeXxdZMbhpElsQbZPpgvHNUVH_x-SoyQQ5leyQHU0A43M5VKDcaU13sbpbeMGg3WgIZttUiZ_utE2xHBU9UcjgGVxwI1T0VN5twEItqZvfKf4teCFAHRol_Php0drVu1GFxBdvg7CqynEiOEEGNBkdHlFNk-9jCQ112TVV8kMYkKxBbfGj_HAYW0L6JE2LqtfwNS4r3m7HpVbZ97xW4vNTAbpk4CwTRWYI0ZzvZRKluX87phSjoqL7NFpT57HfpDZPUOyFZ9vDNx2oIKjHr7h-nBGd3l95IH4OH2u2vdVf6yE9sRu_L_ngmtQ5DHvx6jAJmmDNRAEKKtMmcl_XSQ3SQT-gVKcSBC-wHo1bgXLzfcWm6615VN0wPl13MTi2kvhhx6LTJ9H4E-dR4Anz1FaLAA",
+        "width": 1512
+      },
+      {
+        "height": 1144,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107237537929269448149\">Celestial Trading</a>"
+        ],
+        "photo_reference": "Ab43m-uEcex8J4ifVA_upsrnrKcEfYf9NQjxVjHBYs_ynMUqgrV3-NxcQuCgW5JEBryU3GzwoO6S3iYDCsaszuZOiWvEixQfsJAWtec3B-4jXnqVr42JI7dpodbY_5etwSankoaoy26SeXhQZTYyd-0Mr-VMMme_6eRXN0Epz4LqvaDzPxRNJ0kvPuhLGcQa7LIU5QVJpye0Hb7EtnoLMhq-fOmNYnSToHlcn9b5XS_8PFA1oiZwzoms4D6_egSACaDcIIwFL5rr08tU_JSa4xH06rprz7XbKYvzQTY4MYUbW1ahXw",
+        "width": 2328
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102391578775630916952\">Celestial Trading</a>"
+        ],
+        "photo_reference": "Ab43m-tfM1ukFwTH4GdDVT_TYdTqDRuSZcQTJ_nPZkke2nAOJc9nCpua0SilHFWgKLZQKJkELO_-n-hXYik3oh_dFuveHAuQapJVW1v61ODRFIsQiP08Sm2C47WgqR2g8a0LQ4oaL6TyzoFJTz4G8lUgvdi5jIfL5k5EA70ZvrKPD-ayNS6vgzKBJH37y4fOa1iJeJW6K-TuTXcyuzKSVI3VeZN6J-qTg-eatTnfGTr0QNIfF0nVdCXDmuj8vwTIXV4lkCwyP-lMPOsTCZrCTjvAFZNncxeg1k5bq0zDBbhwSqagkg",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJwzKJ323jkYARLDAiIfjP9uE",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16282430167419334700",
+    "vicinity": "85 5th St, Gilroy",
+    "website": "http://www.celestialtrading.us/"
+  }
+}
