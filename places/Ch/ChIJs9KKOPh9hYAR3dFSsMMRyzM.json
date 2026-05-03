@@ -1,40 +1,289 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:20Z",
+  "fetched_at": "2026-05-03T07:06:53Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Lakshmi Crystals & Gifts",
+  "name": "The Happy Heart",
   "place_id": "ChIJs9KKOPh9hYAR3dFSsMMRyzM",
   "result": {
-    "formatted_address": "3301 Grand Ave, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "3812",
+        "short_name": "3812",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Piedmont Avenue",
+        "short_name": "Piedmont Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Piedmont Avenue",
+        "short_name": "Piedmont Avenue",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94611",
+        "short_name": "94611",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5354",
+        "short_name": "5354",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3812 Piedmont Ave, Oakland, CA 94611, USA",
     "formatted_phone_number": "(510) 655-1668",
     "geometry": {
       "location": {
-        "lat": 37.8126902,
-        "lng": -122.2474126
+        "lat": 37.823998,
+        "lng": -122.25543
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8253869302915,
+          "lng": -122.2541175697085
+        },
+        "southwest": {
+          "lat": 37.8226889697085,
+          "lng": -122.2568155302915
+        }
       }
     },
-    "name": "Lakshmi Crystals & Gifts",
+    "name": "The Happy Heart",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 17:30",
-        "Tuesday: 12:00 \u2013 17:30",
-        "Wednesday: 12:00 \u2013 17:30",
-        "Thursday: 12:00 \u2013 17:30",
-        "Friday: 12:00 \u2013 17:30",
-        "Saturday: 13:00 \u2013 17:30",
-        "Sunday: 13:00 \u2013 17:30"
+        "Monday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 1:00\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 1:00\u2009\u2013\u20095:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2905,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-sJdB3_w2om89BJivphJ0V92g7kkJbtJNeCJ-btX7nuTK8J7hhymxqUJVgh3peSS4_ibyjmTRvuoCcceqBI3ZYY7B1KV0q02aSF5wjbbcA6IPWgJ0uxAfsh1pd12DlDBXguKhfO8IkNu8QSqVFlDoiSgcDh1xAuPFRlZq-x5c_7_EhI_EbS_M93GjY5-983ThNOZwLVSKlruq8lQiuWZ2W_jFgRrwfdG6egg30tT5Qioldgf9LEZC7FT8yXJ7UbmS_mvoBmCnUSUNXW2qyjVKSwxz2kMvQoylfce_VZePGoBlwGlhICKFa2YBp_yLCwJ85WjJj7ih0PUQsYyf9npAk1Jd0_jGMPqu9jAcl_EhSvMPzbcvqR0UVc4c7EV0dGV5YWsRt5fDJrFHpJKDhuMFDXAHtwydn1einzA-Nn6Y0",
+        "width": 3874
+      },
+      {
+        "height": 2820,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-uZ3qNJXB1MGEwNCtHUK_RPhrCkINcpHa_PCZ34k92zkhK_pTwIIxLXy16w5Y_dLb316YgI_rhhvfe1UKKg0F8Z71XqpNhlV-uHXWHZlUjSwOjRSHp0JE2jXprneVP0iCgGqHfeCTsFSMpqWG9IH0bpzuMwFEnmZ1pK-FjPrW2Tv39KW6R8kdRX1mRq1ncLbKtIIvOJF9UrhD9180Sf1IbKIfbzftqEPY1utaGqRXHLObCeaJ6Ps2f_QovMnBQS-XBjHC4t29ISwaTTxWgb_ntzVc-AMyCGY_7CkKlPK_4RrAjkuHAyMuGNEwNl7IjT9F_tcZyvZUTfV2sLDq8BbGSNwHqZ0peUEXfEb9QB8ql2l7XL5v4ORk5fjPMUVEx-mvV2ezGawP9X6ySUqHwkQE32XKqADQ-yMB1lf17d7lLV-9c",
+        "width": 3805
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-usaGGJvILU7xgSDkcb8YB0npBsI_gfrtoZjR8BYC_yni3EeD0p6su6u-GvVVfEOwUx1U2a7ZmdUQET4T2ds6IesBT1o0KJc4nFWWK4BTJ-9zceMnrUvysHwqsxKF2dBEIkXH1zNeHj2HLUJNw7z7NVJ_ZOZs0UE-aJRUxhO-XmfMxNJe25PZLrznywxK-OjVrBujrz4K10ZgQPg_X5NYZluBi3pAm3bjQDt88SuEHnP9lYk9CAtNaboTHOzBBq2fxLrZ8mvz1YpKy4O2_dTBqB8QHJQfcCqZ1mBoT6ZKNfnsNt_Tr33rBKdcS10blLidhEtUwXTCeKcm6OkgqcesK3geeBEhaOi5GXumAHRZ8QR7DMya8n1VoAEG36KwY0E6qG_GTKN__G2Xcxqu6gj1CLmy39h5L2uwffcq8eGIDY7A",
+        "width": 4032
+      },
+      {
+        "height": 2900,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-uTB5LPbs-5MwpLHoptmD0gSpoY7DCalh2V_xuPTWlijnQtz_YjRcz_VTmafesV5vTZOespSJsnckKxCwKOd64hG3c_Nz_gmE3bnHm0Ef2pD4QhlbLKlIEo8YozOxTNEVzA7Ff5uNqchlzUWij6K49bQ4vRWxmGh8rdED8V5WsgaYmPCY-0lOjLU11elXTrBmtifjw27RURZYF0QE3JQEesFIThhWpfynIucTelXFp-kU-8QHlxtpIU8id-04Odyhce-bOIldo0mSLBPK4lHMGzjBHOZuZp42sba36yhELthgWN7SC5gDFgL8KQQPKPmKl-KnAoGP57h6-8171tRYDEPuH4J_7f8aFd0bwuMq6HIRxNDkwc1dgc3e2SOnFDiewnqruXxrRfCC1TZhLAV_rOjREYfAYCE7chC4QTgLdC-A",
+        "width": 3634
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115906102955043012138\">MARK PLOTT</a>"
+        ],
+        "photo_reference": "Ab43m-tsYoOnkbFTK76CIlmMn386RaN6PkvdKcBrwB1-AoFqhD4SchYY_bLNh_ndRluCiCGDzj_u2nV61sfCV8vyDhw0xZRLvgDtWJsSVrmw4xLcY-HKWKyapaRwIF3i_jQ2YwqoG8RmGCi1L_k1VUj2pYZRj1SOQtUNLd-mkekKzGa58DUae65TrBEsPp1xLJanDx2dmEPT5FNhblsi1p8J1TJjzYWfbOaMFGGGOay8_zGTbT0xjL0rugYxkRa7YV5aoULnLspAfqKE0ZuNWSxG0WsxUmQMWmCgcGy41GOSmpdEvsp1h-q8CKAC2wYHovty4DSigxPUWDZychl4Z2BTMMYD-c47WXe3G0JYAHvGbNLkHcZ878Y6jQ8OhRiCqpMd1QCxDqpBIyvw6mo5Yaz6KzFeYUUgj23kkawjfPeReoJY7VMd",
+        "width": 1944
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109571503838514519800\">Kristina</a>"
+        ],
+        "photo_reference": "Ab43m-sIq2-XYt7_hqkKMBrxZ8LSTRiR1JRN15DgiXWD4CDd9qAjcxFw7qpGzoB-Clx9ijq5Pk6ZMJIdE2pbr6rzCgFS-HItJEhpm2lgKvhYtO1VHzruhsToxvWC8rFJY8dR3I_yOwbzees6EvIG83k3MSvINxcJ1_LsQ0oIPWgsXoKHAoF7q1mNx3VUqMmFanKthPxLPWMzr_r5fmYtyWpYYLOVOeEQ6KTvDv_tAOLPoLQY1aV4BFXg7Yp_lIC5ZKqyCaKL_9O8Mk-p-s-nWQaMjvol4RVOAjSrMyl-eB-KcwU_MqRiT3GJh-aww7avF-2MWPThxl3Kyi6pr9y6nwEnZYkiQ7PfdhzGToisaFZbASVBypZZeXETsOMw2P5zFR2ijITWD72UXWwvF2FK3ygUC4WSvLpU5-QgkjiOfxyoUe-jQA",
+        "width": 3024
+      },
+      {
+        "height": 1298,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-vAtZD2IZCSHRodmfduLTvwk7GuyCGu84HU9nFlIB36lEC_HFUc-3uvwUbN7R7iCGTx8QFObbf4ZoLD2aggZYZLRKcfd2nZk6EpqBeOBowOm6NX5TgYMqzpl0LGxlBkCVKwrkXB0XdzT50EoV4A3CsIzMPS0wdlI8EXksY5ikt3hOQvaU9ylXjxsS_hGEt22uMkbA09u8vibFGOf_VbZsa9QQgIOwnt0AuulObF4L3G6rZLUKyY1GiZALP88NDH2_q2GTKMTcMmcEA11MHd4Od4JHC9xGrPqXlRIrFA9qtdxNs0sQor02cqoJEZgfAG0amHH30TfbSAhBzoG_vtl-YbpLl9RfUFsgnoOJmbf22kjhAOCZjKO7_YbTA2FzLXDFPO6_h59ZM3bRJgsCR5aXi461RF0mRaQRoc0aF3R75AKVoK",
+        "width": 1416
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109571503838514519800\">Kristina</a>"
+        ],
+        "photo_reference": "Ab43m-tMVgj4V-mRr1T8ouUFzNf4HX7rRB6VKFmXA0Ma9pICOk86AMOzbkl8hK4Xr0JtGSgC67TWBJaCbtKGpR1Op3jDz1SrrbfmXjAPtc6giqFmGrCElELBC5ctoKNMllQBNkJzoLwTadCmLGFN8KN2sWOwzWHR8JByMFVCWZcZXVOeDUPkf3supRoddYEI4qZkE5W6YVWdgIzz9NTOIHlFegdqp6_2h1bqtwIYjv1oJA29mcH-erKg6DRK1SD2A3N3kuo5roUxMehal36RP0h6_V695hZUkQoAwEVkik8hMkdCZhluadi4cZzX1Q-UnEk48-sJlO0WFIZmSQpxLP5iq713t1cfzG4gfy3K_hk-Sxfv9_m_kZl0WF-YPligb_H9LFpJYEmuTJMAWcW1hnfNZCuw0Jyf5jlqeqxWQ-Q1qBvcE7m6",
+        "width": 1206
+      },
+      {
+        "height": 2939,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-vmIweouocCf0cKPNkSWzH8-I1ZqkVT9b1nwEKByLKL5xJz1dEQmKFdqfnF0zncAw132GAxKo9apqDPR184x4dUkmVo6atv6UOxez3u5MY6ckvRRndhb2oo5fSO2xUEtFJJsxzz04l8WD8sLtIP_zZUHDeWqv7wdJiG6D-kjLQGhGw9RgdeQFGzWGKQOUO1uDP04OfWIpX6YR3FJUBlI4ZAIKF25LDOthEXzId96k5T5ClPrJdW2bCgDrCo4HLMZPbH_EgwEBjMMoVjvMI7aZlnT6u-fVt8oCJ4c8IAqXy-ub_3PfBK05RPVn-uQSksrHdCONrRppzxL36HWaJrdztbnVz4_1b7LrxqkYLT5x8V9tSjCeKPpcJa766UNGQKQFvXFbxCyTLOVkQ_hk0RVA9oRiSqCLxOyUkAC_QCAkOQJm2G",
+        "width": 3482
+      },
+      {
+        "height": 2921,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101872002843208272758\">JoAnn SkyWatcher</a>"
+        ],
+        "photo_reference": "Ab43m-soWYpI85-H5TY_3jx72DKFa2sdCxNdEdSOZ6kdTvPXM2J5i8JfEV_iZ2uK1X-t_botcJlNmUBD-TECdDWYmi1fyLqEOYJ8_gquTb6miPpGedUUIbot21NzMhj8mX-4jmSrM7l022gcN-7ZYSbyPX1O4ZtHuCvOxE3BBZf4mcYxwsHQdkaBracIkf1rm1WVmOqF47BGYQDGkB0WoX0jRwq9uGZWmhr95qzVlgZiCrnLonUGsEhRyMECTHf1MwispoRuGZOYkMhzZnNb_nQfz0d_UHoRhVkpsFs3PxUZe3RJZZGztdom9rT3C_CknO9JgMwq84w_A12wINZnX0asc7jVApu5zQGBMyRz9aV29LbJRP3snCSImZfSu6UeudkcWyr7qXt1jXVbRq4_nZg2_sGe4oRYfxBeQ52xZMg2Dn62lRRh",
+        "width": 3894
+      }
+    ],
     "place_id": "ChIJs9KKOPh9hYAR3dFSsMMRyzM",
+    "types": [
+      "establishment",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3732096248381100509",
+    "vicinity": "3812 Piedmont Ave, Oakland",
     "website": "http://www.thehappyheart.net/"
   }
 }
