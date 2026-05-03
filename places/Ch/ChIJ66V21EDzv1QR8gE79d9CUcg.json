@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Silver Stone Apothecary",
+  "place_id": "ChIJ66V21EDzv1QR8gE79d9CUcg",
+  "result": {
+    "formatted_address": "18116 Coon Hollow Road Southeast, Stayton, OR",
+    "formatted_phone_number": "(972) 689-1059",
+    "geometry": {
+      "location": {
+        "lat": 44.8361313,
+        "lng": -122.6905141
+      }
+    },
+    "name": "Silver Stone Apothecary",
+    "place_id": "ChIJ66V21EDzv1QR8gE79d9CUcg",
+    "website": "http://www.silverstoneapothecary.com/"
+  }
+}
