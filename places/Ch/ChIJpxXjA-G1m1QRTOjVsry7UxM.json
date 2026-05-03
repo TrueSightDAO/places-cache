@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Riverside Apothecary",
+  "place_id": "ChIJpxXjA-G1m1QRTOjVsry7UxM",
+  "result": {
+    "formatted_address": "300 Elberta Avenue, Cashmere, WA",
+    "geometry": {
+      "location": {
+        "lat": 47.5221921,
+        "lng": -120.465127
+      }
+    },
+    "name": "Riverside Apothecary",
+    "place_id": "ChIJpxXjA-G1m1QRTOjVsry7UxM",
+    "website": "http://riversideapothecary.com/"
+  }
+}
