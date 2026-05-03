@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Yarrowandsageatx",
+  "place_id": "ChIJd6H9aWrLRIYRlblvjRC3wYc",
+  "result": {
+    "formatted_address": "701 E 53rd St, Austin, TX 78751, Austin, TX",
+    "formatted_phone_number": "(737) 900-3957",
+    "geometry": {
+      "location": {
+        "lat": 30.3153113,
+        "lng": -97.7166158
+      }
+    },
+    "name": "Yarrowandsageatx",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 21:00",
+        "Tuesday: 11:00 \u2013 21:00",
+        "Wednesday: 11:00 \u2013 21:00",
+        "Thursday: 11:00 \u2013 21:00",
+        "Friday: 11:00 \u2013 21:00",
+        "Saturday: 11:00 \u2013 21:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJd6H9aWrLRIYRlblvjRC3wYc",
+    "website": "http://www.yarrowandsageatx.com/"
+  }
+}
