@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Moon Kissed",
+  "place_id": "ChIJTbWXYi9AjoAR5EXu9zQV-MU",
+  "result": {
+    "formatted_address": "1360 Pacific Ave, Santa Cruz, CA",
+    "formatted_phone_number": "(831) 423-5477",
+    "geometry": {
+      "location": {
+        "lat": 36.9743363,
+        "lng": -122.0261353
+      }
+    },
+    "name": "Moon Kissed",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 14:30 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJTbWXYi9AjoAR5EXu9zQV-MU",
+    "website": "https://www.serpents-kiss.com/"
+  }
+}
