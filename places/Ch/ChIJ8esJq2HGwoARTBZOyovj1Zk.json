@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "APOTHEKE LOS ANGELES",
+  "place_id": "ChIJ8esJq2HGwoARTBZOyovj1Zk",
+  "result": {
+    "formatted_address": "1746 North Spring Street, Los Angeles, CA",
+    "formatted_phone_number": "(323) 844-0717",
+    "geometry": {
+      "location": {
+        "lat": 34.0699354,
+        "lng": -118.2258075
+      }
+    },
+    "name": "APOTHEKE LOS ANGELES",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 19:00 \u2013 0:00",
+        "Friday: 18:00 \u2013 1:00",
+        "Saturday: 18:00 \u2013 1:00",
+        "Sunday: 19:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJ8esJq2HGwoARTBZOyovj1Zk",
+    "website": "http://www.apothekemixology.com/"
+  }
+}
