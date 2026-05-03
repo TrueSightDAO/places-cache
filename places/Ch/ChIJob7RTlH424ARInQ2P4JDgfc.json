@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Dr. Toni Camacho",
+  "place_id": "ChIJob7RTlH424ARInQ2P4JDgfc",
+  "result": {
+    "formatted_address": "9051 Mira Mesa Boulevard, San Diego, CA",
+    "formatted_phone_number": "(858) 564-8880",
+    "geometry": {
+      "location": {
+        "lat": 32.9160006,
+        "lng": -117.1289212
+      }
+    },
+    "name": "Dr. Toni Camacho",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 10:30 \u2013 15:30",
+        "Sunday: 11:30 \u2013 14:30"
+      ]
+    },
+    "place_id": "ChIJob7RTlH424ARInQ2P4JDgfc",
+    "website": "http://www.drtonicamacho.com/"
+  }
+}
