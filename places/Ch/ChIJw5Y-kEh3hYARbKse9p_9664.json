@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Ancients Apothecary",
+  "place_id": "ChIJw5Y-kEh3hYARbKse9p_9664",
+  "result": {
+    "formatted_address": "1439 23rd Street, San Pablo, CA",
+    "geometry": {
+      "location": {
+        "lat": 37.9547748,
+        "lng": -122.347639
+      }
+    },
+    "name": "Ancients Apothecary",
+    "place_id": "ChIJw5Y-kEh3hYARbKse9p_9664",
+    "website": "https://linktr.ee/ancientsapothecary"
+  }
+}
