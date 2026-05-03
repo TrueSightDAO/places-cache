@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "IV Food Co-op Downtown Market",
+  "place_id": "ChIJG57cRwAV6YAR4H6DXNoOJpk",
+  "result": {
+    "formatted_address": "1533 State Street, Santa Barbara, CA",
+    "formatted_phone_number": "(805) 456-6936",
+    "geometry": {
+      "location": {
+        "lat": 34.4268175,
+        "lng": -119.709514
+      }
+    },
+    "name": "IV Food Co-op Downtown Market",
+    "place_id": "ChIJG57cRwAV6YAR4H6DXNoOJpk",
+    "website": "https://islavistafood.coop/"
+  }
+}
