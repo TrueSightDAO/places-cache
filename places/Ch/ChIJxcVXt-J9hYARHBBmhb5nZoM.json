@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ancient Ways",
+  "place_id": "ChIJxcVXt-J9hYARHBBmhb5nZoM",
+  "result": {
+    "formatted_address": "4075 Telegraph Ave, Oakland, CA",
+    "formatted_phone_number": "(510) 653-3244",
+    "geometry": {
+      "location": {
+        "lat": 37.829871,
+        "lng": -122.2644831
+      }
+    },
+    "name": "Ancient Ways",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJxcVXt-J9hYARHBBmhb5nZoM",
+    "website": "https://www.ancientways.com/"
+  }
+}
