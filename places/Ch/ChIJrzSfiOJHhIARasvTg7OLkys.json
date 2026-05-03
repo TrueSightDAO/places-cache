@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Farmacopia",
+  "place_id": "ChIJrzSfiOJHhIARasvTg7OLkys",
+  "result": {
+    "formatted_address": "95 Montgomery Drive, Santa Rosa, CA",
+    "formatted_phone_number": "(707) 528-4372",
+    "geometry": {
+      "location": {
+        "lat": 38.4424206,
+        "lng": -122.7043279
+      }
+    },
+    "name": "Farmacopia",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJrzSfiOJHhIARasvTg7OLkys",
+    "website": "http://farmacopia.net/"
+  }
+}
