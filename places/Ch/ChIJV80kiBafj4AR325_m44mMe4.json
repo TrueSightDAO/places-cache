@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Isis Candle Shop",
+  "place_id": "ChIJV80kiBafj4AR325_m44mMe4",
+  "result": {
+    "formatted_address": "19 41st Avenue, San Mateo, CA",
+    "formatted_phone_number": "(650) 212-0803",
+    "geometry": {
+      "location": {
+        "lat": 37.5304225,
+        "lng": -122.2908824
+      }
+    },
+    "name": "Isis Candle Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 20:00",
+        "Tuesday: 9:00 \u2013 20:00",
+        "Wednesday: 9:00 \u2013 20:00",
+        "Thursday: 9:00 \u2013 20:00",
+        "Friday: 9:00 \u2013 20:00",
+        "Saturday: 0:00 \u2013 0:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJV80kiBafj4AR325_m44mMe4"
+  }
+}
