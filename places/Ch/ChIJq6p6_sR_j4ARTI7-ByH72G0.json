@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Apothecary",
+  "place_id": "ChIJq6p6_sR_j4ARTI7-ByH72G0",
+  "result": {
+    "formatted_address": "500 Terry A Francois Boulevard, San Francisco, CA",
+    "geometry": {
+      "location": {
+        "lat": 37.7703718,
+        "lng": -122.3871248
+      }
+    },
+    "name": "The Apothecary",
+    "place_id": "ChIJq6p6_sR_j4ARTI7-ByH72G0",
+    "website": "http://completeclearskin.com/"
+  }
+}
