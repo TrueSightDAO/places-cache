@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Fairies and Boots Apothecary",
+  "place_id": "ChIJIbQ5-bGz3IARbJmhsNynvtY",
+  "result": {
+    "formatted_address": "4505 Allstate Drive, Riverside, CA",
+    "formatted_phone_number": "(951) 224-1023",
+    "geometry": {
+      "location": {
+        "lat": 34.0035875,
+        "lng": -117.3754911
+      }
+    },
+    "name": "Fairies and Boots Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJIbQ5-bGz3IARbJmhsNynvtY",
+    "website": "https://www.fariesandboots.com/"
+  }
+}
