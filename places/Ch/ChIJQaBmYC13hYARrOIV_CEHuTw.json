@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "reiki warrior healing",
+  "place_id": "ChIJQaBmYC13hYARrOIV_CEHuTw",
+  "result": {
+    "formatted_address": "4980 Appian Way, El Sobrante, CA",
+    "formatted_phone_number": "(707) 247-5399",
+    "geometry": {
+      "location": {
+        "lat": 37.9758983,
+        "lng": -122.2971131
+      }
+    },
+    "name": "reiki warrior healing",
+    "place_id": "ChIJQaBmYC13hYARrOIV_CEHuTw",
+    "website": "https://reikiwarriorhealing.com/"
+  }
+}
