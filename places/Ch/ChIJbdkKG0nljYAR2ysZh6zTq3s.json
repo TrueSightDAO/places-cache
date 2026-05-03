@@ -1,40 +1,237 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:35Z",
+  "fetched_at": "2026-05-03T07:07:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Untamed Fire",
+  "name": "Untamed Fire: Metaphysical & Crystal Shop",
   "place_id": "ChIJbdkKG0nljYAR2ysZh6zTq3s",
   "result": {
-    "formatted_address": "490 Orange Ave, Unit D, Sand City, CA",
+    "address_components": [
+      {
+        "long_name": "Unit D",
+        "short_name": "Unit D",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "490",
+        "short_name": "490",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Orange Avenue",
+        "short_name": "Orange Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sand City",
+        "short_name": "Sand City",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monterey County",
+        "short_name": "Monterey County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93955",
+        "short_name": "93955",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3572",
+        "short_name": "3572",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "490 Orange Ave Unit D, Sand City, CA 93955, USA",
     "formatted_phone_number": "(831) 582-1724",
     "geometry": {
       "location": {
-        "lat": 36.6105505,
-        "lng": -121.8529039
+        "lat": 36.6105084,
+        "lng": -121.8524916
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.6119251302915,
+          "lng": -121.8511380197085
+        },
+        "southwest": {
+          "lat": 36.6092271697085,
+          "lng": -121.8538359802915
+        }
       }
     },
-    "name": "Untamed Fire",
+    "name": "Untamed Fire: Metaphysical & Crystal Shop",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
         "Friday: Closed",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-uNaKIBuxhY1SiyU1u2kZfrKE7lnujuRJpoltM_tn68XXW_JPoJ0xxj5t8YR_6SUdgrewlCemarq0PIPBt63g2hO-6JtnzyP5Hupd2Cvh_BqHrnVObkM0njWXhN65OW58diu2lH9_9JqaAXbz3VbPPPOADpR9jZ8s_mWJvgJlq7vncoPIji6AjbCoN_2TkrA0lgt0MmV-2vp5wJw02zuqyLs55j_d3axxU1bd2mfIfd65axdO81ywilVgQHP7_dziTYiOjeZQ7V63Ih-42uHo31CofX1rQs-Q1Km2qefO4ixA",
+        "width": 2400
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-uM0ktJ0kmrmuWcEM3gPpbqpEiAC2H7brBuDiemElNgckI0PkGf28lndXYS0iCCW8lVC78UeW94_ogE6BMSudcRC8RpUs08AB6DZFuZvryqSHcYOooRC1l0hTZxOJZJUsqGIhdzL-adqktAfiTW_WYMsaxuy1lLROXHiGi1X7K7d2lAdgsKQzdJFsMJuHPDeW5ymYQNhJP-aP0M9J7vlF5oWVsMB_dSAZDvu5UUOyMkpbL-G_F2QXhNeVaNBL2aj6VPEXayegoIKpIWSKfFj8u5sn3IzCeoKBCF6pEGG9GrOQ",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-tlRmEjVd7kMUuxXFMFeNKIhn_6hNrzi51SRTdmWkNthZmzMwonnYSRrKq5OMlIcz4k0kvXrOJZwRW_FCEHXM5hv2SyQ8SgQWxPzyjv0VXRJet2pLeNMD2r1qOKOvPOEctsMQVOfLOL2Q7hDhaNKcgPufjiRH3dJiXfho2ALJIVxRRSR9J7cvP4p97NsWrFcQlkvnCKPQgokBH_VGFjwUYiHQ8-BtQ_90h9eBJnj3e1IhH0Z-SWIWEUGnzffdSTN99cDZIUzB3aahHGtmRPLrk1LL-X2jdLyIEvGSU4x5dn8A",
+        "width": 2268
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-uLIuc3g4KyfvJ5xUy6AxcWWWgz0RUHMkLP-anl0gAIo1J2OZVD7gT6sjA--X9cP4yq-_J2Sx5dcYMoaC1MvSn7XsOPw_Uf6dDe26qLJwBbc8y3V4qdoca204msa-eVqtp-paJ-5JluBJLIX0waF-Z0NaYMpiqEcMahtvHGRfLD3X9cn-x5YlDIWxmSZltgAbxU2TdGKdgaWcwWmj92eGLc2k4RKMhAFiQ_fMORarcQNR8lLdvslNdpbtbR9W2sba89YcrP1pY4M9-fXs3k5S3q2_DHhH7LYgA1SuPupJ7QDQ",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-u-fNw7fd5FL6ZaZttIq-0XLroRbl9iGKpD0tcUfjLVbisEUTS8cT-YsFdF5c5Wor8VrTB3Ihon_YZOJJzJD_D7Envy7yzZcN8xIvMiNBp6at7u7oGMgJJAuhns0ha4uExl1MR82SqUmwNttm0uXxlm60DCzlDid6hb8Nf1MNHni0rvd16y1_1fu0ZBd43EAQs7-Dd6pb5zGft0dPLEZw7XIiOxqQFp8gkqMljzYLjEB0bT16PlS8lv6uq2T7JhIjuSSUN1CAsNuXqagjrYa9EWByxWXrGi_QBOcD4UjgDqxg",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117656565492407827432\">Andrea K</a>"
+        ],
+        "photo_reference": "Ab43m-te4pn8J1oypxRsY9SbROhzciNz6RKq7jAhYO_9NandlQCVpqf787H0MlYobiAB16oB5mWDCFUOiGKTGadJKMOVyr9WLsZ2N-1AEjlyocuPlA1a4QQWLYEBNm-8v3pWFCJDj_jD8eFqrHdGQ6Y2iDpZ5yo-r1ojGp9dfeCSoBE_M4X7NlYMSgqj4DMHcvurYzfbw1bEFvqv6hisYDZaHdyTdKEE-R_6Afq3K8SWlRF7HcyMdfzluL4mpPcW6vK6FcsfjAAIHn9xpeBRLt0fgKC16TePXvdfEcE_Ja1oviNkEtRFc1xwxN0YIA3mRJYHpJWZm13_x9o_dUAdnN9jez0Z9O4Qa6aujT0ZUC9BjGkjVVvKsFuvUr25E4E0cymddo4isVeCVDdvcURdDt0XEQOOPwiuUSDuuoW0GKOqGG86qOMUsroqfGTkQ-wD7Q",
+        "width": 3000
+      },
+      {
+        "height": 1781,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-tc5nB_CSsZM5hX5wrT-yrxWUBxR0Tm1mpecLrPw_ipzTa2Wc8PcrpzJ3Pe80ljBWt-jcI8bvCO8hqJm-ofa_Poj7nJcgUtDiliGID578NjnEcQxaLV_94s6Nb_prcj4IYLaojmOvxFuoaEOMwS_sTFgImAAYXwGzCvIUp29_ksFbNYsHr4HktjeC58xYSA85KKF5zauEFwWMi85VFiwyPVmngivwt9sxx-iUazL0_Dg9aM3MfPEq1w--aJnLCebNiaCYuBedH0GYczl0x_M2MpRCl3fIYkOTcUxnkv_F2LcQ",
+        "width": 1440
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-udXG23WVIRFMhET2TGdgwFF0dJ7m5uR1UvnPjK5FXt2ntXq2mhNDTG2NxTEpf3rdTAZvgWtXZ7noxwO40t3rWu8X8mx4G8f5Ylr_ED4jVzSwkgwodCwPWChjn_II8ipVWPIhisQ5rCmpz5a7VOJ4I0zwVVFPHH1a3PWR8TYcPj7BpP_c7lnrd7rMwMLFTdmrLjWmkerSEgEq0f-KNRZCOcrOU5bgfO4z-vf4MXEae-NEwlJ-B64EA-7-bx4NlJyH712Dw-YFuOHDhUEljOM6Amx_SbpU8v68HyuoBmT6T2Zw",
+        "width": 1440
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111180423976200416881\">Untamed Fire: Metaphysical &amp; Crystal Shop</a>"
+        ],
+        "photo_reference": "Ab43m-uDzcINH7l1Guf7cmVbjh_j_OEduYExJNEgsdGYvzm01j74ennxY_FIUo9vN0nhwpx8rRJEORgefSYaXUfACzK9WJDaUfcAseX3Qb9i4ciSLIVkgCkMmWj7KiItClBXeRR2w5nFqWngHwV9rwvxLtm7JhyWjBDzkPfUcEygnL8CtzkCOd6UCUKdnmWUnoQvWCxgxNbF0-SpEsrjA0vztUoZq3lT10gnilb4W-TOMKmmmg2MyEfwqC8g11k04WC25XrCg9o3ijxa9iwnQ-3BWbtFPWqSKauiRgHYmya4MD4WSQ",
+        "width": 1536
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117656565492407827432\">Andrea K</a>"
+        ],
+        "photo_reference": "Ab43m-uqk9sNgYTJAuZYYsjkdPAdXY3I_ZqIgoyRIhsjSMVj0BYLjfRTtsjRRPuPfrS53p3qOpK5xcUMSVyb0YTV0sLVIs2PiwfgLF0Q05Drqr_uwx_U4E-Cz2rkU8n1Q6r86e1q7j_aMNg9BGwa9htxCHVcINmbo3QczecpynHt8i7HbFLuJsvicg6H8PZjoaGlcOZYVEWKiq57ZX9FzZrBTp9Wpa_iINFGD7U8oW29OwUbqUBTrUL1bvri42Qka8RJZIWNaRXCnzSBnkbyhRZ5fyz6x_qFgPxLs1GHvo5_UFEWa3jburT8gCAdmiYJQVjBYc5A8oLL2At8eW0RttffnUqyyR28PlWkOTAh9rJNoYPxAhKDGONFtGR6zSmE0CfIftpMG9Icx69Gv63SuD0e7JZlFVAZBsd9Viwhm9FqSfvswkG_r65B63ZCF-xJES0c",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJbdkKG0nljYAR2ysZh6zTq3s",
-    "website": "https://www.untamedfire.net/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8911449025637067739",
+    "vicinity": "490 Orange Ave Unit D, Sand City",
+    "website": "http://www.untamedfire.net/"
   }
 }
