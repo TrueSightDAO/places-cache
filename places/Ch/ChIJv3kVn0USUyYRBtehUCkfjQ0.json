@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Spellcraft curator",
+  "place_id": "ChIJv3kVn0USUyYRBtehUCkfjQ0",
+  "result": {
+    "formatted_address": "62 Brookwood Avenue, Santa Rosa, CA",
+    "formatted_phone_number": "(707) 684-1651",
+    "geometry": {
+      "location": {
+        "lat": 38.4442126,
+        "lng": -122.7074103
+      }
+    },
+    "name": "Spellcraft curator",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:30 \u2013 21:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:30 \u2013 21:00",
+        "Thursday: 11:30 \u2013 21:00",
+        "Friday: 11:30 \u2013 21:00",
+        "Saturday: 11:30 \u2013 21:00",
+        "Sunday: 11:30 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJv3kVn0USUyYRBtehUCkfjQ0",
+    "website": "http://www.spellcraftcurator.com/"
+  }
+}
