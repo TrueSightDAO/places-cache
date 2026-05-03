@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Berkeley Herbal Center",
+  "place_id": "ChIJScWGP5V-hYAR2WqvbpspUyI",
+  "result": {
+    "formatted_address": "1250 Addison St, Suite G, Berkeley, CA",
+    "formatted_phone_number": "(510) 225-9849",
+    "geometry": {
+      "location": {
+        "lat": 37.8683801,
+        "lng": -122.2868087
+      }
+    },
+    "name": "The Berkeley Herbal Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 15:00",
+        "Tuesday: 11:00 \u2013 15:00",
+        "Wednesday: 11:00 \u2013 15:00",
+        "Thursday: 11:00 \u2013 15:00",
+        "Friday: 11:00 \u2013 15:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJScWGP5V-hYAR2WqvbpspUyI",
+    "website": "https://www.berkeleyherbalcenter.org/"
+  }
+}
