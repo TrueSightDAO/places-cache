@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blackbird",
+  "place_id": "ChIJB82a-9hX2YARbBupYiVHmLk",
+  "result": {
+    "formatted_address": "4711 3rd Street, La Mesa, CA",
+    "formatted_phone_number": "(619) 992-6052",
+    "geometry": {
+      "location": {
+        "lat": 32.7651407,
+        "lng": -117.0176355
+      }
+    },
+    "name": "Blackbird",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 23:00 \u2013 19:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJB82a-9hX2YARbBupYiVHmLk",
+    "website": "https://blackbirdapotheca.com/"
+  }
+}
