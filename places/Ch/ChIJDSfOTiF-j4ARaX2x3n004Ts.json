@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "San Francisco Herb Co.",
+  "place_id": "ChIJDSfOTiF-j4ARaX2x3n004Ts",
+  "result": {
+    "formatted_address": "250 14th Street, San Francisco, CA",
+    "formatted_phone_number": "(800) 227-4530",
+    "geometry": {
+      "location": {
+        "lat": 37.7684714,
+        "lng": -122.4187525
+      }
+    },
+    "name": "San Francisco Herb Co.",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 16:00",
+        "Tuesday: 10:00 \u2013 16:00",
+        "Wednesday: 10:00 \u2013 16:00",
+        "Thursday: 10:00 \u2013 16:00",
+        "Friday: 10:00 \u2013 16:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJDSfOTiF-j4ARaX2x3n004Ts",
+    "website": "https://www.sfherb.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+  }
+}
