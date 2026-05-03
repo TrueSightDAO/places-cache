@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Breathe Enlight Apothecary",
+  "place_id": "ChIJi_X2iD6wIIYRYMG5CuMTP1U",
+  "result": {
+    "formatted_address": "2815 Division Street, Metairie, LA",
+    "geometry": {
+      "location": {
+        "lat": 30.0001641,
+        "lng": -90.1642193
+      }
+    },
+    "name": "Breathe Enlight Apothecary",
+    "place_id": "ChIJi_X2iD6wIIYRYMG5CuMTP1U"
+  }
+}
