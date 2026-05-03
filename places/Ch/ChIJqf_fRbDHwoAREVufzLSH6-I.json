@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T18:18:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Brasil Kiss Coffeebar",
+  "place_id": "ChIJqf_fRbDHwoAREVufzLSH6-I",
+  "result": {
+    "formatted_address": "1010 Wilshire Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(213) 785-5131",
+    "geometry": {
+      "location": {
+        "lat": 34.0517269,
+        "lng": -118.2624724
+      }
+    },
+    "name": "Brasil Kiss Coffeebar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 17:00",
+        "Tuesday: 7:00 \u2013 17:00",
+        "Wednesday: 7:00 \u2013 17:00",
+        "Thursday: 7:00 \u2013 17:00",
+        "Friday: 7:00 \u2013 17:00",
+        "Saturday: 8:00 \u2013 15:00",
+        "Sunday: 8:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJqf_fRbDHwoAREVufzLSH6-I",
+    "website": "http://brasil-kiss-coffeebar.edan.io/"
+  }
+}
