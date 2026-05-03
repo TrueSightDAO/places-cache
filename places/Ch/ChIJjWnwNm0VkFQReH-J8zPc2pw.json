@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Apothecary Northwest",
+  "place_id": "ChIJjWnwNm0VkFQReH-J8zPc2pw",
+  "result": {
+    "formatted_address": "1906 3rd Avenue West, Seattle, WA",
+    "formatted_phone_number": "(206) 650-4031",
+    "geometry": {
+      "location": {
+        "lat": 47.6362694,
+        "lng": -122.360681
+      }
+    },
+    "name": "Apothecary Northwest",
+    "place_id": "ChIJjWnwNm0VkFQReH-J8zPc2pw"
+  }
+}
