@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Herbs in Jars",
+  "place_id": "ChIJM1E0O9FBlVQR5YtXhZvHGow",
+  "result": {
+    "formatted_address": "210 South College Street, Newberg, OR",
+    "geometry": {
+      "location": {
+        "lat": 45.2990041,
+        "lng": -122.9725117
+      }
+    },
+    "name": "Herbs in Jars",
+    "place_id": "ChIJM1E0O9FBlVQR5YtXhZvHGow",
+    "website": "http://www.herbsinjars.com/"
+  }
+}
