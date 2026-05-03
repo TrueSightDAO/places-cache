@@ -1,38 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:51Z",
+  "fetched_at": "2026-05-03T07:07:20Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earth Impact",
   "place_id": "ChIJW4jqpLR0j4ARBcBGlmGSYHY",
   "result": {
-    "formatted_address": "420 Main Street, Half Moon Bay, CA",
+    "address_components": [
+      {
+        "long_name": "420",
+        "short_name": "420",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Half Moon Bay",
+        "short_name": "Half Moon Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94019",
+        "short_name": "94019",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1725",
+        "short_name": "1725",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "420 Main St, Half Moon Bay, CA 94019, USA",
     "formatted_phone_number": "(650) 726-7743",
     "geometry": {
       "location": {
-        "lat": 37.46433964,
-        "lng": -122.4292029
+        "lat": 37.464227,
+        "lng": -122.4293507
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.46558843029149,
+          "lng": -122.4279338197085
+        },
+        "southwest": {
+          "lat": 37.4628904697085,
+          "lng": -122.4306317802915
+        }
       }
     },
     "name": "Earth Impact",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:30 \u2013 17:30",
-        "Tuesday: 10:30 \u2013 17:30",
-        "Wednesday: 10:30 \u2013 17:30",
-        "Thursday: 10:30 \u2013 17:30",
-        "Friday: 10:30 \u2013 17:30",
-        "Saturday: 10:30 \u2013 17:30",
-        "Sunday: 10:30 \u2013 17:30"
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
       ]
     },
-    "place_id": "ChIJW4jqpLR0j4ARBcBGlmGSYHY"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112452962586576911799\">Liz Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-tDt_8gua1JzjzUWlD9g6ay9P5nZpYckuxuZtwkKPUBXaRbGm95OteaiI6eMhcfzElW9LnwT-e1ryJE3pxIbghzUL4DCDP3ct-SJ7G_9gRrgR2nONyiUyAbxpz5kd_DuQt_TOItlih2IS4jf19TVfxwqZqZxzwIbyehRnVXJaKRH4k4uww6lyvW4bcWRNQFpGlbnAM01DN2PWECXna5FMEIKstAC4lDoVJtLQwtKVUjM164R-pKjj_foMS6hJ8OhPSkm6cX9daPifKgYOQsB-00VJcjcK_ts1iLvuFMQ7FR8oG0oHQZmjIFk7oFCIok9Q6teX_IXWPOy4HRgIIiNAOyjdhg150GJNJcb-mm7d42ixVfQKrk3mQUFcLp4o4QO1TUm1Jglq3oLtDZMZ2avcirdXFsiFTGWYrM9Fd_nk2PCg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112452962586576911799\">Liz Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-tAOaazSiWtPVim1jVKhvc9NlpJTQrQqnyLuH78EvpIRUCGY7y_TvG1-nzBbeE2UH819YuCiM5cHVWeiJcmqujuj9zlwzqEba0EvWVwniB0PBuAHEYG3BowKkPqB0ScuoZkAEMmwyHpz1Kr7yig9fesBJYxfU31loN3kGajHNnASJgGcMBF_gAjAVM9KVr_afa65OP7jpFaOoMhgnZVybBXB05IwfW9IlrCyw6Rb5IkdHTc6-Y3ITsXuJTBunJRKgP30yWzgrJawb2V0P_ua2I20khdQYqs2Yxs3OLljXU_0JvBoz3-HlM-mpDjsielaX8e3cHbvn9kA56qrnW2fQgIqFeXCQuA0yLf0hHpnczndI0BYBAWXww5t1EG-3oDLhxposqRURyEq4xAmoT_UOUhXgFWgZf9oOQDjvTDxFUoHw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111763310595407016206\">Brittany Herdliska</a>"
+        ],
+        "photo_reference": "Ab43m-uDswmqGZ-zFGEjUuG9IPYwQzQ5Uhm1Hj1fZk4h8ZZ_5DVqpVlwsX383glvwFuJouJ5stDnn7il86ShjMWexwHg5i7Ge2EQQIcknFXCpdGtn3-SKJNmySCjSdremvFBockvHWH-IbniM9I9ZLNMI_N5MkesTDsLicDpFQoqoVipmWI7Dic8UyqJYvCEvxOMA-GO27waVNjwGSN5Kv7V-Yf4jDvzPIWtw4wcbcjRXjW5ZkMaK6TGvh2PWSMvlYaRieC1sN2w_MIPGNu9ikyzC_X4MuapI-piTypkq9MrI5DQA90WFavmFm84sTsro1EiRAPO95gD29NH-7GSJ9Wz1fwR_cIQ41zdELUH8_FCgG3vmrQzofe9oIvRAQdCey8PYgAgl_IUkHa1T3Q5fz58F7EDdNxH2thkq2TddzIIf4e2hUZN",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112452962586576911799\">Liz Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-skS0sFZGp5DJIucIUCRlK8qieVaJXse8ATd8gFXu7YAOGceKwJ51Yo0_nL-YueXKrEaCzpUJLqfVuLwjlxq67LExHWAhyLH0s_M4MIShXqdMYv0MLQpoLu2YNpd-BWpQJteGY4v_KQ2x0jFakxtuPl_tPdhD2qZItKSFDrz41OxngRMWAzY2WNm-S1MvVLPxvepgw_8ja9QoHjlmhisK70bn1dSTVjVRiYfKlIZuv_RtOYRM3FtU1rKAd79twc8kAX4Iv7ahxVFuN4HUTzp8rRtRIidAjRNjqjrZxFC0-3Yp0kYS3oUlghE-OrUsd4SPfHOKe4wsTjnduCfoXD8ubxBe9YooSIcOgC_8vjvZUgAglinjbYUAPCWxlKxvki3tIOPFvSjQRPPnhMbXlfbsC9qkhZiCVz9DaqCbwQCAO1E78",
+        "width": 3024
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110830390221669638642\">Christine Mamuad</a>"
+        ],
+        "photo_reference": "Ab43m-udCAhYiEvs0WWixyhH4y3yciwJIT-AUIgQbbYsfreaXSlBXEllUVmdqbc2228h_kgA3g72sguTR3qQ1r5MaLHbPnxhP_G2dNf8wdKxFWrIBlAJ4Muj2vwMjp4dH0zJfK6722FHIsdn1FMOkJe3B6UpVn2XxIBSj4wsJTkuCz7LKP3zLjDBhGv7WtX0_36ka0TloZJ-T3X33ZvaeaGQJYCsrj9JC8v73Hnfd3VODN5dNvE4U_gH7HizPHulezpBb_kyHbHjI1fHBeVpb5zSpdt0Vm5dj8M8yQ5hjCmA62yqBKq29OnK-lZh36KXssosfNbSIUsHydl5J6QlB0EJUblytFQAMPLXa1NeIJVTI1xXeuQgJmZ_I1ciR6SqGiEAnXQw03kKHlB49hleBnR7nxv16poBXWRLtNp4xpcpSPeB-g",
+        "width": 4160
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112452962586576911799\">Liz Ramirez</a>"
+        ],
+        "photo_reference": "Ab43m-vKBNy_oQPtMBaW0dMFkbsJgCqmBN9xhHsqniitd6e1EqsxhdIJDwDKP1rPbwQ3n_LAkayZA-7QkXYjD95wleNmsn0N_i9z-nmEuM5AKCsewDpfHcbyGTNqZeNSqzq3uNWLleUn3nD6_9jtA8adSrnw92b8C827D7lzc1Fa1XdgzosvTZeXl2zdvLP_KUv8jv9u4QJyMVndmyUOGELznbxqZHIL6xfGvWhdVvS2NsnHOzbk3pwcfaoJyrIbGRIaoKp8ryiKl1WnJ8w03WlDtEpR7m2BeiSM9818MUewlGu_tDnBURNU-_wvKDv7qPx7kpygCoLenu4Zr63YXi-LQvhKVNlmGRYeoGhfiOW5EzL7ZaRepurBsTeHIzxCk8FSa9ZwTJTmVDBTpNXjNFTrU23gXUopMXRZR2E8nJ9vMFkvpHI",
+        "width": 3024
+      },
+      {
+        "height": 2891,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100856815667838380699\">Sylvi Rupilius</a>"
+        ],
+        "photo_reference": "Ab43m-tmRRI0NeMc8s6Caay9knQXupPsktUMa7xSW9TTEjYANJj1ivqsf_WpAanvpoVfWuyvIrs-SJZ4ayck2TpmndJmzgxZC6kkOy3-eLHJzTof0qhPF5h1c5l_wiw9dG-N7eBLta8vJZBxf2cJFzfa1SmNrYO-iSdaOABROZCAJRAy3OcqO9sAcbk-ssP0E_5CXaMhjp8Ia9yK6kMSUilW0iONlqNNcoElecL37kPUQXrwTvRRbXQasCxfk1KYm294PxB9ezRoXAnWkts7pnbA3U7zWDUwlZhFPaP_SSFxdpJPTZ35KOTESolEGy-Iab6yo1c6_TE0kyDKFmlbEKsExi3O35PZZ97xilbqUPi5bmAkOJMFo85yfy33hPG2Cp068aHrA8YYz6wYEUzqm691l_s54lq7EcNKWXivZo7iRfpRWyB2",
+        "width": 2590
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110830390221669638642\">Christine Mamuad</a>"
+        ],
+        "photo_reference": "Ab43m-tzpZvIqv3k7j7U21tWdIxBCzQb979pICeS6ms0dPuK_hFXNYbo18BAl5sVz65Ldz4mBsx2TTYo6gmmz8g8BziCkAjBHqe-4GpgDNaG6iffYhJlEwUPUN5Bv0XdziPenJtnMWRVUEWdw-deXCZ8FUvj2FLyS8nxB4Ta5Gc4my1TOgTLvFfTvf45BAVxwu9fkraR86iCOLb4nrzqNpmudhfkQMKShI7mbtH7FKYjuj0Y07CiveGTKsi-uckRfFChrqBG7PyHAzcLixva-ilXMiv4rHRtvDyLGaoItDNoanedH5IZDmHAwHNtBy0JeSnlPTtIcK8MiZ6oRpCOu44yq3QqomhXm6medmN43BcPwCOyso45fTnhUQw-shzA1qnFF_2yCbLQ68tBB_bqWkXXPryd5U5GFcXeEeB9uF4LAkM",
+        "width": 3120
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113815392849087130851\">G Aquino</a>"
+        ],
+        "photo_reference": "Ab43m-si_TCXGQsdCmKci-8V2ZnTGCyQaMxzv0OA8mOyXa0WrX8C_NbcMfklWyJwhgnaN-4Mq6EwLTGSS4lmRgH_ktFnp1fSSQ6cc86oB_Et8I6zouw2ytPg0OB2Bb1439FyvyoYrr4qeObxZWWAmv2SyEIuuQbSn31AkXwWF10ep6LX_lsIZagSYB6st75PdzhRZ965h1xDBxNcSasH8QzTjUgrRZNFC0I6tKOINc4T0dGMigUAXRmVFs6nQQHCKOpF4bBMa8Gp0nfVSrxsc0_IVpBdxqDfPHrec7Z9r2EDUMipbkY2tNnVJlr-lRQMFQdAv6RlzhL1I6-YyutXTFZXKYjNuS4pz0i9GMOW58jsIJP7AssnEs3wf5NQNAeEDoib50Pkl668Zy_Z9zlO_v5rV5xNbK91DNL1VUDdYc_UphYdxw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113815392849087130851\">G Aquino</a>"
+        ],
+        "photo_reference": "Ab43m-vR7MqQ5fmNyYDRCgwIcndbymYltyuLcwUcaOxT7aDpu0hUgWFw3X1wGrYjCvRe4F-JXNQihr9Ctxnm8-OgAq27RGn9s7SKuIdmUxUCcS-7-s2pv6KzP0Jx3D9RYHk2jVvrkak5NoRGDCRn1WNyBr-NsV44NPnSvZv5AgM4zPyRuKqnPqwXYsOauNmKrVKqloI1MSS-JOIT3G94RzK2tcgWQN2lkqEn4BvW5YkBbZzdg963SxamGAtKXqYxib8I78ObVXe9vBk6ITYxenglxUMW6LPxL0iRhSBhvmWzk6c6xkzs_850nH1M7K5qKUSfW-O9Y9fxKudzZh7KGwXbDlxXmiuizGM7wgD5B_47Pv5Y9LIP3lHjOAyhhfYPvJ_YuWBe_tfXWqnEPsaUZlXcfU0IYY1AbQLbOIvOg2oVoW45UNWt",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJW4jqpLR0j4ARBcBGlmGSYHY",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8529978642070421509",
+    "vicinity": "420 Main St, Half Moon Bay"
   }
 }
