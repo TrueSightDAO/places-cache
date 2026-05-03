@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Modern Skyn Alchemy",
+  "place_id": "ChIJq6r6hTO5woARXK6l6VABKRU",
+  "result": {
+    "formatted_address": "4335 Van Nuys Blvd, Los Angeles, CA",
+    "formatted_phone_number": "(310) 431-7115",
+    "geometry": {
+      "location": {
+        "lat": 34.0758544,
+        "lng": -118.3633156
+      }
+    },
+    "name": "Modern Skyn Alchemy",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJq6r6hTO5woARXK6l6VABKRU",
+    "website": "http://www.modernskyn.com/"
+  }
+}
