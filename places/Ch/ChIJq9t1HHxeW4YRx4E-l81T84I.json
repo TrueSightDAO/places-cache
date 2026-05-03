@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Herb Room",
+  "place_id": "ChIJq9t1HHxeW4YRx4E-l81T84I",
+  "result": {
+    "formatted_address": "14500 Ranch Road 12, Wimberley, TX",
+    "formatted_phone_number": "(512) 847-2375",
+    "geometry": {
+      "location": {
+        "lat": 30.0026808,
+        "lng": -98.1009641
+      }
+    },
+    "name": "The Herb Room",
+    "place_id": "ChIJq9t1HHxeW4YRx4E-l81T84I",
+    "website": "https://www.theherbroom.com/"
+  }
+}
