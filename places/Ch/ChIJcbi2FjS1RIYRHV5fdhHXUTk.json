@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earth Commons",
+  "place_id": "ChIJcbi2FjS1RIYRHV5fdhHXUTk",
+  "result": {
+    "formatted_address": "641 Tillery Street, Austin, TX",
+    "formatted_phone_number": "(512) 220-1334",
+    "geometry": {
+      "location": {
+        "lat": 30.2577312,
+        "lng": -97.7054542
+      }
+    },
+    "name": "Earth Commons",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:30 \u2013 15:00",
+        "Tuesday: 9:30 \u2013 15:00",
+        "Wednesday: 9:30 \u2013 15:00",
+        "Thursday: 9:30 \u2013 15:00",
+        "Friday: 9:30 \u2013 15:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJcbi2FjS1RIYRHV5fdhHXUTk",
+    "website": "http://earth-commons.com/"
+  }
+}
