@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Moonstone Metaphysical",
+  "place_id": "ChIJF_h27vo1joARBbB11uJ__iI",
+  "result": {
+    "formatted_address": "130 N Santa Cruz Ave, Los Gatos, CA",
+    "formatted_phone_number": "(408) 313-4744",
+    "geometry": {
+      "location": {
+        "lat": 37.2251574,
+        "lng": -121.9822178
+      }
+    },
+    "name": "Moonstone Metaphysical",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJF_h27vo1joARBbB11uJ__iI",
+    "website": "https://moonstone-metaphysical.business.site"
+  }
+}
