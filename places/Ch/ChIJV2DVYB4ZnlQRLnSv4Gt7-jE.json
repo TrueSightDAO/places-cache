@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La F\u00e8ve Aesthetics & Apothecary",
+  "place_id": "ChIJV2DVYB4ZnlQRLnSv4Gt7-jE",
+  "result": {
+    "formatted_address": "1610 South Madison Street, Spokane, WA",
+    "formatted_phone_number": "(541) 743-3409",
+    "geometry": {
+      "location": {
+        "lat": 47.640241,
+        "lng": -117.4282325
+      }
+    },
+    "name": "La F\u00e8ve Aesthetics & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 18:30",
+        "Saturday: 12:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJV2DVYB4ZnlQRLnSv4Gt7-jE",
+    "website": "https://lafeve.glossgenius.com/"
+  }
+}
