@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "DANO",
+  "place_id": "ChIJuRFAg9uhlVQRoa67g2QZ_iI",
+  "result": {
+    "formatted_address": "3725 Southeast Division Street, Portland, OR",
+    "formatted_phone_number": "(503) 719-5808",
+    "geometry": {
+      "location": {
+        "lat": 45.5049497,
+        "lng": -122.6250885
+      }
+    },
+    "name": "DANO",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJuRFAg9uhlVQRoa67g2QZ_iI",
+    "website": "http://www.shopdano.com/"
+  }
+}
