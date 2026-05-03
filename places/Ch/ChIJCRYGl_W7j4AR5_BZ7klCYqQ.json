@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "RAW Smoke Shop",
+  "place_id": "ChIJCRYGl_W7j4AR5_BZ7klCYqQ",
+  "result": {
+    "formatted_address": "265 California Avenue, Palo Alto, CA",
+    "formatted_phone_number": "(650) 272-6495",
+    "geometry": {
+      "location": {
+        "lat": 37.4276888,
+        "lng": -122.1435349
+      }
+    },
+    "name": "RAW Smoke Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 22:00",
+        "Tuesday: 10:00 \u2013 22:00",
+        "Wednesday: 10:00 \u2013 22:00",
+        "Thursday: 10:00 \u2013 22:00",
+        "Friday: 10:00 \u2013 22:00",
+        "Saturday: 10:00 \u2013 22:00",
+        "Sunday: 10:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJCRYGl_W7j4AR5_BZ7klCYqQ"
+  }
+}
