@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mysticmoononpark",
+  "place_id": "ChIJd0j9wJG11okRba1BhWynAVw",
+  "result": {
+    "formatted_address": "1726 Long Pond Rd #4, Rochester, NY 14626, Rochester, NY",
+    "formatted_phone_number": "(585) 461-3111",
+    "geometry": {
+      "location": {
+        "lat": 43.1792484,
+        "lng": -77.700883
+      }
+    },
+    "name": "Mysticmoononpark",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJd0j9wJG11okRba1BhWynAVw",
+    "website": "http://www.mysticmoononpark.com/"
+  }
+}
