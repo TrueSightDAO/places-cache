@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Obatala",
+  "place_id": "ChIJ2aFSVhy11okR6-wRrgTv6Qc",
+  "result": {
+    "formatted_address": "412 State St, Rochester, NY 14608, Rochester, NY",
+    "formatted_phone_number": "(585) 473-4990",
+    "geometry": {
+      "location": {
+        "lat": 43.1623038,
+        "lng": -77.6201568
+      }
+    },
+    "name": "Obatala",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 15:00",
+        "Tuesday: 11:00 \u2013 15:00",
+        "Wednesday: 11:00 \u2013 15:00",
+        "Thursday: 11:00 \u2013 15:00",
+        "Friday: 11:00 \u2013 15:00",
+        "Saturday: 11:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ2aFSVhy11okR6-wRrgTv6Qc",
+    "website": "http://obatala.com/"
+  }
+}
