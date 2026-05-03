@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Miss Tomato Sandwiches and liquor",
+  "place_id": "ChIJj0ixiWx8j4AR2v5O5ceLP1g",
+  "result": {
+    "formatted_address": "199 87th St, Daly City, CA",
+    "formatted_phone_number": "(650) 994-7676",
+    "geometry": {
+      "location": {
+        "lat": 37.693173,
+        "lng": -122.472086
+      }
+    },
+    "name": "Miss Tomato Sandwiches and liquor",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 23:30",
+        "Tuesday: 8:00 \u2013 23:30",
+        "Wednesday: 8:00 \u2013 23:30",
+        "Thursday: 8:00 \u2013 23:30",
+        "Friday: 8:00 \u2013 0:00",
+        "Saturday: 8:00 \u2013 0:00",
+        "Sunday: 8:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJj0ixiWx8j4AR2v5O5ceLP1g",
+    "website": "http://misstomatos.com/"
+  }
+}
