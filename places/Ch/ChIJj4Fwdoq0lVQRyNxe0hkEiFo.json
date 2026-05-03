@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Battle Ground Apothecary and Natural Goods LLC",
+  "place_id": "ChIJj4Fwdoq0lVQRyNxe0hkEiFo",
+  "result": {
+    "formatted_address": "715 West Main Street, Battle Ground, WA",
+    "formatted_phone_number": "(360) 687-2597",
+    "geometry": {
+      "location": {
+        "lat": 45.7798435,
+        "lng": -122.5448329
+      }
+    },
+    "name": "Battle Ground Apothecary and Natural Goods LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJj4Fwdoq0lVQRyNxe0hkEiFo",
+    "website": "http://bgapothecary.com/"
+  }
+}
