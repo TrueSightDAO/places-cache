@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Purple Luna Pro",
+  "place_id": "ChIJH9erUmHRRIYRBnv-SwQMt5M",
+  "result": {
+    "formatted_address": "2021 N Mays St #300, Round Rock, TX 78664, Round Rock, TX",
+    "formatted_phone_number": "(512) 291-6227",
+    "geometry": {
+      "location": {
+        "lat": 30.5305859,
+        "lng": -97.6881692
+      }
+    },
+    "name": "Purple Luna Pro",
+    "place_id": "ChIJH9erUmHRRIYRBnv-SwQMt5M",
+    "website": "https://www.purple-luna.com/"
+  }
+}
