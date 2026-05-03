@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sister Sage Herbs",
+  "place_id": "ChIJGYg7ohlBkFQRs5lR5ZjEDw4",
+  "result": {
+    "formatted_address": "1534 Western Avenue, Seattle, WA",
+    "formatted_phone_number": "(206) 898-2101",
+    "geometry": {
+      "location": {
+        "lat": 47.609585,
+        "lng": -122.3422449
+      }
+    },
+    "name": "Sister Sage Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJGYg7ohlBkFQRs5lR5ZjEDw4",
+    "website": "http://www.sistersageherbs.com/"
+  }
+}
