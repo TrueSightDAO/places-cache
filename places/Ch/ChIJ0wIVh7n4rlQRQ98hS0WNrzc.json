@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Vervain Collective",
+  "place_id": "ChIJ0wIVh7n4rlQRQ98hS0WNrzc",
+  "result": {
+    "formatted_address": "310 North 17th Street, Boise, ID",
+    "formatted_phone_number": "(208) 274-3274",
+    "geometry": {
+      "location": {
+        "lat": 43.6225583,
+        "lng": -116.2124048
+      }
+    },
+    "name": "The Vervain Collective",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ0wIVh7n4rlQRQ98hS0WNrzc",
+    "website": "http://www.thevervaincollective.com/"
+  }
+}
