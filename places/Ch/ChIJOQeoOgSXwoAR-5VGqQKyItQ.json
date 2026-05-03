@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "PIRAMIDE PRODUCTS",
+  "place_id": "ChIJOQeoOgSXwoAR-5VGqQKyItQ",
+  "result": {
+    "formatted_address": "7760 Balboa Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(818) 782-8505",
+    "geometry": {
+      "location": {
+        "lat": 34.212006,
+        "lng": -118.5007389
+      }
+    },
+    "name": "PIRAMIDE PRODUCTS",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 18:00",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJOQeoOgSXwoAR-5VGqQKyItQ",
+    "website": "http://www.piramideproducts.com/"
+  }
+}
