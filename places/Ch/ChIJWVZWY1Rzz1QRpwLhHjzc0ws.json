@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Rare Earth",
+  "place_id": "ChIJWVZWY1Rzz1QRpwLhHjzc0ws",
+  "result": {
+    "formatted_address": "33 North Main Street, Ashland, OR",
+    "formatted_phone_number": "(541) 482-9501",
+    "geometry": {
+      "location": {
+        "lat": 42.1974124,
+        "lng": -122.7157016
+      }
+    },
+    "name": "Rare Earth",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: 12:00 \u2013 17:00",
+        "Sunday: 13:00 \u2013 16:30"
+      ]
+    },
+    "place_id": "ChIJWVZWY1Rzz1QRpwLhHjzc0ws",
+    "website": "http://www.rareearthashland.com/"
+  }
+}
