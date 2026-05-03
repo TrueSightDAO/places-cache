@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Cafe Brasil",
+  "place_id": "ChIJSVMrRNVBjoARl052nnQixjo",
+  "result": {
+    "formatted_address": "1410 Mission Street, Santa Cruz, CA",
+    "formatted_phone_number": "(831) 429-1855",
+    "geometry": {
+      "location": {
+        "lat": 36.9674946,
+        "lng": -122.0394094
+      }
+    },
+    "name": "Cafe Brasil",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 15:00",
+        "Tuesday: 8:00 \u2013 15:00",
+        "Wednesday: 8:00 \u2013 15:00",
+        "Thursday: 8:00 \u2013 15:00",
+        "Friday: 8:00 \u2013 15:00",
+        "Saturday: 8:00 \u2013 15:00",
+        "Sunday: 8:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJSVMrRNVBjoARl052nnQixjo",
+    "website": "http://www.cafebrasil.us/"
+  }
+}
