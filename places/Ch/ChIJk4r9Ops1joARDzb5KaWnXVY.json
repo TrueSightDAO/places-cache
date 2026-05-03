@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Saia Holistic",
+  "place_id": "ChIJk4r9Ops1joARDzb5KaWnXVY",
+  "result": {
+    "formatted_address": "1645 S Bascom Ave #9, Campbell, CA",
+    "formatted_phone_number": "(669) 223-8955",
+    "geometry": {
+      "location": {
+        "lat": 37.2935556,
+        "lng": -121.932519
+      }
+    },
+    "name": "Saia Holistic",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:30 \u2013 18:30",
+        "Wednesday: 11:30 \u2013 18:30",
+        "Thursday: 11:30 \u2013 18:30",
+        "Friday: 11:30 \u2013 18:30",
+        "Saturday: 11:30 \u2013 18:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJk4r9Ops1joARDzb5KaWnXVY",
+    "website": "https://saiawholistic.com/"
+  }
+}
