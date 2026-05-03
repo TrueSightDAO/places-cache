@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Healing Arts",
+  "place_id": "ChIJHbMmdKqVwoARQh27LhkfxpQ",
+  "result": {
+    "formatted_address": "303 South Glenoaks Boulevard, Burbank, CA",
+    "formatted_phone_number": "(818) 859-7340",
+    "geometry": {
+      "location": {
+        "lat": 34.1813937,
+        "lng": -118.3042435
+      }
+    },
+    "name": "Healing Arts",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJHbMmdKqVwoARQh27LhkfxpQ"
+  }
+}
