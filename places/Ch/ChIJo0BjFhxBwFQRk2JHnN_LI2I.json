@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Trickster\u2019s Apothecary and Nonnu & Lola\u2019s Home Bakery",
+  "place_id": "ChIJo0BjFhxBwFQRk2JHnN_LI2I",
+  "result": {
+    "formatted_address": "812 Southwest 4th Street, Corvallis, OR",
+    "geometry": {
+      "location": {
+        "lat": 44.5574994,
+        "lng": -123.2659622
+      }
+    },
+    "name": "The Trickster\u2019s Apothecary and Nonnu & Lola\u2019s Home Bakery",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 20:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJo0BjFhxBwFQRk2JHnN_LI2I",
+    "website": "https://trickstersapothecary.com/"
+  }
+}
