@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Biscuits & Vinyl Record Store",
+  "place_id": "ChIJHSJb0QB0z1QRrJRJg2hJB2w",
+  "result": {
+    "formatted_address": "316 East Main Street, Talent, OR",
+    "formatted_phone_number": "(805) 455-6616",
+    "geometry": {
+      "location": {
+        "lat": 42.2454185,
+        "lng": -122.7876187
+      }
+    },
+    "name": "Biscuits & Vinyl Record Store",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJHSJb0QB0z1QRrJRJg2hJB2w",
+    "website": "http://www.biscuitsandvinyl.com/"
+  }
+}
