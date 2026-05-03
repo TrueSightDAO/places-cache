@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Spice of Life",
+  "place_id": "ChIJLanm9WfF7IARbbni5WiF2k4",
+  "result": {
+    "formatted_address": "1306 Pine Street, Paso Robles, US",
+    "formatted_phone_number": "(805) 610-4130",
+    "geometry": {
+      "location": {
+        "lat": 35.62827,
+        "lng": -120.6885933
+      }
+    },
+    "name": "Spice of Life",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:30 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJLanm9WfF7IARbbni5WiF2k4",
+    "website": "http://www.pasospices.com/"
+  }
+}
