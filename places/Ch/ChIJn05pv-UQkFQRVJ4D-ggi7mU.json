@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Fairyapothecary1",
+  "place_id": "ChIJn05pv-UQkFQRVJ4D-ggi7mU",
+  "result": {
+    "formatted_address": "421 N 36th St, Seattle, WA 98103, United States, Seattle, WA",
+    "formatted_phone_number": "(206) 852-3000",
+    "geometry": {
+      "location": {
+        "lat": 47.6518353,
+        "lng": -122.353563
+      }
+    },
+    "name": "Fairyapothecary1",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 15:00 \u2013 19:00",
+        "Saturday: 15:00 \u2013 19:00",
+        "Sunday: 15:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJn05pv-UQkFQRVJ4D-ggi7mU",
+    "website": "http://www.fairyapothecary1.com/"
+  }
+}
