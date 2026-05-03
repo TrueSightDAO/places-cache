@@ -1,38 +1,233 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:37Z",
+  "fetched_at": "2026-05-03T07:07:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Crystal Garden",
+  "name": "Crystal Garden, Port Costa",
   "place_id": "ChIJEz3_gbJxhYARC-S0se3qleY",
   "result": {
-    "formatted_address": "779 Higuera St, San Luis Obispo, CA",
+    "address_components": [
+      {
+        "long_name": "2",
+        "short_name": "2",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Canyon Lake Drive",
+        "short_name": "Canyon Lake Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Port Costa",
+        "short_name": "Port Costa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94569",
+        "short_name": "94569",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2 Canyon Lake Dr, Port Costa, CA 94569, USA",
     "formatted_phone_number": "(510) 800-2022",
     "geometry": {
       "location": {
-        "lat": 35.2795219,
-        "lng": -120.66315
+        "lat": 38.0465976,
+        "lng": -122.1837416
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.0478795302915,
+          "lng": -122.1823091697085
+        },
+        "southwest": {
+          "lat": 38.0451815697085,
+          "lng": -122.1850071302915
+        }
       }
     },
-    "name": "Crystal Garden",
+    "name": "Crystal Garden, Port Costa",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 17:00 \u2013 21:00",
-        "Saturday: 12:00 \u2013 21:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Friday: 5:00\u2009\u2013\u20099:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20099:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJEz3_gbJxhYARC-S0se3qleY"
+    "photos": [
+      {
+        "height": 2059,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-vyjuPVJ2D1PU_uC1wNrizYibJUoK4sqvmeqpB4dCzLLFZ43RpgiKiMHczFUR0nopRbLCCTanFRkMVRaXFan0g21j6u89EPXUZDwbetG-dyVek3hPRN2R5fLOsoEBh7-marI-VpRKkZOi9MBm8zvwntUMHKMhlS74eEz_GsMIcYW_xrj7yGHHtsGkruoK5HWPs6G3SooRh5r4MIteEPqHqjBRbLjBiP07JRp-fF3Hqe6gT370Wb2yrUfZgXJ6nJ8CzlnE7Au8jaWJspU47Z8PsYDH-fU2MzocbhdOjwLzkHJA",
+        "width": 1163
+      },
+      {
+        "height": 1576,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-vPKW7n_ZRQnjOVPpSoU88VX9hEDJbN7GlMt6I5_wCkOlA5DtrrhfZ8HDOnQYpzr8h7DlqALQaqMCIQsxI2zpXLmPFN8aIz_rdSqRMtHn7Ct3qUXOTg-T1qSjI2rXKANGFdRU9nOss38iKM2Q-VrkHEtf0go-8ovGEE8aY8jMAEXZPVvhZUhghs-0RVqBLB5zC6CiQ1NNH534IP0EMCqH0AXJ00aKT1DZcbNJikR3rONwR8tVq1TQEhBPTR8QVuZUHoYqPGYkwrH7Oh-eJTCB-RV7qKUiTf7GFQh7znYLdZ9Q",
+        "width": 2100
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-tuk7MCNnjq7YhxnCI0HUZxEYk9V7IpTIDJHltyVEymYU7mtVPu7RsDT7G5IVvE_87eDi39sstiZ6JOAgfy0JGyQjdV1aFdLkJ_3LiSgAJuisXFuyh5kVrcKwtnRQWlPihuRzXZNkLwrtrwjLc6w6VCrX3qD-G89QgiBQiH01NeG4I2jjWs1XFMIfy6lGPd8Pbou5Tnzm79zjT709-FtF8QGgQmfQEFu4tv9eYKGwhV1OURT3zcT5hxSNRbhzYUYGipIfOZ1R_yLRmkkB-BmgVTCb_6qLkEssZ81oPePhnLdQ",
+        "width": 1080
+      },
+      {
+        "height": 3171,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-vCZvh2ITaQOGifuPACQUl4OMvwVZ_M40-2XRbrxvw2ieTjnNinyxBOo21fb8klZfRVdsByI6uXWC2hH9vElrn046n1drj1Le4Yylh5YP0Dx14g9r3m9VHQ0YKZmm_nfPJsaMxPXp7TDOvRiuX1LbFauzxLt50CEbf8NXL7iwXLkIsHnb9ZwlxOpwkjFgZ86c0vyUyIZ7X1usC5Y4p5WNnBTKHfZtsVVE0-hDE64wd2ij1tBGZ-7mZNKSN7MOaZRBUxWUfWtfJ_87U3Ua7bMwV9-J-nSAANIcmOnRJJ29lJdA",
+        "width": 3024
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-tiLMoj35yiJRWnRQcr84GGPrJ_CfwLhgN2K3HqiaTvEvWFKqjI8R9X34waBRdIPdnze_cU7n1rxpmG_dySFEl4TzcbmvoHgo9_Wl-Bl_UFdin4dC9SBdAXCUCqw5jcm_IB2XSGZKLEegaLFuOSwhjKW-A5IgLNt0lqvC-Bibs5vzisP9R2_HQOKTnNH5-AIc_Oo2FnlYEg0h_J2oJKmG-tIy0TUVfV90fVueHcNRhYbEYbFCJ4dYkiHfUtM9wj6t315WWBPyGKwCkA5k4eKnstAefpyHt1bj6ipNCN6CMHqw",
+        "width": 1170
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-sztgFZQSeZB2cRp2UOiGnyXXyD6YYsq-zwbg-mxIdfgZzhZUiQkCW4lce8azQqik4_iWmPFf_tsSCaJW_kYoCj_cmDoL9GjZI3dBAt1q47aTSuvtdSHqao-sA1BqB3CqRrU5l-J6o6F5RmDekEZ8eZSiW9j8FMCnxXljXmOW2YZskLrIga2beF50VHDyguT1K2rlUfDuQoafj2HnD0pHty2YUkwVaKBTsUP8C4swn7EVZxXJgntbePOHdRUJnfmXB_pHdgku9PQFgq4miG3DMlTlxu-S6F2GLZlGZ-5ACyPg",
+        "width": 1170
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-sgDNpXCbFDozxQolV45c9-nYUyU0uk7JuVA7_Z6yjhVqPKtVRpJJx9IQM0PDP-ahgAuMM8IjJJVEtqhRRsLjlYRh4oqQm1tZIiaCtOZZ0tNAj-N7qwBhPOuVNJxtpoFf_JR5_NBjsHAegpoHQyJjHR00KqtHMBZY7_LYCnAB7PobWKsePj1fyqwpmxl8yZVScxSBk66i1r9dI3HCHkp75MponN_fmaD6w2dZXzFOBnxq9vMFp6XbgsDq6KGdN6qpH3m3uZDhHKNQQHae4jNO7fhLiX9Fk0bfzcD1u3SjSHcA",
+        "width": 1170
+      },
+      {
+        "height": 1460,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-v9vAA6dmkIqqg_asVBK9zZI3S-v6jLOJ4NCd8cZN2w1IqFjdq6RJ_mnzhBrnJfkbbsYymQZWjlVdkB5EoD5YdVt4yK8BgbGy7AjfKfrTeShBDhyS2wQf4irBQHUM6wv4rc11vjzB2rL2qu2AsItBztuMED9SwgrDqTH56t8SBYgywen61NhJR7AAbcy9uH3sFDjiwZsrpoCUzfNgV-xXJbhLaHxhlgN38sNv1qT0XQ7X8Z0qwWI1fm4DH41IP3t8z3YIvlXsUVppC_uli7QWow93k0pWNIXsQPi3RMoTuGTg",
+        "width": 1440
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-uTp-xu4XOcKp64I2dFCWx1ib8y3HRJkGxsk1G3-kiY1mUtV7eAqDMXtgY7SKDK3WLlplsLSHSs1iJC4X_IzotAWGue2OKpV3uih0JGn6pno88IXJtceH0hCAaHD_-rmPHKS4FeMrLj98e6R_VqfNqzD36t1Vpxp3gnX0o7oO1TzRa0q3Zy_EzVhTa3MLbdDd7bSJP1BgvCO8TfwrkKbmU3BmuMn7xRIWi40-KdsKguThRHkPoCnz5DfEgwCEaVSFfJAdNa5Rn7Idl8Rh-iQ57j3t4eQbzSKwdmV_IE7leskg",
+        "width": 1170
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419354786792012976\">Crystal Garden, Port Costa</a>"
+        ],
+        "photo_reference": "Ab43m-sN4d4sLwV3_HcBqB6s8PtvbHeKSCBOhqyTHasMV6xA2sz706fHDxqmWy-GptJXSKBZEbkfN6rGxgAjzB3DyEkgAmpgp2LFXoTStQnox-8_PWOBFJr01Pz9kid9Z5PFW7wA2ehs42B0smrWDPWl1JOdc9WSoqtTInNfWvIXdbhfcKoaIsnCVY-RTAZDsrCW59NTbPFIB1U_HOviBrUBHcsZL7Fe-uylse0OBazUjjxPBbi9_3ShuqIdxUSfF2ajpRUSjRTQc1weD25VsWmQPuK9zTa1pzritWxGKjLy5kkmUQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJEz3_gbJxhYARC-S0se3qleY",
+    "types": [
+      "establishment",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16615444706862883851",
+    "vicinity": "2 Canyon Lake Dr, Port Costa"
   }
 }
