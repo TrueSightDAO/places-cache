@@ -1,40 +1,300 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:41Z",
+  "fetched_at": "2026-05-03T07:07:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Natural Toolbox",
   "place_id": "ChIJecr9RotZ7IAR9GoFZg-M3F0",
   "result": {
-    "formatted_address": "333 5 Cities Dr, Space 127, Pismo Beach, CA",
+    "address_components": [
+      {
+        "long_name": "space 127",
+        "short_name": "space 127",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Next to Jockey",
+        "short_name": "Next to Jockey",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "333",
+        "short_name": "333",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "5 Cities Drive",
+        "short_name": "5 Cities Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pismo Marsh",
+        "short_name": "Pismo Marsh",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pismo Beach",
+        "short_name": "Pismo Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93449",
+        "short_name": "93449",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Next to Jockey, 333 5 Cities Dr space 127, Pismo Beach, CA 93449, USA",
     "formatted_phone_number": "(805) 423-4440",
     "geometry": {
       "location": {
-        "lat": 35.1360873,
-        "lng": -120.6247
+        "lat": 35.1356325,
+        "lng": -120.6284813
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.1370653302915,
+          "lng": -120.6270958197085
+        },
+        "southwest": {
+          "lat": 35.1343673697085,
+          "lng": -120.6297937802915
+        }
       }
     },
     "name": "The Natural Toolbox",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 20:00",
-        "Sunday: 10:00 \u2013 19:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115837246128420856470\">Joseph Dandona Jr.</a>"
+        ],
+        "photo_reference": "Ab43m-vkSuWrEXQkSk718l2lKREjTmnQsIg49wkL3EwKOooKo7oK6CrMXe2c1QZkbdYPlIVUwAhG2FmLZMyKrkhjtAraoLKZ0TK0hFZWytYo-5HOX3RaQLQ1Dh9rMewrWI0U5ieVTG7fP4su4nzfqE8MNa8vZU96k1q0NiSyqwNhApTid8Qg8C3xFoxZ-yEFYViKQwe88zZhVPqRJ8Ftyh8LG5VqosC-jcnDAuz9wpeqzPshsQLRvKUUPwanYfR9UdVtPgSb-AFA3lk40qFiuS3WKqLmNRRB4KsbHdQIhMg6NrxQGWVakmGzrjzw_wtj73UsaIE1SKIJgvNGxRk5Da5VGc-EZvHTXokrkNWUTLPsSs2hY6PKoPBVK5ZA9p6DywnIud5utmvHeFtb50EaxUKbU8VTFUsUo-0qRpvx0GY1Mv1kfSVqwsO_0NnNFbmKcRZS",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111557884895470941076\">Paul Malarik Jr</a>"
+        ],
+        "photo_reference": "Ab43m-sPjbWO_gg6rMf8EiQNJknee8By7yDD1COI7Yzv1iDXTfC_cjUHMJlA1wgUuE7JVspYryvHm1KgNeVvfVpw-orj0lVCQfUr2CkA934tuKKMmlI_Ca_2P_x8lk734CxE-NR4AyZwCRv4zmgJpPEOo30GDAUog_P4iRjjuHssNl197u1DMduADIHJcGMKR494GXd_BkXDI5O7GWVgdK8BwCBdVmlD4W3h2afwO2Ra8Gjrho_WmNgV5IEyNp3chfLJN4to4--q2PEbtbF2BcHJvTnHDClRTHD4jw9oXKK8TGDWiaoaiAzs__WrEnaNZgQ8irc-8uPk9Bga7-0jLn29b8B2P-3sC-uZOQ9He4DbG0485AUUEX3vOWUuG0fS00Hp8kV_FQaMB9jZwu_Q0b3JBq0KJx2QwySYDjKgQjYkplLHTVBe",
+        "width": 4800
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-vcyMnRpuOT7x23ADJ34RkEMz4Lxp8pOWb2BTt0mkLCwBf1sZNkVsvPYhi0bb579FI5bTMzFyrek9isV7QLwTB1PAMQK2YGLFh9VX0NGyPEEbcRJJRR9Q0obZDtnf9-anqTJYDYiDsp2B1DS2_wpa6og8YNnCQQyz2yBj-4kLjzuUp5G03RsJSoSLOcJvJkyYvNRFIO6yk8kVu6yzKEPbWk6a7mAQFGlzu2F4LMhl3cuXUb1vpgXC_WNs9PtK7ULyMwT9hdKUi0wjUsKgPIGVyOPPZ2vtePV9m-50XuZPk9zw",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-v8739ukL60F5x1QOTPLFUX8M7eEvdmcI_U9w4phPV6jtleF4BNPVCttN9cnY-YeBhpDhyBu99qU0WYpTjLR6S7RGkmgxBhetgZV3w6gRla3xoX3MNAAlq_y5tiHEkhN14mXyTh4U6TiL3fxJKGsEvWMV7USJkuX6tzeC1pIwu6d-8hNSjPAF_Jf3gYazWSxVdGSEcxrnaqL5_axe_ymBljX0D2lTqTHqPlZjjN81QoMFpJ7k4UunFLMZkCZtb9eEQ5CdjuRA4Qep27x1BlHoMqJCBl8Xp1HSUu2Puc-W7myA",
+        "width": 4032
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-szuwrDdulFedOkbhAhA1QkqhwtYe4PdjohAed0f-vh4YPCL0WhTFpIJlC1uyAdUL0KhsHxVVtb2GT61p8kcF2rhWE3gxUnuoKIcZB-jp08UYsD6BOZmNmctoq_26ix1MV-jMGln0402LvKe0x0WXKhbRgSPJQhcpEg2lddQk8tGNtuhm5O6shI5gOqQs_PBQjd8Wj_tEcETCwTkgdLGSjbFIkgY9OkcLqcV7y3cdBO4wwH2d_mfqM4rklOuBu7r-Yi7IJwmKaYD8wVexmq0XbQWrHmSbKVFob8kSo3tsepXw",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115837246128420856470\">Joseph Dandona Jr.</a>"
+        ],
+        "photo_reference": "Ab43m-tPJ-4OPlzlqfKoMvTcwqm-fZqFH4M5denwKiIbfDBvsN61YOQGVmn0Uyjrocpi7dpFpgyCG-UnAalmfqVal2ua0ieK00A7tgJmJSTH5a-Tgo6PWeDlQlf1ApSsUmwrF2_z9mDIqoqZZxGVnAF2i6OmzEp_4GW-WegM6RqEbAooz4Twc50PTJqgBxiPQt3Zuq2ud6yPf3aYS8job1spUtW1lEI76nCRgJRYM4lt0lQpZCkcYUsM8RAK98HSHQuUUspV9h-pFQJ7iER17uUU9RjAHIQNpGHrGyeMIXx2P8xSLYm__dBeUfKi1Q1KZ98LgKsnfqLJZTD5gCyeElccujyvphBKQYGMczy0CrUuIl57ezq1-L5BkkSAUagcGKAppH2SQUcdNy_QJZjXVGI420-kFusjCMsNFIm07Sgt6y0fEAGSgU6Ow7uQfYJOeOw0",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-uF47JM4oDaDh-YkiTsFmf6VENjIF0YIg2Oik3233lAuVV8AfzOq_cE9DnepfoLPQ-X47eUddwt73q7csU6ANvoDp68K3IceiGkgtCcBkiavG8ALY1ptZjqgo4_uKSVAvA7oXLXnAo1Z2nOW5OtXEkvmJzM01zXLOCYSGqpNlT7D4uLxJ2cYA4OPH6gWTyIdDsC0Sz8PZtGc-PKlm9CHsIcuWIG6wVRJQpsEmJemeEV-5qEcS5yeKsC7wg0vfmr47onM_faqD2XVYuuGjFyGJjsAdWaED6iipLOEDSR0OZkdA",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-s8ggEsJqjw3lCy1DDgTXZEEwsLAlzhLFfM6PXui9Du2mhUGAbsi-yslcJShzmawXqkoZ6AaHcVFZJQ8pLd7vjqLk4qoSPtZ3NDO5gGAfd7abasoVAK2jFVNXOuV4kJ53l3L7SdcSU5Vwnd9plwP8thpFR15eN6ormLZ7vULuvKbAdxSrvNESspajrOl_3XudMJpG7B_bPjarjw53g6pPhTz7PsJZSJJps646ssrkk35foQp9j1kK8ocGYAfZu1WvEPOUdl-y0PZw2ZhzzHx_lnaYiT0g5cKP660DmDL9w7dA",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111694396225444461015\">The Natural Toolbox</a>"
+        ],
+        "photo_reference": "Ab43m-sCnp21uFKVAiBUoxb2BnqXNzNd4riQMOrDPTxF89sh4wfe29iQkXja-FkonoD-ketfgbOCAfumNLHpcRiexUrHX7ywOoIhKbd6uUFlJ3EOuAV599Lk1eeGviKXU7yFUO2w9ZvGAmMdf2NA4W5rrJWZCIAVVQNrrYNQbylWs44Zh69Aq9LqWrb4rYfnb4SutgllFT7yXuk79zIns0_XJRj9RkMhVa4RyPasIvCCJpjOjvIT20jCeBm3_Fm2eoAHUPsw35zxOaGfiR2LI-PgsIif8nG97ku5zMY9xhHEER7pUA",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117019702155644905306\">J.R. Warthen</a>"
+        ],
+        "photo_reference": "Ab43m-sHPoEpxZUWW4i_MIhsfphPQ9PJPdJstvijjd3kDzkXUGU0Jo-WYDumflCDyz9egXODQG98d7NOiZUS1OfY2z1iw7E6IwEQy9IvVHA7jQ2GXh3t6j6x5_7sFIifD3hjQEmztfBL7z3su9b6SclQqQMuTPNrGj4I9hw7B2nQAMozo51qUA2iNyFihUV_jx_h-h1pEUfy9dUL4MTc7jJVIfKI3Aw_Jws9FOo9VkghOsYbGa29TTfh4eu099886FAbR8s9lg2D7imfxiX9XJvjFhaHkQpFEayAod9eyfxl49VkASPZJFm26B91TIuEw57o5gveQKivUG1SHBwx54HuU-XropzNwCMdL5iT6jDTDJoxMaOHfOky9YQBGgcJuw8Phftz3H52f7TPo3ZDsrbGGaUm2myqgdqR_ptG12ErQbsAVvizfVaLDMgWXTCQYsp-",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJecr9RotZ7IAR9GoFZg-M3F0",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6763434738167671540",
+    "vicinity": "Next to Jockey, 333 5 Cities Dr space 127, Pismo Beach",
     "website": "http://www.thelittleshopoflocals.com/"
   }
 }
