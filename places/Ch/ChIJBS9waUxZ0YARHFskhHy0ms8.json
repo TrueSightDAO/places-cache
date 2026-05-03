@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The WholeBody Repair Clinic",
+  "place_id": "ChIJBS9waUxZ0YARHFskhHy0ms8",
+  "result": {
+    "formatted_address": "1240 West Main Street, Quartzsite, AZ",
+    "formatted_phone_number": "(928) 927-4325",
+    "geometry": {
+      "location": {
+        "lat": 33.6622624,
+        "lng": -114.2374006
+      }
+    },
+    "name": "The WholeBody Repair Clinic",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJBS9waUxZ0YARHFskhHy0ms8",
+    "website": "https://www.facebook.com/thewholebodyrepairshop"
+  }
+}
