@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Air & Fire, A Mystical Bazaar",
+  "place_id": "ChIJMYXJ6sdNjoAR2pHypmt-7qM",
+  "result": {
+    "formatted_address": "13136 Highway 9, Boulder Creek, CA",
+    "formatted_phone_number": "(831) 338-7567",
+    "geometry": {
+      "location": {
+        "lat": 37.1260578,
+        "lng": -122.1221869
+      }
+    },
+    "name": "Air & Fire, A Mystical Bazaar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 16:00",
+        "Tuesday: 11:00 \u2013 18:30",
+        "Wednesday: 11:00 \u2013 18:30",
+        "Thursday: 11:00 \u2013 18:30",
+        "Friday: 11:00 \u2013 18:30",
+        "Saturday: 11:00 \u2013 18:30",
+        "Sunday: 11:00 \u2013 18:30"
+      ]
+    },
+    "place_id": "ChIJMYXJ6sdNjoAR2pHypmt-7qM",
+    "website": "https://www.airandfire.com/"
+  }
+}
