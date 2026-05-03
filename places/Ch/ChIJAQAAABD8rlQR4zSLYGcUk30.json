@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Janjou P\u00e2tisserie",
+  "place_id": "ChIJAQAAABD8rlQR4zSLYGcUk30",
+  "result": {
+    "formatted_address": "1754 West State Street, Boise, ID",
+    "formatted_phone_number": "(208) 297-5853",
+    "geometry": {
+      "location": {
+        "lat": 43.6255532,
+        "lng": -116.2110261
+      }
+    },
+    "name": "Janjou P\u00e2tisserie",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 8:00 \u2013 14:00",
+        "Friday: 8:00 \u2013 14:00",
+        "Saturday: 8:00 \u2013 14:00",
+        "Sunday: 8:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJAQAAABD8rlQR4zSLYGcUk30",
+    "website": "http://www.janjou.com/"
+  }
+}
