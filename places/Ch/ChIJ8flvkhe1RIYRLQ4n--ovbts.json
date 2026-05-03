@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:50Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Casa de Luz Village",
+  "place_id": "ChIJ8flvkhe1RIYRLQ4n--ovbts",
+  "result": {
+    "formatted_address": "1701 Toomey Road, Austin, TX",
+    "geometry": {
+      "location": {
+        "lat": 30.2641631,
+        "lng": -97.7617126
+      }
+    },
+    "name": "Casa de Luz Village",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 20:30",
+        "Tuesday: 7:00 \u2013 20:30",
+        "Wednesday: 7:00 \u2013 20:30",
+        "Thursday: 7:00 \u2013 20:30",
+        "Friday: 7:00 \u2013 20:30",
+        "Saturday: 7:00 \u2013 20:30",
+        "Sunday: 7:00 \u2013 20:30"
+      ]
+    },
+    "place_id": "ChIJ8flvkhe1RIYRLQ4n--ovbts",
+    "website": "https://www.casadeluz.org/"
+  }
+}
