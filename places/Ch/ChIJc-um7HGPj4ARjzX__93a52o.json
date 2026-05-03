@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Madame Mary's Scent Apothecary",
+  "place_id": "ChIJc-um7HGPj4ARjzX__93a52o",
+  "result": {
+    "formatted_address": "591 Sybil Avenue, San Leandro, CA",
+    "formatted_phone_number": "(510) 326-6421",
+    "geometry": {
+      "location": {
+        "lat": 37.7213767,
+        "lng": -122.145628
+      }
+    },
+    "name": "Madame Mary's Scent Apothecary",
+    "place_id": "ChIJc-um7HGPj4ARjzX__93a52o",
+    "website": "https://madamemary.scentsy.us/"
+  }
+}
