@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apothecary Energy Wellness Center",
+  "place_id": "ChIJn7LAMlHPmoARTKiuum7nts0",
+  "result": {
+    "formatted_address": "6385 Auburn Boulevard, Citrus Heights, CA",
+    "formatted_phone_number": "(916) 296-7348",
+    "geometry": {
+      "location": {
+        "lat": 38.683144,
+        "lng": -121.314811
+      }
+    },
+    "name": "Apothecary Energy Wellness Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 22:00",
+        "Wednesday: 12:00 \u2013 22:00",
+        "Thursday: 12:00 \u2013 22:00",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJn7LAMlHPmoARTKiuum7nts0",
+    "website": "https://linktr.ee/apothecaryenergy"
+  }
+}
