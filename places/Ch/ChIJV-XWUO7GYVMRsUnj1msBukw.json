@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Pilgrim's Market",
+  "place_id": "ChIJV-XWUO7GYVMRsUnj1msBukw",
+  "result": {
+    "formatted_address": "1316 North 4th Street, Coeur d'Alene, ID",
+    "formatted_phone_number": "(208) 676-9730",
+    "geometry": {
+      "location": {
+        "lat": 47.687611,
+        "lng": -116.780135
+      }
+    },
+    "name": "Pilgrim's Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 21:00",
+        "Tuesday: 7:00 \u2013 21:00",
+        "Wednesday: 7:00 \u2013 21:00",
+        "Thursday: 7:00 \u2013 21:00",
+        "Friday: 7:00 \u2013 21:00",
+        "Saturday: 7:00 \u2013 21:00",
+        "Sunday: 7:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJV-XWUO7GYVMRsUnj1msBukw",
+    "website": "https://pilgrimsmarket.com/"
+  }
+}
