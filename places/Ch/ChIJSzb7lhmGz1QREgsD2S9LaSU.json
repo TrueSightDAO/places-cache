@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Oshala Farm",
+  "place_id": "ChIJSzb7lhmGz1QREgsD2S9LaSU",
+  "result": {
+    "formatted_address": "14900 Oregon 238, Grants Pass, OR",
+    "formatted_phone_number": "(541) 846-1120",
+    "geometry": {
+      "location": {
+        "lat": 42.280692,
+        "lng": -123.221758
+      }
+    },
+    "name": "Oshala Farm",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 16:00",
+        "Tuesday: 8:00 \u2013 16:00",
+        "Wednesday: 8:00 \u2013 16:00",
+        "Thursday: 8:00 \u2013 16:00",
+        "Friday: 8:00 \u2013 16:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJSzb7lhmGz1QREgsD2S9LaSU",
+    "website": "https://oshalafarm.com/"
+  }
+}
