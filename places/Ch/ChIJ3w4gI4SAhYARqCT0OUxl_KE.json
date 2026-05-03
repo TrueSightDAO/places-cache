@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Barbary Coast",
+  "place_id": "ChIJ3w4gI4SAhYARqCT0OUxl_KE",
+  "result": {
+    "formatted_address": "952 Mission Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 243-4400",
+    "geometry": {
+      "location": {
+        "lat": 37.7819145,
+        "lng": -122.4078009
+      }
+    },
+    "name": "Barbary Coast",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:45",
+        "Tuesday: 8:00 \u2013 21:45",
+        "Wednesday: 8:00 \u2013 21:45",
+        "Thursday: 8:00 \u2013 21:45",
+        "Friday: 8:00 \u2013 21:45",
+        "Saturday: 8:00 \u2013 21:45",
+        "Sunday: 8:00 \u2013 21:45"
+      ]
+    },
+    "place_id": "ChIJ3w4gI4SAhYARqCT0OUxl_KE"
+  }
+}
