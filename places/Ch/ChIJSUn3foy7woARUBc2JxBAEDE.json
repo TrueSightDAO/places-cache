@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Saje Natural Wellness",
+  "place_id": "ChIJSUn3foy7woARUBc2JxBAEDE",
+  "result": {
+    "formatted_address": "10250 Santa Monica Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(310) 843-9865",
+    "geometry": {
+      "location": {
+        "lat": 34.0591882,
+        "lng": -118.4201504
+      }
+    },
+    "name": "Saje Natural Wellness",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 21:00",
+        "Tuesday: 10:00 \u2013 21:00",
+        "Wednesday: 10:00 \u2013 21:00",
+        "Thursday: 10:00 \u2013 21:00",
+        "Friday: 10:00 \u2013 21:00",
+        "Saturday: 10:00 \u2013 21:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJSUn3foy7woARUBc2JxBAEDE",
+    "website": "https://www.saje.com/pages/store-locator"
+  }
+}
