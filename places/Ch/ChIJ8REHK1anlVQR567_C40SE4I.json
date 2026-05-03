@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Rooted Remedies - The Community Apothecary",
+  "place_id": "ChIJ8REHK1anlVQR567_C40SE4I",
+  "result": {
+    "formatted_address": "271 West 8th Avenue, Eugene, OR",
+    "formatted_phone_number": "(503) 470-1593",
+    "geometry": {
+      "location": {
+        "lat": 44.0511618,
+        "lng": -123.0965608
+      }
+    },
+    "name": "Rooted Remedies - The Community Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 9:00 \u2013 14:00",
+        "Sunday: 10:00 \u2013 13:00"
+      ]
+    },
+    "place_id": "ChIJ8REHK1anlVQR567_C40SE4I",
+    "website": "http://www.rootedremedies.co/"
+  }
+}
