@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:50Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kindred Moon Apothecary, Inc",
+  "place_id": "ChIJj-8QIwB1kVQRN3Z35fekKbc",
+  "result": {
+    "formatted_address": "117 5th Avenue Southeast, Olympia, WA",
+    "formatted_phone_number": "(360) 357-5250",
+    "geometry": {
+      "location": {
+        "lat": 47.0438577,
+        "lng": -122.900594
+      }
+    },
+    "name": "Kindred Moon Apothecary, Inc",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJj-8QIwB1kVQRN3Z35fekKbc",
+    "website": "https://www.kindredmoonapothecary.com/"
+  }
+}
