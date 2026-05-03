@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Uncle Harry's Natural Products",
+  "place_id": "ChIJLXm5H7xykFQRJAu8Qm6z3h8",
+  "result": {
+    "formatted_address": "17650 Northeast 65th Street, Redmond, WA",
+    "formatted_phone_number": "(425) 558-4251",
+    "geometry": {
+      "location": {
+        "lat": 47.6642812,
+        "lng": -122.1041201
+      }
+    },
+    "name": "Uncle Harry's Natural Products",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 17:00",
+        "Tuesday: 7:00 \u2013 17:00",
+        "Wednesday: 7:00 \u2013 17:00",
+        "Thursday: 7:00 \u2013 17:00",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJLXm5H7xykFQRJAu8Qm6z3h8",
+    "website": "https://www.uncleharrys.com/"
+  }
+}
