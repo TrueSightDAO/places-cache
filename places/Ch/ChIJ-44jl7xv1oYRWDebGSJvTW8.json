@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Nexusoccult",
+  "place_id": "ChIJ-44jl7xv1oYRWDebGSJvTW8",
+  "result": {
+    "formatted_address": "4865 E Speedway Blvd, Tucson, AZ 85712, United States, Tucson, AZ",
+    "formatted_phone_number": "(520) 334-0372",
+    "geometry": {
+      "location": {
+        "lat": 32.2366019,
+        "lng": -110.8890461
+      }
+    },
+    "name": "Nexusoccult",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJ-44jl7xv1oYRWDebGSJvTW8",
+    "website": "http://www.nexusoccult.com/"
+  }
+}
