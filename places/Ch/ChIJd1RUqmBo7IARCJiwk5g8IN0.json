@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Alchepharma Naturals",
+  "place_id": "ChIJd1RUqmBo7IARCJiwk5g8IN0",
+  "result": {
+    "formatted_address": "110 Mary Avenue, Nipomo, CA",
+    "formatted_phone_number": "(805) 929-5599",
+    "geometry": {
+      "location": {
+        "lat": 35.0350067,
+        "lng": -120.4868388
+      }
+    },
+    "name": "Alchepharma Naturals",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:30",
+        "Tuesday: 9:00 \u2013 19:30",
+        "Wednesday: 9:00 \u2013 19:30",
+        "Thursday: 9:00 \u2013 19:30",
+        "Friday: 9:00 \u2013 19:30",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: 9:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJd1RUqmBo7IARCJiwk5g8IN0",
+    "website": "http://alchepharmanaturals.com/"
+  }
+}
