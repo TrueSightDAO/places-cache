@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "High Street Tonics",
+  "place_id": "ChIJUWOwu0oA7EkRe99dHYFjHvw",
+  "result": {
+    "formatted_address": "267 West 8th Avenue, Eugene, OR",
+    "formatted_phone_number": "(458) 215-4814",
+    "geometry": {
+      "location": {
+        "lat": 44.0511682,
+        "lng": -123.0964249
+      }
+    },
+    "name": "High Street Tonics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 12:00 \u2013 22:00",
+        "Saturday: 12:00 \u2013 22:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJUWOwu0oA7EkRe99dHYFjHvw",
+    "website": "http://www.highstreettonics.com/"
+  }
+}
