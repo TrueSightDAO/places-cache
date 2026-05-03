@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Let's Get Tuned",
+  "place_id": "ChIJWwZrBf7h7IARjyiLRjbJLk0",
+  "result": {
+    "formatted_address": "781 Market Avenue, Morro Bay, CA",
+    "formatted_phone_number": "(805) 771-7777",
+    "geometry": {
+      "location": {
+        "lat": 35.3656716,
+        "lng": -120.8525285
+      }
+    },
+    "name": "Let's Get Tuned",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:30 \u2013 20:30",
+        "Tuesday: 9:00 \u2013 20:30",
+        "Wednesday: 6:30 \u2013 20:30",
+        "Thursday: 6:30 \u2013 20:30",
+        "Friday: 8:00 \u2013 20:30",
+        "Saturday: 9:00 \u2013 20:30",
+        "Sunday: 10:00 \u2013 13:00"
+      ]
+    },
+    "place_id": "ChIJWwZrBf7h7IARjyiLRjbJLk0",
+    "website": "http://www.letsgettuned.com/"
+  }
+}
