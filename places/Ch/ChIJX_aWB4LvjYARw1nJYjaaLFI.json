@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Organic Pharmer",
+  "place_id": "ChIJX_aWB4LvjYARw1nJYjaaLFI",
+  "result": {
+    "formatted_address": "8900 Carmel Valley Road, Carmel, CA",
+    "formatted_phone_number": "(831) 574-1920",
+    "geometry": {
+      "location": {
+        "lat": 36.5277121,
+        "lng": -121.8204518
+      }
+    },
+    "name": "Organic Pharmer",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 15:00",
+        "Tuesday: 10:00 \u2013 15:00",
+        "Wednesday: 10:00 \u2013 15:00",
+        "Thursday: 10:00 \u2013 15:00",
+        "Friday: 10:00 \u2013 15:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJX_aWB4LvjYARw1nJYjaaLFI",
+    "website": "http://organicpharmer.com/"
+  }
+}
