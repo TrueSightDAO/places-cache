@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Euphorium",
+  "place_id": "ChIJT3j4bAtfkFQRhajZiLs0EZs",
+  "result": {
+    "formatted_address": "27623 Covington Way Southeast, Covington, WA",
+    "formatted_phone_number": "(253) 455-4582",
+    "geometry": {
+      "location": {
+        "lat": 47.353775,
+        "lng": -122.1228997
+      }
+    },
+    "name": "Euphorium",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 23:45",
+        "Tuesday: 8:00 \u2013 23:45",
+        "Wednesday: 8:00 \u2013 23:45",
+        "Thursday: 8:00 \u2013 23:45",
+        "Friday: 8:00 \u2013 23:45",
+        "Saturday: 8:00 \u2013 23:45",
+        "Sunday: 9:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJT3j4bAtfkFQRhajZiLs0EZs",
+    "website": "http://www.euphorium502.com/"
+  }
+}
