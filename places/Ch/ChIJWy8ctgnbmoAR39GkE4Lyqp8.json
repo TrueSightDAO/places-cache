@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "WitchGang Apothecary",
+  "place_id": "ChIJWy8ctgnbmoAR39GkE4Lyqp8",
+  "result": {
+    "formatted_address": "8 North 5th Street, Rio Vista, CA",
+    "formatted_phone_number": "(916) 243-0420",
+    "geometry": {
+      "location": {
+        "lat": 38.158658,
+        "lng": -121.6939009
+      }
+    },
+    "name": "WitchGang Apothecary",
+    "place_id": "ChIJWy8ctgnbmoAR39GkE4Lyqp8",
+    "website": "http://www.witchgang.com/"
+  }
+}
