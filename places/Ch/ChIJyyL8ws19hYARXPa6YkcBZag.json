@@ -1,38 +1,247 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:22Z",
+  "fetched_at": "2026-05-03T07:06:55Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Ancient Future",
+  "name": "Methok Pema of Tibet",
   "place_id": "ChIJyyL8ws19hYARXPa6YkcBZag",
   "result": {
-    "formatted_address": "2903 College Ave, Berkeley, CA",
+    "address_components": [
+      {
+        "long_name": "2903",
+        "short_name": "2903",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "College Avenue",
+        "short_name": "College Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Elmwood",
+        "short_name": "Elmwood",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Berkeley",
+        "short_name": "Berkeley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94705",
+        "short_name": "94705",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2203",
+        "short_name": "2203",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2903 College Ave, Berkeley, CA 94705, USA",
     "formatted_phone_number": "(510) 334-3320",
     "geometry": {
       "location": {
-        "lat": 37.8583592,
-        "lng": -122.2531078
+        "lat": 37.8582814,
+        "lng": -122.253048
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8596279302915,
+          "lng": -122.2517730197085
+        },
+        "southwest": {
+          "lat": 37.8569299697085,
+          "lng": -122.2544709802915
+        }
       }
     },
-    "name": "Ancient Future",
+    "name": "Methok Pema of Tibet",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:30 \u2013 18:30",
-        "Tuesday: 10:30 \u2013 18:30",
-        "Wednesday: 10:30 \u2013 18:30",
-        "Thursday: 10:30 \u2013 18:30",
-        "Friday: 10:30 \u2013 18:30",
-        "Saturday: 10:30 \u2013 18:30",
-        "Sunday: 10:30 \u2013 18:00"
+        "Monday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
-    "place_id": "ChIJyyL8ws19hYARXPa6YkcBZag"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113958658696510984281\">Blue Rabbit</a>"
+        ],
+        "photo_reference": "Ab43m-uNl2dBJhBpvu1_JFj7DH0MOtyraNIN7NamhmZhCLlDWhWiWZlJsUt083X6EbP4LdHpKemiL5dm9mdKXAlDZER550ZGNZN-Djq5L1FHT3ZzQWTDHL2OgCAaQ8_RXuXqnlyU91B36ZkoUFUGx650OUV8aMp_w7NeQrRQcjV-SJbNim8WPAvQU-Hri0UMK6PSQ3Ln8y8YetUZuJeaCPpHbzux1VLA5gTFG34-bIzleBYWhnnunBNsnuj6JB_Lc45g_W81hl6FM5L-TXN3I8QyJKNuBl_aVBHnI2dU7z-dprlRKtMcsZP9zPl0awmSXCPHZqmGREuDv42hP-5KXgQUJsV3Iqsb3dikPN0BoOdqHRr_uiNjQHcRTkX8vBtvPjrLBQP1MltV73-wsL0Q63jLeIFO6upMUMhDc-4eAwPvfEvJZA",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112604045394125372771\">Fang-Yuan, Derek Lu</a>"
+        ],
+        "photo_reference": "Ab43m-uPwlt1kFjaJ2plbDONu3ct30uw7Jh3kgfXq6H0ivghV2H8BvGiAtMAz6hYCX2152iWxOeYdQhTyhfzOc_kH8qiHzHmFuH_VPMGTBqqKgjjlLvCCSWtrX2GH5SvAN5OsR5KN7vEdOnEwY14ZuwnxV1gwNM-S-E7BZcHtv6JFEqcCCQzj_r2QVtGwLd7VpTPSn37ogDKFzEjiHemxLZ0pGaXogAwr06aA9dk56enWl3p1LQSNWi1Tt_0LcNGQy3yEpF0oKpNcd4Vc0NLSWngX9M1dOkXfWGJcGmIJIHahukDBu-Lj5LqigJWZIzcde2wKniPKTzcgtsS5UEqRY-YTRZmT2LDBuM0wocuhPutMwR7kO6RZeOqr3IdJrJCEU73hNtkNFjv3W4zlm6Z-f6zSvlSgdYj2fgCvraimCBTRc8cmk-z",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112604045394125372771\">Fang-Yuan, Derek Lu</a>"
+        ],
+        "photo_reference": "Ab43m-vZc_w8BWZNwNiNVHkw6ocXMqWe3KBerPr8xDFgZyQ0EEwTn8mybxENxAN4cros-L4I8SOVHMKAPLxjwwDDngi1lFZbZY0c9Qc5x-gpcXSGraLyNdf67TO5XqGN7jPW-cKBMPdpZzvrlB7-BPpYBazxc9aPC5dG_Fkggrgg1uI9V3jMbfXvt9jMd_PVINZueFyrx6qTNQzyFPlbMJ0vJZIqV_rEYHZBF-v7lpKC8h8uy1zfGPQcF1XCkfz9t6ubi-nn2ZkVjCQ7MXp7iszCrPMsoW8A6mlVIeW3m4FjdqgkZ3ZFqaix6VD0my2nJAj8f3mBz7g_TSsXJRoNm9pcqLD2VHcZIeX3LZy3o7cl7KXTdKcZjYS6citnzPBxDThR2z-avIxcexwEiFDLARV4tL6J6J_cPGjvhdpSeMrh1PKm2w",
+        "width": 3024
+      },
+      {
+        "height": 3192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-vaQ7xHO8YF6j2sXgtItNwqwTkkDNvjwsk0Aox-4BCVJ8o8l4VsbFIAklVaUxLfznGfD2QZ_daMdMidd0yiuuMXUZEj0oqgUpb0S7eNAmLyridedrPiVaFFozkrPmt4hA-rPB_aVRJsThJGjfrfgObO2qrgTnKtn7KQT59lvG5TWSOsV03qhUPy-QFcGqOtWU-CoMQP6yERYpCCPCTmJgmEy-8d_ZlAVgTNN69qT7dgIGmxHw2vQ5CYQMGDMyXwOiQQ3mbvdEOH_7tTj7mDdkCX3NIJxX0DgfFE6DlHhmWPEi--Np5zhvW7gXNvUzRvxnNrTK-hjtUtCYJKeIX6eLVcYCkoAyofVB1MjO58QBHJruaSdKFJZiJ4Ggs0DAt_PqCQ0_UL4vtqzHKHosOUCsx_WOVfqZPmBDD406R_yf7sFlsq",
+        "width": 4256
+      },
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-v8X07ZDfAhYSqOWFCfdUFgQTes6n933DSLR8PvFnEWCpVJq2ExlIkyWJSk8q_7kLxoOTFI9TzYMR3J8EKoIxureOgAvjL5MyHGLcqqGm4VoZOhHrAWXD3cL0oVnpC4NY1iwo54fxNOh7ooKhkJVlW_lDeGueD9wUQ5LY966CyPPuK3yqgn8Oj60Plx9ByCr786_5gEOuEtTbh2WL4JXg4Yio_u82KY7KsU0a6xgQxw5qlHMh52TcIyFUn_qFyc0JlJobHhZl46muzI_SJ4-8MUZMbH-aYCcplmuRwSWX-R4EXn7Co0ui1MuEWnlzJjqfhIpmJQ8xiYB2WKxonlPpVEZJjy4cVdLKlyTQ0-1jFymqcBT9Q8qUxICxoxnlquQL542JOIxBg31mjA_56arwthYbLBX6j0TKlYk5otwzFM8KvBbBnPtmsUZFsO6rtI",
+        "width": 1152
+      }
+    ],
+    "place_id": "ChIJyyL8ws19hYARXPa6YkcBZag",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12134106177130395228",
+    "vicinity": "2903 College Ave, Berkeley"
   }
 }
