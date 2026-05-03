@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mountain Spirit",
+  "place_id": "ChIJ5-8ACZhGjoARzRLsZV5IAYg",
+  "result": {
+    "formatted_address": "6299 Highway 9, Felton, CA",
+    "formatted_phone_number": "(831) 335-7700",
+    "geometry": {
+      "location": {
+        "lat": 37.0529937,
+        "lng": -122.0734799
+      }
+    },
+    "name": "Mountain Spirit",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 16:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ5-8ACZhGjoARzRLsZV5IAYg",
+    "website": "https://mountainspiritstore.com/"
+  }
+}
