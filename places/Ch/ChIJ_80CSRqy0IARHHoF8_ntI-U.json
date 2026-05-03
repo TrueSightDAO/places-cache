@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Ponderosa",
+  "place_id": "ChIJ_80CSRqy0IARHHoF8_ntI-U",
+  "result": {
+    "formatted_address": "Slab City, Niland, CA",
+    "formatted_phone_number": "(760) 925-7724",
+    "geometry": {
+      "location": {
+        "lat": 33.2464681,
+        "lng": -115.4770366
+      }
+    },
+    "name": "The Ponderosa",
+    "place_id": "ChIJ_80CSRqy0IARHHoF8_ntI-U"
+  }
+}
