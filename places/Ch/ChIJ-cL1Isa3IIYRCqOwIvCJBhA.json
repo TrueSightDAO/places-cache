@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "the goddess collection",
+  "place_id": "ChIJ-cL1Isa3IIYRCqOwIvCJBhA",
+  "result": {
+    "formatted_address": "2701 Williams Boulevard, Kenner, LA",
+    "formatted_phone_number": "(504) 596-8980",
+    "geometry": {
+      "location": {
+        "lat": 30.0053314,
+        "lng": -90.2409866
+      }
+    },
+    "name": "the goddess collection",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ-cL1Isa3IIYRCqOwIvCJBhA",
+    "website": "https://thealkalinegoddess.com/"
+  }
+}
