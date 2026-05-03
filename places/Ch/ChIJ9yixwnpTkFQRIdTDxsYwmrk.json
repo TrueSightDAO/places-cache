@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Gig Harbor Apothecary",
+  "place_id": "ChIJ9yixwnpTkFQRIdTDxsYwmrk",
+  "result": {
+    "formatted_address": "6659 Kimball Drive, Gig Harbor, WA",
+    "formatted_phone_number": "(253) 777-0533",
+    "geometry": {
+      "location": {
+        "lat": 47.318765,
+        "lng": -122.58583
+      }
+    },
+    "name": "Gig Harbor Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ9yixwnpTkFQRIdTDxsYwmrk",
+    "website": "http://gigharborapothecary.com/"
+  }
+}
