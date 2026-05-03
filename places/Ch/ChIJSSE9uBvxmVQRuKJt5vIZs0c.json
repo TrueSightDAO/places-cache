@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Devine Wellness and Relaxation",
+  "place_id": "ChIJSSE9uBvxmVQRuKJt5vIZs0c",
+  "result": {
+    "formatted_address": "200 East 4th Avenue, Ellensburg, WA",
+    "formatted_phone_number": "(509) 255-3150",
+    "geometry": {
+      "location": {
+        "lat": 46.9954186,
+        "lng": -120.5456212
+      }
+    },
+    "name": "Devine Wellness and Relaxation",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:30 \u2013 18:30",
+        "Wednesday: 10:30 \u2013 18:30",
+        "Thursday: 10:30 \u2013 18:30",
+        "Friday: 10:30 \u2013 18:30",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJSSE9uBvxmVQRuKJt5vIZs0c",
+    "website": "http://www.devinewellness.net/"
+  }
+}
