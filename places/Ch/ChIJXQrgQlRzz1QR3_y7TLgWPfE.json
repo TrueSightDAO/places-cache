@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Jupiter Row",
+  "place_id": "ChIJXQrgQlRzz1QR3_y7TLgWPfE",
+  "result": {
+    "formatted_address": "31 North Main Street, Ashland, OR",
+    "formatted_phone_number": "(541) 708-6175",
+    "geometry": {
+      "location": {
+        "lat": 42.1973218,
+        "lng": -122.7158852
+      }
+    },
+    "name": "Jupiter Row",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJXQrgQlRzz1QR3_y7TLgWPfE",
+    "website": "https://jupiterrow.com/"
+  }
+}
