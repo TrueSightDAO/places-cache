@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Wild Heart Apothecary",
+  "place_id": "ChIJJw8KgI5F6oARvksPSmVPCiw",
+  "result": {
+    "formatted_address": "12812 Valentano Avenue, Bakersfield, CA",
+    "formatted_phone_number": "(661) 343-6797",
+    "geometry": {
+      "location": {
+        "lat": 35.4176523,
+        "lng": -119.1446365
+      }
+    },
+    "name": "Wild Heart Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJJw8KgI5F6oARvksPSmVPCiw",
+    "website": "http://www.wild-heart-apothecary.com/"
+  }
+}
