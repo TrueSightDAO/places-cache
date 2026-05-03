@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Anam Cara Healing Center",
+  "place_id": "ChIJ0RV9BqIZnlQR85iaWwa9ZRs",
+  "result": {
+    "formatted_address": "7 South Howard Street, Spokane, WA",
+    "geometry": {
+      "location": {
+        "lat": 47.6569713,
+        "lng": -117.420852
+      }
+    },
+    "name": "Anam Cara Healing Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 18:00",
+        "Tuesday: 7:00 \u2013 18:00",
+        "Wednesday: 7:00 \u2013 18:00",
+        "Thursday: 7:00 \u2013 18:00",
+        "Friday: 7:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: 9:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ0RV9BqIZnlQR85iaWwa9ZRs",
+    "website": "http://anamcarahealing.center/"
+  }
+}
