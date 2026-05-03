@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Freedom Apothecary",
+  "place_id": "ChIJidJ9VTLJxokRUSXdNR90glU",
+  "result": {
+    "formatted_address": "1430 Terpsichore Street, New Orleans, LA",
+    "formatted_phone_number": "(504) 884-4711",
+    "geometry": {
+      "location": {
+        "lat": 29.9371882,
+        "lng": -90.0745803
+      }
+    },
+    "name": "Freedom Apothecary",
+    "place_id": "ChIJidJ9VTLJxokRUSXdNR90glU",
+    "website": "http://www.freedomapothecary.com/"
+  }
+}
