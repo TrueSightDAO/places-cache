@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La Racine Apothecary",
+  "place_id": "ChIJ5VmKFf0pw4AR2H42wQ6UWMw",
+  "result": {
+    "formatted_address": "108 East Arrow Highway, Azusa, CA",
+    "geometry": {
+      "location": {
+        "lat": 34.1064228,
+        "lng": -117.889724
+      }
+    },
+    "name": "La Racine Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ5VmKFf0pw4AR2H42wQ6UWMw",
+    "website": "https://www.etsy.com/shop/LaRacineApothecary"
+  }
+}
