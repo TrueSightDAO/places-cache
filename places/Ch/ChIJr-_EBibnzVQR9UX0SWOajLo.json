@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Mary\u2019s Inn & Mount Shasta Retreat",
+  "place_id": "ChIJr-_EBibnzVQR9UX0SWOajLo",
+  "result": {
+    "formatted_address": "203 Birch Street, Mount Shasta, CA",
+    "formatted_phone_number": "(530) 261-1161",
+    "geometry": {
+      "location": {
+        "lat": 41.3145785,
+        "lng": -122.3088976
+      }
+    },
+    "name": "Mary\u2019s Inn & Mount Shasta Retreat",
+    "place_id": "ChIJr-_EBibnzVQR9UX0SWOajLo",
+    "website": "http://www.marysinnmountshasta.com/"
+  }
+}
