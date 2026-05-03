@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:01Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earthly Essentials",
+  "place_id": "ChIJXZBP41jLkIAR9_e2APLQ_Sw",
+  "result": {
+    "formatted_address": "22990 Joaquin Gully Road, Twain Harte, CA",
+    "formatted_phone_number": "(209) 651-1118",
+    "geometry": {
+      "location": {
+        "lat": 38.039069,
+        "lng": -120.2298838
+      }
+    },
+    "name": "Earthly Essentials",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 16:30",
+        "Thursday: Closed",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJXZBP41jLkIAR9_e2APLQ_Sw",
+    "website": "https://www.facebook.com/Earthlyessentialsvibrations"
+  }
+}
