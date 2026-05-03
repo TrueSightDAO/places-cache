@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lorien Herbs & Natural Foods",
+  "place_id": "ChIJiyaM9XginlQRrIqbdxKfvJI",
+  "result": {
+    "formatted_address": "1102 South Perry Street, Spokane, WA",
+    "formatted_phone_number": "(509) 456-0702",
+    "geometry": {
+      "location": {
+        "lat": 47.6452874,
+        "lng": -117.390173
+      }
+    },
+    "name": "Lorien Herbs & Natural Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 12:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJiyaM9XginlQRrIqbdxKfvJI",
+    "website": "http://www.lorienherbs.com/"
+  }
+}
