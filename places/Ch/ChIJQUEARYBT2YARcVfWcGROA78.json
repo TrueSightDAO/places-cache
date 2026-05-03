@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "NG Apothecary Herb Shop",
+  "place_id": "ChIJQUEARYBT2YARcVfWcGROA78",
+  "result": {
+    "formatted_address": "2205 Logan Avenue, San Diego, CA",
+    "formatted_phone_number": "(619) 624-1550",
+    "geometry": {
+      "location": {
+        "lat": 32.6977694,
+        "lng": -117.1392944
+      }
+    },
+    "name": "NG Apothecary Herb Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 14:00 \u2013 18:00",
+        "Thursday: Closed",
+        "Friday: 14:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJQUEARYBT2YARcVfWcGROA78",
+    "website": "http://ngapothecary.com/"
+  }
+}
