@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Polite Provisions",
+  "place_id": "ChIJb8wNR_5U2YARjJGG_oP9How",
+  "result": {
+    "formatted_address": "4696 30th Street, San Diego, CA",
+    "formatted_phone_number": "(619) 269-4701",
+    "geometry": {
+      "location": {
+        "lat": 32.7627472,
+        "lng": -117.1303853
+      }
+    },
+    "name": "Polite Provisions",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 17:00 \u2013 2:00",
+        "Tuesday: 17:00 \u2013 2:00",
+        "Wednesday: 17:00 \u2013 2:00",
+        "Thursday: 17:00 \u2013 2:00",
+        "Friday: 15:00 \u2013 2:00",
+        "Saturday: 15:00 \u2013 2:00",
+        "Sunday: 15:00 \u2013 2:00"
+      ]
+    },
+    "place_id": "ChIJb8wNR_5U2YARjJGG_oP9How",
+    "website": "http://politeprovisions.com/"
+  }
+}
