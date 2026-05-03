@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Amethyst House",
+  "place_id": "ChIJB4xv4vI1joARCivg4_HhK48",
+  "result": {
+    "formatted_address": "1639 Meridian Ave, San Jose, CA",
+    "formatted_phone_number": "(408) 933-9181",
+    "geometry": {
+      "location": {
+        "lat": 37.2928292,
+        "lng": -121.9138594
+      }
+    },
+    "name": "Amethyst House",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJB4xv4vI1joARCivg4_HhK48",
+    "website": "https://www.amethysthousehealing.com/"
+  }
+}
