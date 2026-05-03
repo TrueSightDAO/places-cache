@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:45Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Body Alchemy Wellness Studio",
+  "place_id": "ChIJ-y2MEI17xVQRQUWG8H3zwUM",
+  "result": {
+    "formatted_address": "213 Southwest 4th Street, Grants Pass, OR",
+    "formatted_phone_number": "(541) 761-1487",
+    "geometry": {
+      "location": {
+        "lat": 42.4392444,
+        "lng": -123.3297753
+      }
+    },
+    "name": "Body Alchemy Wellness Studio",
+    "place_id": "ChIJ-y2MEI17xVQRQUWG8H3zwUM",
+    "website": "http://www.bodyalchemywellnessstudio.com/"
+  }
+}
