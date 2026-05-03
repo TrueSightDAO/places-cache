@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Positively Fourth Street",
+  "place_id": "ChIJ40S0dv5HhIARWAj1Z66yRM0",
+  "result": {
+    "formatted_address": "628 4th Street Email: positivelyfourthstreetstore@gmail.com, Santa Rosa, CA 95404, USA, Santa Rosa, CA",
+    "formatted_phone_number": "(707) 526-3588",
+    "geometry": {
+      "location": {
+        "lat": 38.44067,
+        "lng": -122.712829
+      }
+    },
+    "name": "Positively Fourth Street",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ40S0dv5HhIARWAj1Z66yRM0",
+    "website": "http://positvelyfourthstreetstore.com/"
+  }
+}
