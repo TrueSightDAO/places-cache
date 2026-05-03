@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "NW Apothecary",
+  "place_id": "ChIJZzCalwZtlFQRWAXj6uLSoLA",
+  "result": {
+    "formatted_address": "1145 14th Avenue, Longview, WA",
+    "formatted_phone_number": "(360) 560-7811",
+    "geometry": {
+      "location": {
+        "lat": 46.1350919,
+        "lng": -122.9369583
+      }
+    },
+    "name": "NW Apothecary",
+    "place_id": "ChIJZzCalwZtlFQRWAXj6uLSoLA",
+    "website": "https://nwapothecary.com/"
+  }
+}
