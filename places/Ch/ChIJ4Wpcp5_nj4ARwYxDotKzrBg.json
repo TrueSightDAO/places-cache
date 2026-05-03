@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Creative Healing Center & Crystal Boutique and Event Center",
+  "place_id": "ChIJ4Wpcp5_nj4ARwYxDotKzrBg",
+  "result": {
+    "formatted_address": "1601 Railroad Avenue, Livermore, CA",
+    "formatted_phone_number": "(925) 443-4442",
+    "geometry": {
+      "location": {
+        "lat": 37.6810951,
+        "lng": -121.7764968
+      }
+    },
+    "name": "Creative Healing Center & Crystal Boutique and Event Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ4Wpcp5_nj4ARwYxDotKzrBg",
+    "website": "http://www.creativehealingcenter.guru/"
+  }
+}
