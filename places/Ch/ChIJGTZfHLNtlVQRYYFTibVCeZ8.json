@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blue Moon Apothecary",
+  "place_id": "ChIJGTZfHLNtlVQRYYFTibVCeZ8",
+  "result": {
+    "formatted_address": "11865 Southwest Tualatin Road, Tualatin, OR",
+    "formatted_phone_number": "(815) 601-7128",
+    "geometry": {
+      "location": {
+        "lat": 45.3916491,
+        "lng": -122.7976631
+      }
+    },
+    "name": "Blue Moon Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJGTZfHLNtlVQRYYFTibVCeZ8",
+    "website": "https://mybluemoonapothecary.etsy.com/"
+  }
+}
