@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:17Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "CeeCee & Bee Apothecary",
+  "place_id": "ChIJy45P3dUH3IARHXcp62cKyx0",
+  "result": {
+    "formatted_address": "10459 Roselle Street, San Diego, CA",
+    "formatted_phone_number": "(858) 461-8947",
+    "geometry": {
+      "location": {
+        "lat": 32.8953502,
+        "lng": -117.2195638
+      }
+    },
+    "name": "CeeCee & Bee Apothecary",
+    "place_id": "ChIJy45P3dUH3IARHXcp62cKyx0"
+  }
+}
