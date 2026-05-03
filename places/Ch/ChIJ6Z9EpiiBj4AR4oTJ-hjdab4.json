@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Feathered Outlaw",
+  "place_id": "ChIJ6Z9EpiiBj4AR4oTJ-hjdab4",
+  "result": {
+    "formatted_address": "1506 Webster Street, Alameda, CA",
+    "formatted_phone_number": "(510) 239-4593",
+    "geometry": {
+      "location": {
+        "lat": 37.8044457,
+        "lng": -122.2680401
+      }
+    },
+    "name": "Feathered Outlaw",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 10:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJ6Z9EpiiBj4AR4oTJ-hjdab4",
+    "website": "http://www.featheredoutlaw.com/"
+  }
+}
