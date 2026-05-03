@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Away With Words",
+  "place_id": "ChIJSzTcFp4jkFQRUKf5Wa9m9kI",
+  "result": {
+    "formatted_address": "18954 Front Street Northeast, Poulsbo, WA",
+    "formatted_phone_number": "(360) 908-7469",
+    "geometry": {
+      "location": {
+        "lat": 47.7349095,
+        "lng": -122.6464215
+      }
+    },
+    "name": "Away With Words",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJSzTcFp4jkFQRUKf5Wa9m9kI",
+    "website": "https://awaywithwordsbookshop.com/"
+  }
+}
