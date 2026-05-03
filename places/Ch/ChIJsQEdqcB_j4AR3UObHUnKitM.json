@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bumble Bee Botanicals Kratom",
+  "place_id": "ChIJsQEdqcB_j4AR3UObHUnKitM",
+  "result": {
+    "formatted_address": "3215 17th Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 275-0240",
+    "geometry": {
+      "location": {
+        "lat": 37.7633867,
+        "lng": -122.417842
+      }
+    },
+    "name": "Bumble Bee Botanicals Kratom",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJsQEdqcB_j4AR3UObHUnKitM",
+    "website": "https://bumblebeesd.com/kratom-san-francisco?utm_source=google&utm_campaign=gmb"
+  }
+}
