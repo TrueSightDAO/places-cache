@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Tan Hua SF LLC",
+  "place_id": "ChIJu0VNuz2BhYARE6pbNmH_dhA",
+  "result": {
+    "formatted_address": "1143 Stockton Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 757-0986",
+    "geometry": {
+      "location": {
+        "lat": 37.7963571,
+        "lng": -122.4085269
+      }
+    },
+    "name": "Tan Hua SF LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:30 \u2013 5:30",
+        "Tuesday: 9:30 \u2013 5:30",
+        "Wednesday: 9:30 \u2013 5:30",
+        "Thursday: 9:30 \u2013 5:30",
+        "Friday: 9:30 \u2013 5:30",
+        "Saturday: 9:30 \u2013 5:30",
+        "Sunday: 9:30 \u2013 5:30"
+      ]
+    },
+    "place_id": "ChIJu0VNuz2BhYARE6pbNmH_dhA"
+  }
+}
