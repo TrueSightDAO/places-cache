@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bucks Spices and Teas",
+  "place_id": "ChIJlcc7FBx1kVQR_D623OYUhfQ",
+  "result": {
+    "formatted_address": "209 5th Avenue Southeast, Olympia, WA",
+    "formatted_phone_number": "(360) 634-2135",
+    "geometry": {
+      "location": {
+        "lat": 47.0440497,
+        "lng": -122.89991
+      }
+    },
+    "name": "Bucks Spices and Teas",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 16:00",
+        "Thursday: Closed",
+        "Friday: 11:00 \u2013 16:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:30 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJlcc7FBx1kVQR_D623OYUhfQ",
+    "website": "http://bucksspices.com/"
+  }
+}
