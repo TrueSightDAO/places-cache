@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:58Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apothek | Aesthetics Lounge",
+  "place_id": "ChIJ7chqsGzh3IARt-WErb7_7p0",
+  "result": {
+    "formatted_address": "1870 Harbor Boulevard, Costa Mesa, CA",
+    "formatted_phone_number": "(949) 945-2211",
+    "geometry": {
+      "location": {
+        "lat": 33.6426171,
+        "lng": -117.9187478
+      }
+    },
+    "name": "Apothek | Aesthetics Lounge",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:30 \u2013 17:00",
+        "Wednesday: 9:30 \u2013 17:00",
+        "Thursday: 9:30 \u2013 17:00",
+        "Friday: 9:30 \u2013 17:00",
+        "Saturday: 10:00 \u2013 14:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ7chqsGzh3IARt-WErb7_7p0",
+    "website": "http://www.apotheklounge.com/"
+  }
+}
