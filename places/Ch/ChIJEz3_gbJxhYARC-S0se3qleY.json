@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Crystal Garden",
+  "place_id": "ChIJEz3_gbJxhYARC-S0se3qleY",
+  "result": {
+    "formatted_address": "779 Higuera St, San Luis Obispo, CA",
+    "formatted_phone_number": "(510) 800-2022",
+    "geometry": {
+      "location": {
+        "lat": 35.2795219,
+        "lng": -120.66315
+      }
+    },
+    "name": "Crystal Garden",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 17:00 \u2013 21:00",
+        "Saturday: 12:00 \u2013 21:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJEz3_gbJxhYARC-S0se3qleY"
+  }
+}
