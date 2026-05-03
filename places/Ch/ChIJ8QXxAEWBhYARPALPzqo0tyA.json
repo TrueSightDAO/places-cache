@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Pure Natural Miracles",
+  "place_id": "ChIJ8QXxAEWBhYARPALPzqo0tyA",
+  "result": {
+    "formatted_address": "1855 Filbert Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 235-9591",
+    "geometry": {
+      "location": {
+        "lat": 37.7986232,
+        "lng": -122.4298696
+      }
+    },
+    "name": "Pure Natural Miracles",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ8QXxAEWBhYARPALPzqo0tyA",
+    "website": "https://www.purenaturalmiracles.com/"
+  }
+}
