@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ignite",
+  "place_id": "ChIJA8Xy0-S3woARxTHue80x9UA",
+  "result": {
+    "formatted_address": "10816 Hawthorne Boulevard, Inglewood, CA",
+    "formatted_phone_number": "(323) 674-2276",
+    "geometry": {
+      "location": {
+        "lat": 33.9377025,
+        "lng": -118.3522443
+      }
+    },
+    "name": "Ignite",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 22:45",
+        "Tuesday: 9:00 \u2013 22:45",
+        "Wednesday: 9:00 \u2013 22:45",
+        "Thursday: 9:00 \u2013 22:45",
+        "Friday: 9:00 \u2013 22:45",
+        "Saturday: 9:00 \u2013 22:45",
+        "Sunday: 9:00 \u2013 22:45"
+      ]
+    },
+    "place_id": "ChIJA8Xy0-S3woARxTHue80x9UA",
+    "website": "https://603ca349dcc56.site123.me/"
+  }
+}
