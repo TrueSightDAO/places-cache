@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "I & E Organics Apothecary",
+  "place_id": "ChIJWUBeSjeq3oARvyY2rUw42jU",
+  "result": {
+    "formatted_address": "Bellevue, San Diego, CA",
+    "formatted_phone_number": "(619) 908-2165",
+    "geometry": {
+      "location": {
+        "lat": 32.740978,
+        "lng": -117.249975
+      }
+    },
+    "name": "I & E Organics Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:30 \u2013 16:30",
+        "Tuesday: 10:30 \u2013 16:30",
+        "Wednesday: 10:30 \u2013 16:30",
+        "Thursday: 10:30 \u2013 16:30",
+        "Friday: 10:30 \u2013 16:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJWUBeSjeq3oARvyY2rUw42jU",
+    "website": "http://www.alchemistsapothecary.com/"
+  }
+}
