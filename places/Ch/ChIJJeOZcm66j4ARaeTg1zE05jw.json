@@ -1,40 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:01Z",
+  "fetched_at": "2026-05-03T07:06:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "7 Rays Holistic Center",
   "place_id": "ChIJJeOZcm66j4ARaeTg1zE05jw",
   "result": {
-    "formatted_address": "3035 El Camino Real, Palo Alto, CA",
+    "address_components": [
+      {
+        "long_name": "190",
+        "short_name": "190",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Osage Avenue",
+        "short_name": "Osage Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North Los Altos",
+        "short_name": "North Los Altos",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Altos",
+        "short_name": "Los Altos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94022",
+        "short_name": "94022",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "190 Osage Ave, Los Altos, CA 94022, USA",
     "formatted_phone_number": "(650) 798-4168",
     "geometry": {
       "location": {
-        "lat": 37.421713,
-        "lng": -122.1398505
+        "lat": 37.3788495,
+        "lng": -122.1063115
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.3801756802915,
+          "lng": -122.1048185197085
+        },
+        "southwest": {
+          "lat": 37.3774777197085,
+          "lng": -122.1075164802915
+        }
       }
     },
     "name": "7 Rays Holistic Center",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 17:30",
-        "Tuesday: 9:00 \u2013 17:30",
-        "Wednesday: 9:00 \u2013 17:30",
-        "Thursday: 9:00 \u2013 17:30",
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
         "Friday: Closed",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-tNlpehWICauYTjcUOneeeaEkiPdoQakzvu0BvXYWeuYocf0qUdu_WgK-xm-tfb_4hws0XS9FGrJjckxS0eYLFEm546BWzgA8sK4e9x3l9oFseHSolNbCY6_ZsVs_VcUz4Jsm-EwKmxcvJ2I-S9hXHx-hKWzQHiCqdg9UhzPz5pyuGhV7Z5V9jURU8c2yyeUByftCtb9fC2QuzXpX7eJUS4PiGUifEvnpq34bXGulCGCKINFRHSz9GxCAlC-8nkqCSJxR_-BKBUl5XIEUYsYyVl0RHbLw7OMUweSzVpI-BDgA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-ukSwJ8zF9cmcOeCfj_by5-xhr72Zq0-elHnyxNJoAZd9cm_x9NrfPFl0H9yIRJ0wjSkz2sVnTJg5g9sGZ9_Rrjlv34Wt7ptAnn_voVr6ybqNMfyjxO-UYV7GmXh_BFw6j2QBNIHAJ89sb3gXHD-olIunw-N4PPd_QzZ-VLkxepRoXFZCVOmalZ-qXa80qJPVM8eg5F_faXG4vHEKgU3Xt0rWTYAIOzvuwG3_2ZndeWysboKvyTi8_bsN9SGcEa4VVIpZXHMqfvWtj8W3rffFZEkAgOMtjKf7upuvC407ve9g",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-tQ34mMyGJMHlQIQP7G_i3lRkyp_hTTjWui5RnNRXnbRM8X_qsWajlL-aXXoAas6vET4ZBy6pG4nFNNGCmE8F7H137YBNGALS4uCz4Ew5nsDmRwc7YI2fezsWQ98NZ_JXrtbEFAZl041IGj8kyr0S4q0Z7Dqe1TvzTS9sPhQgFQsBchb_BCOBP7jpJKv_Tmt4KDIJN50bE3AEOEdUgtk9U9T-i4Fjl9OggA0iXNpFAZjTOgFhS-0cYAfCRGcFw2M0wDsDB3Z6yEhCtPcL1erh8ObDbjR_tl7T6axGjLrSHUHg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-sFkK4CWUSIiX3Wd4xTvkG-yyaRxTbnVmTANdgNhl57vZRDCsLoJfmfMneoQN20t74fxu5edIqY-k4Hb3uu7d1LhH5a6T27X4Gxyp0kookA3Jlu09Ja7VrfB1FECCvLQ-YUds62Yg1E_P4GZB-6kqGoil3gjfaS7cZp2UhB4IBsKbSZFh0vnCyRqSL61Sesf_5WOhHvGXuhIzSSfQpvWYGH_y3nrqqb0FUFqz0ViIGaTZ1D7d_XOIpmuEBQJ0fZ_PBLg6hvh6lQKlQQ14r2-j4Idpd6uaOEKKTQQfTgcCFZPg",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-vEv9yiXHHPy1KqoV3_WzJZXsKnR5Lmgm0LktLnIWsVBniB9HQW4NahcWcF8dikhErMkYwukEMvDxJxUDpBWKvcSBBTNczNcBESE-2h6pfsKdgT6sRw0S_dASZNgMXfLetZFaJbq91wPSC19D-YV-ZT_BOnN6dzUyJEx-309_qF-QV0slRGZprdLDEOp37ol9JukafIqysTbRqv4L-tM7wlqZbYKJff42o-QK5Jss1X5l4HU01MhYGvBCXFWvjjrQ5Dn1c_vBf1wskjdAbLz5j-q7wW_IS3S1OpsCrT994hwg",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-tWNeqSvj1-pHrzdbJUcQJgSeAd9nwAFBYdCaVb3oQ5_zDf-S82lSrboomC_Dd_Yp906AxHP8dfZ9Fbm68ZDfQOB_8rXYTG3ByU8Kps2GTJ7gMWe3laR_l9CVWmKSPgI75fmx0xsk2VnpHrYpQgqiCpMwCvo0hvs8Oyr7j-4e6_pl7_AeXnr-B7dMDQj5C36QEUWeBRQiHeHvy8bKncuI564D6KO5SMsZ-YH7pAC4F8WsAPy6lU04Bch8AkSE6gqPH0qE4agZFoU1DvCxGgv16rgum68zJZFdKcxk-Z_bbd_w",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-uE_FCcIrQgNwahfn077S-XrXLCYiD9ftIEZdeGQr7REPbTaoANY-66z-aNUn-FbMfw5nE15RVzNcpk6OZUQZyFznJGkhj711iwRi6Qp4o76g6bApJHRuJ9V-7efJ5d-RsP5SOAmxw4yO6RTtZPR0jcGJmY13Dg-ElDFRam4S2qoB_g0vuKkSb9HhOa6T3VaZJRhKI22uCLIypXIsMaFpYQOopG-kMlrao5eDc40PDYm8SVL0IIrKFgATyNjfwUC3sX7g-0iwVnbAiAN2NQrNWIGBRYTLbYV-lT5_eDTrcakw",
+        "width": 3024
+      },
+      {
+        "height": 1756,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-vBzNkzD4LtrD-nusiNZmNnnbLughhuFZJQsFZ7C5IACCcGv8958aWZLBvoERKdknDb7Xkdu5bqB1eYsjTXti19UM9KXpNcUw-ZqxbYDO0vpORkX_DCHiO_6OzLTAz9frCcpEIIaDupUd6xPzkS-cB-NIy_9Kl3SB7KDu6XvHIlr2rdpgazia6UCDJfpyJCEQrXIzq_qreh5o-5AkxUGMd6Ru8Dbt1OpQZna6bhXEUMyhtFfswfttA95KwXOB5QYIz8xGcA9qpaAgMXiNAG1IBMcDI3dY3oev6fS3I59sDwvA",
+        "width": 2601
+      },
+      {
+        "height": 2466,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-tz7FLDIAbZN7cTLP4CBcaDtHiHv4jMKNwNeVImLFB_6mVGXl3A2hHjP9pe9YVOCJnPu-Bh7olYe37Lfgygv7BE-3BoxO60_phlNCxroeW2LIjdY_Grh9Gcvm2_Igju6MZGSqvK2mel81aGFLdrgEqtctVl0Dk0VVd99O_QF41nR7Ff7qgnHj77zXRoE15OcnXLKVwOBiy1uoGOD2poKVXW0KLpPpJdNtxzCHP-BBzkcenWSP6oBUTeDfKvd2ZzYlc4fBAcF4DQ7WnhhNPvMG4fnILYTkCv6nJ5oSLET6VrNg",
+        "width": 2824
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101666389851647631827\">7 Rays Holistic Center</a>"
+        ],
+        "photo_reference": "Ab43m-u6aUROd8fetb10onFRZfGYlTidnenUimpBpGPxiLLNy1gZFzf8aDTcFFNs2JBa5El8bkQt9OLSPqmVvzbIXTxBeADSzT0Hwu-5Z28jfCxxqnukm_el5W9jDvf_Tugbtim3upWPu6vOhvNmF0E6LEX-llR1GeinuoGcRj22syrCeMYt2s-Q_7pEG0cL0FfaClkuL51pMk2QQhQrHmo7KNcLebSHDB_Xr4gKyk3U056oXyRncJ9w-63ejUbcjZsO6Hj7KZuwt6xuNRDTPP6OBbIAxiu4KlORbVmy64Or6eQubg",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJJeOZcm66j4ARaeTg1zE05jw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "school"
+    ],
+    "url": "https://maps.google.com/?cid=4388252275599008873",
+    "vicinity": "190 Osage Ave, Los Altos",
     "website": "http://www.7raysholisticcenter.com/"
   }
 }
