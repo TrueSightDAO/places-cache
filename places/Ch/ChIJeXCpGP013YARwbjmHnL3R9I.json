@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Aztlan Herbal Remedies",
+  "place_id": "ChIJeXCpGP013YARwbjmHnL3R9I",
+  "result": {
+    "formatted_address": "21720 South Vermont Avenue, Torrance, CA",
+    "formatted_phone_number": "(424) 228-8646",
+    "geometry": {
+      "location": {
+        "lat": 33.8307501,
+        "lng": -118.2893417
+      }
+    },
+    "name": "Aztlan Herbal Remedies",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJeXCpGP013YARwbjmHnL3R9I",
+    "website": "https://www.aztlanherbalremedies.com/"
+  }
+}
