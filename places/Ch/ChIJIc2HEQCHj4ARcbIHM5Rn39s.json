@@ -1,0 +1,24 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Sacred Well",
+  "place_id": "ChIJIc2HEQCHj4ARcbIHM5Rn39s",
+  "result": {
+    "formatted_address": "536 Grand Ave, Oakland, CA",
+    "geometry": {
+      "location": {
+        "lat": 37.8089237,
+        "lng": -122.2508367
+      }
+    },
+    "name": "The Sacred Well",
+    "place_id": "ChIJIc2HEQCHj4ARcbIHM5Rn39s"
+  }
+}
