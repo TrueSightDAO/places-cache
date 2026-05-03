@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:39Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Country Sun Natural Foods",
+  "place_id": "ChIJc37X8eW6j4ARCGK8720jjo8",
+  "result": {
+    "formatted_address": "440 California Avenue, Palo Alto, CA",
+    "formatted_phone_number": "(650) 324-9190",
+    "geometry": {
+      "location": {
+        "lat": 37.4262027,
+        "lng": -122.1454268
+      }
+    },
+    "name": "Country Sun Natural Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJc37X8eW6j4ARCGK8720jjo8",
+    "website": "http://countrysun.com/"
+  }
+}
