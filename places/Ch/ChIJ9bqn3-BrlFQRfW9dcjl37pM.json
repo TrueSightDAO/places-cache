@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Today's Herbal Choice",
+  "place_id": "ChIJ9bqn3-BrlFQRfW9dcjl37pM",
+  "result": {
+    "formatted_address": "75936 Rockcrest Street, Rainier, OR",
+    "formatted_phone_number": "(503) 395-2340",
+    "geometry": {
+      "location": {
+        "lat": 46.0966171,
+        "lng": -122.9607097
+      }
+    },
+    "name": "Today's Herbal Choice",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 10:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJ9bqn3-BrlFQRfW9dcjl37pM",
+    "website": "https://todaysherbalchoice.com/thc-rainier/"
+  }
+}
