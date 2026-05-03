@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ancient Future",
+  "place_id": "ChIJyyL8ws19hYARXPa6YkcBZag",
+  "result": {
+    "formatted_address": "2903 College Ave, Berkeley, CA",
+    "formatted_phone_number": "(510) 334-3320",
+    "geometry": {
+      "location": {
+        "lat": 37.8583592,
+        "lng": -122.2531078
+      }
+    },
+    "name": "Ancient Future",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:30 \u2013 18:30",
+        "Tuesday: 10:30 \u2013 18:30",
+        "Wednesday: 10:30 \u2013 18:30",
+        "Thursday: 10:30 \u2013 18:30",
+        "Friday: 10:30 \u2013 18:30",
+        "Saturday: 10:30 \u2013 18:30",
+        "Sunday: 10:30 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJyyL8ws19hYARXPa6YkcBZag"
+  }
+}
