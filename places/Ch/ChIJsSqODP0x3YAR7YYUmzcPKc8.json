@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Apothecary at Midnight Oil",
+  "place_id": "ChIJsSqODP0x3YAR7YYUmzcPKc8",
+  "result": {
+    "formatted_address": "255 Long Beach Boulevard, Long Beach, CA",
+    "formatted_phone_number": "(562) 269-0218",
+    "geometry": {
+      "location": {
+        "lat": 33.7702209,
+        "lng": -118.1897457
+      }
+    },
+    "name": "The Apothecary at Midnight Oil",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 16:30 \u2013 23:00",
+        "Wednesday: 16:30 \u2013 23:00",
+        "Thursday: 16:30 \u2013 23:00",
+        "Friday: 16:30 \u2013 0:00",
+        "Saturday: 16:30 \u2013 0:00",
+        "Sunday: 16:30 \u2013 23:00"
+      ]
+    },
+    "place_id": "ChIJsSqODP0x3YAR7YYUmzcPKc8",
+    "website": "https://mnolbc.com/"
+  }
+}
