@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Patient Care First",
+  "place_id": "ChIJq6qqqsdQkIARHrDjQfCpOD0",
+  "result": {
+    "formatted_address": "1442 Angie Avenue, Modesto, CA",
+    "formatted_phone_number": "(209) 762-8513",
+    "geometry": {
+      "location": {
+        "lat": 37.6102033,
+        "lng": -120.9398488
+      }
+    },
+    "name": "Patient Care First",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:30",
+        "Tuesday: 9:00 \u2013 21:30",
+        "Wednesday: 9:00 \u2013 21:30",
+        "Thursday: 9:00 \u2013 21:30",
+        "Friday: 9:00 \u2013 21:30",
+        "Saturday: 9:00 \u2013 21:30",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJq6qqqsdQkIARHrDjQfCpOD0",
+    "website": "https://www.tpg420.com/shoppcf"
+  }
+}
