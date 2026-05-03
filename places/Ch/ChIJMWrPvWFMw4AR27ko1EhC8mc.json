@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Empress Organics",
+  "place_id": "ChIJMWrPvWFMw4AR27ko1EhC8mc",
+  "result": {
+    "formatted_address": "1125 La Brea Avenue, Inglewood, CA",
+    "formatted_phone_number": "(909) 767-2831",
+    "geometry": {
+      "location": {
+        "lat": 33.94849,
+        "lng": -118.3528843
+      }
+    },
+    "name": "Empress Organics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJMWrPvWFMw4AR27ko1EhC8mc",
+    "website": "http://www.empressorganics.net/"
+  }
+}
