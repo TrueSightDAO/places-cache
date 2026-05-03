@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Theninthhouseshop",
+  "place_id": "ChIJVVVlR-Fw1oYRUqrQ9b7XRwE",
+  "result": {
+    "formatted_address": "2563 E Fort Lowell Rd, Tucson, AZ 85716, United States, Tucson, AZ",
+    "formatted_phone_number": "(520) 325-9611",
+    "geometry": {
+      "location": {
+        "lat": 32.2652352,
+        "lng": -110.933622
+      }
+    },
+    "name": "Theninthhouseshop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJVVVlR-Fw1oYRUqrQ9b7XRwE",
+    "website": "http://www.theninthhouseshop.com/"
+  }
+}
