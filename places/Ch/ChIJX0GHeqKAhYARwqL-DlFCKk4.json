@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Church Barber & Apothecary",
+  "place_id": "ChIJX0GHeqKAhYARwqL-DlFCKk4",
+  "result": {
+    "formatted_address": "524 Octavia Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 814-3788",
+    "geometry": {
+      "location": {
+        "lat": 37.7770546,
+        "lng": -122.4245687
+      }
+    },
+    "name": "Church Barber & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJX0GHeqKAhYARwqL-DlFCKk4",
+    "website": "https://churchcalifornia.com/pages/church-barber"
+  }
+}
