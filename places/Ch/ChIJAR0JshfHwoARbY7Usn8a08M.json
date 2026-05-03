@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:19Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Pan\u2019s Apothika aka Panpipes",
+  "place_id": "ChIJAR0JshfHwoARbY7Usn8a08M",
+  "result": {
+    "formatted_address": "4856 Santa Monica Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(323) 891-5936",
+    "geometry": {
+      "location": {
+        "lat": 34.090688,
+        "lng": -118.2953675
+      }
+    },
+    "name": "Pan\u2019s Apothika aka Panpipes",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJAR0JshfHwoARbY7Usn8a08M",
+    "website": "http://www.panpipes.com/"
+  }
+}
