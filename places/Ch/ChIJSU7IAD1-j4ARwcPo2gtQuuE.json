@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:00Z",
+  "fetched_at": "2026-05-03T07:06:33Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Paxton Gate",
   "place_id": "ChIJSU7IAD1-j4ARwcPo2gtQuuE",
   "result": {
-    "formatted_address": "824 Valencia St, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "824",
+        "short_name": "824",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Valencia Street",
+        "short_name": "Valencia St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mission Dolores",
+        "short_name": "Mission Dolores",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94110",
+        "short_name": "94110",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "824 Valencia St, San Francisco, CA 94110, USA",
     "formatted_phone_number": "(415) 824-1872",
     "geometry": {
       "location": {
-        "lat": 37.7596367,
-        "lng": -122.4216659
+        "lat": 37.759634,
+        "lng": -122.4216738
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7609736302915,
+          "lng": -122.4201828697085
+        },
+        "southwest": {
+          "lat": 37.7582756697085,
+          "lng": -122.4228808302915
+        }
       }
     },
     "name": "Paxton Gate",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 19:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109378098181800622687\">Laura Musikanski</a>"
+        ],
+        "photo_reference": "Ab43m-vtFI4d7WbSCrEf7aaVb17oD8zlQnw9LsqmzOhijG-08e2dszSVvBlGVyjxejcmkkxD-N8QKm564NZuMsG8qtA6hMQ1C35__Eq7RAdW-s8sAr2PbPKnXjyUuQJ2Ze2Ak2Ad5PamdUxiHRXrgKqgEsTJVSwYlV_wdRCurE5Ed0AZC2uTlRUQorXhfIVe3aSHrwuSQi9-g-FTizR-LguVfLi-Limp0IQtG46EDk1BKvHQ2lvllucadxHAyH0OGCYlzlLBa459Lmnn5lNESRRu38_D7bkQR5LLI25tT_MHTncYxkhWSd5Ez9QZ6tINy38R2AkETx4MUdhysy73MRkX4cQm8J-pZeeFPG_2QO9CgimVocG7IdrTOZfyp6vK_kf-IGVZ45_dWsrq3E2EW9p3mqnB2uUIsgobZNlFU_ZICW4",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109831532414956942424\">Igor Bandeira</a>"
+        ],
+        "photo_reference": "Ab43m-tfjbg_Ux6ElV0_lPYa8XvNfjB0E0VFMiIGEoKTfG-ZwZSXCPSZw-70R_k8RjtmfbgmBobLqoEvOfinKphkDv-fNGnZFKNKpA0XguAsRYWI9iivA26mAGqRPQE-sP9VH3qhf8eyzlIxJsC_WDkhMTIfoEXVLvRfcpVo8ZLgqDW1Dk257yBGg2HFjeteCZKAuwXrS7tj4Z7OncTPFNCGdLvUu5TftLm6JwXeExW_bOQtKFQ6_X6V0weh4CnjW-jd2IY6om-xDZa4z_A2yruRiObv7_YzBL9svHpqiNrSobxoAR8P0eO6OgmpUl0Xn4PmVHmaWuGw55nDX5yUu-z4PcWSNb1AeHq5h-anBrBzcHKKo8BRTkOPHVOXYpjZh5acoitxgUvrgWaS2zwUE2qCMt_05EHafrhMqOYTrw8_6QA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112103432346366013243\">Tawni Deptula</a>"
+        ],
+        "photo_reference": "Ab43m-vgXXcbwFyU5rrSVvnuLs-VR6ba1TeP0hA_RVNCLRSqxSFt8hWTPW83UFzH5t0csSiZ9dRG6JWPTspEg-WajkbT6CdTiX0n3eDmai9UbfWj5B3OK5ixtEURx40X37GfqIFSk3WMJeyA55Ky7NX3zF0b0SFy8sjbYiuyfJmScfDXoZs1xFRm-FeEpdV42ZvABGdlrgzRpiGiQMlOivkfotlFjxO99KXi08p3idOzOjOE3-IR7zd4bfGfp1vGNRMDLo--UZiaiowf0PLS_AH_GguHT8xi2I6PQdQl0_D1hddtjPxih4MKOb9vUuID1Y4ThgmBEBBeExow-aWrzDRYF5RsoL70ij_0tJbOZ6RyMPmPM6EU8rOcnDrpLImVzPNBpoGOO3L0WS-RATMMnwfrcN7RI9b319NhXmUfYOxaPndMmw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108392816304433868532\">N</a>"
+        ],
+        "photo_reference": "Ab43m-t69Pbt_UCjszUjOkl1WAnO6TpNZe75ktURVLol9taBRzsCjDljeoR2iUxj1KIbXTE0sS8j3rMK3HQWTK_YkZXEg2G9x9OD-M2bZgZt1h5tmG34DIvu29hjRDhGYDUUKxeYnyziv-Z0sM6kjEENuHMgYjvSkiZssZtMgIOGXOrOKG5EvYdyHQG0nzN_S1yi2tKlmjMd9Hz5-gIR_6PZnEAy2VK8y9Qovv8ZTKwpp49qCSxitcW9xjyN76a4dq4472h9Brd_x2JWcPVVqkCtORsKW96oudLg6tApVi5R-8pQi9BEi4-HetE28DNjZBWsUfaDPFgvPaqw-qN7AlLr6mjm__P1FkvBcmIY-ndFI4-JypFT5FghX30Vf0O6ZAFKKrvPmQkyXhPszcAMkVrj0qsu1mGUHpkx2HuZu01ANAS4kcs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104330398152640925964\">Steven Wakabayashi</a>"
+        ],
+        "photo_reference": "Ab43m-uUeXraAnU6Ox9AuAn-rGoVn1gjJbpQ0OhZgO6E0hjngkjjeAVvSl390mUFzHD-6PUkegMuHuUqXco9MhLXjo8Oy5qO7NTluFu52OgR6Zw76kZC3vVYImTQqSULot17rYuLLpDgDCt94XOGXt7aottuc9JFrnqq1gZ1QmePpHObdTBnfwzfv5uG7IkQcAt8joyMvk8Su_cUfRWm-_Xy3wIEUsx8A4bF3x1cxlYEusPOBC1vT9bzaGMV18FMARK3YHpE-2Fyax4rTWy7JuTGTEXm3Ri5nQ2oLwF0D3Jbz1hcrclDTTtE8c5IC73fe7-X8qMr2ugbfBaVrpUpPgePis1K6XI_ANl6gWlZ39EYypsXHNDdqjmWklt2b9azz7inY_mRzlvbb7uUlaQOmwdylNSMhbRGmkjlsnm-JxMJAQZltAkt",
+        "width": 3024
+      },
+      {
+        "height": 2536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115667357566656411487\">Jy Yuan</a>"
+        ],
+        "photo_reference": "Ab43m-sLKsgs_cbB3YYH_udir6b6csTttgF-qOmkXm_WQxdiB5NLeSZIJkZYFkFr0C_rGzjhETbmffkpkvhG_NqQe2wJFpSTKTxTgyaKklOM6EzscYls_ZhyN6cQ9Pkylwmhccdu4G2Oelhg7JwybWfahXTnGLlG_lF5V4_-44gf7qODKTA1FG7ZcO9dSeJCceLnFXw5AfPzE_iRUpen2bivQpj6yeXSn4Zjfn4eeJm3LnW1B27zsme0MDMR0a7XMYgS-KiHGYiUeKHDuqkAN7KABan-0fTGURR8X7WUeRl32_YcUUVtdhNq-d50Cgt-inbxQ-zR6dbK5YBGxm9IPViKBiQUM6rGOBeA_wh-BJ0Ns99fWr4BDn5lPfaM2rLxqVv7E-DCWTVg-_hP-ZoQvdhVDhzVNVWO_JncE_ebUV_ANycufw",
+        "width": 3368
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113764387738684455869\">Dan Quine</a>"
+        ],
+        "photo_reference": "Ab43m-subJGdyhAxbbR06VvTB7yZkwuxc-3QzOLiOoUwMHxKgNRNu2NFEIdMBXtYR7WY9MtpmSG7Bnvnn36uz2fwRRbw3N95dCfLnhaY6qvJ-t12JpqAJMLxXR6NwRYVdI7wLUTUVm_Wb1-FJei9RYjU__Vwv8Ppt-A_EUVUeF8bbQt3U-fP1yx-MD5FZr4Li472Bqo9KTjP74uXfuav4OV_f1gRllK1K3-ZgWWUzWDzEV_Uu6DMteiwbGNHX3JHuvDp9Z7juag8zEro0g8SbzK4gKOTrw6NZQMBrvT3NkiE8XzN3cB-86Va8GjjL2N5oh8PJcwBm1LWoC9AZIesvDhN5Th-AqgpbWiqNx-LDRNjRmbDjS6Wx6BKd-6VO7vsnFJDkNykw53vaNU7fyIEDnKs_ER5-Yd95yX4ziNvw4KXS0Vrmw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100283913771721342446\">\u062a\u063a\u0630\u064a\u0629 \u0628\u0635\u0631\u064a\u0629</a>"
+        ],
+        "photo_reference": "Ab43m-tGOhaeidTriuBKcaFAHe8yognkBkAk38qZN6bZ2RQSQLgzdVJ666cmXc_vPGfY462RjmMhwVLmEI9huxGwZmN3Ytz3IvzQCxA13IFiPE5wBQ2WvJehVIlh2Qw62H3MNRFNFuaEIjLl8-sHWXjzLjhcPsGgwsSQoMqDJS0WjT3Cqhz3PJTBlsyS3kZLHgh5ZN8bWQC8VoiaO4bYlDFegnQdzUZ1jyF4LDJObjC68mtkQeiEib9V3iENJcTk_1xjqxZJO1EXdUH73k99_6S__cHHlA8L6ywH6MDV2gf-Oco_1xVyFUkNacMF3v8wjocmf8eQW-x22Kt1dcHKEZum-Ap-D3QNxp-guOWsfaPIlYq6BIjO8-mtZ23cEJFkVnHgjlGYF4OQE9Bg8n84F60XJo5eLmFrynpShqN11If--EIqAz0",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103351381600041576098\">Tony&#39;s Lists</a>"
+        ],
+        "photo_reference": "Ab43m-uYq5sjZVFxM7T-xCmJ8adkerFA4bG9KNmvGHQ_0SrEyPUaQ5NsUeQmftpebKeQN6oJC5jCSzKIX49ndrw0oURX4oOy0o-pZlwgd6rXPOuq4twyKPFpHrtwU00_349fHpAS4e2GSxtOgUj1gNvUKAo0YS83nInZXEfPQx_SjaJ6yDXGbgjqpIdZoA9hD7blnOwgFbZBMcN3oEIthpzoZ_jrIsjBWuqkhfXqipAMsuEEXwPsOXBqIyHxARq75cSWcZlBCVh9E1xjQUdLqokCujANCG_Gu0txMeAukA8tODPAPzJ_lb0BBD4jWlL-hmqFAizI2zai3KvIg-g-Bm5spckxgTlPKHO4zGuxxMagfM3Q1Tyr4s-iSGAipf_QDwQfG6NnxYuU72_snyxaYLsk3RINjaEqPdTRV63y-9Ov7HDdWHXd",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103210557789113405675\">Maggy Marsh</a>"
+        ],
+        "photo_reference": "Ab43m-twT6TTzE3QVMn6hstDnvDVrLf1K0NCrZk06vTJEQuskGx-IelxtbywkL1QeM10OqLgL-tB_KITNHNG6sXOU5n9nPVfajImtUVmcmnC2Vl6HOAP_58kZv6uEJfUD_qCJXe_7i7Y7XIdjTGy650_nT60CjOmmcnSLBGjrHZE-19EOI6lTorZoYIz1DyoLCIzuKGJHm9NU11j4GPmNnsrmbFI-VXsnZmcZ2_xS_J0lfJEGjqQTdD9NxGlot_fe0BNEFhDP2BCrFJjUIHpOk0WMtqf7vSrcApdnj0OilnEayL5v-5PnwcFB9aNCZ5jYCY94yRhpfJoYK0NFzu_Pv__pxKZboLnp3SgRWSVyVZbB4qhah9V9zDWVl2oPigg_etP1OPgOVHc0Y3offEEHQgtNwFPMMVXkuK_t9fbbI7xPZmV1BCH",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJSU7IAD1-j4ARwcPo2gtQuuE",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16265401016049517505",
+    "vicinity": "824 Valencia St, San Francisco",
     "website": "http://www.paxtongate.com/"
   }
 }
