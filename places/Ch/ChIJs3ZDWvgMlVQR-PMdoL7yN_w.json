@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Kiehl's",
+  "place_id": "ChIJs3ZDWvgMlVQR-PMdoL7yN_w",
+  "result": {
+    "formatted_address": "9585 Southwest Washington Square Road, Tigard, OR",
+    "formatted_phone_number": "(503) 431-6584",
+    "geometry": {
+      "location": {
+        "lat": 45.450938,
+        "lng": -122.781494
+      }
+    },
+    "name": "Kiehl's",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 21:00",
+        "Tuesday: 10:00 \u2013 21:00",
+        "Wednesday: 10:00 \u2013 21:00",
+        "Thursday: 10:00 \u2013 21:00",
+        "Friday: 10:00 \u2013 21:00",
+        "Saturday: 10:00 \u2013 9:00",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJs3ZDWvgMlVQR-PMdoL7yN_w",
+    "website": "https://www.kiehls.com/stores/washington-square.html"
+  }
+}
