@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Positively Aromatic",
+  "place_id": "ChIJ0eLMkeQDnlQRvUG7BQvJR5M",
+  "result": {
+    "formatted_address": "5552 South Wallbridge Road, Deer Park, WA",
+    "formatted_phone_number": "(509) 939-0313",
+    "geometry": {
+      "location": {
+        "lat": 47.858538,
+        "lng": -117.5358953
+      }
+    },
+    "name": "Positively Aromatic",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:00 \u2013 16:00",
+        "Wednesday: 9:00 \u2013 16:00",
+        "Thursday: 9:00 \u2013 16:00",
+        "Friday: 9:00 \u2013 16:00",
+        "Saturday: 9:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ0eLMkeQDnlQRvUG7BQvJR5M",
+    "website": "http://www.positivelyaromatic.com/"
+  }
+}
