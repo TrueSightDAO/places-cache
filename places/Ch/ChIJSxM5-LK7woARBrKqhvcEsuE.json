@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:42Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "MALIN+GOETZ",
+  "place_id": "ChIJSxM5-LK7woARBrKqhvcEsuE",
+  "result": {
+    "formatted_address": "1410 Abbot Kinney Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(424) 216-9492",
+    "geometry": {
+      "location": {
+        "lat": 33.990371,
+        "lng": -118.4657433
+      }
+    },
+    "name": "MALIN+GOETZ",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJSxM5-LK7woARBrKqhvcEsuE",
+    "website": "https://www.malinandgoetz.com/abbot-kinney-shop"
+  }
+}
