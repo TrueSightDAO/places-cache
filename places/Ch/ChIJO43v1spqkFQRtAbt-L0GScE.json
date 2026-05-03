@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Glasswing Shop",
+  "place_id": "ChIJO43v1spqkFQRtAbt-L0GScE",
+  "result": {
+    "formatted_address": "1525 Melrose Avenue, Seattle, WA",
+    "formatted_phone_number": "(206) 641-7646",
+    "geometry": {
+      "location": {
+        "lat": 47.6146496,
+        "lng": -122.3281442
+      }
+    },
+    "name": "Glasswing Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJO43v1spqkFQRtAbt-L0GScE",
+    "website": "http://www.glasswingshop.com/"
+  }
+}
