@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herbalism Roots",
+  "place_id": "ChIJ3w98oDJ_bIcR0_D8W6bxF-U",
+  "result": {
+    "formatted_address": "1221 Galapago Street, Denver, CO",
+    "formatted_phone_number": "(303) 623-3121",
+    "geometry": {
+      "location": {
+        "lat": 39.735725,
+        "lng": -104.9973289
+      }
+    },
+    "name": "Herbalism Roots",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 17:30",
+        "Tuesday: 8:30 \u2013 17:30",
+        "Wednesday: 8:30 \u2013 17:30",
+        "Thursday: 8:30 \u2013 17:30",
+        "Friday: 8:30 \u2013 17:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ3w98oDJ_bIcR0_D8W6bxF-U",
+    "website": "https://herbalismroots.com/"
+  }
+}
