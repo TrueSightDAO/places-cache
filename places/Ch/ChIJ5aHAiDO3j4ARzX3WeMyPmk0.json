@@ -1,40 +1,284 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:03:58Z",
+  "fetched_at": "2026-05-03T07:06:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "East West Bookshop",
+  "name": "East West Bookshop, Mountain View",
   "place_id": "ChIJ5aHAiDO3j4ARzX3WeMyPmk0",
   "result": {
-    "formatted_address": "324 Castro St, Mountain View, CA",
+    "address_components": [
+      {
+        "long_name": "324",
+        "short_name": "324",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Castro Street",
+        "short_name": "Castro St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Old Mountain View",
+        "short_name": "Old Mountain View",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mountain View",
+        "short_name": "Mountain View",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94041",
+        "short_name": "94041",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "324 Castro St, Mountain View, CA 94041, USA",
     "formatted_phone_number": "(650) 988-9800",
     "geometry": {
       "location": {
-        "lat": 37.3922318,
-        "lng": -122.080127
+        "lat": 37.3922483,
+        "lng": -122.0801542
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.39372023029149,
+          "lng": -122.0786122197085
+        },
+        "southwest": {
+          "lat": 37.39102226970849,
+          "lng": -122.0813101802915
+        }
       }
     },
-    "name": "East West Bookshop",
+    "name": "East West Bookshop, Mountain View",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 22:00",
-        "Tuesday: 11:00 \u2013 22:00",
-        "Wednesday: 11:00 \u2013 22:00",
-        "Thursday: 11:00 \u2013 22:00",
-        "Friday: 11:00 \u2013 22:00",
-        "Saturday: 11:00 \u2013 22:00",
-        "Sunday: 11:00 \u2013 21:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113305919995230455128\">Alex</a>"
+        ],
+        "photo_reference": "Ab43m-swYQhFm6mqnFl_udCCkdzEi0ZIUpAWgaBBsKheuBHUOQzuV5d9DakJLb7_5fefxnTLoXgyXCagfbY5ZiezHJwPws-7qdmhvQa-OiYwv58L3HU6drIgKM586oTcyN0nrUcdHGSW4ZUHrBWWRCkrQWCljI2QDRVCoTxX0qhxnEy4HdtxFnf3q5Qi80BYNgDY5XnifTFgfj0OMBqc80NCsAg4VyUp3luYIRHMxYg9O17DjKNrlrwwlBdzUv9v1BgRBlgvA1cdpP39ocfjZQdpU8f2ZqoBfRVdj1kUdC_6Nh7q-7hXU0_uu7TI3DoiXJCV3tgjxMEp9YFqYd4KYgQ9MdD1MsKXa7RKQa2VSAzphKzeI9lojnfVhq3NrLsrEYRvg7O6ptlg3qLkW3Rz5pcIdAWu17DIZ28Ffq6AvTdMCktv-Q",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101980790942959881907\">East West Bookshop, Mountain View</a>"
+        ],
+        "photo_reference": "Ab43m-ttXBucUt_bmiF--czqaukmqwwKjiIvxSQFNe6ZP8XVyhtCjYpu8h7aW4B8sdPRJXUMSnmmP-4xMQsnilM2xFJv1_q-iYX55R9gmxpc-tQ7jyLCgcFUKRoEkfGrXRU2QtvARGKbTGKTFxQOphfHQ8-PctfK8PO3hd98Rh0tBw-URPkP8OZm-iZm8waGBTLzGzAU8vGqICZ6YSdwldhkZNadDAPdPUDOceMx39Nho-gcUf0MZO2bSTmJ0XBCBlVDmDgQ1PDMK9Z4N0YXx0dbhVV3sVzd7IA6dWKOswLiW-4",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110192079709595962976\">Cris Fleming</a>"
+        ],
+        "photo_reference": "Ab43m-sP63XkyqQ4fLk25PkES8auhl8I_72b6xHa5FILb_7r5BaB30YpDcccduF-lONlSMD0r4IWUQC1kHE67_iTyI_QcNbTxb6Zc1nYBIssKlLeq-YEylUGFmSwwvXt46XmEuMkN6KLbwmsE5LVW3kMIOVw-7Lo6pA51sCSKWIBMVBYf3AQe5m7a8ebIAhV-wE4-ZDAvkCJTbA3_1rHEDh73v05zYQ2KZ_T_lSYDBqlpUxkBF81YeZE7co6joiqGS3O3aQAJxSP1fzoSK-g1aRTSGFpOeXpehTsjzjkK6fQPEcD5jfid38LENfTWdDwXcHbcpVEAKvl7ig1wCNQxitEdYX_Wc7Cx7dCluSp1nNuEMmDdL59zaISWBr1BfghdZ5G3CDsZZR_L_FNxrCOZqBiuIly_jSJuW8QXAT17wO5dLeldRPh",
+        "width": 4032
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112231387184423516280\">Becky Owens</a>"
+        ],
+        "photo_reference": "Ab43m-uxFY1Wu8ZhY7hlXUKSQmvEMg8N1qwwJOcM53v02DxBhgJZr27OSb3xuL3JLMvWSjDCHuK9Ye1AkEiQpYauQwEmj4ENGiyGP7hrVF5st-5vEGi7rZqKNKoernKdPn7XxgqP1TFrVCCVqPMdEXAaLv-JZbjpzzwRx9h7OYYhw6ZLo6wqA1U8yuqjnjh6Yqw-leBCDRWdLWoKWoUi7PTC-gjuYC3_zRwTcUiNoqGyjhl-9EpUEQFelIJyJzSaNF8Snz1wahdeqRiAXWorrx3gUooIg_SGzlVfWB2Yg-_JCx0QD5iLRC58hm7yKeh8HGs5yTWz4ZPBRAmHDDqbEdUWve_3BPZolK2Z5F63guyNAA6WlC3-vMQklBc6_J9RQ3nNYyznGHM7h3x8N2OncNYSQJNQxo0KoxoPVPnhnBK2VA54DYI",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110192079709595962976\">Cris Fleming</a>"
+        ],
+        "photo_reference": "Ab43m-tgLatRZzLvVRgvaOJue7YeE27zLYe-ZSi-iBUA2OS4ZSqRyFGiuRHRw1x4rsu26bGsIbxRWd1RdLhDL6bcgdOYsUeZnSVOeBPAR6lTtJ6jYxp9MhoRPpJG3DAn1kIMVRHNMMcdg7_4aEiBs7SBh8uKmRLRL62HpomNotrULVG-vVhNmfMMSky-hUMJzRRqpM07_nVt-fcpWWJOvlFjaAltOAZAck6un8Zu1EOyvHRAbTjDi7EX5U9PabBH2rjyYG8IYbhcazU_Y127J3napgFtgyrsMoTc80OPW-k4n3J7DwzaigUiR-c2LXrcmYY8Y0AjSPszA3l6x8tIlal-0XOE6IiWS8xQK55azQ0DrtOMC9HZEnCnTObXR6fhwWP4uTyOy9N-81gXEjAqbmLR1-j4FnSW4eJp59sr28SDEZEJig",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100615061037922900085\">Duc Duong</a>"
+        ],
+        "photo_reference": "Ab43m-sqYtjnmhJvAYF0Q61IPJnbGW8goHh7499vVAQ0BnEJzc71_PKAb-PiFgrLjMDDUHLCkJ4yvpHbCLKvATmF6OCE6KnZf7e4YVnVwNbXiniPLP1XreX3jhoflw3RyPA1K5X59oBafUleVYA2L7PBCrbO89AXUeH__w1TB21e2UfyxZG6ZMUeMFSNiaAfno4TYZETwb2fEy236QMlg18I2AeB5W60J4XoQhziA8Q2aTg7KxUnq3RtzlD8APtNV3Y_orIqGaDHN4nI6HTMkk_oYdm4l6U1BwUIH9hOCF9kCAdUJdLo8vSTpLOfh_aus1qHo4lHlyvSRTtDUV_ZyWOKQY0OiRw-Bn0HfFRprZUsDaSThA7F0HG8pDCYG0GUdh8BxL6n5lO-2e-RzWPr4Z0x50PxYXtFmzEqhieRdGbWFGm0ng",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115411549266689988119\">devenra tamata</a>"
+        ],
+        "photo_reference": "Ab43m-tJM3UaZzvTAaUzFpp5sbnEAYp4DIFWlHXq30hQeMrMMzHevWwM04ZexdE8IexRJNdiZ5fXVvijLyfVrQJcO11ezuPlX5Pn_Y-ZMKWp-u6wxuX7NITgVsswA-CGTTsoeYM_Yrzm-Y_2rbk61lFRUZg8bcu4fr2ZrbacAFeZrTmZpAYSLjBzeCVld_suSa3ftVNWvAZYatLNAYRflRjFIEJypWVU_oRlqMEhVQ_pQTbjHXFpxDMJQMAIPm_ToGzjCaQDtEewrpBNIijLySCw7RgeRG8xjiIjkQZL2j6eYUDGqpqv9htzqXaKgrkai-1RlrB924zMy1E2q2OwqPT3zsjR-YjZVZt9CQUei1bHQKtO7E0HMvdtjym-KXuAKqSh7waxz5vdwjrKFj3LzwdwxTOHFfauOniZPru8ubtgwji1Rg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103351381600041576098\">Tony&#39;s Lists</a>"
+        ],
+        "photo_reference": "Ab43m-uFv7IbxphxDbNbjOSif-dh5TdAB0VbqZD9a6o2yc1lJP3mY3KMBYLejv8Dz1K-lvazWnRMNgJsbIDFOPNNuBuVTR-FoiDHwraVFRf7q4BB0ncgxHcqwInVKbZuWvIQ3JkrsSrxrKyVI1MY-zW_g6WuEx7oWjdLcxy7wCPe6zwyemImzl1jf55dTPBzmgit-cGWh2SFkOE2DIJwcGVbsiW3jacLSMep2JsKQqjenOYCPdwOgcN7MRkAptuzJi996ETobw7T6FXr2eEtYWY648D2uzRGp78JIBVgSXYy9XWSIbg2Z43ayJPezVPXAK-fGb5VfnVn-N7tNX5cxXaTl029ORhea3vnmE6y61Rr6ttobgAmb-f9CiNwAgoCkJX7htKPhFUor3ygwbkDzIG7dVESVD2jWUexQ4OD44t9etiV8A",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111141277463342945983\">Evgeny Vinnik</a>"
+        ],
+        "photo_reference": "Ab43m-strwhaufE2n-CCwDmzWvFh4OPCor4ZCkfOGvlVQHPy8v8VVpRbXPqgGdozVTuYRVXOAQOuXCwZQrHnGJBRzJVIyn40kE4vFAqVmlk4AEZskzyGdumj97uyWMI6fVC1fktIbTusCdHte0vWvqZ8gVNSP1XGSHSyX0BF1ZLueFnEBD6gh3BBg7t_ZPToQe-BWMSW4k2Pjs51uGflP3FB7n_6fH4ycUoQuIK7H00N1AJTGRP-kSBDVcy1tFYNWm0ZkvMrWc0z-druZEdWW1-_G3qRTzQKfRe3AVkSp_Zt6DZuxdS6UOIsJoGNz5Ki_c_wazyyOrqvehVfgHsGm_vLd6e0L21pG17QMFl0JYmubLNu0zZBqHW0NXM1ZS7nzNNA-NZJO4MexKShCWV-vkEoSq7cFCIis4_xf-rs2OWGJn6ZRhv1",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111141277463342945983\">Evgeny Vinnik</a>"
+        ],
+        "photo_reference": "Ab43m-vOut-NAPMw0yDjwuppon_HtUI1XaJ2RE4c5yIF0jrbL0zVfZ-ASB0Xq6GL6VDewfnnD2u4AuvFn0GaVqMgVL9pasWLmJlg-vxKTg-e3UvUIRs5RFRQ5qcB_lRrcc5SdEzJ8tbecShoSovCV8qQ_Ts_Z4b-_xSeP4Y8zB-FZnBY1sHVMTdIeL0BzEI0jflUJWzXJSY5pvuBuVi9wWjylUu0-PoN-nGT_UDuvAr6JJycEto8kj-FReHVbNxbFw7b0ibCt6XUix2IR1XEY2RYNhWcioYneTVv-spZejfGenPdq087RWnOwLhk7oX_m2zUvdB9uuALSw_-zo_UBb3jjnIpvJqKY9Sd0uhinNUn6lvGL7PR3-_mUTawW-MuO0BgBQwzmNTtwCocl4r83qwZGTmjseFlYxvJOgajx7H7iNcBgqcN",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ5aHAiDO3j4ARzX3WeMyPmk0",
+    "types": [
+      "book_store",
+      "clothing_store",
+      "establishment",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5591939995697315277",
+    "vicinity": "324 Castro St, Mountain View",
     "website": "https://www.eastwestbooks.org/"
   }
 }
