@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:42Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Applegate Valley Herb Co.",
+  "place_id": "ChIJN0az5ZN7xVQR79DVevBnc74",
+  "result": {
+    "formatted_address": "1051 Northeast 6th Street, Grants Pass, OR",
+    "geometry": {
+      "location": {
+        "lat": 42.4493739,
+        "lng": -123.3220918
+      }
+    },
+    "name": "Applegate Valley Herb Co.",
+    "place_id": "ChIJN0az5ZN7xVQR79DVevBnc74",
+    "website": "https://applegatevalleyherbco.com/"
+  }
+}
