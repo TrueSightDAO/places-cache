@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:17Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earth Shine Llc",
+  "place_id": "ChIJYaXAKvIHkFQRDNSAUcB9UzI",
+  "result": {
+    "formatted_address": "743 Broadway, Tacoma, WA 98402, United States, Tacoma, WA",
+    "formatted_phone_number": "(206) 445-2683",
+    "geometry": {
+      "location": {
+        "lat": 47.2558461,
+        "lng": -122.440698
+      }
+    },
+    "name": "Earth Shine Llc",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJYaXAKvIHkFQRDNSAUcB9UzI",
+    "website": "http://earth-shine-llc.com/"
+  }
+}
