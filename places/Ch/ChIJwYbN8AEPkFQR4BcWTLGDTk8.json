@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Make Apothecary",
+  "place_id": "ChIJwYbN8AEPkFQR4BcWTLGDTk8",
+  "result": {
+    "formatted_address": "18728 Bothell Way Northeast, Bothell, WA",
+    "formatted_phone_number": "(425) 780-7003",
+    "geometry": {
+      "location": {
+        "lat": 47.7642513,
+        "lng": -122.2078512
+      }
+    },
+    "name": "Make Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 12:00 \u2013 16:00",
+        "Wednesday: 12:00 \u2013 16:00",
+        "Thursday: 12:00 \u2013 16:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJwYbN8AEPkFQR4BcWTLGDTk8",
+    "website": "http://makeapothecary.com/"
+  }
+}
