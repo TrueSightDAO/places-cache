@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Eclectic Apothecary",
+  "place_id": "ChIJhz10FjkFm4ARRRBVXH1QZ_o",
+  "result": {
+    "formatted_address": "991 Lincoln Way, Auburn, CA",
+    "formatted_phone_number": "(916) 770-5486",
+    "geometry": {
+      "location": {
+        "lat": 38.898176,
+        "lng": -121.0718042
+      }
+    },
+    "name": "Eclectic Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:30",
+        "Tuesday: 9:00 \u2013 17:30",
+        "Wednesday: 9:00 \u2013 17:30",
+        "Thursday: 9:00 \u2013 17:30",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJhz10FjkFm4ARRRBVXH1QZ_o",
+    "website": "https://www.eclecticapothecary.com/"
+  }
+}
