@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Craft Apothecary Farmstead",
+  "place_id": "ChIJKQUY04o9joARzlcmg7LEAT8",
+  "result": {
+    "formatted_address": "500 Cathedral Drive, Aptos, CA",
+    "geometry": {
+      "location": {
+        "lat": 36.9792447,
+        "lng": -121.8988983
+      }
+    },
+    "name": "Craft Apothecary Farmstead",
+    "place_id": "ChIJKQUY04o9joARzlcmg7LEAT8",
+    "website": "https://craftapothecary.bigcartel.com/?_gl=1*93l1v2*_gcl_au*NDc2NjAxOTQxLjE3NDUxMDYwNDY.*_ga*NDgyMjg4MjQ5LjE3NDUxMDYwNDY.*_ga_QZ4HDFTSEZ*MTc0NTEwNjA0Ni4xLjAuMTc0NTEwNjA0Ni42MC4wLjEzMzY2NzMwOTU."
+  }
+}
