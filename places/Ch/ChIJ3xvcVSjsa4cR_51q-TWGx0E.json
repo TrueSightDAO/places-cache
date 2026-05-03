@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Dragontree Sanctuary",
+  "place_id": "ChIJ3xvcVSjsa4cR_51q-TWGx0E",
+  "result": {
+    "formatted_address": "2405 Broadway, Boulder, CO",
+    "formatted_phone_number": "(303) 219-1444",
+    "geometry": {
+      "location": {
+        "lat": 40.0220603,
+        "lng": -105.2816848
+      }
+    },
+    "name": "The Dragontree Sanctuary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 21:00",
+        "Tuesday: 9:00 \u2013 21:00",
+        "Wednesday: 9:00 \u2013 21:00",
+        "Thursday: 9:00 \u2013 21:00",
+        "Friday: 9:00 \u2013 21:00",
+        "Saturday: 9:00 \u2013 21:00",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJ3xvcVSjsa4cR_51q-TWGx0E",
+    "website": "https://thedragontree.com/pages/dragontree-spas"
+  }
+}
