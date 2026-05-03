@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Pretty Apothecary",
+  "place_id": "ChIJ-XobX7G11okRKlxYeeBTbnk",
+  "result": {
+    "formatted_address": "720 University Avenue, Rochester, NY",
+    "formatted_phone_number": "(585) 413-0101",
+    "geometry": {
+      "location": {
+        "lat": 43.1555609,
+        "lng": -77.5832726
+      }
+    },
+    "name": "Pretty Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 20:00",
+        "Saturday: 11:00 \u2013 20:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ-XobX7G11okRKlxYeeBTbnk",
+    "website": "https://prettyapothecary.com/"
+  }
+}
