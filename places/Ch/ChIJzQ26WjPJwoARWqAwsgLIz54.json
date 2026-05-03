@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Advanced Holistic Alternative",
+  "place_id": "ChIJzQ26WjPJwoARWqAwsgLIz54",
+  "result": {
+    "formatted_address": "3317 East Gage Avenue, Huntington Park, CA",
+    "formatted_phone_number": "(323) 583-8938",
+    "geometry": {
+      "location": {
+        "lat": 33.9802436,
+        "lng": -118.2067616
+      }
+    },
+    "name": "Advanced Holistic Alternative",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJzQ26WjPJwoARWqAwsgLIz54"
+  }
+}
