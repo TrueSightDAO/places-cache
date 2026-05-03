@@ -1,40 +1,276 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:57Z",
+  "fetched_at": "2026-05-03T07:07:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Lunar Tide",
   "place_id": "ChIJD32fjEg1gIARD6PTSQsjl-U",
   "result": {
-    "formatted_address": "109 East Laurel Street, Fort Bragg, CA",
+    "address_components": [
+      {
+        "long_name": "109",
+        "short_name": "109",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Laurel Street",
+        "short_name": "E Laurel St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fort Bragg",
+        "short_name": "Fort Bragg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mendocino County",
+        "short_name": "Mendocino County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95437",
+        "short_name": "95437",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "109 E Laurel St, Fort Bragg, CA 95437, USA",
     "formatted_phone_number": "(707) 357-2393",
     "geometry": {
       "location": {
         "lat": 39.4455852,
         "lng": -123.8055696
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.44688963029149,
+          "lng": -123.8043001697085
+        },
+        "southwest": {
+          "lat": 39.4441916697085,
+          "lng": -123.8069981302915
+        }
       }
     },
     "name": "Lunar Tide",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 18:00",
-        "Tuesday: 9:00 \u2013 18:00",
-        "Wednesday: 9:00 \u2013 18:00",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 19:00",
-        "Saturday: 9:00 \u2013 19:00",
-        "Sunday: 9:00 \u2013 6:00"
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fAM"
       ]
     },
+    "photos": [
+      {
+        "height": 1248,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-v7h7pKpbRMjrt4tAJeCp5BYUXYqKgmLvsrHaiFCqcAVXJyb9d-jy4aoVwJqXXVnVH5XN0Jd5yBmME7bY6RYqQEdhGN5NfLD6xKjVbkouuAukz8QqKysdrnL83Jt5tpwwvZHSzd1d9Bwt4ZLXFejgHSaVcdJYDQylx6Q13mHL898BOEcNBK8Ppte0-wDMeIJeVjv0W35NFwMJAFg5nIDZCcY-0tBDcamS45wz8lJ6reSQ182yvLGje52vCJKrIH564qWZYASj04vBFpbV6dNFRrbtdwgchje8N_NthoPbH8uA",
+        "width": 912
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-t5X0JREgbSt9t-ebFzT0V3t6ys9QaJUofozH6GSM3XV51fftwg9DVZ-NCXopwbYC6U6u8R-FJKen6dx2bvP2TWLmXOH5bfd6fL1auMZV2iCfIVWzMYAPsqxB4GnA8tFhJNMl3ec2LFp4pTzuPj8m_HV_CIwgp8Hae9tB7l0GiVni10xtGOkk-ejHVsyqPQjKCD37edMJDdY0mIwRb826XxXREyPEIANU3lY055ICEZQNqU9oqppEIC6inG4yrLBn1cXHnSL5ks5aLiXHCgvsKxvnY9GSfx3uqBDGlZL6zrtg",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-uq9uOMmA_q1mvwvbDSfkCZN2ow0dWX3IGAY8VxQoDOS9o-tZJYS9AjnYz4KdwvcOWGM2DRDzjXgh22S0iTWh3VtIydxwTQCb-7GphYQC_UYvphsThm6TLXeoG3rofPBIGSdUW1vKoJQ8l5BTR3iEAyn8mmyXppZlDM1GjUBBUuuuIEBR34KIo12cgeFCD3o4NfdD8I-EST7N882IGymO1dSvkVQ1rh4lueEEtD1dpkfCbem3lop9wHb3ZROvJ9NRaR0f2Hq1B6nC8KftC2sJWrldUSTl4ed_eu5Apvbin3TA",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-uUQXS4nEB4_xC4_mIK0hjma5s4BmSnv-oJpEZZb0SHzqz38dYK8xAC9Wwd6h5XMRKNdBT1eraJ5bEvK-ttP9z_EKpRjV41SKLIc5OCcLCh-MCrWhZ6jB-3onHcz1sv-rRowMSTCYjZrE_oQ3rTw1sdReyor2WiPqTk5-frbkKCrlugqePbmsBQJkojIgQZ94oOlOO4VjeuRw1RM-hGpte6V0ZKoIFLrgfCxNCTKCddXbKbIZWnAXvFTPd4PZEiOxwLbSNw4br0Vbq4frhJBDe1I4ZyupH1TSpep3c-CK5BIg",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-sKNaPDKVDUN6E0zypeXgwQ8cW9dlgk8AF-qS91LKlvOoy1E_G7XMoNuZG3MjUe3HW_9U6XbvVS88XfoCKXwAJxxmaCEXMiZoXkrhqtxVOY9Xp15yto34w-L4SvjxJu_aqHxXo77a6wPB4NqCs1NFi0G1B1lw3EUZifYL8wuwTcyeP-dVo8APQ41GkChucIuJ3xK8vRWxKO7H5CjkOiq66B-iTBCab_xbvmhnVwXRaNPQJPzF7IkFXF9DMHiKsHB7x4_r56t-BIzD1k9rXE7xkqu7Bt4xkw2tJih1mUiKKHdw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110446230346301521847\">Mendocino Drone</a>"
+        ],
+        "photo_reference": "Ab43m-vLRaUdQXB87NeZX2Z-A5fQpu7jyYl8Uu-OZYpA2TwEAD5ROqyWArXvE_JeLH_QYaIieorZYj7XjWcqlit-Z2hyDNP_Q-jM4vHLD2nFZOk0toROQGzlWGanqiGDaQ4RN9AsfamYejwoVDG70JqGU7SIagMkeQ3s07Y_OOwdjMcF4Qm02zkvIUThKMlkR8deGCOFLRH58d31mnoKqVdQC6ZawndXdzT9aqspHU09CbjdsKYdSgJt4bHq7seLNfCAL-mO6HIYclmYQbO4fJyMaEX7-LIngnp-yXCBb9wf4_U1xdST7XUL2dJONRckoIpGGp0jkPG4MVi_7zOYPIB-RVgRBkWwFGugWAja5P1UKtbZfzriTdNGoN580r6AOm_0PUWmi_hPL9BLD4Tz2KB0uOSpgyiSS_ptUIeCOpcbz_K3ObrM",
+        "width": 3024
+      },
+      {
+        "height": 2843,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-sfGtxP_iLuaEnw-ILEjBwVRaIH31icIYczyxRyl3QnHQhYJCTzKyqqK5uf0wRbeXTEJmuHnrCxy7WJHw1L_Rj41qsk4jIRoQc1EflXw0aRVAqi2IDe9MWXKwzsRX0nGUufm1rag42JPdGzjtyVO9JfaV-dtSqOqn0nIrMN77boAxOJHLysbwWmslRRgqsfsOzCTGjP2fJyZQ4G0EoLeEP-TaIGmpfuo70A42tuR2Xqi52mc1aHgjWs_aMigOukxqqWyPmoDUYAiVCUthGcHXHCbgCdb5EatnFvfk4EJwdf3g",
+        "width": 2956
+      },
+      {
+        "height": 1572,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-uuxYXB9HSmPZ3zqpLm7Qc3dj_e4Wsj1dQVQTijsWXdSplxPDtI16L9q262LafpY4cPsa4sQDl4CHmPJ5aH4-O1k2_IvZ-aOzwsI9NAx_oS6k64XbpfE9dBXKSDIi9kdIutAlUNvgt1CJ78IQGUUy4pioNEb7_Dc8a4-4MCM_GUwPBjxPwhy7LFJnkEc5cw2hlksiMn40K_w5ooKmR3udQVbZSJRDZ9X9qmv7s5sRsauHTtMWbFdlmN5B64E0zeBBFUG-3zpl_oWa9Vw0HW4fdwCAh8N9jlxbQk-bSWEfgCwg",
+        "width": 1179
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100102947516171372471\">Adam Cook</a>"
+        ],
+        "photo_reference": "Ab43m-ujWQLaS7aA5J95D7WoxCgxoiXJMhIXQjMfOdZgngcdPGkOMIlfoEUcXzSf-MbGEebGaV7WxRK_iDSDTFdrI_iBbktjOzBc151eLzZRG6l4cEwUqyaMYCfmy-lHw6ArjVwHHa-xpPhuD4_p9vKzl363__VFAYSMuNTiSFLbtiatLXQ0J6MmSsgdZNV9nE6UaOyQ3VEtsKKzy3Efku9q1E_7CdPfSg4-kuRD8mS3frXf5bWZqcw6NLzw01uuyT5nM-E4FWGiF-LgyuX7wJofFE618vb2RC20zUDeX-yceHNB1tWEbbJppkBzm5j-BeNiO2XybZQg9zl154U52yIP0DnZf_8IOSwm-AlLWmu6roqFdbq0y-zn2IMDh1Ay7tUiNTrFU_qwQmVXuy3Dmlu_V4e4faj3Koyw_d_Qm9C4b9bqgo0F",
+        "width": 4608
+      },
+      {
+        "height": 1245,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110354795083313238377\">Lunar Tide</a>"
+        ],
+        "photo_reference": "Ab43m-u024U04mJ_z0qypnzCho0Uz-BFIWfAykeh8XmJBxwbmyQycYSFHcI6Oqaj9j21vcuJHrirVHYUNgT1aMAnNt-RQTt98jyAgi8mRFHZOEmOetnZXAB0T2nB4wg33PLMDL6We5I6ijLQSCVfldMDBd-rd9tQ_yJ0MLG1xgO7WdQ6glNOu86TmaFKTXU6wLZ8IvZ9Ph3heo-zNJsiTF0uFU_fkEtSkM0BXfuqcxoJWEGEGewSeQYD8NAKyGHUijEnJ5a6EQzEegZgpXhlkyR-3xbXl_hYUO2J8M-RrCLkoRxRbA",
+        "width": 2046
+      }
+    ],
     "place_id": "ChIJD32fjEg1gIARD6PTSQsjl-U",
+    "types": [
+      "book_store",
+      "establishment",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16543730287559025423",
+    "vicinity": "109 E Laurel St, Fort Bragg",
     "website": "http://www.lunartidegifts.com/"
   }
 }
