@@ -1,40 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:32Z",
+  "fetched_at": "2026-05-03T07:07:03Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mountain Spirit",
   "place_id": "ChIJ5-8ACZhGjoARzRLsZV5IAYg",
   "result": {
-    "formatted_address": "6299 Highway 9, Felton, CA",
+    "address_components": [
+      {
+        "long_name": "6299",
+        "short_name": "6299",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Highway 9",
+        "short_name": "Hwy 9",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Felton",
+        "short_name": "Felton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95018",
+        "short_name": "95018",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9710",
+        "short_name": "9710",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6299 Hwy 9, Felton, CA 95018, USA",
     "formatted_phone_number": "(831) 335-7700",
     "geometry": {
       "location": {
-        "lat": 37.0529937,
-        "lng": -122.0734799
+        "lat": 37.0530094,
+        "lng": -122.0734684
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.05438623029149,
+          "lng": -122.0721536197085
+        },
+        "southwest": {
+          "lat": 37.05168826970849,
+          "lng": -122.0748515802915
+        }
       }
     },
     "name": "Mountain Spirit",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 16:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105941366411393801920\">Kurt Leal</a>"
+        ],
+        "photo_reference": "Ab43m-v53ldmPrXB15n8Iu4QLyrNsPaVy4F0c_VCfjE-Ht4zkznp2kmES1h44_8L2MFaeKW_e13ukxXz118MmIgyQH6UVWGfB1KBxa_kCyEIiegyTKurxTA307GU990CAEabKgv5grhgilDxZ1IyKMKlPR3scFwmuzK7_FWkJHRFuIMdZfFsUP17rJCN7z_8IkOLS4rm3GOxiILo-XJsodsNYAzwkXT-31igpUaonkvQC-g84bm-8_Qn7VpAu8WZr_gpt5n_sZnx5rz6WvbFL4FWFqyd6g3i0NgqMYFJsXV1YqTtIrIYfFDZ011ZchTQjfSWW-C8H9b1A16y4rVR9d0eMP_OGRlMr8b0a8DZeG14oyCa7cT4NLs2dF27wAIZEJHHXM0rowctt1CVesCfrzp99ug0O4OzuEy0ddmJ-qESQxs_hg",
+        "width": 4020
+      },
+      {
+        "height": 2250,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103874268922001062432\">CC</a>"
+        ],
+        "photo_reference": "Ab43m-srQDhhDfcxhe17WJAiuMaQv0O9eAPwLkJ6iI8B6KRI6eIfAnQM70juYdY2xzEDXSP912V6RpE7NKHH2-CjoWPfzWEzEK_lBF7nxG5HEQoG9F_opqOp33nMG_mSN-5PeAnJWCrMBP8LNIYruMZtfZbEh8Q7364t51Ol_-t1ZPrKn5KIvenk67v2vhZPVmfSvnK9IftOhXPBwmQ-6H_rzJZUfmlVP-LVwsSrEsYwITu67YAdvW5BoLSZKd6Iz_iQl34tKGlmzHNPIqhcvobiCjOXmyy_Sb6TeGW8jN76zYLzUYiYHWc6bZm4C0Z9-OaGLbT2dDQinCskBtnQ2GBUaGsvlxUPD_H_oDMMarUtlyX0sSNSmnUYl_mpf44Ijyrl7guz-Da9d7Vu50rkpQlgAF8UAVrJI3Z_h3AO8rSp_mwP3FU",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-v2hwAu19JAM0r53BIyKO7ZJPJFm8dtb3AzBWm41CcZvmNV8wsjCfHpYLB6m0BWZ0p1aIEEX35NR6Y0cdxhIYsqQk1CZoO6W6HkR9UM7xj6kdNgzAp5Mh_0teXFB7uE2HstR6iJj6L4_7Srlc20Evb20Exbeuv96CxFu8JYU-hymN_Wxq5Krwpw8VR2SJoJKUyo9bJS-vQxUX6bTMQZi9sCnr2adkqCX6BLWbYolihtdA-LUKRSvrAQCErYMkPkdXWpvcn59Uv3HwaJPL0wl7g33A_PEojK0fmzQceV0SgHaBJXZlq6oKiMrZCmOZTs-b4KbbIXtIBVI9foIwItqxezLqgyOYO4XtdVh-nlXcNkqJpZOHv_Ter6-SV6jLdFzDk-t1m_DlzA-QfPbqiV-JdgAk-BWOOK9-YDulGVMc_cTNaL",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-sMWpTuc5Dl_N7bPDkNyTX1v3GN8nPKOCWXlm-5e9OHsK5p_F1TkbUinBg8eSMY2tdWZEakN9sz1RT1treVhHnelY0eac8NgR44LbLTd53z4TDonvLsJURqWn_ATGsWoi3Phv8mf7Ma8KEY4olG8TJf6PrNTcVU9uEIOu4vWR21QA8FKR3PDQlmI-ctGWxX_ljCZXDFDJM-_n3ahvMcFS2BpOGWMpcQeOXWhVnEMcYCTig7ZLBMsXrAnQ1tROdMaKhDBPOPMawvUG-wH1nwvYNUgoWwO_VvugL-DDyF-RQ3WFbAmiHoGYHWKGOEdhp4g5vzTBuCJtvLF1RsiOooiXCisAh28uK9Lvv39_0Cp3_VadW4z0KDQxnB3Sik8srAeUGxUU9eEzwYSxhy2k90LPEyv-uiCsFZqxIpQUWWCwIj3G4",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-vGGzPldJewmf07p4DAVClKCGEUAXSN1eNKDBbj-sIc_r1T6gpWrhw4PebRHjN__UgRsR1I-rhc8rYv2aVisLMRaLxCziJQUfUVJV4Gba7P2nmi8UaEA63Y4EGaltzEL5nc2aguRY7UWnnPboQHGQvO3rNMw7UGC664VFnDwWbikriSUvVq_sLdhaKTAuNABZvdqo23IOdjm3By3dh85IH_bPlhd1Xf3m5bOunI9yrC0a3A6Gs73zw5809Q2JVjkcNto8HTH-Lr6M2GLvN0FkncwrPUSdmvp__ERoBpgQpdqgCXMMHKhKY4kztfrK-WjMWDY71SmQDygzWv9wj5w8Oaxh0yRXAwDE4ld3vsX6OWoxUewpIdov-vYtpzIFv_p2v6XQZKOiaGw72Gh8aRuiOpyYu1qjPcyiqoRAFWH8p14-4",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103874268922001062432\">CC</a>"
+        ],
+        "photo_reference": "Ab43m-t45zwMydMX-5fJpbXNYIecFZp7I1BMgWl2t13x-PBQhLLmnpBJzy9_-gsry9C2xGtA_d_XWqPab24UxiDB2unJ1a1uL3o2sewx_Ndq63At_fVEuHG0r63NsWnqXHyp1oBIAtBLycFt4rSqB0THMxyjgnQZAH6kl7DG9TDJyAhj1HdpgUALVExH9jgiD2anVWvnEPKdqqQNyfxeCWuyd5e2HaQWP63krCRfaxF-SaoSqcw4VJB-Wnc1LWPH_V6sXLOUBBTe0OkZcYNtFimUtsShMTzNS7OFHnJvZ741Tf0MOWOEkrqsO06QhgouUrZy5mazJtIFbiZWKntCTIX0lOJ0r35Tw6VD7OkrzjX53AUXO0oIZu43LOUCOyIUmXlUsBzkmfz-ysrbq5GGJZuQwA3EFhTX5QQl_DQYK6J_lqk",
+        "width": 2250
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-stuSFdAfGSXdEKl7JSAeQ7tYpoMOnD0nv_e1MeTrE0KRoiVbqg5b7SPYb9666aRDq8LKIBi--I7L6XyJhxsS_CT3XsxTrHMCSXZrmPS85uUoaFJOG9xnfyn9EGDpilyysjXXHHtle_yz9LN7-grYh5KaJEtiFiJkGC08XkXHg2oujHQZKnLrLkBdX07B3FCxhiq75hyYYFlGelImcObnLb-CaF9EjiKWpTZZP-no75aiWn60AeZ5RqtW6lpk-vt_GLK3-U6Vq_HCcglIbTa8AXEWg5e-G0ZDCCCnJ2OdEcWH03YiwdEgtbpbxvDNs_wiHBDtT0_up5zjtIfLU2bUSq6LnXiIB1rWIvAlEFfbOKhBNAAP_5bD3OC2elvkNQNh7-NWY1BecGVzMCEmjSjfGutM1zYJaJYa4VPJ_-pi5LSw",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-ubePOcCDsF1yBQVanGHRJOeJ94CUyp0oBagpoMi2by-3dZXQNoXZ5N3JB9BfRbo69lhSzjtuugZF1BkltiyTnsQQHdb3TPGsQ5dLMZd4pdSuak9LEL5OsxrfWknf_WJmzJMoDJwC34bnZhyJzCS1f6zNpCsoOFhX1DOkeijyuSRxmjfgIMgYvX0q55hl1wG26EFYOo_Aswn9mGoeVlmiO3SyF8l8oSPug_yEtKn7R_-tIEsPaGDUFZ_BVJ_cFaHdJUtxDKqK3SOLU25fe4Lti7v6PFeyKQPw0xhJ1gMpnWTcAEgp3Pdp4rIsq3vT7SiSCbM17ibYMBBqyWwXCcrcrKB2yoiwbFRP3n8RU2xeTYC2TX2Ekh63XhBeVkAkvzVJrF3AquzUiZ5lsRdnk1PN_EmC2C35CcFpv_VHa4-db39g",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112702845654273164849\">MoonRule</a>"
+        ],
+        "photo_reference": "Ab43m-smz0BT4oVGfFValSMyA_TfXX68qazN98otRR0JqLs9oCh1vybAl9hube-WtLnHrv7gVVoBZyWF5dWhdVMN4V0Hpr8KylvK45XqLzZb8c5ZlNVkuTcEQ46MYYapdFCxqvRWBjLK_sOq3HxNWPEqB2ML3CpNIE4h3LT1extkfHiqSlJpL1L_418bG-_mJ6SE4UbiN3C9ddN__jd5asxW8EVFyaWn2d46q2A7sj_2E7pFd2Lye1Uo3O2T9ysuKQrpX_FKrylFDOmuhcnXAUbY2QIoiIcM_arKVvNBZ80ey-_8GtguN1U1RHlmrci7eS6EKiSBj3uF8_mtA0A6cPsGrOxFVjK5vWpUOHKvglpJlhmPNVLgxWfrONrtdt8VPx1k-Uo1gofjx00EA-oLkLAoqyiaqmGdZYz55QR89KSGpgEdaspV",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104272208734127779634\">Kimberly</a>"
+        ],
+        "photo_reference": "Ab43m-vfv2zVO7iug60git76sVlfGBWT3SszpIDdW7IfBRH8dp-8cPhwipZDEi_QYxzyBCDoR_kwDiSOWsqCmzL2czFe9GB7N5cf9qUBaN0RSWLhBRSaAHhdTiPLYo1lUB38hWh0QrDuQMsoLomsLXmVkIm95FyWrrhFobBeoUMlEP9lf1MZfeynYcRbMFU7qq0q9RTzR6ukzDRb24ZxCPQd3jRv4ZWA5_e6jhyvJ31GmDTNIPU7s3ss1oNY8fV_plypb_FIIsKp1AwNwdgFFb4zMYlfQTZftXC4RYBH4YSaLuP9qcUeGmqi4M1zcpTJgjol9CWox3VFr-iH0GMUGV1jHm9_EUchZDBd2QV9n33tv30Ovf92Q0Xe8Z5YVW83etiEsORiCeHxSeYRfzmzagSmcHnBTaDEyTIbZjygMTA1RlW_0z-r",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJ5-8ACZhGjoARzRLsZV5IAYg",
-    "website": "https://mountainspiritstore.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9800193834409005773",
+    "vicinity": "6299 Hwy 9, Felton",
+    "website": "http://mountainspiritstore.com/"
   }
 }
