@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "We vape &tobacco",
+  "place_id": "ChIJsfF2JwBFlFQRb45kFJ2a6aM",
+  "result": {
+    "formatted_address": "1490 Dike Access Road, Woodland, WA",
+    "formatted_phone_number": "(564) 208-8626",
+    "geometry": {
+      "location": {
+        "lat": 45.9273153,
+        "lng": -122.7596913
+      }
+    },
+    "name": "We vape &tobacco",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 22:00",
+        "Tuesday: 9:00 \u2013 22:00",
+        "Wednesday: 9:00 \u2013 22:00",
+        "Thursday: 9:00 \u2013 22:00",
+        "Friday: 9:00 \u2013 22:00",
+        "Saturday: 9:00 \u2013 22:00",
+        "Sunday: 9:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJsfF2JwBFlFQRb45kFJ2a6aM"
+  }
+}
