@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:57Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Functional Apothecary",
+  "place_id": "ChIJ51OAgfVXrlQRMvpxB-sffAs",
+  "result": {
+    "formatted_address": "SW, Boise, ID",
+    "formatted_phone_number": "(208) 917-1828",
+    "geometry": {
+      "location": {
+        "lat": 43.5822853,
+        "lng": -116.314068
+      }
+    },
+    "name": "Functional Apothecary",
+    "place_id": "ChIJ51OAgfVXrlQRMvpxB-sffAs"
+  }
+}
