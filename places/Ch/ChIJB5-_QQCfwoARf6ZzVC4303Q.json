@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Diasporic Magic",
+  "place_id": "ChIJB5-_QQCfwoARf6ZzVC4303Q",
+  "result": {
+    "formatted_address": "22311 Ventura Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(818) 914-4220",
+    "geometry": {
+      "location": {
+        "lat": 34.1694846,
+        "lng": -118.6133352
+      }
+    },
+    "name": "Diasporic Magic",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 15:00",
+        "Saturday: Closed",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJB5-_QQCfwoARf6ZzVC4303Q",
+    "website": "https://jewitches.com/"
+  }
+}
