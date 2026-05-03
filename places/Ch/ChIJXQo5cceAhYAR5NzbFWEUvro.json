@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:27Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Natural Market",
+  "place_id": "ChIJXQo5cceAhYAR5NzbFWEUvro",
+  "result": {
+    "formatted_address": "1853 Webster Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 870-0619",
+    "geometry": {
+      "location": {
+        "lat": 37.7880445,
+        "lng": -122.4321586
+      }
+    },
+    "name": "Natural Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 23:00",
+        "Tuesday: 7:00 \u2013 23:00",
+        "Wednesday: 7:00 \u2013 23:00",
+        "Thursday: 7:00 \u2013 23:00",
+        "Friday: 7:00 \u2013 23:59",
+        "Saturday: 8:00 \u2013 23:59",
+        "Sunday: 8:00 \u2013 23:00"
+      ]
+    },
+    "place_id": "ChIJXQo5cceAhYAR5NzbFWEUvro"
+  }
+}
