@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Island of Salvation Botanica",
+  "place_id": "ChIJdVK2cC6mIIYR_e8INUWOFkQ",
+  "result": {
+    "formatted_address": "2372 Saint Claude Avenue, New Orleans, LA",
+    "formatted_phone_number": "(504) 948-9961",
+    "geometry": {
+      "location": {
+        "lat": 29.9686993,
+        "lng": -90.0525364
+      }
+    },
+    "name": "Island of Salvation Botanica",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJdVK2cC6mIIYR_e8INUWOFkQ",
+    "website": "http://www.islandofsalvationbotanica.com/"
+  }
+}
