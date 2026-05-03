@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Esalen Institute Gift Shop",
+  "place_id": "ChIJN59E0qvojYARheq25SkaLpk",
+  "result": {
+    "formatted_address": "55000 CA-1, Big Sur, CA",
+    "formatted_phone_number": "(831) 667-3000",
+    "geometry": {
+      "location": {
+        "lat": 36.1248106,
+        "lng": -121.637744
+      }
+    },
+    "name": "Esalen Institute Gift Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 20:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 20:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJN59E0qvojYARheq25SkaLpk",
+    "website": "https://www.esalen.org/"
+  }
+}
