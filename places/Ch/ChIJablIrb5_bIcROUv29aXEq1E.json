@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Balanced Root Apothecary",
+  "place_id": "ChIJablIrb5_bIcROUv29aXEq1E",
+  "result": {
+    "formatted_address": "1405 North Ogden Street, Denver, CO",
+    "formatted_phone_number": "(720) 276-9006",
+    "geometry": {
+      "location": {
+        "lat": 39.7386281,
+        "lng": -104.9754572
+      }
+    },
+    "name": "Balanced Root Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJablIrb5_bIcROUv29aXEq1E",
+    "website": "http://www.balancedrootapothecary.com/"
+  }
+}
