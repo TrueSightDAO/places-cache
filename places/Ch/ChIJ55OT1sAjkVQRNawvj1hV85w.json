@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Cascadia Crystals and Botanicals",
+  "place_id": "ChIJ55OT1sAjkVQRNawvj1hV85w",
+  "result": {
+    "formatted_address": "111 Center Street East, Eatonville, WA",
+    "formatted_phone_number": "(360) 832-7467",
+    "geometry": {
+      "location": {
+        "lat": 46.866688,
+        "lng": -122.2656329
+      }
+    },
+    "name": "Cascadia Crystals and Botanicals",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ55OT1sAjkVQRNawvj1hV85w",
+    "website": "https://cascadiacrystalsbotanicals.com/"
+  }
+}
