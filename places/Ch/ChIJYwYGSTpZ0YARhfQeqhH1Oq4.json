@@ -1,38 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:46Z",
+  "fetched_at": "2026-05-03T07:07:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Spiritstone Gems Market",
   "place_id": "ChIJYwYGSTpZ0YARhfQeqhH1Oq4",
   "result": {
-    "formatted_address": "1210 W Main St, Quartzsite, AZ",
-    "formatted_phone_number": "(928) 927-6361",
+    "address_components": [
+      {
+        "long_name": "1210",
+        "short_name": "1210",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Main Street",
+        "short_name": "W Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Quartzsite",
+        "short_name": "Quartzsite",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "La Paz County",
+        "short_name": "La Paz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Arizona",
+        "short_name": "AZ",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "85346",
+        "short_name": "85346",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1210 W Main St, Quartzsite, AZ 85346, USA",
     "geometry": {
       "location": {
-        "lat": 33.6664461,
-        "lng": -114.2188123
+        "lat": 33.6623284,
+        "lng": -114.2370278
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.6636288302915,
+          "lng": -114.2356021197085
+        },
+        "southwest": {
+          "lat": 33.6609308697085,
+          "lng": -114.2383000802915
+        }
       }
     },
     "name": "Spiritstone Gems Market",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1930"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1930"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1930"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1930"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:30",
-        "Tuesday: 10:00 \u2013 19:30",
-        "Wednesday: 10:00 \u2013 19:30",
-        "Thursday: 10:00 \u2013 19:30",
-        "Friday: 10:00 \u2013 19:30",
-        "Saturday: 10:00 \u2013 19:30",
-        "Sunday: 10:00 \u2013 19:30"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM"
       ]
     },
-    "place_id": "ChIJYwYGSTpZ0YARhfQeqhH1Oq4"
+    "photos": [
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107160300844873635266\">W Pendarvis</a>"
+        ],
+        "photo_reference": "Ab43m-tDGuDjUxI1bJ_7hsRlG8O4rhrYM_iFscR7vTo4lqc_gDKdFjHeBxAb0ZTCadGkw9jHleG1AVOphOz1-JRdS7OhFWHfbzFKjRistxSkdXcRL8Wxm9Hs6rG-F0HMqjB6gbMIsu4EmA2hWvtZ9tRQIeJ94WYVxuWRVezDqZG-mUZB8H1qG42rNsGN_3yxR8vNS_swOFvR7Cl_P8Iyh4JvVPeIjbqufQGC4_eFGQQZ6V5MDgvYMVCNFZ-wYHJNb_9bnZBeMLZkmKDC1iAAHfGN_u-0WMX1julLuap0bhx0XKR_SmHU_v_41v6JpCdQp9uomIO-riZ_b_WY6mSnHCEyTpOZ0zSh5ov69keONnsJjGwOCcsNQZujP5w2_Q1_yN7TS-4FyE9R0jFY_X4zmXN44h4H5nMsDzkYkKlW8gfzjpvDhTk3",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114273590938024170118\">Becky Johnstone</a>"
+        ],
+        "photo_reference": "Ab43m-ujaXQOwcbBxZ4rbnIQyuOzsiouBgQx9Gy2DHnaLE3-hzwRAdePRYx1OOGgG1aJW11bZ6kb01uQQYf9GVnPKeTklRU-QMFeYnptcsRIYQvnwUifDrJ_ux0xdgkDzphTUVAofJpcv8CnZz76y9AvsHT6kjWBCpwtGJ8g7TFOsluoQmQouOABsNhkh4aVXal-7x38yo7j9nDbV_-u79bEn_qObEHLH6euO-nEeUhQDGj8Y12WE9ZzFiq95sWqHihaAPH2YmXwnJPKWfsVhuSz8nxQGVspXGU8p_OGmbzSDktyw8dr3I4uEDpOSdaWruilLmbV50n90S061DiSi6t1fP3yFQMoV1IRfpiAOayEXTLOJfItipN_u48hZdrMb3aYzH9tgMLK7kqm_aWHKA4g7p-sJYpNwa9vzjQTKoHJDhapiU8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102043042103952076650\">Eddie F.</a>"
+        ],
+        "photo_reference": "Ab43m-t6UeaUyHFG3W_ydGnw2eRqQUjq-hoRa7vKEdiGCwSCiS8QDdF6DSVwrD10mgO6Dp_opTE_mpgmTJ5FaV7p2oTCQ7TRgXK_pshm2owm3J_VF34r8caD6WQP3DcqwvvO1fzXRnoO7vpMmxBepJv8jQIVj-_SCVsxRy2AEo1JvmW8qnvf4F0ibNL2KbBJCkPG7BQ28tXj1e9jUf_4bjEaNH2uRy0xO6U5ZXhqXObEjYSnzKN8bUK9a3I8mCUL5CfATAHOn-eWgA8AD-UIQL-gsDawncvVJO55kpdDtrEQjfUJDHvtG2fQfepe6NQWE1x6rhReBk7zOFFX2Tf3PwWakXTND01jBdZzNuc1yb4aXmKRZGKR3Sm6fdblrhtKbFeld6nPhyM65ctOD-wq56giXPb9TRl58uCRXHN0ZB8wf-7Wmw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101053972547714884298\">hinagirlmaui</a>"
+        ],
+        "photo_reference": "Ab43m-satpQQuQbKy7E1FEc3DH6MAqniqRjeeF1kw8SWpMSDwfjyJbJIxqWNBJbgO5VYyOEV2rKLSwBqtzEo_Mbrq4aFTzRrY0P4JmsxB3p3-OH2m12ZHOYThVJwnN5hHsms5V7emTgC9BP32Mla-FSc0mh9kOMELYTdwucPC4zkFAbTabYqWXYccrbM0hAGpQ2KA48Yf9POP0Q4vMzj0EJm9x37Mff81trphsm-_z6Vxr_Nm9bNk1HzS_4-maFsxmJlDGJaSAvaG1a01r1uCT-5Me5XEq8Pm05Vxuij-4kMmYvS49BxoyBucfh6XAU0AnzIKkoUugqeHtBbyzi-7mppHSxMtRtanUT73bcXLCRMJcidzjPmtvpdkkJI9tP2DzKUM7cVKqDL6fDwwA0Gs0vpXg24yov3UD_Rb_NU284Z45Z1q2OC",
+        "width": 1960
+      },
+      {
+        "height": 2185,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112975905903911647208\">Renata Hickey</a>"
+        ],
+        "photo_reference": "Ab43m-st_m3GaVOSO8OMG8o-6pGWsnM3DLvScJjwqCdXRQtGQHqTZKXhX4MYMjwtK4-QedD7SM9f_TaOQN4USIWzATCliA0q9Y_Gu0njZKaUdZCP1ocpNiG9_LYFwTLwa2um9K0dTiZEt7Ptc8asTFTsaBFws05YlTb9frsQ9tIMtOhoj77FwEC5zqJOfaVb89Wn6mcgnSrBSv_fWaqnJnW17sYRXW5rOdyp0hDujqMGEhX0qX6uJqEOIFgBFRztdaaYRrDIryAeiyKAAwoFOl4K1wLyc0ZlzCi0idlnxRZfnYIOoi7eFrLszFiK5O1b0ds22XVF4rpTNN8O75jV2lqdt9IS1kPnYxtPHQiyhanXgg1FJ4TVIGR67AG_2YBXphIyHIlXvWAAN_bdmhaMQewG6V3zbCfKP97ujw2STlFuTNtg3Q",
+        "width": 3137
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102410280098069490465\">Patti Scanlon</a>"
+        ],
+        "photo_reference": "Ab43m-t3bMTBJ2yluYt5y7ny2pE9cPYV_Qn4h_W8roqx4Q1-tAIsSdb1nfGBsVX-BJ_qcAqj_RmIWE-QLAs5eGeIgyzyH6tCI8KOkT4Lf-4Bqn4uFJpKI0hXPNX__nUtAjZNveE5WRkf5I1tBJxT_Gpy43baSj4eR_aDY7SxCuWnevDI5qSZhwaoF5mhR1DmOEo-989C8DT1H3W0NkHZ00yXvNKYaKm7OVxZcRp-ZlKNzm5ykIa-i1IXZ6USi3kS31qvS1PKGnIQRPGN7QA_RrA_Q26qjeV4MF1ps77fCVx1nMcPP87OQvgPb3BkAupSHRjYpPIvlVpAhnaSoc4s2tl6XV2FTWeswtnmJ4pHgBsD6si-V7LZxOFLbEnU_7vpFxv9yFCCg75s7aGNf9PvxY5wtEONwwj5aBfZYh8saX6EHo-9NfDCOEYZsdTVmqevywPQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117115954840188925358\">Ryan Scott</a>"
+        ],
+        "photo_reference": "Ab43m-tvovfeAtiADW4V9unStflROTstTtyMFq0eE2rtfZ3nfJlQH4Hv4VVZfHJOGUtVioQ8AiEv9r1eoYdn0ZhId-Uwl-jXBMnOo3PN-ZfxEyBfFb8fNCz7Lwdj5Wh9jyWSPSM4voUuNAcnbioGIMRsnoYGJiVZ3r8bSbWzTUyZPY0pG5Ink9WWxsy9XSxErNl_mUTwbS02eUbB9YFqrT7Qo20aPvwg4aOPij8E0hhDFA7kYRt9mY8h4scfxqLL4B_RFKohIt50vOwssrx6tmosSFsbrxEo2gfYG6VRL4nuzl-Xqp_3iuF7OC-yROFgWz2AG30O6TJH9dT78SYvP8AIbriHXxp-Av1esdTROC8aFqB9mgaj0dpMF_qYBFKjFMZmkb19ldtX_-gWrzmjvYMA_txQRcOFkhV7QCO1YBdo6n81OaR5",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102410280098069490465\">Patti Scanlon</a>"
+        ],
+        "photo_reference": "Ab43m-tGl2wIgJujhYyk0-_Qyoo4E4900Nv_7j-mvoyi0BDSNm6Ullq16CaAejowhxIvU1eA1IdXU4HTvQ6putGcDQEG77HBWgEYZ95SekD4IPuKPF8YUXx4ySmw4PF6yfqZQQtAMHkAwDEo8YXlIVMMKLiETebTlzUQgwUyzl6UqyHPqnx20URmoZhBfSdr_7bV_R11hNxeGlLlLFQKoZLFTJDhtcjELLWIuzY85AK5YC1kvAcRocayuaw-opxU00lnrEFt_KjN6tEzxHXuFM5YymYBkwUVKR2UmWm3oYmEI2pH_MqKdLc72n6yAsYpSjbyrZOR2unzjC5l-USFl1ArAi0g5JYp89aH5S0FLXzDcVTwAIM_poM8ARDGVoGT95McD8zC9lr3V3z-dLalShRB4YIgBqrdz_LMUO-lOmwQN7AL-DQqesEU9wb0-DS7_t_-",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117115954840188925358\">Ryan Scott</a>"
+        ],
+        "photo_reference": "Ab43m-s6UU58tC6mQx9TGDGSxXsOmVlqV2D9a6CiHpbcSsgevPNq4W8ZQxBVnrmMLhfCc0_D1eb-d09Og_kIdTwyo7tPtEk8_xHPZQq6DW-yrZc6-qwEFSagYsTc_ZkjVfX7hhMbc9-07EVZBaKzLNwxTFz4niAE6jJHcpDGfopRx-D71Ym-ydI6GVozIbqbkkMs2L87Z7jSuWt-GNffgM_huwJ3tnQPC1guTH1xanco9kL4IK1kkAApMfjYCFbi2A6oeTcMZSIi8JTNnRjMvtc2JY_Xh_vA1sWC6hGTV1Ir2LgRdrgDIRmj-xkU8lU6aS3UYYO-jaUynAVphbz-IvsJab5Vzbr9AbeqBeElMGt_MZXnoqWFmpEwFmQLAEv7dTU8-T35VSYx0LUi1-JzQZNOW39kT64D2vYiHKs6dOvxeoRPh4VA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711167098760404177\">Mike S (NotoriousOne)</a>"
+        ],
+        "photo_reference": "Ab43m-us0fO2D9OsD1VIe3biCjVvtMbd15SiGI97zxBo7Pom88R038mRt0f_p17muSqZNGppX68IvAs0lGOom9VKeaH0fEa16WQPJfEjKYk2jDU7AmnLWtgo6n2xbhYJhnFur1YwCvW-T599m_Biq35AJ4VuQY4vVa9daHW3hSaCCLLVQ-V0ScX5ipquI9Gc4s7Qgdg5JoQKxFfn_d392lKAXPZX6xOm0z6ovOzah0NoxLscBM0HVXDmiMWGUf5osm3tRH2hm-58mbBYTgd5iYKx-Ns70mYYbwjDqPvu8Fgz_eBU56gKp-ABgXHPL4VPcpFQXhtmr6tc6GFx7kaTptQZDbTeIvjw2VcW5H9TanBAvdmu7avHmhiVPC4CcQU2m3DcI9lu3LhWrywI6CC-BO8nEfT-JNWKSvcU1uyat4suuTE",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJYwYGSTpZ0YARhfQeqhH1Oq4",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12554616367466083461",
+    "vicinity": "1210 W Main St, Quartzsite"
   }
 }
