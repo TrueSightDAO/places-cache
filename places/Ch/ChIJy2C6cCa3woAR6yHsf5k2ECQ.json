@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Fayetastic Essentials",
+  "place_id": "ChIJy2C6cCa3woAR6yHsf5k2ECQ",
+  "result": {
+    "formatted_address": "728 East Manchester Boulevard, Inglewood, CA",
+    "formatted_phone_number": "(323) 446-5056",
+    "geometry": {
+      "location": {
+        "lat": 33.9595896,
+        "lng": -118.3458638
+      }
+    },
+    "name": "Fayetastic Essentials",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJy2C6cCa3woAR6yHsf5k2ECQ",
+    "website": "https://www.fayetasticessentials.com/"
+  }
+}
