@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:31Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "B. Fuller's Mortar & Pestle",
+  "place_id": "ChIJ_bpSrQAVkFQRRUO5yDQaV18",
+  "result": {
+    "formatted_address": "617 North 36th Street, Seattle, WA",
+    "formatted_phone_number": "(206) 683-6799",
+    "geometry": {
+      "location": {
+        "lat": 47.6513149,
+        "lng": -122.3505218
+      }
+    },
+    "name": "B. Fuller's Mortar & Pestle",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:30",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 17:30",
+        "Thursday: 12:00 \u2013 17:30",
+        "Friday: 12:00 \u2013 17:30",
+        "Saturday: 11:00 \u2013 17:30",
+        "Sunday: 11:00 \u2013 17:30"
+      ]
+    },
+    "place_id": "ChIJ_bpSrQAVkFQRRUO5yDQaV18",
+    "website": "http://bfullers.com/"
+  }
+}
