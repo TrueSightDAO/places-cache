@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Natura Herbal Center",
+  "place_id": "ChIJX00joWCYlVQR8TKw-ffTzKw",
+  "result": {
+    "formatted_address": "995 Northeast Cleveland Avenue, Gresham, OR",
+    "formatted_phone_number": "(503) 674-9200",
+    "geometry": {
+      "location": {
+        "lat": 45.5042957,
+        "lng": -122.4213121
+      }
+    },
+    "name": "Natura Herbal Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJX00joWCYlVQR8TKw-ffTzKw",
+    "website": "http://www.naturaherbalcenter.com/"
+  }
+}
