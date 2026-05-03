@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Boise Refillery Co",
+  "place_id": "ChIJD-ikRRJVrlQRcQYqNBhb0yY",
+  "result": {
+    "formatted_address": "10530 West Fairview Avenue, Boise, ID",
+    "formatted_phone_number": "(208) 544-6287",
+    "geometry": {
+      "location": {
+        "lat": 43.6201208,
+        "lng": -116.313447
+      }
+    },
+    "name": "Boise Refillery Co",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJD-ikRRJVrlQRcQYqNBhb0yY",
+    "website": "https://www.boiserefillery.com/"
+  }
+}
