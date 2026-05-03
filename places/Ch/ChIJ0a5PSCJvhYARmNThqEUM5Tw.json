@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Vortex Bay Area",
+  "place_id": "ChIJ0a5PSCJvhYARmNThqEUM5Tw",
+  "result": {
+    "formatted_address": "619 First Street, Benicia, CA",
+    "formatted_phone_number": "(707) 641-2168",
+    "geometry": {
+      "location": {
+        "lat": 38.0494001,
+        "lng": -122.1590259
+      }
+    },
+    "name": "The Vortex Bay Area",
+    "place_id": "ChIJ0a5PSCJvhYARmNThqEUM5Tw",
+    "website": "https://thevortexbayarea.com/"
+  }
+}
