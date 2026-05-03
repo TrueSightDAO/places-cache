@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:13Z",
+  "fetched_at": "2026-05-03T07:06:47Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sublime Journey West Coast",
   "place_id": "ChIJW2cBaTzBj4ARMzTLCmbwLqQ",
   "result": {
-    "formatted_address": "37485 Niles Blvd, Fremont, CA",
+    "address_components": [
+      {
+        "long_name": "37485",
+        "short_name": "37485",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Niles Boulevard",
+        "short_name": "Niles Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Niles",
+        "short_name": "Niles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Fremont",
+        "short_name": "Fremont",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94536",
+        "short_name": "94536",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "37485 Niles Blvd, Fremont, CA 94536, USA",
     "formatted_phone_number": "(510) 896-8496",
     "geometry": {
       "location": {
-        "lat": 37.577022,
-        "lng": -121.9795886
+        "lat": 37.5769584,
+        "lng": -121.9795369
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57836443029149,
+          "lng": -121.9781699697085
+        },
+        "southwest": {
+          "lat": 37.5756664697085,
+          "lng": -121.9808679302915
+        }
       }
     },
     "name": "Sublime Journey West Coast",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-vZl9TR9EBv9O3-9iux6BmtEDNiDDTZG3e99RU81cqPeTGH1QG3cQSV2V48XI9Je4JkVTHjtmDe-QKiIIky-fIbSoW7aOCOrylNkOR1tSPgykKsyi5IbU2IRaJq1IrMgvBnEz6sTggirw-donx6EBTC-4PgTPaEZEle1fUqQUm68DffcA4lFo7kVgRetXTbdf25EDUx4SEYUBXV05oKiPNJNFTgMko0umxFum6QqHtxUK68HeT7ogLHU_T947ao6RHeCsDUX78bYNB_JSv2rGOFQfxFZjRYQtWypU4AQBMEmQ",
+        "width": 3024
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-vTJCMj2gfKgxyxkbVjfW0_N3dQQxUUODVr_OmCHTz5FBrjFIMn1WxzC6jMAkdowfMKlksBxSJ0iZ102WIUEB3s7s22qZU1_WNd1tbMKXw-p4SnLpDQuOeuK2qDYwgKg9ar5ygB4Jvr5pV15aw3XwvpqPqpT7zKVODBzXTLhOwbBzZknqViwSu8gRMJhDIxRbBGD2FhIL8Z809YOUu5SbfmhYOudiCKzKn5JjNpsxPjwaZzkClyi41g59u-6qfVTQR8XG-2tqT_mReFd-ZBnaq8pTOtntBck2CLez4OmqKCjw",
+        "width": 2168
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-sanQy6JHor9_Sb1V3sLvQm3oEd02oqJd5AXD3XpqDXQMXDad4ZMjy61-bFe6LvyHavM7FGb0Fu--VjnYKXeOMKskwBOZCiLAxl8FkGlM4Mj-0YU4IzBe2iCBvz6sodDIhazYe-up5UrztaT1g4UnWApA-0QIOCa057y-AnccQOlpOu-KtSi1hAmBzXsE2slJDJkyR7nXUbYKGr6u2TJL3IlTmkCsF47KZVD2u2OFKyWKuwZhRu5-6CmmiXGcQqXl5evhOr5i7Ayrco1wqWMxcIdpvYbD4cQoBwPZR4Hq6dVw",
+        "width": 3024
+      },
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-t9p-7im1ahECmQSHtIJNQQ8GFOAP1N5AjE3OxIHqmUz0lBW3Ks6Z62KUGU5Dz_pfJU0TWBWpqKN0czWyVf9JYPcVEjVt9clsYrHL2Ut7pK0ibuvsNR3zqPDloy-duhp9-TXJWU8dB_ljky0sKFV-8NAjPOrckYPteMcWkY_ylf_1UYUnv_bUXE9feNFLh6g_aOlpHwWu4_chSmZhPQKOPSZISHDrNKfhxHKYIynxqp7DLTxRd6c-ETOOwbSj8bibavt2rAQDtQcTbGYH9C5r5ueZf-k0YvHgp-7rEIvYqsrQ",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104215961874663612243\">Sabrina Italia</a>"
+        ],
+        "photo_reference": "Ab43m-vc9VDZjIwaC7juboXO8P-0omAEu3I_8tzVO3xhIjfdTkD1dkCtWp7bLrvqBRlAeLdGxs8FyIu_jQEQ7tV-HPVJgATd7oMfsuGMEawK1MGEuH2zrjELFG0siujtzIp42u5guogrQgQRqCnQmS7YmdD5Epl1ilyXCq4xTZ8Ge7kFDbM5YotNOycF8GzaUvFo_LcmWG0KNX2gtPy7OmGBQsjRW8pltQxUQNM6HUpOuyeftFu2TalL0s6wvB5G22dKlDwWJaIz6vQscoDTV3tf2PWHM1omAjOpatje4eJ9D4dRO-OeDv4t3XRhms8NNr6025D87XNssGGYmGCBjk2rqLfw2vfeMDlmFw4eeXA4AJCnUn9g7pPc3I4zsSoGU-V4gL051QEg4s0ugXsuyyZ1N5CU89JdwONhzX5MWBbQnjpZWg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-vv_RLJw4hxBJ06B9Qe4qUk52M23tm2L2m5KAlBPyQHG1DPKh8nlMYZKOxnHwuZMlkcYI5VOwTha1kH3k8z_W-wJpj-OSJbmEWUD6uZ0AllWD4B3JeEs4zYUM6Snfnq4OzvW_QFTOldI12WhuyoP36pxaQ5WUmrvS_6TcA2rVjlmILnm42FkRdtnP5zuirQVHuVxytTm7l_c5YlPJM94j12mfJLoDD2qXy7cF5QFqTn-Jc3MEgnefZlk1LEt6J6AnFVIvf3o43UBLJBWp-SjdjDs8ljopAgohbdB94ytxnFuQ",
+        "width": 3024
+      },
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-vMlxR7ZGB4M6yc0RAQGmNTWODVZG0BnbB6DyE-ppCa7Gr_ey-CNFQhN66HSEIFaNCsRSACTVeMhCwjZjYM1S4gJUpg5iLN5TJK4LRt4ThBxxooxjBwFLRloI83uY0V2WEEYuUHjBvBPgL8e1xiSYQHKnAoShRBDFiT8xaxaO99761WIUbiGhRN8KTu7ZGKaOTuMz2JlFztnTWMpvAnCpyBplXj-hJy11i_ScEEjE5c4n5bqGf7eFF74F72LCn792EFz5mRWdly01uMjAj8pWv2ltYI241hHziLM2XRaf6Z2g",
+        "width": 1080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-vzA_5pw72HfRvXSkaTgB0jhs-9cY1biBpA6e3Pir3uM7awBdLVdW2QjAb0J1ddU4ZeCWJUJpr3x1cvtpP3in_LqKfWNcJBLfnhOQ7SzqoDc5sdQsQhCGhFwQwLo1_NSvR30O2Y4K0wy5JSYdkLqOi6h-jKY3x90oE62rlpNxZlDcPqTuxskRZmQj73ausYI8NKn_MSXYyhdMnSIRoVyoxRto2KlSV5E3P0YGENNZkBpVzAbCOhRPoBjqYwZ3sdQK5o0jWvA-HbqPywIy05JPGmrsA_Bky-eC5ig47QZcoGuA",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-uIXFcmEsp4ikDK8pWIZuoM3WckTrQ2PqqlG_NhsCcVri2PRcacFKz7XO7gFszMLGwDvZykZ_Q04b1yiPrXYPfTlnSylOIr1_H9UJMWho8L8nfDTZ8VTsfFH4IR04_Jsp7p4Oyg1atT_BElc4fXwQz8Nss1WzjLj5i9x0U7dFpdeh9XYWOeXzkDkaJTUloJ7nb9ceK7p20tvfA0rN8Ktpl14FBY9OOWrefJv8WthSaU6ZDpouHL5Vliv3AxhBDu9yzEVBmV14GVAbmyzGPft55jTUxL3QVnez-MYL9SLRM8_A",
+        "width": 3024
+      },
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102702004903927799281\">Sublime Journey West Coast</a>"
+        ],
+        "photo_reference": "Ab43m-sXVBt6yb23_tVikDhb_myL1gWQVANem-SwAmY1G5b1MSyc-_rN_AetCrnm2OPyT2Y9zJFKnMhRKj21_IxogrNUEdKfgsiBufv-5CUGd_a_8zsz_ZvITI915FXKbChnaO-35AxUYD3h4jo0AaxNNWfLM5kDzfygJgXHZHvxjeAHAXB0vDlGr4XyaFqB-Wj01wRjsPQi1APt8oWWCJnQK6UaurXW4l_5aCqTbZRiKD0ihRt9vMOFUnspC7CuKc5Lo88sEzPj98BFt1kvS_rILMpkYitbSkZQwx6kycMNPSbOCQ",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJW2cBaTzBj4ARMzTLCmbwLqQ",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11830657592207291443",
+    "vicinity": "37485 Niles Blvd, Fremont",
     "website": "https://shopsublimejourney.com/"
   }
 }
