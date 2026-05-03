@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "TBE Herbs - Total Body Enhancement Herbs",
+  "place_id": "ChIJH2UJN8gVhYARDMsBRjIO3EA",
+  "result": {
+    "formatted_address": "4455 Central Way, Fairfield, CA",
+    "formatted_phone_number": "(707) 759-4791",
+    "geometry": {
+      "location": {
+        "lat": 38.220626,
+        "lng": -122.128213
+      }
+    },
+    "name": "TBE Herbs - Total Body Enhancement Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJH2UJN8gVhYARDMsBRjIO3EA",
+    "website": "https://tbeherbs.com/"
+  }
+}
