@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Murphys Mystical Emporium",
+  "place_id": "ChIJHUnA2Ha9kIAR_3r0T0P6wqo",
+  "result": {
+    "formatted_address": "118 Main Street, Murphys, CA",
+    "formatted_phone_number": "(209) 559-0930",
+    "geometry": {
+      "location": {
+        "lat": 38.1374174,
+        "lng": -120.4581534
+      }
+    },
+    "name": "Murphys Mystical Emporium",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJHUnA2Ha9kIAR_3r0T0P6wqo",
+    "website": "http://www.murphysmysticalemporium.com/"
+  }
+}
