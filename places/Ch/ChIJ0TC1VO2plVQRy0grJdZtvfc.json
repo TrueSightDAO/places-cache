@@ -1,40 +1,289 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:44Z",
+  "fetched_at": "2026-05-03T07:07:14Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Crystal Rainbow",
   "place_id": "ChIJ0TC1VO2plVQRy0grJdZtvfc",
   "result": {
-    "formatted_address": "1006 State St, Santa Barbara, CA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Suite A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "301",
+        "short_name": "301",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East McLoughlin Boulevard",
+        "short_name": "E McLoughlin Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Arnada",
+        "short_name": "Arnada",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Vancouver",
+        "short_name": "Vancouver",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Clark County",
+        "short_name": "Clark County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98663",
+        "short_name": "98663",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "301 E McLoughlin Blvd Suite A, Vancouver, WA 98663, USA",
     "formatted_phone_number": "(503) 481-6581",
     "geometry": {
       "location": {
-        "lat": 34.4216519,
-        "lng": -119.701991
+        "lat": 45.6346431,
+        "lng": -122.6690939
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.6360368802915,
+          "lng": -122.6676444697085
+        },
+        "southwest": {
+          "lat": 45.6333389197085,
+          "lng": -122.6703424302915
+        }
       }
     },
     "name": "Crystal Rainbow",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 18:00",
-        "Tuesday: 12:00 \u2013 18:00",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 0:00 \u2013 18:00",
-        "Friday: 0:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110459016112660113471\">Crystal Rainbow</a>"
+        ],
+        "photo_reference": "Ab43m-sG7FiGs3GZQf3rTSoTaL3FJvWHw3XsUyC_cYamCOmhA4UP3g6JBZcKJSSMmsHYAVZMTuHxmdpcm0BaUMTKFMzmFzMM_k44xIxKDf2SU1Idg4rktvEmmQ8PG0tsfY9Rwyx0cgiMvcPVWtGC7iaqDzv4vE5hx40DQ1HODV9ldPx-36_1HHJxZHWdmjiQLyN9rqbhoe8o8KCxpo1FStcIv7EaM5q3sV0cdktCSWjtp1UzQosZEf9MkhsOP7uIMbQoglpaNvgUvmZ1bh-vzOJDC9D08YJFDsopQ4XNtTmnQZdliw",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109111127773121441131\">vickie morton</a>"
+        ],
+        "photo_reference": "Ab43m-vCySsn2Ed5sBMs3Mf7zVY53vsaHCaOerxRre6EZWfWzF96q0eh8O7CPJRECFPmvE2Ei0ezbdzcSESC5ruLP85cA--RXvoEXeLmzH3eEe5N5LTP_l9DCVU2S8TZ7bC4nh59j_5DkgJWNUGtYKKuW-jYlQpfaEIbWKCVvn1Lw4-nO-rJBrTvtxPF7ngHFrtLY4alW0jpxHX7WH0B5Wkosp1SAXRQ4FRAw2eiYOB6J5FSRhYbzKDTo80JU9eI5Z8UArfvtU-Ue-HUOlwMQpxrGuuYMRYnnt8ELfBNzsdeepC9P2JF9DhQOvokp3WHLBWmfxtH8wGFgSK-lGDRjvX-qrV64uZ5S5W47szHMy6bzl2p_kRLWvAuJoveRbpFz0ss87CF-PLB1xOwy4nLcBoTGhbH4XKTjlIh1X5nHuZ_zx1Y_dcy",
+        "width": 4032
+      },
+      {
+        "height": 899,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110459016112660113471\">Crystal Rainbow</a>"
+        ],
+        "photo_reference": "Ab43m-vtcYDdjoQzlOQFxhCOIyVlzkn5KhMuZxiB2QHUFeJbMfJ6iCNvEaCSP0F4hLg117pXO-gTg75XmxksphZ5C6XoYBIUVDsJKWdQPmyxscJ-PAEKchJH1EsIXnGqxiILeW_kvdNvLiGvB-16IocuF2FK8FWScPrCW6Gzy00q8Wj3kk75UCSf9FvRpi1jVy3e2KqFlYc07A-MW5mvQS12c1hq0dpqwIpxiCvR1txtOm3JcI1NbwcTJedPso10OmYmAGOG6UlA86oYu-RFvEQnnuf7Yj64yn1IpBsaRB3mE_HTnw",
+        "width": 1599
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109111127773121441131\">vickie morton</a>"
+        ],
+        "photo_reference": "Ab43m-ui_EnoYY6XcqufnzrmqYPslqNS5FNpobgT39NpfXQbEw5URNvEVFLxy8sqLgH_yQ1wZdBNMKCrht-7iKHi3XQWdeou96Mxd9VVzmtTwCKzuGIVWAH_Uwz1O7WMhypB2PBg2ruCX5qhjxMrnh0FgEL8mirJ5WtDGJlr2QW2bMNLSUIp7gS6NMvMeHkLrm_r6YiSvVvh75-6m73Ff1clZ572mMSptBtwQ9KFvP3zeqt70itVoyNSE0XFjFCKuS7Fa-_jWGC7UKfDgGb6Xx1ey8O2evV0GRE7GHuFEQpugxkx2PHIgeNeJ_QjowMB-E2MZoT5V5fMLfy4cvEEsbN4OrPfOtKmCiunD5ba_MyH9VE11PSqRBFBLNTAD67aSuNvHq0I3gUKnFmXclP-xTfKU-YYE_lwcs_onePIMWPqaTE",
+        "width": 4032
+      },
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110459016112660113471\">Crystal Rainbow</a>"
+        ],
+        "photo_reference": "Ab43m-thkBYS1eBeG6ac2IHce7TcHaEQKEby0rw4hcA6Wi1Mu3Ck6aBzSBbJ_ft-v6G5JssqMPfkMc9ZVL8OellwEUDiyZW38C7zVOXk3AlWCo69N8MIuV-jFJwzp9TgSzoWvYWz8B3PJ7uvObXXtcSki_4rn9YQf-UvE2j6NzCm4YAh-qZEvu6XbsYWBY4oacWolEeW63Hi4WQULv1qDqhpl-Szx6c_-xADmKQAa0o_04rUXOGjVdLEq0zVax6YI6y9c74QlZzy7B_mRfF8gjzfXytN7qwDoB24k4YjHpuhlMaIOQ",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109111127773121441131\">vickie morton</a>"
+        ],
+        "photo_reference": "Ab43m-tCuaQiO7S__4ula817tVKCDTL3lwcn717mPkhMdsVisP3RC_HuVgc-8q7tYWKaLDQJlox2U6lWn8QTEySVJYmv9Kj94eksgYGVuPyTyhT4WF8apTEpdy2s7Wso_atlQqBVqJOkEb2xneAorRso4CBEUqdx8Fikp21qv84P_zq3EW0YO4B9Ds2Xo8AgqRoT4H9_3auWxmBzzn3D_KbdDRIVzlK9OiaFVYdyjZoAT5HWmaJnIF-ZbSjvxQhR_tf1Ylh6-Rs1Gg0k7IAMq7Z5K5OZqxaT4hCWhwJeh4WXpOvz-9jJv_n13G_atZuDeMTVdoYp85RWsL71tYBic7OceRLRGiYr7ktBaQPLO6U7WgB0E-mfPeGFp8Ot32p17SWUwexAWvgZpKaNX2NA0cL_DdZCWTg1nlMmvhX6qdR8MDBp_gX2",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104838338495499495399\">rose</a>"
+        ],
+        "photo_reference": "Ab43m-vPseVZlZtEcN-YkRRv_NdSASoVftd6L-tc9UYobGXqMA9Zv1X-Gqm2u2bGmFSYYmw7iulSol75yegMio-reF9Bs44rmlDkF5exjyAcvRXRkxwyPiulwkBcJXCQgioyel3XDE1fbOZgsS7wM7EOWIOIE5uN4t0GH3b05nGnJAEBXtGorm3Qrd-T-QI0zTS9KijRkOoO2KbHKOOqFZTc9tFOW6Uwx-LNtuZctTIn0M4PjWb7jTgMyc1kftemswzg1lbSvMjhodJA2B2K1j2cxzVnSibaQg4jyOs6HFRVs8wlsBjwiOXeEUSmOI1xF3S5hkO1r-sRrUg0DKsdNlGYSpSILAjZenBoeTqY0BSqNdZunv8ad89ejJIyeVgzd12Rvt8aG6YW-wQq4C0eRDIg0ZUdP7OBXZ9wYCDtJBh665c",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101794543784076912247\">KatG</a>"
+        ],
+        "photo_reference": "Ab43m-vUZso01K_pb7DBe9iIU3Nb5xeiqCnguWITbi3Gt9S6VL6b2dCHaOn7bpMUz8MAXn_fi6b2JgTHOxx2DqA5kvISnSapdPx9EbIuFm6QMP78xqUFgeMejq-6C4lXugc5QKPZnGwNMHjsxAOi9Trz9EwVA16W-JZAiTcwzM8xn-JrrJ2f3Ji8QRpN1y7vKFwvnfCf8vvG5D9E9JnY14a_z7CAsCk9q45rnc5taO633qnykyiNVZNyv0bIHxtV7MFLMLfAKmGAqNxf-1DEavYnqOABGPpOoETeYJQAwfk_cjdWORmeznNSGFI5zkbQHuiJuiiB9HRJBqVdc5KVaBTEa5zXHuK7jnbhCRtrlpicXEADGzI8fYLRN3tOXiD_UwUpUKagqwMiEsNG78-1wLDJzsTWKMnCIkYunD5H50gQTdAqLA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108184141216606460702\">Pete Umland</a>"
+        ],
+        "photo_reference": "Ab43m-vEiq8aOVrGRa4pGt72QEr2RENFgGC-jSbatoQVD8bmdNY0xKY0MoDhLeb9rIFxvLkHGutlj4e2ixHoDhMgtHCdBA8gqu_W7uB7tP8oZA9u_odmJAACPM52YwNBhzG8VEFKIyVhaftfpPxmtWC7gyYk-BKiloMc7AhifEwEamT9l0Y9NaN9Xj-tasPWosGmj6LzKkrFpAw7vX4BbbKnn_CdT1Y8lxf0vjpYBOGcCwxbuzAC_2MOCTIiCLBhqnLPyH7mkvTWTL4O8DtrqzfyCV7piavrJ1JwAu09QZz2o066Xp-QDduZDXMg05am4mCcYocV8RgpBFRKFQkVIDp0Ezim7ScFLT5qbsiGxF8YDg1vzpnMc-n2Lav2gRFO-DSyeroAPaqL-Z92LdBxgGx148KAiyuNSqeZD6vJnERNYR_LwA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109111127773121441131\">vickie morton</a>"
+        ],
+        "photo_reference": "Ab43m-tCvFOcJ29DM2Yuh4yQwKZmEOd2nOCb7uW0VcFKvAS4M3d-3UIP7DWZj4gIWOs6IfX0IIezJy1oF4HzO3wkzvl1rpvBy_qwyxVnkzS50bG5MezX008eU_8GvIrYevn4FBarQDgsEZQGd3QPD3OggdTca8VuOEhZNUkbhTIHsE-hjtHP6mv6VzmGUkf-xcUFHlY47B_9XoLSJKz0K9XC0lUyQpvcqiIGwntqV6nopTWL4P1bGCLfv3mD4oNeAPnLoAAtFU5vXyHC6ZDOkDnK_k5aSH6WPY6mTQVdfj-Z6DuSyKlZi1cb33mzppDqLI_SNrDMuoGcjIhLQs5s1RH_MTXzw4aVHn0RtC4PeUTTRgxegKQEb-9KQ-HK_ghZfyrmz2SalHyUfBAkehV3uhNHXnhzUgVgraIHA2gqdLsGmQU",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ0TC1VO2plVQRy0grJdZtvfc",
+    "types": [
+      "establishment",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17851545264480536779",
+    "vicinity": "301 E McLoughlin Blvd Suite A, Vancouver",
     "website": "https://www.crystalhelpers.com/"
   }
 }
