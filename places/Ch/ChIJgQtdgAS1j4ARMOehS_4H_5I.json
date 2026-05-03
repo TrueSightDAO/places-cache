@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Tong An Tang",
+  "place_id": "ChIJgQtdgAS1j4ARMOehS_4H_5I",
+  "result": {
+    "formatted_address": "1043 South De Anza Boulevard, San Jose, CA",
+    "formatted_phone_number": "(408) 973-9918",
+    "geometry": {
+      "location": {
+        "lat": 37.3086734,
+        "lng": -122.0327714
+      }
+    },
+    "name": "Tong An Tang",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:30 \u2013 19:00",
+        "Tuesday: 11:30 \u2013 19:00",
+        "Wednesday: 11:30 \u2013 19:00",
+        "Thursday: 11:30 \u2013 19:00",
+        "Friday: 11:30 \u2013 19:00",
+        "Saturday: 11:30 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJgQtdgAS1j4ARMOehS_4H_5I"
+  }
+}
