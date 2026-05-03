@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Moon and Ember Apothecary",
+  "place_id": "ChIJl4qPGCxV2YARi64AGltM9h0",
+  "result": {
+    "formatted_address": "7224 Camino Degrazia, San Diego, CA",
+    "formatted_phone_number": "(708) 692-6717",
+    "geometry": {
+      "location": {
+        "lat": 32.7723381,
+        "lng": -117.1659736
+      }
+    },
+    "name": "Moon and Ember Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 8:00 \u2013 17:30",
+        "Wednesday: 8:00 \u2013 17:30",
+        "Thursday: 8:00 \u2013 17:30",
+        "Friday: 8:00 \u2013 17:30",
+        "Saturday: 8:00 \u2013 17:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJl4qPGCxV2YARi64AGltM9h0"
+  }
+}
