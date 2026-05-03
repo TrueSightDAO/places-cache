@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Wolfpack Wellness Den",
+  "place_id": "ChIJ66YmH2apmlQR1E3_i8F_Smg",
+  "result": {
+    "formatted_address": "722 Avenue D, Snohomish, WA",
+    "formatted_phone_number": "(360) 913-5855",
+    "geometry": {
+      "location": {
+        "lat": 47.9213745,
+        "lng": -122.0984279
+      }
+    },
+    "name": "Wolfpack Wellness Den",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 13:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ66YmH2apmlQR1E3_i8F_Smg",
+    "website": "https://wolfpackwellnessden.org/"
+  }
+}
