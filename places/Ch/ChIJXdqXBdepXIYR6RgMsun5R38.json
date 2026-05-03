@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Solidagoapothecary",
+  "place_id": "ChIJXdqXBdepXIYR6RgMsun5R38",
+  "result": {
+    "formatted_address": "504 Burleson St, San Marcos, TX 78666, San Marcos, TX",
+    "geometry": {
+      "location": {
+        "lat": 29.8835199,
+        "lng": -97.9478278
+      }
+    },
+    "name": "Solidagoapothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:30",
+        "Tuesday: 11:00 \u2013 18:30",
+        "Wednesday: 11:00 \u2013 18:30",
+        "Thursday: 11:00 \u2013 18:30",
+        "Friday: 11:00 \u2013 18:30",
+        "Saturday: 11:00 \u2013 18:30",
+        "Sunday: 11:00 \u2013 16:30"
+      ]
+    },
+    "place_id": "ChIJXdqXBdepXIYR6RgMsun5R38",
+    "website": "https://solidagoapothecary.com/"
+  }
+}
