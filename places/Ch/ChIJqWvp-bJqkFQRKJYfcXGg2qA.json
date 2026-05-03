@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Left Bank Books Collective",
+  "place_id": "ChIJqWvp-bJqkFQRKJYfcXGg2qA",
+  "result": {
+    "formatted_address": "92 Pike Street, Seattle, WA",
+    "formatted_phone_number": "(206) 622-0195",
+    "geometry": {
+      "location": {
+        "lat": 47.6089115,
+        "lng": -122.3403584
+      }
+    },
+    "name": "Left Bank Books Collective",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJqWvp-bJqkFQRKJYfcXGg2qA",
+    "website": "https://www.leftbankbooks.com/"
+  }
+}
