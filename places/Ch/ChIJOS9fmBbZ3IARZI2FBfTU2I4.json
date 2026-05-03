@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "MPM Apothecary",
+  "place_id": "ChIJOS9fmBbZ3IARZI2FBfTU2I4",
+  "result": {
+    "formatted_address": "1851 East 1st Street, Santa Ana, CA",
+    "formatted_phone_number": "(714) 900-3421",
+    "geometry": {
+      "location": {
+        "lat": 33.7460046,
+        "lng": -117.841583
+      }
+    },
+    "name": "MPM Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 18:00",
+        "Tuesday: 8:00 \u2013 18:00",
+        "Wednesday: 8:00 \u2013 18:00",
+        "Thursday: 8:00 \u2013 18:00",
+        "Friday: 8:00 \u2013 18:00",
+        "Saturday: 8:00 \u2013 18:00",
+        "Sunday: 8:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJOS9fmBbZ3IARZI2FBfTU2I4"
+  }
+}
