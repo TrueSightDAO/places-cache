@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Gifts from Earth",
+  "place_id": "ChIJYQZraNfXmoARMCjV5nQCY60",
+  "result": {
+    "formatted_address": "900 North Market Boulevard, Sacramento, CA",
+    "formatted_phone_number": "(916) 339-6975",
+    "geometry": {
+      "location": {
+        "lat": 38.6469286,
+        "lng": -121.4823394
+      }
+    },
+    "name": "Gifts from Earth",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJYQZraNfXmoARMCjV5nQCY60",
+    "website": "https://giftsfromearth.com/"
+  }
+}
