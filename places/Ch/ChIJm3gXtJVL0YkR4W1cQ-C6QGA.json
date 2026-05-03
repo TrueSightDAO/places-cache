@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mythictreasures",
+  "place_id": "ChIJm3gXtJVL0YkR4W1cQ-C6QGA",
+  "result": {
+    "formatted_address": "1225 Jefferson Rd, Rochester, NY 14623, Rochester, NY",
+    "formatted_phone_number": "(585) 505-2702",
+    "geometry": {
+      "location": {
+        "lat": 43.0850303,
+        "lng": -77.5996684
+      }
+    },
+    "name": "Mythictreasures",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 20:00",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJm3gXtJVL0YkR4W1cQ-C6QGA",
+    "website": "http://www.mythictreasures.com/"
+  }
+}
