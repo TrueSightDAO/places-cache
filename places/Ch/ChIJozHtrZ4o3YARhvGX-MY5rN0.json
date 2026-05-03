@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:56Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "D\u01b0\u01a1ng Lai C\u1ea3nh Natural Herbs",
+  "place_id": "ChIJozHtrZ4o3YARhvGX-MY5rN0",
+  "result": {
+    "formatted_address": "13523 Beach Boulevard, Westminster, CA",
+    "formatted_phone_number": "(714) 894-8019",
+    "geometry": {
+      "location": {
+        "lat": 33.7661415,
+        "lng": -117.9906806
+      }
+    },
+    "name": "D\u01b0\u01a1ng Lai C\u1ea3nh Natural Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: 12:00 \u2013 17:00",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: 12:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJozHtrZ4o3YARhvGX-MY5rN0"
+  }
+}
