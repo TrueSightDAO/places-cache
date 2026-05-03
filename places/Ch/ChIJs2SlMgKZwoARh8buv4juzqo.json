@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "7 Chakra Apothecary & Tarot",
+  "place_id": "ChIJs2SlMgKZwoARh8buv4juzqo",
+  "result": {
+    "formatted_address": "17007 Ventura Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(747) 235-7528",
+    "geometry": {
+      "location": {
+        "lat": 34.1600707,
+        "lng": -118.5036136
+      }
+    },
+    "name": "7 Chakra Apothecary & Tarot",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJs2SlMgKZwoARh8buv4juzqo",
+    "website": "https://7chakratarot.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+  }
+}
