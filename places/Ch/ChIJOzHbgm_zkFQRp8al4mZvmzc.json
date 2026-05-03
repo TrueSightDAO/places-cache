@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Magickal Earth",
+  "place_id": "ChIJOzHbgm_zkFQRp8al4mZvmzc",
+  "result": {
+    "formatted_address": "1522 Cole Street, Enumclaw, WA",
+    "formatted_phone_number": "(360) 226-3373",
+    "geometry": {
+      "location": {
+        "lat": 47.2033768,
+        "lng": -121.9902287
+      }
+    },
+    "name": "Magickal Earth",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJOzHbgm_zkFQRp8al4mZvmzc",
+    "website": "http://www.themagickalearth.com/"
+  }
+}
