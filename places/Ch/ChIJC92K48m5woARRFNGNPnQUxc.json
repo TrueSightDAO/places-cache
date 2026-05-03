@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Natural Health Herbal Supplements",
+  "place_id": "ChIJC92K48m5woARRFNGNPnQUxc",
+  "result": {
+    "formatted_address": "1746 Spaulding Avenue, Los Angeles, CA",
+    "formatted_phone_number": "(800) 340-5485",
+    "geometry": {
+      "location": {
+        "lat": 34.0435475,
+        "lng": -118.3644797
+      }
+    },
+    "name": "Natural Health Herbal Supplements",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 12:00",
+        "Tuesday: 9:00 \u2013 12:00",
+        "Wednesday: 9:00 \u2013 12:00",
+        "Thursday: 9:00 \u2013 12:00",
+        "Friday: 9:00 \u2013 12:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJC92K48m5woARRFNGNPnQUxc",
+    "website": "https://naturalhealthherb.com/?utm_campaign=gmb"
+  }
+}
