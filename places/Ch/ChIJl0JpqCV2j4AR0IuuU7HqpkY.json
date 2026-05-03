@@ -1,40 +1,289 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:48Z",
+  "fetched_at": "2026-05-03T07:07:18Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Preston's Candy & Ice Cream",
   "place_id": "ChIJl0JpqCV2j4AR0IuuU7HqpkY",
   "result": {
-    "formatted_address": "1170 Broadway, Burlingame, CA",
+    "address_components": [
+      {
+        "long_name": "1170",
+        "short_name": "1170",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Burlingame Terrace",
+        "short_name": "Burlingame Terrace",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Burlingame",
+        "short_name": "Burlingame",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94010",
+        "short_name": "94010",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3422",
+        "short_name": "3422",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1170 Broadway, Burlingame, CA 94010, USA",
     "formatted_phone_number": "(650) 344-3254",
     "geometry": {
       "location": {
-        "lat": 37.5866861,
-        "lng": -122.3643484
+        "lat": 37.5866754,
+        "lng": -122.3644446
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.58796853029149,
+          "lng": -122.3630526197085
+        },
+        "southwest": {
+          "lat": 37.58527056970849,
+          "lng": -122.3657505802915
+        }
       }
     },
     "name": "Preston's Candy & Ice Cream",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 19:00",
-        "Tuesday: 12:00 \u2013 20:00",
-        "Wednesday: 12:00 \u2013 20:00",
-        "Thursday: 12:00 \u2013 20:00",
-        "Friday: 11:00 \u2013 21:00",
-        "Saturday: 11:00 \u2013 21:00",
-        "Sunday: 12:00 \u2013 19:00"
+        "Monday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464604366476754385\">Alan Diamond</a>"
+        ],
+        "photo_reference": "Ab43m-sV5-kh5rtEYBRPhhgXp_JsaxA1QTax_mz_CllHsnOjXtNveox2cxibbA3d8hrSJjTcGWDnDuE0cv4fKNJ4OdDMSlK3D03bNC2rQqj5WI0Spj34GjmjX13Jq9DiuvsmLFMoSpXCOUR1Bum07E-I7YPtYwqY4zXvGBa06zsmL8GQ_VLC80w5TQmrbHrYvVRSwwVI_2BGpT8lJ1zC0jL8iEq-WLzCy2dMkczpusP_E3drG_C9TcX_rpan3VIojZWQ3Q1HpbdPjOvqYhQY8ws-KuKaiuf35Lx2_MEGqIzOLf_PPTgNVComgU355Y1uEgdgvf22p2UFk1Bq9ELACtCER9fP2tv3FPRY2xpYDRjxXBAXQrjeoLWtyajtGmwbQosrYKx2jXz65DjiVcL07j2eo5D3rw3E5eG18zgzmtmzbwY",
+        "width": 4800
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106012105217568604947\">Sheena W.</a>"
+        ],
+        "photo_reference": "Ab43m-v4ZHePVx9oD1PuDTCHoivNNZyWWCNCwA6NwQLaCgKlnncWvVH7lrjGS9643Pu011Td3NYyrGK95JTDDQtF0iuxJD7usWYKdJuvMMG2Ail54rMVwUnX5XnzpMPltUx1qMyq2H9ZH49zjQXsXzY7wGeuatDmvV7YHxwAVCzpt2PwVKKQdeLL0xPlOtyfHkvwqkX7Y9z0kTzqiVKdZorI9Q_75nKdfBSyMINNegRqbjrPMEeOWhiCx7_SazXcMcE48jDRO3btV051tcYP2x0wIslljWDJrDV6ZtuZwwvPJzD5iyGldFQ2r-1OFYjz6GxquDjzlMDiSvFOYZc2xOUkNMURfSv5KXz5XwRR3XtRpa_ytbuUufhgn60aGCHmHqmBPp91EKw6FTi14Iq9oqkT7PLw1srbs6iyN3AAWs0shD3GVQ",
+        "width": 4032
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114801170749519908100\">Milo Conway</a>"
+        ],
+        "photo_reference": "Ab43m-vCRA189Nc1tUx8w_40q5VbqR8NLcCQ-8GijFu_q1fctp0bb4ufjXUjXraP5E2ReMOOj-Q1fq4umo5s61rawiZ09TG5EmRp_gzo7M_6AKbs3jMLsxaor5XW25cX-gTyqajklVVIg4L51_MhLbz0FCl52GungInCJ-DTzAcJE_WrRsQXty3cnSAW_JcKR3imEKZdhG-WL0LS7zbYDVOQsQ0x3gggls7jmFD7rKmnyeUjOGes8mW1x_AwFPGe6aFjE8aI5ijywqgZCKk0wGnl1RJ81GdhjqYpd_WGBFzhoKREZPnePH-osET2xdRtZMeq72pbHLECEODj62weUt6Kz8_mN9cn-YZQQCVunA9bdxzhOCp-rdKALeNNFHIgLounkkvuVd046MZi5heETR-625vOMW9vyUSD-pcpJgE05D7iwg8E",
+        "width": 4048
+      },
+      {
+        "height": 3040,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106541460277801616523\">PAY</a>"
+        ],
+        "photo_reference": "Ab43m-v9JHKlZLN7FrYzqQrl8pEjbbCMR6EdVKVPt4Ypo-pAIBaRq6x6ELFHKH0VKHsoOb8nQ4fvIxtm8HcNnxmhmDr8oNiXXx_hcWfD6vwtIMyk2oqDnKTeEEonKU9xOnYSEVkcPh6pChishjeRvfhP5jbZJcPMOgdMSILVKM1rVqho9gt6ZGfDvaFUXS3caInn_gukt_P_QIKpXAtBcuCbps_I4H3CsZAZxf_T8CHVMGaEgzv7hTnWMX-PwBllNJhiuwCepclWp-kTzmO0gu_6MgmxxevOThYdKcMnZ3fnr47iJ0HeNog7dHc8pyPmzDX41y6D7AWJmyS78x4RSesHWwmf6iqsR9yE-h5BSb-KJmQIadjMYsdE_Xj7lgbbta5DMz13LcQvsqvX_NboI3DJU0ibO6l-YsXb3MylqMmNL3t-roxF",
+        "width": 4096
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464604366476754385\">Alan Diamond</a>"
+        ],
+        "photo_reference": "Ab43m-twfvo5d9pAtrBujdoZzqHJep62BaqL093RenES9BWND57aBP7tsLwe_sll6QoCmfAeYVdvTUnjq9UlHu26OkT81Rs44rbXiECd7ST5gt7QvSrZ9rrn0oAvYary9GhFnfYIxZd59gvKmFgb3AdVUooHwS8WAYfxSxnk37SRWrq5vYG69mYFeLmY8Ixc6t2xhqM0m4Lp3aDhRSbwbY7LzVzdZREvsQIAMKXwciR2kP0V7eDcJLGSf8GXUNEftjOHp7PQJPYpx678_t-k2rgNQfmUNdVi6Goe6efYAmudwXK8Kpkyd88b2WE2HqTGpmAI5kaXptl7MfVydEKq70fEZc8QEV42Tt2mfQdDWeOc7qbn_8IgMoyF1VmxF8ftYHDqdz6n8dTA7tNqIC7QcHhgGI2zr4UIEssxIDvpPwraEhWVQA",
+        "width": 4800
+      },
+      {
+        "height": 2789,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106541460277801616523\">PAY</a>"
+        ],
+        "photo_reference": "Ab43m-t6mnY-B15BAlS73o1sx-rNmaBg9EjOz8ov9TPLwtJx8jL2L1tQR9lIQ7PhGwCkkFd1_UzyDMs-28T6gBG1kkjY9x06cd5swhGrfb8SK-O34VSbUCFXApav1-06jutgCd0facVkHGB8R08XaKvpVwUQGSsQHpNbDRwIN2klFhbHWy_KtaiWuCfWef31tC_5mmiP3e-sjZ31Hy5ZAcm81bWETa4Z_JFM1yTK9ClgYNILPm7LXJjjJu8PfTu6_4WyL0eBwC0av8P_KSzYR2Atnn1FMwyfb3ff3XPYceQsAfOvPMRVldsLeYHJeghqEKRGBVwjtk1Pvqi2ObyyYqbfuDClgAx1Xe5sphPWsviUADm8trY2mak9bQS74XhpMp8QfwWcFVX-babrR4DFoyEbCN5DsqpGhSzK6SacVJTSz8HqDMU",
+        "width": 3979
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106472636821899266721\">O Bento</a>"
+        ],
+        "photo_reference": "Ab43m-vHupY2GPevmvfC6Q5_ArySt6WhElWo2syYhoG8Uu2GXw1cR-25FltPt9MRd610ZN03SJiEX7tmYonoo9r4A-yReUMtzUZhpMN537SqfUv-PZm51C9OtBpnfX6FJFTRxuq2DAkodwlyrSNaHbflHimikF3KDhC70QChi1UDW-99rJp79G_PXmShk7dEscVJJV3HtQl8wg2Hk3gyqsFxuGBQ9hcbv4mzBEfJ-Uy0ll7b8HSap-DD30Fmw9QlqdQeHfVazx5_khpcC-hanfdiaG06VQAZnZa4qOgyKIHfxgLH6VFyCv53Aga1yxc3J5joSpv_drPtY0MOMvfJvICBmXzdxHSIgQ-NjtF2fkcKwPaniUbB72DQlaf4jqRj69CWjqANEcaxjDoOa2RlFnszQIXI5Xn4tUEmqiTp8Ln6L1O6vA",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109796482166997036909\">Thomas Lech</a>"
+        ],
+        "photo_reference": "Ab43m-tu_FrAqI5jdExTF9dIzdQtTQmKRHIt2Yjr4HcZWT0mO8vNw17FBnGoNivQFnQIgiewPHtn5hVnqwMZJgudyOaCNN3Nv9DI1RKnKTBEh5BYex_3EPE1XL-qW6pmWTHQM97N79vRb6qQOE7Ht6r04vqGycnDVfa5yBS2rsX_SFY9OhwXxIXuy24NFDccKvMagBqPwUyE7ym9w4L4pGAJMP-5yjeKx-nTVGcHV5wU1oe6QI8HoDftCjNmOdAIQGg7_N51-A26a68LUeI4A_fJEicPLo_JHGFfl5uh_SY-Z95L089cAoFd4_w_aw_TFYvD5C70hDdieF7H2Xm1yxV4pHzwn-gEJnZAPlESc3c2WCEGz7hxEFct470qhjdvSZWntoxf6k-wubidzJsn7P-hd6FVwi33bOpGPP4L2kvaP_D2yiuM",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107529229470288842360\">Mar A.</a>"
+        ],
+        "photo_reference": "Ab43m-tDuRN8W4iz4l9hC1ZSgCN2zNEYSRLXXaZjn-y2ZHAmt90v6A9z1aO_LheT7aWAtJJvGty7TBNLYWCdc9gDwdlifox_Uy0zabXvL6MWnPjVwL6AOKdy8lvxQUz8f9p5eUZ1DqlwWn8itErDdnGwY9bGLNFE1DOjc0tvmyezGc0onBuBK5ptKe_fQYvq4Rk6aoDRQ9PREHBL7OrHAYKFIa-dtR5ZDmIWS0NHBWaGWRJ35zSqFBhpD8Yo2ZAsSW3xvBXKDnox7EyvHJi0onom_SdgOfhvvwd9QlJuKjp3O_kPac9qzIO-gv28RV2RyzHHT4Xofx8Ed1eBZQ2jV1RM8kIHgmFappD_mYMtYg8NbpaRVQqvuDeKjqbAQqRG-y6JWTGJ796Mx5X_xFbaiGJFSkkCxOtgIBfDI6NG6r1au2nE7w",
+        "width": 3024
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105283731077918951312\">Kiran kumar A</a>"
+        ],
+        "photo_reference": "Ab43m-u6vz4W6nt_fTZDEwYFK-EjeZ-8bx0Kx7WmI0_VXl17xHUDSE8nfBYZ-LzoKdgQ3TSCSa0PXIPOSBJiIRmQbwdOVZFeVZ3DaG5AVgZGNJUy0egjt2N0qjggRhj8xqzTKm6yeAJOKZ3n3-RK3MsgKBIwmEpFfahfmqWV4vH1dF9o3-m5r_OZRfIvbTct2eF_TH-DBv1OHjDzSkcrM5LPzY2cKzPagjo5gFHERZwx6WxNQxRpyWJPqKCGdEuns6Iup8eX8f70SUdZ8cLFmJU-tnUeQgpdwxJjk0WgP11CaVa0QrVw05dOVaojAxVhtxD7MdvyOYbIGB7eR-R9XYqfUQxQImFHApAML5TOBJRatVD0hkNqr4EjVbJ6FkyqDJvCvzYs9Aw7a0v64Y2sxcHtPHni-S_wn0QOLlR68mK8-g9yoztj",
+        "width": 3036
+      }
+    ],
     "place_id": "ChIJl0JpqCV2j4AR0IuuU7HqpkY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5091014476122983376",
+    "vicinity": "1170 Broadway, Burlingame",
     "website": "http://www.prestonscandyshop.com/"
   }
 }
