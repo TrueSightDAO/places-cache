@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Downtown Apothecary",
+  "place_id": "ChIJfUxQswGy3IAR3A-O3DidbB4",
+  "result": {
+    "formatted_address": "3615 Main Street, Riverside, CA",
+    "formatted_phone_number": "(951) 394-8311",
+    "geometry": {
+      "location": {
+        "lat": 33.9838464,
+        "lng": -117.3734142
+      }
+    },
+    "name": "Downtown Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 20:00",
+        "Saturday: 9:00 \u2013 20:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJfUxQswGy3IAR3A-O3DidbB4",
+    "website": "http://www.downtownapothecary.com/"
+  }
+}
