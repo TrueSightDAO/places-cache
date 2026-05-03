@@ -1,26 +1,189 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:09Z",
+  "fetched_at": "2026-05-03T07:06:42Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Garden Apothecary",
   "place_id": "ChIJs1VykbR0j4ARWFmtlixiAbE",
   "result": {
-    "formatted_address": "601 Main St, Half Moon Bay, CA",
+    "address_components": [
+      {
+        "long_name": "601",
+        "short_name": "601",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Half Moon Bay",
+        "short_name": "Half Moon Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94019",
+        "short_name": "94019",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "601 Main St, Half Moon Bay, CA 94019, USA",
     "geometry": {
       "location": {
-        "lat": 37.462492,
-        "lng": -122.429303
+        "lat": 37.4623507,
+        "lng": -122.4291323
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.4636447302915,
+          "lng": -122.4279473197085
+        },
+        "southwest": {
+          "lat": 37.4609467697085,
+          "lng": -122.4306452802915
+        }
       }
     },
     "name": "Garden Apothecary",
+    "photos": [
+      {
+        "height": 2903,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113028375370128838433\">Garden Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-ulzUs7wew8jdVrQRQCulmRIoutFWALRO9t_dcDL6_pLFaAfOgzm4OTR51yIIKqq7CbjlcPF9six0jM2SL2V2Q6FqZX_QJp0_GAzlVseIT1-mqxz5KW6bGm5o12UVXPu43vPt81YSmsGwRLRRAFY5GjNhHApXgaJcpKIA3yOA8UHovJQ9llbgEiC1fE4dFhr7QKC4BAQJ75brrRgOeLRPIgfiKjk-gH0FKhqU98zxm8z2S8ijRGwxqTZwAXSyM2jAfrP0uhHXJdo6NIk335s5Qp7uEFKtGk9iyP0_ab8qXIxQ",
+        "width": 2177
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113623416625500002657\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-tSnQCnPNXaoT_PRez1JRskUrpO8OCLInLOkx6b5UKCMTOnljRwCLPloela5Dim7nfFkNQTk8EAjnX13wFZPEra4HttLdGF5iD6GL6fdyVnFXpAZBlnZTq14Mn1CkCh-aN5srJMvN4i2Tq3emFMO-Q6lZMjcHDuybttO24QKGnauhXl-1pXeOBNOhS1ciyvgkF8pDbq5ONBME2H5xkPveKnxLEMntYpZ4ZagFq4i3sSil3U-i6jbIAD5Kffkb7Zny3V2QudTziCZ73Ymi-FhCAkJDkvFAsMtC6iTCZeTWMLA7XNiqsv4XYR9GS86qohISk40fXGyBmKwIlgzBgmcHf8-T3snrBoOeGsa5a99oSW6_yVgvjA1IoAPwt_GdvHMxcdDQhH0-iUglR-q_SWtRR1OiSUN4AQgT83_8DbFkLYCA",
+        "width": 3024
+      },
+      {
+        "height": 1897,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113028375370128838433\">Garden Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-ufFG6LuP7AtGe4Vfkf1PsylUtEzK2gH459FTn2cZo2YDcl7iGsil7s_Go2HNtPzFnZtUoxlWJ-S_5HJVavD-m4ABbvtGwQSvq4-8HX0Goz8nFF7gPZOM-g9wDTFfs3DiawFnWsMnO12w8m8crZ5uuXHR02jC-78aN-MsyLjg3HicP1BSZZyEyniZxtvJZUFXzs-VLEJn_hAow9QNf6r_gUyzphTvoHwOEAKSqHWDekvM-9j2Ay9ODobAJnu6daSJ8qyqNHKQCWyjqNHTL_edfTjHZP5goshOvf8JpLilseJg",
+        "width": 1897
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113623416625500002657\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-uj2kqJ4pN-ZGQi4R_MJRAVn5loIqVzt8HIAp--Vf0xhY7FfAffzeuoAeiAh1Di17huxhHRn9Zsv7FHrN5Q5yRxKxJslpPOlKQyIjY3gK_8kW3IGzCw7jgcerRA4mTlBmX1ximXECtMKAxFl_DA2kgvaNRfdZ_aiwHgIExNOuAJPE4Ssitd8rjRbfDm6lCVmypc2pkl0fQM6HQGsQsLTBCVMy-IwyKVfLUXTSy-2pUTwm91fO9Z6b4_YzhKvRX7Eg3lJDV35o4GcYUiGtDfly_TVuM3HPf8gvAQrhjYeoHIg9PCSJSlq9HiCxbCJC38LCRSWqMfHLnLvDuWAJhWaznavsk6HyMafvHSX3NI8OoVeEeZuRgb6BjNtxz0vte9skEeD5ghsmsaD8XteEmg-aI_HqkHL-QpNnYobnVEZhYVbnky",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113623416625500002657\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-vbKfRI6z_NCqIzCY6UDhosY7_ggc5r7xIH_rO3g1HxLLKOY-bs4zBxZIfEy_8o_Wovip71kDEqjoBMIR0EGoz3KEaRBoaCwNfumGunXgcnRyhk0ZnyHu1eLC3fLAEJNNqC5vnGl5359FvL-af005iRmznjkUh-K6PQuykJIubv44iGYlmMP0wjlpVFlo4C_nuJxsCPZSGtsPMERrPh0-DS_UnOx0GeO9_WSMpT4TdMfPsarEa4I9idQJT3Yedit37S8krewfxGOeHY5x8XEfYzJyleYjhRnCv18lJQ8YZ-NlljQ8SVxktKY9sDTwwMVrT6rjt1BqEjCG0azw0PVgG1WCYOpt7cElGjL5KiSEYVTqY5qGeVW-lUR4KT1zdWu9e9wRXZE1j5CeNTwCe93T5qdeTZbq5YLfHE-l7d44jJig",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100956965245181826269\">Mariana A</a>"
+        ],
+        "photo_reference": "Ab43m-u42c0qC7rBKxdNmlT6Watpp3Ep_ZYPZmD3ybJm6CBx4pbVIYrlwsCNFujlVExqJFOJSMMPsk2eRHXG3WWvhJjsP5kV7xTv4fEi3kjD1Tj0YvfHDfiWj_bnthIYEMSU9WD_3BGfeeQlk8CqZ6VhpYTphFlC_W9Gk-tIGDfKoYvUVwKcv8k6QxZLct_TvuEreTu9I15XDMPdAmXyQyDXjOUfZH5vV5rV7z8nUovym04tUsong_FdrrPTBBykOUXj2jXRqut_9DAMAgWCxfwTlGjXmjDeYIgGf5VTAimyzxABLHeaUQssRmnyVbVbhmyLN2HnbcTYME4PBgXchUF5DltzFdBpTyFJlGBDOnHv4HXlNqLYf5hTDV6CiRczSjsR22416AYN92HjRRIWz989-jq9A0BwWjgUeehNr3LwRWs",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108999398701882507362\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-tQxnrBtU6E30UrI5gx7Yj2qn4NRRfyRgZBl6gj5-3US_6Drx2CUhP2wJPpAf18Z0ZHNNgLHIdytMJx3e6RquzR2zaz98UrlKzGDSSqQBZZ-VlCGVGdKfjcCwKDKZD-G32_fbSf4IVQmq-lPOW_p3Z6jht11ea2IBuF9sd4xIU23v2a_yqA6TMDErebp1XlDsQCJodA1SZ-bdCwRu9gZwlHCHWNM2NAzWmUuXmBjW7u_A24XXZLJvQQfrORt-nbNxbzYE5iuOwSNV27hWsWpE_pnm5F5l6jrhV9uLG1HsQjHJe7CTh726mrh1cqTBiAm0zQGv4LeCawop1IzZS8dNAhuqbxRj4GtlswrqjlCOn-OxNJz_8iS-EkvmAisY6UlD7OHzOJHxrjJy6Hr9FO09qK64on1RQE9iGFuG6OwtTRkA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113623416625500002657\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-vtY3dti4gg0qNekJVwU7xLt51gnOCLaS-JwcnQ2ZGfnVG2VjlMrm7YVO-OWtrQRnV_2miAfJ54pdeFyjQFBVXMiuw5IkSQWtNrskyns2jAT6Wr_NKrFCP_3B0llADZlLeFhLsSiKL9s2HWmobMYcbxKoDEngukJ4mCmd9gwE5KUkCGlZ0NVQWpXZLwsArJ9-8pvVp5uIhQfwcr6VAyKVlNU8QV32g6CGfT6C6SQq00ULa1oDR7F98Zb_kBMugrgf1mvSJqpYloXI82eQ4eHbp2qdxkILToENl3wUDl_sc7PJsNkt3zqsj4LUZQsI2rzqjTgOh6hVRBgLNJCei0ghNwEEO74P6a4y6iEOlerVcsQpeMOH3qr7H1_ohYFbp5exALMykskDxjiRZk988yWzvqJAICEUhEsV9Z-HpvLClK3A",
+        "width": 3024
+      },
+      {
+        "height": 1123,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113623416625500002657\">Marie Pi\u00f1a</a>"
+        ],
+        "photo_reference": "Ab43m-tndSZ55mvcyN691KX_xBiRuWYuBJ0UyBjrskpXeNe91K1FJZ9wGk79nOgtGVR9Tqy8WGlFsfuxx-ptVoTSMazbWgOLHRPzkFhuPiw8eDVgDHS1A9p-yE-9A9JKH05gjDUTt8p4MtjNHS00K97FnyP0VXl9FIeqliA2A8Hi5FIGz2u8XiblUAIgOD2mbRaNaUXPCPNp5XrQ3Sg8I1oD4WHMsLy6M-LoruwmtAytlZup2VpES3m_Oz2SEx2r54tuOK8KWALjdS9P5i7A1m8xhHtfrKZimTRlx7RTMv78yHaIyg3MfP32I8fvtPjLCllOpixczZrwESKG7Xkv4mgE3pQM5rfTz5T-ti5MlXuxXmdSKHpXL8YoJtzKT-fvHhkwU1YhFJQgqUmR-k-JsTVIaA69W3OlHyzUFDf5bVRqZO8GWQ",
+        "width": 1125
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107673630158362001033\">Orenda Randuch</a>"
+        ],
+        "photo_reference": "Ab43m-tkAfEje1JwDAWPrGb_I7Kk9c5gX7rKb7Dd8QlkKm4kmg20J_dxfyIjmiWtdi5JtN1axevUGGO3MHzmBLcWs9jgljju2huNbHzn1F-tAr7dJEeqWZ9zoO3OtG4JWdc-VLgUIGF24QmepiU4ltdBDpQqKBFzBMHfxuGCKt9LwL5q4SjrAzTjDJbTjS4lYLDWAyX7nx6q6dl2julPHCT9uz3Nrq5UQ9EhWcY1PH48kTOiY5PM-__vj42SuozlKbbcDWr-Flw0UzSzVBZbfhj1B_rwzqUqKPrE5LllKiKxi0K_Mx6cMQlSSVAbw_ZKsk1VDBdCk-JKHBbb5DOboVVpDqRcHXTbkRmVLz_xgZXwysq1T6QCfmKicqPkdWzK0zeAvs_eynBQQX2qEV2jVMv35nRdsEPcnqxMI5xGJ3H0t08",
+        "width": 3200
+      }
+    ],
     "place_id": "ChIJs1VykbR0j4ARWFmtlixiAbE",
-    "website": "https://gardenapothecary.com/"
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12754583563335981400",
+    "vicinity": "601 Main St, Half Moon Bay",
+    "website": "http://www.gardenapothecary.com/"
   }
 }
