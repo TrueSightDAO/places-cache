@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Adorations Botanical Artistry",
+  "place_id": "ChIJfWOcKdtU2YARJPb6vqpx17U",
+  "result": {
+    "formatted_address": "7960 Silverton Avenue, San Diego, CA",
+    "formatted_phone_number": "(619) 225-1915",
+    "geometry": {
+      "location": {
+        "lat": 32.891341,
+        "lng": -117.1495314
+      }
+    },
+    "name": "Adorations Botanical Artistry",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 9:00 \u2013 13:00",
+        "Wednesday: 9:00 \u2013 14:00",
+        "Thursday: 9:00 \u2013 14:00",
+        "Friday: 9:00 \u2013 14:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJfWOcKdtU2YARJPb6vqpx17U",
+    "website": "http://www.adorations.com/"
+  }
+}
