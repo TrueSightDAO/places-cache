@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:46Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Stardustandsage",
+  "place_id": "ChIJmYOp1-sTK4cRF3p1jkx_Fdo",
+  "result": {
+    "formatted_address": "610 E Roosevelt St UNIT 136, Phoenix, AZ 85004, United States, Phoenix, AZ",
+    "formatted_phone_number": "(323) 448-0241",
+    "geometry": {
+      "location": {
+        "lat": 33.4588722,
+        "lng": -112.0669481
+      }
+    },
+    "name": "Stardustandsage",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 20:00",
+        "Saturday: 11:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJmYOp1-sTK4cRF3p1jkx_Fdo",
+    "website": "http://www.stardustandsage.com/"
+  }
+}
