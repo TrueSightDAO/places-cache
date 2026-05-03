@@ -1,40 +1,274 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:30Z",
+  "fetched_at": "2026-05-03T07:07:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Air & Fire, A Mystical Bazaar",
+  "name": "Air and Fire, A Mystical Bazaar",
   "place_id": "ChIJMYXJ6sdNjoAR2pHypmt-7qM",
   "result": {
-    "formatted_address": "13136 Highway 9, Boulder Creek, CA",
+    "address_components": [
+      {
+        "long_name": "13150",
+        "short_name": "13150",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 9",
+        "short_name": "CA-9",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Boulder Creek",
+        "short_name": "Boulder Creek",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95006",
+        "short_name": "95006",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13150 CA-9, Boulder Creek, CA 95006, USA",
     "formatted_phone_number": "(831) 338-7567",
     "geometry": {
       "location": {
-        "lat": 37.1260578,
-        "lng": -122.1221869
+        "lat": 37.1243397,
+        "lng": -122.1217768
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.12573028029149,
+          "lng": -122.1205336697085
+        },
+        "southwest": {
+          "lat": 37.12303231970849,
+          "lng": -122.1232316302915
+        }
       }
     },
-    "name": "Air & Fire, A Mystical Bazaar",
+    "name": "Air and Fire, A Mystical Bazaar",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1830"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 16:00",
-        "Tuesday: 11:00 \u2013 18:30",
-        "Wednesday: 11:00 \u2013 18:30",
-        "Thursday: 11:00 \u2013 18:30",
-        "Friday: 11:00 \u2013 18:30",
-        "Saturday: 11:00 \u2013 18:30",
-        "Sunday: 11:00 \u2013 18:30"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2659,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-vIAGDp4bN-NARDmqF_yQufhufsQVF4PeL7-kfl2XTWx76NjlqYOzCXCp6LDGOrPJ9ZQpuZa_upCv-c2ryaAyuUhsby02P5w6kUTUhWWXcN9myVy3sM0OdyNnruai32IxZpKi0YvCuM40K1FjHHLLzw-igQw9QSwfM2L209hLMfByn6oIljZpe1RlFIw5r-NiLddHJVqtJi9ZxEOf5VYQGciYEsp0p7z1mCSQMuheKi8ebElJfV9l-lMICCA9ZtFaRQOeqV8YGgxgLPoTOVapZ5veBW3QllhEXqyHYMgPvLbQ",
+        "width": 3392
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110721781641722346906\">Margaret Hayes</a>"
+        ],
+        "photo_reference": "Ab43m-vmtdLrKXxI8voSYpXdtRzRwv1PJibDcPMS8A65Bv9YZ6SkI5kR8S5QmsKlOhogIgKmtlVfVHDz3t7KaMHiFXM_iAyOAbhWyzYIWdmzAaeoEtOsVf27BcURH65tnt02xBHjOSY6DY8qpqjnfqqKu4oO8p5TW6LHukYjfAux9xd1_kon6DPpzKQQJsRrXnPTXQVIzM0FRpAK8zVWyHC57Y-OFrl_pCT-alDzkssI--k6UZQT1myFCvUMY8mLH1g4d0uIP4R1u4YUqWf0bSFiz_noCgMaskRq09TktFauneLJWN6Lal3I_iUUU_h7Vh_KqXgChhK-zzTZnHDD2X7FeQ9JXVsuJyC_E5zZFC0UD_7_lX9rShd4EBsgM6r-Z4TAbjp2050IbF1OTu5kylEggqcGYBZ4U-nVUaGnxgMuZ3fFIg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-sNg-lpwaVWGpKU06o5Ztu0q5fi4G2eLQ3ZIn1s8Kp-Qts34ExHzsaZR-xTYSVAHWc3cKnBIEMgPM3B2V-m_Exvi43xCQNzWLeveIiKnQm1Acq0tV3L0v95XCbTkA3JO7jtu8nL7yxsjIxbnpmTswbdsFdveqTSJVGtXd5HPK6uG_phf_ZfdOvjlxgEnay6oAVP80w0VEtg7uMDW5RdolR6Rzz5RCnsuaktmZ9IksKG4XxWZmFWAnwPJjof9Gua2dZNi_hOtW7pFgZb0lwpMhA0mK63DeqxzUKVruoTOSGpgA",
+        "width": 4032
+      },
+      {
+        "height": 1499,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-uorcWho-fFzPGcDN0f9ECTgZc7ddjWWHj6a06uVGEKJ8uVTFKvLBzw1ACzQKTS6-Zn0S_RyfybAM05oqMiB3i46F3sia4OqTb5cEl5d3012wmX8xERkIbv9Qz8KF8vRxD3PS0fU-RYXY3kvb1QGCZyQHaD-0m-8Sl31SvQ7pAZ4i1woGsCnW-DLXpc5qtUeeAZBXr82osGxjD0VZoH0f8yv0YlyZbm2vCYUhcklz8jgkjuiDwV7En3P6NfEnLwqz3ZAll4XHRd-3xq03COz2Pu6nhsxzNFc9wFi0qPtT2-Eg",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-vRcFnpOIh7CWR0zVGxS5NxxFhNxJjPzOMQ4RAjAzCTPK4p62YlFfW9bNifyL6R9R1yFIXE27ZtzfIJPZaAnO_yLVojPAhi2ZKVb8E0ykN6ayCoqjr4K952KxfJintpX3OSlS3yE5sJdLJXZLewsNhqL59hOrbO5Xc74LLFRK4tjF0HCRGDpoIhXVZLzWeZpMIZUgAKufUVqctYUSGSxaFdywOOpyt7GwJ-bzhmj3laeq-z9ry7GPzfPmqouL5qc5ucJH5RlI41bHWdBMuqV6fOA-Rcf1fuM5g6tuDhg1sDMw",
+        "width": 4032
+      },
+      {
+        "height": 1499,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-tSg4Vd8-R5mG3gZqeXGsOm1toFXFivMXrJLAfj9IkZ-y7GKTLXY8wrWgEvXC_AoTP0QkxAZTaH7XM47rC0TgMwgwN_MaEcUl-vuoLCXSb6GsJW8AgOfZwoxE8n7WMQld-0kARTl8PKuddcoSUlMqpEIfF26SUJgThom4eh1zWqpfRWpee9GEsa0NQHvK5gtg9BJISfk38USPhIAOzzBfW3p4CN7kjCe5apYKM_MZfV5ulWMefgvUxlw1sJMj7HpTmzS-sejLcvTpdiese8Blq44nenY__EcENU2ExwkyFpYw",
+        "width": 3264
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-tTAOb5naKk28oBY8b1DoA21U3CcVt3wK3udJ38vGUa8S3b7KJe5UmOdjNTHkY2ZLnowgyPZ7l7cMJQXRGgovTiRnKnV0Ol4S2EFOJALnrd14gb-ZXihaJs9WurwbPXnGckevADB1OfElP0ERe1C8z2y0j7thdSnnF7LVss7BiCljuCIEf_H5waQMJuRHfk-p7fADGoOR4pNxgVOlOzM3-_KD5VWr-37Ug03y9oRM8FzKCG91Ws7O3QofDXzQPZDKZrxb2bVjL5g-hM3Bp-hulnFUTZv8a5N-riJGKUb4wr1A",
+        "width": 2048
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-tkPWagnBofrINn7FNdPCa5aDrgwJPLQJzNwvnmFLMR0WqT3O2EEFW-HMsOMjxr2byNNTIkemG7RQ3MkkAWLNWXsGH9H2qPTl7gwY6ke_03bvT696GHMOESj808-pTIxFtOr5hrS7rxSGyYMKobBT6a4oSozDxBv8azNORWPAorgGatLX_mkDC4F9-9gOuWuRl8rDfjlwKKWGujew_wmHRwshoHtOsOw_6ONb41_Xj7iSoNqaOcxJN8Zz8z6ALgrbDpbaQ_AgvwPuz3HrsncWRvVcSaMDT-0C52cztjGzFSRQ",
+        "width": 640
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-u528O2zdi6fvyeR_9D2piLj9712LoMZJ9sozcpoiwgsXxp11TvSOVYLnCUNtg_gdD851d9W9Mb7sMF0O_j__38fCmtY-vpvVhcCp7QO2qfe-07g2t8kKgT635Uoq-I_JosdGqXrQEQYaMIJDCB5fSDa7c2-wrK_GXxddBc-r8FXZlWeuI7ynfpRLFub0Vz4ZyynsCFfAJ-SKBx5gBIY5VzUzLq4k_IajlsUuPW-QvEznV8wYq1K6FVJgoOl8J22qiFNTDgt-kbFsPObqa5RhFMdQz9GrhIBzeGqTX8fFXjDg",
+        "width": 4032
+      },
+      {
+        "height": 1576,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101663472641080068994\">Air and Fire, A Mystical Bazaar</a>"
+        ],
+        "photo_reference": "Ab43m-sXeCt_0CKgh635EpTkohthI7Iz9jbIGIWY-enqtdTE4NkA4D2J7fZ4_znK6F6x63vDKRsVwNjJYrPE3sifVGt1pheLkehjOctz7Xj7GDfg_8Xnz_HhQ8tLSitnN4vmKGVB7VKQWYk-9dakRtFFwKVuEhFlqf3WOHBIy86s4B1Jsd5XY1rh35gOK_R7htKNaFW67IYaz4q1R7SF_sde4HslqDRLMPofZjzStLteaeH6m6-XSljEZiQmYVnlux4nvhn6t5IiTNAxBGKspj0E6kMTxWbhw9Chsk4_rOa--LLAyQ",
+        "width": 2100
+      }
+    ],
     "place_id": "ChIJMYXJ6sdNjoAR2pHypmt-7qM",
-    "website": "https://www.airandfire.com/"
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11812517873466905050",
+    "vicinity": "13150 CA-9, Boulder Creek",
+    "website": "http://www.airandfire.com/"
   }
 }
