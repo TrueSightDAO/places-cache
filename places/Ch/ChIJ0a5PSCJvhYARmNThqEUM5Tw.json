@@ -1,28 +1,189 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:08Z",
+  "fetched_at": "2026-05-03T09:06:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Vortex Bay Area",
   "place_id": "ChIJ0a5PSCJvhYARmNThqEUM5Tw",
   "result": {
-    "formatted_address": "619 First Street, Benicia, CA",
+    "address_components": [
+      {
+        "long_name": "619",
+        "short_name": "619",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "First Street",
+        "short_name": "First St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Benicia",
+        "short_name": "Benicia",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94510",
+        "short_name": "94510",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "619 First St, Benicia, CA 94510, USA",
     "formatted_phone_number": "(707) 641-2168",
     "geometry": {
       "location": {
         "lat": 38.0494001,
         "lng": -122.1590259
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.0507161802915,
+          "lng": -122.1576307697085
+        },
+        "southwest": {
+          "lat": 38.0480182197085,
+          "lng": -122.1603287302915
+        }
       }
     },
     "name": "The Vortex Bay Area",
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-uOV6qt4PcXiUfauj9uGUWlPndpm8yv-memrf6IHSA-3s1pOoyoqaS4lykwComtPaIU3tSG_Iki-gTelCQ37nBFJr2_0rcHPqrBgSGMN3gg6L0JL1VZFtTUrHvKn4IBu35I46OhEBdQk-LRGO6NE_QU5yrcfnlRO-cYIBiZpUhoQ00DQ4bdj2PbqyMFuEXgKjCrcfWdrK-9nYhGZdzpATH3ejsM7p8fn2hLI8Fy5TkpX80uAnY-YuB6Dh_Oy7BsLHMV3w-d-vrmmg9IaR77SVi-mKqd_j5ZOIyyXrdWo2HVfw",
+        "width": 1848
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-tlL_9ilQllH2Ak-6J-M8Bi6rhIibTCqiFoTdUMquWXdprkykgwP_3fC8YpwaxrCP72igIQvCEkfdANE_23L85OkWev9p4KbnNvyndjtIubVL4MmfudHWklHloZSdNoy2_A6xBaSecVUAIBI8SFUSA2VmrdbxTnbLVq3L_1vgj7oOnRnRTGUK_lY3Y110jKW9HRAh9dM62PPgrEKTBYea9_V335C8I5X9d-tKoyKXUqxFHD24LgvuQTKoiRb3QOEBlfdktbOsRdDCqdB5Viy_t1aT4I9uTEsDXaF9AcvA0X_Q",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104834791431152442355\">Emma Manchester</a>"
+        ],
+        "photo_reference": "Ab43m-udGZ50_VjZJrgEyvWQbIxobWeeAlohB_DTUnOFIaYvZsI-uWwwwlgMoh29JsTJiUVianBzdiAZHUUh0J9mWTXwpUtmUtqAfJL4yvHg7ejbUWtWdr-WTVFGxpK3VcgANViEJfmBnlEdV-D9_p0qiClUg6Y024wqOfy2DCA4ZP0pzOQprUEmvR6nAWwu7xTSkHrz3njWCBw2lnTvx-7yeddJ5BhpIuUMCSOnAJiXGZsWZm3WTauS4ISBlo_h_u992BuOEW1mSPTYSiOpggU7YNUPQnnh03kCeztvClIHqKv7VZV0ChOA65w3rnZ2LN8VojiJmiB3kjL1q4-IUOhxp7qbCNtojPC-0AnkfB6nOuBM8nYFp6X-iiYcpIGAwodcgdMF-TqIO_OXHhU8hQje2sYt4sJyKoi9SzXxBgXSPEEVDw",
+        "width": 1848
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-uMvLCrGXsysPU4SZw55AN5-YwBkHWPe_gJ8f1JMSyHeJBwJjIMtYyEuHhN_yf9Q8A00hfKmgZO1WqWX4iCKnV68CQU0cBxAxS36mpoo0wwO6lP8Dozd8GfGfuqBtxQGRh1t9ZKW1t6yUcv7M9LyNvfc1c6lODjor95u9ZVqdu1LWkOCnYuksx-zIyRWpe58gXLd-Us1i3-u4Bd9pe6BfhcYzEwu_Lf3D3LYoXyTaAFXdR2RL5vTN_yj0mRWXuQAu5uGdH3gU2AUB6NKsjRoYjOYtEjCg8TnooPHTUhcBFpEw",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-t4NybluvLehtS8Teas3hu_VUtLqMOa7H_BUtxnILP2VUgX2gbdKWT7w0fPlbLSfiViexkOIVzjqCt19btoPiTb9D7EuFbeYI890NsbLbmam9H4ap6iqMonWgQqb8BSeq946dgq55_QFY6lRHFwkLQsom9iUWO9bUV85L_FH5vW0cAzA4tV4sYVAWIPCnhY4WB67kQHdNLA0-glF5LPu-BapaQpKPnd5iaRelHfOUdee1_hl5lw5sA5wZ-dspAa_Jqhzy02RM6xzdYfPGE57xKRga7s26udoDt1o2IVZOQy6g",
+        "width": 1848
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-vjqpjFqOY-YjoT4yxJFd8M_OPwAwj_XSmTdGCS3mc7qviDazBjivMawDqIk0llN1lu3VhNZwCf4eW_zCSeaRrGc0VKWMAiOfLcYg4520-k3skgdpLK5xsJtp27ndAewBh7HmjUO24Kdjq4s2h6WVxStYimnZNnp7c0XZJGw84QzbqASY61FVH5tSaihZCyYCPieEItuaxg5d0NzZAACWhbCPJgie86nA0CbwtTbZCbrx03hb3MIbBn9Bvzd2DXnHrAUUjkekEf74DknlZPJoJiz3-b4QUGcEOsnnFnfvmbbw",
+        "width": 1848
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104834791431152442355\">Emma Manchester</a>"
+        ],
+        "photo_reference": "Ab43m-vSI0sdlUKZffyNYDIuW4IZYPAVS2pVpGFOWV7U41rWZFpFnVCEcJVSyxZSg6YqeE0px3PvqFS1MIZrUVKAbT3M8fhk2ZNg_BUeQHGFjW_6FFN5TQ057qQMTjwtFV70BRIC49U9A-Tq1ndPr3b6Yx0OpIJV6XWo0QLqwcs4-6cwKtgI8nXy3-2KlhdQE6fHy3LJu0DPgPvrVGwb5agrhFWohp5wFnX_2RK0iNe9q7WVqAj-YaE2JPUC9_8DihBmB8G2c01ejWvCxzedaYjNMhRNqhDDUIk-fzobkoWIvGso35ezdCgIVsMBi1O6Q6jCSGRdrJfza05btsnzJT1vijvJqPk0yCok1V9Pu_59bgC7HaK3UWXbZr5uK2hVpadKxAf02rjtkQfJCTpbiBikYRux2o-1ZziiwbZpq_QRNVPVBA",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102197749132185075958\">Rick Staley</a>"
+        ],
+        "photo_reference": "Ab43m-vn5SUDeWOgTDDSn5riNO8rUBLM01OijGT3N20kdREfrxv5yEa7-G5gABspPY5hcskHF2C6NjAlwM2GeVqerKrqXOtWKVquRf_bfmbIZvStdbka3TXPVyqIj85HXKnSmVKaTrGsSTqaTOZYNyA4fZjSMaUlkqZWNxcAnCnNtoM59MUm4sn1kw5FEvGzAJGal-PZNNfu_r-QI-sqMxK7-8V0X8F3gduWl7ynyEndaYM1F7E-2h_GZPKTebttKOCXHyZXO_yzUqOH9jDZo7vJeu22w2Om6i0FXGc1QtzRQHMNOnthZ0RYc96KmX1TikVt3a9xaDp8fDl_asoRtrd5dfcom8raMF6b_TiR2LpMFYENqC47j2IT69HG97WyGcgzxoSwpxhKeBHUxwkfMmg8r1WSWFErx10K8jzueORN9tGNrQ",
+        "width": 2250
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106043317136730368082\">The Vortex Bay Area</a>"
+        ],
+        "photo_reference": "Ab43m-ufpsh70FVEfYF-SsD-FeVP6ZJnUJSrvQZ2MV3zlRvBlMSi3psIlA0-xUQulO0PhsY1HRPfEGIBYxhogXP_Dxeej7F8WwCj3BQyjNLQ27a-pCHelEffIb6F2qWxLV1Twnhp0UJS8P7ZASEcuIFDwQe4DJAgMtQxFLhecxyAXS2XBNouCO-kBBxcPs1iN-IsbY04KhvO7dAOGXigwjhXsAZuY6gBhCmlMoAsako-7zvq5mUap1B73-uiBSLEu3lSDoUzaQNYdNA9HB9FQqqhZqCaKHBhjpb_HYtHXZ9qnzy4Sw",
+        "width": 1848
+      },
+      {
+        "height": 2316,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113358073546862222835\">Meaghan Pinel</a>"
+        ],
+        "photo_reference": "Ab43m-tkjPQjyTFpKLEsyZmGzHWj4y5QgSnT2BnzoueTbDb_Fy29IokJZaaFvcNOOJsgFJ36vjeQk0EcqRB0md_pn1lJgsTY-5a48Otk5U2_CjZMCZ_ba4GZnWp6CF94W7dbk5qllIFeL3mXpO_iAYQZ46DBH0I1Sd1sQf9PYPGN0TeqiOPvrAx7gQyiQUN6mZAwlV5BKIvdT5NgoQtTKlzvFcTKzU-LelurEdxN-V5wU-868kpgjjGy-KlbEf6KNJrfFY2IqFcJaj5jl7H0pZ5gTVDtmKRaloRyPRAfB6Ae13WXHcYym-_YvvkMP7SeuYNIKGZV1C72A5wZv0ZhQx8tzZH0G28KXU93BTjs2KADn11HqvJSEGRg5y-v6uBMMGePtWn9YQKBfLnW08nynp99iPd-Q8P5XwaxTkhWCX-kQ1anANqjfk48FiSd2YZ3R3fE",
+        "width": 3088
+      }
+    ],
     "place_id": "ChIJ0a5PSCJvhYARmNThqEUM5Tw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4387926905268065432",
+    "vicinity": "619 First St, Benicia",
     "website": "https://thevortexbayarea.com/"
   }
 }
