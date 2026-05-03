@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lotus & Fern Apothecary",
+  "place_id": "ChIJr8BEmMDFmoAR1tVthBga4ks",
+  "result": {
+    "formatted_address": "7705 Flamingo Way, Sacramento, CA",
+    "formatted_phone_number": "(916) 202-6027",
+    "geometry": {
+      "location": {
+        "lat": 38.4953683,
+        "lng": -121.4137431
+      }
+    },
+    "name": "Lotus & Fern Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJr8BEmMDFmoAR1tVthBga4ks"
+  }
+}
