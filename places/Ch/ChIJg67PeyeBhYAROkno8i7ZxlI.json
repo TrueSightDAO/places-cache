@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Interval at Long Now",
+  "place_id": "ChIJg67PeyeBhYAROkno8i7ZxlI",
+  "result": {
+    "formatted_address": "2 Marina Boulevard, San Francisco, CA",
+    "formatted_phone_number": "(415) 561-6582",
+    "geometry": {
+      "location": {
+        "lat": 37.8066031,
+        "lng": -122.4321667
+      }
+    },
+    "name": "The Interval at Long Now",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 17:00 \u2013 22:00",
+        "Tuesday: 10:00 \u2013 23:00",
+        "Wednesday: 10:00 \u2013 23:00",
+        "Thursday: 10:00 \u2013 23:00",
+        "Friday: 10:00 \u2013 23:00",
+        "Saturday: 17:00 \u2013 23:00",
+        "Sunday: 15:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJg67PeyeBhYAROkno8i7ZxlI",
+    "website": "https://theinterval.org/"
+  }
+}
