@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:33Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Green Wisdom",
+  "place_id": "ChIJS7l9tOIz3YARGHcaZTZpzfA",
+  "result": {
+    "formatted_address": "702 Cedar Avenue, Long Beach, CA",
+    "formatted_phone_number": "(562) 591-8700",
+    "geometry": {
+      "location": {
+        "lat": 33.7754686,
+        "lng": -118.1949388
+      }
+    },
+    "name": "Green Wisdom",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJS7l9tOIz3YARGHcaZTZpzfA",
+    "website": "https://www.greenwisdomherbalstudies.com/"
+  }
+}
