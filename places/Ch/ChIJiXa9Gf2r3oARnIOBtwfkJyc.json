@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Paloma Salon + Apothecary",
+  "place_id": "ChIJiXa9Gf2r3oARnIOBtwfkJyc",
+  "result": {
+    "formatted_address": "3683 Voltaire Street, San Diego, CA",
+    "formatted_phone_number": "(619) 432-2512",
+    "geometry": {
+      "location": {
+        "lat": 32.739717,
+        "lng": -117.2287078
+      }
+    },
+    "name": "Paloma Salon + Apothecary",
+    "place_id": "ChIJiXa9Gf2r3oARnIOBtwfkJyc",
+    "website": "http://paloma-salon-sd.com/"
+  }
+}
