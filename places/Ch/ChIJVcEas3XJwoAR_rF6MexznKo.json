@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La Healing Plants",
+  "place_id": "ChIJVcEas3XJwoAR_rF6MexznKo",
+  "result": {
+    "formatted_address": "7401 Pacific Boulevard, Huntington Park, CA",
+    "formatted_phone_number": "(323) 537-2054",
+    "geometry": {
+      "location": {
+        "lat": 33.972284,
+        "lng": -118.2255019
+      }
+    },
+    "name": "La Healing Plants",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: 10:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJVcEas3XJwoAR_rF6MexznKo"
+  }
+}
