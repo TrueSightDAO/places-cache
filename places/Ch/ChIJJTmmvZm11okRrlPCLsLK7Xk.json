@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Spiritualvibesbotanica",
+  "place_id": "ChIJJTmmvZm11okRrlPCLsLK7Xk",
+  "result": {
+    "formatted_address": "637 Monroe Ave, Rochester, NY 14607, Rochester, NY",
+    "formatted_phone_number": "(585) 230-2638",
+    "geometry": {
+      "location": {
+        "lat": 43.1447229,
+        "lng": -77.5907739
+      }
+    },
+    "name": "Spiritualvibesbotanica",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 12:00 \u2013 19:00",
+        "Wednesday: 12:00 \u2013 19:00",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJJTmmvZm11okRrlPCLsLK7Xk",
+    "website": "http://www.spiritualvibesbotanica.com/"
+  }
+}
