@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:04Z",
+  "fetched_at": "2026-05-03T07:06:37Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Amethyst House",
+  "name": "Amethyst House - Healing Services & Boutique",
   "place_id": "ChIJB4xv4vI1joARCivg4_HhK48",
   "result": {
-    "formatted_address": "1639 Meridian Ave, San Jose, CA",
+    "address_components": [
+      {
+        "long_name": "1639",
+        "short_name": "1639",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Meridian Avenue",
+        "short_name": "Meridian Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mulberry",
+        "short_name": "Mulberry",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Jose",
+        "short_name": "San Jose",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95125",
+        "short_name": "95125",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1639 Meridian Ave, San Jose, CA 95125, USA",
     "formatted_phone_number": "(408) 933-9181",
     "geometry": {
       "location": {
-        "lat": 37.2928292,
-        "lng": -121.9138594
+        "lat": 37.2928382,
+        "lng": -121.9138651
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.29423868029151,
+          "lng": -121.9124820697085
+        },
+        "southwest": {
+          "lat": 37.29154071970851,
+          "lng": -121.9151800302915
+        }
       }
     },
-    "name": "Amethyst House",
+    "name": "Amethyst House - Healing Services & Boutique",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 16:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-u-bSL6AGPQYs0NTsOrOOoWw1qsxV-GFCGSunod3o_VRYQwHruM_XeUeK9trLhu4E-HAtE-EbLWDzpKO3mEr2w5qqU_lH0FXisjG7UznTus-YtpOfedvMISacD3bgE2pTxz3ouwPRwyHpFLTFiSxJkeX7SepyslEau-PrSrbGqmx7Hxi3qzaKBYYoT5BkgHOpJ2fYcmGiqQCkq_-qTL37p0nlefGedqQI4LijMcJ3bmwEPc4623jL-KE2v47RQfZqGgHPj3qZmVZe-wtG21TEKavTZdT0VgchEJA11MTLlLqw",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-tiThKIp8izz_WMpJ_gvVpKQmOycwV2GA1noPhNUyuK34VUcErDO0bXCuOLzaq9_gkl633RV92WOcLJpT_lHHnrR6sglWcFHEq2g_PDaO_2Q9Dyfj2bgjXCqOpY3em1H6Xv29ahwEg0CHhM1_arkGvk3XVs4VVIcRR3VsFJhQIH5bh14s1jexzlpQtcp2oyLwnIGjHAnOOhQmuTzyO_HPb6IF843N5eBbWT0lcR_q64P_xyFWCWEuq5IOjpvSzw82xfVDLCKl1vTDcW0GRItBkZpYaZYeregQ6vcZbxiMgagA",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-v46etVui_vu46pc6N4ze_Puus-lxBkbd9zHEfqNytEgL2gu_X7NzdpM65c8zOlxceglvXS9e0emOyXjMmAhTYqW0RQP0DyUg1Y85MTxPPl-3J6jndIWlKUa3I2FDqSCbJJSmJHzj4XW4tJSGHwOYJlcbQnie-JBEYa3jMT6qEsv4hg5h412Q6QNKuJqsXxA9EIvJrygEw4rADlKELvDqXSOk63UmzNyVFHlpmi9gAQwuNuP0r2uodpr41fyQE-pIGJ46pFs-05Ei_Gjv-bpnIeIk9jZS3X9laxMleOrzDX2g",
+        "width": 4800
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111620874810048989597\">Danielle Eastman</a>"
+        ],
+        "photo_reference": "Ab43m-svB6kkM33KlRTDszQwT6fZk7wdkqH1ZIN7QTEMSTPl-S9lUdOqMbj5emqFo1P99P81xsSmlYaLolX8RWyMfVgn1W0FH5eilGDrov3Ftk8smHao1U3aH2ad5Z5V15HbI60hjODtnYOF1gMZjXsyzpGYsQIq_XSFSkhYxNjOPIhbHgSbW2V8rNKHMOjeuLhiYg4EJpLSzKupcb1ymUSTvM5XJ7jwhVuQ-IRGqQHOdUaN5XPfJpwmT9iircI_BoLyt0KhOd1pdSAKaltfd_dRhod5hBtXByIb67RPsiNVJ33md9F-NYv7-KgAZDgJeFTZOHPbrIBkP0KpgHwYm1VEnHd9wzuNPu0U9OTEHmczqe6GA_Rwa2PolPnyXZMlfuU6AD4yDCFEjDehtmQ7BjVIJtWn12pnuIL_Gy6OcEFYu1W7yQ",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-vOhqtXMxY9BRacFY7NTE2u1zP_OhKz1DUrOkL9ToykKIE0k2Pxul4GwfJ_yAN6v-gx6mRlIOQgipU2DVg4zEHLB3WHsevfw6bXOCjtEpqsgAtpBBHXVwLaozMQdJFEXfCbvlG3K7Nn2_RcNTu8-EL3VoZx3eGb5SZerxCIZ0zuVDXM3YsgxcxcX-rtQ66qDkBjO-4LBkeoTKdvNB0NFD9kLNU3poDaUG4RkHVMKHausKAPJUMi3K0epjgB1TcgAjnx3cgIZvwq3iUGF6Iyk_p1EQaZIgqwH3p5Z39HOvD9lA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-sCg1NLLAJ50HSfTamirrhhjUmPCCn-3BLopZ50yymR0P8mlXA0yU7MkGcsDqDdxc8n6aBwm_vxLpbGwsBSB7y7PDL41eYKgyHLjGN8wbhUR7FGi-QKN0ePRy2r7rXoFrKZjYIA7r6juFi1myN3DIgKetlZEZZlN80YhJ4c-PGisFOy7Tn0SgUoSVpmkxcFuefv8bEi9mtrM0M8AjaMqKnhhMWgVLfEZAXDw_kHhJixjJc5ZPFA72ZQmKoMhy_QNgajoLW8k091e59YxrJwd-ogvd0dS2tzfFUIXIlA1Y_MIA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-t1lFD-HaN0eavrQniuNgXQpUaZzfxng3F3hHd8jye4x51iv7pz0cujCuBwKmKADtvULtvBQ3ymFtJk-quThUe9073Mdjw73CEiLcebxH4vUqiYjrBkB9NLTwD1mJhfp3-iNBvwf9nqPH3DV82dKnqrJF6Me9ym3FfQ6zvrwOiB1LREaL-A2aWZGnge1rHvKyWk0se94iHuOmiWIx4GNuJQmeolnFbku7GcacZj_EBGJyQVvJNHYiYqAJWVBzuiobSlHnZ70giZFVEiLTYq9BukWVWEHaJ6-zIADm0gbn39Mg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-uGbZ69z9sl2V9DfCqems2BrCR9alQGT1kvjxyWppfb_gyQN2nZQlcfNgKgXBuIfKhTUBO1x_asjM-DZXRWZ_Oa7AC3bBj8F05qvUStpKPUzsMQ1bvsdvmKX37S0zrSTS1kIcj8IhSS5d4VPkPrvG0JjKB4R-g7PyUDJJbDzYfmbqG1GvPoTu8O72simAtNDct6ym7f5CM6CYkdXr4rzsD1qIW15_cJ7uVNmNzxApR-8ix4iDqVA4v4gxxXYFQBZVcLGAxvVGi5SLelswgNsEjQpGnB2i9wnRpusJXpumGBwA",
+        "width": 3024
+      },
+      {
+        "height": 2742,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-uwQFlq84CBFiftpCydlKK88jbMdaVTjKxtWlwW8BahkM0APLO13nJhJ09Ej0pZeTRXp1oOS-FpaRY3xfmhjselmY9l_exmEPrzBlyUnppq-zkviCoWEt1JtI42MXeks53tuW_xCkx2oL-Xv5QYOPmEvAVeIoFYK4fGwK8Q6B4Z3lxCnH5fEQX5XP9k1nr_WzF1FXKXago9wf86SiNvNDWm0EvWHaJ0xUUB4kmSBg-wHpgVzfvE7KNmaLLIRrTfTu5i3AJ7ASi3uLC8XM1k1fOwFFLNR2Qmt1n6rhnLmR0aaw",
+        "width": 3851
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101833023306764927209\">Amethyst House - Healing Services &amp; Boutique</a>"
+        ],
+        "photo_reference": "Ab43m-uXLW4tea3be1zF1m9SxZhmNt_k6JKXIazMQFPPRYIh-_765ZqaDlkNcDA4tnDcid_SYtHtDXi9vdZu3pooYZ6Gw-ay4BIq1qi1EiCLUOy3P1T4_Eq0ph1TGA2eIypIcbaGOKO2PI4gey59hBX3NmO7yGSlHN-NzisPRxJeQH2m7Xp91IhVySUbGM0h2JkeybL00tgfWNoCIA4lMoSUGZpQApbMy5bPq3NxXrg3V5R4nzAr4LiSyl9QGKCfhmKYEx1epAC27UgRaASgj7vZ4dy9sThWW_-8pFhB671i-UqWkg",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJB4xv4vI1joARCivg4_HhK48",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10316587800448740106",
+    "vicinity": "1639 A, 1639 Meridian Ave, San Jose",
     "website": "https://www.amethysthousehealing.com/"
   }
 }
