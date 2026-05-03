@@ -1,38 +1,243 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:16Z",
+  "fetched_at": "2026-05-03T07:06:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Sanctuary",
   "place_id": "ChIJdX4TdaeHj4ARPGpoFdle_QY",
   "result": {
-    "formatted_address": "3344 Grand Ave, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "4020",
+        "short_name": "4020",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Piedmont Avenue",
+        "short_name": "Piedmont Avenue",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94611",
+        "short_name": "94611",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4020 Broadway, Oakland, CA 94611, USA",
     "geometry": {
       "location": {
-        "lat": 37.8124603,
-        "lng": -122.2471791
+        "lat": 37.8278386,
+        "lng": -122.2561392
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8292486802915,
+          "lng": -122.2549058697085
+        },
+        "southwest": {
+          "lat": 37.8265507197085,
+          "lng": -122.2576038302915
+        }
       }
     },
     "name": "The Sanctuary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 18:00"
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-uYk34jK5GuNn--iZGpXprrXjngI-ueUWoFPDoIGdkGz4WOySmbUkVbpC3vdFF0HM4Bt1P7sXSNFkFCah6CquE0T8Imtz5p16UdYchu2sBPsPpnXK61APqD7Dmqkf3jzbNT1ympQ6y91BKwDZ63k1ohQ9_I-KLS_nYlWVtBFHHMqqRkyesN4c0996Z1PLtjINe7wRBgsVUHj33V3EnJjeje8R615DIXWLRRHOsr4-e_ksBknnM9HXxNpp940PQiCIiACos2lM8PGsv4nrPVYtxlJnXhAepD4xMXBDMQu-D3ig",
+        "width": 3024
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-urYAcyJkRnfYwrX2WQJra3-2omec699DrmGpByH2WRu3HzoN5UX2TsMNF6ZO7HyA3zOT4s4402R2-_N2MBoEZo9nhFbr8TSH7jF94jddaVw7FNuUOArXCrAwLZhJmXun1VqTMFzWK8bN41ChdTFoBluzdljaKtMX66fyhUhHRRLcRK2bxlP0JIMwZZVue5dYbWFaRgPcEMaPYiiKNNxFekKe-NBQL7WgTaNss26KIg2BP9Sf6hdfuC_gsIWkPM_qWOCKvgoPTkgoyG4CmgXAoHJXfo9LBJQveIKYVn_00rAw",
+        "width": 830
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-tRmzhhtIVUBNKE0iVUIhi2-5JG38xMzaqHgzB0w1ct8NVN0mQ-y7grmP5j421HnHMHm2xZnnV-ccILM-qYBT2mTE3y6AbNTcrOUSAwwSt8e3IDR_rNad0vo34_YkPaEfKwohnasmTopG0XNDGO6Efc_H6B93IkGc0zHplaFMsF-x4hOhexPNFHXrq_9flEGSer7EV5isUUmr8mXo3EGYE-fNE5cD63s1W5XplCtoEWudiVzkiTRpeDeOulGvUViVjssLliCNzL2646THRNNPCWUAS6DJF089LOkBhmqTk_Rw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-u88akluA6RvkrFSOBtwoqYrPuk9awrr7Sb4YsmOfgcw6UwMDmoWW5nFn0BsGEaNNypE1n0W5eVtruwAZOJNGQuIcMVuBeun8IXIRU8-EPumJyJOFQ7BIJ4EHTT30vrfLho36eyxhsSVRFBpk2C0vpaA_vW-Yh5P8buq6lNdw_KqXlV4Qw1Y4RY-Aalqno1jIZ6tKU3csWZmz91N0GYD0qTHB6fMQ0IPzNKcOMYWvH0h2nk5N0mccag5N_5SWQXf53JoEUhzAaRv7q3V-De1-T4g8kSj0yXgzvQPXNkSPzjKg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-thmZYfaFYEn7G88jOzrhU-IbJMFnJ2bemDmweY9nnkQfhKJLyaMlhXaqmhsBQCR8LgO858giWS6DQIxzhEma2PBllETtDWxDyFk_Rjhp3J-ZA9oH2RRM3Prb91hXHnyaQC59ITnFCyfgRumlhZmGxVOkLH9fOOr-b6nsq4SmrQ4UEADncuMD4WiMRkQ6sCcvUp1F93BhRVKoC4p_BH2e_bIDd8d0b8fhQs8ahoDxTIWCcafC-CWkzdM6k1sbVDwJ-MnMBIKbGIjgr3KED0zw7Pz3qlHf0wmhpH3lT15bIwcQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-vibIh7gGnriGTBwcmi8bfKbdm0OsgkCrLxGpQIBZXZCb4wBGdh0WdMUqzFbXF-e4FTure8enm83oNY6j7wY7ieMkywTB5Y5CVqgwz3KL-UsT1I6RKcLq0NdYLqODlgZJVAv9c2Xp13LjCArZd1swO8zUysis4w6p__4rXuWMzPfGYS2JIHmGYQevaMSQMXRUC2mvw6Hf5G-676zbm4jMyvUBYzB8HR37JEWIuhclVQKZax0BD-atx6pgyYCwbNYbR6rp5Tc0DmW9jiNZvnWSXLzNthGwGlkEWhcMWuft00ng",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-tmrlmiF0XlO9t4IksyXa3v9yECoB8pvfIASA-wLNn_Dv2mAKxu9zT14mAZ2ex0Ta8itYTpOZtlNmzgAKrBJRsE-mYswDwd8WfSNO1A-c1nPZSt8hz_bypzt8qccETTFsSTQSUWZKNNKUJSg2PZJbZOtQKcTdUYQE-m7BLO9G3i48rjCeq9Oc1wTCMra3SzI2WpLkrcAgdSGJw1ur7dZNY0PQHCf3gSp4pGkmHCb-1uQR-NVcaKL9YRdI8NrnTYO8iLm4IIWNXy-JPxK9U4IWguCQR4fhE9Nol_2sqBHYggcQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-v_9Wwk8nTejg5FmGjs_kOjhuBDMDDAZO_sYP2k3RTCto6CMbFxX9mYIaGNFMe3QKsgICLxh1KfH_02-EZkrBnHL4ip3NxsD7sYWIjZBrSDLkxnqs7ReIVpkzGTLnEXb3TgEI_1YWzmwJYJLpdAP47qswQeHh_0kbz9v_fMVh-bay0SvvCgFkVr0dv8P5cg9REgyFg9g6LzX4kuzOZwk16YBlB7dclNR0iCofbur0xPr7JGoaeQ3ARU0EbPBPFX_S3eCjbQmCbt7K3t64Jh7zlZV_cHmyealWM8w_F8iZdPPw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-tQsZiJXQWqt6Citx9UTxXCNj8aiY19YBWIBZBB9Prvh2cq4IVQl2wjr1ADYqPhSGHHntzBruqJsukapW-QZzJtJEZzsJSYPBgchERw-cdoU78mSj2AVZiPHVZyWDOV3iAK4nUf0j7dUcllkTPUNVV3BOaXDRxj8GEF2oychI8LjvC1P-7_XdYoqQI86RXdBihZUctzCjo_bfhtu2kTCo1DDHJHiQst9OjLMoLwMCzx1VXF8laDyCfK5qM7EIOtbjEpeVtBWI9vHaFkH4RWnCTVN2kPDu_4slDKCiGzUHZLpg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029803438805886677\">The Sanctuary</a>"
+        ],
+        "photo_reference": "Ab43m-sF5JqBjHIP7m0D_oUuDtUeM6IdJJohlyTCKuslOtQpxjpvEDB-jIZ_k6eDC9h2I8d9-IJbJPliZ589RNMXkHFUmJ8EsmZwTMvbDsUnsp3Mzo5NVd8gqInQHgb-g5PMWR6QI4dNUy7P0XEDvvMu3eGO5Wx7JkFgCRFqKv550-FytISZxH8Dqqd55z8RAK7SMaZwYcq3Xe_wKRZYHi25sDhOVXSrnuNFcPHT746JmBdKccJ9EdpQ9xx_oVxjhnvofyL_C4lZHc9POrWtVyxVtzNMiCGEv6H-KkKujAO37cUXtA",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJdX4TdaeHj4ARPGpoFdle_QY",
-    "website": "https://thesanctuary.energy/"
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=503663019795442236",
+    "vicinity": "4020 Broadway, Oakland",
+    "website": "https://www.thesanctuary.energy/"
   }
 }
