@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:55Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blu Salon + Apothecary",
+  "place_id": "ChIJn7HXi1vZwoARU_znlYghTIk",
+  "result": {
+    "formatted_address": "530 West Huntington Drive, Monrovia, CA",
+    "formatted_phone_number": "(626) 818-1620",
+    "geometry": {
+      "location": {
+        "lat": 34.137851,
+        "lng": -118.0109039
+      }
+    },
+    "name": "Blu Salon + Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 20:00",
+        "Thursday: Closed",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJn7HXi1vZwoARU_znlYghTIk",
+    "website": "https://monroviahairstylist.com/"
+  }
+}
