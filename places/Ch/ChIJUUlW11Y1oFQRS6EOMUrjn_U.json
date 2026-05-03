@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:08Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Idaho Apothecary",
+  "place_id": "ChIJUUlW11Y1oFQRS6EOMUrjn_U",
+  "result": {
+    "formatted_address": "1039 21st Street, Lewiston, ID",
+    "formatted_phone_number": "(208) 707-6625",
+    "geometry": {
+      "location": {
+        "lat": 46.4098906,
+        "lng": -117.0010386
+      }
+    },
+    "name": "Idaho Apothecary",
+    "place_id": "ChIJUUlW11Y1oFQRS6EOMUrjn_U"
+  }
+}
