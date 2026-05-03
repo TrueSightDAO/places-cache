@@ -1,38 +1,259 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:54Z",
+  "fetched_at": "2026-05-03T07:07:23Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Unique Shop",
   "place_id": "ChIJrwHh3Tf5jYARDrFEFkhQcYI",
   "result": {
-    "formatted_address": "345 Main Street, Salinas, CA",
+    "address_components": [
+      {
+        "long_name": "345",
+        "short_name": "345",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Main Street",
+        "short_name": "S Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Salinas",
+        "short_name": "Salinas",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monterey County",
+        "short_name": "Monterey County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93901",
+        "short_name": "93901",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2705",
+        "short_name": "2705",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "345 S Main St, Salinas, CA 93901, USA",
     "formatted_phone_number": "(831) 208-6031",
     "geometry": {
       "location": {
-        "lat": 36.6726556,
-        "lng": -121.6542785
+        "lat": 36.6726997,
+        "lng": -121.6544991
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.6740370302915,
+          "lng": -121.6532245197085
+        },
+        "southwest": {
+          "lat": 36.6713390697085,
+          "lng": -121.6559224802915
+        }
       }
     },
     "name": "Unique Shop",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 13:00 \u2013 18:00",
-        "Thursday: 13:00 \u2013 18:00",
-        "Friday: 13:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 16:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Wednesday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
-    "place_id": "ChIJrwHh3Tf5jYARDrFEFkhQcYI"
+    "photos": [
+      {
+        "height": 1179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-vTEfYNiURAOl9AkmN1mGAzYAQmk3GhUb3WirX-l2PgADWkDdsXDWImuzqNpH7acEJCNz80DmzhxsAWq8boUhuDZpDmV__I9v3fUjvzLdL-iPEVXD4wTXYoaYcschETqx2jxc5McQKCD59lbnS5yAmD9KHpOjD9loCXU_oRdVFgU12ER4iYMBedY-pXKKhUHcU_8CSYA04oyHVyUKOt5oigmdrZy_oprISeBZAp0FKdesECAWoKIVUGSgc_DH-9wZSzI9LOLooL5Oi5z77e0zxdZoPujsjWiGTQEpsK4WB8YQ",
+        "width": 1284
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-vlatgsDchKlAN8izYH4hjUFULrM-Unw3Ng5ZUTUzxkV93-8i0tBus2zjVZd3xt-Ka5pQW267T8c9p6NAqsgua9SrYXG4eDySo9Pxh_P-8GJLn7XDXr8XkRBNJEMUBBVDrOsbjsN7cznLhz4hgM8Mew1pzp1ELZLEUaJxzZ9Lq76dH_-cMpsBPgQxJFwsDEgtl4gVK8jPK2uujhK9uDkE_wGaWB5arSA2CDJp48fyuhIAEAA2f1VwCnkiWUYypOBJW90e6P35hcdofuZcPKC7NkaaWviC5Us80kATVluC3uXg",
+        "width": 3024
+      },
+      {
+        "height": 2346,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-thzMW6xHR1_RqkSMkWFoue2_mShnE68jWuof6CpztJ6If4mYT4ehbkNujuODCQYYqk7OY4SXmUQDQ4NfxRi1f9OzmMK4GBfoqTu474Iqo9VB-C3blxUFWlY5JL9IGChZXPERsfbIArn5E3Nhn2-js8eNRlWCCnCroefhhk5e19KgaVwKXFUkCppC94acQvXwl-Fa0p89xHTIoh3d3gQsS5v9SgBBXldHRQRUVFYYYzf-KtCBjsoFRZVhtCfkoGcf0I-JdI-4E6QDDh0iwPzoN4vUm1dr2bIoZ99OnFDftk1w",
+        "width": 1320
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-sK_x3vZ-YRAgTfdKnj9aht93BO2yMEK1gRVIio5afho3RWX9XeOfvjHlVR6UpuIjI20grbDyZZ4nmiHM9Wza1SdzGNs-2DKcHuJInhbG_j3tEJQRfNKd-0qKcocUMlflEk-ZCGDLLq-xt6GdFTZEckII0Zi5ZwENhNQVXiwpqkcuf2P2ywiFC10I5bBXVqFtYU9snuElgfhvWh4OCtIfsr5WMmRzLW2N2ce8jf1cIBG6obRNrBJeNSq_pgKyc7q1oT4on9RUjmBwRjFNvWo1dzj13n4Pzauxk_uzaPNMl15g",
+        "width": 1170
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-sIm3BA9Ppg6n0AHRpTIck7Q1dXwM3GM294iNOk93ixVOysGT7CBZ51X7vbKODiXMbKAhInVgLiqx32EzwXX_vSgoGaRJm_8PwAQ8D_9FeLk6zUJA5RR6JHmwykCRZ0xO9_v4sLRxgYWaHINMyL8Z3NYd4X338aTOTv29WB9hKj2TgI3BPyPJePzBkl1J-x7c1jwcHcwKGv69R9plYWegz7IUAqqAfxftVw-_N8Q-YLBaO9h6wTSR4oRPLUBAkT3wZkQkgaGDKNIiJE5zqf1oBB26b2b9ttQS3Qqf5H8xlqFw",
+        "width": 1170
+      },
+      {
+        "height": 2346,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-tW9LURsllANhhYwAu9Oxr8cESo1eli8QNQJCcw3szyV97x7c3aQOU1PwDXFvHjQBhCuTBy3K4cHkfUHHlHOODwq3me7Zcv0w8wMTFocWGj5e31Rc1b7ZDa3ZSz5fArJVt9AVvsijHh6CSOg608bSitMc7mGZQQ8IS0gubhGXsDFLywZ6MI10ZWbz66c9iLpTOpOoBok37pfATaIZ7TDjNdOJZDR0mRuqtJUWvosbmCnK4FPlrjdlPRTsEqavpF4aA9uNGouegU08bR647WhiIbLo0fH76MkhcJPSWvlQTIWg",
+        "width": 1320
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-tjqm7GLAn8nRTERyA1iByLdBTZezsf57H1taZnybI4D0ebVYhmNvvdP1oluuc-9mnk1wurCchOCDBpBU_PO6bgAs0eCxYPxE4RSTLAk1rS7XSwlX-OasvHgnBXreW--1opCZQiJC5-RwWyWeOKwgsEfu5p4gCUjsxIHv2rmiSzHrKsqZ9lQgT3hNK7bhNA60gJrM91gQZSek40kOMVhcNu24rF3NbAqkw5EfGEOsLd5MLqJY6lCUBTXjbEyGasS80mroBSUWlB5s0043cK9bxVtgzsVCdChMkS0m-WBVKd-Q",
+        "width": 1170
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-sgzbULqao6cR51VtSfunU2XV69XfKeDlIPvgdMZIcf0c6XBAgCjaUuWx1UTZwDjFzjEj1ZJVRasH1jwis3e4Mhwd5z978ChK-lfIBliu3DuFJxs6MUVUqWkl-Aelg7gs1tcdAGe90xWq0Niq44vnIk9ghNgI8tYJXv05PNyUAArtrVIPEdrbyXhICCBYVWazXo64hHWxS5C7UDZy6qbbOIEoDb45qGrGSKwCw-0oX6orLC8RRq0htUQMmLsN29Waodg3SmH0Gi5s7BaZpWvYeIakn18vPHLes1uE0IizWVNA",
+        "width": 1170
+      },
+      {
+        "height": 2346,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-udhY2jMBGWZqgr6lgU76jNf2By36Ec3pB6IiXfKSG6jV4W_o4uQ9c1jXEo5u9sp1uHo9JUAZorZQQWro7pSCXjuEowXF7JI1zh_i4pcz1lvcHiMVs8-Cecwm56X5gt7CfuMcN0ekmFcQzWCnmKtwYEur0SzUf-jy4A2BYQwLZIFhtRJXeJ9OYG8t7jyGFjjo2JTqdzXfYwkUehXq8IDxl6xuocHEEWilV98tDDjXsOArIinIDJbhK6-bQVepJITMg1w2aAa_j276GDxyWBUtSboEFQrYshVJMXlwSrsb1ueA",
+        "width": 1320
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104172956692275299252\">Unique Shop</a>"
+        ],
+        "photo_reference": "Ab43m-sm5_GGRfzQvay6iqTyDmZ9QcI3kdtG2R3g8lMtG_Zq5ajsfmZza9jlOtYFpL0QAZRxJ365O2juxqM4zvXbYy4PdSUKsKagP1XAnqvfq5r7ue6_Adq1VbKklznpTtf6rrSu-5uUTz83_ZeCPZhai1BL9VAXRak9AwFCv8R6DM_lOwFCgXEe516PY5srL8uq-y3dxunqOOwCqUgaWWMSFyW7T_4XsSYR4Wcl17dSyFWcS76R8BUyTjSV4n7w83HKJuKT3_c9f8KBbYlxGi1PqvnWITWLEWAp2uPTp9hivpZBCg",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJrwHh3Tf5jYARDrFEFkhQcYI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9399382167840403726",
+    "vicinity": "345 S Main St, Salinas"
   }
 }
