@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Hearth and Seoul Herbal Shop",
+  "place_id": "ChIJgfaQcRJ5bIcRPIvLqAG8_o4",
+  "result": {
+    "formatted_address": "3748 Tejon Street, Denver, CO",
+    "formatted_phone_number": "(720) 314-3771",
+    "geometry": {
+      "location": {
+        "lat": 39.7689903,
+        "lng": -105.0110659
+      }
+    },
+    "name": "Hearth and Seoul Herbal Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 16:00",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: 10:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJgfaQcRJ5bIcRPIvLqAG8_o4",
+    "website": "https://www.hearthandseoul.com/"
+  }
+}
