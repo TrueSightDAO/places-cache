@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Garden Apothecary",
+  "place_id": "ChIJs1VykbR0j4ARWFmtlixiAbE",
+  "result": {
+    "formatted_address": "601 Main St, Half Moon Bay, CA",
+    "geometry": {
+      "location": {
+        "lat": 37.462492,
+        "lng": -122.429303
+      }
+    },
+    "name": "Garden Apothecary",
+    "place_id": "ChIJs1VykbR0j4ARWFmtlixiAbE",
+    "website": "https://gardenapothecary.com/"
+  }
+}
