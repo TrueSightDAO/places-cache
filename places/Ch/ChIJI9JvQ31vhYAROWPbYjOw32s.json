@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Mighty Market",
+  "place_id": "ChIJI9JvQ31vhYAROWPbYjOw32s",
+  "result": {
+    "formatted_address": "739 Ferry Street, Martinez, CA",
+    "formatted_phone_number": "(925) 387-5167",
+    "geometry": {
+      "location": {
+        "lat": 38.0173168,
+        "lng": -122.1351757
+      }
+    },
+    "name": "Mighty Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 14:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJI9JvQ31vhYAROWPbYjOw32s",
+    "website": "https://mighty.market/"
+  }
+}
