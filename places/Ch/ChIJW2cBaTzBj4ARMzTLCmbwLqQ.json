@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sublime Journey West Coast",
+  "place_id": "ChIJW2cBaTzBj4ARMzTLCmbwLqQ",
+  "result": {
+    "formatted_address": "37485 Niles Blvd, Fremont, CA",
+    "formatted_phone_number": "(510) 896-8496",
+    "geometry": {
+      "location": {
+        "lat": 37.577022,
+        "lng": -121.9795886
+      }
+    },
+    "name": "Sublime Journey West Coast",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJW2cBaTzBj4ARMzTLCmbwLqQ",
+    "website": "https://shopsublimejourney.com/"
+  }
+}
