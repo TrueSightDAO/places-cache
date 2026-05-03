@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:10Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ursie's Apothecary",
+  "place_id": "ChIJBfOGd5mx3IAR9frgsHKMvzE",
+  "result": {
+    "formatted_address": "3730 Nelson Street, Riverside, CA",
+    "formatted_phone_number": "(951) 568-4055",
+    "geometry": {
+      "location": {
+        "lat": 33.9497625,
+        "lng": -117.397341
+      }
+    },
+    "name": "Ursie's Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJBfOGd5mx3IAR9frgsHKMvzE",
+    "website": "http://ursiesapothecary.com/"
+  }
+}
