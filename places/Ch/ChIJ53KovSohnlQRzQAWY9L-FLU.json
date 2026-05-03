@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:58Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Rooted Modern Apothecary",
+  "place_id": "ChIJ53KovSohnlQRzQAWY9L-FLU",
+  "result": {
+    "formatted_address": "9922 East Montgomery Avenue, Spokane Valley, WA",
+    "formatted_phone_number": "(509) 869-3830",
+    "geometry": {
+      "location": {
+        "lat": 47.6773126,
+        "lng": -117.2708955
+      }
+    },
+    "name": "Rooted Modern Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ53KovSohnlQRzQAWY9L-FLU"
+  }
+}
