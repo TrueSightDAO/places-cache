@@ -1,40 +1,276 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:28Z",
+  "fetched_at": "2026-05-03T07:07:00Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Moon Kissed",
   "place_id": "ChIJTbWXYi9AjoAR5EXu9zQV-MU",
   "result": {
-    "formatted_address": "1360 Pacific Ave, Santa Cruz, CA",
+    "address_components": [
+      {
+        "long_name": "1360",
+        "short_name": "1360",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pacific Avenue",
+        "short_name": "Pacific Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz",
+        "short_name": "Santa Cruz",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95060",
+        "short_name": "95060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1360 Pacific Ave, Santa Cruz, CA 95060, USA",
     "formatted_phone_number": "(831) 423-5477",
     "geometry": {
       "location": {
-        "lat": 36.9743363,
-        "lng": -122.0261353
+        "lat": 36.97428,
+        "lng": -122.0260894
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9756411302915,
+          "lng": -122.0248087197085
+        },
+        "southwest": {
+          "lat": 36.9729431697085,
+          "lng": -122.0275066802915
+        }
       }
     },
     "name": "Moon Kissed",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1430"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 19:00",
-        "Tuesday: 14:30 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 2:30\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-tm4PNGcUpy6CZTOo7tKqjZXmf08gqJ8cMnYBpVPX2Oq0T7J1uKl1KdqY4PAVoPXNlOxOCPgDpR0N_2jvxm5ivr_jnL8G-OsYOfx-YyZWUsKky3G7qwoOyFm0YeAFrxbT8t2RHDfs1h1YgYRYVx9yOV12dEeniusxXIKeLcTRs85mwLL6aIlbJnfV5pfw1Q7P-extOJ-TpRKlKreG_jZab9kzxQuTQVl5A_OskOmfYe1PPI5NrTvga9u6hlRBuYOCpaonfMXIEf5QvRnJy2WxO3aOD28Va3kxi95xLkiWlHww",
+        "width": 2016
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-sR8hxpLEw8HM6uP1BGPbOgb5uc5NBf6icjCxDzXkMyR9zRy3PlfWZeI-6wQdz5lYg07VgoNT0TxCCvuZHqzEvjMArD0lLmpDbmx3ZL-0E6WS6inrL5D1rJ8seu6FAhH6tLohPfHh46MoelNrfGL9ywW5ePnL5r_lnWbR9aFAYBbA1iuJQDAHlBTdqe0AtydiRaRk2OHXQ4l8sSyf67IrzHmsisz5NVUaJbTOIiPzyPmeNHAPIr7CVdxI-Dqza67lfRglk2cHdHvFiWfsHnT8_bVktjY4_dl6JFnNumnsoHGg",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-tDmHYuEOZDxVfEmawHwwfbUY043Ui_H1ukRSAK-k5pxyhjqrYVaOmk3d277xu9A414EdYmVN8Wk19HSEGIpe7oYnsYNLm7SgPYJOz0wayhwOmHiT1InO-tXmzjsjMLvTFCHIHGgoyxVkmDCEx1WX9oRbalYcDbIPbG5a75l9zKbnH2Hkk22euPlBfgD5QdQh30t7klb_A1VIUiEH36GIs0gpHbAKZz1yFps76ltqeXEjJ7k0_EhXPOIUD2Z6Hq5bWiPi6-wKbxMxaaAL3BT7ZoNeJtOQ76wKb4fwBXg6iLsw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-vXu4cVI2MpC7h_lV4NFkYZkhrK7oyNjgFigaOmVKTl-t8HcS2ZloSoCML5kZp-KDkyEV3J4g-uZ_ieOfrWZqE0KxcR2GonqyHPXSYwLePOADzaXzslY9-vAGGa8Kp2gl0z27OxTQlFosR3AzLqBR7C8lTPlBm7qh2bgVjAf02yMQTL0vUX86ZDKXieeENoUSYFhKWOPtd-9CfXdwXPJNQOvE1kTAV1Us79G8taOozQKZXmBa7-L0e3pXht5NYeUlkiWsjOrwJtuWxZYOwcCpCK61nlv9zsm4tzMrl_d9W8PA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-uIWNabzQPZbP7I30kdID14qYgyIEw6HNM7X3l1Kd4m5o4_w12eZbDdjSR-ICCGUro2JHZ5p0RqIYQ3bWPmdn7OOvTRk1o5nGoGnCVYSLRI2XGI67Y1MP6N2A7VoiIR1RWWPDRd91p9oK40HzouSuRGIHDziyA4y1zaCFYxXYNGd6o-0j8DPca1sXd45W55ahBsLJm986E3e5KKMojNPwksk_-57K0mRgbuTeyo4xNtGuOfwyKbx5kYEg8SITmx_X33BCgqCMtthgPv9qia9rdammYp1IyeiQ68v92jnp8fHg",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110054585611515610025\">Ty Walsh</a>"
+        ],
+        "photo_reference": "Ab43m-tZMJSN1iwHSW5S1n034IKUEwAKjheYaAUw9XVhmP1JJ3lUUmoTrJzScgG5MXo9YMPK-pJGg68QZtXEz1kF91nnBVHut3EsjjYGCSxx0G_-ztGcxPshVXc1FR3_v2I7xz_NflAQel8lr87qERFpgXhR6Jjyr0ByNFzXHqUOGNYaNuV3r_N18s0sKlvrEint9pupb1TW9-lyUIVYdIl3dIchMcT_r3DPObVknXuo0eXH4mFrG--0843SJSZHialBeA1zAXXRxtGncp4Yv01g32TW-EmVGGGlsXrlSLn2Ieu_tCNBP7AVWfNYmCiQelu_aetzzYNm2RrtLF0ugi7IeIH8tqMU3OWpwAbZVW4PmXuJZUSAAmqxwdQPF9IcOXlgpy1cvE2m6ist-oYp6A-PPTqDYD4TO5VaZjhd2u2ReSz5b1hB",
+        "width": 1080
+      },
+      {
+        "height": 427,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-ts4GA_8d7rAjhdoBiXoYpEzRRIhY79FUhJlLtb7WMC2HGFjYqcd2CHV4sS78Mdmat-lPYfdC1Jp3l1W4O8JESthlVBa7MU_2fHvrV1MYhJz92cD6dC6lOvZZijDXPYAy_Q3Um845nhRHfb12dfL-dFwcGDAHcVsPISM-8z0Mw7OYcIdWpHGkpto3okgwazUjZjkqBsb3SYvHVnk7ygWpN48_D4hp7AeWqljUobwVG6WkpMlO4J4sR0CrSi8prWNNH0kfbR_pu7lBS5UsOjmDdqDFCUrlCRdtZy_MeDMPzGtA",
+        "width": 640
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-t-pCCB99OQGh9KlC5JMaudDrkKxCYodvXDeQghXR38BLavk3lKE08oGJTEVAD9sQG-QHOlB-f1I-o1eUIKJahGA1-8bJ5AYn-1FdTSPGyX26dIPe0cioaLUbbGFjK1iO8L75sHVKw2L5rPLucXPawrl9L_15rGAEJ87aXDKgFE0NitQ8q8BDk6fT59yJI7Vjc5DgtCHTeE7bNFPi4yDseWR1_m-A7m_ycZPmHFY7badAVA0WAWJgHwUwdP87HaygEsakb0PoJwif9odg2xDDosdTHW2-eat_Dy5SeF3QMHqA",
+        "width": 4032
+      },
+      {
+        "height": 567,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-vxtEVhQozHYMiIrm7tZuw7fyXul5637FCFkbPvIVwu4zlH3u0ZVJRvO6LzOSU3emelWvZHAcVnSR7fnmNRWHU-YpbzcsC7IqknEoWuACyVFcOZBhyAqS1Ehex7HY3ic9SrDvE9Wqh5a466wDsup8PqeTPYZfrPO8VPY70ndmwDldLrW05gI0_8OhxSYd95R9_VOwEzIlkDnbjLbbXmy5Vg4dRzFoLqOmvdPfhviWCT2MlW2pYTtHC7AOGO5Ez609x-dW2tnPBr5ifpFGiAhnGiGqhA0U2KApnCssZYYsBCkw",
+        "width": 850
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110129911750584312020\">Moon Kissed</a>"
+        ],
+        "photo_reference": "Ab43m-uio2xGautO3LG6GSGN5KYPx_pJQo71NdhcrC5Ul-sCzggq2El23jP3DW3aet_UPoKYOvzpDThEFcYytmpqFFr98eAkuKCARZpbbnpcsgFobPNz9e_yJFIb_oIuXHpdnry1Sa8DR8oz6Su1F8M_ebGBOfDKDczC2vu3I9r6WMYwqlJatY1TcJSqJUdSRBOQHA0uxvbge2w33JkHxg_NJVIjirIxy7V5E_gFqyrv-1jSLzDEVLiwwWtlgUuL9BRiBrw3YQ_yEZCM6VQFE0ewU6A7RXn5KGEfti1TTk2tvZ2bjg",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJTbWXYi9AjoAR5EXu9zQV-MU",
-    "website": "https://www.serpents-kiss.com/"
+    "types": [
+      "book_store",
+      "establishment",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14265175136938116580",
+    "vicinity": "1360 Pacific Ave, Santa Cruz",
+    "website": "http://www.moonkissed.biz/"
   }
 }
