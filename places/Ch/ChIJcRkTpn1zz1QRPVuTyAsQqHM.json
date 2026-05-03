@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Hawthorn Wellness",
+  "place_id": "ChIJcRkTpn1zz1QRPVuTyAsQqHM",
+  "result": {
+    "formatted_address": "109 Clear Creek Drive, Ashland, OR",
+    "formatted_phone_number": "(541) 708-3935",
+    "geometry": {
+      "location": {
+        "lat": 42.2009378,
+        "lng": -122.7100992
+      }
+    },
+    "name": "Hawthorn Wellness",
+    "place_id": "ChIJcRkTpn1zz1QRPVuTyAsQqHM",
+    "website": "http://hawthornwellness.com/"
+  }
+}
