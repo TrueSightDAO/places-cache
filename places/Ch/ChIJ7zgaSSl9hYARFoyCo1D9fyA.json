@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:23Z",
+  "fetched_at": "2026-05-03T07:06:56Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Shambhala Booksellers",
+  "name": "Sleepy Cat Books",
   "place_id": "ChIJ7zgaSSl9hYARFoyCo1D9fyA",
   "result": {
-    "formatted_address": "2482 Telegraph Ave, Berkeley, CA",
+    "address_components": [
+      {
+        "long_name": "2509",
+        "short_name": "2509",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Telegraph Avenue",
+        "short_name": "Telegraph Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southside",
+        "short_name": "Southside",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Berkeley",
+        "short_name": "Berkeley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94704",
+        "short_name": "94704",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2509 Telegraph Ave, Berkeley, CA 94704, USA",
     "formatted_phone_number": "(925) 258-9076",
     "geometry": {
       "location": {
-        "lat": 37.8653562,
-        "lng": -122.2587269
+        "lat": 37.864909,
+        "lng": -122.2582885
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.86625323029151,
+          "lng": -122.2570326697085
+        },
+        "southwest": {
+          "lat": 37.86355526970851,
+          "lng": -122.2597306302915
+        }
       }
     },
-    "name": "Shambhala Booksellers",
+    "name": "Sleepy Cat Books",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 20:00",
-        "Tuesday: 12:00 \u2013 20:00",
-        "Wednesday: 12:00 \u2013 20:00",
-        "Thursday: 12:00 \u2013 20:00",
-        "Friday: 12:00 \u2013 20:00",
-        "Saturday: 12:00 \u2013 20:00",
-        "Sunday: 12:00 \u2013 20:00"
+        "Monday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20098:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109700652138156034390\">C</a>"
+        ],
+        "photo_reference": "Ab43m-tSuITg7QNSOoA3BLYCxEYxK12W6FvANn15jZj74rhsAzBkq3AkyvMIS3-2wGIoTc2LwrgQCnH9im6Vl1W0synUNAB5FbNCZ0idYTThdduEVUvBrbYypCkpe3hgkIBecm9lEbxt8eW6G6fSmypQs5Zf6MBqOZ_FBu23_mNHY6PK8ntQSFdQm4X9czZjHrQOcoDEBoEOV5b9bUu61oMClgest06We47-W4gz9zRMxQYwGf6MqvTn6ncp_7oahyDRvYaZv3hCjCkPmr6M1BvScENuE5YGklm5Mx_2oexIc46-ZoOdlW8Zt5EPdlKD3LySrGCCxX98dKqYvyvWGo8ipWD7y8gWTF3hUTMXRQSxi-vrV7vObufmMBEo1J8HYx3LiQhQgyXVDokrrCovLU73fr1SQnaedq9EkDgJzGaDaYXz_g",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102938448893918925570\">Sleepy Cat Books</a>"
+        ],
+        "photo_reference": "Ab43m-sNGVKru_uXqcTyE0YbYu3dxyXpzRna1CfynfW1AniiOnq05G0Atf9M6kLiP0nVJQE0rz39a2ztWoEcBp1cIbOBu6bC7bW3-GysF8yGXzLUKFZ1iFUHX9JJEtmgqACyS5_hExyb-_h32S1LyKwXfF9KtKeQ6qXglZKK04yP60_6ylTfn2-CEqBR8JEc1FY52fZNDnNVGLJDIbL0D5A6yGXM7PN5Cjk-16fOG2zxGArAdjLpUY0j3SB-7EF1ebk57zFHch63B7HY37xGca8xl3MhDvSxb-2fiTpfTL6EnNzYvw",
+        "width": 2048
+      },
+      {
+        "height": 3900,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105821507213099689675\">Amber Jay</a>"
+        ],
+        "photo_reference": "Ab43m-vaDL8PJbc3XaD2tOb7vr5qRub8I_TtEpWo9AYjrJ5nXFfdXBaJgWVMIw7p68DCj3kAzKmBQeMd5Gel5hyv_ebVE1S0EfyBbnQcJxziADABP1-Y29cD8iWdBKWASSLpj7m_muhfvPRQo9oNwC-5Km9sEQ8kIOb6XxbBMJAakViWdnk8wyIM0itNiToj9gy1rzhaz8nHKZbY8NQRxHqXjRIac8qb-ntl3Ae7EgyNW6SgBiFmCeY5CMaQGWzAYfnbqXRQ88uRVg0dP7C7DKCKSAfLmybDHn1ty18o-DC9ApHn_CvoxzCHZAWWx7algTBkHqhgm_bVj3_HMLGUabp6NMbyuGXKgPRoLRLsjuu0F_egfa-Bv3jjIX7oaWoSkV9dWPAGg0pZiaWzTiIUSxfJ8AFhjtA0X6m0e4SWxRRSijuK_8sK",
+        "width": 3120
+      },
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107891405118552070749\">Dicky Wahyudi</a>"
+        ],
+        "photo_reference": "Ab43m-uEyQzO1DY1awD6dM03-IYNQvZ8F0tOD4lPNPN1Tn8bn8gCnJUbLUa-xhVY6clPfxfPqACnY30rHQzgiv5HFwuFIhuLFpnx4MsZ503Fl1BvuJJK2HdpSqmzpAwCU9g1warc9FTjJI1TaR_sdtWd_VfYDjXVrs8CoxcXz4gf-8k8kZt37paRTaFeJBqI9FX1F6nMLjorkznnhLjRQVYvZq71nY0f3ww8motqUhsL5_w3srCfSH9R_DIckOIP9xjq2VAo0bj5sUe57NR55SiM8guwhpAhCzieSbHXjXdEY3534zx81D-BB5Ak_9uHcXbwhPoMz2g72mJ6gDBkVSN2thzhcEMmKNDxsM-88NzYR8-Il5uSsYEuqGbMA5xFGuVT1AmnQopEtoXHeDFm2wnOu2ymUievmxMKt6mq4SDY6Gk",
+        "width": 600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100014005451177133138\">Marium Sultan</a>"
+        ],
+        "photo_reference": "Ab43m-vMr56tKRrGcKFy9ryecwXRlIXLcq4QssmpL1hmVItdXuS5zToHJ9Ju-rLqDfrRcoryQMrrovh61z0NYiv9UdZirh4QXpyvXwfiBeCqznawPX_cEw2d0I04biaxV3WJGVeKKSiIXBgqCFYyI1PJTqkMrQ3n9LhpkQn2N81WwdJOjmaDKd9_N1tn7ve2qH20zNA-JyYg49b74fETK71tJneSL_1VS5JqcFkRcXwovg0b-FalbP8wRQR2NPo5d7_xZlQGHoFNkt0NqOHPuMm4VCV5dX9_Iupf64ggNoRSUvbPssHexAMeOX9SBBdcdFS-QANRabhiMq6LrfGBxNSKjAqFEwO6J5tLPDQ2oEvtJ4oG8Wk6M4fI0dYUlmS9q7kERWyiokXkFOxAWIbzPsgajfwqzhF0M-im3BbCKYvXrhY",
+        "width": 3024
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111494736805659249271\">Abishek Gyawali</a>"
+        ],
+        "photo_reference": "Ab43m-vDxd8oV3e56VeKEPtfYKMszrxnru95Q4K1nqsfTq9iZ3KxgzLNGvdyPrzlGiBbrQ0_kFrwbGy87w27AxUD7lf-MwCZDf4kVJrH5XcXNHW5EGCMb0mcmXkktwJgMEtPDSVwp128oOhB455NDAK4twIDUH5-aLNeqQjRX4Ip6WtRp3Cex7FNEmi94q1l4SaZ8WjhG5PHNjwJgjTwf9uKYZO-HMC4xVn41a6FCkmeoqakXlmj6xp7g8HQ9g-Lwpt_7axYcyo8rx3jLcnYR75QtR7R67CUFgxyMsRmXEp45gm13Jg6yp7AzniZKi4xNkBdap9tJadSuE8MDdGFDoK3dz2Er9AhDGLwfYF43jzJZpRuP0HKp4wB9abmoHYdhnQVzzPWaa44HqqZ6OARPWkLoNCMMWXXmo6HRd2WEFB_p53xJVVK",
+        "width": 2322
+      },
+      {
+        "height": 750,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100084848090160527504\">Weasle Forsythe</a>"
+        ],
+        "photo_reference": "Ab43m-uEVax9_VJy7gRz4rhPEt7phA6WX4nzK7NfS6_NFsRHYwABU3Oe7qNFh9NWcuxSQehN4wpbUVapD7HCYns9dNfjJxBr1aMTtqvfovTWpabQF-AZh3Cynm0HN2hYCN6P304riP2XDMjPKg5mq8xLVgpsdJnWU4VY3b6sWWFFo2TdolygJ1TanN7umi4iTXbraq6CMYBxsH17cBYjTguqeQsn9l8Ai7WtEqpk-cIx_7tGC7kvYShROGXb1M004s_WR5V8nOF4UkwjXBcp1UgWJ3GCcVf54MiC4LraGuU9gcKPWBBXGMcq_aPEXgLM7rVWDk3Yf_v7rnDOFqxgQTvD_1Vt9Hq39jTyhvHOBTd-xLOqSpdrdiKjXZTRSCAbpzRN6wZ4yl3-7jgtle1onQt0FuqhmWXWy3340Kkhz6SKlnwha3tI",
+        "width": 422
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100014005451177133138\">Marium Sultan</a>"
+        ],
+        "photo_reference": "Ab43m-vpkiBJupryvjD8zNxQp4qi93yE6sq0jXAKIeOWpm-5fF2FpX5MPX4Tv50bDtrMebNYuiO686Mfbn526fUXcwBe3JMLyqHV0cPAu4WKlY5waQspXp4W0q5KmR2YWnogrYU_LMETsAfVYiWN_2TVhO8u7QyNwkj1cz04zPJyiqvZSp-ERaGp0OEiuYjRJpcnYBEo7aRTgvV-iapIn5AMJIQetSCP_K741kJgkZEEuUhiqjndCMcN8jRal1nvQBUBtiesenylv3koi4WVFztTa9UvjLqQlRHZiNkcHDmO6PK_hRAbTK02EYrEloFJYjo-4PnlzKXE9V2_lDktBVYnUIyNZNNwFCL1PKvK586GQH5RVLvI-wiGpj4tFuP6qqeD4xUYvxfRzO6qM4xPlUp6DWJt008yC2BCMwEpZ6Mpc_pGf3U",
+        "width": 3024
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111494736805659249271\">Abishek Gyawali</a>"
+        ],
+        "photo_reference": "Ab43m-vwci3dFVI7w8JlVYH6QNVMFvB5W3FlROAcVYZXi6t9rsS3xEUXmDQoPA0Sg05KpDHH0TYYpp3K43kUcr9XHbQWinITgPQ30PynnCqHd8KRxer3GujVhMsOPfvyXowoyW6OtfcZ3QxJZwjGjHsdGBqVsEprqVIa0Fry3s-soDzhKfroK7sE9hrf2DlHEp1gEyTZ1N3wZSJLWQ8hlOoqCj9HEUrit3oj_TQ_yUENMmrEXNbuSdZdmH216-6hDofG2Mn7vwaVEshBrwf41GBpEnOBppBHhz6EqLPQp42Gl2EmbIPYyTUQilxNnvcrczooCVa522LetTII6Y8MmKCRci2JpX6fkD0DiGXqpAvR92gGirwoQeo3nVHS0EvuMjv88zM7ThBP_Az_AdDiUAz40omNkfjvQg4ABlhzOwcykxaGTcYV",
+        "width": 2322
+      },
+      {
+        "height": 2119,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-tSZC97cwxDkHRJ5TB-uYUklXtR2CROkbZyvmcJXhcHmjEHTDaU00TP3V2mdHpzYJsxzgn_J5IhsTcIt-RT121Dl2DLBa6rhf-pg-z_E8I0CUgCy1He4Aal_oPZaSEoSlOU8HinD9U9RIVki5JPgbJJhpxDN_ha_UEywc1pnvnvgw9dM6c7EENwHTOJvCuPDGFjp8oDy7pc7K2ff9zcniix9zR2kNwLgI0jOZ2euYg3-0XvVIFC1bNIBJNdpJaxKoRYfjRwWAe7TJET5Fq9zbfW0P67IGOLfANckZA1E24toaKGSYoUUk6dyFSbG89zNfT-CxEA69pBg4Qy7NWBN3y37dgj0ROpONUERcA0Yc6d5ftP9qz8wvcAOt56oPwiylUQIAfOrzBWkLjixytJgQ5FBgbCdHD4ePgNTngpZhA",
+        "width": 1684
+      }
+    ],
     "place_id": "ChIJ7zgaSSl9hYARFoyCo1D9fyA",
+    "types": [
+      "book_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2341868854038400022",
+    "vicinity": "2509 Telegraph Ave, Berkeley",
     "website": "http://bookshop.org/shop/sleepycatbooks"
   }
 }
