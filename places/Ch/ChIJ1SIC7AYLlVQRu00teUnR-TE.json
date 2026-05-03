@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:48Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Briar Patch Herbs",
+  "place_id": "ChIJ1SIC7AYLlVQRu00teUnR-TE",
+  "result": {
+    "formatted_address": "4480 Southwest Garden Home Road, Portland, OR",
+    "formatted_phone_number": "(503) 288-0000",
+    "geometry": {
+      "location": {
+        "lat": 45.4655233,
+        "lng": -122.7227747
+      }
+    },
+    "name": "Briar Patch Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 17:00",
+        "Saturday: 12:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ1SIC7AYLlVQRu00teUnR-TE",
+    "website": "https://briarpatchherbs.com/"
+  }
+}
