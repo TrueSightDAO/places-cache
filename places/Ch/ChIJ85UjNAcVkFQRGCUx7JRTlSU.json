@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:09Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Peace Love and Happiness Club",
+  "place_id": "ChIJ85UjNAcVkFQRGCUx7JRTlSU",
+  "result": {
+    "formatted_address": "507 North 36th Street, Seattle, WA",
+    "formatted_phone_number": "(206) 402-6578",
+    "geometry": {
+      "location": {
+        "lat": 47.6515383,
+        "lng": -122.3519607
+      }
+    },
+    "name": "Peace Love and Happiness Club",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ85UjNAcVkFQRGCUx7JRTlSU",
+    "website": "http://peaceloveandhappiness.club/"
+  }
+}
