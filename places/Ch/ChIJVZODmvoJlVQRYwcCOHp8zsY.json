@@ -1,0 +1,26 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Legacy Good Samaritan Medical Office Building 2",
+  "place_id": "ChIJVZODmvoJlVQRYwcCOHp8zsY",
+  "result": {
+    "formatted_address": "1015 Northwest 22nd Avenue, Portland, OR",
+    "formatted_phone_number": "(503) 413-7711",
+    "geometry": {
+      "location": {
+        "lat": 45.5304874,
+        "lng": -122.6968548
+      }
+    },
+    "name": "Legacy Good Samaritan Medical Office Building 2",
+    "place_id": "ChIJVZODmvoJlVQRYwcCOHp8zsY"
+  }
+}
