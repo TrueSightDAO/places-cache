@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:17Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Song Birds Centre",
+  "place_id": "ChIJf8qD14hKhIARVog0j4b3Ipo",
+  "result": {
+    "formatted_address": "8297 Old Redwood Highway, Cotati, CA",
+    "formatted_phone_number": "6446 0318",
+    "geometry": {
+      "location": {
+        "lat": 38.3247203,
+        "lng": -122.7050483
+      }
+    },
+    "name": "Song Birds Centre",
+    "place_id": "ChIJf8qD14hKhIARVog0j4b3Ipo",
+    "website": "https://stonesthrowgifts.com/contact/?sfw=pass1763423690"
+  }
+}
