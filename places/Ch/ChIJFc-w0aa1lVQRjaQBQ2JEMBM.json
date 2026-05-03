@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "BG HEALING ARTS APOTHECARY ON MAIN ST",
+  "place_id": "ChIJFc-w0aa1lVQRjaQBQ2JEMBM",
+  "result": {
+    "formatted_address": "408 East Main Street, Battle Ground, WA",
+    "formatted_phone_number": "(360) 687-4492",
+    "geometry": {
+      "location": {
+        "lat": 45.7811512,
+        "lng": -122.5326144
+      }
+    },
+    "name": "BG HEALING ARTS APOTHECARY ON MAIN ST",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJFc-w0aa1lVQRjaQBQ2JEMBM",
+    "website": "https://battlegroundhealingarts.com/"
+  }
+}
