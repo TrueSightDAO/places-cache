@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:37Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Flat Earth Herbs",
+  "place_id": "ChIJdfvWPQVfwFQR_IwCMpiARhM",
+  "result": {
+    "formatted_address": "240 North Main Street, Brownsville, OR",
+    "geometry": {
+      "location": {
+        "lat": 44.3931619,
+        "lng": -122.9842734
+      }
+    },
+    "name": "Flat Earth Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJdfvWPQVfwFQR_IwCMpiARhM",
+    "website": "https://flatearthherbs.com/"
+  }
+}
