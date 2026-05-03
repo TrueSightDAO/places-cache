@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-05-03T05:37:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "name": "The Love of Ganesha",
+  "place_id": "ChIJu9xT9ayAhYARmBLcnQNOYBo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1573",
+        "short_name": "1573",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Haight Street",
+        "short_name": "Haight St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Haight-Ashbury",
+        "short_name": "Haight-Ashbury",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94117",
+        "short_name": "94117",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1573 Haight St, San Francisco, CA 94117, USA",
+    "formatted_phone_number": "(415) 863-0999",
+    "geometry": {
+      "location": {
+        "lat": 37.7696437,
+        "lng": -122.4480785
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7711062302915,
+          "lng": -122.4467591697085
+        },
+        "southwest": {
+          "lat": 37.76840826970851,
+          "lng": -122.4494571302915
+        }
+      }
+    },
+    "name": "The Love of Ganesha",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109849026903893201606\">Jayasimha Nuggehalli</a>"
+        ],
+        "photo_reference": "Ab43m-u0XDOAx4HUqrXdmyZKyCGPWb9UCkwo7fSZ3yfaZPtprJmVZsCEB1LOQHbUulAv1-QBiQbBhaShAum_nRHA3itVlkt6UV1gFktAXIDBYpwrofrybm8LRfVWaDXfRptgfLjprA1ZW2GWmhHeD7i85fi7xZm7EQAt9jl9RdsEbGEg25b8_ckpqdZxZXM8fTz4yQ9eJPtXDehQqvozmBwd0jwO8FYzIr0UC0EJ9QPw18hx_GkZCGgdBg3zydJJrnmmmStGytlXyKHheSgIOVGaVCg_QR6Km3egVdQrALRDYeLZZa0Dnxb_WDmPVR9DUXuBmuIOqTxpHlAwBrf4xI7oy82bwHZwfnz6p-vRlJEv7jD0QOU_uJtaVDhhdaTk7PnuWzxAzpumbr6a_dmydVfIRfSyGcAO9vsDA4Uz1FI_S0La_Q",
+        "width": 4032
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112623798809229570692\">Sanskruti Kolpe</a>"
+        ],
+        "photo_reference": "Ab43m-uFX42aUFh2XygKfd0HBAQgZlJbz5Z81Q1ICfin5Ud47gXcswTrQ8gBDVhfVNnt2hlCH58BFGpDE9GWNPWph40MAjGk2CeUt2pG6qsTjAeAjhjRVHLDFrWizrNgtiCYl-_lhHkCciilp10xB2z8by62d-81YBcCJ09c1QwC99GzfQyhR6CbgW73-nUWgxxFFKY00mrzIChzLICfnzhe0XjTDdE5ZmBgA-wp9WM6LHlgc0Nwoae-09iwCh9FIpFfaG50HtyTK-oepPixLVSoJMU7DfGDv6qOYwvXwwtrB8Fc5RD83OuiGU1IAIJuoPVWf9cDBDKHjKLYHQ5H-8aMR3PboGbXCyl7wm-OsleCVACion9pNcKqRdvKKVHCuTEGgOCjjgMjZEAgRH3ModO4e-zya9VDRFFlHul3llKQgxTfcTk",
+        "width": 4608
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109104376459159593308\">Moksha Rao</a>"
+        ],
+        "photo_reference": "Ab43m-u_mY-KSDQc_PQ7IRN5aOtdb5uQ0AGSpvbcNCw-JyQvrnsNCYQLYm6FmKWJ6B4gL-oIJLntTi1xxRN28SY1Q6n1Bedvu8vh2sPS_tq5UrEA_Kbv4OxZcR_iReqK_1Kj4GA2HuDvQlVSfLbpGJkDQD2Wtiqzl2jaoctD-FELsuwO_skkfDSlbWKx_ds93M64Ci1jkKcHRq_VgETvFqLUmDsoZ1h_5Lq-N9Y1aWQ8PB0D-iW2_LnFz265cg9b1a4A89Yb_aHNqnpPJhx_LoinFPPCKaImEOAtOwAapnUAOBotDcP0d0R45uDHkCtNp5Vnkpa6RQCMx4ksPcWt_QtACjR2IMFjC-MPAJpIxndDybTWlBtHEdBFZBssfiqobZpGvzm9SQWQ5rC3JbaZQW1YggEilg1ywzEuxOc3ptJnUsxmdQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116220942770929227761\">Vivien Hudec</a>"
+        ],
+        "photo_reference": "Ab43m-uUPkdWG86072mflyD9lBVAdy2zPXdlx5Ctn1HJWeiauW_bvey38LEwtkY0YD0VVUZIAVrziPPGvOFbzCE8Qc0eWki-p2rVztUTmMhwEC6xwzkAPRuO80dOYF6xXB9KEdmYwDmEfBGyi5nRnXrDCsQNI9Fx9LV1lM_oC3s2DYDy-mho-d7ZqVdiBLgwBD_r9C5JTQLoO6jBqP5tabSjIcceCcif2r2-g1B_rSkMmPg3JM4S12lGouc-h4MO-BcFB6ZaZub3Kk0yuUDSykaQUgXP_0aCgJZCv6nc561IdSuPAqMfqFPtnfaQp8p9gwc6o_kdwcLNMe-0ivBBNiZsn6KzRIxgH0UhQPrCP6mB1-HzsBLELxFdCDpK_RM3dfFbswp976Qbau39Nl0yn9vSBrPgnr4So6LPZhW9fgOiqQ1raE5-",
+        "width": 3024
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114583591961826001565\">Mario Franklin</a>"
+        ],
+        "photo_reference": "Ab43m-sGELLJf--LbxBk84AgqY0w_994QXIFn1LKTPYQsSmMWGseUEBgNX4Phf9g-aPbXZu-9keC1aWS7ryS_UsLne4RN2rsju9Cy0nX94uiFyb3pDUcpqc26nuElI3Mgkj8aHhHajuosXKd_K7XTrvujdt1mWV4BQL9OuBQ56-Q-GkOn2wI-un7ydx7BhvWZFUuI8B4wbvoBtQSxZ4BLCGOH0WoXOKDTpq1MHULPmyFLojJAnIIAUas6CbySggfJPCuFmhqw797FqcpOyY03EW9kaQ7K3oQNjuBBYhnjfCzB3R7GUECpbtWkY3095lUCbVaEXj0Cz9U8Y1U6X4Nv7KcYwJnjEtZOTYV6d6H3iy8BsrVMmzPPE6AAN5BCVMuFcjqEvRnRR1TdIaxdI4fj1r1luGx2lrZXmopCq5Y5HvHKKE90Q",
+        "width": 4000
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102600780326153277184\">Nathalie Defrenne</a>"
+        ],
+        "photo_reference": "Ab43m-syE2hr9jA8xXuhDp-MRwKuEK-ZbOqnSUhWBCsy7TusmxgADpBD626oC2iVMm-KCQAk98kXp8A9t3oNusH_WADsXbtocDt4VURvCxLAMzPXy_UbfXa-sfEiEM_ZBacB_Hyd1jOagEORTaqqvosDxnQSd_haNjhoFtS1AXiKsVtni7875tS9jxcjOpn0dtqkqqL49yh4VYqLFvdOMUqKtBZiGc2YMDEa-Hd8ulijPFqLm66nYuTMZW7qThEFtpqwPMF-p-Q50anMWiDYgNUltYdKMjnUBloqcsIrEhgTDF9PhlSYEF1LWAJh1N05Io_DnwgTCT0oL5ZRNkCa5aPgwjDAuIzGO4y027nP_3DKcKRscsIA-a6KOy_-2Ntq158oswTguqzHw07oJaQjdUpFH-5BX517n_m6uyr2FDb_X-bb8ss",
+        "width": 3264
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118325311069966778770\">Jade Jiradit T</a>"
+        ],
+        "photo_reference": "Ab43m-voJw4-fC9pzXOHJ13dO0Zij4w8wYzosufk5v0iK57YG3ECGZtkppYgu32cM8AMQhRFt_ZFaqXdmTWYgoYGdGerJKgbuzxYrSHlKaZDfiUx_UcWa9RpN3zkD_csq3sta8S9k-NRqs9q1b8DuHvI7akOQ2gPVxKaE_uwgrVhG-fecMF9esckmRQ9ay9iWv-6542IdZghm7ny-INPPm4ptdBw8hvcnaa2QRMJAm6xCh5P5pk13QxyjTODU4Y2ACYhTFPnyXKz-a-cTG9XXqwCzV5m8G0s4nKJPBAPCxzecc7cqshpaoZ4tTFUVmD9k34EnH7nDBIhHJqW_4T2XpdFJaIosl5_gEEU9y-BcDzFy5eMeSsCmWft0JX21sFVYEWkgLB10f7aBfs1u1iTska-KyF-msaPp0nYomhHD53rFeP41g",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115688061335889486404\">Giorgio Davanzo</a>"
+        ],
+        "photo_reference": "Ab43m-tXH_iYGxKZ-QpcNzhinqJgJnmbF8rmeCqU1tt4VSIVlxSJEBEifMtb_8hPaJGwP_n3AwPsHJT0W__EJ-ZfJ94waPp8MDEBRQmyUEO6UZjmNT0cxvkQOj-UNArCH0NCOe-xwVXsNApDrAlXKoA7I7L_Bsd5AJcmgL-9W1MTbYtwjNRTsgxiECzd8SJWJAHT0SLgg1TGk5iT099YNKbeYKslE1Se-1YRNzLqfa6iHj-M_D3u8ykBU1Xh87WW3b7S60ZwF9SOKu1bTE9UGa2ijpRe_wHadCR6owuWihCkoa3m5eNBVGU12jYID_5Mo4g5Bt42Lf7M2skr9b_qxJHsWhA13xVccJP2cwNar-4sa_hcGR_AP19T-Clb-W2O7ZFcpc6jrIAn34oL890_zzPrVq8Z6d93U2oplYiCjsivljQJyQ",
+        "width": 4000
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114583591961826001565\">Mario Franklin</a>"
+        ],
+        "photo_reference": "Ab43m-u8l4z-uO2WYjCV9gXHLJ-fH7V8IrMHtJHxMkt5Ef2wYx1_IESJfcE0hkWJ13ZL-z0AcPJq9gykm6WzmZ3LeiCzf4uIMYykykz4jQIhzqxDpzT-_1vhVLIyRNtVUycYtoSxjmj6h1iyKrv2HTBpeUPeXx116dKJbfVBar8IwBnkaIpNBLF2AS9VzemVaaUN8O6FeHWS-xuw1YtnLbhl0xm-P3dwmzeAdBMq1bNEYU_Nryh2hmrQI6uuRxHL-PYpdlQ8bLYvYJPyD3Q-Z6jHZC2XNzMzrGJ1mBrbIQ2-YZgHasnyD0-oMFkEc_pK1i1SITe7aj-0MFDO08rO5eZQVHYhKBWJvC1T0DvGwm6H-kGPxRwvHgfJ3RBBEROAgBIKKGrgD0HtrLb9tmYAlo6WWPaGpYj1cCdtAt9lNOumGdt_YA",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115636812841199983521\">Rudy C</a>"
+        ],
+        "photo_reference": "Ab43m-s0kxME7ltyT_mVhHrILpMznlHI159tKSFSCPrP5vO11OgQnCd_7m0_kEZPujo19bj1CFgOO9Z_3NYgdNXfINbnB-lPb5_2rusXE8HCgy_qyyZKgo-_Y0PkEX0GOPhMTANjyFJiMWJoQu9bgcgcHK35h5CIoDYaCZee_qQ6la-ZikHPxl3mBhfYF9VrEBRV7DrtBbG3d6U2if6uQM_6ufayzcTEFrhjhXOsmnojJqJ9UACkztJj94ZVvEz4Nwbg6-Izw8x6UAXqcCuKoWJnEcBMJievZqzUu50fNLZrzjRkhujQBFhFgy83qfqAW5Jt7gE0Da2fVbkx0m4P_oL_jah0zaE8IjpSe8xZIpVYLeodPDj9kVqWhj4QHzRAW1i5gWZpnew50enPg0JFZuJIxPFt0sR_p7-IEqmeEUEPJ3JwEPo",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJu9xT9ayAhYARmBLcnQNOYBo",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1900604820190663320",
+    "vicinity": "1573 Haight St, San Francisco",
+    "website": "https://www.facebook.com/loveofganesha/"
+  }
+}
