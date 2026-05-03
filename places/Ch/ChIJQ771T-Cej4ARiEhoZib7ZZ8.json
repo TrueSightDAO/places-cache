@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:47Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Edmodo",
+  "place_id": "ChIJQ771T-Cej4ARiEhoZib7ZZ8",
+  "result": {
+    "formatted_address": "777 Mariners Island Boulevard, San Mateo, CA",
+    "formatted_phone_number": "(650) 513-2735",
+    "geometry": {
+      "location": {
+        "lat": 37.74087731,
+        "lng": -122.5068727
+      }
+    },
+    "name": "Edmodo",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 18:00",
+        "Tuesday: 8:30 \u2013 18:00",
+        "Wednesday: 8:30 \u2013 18:00",
+        "Thursday: 8:30 \u2013 18:00",
+        "Friday: 8:30 \u2013 18:00",
+        "Saturday: 0:00 \u2013 0:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJQ771T-Cej4ARiEhoZib7ZZ8"
+  }
+}
