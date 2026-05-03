@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "General Store Paso Robles",
+  "place_id": "ChIJ7ayLBGjF7IARfDcthkuA6ag",
+  "result": {
+    "formatted_address": "841 12th Street, Paso Robles, CA",
+    "formatted_phone_number": "(805) 226-5757",
+    "geometry": {
+      "location": {
+        "lat": 35.6269328,
+        "lng": -120.6892022
+      }
+    },
+    "name": "General Store Paso Robles",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJ7ayLBGjF7IARfDcthkuA6ag",
+    "website": "http://www.generalstorepr.com/"
+  }
+}
