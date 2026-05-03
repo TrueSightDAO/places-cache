@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Butter sugar coffee/Ravens society",
+  "place_id": "ChIJ92pj1E0FwFQRPy0z3oaCk3g",
+  "result": {
+    "formatted_address": "319 South 10th Street, Independence, OR",
+    "formatted_phone_number": "(503) 837-0933",
+    "geometry": {
+      "location": {
+        "lat": 44.8508677,
+        "lng": -123.1977832
+      }
+    },
+    "name": "Butter sugar coffee/Ravens society",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 16:00",
+        "Tuesday: Closed",
+        "Wednesday: 7:00 \u2013 16:00",
+        "Thursday: 7:00 \u2013 16:00",
+        "Friday: 7:00 \u2013 16:00",
+        "Saturday: 7:00 \u2013 14:00",
+        "Sunday: 7:00 \u2013 14:00"
+      ]
+    },
+    "place_id": "ChIJ92pj1E0FwFQRPy0z3oaCk3g"
+  }
+}
