@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Apothi-Crow",
+  "place_id": "ChIJJ0E9YY57xVQRWCmNsVHu6uI",
+  "result": {
+    "formatted_address": "131 Southwest G Street, Grants Pass, OR",
+    "formatted_phone_number": "(541) 441-7160",
+    "geometry": {
+      "location": {
+        "lat": 42.4389534,
+        "lng": -123.3279792
+      }
+    },
+    "name": "Apothi-Crow",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJJ0E9YY57xVQRWCmNsVHu6uI",
+    "website": "https://www.apothi-crow.com/"
+  }
+}
