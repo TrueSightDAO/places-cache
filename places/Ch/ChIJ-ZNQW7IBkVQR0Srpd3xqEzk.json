@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Blackbirdspiritual",
+  "place_id": "ChIJ-ZNQW7IBkVQR0Srpd3xqEzk",
+  "result": {
+    "formatted_address": "5243 S Tacoma Way Suite C, Tacoma, WA 98409, United States, Tacoma, WA",
+    "formatted_phone_number": "(253) 407-4616",
+    "geometry": {
+      "location": {
+        "lat": 47.2081899,
+        "lng": -122.4833131
+      }
+    },
+    "name": "Blackbirdspiritual",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ-ZNQW7IBkVQR0Srpd3xqEzk",
+    "website": "https://www.blackbirdspiritual.com/"
+  }
+}
