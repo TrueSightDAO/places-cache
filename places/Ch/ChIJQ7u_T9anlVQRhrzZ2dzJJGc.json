@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:41Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Casa de Ritual",
+  "place_id": "ChIJQ7u_T9anlVQRhrzZ2dzJJGc",
+  "result": {
+    "formatted_address": "1412 Northeast Alberta Street, Portland, OR",
+    "formatted_phone_number": "(503) 444-7608",
+    "geometry": {
+      "location": {
+        "lat": 45.5589675,
+        "lng": -122.6513115
+      }
+    },
+    "name": "Casa de Ritual",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJQ7u_T9anlVQRhrzZ2dzJJGc",
+    "website": "http://www.casaderitual.com/"
+  }
+}
