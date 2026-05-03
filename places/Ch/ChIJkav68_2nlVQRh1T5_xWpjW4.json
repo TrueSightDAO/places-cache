@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:51Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Psychic Sister",
+  "place_id": "ChIJkav68_2nlVQRh1T5_xWpjW4",
+  "result": {
+    "formatted_address": "1829 Northeast Alberta Street, Portland, OR",
+    "formatted_phone_number": "(971) 420-2962",
+    "geometry": {
+      "location": {
+        "lat": 45.5592607,
+        "lng": -122.6459216
+      }
+    },
+    "name": "Psychic Sister",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 18:00",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJkav68_2nlVQRh1T5_xWpjW4",
+    "website": "http://www.psychic-sister.com/"
+  }
+}
