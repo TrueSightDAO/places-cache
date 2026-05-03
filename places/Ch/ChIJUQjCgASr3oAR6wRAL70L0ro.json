@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:54Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Point Loma Tea",
+  "place_id": "ChIJUQjCgASr3oAR6wRAL70L0ro",
+  "result": {
+    "formatted_address": "2770 Historic Decatur Road, San Diego, CA",
+    "formatted_phone_number": "(619) 523-2070",
+    "geometry": {
+      "location": {
+        "lat": 32.739882,
+        "lng": -117.211834
+      }
+    },
+    "name": "Point Loma Tea",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 11:00 \u2013 19:00",
+        "Sunday: 11:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJUQjCgASr3oAR6wRAL70L0ro",
+    "website": "https://pointlomatea.com/"
+  }
+}
