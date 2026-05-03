@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:17Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ase Illuminations Herbal Apothecary",
+  "place_id": "ChIJ2TZNZgAxw4AR9aVqMLRdqHU",
+  "result": {
+    "formatted_address": "532 West 1st Street, Claremont, CA",
+    "geometry": {
+      "location": {
+        "lat": 34.0942871,
+        "lng": -117.7211782
+      }
+    },
+    "name": "Ase Illuminations Herbal Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 10:00 \u2013 20:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ2TZNZgAxw4AR9aVqMLRdqHU",
+    "website": "http://aseilluminations.com/"
+  }
+}
