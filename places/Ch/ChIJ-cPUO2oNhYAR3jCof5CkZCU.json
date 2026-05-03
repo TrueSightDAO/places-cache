@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Suds and Buds Apothecary, LLC",
+  "place_id": "ChIJ-cPUO2oNhYAR3jCof5CkZCU",
+  "result": {
+    "formatted_address": "296 Rock River Drive, Vallejo, CA",
+    "formatted_phone_number": "(707) 294-5276",
+    "geometry": {
+      "location": {
+        "lat": 38.1546869,
+        "lng": -122.2418559
+      }
+    },
+    "name": "Suds and Buds Apothecary, LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ-cPUO2oNhYAR3jCof5CkZCU",
+    "website": "http://sudsandbudsapothecary.com/"
+  }
+}
