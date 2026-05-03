@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Erewhon",
+  "place_id": "ChIJ69f2ZsMg6IARj1DbbQaT4LY",
+  "result": {
+    "formatted_address": "26767 Agoura Road, Calabasas, CA",
+    "formatted_phone_number": "(818) 857-3366",
+    "geometry": {
+      "location": {
+        "lat": 34.1410163,
+        "lng": -118.7072413
+      }
+    },
+    "name": "Erewhon",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 21:00",
+        "Tuesday: 7:00 \u2013 21:00",
+        "Wednesday: 7:00 \u2013 21:00",
+        "Thursday: 7:00 \u2013 21:00",
+        "Friday: 7:00 \u2013 21:00",
+        "Saturday: 7:00 \u2013 21:00",
+        "Sunday: 8:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJ69f2ZsMg6IARj1DbbQaT4LY",
+    "website": "https://www.erewhonmarket.com/"
+  }
+}
