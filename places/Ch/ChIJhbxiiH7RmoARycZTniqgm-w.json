@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Plants and Provisions",
+  "place_id": "ChIJhbxiiH7RmoARycZTniqgm-w",
+  "result": {
+    "formatted_address": "3400 Broadway, Sacramento, CA",
+    "geometry": {
+      "location": {
+        "lat": 38.5523034,
+        "lng": -121.4694764
+      }
+    },
+    "name": "Plants and Provisions",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 14:00 \u2013 17:00",
+        "Friday: 14:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJhbxiiH7RmoARycZTniqgm-w",
+    "website": "https://www.plantsandprovisions.com/"
+  }
+}
