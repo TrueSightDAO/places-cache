@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Zodiac Juiceology & Apothecary",
+  "place_id": "ChIJlfLnrkQow4ARwSttSzLPi94",
+  "result": {
+    "formatted_address": "239 North Citrus Avenue, Covina, CA",
+    "formatted_phone_number": "(626) 915-3355",
+    "geometry": {
+      "location": {
+        "lat": 34.0882984,
+        "lng": -117.890446
+      }
+    },
+    "name": "Zodiac Juiceology & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 20:00",
+        "Tuesday: 7:00 \u2013 20:00",
+        "Wednesday: 7:00 \u2013 20:00",
+        "Thursday: 7:00 \u2013 20:00",
+        "Friday: 7:00 \u2013 20:00",
+        "Saturday: 7:00 \u2013 20:00",
+        "Sunday: 7:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJlfLnrkQow4ARwSttSzLPi94",
+    "website": "http://zodiacfresh.com/"
+  }
+}
