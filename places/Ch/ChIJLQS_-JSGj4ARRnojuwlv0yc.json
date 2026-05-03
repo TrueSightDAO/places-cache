@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:21Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Alameda Natural Grocery",
+  "place_id": "ChIJLQS_-JSGj4ARRnojuwlv0yc",
+  "result": {
+    "formatted_address": "1650 Park St, Alameda, CA",
+    "formatted_phone_number": "(510) 865-1500",
+    "geometry": {
+      "location": {
+        "lat": 37.7677188,
+        "lng": -122.2394615
+      }
+    },
+    "name": "Alameda Natural Grocery",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 20:00",
+        "Tuesday: 8:00 \u2013 20:00",
+        "Wednesday: 8:00 \u2013 20:00",
+        "Thursday: 8:00 \u2013 20:00",
+        "Friday: 8:00 \u2013 20:00",
+        "Saturday: 8:00 \u2013 20:00",
+        "Sunday: 8:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJLQS_-JSGj4ARRnojuwlv0yc",
+    "website": "https://alamedanaturalgrocery.com/"
+  }
+}
