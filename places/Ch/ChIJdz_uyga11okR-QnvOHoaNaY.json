@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:11Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Abundance Food Co-op",
+  "place_id": "ChIJdz_uyga11okR-QnvOHoaNaY",
+  "result": {
+    "formatted_address": "571 South Avenue, Rochester, NY",
+    "formatted_phone_number": "(585) 454-2667",
+    "geometry": {
+      "location": {
+        "lat": 43.1442814,
+        "lng": -77.6053092
+      }
+    },
+    "name": "Abundance Food Co-op",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: 8:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJdz_uyga11okR-QnvOHoaNaY",
+    "website": "https://shop.abundance.coop/"
+  }
+}
