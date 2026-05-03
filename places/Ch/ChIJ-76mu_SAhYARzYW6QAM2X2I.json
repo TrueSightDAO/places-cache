@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Wan Hua Co",
+  "place_id": "ChIJ-76mu_SAhYARzYW6QAM2X2I",
+  "result": {
+    "formatted_address": "665 Jackson Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 398-5471",
+    "geometry": {
+      "location": {
+        "lat": 37.796013,
+        "lng": -122.4061527
+      }
+    },
+    "name": "Wan Hua Co",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:30",
+        "Tuesday: 10:30 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:30",
+        "Thursday: 10:00 \u2013 17:30",
+        "Friday: 10:00 \u2013 17:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ-76mu_SAhYARzYW6QAM2X2I"
+  }
+}
