@@ -1,40 +1,283 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:21Z",
+  "fetched_at": "2026-05-03T07:06:54Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Alameda Natural Grocery",
   "place_id": "ChIJLQS_-JSGj4ARRnojuwlv0yc",
   "result": {
-    "formatted_address": "1650 Park St, Alameda, CA",
+    "address_components": [
+      {
+        "long_name": "1650",
+        "short_name": "1650",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Park Street",
+        "short_name": "Park St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Alameda",
+        "short_name": "Alameda",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94501",
+        "short_name": "94501",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7350",
+        "short_name": "7350",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1650 Park St, Alameda, CA 94501, USA",
     "formatted_phone_number": "(510) 865-1500",
     "geometry": {
       "location": {
-        "lat": 37.7677188,
-        "lng": -122.2394615
+        "lat": 37.7677778,
+        "lng": -122.2394444
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.76918498029151,
+          "lng": -122.2382509197085
+        },
+        "southwest": {
+          "lat": 37.76648701970851,
+          "lng": -122.2409488802915
+        }
       }
     },
     "name": "Alameda Natural Grocery",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 20:00",
-        "Tuesday: 8:00 \u2013 20:00",
-        "Wednesday: 8:00 \u2013 20:00",
-        "Thursday: 8:00 \u2013 20:00",
-        "Friday: 8:00 \u2013 20:00",
-        "Saturday: 8:00 \u2013 20:00",
-        "Sunday: 8:00 \u2013 19:00"
+        "Monday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2481,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111160531212215284440\">Jin Zou (\u963f\u747e)</a>"
+        ],
+        "photo_reference": "Ab43m-vgQ5vuYDKSrXs0PT1SiqFgkeWIepYeer5GN7Blc1voVv8vEmkPsrK8mmM80prpXOubAu1f2g48RPDu82EsqwLjflE4gPh51B9_AcqHBaVYQOpOeoEERIzvffxZj_ooAoA1F_viRRCQUDsnPg3TonN8t-h5v2ND5YMjZI0bJkhCER_RgRuw1nOzyyXyJyCzaEL49M2k0DhZyK1U2IDPqlPkSURgDR1vyYHN4Kl2-_aEfUhbgY_4xIBHQI7Nh-WApItZ9qheHUFD_03pPsnmdyEm5Qn3PhylLmUxPPsalQvWuXlYqSG5-Laxh9o1Zo5Kl9sTq-eGb7rDrrAGV4ZYxTDPJG-cEfM-OduAklQmsv0EYP30MYZfL0H4JV7GCxsFVK7D_TMXb9mCYvDUO1oqYggM_m5b3ik0istdFJ1_K2un3bCA",
+        "width": 3615
+      },
+      {
+        "height": 887,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193753287935720637\">Alameda Natural Grocery</a>"
+        ],
+        "photo_reference": "Ab43m-vN9Zftzo2W0xMzO6oDKpQ7RSUduFw25SH8B_H4SUBkZPofFZfii_SJ-AMEahETp9fAMqyIHEJlMEuCiGOQ5sYb_R39C4hxa1tkqwRxuSev7Zx59y3T2rFH23XJIBKPtKl7NhRHCYa4DYiPfRR9yavnXlVKIaAMudqYTONGgb0x7Q0husYi8lzvTc8DXDmlJ0HabbWuWnb3yQJjJCzjK96Kfir2Wr0429YEsZN9SQ9f4C2xbAmzkjmndTfMPDEiiHJve92CVNDVwucMWGoyWmxuI_g9f2S0xLotp0WKDL_Nng",
+        "width": 1600
+      },
+      {
+        "height": 2058,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193753287935720637\">Alameda Natural Grocery</a>"
+        ],
+        "photo_reference": "Ab43m-sfJvYHlP8cp1qLmtGluNxZ3zEzq3oZgqjRB8-w_o1R-qipeEGJsqApZ2VzHCp9nj_xItAq4X1pDFUUHO2GMCsScrn-f1EC0zRnr-3oBVSkjwxsomAyClfL7nA7fFMsQaYi1drTzabQOsYeOMrmxPcVApDFOVANEvwsmanv3kqJ8gycTjILkgYafbz9fk5NpYNFKUwz7gkJx-Hoxpndo2wx02xt-o_1t0zCn0Kl0osJ15ybVP3TqKsnycbZgyag5k93fTYiY8Z3O59SOQeOPoaKnCjZOnUplyn5TNh1_ZDF1g",
+        "width": 1985
+      },
+      {
+        "height": 1926,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193753287935720637\">Alameda Natural Grocery</a>"
+        ],
+        "photo_reference": "Ab43m-tDOP4Od2cQRicZFcezPokz6cm1aL_MA8SJBoVSPNEt3a4yZP7tBtmsgn_wGgz56Qm_OJIWt46Zkd3o_eOu6VTPLuVEIzpnRR_fuWWtc4mTXIfU0GoI609kXtU3wTA-HZV3hxFeEVmh81eWNwMaGydXz-xk_ku0aEXUebz7hAIfDJc1npmRqlX0nHCQxS-RSsF87amxQjXlyjLYgcKtBVF2RTrOpeFrjs638ZFoIlShlGvGK6vb2H55tN3uI8w_bkgRxp3Pk2-rHcLa_CxyuC66w-2R00HcKr8pqQKDUCojWw",
+        "width": 2095
+      },
+      {
+        "height": 3387,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-v5-SCK80Of4ahy-Zq0h310HgDJfgn5WWqdIzmE-2neFcJZpDHX4KpjafCpzjS_VB1uFOTObFS5_LqoguwSyIdhQ114kdUgkIofuXOzDdMh9-_ZIO46fZDu9_25AK4t4qiG04QXwVpo3D1qfEtT22llXXIv9vgVqHSqUyDWY4sGzWCHW_o4TLyqcFaY8IPRxZoZ2zKf_oGYxMdomUouxHgdt9wGXPPA8L1pNXnbqsUDmCSvOyLPXnIc7bf6tC0nOHXdpcLBPQzQtGVFvqbi4wlN4Ru_CMND8oPzXvfwe2_b3B0GA3Dmdp57M6AlzHZNaUZEn97uur00RBBEO1f0Faxqxc1NHObw-7i8f1jS-0xz1PcKUd-OVtErnqaCg3CEqNS2T973QepX8autyf7d89w54FvdNSliYjCZnFB8G_8",
+        "width": 3024
+      },
+      {
+        "height": 2851,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-uDGjlwcYaQzwWJJkCDcNFX4r_G_5ZPBO74ZNSUz6Sqg0xDBNeSPDhzOmrxZlzYnEr8-tj_h1iESLoNzNf0dPN_gZNrW9J16W5r6vfLCucDXNK0YR0BB9Fyg-u6oKHQewZmoLXw-bRx9f3X-ogrvyPzzxrusYf2vp5yqM4iQa8m-_3DvQdy5JItObJM5S_qsGjH_eGc2Yz0vhKjrbK7FIpTHYwBCllEuYeEkBMJ2VfkOcJDjezYR2mRc5hMMIL_AG7_EWcbN0yvvmR3qFyyjlnPiofxqd_Q55h11cBUw5YIjf0dpKhMuzKkpoCAYnoPSD5ZhCzeAiQo4aPh8VrJ14m-s8aM9h6kJmIV3S6NVhOtRpIfJuAYKKC47DYDQFMyWKy73oZDf425vqohC-lIBSJvz5e9zMXxST84StGbcSZai3Jr",
+        "width": 2667
+      },
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100699404352528641408\">Timothy O</a>"
+        ],
+        "photo_reference": "Ab43m-sF-B355GMDEgXzTV1x9Qb_Q2TFtQHC7x50B7tF7dUHOvr3oeQtd3FV9YAh-4OExIFLqqe1FlLLxleXGYq-uVibEoICGyVMK273gCia8qnXu07yi6_bnpP7HCraMinyZ0QjwlqrwZAmXhzWJO-E2DJfEKVjv2yIq7zoWAOk5CIgGwQVdWrJlkK85qW5DEboe5pk-bbhqfrb25FcRq6hbNShqHYJuCSH9UK8HfpZ0FKUPo2BE46iL_t5aw2jLOiSUShg-QcqxOzf6ujA6MWSeicEIrKJwIo2fWMDtSBkGpDOeZ1XbvNaQQ6UXP4SvqwqXostYOn1VeXcrdER3elSIoarUwpDy8i2XCxqS38wc9F8mszK05jYhlHFOOWoZaFyhnIvgHj2Hekg3aRQB2yAV1ioQ00ln34rk5o3u3F9IRa1xOtJ",
+        "width": 4128
+      },
+      {
+        "height": 3985,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-vs0mSSDPLiQEbOMDkM83AWxa99gwl9zXrhy768BqALyEwIkabNJsyBGbOI6Lvq-Cl0JBMvq39H7qiWGiz2qbbgmpthhUZqzBd5mLMJRC_aaigdm2I_HIyoVEwHENpd-P06u5xmWUdJdYbNTCxZp2Y-TixWt0ar-SHCIuJV1jpDjSArqmanIvRcWXIpohfS-NHZs5_Bjlsn4ZYMGptiNimKsPAwbCdfFaeT1zzD_ST4S0UbiMWoCMrAscRVlWbLfXENxejFPpu_ft3MzDElKrWQNrs_PQlN_3DzxNac-g5FI9FW88rik7etcGYRy4lXAysbVF5Ldx6ln25aKOnzQ3yf5n6ZsqsKAllLwzzURDqXVzOLTF1x7IWXAhKIBYsNigmkf0xBUFXXOJ17EkBaE-VQZs06JvE1j4SISRehX48ULw",
+        "width": 2989
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100699404352528641408\">Timothy O</a>"
+        ],
+        "photo_reference": "Ab43m-txXO_qvBUzgwVktnH4ta_bEkd1_89USpCRVz3PgjU7_5fNYBjo4xMtUbBkfOqNRTIsIAtzzMER9v7tCTEdks0RsUoKl8h2bj1ZWLRIDtud4xZ7r_XvsfbvFdHydOjaAp4UnMhtSGHPnnMZQKYNzkNIlWU3on5utjRWL_1S1l0okT1YXBe-oEAtuh2GT-eNwdp-O_2hjibf33BLFI9lGZPv0SrV-tCtqoFoJvcuoU9uirKq8GLqce5vqTJvYKn_JJd1suG1c_p4UntBpl0rKKsgdNEg9E_1xnT5qeH-RYaqZXQyFxlbNa7llvDs_xKZ2mTd5YGD6jc5S8PK6KMJSBR8EoImY4z9MZ0ikHATtRfncuQpgL1scvPKeEAVnBB0Rtcjocaji8NF2w83Enevz1babCD_fcRZWgUrJg9nEP6wYaEQ",
+        "width": 2322
+      },
+      {
+        "height": 751,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193753287935720637\">Alameda Natural Grocery</a>"
+        ],
+        "photo_reference": "Ab43m-ujXZM6lOkwNPpUsLxBEOqBfUf-tS9cQUOoZjOuqC73v-TmwzKJsjd8Hud7GarIHk7zO3rwWYTTgdwHy3OBurnud_KW8B1J1ExmWwi1T8XNZ6ToeoHmLLdQI8vYCsWI1bjh866dJBwYNCm1iS1YhcXLkbGbR9VGx29dnaqdrNPjf_FjZHFNM1eDXej6RDo_Nep-x4PFuQPz1_xa-3fPfOvCs4XgLwiZxjylkRw72e9jVOi_BFfrzJmX06jY927mR-C1_Jwz7g0Ag5HSP1VECl5kBYhZSOYfnV9LVZnnRyWslA",
+        "width": 1689
+      }
+    ],
     "place_id": "ChIJLQS_-JSGj4ARRnojuwlv0yc",
-    "website": "https://alamedanaturalgrocery.com/"
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2869759475150191174",
+    "vicinity": "1650 Park St, Alameda",
+    "website": "http://www.alamedanaturalgrocery.com/"
   }
 }
