@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Candle Corner LLC",
+  "place_id": "ChIJv-PvvxaHwoARVxPZGhFw2L8",
+  "result": {
+    "formatted_address": "23300 Cinema Drive, Santa Clarita, CA",
+    "formatted_phone_number": "(661) 425-7600",
+    "geometry": {
+      "location": {
+        "lat": 34.4188097,
+        "lng": -118.5430064
+      }
+    },
+    "name": "Candle Corner LLC",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:30 \u2013 17:30",
+        "Thursday: 11:30 \u2013 17:30",
+        "Friday: 15:00 \u2013 17:30",
+        "Saturday: 12:30 \u2013 19:30",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJv-PvvxaHwoARVxPZGhFw2L8",
+    "website": "http://candlecorner.org/"
+  }
+}
