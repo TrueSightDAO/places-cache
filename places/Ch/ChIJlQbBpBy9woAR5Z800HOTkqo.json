@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earthensoul",
+  "place_id": "ChIJlQbBpBy9woAR5Z800HOTkqo",
+  "result": {
+    "formatted_address": "14517 Ventura Boulevard, Los Angeles, CA",
+    "formatted_phone_number": "(818) 658-6060",
+    "geometry": {
+      "location": {
+        "lat": 34.1512888,
+        "lng": -118.4493649
+      }
+    },
+    "name": "Earthensoul",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJlQbBpBy9woAR5Z800HOTkqo",
+    "website": "http://www.earthensoul.org/"
+  }
+}
