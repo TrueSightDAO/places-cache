@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Luna Wellness Spa",
+  "place_id": "ChIJ3cToE_6mlVQRvv7ydoXvKn0",
+  "result": {
+    "formatted_address": "2106 Northeast 47th Avenue, Portland, OR",
+    "formatted_phone_number": "(503) 289-1390",
+    "geometry": {
+      "location": {
+        "lat": 45.537921,
+        "lng": -122.6147407
+      }
+    },
+    "name": "Luna Wellness Spa",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ3cToE_6mlVQRvv7ydoXvKn0",
+    "website": "http://www.lunaspapdx.com/"
+  }
+}
