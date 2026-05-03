@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:38Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "MD Apothecary",
+  "place_id": "ChIJPTPxMeck6IARQFnp0F28sHA",
+  "result": {
+    "formatted_address": "Hampshire Road, Westlake Village, CA",
+    "formatted_phone_number": "(888) 420-4263",
+    "geometry": {
+      "location": {
+        "lat": 34.1589622,
+        "lng": -118.8355663
+      }
+    },
+    "name": "MD Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJPTPxMeck6IARQFnp0F28sHA",
+    "website": "https://www.mdapothecary.com/"
+  }
+}
