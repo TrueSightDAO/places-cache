@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:12Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sonoma Apothecary",
+  "place_id": "ChIJf1FwYE-phYARyH7Zz2quViE",
+  "result": {
+    "formatted_address": "19692 8th Street East, Sonoma, CA",
+    "formatted_phone_number": "(707) 938-2284",
+    "geometry": {
+      "location": {
+        "lat": 38.285674,
+        "lng": -122.4352617
+      }
+    },
+    "name": "Sonoma Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:30 \u2013 15:30",
+        "Tuesday: 9:30 \u2013 15:30",
+        "Wednesday: 9:30 \u2013 15:30",
+        "Thursday: 9:30 \u2013 15:30",
+        "Friday: 9:30 \u2013 15:30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJf1FwYE-phYARyH7Zz2quViE",
+    "website": "https://www.sonomaapothecary.com/"
+  }
+}
