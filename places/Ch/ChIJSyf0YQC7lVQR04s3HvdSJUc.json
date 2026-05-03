@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:03Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Planted apothecary",
+  "place_id": "ChIJSyf0YQC7lVQR04s3HvdSJUc",
+  "result": {
+    "formatted_address": "Vancouver, Vancouver, WA",
+    "geometry": {
+      "location": {
+        "lat": 45.6585294,
+        "lng": -122.4979879
+      }
+    },
+    "name": "Planted apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: 0:00 \u2013 0:00"
+      ]
+    },
+    "place_id": "ChIJSyf0YQC7lVQR04s3HvdSJUc",
+    "website": "http://plantedapothecaryshop.com/"
+  }
+}
