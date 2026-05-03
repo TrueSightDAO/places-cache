@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:58Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "East West Bookshop",
+  "place_id": "ChIJ5aHAiDO3j4ARzX3WeMyPmk0",
+  "result": {
+    "formatted_address": "324 Castro St, Mountain View, CA",
+    "formatted_phone_number": "(650) 988-9800",
+    "geometry": {
+      "location": {
+        "lat": 37.3922318,
+        "lng": -122.080127
+      }
+    },
+    "name": "East West Bookshop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 22:00",
+        "Tuesday: 11:00 \u2013 22:00",
+        "Wednesday: 11:00 \u2013 22:00",
+        "Thursday: 11:00 \u2013 22:00",
+        "Friday: 11:00 \u2013 22:00",
+        "Saturday: 11:00 \u2013 22:00",
+        "Sunday: 11:00 \u2013 21:00"
+      ]
+    },
+    "place_id": "ChIJ5aHAiDO3j4ARzX3WeMyPmk0",
+    "website": "https://www.eastwestbooks.org/"
+  }
+}
