@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:50Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ventura Ranch Market",
+  "place_id": "ChIJxcAobQCt6YAR-IkiuVaf0V0",
+  "result": {
+    "formatted_address": "1532 East Main Street, Ventura, CA",
+    "formatted_phone_number": "(805) 628-3522",
+    "geometry": {
+      "location": {
+        "lat": 34.279434,
+        "lng": -119.2770962
+      }
+    },
+    "name": "Ventura Ranch Market",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 22:00",
+        "Tuesday: 7:00 \u2013 22:00",
+        "Wednesday: 7:00 \u2013 22:00",
+        "Thursday: 7:00 \u2013 22:00",
+        "Friday: 7:00 \u2013 22:00",
+        "Saturday: 7:00 \u2013 22:00",
+        "Sunday: 7:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJxcAobQCt6YAR-IkiuVaf0V0"
+  }
+}
