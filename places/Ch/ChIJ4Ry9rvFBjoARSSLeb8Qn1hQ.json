@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:28Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Adorn Apothecary",
+  "place_id": "ChIJ4Ry9rvFBjoARSSLeb8Qn1hQ",
+  "result": {
+    "formatted_address": "3000 Valencia Avenue, Aptos, CA",
+    "formatted_phone_number": "(831) 295-9304",
+    "geometry": {
+      "location": {
+        "lat": 36.9764092,
+        "lng": -121.8865165
+      }
+    },
+    "name": "Adorn Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 18:30",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ4Ry9rvFBjoARSSLeb8Qn1hQ",
+    "website": "https://adornapothecary.com/"
+  }
+}
