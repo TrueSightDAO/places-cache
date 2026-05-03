@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:05Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "A/Z Apothecary California",
+  "place_id": "ChIJtXNB1w7I0m0Rn5ayikXg7zg",
+  "result": {
+    "formatted_address": "100 Spectrum Center Drive, Irvine, CA",
+    "formatted_phone_number": "(877) 810-7323",
+    "geometry": {
+      "location": {
+        "lat": 33.6506411,
+        "lng": -117.7476322
+      }
+    },
+    "name": "A/Z Apothecary California",
+    "place_id": "ChIJtXNB1w7I0m0Rn5ayikXg7zg",
+    "website": "http://www.azapothecaryca.com/"
+  }
+}
