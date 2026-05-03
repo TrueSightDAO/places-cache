@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:38Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "SLO Food Co-op",
+  "place_id": "ChIJEUIClTzx7IARKHCHfndoMFA",
+  "result": {
+    "formatted_address": "2494 Victoria Avenue, San Luis Obispo, CA",
+    "formatted_phone_number": "(805) 544-7928",
+    "geometry": {
+      "location": {
+        "lat": 35.2672927,
+        "lng": -120.6525559
+      }
+    },
+    "name": "SLO Food Co-op",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 20:00",
+        "Tuesday: 8:00 \u2013 20:00",
+        "Wednesday: 8:00 \u2013 20:00",
+        "Thursday: 8:00 \u2013 20:00",
+        "Friday: 8:00 \u2013 20:00",
+        "Saturday: 8:00 \u2013 20:00",
+        "Sunday: 8:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJEUIClTzx7IARKHCHfndoMFA",
+    "website": "http://www.slofood.coop/"
+  }
+}
