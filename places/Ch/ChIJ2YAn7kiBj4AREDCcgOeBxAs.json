@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:15Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Queen Hippie Gypsy",
+  "place_id": "ChIJ2YAn7kiBj4AREDCcgOeBxAs",
+  "result": {
+    "formatted_address": "337 14th St, Oakland, CA",
+    "formatted_phone_number": "(510) 282-7829",
+    "geometry": {
+      "location": {
+        "lat": 37.803137,
+        "lng": -122.268591
+      }
+    },
+    "name": "Queen Hippie Gypsy",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJ2YAn7kiBj4AREDCcgOeBxAs",
+    "website": "https://www.queenhippiegypsy.com/"
+  }
+}
