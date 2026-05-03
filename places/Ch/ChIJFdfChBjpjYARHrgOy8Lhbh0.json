@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Prophet Apothecary",
+  "place_id": "ChIJFdfChBjpjYARHrgOy8Lhbh0",
+  "result": {
+    "formatted_address": "229 Crossroads Boulevard, Carmel, CA",
+    "formatted_phone_number": "(831) 809-9624",
+    "geometry": {
+      "location": {
+        "lat": 36.5365416,
+        "lng": -121.9088242
+      }
+    },
+    "name": "Prophet Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 13:30",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 13:30",
+        "Thursday: 9:00 \u2013 13:30",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJFdfChBjpjYARHrgOy8Lhbh0",
+    "website": "https://www.prophetapothecary.com/"
+  }
+}
