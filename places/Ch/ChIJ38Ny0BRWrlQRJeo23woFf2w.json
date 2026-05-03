@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Forever Flawless Spa",
+  "place_id": "ChIJ38Ny0BRWrlQRJeo23woFf2w",
+  "result": {
+    "formatted_address": "350 North Milwaukee Street, Boise, ID",
+    "formatted_phone_number": "(208) 999-6642",
+    "geometry": {
+      "location": {
+        "lat": 43.6082518,
+        "lng": -116.2772502
+      }
+    },
+    "name": "Forever Flawless Spa",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: Closed",
+        "Sunday: 11:00 \u2013 19:00"
+      ]
+    },
+    "place_id": "ChIJ38Ny0BRWrlQRJeo23woFf2w",
+    "website": "https://foreverflawlesspa.com/"
+  }
+}
