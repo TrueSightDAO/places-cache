@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Untamed Fire",
+  "place_id": "ChIJbdkKG0nljYAR2ysZh6zTq3s",
+  "result": {
+    "formatted_address": "490 Orange Ave, Unit D, Sand City, CA",
+    "formatted_phone_number": "(831) 582-1724",
+    "geometry": {
+      "location": {
+        "lat": 36.6105505,
+        "lng": -121.8529039
+      }
+    },
+    "name": "Untamed Fire",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJbdkKG0nljYAR2ysZh6zTq3s",
+    "website": "https://www.untamedfire.net/"
+  }
+}
