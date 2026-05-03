@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "World of Stones and Mystics",
+  "place_id": "ChIJH8Tj7yVAjoARY8VK1dMhtoQ",
+  "result": {
+    "formatted_address": "835 Front St, Santa Cruz, CA",
+    "formatted_phone_number": "(831) 316-5159",
+    "geometry": {
+      "location": {
+        "lat": 36.9758896,
+        "lng": -122.026157
+      }
+    },
+    "name": "World of Stones and Mystics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 16:00",
+        "Wednesday: 11:00 \u2013 16:00",
+        "Thursday: 11:00 \u2013 16:00",
+        "Friday: 11:00 \u2013 16:00",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJH8Tj7yVAjoARY8VK1dMhtoQ",
+    "website": "https://www.facebook.com/worldofstonesandmystics/"
+  }
+}
