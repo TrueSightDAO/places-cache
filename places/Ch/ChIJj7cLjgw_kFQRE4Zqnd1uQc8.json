@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bainbridge Apothecary and Tea Shop",
+  "place_id": "ChIJj7cLjgw_kFQRE4Zqnd1uQc8",
+  "result": {
+    "formatted_address": "450 Winslow Way East, Bainbridge Island, WA",
+    "formatted_phone_number": "(206) 618-4858",
+    "geometry": {
+      "location": {
+        "lat": 47.6249752,
+        "lng": -122.5162936
+      }
+    },
+    "name": "Bainbridge Apothecary and Tea Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJj7cLjgw_kFQRE4Zqnd1uQc8",
+    "website": "https://www.bainbridgeapothecaryandteashop.com/"
+  }
+}
