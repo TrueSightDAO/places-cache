@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Monsoonmystics",
+  "place_id": "ChIJ4azmlG5x1oYREjsjdMnrDpA",
+  "result": {
+    "formatted_address": "657 W St Marys Rd C9, Tucson, AZ 85701, United States, Tucson, AZ",
+    "formatted_phone_number": "(520) 485-8739",
+    "geometry": {
+      "location": {
+        "lat": 32.2282405,
+        "lng": -110.9798777
+      }
+    },
+    "name": "Monsoonmystics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJ4azmlG5x1oYREjsjdMnrDpA",
+    "website": "http://www.monsoonmystics.com/"
+  }
+}
