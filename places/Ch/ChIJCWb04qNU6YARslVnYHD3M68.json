@@ -1,40 +1,261 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:45Z",
+  "fetched_at": "2026-05-03T07:07:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Mystic Merchant",
+  "name": "Mystic Merchant",
   "place_id": "ChIJCWb04qNU6YARslVnYHD3M68",
   "result": {
-    "formatted_address": "1638 Copenhagen Dr, Solvang, CA",
+    "address_components": [
+      {
+        "long_name": "1638",
+        "short_name": "1638",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Copenhagen Drive",
+        "short_name": "Copenhagen Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Solvang",
+        "short_name": "Solvang",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Barbara County",
+        "short_name": "Santa Barbara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93463",
+        "short_name": "93463",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2735",
+        "short_name": "2735",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1638 Copenhagen Dr, Solvang, CA 93463, USA",
     "formatted_phone_number": "(805) 693-1424",
     "geometry": {
       "location": {
-        "lat": 34.5950743,
-        "lng": -120.140462
+        "lat": 34.5950254,
+        "lng": -120.1407159
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.59648173029149,
+          "lng": -120.1393264697085
+        },
+        "southwest": {
+          "lat": 34.59378376970849,
+          "lng": -120.1420244302915
+        }
       }
     },
-    "name": "The Mystic Merchant",
+    "name": "Mystic Merchant",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2411,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111776631599196918236\">Martin Fryc</a>"
+        ],
+        "photo_reference": "Ab43m-thpe66WL_e5V_L9SfSSNI6jurln9UyKOS-N-dl6y0C4lwz6Yuyw7_6uT4piNsn8xB2hkLFHnPXM5Md2_tTzHbUBUDjSlrTodFwtSXYqzhpok4-Aa_8aaUbLcBzgHwO_2mopH95gJDtXXs014xw50tFAPPwDwePXXQIJ1jmbm9QTzkw7yhVmQKjUR0oamIAOyNVg0IftITlclAcZ4WjBvugCiCofA2LesBA3B7M6LJgcSdwe_2A5Y_dC2pahwqZjMjyHNX0VuhnQ6-mkJKDc34rWzd3jS-4zflP8haKQu-6xm5I1bnMSlmUO37zuCx47RARa1hjaDTswTtVGMdg33Oed0q5AHCRnW9bZcn5YYRdJD1kieCs6xNcIB7H0ywhw0Hq8irn4aZ-vX-l8X5JWzTaNbuGDYk6a6oQ_axURXXQ1g",
+        "width": 3241
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113319061483780419578\">Jedi Master ASU</a>"
+        ],
+        "photo_reference": "Ab43m-sjlFiJh1RjyntOteAeFHoDOr2-gAP-F6Ky7Kq9_1Ksm-2S4wozmFvq0KeM69vXEbWTd7OJLEjySedTjwhBIJxE32YbyL72gFk0pF5VCvpC8214pRuqm0JqXIdy_cuIp_b8sD1WeW5fvO1D4a2VPXcbOpZtLsi0JdS-Bs16jNSiUJw-k3r1ZNAl3kmE1EhgSPfOhxhvlerM4YyucWUw3arAjjI3lJzkwWUbGLB2VjIDrvO1S2CywKhtAc_m1a5th8Yj_atdCbpdt9ygNjrhB3kgYFII-ecvZPbCFcGNnnHOSz4EN4QyGoPqm7QxcUL8GazrqEqPTHXVFC2HUnHYqZdOehSuAZqnlyA9em7JhVQbLTHoZMrOAGGKiD3SD9U3ZoCWtpLFNIDtTiMo8Nhbqifdrsxv5M2RWHlRTsskKbh44Q",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113641856019996098159\">\u0410\u043d\u0434\u0440\u0435\u0439 \u041c\u0430\u0445\u043d\u0451\u0432</a>"
+        ],
+        "photo_reference": "Ab43m-vo5ttYbTcRS1Us86WEJENIcjybhlsuGrZqmXPbW1Q4gEEA7jIEyyM8fyELDhA0NWPyIS-JnebI_qgXVrKtHAj-m6a8hdwyjA3URHO7iVDZBmGyFDRG9iF_kh4Rxqo41hJORfl4jGTR0B6LKsOHkqvgOMEiwM6ovr5ThsWAKA_nViFUEGYrX14tejaiDqDnIcnKTpjV_FledgGGmkBJAl26Nv0Hc0CJ7DLuaHRFanhCziOBruc1c9EGpnswBMkQ5Eeti3OMlrgE2IWD_ImTEsbw6CU_f_wK92s7wOX7ZvDV0RfnQfiREC49Dj9zjEEkNbx9JRijUp0dcxGD2P_yVzgGzLoJxa1vZzVmxdoXbZBTq7oT8sD7aoMhKpvjAePkhYNqRR5zRTWbMtlxRiEPYP9WEVoPprYKLxqlpp1sQwtAF74",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107819430710048184821\">Sumin Yi</a>"
+        ],
+        "photo_reference": "Ab43m-uvz0u8HTJEO6CwRtqQ0RFXr9sKSwTmbpDzdSNo64OPpBBaUfqMsL61dxmFlNNhr2VpHoYOEOviEL1dp15R2NoTd2PYRL6_Jz2DuYUQoz-FCzMf412cCFonOQXGyfvtHd63-HkAZWQjmNTiajs-1KHlC2EtWRBtnmE8y0hTDgLL6fytwwYDLNnNdy_RuPtJe4-3STnWTBgXe7id217-fbThLvGEsjClsJN8E2gdlTxCGfyJ5B5ayHTZq2rb7rMmzNTKLSZvRLX-zIKrEU675AThGsxAkf0q_KaRW7kAWcaDvOh1cCksyzKkP31vH08qgHhLIu99QwP0hC8971D5npjUssBrt3Joycy3w6lh6hbSAfR-1BBRLgDbkVZ2MMQhzoU-_Z2FspTANMjfOcNwh4_F3PcRasGu01xhoWk5B1TdxClv",
+        "width": 3024
+      },
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116391034728332900910\">Aviv Weinstein</a>"
+        ],
+        "photo_reference": "Ab43m-sjd55hWrFNuEaHpCcDUKwyBN3PkZEN45__hDUu3nEAM55WN6AcRw6_5GwIeC8tk_YVuTW5d61t6ZohMCV_E6Ps0BUlpWHVlb4IjbcwrO8Aqf4DqCQfQD2yzrkUWH1xmyoxabbCdnW6CTRkhdJ3Tz6RqqyAfaGXHlXribJHGlpbMRj5b61MCdpBdMW1mHPzmcZqfE73teGzVmIMKqlYV4m8H6Jfeabr82GkEJ5u-cMtu1YdRnf93IfDYTFtw7WZLBbSGkVOcNLbtCQ62wiABT_qssDU_b8As2ACfI92rt7Rjau9yAPd2ARCuywG8orzcKozORyuSy2feWbAlDIigO02kPKwzfTeJjrvcxk06vUkgWhFEPtG7uq8oPljQWVREKcNhoRpialGKpFe-PtI7FYGlhzRko3ndqZpkHOrCGnFLA",
+        "width": 4128
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868765835636795395\">mms 221</a>"
+        ],
+        "photo_reference": "Ab43m-uaoKSe4y0IwuyU3O9ipF2zO4YhaJU1wo0wm1rs6cabxOAD_clML0ZGsRUg4xNxV-Zo_gA0qg97JG6R3lsYJfhxUU9vvt8fZVdhaUj54-cxgKZHnDj_hZ-4wMXmN7BDwC49cERg3jXGiVnQEHTUM-mF6Yx0ZP1ZLiHua0ZRoGbugbvGydjT1zoDjF17iYWn9H9ATKENtQcwtwpU78BQKWBVT5guVMN5xyHi64PUdehBeMLSnRxVv94WzH2pmgG043T1zQ8AYBmjVZo8rAZjbXOrBkTG4tZaycvxjdyUUO9mReSreuhnZrj5uX1Ytft_l_swjzHMn_2a1Od0C56B7f64JqtkaqQdai4qfSlGaFQaFppgkUvEfjdcCCaZl_qk-4XoTwcvMyBtEltKsn4YbKasn6jaToqFZ3O6HrEYoReA1E4",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107819430710048184821\">Sumin Yi</a>"
+        ],
+        "photo_reference": "Ab43m-v0fIs3e_6aCoXIJcCWqT3knmEQsVgIDsUOffMkqcPA7gSEkwOQe051nCMnIfFbepNLOrUNRB-qtFaJywCV-rHTmhdANkSKRNTnUT3aTe-nfdWj9YYJG7hNIDGLU7Wjs5XiUd0m1r9CmYIjYulSFrtKysrDlzdgrAk1ABggjqkCN0uoaJX_8J160x-4X1WtiEHvEZv9nJLVyWpeHXLsygqzjixYmFSGxGOB1lffB_JlYmKM6lpnXeHmkMNrWV-wPxWqTzTSC9s1F7A7viaXNpKAgjTkDvLFOkJ0sWpr4oJIAe4cAUNq10s15Zm-_ty8EQpl9zfe_N9BJLJv95hnfBguqoRTsPar5dZrB1mxSyihXE5zSsm9PdnrWsaua2RvqdIui8BnC81yCtmPsti4a7xB6GAwWEBOUaSpQ6b0wCkEieBd",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113641856019996098159\">\u0410\u043d\u0434\u0440\u0435\u0439 \u041c\u0430\u0445\u043d\u0451\u0432</a>"
+        ],
+        "photo_reference": "Ab43m-tkPYAq-YC1KRDtQlWPGfV92UoKfBqBhgalmBxuPwpwSxQ7D6l3W7YAU06p0iw7SK22bCzywS8JnZptnJvLqTxqEYh9LUyaRhgkAA8JGokUsX-jbvw0sYULZA9paOowYyALCUOEZSIHwFxPtrys-FGs2gwGcMogw4pK9qhT4gFYShaJaf-T4Shw_NQoVLQ1DzTR8QmkWytSkRB9y5OSPIMYr4l0j-6b0dTyhkcp6u16-DFoZ2BJwp4Ds_XStk_DLOcAgZ8ZIYs9vz05GkQQSWvpNlxTNcQoNlwEpsLxL42zOJg1UTBM05L8vLB_g95xMjIVR4uC6IPIZQhhrzotGNanYE9dRKH95bV60JtCIwVCe7AjadLJhA8kHhr_OM8AyXptg7hdjE30zVScPmzCHsbAZedMYld_UTtRGZ6l0hupEas",
+        "width": 2268
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114071906588000872343\">Sean G. Rosenstock</a>"
+        ],
+        "photo_reference": "Ab43m-s5ssCKjwxCLoaRUZyrDCK4JWwVv37kmrgi-wJwT6svzhFRplOcLdH1LV6IipqBCIQFuegF0dczl9Cf0aAmqArU0dhF5mE7I7i717RtTRHKA5yxNhC5nJGRpLZ3AtUcmuQbtTeeETghb1biqAVSES8C7P_220Mn4eTfm5SGBn6yJRVqvDX0bwDgXkqXh0DZAJBPBJ2nJa2iZ6M7QK2_l9Q9Jmgy-0suQSiZe0dT-SuWpYIuJDCb3ZioP71kqAcJacqNCc2zGv6Z3bL5tApZfR-ZGwLAcj3PcAl8J7duidXsvYIR6emsr1dgAyFAjVaj3UlOjy7ifTZnKTJVMlbtluxZerLd1OtQaq-vLiVeWo5C3-9Q6et-UvrEP1FJshNQOoxfTYKarxFRR1WkhblN4O4dTON_fNMcjDMNBYHb22_GCKU",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118361118223323643103\">Pilar Johnson</a>"
+        ],
+        "photo_reference": "Ab43m-vEZ-Kn3_Bk7OgCs_7S6QgdNc-VfSq6pn9mEv4FzbWyGho_fTayw7dOAuBvAYO-WGHZT-q4XZUyltr4pHGRFitiQJaN8nQpn2Wxi2h6f0wTzF_Lr0zLaHMGHkGmAhe2w0DecoCHpxwHxdQfLpEVQ8ZKWWE1pIhFlLk1SLejN5BsygTkLUtYRDIwCDOXoJq3A7LzaTpWi3qyqAHxFr99p9IwssMEIoNHoA1pK5tdons1zmeGzeVRUPOVFnPAFUBiVGBFMoQklLump1TUH64boMIwR8l2hY41BSsNNjgfsXSuYCGtPQrFnvL_13XP7g8WhTsVLxSwrD8V02-gYHIjaw8Tq2HXOJ6ZN2yMg04PURgm6ktNcaTjNmygkOHtBNy_rIObTclrVigon22LtQiqIZKC9l4pr__rlRPnNOSH8zA",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJCWb04qNU6YARslVnYHD3M68",
+    "types": [
+      "book_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12624706242475414962",
+    "vicinity": "1638 Copenhagen Dr, Solvang",
     "website": "https://www.facebook.com/The-Mystic-Merchant-201544059869217/"
   }
 }
