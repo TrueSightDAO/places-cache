@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:30Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Natural Alternative Nutrition Center",
+  "place_id": "ChIJYxRNAGjF7IARKmp_0YWiG-s",
+  "result": {
+    "formatted_address": "17 cost, Paso Robles, CA",
+    "formatted_phone_number": "(805) 237-8290",
+    "geometry": {
+      "location": {
+        "lat": 35.6272523,
+        "lng": -120.6890075
+      }
+    },
+    "name": "The Natural Alternative Nutrition Center",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:30 \u2013 17:30",
+        "Tuesday: 9:30 \u2013 17:30",
+        "Wednesday: 9:30 \u2013 17:30",
+        "Thursday: 9:30 \u2013 17:30",
+        "Friday: 9:30 \u2013 17:30",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJYxRNAGjF7IARKmp_0YWiG-s",
+    "website": "https://dapp.truesight.me/stores_nearby.html?store=the-natural-alternative-nutrition-center__1213-pine-street__paso-robles__ca&status=Manager+Follow-up"
+  }
+}
