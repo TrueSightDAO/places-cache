@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Soap Cauldron \u2014 Three Sisters Apothecary",
+  "place_id": "ChIJPciy1nq1hYARJcvDDey6rlw",
+  "result": {
+    "formatted_address": "11830 Main Street, Penngrove, CA",
+    "formatted_phone_number": "(707) 888-5659",
+    "geometry": {
+      "location": {
+        "lat": 38.2955382,
+        "lng": -122.6650922
+      }
+    },
+    "name": "Soap Cauldron \u2014 Three Sisters Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:30 \u2013 17:00",
+        "Tuesday: 8:30 \u2013 17:00",
+        "Wednesday: 8:30 \u2013 17:00",
+        "Thursday: 8:30 \u2013 17:00",
+        "Friday: 8:30 \u2013 17:00",
+        "Saturday: 8:30 \u2013 17:30",
+        "Sunday: 8:30 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJPciy1nq1hYARJcvDDey6rlw",
+    "website": "http://www.soapcauldron.com/"
+  }
+}
