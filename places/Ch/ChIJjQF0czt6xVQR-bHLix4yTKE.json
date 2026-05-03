@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Herb Shop",
+  "place_id": "ChIJjQF0czt6xVQR-bHLix4yTKE",
+  "result": {
+    "formatted_address": "247 Southwest G Street, Grants Pass, OR",
+    "formatted_phone_number": "(541) 479-3602",
+    "geometry": {
+      "location": {
+        "lat": 42.4394659,
+        "lng": -123.3296041
+      }
+    },
+    "name": "The Herb Shop",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJjQF0czt6xVQR-bHLix4yTKE",
+    "website": "http://www.bulkherbshop.com/"
+  }
+}
