@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:20Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "La Fragancia",
+  "place_id": "ChIJ6eRRLO81w4ARCO_TLuBzoVg",
+  "result": {
+    "formatted_address": "1 Mills Circle, Ontario, CA",
+    "formatted_phone_number": "(909) 315-9212",
+    "geometry": {
+      "location": {
+        "lat": 34.0740919,
+        "lng": -117.5511541
+      }
+    },
+    "name": "La Fragancia",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 20:00",
+        "Tuesday: 10:00 \u2013 20:00",
+        "Wednesday: 10:00 \u2013 20:00",
+        "Thursday: 10:00 \u2013 20:00",
+        "Friday: 10:00 \u2013 21:00",
+        "Saturday: 10:00 \u2013 21:00",
+        "Sunday: 10:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJ6eRRLO81w4ARCO_TLuBzoVg",
+    "website": "https://lafragancias.com/"
+  }
+}
