@@ -1,40 +1,208 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:03:54Z",
+  "fetched_at": "2026-05-03T07:06:27Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "HackerDojo",
+  "name": "Hacker Dojo",
   "place_id": "ChIJ06zmdBK3j4ARUW7KQix-b58",
   "result": {
-    "formatted_address": "855 Maude Ave, Mountain View, CA",
+    "address_components": [
+      {
+        "long_name": "855",
+        "short_name": "855",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Maude Avenue",
+        "short_name": "Maude Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mountain View",
+        "short_name": "Mountain View",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94043",
+        "short_name": "94043",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "855 Maude Ave, Mountain View, CA 94043, USA",
     "formatted_phone_number": "(650) 429-8605",
     "geometry": {
       "location": {
-        "lat": 37.3962356,
-        "lng": -122.0491779
+        "lat": 37.3962541,
+        "lng": -122.0490745
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.3976456302915,
+          "lng": -122.0476492197085
+        },
+        "southwest": {
+          "lat": 37.3949476697085,
+          "lng": -122.0503471802915
+        }
       }
     },
-    "name": "HackerDojo",
+    "name": "Hacker Dojo",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
+    "photos": [
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115609725346712784480\">man jae lee</a>"
+        ],
+        "photo_reference": "Ab43m-uSQiOva5nGaZybJtWXNCE1rgnXbyxHQYSSKxTCAEALrD_XyXmQ0Fe09v8SQbqBHlaWKbM1f7ZBiGQsovegHBeiMS5n_KrlNhq1PHegj4qya0stDCTU3MkWt4RD9j8FzxKsTW1wkCYvqJrUZSsvJtKP4S82Wr3x29-KFWWaU3AePDIrOzLitxY5NTbrCHGz9uQxo3YZXiXTSitozuZ-Nuc85O2YK2HeyDTf4LI6AqvJ__GH5170JV7tJrh4UX61MPqhaogIyHgJxnGgoZbF3WRn38WyI3C88rijHlDVPSUbZn4jLOAopCtQeqz4rSFO_mv3Ys4NULVTI3hRkh9GCkCGaxk2XxJqfOcwVzsYR-9_9m8i-d3ToyJy50SofUpl1ddb23kdplwuzTSFSjb_qe4DAPqcQEoZ7XNO02wCHdA__g",
+        "width": 2880
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108698787936250593749\">alejandra corbella</a>"
+        ],
+        "photo_reference": "Ab43m-uSTUOP7CglkpiTDWqrYbtfO7KkDMNE_LWEoZ68wLLzC2iRlHlJHDHC0YQ4FNQpVIhXqzRrZIqwuJCqKAfj5Hl4OEJ5-aba53-aZpnYZ-i3RPV0_IhAxORVwNZTvxVe8MhPWkA9tRDM1RBm1kwA_Y434gQkmSh9pVfmVbbCiT65RrnYxB14-YeQZbQZaXSLjiP_HU_7h02Sy7BNdYVfb6_Gz2Prd8HXsa4N5x0WdTvrtn1s0y-3BQYVqcWBpTn1osPyEpErM0QUmH7Z_ewUZHKxQ70plqz_7ybLmJUv4UyndixHkt_45Zmb5FhaMnbLHS3nMpTYaC9UdeE2IGDukVX4UNpkWtf853IYAICduc1CEvBoD4O_Kpa2EXanWWCMRf0bIRyQpqbWdST0dNduabM9QMBW8vC19kAewdh1_zmgEVfS",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112891189382985233733\">Inky G.</a>"
+        ],
+        "photo_reference": "Ab43m-swidFg3A0XkiD5S58w8C9jJDobU5wcow8T_ZlPr8bx2ohW3_VWZfJzrpq-qatfVDt3DJwzR8cnyNyqAJw6SdPScAuGmOovh8aieP0Jeh_H4ixtBL48c0BlXXrR7B2h2Hpyv8Zr0MJNIaeTI7BHN5FT6320Le_pXl4Kg7oWb55r0EyJ6sybTwov9SloxeVGEw8fkJbDztddA5Edh7MPhegtu2MP4SoW4zDrsS-qDXQKHWDtnBk1wO57DCAVYsbh2Mq_QeXhBchVpv9b7xJjENPx7fcvretgXUNih2-tF2F1Ir-4uZy0ixIhyvnHXPmiQ8w3Kly5KPk95EPpRVnj0cKboEJhxYo9yITR5m5dtb0okcyfGpFCnhrfTOWzhEJVqUieJucUPbldxkPRB1ueoM0xAnFOBRLAUBIfU39v8usqGw",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113263233308500580940\">Alejandro Jatib</a>"
+        ],
+        "photo_reference": "Ab43m-v2cNxxx6M0pc_tez041g4NngquFPO9d1B-ZzEJSJ27A3pS2rPVTMaale471eNQZKzsq6D54HTF7mIbQyMN1u2fNVnyNDrf8ZXpENHwWXa7bmRwLvMtxBJ2aKNn-QVWsZoiaNBYDt_Cqq_2hSbe9g1jbcMRLHOwt4qSf2hvEVZ-MsSp9BpHXoFo_GQWNo57weNamQ0GfzUA_ANKT_Ot3bbGlWQTXQSXI7dJUr41MteAle--4rtBCssGv_vsM3z32BCp_gwOHo3Xx2GSup_FSzVR7wntopiPd3XXpAj-Kj6ZLJDRGOvQSe9GQbJxFJ2AlPBlSvWG97vuvQpXtYdWN-ljDto6mSvsHqAJvBa8_erMkRI767DzRS-v29AEnwn2Pa-4GIG1NU3qHXeC3p-5QW0M_bbqdGqLC92Jj9Aef0BsHg",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103351381600041576098\">Tony&#39;s Lists</a>"
+        ],
+        "photo_reference": "Ab43m-uzsKCeK-eA3aNeoaO8oTshR42Cp9VP3F10CP9r5gY17ns-IEiPCZtRuPHsDFgt2pFt9VOmnPlOs7_dBxdAkd74b9ZvxKjnFsaCop_MvXkvYa1anjBtp1wxsfE5nOnmWnv_u8zxS5tczLymikCuo9_jHo4op7BCB9y2a8RVoopwYYDD2Ijt8sLj7SrDd34IFwS4cSeaviAUKP-jthC5Li4GfAM5spUrlc525zXrn9E3EUZ0wTqC_4d-NewhYnxVftcF_9llEGZHusi5XwbKimVLH_jczROevFnz6IlKjTBnlTG2jY_ovprt7sdbyitWjv3b6HbiRXXx6Itm8Cvd4gznPWSphAY9rmAYUOUQHKu1BQnKHKDOVI0v2o8p6YLjr_OqIvnZgwpOwJZdpyoNEuJd1Grnl3OvfDeacFXxNT68U5uJtMxXsFgLxKlXnsvA",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116955338076081960271\">Sri Tejaswi Gattupalli</a>"
+        ],
+        "photo_reference": "Ab43m-t_Qk4HU15FeVLWmwly9FdSV0uXz_9mnNeaKP_8fvDL3Bq7s_13shPcm07TjU0hfV4vApym82FLhcrXC1yaXcij4CkpAl34qg5RulPHGGheYyhRbQlTByEnvsmlUhhANiDIadueOPKZhYMT5lciHmSBKVrUZ7Reynq39oB8asEoXqcuJvSuYF9hydiIbun1pD-9l0UY4xMMrfIFncFis5W43fNVneXYhb3cPe4u0NJ2llcFqjMO8sicDu3o9n7qSiezjkWT4MUxRyxM4MKAQjjvQcO_nnjdpoOta51QBgYiDOKFGkWVm69lNYeSMk5F2bDBI9YeT9vrXXTRbUIeA_ccm3IF_4beS0UAHPLfiQqQcyxd0oa0qGLx6uQiKSTC4q23nzLrWZPGgJAwhQWv5Cm3sV5Xx_5qu8hwebW4dIF4-Q",
+        "width": 4000
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100312738636230671202\">Alexander Fainshtein</a>"
+        ],
+        "photo_reference": "Ab43m-vCDVGDJS1ZvIU-ilr6i1wSTei1RurrRJFmMJ8dpCGgbpjgawL8WQR5qtMXOi5vieVMn4Y0_6_cIUHhPp82p7XlO9BQ5UOUSkOOsy1NDm9PhDuVu0jBc03plxfqbNSK_zHcrYbv2AMZPiPoS3hyr9LxMEGV7e2MA4CmCGKVU6MEO5IYdVfyMyUe0hRPFNPLd0R_t9qz4q3TKPeDx0SRi_O8gt2-8tGvKc9a6HWQbVkHQbcaXp4TVCd9lL54nc-MlApUaxP2m_zG0YSiysIZGrKoG2x_ZOgd0VviTgaC0Ypngleqejus0nbYyKwLaYVqD8yHk9JAEAiCONQi3tXKa73HRYbo_9JTVjKeFk4yUAcbF2xUWxbpAQgRedQCXRNoKfyxCkdQrUVEtWNJEzgHHQ0Fen85uUhot-NHfe5s1qKRfjGv",
+        "width": 2560
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107744175413580233497\">Kithinji Muriungi</a>"
+        ],
+        "photo_reference": "Ab43m-sKxekGBrdiIgeyOnQLpg_tPIaDAIZle9ONndndv4hU4Zn063xOILQjfipG8S5KORLdLiOmR_1_uggP2X0_YZ1zvkuhOoisJmlnk0yVKBB9pbAIrY3IoCnxQZCN0jr7tyPkRmbdvjYizqQhQL65OryLYrqjuGwxou_bh9ciaEHSCG90hIXhGMdTN0yzhbtKQw7j5oF4U_FbXNl7G09bNwr_9bx8zRmmRNi85NzuWXDCd9x7p0oCmgl6ZmH5y-35MYW5VLNIK3MwpXNldUoRfubNEWbDkR0a06yw09Yq5P66vI7VCx2eG_t0xQQOCLamsqf6JwKXv9x68z_4aNT57nVyidFlZMAtK63tz0ebKpB9LShNR92fQV6qEEYbabpMX9sWY1UWzdERSqnZEFrIe0YHneZiKdfCrubhJ1OUgef1VUqF",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108698787936250593749\">alejandra corbella</a>"
+        ],
+        "photo_reference": "Ab43m-tQOmse6SjrwIhnIz6PcK5KA-yH2NR-mMfV9lSLngghcGTb2HbFNhe89hxqGET0WiHyt7xP7ywkHw0nV3D-38v_owSVkSZbo91UJ3px4q-hWc8T5JUsy4ss-R62m3ycYVJHWnDxOC7FojGGypjwzmPUHZQZ8SL6Yu44svotgjhuHWJ_tQ8X8s606ZRR_P2MA2jguvdySFQP3-8inJyJjG1lyl1fWFHPv0ZYBW3r3gNCKC2allsId_G89G-eVeQTTctlP-QyMbqENsElNWAaV0HZ97PfnFiiFP3aVhWOaxqZrhX497eDBt9lMfHhcAw1nnN2-RJ8KyvRjBJbblXsFwCS8qobjuH08aVb_tvd5xrdJC08SSup9GCZzjTmwBALTz3MztC5zEnAvrYBs1qRzch0NHnzXtxt_bzrHrNeoLVtbq0",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102717922701479731318\">John Mungia</a>"
+        ],
+        "photo_reference": "Ab43m-sXV4PMjjz4a1cQT--PNoHMX6oETrtvns9N4cQJ_Ms0cJouDKopsVi5j9hTPh7RPI9lOS26WMhaLCRE6AxqqWEyomoi8JXteKnkXGG1M8jmgwiDJJiW2OwNQSv0ojxpO11t0GgO4zvnqIlgzxwO_0A8b-yIr5NEFDYatBvh5UVeaDGVIpjXl3r2fWLi5qFhMnA4Rt8xEN64Gsn1-HCtKgmkj6IObWcg1e7eXlPvqDw0AUic26fQUGIcuWDuVvpqDuHaQSEIkLHymAjQRRI7yKd8ddIzxsJDeT0GvMTOO9kcLZv_DIHmimJuIGP2xI9NpXHMrBjtW15UzFS6T41asNPT_srMBVedK0BUnleNbxD-8SxTEyjLQCjtdY9w1oA6usdHJ92MbQzLO-46t7aramHgpZ0tpulFY7eQh3V5jeg",
+        "width": 1920
+      }
+    ],
     "place_id": "ChIJ06zmdBK3j4ARUW7KQix-b58",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11488539903009648209",
+    "vicinity": "855 Maude Ave, Mountain View",
     "website": "https://hackerdojo.org/"
   }
 }
