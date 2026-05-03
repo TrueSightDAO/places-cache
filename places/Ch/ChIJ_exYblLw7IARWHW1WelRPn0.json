@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lassens Natural Foods & Vitamins SLO",
+  "place_id": "ChIJ_exYblLw7IARWHW1WelRPn0",
+  "result": {
+    "formatted_address": "896 Foothill Boulevard, San Luis Obispo, CA",
+    "formatted_phone_number": "(805) 250-2805",
+    "geometry": {
+      "location": {
+        "lat": 35.294926,
+        "lng": -120.669991
+      }
+    },
+    "name": "Lassens Natural Foods & Vitamins SLO",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 21:00",
+        "Tuesday: 8:00 \u2013 21:00",
+        "Wednesday: 8:00 \u2013 21:00",
+        "Thursday: 8:00 \u2013 21:00",
+        "Friday: 8:00 \u2013 21:00",
+        "Saturday: 8:00 \u2013 21:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ_exYblLw7IARWHW1WelRPn0",
+    "website": "http://www.lassens.com/"
+  }
+}
