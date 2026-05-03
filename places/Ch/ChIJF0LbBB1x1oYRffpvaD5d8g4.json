@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Celestialrites4thave",
+  "place_id": "ChIJF0LbBB1x1oYRffpvaD5d8g4",
+  "result": {
+    "formatted_address": "543 N 4th Ave, Tucson, AZ 85705, United States, Tucson, AZ",
+    "formatted_phone_number": "(520) 344-4203",
+    "geometry": {
+      "location": {
+        "lat": 32.2286772,
+        "lng": -110.9657834
+      }
+    },
+    "name": "Celestialrites4thave",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJF0LbBB1x1oYRffpvaD5d8g4",
+    "website": "http://www.celestialrites4thave.com/"
+  }
+}
