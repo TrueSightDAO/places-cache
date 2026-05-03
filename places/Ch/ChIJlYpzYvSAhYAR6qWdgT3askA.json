@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Devil's Acre",
+  "place_id": "ChIJlYpzYvSAhYAR6qWdgT3askA",
+  "result": {
+    "formatted_address": "256 Columbus Avenue, San Francisco, CA",
+    "formatted_phone_number": "(415) 766-4363",
+    "geometry": {
+      "location": {
+        "lat": 37.797675,
+        "lng": -122.4061667
+      }
+    },
+    "name": "The Devil's Acre",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 16:30 \u2013 1:00",
+        "Wednesday: 16:30 \u2013 1:00",
+        "Thursday: 16:30 \u2013 1:00",
+        "Friday: 16:30 \u2013 2:00",
+        "Saturday: 16:30 \u2013 2:00",
+        "Sunday: 16:00 \u2013 22:00"
+      ]
+    },
+    "place_id": "ChIJlYpzYvSAhYAR6qWdgT3askA",
+    "website": "http://www.thedevilsacre.com/"
+  }
+}
