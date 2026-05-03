@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Modern Apothecary",
+  "place_id": "ChIJ_dFYLBjhmoARjlb5wncI--U",
+  "result": {
+    "formatted_address": "9500 Greenback Lane, Folsom, CA",
+    "formatted_phone_number": "(408) 854-0588",
+    "geometry": {
+      "location": {
+        "lat": 38.6755851,
+        "lng": -121.1996291
+      }
+    },
+    "name": "Modern Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 16:00",
+        "Tuesday: 12:00 \u2013 16:00",
+        "Wednesday: 12:00 \u2013 16:00",
+        "Thursday: Closed",
+        "Friday: 12:00 \u2013 16:00",
+        "Saturday: 12:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ_dFYLBjhmoARjlb5wncI--U",
+    "website": "https://www.modernapothecaryskin.com/"
+  }
+}
