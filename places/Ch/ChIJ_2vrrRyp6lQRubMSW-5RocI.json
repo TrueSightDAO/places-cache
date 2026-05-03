@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:22Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Nana's House Apothecary & Wellness",
+  "place_id": "ChIJ_2vrrRyp6lQRubMSW-5RocI",
+  "result": {
+    "formatted_address": "144 Southeast Clay Street, Dallas, OR",
+    "formatted_phone_number": "(503) 837-1098",
+    "geometry": {
+      "location": {
+        "lat": 44.9186058,
+        "lng": -123.3160778
+      }
+    },
+    "name": "Nana's House Apothecary & Wellness",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: Closed",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ_2vrrRyp6lQRubMSW-5RocI",
+    "website": "https://nanashouseapothecary.com/"
+  }
+}
