@@ -1,38 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:47Z",
+  "fetched_at": "2026-05-03T07:07:17Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Edmodo",
   "place_id": "ChIJQ771T-Cej4ARiEhoZib7ZZ8",
   "result": {
-    "formatted_address": "777 Mariners Island Boulevard, San Mateo, CA",
+    "address_components": [
+      {
+        "long_name": "777",
+        "short_name": "777",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mariners Island Boulevard",
+        "short_name": "Mariners Island Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East San Mateo",
+        "short_name": "East San Mateo",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo",
+        "short_name": "San Mateo",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94404",
+        "short_name": "94404",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "777 Mariners Island Blvd, San Mateo, CA 94404, USA",
     "formatted_phone_number": "(650) 513-2735",
     "geometry": {
       "location": {
-        "lat": 37.74087731,
-        "lng": -122.5068727
+        "lat": 37.562112,
+        "lng": -122.2860348
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56324508029149,
+          "lng": -122.2848354197085
+        },
+        "southwest": {
+          "lat": 37.5605471197085,
+          "lng": -122.2875333802915
+        }
       }
     },
     "name": "Edmodo",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:30 \u2013 18:00",
-        "Tuesday: 8:30 \u2013 18:00",
-        "Wednesday: 8:30 \u2013 18:00",
-        "Thursday: 8:30 \u2013 18:00",
-        "Friday: 8:30 \u2013 18:00",
-        "Saturday: 0:00 \u2013 0:00",
-        "Sunday: Closed"
+        "Monday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
-    "place_id": "ChIJQ771T-Cej4ARiEhoZib7ZZ8"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434076474789456103\">Ambarish Malpani</a>"
+        ],
+        "photo_reference": "Ab43m-uMGVmkgMl85Y9-Sbwgavp5SdtZU_DEVdpI1O5TpkmcD88QP93qK-TJrMQDe8WqFvtoFLx7SA4IQN_m_0g8ciLEll_DWL9uEQJmnsDNJv5-YSgy8SrtxNeB6-lTwdtD3xhtRe0cuWT0PI51aKA-na6Elf6Sm8svrMjidJClSDtJyB3EUvr4CTD_1WDKxTPT_9667amVUOMrZnhtQ0k-SFnw8t-Y87O5yWRCGrHW4-ZctraGEh5AGLqpzfYMJBf5ECDs_CR78PqjznteF2-5y1W1Ytvi-qi-OVgZJpOlYRci3FNNZB5LrWZKMFxrYK4EGHwKczSoEkvoDGn4swCGi3cm-C4VAKxxC7gTY5SFrLiVxZdDWuJa953RaFi1-QJQwGChGkbeDRSMKyaPE1suvFLeq8o_yAJAHOOKF0L_cVzORwLB",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111161955250277940255\">Mikl\u00f3s Sz\u00e9l</a>"
+        ],
+        "photo_reference": "Ab43m-vkebU121McxBUrqpK-mO1ljce6eMBe2T61n6HaG9gIEV4hyP25i3p9_84AKe70LXevO2s2dYYfzNBRaY1x8V_kyb0XvZkG4dtJnEY4FtcZn5cB5VHb5qz6mx1TlUGmv0XOMjGLeu6xTnBGLwptlihvTSIZxxrN5SauXy_dK2zNchH8GS2UIiquhJg9usqYS2YPvDMIqx0dh5m5S9liV1B31L8sZRo0T1O2qSls3_94mqIJzsNS3kZwVZOh4o7FgYli3j7-mk-Jba-Wx5SghArCKomKLl6oDLrXoRHjii2Cp5ddK20OduoyCz8bt77WJtb-a1-mNOdR1UZAEA81To55fuXiKO2SVtiU5dJjBl_RVWnqhLyef7uGAdN3USFd3ae24iPAE9I2OmEppowcwwyDse5dtTXg4hTxZHMItLtPAg",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114069027516464669456\">Hatem Radwan</a>"
+        ],
+        "photo_reference": "Ab43m-vqht8sevF2DUE-aDfOt-5SM2n4nUhCtr_sInT7gUtYR2Id2K9q_mJX6EPTgtxeYZXKQMXss5CDRm1ARdy8Qv5jvWi-dOmqkvtMExvJXl1peDZlZyH6mZyHD9sQ2Dhw4DpOFTm-MOzGWdS_tEGnoUPz_0CdK2widzFXPG6qtZu6mVuDL1f5K7kBIsWDyeegqTcy8_jZrRmtJ5aG_Q-yiyqYedXuu1zP5enmFq8NTzYON4IpKrnsZzOdGUrBijIZXowgHBzbwmZhoPso_uJVGtNSX9A9Fj-bW8Fp9pfaH0leZ6Iz2Ihh4QfCifsnHT-WFfTARXi1i-LGeZx9k-syM7oYT0h5lHPWqvaUdfmMzP-CuMXbooBPz7NUgh4N_X0eHW1aksj9VxBpHDFimTuXuEvnfFnSZhdaBz7F55DjH58btg",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434076474789456103\">Ambarish Malpani</a>"
+        ],
+        "photo_reference": "Ab43m-uLTDrWK3xRDLEuAK2A2FCfjzQgU55-Bnuk4xyo8pc_GP2AmqyzV0bXzgh4vyzArAubGxDGrUy71Wq_HBz_VkCQk3l48HSlssvjDiHhRpZVQANrKHbVB6zgDWfpbk4Fk15VbAuuMCflRHFJigup7fseevmXto194naSqP3GKD5MUEZagz1AvkKO3fMmFa17YteEuzSDt5QllUrNZaUPUj0-mV-AnSIat32KVy0dqY0e-9W5nnpaUXkQeI01kJ2BwUQDfjMc3acgzsTU9v8RScHCudj6cTKauQn0TEVQxw2D0LSkOTqcGQjUKwRMy1RGvh86nUSbO9_TMpYWH7e-Oc82_Hsyk67efDn_Kf_2GO-kRV7WmxLdT5l5tL-duM5zOez7hOLFZfPIrZQiKQkkU90MN4f3KDHcwJlWkmrNV4sr6as",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114069027516464669456\">Hatem Radwan</a>"
+        ],
+        "photo_reference": "Ab43m-tgtwf72Kih-qdbn7zazd3rNmJbwUylwMFl9l_dZZEAkTAzhIVsaqhJIv36ZjExktTYR86V8sQEt4B0bbq-7gUmvOjBO2kUHgQOqZAFh_FosEhzw8goSDu-cvzCH8Iht_B-exI43fLG1hgHDoqKlGossJ-rD_AZs1-kwbTa-SmOV1RlBB_IaAfbPZf6nUeRvqS0a0ogbmI81UfjYjBMXrfgDPjsHqhj9Sg2smC7-u8I_7c9ims3v1a-Y7spTkLqeEXI4zCTlVCb_lxcQV5pxmilswAs0OZom8EENH4zC7Llh1dLHbUQ0ke3XCUiOW3z40rkUMUA30_wy2XdcW-rmghYUYtmU_bgaVf7_wTSFC_DbiWR_1skcqIxv7IuPh3iYbZdzq-aA_tNyS1FMyEgUqGU084MCegnoS_e7TShC7A",
+        "width": 4800
+      },
+      {
+        "height": 543,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117113404684958853868\">JP VANDERKOK</a>"
+        ],
+        "photo_reference": "Ab43m-s8vWwSB0jYMHTIgl_XQYvp9-vyI8H3ktgJxOFYQkxMeNrq0UZhY1GRgQ6V7hjIWCFmTIxGq7CdEI4YHM_geXKaHpsTRejmkLV85hJmHpmUT2HDQ1maHp5xUK9JevFAopno0DyedC-yugnpeB-xN7OGC2LzR-JE6EZ7gqIXcGBMU469JZzkUA2v-016GMKkaUJE79qCcrv8VIQouis5Tw8cg6v4J6gGusu_6jpyUiYy4zZphR5j5u4k7adi98nFRZZiu8eKncPT41LZeUQY7c4GYitM_PZQmUL8bg_rGo-_AOxAPfYPS_qv8lp2_SSdBV4y4mNHpgBArIBdN6DHe5uW91YS-MTnJpxythujxcWOP8EE9LD0jvXBttedm_yKE2iL7wimTptJdzKPDf4HgbYfj2sZdYPQgmUx1-TrZ-37mQ",
+        "width": 960
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104335001781935561783\">Zia Ashraf</a>"
+        ],
+        "photo_reference": "Ab43m-sk3wypgc6jtYJcRkehis-LVsLEbqAqV9QEpt2dPz4XMCsUD4dKOxAofMoOrjkqSJUCYPK8jOYn4gVbaxeG60W0auDOOpsmgvFql3pBem5P_abZau3TJGg52zH1PjdqsbN4cxMWb4iZka24PCWgp18CclxGd3AP233g3WD53JDHNbrpE5RIDZ15UciW46EVX2BtVH65VxFEWaL35PFX_VRb1iQtubT722OVFIrUcj6gV53h4protj21UUrs-2DkUAxj788CiAu9fbpMyC7MCfGqN1aL6A1gaD0JdFyFHx0KFHiqj3o3HaT1vGNRUEUsdJXyPd8bfVufKag7vtZ76G76LRAMvyyAGDtPNpTvhcSFPYiDOFLq91pepXnyuCw8VEUDlHLNrlytekwsUKjJCT_12HBKwpKCWC6YLVYJTXf3bvg",
+        "width": 4608
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114069027516464669456\">Hatem Radwan</a>"
+        ],
+        "photo_reference": "Ab43m-tEhmScJWAYf5dJfraPZSnmcL50yIQtLYHj08klywc8hwhkvNPkPr_0j7iGgjyQHeXTQAoOBiYxwNLp9WF0HAfSZtjsaUCIsK7JuwjGMwLl_eQBIvwMgbJYu61dImSez4TnPwGBTfMxcpkr06iF9lUprADg198-KGT464YUj4sg2smuYZ-TvOPcAOeQTMnAxpec4NZIeHsrPK9SAigGfZyOUe62fOX8asy5Qp1nL-fRMAd6hREXKvs5EsgSsq4kFGc8GFfLQACRFV-AiCZ3WVmmBMc6LZuTy7KyCpzOVg0RQhXqmyrws49FtEtJh-C-mlz_FaMY9CUY6S75ztop5jBJz2tTp4o0V8KbPidpwUK2tjLrmxdjEHgj161tl7OhKWoN9ogbk2QSF82XuYmci80jJY4TccOrcqs4VDox_7Y",
+        "width": 2700
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114069027516464669456\">Hatem Radwan</a>"
+        ],
+        "photo_reference": "Ab43m-sxYN_oTtVtsEDd0zOH1ImBNnLJYbXNqT9ZTjuxYxy73KMmBnGVrBAt5lxkDG2YG8sFcnC4N3idIYmCCTK2DLRV9pF3u8QktL8t-n9vaE5DVa4hd_EDlFG84iSrpjqM_ROad94T12yDB64ERad_7PSJsBowQ4zCZxPQ-_DDbTaIZHuygiVpbehJCAG99547LsEicIL0W3EnJx98bDzkvGSMSBbYYTLcM9MqjSpiKgp65VnkTXN8OrYJhiZvLcs67BP85BR2MXHQM1XX3b74jSi3ykkLTkHwF8hjhd8COQRnR_ehInaNTany04B_sqypbrZ4KPTSI1HlgpJ9Pl1pL-qSD4GiyAz-RIXr9e4vCBHFkSbfs2V_lFFjf9RKUxBqC6Zb4PnLTwlds_tpayfQTmVTLJu5kycoZoDtDLspLaE5T5Xn",
+        "width": 4800
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104335001781935561783\">Zia Ashraf</a>"
+        ],
+        "photo_reference": "Ab43m-tAYulRaompneAOGSLqF8CZvzv8bJ_di67yzofCF2tzsSLDPVFAv7QbHCKW8TuvAT1kbMeUta-o6tH-KZ798Qr2-9J9PCAMbwPon7-O4G0YbQ5n6n1D2_HN0XokFRlqZ-sPGKYuqQ54JG5JNMWy88yicQuCVb31hTDkS3G5kM6_Sqmvim68QBrBJzs38V1wtFJg08IRBZwUnJ9goZrF5k5IngrORySviKlNhfo31GOYKM2f6qkK573Lcgh1Y6Ab4fJ9fh3GOpmEcTZV_GXeMMVwAIe12jhYMrwupICf61Sc4c_JZlP26puKP3jGiGz11iDM2xhFkYJnMCGjQOKzptnddYc6TyXj8rsSMhJc3vygDZQzS5i43IxKIXvhHgDllXH1djB0GuGoAAk_s1mnT79kp-LntUopm0YOsOfik6gGvKS4",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJQ771T-Cej4ARiEhoZib7ZZ8",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11485862567023757448",
+    "vicinity": "777 Mariners Island Blvd, San Mateo"
   }
 }
