@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:04Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Apothecary Herb Shop & Wellness Cafe",
+  "place_id": "ChIJV-5mwVmnlVQRDek6jYBRSR4",
+  "result": {
+    "formatted_address": "825 SE Madison St, Portland, OR 97214, United States, Portland, OR",
+    "formatted_phone_number": "(650) 569-1093",
+    "geometry": {
+      "location": {
+        "lat": 45.5132154,
+        "lng": -122.6571018
+      }
+    },
+    "name": "The Apothecary Herb Shop & Wellness Cafe",
+    "place_id": "ChIJV-5mwVmnlVQRDek6jYBRSR4",
+    "website": "http://theapothecarycafe.com/"
+  }
+}
