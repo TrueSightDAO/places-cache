@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:24Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Reliquary",
+  "place_id": "ChIJm8Yue6KAhYARIZ3SLpRDS0Q",
+  "result": {
+    "formatted_address": "544 Hayes Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 431-4000",
+    "geometry": {
+      "location": {
+        "lat": 37.776701,
+        "lng": -122.425439
+      }
+    },
+    "name": "Reliquary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 18:00",
+        "Tuesday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJm8Yue6KAhYARIZ3SLpRDS0Q",
+    "website": "http://reliquarysf.com/"
+  }
+}
