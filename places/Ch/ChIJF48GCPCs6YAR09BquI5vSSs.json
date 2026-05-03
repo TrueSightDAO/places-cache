@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:49Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Ema's Herbs",
+  "place_id": "ChIJF48GCPCs6YAR09BquI5vSSs",
+  "result": {
+    "formatted_address": "695 East Main Street, Ventura, CA",
+    "formatted_phone_number": "(805) 648-6426",
+    "geometry": {
+      "location": {
+        "lat": 34.2810215,
+        "lng": -119.2902257
+      }
+    },
+    "name": "Ema's Herbs",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJF48GCPCs6YAR09BquI5vSSs",
+    "website": "http://www.emasherbs.com/"
+  }
+}
