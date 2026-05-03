@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:16:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Botanica San Mateo Boise",
+  "place_id": "ChIJu4hrLuD5rlQRIPxozF05SJY",
+  "result": {
+    "formatted_address": "530 North Orchard Street, Boise, ID",
+    "formatted_phone_number": "(208) 514-8052",
+    "geometry": {
+      "location": {
+        "lat": 43.609632,
+        "lng": -116.2430642
+      }
+    },
+    "name": "Botanica San Mateo Boise",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:30 \u2013 19:00",
+        "Tuesday: 12:30 \u2013 19:00",
+        "Wednesday: 12:30 \u2013 19:00",
+        "Thursday: 12:30 \u2013 19:00",
+        "Friday: 12:30 \u2013 19:00",
+        "Saturday: 14:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJu4hrLuD5rlQRIPxozF05SJY"
+  }
+}
