@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "12cornersapothecary",
+  "place_id": "ChIJmeOj81611okR4go3XlJX6C8",
+  "result": {
+    "formatted_address": "1832 Monroe Ave, Rochester, NY 14618, Rochester, NY",
+    "formatted_phone_number": "(585) 244-8600",
+    "geometry": {
+      "location": {
+        "lat": 43.1282227,
+        "lng": -77.5662329
+      }
+    },
+    "name": "12cornersapothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 9:00 \u2013 13:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJmeOj81611okR4go3XlJX6C8",
+    "website": "https://12cornersapothecary.com/"
+  }
+}
