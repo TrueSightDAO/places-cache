@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:36Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Grateful Desert Apothecary",
+  "place_id": "ChIJK25F9zva2oARWDVDZNHMYHI",
+  "result": {
+    "formatted_address": "61607 29 Palms Highway, Joshua Tree, CA",
+    "formatted_phone_number": "(760) 366-8333",
+    "geometry": {
+      "location": {
+        "lat": 34.134388,
+        "lng": -116.3190628
+      }
+    },
+    "name": "Grateful Desert Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 9:00 \u2013 17:00",
+        "Sunday: 10:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJK25F9zva2oARWDVDZNHMYHI",
+    "website": "https://www.gratefuldesert.com/"
+  }
+}
