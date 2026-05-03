@@ -1,40 +1,283 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:27Z",
+  "fetched_at": "2026-05-03T07:06:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Feathered Outlaw",
   "place_id": "ChIJ6Z9EpiiBj4AR4oTJ-hjdab4",
   "result": {
-    "formatted_address": "1506 Webster Street, Alameda, CA",
+    "address_components": [
+      {
+        "long_name": "1506",
+        "short_name": "1506",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Webster Street",
+        "short_name": "Webster St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Alameda",
+        "short_name": "West Alameda",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda",
+        "short_name": "Alameda",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94501",
+        "short_name": "94501",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1506 Webster St, Alameda, CA 94501, USA",
     "formatted_phone_number": "(510) 239-4593",
     "geometry": {
       "location": {
-        "lat": 37.8044457,
-        "lng": -122.2680401
+        "lat": 37.7737284,
+        "lng": -122.2764878
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.77505403029149,
+          "lng": -122.2752966197085
+        },
+        "southwest": {
+          "lat": 37.7723560697085,
+          "lng": -122.2779945802915
+        }
       }
     },
     "name": "Feathered Outlaw",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 19:00",
-        "Sunday: 10:00 \u2013 19:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-tnhV6EWnNzXs1hLTRi_rcXUu1isv4xGedXioUAcomsqQJOXKpHxh_vzvZlvekkCWiKIBY9Hcl8Gr0nch2hXxw5bFRtn6HKRpxvkubqmsyXKHH0kWOlGumSBgyjqJHDdhpjfMeJUIr1RU1ocCTFaA5MlDQwZoRsF2cKA-_KUiFH2K6kNpygXly5MyXy8XFy7hvF49Gu2IS5ea3qAEvKeNZqRhI-3pEF1cBj0uIuTYi_DSOKVA4jGLr6K01arpvBEN538V5VdeQ8TtE1YXUj-nYqGc70FSVEjo5gcXspPnMUxg",
+        "width": 4284
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-vQ4PQMH4am6ZVSOS4A11ziv6WzbxgdM7E93fiI2RNNk0k0BqkjLs8tlNP2R8eQfjEmADuW_RiOTCwx3-hJwinR8fAZuANRTm9Wmqx2hyh8ZZq_20HnM9sy7ue9G2Ha-b4mraanm9lAOWRkBOfxhzrVuezlGc-U4VHlbRcKUPzWOoJZx1AQel1K2gMejKP4lAKdZySOHsr0LgblqcIlxfZHkKYkn-NhGxSbcbwhStV3fRk18acfGcCZTmVK9KKADBXjrrFeOumA0ma1dJ53emO_P_gEF5isV89hn8s0tYlVaA",
+        "width": 1080
+      },
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-suYh1zl364eQdZUAIcv1GftQplfgxBRpshMmPhTiLsybQdfMFTi-EVjq5XaYjDMmd0DoqFHZ8nb4e8Z4XmVpkNXET2Q2rts5aUBdg9O7R1MG2LCPRRU4jty9iietFKSVMHlgNvG4yXvuNmvvag0XSzkefx9J1Bm_zYZHexaKbRwNKvOKLdHQGgySubZ0akYUINqQAYoQ6vCh8n_-ybc7KkhNarx85yj_w6N5tLLCKJhBQtGdX-XTbkr84ZtcaPj5zMkH3l64wc9DSsS06kNA3kh2dASDexJaz3l3ARTrWc1A",
+        "width": 4284
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-ue_RnLsDocR9CURhgVr9ufd_3VgSc6aRSrCy-QJcsvx35YpmEDpNrwu8CxOvus_lvir2cxeSXWpqY486i1zus-8JQ2AN7XFiSaqvNDBgg8DYbRMP7hQVl3R4YJzup2kesyrgP_26VGnM_oSJB9Jiu141-1AfudiJKBK6ccn-5hpp-pxtZsJ4GV2B_knaTYNN0gPYMmscf0Y59LEljC3EW0lRjpX5SCAfvpXWUTOBMo-0ce1kszgUVMtsJv4rH9_zPbUAHR8ccVYNYxL_odfKoFCA5JeQffw1_GTn1zd89epA",
+        "width": 1512
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-sd_DLYoKL0NgkD1euF_xJe4LHUW7HNztB-_MC523uxI1G-7gpP-X8k-mbhguR5HwbpzsRa87iSqPiUx6fVuxc_QP5DNb-vD3kB77s1yjHnmuzPRje9mv0KgCHqLsrrLtl1X6FzOBGzPjRZv_OTWyS6U6jzd5jExt_VGFBclbzETLPTnNZGzCEcGbdYsCqmR1xEXoeTQfQ3K-GiWc2tOUanXarYhkpxmVAZz--paS5o0vdnjOhpSvz5G5sZDe_bKAFOIXRgFhD4oyln0VUXX2Y92ekeH_9_JwTVX-6W6HvljQ",
+        "width": 480
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-sPZ7ib4WI8CvZUQpKJ98-viyyhvJ5ZOgfvwm_LryWX8211dW4bzlIRnQqaXbEaWEgfCiGZSqikCXDtEJJTp3IHlicaOq-yiposCLxcTVgsvbV4X1fu_cB8rfdUoTz9pxGh-mhwVtbRzZXtt7_68Oev_CGSSlv-g3P3ILopDsjom9jGbWnG3lDUKSzNXwTe_S6J1G8j6i--_9fi5QWvAkuDSmL2sRZFIHhnm2SLDiz-csm7n9n0ONk-aRS_90-W2ja4zqXgeyrb39B6EBZT0o4539qV0dXOwqvvPGAeWUZ2aw",
+        "width": 1512
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-tKKQKyhgaqqj6TLWN3NE8ucxlpNRUyVDhY23smW_C99HwBoyxZZ0ZeQdV7wUHpMr181WUcjE3b2lxNz2RPXSDUl1Qbbo5y8bMUbwteu8V0rTuqgIIeh3RuTpAXdt0dVz30x1pRwJqz2vMCsLaljL9OEb3obIc75lm1dJVDmDvL5IMmQBEB1PGP9N-g_Am9G4IORZlK82wyQFitrq8LSuSOj0-C_903zp51H9KkbRWmCLN4jAXN-koEZ46U4fbMQ4qazQxyNpAY4v7UQAOW3gJwkYVEuXXSX-NlAFsJ3NzVCw",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-t5EJxVik58Mvjn9pNtaUwVSCuTZxjZwDRSHcl0rS7WgBoAuZLS_PX3Bc0izRWmtbjazJ_lBnCqUpaX3kIZwq64L9B4ZT3ym6bFhq-Ew2A0UIUtyOPP4RNpoE0ib-_XJJ18S5n6jf35M8p9IHLxglTzsyL5Ja_oMRo6LoHmtJVb4xp8N4wkx3aR8j6OjHRs6x4BodCfS5M0k8loaqit5OcexSHQc-Lup1H2nxE4V4-Ka1uhCoI6Hqxjoez8KetWsaGj7trkRtXNq0NP8s680wwEgdJcghlKZZe_lrkme4k5hQ",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-tDM-euR39sqOcoILIu2eeI6iVjIk12VZlDJlhCxdMbPHWXtdjgBtdebxbYcnyGggj-_aZLTSf-5hOLSdmAMA7hS1b5N8FdMnx_tBTF3VVESfv2dqoxhayREjpcoXQI0ABUWb8jzDHeYpNRx3i5221CurxwpPSjVwehiIF9E3Q0oSbBMukKWAO-KGlc0DKfNIhqpuiNl1lX1HVabFfj9tmrebHSKoHYE3nGJVGln4swkVxYbOTfgaPs-mSJhw1qDihwadU8fQAysAw7goQiAxMSZ-crVfv1TlhhINvv3uGg6w",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108508593934585872291\">Feathered Outlaw</a>"
+        ],
+        "photo_reference": "Ab43m-sM_AeN4ZgoBceB2f1lLkaqK8obHYFolbHbWIidEmvOrSnv-Ohy9GWWcZKxzOJ8zGMl8vOIf_xRc3MQEN68Y60z_DY9RJVSHO5KbYzrv3g0QTdrl4w4glhsvWSipqYg245cF77CVas8Pmv4zZKAvNXUvi1loNboUAlPSed-tsDG0NnHUH9-9-wBprquQXuiqHIVrDUpb2dvgQjztWRR_2sROsEAes_XpbH6PO2peEc84RqbH4XCJaRapQPND6Khfhc7QgFeysKRfZYW8N0GRU4n9TeI2_9iovaE2UzHuc5kUQ",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJ6Z9EpiiBj4AR4oTJ-hjdab4",
+    "types": [
+      "establishment",
+      "food",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13720740839117391074",
+    "vicinity": "1506 Webster St, Alameda",
     "website": "http://www.featheredoutlaw.com/"
   }
 }
