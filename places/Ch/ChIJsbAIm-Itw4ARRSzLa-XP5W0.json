@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Naturales Elementa Apothecary",
+  "place_id": "ChIJsbAIm-Itw4ARRSzLa-XP5W0",
+  "result": {
+    "formatted_address": "808 North Garey Avenue, Pomona, CA",
+    "formatted_phone_number": "(909) 319-6304",
+    "geometry": {
+      "location": {
+        "lat": 34.0656721,
+        "lng": -117.7506461
+      }
+    },
+    "name": "Naturales Elementa Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJsbAIm-Itw4ARRSzLa-XP5W0",
+    "website": "https://l.instagram.com/?u=http%3A%2F%2Fwww.ayurvediclotus.com%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnDmcR_xHnz_3HNbkIXVYh2pmG52k09Q4HvKTCVB_UccEoV8WCUrke_DmGSsk_aem_8kuQIqioP3VqZ9BuVtvsVQ&e=AT2gYEtoOEsGV3lZ8flHrBFi38hbkkvvY2YOPCuo5I9idWaYS5HplqahhRukn_ioYItQEn1AfPaGFoypjaFX0rTj3Qb7DkUEsob4TWde8Fw9CfHPY8DYJiVRWQ"
+  }
+}
