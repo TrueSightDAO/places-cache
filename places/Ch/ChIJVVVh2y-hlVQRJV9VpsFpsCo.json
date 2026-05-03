@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:11:59Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Herb Stomp",
+  "place_id": "ChIJVVVh2y-hlVQRJV9VpsFpsCo",
+  "result": {
+    "formatted_address": "5700 Northeast Sandy Boulevard, Portland, OR",
+    "formatted_phone_number": "(844) 882-3133",
+    "geometry": {
+      "location": {
+        "lat": 45.54204,
+        "lng": -122.6042937
+      }
+    },
+    "name": "Herb Stomp",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00 \u2013 19:00",
+        "Wednesday: 10:00 \u2013 19:00",
+        "Thursday: 10:00 \u2013 19:00",
+        "Friday: 10:00 \u2013 19:00",
+        "Saturday: 12:00 \u2013 19:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJVVVh2y-hlVQRJV9VpsFpsCo",
+    "website": "https://www.herbstomp.com/"
+  }
+}
