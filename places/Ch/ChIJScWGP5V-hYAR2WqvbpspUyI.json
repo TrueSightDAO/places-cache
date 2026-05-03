@@ -1,40 +1,289 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:26Z",
+  "fetched_at": "2026-05-03T07:06:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Berkeley Herbal Center",
+  "name": "Berkeley Herbal Center",
   "place_id": "ChIJScWGP5V-hYAR2WqvbpspUyI",
   "result": {
-    "formatted_address": "1250 Addison St, Suite G, Berkeley, CA",
+    "address_components": [
+      {
+        "long_name": "STE G",
+        "short_name": "STE G",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1250",
+        "short_name": "1250",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Addison Street",
+        "short_name": "Addison St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Poets Corner",
+        "short_name": "Poets Corner",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Berkeley",
+        "short_name": "Berkeley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94702",
+        "short_name": "94702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1250 Addison St STE G, Berkeley, CA 94702, USA",
     "formatted_phone_number": "(510) 225-9849",
     "geometry": {
       "location": {
-        "lat": 37.8683801,
-        "lng": -122.2868087
+        "lat": 37.8684285,
+        "lng": -122.2869668
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8699668802915,
+          "lng": -122.2855401697085
+        },
+        "southwest": {
+          "lat": 37.8672689197085,
+          "lng": -122.2882381302915
+        }
       }
     },
-    "name": "The Berkeley Herbal Center",
+    "name": "Berkeley Herbal Center",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1500"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 15:00",
-        "Tuesday: 11:00 \u2013 15:00",
-        "Wednesday: 11:00 \u2013 15:00",
-        "Thursday: 11:00 \u2013 15:00",
-        "Friday: 11:00 \u2013 15:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-uwGgNZj2RBWC92gevzSeVKspmbrTFNqbC65Y20w2KVTD7p-7s8ScIV0cvXk3WOLC7NWKfgGQoW8-WXQAuaizkhEmuFx2rLJjxgU3m8hdkyg40agr0J9-WagLKIMCpX0jS1JvNHViDcMAfnOu58W5cUFZdM6LwKcBCY0jDW-EINg7LtbE02ppRqoDl4zhJVJqlD8uBxpkTk0LM0usFALjrbkqyys6n_sCIyshQEGiSDjp--f3aqsEwvHtGqDS1ZSgkvzXHxLZ9Ud4C7JhyjhqGjes6NMi-7--rURS8Y7G_jfQ",
+        "width": 3024
+      },
+      {
+        "height": 1764,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-sa2X4MmF2hBYoYCetM5OqyhbcziHZjkQdh7pXOE8rJ9DsxunSyNRuYbJqnty1vbkzLBsdB15jErz9PCILfMfADOcwobfROuXTbId-63v0vDDn3xMXWUtrhZE86m4DFLerylnpWVActN02_oSi-SHrlx0cEoOkbzkdjwtOvdo1_Po1F0rvbQYM5poo8Fq2J7nnKO7v6S-yTWWwYzUbNZhpGZm8UO610jcQCF8_b-4sliyoiicI_1yeOQ-wnsOYCbSROM2fWG7u4quC5y4D_g2r6-Cfb1dxvSHdeiVgnd8l6jQ",
+        "width": 1535
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-vF3b-zeb3-9HiBVpVVSCSpgSQoNJj0tZpfT7owlJIe35LJk_VAiBxCWr-lZ31WmI0wmf2IDKa9qZQDm5auFcq-O48doacOWjCS23rs0Rys7YuxKfHBTFcW10fuHGY49a9wCI8xFINiydMnf7zwKVDUqdwHo5DJwBDvDAr7jE58yk1bzL69AXvM-1y0pqCMlFguzvKIoXhCpuQgwHwxeERDR_rVPoTuab7WpIxQweqvIWBhXZkvKoghlxPL_lYKyHR2xy3MAG4OwvvnUbnqu-ZdHELbYMYetDJwtO4YYChfDA",
+        "width": 4032
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-sc8mp3IxLv8Fy6pJiMLIgiYipMgWOQeIhuMp07iFTv_CObREmE9MCZC36F-CJ26KH-J3YDYK3LnzXCsiBeofC3fw2LD1iMnRe3H2IURzviwNdDpuT94SW9-BMfCcXUn0NDPKYQ6WtkzFrI2_4Vz4e96Be4XI3fmIBxkfeeAZfvZNzpS9rjSbVIbAkvZsupJ9zie3-X8qZ0f_kvVvKUBX2X0NPpWk7hQiwG4ATlajlEvXdv4Bip98GqcgiWd2gmvAp1CyNeRSjO1_WjsQ14HJNSVAq9mhl_yjiqI_pJ629u_w",
+        "width": 558
+      },
+      {
+        "height": 4500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-vtPCoEwCgbGiFtsMkIOb8BGzUwnUKfr5aBK76YgdHB5DE-LihaYDR8AGlMGZn1qH7aaSc3Hb0Lhnsql9Gd3NdNuRRidXEN-clRhTRQQOEDsa5A5IXRIFtbtOxGoo8265h52zqe2NkGqdVZmSgJfGnd9Cnp8aObS6lNkLL9IZ-CbDJe93zHc16xavnLMK2E5g4k1mA7H_jvQ6fV9gS-GCOmqMoJm7iIS3s26VcqIwbQ4j3yYkoIfaRi9VQV7kmkYok0LpVCg5yHzhJnQ21uO1QVQ2ZbNvqpTG23i7CatLTAsA",
+        "width": 3000
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-tmWaGMbXPiZt7LpScZNBHV6nBO2st8Fs9aMdAo7NLWJovlBsucYdiMQPfqjCV0p4JKjLOl0MPXkPr3bekq2U69l42CI9lqYk_ZLKJTPG-e8kMiK9LwbR8C3e0tA5Eu8dYsB19MD0ezyOiary39SHxBs4_E8wWVYTYafwaf6OPOp3-tLMdZsoHd1Hx6dAeIFDo-lQt9T9LurGgAPQZkY2duCpYUdKbJxlbvirbLVL4_31EBBJTlwFSLEkXnGpbkrYUfFJg5VLC89_-ArMPoQVYtH1oEuf1fnnd8XnXdmtQLZA",
+        "width": 1536
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-uCD_sQhgaGC40D48nAyNAJBTvgDl6Pc377Xmwscd7X5HzLUyJhV9q7hT_ErsNCdqpvfj-Xq2BtI2oEdQJ4Ig2mF0aE-ep9JwlBKulnY2PpYHy6Eglby42SyWF_MlxsRo02fBQ8N975Lp1ETr1ktWUHvI5VJjX9o4E7Qw5eH3a5tk-dof_bt5_f3DpqBU94bBj1P_vqb0ZZXWlhTSh29HbWXIvTAI6jtJJh0KX8c7-SWdWwGYLRCn-bmL61mOU1Pb4pYnHcjx0Gi3WeVE6Q5YdQTKToceguAageYayk5LlsUA",
+        "width": 3200
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109798917763000650446\">Sabrina Kinder</a>"
+        ],
+        "photo_reference": "Ab43m-tZYwydjkC1Cj99_yDd9wqCxH0wPnB2Neu7wmRPET6fIdRzOgHjul8VmFVhQ8d7ZiEFNdf2k3NRwv7qRrFkPKvGfw9pHCiiTg2VA3cnNtSnlhpWycAnldzAaHPO1P1gU-4EsODuB_GZuVUHFdHw3r4mV2Okr9cd3_ChtqHQHSo9sH2lSkHiZlDM-NhWF0MlxvEJLitP50nD9085hgsklY7-IOInFGO4CsFyCC5IkNiP6VXtW84BsGgTb48RXNNjySSVKtvpqiGpAo21Dyvsaw6IxxUEDlfLbQhYSxQtQr-TEQ7NjQg-XaL5pggV0-OQ5lIHhLm3JhGHesvSrVo8OqHWkxAevISGbEG2yDmqMa3RkNDhokVJeEr3qWwNz3e0nxcdq7J4EceOug-Eeu_zHDnzUfhUD_gB1Y4IlU0KTfKlMi39ND71iN4zu-efjbXm",
+        "width": 4032
+      },
+      {
+        "height": 1353,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107909397809479801069\">Amber D.</a>"
+        ],
+        "photo_reference": "Ab43m-tzqGVMcFxO-uK8YVz8dbCIrU4u9u8JuPDhLhAbKAcosFvbjgVCViT4UbZVhXtJWG8BKJFbIg9ty7sPZin5pjr059ekgsax-_VVkIVz4ydBhSbIs5ppZkpoWHguYIqwArIq64UQWNHsClZB5nU8URH5seFupfQfBynAKiDALkwY_FYUpypGQy883SODt67gH5jVkugZFsd7XWGkB_wYZzdrc2bV69AJq4kU-hAR5Ut4LSJa0OeBMxRhN4E68RWv2m3R7mEdvYjU29CNuXd6hJWGJznmeClT74s0cb-UgPhKILX0FM7F-qMSu1l-Cbe7TOu_hKmL6aljLeGPCPIOkVccEFSxem3wTn48Q-KMX963ld-JAnM2__YBeAzeB4oH2bcSqU_dtjEbKJuDhBatUBD7fe4EWaJuxfeGwu9g2ADIt639L00FF_W6D0z1qjhO",
+        "width": 1170
+      },
+      {
+        "height": 4350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114833832822613760602\">Berkeley Herbal Center</a>"
+        ],
+        "photo_reference": "Ab43m-sAXj8z_5YZn1yx921kA6gdE6z5BH_aTBOcFbrK3jnUNLASw254nCAtpo_NBim9txiiczeWHaE5YqINOOOERQLcclF4smFL5_Z8oq7IPrW8d1I6UDs1sVFLSbyG-dvHhpR9VUM8YFuvl6XMxA9ZAoygi_lagV-9341gyC2jg-BuBw076FDNGPDxDr3VGt4R5iDmtI1vf7lWNni2wlAVUzpHJNWIwCbQVWpoR-Q-WBgml7i3_QhoEE6jB3W0YI91u6bQEx0PYnifiRWut20MFZu26YdmMzoX_JCYTlha35fEyA",
+        "width": 2900
+      }
+    ],
     "place_id": "ChIJScWGP5V-hYAR2WqvbpspUyI",
-    "website": "https://www.berkeleyherbalcenter.org/"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2473366367910193881",
+    "vicinity": "1250 Addison St STE G, Berkeley",
+    "website": "http://berkeleyherbalcenter.org/"
   }
 }
