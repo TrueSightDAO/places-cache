@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:52Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Foggy Notion",
+  "place_id": "ChIJObjNbTyHhYARSA0eH8onqLg",
+  "result": {
+    "formatted_address": "124 Clement Street, San Francisco, CA",
+    "formatted_phone_number": "(415) 683-5654",
+    "geometry": {
+      "location": {
+        "lat": 37.7832431,
+        "lng": -122.4606275
+      }
+    },
+    "name": "Foggy Notion",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00 \u2013 18:00",
+        "Thursday: 10:00 \u2013 18:00",
+        "Friday: 10:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 9:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJObjNbTyHhYARSA0eH8onqLg",
+    "website": "http://www.foggy-notion.com/"
+  }
+}
