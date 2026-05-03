@@ -1,40 +1,222 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:43Z",
+  "fetched_at": "2026-05-03T07:07:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Witchy Wanderland",
   "place_id": "ChIJXT-w_1pnvk4R1soxGe_lzx8",
   "result": {
-    "formatted_address": "705 E Main St, Suite 205, Santa Maria, CA",
+    "address_components": [
+      {
+        "long_name": "#205",
+        "short_name": "#205",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "705",
+        "short_name": "705",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Maria",
+        "short_name": "Santa Maria",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Barbara County",
+        "short_name": "Santa Barbara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93454",
+        "short_name": "93454",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "705 E Main St #205, Santa Maria, CA 93454, USA",
     "formatted_phone_number": "(805) 668-4989",
     "geometry": {
       "location": {
-        "lat": 34.953279,
-        "lng": -120.4265662
+        "lat": 34.953736,
+        "lng": -120.4267634
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.9550256802915,
+          "lng": -120.4253606697085
+        },
+        "southwest": {
+          "lat": 34.9523277197085,
+          "lng": -120.4280586302915
+        }
       }
     },
     "name": "Witchy Wanderland",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 11:30 \u2013 14:00",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2923,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-t6XJrKfe9Qevth6RQFp2tXtBeaAmnqm8dJeXIxPanZij9TGQLOWNBb3IG_3kxI0xBlMLWNiGHBr_zI4vbJiJu0yeCYpFVNjBdjz_hGLQSoHSRbKrxHxUfsJxPIbFVbg_AvPRJh_tn6Q2h4QNFOM1ODvI7jwHaQC0st92mIG-cP3Txhn8svr32-bNL4Ku1OpiM1Tpi3ABFkARap5n_MMrSRG7oC1Lq5wvs8NgoAfUx87rCIm0WfaVEKBS1JteO0OmOrYX_S51hu78f1_0XmMWss9X6CuNvyzWgdmsVkEVh5WA",
+        "width": 2896
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-sIpMI-Ssok1yvjPXs9_xVBFsjjrJBy49DoTiFTnQCoH0sMX_IK10GPkPFC8CBVSwX89O6pttpsGFBzDPePlpQocPM3QzY2Ob5uN1u5aeMgR4iDYG7Dc9x33deHqLFKXWk4uwbQkpy1Pv5z7eEqhkz1EvmzqQu4VyHNGk1RfQ2a_sSvfEVwU1vEZVltIHxcKm7PnJButkpzjcKCHfjNzvXeEvpNnQb1NrezRSaos2gELmSaZERYEPEzPKdUoEuFnYMcnVEgDPZ3zGKzFHifgtvdOOdwpE-dBDqzxOB_YoMq0g",
+        "width": 3000
+      },
+      {
+        "height": 3911,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-tDBsrxzv8249gxLD0k-3OpWHf2BjVrBmppqfjjgD1jG462LHOTBLKvRuFHaXBbFO_F9CAZxbw5ST8k4Gwr4TuK4P4isMTQW6YVKZ54aslKhfzIfdbrVT1XeHwLypI8G-tZN3F92vNZ_b1Sh5ZzW__JlAt-I1ouNjbU616ctbBDMSU_HLX9rTFYDYQWpz46s2barp-oUvBulJk-UQIRF2XJB0gAj01p5LR_omClsxIUjnEm3BhnqO1J5JJMpI0p2AkqTrg3Rr-yk8ezLYzyFRlSzEndRJGD26pQMDG2XB84ig",
+        "width": 2586
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-shkB-HFarLndxTQW9ZeimjKnq7pX82qxP0b3iD2WpXdymcsIopPYOTamoM8ggASTEJMGDxUfPGBWWmJ6DoSlm1R811n4Y_DVsxqlvcasrRiycBfZr566P2iSODeRT9LgZuc2QNvmHurclLJOtYtu2_ElKLiiIOFTgmiimUxVUPipKPX0XnK2oVtfisqXdDHE0YtfAQOaLRHBhhpXB3NeEpqYJbhcvLgtDljWFIKTmk2WfVs5yYx-xQhFEkOytPSRDNkURvfTUOCkNCooJdyaJoWKRJDN4ajh0OU2WiKiHadg",
+        "width": 3000
+      },
+      {
+        "height": 1929,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-u1UOEPOb9WIPxVOxSLxG8sfxPQQsKjwLCjRe4nMh71v2b0Fj7pbzgH4LDTOGFptrzGvyLErc7vNjLDnyJgvb4T27mCWhwSEvL1XkaWl6faZw-Qhv8dSxfY33nWokIYCSBgZFJbmu3TGMFXf74NSnxRCm42y6Pv6TyrcDK1p29-QKLUJNayq_b6vqygihzYcjzXNYeup4_8sBvY4jWMUfpw2S2XXK5SsTQKhWK85EtY7oT-9josQ6FAjkNMfncLXd_5DCoMB3z2SLHUqU6ivA6VtO3ZLptGi_MQ1R9uuclBGA",
+        "width": 1318
+      },
+      {
+        "height": 3639,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-vLCdlbGcps8DNOf-8v7WAQijv0GYYOTck40ccoxuAGE5TqWjgdu9bQwGVS2vP9H3AU6Zgyq7rD1oH4DaEF118hQBr7ve9-D58r5ITfselXuRsCv6yFYO01bnqunwgdPSQrGRX8ZjBVM7Y1Bqgw0Dpi-FvX4U0ejl5gS_ZfelQ-MAmYjOy4m9PIBVsesimpirh7vnZMEvsuvntlCk3P7xvkR7h0GcYjjiT_7t3hevuRe7s1jTYlmI5PpY0sYfw4jk4Nbrkch4iQOlrlNQ8x7FTicPcTvfXZANOdw1UUNyDJ9A",
+        "width": 2999
+      },
+      {
+        "height": 2017,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-uKs7l764D9pn1DAC17qtkbB6EBjxQJfMPkb5DPjujsG3dHiDg5Qi4gzk0gLIZrDslN29MCcBrDEtBMFFviSrV0CHyiDkOs7Cfy4sl_lg5uYQLqj30FFo1HBQ2vDueI0PIA-DFWrOob7nNdNn2sTRUNFPlxoyZx04ifDbOXQKSFzm7dhJwPAkgPx25AjUqyGRlgiiKftyt7Zh52zb4gU5LZzJh0fWy8xJlSqT59ZW_rqC9KfUkbcSYswuvuiolBziV8fHQqNzuCtWv9l5FQ_o9-8RJfQd_B2hUkgjiyJIoktw",
+        "width": 1983
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-tESbKDGf92tzgLOueEcM7jJ8qALRQ8ZMcOCLZz7N0gsAm0Geyp_qNxXxV0GjiHSyZ1uvqHXcpM23Q0hfpzTGUpGgXnpaMZTD9AH37IxKWqmdot3JqCY353HNyR7xvWDttyH46a2Ok0Q7eyHStak2Q2dAQ3ySyoKih0GUtVRZUtpRiF2Y54-bH5IF5T3wkuXuzS3jAkqUMGlQ4xohyPNwmMpvHxmEk20dk9RafGpVLOiNWYiYhbmeJiDrOPMpRAtm-mSRG0Cnn9jqQR8SfO8CBfcl8jbXxRT2BeBAoU8jAALQ",
+        "width": 3000
+      },
+      {
+        "height": 3255,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-udhkSjSmqxFHo0ixfYkiUaTYtInuVYqS3997RAmRJX3gg3T0TtXhzb671d96_Ubmhr0X71JCdmo9IJOHYuY5Wac-v60_o3yR4wwad_FpphNvqXK5jan1Os9LkdGuY9xMD1W62o9xnrbrD6LpPvyr2JU7QI7GbeKcLJWrf2bY3nvC3Jko7WKkm3dATWOEbK_8SjiyrtS-pJCblH1DMnA_lnWfDJ6jH-pxUwddmW8nRLYbINFcl33kISjJfDORBMVGcfPvdbiI_K6Mpyp4_e_N5FE5jHWcs-r5wTPW_sCDotnA",
+        "width": 2170
+      },
+      {
+        "height": 2640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114406624935472352848\">Witchy Wanderland</a>"
+        ],
+        "photo_reference": "Ab43m-t0v6JrfweBxIptNoG30f7FylA7_v6qoxcpI1jfRYwQPo4kpGiLc7qKzn_M6vV1iHEmYZOzN-6X3Rgz2iBoDTPcYFIj5vtvBc25waR8Mq6y-UQa3CM_EuxCKzBEyzKSHDNL-5-mF_qSkdaKGHgxstAhLy31Q5AqwyK4IGHtOCSWVhsqeeAAGbvdbxWYYLPr4ALzBd_DotcPdzszTKf4DNL7oghsi1S49OphzAuo6wl_e62yJjJHh9RPHCMmu7p1wtMoP9mzvgLSuJ2bI92baarNBVpAMm9XJQZt82kREVRGjw",
+        "width": 2894
+      }
+    ],
     "place_id": "ChIJXT-w_1pnvk4R1soxGe_lzx8",
+    "types": [
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2292303550437509846",
+    "vicinity": "705 E Main St #205, Santa Maria",
     "website": "http://www.wildflowerhaven.love/"
   }
 }
