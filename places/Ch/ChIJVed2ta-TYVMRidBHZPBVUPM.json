@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:16Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bare Root Apothecary",
+  "place_id": "ChIJVed2ta-TYVMRidBHZPBVUPM",
+  "result": {
+    "formatted_address": "14777 West Highway 53, Rathdrum, ID",
+    "formatted_phone_number": "(208) 449-8477",
+    "geometry": {
+      "location": {
+        "lat": 47.8120422,
+        "lng": -116.8977586
+      }
+    },
+    "name": "Bare Root Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00 \u2013 17:00",
+        "Wednesday: 9:00 \u2013 17:00",
+        "Thursday: 9:00 \u2013 17:00",
+        "Friday: 9:00 \u2013 17:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJVed2ta-TYVMRidBHZPBVUPM",
+    "website": "https://www.barerootskinessentials.com/"
+  }
+}
