@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Crescentmoongifts",
+  "place_id": "ChIJTRSWhxlVkFQRondqJzFkAYA",
+  "result": {
+    "formatted_address": "6901 6th Ave, Tacoma, WA 98406, United States, Tacoma, WA",
+    "formatted_phone_number": "(253) 572-8339",
+    "geometry": {
+      "location": {
+        "lat": 47.2558562,
+        "lng": -122.529021
+      }
+    },
+    "name": "Crescentmoongifts",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 19:00",
+        "Tuesday: 11:00 \u2013 19:00",
+        "Wednesday: 11:00 \u2013 19:00",
+        "Thursday: 11:00 \u2013 19:00",
+        "Friday: 11:00 \u2013 19:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 10:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJTRSWhxlVkFQRondqJzFkAYA",
+    "website": "https://www.crescentmoongifts.com/"
+  }
+}
