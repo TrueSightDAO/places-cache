@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Vampire Apothecary Restaurant & Bar",
+  "place_id": "ChIJAQDc3hGmIIYRcmorohuvu-8",
+  "result": {
+    "formatted_address": "725 Saint Peter, New Orleans, LA",
+    "formatted_phone_number": "(504) 766-8179",
+    "geometry": {
+      "location": {
+        "lat": 29.9584313,
+        "lng": -90.0651699
+      }
+    },
+    "name": "Vampire Apothecary Restaurant & Bar",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 2:00",
+        "Tuesday: 11:00 \u2013 2:00",
+        "Wednesday: 11:00 \u2013 2:00",
+        "Thursday: 11:00 \u2013 2:00",
+        "Friday: 11:00 \u2013 2:00",
+        "Saturday: 11:00 \u2013 2:00",
+        "Sunday: 11:00 \u2013 2:00"
+      ]
+    },
+    "place_id": "ChIJAQDc3hGmIIYRcmorohuvu-8",
+    "website": "http://vampireapothecary.com/"
+  }
+}
