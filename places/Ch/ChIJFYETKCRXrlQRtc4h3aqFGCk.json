@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Bella Vardo",
+  "place_id": "ChIJFYETKCRXrlQRtc4h3aqFGCk",
+  "result": {
+    "formatted_address": "5400 West Franklin Street, Boise, ID",
+    "formatted_phone_number": "(208) 794-8393",
+    "geometry": {
+      "location": {
+        "lat": 43.6031487,
+        "lng": -116.2487517
+      }
+    },
+    "name": "Bella Vardo",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 13:00 \u2013 17:00",
+        "Wednesday: 13:00 \u2013 18:00",
+        "Thursday: 13:00 \u2013 18:00",
+        "Friday: 13:00 \u2013 17:00",
+        "Saturday: 13:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJFYETKCRXrlQRtc4h3aqFGCk",
+    "website": "http://bellavardo.com/"
+  }
+}
