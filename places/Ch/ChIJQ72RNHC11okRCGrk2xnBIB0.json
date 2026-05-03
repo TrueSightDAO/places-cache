@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:34Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Thealtarhealing",
+  "place_id": "ChIJQ72RNHC11okRCGrk2xnBIB0",
+  "result": {
+    "formatted_address": "34 Elton St, Rochester, NY 14607, Rochester, NY",
+    "geometry": {
+      "location": {
+        "lat": 43.1552757,
+        "lng": -77.579638
+      }
+    },
+    "name": "Thealtarhealing",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 19:00",
+        "Tuesday: 8:00 \u2013 19:00",
+        "Wednesday: 8:00 \u2013 19:00",
+        "Thursday: 8:00 \u2013 19:00",
+        "Friday: 8:00 \u2013 18:00",
+        "Saturday: 0:30 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJQ72RNHC11okRCGrk2xnBIB0",
+    "website": "http://thealtarhealing.com/"
+  }
+}
