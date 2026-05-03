@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:10:40Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Elecampane Rose Bespoke Apothecary",
+  "place_id": "ChIJwYgptW-XhYARAq81HwiBS1I",
+  "result": {
+    "formatted_address": "914 Mission Avenue, San Rafael, CA",
+    "formatted_phone_number": "(415) 580-2250",
+    "geometry": {
+      "location": {
+        "lat": 37.9750545,
+        "lng": -122.5257155
+      }
+    },
+    "name": "Elecampane Rose Bespoke Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 16:00",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 \u2013 16:00",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 11:00 \u2013 16:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJwYgptW-XhYARAq81HwiBS1I",
+    "website": "http://elecampanerose.com/"
+  }
+}
