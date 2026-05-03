@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:14Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Enchanted Cottage",
+  "place_id": "ChIJPff-QT5q6oARaCK_hZ4cQ-k",
+  "result": {
+    "formatted_address": "2331 California Avenue, Bakersfield, CA",
+    "formatted_phone_number": "(661) 323-9929",
+    "geometry": {
+      "location": {
+        "lat": 35.3683113,
+        "lng": -119.029167
+      }
+    },
+    "name": "Enchanted Cottage",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 9:00 \u2013 18:00",
+        "Thursday: 9:00 \u2013 18:00",
+        "Friday: 9:00 \u2013 18:00",
+        "Saturday: 10:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJPff-QT5q6oARaCK_hZ4cQ-k",
+    "website": "https://www.enchanted-cottage.net/"
+  }
+}
