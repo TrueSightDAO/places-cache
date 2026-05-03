@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:02Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "The Happy Hippie",
+  "place_id": "ChIJ5cy3F3f_YVMR2rwAUWOdkPs",
+  "result": {
+    "formatted_address": "9 North Main Street, Deer Park, WA",
+    "formatted_phone_number": "(509) 844-8705",
+    "geometry": {
+      "location": {
+        "lat": 47.9547076,
+        "lng": -117.4772182
+      }
+    },
+    "name": "The Happy Hippie",
+    "place_id": "ChIJ5cy3F3f_YVMR2rwAUWOdkPs",
+    "website": "https://chelseazacher.glossgenius.com/"
+  }
+}
