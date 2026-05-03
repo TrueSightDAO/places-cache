@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:25Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "LocalAmster",
+  "place_id": "ChIJG0syp4BrlFQR_flf9VdgSps",
+  "result": {
+    "formatted_address": "1006 California Way, Longview, WA",
+    "formatted_phone_number": "(360) 353-3628",
+    "geometry": {
+      "location": {
+        "lat": 46.1223048,
+        "lng": -122.9365155
+      }
+    },
+    "name": "LocalAmster",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 8:00 \u2013 22:00",
+        "Tuesday: 8:00 \u2013 22:00",
+        "Wednesday: 8:00 \u2013 22:00",
+        "Thursday: 8:00 \u2013 22:00",
+        "Friday: 8:00 \u2013 22:00",
+        "Saturday: 8:00 \u2013 22:00",
+        "Sunday: 9:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJG0syp4BrlFQR_flf9VdgSps",
+    "website": "http://www.local-amster.com/"
+  }
+}
