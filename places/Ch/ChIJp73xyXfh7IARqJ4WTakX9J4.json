@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:05:35Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Sunshine Health Foods",
+  "place_id": "ChIJp73xyXfh7IARqJ4WTakX9J4",
+  "result": {
+    "formatted_address": "415 Morro Bay Boulevard, Morro Bay, CA",
+    "formatted_phone_number": "(805) 772-7873",
+    "geometry": {
+      "location": {
+        "lat": 35.3661521,
+        "lng": -120.8485654
+      }
+    },
+    "name": "Sunshine Health Foods",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 19:00",
+        "Tuesday: 9:00 \u2013 19:00",
+        "Wednesday: 9:00 \u2013 19:00",
+        "Thursday: 9:00 \u2013 19:00",
+        "Friday: 9:00 \u2013 19:00",
+        "Saturday: 9:00 \u2013 19:00",
+        "Sunday: 9:00 \u2013 18:00"
+      ]
+    },
+    "place_id": "ChIJp73xyXfh7IARqJ4WTakX9J4",
+    "website": "http://sunshinemorrobay.com/"
+  }
+}
