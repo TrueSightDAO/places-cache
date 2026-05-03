@@ -1,0 +1,28 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry"
+  ],
+  "google_status": "OK",
+  "name": "Eye of the Cat\u200e",
+  "place_id": "ChIJ-YmPf6sx3YARj00fbAc6ByM",
+  "result": {
+    "formatted_address": "3314 East Broadway, Long Beach, CA",
+    "formatted_phone_number": "(562) 438-3569",
+    "geometry": {
+      "location": {
+        "lat": 33.7641887,
+        "lng": -118.1532807
+      }
+    },
+    "name": "Eye of the Cat\u200e",
+    "place_id": "ChIJ-YmPf6sx3YARj00fbAc6ByM",
+    "website": "https://www.theeyeofthecat.com/"
+  }
+}
