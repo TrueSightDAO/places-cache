@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:23Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Shambhala Booksellers",
+  "place_id": "ChIJ7zgaSSl9hYARFoyCo1D9fyA",
+  "result": {
+    "formatted_address": "2482 Telegraph Ave, Berkeley, CA",
+    "formatted_phone_number": "(925) 258-9076",
+    "geometry": {
+      "location": {
+        "lat": 37.8653562,
+        "lng": -122.2587269
+      }
+    },
+    "name": "Shambhala Booksellers",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 12:00 \u2013 20:00",
+        "Tuesday: 12:00 \u2013 20:00",
+        "Wednesday: 12:00 \u2013 20:00",
+        "Thursday: 12:00 \u2013 20:00",
+        "Friday: 12:00 \u2013 20:00",
+        "Saturday: 12:00 \u2013 20:00",
+        "Sunday: 12:00 \u2013 20:00"
+      ]
+    },
+    "place_id": "ChIJ7zgaSSl9hYARFoyCo1D9fyA",
+    "website": "http://bookshop.org/shop/sleepycatbooks"
+  }
+}
