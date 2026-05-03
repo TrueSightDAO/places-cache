@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:53Z",
+  "fetched_at": "2026-05-03T07:07:22Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Cafe Brasil",
   "place_id": "ChIJSVMrRNVBjoARl052nnQixjo",
   "result": {
-    "formatted_address": "1410 Mission Street, Santa Cruz, CA",
+    "address_components": [
+      {
+        "long_name": "1410",
+        "short_name": "1410",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mission Street",
+        "short_name": "Mission St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz",
+        "short_name": "Santa Cruz",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95060",
+        "short_name": "95060",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4739",
+        "short_name": "4739",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1410 Mission St, Santa Cruz, CA 95060, USA",
     "formatted_phone_number": "(831) 429-1855",
     "geometry": {
       "location": {
-        "lat": 36.9674946,
-        "lng": -122.0394094
+        "lat": 36.96759,
+        "lng": -122.039192
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9688877802915,
+          "lng": -122.0378725697085
+        },
+        "southwest": {
+          "lat": 36.9661898197085,
+          "lng": -122.0405705302915
+        }
       }
     },
     "name": "Cafe Brasil",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1500"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 15:00",
-        "Tuesday: 8:00 \u2013 15:00",
-        "Wednesday: 8:00 \u2013 15:00",
-        "Thursday: 8:00 \u2013 15:00",
-        "Friday: 8:00 \u2013 15:00",
-        "Saturday: 8:00 \u2013 15:00",
-        "Sunday: 8:00 \u2013 15:00"
+        "Monday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114366008718552050715\">Haakon Poulsen</a>"
+        ],
+        "photo_reference": "Ab43m-tPzSTIwrfwXb8O09NyaVwSoheb96Pe32tl859gz_VL9dCkwz2tZZ600jG_iGSyST_jSdHyz35zpAsZ5iex_aYfaA2BjqjIJxRBXb8TDWeXv77pnBhJvK_Xm4NLeElZxAn9jXvL0Q_N_JiEdItdGGo8U18JNn9j0mplosl-Eu8E3jaKj7m8oY_mOWmf933vdjRpnEhSyIGddtnIBVWbCS2k-5X-NnZr3Nx12_5QMKisNt2UY26jqsW18FXYJsNToaUlw_m2audoLIqkCpFM61yFKAnP3NnWF4uc1y2i6aisCi2bw-LeSeuJlhwuE30SNTvGRM6fjgRR-UXUAu0Y-DnJn-qYRd_txIrfKZupaPEpeUa0qzhQXq5mRye1S4BW_f_NQyTs8e42JcBGEbIDufxEMSrkcZkcy_RCBSO9fXCWNg",
+        "width": 4032
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117040772779604869252\">Cafe Brasil</a>"
+        ],
+        "photo_reference": "Ab43m-s0y9w4drONbDhUt8kZeCpAPXACm5i0T_0pAS_X3KaY5A58viUKVsEah0vqPek4fNLHYbrTt6ZIRUwOMcvs2qD8S6ey0kLU5no05q6Rfgn5rK5X53tMxlJ8dmazom1j8l20uglj1wY1bipKyp2B2ebSOr78801X_iq4zgTztwJItMAq0w7PweunCF71K-l8jd6imHEDChVApW6yqAn_pMY0glzQpbvt8YAiER0TL3mvaALd_wnBA6Av53XBMEP-GgZa-ceynaIbx5G2X_TUt84iDfJkeRJ_0scgx25siaDPHw",
+        "width": 720
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101430093935416897456\">Beach Town Traveler</a>"
+        ],
+        "photo_reference": "Ab43m-vMP-bF9BkoHuJjivdpwjSX0hMwCKhzq12o5x4-hP6rCr2Qry80QVMT2SvUbkkaJZ8anCxz--wtum87xzGoEXGsk1360HlDhQM4llSiaQuJgLWN021CqMu7AYkMNtLAs8rq1j8xakL6kGD3RYxQ5pf-oEggU7GOA57awuHZ3zBJrf2pJcaX242fvy43zJNMVxg0ozaaRuqr1ahbCeU-PqA65ti21Nk9ALIGrP3KhcG5MHWwLM3IcJkn_ELR_obhF7IWVU-llSOmb2SRwfo0Ug1g21-vlOVI_ZkJTXmMQZiCA6m52klZiZx-JHBjIuxCsu5-9sFP_s7upp6HZA6gxoJxGqRlc8-KYfDhXWpYMYOE11gqofUVJriUubNhMMCv1n5tGJ4YpDYYCK2K4VYhxQt7HQl_UlTKdXCkMGDUWzpPnO6FXhMtIx7eyXakneYj",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115288365000927553502\">Denise James</a>"
+        ],
+        "photo_reference": "Ab43m-vPOY2-NEM7YJCXk03u7-_u9btuMQZnzeBVpBKUOqrOlkmrtCj0mI7Ve4zvTG3X-biGRmX5IvX9OPF2dv0GujLjtnR_74QFgWQD9VR9Dl6VRhwDLu5ri12nOUayeIKtQcG3IEUjcWGVYHtrPxeIxp4A5Gu6_vV_xoYJI8aBWG0oFEU1u6XCVrwvsHF-HXIsvt0_Ggg3u0OkE4vR8Kx0-QACMJ-pKDv_6eB7M8lpOpH46rG2NxZtT7w_Fh4WDVC7Eeh1Mo_Hjat5DHxU5vVq4zKzyPnMTwTUsl2IkBm-K7XKBkQxzfWCwpCrUZVhzSJCK8unJnCYhfI4uxrc3iG-rDDfdSahikVmPEx8K3T5DZd0txb3tdn8MsyBRItyyGcythVms0d2B_pavEkRBHSwQzaXPwIST8SRRRvuCPY8rqSXwQ",
+        "width": 4032
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116212990840738981165\">Paul Grant</a>"
+        ],
+        "photo_reference": "Ab43m-v6vM650PZSZb8YFTKWMXS-VJ9FT5Re_BKFee1ZhqbbTcLzrEQNeqD0CU-RTdSzAXL0yf02c7o9u6KARee0zC0eCo5k2QoBUrmp12dDlBnID4d37F50NJE_tSoeZlp14T2gGCZfhK6PB08uzmu6UkVzxxzbDVFQ5AGoMy3eZaACsM2T1jz9crXRT3acHARCGrpW8GzQodoGQjfE-XT_vgLGvtKMblg6iCtdlwYfnEkknS5KaFELSkC6oSZNImTU78qrJ_qPhUAxp1EIvENagMK6fnyTAnP_rnkLdCODpCtMOmlELAnIQNZsb_z_e1ZhpUMBkrDwUyK_UFQb9ojq47WbC8xjvaeeX416m1QcfDJDsBjDfVyqr9zJ1ZJxHvzQ50ZBux9c8lDRvSWIUsLsJreoe-rwzkgOv_Q8VGoicGQZ9A",
+        "width": 720
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100419411826843913975\">Maricely Piccolo</a>"
+        ],
+        "photo_reference": "Ab43m-sAM1i1r1NPhZ-W7hBDvoYyfHVCaJ-KCFOWWkyHEv_L1drpbHlnBkvdCHyYpRwYR0tZyfLauP2MpEw-KEuFLPfyESLNgoT-eT3tc6kABwlDzk7yaDhocEr-BkGhnuymfvhghRfdc165nT5HEMdh7f8WbMAKVxDVpdkj6sGu4BZbtmRmlZ-czbLrJ-U8QEYJ93S3xfhgFmpZhvMXuGljNwCa_aOL2k1wem2qsutGJGNaA90J4DENx2VzdxA_LtaYvCcgCIaSuYtDPvEp30Fm1_qd3u_k787Sp8FOwk1LDPebJK9IjlUxC9xZklvuxfYZJg38X0X-crX3YmME4H9CnOfi9ig0bPgu3dwFiyMpRs7Tgm1pVYDx4DomqSJoRoonisTzfn-4N-XKuA0FSlb08hbBUww72u0bhCCx0GvSPxtTHkBDMFcHLg1ccfehLnBJ",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102047231697911775041\">Duncan</a>"
+        ],
+        "photo_reference": "Ab43m-tXmJsJe19_ezwmh4KTCvuB6_-_eL_a8xOQia3xURQ0XrTKJAOKkQXYVUBM3dHwGFngJuzD6m7325Ll2pGCKxpQXHesigiEk5jdYHQzhkNBosF_77cCaOWeQewsON73wSXWdMWtT0bRJaAzs5YhuXiNsyy8lbfrq1wh3pDPwyAXnxLQnMJZkq3fwJQ2BeGbZTT6RliQ21L4IAtBqOadRWWjt_Ga9nPjcT6SZ2UhFGTlxU5RUacav1nyxFhJEHcjx48eCGKxIRIHruUr33BF9dlJwMuVz2G_u36fIxjYuO-aBV-LJDVk44ke-c1BtNF4jd4oCt8f2oUfYa4rSuw65v6t2Q7OcatNmX6NoFsqe-tLPFy6-Rag0bsnezuzmUjZ_bF1AdtoPlZ64Z0CNV9WTuVLJ9EmDLrVCsZGmdQWdjK8mFM8EL4OkH49Lhx1YwvJ",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106176942027695809109\">Mayra Deleon</a>"
+        ],
+        "photo_reference": "Ab43m-vREygor3P7MS_Wb0BlZ4_dozrffGiZBywS9uxzEeJulsmO2-SQCj7uWEa5KVeBlUzYJh3TQOW5YJYJgnhTdpktUPHnLOp1YO08TJh9bmziHeKj6bghiZQf-6LGAG9_2IwLFutm_S2boF0-Q9Fqa2trPCuqFmMSEuWuZQCr9nCe2VjN8b02dMVydpSdooenFhCVbXSfKET9cCktfNuyCtGf82Q-VEbKVQgY-TEbsNGVIfeWWpwU8wWdLXrC7nwZj05XwVOpAc46UlgS0Jp-ZGz-Q3IGKw9gt8XmtlQ3CmrAJvpLKz3nF9Dtfj8mCnydZtUcAWmRqTUY4Osj_QjB-YJD2s-BPQN-YpZmNRusBeu1xwuhB0_eSEwzlZfNoi0EwrR1dNRYFDqACeBjBDTjYKgXi_cAGn8UY68KqYF-Z0g4XQ",
+        "width": 4000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115344764186712587216\">Wendy Phin</a>"
+        ],
+        "photo_reference": "Ab43m-v4citpQfywdXpVj95W_k576pYGQmQynWhK6XZAXzhrh9F4EHn3ep5AAnsG0nBj6gnwJ3HdJqGwGuM9Lx35Bukf7tOz2fYPG8oMubuYL-mJ3_2pQsV9mFsqMgPNRTAaWWCM65Exaw49HU8_aYHZetcWtj3nKfwty9zhP1wucRTPKcZ5SDSOlgahH1SCnB7TGSBceSMuPqtTVlEwCt-W2MYuHyt0VfBHn6NUWO12U4MTfn3KzQ3lrvKvi1OxqimfkEu2OVp9dEhbnjqtvnDAVgvvFXsffSNE_-N9pmXVLML3XcLAwrd2mW88DEmi2o4JW8qn__k6iHci4oZiS_87Y-emavVWsljUF8B0v8VKZjmJgBiBsP2sHdlxOAw7A0k5L3f28aMKSBSJeXnwqMrn6DKJunIssbyzs2YPrz_3laRCqgOfoKWXUbVgJBkW3R8Z",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116423728583547402323\">Liz N</a>"
+        ],
+        "photo_reference": "Ab43m-tEDM3XAjROZY0j7T1QeCji0E9iUdYwEoI2wAlwJlj0LiAUUdT_TURG-R8JmqDJyasqyqBMI2MqnnejnmHSs_5gvZbZRqJOhOdQtHjjK99et0dj8vcsm2ND6DaO6PFzpocrdk4ajCBwDfohl5Hdy1_ra0Mf8VpTqX3NixBaX97XeGlJbr1BhPlKxSWuCObLIqt_nsO3tpQ201tK7ygRsspODlVzqKBfjv5YJsRe7VjMovvessQdw_Fc3DVMxOBQg74xNbSrKjXPz9efElgN4Qv-K00UZxZyADvy3UFVblvPPh2VVu6k4IR62ZlBagcpttUGtGPzPBrSegT7Vki1t6K04jqJ_mB_hU54chp5WKFkQJY0QmpJHgUl5TUm7bAoeBW0e_eAUw5BgzX-XHkJBtKJTNdH7Vh-ZsonDs84TU4m6k2Znjw6gVu9ZssdK_Mh",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJSVMrRNVBjoARl052nnQixjo",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "url": "https://maps.google.com/?cid=4235110383858634391",
+    "vicinity": "1410 Mission St, Santa Cruz",
     "website": "http://www.cafebrasil.us/"
   }
 }
