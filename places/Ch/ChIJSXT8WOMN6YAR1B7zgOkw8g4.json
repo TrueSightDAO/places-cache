@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:13Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Sacred Space",
+  "place_id": "ChIJSXT8WOMN6YAR1B7zgOkw8g4",
+  "result": {
+    "formatted_address": "2594 Lillie Avenue, Summerland, CA",
+    "formatted_phone_number": "(805) 565-5535",
+    "geometry": {
+      "location": {
+        "lat": 34.4193175,
+        "lng": -119.5909872
+      }
+    },
+    "name": "The Sacred Space",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 17:00"
+      ]
+    },
+    "place_id": "ChIJSXT8WOMN6YAR1B7zgOkw8g4",
+    "website": "http://www.thesacredspace.com/"
+  }
+}
