@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:03:53Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Green Gulch Zen Monastery",
+  "place_id": "ChIJIVNdxsOPhYARTJ-YpkD8j9A",
+  "result": {
+    "formatted_address": "1601 Shoreline Highway, Muir Beach, CA",
+    "formatted_phone_number": "(415) 383-3134",
+    "geometry": {
+      "location": {
+        "lat": 37.866403,
+        "lng": -122.565318
+      }
+    },
+    "name": "Green Gulch Zen Monastery",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 9:00 \u2013 17:30",
+        "Tuesday: 9:00 \u2013 17:30",
+        "Wednesday: 9:00 \u2013 17:30",
+        "Thursday: 9:00 \u2013 17:30",
+        "Friday: 9:00 \u2013 17:30",
+        "Saturday: 9:00 \u2013 17:30",
+        "Sunday: 9:00 \u2013 17:30"
+      ]
+    },
+    "place_id": "ChIJIVNdxsOPhYARTJ-YpkD8j9A",
+    "website": "http://www.sfzc.org/ggf/"
+  }
+}
