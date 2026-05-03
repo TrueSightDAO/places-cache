@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:38Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Good Witch Wellness & Apothecary",
+  "place_id": "ChIJD8QLL9OGj4ARIDiVmntsZsM",
+  "result": {
+    "formatted_address": "1128 Lincoln Avenue, Alameda, CA",
+    "formatted_phone_number": "(510) 337-4663",
+    "geometry": {
+      "location": {
+        "lat": 37.7746771,
+        "lng": -122.2647211
+      }
+    },
+    "name": "Good Witch Wellness & Apothecary",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 18:00",
+        "Tuesday: 8:30 \u2013 18:00",
+        "Wednesday: 9:00 \u2013 13:00",
+        "Thursday: 11:00 \u2013 18:30",
+        "Friday: 9:00 \u2013 16:00",
+        "Saturday: 8:00 \u2013 14:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJD8QLL9OGj4ARIDiVmntsZsM",
+    "website": "https://www.goodwitch.co/"
+  }
+}
