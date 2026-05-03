@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:14:00Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Earth Fairy Holistics",
+  "place_id": "ChIJ5TPeq-PHYVMRv4tEMpom14U",
+  "result": {
+    "formatted_address": "2202 North Government Way, Coeur d'Alene, ID",
+    "formatted_phone_number": "(208) 770-7544",
+    "geometry": {
+      "location": {
+        "lat": 47.6973797,
+        "lng": -116.7857918
+      }
+    },
+    "name": "Earth Fairy Holistics",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00 \u2013 16:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: 12:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJ5TPeq-PHYVMRv4tEMpom14U",
+    "website": "http://www.earthfairyholistics.com/"
+  }
+}
