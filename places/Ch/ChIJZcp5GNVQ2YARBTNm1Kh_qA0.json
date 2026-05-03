@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:12:18Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Lemon Grove Cafe",
+  "place_id": "ChIJZcp5GNVQ2YARBTNm1Kh_qA0",
+  "result": {
+    "formatted_address": "3521 Lemon Grove Avenue, Lemon Grove, CA",
+    "formatted_phone_number": "(619) 644-1031",
+    "geometry": {
+      "location": {
+        "lat": 32.743999,
+        "lng": -117.03005
+      }
+    },
+    "name": "Lemon Grove Cafe",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 7:00 \u2013 20:00",
+        "Tuesday: 7:00 \u2013 20:00",
+        "Wednesday: 7:00 \u2013 20:00",
+        "Thursday: 7:00 \u2013 20:00",
+        "Friday: 7:00 \u2013 20:00",
+        "Saturday: 7:00 \u2013 20:00",
+        "Sunday: 7:00 \u2013 15:00"
+      ]
+    },
+    "place_id": "ChIJZcp5GNVQ2YARBTNm1Kh_qA0",
+    "website": "http://www.lemongrovecafe.net/"
+  }
+}
