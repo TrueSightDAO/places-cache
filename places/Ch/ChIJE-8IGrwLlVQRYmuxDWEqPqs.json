@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:07:07Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Dragon Herbarium",
+  "place_id": "ChIJE-8IGrwLlVQRYmuxDWEqPqs",
+  "result": {
+    "formatted_address": "4638 SW Beaverton Hillsdale Hwy, Portland, OR 97221, United States, Portland, OR",
+    "formatted_phone_number": "(503) 244-7049",
+    "geometry": {
+      "location": {
+        "lat": 45.4857735,
+        "lng": -122.7249707
+      }
+    },
+    "name": "Dragon Herbarium",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00 \u2013 18:00",
+        "Wednesday: 11:00 \u2013 18:00",
+        "Thursday: 11:00 \u2013 18:00",
+        "Friday: 11:00 \u2013 18:00",
+        "Saturday: 11:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJE-8IGrwLlVQRYmuxDWEqPqs",
+    "website": "http://dragonherbarium.com/"
+  }
+}
