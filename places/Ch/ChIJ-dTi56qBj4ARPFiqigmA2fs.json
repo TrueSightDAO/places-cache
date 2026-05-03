@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:09:17Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Herbal Alchemist",
+  "place_id": "ChIJ-dTi56qBj4ARPFiqigmA2fs",
+  "result": {
+    "formatted_address": "977 Broadway, Oakland, CA",
+    "formatted_phone_number": "(510) 788-0023",
+    "geometry": {
+      "location": {
+        "lat": 37.8015944,
+        "lng": -122.2732482
+      }
+    },
+    "name": "The Herbal Alchemist",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00 \u2013 18:00",
+        "Thursday: 12:00 \u2013 18:00",
+        "Friday: 12:00 \u2013 18:00",
+        "Saturday: 12:00 \u2013 18:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJ-dTi56qBj4ARPFiqigmA2fs",
+    "website": "http://theherbalalchemist.co/"
+  }
+}
