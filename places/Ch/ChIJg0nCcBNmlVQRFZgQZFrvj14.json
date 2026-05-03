@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:15:44Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Main Street Mercantile",
+  "place_id": "ChIJg0nCcBNmlVQRFZgQZFrvj14",
+  "result": {
+    "formatted_address": "21610 Main Street Northeast, Aurora, OR",
+    "formatted_phone_number": "(503) 678-1044",
+    "geometry": {
+      "location": {
+        "lat": 45.2317541,
+        "lng": -122.7557468
+      }
+    },
+    "name": "Main Street Mercantile",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:00 \u2013 17:00",
+        "Thursday: 10:00 \u2013 17:00",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 10:00 \u2013 17:00",
+        "Sunday: 11:00 \u2013 16:00"
+      ]
+    },
+    "place_id": "ChIJg0nCcBNmlVQRFZgQZFrvj14",
+    "website": "https://www.mainstrmerc.com/"
+  }
+}
