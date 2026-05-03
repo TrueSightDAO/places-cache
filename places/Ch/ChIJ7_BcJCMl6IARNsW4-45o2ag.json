@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:32Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "The Healing Tree",
+  "place_id": "ChIJ7_BcJCMl6IARNsW4-45o2ag",
+  "result": {
+    "formatted_address": "2711 East Thousand Oaks Boulevard, Thousand Oaks, CA",
+    "formatted_phone_number": "(805) 497-4438",
+    "geometry": {
+      "location": {
+        "lat": 34.1724033,
+        "lng": -118.8396615
+      }
+    },
+    "name": "The Healing Tree",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:30 \u2013 18:30",
+        "Tuesday: 10:30 \u2013 18:30",
+        "Wednesday: 10:30 \u2013 18:30",
+        "Thursday: 10:30 \u2013 18:30",
+        "Friday: 10:30 \u2013 18:30",
+        "Saturday: 10:30 \u2013 18:30",
+        "Sunday: 10:30 \u2013 18:30"
+      ]
+    },
+    "place_id": "ChIJ7_BcJCMl6IARNsW4-45o2ag",
+    "website": "https://www.healingtreeshop.com/"
+  }
+}
