@@ -1,0 +1,38 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:13:29Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "RAINBOW HOLISTIC CENTER",
+  "place_id": "ChIJQQj9ILPOwoARea-rSgn45Rk",
+  "result": {
+    "formatted_address": "7857 East Florence Avenue, Downey, CA",
+    "formatted_phone_number": "(323) 587-0628",
+    "geometry": {
+      "location": {
+        "lat": 33.9550035,
+        "lng": -118.1322807
+      }
+    },
+    "name": "RAINBOW HOLISTIC CENTER",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00 \u2013 17:00",
+        "Wednesday: 10:06 \u2013 17:00",
+        "Thursday: Closed",
+        "Friday: 10:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 17:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJQQj9ILPOwoARea-rSgn45Rk"
+  }
+}
