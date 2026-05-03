@@ -1,40 +1,283 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:04:17Z",
+  "fetched_at": "2026-05-03T07:06:50Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Twisted Thistle Apothecary",
   "place_id": "ChIJwQ1KIC98hYARWh1reLHaUBw",
   "result": {
-    "formatted_address": "4156 Piedmont Ave, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "4156",
+        "short_name": "4156",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Piedmont Avenue",
+        "short_name": "Piedmont Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Piedmont Avenue",
+        "short_name": "Piedmont Avenue",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94611",
+        "short_name": "94611",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4156 Piedmont Ave, Oakland, CA 94611, USA",
     "formatted_phone_number": "(510) 644-3727",
     "geometry": {
       "location": {
-        "lat": 37.8269902,
-        "lng": -122.2514675
+        "lat": 37.8267082,
+        "lng": -122.2517354
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8281190802915,
+          "lng": -122.2504625197085
+        },
+        "southwest": {
+          "lat": 37.8254211197085,
+          "lng": -122.2531604802915
+        }
       }
     },
     "name": "Twisted Thistle Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116040303479280692581\">Partha Chakraborty</a>"
+        ],
+        "photo_reference": "Ab43m-uVmBoWV69B3Pup-aXQi9TP6pH-woKTkIVhOJrwjSAUIrBCcZmQtMDInAUuKS-zbcSI2P4_7wPofAQ9fZrh-deAhEdhJ63IV3BpuQAFE5fNSf91mpPuAjpUTd2gCcyI5spJE1WJ73oMDzlPOntDdd3xkiZSo8ygZBcTWyXx2SduAow0987LPtazOBlgpQ8-zaI5k0fcaBFJ_zoiahbD5u_JlP9RTyllLodXLAmWKtT4_r7xdsXpS9rO1t_sVnAtP9M1He7KnU2AePTAYU5PwDgfcnegZNdwQuw-fuIzbWkTUmLbuOrqYn7vyiFhU9-pnbH43Zg5wjHt726c5hS5QMXnTi8AlIGGUpIdErv-nKx4qG5HAfjoaOf4sDPNt5_7jnUpva8lDu82zGpq4u-IenPT1UykvfXICvt4kjF-rRZ1J_Fs",
+        "width": 4032
+      },
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104708583816936805172\">Twisted Thistle Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-uBcsaPJRz1Vi-Ihy9YJR4_Hq1P__GtQVMdH8HAy9wXHxH0jmnm_xgi_1oJ1r_TGnreanU-4suTqF-qtm4z8qs62T-qjQ-oQ0LIYHj4kA4DnDO9cvnXIhIBkQ06Xp0SvDag047AN0nmnKLci_rgjgHQAKFiLcYyFvX9jf-m127_OYfKMWJmucha3Cfg2ZtVVLBEMd8YDVecvLvjH8KrTXYSZR4VkLGbiAuuxuPADowdFWVRt4fcoPCbaYgW_EkHVQZiC8H105g5gS-apmIZ_g9Mvcnp3pyLZGaQp6PVN06XFg",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114818646286281980681\">xxlegend lucas</a>"
+        ],
+        "photo_reference": "Ab43m-vNtOk_oGGj4a9H_VffphNnpKN5HsGuK6bq4Xuwn1Qq5uYtpr0eVqG0XcCknb_vP1Lm95JjsPP2uoKs_32IOQnygMRPZQLFxd3e1PTYSTM_p1bOV3pGaHLrOQsrlLX-OA-dyxjcYwOZDqV84ZdHWsPDsqFVVTh50GNBcVx9V9h0Fml_0I5QQWwrm-sZk8-qSjlgDdFNC4g261KvMLOnE5h8rgNKbGn9oW1DBKXXJCELfvlCCjxYrelUb6H-a6_4yqw49ipKkdmqBYC12s4m12vkYAsy8KSpiFh0Uc_1XVjewZ9_9gPT-xSN2ip2HA79o8P7u0YeIvkEPdiEgbabrlzmhg95-TzlhmL5q3QbyaRp7QiYI4HOpWwesIyFwta95FBxYSwfLpKrHVCQ_1nS0keqpkrAtz3u5cQzGQ7Q10s",
+        "width": 3024
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115906102955043012138\">MARK PLOTT</a>"
+        ],
+        "photo_reference": "Ab43m-uo_Fi7qpw25LGJ2MlzEBHrtwpy2Fb3UzP_u_GxuiloF38digRqpuE_hNgOCxtguVu4crVzszSzOgX0U_I02IBejMfS5mFAoN6u--EFTv2yFRVHYE9mtfCVdnw7-R38eJV3PFHMknjKmCVnuVoUwA-uzbvPst0jR8B05lHoK8XE_FKTU7brZwfCAu2UcVM8M1GPSsVlkRFfC5EdEIJUn2a6sz0MEi1bu7VyYPRicgpdI0p3Jz2wiRrToRqfNoJsYP-4tgsC-HHSPjT3ag-g6FH24DNBj-V__rfuV9lpIS18PCh8wiAB7twRtCCgXlpGkJe0KUcmZwCOSoqgtuLzcxJODWZPL9WxW0wjOs6j00brPknBQdAUhZn63SIQylxZaxbzwBE5NH4YC8g9RRmr6vMswq1bXK_t-PWQQI9Um6xEZos",
+        "width": 1944
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110049409115304935714\">MICHAEL M.</a>"
+        ],
+        "photo_reference": "Ab43m-tfF11v7GrkSzxur0GBuNPKR3CaAZ56Yf8PY2EjfW7bOTXYbJyWHs1yhgO7ZKoyFKGtEgX3o-iKwE-Hl2i2HtLmeMR7kodtvl_7oH_Tb-a51fszATD6nUPGrNKAUghS6QAZEIdtQM_HVLBGfwOBkoGHz7-SVY20qeOrnGgQAF2vSg4B83Ag56VpG22zPL7aqcyDgtTldTFt4hI_mPrt0-yCm-3g58hLr9OcFHp9v1X34970k_mMgKnEUqHk_dlDQBqZTmwIWoSCCdMS8QZpwC3gzV4F1EX3DH3SnPiu4ZfAMYxDyMJtB52M9Vzn2FIf9LcBFseuyuzrqkMpe4VcyhyBnAbt67pjFruyudK08mDbpr4f9L3BJrEWKzkW4nWHjOCHO56aBm0UVq07Y50GaU5E_rxzZ4ZbPsbMkD36074",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114818646286281980681\">xxlegend lucas</a>"
+        ],
+        "photo_reference": "Ab43m-v6tB8-oU6IV8yWm8RZOgHhS5plIf5XRlycCLA4zgT4bpRryjHypivhwkx66WeVyHNwLvfMmjywQTiqWH4TbfiYp345WaAVwZmOg9he0RyoZarEt1Bc1Ow0Ic1yyptkjQ3oZJepIoJTWfzfTmHgalRpaRkDs1RZOFFNaDThzcDibdV5e5askbK4-RhTrX0rXDyHgcp7_pxH-RfQ_0fex8ULwNSRYXdinI_99Il_mFmAyM8HNOR7rG3QIXg_jF8utEV-rbRM_Mm3HHhtwvD5s9FVuZpZqA_2LMKHR50Emt91EVYnnblVoh1JAxQqooXt6kzSfQpa0tpuHzL8dQHy81wyOa6gRNtsx5Jw2LcCef8vnx8Fn4oSaQ6aiZkxttthN4oDUxOF5qlFfXmJR7cx0LnevHkG5nvIOnR0JfdtNA5YsC7M",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110049409115304935714\">MICHAEL M.</a>"
+        ],
+        "photo_reference": "Ab43m-t1bTP9tFV0Rj86KKibzbm21WMrJ7TqBOmHyHngdn7UgIjbj39JGfM_8sHNTohJrzbRo4O2lRuVYCVEm1-G0NwDsBAx7VNjycxgvG4Vmam5TRAnd2JmqHy6kPi8pDNfyZY7UyzsfycEz1aswzbLCAcXdF-fop__4KataDttDD4ilMBEOf0GVJpeHEmBm46dU9BIuR4SspkcESlNX-Dfs5QG1FFyX_G3jWYqyShdJlAiiX1cwLA5lTbsc0ol5l3BZYoYf3Vq2CpFh0WM-Pssl4hsx8ZRJ0B3qgZPow_5T8v5GBOCBBd1X8klLVYRL1_DYPwGX-mjG1BHs5294t0nr_9JYx27J7QtJe6L6HNnHfZBJDO88x-mLTrJh6c_OQE_4lbS-74UQVPODe-cdmKVPzW1HNKVot-wtKEmsxs8EBs",
+        "width": 4800
+      },
+      {
+        "height": 2392,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Ab43m-sjLhrLQo0N--gH1lBQunOiA9nVi_jSsfkdJDPEm2upcBYDD6sZ6_G1tp9UQTNlDf6V_cAb35loejSpPbIGWTPR53HzJVXYfguHxneHKXfN4Ldzrjp6-d_nLwY6XfHIcTgg2u-b8Wodn90sgxGckD1rKoOz6XRYaDZtTf54ya0pYtpBMQ_2Z5T3CJpuXuA9YFyOjsm8MW2pbRsU-wf-AJwSMN3XsR4AE5Yh7t5O2qvrRv5_rJtjuif8HFd5Q_aegH-jFLx9IRT0eBAK0UvyQPbAPMCshnCnFQrMADh7yvQh8pTNXeghCdebETW_5t3R9jF9GGXvpUdRsR-NZmtAz5b_DCU22dgNoUXOwUgCQtag4bHu_cFvROCsIaZO6Mlht_ANRYF8Mbr-7FovWsiBYxqk5zBsKx0EblmOrhm-Rn_8WvG3",
+        "width": 2394
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104708583816936805172\">Twisted Thistle Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tRuXSeWunrm-soefdFpNF_aF60x4gL9MdIO-BU5d3BpF9eyJXBgUeBUlT_cEo0nzMow2P4Q9DUeGkK33nn5tVYYRbqKNdzT_TO0tLpz8hA7Pbrm3lhtD_spvrhBcs4g-x2Mf9-wxxVH-DgJjaenNTR8yCv0JzPVGNthsTDAtLRuIepCV_6boHkZrkP-AlP2V1Fp_x-eC9tvVOt2jSTVO5MgBEANDbbbThWHmEcC0PZqIj-d7DdCjXcsxNq7-KEyE6YkLB71eOULFqd5T3tI5sZ0XrmhmODpKNXVD6oADq10w",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114818646286281980681\">xxlegend lucas</a>"
+        ],
+        "photo_reference": "Ab43m-uN_jo2eAbceks00C1n_kjsXWQIoeY_B1CMEQCD1ECuXoVZ1ACk7FPvlDeGXxwTzauyIllKPgmLFAiStUx6WILD9bfDE6E7qFA26ErhsD5QHP8ig7QaDOL3EzLEcZ5q1MhPL3tN4DoCuXzuH25AHHgrilOUCBCLdzCEgMXbz1egMhT0ITT8b3YykYQSKI6fTwgfBtiGklKztBM7N3mZWixEadDMwl2UoQibp-WQ1yhwtZ9MtxYT7YIcXWQxP3kaMG8BCbEay32oV2lZi_50O332Gx4cwNKV7qAbDdoVtQJqO-_MwF3we1bZmMaWyrop15h0DEpKxNXSIrxWTzrsGCgJIqqS2A7poL8_dXHOj-Io6gysGtKUVvQqUiOIPcC9pPfSpkHYbp8UpUIkUnNS6Ji3IxnMhKW65nFKtNQTOW1UtLqB",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJwQ1KIC98hYARWh1reLHaUBw",
-    "website": "https://www.twistedthistleapothecary.com/"
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2040371086963187034",
+    "vicinity": "4156 Piedmont Ave, Oakland",
+    "website": "http://www.twistedthistleapothecary.com/"
   }
 }
