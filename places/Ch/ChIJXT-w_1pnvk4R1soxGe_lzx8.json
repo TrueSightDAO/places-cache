@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:04:43Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Witchy Wanderland",
+  "place_id": "ChIJXT-w_1pnvk4R1soxGe_lzx8",
+  "result": {
+    "formatted_address": "705 E Main St, Suite 205, Santa Maria, CA",
+    "formatted_phone_number": "(805) 668-4989",
+    "geometry": {
+      "location": {
+        "lat": 34.953279,
+        "lng": -120.4265662
+      }
+    },
+    "name": "Witchy Wanderland",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 11:30 \u2013 14:00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJXT-w_1pnvk4R1soxGe_lzx8",
+    "website": "http://www.wildflowerhaven.love/"
+  }
+}
