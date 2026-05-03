@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:06:06Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Central Coast Music",
+  "place_id": "ChIJGRpD0nfh7IARo_Nuoi9rAMU",
+  "result": {
+    "formatted_address": "365 Morro Bay Boulevard, Morro Bay, CA",
+    "formatted_phone_number": "(805) 772-4930",
+    "geometry": {
+      "location": {
+        "lat": 35.3660923,
+        "lng": -120.8492612
+      }
+    },
+    "name": "Central Coast Music",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00 \u2013 17:00",
+        "Thursday: 11:00 \u2013 17:00",
+        "Friday: 11:00 \u2013 17:00",
+        "Saturday: 11:00 \u2013 15:00",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJGRpD0nfh7IARo_Nuoi9rAMU",
+    "website": "http://www.centralcoastmusic.com/"
+  }
+}
