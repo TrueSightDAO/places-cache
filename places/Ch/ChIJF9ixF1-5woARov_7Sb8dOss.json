@@ -1,0 +1,40 @@
+{
+  "_source": "bootstrap_from_hit_list",
+  "fetched_at": "2026-05-03T06:08:26Z",
+  "fields_requested": [
+    "place_id",
+    "name",
+    "formatted_address",
+    "formatted_phone_number",
+    "website",
+    "geometry",
+    "opening_hours"
+  ],
+  "google_status": "OK",
+  "name": "Encinta Herbal Store",
+  "place_id": "ChIJF9ixF1-5woARov_7Sb8dOss",
+  "result": {
+    "formatted_address": "119 North La Brea Avenue, Los Angeles, CA",
+    "formatted_phone_number": "(310) 730-9767",
+    "geometry": {
+      "location": {
+        "lat": 34.0741659,
+        "lng": -118.3443119
+      }
+    },
+    "name": "Encinta Herbal Store",
+    "opening_hours": {
+      "weekday_text": [
+        "Monday: 10:00 \u2013 16:30",
+        "Tuesday: 10:00 \u2013 16:30",
+        "Wednesday: 10:00 \u2013 16:30",
+        "Thursday: 9:00 \u2013 16:30",
+        "Friday: Closed",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "place_id": "ChIJF9ixF1-5woARov_7Sb8dOss",
+    "website": "http://www.encintaherbal.com/"
+  }
+}
