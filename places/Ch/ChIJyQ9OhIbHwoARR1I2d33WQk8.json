@@ -1,40 +1,208 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:27Z",
+  "fetched_at": "2026-05-13T22:48:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Proper Xchange",
   "place_id": "ChIJyQ9OhIbHwoARR1I2d33WQk8",
   "result": {
-    "formatted_address": "300 North Beaudry Avenue, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "300",
+        "short_name": "300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Beaudry Avenue",
+        "short_name": "N Beaudry Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Los Angeles",
+        "short_name": "Downtown Los Angeles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90012",
+        "short_name": "90012",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "300 N Beaudry Ave, Los Angeles, CA 90012, USA",
     "formatted_phone_number": "(213) 293-7761",
     "geometry": {
       "location": {
         "lat": 34.0618857,
         "lng": -118.2518878
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0633898802915,
+          "lng": -118.2502254697085
+        },
+        "southwest": {
+          "lat": 34.0606919197085,
+          "lng": -118.2529234302915
+        }
       }
     },
     "name": "Proper Xchange",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 17:00",
-        "Tuesday: 9:00 \u2013 17:00",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 14:00",
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114713440480259590257\">Calvin Roberson</a>"
+        ],
+        "photo_reference": "Ab43m-vAT-w0PV4Xap07Y1LkFMHx8FgfkSQIwu4zc0bwczGFYWX0gvH51Xq3driF_q2f3UMFx_0iku42ikzNYwzxmF8a_sSmJXiQKw-rsIr7Wmcv6SmwoJ9Zz8Td8vOMP9ZIjTHtM6wLnMilCcdVC3D8A0BZdi7eja4PJ7V9FKyAMJnXWK2GlHxn3a4zRkmjzLu3RUudU6nfADr884tcmkhUMYxjGHI5mLJ6jLX07gDLzspgCX3T9xbyEHAAoZNnAerdwRGdVfNPJ3WyZ70HMgsOlL8BEFyYBfcIMIbyhoMm1K9EkXtO08v3loMzbzlbxzpoBQkGci0kghYR2U9xp2uZMP1jE6OZHo_hECH-okgrYbZ4zQr7iaRdKFe138xghRD3rYivvfCnOPFNkekV4f4X5cLckUbe_HX7pd1q6T9D6ObqiPDv",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114713440480259590257\">Calvin Roberson</a>"
+        ],
+        "photo_reference": "Ab43m-uY31iQiw8DwR_CwcquNR_VD2iFXEJ-DAIagtfx3TMvghdeY0ThtCzQ54ooqBgeS4y7xdV6n0rrZEZsOOAxm1OY7oZ-35JnqQzOJkzmlUzs1zNuBhDLspxApO2L6c6gNQppXlNqpbbGPTvCjYDbm9sHvIHWoJbW1XauRSlkduEdM6ELheRLrJyNobQss6R1ZEJ5HWWYL7iTCsFrPpzG3uW9xotM1ose6X7IH3JogL-cHwDdVF_oBkln9SxnEfqlSWL7Ycz_kuzoBPMsR1ygzcuFXH9fR469AMvDHseu1ZiAZzbD9KZhXvHBR9MY4ZOeImIlWlOyAUSZpR5sVfns683FnMtneGnt3aVNPLRvePqBHVt5e-AstRqvG8eX560W9gCL1T26h4XM-uPnBY85fpm4DY1b_ZuJ8UWUdZbngEk",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJyQ9OhIbHwoARR1I2d33WQk8",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5711363111818515015",
+    "vicinity": "Ferrante Apartments, 300 N Beaudry Ave, Los Angeles",
     "website": "https://www.properxchange.com/"
   }
 }
