@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:14Z",
+  "fetched_at": "2026-06-05T21:10:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Holistic Science Co.",
   "place_id": "ChIJDc43fEeq3oARmu5t20JLT5g",
   "result": {
-    "formatted_address": "733 Main Street, Ramona, CA",
+    "address_components": [
+      {
+        "long_name": "Ste A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "733",
+        "short_name": "733",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ramona",
+        "short_name": "Ramona",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ramona",
+        "short_name": "Ramona",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92065",
+        "short_name": "92065",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "733 Main St Ste A, Ramona, CA 92065, USA",
     "formatted_phone_number": "(619) 365-9708",
     "geometry": {
       "location": {
         "lat": 33.0444578,
         "lng": -116.8647378
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.0456963302915,
+          "lng": -116.8633099197085
+        },
+        "southwest": {
+          "lat": 33.0429983697085,
+          "lng": -116.8660078802915
+        }
       }
     },
     "name": "The Holistic Science Co.",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 16:00",
-        "Tuesday: 10:00 \u2013 16:00",
-        "Wednesday: 10:00 \u2013 16:00",
-        "Thursday: 10:00 \u2013 16:00",
-        "Friday: 10:00 \u2013 16:00",
-        "Saturday: 10:00 \u2013 16:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-u7-UdD10c1BIvl4gMloO3ecMYxYTTDtDIff7X3Bk9l24Xnoh3TZNg7UGK64EGnGors6JDnOk-nFkA6MOfuMLGhdr7jpl_v8FBIViYogJo0S8or8VO4UQDo49Yz8Xamb3DpgbbdfXsvQZgW4ELdbBv4NVRQEtBNgr-T1ubQA3pE97Y-qrskqU9425Y7uhLfphmN4JYR-wC_LsnMxuiMXlS6O2rSn_N0Ip4gCsA1_-M3Jh5R78Utmkn-lPg_M9Uz99IF-dordz4xd3PiLijnvYMmxVeeinWFHvMjS1psj7YUQILC-NQMF8283JyfNICaKfMv5SvbTaKLLmFAsQsamJkk50UYo6ZDHU0Me6Px7DLTy4AhE26-bpJrcdBNPor6wCNyYD3B2u79QKUckHHr3rz3CWQCjQJHFaO_sy2U2F4bS7nvlV4pUE8RQZ5sfsxb",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-vFTiYzM3WFEYy4jAv6Qf0JTMZK8zNOks9HHSmFY2_yZudr9ZA2Pon_aDnKjsLjpxH6DP5ahPRIE1DcRrFdmqcNyfDNq9GLwGKCIYQwL7FYlgxckSpfpJWO3uppaqWoQyIQgV6Ozi0bLZIwajSrUirZ7kVrD-pPPYQOU5C9fEw_vIo03XvK_QaKnmu3-jK3fd1Ryvur3GEOQnFG3UVVSMeEQSjH1la8vj9qdbYWG5guo5pBEPE2hFBRFYh2e62oq8WhTV8Tlx3mVP7MkQRU1eC-8RWMiviyzDI12-oDn11EJEhZvmFJPuHZ-OysMnE94pGv-EjsnYR_h7EGbSjlgjtCycDleDi9f_EvyBGWdac0VH9mjTJaRdLlb8koWWCotv3mDVnEAJqv5q_CjRe6yMW6lESPSOcRDYVHXw-09XACJej-",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-sq6n-Ri_E-IYsPnfMJ1L2TCsETjgULHUnIWQ6skXfWzBLgljqR1x6mfqeteOVn5zVm2CNu6IYFf56rwRQKL4CZoEoI-0i3a6SFCxEhlFQ5DYWSrdCEmHc1I_9TA2taGhZflvshlA2_kqJ0LC2NlI-AnnO7gwPfDNUGRScpmmXXo5bt2Wgdd-hHlr2XZpcXSTI9lbDemBpkjyeYG2lvqbt46hstoIEp_-llAdhHvC1Mf1AEy0-3idl9risEPx1TUX0kyfYccCBP9d3ao_CRImjvFy0gYPR9GZw3IQ10SW-QRnfn285Hr-MnVTAQvmm5JZslhIWixHHwsvQxDJ5-Sms4F7Kt2dfe6tFIctzkQ4ZKmreymSTOSmfjYff256HfxCxcqBpBNZd0JEaLBilYBmQRkFzAuAyVUTeEVWmvJYhPKEED",
+        "width": 3024
+      },
+      {
+        "height": 2733,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-uv-9edGhnWIBcF60j1Ejgj4mXeoAZcFoDp-B4PNy4SZ9zvEUBiYz35XfF4UxLFDUeRoI13X3h0n62o_mJ9nvX3mW0lIL8MpldQkDiGhixIwHf_mKK2iprg2EXAjRgZkgSN8_54zmIxoDkpf5iSUw0aXgpY3zsqf3LRO9IyZWfSOX4itywGm0CL_Z9lvIuVe9YH1PlRm0_MJToePCWi0ReJE0CYoE3ty7W2Elw1s_DwbzUmOVnRpFeHSzgw4xCxHOWsXSR2KhuR6ERAc5-sAMVw997N3J5qDv3aiB_vU7jlVpyd277UksNxQ8blQIVpRlHgaH9qQ7ErEky1OtyCgagBv-U_q0t9PtKxJMz3hzOMNJ-at3BytiDg2L7fqt8CrJdz0ke2sPP8YR2TkCs4KqUDSr1xCllZMElInDox35x6SCo",
+        "width": 3065
+      },
+      {
+        "height": 3599,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-uf-Mt-UHiItHecjn1_2aKRnGrFY9s8oQLWKnK57EJZbfZWWRphGQhzOQcHJgdQHTIlsk3cqk7uEJW8L7R1vbw6m68cHB8bK-mtvTjJCi2i6Gn8E19wlzaz4RFhOslowCqegItaj_sFmYPz_vf8r8r7f0lIIMkSpzZLb094m7ClGreV6vdjG3h1Jle-84yYX1KH6ZnqAqzsaxNpUq8SKe_MMgSv7zFtAZFcZ4S8NpdUy_8gLLRgz3L0cTV2py9bWy6a1xNleH6vDrAwwkI35STfoPKtazstjmExQG7oLJqTshGqoAXfSmbcKXn-cRdDHL-OO6UP98jYjegkpwyBt89oT6mxTvKio1BUBAYSuHUNFywttJcar0EVXtkupyiNKdULoysDVF4ab1PFcs7pM-eDKW_aTFRl_XG4YTOZKon6UUPIC9TrZBqouWioYw",
+        "width": 4800
+      },
+      {
+        "height": 2431,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-vakvif0gSJCvMKLl5HbwWXNyn_GRvJQ7Icd6lSYpEV2WXZMNbiBJGlhPv7QdGR5QLywJ1rDZDzi_YAZu8svuXGqUF7nacZ6Eqw72fcJEu3yZ3RoZ7A1Xp9OjNNXpp4i1nJcSZVUF0_4zExk8FTIo3CxMFHzVsNO1okq3Wy-pCaZXH2JVNO_okE3ziOxkoZwRVIz2Nr9lWCR2Bae8PRv-cD5tXSMgIb5Qmge8OuUXit4mREZPLVdvrvzVC8_AjSFzeyNGwf2rnUQ-73snyj0_UlTV_BhgVdSzB4leC6UkPvWxtIuYRf7FiUIU9vhDVQZWc0y6MKPsFJSiVd9pb5O7ByyMQjCXZlQicajJ0lRX2jvOYCIkApT50lD_vqpvMu6CtcE3QHwWW6A4MpC_mYHyvexThmXOSnopTzkwAdPi6qqw",
+        "width": 2352
+      },
+      {
+        "height": 2714,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-uSWOCUIzUid6GoieNKp2GgnTlazCjO5F0iWiuMDcoUI8mjhATPcxLPtz-WjEDMWN7P5nD2TMzzwnALpN1nwldfL83U1MD29HTnt4cvYjRXq9rIpKCuwm3YyLtpk6B6lk6eDhAd_ksbCdRsCn7y39iz_9jFtYiI11afaV2vuJFH2nJGFmEw3xJKXPHmWWff9aAsJo7gxKJq7f67-WVOwJapjRJ57-F22qNQ3QhYqd4lY8wFs01Tw-n5lGC0K7yOQQgLPZ_b1Bs8C4VrMgo-6642UVLUqOzv2Le9_5tR92up4vI-20kLEeHH6_eGxpMHncYsc1cGiPGLRnvQdt72NWV_1WNUhhwRAlDq_YmDMgGFBeouTxD1-SKeRGtwYr3vINTuGkOCmKPMaqUGnlq4rmH-YsnrVB5sPi3u33GI080ngyI",
+        "width": 2775
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-vd-4Ge4j5Bv08aXVxv7Fx6zg3l8TcUvWaPhmFqn7t_KcwKnEPLKFtIWCX3M1-WUV3LHG4KU_1P4G1OGORyWA8ti2bZmYm0JhekyWukeAOluraJeHGEZp01CmIB0ZGRBLR-OSfYyIDbtTxFc_SqRsbDNZ6bUVaDLjk2wdjgw-iKcfvdVGIJqMR_bPW03AHkV-7nM0drFqSeNxgDU-Vl-DjiGQbJiZZQIfsiq0SLbs_YWwQIZiLA2hTQlywNixnDoYLXjo09mYHEYNP-fJPIt6HFPyFEuz-6ojk6CeffEG4dqkI1F40nCoZgbpw0c2Kdg_Q--GoohhCRxKedip5rR9aejUqnW3_DKLvKCItNiO4EAzFz5OkXbYVg6R3oR_Ap_kOXn9aolRGhfOhiWZZja5tkym0bJDR12URjQbmGn6k04yrsMAiVwVQjeetR6BJG",
+        "width": 3668
+      },
+      {
+        "height": 786,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-tTGkUdf5Hr_9K8k2x0Z-jgjCxJ8WHzTSOxp8LLmHJOFGxScmQ3DUEBnCegLUbdVM5VyfqHydsfwtV-Yr6xpoPQw-BItzOmo-AdXM8Km88L6IzB3h1NmLobBIavMjzWhFPkzo0BN_lDxLItf6xQU-A_nywZdnxGgvqiq00M_sWuSbXiuz5fhz_Xm4w51zRRdpIfSBvSpOZXWMA0jUFh7vGaVmpmTURZWEMyasCAiv9P5XoDK3EJ1WejdFO5QW_Qvdcp37VtoTXyRY-E_dGjrzCB5qLe7Qtyb5RiJ1k6dMRY4hmExVKKcMw3eZxLKoEsTTM8OzD8YBXCjjYA7f2HpBLKdsBXPYxkEPjja2iCQQouoIUgvmoaEwUyL9LPLfPIVsg-nTnnlzROCd6n1Vrd3ZQyvue7MpY3J9-AEMKlzjH1Sg",
+        "width": 786
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109005415046397025639\">The Holistic Science Co.</a>"
+        ],
+        "photo_reference": "Ab43m-vJGjOJwCZjMZD2mGGGFQm6G-H3tHu8X566w17j392grApN3k9GOt9ttequBESwUQeXK9vQFKo9VFVSk0O26ja5gtkjzuW77TK3whhnV4b6xGTynPw8KB4fSs_0Df4_9vKshr0pRgDO7voDe9c9mLaQvXSaCPD_QMaLtAGoPGdPO_k1afL2mahCRPL-zPxCN_7NjXXi-DYAk-oWJ-sXH0H4tg5XSrBxFo3FV1zI5cnpC0GgIyYroM_kXH0me1lmEIABcvxezvplQlvcJgMWpBoFNL74uxEqpliN2j0biecYa8D3oxpOx-dTJjM9-VuHxbpz4Iv_r_MRnWKUK7rB5EuSwZRykBmNQMu2WmThu3TD0VPJQe2VVWfXIvcoXFbq991GmFHRZ9oBsZZfP3TJBr63_KVhCQx4DYvLrSOb28mJ3TnN",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJDc43fEeq3oARmu5t20JLT5g",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10975073567446527642",
+    "vicinity": "733 Main St Ste A, Ramona",
     "website": "http://www.theholisticscienceco.com/"
   }
 }
