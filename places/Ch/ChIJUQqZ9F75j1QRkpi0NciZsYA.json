@@ -1,40 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:07Z",
+  "fetched_at": "2026-06-05T21:11:25Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sugarpill Apothecary",
   "place_id": "ChIJUQqZ9F75j1QRkpi0NciZsYA",
   "result": {
-    "formatted_address": "214 1st Street, Langley, WA",
+    "address_components": [
+      {
+        "long_name": "214",
+        "short_name": "214",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street",
+        "short_name": "1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Langley",
+        "short_name": "Langley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Island County",
+        "short_name": "Island County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98260",
+        "short_name": "98260",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "214 1st St, Langley, WA 98260, USA",
     "formatted_phone_number": "(206) 322-7455",
     "geometry": {
       "location": {
-        "lat": 48.0409426,
+        "lat": 48.04094260000001,
         "lng": -122.4086608
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.0422134302915,
+          "lng": -122.4073185197085
+        },
+        "southwest": {
+          "lat": 48.0395154697085,
+          "lng": -122.4100164802915
+        }
       }
     },
     "name": "Sugarpill Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 17:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-viJboC4ta4x0euGZ78SgFP0BfrS_tichz5I4saj_x3WofIDb3pMC04spHq2BWoIxB1046ITimZobNCPtIkZudl3ku6syQggZt4AaYr0UtvW1FDVT-_8WGKQPZfHhiomD_l_G2iW9FlBHK_gsFWI9sp7k7Jd7nqV85gm1q7VkiISWReJmUV-x1YfpNwpygEahxINbiV-2Qb2QV_XBWlwvrBYCXwfDDeYl1qPyGm8xw14tAcLniR7I9r04y414Af8Z1FlSpQQD0K9RGSG9D9mOL84BjMG9IId0ywLU1tyLIxGeMUfrcCz9_ZT_vTRHcI2Q3NyhpgkDwyTXTanxgE3Rzd-yJeIxh7UmYliGXCAmyd6h4oYQ9Y1k6BEhI2fa6JLLTHwDQZm18CjyTNhMx_l6Z6-F4fLzcBmyMUPfJvJI5Zq8Fi",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-uW0j3B2bhwjQ81s7WtgRt8KbJidrrNWe6jU9i7nIhqhWsJBaeghnDasuP9NAjEI6UufNS9Fvdu5Z6L_NdBTJ14rr083kUUP66CK5TgsnYMPSiKzV174S_26U89H7raslGYgtCnL7DoxSZrbsmUFhLI_MhkwDVHIIjEi8ml8uhp-VgoEBlDbKRZLsoegbnTCuhYMq_HbiioKiP3CIaClw_L4pC56_zaRk2HRk92VEUnxXDGsbkQilwo7X1dX1USjMCjIzS8uoexO5d--uO1a89bN0hvuS5Vgti7yMiuad34HivvNdqEHoVkodU_xxUaWnGySvfJy4N952Kx9nipv4JL7sNy20lDP9R4pgiAhgJMx53K3iEXfGbb-hoyAnTv_PoMNK-ByXnVsAdEIu11-LDmqU8BjLlSjrARoHy4c49uxAqx",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-ux-s8riYrZK3rJ5kpvHMh2LMWNQT4HFpH1feQy-nSDHDEp-aB9zWeGje6mnAkRiNkjt2mvFf_NnVM1sNRLaAXhb2e_1Xo45jwZNEFePpeHVa40r0P08fqRlY4PB_bwofLp1pDo0m5X87DYq6Pqg0XyBo8sV71nzHnNP7bswhvF8Hy2IY7QtcTB63B0_muiHHkE5UukIysStBwXPR3bF_gZWZHkm-7QZopgnHBpBXKbsbU5usUX38JBrfNuXA1rAmFiIgVOZsga3o95Jd7LVHQWEVWnb14jCgRKzzZNbhysvDzw9BzdCDqWSjybGH9GmnJkNEXBUqrJHv2LH2bIK7NEr7Q9xnno87aQXkxQzUo-3Op56BafxrbGwBXufBuxH95H-cTSdsiit2Se_OkJ4mkE-iv8S8R-YJZ06OSPSXU",
+        "width": 4000
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112105493866305713287\">Sugarpill Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-txsOvRdCpNjEnGMjfgdMdQxb0Hp7Sa38b2tiA8XhBpCrnU0ZhwjKm4N1xHRybvtTTOYS0pj7ppZNctg2QpqTeHy1Wje-1pBZAQ6OofnN_4f91Il1Ek5bHrd8D7VHEZlCqLS1gCTummDY7Dd7BKyxnsqgRCYRWaGXmJX55-gV72lb5nXAb9rBPdqWg8sYYxSQ6FCJ77eX5LGjZLAjUmdqp0eHeRU389Qi8cOKvfPKUOLHF9U46qrTvBO7lLoA7OVXwMRQdBD598XBOTSnOlb1TX6QE9RmQ0qFKxf8ONpmp9DyRsHoOuInUf3BE75ARBPEFfnHl05iwMtL3j7Dqvg2dR02CA6mBhQLWLfyBUZgIlZTq-Pm3NLcU_DYICs19ri3N3WbfzebiCebWO95KUoPqVJWrP0EIZyhW-GIuFGFi-pFNq",
+        "width": 960
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116478495431841127527\">Will LaRose</a>"
+        ],
+        "photo_reference": "Ab43m-sphFsPr_EJ4652tY9OBCQe4_Ncsz1q89-XMt_P91aFBaVM6q7jPS09hlh7-WmOe1GfTEFy289ZTr6ZYt3XPlX9kDaXcdSrWHhxi6V6AdkNwgz1dk6EORjaxPRi1wauFovms5bkuHKDPUcy4kOzV_oOPAA0FOppX2DBqGSUkxRmBFtB1RZ54sMqbKq0b6j3rn-sIL80hSu8tJgHQQSE1K7hKgprhUcOKeYUtCYIOgTh97davbN5ayWsImhLlc9Z9P5B8I13KHsEV9tXB3rz0eVMNiymAXA0oCXjGhz3wrFylQ9vMJc8bm_itkMzW9_PL1FLt8qNPguz0D1xJw4jfO36X0nUM4FHUytU9oM7Onx8SZQuJ8DO961_LapnDFD-lonGLZUb19vNGJ2UjMNcNTQZL_rvctQn2n8tME5SeIqPMQ",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-vt-54P2bsaLs4DImhARomvfbH0yjVS2VEEJ08gFtdsfkq4tis30NM7RarGDP8vaGxtn6nvuZhGHqtwlVSSXD9tP85CqvvBKkkfCcDQIBf114sfFS68lolHf4npnu-SJUZBozaDp-y0ctYTbAI7jm6UCJdDfwNjI8c50i0A6zLbHw_u0gpbfCmgxspSFuk_BoJBMdtH3H2oU-YO5wlIL9rlvPb-cYGNJ4koByuNaE8d7ZjUemTS2zAjivYEFKHOYyZ0Y7n9BhqdGNx8-uFwIdEcKfCattHg7SPFtt-5TAZ3ql3ZnJe9KHJ4tZbl5-G_sVlqW61uBBLVH1RWVXZAa1JiSDtaYdVpkPFxXzgwyJF6qqAKD05CyJkNr_vu5xEMqiAv4LBwiVIJi6EMJ3onutmNwQ_CqVT-duBq9s3_Uhzv3Tcv",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-tpgECsruVJ_AY8qt3NYkFKbgi0ABrwt7yAJ2qvBuBISLQfbx02T0fVI7CcbozNkrnKw6Rzvfw7HzSgGw07q-8mMu92YSvz2o_ck-Dam59nF76Uihf14kKSugQbAtsYLQFyx5hAhbVDqKV2tJKn_iQId1fxSz3WhSnxz_5sYo7fpEccG97mnrOfzxygShvwSn64xROFkcvQtJt-oULrzvE3_boEfELGnOE5DNk4eigwEjbPWBCjMGcwW97NIN_fe39IbxdpIve1Xyd9PqqH_itUxxwfyItHIdffUct9IAUSVfXrIBiNwqFFesN-l4jhwDElWARfz2iEDS-TAzOoOFXD03E6gv8ZbAnGaXA-YnnBlKhhN-KGCbjehowh9WbIKJdwB6pmSIQ6V_U1NQzBQ1ZzcEbY5nWnMqayb6Dsnfg2p14",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115045492316957742134\">Jason Van Camp</a>"
+        ],
+        "photo_reference": "Ab43m-tLyEP1n-m6zA0uMB-J_qpQUf6b9GDTi-M7BP0z2rv9LBRe3HCm57XDlL_Es_qqU_JF318ZU_5qkqwU9ISiW9MrmYeIXX5plEnUBo-fj1pSKJMHyQMGN-_G1R7wM7RRL6Gtf7jyG6oOxa6g9dXFtKkCmWHFn86MXRE-x3WUlZDXwniNF_oebKUctTqyvo-vry7cDoSqhyIh4wfMsoOSXPLYwf-dGcLRkOaQvAxDI1Ce8rugexnyC90MOFjCxZiFzEJVI9pr600DLOUAWOmJ3NudQp0ItBKDzY9HxaZOPsuVJ_4zEw4uyYEqeTdPyyLGVXQ7ncUev3U0jGlaa1NjodeYCJL_pM5tF4r5-GgMDTSQuviuMlPuTgF1KWRUFs0LRb6snkjrvHloZGDJCq7dNn2BnsxWpQ8ykQbWMp89P5E",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113583516480938209797\">Brian Yee</a>"
+        ],
+        "photo_reference": "Ab43m-vMzjrutAkaTDZqMV58mjIe2h8-PMFWqOZXoSj4dWEngEVOnD4PwaqzoNKqsJZJq04I_QGpEU7eB1_2EFdKKeit3TAy0B_q9t4LWyLK7pjdg4VU_q7aFxM__vJmUBxKE7u_YiIoasRv3K6tbLQmNVt9CE8kL-NI1hEUk1TaaEED80J7NhPq5g0CZVDsqo_cBNoSsjueDrrM7E3GoHASGDAWjZngJ80fBESsAzfVrJ12GJVzYVVrpi0sXsy9B6wpNQfpkd0GPSmoyjj0Xs6QgdYPYon_5KTdZhKfuZMGwpbbDg_UQixtT7gJrlxyfGvwB8AUbZZBBY1I_HicWLSkd-c4FnRWTQcdu5WvIMck7iJ_LnEmsTUd404ZeNpLcMiaKdBYSk2zH5sTZA6UgAnMeZg9426-HPrzfhAqwrjfoNFiMOo-",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113583516480938209797\">Brian Yee</a>"
+        ],
+        "photo_reference": "Ab43m-tBFaLNmrgDYQxCNaOEBWzc4uzHNX5jDSXtjn4TKZRko7PlKGpmqekZkzCzALA3uaIGe_WblF_VOPHmpzAMSeoa6Ir4uCLSfKQDE0Wlv0-Bdbxumu8_KVZTjXbyYQyGchDvx8zCEsfct2kWQ3cSVQ1NREDukfSddTFM7NEdgEKB9viKoSS2fJTauVTQMC-7ur0J_DZgry3zZ8dVkjGW7byvslqW-PJjiLf-wvNxdA0qUzUQASh1qPlU3TwlcFTU9ZfnnOTu7saVjGSNBGlx74X_Z7U5U5PDf6i8JcvFyHUqHFTeFHB0Fk0fRJHj_EetHPS8dKVyU054D5SABOyDYaRfERJ1tGbUfJut4NNTorNVvy7tvB3nx1f77ybH0fQ7BbtGKSDpiNnRijpqn9WcPlIQtV7G6kOTgNzG45mhrMJONPPf",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJUQqZ9F75j1QRkpi0NciZsYA",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9273362192906098834",
+    "vicinity": "214 1st St, Langley",
     "website": "https://sugarpillseattle.com/"
   }
 }
