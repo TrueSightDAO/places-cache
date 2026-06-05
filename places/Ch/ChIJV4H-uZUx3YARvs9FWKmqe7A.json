@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:43Z",
+  "fetched_at": "2026-06-05T21:09:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Urban Bodywork & Apothecary",
   "place_id": "ChIJV4H-uZUx3YARvs9FWKmqe7A",
   "result": {
-    "formatted_address": "1736 East Broadway, Long Beach, CA",
+    "address_components": [
+      {
+        "long_name": "1736",
+        "short_name": "1736",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Broadway",
+        "short_name": "E Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Alamitos Beach",
+        "short_name": "Alamitos Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Long Beach",
+        "short_name": "Long Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90802",
+        "short_name": "90802",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1736 E Broadway, Long Beach, CA 90802, USA",
     "formatted_phone_number": "(562) 606-9798",
     "geometry": {
       "location": {
         "lat": 33.7674923,
         "lng": -118.1705678
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.7689169302915,
+          "lng": -118.1692410197085
+        },
+        "southwest": {
+          "lat": 33.7662189697085,
+          "lng": -118.1719389802915
+        }
       }
     },
     "name": "Urban Bodywork & Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 19:00",
-        "Sunday: 10:00 \u2013 19:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tKgY2uzyGmHCKINtdAN5AH-V88CBcjZjG5G50rmAtthCx-xNHclsVyT5rhrVAgX6TVX5eI9AxXRBXY2ZJ815XaiWEd3-PqOEGr8h2RpJtrvSnbYsgq3PVNOBqEXLVVGJ_m8ZWlWWQ8ALW_olqdsoqhLvytwOfmTwkoxPXuut_h-hOLA7MRfJ3OvPN1h-yVnwLWDgAoAebIOkI-wyHfu7uXrctlbup5aaNp4TLvmWkEKWkktvZ0uTK_BN_dn6M6g4_BU7Ywjpy26XMZHZNJBcyEcK8DXw7X3yRJZQ7NhLGmD-TmdPLM-uUXY-ej3YsX1fFCkvfysDgqUE_qry17ZgL4z4zN3y1qWM-Nqgna6X3kSY34qbQsNaE7FNlkiu0jE4yST2-8NKc6cEWWx8AJh5u0BaBnN6_IEz-5zcXZ42oZ7ZYj",
+        "width": 1512
+      },
+      {
+        "height": 3078,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vU2uwwuMd_4QkaNPCcJNxUc11BH8WHxP_CswwKDGc9sMpbzErw9zxE91mtHqfJdg0v-lJWMyA5-UWhDC-iJK2vgmdEr1BkGOG7thheK9zWkrkxOphFfz7RmM7XwWHZefaIg1rniLFJvfPT0td8d_OOvKGxRKNYxqxgEI2FZWEjcfOtvXR4k2_OdY9uhE-UO_WcK41inEB5HYWsEHs-w2oEAA75m-hqL62YMe6cUPa9vMUbqBeHzJ7bp2fnLaoNrbhkrcKMtHWQpdX4By-ZRGRHQ46ctpE1EHv84Ddb2ht8KOfpM15k0fxv7rBuZiutwUJf-YvgIq7yUO03xJ88cRQeHXIYX-z9iFt5Co4LkbDgbEHrZ6YFH7jY8zY6Lp0v_ozjdwkyYRM7f5OLqQqf6r-Nuci2jqrJflrwHS3CGRhxXFTb",
+        "width": 4800
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-uZlxs2RIxM2X1b-1eE9S6GM8yerXQtNp5djFlLkkenhjAPSlHuwLKGMiPOfuSTbcpEecDPo7so0DstJTSbc-RSx0HCzNQSNwo01jFcaznhgPHKyr9wjS9GHZnuA2IzlzcBccoNEzECYovzsxj1Jx7hE86M6wiWDG9swvMHyaklA975F3Uz7hPNEApRgI4fyy4adfCNlPwUxk8JhLWeeQLAzGHiyIG81e3PDccfGOQx9IK_OpC1SrXcHNrlBOMRudgCzvD1Md0Byy1Xh4BfMKdjewdvhkLRjcxevcNQ3O0CoSP_MniuR_-Juggi9avxFv56G2reY1iQSZZ8zFGd7eUlHWy0SBXXNVkJBIxSAgAEdCO8KY8-MRweAOv1ZotEOH1Y8zr33N9W1iRPLfx3FK3BldEiULKW1Yd6V3kL5ZvFYg",
+        "width": 2016
+      },
+      {
+        "height": 563,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tHvNDq6gg4pGmVrEuWbFYVVC0Xmw2r2QXS1N3gAEgCr0YbC6xxPZXwdDjcKDpCR9VdRIwW4EpdRss-CZ_ZQ8eGVQWiaF2oSvP8cXLp5r5XTsgrdqMLOxPUXvrwc5lru4Xm5LflUl7DQree91f0xar8ymeBdxRnIlYoPD8lGFS16JBLiiXnJwK2sXOSWtbeidv2i2pcNAxJDaKBQHjakXY-V1whIVXSJysj3aSF4wYARkaQecpYXoHkfJLRVS5xS9XsH-uAM_y2GQ319zMWWxAujVTp-soUQqsCqtMXJxb-B3OFYqOQEtBwieUrWI9Of6zcODTxUmyiH61_vbYJ14X7r56RDy4QxMEjL8zYDxfG76C-oHrBpJJ136Ds8wegQZxJJlrKHMg2NCpFe9FZPnJtHdK0u2NYpXaNHsOWEWMcuVpX",
+        "width": 750
+      },
+      {
+        "height": 3103,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-usKA_mCA8vQBANSffjPrW6Bt_-e1YCOyPHZxZ7Jgy9TNuPH5QVChdKEUtluamyfdPS9CannChCPRkQKGErsUVUS9i234OqG1ZhAb2C3kC138Qqkg3jYkOZqJKdmltsE-oWkL9NSfGfjP-8d00SjKjqDvcO3rbuyourJ7pRjqxItd2ovPfw1CbsEzJvEzqwNOdGzrn5sqMfrRMQWpBKok65yV3L2TNa7pUAsPJYYz4r4N1Thk2XGrEZwO35aec1rfDAEuCOAlHYQd8ft3dBPl7h5lAdCPdPK2YA8r61QJuPaB8yBObw5owBZLWJ_Lib27uXyUCHIV3nCqzzUyYB26pNQVRAlX65psKu7BAvbZHGRsk10HeA6mhVOQhnNN4X2aLks9BQZfduCLqfRe6Ci_K0rHszQN5Ax66rmriBOOo",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114551672976273805821\">Sonia Sarangdhar LeDuc</a>"
+        ],
+        "photo_reference": "Ab43m-uBhiNVrYTHEaefBo8bqYjbjO9Lm5Y5s_P7kEa6zuNFfrtjwUraIdZw2SO6QJHg6pumVk2uhFVjt5GLgpziG1tmRymHsgfEEiwne__83oAj0oVrvJ6DR_6UUCmIsWMVAHqDsvTLQwmnUoZxkehcoF3XDySo62BkrqXXeKenNRKaTPkCgKgjceI4jCSEi5bIeY4YJPmXrrxuQDgwH64PljwcV9qWs9foj8yTkKgKZOTlLHP2jPdOqD8kHddT_wRMs3fAVpyyTiMmz_SYLyjeBDS5QHiz8m9E5QzzFTbQ_yrNto_wxSl3zuogByiYgvMyNnWuk8aV3ZbpooXIeborImqpXwyzmMIgC3IWvU-SWkKwcq0509sZx_lVw13xu3FZrJ0C9Vlz2QWPal07o_ozE6t1EcdZ1-US8ZLg3ouP97pysw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114516186831825701024\">d. Ray Owens</a>"
+        ],
+        "photo_reference": "Ab43m-sEK70CMKcLjEVKTXizMAeQWUmNhLZLWp4Ky9nRjZ2yByYMmMVpzkwY5p74hTLPl9uw7Qs3GoSS40keI5kkWs5L9_RI0Mp1q6nr4mbhfoCXWnbhtfvDMU-OIOthBFdsqSDeKC59aurQKJ8TsB1KDxre9IPMo_uKl0m4imaa7cjJ83mqccf8YLOGz1RImpJ74TJYStZfjhOBKcakxW_iU1hgI6bAfssFKM4RSoBuNYuRiPonuKZQXDvSPjgJUqOxLEtPAq6F1fYAHzmKw5YOwZQNL8L5PwEJqhIGu1gyG3zVVz4xuj7fhL5KGtwrLD0jv3xTbgtaZZdNHTVRY2l-qjGMuZO78a2qAgJDxXMflFaMy35RPnI1KcclwhfH7mdL2q-0nK1ObLBL2oVZSRSFLSb_pgWEvJmTLeL_df_3AehuxFfL",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114516186831825701024\">d. Ray Owens</a>"
+        ],
+        "photo_reference": "Ab43m-t4_fh7KFa6puzN_Il1a2poV_J0-U6Q3tV6fOYzX3eQMf4rvFpxzaWsf5kEDxNAUywhjR2NKUU_6spYcTzCaMf3G0EA7OVXYGUGpDpIYl9C3lrNAW5rVV6oEfQDfvDHeVHTNup6fR_ZDfuc-g1uoHC3IflTzMxZKpi69IKZuGHkduoY8bazm73WH79xg4-fhKYr3kNZtrrXgXk6gq0xRjnfD_SRC7v-_K26D3LhwOsG1RRkCMcliHK0-sudJC7DVzoq8C1FRhkELaK6cHzeQ7MojfJaeh-cRYv1cvxUX-xQOahOXUIWDygsAymKKrVin576DD0cylr3CBbvGFc19kDQ1T3_yBoknHJwQ17MUcOi7AUxVodTVs2Sy_V-GYWG9TVWrTQ-wrFertpSPX-3S6T98ia24p0sRFywX97wyuSstcsx",
+        "width": 4032
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100543094456972404755\">Urban Bodywork &amp; Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tAT1f86EYnvgc9M91cX5Uz5tsqTpT_Na0djioX5aDwSWBAARfO6H22hFNDj5xUxnBeuK0r144eFYjHiQRN2plFv1Yj64g1pf301nU5hf6QGw2OXx71rd20abkAre_tIdayyRSXrPTPzV-88XReWShck9qyi5Tyehl6lVJYUPNL8rAQGHHLe6c-l4q1u2kfqZeGvZXFFlMe9Y0XsoPd_sk24SckXbqgoT4w2KJAguJdfwC7VnFB50qXQwh_Ca2FAtGFDZ6z_ibroGizbfT4x0ZPNuPJ5jco3bgnZXS9kvaw-BPFCH6WSWLHbYsmpJ7Q8oocPeYd65ESb5KY5jM3BxA4DsuP_liQVuTamLcYWtKdiCJW-BW7tzjxxNOqfsJyAtbhrRaI2IZzgt95n4jl4KA8q5eKGeu9RamL-MiuETQ",
+        "width": 640
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114516186831825701024\">d. Ray Owens</a>"
+        ],
+        "photo_reference": "Ab43m-t_w1-bP1LMY5JjuKFLZy9qmW4B2lgXyi9nj20Yn33P1xL2euJgsKjHzatlYcKBjKyOlDt7nYKrW8sPX25519mZmsQu3_M7shSs388SP5fyEyOoLDNyU2MSwUT2ecxtcMsbdQbkZxtyRLSbELCDB__-0fI7PhrwYs7mrxF5J82EYfwdNr0S0r4MjmKgrxv7gPW8TMhi0u6hvLGYMMrBPvWKhsyu9E01UTaIWAUxT1Kzzo4fg276enaKDIdrTgiHc5cJE9TYPCQWs4E_p-GpZAHJrL0GAEIitZjj72sZPYVe805fze9vSc_JK0yiTzuKR5EkRXMTu4SPkTV7HLl5z_XIkZkTRkrkC_BFs8JAcMNwY7RMXKvkckfENKRzbOiyQLO4nQOc3lTWUyjLLwzNDpEYWBXbuwaheKhN4A0k731KWoY",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJV4H-uZUx3YARvs9FWKmqe7A",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12716945617117892542",
+    "vicinity": "1736 E Broadway, Long Beach",
     "website": "http://urbanbodyworkandapothecary.com/"
   }
 }
