@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:44Z",
+  "fetched_at": "2026-06-05T21:11:14Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Healing Leaf Apothecary",
   "place_id": "ChIJ-yva1o7HYVMRl2098LDU1WI",
   "result": {
-    "formatted_address": "405 North 2nd Street, Coeur d'Alene, ID",
+    "address_components": [
+      {
+        "long_name": "405",
+        "short_name": "405",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 2nd Street",
+        "short_name": "N 2nd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Coeur d'Alene",
+        "short_name": "Coeur d'Alene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kootenai County",
+        "short_name": "Kootenai County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83814",
+        "short_name": "83814",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2921",
+        "short_name": "2921",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "405 N 2nd St, Coeur d'Alene, ID 83814, USA",
     "formatted_phone_number": "(208) 292-4228",
     "geometry": {
       "location": {
         "lat": 47.6762459,
         "lng": -116.784369
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6776160302915,
+          "lng": -116.7828506697085
+        },
+        "southwest": {
+          "lat": 47.6749180697085,
+          "lng": -116.7855486302915
+        }
       }
     },
     "name": "Healing Leaf Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:30 \u2013 17:00",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:30 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101628379714368760848\">Heather</a>"
+        ],
+        "photo_reference": "Ab43m-uUwAyAYU5Qvs8OlMZxj8R3oMMeaVuH5_xb2vXulErxEdv0Ckxh_9vAwHXeKV0FkRtO4A3rejOyDGkBggTsvG5e5wL36xZ2o54gfmxnohmG4Uc0rmTDoc5kmW_NnWRewNVykH-VV6r0d0qY8MFQer47Hm35s2oydWfrgSg-3aiTCs8uX2eyuGRIEf-JQDGIjT7g0t_913CklCt_CIbUNn6cqCE6nnENDgd7YZ4-cW027fnMl4jgIYjqeCnst8z3W2a-tcI1ikp6vBjJh34hyIClig2BIzCnrsjYm3Tf-nBBYgQsigITygfzys2DQJk79FskVyGgGc_RGUh5HjJYcpjvzNf1Th_9MFyuU_UmYjfysbtbD0Vzg7TZh0lxhI3K3c0BKf_sJFZ8HGnERw4ahjzgJeYFxYFWuj2SYA7zKbdhyeNi",
+        "width": 640
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101628379714368760848\">Heather</a>"
+        ],
+        "photo_reference": "Ab43m-v0sIWhCbfXiHu60hYF-fzqA22AZBAXAIyksrba5LZqIalT-IX7GKU5NUDflgubE0ijOZ0ClbooL-lzAZ1vS7g3mPjEO9gK2qSmugSZiWI-KFJ-338jdp7W-x_h1flNiqQqdmwfIDiF6gL6d2S50GIhyw8gUHmFrmmTXZzRXD-0lJT4jgMtOKlwEYUI9AYCgexYgldrdYQeN99VuNYpskoe3vLiPHkS8zhtN54-zFexDt5n6s7GOOBsSnulrMfcMwu8aCOHP6lVGn3iEYR41FmRQrNHvkBkH3Suy-DHx-Cu1Qjm3EF7418ZLuSbOybbkeWd-_-pQ0DqW1vEGQEeqSNgfU6IIYP24_2PoQkqgFm4zCIE_BcseV0XDN_OYYIFIhmQFx1U9rxskhLDflU_QrwSAJUQIUJZn5X-s9Jnb5Nkc7Xk",
+        "width": 2016
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-ud_StWt0bIaSEQp_J9v68AL9dGt8ljIGzYZa-kIYBWkvwYKXZ9HnfRxCKVtfigA-tev-RZx65UV-fm3t9qGP8Z6lZmpUMboi4yRJx8KCKchvcWRxuEXkzEGmZ-iZkgoOQBrUifyEcC3PRrr9yyGKgfW_J84fPJB1tl7IhTrcXA5Ls-07ovese63piE-jiV8AKFqd9CFBkqc17wAn4ofUHXG9rrRBD4BHtF-KaMF8z8AAZus2KfiwtbsoWkojq6c3xUcUmqNSu9S6U2qAj5KEddlGf84H_dugvhBssJn_ohJpLqrbxtBSFLw8fXREC3d17JAI_OSunrng-r9xwqiP3J18qyO3gkQ0OOoGklW1V3yrt6tk1ApHNOFKMRnmLQw4rHnhfpncZCLdO__MK8SUDR-bTTc1YacHBvlHK_9zdmOQ",
+        "width": 3024
+      },
+      {
+        "height": 799,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-seZuEiN6_3898Gh7RrKm82JiW0O--Yps0IgQCpjAnCD3nqkzxkn5rUZlC3zOh3jF85-f2-A_FFTrlel-16CqQ_Y6eFDD-Xa8X24q4tJjp-Ad8PwP08rnaU92PUhPbv6bzTXsMOUFTRV51874946__OGbrdo-BZZuDHAP3MRXXFW8qMT0nyUQl233FSj_M0SXTKivKTyuW0W7HHv3ltPAZeiamZvuw8ut_reNgqIvsHEfNltl3baK8iclB6VctI8e3ZeV0ceKGjKZ0rYY8f4KUcr_udDJH_zpOm1rT-MNGbDDEOq40knhTpqOdPC3JIs5_bjlMIvSOpzsrJ9HZpRc_8JeFrJYeOdGfb8qrBz4jLewrCruw6yAYGBYNRr6_b68neAhUinMcK1SbWl4fPJgtTkkq9EtqPD1vxuMWhGFFMDA",
+        "width": 599
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vC56BJ9PIjXFu6N--BuynrqJbIaHkJsYUZM_ZK7b5aj4J_1pLoDTNx2E3xeypCLpxQBHLoddVrT6dxPajE5dosHDPaM6NhJfapiOz54w6MA4qJD85nezPCe4QsFNdExlbMPRvQnyrbJbjJWC0xsTFXt-sLPXQ569VYoJ0Tr5Hj-hkpC5nQk7JsQCiqOe6sQnXoKOig2UyawsqJd6d2WQSeCtUaA4u2i7hKakLe37fFkFtbAjlUragU2CZZ_xPZbbTNZwQAfgbjLsmBRpdUiFZh0W3cFDIh7wUoG9zAZEOak9II6uOWq5V0JfH6YLMY7UBLJMiwHiJwtGcfJuLwhzHMANfS4eIOvMTYUsqPPJTDGAfr-N1WCjGVu1fC17Mvs1oQ0gt8tqRNnPmNoga_C8Pk6QZIlyNb3JL1kW-nneXiWrM",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111006307997524640791\">Holly Paszczynska</a>"
+        ],
+        "photo_reference": "Ab43m-v_T8P6AdNwKKGEWYZokuwcSt1e0TEVcIYebwFOe2LcA_AGl1GD8EOS80STJ1BucPkAi4Fn7LDwi7B2VEAAln2HaNoYNTOEZ2NphM8nLRsKcJGbbtdVKcnykgxZTnj1IiZ1b6F-I4adKFkGT-CdL29Fn2BEOzP_skw3kknPsLP7nNksjIajnM-PuM4TpFvu0DPiteULMjUY-iJgmWSls7nVNbPRKqliT2MyQh_bW2fXeCfS0HXYniCP7QJI8vsJPCT1gbDht6tzx0OPGg7goqoXQogP_Z4r3MFMSR9O3sHMiJwfpX7-YQkGRAap5DYyERYc4QK5r2-A5Ld9TDaQflU6VJC8HJn0Bx3L9RkhrR6-RglzBT3J3RKwvsAaxb215jNdYApoMjvsiNsxOfiVjHsfDA16hI-86m0vOSfbrg0qfQ",
+        "width": 1848
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111006307997524640791\">Holly Paszczynska</a>"
+        ],
+        "photo_reference": "Ab43m-te0nE02uPZdti-B2pYDJ13z9YwVSmll6ixVtZ50bSSsOMf7JsJOV2U7_yeLNKaSlaSNSqXrskvL_OytiaXpvECroahMs7vMg3yQHgpM6a8GBFWrFYkO6GQ6k2MxHHXx7k1MEtTbz-WH7IVyzH4jYXjGS60ykbIv-hfuClORYbK67ADhidNGX1OmEW9EgLS7MsEM719wpEGbHSoUD7R2wCNS-W9hZzCqeegNoyxOx2dABHLw6pesIvhfqJcrG-2SE6yfRJq7HsVqxEUwkW6p98BjakIxzWEKMQPZwZrY-gJfVwbBbs1lQSPkdR1DDD3ePNJ3diwopjOfWN5Xt2NjfTJ3XjrMKxwzTr87O2LJA5oZE8AjbucgNZT8WLfaqPNov63EguAEPw9M6LhS2cK-VF-MNakKgXgJF274Y_qQ3qTZw",
+        "width": 1848
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tjFJmaHxtDVYT6bNLhQShpVjz6Afhd8GcldXao2agXkjBBVAsaV0x5C9BexlIG8HNEswpt4nzmjZU5gS83YETRCcMiFfnBUnDrvSirOFrzDYNDIZhh2BaLNyllaA1auv3mpcqLCj5JmkkrQ9ti-4nR3bPmCyk_LmG3MmRoomieHTMQnEo3A73BLU8AI7E9wFMSrTmTVKvb-UJ6XXlbzkQr8WiOeEA6P1xS8v9-gHpmPfWfBi4C6R1kQGWcuJQvOqRvAjifn4pDtJpzTeAblJKYA-mwjW9c32hlUKqeN9WQULVXsGAutgC-UVRqyTCUc_nbmX_vmH80rMpQggIevUIksvfcTgg402baHIPUapie10N8QXdvdvBQcoWnXh_Wsf-jK0dMTE0eW-EFGuKNoc8_KvVZcJWIZCxrK-0EuU4",
+        "width": 4032
+      },
+      {
+        "height": 826,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-s7MIuUqkPT_t2iJhr881BqPgE6fx2tt9fk_bDM9ONgck5Zlw2wAslWFqyoYud8VwQJ4ARJpv_NLabFFQtD1IOc1gzBeMJRzquoKuoMO-5MbLS-dIKFxNIzu4jWg6mfbtn8mF_JcKmLSAbshpb2CRxJkVki653kaTra0AEBLjyyZK83MYbiSAIGQtjfNmkvtvW0THx7e3mLoja1r500Q8UzWkGZJzuVEXf2As6_VjhXAKDFjMLiU-GQlBcKyjrlpZB-uivnHxl7WNmZ1UiVuPkNFMkgeX03B4hcAJTyIcIuka387aa_9KkuV4Sj_TyxIdRG0W_HlaYi5iT64lVfTlwbOxelj6QH4x0e0VXodgcZAC1-po-e1NBEj8zIBrGgxEH6WlwCwShJZSche2faHrGgYYi93JCtC1vj_OBNEueNSA",
+        "width": 826
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101093002457509192053\">Healing Leaf Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-sWbtFBP80P1zERZ_XYBXUCfGvDnUUL1MmiJFaccKCRpD7VqOJJrs_pubX_7sLqrqr_UbkrAO4wSgZK5ItSv-v0uBwOA6hurjv2HebpnYwUZI5l6vJV4SLpvEqMHdQfhrJR2WdjBrlTJwPv0wPqlnpXBbZYphHJHgHC6GYXtWUU7h8Wb6xKrLe32PfBJ7eoEesh30GnlNaSMJqn3GTUWTmFOOWWfyY0bqkiyfT1E1u0udioaZW0gOPC1QtBo-adyOWMNfTCCSOPguQ49U_puuFceEP_BUbHFWSMHNQ30pzTjtv82xQNd2jHtHLfpEViB7Iuz1L8iSwXspiXV_XIjvUNG8tNMK5RJWa0lfJxa-bvRRfxfSR_wH_pWgD9645DahzTvAM6zr-opwm-8aDvwDMHg3yhlQTzwdXzH8VNJ7yimHW9",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ-yva1o7HYVMRl2098LDU1WI",
-    "website": "https://www.healingleafapothecary.net/"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7121832242166197655",
+    "vicinity": "405 N 2nd St, Coeur d'Alene",
+    "website": "http://healingleafapothecary.net/"
   }
 }
