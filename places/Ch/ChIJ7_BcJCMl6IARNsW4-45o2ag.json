@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:32Z",
+  "fetched_at": "2026-06-05T21:10:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Healing Tree",
   "place_id": "ChIJ7_BcJCMl6IARNsW4-45o2ag",
   "result": {
-    "formatted_address": "2711 East Thousand Oaks Boulevard, Thousand Oaks, CA",
+    "address_components": [
+      {
+        "long_name": "2711",
+        "short_name": "2711",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Thousand Oaks Boulevard",
+        "short_name": "E Thousand Oaks Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Thousand Oaks",
+        "short_name": "Thousand Oaks",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ventura County",
+        "short_name": "Ventura County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91362",
+        "short_name": "91362",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3257",
+        "short_name": "3257",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2711 E Thousand Oaks Blvd, Thousand Oaks, CA 91362, USA",
     "formatted_phone_number": "(805) 497-4438",
     "geometry": {
       "location": {
         "lat": 34.1724033,
         "lng": -118.8396615
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.1738271802915,
+          "lng": -118.8382822697085
+        },
+        "southwest": {
+          "lat": 34.1711292197085,
+          "lng": -118.8409802302915
+        }
       }
     },
     "name": "The Healing Tree",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1830"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:30 \u2013 18:30",
-        "Tuesday: 10:30 \u2013 18:30",
-        "Wednesday: 10:30 \u2013 18:30",
-        "Thursday: 10:30 \u2013 18:30",
-        "Friday: 10:30 \u2013 18:30",
-        "Saturday: 10:30 \u2013 18:30",
-        "Sunday: 10:30 \u2013 18:30"
+        "Monday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109629436359484117074\">Ronald McCormick</a>"
+        ],
+        "photo_reference": "Ab43m-u26wUXChQDEX6t8a4h79CKKrhb5BK2vil2h6i5M2F6pDSAJsa5JvEmVGEcAdoW8DWZX7ADFzP37Y0RNzNPv-klt_RAWNkxuQwGNMeb225IXrYna_GX1QcBbkSNloUweYTZ5ZuEXydtePllhYPT-dqUO9hLj1g8dqI57LnjucKZGIrmO7SzlUjJwvcNhUn966j5g5p-eDJLOZK0v_tt-w6lVJIzy_xjbXPv2pqh97iEVUsChFu8iBqoPDMP5REKHlOtyc8vtEeDLiI5IgD0NioR3unn1CE_Bfd3ZMs9HxKwxXTlG6SBsi0ssk6ZZExeFa6ODyJ_yKzGPSm74loIVWKkiKge-AKyhGwl_fMiCNAmqprQND7s_2yqyFP1On3WHQk08VxSBdefU8uFKcvI8nH1iFvBnshNlSb-2kGK72EA4g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109629436359484117074\">Ronald McCormick</a>"
+        ],
+        "photo_reference": "Ab43m-v5W1qha1mc6_aN8yTqCJZXgIO9hDlarZahomHl_eQgPeCB7MD4VLv4rCsHQAQ9wIFYssBAPLxu4a9QlOtvUgws2pfsZ2mIYbQIoXac__lLFgNJcFHIjN_zDH4WUuDXcKgALpU5pJI_3CnpnHTqAZF71KLHQCFA96sXP0dsNkanGwzDn6NtW3geWpEeSEff7Nh89hmtnOO80xfAsuwUeGTZeWTiB9QPOqj-2_UPC9oPGWk5MMmzshAN9zzqc5xyKfbjh6l0WZmvDbaBvuMtRXsi7TKIEB7w29d_ConRC__3y50g4Zb__YSdIMLYtcqx9OBeV-2ESfrMJ_b6YAyVDOnTVxCmol2190rOSnbhEaAik4f56mrpdDRtXwrFPP3d0ligpW3thIH8O86s_oBnaM3SVjQY2ait7YfMatg1mXY",
+        "width": 4032
+      },
+      {
+        "height": 2336,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100816308227007195909\">The Healing Tree</a>"
+        ],
+        "photo_reference": "Ab43m-umwDUfWFDk3aqypMtFIBd7RDphdQez6aDjqpoM24slUfkO6TFfwhZWepXLj3yHeOrON46uaVUWj0TIk3085oobfsBPwO_2X8xpjhkyjSoGrI-uwTP2ODQX541MFrp0_nfEMtWul4iKbtg8L01fPA3PXRA-szTxZDkKJwNlhFXMZ8wlOOUs3fKm2yWH79g3pXhPwbvIAov9OrurY9NPb5Qi4IEN8_UgAQT_6QZAeq6MgU-CURYYgjjND26U__HcKMheuLOhmwm-FuQduI0-wgQzLqUV__gKvFPh8PMgvVnRYAeBCJejHWhGM0N8MmZvpGOoLvUPua6PkRmpT1kH1g0GqGwXwV69QbvUO1UzAH7yTcv2DgxP2kZI5FvmMhnmM-EM8yT7KLmRutyWMjO5OwlLTzzynv_4v3Djig0iJHL8_sw",
+        "width": 3504
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115571329416185274826\">Jennifer Reineke</a>"
+        ],
+        "photo_reference": "Ab43m-tOatAp5OyF48_E-fwAdNl2mgRbDgZCrBwoyB8BBAmlvR7pZBUaC7rnN-SrGo5kHSj0Wn11h1nCoS5XaZ1x0J6AP9ISdaSCeLo6ywqtBh4KhtSeTV-iyqNLNFjhhm_-f-zAk-ynTqknri9EgBo-hN-c2Zt2HM6t5AveOCtfOGggwO5xM1k6Ze_gQ-Sph2otXl73Um8Wrkee29V7dgg79FqHXsZ0QI_MBSfFRV_Y9UYCjVrc4fhSFY8PeoKV7G1-8naziVmlWlLCkJPM2hqFWv1kupIe8mqjRbabDsESomKwHPwkP4T3_d5np_DllzsI4VWK2KzTcGn_l6XJJJcOKb5L_C7A_couTZXC0pRi_U5etbCMA3Kqv8-zOr3O45wgJpQ_zUGtpEoXPBgCbkMtSqEg9e1o6uKsU3U7HujBtbFItyA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109629436359484117074\">Ronald McCormick</a>"
+        ],
+        "photo_reference": "Ab43m-uW6SNhBFiElIXBegYIjUpUQ2xxnhbnepkWWcGWFEgyYbJNkDaSC98gUjd3hgqQZg3DQTRI835NQFIOmzsruuU9et4TOXmLwcjnpcbASrGeM_QORgZwSTKK8XqSBziHZqQ-xT0SVTxBfkvM-oEomv3FEFFYIee9zXarUO5VegY7BUpTGaFV7zifLqAWNa1bgbFT5p1ROf3ij8SdroI_9ISy0HfGEe7FlCepwCVPCdwqsKLKpsKTpOa1Ak_un08IaRfszBGFPoYAIZj_zRsVyQ1wAD6uQyMXIvpagEw0-f-9yCWMv-K_sOx_YsSQ5OJ53swuoR2arIwcY-JfI_Esh16_hUdVXlcI_nbU-OcoxT49lvTye1S5O7VZSzO8IrI3VBqC8F_LrJ_-pcSEyH-SyJ__23rShGieKZ2cs9ie3G6mMg-q",
+        "width": 4032
+      },
+      {
+        "height": 2336,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100816308227007195909\">The Healing Tree</a>"
+        ],
+        "photo_reference": "Ab43m-uHq_u48ogju3X_cEyROlStGVp0bhLMRg1nHG3iN0dKMM0kcxtGJJ6GBgu5hmAK-2NdpSsaQB5Gc_GAJvnP1wfj7FkFJLdGfPs-_2tA1ehNmrHmx_yprET0KGmzCCRvY4vKW1hZPZVNk4AFAIxsMVa8NKXQT855uEr7vQou0seASoqxYJgJKk6DyvkhlDutxTQBFJp6MfK-aHzDVnxldxaEHm9EEnuuXK8dFlVPznovF3qDJLsJLjExmw5-vPCFQSfnwM7rTZgRuOpWNJqNXDOgHq_TG9_M80XwD8yh8MHY8nRimj7LKMg9ceEPXYv-xP3xV5WTju_6Lye_ZnE8NDk5k5cZ_l5R_sHC0DwmwygR16DuImtRDEzq6LIuC2py0sizRGbzLEWQbSRJPdQjOTcGG9JyPdwKEWbb65MP6DWaJdQj",
+        "width": 3317
+      },
+      {
+        "height": 2336,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100816308227007195909\">The Healing Tree</a>"
+        ],
+        "photo_reference": "Ab43m-uMUmmVd14q0GdLdJz_iAAs4735n-lQHVR8fElm_3BLRQZcZFxmkV8xU0ZmJBIs1z1LRaRarov1lboF2tgreE3yFz2HyjGdhOJYcHR7B1dXoCvuVGeHPiK-0KWYRofIX2P6boGNDhDvjxa7J1bQL3pR-K8aC1GrVja4yShlw3lrpx8DhoRBsTw8xg9DcHTPg7pi8RdBF0rZXU-IPTNLbp6LAPO3hbGODvV7sokgi9cLnZL8E4bWhgUmDx1EW2UaiCHLc_n1FFFVd8FtTRm_-wbQO7KlW0o6cdwozpNGxkxZvg3X1_TPIYWPpm3hILK7cZ-GG_ij2we3CaJgTcas6bSTrjhXIMYoDm-nFtrRIHReEe2G6CNuw7JyquyFlnU4wDPvn5dkvh2LIQ_sLvTyoL5v68-WvF2jAZ9xSZvi2QXeqg",
+        "width": 3504
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105771946327795621330\">Marcus Martin</a>"
+        ],
+        "photo_reference": "Ab43m-snmciZTl2Uwxn2M-NF1ida8FFKgfDBYhXn8IoKJkq_ERxobwkpVS-XFj-0hUyPqxkrSSe97x1PwyyAj-GdXCjNiDi823vc1otAWuVKGh-eiHBTbRWHOPsMY9TuItXmQw0Xe86OMTgND4igM1KzoMQyoARvkRgBDpvd-8bvp9th2oD8uWbMzGb2qGaXCTSD4LGM2khyxx4KosTvflXbVc-VK-HgRFNpAGJKgHEZhmOmzNMbqi6DhvercWqMqs0Ywb8DcVfQ3tvjzwE_HToPL8yQQei-xuchRS0YuYHq6CephrpuYAasuUukwC0Sju5o970IWM1Y3TQUQiZinY3hXKYI7ANDOI3Kdtc5s7bmH11tfZienhsyt-NVmiHm7iHdKp_uaeQY3LqGgTB2AeLV7WGkYo_yCyNeCMnBA8R6jLeZSTtU",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102409658981192474299\">Kaiden W.</a>"
+        ],
+        "photo_reference": "Ab43m-tr7n98pdHRQhkY3AFCUfKyqVVKDCS5Q30a5Lznu907QdprTdRNvTMdj_wNvAN_IUMfAt1YzORzxPOCYcYX6JD1BFRKDRKUaTKqWi8Pe6fxRjBICBD6iZu0Tc8zScqdJZZFle6zVE7rJR08ohyvdrEsBWDjJdhcD9H7EPm6g-xTTb1oSCyju3X-KbA-zeB27gWBZvFQx_NTTet4766gPFFQMe_17eSfpDpbfOsgKZwXVE9aqY5E4YPVIuM1zoWlor3r4dVH5cUanX--lNyf6SqVO8QxLEy0gwOPVcju4KdLpUKCK6rNcmLil9whU2AZGg10zgsBmzz_aV7-yd3OMGrQvxP_0MeeRkRcHInh2scEUS9BQioGKG5CVtQQ62Y9sQonWlif92mvFliQjCa3aXQKIiSJ6hOREs_BfLnFIyiH4g",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114344653170065976903\">Christian Gardner</a>"
+        ],
+        "photo_reference": "Ab43m-sDJ1LNU9A1zdloMK0ep-S-BNwr5-gzR7IPloh7bbNK2xeB2eXRGsRnf1p7t-n2briTgSsNyd5l2QMRFNbWmkRxNaQ-kXkrk4FLPIxfSpAdM2qBrImTU_4IwOCXivto1vm1_CXuuDOG15Zeps7XTBqQ3XQZBHCW68VgK8ocUYQrjIlrxSEENd6XoeODF8ghgIXjZPk72-wwPpQh4OolgR-SWwSjpM5giz5HZtUB4faZXtdwUegTJp8NV2nX4bQJ9k8j-hymzT-7YwXMlhT6cbyNHiyepeFuzFS26UogNPgILUy5B0yd_Cvto5iRxJknlwXgEM6HgbdP5fNmymkQDbxNuAZUBs03-lAPGalImMbToQC1kOMdctTNeYSZoQhZ5H7g_fDtWK16oG0lFc-iJFvkxKqkSCpWdxx8K8vBhdEI-TM",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJ7_BcJCMl6IARNsW4-45o2ag",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12166870831635940662",
+    "vicinity": "2711 E Thousand Oaks Blvd, Thousand Oaks",
     "website": "https://www.healingtreeshop.com/"
   }
 }
