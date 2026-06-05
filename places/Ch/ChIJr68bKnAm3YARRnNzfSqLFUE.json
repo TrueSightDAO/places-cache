@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:01Z",
+  "fetched_at": "2026-06-05T21:10:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Brow and Skin Studio with Apothecary",
   "place_id": "ChIJr68bKnAm3YARRnNzfSqLFUE",
   "result": {
-    "formatted_address": "16099 Goldenwest Street, Huntington Beach, CA",
+    "address_components": [
+      {
+        "long_name": "16099",
+        "short_name": "16099",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Goldenwest Street",
+        "short_name": "Goldenwest St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Huntington Beach",
+        "short_name": "Huntington Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92647",
+        "short_name": "92647",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3405",
+        "short_name": "3405",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "16099 Goldenwest St, Huntington Beach, CA 92647, USA",
     "formatted_phone_number": "(714) 841-6624",
     "geometry": {
       "location": {
         "lat": 33.7282649,
         "lng": -118.0070857
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.72965543029149,
+          "lng": -118.0057394697085
+        },
+        "southwest": {
+          "lat": 33.7269574697085,
+          "lng": -118.0084374302915
+        }
       }
     },
     "name": "The Brow and Skin Studio with Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 16:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-sH0FxL0-l7wy5LuJrFIym-PY_fI7lHfTqWNczW9MvXHaEU81BWaOnLc-HOkaeF4yZ4v3QXCz7AWrEiiWe9BdtdLStpf2_tdbhc9h0CSAY0f-BxaRFk0WCX_kkNYRNw97b6Oe7WnKzwkmbG0m3et8mTccI8n7HmJmNTA072-RyzMfBQEMeyNuYWK_4paYW88yX1EmprL6xwnV2_Of93Y-qncRmhzq4zlWivlrW-n2BWuRl9DPoozNH4QtJwY8g3HJk2YkaH0l5_xYWdFS9L69CJqJcPw5UjoKOPQJDmRLZ1rhynXqCw_fdI_JvklKC1eb58peaR2A967VFoKxZPiwh0a-TfuD02szVoMQK6TQJVVmyXJ4yWSPiryp2qxzvbbkqY2SRWUcS0D_il0PoQX5vRHniIOfBLyGFlJs6c9DNHtQ",
+        "width": 1080
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vIUMsWklAVaPpdchipM1IhS9WqIq7VhoahbD6ZsPVsZ5-dMvDLtnqJPrkxDro_65MoearoZy4jGeTLmYYT9NoM77AytMCBLp6Uq7nruiA0x6D_E0D7akhgFdc-RqaxiZvmuNK9pn6FAbJu51aQTuqRFqZdbmgdk9oaxI3f_wi6fF-ugXpQFHr8f8yKFNdYeuQxa51RHFRNm3B3EdAnRqwcZvH9OY-y3psZPlq5W19x9Bm2Dzh8x_q0TMXH65ep3D8VFpWvhcf3ZJhRk7sMml3WEU2DhSlkWFJRdtzYOz0YE8PpgbduPI-sUhdPyaAFgR_jcEKWxbbUDC75Js4O3DQIAvrm-aRog3T8GCZiGQiivjsRL66E3Vni6vlyeW3myupD5t3vL8HY5CkGdQtAR5DuyhDSaG23gu2CIiD-Ed2qt82c",
+        "width": 700
+      },
+      {
+        "height": 1928,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101867856556516026794\">Sylvia Eye</a>"
+        ],
+        "photo_reference": "Ab43m-usAf1XS2hNqRqEWbiSV98XoJ_tAZMv5mFIdNFt3oo9TJwcvx2l1xLGsuEha5JhDX6Ki9o2vMujHMcxe3TdoXRjPK63ogsBFmFBLVM-8uIf2-PuIQz9eFIdf4EOvkpcwlERHCoyMhAerqJnmD3iZwdENJ17v8cqgM0r0PAbO9bH3fnl3PLfsT23GsOUhKhxFeE6ToEPHoyIt2EJqHEnxYAuCyhENfWnFL_4cuFtsVCYIq6WCbu5uB96Cpw9WTcvsmdoGuToX8vPXqDO1f5VgcN2vM5kHpA8PrUriFErsxtgD8QY4fTbveDjIzpBpQlgwdfVXdr3JFVYKDRfwGsRy4R89MLvsthu9eXcuHDZUcvqIzhI-ZvNiWtXA-Gu2gnoizUNlB3YetrNuk2FFnKmnEvswG54FsMASzMd62qzd-APLBcS",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tuDg7A1tUfPPhgBdrdu4SzXieQJuVEHamOU8PyzGUhlUMYRlw-ZeK7XTE-ma8uFB8ocS5WAGMv48ysv5RH3alLg5G_6bO6GJ3Br20KHuYtHiw8N4umgQwiHQjD87SJ4QbDe5YNWmYsCP8xf3Dns2mlGTBdF7bAd-sy0KVO1kzb-CkDoFm5mYSBJ3sKFbf8EWJvG5EeYTNZ9uZSZWPayiQ_-hBsxs5fiDe1vthQJ-Kz28uY5ul7HgIkFotXGdUPaFcdNWtthN63eLwwn086cY6T7wbD1shTHT4trQcwQVhMIp5Bi-xuAqKdpGs-738vXzEo3LVHQP4xBh5RURDYt01hZQUT1FjCYcd4lCRoELOnkrCuFEjvnB6DtKBx-3Zq4h_6JbQfcG1xg_pPpgtnWyKFnYl977Is-TwrZktf-ar8V0E",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-tEvgvjK8eqrPCItHhHrdPADMWwuIkB43czwuCy1_zY0St3gt9oRk9hMwNhx_4HpMCI3nfcgVTEPkzZZG8mKssayUKd_iX6Xt25QCWaIocbuzScD242YAvhvVGINl_3UMSVPNAHHKb-VzQoXQN-i6T-0dB55S9YvlVsGm9d0Gt_v5didIhBeW-u-i35Tm8nD_n5RX-1e3WIr0ZO2Wm56ldA0u6iYgOAXJfohxMMh3iNxnRnfgpAR8ew4d9akRWoy_BIhniglmo1rQQBAMAmMTvJg8lT34FKm2sBhUKKAcr8DcZeKai4g4JsiRguwhdazniJkTN2g4Bq7wv_Tqe1gSbCZknbIw0iPp_oGA-QTYZMdAnAmFk72A6DPe1Rko5yIwbsDEkQsOi6RMbj4WfsRZdyIFGpQ8m9UO6qOGqu5Fw5eQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-sOqZv5qviw_i1ee5FeL4wcojscBsZprNwlWkcoGRJigk4CVYbsSTmMVX2_Dqb7xbsJQYVipRk4ohUubvS0OFQFXat3hKvBvFSmGtpvkQTurBqZXZynx7y4pP1DIPdxOE9GK0yM6ZNtDuFlPdJ1q3Og-UzhYOxemCjrYNk4xwKJLFiv4MO7cnUc2ziaxLPUqAN77xMPtxsyUGSlpY5Orbm1GuUaRt6AtdJu5kLaX1DNqMAeDtaY4RYoI2YIJuzAXI4SP-JhCZddoqfVJlYispojQX345mHcHtFYkGs9tGex-Z7hUrf_pbgUtPhDsoHoiG_zIExJueo-ItZ1ugYFyrO_CSkBHOhtv29qNdxYf2c-sFFArztJSwH4qgS4wgSAXqEDJ5XxTYiy3IljhBabDp4WJ_L-b0acqPCVGdCvzvs",
+        "width": 3024
+      },
+      {
+        "height": 3984,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100671370420356645723\">Anali Martinez</a>"
+        ],
+        "photo_reference": "Ab43m-sum9tT_InUQeu4fQshRiFa3p-Ipg4_3ZaCaJdK9p6UDsiS3JaQvg8CJbVIGdJshk8lD-NLOJWcN40b7hhJgTFjefdKvLZ_axNIA8UnYv-rP7-CsCxWIqrL434MzpwdrEmYpTKwi7QXheGWDuj3FOjOjB4IEoFvkj3B7i3U7f0zHaTRIU1YPaIRm-UEviAWXzwYB0LIM5CDywwrg-ds2eRG5P9FmOzBFR8MD5cYAGRqdpqY1OQGsoN8efsi5KrPQRzOuO6jv5mB-nDtiDdP4dwli4j0zLkrJXijuYdk0cc68X1gqQP24GucDm7ReBtnv-6q5EuJueP1oX1QTa1GhXVfGu7ZgZvF6gMwBAIO2kfgHYJMWvtmzOtzDPrmBqrbcvH_b38HWGYzAXn8KUoulNTDsrmtZY9qi6ykoIM0gPZqiZiX",
+        "width": 2988
+      },
+      {
+        "height": 3984,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100671370420356645723\">Anali Martinez</a>"
+        ],
+        "photo_reference": "Ab43m-sjcjb7sPk5gUG3Wz4GpJ0T6DC6a1HVF-MBk-txH2KpIU4dwkxrGfAlU18RtmtUPX5YLcaaTxcsoWncjOPokf2HHsL3N8ouI_9nPtS4QNp3S24fZFFTsgJFZOfvBPqbliJS-Mt4q665ux-dnADOxAJzTxfkdC03YeswR_zOwQbEolWvUqY9_yuCsTzrVw3Evez8uGsUnoD4GvEe114dn6r7mnlhqyRusANZZ2MjlUiUOf4vDnMZPDdB8DCkm-g9odjl7A7J35RF1NwpA_tBQBRtm8-0B9Jq9KufnbjAR-w-9L0DaSuaUGPBYqvtsOZ2VCMvCkGcN09ZCNRk7QNv5z8MKF11gvWBzyhXIMYWDVC7ZSM_f-1OdpasHZHRJPA1uK_v2uJurK6xMMMBTPFu6wA7S7ZB4clLGots0UWIBXgNyQ",
+        "width": 2988
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-vNrBanxvS9glkHLi0weAKrRh1GiThewQ1ix6_GzI-NPEMwKgDAy_DjR-U3JEyznkKZV2fvuFwNTXR6zfI6f1_RN2wO2HyngoHVrBfoRDpBuxUuXaN5GdRyjXcb1P6JJddyFuWjjOOIaEiMrh6abVWUG6pzgmqjMDG0IANSWpRTXmrgRHEIooU9U9coVqj6CMe6vgpRbA101joCll7LdH_2Q82IJotTDgfrd1l1KwwaEm6XHom65hM0k4FI7t9oNeiu7KHP5Mh5iOtMj3PZrBcKmk8r_P7OY9BtFv4eQKwOAmTmk5BuCb8cH2zj2x0j6_5h0SLJzra58EcNchd3ncNHzBKSZ0In12poQmF0wtEUmmO5cgKQQHgc5jbpVfyMxqtrqCgtrZfEnPjRcSJti-RqNzz0JjLvonEMnuWjPkUgAA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108265675583513748422\">The Brow and Skin Studio with Apothecary</a>"
+        ],
+        "photo_reference": "Ab43m-uEVqZuTZ7Zly6cHyH8O671mlTBoKJl14gOlpzi9qOUTFTPXXOVu4jAa90pk-jnaCqWqDRBM2nd5tGWjMbGnwDprzpVnWPt_J_uZrWcQIXoXmaus1MEiujWsFkC8HOmRtzDaBPeqwQ5lJb_grnJv0gBNuhtefWD4zFSiRjHXLaW6gP2MrQh53EjtE5bjrZWMiBSRwyf68m0bXkzOcb0vOHfTjd6gN2Z1Aifh3wdyNlTjC2KaPlLu0PaxaDOpAJLT-XPnbtNh2bKxhkIbzztqN5Kwta4Dx5fdnfoo1hmasoD-IjZ0nj8l7I3MPokEFE2OzgGHUhQP_9mLFRCGgcmGvJujTq2e95c3nxH2NF00yUzKz8pn7qiqAqxAgS2HFxWmn3gZ-UPBcjuOHEULW2q8KUV20EWBi-_Ufca5XeedOA",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJr68bKnAm3YARRnNzfSqLFUE",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "hair_care",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4689807601585845062",
+    "vicinity": "16099 Goldenwest St, Huntington Beach",
     "website": "http://www.thebrowandskinstudio.com/"
   }
 }
