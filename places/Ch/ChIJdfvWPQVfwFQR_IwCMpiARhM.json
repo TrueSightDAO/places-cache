@@ -1,38 +1,222 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:37Z",
+  "fetched_at": "2026-06-05T21:10:52Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Flat Earth Herbs",
   "place_id": "ChIJdfvWPQVfwFQR_IwCMpiARhM",
   "result": {
-    "formatted_address": "240 North Main Street, Brownsville, OR",
+    "address_components": [
+      {
+        "long_name": "240",
+        "short_name": "240",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Main Street",
+        "short_name": "N Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Brownsville",
+        "short_name": "Brownsville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Linn County",
+        "short_name": "Linn County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97327",
+        "short_name": "97327",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "240 N Main St, Brownsville, OR 97327, USA",
     "geometry": {
       "location": {
         "lat": 44.3931619,
         "lng": -122.9842734
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.39458148029149,
+          "lng": -122.9829977697085
+        },
+        "southwest": {
+          "lat": 44.39188351970849,
+          "lng": -122.9856957302915
+        }
       }
     },
     "name": "Flat Earth Herbs",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-tdreySeeaVnxxHyN1CzKBzY0YfnaXLWmLAZckNup_ZHk_MFGAR_Y87MU2k0dBx2CWYfT5Mj1hDh_BG6mUiM3U2KxSkm6F6BuOQDHJ2w2LXY01udh2KiHkW3mmG_IBwOMZ5YbEBlAhupxInytTmjc8MeQsNSAtIiKJg_qHjTc2EiTLxlazhEgLtPp-mHIBhn7WtfszViZ8-e4YpAnusWU_n0FYa2Rlo_D3JWwNvuwa-6nCpnJW43ImXMNvRYwksW8C7Rl_d72jubyPtQjXgXfeAHW4BEHBuAaKv7Go52ft8GKZQy95ftTmaKB7EbV0XorMKEbohciHPBGNT4hgxsf_T0He3QGnK3LHZyutuRlg-phGwcAKtA9aQGFNjlWE8bI95NqiIdagOftpdcGkj76B01gcX8dojHgwWwsKJ3LeXJBOxjTZm5JJ1PwWF_Yvn",
+        "width": 3024
+      },
+      {
+        "height": 2324,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-tAQUgd6NKanKcfUwZ1o8vLBphFJ9z74y7PTTUDtseyd9MiYbpTzJXWpfxFiFiYRJFrSKTsxR-Kqzi5e2X-kECIt0aDtcvbby7I43oyLkrMI9ZMZ-9-o5v_Ui0TQTlDTmHQYKkAB5RodmiEyGlO1hnTyDPIM6Yzc3v_RvcPt-JcNDcHRR5m_f8mFNXGGX-IA7nlTJTSz70P61_CK_UQe4vYy-dmNjoabPK4cwMZ2oUP5x0x-WuOZiM5Zwe8vl8l18ChHoSGOIR34tdqH_tblqO6C-ocAuX4-5bQHjgRhI7z7IUs6suJYw4dn9FjVpjz4pvffeUgE9PGUfmF1H9lCgNwGtcypaXTPekCRN9maYvP0LH-6AlJuKPuIjuBfTOUeXY44wdWMOuPpBsfmB0sFrqjV1QFhHV35g27Z-OZMR_6yt8noGEAz8OEGdqFf-Y0",
+        "width": 3024
+      },
+      {
+        "height": 3839,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-uQ-IWW-WkjnK0flSbLAmeNFvU5HmBlm7Cq5FxzTdryb-KDUNnQR3jPhpcdGhYuMJ9HBghfVzEiKY9y6FaYt0IMef0RHPz7XwA0UiTTwRomFopTVNkI5hhRIkbZiQGSCtUmtk9drMJVRcOBqn85ig71-aKQfDEwNZXO3FOz6gtBzBfTlr5qIGS6i69Gwko1hAHzB4BNhMYltQ2HCwXuhk2auambPedH-kcZWlOMccesE4rnBpCQdxbp25g-lIrNvxm7KEaUqyg6KN-ZxcuxUXhxxrvvLYPMQZ7Z_BRjgdK0nVQVkC_-S-lMNs7LDWJR7lwYgD8oiulxQGb4_Uf1vPcborZIykoiIYlc_NvTPUUiSXqCZKDIhTHBXgqg1uDk8oOHE3nLIiQi-LaptqVQULE2bUxntvEqNm2Hkn6MSZTMTCnV5FTWvjlaoijJUYqh",
+        "width": 3022
+      },
+      {
+        "height": 1589,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-uxOpp6mC_1fn3nhOSwSh3dU6BCTdZodJrE_wmnZKm4JuONfcSYDovB44C8aLRSMSOW6vXJwKUzy9HMDz2VdsFjEb0QlnhnlaOsk1Oq0nkN6EIOuyPl8IyRitm8-m6UHbFFfUBJNlp3QB8qs8dZLLXmySkVDCF8Y67bKT3D1hCPrtY4-qtfzPBAxl8HClEnEfvpk_YJ_C_Z735Uzl5P_Ma9_wlzo6TZRMPWjiOiGrDezCHgmUdKhD2NpKYTha6N4yzqq2gbJg6D88CqxkOomPIKjQOLigrieLFlm26-LvW1BIIz89YgfTbWH1-4LpSkfqgwev788m7g8j00LjPY9A77nhtmrW0-cnGxkul5h36lLa6xiLAPYSeuME3OpxSI5vNv_YBZCdkrRoqT38LrPv7NTjO_wg3F1M4vBv_z23bMpWc4CHcjqTGo3m98nC-m",
+        "width": 2920
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-t6pCUUgJDBNsCYw4SlfI771NofnsMaZh6MnwVFCC2lJKXfiVTwlHCvkUJ3Wkn7hllSIFZZ9ZZGRnNFysyRO9KyzsNShRiqsGU4TaSSn2HdmmtWyVz6ujqE3uK2YY-QGU9H1oWTAIRagw_ikblG5ClxBy0biEsJAFyCL6P-2kgCdQozotguc3cL8RFjDkB5wMUEaGBxvEKhtou1O7u2_Sk8CKf4Dfa5RQQUQduCukqH1wOagM-znZEda0vTEvghscBft3kzGxupafJo0wR1R_-ol9iKtA8ZytX-bx49FAE6jRq07WPtcUEZ5DdW5IPHxXNMEx7y00DLH7OXK9grPk-IsTDttKVd5A7JFQ-sPBZb5x7Y39jpLtDweECnABIH-f8ynCtIsayPql8e4GIH0RerNPI3FQoaKfTR-BfYjBl0--Ff4Zwwq0ottR1i5jVj",
+        "width": 3024
+      },
+      {
+        "height": 1343,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-vgt8-udT8hBh1rOmGdHyXR9chq_g8ejdyg7ZoSSzUalV1lQFOB3n-2XcBn9WBrbXTwLXuFg4OM2oqWmrPZIrQi9ufz-IMiy-xIIYZlQA3rtoho154fMNOEIrC9SpDBOPM9eecXzrOvH_84N1lAHMLuj3VYNu0AGaC0rO8AbyDrspQFug0nQeW8Se__2ZIKRgdzX1rIWa3qG1ljXgnb_JahMnoAynio3F8CwXhJUkDJwfah0t8rye6fWqeE1Jx-bu7HnoxvXElucFPQzIofi1BfTzMtxVIEJIr4tKOOD1VBWNNX_cBgYsjfvLU_l02V0fULJ-uoP--Vdl9HA2NI30TmEdspHKZTTZHale7jwCt7aWxNXjjlEj2zYcjNtJi4oDXEpyoRM4v7Y8wznsGx8x1G3qQ8qve1AvQzIHDXQKcGGiGIYDHoG4dEvpahH2jH",
+        "width": 2654
+      },
+      {
+        "height": 3101,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-v-iMogKJhL5RdxYCkhRUAKumABSUpslz3gL2o2N8R-Onf8FmwO3o0uJ3ggxcr8plsKW--ESWwpTwxHqd1xcVk3un2gAYHU0kE4gxVt-sujuLms_-To76232uVZY6UtAxfLajgpyY4B3e1ndKAjtqz49yJtNpef26FGaUVpxmTg6qe0o4ouIdiS8eBhWzQQDtU4_2rJE3U-S2gfg6dwC3uDHiyTOZyvrT_Dn8Tld-3sIA1YuiH5n73Eg_pG804dhvNcRbPZzWKepl7HWzN4uqXTr0_MH_sr0t9a9F9O8d16F0-SpGYMq0ptPwixZVSs-W5ASF0yIQw-XAVAYCfnrlQZi9V3es2khrziSD13SX6BofUzQlp-nCJrjwl1x9tVwz8Lf1yWXW5l1NaAO4MlpbrN7reKyAJ6wfLW2ObJiJPEzKnQUiRZA7uMqfy6DiHk",
+        "width": 3022
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-vT3bsmARBWvEwBAfQXoEvk4jgxEK4CWTeO10mERCOIoo5kHzwnodSS54S5uzSPSYoDMpYzVL8PifjNeo7OKUhI_kQXd4SwR3bd--VSsGlEcQrf_IXgcZ-1mShPFnsKFjYxpqjt39UcudRh39UkRnAUTLp9oPOvdl4ZMc1mL8NehRxIiq_VDwWhBCRZqBvPCwPEn5cJlfCU_EH2UWdLNxzTX9XHKvH9nmfsLGRsathKRQPetUJ2nGneCIVA3JM2XsIM7aCjRzH7pjvJiLyGWgFa1WB9065-CHfxeCo8MgIRoI81C_LUniDmJvIze6vAcziAcINLV-NmIQbLRkeu9pG7OXKzkIkLRn-LOFYHz1viaRGaLjvG9CF1E5vtnAjlmcGZVBJAbgc60xkp1WfXJZCwPHQUrTYlxtDBUdUChUr_-kiT-ZrpKymsQQFapw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-sIprF6U9LVY85Ud_kl23y5Xxz0UbdMfKWAApeIHhvhTBEx2tXSLUYB0x7SznEK_Y6hik7o-U3IgrwHD8g79lgEp6ba5Es95Vb3HIjVpUzxKHFdHJoXrxr_nwOunanURY2bhNjIJDFDoahgcrk9jhfvMwkOkfRiaLhSBL1rar_EUkme7W6tXIlrMsTKQ3M8KFT6YO7aeTEo1AqRm2dLulgAqhQ3L6DYRKiuzVqNaq0cQ-oehrxoZQZXGOwXDuqStQqjJRAdut0dWgBLx3cG8cIl_WmcsJeUa392Sm_pAQEpRsruP8brRN_ZTchNNkpBAcr1XYrbbj4XdpootMHhl4JDGsN9t-pfeKK4yXG5WIyYqcCpe94pI_wzjace7Bmt6h1CBecujyxriHd-H6HVAJUul9o6JWH9MpI2svB_Q4kjoY3CtsHtnbQacpKjobpk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101739624681076663417\">Flat Earth Herbs</a>"
+        ],
+        "photo_reference": "Ab43m-uJdB4l02cVqaznUTEb1DdkBk8xquj6O13VJCl3EZ4xtzMBKBOjzQT-64LPHXiVl0gWafolg6e0258D3UMuZYj5Gdhhe2POSEyP4GH8F-6fu-UXxt9Z_ZYV5mIjwEcLQ5fvloVvRXS9JBhrjAIKW_ZOMl2_smgeiMNW8VHM3a4nYPe-8UmLCjEw2Zix8aMO4cVCj07yAQaOQoPTTTAfIEqgG3T3mGWg4MIerqbvJeHld7TN8w_d8jA9z2dD56CqbmwJhFFjsi4YqlRyMxzSJ95Zhy2AWMJad-ThwpaZwOvym21r8it2Z6x_oWHi5CKavWjz8ZNbv6HFn9q7PjrlYZGi57XqYfnsQOOPj8LnXqEVX8eEgkv8jM_TSrqiEs0_UqvPEwgL95GcDe_igTutR-nF7I52VqO-IVhV_uEAH7lHAz4Jzbpl70MKNrJvi0AJ",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJdfvWPQVfwFQR_IwCMpiARhM",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1388938926252788988",
+    "vicinity": "240 N Main St, Brownsville",
     "website": "https://flatearthherbs.com/"
   }
 }
