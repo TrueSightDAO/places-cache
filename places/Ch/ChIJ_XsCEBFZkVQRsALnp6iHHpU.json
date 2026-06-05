@@ -1,26 +1,173 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:30Z",
+  "fetched_at": "2026-06-05T21:11:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Eufloria Botanica",
   "place_id": "ChIJ_XsCEBFZkVQRsALnp6iHHpU",
   "result": {
-    "formatted_address": "319 Middle Fork Road, Chehalis, WA",
+    "address_components": [
+      {
+        "long_name": "319",
+        "short_name": "319",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Middle Fork Road",
+        "short_name": "Middle Fork Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Chehalis",
+        "short_name": "Chehalis",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lewis County",
+        "short_name": "Lewis County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98532",
+        "short_name": "98532",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "319 Middle Fork Rd, Chehalis, WA 98532, USA",
     "geometry": {
       "location": {
         "lat": 46.5914176,
         "lng": -122.827247
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.5923655802915,
+          "lng": -122.8258987697085
+        },
+        "southwest": {
+          "lat": 46.5896676197085,
+          "lng": -122.8285967302915
+        }
       }
     },
     "name": "Eufloria Botanica",
+    "photos": [
+      {
+        "height": 2420,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-sfRTDVkBosRGJdEozR3WlwDJQwlVsVz-gJG8E_874WpAAFIONvPGOzGkm0z287k-9Bh-9T_widm-N5hwycL2fWh7LJQ37FTIElO3c9ltNvYpD8chv3hXgenN2qmxnZwUa4aRwcRLK-8c9_fLHBFJeYLBPzK6h2nBFYvwdEkEAjAUoYgKVxwQG7VXD8_qualDKqzLs1RIHwXLhDgsIUoolTLiSQ3JZK55gdSAm_Xwoo3ZCzVInqsfqaDKl7lcvKz-Fsqo1PogcSxsPzJxBL9aMExuReXJgD7-xJ35SgI6rD4igMm9aq0itAK-rfe5AC7mxu9MC2g31Cpt0Mbyjiw77_DqqoPnettML68MYovJkm267VFgWAV7FJ0zoT0EmvUifUCODNXfqV31ctJ3ceo-vk970KzxwlUxaZDNyz1XY",
+        "width": 2457
+      },
+      {
+        "height": 2432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-tYlPR4O7OiK-mLpsUI-F6iUFShHX5dWqZpB0hmvz8-71DTt8aoABmYti-f4O5AX0AVZG4B4f1P5Uczb0OOH_zhJac5ltYgxLMXIW_XzgIvjHafxJLo6aHFY7ZxpUU2vTvbRHeCI9XlvU9CveXTjW5sB_cLJ91GLl1OfQngv1KkEFEOsTCYNjys8VLPs6Re4x-NvKcHfpRYvjHimi0WJNOMwjGQjOm2z2nsH5Vy76NW0Lg7RGDwcobuI10du1-jVSQMIwPHfZ92vysjujyfF_DkddUBXwO1sA9xPCICwcP_vmmj9wwDJtJxabnKmOD-ISlqnp0inA4IrmkhxohHY2yGFWtRqVwPBbcZTSUuSUWAhRJf2YlKVBEpF_gUI-a5oY-hNgi_6q1w-PVDVjBnyl5Aj-RgRBK23geSxuIBVlnaAF9n",
+        "width": 3042
+      },
+      {
+        "height": 2246,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-uz2lFM_HPAalWpVv2tyXDTnfQ82vG7QhUUrVe2UaLBBCTz4i9aO0NDngM6IWZlndp40o7qWZEXpsVPiH83MGbCynqDqLZdItQhzEnXmRQd1pTT8S4vy0ruLn2UtmJ_mSXRTxXrUvMS7tFKZPYeKiRkhLXMko_lmtUDYW9MEGkx_-wdPBXywESkIeX3pXncSE7kWh-KznpgoMzMKJrP4Is8jeiOObSZfYoshkn9ErMwnmLtqmKZ5qHPGSP59KkutwgKn1ErV92lVpPG6P21dZ_vvcs6akpULeDH-5isk7CI-alOsDhO8-RoJogub8kmWF7hODrF48_bvqLWLOeVzRXbVMU1WgpaB8ii8SJXOo-YB9E-J5SHkY0Tq3fLsbRluNbPwykHiOW4upoD0nWylsNiU-3Etg_YAAvl40bVJ8r05A",
+        "width": 3366
+      },
+      {
+        "height": 1490,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-skfLDyAReFWOokK-00pZIsqFrBtZKpZKD6ltCfsegvbkQFEj6fd6ffmHf8LkgFb1wDdC_cjknsRTnoFABHuY8iWir0ObTn_V_fLCD3r_seVHjmyHhlMo20oc46k9cegZv0-4WbWIgJM7LjkN0jd4v6y3IUaqT1BF657aoGocNWNimFL19GtZmy459akCPnC2OF1YjaCcJ3nzr_oBT73S5l3KFqb60r9Z-69pIESv71MzwQsfphtPFbpq_VlopqykxT6Mn5w0GoiMpPo7AG1ALBExBTsSn-PMlpiDQEJTo8hdtrJoUQiV0Ahfrk19N0g3DWAOUC_ntiAD1W9pnOJSP7cRFF6-uOcbPGYElrzFtA0Rere4GWtvOLBVFLSiWf2TNFPcYzqIZgB42YOQTZf7HC8qVeXfOl1gUlMSn3-r4NizE",
+        "width": 1572
+      },
+      {
+        "height": 1560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-sVaVAjgaR_xCDwQ2LYWKsr40HqPtmIuRrE5eQFJ1aJz7fPxjUGwzHfZpt_c_4ncico5T3_8cqby28eq4VrmBcFZWmWFOKfWkZLpPBdFPbCqOEwlFjlYO9uafTye1JYXhALHb-77n9A08OZaA3_-0bovnoa84NOIJsr2VlBT3-rmjmwMs1wT7xPuVErb9zPg_mCihNr510nR3qzz9JDUTS2mjdr2MlBObnI6MbX8UYzIRCjtJGppOCQeT-3Pmj94wItSxK_rXi2F2jHM4O5OVK6alizflGpvuPD84EHqqHuuGuCxT4sbf5E-Wj643WEEj-G-9Aux4_4cXcSNFbEiZ9DZx5TEtKZlJjZyMRpr-f5GqEOtRcaTqxnAQq51MYSkPJEgJ6F7cwFaTTS0PP6hVc-MJhcELo-1B6KUQQcr73sVBJR",
+        "width": 1556
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108112375295930654279\">Robin Happle</a>"
+        ],
+        "photo_reference": "Ab43m-t3gNU4D4OSq6OMJT9iS008zX25Orl_zeGySqeHg6WXganhj-bgPB0-iOPqtF_7URHQIHLZcid4Gd0pPyoqAhW_4axXHwS-oZ52hxEYFjZJvmZmmALQyGwub3waf_pjIILj6Eylccz7zVMtf0bGXur8rStc08m7CjEUc-9A0AP4L4MZljVmRlaH3GEZdY5n3N-JPD_mriypQtb__Z2Zzme6LbQyrAZgxjEr0y7QLUoqQZi7_6NyYzCTfQMSSHu8M6U4Jmodx4zX2YDaMAtoYB6do05Rl9PlTsOWLP0oGb0wZAAQht2S9mbUyp_62yO8syDrGtSaMAzchASl-lCg7Nafz6URHypIx9wslFtXCi8c7lzIXm4vArpjjF0ljMROkg1yIohXlpVCta88-nu-uOi6CVU4xBcblTsV1J_Ohwwyquxm",
+        "width": 3024
+      },
+      {
+        "height": 2280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-vbIhm4uHxearFR6QBOgYO1Lp-L57rN2Zl8ZgVGw5nSEwc69kDTWL7873lhCwJ5gOudM2eK8XRlmY9pXA2YQNSL3EQ7ccRVBMp5jjD2CkCaayjENtteRTJq4VZqPv7vi9Nl5-elMzZEu5NDZ_5BLIQl2tnpbQV1iDjJJqR-pq2zTnwDWJylVAsmZhw6a1mUwyPHmbCumnXZPWhsNxgTqIOcd4sgF1DKjENoYRcma9_9qLnfA0LYomOWXBECRlM8LXvt978xR2iq8tO_pbObthtkvBoaJJ7b_TD41FrkmDtSxR5t3zubRK5zLPqX6X_9Z0T4qI3bMHWPNpomkxggF8Ua-ju2cUh9wGH-WUZXvzrxHtl3IhXAVJEruq9TsKCcPzlsrYsyVYlyxZN4KSi7KGRbVbz0D8FndQRUCbfOjxEFUi1G",
+        "width": 2560
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627803581819874175\">Eufloria Botanica</a>"
+        ],
+        "photo_reference": "Ab43m-vkX3YYrAZ67wSS2Ba1d0aOd4jxUluQKc20dHwPmQRQQPu-qsVfyU361z2_gMrY9qyKBQ9CqGT2Rwtnf-YmMjG_kHgp79xC03VDta1ah2Sz6x0TZyqFkX2YAmCyP2ou9henb1ddxeOOvWGMth-D1wcdjim6HC8edmKD-lFZukNH731AFQqc5dt0cGSxF7z8n-vpj2XQb62aMf12JPt79TtUbiDw5YrAHwUUoS9iZbKfnm24a3fnJ5V8lLgaKSTYI75pCNuw1vRoCxFILmP8xpXKgf5isb6vxRcfAnt3D0yTPjDW1tJSBf1-6qqp906kNupilIcgFyOfplp7-SgVB6X8R04dSz3oAy5gdAqSlq9TtG1sjY1PshzSz9OfG5fvWH8U6bU42hSEL6K-VQEMUW3mAZkxEdp8UXe6V1AWbM3yLBFr",
+        "width": 500
+      }
+    ],
     "place_id": "ChIJ_XsCEBFZkVQRsALnp6iHHpU",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10745174919393772208",
+    "vicinity": "319 Middle Fork Rd, Chehalis",
     "website": "http://www.eufloriabotanica.com/"
   }
 }
