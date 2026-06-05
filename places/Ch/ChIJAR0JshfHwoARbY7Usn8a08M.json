@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:19Z",
+  "fetched_at": "2026-06-05T21:09:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Pan\u2019s Apothika aka Panpipes",
   "place_id": "ChIJAR0JshfHwoARbY7Usn8a08M",
   "result": {
-    "formatted_address": "4856 Santa Monica Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "4856",
+        "short_name": "4856",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Santa Monica Boulevard",
+        "short_name": "Santa Monica Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East Hollywood",
+        "short_name": "East Hollywood",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90029",
+        "short_name": "90029",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4856 Santa Monica Blvd, Los Angeles, CA 90029, USA",
     "formatted_phone_number": "(323) 891-5936",
     "geometry": {
       "location": {
         "lat": 34.090688,
         "lng": -118.2953675
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0921245802915,
+          "lng": -118.2940243697085
+        },
+        "southwest": {
+          "lat": 34.0894266197085,
+          "lng": -118.2967223302915
+        }
       }
     },
     "name": "Pan\u2019s Apothika aka Panpipes",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3110,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114289924005158061330\">Pan\u2019s Apothika aka Panpipes</a>"
+        ],
+        "photo_reference": "Ab43m-sXcs0r02JneISR386hiM3uQlfrzh20rkkfoCqw8cAJ0lBw17I8OEbHPU40hEP3hngCzHGBDb1TlAix7ejUrqbOo3HjHtyzwDQi-hvAdw3f3kmvnOddGW8kKnoCYDxc1ofTVJKp2ULCcxOisLiMUAX-EZZhOCJYcZLE1bxq9SOf4o8Mr0EWM4_U-cnfPD9fmGUagGV77fxshWTClmXePyR-fdgXARIFUUNuf3FKdeSajY0891GAdxwdl0v4yCymJUJXEAKePV2R1purWiJqMYasWW7DmbPT7M5VXBhU_56YSs-PGHWus2vVOL96OKPg3MIxbymxQaJMec3AZJQPGIE3hilUsxSQwNKUJTsQW_zycXON0SAjH0ZPsO08AOTBjViVVktMky4v8868rtHYjf8XUmjKZcBKqY_5iCqGJl8bq_Y",
+        "width": 2249
+      },
+      {
+        "height": 933,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114289924005158061330\">Pan\u2019s Apothika aka Panpipes</a>"
+        ],
+        "photo_reference": "Ab43m-uiXLM_5vuAOiD14QR4WYh2bsGCc-Rx1-w-jRJqEHJBrCNBD_9Nfq52ceJumprGEoFp03Qqz3lytDFWTmmG1HCZfnRN6w2X3AGzELo0UxLz-aiKy7YzC2MKRWEAaMZcKgqctP6U56hHFFn-qFqUosriXOyRcltACT22RBxA5c62vULN4_qugC11itCdVkPqobDUoEcKWf2NU7XCcYdbyuu5NSq-VMgERaSxniEl7A6mjh8q6-LeUp8JvGSYBcmjXEW4cH-G2PqpT8n6wNPH8DSFKcAA4t_mehybCmY7GGXHtuMtNTfsE09ttH-7HYTvrPDCVrBU2G663PmAqlZ7mhhWBZA_S2jBJyvf2jus1ORLepjYt5FrJWfgvEGCqCkRjfpA7NqOynDSgFxIKE8AdCtxMyNTww3Ll0JMpgdMZfDpUKkd",
+        "width": 1656
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113911056506334966537\">Peter Luu</a>"
+        ],
+        "photo_reference": "Ab43m-u75TwaNS_fhHDIVXrza4dDiMU7VyQka8FoIF_LVcPLShxfNyUgnMrMZ9SxHPGsX1_kCxjf5W49AGzmWpaBi4m7qIkqSHUU6c4SIl6Gi1X-rFkKz-Rl0fsjVftwtiBmiRgR9C7cUrI85W7S67EKP4EHIMph_BNBmiQp8aG600gT4Akm2gCHLX059DjCvFXXm6PeuSdDOnwJyiRgBmR_yXMEihrNMx3o-wEG6o4_DDlzXINZqLTOAC8YfKk3GzHqq8MMjpJt5_5bHiXbo4nTCIa1i7ea7Gu0qEtzxnZxMqFLqfKw0pqDHPPEARnq7C6-Y-D7qNHnj45SdhSM8lN7czyNPN9uL75fK23xEeXdCfKmwcCQkH-c4iU4Yoq4OWui1MJWsLAdmi8ae76hehk8vOBv_ymNprVrp790kh17oCC8o97K",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111690929685939478295\">Amber Nichole</a>"
+        ],
+        "photo_reference": "Ab43m-uHsaQjWt4Z-0KOGNWEfwtoSKsBpYNW4yB1-8a5JFLOd_HWGCtve5f8dC-he0x2yWxdZT-NbHDJTDkcN7jJdLPk4EWYXwcmljJ9cfzLoB0FkarNbqPjI7dEvLpvatkek2263Wm2tLhK6Qrmtaou-8j_QQqNZ7AKMqwb7G_r6mRCcazjm2m3hLhXXVSeM4i_xNcsJWXUXPyGaxftSy8g8-dwrhX8Q0z2aJ4Vyag1OL8YFstBclSVjsianNnGsRlmfkMh_4ZLrmGW--MPlLHj94IO5EV7SoZgW3zMZyRQ8h_1-fyh8lEzZF72mjF5pb-2pXN007z6kcktqPBmzD4QvqtuLmpxUZ95VaTZg154HjrcoGsjc1D6afCR7OywjkCf3HWxyTVmgke9Q-dbYlBZ0rIc4huxl-jAs13MWX01XDEOUg",
+        "width": 3024
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114289924005158061330\">Pan\u2019s Apothika aka Panpipes</a>"
+        ],
+        "photo_reference": "Ab43m-tWBwlEsQh1CY4EJjkCFUUUwtSWplM2Wf_TYSjUi9EpsbC9w17lOZ70uugBn12ojTJ8OIHBemrluxKlGlnHFsEw53Le7zixND1QvEI0sZaZmL3VzFZNVX3SHGDddmsOmjB8th5v7amtMmiDfyJG8xO4qBMTxuQjK5Xyi9EpiEUbla83Lv9UJpyASSkfkHv6g8R7MEIrMgz_Wa5L-ti8N1NaOICVV3bQffZfUbX3IOhuEtYlgocNou3X2PqGZ0x5p-owhdMHlMZqCEKzGpq6BBLZp8gMmZxcnx-DStcomf-Nlaw46J3_dSzogDaneax0OKld7eMEp2xtzgoI2zvlCs5rFyGZMPaXmaB8ePCRoA0CYNrehXlUBnQA9n17aFIpDg56oZNfi-sgojyIyoVdPuVfYa0AdP_u_aH4UEGZlvwcN-A",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111690929685939478295\">Amber Nichole</a>"
+        ],
+        "photo_reference": "Ab43m-sz021B4Ua7McRKtiKCH4WTlXSKrI74o0H-3XVLBsg_gaSceM2oa0k39f9KhKEo--udjWBmn-keGoFiZc3MARw15nmOIvfF8h-f_potS5lx0lhRkSloWQXhLbKA_34k6_TCfI0EiY7Ktrdx1EFwudv87KuK8il-3V-gWSud0wCcYGeAYWtr7uiyP6NonUtsjPUsB7yv-vgYqfYi5pdop64J3LvdachBxJPKTaIQdTxd_D4m6aJoleWb99eSCUy-OSLOiDmES7W3ZmAEiq1W2icD_ShV7hp_aFSd4rt5bFN-2XMtJB2_gzb5HghCugHs5VH18idAFWzpHzn_0_gyZ0i8xiLe7Nlvu_rmzx8MrojATog6jWfGvJ0S8mXwchfVRGMUpaXV4mdElhjplYr9N6MKsOydzrbqzN3eswTcE_WlCEnb",
+        "width": 3024
+      },
+      {
+        "height": 926,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114289924005158061330\">Pan\u2019s Apothika aka Panpipes</a>"
+        ],
+        "photo_reference": "Ab43m-tlz68QoSh4Waca_7PF5T8kmHG7oL9qdWEyvmnasq4fi7-eK_-Tj2qFhl0yZjpcm0j7aXGiBQsj73JjhzvOpcqXz0PVnXgxUxPkJyNFF6d_IR58TFgH3ECWuX2th-d1zcZ1GrM83GPl9ZP6haMmBs9skOYHmnDVSB5lwuQnX7TYT_mwUenAV5vCEKPDR685tCNvJ45rzo_LvUqaAPCsiEokjaZzlZP_WRvheRgUtgJC3G-KnfzpCH3W40q6mGdFrvA1Cg857Uiw0l8aX5eAARNdqKqsAtHqc5xAL7jCGpCWCjOUcxCaOKtUa2ClQyoMsahAPtjVCWEc7v_FzSBZOQuKtBWFDUjBiDISQOWHPRgsa22NUaUDY9uHmdnoxptjO_L7H_0hH2EUAwW1sef0pvwgsnKl-WEgKsxxkLp4e6i9hj-D",
+        "width": 1242
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111690929685939478295\">Amber Nichole</a>"
+        ],
+        "photo_reference": "Ab43m-vKUaI43qG_FdEUrG6ZQ5b62r4m2QBON-T0GYXtoBcSjmnIevVNyAbw6j-DFO3zglPQNvUKUh7MYXl0jYDalxAR86qVimLnKxxnx0UVA9JFf6YKSAnmYPMHqlSWSMMjouBDgX7aRirnVbDoq5DsfsaUWxQU0iPzzBx99DXYKY2SCpYunHJc8KLqoOn2Ch9adkWoshx3GrJII1_1LySszLYVJOHu5TkemOOKPv_Sx6XSCcY1aXa7AJMhXWuB0V9rsRkGz4chs8tWMGYqyiGbXcwYTvaOlbQFQecfwgxZeP4huVgxlXKHPR3FqwpcaFfs_XOtzAxZDY5zLyGo90gYrf9GUGQJfQr2KJnRXdMqD_A-cwv52oMhfogheRMK1rc8sd5VBAQzhuOVJWgNDRBSbZ8TSYHFeQ1eJRkv0RKGAaeMCich",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111690929685939478295\">Amber Nichole</a>"
+        ],
+        "photo_reference": "Ab43m-tH2qJjtr4Bgihtr3EErGBMa8wuvu6UZkcPraxDVLaq7cZYCzl6G_td-da-61xVnv979zVZz6-73JEBP2zzNp2ixE0f0UhJFrNe5d1O6ekOFcILxc6JJfq-tiP9Vdth86Ml6agPrvwGekwuxs-X2mUIACPNC-oJ05egerD-3UCoRIULrUabeRK9iyyB-LJHm20toaRFjAVU1dcAWAlwHeFWxQJeykt4tmVhc2zJWtOi84mQ8bCxoaeD1gsffWhTlmXCxeFiPVlEEk-FUenKGRESPMoAyoGlLGjdRR02GF1hjISHviDycaQBVyKujF_ddHw-_9R8AUqVN-O_6ILsy6m8Q3WfAp6_jXm65Q37NQaI05PC8WnwWG0MqP6IHFaQDaYjmpVyz2pAaxDVMNu6BICZ6YGlEa8h2nLhCp4owRf1eTc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111690929685939478295\">Amber Nichole</a>"
+        ],
+        "photo_reference": "Ab43m-sPE8OLhLN9B1b1CrMoUi9kpPQ1-UCIsloOHbVwolngvoUXUTg-BosYrBG5FFNj_2w1UiLiQlAO50mP7BeFU3PUOp3GTkcSoY0CHjHObvQ6IYXgJFW222XrhtQh8EOhIZpQbx8hRFcJu0BlwvKbYtc16yhV45ffvcgGKNHFjDSbYWlud5-GxRZi9L2kyGdZIfdN0RJrRADmTbQU9UCcVLRD_zgwT69_Aei9h6nHlniNSJA1gxtcILuhk_qg-dLWROHvcCpXPwBba26_5RFh8of5RTsfojSrQElOV0sThIdEviA9E44w0GOW5AQI4C_1dLavAs6TGMaV9ONJh3J1V55hy_byaYNQLPrAVfEnBhPv5fGF6uw-jB4HfP-4tvkEeTHZewlp7GUILfv5Ml2Bk812cHurjGQjp-c_RkdJPPE",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJAR0JshfHwoARbY7Usn8a08M",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14110651193245339245",
+    "vicinity": "4856 Santa Monica Blvd, Los Angeles",
     "website": "http://www.panpipes.com/"
   }
 }
