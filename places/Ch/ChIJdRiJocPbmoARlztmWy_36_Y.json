@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:32Z",
+  "fetched_at": "2026-06-05T21:10:43Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Shea's Apothecary Inc.",
   "place_id": "ChIJdRiJocPbmoARlztmWy_36_Y",
   "result": {
-    "formatted_address": "2322 Butano Drive, Sacramento, CA",
+    "address_components": [
+      {
+        "long_name": "210",
+        "short_name": "210",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "2322",
+        "short_name": "2322",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Butano Drive",
+        "short_name": "Butano Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sacramento",
+        "short_name": "Sacramento",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95825",
+        "short_name": "95825",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2322 Butano Dr #210, Sacramento, CA 95825, USA",
     "formatted_phone_number": "(916) 208-9096",
     "geometry": {
       "location": {
         "lat": 38.6064025,
         "lng": -121.3812108
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6076643802915,
+          "lng": -121.3798689697085
+        },
+        "southwest": {
+          "lat": 38.6049664197085,
+          "lng": -121.3825669302915
+        }
       }
     },
     "name": "Shea's Apothecary Inc.",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 17:00",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 15:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-um0TZJfLkXRYmuBXDHMxJbN_qXTjeltGc8IG5_bUFCzPrEKC2oIK1rVkgSD5V7J6lxVI39AmvaQQNJpY-zatFvPHyzx6-elvD7aU4fpI5JiBMwnffaxSEUyMNVnTKEYznU4r7L-neKyP91uCCjIkhetLSkOdTuYoJBxQvsc8ifX-WqvX5h3Wuz_Ih_1sd1-1N_XQ_e3yzjuhIslLW-9sHO8WvfRyKE8csJgpIGUaRIpG4KC2-hVdS3K7BJTtchL878MPrWSVJ2V6Mpo4-pjW03Q4t5dt6gl9yEcYZBk-k8ekSp8mvgegomSzUnidgQz8RAlEsYF993jTco7vuWwEOJ2bWM5tadcRhOZVrS7y7UQ4kCfd75jjWPKJbqJ4HxV2gV1gEKNvRXgc_tS68_T2Vo0PPUqUMv5XseqWZ6aemnjTCL",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-tq0WcSNZ31Y25ddeLOtKMob2Q-Bc9LhoDXtg8xPHjXZYxUdVGijjNOS_Qt4nEZq5HH2lQYoAKBc-MaIlSVq7IKuYwcm1cA8ykybl-wQg09DOlolBNfbjLpvXb2xYi60EH-rxxkuhdnz4CLej55ApyLmtJhq-CZOcWYRaC8WZthcppF6_A0B6NT0lquiDLCai3SST8iMyF3jm54liAresLERZwnij1mQQSlBMP2Z7QRKG3X8tJhH0fQ5w6z9aZbXB61gWNaa76b6WeGI9IZA7il_aF0bqJsiAAOAS20LBON28aqc7RC3CZk0HW7GNmsbSIjG34r0xHEAEuKgzmrAWB6454AODoBE3lsrQDJzBzyuAAzd3BcCNYJiEYSebkI-Z4lu-sTdPBLMB2bNcxxmzSGFQCRo-03Rxw_VGdlrLAJ5aUO",
+        "width": 4032
+      },
+      {
+        "height": 3144,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-s0IJdap7EZfCn6lBD6weJLCEB3C3we2AB-7k8CkPurB0fXjvJZC3UGgSj95aymkNy-JUZuPWd0BvzTlsUZWTPp5E3pEvmNa9pUA88GM661TDLDjRmgmi0sC68vCGI4ykgLgEgB3KHcc1AudUKhSzegOKuc1wyYGbMADZhWOJH7sMreHz5yA2u05__E8YgkEZAwZsH7ThBejDkR5bBFN-ibRoh5YZk4QUBMoZen7csrEXasNAzr_NDcxdXTINDuu1znJk1w1UNN1cmnRz5hVwpfNmAjseOITR1MrJPpIPPhLG2sxG7D0o-vExceuuIgOjC39vWk1qC8DccIz11OgTp-wpkotWTEIsavGx6DpB_xzKvN9q9z1pmwq2WLM9EpGYM2vdKDjRLDVPdXluma1t1Cxkt4vIY9u83jXWZ4u8Ddnw",
+        "width": 3144
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-v9U87C7ygs7ERgg0dYIunIq6xb9IVUGVE0d53AvNsYVupuDiZd9dvmnFWdnLS1x8A0wl5fHGJ37GxdHew_krlTljhGuugkgODmq12C9NhGwdtKMNkpcXr-B2_PqhmtNNn7bU4wd_7oHh8yweQiu6IkOqnmlADhgSk0LJw8a6GxJNp0GYo6clD3Wj5HCj_frR9W-U0qqZRCBWNi9JdFDj00pIqifOqzPeV3fcplrTFZYQojEVZ9EUwBwqDQi4aH6vtX47LYDVYl-NoTnJ7gYf1LY8qTcNWhJhdKtt-nByHipwtXeeY_fA7wQh5PWMliS-Ga6WTZCbBo2VeEp8sAoYL9L6Rgx5jtbTJOOLJfdsR-yvXx2X7Vji6ghcedyPJMT3ArsY54hnEs_oHc_EFRWRo_pqnavJvW3r9Y-zIz1mXsOw",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101253099361422620897\">Chris Trotter</a>"
+        ],
+        "photo_reference": "Ab43m-smX5NiANc6A3LYZFPU3sQCJoG0RqtTx2_4bFrlQH7KCNsK1pHOP2zxAH4ApiVra-Mdum7i8sJ5ExasPu2fPQ_xFyd9uEn2fdSmFIUqD0kAT2u66ezjm3jUV8FHbxwSuJi2zpfyoMtZ5UW76RT2_kZt4HUAIqeeWNwAZEQqekxRnaX-Ww9l7Ihx4pcgX3mdgTd-iT_ctOEqycc9BzrRZMmWgtyxWoshCOzrz_0szQmkO51SSX4mPe0JVTe1PL66VWY6iomFSoF7jm9dSWOff5LoaZNwhp45xcuZi8bAlhMxx3cKCnPk68Rw3VRpw65pe_wboCqsrAUXRyoHSW2PHpRbRePEzzxvUS3BcZydvHQje9cw56C9R-vgja3nsUfU8S-sfWEo3v7ik07J5tQZL_rcaTA5UjD77YGD3OOPdhc8KDbF",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-sJ0qXQHVgkhWw1oX0iPfyPM754O-u5iOimvafgf0yP703a8JlDZ6kfVsNDYlK_553XAyVKsFHLmlzsC3mXQh0fO9HXXOLTBIPmATUfiw2-Cp_-zO75fErwYNzl4ikvXzrhqJlNAfV1K7TOjC3j6ppytMi0JlJjYh15geblWeFBEzpDPl8X0CJ9MYWre3LdsDQg3uPk6jEOR9eYHoOcArm__SUrhPkyayFxq3mtTAO7J3U2W2x9NqHMa_6Qc5uFBa5sJv5qq-oRVXA1FvXfYgyRaain3XHdu19wmVbMbm1WTOt9sDM4erGbx9ByuCbnhKiaph_hK2pvUNd2WrQkE2-5brAwH3O01JXH_znV-qdBol7IRyltKAaDIjPOjIUz1ajXsnr9J8CeWDHYsbswX19LX0iIe6K3GohD8hKF1jrLcg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-sZ5xlYWIwB4QpH-YYI0FNzsSkdEpPZC_kGe9fUu0WSI8R_ktmUHP7Bxou4qhKIrLa8ELq2xVOqN6eOMXjlNCu_6zmfA6pZ6jONMXWqCCHziQA9a8JI00DrprcQ0A1NeW6Kkh-oew_j5vFvJCqR3RYjguvvMDhKzcQjx2xs1ZI7nOZwM2J-CXzNi7YWXNLZq9On_t2OvaqGe9WZijq9NGuOGKZ2SrKfc-ljBKrZy9Yt9XNVs278EXfuGXPYbV9d6EgGlXmsq8cLAw0uKL76lVdinm9nJkoYzc7sddPjHoe9iFg6uODoW2i73_VciGgcZ3jyWRIlm5ibc1nNnFxOnCqfjU1YGy_qbZOJm8JXRwlwasILU_NpPoMomO6OmHYOuImP-UvP2XSYCTEPuE0DaaZYYinQQmimCl_X8yW2mX9O5Ts",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-ubNEZfGhHdvx63nI5bC6LKZytQdq1ivPWzBVZDQOITPQUqO_d6723nMjRAYHnKKzuf0u7FdZCqMlTSBdDQFfa1gYuAYiGGxxNB7KfkgRFGRSSodluPuWU8Pn36HKpF4umSPlkrHOr85fAI20IiInzddCD8CxJqLs5MJ4jvb8TtW3lLRxYe9UiqeS3quO9BY6MOZO87c40DODvL7PK6CW3SYf2Qb-QtprzuKGCiRC-2XKSZ_KHwJHsaRfwQ_Ju0Byr6tJjK_OQTkEhxr_kGAhoO1KRrZRUOaFIWpQ9fl_d6vTHgd6uISQM2a9r9LXp5wsarnqap0oEZEaZdfkEAkwPqWUlOYLSBujuQ2T7vmDorrhlAE-g4bKVN-rjsWeLYHOzJMoHkGn2x-pZ0nV-nqSAhTXsAh1dqdS_W_-JTFcii5FU",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-u0sPwK08NW5vsGlrQsyltITD2IK4okJ1QU8rCxez-HWoLv6xUtBM14S9z54kFlW4L68GEIUvMv8F12nJHLusREjtsWwIp2czLGCra_qCU3igldT0HJlp4mZyTra63fibEqRSLDwZNa7fOGs57mWGBDyJiu6xwDQadpWBSpCDZqh9rxDaOdVgBc2dS3uG0PI2AukyaT6gnIkCbbEcfZ0uDrNa0cIkK03W8GwIgeqtEQZ0gIDc9ZZvQe2L7CFhKnRAaK8Vt1Kzv9jFpVXphfx659pZuW9xHQkmjBKIyBrMYm-2LBLyZMbUnFX6pW69OBfQSBi-I1vAjlWsAQbrRcGRsXJcC8ftfg5CCFTDl4W3JJVZjfx8NI15DGOWUoyJ2hLf_l5nXVlmtq-qss18rKdb0-kq2QUboNpZfriYMF_GoI2l0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103025451337876037062\">Shea&#39;s Apothecary Inc.</a>"
+        ],
+        "photo_reference": "Ab43m-uHwV3K_wANL9GtW8KWO4KEhFcQWgt99mqL9QJ9vHimbnECQDsYWc-Uda73cwSBtIJi3kfXsZf0WXCb2t_c0rOcLdnQAKX_wNSAfna2_zbjdeB0jV9dhNx0nLw1VAwh5IbKcX8eLTW54xCmHfFfBS1ZIHiU1mdqubFwKLhvpS6HhUECdKiNHXXkLnelSMqTMF7EgkAq9V79-HoV0SDu-IHz7C49xG3cz0Ps3voyz2pYKnGEc4wUl8yfQ4KUhY-puVVQUQxMA3vjHBiJXpGOohva98M6TMSjQfhBtL0b6-eLj0d5pmxnU6r8GvQFroY-tfkgKGsT6eBWo3arEhHqP5dGp7wuejWUk0Pia_s936brwx1CDSahSm-Fl9S3H9oVxb38VVveOyG6gMrAbYmKn_Etaxv86UCN3mIgH8niS2hGow",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJdRiJocPbmoARlztmWy_36_Y",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17792586535626226583",
+    "vicinity": "2322 Butano Dr #210, Sacramento",
     "website": "http://www.sheasapothecary.com/"
   }
 }
