@@ -1,40 +1,248 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:21Z",
+  "fetched_at": "2026-06-06T05:33:52Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Holistic Growth Lab, Inc",
   "place_id": "ChIJiYjX3om3woARuBAGAO40kO4",
   "result": {
-    "formatted_address": "4321 Leimert Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "#1/2",
+        "short_name": "#1/2",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "4321",
+        "short_name": "4321",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Leimert Boulevard",
+        "short_name": "Leimert Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Los Angeles",
+        "short_name": "South Los Angeles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90008",
+        "short_name": "90008",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4321 Leimert Blvd #1/2, Los Angeles, CA 90008, USA",
     "formatted_phone_number": "(213) 574-9554",
     "geometry": {
       "location": {
         "lat": 34.0050865,
         "lng": -118.3304363
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0063781802915,
+          "lng": -118.3289946197085
+        },
+        "southwest": {
+          "lat": 34.0036802197085,
+          "lng": -118.3316925802915
+        }
       }
     },
     "name": "Holistic Growth Lab, Inc",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 16:00",
-        "Tuesday: 10:00 \u2013 16:00",
-        "Wednesday: 10:00 \u2013 16:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Thursday: Closed",
         "Friday: Closed",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3kQhDar26VJ5C7gHtgLM2BCOa9kv7__n-0mtvflt2I046cBTO7apKGohx4kwkiFF7K-nRkABcGqOc-3rPQFrAoFcelG5-S8yGIM6ZNofN7o4xf6m4a5KYt80CWj87Uqvdu7RqLgXiU_xfR88YONzDHyNxiWpYezzD5bISD48_LDILUstc7eWGs65ud6JOhceopa4mDBlmRrQBAjy0xTdNHI5LKAhoYwML4VNfHRdRS7A_GJ6cqhf8oA05cKfWTU7ribYe-QJ0t7oR27gnrX8F5_0AiIpIGpjW4kpq-VBSSEvH9JJLq9kkFulpRYOlFgbciWr9Bj055t5T5ubelkNE0vvdzDagVS-sU99q06ycC6dpMup45YEB9rw_CkF15T2ujpy0jns4JIFRhe8VrEU4tsCGUR6y7y67LqlWPDpKfuddA",
+        "width": 1024
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3n8_VYLYGRDmOQRT6oACZ7OQDz0knF-Iz_4SRHF1lehAARUJheShLkfPCCtcIC1xjd3gaKZjKx6ipA9pag3aWQ93Y5M4oxtzDio0ihAyx-GHBEjjlRKJ7JrpJ43MA9vB5uoEt9UxziHDNBFJ_wCoSNabazjj5x58LeCevenb9E_aekXWUDVTAJDvxpMlSebCz2rde1RNLTxFa6Zgv3hAH5kFFuetVgBt-Z1C8TmEIxLyYXM-YDA83uHb1v8KxkhW_MOSJwq3npCkAaerdRpFAqfine0DUYJdY6-OZL2VYZQ7ZJZ0BmwCFevgYdBu6DlG-u-HtP6ic17oD-aOIWO3p8ff2vQJWOkNkXP36SnSGjJU_OnFAmPkX0JogOlvpHJhZ0Ba1kFwnbBwWcByKrabGC0gxRE6ML1kC95-EVXxmAowA",
+        "width": 1500
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3nsGngaOPKaLrhDXwps7EbBeMUPwpBWovI0q0PzHnebgKTs1r6HpCqEiPhOT_YUjM1JXpcMjjqZY0MuGR_YoRoXGod9pRftvocI1WGHFXpJV2p5JEZQqyAOOpFgpM68rQ7NZsKAkvrvr3uBxbkVRRVdVB8fvV-SCaCQ1GBQHKTjebP0-qTqsNaiG16kHaArUg3pLC7p6qgRrwyGeVmvpAGIjxkkY1uO8JoS-evfj49QBfz_D3DM8qM-5AO0iFplWyN1OsS-LXN3vIxK5X58uhlZ0H-rLf7vx0qJwTwDnFHWp8KY8XBUmqtpMlZnKT47NrWUPwnC_nOih7RZ_OGrPxLFZlrc_uf3reqMTzNEYOJw6ZTg0TOpb7T4RaABBgUpjeF9BRaQxLscLuLErthla1BLkflMbn0BsY7XQg0-soGtZ1R7",
+        "width": 1500
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3kb71TjkO_mpr2lsaUu6B4lBg_fFV9_SX2Vhdk8rY0LFGEwIguf5Nm8lqLCM_EnSquJCbVJUzvymJnmp5pagRd6B220k2ttwkBq_2_5SjekHqClNbgMHhw138f2hzknBSpZPohQnj-yadJINmnxFUENIDV8ektnZFkLiGnE-AyUlitS78BWNxT6uUlItQNVpj6RxIOebL7BbFVjVFvj0yGAyS_nPj2UY5PKeRTIR_a1Wk5O6i7XUMErhwe7Dxa1HBIe2t2JdxR1MczpNU4ce9hRX4gZdJSI_HOR9E0u_VcJEgNcXCiX3_IbSXTWKKIM45EB1uIynXKkJ4rJdgdj5L78H-D9UpZaZSXABkZALUwTQXsRKh8z-KA9770XbYIEyO3AUVSm40W1vh96z_ZFtai9TTNRsxsBfaMWPdFPDlopaA",
+        "width": 1500
+      },
+      {
+        "height": 2720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110683414998299735869\">Dr. Shawn\u00e9 Reddic</a>"
+        ],
+        "photo_reference": "AaVGc3n5hXUY-zI1XOD9b6okRcy-H-Mfae7btK87BMSuWebNdOTyNv1t6MovQnp3bjHsro9_nndrE1fFyf70WQ5rgo-EEEcdpp8-QpXwqykufT_T4mlXunJ4Z-hkotwHE32gYDerIYdVHLA6UCyhWfe39f4BS8ylackLd2MwWPTydEMB_j5eG3raplJDqeWEm0RGL8fy4a-qd7CEG7SlhQZEIVQk1Uc10tlJg1ESF-529ss84aBhJPxjwjAcwtOjhGL6gplLw0InQu3w_JSomgN0ijqFvjY2o6qvZYuG7bz6-NWRS3Pdqj9HvgxTHjrYWBJZkr-XLjTanh5nzFg2ruPauTk9oky-zHeM_OpqO9sij-Vg44OFtPE3rh8L_Xp47DHjkvdYWVXE99I38OO9NQ_RCbIsL6UlPqlyfaA3CMhKOyuQZQ",
+        "width": 2407
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110683414998299735869\">Dr. Shawn\u00e9 Reddic</a>"
+        ],
+        "photo_reference": "AaVGc3mjQMoEZWmHGc267FIDxjNptvWJBVwKHMjJyXs7v7fVElgpQ6N6uiCWoouAjnyJfeswJxsbyDTRDq8iJ2aBu-OJBUtaXHPfzl8g4oDeEyqjJBfbeb_50ifrb-EeEXpFL-SzOlEbtz4RZ7CH_gUY4A7oK3CTwmK_4rcR8QR9I1ldcdoMvcO4VRw2zs99W5VIfy_8UAg7gr1L9waJwuBRsVNUvesCPRMpPX3eos1-9KX0Q6TjlY5bGYOs2-0o8XaLl3ocnBFgiz488J5omrIxA623Z6sl-gJtPUkDDdlSfxn4IOd9ZY84WCmfysHDSG-lEuEiSc4NjCS1skXzFq99RFVP0mWl2w6VpSOuBwx8JLh2apqM6RQngybcBTEHZGqROgPMlGisw4hcmX7r3PV8ONIgMY5C0rhd4kHMVwEVuTCiGDg",
+        "width": 1080
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3l-ibnfNFp7CSiAlx07I_ghOkVvwGgxMPqHjxL5WHIqDwMFtpSrSRJRvQbbW7mWaqHxYlfEVWKxqQVlwF0kCW0-VvKMVehwPJ0K2urfNNJw8v0XY9xIaChinQrGpAl7a57eCoSpdRBbScKdTUBoB86l-oGS_8F05LE4es9HkeUJeVw_yVc3oFkaXlTbN3k5UD6YDjeT60LmIJneeOULLU0bIix3AYZv28OYBpiHX14iCG-dq0o9sFQMsi6TNr3g3pyjs3ruFS0sqLbVKUNPKbuwGCWyeKyRogzRh0waVgkYMxkGEvnMEyUDjXqCnP3qttKdbMDQQzDWzg9miw-IK48EfTqiZDCmnDE8-TP8Ab_ZBDMGCbig_qLFRHxE_8hJyFIl5L3RzRCO6hn8BtFFb8j6MyrMliLwPvrVXMUeI_owGV4N",
+        "width": 1500
+      },
+      {
+        "height": 2402,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116063114828882998255\">Holistic Growth Lab, Inc</a>"
+        ],
+        "photo_reference": "AaVGc3nWunV6BFtj8Cd6Kq2cDyfJH5RaVLyIa-FMobQcPh5Sc6QNlhqocAeDAPlDTmaFQtY2Qyv40XtSwZegxfzK8-1OfDkxFJNiXtmozqluji5S1UeSQmIwCf4uoJRNWz4p43vOQ1brslaMQ4BezYtJDbHe5AwYG42VipUor3XcMrZlJadi0t5nKMqmlspqkMQrJ6NNzGfKGvJJQ7mJmafx_LEciIvFYU2b1uGmO1QrUkGDwqhfgq4p-ygddcPnN3W4e-M6G4C0eB8ptleu5ExnMWkH0bRT-Jq66CaoAWP3py_oEqg-qYV7c5t69mquZkoCvz5FRYYbMlT7VyWGdMk7dnDzejleJd8SL0B-zTL1pbdq8LJkh8hWBL3bYayhUaCOnVJdwNwO3oKXmFPTneNxNi61pAVT97T1Mvqhq8GAVbdVUCfd",
+        "width": 2006
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110683414998299735869\">Dr. Shawn\u00e9 Reddic</a>"
+        ],
+        "photo_reference": "AaVGc3lHeyPRKYYvYNNQnecfR07q0QE2lVtVm0RtikJ6tOpf-crNT2G_wr7pKW3xmGBE-toknUzfzprb7DGL1RYCZCyD72dK41NNqLPjVSIwyHm1Az-0qua3GpdO40PxKPv9pPOPec-_aY48cDOdPbvahSCI2ZpZnmjLU6cAIge40X2SWs4ACTb8dIu1TSId6DYadCaRMdRqN-XcQ2YeVemvOcLsYrtw2lFwNdZlQSC8_yejhFcXNGx0HLwW8hg8PT6AFdWFpSKAOYN_TNkuP1-gHdTUPbMDKnhu8FcQLE3HVXwaMbDKugAuHb-Dbg4MsqF2C_qjDA-qGT-EQCeQ7lPg1nHVfKQMVe1osDmVBao4qQGhEDKISegsX53s90SFXgCrjZL7YLFdYLK91xHXjJAeF9iPb2j9GwvpfjumrRjE6lEn2ZD3",
+        "width": 4032
+      },
+      {
+        "height": 3018,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110683414998299735869\">Dr. Shawn\u00e9 Reddic</a>"
+        ],
+        "photo_reference": "AaVGc3lBu3Q2dK3aNPg1H0R8TAKQhngYpLS19UBGS0MuzVTO8CSshzd9XgrVKsfi1FXc863xtskMEzJE51IsyB_qSfH6FtV9RZtI6F6mfXagv-PlVhyhWSUAtNANY0lXNgL_CDPoYVzhgf8ma8SvbBiAoNi3wLx6Nm00yrm7Q7mjluZFaWE-TzpvkDAluw4iq1_1JURNe4gT59VSdwMrpE7pb3qfpKAPDSh1RARgca7u5L9jNDZUzN0Lv2Qn82OwaMQb2CrL4GXFqY-ylUEvkjIpJekGNolMxwf2_PR3c9yMbSLB0wxzS6Md75FTti2JuSLHZGopDrDqp4Ap7H601MX8q948_v8R5gvN9Q0hAT4yIxf4mXjIOeVLVCCJU7MQ25UfnedvEsht0DLfQKGQZ7bL1BCo71tmdzy0dZ2HDI1NiMY",
+        "width": 3018
+      }
+    ],
     "place_id": "ChIJiYjX3om3woARuBAGAO40kO4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17190297974480441528",
+    "vicinity": "4321 Leimert Blvd #1/2, Los Angeles",
     "website": "https://sbsrestorationclinic.com/"
   }
 }
