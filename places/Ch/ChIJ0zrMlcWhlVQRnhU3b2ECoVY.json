@@ -1,26 +1,194 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:46Z",
+  "fetched_at": "2026-06-06T01:30:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mossy Tonic \u2013 Herbal Goods & Education",
   "place_id": "ChIJ0zrMlcWhlVQRnhU3b2ECoVY",
   "result": {
-    "formatted_address": "Southeast Salmon Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "SE 60th Avenue and",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Southeast Salmon Street",
+        "short_name": "SE Salmon St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southeast Portland",
+        "short_name": "Southeast Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97215",
+        "short_name": "97215",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "SE 60th Avenue and, SE Salmon St, Portland, OR 97215, USA",
     "geometry": {
       "location": {
         "lat": 45.5120721,
         "lng": -122.5929547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5136315302915,
+          "lng": -122.5906450697085
+        },
+        "southwest": {
+          "lat": 45.5109335697085,
+          "lng": -122.5933430302915
+        }
       }
     },
     "name": "Mossy Tonic \u2013 Herbal Goods & Education",
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3kdXjeR-y1Ewm7cRPbhPma_Q3UaUb1id1RUnrw0hx6KI6TdcwTufshLq0lxqcrRj_lXAuD-cVf7awim6xPIiMpCVgqTRHsn5_lCsxcWJMwLy53worYEy_16n4kgxHrWsvf0w1df3Dlq3KZUkFEwnUEtSNTPuJX72CcFfFCb5sIya1Cxy1NZIGo2hBimbI4yaHoo2HdFVWOUm5VBhJp_IR8QBsBRFb-EmmHqsPpPZNnZh_0zdMALhlT4pMvm_v86O1lhLyt4JCkiLR_dIEA-mU_44fKaEdvLQ83IY-XCehtWtcZBtOqTCvbkEFQH1Mtw5Ch58hwY2ajSaKyHboeQLeghlPN8EbzQdV1b2hgZv-n811LfdiF_c3xu4hVoaDP7bhkAQwSlKSn-gNLiXO7lPvoxOTRh-S1dTIvoK6xgrO8SBupl",
+        "width": 1920
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3k04KFC8H1JyEValhhmd-yIl5v5nr09V8-WAxahFFb9Vfky9Ib7agypHMMICQ581RZkl511TrEi-GbNuh_jlPzIHEErBFNtN4GPuxozi-4wTvl7ZgrudG9hKZU4CRalmUEUZbyxYpxSult_0MY3guyHzCbWbxDYUOGSEMA0n6NAVhvmQKo7fNOY8eMGavVpjJGGEnL1FGYu2dBFbvQwGoiXUYJveWlX6w_HCcQlPfBc0doRSarBLI-otfE5Jrpmf3C7h_HYHtFWHs08_D32teJE_KsV-D49A-leWJl7toPl3aaVrcrMbHHd4JNaWmwomdrJKqJJuSJ4L5tz-DDkE0CWAYPqMllyNqPJBB4Z7WkbFEdNTzI370oxeoZrn6u3F7CMLkYqJTs4MgA3JERALsrQ8yP9bqJ2O1P7rJIRZCjI-Q",
+        "width": 3468
+      },
+      {
+        "height": 2885,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3kKMONnacSNQXWYfUZJbrhCC-OrinP0xvLNPIB36T9n-kdmVzksyVtWw_LlCpG6d8WW5IkmtrW9ncqeulBpgbooM75A0i2orUNxxa0dZL7tZhpixbz4PMioK8PTDLjiDl_D0taLFDx6O5AaIazj1Im354YXkLvfWBu2QxJRjonPGSnKQDV2fQV5A9fY8cqo4gyc_VSZR0VEta0KIWw5qhhFJfuo1HBZ5av-Ely45QNCt9MC5b3Pc5L5myx8BXDkIhg0O8YYQEeSXNqYJ5JWSUlSdUT8Kuz8h6Gfqm1_VyKhxChZK_vvVHgli9JtuVfityS-XP8V3WWneHcNF3iAA-q8FUdofrmX9UkZ6dEUlWO6a1MsOHqR8sqqkolwI34PJoMUYocp-gWHHjyb4scd84c2KVvJz67vl5TyTwCaRrpAdhk",
+        "width": 2884
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3nU1JdYhqdULGQTk_hd_sZrbhu8cg0P3VQT86i48lN7uQ_Pz8G3d73ZXbZVM99y6vI8cUGoBUrVMBcNK-i8-rpGt4zrewH0yacLNN0Np_4P7iYq5Nk_eL6g-lmKtcnHhO3lyWDFpjNUiZ1dpkOTKyAx_IjBmosgOTcJvtKgKRLQ7mMVyyH7u_4LQAqq5rMUuN0uPXgjxSO2g1e1GcZCujDsoMJeTtAVK0WYQ2Q7IKm8z_0hdOzilhGaVX37A3fZnEJZcGkX1d3cnWJZYcyWdTjZs66GsVylQN_7oe6ice1j9FKv-gNAvVVdmY3FNw7mhtE9UqA2hEtQlqMYu13oHN6kY1vb1vKDLOURVvB_9rzE1TSwM3_n2DG5QfqB7Yfe3H7Xg0nKTpBmcnj_O4vi0IP-fyW08m98IyZnKZ4aRgo",
+        "width": 1440
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3nTY9P1pxDFq1OexANJr6xRgnYf4dkIMY-W1EHDC_xZQvH0VVt8OdwxGzucz1We69bahmfrD_Uo3mcA5oARCWnEB1OgDGe8L7TJLCWxzMv8RnYAjltzwzHKy50yLV0g-vusRsBCxXdnPomb56TfCBsQmxBCV38Pgj76SF921OKXFfSuYe72m0UY21W3MIOqsmuUq2IDQin1OzRPBPRAbVuD-gYwM-Z0wT4oBM4ljxteLj05hpKH6pASEb03mqrVHvodcBDdwujQVje6RlrhAPM3aH_LMHl7JdRnU6LL79XUFBUY5CwZ-ujJmAaVYnnH0MRtf8YkoQHZPpJKgWryNfxb5ySlyLL0oinD6XSGK36gyq29Ivi0NJHQghdSiSgvhFeRRvdp-eiTJZQGGlk9lBbnPprEZkq5DxxD_OWwrKMUeA",
+        "width": 1440
+      },
+      {
+        "height": 1192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3muvAYKNjcd69YLN_ZAPyuhKtTkcRujKUhEATi3UjWE55xqzJBTN09UZJ6i9fL3ldSk-OZigHp9Zn_IT6OrPIQJW7amwTNgv4LS3QJohdSyk3BVSBMSZB-M6-y1VqjCOF57An49BG-yWxESML4FoUfQp-2qvlydnDGKi7by8yPcZrFQfpyFPiwcMLUlN1fd57UahHuQsGhOCWjbf-M7nEsEpvFq8489TsME6m8tl55sbEwoVuzC7-L9H3Fx5prhajveMprQHjqhDU-0xVJii_2pNOBusSZHuq8PWuoidW4bO__Ey23AvTJl1Z-TfvFNI4MSwJ8Xlk3JL91M0UyJe-zJm54xR2zyBmMMYq3xjhUdyU3xkI_tfz18QKeFPhQSniwNFA-7yOEV-EIQXwO1EDWHBWrx5hEBoLU0RY8NM__ozA",
+        "width": 1192
+      },
+      {
+        "height": 974,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3n2kdI8nvRqOW6YsVcF4brv9RFDWzMOhBCwGzSKEGDuRkB29elaEW9ushhEzrPo-LIRR5wOsIrw7OClIs_UwPa4l2LlDT5rXJv0MQyD1mYzghF3HnOAhI7WsL1Rqd3GUzfz9jNLNBkCHsAxnkAeIizyZej1zWA-wOKIQHYN7vbgaUAKfzEylNCeJ8Ifx2SQMBkKZpS_L43ho7_3sFU00SsoID02Qnr70LfcPSeWVXhKCcArTwlVeXDgGBbPXgeJq8mpRlU7XBMFNLgTbNjgti96qWWkynRySlzrYDLShXqc1GerBX5OWm_wiLcu76MvKk-fl5-oPdG8QARQ6TkNcamGzkBTVhTkkDTLL7iO2HMYi0h69WUm9hpIFOMy31IxXHFzswAoypYSEhWX_DuApudHF3XgQsRU8PJ-nVx8Da3k1w",
+        "width": 779
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3nZxzgX_tjTiKeVdifB_rV4Zn_Rq3oDpkG0_PJd23Z5F8X4FI0Oj57DebTW3D5Jz2rcOJwX2-qSCc-ElWxp4-Un33FBgEgt_eTiuBLt4mUvGiZLH5FtQC2l6qmspkLQluoWn0wU_7K82qmk0n7k5JYKM3jq6d0jWtGdWxtHqR_9VLSyhSahpV535iqYH2_losBFdZtpdHlJAlK7RCj0WT7Hb-Ma18VV_WAapcG2IBuy-mPKpRQPPC6K60joYJDY_WjbLXtIWn6kXzpkDH0VmX6Mx_v0QxOGauEgWSh30L7N26Ng7eUrhlEvP4sTcI7VzPj-3IglpWK8nqLrlppbC6C1v7_Hvf8h9JeVyDzxiW6jlJ9PBmG3XcOxhaCU9X4W_uvqIpmX5ZIhrR3TG_drF4rUB1GyLW1vteZe0fGPuuk",
+        "width": 1440
+      },
+      {
+        "height": 1372,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3mR9szPSwQas1Z0A4FWfsMTYjSefKmp1i4YNmpzlr4pttxXtpnMrPuFg84xZhcIDYeOxyFCYmQYwKwBl7I9H7SDZ1x5ciLe2qJF06wgUfnUjkMtRJtNnzJGXSz8Ct50EA0JqClpELRl5dXl2berPLawFe5IeT4iu0bb5aTnokf1uge7dxIXGkPlOGCjfq1M-840GsDDLu5-_YLyztZAhzsuI_s5pVXE6ggAqRGcl5PzCNKHaMRBEJbXfP59n2Wu0NxpqwhjyIcEKzXdwxJnak3vj_9exDQcsZtnbayOIv5pHl7KuDyt7xcW4S_5TaiSFD6YW6XOVnq7gTp-RFj5vezo6niAubbVMP_WTkVw6bt4ub39fL5V5LfNVO-AtmVUNPzUgqyah6L54mkXByBGpMMDFfnE13HcP_8YlURrHRE",
+        "width": 2474
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103180710417892124870\">Mossy Tonic \u2013 Herbal Goods &amp; Education</a>"
+        ],
+        "photo_reference": "AaVGc3mu9nQUgfn7PRzFPel5_YqR5c4uyBLBi3Quy0KJaoHL8trfSz3x069g2ympICHiV0r3whjZ9W0iyacRs9VWf5w4nfpN0ugh1LHUY6QzDA_ThfviVFTZ-XJxgJ6wo2-jpgZBtafaR3ALpd6tVnDQjVS1fKfHGASooMV6am547gQtBdDXU3vWdiA_AJUpnfVNo_yu0vAX34mQyBDRiu6MXGpBowOnhYaIc8WhkHMao8DFNiIby8PFyYiFfCsNhvdoG90e0Pcd2q-e1FKKfUrl1mQLVftzDI2jz2Y5gwM8X7YbjccGqmeUqhmeEe9aF9xgGYYlZkeuNsHN3VP9uCkmYXKIw-vTAyM5xKsTmWJLF0BEC86veWf_ErD-3YHpdQKlxDWHq1f9U9OStgt1vcPCtuozQVs2M909KLdygxFXw4g6eg",
+        "width": 1440
+      }
+    ],
     "place_id": "ChIJ0zrMlcWhlVQRnhU3b2ECoVY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6242273176013182366",
+    "vicinity": "SE 60th Avenue and, SE Salmon St, Portland",
     "website": "http://www.mossytonic.com/"
   }
 }
