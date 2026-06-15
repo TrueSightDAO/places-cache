@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:59Z",
+  "fetched_at": "2026-06-15T22:01:35Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Cascadia Crystals and Botanicals",
   "place_id": "ChIJ55OT1sAjkVQRNawvj1hV85w",
   "result": {
-    "formatted_address": "111 Center Street East, Eatonville, WA",
+    "address_components": [
+      {
+        "long_name": "111",
+        "short_name": "111",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Center Street East",
+        "short_name": "Center St E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Eatonville",
+        "short_name": "Eatonville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98328",
+        "short_name": "98328",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "111 Center St E, Eatonville, WA 98328, USA",
     "formatted_phone_number": "(360) 832-7467",
     "geometry": {
       "location": {
         "lat": 46.866688,
         "lng": -122.2656329
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.8681156302915,
+          "lng": -122.2642515697085
+        },
+        "southwest": {
+          "lat": 46.8654176697085,
+          "lng": -122.2669495302915
+        }
       }
     },
     "name": "Cascadia Crystals and Botanicals",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107576522560613075925\">Phyllis Vogelbacher</a>"
+        ],
+        "photo_reference": "AaVGc3kOijl5QHAI3r3XrUNB9B2SWhJBgW6iyD8AU4Yry4uI1BAd2ktq6gjxT1I_Bvg4wJKz8NcQaHIQX8l8vD88wQg_1i-ph11uJEIycF_Rlx3P0_eazb62VFXHAoCQ3ndBaJrXhESQGUluwxfO1_psrle3Lqx1xsaD_GyNfhrzw8UIkyYaSm65pk-g4pPVUpBg4HlapXewWQMaXYj-G348yiYmDrZEqNSPJTqHoGC8WmcIfqarp70IqXBMmOXHVPw2bVQABbAyPKb7XmBzbuFjrjdM1X0BK_aPVATXEz209VP-B7zkyMqnQFGNOGRNSivoyX9pLma9-XHCwh1SvpolLAzWkcmD3KNJWSUVHPv-q-Fot4SWihVDa_rtlJtTg-iuG-KZkUOGfUZPhoXIvf1x_3Ub0D0jeLSIuVRaUhV8GFjtKg",
+        "width": 4624
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100568582536346438024\">Nina Portillo</a>"
+        ],
+        "photo_reference": "AaVGc3k4L4naKFs8bvtyLzuA6pI-VsLi5VZFHPD9BTu6RvKqUkS2Zy9vbtGG84x1C6IUIpuvjkUuozM5vcfZl0bfan3KAdl1fE975Fi_zV8swqHXsFEqES9l0jEdgAQMzQc1yniJIqreeYrw6tyEmxOmOVf9pFsE03sgk1u0scSBvIYWz8Om5rVkAK1qHNj9Eyaf63nqo81qOXI-E84VpQoLNwzmwNJXu0NQyeKn2ZAw_hnkrUL-iKQhMu0pKkMqYwjWbqkl-NeFpO48SEkA6g58SlBBQt_UsnJ0-ljxVzw8MbKjhpe7lI-M3QgS3y5S1a39qBzza5tm-5t3BZEWYOV5Fsy7WFskKbJpqK9uN75LKHOplODDIQK20W-GB3MQ0YoKzjbblfZgEfVdNDJu4rxH6lESF6vN3vRDgvE0BUgYh6WsMg",
+        "width": 1920
+      },
+      {
+        "height": 2875,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108115695036485065016\">Cascadia Crystals and Botanicals</a>"
+        ],
+        "photo_reference": "AaVGc3mNkqWXhzqZ5tmHKs0Yh_ZiUzH-Gatio4eat8LRIvoKXqDzVIid12ykeoFvJHvR-OKWirLimmdEYqNnqeGCIhHPF-H1QQEqS1PzmYFoF9Kand0sW5nD_k1vstOYvqccSNGL8-KQvMtb1CIaT9jqlZaPUlSRUOrIINITDOtOAxmVN5mlkKjRi8v7KT3g2w0UWxO0TdStKifJHQCm1bFyE3ul05ZGQOadrlFjadSX1-0mlm7SAol94jbasY64uVJ0t63rGWhjYibgFPQzKLTMmqpTWNWZmgU6cFoDh05NNiA8G9Bpp3mm6c0lC3O6gt8jeJbhgbOcG_uMAQzZr2M_ZLWI_KIamFrIZ7BFnjKzQE_6EmkVaYKY3F-SzBjllbGMTINfy4W0NFVAN8Z3aeABP4yXweyjMvQw2p9bdCcKwB0",
+        "width": 3836
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100568582536346438024\">Nina Portillo</a>"
+        ],
+        "photo_reference": "AaVGc3m8P1q8uNfbYvWfhci_rVTJA5loSBMmuwC56M6YOoHABA1nymXRgwpxTnwbqXOw2MNHCylY19EVA0ByMkFh4GLLEJoNEvfcP3_d38SPtj4aEgrr88WsN9qZro1NaPh2uxmmlhj693EvgoqW0HhTmCsPJZMLymbW6JCBGkk1sRxCO2D8FXf8imiyK5qJ5zXRlERPjrE8Lptk0mA6n6-9G8CT0PKKopabJ7H9EtFzzKPa1lKgG9lbOSiZQRGCbumUBBmzXqd4xSivMfiLqUKyjBsBJImqmi9_v5c44a8P8hZewGkH--60WAyv0wSHIWmsKHfd29icjxOOpx87crIMYcRh42-mlm7AomByTFOG0p-yfyP78SILJu4xk9Nb00te_PW5ZnOT47hGhgelXQgSBcgPPbz-qp2f11kvOevcx22Kbg",
+        "width": 1920
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496940246327668814\">Autumn Rose</a>"
+        ],
+        "photo_reference": "AaVGc3nP1LaH8SsHAWOFwERm2J0rPpwy10PijpQrdKaFsTiXf30QYTPT4wyORTAT9K1Kq7GifuxTzVvAQHGBnazugMadFKXAWuZbw7jma08V9nHx3eWKLtfir15tp0Mk6uAtvn6eBmXML89lZnzSxLXhGMRDslTA_Cjwzeb7f5NdTtiQvK29Q1peD6SrcCyEGtzJ-EGxjwhUVEvb0whmvjEHI26wQqo4tzHYkNaGKImDOeq8--fVTf_KFL9RnW1LCk1Gv-pCP49r7X4_eHVVlP3oBRJ6U-nULX4jowvyao0TIhga0_hYdFKAi1votf-QNNw4nVAbpSyRsKL7YQSXa4fejLR4Jx7LZAuvkFM7WaxGBzRdVk0DUkseeMxUVFd8Jg3z9nvqHtz_uV-o0iuQMs3NPOQwY_1biE4uyFNXWo8DHxfAuQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496940246327668814\">Autumn Rose</a>"
+        ],
+        "photo_reference": "AaVGc3n6Xe6mmfO8EHHYCsZm7xnEGVQ1dh-Fsi7S-jfX068a0Du1WLtNvpueMPacKqOQb1BQIIvrFZgbPo1LfhOOqBk--CXhmGLs1dRMhk6JhfPdeT5Ri9uT1BpHiMu9Sp31kVDL_y7mU5qE8dayIGNXQU1X8q2jLXQzudgEEOfsa_qzK8vM2JWQyJAGHaOZ_E3yP16swhBEgwEHgKPmC6XgM87oM14-PWM6D8h73e7l_gdOwQZOb3Mcq4udWKUioq5NWefE3-YyPxctbN6d3hvVdWtobcFdWSUGv3EXvlKT3o0tQREu9f8KjWczurngATw7-YSZJl3KWKl9IAz5WZ1M8h40nmzfFP2VaHvVWN8HXWvnSOlZCTO1oLwdLFm5tYVsfVxt83XoiTpT9y7pZMBVR1zMGcozw2s0ggxHBlt_2CiQfX-u",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108115695036485065016\">Cascadia Crystals and Botanicals</a>"
+        ],
+        "photo_reference": "AaVGc3mufSkxdnzAhh2bXI9uZ7Ibd9rlM7gV7o5B0_bw-pWcSPCP9ZReCU2JGp1WY-thP6Y16kHIvzcAHsGYatF8ARZOP-hof21TYsRqpKgo8XvrbEHMegE4cD7UGZy-pQXO6HgA58dAN844Yd_XYr-mbb-njCcJT1YKR86Iqaw9JXLBBJ6mJldIJ2wysAkzGyQNcjM2U7oh4W_5yA54-fxSydjD0r4_cY-pY5ZfsFjvqw92ShbM8peMJCEzCB1TgaPKByGIrPSHRnRxV51f9c-6KRJBnaPlRBKQWvAydcFcqRMmQdtop0tB-Z2uWM8TRLhfnT05z70Cf6Rtt3LkZtk8ZERwUXSH5ZzDyg4Xb0CDcpYxcAOlBsIvRDRcBTL4ycWwzKbC2tsSUI-YSWyS94GtH2PkuZriwGxlgKhVzNAvMcIAEg",
+        "width": 4032
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116734450414326615874\">Hollie Ivie</a>"
+        ],
+        "photo_reference": "AaVGc3majTv00D1r1Eofya8YfpfscC0v8apsuyqHqK0XIk86C2bK5mNZv1zFxskLmTlQ6GXY6Q0EKLJdzPAhwGqqSt4JhDxsDCXq-AN6TB2nB2JVYxQZ9y531DrAdSpdzt9Q_BIUMcnM6b-yG4WHE4bSTA_FDHhILUd4xGweldVfqJssZVgT_09q-dEu9vcXyOe5fxQSOphgCSSZh6-zJHRJJF5NfA1x0kmJuwbJrI05BsqNxwCqan2dCy_5P5thhRNL6mylKsTusXBxG6HY6eb7kEUH9n-tcDUAQC-b2GtaX1D4SbQsAuH2RDAB7TCJbaEiBZB1fLac_LiN30-TWmVePzuX83daIzIBeQxMcMcNJuZI_zE01q4_uzsSGvRAURiuWBF6kVfJ4YxyM_qT7rh0iAFlecmqwYQIUv5d9EpbvsyuZfjq",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108115695036485065016\">Cascadia Crystals and Botanicals</a>"
+        ],
+        "photo_reference": "AaVGc3m42reXDlQQ3aX2XvinY0uElg-WDALXbwYRhTDBiSue4osVS9nzMZv7BXuuXMxDysvor5OzszXwH6vJevsWIT-KcKRSgDAzho_bXN4uua5Hn8iXez3Z1Sbrjj1yphfCfDeG-j_d-zATFXOlBHLhRWhvrhIQEXWPmGy4uafdKvQMEB6kJ9usQNgB-JoeB5XkUGk1dhWkATwiJ_ldsrUMOtH3OOqrpw-WRnUaBGMql6vQPjl2udJ36vfoESnmNa4cpaBRZ6Nc4edFzGzT9a8mmxsW3AUkAjA2cs8KYhI3i1eBtInNYc-y83sFk0VexfT68KzC4aTVrCyRd-Zpmrj27X_Rf5eSlPC8bqzSieHU7GKPJCcD9d2Ua8O1Gb8Glyv_hUed35PgatBGKi9xHOrrRJmshLDQ7Xr2Eiz6IDH_74cq7Q",
+        "width": 4032
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100568582536346438024\">Nina Portillo</a>"
+        ],
+        "photo_reference": "AaVGc3mA0JEpCW1JJ-tMtd3uc5h5wwUwnEEOPd2EYBISfYyPJiQARte-5oRk0f32s5te6pXv-Eonf3smj3hQ25SEHT8sI762LxYj7uS52buLrg8T0M91QjuUazrADekyMUMzKmYAS6VM0z3fLOdJe_MJE0J3YSWjetPN0zwrVwDgpgDjssPrrL451TgkazvUukDNTIRFz_kOd9_Zn7ti3P5xc8Z68S6g4wXt1TjO4MJjvGTNowWUlvXmdczmElbQIm7paedu7irScOY-abn3YUyt97afh4jR0CxuND9Gn_mEtjHsU9pDQo6SAZ9nrjujB2ytxwobyfiBwwYJ4umlQnmZxBeZPi3sqD6mpruLe605zufkxVJamtZNk85d6Pr1_s0fzGz1XNgSDDuVdB6rZt5ftsjIVsxoaiN5YjQ9SQoYVTBde46Z",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJ55OT1sAjkVQRNawvj1hV85w",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11309476928105196597",
+    "vicinity": "111 Center St E, Eatonville",
     "website": "https://cascadiacrystalsbotanicals.com/"
   }
 }
