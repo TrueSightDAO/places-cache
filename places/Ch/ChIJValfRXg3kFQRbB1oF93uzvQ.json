@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:13Z",
+  "fetched_at": "2026-06-16T20:27:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Avebury Mystikals",
   "place_id": "ChIJValfRXg3kFQRbB1oF93uzvQ",
   "result": {
-    "formatted_address": "544 4th Street, Bremerton, WA",
+    "address_components": [
+      {
+        "long_name": "544",
+        "short_name": "544",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "4th Street",
+        "short_name": "4th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bremerton",
+        "short_name": "Bremerton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kitsap County",
+        "short_name": "Kitsap County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98337",
+        "short_name": "98337",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "544 4th St, Bremerton, WA 98337, USA",
     "formatted_phone_number": "(360) 286-4734",
     "geometry": {
       "location": {
         "lat": 47.5659753,
         "lng": -122.6282986
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.5672294302915,
+          "lng": -122.6269529197085
+        },
+        "southwest": {
+          "lat": 47.5645314697085,
+          "lng": -122.6296508802915
+        }
       }
     },
     "name": "Avebury Mystikals",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3nbZICopcr-BXv9JlTubrnLIBGTKsernpBoEf1NMiYpYxKw69Ociiltd4HorqyiU7pCd_7j3qgKWZKcO10hWgGsgpU3Ct1uOkJIeYh64VGq52nvL-4BjciqAQ7T9W96dLg1wJi42jFEP-1k9Qc78o4MzyJoCEomQWyGNzPHv0zuZVo0LSr9sFqj6BtQrUGrwMI-TLHjSf68sDBgxHhJwqMNURrxaOF8Hd6wgkfDDT0eRGZAUfIOE1kA4HDq80dgAqiwfhbU8BEBjtx1fhhmsfFYNn0RSRHb6Y7IQVjU_CEp9dgguVrqLNEHvQkmmp_bdFVMxGaAi1EhxkYDuE76WBiUavWWew_vtzAl_2nF2FPNomoTBS0sfiQPnNivb12iybq_SH3Xp8HKPpBgFimHZ4VRMNsvs4a4n7Ic3EqYiaOUWA",
+        "width": 2048
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3kTDWlQoCcMaZypEQ-oyNSUzbHchAe_BU8HOSAFczpu8SPpEdFkNhpjCsRVVdyR-gcZFkwpxxt42SAHulYE5eB5KqDiFzSsqxNtIeZ78O90zX4zFIfRd9qwQwfsEK38xL1KYQe0pCcBBe2hIXRVJcp8FummPvadUocIkFeJTMMKFKrjBihcXAtMrNruLzTGvo6BdPbOrT8PNEoL998O0ZxOo-HkMANxJvaaaxirdrLA5HZG_53tvb4D7w3xmDQy_TlPVWVmYevZdiWEruT3uXxK74UwMacT-Z3O0FjUOIZuQwyrjUHm9MWdbliJaet5ls0rl7xLRwChv1IqF0h5pYbMvN4N51eLryFywaZViw6xyqryfA-rvHKyVXzLD_A_bfgLghjrtU064shfFofDte9DiCPSfpJxViRjXS4DfXVKZe0Q",
+        "width": 1024
+      },
+      {
+        "height": 3599,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3mPv5sENL_De-80u9f2DzTuTynACPPeJaS2FJwO_PqIN5UpxgIh2-E8NKaUfr9hjYGLNAZvrBTNgWfvQURX1-PUB6Ht0yN8VjR23o76VEkKJL83MZm9a14hc2DBVymVkoHaowJqsqrdlcFbvt4nCfOTpPXSiVAfXDq0LLWjvXlsr8of22-gBIprJ2H_TqiyPZfEo18qwecPiPSqlp0Yoafw8R-j34mtgMne0C2i1JK9_wpZ-BK5f26tCekkm7kkrQPFKbrVXN-S3oOyEissP1rQM0nxU3VK7Biir4_Kr7bVm_GNS5qYu3AfFQeuIJhGZyP79nFY21-UZyJCIX1QT9heyxHhedIKCn6Orgq4J6YH6Jusiwn0dcEJSpXhE3kNfZBFFLNOpDs_9thLWte9DAbmcukxXN4bMkklUK_2oDfashPr",
+        "width": 4800
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3mVVbrUR0c5-by4oYfFGOEOR16WF3Vc8H45tdHOWBpm6WLJ6nbHe5Edk5U_q0ILnL2PKClmK0Ww-XGML6QK4uxfIHcrUJjbykHS3rAaM2JQi3nGzEd-5QNpTVg23Vgx8s57GeGHtnusGq486gtfGgCRAXlGAhQ8zu8oOv4_vrHTuQJBJ3LylfSgsqynOUlBPCkjdQY2zK5fjsnOMlMkRZh3O69AuczOaxs8-5pLW2KVVcLkANgmzKuaB9JQ6q37lAL9B4f7vfRQx3JmlkVqnpi3U_D7VLuaiwacztky2EVULNSsMCKSGLlOm63MCVLEaxDf30myJaUkzIGLTSBlqXHeIjjeUhC5YynWgfgTmw3CrVYhtDjJPAIsJvIjoBxvCNJoNv8GlSsSg4HOxrCmJgwqIlhB6C2Xi49n66nahz5CsQM",
+        "width": 3600
+      },
+      {
+        "height": 3599,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3ldMxBvjppKVIwIHM1u0usriLt69o66je0lxWt17HQIktACUP-AowfYdLHn6--C5357bBatnYh0rUt52W_XzSduCHpu8NLso9yJ-4eWYrBZyrqwcACiYcTvqYAYcXIETSelOYKHev83Yt4VSKI21DDR85WkJFgf-HQV8O7YNTYVHBYNz7qheBMDnD7tHKUlMH-PeY_PaGZTfhQp6Ehr13E2lpyY81h3UIUwgC0YQP4natsRr_VoeWkeMN32r83ILKulNm7eieZReH2Kx5W9RthRJmp10HYrBpizuc375juXmuQZSEs3AeqQGsnNV4kYXjZ2QxNyrgSIhj0UqdNl649enhId8h68p6I77Tq9tahcKb8CLIzeuamS86rwGVdU9i2MkLR7WfD8kOLuJq5iuhLs6OSZCZrenxW0kpOdvoGSh9rm",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3m_scF46gh_C1t_nOzR9xSU7O7Y2DB7IBQSST-6K849xGUz1Rx4i58BrYoowx40TO4T3epp5mOcOaZwPROQ2smhRz-oEIiqF3N0J8ceQRTXPDRrYN7TVM1LtJD6f8RqQYwWlOgiJZOtg59d2q4dbMqKDfS514CD-klTwMGxaRZd6Z4IurwWM678r9LxywlFUonNzHS5UNdup6kkcCWzLrL6EYiXk0iRkxphy893GhbL5fDfhC_NFJnHg5lojJU1-IR8WfCvel-_07cDprITjxSS-mu45FbPPbM1fwYaoH88pbAeZQrgeZIC4_KU61SADXif-RSArNTgaX7dadYhh-pp3Zl_D4sm1zVSmFCR3b6grwWDuQUjnhuN64J8XG25n2oVlmBmP1FjpAQWgfNHxwdLAoaDzllQ8A1knM4NDVunwg",
+        "width": 3599
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3nmze8FaBaNGz8OGDP9bARd0zIqJqGaU__0BjupPSfYAiZWAhJWrgNbps1viqJQvanj5ltwv94QS0-lPbQ9XBK46Bk_DfWdo8o8omSZRoP83cs-4uzlo-MoMq8vDfa5P1jrtBAKv4YRfG-rMG0-rE6axkM9-9WnPVkDCDnVIq2l2OWUE7hvAqZkNCdH3kpgeQFv4dyCxqjW3ocY_UH1CVMBTKuq3mKeK4cQmML_9PRybfrOScqf1GNXMtLifKA8hfo-C5giDfmnpkxcyR5vTdigQjgvUxL3O6NjFUX81USz7_bTzjINL6e6onPp79Q60MyKicHw5suN9hEjnMNh65cZvR6gXi3o3l3Bty55ZSNq1R8XCMg6EEWRvr22XK42g5XMSvz_TlhG3tEe3inHonhpfXns4pGrWQNg1qXNZ1hbgA",
+        "width": 1536
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3m83iWCexouwJY23SVFefAEnb6L6-LTL0LwdxIPQ_tPC-fxSLzKHsdyyZLwJ5t2JE2NXioecXuPD2fmWaBriPeAANoeL0HkuYszE35FdcPG4xGfCf73tyoIYvF6X61flJlbVBMGlq42x0ZQEmm3kOtGw9jFtcYzCmJetylB9uwThopAFIDIqaVmOWaosbT7OZX5X8mZ2kDCWGNnh-gUJJl8CT64mc0w4msfzhFBCvaPd3lsIV7AnZ26iNZX_ySCiFKjoKLON6kfmxDHnIC8RxZ-8IdbmJmWxdh8MGWPgwiAwszqUGZQKbiq0CJGr1WmIPMR4onW3eSjja0e3YnCcYTdW1FdWrzSkkrZxDdKPP_Ww1M7tdnA1jhsmgbNj-oHbAio0k7_wEHzTP1iiH3i9OWIK9_rLMXTFWzD9w39Np41o5A",
+        "width": 3599
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3nesIgc2rBbdvFFK8yNt9FZ1KByrQ4vCVxie64GIZgtH90R5bSgbH2MQTAtPA9LGskQFgn33GHq6HhJvnhfAzIKAEKz_GINtQ2qc1APh6cMtvXXHSqo4osKrUrHrKIVzEKitaIMWOspsca0E7Gkaf682Msq7blbwmPp6zWColkP02_GvGWDOBR_E3_YjedlZ1JghLMM3dU7GiA5feXc8xSXn7DGXHIzPcD0MQ3WK4nZmfCSpCAsQpVe29fbBwkMkjwQw-3qliYJ5fdgXEnVqq5NlRd0WDc4mFta-DKKkzR089GlbiUNq96UVBjeieyzKzB1JGdv5SyfOBgDS87N__ChQGwawRKS_zdgBBDNY6e9R5hyRVkbzFlL9Xsu_viTQTimgmKkixyO0BqgLCo9_EVgAatiV8mredPnnlc_RKA",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101098717399755582614\">Avebury Mystikals</a>"
+        ],
+        "photo_reference": "AaVGc3matct5YOA8812xPSOhFV4WaWoBHrTUiWsoFGff8clAytCFmsT0XXV5aEi40BquI_iz25wCG-ZPVAurszBIK-isaIusME2SY7UB1DaA4VvzRKmYps9kxnmbA6hru_DiklLJL0ZDAAFrbKK50B8XFWvZABsFI1jSMPTx2wpEVrLgNtKBK-DSlyEeMt9qmwnwCkjW_tWCaB2wt2h_7Z7qZOikOB8_8Jw2Ei4wQq61c7bkbr69-hvUkAr9HbvySFLeC9CEnhSTNMbpBK3b_ay-2wdmEK6PwjEN6Yl7cll6Zg8aaIxKKPYYlG58YZ8u85U7hDtEt2rNikk3rOUP7VmW-WoEkXkvf3S-D4-GxlTaEVTb4Lm_aM74oPK67vxkCUoBzalvwdrZDKEm2_gIphrfasUkRO_G7jT6wxVmFQdaIRk",
+        "width": 1960
+      }
+    ],
     "place_id": "ChIJValfRXg3kFQRbB1oF93uzvQ",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17640299423804693868",
+    "vicinity": "544 4th St, Bremerton",
     "website": "http://www.aveburymystikals.net/"
   }
 }
