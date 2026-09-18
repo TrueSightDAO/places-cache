@@ -1,0 +1,265 @@
+{
+  "fetched_at": "2026-09-18T12:44:07Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Holistic Apothecary LLC",
+  "place_id": "ChIJ3fg1VTi7xokRhRkZiCFs7PU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "15",
+        "short_name": "15",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Ridge Avenue",
+        "short_name": "N Ridge Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ambler",
+        "short_name": "Ambler",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Montgomery County",
+        "short_name": "Montgomery County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pennsylvania",
+        "short_name": "PA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "19002",
+        "short_name": "19002",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 N Ridge Ave, Ambler, PA 19002, USA",
+    "formatted_phone_number": "(215) 367-5380",
+    "geometry": {
+      "location": {
+        "lat": 40.1550286,
+        "lng": -75.221678
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 40.1563493302915,
+          "lng": -75.22040901970848
+        },
+        "southwest": {
+          "lat": 40.1536513697085,
+          "lng": -75.2231069802915
+        }
+      }
+    },
+    "name": "Holistic Apothecary LLC",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 708,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXRQxKgX0KsBGc59tcHs_u5-lGI9_4iaM6CcDVWOY8mlArGiU7J7l-LWlWysoJryTpwFY4Tu0zLR2srGJSJyiy9H_BfTEIOpZIr2h3gkK2M8CGFoqUH_xrtMOqTpMbo8ITLV0746wRhfVjgHB3K7Pl0ShD1RAiimGiXtO3POxTxFYsvmNJ2jt48VBp9boM5w6uvsZvE1tRpkHbqnR7uATLr2-Typ20qOCNpH3qqu6aES7STLq3PPgX5td89vBvCoZBRJLdetnFGxrdgf2K1KhMAzMbPKuWRbtFDbNgq4czbeXaAfub5SZgh0CvBcxlbSUUPghO8PKjrdyYhOXNSi2UwzUsp1loR-cZ14hm9_MbsPHqppHXZZokk_v3H4H9z6ay96VbDX158L3o1trJoSa_IVBlo",
+        "width": 531
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108846969891791964423\">LaMya Singh</a>"
+        ],
+        "photo_reference": "AVoNoXS2wS1_6Ze3zzfb5kkOdi7vMuT5Mhe2stV2qJqYgtQNBc01zHMR6mpr2ClVE_ub8bLFYeQZvpkGVoOAJl8QBxVj0HCGoOba0i0P3DAsGMtUFgDRz9YEEfr3n8u7-NqpFBaB7Uuwt_ytloQKoyMgE-RCC35CHuazOubsTMEjUyjGWCq2ayrnEcXLqI3Ua4euUuu841mlib_rKUFOgzmAuc62v4x0BOUmWCLYs23tXdR9FnUwiA8ZvdQjd5gaUrC8nIFIfHTQIZ1J6s-7pwXg8eYx4MUT1xTaQZUvfQdf02xgDQQCeQYX_PZWYj2YLS2KIadi-2JzFn8SUw5N3XHYVERE43_IM0weDMDcIhq8KQuLtduVnZMHPwAvCg2cfVn1fjaJD9tBZkwP1MyOgyK3MeGjSJOgNwIAd8Rs6K9ix2EJ",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101342309648306062514\">Ginny Murphy</a>"
+        ],
+        "photo_reference": "AVoNoXREcg2PD2TM5OKx3sRfHqxK1U0uc8ulpO2nq-9gNE64ZQTZCguBnmg1WV5DRj29jC4PXdj42CR6S6xlAMPt04PU7tfZITZongv8Qchn4-xkV3oALYmMTKDoCIG49UE1X96giVHWi4e7ZiDj-IRWpk9h_ivvdYl-QhDs4G_NNMc7ofKnQnd5PXTh8snLSXtKcY26I4Zd0lBizU6Ca2N69BwwRY_BrEtwqEB-F5n6ESIRGHuF_RXMGtrXMb-wmWxHSCGFM3BD1cVJHrEjbPrPSWOioR_PbGihKPRngxmmJ1wojjOr23m582BIz50ZRbEqYbyk66b3ctLDC5XE2VGLvygixNLZHlOGCerdVaHPC3BRFjy4KVKPSVwo_VDFembozCcun0NzPWm6VJiIrA8ygyNpDoYtW3Y4TDBTvc9g8aPz",
+        "width": 2701
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXTiVohHSEb_tKS4_N8J4FfC_EbrEOk8ZsGYKzrl-7uE58O-0h8oAwlOlow7r8vFLut2BlUjhZ8bNViQPlBkdtZDPBIiEjmJOUb9Lq7_tQVTaT6Og1Q5Vj2GZBwxehKBV2ZGgNeYrXhwBSAu8GMu1nXLqhXDnkzCBentwEJbgn9_NsLH7Utu6dReLj1wvk1qNmtYJ5Bl1GqMDdfwZ_VSKMd_KF6nWgozLe61n02tm02KevJIVoGmFxR9Vhkizifha5d-IsFO3Sg7ENAv57vJF31gccgqRlNwRwUfNkPBcPpN1lydGxw45jD7Vzy5X0fj0VRJwrNpZgugT9gSBflpeZel35Umygwx8PeqflELog8fCLr_HEI89CBBN_fH9TeWJB1vp5SRqONMC5cPZYvPfD5ib_rAcIKsxLwQvRYCbyX0lw",
+        "width": 615
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110929621153164565069\">Alan Leybman</a>"
+        ],
+        "photo_reference": "AVoNoXRtO19ulOGFoQZnQbXxRIOX81uMZdujDTntvEd5pK6_nTNwbuM_SJjbXMU372NioUCFvkZO2QxYhhm_zD2DMWtPX6sMiLEgCo2kCw1Xqrbhkf2L5p9I0n4fJ0XA15UGLGlEsjQ03hyM6kFmi9C0dFUsWON-1eDfjmY12YvLKDfyvjTXKyRpHCMaZ2zJRWup4DQmDL2muF_BkFeFxWt6nEso7N-FZcYJPdZlYQkXFgEEeJwT9gQ26O4FCkK87kjQItR4hcsmALJYaIpFOfE48-kT-YK3ZzosNinDHuzCWsGY5qlQ193PtFHYvnLGwLu3oBVEgDDoes5ds01lNOkKPEqsmx0yFqWArUPyf5-IEFGQByiAURnwcA6kSuiCBLKzn4BJE6WfvMv4UMiLTdDHtsMtAnsvrlw",
+        "width": 4032
+      },
+      {
+        "height": 708,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXQDvhrxhW5knpEnL_7W86lUr0H4kHg6_QnOEoyclPK1MZai52rs7oZue_wp0F4UPoQ07T8vqnLpVw4cjxcNUT1pu51WpZsNAwJ7idU7coYkOLMpbq_gHzKTh0xB_ZGp6tf6h5FnpZqR9qWY1i88zbnCUbcRi38ZJz_3R7qyL7V1Q0cXMbR5Iq3Ae-piEqH-3Y60RG9PiXCanTd3-P_lon-iMcI5hSPT0sYD9jHEYN1mDRbVRApnkU5cGSN39hB8joiOyhO_wEVQ8RkHgQhiA6UV47e3rd22ZSqkfkfJehXdNml6idu3uyPjD6eRjlEyhqz0lAN366mxcJcvMcWW8Uh6bDgIIOTFjEudGPvWYB7zw9cu7GZBNYfZngFWw27511LeP8xS98EESsilK6zjvAkp0vg",
+        "width": 531
+      },
+      {
+        "height": 757,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXRYdk34rcMeQA0SA4-rwVsWndbh65JoE6cku4hZOdzgjMJUm5fDYs32WJ9LDTZOyr9HrXjCwa0h9MHKJ86ecfRykd_LLOMEYOsolnrrdliKLf3mnxA99TELXTJa3LiplbEW2jfVBxdzxWeLjIGSOG494MitLywQdZgZCrhmKSMuq2U_pcmw5flCaXwXiOueDNtciTX116i7G7AKtK-jAvuOIlfIXglerqEvrcYBWU4dsIHjRghtsIdmY7gtPfsvHXW0P_Do87Ho1J0EHuOg1Es032wXgQgBX9HA11WxLCc5RGej9ADVFgWIJhvrd43Gr9OVE9YJxiKobSLW7-iPRuzvMp3XmHYPyAyWYOfmzWRIi7KXcuc575h7I7IcSzK6DbUJwqkhaINbr5QS_Uf2i2Td3Q",
+        "width": 568
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXSIQwEBTf-Nort9JzjheE6uf497v7JTq1yzCCfvF2SnZoR8ZPp1MAlyf4D0NZRMZff9Ow1MbvS1sxGRHb1a0nMwrh-HHGRWnyhNXYtcMtHc_w-CzOgyrvvcU7DUjti7zpOfQQrT_cJJO12X8gJqJJkPlLJIZnMuYdvOuzBG-X5jaLxyQeuEe2Xgwk6Vm3x41KN_QV9eo0Q4cAxSmc9qVf7nixKYWxoagmjvajwAp1sDe8lEcuQphUtN16k3xEFA74oiReZ4WrKrNpuWm6hfdiADXMIvZb7mJmVJCNwvo8L3LclcWeSOGioBdx7AknYOuyJbkpXT0zGgbDCSgo4qeicCTHvYcJYQPpt9Mj1xOLkF38W6pLbTdbgCd-wa-39s3VlJmA8n_ZpR4UjQuo8xw6r_4A",
+        "width": 3492
+      },
+      {
+        "height": 708,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117783981340616887106\">Holistic Apothecary LLC</a>"
+        ],
+        "photo_reference": "AVoNoXQGnHfRcQyIlPZlAVD2-RvaO09jXj4_n9md6A9KDKwHxn2GpeE-MfyaDK-NwLX-xB4sH47duuTctBt-jgYuZITSFnT1-jOjmo_WBYABFa_aFEQgR6ap4w8uMW49HWuFTZO3lIOrHd0U1eTdD43c8ltMXU4FiXjcV-jxEFtIz63vkwnD7gwIrft-Qjs5Rjd16tJY_iNbFlaiorNYIpzVZZuLVtO86MGWx0mUVUv3I__i7qCI9a_qu6ubm9xbfBUls93eo6lYEoktai4hhNgDV3hS_tadftyqWnAOSE2k8JT0w2yPH5ZB1Zd_3aWGDAZ1upf04DhT4hN3by30fvUv2-6ZqWgu8sx5F3YE-hme2eGA2Sl0FuJ9T1ZYlm7eYVWGc2B1ptfUXTQEJuovLcQlPSMiYvF6",
+        "width": 531
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110929621153164565069\">Alan Leybman</a>"
+        ],
+        "photo_reference": "AVoNoXQAH0SaTNCmnmrLaAw0cRq6iuq7oAWlmyXUo_yua_4eXdkx84SsyM3UxO3oo3DPnKY9O-fVeOhYk26rfVaNFIH9kbQc8HXHOOnuRxJfvyE987c1bIWKdayW0LOW2_-h4lFiMiOduBD571zlnz9VRAaWoLl39ucdHJXO3MsnIvEZgM9A308L3unEH13R9N9tR2cdBrdkxaRYqSuTipEhd9fCh4frVSeHi-U2m5eQ6JaIDKPR7eHMm-XNV4SU3siNZqh3WgfOFoi5noNdxdolUjG95Oj4sBn38wagGWHTdTm2AQJshpOMpvbOnwHDcBAeR6KboNU25vxFKIyxeHENZ8mpkV4cpekji3Ly5gP9GCnDQetJj0ofoFVF6NMrXS-TzLvi-ixEHv7QGhKPbepivs7M59BA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ3fg1VTi7xokRhRkZiCFs7PU",
+    "types": [
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17720657525069126021",
+    "vicinity": "15 N Ridge Ave, Ambler",
+    "website": "http://holisticapothecary1.com/"
+  }
+}
