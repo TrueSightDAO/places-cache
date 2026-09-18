@@ -1,0 +1,290 @@
+{
+  "fetched_at": "2026-09-18T12:44:17Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "TNS Health Food Organic Supermarket",
+  "place_id": "ChIJg3rST9LF1YkRb1p4VWcCwAM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "955",
+        "short_name": "955",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Elgin Street West",
+        "short_name": "Elgin St W",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cobourg",
+        "short_name": "Cobourg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Cobourg",
+        "short_name": "Cobourg",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Northumberland County",
+        "short_name": "Northumberland County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ontario",
+        "short_name": "ON",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Canada",
+        "short_name": "CA",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "K9A 5J3",
+        "short_name": "K9A 5J3",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "955 Elgin St W #1, Cobourg, ON K9A 5J3, Canada",
+    "formatted_phone_number": "(905) 373-6009",
+    "geometry": {
+      "location": {
+        "lat": 43.9722083,
+        "lng": -78.1939898
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.97352488029149,
+          "lng": -78.1927260697085
+        },
+        "southwest": {
+          "lat": 43.97082691970849,
+          "lng": -78.1954240302915
+        }
+      }
+    },
+    "name": "TNS Health Food Organic Supermarket",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXQcVG7f2_z53aulhqJbc1z-STprD-Nj4HMKcLS_GbpaiJcru8j_SB09GxbXG7Bm0fNJg5v6fMbIxdtiz-9kFuclB-cju9mx41_WN3RZei9l8gH_ARagbZLic04KgmzWWLuO5M8eJNb50C_kKy0FKd1zLM585nrh9TiBeg8iD-wcSEYs4SBl_gkE83X0gmmLOxeeSX43382YoEGtCMDXwX8pC3mQuCDj2HkE50F_7xWIMTHdX_ML46eyIpD4OujqsLskMRHm2VscDdPREE6JyqjGFPGb5OaBDHk0EjXKh8nhjdlcaE8iGycLKks_zZfXAdpiQ1hXvJCU0mQbFdHDotFNYgn5q1o4ZUHe5rbe_iTlQSs-Y5BWOsrynV7G2FhODinnB5RQ2JwzbeJs75534PEq5d4",
+        "width": 1536
+      },
+      {
+        "height": 863,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXQxTkPH74DLkKbjVy-A3PfvZFLJ-IZY_2P08rC18Zjy-LIVrfZvBfSNGVqtkMQTt4n5keygZXSLRKSiZuB2svc89_7Ljt7t2RCLDo-Lttzc_HwGZXDuUIHvm4T8ENWkRnRBmq2QtHZue0-f56QLj0J7Fu9g5W7CzmPUeUwRSY2Eb9Yly8nIwR9EMNceWLa37PJaXfIr2R_xv_NVA0BTasq4uMzqM5qd5uUorXzNMY2eHmjw9Lb3j-FWee8RjQMiCGTZY9m3U4IU6g-_kBHrVDst0OMli0mblFqP5Q5xxE4rzaNBP0ttwlgkUTjBGgFQM0mMkhVjo3oFz9DFjCatOInTI5WPAuTkNirx_QFVHsBPu4ciFid1RNtNeV7aEcbzlZuTqn2QO0qGspAlxpxwwHeASPPZaIU",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112630154963772160336\">Root Reviews</a>"
+        ],
+        "photo_reference": "AVoNoXQn5h3emYQ0jFkN9xUgJn7y3ZGTjSB_7ATzxKDleGBN6-GPAafxjdwpIDwRxEWAYMTb0LUZ8sxM2FdGzz5IJtuLo7X2Z1d8oO_uT7Z2-wdrkiZjIwuEWcRR577rtLeJgFxqCKoZfiAVSh28iqF6PE-n0XGx5lapeClX9K4yeL_jCZOcZfDwzJ3yw2cj-zdFP7D1d2B3YjP_mWHv1-3vcub7TPRQf8CJw123FAqdVbM0Zpf_4XXlhCFQDSx1ohNszlo6Ofh_TPx01O7jonw3DRi5BZ6MWn0UInrD1eKmAjF2tcOt67P5T6Fk_MRrt3ocaoWmKG8S5D6RrWlxFxO2ZMyhzRq7vMsBXXQO74hsI0ekJntxlEwfj2QEgMBkZ-HxgQGTakitgbMpcXqvvI7gVMsQW8bpijI",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXTTC-41Lfb2RKFqec6ahChlq_QWk5XP2xy9WgplppIingjJnVKOlB6ShLEt30uwUEGyKFtsduX56140eoOSNcVWRfKj9qAxrXo-6QQCEhthgSZ8u-5hiDzT9gebGDKrqtWhV8di6FmL7Ci1UetaZP8V0zVAhHfM5HqhXIkxCJc1y8lc1B_RQfPQ3luhB5NvEbnn4aTrT36Awhn-IVtkDLxTHNy65hmIXe2Alksowb3kEq10q0UvC9j3myxk4Ou8nWkOROeXdUuj09agMWijWBLi0ol84hQIYGFEiBOgB5_N6eS7KufXts9HRF42O0NQtE83D36RFAaNcZgKmT3PX13ArpJxmE5UDJxLFk_zgBPUxzVb6yYMAfrQibtFAaUS9cAhhIIMjMFfWXSBnZAxQquaxh1GgUY",
+        "width": 4800
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXTGUqi26qSv4Slvi4sQDhjrSSPWZk8xntBMsrK0l7Ab2pWxWucckHKYX6hu6d6JQiPi2Ta3HdfIRMYuo0AJvTfrIFr1cI-GUx-9osV3_r-9neVLWUXBnLLrFbm4qF3F36Tam_tnipfXKgfwcG1ew0aNhWBjg72jUYe_GOuexnJN3fhrdXbNQj0PDzZl_YgHvhQH2-lCcXREGiilaqiXBGuEJxDk3zEI2cBR1Te8_mXLQpj7EJWgOHlUe1Ic0zSYIhZODtSelpRNCIelg770zb46DBFmY6se6XO_48li3D21XFNQ5IELorTbaoRrBGilwMqQey3UpjVubcX-jFQ9bAMn6onLHQDXY6fSBsA_7AHbC3aT-ZOdvK33LTBI7xZBldL4A1ACOKr2ljr2yZfb6uD24Y-fYJw",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112630154963772160336\">Root Reviews</a>"
+        ],
+        "photo_reference": "AVoNoXSnRO9ovZalBLd4A3FK5tl6jDec22LMH38kKyAfAbttOeOVFaXzuU2nqSdTMc1dS4y63C0JqkEYBozQs-4lA93Kz-7ZwQjKqnoivSI8oX9QXQXUVJ6DIPmxrJpnaeVG3_5YJYDXi4Eph3eoTqAMUIxZmSVJjnIdqMOnYUfI8bUFt6O9q-8nUbzeYYKto0I6YksDP2Yj3kr6iVKZWZjw6eWz9WX5WMnU7duzJ3eayubfPpl968jkmfVkltCjWotoMeqVxuwlKwOGBwCAbCE6fWHiafsg-nSBKc83sfAY6M1A-0QqB2IePk3YL3CrdY5Q6RsrJoakRckDlpkuHx4kZtB5yMyio_rSezXjNRjKC8JVvw4fURVzFWtTCmBkeM8UVdxh1Zwsr1jxk9rdlPUmFXt0JiZD6UE",
+        "width": 3024
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXQistwr0LIZmoTOJhwfVLvHCB7JDj7zdSvo12tXEt9c7F0beNw3pbGB20Qsa6yXrPCZFcGbeHR8ixdQhSTEr9vU3ODBlR-SUxH_IJM5BApXPU2ZRnvL2dlGs4OG1MVV85HUbjOk1__zbaSp2Iz9COwad79RdefUkVlXkgvC3C_d2JAMyaCQPQygshUTuW_HhjoWU480SKLTj1SwiaN5RD-ZDtJRrT-U4AqKTvU9WHk0RSviSi8nV4y2gsAZUHwKFGeAgRFq-HGIvKlqJt-WGS2qoBlyxlxWkFqzU7y9WOyWAPXl51pcgOHgX0sGNXmooFzk87uhWsoNVU6KSvp5kyOXQLM9phFepSwn6UPhx0MxyanpDj4IJ7KiTZLKT4Coi-bbT0FK2dZg_-ZqsgiT_J9Idb1vQHc",
+        "width": 1536
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXSsJ2Cctq5Zy60WvDqUB3_Xo2wvdz4cfjiW3Jh-xytSOsGlFgTCof_dG4EuURzjqksbb8kLl-ekb9bPJ23_UY_kI1sczU_vXicVdtrKU6ft1xpjKWyxZUw4i4hnPxlt5smfYpnOcPClRybmlugfCP4RTqHRsqDhz4bO5Bvs3DPOnGD__Pj5TkcDgzs8nQQ-LCdrPfK_QcfQrw5G6QtIYojoYP8g36PI9XdDxJCuPTENbXfAKZldUpIPG45o8i-iOHr5g5T1qdIEPJpp-GXv5z2tKx0Ss7nI3_rby9nKOxN9B5HB-zlNLlgNbQ7YvYqTJ6CYbkYdPaJiASMyhdEsA5zBBuR_BUOT_fMU_qDuFo579QC0XyAHj6PUpPa30HQd8EqAeaBVlOUwz8dAF5-bWUcughYcwhQ",
+        "width": 2560
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXTTQW4xV5f2vLQuYiWix6aAHMPlM7-hpwZtUV5cV6_4f1yK4DIJQuJt-FzprCdvn1u101lUMTLkKFuWKr7AZAZX84mMArwXJ-LSA3_39oyFrD-Czzh0bcwrewNy6rxYR3eT0GpW31D71u17P2xQD9wfUzQoFrqrB7YW1VNn7MuWGYUWcnQ5cH1d1x7nqHleyYLAx45dRbIHAHUNsA7q3AEptfQEqinhN2hATN-wqYBaXphO0YozO78x9Gv0ULDQ3xwwYp9wTIfzl0V0t2c2OyxsQDjLn4_xtGzMso7mquWHZd5IMvzCmTHCxhsCG1q7oJ7x698iz6G0wfzuyUteA366um2cEL3NgKIysHdKO05eeyNAEgkaAaagyPaUr1xXslqM-wkGUsHjeOZHmByUc96vmck",
+        "width": 1536
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112450922618553562306\">TNS Health Food Organic Supermarket</a>"
+        ],
+        "photo_reference": "AVoNoXSayuA_EqoOhjYnNLLEFEZmQqrWRYq7zLafVLX9KnoCTx0UzDGKSQnqMojhvZc6i4dN8TQ6BTkfYdk09cvBbWncFgFNDxswCwd6RgvC2F057WOhzr1OBNagRxM1_w2f8k2M4fM4q1Sciebp5sDf6dbOdHN6UDGMpS1baPWNe-qXkOqS4GQ1aI_sz9dj6xfH0ic95HxX2CwmMJDj3mOxcxa6T4-nDuNjeqVCqMqOf9i8-wBAR2U3d6uqr1BGIEmeS-0OESN6lak5i-JRx4Qq63xrFLqL_QEk-kxVqXRAvDaF7jGOxqzUaWv7R4Rcn4TK0F6fque_zxxiqTzzBfw6nj1hBFFDVtYaM_W525d4-Bh-ek695c-fQ7yKZW4S4p6g4wplnUIa1B90UcT2hJZNQEIhzA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJg3rST9LF1YkRb1p4VWcCwAM",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=270218620481067631",
+    "vicinity": "955 Elgin St W #1, Cobourg",
+    "website": "https://tnshealthfood.ca/"
+  }
+}
