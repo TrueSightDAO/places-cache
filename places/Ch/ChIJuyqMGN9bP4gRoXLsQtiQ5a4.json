@@ -1,0 +1,266 @@
+{
+  "fetched_at": "2026-09-18T12:44:14Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "WHOLIFECO - Holistic Wellness Store",
+  "place_id": "ChIJuyqMGN9bP4gRoXLsQtiQ5a4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "808",
+        "short_name": "808",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Main Street",
+        "short_name": "W Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Springfield",
+        "short_name": "Springfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Clark County",
+        "short_name": "Clark County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ohio",
+        "short_name": "OH",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "45504",
+        "short_name": "45504",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "808 W Main St, Springfield, OH 45504, USA",
+    "formatted_phone_number": "(937) 727-0000",
+    "geometry": {
+      "location": {
+        "lat": 39.9256549,
+        "lng": -83.8249656
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.92691853029149,
+          "lng": -83.8236254697085
+        },
+        "southwest": {
+          "lat": 39.9242205697085,
+          "lng": -83.82632343029151
+        }
+      }
+    },
+    "name": "WHOLIFECO - Holistic Wellness Store",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1908,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXSHHfu-zlBsl2lTMa2sbUBazgTjoHUzDP3x6MMuAurIcoX5uym_a-uj_Lf2osecHpaQhL5Oy8dpGpK3TEuztr4gx_O1xd3YV4YticMhUN3Edo3MyiTE2UqQYEI7Swj5QOFx7C2jYHhxmjITEXwFMwE6vpxVJf6kFmsubMV0j0Npkq8gYO6_Lo1WseIz_fYKIyfRvzr18_avCwgaWwEYss9npMANS9E4vUP5eBIsqjFh4ggW-S32T4tvrZnHK952UAgS4-1zabW_5aWh_6Oqipg-X217evaQNufyeDBe6BmZHFI16wsuxQJYCRStRoOwagjlv2-5y4NACNkbATTkEQESLSnFjYrVdk6j0XEAwD6t4hIxOErs09F6FFQcS99_3OxUQ1BANeN_h9ZTJJ35IP2EV8o",
+        "width": 2844
+      },
+      {
+        "height": 609,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXTfIV-DhLQfq_n7zjavL9Fm1o55f1ui78smOjD5gPjma6m51dEo4RE5FYw64Fie4UdsTXioZic7KUzDqnrqGvaAP4Ze28RcsoNUjGtH_-T2hW5eCxMxZ6_rb2MftBlF7xjpPvIhA8oDMGzxdeJ59sRYHRNTW_Cz_0xNvdymG6RVKDoZN81J9mUMGDmSB1Ebhf4Ih7j0RclD5ZBFbtCqz3EfvFoiy56qUwtMJPxpRvViGLeLRuAn_y1lU7O5iT812u1zxbkmUTvFxDM8_d9pYcbjZbZykSfRifYSNwh_8b10u3ArBho8tzFXuEIqMi3E6WUp3wCKkdFTCUuQIZawHI9ICfHaJjgXP9v86lbnQQx9GsmPo5XLiaIqNr38QywjpRD4zSZUCqsVFaF7Viwh9m9Tcn8",
+        "width": 1080
+      },
+      {
+        "height": 1320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXQQFT-J2TdDv7pGZcXePJuRaypyN7xF5Q5etZbOTyKIHdd8s2GHMO413Af9GjWKKbYrjQEY5yC0bOtDWwZdnBTy4rXQo6dgpzf6Ja9hVqj4hp93LiUbZJ0f0luf12DAfQjEGtljE3xmGvgAMyklg8vws5oYdK9WJlTEC0WQKZpOD9myshuThhZck6LXaXEI0fqb4KnPzThGWuYUnPCIjmjZsMi8tbjX4Yy4Tg3pl8FYnAfjqFaTi1HaATzEA5zjSKwd8NSKAf0x5blG6dg0KPEN8HB8f3Jv6G_UctFmLkNk1-v0lGA8NzKF_s3hRbnSPeusr4ElvYcTPRHRMea4NOzgRpfsHqSewfHF8jn1Ig6aATEatxTxXWMtsoTJy5AR3mV1YQumS2P7MkBjjCJhh6TswSyrZ7a2yvXa3PIIY9t4_g",
+        "width": 1320
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXTKuiMEV3hzsN6tH_xTjZo2vt-reHPZilpxutFsP-IqZhEmo5krl-3oshppfFvfg67_NGI00FjK3HPA2s-v4AewleX179rvtjKsUKMWNy0Z4ax3p7WpbhQpqR1udjbUdzZQskGZ7oyVToA6sWc2fM5JwCrDCqeo-LMAGd6cw-tRRI8tOstObHqMa8NcKex6X_4Tc9UGG2MNEQ1BjxOYxJ5qsS6rMt3afz3YI29IZFoiCkqGHyGdX0LMRCV92Xkwtz0qfsVpZznwBweObmtVPDronSubELmeA8se4zxzZJuH3tOh4vIFfaMEszZRQznS9WQNHGjjQOYWweW9MLaFDkotc-uSN_XtOotYKh8yZqpGlRH9Vak9O5VxWkCUsXF3Xhl27ue76UkJk_tvdhI2B9qkf-VKILs",
+        "width": 3025
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXSzr05E0Fo94NtaroweXpb84LVpTWTiSG8sRxZeA_j3CluVns8gWFqwKaCHLgJaCGsTwNw7xLdWMi9lTklUID0rA7vY7hSBH_7dqJ6pBFTWAnBVD1uV2HqPCLJ2ZE9zCYc-_JVX5b7agVqcdeZPagF4Hm6gNPBwuTwYjOw6E4X1l0KYcKm0K6VMBkfVz5GLlH1wbrQJbZ6wOTrYsFeqmTLFDYyhb2ExwMKEVXoW0HhzwaXU3YI3pCB102nlCRSOjL76MoiJx_DV3jTzzxFDivkUlX1QDyLhqutCNZoKnoTCvsw-AVD2pDsDhOI2Bm9HPMVo4nLBlcQCSxEztfN5GsqRvZXNPd1kGNXa99zJDerDMOybyGemb-AijR3Vx3-Jy2EfUdMBWT0VHJVKqO5EQ5yJbQ",
+        "width": 3024
+      },
+      {
+        "height": 1320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXTfZc8gV5VZ27AvW26-I9ebsoEHY711CBUWc8NjFyRJCyjBu2kKs0cHf41nrBvtBJ5cRa1vv6lVi2F9CWKI5yROFQ0MorD0QsyEd7a20jrezV3w1Kya58EsBsURu10UqVAS4eCSFi-oH9-jPabABQ52j8jeeBMoHc-kTCOTzvryxI0U0xwz5W7E2CaEriJO6C6txwlBSvmi_FzUsp2-m6trdRgcu898UTicrXWoCYiQMK-th2TOSv7JOwOWLyzk6GrEyNJV2eVxWKg9yoJhQOutQjVn_WhW_-o5kRld5GMbxuwWmYBJY-jTatt__wvYuC4lKknyTjmpsAnLDHADQ3Cu38QShP43QU9ZPoH3_1-x9aocUdHPVQ-yr1pBxoPFlcZVI9oLJFX1CUkOCyCl_gWjwrdMg-yP4-pJMgHcQ5DYxA",
+        "width": 1320
+      },
+      {
+        "height": 3025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXQD3GYbl5gVgibnLW2vnncJZU42HdMkCUQWXl1Xk7JqvNn1mjvZSH9Ha1tYMegXTIvFHU7yR_YURZ-VNjayV34kbmxAmtttIRWmN-mCeLLA4B5YWhmQGFJRU-LV-6tbowtbS8Zsseb6ZvgNtjhNb6K6w0YeLknpM19-bBVbCT78QH15WJVrbg-v8Fb2vQH0_hweUwHeNM4fa5cECaQqNb86JAH3q9LB6PN6XF1eZHax0fkUn_fvz_WVWjdVQGXaYftdpuTjMbDZkuEC6aPEDyW-DwwR90ulJ18b4w2QN-YoK2uAV8MSZ-fZG5i-KM2mbbgIhzv6LmlsNipODO44gFI_MSypj9CjISprr6MCji8cPu4IcLkPY_f5UUX5bUg-fJQADER6f0pEqKkgMg5NuFO1vMc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXQnS8ZDitIzRnksBrSE1mXV259BJL-_0j0GTvLAX96BZcRjpKOZkN_Ss5Ebyqg38hM3dCxfRGqjmn0oJrbjMsXuM0m7p37l9-BTh4ukd29H3apKSx5HKPbF_8gNRFhPqFdmHo1OJAVX4h7TgRF56W1hZ-9g1oIkw0LEgjDDckgaDoL2j_c4UAemaazHzOtleBAW3gUkIUY_rZYaHAEIqcmJWmSV68pUR23NjH4_1SihJm9D6WyQ8-sogpCYZ9qoT4oxL2Y64_ACDt0cJGbZXuAUUbRkrasVanY4sEKNlArlOpcaoA5I_i5_VK7UxXiEutH1Iu2VckrPip0baHB8975zeajP9g-E862sCkTHnAMTYEy-qgPZQvdO1F9iRx01ejnfRvI7NFjrgg4m7yaXNbociHfa184",
+        "width": 3024
+      },
+      {
+        "height": 1320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101536623857400119549\">WHOLIFECO - Holistic Wellness Store</a>"
+        ],
+        "photo_reference": "AVoNoXQzaZ5YaygDke6Ncn_I0I2FHtixtARZukgeZa4fpgZUvRq2QWBjqcFza_rhRCIKPOOhU8I5mL9-kpc3bXEvmaDRFwbDTv8YrWfN2XK_IhaZRmsGGrX69dqs7cPkCYxv_ZDkdLF4XYhUpsJ2hQutTVq3iUFd_1S7vAyrDIfHAqwH8o3boH1wQFAotNwJ-Lx-PqQ_eeOgi4tHXiBcaWrnjiaDcvQmnnc-sAgXw4tPqvcC5wUR7E9tBweT1B6nM8o_9vZs0q2smcZpo7Pqj-RuTnIeoLcuk6bToPw9YeXhNfoWVQYRahnDwG0JZdiC8kILyfHXJvjTKdVaozacLyA7tjdBLfOynhsI6CGATeiRCsO4-0My3JlmwZ9iuaag2bE1u5nL8QY50vFK3WAF723cLVgjohuszEX0hdl73OwoWubTGg",
+        "width": 1320
+      },
+      {
+        "height": 1860,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117482145569567774144\">Angelina J</a>"
+        ],
+        "photo_reference": "AVoNoXThUjJnb001_wD5_iPEy08Vn9Mzy0JMsEJ4sCWgDdpeb1H_MfFQV3mU3YU0-xO-PmNQV2ECKHzR4H9eKdFGukFq2sVM0e_LWoay7WCh9kQH4dcCoK6biAzUPYt4VLGSfarVCJZz8ak_1DvldgyOdNUrSNaj0KEg9wvn7kILP0oqmyrZx0KZ8GGo8vLbri5sUl8HdFEFDUjH4ol57Mg-qlRXggW_NlxE0lZbwXychZCE83DDUItePC5XVNwg8R8_IwW8myPA2PBOPf_cW4s2c3PlmmRJBMJxbSv1p6NpfqC2W3VXa6urUkUVjwmRZ0jK440GjptASGByBaCyoOWu8RhxE9xGcfsWVjHlVbez6Wo7UqBF6F1_PdGNAwNOxK75mEsxM4zod3A8lOsUNXsQaTBKqfM82AhYPNIFw02jV1eP7w",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJuyqMGN9bP4gRoXLsQtiQ5a4",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "food",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12602638390776328865",
+    "vicinity": "808 W Main St, Springfield",
+    "website": "http://www.wholifeco.com/"
+  }
+}
