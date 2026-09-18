@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-09-18T12:44:12Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Apothecary Suil Crow",
+  "place_id": "ChIJrfG4BQYZ44kRxkkBIcvjWVg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "153",
+        "short_name": "153",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Gloucester",
+        "short_name": "Gloucester",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Essex County",
+        "short_name": "Essex County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Massachusetts",
+        "short_name": "MA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01930",
+        "short_name": "01930",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5702",
+        "short_name": "5702",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "153 Main St, Gloucester, MA 01930, USA",
+    "formatted_phone_number": "(978) 457-4624",
+    "geometry": {
+      "location": {
+        "lat": 42.6124999,
+        "lng": -70.6624318
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.6138956802915,
+          "lng": -70.66110496970849
+        },
+        "southwest": {
+          "lat": 42.6111977197085,
+          "lng": -70.6638029302915
+        }
+      }
+    },
+    "name": "Apothecary Suil Crow",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110309746411600497899\">Rebeccah Pearson</a>"
+        ],
+        "photo_reference": "AVoNoXSdioR4nF_IOL58BSDyjk0joobs7SP3N5HjLYFRKkHishT3JphuY-Pmtcf2CDgeR7GHvi2w2fPfR0i7sWxUl3TekG9Q5debjWkpZkurtjpU4zm2NwJJHNYTa3vHqwbvV--9DA2dn5hpGsnC4PghE2AW0bM-TkCbOp79ywAxBgSeYBtZH6af_d2RitWc-2pgJWXIqF8vqnsa8D21K-ywrVH9gYDR7xgIMySgE48iY1XXMo0ZhNGqDrmQXwYX3gXLbQZjYohEqrUPD4hjEVsTwB7sicvv0Wkmh22B-HesqYYmsdfb2l093v4cg4gRujaUHHdIN4e2DjT8JCu486ucZVwDYrV7_h2fKKNBKOf_0s3ppUZdgZwgNCBc5q3KFhDHMwfMB0GeTrfZp2dnF1zMGg7chHDU7AS8FNEEsn_iunIt",
+        "width": 4032
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110309746411600497899\">Rebeccah Pearson</a>"
+        ],
+        "photo_reference": "AVoNoXQyZGe0zOreQ_CXwRX1DcUJxp9Lo3fY6YM6r3IVXm_uQN7L164wTTHHjxvqw_TMuKjYpNRAN2FB31kFC6__1amfQHwv-CuD1XUHI6v-MpEmtut9ZENUHRUcjWpGRJ4-wa8LsWpEP5RGdaCH5CosO7GU5j-ExZJMtSAhgL8OSVN00h9ANv61nuCHDVEsRYPCbF4iduvObYJ3LHHcs8nxrKGK2DXEVuaHw9oTiur9Vz1w9QK7vd46OoXEbgPicEA1w3Xfs-tXVNmJSB1GZnmJns2GnarChtl4A2rlfftrEH9X7uTlu2VyryM4t4tIffopIt2xOfEsnQafuYrK72sUeqBFBYvseb7ZSODgkFS9AfeMECDKJXn7qdHpr9oSHjMzxBBpdg0IbkEVMurcqAlijU_TNUY0JacN_13ByNvpbneZ",
+        "width": 1350
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110287360484517517168\">Cristina Tache</a>"
+        ],
+        "photo_reference": "AVoNoXR6DLTGwSP1LFJHrmaDzmaoPlre3o1sCw3huZdrbl9Ef-59GSYXRRmqkVMRl6BnhWrc8EK1p6oARrWXs635TQa1lCw-o2LOknPf_IwxJfxlE2dFrtDBsPatZdeRVIYVdN7W56ZfPba-jrs6Q5Ftd0PdYF4lmmUJ8ioeGgvj4Iz9JqICmpMv9fdn4uT-amhUB6X6Yl4IBsW0n3cZJqNp66c94DmxWo8DaBwjku_eURbnud13ng2Gkw1Uol18mptTUIaJ1TgpfRQhV1KlqNS1ioG9S9Emn3eZi0hDG4yzoz4ful1cg7XRWSle7ig3klIlc8W0KAJ9M8jcr6I5TyDoLhzF99nN2SR-K7whbCekl-DTJAQDpc6Uv5I_kZgLv-xl6mGgZcPMvXXdvKqxZ8SjVuERysEBMm74_EFU5WxbKusLvw",
+        "width": 2457
+      },
+      {
+        "height": 4192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110287360484517517168\">Cristina Tache</a>"
+        ],
+        "photo_reference": "AVoNoXT_7tZHBhxfj5bnAuz79H-PQSPJrrdef8VfZgHeRCoGwiVuSqyFD6FEzz4Jh0Ftf8HnebEKSTHEI2dURIrbLxLbfsP_CcaLa3fZNROmhOk6By9otp9Ldo2r7PEzhvmkNeCwfKUPeVrT8Gd9WjlxttO73mUqr2YPt8GNWsrTMdnDgsLznmyyuPN4OoVpAkf72dBYttRxPnZu0Lz1aZIeU_SNZIMKFhk6WXYLw9fFFVVp8aj0R6Yiyb_5v4P6VXp45OpHCJ1ktH7F0ud26t1JZo751Vg7IvS2N-lcwmar5Oo9dNYiXsku0oUeTSoHB5aeHnxJcnlx1XHiF1hBeKJO5Nh-41HxP0KlCu_VitQohCsKiWi57RI2ZfywCu6EUkjt-190YJPKu0b7LxPuXPTN8d--NgSVyvLALDYdiRjLo8ve",
+        "width": 2596
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105701658625427058174\">Kaila Dunn</a>"
+        ],
+        "photo_reference": "AVoNoXRiBO8D-pIpaQrKpSAzlJVxVGE2ZV3sYz8y3mzme36OvyaWV0mNxetmQs9pFl-Jw3iM1A736Ps4EQJs7t8NDUlLWuHP5vnv-Brr89p-PgjoI5VsXn3nVnf5lQluOG_bLiPndbDR_7N7f8uLEJjDb94W9G8NO884hCe0dR3h55WqdIwZnpf7eLcKZVe3J4Li-Qh7dhV6fiukSFlczMWjtuLK6YlAc_RYF9SgR34_dYeTE6Z1sLWPc9IGjVUWIbV2Mo7OwqRS2PpFedKYQ4LoclilVp7fzqzTAL-7pb5Y4XqvB_yv0DWy1Lu5-WO_-r3LHHT0o5lCgSD-00tHl7j4dVskIECvDm5Y3tBEv9w18tgPmf9euxsF9q2deSU0vhdSRgCo3JFPIPoBL-YL4Io5_1zivi1T_HReTdYC11J8Q5Jq8g",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103231127156892993692\">Sophia Ruiz</a>"
+        ],
+        "photo_reference": "AVoNoXQzSaYyH7JhXhLJAEmVoB1yCeylAPg-b1jREhzVA2ThaGQIWExw3ULmOjKdrc-3Rbvrc107yQ-cO4IpOJawIPMpYp3hyQrDxAntjNuPULEaEm6jh4UboUatg0yNq8SySMiMc4lYv9qwcX8kBMEqZKCamX3WFYi20Hn6eQeICnnJ1eF5Cw9NzjUyAvsi-gS9XxXqTdyRpCFpEahwLJ8UpB9z6e60vWaWy5_GWzqte-f_VQtTC0DN25ydmxhEav4Erolhu7KGQE5E3fF4joJRRZy_pWcnlutjrg2Ls1AFp_GZQXEliMUd5xzhmPfR3wls2Hs1-g26-wTpK_SQz-b4jjRbxfs-e-TBgB0TEKqXVNIB4fmUoeY_olLsxIDVG4_F5YRExHL4ftEbq2_0mNEx7-3vntW63Ja_xhGETkCTlLG_Lw",
+        "width": 3000
+      },
+      {
+        "height": 972,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110309746411600497899\">Rebeccah Pearson</a>"
+        ],
+        "photo_reference": "AVoNoXS318-7oAcRKMnyqw_RPhF8o_4Zqv85dN26SJVSLo8SEH4SH0i26xJxewCOrpwLXIr_Tz73N2iVsOowAMpWHuzrx-nh8N4bZyrJ5AV0aLQK-RAYZTDhiEbaOj67zLh1nUnwxyCLw9N8A-h3KRWVzLyfULtxhx3M6Ad4g7AKsrHfMtlkBu2eESmMHfQbOMseTiiWFcULgMnx_CIAsODhKcfFRadw0wiP_A3emgu_-OU_R65rVc9iaIdWI60YsqiNduSNW4xWILqpWOW7m_vova7PG6djzbCF5W9isEpsRUSXjRfgow2dJjJx2ABmvOFbr9pCqimu3hUxe-nzQVcprqqNKc4b542T0m9chfFn_dBy1fXq0CsezJilsnAlQHHzV5IaJ7Sm5cjE4vk5I4qpFex_o1b8YL8xkX6ox6_y3vmiFg",
+        "width": 723
+      },
+      {
+        "height": 3088,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107725033685062439172\">Daniel Mulkern</a>"
+        ],
+        "photo_reference": "AVoNoXQwNi3lsBZi1OWpajQ67laEEwEAhZ0siOY_pJbJa2-MbRhNc80cZ6VmkJWzXyh4SYJyF0AYYzHVuEXKHmu43KqwF4irbkcRwaApDhiAxGC4kq9A3D2lZebfZkppWt_vrIX439VxnJ_gOSmw7ogBvm82XOyvGaus4crv7r7GeEfcCE0gCuKDCWzMr67-f7g12N85f_tbRJusGZJBSvv987XgHU2IKv7e6erlx0vkQs_BnFMl5yjb3ugvkVfAxNVyqJxV-QdQb6c9wV1Wu1ty6UXOxMNx2r8qV_mLFpjpl6dGy8-CfqQEarsqXEbpfptld10XjCnREACmNCJKcmvL-qrcWe_X3te8Mg8ktZoPEVbmS2nzX9mpE-UmPVPtGLuo38O3N-j2he-6LnKP433QjJLUFBES",
+        "width": 2316
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103231127156892993692\">Sophia Ruiz</a>"
+        ],
+        "photo_reference": "AVoNoXR4WVkI9cNLIV51kr-Oo3Xx6d4QmFa7e6GicLnc60hV_Uz8Phj7pl8hifoGGasOUEhmoUypdhu845O8_uzFVf9HVDcB2YPbAYj_pRVrll-RIegQItvfZwggnx2jZSerfs4nBz3Noe29I504D2lzQf8T97DqegElqMakw99mSLvPwrGP5oSQ1aJisbKB1Wg-loT1WA9weXD9TQvSAEpTPYS2jAniSex-w_lM3YlHu1bV3xt0sF5uYZJl4PqWTKNKPucFnK8Qq8Nukny7kYXiK1RcVQHx6nEU0C3MswAPcbcufktQ2Sjoqq0cfKcjLX_Gvo9qP3gL8hKSwrNSSLW27ARJZ3XfHUNx3vlYzKzkvbqGZmAaC3eWLo9mOwiwNxyi74l-L3NwlSOp0P-5EuZcb0-NwJHAiDvUDJzK0fPCubXapA",
+        "width": 3000
+      },
+      {
+        "height": 999,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110309746411600497899\">Rebeccah Pearson</a>"
+        ],
+        "photo_reference": "AVoNoXTV739aXbU1RqoP5EysSFgUEtFHR1F4PpHLxrRTi4SE_FaJqWPEGGPzvPDIWAk-lZd5PZhurvSzvZ4jtp9WGR4hFnt-a5SR_t2mcDkODfyct-MkTsRNBAl9GimrJJMY0FOGHvmXS2qSty4qDyY3aWbYtqoRQWQPqknc4VoG2kaUt-NeXbDp5muVWbiZme086ttM2xoqn238EzMMjapX3xk7PptQhbFR3MDISlwBd1KUwVHpLugBA3sQq-W590cE0ehM0PPS6UDcH8UaAhs-w53sR09VIkc9v0UJu6yZVL3MHK5ToAjzZoMesJzNM3qYsGPSDxGOTAOBztJQnw-5K1MCl0HOVmP2quVe4QmcFVvpYtM7nov02-RTUc8Fkx38Yj_mHjOJEbPdjm8fHyQ9jzcMQLBQuOdoT7R7nu2p3uSqcA",
+        "width": 819
+      }
+    ],
+    "place_id": "ChIJrfG4BQYZ44kRxkkBIcvjWVg",
+    "types": [
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6366370009836505542",
+    "vicinity": "153 Main St, Gloucester",
+    "website": "http://www.suilcrowapothecary.com/"
+  }
+}
