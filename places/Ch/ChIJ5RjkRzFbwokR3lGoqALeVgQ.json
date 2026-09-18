@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-09-18T12:44:16Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sacred Vibes Apothecary",
+  "place_id": "ChIJ5RjkRzFbwokR3lGoqALeVgQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "717",
+        "short_name": "717",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Coney Island Avenue",
+        "short_name": "Coney Island Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Flatbush",
+        "short_name": "Flatbush",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brooklyn",
+        "short_name": "Brooklyn",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Kings County",
+        "short_name": "Kings County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New York",
+        "short_name": "NY",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11218",
+        "short_name": "11218",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5402",
+        "short_name": "5402",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "717 Coney Island Ave, Brooklyn, NY 11218, USA",
+    "formatted_phone_number": "(718) 284-2890",
+    "geometry": {
+      "location": {
+        "lat": 40.64010589999999,
+        "lng": -73.9687472
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 40.6414370802915,
+          "lng": -73.96752896970851
+        },
+        "southwest": {
+          "lat": 40.6387391197085,
+          "lng": -73.97022693029152
+        }
+      }
+    },
+    "name": "Sacred Vibes Apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100136027338870923804\">Mark Montani</a>"
+        ],
+        "photo_reference": "AVoNoXQ2QLHyJiXfQmDxK_I8p61kXuO1fKNbSy74CDrDJJlfblFRHWosNsxK5YCVjfziR8DAlVG-ybTpLW1Ko73XnMjaGXZ7oFCfNwsFjtPWXK45wtBe-3EoNgrVYyJHU8c4Xv2R1jRKPNQJSPXIXlGtA3DsG9Fa7wwTx86WegD1fUprmlAFSkarJwYOnPBebfn45jFKLcK-uQnmIa6TjzJvDY91WNHg_5joVm48-nXQZ1iZbTLgZD7QtrIxkIXvqtRR9rdq8f04FTgawwpJGlOovOajfE-6D-C5_HqB8vaZT0lKCWKKIiHLswJR9xhwov-5x8yH5C9VvscQVfIcP8eyUBA1925RYjkTawNWjtJvT76zGoAk9Rtx5MP3F_7uJFsE3l5o09gebBUbNlMoMtYEuQbjS28",
+        "width": 4160
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100140481895844325912\">John Brooks</a>"
+        ],
+        "photo_reference": "AVoNoXQ8aCgD5BUEdP4cAJY0QWtapm6hr5X-oyVH9MYjul--D0L79FGXQinWSq0YGR-O0LKzgAREAooTSVbB5-zTebQGgmjiAOX3jiUGRduv3wwaUqDvFyQEzb9Qd6Am2_gHLblk-9cqNnf0u0yt_xHVMBXkB2BcgWlIi1KNDcT67QTHmfPlbz7kBvgy9fQyqNlekYi1HuZncx0jbuauMO-8DCAt6wyO3go5QfvuFvFsWq4zc_tFwGwB44QEnDoDxi69HxBENBIM7R5HDdRN9qSfy_IQsfI76zpHFTdm99KqMTua4U3_gRzt4lvZ8hi6IdmlD9DDMunjfbd4OVPyVTYnD-VuIxPlijuzbky4Wu3Yrll0Wew587RI_EZf47Y2pqcM1wnJsR4DU5b_11zG6emEXO2L81I1",
+        "width": 3599
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110463142411176004124\">Earl Grant-Lawrence</a>"
+        ],
+        "photo_reference": "AVoNoXQqpawonJhOHmFZJw_sKbS5uDO3Z3a1gMARQeoV7I74Hkn8MrgTdSa7G_yKXbCk3-Q7wJDV1l1U2NH4xWUOSejT0UKOjFczP6X36WSK6rLg2xNIWfnORwcN1uB9-c4ymBN4tkCSP4p9JRWZgzpyrao5VEgPGpL0RdXsSy76X2hD10qrH_fXu4Nc3XiWpJOjuKc0g28YY-c5G222MZs-Iy4s80LroQiWgbw-c9lpXUbdeG81sb-_lsTvy9K_ltfLHB3UJYUYwVd7ifI_XkhYH9OPRMdS4B77EO-0hxPEwJcX_07YJISCHCgRvAJIfJ1TbowU4iQZazYaNmqKnxw6dnRFx7R7zxbh22CAoV1QkDahoz3xuoEsfCfUrFEo89RfdkwLo6R5ABZOG3sfCXrQvgkqyUmaw09YFpoDspREfBU9bA",
+        "width": 3472
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107117139503551574382\">Warren</a>"
+        ],
+        "photo_reference": "AVoNoXQvdqzgWL_sEIH-SnOtNc2Tp_D-n2piLvdNAnp5R9EfqXWf3LN4BedPKh1hQYOsaps_UhvlMd1YCKz352yzFddS1Lza6BVu9WstxtSKqpTVQR00aRG-uSE_NaGFPrBVkLdL2hB7YLGQCsA7VZpuVyHxF_cn-QFffO3ZB9bGZw-vegrbwlJMRQd35MTogczPTllU3C1BAZGi9oiujLWHY8STyNcIzVMe7vQZOizK9D2Heft7O5Riq_mQekIVOESIRNyfbgWt8e8d6C-Yqt8lFCK2HHNsyoAO7VwcNLNO8AQKEwi6qkzcPCbK7lc7JhpcJhkN48-PQvdSXnkD9I1cVGdql8MKyih5JJnNlCaCjv4h5wnJkM_6K-BZKv0PzDHMhJsA3bQ4sTd04yAgoe_dzA3MOyg",
+        "width": 3024
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110463142411176004124\">Earl Grant-Lawrence</a>"
+        ],
+        "photo_reference": "AVoNoXRZJf-Wx9KYG8YMk0xU9Cyq9NdistqyWEYeVz5CNiTH9Q0Bm8rqBhcF7RFfhV4phrFIlBtG4hIgXouuIYnOkxCmiESmxPvNIRNnKwwOI-npSkHg04zsHhtDhYsWEfiDjJ7zmSpyfdPJl1aTp8UWmm9teLICjwX40GmEa_34SxE4Kctb7gtqVYSRNjoOO8qvonL-24WFIIddzZgUJ9BtQWgS9BrZcQtwL4KsAeYRUeQrmtNu0D44KUUYkIzPBGVlGqcWVqPm811dXHAvkaarrwETsUNxpDJNuDUfq3zQ1FUGvUgpB6-0ox4YVWN4v4C3Bj6AlK6ig0i-ADnnPyJQa02JMl1CvKThIROhdEsv-tQzbnc0FruyG0XSoddUxm0mcYFwZa73ME9tsB2-4KLPt1gPnjgxBLvKbVCdjc7SFEmq",
+        "width": 3472
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100136027338870923804\">Mark Montani</a>"
+        ],
+        "photo_reference": "AVoNoXS9TWaKIjDg-AeB2zYiVhZMWEf-utqSJXbVZRemm0_V-nTZLJTfMVh-TlMucS4BhIRAwIBAASJkgiPawol1G7AJNNYKNqcKQzB_Zuxg7gGqcbw-1_VWXQoyr8YE8OBOmkvLW0f1LcnKM455Q7dtrf1V6mEorqrgKTl1e83hW490o9tsqoly_gb7_XKaTG6RNHD4A9FAsKhpaCpzmuMstah4eaGO8hAY6J6vXi5DLkKJ6mx0cwyxbPY2W3FjDI-ag2CkStkY-qA8UGAAsdxm3QrL0tT3Lby7NHrBMG7zCujFuuxXo5y_top71R3iKGy8ASOi2GDnQN1LGHc5S2T4ngWxhPkY14ZkTqblPg1JC_swUDXkifUskrU2hTLfordzN8mqbbTZoYf0dILfHvcrfnu9yT9iJxQ",
+        "width": 4160
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110463142411176004124\">Earl Grant-Lawrence</a>"
+        ],
+        "photo_reference": "AVoNoXSuAuiX96Nzm5ZHM6H9RaoULD0vkim1T-FYEC5XIm8MwMXMcU8Iz_SwjnqWHjvVKUTfXif905TFX0m9e2HV9nT4COZ8QuICO5_W_T9oHvWzqd-xIPIH1F5jvUhJZCZ0z13T3keOYjYlaRt_afUplOIO_Urw2DDe6Lm5VrpblN519J9DWazRSJpKAkkHgSxNothrApzHOkzFQWgBw_r7GwVXTeTpTJB5wWx6GTRIwLki45bXgTyh_kCeggV3txs11SVUPp-kWu4Pb_pKPRp2cc6bHxPG1az4PFHjDycXc4WqifD0tM8zdUswf7y7W3vxq9tNCl5SjCc79GrBv34zEZ_yMYcI2wfNwhaW7TjhmQL9Y1flj-Hme5PUhKFqAQvX3CZnSTZJ7h9NskA3dXKCsSdt6ZlFjshfxbNgJjkZ1VZgVQ",
+        "width": 3472
+      }
+    ],
+    "place_id": "ChIJ5RjkRzFbwokR3lGoqALeVgQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=312681327149732318",
+    "vicinity": "717 Coney Island Ave, Brooklyn",
+    "website": "http://www.sacredvibeshealing.com/"
+  }
+}
