@@ -1,0 +1,289 @@
+{
+  "fetched_at": "2026-09-18T12:44:11Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Spring to Health Apothecary",
+  "place_id": "ChIJqd3MyjHXTYYRYLa4d8T4WF0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "355",
+        "short_name": "355",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "900",
+        "short_name": "900",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Main Street",
+        "short_name": "S Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Keller",
+        "short_name": "Keller",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tarrant County",
+        "short_name": "Tarrant County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "76248",
+        "short_name": "76248",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7024",
+        "short_name": "7024",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "900 S Main St #355, Keller, TX 76248, USA",
+    "formatted_phone_number": "(682) 593-0783",
+    "geometry": {
+      "location": {
+        "lat": 32.9187427,
+        "lng": -97.2553882
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.9200551302915,
+          "lng": -97.2539742197085
+        },
+        "southwest": {
+          "lat": 32.9173571697085,
+          "lng": -97.25667218029152
+        }
+      }
+    },
+    "name": "Spring to Health Apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 998,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110266691717524351354\">Spring to Health Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXTtriNVAoP6bxoDKLWICf2SwZ4ZJV7Wua84e3fxClfgJHlvVS4_dE_r0j5LpP45GJ9k5pGpIjb1V6aQF6XrFi9xnJZRuDxdZPwqQxB9_W9ydYe_2TZAfmN46lFTGUG8cUgkr5W5ba_LIo9eVvIU8Y3GGAC_OiMAA4LITsy8xZ2wTRyvssl0GbZJS4uFBXt-ViCaNZpsdkMO1RjxbHeyidCShvjnE6JdVo6nB0bbT89n9rNtaJdyJXj7TLxHLgulz1TFULapTVLSnzUulzjPMmTPGPjlnV5BNNEYKPPx7nHk-SOAKhggmqski-rL9OA3_YlBLmHkKqioOWqR_QzTMaMcAq2TTc9uGuZq4uxftgN8k54OX-Tg2hrCDu2TYVWZzNlc_E6e3eF-JQ-Wm3ufcykGbYiv3jsR6zLAtRj8yrt2zg",
+        "width": 582
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110266691717524351354\">Spring to Health Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXQJrnW2mg91FIB5Lxk0p8KQWuWWKe79vhLz9kaR6YuN4AWANn9LTRfBG5M93EyZNIkGuMPZUj73Qf1UeuoGrk37utOEQLCOjwnbMMJMK9K-kF4nS95_y-P0IP3uVZ_fZMGqv5PSepr7Bhj0SU2ydG9kgMcgDF2B6jh8Xjh4KuGtTRGXgvPqdON71YoXPGOcQsugggaQrYbrIELYSA46RdHd7kzko1e7yQ_RJPs47KqdmykleShHsUhe-rBYdfWDCzOR42ndVsqldLTL7VGLtZYJcngbOm_AXQHW2X4tbAXFQqse9pe0a6y6-Zvqs1Z9RXTYPcHG1erwzKfNYoU00kO_vyEu90j1fvdmZ4VmH3UsGYr2UKpzHVGsBCUTlQ0XxPBIWkBN-s6gnZPRBGB8Wmlytq5ugfjUin-EdsDT1qFOH4wy",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100094077001269262905\">Loretta Eagles</a>"
+        ],
+        "photo_reference": "AVoNoXRb2X1pG1VDoXWelHox1Emshj_wIa6dPJ1JYzQfz4q9la5bhByiIfRawNgwuPWjbSvwRZyNfI6gUmbU6WuDTFCh5MnKo-uBO5Oo6ASm9_9mGZv1VNVPluF0cl9_6cDpSwG8KzhtPsxhLqKGdseaqnATeFbJSJMGzmr81KJr7irZEOXf92OfrgTZ_khBVrvONXbIUr8H-4sAl65bfOureZFymRmdzfsQCfoQjRentPCLMg-0VmFHPo7wQVxsWwmTs-cT3o5lAzw-EQLKRzGhHMTBgJkTv7YXsRfTsT0GW7dCqtmDpZVuGC1GgMZTRO02ofRO5EWw95JcAWu-DReEjtrxGJOo8i1olfVFvC9txTHxjUGTaIobFyf6OAMfJaaQRQpyfrQKX4TKR1I_z1ZBwoeXLQbjBBoq0SxBC3lYDEQ",
+        "width": 2252
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100094077001269262905\">Loretta Eagles</a>"
+        ],
+        "photo_reference": "AVoNoXSDftAiHRPHRHotXqHnL77IDym3P6LcGmnbLFXl2UwBVGE_bvWbuAeD718IKZ6PdUwkcjwoRI8o2ZLI2MO8SGlahmgEoaAEw7HCRqnhP1IseYxNlUQ6kEYOZ1vWJ8nUSLEERFFkNUngewJWANuB-QJaRKoocC_DjIqNG_Ee1cd1EdQBOl4lEVnP2ehhZJwWH46ACI4nGNFVizjtKcyhJHgWXYMnAOHu_Hr0MFjZ1TRzb7m7bxyI839t_7DKtd15efqsARKeDph5F1dNb1-XyJmNFG81aTeWsu3x6yHIMuguS0ezHtJBV1KOhe12bMBJd6bPvjSiK7-f3I2Akd26pO7IyZkLt6OmPyUJubrGtb-qMyE8wi_RQOm94T1jchSOjqwUrp8ZY6iIy70q6OPD170oDQtOAyMKMhM7TcIzX9ZC_B_J",
+        "width": 2252
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109529970101841026829\">Jana Moon</a>"
+        ],
+        "photo_reference": "AVoNoXSJ-Vwkdwfk11xE24uSr1w0dBweMAXujA4Xq3CUWhecXVvPNHjf-RyVlEsjTa9XWEZHyEzEQ7TaI0PHcycPoqoUOjUe8Om93m7GvMsxQQfrcHbSwpJtWaMOyWNd3NPbKGE0dgrMLWaxH_Zn3LilPnnLRtczf_1V1c2gdi2UgeypD_I3PqP-TPKZ4gmt2nDhw0PMWCSFGIQ4XtveEN-iJz16d0yJf6uN3WWuZFpJgBnRL_CwsYHcB0Wrv5nnRGhxBc77BtdP50bVK0UCCgNXe-f9omTS4ehXYXg6_982O9LLP8UhIRkOjACNvrjm2XGc4GApNTuujJyZqP8d_Vktr6Kcp6OyBY5KeDz0nMIc_vGYUqdmBu_nVhos-F9aJvIvSA5uMqexJHFfoWoNN7SYld9eAyIcXlUZvYq-8ez_v2wa_3fD",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100094077001269262905\">Loretta Eagles</a>"
+        ],
+        "photo_reference": "AVoNoXQAr-YNolrOOaLTDhatzpZGnbY-RxLFdlAOW2yueOI3TwSVyn7dDxmzStFUNoELjTUZEOtHMHE2zjZYGW_o7BqLNqYBEUJplq8deh8af7vDVC1jpw_Zq_7bRwfcQ4MvDVwHoxObLfBwe8mKFOa42UbWOxqkNayVTSSu6gnSPZrSmZF17z9wxOmIIApPdhG2pbDNEg7AQDbauiKepW7GndBcFVSDXS2HUUx0P4EOmoY5VMZRa22LhSSxXnREAdGSLt916RGqW7eSa2nnGWTLhldqRB_y1qrvauVm2fLbACghXX5ZcZEJXL1xS5NLW5TvG89R9KbeyvQnezfJbIHdMAnDdTdG7ajnGPBf1MmTTSKnXV9YnZ5q4OzAURqWBA_b9Yraw3fH7nlR8iCFw-0XuFaih-C3snbyeEf0-mcHkHV-kA",
+        "width": 2252
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100094077001269262905\">Loretta Eagles</a>"
+        ],
+        "photo_reference": "AVoNoXS8YIltjqGymPf78N3c0zyUfFBSDbC3y3Qr96e4j2sOgXaJ-b1lkLOwoV___t-dzWaPKcyT0XKBm_ATGh8SMLe1_ZIS-L5OwD4RTTW5RK0Mb3pZTjMDAEDJlj1Wr65lmD0Ees2lJ8plN3lXgdpV9unoyuXe6gQsOmTJm-Lr6k0Fuq02bK1WMvzZTHJ_2Q1PiI8XUl9yZ4b729r-1ZsF9cQn8PraX-3rAwEkBJaEZHPIId5HwQDJhhp8uJW6IRj2lrp1ryTpgzEhHzNpoP20J3Z7eAskCTzAbSS9VOd-grTZZYo5lBbORxP6SK5c4dHSEj88K4Iica4ovEK4dVeBCpBARtCAQrx8dHVCu0QGE5t_DTnxsuiGOR1LiKl3GmobJUKG1zrZ4Eiva6APjJ4hCZTt5W4-7yGrJpa9Unscm48dZQ",
+        "width": 2252
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112177691591137005093\">Hope Dennie</a>"
+        ],
+        "photo_reference": "AVoNoXQhN2jObpNV84yxZE6NXw761MSpay0QmDfgHFtRngNF9hD8R0SQZAoe3uDL3oJ-BW_6qGgCcnHLzzpsoHb6Fq2XUhSqNQmN69nGZ42dH_UD_h_HkeCKywH9H_bC5eRLJvoeXFAW0RnI1Air3WpwPmMzIhLkV9FigDaiq4ItTYpNCQvE0758Ydo1DDefnZ-gV0hJTJF_brSSr5jEtM77UV3KE2rxgYpUmefsyPQcBPF7hywSdCfveblZNZdhen6XjTEXlmuvB9gBV9TN48chwZoF54xL3G0slhoLMHhMIawN6TdLw2NyoVZc1j3PNwCIBJbvH-rGJ2_zSd81F21XCZVLsKgNR1iAGZpvZF3P1wIBBZoJwLV5KOA4HC6pS-VKDKF9_xpZ5L6eSVc27leKj8cCrDrX2pUcMsPC5ZjNZ8-hpmA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112177691591137005093\">Hope Dennie</a>"
+        ],
+        "photo_reference": "AVoNoXS9GjGlbC_tlcNsuApvqQcYibIyKkGhcli-i0zqCTjaojmbZETwCXjxkO4HCo5stadldWPCt4FuceGBzleZy48qZBcomJzHuWHQQM40p7bXv1vi6PKnLle31qJ3fhQ1CcdmNtFoYl5kmQU4O6xM_P8IbecUyD2Vj_3Ddn2AG5yigTC_527vcFdnMKXfmQ6hD5da0XFIvnYE1h4hsFCfa5rOaD84j0whUu0cWNXV-iapXQDrXO95gWIpnanH5PTRVqnoLsI-ERf5He2CDjTX_d22Q_Q4C8fxg6nzqSCPq-1CHXWuP_sKfPHREUT-S0bNPOIqlxIGJbhMVCi-akDZ4x9Sqe1kYkCCBs7EXQ4eo5rwT2EjnXOotVEpG6XN3KDDxddEhLpX8tO6BZV2F9wXWwrgwN6oQzrnF0H3hpD-PSs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110404254972301661132\">Vanessa Moura</a>"
+        ],
+        "photo_reference": "AVoNoXSyyI6H65rw13mDdXzxj7Xhnn9Q0zIdEvfZ0jwQAnwNnk-abQ5mE8dPaJk3Q6CT2IKIZHGHphb5WJdwyinpGFi2zPEuzdboad_YCXYLkf-GVcrg7l0vIHQ2MZfB5fa7a5qeB7YBjlnTGSF7hUlteYjCRDtn55uw9JfU63zwFWKhvYOdDRzNCKEUc1JaKFQq8BEywc1T5qj_sbZ9gE5zmwkZMOYTWJaMLEVS6UyHyl6XdhvZzvY7o9F49Wn1wjhSvKwgrMen6IMVsPSDtavGlrrEMYOxgrjdevF3ZxzMO1PsiEAIw1FgHucpYcWmPGXq19vIybQPG53Rb54gPGq5rkJ-bfqlW95sXUW7OjUba-AK_tsDrmjXSzVkKiRbn1lqjwuS-LMUDJTgtw8wA5ScSeCwK_tGuCDBq0BA3hjYVaI",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJqd3MyjHXTYYRYLa4d8T4WF0",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6726399566183708256",
+    "vicinity": "900 S Main St #355, Keller",
+    "website": "http://www.sthorganics.com/"
+  }
+}
