@@ -1,0 +1,262 @@
+{
+  "fetched_at": "2026-09-18T12:44:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Natural Me Apothecary",
+  "place_id": "ChIJA5EeEmkxs1IRn3Y7zq03OMk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "707",
+        "short_name": "707",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 42nd Avenue",
+        "short_name": "N 42nd Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Camden",
+        "short_name": "Camden",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Minneapolis",
+        "short_name": "Minneapolis",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Hennepin County",
+        "short_name": "Hennepin County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Minnesota",
+        "short_name": "MN",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "55412",
+        "short_name": "55412",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "707 N 42nd Ave Ste A, Minneapolis, MN 55412, USA",
+    "formatted_phone_number": "(612) 232-5435",
+    "geometry": {
+      "location": {
+        "lat": 45.0313544,
+        "lng": -93.2884806
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.0327871302915,
+          "lng": -93.2871307697085
+        },
+        "southwest": {
+          "lat": 45.03008916970851,
+          "lng": -93.2898287302915
+        }
+      }
+    },
+    "name": "Natural Me Apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXRe2C4MSEyX5Sv0uqNqedSq2QQg5zUHhx-hP2k0Xl0pQnjWxUavvMP19dcgAbtOijWpnKGtI19kBRg66FC_0b4OA1axgmDQYG6AxJZrhCcaIG8aQxWVXA7ANHWfdYTo3nyd4djpjIEPbLgE7soOkbSyo2b3dJsVm7xf9HZ4rKyb0asFDVaF1Q_6UaC_WyQfaph3gE5dULjSXR9e_EAALmIbENZXgshU0WDa3NkfPNZ9qL5UIfEQs-ncD99Os8mKSzgkIo3bqbfaVILJmGJ_OOLV1bikA0JldlogctypqkIH_fR3daRbaLW7eEE2XBycLY2s-39LD-8yImYqay3pinz1uaU3RaPM7xKqOh_MpTXrxWUbu13axOUnNPC5YEXV7xSWoBgCRA2n3PprnA40GPeakg",
+        "width": 4000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115128919885624492387\">Ms Campbell</a>"
+        ],
+        "photo_reference": "AVoNoXQqpn6vl2GUsazxDFrb1xtAqeGoBfgMGMtN_uDbCj5BBYpYwXdDNSKbiCh2gGYLsu4CSWtt_a_JEH6V6UzFCXjYgNeEC-H0rqYGzcL1MOytuksx-fziM1D4gshqYMEPrtNKXEFZnDi1-WMZ5NqHmoSH_dee5Za125Mn4wAJWKdv5BKDcIVK8rTRjNsG0gRGAJwoEwwDWZWD_btkF-dXx4mqprzy51tCTVmcHaGRDni2_2-xCm1EFIhrUd2A_O7-6ax2pKPXxT1ASBvN_W4zQIQFTkZ0TdLBJAkoakrj5Fnhmhw5N1ioS5yAkkTUK9htU2rNuFFbOW8fX5MrQJAM3CTrR08qagH10HskBqc-gprWi3cms_8e-lTYIe_xwMHmJ4pj9D0AtjjFMdg1o1NO9sLJkGfwhzFQY5lTkGZ3rbtDqw",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104533383407768131525\">Tamera Daniels</a>"
+        ],
+        "photo_reference": "AVoNoXSmQVUv5XLdRXxIEtemc7sAa-Xxc5WXVa2llevl2x16-WIfsnTuzYG3fuTou31fQg7qORnna3qTnPWpjvy5lUpRV-nSSiLCsHri1DvEYuvSsvjJIvLvRRbuFTk45Tf_CxVuDHlbB7yEhBszid0DljJZazDIhxfJmDiSWWEhnOYRQ_qRFNzOhH5rxvpuPdEtgCXsjUubQLZPF6dUojXeHksislEcNoVoVE7qIbb-jFiQzl1Hamn-SmxuFYvw5qr7loBLWmdPS49o3k3HhXbuC9_ItjyWDSfvTj38mWnx6Lf2MNZO0qJzojgXlJ18n31KRfJ-lxD9nmZjKIWTNvAzovvYkzSrm12d3qYIFh-WxN51cinOcPvHd35CyR-wPiQPEG0uE8bpyytrOUwAva6gS1BkSK8",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXRt9l3nsu30IrBVE8hWFMBK6CrEB84Td-t-l-H0xBM-ltvGCRL5xWcFv6iCVksBea8QzPp5hXCS2V7PGDe_yUIJ65Yd6i_PFV4gpEMoc89Z43LVU5I6MOZISp4OgLUEE3vTDv0jCJdk55az7RdOzP_zcck-I4IiiRC-fwkyy-_KWYmkuLV2DLdFmf7wUOPi9nzIAPxNYt0aghneKAe5vcX2wxPaxVH7Scm7A-rygBJvTmyR2aXcy_lsoXiwaz3O4d2zEYIleBnbJEDlG6aMuIpVfOiYZaHYVgHlJNzrWHG4jKm2Qp0Nb2664QgxCZnm0BvNLx8Q3p9_gr3PiJcxk5kgZYL0vTM0CkhcB2OmMSfLGDbpXo81sboJqj7hIGWYbLolXCu1fWCuS48f26K4riO07Xyi0yY",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXQXucAsE5mFjfzMd341x-i7RkyCPcqe4spCMlzMQYp0FDESZGzRbhITWgp1wzvHKkWPAhoWLyM2DBQRrD-JPWyBvOoOfS2dKbU-xbQpkb6sKfEIhGDjjVVeNOZMUeqIx2N58K4EMAsgakfkAUg3Ftz7uYDt8Mzyp3OQrIx-b-SIXQA_uJlaxEXZAZcogTNEmCDWHzOblH9PPyjc2mDc8flGN9HeMKeUrKyjCqtpFVifBsKOBwSldZXRCtsyJ_08GGtfxg1BPIStLJcUjdGltxfhyin_0V4npPczJYBqZXuKgsqCU9epzMpdTpCJ-whVOal6TDPIHj4Agr4x4S8yn5CsJO7DwpT6TuOx10laOn-S0_O7krXjI_ltQ3oVRdMm2V9tnBitDOuAwtIoeUTPDYqhgnD6",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXQQ7YER0SkHGtlq921K5ActhzkXUQvzz1iAUdUsW3nInelrwLCBRAgcIBWgxCHzTWFARO3kRm5AggbjovnUngaiOYy1rMAmGRSdHnT3B5a58eYIRtH2I4JJKgOidMUErPJkvwih2o7yZGJLip0OP6B44HZHp3XCZwvYDGqmelUZ6rUPetE6fFLgQwb_0SAMOfMxg3pIozE61gLQQBM2zRAcM8ENOIjxpZktMsQouSTPXHLeJq8T4Y2jjv11gG_e4t7rRPgH2KHFRc2KFZdEn_XwDWbM2eXtYmiVk6x5JCVOhKnovEjqNhQ9E0lXVQszV3SF5Mx20a0l29z6zShue0dyYy5B2FA0sKIGko558iIdhy7RDUn4CpUJNGCHCDLo-gq_gLBwmHYXeSnarRJk-lKCEw",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXTGZjyLSdU3q1apKxTH7_GEOgqq7-OdK4UWmZQr1_xEZKDl9OvOHOxGjReACLBvotuf_NVkvF-xlvLIMfTsn0eW2JKVLyh26jxkkJWSCeh5F0ovTgQSyTbH7WtACBb-ONjIVhSHFKQgOo3YOdy0aA0pO96rLspbfF6bNtiw2HQ-8K0KzQ0dOUqqnMsumHgTEf9vGw-s3yiTPP5Vo2rolef2O6R0yHUz__ZaLV_VZLhc1KFTJAGKmsP5x1lvFbacI7XP_H_hlTyYTdOC3wuVrqPEuMess0ZpUiKDGm1JaIBnFbAql0DbX-i28pELl0HhW1i-vv6KVQqG0qdAb47QlFFSwq50hVdYhuu_xhHRuPppv8solIC1oE--aEJaLreJAdRWQH0tTTapSq6OwdAtLLnj8WyYz3I",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXTH_kxATdQ3tHhg0eC3dFY0AT7xwyE67bqJEVv5jCkbwzLIhv6wJFBoXWi2_k4Z-p5FOcRHhKiz6J6vnnfehiqMxQZufqGm3gEC2ZASGwjwWjzHW_uIqWk7vfmInoChg0dSjO_7_QrRdhS066El7uy9msjnZxSdAdKocGikN3ETZkv3KD2w7sZx4vTtGgwYCZkzQP-4fHJ7ar8NwcoWvjGgJbBSuk7ecGAgr5Ri-MR59iFY3YRZ59ttdKliZAW7JtD4xDBjIweY_GZDU5UDAlVLb6gglPmMT_P6SOG_RLkZ8vSa47xr8JYdO7W4x5-JTooEYThBvW9QXt7mFP9McsN02QTpVZ6r8Tj5OOSodsaM8pShTw_UnqOIKlsStH-RGgQT44AX_m9ZOUIFMhrooJub1zwiY5w",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXTbqe9RpZCZKHFM1k_ALBbEBUCuRSDxekMhpZAGYmyU2e-YCp9qmtAcE3iN7iPGvTMM75zxXV3O9ukuCqgeHFuuXH3lIJ_By1671SX9_4qbMtIFM8_dBSWlqnei99IKemGjEAKRFPXvzWra5MBgZOUkczxb2tzoDDcOjrduZUCRotEDTKfDEM3MFrRjykD1kfGcsNxJjw8CeoRaqLku6B-cXPNN8kHLGGx7Y5lFgH7v2wh9zz4gNNzUCPt2sf3njqH8BaWus9Az3EphR1q6q6e-kLpDnD1BVnTt7rYHM_rzJxakpoCK_yL_y3skPsCld7q5QlziaeL4i6Fq0FtRdZHJsWAfpRukHk9adQ71yii9ZQmTkuJIR_mLrmzlBAjbYMMZzEhonAfTyu3M9-2jRhkFIIxV",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110773918513073316114\">Natural Me Apothecary</a>"
+        ],
+        "photo_reference": "AVoNoXR4E5SFpxgDS0aJof9xafTFPAqmSv43PQId0nP6QjvLbFD4LTryDBTw1dRx644iJA_R_9oNTzXw-hlEzng3Dmoy3VybV1wCVb2mhchttpiVoZmAN6Qi4W1NYQ3C4wMt7kY05j740lkT-IQB0XyGHQhRsfT7GAiaf_jZ_FH3NkhTdLTrqkd7NX7AbmcW-2EKkWiPpPOGDfLJdt2rOEypJLTr_5X78MWLjvBN_UBvBP5ngIG0D4FsFOcuK8DgiMpbAefU2ZJ2uXFudFMxE8Eqrdbh8YBahF8H9wub5wKPUb63ftN0jF9sjdhARhqfq7DDArpJ4ye8OQjIxpxO6M_ud7PL2PsOE4L8qDhkoP06W9XnI5A8ZmoC7EO9RzCn8u0Ne3nk1D4d0FXKGm3QsRUiGKuuJbQ7xVA",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJA5EeEmkxs1IRn3Y7zq03OMk",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14499400219948185247",
+    "vicinity": "707 N 42nd Ave Ste A, Minneapolis",
+    "website": "http://www.naturalmeapothecary.com/"
+  }
+}
