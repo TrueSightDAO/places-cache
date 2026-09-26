@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-09-26T12:41:07Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Natural Apothecary",
+  "place_id": "ChIJIV8Mfl9VwokRUoXSOBW2YI0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "27",
+        "short_name": "27",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Avenue",
+        "short_name": "Washington Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Belleville",
+        "short_name": "Belleville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Essex County",
+        "short_name": "Essex County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New Jersey",
+        "short_name": "NJ",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "07109",
+        "short_name": "07109",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "27 Washington Ave, Belleville, NJ 07109, USA",
+    "formatted_phone_number": "(973) 755-2918",
+    "geometry": {
+      "location": {
+        "lat": 40.7822028,
+        "lng": -74.1545031
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 40.78353118029149,
+          "lng": -74.15297741970849
+        },
+        "southwest": {
+          "lat": 40.78083321970849,
+          "lng": -74.1556753802915
+        }
+      }
+    },
+    "name": "Natural Apothecary",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYI4RApshqpuF4Qiuyu1_x3at-XMa2ern7icw4ZlcsnCyxleMTFiH7U56q0PKBZBHnDTVVzyHQaD6nvWOvrJYXR4TqnyU_Ys9OWdLeuDv0GO1gTCqx6U7HPSKKzaPqs3v3gjdpoVIWwfzOSLKydJniOlG6tWgfAyB2Vvmj2fEew38SfoLIlL387umfkoD1gGQDDy68W3nWYy_8E2Fk1MERFwp3LHiD1_9WvB2o1bxf0AOQQIDzird8tfuQaLwrhWV5Yi3jhNJxBWknNSt-tMDQUPD6S9sm7kySEBu5M-aPAV-vGxEA4z3FnBY83FzkyUpgYCsEEJkinPDbL9QnxHU3k-B4tI921mc4sSX9k6w5wUs-1BiW3FxEJQ-yyC6W0S1gjm3JN0sNhJwGk2-guTKYlqTNoMteF00fQQEsufngEL7fX",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMa0bp09VyTifCXK0DluZj2kyxCEFaeVJ0bElTuI_37D9ZwBNwuyuAHRSHFqfyXfBFclrMhTmKH12EvI60GlXuSZqCpiuC0iKrXqUauHflJm3i3h9cSpzaFJ_so03nfn_AeiWFJfoEjHNP-Utei2g2fq8vqswldq5JGPzL-pt8Bu-eLgFH5-mM0LQIl8oP_Khi3aPXD5SIHO0Inc4JUTE-1806ZLfPY7KbG6fZj590GAT5RGN5RKcNQ80TGbromLs7waWtSgXJn8SCVfyYLHPrxbtgJMBZ_cgVaPyG-OgouiBPPCYRON_wF2dfSk4uMSwfEnTLP7PYba0D3IA-bbc7G1Er8gykEb5v-5UDjsl-md8RkK1Rie_2qBcQjatm4_YzDArz_zEpxhRXL5qV0m8LsPzzR8GMWqsoi_DkUPCcHV7pLw",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYWBRhfRAraJkb7D9O_GRHa5337DTzpNJrSNs4pdMnmwXEJdmAFlVCWeFsXkOefDFPCwKQZn2CqmgsosK1R36StDCN1mIBZyFexPP8XC-xSATJxzX6fD9rUvjuPYh8QDXxShsXsVDfWXVovME956E44Wz3ya3UAGwFjCfi-7daZVGLWIETkBdC7wQ8ZRxNzAeVv9Z0KEJGLvX_KvZDcSwTtzCR0goaNV0VhvxJm_kYRxUH7zHDWjxJRmRRi_e4BMYdEvWEQ4immPWjOfB7Nw_2VvIS6tkPaHne1N4WrI_cnXEGZP-15_M5LXpOTUgOwDFBLf2dJ6rooatuYXTf2AJ4EtUCVmpF9H66TlWXmBUiMIj7kZS5wcinZNrR5EQ111sh634cWS6eI_slR_T_l7_oQb2Xp6LWX9GreCqYr3IRj6g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101655674062317781393\">Aaron Cobb</a>"
+        ],
+        "photo_reference": "Aa-ngMbexWNB2qbHpb6DAG2YDzl-37EQj5mPrqU6Ql3Nr8xRlYJDi_s5XQYFRx7LqnmSZQoEilKlF9WjIfpRTLj2-9LRXmseJek4KbeIy0JCyVwnEp055KkWnmm93Xfc44V9EJiHv5j7IOt0pPm4SnZiETeEzI2EDt70NYckhpwXR0J6utSBctdgVyAJIR5Em4Aix4Iyrs9NX46tDw6-4m3Gy4ZvAsnjVgWJ4SFd9OU9hg7v3Y1vdFTFIC72n5DcGn3l0F78ThHcFJVrousqDQ3F9XIJ8sE97kywAre7v-H8-F4TaYsOniLKzWRl1esjW5VEYyymTSN_iajuZ4Lqui8Po44zOCcLaAO3fsvA84ck56mK-8RHPfTegraeUua5R45JXvfUBtThswzNwn3d7q8IkgICPsGAw9kdWIcWLpBWzx-1ddA8NVA365jjzQGRNUVB",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMaqhDdgDqfIDkEaFlLKmhz7XYTzs44DMO4kDsz1UlT86V8B9CHD1U6hAFtuICikJTXZErnRPYxP8mk8656Wg-afYz-u_tr20BqkJNkCk6uS-Pl6uFULAh_PHhKcpKK4wP2ARMStK3fbTRi4GY_LfJuBLuzXNyCDlE5GJegNYlCFeT70ES4QxuHMSC0n1v1jj3aGdA0nJnyKZpUEolvaPwYhdTTD6XW1OYFYOigLDfy7tlJgOZ2BIqTQWaq4gTi2gY_mO_PsIPSN47PKybwBTqap2rcwhQqTZqyrfq-rTm1eXdD2RO7mQ72lwXKxS_3HKGvtoEf_zFLeEwBmXpKdo0Qvha-oCPG_PyQQgMWZMsHlWPHZ1ANarlCefkeDQoy-JpwW4seYNI9EuagIUb_zh6BX8jAXoCxHQM4AmOltcRdHo6N8",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZ8Z-HhkJY_RtbC5ZdoVIpffAAoYprPgyNwl5KII7WjSyZMjn0HOy0ePlm62S_CRXLUxYonc4AgTz5qFXJt9H7kiZ9fSNvziCNRAGTi1HRU1XYTGd-BxNqOCLx1fQFeG8afeSjZEGmaxNd0dQF4wCA1g0ZLM6ebeAhs_OJfWFX-HCIYs-pJ6oNAYqrzPzUBgQPHIZKgftVQ4-nQVSN_jB38OsPQHUsw-0Yk5_30TCnXFG-fnxSX24Kpp1JRwW1-xeQJDM5vQPejMDHyV9TpY5CkIFq_VeGvupNCALtivZCAtxwRA0rh_-FDGK8AHWlJ_Mb2pKbgaYSKpdgM1OSZohJapRPpwXsbfe5WG42AIeQcAK6VACDxo_HRgy9a4HSDKoTQQa7kB7ySZz6gBW_NWHDHMWHK9tWuYPmeEzaL94Kzgg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106889330702696893337\">Jose Moreno</a>"
+        ],
+        "photo_reference": "Aa-ngMaw-AG6vZ3cfAZFEanNMP5auBEPn7FOgwPyrBCPQqySdzLq0bX4zL2fBlKtRypuF71Tqy01koReFRNUCCEpfzVoZRnRHWof5FuwZN8z7hstVO5oMpjzuC99IImeVx1Pfl8VRUksVT9hzXNAQNzaYOdZqcf0Hmpaauz9Hjj1Go5_AY71JE0VhcFzRzfcmnaGJCwJ4nqvy3iFi6RZ51lBEZbIUjPYfzGmxYhgM2s_z1bS3tc_iqBAgIkIUBz9D8F3OI9SMw8vKoPncukpkWt0eR37helCfYKN8M9sliI-N01F_16qMPu2vQqT_FWvxznQSSvNG4Yrc9D8-c34GZq4Sm3SNeQ7qUtiw5AleNdCYUsaaA9odyQq4FhABxsLO6a5AGyAp1c9qjcz6qXN-M8q0LZYCsWFT6niJDN2fOFk9_KgVw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMaKpnjkPGFR-HySIXcW10N2TrGWtbnOYkBCcyilNhP8NoVaip-7UKtLaZE9bfMwuFPUZjwFmUP3lMMO6pg1mEz_pdjktX8RHzyPtKaY2ReulH_QkEHXJN6koGde2hJZAq3MglrJ52EJU76z2USvy1zpuxjF9QvAtB0SLznB-V5WK1KDhy-y-uHkTNaBJkiLyZmmvranKY6kcsICN0wdzkNePFGXzi26ZKruoI9lmyN1cg8u9P72PJjwNEzxRIQVhhddQaDW_xj7gUYk_eBbRPBZqnFKMeve8zh3QV3-bibgkU6UBcmMiw0MgN-kN637W6lmbtPjz1W8ezNjOJgRiKFxhDmNJRRvYhzCpIF2ysbSAh4Vtxxl0kCbKNk8Ic-tbF4sFwdZAvkEQp4RUtQJR-cXaw3cLv_qYVutOHzlNdo",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMY41dK5Yde-JotTE-1Xz7qyo8zEsmLS8aHUokLUTsbWfrfDg4dFEMksZeNBDd08-YT8A1yBFJ_dbTurMXFbWjfe261d4uHezCIOpoD6dg4l8DX7J9DTui9v6pmt_SwEx2zdWHolVUPyrQ5rmBJPnFTesIq74Os4Q8roosIaljL-bVcWW8aILTu9eZ5N6YPiEycSNWJtxjyhngBUB0mM_Yz_btdTvqjWwA4lOkGcyWV5LoR4dQYE0Y6oAQmz45axRa3VFbcNxegwIVJ7pGoz3p-LuDxUWGsaBFjUiYNRYO-T5o6HQEIL8jyGvDmp7CizlZJ1M_cnrMiAGnVtCcNkOs4oM5DbSdIgc6vRi9GH9Ua_paT9PFurM4ussJfwClMNMODF-l08veoMugnT-yU-I0NzB411gmgMrB4ldln9zj0lZoH7",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111467048920474265440\">Natural Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZuq8soKYJ9s-g6RACZL1tPXlf34sNtHwTbnXaaKLmfysNttUlKBOmLDXja8uNAR-30O3X9oruafE1MqC0wXefMdb1OcCEwSHNP7s5u6Dg86vcqJpmjD-z0tf0tOwaCaESIKCL_CgmlGS-L45i7VGz7UtTWKpZbusumROLCKuVMPNTHMCQ97-uYx8Nw_nkSuU0Wysuzxx_yEtDA07QxWkSqI3ziw8sDFqseG2AXKjH1iJUll2JzzJqRv51VXzA_lxsOzO6--60xrXGplW2MFAVC5B9ZceQAyJiwTEJs17rAvCjSqChOwnJZddZHbcTne8WSIemTH1DBpOzW0vDEtNaYD2zQqmgbG_xXMFhssYt9ZHUNEu3IYEOQng7rA8Bf2VaIrODznS21KqEFwxEY-1Yo78Tn4YystQpX76Y5yLXiMRv5",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJIV8Mfl9VwokRUoXSOBW2YI0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10187342559375951186",
+    "vicinity": "27 Washington Ave, Belleville",
+    "website": "https://natural-apothecary.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+  }
+}
