@@ -1,0 +1,265 @@
+{
+  "fetched_at": "2026-09-26T12:41:03Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Nature's Apothecary",
+  "place_id": "ChIJD2OyapRoYogRig6copTSV88",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7441",
+        "short_name": "7441",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Highway 72 West",
+        "short_name": "Hwy 72 W",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Madison",
+        "short_name": "Madison",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Madison County",
+        "short_name": "Madison County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alabama",
+        "short_name": "AL",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "35758",
+        "short_name": "35758",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7441 Hwy 72 W, Madison, AL 35758, USA",
+    "formatted_phone_number": "(256) 722-9198",
+    "geometry": {
+      "location": {
+        "lat": 34.7560246,
+        "lng": -86.7263538
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.7574629802915,
+          "lng": -86.7249970697085
+        },
+        "southwest": {
+          "lat": 34.7547650197085,
+          "lng": -86.72769503029151
+        }
+      }
+    },
+    "name": "Nature's Apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108621073587461239032\">Nature&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMbCzqNsqRIZHQH-L8xSFvtHVLQ2Brge32aSt1g2hllNnoePiDOHmNQj_Slms3AF4t1AkQUeX1Qdivm3DNYaHeo8D6NSuP1cuazsEX8R3GmYFeeaRtDd9LRLeYlOc7ICbnI1DtOoiStayuUkL3BXsq2CxnvrG7xScYwdSdNPmiqgDqWfCSf7H4FxxjXoAlsEuSLy4f_8raO1YXhzngurVUkQNQqNT79FG9euYLc3Kl1p9q4jKa21gH8CtUmpN7B2clawFZ19WC2LPtBK1p6eNkblV6IdVKJIpj5BSytR0rd34qxWcHHuhxCAILl_JULVjGhTuVqGjfsqDLkeewNmFi5cE7mW8lhkaMQxxwjg3xBGq3XqtgA-ZAY9kG6xuHZCt8WWxJBzRsdgxxIDmWsg_VX9nJg6oz8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108621073587461239032\">Nature&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYNmugUg0z1vkc8sNTzi-Qavl1VsULQwj9T17mJsXPWmHpA1Ty3SXOauDyTWOFBczfNQlWg08_JtR5140daTeg2sKbi7prCCQSnHXkLrcclS6VMtrCwT12BD2HHGlUSn-vjTeLbmWDlLbNeUx7ht8azesgXn5PdDM5NVWyxPh08c6ikExvioqNPJ1YOeNtUyhHSV8wxrgAtsAn4HlzPhLhlBGLfulpZ1Mm-cBqdpqfPgbZmnum3lR27YiQmKHyI3eCMNIhI81d98fNUTj0Xf1vWvA8vLHOXmOtXrxAOT3HMcK5HpzvGrCMGesRtZ6UXKoaBE-jn7EY1TUNgRNFwWqAZA5pnpo3Z2zYP_xQH_UfeQA67vEY7LFpm7AIukTBYH1-Nu26wtru4-c9cnOmNvAR-tZELBEs",
+        "width": 4032
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118049846345720408349\">Catalina Baby</a>"
+        ],
+        "photo_reference": "Aa-ngMaCunU0pB4kXtpJ29m7RXlL34w5Fr63RBZGfmKjBUp4eQiM1iv9ffzObPioW0eG2-ThpN-rR_3LRPkvRXlbnaFun6ASjbZ7SBNdC_tcJVu11gIObEul9bnfmo0_7VwE6t43MRWUoxGVXeD8zTwoT7kNl0_WrDmdWWgedIPNvPIca2iFoyaN_q7iQsOeSekJMLP1GEH33bADRe6_W4bS6ZgXW0KerSnZEFbaeX759qzZUNk2KKY4Cpdw_drVt8iXckz-GIlyXf646Wu2wmY8m1KZLa0MUh62Q6O1qruorI-9Y8WQ1bWJuiT9_Tntum84ZtADUs6MOLiTzAIlyLH086XfVPg9IDzam8l2H6UgUDugSvRCNzOyJvfwQzH-7OPOuTs8Ibu74nPpgQVksOlO8dWEDBYcLbM",
+        "width": 1080
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118049846345720408349\">Catalina Baby</a>"
+        ],
+        "photo_reference": "Aa-ngMaYTUn9O4lTyiLU3bwhBDa0EjmW8zVWWMbZXQcQuFYLOdPcYJ15V_sje08490SyCur1DNU6xZx0PW0ECOeXV_dOPzvswrbmhRxYM69zioaERmUXvnHFZ4C0feMTsCkw6R-wtYMmPlNY0-sLYTutgwviI7GtP6qnds4akqvT5IAvxq7zrO1ttPjO8FWjaXWItSFuQE-hkRrH5EfMKh_YbWUWgmPBpGOSyqjMKTRi8MabEzZ-2091ZpmA5CoZQDm5GwjdiWW7M9QGe5EPARQZlhsKFO_4LXH67P-IbyK0BHISBPpLXgsNqZnmLIVTuWtg9cVkhuMgRYsSGoJCsjadN9RbFpFxP4lgb8i-IvGQ-pIMcLZgCjjliNAfKQV79ygeyi6H27lJVNvewm3zQQIoAs0N3spX",
+        "width": 3120
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106492680418247256631\">Julianna Edwards Carter</a>"
+        ],
+        "photo_reference": "Aa-ngMYv3Lpn6JVPEEWILKP0F9uo7LaCZdXIlBSjyayjiwkJaZ2g-xkTW_kL4ZwyR5jrv4Nb-pl_fEHnUdHlJbXk3bwH5UGMtA2LpTjUe1W37BH5N8PYyMMLdvNYi_90pXudYojbbbEs_Mb9rAu9p0u-q9T0fuNqFmXQCsE1BUdxURfrq0volb8vgCp7_uaX-96RSbvjws8440lphwFHJlsydVt4vggIU0n9ntkjdbC5ZMq2veNvXc6u9LTTOz2LHdh2x98JbPpo2iOUSguUSBmhii6d7RGyhMiSJ2diSrwSn1QQK2qnP0CQHjAxVQgj8DA42RxU3UFTv8Acr4CDrJyF437U4yIOgspAiHJ2mTNqfMsXg4XueasZvUMKYiHoRx00OWxl9GFIJg6RTtT_eojVFdwiJJIZ7ZI",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108621073587461239032\">Nature&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYJ9jmFQiJuv5qhWCWY1Imc1y0O2V5nerVZ5-utEMSPn537QlNn72g8MG7KQYWILzv8XHdE-ayXu1yl8nZPWA3MOtp0Li9dNzhMw9RyrUhUIOKprFOI-6vzumteBrkqK2nr7Z3P5Uhkp90Imq_9q5XBfD_CxX0Xb94bLT2rhIJgSMVz3HtbDzgXDbrLjxYJJhoII34ouVm5c41S1jScfAMZ1fftpFZD2zwzePIhHkaUCHMPd8qmCvZJ_tgT8LKfjbS73Wz9S9sBhvwM6herhF_SK4Eydyg7r-T9PE_7PVD5HpAn4IrVWVzvGFSYz0en8Gq4AuE-cY4LFfdW9FKyr13OTHT7LMBynU_H9cCButN2TQOAAHhHW2LhrtbEmxh0Zy5Ukc-LFfWGKgmDxiEnblav0g",
+        "width": 4032
+      },
+      {
+        "height": 648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108621073587461239032\">Nature&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZrtAgBProqdTWirGQsBXLArKWabfse2gg5JzqzjGL7aWkhNAQAJt3hdpqL4CdPTAyN7MZ6FKzCWjmZGqAtYtObRnlc9v8JdUIxsVlgmkJPeHwDiashcgtJGa8kvnv6VlTm3unM6wqVyMOJ0zo9JVlcZrShxSo3UB6zbE7a6b4CtLG93CFoZwgQFmS7YaHXpRHchWgkUqwpZenMNkXCV5DZ8JpdmClnmvEaSmEr_BpiqkJdAz9o67YynxDb9pl0Yg2y-B-Utb981J7LcXhO6xn4buMgIddZuvM7Teehsujmx3ktvHWKfYw3Xqfh-BsQrEfaMpwRz3gxLXQ1r-JbdVR8Jh1viqhuZZzImx8XP7bGtnzNGTa2HOpYqC2x-Qb1-MLG-k8f625qvV1KyCaMMW4D0To",
+        "width": 648
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115737563162602705697\">April Zook</a>"
+        ],
+        "photo_reference": "Aa-ngMbaOV1xmzxs0FTKM4X2Rccai3yxVIr9KNepB4oXwgBHszjrgUwcd8TP6jRVRYKEMGFRUMF_zRk3DG7k_nCywv7U1GCq8zHIqrthr53A44eA5DUWH2JC3i9zrqP8hVgYn9BtyyEwCr5_y4jtThS1XOOwH5tBiwqywH2Vo84ZyKECKl_eUH_iA1BSmfSxzLkqTbUmHG59FZbf9-o9RE-Kjj3pR3G6vT7ps-8zp_rRXhHcjx5413yaqzB-x39sOUo1WqLjX9w908o_chouXqawfxjp6b0bawH1Ax5rJ03WbzrRo1frvFSweT6m-neRfy_VgonM1d6zvT9UWdwCJmQo_c4GOY44PyRD1sdkByvELSVnpxFTz9cuJ9-joqF4mrXM6kEgBNSZL2iZXhgd0LKKXz1W0A",
+        "width": 4032
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118049846345720408349\">Catalina Baby</a>"
+        ],
+        "photo_reference": "Aa-ngMYkY9zbG594w0-OYOM6znxrQ7bB5gPztW7oQBa7DJIhuVnyjE_nUfD2eSTIO0OfmnlXnE747UCXEkvFuHjOA8cNKSZ7JZFNJUWEU5iPAsGljWqBLkWWt6biWQQB8BQDz9qV75CdqbmWnZNpzC2sJp_24R5zxCJWcPQGQlFZ1CXJEaMpBUFtodMnSl_8dADXENqQdTsW8hOtYD2JPRt9h3wIKrYI5_0atWhz7O4A5MZ7qMwHDjCBZpgTeJ5-n-W57zdNUeClVLE-FFQII1w0yyoikLwqN2kT2v7BHkqfJLniIIV47w1XUnAm2Q0jvxhSM3FQZuJ3YplQNod4s2Pc4RAdoxbFpfHsCGYkokcphoWCgIKMQcnxm2aBuL6jFyNzrPu_-Pk9_04Ncn2xVv7q5Fuk2hnTZ0A",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118049846345720408349\">Catalina Baby</a>"
+        ],
+        "photo_reference": "Aa-ngMYaat1BKPOl9AFl-gNQ_7vkX11fEKDW24LAJu5JfLpPceW0C3XmYEsfaFfIBt8eBLhUhtwszw5cx7u1FsqBnuSTs_9y7fAIIvpq1fQc_6VPxkG3eEqSHxC3zFI8zn2ZXSBWIBrSfeSEp_rqQ4ry-3I0bGODMf_36PthL-Oya8JRpgu-AXmgfgnbfkBmD2glsP4_Pj05Sj85z4lgAGXw5II-LYGjrqDoqeaiXeXsH4Du364fjBVwarzE5tkVPdAZCXHAKa5IBolT2bHkLWLfiC3QmcOEe2AwJcOv58JOV-CNBYO65X_Wz4kXtTKuxKSot4BHosDnQgvB9YGSzsNgIW6ZctV6NXKbr1JEXg7E3KZ1jtZXweHNgh3PM6vfZmry9amZaNqc4Ea-Z1EEaXpVxvg0mSU",
+        "width": 3120
+      }
+    ],
+    "place_id": "ChIJD2OyapRoYogRig6copTSV88",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14940641824650038922",
+    "vicinity": "7441 Hwy 72 W, Madison",
+    "website": "http://naturesapothecary.net/"
+  }
+}
