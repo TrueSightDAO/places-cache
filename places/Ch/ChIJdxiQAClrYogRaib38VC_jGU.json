@@ -1,0 +1,265 @@
+{
+  "fetched_at": "2026-09-26T12:41:05Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Nature's Apothecary",
+  "place_id": "ChIJdxiQAClrYogRaib38VC_jGU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3215",
+        "short_name": "3215",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Memorial Parkway Northwest",
+        "short_name": "Memorial Pkwy NW",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Huntsville",
+        "short_name": "Huntsville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Madison County",
+        "short_name": "Madison County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alabama",
+        "short_name": "AL",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "35810",
+        "short_name": "35810",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3215 Memorial Pkwy NW, Huntsville, AL 35810, USA",
+    "formatted_phone_number": "(256) 533-2050",
+    "geometry": {
+      "location": {
+        "lat": 34.7677437,
+        "lng": -86.5877603
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.7691029302915,
+          "lng": -86.5863189697085
+        },
+        "southwest": {
+          "lat": 34.7664049697085,
+          "lng": -86.5890169302915
+        }
+      }
+    },
+    "name": "Nature's Apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105975190825785630885\">Nature&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYIiFqb43f9sJiVDQO14K0GqyEjrCiT6EgOadUarizRdLz2erDMzDg2kS530PztNsrEbbMigPw4Aa3g3uKs7CCziFDfsEVf5s3c8FGQMcy4e8Kp2UnGaNI-4Pinxi5DJWVQHrSugaJmZ9JYsfMjC8t_3JOevcBcGR2XeH97eT6bBi-6JvDg02lZz0mCYryA9OawdMIcLyGg1ryx_9BYVZ8MnfZG24LEWgKwbzWn1ENMMiseaKkNpDPklMZmdMJsRcZ22RsJMr3ryfR-oWsILjpI-Y6mFX-8EfDRtQzfj2LhXFKEEfq7k5ZmOI8l45Rdph9EHaHoFPxnVWRnYUKlZGeyGPVgKxMmeWAdBHNhXxAsM9JMPQ797mvA6A8x54AuXv9Ovalz9YCU2YfuMCS8iZJE3f7QKmdj_PbHiSxNxlD3GA",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMZuzChXXPmpoHjM8RtFVLjdNuO7YYAJwgz3LMoaqrxEi1-yLz5y6hEncBJB1D1gIO1LdKi-ifk1u57eleA0W8gHBXXa2mSdx4ANNd1C9W621dEVD6kdiokPg1UhOmYYgCi-UO4VPQQE1SWfljsM7cTT5GRwy6wdN0TBTmmbbLLz0zKMYc5caI6LwvRupXMAVHx7fXNk_iFS2CwiR0eBDfKWU7Kw6jEmFQGkT13aODrFEOs941Ff_6IRq4Qw5AffEWvsRiWluFcQyjPQOTtZlZifNdibXq2SrbzBv6gDEywkWxYsd1Bf5a0Un3ZdswTBuTJ3FWU6MWO9lc3nSxTjKq0Zcq9ALfv7o6rWTgzVkT3xOEGWEJ2IRIpCZdk8d489vOVrhoBoXxQ8reZn9V1ZFOxlXv7bSDs3CYXFT6J_jTF001QL",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMZQO_ZhFrnyYq6Qr9HjFYc-mR1neN6wGqeiG6P15hIjpMTSJwkJJ0a925YSTBXbql0Vjz8XYQZ3fYdG-FZDudciqbdnyvDOYV1uMHEAISUIR0ZaJ6KW2YjeIHNpooEqckFDqckRQXhoC87oPl3PNNKHVEY-7iB3R2hX1p9wHWCyJxielUQGIKO99a8xRWgX0_QFWA1ccH2AvklrpghfTFkbRTnz_bViwlShA9SI-_0B8MwV-m6n1pnYtGfND4F9rGqb4YPke9irUAXaonhKBnn4YnQRk_P9NrOFNlHm0TQDlhh_RmNrhk1WFPnw9rtFu8MTZCLdY9DTr7MHVENWQFWPEVO_cspDbSxeuWF7advJbCyA3pJXWZRciqQWZozXqtLERkX_D_DrYf-YJhUIrNRbzOdQ1rMJnCyM-_EvCofWTA",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMat5bPdiJ7iss6hL8UsEa-nNpWW7iewbeESGuoUcyQT_RATpMlZvfl1HjlvXj8kGzE1FgD20xTHyr6X1x_5xHaPjKu6aN77b0fFgwopnvVJTqakGi-y04JKrxAV2MV_1jVHNamzq2FwM7-CiR4J7XAzEr1IgwbNYMuIuqpHUOh7IISUupu4UEX39kp_hwPR4Bk9_t5uSxtmuwvdkE4T6Mle3G5CJ1TRcVXdwGR-81GjTqOUgjzi8ms9mTmrLQVdBKjvs36Upp8ncKYQMHlNH2jObuKD57FHCf8sXYsEvcZPJKVFOJaFTmjl41jV-pwCtfnbXNIPTc4u7chOSnKIIrdvcYCgxLJ2K-ItoK4bszz8CegEK3fO3iOySlLCWg6iWwCK4MBAOg7bKI8XaKzqxutJ3RWYZ6IhUcez1MTepw",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMaLtGc6gdWAHOXgWiEEqxFsyHRqVPVtYVZ0JxNHfUBddoVBJOkymehZkZDUOzqP_YkkT-fgO9zIq_-yN5LDOhL4XHnHOJhY8jiu-CFcX1uTZCULB9DeXJy5vDKO7QBKyFhYvvRk3dmbm0ZYV1BwsmgbqQAOIupX-dQkwAyPihxRlTyS4xzGb-Xq5iKb62veb07PiNtuj0uv0mKBashk0T_93BCoafjkFsS_SZXjjKqPCGHsNNT9XSBN5Uk3KPOHPbF7DgOexE3_twG1uXHhPj9QcU3XcskirFmmUdGpCdJIJVjEnKo2__8MkoBFkTuzYGFymO2BtViT4PeD_bm3E8h0FWYQtpzS3l2mIMdcZ8Hioopc7HDbVww3bBo87nxjzDNJp0YuAyqDNfwfCbfMabvZzljtTkUJmNoOPke97E3TrSyZ",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMaaRjn8lCRApeA20Ndm9vdcWafamW1Vqol1MWw2Zp1ntAcXyzSeDlanAUucMq_EfyGlJmtXb6M6R7IiBYLFo308qI5ScR8ZC_ypCX_LgkFh7uEihYOyfnykvRUitx2cTmkgQ8wZoUgfEEoUwfa_PRM2pPQmU9dunRDIEhlnhoV1HKBaL0bCnp28Yfva_5czZw2wtFxR1e0XApbFn14gTQuQ3ZQNEPmxlcaF5B-1wyiXXaIhpCf-BI00wV_LuPyT60oqCyVL1pyYPkt5fZzy8EZtdQBs-R5g-2YZCBO7I9n7dFbAHb0BZzik26wdml6Q7u2y2hqhU8g6Id5YM5PhbnADill8-B_t0vT1jWolg2QDz2He_MHsPNc8gAQZ9nqB5IE6uGHr8P3kkYOFtegGvkhn_mshB51Gvn9xG-Q-KiE",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMY1JE_-ayb_JX7BATnuC541ekmGTuyfRWmYr-2xl26ytpW0rk3xsX1s1VMH0_zeFFPljNRPi_khp3vSfld-Vw4gMtMb2G4Ayu5ELl-f2snA-9zHC63jevhw6UfE2LD2xqMyEeO5UxSniTjtd5n08E4xRp1N3adWF1TjwbHscpzrqValrvcmHWhnZlpCqBq8P6fyCBtICRqhXpYTt3Rd-9blFGSJupVuieX7UOu41cGOgQUUiaRacsYx-s8nZSbjir0745VHpp5PoIvvWdCZEIKA6AHZwoIwF42baJaWo5ndMJx4ARdjRDYoO3CDzjC-n0A5AZ0GBsXy5hW7mwowzC8Pdaf4Ewlc6gwDVesxsVFqKnnIvABuGJVfe4a4dLMxLfLX0z63Nhh4f08C7LpmCU3ZQF1CVHhE3SsVjQCP6Yk",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMZN2xwMud7ev5_STUlnB_aW8qncocFL7e2ru3Yi9I596JDUC7Liivuas0MtsIaHsgBavLWP7UXc7E-BMSFW8G2SFt7WpdENCkA-G7i9Yzrvps-3pNSB04BFhKc0zdfnnkrWdw4cYjP6E_ZmmeLsVNkPRZNJHG9ObfiYa6_2ncsGLeze9CGOOZ0g1fj6oNZmq07wkTfD30EwdINU_QBofPKI0JUnAMlzqA_AUn0Mxt0h8M2dLP8lFRwGcAgBPSRkQN0kHXzKqcUg3kU7WuTc4x3PqgBwTxKlJGbj9GpnKmMhJOCOXaMX0p9G_E64oPkuR8KS0QjQvM9VPBSt5mM6dfSLJi2qV8-AelcklJAWW9FzUyuDqaswi8_Rd0uHjhW2nOfBPEsxgsxQDxONy6zlFhbtlHLRHdFbXW0hBHlCJOj4qhxb",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMbvVPMh0xSlgqB-TRSSZepvp6L-gEXeoFi-ZcW77Ml4lcH1BKJU2u0nipFilvPhwg7eQvdAknXOeAXiQvtIqWK-MDUTDWtdoa4uEBgu1D81kU8KnNonXsh9qbcI82RKuZqtHGIc_pAiNK0XD4sts_SgEKFE4qY2gqei1lnA_pqE4fNvYKUT7iD5sIoGOe7QadTcsusRFRt4Z5Y2K8qPZMgrdW7F93xdgNRFVgmIKALqBki6Qx5RgmILSYRYivhh3C7HzofUOaIDt1KxsJyxWpcoHMTB_iyFliiFp4buPCQ72wgskqMaLALgNcsBFRr_BThUWGSXxpILmhUhV7CctgULpHHwgWvz5Xto5JjBqjy6dVZKU3IJaLwGOwzVMvGSmnTdrw4dp8MOTJiQUQzCGK6OHGtD1wW81Dd_maTlWv6Zeg",
+        "width": 4496
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "Aa-ngMY6xcOUbFN0LHU6ZrXaQTslxlGcnHNs_fAiHlVKw6OSfYkix6P-YGbKjYiM0mf2UO38972cSx5gZKXkx6cU7tIhyGyRuG2RED8t968zupnvb8EIoTo0A2x7yIQOxFZEJzSiFEnLk0F4yzpPDd10v2I17pmw32OOwgcoHbxgJz1LBW6IBSqUsXj1F0-5_LtPOb2XTJxQjjWeQycizs45eo0b_ByeB88LUp0aVe-wgi23dxEkm3Z365mjxnFhOe8ceYU1PKXAqlQtC8NsBUU3kOrHlFQXQI7ztXHIoB8gnTBfIbTDxkbWm2Tq8z4UXfxHlvMkixvbYEEktmEVnLj1bV-3meMiRRPEs4bTeQSsTlu0sNFfFyJ4jZxDmpWoK0qjTXn8Db8r6Lcwo9h9T4KLxagr1k3ZV0axDbl4m1r1i3KqPa8",
+        "width": 4496
+      }
+    ],
+    "place_id": "ChIJdxiQAClrYogRaib38VC_jGU",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7317433848948008554",
+    "vicinity": "3215 Memorial Pkwy NW, Huntsville",
+    "website": "http://naturesapothecary.net/"
+  }
+}
