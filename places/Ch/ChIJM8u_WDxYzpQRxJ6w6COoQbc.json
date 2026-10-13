@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-10-13T15:36:57Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Natural Flor - Manipula\u00e7\u00e3o e Homeopatia",
+  "place_id": "ChIJM8u_WDxYzpQRxJ6w6COoQbc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1089",
+        "short_name": "1089",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Doutor Albuquerque Lins",
+        "short_name": "R. Dr. Albuquerque Lins",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Higien\u00f3polis",
+        "short_name": "Higien\u00f3polis",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01230-001",
+        "short_name": "01230-001",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Dr. Albuquerque Lins, 1089 - Higien\u00f3polis, S\u00e3o Paulo - SP, 01230-001, Brazil",
+    "formatted_phone_number": "(11) 94061-1853",
+    "geometry": {
+      "location": {
+        "lat": -23.5396245,
+        "lng": -46.6579899
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5382213197085,
+          "lng": -46.6566990197085
+        },
+        "southwest": {
+          "lat": -23.5409192802915,
+          "lng": -46.6593969802915
+        }
+      }
+    },
+    "name": "Natural Flor - Manipula\u00e7\u00e3o e Homeopatia",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1300"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMYTQ-06liBvNSU35kfMuh3oXdUlIp6vJX2HaehVMe1OKZGnLcBDUPV8Fh3LDlarpLO0JV2eUupmpuOYCnCqfxScF1prRMqkelOJYiU8B20EAaAJLLtxOc2FcOYCanWQE2JXtKDDBxERs8SCTp2w0IUtTMoCeEGHro7DGjrbL9PFtm9YfqV7yy4aPT4QDvTB-Pvx4-i9YanS-ebhID8duipU74GhzfE-5B-8kMb4cidUE0pTAmvOxG3GeiN525H8SJe8xowkBuw-C8I3cYl8yg7-gWru-giH03tOAgEbne7vUxbbyfCKFxNTYJXVh0qvKHqCkV5i4Gv3wMRoUE31rZLc7h9n6Qv74UyCqMVSelB7zSxUgiC_NTEivYzIicK2e_6gaI39Z1B8qaSHUvBET3m3KA",
+        "width": 4800
+      },
+      {
+        "height": 1199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMYIiSNePjDuLUedzcKBBHQeH2aSTRB_BevQe_qcmoC60jqROAn6oWwb0klqmQP2C2cDxGiHUsDKXQxbr5DCfqXtsf02FUJWYmzhev0QUdgSoqH3yYUt5BdzShKuho2yzx8niGiWhlUa4x0PFs48hTKhyOn1_NjFw5eN31ux51kUUP2cARXvj7M1Qm_qqyCerEj88DOkkryOxZre9exdesCkuy9edCIxPa0TWCEdOMYDCpLP2BWbCT7PfbPvMczT22SPJ-CBxsuIR6qPU26IvL0c9NfBQA8IFzFsfhCaFLxOXu8pRXxGgYFKjkqg0Mz2AXgqdZ3E7cdNMOgysEc1kBmaBrtEv50eg0Zlz4oRA3GQs_eMWZJ-cftRgV6ddtNqEYsRtG-o7uORjGypF12anum9mj0",
+        "width": 1800
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102848047708337496121\">Lucila Komolibus</a>"
+        ],
+        "photo_reference": "Aa-ngMYoBbARqlQ1l5XEoy1ILnjb_dVVYwwFvtAUSR02xuFcIXeCbinXbVSXs8LZsMM46la4kCZbrUWTdG9abhp9mz4uhPjzFWojsqPpisAYTrKhiglN3-luYuzXMbAH-tJeg7SNJsZZzVW2TAzRe404apcU1kibsOXZvTT_qDhfSbOn_dsJMaKahjmVfHT3HpHX2lO9fNS93cT9nmRVXMLKUJY4Ddx1YX6fkFSX8SzCuojbsBQTpBLnWOSpeqaCA1P55aqb8XS2eHrqO9aST_SPuRKPaBZDJNtyF0M9u-29OytugPTS4tfFC9AOxkLjNCVdEdO7rIJGZoBfBIqSq92UldEV0xXIJuoytDZseW6JWjwhzDdPLp79AXCvRNiADhFoZMTiw2KjsIUvXY2djPTImalosQ",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMbswZcArpjMUYA80_jJW4ushOQFWpGduJnG7tEeRJFBxz9jOlFTn7hzW_L9Sa1_MsKrD8Sf-FFBvly8NOttT3PEO3T0g733-4v0md7CCPJv3eZenCEr2ta3Qc1dCtBmz87P9DUnTkLgLtjjoi03MFnFpMhHK28usmfqCNDVBFwI6B1XvqxE4IsDTH36zryxZFy0NOSjY7hZhnRa3lEhBTLgdh9dYjFTe7GKbUtuO6hybwUEUJPmMFQ7CiI9NMheleh_ajC4C1i6Yw1-4GZzMg-iPlBpkM2IuChbMZAhvFMMHcKlrONmePsJ2epU3C3aC6o048tecr0c9N_xopCH4awbLAuHlb0Cqcu7x3cKpQ3shzMXFa-eGFgWU99sVOuEPgA4jRFuSh7sv_HT1xiTKFlboMxgn94",
+        "width": 1200
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMYY2uV82Qnhf2uSRernug4_UlDnMmxT89kaG_NKlIFEoCflv78PFhTufwwS-3l_OB4olvbmxfusz254k_UJVHslxOxXOUlaIKFHtur1GLZQckRNrAsa3yTuw2MqWoJK2is9B8Ge4uoIroPaeF3chjGsqbI-Eemrt-ArFnbVkeTI3ZisjK1CPDNlfk-SrMGcTjXY-jzKFJCwg31IqOcMuKyeJqduOa-TAtSm8QOPs5n-ZCSjt6pmfidZJbDJMxlSzqLJGbcWuYVs_qQ0mRI5GXMFyXgxJ791zQZkqscmO_8dR72MVOM9zhlPSZxtPQKzemGcH6YLuSMB0GndmuH8a59y1hiDo46oqryu0hvhgTQ6KvXeJGvoWUV8_2QRo6tQPOcpREokWzNr30Z6MKfOhLEdN4M",
+        "width": 1200
+      },
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109015876189496948606\">Mariana Araujo</a>"
+        ],
+        "photo_reference": "Aa-ngMYWYKDR9kr2b9jNaAWZjFQsbK0MzE1wsXq89yM0gzCuHTunCO5DahO40mHCCJ0jbf7oZUK1kVQJm2SjIC8g3p41-NB8NU6wpcmeXAlt__XwrcrBUB5cWZDevk6-43fKJ-mLcWNqQ9eijgGm2lSY4lTc9PRrKgXpKsoBY2VFr5h4L2EcU0tQ5k80EgtL3gmaGjhY7MMcBAQsnBe7Chgkt8BKiDZBV2O2JM5ChTzpj5EEcTvgcnQR8-hI8kBw9sDAwEUSNHO4PKFwRU7ws2i5FaPaeKdxjlp8oRG7PkxhENbUlW-IS3OKixY_RspSicX8uTit1-XFm90CxuU_VF1Sa88s8gPY93_jE4-JmmRoFVpmNNq5yJcEOL4GYkIUhcJWYiw3mN4Txy8KbwiEy0f7I5pFNa8",
+        "width": 4128
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103697105546654257509\">\u00c9rika Farias</a>"
+        ],
+        "photo_reference": "Aa-ngMbpNj88AhSDwBNp5Mv2jbPvIyaowXjp2Xf2pTMNW-nsQ2MQhyEjCq62MeHiIWYznUh_frBN0iM09kvSiwp-MZ1cSJLGq7Dn3udEez8ue12tW-wh7z8FoXlVrUW5XnqHo6tBxJ5QmJLPTTrDZpPR5gG8QEnU9prguXvCoHDnWjqdm0mxey7hGLcLIlOGJ9GFP7LVb1beiC-6q1sADVkmYMm91ZWELzNXvSBh8gl9h7ucjCAGuTnWb5ics2BJYtS1jdyldlo7U76lbVztOZ2nhLnZb_ZXqPhZzywM1sQjOFPt3VxLEZIaSAC-48gDu1S5Oh4nFpxvCy6B051Lhai3wAN2UNSzlFyD-_U5QjMlIfBTGbEeGMUdOv3YYwbuyV1Z27IGqCtxczfb4zbtG16PK-XnGA",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103697105546654257509\">\u00c9rika Farias</a>"
+        ],
+        "photo_reference": "Aa-ngMYeEiQd_pgk7J_Fs1PfyjyK0WAVQerZ8_1H2BF69hKDS0O_pW6x_JuCOtlRqjoHRgTLgDruMSw7zRZOq2CQS4qK6Jw7sHIIHzSwAL0EB_QI50ZRaQ0cb_SjVg9Whzl1eQCc4TRgkAGsxzQrmySCVNJwQIBPwAhmts91v6ymjuGrm83M-Fp4BkEipT1iHdiLeg1bkvFc3PsvwaGy_mDUUirXFimDEvPoO5KfHC_immsVy91jjC7TGGBy4gyFljZWLp3hQ2oImTnLuhhSHpRSbBwk08gp52vLKciHee4sAgaqMtLiI3cRRrpC2gabXjp4j8sm80K38ApGhvyMdiTZG0vFHIS2MoJ_foRevmQEPg7BP8YNe5bcp2N9RhS_xpO3HVLRh6-GsIetoCsTMukQC-RQ5B4ofRU",
+        "width": 3000
+      },
+      {
+        "height": 4469,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMYSx7x7vmqJGdA7BHrLpe14Q2EcWJOR5YmkfO0e0OqdJ6CdtEH4HnI3VOF-LPwVGl_XYaKVPNZNc7oi-Ht50o6EoF-Pj6bLTLcHXRP53Au6kC3XRAHDrZLPbp5yJ5vIfl-BWlQZOfcghAt9rgHzzmujyvNPwnlRCB7S5Pvio-3Z0kfQyNPbuXrNnH3TxdFVAOYfHUf_W6Fbmu4Bkfj3rYXPMtzYUlpE3y7d2AZsElDFeQpf8PsFHoUnl2a38u04IZR1YYzmDTBhJ8M9q9tP6GvL9R6GgatkCfqCFCExSEqDOpCzF5rk0VfGE6s1q9vEWaNlpupastZ1FR4WdkL0Erhq2jNvIZRahw64Csv4e1wN3cRCNuCUE40EhY9Zz2RLVkVg87qP8z9OpvfPwEXSgEtwGA",
+        "width": 3579
+      },
+      {
+        "height": 733,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110012094744229749678\">Natural Flor - Manipula\u00e7\u00e3o e Homeopatia</a>"
+        ],
+        "photo_reference": "Aa-ngMb3V6VutYNMaMzxS5CzYR5Z8BHFhdf90qcrOSl417EwTqMsnISGFUQWghSkDwRXNX-o0rva1d9mn65wz5RDyTgbSQMGvkX_9G3OTz6Apx0qHYU7gvjm7prWENDUZ6Gi8Yoirfmk9CVZBnY5ZCdg_X4StXjjckCxcY90cMfWim-dn33pvOQPhKYwMiCz3wBBaI7N6ToljHLg_J6U5umBE7f6GJxX4Z5YqrVu7O0Hs38X6BdUM8a7j_f7u6O4WPeFkMVmlOwV518Yf8Q6hvv1lp7VV7pkBPQEq7G9Zbbl5Gkr5w9OiaSuPMnSmHtbnua-D-eNf_rA-WOq39s6Sk7TRC3P5Q0tGbEcIy2UW4vQmav0iOO5UjJLMpJeQc0wuFVgqYbSNHnep6JmNl3dVMbDMzsXubg",
+        "width": 2016
+      }
+    ],
+    "place_id": "ChIJM8u_WDxYzpQRxJ6w6COoQbc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13205020454608215748",
+    "vicinity": "R. Dr. Albuquerque Lins, 1089 - Higien\u00f3polis, S\u00e3o Paulo",
+    "website": "https://naturalflorhomeopatia.com.br/"
+  }
+}
