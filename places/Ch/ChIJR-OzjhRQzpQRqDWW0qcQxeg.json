@@ -1,0 +1,266 @@
+{
+  "fetched_at": "2026-10-13T15:36:42Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Emp\u00f3rio Vita Naturale",
+  "place_id": "ChIJR-OzjhRQzpQRqDWW0qcQxeg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "179",
+        "short_name": "179",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Jos\u00e9 Neves",
+        "short_name": "R. Jos\u00e9 Neves",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vila Sao Paulo",
+        "short_name": "Vila Sao Paulo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04650-140",
+        "short_name": "04650-140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Jos\u00e9 Neves, 179 - Vila Sao Paulo, S\u00e3o Paulo - SP, 04650-140, Brazil",
+    "formatted_phone_number": "(11) 2548-1240",
+    "geometry": {
+      "location": {
+        "lat": -23.6596516,
+        "lng": -46.6778716
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.6583765697085,
+          "lng": -46.6764905197085
+        },
+        "southwest": {
+          "lat": -23.6610745302915,
+          "lng": -46.67918848029149
+        }
+      }
+    },
+    "name": "Emp\u00f3rio Vita Naturale",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMa07LE9eD-srSh-9teFkptcgm0nYfW7sLy5tc6MN_lWOSuaeMqGc_P4_k_h6Y6Qp6eIP1q9dsXlGf6Huc0ETDUwLFQxJIi4Q1XjNCRg68dWopaJChW44EJfX9v2sWK23GrxyQxWzR86WCYAyjRqWpmAUxRuK7Ja2ZBQm5WH8WOwGPDSlD0BmNZVA70xapaxLsUAodf9fsvY8hk061L7xTsb-31IfQebPBheELIOvFKl7kxPiD2l_bzDZ6CMIxnBAZLo2r1fwRr8Xt0ybj15bSC51_GJ_Yz8sxUTY4LvLdwprdD_LkGYyHK9xC9Mh_pSIiPe422lqC_VuyyKvhhhOOBd4LX-DvO41m9p-fQa60n_f-JTGuCaqALXjGQHz3Ti-5nAmMQER0a120D6pXfM8Utg-sU",
+        "width": 3472
+      },
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMa4foRwnC4rxFN3sZyRrfwbdQWQ6tGYxvLph3ofcx3xVT39HMvaEU7G5acAZBGLbZWURZB5bKA2BRHSvh_rUmF1RA97KRhTyjyYqx3eBL376Jz8fEXnALQUMsdyJOfXNX72cuJhMc-rgx8Y5QCGOjuFzy3XEWMqY1k0anyXiB1dn7UfWpxkQ4XvyfAH9IzdJVNGcHaWGE2Tj9c1CHe-_fpDByrfWtUlCgfAxGJ9_tAVgbm-aLgta_woZrxigMqRM9_npFW4-NZjYvaVo1rcC_UZnNEEj6OhxFBiKqsjghJLkFkXME41kCruU6g8TsIbimEDPi3lNWY4jz_21xj4HWVTBod3bwbvGgpZqJok9pmOsVuAKOFge7GEaZ2PfWR-SzaHYYOP2f_vXloJm1Cdr_GaIuMq",
+        "width": 4624
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMYt09uPNApYKdxdLIAghxEpRjarJ89QfH8aeVEJ2lKckY9CjwKXzcfxOTiUt5Gr-i4JVJZ-JHBgYlN3SoEa-014fz3VyG-EHldJyNhgvQI_Phq_opJZCMilJx8EJRLN5kSq39VfebheW0hs52HF2Tn0rMvCRk71M9dYE8myTB6geRfMefhoZob31tdLM6WxHRxoWtMEpR1VL7qS07z1fwbrr0FRGSYnddpYZ7xBAwBrvv9WlACgbCBMJEauJBjvO0IX7FAeAnJ5C7lDkw-Sc9CobW1J8h-A5vSxHvSDEZZUBxfVDLNv1H0HF2aokA-kNcfIvkSNLsPjpvQE11uukHp2LijsCE9te7W_vD5R3iQPeaArkzgI6PhsTawCqGdWt9EHBibapuVyg3_NAOl_T-NAobx9SiM",
+        "width": 1080
+      },
+      {
+        "height": 2739,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMY9qylhDmetFI9FG5LFLRN24XG2d16pjgJPfrYa0JO9damX7NmasHjS6vS_Zh-E9P92KYo4ougp57f-VH0JmBR-JxkFEVIii95YoMwItKGvDlaGXhfx0SfmRqji32KFGOJK7jO0Xpj2RU0fRCp2j0uLalawB6x0zXwQOQgh7KvZQZZ1kTsGkfjW7ELkUI_lypvbtpMwEEV_aOodwqwkcbKLqi4p-JiFmz2qx4N70-3qiWcYPeFeX_evO8FhhA_C1UeBbDFpmqmNMSQlFb4CVEKS8v-WTQue6LsZ1wJc3FdTWMasukB0ejvyQAuqTHe2IZrcOaRciYfrJOozDLfU-o4bTyMik4Xhyd5d1_4H9_u6tYnZykvGtaH0S4kK4k5a-W-lSnDFTQerOnu9gM6Q8bSLULjlTwQ",
+        "width": 4215
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMaASHzD9kcqGzawKzKLWYt5xPMlrMDIF8F4dVzQnAD-Uomv2nEl0OO8dCtyuOJYEJrtafoZw5qL2Yt3F1lhb4DhZwUxlqPHpScbSvvMLZS3PmVZpF11MgkE3nhQMPb7vzpyAXbAshMIamC-lhmcu3usjGx7GdF5rrqKOQTExZfI0pp54QF8g8FeMCpjd6fcy8VzhKbKojJ4QRkI_-p0EW5ba0w3f4fytPUxoB5-2IOYt669NAVGVloOxCn5od1KGp-Nk2hYxHZr30v1bKOgvYYAlU35CyoDQgYmiSKKfBPW-JqZsYnZEqm11So-jTsIsyfs3bhDFqPMzPk3ShTGiyb5wa8BfTEv1tGYtszp36ESPxdEabYEfNqj4ACRFlvPkQCtIlbLz7b9CB3jB8km5LNzHWQssj6b32ZSIV8MUrk6WQ",
+        "width": 3472
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMatACHv7bhjiu-jjBTehL6FnFiHrYp5vYL-BZ8L0G2iFqx90FIdJZ1Y4ogWUKNjwNsKhRPkD7GXkOY3QQfasadxcBHrwwVUQMCm8_BfWJv2bCRLIXIpxb9RoUZT_0T5xuKBKsNyVRc8qQenFH6ifdQLQMmqlb2zPIBZ1L3gkE8LWICxftfgPC4-U8eOCrpckcAP0fbFomwWg0QyKQIuiNjOtAKGd4IYVMHyjc6lk0uZ-sN9kCEZ6QKvGGz334YoTvz2aW4EayA8LgqNQauhgT9_6xMCVoVVuWZPLH_EvYVXDFP2QP9T5-y7Y8S-bqVNi0RAizELjbnvv_NETBYSpiXfwD5Stmq00WKLzGXgFdh7aFAoO1OXLzOAPQq4Y3neFIiA3n__U_aGSXFKORqkODSjNDqbX_Q",
+        "width": 3472
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112382440275123844954\">ab midia</a>"
+        ],
+        "photo_reference": "Aa-ngMbPNtDb0Gc-MA5IzWyzrjG5x74l1F_xivSPTqZMavyMGOysjslY2uPVOSvchDyOMO8Vonb6y_oT0lPoObKKwPvzQcHtUN1Yk9VdrNFyHFbneP9lWiDyVs4z3pJN8lO3e2DLS_hQImAv1o9tXKNPXeURIrlMOf580zg0OxWBOwWJziQPnIQwc62WlAjAdHm4pXLBx8ZOFislGIG5T0nWqTWJM4GWdes2viSWI6xRBgI3VFJA0e1-PK_BwUXYSwXM0V1Nd_0DlsRw6fKLGgj0fKFo2JSUHviKVetWI9_qsORMcDhBRubmL_XY2hPMq1BTASPPu5b6-BJs4cA1y8PIZVz0hAETTa2JExo-enSYLF20F2HEMZMxud7gOozLSD6XhzGW_z1Cw6AK-A-5grkIZbNH7uY",
+        "width": 3024
+      },
+      {
+        "height": 3921,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMbq5f4EEp-bvN17FGppnI_HkxPiMdHFABDpayA7d0-2CKi1dKqWvOUDmBKRnIvntclkx0lERmgsxztC7OdG8TTzZ2FQYvdKqNCOv7rSEmfRzCxCtFMLhhCCharvE7XPmqyKLihGkJ8N-kZbafmEiPRqsWMGZ41YSJYu9w85I4xdKs-OVjL4pxUfZewNyiLNjJnUmHpKtUkTUSWtjzfRQJTa3BbWCljOGRWOhITIYnQQmCdWdX63xm6KRu5dKIJdg4dNMkHvrsZbDQlYBbZX07g-PUgRqGdnyXhn0B2sSk9MHV7e4gKZwYTY9LO-SvfeXMJhdP6JNjwEeG_WZ45j4v3-LfF_llITp1iHbZr_OCZ9E0C6KXX0ZwZwiaMPP-GvbFPVfuw2-TUvYIi_ah_NDKzkG0TkJ9uZZLvyIw_febw5Rw",
+        "width": 3472
+      },
+      {
+        "height": 2765,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111611346753355629667\">Emp\u00f3rio Vita Naturale</a>"
+        ],
+        "photo_reference": "Aa-ngMaXkpS8DKoQj4umexlQl9e5OpwVNIm-bHOqO-h61y1TsYJ8Z9dY8BYCo5yJGaLwi1qlytzUcQtUPa2bp2Am1wF96L-gYXFHMHfXEYFHjq95LydlrtlNo-jG7O9EhnNdDlHqBMA-6GVeyezeN40Eris2B31cYuVAluQJRG9plUStGB_jVQRSu7HAhn_FU1Wakb3JlEtbEq97J1S80IQtcTlT2QN_7-IC_PMdCrxtCmzJHPluTxXmNal1n_L_hLOaxzLC41dhcGK8_r4tA__TCKA1nGX0U5wj3T3Cv7FAiv7KPthunOuOEYAccvqNiAv8w2nhIyMUf0nsVjAToEOXjsRYwirb3w9J3dnJCfV2AxBsWM5bNskY9RVrUFs7bJnnRgBqDvMEe24vCcahuoWnTFh9FUo",
+        "width": 3327
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112382440275123844954\">ab midia</a>"
+        ],
+        "photo_reference": "Aa-ngMYHRvG-ZHJ6b_lY01uJViA6Qnxc90gDReW09RamHn8OP4REf52Fr_i5DRb0083ddZqnkGlvb0-bjQsKJAnEywPWjcCEJTzFiZIZxI2tchSs8LreTq8qEPns_hdHeE8A2eJFddNMVQ3QRX6R7wfueeFMi0_x-AlXr-MGioYAU-9JsrKKdsnMsJf3WM6FQaePaSBUxRQo3fO8nimykx_-Z9hq7yYSQmS7LCTLKgTcMXe7_UmqhTZCp5enzFWeFp7mthtcpwGTypwiOI8uOkDvGfR-4XBASUutPIcackMJ-Sk8JMzEUU0rO3MfK7VYmB6LqlgjN6e7ZFqSrjiAtq5wA5l1uKiUko-gdUoLjrJ2JoBW6bvk6BpmuPxemKX-SAnDx48gzGx8pWP-ooIyLuZMkngmgfw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJR-OzjhRQzpQRqDWW0qcQxeg",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16772830700189922728",
+    "vicinity": "R. Jos\u00e9 Neves, 179 - Vila Sao Paulo, S\u00e3o Paulo",
+    "website": "http://www.emporiovitanaturale.com.br/"
+  }
+}
