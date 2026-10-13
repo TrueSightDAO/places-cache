@@ -1,0 +1,266 @@
+{
+  "fetched_at": "2026-10-13T15:36:34Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mundo Natural Produtos Naturais",
+  "place_id": "ChIJ2_kpAVJZzpQRCEFDWAagkM8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "285",
+        "short_name": "285",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Quintino Bocai\u00fava",
+        "short_name": "R. Quintino Bocai\u00fava",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "S\u00e9",
+        "short_name": "S\u00e9",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01004-010",
+        "short_name": "01004-010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Quintino Bocai\u00fava, 285 - S\u00e9, S\u00e3o Paulo - SP, 01004-010, Brazil",
+    "formatted_phone_number": "(11) 96573-5916",
+    "geometry": {
+      "location": {
+        "lat": -23.551156,
+        "lng": -46.635357
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5498006197085,
+          "lng": -46.6340604697085
+        },
+        "southwest": {
+          "lat": -23.5524985802915,
+          "lng": -46.6367584302915
+        }
+      }
+    },
+    "name": "Mundo Natural Produtos Naturais",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 8:30\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMYUwbCLlg3KFtTMcjwAdWQ2KPKvzz8r7IApnL85zfvm3zLoOzFcR77HM1uu-Bk201ujzybUeCjkNB_Ki6u8TcYZsrPuAk6PpwObRAl_N10NDfvCIomNN7o11lKdPGiLSMTlGGpNbALi7ahmIuaalqoOrsuVzTVZAI8y00iteSLjIDsP36ThtI0n_9GsT5CXsHihQMFDdb3PwMdx2hIMIZxJYu7YSXk4Atg6-jY-_rbIZIpH1-RUK46FwYCcJppZz1QOirLF2jPJCpGt0HStkwNdfC-_D09VgkX1aW3E4oBR441tGUBwXHwdMuPd1PVt5cHiFGMZGwG-405O0EZ60KbpSxoHlmPI_ydGYlRIHUjohYRZ1Hc6DIhLFCAnKpHPHIxaEeHHmlMzSn40ElZrTrOS_SJsmXI",
+        "width": 3000
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMYoUN9DPbIQcom2hkXHe1L3iuSPxygRHJAlICiMXLIg7-S4z4kvS9Fy99cgPpQjBFzSInvgjZwRnhSww763RAxNRDWFfp9vKGuf_NjzZqEC4hSa25-UycM4YpFcP7xJNa3Y2ncNaP-Bywgi_US4WdaRew8R-mrA1eBFWIllorZFHpbOQYUdW9xIVMzlGxGLyl8dleY1iXdjnlf4OdqaOcpj3J5L1RQRRqec3AtdNVbk4s0zhVMk7AxRpImz0r89IzSLk84P3fisbPGWtZF0Mzpg_os6JZ7YnNM8vPBxxzKzjK8An064NJIUCZnL3O5OqgrPtFDAZJjTOYfCfy4J_Y6SUFKF60i2swGpGrmIuBx6pEsQ3crGYOKKTMGNtO6ZfTOm0QVOTdCoC0Bnz894ht0H6G8",
+        "width": 3472
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116244675130696158451\">Dr. Fernando Furlani</a>"
+        ],
+        "photo_reference": "Aa-ngMacXJBi11dV-3uX0K6XTmORH8uGiFoXt_xpyRWhVa1LYLsHOD5PpF3b4jKuYm4kkAeCEF_Q9ulWYbpBVi1wUJhOLGNASbbKSHmjXswk_osbC_Y-7oaFYijaWI0h4aEKney4wxEMa9cT4ZqmMUw2SL-7GconV8iSHsWrpLffzk4dF7wDPM4WkULaOxnP1QoKf6Keq0bXuHrtkKfI9foKRscFV50cciwr4ce1AjMjGtT1nSIm-fD-pQJ0xfLPPTsrL0Danl-OhmucbCuWuB9T6o558MPJWSZK-2rU0RqB91T_oB2Q4ulC2oF3EVScE-FuwEkDKeGauc3W8YDpsach7DnhpV-42wTa4YShADE0nwoU6PHx2fHP-bN9GXQkoRcqIXK9bs2H8d_wzqahUfdK3lAcqQ",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMZrFq8fzeQ94hntRYjPbDHVxHywmzFovUaR-LNIx7RWXtXTCThCCUcOCX9XgcRc4O2WeFDN6N5qSMxbAf8FnKf_n8ckUx6GI7QSyMESwEzegscgjUqhbwSkkjZkkVjRiGVZUz7z3_XxTZfenLsZSjHSHgC2SnjWMjz0AfIbBtRbn6qqLAJ9RF325psfkPmhZP_TgsPGPZBgPJUQkcrslFWIUXMqdTrgRe-mSvjIKYNAmDpGkqT4JE7ly3eCeMm67hgQkFSWjqhlQz_LII2cfNcmhdLWa3w5WoCkxIQbMTzcu0iuV1hX5OmATA0kDLvgVlHfOPHBBZDrgZ42vTICu7fSEKkcNdlXNElLIc1prF1ZjfjQdHf3RkVACNU6abKm9UURQ0cmHt8IEKggW8dyuO0eBA",
+        "width": 3000
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMYaYumzru6CFiTK82fEpL2-C6tc4RuCibEgmi4AdMK9WedC02jJAx1p7SHRMReShrVmJ688OcZjrH5FQfufAEpDlYeFC1RWsh1WnHtZHUFLMdxelj3DfG7kxeebCHASuPemAR4YqTk09thKBjsj80lQX5qUBj04nbUUSoY3DezrnyEbb0mrzx5y8a4Hx_ik25tYYgHcUo605vV2hIPXqFddOgBeoHJ0pC8RQd5FqkG2i6nJafvU3goS8S4YZKpDA1jhjaKrLkR2F_-5d21CkALvjWpmaE5dOWpBsfowMEmVSz2NgNwJ7DoEjFx25gqf1_G2KVnSnucgvZorW7kLAlkYUpwb3gR3KC-5aexhVyVplml2LCON9Z3TgZchhdZF4rgnOp8LBj9MRUXr_jgDpOUyqAU",
+        "width": 3472
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116244675130696158451\">Dr. Fernando Furlani</a>"
+        ],
+        "photo_reference": "Aa-ngMYItkRLJB8e2bUgUxrmbbmJrU3fTmGvmnV-P7lAlHcQbkmVG-Z49hQqNN9kNa3IJZR93rfpKi8Bj8ekrBgwrQO7p5Ea4R8ItWuL3aCBBZdflZYOfIgTwYFpJco-1IBF0Bcg-jfkr6CcDcUdaVXppakUJfMO6rK8sgHxbbnHMlvxMJBejeMRT7SjsgYSegMT85-NpoM1WTW0Abv6xOvF1dmKkAjlNeEt2LDSVRIw_U-sSHmDXaTTtsuA3oFn8ZzFAXhMnnHaKmtRkWqX7CbxN-V_nGNXWfqIbOp6-aKJWeF9bUb5yj7bgg1A86nZkRKENiCNyIlKDGna0OZW-mwxufFrqDJsRqAM1rnLVZ-g_DjpjdFBUvCDqVfqM-2GFl-xrnULA446YQ8lsDYyI1xEwZaLFWyyGLo",
+        "width": 4032
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMZLWkxtO2KFoLNEoVSi8Vn0xG8jLuKVP9pTBavdv7MZgoNRkMglDb2IZe6p9SssjkecsSOY2qpsCGeppfy6OQh3HltgjAFrrnpA8p5wt6pKu5x_8YyY1f_uQwLHluCQFvN8dWNBnQF6V3-yo_HWwjfLVqhUkp0iEUuZAmHgO51ULdk5gq7wHm3KcLoTxpPnmWEgFoBNgiLwDNqfaCsvrHly58kRdu8xuZUazQlox6PeNijnhKSUI3bd49aywd21-T2aN7hW2PZ54jpyALUTMDFomFjuhVBixtmo7u1mLvLbqes8DS1srmv299Anjps1zvajJXr5Q-jdyuEDs-HaDSCY5wBM8cWKqFAX4lheXMtuSX4g0Jtn5a3AEDyq0O3Mio5tcBAgngs7HrS5jlujhtFBIePbG7s",
+        "width": 3472
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMbXV6pntEsvWeKFS9lrlwGf0As73gDmKVCjC43aw48miQxLtdW7xcd79NlnwjJU04P5wOgpTzzbStScMg1wEvplmoqVfrJAZaFpBmQVSPEcyXM8iQX_ny1OcF9wgE_Ja5sslV1vpXmN_8IMdShJTsiQTnS3TiZHvVuDxx5ka-GIzmAfh4cQ_yvszgtCWo1q-9fTTX_0ziPReNiuC-cKT2ETjRMG6r_cUh7b7Ez3efFZEVZagE7tFX6Blr5UWwPSzHKpUgOjv8Yez44DDCBC8KzVsNMhks_tbquNPygvFZl7Yz1NT13XGFSjiGy6jpnKxMxlLPLLj3RFXi_f-ndx6cTYMTkjmdWi6Wuc5VOzT5UlZ3HKGSPgqHon3QBUPLGZbg4UPzTGZrw8CcU1n0BsIg",
+        "width": 3472
+      },
+      {
+        "height": 2282,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMYYxLksJr76CL2JB02em4x_M-MN6jTWFuCcYO766NUADoKopRlX8A9Z1O1m1JkiyuHtrVL7M5_MCkBPog6jnh7YJ-PzkC_DRViiwJLum5PQ5Ec2012MBpgHZzCrP4kyRo-JcInkgyoJkEYu5ZNIVz_GAk8gzUajWMWLurtRFL42yFt1Irqkyc4vWQ7DXIuHxAWoMToT6Hw4GYcfNTvyB0-FBLc5p6bUrS6lQ3ji_gMuICUIvnaU1q-5X3SJ5Xhtna998bSwHG7NQXckySpklsC9EZ8oKTo6z5GUxejhCNC3QEI8Zh-RAMTofxTL1ILrH1RgZ9Etbjr0rNib6maEYymKfp2Ge6o_OzKM3P5j-C7Ck-CfsDudRXWTAB9JoQxPDhqBlzDmzrgxDdspPx0KAMtdcDY",
+        "width": 1960
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113706161752734206071\">Mundo Natural Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMY3K8ExR8FFZt5rS4nto38v_GkBvwUeye-T-EPDa_ojEdnGZ2PZRsRIhE8yXIFUCd2vuhNNe9HFuqfzTzHamn1fqdBUwSSzv2utSSjz2GehIquSWdeKdNF6NhARyrpOLg-A-lvrxUKBvUBHrk0JcFYfoMHFBs_tZVKoAOBq3OyBdMheDN09yHl6xf7AXuPnsTrshGWHgSedAfqt0IIx6qVmdF_7tFlzd9War9us-riX9oxPfHpDU37zUDlIUC7bS44jwLdkTaTNUghxbzaR2iGqmvb4ArTCcevh4uTQoJlUD6nwJVGF1gvWIxqid7wJA2kLSjhd4MNBU-MtMk3R0DYNJjWx98EV4aHb_pkvPc8HxF2sXmaMYQCrM3eyyPUwW3tl5WISZld52HRRdh08aIjRiL8",
+        "width": 1800
+      }
+    ],
+    "place_id": "ChIJ2_kpAVJZzpQRCEFDWAagkM8",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14956630311608467720",
+    "vicinity": "R. Quintino Bocai\u00fava, 285 - S\u00e9, S\u00e3o Paulo",
+    "website": "https://www.mundonaturalsp.com.br/"
+  }
+}
