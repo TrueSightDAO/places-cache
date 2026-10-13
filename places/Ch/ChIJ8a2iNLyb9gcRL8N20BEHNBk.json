@@ -1,0 +1,241 @@
+{
+  "fetched_at": "2026-10-13T15:37:10Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida",
+  "place_id": "ChIJ8a2iNLyb9gcRL8N20BEHNBk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Loja 02 / Quadra 221",
+        "short_name": "Lj 02 / Quadra 221",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "221",
+        "short_name": "221",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Guajajaras",
+        "short_name": "Av. Guajajaras",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Jardim S\u00e3o Cristov\u00e3o",
+        "short_name": "Jardim S\u00e3o Cristov\u00e3o",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Lu\u00eds",
+        "short_name": "S\u00e3o Lu\u00eds",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Maranh\u00e3o",
+        "short_name": "MA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "65055-285",
+        "short_name": "65055-285",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Guajajaras, 221 - Lj 02 / Quadra 221 - Jardim S\u00e3o Cristov\u00e3o, S\u00e3o Lu\u00eds - MA, 65055-285, Brazil",
+    "geometry": {
+      "location": {
+        "lat": -2.5694745,
+        "lng": -44.23275049999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -2.568073269708498,
+          "lng": -44.23146976970849
+        },
+        "southwest": {
+          "lat": -2.570771230291502,
+          "lng": -44.23416773029149
+        }
+      }
+    },
+    "name": "Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u200912:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMbl2h-_plgMACZbgwqtt6WL7oRoBUmPCTZDeGs1YN8UPdf2bfG1R2Tq5_p4AarQR9hBnGbVrRN5EN5M_oxnVGpekwxVCnVtwVi_2l5FmUTm5-F1866eF9Z_Q7bZvKBmfD9TT8WEzuLPym281tjBoZh3Os8NWakT6rdQDlbK1igECLL1DqEqMTOAnSsxh2bg9IdMjTZ7_sf3roCNvTBw4l6cnOIxiiFVQ_5aHie8Qbb99TXxcrPUTIi-qC13rQO4iN76h4aKoIPbcJmKnKXBM4fqs_CfyCrCBMJBQMMv4WZ-3qV88qnNb20D36wn_jttm0S_aLxpZv1SkE-j3VebikzuCAmJvdPQBlNxCrF0d70YmSvGZ8wdAngsRzMhMHiRXpUj3WgcMl2mZq2icvGEJnnDHrX9pnJVKqXt-3kkTGX_",
+        "width": 1536
+      },
+      {
+        "height": 441,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMbTHP59K8tU05VtV-Q3UXxiwLQ12eDZJsNwrKb9gyhVL3OMmANnTGnrEf1mABOsF2VDxOTULAmKC4OJtoeDOGr4C_8TpYxHLldNRFVRFRa048k3fPz_rj242egJ_wpna-t7o2tsfN-6KH-W_pQx5FhMPAu37MvcMzYIu9DRPfUXMkYG8OLzO9-MkVXMUTqIKLp2vyP0zFf0JyakPqoD4sgjPesM3pm2QzP2ppq11WPkQrt--L1iz0DZUSQHkQVDVmuAhKSghsFXCTtRB1OT92xAYLXHmQG21MvnnxuUQYYSjeFDN671bcm9LSBsAQK7ENzxg7Mj4PFy2aSdnwIYlFb3NZEOgRQ_S_cRE0tXoKAiFjzfc9fJTCvoHy8XkhRklcgXDkPEAW9_YGiuoYXEcCBxn_KM6PkaiKZxUzrRac6U1w",
+        "width": 582
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMY_TUvOc3ibFCWyF6AFED3Mq7P8AubxCAXt5UzSONqtPsA2Qqhg4SIIZxh0fiunAVkefqUG8JE0mfWqiBIwoLwi7MeVkBPKT2iHSW-niCw0hMVpnOkH5LWtyjFk6Zz2VWoTLiLvBX6hgxc9lRJCyUuu7Wg-3QHqcMVT3CyszjRoD87JHBTy-lfsm-Q1pn0maEdyiyj7AdC2tHpD9cK--UgqPC_YiHsjS-HXiEp0QhZGVMX2jO1oIae_nsqgqX5mIZR5bkxBn5g653mfQ_Gs_k9cYogqvea0AHXDLTwhY_5J9V_IvGN-6XwHCKcGZc5vYzxtufXS-TQES3yal0i5EYqUWsaqRjwmdhUbZtrGW0CgcAtbn450qq7yiXnJz54K2c4mQi1pAlYYVMx5xQ5sof_m3Y2l_Rh318M0rQzzXH-Flg",
+        "width": 1024
+      },
+      {
+        "height": 581,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMa5G4qYm3sLoZavrSmXAu2Lbrp4EuhEMNKXgRAVsTHd_umb7taA3I4svhb_joc7z8cSOz9ng2ip1wojjQbfwrcN0qn_4LeG7syPdkxr7etF4JhmjoKrOGdB6JumuhtLkDwrnTQC6XWnE0q48GPf0X9ssHxnOAF8toXrnwKemxnpERvsY8PUYOPDNcikqEkeHJ_mhxSBVD9r7MkyeA31J6ve1FS-0knDXHqM641rHf1bv6lAHPZR2VvFPMAL2_vatYKtSGbyVqcVXPCqrRibL07nvw-y2rZIrzX6zKQNPufUO-TdtN-dE28NeUPe2oQSeEDd9B3nnVYkhxmJLV6mJ5vNspSwhckmGRmnd-pPlUSjGcDHvm4lz06QURZxkhThCsPqOA7HUttDaZk3kOrbh76CDCyhU1f4HEsVtUNAWo4Cgw",
+        "width": 819
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMb4jDI0RPAT4SrzB2zXXzSu6cuxM9cysCDWmOEU_bZWTgIEEXam7LeKgk5dj2slP7wf3BMvq8wAaVwuJwD8hTnUo1QkyTFlEK8zz8qtAzDM9niHaD7GsGz77vKA_uNbBZq0eYYVsKB7zQNQnSDpGLnO5NLS_cyLopimLm0BlPe1_3wjM2hZ-3zOIsEG1bFymQhNSGb84Vn86Ss5mg-Iomqoryws0rvjjh0pj-vuRoL-GL41NOxaRtI5UyQWNCQIUiF1k38l8tuSO_Qi2pUtMgedn0V5kz-U7dVJztaEf8IXXJ7W2VqTiuBkZuofBZu6VwNjwuiXhD35J1dYz11IRRj1A8pSit3PgY1tm9JZTRlTeYyz8k-URO4CTr28-FzQpU_2B4-uXVEE5qbrdJwRfGakYsVN2VbmfPcyXYBhsWe1",
+        "width": 1024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110995484714504223448\">Produtos Naturais - Emp\u00f3rio, Sa\u00fade e Vida</a>"
+        ],
+        "photo_reference": "Aa-ngMZWz2VeWMqeG86MR01giaL6Iwg2RW5FLCXy_k4WxdjNF5oaW3fDrHA91iofX39_K0danbZ91e1HruNHoeY5N6_zKLT-F_K8AlrpfEYaOt2NwKXRFg3Dg3-bTpRWoorJRaJu4MkWga29BW_gophpsJGyUKyxIqlWnI0mosJ8NU4M7qFonQPjrtKVH0W_sPEI1qJXsjHIfAMutyWoLD3tAJg_kAylm7EVpEDhZzXDXvJNRc2K2CB6rj6Zmr83cpbC_fvs5rImv9YLuFeW3CRmkLk_MGNGvmhGQ-V8hYcD-jop6x2BwSAI3CM_fReQkeqGFbMvzhRBSavpZThW6tbQ8d0uvexcvTzyv1MwKUohYx9dJpylMWZ0zLn7lgPqomZ6g01Q9Cz5RpllIKKk-_d6MJse2LOnzKZhCrOqD_UQdl-ysQ",
+        "width": 1024
+      }
+    ],
+    "place_id": "ChIJ8a2iNLyb9gcRL8N20BEHNBk",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1816084322830435119",
+    "vicinity": "Av. Guajajaras, 221 - Lj 02 / Quadra 221 - Jardim S\u00e3o Cristov\u00e3o, S\u00e3o Lu\u00eds",
+    "website": "https://snazzy-torte-f59a4c.netlify.app/"
+  }
+}
