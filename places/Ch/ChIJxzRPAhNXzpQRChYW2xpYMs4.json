@@ -1,0 +1,268 @@
+{
+  "fetched_at": "2026-10-13T15:36:21Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ojas - Emp\u00f3rio de Ayurveda",
+  "place_id": "ChIJxzRPAhNXzpQRChYW2xpYMs4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "54",
+        "short_name": "54",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Patizal",
+        "short_name": "R. Patizal",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vila Madalena",
+        "short_name": "Vila Madalena",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "05433-040",
+        "short_name": "05433-040",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Patizal, 54 - Vila Madalena, S\u00e3o Paulo - SP, 05433-040, Brazil",
+    "formatted_phone_number": "(11) 94993-2000",
+    "geometry": {
+      "location": {
+        "lat": -23.5552633,
+        "lng": -46.6885564
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5539725697085,
+          "lng": -46.6871660697085
+        },
+        "southwest": {
+          "lat": -23.55667053029151,
+          "lng": -46.6898640302915
+        }
+      }
+    },
+    "name": "Ojas - Emp\u00f3rio de Ayurveda",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMaFDoroMsZnyDPzu9TLAKlXnqbiZkCwo09vmc5CHf8fwt_kVvBAk7T4QZSoNizOjDh57oMNoRLPLNkbhJUWTuKLoPCncKF-U7E1voKuh06JcI4BFpoFxuWAd5KySVaKTcawRVN_7ig7UJXfU08zMgD9-xw0yZ0ngIp4Z_kGx_YDvpL_FH23cCWJumGQrKMrmdiluKXR03IUcpU9PNMOjsXrhL4IGRksxyLXLJwbH8LRW3LbJbiYSZpdZr2e2iVTt8Jj-e412Nh3um4UXDxKxNRGU0S6kEBZOuckE9tSdRxicDhSflzKdvwKyglWe4vQESZzALk1Y6cN_yMCV4S9r_pFAxNkJjy4kIqg4XHt7yPOXNvbki1k1Tsg7H6ItR4_DdLs8oqi4lnNnc54HzlqNM_docQdnBmwPp1_1mm1AXz34Q",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMZO4LW6AZHM8SuvJAJ_bHoayIk0iamxv8jXwHPiVJr6tfK4LQ_5BwGHNw8dSFgYdpVUk7mqcaswCjFnoSqkGq7VIA5HD2kyh0nFdvF04kjhLeTpIgE8Inen9z0b2WYsGZmByZbDdY5YNdMbNnj9Ersqa1afud4rJZZ4pbZ_QpRuL68OFyWL_NB_CcXECcpGPLRumCT7lVZZb9QZbHfnAi-im7Vz3UAGmlglgmeJvudHEfbx0cOcFdzqMTywcHY24XnYS-GBIwaX8QcLrkZc_I_SJEuEYH2EzFdPyoovEla3xqHOLmTdhlrCnOmQrUwPdEXiBGmQPOf5LF7bHtRj0Z6VkbQNfn-67hn3FCSTqttBTrZuOY5Y07skqOgMfmJlhzchZMktTIsuMlyorhfTrfwLuw50qPxcoc8kvRDsut2GPw",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMZSumhe7nzv_t9oBfjrqQwXl6k_4TOHVD0nI86DLICfSem_JBqUQhHcVVtn0nE20j2WzWMarVqGmwdQ5-sk5huSv3RsFwtO9y3wfoAQ96IiCuUDKv2d4abM7Vx5gONckONeSuBUAe71oLrc7LxNlcfVNkj5OLBWGHuDcd2N7sZCif3N97PMcb7QwyldFdPN79DM60oUMmx0wyXRtkXVbxkILyMdf3zRucKQsB5gfzU8AFmvJJQdtWbv5iR0mgnT-Zj4Jm2v4O6v4ngyyChDag6Jmj24ebkOjTk4dh0QNVU3rEEIhECf1ZgV-OEoT-L_TcxRHDZz5s_dW6CyaeyufsVoyfG55a5GgAA4bsCY89KgGaOA4JFy9qGHa4jeUJ9MMJDDQpf3DKqoMK9S4Br7k-Ub8gfF18EW3KI0jA1Wt4Xi",
+        "width": 4800
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMYFDVSdKI2xwbIBHcuWcz3pu__zaqvxa1n0eDdUiXTqBKkdekWwBF_bPpAaY45LvDMCCjIoNIde9G2Cpj86FZzblDPktUh8uXhg5Z-gU5_uwiC_jwmLw8v6sjkdCk1cXhnpHH7V7Rh6d0HnhzMRTtEVYKvC9bIlvlrQsuBDDjPvo7nxykfrLsAc8vH0p3yKuLGJpixdiLH22fK1OI_QLyH7ZcLnG7e4o3yT9p00w76goD7pQDHKMAzEV6PSoCMyQ5uZgAbCjvfA2uZMNZ_yF0cPzYoX9-0ynst_GhLQ-p3hUjsrW5bZrEg8si-SBP9DlEixEaE0KTJz-Bh7tEzr6I0M4LlPBz-zNgJPT3wAWh6V1eK-hVqx4AIaV-XaIsUMN1PfYotLJpZjn0ApSghR-r1sqBo",
+        "width": 1080
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMZhc8l-uX2HG0jxKF8-ycTrBflB_xPGUcFirjK56CEA2v8de1LMd_1y_7PSSY3HmF6i9uTyW1HsdGLxkRk6kIwBK2R9ix5GCCba3-A3Qs-yT1TgPSpyMmnDeSoPae4mHcdDzAg5Wg2zqvSltCBmMcQ6Y0xlYsLAB8e2_lBGzu0-FuRPLvt4wokGbEXCvJsLYuNUnqQtmpyHu8uh13gLYYNN9SNxef8wDHt0FlMx9rH0eT8o9PJTaErWMEp6W7IqOKkJpu_gb54yakAvg4emfRP11ZiTOmqS6re8YJrKxcyXP3TLhM55qHlZTwJzJnpMy_otXNofmzqmgTRFSF7JBulwRG8rL8JG33hznYZcI26xtflBKzVTdyo7AFCTr1ZV18bBlDaUQfN6ui6Stb1tzdljPwjEXyM0qGne-VEgcfi8bQ",
+        "width": 4800
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMbhTNZzqhC0MiW4eqF6jsxdSW1XoblVsn3wU2AWm0y89gFeDm8NylUZL7xAfrZGAyntxfXDN72A8ar80ZVpeHFpt02QCxT9a-xZhy1ZS4WcseQCjOsqwjPQOxsTQBr1iV3dHN4KwzuVSPgM-urqHD31jOWy51yq7r4DsYHk_1jVvRBaqgj1DXIoG4tp5LE4A6MQiyBc2x6UcEmvAZqne5DHQJTxj-N7IJstTTh8Fv4U_3yFXtrIqO-A534vZ8f-pyNTxrHGn3szwmluP7nglCiG1V8yTQTvIRWId0AWVy1UBaQ9HU0wUgH0uH20EiuBdSmY0M-iNTNyD0l7anX9hGOAIzWT_wsEGmqBF4PstMbtQp_BV2ZmTApb99qHxzmdSe2NPJl8xZhIBzXROHJ2xbCF5w",
+        "width": 1080
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMZrwkWb2w3aGNtMR5oSdu-qlH784EhtDMbXUvUtbVe-tgRCJ4sr7p67yWlFow9rR1xXVbb_mZmQr9jnJ3_LwuXDL97KirgpukoY4UPSUEhmIpOJAXF57HG1UMV0qhGWwXjZe5fer_KoeZFzBBmXF3_SZkbCqPhNVC3jpJDmagzKNZw-gg_zK9724sCeK5mB0MGWX6GCtUo6ekPgHys3IbQSuC4RIZGTn8r5KBLwbLyogTsKvveuAdd6Ju4q04u5KdvgW-GiMKmZPovDzQGiBtHo9ZU4ejcvhpx4977gglVyHIc0Sc2l4-PG3iyzLDpuCe7NMfjb-56cNmFnjtxW12Vm-O6usMSyew9aF8wfltmcr_vmIHqkWIfHChoYrRTEaiC8OfSO7S4-ZMndomMvb7vAMYTltvg",
+        "width": 800
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103866545426616802392\">Filipe Cost\u00f3dio</a>"
+        ],
+        "photo_reference": "Aa-ngMbzQnbRuwdebYXrpmkckzIZ6Nv9Rki9YTES728424fY-gWajpiOhOWEjzo3zvk1Q0vJ-jxZzQmLY2Odvhy84DYz_vPSNmf29yf-0Leq5AeIR4s3Futj8sN0W7_2mAFcN_9PQCcKsDmj2Io6HPqAhm8_GHlo4yVMgxlZ2RbrPCUMauAxu_-fRAydN2S_m2IUUCnnqfs2MLfatTt9-QDiWTDnYAUFNCa56iWfqEBBjW_-m2zHO5ZLC46D4An7VRmY9r_oFcdW8tAvbHS4SOTwLMppv4eLnqwuCEYgH89qFr4pn3PTqgTGXvEXi7feuzRZZQlxtD96iMTfaJ3ncj3Ka0n6opqhL7OYPg79v7T2bNYgkiC-IGFgk3nf_lQTHHPoNqPMLLgeWtzzEZSC_BnGoQYGjw",
+        "width": 3000
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3J0gNFNPoaDSYbI3P4oxQ-Xg8TwVirzLzLV0J5RxkqoYW7k3epYNpnMFvPh_G28fBHcSUZXOleQgOBSmVJ9AADRVss4ygLdyce9HY8SslTw5zjAPgp9O8Djmuhg7OQNcgWOLdUGUZpFYdMuaRwQbdNpytmEVITlEb3THe0VYTVsbOo8iWNsW4yInFsN2ye-F-jHy-NCpucfgVZSNQwMkmo6MikbPPRwGW7yjFHvvFrpY6BzqbmTrK262VilCpOhSzSLz89D9MAjceI5LZq2Z0ayyrwTlwu2p4Cpg_zXxHLRIQXcgmAvQy_-VazAxmiP6CZhnt5Pt-4peNZ0LW3BX5wT9xcTDFU4E_qfsqs6YoiylKb88WAMcEG5SrwMzk_DJRLKz2fp7-8_ERu31sYJOrPCXufWU",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480268244582683853\">Ojas - Emp\u00f3rio de Ayurveda</a>"
+        ],
+        "photo_reference": "Aa-ngMaG57c9xf4gc0FXKFIvh_oquSvbmRZZZpSAgMDj-rFWwsm7pyFBzrD_cwEB8KiPzkOWXvPsqANrM_wz7nlXeG0yJF30X_0wdHxABNQnebSMjJ962CM8101g1f5lW1PThsEb0USjNYN7FDw0tPVPGf9_I8QmDQ34Cbo3jWB80uiFIzfk1Rz8FGxfDuwsk2oysdZ-meLlZpibv39oWvQF4HapSEA1tBTcSvw-Y_K7qyKwbZSwzDXzALj1MpF2LYzLV99IC1dWK3BPZmNgGaWvW_cmwta-W7YswOzSpKjk5QyP1NoyTlLo8imE9ANqIO90E5HJL1seoj8ya8Vuikf6shIaDwgUuViJi-1jVjwCWr-uv3LHgW5RiMIPq0XMdJX9CRVHPMhYf6GkhtQCvv9b6Y3ZoEI",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJxzRPAhNXzpQRChYW2xpYMs4",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14858034993016739338",
+    "vicinity": "R. Patizal, 54 - Vila Madalena, S\u00e3o Paulo",
+    "website": "http://www.ojas.com.br/"
+  }
+}
