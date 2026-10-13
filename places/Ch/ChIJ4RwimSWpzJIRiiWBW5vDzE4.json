@@ -1,0 +1,257 @@
+{
+  "fetched_at": "2026-10-13T15:37:16Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "GreenLife Suplementos & Produtos Naturais (Walterlan Arruda)",
+  "place_id": "ChIJ4RwimSWpzJIRiiWBW5vDzE4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "129",
+        "short_name": "129",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Mendes Fonseca",
+        "short_name": "R. Mendes Fonseca",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lago da Pedra",
+        "short_name": "Lago da Pedra",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Maranh\u00e3o",
+        "short_name": "MA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "65715-000",
+        "short_name": "65715-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Mendes Fonseca, 129, Lago da Pedra - MA, 65715-000, Brazil",
+    "formatted_phone_number": "(99) 98161-4187",
+    "geometry": {
+      "location": {
+        "lat": -4.568512999999999,
+        "lng": -45.127022
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -4.567134569708496,
+          "lng": -45.1256934697085
+        },
+        "southwest": {
+          "lat": -4.5698325302915,
+          "lng": -45.1283914302915
+        }
+      }
+    },
+    "name": "GreenLife Suplementos & Produtos Naturais (Walterlan Arruda)",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 7:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 7:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 7:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 7:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 7:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 7:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103530179016226492491\">Walter Segundo</a>"
+        ],
+        "photo_reference": "Aa-ngMbdg2yB30XrfHKyU5ZZlFAHR13xgf9QmNjlgGgsSEFg4FYk3of6AOk8t6fNBsMNhaD7ISFtxEgWuUFNeLrCZG-LZG0CuDonJ_pdYgXz1KoVPI7ZvkEpItviFvmNqeSTqJ3fPQd_YPV9CfRM_DwE6QSE85-3SbynHwFcowpX5OT7UUZzb2ZiYgdIMyzhkmJPr4nmM2JbfldyKSHRWVhjyJDjH8AWxtOD2HtyIYysX6WZm70QfCB8RlUoU-GgNXotniJGDUavU2V8xdzYLdVJIZF4NXHHFLuWrlnhdCJikSUVC5fY9M4jg-OEffjEBLD8IpmkPQR84djfQQo2mtFU1K7ff-jm-l9kZrSa0vwPsnn53q5TIgrnJmnnCeqibkn5Kq4bHgxS4odsDqQGE6my5FuoOkXprvc",
+        "width": 1280
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113108621486884979973\">Walter Segundo</a>"
+        ],
+        "photo_reference": "Aa-ngMa8CuuKgdZxayi3gW65HzLW9uGJqNhqf6pAmwlB9GQdXniN7Daa02qMO8SFYRPF4eurFzF9eSwjMzeQnhXholvviN9wgMMoI0eQd0Qkdgj70L1uVBz7vj9aKcOv6BeMdOviMNW7fwK99TAGWOcpmN9lK25SixgbjHb2qpzWHbrldtZAh58_KL95D4ceDJd8H3Y01ezTip8J1GFzG-HJBRGIYuL1n0YwqxegkaylILBFGj9VwFy8Vx1efSf0X9Iv4Ni7MKIGCkxTlmTow2gyuF3AeS75IBfbNSumFc0PdTuVcnCt2ZWCQgD_BMTPgw5QMJieD9AUHdwsx8AWKaGCcFvBJdPQyUYTf1A-RXD4qYgLzY1c8GUJw-Zb_CgEK2Fcn8UyoRBw-0v6pcbpaqTbVMY-z43w",
+        "width": 1280
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103530179016226492491\">Walter Segundo</a>"
+        ],
+        "photo_reference": "Aa-ngMbmStGuyJFaJhNeaMoE-BTVkpTHKcGxl0-RdWA_gaLwdCIJhruEXV6j4dDe2zt7kPLP3BFbHWbSW52BeKXGbt4-oVOcpcNd1hpSZ_9vk6HRw9Ihdu1dUX0t5pE1fx7-oH-13N4in1QjgHdGdqK0YSiDgdVWPQhPIo9CXbIdeUgQ4a7cgzUb-liVDcdmunXGw-UbqD0_GPWmKSwOarGX7_LwAQ9gdIIJRbZMMudu5IH02c27Q5MmlLsEUKDM1Ea30azkfb_Ofp75SIorPCAgvY6VqNqtBYYtJv1MGh9dLoPAzARWHUHX1RrRFNryI4yRYOzKS3ZOOWuqhCCtLbSVvYPRYalHWfW79yPjg9NAL7pQLoZFk2cir2bce1gxaePBf6gYOmVYBdNXvGq_ssavv_5gHSstVYY",
+        "width": 1280
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMbB25V-1e-03u7cbl_UuDR7pe1GElL6E8aCGtBtLo1zyLSynsPvbMBhWkWoed_EjHW5wR9u39Y1v_q00Ulq3wbP170flkW4S8mValZ9gWGv3yO7m2mqUbu58myJvp16NoZZUH0xzojfU-x-wZHDxQnNWHhZY8pz12GtPN0LUvnEN_qQGCAZzaSQFZEz6hm1ZzP172rPWUgB4OT7F2OR3scJg9yqH0YCYmjXvteADLAPLW5_92U6EHqsbKW4ACSc8xmQ8fJkBbVY4B8KHs7_lOrNqZy6zBLQgskW7ipip-bOLHh-zliZc7Tsw6sBrujwHbFu4NTu3dSV9DvVLTb3e1HQiZvoXVnwNaspHcOv5_46LVleh7CIz1KQ75KfecA6hqMxOdLsfnYouB_v6NmxeErIutk",
+        "width": 1066
+      },
+      {
+        "height": 1034,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMbEpEUIkXw1KQZjG1VdwqKuIvq-VkrgnwmPW7awMRR6T10bRSl9GJkn1iijzFAmX60QxXysZy3naPbE9esgCjIWskEnjstODwfznfW-8bYdDiy7QphOwFmfewTvZU0kUToCctOrz4PsepaewG7Vj5mvOJZlBq0MU9foNjFXlXzK-mcgTe3Ne9PePwtgPZDXyQ3o5KejwgIYUPs6Kc4LYLm03FPl0XttxQYsak8IKhAjkRVYIYS0bTGib_1Zf0Ap2HjkloDLd2xyQ_3WGr7dBg0pqv9Mgatsey-ocCB9hYrfbNz2RYGJEm0WRY4pKMonP_qffuZWbE15dXe9OFT_CpQ82Uj640lTGiE1ce-SijK9Hoq8OR_u7-6uvyQLROojulKEmp2thISO1_7MyUO_m26HTlg",
+        "width": 936
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMYgUbDAnilI6oxjPIijJ51Rl1bqP4rnkGz-LVdybmCLxk2txozCn-a47V80-GMs_jh6g8lexpLYrPaJRaacup1ed24WZMMwUOQY2AS9Vt1PbZa8m-Son9QpXLIbyDpjN7hcTf6vKpeZxIob9WYLVbhpDUmHVInTRWA63sM-2J64L1DmCbbisDJD6zotEliysneoeXgOFPrgY1zpC2eKvYBgEleHIveF0XVfzNGaQGru2R396cAeheHbpjoL-D2UWwDhO6rkLr0eAHWdpOq8_4N1rIm-4OCDoUFEzTIYH4nWT2E55LcObLX7-1ojbKvzV3vOhbhKB9u1hTN4QCBNUcDNAE1KvCQZrcf_030xVgyIn9Tays2PEB7dAVDXUJo-mWCyI_qGYr4GWiM1KEdiCmzBUU0",
+        "width": 1200
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMbNI4Y0V5Xv0J47VULuFIy2EhkoyFcK2yBWnkwppUiNAIqT2Tz0e2o760y6v-T4f5n2hOgeP_ZE9NLIh-3HJ5Bc2WyO-dL3reb3nYLoNUJ4FFdgyuvOHdhofbLsmH5q0rn6rSOm32vcVCfCCgHBk6zj4c6L_khKUa5caxcM4Lnk0v5kwEtglmaIZjs9D971fTtFAqh046iuCLqzXLuGCWzNsWA4hTcyFvCHr3poiT6rJ9lDrtsQhramjRXQH1UQEj1ncAVpa0X26QZqUP2ZIiLxmUxhIHiOEpwqDqO17eRRM4TzgygSV5d7ccW7XVz9Xm4WWl1etxi9hwQIz9KJCvzZJVf13i-6g8WU6uQiWRN57A_9jJkxNtZVAIGfURMIb0qih-JBajj7V8Luj-2l8CXAgvkF",
+        "width": 1200
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMbR3GeeMsUPqT8pqPdbHNP_pccmQvUBuNrLm6t7HPmW_1t1ArVci34LUpGBVai6DWU6zu-Fv12b4Bgbbhwz00VNVUohlshZMTn42BkeFbUeBlGTe-b6xR-6I1g2dQ3OpZPww9lcOdMCHGfprzxVouzpi2e891XbYzpe9zhhQyCDoHYVn9yDcFvp-8Yum2nQ0uScUlopU4TP9hxzcQMscGDwU9AWatNR-VzKu-izE37OTohaKBbKd9517kVnOHelDGT52cIVKQN-NSXSU3pVZ7BdUsFUpLWg2JIk7BbiISp0NCZxut8wvl5eHOeNzH_h3VvP-utleFqx4gqXXkqYPns5GENS52bWmExyuUzYJ_fQHVP7RaaCUx9JByOVApWGpjXTRxYfQGU4o55elK5wKU97jPU",
+        "width": 1080
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMZYbjL_tK6zH1iR_d8K_UMgLVcCi-cCwEX0765_BGXvC4zIRSgZA46b_mbVmKFDsTxCkIm4IvpZ6G6ldjzyAJ5i4hBwu1wIKjYlG8qkDiIzUw5nlmGWbZ2-eBReWT7p6ZRTu7603IIBEhFW9LqRTvUqU2TMkwiuaE65CIdO4-OH4ER7bMITsRjsfhvcpKEr8kJd6XYpQUs80a-D1N-XGJgAPlE-TTB-vCCbu22bPra4Gg3N0g2msAJZS7la6HImAFkjfwo1V9rbvbMTkLuctCUM0J7zSDdt8bgcaBbR-wyMzkOQlF54PqPz7stYepilnbvSlmneNiYmFwFIxiwMXVgcpZy7qk0Q_6O4cScdHyzpAkDPHNM23UvLyFQhqO7RO78X9kUQbJgwlzCUfitVJDMsBiI",
+        "width": 1200
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113848561019972187920\">GreenLife Suplementos &amp; Produtos Naturais (Walterlan Arruda)</a>"
+        ],
+        "photo_reference": "Aa-ngMbppk2jbPYZTvxRNKenN8S9OvE08mUPJkUB241xzpbPhXCn0eh6LyRO1xnEoUxP27_nMTeSyx7AEnt_qfg8KnimpKBaVg12RYyZrIFpSSisFsQCzitCCfVHqSjttSyLU0D5bFZL9MLFDxW-QuDC0Y0QhELVb_lWTrduGZ5nKc45J-a0co8UKr5p7MYiOhBIA77vb4qDsEp2iJHwz8MVG3W9DTO7rK0EH5oVnTRdn9Y9KwaiDcj0kgPH7xPUbIk57chldLSFOi_tmoRn3SOxD0P_tz6CpSqRSV23v0YcHwza_DT_Lx83Q7XxFPqwgPNfbonC3pdCpSxH6CC7NJ4BHhh1uipw_ySMio3cmGu1EQ7o-QZaFEf9XrDFxPFTxNqYt_I9-6sGByNTNrRGurWmCaJ4T2xroUs",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJ4RwimSWpzJIRiiWBW5vDzE4",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5678128302229890442",
+    "vicinity": "R. Mendes Fonseca, 129, Lago da Pedra",
+    "website": "http://www.instagram.com/greenlifesuplementos"
+  }
+}
