@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-10-13T15:36:59Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Emp\u00f3rio Api Natural",
+  "place_id": "ChIJg4wkO473zpQRS1fdldvYfac",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "12",
+        "short_name": "12",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Graciano Altierio",
+        "short_name": "Rua Graciano Altierio",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Casa Verde Alta",
+        "short_name": "Casa Verde Alta",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "02545-060",
+        "short_name": "02545-060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Rua Graciano Altierio, 12 - Casa Verde Alta, S\u00e3o Paulo - SP, 02545-060, Brazil",
+    "formatted_phone_number": "(11) 3876-8493",
+    "geometry": {
+      "location": {
+        "lat": -23.4939714,
+        "lng": -46.6615338
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.4925814197085,
+          "lng": -46.6602080197085
+        },
+        "southwest": {
+          "lat": -23.4952793802915,
+          "lng": -46.6629059802915
+        }
+      }
+    },
+    "name": "Emp\u00f3rio Api Natural",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113910901436943355542\">Emp\u00f3rio Api Natural</a>"
+        ],
+        "photo_reference": "Aa-ngMaTwm868Tx1ymtnIWSLb9ept3zXcw-hY_b8G9wBCkiDQU6XmLhnlu7rmy4FTvWErQCjzo_LoBLK89zM2XyvqfI8DTfN_OYCfsGOzO-wpXabOsIjzgoy7djxelQMgnidfP4Jq8E2z9syOnbUrxTSvvv9XQUfXY-HeeSjhRnlHpUWyllDqodr0XXMVJqSeD9cbCcNBaZOiZPYi0duTKMQ_y5DWeaWR_dyXA-qkr_HxmpK-S447Agi77kCiIoJYy0uFxBS2Cr5PFFC7-kjHXwk0zra_UmITNSP4RC-i6ODdxTHUhio3KreRlkZWaio6ZvQVv0bG9pK0hVn7MRM0QYnQWQW521lF03_LOcfNUuvp_Daqa23Iy5TZFqomgzRNyp32E6W3lPyJHvapf2aNRM__Vvvzk0IN50",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113910901436943355542\">Emp\u00f3rio Api Natural</a>"
+        ],
+        "photo_reference": "Aa-ngMbabGC5vxoTVx46ZI46MVjO7ZOLPmMSv-4lMb-Sf__RmbbQIJIw8xMW9XGkzWiiv63ChxnkkXHxdlzW4VglyKLSUUE6x3UyfWYhyuj8r2fcyLl_S-8HT3Iq8p3TqySPEnj1qz-AOeTM3cRevFZBZPXQcgGykptNfvQJ2ZkFP9_2bSOMvoGgYJDFQrwELPhVisRIeTQjcL1Sf7MEZMB_QAsqRSBGP1nTdWQ7TWwZHtMROkZzqz8avLZCWlI82n9dRlSgS1JetcP8va57qW3qI2U8u8iP46Mcie_ZyWWBlAxO9xxgWMfldViW2adHBjIJba4hPe_80o7xexC9xgTWiHaMRwvvzdj84yKxTr3wPxoqgSNsGjhiXb4VlQa65EKVtoMjAhBz3CeTH7cwLQ2qWAvlLS1mVok",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJg4wkO473zpQRS1fdldvYfac",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12069041014046545739",
+    "vicinity": "Rua Graciano Altierio, 12 - Casa Verde Alta, S\u00e3o Paulo"
+  }
+}
