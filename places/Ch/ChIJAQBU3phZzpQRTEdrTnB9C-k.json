@@ -1,0 +1,266 @@
+{
+  "fetched_at": "2026-10-13T15:36:25Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Novas Ra\u00edzes & Mivegan",
+  "place_id": "ChIJAQBU3phZzpQRTEdrTnB9C-k",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "34",
+        "short_name": "34",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Doutor Nicolau de Sousa Queir\u00f3s",
+        "short_name": "R. Dr. Nicolau de Sousa Queir\u00f3s",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vila Mariana",
+        "short_name": "Vila Mariana",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04105-000",
+        "short_name": "04105-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Dr. Nicolau de Sousa Queir\u00f3s, 34 - Vila Mariana, S\u00e3o Paulo - SP, 04105-000, Brazil",
+    "formatted_phone_number": "(11) 99992-7588",
+    "geometry": {
+      "location": {
+        "lat": -23.5780252,
+        "lng": -46.6400448
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5766208697085,
+          "lng": -46.63871991970849
+        },
+        "southwest": {
+          "lat": -23.5793188302915,
+          "lng": -46.64141788029149
+        }
+      }
+    },
+    "name": "Novas Ra\u00edzes & Mivegan",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMbQ44gq4CSGnpikH6rQYHdGsTarLwIs_-AwYNwZPwiHhVntsurfojwdx244uMMefM4FVhP_RkZtAezn7WTkJ0GsXA998FBpfTa0SYu9Lw-EmXdq4baARh4V8_h8-5pVXw5IlZzAATX14QsM5obgo024tESv1Y17Cx3rpBA8xryGp9jHeDH1izkyq40r8zyO3PUQTax2oJSrqaK5oFIbMce1C0WQ165kaBlw3mEjhSHPanHJw1dFbTtfv9gzepd5-6kpOBYBslkF-BKiwYH2O8VJyXv17htDXth_EaPIhyhGwbRm15u0pISJb_3jZT_qv1touuRqa1vYqtjrTnCcX5QEdUR9lq0vy7f-Z1Rctggv00elKhpyRLNoLkPzMH7y4e0MpcPf7rIZDPhVSe_EIo8j_DvSkOSe4WO9hD7TZftL",
+        "width": 720
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMZGNk1pDEDbqqSV4-9dmUiP2M7yGv9zU05wtanQLR_XFZ6_yBg2SWW7evkT5VCTl-Y6PnbEW-b4RJPRyzlYIdkE_rJtOzEjr3gSxRfsa5EI4iwFsvO7ryIlDcoZfaCXBr8oJhT9vCzPbdYouqbSe4gm2MKhPH29IzAtMTh0q0yxJoMPvBpu5PyRnyejgNgkpHja_-anjkznvbmhdEeA45GKAzQ3HplmbFYMftPUqAH90PtSbh7zfDs6sm2L_EHJzdR8wuhWpAUl9a2rmLeIiaGmHjIKRD9ImM5cHC8SJG51M3Jic1H1ilGHCbeemqAJfBZHDVGT2q1Xm_QUdlrp-kzGl1Gel6FdrJydGGzPyI02dsbQoFQsLXL4AzD4k02qqXfAGEiR0oWjNKIWCpmVJmz2lLPkErRvDeWLo4aH2RJZbQ",
+        "width": 720
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMY77RMiIuZgVMVm5lmdA8Unh2KEU0daR-NlBK1HZFvYYn0rSlOL5za9VRJR6QDRs6G1-9GDg3EkpAwL3zIPA1w12ylS9ayj74IFF84oP8xmq98bWn6lYlmKk9xQo2MuE5gPNM-0B7lfYDQmcCjnZQJKUiFarTsBSWjB1Vkq4_HRq1aYl94h5Sp3Wnu8UAnoPe5Sp8feE3Xc99uLxIXiOsdZiaeX-6fxsQB_4sI8BF-xpYIHDZ32EP3CR1PhEHmFrJYH4keSS2nSB0vzr2SOYF-3O2fx7Imw13xo-LJVPDBp32GDVSud_D-_EJkBpGgzSlZqBmGa2KKbBu2ATlmyRKwqCb9eat9G-bK4V86xHYoi19kHHZARjwsWwCJT2eaiScZ5GBHxA-EJ_6A8Qh9ZHxNQEbZ6s4SpyJoHA2LIwiTvMg",
+        "width": 720
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107893797064635482979\">Juliana</a>"
+        ],
+        "photo_reference": "Aa-ngMYp08CXkonWYmM4Xw9xkitIAfK4EYabeFSFVvmqH5JhJDVB0gf4IUM_UVompB9U4pZlePOMVoC53v0I4ePE9LMXIx7y-Khc-zPOj6hXfwdoY_0DL2SWGIbzrj_8AGutiArwXo0B83qkhA0NXFF_7Bh2YJFAxd_X9jItDN2WvKuguCk6sUbbu6L868uNcNE-bs1PCVVLEnj-Uv8IQAeNQVeZPLke1LxyzcD-890DEr9IQOV6m0tW-uf_pmYeAUFCb-vsr41HhWOvWTRFgky1q6U4C1q3-x3oCmQh15b2_YzT6iMTeOBzpWI3S00bJKU1KXhM0_hkLYq9hfwr_HtSHzmgN0K3PrBD6z4ZTmqApxsNzkNGdLXfmvS0QE-3qftcS03CAKJUnpZA4gx8wZhgVYmB7N96p1YyNqcY0I4nllDJ",
+        "width": 3072
+      },
+      {
+        "height": 923,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMajdQLNYuqrXzHC29vT5YDe0UJD4Yx3x_YlMU60pEvuTcN6p1Y32lCxv-L_oVP17PYsP_TUmBU6ckaHuwQfV1URiC_yqiS92XHJ6hPlLp2AJIJou1o5JMXjzDNUdGUe-ZfeXceg1a7doFSgUIUcMOfwZqY455KEQTM9i0eeZKZHJmXoT-rGEttdKVptVUzwGwfmcOtO1jS_7SFcWl30VuJn94A3vbqe_ZAXTGqaYXjttUDWLqLrsaEC3j6R56vQtBaSWzpNl48xG6JyCCKmXHZCB90NtNXrDz7amxNLPMR4a6x6lmQZ6xNkv8t-Gqm9WIYfgZ27PDqwR5FzCh90ortNrj67sFsqjpbSftBdeMexcjy_N3yocNnhPcg1W5DSy3hCEHOhJDlJDUEoHkI",
+        "width": 1640
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMZpuUJvCLIXSetceWvmSspZAsDMpOFcqHLX03J1dpIbjuu8lXT_AFTaLpEW16w4aLbardqVqSWFCAgQ5v5RiStiSyl53hWxCU2xR1kd5xiiVqC2FSkDKx2N9s2HiAuh710tR5eSXqcd8fZ-28C2Ru5gmDOxjYXacsAQeCz8CB_FsUh9hsmvxd2M-VZSAH5nFZaziWlZ-F8aSfnMaK75qvTVZnCjC-noYjWiScGCIefEuaRqRH6HKi0TfXwKBFWYbbNSgTZygLRRvaP09WH4R1oFQ84PbUFz2KcPem5QjeSCocJ_2DiomK6LAPuYf0xy3tXvWcZM_v6ukvO4ODJAqucQX9wMi_JBCJcKx0Plqj5TUksOeqmS8K4LU6s6Wy2M7XEoJy1_LURN2uM0WYMoM4oGk7G9A3lh5RUTRGaQ2Gms-w",
+        "width": 720
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117661079476403895496\">Fernanda M. F. Carvalho</a>"
+        ],
+        "photo_reference": "Aa-ngMZtRjSPTyK0V-3S6tArwol2ySrUVSisp_ye85kou-tJx-SUzn-1HEGAjCv75wXA2G2Sp_1Bb3huB0WzKl2-AcQ6Isr7iuwQnLC_55jcZyKmchR7sX_n4f3EE17jgIWZyIoZYS82z9loHPooVZ6Ehz-g0Z2Sj-ovz6pZtltasZOifJTfStddTDJVMUUIUqdBZaJTEgfAHnE3jo--H4u0X61PbXeaoM5bw8UZEULaPr6PVQ2Oe2ypF2XgWiLMO87cXUgMnCnHHE3FZmZOZyTYRDSjiZ9HlqQdq_FhQ64Qr1Zr1Mq90IISmLCityblom28T_KRKttXLkwVnaL-OgNjDJzq74wcj-syALeVsxuXLTswIi57mBfpYlJGfVaL-lfO3JJAmDFEuh0jTsFvlDV-55LiPmE",
+        "width": 2600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103281634242820947970\">Omar Pisani</a>"
+        ],
+        "photo_reference": "Aa-ngMYsAOiErgTgXmcVTHXvNU2IyVvtpaxN0DZDTwj1rv6NdrJuLFjOV9nKPMvhL2_wbwsXv2SKsnI3nrnwWuZMtmgNuZp1b7lyGKNmo-hmZ0aL1vM7JLD_c-6wpL4kYLw5qCd_zUQQ07BX3yoUU3k5sVPaXMGW9bshoqoeSS1CUp_0A7yxBFdASN9lbluF5LzZyPmWTWmpoI-alQ7GLdpmVh61-JRFO-n5WawhqqqcuiG4RGEdddn_vFpewB6kkqaR6L6outJiTreEBggIum7nnHS9Frd6eG5IUyN87xpaSWlbjQ2StZz1R0IMX7Agfb3jrOg4g_DetYoDRhA7i512vrkaiv1kucHkXmyyrWuF8yVSCoBSTq-WZQzdWlhyH5qzKxnnFICyCrKsLdTiHe8lTXbPCgkW",
+        "width": 2268
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMa2HFDiaW2FryAiNJFDG5hZp5yEsDikZgrwizmghezlTx6MfXoDR7goYcaiFdUg5lHvd83fm69hbMiMKWN8o5FPf0ZgsZxX3zblWoRRWjePhPf9BkEOrUEmeVfYJVMqDlboFfF_wkDzzStMjil67ymbIpQDAWjjI5jmBCaGOjnbCNcZVC4k-aBPRpOeIwlMLUI9Qo4J_xt-GavVD_Up25qEqJhp4qUIMyj_G2iGN-14s0ewJL5-uM1lA2oF0GSFza5khmfKOv8e1L7DOfTESlNlXtety2Ur_nQpzP5SEUR3lBhPAEcukluYO0M2PSAF0qVPiyPHoHaMefeTEFqm7AkR-tptt2-rUWJNrHQbxYJxTQatkSVp6SHy-8ttvf644Edzo3W_I6HqGeC6YKwuz47fzbtZ0Oit5jz6wNlqV-qG",
+        "width": 720
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108205699620960983781\">Novas Ra\u00edzes &amp; Mivegan</a>"
+        ],
+        "photo_reference": "Aa-ngMZTAnXNCTUBkyE05EHQQY1zbjzgExsGz4ONCB3_fT7XKIDu04N-1VuPCi8HA0vH6E40DzXWsayZ2lLvEhmNvQ-F0puIs1CtvEFDrxgL5SG966MiNMjqBwKLtphPV36wYj0mr8XnBK1oSX5saJaARUkySrBxVLG9RQYP34LF7BmFxWj9vRb4xqcNGbZ8gxt_XY7yyrA4XpQY6EpCNiavgHvQsmPplo2lJD0hBIONQz4D534MkyxdEihwpCXHO4sllifYHDim_kf7GjQAtZ7an1tEfBp2IruKec7fNSzyivNztKeEe8K0V8q7T-bocvkWpuBFeoOcVkSOsgzrrWXC0B_9uqSgveUQUwHenJrkE5Rb9Uiai0aAwpurEv5uFo0TKJB1795z1msgK6pAyFehyTFDJxOZDg2mHyKNEnRPXICviQ",
+        "width": 720
+      }
+    ],
+    "place_id": "ChIJAQBU3phZzpQRTEdrTnB9C-k",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16792653556886488908",
+    "vicinity": "R. Dr. Nicolau de Sousa Queir\u00f3s, 34 - Vila Mariana, S\u00e3o Paulo",
+    "website": "https://nraizes.com.br/"
+  }
+}
