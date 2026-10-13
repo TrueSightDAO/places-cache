@@ -1,0 +1,283 @@
+{
+  "fetched_at": "2026-10-13T15:37:22Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Temperos & Cia Produtos Naturais | S\u00e3o Lu\u00eds | Org\u00e2nicos",
+  "place_id": "ChIJkXh45QyH9gcR5B9-mcvR3Ug",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Quadra 55",
+        "short_name": "Quadra 55",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "13A",
+        "short_name": "13A",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Nicar\u00e1gua",
+        "short_name": "R. Nicar\u00e1gua",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Anjo da Guarda",
+        "short_name": "Anjo da Guarda",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Lu\u00eds",
+        "short_name": "S\u00e3o Lu\u00eds",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Maranh\u00e3o",
+        "short_name": "MA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "65085-239",
+        "short_name": "65085-239",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Nicar\u00e1gua, 13A - Quadra 55 - Anjo da Guarda, S\u00e3o Lu\u00eds - MA, 65085-239, Brazil",
+    "formatted_phone_number": "(98) 98841-6948",
+    "geometry": {
+      "location": {
+        "lat": -2.5639415,
+        "lng": -44.3315964
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -2.562612419708498,
+          "lng": -44.33024056970849
+        },
+        "southwest": {
+          "lat": -2.565310380291502,
+          "lng": -44.33293853029149
+        }
+      }
+    },
+    "name": "Temperos & Cia Produtos Naturais | S\u00e3o Lu\u00eds | Org\u00e2nicos",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 7:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: 7:00\u202fAM\u2009\u2013\u200912:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMaz6B8wfkXNxLuOcX89e48m6exJ3zNVWNYsp5nnRHQAd6uevFRnwAFdX9GqyCII5w-ph0bn1weJHGpAXnHUAyxX7Ro6oG-UWSeOpD9_WUjq39sApecic5OB9qhzqGPbSphBKXLDvJXGpzHZxkkjdJAO7eZHilajcDWHZR6Ja-IFElDDI-z6woJrkZCSSX1mJaSOvaiE1LS1533MPfB3HAon-3CN2NBKNFqwpfZcPoKyPm_4VdPHPVef86ev8gV7UGAahcSRPlUHU1q5alXzqsqz4Kv8ubBsxXnTpVnQUwAKsyMkhCtYoN76nYh0pYU-U3gw7lbsKh7Ygrb1qZFGdrGmTzIsgy7SwFDrBCtb4HbMFCmFnWN0nIZYW801_Zv-zWKEGac65YuqvfE0XnTgNrr3d0pR3Ss",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110000806183313611151\">Temperos &amp; Cia Produtos Naturais | S\u00e3o Lu\u00eds | Org\u00e2nicos</a>"
+        ],
+        "photo_reference": "Aa-ngMYgp0vZuUi0gL8wU9fKVpPhE4bPVXTVAVR0scPv7ufmfaXWuczeFpZOwMMnXAA-lIPr_p5gQnr7PXG4yx_TuJp9btOPlduPZpDQIOnPyDA7alcklsnu_PgV9PM_J2DS6uAiNiXNogfD4RYq1WOcy11EvjyNLQg1l1tKrXS3-39RvYXWDYxCbqBMm1tOOAFHvOLPcdPYO0P3htWmfF_j8ObutYkTYLu3aIcl7SErsesSQ8WVq6w2aXRDsj4djdGeqr_4Z66g32JCyStn3l3a6I38-JJvL-VXQ_e_GPW8CJYMWu0BmBRYPe9_GFo5VTYI-eaox0P2kqJKMM8hnv7fWooxMdSrXccpakLyhPxZ-ceipD1_Gg8nEXVJ7Y-cE9RczPjJwtkFFKhIXBkWhFcx7aENaMcrIuMANTjjWy1h6J6BrQ",
+        "width": 2700
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMYlwXFzLFd49shkMxlqR5yZ16gC0NSQGp--h7ndmYVMl38HSTL3U6citHd-sybbZNNGDeo0XT6u8364x28L_R4UdyERXODGGJJg6OfF3g1w9jnMyZlRQWINb_LcAv8JfgkOctvmYRojdMWgPk44c1mg-fSQB-sUdnNv6TGf8ZgUuMJJPKENQe1KYjososs4sbAl5o2pmo-XB3bXyrHfYoltzOmGMcSYLEm1ml6q4c72X1Xn-horkqq_AayGND6J1xzIM1rmOmiqcNF7u3YEleH7SfYft1JPasXjs5au9HlapqM_EODJDTSs4DOkhvzLDBPKrlMH_4ntjA_Uh34HDvY9zChgEsXEAdOtKy9VpmSlbKnR-HnQgzx-75kdniUhrBJPHVN08pbfzoKNI8MliS7V_WvnWZs",
+        "width": 3096
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMYqxefwPFiNnVPjoCw7DFKfXSxDmPz__t1DA1NCMnnqxsrQVaY0_LhmvkAQhEQjeJ8tH4jfWLmner3oE9F030uP8qGCHL9x6QvSycbBHJZ8IKk6auKpWcDIgI9fMUxgb6-Iqk1gAXq_kVVGXBtgPV-VJLtKl75xnSPzuKf-_5rn-FxYd2qfUhaggKn1ikqTtw3vOuOeOahomcWTi9vmQOzZeC2CGyPTOMFIgs9SHzGJ6GCBni1ux2PPAcdaOg43ghubdeXupda4ztBJPtQELGCOgYgTFoVw6HU9wFxNig358gcnqCO8I_YwEbhDyD7AhUqtgzjcxhx7qNZqdpUsUXOp-3ayFISnfs0mm1P0KxnaYneGrLQQv9HRutC-WScB0cACuMjj8KrLQvWyDKBf-ksEj6c",
+        "width": 3000
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2MaAcHRMxfXPnGO0SuwQ1JqtLD5Ak4sT7N3qo4e0wUfCM8jBwjQNYbLI7CRm6kmwgCWJqbKTmxHld6KpthlM7YJXi1aailsIpbWQKLne0W3qTeHhvdI9HDsHTqhmo-86S8J6ixRUXvNP-gLyCF37fDI-Dc9w04nKAcIU83Ag0Cs1DcOjNE4QlD8zN2N9caNhg_evVZ6zwHBPkszWVBGq4fRfzZYTpOhXK5cqSKhkI7U-1BCBquMk-Wqz0E3v67mj6HfswSnjDfqAQq3ibcpKUDPYrJHO8xgolG8C4DBQM9zDXjqEmrUl_lac11rAGrOp-MjhrIwuqsqlF6genL9SRee6b7KUYshoX56vTkQG6QCBwXO7POPtrFK6--WFj9XE_G7db4YUROsnrBlt-FaDYyHM",
+        "width": 1080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110000806183313611151\">Temperos &amp; Cia Produtos Naturais | S\u00e3o Lu\u00eds | Org\u00e2nicos</a>"
+        ],
+        "photo_reference": "Aa-ngMawr3hsx_vCD4ZoFlVcnJhS5oUT7HaDXzEFP-kt_N7sBJlqIBu2jZnX4D4ebGVY8E8AdELWJrXs6YFv8gbs9VF1S3wjk0EieAnT4f6FHGs8raV6sB6rW7VBF-0FF0jix7QweapzdP-zRpbl4sevzX-Iyt8blzaT4gJ2HnXGpYxnHLKn2uWJsf7pOV5qV2DmFnMMn9gN70V4nVk2Lxd33aLBknWM69mlrLBlI5VNnFTGe28jgrHug4fRMAcEdjBbbulA45BrictJJK92V9_LV86OG2HcgXDt3tFMF6ScWhCEPdm_eIIQzY_qYy0zR2lD6cFJ9lzGRvsW57UiCZliL6ERfsG8DKdJJFGdyw6IhoLS4olF4hua-nR_Lxi12koQuZ4mtwKt-z7hRd-5HaoALQPuqU_m9E8kK6m0qMyxf3vaGw",
+        "width": 3393
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMab8pigDkNtmIo0c3l1K7onJ4MeL2bme9jBSCSv66MZ8ct6-ZV2luEJRBIQ_vxKweMNhJG_RdN59Pr8lk_ilJS7JO65WQOlcmploApfry8NKk_rxtrmiInZfZCOOYNN46R6KVjdp3bVWhyH3JnSISWr4SfIGIkLm6E_ioNJN13S22XyuZhNnrxxrmpggSbSysLNiym6QaUBXS28K4gkzWBJiBor2SoF0_QCtg1EUaAGUD8HLl8iJkc7su54kwIObiyYayOCDogudR1zx51YYkqB9LqLS0CDzKtHf4ogsGRrdvl8p6ozsVLj9ReX8iWS_BZ5X87C2YNtL-sDNPp56XD2KzboK5KI2REP5hohAGBCnADuXXSfBMOglbTr204R6OMIwhdmZNTJFIuMeZdX6t0_Ric",
+        "width": 3000
+      },
+      {
+        "height": 2081,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110000806183313611151\">Temperos &amp; Cia Produtos Naturais | S\u00e3o Lu\u00eds | Org\u00e2nicos</a>"
+        ],
+        "photo_reference": "Aa-ngMZ8GFvAB-t5YrNNqTPb9Opsv4GPBvcF9CiN2Hv_IRfpVbt9f194qHapaVe4nwjv2vWBiF3W7d4Zku-POOmdCCtcAK2fIWfwApDma0sESR4PVX6FZUZIqd7eTSXRVC9_rK8Eyp1Bd30tKbP-HY6jkiPEk1aA5SAF9-j-ZMAMeSkdhCtsBEBlnjZXKk67ESEUCPvTxETwYtpCAWGg74BuIw7mkLSaah2plduRYSs_rQwYioFutx8kilK7kVL5qj7ICopqDYH3aIBRGgcujTgf7t79tkbRfCuAkJbtTE-3eKOf4pdqlR-aKKa040suHDRvDnlEW6bqmx2rLIvJ8-c-2oyvcOo3ecxadQszEZjqu3KZfM1quJAij8M62Mj38E9uMJbfUvKu1QC3DgMdQX--EzsuzxRJxnckpMPMrdUFTSqUfA",
+        "width": 3197
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMYeVCNUalUkhOhe2W7-nkiIRJXypAaldEodBQKPmOpJl9IjPsIueZ9K2yu__mvirzJ21VPZXbZC-rQmcVin6B_AHFouY6YyoyTYmu_Rz-x5F7X5dBZnISJoldj0pmtHl87KPGnFwX7l49MNo6Lx9VwjnR9kNhAoPmykbXSXN7aPvr8GJ-6jRkQ-nFdvtHi5Xi2iDIsFQtKF1XacB39LauY84741MZFo0drdJOmop_ei-ytAHiqyBuT9SRLvU0aHAG63PQNQlE-BYjsYCEZWvSV_4PtNRZ_IkE_Eag3JnQQt-vO23Ck9qDa9xvLCy6YrYsfr5Id7jMDK1tYEk4_5trTsZQpFJSTCKcId8UUqm4D4oyQVFary9fQ0spaBGvKFRGezQ6Shn0i61m9xVk-5OTHls_s",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105472577673050819253\">Cc Aaa</a>"
+        ],
+        "photo_reference": "Aa-ngMZLcSaA55JpwQtHSLJKxteWop2BPCP02bWQmIBmkxeGs6nKa6tWK03pgspbbwU7x_R_kNhcCCOLvVf2Vea_6PJSnB2SGtVj_Ij2Ipt31oADW9Qbq-kO4VbAh41ueKZqvTgtRW259I8FXqqthFhM2q5tnC941lA4ES36JXMGACjHgBn_b9nf-qPARcmKzRuA_G3HgpHmKHvADT_2v9PritaZz8Pp0Ti3FSIB7fLnkFfNZ61yXbgNkG8WXmLwiSh48TdNmCabobMTYaizF8RIYO0k4UQGAPDKn0s9TlN__r7Bgd_3byUCKKvvIaBbQEPPWhD6w4INyEHB4iU6tKcIbwdh6wXKqbrJwvHDs2hINW25QmeOY9dFvJjKS1I8LIW4k9ShTSCiz8uwuPlgGnlqt8og7hM",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJkXh45QyH9gcR5B9-mcvR3Ug",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5250583412967612388",
+    "vicinity": "R. Nicar\u00e1gua, 13A - Quadra 55 - Anjo da Guarda, S\u00e3o Lu\u00eds",
+    "website": "https://temperos-cia-produtos-naturais.negocio.site/?utm_source=gmb&utm_medium=referral"
+  }
+}
