@@ -1,0 +1,266 @@
+{
+  "fetched_at": "2026-10-13T15:37:08Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Natural Vida Alimentos Funcionais",
+  "place_id": "ChIJGRjKLXea9gcR6kgwbdT_OWA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2",
+        "short_name": "2",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Este Duzentos e Tr\u00eas",
+        "short_name": "Av. Este Duzentos e Tr\u00eas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cidade Oper\u00e1ria",
+        "short_name": "Cidade Oper\u00e1ria",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Lu\u00eds",
+        "short_name": "S\u00e3o Lu\u00eds",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Maranh\u00e3o",
+        "short_name": "MA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Este Duzentos e Tr\u00eas, 2 - Cidade Oper\u00e1ria, S\u00e3o Lu\u00eds - MA, Brazil",
+    "formatted_phone_number": "(98) 3247-2439",
+    "geometry": {
+      "location": {
+        "lat": -2.5725891,
+        "lng": -44.1985752
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -2.571244969708498,
+          "lng": -44.1971951197085
+        },
+        "southwest": {
+          "lat": -2.573942930291502,
+          "lng": -44.1998930802915
+        }
+      }
+    },
+    "name": "Natural Vida Alimentos Funcionais",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1300"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 7:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 7:00\u202fAM\u2009\u2013\u20091:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMYUHN7mw_xmG3ZvzW8ZFO9enLhbJmcfqlX3neen89w4cL36vW8cTXZOyvE8ln6n3gHcUJaycMUH-8zs_4abhABwcXErUMU3m2_-Uj1Un0za4dUwreDpdUfHzzG7066gFyWfPmqJhcmsdjRgvwmlNY547-T1UO76B_Mj0zn2oAbsoetfk9AcwSE6ovn9kwToRmsK5ryJljLLBrhOBjHpQLujAoukN41x_VnKeVvEDjZON17mGm6mFUyA2f0AXM0V4ibLcSIZ3itFy960z7aTsTrkussve-uAU9m9rLy2K5aWCiqgSXeRruVhidMTFV3-GXuhjjA5xzk-MZVE7lwyG_oYXe1XBwJInLo00OT-gJt9BTjpkbhkU8pQCMAx2yRbFgw3ELkW8JbmAvxXcXE1WnPiQTI",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMaBZg-oYPaonnAIEFkDsIqvCe80-7CX_MG1QqQeh0dIgWwX5Ne1THyTHjvZBgZlOUM75aHxTRQK_DIIse4eUk2-H_j-nFam1HTTkzkUMZYehfQLRT4_hf5YbaUb8UVdNl9oH1sLqc3IaGYfZ0n7E7lPiuxUF4nWPNketbzqctAtubb2b8voFkFUJ4oP6dqatRTrJ6XIcG0R4IeUtGOl3tl5Eu12a-QDQm3c3ipcp5PKoCGhFhPoCkXrxAYxmOSEmJNWBwtPyzC8v97BouJhxryoTZ5MMxjdJWsXgbySzRqYNpQoQOO08yt-xgWgGcAkuBhPy8Bs1OCXxkB1y0YGPCnPZ_FTs_WBAs5FNm0bpElo-L2u-3bx9KqlGL54OWrWq0YD3se1JNx8uTq0zmcl7tzPXNSH",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMb7WcF3n5UJvbZaPlxkAD_KprZRYsDqsklRgzJeTp0thDnYZCYCTMwh3X8hDpje_m9gtAs587vgDdQPTuj6esDg0BfqauQRkbLZn8fOQLaJpa3ukSavmt0ImAoWDfpKDqFihCOIabtmcEHoDJtzep0apoXmVgpY3vB7_EDbhHBtcdoCFzhpzX2lM9z0Iw7kENa9jrLTTV5WwFB6d7KY0_wueQTp045fHQ_zXWXkH1CSbbzUJVdQQQUkbmQWsplnSUX9ZVG_ycoWCOOFv9DNpbbrwj9EexX_3HzsbgDrZ_HJmQQVHf-E2Ro22jnJq1LPcvWQU8zVaHUiSwIY2rphM2nV1vunmGkdStxebwJWUf5jVD7wLHwiDSxKZNGaUSuqXP-k46dzp0x2sFT2WiPJgqq9Vk4",
+        "width": 1884
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMbH5ZV2of4TjGZuO1GOdhcNiVYjp-hrziuIiCo1pwNcSaYRgIxTY769Am6nA9tlQbc5CmPR1NaY2Tg7ar1bBYUhGZ5vY4iYGpFAwPVhP1_8jsoSQz5T7v_QlIzOIYXwcwv0wInmBEH_Z9jRFBGWbhsF6Gg6pCCSNNHvgmwllztIjaUB4qPy3K9NbDD4xAnPMT5qU8DQUws1OLH0Sm_mEYia5rAvt9K-OBVmNRhWa_Qxj7Q-lH7pz1ZFZgywIUd9tzGYVh8tOPMQFGZNkWnxf9yzsex6gMFZOQH5ansRigYO9fh0PMY_5DskOOFe43lwVzjddQI5NW_RiunA49g3sBUeXpgDG8fsZWip3hjVfoV4tMZkHt4S552Xo60AGu_lzRpeSbazz_1N3V3BORGCmAjjV1o5",
+        "width": 1884
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMZAfpZavmMCwB6Kp_aug9oQV2g01f5ow3t8TksUmTZn0i6EkHgM18b4Bg2hKgbuEOenNJqTLqikKt1b7z4LAmClqolCFH4Cn2fTieT5NhgkXMMJpy9OQrYkclMu_lhs7mB2tGWhX8cnHVqmTy9M4GARo9jktYYCiC3ygqmIqGHlyls24OjWo0F8258oOXECIw-X3P6jJSjRptjQhgZXdXWdfdg5l1D2NSU9ISi6Z1f1CqcKRHgbu6kKtky2SVGKmic-Asi9VP-rCRjf9rg6kOu_ZhRrlFHXOb5ImtGFL9180F-UqgBO19n-SHchPlByQZEaOFnVbBmqN8jnARiG-mpLPUV-j1190MvPqOuN6J3MffD5WN1Z3CI3Jigm2If5N0m3fww5fYtK69W0KODe8hSFp8lHGvk",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMYYRNwoSKraDrpExT-nSOFH6Zua6ItZxOpKL156bvUP3PdA957LKRQi2omPY7zOlMLgyFq9B8NN_QcyY4pj3zpdTqAOKgIR3ruD2k-kpliAub4kFgNl7asLFbx2MQx7owPC8TwS6BEUD02IHxFSl5nvvTfDHSwwMBeVnlt_qaTGpOgyaG9xiOkokf7f2QY2uzdn50cCARiFHEmgJqB2U8WTw5x5RnFX2q2jt4DXHIFvujgugIJKRRcRW9AFtxfHPna9MN6I5D7O2C6q_Tx3o1fu8tgzKwVa50rG3C0MCj7sw801e_Bvu4HEBnOpckZrPoFT_uDCRPs8N7zY8BbyCWRUALg7jM9ec2GTT-VX6AdjtSXVskUvnYdpYpVQfy2Thy2XinsDQkMnpAkiTq96G8W7FPnB",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMYFZpPOecaXB7oF3-SA98miUkWumyL9sw8o4iuKMrYSf1hxgy9lcKvx6urjDI3jDjq2SESuxpYtpH-ly7C94a9EE9ePDXIDfSY2pZLCfBwZwXmlSaBi50ZPCQrnGVGKewUStNxzN_WuzR68XBcR2hwle1GTKBvZ-zsLiwxqV2ckDLtwOOpBadqyiqThmlI4harB5kr6AcuG-YELH401pMNFyVCW4fK4_5FFhys28JwThLi9XjfAKJ-KZoCRcH_5nNLb9DNMndlz1iLx-jjTpmsfcgRnINShoC7rjaIMshoaAF5qywz0DsDttcmOkkEeTP3vvKQaQdCdiwldGj1DfJHORPc1V5govHtJxrbxH4nszeSYvnv9L9afVdBUZzcQQQfWHVa-qvOcUqKtqrRtemPQ_HLk-5s",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMablvd-w4OZcAiOugh7a6AvxwqHDf76xnfmQpMg3-9wqzIw3VBOBZsxUcfBrlTENisw-c5Som5mZJQytPJ8O3qkTRtRTG_bTDs6LUWtgnjynMTaIJOZt6EIkg4ARjJnF7jWV1Vaq6TVCs4lFGN8emxyz_vF_jmC9vQJ8HRv17kh_JUzwweR4GDThdvVfnCKOSpxx7ugPwHLGEBPWPRzNUnwR6gJIEQDkZdFm4XCT_-Hqofzs-9UvjlQp5jRnBSHqyHWLWw8u1LeWc3aQMhbHDr9e346XFMH2_eCvXEysUQqZOH0QspaD38w87yVP1tpn-9hCdKYtNuOPKlpCskmMuls-2XEbjAM4kX6yZx1XqYzxh9xEmw0MgcTGg9o-j9tY77GZaZfErduUC_Y39AR_8Dvhg",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMbFrWNf6c5UnNz4q8vT9HGFgeO3gidhtKV8Zkp7DKkCpqiDI82MyzeIGFWTxYwMO6qQ1wZLVIQ2eY55YDxc_G9W0jF-2uBnv-SIHI47-WgNIsuPA4pRf8MVLcFkS2vFutJ4fa8EZD0Eh8k_kNlczdHavBeghgb7gnE8mjwPKoE4y-vhe0bwV4ewwtt1G3TA5b9Y5u9wwy81ULZ1Pegq6RSSRAL_8AvemRq42X7PrekgKzCgxX9vbVeN_pgpVTzp3zXqKEBWJoekej2oQahmVKG-omgR7rVGeRseVxKZX2reOTR9284NclVTdHKGrjlS2UQ3KvljuffbZ-1u0Xz-DUR9Nmcqv-x1Fh2h7WMJKZMSs5GUrL2o4mnEoMUcatDvmB6a_zhX3CBj_SGZbjF30RK_kVhj-Vo",
+        "width": 4080
+      },
+      {
+        "height": 1884,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548326092484250804\">Johny Pereira Das Neves</a>"
+        ],
+        "photo_reference": "Aa-ngMZADFgJl87TgcJ8hV_JXecQcS-g5oLy2cQNko-b5ZEQ49phCi1erDP1VacKCzUipW1x2n_wbzfkuvTxXNdSHlSgu9xh7WwXjAuBwx0HscN46WGi6yAN_ecItZyb3mjj05GfFijuG3aMWVzDXpi-JI5T3O2uDNgG55sITj9GAL0PdEDNvfq26rmQzt1opsdx45LXK2JuG7FWuDjuUF-m9vUM0vqYGkTmfxlDRtbbxK3YoBooRHV4YZEMiGRAAlAsAE9LIqzvlIkmB1Q-muysR_seDaWrEa2xfIu94sCURDctP_MXJIGzH1_aZBOKTYMKV0FbeXKWDsZSOuo0uFIELR3UOGpCu_o3dz-gQYFAXqniBm3ybHmbOefNSYfHnm3WmJ-SE-dCQBL5u7KEOpFi0kATFBR4VkA",
+        "width": 4080
+      }
+    ],
+    "place_id": "ChIJGRjKLXea9gcR6kgwbdT_OWA",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6933854389143619818",
+    "vicinity": "Av. Este Duzentos e Tr\u00eas, 2 - Cidade Oper\u00e1ria, S\u00e3o Lu\u00eds"
+  }
+}
