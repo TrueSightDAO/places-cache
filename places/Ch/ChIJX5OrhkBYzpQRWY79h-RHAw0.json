@@ -1,0 +1,276 @@
+{
+  "fetched_at": "2026-10-13T15:36:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Bot\u00e2nica Produtos Naturais",
+  "place_id": "ChIJX5OrhkBYzpQRWY79h-RHAw0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "194",
+        "short_name": "194",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua das Palmeiras",
+        "short_name": "R. das Palmeiras",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Campos El\u00edseos",
+        "short_name": "Campos El\u00edseos",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01226-010",
+        "short_name": "01226-010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. das Palmeiras, 194 - Santa Cecilia, S\u00e3o Paulo - SP, 01226-010, Brazil",
+    "formatted_phone_number": "(11) 3662-6226",
+    "geometry": {
+      "location": {
+        "lat": -23.5374956,
+        "lng": -46.6509116
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5361094197085,
+          "lng": -46.64962921970851
+        },
+        "southwest": {
+          "lat": -23.53880738029151,
+          "lng": -46.65232718029151
+        }
+      }
+    },
+    "name": "Bot\u00e2nica Produtos Naturais",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1930"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1930"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111939603265860541054\">Ivan Garc\u00eda Novak</a>"
+        ],
+        "photo_reference": "Aa-ngMbiiUJ49JGDbk8wzyKJlhj7xALhOZ0VCw7_A9OX7Mo_M89NUe7T4p6Syrj4_QRWqIn1zKDWaM5NkjLTtSMKsx-7fLKKp_pLPtdR3dqpmA9Gy0i2OIOsAHJIvqURqkclJ3JVlX6XCxadsmeWYS9qcMlw7Czo3Pp0xv_hhukpRSUXXPl8_e0nkvu1axZ_mxTddEpkTEyIDcIe9Aw81gA_Qts0M-AOqEaQJe4rFUNtNLDG7_f-VdDTaMg4bZOkPdrpWXPgkJejm_cEXkjykDwsV8c-ZapFGhUBHHe4PZEUXdxCwGr2gPkO6LOuy0TqPIS8dEubos5gJPAdCNMlY-elbuDWesEobLsmP17PHOTAv7H8JTLbjvUO3n1I2f7bHaAhqovYI4vdanxgCgqGyJViiabbg_o",
+        "width": 3024
+      },
+      {
+        "height": 450,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106474995343342778900\">Bot\u00e2nica Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMZnSwqeNBoUxuqLByfs1f_evG8zNzuVwKP3npKgQI9tydNpIcLoUZrkfHHf56pK9kpRByjFb4QVLRefJuNB3DEENDuSiPqmOeokyZjXYcoAA0aTbJBmmCBwchUgDtxv36DxHv_2I8G1xBizQvR8go7mWxFT7MBLGzNnbdqBLnLRX8KtdjV8MFNs6_5pf0sxtRnpCUD-TWoXh4v9SvB02gk6UoIDMsmy_hZVWceI7N_m6_vZMjGlxbvT-QPycmFgcg31V5BGKTZu-dHijaTcYvoVTAqgp8OU8TXy9KcAzvMqen7lsp-BayFxjvVlG1Q8EsNqVGHuKM7Sce254XhclKT-6DB4lx3paPsi7KrY289s5pv0mIpuBY7QZoOO8YimEnxfsN_cWDRHpujKiLw3gQDOyVA",
+        "width": 800
+      },
+      {
+        "height": 291,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109993281040261615755\">Bot\u00e2nica - Farm\u00e1cia Natural / Produtos Naturais Santa Cec\u00edlia Higien\u00f3polis</a>"
+        ],
+        "photo_reference": "Aa-ngMb4B9Aso7jq4gncY1lNpbxbm9KzKi19AJgjBQ-8eis82eFd13IA0CiP8PGiCjA44fqYV2_baPGBgnphu3FxSqQBrGGKCp-DQLvuAOhu3DRwaR0oxlMhQ-BaKovFIa2qDc9KNRaKrB3ARXFs7lEjooLi1Vt2Xo82dADTWsi99z9hKy6okREmQeCQ7Mrpi4MOlHQVmlBhVLuuTmLMO0XSv3G_cv02FsxenSYTHl2hLvmsl1CWiVSWM9aQTymb4TiCCSGGVSxwY-ryYwQt2n2YmcwoW7V4cdlBFkik7aHQ-tqCMjvAwWLWYVQITmxxlG2AD9F15l4VjeIe1iggAinV--QJiO_heUWHQ4eAafjd6BAZJYgi_NzKcBgGa1KS8mqkJnlUTxvsORXz50EO8wqZEJlL7NHSrxk",
+        "width": 440
+      },
+      {
+        "height": 1125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106474995343342778900\">Bot\u00e2nica Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMZWGkcQz2yUzfDIV2iAvU_leEYftEtsYkFcY8wysCL9Hnuj5dTfcz1HkMmxniPZj8fzSNB7jmlttGUJA_Vma9kZxKrcgyN1FY430Z33ClG2nSN_W4hXGaQJO2MeLFbBz-3QUGDFzcZAzNDlAAv2Ty4XOaGcmGlFVHa1BLKKfHSi3cvx0g46kepGh7pnoBJCPJMkLtOoQVH5CxdVmZAHT68u5_j3buATcKke4BvTJ8BSAbghaNn-faZi_u3mmCw1klqc0m6FR8DVrxBRmxvYiAEfu34Lmbl5Y7V76B3fT6w6FM75BQ7xDwVMCvkoW6bEp-c3FyCoIaqxTnrdAoCLdELk2T5-Q3r6Pj1xJZbXWUGZlSBFEeT03J1-H4bHjKTLtUDqqcOS5tfPqdMA4Yg_tSYJsBU",
+        "width": 804
+      },
+      {
+        "height": 879,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106474995343342778900\">Bot\u00e2nica Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1kRq4PUSPT43lEoI1R-Tp5m5npfmQ-QpTA5l4yKbVkltFzoIMP6lNljck2vx7WayMmvK7Q3AQKhZID9auMjFZYM9D0CoP3h1URrnTT5mN7506n3NCjkh0WgyjkyfARQFiFTEiAV9_B1QCVQaMtNoww2sWZhrpFG21AKudGvypkzE2oVJSXVuitTqHN_KSt8Aq3i_2siX2mN8-AmvBRsE-ayJg5cBgic14wuGn_qDuw_E0iGgMjQ1e2y0peN_V4d01iUxxQokCG7TQumwXB9ogaMg7fhiMbw6Y7FFJGenySHmGu-NucpvTcRbQQITArh8rBNsnVR3ZAdGosJJkl1C0GW5OdRHP-GNdbRo2QOu11UZUzlrz72-HXrlLYjD42jsOf-k6MdQEg1ciu9DM7ByMzg9S",
+        "width": 1260
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109993281040261615755\">Bot\u00e2nica - Farm\u00e1cia Natural / Produtos Naturais Santa Cec\u00edlia Higien\u00f3polis</a>"
+        ],
+        "photo_reference": "Aa-ngMaFTsWmC4WiAPB9XQ4EMOQEPWjqKoAUnIn695OCYAQdObfSe3jmxQ66_QloJeXvg0NQGqZKz2_zydPaUUYtkHRFrSDQxA-r_M-J00kUq-OtbKBXJ8ebwVyHpz1e0NNaAAvHWtyN3wQ8znrUEGS_EJMimu3ZULmJ6ZYS4Or76UFUheOAsls7QmzP2fNavEJWtpRxTLw4NWO7ZQKtWfvAfkARRVjcUG0jF_zqPMNcv-1PFYzdq9jPYvYmX7mRX4zSfe8fCqEUx53h_nl4Ijvi7bW_ncGswTRUDzURC1hzmMcjCpSPqPO7TK2xHvwfFgtszL4HxW3-tEoyJoUb4RBhKy2fujfkRtB1GYYKduK7C5O_qSiNJedZPcSAqaAnQhyylH6xF1NIC3xpsQtAPbU2_NnxHOM",
+        "width": 1500
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108294171607200420952\">El\u00ed Llantoy</a>"
+        ],
+        "photo_reference": "Aa-ngMY9lkvgUfTfTmt0-akd9fEyO3Hg3RVq2uqnQ1ejHBlL7sgLZeyLoTSyA6jvtokfSxOK0qEsuxTLBPNas_UPYEMyP3bgydzVa-3UcpbEVDKRbNcujC9aZ77j0RaUOiN3BVUdZJWDx7Z1TU44RpX86QkA_PPMhShj3uFWnUSXUp5IWlZDodOks_2JZlg63Q9s9_NwbJUIRmSqoGdoxjAXOlpJpbcWap3PFD11dUKMmAz6OXPE_VZmERq-mO8mjSUw7f63ims6VO-qcXEtOQKX0G1UTIn34t1aaqD_B2iB82P_042SdCuIFqoG9pki40iUTzZS9euFSxM82Tt0SszPnKOk9lEDz7ED-bz4g8b_jM8QaHqAUjfgsSuDPZQK_YBCvg_JgVl0HyMuLPWON7hb1kPtR5FY-To",
+        "width": 2448
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106474995343342778900\">Bot\u00e2nica Produtos Naturais</a>"
+        ],
+        "photo_reference": "Aa-ngMY14tlHbmO1OEQCK4zoQlMCSiWJ9pwnRTnglCowDKoDv_D0-qAQFjEwVjuyb46__pvSL4HpY3pA7fJld1qI8083F6HLvYLNUfoglZno92EgU-7Mf4PBcRHnpw02sd1ZqXAkwPzjcakKt5oFHB6N_07bMYi5GX91ZeoF1ESfy71Mq3C8ZyECy02IpHDrP_Z8SoUpn0i-qgguuQJ65IjEKU65mp_y5rvRQYTjjthTCNDWqmlymO5sWMAjxWK-ciX1RxJpvpvWudfnri_WHwQq_3cKE_w4Kld5a762CFtekAZapHnlKTtPbemmEIEHkwjLl0GMhRqaGgiwmSPjRoP9hf4OREhimavL88Dg2Bf8JokTGzayGYUhB_gJdnmjJZ5mcbB6XaL9jtwiMnmvVyYP7Y7TJL5c5bE",
+        "width": 1000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101138733190814229644\">MARCOS VINICIUS PEREIRA DA SILVA</a>"
+        ],
+        "photo_reference": "Aa-ngMZYs30GBvW3ogP5IgTGLCsRiP_uKgXWPjOCBfpZNquyy2M_x_GjjNE91DDNWB7KdjEr3SByypDYgWCkG29PV-9ASD_NGJ2Ga3I7lMon7Z4ZBisP6Zc9fcyIHjgKGX8g_AF90SOn4dnfaYLtcjck4Rbov1lF3eeYq9ZOKPXl9ZNE5WCmcNb5sYS_qHXWZenMbsS0Z5kvvdgWolyhfh_ZwCnzSuSm90OuPu1cT9ocrno_l8KrXoEB8cwpGa0BFDVjeDicAGR5Vgi7PtpH4TNss7FbcIuWXtnseF6LF7--Oi-41l6t88VNOoRIfIRwylTcV0AYcXtYRe7W7TuFHasS6v3n6FYuEirRVi3_X5rgd544yGYklvhdXZtQR5kZG98P3n24yG0AxceJ6wAufhtdiReJ6w",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116151599685713891300\">Dante Ferraz</a>"
+        ],
+        "photo_reference": "Aa-ngMa7a4VkoJtmoLzxggvLEAW4jtIlANvX_T6nn-6mYgKGiek0OwQuRhnUiBz1FTCbSw1FTSUFjXLmUilnPcdRS5pIhkTJRMTEOmty0ytKdkaejrSWJSuYzHXyEcEhN7E9yfXHNW4SUpZI6rGKCqgnGE5bE-JqNm1p-fh8mPQic69gV9Z31ohj4O9FQtPeJzR12NsYttNR2ip_oklScPhxF8Brf7KPhsqL-WpvdHTLjj0SouipIX3XiXkN96f91FvLSq11ma3dz3G6q0gv0Wm0a97iS6GTKBrjRnY27jruE8DGSn0MQB-E_VwUH0VBIqn0ycLilI_ITRvcn1FuBGEQ3LMkqPYLgqLLTZqm_Vh2xeI2wAA1M2ssOiKvbVtgCXIuasIjBrnFFLXfN97At-vqceV-Ros",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJX5OrhkBYzpQRWY79h-RHAw0",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=937672194282851929",
+    "vicinity": "R. das Palmeiras, 194 - Santa Cecilia, S\u00e3o Paulo",
+    "website": "https://instagram.com/botanica_natural?igshid=MmU2YjMzNjRlOQ=="
+  }
+}
