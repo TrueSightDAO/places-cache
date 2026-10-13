@@ -1,0 +1,270 @@
+{
+  "fetched_at": "2026-10-13T15:37:13Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Natural Apothecary Shoppe",
+  "place_id": "ChIJw6Tpsu9Bw4gRtE0bN4BMA3s",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6608",
+        "short_name": "6608",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Gateway Avenue",
+        "short_name": "Gateway Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sarasota",
+        "short_name": "Sarasota",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sarasota County",
+        "short_name": "Sarasota County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Florida",
+        "short_name": "FL",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "34231",
+        "short_name": "34231",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5806",
+        "short_name": "5806",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6608 Gateway Ave, Sarasota, FL 34231, USA",
+    "formatted_phone_number": "(941) 554-8623",
+    "geometry": {
+      "location": {
+        "lat": 27.2598029,
+        "lng": -82.5167445
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 27.2611601302915,
+          "lng": -82.5153082697085
+        },
+        "southwest": {
+          "lat": 27.2584621697085,
+          "lng": -82.5180062302915
+        }
+      }
+    },
+    "name": "Natural Apothecary Shoppe",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1999,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMYK4b0fQAuHY5zVDNiECZaIjoLWhdJipkV_kABj0dc1VW6SwdNT2pPWeav5IOfnn6ZQn0HCxqCM4jgQdRaDzZit1qKG3iNKxLfhNaIU3Nsj7cK-NO0pQsgODj25csPp5ucXgNiQuEpFvFkYlKeW8w0sQRZ-yt8z9HCRBs0N3QW1XKnqbhtdQxzluQU6P0mpXzmCGXoXCZ2zdEIrNKQLMopARtjfIqjz63m5bBCFAxJsYL-uXUzJI7v2WZZXkFKEgtdBmY_BUeR79-SUM4fThHAF6Z2_1dU0AKabYE9bZ8UD6wqn_tfS0G9Xc5Sze2UMW_hHQhgpZeTOvgn0OUuwpnpgV0HwErCUxL__xalVkeZHSk8OsbEYg-aTuy8s9KmyVmdmm4PXLyS18f13jCNPwPmy84ldM56CAFeLNXjt8fLZyA",
+        "width": 2000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMbORiZws1vVZ7v0y8vGcLyjGEX4P3XRBLLLA7JI0bxB4amfEQssyFjzbSCqQVYAIknbl_-gGKpS74pxuHsSe89nv6lHGOeqVHqxr-P6mCIIMTbyLi719uG5aM6KWX2lQ61oIQXv6iQHwKa5AcDlC8Jf2TQpTcdTZU0EkbqBzZCSHpt8JYiQhELCYDqKePplTVhpufaU8pb2yYKk7IgTPbkJbhgWwk7H0gmEPpHyersv2FF5yowqD6PKp6hEfLvtL6l28WwyBxG_wrPag5hnJsk2uswuAKBVsseK-m1gb9lRz-KEa62ODsyK42W0k1wDutf5yeyGutYmSrnxg20lNjccqK-_wqGU_Hcg0nB7je5G986bzhBY0bo3CDpw-Bt2lRIZl3Bq78CMEKbFhXsPPdH5p8e1Zli1P3--dSGggkqx",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMYFe0s-YmOTL2AKmZsuATbaPRY1yGufqFK6Keq7o75aMGIrhssnbd8BSKev-0Cm5V-zhgqqK_N6z0oaEgcpd40LYjnzorzjnvUzAE259G7OkJSwQn0-AR1bDR_M9pnWHqk9gtoXgH2CRTlrztGgxRY1hCbwGonkaz1f8quJhg-3_8KiZQOf_ZQH8IUel7Lfot_Qd0GWmHIfFxMOHHAG_9xY8pbg-2fRFTM9jkHLi1RHPuQLjnGAfSdw84sCcpfUR6Ewzs6srrLst39qEcfgBfEkc-pc9p8x2eHjkaKXevRDIpMiycTIV435q2aEUSdYS2wgEf-MUpBzZjTZQoI-6JEAQRRdIPxEXkyVI5I5RXwUDDBSDkcGs_N64Y4JOOPhPARJqBR6T_eO929jMITPUsJvuPfC7-k",
+        "width": 3024
+      },
+      {
+        "height": 3744,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMaRbj0Rw9mnyMPBJFxpogXdjIP-TDrYfF3pqtG_SMuE6cPaNaTl0AkSZ0qphrsN7phckQFeIcurYhxct_yoFzcfDq94K5d_73T5r2seR-tR6AvddX5PFnzuiL4VkCUYwKQ5w7Tn7Hx9ydW_T0cDAj5qySwmislpXby3iaqaUJEh2hHBoRhJu5VySp-yOb36BMdKOYCFk3Qwux_K3O896HeAhljPVFk-NDiuNjRb0JYckS823lzg2h3RVP5YFykZYA2UpyHo9RAAnlOPpB0NoRF83SRg4UrUGNLaqtbRMWbVZ63wr2KRzy3m_GsQFM_QOvYfP1-Y86YSfeXH1xqqbbx8mlEtZxqX_V9eu35HSYS1AYzIItsMK-WzWFlIAEJ6P8TjO98U4DdHrlYlBHUgAytbIT7w",
+        "width": 2808
+      },
+      {
+        "height": 1890,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMYTgcKSFmrScS6vuyhGFnKI3aFJcGyDpGIGg7nhmthn8pRC0dSL96H4AaBBLSCWOAAFHnYw_6FBpw4E77WVk3LPjPfb-dlM6PBbENUvf9VDuP61KH4RxfEvxh0CQevA9md685hnZn8Hwzz5_87TH0PROMXOQUhht92vyrug3stOD6ySqoYmqDAAZt0QLJeVleErGqltJO7t7MVqujLiUg6xCzal0W4xHOuPfNwCxwm1Ro47kYR-u_I1FVT7DVoOQsa-ec0rYAKt_oq4Djdv3hvSrEI1dNjZ8L9boRPTrsN_4mdEemV0yN4BMB3zO1vltRmgwC0Geytg1Dl5UbHBJYe-4j4lnFfU1T2YEUxmvTuZjbQ-REy6Ts72WPTb8hn4HAK2duvg4WG-vLV0PTEcUvNHeA",
+        "width": 1512
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMZgHM9DPDdywLWkmYInn9PjaLU2GkcFULLpNt5F54iaZgQuPwv8OnkRmKI3DdPs1lYBTOUDp_HNpwqfxu-La-Ybhwa320SaVo0e-Bh9HV7xQXxQVXq98fLXLGZiz2sru9iFPjtEgoFmOvZgSUmhpVtdq4Fv2LnAfYOXybHpnLML6-OX2111lPoKqhO6hJ7qDwnYDgNcaiSr4iCq-OHaLRZCdu4-80OCUy5_sbIN6pkiZs5kJDuXGE1dT82_2Kzy9NBf81irVwPqdu-LorN3Pu4g0UyjR1H25p2rnBJxmaSc4eEl2g3gyj1SW9jo5fEym_I-Sz0HjR7fLavgnREsfCzfNmPlT0gNNoCQ8d67RdnfEKDCFIOQ2yRUjXCaGll0bUDgm1d132R3gzG9HoeGuevl36CRheW6OplCZme5z3PY",
+        "width": 1800
+      },
+      {
+        "height": 3542,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMatxI1Hm_W90szuKxn9FCcl-AJq6P4vD3dDY4s-9m0wRpJ8BEsy-0qbhYlnZmuQxNBGpi4Yb2WoaKIyC4rMf9QojitM7qI1n4tNlvR3HbTyNfDplnd3EU9xDcwGnsa4oC3pU5NypxaAitcoiISKicDhNYkPPjbnTN-wTda8r9x7YzaSX82y9NXuWV7QUOwPEACo1ucQHixLT4fhUCvLnmTXsOXAI9TjMLckJJr0N6qM2-MgOY08rePPI8kUc3YrNTRiJx-H4DL3rs8BUTxhnPc9lIM3W-N7O6STBa1gRW5KNM9n_ZpBy2d-zuHlOssFMjqWDF32-_bce2lHsT3oHRubmAASYBAS2kSK8tBYrsEssByLLjnPN1aONfq7Q1cSG-hkxN10-2ywOPsFbSNVlSHAba0",
+        "width": 2657
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMZ5wZOkT5ZdpuTg57fxrkOk7uY4IniDBK4s5o1tes9zx76hDJZJPrxTraAukU0LPl_1Cxxnu0jnJY9GJK2VyTBKl8XcXYR3y4LsCtEy2wfDqq7uRsf77fib-X2hKVBoneeC-25DlI59td8gXAYnxZJKVs4m6jIAvt-QGXv-qsedHIJk_FreuBP24WONk-Fpi0hKXCDPO2ky5o1PwshE7FlG2PPYtg3eijICiWFFwcRCWqmaasPEIu8VXGUQe_IDFpYQ1z1iGZcTcjIX_CxxFRvsQ0pn7Z6SRLX5NnD9m93upysfOepLYgEACKxT8yuf0oydaQg6lsE69L3hV5YdkxPS2rsPtHeTqoslMi2up7QGq1M7WbKClrhCXLrwq4MDM4BKNFc0tWZKddl0bn9iQWRnT-Y0axgCqJrOAXE7wqhQOw",
+        "width": 3024
+      },
+      {
+        "height": 3403,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMYj9l7QpJVe0r6b5oHmwq9ejIQAfkl4NNIn0R4HxoI2_1zviQKgs-05gOUDqmb0NHIjgUQ8FGNmH85PDZiMT_WDP4qtZ54W5rTAjE-FvJ2J21mYKggIYKTJS5CUJuW8jU4oDwlcR3frHBmPinuusR9j7Vh4T86KonEP-3M7TreCVWzsRM_npneCghSXMpegOYlCTpzjOzZpG7c66sHapLDDTQcjS05WSOIvKsqAE4GZrjDkTpGtazQKt5nyOSfYZnsVVamfRL1reHYNPf97R7y_R0eBoRmGd0i87T3bSVUG_sI6Pb8lKgXm7xmm-r8nOMr4JlrguAAMSo_LToD-n0WD_QfKQoHDaIN3mKh4qdLcLG60Rl6dlUUOn6DVFjH4dB-KDeu9BQnr8o0ItR6M6dFmGw",
+        "width": 2552
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110071052033470477267\">Natural Apothecary Shoppe</a>"
+        ],
+        "photo_reference": "Aa-ngMZqmtuBNlmb49PcLttYJ0VHgI8KIN88bmqB9Xy74JUIsqzxIz6kGYJIJxXz6Jkiv15xFSIGUgeq7us2MAP8DVEBkBkHOn1H3nLzQjorXVHWH-7CwdNFhNaJ__nFTUldR1nQeBcQlo3XM8IvpRjkg-YsMAI-K8guXWfvFIIOT6kuUXM43r5eQQw4YyKw2xwqY_AttAe8kynGS8dw7PmeCQnp8Y0pIF1sUwQ9n-WsW8ml4Wh4Fk9hKLxrtpzyjPJyfPee2d-8PYzAAnTpXh_2Sg1pXf17tMESal6BphQigSkMMUggMgAmSFUtnWehrTjg7GX3O0Q52H8frYNo1Rbpoar0HSg6ZszkF8AuRvL7-UVIgjxHlQNg5fFFsDZvRXjjyZYT7FgEG8zYw_kGnv8Fdt3Z-9w0mCU",
+        "width": 960
+      }
+    ],
+    "place_id": "ChIJw6Tpsu9Bw4gRtE0bN4BMA3s",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8864012605159329204",
+    "vicinity": "6608 Gateway Ave, Sarasota",
+    "website": "http://www.naturalapothecaryshoppe.com/"
+  }
+}
