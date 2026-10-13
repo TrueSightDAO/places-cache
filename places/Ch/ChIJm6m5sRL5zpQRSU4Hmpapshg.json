@@ -1,0 +1,305 @@
+{
+  "fetched_at": "2026-10-13T15:36:49Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ayurveda Simples",
+  "place_id": "ChIJm6m5sRL5zpQRSU4Hmpapshg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "865",
+        "short_name": "865",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Nossa Senhora do \u00d3",
+        "short_name": "Av. Nossa Senhora do \u00d3",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lim\u00e3o",
+        "short_name": "Lim\u00e3o",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "02715-000",
+        "short_name": "02715-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Nossa Senhora do \u00d3, 865 - Lim\u00e3o, S\u00e3o Paulo - SP, 02715-000, Brazil",
+    "geometry": {
+      "location": {
+        "lat": -23.504199,
+        "lng": -46.6803315
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5026685197085,
+          "lng": -46.6790213197085
+        },
+        "southwest": {
+          "lat": -23.50536648029151,
+          "lng": -46.6817192802915
+        }
+      }
+    },
+    "name": "Ayurveda Simples",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fPM, 2:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fPM, 2:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fPM, 2:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fPM, 2:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fPM, 2:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 706,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMawOjDgbJC52cmQzZL9rooXRNXUsAE0jij04gWvulNzy95qULN13xBBLgphOLiPWXdL0l0BB8Bt_WUfcADaUKGRKYZaBfewp2AXcuphwdHs6vziKqaA79YWLcz8_cQKk_ZGV9GvdAInfD60xBK1Hl1o5TBOqK9ClAlJWn_BBfJOx3PHhyrs6pQsb2LUdbWB1oAhE_StR5Shrmxjdn0t1ZiW0yahGzi4XXCyyXzjKcdkWcdOm1m7_Hw0FCalmCSdzAOZbYGuqRNxJDs5CrePwmIO3jwLcGLRVROo6-62wxPvsDDhmjS7KgQ4EcMDWlV39nQrbECfM4pzcA4dSMai_8LuRiJPIQZYJoWpb4ZDYRSJgqX-xXQjfTs58wwtsjn0_MThsvNfiVK1mqH90oZGRcE4XhTVeE0",
+        "width": 1170
+      },
+      {
+        "height": 2112,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMZ8katBUF8q_PRsmcG0Raq4bjWRCy027kIPtI62HAnuv3lkyFN1PlKVpmCWmL0lF7JLjFuPU1SwctBp464COAC91i21DwNbnJonPsutbcQ0K6kJux-O4T0FqWwXq_4fk5RMXIHO5151gtHJ5mUNDVYOzJcMOeS8ju9aIjHTE1u5t_8g1t1sXdM2AyoiHFDUx41P6Nc6n7udYHQEWj0cVeLQPqrudN7AIhN2It8NqSO3dVb_AJL2rpKItnpn_zzzsBOG0bKiTHMfV8GmpnUbuHPxwP687gP2mc6SVgC6Fu4SZq7FEhl9XAub0HIxbk9UUfKQ5OyRvc8TNuBLOkLWoISdVYulNtcjXHRJne_XIO7CjCxGxWDGvTOEEXtJw3DkYErtrjygJBBH8teFdDMObO-N7qLrw5M6_oGdZq8xWhsC",
+        "width": 1290
+      },
+      {
+        "height": 1091,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMbP9bkHrAYgioxZaVTt1fX5maajswBxPWvvUq-xY52YEqm0oSG47x0s8WL-eTCABdTF77mOkCuk10PGEqDLAnBM3-wzRhuawvYsKDnsL1XU3wD81qBTPyXa_oKzR0dGekn5ZfIAf6R2CgtKJsjCUyf93HVFnHE0Po0bCQU_XcqhcspWPOwL9LmBDn8nGBn-3NcO3kLUC9UVg1TXye8Too97vlIC_Q5gc_8FOTLJMnq-sZ7HyY2KCMUkrfq_ccMm96tEoj7spOKCpMQaYqBterZMM9qSmv06-VnO22y_1bRoIZOBEhDAVFnwmJ09rm5XtkNoM-ePno0T4R8NCAH4sz5KVPe11-DKTQuCNDJ8LIajnNRiDAfP75JGNiqTY0q_Lt73ccZgxBBbHtYghCyhUfn3ljDl",
+        "width": 1170
+      },
+      {
+        "height": 2123,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMYKp0WAafulWB7E-ddzDu6WjkYmRG02WsjKMYjdsdsgOO1MUgK2oKP0LUiOkRQcc2brGg3V13_NRnwseEYe-TgG3GxxBlY0CgaPo4z5PwwOUA__5ssKdr0OMJWlztYpxUkXmTN5bSluQkNPAUJBSCE0CZrWMk37Z7btk_ELHZNwEnr0Qjctqh87zh4VYHzpVrqKoaqr-JEqxDKfYK4bGkaw3b77wvMjRuJTmYG0huMpJTeEN_xUTCzRIVmmccG_LyI5AXdEsCzPIZCHWFr7lQQz78LeH8dKYQzwwkOi6q8KS0vSXZAZspQv_Pez4AuANPBfE_uAaBz3EGp0z3tRhCmaTdLey7mWX33cXQ6ZoIiL5OT-wJzdSd9mCqxWTEM70XHyHSmvcSCclAECGH0GpIpC6qpRH1AOLBMgpczruS8Tog",
+        "width": 1290
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106963788153169024314\">GigiBaldez Baldez</a>"
+        ],
+        "photo_reference": "Aa-ngMZY2p76hfHgDDGUTyXIUk_hUNQEAki3DIbdD6GZlnCnTWonFTVQx6PcmAoNoGuBNL71ekqNDszLmLv9crR0macVyu0qB3PUSSUnuvwtPkKlgoIApp5hvfPQqi1LZotkX4qI2uh55kMpnQMoRYqElz8D7Tt7kDTA_8A0EimIFR7wFAvs3qE6n-_qDtHBOQCvVFdIF66fTE-klza_jt7iCsCMkJEgL5gqgnj_GhU5sPV-tKHqp-QL-nNS8M8JtVr4ngpMq-FMCuK6lPAsaipbqyQXcflNJnFCdHvv2zW4vO0CmGgVQU1vhcFpLUqBzPoC6-pqIOAmiV1Z-B3c7kePlF6NZrCx0MDbn2kxFNcso6pw02Gmw1yxWBGpoBfe3h1bQJuHTnVAuiki1ALiRBTehKaMuNGq8JUDUKYgD8g690ye",
+        "width": 1080
+      },
+      {
+        "height": 1121,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMZb5Ftw9gK6fFlVNoVc0d00OJe4HzdfnVd78uuOjTDPJRXMtriOuumjt-nTNaMIMXr4khh0lPNoeYRrhLnOTCvJdzm1Ch752wuIJOWjNzkHVwIZvoyW98TTjLw9sDF066NvXXMR3mQOmnRDTBPbhyc8BVKcK7s3GLl47lQBmS8Rd5lP5Ckt3jXAgpgliENfSV-Zzt2UjMv928aaVYpzypskIAVxmErTayZGOC3rYIiMK0LbELSb52QmrBQMcocVqZs8MnRmKr9xIcb-O3qEqETTrws___yD7sEKZMrQ3gPEwLDTyy9PcfBrbD4jx10u56gKPU-QS8c9_Pm22fhD4qleELFaykgCPEHWG-YQdMIElZdmsRmKVbwsTFro6EK1Ol3UqV3mcn_GJC4FXtaYMefrGgI",
+        "width": 1170
+      },
+      {
+        "height": 3605,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMYpljSu7MbcOUVXPU-sBnX56jEn8Q0PElmM5nOZX3bu75F85-aM6JN39Qv-pTam8XLiBGCJ6mF_18YGyoZMVQLTt4FLwqj-IcB2DXn3LuECRzLUoG-WmSk3XHWNutlPn9Bz-9nIWP3g57QoCK7BPPwj5px50Jer2bujsh5pi2_WpN1dB64THP1s76Q7q246NeXmLSnXIK-o_-qNiNdSg0vVAuEakFkYySyk2JwIPvdw6KKbWqDZAVQXInpQdEyZMxPXrc55NP6Hq1vx005iUPNE_WS4quEY8FR7RqGc-ByE7RWWufxgvIYXVwoiZ9-DgosoIsfzc0NpRYcN_5HHWpJrE5XFam6WMjj7cdbc6qhGDHECI8WWNaHG0nuy2MOccM2R-ac7QdrauV72q9e_mQw3g_U",
+        "width": 2703
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMZZsOORVqTdYIQX91J6952VvyXfW-7Qg3kEMQmBx2qCIAkhams6NVGu5imqZWZUBrLaeV1db9rMJDAUHLnOuIKcXhE8l9Bvm6hWKHBcn6Y9zeZPu1XB6gbj3tEODpsrWSYJdmgkKQMMyrmW5XM2QQsBX57NdE_izsFCfcU-YbjTCHWxYX68BHOi14kPzPPKe0yFlLUjj1HP9uKUxVkPJglYiH1LFmvU-C5i3CYju5sCpC8tTcQL4pcjMp-boHnSUk-1RbnnUJa-LeG-_LbbCXb8aMgICzBq9237u9dWUEAaOKYThRV0WsNvDu9nfWChhn-Ej0ZXL13IfE_nr26hWvTEhvSFXOlOstlhbroogCmroq9QrYJwDNYp4jPqF1sft57B-SACHQGCVqJtmvWA6UlnngY6tbo",
+        "width": 1200
+      },
+      {
+        "height": 1121,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMa7KeidCWVD4PWnWjveAQMuetQwl5d08e7ZE4Nfqge3O6MPTtRpy83zf1EYSKD3r0-o456TQSAe4YKauijuHTXV_BPf8PWuiRB6z0KV_U29rkjUEiZUAq1wmWOD4K4vxMspA0F8-wPcvwVl4g6BD6gdKid6gpk2GjEpsAFr-VdPZEYPZF9zyy-TAYJ1Mto7gnp6iFei2-pRWn9bmZqcHxkxMciXzYAVuREmNWb9yPxZuZWY0RzhCmfkkLOyd4qec26equLMR50ltbQgY5vZRGDTx6ak_3LYmKh2x3vvGqzcuWLTroYG2FkrqUPVoY_R6w8fr3lASxr_zmjwV-ycSfCcNiRuNc05VStbtYRqe1OlIVUPa6uZBOTmwdLe-ey5k0d8dWhYi_Jybo3TtcAAwiMmRxEuC1k",
+        "width": 1170
+      },
+      {
+        "height": 1232,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101051633639418660866\">Ayurveda Simples</a>"
+        ],
+        "photo_reference": "Aa-ngMaQ0OUfcgLDbVkRCDOf2CoIGFOgEnVUXcsV3aC7d3IlVHTbQQM75-YaAttFeAMI_VJBP-_hdMUWSpKC1wjqbwHfph6pL2OXjGMV5Bb_zdXiwMLn-wIIe1NkmTTcBmm_Yz42acDn37relv_LLLLDb2tH1tM811BF_A5CdTs9PI-q9qLkhWwHKzP8gmmOaiVZgHQFa5LNoXer7eWZLUgk7h5kAUPYK0kLDh7-WPRcTCqvZjy_Vrl64YNtdFcDhySEb_WaVxyM4NdiAhbIfHu8JIVW8L8mWrl7zud7mepolxJoVYO3wI14wrxRyA3uzx4EThYocuB8Bv70Y7Zgih8L2nkqArB8KVzrXz4k4zCX2qzhib4QP6jTeV8ZfZlock_1s7xYkJtV6VWhl1C630BzwReDEHg",
+        "width": 1242
+      }
+    ],
+    "place_id": "ChIJm6m5sRL5zpQRSU4Hmpapshg",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1779671267059125833",
+    "vicinity": "Av. Nossa Senhora do \u00d3, 865 - Lim\u00e3o, S\u00e3o Paulo",
+    "website": "https://ayurvedasimples.com.br/"
+  }
+}
