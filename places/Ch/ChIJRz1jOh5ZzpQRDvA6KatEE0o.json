@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-13T15:36:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)",
+  "place_id": "ChIJRz1jOh5ZzpQRDvA6KatEE0o",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Cj 104",
+        "short_name": "Cj 104",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "47",
+        "short_name": "47",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Joaquim Nabuco",
+        "short_name": "R. Joaquim Nabuco",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Brooklin",
+        "short_name": "Brooklin",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04621-000",
+        "short_name": "04621-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Joaquim Nabuco, 47 - Cj 104 - Brooklin, S\u00e3o Paulo - SP, 04621-000, Brazil",
+    "formatted_phone_number": "(11) 5044-4640",
+    "geometry": {
+      "location": {
+        "lat": -23.6232128,
+        "lng": -46.6844484
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.6219319697085,
+          "lng": -46.6831645697085
+        },
+        "southwest": {
+          "lat": -23.6246299302915,
+          "lng": -46.6858625302915
+        }
+      }
+    },
+    "name": "HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMaskFXpn-KklfCFf5aoXPwpswmoDWwxGneTo97d5GQN97mWHIfMTxgTW5c7pTCy7wPM1L-qoeZifWYsWRpKD0LtxNWeJOwYiHGj_9E9Xz-cY3LXDrvESx-mI3UFzZwagYrL2BGGHF3ukOSq-jnq5h8AZI5_gX4c7etufkQcZlMaUcjT3xoKsPfi0SfXiiWtMKunyC4oOdhinnUS6av3OT66V_0dkG8vYfAC-QTMv_sfauYhRE8XQovw4qRL61hTbVhRIjb-ididx7fMfrwThWoUED1kkQJEAe2sh53eeDZfJ1OC03JA4mFvrJhKx8MY-9iCCQMK5fjhhGQznNws_fuHFioQqGc4F2EU77g0KWNlf8I9bQmflqsWQIJTSafBI-mllHeH4SXUL8Z1DJZU0s-gUyA",
+        "width": 4032
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111902299160035621544\">Healing Ess\u00eancias Florais</a>"
+        ],
+        "photo_reference": "Aa-ngMa0ld1-AwZrz3yfuintlei0j7tbC0Hzw8MoAfK2zEscdgEVFn9KUDQDJXT2gudLityx2_Ghhk9dA9exGEhMv_yHOdujkgovOK068ex4MjHSE6TvdzEFFO0TIEwdddn03DTqVlPj36DeRzIKaxe1XchBDDXwrM4Dgz8HvWRghFMRQVZNAlXZOXepF7zQ-kWyRQjzLLQuU8IZ6TJQbgdEGPao9_C5yMFtkKW9F3titugtwdqs-f_rQ44aM1_z4aiYLMD5ci6A_aR-hGeuCNsnMu64MWRCqTQmFWKXqCkQXGchLzxLGvf1gc1EDCUZlq8a3uvv0ibVKVmjqdfosRsMwW0lYZbxgmDHsF0Fik8UwV4KlnUPkVmNy2S8488Y4c1RwZu1gX_4EmoICEdj7pcSwfUp4sk",
+        "width": 1000
+      },
+      {
+        "height": 850,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMYsnCKlHDe0_bYTZ9SuVY0PfAcnM9paBVIEvEE2kYE-1eEVAFpwcthQcZUDwm6FYSSxfg-UiURzZB26oQ04n-0N0VB8ovFazxwAg6oS31t1ULoE472Q_thxvau3ZSA5v8aemF-FNbTD1-Hj5a05Xoa_QlVc4klnIxtbYRNbRlvBmNECdFOmhHaikHyLEVdQBv4ZHn06Tf12BN1L3Th-H5rgghow2-CBG3GW7Y-KgvRsielrPiHInu03NNa5V_iAYvdCSYhK88FdyuK0HDvrJkDJyJbUnjOpUSYwRa9ykanJekjl6hXwk3wKTKh22g2d03zeus_-w3RddG_AYmxW18WJ66U9DVSoDpdKl9H8PPm37qIVKa1lc_004m5cLfzyjj87BFdVxXgA8H33l-7z37hUvrE8JHo",
+        "width": 383
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMbeLCcEwgO6joaqoDdZ9u9KLHWv5zsoZu7Ez3IfsImKoDiXTnNQC_4EMLdvuspm3t-SshxpjLnidnqdfb-COosLXR3rO8QOLJh2x9xuMQFJuWVG56ElVmQysIgUAPEFrojjkQcD08C-j5G-wd8DwcRJzzUQOwejiiPpWFzazu9oRXaVUlcA3pOasFEOYbXf0-mH41BsNP8jE61oVrnE3efbRqpdtOtQNNStARy3Mo5R0ifXk6LwiHKC0VzFPtntpQfG1RkXvbKgOIp9elf86Ub7eBKEN1wDzbu7QtJx5I-jAJascatbZOf3x4AG9xQCMx6dPT5-NPUB5sHQxlt2gPXC5SrTIW2ALv-J5jycYEby9BLUCl9FsaMD_gInMmECu9GvBK9VBxYeo4xEMusjoZoGm0xo",
+        "width": 600
+      },
+      {
+        "height": 850,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMaPBeIAXJCpNkNJk8XW6EM9bWJwQxqvxbJA3bZ4Bcm8GgTQ0xOToxpOJFXUDNohRPd3CeQ7di_3UOS8ny6RrbcuvoLyhjxREqganE6-BW-DiWBbxFLcS6eCnioTb8Mw7tWAKzs3544SwBnuvryv_mJrUrGKICLnOtoIYQCm42jVpcXZv2cfCh3C2A8AXSziflHxoA0rVi8XpDy5cFam_qSgb_YKoVClYsF_EPnhVT9Vn1T5uLwP4Mkp3eVohOcafJcf8pFJUbQj5zyw26Eqlw6Zd7FlYLxRq8fAz5VTGk4WluMDUvDMy2d-89jFQU1TezVDTj0lKSVTGhAtM4NpoEhZiZwtAasZFvQ2uGOns84nDPQ-xmWMpl34chrPbQ1lc_NQTaJNQx9_bLyGukGOq4wMZMQ",
+        "width": 383
+      },
+      {
+        "height": 383,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMb0rQSSWRhUI5UYo57IFS7hV2AbpQiqa4V64kiE8usScPC1gyww7Hzg16KNX8EnuTqUSkpri80lTW6_lEVVu-ceajYp-L30___SWUwYg0SZoUYmdUpn28V4UFWZip3MbzTHeUhDI4vmoiKvtyRKLMbL2MA4-Wkv5LoUENrL1rI_H8AxJD8a6mB67uvmewIJtE6DsRqsgF-cqsOxXx6ymqk7W5VkaN91XdG9IRMBs-4pqipApxWMN63CWRy_kfQTQ4LPTeNC44GRGOemrf6SWiqVunLTAQJ60Xb07iLXZjdiXKUl_FiaOgQw_ADn2iAAHpdsJwvIVdIoMU8-dW9PETti-i1yNCN5XIKiToPfgJZojgetZ_ayyWoQq98I1t3f6yQvzoDiiU_xzWZnW9yIiuZOsP9-",
+        "width": 850
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMaQXDaGypy57PTqpbfm5Z4VR2IRVkYx1JAzQgTsmGEe__WQArLSL7CIl_Fh_Z7DobzFlSlANZA5sVDFVUETvnnFN4Dd5FdEbC13gWIbbn6hvLKnlf5gd7Pet08-hk20Io9aV_JWXESfQiBeBpceLNKYNgXPn9k5uc81gRKslLgqXdPTr0Td9VYMxV26nUp5EkwTRQD0TMZ5MTTqfxFjgyzrcOqTUzh6L5TUboR_qNq-Wq0qQfStT-1PypK3VTeswLhqA1fgnyPE4TUFKML8ZNTTZTR08S4CsJ2Zg_hGHTg0n-Hlrp9jZVIb2GUDVgl3L-fpW5f9IYuWY2Ex4AU3sSRJig4qEZsmebC2Rv42wB8EuhvQfvsoMfFchg7Bb0DJUCg5MEAhKoGBUaMQ0TsQIX7TDij9Ct4",
+        "width": 4032
+      },
+      {
+        "height": 850,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMas0pl19Lcy6PlE3c6lr1VkoMPU3obfzlW-5ak2ILxiQjDEupObkiqvuM99X_OXk0wOVpXailOsPq8o4oJy8cA6bcZV7WyFU7IiJTFrvkMTrCmv1y88Ku3l8L-K97VnJycgAare_-hyEHwc-e0Q8dRa-uqTdNGrCXm291Q4uxvBh6De0JZVmzG_XEW5AIPFbtDQBVCrQ6a2RZbJF5NhjVWklACfTfT6r2T4jysSXyuV3MRP-_8UfHtzjfiTxOTLA4jnAptX5tBSpLJUD1D6e9zDfKv90u82TTsC3Sv5vlR8clc_J2Nh1EUSB7b_D3cjyk2psSwAOoDOL2tP5RsEhIlOUwyGcJWxGPJsQpynPxcNXzUrDdMVyrEvDkDy-XKPGWKJ_Fv7eMGzvk9Cmbot-wuZew",
+        "width": 383
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMZGm7wBxAhq1CZUBGytXSHrtTz5dM_Beu2lKcpnCfLOLMFk3sS74CsHzFfZnjPSauOzNRiuLVgK6lv7W43-2w2vbdfLVRMUN3P13hMHle0lLEJCeGLOntMXEGKgV-uE3BX8WXFa4aVNUuyNqDJTOtDmF4kZX0IL66GilKJ3toatCEo4O4UGcUYUwtUrmPfTYN4QaMxhky1iMvprc3YTaBkk8V205NUj-snxRReFylr5uSAyGi-J_sHnGN0alXyezD-CfrQ1ta2hLIog7KFP0JGVIoxh-cGd-p_pujqWvbWcupwg-9q9VRHOD6n4LbyRQm_t9y1Nz_DrTHwwH7Y4ibUateDkQ2rIv7eB_7VVPcBo1WW394Lxc2m5FNSETA_rfV5JGyvGj7IYTbGkyARePLqsAQ",
+        "width": 600
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100766404196974656075\">HEALING ESS\u00caNCIAS FLORAIS (cursos, florais de Bach, aromaterapia, livros e acess\u00f3rios)</a>"
+        ],
+        "photo_reference": "Aa-ngMYPOxOD_S-4zQUeDrluJDSd8JuJWSNtyVE3KU7H6m1vmS7aG_1Ac3H9FGn17VjHlircbjA3ZLmZgxRBcTLjwtnA73vBTZs3yZyCzNfahff9NDEkNz_AJWPWpURAYk4gPPUuFO6nnJet2jhqn5E5RTlbMQ_y47QkSzMkHxnf3EVn9WVWOF-ZXRrcT0JkmUnlz984C9SjclWy8faSFohJ5CwIZ9Fw3Mdit54qwDu4tpiLeyrZMGg9UfHiWIKk7byazRk6ee8MeSP23mMI-OXllgyNjF8f75Kmtqldp7WBPB4hmLAjyii4CQ5fHifUmygVmxzeBW-fTkLOQ5YSGu_vHt3SMWUUc5CQOP6V6RI6FxORa1CtIHJl7ojoL2C9bQ8NLB1wo6hQzlo452wv-_-vc6Rm7BSa3H4",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJRz1jOh5ZzpQRDvA6KatEE0o",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5337685485285994510",
+    "vicinity": "R. Joaquim Nabuco, 47 - Cj 104 - Brooklin, S\u00e3o Paulo",
+    "website": "http://www.healing.com.br/"
+  }
+}
