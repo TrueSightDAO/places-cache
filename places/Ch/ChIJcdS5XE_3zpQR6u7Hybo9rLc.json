@@ -1,0 +1,269 @@
+{
+  "fetched_at": "2026-10-13T15:36:55Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Energia Vital",
+  "place_id": "ChIJcdS5XE_3zpQR6u7Hybo9rLc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "188",
+        "short_name": "188",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Salete",
+        "short_name": "R. Salete",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santana",
+        "short_name": "Santana",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "02016-001",
+        "short_name": "02016-001",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Salete, 188 - Santana, S\u00e3o Paulo - SP, 02016-001, Brazil",
+    "formatted_phone_number": "(11) 96668-5500",
+    "geometry": {
+      "location": {
+        "lat": -23.502182,
+        "lng": -46.62715499999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.50084336970849,
+          "lng": -46.62584821970849
+        },
+        "southwest": {
+          "lat": -23.5035413302915,
+          "lng": -46.62854618029149
+        }
+      }
+    },
+    "name": "Energia Vital",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1254,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMbM5dykI1Wzd2B4fL1Y4q0uXzjWwAe1SaGRzHwzF1tNo0a-w1zVD7oQuo8jppIJXIzJ9mNBwwtsBmK95J0sRZCc1OCxvMBJk_wgHsFJBflrudnjA0FHkiM7D2dIj75A3BxzjOk61cYeZpKfxvaAZ-bHbnukDEkFhX3JtGBWzOSie9e-vHqT4qa1_UWLqQB7NjK6WNWlqXxCUNxVGjNdb7BODOD12p2zl3Wt-_GE6Hq0d1Npwfin3xlolJByytyiSWv372aWdsc8fVOyN51yXmlLTU4dOQT8f03OMXUPixUhHFN_WPv77CaOwOFACUdDa3DAe8YFFMVYM7PFqClpF90OXp8Au9KYD6JEelOs1-l2olnYNEccL5fC2laZ_shNhu6xnAVtVXh89jpaaUtw-Ecm10pVgg-RYwc4ZCQqXOiDLA",
+        "width": 1254
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMYSDE5ePH2KwfzYOM7Bosl9OVlU3o0d0-Yl46zQow1zNxN-chZwFL9w2l7fF_UZPaO4DjKIj6cW4Bkg4CZRpKtvuWBIcjOjVJcBhBG-4cIDiP_tiBHc5ux2ewhW-ZxPNzyAmztySQu6tHhUqX3E38nHECamBeFMqbXjmvku4rm5-aKXkx8pusktJ8IpkTnhsbqPgX0boObmBUiePh1wbTKvLA8c_l_gy9XuZelq1bDn9imBre4R3oZgokR9JoBZWCpilr9WvmG1FjfjsB-6fqkhBbvVk73_01wz3rLErgYVNF9y1SjINpaVPp2G5UTNZqLkb4KVfiqFZkateoUXctGj71SbZ_BNRrk7JKV3dUV3NMzMNWXtG6cseHojhCMVlWIO5rfhgo7qJGH1nrMZmeVW8gUiyzJqKOKGbu0ctUi-qw",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109841878804462081907\">Fernanda</a>"
+        ],
+        "photo_reference": "Aa-ngMY68LCmqnpqdf1pBEzavOitVZWGUmkblaGPxaZ3PGWazgKbvI4Lq_m3aUNzClbBv8DI7LrMqImMu3peVRbXa5HjzHbKDfOmMvorxZEXmzCxW7sLLdg2ZMW2XXrsSfU1LS35E88voYm74i1MKmCGS3-6yVcygV1ksidA4JgzRKkFC8Hw-g0DhHmnhYazW3-xl154HiSJ7Zf-_v6Cup2ABTkEwjB8ZPviM19VwM3ylWo-NYIupx8wx9AZORAGcOfLgTW8HL8CbW_UNgndZOSLT6mIJS8oZH45cQGdJWxVHDzHKA9rP0mfKernlb9YFyoUWWnm4FQl2mmL2WF6Niwh8q13CJl--lPgliFC1Y6m1Is7eaV9Ho3fVxrJ9thKEBorCRh4nGdQTt_HQYoMgxV_AgB4ysGcycZDosC2lwOy4Duo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103470930579259753165\">Cidinha Borges</a>"
+        ],
+        "photo_reference": "Aa-ngMZjpDZEZMM4Sq72ArAJlNpykdRnT_qE7YqRAAQ0MnOBcJiBAl5N4bFF04R9yEKOKxV5OXrzsw-fkxf-CRZu_XFGo2ohAzzMKPfR88-G6orB_SxQxPLFoKl0EvmM2jXGcR0Xr2lsyEf1JQsdy3FrIzejEMgDGD2w8A3YuukkrI2ruy6dY-cQoIhpi7a2oRqILDm7mDkcp5tXwFANApAec2F9DPPDB4RTsnoF7l13DG4rFRm_MLmEEeNpyp7u8hxvhasMUBTK1dQi2_3a7SL73i3LV2hSmx-Hx56QtHREmREcIJXe5C5zfGUP4Xkb3NBub9zPouBmklECAc4oOFHI7xVJYgSzCoszkDz3VTGcxW9qNtTwvaL4AwucI9FOOa6gN9MEV65O5seygSzx1nH0rsQnV0Cm6DEfY-WOSB2fhCu0",
+        "width": 3024
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMaYE9D-LGxSboKrw9ZJiFlWkE9wtFRF8ktcoNbtMKS3LS9V5-KZj4dZ25d_x6gwi88ANyWts_Vs2vLVSKUnAFFPzmgbgLX8CLrUIu5FMkYpoNmNgV_s_rJhe_7CLbEEY-TUDoJJJcPjg1WZW5wItWaIxOgyTZiGqbDyfjOzQK_LuyYTS6X5rgXLVdxbY_-EciDM5i0mrQqto5ovY-Z1-wB2zmRzRLudDoA7rGJoHBh7RrGnSkOUb8eOblG_tH0MNW3uMTGH9RrXUloLMpCGjuWIHJEYDJ3YClW0FeM3RfaoE_5fVf-20wrAOOYHmQd5b2fhlu_WOywn9UgBtPgmEKmeH99EZFS2TRGrpZCY-t66DElgZn_S_lda1YFJ-Sw4uGtyftrk-Knr_aguKLZvBf15N7tXQERTIZRq7cQ9iRXo",
+        "width": 651
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMatFtBq7f2-uimcMqRSCWQwRY4l16fMVEgCnXo0QS4MmPCiH8sE0V3xmwjMP4de1bfAXJ-EERzJeTvPqPx_79IOae6028yt0FutyruBdF4mppVNQDGwTn91cgYDjtrL2DfMZ0lKHIfDGXnen7qpPJzlxdog6D1e8wymCQwJrZ9yHwiYKoAp3eqt5Fh9xD4Ve9De1PvyOe-B1xvnDE8Mb8daCNdK32CuW5G6r9FNYRqQeV3q3yMKqORvj_3k9-HuzvECpc7KoYQm0D5n8rUZn8vs6quaX92n5WLssCHIWC6pwZ49_aPDoWA07rQRZyadqpHBN7hp6xHVkHugcOZmsd3gaJ6whcue-rYhLfzLzw9hw2LX64zY_CEbZ3x3HtkZ8gky3H9-JSzRHv5BssbyyHV3V6ZxBY8W8IyOCeoxgIw8iQ",
+        "width": 1280
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMb9GvanZY9B3BvazuaWm0lGMwBtRfytQC98umWPHzXz9MZ11T5CQ1rNa4nGFha-G2OZZEZ1kGkcxx12NZAew186fP_Y-SdlOe4kDFWC0aMCKh5gl6ckcDzS-SilYnKcQ02L_yQE4va8CtNkpjUEmpWUV1c8BpMt1_FqCOv-wpYTHr12gI6QGn8N01xd3oFHQLyPQA4SJuCBjwGpKh7QSdCn20L-xCAxd2IGNMeS2c9-H0tYGT5JaC9VKNhzjzMq_mjuNUYZh5Tmpf6WiVC727kjklitKb58eFgGWJhNC_-jJc0pa59hOufNomomOF2_Ycx6xYvaGRcYWsBFGvCVhoMj2i5m_SFf9qP8Dcnw0VBqrQbb58-Xmz4wvj41ztowjZYu9ZcWlo27qpcfJIpTC-xuZ8TJNjM-lphqWLbDiqno",
+        "width": 2560
+      },
+      {
+        "height": 1195,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMazXZPrlxwdiq9eVyfcsylESz8gRwgeHevrz3Zml5471DJ_sAZr9cMUy42aZ_iFwPwDyaqJakkgAtJ4E3i9IbKqT-As7PIwuA6jbhGi1TGvQslLVVOwmAYxp3ENmfs-lyHZoCvYr-NAiEx6dzKXQsErfRlWVTiYK6rJz3w1aCgX-749CtXc6L-spVqKQlMKEazE8SDS33gktf6_bq9jyod9_i8wRT31m-kmtjnHdw5RChH8py-54UOicqgQ3hErL8VXS3wQA3INhC9Cg6CK3yL66dDKAZFmG8sMJYuKKT6s3a9HPEHdBuHQ1kYmN_oIRVZN1Wpp-CNnko4aqxtRr-lE4Y8gbvuvOIVIldSnU2aql9Gjdf1l__DAksly859O8nhyIm3fBt65vm2XONKPOyuQKJfC-syRRVC8YraIB0HzzQ",
+        "width": 896
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMaRGgbOKMo2S49fqXd_F55r9ShNAO6T77iMYn95z-RZXA4BJBXWb8iFVqoA4C-tSsiH9xJgGEvA8xW1rBfdswY1YlL3C1-Yx1NISLArDDPETzMI0lkLULnUk4PcDbI8TmcnPa92XDc_24DVetNJVqje0pGuI48qtYa56GFzPeLU-O6fUSwrNZ-4rJQTjw7jA1r0QvTouZv-MnbusFP-Nk2uWR6gFlIv_UIvFQO0mxMDXVdXzHPEWX7CWxWZ4URDeTflTwE4TS8OV1clr30TpKy2uMiyNIfQ7d0-b7oQ_XERpadNsfU7OuJajD0VFK3D_e9-idzzLWgTVxbDPUP1wMhgGb0lC9PPabIgjViI1JqFUExw6n9gVn077k53vSSmuag7BXtb87INft7XRAxSfwPiiINDoU92tU9zOxfMcYhQ",
+        "width": 1664
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107645447211030662453\">Energia Vital</a>"
+        ],
+        "photo_reference": "Aa-ngMYY2dkMn9-OSWAHaSb3AGCuLhX254QFIKAMFGOyqnaTpBkzMjCga69ruLUJhs6W81-8km8v82SEDYogoGVU0eqMJErXpeutg8SKRgJmcDdM9KzdKV3Oabwpno3F_Fqx8jGs7ziAmE14FMSmvlJpWq2iatUFZXLtuNxfj5YEyg_OzIGgsZZbgDTE-rWFIhV9GXzK_xNHOyXU82Pzlt4qJJmgkWkXR5fhJ8GhB9-nhXYsKdY5MmpQL1xDpYHMunjliiZYXb-f8hlX37qDvFCnL72X0JY83gdHTnT-Jr8lG3hno11o_bHcGZQB5XVrkpg5N5jcTRO1nLfJ-E09pf1kgojBD9Daxn-vypE6dtuwkRMUnm-p-46LWZm4ezETd_-fSFLfJMvzR6wGpWcUYS32UL8e7TfcYAFuVRSwut6nxACpog",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJcdS5XE_3zpQR6u7Hybo9rLc",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13235021277393579754",
+    "vicinity": "R. Salete, 188 - Santana, S\u00e3o Paulo",
+    "website": "http://www.energiavitalsaude.com.br/"
+  }
+}
