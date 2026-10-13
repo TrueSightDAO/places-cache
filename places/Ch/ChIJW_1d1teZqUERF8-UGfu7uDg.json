@@ -1,0 +1,265 @@
+{
+  "fetched_at": "2026-10-13T15:36:40Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Eu Org\u00e2nico",
+  "place_id": "ChIJW_1d1teZqUERF8-UGfu7uDg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "71",
+        "short_name": "71",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Jos\u00e9 Maria Lisboa",
+        "short_name": "R. Jos\u00e9 Maria Lisboa",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Jardim Paulista",
+        "short_name": "Jardim Paulista",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01423-001",
+        "short_name": "01423-001",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Jos\u00e9 Maria Lisboa, 71 - Jardim Paulista, S\u00e3o Paulo - SP, 01423-001, Brazil",
+    "geometry": {
+      "location": {
+        "lat": -23.5717105,
+        "lng": -46.654184
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.5703014697085,
+          "lng": -46.6527702197085
+        },
+        "southwest": {
+          "lat": -23.57299943029151,
+          "lng": -46.6554681802915
+        }
+      }
+    },
+    "name": "Eu Org\u00e2nico",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1300"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2873,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMZgIsyS6VFobyUCxtuecKEaykaWCMos37I_afp1CY66-MOIZEqcq0KL0SVEVN3Y6NBHXj61A0S-oCn96J0p5svCq_VqiIRGQcDHL39T1zKrSCHTwpZrs6Iz7Eyb2DhgrBvL2ocspT3xcoHaE8SZihjL2SjOLD0255xcgEMOhAqVyF0VeSIvePSVXL9Tr9o0WHxnf7_Lla0n90Y8dEpInHK0GzVVuQj8SbVG6cIGiV4TohcIZWKEoc3G-hjWRcPXO9wHL8nmqGPWvQPhtz2cpfFgyGVPrw7mNS8wq6VqW0_77nEmVWfLNnXj8ovC8yzPLTUbO7RAFeHsOPPT48d2v55XF0dlC1I4WbdoJl2fNW-sWqWwKIo5jpJuV3MydJ_2egK2KG7u2BRiUYjjHvXO1XprHGtfQLY",
+        "width": 2873
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMaUn_m2-xLXbprh0ra6deoOxToR6FJjGO6TFGXZ6hroj6E3XWGfaGEdd0N9zI6E9n0iWoij6NJaPibMc4S3M3cD4nYD8skOVfXFO6xL_hJ9_0iifTBmV9Fbl12GB7e0o0BsrqGSf5_R1l2ZGK0HzNRS9rcijAIvWkKRfGv35WrdSgvHufiCbY1ETVLTHLT2UjrueBubYr92xt_aUap7Q4sdxPsi4mK3t1wSr31MJK1sE0JWa3Zlqam1zsjhUpVs-wRVvz9vPIT_qqXctXQ4GMgpDMcn0w0e_yxLlmhSBn9ke-qqhY_kKPHBmUukWaNmU6fehtXjpmC1FItumU-JbKYq7VlyrepZXURURjGIhBh_EZsJyMXkjteZQ8ijYftSjAIt4t7JTcHV3Eta3cZqNUcXA5BMNCc",
+        "width": 1080
+      },
+      {
+        "height": 2873,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMb0bxqtb5hUAkdwJJu12SUAr0SDfSnMMXuclZ8Rv4F11gKM-2fjGpRf1dfD34hMH3pR31ufdpuLiL1Z8e2g0TD7aJsTBSmduTw_ID9glSnb0dsqQ5xvOWzUEf1TwvMCzWrZBFNpFz0znlv-DVtDAe2WwxHdYQ_wDM71ZjqvXFoYtFKZCvZRcqnDUbrCbP3RByHY99U4OINzN6rUEAg5k5TrwiZosNOpa58oxCKdt1N0ZXhWl4ZPAbHWrc63VlbyA3Z-3SlzoEvbrne7JETPqV1IM9_CESw4kBSQpJWqHBzWA3vBUOsW5dR6bBXG4bp1ixspganvJfjblRpQ5UJwaau8uig_oHX0gk92NZbDexig9ayKZ5k1zGQDbU06ArXdLhUc7f90ZpCh63UZQCV3MQbaxAG4LLw",
+        "width": 2873
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4oRUIbJX5gnjJ2m01PzzWRwYtkzrFZC9y1KLg-47b1GBbhYZaeKxvZSRsCf-QspZKd4GbXb0ncVSwLyZXNMX6hiujsd81Jwagl_76qp6VKbTmG0cerajBHJhtXSFos9vdYqu3KpsLIifSFZSMz_l9dXykfo0jihSFGJPvg6q2JLsyt4cAnicZflu-yBxBaIxlmQXA8mgaVeCg_GLvxDpAB4cdghhTD9wrIX_EId8opq8Wh1mc5ARu9renmslePOvi5tN3F-jkY1knJUnQtzAt8-o1SfIeMuFOECxlga8hxo0TxaBvc3hxBLAVgiQAR7PkgMIHDcpe9eW430-_XRhvVzjMhIZOsONk8JNNyC5tSLj5mOcc3VefwSlKDsnrDJ8g1FxeTj3C_S5TOSqBHGXl59Q",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMaufGe1nrtT5fz-rmtWGM_nAvLgK5BNCzO3uMoou7dHZw16gm4mSHJtPOtybEPpIU51Ha81AGZTL59nfikriqyIy1LAlLdGVD8x-Be8Kpc5Iihp8PbCXQZuacY2SzHQqOwPcGghtoWxMB84yR69k5O-cEMny0DOaYxtch04Le1NXF7SkAOSHQGvse-NUq26ITGQ9KCTeUSJSPD_BqVwgbM5tsprOVvaHdR6ARODDhlOvvSRSt7dFXUJP5--LDuqb2mEqMJ3zAVjJ_D6if1kbyh6uu6KdpBlGXHEJfUTdP5VUAVpoupDtcK1l1ILubbCJ8HeiYSWRAaTvIdVGnMFQwgZBgT9k17DJdAS54OTAXR0x_6-2vHfNYoAJkUK4pWnHIGX3WgG1XBrQt-8c3riqVAd4u8",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMaWJCWnPSbxpmEGygBOH1K8AZNKIyHs1EIAjONnNUFOJSaj4aKfVFtdNQ1ygLzLyKjmCHjzEHnkB8C1sbPW-TtYCT8Alj-fHW8jYk9vkZm8hqRG2H2QjJO4_41yowl1oERyNYVEJYBo-j9TSvqO54POJGONxOb9fLd-cwG0MJKrh7AsebldF3tAwEupTCy2UQGjW90awW813adzEvYjc6LXdhpmFsyYssVitMXHqLnWwS5jHqE4Tu2DV9bEOeRLMZ6OTEaAGGKpJAZsw8HV6x0A6G4MDOmvZ0wNI9ctcyT8-qxI3DZdZMaK0xkBXvsPKMTM170cF-5lE4KX5cKs006A-gGvi2NW6F_CPpRBh8GtkQd8FleQwOxhDa6bOjpz5SDMe_lWdeRcYPcjil4fx1Bytak",
+        "width": 1080
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMbhjtp9BaVrU6OgwpehPsXbn-Jb2FBIMxCH9hOMzLm8ScdwmPUNKs-E0fLEOCx4qrPhPINyNCD1SwfcvhNnAnuOmHP01HTp4rTK3mYpgq_GGxTb1q4VfEWFKet4O_gDQxzcph_VTWcqcAyUTLcdhJyJ-c4HHD2DuFoN2cFU01l3vpsl581eCx3MaQGdXHK93uW-BWv7zmjFL-vI-OcnK_clNvBK9AThHfbvGZFwDOL09a3gBYSl-9xomMhmjz_pJbenF3ntOsC68SSZdCQSxzcIFgZAxXjfc6oKvhXkLPkYsDwNpOt3uAvDRAObIamBHpF5Hd4irssRvhwaFj3H-OM0u4HuVzt5ancnnJDBsccD-p62eQHCycpc3fTG8JsBcgY6-FE7J_oVW7NwQk8bwCYKekY",
+        "width": 1200
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMYy5gWckh-2Xjr0oGauvUB70edB748w0A1PPRBFqtAYHjETVlmbVSMuVvU-JqW0Tx6dAgIRvTCEiBgOoYcZHf7_k7TApDSsPFpXpQvqjxmdQC_QmSoaHPjLSDTId_WVhk7n8VUj48QyhFEqxlpS2pX6BI2qrzdl4id2jm_rQq32wCnRzfFCVXPg5l68dn3pHPA4ZOxMp7ST2PoxGn3PCsYo6MqbK1t7iU70N7H1TNrvkrXk0qK9LX5QzZ7EkegeebkrTvQdjgPQAisNQhwhEEmpUN0_PZNw6yeANb6z61NChWrZAwy4A3VfvEt5W6MsYfZl78geW2220Er08VOxQIe_yPLQefNCOiL-ptYc58Y-DkLk8TyIHJwKWoi2dAZko8ezXABOb2zNkZ74aqxQ6HhhZr4",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMbhX5LxRuM4g8o-uZdwIK-kGifes05Zf5bawAt4uLhMFHfhR6r6eadTmjUzDgvH0PPOKQF_oxs_5Wyu9WI13W9Do2M11slE_10D-xpLZ4Oig6i09aGS1B8Gzn8rwA7rtTjSFrLyxXu99TbOa06lxBjdBBgGRKoLxku9VlKm42yZoyx-zca5tipAGtDyWcObj0nYOBp2XUQ5P0ZP3yk0M3afvjv8X_7qPpSNN5GsN-Q7i98tq4IH41as3xx1QeW7HI4FIKYrlEKXgdo70VIF29eTiWo0rmUhAJydfTaf7iBge2-3Vp0K5wQw_R4_EZmF3Pq_OnspeCnT3GxB2V1ShN0BUFKctUelvZHu1pxEzynGyV_rw3Bn_Xxx_Fb76B-XymMd23eQGAx84QlxDqKKG1QPYQ",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631779206815968049\">Eu Org\u00e2nico</a>"
+        ],
+        "photo_reference": "Aa-ngMYE9sm7Itm6lP0YVKvfdbDwrvv3KytekYuqSEjxkbBAJU3Cu__JbNi3KeAPpi-0BQ_pGDq6oDKjtqlElnpTD46fAz6EsKo86WL5W7OggV1BGPl_AivKsXrdmxtSUxcXLDGekAL6sO6wnmoA-ZR15uQD4gF-ajcpNfOW-dC3qvZDdi09d9hS8VQUJhkTaNa9dKy3Oygk2S0-1EUQqFQULi4Fx938OKXF99Hi9aBjQqm0sfGhk0eRzC_HrIfWiKa1k8Rz-pSyE5p-gI4C5UHjgUhz2WlKZ1QyZIUnMmtw-ssf7JZL-z0-g5Mq45v8lRZKYU_HCv4s1JIAinhSshrY14JvrPlHr0p8wd4XdhDa6UN9LEE7iEkJwivOaiCloUdAtSR10J_PRx8cnSgWslIbZMxKs6DT",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJW_1d1teZqUERF8-UGfu7uDg",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4087223348979093271",
+    "vicinity": "R. Jos\u00e9 Maria Lisboa, 71 - Jardim Paulista, S\u00e3o Paulo",
+    "website": "https://euorganico.eco.br/"
+  }
+}
