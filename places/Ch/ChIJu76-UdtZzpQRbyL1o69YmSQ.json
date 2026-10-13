@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-13T15:36:31Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Phytoter\u00e1pica - Loja Paulista",
+  "place_id": "ChIJu76-UdtZzpQRbyL1o69YmSQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Avenida Paulista, 2064 - Shopping Center 3 Piso Augusta (ref.: ao lado da",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Starbucks",
+        "short_name": "Starbucks",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "Bela Vista",
+        "short_name": "Bela Vista",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "S\u00e3o Paulo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "S\u00e3o Paulo",
+        "short_name": "SP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01310-200",
+        "short_name": "01310-200",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Avenida Paulista, 2064 - Shopping Center 3 Piso Augusta (ref.: ao lado da - Starbucks - Bela Vista, S\u00e3o Paulo - SP, 01310-200, Brazil",
+    "formatted_phone_number": "(11) 98732-9033",
+    "geometry": {
+      "location": {
+        "lat": -23.5577888,
+        "lng": -46.6589923
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -23.55623131970849,
+          "lng": -46.65764486970849
+        },
+        "southwest": {
+          "lat": -23.5589292802915,
+          "lng": -46.66034283029149
+        }
+      }
+    },
+    "name": "Phytoter\u00e1pica - Loja Paulista",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20098:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 474,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMaIwXLhXRRKFBx6c7JDqYuOQeuDiwBLBsu_bCkr4UC7GZnujuY45xhnNy1K5yY0cNZgS15bJs5Ud_so5EIWWWDcIWFAVJluRigAdySeWShRkq_Li7FH42YiAFhv22uEZC-mOptwo3jTUdX0VD5Vqfs3zLic6LoEVCTZAgeF15ZfPWyZ6nADH29AkDtB4rkk8hP1KINufhFUoLNvzaxtmhkPoryvfedzbx0x0djBeh7Qu94fDFcUl-Um-lWu4ocMYRZlpcVjngWuJK7ZVOq4rxYAmkTwa2xxMjfrRCx7P4b7tWfiv1iUDea9BVSwye1meWJmgCeV9UdAWoqI3knYro7T_scGpHrRQvNUwGBbS__jCXfkChUWgQw__pdf7LM5R_s6RTIn_u1NknRE9pzZL0CEpDc",
+        "width": 1366
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMZY6OU8acx7Ed_ontb8sv67LRUXyDNqXrPZ4fz_DIeIqCv6tl2Q1kvh6iFITn48CrkBWZScByiAObCrzUZ_HOjie7IPH-hKgPtG7HkwNtBpirhJ8A9cJOP7vJ94Der_1EereFPYIyR05FjPlIt5UXAaSHF_Lpw7llJaRkl7sT2VO9EizmfA9_33a0wZ21TiJkaBomi2eXWMZ6DGu--b3lxq6515geTb-_N7OJtR6_vLjlH5TXO6pXKQp6rjtwd7-4DXaENaJ-Hia-XbMaQYGE24jKGW2LDsPo9lk2Fnyy1bwc524SMYH9II1ItFY704IhKfQKWNLq2ChkG880gusma3MMOc6_zXEk-OWR3RYKGOOTzCh5B7B75Y0fYJ2HubFcot5C0ZtJ2iL8e7kJMS35Lw4jQ",
+        "width": 1280
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMYnSJms67IBP7ab2q54uTSVE0WQbb72KarxaaMQWAtdhzk8DRdPhcugEGglRWnkY4dFlTmgqzIEJI7QySakIaSWuLFnPLvtkOa2AyZMgKgC1ppIPoo1-eqNlPtMEsS23nM-lMQ5Jyt5e1nAAD-7RNjtBJFpYgvfdzNfzqCRJTudb2DdGVP-Pe6qkgfyLDBkx1mSDnrS0f6QbgBMNyP0bFVwpC6RMsvQs112DQonBORTTO8RQbdolEJiSgHLJc1P0lzx08ymjbnRdRdn98DxfNlfJZBBszqY3S1BuXFfR_uichsD_ZC1mTH8JXVQYWs-IDUB7Bl5JuVHePHpCFcLGf78dh7MSQOCKxIyyukZx9szLRepZp_hPXZJTxTZ1hQYIagkDFvgKtFKLy5ebG0Xrcoi53ps2Ss",
+        "width": 960
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMZknIgG0BRYct2Ak9ZAlfuGKYstix6LnMnkE6MkrDwOIrjlziONtKYEwKhm_G2Tj0AMOeZe3IqhbS_Ifn_8-nCYOo6vqgoe9GZGPy3PLHWpAIPzmD4_bc207d8wJhOrHgyG5JoJtS9FMaLBEODHaFf4iYIbRU1nGv7bG_tNgBcVzYdI15M794kLCFJ6FI10DOqYUBuPsom8HPRifkEiAz1ODdn7lpGWKvh_Pa3D05LmPsGTv3AbmIkIweQg7GpW6AZFy198JR6JvT70p3mnCd6L262R_QM_-k6kuay5Mp1gEiS_zTiKeTWcpPe4tylzAbpuKvurWXWbBHm6OPr-wmiiVF2F04CEcowId1G5LwRhRMp1dlBtQGjf_rcuvidBwepnKEwpPzKf84w7NgmME_73gytF",
+        "width": 1920
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMbgdC85HtqiU11ibxncMEcb6CBAzn18D4WTN3_NyG_sUqKEZ5D6mJduSGfaSTNSIq_0DSMRueoMMD8Yup0TS2XMmKXz4NCm9OKZfK0xF32ssUlbVx1tBkKaPYtNP9hgAfmd-LIV3xW5Aa-INcgePNKGkStoeZ4yrtPxMnWFLdU4CEpX1WT8nSF4pjnRtIarlgBkJyIbaDxE07Ycxpj4rwqDwjoxBPQ4cM-gFSkTrzxArocm6sygJyp6Biwj2AqwDdDM199H4jJJvfcMdbRp2YPCLXcta2XxvBrH8XLQbK8-tGy3zHO1rYV9TjX_HcAdR7pxeVx8_XSrP0OHKGzbFVN0TXyHRPn1z8p885zuaF3b4SMF2AEfzOJ4ZOx6MLa_AswccUFehsZ13df6Jd5Twygdk2XI",
+        "width": 3072
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMY_uYUpQGa66Sx941hb7XDq2KSHCXE018YTDqU9xUGlgxFEa-nDXYuMSCpcsoxJiNoQZ4_8Isn1sV2QFoZ-P4I1qCSswOpRTlLmK0UczM11eQ_LJqxLokd3sXgWSsaKMD04X7jj72eVs5ygaOYUFK0jl6t7YNp71pe4i1i2msO3WUmvokpzodyyNqw0dWUKtoA93aAs8gBCFLz-D2mz3ekfKiMaqV01Q-sTFoFEmW4z4BqzxR6oBiLilHPbdsKh0ReiYC2mFBYvxhLCKKrbhBkpe4stPpqSpWnVPFU4R6O3tZRJF0UqP1JzoBMh-pyq9AWF1jBQEWtnXr8ByM-_2V_MkKSztVGdWH53PFtCNM6bUdKYfsd3h48EZIO2OmdGeoVZZCvZ7NWMXLkzUllsiszgIiDxN4U",
+        "width": 3072
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMaP1GynD_w40uzZMM3SmJNf0huyZr_-sV7ta4wDTz8gWBZx_CjEerl398Ct2yy-Pc4cZMusFhwPG2bGmctH2gjdPvxXmnzE6jv9Mh1EBwN1PbqMThrk1SYqLTgiHg79UupPiQp0jeO13QoGIAX4CbHZW_4rGdVZC2pZ0RJ9KwUoBecty8zNAdrdKKXt4iqcRO80YUIjNWj6Q9p8xkEpLgTIj65MFpzfNXg7cvJwhsE_EjoX9eZb2DQOv-eS4-PD8U7ja61U7BByLyma4QfzXZN98mT-C7uH2OO1XAT9xJzHjKFVBPOlXzoeDWqAuLWf10MDcCZ53JVqlMvU3wZjKOl5UC3oc4b-TSpTKvavlweDMfL5I4RZssMs8bzzHRtxaknbLpcXGpoIbRT_ReI9JgFtTqym0cM",
+        "width": 1080
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMaOVvkSZb0fz8q3_02vgcmB59m7PvubtINDA66W_Kpg1K5f3iOxIgOhwVvwOLHA_K28Pnw6J9bohWA49sGopBgCgnlK3VP8OJo8O4QsxFEELLbepQFbQ1ZD0sn-UHiPp7QAPRi00z2fP_PxEi8uyQNr3568zjeA3gXnssIL1fno9PfeiTUBTz1GWr1TPnYTH9iVY8wF0Hu5UiCp-4HdRkHHqjMtli9yUG_-0byX_O0yJ33kQM_c5tgF4C6gnBP6uDgBc5hGMKkD23o7hft7_KovO1rPbmFv0R9u0p5qFiiTTm4ymtngSXBDU6YCZK9vLis_PSZZrHh9W8ibsDgHgcn_aUOktH1hr3T09vKf58GNJyvvkRJXZ76_QFc3eo-2tzcE37ppLGCWD9u9bca-ZB18-s4",
+        "width": 3072
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMb_yIE0co5CXUXFJkrvBt5GWja3zBZENNidjlf29qZm2KYwnl1ZKnIvMO86bdZ4wG6OcN7xY9tHMk65xYcvndcZ4VWqSq7UvdYN7gYuyhuX6l8cLfg0OyxEQz08-Esicl0soQ8118pWqfKmL4LaWtk3cF5ORG3aArOnsYY4-32gkOWzVuw5tK--sCHvQiLKt4U3bQ4p3FRJpY4xeHoufq5tsKsbY30XblhLQc5wOZd4LUPKfpGqJyK862_IAdV3adah1ZXa2U8vanSwbhcsUQqd_Bwdy4z3j2UIVhbnuDun7gT-EvnEBhGVva4Fk4Rvdh5qqfMErpGAshcLXgBIjR1Mf0arOMesLTA0B-wcMdVEl5y9N2KC9INCNFHreCrq11_5rHYFlzfWkTTYkmQHkFLNR5VV",
+        "width": 3072
+      },
+      {
+        "height": 1472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108801948521945366374\">Phytoter\u00e1pica - Loja Paulista</a>"
+        ],
+        "photo_reference": "Aa-ngMaoTk9vpUGpQVlAbD2aWpH9RyxcGz41_BIP9ItTBrfosC30rv-KYy5D7rUTNwhN4sHOlbSw7SkBGo_-Oew29v3Kcrh8UJfThIyRNzicEuGuJcN-cH2dHBehjFkrkKh6o5pgT_BRgzOhBE6Qs_g9Zi8JZwCWStsRL2JPiRqI6W8_70VsonuIQsOxEh1YfFzOwh3sM7wcTGPhxdsDuUeV2Koe-01GSCrjNIUsmV3BANVYI3gflQ3mgRdZUZolAR8elmIx0xNVUCTtOz0r75VcQ-6CmZ3vqLJ4F_wXK8K_fD07itMNMyLnRFBo3amomfhr6IGRTC8rwEWmPkGqCltosAnDKQYGOyIo52V9IMx8ANFIAq3djvKKIxzP5wZIRGX2JKDxdAJtR_t-GOqrPWt2Wi4Gk6Y-KEU",
+        "width": 828
+      }
+    ],
+    "place_id": "ChIJu76-UdtZzpQRbyL1o69YmSQ",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2637236568195408495",
+    "vicinity": "Starbucks - Avenida Paulista, 2064 - Shopping Center 3 Piso Augusta (ref.: ao lado da - Bela Vista, S\u00e3o Paulo",
+    "website": "https://loja.phytoterapica.com.br/"
+  }
+}
