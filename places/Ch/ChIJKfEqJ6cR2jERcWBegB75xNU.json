@@ -1,0 +1,217 @@
+{
+  "fetched_at": "2026-10-24T12:27:40Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Herbs & Organic",
+  "place_id": "ChIJKfEqJ6cR2jERcWBegB75xNU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Bukit Panjang",
+        "short_name": "Bukit Panjang",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Singapore",
+    "formatted_phone_number": "9695 0199",
+    "geometry": {
+      "location": {
+        "lat": 1.3776493,
+        "lng": 103.7725396
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.379124530291502,
+          "lng": 103.7739675802915
+        },
+        "southwest": {
+          "lat": 1.376426569708498,
+          "lng": 103.7712696197085
+        }
+      }
+    },
+    "name": "Herbs & Organic",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0630"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Wednesday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Thursday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Friday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Saturday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM",
+        "Sunday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMbbWeKMxbaitV7OoTFhEV2C_xvAWO_Hfw4XfhHi7_X9hZ_UtFqAJHlCcAt-et3DsZ7WS9q-j3_ZAmnFCp3xFRtqRJJUkfKLT1ElrOQvXJnolLW-SqnIc8PliX7Z6pvv5jPwH89ddYSJsnOMQW40qoCJXNKJj3ABcq6uTWm1X-s7FnFZiGIAV--D3kkc8aH9Wrpto5dl6k1-pqA0wSJgTF4ZPLW7H6ARr_2ZJ7Wq7bDhxT8OL313V5IJlrUZF8Djb604kdPAQAPAvgokJcMG5uuxGkvzL-btCweGPla3a0zJeKZpooYdzrKyS2sa3QChASONNMjnzvdiQLzLLCiYVJgqsXhwk8YQlW9JR_t4x_TIkVgMGWbfe-tHC7e42wkb1l44ImKpeqShP-DESciHwlCetFEYp5I",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2yLoJXEs76NR3YWDx61dBmvS6b-XYMR0wrp7o0oJKigF6tCWdJ5g8Pxit54RMZWfb9oIWE1c4ICdaJPKhjKMHYXVu63MM_WJaWNKVYOnKsFETJzEKHT8Al3k2aHFwUbgcLLHvk1YP0odkfUAS46k3-Ih0J_K4mLH2htUa4vfNO9SM2WlXdmoBLrWe7XA1Ks35rDRNsk9niqZMAVMZMmr_lLfB0_LQsja3sc_tBkAe2708A3uovEF1G3-Se5Xat-j1xuE1zee4YuU_74R39sIP3Okj-XlQ60DaflVCcuChdKY4BeP7M74wYWYsETN5AkXti_4JpG0GUCmClbQt9j29Hr2PMVdJJdoSAaaUFBhOL3rfvJmZDImZFe0bcxGW6PwONMHZZJN2GfAztT9VmKN2hzw",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMYC0CuZ6ss5aUKjbbsUypox5tIwtoukxC1cX16ECKS9uf8YMXEzzCog6OWTBhBcs8JT0-2mqtVPCbP8Uc-mzY4ednnabubOBhxkfj1njexuLT4QeKSinx0Ju75q0HlOF3Hoy9pG53TC7N93DKgV3S8by1_Pj710SErgCspTH1yt0Vn5HO1zSiBhF3gh3P3-pXAyDjnWWh37jTOH--fXT7nBRVV0TuQOifSvX-Q0XRcGrnYQVmlOXiddmzkMIC2rQiveEq2PGMIcMCY105KoijC1LVZYW3KCfR7bhjHAhpI45aoV4DbxhjpUVe6IV5ANmBaY1pkdygdOpgQcRo3hb-OwHFFnfeIELjfFUwIm_HgjwVpjEN_Ctne0s6kHxA_TxZ7RuTr7NvqbiNL_F-q2aPpD2eA",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMYzrN_KIed4EYUIyAXXITw_JK02SX2cg-EK3fMZv4KaDw40N3b3KJNwWxsn42Iykj1mVFuspJOZzpPtPdvO0lH1qa8Oi9X5e7EyliOhdoJUq67XJugUqRW5ST7EoamJn0_7ZLP2tbVLvLYXy8J08FhqaWRQlMODsGre3pkB0hTwlAlq2rltnY1bPmsjEbLuLjh5jcp1rpcsZ_U-EQH7-5FSHs6DcccclBB0SaoPokB6oy8men4nYkAD1IJWfWrJ2WUNl8JgYWcv36YpcsfXJY1Wes4Pxrz7ESA91EfIXSKuKIiJDXG7bfA5oUflSb950_QrS7gsQ1DsrE6Xf2sqiThcgI4FRBtmopa9cAYICj-wmfGZ6iIEPTtvG7Gl4Xs05DKYlf01ejtTqmqh1H9s7TTQHl0",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMYGXvTwGmD20l5vtQPBui7lhXv87BRvj9B2CLhsA17rJapB0kQ1mMRmm11S01qj9RvOtrzjmutd6bJfORkTjFkBxLbImNqO7CfuNsTp0MuXONPqgrAmU85eEEf0gHNtpjEeEBUjJIeKwvyx-sFYEEke3UAbGNl7D4b7qtwcOnJO5nlldL5kY3hyAumQ6kpTr_3m5Z-03v6PKBWtMfkraDqYkEBkOac0BNGZ-jXbcMzkL9roTWuaTSrj5VxZ1haqIpm32jpvRWG_YAKnw3D6I2N0LctX111BWojY83KPyB6-oGNpHWoWpniXM5VSMhr_rVqxqRRQWE70QyekeNkVmdYH9mHT6Q0kuOBPL5xOa3Y--R485ck4OJj1FEZNWBkZ6p56xZT3FEUK2O7RWZ-1kvfhy19Bpcw",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMZmZG4KL7oLN9GCnxlmu34_iMMCGYkOEpoqVisZIo3RsPqQZe_vgvw_D1jJSOiew-N6n6DCzWoII5_RXL0LTI3VfVAdppIJKKZRtHZZJF0VMiPbi496qHa0JAdHQ8dB3VyJf5Fi8ra1rEGiN6P5FzLtJDvuQQdO43yBcW81gfv6BxQimChuX69uexPwFP9IBaX6B3lhhsvLCd59xVbHarHnroEYPLGyhnTrG63kNhrDxTHjwqJbBnu-VNmW9dJJOXCiRCeL9yIBtQXyNDtkVbdK3o5YdB02BevwenP975rRIK7PikPjchtN3xuzmo2ltz9X9ic8T4wEzP0_isx6PxeCNWhdp6hJQWouVAE_mV0s-5b8Bcut3DQ6Qj0l5Xgj6kVPshoijWhTvY5EAJoSFtK9BdD07uY",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMZSMevdo99RhmZuqCYQRGFfO0bi3U6CC8FztHpICFDbUo2Sf5hTC1F5Hc4IRAgndC2fzA3aUNtmcy24dOCOTUtFXqmjkQlgUpB2-ItXlgGSrul2y6y06ThMHjQ-OkUp9Imc_70ey16zN_Sgu7FfjXI1acik4h8syNFuaGq63WzDDMBJwzZ5zApgO19jKuzzxH5Zb16R81A0cLDNNKTtRWe9JSgYF0itL0n0wqSpyguUD9VLHtAv65ZkvOrrquvKnTdlouZMGDZRMzUWrBKHSHIO3wPA3KmrAzw3bXkuKk3LzxEvjDyxjtADTg8GCLwME_RB6UhCMkyuMANhLluHxthkC3mCO3JAWHAA57_8WHOVF2wL6ZiU_xPgLHJB0QpjkAYNy0pC-YsoQyGaXEKdoAtayao",
+        "width": 2736
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106186053402153829099\">Jason LimKH</a>"
+        ],
+        "photo_reference": "Aa-ngMazLeYPPVeaOsfwaez9oDEQEEHJ7JnOY1_R_379Jqa2fKZk9rJ80KvaNNvyPXbuJ_0RwE6VEVJ1kuPsJGAzVuc8_7y_69_YDnvfhe4YDYfT9qS4jQa-QmjkUBhdhH0QrOruWDR9pKfJ1p9bzW45egxXWdLR6QJdmKZn76p960_B-6NVtKfHwKqm5-RuBP4sF1nqGu1ImNtfVp1_6T04_dswAA3nFuURQFnH2HvU9x3PW6v1eRnrPdN0QykI5ARU2UhoiQmQZ9TbltOi1lMcQfALo0bYEVpzWDx1EuTuBNqWzeus5WS1qAKWYafkNQ7Zh8IMerRQ7pDAltLQ3n-4JClzQTTpCvp65J2wmDiNrxkXe50tmzsQYcCluSKQl6vsb6B7F0mzs2AxM9peO4xu21U7Wgs",
+        "width": 2736
+      }
+    ],
+    "place_id": "ChIJKfEqJ6cR2jERcWBegB75xNU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15403710534911942769",
+    "vicinity": "Singapore"
+  }
+}
