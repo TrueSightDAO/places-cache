@@ -1,0 +1,203 @@
+{
+  "fetched_at": "2026-10-24T12:27:48Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Organic Veda Tekka Jothi Store - Buy Organic Health Supplements , Natural Skin & Hair Products",
+  "place_id": "ChIJRdRnjPsZ2jER2BqComxR1kM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Campbell Lane",
+        "short_name": "Campbell Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rochor",
+        "short_name": "Rochor",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "209882",
+        "short_name": "209882",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Campbell Ln, Singapore 209882",
+    "formatted_phone_number": "9831 2342",
+    "geometry": {
+      "location": {
+        "lat": 1.3058829,
+        "lng": 103.851843
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.307249530291502,
+          "lng": 103.8530174802915
+        },
+        "southwest": {
+          "lat": 1.304551569708498,
+          "lng": 103.8503195197085
+        }
+      }
+    },
+    "name": "Organic Veda Tekka Jothi Store - Buy Organic Health Supplements , Natural Skin & Hair Products",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2359"
+          },
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2359"
+          },
+          "open": {
+            "day": 1,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2359"
+          },
+          "open": {
+            "day": 2,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2359"
+          },
+          "open": {
+            "day": 3,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2359"
+          },
+          "open": {
+            "day": 4,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2359"
+          },
+          "open": {
+            "day": 5,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2359"
+          },
+          "open": {
+            "day": 6,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Tuesday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Wednesday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Thursday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Friday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Saturday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Sunday: 12:00\u202fAM\u2009\u2013\u200911:59\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111320632914518625206\">Rahul Sonawane</a>"
+        ],
+        "photo_reference": "Aa-ngMbgb3ndU_d_U2f-dlEmf-Ug23rowVicw8FQFDFGk9CP5BkaUyKfTHoT0G5PEgVRVBtEe_oGbHrbNTLhd_buxEzjOOH6AUHQ3LUQnooTnDY3EfRKAIAzMj9O0kSGp6v1mQj0IGZmOR5i3ru5xb3f1-EjBdT1k7gDc05DUwwVv-45BCzANXPuYFktCX_XXftIFGcV5KEttaq3LKaKEDbstriOv8ybsaRWgoa09GQMk0RQ33n0tzFnmOUO7ENbtpSSOWPm7GFCDvw521t40bdHV83YF2f-ZojvcaA20Yce5nSgPlPLkk8rTVYzGSfc79KUtw1CU6E8Bw6FYZ7swkKxqi8SDsMQi1hYVZ3hk73w6IRC9X2ux3VmS2vAJ1wIlY9fvZDhpKHeXP58BpSKI5aPzi5gUdLge1o",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101974870093925708792\">Asp Bala</a>"
+        ],
+        "photo_reference": "Aa-ngMbvG6mWg-9SE5xtpTrjUp9PY6XfvOpYPR-J2wB_JVwizzeKLicS9rT7Y0UX6TgCDq5c0XUElkAx6VCIp1ci1zp9r5HUnaU-om7GYWXIdbKxYIOuZDbHVVhcA9sd43ldRkragH6rjq2h3Q8P33O_ymVmyECpOBI5moCkTpTVvEQzDUoPNEDpvZXFer53ORtTjDF2BDnqIj8YHQfVPZNpB2rUI5unYmn_tvm9j9zFh2EwLt-o5M6g2jFwR7TpiFkjzeJm_lrW9nMJflXkPADPh5VgXLKc2acAMhK3L88LYNl-Tj97zfMc4Fibtr-wn_uG_WHSiNZgzErORPjFi1lmCr3pgPAhzbAk7EF83J-9-7mM54xdqKh0vIAF5UEtTvK6mc38jgSKbNW4Jg0godft96TfiDM",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJRdRnjPsZ2jER2BqComxR1kM",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4888183972582005464",
+    "vicinity": "1 Campbell Ln, Singapore",
+    "website": "https://www.organicveda.sg/Little-india-Organic-Stores-Singapore"
+  }
+}
