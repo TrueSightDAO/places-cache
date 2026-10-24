@@ -1,0 +1,262 @@
+{
+  "fetched_at": "2026-10-24T12:27:44Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "HEARTseed apothecary",
+  "place_id": "ChIJPw_SYB5xLEAR1EwtnNRgVKg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Admiralty Grove",
+        "short_name": "Admiralty Grove",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "long_name": "693B",
+        "short_name": "693B",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Woodlands Avenue 6",
+        "short_name": "Woodlands Ave 6",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Woodlands",
+        "short_name": "Woodlands",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "732693",
+        "short_name": "732693",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "693B Woodlands Ave 6, Admiralty Grove, Singapore 732693",
+    "formatted_phone_number": "8138 1929",
+    "geometry": {
+      "location": {
+        "lat": 1.4383067,
+        "lng": 103.8038153
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.439593430291502,
+          "lng": 103.8052517802915
+        },
+        "southwest": {
+          "lat": 1.436895469708498,
+          "lng": 103.8025538197085
+        }
+      }
+    },
+    "name": "HEARTseed apothecary",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 557,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMbZVHvPxmy3JUcljFG0uk0dIXzp4kLcRja5xbqQC71yWl0ZTSCACvavZ0bsEFAjLyrEGQ-FbxAeFANI9d2UuhSW81ORmvqAQ69Vvxoddcl0-MTUS1WTs_Dz1hB0NDhDyHVbXSazfn7wGEN4OdBO6iq8PsL_BKQq6kKJIUDB1gicPcxrUw5FK1v3Gv59zef4lA9--j6Yuj-Csz-qAp3qEnotVbpBYbloKGclB5-5OgK4ini2XfSoMYV0v8BN4XuA--SWhFm5L2LeLGRdstIV4Y2A2VxLN1e7ddE5Yp53p6RQ1z0nBRxZN_NNa9jwybvqetrFmXxXH1Dqnvc_4Q3tVmlO-EzucRycJaCPGNk1rVNbqf8zo_k8j3Apww7ySTnkDudGFgDPkhzpGgyYtb378O2iTy0",
+        "width": 722
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMappq8dJ5edNamXqo76uRaDn8ZEncN0MMgUX6wCOtXwPiiSdGf4O4fieI_2BRw8Hss57BLrY6mjs5vBhLkWMrHJTi0tPhMyxOK7hEBODLLyCkMXBy1xh4J8xouNkvXzxZBJY2dp3i85jIyhvurpUTqOAvCJ1Y7lm-AppGqTMwYAluNDCy6xjGz5lYlnixoaaxEI2h5TXLvv8L7cJ1yqOIU_Gj7nxsSJ72Rnj_1owt_vDJ8Bp-TJJ6qHXdq91gfUxsf8dGRwP0RkG-7k2ZVNArTzuTKvswYwi3bukREWxoIz92LeFyxYsL2S8EHFi9sI2r9Vhyf19x1UHlJCwsUj2ga6QMJ8avtPdVU8_4lpgzkhkfi3dH9NDrMab865NJl74zbIPbBg3LEgzyFgpXSg_aAWOjqSICcWe54VY_YZFlvIQw",
+        "width": 3072
+      },
+      {
+        "height": 492,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMbZ9gz6pavGCWvOJpbFQ-h-vUbDssFM30H3EsKhzfwqicWIcigxlfZc83Qvsq6p1RKnwC745bwQFphYCvG1HEJhcX3BrHh8f-bMJuBCPGI0LhMuFygSpc1fbsVC285TCFhMFhttXXlmOeZt0kaWNFqxB3tuUpPoE_yDLXzCHOq9YBr8nqvb_nR3uP4rWC68fUo4pu8P8e_3XxXhFKdG6JPrx8zQoUOAf0by6Ox0e7EZJ_7-MZjSGn7lTU6Zurgqzbcxi_NBqy__PWJciD_zbhU5FgCiNzZ2OMGVHlsBbHeeRDwZe1AymIqlMNlgtrgc6Ffom71QDCpDnrsagluCYU7tYC-UI2siglOMZ3YuSsfCdIth9cnhaJe7AYbTDUmg2TajRywMIbxpECXeBcMRtUfy8rV6nHK8Zwu0asC6SDrRoA",
+        "width": 658
+      },
+      {
+        "height": 666,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYsMTz8pF0Ic93dSWvo9JZQj9mV1kb3hJzgA84NOaL6x0zPLa9XZBkHlXJ91jceD2m0eICFNVtAVNUrRkS646pcTP6O2gOkRszG8r1mYwMhxW7U5U3Gvuw50R7SakWsH11WTP7pTftUVCKRE17DmB1ZXd0wUxuU-wXR2462l3mPNjPVzu0dE2W6S7vLtF1a9SYYkInSTX5eH029xU3ORAAbJpag4603da1KlssqTrCPUIJSUyq5dLVEgpnZNUQW9HS4e5Z9T9cVMXx-OpEBlt2DngopZyERZbO4N3ApJjMDqIGFOYo4IIPiZUWzGaJe_AbYcmm1ABvxhHoQlrrvNpPpOyIS-YPm9GNAs-aI16HPhY6ygqLGakAuXB5psRDlH2PybwdCuJXJP29p1aWQRpQwChEaeQ8",
+        "width": 1295
+      },
+      {
+        "height": 690,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMbAPTunOTc_qPnVbKZU05EE_KxElTjTa9HwqZ1pSzFAWLbC3MSd0u4DQuFXWDLJQbc_SsfpWOWAS1fYgX4o3rblHbk-iKIYXyGXM4OiWpWncnPcjcM2Z8SW1jq1l1T1XuEfa5v1eezfuzMBVZDaeM6F1g0OIS_4eo_pmnQMCwLGNzMzHTMdsNhpfLqDP-Eia54KfFLTKdmpwt8RGH4y3vlXSXqQAHo6v-eL-uUM-QeS_I59X3Fv7V1VuyEowNaG4SeBc0JagYPhVqJ0bBHvLvLs6lfS1zojEYUVQ0ucDlx9vgdufp_kOIO6mT2pQii9wbygflObGCIajC9VsyDQ0s7Id59OZLgHEXqXS5Ef7SsQg_rxvX0O1zIw9Cjok5lCpTIEARa7F2RBnLOhjf2i43glHB9fALFPSLfy4TyesrQs3A",
+        "width": 482
+      },
+      {
+        "height": 801,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMa8vf93zd2aIzvrtWNzkGownr0q_iOOs00U_oxwSMgVSBTNfudWdFAv2PVOy3TUwtXziQmnk7CiXb_ptLAPRM3hRyq55-nLvdUm9PDK0rr7F4zUQ-_kCN4ancoSlOusUC77zY8Tbhu0bM2Jfp82tw-EAuu6kh8g83PmsZtanugeKwZV5lryW6-kpKidXUQlWKRl-xAKTzUFHtKOdqIDPlLewimnv7GyMJgDdHhbKH5jCxwmfOWJO3LtiVxHdAkiX-ihfKvoHjA6OURpVvuSSWqiaJO6xHlLz14F4wqVrdt8iL8DQoGT__l__q9q63FKpUlBvsHb4f7HeIVb8JFSUeSMHle34Aaqf9MijS4crBbEAyxzXbNlWhhm3-XL3-2W52dFbRSXhQkUpaKtljbS1dzaM0I",
+        "width": 1200
+      },
+      {
+        "height": 899,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMbZH9WZzu63isHPMfIsFtyxt1mtinyPlWL1OCdzX2YaKJpVHkCct-Z_rqXyx0nJw7ZaxreqeEJvbOJTHk7gpwGVPBL9gXqurAejSJUYbYbuuTWxZFscHITyx4ZDDi_VIP98krqfsfpeVnUQJwULjZMJgcA9QXXCkfQxdjIvdkytJKtl7O9bLfACbViKk3t5MH0XNltd9z77wKIihAB91JqgDUCGszBGouk_e2krNy3-_sW4oBhZhmNRWab_3_j5N3Ha7ktERoyki0CPhOUXsKe2lrZLs5RYi1cuVYTAvc5Mob_ZFDwKKCV7u-ovf-KPnMtMaklrczZtGX66ns5HTiw5yiyMjmFvwCl2u_kFF81SxDRh1t4Jp5YWma5jPm3Sg5ySlAJoKPHdsvB05tdD9xauBiho1Pk",
+        "width": 1080
+      },
+      {
+        "height": 682,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_-4cOcrw-ih-ERCiG2FncCMY1Zf2qpagrp1kiQE6DUZESXzBd8Wy6ndTOVKwJiIsziO04GcAayzpnDLPv8hOk2m93T0LX3ThvIcBDyg-xBsIeADkeeBTYAB4nYrHdXz0n7biAmo9XxMVZ6umRUIWpa8jCpNaK9cR0POMOi4otjJQ2X3Wz1EKS0cEKqWZid0-4I8y04Kb1sjaoA7QVYIutX8tupaoq_zvCUfJ_llwp6YyfP0Dfo76E43888AwgBpce9JssEMJ_oHmq6qsyhhOh9OFyM9uxWXkgTvYaUuOiuspyXd6A_qv50rJv1kriY7bZMpQuNK-ulylzeCz7AmhlfA35jNegK8RcJBJWMFI_AXqM4kszRdCGdC_96iOiLN6MIRVNC65hun6KUQDSDASMCA",
+        "width": 898
+      },
+      {
+        "height": 797,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMY1StngUn2VpgIM1-B75TN8ehqNKSGR1O_ocDLanXqxIFIa39vRWZNqq5l0CqvKElFO-zUg7q6ZFvMNMwfpGe_ixRpYLMuj3YGbOeIoceHZp9aK8GssAYAZcePvaSWud2MXC6ZNPpETMFCF53IYWUh2tpzEAR57f3WxBgiY81N76QlR3519YyYc7IV4jv4SCEwXZhxZchg8Vs3xBTD_pqlu_cXa5rzyD0M34jusjhX_m4iCEmXza1cICPrtr4V6ESLk3dffAqDwOn-NLbcI6OmXsxAqPTmiHOxIZK3oNT9fyi6SnZvn3Ez4AVEejNIhuPtrgFy1Z8EbJSbfKUQzIsNXtXDOCdU-WvZ3i3tDBWsj5fN0UzPzjpwVMJ_Z4HH3Zt9oUlxd5lHtCO0nK_rSP4C9vAs",
+        "width": 1073
+      },
+      {
+        "height": 698,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115353089277680841437\">HEARTseed apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYqHnyD_SRLUDHs_ZTJV1zvE2Twczxy5ICwEFkOCaLR3_E5wH4tAXfMiDcC3dTDJqXl9TuwPj7UqpTldiBXcm4D5cOqzHNuYYW588IYOppULblXy5F-lnxBgihP_uGis2fr5jEJmRAfmzFw5OhTQ4SfHJv2QZfHZTVqJLvND1g6nXd1cJ4FFTY-OTNQkK13rnmeBufvZgQ_23MkCGHGmAkF-3Zv-3nFEbfxHad0RthWCPQKx55r8gYaae2ISHIVtPyoRh8eeinTNh__gWajFh9U1kxUWRIoOvZclIqanFbUPnyoDfvpK1dXpRKF0zljWPzIZnct4pbzBgBPBe2fowV7vsW8V097Nb5gRxUuPXxfG31rgAUF2jiv7x5q3d6arFFRdPNrBGD7awasTWdzqK2vXQk",
+        "width": 1210
+      }
+    ],
+    "place_id": "ChIJPw_SYB5xLEAR1EwtnNRgVKg",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12129426162685136084",
+    "vicinity": "693B Woodlands Ave 6, Admiralty Grove, Singapore",
+    "website": "https://www.heartseed.sg/"
+  }
+}
