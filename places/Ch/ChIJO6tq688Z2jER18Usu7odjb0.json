@@ -1,0 +1,258 @@
+{
+  "fetched_at": "2026-10-24T12:27:50Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Herbal Pharm",
+  "place_id": "ChIJO6tq688Z2jER18Usu7odjb0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8",
+        "short_name": "8",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Race Course Lane",
+        "short_name": "Race Course Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rochor",
+        "short_name": "Rochor",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "218735",
+        "short_name": "218735",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8 Race Course Ln, Singapore 218735",
+    "formatted_phone_number": "6749 0004",
+    "geometry": {
+      "location": {
+        "lat": 1.3095957,
+        "lng": 103.8529708
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.310988080291502,
+          "lng": 103.8543390802915
+        },
+        "southwest": {
+          "lat": 1.308290119708498,
+          "lng": 103.8516411197085
+        }
+      }
+    },
+    "name": "Herbal Pharm",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1230"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u200912:30\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMYDcqXDOLhKps_2zbUpWFdqeuvJMVgZ56zGObREbTKnSZF10hxlsdbnYliVMpo1lk9qpVd4TyHClQiF5xhPnFLJMa1--UDA_RHeVHp-_Hjhv6ElEZnILKrqBEE4muSgeZyhOqfgiKMtLSuF9PPtOq8G4WzWgk6btBSfBn-E3vo28fC5jgRGJ2OePwtA5lCBdcfpU1R0aUWsyABHQ5N8tiSvU_BBBglaPXMf-t2Jo2cFdptP77SMh0GrzfJkSZfum8Sd-3kjtts9BNJVacjWjqBudhI4hdwx2AP3bWluBiXiITGrpdjHqXxNUfvEEbxRpmsIrX1443mhc5znpNV6aImBsDicCGo1bYEGkwNFQePPATfJ9gML7zOFUyjLjzMXsx4eo5n_Znn9Azuvv0IcxLay9w",
+        "width": 1240
+      },
+      {
+        "height": 2722,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMYpW8rcXGWTpTyhY92HHBKi_ealdd2WDf7YvJYFLF_A_SeGHUw-QE222z76bwXCud4uH_ZW3YXpDpMcPPYqbGtibYT_8wFYpTXFUuSeFP4zU7fL9L3WzWlMswmIz1e4Jyx0ojskBZdp_eJnVzk6EjwOStpTSBDoe-hdacpUINBza6f8CxYlTThDjcm30vX1yZEFeMYb5Z66ryngc4kSVMZyJJ5uznR863VSBbq_-xFUPiwpEtXj0SE9VggwTtG2ehbluUx7PkDPmN73tqyUAlnseizpNlvNXGdgdwxpYz6avoQo8Qg1-J0AhhMBU_uRElitQ-rjJRQAEA96RtNdHtPWc4Zh19BJf8gBpkRYAf8yTuXmUcy-vulvxA0dkupHK9xh2keRcTc-IvkkvTvHmNbUjg6LLP8",
+        "width": 3309
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2sTu8MMDuAW6-Q4GJv-Kuuo-r16b3-Ok-naZNt1LG_0HyxmxPoYaRUXnSe7okjfZHdYjs2k0xbGa-Evol-YQjKzsCgqDEowS_HCwT35xpYiptth2oS-AtNsblnLVQTjszXHLJtuHirARd4afwVkW4zmdTHHhmZWS3LIQigOtodrdfg_32ByTEwiGQltlp55yL_sbiqI2PJWBKdb-Gt0ad_7vXhFRRcb7IrKPS_K8cmIFN_LtCjd7MiSI6w2Yjrd-zdx_eZBWporl0hy4sJhKWDOTpuKUsd89QK3wQ7ooeT80l907XDs9mVK4USKbVKKxhu-BGgnZtA_UV-SlEG2YAWdxP9ZPwR2ZR8sbqRjXErag-Vi661xgmpIjuBL7Dw-ycUt2w83XTY-Xg9ed5WhUR3yQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMY1ZsesgOxPAY59VYNI3gG1gclC-VP3_FNGeEsfZY0py-9mtfbjoNzHW-KAr6GFsXtLxmBs7LTwoGt7wbbUbLXCo2lqqoYAaFyHdk-MCwbl6lqgvFyUAwF8rYcMpNm0sCisTitQt1CopSw6BHtzdoJK_JujUqeeyv2mAE9k9LMDuejKHJBq5rUOm1aQZDjztdk82AHocPHYGNT8nbMjuOkJHZFCe4g9cJNjR-c7SojOaznVdn45P04XkDBmdjqbXGbakn9kBF4gE9rys_wOn8rhh6VkQrnTex83R1I1a8q9rGUEdLhmmDNrM_6Wt_Dw5Kxn6mzWDUhWfQk5PlGqwiYENOEfAGDT5M2Tlk96YwZUFnl95CyQekAldaICYguvu6mzAa2NHX2WEvXhqpPIa9jKU9ZR",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMbYe6m4Tc9GRJSacsjTXGgr4IlleAyUBBq-oiDimwF-gBxIWsy0wYLgBOZGG0Ygrrp-anf-jLaymeUbKrHRoCYZLY1h0ZBUNZ8p5YGnHCQmnaDbYb9QKdSx37XrLMb-yhKC_1EXua0KHyKE2vRAYOZjE_cAbjTp0-XOG9Ab6qR83LOoNlgUx-D13MtpLd_6wnPf9KWvwvGFIQ-v57DB8IlBXnXCA5X_QUwQk6NdiwjlsXX3ccSrxqnhtfUJkst9_jqeKGksQRh5F6yfAAVzPcJXfnca4dQpG8fBX_0HnwxNtk3ERd-OJHVaxbWAnUzfRwY_JGgDxEKdENVLy7GfSjDCUSTcw0Le9SOtPcIyu97TR3cQO-BfFvPoIFIWc4nRL3O9XAzRfmUlcWdMnFLfe-cpBj4nLm0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMYVnekK-Fv6ZgrvJewrwpx7oRy0gisWpUFzki8KNv-KV9GOx6NKRosdq7oe9GV9_KDulhOKcZ3_XgfxNnrZhWjyi_LLRoS4EOPJ5UMWqGjtbBGLvumT8iKtnoD6iPQnAEa3O1E1UWMSI9uns7UG7OrhflsXfn2tHqNiT7Cep3WEwjvYmRpTmhf3Ji1JEQdKXTFPVrlo8gSs7fvAfsXO1jTpb6e2H4j-nqvzuVv1EpYE7j75wRlX_wDFSgHm8Xiwm_zcny89kNmYFK01qzrpBtNcbOaoeO4UbpveCxO_nwc5e7zt6GWkPbzSnO4dqEjQPj13pLgLX-oTKSH0BDQ7qdNmqsY8T7Bri6wMp29ey_Vmp7w8V1mlCUxML6zA77G_2382rGeZLNxwXbHpMsFYGqwXgPY",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMY00IwhjgcVFEr-aQs8q7UYXO0GZablaF_sd6RwD0ahoKIs-M-j0AF6eComE6BDulFHafMu0Pc-jJa4k4KpQ-se_fH9rT14cNtr4jj_BbQsP34Eurt4u_dE3VB11vG9y2fqaK8ZGZRnQoLZjVi4WO8vvFHpHUmgWFdajm4j55IMiyhfxtdOVojTg7OLXy4NDbK2Ii4Oomm9SVN7-dyEv7IjAmGZ9aLKfPnahpBzjuYERaVVuWik4llzXKAPSdYfFr3Cw9CH3DVVUVzRbaiVU23Gpx2RuXazlIHX8wLhJ13VsNWHfeIkEfO3oNoae6l8Yk7bdKNhtegHzSd0EDWU7oGyaNg_19QbvhyqYFXE1TbX-YRyFZ_Q7PlOM-hAYCBBIs7rJ405mhY0wq-AbdeZdhKaoA",
+        "width": 2765
+      },
+      {
+        "height": 3121,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115949258947917247704\">leo joseph</a>"
+        ],
+        "photo_reference": "Aa-ngMa5MB8fJmbRj-0B0Vnd_Pld7xf0AyKGrE9T5tZjK2XEeOy0lq24V_pwIVmv_IlVsaVH8WzgGc7gLH4mHTZk9JVbUrTyPlty8vcB4x4OmV4kQ7D_F5bD8y0SE26ZKgDGLlZllkZUFgFdol-R38P4uAuYPArPjPI3IEZoKYcEgdh_tQG1AZm603XT540_cYMPnVBFJgtcyfLdCru8q5zsVcXcBE3SCeXvapMSrIFj6d5UCNiYIXxT34Xw3Ksmw19s3JKlPcVxdXpxjFZHpb17Sdnag-9Os3xaHvzRLlX153ZMNYs0dMViEJLagfQjJJpexPpHzH2i9JcvjW6rjz-8p6rLKZPDpvr6CxNImoOtvu3pAfXkJx2YfVbzoNnIAQ3ofymKXL8sLKcFmNJS4JEpl3mAGvY",
+        "width": 1843
+      },
+      {
+        "height": 1188,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105697368046745212517\">Herbal Pharm</a>"
+        ],
+        "photo_reference": "Aa-ngMYtDAXbLnyhCNf_ARjWRgQ0gZimZuHoemNXsglJgqKOZjRiRU8BR8-_Mml1vaO6xR0702xuKMOn8FrGs2FGw8G0eu9YyIAj1tZCBoItRWUYaD-Hojo2DKxGeekgxUrHL9KhIWOEFvkb2CkNnVPDBJCusVP5Z5i2L7k_QqqxDaOghOuze9sDIpE4Wb7SmLkiLEeOnFFBOZD70_sWbjeufRzj4RGwDvg9EcvWVQo0rt1cplfQRf_B5D_SxMzu0Ex1RQdlSiJyhik2RwaHh96UhorXct6zkq6hCLlDA5O8mrsbWT4R-Gj88MkDywQGVMnqIOdV9XsFRRXPhOVFCWyu0eN3nesRySAWs2Sn4FttqDVgDtdDL4rZB78LumdyAwXaxqWsLVuA8L6-ld-czKZzCgZcT6E",
+        "width": 1192
+      },
+      {
+        "height": 2288,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115949258947917247704\">leo joseph</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_XlVZhm6g6LjCVEcLJpOeHAObrenPo832rYzOL7gjKVnsJc4Ff9iYGwOdEji1JCujdAlT193CJo5bMzD0pZi-vIbYGO1M4sFAgXl3sZl65-aZF5bf0oWYwXyfPFCibLqqJBe7Q4j-zegIsIeGCSpNjMvgOQj_-terXhinC1UhkEBXqYRZh0bY1_rYA4FlnZhxv-eStsCBE9ypoEXTQ5fvItM98W2MTZmAVpEqSabtWDuRfjQR2qpilT-_-qg0XrDd1jx2-RhMPjgOFeT5FQ0T4SVm2veCJ0OoMaonxU2oy0mluUMkjRyVKgTuCwvmFvIZnPsslhdWANG0pa5Z8o6zGXhAULkdE2bGlEllPYMr39yYVcvrs0DDOcCB9Lpl0u0F4YubsCghs6fEkHI31kbvJMw",
+        "width": 2784
+      }
+    ],
+    "place_id": "ChIJO6tq688Z2jER18Usu7odjb0",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13658605932725978583",
+    "vicinity": "8 Race Course Ln, Singapore",
+    "website": "https://www.herbalpharm.com.sg/"
+  }
+}
