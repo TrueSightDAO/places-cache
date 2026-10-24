@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-24T12:27:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Botanica Culture",
+  "place_id": "ChIJ2Tzn2OIX2jER3Se3D-lcHoY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "#06-68 Lobby",
+        "short_name": "#06-68 Lobby",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "D Ubi Techpark",
+        "short_name": "D Ubi Techpark",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "10",
+        "short_name": "10",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ubi Crescent",
+        "short_name": "Ubi Cres",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geylang",
+        "short_name": "Geylang",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "408564",
+        "short_name": "408564",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10 Ubi Cres, #06-68 Lobby D Ubi Techpark, Singapore 408564",
+    "formatted_phone_number": "9635 9453",
+    "geometry": {
+      "location": {
+        "lat": 1.326463,
+        "lng": 103.896365
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.327711330291502,
+          "lng": 103.8977191802915
+        },
+        "southwest": {
+          "lat": 1.325013369708498,
+          "lng": 103.8950212197085
+        }
+      }
+    },
+    "name": "Botanica Culture",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1745"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1745"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1745"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1745"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1745"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:45\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:45\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:45\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:45\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:45\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMYnZvDNrS_P5lXxk-Bo1WaVxD_KNgUBo52NOxWLwaLMgWPStHhT2no0tsO4QyPPWPNuseT-T3mlEcF9QzXFP1siT3v0cH-54CSTuDrg1czzwL7j7Oy64esUBWWU4-5XJA2pnr08BPX8EZiHrzCKGai4ksUReAOFtn3XkM0So-V9uzF58PEchzFlob29Hqp3319TWfV4MgMvWOA6EqyF61Myty2nXy9G9IWkpchWTCaLN2WtBCeK9Dl4NQ7rTTHOhmX8iyMzADfS_5sClUxkFLYWpcX2nA2rMHZx_RIkHmZfp8lfMt4o51xZc5PKOSX6XQtTa3nhjOltitEk3050WR1R_sbnkG9SFPvnPlif83SB00TcxTNhqYbFW6Taq-eGYasIuhKfwiXvs5ZdE6Rx1XisyU4",
+        "width": 4800
+      },
+      {
+        "height": 682,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMaexyBnVjo3j6ov2Bbwc9F07GSg3L61igIU-fDr9rdDeBxY8DXt4RKot-Zv3PWpOhtW6IFST-hUXrvrrejZ-mDow8WBtiDAQfn9p30AvOAL1wT95mcvz34Z9lx5dY6DXEf_Geb6tQ8M0TfOZ7oQ5_lf-OEwPEJhFaLhcYD_f9zOuLW7ZnYwbbFOi4JuZaztnGirkJzMqIIlIrPjXwZw968QzpBwac4u3kmbl_wXf_IhODImQVzo6Yt5_aCiEW4Z18gHlTMVjMb9o5Vaap47gmjMHOIYgrGKIsn6EWOnOchT-URaRUEbvfGpesdr0eXYOCz8ZmiB81o1AbYvfs4lnzUPsqiiPy_x542pXHmmYyc8JuHwUd-H7MCDkO8G6mKM2H2W60LWGxq9rETxmNMKIy0hqyK9oto",
+        "width": 1980
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMbMdOEYkp-s8IharJnWTFLFtUpmRL3cmiOAGsLb_2OY2JodsrdJYVHOtXbwlTm-1aleN50eLzoDHEBWx7H4SDNEHayToVGSjXBMSRuZC5Qop_wVjz5gft0gwCOMWesBo515qV4-EKhMJbtX-fnhg4WtUQ2QgsME6g5JI4YvfBR5bFr4Wv35CBMEUwKYTrJNdKwc03JQ0f_XVMbOBmRNA4I43e4bosy9ln10pS0ch0Lwu1RoRyGRKbpmv1WnupFmx_seXaVnU5Z1Yf-I3HZyY-jGujpvhc620ZZQu0QCl1hHe8b4J-modGTi_abMNFnn5ODte4evjDhb-PJJrFU53Q-gEHnRBM2ID6yWlS7Ny7toTj2_oVqJyx3CMHJixpFMtkGZZwcAFOfM4LtGz4DZlVj2TL9A",
+        "width": 1200
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMZnrAg5OwqceWEFB3ieyJTAt_ioL959YYL5L73cQax8D2qS8MNgd_cW4TZuh5q75S8nhiz3bTC1Wr5I6032j8CBrYoT4ci41J22shoT9OBwb8FzX6SbldIH5xv_uG8REZAgoKTiPkWDogXV4UdSzpzXLAeSL4qDClVN_weW-GdO3LtYweuYc5BzSrHnOazl3v7f6VW1G98hHCmDurKLmp6c6WCBFbudc5NKKZidCeUDCxjnUgyjRxxt52wW-Sv3iXuisNJV1uizKKqclWIvZCkpG2A2j-FGLYU36rr7hHwE52ZAjrFIixYCCBBpQLEyMb6048CMRCbz5plFsMha0saUvo51dXHIPueRlYFah9FFwkuIJ91L064jSj6Y5rD_afNTtozsArbN3i09ln2irwRB0STSxkc",
+        "width": 1024
+      },
+      {
+        "height": 3908,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMbS621EV9h4K8MnIuNgDDoTG2qy9HWkPEPnUk1regV0EyGfCHeyKCPwy2vZqau9PKWNZ_zVN5KlRccBZc10VMW1BcDVcz7a7daFhpp79UDC3h_l3J3mbHjBm7-WTo0e__JqOPLcVt9spspQsI0XHfBSrze8envW4IrMGquHkSa_H8TCZaaNzPh8Y4W5Gy7cjisGYU9hh5YhENieXvD_Zng8f8dFXpAyGDwiYvszr3wFGxWpeHveJL3STSyAhlJQdyUUB3zoJJiVc1IrD2IFyRe_MYBkgAASucLTMm15m8h9HNfHIAdZMknVslVqfIjCdYcquZ2IeP0CxFO0KjzjTp1cTd9KybKZ1bXEE8BF_I2da_QWRx1O7Ii6qv5oxUWk_yE6l81GHQL4AwkOB-cv76G8W0dOv7mXaIFdu0a4oFdrSQ",
+        "width": 2790
+      },
+      {
+        "height": 533,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMbGq5GhtBKBSuFLztfP92bBR4x6cyHvZhb2pNPrRfS_w_bXcs5h52UPcsiDtqapWyn4cWEw_7XCsNzwh3hsWoe-kwg8p2xU6JDNVRwCN_mjzVqPOAw2MhCzXw6i1XJUpc3wIaRiMeqQsuy0SGQiKqwHXaGE7WV53s6NxLhuoAjF2IutxuGefXGuF7ps-Wd-fgxc48xWlbuhuVPgUlWO48wp_NzqTi_p5DQVjVD5qoqRceJvmJ1KkvlOpAFpNUM4tfbnmMi0zL4UQFSiv7pYTWO1RzDA7XfAr2BP-xPfzSZZ7Rq7lQYsiPOYCDhhBWPd8yKfmpBblMSuCQ1v_uaiB4lPsrOi6-mconZfgc8mFH7a0Qbbm1_syKK0EUYSKviQtA3Oc6qGO5dMjMQUZTdh3hDD52U",
+        "width": 800
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMZLwZt7S9j8Fdbjw9fgG4XVZUGwMSI8ITQ6nTBaJXWybXYmPUVD9amMc60jexu8LEKPlaQDGrk0dwfUU6HlfS0uKUBFbNRXdvONsx6A-hVX7CllMAYP1w3FkcV3uc0LQp1bYy7LxAI_QIeWLjKVBcZ-0kjGfxSfVwfRxg4eLHWgpLx6MirI53eudOuunXC7oa7mEZY7GA48Z7Z9E0zYlE1tI6gXL518Od4ZrWht6AhbZYXB5aNzTNYoP7pEjeKStHfGF96ru7PJHynzvzbHZiliiPxs-2NWBcYbCoyqv1Fi086WydxBVS79Oh1pILFez9tHGp7WAC_7LoxR4p-qyZp0kYHr64Mv2oj_Wz45llipIrgPKMeawsrIkjW4fnK97mQvZ8k-2ghTRUJte-YiEHarDYaA",
+        "width": 768
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMZjOrwHLtwQ0ZwtxipALR2GFPmPnhNtrBtLHtGf6y_JBAX4dxoSJMoc3mFvuoBcDZMR7-bGlW7b6bIPYt4Pa1VrCoAnIbzYAROUL9g_Ur0ymeX8eWC-z6tBXrqj4BuIn3afVqhgj0_iikpY4I0eaR_l2cRvOYbkhP5EkjUCAyXTsZHfUwmDOZtv5V85m2al_UUkuSL1QVRtvNuVI8CZtd8ybm3FuNbBpbN0kG6RzGsd7QpcegwQXlSCNTNCtJiiOm_7JGcbqCJ1NaWei5K43ckf28Y7WEcufmzCIXOUQQ6Y078m2hKcYHB2_RKIdkG4VCBsFSjnDzEhwLGBlDVJugsbL3-4hI38WeuYHiMN14FQBLp25GW05OIvozDhHMWVFMzZTn8ftMd-Tl2KIqayaqC59XhYbxs",
+        "width": 1512
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMbK198ACro8suvfyUgH9g0LzuXWfm9JClQ073AO92y8wPli9G0GUKd8i9q6_opj7uxXFaVEK00EqAngpUyZFM6qSg0m9u3xSm0VT7kGXf9eGo8dBwCmpIxucRseGfIcu_8SGJPmV-4ceuoQ5sdEy3g-LeviGEsFEObShJiQk2gxNXl73Hx07FTKVU6DdcE1JyKdcr-wo-sSimhCX9xnnNmwgv2_3LRojtE2lC7QFAmi0y6XOysks_zQWEIRUsBhWflpgTbzybpHTwAk3wrrRqsgyvZId-4FIjQ5YsJZ8r_xymh6n94nbxedbfNTVXvCQDHyHpX_Exw1wl6SYI6zmH6oVcRIhrit4e47VAyO9PgDW7CwM1Ty2tKYSRPOPk9PCDXVQMVeeVtv45wtxhOocxyTP88e",
+        "width": 480
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111384136231795044126\">Botanica Culture</a>"
+        ],
+        "photo_reference": "Aa-ngMbnkYK6qs6K6fw1mMzOxqM08kT_EcmxPURUzbBDW63nU5Q3YzJK0q9thwauv4TgA2u9hEc9yeTFQFdQ2qWC5Q-1I_0FLzGqamNnwsec5S_3H5NTej03IpIK0uT-NYQ4QCDPnWYke9E1Fmm26i_-KbwLVpTpnFNrA0W3Q-ma-mG3IXSRpN6-ntOFcnU3rZMoDDuDBQeL4KAQ5ou9O2EQiknVqE7AGQgnFcIXnI8Geb93gzgwaal78UuCk02PzTBJdPScwC_t1XByfy-2hdV6BJIl3mX4WI8KMFA1zHI-1BlcxCc24zUhwQ8HdIUcpJXN7-tAtOkISQQrhfJd_WYtAWGfUUDAoFiVW8OnfI1moy7bPw00-QyonN1SD6RiN_CKL-IIGbZ8hQkXmj5qo9-5kcR9J-w",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ2Tzn2OIX2jER3Se3D-lcHoY",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9664264006444459997",
+    "vicinity": "10 Ubi Cres, #06-68 Lobby D Ubi Techpark, Singapore",
+    "website": "https://www.botanicaculture.com/"
+  }
+}
