@@ -1,0 +1,265 @@
+{
+  "fetched_at": "2026-10-24T12:27:42Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Nature's Glory",
+  "place_id": "ChIJGQBAjncZ2jERsg9jQEsAFt4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "01-19",
+        "short_name": "01-19",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "9",
+        "short_name": "9",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Tagore Lane",
+        "short_name": "Tagore Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ang Mo Kio",
+        "short_name": "Ang Mo Kio",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "787472",
+        "short_name": "787472",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9 Tagore Ln, #01-19, Singapore 787472",
+    "formatted_phone_number": "6227 1318",
+    "geometry": {
+      "location": {
+        "lat": 1.3840046,
+        "lng": 103.8260536
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.385231030291502,
+          "lng": 103.8272138802915
+        },
+        "southwest": {
+          "lat": 1.382533069708498,
+          "lng": 103.8245159197085
+        }
+      }
+    },
+    "name": "Nature's Glory",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1430"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20092:30\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMa4yvMafDbRG5WhfpobJWBaZho6coGTEvzcDi-dN_LvCQmKHv9vVSFJLFAJ-lscdPNTI3e0_Y2QNM97eT4wzMipV0iCHN98wCEEs1G7m9dd-elgjWqt7a9cJNtrR1dOgoZdUWew2vqwA9QRubzyrkUIKIe9tEmTMg8ttvuWDZO9ToXoUuZT0u2X__dUUuqAUGPweBAkyZuaEAemsOx9xo2hZYLmfr_BXOmv0ibCoKW5k-jRuajxMMhDDQvFUDU2SbZW68rWgLrzsevP_RPJSufxKfOfHrY1Kl37S3U3Ju3mWnZqtUY61new6FsXmDtkUnjZnSd-TZ9SElN_DJn_mbMOG8POySArS4XEvU4cGVPSM5W_6NKxKnaNczhUsUxYPIjezwVpwgIp6iyIe2N4HAe_BCE",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106391530526451912160\">Elisia Phua</a>"
+        ],
+        "photo_reference": "Aa-ngMbzKHehZ9QTDOJFGYNTpM9LCoUCgOn12NOIOp888fwnY-ooNqevaTHyrHssBKltHm4T23OWxQtz4SQMa1nfnCt-E0GB3twSBNkyCxZ-HGgWvCMyHf8Lw9DkfcgJzm_lJN4IDBuTuVBkqM-IwtQlADsrv66Lwjc9HsU7wjZMtQ4yednSSfYM3Y_wKM5YR6cSScezpuIMjV31sTLOwO9M1qH_RtzPvXC4NuwhGtOw2NrYI-qDCi0ME6hMjXBkBf3AUswo6EZL8jN7U1Kzi2J-7gaGAUX8r8pdXtBWvezqud_jGTuMrEUG68XqgxZuhvAH__R3zop2hp3Ea0775arvfCrJWVX0W5mgdRDaV3SSwg75dngTN7xrhVJDlYRzQuAh4hQTqnxELcQ3Xig5EccLt16C7A",
+        "width": 3024
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMZsqT8xbzIKNk9ooYDG2Z0fGkpmnd49aizH-7a2Y5-jZV1sf6W8fHaIXzs-FQicneaTPOr0EmCYCCyNWKinRMoDOLGoE4sn9VfCgGTIAJzXsrzPPDobi5LLA6ft_7-pa7cRtJy3e7TrFjP0dpwk7lCDtMhqm4caiQfrz7PG62IP-MSSJah5hJUcgKwy4rA5jIh6o1FFhBv3bqaXgjKAQ6jTciXLME5gPsk7OMBaTvTJv9U2p5GgeABggCk8vQ8A0EptmZP8DPuCP97cSpe7jobGxwk7eiTHR3E41W8pnqG_vHOhJCmtaXCi8Pvzlsat51MIiqGu6Vo3OjeGu1WCQ58f469YRzaFUGf9I5DIHm_kqU5nsm0h4bR97SDYiTcXbkLFsWATAD1Q1gQCzgPD5d1fCA",
+        "width": 1600
+      },
+      {
+        "height": 360,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMY3VCa-3r6vct6j8a5nANQDMGiutgD41YkYxAnomnL8YIQXh2kOJWrrtQ-ReEl-1P9hdhxnLv3-x4qgwRk3_ZBuXt8lD6ErEcFYTz03b4nT9scxx4MgsHHrOhuSw9Db8eqWGo1U-YJor2SaUULbO_vwku-X_5qTpDHt1hmNU8F3_F8rH9Nv4KeVEPTywltOAtYM6gC2SBZK3dg4HgXS34sgQmZ58HQNYQwOBw_2W_3axR5HWZiUiWfzM1XI19ZZgi54_zz5FALtq_Kbq041MI05j04B6Epq0JFQm0AWvSuPhy0iPQFHtYSqufEOaMfZJx1Wdf0pgEgfIsfuTZztXFVbq-82h7jsD2ZPijXnwY7Kkl460UbDez9E64qBTqaw0d3SReT5ybRohfu0oxk3pQnowDSL",
+        "width": 550
+      },
+      {
+        "height": 2470,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107015254799622880283\">Christina W</a>"
+        ],
+        "photo_reference": "Aa-ngMaZICEPcpZ-6OEepIXu3mEs_m4_wss51gVVgeEXZHJ7CnXTsVbwns-gn2YhP3zTxPGSVIWXZVWs_a83qZznYh4LGRP1MeOYau9AMuu04sBje4nb0MRD--LmH8W35CeoajZfrPzxduiJI3bJ3EnrXZJMynm7aJYMBj5ezEe8gz6nP5eXRQXO1hjFPXEs7LKk91BJ5lJoty7Hg0nGsaAXhIaepxLqicfRpjkJR0p3fa1yGtfaaOlqrKsVqbsWCvv5VOaLwuo4PjDFV46b0_dVrEIz-TkuxgAWx9YGEVt_DPh8StnWiS8PS-MU1zzOoC31h6KNkpyXIWLUDCudWaaSSwDRkYH-EREXzRuGz987hbBDUcewajWHTw1Usv8tcY3T7g9AiKCY9-EagujEKRKzPmDUpOGy",
+        "width": 2470
+      },
+      {
+        "height": 566,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1On634LQAP2mqzfkKmcMsWV_c6dcTOC-fXc5RVcjkIIny4KDq0xzIWvitYSNvp3LGPUUIhsNI990pdorqzmYSJJcSvuc_dXB6F9clPTh87YKIJvzxiUv2N6ExDiqp8Ph0or45WWnEiOp8EeWJQYQgKf4vVw2AL_6Vn0QtoDQDeD8LaHj9VAvV9B9-8xRQMLnw7X4wOtGGlLK_vUoujecgyH86mWp9VZBno0CKZhrnVa3Cnt4-12QTSwO0nk36uoc2UauuCvNjz8eG5WjXv5LIfGNHeWM6ryqUyy9fwFrx5ts0laczG0x-yu1UuCC9s_HfEjaUUUzYUpKICOo7sswUVhTH9yFxyiO8B_ao116WN0fnUn38QurOP9poGg6tsyc208J2ig1Ax38H_ooRSjciv8Vu7cs",
+        "width": 849
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMbW4gfrsEsPrPGJgXu8bMD67NoM9cYUIOApX5ceFLZ0wglLSgLP-pL5yYSgy17Ck6BO7co-ZT5szz7n9ofVQ6yHsHSgh5bp0r6F-2ZdzW5SrJZCHWj_ng48-q7qRvS0UH8NCBByw6PdvkbCm40xuhECqdbytcR4blBoSnXyojO5ALbC19Tq9bdlyjsw-YHImjQnzB696RrLg6_RJHFbiHnO6B2KSSHQxzDyZ8xHx8x1Auoy5bROK-e4WfIfphIZWq6FoX51p6c3W13A9u-GTqU10tDC2TEjGHWl8j01hYgI2AreTKOy8DLmWFQW9l4hQA8a6CdekDY_TqMFtRRLScfC9ZmpQER3Ab3hOo6VeZktnzybW-EpMCA79IwDINSnTLnwJnQ218P6z8faP1fotFoTeg",
+        "width": 1080
+      },
+      {
+        "height": 1106,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMZDNUlxQIx2MUrg2IQ2SJdl-1ZzAf3DvjSnCkrfTOsL_Wa4kSalJG0zXgps9yTgonAQsTILCVsXP7SfC59tac7UpQtccrtc_hqvQe4uObSV0p8uSjFeV8f3LhACm-gfMzf3zmE1iUGJt8uFy464wP2bWBWQk40f-bBTKZR_rop6VRNYvub0cnbODNtrmJ7vqepquDzV_cQ1zSZrWWNDE_xP8WSrGtZdr0z-u8tbfHxh7x2LE4pbX3aMRrw_QDUVRacKvmk6Ea9vssndSMKCG_MA5hVMHpMPjwgdGYojXtwXBEmWwREx6CadcvjXQAh1Q6zDnqXd9ILOGQa7e5qd2niGDIoe5cBgSIPJ5_Lq01aKjpfg0bW0YJM-fdBEbRUiwaZlppeA1qONd_BVqNMng63Rqxw",
+        "width": 1110
+      },
+      {
+        "height": 350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMaDqZON5ZaIQsUsleg-O7tlHwdV8j-R25dQjQ5cAbl587mOkizrHwSSS1PN4NPLZQvNCIGOOF-KRKDkr2fewhPDVN322SE6HP2Whw9U9xz_K43BuP9zezwSBlsTSOUFoarT5jP-_RhubLhre9SAa1EW8SAt0T43IX-XuqeTuBWr3J463j7S6GoBuoHe8wUMEeE3WXr7DSx5uvL2bJ-OkO9oAKmnwGyNNmyboWiT4nfeo98mwtRBoTBVBLDKvERrJ6cayD81krZuisjKlDiC4NeAioYHoIirBuyuOrxAMRRKsjhceU4LxX56BX0LUK2BmcfQ3B4hFDegzWM1BNZUsRF9GYWYBEgVDA3WeyrhRu3y0K5KuoSs3lAde2RsBAc1Eg4L5LTUmXWzXq0BdRkQhD243Ok-HXQ",
+        "width": 700
+      },
+      {
+        "height": 638,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101286221701702257641\">Nature&#39;s Glory</a>"
+        ],
+        "photo_reference": "Aa-ngMYNg5CKF3SzJod8n_2_bXkEgvG-A9FXNczkxnOnIk09tYJkb26vE0qJqOO2ejHrTMr9GwPFlF18CbNWl671JS_qwJRHquO4zVXNy5al5_l1qFaH1XqppnIW8wlSdzdjYeMyq2rWj8LeAHaS1qg3v5u1vdcJBJlZlNglg9aOqlprQwZbfBXFZyPumTtnTfMXcKqWMjIf-XP_Fd8r-AGKQMKhd0I4bfi6zkeOFRWJVAj-tdLOnCkN5uhV1rGVhzzij8veCku-LI3Kie5EDKwaPxMrmCTIVRFyLTF2N1l1JXrcVHIe5hg0BP1nGj-vEcHH6jdnQBHMNNU2SMEC5kDSPgTvdzpJbR6kSDSSwl6GlnUP_C0KERml7hXx9lWYIxK01VgxtVC3tFSZVu9PwKYJWdnvxJ4thQE",
+        "width": 960
+      }
+    ],
+    "place_id": "ChIJGQBAjncZ2jERsg9jQEsAFt4",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16002978649110417330",
+    "vicinity": "9 Tagore Ln, #01-19, Singapore",
+    "website": "https://www.natures-glory.com/"
+  }
+}
