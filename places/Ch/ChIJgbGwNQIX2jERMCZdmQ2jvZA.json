@@ -1,0 +1,188 @@
+{
+  "fetched_at": "2026-10-24T12:27:52Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Adapt Herb",
+  "place_id": "ChIJgbGwNQIX2jERMCZdmQ2jvZA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Lobby Suite 07-28",
+        "short_name": "Lobby Suite 07-28",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Ubi Techpark",
+        "short_name": "Ubi Techpark",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "10",
+        "short_name": "10",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ubi Crescent",
+        "short_name": "Ubi Cres",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geylang",
+        "short_name": "Geylang",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "408564",
+        "short_name": "408564",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10 Ubi Cres, Lobby Suite 07-28 Ubi Techpark, Singapore 408564",
+    "formatted_phone_number": "6749 2265",
+    "geometry": {
+      "location": {
+        "lat": 1.3264632,
+        "lng": 103.896365
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.327711330291502,
+          "lng": 103.8977192802915
+        },
+        "southwest": {
+          "lat": 1.325013369708498,
+          "lng": 103.8950213197085
+        }
+      }
+    },
+    "name": "Adapt Herb",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116304204031758443972\">Eva Wong</a>"
+        ],
+        "photo_reference": "Aa-ngMZTp-pgOsZUsQKAivabSGVOE5md-CRSxbUdcWxJWzpeVgYYLzz47rtUuRCau2rG10SNYBlZSf2HQn7fi_MFE9XidLsp9zhIDmPaHXkk3rox7vGeBbkPN9Q3mVHbb0adyizidLJa06JhOJe2_1KXWF9AtHDjijMH4V9V1T4uTGhRAzQmdo1C6sQUdJrXvU-40uPViuUYoPvqv3hGtERF4wH1Xre5GPc1aBHv02BFVxRqpW4YH-Fl2ntC82TLkaE8UKhzlKTxhWLjFJU-caVZYbLUI5OogL3_uvlwIOs3LBxMP7tzAvDv0MPDZLyrjxSfLqFR9fnVCy6tAgJh-CMrrLAI8MKbpRT5N64Riaa9VH0D-_ROOLvXrWy_sHXPJ1kJP2g37SjOWu4ZQVvspTeFU52za9o",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJgbGwNQIX2jERMCZdmQ2jvZA",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10429671590862857776",
+    "vicinity": "10 Ubi Cres, Lobby Suite 07-28 Ubi Techpark, Singapore",
+    "website": "https://www.adaptherb.com/"
+  }
+}
