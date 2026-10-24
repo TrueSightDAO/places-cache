@@ -1,0 +1,104 @@
+{
+  "fetched_at": "2026-10-24T12:27:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Organic Veda Bugis Store - Buy Organic Health Supplements , Natural Skin & Hair Care Products",
+  "place_id": "ChIJxyvI41YZ2jERZ6cQ__gGqi8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "#02-30, Golden Lank Building, Next to Bugis MRT",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "390",
+        "short_name": "390",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Victoria Street",
+        "short_name": "Victoria St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rochor",
+        "short_name": "Rochor",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "188061",
+        "short_name": "188061",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "#02-30, Golden Lank Building, Next to Bugis MRT, 390 Victoria St, Singapore 188061",
+    "formatted_phone_number": "9658 0222",
+    "geometry": {
+      "location": {
+        "lat": 1.3019085,
+        "lng": 103.8578808
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.303021980291502,
+          "lng": 103.8591599802915
+        },
+        "southwest": {
+          "lat": 1.300324019708498,
+          "lng": 103.8564620197085
+        }
+      }
+    },
+    "name": "Organic Veda Bugis Store - Buy Organic Health Supplements , Natural Skin & Hair Care Products",
+    "place_id": "ChIJxyvI41YZ2jERZ6cQ__gGqi8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3434565332324362087",
+    "vicinity": "#02-30, Golden Lank Building, Next to Bugis MRT, 390 Victoria St, Singapore",
+    "website": "https://www.organicveda.sg/Bugis-Organic-Stores-Singapore"
+  }
+}
