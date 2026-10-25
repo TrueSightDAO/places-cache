@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-25T12:58:20Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Heng Foh Tong Medical Hall",
+  "place_id": "ChIJFz0n1UMQ2jERqWGYGxCiTkk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "#01-92",
+        "short_name": "#01-92",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "274",
+        "short_name": "274",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bukit Batok East Avenue 4",
+        "short_name": "Bukit Batok East Ave 4",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bukit Batok",
+        "short_name": "Bukit Batok",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "650274",
+        "short_name": "650274",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "274 Bukit Batok East Ave 4, #01-92, Singapore 650274",
+    "formatted_phone_number": "8809 5102",
+    "geometry": {
+      "location": {
+        "lat": 1.3481141,
+        "lng": 103.7578957
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.349518280291502,
+          "lng": 103.7592907802915
+        },
+        "southwest": {
+          "lat": 1.346820319708498,
+          "lng": 103.7565928197085
+        }
+      }
+    },
+    "name": "Heng Foh Tong Medical Hall",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1300"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 8:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 8:30\u202fAM\u2009\u2013\u20091:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMY5orTgd1t3TF6Z0kuSMNImS5Fw9osgoEtXItZS3vXeZlF4JSbyv-DcuGwAYQzVnUwY67vIdJ3Nmtc7w_ZLDxKzlNwvU-qlDd-1eQWpg3mrWi9HSTQfeYu0GlfbxFC_mz7SZapYOFHREv9Tty6SP1ArxJKJcZCoAp2uzd82wXok3z0uTKNtDLO17EiPTVxV2Zcsp3wGkU0FNzr8tyJDbZWjJ8tmq52Qm59wd16paICh4h7REH0iJdbN0XrNTBKAkK_7PtPTkL0rvUt0uOVpOxv0js36JcK27RVrD20VNoQC7u-fPrnoEDnpECMHOCZ9eH0zR0wkI0WDsb-aKsfXub8rGlCJIiU_aWta5Z49SVyanmaHMdij3hEVYj9HQ9nnQHt1FHQL5l-kivNCr-owiss9Esc",
+        "width": 1280
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMbIhsSfEVwOzxHcc-oLve7kvgYr7iAlKGSH9OUAK01xVw6ETZ_QRgzeeLika2EDyCWhBvIHSdAD5tzfogRs9wgz6hy0uJgTh6p37k7KRNJbv9yKk5n5PeNSX0cj2DLe2Ib4MVktA4exeNAdiB3qoADc8zNJhpZcuxgBxbR5kwtt-1XG2fT3pt5ahZURw7FLVTXJVB5YjTg1gIZVwRQ1b9DJIlzU6b57Qy2pF61DrsZZrfAW8ckrjcuwgt4ksg2qfcAe-7GUtQGf9H3gf5eQ75uzmNMDu29rJM0M7akSqfIhm3wqaqV0LaAlQ9hiFZxMUPmaPLXT9_X5XtVEHfGgSH7lSwATt4lF6SDTjCk5WDZlUFKtughBRo-8QEpHHdv61REzYxDCBSp8ltuSjYqlBjXQKh6_f-arJkVl5ztaOOdwrg",
+        "width": 1080
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMbMuE0YSABdl3OqkKWSzWbOBMmjo8SO3t65KOYsufXW304S9h0EXI5aobGweVSrOr2kCGlC2V5Hz2YJBFUoWMrk2SKkZu99PaPakDloUaLSz19vhSdNoS8Qk4P650Tz96tbumSksZ9vPGWCEjf9nYArINimg3XyAxUfRoqUGhoEP2cVJ-_sOwm1pqkNBW9PbA1ifo9o4Ld33YHsvWKGOmchUM-wFYgE2Jea5IxpRY4W_KVL-jdj6_VNZVleXThKKCYps6PSItomW5Sp_U-ituckNzkiy2SUNefPI1Sj40UwnmwukB0ZQSu5Vgy3nPhCi-GEkFETcw4fL1ERa9Ikkb5jVB52fJo3ki3ieuDu31eofH3xor6sMBQQSi13FZ_o58EME3KujVtAu1OSVDeZBWRbWSxrn_Y",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMadVIp0uAHH2ZNKSKNjav4HN62l4aASUGh1sHYRT79xGrJcUyef7CB-PAu2hfmGhxFy0XalGBtcYpj94bi2Rx5UTHppPwxQof_tucVWdDNtYaTj9Ni3vkCf1SEY7bXPCjK_H7W51jM-kq4Rw9zLs_-xexHww6X4dIfRQJjaUwvyycIC5B8qAQ9_x_ikIXSgZULakUCNRhFWYaXMwnLkUtYy67ztH5q4B_bsk2maIEjJhPzxff4C25TSHLCUDT7I2rcoMsNqrCoLCv-LJjO3uTu4eqghJClMrEN9h0AOvlnRQV4zEScPE0xElgoa0q1X2lVs_Jh7QRMgHfAeihKOk8KizTVauvEsrd07LALUXYBTmp1xuqNSDi0nAM2LjT03cA4OWL0OpTOl4d2OAb43CmbjAgbW",
+        "width": 4032
+      },
+      {
+        "height": 900,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMYJDnRPfJrnhcOg9GaxVnMbm6uX03rna5uW_808NwthbmU0ABAOsi5EWrKN1cs_zfwEDUSsRzPI3deAB9vQsW13hdgFhvcHFVsCESk86XqKG6LxY6EnZjm3Rtk4FCyYx3Og86E6we3p290pLp1eztkA1x2Y76t7ygl2JKOQ5BBtk98obp6EcJzhrG6OmZ9PZk_Tb-_WCJSOco7cyZcA2vAv3OBc2PH-3tYtPBdhHRwBVC_x2kduUSHFVg6e6VDco86V9s3NBPuoyyRzSw2oOfXNRDuad0eHP6dvNnr4pmedbzmw9aQli0uJCAKyPAAShDUy3QzJRVIQv0v5_pW3zmIfhCfYFns08NHekN7QJbi4Vc2VUiyh__WbWlb2bTTxhTWf7YYI8M9trww4zewI4agTMUA",
+        "width": 1600
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMaouVSBh151l6w3URtMYbDwdrt9V3mJUYoQ7scgw0sFtMyhPKW1AbVtxFv1iaLOuyDHbV4oZhvAQt2eDDWNl_EQb16XirTGeCZj-HxBJuE2HTVcObTi4sgKuoFNYdq6Hc8x0B9QdOdTOykZpv1Guq2nzO2umG4xKpvrVPK4jsLE_SNE13TPm8UASR7Lz4qtO0ytSx7TTUIUCWcIAG9tEqqK1G9WG7mjwsVxSmh4pgQHkXx-LCjK_I65yHJHF7lE_GbadOrW26ebQkNQKF4hLZ63_0cM6a4vXuqdU-8wDtIlB5Vo2xUF2HjPpEI4bePpoT7HKz0rwyvPYO1kQFonnEzf4f-gs1UUHakQuxbL8eocbwO8mdmYslcuclYkmBOazAgSmUa34b9QzCEB0HSY-xHpOyYwWf9Q56JAEMg3vPwc9Q",
+        "width": 500
+      },
+      {
+        "height": 1254,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMZK5JMI_Db5jSlDUtLhRQMujih39JrW-rHty31FKeXsJjwDgrLbdzx0AWBQBYN0DTV0F3RZy3kgx-YZzQ3gt5d8oFyvdJ_DdEnV00htdP9NE2GmMhRjGa6_ulTk3i0ZsBvCPW_eK4aL5Z2aInE5ALDO6P768oCGi-xqaZgH4XtdalU8h9YUz88N4bAmYadqT86PhEGWSMg38t3npMf8cXSevLAo7PIzHLNI9tnBCSBvikU3Gljdfo_JztrP9dd0qGaxQFdxI0FOsccMAkx-vtYtDccfWRID_gIy86wRMEa2aZyr1SEf1C8JHOSv7Q_WvW6G6pKTpd3qE1DFMUrdwrAEl-QYOp3LM7-oip4D9o_8YokwQiyNLDxeRDZ7FoV0LIFAP3TQr02BMreiTcwP3t_2B5QVGHuwvS9xJKHt8Rc88g",
+        "width": 1254
+      },
+      {
+        "height": 738,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMaiQ5llC_49mSl7ALfdkScTVdOpFntKZK5szPx4ixMhonizbkChr6B15Mhp7EbrqWDCBMvLZgSsgHW3XJTSe6EJnyZ1ETwRjU7GG86ytivNO8LQODI8mcf1gozApl365n0ycfkr4YjUDyPulm42Pvs_RRXVR91JisgZXKjlCBwJoTzodtBp4CdeuCgVw1txZUMg1bKxVARfLt031h4vXjBo-IFdORffIx3Rbq030T5mTBG2FLNu1B5aoNKagfWVDSjOzQrzeAKtiio-uDwNR3faw1cE6ilGKxyAe8LoHex2RPovvHIMSC2nAGPiiEw-Frrewly9Kts8Cib9BUHb02FeBxf2mCp-SMjXMDyATM_8b0sADH8d1mdF17oWYLKJkmmDAF5a5TnqxmLAtsOJpJGLH-Bd124-muyq3bsFQu2tMQ",
+        "width": 702
+      },
+      {
+        "height": 906,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMa3dld_s_P-D-OzH1Qh9wiAbFwF3Gvmp2lUeyKycvSqwPXdIKFfvd3973-GvRF1idU0Uot4EbmuQii9Qwh7R4Bt5w5ANG4ko_mEgyYZdS1dsgQOdcaY0nrMWqmVGlKYNWTlx_xA65IalcirXOazmaJj6MK290ty3-eBGu11blDYzIl7wiSCp0D9mWG_kH46MrKGxx06DjrPZH917atZHjgfQH-H4Sg9w51bogsxIjX5l9JNuz_aTkMcXMsAShHc0u4tKVszvCx93saXUZtTNroYBwwYEtR5uI1uoQVGOXu5_542Sj7JN2u5iLRGdZsHaE9e-SVYuyjt2eCnDHdV93uNvnlqq3gGYJl8dw26E_osoMNtVlPydXZR9PiR98_JBE9c39wr5Av1lMaKwTVL8qmzVM9smS9uX2YPOmGn0Nv7",
+        "width": 700
+      },
+      {
+        "height": 4052,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103425406824861425925\">Heng Foh Tong Medical Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMYd1lHfMiM0lbt1q7k_Zio13w96ofAcBqi9dx48KDtSgD4q2GHMDaZGoDR2D2wAiLMVCqNm5cOmkxKU1GBnRc5tjt3cGN1oXSTZxNytaX-0_2Aj0isn2anu3UX-8h9W03yPh3FwcY8SneMu6mKok6Yhkm6DfDHH-7xoj7ydX4ulEN8jh_iqgMpQUqK4S2fVI-mLDZsH2W6me-L_syAjXUcH3I4ERJN-yYCh1Q_W5wDCPBuKAK3sPC_HTNKZoee5q4IkDymQqtDFXZ8nZzk99gilMvUHKD26qMSzqYnNoS1e3Kj2EQOvhepgE_qBU0IzrLKd6z-CcoSHIBHQIaYqD0UITzwnN5Q4zFPYIsCVCKGSAUXfRshQHMS61rWxqXfUYs9DFS6NUyoOZroWXEFlUKO28w0",
+        "width": 4052
+      }
+    ],
+    "place_id": "ChIJFz0n1UMQ2jERqWGYGxCiTkk",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5282337603018318249",
+    "vicinity": "274 Bukit Batok East Ave 4, #01-92, Singapore",
+    "website": "https://hengfohtong.com/"
+  }
+}
