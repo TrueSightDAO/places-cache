@@ -1,0 +1,183 @@
+{
+  "fetched_at": "2026-10-25T12:58:00Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Eden Health Foods & Natural Remedies Pte Ltd",
+  "place_id": "ChIJDQn9K6EZ2jER5jabxTloo-w",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3 Coleman Street, Peninsula Shopping Centre",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "02-01",
+        "short_name": "02-01",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Downtown Core",
+        "short_name": "Downtown Core",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "Singapore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Singapore",
+        "short_name": "SG",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "179804",
+        "short_name": "179804",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3 Coleman Street, Peninsula Shopping Centre, #02-01, Singapore 179804",
+    "formatted_phone_number": "6337 5369",
+    "geometry": {
+      "location": {
+        "lat": 1.2918776,
+        "lng": 103.8500267
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.293301630291502,
+          "lng": 103.8514114802915
+        },
+        "southwest": {
+          "lat": 1.290603669708498,
+          "lng": 103.8487135197085
+        }
+      }
+    },
+    "name": "Eden Health Foods & Natural Remedies Pte Ltd",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1108,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105161886284718366262\">Eden Health Foods &amp; Natural Remedies Pte Ltd</a>"
+        ],
+        "photo_reference": "Aa-ngMa3Yfxw8K46u57jD4xql6Gd_SXntmM3V7p73YXiKTylFwmxsheGDdxd4OmJPmpwRLESkXnE4XiBKUhHSbzYrFK5b0ZPBQgpzd2X-WRfHiEXQcfuj-PfQox7UI7rEgYNvQikWtYF2jWUQi2QFOIa64SgWgzXKqR1bDm1aehccVC5OnbKmV5jpNUxn7tsaZsirDKOR7mXWHuP9kc_3WQLESYoTY2IC45ZMM2jOmv7J6iiw1Tb3EnI_EQUQgsJSNRHi797xNJRi80vCyxUEIindfPLiH1hhrdLuXAi91PnlJCGSiNZbuRSmXPm-NbLZfvGFnqB12IY9sFCROgxuWS2pR1hVDyQr2033iQ1ub_SsnakGu0RKbL16vSfC-imWVnja9H64MeXea-2hoBgF_c1tps9sg",
+        "width": 1477
+      }
+    ],
+    "place_id": "ChIJDQn9K6EZ2jER5jabxTloo-w",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17051587211492538086",
+    "vicinity": "3 Coleman Street, Peninsula Shopping Centre, #02-01, Singapore",
+    "website": "http://www.eden.com.sg/"
+  }
+}
