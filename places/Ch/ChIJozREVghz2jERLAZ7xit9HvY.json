@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-27T13:59:30Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Herbal Farmer @ Paradigm Mall",
+  "place_id": "ChIJozREVghz2jERLAZ7xit9HvY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2F-21 & 2F-22",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Paradigm Mall",
+        "short_name": "Paradigm Mall",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "long_name": "Skudai Highway",
+        "short_name": "Skudai Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Johor Bahru",
+        "short_name": "Johor Bahru",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Johor",
+        "short_name": "Johor",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Malaysia",
+        "short_name": "MY",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "81100",
+        "short_name": "81100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2F-21 & 2F-22, Paradigm Mall, Skudai Hwy, 81100 Johor Bahru, Johor, Malaysia",
+    "formatted_phone_number": "011-5502 1335",
+    "geometry": {
+      "location": {
+        "lat": 1.5162561,
+        "lng": 103.6848456
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.517507580291502,
+          "lng": 103.6860550302915
+        },
+        "southwest": {
+          "lat": 1.514809619708498,
+          "lng": 103.6833570697085
+        }
+      }
+    },
+    "name": "Herbal Farmer @ Paradigm Mall",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114130896587559764756\">Mokkie Mok</a>"
+        ],
+        "photo_reference": "AV-0GLcFv2CVzfy0nT5zulH4djzj9zmuMIys2Tk0JYxPDqybl2VYyYcCqg5X6UOUEjjhWSahI2GGlIWsN2K-VqWgownlzq-YV-zuJlFHVvAURBAWUYb-PXmwBjywJu6G_MOBjpWWgJkyIUzOjb3A0DJZNSpfZWOSA_snJYumPmngGBBX_rEcKQ0zsPqBUgCbVACX01V2nBfKWYGaGgtP7PpGYHsH9HfsYI2HismErDzUs_NXMk_42Wn_UIS7cfsgmrSz8SN5NloEqwoZunOrsehGug93BncDZsG73scfh6MfKT-0IRiFpZ1q-cKHOX664kpmApzlDizQU4cA1tmHn9GyBnROc_6DVREeLYSitCpPHzM1KowUubk7_5R6luIvFFET2XWdUUoyVqEijby7jP_9W832SYE",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114130896587559764756\">Mokkie Mok</a>"
+        ],
+        "photo_reference": "AV-0GLd_UEqLzuRXlL5ppPd0KQIrAPGAGqURD03Fs1EjG8xx_I2fyiHVa-jgYC5cFeom8-0Mar6Y0X1KJMtX_Tg_X3LzxTECjGUL-zE15DEFjqKGEhsPnhajJ-Yp2ly7qMjMCq0oBTPANKseuw1F1X3uUUR3cN5jmwlhqPDLFPcoaPQNmseXBi_J-GnkBSnyw9bm9GTyIWJ6RvpnxvQBIINPC65l6eoEJ30o1rjN_UIf6XWJ335KtwfXkN37elchBbM-82-ag_3zmwAuKYLnTetDy0eZXSZJmQUonSfNin9Da2c27j3JKPwyRz2BRn_Nm81_6VB9YWWdrblSOw5c_O1fTLVGYpBxH53rmIxES-swSWrnGedUz5Y4zGEE965tmGwp_eAuMGJq6d4oaNvDl1kYP2cAHBzVJRM",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108964946085564325258\">Ang Yue Fen</a>"
+        ],
+        "photo_reference": "AV-0GLfnTa7-3uJ_x9k9HxwBrO-rijG-lrPtszDew_f6Y2P2_Pv8FveZUlm-KB5TnsSERet8o-qjOVa9nagx3_casj5KzGTvGi9V6MrPclpyQnI_Z6ZKj0cqHGLWxgikgtbMz7Ac5NfpyIQGRwz7d35Ng49oYkbChZMrgA39kpF00EJ_q171nPeeZmo7o1JtMKzGyXjd7s43GKrlcP10gE-4F-gx5S4uu4XPdI61_NgDOi6pWQW7N2aWGgPu8tIfEppXHO3L_qKV9FTGD3ft5jO5nEwWpI6j409U8nbmtBwbN3sljmNuA3XDOy2SFH8DzE5QQDr4ZqDHWQM2MF864w-F5hmulrgbo9x_2D-HF2q6QEn-SYSsbBYN8MH2z62QKAD2yeXXrCdtwBhVzuYhZOUW8e3tvidRDOk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108964946085564325258\">Ang Yue Fen</a>"
+        ],
+        "photo_reference": "AV-0GLfTzORAZTDwmZ17DW5KcmRwobcaTViObzRcP7DauWZJFRIoYGYvzju_D-Cou0DbrNya_a6YntRmCYUUtw8q4a3KvzZ5a-Pbr444H0Yrfz426TGiSrkRRil40qDXgEtgwAqZgeoKEUiyJaktEma9j_1rap-jK8OhZYGEmgEvWzcixnPScXvA_LrwN2g1XeHOXZ0T05TeQZPKiviVV0RcDcNPYz7tdhsXgT8YOmKWoBXXcfM6VPKQ_v9U5EmfyeYo49S4W6aZNcL0-8_s84CergnwNpc-EyGwiGHpuReBI1S1mSmVwbtlgg3pJK_BhxharuDTJGIqzdjNQVW6239egQS9d9hziu3ba6p2T1LJLbSzN8bVn0cfwYwScI7vry42-jRkRGV5okhcS-caMcDsJnn25RY",
+        "width": 3024
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114944254867133808780\">Ken Hoe</a>"
+        ],
+        "photo_reference": "AV-0GLeoAgkVsN7BCgxDLOJJ3vpDzdT0NKbkZ23QP-9XgrQM5Aoeszoaf-WKX0QZqETHCmLQqvkoGlMMaSam4qaZb5vAwMqPtOonkgjpQqN2x9lVLBwgEVuqWpBDZOPWaUSiIO_394O4Qy2AeeksAWIBApvVyni40LgCZkhjPaYNYr8RhyF70hHgxgCmD2VNrOvXsTM1Sd_OQnZv8RAAq3_NT2EmiPYKR3CkupLk57WuMCNyDSaTwHGX9Y8kD6ES4aXYrMkbQ3c8KLEGMRL6DtngFIubDDF2uDfu324e8C4fOW9FjwBOPHTYclkX4HdBAa-0frPntRYcSkdP3P23OyCp-ybPFzuV6lZrnaL2yaxHHQUMFAFMsNQByT3qJK__OJQvpN7g83NEU5VjL4GBuZvZ2SSlFg",
+        "width": 3072
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114130896587559764756\">Mokkie Mok</a>"
+        ],
+        "photo_reference": "AV-0GLfzIycKnfrwFuXA2pDg9mIcw63Lw-nMBLq8jPpz7TaAdo-J_nTMQ9j7Qzi0ARx38Gj9Jk_HLPM2vXGNBs8lNLlALA9-024pPjykDZ6PUMvMBjglUrUw-Zq2ViFNA1H3t6CIJs5lbN0AwBRU9IvkQ5fYWMfv9FLcrNX2WTMfTSRnrct9sV-z1qbjk2seTu2OzU1FhB0kQGiknzg3TPjy7TlbiOiCRkxD8J4O6pI3xu2yT-hnRSTXfrMdxb_jBL8BasE3Gu9OlcfDadMv-Jqgq7hZEi_o2P9hRVMSu46QzmknICviG71tfrmyb14u4hkoPAeoqv1orATfS8L70ZiasprnnEqv8YY1-jI8p3Kn4pI80DvgknvvAvMm19WAuZczqjzK7ZkEWy_xQ1vpozBN7guJJgw",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110868505595794082672\">Wivinia Soo</a>"
+        ],
+        "photo_reference": "AV-0GLcBnmoy9GvlgEiurhyMhLhkxkEFBJfJiI-4JwV5bJQqp-53IFNo9wBF55Xn03Xevay-lOs5Osh2_VPeNqUhrQrg9v2qBx-E6SukEDvWNaFK8dKn2p1PQYLRkfGwY2iEcD4JQnIrcxCo3dcY1KdO7ujgEgPYcaON-esa9HOCOo6P2tdtoAlMtpz9CJBBXzMyllXFqi5kLgCrUWbNVOWNls74pBRZJxbQzPZvwGARM4DGIHfmishkJDOP9M9VIUkt78uEGRPQs6Cd65_GrVjM0Lsh7XeDLorzt1yaqozu019H24A0_J-Q0WKyTuTmh9MWCnPHK3dQ1NHJ72hDo4_MrLS4l_ALWWy-7cY-_qVH9ENtTVl8ADJkgWX_bp18uZHImVugyEoO-QkNTj0-oKJyBYk77gwI",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114130896587559764756\">Mokkie Mok</a>"
+        ],
+        "photo_reference": "AV-0GLep3ZvhbwJ3770xkl9MTGq-8rziULN3R5XHMUXnf4X67KJMnGfjXO5gthJp18edgBtRB-Ihv3cmElfo_IKfe9_1Jo-0PoPI8K7OCbtaFzcA50zVAPgAH_EIBNe-vArE8LsWaYLkaVsQEql5G8XpQik5piDRwFkDNFYC82rfnngr0c4grzxYLLfIPFRrWsx2c8RiFkUpFYm77tPGVuQVe1IKC5T6oln8RJCnm4jNEIph22nbg8qTzo30QBFTiYwxtAQBuRyRqJceUqwfr270MuXDiU_pRBt7hDWPO_TsOQB8CiQZ24I9e8H2KIGOJjqjWu9n3dKi4ZvGoaUbxbJd0DR9Wgl1hMSGuug29YuOSCpj_2h3pVhdhhxpHOyMyNjnvnpCpb-mjufi0VglD13hCIOl4w",
+        "width": 4000
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114944254867133808780\">Ken Hoe</a>"
+        ],
+        "photo_reference": "AV-0GLdcN21jl5GMV9qaFSaO-q-52XbHNdA7H0CkcRCY67uTARrH87Jvzeyhv8K5nIpQMi7S8XO3RGhd3faLLF40Ciu7qZuDO8AyyveYvnlQIENsP9X0hUjCoWoxGeB1-hf2cVyizE-Dxhf5eydKFIhImRrnu23eZRa0sl8v55ca_AeB0oesr-AqMqkhBWlrI7_GgPU1dqHsVjrj-IasoB9dFno4s63KlpiDSP4882qrNXLSr1ab15fqo7XT1DYjSWjsdR3Ltw8YSkG5b3bfuIidx8e6AzRhoQogxODdkGawECEB1mR8hwW2nXKchKFe7z9IVqvUmTWH618MPYYqlch5WVpWhFuOTCGEr614iGo89MRKYq0wjZfbVOKla8-c-gHLogNYo76dxnL1tWXP6f8hVGfVlGg",
+        "width": 3072
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114944254867133808780\">Ken Hoe</a>"
+        ],
+        "photo_reference": "AV-0GLeZEI_GxidQkg8fZDkUqBV1h4HFkGxid3Gl-yUqRYhJkynEIUBAGsG3gQJjGqGCbdB8RD75bmWQpCVIoOAHSYv6rfMWE-ZvBFyvj2yIQGHskwGdWFuyXzOSXkP9VG2YueVACnD3iIw4HoJp4yWx53xkoBZb9-HGPZkVZOgIDflBuME_N4dnaA-pu85K_QjlJcoEPYPZE3hezGc4hXfysVcVbhp6tT-6b7eiOWHSfr1HarsIX7o3KBdyjbwlubWn3uNYLyogYzFD5BEbvla2cTLM77Lza6fjo3efxV71wTBIkpHQoqGjudlif7i8MIMPZwuY5DT0st6dowQZzjz6Oxwg81bLRfhBKwsLxpNt31l0tkuWVBEM4AaHOPOEHMhpu_Jvd5-xGm0-DnDlBL8auCAa2eg",
+        "width": 3072
+      }
+    ],
+    "place_id": "ChIJozREVghz2jERLAZ7xit9HvY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17734750009598608940",
+    "vicinity": "Paradigm Mall, 2F-21 & 2F-22, Skudai Hwy, Johor Bahru",
+    "website": "https://herbalfarmer.com.my/"
+  }
+}
