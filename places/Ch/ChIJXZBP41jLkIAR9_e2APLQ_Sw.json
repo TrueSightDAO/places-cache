@@ -1,40 +1,235 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:01Z",
+  "fetched_at": "2026-10-27T16:49:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earthly Essentials",
   "place_id": "ChIJXZBP41jLkIAR9_e2APLQ_Sw",
   "result": {
-    "formatted_address": "22990 Joaquin Gully Road, Twain Harte, CA",
+    "address_components": [
+      {
+        "long_name": "22990",
+        "short_name": "22990",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Joaquin Gully Road",
+        "short_name": "Joaquin Gully Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Twain Harte",
+        "short_name": "Twain Harte",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tuolumne County",
+        "short_name": "Tuolumne County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95383",
+        "short_name": "95383",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "22990 Joaquin Gully Rd, Twain Harte, CA 95383, USA",
     "formatted_phone_number": "(209) 651-1118",
     "geometry": {
       "location": {
         "lat": 38.039069,
         "lng": -120.2298838
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.0404379802915,
+          "lng": -120.2284223197085
+        },
+        "southwest": {
+          "lat": 38.0377400197085,
+          "lng": -120.2311202802915
+        }
       }
     },
     "name": "Earthly Essentials",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 16:30",
+        "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 10:00 \u2013 15:00"
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 756,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMZzccN-5nc0wytIN1tWimgxlpfud53LXcc86oNF898Ea6jvcbI4fOdtsCkai6FCP07BVrGQ8HrgWf0JjeYmPdq-rR7EWsiNh8PGDndtQ22y5x-lI-ev9v6CNfBkQPAZsuFQrC-QDZDdKKV8kZj1IURZZ3ozkYwOPCwCyn2oM1WmMI2cUZ0RjpFo4B493UUlRHYhkB9l9SjnUXgiC_oj5TMktgTDIVh-NlogFCAcexP7CbhSLuAQzJcZiAKD1EY9VtmsGrVkJ-X_bZaozDSEf0rv_NZnIQBCp-_rFjOioO4x4yHYgId1Z5de0ZyJFcX9vK5E9jYpvtjQ6W27Z5Z7J2GUmRnREA_Be7sGFAh1J5Vd9tZrE8b3GrBa-fKHmS3qkZnERdkQT_dc50VRezsMeXb_D-s",
+        "width": 1008
+      },
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMb8pfX4W8EbKvjMO36k0IYvf7em35jJOtvH1gx2apRX5L-Jd9DZUp2xYbp05jd-NtMM81pKE5GQU-KsHLGxIIMiD_ysN1g0orHwqOxUeUubFo3tQPfXGPuTxJ3Xcc1vVm-y0VZiXBG0tOofm8eeyEF762tTkiHgcD-ryXfgAG4DsyCQLYIxq0NNizGDj5rDVeWiaaE81sQATzuGkR4h59IbZf-8myxveihw4K79EILry1XxsC5wpm4zC3H8oTRV_b_fAbiAUOZdDgPeageqo_x-4nBQIZJ-rvCER8jam9NP46yIn0vRh2ykMOSrc2zEDSz9oJ0mv1uofF-g91b5YdWh9jAZyVKuF1euJG2czYWvTIhWEsFxWsSc9TQq8ByeiyZcEHJKKnLk4yj_mfCKhfTYnsU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMb7BpNtle1y1KzJ48Suvn3rQdyrwoUUcPLbIZLP-74bpjSroVYS1hTxvC4-2l8Ais72vVVZxJh2eluKABu3SkYBv_L4QcbgLDGp5yt4yT5PNRoZXs4OUIgeINn5yrER_YwtClhkFvaMi9R8a62-4l6KH08PSMxgiDQOHnp-eUpeRDAETlXLweYalVc7ARvk1aQMEGDmmOK5kwtOyhyjmrKMy9lqkrercc2IJ5i1DImwYGZYsOL-dWTWq8bZ2JE4JeLRS7DH20dbtSGJTcClVG4T9LdFiBpuk75OaokDZMy44SQQxBhr8i2f9E6-LBEc1kp-QrQxzfyYk4ExR9RODY8cMZbMr7TgLQDSG_s4Xlug3cpf4J7nAjDzWJWnrhVYqBHG_qUqRMvxBCa-_eS_xY11oX0",
+        "width": 3024
+      },
+      {
+        "height": 1721,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMbl_01VJUNCBeuzyXSWPbUuawHkHlJJwJfaMDslz3YKe3HYfNZbrcl0N619OsOePFXVhRW_GSeUYSLzhlSVvlAnMz3ljmZAw1ZB_CoDnUqABR5pbxBx6guOrDCJi3yF4mJmry_Ku8zVKlD-7zroeJet1m93zS-JobkDdpsn74Ka1tEPKBVhE4m8Bb7yFBLcZnwaTC_GMMIFzJRJht-OqJKoLCZiyb2D9Jgg1Oo30zL73nfSFi76LT4iy6N7nQPS6mfQKYNKIrDH2GfjDztFvZe967JODtc761tPPp-pgRMameEZei02cKiLYMEaoZ-1UW1PC1WrFdZFl6wSLLAXpwPhuOf-PluuI7lvPt-8hujLD-NsqlY7_tN1IzSAAXt69WVsEt19w5f7MRMZg1uWecEzjw",
+        "width": 1440
+      },
+      {
+        "height": 4016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMYMXaBzKN7rtGO8DCc6-To01mdhQqW6By3t0gDHw2FaYPjTTSm-mDsLUcxxAJa-LshUqarQO2TduIhOPqj25gT1A7BfuYjcGxBF-UwU-RX6rB55N-jYNLSVcKchWBCAydz11UrieySoTyKXzOi1MM2PkPi2do2XYagLWOs_jFrhLkeDii5RHKk8GUTcVUZ1k0HlIPSaNA0sQJAhZeI_hzazTUWpdWCIFaaarnQTcqcUQ5UMd8m_KNq04EPFYdWUNgbIaQ5Y5Eyq_4SRSRxm_KxdGraRx6shpSLD9eyIm85MPK184J-D6xNAF-dmKfsihNYae3KxetL9G5CEfNqqDPvk5O04jGBtArQ-CfPkQI3u9LwQCmg4NxTYURl9lCQo8vUARda-Zrbkc2-u6cxfwTWnVdQ",
+        "width": 4016
+      },
+      {
+        "height": 1345,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMY4ooA4O1wOhQo6i4h8ze5tKgjrPZXOqvAviuU-QPMAAEnbC_utztxqA19LLzWfylYZaAR3EpbUch_Lx_wxGAbfpejCrT4MU6lKEByMI_E1NXRx2lnc83myMS3lbRvVfS1qVmOhNmuKegRmmgWonPOuXUOZotd8Ij0CS0tQ0qDS8D72AqS4SlekaUWVBisuL8VIXR4rSKgEt1jMLkC5tsGWTQjXVJn-zttTtL-mILPH6XQvJ8aPB0YW_0TANBTxePvp3bM2tzLj6GJVZFZtXz4UrNNiyOuG0Tmn97G9L3pKDNWh7MK1YwnxYooWUdXtTpMiAht8BjJokcCGNQFww8CVmFLtfq0-H-28UMdZWj4mC0BKCSuKPi4uyInuadqJw2yXwh3FnT9dSKLbgALGrfv3JQ",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMYnAKTcHzJ1qEzp0_0QLhXvQagJ_NoM-ZSyNkea-UEVKmaWfLEArZRKwj65MiBtTfHd-MpjYTme802VnIsxXl_bpRc2w7JZ5gOoa5SjfV-7BK79cNc130PWxulOC8bByrMbbP33CoMzKi7j6yBHY4zgc4POmlh3B6fPk8NIulmB-Ih7A9ydtwOW8r65PPX39PMMJbDAjukKdtnw95H2XapYUkDM4QA7cTd94RR_cqm6SPvroW_OZxKzEANiliqVcl3vq2xLcD1H2f4L7mBoj7T21TwlGw1Izf8KjD0ZABckEURbfNVFqXsOoDYVPPUaOYnuAUZ0LNlhxIt36u91cy-dF2DKZOBcU6oBKB8lDt2JIpDHveD7Zt9FoYZrDjwFDRoqN7hpzSgjmOLInTRIkI2Pdt0Tco0",
+        "width": 3024
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMZjitDq_1ID6L7wTnZBDUJa4tffeeb3H65OqF_3-YpWEPIQb5QQTM9Y2Xe0qF6uLIoogDp5AvNXTmMG1twvA1ZluT6LCd5m0ODsEOkS-NANpAbVx3JhUdpDt8mfGKXTrx9cgS8iCgapp3L58C9is1JMjUuUocWcAVInWc7nx-daGSbxspYVuwgIxMInfbs4pxfXnMclI8QsPZKAHB8jwQ3K2HOywUI08KADl5VI1i1Sjf9fT3F9ykLdyiLVG0_RL2muRcMuVYasFBRDbgxL_1EBC9E8I8RRnAPPkUrI6ptvCbtsMzHmvqd0DwO1iYZlbbwo-h3FYwbm9_T_fEojEYTtzK7zjkyRpf7WWRz1CBVJzmIxLkrgNE4Rudzx0WTKvZck0-dP8HIoOXGFvZP-_Tug88oIkSg",
+        "width": 1080
+      },
+      {
+        "height": 1105,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMYJt3vC_jaxrMENFIKkWkBKtM2Bm8LpRBLWtZEopKaGFV9J-9zJn_Vi6BfO3wiJOaJBuxPunLMtxNsdFvA5AzA1RufKvelyZ-3SX_LV8zuAftb2JlCPQ3E_t0MAThQsuxnZrQvejNGZ1diP2rf7JdBMAmYSufaHGnCVsSLcbWfGeI2lCpsBMWE2fWkydpDvFbGXDoVqNZbG2zAf5hGIiPclV5ASD3I5Jtg_dAH204aDaPlchd89XUzrst61_iFoJvrVi5uc-50_4cQBXT5NQfYFnUU6hSMD_xGQ3IWFoKpkIJkUTiYHT6L-urJ3bPi71-6-ckLehepqYUHzwa5vS5OQM1m_P8-mcwz4uvvRbG7ni8Wd0CC54UXAz9xotKU9FEr_vgEyac6dMhebqxpimZrBZmnO",
+        "width": 1124
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115496595795083950703\">Earthly Essentials</a>"
+        ],
+        "photo_reference": "Aa-ngMaCgZR4uVSlRBtGLqmvHHJhe8JLlKHCKRb9Bknx_w1DKMHaWMhfWGBRSxD_kCGSLgWvmNFuwOosBpnEGeRIJYgHCw4zbzNNInNwZkI-O4NRihADuyt-KQGjAD1kv9k7Uocxd2wrN1OjuQ6zoGl5VD4mb_X_prlkAmOslNbc3lNMhbWPy7bSFTvIRVVs0WZ6_rlYXqyJpw6IG_H_OWJIw5FTNkwVqffyC2Xd40vOZHtWy1L1PIMJMAbv9BaxoTlmjLtTIZizVhhgiWBFo0zbxsHfLCLegCNLJAfo5R2evkm4Kul1doU_tlA_90YCPnanmL7U0P3TIj5MU6sLLedep0-PGuAassIXYYjHAk3aYbCDXywUPjvD2v03YmMyYzTZ7nowUmE3MF-95ZN4AURziHI4A09NbgA",
+        "width": 960
+      }
+    ],
     "place_id": "ChIJXZBP41jLkIAR9_e2APLQ_Sw",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3241977044589279223",
+    "vicinity": "22990 Joaquin Gully Rd, Twain Harte",
     "website": "https://www.facebook.com/Earthlyessentialsvibrations"
   }
 }
