@@ -1,0 +1,275 @@
+{
+  "fetched_at": "2026-10-27T13:59:28Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Zenxin Organic Food @ Bukit Indah, Johor Bahru",
+  "place_id": "ChIJQU32hjRz2jERSl8bb-2KHyo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "27",
+        "short_name": "27",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Jalan Indah 16/12",
+        "short_name": "Jalan Indah 16/12",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Taman Bukit Indah",
+        "short_name": "Taman Bukit Indah",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Johor Bahru",
+        "short_name": "Johor Bahru",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Johor Darul Ta'zim",
+        "short_name": "Johor Darul Ta'zim",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Malaysia",
+        "short_name": "MY",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "81200",
+        "short_name": "81200",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "27, Jalan Indah 16/12, Taman Bukit Indah, 81200 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "formatted_phone_number": "07-239 6799",
+    "geometry": {
+      "location": {
+        "lat": 1.4799562,
+        "lng": 103.6647091
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.481323830291502,
+          "lng": 103.6660895802915
+        },
+        "southwest": {
+          "lat": 1.478625869708498,
+          "lng": 103.6633916197085
+        }
+      }
+    },
+    "name": "Zenxin Organic Food @ Bukit Indah, Johor Bahru",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLdqiH97PSfriFk4qXspYnJceFfIf-lFcguDuTk40HZn_7A9YKZEo8dVoSyJugA3u0rxMIWPQiEFmv8MINbXsFEvk8mEYBdwkTagbLBJCNRXkkK0Cnbfe0dj0AKi5DIEXgVjaIViDjz7PxA7B6H5qQeZ7UwbiQHwhOKM3Y4-SX2oZP1d5rD8eS5uw0ksfz_S9vKG6X7CwrXFlsxNxOrTyw3j4q622tsgjzsUhD9fpPq0W4cAIKbHvYjAQSMc3q-uAykpWPni76t1MEZN2VzSop-2E-Sz4X-rYrNzTIGXrthJuxp3vd_UvHAsj8VSFUU-Tq4cEuCTwoopUpvyfAkAIDKzVDwLexfmDat1SCoBAryS7eOTcRdoviD-LaQDClqHGDbhB7gc7kP1tTDflT0-VlsXWw",
+        "width": 1800
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLeyqCuPIYE9j1M4JdXj1mfT26GAXRYRaQcTEAj_fSzklkWI2Eat2HWm96rt9oEdpfWp97GR8H9p-LtJTMMN0S87sCd7QZPVbriw788FjNXM_tVdFbxM9DRRe2Tsfcnk6946mZ3xF-YD08TZbQlJp2c9g0xYyN0Hz93r_FkkVbz8BhQga0YUgaLK9H3x68jViczGSyGmUiguvJZVcRUtfBC-IomEaEq70R3wOn1iKKLGyh7hAlbbAMS9F6USNK3_X4mQnZGEhYw0m5z8l9aw1NzgPe9ZLB-A9rgVAwWkvBISO9q0y3UXRdja7zzNebhgQBPg93sCkpbzJ8p6ka-gohWqhP7Il-1y5JYoC0DyvmLVz_p_9VkfqNuk9KSw0HUDRhYS9OPxTA8O1IvbOvlJVU-ujdE",
+        "width": 1800
+      },
+      {
+        "height": 762,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLc7LAx8weRt7Slfqj6OiA-nQBU-DOAtaYslRvJM49IKE-hn0-iA1FXsl3jCtiz2WMJ_epWkPbh55oI-m9S_jevmstRJITauNya8Zm8eRHevkMz1LA0idxI1vU34wE4qPcfohnUdFUN54-UASi_rG6DQk4C_VxO2Qu6Wbxl-9Y4tgj9Gq8LA5CvUqxHZKfe2OscQadFKie24OO5SadMm9zmdienbfyv8QhyO1ebxd8P0BCzDBE8QqOj2izEEDXhYzZAmGCqGdKjgd9VO_HT9lJ2fAuTBzUtTESJgA038Y7GsfKCYSg62Gq6aIarj6z4AEUJTPgRjJ0XHA6QlMI9gdRFYzJ1cffMIURFMDJvvQoS9g8jzZmcChiddUL1LfCbqXpj78U7ImOBQQNhEo_XGUdjULJFJaMc",
+        "width": 2000
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLfSsa0RFojl4I3dt8gXN7RfQmyKqvXWVmq3QlkxEEwaKwglu2P5UPRtBDlMg5TKp99-HFDmo-6mnsT4MDavTaaZUvLuOjZ7tct8oWHRdfH8KDu8L-U-sU_0AE3wNbhdZ3e_Y5EYMf1lhFejzA59LPNhxld3BOjBILkqvSf2YC6SCD3vIdjdQcbHmF_X_iygDRTl66kwh4VYbHjTYWnYlJUrf_Uf1oyfcUUHW3YtHprRSuVeQGPWtRquJX8uCAoN8C_6dKLOJ-ROnOWtYDjgmegkgoSIMVeN_PjQzDpCrPgqxhqpm7KC75gyOGYap5pnOPKhqQbbJG3P_seQx1nEUDykrFNi4RyjNNY6-wuXmfAT57MYemzVfO6vO0Mf8KK3KzQBsjr9gE8jLvI7YqQZgVxpxg",
+        "width": 1800
+      },
+      {
+        "height": 1005,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100158446644785390993\">Jay Song</a>"
+        ],
+        "photo_reference": "AV-0GLdh53s3e1F7YNHaWbZxoU9gyCtOQwYuAasqVdjZgHFCQU2vnLrFczuT-CDzesMXHjpbFW2VXxGJvDRU125jkz8ZgCyie5NDnYLbIO-JfaFiRfeR62nvxPk2YAdACuKdb8pRcVW2pqO4mk6xvUEUtErdhsZc-UNIDlbi_5EF8wjB0hJ3PsqkUyeY7TIuA-yZjGHGJ5QrEOif8vWuruDiEdhBNQXbWbEyz67oJcSj1_Mi_MkKblpyTOuHbOQYIbBpTfla-u2XRuctiS5N7aGfwjM08M9Cm4so0cIMyRaBnXGAakvBAWa1B7fV11CjkI58hU1jelV0Gd9ui_eY2fmY4DeybGWtOeYmTPe0Y2f34Zo5ZcnATUREeHyqCJfMYhT12QtF2Tz9agciA25U-p7XCy48uwOlUik",
+        "width": 950
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111330840881915879082\">Aqilah Zulkarnain</a>"
+        ],
+        "photo_reference": "AV-0GLcY-HsD83qnAe5lN2dZL-5VAd7_kAAzKF3ibSvTDUOCmeYKzSaIvqZkVBLJnpAYZHo3JysjZdS8jY4SDR0o3Q7FmiKuvgSePRdz3aTDEclnzYNI_KB9_ASiyk21eB7-Bw9Dp9L29pe0OqV2tnv-yycix4wReNUtbZCj4Z5NJjTg-GfaGPSCYmhwSGcJqtFhMmB0NCg6VCvOHBco0_dQWnjpOMBklcY1Dli7ZST_-6gdnrsX1fqBcyWKFlosmPQ5K_PP8bPxAP41rFyR3DSCRE7Uu1xQlNXBz5Gl5yhmLLccvFeKOFSfDfC_9uyT4ZLBJ4dDEnIzo9o8sJYLql8s3NWGqF0D8LZVhKC1JJ8i7H9gIpL_3x2Q7-2HZnePi6oZnTXRtCn4P4SMuhYBh6LWQAiGjyw",
+        "width": 3024
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLfgznOPoJQ8Ng8FSAsCbVmw483WEDevyTbAjZTgVC0tjim7jwAKaD20nrzzWZwIjQyVDrBjOt8hg70Jp3UGJGlFSfSzt-7qNR9taoShzBNJ0I8yr3WpyVnnamqoSTTwYE1SIvCjBPl4QB2kLC5FbnZlS3tz9VmVxa-X3HX7xC3QYIwVjgaAkXYUWrUbSBl3fio1_vbjiM8PutX2d9HrkpvGINdYFhIgFkEWU135-b4jJ7hIm53EK0mvJqhKzxK52xrTyxD8bU1oyOHtUCFntGbdWInLYtWFUkLjGUha2G715c98k8JrtOuJYdHA5-8Zvcl9T3V0FMBdK5HOrD9jNb1CSOW5xA8ED6jeFZWrg3Co3pzp7Z3iDpNpkhWQ5mJHUDaXqv0PNy4_CuN-lPY3XbCGyQ",
+        "width": 1800
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLcjzIf0zXGUgXpTyH7DnIiBEbNogPxHV8Fv1ZLB5AKckkW1L50hWCGsLHVbBo3jx2EzfPrnRFbF-FAJZEI8nYPHk6V5JsUx72ToXyE2yR2Jgk88KPwyHR1rv_rPsWTT6_Cdjla1q11zxCPr5P7DBJ20O88c6HTsJuNoqk5tjPiaQMRUfIZxr4CclHAtTfNF1cxoBmK5KR6psWM1-kw5GyRa1LAIrcpN2lH_8hH4TEDwa5DOXnEnDojvObqX00UUwpn08HXd_dtPV3SHwGozlg_MW0AcTWm_sdMhCEfUbILx4VQP2brzfmo2N76rWzvYkS2AGltbakGw5btaF0UHuUOcMmEh6-yopbQmZbUdSCM3_yYsoedd2TzAM4DoAyshAUlEg8oW4nmKAtooaFYj15ok04E",
+        "width": 1800
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104290670102768568099\">Teoh Yee Mun</a>"
+        ],
+        "photo_reference": "AV-0GLfcPG2R5IHrUUgLATlo4Ldc2u_vCjiSVL5vX87sY7lV0xFUpIGwtxLU6pbQOuZsHgpWDve7m7ZIeNeCuzyAJ9fid9nDjufu_LJ33Vh5rQUtdyCDDPUp4gB8vhvWI3l09emCQCJ8E2bAiMHoy8fx4bHSv_9Ob5xujpKNMMKXF3glq7p6BGSSXFg4ZdQ_gnoHYARyvfE4vnWmGpU3LzrNZrWya2osfA_VOgqZ_GC4ii0tNXC5cZ1IkZRlzlP_2ON4RGaDQnZdOwtQM52Jyk3nLL6tSyslj158_fY76V6FPiugCV1AaiGkya9_wHisbovAJxkTFuj6TTl_JemzQhKUJut6hiPp3dh6mN5DrxNR322Cz2uYAfyOkwdd7gLw8Dr4cNEdRCyzU-rY3V77KfW5kV8KcA9kll8",
+        "width": 3096
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105306424981366125364\">Zenxin Organic Food @ Bukit Indah, Johor Bahru</a>"
+        ],
+        "photo_reference": "AV-0GLeuYWqpTZwO9pqHbO5MDJRSKcemzztANHM5UKUYeRyrWzZGsC2KheEBc88v7W6sBXZ2j3mn8EMKxaUltpsuZgw9kr9Ls5Fn94T-ATAY6MVRnhDDqab2tuK75SEi0Hqtv8VRqSjrYmsLBc8Vk5CWqfFvJ5wwYzz6ij6Jh771Am7xesQ-Vy8Shl0gtraIFgpBrw6vppArRgLNCww_eyz2tjAXFrQyJ8g_sRbrfDVCVb9c1vlfMRFbQ-aDuFpiFWB9k2PR42l654E4rHhyymB3JiwTWUaoKrfs8xqvyLHNwg9eK7UssFqNTkco_uCSovda2nZ0WZMOfHPNXWHu1tFxgXznTcm8NpHPTWhMUU5lNne1XAM2bjQ2h8p84FANsI3i74ojqIxaTy9ouzA8YdbA7ESEFRNiQww",
+        "width": 1800
+      }
+    ],
+    "place_id": "ChIJQU32hjRz2jERSl8bb-2KHyo",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3035297426246950730",
+    "vicinity": "27, Jalan Indah 16/12, Taman Bukit Indah, Johor Bahru"
+  }
+}
