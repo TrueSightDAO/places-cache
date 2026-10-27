@@ -1,0 +1,255 @@
+{
+  "fetched_at": "2026-10-27T13:59:32Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)",
+  "place_id": "ChIJV-8Ikzlt2jER69Q6zjJX59A",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "72",
+        "short_name": "72",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Jalan Molek 2/1",
+        "short_name": "Jalan Molek 2/1",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Taman Molek",
+        "short_name": "Taman Molek",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Johor Bahru",
+        "short_name": "Johor Bahru",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Johor Darul Ta'zim",
+        "short_name": "Johor Darul Ta'zim",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Malaysia",
+        "short_name": "MY",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "81100",
+        "short_name": "81100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "72, Jalan Molek 2/1, Taman Molek, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "formatted_phone_number": "012-713 1456",
+    "geometry": {
+      "location": {
+        "lat": 1.529188,
+        "lng": 103.7941131
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.530589980291502,
+          "lng": 103.7954077302915
+        },
+        "southwest": {
+          "lat": 1.527892019708498,
+          "lng": 103.7927097697085
+        }
+      }
+    },
+    "name": "Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 550,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107090210232548155831\">Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)</a>"
+        ],
+        "photo_reference": "AV-0GLeTMcS1niFYKuYM8NIJhEYNZE6lGCxaFJ3TmsFbfBjsaq4LzmrdJOSkI4jW7HSStvIyhkuywH4MNrwiPUAdd8m2zyyRsC1ZSZfEqvhPjX6hP9AvhTTOXepFNMcrJ0gbHL3u3PkXkhX9-juq2C60gEDEDzDOQksYuLCdSX0-qwgTFDJf4MBTXfIw_sW4ROJHEbUDkOR8DcXGqvdQ9bUkZpDOYoZmYRAxF2Nx2mXfXaVj1f7Tr7HUhKam-AymR3-7me1qBMvtSvoEO5X9hX_hAU27ch0K0oItQMlJAWAkJ21dBzqyVXDqGSNfAvB9KSXhmhzH7C3XzZBAz7gPlTRwxCsylO9gYcjT9RcM8_ILOzgz1ArjNEhmff9hGeej7Unn52osa8aM1YbYoQiHothWqSYa20eCjH92d2RZZQ2r2VJGJw",
+        "width": 536
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111478567545751720974\">kian wui chu</a>"
+        ],
+        "photo_reference": "AV-0GLdUjiipmbFxZQVHOOZDbqUmIHmYQ2F5QbADFW8TiuR7N4l0SfYrcU3JZvR2brgmFLFfzeuNpvxoBc93aLlHtX6oU_onfpABmTr40Y3Fb29OvR-zMPwtgAwMPTKm272_SWuNTqoge_WUCKNUNpAruf9GKjWpNBhNbO__zDT49mcwiCb0gNACxfW4kiXnjABRwSNVJJ-ncXzsNrKRMMZafZGib_JxgVbacWSxVfAd9o-RMvVpvApDzkoiMi_kwkIp6X0zsgW57MGOuoM7JL2kMsCJBkVHY8FliRl8NILTBlSLd_dDBohPhNDxe1tu_5CQGfOh2cJJqUc8RuJrFc-Jo479jjjwgz2SBRrP3q6fPeRVkrO2qddBhdU840437o9hPXsFl6mT8R2xFVZLE05ALHMt1R9GdF4",
+        "width": 888
+      },
+      {
+        "height": 1479,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109698578760871784401\">kimberly mei</a>"
+        ],
+        "photo_reference": "AV-0GLcUanog6SgUhOLQ8SMSu1z5G-mRqSH2nBXc9Wuo_7V76n_XTwMtiPImbSYY4uX0USuI28KpYLOdx6dbvJBvUJjMjf1bCV7W1iho8FDOzw_d2YJhhbvg6j9f8EmrdKWsE-GNYQ1pi7cC-YouDyVvwM3GjKq40jHbFhfsQeznRO6di_gLikvEg-lxdopUsW5wPTIeBUpwgcDzGh4bEUSRUBOJxMvfKV9fifBS-zi92KYNoRVNETsYZuIriPGpzvYoUAbsGrmednXLD4RH86o_NXdkJ80JfnW9gVx3x0hsFo_6KjWIf2oPrKM-B13tKu4txZXkJOJYQzXOjCaDNnG7vakmlVHOH6R7fWWNcqTq-6iqo3BzvSr9kzxcRM6PgvsKc7loKdwKYM4OY88YKSYkqX5LpZkcsIdRiujOSWBLYBPujA",
+        "width": 1179
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115913398899365926017\">em bong</a>"
+        ],
+        "photo_reference": "AV-0GLd7zcZR4cLqG-9di23i4ZDk34eoZa9n3zXx8W5prEz_WSDUfUaMrkGxdf4REO8n95KxyRbZIsfQs87lC2U9mqHu1vISVTkBhPqNMIPitHiKBZ1Nm8nB5UWFGZvccO01weA_jlLj3WVISNZHgKxaPw1tzImCcwXvD0iSl74UHc7AUlEoN6wRP0rYYqGaTfwyHKAqRpDKYD2RSb3wE48MmmC_V9y69D38aj0dSe_ad6QIgLPLoNUteVQg84U0guQwFY8203CX_G6wlgK8rU0gtbIzLwZTByIMqZTRxwqFkfFvbJXstq0uPNi51rAVR9e8hgzbbY4H9d0cMTNPKcoOHwVxBEJ2R4_qqIQClqozWtkllGtIEaWYEeiG06ce-Ua-1b0uFdz5PvnKa3mPr8gyn7n9JSAi",
+        "width": 1080
+      },
+      {
+        "height": 572,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107090210232548155831\">Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)</a>"
+        ],
+        "photo_reference": "AV-0GLdUIH7YKfYaDrMvNuUd4mUNvmbsoWRJWau6VXoClPZfE4Zqn_yKGS-X9V1bNXtXJYWVWDeMKX-VniQjOnCaeoUNFnUkNB_Z6BrSrCUslJwZpBzO-mtAKyHLJawlHxSEeAnyIToOMobMXap4m6zsfzEkVUbp-a6l76JwcpnLQOP-bGSTXzgf7RQyGSeaKW1JGYhZ3HuimsVQJp8P_F4xo-Uldt7bJ5h2IdpVL3PoAtOtj5SLzY4K_OpAB46AWB6LKsx9qx2t1gYy807Qrlv0U2U-hjWHv14lkvSXGmNOBe5FwK1EYNZUId5kwpwieca3pPI5Al_zwmmgdWXwMG3MWo2OeLADk-lkcAFZeXD0ucxMbNoy-84WneVxplfFRcQcNX0Kdh1qMJMWAaSAcc2FnmeCr95X",
+        "width": 1024
+      },
+      {
+        "height": 589,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107090210232548155831\">Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)</a>"
+        ],
+        "photo_reference": "AV-0GLeyP0vLBTDRbhyrngCIDGEGUNF9ENwoQiJvHY8bUoedVU9WdQ6dWtILPbtRaCmvVdDw2lwkJIkpp0O95pz755HCeR-DSlbgz3HMuFMcxhOTzNmiPBohvG-Sm1FIq1QYx30yFSNqQWouae8GBUV2NxA1PI1RmUPJZK086dJQi8GitBLeZVScPk9qZ47OP3pAstOyXuSEZh2nvTCDSqEtVX7HbS33pVUASzy3i_XmSapyvx4_U-pLuwkUfVxAnz8jy5Sog_Zm4MZD0ZHSLJe9kI4G4nwMjs6u2--Ud58yDjP7qqO4BIQjLC4-bwi7HsA-e4JtL0pAkMTAzwXqXfDLqnmf3mmLi4W4zCLPSPXaCee9mgty28FNqSUutJyzC5eGxh_6VRWrDhNEM2z7GdRza6HHSh2hMkY",
+        "width": 1080
+      },
+      {
+        "height": 416,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107090210232548155831\">Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)</a>"
+        ],
+        "photo_reference": "AV-0GLepU3OMgzsJzXVbrOtSYOyHve52-v09ZHAOkPQcSOS6NeKuGc8OUDhK81J4AW6RvRLMaiUJRK9BKhwWMGbX119VAgtbYWc_vr77d3o8VQboNBF3ESVaAlkAlw72mkicqFVNB7pH2H0kHfzyxtWkul4-HVdhtHZmIJT8sRVZPZ-vycjJY6TZzQejSGRckwYkk-CoZLNo-wxgtD6Q9weayhyHvCDn381ryy0TyH6DdlI4LY8FLCdJ5muM-902Ak-EZZPirYN9ZUIay45HklRklKtf7Kuu6MgDdoAmSjbsycZ1MWQo-Ww7Kq8G8D_mBmyeMVwKw4viYdPfeDOmLEVFDNkhuwcb8QwEk3nKM4JpsWWGCgATUxpEcjIYuJri3COtq71O0-TxgavJ07N9AHRXKpJt0_Q",
+        "width": 1024
+      },
+      {
+        "height": 517,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107090210232548155831\">Herbalike Nutritionals Sdn.Bhd (Bio Herbalike)</a>"
+        ],
+        "photo_reference": "AV-0GLc0ASh2kZctGBOt5TzBHKZPMF9PPi40SZHm_kWaKoPBXh3RKFvhRt0PjmPRqph5ngFJAL-FwwGQa6h3JZ91Bdt4Fimj4dbpjaDl2xJAZVA2r_GRUCPIAVANy1lwV0awta2yJWrWmSCfDz3XDKR8PPkSL2QBWLkncVwdij5beFHsYIpCTO43EfQKhgTLwglcq7M51wZPj4HLh9aCXLO726YmcmO300Xv4jTiq327GxoQMlocHh42ietIp9R0MZkWcIObDWkx3l5t_mbiuNAAjZFz-qWFkpFduVIucxOIZslYZt4BhQYLSI7kwefMfA9qx7l9v-SQYRDNjAu7YXzErl7I2GYo84fI1qIcP3lF9sz78BudA37e7iZoFg8FZUVQqB7oPIy1BMtfUudtzPda_a_lTzY",
+        "width": 557
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111175198464990973736\">\u7231\u63a2\u7d22\u4e16\u754c,\u70ed\u7231\u65c5\u6e38\u3002</a>"
+        ],
+        "photo_reference": "AV-0GLe6hiY5d9MqBGkWxE5yMHbyJNK4AGdg2-qVORAiABbhaMJQab6lkF9jlthB2Eac4MdHWMv8ITJjSnZw7FFzeQfwKmZQH5AIOGPML7Zt2wwz8KnE5he0YgrmBki0j-nkPR4fm1czfKMILBLNpaFUhgPdvVoay1aR4jFXGaziOlKBleSXNY_eMV4mBBf4ULcCvm3t4_1NmvFMPG61EXlgpZZztMEUj48os1RBNz7q1cOxtgAr4CjZ4RPBxZqcFwM1xxRYbMncSVrizWyJ4clz2GylXDQulLuocXuwrUoToZKmDDNTa6GM0wt5joHcyi0M-c6lPdXX7Ej8HUFBbGQOfKNhBydhjZ-apfmaUH0RIhzfgHXxeEapbJxpcEpket8Zn5yGffvXov3dnfd3I7fgf5xRObk",
+        "width": 2736
+      }
+    ],
+    "place_id": "ChIJV-8Ikzlt2jER69Q6zjJX59A",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15053096155229115627",
+    "vicinity": "72, Jalan Molek 2/1, Taman Molek, Johor Bahru"
+  }
+}
