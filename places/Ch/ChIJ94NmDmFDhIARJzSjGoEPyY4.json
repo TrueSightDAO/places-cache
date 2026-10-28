@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-10-28T06:44:52Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Joseph Cellars Winery",
+  "place_id": "ChIJ94NmDmFDhIARJzSjGoEPyY4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4455",
+        "short_name": "4455",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9633",
+        "short_name": "9633",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4455 St Helena Hwy, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-9999",
+    "geometry": {
+      "location": {
+        "lat": 38.565901,
+        "lng": -122.5622311
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5673121302915,
+          "lng": -122.5608516697085
+        },
+        "southwest": {
+          "lat": 38.56461416970851,
+          "lng": -122.5635496302915
+        }
+      }
+    },
+    "name": "Joseph Cellars Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117390426011311558470\">Lindsay</a>"
+        ],
+        "photo_reference": "Aa-ngMbxZleJHy3VGjBoDlQsEax54hC633kkRowqUb2d4foxjPQX2xsuvLpReXDd0Pk6auc7E0bOvYYw9jJ2EPs2rogmY33RwXjZfA3EEPFhBRPDMx2nxTQPKASiorfSxz9mqM_iBjUxRyTasxgH43D6NuTr_E4gYRvCbk_qjBSbqptCzmdskgdzBvy5dY3DR0nHTQduCiIAO8KHSMjDXrPlCIK6o53YEOxOBoOFGMgTdbbxg_a61c3WYIfk2ePtXbxkceaDZwdkXNOfRYnfxM0oUUdFce9fytD_3nGdWv_kSNhdarQvxCsGHihqPuySQCzKFDR_2NZShR5XXk7fhtHbzzUoQX-2DTpKBj3azZLZGmAGBr0FR9GAo1tsV4QTgT2nAbuWdvGrsmhqdMWqeiE6FRow1rwMhZU",
+        "width": 3024
+      },
+      {
+        "height": 673,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118287610077267520314\">Joseph Cellars Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1ehweZ5T3zPquV_B0VWB2fUPkq3d3GFNLoCrSMjiXJdh2L2c6YVLvUZ22Q3-33tpi0mQUXZ6YFSX4gQh2r7I6EA1nF_KKpaW3sbLN94GjtJTyplDvi5KKe4ykCjJMT4bX6Z-KBPA9XSursk7-CVh9zF79kTcVez21iT667BaZufH8CIFELR35-hkTzx8cDD_B_t7xSSqqfSVf2-KH-3nN8ScdKcRHS1S3QnxEqeQFhieJmTsknxEz1KxWHGaq1zrZd9Ljy_ZUPlQ0wcbC21p3ibCsnMBeF-xe1_0i1hMGv-DdedbY-9nVMThVstgRFdbxaEzWGOvg5eSk8I_VEr_R-1pspcK2sz2uFuYLtYmQ6FZb-b06ARzG7EoBQZWX-7gEXkdP2TAJeO4Ul3XxYTfwP8w",
+        "width": 1024
+      },
+      {
+        "height": 648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118287610077267520314\">Joseph Cellars Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZx1TsP6LKH_Stls4232JihOyoNL1Y4RtWRqaIQ1VWi9XFtjIFxWwAJISxyRR0PpEeQxLES8-DwTxeZbhbau4epJMOHm8GEGIaPCN3Xxhdsm7lzyJHGT1ossfa5cPUtay2EYP7KTt8nvsG7Rz4hPWkjUOVDOJCQCFAyF8GRH4BWIqluNnPGL4vXwI7KPjGZkVmfWnmBZYsbSeMyJZNKVqg_FRFy3OFQCqjIgaEHxn1EvuC4W48nVV-hiztUGh586wezBcLb1i9QHrfgvr5qCGdYoNDg8ZSSVI5vLCB4fhx3ZY19rF5lJN4WUhpdSnB8v2gO90HhSHXdJFyialkndgCQU0oCuP4HMHbDXSl-KPB6dPus0GfNQu67GQeauN1LhukDc9GCyNP87NEEVunld4lhirdhPPg",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105295989385923251997\">Kerry Anderson</a>"
+        ],
+        "photo_reference": "Aa-ngMZF3t-ycmZlMsxRImXGceanYkLuNAXkyXUXyZJRlEY7esPXOwyp8WN-MhQ0elHibPrycwRoGpw2uNtCWIzg1hTxWuO-h3QBP9HeVFfOgONbRwDPXI0zDr6GUpSJsBSkUkUwPKyZQ68zq5FabEJzZ_kVhwyP65sWd_7surBXximRVn2lU__s2NL3dvYka4QHRMQZmHLlFRo0T451-G2icvvifMFn75h70g90_P_20uBuFj8oVgOfK2ThoKM4sqX65CFfN04e06ANLm2XhrQRhny2qdtrERF7N-2yiGklTh6wUdONpmxWj1mKqAw_-zqKzZY-smoSpOab-LLlw4IBlRWlCo6bkLxD58cPhcZJAXvNELrTzh0mUoi6sWeInCGkX-v6yaDHIP5ANu1nUqrqTEGd9bVoDEE",
+        "width": 4032
+      },
+      {
+        "height": 696,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118287610077267520314\">Joseph Cellars Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYf5RQxYyiW2asxoU_O2cR0RPLBskWMouVdozV9zhorKOPRmLUv3NdSfxcVxJlj2UKSnrpTdiXo0qM0rsPFlgQptUg-QHc6HjqDVYx9rMwz8GEt65ueH64av2uXFYZVnJ7AoFTjMGpcMr8Cw666Sofj5CVPWSaVCJ3eT3OdjxaOV4a2f4qFN2INdEM1Ga339yNYUw6UzPlo81MRaLbih6Ge7bnLwcJ0MH6FxmaM8rtF7SashVsSnyfgVWbloVK8cSEnR1y_slg6ln7z2gK-dKkTy6jdS8lVLcWfD4ldKySrVbEYj1FzcehIOGFxhEBo5aGqK_DRj5xFCzdRhVvKUOlYFeRFknJ2xwYwW8OpK12k2EDFUFtanqlDlxZyJk5BBNSH17RSeYnREGTLJT0_O7kVyyD4QFc",
+        "width": 1024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118287610077267520314\">Joseph Cellars Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMapzL3bGtnhdnPTRndZ8ad791P2PAQtZ-rte7zEW6tqmHt7m2A0kIj6LbnIIc-MQsIvfBAK4ALcPDiGCkiGPZltahvFq0EJk6eaGcXiP6T8wsb1wfa9RrqJfY8xhvbMhI6j_DsRhmDu7eXejUwrPkOsxI-SVupm0X2xZxhm0r-ujy3FAJ7Jtan6dmdEIXOovFyCqEJoxT2vEPuP3-ufT1HDEE8pIk7_jJ1UlBT2bPH7oufcm6zL61Fo0nM-VjI-PBPxUZaD4Au4CIL9YexDNEaJ851zm-dU7B_cHG5-EuPax7ym4sWBOfcV82D4b5hPLNtNn6DCITZNyg4yAiXBmAsMBbyteif6Q0vycDr8-adSVTaRr9jI6XUyljTRPMi_zVtjTqyC20kd1aF5FyDw3tFgjz4",
+        "width": 1024
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112727233534398822266\">JASON (Jason)</a>"
+        ],
+        "photo_reference": "Aa-ngMaqonQN1wm0TOwhniSk92xzYxhIk71TMpVKz6_D5ZkxHCbEabA05T4bGnXAc9t6kfjq68d-Zh_JARKuVCr6A0KkfyWMTKnm_4iXhMpKWisjfuu8dC-lQ08Kbpv0xHRchpaWqZSbzKsiOUWbmIiO0JSGTnhw1bWmH2iA0WECj8d5VaKkp0tSnNnAPYUUwPYmkXGLDw2pIHeYk7umw82nc8X04PcHAtd150ba2NXansDEgkaITNe9hTavkhgY325XS_NhzBeTR-wQ9ref13dOJZsAN3OODG60vHam33QJG7C1qOxZHTGO5KR38_zmqFba2TI3aP-v1cQXGuv1V546LQJup4vVPkBm76wC0BnajXYIwi5Vx77fH3cbMDkuwftoTQiaxxi5Yd6fIuq9F5vJ7AlzCAPKb8E",
+        "width": 4160
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102580686260540500328\">Ryan Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMaOS9kcZBm8TvDqIcsZi8rw2Gm_r7G4wBYlVShm1vDnUXoGyXBhgOfTiKfMcPjqY3f6Bi79BK3gWTiXkFFkw1VVtkzaOOki7iFUYyvQDmnDfNokSpCv38YwKDoZWRiQUwmNvNlzlTFOzXWA81YWSGDsd8y1KbQNLizHujSi4jEd4vyXd1cPS2x_avEiRAVb_VBYyhcdy0Ukn7dvUVuT_XSqrOww092nl-qxcNGtt4bcWVJkzqU4OcTcxkKwGFg3pYDIpwSM5fv5daXFUjplJ5JhLdNkExItnHekXWPSyOuF82u_KjTwm-ayVaiAY6xjPHV9keoSHSx757stz3mjVW6_T7WoQ79RNqm-4dwiqF5t6nv2BgPbEtpZ956oVBSvE9JVsOitYlJM6hdKKn86lgFe7cw",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117390426011311558470\">Lindsay</a>"
+        ],
+        "photo_reference": "Aa-ngMY3mIYkfY5I_M9ojmsU00d2d06LxCIyGxglHUWq1ifh2v566q8m_YiiNgY5g3S1g_jVLnxrTQe18Tjfw_egQLsyQKjtlJK67g938geNSo7yv5sxYuJnavls_dmLjvuWEHB2H-W7rlWECslFiVSXawAMKTMEoTby8KQ0JJEDr9Tf6dyto78UeZSXuf-bc29STad6V51vP5I3IAPRzFSYrK5CgROKswoX-vNT4bxl0s1bRVS5yoB9k47HAPiZfBHYq2ZcAPw5-V2oJ_5ZTvHj-1RF0KJ1Dk3HHoi7I6p7DI-51jYOEvB46ho68lsTUs7B3f0DIfQGtSBnxrsFDtFDTFJDn7d2QlLENnxplXexOi8NqdITY-9ajzZFux1UYZ644TDgTYkHTe3ZrlXzYPzdsoVvMmIL",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108885364252618081433\">John Krajc</a>"
+        ],
+        "photo_reference": "Aa-ngMb2yV54tK1jKK6jnPv8px6YvixUYhbW1PW8FZ8Yl6f_TkySMt6HirvpsQrGTufZMah_WDAUcmgnwe558Ps4yMilC2JCcHPWjhzuK1JcJKboCc30_FotjY2libWvXcBArGzm2MMhaUhfJKIiqTY5-eEdEZsU9_mHR_cPnUaJFzrR3hEC0SMKmLLEh7wUZI8XvfPM2aQgxFrjtdSHeQOT7sDmYvUPB1tT2nnrBFwPIGQGdayMLhFmyS6F3mgQEdmKmC1fCxS1hJHv03tbJnkO8VEwf3cI1vWs_2NI-pfGEux_9swzF8vehm7T4EBs0n5TZlZeXpcLBgMz30rAZpOnvBHfbFrm08m4Z3ygmRajKbFqMHvsVT89ugOyW_ExhvdO2nIRo_bo9tuaB99pGN62A3lcVU4",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ94NmDmFDhIARJzSjGoEPyY4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "storage",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10288771870876709927",
+    "vicinity": "4455 St Helena Hwy, Calistoga",
+    "website": "http://www.josephcellars.com/"
+  }
+}
