@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:45:00Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sterling Vineyards",
+  "place_id": "ChIJAymzef0HhYARV4buZjml5I4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1111",
+        "short_name": "1111",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dunaweal Lane",
+        "short_name": "Dunaweal Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1111 Dunaweal Ln, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(800) 726-6136",
+    "geometry": {
+      "location": {
+        "lat": 38.5669645,
+        "lng": -122.5486647
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5683196802915,
+          "lng": -122.5473479197085
+        },
+        "southwest": {
+          "lat": 38.5656217197085,
+          "lng": -122.5500458802915
+        }
+      }
+    },
+    "name": "Sterling Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112851291354530958957\">Sterling Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZe1CjoQug9rABjMaTZE0XhHhYQneatRV5xx9d82KOTSGPgcT-2-mY91KmA2gvFL87R6zCOJ36iYPvJRMqaB2N3uBWTLlrQTfAW1pxfb1DZvN5Q-uZXcR3PKsZvEKcowrOh3Gj0KIt6T07fmy_G3Xh0w6YTxf78eM1BNLi1kuISt68WB3zs_QcJhhRIRAuhw-93Th9hHTlK3h414MzWZugO3I3thi2pdFRoBMmZANVAZJ2AXoip23HGHuT4h6o06omLwcDtBnfVQvKbqR6xtpUAa2UBtf29vFnJbsNb4tknLvKtm53x_KTNpo_fcXS5xaaouUcU_LB1462o708btsss1hjug5XizcxJg2sZLTbPDvwfzMLdJIBlNVhrCm_SJjFJ14rBEzsmU1xGbSMmMIqIHi0",
+        "width": 2048
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107917899283488610690\">Wisdom K (Freedom 986)</a>"
+        ],
+        "photo_reference": "Aa-ngMYk7VFIdcIE-4fu38cGTuS-p_cEqiDTodojjvMX1qzxvSHPFBSyHaormKl8VN3ESw-hCH06GKxuJ0tDxvXDJo70x3F_SY0cXtpmqoLQsCLmd4Ofwpcobt1-HsI7vZEaT2lxqdXfTt4-YwUH5RT3W_kbTnvic0Ns7wKT9q9HbgRcVIWSTdSu3tV4f6JewIF1pZKwmsSHb_vuyhOpJo1qHIGiWWjQXR4mUCED9ljLJc8ZKGrxn31EIQhqUOCZoDYxLMOSW_Af1FWIFv1rBvnAfrGfVrWc1dTfrlZ_id28S9buaeMOJUIPzO8WvvbrQD8b74cVT65-XtRpELuSEev4qkKYqZUL2mCrY2JgmpQFGOItL0d8it0_FW_Tx7M7roAtMbkeYBmxhGy1toxfm2z-JzQuU-if",
+        "width": 2048
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109849026903893201606\">Jayasimha Nuggehalli</a>"
+        ],
+        "photo_reference": "Aa-ngMbcaVGcCS18LSlJiuEx3zqrizWLFuTdUsk_d_8KykdPPySaverBwIEfX4dGbFYGXcKlGuUXxMcigBoGs_IU7ml65X4OSZtaIwd6PzJ2cNSN9JHuwaEWzRNkS9V4mPqmf9zAmZNE4gQWWV3nrSzMbUGmYiq336LyrgAQ7QWhEEfD0rn0zIOQvFHviaFc9ppJGg-lXLDN8XToSSt8n6GVjxpl9Ccx5I3AfjaycPTkcr2meapKP-LpsEvnTN_akNkBvQkOCs8QhCJB_2u9j2oitoogCSuyodKPihM3_tzHn72lVepEe1Isj_v9QfzxnfX6unrAP0472snVIAplJQA5c5hN8vg-VuU5mGOeJzWT03pAJeV0CAr8p_2vpECx291rFvLW3DHAyxsOa5I3n1ion41OIvuVieD91pbUeFz3j6G69g",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106977190445388404552\">Leslie Boyd</a>"
+        ],
+        "photo_reference": "Aa-ngMZJC-W1fduguIAcbkb2oKHoHL5bz7WveiJ_Nx9tCxDFx9a0YXofV2B6hZLdJ7TJ-JyannFZJCBCbJ0_OIH-c0o_JuC3i9NBm-YjEZaHvX1hB-19tMRXKSz4B0HGu4x0I4_mETI199jutxD4ShDvblEa1s3UUN1Xhdlpj_oNrZe3lJsgRajZJMZ9EnwhtmkHzQKpEfo86EFYqqxeEfllNuc0gUWuGCmaGq6Z0GCieVUJTQbJXjjbprP_QBfLoaeqnm4zQXcTNUVoQoBQ_2rHsTVR6_skEJadZovy1yV8ihWe6uJ8Gld2e4lkr8latGztLcDT-ijzUC02Qj-GXjcaS9NMhdKaC-WQCR4uQ1wpucVXbnUUrcPFcP239Pl9D0agO0CPHf9moXKy0RvOEPRaZ2SbBXA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105593791541788956178\">ShuLin Wang</a>"
+        ],
+        "photo_reference": "Aa-ngMYF_UfGgN9OQ_G8xVbwmhTfmtImsX-gQSrLF9RmkJqmolohM6T5nMqR2LyujWN5G4p7PQBrwEdsZN1ZTJ1bU4HVNFJ2QlGRSmFWwKFDJ3T9erZSQEwddLjMFWiQ2CKu_ii60TOWRHihqw9SBzwdyzyip6GCvbblxyfyZvbCU7sBzBsL1NuhTEPlQkjpPLLFoknXFC9Csekp4-psTXbcJ0pGtM7zz2LqYLZ-xWDtpTWwllrWtRv4gS48vUbfQ_YPfueQgYndAd6vpfN5SLL757UxvjvogG0xdmDPOGNpM977hUXvw9fdibQDhsBec5CWMj3tPd-QlTQbEE_QZjUKto6rPx-MljMfZ_GQGybBYA9b3Fg5OEMuTvCzBydurRb_vrLvwBUvQ2r3C7qdxMMkeuz-q8vMNGjjdfxAShr0iG0QIg",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110185304220399089242\">Gabriel Aubin-Laberge</a>"
+        ],
+        "photo_reference": "Aa-ngMZlsVWLFviRnsSvoA9IyapUzGOO9IHMjyEkyhjhYakMcWRLzlYFVdZ8T_eUqpOBG5HFb09aCqLlt9MHfuLLzi0bI1MybRF6Y1OlL9gTJcgDDb0Zm2u_Y0UEsEU-yxuXzfDKyTwKMoPaBRfNBQzr6MQXRp-OyuKkuV8e7Uj3eEhTJUzi-9-gm8oSAtjo_DbnnB_X5xrKs_nBsqRNeFXUpaUB45CjBw7WKCbGM7wM6dnO0JbqxbSyH8ULYszcC1Y-odtif_u26Et_hQdxRbbvrZ7XrI3VYzTkiUfnaTGCVlnU6iCz-nuVvHcjhfoJLMd8sCzeaxblwzChjokPTovLQcIB8JL8-Woe0U2S2ZQdTUk1Ua7cLWGorYeBNpObBbtGj_KAVdF5CbCDAAhrBlffk_NFR1A4od01rM_xiO1ArL5OHA",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107306461376190723999\">Eric Meyer</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_t-vdNS7XwncEBz4qw6YLJOGXt-LofcrgIYUpt_vWAVUjPE8lhTZ7SUUfwd4ZAhw68nct9KlU26LZdQ3-vtrsKVL8edRVwtZO-7Oe5UHY5cueUo8TVJZjuDSMDtT7y-B0NGYsSQvI2kRfW8avYIESPaBnO6R_WhNBdTUCIHoNgkyrBnUrYk4aoaz1vqn_L0nBR2Wcl2zhpCLy1tPr-x4wHEgHCNSHOSJ7muWBXRs0E-Lisux2JUygltc3O2wnLafcmFFaUICbX9v1f2bccEYYYDLmzSVvrjprEQHbHaqWB4ysaEIhss2d2UCAcmj2ilaAsDX0_qP3lXaJfl778irTCqaybVdWVqp9nI5ZN6UylSOLwfT0dSk-blify3csDvIWxqbCFWiw5xRf4p460wYWfZd6M9FP2z2WVnYugVg7",
+        "width": 4032
+      },
+      {
+        "height": 1240,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101015211749637449658\">Thuy Tran</a>"
+        ],
+        "photo_reference": "Aa-ngMbjU28CqpqVHPEULL_JeKUfnAnObSEIrNzdLO9SgpvR4XjgyY_pls8VAVBYeQKsIL6S1kw-Api3XLP4L39VjUJCXXCKT1CHftSyr7ddzAHpd9WaB6wJoDQUwVQItMzlH0b9CA4ZmxWUeosIrUHDZ4l5BDMzakyj-cvYni82rijYHQ1hQdG54kgvAwJAD-xCerLoVFxb6PZKUQBQisqD_WgsFLQ7TsrLFItmE-hsxiHM23N0o0splZCTKUwN09dTSbS5FplNhDPdZLKKuCwbkmHbZD2v2nSE3umuXfvbK30kgyEPdUgO7lskiW4dTWzeVz3DNAVnMK3KIRnubqEw5lsfYur8cx94C5otRc1j9rDtvq1Wfb_l1oKPDHqhKiECPqkQBtZp6MhUF_feOZowi32Qzw",
+        "width": 1600
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108555249140879254643\">Shankar R</a>"
+        ],
+        "photo_reference": "Aa-ngMbO_C0kKamLAg1AigD_4UDRxJK_seJ82QRC9vwhkkOkKbE8bMsMLRWO08y8DKUaGfCQiEnAg0iugATiGPrBbdxw7tq2RFski5eqECH7S0UjkZ0AUTD46L8c_4luAEwCWiRi2wAFe03qNitWxwEWNmGOl1yTd7W3tf1B-Ylch2y8aOXD6udpgzKUWdUxXuCDJm5XE9r65mOEXQABZ6drT69LB8wT6oKV5TzbydfnP5Mg4U6Myoc_Cu9LoDLxwPX455ZE6TCx3y__yOb9bcoP30AyJNTNecCPQo5PwvrQMxkqnT6xNaRj64FpMEVu9sbHOmy0SqIY6Z_Ms2aXNyP8FeNd-YJhMLmO0LYH_bn_kGB42hI6vd-c-zU5H-2XykWQ4B1vnHXdg_yzavS78N6KBM7csRYmEQU",
+        "width": 4080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110453324171742041982\">Jason Pribush</a>"
+        ],
+        "photo_reference": "Aa-ngMb9KXSrOxYqcrf3sKfJXUo7oYUFPi9A2ZhHgCdg4xNtgr1dL93Rp0wWiXSCdIuSm7uScPAt5S0hEN9Wo2JoGP7PjEu-fPMyWcvDdIpKlbkFMTPCPC5gIB9FpmmqLn7OgIPjgNncN3lura0Qqh64-kME_2BaPHMvwB6OlGYdXgG9823dcVrA2EAzHk5Gec-6aVv1ii9Woz8JTtKTJxEPE-aQlKUn-lBxrKfmkX8sh9f54VwELM99XpAqVfM0EIlrBkW3lWX8LMtesfO8TcG3nug5-alUEBBlII-oKxuOZI6pD55PcylZsGDURRMfkhGAHWyZdXz5hu1ivcx0xvn3HFIBuyM1d6UXs9q7-JxPYcIdkBVPwrycWqwToAwBAb7di434oOsZmwo96JPrCkHXFS6Ii2xQ",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJAymzef0HhYARV4buZjml5I4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10296536314034423383",
+    "vicinity": "1111 Dunaweal Ln, Calistoga",
+    "website": "https://www.sterlingvineyards.com/"
+  }
+}
