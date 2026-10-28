@@ -1,0 +1,254 @@
+{
+  "fetched_at": "2026-10-28T06:46:48Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Scribe Winery",
+  "place_id": "ChIJPUvvkRiphYARQn4LaGyq6NQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2100",
+        "short_name": "2100",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Denmark Street",
+        "short_name": "Denmark St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2100 Denmark St, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 939-1858",
+    "geometry": {
+      "location": {
+        "lat": 38.2761163,
+        "lng": -122.4152367
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.27740523029149,
+          "lng": -122.4138355197085
+        },
+        "southwest": {
+          "lat": 38.27470726970849,
+          "lng": -122.4165334802915
+        }
+      }
+    },
+    "name": "Scribe Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 11:30\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117922216573337252192\">Brian Smith</a>"
+        ],
+        "photo_reference": "Aa-ngMa3SqD4CW685uGwzgltSCAURbAJ-g3fBSkoeE19W8Apnw1KiZCnBIR_Vs3HmV4qstLSCEuvlpJzcxvzcMS1qGiKtw6qBiRNGcOr0Sa3Zyn2jihvBpvvXiuqa1Cxysgjf4MwqPQDOMQ9CXz8fHKHHwJqqYOfqqvrNHprMRH6pWt03uKqmcIj_phdI3b1mIi7aahFHItbZwmJ4UYGSVT75yHV4iuPabyCvaajov_3pf4cLVLX4xzr7AhWvrVMSfkcfp3WqfpuLNL-Kq34g9MjTJExCgZwlNslYvufpfWCkK8ZuEbnceszCjoRPl_5iX764BB_TBVVkendEvYQXIh1vCikfELucK7ngVx-qGeFUb3zTPlJBDfDvRF-VM28KgiutB1aXjxLjxDQ9cP9rwmdYY-aFeE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111632858052763966424\">Raj Ajrawat</a>"
+        ],
+        "photo_reference": "Aa-ngMZ750SpBRabKi4a5qjkk5zVR002yXde8XaD0RKky4yo0lIEAzy1Niv4hFvOQKYPP8or733-9TL_rA5ygsyLSIGG7VQwlClT62-OrZlwvhIknW8gw9SGY6Tgod-R1Dchv-PTa_Bu7C4aMfwvT1bcdhSGknVqomsBZEqyChY_XiNJpiI_w5Hwf35zxxvfZQeuQ11XJbX-uF-9utyEWs7WSWX30-DjMnkbvztAjsmDYIXgDu03g1CErAyHaG51jG8XoX5o8ifwiG6-_tDLJX7skwnb12r9keb8ufwy5PWv34wVKN-jYvdxiKVajebYS5WNDz4RLIapDC_c7TRJz19QUTGzItwOjDKp26O9vR8OQEAzeo52aIuDkUAFk2wxYdT6f7TZ4idWOE8bZkkcvu5DzuwTbg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111174665568183374712\">Jess Liu</a>"
+        ],
+        "photo_reference": "Aa-ngMZkGj5ShOPW_koWcFDEsTxPf5wkrFkpE4tcnlcEQm_DC2wCujha4yqXW5B2dt1Rw47NvtRKYa-_lH-J4cMz0EgIu45lbUUslSSwZQRu6zSQpIaQ5COIIy_5hyQKkY69VXWe30VPnnJK2Q9u05QzuEGJJSNPRw8-0W_H2fJ_JKHRWVjfGGS3oZKinMafCAW2ofWhA3ZYG79m61w7mXKkddTW0lJePASjX2Xofo4bXppTs-YeOwWQyUtRrFlqUr535g97QC_dhKqw-dRtJvOixR-ykIqbPcULBnP4-cKLOqm9Jq970pvFi-Txe9pcakG4dsGMpj1CX_R9sBOSbfTyXC7HghtaHw1cLwwJ5_97ncK9KB8tiJGXeAdTDnq_t7yyt0KF1gaIypLNn895pzNiMwOHZF55",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117318209831100240490\">Marvin Nim</a>"
+        ],
+        "photo_reference": "Aa-ngMaGeL8VbJlgAKFa0n2rioHns4QILhoV5Ifnz0uoEwokoromuVFYBJh6r3KXukcWfpFmOf2KMeIsSByEZFAxFXt3i2VGhJXRJns2CLRtvx3I7Svfo8b312SLTQZZP84wpwyRuobSRDywwm1ybECkRG7AjjYr6kOllX_F9v6_ljGKe0MXcwvvFvuDkRP9JB4HVagk84j_rajyV7HEoPPUynfY83oJBKgu9NyuCLWPQAoa6UzBeA6QdCkp-vJXx9qSnshTWLsh9dUm6PdOiru5imT_T2Dmp9CM4yy4sNjDl1Dzug7-F1cc645PaQbGdk4qWrwN0Xlc2rrkTO5O_Km3f5oC8I57E-BaVUuB9ySThyBK6yk-l6VH191gcd2N2f--Vv0Uv-hTVZNrWFfoSzyhnaBEjQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118263448868940008128\">Phil Pastore</a>"
+        ],
+        "photo_reference": "Aa-ngMZTSqbJikWUowyQb7JTOEmI3758BC5wHI8SQeLZaFOehYwD6VujiH9IZsRj4-M2qQsjUL17zSbD_R9FMn-h6MSWnMb7yI7PYosgqt1eu1zLscs9oiZ0-EAtiE4yr9aQBtxddTn-yyAQoueoh_GWAtLGoqu65AtPHf_kHb4qnTRCjcvx5ro3bPa3T0vP91dWGUYzSVIXsIYvKNIJ29FgU_cm5DrpvLKO1MPXz-AjPXUaKcdVfU_OQt__BznG89nlo_NP6aeycvwwk9KNkato0NcUpNOOcGkMZ_Yp293PAafmHne6CbD_nCsAwa3YRRKaduQ6KE5WrxVNC13eKOm_rquwkjgfMcFpOWZv3VHs9qK3MscS-t08rTAPlT89t7wONlJOq2KErVscYNsUr_2sllwnaEd1xMw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108718524712558788924\">Andrew Parke</a>"
+        ],
+        "photo_reference": "Aa-ngMa_NfslyodsoN1aUnffDgFqj8VfIfFAgg4ucykKu775XpQxjxgf6OymwDM1CMrED5nc4yX9codbiIiTXLZMKYUitV27c9O29Qw1aFoGBs7BIdVunihS7YtylBGuZ-ZYDe_qZmT6as5QO0CxjEwSBp0lLTK22zZqX5CO8exoaHRUrByJOS0zi0p0wxj3uS6pAajUhMqcRxJEG7xvsaxLVW4jSjqDgM-G4L_qpFmTVPe2UXrhUk4dqK9LmS3DvO0GD1oX4g98AqhI28JUSotG4f57LXQEWIzrqU60or4q9hEaifGGlq0H6569iBin41RkXys7DcvGKAxan9FpS9KqusqIxCmOkEFGradcu_dZo5AF9wi4PLDUE7kVmq6auhCZywpETyln5EVmqQiRhWJZ04-R0V_EzbU",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114609252676925693613\">Tom P</a>"
+        ],
+        "photo_reference": "Aa-ngMZFX9sgKLaz-49KTy90O0ux5HdpDebshpWS9EY3kDb6KS9HBDMVerb5wRajIMRw821riZo40ePHEZxEdpPPq0FMOU8E3LUYcpC1wkxkcp67Yvb250ACoyhyRvDQE3ydrj3vgnhjTZETQ9NtCKfoFCl0pTvoVQrBomzLGvxC_PiE2Kxps7Aw0RxVExd5BzIUOK3xQLlCRAAtHh9C4m29RAB_wLkhWEWa_NZwd2uXZcAxxyLnhCzNTeymJs1w_e-OAIvJ5JCTe6tS6Koq-EmbmMxPTpYseGU9B2Ci7EaqiXVt90xfTEbyd-Pk5mlYqq4V6QOq-pxX1WlysXy2bVn3CQqDRBIXQTS7eK1Qp91JC2cezDM2D93jbUUntUU4pIb7-bcxsh5RhOXpz1M7sYTw_typZPI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116810113061755057721\">Nick Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMYW7k0rQ44VAqHzCaBTeV6o5Myx0Q9a9KsumQ3iLDm96ntK3EpAKvefiFvm1LoUOoVN1sz03oyWIvvUt5R177kewvuVGRjRlRGs5nJN2LdvNN3ZuvWj-YeePTprRcEvEMGXI7AYI333Szrmh97gEhl8qAOc0RSDBpQF7ZV9YuNjeD9CJEnlmczBiKMJbPVHFUj8WrLRryedSpO6wBsnF5EeQiQyhVJaWyslkSGTtictljjvnL1jZUd1ZnGjNZ7FQXgQf8NnwcUnCa_KwQPqu_bvmKwJN5TOsPCwuRa4nOV-vq8TKjuOVtIvAaSZXpoDVqYhSpJ__YOY0c18349Qi35n7unHhs1-EOwA0CBYsaiqJF81c9XwK1u1uV_4MbUhiWZ9C-_qfHGzTtKwLei8lrVTLY0",
+        "width": 4032
+      },
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113410541264665779018\">Connie Foley</a>"
+        ],
+        "photo_reference": "Aa-ngMalILvFb-PxX5ONaM2ZHF-A_VEgBpmHjCdSHL5qftJ2gNWYjhK7FhbRVBHhY9hfxGzbY18EBKOjhHcV4twljOjPJAzt6VwC9WU4RQDPWkRZ6KbkDkAJMPn6zNCmnTzWjlJiH1qrwDrTjlwt72PiFGtmztHrFhQ6Wcr-REm_8kjJD36M86uCNDQGyMrXq1k8Tc99IRSpfuUMpN5tutroCJwaF52dOKQWHVXJiTJ6wUkCsWKBuhBpB6FAVhyTcqG5mnHURV7GBG9vP09KY0jLi-fV9_5tCRrI7cR81GurSZQgenVXVe_B6X49kjOdZGn3RiXODCHI04IWSE9rrL-WrM5UhYN8tvnGAauyYfTQhlQnNAQpsV0OoTdpJcJ0UwXWmtyEkCSEv1fSgjiJaJHyzkyWWPI",
+        "width": 1836
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102673464683806479600\">Milena Radivojevic</a>"
+        ],
+        "photo_reference": "Aa-ngMapmVOLsW8OV7Jn_OF0pC6k5qafdy2ndxYro77fSfz4i2OjEUfmtA3UISvoc15yGxP5oCQBckDGafwmTuDePOD9wJ8mBCqYoxhSXI_Yq1q_RKKHS-SWZRW58byU38glVX6aAFYCCPEx7z8zBeO20fEG5qIDw6HLgU5k5rs3rp_8i8fPF3toyqoGMrSVZ71dDD52ybGi2hN56mC_ANlH3O4YjayN2CtHms0FbGMWa7IeWEfo-9xFTIMKVZXhIUXiaa-SzCVsyfo7vTkBz7cdqxsVAWw3JcWt_gXSoDEl2MvYed9twHbSpmvQVuoaVwvB2fT4RBW5wgzLJhDnND4T_3bz0dgRo8jehNxlXqEO0Sfii8D7z8h_juTeHGsBmp8WGzQqQRq89jXplImmxjf74SbdTdr91zV_Pv1Fq_glmLra6g",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJPUvvkRiphYARQn4LaGyq6NQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15341699513216368194",
+    "vicinity": "2100 Denmark St, Sonoma",
+    "website": "http://scribewinery.com/"
+  }
+}
