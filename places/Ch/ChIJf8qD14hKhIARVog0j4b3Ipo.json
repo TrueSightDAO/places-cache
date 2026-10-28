@@ -1,28 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:17Z",
+  "fetched_at": "2026-10-28T07:17:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Song Birds Centre",
+  "name": "Songbird Community Healing Center",
   "place_id": "ChIJf8qD14hKhIARVog0j4b3Ipo",
   "result": {
-    "formatted_address": "8297 Old Redwood Highway, Cotati, CA",
-    "formatted_phone_number": "6446 0318",
+    "address_components": [
+      {
+        "long_name": "8299",
+        "short_name": "8299",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Old Redwood Highway",
+        "short_name": "Old Redwood Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cotati",
+        "short_name": "Cotati",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94931",
+        "short_name": "94931",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8299 Old Redwood Hwy, Cotati, CA 94931, USA",
     "geometry": {
       "location": {
-        "lat": 38.3247203,
-        "lng": -122.7050483
+        "lat": 38.324712,
+        "lng": -122.704968
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3261410802915,
+          "lng": -122.7035473697085
+        },
+        "southwest": {
+          "lat": 38.3234431197085,
+          "lng": -122.7062453302915
+        }
       }
     },
-    "name": "Song Birds Centre",
+    "name": "Songbird Community Healing Center",
+    "photos": [
+      {
+        "height": 1880,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMa7BC_ktY7M3GKU1J1Ue--fo3ileCEdfKpklrY6sj_vIF_k1sNUxlVOPaU0rF6sx_7kFFwma-9W7JAllLxEBBIT-iuIIaLaoDFd4IAOazjBzEpYUm5i4elE1kFuSArEkIOQQtJ5iP6EEsmJukbowsrWna91j3s32VhCH_Ae36_oJHT3dSZgq6OSWLf-pW3eGOlAgkXlMfj5oqm0D87vbmjaFyQgvbkDFeRc0bJ5MINecHgsMd62fsfzWAYqCQrSPn1RD_i8g6v75srnG4njjeSX7MJpcn9aZNfYqHjeYmI-2t9wktRohRMuPIYFC8P4JsI8acEnh1ktItIx3w6yfNb7F91c27j39IGMVF2syRct04p3CyuWFzCjwIRceoNQKQVq9pHe8jGYuqlX_HCfef3fEA",
+        "width": 1993
+      },
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMZUP0ymuZkOIcHuKUuzn-eSZ16v-9HvaxknIvTvFxcehZsw0v5UPYSVIaRusFglK4DgVx4wy6S0Se1q1k6nae0or4SXKEeQIUEHVi6f7nlfYwUDjc3wnNMSjnZebbeT4LkWeIzpDvLz6OnmNRjIZQheOc-ipIADKoJA0kYUom6ToTh1DgURmB6MITAIqOkIe5FVWFj0U31KRo4cHfEyR9mk0qjhbiDiA5aEeycrSIcPwC1Wm0Pz-c86M73HSLe13xx3pwV0Plq5j6X5WUDUE32W3FyH2pwIVudS1D5tYEl-SuOXeP5PXclgy-4VUDoLPaRwOyg7m7yZc10dG1xpT0hg-1FQKldDxzDUk6NVvKNFSTlj1-DnFmAqbghd_HDVw416C5rHUAYAZ42-KFwmI3UkZDQ",
+        "width": 1000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103594482284627915555\">Star Monreal</a>"
+        ],
+        "photo_reference": "Aa-ngMZI65lYfkcJLDDVd0XLwOagfM2sFgXEegbIQM9sioFZT9GyXp7_pz0sXP5ZSMNrmwLnqkkUOY36zYNmZ7lb-xW6HHkt2YIG_2X_kjMnSBL-IJTDngDd7RX4bX7kdn5cT4islYA5wUuv49L0-0uqepcJgImK1KkqJUhX8QBmDQmYcfzRSXyH8Bt7fSdO29yY654vAuJngLElJL1hDfYRpaHk_hh4ZcY3gXHj3KgHxNpRSC97sU8ZXupQpKrtYroNMErbubAN3q5MhBvQ6sJYUq2hlEJAQOAO-U_54z20tFnnf95kWxkdpCMLBTU3mFFT5u9NK1hV-pLyfjAdxdLeZiCgQh8qGs0wyIMVRDiQAEV4-lpqmAnj15lOI6FHMeyppwSoo45LlaN_olwUfnOuKaSguCwbZx8",
+        "width": 3024
+      },
+      {
+        "height": 1013,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104398099469476310029\">TheCHIEF BIGFAITH</a>"
+        ],
+        "photo_reference": "Aa-ngMbnFD28RI2MJaSTruFV1ZoPfyqPkVA-_0ziq9jvZ6RixPScRfZ80gGiMPcWPEgtW4hXAypeGvkTUA3zDA9hlYRCMyuZaGNUYI6hFHTgJJH2Ja1p0LzeuvKv3WvxATVQgV8vy7rjOt9qKskvhP1y84UsJvUcJpTATMa2VLMsmEicQp2xj_RgLoYuFzRMFgJQiz1xqFLzcm__ZSGvADpi95_vu8HWwdK1fflmbtHjOMFUzdJlxvFTSsiHXTcOBpcvR92RZYrstDc85ZL7VPAJDYBusyixHEK6GnEo1ckSmsOD51B6ar8fyNctz-v6eXP5vpvRRUcn3FAMxLxjpny7PEh0DhWUvzDAZidoNutvjOwRONlNJ_kFHqj5RoLrTyb-myBqo4EYSdwpSImjl10XnIG-31LcfNw",
+        "width": 895
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103594482284627915555\">Star Monreal</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9RIrDIE8VSa1W6pIxrNPFrLIttEFH9J4FcAoXZTLHpHh326sPuiqmd7JjQdXM3u4ynXK0v6lCjzfE5nGo5DVXC1bY3Mv2CufHg-FvU-ZnO_c515Ya3LurtFuD8qFcK-cdhAjDR44kBZO4oA9vLxCeB2F2AxTXppnJ6EtkcioPfhVv7jkRmFlbvsYCHMs_rr8p307RwL3DtvpRz1MWOTpa9qvKCBSN9PfBWjQUcGrxUN46z5TWiOKC1OYuAtTKtFdqhwH7x_LOI8PvFvqsbGWLqtIa1iSrKXJGO0qIMKKfqX7dNK6ujmPknzK0J2D8Re885bgMP5MeAIKrbhB5unmlAKEVGVDc23J71veg_i8JBPPpEPEouvFNEGpNJYqwE-V6QkIhiI5caTjgVv7FU7bNBgU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103594482284627915555\">Star Monreal</a>"
+        ],
+        "photo_reference": "Aa-ngMZXrIqfn15BK9KWeFXNjdMgSvIFpEj74eS93_0SLIadk_vQuvvv5jZ_ioy2N1TzpWQqNkrGi59h8DU36qZ4Ng-ZUj3Lk510mJr4wCZw8Mec39eKB6HKR3DDs_2B9qk50ldMaoKwbhq-3nmfe9jIKhbh0mDEC9Sz81AeNNNqgFlWCvTzvaV2VPeyQE_QdVUv3cA9ddjABuPHnjAM3PWSKIWsqpmt_if_ZnWyc7W_gWQDRF8IW2-v3mjRsGnXk5HxVo023hCmtLWD_VjMh04_I2dm9xTRgWURQ3IraezTzaLXywSCXAuqEuca9scUsnC3fVaxFFxsYrkqP4djm7NtRmN56UkTwLALwT0gQEhn8sGF2DIFmHVja_SGLdHayG6Yc1DuxMBp_AeVwKCQTn-xr5s5Pic",
+        "width": 3024
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMbyr26TTAH5gK6I7T8qXhKM9Ul79N2LG2czPiUvgmut1MwTax0yKj882nsk7GLC9S7LWwJ4pIYeQvTFxfmeHSFvHSYOm7nJnkGmRVGoPce7h_Tx3M7ctykgZIW-GYS7mMjeER6B41SV1g2lwTHhRrlENSQIBrL65rLtDvNamPrjEYyXyNZsorrYclR1bWA9ZPlwDYQGM43iSnZWbwtf_Ny9J9a5kNjD2pJZ0KdMHYulCttt9TA5ujbztn42yUliGk1p4mBlHRbmahz_wz6_hHPf_TrwpEDixMhl3L_0XXd9g5HNiL6yFa37vYPH1xZXMyflwuGIyneoY0aN670qCWSVZku43IHQt-vAHK4_LOu05053_jdx7OLTL4R1AF6s5kD6FWjJ5mXaP7l67FymoqJ4Y9kM_7U",
+        "width": 2048
+      },
+      {
+        "height": 467,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMY-SEwcRZIARlFZcdvmM3yl9IeAawIsbpaRShVKuDxGsv37XJBiNZrzILgWvUQwI08kpjh6tzhlm2lMoqqP2CDv2ZmrAe7IgSfr2W2yUiekFYjEtD_P53KCf5LQ58DhzltFASYNrxyQ9SpL_cNUz7Z3zJAs7-6W8KNz1u_m5csuUUOky1iTPfIYgPMtOBZd3R3SQLshYAZt9f8ucbRkRI9Dp7FlrhFq7w-Ys2OsjJ_bktWAAmB_RCNcg5x8Fp-bTancGV2vZhOEI1i3kh70SLTpA4orjzUaTZZNLfJyWXAgCCdCJ4ocb9rPjF35ZPfxNsTUs7FLfpCrA8tSfgqmLLNHHLCWFHcXAIRlMALOP3M9pfqFLrnt_O7bzSc00aFLJ4lXQkx73xj5rK8qa_h5s04tK6f0",
+        "width": 800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMaUP_Ki6izu67ESWGCQERgBVn3QyTkUXZqZv13AgaULa6S44-XIvEck42JzH7xj_Mrv7zMMdC5U2evGMqNBvlZEgSqfWC9l4xgJQcp87VcpINH1MzEwKGNfljDOMGVUW5-FtSh1KhjYZHqDX8SKmC8IT-GUXRDZT1D6xbf7dVMM6-R9gYA4CDTJ_XaB58h7CkBYu7F32nI0ctqf9d1Q1MxZc2rDc92Af_xadkgzdz0V62q5NoVBrd0h7wosx5S6-Qt7c1P8gCN8_nD855_zb7SSyJ6XSc_oqFG48qaqepqCTcRShl81iP_Ps9pFYc0J0B-sgBPnAVYOKoWQ4Ld_5y_2zD11mMqtwW2uMkRYsJS7WofIWM4sIw1Ykp2A3acc6rCj3g4cSj_YMK1nez712yNsr6IUz5M",
+        "width": 4032
+      },
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114710195629267245775\">Songbird Community Healing Center</a>"
+        ],
+        "photo_reference": "Aa-ngMZFF4tZ_RmpBWemINIL6FgzuW18y4MY0FK0VZN6JtQnMNUwUZFZCqHWg-HsL0guh2bvWNiYGy-FmXyWoDz6_vJTAHQyMbuxs-eFtAhooJPEvDhoh296DomkVpt_GM4f-AsJaCNeg1vzjZDWBumQdzaFIJ7mPMwe-PkmS8UbEy7L2uzh8wZnJ4HbztYZz-NBDs7HUlYQNIeVFGgmXzvCPa-9IsUcUBjtibTKzfvIJMpv-HtRzGBZDRSk9Cu3L00KEhfT9daJP4oH82KY7X3h1qwGP5FId3glo7F7l3FirCqPG-KEE_HJVFP0EoeFOz3mBLO4YTAXhJKj-j2e8u0qYmo6EEB6k9TzUQLl2xYwMPLO_ltgEbTDWDzQ3FXcqxFBCavpDqR9eEpjQyyPm3lMLlxVojg",
+        "width": 1000
+      }
+    ],
     "place_id": "ChIJf8qD14hKhIARVog0j4b3Ipo",
-    "website": "https://stonesthrowgifts.com/contact/?sfw=pass1763423690"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11106711788349327446",
+    "vicinity": "8299 Old Redwood Hwy, Cotati",
+    "website": "https://stonesthrowgifts.com/classroom-and-treatment-room-in-cotati/"
   }
 }
