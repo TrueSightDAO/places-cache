@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-28T06:46:06Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ballentine Vineyards",
+  "place_id": "ChIJJ2m8W2JahIARnQFcq4BEtBw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2820",
+        "short_name": "2820",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9655",
+        "short_name": "9655",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2820 St Helena Hwy, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-7919",
+    "geometry": {
+      "location": {
+        "lat": 38.5199367,
+        "lng": -122.4901544
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5209845302915,
+          "lng": -122.4892834197085
+        },
+        "southwest": {
+          "lat": 38.5182865697085,
+          "lng": -122.4919813802915
+        }
+      }
+    },
+    "name": "Ballentine Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 788,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaYGWqEdQ7Lo9Pa6DbvDWIhU5w54FJrgQLtLqfqLqqjz-Afc2d1598REBsrn56MRGq9wtbPUncJRUF_X23DWWTnxEoOFWswXsX4fOxfzjGqLmdfobxqgbh2cGStnCpkc5GcAZCrZDYrbkBhGn_LnWn5noP5D06zlpv51oR6jMhI-I1U1nj_vgsN7ynr5rgM1WY8FqDCENZ7YioaoYZFFacnB9BrFgssoSZscz7-NFQ-sJEC063mmAfxBo-bRRaEA2Zg6N_8siKhaTR8u2pzwYw8ucIrzOULb3IIKL0ZjZtcQmbDcBYKpnN-MHzMXpbCxR6Z_JbXt1F6fcEgKRKbpYi4Hh_g-7VO-dSpvR44Se0ezmaNrAz1oeIr_oyUyGLh9S8MT13QH8d0T_kydLMPMRSWd9RrySwpAFTGVHy0mXDITA",
+        "width": 940
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaofFlbzT44218v6jGPcb7AiZEli5f7-o2TS61XLNhaNjZo_5hBECLMQs0OEzo29fx53_Y-m8W52oYlxqi5JwIPzGQoYvftdyidHrAjWq4KCzyGtSxxMmf_JPcvChUQmy13Rix9zXgHbz1pZLrfVM9skg9WquBqbxo5jCCFr_vU9wM0TDm0oGq4_64MSrj9yXJnIEryDcAFMWIh-DaSwtmGLU_qzIDZxzHlseI3BBUWbHxQ9p3zgIaYqXafFDQAUDgHh-4-5mUXDyBQ1y7JrdnW_6QHV7j35Md4BwwEyHcUECs3GXJtUAua8V4QJHq8xZ9UzqtfeIfJnX1YdVPii_To80eTiFPV1c3Jg5zij9Anyigilo3MOTZDH_XcVFeI2yGm14M96_EwGpfA1gMO8PQryhtwYQU",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaliKYv5M4HV_OYkAkv8Qk15bIrIlksRSnIdPD3RqTD4RFYZhzc-ILNQhHvsQZgrr_uFgjadpAtBOT1VX8qRD-kp8NuSIyrZcS-BBxKwDNTb_ZTd1ldGGZ7ilNEQlf6LnS_OgVKQBERsme-m0JMDOEaf-lafiVbr_9c-iq3olTcA_unpihlxVpidSRMQkgI7dgtTzPRqbuDo3OeNu6m0IY0QZyw3sRtsOzxc3pyLH5Bd_z0zwRaWFLYAuh9CAxaBeqoSykGBY9NUokzUYA7K9a_yYwvYYufJ69xjVo2G4nytxt7t5R6TwAmVzETpjnRvOLw-8xxJPuZ0MTBcnLMv7N1iQxJRozTVb4b5CeBM5cNJxbeBTbASyz_6wFEN1WI-yOCcSj5IuANNoc0QMWNSkhW2PwNJFHs8WP1am9jaUd7uQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMYeZ4n4QoiWm3mXWodnwfUcE_2q9UuoGYkc0Vt-RlbgELBuQPM2D8pEDzNcDzSWG4TnVspPCUrX-YcbLGab8DoZevWtgiTjJuKFO8Ka0T6JG_WRJ1FkN2qJguVnDuetf2A6S9fxhRKw2RhBHVgSfVWwluYB5B6ERDNHYtNE422EUrCgLKUbOsGP5NmWAjgoh_H3z_Y0KNVR727uZoPKROlPh-SDGh_sr1EqrFVFUQ0BmIpgoubNpNjN4K4Tnk0iAFnqjs1zSIPQTaMY8Fm62dkriuEkGbCTy63N9bJlAd1ZeYDRrkmzq0zKFkkRufYonDDX26ev4TNXOej3doE6ypJyG9xjH9JTccX4hsi209_9K3JrYcvlH9nLd74kd8Ggp4sdVpEdBAthPnw_2u9E9JjdLpvB4hw",
+        "width": 4032
+      },
+      {
+        "height": 3025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbWM5W82JiSztsilUxBpNfHu6fEho2OSgTqSfFW2DmeUPj9gTxzB6MAUvUSBi8aLI18iQOx33gLSkhQ_aJbdBqVrbaL9GWH0lIXQUuN-8alNMnnAOPQPpC_caA_h_4y0p4ulPVnwsl8_rRHXem6UZYUFYhVQclyeKKKFhdB9Ir9mmd4UsZqtk9ClTUcAZeVvtVl_40y8o2gxvNnKgu7Jx4fjtdFael6tnPtnzhEIpTVdkFdZ5zk9OmueTvj6ONJ7jUQ6bzpxcbsu3MAlUz4xqB3d0fEUWKq_leFeYOGyMuWnF7tt6cTQ7ttpoNf4aSOf8dFyS26-1V7vB0_Yc0tfVZc-_s233An8GpdTUGFhxUMNk5ukFyF_1DSaPZhNFYdw0NNkT56B9YGVo8t3K6R2_Jq8NKlc6g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZjP3FuJ82S6DyAAzTn10XDnJ4y-hKW_u4Ns0I6wXv8Mfvja_Yi7PBLtF7ZqqD_F6FJZQ6NzeC3pBxNvyMqSox1GlLbeWNgadCP_8R9sClZFeKBQ-u-Oi76L2BTN_7eArsmRT2hW013uAmIS6iilMnsAVB9n1iAjaVNiNmT3AaYH0CThWY_YWZrI8-iqo6V0zfJ-bodQHPUK7uS6lpMPrIG1Vl2mgxxVYZ4EyKKI_dRAAI4kHiTfyathuE_G-cCockKsuwsuHtgacdedX3-_jntspYs9O9Yo1_XkvrFdjLVLwYf4Do8mwUCqMeWP_ryfV0Ws4ITUOD0Dc6YRqfh-C4X4hzjZqYPIKOxYUBpAGOBzwMGHIqIpcZkRbwtDwBRx-qRCBxn-nBwQYSre1it0IDDqtU",
+        "width": 3024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMY2r4jULewwT8mwJLWawM_ISUEcPcWil9u-GH0U0LPC4wjr0g14fM_GBmu_PS0LqskxEGxHTGhE-165NpvETJc4W4FOTvQx4k2s67JeF-Z09JpNWwNgx_p4BuHsDVq1Dbc_afZ2X-YlT-3eBn15wfhD6_UClIivoPrsam_ajqqP9-ApKpGgOzIPlcwLhGo2NLO-mTX-ejWCt5UBnDOfE91fkpaGpGSwo2qN3fy_Ng0Q3j5MKJknRu-aI6eYfrQeNkOiS8As6-eX7guc8Bb2GbVJt9fWjIvRHupFS1PDkzjSfgBIdlTEohhoP9VUx7923R2UsRR8_OpJO2c0qUGVBgCZEkwcLpDDVkiDHTYn0DWx9fsqBQ8G-_q5HXVmH0yTK2ejsVerut8_U9PbegXat4Ix7JKhsFTHP00-3aDBMyfpwQ",
+        "width": 2048
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107922373560771076717\">Claire Larson</a>"
+        ],
+        "photo_reference": "Aa-ngMZiiHKRN5PCBcnHFsgoxs3NmUwb5hKMsffAQP7u8cOY7EM2x8Sszhu6P9EBdIUDv35zncDkGjXzZX4TMtJF1e914afd2hxfVzbh82wG6hhanYAP0ZiaOVUcz9YFoZiDt1tFo8kuiO-AUfP-tTDOxARzKqvpOjmaQ2t95bUDgQZu8FO5wiX0eLh2Xk50zvRmVducuOHGJtFQoB5UtqY4c-nKTuv3UkeI2Rrii138ed3Yn4jnWqiozFwTXoAxHgG7mNT2be-366RZXxAshQoIqpGWhKO11lL1P546kbl2AeZaln4cNOrilAlwMPr4V4_FKDkWhTLQKBgqKNj5g716Rx51241qrN5ZwbjaBUMQ92zUISfItA1JD7p1Djt4qPZgOqowh8_0fEIWL3JpIyhXArWF0dpx5cq0BXhSmxcFvzff",
+        "width": 4800
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZjW8wDvfmxn-n7LW5v6DgiN_M_908meI_DQNWGaVlGwmFAe-UZOxhcnSKfFMrRROQtshmy8gR3rmkzMiqAdVIISKvN3NzSzkw87QYc_XPhoUmcuq2unvRqojrGnLKrPZJk1PWPQYhfs6HM0elAVHYEvN3eVEGFjtUsH5z1jckLU7a3UrPaEkHWdetxhV-rC704QX9k-Ef7df9n6xUM08TjeN0pt91sMSviT4WMdCsqq1T7ycqcy8XEfBZvXY2XhP_fBolaI3g5x2P1bM-Pd9G1srsQ7SAVjS7aDWEE6KVd2DP9cjFcwxtSLUe7WBSQUuLz4YisuaFCdoVdcLtT04yvT4sv14w0QJMOLdlECr2ro0u2xm9lNSZ_-R2vTt1TKquINvY_DsEbO6Ok-n5QuRa1v145pVlXH0bn_89ULE1UUA",
+        "width": 1440
+      },
+      {
+        "height": 2796,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112046356581773266195\">Ballentine Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMamjavSXv8RjeZTxNxT0Cb0Lr2PGKIUwAC-1_bUblzQdFZr1yzXVm6-ydl79LKKTRucBWf53T4OXonkVvgtfAIz0tghc42xCDYLblmb9d65cbbwRn790FEAACFVHf5jS1IiWJx8cW7_9WaNjEWggdN2O4RrojjXxdPuqEiYqIQy3ppJGwXUB9eqolk3QW8Jb0l-vSs4zxogTWx0RXeP9R3fJ0THDRKApXo-7vhEa_e8FCmZ_ck7PkHqxWAAVuWfDOZTRYIuUYvwgwKHfpw-gdo2sDqI-RDEk6uhgBdHCawjAKTlvWXnD39EH-JR6OPAL0hdggcQlbyd9zQTrZnpo3tHgQSfB-CsR8SYYpvighYnW1HUau16Yp6ROkCPigt1gGlbb6dLP9kUg-XJD2m9a72Xdflxg7zMRSJZe6g6clXTXw",
+        "width": 3726
+      }
+    ],
+    "place_id": "ChIJJ2m8W2JahIARnQFcq4BEtBw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2068353448291336605",
+    "vicinity": "2820 St Helena Hwy, St Helena",
+    "website": "https://www.ballentinevineyards.com/"
+  }
+}
