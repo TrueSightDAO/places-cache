@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:47:48Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hudson Napa Valley",
+  "place_id": "ChIJYQCMl_kHhYARrkbEzH6M9pA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5398",
+        "short_name": "5398",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9710",
+        "short_name": "9710",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5398 Sonoma Hwy, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 255-1345",
+    "geometry": {
+      "location": {
+        "lat": 38.2572263,
+        "lng": -122.3602588
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2586301802915,
+          "lng": -122.3589991197085
+        },
+        "southwest": {
+          "lat": 38.25593221970851,
+          "lng": -122.3616970802915
+        }
+      }
+    },
+    "name": "Hudson Napa Valley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176909692608788180\">Hudson Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMaQfYSeYuEDmKwiym7nrGtGWqAivMxliK33sHYVmH9Q4WsDsKnta3UwC-mlCGS5eKFn0NOggh_Z6n6hwgM4PztNyQlL_CYZiT7hqAaBTAJUQ0Z5Ny3Ll1Y6bG5C9a6Ity5o3w4PTIPa9AbWo1qS1t0faVV74Y8G64OswasaIdFBQgeTDOnp52VAXEvr63p0LobhY3bfElFeHOVpkkNDfWjEBYRHQylJvPKGfr3hFZ_bU40hd_r5kmSU7qUgcfxLi2UByo9Ywu_mVibuWQYoBFw4uaqwspQHOm9ka8iX8qVDikypx5AHmvhX3iez0XV6S8hZ1-Ss6_EWkNTlbmlsdYGsHB-HBkPilZ1tb5dGGqWDlrRAVYq_AWv8_-3Tl3dLuI-sGxvrzN3piT8PGpG9Y4yu8o3U_0qzBa3nJz3VWdj1",
+        "width": 3600
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047153983176983858\">Shingo Suzuki (ossan66)</a>"
+        ],
+        "photo_reference": "Aa-ngMaixIQk6FSm82dsn4ynwx-fxmafsJcghVsIULd-sQP5WBa5lgbXD-bnPbdRt9wuivxVXVnKUGIdiYlLRNiqqpU8XRkLNhslsnGT5hKDX2f_HO-rS8ickwn_1Lu5HpaEH9JFmb6rHgsxReY_4iJJDuti5OUGDuWbQG1dlXYc5m-lXcjOFFrLOYqsLIFd115bR4Yf-A8VHKVt1qpP0ksX0zTWsUmlnp02d42P4C8QpEE-ojIe_CxqJTJPhitMLMzoNDiMNYJCFo6rUh_pIXDdmOCtwBskHt3CZSJAs6s7Ca3irhABRBRfesxHrZCmrs5hgC0Zna6N9-5tbmAc7H-zK2rlI8m6EhTtVmGW3gYIpJIEQVCd7TWTZMxmzNyW1d8Dd2Hdgd5nhHhE6SzS1hedtEvgF8QX",
+        "width": 3072
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105718861138216999938\">Penny Andrews</a>"
+        ],
+        "photo_reference": "Aa-ngMYmjU3d7xdObSvN5PMzY69H-D8ydMPqbbSMhuY2ATOy3UXBpTDP2nLr5BO_rhvByVXuicyFFWxs1LRg-hxcvDt11NFAN0Mxxc3Ju4xr-PKnnIrDLZCkximXuhJiSngtbFN4nNY14EX_lwAx-UHqDgWlO4PQdGUIAH7Nb6-XOAuxn4oRSKNLnT4mYoJOPuEBlNpTfTBSGrHIpbx3aNEBdEXYffknSnJ8lefLYhkGyu4kGMHytd7Ryd9GxfmUW5cwkJRdsGUTrlh8P2DO5Emzt2EtVX9dxULnHm4rQaRCZTeFNOaKA37prmouVALyY_rRSEmC2VZu_UOyGetqErrV7_X36GJA7USTKTEFRRlLykjBYUB4CuKuBTNA8oG_i5QDWqwi-2RsR30xPAqHfzeVSezYQmGxkd5-YUKdUmkygslOjA",
+        "width": 4800
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176909692608788180\">Hudson Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMakvQV8qo7Q0XiKCFU-7SocCUSh09ew-QFKutA70eao3yVjFB_B_WH8JTg-D-rvcxfDTXPtJF49YTReqWIvcsdhPI-tIWGYwlYI0E7kgrCIq0SDof7iEVnDdn4CNTzyhfeJsguGUMpdm3YbZmA8sW5S_9f6qpFOY9hoKxD2sfB5I7tWL3YOaNAVNjpvhWn5Da5hleLduz6kTQy_n3yAkvdBPNzWlzIuqNudj8rRmtwg77trQlJ9AXFVtOvZzs2JEMjAhEAotiQj-r9O-wrMuJu8PmVkmX0f5fm5q2nlVd5JaB4icUHhlZ8h6C0iYlpqzt5BZM3M8xKd7VrmyjZfOIE3TMbj7WbGPjdhLpztxVtkWlVtZ-oExVrayqtfJjP121x_EFC1AUlWMcyBxwbEtntpgprmMRWwX0e-5GS24_K_gg",
+        "width": 3000
+      },
+      {
+        "height": 2667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176909692608788180\">Hudson Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMYHZXMVRuVFcGttSyB-0vLe1hEoBZA1iNhpsuqTo0uTxcsBFWfiPRdfSvOxLWruK_pX0xKZF4wrvt5WnHhKVQ_-HrHfg9MFWedeLkg6dSBcULLUBEV3xByl0eQSO__yAqL5NVdauwECe1fJBuYXnz_VpwMLu5llZbPnEjdmlOBjOZdE2aCuagnw2JgErkJYojUZg8cvdNgAozzJIrtkDdWhcy1txLBcu0bUJczf58mEVxvBevDFaLel0BhYt3mkMXF6qjfLKlHW8vTkAaXtDBG4ZUZvuwEGq5-hS-OsjcL3WSsS1hmzNP94Sg9p8kciBAPxc2fWKsViTLHMNKR37eu7LSS--8Abq1sajU5gEjGaawtA0PFR2mIrXCLqsylaqhp-bru6r5Lm7irtQfqdP_i1zTv2sPt9D942vLa0huVASA",
+        "width": 4000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105718861138216999938\">Penny Andrews</a>"
+        ],
+        "photo_reference": "Aa-ngMb4WJaNdQwMaZ8Uq8ZXr6uy12Mw2lBYJ-iI4cU8mQg94N4FNzCAEJeujRZqleqUmF80oLdVyN2maN38XMJ3PkykB7dug6XkhD21IDUV6rrELDJzRQsoog9yC9knXgpHj70KRoN2Q_mfKEVPkdzixfSiAKezjhs9nsY3aFHVhZ0NmtXnN2b3VvZQw9Lq8OOgt7HUTgBThOMR23Y7546YAtsEcol4ZGFNbU61WzyR9qkVYYex6xnMZUoyyIdrsvI_ZtP71ocpiOkC71Azg7OwpgVXT0AX3xcusYQmKwiCT9TGY6WfSXAsDThVeQxpDRTCNHal221FEpHrb5eQzVOWO-p5vfaBL9dyfpvAweNK0sUASSJsC1Jssi7T0R8PtboTjj8Bc8mlmbRtemj9puIWfWxt4DeQfbjl07VXcnb7X_OOqQ",
+        "width": 4800
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047153983176983858\">Shingo Suzuki (ossan66)</a>"
+        ],
+        "photo_reference": "Aa-ngMZvr8orJgUqX0QwNz09YnMuP-4WTr8ImuI3HdHCtiPI0GLTErgGUcquaZb0AsLbvbJLtdfl5rDYyNAdYvo6t-XAZR2csZ4kwvJFMOQCBPlXklV2uWPUf7YykVVOmX_SNmsmNNM1QWVAz73P3FCRxQw68ZDC_-De6kJl1ovECXrIDyyuVn_67dpppeT__9HbOVVTuJcLPf0TIhExSOdP-pdBvvJZ09bd1vZf1YZrRQ6dldnRBS0fOE-UCqBbYc-QVzM8ODWlUEM6P0ctiiC3KRJOIQcjXELFbrmh3_Kb-RvC6m-miCFOxMNHX0hyaS9TUIqUl5jVOiV9aJ-pUDTzdAJVqvsyo2RNI53wZbGrQlUvs2b3j7qYIbBnmHFfkUXB11UXA_id0lC69FZWGbzbYBUM-whDpo4",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047153983176983858\">Shingo Suzuki (ossan66)</a>"
+        ],
+        "photo_reference": "Aa-ngMa_MAaYLOZheddkDc8MaPG8Z6rGwooKTJF78nN8R3Sem4jApi3G-lBqD6CK6p8qcQSSTX-qJovc6LdqAYbq-FLtsww5WUmPlop2v2_6KK8rJLhpZajlxnc25EWsJTNzpKgIyHHQ1fVwiq3OzyPV-bCCkJUlO318o_3gf9bhqe8E8YD3KBZ1imAhronxExfTU4mFs3d1xSBKTLQJchwFNDp3z-ePydtQ6F3dIOm9gkEopTkh4UOl43W3az3UlLYkIvu8E2lZIMMmixHyix_Mr_7_PHeL8_eWkRk53NJkb_pRRsm8ld9KnGD1XCj2_NX7bz9zekQ7k2-e4N2Ok6bPiixv6Hd37ix_VK9ft8Ht3nx7Ew2y9qoU0HWqTI5J-IhcF_cYh6CQXGcnzBwiARCmcJqRFaOK",
+        "width": 3072
+      },
+      {
+        "height": 2994,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176909692608788180\">Hudson Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMYoACa8aSGGSgxZh1_942T5IchNe-UDrwgf7eOoMyQ-walEC_3qjDis9mB0qKTnvFVXiM9ohKH_JfaMIqSjn0rq05MFsILwRME1VOEh7G258Ic4y5Cn5zaKrCccxiel-UCSzlX8sqJD3PhmPMhVFV0HAMod_yBf2OjQlt-OOIOGksNoLubZDk_VG5gmMb0Fg524tjkUlAnG7niaFWRPx5olLTeFjTAi_noBkkDEs2M6A8PSb_AKYgSgz2aRwXaud9VQKI8ISFZ4NE497ZwDZfQN398JlAYWIMJS7dSm01pdbsqLWhrCg41w_dL9XrHoZhBT8bkQ6yMv5EXhC35ApbJvoqPtgqXICwoY4QqG7woZLLJ6vq9GQqoIZhvM-Qbv1n3v4kgDx06RBTIECMhQ9Khx3fwa",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176909692608788180\">Hudson Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMbICF3DidRP5e564abILDz_QiX00GqtP50vU8g33wPOSyAeivtfNoHYSrRtsvTPNkxEPTzjEV_fR27XHUd-rMNFho-ax8l9n1DYYjVLJ1H9Foa7iunZQkzTaoJfRn8EOq9g_vUalvyweqPfSoMToc85VzaUdyWJKKzzhEoHwGdrbaRIv9y0CV7HEm5wPbVOkUIi_SmvKhr9tpU4PfL4rm6hD6cdrXT-1t_vg5XN7RlnCl1EduUt60boHgS8Ks7ZbLonk88v54hYolGgoIfYl-UGJafYgUT2c4ZlNQ61r-HX8NCKBCokkzZb0irsicfgr3Fg76kKmTXyk10R9lXD_bQNsrV3SY3e-Jasgc4eBbF0LoJb92KpD0F0q-R7mZpULvVG3dzfpG5BWVWfu6IKd0U6pAEuPsOLWuDoMff7RcN2yA",
+        "width": 2400
+      }
+    ],
+    "place_id": "ChIJYQCMl_kHhYARrkbEzH6M9pA",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10445690861961627310",
+    "vicinity": "5398 Sonoma Hwy, Napa",
+    "website": "http://hudsonranch.com/"
+  }
+}
