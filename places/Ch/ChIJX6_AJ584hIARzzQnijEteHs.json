@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:47:36Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Paradise Ridge Winery",
+  "place_id": "ChIJX6_AJ584hIARzzQnijEteHs",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4555",
+        "short_name": "4555",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Thomas Lake Harris Drive",
+        "short_name": "Thomas Lake Harris Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Rosa",
+        "short_name": "Santa Rosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95403",
+        "short_name": "95403",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4555 Thomas Lake Harris Dr, Santa Rosa, CA 95403, USA",
+    "formatted_phone_number": "(707) 528-9463",
+    "geometry": {
+      "location": {
+        "lat": 38.4931708,
+        "lng": -122.7237613
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4946881302915,
+          "lng": -122.7224782697085
+        },
+        "southwest": {
+          "lat": 38.49199016970851,
+          "lng": -122.7251762302915
+        }
+      }
+    },
+    "name": "Paradise Ridge Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1721,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112083322303007424659\">Paradise Ridge Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2a8XBtTsNtwnPZxYM3Xqfdjx1AC073IBm4KPdFhi26sdiJ5IW57zSlLRoxfnVm1nXiyod6YqWxPK6jBdOXYIPRU5UYDUF3XzbF0awtrwq54jAYdqJEf2pLq6pL8Wlk85BMwA-Y2q_Xt93ypq3c6_Z3XOS7MmEB_xy6a7JVRVB4-Fjag1joXH_Qp2lLOIzNYMIMceuDU0RgvXAiIxKeuM3_HAOmlj4m_4UEL7ERCg1spMJfeS_fwu1Xw9eUAurlEab4hY50W2J5BOpq81NM38YdelJNTvsPn_4Lo5nF482o0cBocNVrkvPHEEbgZ8b0UDkh6VKtuEts3aybuCWhGemmtv7IXbLunmJP1FrOIbfYV_BLgVdRzM9XgPtUnVDyb8zXT_iISduLBIDuDmvL6Dv1HdvbZg",
+        "width": 3060
+      },
+      {
+        "height": 3197,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102447146590808997591\">Paradise Ridge Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZSYfLg99835ILD_lB9huv5HW4W55QMv4uPV2pQ-rsKgX_jc-1yhoWnKnRYQ0WyN40aQgNE3WQ6TqwaG2bMPMYRXFxR-ITBqWkFRN5WNgvuPGgasCW_6LzDcWoj9vrttK38sjH_PLF4FpRsgpF13NOIoKEWi_NUEcwqd4O8NAxI958gtnmUcn44zvzHv2Zgjz7_4yzzXG6xvaoTw1SlZ_aANmUDXUBlcCU1T9K-RIFCRTqJQBJ6PoqAqzpENE4W3RseSpZDVCC8-3E4BgzcDpGNr4jOxvw3RrDXlb6TCgExJUHxcHvlF8X_cFpiPZVuIVZznVg8w_YqGD0pnwCF8o4MgHic5MBPAwDbG20kLBfWxmLgts-6FTgXiJGWsbLYr9EcPcpjAKSrvGGXwkc5zgzX5ruMBMTT0bU4kfhMeIFB0Q",
+        "width": 4800
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105322688053477779081\">Marie Hastreiter Soltman</a>"
+        ],
+        "photo_reference": "Aa-ngMYP5C3w2OK4GGz21VjvmJ8R0TgiM_Elpah2YXEFy4ybTuGci6P8UtgfEyX4kUn0wKU1f9D-Dc-FiK_bR5yRwNf8VEgvRb4hyZYxTE8d6NfILOv3YHSGEUepZv7vzOGx2hEnBqGei-jiRhPZOSwKgROPw8AO8GVNSnqH6hSgQ2KrZMc5xPvAU0ktiNUJ--l2p7uHTIR4hqQlNDPFLr9Ri4xqYoGKnhpxQq_1s5tk_BNXWNRkIxyHCrfxBGI_Z83Fpbhx7ZUNXnt0SPRl11kUGMDzKTBi7q_U3mLeyNbsdFLf7ku0H-kc1IK7kq3SnbHP5zF_dIvV6pIHb-PY-4un2Wpr_KdPN5exbi-dNx1AErpMgdMZpRRbcTSzfl59oDVbsPVJlkllA95BWNqbpSTErdFa0vBw4Lc",
+        "width": 1200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112349124398299757565\">Yvette Leonard</a>"
+        ],
+        "photo_reference": "Aa-ngMYq9NXRPSQnyWrqjsbiUhM1OulGZVV9xe0x84-2lvMEgT0nbWPwKUAVyufP_dYprPsBUQOncV-0LbSXkyXljHqJ9gL4jZwXR92LwhCneUDdWHvCB8hEwV2oQL4gyIBan9C5O8ZvA5iO1pnJj0kO2RmbMuieQHl2XT2arMrJQVFbZMQVSLq3QBdD7v_CdTUgvpgxMslgWTKmzNcIIFY4Gq3SVjKI3apaiPhBVY3IlSoCpfFZSdyhkgNkUi_RUfB4qm0xo3E_yfLHE8v3FSHbsSoKavmQkGsz7zcgHAdy8rreoe_VWrdyqBgdOizxH5DKQea0_VEQh1z7t0-DcaAjJKrViCG-WKyvr-L7r30DsY_TSFCt4zjDw_8KS35VfhvV4Alr1yVL-t1P2svwYZTDCCzokEc",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100862501415960449422\">Laura Formentini</a>"
+        ],
+        "photo_reference": "Aa-ngMZgPHj3Z8I7HWEUyM6qYDpYacBsNR__5IxaKyNYf0L1KuHS5JbBK2tRmnV8OOu58SAV8vGtN9_gjIdqGZOcpDdpSFTej99l__UPadPC0oe1ncpST9eJJa6cUJJ1QRJJ4epBpmK_9wSyfFVH06iKgURAjgGEW3m-64sGYacKUCRK_E8j8Dvn0aIyrBaHt5cVC8yf2GvCzzGxF_T5h3pvpSbOtvANIsrZeesXSbaPG1eqCYFIyXDaz5ZbxWhv9KTZ0H6yBDXX03Bdp6z6yMh5vHFsIs5nzwmlkJAv14MGtGSp0D_ZJQGs_PBih-3TPdFJuS6si4V-Rz-l1fWp0wSrUyvMKfXZkI-1aif7shIrm6f70yAosTrINpiJzCkIhIANuRFlCcJgYKWqJp8lef2ehbaGfZg",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107797272029781254158\">Artem Russakovskii</a>"
+        ],
+        "photo_reference": "Aa-ngMaEJ0e5H0yD2akq5AEHIX-vHi8z5CSKz_tALg36QmLHC1tpT_LxRxBKgtspTIFSKALVz8k_MkZeQJW1Uw0vlF65nFy1HuRIdm9VlIRDaGzvFDyiDbWrA9OhPb1vWw6thskg7ZWaCC_WgHyKqeeyQo6s79W0cBJ5EC4sXZvhermHIxeWrx81wjaOxfraE7u9GAD_hVEcLKdSenoogwV-_pL7mwGDSNWcn7kRskmq3j6unQamb8g-bfPg6G56kLHB0bj2X-Em5_vL_8K-e6GA8ywppYnXh48aoQEDlyH3Hjgf4m6j-nQuo4rFYzxp_JzeC4zqissEYAyC9pATNAD2WsteDNbNEerkzZgRk0mQAk3x4_3mPna6PUn3rhiD7dDp29SeL0xlRlxewmHpriWVGXdG1A",
+        "width": 4032
+      },
+      {
+        "height": 920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113624781950611666838\">Virtual Tour Maps</a>"
+        ],
+        "photo_reference": "Aa-ngMZl3cFYScLZDPk0lHnv9qLwNC--uIAMho4eX7hGcQPHSiJVzu-UQmFbrvrkMyiAvHeVl_vv5Iw9HWNPSfrVuaDFsZyuD2kdiIuRyyz9edwb3L8ewJqRwWFr08EzVwmH6VdU3GCI1Lqoz8KelpZPUJJQ0BLX8TT0UmMkP73IV5xWn_6a0cRMPQSvMYKycswlk-LgPov-3Gl9iAcl6nxtxX0nDjFVTLznJ2PCtFDE1y7Aqyc52t_sgeVpTkLs3LT-MaKaTHuZMWyZhuw5IQfsU8h2f51rZvy4-5SLqOMElt_5MXZuu2VSGyn2hFf08c5wXUZIrLCxBwaifgfVEQyEcvHCHjo3rp43ExwFxKHuGIZ_Kc4rIzRi8nh5Dkcr12UUgujObq9jqLwJTnbQbXcjLWtsquuTMQA",
+        "width": 1635
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102447146590808997591\">Paradise Ridge Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYT5saAq3uaYfy7077WWLOM3O85BgkwLeR4BwdPc-hkBj0ALbw1gasirsDjHiF_bn-nxZP-GUM_-Hf_vDDox7RxPeFSSLfyUrN47jglTvC8bHEEB_sQp5THwdH_bVL7ycRqWyC_IYbkx7TxNi1GGotlSqam4i0dw1MF-gmYRAGCcHfkY-yM6ZVtF5VddFPmB6nhPZOpQRlxKiVRVoG4fi3X3JocSsCQgyh46UEtu3NpS4ruN_JL-UvEHlTy-ZWV737S_yACqHQgY2GTvASfMnRt5YkrZdEHdodsJ-IEYVN_1LcleD-WxAq8_c-xgKQylCHDQsCr1yDOlA1VNluPSwDwB0RQU-dQOWF7EOaTsasjw1J6k1ifoGgotRTRGFO96pUnZlauRssVNxLOAxkiPf5QVvqiszBh_mcvaftxa2zcBA",
+        "width": 4800
+      },
+      {
+        "height": 3730,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108756889261785179573\">Lisa Watson</a>"
+        ],
+        "photo_reference": "Aa-ngMYhRq4tZB4WtckRo-ETeoAUFkuFHI0oOHelatAYdeS_JRzYwKmDWGPfcY2DtZCN6AFERMOlmZnhFrlEhFq9I8Q5D_tOn64QvquLjTxxKX2jWEpc9_FfknkoWpdZdznsXNgORbw2n9bjgQoZX60BDN0XW1eseMLLZUQb90UD5C2NbTKQkxbOCkF7EfvS5bYbxkQyhq3pPm98ydw-W_FNRx6Iw8REvIdzI4CxbSJtq0oHbIEpu-vgc9BXGHAxIeJqWqOHkQiacH0A4To9u5QuCC62vQklRantPGYFPc1YHFnI-H6Z0T3pCyXEHsouoFgMHG9EM2vawOD58gv9J6ljyk-2RkmYKfJ5H10cypAfGJgcyUhQt9GGO_8_HeoX4nndTCz6_QTNZ2BxwJ10Jd2chqRFsBqOAFo",
+        "width": 3019
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105322688053477779081\">Marie Hastreiter Soltman</a>"
+        ],
+        "photo_reference": "Aa-ngMa2mPBN7i3ewjpM7FdmDFm-8oygDWBajTsdOxEfJlZ6f7z7x7yt0TxCEeMPuQ_3DEplsjBNoKko8_QCDobmsE779F4aAya4bzVulKrJy4Fv-UTs1_iOBygIrLYK9OVwUnagNkYtR5VJySxmsmzmJqkKb5k1cQIJoMmbs472L0LraHVa1WDlmVDbxciUcQU69LgVIbUaFKmiN0hGlCMcd7ajkCs1Xm3YrvZYVJVqd5CQBsvvD1J6dimjYnLIZ19DD6vVALvCl5ECmYQTIFUQ8JDyTC4d_inG2eaXMeVlHsK8vOkOaXJYvjDa0Imee9k7rkpEG6REgLXbnUYGWfCegfoGhsVE1i8zmoK31bijDOx4cTu7FlsgphidWuQuVvpki8cdr_YaV6FOksCdCHXQv_IpMy0",
+        "width": 1200
+      }
+    ],
+    "place_id": "ChIJX6_AJ584hIARzzQnijEteHs",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8896910754664887503",
+    "vicinity": "4555 Thomas Lake Harris Dr, Santa Rosa",
+    "website": "http://prwinery.com/"
+  }
+}
