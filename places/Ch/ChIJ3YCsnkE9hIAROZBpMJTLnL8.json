@@ -1,0 +1,254 @@
+{
+  "fetched_at": "2026-10-28T06:44:18Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Thomas George Estates",
+  "place_id": "ChIJ3YCsnkE9hIAROZBpMJTLnL8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8075",
+        "short_name": "8075",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8075 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-8031",
+    "geometry": {
+      "location": {
+        "lat": 38.52291580000001,
+        "lng": -122.8789631
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5241973802915,
+          "lng": -122.8775401197085
+        },
+        "southwest": {
+          "lat": 38.5214994197085,
+          "lng": -122.8802380802915
+        }
+      }
+    },
+    "name": "Thomas George Estates",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1652,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMaCviJymvr_EonFNt5qednvcZzCgFTD8dakMRJlMQIv_i6RMK5WobXfTtl8QS8xfhTtWRLtRtaAEwF3_-fuBi-lVbHpf2tvZPZcKZEmKX7CcRJ9wUxjT_wqB5ohDQjy86pCLFywgmI0NP0D0y6VmBNnd3JeEW1OK9cKNDO0vS22G1HPtyajJJpIrFJPMnnEVo_-kifoKt06kTqGVzDip52CuC4dizTezWFQjuiKhU4KGDrR8hQOFAD_Ag5-Hb4J1GyF8jv16E0IwSi_hCCrUwrT9LWpJNXQlhRRDzHYwA_AyilykT7J6s0NGULAqkA63ohMeLuZjhhS-GeidL0lwu9AMb4Ow7rFJfYo6edsROtNaJKw47WYpukazHd-2OE6NUSVZ6106zAGCXBJ8p1_i96Z2ZzbNYp5mq8AjDiK6X68yQ",
+        "width": 2982
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMbgCCdq5RLeeOptzNTKuVnnKRbUEUWbScbkCYDqW0uUMkEDz3gS8v2Eio726qkV6bEIKJNE9qmggJOdPpz0Jyxyq1SoAH1v6Pkc5zMN6xYEFAbtrUyJgFcY4yzGgXY0CDouTxMKelkEHvQl1vOGUE06BpKT41_mc1H95LquxjxwCRCc8KUkJIqzvteJaJGiXHrO5u1oRe4YFj0N_dpJL1-i61jgN2qrjZrp4ywpl6VvpQH0n3Zp7SAmcGKIb4ug0zKk6DnCCvZtGfxkBLMevrtXUrZkN4TycsyT_LwNDZWLQ0WGkChBMuSuWTXaM6PCpVGkg7ShJT7FhabOfPtk8axwd9fPk_zppH5lSju56TPDTUdn87znhALk5ikAXSomLLntVIgPuSRuHSapX0tmNpBL2A4",
+        "width": 4032
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMaLHIGI7g3DA9jrdpbflaZURgW52o9DR6THkSFA0E13TEc6cKYOzd-w7H8flTG7Ws9rA0nHWqr7yZgR6OZW3rSgpEHZltdHMKSnoiqlIaU17cVaJaYCf1wQ2QLiajfIYcmHOUd-zouOpHihuOOwvs5nAf87xPH08K8edlm7aq7tH9boHjnVUEpKLad-7MvJoY7l3siUadLD-Jvub87cmQw4izuka-F77CH0HmAiDbDYA1lm4LcZxAfZvbC47hKKynclAXSjGaSBEGkO7QzfBU92bbprgSIS82GK6ZthqrBXT-A-m0asAJqrhkLyycqIfd5Ve0RNg7sK5Icj_sWui4WyWvIeSYbYdk68LnmxfX3Lbh9ZSgew7E806o3qtF_pc8PJLWw8kx-lANbTTH43U49u9P6ydpywIJ4gFB1mmMtaVg",
+        "width": 1080
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMbT6JW2Nc5aEpU80d7k2FsW1uYxuLawdYnDYWmrscdUTjxff5GEGdZEuGxE6YCHQD4b-y0AdKlulb4pBVMg-Bwgqket-p8Tk7CEfYvA8SyFsWAzWd5iRtmyNaHYAQiNaUOzcY0WBv6Dkl2-BS7tGOl18osEeGKUt0l0eOL1hWRf7IMbAUlWGD-Fz21rGuy_FnqtjilSvVeIRX6DHAOEdEgOR93-eClp272KPnQRaIrhx1ozQ_WbEcAkPbF640TWYpZ2YSDcbrFIx9JAt2VkBOTKRkwcTRHBCZaHNku14FT-0U0cNaMpoXafkE3wDe5HfGwDxV2_GOCTh2p0kv9TA9oorlExYuvrSbWEJTj66NnDoCcJPyldvGcT1rVhYPlsStdyuM8H28a-RTdZK5pe9Ibs0xVkEEjJLq3B9x7Mdt2D5g",
+        "width": 1080
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMYFuWVxtB5w1V0GYdT31JhrhpRc38EUeKva7wv-xPKGTuLwFK9ujz0lSRcgXtayFVlW2Pxp5NvFPut8Hn0HK9IjSg423UXGCjgE3dm4X7ypFi1ZSszFZnuGKfkRiQRnP105BM6PjjV-g_cO_OgN03rJrftUeDJWOiodDU5EgmURENoD8y-gxFZzhGGLA8yH9YUs1ledWSg2QUZrACSB5q2ofQvWLZd0yaY7HbKSbP6M7ThT0P3M_ogrwFbNX28R5h3nLNL8tCNTPrf05Gq9K4DuKRRqGNjTlCUH5jJLKBA81koCKQ9P4LzjiRZGiZLXXTdhAseoxzrD50XeszAzyfPLoNy_NNCEY77ctvcamsXA9wmR5YQlBn_EUXnAXZCTrVTStsPyKUIfGP7Gs5o2gIXlaIR66S_kiocjKkxvbifUYQ",
+        "width": 1080
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMZOfB7wy1-y5QSFtVL1vEGLgnvD6CqmPj-6kkLMQzrF-Zh_GZFqdqpeyLwKpGOy21O67c3n6_KPmI3bkhG26D0DmSli4AYAVjYQScPHUQP0rUGjdWGi5cav_Uyb_wdkLo1JduTU_6Nk6w8YVaCqUMnx_guzxwWC1YrnrmMpxpE4UbIn4y8CgIcDOORK19AWlNZ3gjJr5MeXyjn4qL6gcZeYxpDdXFvfFqob9VxagkMWwUD8QJ6a9qmq2WsA4FwMq6T-YG2-UFVA4qr1c7zfUAvsdyVo7-7YCQQ9v0rjOgU143kvUYxGz1jPcvUYmiJtAMA5vOUsIqVuzHm7OLhmtMpyaItFx_Cmp7wKJEu9q-jRZMMQGU5weZRRXvnX9ZroZrkAFEUfOm5xBhEW1daDxoMwxOcZNGXyTG8y090aYGc-yg",
+        "width": 1080
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMZNcrB62Ky5UX7nqCiyhRrcH_41crG6kmqMutS77LlOLxYEhCi7F1JvAJjvLvIo618rMZzxTp5wy8zRTduJcUUAsDKL1ZdZxPc_GG-eDFqvzbQuVbgKqSyfK32l6DV2dNsrffycXe0nj5HI4RY9KCf-dLt_marXid2BantwXXOnSLd28hZJ3RosRegpcOce0--ht7zUI3x2taMLF1fp8cT4_PAnOKkBSjELPOYdksaG0A8hmvKO8gdU4a9RU4wUxdCz8GDwtQceTjiEAfNrOjEHiHb5jIRGLscNY-k8k22Oz6ytzCyDM2kMZhtmjQVY72WGnX9uBb7VKxkaAZDfAYl6HiPpuBlLD9mCF4UXABhJ8AyqE1dfs0-IlkA1CjEh4jI5zj56xG16BdLMHDhX6age3MH-71HoZQfMqOCFIbQDjQ",
+        "width": 1080
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMY45wNHZBE2kl_XUuoelr04uPvQu6L2PkedSG5D62geerSdHZMQOKAxb2yOIxYllcbIKJoDskPcPf4EXjULotw2dScwSadgc7TERcf8g_mGo7E0us4V4oJ4k0rjtVCicLLWm8jTvHdj2ewKcj4jNIIX2X_8hccIKw_zPDR-8rPParXdx18p23izK9g0llqtiqfGkfIsyhg03KHV0HKVuQEsnHLMViG6e6jiYiQuqhc-JiXucyClm3HS2zmloOsjSJhplBd1O0Lg--mnS1ahZrw0fWIYBnNN1lcMqyDTElcKl_PXC-t_UN83UWSBU2G-DetxpDlJFVdaMU536n2xzhP1fiC6zzMbg6N6GQU-LZCRSn4gTCO9dEOwP2EeVaZ26oLAZDYHyEIYanoa5Jj7AVF1s22MIPVzXT1Q7Y4w0PM9Lg",
+        "width": 1080
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMZBq8fS1vAjuG4j4W1zNZgx7e9jq5-PdJEOUKiF476_E29fqLu-uVwG3vOoA4PzQKLqbTpr8m6MKYAr7YgIzgjcQ2YV7W_jFNLOKkhmENT2P5mg-9fNZ12B9zVmE3e2r4G1HFW3WdD9TRilD92v9_eePLmOUg7p3G-hSN3wNh_8BYqXKniDL6xGyupmb7215FLo-K40Ed2Kx10iOnhy33wBftYQk-ucdcXNMt-cBF4x13tJRR2nWlY8P524Rr2qEVwEUTbCbaPfT09a22e4aBYhXau0eXYT5bMvZjzIumg4R0QQ8GeueJ2M-dlL0GQUBUDlQ2e2SD0_5ZUB4iPflfTwPNsOA0AIur6l8oUXMZfxdF_jSbB6ejBchzUPv378zGE08PUjZqrdOM8lot2tlRnoI_5lcEKx0L5wPX2sBfYSEQ",
+        "width": 1080
+      },
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100811166699315328871\">Thomas George Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMZLxbmyyYljcVVcihrjTF09l8zY0cdnAMFH3DH33_riVc89wUf8EGDjABr0AseexEiau5eSS9vcCNUHP44A8AJ20hzt0TwqPoVhKTqJO17guLbj96KcoQAesWYJJiBq9BJaqQ-_KMa2wdwVtLczUrvmXwSIlCADchFnezHGY26WdHs7W2pA_CD_npzHAKoOOV9pqS7QXLonMxx7ip2JnIV4dvD5RN08uWf8Rtpm6ZwgyZK_p1f9W5hBwd1MlV9avRsY4NVdoVQwyT1i53FAWuESJxIVveKMjq6HqTXUrVgEMi6X7vR_KM9zkKZQb9jJhg9XCNWLbq3DbHgFUqBhpnDYY4j166AHNKhP0h0BYO2DgxDHqxBfAWTazdsuEYzcQZF_5VbwV1y6pdd_UNLim42Md8c3OzWliqrQOwY4F7Mm",
+        "width": 720
+      }
+    ],
+    "place_id": "ChIJ3YCsnkE9hIAROZBpMJTLnL8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=13807134394938921017",
+    "vicinity": "8075 Westside Rd, Healdsburg",
+    "website": "http://thomasgeorgeestates.com/"
+  }
+}
