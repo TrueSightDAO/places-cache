@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:45:05Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mayo Family Winery",
+  "place_id": "ChIJC_F3_pRShIAR60pa71-Jgkk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "9446",
+        "short_name": "9446",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "13101",
+        "short_name": "13101",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Arnold Drive",
+        "short_name": "Arnold Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Glen Ellen",
+        "short_name": "Glen Ellen",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95442",
+        "short_name": "95442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13101 Arnold Dr #9446, Glen Ellen, CA 95442, USA",
+    "formatted_phone_number": "(707) 938-9401",
+    "geometry": {
+      "location": {
+        "lat": 38.3705412,
+        "lng": -122.5166891
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3718075802915,
+          "lng": -122.5154870697085
+        },
+        "southwest": {
+          "lat": 38.3691096197085,
+          "lng": -122.5181850302915
+        }
+      }
+    },
+    "name": "Mayo Family Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1830"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109257283192247757252\">Michael Mittelbuscher</a>"
+        ],
+        "photo_reference": "Aa-ngMYVmxyjtL3I-CaUFTN-C0KQOyoB_Zs-XrFlXboqlMbZxCtlTUefS70lyXYJXoDvWvcxKOPNTQo5JCAamPRIGBjPfzXjUmL6FFWctIw1wgJMNp7HoLDy_H3H7QyjYKjEjJjGRj-eqHvCeuXGsbBy94jElvwGriDDqIpcr-p-ILHhkP9WzW30ro9hTfG1TCOD6cUlHpSKx7t-L-mSIcpZ62nXZYG1QgHBEo6lP-8Aw3p9KXCiwvMI1kn_QG_3V2YVp_aGMG8hHP7ht4gsVyOO7EXoSuIWVbxfk4JflbGZe7yfPAORWZll-ibKp0ieW12n41i1214urzSPLgW18HyBF2-sOdg-TQ_jdvF4-fBgH-YOOeSpyLkI_Faw1v9rLbkwzYWE2gTbWBBgGgZrgck1twPayDujsR5hqbbkIYQqu8qZ",
+        "width": 4080
+      },
+      {
+        "height": 2377,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117977554631681649670\">Trudy</a>"
+        ],
+        "photo_reference": "Aa-ngMZFjseSkcC6mRlgPo4Clt18bCHuuMTczBax41lE_0ZP2n9uab-iFxhLNknAXUqtP-o0XbWFBX3qGcJBr40nnuKTN3Js9R031vEfZR1Ee_8Bv_fcIBFec4QZA8jpbf-6uSuC1XadbZOIf6CEfwKcITZvel8huiqej4Z4FBiW6QJ0bIs-XynfFbw1_iszeoSfVsgjo8LlukIaaq0SjeDUkTIIenSMreC0bGvQCR11nsB8uRlsuZNCRxf2VcAn_tohyqIOrBVKCuHpNy6dd6EMBOfKEeTZaU2KaP1jUCjilTIGrjwxxF1-9Qdd2W0k4y3x7kR61MA9OVNBZG1vQgY_vYF99xzZ-FCVjF8lXlK4nHIS72aqKzGH3-i4PQWc7R6ats5Qp9WvkjE6EXDNC-fo1zjV8ak",
+        "width": 3151
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110918536028237157365\">Ben Clark</a>"
+        ],
+        "photo_reference": "Aa-ngMa_1nAus23IYkbMM-quVvdRnT2poa50UpYL7eTI-9qoIoZlQPeRdApEVPbRuF1d6zZ7hvN_oBhmIpC7RtVZ5f8YuXIIgKgRvSQzEQeooHVOGpe0SpbxpW_UcGNwvDCOyR0IQG_JuFJ0VSPwHkDFUmIQvtcU9FPuvpmg192g7ZwrbpOIVM5dm3OMIWuGGA7sPWT7mKiAY03sGYbMox-DRw6Clio9qMqoo7jEk3ZNqYSR5GEvx1Cpc3Yl_vIaYh3ml4f8rkdUcZpaWqU9CzEAfqJt4cj3aqf39WUHGbj90Myf_S_Ar6vdwZlCB4dDzZNjCfunFgL11zBAn5NIIIzW2cI3McN2LfTBpUVbJtNnECOowZHZ9RCYYCGpeivyEso_6DX5uL0iC6scBuPqqf2rZKwD8U0",
+        "width": 3024
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113820834510779074897\">Adrian Hinojos</a>"
+        ],
+        "photo_reference": "Aa-ngMbQb3Un5qDIDO3jS0Z0gv_g0O87E3OVFCNhiPgWyKlG4qIJ2BsZKts5pxEwR_xS_ZOh5iiFhCgGX9H80FL0Tr9gBXh3kyoLeqcHe18L6RnXVHQq1mgleX3Qi1mL6Ng2xKrNfxAcbdngf0FT3B0MVtGzWGVykAaEKSnwHtb7DAnaiK-Y7uYgoQRVXOTx8D_lXoZ5_PA5Paf7ZHalqfhpHYOui842OROoXGbSQcGCVibHM8JUu_hube8E_YM-Ek-pXo4I2dWVwGVJZzGp9V2FBQ0ysBFOWNSM5Y8X1IbkwK9VLWxIfkTek6xb9fDGdYdCgR2cesr30rKbhWIsJCT7LI5guWtz4OvoipzcFW9nQpZVTta2jM0Hk7mZ5xv_VSRi5U9qiJZbrvAyzWuM5HmDHvtY8sboPWhtpSp9jEhP82yOgw",
+        "width": 1864
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103386509770071116938\">Randy Caputo</a>"
+        ],
+        "photo_reference": "Aa-ngMYdUJF3_jnURMNez8LGIlK65ukZxXZo_t-AlETuVGmVMffBSaoUDKBEghnUr0FNvkBA0GLTrxmPhwkP9DplHjlXVRvjR23U2Tra4jjGqLnTZQ1VXWIul-rcd5vTwYT9Yx4bsZSUPY9fuZAVslyqP4uPy9mXsqT7M_jjwXS_uHBrAiHtduJRFpu-qyb5O9QlaEiUSB0o8A8jIp_FuRnU0eIpmCaScF0N2RnZXBqHc_ujGLSYAXuXF2FOE0JAbAcB39vLsu3_MbkFICP7HE9Olq83SwO0Ul9p0h1RUqnODCp0bBoqePMVv0CTpS-dRCsPtcQXuFu0Xe2rANYztM5CR3NHa2kLB56p6c5AY7NzwkPraQJIx9hqIkPIUjZF7GlkScWsKyj_1nq3LUaJ0n0LWXpraQ",
+        "width": 2992
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109786409444069920689\">Andi Cin</a>"
+        ],
+        "photo_reference": "Aa-ngMYZNASajfRtPVxsyu7uzt5zDFVOW8p6LoXZnP2KtCj2OJERZC9VZobllYuht6uUN0_oRY37PMwnrcfAdD_YpL78OlzqDKn7pl_IA6CYec3qEO1WpfuC1TWIqUmkZmDtgmKWUNYnu-EhtCS9E_rd3pF6jCrMdEmiC_DR7l5XWStIruWdLDyMQjyram90EUD_y0FmFijT7OUOadqQp_2x-YizH0r5RBP9rcHOMaoFWv2dVLdZ7xV2rWMiaRYrAiHdk46VFeyV_2Dnvl93ihPWcDGihrGdYKIfja7GWfMPTA3bofwT9d1Agni-SFy7_qkrlbsLhewG1UEsaeHupmC7jz52drq0ZddgS5NDMlDTw_vw0ElsYsXsqnsI8ZeA7giBQqpp6AjS9jGSb8QZmuWiQGtnMsg",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118254798661099081861\">Ricardo Guillen</a>"
+        ],
+        "photo_reference": "Aa-ngMa8Ysh3N6xfjVzLLoBOb7XJVcEaaC7owmpR0BxweOOlmnyddGm8HQj9kaJ58dAz1LQFgD8SLwgm0s6ADjb_yHfP-1CS1xez6ikYmgIkJ_Y6V82gcyOOvjuAHaCguRHWUMOTaqWjyodJmUzwWjZ7dXrxAPur78xRrXZvtNF-jh8KRtJOrUy7Jpf45hN6n9NZ6czGI7qBN7ZrEgFhGRthHroPZ_DCJIQGcYoo9F7G_vxUYd3_gN4iJSfbIuze0fkepuTc1gwnrdcN9A6eYekVzcAS60D2vnF3mT2-l_TIuaSJoP1niTxCG-X5tGZtM0N-tig_K5mvsMLJgt1GBd-bXWO4_RxDdMKrCx0JJMpyGt5se6-9eKyyWNOrwLUltp-EeXOpo89bqMq-C8Pgj6AUQjYVNNC3ReU",
+        "width": 4800
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105512964287719567906\">yhanss herrera</a>"
+        ],
+        "photo_reference": "Aa-ngMZKQk-YHfeR67BUuHbJQhf-LoaEC-5efan-CrZBUd7EQUpIegOFwFcKJRc9FTbDZ7pgRGZzjGCUhg4RX2UtsELbyO7_B-sm-arWSuE4ZuRQqUFh3i8ZSgMH8-RdDgnjYSLuvR1JFVtMfsTfTC-kWGYYoyq1RsSrsOz3zq3bJu4gMFqvIV4sy0L9CIYxI7R9H1rfIV4HWIhfL7MGNLvrz0WgyeRXc81GLOM1qm9pC-4k57UZdRTkIB3HNhi252e1LMsl_nt1ESVCwlVbqad7kHj93YIe_kWyt86YAWErI6k1NX_J9oehnOIoSVIWp73fqEnssaOq4v5pB3WKyUNL0CSkeutBICH7arCQ7CdBgIiWiGIt0UXV6lj9tQrNudiDylIdNqDUVWvrob_mC_tNUGEmznQ",
+        "width": 3000
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106538870504341422966\">Larry MacDonald</a>"
+        ],
+        "photo_reference": "Aa-ngMZvPYjXiIiOTPTSZPAEfWPL42jrLvFTZNzGUUoN1bAYWv0Pdseah-cjPDsJBWK_D7wGEVmyp1zYIKSp_BThSVgsHKaPNbRYkAN7F_BflVWR4rv7NAvNS2kAzgAET9TJvpbnIf7aXK3Puz8DKztoHvQykVWKKA7Ca6mqbJzLnXxvKgSdVSZF-L9zbmz6NMZ5EUzS7-LFg0d6dZtbYGCkzE-B7X7rxB1iSspXnb0Xe_tPkVxBS5SCDE8Pv9ZJE55slFWBLLmZTvVYUJNdbFop7gGxM9d8F7N55ZYy4x08pJdZ2XRAwZ3tVp8Kb74dRq8AQgmJNp8eZl7AXI2mJixUK8-9QyAeQew-L0cOa58sGGLMDJywspALPcxuNzN9kArMBU91u5HIJMmshikf3_XJKO_Gug",
+        "width": 433
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100807947847436736139\">Scuba S</a>"
+        ],
+        "photo_reference": "Aa-ngMZM9U-9wAtwJIKvq2ZmAqKybPDsJGKUVZ072pGVHo1xBJ6KDECbySmuyw5V3BfmkECOZpzF_n2plSmneaC0QwqQnLht1RU9JFRng8UU_MKxlLOPVzzxhKitze7oHJwYUEiauzieNontQRsE05Z5O312nlNIG5KY62pZAsfkz3OjjdZukomHLotkHh_Uo8AlPI1dW6_9_NAo7v3oHdZYhd7lPyc3CKaQFWRZuUDQzQU2CkI8bez6Xaj6u5-431sQ6-NW16zCl1Wyyiri3raBX-rjdtZuIBpcsxuGnQCzafLXUbySKPCmhWxyKs-CGjqTqgzTynMzM356ccPSf9ovdSArMd7J9YK3qrXUJAE4W8WFOXjvKi-85KeZjpnOb3Esp-UGlwff4LenHf0JEE7LsiZ6ugw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJC_F3_pRShIAR60pa71-Jgkk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5296947156871695083",
+    "vicinity": "13101 Arnold Dr #9446, Glen Ellen",
+    "website": "http://www.mayofamilywinery.com/"
+  }
+}
