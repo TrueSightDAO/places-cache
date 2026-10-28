@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:49Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Alpha Omega Winery",
+  "place_id": "ChIJHTBus8BWhIAR_MZwvsIAexI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1155",
+        "short_name": "1155",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mee Lane",
+        "short_name": "Mee Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1155 Mee Ln, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-9999",
+    "geometry": {
+      "location": {
+        "lat": 38.4705541,
+        "lng": -122.4289289
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.47189738029149,
+          "lng": -122.4275686197085
+        },
+        "southwest": {
+          "lat": 38.4691994197085,
+          "lng": -122.4302665802915
+        }
+      }
+    },
+    "name": "Alpha Omega Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 976,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111907649209407804335\">Alpha Omega Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY-NvaYKkcCrlj8qQ7NFSTWLb_IzadjKZ02NzIJsgOmNwf3d1b3ov5v-oKOmP_Vf_HXkpeNviF3dEMdnKZtLkCGnkbN5YHRz1si-QymRgFJ3xUBoTQ74spz0uZtSUQTJJtrxZDeverSHhArpOZJoMZhhDbYexcd1hqphsZyEqLFWNAlT92Ovxqo5BxP7SNnybJ-O6690u2uNNu_PfCJEkMvj9rlg9pZse5C839s_YIJtULXmVe-D_21LUbaw_RNpw6VZsamLnb8ARCSqYTNeIQqETsSfAYhlHP-MbKlPoZxQzne-rx15ozB_EHte9r330r5HUA8AoXgq3tFV8GJ04oeokYpEEigL4Q0ib3FtyeslIL2t44XLlQSZHFeRWr07fVOayvH4VkCLVPJNQTx0ITJ574",
+        "width": 1872
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107256581829518055677\">Anita DiUbaldo</a>"
+        ],
+        "photo_reference": "Aa-ngMaQf3e61Ih5NAt6m9nMNL0zoeYM7y99VQ1McSYvy2xOEsR0CNxY3eqCiasKQ9SJFhEt4g3k5qDOUHP_QmA5QOaqlDjZIFKASPuHtfnVUZck9Qt1LoGKQlHsGwvV3O62tFm4WaBjD2C-zlYI9XpQ04mTdan1Mh5gWabMgG6iUHYFa8mdAzG036372nwmLEGgc7yE0MKbARl3s_5ouO08qdSGLXRt2iySPDlbYEucafERkbXa0vTgkPHnDtvcA2Mf5w64FVSTbZ33YDoEwkkgclPwa7n-Lh6OtJFNZAK1khXcaPF4pxZYhRLbdm-WdhvTeUY9AVDGeVRYgOSNeMThRWBXW-izgMmzV25motALUjJnhFmGdliA3HhX0OYZ3KD3GRRpC616a5DnQZbAvYj_5eTJwco",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115002306320366144126\">Alan W.</a>"
+        ],
+        "photo_reference": "Aa-ngMZObkqo8pCL-Gh0AFNXrlaEzpMCfpE6FSYSpO9wzal1bAKaicyiOC4uHOaDaj6VMt9_D5TVllQongqpI5jK09v4xnPpOYM07y8zIlWmi-SgqTO17LLAnlrvZn9y0Okk_8mr_Ff3lHI77I-Vbu8pBwlyFUdJRGUyqdr2QZcKY_Hz6QpOhxtJrLhOxrCDF15pgXwGEi0hCsdEC4Eh-DltDLJFpcwEoy7YLo-LmRpD08I-yYZ_w0CjH0zLWtbk1gSVZ_Zz7x2uSLQkVA-TO9GO8stlG24YHNdntcYGbsuw5AuunXFnh_49vaiksaEBGch_LwqNn1qBmCRcwmClwmws9fP3WwdRXFKzWJCERymbBYrIZCWvQoyF1_NzlZwXHr2jPVrQ9X0gR9pSw3ga-tnYaEDStpUk",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115335227840063428129\">iBen Consulting</a>"
+        ],
+        "photo_reference": "Aa-ngMY2Ax5SY_g5Kb4_n-ZhDjp_MKn_80vUM8glMTNjA0YjajOwd0BrhPBmYE1XMbPM9nlSC74HfrNJze_tf7qZyKR9pGQqrhkXkfPN3IvtNVZuCB9b9_eNStZVsO5XY1zT1WeGwsq_yk1lGe8Z4GHJDTrLG1ZhAuvKPBfXgxvY96VLhbyTFbfTq9RwZaTOBBRfkShBNffuv8WbqhUZ03z1RumN5yhnfP6eELmFrT-Xb1Gu-n6o5b8XUX-mQV74qU2IUcbyA-yEzrJ1G60XQNLA2ReUlj0g-Eki_9sXjm8eQn-ZfzuFurE4wA5Zd-7f4DjsluMy1Db4b3MqJMTxVOBfn515yuKD-U2KvJr-0wUvnPY8FjH8ry2lFTId4gf_Mbu3sIJSZIgJOQYx47xQ22jaXFXCCg",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118217026745173769817\">Jared Nieva</a>"
+        ],
+        "photo_reference": "Aa-ngMYlg1jAZhiW0fuFmxKn8h3W9b09THKVTNSskn1E-24nbRxc5i4s8_cYumCu5ecM1VFOeDMAWGDRiWePTPgR1X-h5DTPFu3gxc1Rr2B6f0HtULekezIzJgCb5g4JSUuUL00TAwc1PVqzXQ7MVFrNcDDG3Lx4buMVwsXco6m2Vq8_u1FMuO9ZV79UnzGNiLoNBzULcNlfrhX-9iKhO8lKeyIhRxl-65hEw1rbcbPQ8bPtSN0SIUSQ5b2pfDFYmktj2ptQFNzqTmLLc_wBkUAITGnaDKelGpXKsJTgaOt6HDy2wHGViT0LZkr8WkUmRihrni0GslCTqu1ZXYsfzzol8b4e5Y_hHz5nK-i_rszJgg5LoEEtVfAGnMRi9bkURx4SY9kI-u151wVD2Ejf7LzZj8S8I4xOJH-Mc9b3Id4sQddm0A",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105406850960241139005\">Sid Gaonkar</a>"
+        ],
+        "photo_reference": "Aa-ngMaWygAVhq2YeaEirKMxldrmspQwNDhfuIXmBnAh3KNivDBc8zqnrWMtCdJyhyPMD6-iQnCj0xXtud3SLUZitwhVHREJ4h16Z3syRgQsIe8Q9DQ1EPgHnmHvADkdRG7nJ5FGua57xDyKcTdwznDjCBESP09BXGtklBn_c_z-IXkiqUN2E8cheZw8foA4qJJSuqlraZNK1Hf714JTZkST1EE1THt530MjZznHXKb98TDoeQdkVSWqdTSxfq7DNS5fgWI9uJpV8qxp7A3R4kaUGYf8UXXt65DkIUoMiuqDnQM-ayu8dKnVEE0ABlN7apCDNrXgJt2iC3ZQxSi7YCmOOdjIF_IHuq1BMWhFw1vTi-PIV0urCj-Z5rt_XoDuqMU53RZUUqTeDXmKJeH19iUwfd11xNk",
+        "width": 3024
+      },
+      {
+        "height": 424,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111907649209407804335\">Alpha Omega Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZOfetEc83fzE97Tc1VSCaqaraKvT53JO5wq_lvnBmPfs6yWFpUWTcAnpkOlSS7eJWut4jpWGup85NdZClWR4yBD-e7PY3Y3iuHrl1JYvQBNiDqHhQM0ReI6TZjtKLuC7toDkr0y2D5QVBJycgDHtEmqmbVfB0lVLulKh5S1rNg1hZVC6CLE1hzu1p2ZJeDsZyzd72y80zR5KHMnVkXvUtjue0NmQfxXqNaB1oo18xP1URGRSzqDAU2C3j3s6OR9hw3NvEE99w6oioYq9pZCV2xH1cCiUpG_6HmJKkWeeBuGQAvxspvg9LTPVtEaH_cfw7TImR5XRM5tX9fARTuQuYAuqfKgB6UJW22ca1oY-2LdEDTHVhNXpxkAmGMApsNs4pAYQPwWFbbp5HcfDaucxpnZSBZTlOBUqmZaQiFWIGlxg",
+        "width": 600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109750735322269638694\">Jason Labhart</a>"
+        ],
+        "photo_reference": "Aa-ngMZMFVe8SXcubYHUceOKuosqVQSJVigb2bwXj_kwsvYgdpyqTeAG1BszXA9WqP48353xJ4Fmb3LTr1Ph5lL-Nh11ujrPcQAr-owDJI1OsLRhVRuUFSPvLb_WFQ2vU2A0Hc5PdPm1PCYqLTFQ01a_kAuLU5iFqJ3MN6Yeto7h5DQGdnrMZB-VdrnTszuaH_R6dSN_fwsitGGYnhBGVgk2pmLmp6YtOLTRQ3d12me3_je19BZZaxJF2nMywmhpTXQEDne0qcMzZ2JqKiInBWT6DXV9LdOKbMpR704sBveDTwOB6eLlhCFPPxkGeoYZQFhPGz4rkm3QnFDW1lvaOW_mp8IoLclyhDRck7PUQG9QaVUG3X-ObEAgocxZ9pBGAhGAPmdOCKVERowlxaq7JIOU-wcbJ0M61Yk6NhY_iNkbNBRZpw",
+        "width": 4800
+      },
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111907649209407804335\">Alpha Omega Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYgHGx9DmmN8pJJ2w7l0Q5hWTZB1YeKwI-wVzYGzBKNZCSIYHHTC4k8EQdvSaRUkOuAVuUqouRTO0ewTOesiVf5-lLZDayI4DdixU-Fuqh7u6FkVHg9OkVmPqhBbmWYBg38ng2f9aOzszy17ncLtHMKZ_lyYqMmxxy97BgVaLaeUMjU0RxW5blUcD06kTXyeRSHnbWOfaBbdtC0ZSOYqVi12Sd2fFncMacccup0MMr_ewfOYRGt8bLxROJHWsNbUyvHtRDlWAXOJ59zSXVI7VLq192YKQHFxQRbp8w1mrDdA9sqob8idcGNrOXeJQp5VBIzKa1m_pTxsLv7aPlG35eMVMoZ0c-W8E4VhQnni1sPSPRpPkWc299iKQdhKxn-kAmqVW996kwRScMdZ5I7vw",
+        "width": 400
+      },
+      {
+        "height": 2828,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101724225682652111698\">Mike</a>"
+        ],
+        "photo_reference": "Aa-ngMagtbwx8m8XEqiunkZE-0NSl5yiEZLPC18LSGkRSI_bPORTsK4jpq7w0hTzpvqCgaksSfymH6o3b1Q8BEwowRQ_9utk6cLhxqG_RdWA8qnVLy4dxFmapEWWzeZ9rMAeMnyJMZv0taHm7APBSgOm9Lh2hP-XNTdw2RU33mQgXuZwavAOF1Byv_XWs0juv-4VMS-wIywsyk_2pj3OBtf1EvnLjIGtngVNVXtMui1DW3PPsxqqHOEANbT6H7Lyr_nf_hrhYXym-oZ1a-AS4dxeCnOFV8FrhN5Wqfobh83Spyqi9TS2UiEuNEvg8uUUMzg2vs-XlQ0DRaaUpP_ogAWzg_P_tbKhf4uDEyE6O5JBlx0LvudfDkZ9GX2xNthSVaUcVOumHVIS7otodneULlAXdKkNQrXVPGA",
+        "width": 3771
+      }
+    ],
+    "place_id": "ChIJHTBus8BWhIAR_MZwvsIAexI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1331658951236830972",
+    "vicinity": "1155 Mee Ln, St Helena",
+    "website": "http://www.aowinery.com/"
+  }
+}
