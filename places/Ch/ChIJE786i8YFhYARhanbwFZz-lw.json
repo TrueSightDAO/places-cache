@@ -1,0 +1,190 @@
+{
+  "fetched_at": "2026-10-28T06:45:20Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Covert Estate",
+  "place_id": "ChIJE786i8YFhYARhanbwFZz-lw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "15",
+        "short_name": "15",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Chateau Lane",
+        "short_name": "Chateau Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Chateau Ln, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 337-5943",
+    "geometry": {
+      "location": {
+        "lat": 38.3074334,
+        "lng": -122.2474529
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3089391802915,
+          "lng": -122.2461676197085
+        },
+        "southwest": {
+          "lat": 38.3062412197085,
+          "lng": -122.2488655802915
+        }
+      }
+    },
+    "name": "Covert Estate",
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107559319274108180828\">Covert Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMYxhflPEt6a_EjW6rFh4cQMtsyf-uyu-QMgfIfLOgVPU0wwIDLrZaJGqZ5MYoctyFI7EoYYgrxOqrUFAHPLFlJAYLxrhVFUtSugpislSjTlFJiQ7eMhZKoIqK9Fgz0nB7BZFAOGD4GXqC50phLSa_XpeEo9xb2bY7xO73YkrS_j6gQlynWzGZqXjL2GilEd15i1maubIu2Ds66KnhKWLXnZBomSdxoIoo0QFUmVSbtV7DxjE37ARWDAqfkZiAl7sVNsF-rCmdfWTYUGjLNWwJJm3VA2txyqw4tg1RvYDukNKZGJBlkpKsUPcXCJdtPnEVxTbnTKAmZOZkWPNLAoBZJG-9ZiyOeEqMRZCrBInZ17L_vrD8-QNfcA4HO3PDNU-Z3Zt6dnsQYliebZRbwPrfa4_MJ3jaY",
+        "width": 1912
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100975821396626817762\">Liz W</a>"
+        ],
+        "photo_reference": "Aa-ngMaaRFtqi4IYlZUAHoKWR_4SfvcnQR43okg57-wj5Y9kQNsfUyCTa-e5XY4OLW6L-PYF4rHCyUhaqaP-k0qgn3td6WzYvvCeYn-qUf3n1nCSBFABLW3C11OiBXEEI2_1zNUXjGD-i950-MgtvPUU8PkCPWcaQPFBbYCNMQ7IVdGdF6gI3NHphJYzsvB_s7kqDrufwdClH1n70fiPxwsk_yyjllRAuPcuF6liLHRimQo4LKrBIVjc7pNLwiJZtbJ3voqFNbBxIqGm6UH4zy-BgY4sImwGm7_3JsgUCZkumMncT6RTIW5Ltv3kbScwtsVDljjcsA7QMB7u94S3wEH68_m0wk-IuI56ljycwHUFcPVgOYvxwBZ7kd6h7xfVzxUfgqjEDZUDB6B1AUJkXlFMbNL2sg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115592276373270163875\">Patricia V Waldron</a>"
+        ],
+        "photo_reference": "Aa-ngMZYn1eCsBsvwRjAIpj80QuWDffBAZ2oIcGcPlxvA5JqY-ukuPcPKtC4e9wWzqH4qNm8d4MedzOjFCQYRIeXw6Hv_7RUk-fqKY5TO3y4r6iiUG7zmcULI1Bg1WL7O07Rw6WNi8JJcf6EG2qb0APxndGhL-hNYJKqDYfDUCxf19ZLL9lXFMEq-6rFE3s8ZbFhYuMhKVQvLvL10G0oVx7YNelfzaikyfu20ns7S1xCikduUQSttC0tp5F6ZJTic60rlaUkSrtiwA01ms5CcfpWPczZS_hQFpuAff5z2Jrs1GTl4uH987pMwxm-vZvnt-FCV3Wsr8G63_LddSE-Tb5R1LYXmndmnQIyhzxhF0MBRDuW4qZGqvBZ1egULofCcfppl9yzO9vde7bO_Oyd5RBfVWkG5fEf1A0",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107356835422322585674\">Don Gabbanelli</a>"
+        ],
+        "photo_reference": "Aa-ngMZDWEUMuTtHAiVLW8zmBuFTld5AimCIOCTG4QnTeJgbxY7Eyu_QkkqskQCRnpRCfI0G6NmGeGdjLM4tfV69A7pYnh0zi9nySCJdEFcYMa7XOwW6YdDnD8-_VTS4UrObSy1ZIYnFsROV7zBueBkJq06ylVSOephI13Q0Ovm0guUjgUl_0iC25Hf8LZxkXT8c-jAxE_qdjcfU09lfF7qJOgewupQLdDCsSMGkmpEfX9nYV5z_W42iziMWsWJRk1HUVLk7tLTR4UlqVEybFptwxhOmMEttqSqqXSUcKy66MwHQXB06BtVNKiHKcUxKBUVBGCL7baq0yFgKoUL6WZLAUifrgc2iDWFdkzLcGYaQ5a8bNXlLXrMQOIixePqpPrJ6caEnEtrgXYXtNf7RzqU7PCngw5BzjDI",
+        "width": 1920
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117867600817154682125\">Theresa Macias</a>"
+        ],
+        "photo_reference": "Aa-ngMaoeq0SHQ0BwAM3W6vM2cfUsl7rSgbMJoq7OI25XStdPhcgz-_7LJZ9DsKIi5EH_19xNv0FeF8uXsnNPzrRs-slgPJ3oJXxMyjy3DWilfJN03PfUi7ADEkvTyYcT-e34EAJi2X4JGnM_Y8Tibv3m1aZogf0v2hhGLlMZ5RGYqzClPDi6BMB-2tYxVQRG0C5ze2ZNyBd1Q5_XpJdDnQbCwiWdmLyGX65cYnq5OZnZwNbTu70Nfub8RFr7pgQBB-fZO7R1G3NK37Y4cMNO5JqDRKISmXB0jJGC3-n6M-d_kNDnB37hIs5C2v3XHZKZ03T_GIgSY3SPDujjyw60EKc8qeqCahnoOQDWiUIqO9db3Zm8nAIERa-hpYncN0Q9yFCrg3sATw6kBwx38BKLDYScRxuXg",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117867600817154682125\">Theresa Macias</a>"
+        ],
+        "photo_reference": "Aa-ngMbocQGzuUbnmtMgSGwRCQScZwtY3WV__K2hSJnTLvy7i_k76E2irzFwsLA6CoT5rv4sHTZp-W3WS0OHZi63rBXNYkHITDq6wplnPZGwudqYZbUn8XyZYIrLEZ-lp5TTTHh-WbmhcgtPLBoHaIeTQrXf7gHE2OzmnLJSM5DvtkpinTHhJSoSO0DLYK5Qi681nJKemQbW-aTmqkgjkgSBQpLUByROtgAlBvJIsR7OSdpcq9VjE0gv1UVAwR_O8XaE41SJZ31a9lExzBWS9hwlH0v44cZ8J0XWfAW3We0vPv5kHiVknaNZYwEMobvcRInetKPX9Xgzs6fz2BVI0pqNTjWxafCVbcWMbVtdGAsxgoXZ5qM-QfHOGKeaYQnLLT9oRJtf4cHJQJTEHq5HEM24gr_ifg",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103031173129384231370\">Chris X. Moloney</a>"
+        ],
+        "photo_reference": "Aa-ngMYgmtBLm7ta9yh5PbJ8GOMUZIHqS5MsF8SUDwaoU4pQtpw6_5gKukLZI_gVJOPbGkvQps-wnSGsM-gEsjmLpXsNP0a-HC9nqsR-HMHNYUpbXZCYmqGOc-LOZUDZxpXjHXYd-NPQign67KFG8xQqsPIyJMwSxo1pcZx1Q04tRUjFZEoQe2Lbe-Yo-IUKThadWPSjL5Omsf-GxZKjeMJmbKGGD1X74McDKdzdD-cL5QEk8pRP45AzeyfFOt5eFM2NlwyqF8R0mda56YiJEf63_aiD4f4BWchD1as9fxSlw9CVunufI9fhmz3zZG-58YFvxpiPpm_v-O3QK7O9dkrDyREO3-X33cDHeTHU15jCfSPZDKvJSHBjGIODf8uiAgTpPW4njpGNTj1rIw3suKFhJUrApKM5Rbc",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103031173129384231370\">Chris X. Moloney</a>"
+        ],
+        "photo_reference": "Aa-ngMbpZ4z4kU7vJo86TkaX21JaB1AkD9R7vfbC2ohA35-nMkxG4LRL7ZP_U4uuh1PVp4ockJH3oas8Zh6Q3KQuOsvUS7iKCHFkZWW1i6aXgJitKLGUFT0gKvM-SV8bGOJu76OKhXvYi8KVw17g0wHqxAQu-V5Qn73fGiZP9s0LQCkc0rJYnMdWYt_ZfnJo0MSH0DdhupviP3gLqPy4RLjJYyRxHbqqv8ZoY3WgkGHlj_i106to0MOVKT64U0pCnIu4SbAs7XB9L95JTrx8iWL_HFwyXUmJgNO8GNjaokayaFnKLwKQxM_CZAXNebKv3MNlPUqL8Vm4RisscC_fJ-CghX-GGjIYgp_XM7zoqLkPU1Ijksza8JVqK5WUCC6RYpObmGN4BR8zmAC3byLsooUOjQkPKOA",
+        "width": 4800
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117867600817154682125\">Theresa Macias</a>"
+        ],
+        "photo_reference": "Aa-ngMZamUJZZF58mfmrjAYRCBKjCy2GFkvP5Dp7q0izcctiTsT1a5j_KSEJwrkPgPo1XnSMN9_KNNqCSCdbbhgRGNPQrE1Y53aaI1KGhpelmEsRR7TvoiFaXSM2p2SJDHepXJQpTih0guq86LYp9cNPX-omyF8jqwS1MiZfa7SN2q3basDsXIhTc2iWK0mDPS0uHNKjxCoMQROPQK6_3f2wQmOFF68Qz4GFHuVPeMukbM5oFyP3Rgn_QpLh4D_qzCytF9X4Zp6t2C5bMorO5_ihvDmns01Hrl38fHXqD8g22uC_m1RIg3-3jJ7Eoc0xj2iTuj4AHgU_IKmZS53xphShYg6uNGqF-mrFToZBxJPU8zTr5IaAIg5Sl_grvlH1Z9mZhsVoqKWpYiWNzYs3YS0WUV0OEByi9CY",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115592276373270163875\">Patricia V Waldron</a>"
+        ],
+        "photo_reference": "Aa-ngMbP3jtL07OU6VRk6rXE3lVUmRpMkinWO1rv4K2YNUUUC201CS_7v6CQvLN9DL-7rQ2nSXq2DNmbMfa_gwwq0FOIMeaKlJf_8VTKwg4jeQUK9WlloT4IY6m8K-ywBb145P78-WD2qYCqpZZi16CK5zLEw-dCo_-70lj--Ti_-lPaqg8dGzv12A298j7YY-8rWOKeaduXhji_XouolaWrK9xRF-BwSSTAookLRKai6usdOiix1MjR4iR3imjoq-Ug37yf3Saj3owdMwWyt1SrT33950je613jUtkHWMYcBQHsRnRcwSyi2MQXsc_kuj323TgyciEyFmJ_PI0ZbiU3u0ViWEeVcBmD_e1y0mERVUmqhUj-C1Bc5mBMpekmgsnxsU2-viMoPGFWUA2XTADE5KszS5Pn9RE",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJE786i8YFhYARhanbwFZz-lw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=6699794212107037061",
+    "vicinity": "15 Chateau Ln, Napa",
+    "website": "http://www.covertestate.com/"
+  }
+}
