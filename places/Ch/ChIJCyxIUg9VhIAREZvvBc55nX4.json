@@ -1,0 +1,254 @@
+{
+  "fetched_at": "2026-10-28T06:45:07Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Napa Cellars",
+  "place_id": "ChIJCyxIUg9VhIAREZvvBc55nX4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7481",
+        "short_name": "7481",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7481 St Helena Hwy, Oakville, CA 94562, USA",
+    "formatted_phone_number": "(707) 944-2565",
+    "geometry": {
+      "location": {
+        "lat": 38.4212828,
+        "lng": -122.3900237
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4226266802915,
+          "lng": -122.3885620697085
+        },
+        "southwest": {
+          "lat": 38.4199287197085,
+          "lng": -122.3912600302915
+        }
+      }
+    },
+    "name": "Napa Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100319349019078096791\">Napa Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMa0WXO1UlC8Y7r4LtRkYi_L4fCVmNmSdOigjX5LddpRDLFiAHoU11BgoBsEcQxrNbPXaplWnGGbmn78pswKC_kV8Je98DhbvGdoIi2Y3g7aX9NgJwW0a5TSzhCgt-ak1zJ1VTqJESFfEaT8OJoZTTsLZsDTZNKZYCWF80O9qkvn_Lu7bljwxOEc0CGljQt1yF20iI04KAj_mFvu7VQfg8rcLBvZHDeU7r5RcujUQ8-QI4TJJspKEaenrdWrSu7xlL8aDV4xAyHi5S0fIbD6-Ls4V9lpqbm3ZOknav3iAgDEW-cfdtAB1_da_VW5H1k2yzVMhffnOTyibvHcELaOgcmWZ4Ml5aX_P8RfZY2PU0KUHuhrXryM154dh4-s_14G6rNp7AG5p31dPJ7_cbtti-GyrmtGU_ZB_m6HeawJZD9dsA",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108645659516555385829\">Bernardo N\u00fa\u00f1ez</a>"
+        ],
+        "photo_reference": "Aa-ngMaykdfT6o5BwCaMUPr1YrueswiuNzYbD8YO2SFaGMG__XJN4yS0Q5gn7rP7wZqyP32BkgYFTrPukVYrNL98UhwD-bys6Sozu2pYF-fUKgrDrr1G-r696U6jFuMrxmhlXsgiLMQgAJQ4hSUc28npgskDCBLG7FPxFGHF0x-eRyxcDbwr8_557vo4snd4kdvagVDZS118TGJattrP7mHgzQw3ksB6qO8p8nvq649l-EJhEubP1FB26J7gsZcTjesvwav9JZ2jwid6RVpmaeaoWHkmQqAKjOTy78RrZhauRQ7BtmEnIFGla8X9TRe7W3QnnYE6I9Jt0sGbfw4RZ1UOm5tsZlMyTxRb604J4jzhOuqgMUkXt6NCS7XbURSqeeM_zAXibid5Jkv9Lqkl0_OS3f5XP9A",
+        "width": 4032
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104390724460162722514\">Nestor da Silva Neto</a>"
+        ],
+        "photo_reference": "Aa-ngMb9MnuZVwQncTGxTseypWlcFvWhbsEK2d7AzPveoDjjthLyL3Dy5LRtkpbLmheI4j1Cwz-1iro6BOdQrI7vJPCIrkzVCgi_uVlN8wN_GCLEyQeM2peHU7OrgN728yLX9jIbqm7OHzPLKjmUN2e6JbTMkkerZ_ghSZzFhj9AbOUE48XhaDQMQWBtZnctP7HA2jOq7sp6r8FcVKSRZA-GPYrmwxEsG5-abGESfXpLpu5typVECSsojuLPQyAN5mj2Vr-gX79y23tTJLOl5Suju-cSEOMfpY9WgLDRRXK8R3bpLZnifCiubn4bNhRYdkT7rcmXjR5rGqtxOQjKl1KCe0wfnQrzoaNfHOugerc318ABauI9fZ7Iyn053lomMezYOYmfSF4TegJ8fR9boIXf4lh5smI0",
+        "width": 4080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100319349019078096791\">Napa Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMb_EwAwFAXlmu0mOfxZRYxyyBKQlVFjEX1kyeR78vOojig7WqaxH8nGRUQ4Fmi1jO9BnURKyVlN2kYX9oWc0Cnxr1KyZS2rUCEAGjxp6SXcxQffL9bTXdrPQAYIqGMXAcUWqxUhv1oB_jnilpnRthSE9_7tRiTii_TgLnj-T5HkCa7JJOgziXpnEMPiaCHzIiCrVwH5a7pC1UciDabYNaHxLPuUh5Yn-qxykj3UVdoBQV8OSsyxshEeiZLDSCuM99VhUCC84zb6EF7Oakr80_7Dl_kinnKWg9TH7AJ2rxdTTJ9MOspXY9rkPMjoJl7HS6nXHugbftNVdjfScQbBU-6egdt5RK4T7n8pqjs6nyBDreY0VW6nPsgXxA2iCc60FjaiKtLll5RWSM8QO3jPmUYa0GKHArk3LadDukyZx6ybAA",
+        "width": 1080
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100319349019078096791\">Napa Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMYOzhQzKTrnscqJ2j2NdFjz44UQouV3RTzXdE5fFNs0EGTgOTbRTSD7kv-vDEr52XzsEZRjb8AnY75LHQDa2INpYmGlzO4YNFubS814JaeP2b4nDzKXOoisMXNyfPhWdR_CIXpZqZIjV1NrhIZjMVfditoIdBhEBV9hbm6u-N9JGwWbxOO9iZdSldP23vY64PKs2rbYOdEyjRh3nCsPXSidKyIE0Lk8aN6ZwuiZJugDXKrmO4CcWsB8Ui0-ijaGlYOxvTtAn2Ow3ZDDDcSvspN_OynuBqFCPEmNWakeBTDNrIuHIPGKY4lmywjV8Zs5devNVoQk2hB5ZwWqHVgTMyGND2l9V4mmPUCCNY_J6ICiscGI4fuUtS-nhRLKCnmppIDh3yMjuW7ke535lFWF_g9SQABAG76LQTTjiBeqq5CECQ",
+        "width": 1500
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106957913376641357006\">Sarah Brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMZORgWNNBTyDOgRnabHzyvWdHoPTW1DGvnBDX3Wg_t1Y2JX8ybj6Ku3mRuE9eXdt3CeVQlG9RfeDaePeZohC9oUT1z2NtQRmpXkTUeyeT_f6qvX-XE85aHi0MbWKfT3nxRBc8UMzzGAbjifkAZKinm6-vVnCKJU6nNGuf3WRdHnYtToXuGgvcRnn-kDpwf0Qdz7N2OoDvjKoGs0mdrC2dZypHU7xi3Dprbr9_CaZCtkgxOeHicLVN67ZBByUUabeLnMrrJCf3Yc_n979XC-nQYOM16WYEiCBd2LyzL0dfPhmWnciHvTY7DuLgeljheq0hHTrwf2DEMm_0sj0CIwk4FyOHCqYP8v3ushmbhfbYUx0iBW_zXlPqfsxW34OqI3t7UAP9-pWl_9dGCWa6cbPsXebw8",
+        "width": 3600
+      },
+      {
+        "height": 3396,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105500000196248573194\">Madeline Harris</a>"
+        ],
+        "photo_reference": "Aa-ngMZvkKXZ5Ky1V0FfIeoiKCYOWChwypGMDujU5gYJ_htKtjIXqC9UVdg1a5-e2CaW5tBEeQa4cuMH0SZ-jIISg2SPqj3TKhxxukuUq-ZoDQ0sZUJ_RtRFemU8XRpaY82D3VGcekGstZTUg2rKxG3KQJhHIpi1REPt5gisVlJNSDBtNbXZ4lP7jeZP6ors3CwD74FlA-HG9wVwjckVZR0_GBl-FaJedfRLFD5hB7p4aKzuWPLjVIRcmhIirn3fjiooidSVHzgNSgtH7e-4SkhqnhcXFoxfr2nRrRYrtESJ6n73nCB-LHj7e2xGXbKR_RwvDLEKDfC29qp0UYyZEJ5FxPvtW5i4izpMAoJMH_62U5DAoxByba9hzAs-_W93nWcVtul-xNAtlye9BMZAAdfM3Cp2eEGkitoNk6NDOkdlsnsNvQ",
+        "width": 2983
+      },
+      {
+        "height": 1367,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106538229518899380483\">Dana Davidson</a>"
+        ],
+        "photo_reference": "Aa-ngMaNTdaNKtM_TLacu8GdAQVe8YZlLqqO1hU00QzhxLh-0sH6PjJpmY09jGdbzDl21TampjVyr4JoITHh_LFzH-WFWUz3hKH7aLboLHk73DeyXBN8cib0t5LYpVgEQh4dX17Mu6gyaPcvrcaRuwI7_Fz3j8doMJHxxvwJhlwd8bJqvcV_Q3Ue0xIIFQnOUnSg8YqhO8rE9n23RuzirolnbrGHWhha3OyTLehit3dudfDQLeaLMUK3t0tvzHsxbTTLnUFuFStxyhETZaECNzF7qVOAKKfeBY_UEX9g0KEHSWsxOHU7tAdxXupYvn16-a-qsgZGBHEpDIAqpnN8c_dT0XkrkDxhlcxxPTJiNCedc8y0vxVFYf1ZJW7LeN5gXdEBhcW4yo_1A0zPuq6HonnkdVh69w",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112774810833760881904\">Brandy Nelson</a>"
+        ],
+        "photo_reference": "Aa-ngMa2V_7FUFBDYopnuAWaD9dpGCDh5RNzU0fPdAUIHoO5QhNkEjKPo4385bcZN14OOv_sWZL09kV2MYxNQnK9oU1CT3fy_wzCqaqKvqbFhH_5BetHANJy5OWBC-XtlJQTABZPO_24a6FE0kXzfhcUArgeygjJqLIclPRYRQmKXCzKWWk2SjHAYun0mpx16X6RbB5rcIwXiiVn3yfWH2RCT0gcLBw5M0NvDFwfauZmQobi-eKVBMeWsoSFBfCVbnP22cKyPB6H4DeNqUhj6tVUEfy6IOWXiJQU3W-c1ir0AcvgpUxljNYSGIXXeZjHlHUymxQ0RiP2tbAwSVRLztd8CQ0vAS6eAfVFndapUFiE7AZsnu2mL6WgSqHP5kPKaUm7DbQd7T8LvXsdVQT6YhPEgZ5K5nc",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109187260231374252810\">Tabor Gamblin</a>"
+        ],
+        "photo_reference": "Aa-ngMYpj9DZnODlw_CKwYFf2GQfA6po77RC2LdvDRu4Sx_bHetyFdDAm9F68jzbBupcQAUT7YxCxiFuocDgXfFvcsuFe3JSCNJujdpDC1HcENDia7HeL4O7UP_I5Bf8upRE_oZa5fAU-uURv4-xiv7WFDDwaMvtUacstu_UwSDcfReQM0LfqncHPtgSJ_Una_GFdWHLmaw8Z7led2yw3N4jkg5fRPpH848_ViDuE-Q-xy65GU9cU1zJCRhU_Eb31G1qJkGc_fcadFHPpHIzIlwWk8KNI5b_mjCTpgHNXzpYMKiy9T3MQEZhBLAUsEkZll6NZ1i0wHcuFSwfbMfK2x1hFltXGRrpWc-kU8PFa08X3FK9kCVXy-qHIaD0SOMK76HpHHFQ7fUkbs78LHsGb6_E65kc3TTmVjY",
+        "width": 3072
+      }
+    ],
+    "place_id": "ChIJCyxIUg9VhIAREZvvBc55nX4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9123582345892305681",
+    "vicinity": "7481 St Helena Hwy, Oakville",
+    "website": "https://www.napacellars.com/"
+  }
+}
