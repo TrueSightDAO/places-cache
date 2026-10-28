@@ -1,0 +1,190 @@
+{
+  "fetched_at": "2026-10-28T06:48:12Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "O'Shaughnessy Estate Winery",
+  "place_id": "ChIJaVjztItbhIARaCjys_gPv5E",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1150",
+        "short_name": "1150",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Friesen Drive",
+        "short_name": "Friesen Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Angwin",
+        "short_name": "Angwin",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94508",
+        "short_name": "94508",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1150 Friesen Dr, Angwin, CA 94508, USA",
+    "formatted_phone_number": "(707) 965-2898",
+    "geometry": {
+      "location": {
+        "lat": 38.5868995,
+        "lng": -122.4743063
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5881974302915,
+          "lng": -122.4729618197085
+        },
+        "southwest": {
+          "lat": 38.5854994697085,
+          "lng": -122.4756597802915
+        }
+      }
+    },
+    "name": "O'Shaughnessy Estate Winery",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101969886354419598351\">Chris Joyce</a>"
+        ],
+        "photo_reference": "Aa-ngMa0XW0xDbr_K6Coj7e4qNbbNry0EMaCcTNFlUURT3zhHbEsBouZq__B8HnwFjAfxi63P8QgqO3ornvEsrDw6F-a7kZZTyoRPP9-wGllYT8zbPp7zJJtGHjfJQTWKCb8GxY61klDchnl_To5TKoE7qK8HJjoQK9P3reUSI_lB1VGPd3G62-Pv0CBZGQzbB5PNIGC-BlajhW2IA2WMqk6dfT2A6X8FQD4BOmOvpelLEnWnRw7y0Wgcx3VZuXNftGeLN2ufw-8VX4js9OgwrZJdec8aRIAYsTs3z2raKCYSYDrHpL2_D_qa5zPEbOLC6m0VZFsWyLglCT8x3KZZVjBaofgOH4toxOlwHTPCdfllpCZ7dTWmxRYGJaE7jvCHmaA0_Rn-pXfKvZJJI1O5iCEycW7D2U",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110382773649016667607\">Thomas Cera</a>"
+        ],
+        "photo_reference": "Aa-ngMZBSL-MrzMGHswZd2izKLOB8wQ0xb13-zeKkHBGIIRDX5CTNU46kEaVKpGHZwCUfNlVwIeApe-P7_O1Go7_TEFzydklP39mZZ2SS0g_XF7kAsnrxf7PayLVfw2nppdup8LyK7dPkDuTK9g_iW9OOk7YLnWctWrwuo5-bh2BXQga6ibic7Tv39o5gH3BqH9un8BTxFeCZxw4d-emlsrC3widKz8fPcGcOvmCSa7JTK2mSyhBlru4TDrsetYzyX0rI4eZsSVQcqjzY7mcBMPiYTNBqy-3mzORFbtJ5J8thyctOsk6vWAmX4uPqU4fM9ehMwC9QYbS_QHGkJWR8RnKVWIIL3Jp4UPOyd6zqllAQbTaHcY2zWDdyHAd0SbFLzFoM_Ws1ef7Wox2AgGtURr0IyJ3Uquk",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMYpGVHJvvvU94qM9odfN6RjvK088CjcxJvOzQ9aZ0FzdxQ4se9Mtsd3W2MtMzXwOLx_doLlAvSUPTW9OLWJDn_y6Gj7N8HemzqvxvG9EackDufwenetDk0gNx1cAI-fRCTm_NNSGLE4Wl_6ZbcKhBhhHuJ47RYrpsbzv1lhkfY0IIBAwOlHhymtC_8jI_tB8lUbhDZXSSukHa3cs36GdVTxDwkQ9_B--SYfhQp9V94qOmHuzWYt5SoHvAltcf9-YusiA5hWFNnb5rFXFHrh-REAP7bwtZ4yPyliXiOxQ5RrWWu2doZRCxWgY0xLaE-PmkqMqp2zaCOYyeIs_g4-Uv9KCX_pGdKw4lWUgOdzNFtltTVQmn-qBGolIaUEYQT1o-IqpCMEl23A6MlvXsQAw2JSdX3J80o",
+        "width": 4032
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113660678043834453868\">Eric Londgren</a>"
+        ],
+        "photo_reference": "Aa-ngMZ96aMU8sek5ZsDcTS2DV9xMUe2tGsaKOb2l7PZ_Yfa5wD_AmzJUVU366ghmkLdx9ZEtKAPylchrzVg-85GwAm182Us3iQsgaupSv_LJtfT5oFjc-HPv4S2sW0NPNpAY0DuBkNmbeVO6jO6vi9UZ8jrbgnZhnIJYo7yitkZXSYvEO08ZTLD4Po77pfuQlIy46idk61lqQFV7rcbJcZuxl7OvL4bRWMwlkiQf1nPY_0TYMTJe5ra0Rggox61Bd8GrdlSjAoyHn3dmMrGvSci_VaizPxrMwLF68LojD17_j4b9b2ZR_mUuiZnEx5SVCvQssWdcElFg-iB3naSKM6BQ_mNIs2KFsYOSfgPp6v3bBouXisXrjqniT9f5L7b4bMgStnHlZPfPkrbOsAJmBR26HoIoOOWbfo",
+        "width": 3888
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112127232030831136915\">sIIcAnton</a>"
+        ],
+        "photo_reference": "Aa-ngMb6bf9ljo2x6Gyh51U6A9kdMmHCQnguH4lpLk80tdujePUslTzdjkz7aZHCCbF4mnCAvKVdUOn1swgaftUsONggFGuQq_oI-w_y7sme2rM4ugad_SxIOwASqZgmFXTAPQnemtAC0KJiaB4ynIsu6CqQzc2W5CqjYvvIdIDEbnfugDvXUBaprVUIS3n29RsV1_6sTYGONji5aFtjO5LOXrNkBq6txa0LPLZmAid_rwszHCSncyhh6x7Xc9_FWnWfbJ9gWKMv5wt6WHa3_IlImiqRrWY1Oa9V4P1ZR2hXnBXNK9A6NKlx4Gl4XDcohAi_3KS8J1RiYK5DYqU7jnELS2CshTwQzRZ-7ciRbs1qWG-OG9952gTo7hxZZLqCGdN_NX236vsXRlPsgEOQeoG0xINyOSo",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103049248761872286390\">Carlo Giove</a>"
+        ],
+        "photo_reference": "Aa-ngMZYJuj_Tc32BHS5wu0J1XGpB3AwRQTF2rzt-umFJn3KUjZQcnwepJNIZ_Q24OiGkvdSVBxwGIWW7sMpOQkUymNOO3_QBBLujf7k6o5pFrHYPKbhm4UpflkwEQwq4agYGLQ0bNNGp5-HmLpC_ezaqrhvTK09osDKpUD5ohBx9g1dXr_e60t4OYvtGkPzh2Yy5kPAYveiBAm3Vf6wx_NmC1i9gWRNN8LsOBZ6GJZS5Z2f_v9ABziHMVp_TN00h6zqexRppdnu17zMCBnAmaIl6viDoG_C3Nl0AjKyt2pwiIc6xSmEAtP0m40q9rSS02xgOQVpRjBPxATO46RqLwiN7blv89CwduH8qGI1mmJ3JX8rV5HUcS1G6rBagARL6G470-B__4bUCkXIgjHR907KTys4pHS1",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108158549624528994924\">Andrew Rosenthaler</a>"
+        ],
+        "photo_reference": "Aa-ngMZyzJJXX14peKRq7BiJLr-4TBe4TgVeqwPaqmAvEJu094Q8lH2vSKnC9gksDCWcTQpuItp0yVZlnYUzDTLk_5TjJmPajUPQhdMZr13Euror1vhDootCB7WEV_GxosRltnjErEu-UwgCiDGml0wMWA8kD3CJcEjLb-M8I9C1RACEtmybIXNUQ9JseVld8v1G9CWSdXae9ZeDwIRwZjQm80g0Ijg40XXwOEBWDw7hJcgGFbDbg2dvYpo46MDIHjNEPSlDc468RYvoKG2gdH-Zy-oNAKBdVPKO68kGMdrfC472ApNw_-ypzCpWkfuFAR8InKTHRkJULz1oV6iuaXfgmjLte7IvG7FCNJIPAXS9_0HWrY480Olsw3dYUn793eSmnWo5ZAVo9A4aeN2k-L58a-1Kyg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110124707137182319050\">Cormac McGann</a>"
+        ],
+        "photo_reference": "Aa-ngMb-PmOavc7YNvAfv0U8pr9Als22kxw_iVXIoylvxSNRH0BA0FZbiijzNVS0xJAakE2_zPwsJVe4_O5rj5ZrTFDhczZ6BX5ItI1831Zh-QydtHPX1jYfrmCTIXWyLJq0JGd_cyqFlGPFZqRwmmpAi99CyjgJn3-qlmMs-Q_soaCD_TIXkbMoGjG58-3cmzPpqRa89nOhjc4OBpRUpQ9oGzEPv0GIzzuQyh0v5I2XMwTobHOXbBuQp55-d0xzoGpd_ZSaPdWjEWIoK1mnT53FnR9niZvH5_X9U4TdHdGMxA_0kGyxrHwu29s5cTrtL6TKD5v8s2F3028PWLjqHp0ZruzF1DYjGFO6rbGWmhIGAq2Ffx6ZqprpW6Py-M1G12uG6CkNa_vRRu8dWEpwuwx8ueXQoBt1TzESjEY7UvkT3bMe2g",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMZnLCZ25U7hkdI-rzr8ggzjWqfvoOqRZJFV5RP8aMg9w1y0kBMvfr_rW5BtN_me3RVg2SdxoPpWsR_AJcoScs6pS_mOxurvyuGMVI5D9QMAD-1FnVRQqbWkTCyU4lVoCKOfjIqmCf9LZnJmR00qUUF_WaMyqJY3wsz9sBzUOTzz8g_nkgH-b4i7DXlf-AY1E22Lr6kNfPHNo74AJneSnimso5PNAFD-yc21LqWg1tBjIZrTPZc-aKyI9xpHAa9tSFpKztNehBtFksmnmZrg6FZCu5DwICboqA36b2c0WqxKaqgc58isCyH9Yq25VUPcgvEtP-hJzl4oyB8lS56kj14f1inLhdFCHmw2_l_RnENaFZi35kAfrQ8I_xqw2A8PG8x9cR8OfTUn56Rgg7woU1kknbo",
+        "width": 4032
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113660678043834453868\">Eric Londgren</a>"
+        ],
+        "photo_reference": "Aa-ngMZO_jcep1tw9T1ZGuhVRbqtLN2kVpyCt3GmbDi5eUrZD2cauBu9hZwtXeShyFxSTyRJEqFmoTmh-pAxgQhJ07MC5SORxY7h_mok6mmKICd-Hd6UvZjqgUQ6rzsNLyZdQ_hRsmjCraWF4xxMexzxVIckET3KrzkIzTSTA8AjOJIxlm9EX2IzB2qlElxh2g_lsRZllhYylVBeE8BQ28lSue7DNK-wDhaYKN8YTA3Kyq7hb3RP3iTQAVM8dtmSboElZrqeeJl6alpA_d4eWaJ9ZaO8vTvXWxD-lV-Oz9HIWj26aNvij7PJb9FpbVNicwbQInxgAHHH6RlFa1QjQT1ZGcNHZcXILUlpkZJM00Sye0Ah6yttf9ldQw2_uy8neAaaQ40cWN7VyBgm1QCgxkvZAvKJ1A",
+        "width": 3888
+      }
+    ],
+    "place_id": "ChIJaVjztItbhIARaCjys_gPv5E",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10502130416896583784",
+    "vicinity": "1150 Friesen Dr, Angwin",
+    "website": "http://www.oshaughnessywinery.com/"
+  }
+}
