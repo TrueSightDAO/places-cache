@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:22Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Imagery Estate Winery",
+  "place_id": "ChIJ49S3E8BShIARJvhnsMKrH9E",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "14335",
+        "short_name": "14335",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Glen Ellen",
+        "short_name": "Glen Ellen",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95442",
+        "short_name": "95442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14335 Sonoma Hwy, Glen Ellen, CA 95442, USA",
+    "formatted_phone_number": "(877) 550-4278",
+    "geometry": {
+      "location": {
+        "lat": 38.3609504,
+        "lng": -122.5029373
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3619069302915,
+          "lng": -122.5015903697085
+        },
+        "southwest": {
+          "lat": 38.3592089697085,
+          "lng": -122.5042883302915
+        }
+      }
+    },
+    "name": "Imagery Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103112251080636330142\">Angelo R</a>"
+        ],
+        "photo_reference": "Aa-ngMbeLtD-i_zmqs_90oOyMcsI2kjHqRUR01kZYUNnurzyDlNdTBER9IWhykyKDHHzbbzlVxW0EbBzCWlV8EO3ItrUoemAKKceIiIKces0qbASGLLdfjVGK8OLrSiLg5bCUjGq5biTG8dVjf-G4b9bmwucjzdQgzck1-5ANPBj0ZhvCtucWQG0O5TdiEwlCLhf631lMNsetPKdGNd8FsdEEbohhGbVnC0o7HZXFBB_AnM91zGOkQKWAbme5ZefzUPS_H8tnf96w4G52YN5-gAiyRqO7BC7vO4ZBLNXaBKdgfV5wHM1JT9RVpoLKGOAeAQwRHoRRgqd5Fv41PQWHoiFLrRhb8sC7zN88ndlTxy33lu1wD8VpuwaHYlghL-t1spuwk2k5bfc8pSXDVRmkJjetOMBxVcnGJg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMaWdHPS9fmCnHIgjvj2m1n8fjc_xAmhpQ6cVF_-kuxpQa3wcIbKK3wJ1poOq-EoNI4Ehow2kKaMdwe6KDCLqthLlfBx9s3kCbE-YHgi0qaeBVxHPK6GhI5pSs4p81FSQKfBhGNe3baGSOvvu8QBJ3iv2lP27eSaP0_AgfvaOIkypoae48kcsAdMuD3t3gWLrroiNi-pwdfb4jNUOhs4FXLJ4gU08hIbCRvGo1He1H0efq93tZq244OxVz2sDlLcBr1SYKMTJQJPhWyEBUBdfzjcKUrCBO_hKG1NKG_SeZyVdyaeu-C1Jn3q_p2T7LEOqBqcajiGgQIN6fmbk0cM2IwfOp7dcfeMwYEBIKxv-0TkhzCHtO7emBo-kkeQOpxKiFv1hIHlToL3LsurFfrL9OAlNMY",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104420518906663023543\">Glen Scott</a>"
+        ],
+        "photo_reference": "Aa-ngMYnHhUId-MeZKq5dBd36aZrTWCpLwHieDLXuEh0dJrF-k1sCmKSOlhlGjW62XGvpy8S-I3wy5EPcdsS8RIuQmr8lWueJoK8RDRdZmhXDDDtMZgTyCbf8evMSWxwljr0ktvrW8ok7-3jSwKxwp-hkkZbmwqkUugAYRU-VV5DntHIBEBTOVy_Fh6kHMmoqyDXSJakPQ5wWoLVJNmh-T-nI2S6eSilsdIen1gHEspWlt2J-4-kebcBL8X4PfzHlfCsYS88b4R9xCGERJW7kouxoOXVmNgUCCdqxpx3thCCNy6_ySU4TUqvDGkRS4ucbqrQE9vGINwcs48HQFxlMgruGdu2ckdYia4lYjxVYnWGJTcZckSKRsydopydSU9womwbcBqBNLYRXpNICFP0s6wq7aJUR1Q",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYFBiy3V-NVqCjE3AaVHvABpX7eQi4esRjs01ja98ma-LVnqz71Ceyd-YOhs26Qh28Zl8nZdEB6tpGfOLfBmNJq_2zdsHtIWvaQ8NA-wC_zcF8PqWtHPa3fGz4FPhAgyWt2lMdk8BYZMW3BUcz4tTqC_IA0E9ZauDLB5WX9MgCuVm9HWbjQo2gzIpvxqeWlOek4imPsbJk3a_JjsT4co0iyKem29VlT9AzDfKx1-4mFrScK8Iv4s3e9FdGR56lpQ_AfTA_czH43I6tRcFYXlwbuT9NVv5hWTHK2wArl3kbVE4XaL6J-S7KbofuTXZFKzKLGW5pJvHiTRtnuc2DjHdlvxguZ7shbh2PUQ3DfOLa_EvvjpKRP6xC5sHDyofPAyD9kQv3WvSPf4n1aQaDvFVlj09Q",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbGr7QCLsh2IixtfnZel8aO46XF8oWA5u771-7h8w6aVoHeAhofnHFmVEa4cfQg1nG7GIXAWlkJZH-TC2mT1Cf71utusHHDVQzBDnC1Z6oa3FLzmw4GOlaj7lvVGoSJ-usOJ-L_w5rHOYvqC3ujJB3tQ3JtHFidkIaQkE_zvegHYda5R2ebGr-J3QposM-KUdAcucSoQU4W833rnbOdontDTX52eDnoVOMSYeVBe9MFVqQjQUyAQLM38lWgrAmJtOga65LEK9RdYGnZIK2w-JP2YjBb71Cv9XorzemGlrTVNZ57CfmXsmtU9in6mF1pSCFjhcjDOOoOfAcN4vgLyRI30K9_WviQSI228ELKY0ri-lVnscdpM93E6oYb2nBJnnU2hcurpFmlhumiCf5EmjUyFg",
+        "width": 4032
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111888555356674393705\">Alan Lensink</a>"
+        ],
+        "photo_reference": "Aa-ngMZp7-x7WMe_8v2BkQ1xRJClM8Nt5aaZZ2mYl9K6o1yyMVJzc11wt-Um33v1RVQUay7siYKagebgKF4MbzvpqXO28LEiXGGvFXnoW53q06v4CrMhpK1m5QeVSlUw3ebGfuWCg7dL94WyQx_QkUTx14NTopJ134W5NEeeHo_JxHJKN3rRwzFDbEt98r8mblgyalob3sl4ZZC775lOJgcy9XgeMHNv4939CiLGnxIllhYWv7e8uQHpKNCfS8vumClaLVFTnO1UkzGrif2EwDwtdUWJSVG4carVCIYNjvNMaftyPeAZ1iHSzxWvFyrKSjLzRemuEdwvBzem8Undezc5hJB9rn4tSS4dvswUhq7o6XIzvjGvFuX8KVnKqooz-dhXpuODoFvBPeCjSme0ii69f2F7tcx0058",
+        "width": 3036
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114417675911708315918\">Lavinia Schiavone</a>"
+        ],
+        "photo_reference": "Aa-ngMbzoTYMVS6Zo_Cdt-NRMECsEPrQNDKLqXbCDlwqKkOnNrjFcWZti3DpR8f1MNq6tkkTKDv3Pq_BTydSJ1AkoQmkR9P2DJ0_M8TAPDFzWwYw1nAtHL8E6BnT7LnUxKVrYpAb7NPSwSJEWNzPv6FrrgpMmntZdQ-NrLkjJO6rs83xq7c_Mv4hqlqvbLk4GEnt_LFirucgbd68iNdukpu0COer4PVOyLfm0prysH6hvYG-VIa2p9RfsiTm2o_ykHus-kxIDIJWa7W3x1lrGbPunmoPHvnPtRLbMuzM8FargbGiJQWuzIOS59azRHQNBawezY_oLjXK5vZyInhqwRFEfZMhQs84bM2oJFBppqA-fsrByQ7xfQUEzH1vah56QSJUiR0ic-Jyrc6dFObLtKRgoGuY9qA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103112251080636330142\">Angelo R</a>"
+        ],
+        "photo_reference": "Aa-ngMYiABnEEY5QIziFnWuOUdGJtBjmjniEqGpAQX6Tgl6E8yGXkFr6pwC-L2_w5w6lo0U3o_bJow56XUx4MtUBt8mKENrnf8tOxRUfuc56vkNKNXL8l5iepYlsTA2GfkLx8YW_f_-ELWZe4p-Mv-X93YYJDcytpnHWWxZDsFgFoU5XZMx926QlBu_vcgcFTVlc92yEbFXZR9ZnoRiRHKRqEppHXJ0LLvZLtjKpnw0JJKTOwyXaoELOirdfVSvUdsJT1sVw-aPXTfDsdUrvKXXZmur8VPx4NIUf_Gofsp9QhbNcpuLHGIxJMSJjRSqCVYpbwMEVACbJK41TMO_ibKtPlBvZoYQ_5pt1UyqSumNB9muT-iwxhuEbBkkxpn0QpVr5pQhvbfJTVVMNyFjeM20d53B8etgekRI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMaTkYVPwI6SLloGAEOlNl7oFy0PtIpQFI7IwO7QaLylDZzoNUhRFnvangkw8p_uBGCbA5VnX3yloXX7Gv0qzFRpMcLxDTv3Ppb8t4BupJOQT5UKN9luokJAMwGSfXE4_t1KTz7NxDzRfd8gCgUS4EAwZiwAiy-NqdwsXcy9vqj_sFmhxcHYgjt9x6HWcx18P1nQK5YfyYzDwORt71ndOLVLphcALuYWHCCvaHPQgFAR4E52u8HIq4MynlzzDg9FafuA8TDljxg2PIQXnxWKjA9WMBmiYWsz2yDYnYtm0ftqa4Vl97-SO0DUs6ZC7ZcGxnTdAzEC1CY2n_pfVxvttEJQYbl3tztzK9NssOSUMzc8bkRikAlFO-WXEPiikNijYKWvfnTQCKW41TyADMj4ToaKbPAAdCs",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114882376120711430548\">mike wisniewski</a>"
+        ],
+        "photo_reference": "Aa-ngMb84RPC-VnuPT-EadU58RQeTNHALlWVeaDlkogcNHnXwudpnX4HFC4lP5wQ3M0ylfLqbTdcfjgxWrog4UGUPzHE9tkNYBUSoNA_hE35e8lrZmi690YWHStuyiiv4_CS7qZU3yrZ2yPSrIerakWGXNRcdmgVccTkzNkaeni3CKCNgvGS-2O2tVUCNljKhYRRnTStDxDnZRpSGjZcCnSl7qiyYZNE9lFMnWQHTH5aL1Y1huqVTsuFJK7tI0ABhMog9jKTQ_DFRt0g43Tez7BdV37UOETnkaxeMu9BGAfUQQfK2Xt_-Kn6taYDY53gd1NeRZXdaJ23gHN4pH6_QDBlmAI8L4WvuDPVSJraF91TOhk3XGk6zmsptbzGm11yRdGQ-dNV4-Yl-CKy53d6YQKgNOx7HkzG",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ49S3E8BShIARJvhnsMKrH9E",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=15068951730876577830",
+    "vicinity": "14335 Sonoma Hwy, Glen Ellen",
+    "website": "http://www.imagerywinery.com/"
+  }
+}
