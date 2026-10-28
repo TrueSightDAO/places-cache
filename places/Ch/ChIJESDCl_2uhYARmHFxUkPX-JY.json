@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:22Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Robledo Family Winery",
+  "place_id": "ChIJESDCl_2uhYARmHFxUkPX-JY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "21901",
+        "short_name": "21901",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bonness Road",
+        "short_name": "Bonness Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9234",
+        "short_name": "9234",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21901 Bonness Rd, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 939-6903",
+    "geometry": {
+      "location": {
+        "lat": 38.2479224,
+        "lng": -122.4823512
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2493144302915,
+          "lng": -122.4808694697085
+        },
+        "southwest": {
+          "lat": 38.2466164697085,
+          "lng": -122.4835674302915
+        }
+      }
+    },
+    "name": "Robledo Family Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114924737293218151278\">Thomas Janik</a>"
+        ],
+        "photo_reference": "Aa-ngMbvOePmu03jF-ZiIky1B7uH3SPx8hU4UnJUqrBTBpWPL-KEjdy2LqcJ8CxH83XUyTw-smUIdLuONgxne4l6byyeKdpZX95Sf2SIb43TEXyqlqm5K8aGCV40JgUVV3D82JnTIkJpn__7OlRvssNYHROpWgHSfBQbpLUruepD4DMS_q1VVIVeO28bNrEKV01A73Xekx2IOdMNKt4AWHCxscq4edy6I-p7hSKvyC7H7CNCm-xz0TclLYRamLBklpLzh4R5_dr8agRT2nz18vletUK9NpbLg9ne9e_AC7vrpL87mJUDRLwJ8HSY0hXTas_uHSf0DiDy8oj3gqDWWDtWKhuGvxZ3xcv5NdvxTgFDcn3r_MPoi_Ql15jImUwpbpXYkPhY17_qk5Nhhch_GnL66ccfoNBbi74",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116148267400435296787\">Sammi</a>"
+        ],
+        "photo_reference": "Aa-ngMYNpUcrTLJ3EueM1--2c_iYAS4tYP2dVa_sW39j0mh1GAhJ8j_vEGX2ggK4bOvK2R8CgGWO1DvrlwKlcmfe5ucCUPorO0yE5JgIL8K8100Vw5NFuNZr8eckd0gNUBzw0m6O6BUSV1JstQLNRkA7Odjjc0cJoNn3yrdDz0kPyDZHgi0a0RAlsOaVmx18NqF0ngohBZUPiUEl7JC7Dz4g7mEY8_mSQQ9eFFs3pALnm0S6TWcStzO0Dk4NSn8WUZnIjId3_TNLzea1QWpAR_rRg8lEB-5wm3CFyE-Ghx_wAjNZQxJnzxoXrru1Y8kV1Pod3iuu--Y47lb-_O_A1uZTyqgCjL4xhvCc55Nsbi9Z_LIbbdWzqHLRKhhlZV_RASfhDNypLfRcBZtC_UWymiGaGTByp5iLR9E",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114713236705326488580\">ev robledo</a>"
+        ],
+        "photo_reference": "Aa-ngMbgtHNsZJBGcgunChQklTYLCKXxtlIpPcb51Sqfa3bO--XdIJVYmZogYhV1LW62_RhOK_xie2NUYeiqj4agRYUqQ5dPBt8U0rci_tSnzgF_0XTQftUl8unk-gF0ylpGoYTT7k9Ny4iziFOWCHshlgTDHVUjpoh7R8WGB0KpZUs-fUrCQuFk-1gyhfbzgqrCcAORN8ef81E4HyvfPiwUadTo7-JuDJwQzwJv0Xkvg6RSP0ouGYT8N4Dlxl5lx8bmhRK9Q8Y6QU-WS3zz16OPngrPzhgNh6Txg4Z0McZJRng7TUmVQel1JiFfV83l-RZeJgKRupNmsdebGu7Z2khyQED3obehYfuevsfTfd-J6jhMZSg9id2Wc9vfWj8buKu4_wyn9_W8-2wZv_FVR2oN6rROPmfMNEc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116148267400435296787\">Sammi</a>"
+        ],
+        "photo_reference": "Aa-ngMbDD3Wv61l2JPxUDxQb0HOsNe2onHvQjuN_sLw7C--7ps1qdUDmUWHQNwCimJHis8msX1ckFGHISe2jOLN47Nz8JDwt78TbXtrhC8yxeUcPnX2pzrEZc_3_wxTjeR09GjOMwdVtJNwFpNjrqhQO7yZA6kfxTBZAeu36qfRJUZvAttcPsMEAUPX9N8jeXCRNK4w8GatoP0RGqER8sibvzAzRd19v1pHr4ypb9fZjkmfxSfwVfQUKS2If7qWBgEGZeE4mAGx2--kBQGQn-Zr2HQExlvsN2MIUnd6QkHFxcDqCc3nhO3LWEgdlss_ksQ2rmuGDN2BbzOBKWbn7yNdFMkJ6ytjYYgQI6DH1JHH_Qlq6oCDQn5vp-KBmo_0Q6NBbtEVnSgzej0etHYZaCT1T7voOA53ceE8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114713236705326488580\">ev robledo</a>"
+        ],
+        "photo_reference": "Aa-ngMaE92DA3LQOF5QzaJzM5qYtk93yIQFWKTLizAQiY9u4qf8rILqXmKICd-2NxF8UfUMUgrj7NifBWwOz9UUt9Y-IVu2IXelP9jCwfcltfgVSn_AQ_pKjmocC5mcd-hX9kmYjd5StEBgdl-Dry87s3p8DqKavpVtceb6zBhcrl4xnZPOJpuMxEaZHnCIeTdguXF5BCHGEdfhxolgFsBZVWtlA4yALfRM0C-ZSFNTKRsck77OACbZeZwMx_BMz0k0bgiU7siNWY5P95s1RbmJpJzT5USjJXuYR5tqJKLM3ZMSnmj6oxjL-oPN4-3cnnooUg_EqZmjIyJfgyq7dcD-KYjJ3c_ok5eRunI5a8L5bd-ylez1TkWOAjUPi840LQrz8oclJMilI9wN28EL_aA683yXe6bA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101963850886142481620\">Lori G. McCammon</a>"
+        ],
+        "photo_reference": "Aa-ngMb4gtEG0_v5gnCrHZ4gtZK0PiC5ZcU-3t0QTf4uvItSSInurQYtwtymBuPrXZl8b8rlOfzNB9R-abXqMBx_HO_w2UGv1BRQggmrUCV0iAbfziA5YF2P86AeEZvX-Dia7oqrO-Lygodr3_lhtTipF7jxVUoM9IsjHApFMEbareYdy2HXB7urlk1ppUeIgk02bPKoVwdC8Bs8Qr6WGZISseaQrBJoMMM8GR-utJos8NPOA0naFTCMfRZG3SslbWa2HPixCSoRPHbpoMMgWm_hQBnh76SWBWx25hstMK5JiOUNz13cjgqDAkfwqIXcM08e8ceJ0I_12Un0uxPULVHWV-1TreoIpn0rJt0LtUQD6E6sOxZkur4Z0ieAhLNqqXFuUu9QOe275M_z5AWhaBEdQ-kJiA",
+        "width": 3024
+      },
+      {
+        "height": 3603,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106741233076685476158\">Lomo</a>"
+        ],
+        "photo_reference": "Aa-ngMYyF7C6HCX8dkayd-3DQYyoio8PaUA6EwKLa9NFiQJzw1E3FIowyA4-4Er5fgF6e4WAk4jpJbB5hKNgVxxEvYZhVeiL8vJ1nQNyeGAZprT3Hjrw-tOCCceCXu_fuwcRi3iiSPO0roRcQCwtobiHEODISlgfMKglcvjaqw-wy9tL9po1ToSHbr4Du6t1LANrS_EJZxN9VikXlQ0iEq2_mKZNxbMBT9EUyuOU7xOt5t3gtZsyAwgYW9A6bTY9iZzBZMmujn8ZWeO8ORWG66lVYJxdL339GiBfy-rJH2SV9wQEOFTOlBQtFpytDDLadWtJJosjRK0Iygqudm9005g6PqwDcYNdR6WFoQfN_J9BO_59sawbzZ8d0tk0Gm2UAUK6ugV02hJva3yG9KXRK88VHkOTYsSDnPc",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102343808378119747704\">\uae38\ub9ac\uc12c\uac1c\ub0e5\uc774</a>"
+        ],
+        "photo_reference": "Aa-ngMYA0dSeYRJGh3yfOr4rrKhfZfXf2qT2bmD18L47r8RefmvheOdtTIOoUcsUm4EDRRpo_9xH-n4Cjcf4gligRo_7rOY1v2p65Z6GUft1F7ii4pByycExPIr8bvYg70FKitvY4qsTRVI2NJaq61y0EelO7CnKAgB-UPRF289KgSHWVqaIRsX9DQjUdpMU5869d1yLPEh6nm_X4EWNV6GcLM5ZwtELQlUl6-yu4cxt9hZjpqgR8eoWYPa13-P28bF0i6nFxTN-92b3CvNm0NTp1bfJOCpOKHOqnzM1XdAbTMrivQo7AciR54DQy71LhkTcMA4z4mizvpL20ST5xYgOu8FSQCPL6Ol23qap6x73Ffxlzb09bQ51ZrdwZTX9X81yimsWTjnw7gW1517rfeo_NP1nYv7B0rwiJHpAKLCImUUf",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111178882135141743047\">Devin Ganka</a>"
+        ],
+        "photo_reference": "Aa-ngMZJ_Uh7Gzk041ErUnn5ct5_-3l-HFlcXlioXOeXFsO8AM5w8PlFSdMPZmfAmsR6xudNn0TH5wLJ9trmPvvZoJ5zzUFYeRQ2LpW9zeIAtAKLygjltJHpJFHjKBwJm3csnMDSo3LBE34-ESkZyCh4X-rqQnA0_J14ZLGVKPgDeF8T__djs8jdSj0GgNDT8wks14VYyun69Aq4iQ6M5d-UxgGm4Ebhu6ddSpnxQdzh-yGflTaUUZHU0pMYsgvYOa9h2SCTfICwxciLHfH7ltZtjVWljpwA9lIyMgTns3-FH6SnR3ZOvXekcbUmYmf8UIIiONtJ1-yEDHFT6Uf5Edojp0vaSsYCBQmoDKQ_vhsh0lGp2UuQXZzEvPE12vySwKvslCv6R6uvufD9_0htkOZI4brC_vvyAiw",
+        "width": 4032
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108362077710644323854\">Alma Olachea</a>"
+        ],
+        "photo_reference": "Aa-ngMZSs2b1pbdpMoiAqnsbPLhmNQkBCOdEoeJiB-aF2hLNpFOKTmcoiqZot1mKiuGIcnNuB3hCbn63egDB3lk3xKMZERUOgREFUNN4XfV4Ice62Y2PJl5OSWd2rnJvYSsku4aTtCyy0hqfRFzoTe2q3X1yqTMOxZ7CrFuuHxD_A0d_qMqRITH0UFd8WSnmP777bjef8kUfz4vYUmHkfz5QE7R8-3QRX6ZXYYKNMigWJjKGPZGjY5Ni8zKJHILfGb44mk_n8915c6Xn3uShhY7BRsJBXShhEMC2xk6Bm8hl761Dt3Z9_Plq5r_ByH_VC8A0YXkJ3JgpmFd_xgMraFaQdube_9MP5BPw7QR2aZR12ct_qnz8ZqHj-XhljiAcAtxKcBt5PXN9YxOeWDV90RDxF3Msfw",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJESDCl_2uhYARmHFxUkPX-JY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10878681584059380120",
+    "vicinity": "21901 Bonness Rd, Sonoma",
+    "website": "http://www.robledofamilywinery.com/"
+  }
+}
