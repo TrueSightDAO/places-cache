@@ -1,0 +1,189 @@
+{
+  "fetched_at": "2026-10-28T06:44:31Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ceja Vineyards",
+  "place_id": "ChIJ65xeGlkIhYARGNKrBBDcgzU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1016",
+        "short_name": "1016",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Las Amigas Road",
+        "short_name": "Las Amigas Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1016 Las Amigas Rd, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 255-3954",
+    "geometry": {
+      "location": {
+        "lat": 38.2356203,
+        "lng": -122.3144292
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2369232802915,
+          "lng": -122.3131651697085
+        },
+        "southwest": {
+          "lat": 38.2342253197085,
+          "lng": -122.3158631302915
+        }
+      }
+    },
+    "name": "Ceja Vineyards",
+    "photos": [
+      {
+        "height": 1034,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104771014019233907134\">Gerardo Cruz Mor\u00e1n</a>"
+        ],
+        "photo_reference": "Aa-ngMb_pZ-Ab5EcznSRJA9OW73YhNKlP4PoV3nfFTSqh2MnIlUemoYuo1xcI6FFXClZq2A_gpB44Vpw9zvBdkYTSufnKKCj_FzDmwlWJc6i-Jlj_P2t8clJlRonS62FIa_NgZ5eu5w2GOCfciCodKj-ZWd3Yn0pIj6l76Rex4pFMdhXbTzq2V1_GyNJYJYI38HjRN-VbOdX9YIXzlCD2PSm4W10HHgN4bqkBOzYGSR-Zx2ZyCnHzcgfbbZG8HrvL50RN-ibD0Np2Z4eodpUKOxxIhTBOKvYIqmXXZlq9MhZI4dvy4tBKZNQOOq4XDdhsDYu-ci1lQrq7N7J8O4DYf8t1YPjQ_wG6VjqnzbfOKvNysAxqweyZwsBMHRn-bKw-Hka1McUZ45NUZyX8UeWwDKS9RAj0fxGvss",
+        "width": 1500
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105436187180158660235\">Freddy Villalobos</a>"
+        ],
+        "photo_reference": "Aa-ngMbc5KZcv_6LBISwXZG0irBzuLIcxFeK08ipEtXrY1e_GvqLtxj_GEjoI8D4KG17AfYspvQnP7Bq0Y3Ux0OpCz7hJOzjQVwKsFRc9V34DeXoTo3JGXmi3gIBeNxqKRJRBgxsMcyFk_LVwLm4rWNQlCXAno_1CNm-tB2isk60QGKTuKoyE34nI3e95fjLugFA4sDT5qGYoPOm8pME7qAbMxTxg3wN4WCXQaiZ-upm0ZaoehZr_ylsoQ7vdDQ_gq1MUTLwEhcQ-bRqvcf7ewnUZ-CVbCT-W_AHKWFwoFEJoek81D1DFL3p0nqu-UIhbs7DDglixGeTsT92GHa-E-SQyDUZi5lIf2kPIyaW83z-TsNMgPK-C50R3GtZ87CHxF_LMw5sJD4-XIyfMp-OBDGFt3xZ0AI",
+        "width": 3264
+      },
+      {
+        "height": 2340,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108380645035405099266\">Juxtaposition Stories</a>"
+        ],
+        "photo_reference": "Aa-ngMasJXn_L419T7pBZy57gNeIAZToJTpbWnduRFPf0uI6jAKMUhQO3F2VXWx67FVqp4mgD8VJzhO3xDraFa5HHf20y8hpUJsFMjak-bzs0nmSDxZnUQDT6LPxXlc69K0CAKK2Yqj5rA0XxvtnWauDQvUGblpTtcHtxohQ_JDdvUjrBrCyXGmIqJ_lQwdtZxixThX3I7KosupP9ayLRmd4SEmxgBunCipSmkruWkfpTyd6mUlRr51PQqia57AAP7DhPgFe4a8s_zX5OiiwFc6Wu6XhULU6SJQBaqp4xHY8h3n2Vw4fkcBzkj2TUoBXS1YY314MxjEBTr3F7LG6OPooYG3aBX4FO1gIntdgBqCf6dQ5aW3c3ywF9DSQGzTSMeQEP5rnZESj6d7ILsSrnp0QeQgy1A",
+        "width": 4160
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109798491260269477861\">Tee Dee</a>"
+        ],
+        "photo_reference": "Aa-ngMa2hzKa1F4Hyl6gEIkXEsWU-o6YPvq0WbQGjNmRoY60czd1ykXqdkNeGZdAvuuIi1yD3zFcJA8bWga5NSk6Q-Y7aGSbPLOM-_RIZVu6-BTS0h7JN0vRjFQg2blTzq3zVMNDCRK2T5Qy-ZozF7u_aiNgahWwveJvLL-oegDt7y8rY9OR-r52Y1rjegPq6DqP5saqrSioLl_fN5MKE72H0VjBAIqEswDozKnl5_8M3puZQ5tfPuZUtcA3Nb4to9iO634aeH0rh0EhYj5_RMGLwp_YjjLdGq7V5mNjJ_uiV0w9EwcIf0hu3T6pdDvfEV09G6cOFo3UboYtoUlgWvGHX2D6bmS9o1vJqp7CYrGmvOVoUBsU_JKEmU4wRREm7YLo8ez31FgvtvsJi9ltAaPPVkaSZUlet8Q",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116290853376727827526\"># MoraMD</a>"
+        ],
+        "photo_reference": "Aa-ngMYsQdCdI42Y7kFVQeJlShJg1TfkRLpMiMz_3fUDf701j8CHnPdOBqH7QiyhnTwvcPp2yUvBgnNOgaVi9CKgXmhPzrxbcFwBrk7RsK-d6_5x1LaXXHrNIAU9YspKadwVmmZoKNXBb6RRcrtEhg0gjlNrYGZH-Xibe2nOvsrlPtc4MbMl8fcqxFyHcGrg895u3eauKjt6ZVnz9dUaeRp-8oWcXDCrwcNSD4cPecyVoTgS5o7vy5EZdp3vXlVwWe9er_6zJNX4vnN6lOzY9AxQnPZPfSu-8o4WCuIXhaCUfS2IKRcgCaDC7rGk2oiFHPjXlB7HVO4x8T_SeWaXLZdvJn53GW2MuPyJ6ANQQkqFuJ92hi2fnomAxlqP8V05o-9m2TWd3LWSA063tgr4tubIJFwIlw",
+        "width": 3024
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111059697538365004938\">Sei Higuchi</a>"
+        ],
+        "photo_reference": "Aa-ngMadY7j-9xEiFhpTSB8_3D4HyiIL7IDInWFEBG59K-zK_Z89PtY8wNjL03YEemOWVwSFVfiyPYIIQqdEhCNmeGICZTtGkUE5mACDvy5l-EAoNs-Lle3Wduus5S8bRI0lDzzTiRz85NbtIneIw2wzCkzmZSxyw28EoywvzJ3MY72bGCdf5Rk9Yolnrr6GJH_64frMvKWwJaWhQ-HXuObRvSaziRdJsWAaNWs_nw5rpa24lZQsXe907lmXCO1SuJNNkcYKjqYSl4C9lHykX0zr9ntkDEj1lT_2grvXGOrQr1OIvGb4qaQmRMKMUn9zGaLyC2r4oIg_gy2Osx1hDXUhtzwvLk5z2lTft4qY_6knuLl2CabKxQJAJPlv9LYyagGNc7w6E7SWLBQDSj7p4_WUmHYph0G6VWk",
+        "width": 2448
+      },
+      {
+        "height": 636,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105383821528672378391\">Jaime Garcia</a>"
+        ],
+        "photo_reference": "Aa-ngMZXiqLhFHs1hUgwkyw1NBZCMDnPX9Myufr0gI50bA1znu1Orj6APAR7V2Msm81xjprCmymw5Iqi5NSwfUFV2HYTrOdo456Vx81FIWefkziocEZuTuarECHWErN8l2hzsQVS7VkhW71os0EWaDE1fo70n9dhbtzxRorb8ZXCpymwSpihaqPkZBsLXDy9vISLd82arBeRLepCezK3TeAg5bpXM5fLO5GWC1TOtUXYCZZ1pSJWcGmgVa10NljmuOkOUUbySc-C3C1Mv44kzS66EtkRHdmugD-262BjMNOvn7HjO2mlI4-iDocc2qNUZdS8KvXzdg5a8jEUCmZLT35oGF1e7a9TY-6X8IUt5UFoOFBOBvNFlneiwefM3HrRtJZD9If1XgcmuqzaKSjNtd_Axs67lHXV3Eg",
+        "width": 939
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112206469772446538696\">Brian Manabe</a>"
+        ],
+        "photo_reference": "Aa-ngMadhVtyp2eSsNzcMnQjElfBme7diD05XQe5G7gMVZIRUUOWzGJobK8xhFbnkHk9R51phREfrSps2l0AvxqBgHvaDOUU1h4979iQSLOyZGjBRoWPmObtb4lb0p54vG3O0F5W8Ir4X4VmE4akGqMnmYy5eQ9w-W7-HJyrbOucitnh9uO2Q6Uwnh7SLcUJvhMs4TCB67y054rMnEVipJycjm3Tu5QS1jgJi8cCgxonmw1YfHIRdUFyXzQBeCNQFyx_lkzc49f_wgl-JRnj8fZoVFZt4cd6cT0IXgnO-hASldtpuTxRSe1zQocYHWWUBx-k_gUpVOpH0Gju-EuZtEuAbZ21jLnWk7Zr2w2zfYK5zGY9x43aqehmUcVSDD2BEjcIQh38_wgzaIkbnlgH-FIoQxqPInE-",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107791548691329666964\">Prof. James M. Curran</a>"
+        ],
+        "photo_reference": "Aa-ngMbrC1sj-i2ThE8WVsAKbQhxk9eijybE6vw6-uLQyAJCd4B_MEm4SURlz-9ytqA84mst-f7pKKeRX_6FneBiZRBwSRzAg-yvXAHnnegBoRIyPOEuU1XBk4e990EP4EQX3EwXjIJzq7BMYCMlefiVletH3xc-wdGRcS3KHWVXkhJziXEyqQzFtujW_xkQJdJZWUqIeUi_UPJ3XQwVxYM_gFzmL67K7whgNldHzz1zJ-6c9J-3434x9Le1fDLAv7MX3QuZNlIbUCj6uBmROB-gHOHsSZfMVunoyhuZkKMBPqW97wXEr0QAy85Vn08fqxXA0sgv6bOz8ThwPsrTrG0ufgCx4FndmeD9O_oXQVCC3w6DDJgh5Huo96wu6A9ITOaXAu9i1L3UIDUYAEhuuaZYoWW7tvM",
+        "width": 4800
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104771014019233907134\">Gerardo Cruz Mor\u00e1n</a>"
+        ],
+        "photo_reference": "Aa-ngMY-py0nzVYOe_DCYpUGH8vkNrE2uJCuobIbToC5dvUyapdsJPoJFzovoNYMvoRR-T5ksXK9-qGIayE2-VpjpalEeI6wdSkso5BGGli_xQ5UTFYXKdd8a8FEDXsTzJhOa-KhFDFWXIyqTuOU2quXacGw_IztAnRhMR6i6vJo3rv4-MrirGiyn6UFDGsEKvaB5DFK_TxaIA9Sv6fCZ8h3Ib6Qq0x7KtwaoE-19cWd2cwJ3BwBrc3rA0JzmU-2UyqvpuAK6UI27fr5SyaT7-__vFyn6nH6UVl_9q1lpgfsP5z2-NF3MIPg_57YPO6za2f1dLKzkXlEvD6E9nYeWO5Q2OAGds4UNouRFMvZS68zhBZKidXTqZ63mVgp1Xq2d9Q2tJDo8rnCrUH9IfIN_2VMfmHAGvMKx0w",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJ65xeGlkIhYARGNKrBBDcgzU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3856167667315233304",
+    "vicinity": "1016 Las Amigas Rd, Napa",
+    "website": "https://www.cejavineyards.com/"
+  }
+}
