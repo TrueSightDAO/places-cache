@@ -1,0 +1,196 @@
+{
+  "fetched_at": "2026-10-28T06:48:17Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Jarvis Estate Winery",
+  "place_id": "ChIJb823IYkEhYARnS1YriChIOk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2970",
+        "short_name": "2970",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Monticello Road",
+        "short_name": "Monticello Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9615",
+        "short_name": "9615",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2970 Monticello Rd, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 255-5280",
+    "geometry": {
+      "location": {
+        "lat": 38.3571706,
+        "lng": -122.2123462
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.35852673029149,
+          "lng": -122.2109779197085
+        },
+        "southwest": {
+          "lat": 38.35582876970849,
+          "lng": -122.2136758802915
+        }
+      }
+    },
+    "name": "Jarvis Estate Winery",
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113611967768704383100\">Scott S</a>"
+        ],
+        "photo_reference": "Aa-ngMbZyaqYJpbmSykl3j-fRnBqikBbmeuZ92w6NgkMUAjpuPAc_16P3jDeKhWLIqyfCYgzDFHN3jWtyy8dzcpSDuRr1pKx2fuCb8icGORPvJQ2S0MBLtea2t1xILcd_sYMEEcyoPwUhqSFCAMGdMy5EAEppUjLuH73qRJKEkm8ZJ6yfySyfHhdnbNqIN5MSr7VzJPnaPQwi8g6wekxyjsSV2VytCZJWq-X_L5y4woZL7w7Smv19UEsOyuQ16IYJEOy-lLU5SCCsYK1lyzrsdJLL1Sm7ik0YU25dAOx8RcHMCq90-mtI5mJW64TKZltK8eySKenOQ45sVDE42oR0n7DJ6AbRoaJtghm_wfxC63YSa6s2uIdSU2BZFR5DSSqv-v9FA-hr_kvfs4urxZpO0ujBedRw1k",
+        "width": 4000
+      },
+      {
+        "height": 536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106009817404204113793\">Langdon Shoop</a>"
+        ],
+        "photo_reference": "Aa-ngMYtmV8Ezl-pOhOjLssXMdOEElWssqnuU8FGjayylhnhEvRIRZzrk9gXBnZOscfHgX9j_VWQmMDCq--PBJUphoh1sknvHlT44QGAPtvkJpLn1rNg2K5JUrLDbFJP--mGXXmD7ZrE2637xCCqcHPzUxiC2qzQup8-R66oEhxMzDA2LAE5bPexDKRUqpmAP3BvFZVLGtICdFZv75-6wGA_En2FlLgJZuqgOQEcfZQH9amCySk-zST62MoNjP3Ke7ihM6-RLgCvVDv4XqrHbY4-cI2OdMsw7T34D3EKZbVgWQkbhpCbaXtpd7E8EOaTImt2uIC6aSy1NdRr4yiXtlmVvA9VOICFqfgAqfHq9MnIsV35qM8ad9SZ0fXrZe8RkhBOPw433Y9HKrVPmDmMpolgO4izkSw",
+        "width": 800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101137751498548744499\">BoxDrop Mattress &amp; Furniture Castle Rock, CO</a>"
+        ],
+        "photo_reference": "Aa-ngMYhcHzEtYzGWzXDjlh-k2PYjSCmVBRFYlgS9rbn8ge4eEaqErtT2sai8VZpGQ9IpXdnp-kuavBT-P-fRfdNWFs41n5HlcuUeg4LFg3hJinAp_7mcHyYw3HkVnTICHB0ZrxGFTYCYBa189DwLMGpt7tfkbNT_hpwabVv0Jp5w5OPJA5x7k-TJ0QF6tkN8gnA9iLbQKwb2fsBmYUB40jDgmwmoHnwE9G4mJyBd3NjW2_V7tFoJnb_JDtlJQkCgixEmRWb8SPJVAACFd1V3OYSFiD-OcdT_h07nSO2JIfCn8nZghk78_LpL7IYAaomr7ZgleRn7zeHv7ILZrF8Ihpmn4yx7Zn6hLazl7KjaEyv0D0KrNU2s3b7cVyK_aATy9PHY-z4yDBL1OsgIYNHhIFHWQolEkE-J9Pl2YLmEZT9Ft8EJw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102565656391181662186\">Shimon Akiyama</a>"
+        ],
+        "photo_reference": "Aa-ngMa-xNRYuYFn2RQPFPYkqOI8R5O4RWN535raMmnwnWJcZA68oDjQ_pICrmV53dw0_-cb7VkuPHfU3GbaDwugU-DvWdtmGYvpRo_jmhHtS0fsupEXEYdqvIlZ08pFVmMEgTLSHRGxaXOG8SpREKOF2Xby9TCOHlXcK_E9ey9aCMAZsKPekKY0Kn7jFepJH8usSpYQDXDCZ5oGck9ho2CYsrDGXRIG_eFqPw_VmnHvA8HUXizdqlignHjDJGhujjVNzyffIz-oII6g5IenrO0T-VLurHiwIpY0KjyXK0KRWQbGr-9cQB5BRn8AGT3OETfeRDFkQ176Q4YHUbzB4iwfGMCABERFdlJ0FPaylbaZU64lgO830N0fGNZlV7cDQ4-i_x-VRqv9JZlv6bP_Wy6UiMCCLNY",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109732554142047545151\">\u67da\u67da</a>"
+        ],
+        "photo_reference": "Aa-ngMbaEnLvKANzfAMV9_RnbfEMIzP3IMNObEwsV4aYoQFRqWTyoHnAbJqlLcSWM5U16oOUvHITyqA2vYZVY9dohqn01cPUy4VTtI5Mt-AWXfcu85519OOdFpVboZV1vRbPjAsbF9KN5UFh2GhU7YI1qWPsv0UKp09s-VavUx2KirxGAd97ruTbxY-6yUdEicSa4v4fkSO-KPeZpOxd4Vqh9zCXrFM8Yo4W1_2hSSUbFiCZuAQrWCafAQB8wj7BEez0j3Ef954aPFMYwzGnJ8IAguco9_ni2wfiOMtYyLWSnI7Hqx1hj5hx7GM9LcS_8L7vZmgESBi4jJXy1gUSQ2beJv7ohAfn__R16iMb26cjiYBtYEHVEt2JBDV3KatiBRkJp2AysTwqoysWavyJ6nNqQyCcSkWtTSY",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102855797749233389062\">Faith Stearns</a>"
+        ],
+        "photo_reference": "Aa-ngMZ7xZt6pJ9mhld9yWWK2wfzqt5nfUwJe-CKVTwuwUvH3I-FB0YxYGWms80nokBh5xJJqLyT18zBF4N-MaylxdW8WmcT_7sJ-mZXLcIwf3NqJx6sYssyuKqVy-qiZErG04z8cA88UQ_rS6mL2sl87aAmcXT3Wyn3DDgHLSwOQSAFqqBsO_de3HFhR2GAH9m_uL9BsSdglx0lRUPF5hSB-jKpNvhyR0AwgpByIZVufztjVnGPFDFjArgpOKvXutff5EtjpXExNQc36JG8ZMEzhrutOyPIDM1eXeNVnAntXUX6ILs-AKJXa4RmcLuBYs_gKwKHbSWCuqGTMgef2g_cJ6mXY1VzO8nk-8VcnfShtJueYLBBMtBQljuI45eI24Bh5NaUUVbaduniFBsiqvEr-FtMoAa-EnhOBKZnjwmvU1pbuQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113714631373246284124\">Jason Fike</a>"
+        ],
+        "photo_reference": "Aa-ngMY5sax-vTKLUdilpIOXsLpPoo75ov-mz6ByN-L7CdnCCTVOkGXIr8h_HrjMw55gXYyW2toZcW-8jriCOisXo7sQu3pP7Lo9jiy-MzToe7wxQ_Yi_Qed2RWFPeIPBhzNk1hqA0_2prenYOUk9gsL1e6aHE3Mn_42CD9IfRrnVUcrTfuLCSt5wL_xWDisd1mThlzNEku9K2DJw7MxnCYB7XcgZ902X0MR7bIngJSFef6GzCQBA3SiczUMPUmf6s1ZYWs3RiF09z84OWVVdCl1gVSYqreZ0ugrknLNLc82xsY5K4hQhtT9Gd85smT4lLc5vUEC5Uio-2O5l3fdGbU0UzTWEszTeijvorhsryj79dLRQwMSC9aaMV0IfHBFr5YYdeLih0RtmZ25Z0IbzxG0Z_BaIg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114821758498991465502\">Jake Romanoski</a>"
+        ],
+        "photo_reference": "Aa-ngMY8EUqG_LjUjIxAu0qeXCLrk3_yLraFuBBC7aaMkbX1k7iZ858zUoQe6RuLpidw8WMVH98TW8VkdBVW1hrrgW91T_leN7HeI3t-P1y2tdoaEmi8u2YOzU6_-hGIzC6LH5ghUmttSWKXnFu_IWOFh8-CXJ1paZzzGNJbqH0X7F8-BKptAy4q-kEP9VpLaO-nNLCR77RRw_q-l-xyo_UwCjp_nqXlpoGJxJ711bg3PARSycALUC_UGsINSmSov0m9XRFoHABq1y2G27FWwuhoCofZ6zW2r92W3Teu1qeStAuJ5Zm2VMy0r-VB6Duj2-F_4Yvk30YG_BCDTUUSXq__a_osVf32r3PnM69cBm2erIxJOsKETuymItUFJSZ1LUVG_VyLW8-Q2S4ydpCrJKJnn6cy6BU",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112124957507135191883\">KP Su</a>"
+        ],
+        "photo_reference": "Aa-ngMZ08A1t9b3LCxuqIDp-RjoBwP7QgZroT1uMqu0OeB2UIgDC4ZHb0y7yuBeZDdMNCuNp-hfE9XauuBZZ7UpJprv_LPdoTCXtPOsz2W8sUn9b3pAHBixCvN8vyImCvFrtgc-3cLNkKv0gyIBOfgDft5-YOuNrSz1PKPHLXKh_xxwZaTbp7s5lKRV6fUvpfQnHBYlD7MXJpbfBUQ4rKDjaaPIOU6Ds1vt8GAWjEF-kvffPbxxxp-uCzWuoSpjwtKq8Kba3NExIbnyYqLwDqxUHqs_Z6kPmfJ3FJVGVDfD9kokBTXNft60kCm5d4wU6Iz5y-9MkplYC39Poc0W2iqNfBSLK_odsnOf5lheETYI6VkpdXiOUVTwCvzohQQTQuw48peaa9kvZc7cZlhD6_qM6fszye9WR7IA",
+        "width": 1615
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118229902550349467609\">Gene X Hwang (@genex)</a>"
+        ],
+        "photo_reference": "Aa-ngMav6o4GKtPjW8hBfGs1_AM2q3yYVlXigiKLwAdXYfFHjyVWQ55bC6G7HKSuT98UiEUMi-qE0dF8LwmIa5FNIe85F8JEnxI1epdhF85BPH7mK2AoyjU2be3KT0v5DBxElKCPv65n5ngDtI30h4rfl2_qzKdPhOBh8VwRfipieNafbOy6RRRFGtmizbqbm-xEXLSSOM2EY4UjcwtTJ9Sp4Qmgyy4t4Ztedx7p4vkTD5OAM9h7J_BJtSwDZZN7rMchXvTQmHy4tv_6TOCgGHFGP_VH15mPx_lRcCthm-fKLkGrH1FTSYmy91VvzNYLjUs0AaNsOq4K8uQyw8LKX24HMiT_ru68CZdEwlvJslh3pm7rJRe7VHjaq55y3ZCIQo8ty9aRCUCmPapbXJMSA1rw3D2uPuC7vxQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJb823IYkEhYARnS1YriChIOk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16798603771827989917",
+    "vicinity": "2970 Monticello Rd, Napa",
+    "website": "http://www.jarviswines.com/"
+  }
+}
