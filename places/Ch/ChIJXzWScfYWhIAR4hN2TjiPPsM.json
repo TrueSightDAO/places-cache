@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:47:44Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Christopher Creek Winery",
+  "place_id": "ChIJXzWScfYWhIAR4hN2TjiPPsM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "641",
+        "short_name": "641",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Limerick Lane",
+        "short_name": "Limerick Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9586",
+        "short_name": "9586",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "641 Limerick Ln, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-2001",
+    "geometry": {
+      "location": {
+        "lat": 38.5900139,
+        "lng": -122.8376925
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5912222802915,
+          "lng": -122.8364596697085
+        },
+        "southwest": {
+          "lat": 38.5885243197085,
+          "lng": -122.8391576302915
+        }
+      }
+    },
+    "name": "Christopher Creek Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 653,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115070036230164644398\">Christopher Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY1s2I7l0uJCkL_MoOkffiHLPPnqcu1rxVmtLKep-roZDSWAOwDQ_k5h2uxeeN9IXthj1Yt0uoV_CYxqVLBrPbxjvw_UixhJBFq0z_FTuOr76H7Dgy-Gz2jFNrZnrZetgqCOJl1CxBfdHqTsn3XtoeoLzo-WAOWQY4ioGPhI-dcThlAzLMhrVPGDrxcZdma5vI2wUmEH13NzXiTJdBecsASaPs4r1vMtzdRn3Ttmt1elf-MQnOJNnb5ugVTdqnzn5sGCscC4QlM6CVjlYdO6gnygVTLWG5Jmr6XEN0w89To96_L6cVGr-b3w0eXaoOGyM80uj9EyIig5JHrWEJTxew7CWrBomLk4jU8u2Qv55Dqn67V2nEMLL_w1SRu-3lQLt2Sod5GbPVgsW4Ccr73rZNAfuCPdCQ",
+        "width": 900
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103945563390352351582\">Harry Chambarry</a>"
+        ],
+        "photo_reference": "Aa-ngMZiw-8_JxBy3XGEEYzkV6GPteLWe-tfx0qLJOLQMEE30c_X9pRcPNK5N54oi3utJugMMZdSygy_aFjqT73jXazpROvDDTnZ2B_P-fV8wK0ClwEX08xg2eV6-UXdJ60sDL6KE_sXNAgfAEmkYaeaNMRHgWKkgVgVugt0SWS91Io5aecxSDsFeB_INcxOwous37445Z5sOeQViApa_c3AmbYrJLQdbgsJpqxUYm6orIwa3_mptL8gm0oPh5yP580uXjahwaUz_Yuqqd4Fl_B7hP_h8OTy_GEt-Uy_g1_yPHCfVKdIdstMiBIz1BCSWz0WtUw_EtkZ4rF-p_r6eXa36rIxt2OeFBc9JRAsnbECV3jligOdtCBjmF8urCIH-4Tf7XCcn_C572V1TQwkzkikPIUzW75vNUipxRAmb7tL8vUkxg",
+        "width": 4032
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115070036230164644398\">Christopher Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZZaNHlcV6q2EjOqYW9KbYANWcKs_o_PYnueRWdhYi0ZNzPjk4cXvw3SXW0Np48ySeRpH1_JBbaoRCl5gXnF1k8pHuFiz2_LQcn2eJAxZ6_ajcha08VqGzAind-82vnIo6bLHen_3i6fT-3qheTFhL7Ba2ZBWHWyCZoiWDRZoSdAAeR5d6BbhtgSoOFeL-cm94ZjhlXXCeC5l3QYL2leThlP8HN3v4-3KmserRMSdK0DbOmV1VsT2jlfdlfS1Cw-FLLTp_e-mjxpD81hZG_9OrmSuyIFDz2oHjy4xJqbLAdAHFD5GQI2vS30fXGD-tech6vE3JQJeFQwVeK2R2bJpAL0Etf5mzLM1HLncaqsz5bwEo49_fz887RhcHbIW8iNvFV3gpqepsDd9hDi5i5_Hw8Cc8W",
+        "width": 1440
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102589300252698294772\">Chintan Kanuga</a>"
+        ],
+        "photo_reference": "Aa-ngMYxG6t50gB3oMVPYtCsSNs_52BeClhvmfccOW7DBHQkJix5AzWVDBUF-8feoMbYEypGE72SMKi_7b0hh5equdjmFxQRRnCeB2E8MQS1d8Sg8UUXr5eU1NCTPPsCcTAse3Arb50miWTEMspvpbbgg8fjy8LdM7f69MueApQT0AwXlQU8KlY0Vu9qRbCbrMP0GN1Mp1bdHnf8UNJhL_WpCHFCLVrZcoJQrILJfRWDENtYhOWY5N1dR65_SYoY4UXff87KHnsYrMcR9O9i7QbKKAXa4UOcZdHLmZfMgAb3TsnKJ5uBJ1yKP-Xn6YRFbgUOnNdbfmu-a8gIrEsldGF7pl3sFnI13l3UQBhGe5GT8Fh47pKFXi6li83-yZVDf-huazHDSH8ugZI6etmVZvZOe2boASkuvPQdD_i4JkM7ZuA7wQ",
+        "width": 1440
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115070036230164644398\">Christopher Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-5PPhp1E-I6Osa5srCr8XhvrwOLYkwE2MUk0pAQvjoOnj6YkuBsSHYkMWUy3xIrEHSidjiT0nnXFs8mjtnKVPLgnrYVJb7P4QfWXeeWGbzLbeEVoq-J77R1xe1xssTfDWx6vYaAoiJgFaHpUOfQGnXMvGzp6DNjO964GhnEp3ggYugCL81igPsW8X64lSRq_EoNS7kRinS0VXH7YcU90ypaFRDIbeGSgRYFTqHuJ9sd8mhcGaU4IVUlwEpBe6aI1DhljM14VtdTuRsJDxhA-XjO6VMX52dl_OTJx8S933MOjFMs2WsGNIfJLyttuWAKCTfw6ib7XtQOT6_FPALhT5QRGsdL8LJWkdXjAhTf3pQj2yt7m-R3PX8O7Dii21-lT-uYuWQWxu_fgZiN5y1ZaMsAE",
+        "width": 1024
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102889172870039615517\">Peter Eskildsen</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_1sW1M5brBCq52D31pPS4WS7IDTtZQ7R7ajJuIsYw4QAkHhpMS-ATclFKIernE4KnW8qQOFIeDlO_DOAVZHwJWOYPFRNMOixck7BiUhYpDXgi40i7KJeCasLpx8EreKPQg8F7gFbhUnjQ-bs9Ze0qRWt-ql8sn7HRC_cW_xqbp76fsyhd044niMWG30L9yguLohXvQnGqLSAYOUtH94Lw6_F66Cq77o9dC8O8NP9xrFHCnw5iKgN8x-2TO7Ht3tBa9VSjCY9sOJq_89Ib3jbE2ajVhobwOhUHhBuAhkthK5Y5NoMrc3xg29nNQRJwScsJqANqMCZSPAeOqI__y2D9bEPD0ZSGPS8Doq6q4K2lsFHdyKWpGRV6MOSN_khWG2n5XgRIQrY8FYA6yVbUwmVOLmQ4sjY",
+        "width": 3120
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109960626568217144308\">Mike Kowal</a>"
+        ],
+        "photo_reference": "Aa-ngMZds_wBQKzzMBksF3Kid4jQzTkeizO2-SiduYLQQ5s7s3jCIK0WrtFBxEJBWIKwUAF1TpEYqOPMsSuhxTZA3GTy3YEpVKpo-q-Qf0MN2n5SgtOXUATvBv5LwpRc3djV1cQujl6teimdCjJPoj9lwE03L0AZkS4aj_dfBC46pI1LWJGGFuBi3ClFMva4YMCmybGZoaDLoW9VLtajRmigZFyUQ_u_VccSIEGVbCHi2HCe1n97ca0S9LAvhQ2fyTWP33x2WdBsiIUKU5jh35odZ00o4gU6ZXSRwrQZKooGMlALHSqE8CaaSVHVm8UOC_mdQ9cAxbXYbr_vT8OGyYzCYt6x_If4Os4rgkUbLg8V7pPSzCGTIk8BOD67oayHdeiq0pp3XhP-3fjAWPfvoa_nJo_ySok",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114173897024627397865\">Geoffrey Pope</a>"
+        ],
+        "photo_reference": "Aa-ngMYk_WEYQoKR5qxWlpQYvZfbWP2WZw_rfcsoFxNaOt1JZcPpmCkOTjppCihBeH1crNedjDDl6Djx12kVVJJJLrCJ8tKZqX6DCvHmmHVda_zcpUKtrNoLpdpNNqoZI_JcXaWqGIaQ8bmLmOBzKiBLF-v_0jNteeejecf1Ydmw6-vBlP5GE14fElLBTC8EB37UJEk9Q3gY-_DSb4Vk2b9y8QrW-X85FNoPLu2OC1uaf6gN1dctsbP1DCi4Ln3ZhLTBwwxt2W6gIHfRFpaLfoqhM3GSrHk5xSDMri8f21YLnp1QTIinoquIQ_4nBpSPkTylfHnaJ8KxH8kJRMgBt2nzmunMj0sl1eIHilC1oYqnbMkgbMg5ITILq3MrXcslgeLWB09q5LG6zUXKrXESe9l1h6pjaw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112563504297491450577\">ryan grafton</a>"
+        ],
+        "photo_reference": "Aa-ngMYCJA3OQakQILSr-lUfx6tCUEYTnAhZh-2ykdffh7zWYBqi1rLPYR-Eic-7GDxr2Flw_I3biAfvDW1oigoyMKN25r9pNPyAfKkfQsPtB59pxGt4diAVXqGLZch9q3LK6X_KwB6yrekLpLzT0BqfVEI8CLmjZ3SGSHK7pPGXehqlFnWsFY1s8cbewRlyNmYIj4VyRfz_z0NywoZOi6rEQaFPvjl2C829N_eaTcHsJtUdWiWf3ED8Z042yC3H5_8SHjjrYhLa8DZ6piyc50YFtHw_SrbfQFBCSuYBYam94MeNn2W6C1qo2vgU5sxL4T5n8ur8LTL92jRxJfb5Zhcksgcwb34XGDf-1yylT3Qbu03phrkVB_wPiUEdx8uyllgd4dqcIae_jppJu947hWgV927cpP2VfeqqQoxNgcKXjDIg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109154049722990214019\">Brian Baker</a>"
+        ],
+        "photo_reference": "Aa-ngMYBpBjtekuAx7Be76ngh9GBTZuX0S_BL0sB7NDGzSc_DOf--zT233GPK4DLOMqVbwZVZN5SyTndSGqz9C8s7cRokKVWG4M_qinLq6XuWhEBs9V9pX2QU2pBSXSw84Q0RbfGz3fFanQx95v0q1KCZhd8M2zlrR0kNFBUwVtIgmMdb25eyp8GmLYYpEw2hEBYIv2-XZ7rX9s80uYZr9ZfrGXGhbkegX8ukSpScYl-b56gasPbjGL41oZMIKF5QX9NhjvpE796E96a5g1QD2eATeYuy8Xkf8YePZvTc2PGC6D4F4xlTLb65GiF0N1yqdx4KIUD8Fs7n20a2OzxhwkCke4is206dsdC2QoH2jmk4CAjQp84Jq4aarbs-PEaEtRzp9tyN1iPSzAcFBhcnvWCZ0io3KI",
+        "width": 1960
+      }
+    ],
+    "place_id": "ChIJXzWScfYWhIAR4hN2TjiPPsM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14068839757949309922",
+    "vicinity": "641 Limerick Ln, Healdsburg",
+    "website": "https://www.christophercreek.com/"
+  }
+}
