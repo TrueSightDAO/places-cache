@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:53Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hanna Winery",
+  "place_id": "ChIJHX_St40ThIARkAo9rdQ056o",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "9280",
+        "short_name": "9280",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8028",
+        "short_name": "8028",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9280 CA-128, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-4310",
+    "geometry": {
+      "location": {
+        "lat": 38.6516465,
+        "lng": -122.7792034
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6529745302915,
+          "lng": -122.7777973197085
+        },
+        "southwest": {
+          "lat": 38.6502765697085,
+          "lng": -122.7804952802915
+        }
+      }
+    },
+    "name": "Hanna Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103447739216473639173\">Jersey Tom Wine Country Tours Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMaFOThZ3UUy1tOtV5LoJdCRnY6KmfM3WimKHKqlvZOrlp2HeQjtFC3kb7KhUVWf24RFA_9Zlq83fSM6zj64TsREhrjw9yHdbmNNpIn2gRxMxoWwFN0STA9uODGTn0a5Ya4BY5LD_Vyc8naePeybMMGMMQ50zUNhEpUNp8y7dL8fVsqGVlfLSOAPlRCNZVSEcSNYXtCmRPj-tDFiknMucUc3hwg2piC1C8glOCGtFKs_Capf8GtfRlJk5dMoaxhfCN38wAlLp2m-wZEB7IoLaGm3uDwQwQHeMAHSHYhzI59KnurSMWFYjt2g49c5rpm4i3De5eZAHhoeFpw6mcChqG0ZJZ5iRSidPXRp_pPNWSsysIVhbNVmkhKWqwxqj6NHBD4bcWt8DKQKyCJsWKLeYbo5rQ",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114275233628497400932\">Russ Cucina</a>"
+        ],
+        "photo_reference": "Aa-ngMYurw4oAxwWaqQoK1ZT8J7V6HHngb5NisIaoe8V2p8tJuMxpOz8n91k8b76XzkitQZ_Wvb19_lOUrzqzqBxdXvydujNgjOkuXKCSI4cju6QEPbp0Cqe1pHecWodBiRb0fl43HaRL5HVzoe-VIQIZzamotBNPtZvekRju6mRKYxDjDRTyM0jB93XFji3vynsZZzpWAGOuZaLJ3cPxMV8ijAB_MuI2rf6uBYU2yoYvvIuMdi4UrirptfrSvFxS-KFDX8Q4wl5iGUWTEZphu2coaCHl5NkXYS6BZocrwtRKYrQTU9igs-GQG9gEGmfuH82L8g6ZhUOKkUHh9H_EjavExT4I63jJyD8vsaU8v4CplwhhEE1Pekag5FEcuk5SRK4Qd335rUNrbJbKP3M6rtqYwEppaXkFUnCZKkVUhnS1xcg",
+        "width": 2268
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMadUKy_uQ7mwfn6jOrWpKHXQ5fgSD0D41dz0uJShirpIudaojgmZpIEtZsJ-QCyvE3L2t_zM_TO_bjDYoqfjoKLji_flGtcOaGVo0Rse-QotBYAsdJ9cjRwJcS9sWj2oENOP38ViO8YxEJJI71FDFXMQoXMavgg3u2Cq5Lna2itoovvpCb86PK3N_oEO2jEm4S9la3CBUM5ZWhe5I28MPlIxJqTAvHX8zFsyOjZzTTlbMPgXvvyvhXYcnYvDVtGyKVmxdmuhI3rw0ofnhASbkKMO6rJAV-nmH41f7WAxIsH78D_z_9SrWQjRn9iukTgxe7Mul4b3zhG3tvakvVxC1PRmr6eoV9Zj-ppIuk3Y4UkdStNrbQD_eV7jpwxAPNpgYuS107QxVROGGYnbZuaImlPyA",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMbKRmN6oPyahETWFg29wJwJ4OIVxrHsM_CuLxsfwSbNnZ5w8KfwqZoU5XY1Xt4-VkMHj2lW4Ps4HZ2_y_ZorkkQM64vF--p5GqMv5DkhpZ2DDc2JqqtCAgxu_PH5k7maZaxlXzyZv6osG-UJxj9lqORAMgxrcCWME9Fh6lafQgwh2k0nBbPGFB8ffgFiLYZKWUXX5uQlSunuTjDBtwj95y9aw7YTStBv1MfI0ZUY4yRXsPWaXwifKRSJgFrahTPnBE48pePjGWrz2JRXbYTZv17udgvb5Ho6uVfUOrNImfohvCUGMaXd0lGY99CI2910iJkyXsorXjyJVmgbL9otY52mUDkRdeJD9iKcEdXqTavrND0g18KO9GTp20Rdq7bIDnzAr9CYV-Sc72MUzCXZLNgEmpGags",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMYiaqr1BTqE5KTEUxV_NMl4aIgmhIhtsdd5MObaUGj9rTwuyBZq8I3XXGTqVCJ2KKWfV2jRU8Hsj1WaWhb6FpvkLWZ3TtoIEPSfCd9kR5NOgx1RH85qC3ZOJP6USz7MgcSF_Y-ROpFz5X9tjBP5GODpFngwtx8LcOtnNed7TfG4BDs0jI258w8eWznJ21gLekEjNmMrdIDaHtfHg0K51AvMRZy7LBf6RePbnsWC_4_Hvr40VDnINasLVSn97_LbAbjT_WOm8n-bWVw-Zq5aOEV-I69HXz9ZNwN5qFb9Pn3XDCkPdYoh_1q7DsNtm0Fkv6NmxgRZpjXhnvtQoe_AWAQ5ouBL3aqCSDsgxHA4BpvL7_5g61gtkelbhWtLIJ_H_aIbstn_uD9Fru_qZtRogMNEs8k",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107532617546093193408\">Karen K Johnson</a>"
+        ],
+        "photo_reference": "Aa-ngMYV0r5ADJ3v3kKksfePgPU-RHOLI_tWfqS2031gsioC_2IMoTqR_5rqS_q284aYqbVUawzuLOMtJ9ieFcYc4LRkW17HduS220Aa-X9qsEeJxGDKC-4lNsFXb6PXYY2v6o1EfR4dhVax9OPSz_HgzEbkmu3bXgoK5hRRusQCDURG8fmquN0i2e-KN4fuX_Ph4y1w1ZNCVSFVAG5d7XIkzUOGQeodfNEzjPAvT5SoF5KH-VVBe5thdU1yLtdWnaAOZQqDraO4OMtWvsEOYZNcYNjIa6PEFAuz7UDyXymkluScS2CusYli8Oi7rw_53Cz8v0GBefQNEh55xKnAKlXGJxouvQ3KUin7-bNhWT6B0zTydc5j23jDF-cK3DHNqncOLQG5_-j51SpCTskIsK6iWGO0TdXRtrg",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108223996904032633413\">Paul Murphy</a>"
+        ],
+        "photo_reference": "Aa-ngMZsFVnqWiH7SF26nyFN5EloZZALaYjvqHrUB106QJGacjRPaXxclHbw4tFgs62vVz_kKYxK5o3mc6glBQ4M6V8-9yCQrV8_YLNfW_gxyP15-SZ24nQqTiNyb8z3bfd4jJ_y3XUrjHq7y7mB6qZmgFtvul2ddf0q_CAq_-Q3zMl6lt22Aenk6QadpSfmA7NGMKLMC2xVZ-PeF-P8SVKffiiNfFPsamMXRoRMsh1Jji6EM13VfQYJzWe8a1qG9ZiJvi20TKpNNvKWm64UWy9n-L4d9xHbeHu44n9M57eYt3zkLUBvkFFl9Ob4FiEe3aIeSJuffXu-NjjA8a6HIg_g3US8WGOWWIQqxsnuIMuUsyqkeWtGz2XkBRBYtuBiVfc851KQ0L3ySISbfEnymTcBsTH75fs",
+        "width": 1366
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115026809402376095080\">JD Rinde</a>"
+        ],
+        "photo_reference": "Aa-ngMYFQQ3jGSp_Q7fEmPDaC-aYXxQQBedqi9EWpWUHpGUkgpuRc4FqhqHZmxj80BJnkiFaY9ElyN7SHwQf8ZfWG-DUbJvNWwnd7U3tETWdAY1T0ohDqIHw1fDhGqPEV9_Nqtbj7w34X0WaH01XY90-9iCkkbGoBxlPRdqHQjg_w7C2Zd_17_65KyGZWketYXDHvJar33eoscBDc5Ia9_xCIOBvtEkxLW9O9-PgSILCDEs03KVuFLsxCk_xNiKD3WvdCLyZfnPUhbIjKQhap-39vG7ZlQlCYQXO_ojF4pYfT_1YXZQUcM5PyHAB3jUt9EbiTYF_uEL6EzXun-0bW22rF-hejDlo3q4Sn4Q-1-rE4Oy2LUg5SwJy6Kk5hGPzt8lX1G4yKgjAeYYSHwWruzqzJR0I5qM",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107835575675408018212\">IBH</a>"
+        ],
+        "photo_reference": "Aa-ngMafH6RlpaeGjT9Eg4i4WDWsgacAZKQxuqAQcXfbd1luIp7XcBWvb10RYWfKT5-h7I84wdjBWjGJZoguSw-5M5zvxRefpyD3DPn86GFccZL4Ns_s-hpiYfNbzrUPgDMmjRDKN1gPTeNIZVAH8_ATqWhHrOxDFcAo331fjmNV0Zl8hr78CCg9qSg0-G5NhKqqmgPh5epVhBkDKzGIsVgHhARkx-hp4kbGLeAT95bmLYcW1Zy-gVlBgeiPugKp6fLGNRxEztCbQT9OMpCLtJK63WMI19aNa-2zLbh_pYc6nUEee3Fovp2n5WHjuDbLWwOkrjGp7MwCdEkXLVSHwf6t9ZSRI2wmozfDRSylpzS6fdZ3-OyMPaP1ctHyH-QGfuQQ1Qg-biMBiRgLuOlbB-1cGzvwDg0",
+        "width": 2252
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMa4mjyc-5khEp3k_0sNlKg5Xyio7-lGVypWtfb1Ck8tgNmnToTDJ78xRv0ecE5KA4A1t1ftZjHSK3bZiKEmlF7sJ-EFk8WymDIJK6Z0dufFJ-DwjSGkY3UZARAhbxClTUJ76iPqVn2UXtR7IsJvC5pC82aqfIo1Zsse7ZKw8gfm_P6-N1U1PC_NSiHHcBKyBBZw1sLegK1InNMak2Ww_EBmqKyfoiy5MVAyPCwI7mohUtB1ddiIcbpcYlafhtJmGAJ8urcxnXNfszTQmMFC_NlfJFffVrHo3hpiM9Ox5mJ7HClYKubLwIzn9MX9DLJCG8vhTVMUs3a4Zzu-GMUUJYFVyfPzlMbDKTI7QkXndQp1NeZgcMveJHSh6SdrMO-kBiHXiUFYqtTVcBs93v7LUbfJnA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJHX_St40ThIARkAo9rdQ056o",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=12314869794112080528",
+    "vicinity": "9280 CA-128, Healdsburg",
+    "website": "https://www.hannawinery.com/"
+  }
+}
