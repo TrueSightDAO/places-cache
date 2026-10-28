@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:46:22Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Napa Valley Wine Trolley",
+  "place_id": "ChIJL4G3v1wGhYARb98DJGLqLC0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "b1",
+        "short_name": "b1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1754",
+        "short_name": "1754",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "2nd Street",
+        "short_name": "2nd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1754 2nd St b1, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 252-6100",
+    "geometry": {
+      "location": {
+        "lat": 38.2966349,
+        "lng": -122.2924853
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2978793302915,
+          "lng": -122.2911667197085
+        },
+        "southwest": {
+          "lat": 38.2951813697085,
+          "lng": -122.2938646802915
+        }
+      }
+    },
+    "name": "Napa Valley Wine Trolley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109950473541386100281\">Napa Valley Wine Trolley</a>"
+        ],
+        "photo_reference": "Aa-ngMZae8VBnvYeyn4p79gwt3Wtic74ffGM4pLmQYndu7DvzbinZKmOh5vxc2oZusb4049eVqNOr_1IfeRkNKoCyBDBHCORuBJ61kO_bRtK-k-ybx1_Y2A_FV6bdBcBPLiopMTOZfahByIHRgEmZpjx-dB0cRh9Kibp1Kjrcm3axRRwdZODzh-HSdH3QAeMV9uFv06jQPzc1xEhdgh3_CRmwoieL3aXgexNIb0yfJxWzvKfkhKzJ6NO1OyPJam0sa0tynX456W8zTHYTFa_F7Yi_B2369zBmFpzOfChdPkSITHALngQeqDcfX_Y4kQPnd1aXvxEym5KhRwybHdVNAGgOfpjOzzgGB_dkytN63vnbihZXBgTmr0mHeUlOxnnWTcV42YwaXBhut1Q5b6ep9vOM_1hdB4P",
+        "width": 1280
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111140602409493334721\">Joyce O.</a>"
+        ],
+        "photo_reference": "Aa-ngMb1Zk-0iWAo2yv0K60Dv3aAEw3cHbMJn0oa6Ji-t53r6VAgI_QCeJsujk5J7a9QsYcfk65ej7ZeRJkhkJM1KHL-KREog-sT_BmwykGpS28p8Yl5D_udF6yhcxRcBnmrXxglGReZ8407Finq3gWrCMdTPbmGa-frrCD8sI6FllsUCsM5tGcjyfXGJYh2HPHLGt9ANzi5ohs7RsS0DwmeREOmoSrC0ZKNBnr0DFHe8aBVY3wMxtmzQMBPBFZpJAjhoSsjLTNqAYADursvyxYtP3A21WscH-2IlL9eMYaW5h7Aabjm_Wv3gYBIPH44gxZxq7PrmD2ZD6m8MiQIKNkhYWVXn5hNax68_1YlMjPAPJReIZvHgu9yeNdSTNf9BmchG87Rn3YDtlFxZeGO0EZYAUczQaiLX80Hg2pOcZMfeEhS1g",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108687736424479319228\">Natalee Mayo</a>"
+        ],
+        "photo_reference": "Aa-ngMZL928uTw-Dd8nH-GJPtB4FptmoZ9WQWu1LM7JaBZwiZBDVKKEqJtESi0clAwCGL9RGDZ43ea-Ozjste7jQPRJVGRsIxrG8Moy1VcPrL7KWZrkpntoV5DmK_9zrKYM9rLhV2RCrWliawORkSD6lV2sVD6mEBgcfkjggsuuEZ9M4N3m-3pIs0MllgeEU97MIW8I4SadE5qi1WP2bzMNLOO4ngvIhwM0V_IfRyceODzlII6RFJZFkP31627NHaBZtjE-y8USH0zDcKpo_KiAV48uWH6B6IiZD-OVUCBOCAWZmfRzPgxyj62uKS_1H6baonFNe1qgfj9gRud4Dg2o0X1EhwDn-2GlUE9zXw3S_O1_QvgTT8Yec71WMR_SEoraLNwM_GSBIzvxy-fRWuQS90LdEet7jGWkSVTz2I62QdZ03dQ",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100294041107928709185\">Michelle Stout</a>"
+        ],
+        "photo_reference": "Aa-ngMadAvktNMGHEohbp_860cdkuXSLIejrxogfkRdSLUNuTOzeE3YH4dN-8AL3dHRHke8huQQShIcEY4UVzIrkD3GYxk9yn5Lu9Yge3VcuVj4lUHC2ZkMxwvhMyAS8WE7NKxSF9B1DJ_MYWF6hd4kSjy8MBXE8p2Bu54vmUlja0pxmXgCQIIR3ESMKdrR5SZUT1L3BmMpFxYDo0OY-T8yUAOShD5Zx-NAllrVZtJRtQFYlLHXhG-cmbdfIj7viW6oop6KZfTmrJsRdkyIyGxxEa1Xj7m7dcQefjbmRJjCQ5mTOv27SYYh9nQc9tUm1hJ0wYU8earu-1yG-GvXVqco7i16HAN5Mtu-SPTJ0mL4GgKscGEuc-9k4g_rKt9tL-o0pnF5b1AHASe3sOG4kIdeBEu0HKcBX9lpr0UxFKdPorlaY",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114216592109952672819\">Maggie Takash</a>"
+        ],
+        "photo_reference": "Aa-ngMYSxC-n5PdF8NXWLNrCgrllg-eQl7E2Oz1Fn721pv7dbGOshaMrDGlD8SYETNCXqo-6V23CpheJ67U_hr1mXkSwOYNbiWTaqOkam6HZ3M1HZNQ5Z0iRpzLmuHjhpNu0KXsQgqZvMp_39ObH48mce3mUexKIPDhndGIkMAUbA6SshkE1u9BjiiH6XvrU1bgao18Ry7Vaj7_iksHNuDLoDIp8HneCj-HTY0OVCgV3rSoDeMeZ1ZCD4WtWEtq8zOcHkfGaEa11STwp-3fNlJcX7AluO2VKvJhBvUQnUuBzEChk2K4zkd241N5kRhI2iRv9rjJajL_2V5_h784SdRI5CHIwk7z4K5kzPozZqJfdIeHuHJW8zfG0n8vZCMC5oNQQcMcP4vekzHHKsYWbGDzaZWdnukuOJWjK9xl0hlR168_3-A",
+        "width": 3600
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109407488059655092700\">Carl Davenport</a>"
+        ],
+        "photo_reference": "Aa-ngMbPFXW0ChJvkq7uWIibFrYVcYABIpeaBLjx5V8cLZzoS0GV3Ocqan7kDDcU-Pl3X70epDvuQMdueFAB8x276Sy4lqaWO81FxpFmEPjxOkBJpNBtIOWQUXENIz444sqMpfBH7Hm9v3Ag2MIeJLuRiNOS_Y97nkwUi3nvD4kEROFmWqGXvLTSva3jF9AcQ5IKrYDbtqzDyGjQatkM1GPXwAwx6dhwmxTaCOUhZFtsogs80djzHRDWpIVEglQzTsBGlqf0ybPzBP71AM9vxSpme2PFlY72kBmEGrbO0zajA90pKTZjuSQ2UDIxJCYjjYi50ayul2SW5IN_eYHZv5lirQrdC-d3XfV0NWp6KlO6SCWRYXCdJUru6eMpHs76YQgFJy4wOTnET77IxFFNSr1sXsLMp6v9_7xPeSFlV4n47qG2aQ",
+        "width": 4080
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111140602409493334721\">Joyce O.</a>"
+        ],
+        "photo_reference": "Aa-ngMaCtNjDaF3xrSecYUvjtrGjijA6J6j8_evfStqVUBDxhKeDygc8sVN_ibkhEPV7vXSeJzptskD17pnSCkF7CCYI2I-WKlbKFh6nBkgwNKdhfnHV3Qsv_Hiry1DhjC1yCHRnfKVa_qQ_UHJsBjOOSAQ8LmFmzuzlOXAmuDysQbS1werBjymmtHn_g1JSEhtTJwShB3A6LN1XOZgS9SUIF4erYlrAnl-y9Nzc6udhfBWVPNLKaWD4QfcJ8vP34DiLzvDUrG3tr5QrH4kP9ugd1LCyZpE9tEr3NSePnuXjuV7JW0EltxeYOBJ7lo94oZItmHcx3Lw-enfyb4zcCtyd3rDb8_ZcDp-DrEtMxdSYTqgGPJvO57EeabFTVm6Skx7Jr3rUO-XSpcHzAHWR_KrzbzJ-GuWHcI_NvaLGQD_31RWkGw",
+        "width": 1600
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100634901540077182633\">AIN80</a>"
+        ],
+        "photo_reference": "Aa-ngMZLNDF2zVWMN-SKn-wiPmh1v-1ytNlyNPAuLmwpRJNJdmvFyz_ro0LX2Y_y7S5SgT5tRZO4AxIzoDxQNn57EvKsS_kTttPlMyhdofsOtj9DY8AAmrq1F9pKC_-baJ9l67ohfnJML6WGB27vfvmSrbBG4y-_aw-zY6ElfzCnhrWN3gMvyBbhagrToCJIuhtIoJwAJFQsizP3aXD4ScIGjpVgBn99oywOKISZ__gU6uabzSImB1cV4Uz0WFVt13NuIr3BIM_dmjomf75Q_cYneX1Dq83QPku381FpwYNA9ObnvPxLNfz7AdCEOupZEQn54jtmnvGwkxxPMMCr9ANWkyuTft6eUv3aA8Adx6YqJB3xZAzeX-zJkjeOH79MT7vXXz8FTRjoiS2NSewQCZ9epvd6sZALrNo",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115225262202629764828\">LDatiz</a>"
+        ],
+        "photo_reference": "Aa-ngMZKhuZe3WQQcF_LGwWWKbMGate-ykfbAYjSka9DoidwN3UFBzYxxafmBI-1CcogXOzrp4SgujFICe_Ggeh_LztJEcIiUSiezI0zsRM0Ws4a1c9gytpVj15khhNKx1RbDUe6eCFNbPjHxaEyXCwA8UDLP3bK2Z4aFQ0Yl9uez-Ql2U3mfffttIgZZOWYXW0Em2Fffx13cmlr3VhCNfnbyWN8vnFNxVl3dfMMx6INciuJW66cc15WthJrWPomNKp_ekTfvUWKYIP-GEVtdKUPB_kjHKX3Dr2KOCtfLf2bkid42-vjQmYiufnI0_AdI-8aEebtfQkAwm2uZmKBLxkqc2GhyxzQtJLl2RB17UNHsZtBWYCzdhNTJd4YjOUB9pQFOhr5cXRqs67wUaWnnz4y5Pp9uM5UXsBSvTrJuqgrFpx2Sw",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112291175613964747185\">Ren\u00e9 Monterroso</a>"
+        ],
+        "photo_reference": "Aa-ngMaIDh6RdmnI_4hlQSn4YK1yPRjvkYrc4X2x22gKXN_vVnB3ivt247BGELeuOXH3fkSK9_NWbQ87sW0BMn3onSXi0pdMCfCJpYkw7dc-7_gGiLcv-9Nvoj3IG61X9ZvT7lbJAB2jd0aKV_KuHe1Jk9ofW3DnbWNUVz3mKXjMgGk7xJm2rQ4i6Jeod0iBxrpwwOytBPgdOl2VTzyoSGG2l0aAaaYrLvIqSdEc4vVcXqZ6L35h7HBW8zr1zCoQaTjDDBq3zdHAbl26NGSN4KbXU6E33Q1Odo4w-Vf5AtNlTjfuQ7rhL_MuOZYHWp14jtkWU_l0WIL7jz4LyAta5NNniqWu1NBCGpvT2KtoMSybLbA-8R-vUfNtMhpFg9UWECtpEoLBhdTbcBOIlwDpzIVH-fOu9a8upwwVvSHFGlk7G33wjg",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJL4G3v1wGhYARb98DJGLqLC0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "tourist_attraction",
+      "travel_agency"
+    ],
+    "url": "https://maps.google.com/?cid=3255234337913954159",
+    "vicinity": "1754 2nd St b1, Napa",
+    "website": "https://www.napavalleywinetrolley.com/"
+  }
+}
