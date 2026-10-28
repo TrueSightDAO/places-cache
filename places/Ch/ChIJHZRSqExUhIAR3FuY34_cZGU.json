@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:45:57Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ghost Block Estate Wines",
+  "place_id": "ChIJHZRSqExUhIAR3FuY34_cZGU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1189",
+        "short_name": "1189",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Oakville Cross Road",
+        "short_name": "Oakville Cross Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1189 Oakville Cross Rd, Oakville, CA 94562, USA",
+    "formatted_phone_number": "(707) 339-6672",
+    "geometry": {
+      "location": {
+        "lat": 38.4371154,
+        "lng": -122.4016838
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4385191302915,
+          "lng": -122.4004161697085
+        },
+        "southwest": {
+          "lat": 38.4358211697085,
+          "lng": -122.4031141302915
+        }
+      }
+    },
+    "name": "Ghost Block Estate Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1530"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3166,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbhXhIZMyLaRhGD9DH8qxjuespXs50rGEzv--y7DDZuiraefrkrUhQk4BOMHg0lYlP-aYKYVsWm5JNlnEPxB-FP8BswAH00jqIpUrz1BKbldXCkej7aX-7fryAuBFFXAm1D-RCyl5QQpiP1G8w0hiRMay_dlJWVPyJs6PbSLWc2rqkyh4i_bawhc3mKivWqpFpOSLXZEscvNIQYJBJUyRq1WTm8fs7ajMIVjmxkSjANSWfIJky9hI8ErxkagQSIpSRsavcagsLECL274c33_881U4mUDcJ0sgK9nVYSlx0OP6vQWuV5vHiD0BmoLkI6g-Prk-6Q95dH9PyhI5BmCBO5w8KMR7QoSoiswnOTyu6Rv_LGJ8jFeDpY-U2IOlV0nXL2X5mA3zik6aZi-tE8yF0zOKICqKk",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZry5QldfjAPus3-QkLTQmB9L-ACAg_9A9QafiZEbfeZZsboFwKOyU0sZFV6YUqEq7aYo3lEQsDgDXDF9CtTy2BXa-6g6Irg174kuig7Cilgf7G96h6e4hGK-MnwD3d0apdzy9hkRZDpZR1T4pntwJoO5GrV-RrjSCRCzDvE3tTPq9lGuPhVU0TkWAMT2525iKuA3y3DRSMMugXyMwAM_G3Ef4Cai6wUWUkuHCi05d3ycab4zpXcB94Y6sWGBlOIHYltrTBZi6WxVNRLuA5triDOfw9PbsFyoKldu1_taOdVIdqzMUWhww0vIzF8qYfBMWi8QXtCgtsabnWOVrLNCUvm-oClvaWalc8FKKiGbItvd7sh_WjS67uzFFNpI86VjSY9-0hoUtkSOXSwmRwUEx_Ilnl0wWlhui0P07IE2zy8g",
+        "width": 3201
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbtiaAtJdDBsgB3OmN5q6hu0DNUMG3uy8Om3mANm1bRqWEFp6GqymzWywydYduzIGhAuPcACHZZEPdnl7nWqFpWTHQRlwaP8fggfeyFjebxrtR0PTrLQfn3Vopop9A9vlu2w9UeB0WQarsB-hhmb5kjqJLyYCFS0XqGpVm69p_rC8m0qxdueDsP0SGbG3rrGPz7QhHn_pZiORNz0F7hwn-kuQal6C-3H38_xIqVYyWTKeaexfRxe_t3-jtehUxwl0GJYxlVXUOEns_8pW51Vc_e5VKKpuw8TT2dUa-DlRZh3paPdR_0tlxQ8h1oALEIRKCwr8__APiyXOoWLzEYi4UGUxUt_7sG5gnoEdklvJUbfb03lfDXzU1fumlcUDkggsSZc5x8dWPhYSj0uqgQXTJftDVpvzSr5SsPLT3jJyxE",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZvlBUl4y2I3-cweNOg3tFL-9yUGaXx-dPAworuxJcnB7PU9XfM-nXocaMvfZDibzZTBp6miim4zUg4VgARt1Ww-cTf1hAOZkpkZ5-HjfrF9uHOew3ew1G-f9q5fTVqxP_N1S13PcK-YSFwlh-mTorh74Ym0ViFavosyN61f-vJiLNJDZWrlNHFrkqKaVflTMRqOPu1qjKcc6qNrsOLOI98MZ4GCboZ2bg4wFQwakkDABfdMsSrM3KD3sW_jvkewlHF7zKYlQzbzBXvuY3Yq5SDeEsNvnBr681qzpNDB3vL5lE1N86VKnX6W0jsGwDNhaQfUYbvdgVgV34pJ7XFJDbq7CIT4ZOyQKgb04CxZXV5NN9B4ur2lL-n_BxL6yClfdX3j-1Hp-XWdTGCpKz8168SyG5Ia7PmY5fXMY8-bTN8ew",
+        "width": 3666
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMakynZFOmbijM66KsxDKxEyPb16UmnLFkH4pcuylLvnC8g-O4RQDkVmognrB9ftDdj5ABOeROtjtzg-EMROHrY-3t1KBqU8irIb5GRvXPaXxszTrJ60uNEviRevPIbVOd7og_rlywiX8AxZwXL5u7FnHXblxz7l4YhjJzPIFSCIA3EXjWiS1RPxgQO0J7Bs0DEldnK0Cwe64wNEPCKP6Ux8pIw5Pwww_TMS8NQSJS9HysrZ3ntkBmEnVW_y5-Bb2GriRQ4rd6x2jX9KhYN5o63Hxita2Q6UvDBUL6IrZt0QTCgMLudLy4tCR5JDMTpuHhMfZIRaPP-E9IhHkPE_3n_7u7H_UbKNrfEEpSNzADhF6eLHRXewLkyuOsoKYP4Tn1JXlaaPpqb_l6rl1lNGKKD-lwaHodsd9Ej5loJuNsnHbg",
+        "width": 4800
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbSy12GVYxx9JhzUCCs6AE3xoo_XHt7H5w5f9X0z4gvXNmRWEzdHWVWf3NP_6_oIyvZmOjrbF_5fM7TzRBEF-8cGpsvMqEoNMfpG_y4wxYcf4IhifOlPlGo8xPJ0XED0tDf4l3p6wOQneTcKJ4dq25wA7VRjM-f_aNrSb07VF8OHJ8oDskBnWHrCG5j9llzIiIAgNKfIey-Y3LwN4s8u58W7CW9SZERZxIHbP5lfGAUfFMwcMuHuo1kGxKaYgov6imW213XblJWj5t-ShWhfK7wSe7dkrr-oSVtZkCVX0vN5nyLrzSqPzpFCVM0DyuDguqQkH0lSA94ImUEtWQNwapb6iPEJdLZ8n0VKt6EyuwNtdGur_jAbzICTnrN_kQpFu4fiIsW0Fs27-ZcpbAQloZ9A7IBKBmOUEkzVnzo5SgM",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYYLn2gxbYHbaHmGgrzMZTGiQpXddwoC4OVKLM_lD4EQkyC1y0_2tj46YcxVG_CMvl-Gw3v53kjhuEQVpsV0dQ7-e3fAdq1SYNvdX5LWjGjveo3-qsPKDIxb2o2evZIQ4f7IscCddnwwNhwN6fu-tt4qnxYo-xelF5BltlHqMc955hzIPCmr6aGqso-0bsacAox2hioxWi5mEQNcGfxxm4WxS14J3IIWWEpRHBrJbMLhZzFFy200MF-9RaI_QaL1NY8lHH9xhVxiSwItJAQ3xXiyKTECEEFMdRR5ETcs0DElm-ZCIi6EYcO-reRlABX7gyExA9XbyRv8cLkC9gksKviZL7UGwBDGc7y5rAlQrER-S7NB4wuXK2OL-XCEuBab-SeX_f-vpTuUUUgYPDs9N2ohXL6o6vrr9Vd91g5dfo6lA",
+        "width": 3201
+      },
+      {
+        "height": 1400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109287704434768989338\">Ghost Block Estate Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYYlf5u_ly_hdPz9lVSXXnYTRioYJj8zH2-xuoouZzsWWjF3Qr2Ff_YDUipEQrHRQAmYXpGqrcNdpZPjUcBPg3BeAeWG3NnKwG9XHqChkpKQFXIOxL1FIXu6qkl0nSbMSGaqfA_Anz_DhJaU2V45qN2c8vtz6CXj_x9HqocLi5WrKNDm8B6qIr2Quska8j_G7ZdzX9CWVflCF06yx8BHU0Z4dusmVwv8bxSIS7C50RO5cFR7k-flboUkyeHX8j6AZMnA_VJIy6fdDPTa2UD_Y-bVyPXqTX6aAoGhMPcTsDUD3XDzwBnGbW1bxKbMjMJXNU0Cwkhaqhc4DWYi2POu_SW-jwZhHct0P_fTxo4r3pvvcODuCkYB-7RH3BGraKO6LA1PPKto2xLnK3p76dF1b9lSyk",
+        "width": 1024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115777251023997497663\">Santino Edwards</a>"
+        ],
+        "photo_reference": "Aa-ngMY-pWuqQsFH82kFsxWfKlbyA7av1u3w-PiRG-wxzWyx9aQzp0MqIaSBjpzb-8bgAFASX1IQdfennE7QLrIBmgPXTP46z-2vVIWP_YlklAKsz7eDl9DKzIzmq5pqslgnkvpHj-tkTrODH8wlulV8x7uY__hx_lM9y0cDWjXH7Ix0N4ixXbbjPwGSbXLEfi_Y8kn1f6OUhX2g7HssE38HZkn63RQNueiqYGmwJUkuOGPgz_mvg_Nz7OmXAIgjZkdvtPHhTYqosGR4XoEL2Ru_RJcQJBQOwJFN-gIE-YZ1O8Nj_-H4xSxCMnTwLUkZcAa0n36_-X_bLRTl2U_AAly8fuMB6g0T6y_yV6CdXBwAruzDlvBAQHgvl8JJYWzqTSHWtBceWilhBqjJuUttGbB_78sYvcU4",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115505913301352970220\">Sandy Hastings</a>"
+        ],
+        "photo_reference": "Aa-ngMYHqYOxaifhyn_MZ_woeQiySTE6mpla2ncm5iuuK8wJ3NQDYzeCxdLoLraoMTqmWeC_GS2wiY8deJN4nqdxYE2VW3gWLcRgVBYtaNh2kPThR0JUK5FFTRnUXI9MaKZYCtuRWvc__rLLc39c6r-1D70Hx-ELH_DCCL8Tp1nCcF-aqx72M3DCY_7zmbIOLyqeep3iUufRM5xbb09mDfo_oR034-0rhOpi_MngwGMCIbP15ybpokUi43PxwNUZBSucGnV9gPEMQvsYyVCMqLGKEjsljUcPdXsSm3yC-FON-wZ6LoHRTVihtC78jvCjT9yV3Z6Nq4dOywv6ao-dCFmKLsf51UZaA8KvlrBrp5l-IIl24ftnqr30nT60XDV07edfHRwHAD_sBLrSSdVrkvBivdCdNGbWk00",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJHZRSqExUhIAR3FuY34_cZGU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=7306207005991525340",
+    "vicinity": "1189 Oakville Cross Rd, Oakville",
+    "website": "https://www.ghostblockwine.com/"
+  }
+}
