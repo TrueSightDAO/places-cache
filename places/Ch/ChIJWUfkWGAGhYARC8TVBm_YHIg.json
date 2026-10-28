@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-10-28T06:47:30Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "St Clair Brown Winery & Brewery",
+  "place_id": "ChIJWUfkWGAGhYARC8TVBm_YHIg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "816",
+        "short_name": "816",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Vallejo Street",
+        "short_name": "Vallejo St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "816 Vallejo St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 255-5591",
+    "geometry": {
+      "location": {
+        "lat": 38.3049921,
+        "lng": -122.2861398
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3063481802915,
+          "lng": -122.2848988197085
+        },
+        "southwest": {
+          "lat": 38.3036502197085,
+          "lng": -122.2875967802915
+        }
+      }
+    },
+    "name": "St Clair Brown Winery & Brewery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3202,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113974177613526211129\">St Clair Brown Winery &amp; Brewery</a>"
+        ],
+        "photo_reference": "Aa-ngMbmVgzk0yKf89y_QMNNC1Vm1N1lex3eLkQuWCA4Y-6wGy0x-AP7Pm6xXl1IM9TRDtqu68C77D275Og67hLGuX-QbhAnSwgGGXAH4okJc-jmADnvoz3Mtp35iL4J7Ms7jtFH4IQ6XcyBhBej1AU3wZfgPYXB8P7vv2OeZ6cb6QkTdKjB34LQVqXXpTDWXnbYjFZfZlfN1Qcv6WggArnckKzxAraBS6smX3X5EE0qp7YLh3MiGEiXDWdmkaEmOgQyNXve6q6aMm3UTKF0Ix-HIUc8n2Tqi40aGPPUdYX_r7tM0Ddg-VLnJo7AHomuwf4z7qhqrnUniNRwvXKqUbo5UGUol3sqroL3dys26_4WyvHMqmyQfymFU7IPndli8U7EBng2gzNfEEj1P6tB6jJekjd5hSGP",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101569412501605709951\">Rick Jason Dufrene</a>"
+        ],
+        "photo_reference": "Aa-ngMZtois93q1Bj3HrMDf_HhNpe3GZOGvuCeYVDCMRiWzcxvQz3vd2Vpkjq5kF-LpDSeKW1MXP1KAdpNN6Ycqj1edKBxyxY9K9ejG4BR97abq6WRUYrMC65lX3pu-8DmVDvDCMYQJ6GlXxqrQPAIHnbfSlviasx4UmNJ9MaqdNS1Sbz3ZWoZjWCMdRbx3f59JWXcyExQWTwBpi677yXfQ-B6e07kpzVtnsAXkX5z0vHiZL3C1RVywq_q7UlbELZ_1e5M7s3WqNyA_M02WlOvkb6TzQKzILXp1blVHhFNAQn2QarjPkrytl4W1y6F6FKnIPvG9t9Dag2I5ChD_FtHCDGGIAadkvkWDIy3K2FA25ee5b1O8k7dePGpzd3btrfX8x499G25hdT0QojQIRd9mGQRWowrc",
+        "width": 4032
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109853187820101514695\">Michael Mun</a>"
+        ],
+        "photo_reference": "Aa-ngMautXbw9avJaK59NU5ACn8tCP9kerldBEOGdIEdgoBUqFmx7R62k3_BldhMLd2RQ4nIx_D-akguyucErnTyNEH6phKu1_hMm9RorTrULssGdOn-PufGyfwNZMQjRRjnXsHmtCFGnA-RN_MncEvjm6nn3nBgLzHOYaWHs0rcr_88BH6v3ICP-V_Ykyg4G1PWwHu6jYLLfKxeCiZELKCwPB7pk3-3Gd1dbJnTs75p9dbM-lxD-UlcEYnJRV-0Jjq30duddjtpFOnhaUbHnqsVDG_Xeqy8WsvUmnvYPXQhUEBU-_NR97Yk1uvmer0IpawvxltdVW-ctpxwmQ3xZH2PDSp__ZNbcIzdChKvvkBWaL9avukqN2vmE3XEvStOGWBGuLowQ-hDVFadH3_yUzoKSx9wR5U0",
+        "width": 3072
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102318344788353619319\">Fumi Shingai</a>"
+        ],
+        "photo_reference": "Aa-ngMYlhGg40z93I7-r4oiC-n98liYLph_4Obniy90IJfB4PDLsN4_xfxhhjWAPbYgcGMGN4h0TL4mCH-_UMr74C5WgbUfHX_yhXbs0aGep_etqZNlA43kGwFG6hqfVyg7fn9MUvYCk3GIKOtvbmy6WUuoM_08nOmZwlJQNbCAOYN9c-MW4C71ZAmPi64HTMna5G5B2O1bVd5S2xHwWdJFn2YCDfwk-zb-JhEhb-dBGoLTZb028U3RAs2DfsU0GJQAtEcnL57B3BrIgIWoTR3d2tOPlZ7JiWhGXWvLqpM6iLnbWGaUGoGv0ICw-Kl0YOnWWjPXztpfDXaxxWeY-lVSEXb516r169K8gxpSilMb1KFqmt1-Oc2fKZ7wuSyxGtnVDXaln-meSqRWhQRkxK_Oa-CTHfmDiq9iuot5y6l6g1Nrl-w",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104722939578095851590\">Jon Hayes</a>"
+        ],
+        "photo_reference": "Aa-ngMbOwH3LqUMGAsmpxWPhWEKh_pf7QoKUGEWu96sgZx9ZCG1AI2FPbCS6zcV1L8x9YhWlbSqrWLxyn484xDKAagZ1Csp8b33SUdYmyXpM3QOwTTJMIUY7svam94bnV3-R0y6-AtbtMr_niNQCIcObtKoHfFmASqDixF3Aj1jA_GypSYEWOAnSzW6ZkV9nQIz6pOZGYJ1oJY49isK6eZ1E6NwR_OqrovD8fjIlrQcMT93_pZKwQG67fo3ZH-39dwtuew5L9oUyzSeeNwv7wfJqCAUCvw4WOedpTXOYjODxxTuh0ZpNfgk7wdK6S-d8L-2_4vfk_JojhOKrl5FhYTuG-mthgtWOV2T2aNnkb_01DkPMaS03I_bMOHoKWLjf1zds5zJn5W3H1HdkVLKpszs27RZqN9o",
+        "width": 4032
+      },
+      {
+        "height": 1003,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106256348967581700397\">Laina Brown</a>"
+        ],
+        "photo_reference": "Aa-ngMbDQSvg7vMRNIexNBzGIImcikj8xgK39F9j9UCOA2OzHIzBp_PFnSsFWYZPw04lLvRIOu0hTK0ZZRUHKFOXnDQH7rHWt0mb9MFEYDn0yO__L0Byu-Z5HRNyv-kZMKLU5Y-6vJ8lA9CpzkPvGPH9bIiUL078Cihr-al-MbrEdmmp-jK_wC6Yt5pZ7ggkNKgroc0nmNyOrUotRRwHatQdhhg5WoNXLkPfzDm_B6DjGssNP_5rEtjQyhh1ucwjSwXcblXjfgOp4ukv-9OlKZaA-K1CIaJe5b37-XlOqw4bloE9hfAh3Iek5uFkH6DhBgYyyDcbk_lXg_ZlQ6t3sAhiwr_Zu1UuC52BVvwQN60IkZE6488qntUQ0xSeUd1sp6ZAVei4Cai0vQO7vYLdQsQZe_WV0WxP8Vg",
+        "width": 1500
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113298560698223988204\">Mitchell Turpin</a>"
+        ],
+        "photo_reference": "Aa-ngMakvx3pX4kNqLtmsveyqIkzSWKNt2Epa0h2Y-w0FnTM5iCZc7PtIqMuRtp2qneBxzGH7yRCo7DHl8YaBJNovqmLav0tbC4DFSfWNptFvUi0cPDRy6P0l9IPisLRmitq64-Gb1feVItK5U0Z-qPKAS7cwJrfkR759LZH1Iutwi8sXYAirzaH569V81laTn_n2qLPeJ-8FvkCLEr8oMUo67wawcEFmR-2FvQ2OYh1sw2-ut2Cvi-kMg784AFjF3NJi6Eo6jurAwHOmBNI8M4aoZ-We7KiF6D57s5qwo8LDzk1ch52GtkRzFkf44yCnNhBQPmOViJPKOpjCsYrDCjX8vlBDudUxJbZ-4cRSTQ2KnN-d2yho3c49tNdr8zNxPtNlwdZIgNivc6IBqIgpzZPDpD9HzlfPXfohCXAJYBn67SS",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110964782853360863265\">Jonathan Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMZ0LyAU2iWmY0AwcNzfz5JAVyueJw_fK-SNs_QESmWSbgyOZkjJFKPL610WOjucdP4sUOrDGYgeO-mPmveU0VopCOwzkKlUgr32vkAbe9UwmY9x0_9jgp5LBngTzIWKhMV92Z46zd07REfAdodIXgTqD2n_sG1YQs1uYjBuRoKU5TrwBIv5vQFCcs-jUwd8NxFbEzggM3PMJiJKhrs0JoBsQAJ5E-_0LQllPbuH2JYwTdP7FKg8Q_xH8QvRZbLBEHaL12NirBxXNkqCBvbwuKplP0rofX7lrbei2CebyoopJEm0Ec0wl6qJJuVbq61E2JZSHvZXNJV3vyPQcbnydb3vnzNb6IwHqPlNoanmHeODjqHxy68qQZZBNhQsRX4GShEwaNmsRbtN7AuTUP22PRvihHWMRQs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104722939578095851590\">Jon Hayes</a>"
+        ],
+        "photo_reference": "Aa-ngMab0-QlQFF10pEBD0xbv9FhNCY_8ur-2UgkKJXKsS6DVva2iOTyFy95t8cwpqHRZ9JYq_bIFbaaGFhDKJMZ0fVclNoKeT5xqvFphvKLLpP8En-biMyhT5PKYyj6ElZIKIqm0IPUmzQDPHVzFPZOC57FonuWsk05cOWohWWksJanmdmmURbMeLJTcmPlPooXGYIPbtmJJgO5eWILEYt_98PKeYVIWqnod2mTSKgKWw7SpvbkOfL-12Cdz4nqOfEYS2ld73RcFMuoc4MIQs8hT5Xb2UhkjijSleCLqCSfr0ZIbc9vxu-lv-rM25Dk2qB3Dggy1R-VzGR1Q3uWlMTY-DpUUSq2A-nUmz_If9VBsiq8xQuMtG_-_CHwxpwHtKnZCzfWbyHJ3NFomt_DzaM5jB9KQN0",
+        "width": 3024
+      },
+      {
+        "height": 1310,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117657108562134329218\">Coffee N. Beer</a>"
+        ],
+        "photo_reference": "Aa-ngMZRQvsE8OvIO3ci4DZa1sAIuHlC_ImYSuJRyJmRI3CVrqqWK5j6bNoeMQhD7vjCUCj9l3NePu8K9OqzvfO7DxMFVfeyDTlKQq8UCUt_jqZwNdb_7F3RYkM82rGB-FIYZeq4ijAMC8kkl5UhlzuKAgGablIWnNjDa9n89yAIhGkvC2xkYPDGY4mBRo6fMBg5gO2gW3JURcnoPMvltXkK_DvQwKQy5giQfi6UYsY3HPOZTOE51fCzQRCvUNitagxu11X9Y0b3k9s74QXJTAXLLS_Sv-x3C-L8wRfEKx_P7L6f7vLT0xOn6FauFG0V3BWGcKgIZyQ0Py7lHPFqX7N-14BFi0jIWG2rmxL3-03NEob5MSYnBQl3RhaM7Aeq4z4PWTO_hJBcQiVRIjShXqomPa74_l4",
+        "width": 1048
+      }
+    ],
+    "place_id": "ChIJWUfkWGAGhYARC8TVBm_YHIg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9807952059873739787",
+    "vicinity": "816 Vallejo St, Napa",
+    "website": "https://www.stclairbrown.com/"
+  }
+}
