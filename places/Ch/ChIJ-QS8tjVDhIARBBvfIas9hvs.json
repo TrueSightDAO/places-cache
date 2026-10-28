@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-28T06:43:39Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "The Village Calistoga",
+  "place_id": "ChIJ-QS8tjVDhIARBBvfIas9hvs",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1329",
+        "short_name": "1329",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lincoln Avenue",
+        "short_name": "Lincoln Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1329 Lincoln Ave, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 287-4777",
+    "geometry": {
+      "location": {
+        "lat": 38.5778877,
+        "lng": -122.5796097
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5792026302915,
+          "lng": -122.5781322697085
+        },
+        "southwest": {
+          "lat": 38.5765046697085,
+          "lng": -122.5808302302915
+        }
+      }
+    },
+    "name": "The Village Calistoga",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMa8tmEGUNyVeDJHATvubIMYnkmpo295ymHUHs8GCI3nA4l-Uahh0arFQ70bw-nQ1UiwGIFy1F949LwyxBxO1ZATxrINH3Cvuf9Y5L44C-oms_f3uAg0cvnNROQyHkhcwKSvRbY54w7WNUqsAKY88e8RU0PUgmZSFlNGVRSBSVD6Mr4WyssgjCPNKBuc9Cc6fQwyzutVTAbzJiLJofWQZZIHajMZe1voBNUJu-H5xtsNjSw_xmmIRO49IHz8mBk3HFLvOb8Wd9wrj8a0kyaJ4jNLwm8Z2tsOppWxdwyY3VrNJrsr0bfK3sgaUvN-X2f4kAquEJ-tRvGR2qujWrva-nLvHaqey1C0WSMIGozXHzvnEeAly_0WAHsSGK840th2x8pM_ZhcowGFPds2V4u2tUqUPO4xZAdUl7k0LeMnHfVG",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMZzfpbuWjp6Y7e_qDu7CxueWFXlnZUcTKjGZpPQjJbdC6sSPcqLH-D33kDTvwdF1b8NoD1Xp-OtemDfy6O7HW-OfxpZyFj-IdfHTrngbVEabpw9qfYLZ-LtqXUJTSOmo0Ex2AtF_FzWkC3NNSF6C31U4PK0Wx39t3chR2VeypRZk4iFyqxHyW9FLWf2LbG5fEvg64-wajdh-WLZeVoIXlIGq_1cTrCmZ4fcdg5eVKRxXcUaheaoseL2yHcOtWXI3fWuq8-UV-MOofZfj-tF5vcNnk4oz6cuUf8F-7sZuwMc2lmcMZNTZF2lZQcdOUwAP9JC2PDSrTdkrTvUMnlhFjtGlM9Pa9wGTLQBcOKk7TFqo-y7aVt73UrV0a_FqDkHZ2tzbXemGYUFROBeRPvI3ufhTjN-pyrk3D2MHcGp7vSemg",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMY17yMWE1BSEQ9Gs2MM4GoIvxV3HBv0RPu5MCcbQ5bJRLWXnQoY-YdJ5KHeVITwuS0RNdCdYQ-Fndx8q07Rdgrkxh0uC4-h1fBNwzjAyf5yECHHO6WrGesvpBN7l6pfczD_poRhRF5dpPq63L0Hx2av6JWLaibLnAs52_NkKOea5RyaDVqIpfGBYDueftkuV63aI6uUu8Bq0XuiChfadkWAAEqoDiglEAaUOp8HCxJxRFb4iOJc9UrqDywprhVWd_nzHYf1sfPaUDSkXizYh2BpUtFb18qRhnME1UEfxgEfNz0BFsQ4ZgyMIrPeuqQ3LpxHv9O8_bsTbIRhJeazjHclo7yr_rYwW_z3gqNYcWPZZX9_5lT6Ey4auDOCq-LynA_MFOqepDZZzLnpISmPEnXuwpJmITlv_jb4vGWWSQ_o",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMb5J8_OxUtaXDT09A_F9ZISg1TXQTExxm3NOUxLq4cOpTe3o9meo226gVdxn79wbgZzSvyokb8KRYu0n-_dCUxR3ivLuJUBSPUNzdXhp9NEBqJhARD6FYRIuPhGfwBu6tzPPw4ChBJcakGfHP9hg9upt8fhYxm-wpx6aaSJmKziDZnxvq5SqoGP3nqd9Qqj0gUi4ZjYsQfMFB8BGa_jCgqW0rbrjTY8IanfMbf03ICBes_e8b-r2epUvXhem5yQ1mffmjAjGCmlZvd69ca6q3OqotMHVgtMiMcJ9o0uOoP4ZMnUXeA71Irt7Th3QX8g_PBAENUy8Z1NfgUsxl4leNYFeri-gPZq8HcJCzJWslWLPkciPBZGYW7SoVMuA_G-xfFbSSPgqdX4M7df-rQDBLUSH3fZmtMSK1WynkYKt9LCtg",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMaYpE7G4ZxFpjLrFIPfPr8wBxegV9tdteDA8-ZP9c73_uFPgqjmZXnvz2jwQYfrUFDwGVpaHZTLru8cjPoCf0uOjC1P5yQUCeEb764iNt9dTnpVojWi22a-0YjGUa4vmiHA1Ypq5mT00Zhncer5L4IvUsJ39zHoScW8_cZRRB29ZtkdZ_bL5QaOfYIaSa-jTryRl9O5GmZpMJ2TaibghUzWkRDAA5_wQ7gtPpo2r9bBeXG-q0jHBmAfKAWe6txMIdjbp89pV5oYR8mvNbXjmOKKE_Jbi3CkUZ5ERqGAvz_5Ptu63hEEEx7VqvTCX1e8s8tZHDRa-ZbBsOtHSDEQp-jYG-YVArS22_RZvn3GxwEKfpVlXKpJw3bmEea3qdRHkIMrAJDf8kbPRuPW1IMQlXoBXHCtDIR27qwe5_5-QngJaw",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMZQi3YwPY4t8wUNrH2-PXsGUrPgExrQoj87wyBp1V2z00bbrWp9Dg9I4EAS6ZN_XNufAuH2K5Zda13uYw-jgT71KnjUEQ-F_XtnMRmQnYLn3j6jQWymum54drMJs-lAET1R-slCHQQ3faKxrB3KSpRay6AAJMekbbr7u2wFGDEaWn3GAOoEvOcWerqMRLdARfA9AcCSBmXm1OybHGmnbTnxXsY3iUisNDVuRiPmQy75E9IBixtv0Vx9VAGk_0dS6cglFUQTnPCt7xSelX8YJTLLT6sywvwTZVIimXbKmuhA-5TirrLih1_8rM6AbyjlcCqyYspJvFAQDij5xsdKEr79LHwD4Mlq14UlK-mo6isLyOUA42FasKZWrXasFjoLxff3NlrpR0D7u0zwXFajK0FLI6aCBntkeTQlAhWzckKuCA",
+        "width": 3200
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110563963314474219742\">Ido Josef</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-D_n0dYH0_6w2XDbE70pyaMmflekHQRWpnSvX1RXrC8twqRYi5ps4BQy882ykvTcqbzspdzUiq7-q8p4eueSLmHQY11p_r_-l_DkWUP_P7ZkdpW-6t3O7P_4tU3XBNAGaA8uD36qy5judqsOyU_nJj956iz0FaG0QTHWx5B5rcsKKRZBL_f4BAi2xP_wpHznKnMFCXlUn5kvnkvBqFMQDtxMIFKqwR_oTkOvw5JRyxoVnhuM9Jpvmmj71mrMIzqIoA0xlEMpX-HhVnkH05hwfi0fo3Wrq-W8-okYhmTC9KBrSg9kmm-ZkNHdUIEIijlmyHDN07xPRfa8PYAPhBayfNZACg_lvOZVwuS2Y8c8u9Bkkrc3Sxu3QpjSnLco4NMJVkQr4-kXYcuTkr0_BnfdBf1pMuDU1IKIdR2_9d8wcIA",
+        "width": 3072
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115451641265321118619\">The Village Calistoga</a>"
+        ],
+        "photo_reference": "Aa-ngMakmJh3bJ8nMiHTgH6F4oL8wGJrGu_hycVGPVubxX2WLmWkyQUIXpkakKf_pnr8Qx1eNvwXLS0i1_HYWfRnXFMFBqu994rRjP63X0AZAZaLw800v5qdcNGjfl1rmmdWJ7o17vE0u0M6ff7nAXtEO-OYXMWZUDXGnieVdAdUW-TSLQBACFj10ZNQntbY4Ecb2nqI8hvYuh8l3wRFukNd3SNOOJ2KVSQ7-DNnYLXty-9eWYdmeSh8vqxY_KtG0BT7Fj9sxR_z9FasMkJE5S1rKm5dnH-NsD0fm1fPByMpa1AYaaQiABG06A9ffKr-4lwNYAgVc0jzmxUTrByunEk97AZ-6mILmVwW5AsNrPjwmnmfkhKJBg5qSE2gsZ0y1_vmsZpmpQNeFlrHXun2xAwSedob4lExn1VKT4iDS9huDNHs9g",
+        "width": 3200
+      },
+      {
+        "height": 2096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108075397469356440263\">Natalie Sheehe</a>"
+        ],
+        "photo_reference": "Aa-ngMbOTRSOQ4AQ0qgZQBzE87scV6fbsnw4Y6uJNUxtPkJ9cKzhdoq-bv-pBpdiuOgXvVX5rmZGqNLDLqxw9Bzly29KQbU0pyottSzefHe8-09sa0kLo4Rgt9lBsVZ8ySmgxCoUBlkf_Bqako-R2rANjrycdKFjaefdgLIKnHQDnS1-jNyhxwQy9leZLmzZi_QukCFleZGN4LiCV_FXdbRqnoB8mbpREJEKIxcCei4tBCKOWR1gS0iybRQqkx1d6G8rMdSz4mgID2JhDEv-_--64yaW3gsxdkuiSlz-AKlN3RPzT8xfsoF9WGIyEXPWClHu4wRDgCB0gyP4lzgU_u235AwU6fbh1Jsvt328cjhPKQQsu0RKCtjmK7yImNbSwI47a4YFh-Jy8-n1VUertT0UuQrHkLLh29me2FDCMr_5c8a4",
+        "width": 1179
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104633394500411555113\">Rita Conaty</a>"
+        ],
+        "photo_reference": "Aa-ngMbp4ByWY-6oCxNJAqr7Asc9mISbFJ9JJSVJ-hIi-3_JHTqle3tui8Lnxvq7PeIUu6Mkbv9i1u8WyFT-qIxaoyqcvfGnVDmphiXYt9lMfWLRyOZbu7ZCmPQxcxWMqbOsawBGwHqGY6803zrjYL7ocpjuFDLmc_7rTrqbDKrrHK5pD_nNPqkP6b6_jspe9TF23GfHUszwqcLqU3pe_vnRC-Bdj9KEPwNCEp5AyDXXu-FZX5ML7d-SHAXcD2hMUoCAwEanggCGzzkG5G-FNML4k84Zo0rz_pv7LDcqMKPt6_vkq1PYvsPiiANgQVW-qPDzCUpcONgnjOQql9--DtUXRsgVXPFlYs7PkQw0VLm1WVQPrE-hfERaWrPZTZ7cg6W9Xw32sa0UxsbqaC21Py2254m3lXtujx8Bkhn-61ZaCubo",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJ-QS8tjVDhIARBBvfIas9hvs",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=18124241555616111364",
+    "vicinity": "1329 Lincoln Ave, Calistoga",
+    "website": "https://www.villagecalistoga.com/"
+  }
+}
