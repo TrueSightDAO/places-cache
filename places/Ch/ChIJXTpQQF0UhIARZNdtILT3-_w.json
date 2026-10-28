@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-10-28T06:47:40Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Lancaster Estate",
+  "place_id": "ChIJXTpQQF0UhIARZNdtILT3-_w",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "15001",
+        "short_name": "15001",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Chalk Hill Road",
+        "short_name": "Chalk Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15001 Chalk Hill Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 473-3910",
+    "geometry": {
+      "location": {
+        "lat": 38.62548779999999,
+        "lng": -122.7740296
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.62698273029149,
+          "lng": -122.7726086197085
+        },
+        "southwest": {
+          "lat": 38.6242847697085,
+          "lng": -122.7753065802915
+        }
+      }
+    },
+    "name": "Lancaster Estate",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105553041892842043264\">Aman Daro</a>"
+        ],
+        "photo_reference": "Aa-ngMY8jn3tHX3anNzua4jVgB8WNDNUjstWllVBogqNQPsgF2SvdrjxfwtID_Z4MXKiA5z5wY1DtEBLzCGVP_8LxLpfN5dhHfuQ9RT4L1oubD5xcncg7GLZu3PetsAcFtnQSw0zs3IXhFILuUx3j2M8tMd0hCaiZOKlz7So6gQ9qJ14cK2T_fckmKUt1sq8RF_iPHYuwfAXJ8tHx9Wc-ALzOxDvXo7drdGZt5lEXNQx8A5wmub9Hbuo6Q7XXozXBBtpko_MWBe7Zz7d8SjnFfM8m7I4wbLzCKcMxufYGRgpk7eozoHLl5WZqjE6gEreQbJZm8R6TRX9W4c4LRFMsFdA1OWcv7sTqbWsvSNH84gaHiq3N8SZI9Tb72Oddj8QAEn7_dR8dmYcloZgtlcjQVJESGNFc8qj",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726302431565062355\">Nigel Merrett</a>"
+        ],
+        "photo_reference": "Aa-ngMZE4va6ndXu7N-XHxetS9Fa6vLbSwkg8yEP8514YvBIevOOlKeVRtybA3W3h-TzKx1JNMvP22rqPmQuKi1XFj1I-E8Dc8saM2lmPGLDCzAarbfu41k71P1-digZBd1ymPOVIfW1S0AvUam3DGCZcjpd7dtQHm2qpjkph7O7A9cF0J0DtuaZqNjf5K0i-UavOfchy0MWEqHxOegts8YqYcpJhLPGmDnSut7jjNlDOOR292nkvVYmXUTzyQmnD5UUEtawWYzKov-MR8lJFhG_CvdSFluotYYwkEAgybddFUtoSEnyY6FOp549qdn4YjhOi4mREOrR6OwV7c645Y8TR8t-RA4qwVaJw7VEpHVQ7KYfGG2hLvYgi-zEb7jqlJf2HjhSQ6MRdRtWtxWXlA6Y27cTX9o",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMbXixQ_QIR-fYLzzEZYuVADpuHZVsbwyreefI4-NLPVU1GBV65mksYlcl_h1Y5eWIU31VYVUAWz7AxNKczI5uoXmXNEvwHFiKNOt_lnFmcHVZYptCsYceB489W_MhRpyYz8mBeqrs97a8HYrf3eBCnCzX-NDg4sjvil6pBWu5Jo4F4xgkta1LE1gq6who1M-aUaQlkFogdPBCCqLZ8B2fi48IzyyWUeau0I85E_11MbGpD-scww9v5Djvmzs85p1qboIU0Xd3TbPduUzBIQZgXe_-2gMlyDV0aP4btOZ4JOD4O-WOW7_DdbXw5tiMFmil-8UXQZN3N3E5NYWuBf2VH2BHYAUeA0HuQgin2LqBmdqZpon3Dyw_7K-tHDLhje9nm7IITUhVNByacrhJeWdVM5DcY",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726302431565062355\">Nigel Merrett</a>"
+        ],
+        "photo_reference": "Aa-ngMbhQVt6dYvIh42VFIsxBNtmpnsHhmhzpl1GyUjFqudXRyu5w9IYWeAbBOG2t5jBK9MMtY0E_nWPJWG4R2aPUwmvkx39tXTTLHhi4XDakEIFWR4vvln0rlmThcYedk2QBezYNUjX5IrsIacAQxWCgxCxjrNfW0a15pyosEgUH0XBMR-qXnLPfI_4-XeNgPXR6DTxNbgnrt83W9VoKPzeBh49j_Yq8xSbQbo1SyG84KrAJxaVcrRDpx6bkVp5dwSUVCjflSNqVusvnrg99mOCjc0E001Ef9kZUyRmSONVxtaXs5-nIJ5SuZbeywUR3AUSJQRCMWDvxLM3t1ct8jOQP7y5G6c0OXhR_CYRznOPYDL67LbwXwEemUr37SzX8GjUyxna-u6OHSBQXmjBBFWGrFz6EeA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMYJpgCwsbrDY1sggx41xIEpqXGzVwhFYxQPZnJuYB9fudb-fqrURE76JOgUBsFV8QYxc7YQYQpc8DAQfuH4SO6gPSSJULrIeIJ55IFNCFrEnzpEIHSWY9oELChuAgk7oeqDSoqNi1OdyiZndyfpMWm40t4htZDAVajxT0cBxZNjt3lVpF7kEo5IPXbGP_6EIhFFaHlCCXfKGjaaCljI7vozUIuvyNk9TUltJ_-v9AC4_nOR8dUdPcJLum4tLO_7s3DJosTqcDXRY5VBBpNwpfi55BSB3GDuOJcglUgEuOiQ7Of4L27Ut5yQmfjPAe3BRl-lYEjVPv8ZDQw4Et_RVvL_-bJfgLWGgUIsMIJ3-mfCJaE4pRkA0lpsazPoXgnObeE2f8jeXiN3cfL-1hSZpn13xi4",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726302431565062355\">Nigel Merrett</a>"
+        ],
+        "photo_reference": "Aa-ngMayaurCX67KazZAoGnngkgIKjErCkzczoqYOb3ceK0rwoMEBQ7GSKbHYJoqCBKvsyDlYAySZRnET-ciha-3vMxgT3wNvlVssSd-JCvwrWIeHP-DXOzJO1QHnlBfb3a0XJJLUQhcfiA6UXY4igHNSy10uSFu_kXu_bek1rr8RQnntmE7KamE8nALEi2tNxOW3QtjxPtzo2wOqDCzTlw7MPLRKukODSGUfWJDYhNlpKkA_yxpQPYqvA8udOOH0wYZQ8Cazxz3-gF-zdN3OLUGIAckaTq9VKWZXy4m3xi3XIOLxpVaD0xd6NFSVGCpQ8DLUUnvRZGbBJAWDhAB1mds5mwGIMIESKNZkyaStzgkORNnGvze_ZSTqX2u5ZXBT14_eSLhbxHS2kHm88b8_LXs4W1lOf4",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMY29mtbJOFeiLyqBc2GoTlNOd47mR-NALYAFfaYA1s080GOQEJxFYJqWZm_ONQ244UJf5D6xfo1klZ1tyClRVbTfZCvFldydWLG--gZKn8gtJuMprsmo_2ayfeGRvU26mWHfrzdv-IYJEyMIGjbxbu7XXHcKrOAdyLwJQj3cl_b1CZZEwgJFSHdhQyvh-UqF7x0RBGYwT7SGWLLlwh4tzjFRV-mnODrI_V34CMCJ_4wALHVuxTw0CKEv_udAiJUgOB3WSr0t-WbgZONNvar6mkf493KIkVuwld6_iA4gjBsAQiKKi52s70JEO2rOP_pPWWGMf1zNrkhnqrSpCzhU08gMl9BHTmWy0gU0-HVPkt1OJI45lixnoIP4mpBL0e49mRztLfMfohg0ZP85W6as26hwoc",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110014545942811821481\">Peter Soli</a>"
+        ],
+        "photo_reference": "Aa-ngMZZHUmlrYVsYi2o_o7p3FhprmwtQdSnFJujv5UGz7EISUsFaUDCRXBnWazfkedLKlsXKNmrXA5Bs6nMpbQ74XZn1gbl631UHF6F1yz8ADczfZAsrZtRUSTpVRk89kJejLS1oJJn--1yBlAa7M_3xqIZIwltk6FFr5kUD7qmkpq8BTIVJwg-1pS_EOg5_IEXjMQr5JCr6TBmhECt2h7jbbF_Ou4sQYTUYRhFys1k-lsjpC2Kvn-KXGjeLZogoq361GRDMMgJOEHoOOaZgaVSuX5h4m7ii2EoWyUiOhwR6AS7BwSjrzDY2Ql1GXIuX3aPdjHkWVkFEhanFscgVHHNwqApbiOEhWToRncqtoPelu5YXhHoS8RmaYdAJ9PzrIb-MOo_IVMaUPyor6TbbsrFrJ_cNyg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMZwYgYpyFoVaUrEbqy62eeWdMw5c3nYvGcVeeOpZI3X2U6y9I9L28TSxR3LnAMdofe4BBA6j5LfMcx1kEyOD2aTBhz9GKo1bbDGKZwlFFlQgcklgUgf2AdXi5pP67SdB8Z05ljhTAgDU1KedF8HZoMB44zJw_iZk6ZFkt702A2HNLtADEdR2tJHmpvJz5yuN53iKDSPhbTSnMjyhfpDjdphEYyj9l5lA2xnFwSKRcWJcUnTrsCCEL3mzpxIzj_TQRGkmpAjgCgy3mXc009Z_Du_up6YW1S_NUwV7JohV77qo1ytaeKrvRBzza-v_k3Nmqs4ozTj7--mHkf4NoqmLVcFHQLPIl7GvhtMqRpARrfP-Dt1ZbT_7ejuQcu877auj_NQB1KFngBO-KkL-EI0OKSpzpw",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107870105982103860115\">Sean Cuevas</a>"
+        ],
+        "photo_reference": "Aa-ngMa7t_6oZHdOOhIvWYSxeOrev-h19POUx-PnBvO8AY2MaeqjT9hfco_oTRtwJZ3ZOCAcNRuP3nBDJIS4BdK8gdfxyRdTMoUSk9THBAQKD7WfLnUFRw94sHPmV8xEYfQ5mJf5p9Ek0mxpy2hkqpagkXu_RwmtNhBOmIp10nBT2xmFCTva7uAmvWtQV5w8BCYY2tQuYORdcnMPFK-F1HenNKeO4Uj4VVnPj6WWZz9Bb1YY-w8xe3_lhkT3sXYgoZBXmnHc1wzZT60JAkw57veLAA5IBDoHHA6xwEg_137z6MDbXVlWxsPxBdVSGnTQGqmZm2MPIEvkunN_M4LhYCLZUFPOxYlcOfgmHP-NOscQNkQU1KQ0IKf9SKEtb2SnvFaK8JswtjRm2mQn8guG-B0XPc-8d2j1rgw",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJXTpQQF0UhIARZNdtILT3-_w",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=18229436269722457956",
+    "vicinity": "15001 Chalk Hill Rd, Healdsburg",
+    "website": "https://www.lancaster-estate.com/"
+  }
+}
