@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:43:52Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Kendall-Jackson Wine Estate & Gardens",
+  "place_id": "ChIJ04CUZdA-hIARiWQuFazTZUc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5007",
+        "short_name": "5007",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Fulton Road",
+        "short_name": "Fulton Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Rosa",
+        "short_name": "Santa Rosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95403",
+        "short_name": "95403",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5007 Fulton Rd, Santa Rosa, CA 95403, USA",
+    "formatted_phone_number": "(800) 769-3649",
+    "geometry": {
+      "location": {
+        "lat": 38.50697479999999,
+        "lng": -122.7729337
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5081913302915,
+          "lng": -122.7713311697085
+        },
+        "southwest": {
+          "lat": 38.5054933697085,
+          "lng": -122.7740291302915
+        }
+      }
+    },
+    "name": "Kendall-Jackson Wine Estate & Gardens",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112358605558488662014\">Kendall-Jackson Wine Estate &amp; Gardens</a>"
+        ],
+        "photo_reference": "Aa-ngMa6rA1VyTwRamogrIpN_RWlYegPiI3ullQxIGHT1LNg31qcpsCBQDi46vuCCMtSI8u8NaET-9wQEGnPv4ILg8wEut2cBJToQ1agJ0odJldHPiW430fqxQcLi9m2kOxh_A1_objwoGNBhZg-F7JcdrSOXIs-JynNWz-qfpfWIb_gIzfCG0c9d4ncpsRkfVxH-3LuXS8nZJHnIaUTAQPgihqIIQUShyYtmEKIaGR0SNd5kzmwozNDMdHcnOTozSmNcSSVO3h7NBWOTVFpP6hE7W9qoZkPFuyTdEtK2z3wWIOwrW8eEc_uYbJK1CuqTNUPHum5vktIkA4__PItCZR9IgEkY7LekgS--5TwkE8TTHilFVB-iQPdOjvXqs7k3IzOdhcZQjTwLUzj5XRVyTY8U_9BQ0M",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110682673819350612913\">Will Anderson</a>"
+        ],
+        "photo_reference": "Aa-ngMZgUqk4x71jfHvt9WlCZ0oMSherkPLgeFnKdx9VTvJ5Z5TpWMWCO4gleStIBUBa-wvg1T6hFfiZdaW8U90Ua39UtA1QW70oBsYNVnQoKTaE77EKWHv7DUeQXE8u6w4kukpTVTkD0W6MlpAaIci9D7E-eFNxvlkKgb2WylZ3qxfERCfnII7bGNnXpbhTZYqTSvRpV2KzPk1IVAubAVP5fTZheTICsEE9LjlWe0O9c_ekUR23QWCvJfk-I-Ur0dp3RV44FMYs4A3D014Inkxd4urcjUTuDcrUfv283R8OAwcvIFArfYp5U0dzHs6e_XA_gnuxNtbzkSc193gp8EN7WQL_hJC6OJHAgmbLewpmyG8cSJSSiDByno_-S4tY1zIlfKJW625RojHNR2QhDahvkNbE90T77WQ",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101761629147018447938\">Lee Tourist</a>"
+        ],
+        "photo_reference": "Aa-ngMba3V0xQwpO3iq8IODccK2LPWrn8HajPH1BbesHQQ20UbzXEOfuRnC3DP0flRhefaI6EXCW_ca2ihguUkpoNHEsp8XWaVgHtdeX8bUTYvWdxLztUyeKa7xXsE43qbEN8yiButgVydx-rT9D1gng8b4Jm08LACjxJg93nWXtlkaKPOakF6F9ilnCTpJnZ2M3OuPqg9a6Q59cfTKTXa0A_Mk-HfgP3Sj7MbBrsMdDWQLBCn9yvLQRcSXXQLFxwUSpP59PHQ94k8dH-F4HHVJ4E5Tt9loWBt_66pkLnxq_jN-6fFBi_pcDvXrjwynTF8O8W7CPKsRnUxFmfvA4IK1THURVFJk6ZnnxMYkX3daZn9aTBcLcfc_UPEosRU7lBh1zKA7K-BMQtPr3fzLqL4TBdM-gMKard_Y",
+        "width": 4160
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116336161755067489347\">\u5800\u5185\u4fe1</a>"
+        ],
+        "photo_reference": "Aa-ngMYSdMdOJIkIobAO5WmjGZVJ1TTnXxyYuHEv4I6bhUryuYAJ_kd7YvUSka4xhGQdV08yBBzPUueshAI4BHSqAIIF0a9ctWSQkIpWVdYf5L1fk4zpgibqrWGMDSXyzD65Ca8AXTH8exL3k0xuzTH7FEJwCgZsrKEaRcPiFPx_HE7W9NDwcJlnDNT8egb4BZkzF9N4pJLZBbbWraUqgE-bFPWE_Kv1d-KsRWkA7oc_fH6VWTy5lsH6eg60eR8RG2kGB01OHR5v30W8c3-0Ki__5V9aOczB-zoY11gWBzQmWRrRyaaaFGl7eLlJbL577T4AHBdMhBDAwRiS1AWRd9nT1NwaDXJAG9Ye2lWP8Kj4xjz8i9R4COG58xrsKgRC3GDwM-4rBsuRswz5LHWK7PmX1k7UoZzT",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107859705982603207209\">Damien NOZAY</a>"
+        ],
+        "photo_reference": "Aa-ngMaP56RYpHXMTVoqr2ILBFmlHqj98DEiLWzwzlfz3mlIsp1dhS2Z3JEst3sVGNbuAOkEx1jDFVfhSe1DzgdbHHsc4IMC5-XLul18FwlQ4o-fRZJEiWFiPZAqZAkJaGntjgWCqXpEXdbOEYlVLcWShUvefpLpjMUzFoDBWX8qHzlRmISq7cw5ky5pynt7WJVblpqT026G5GsdV416HZocc-2gh9U2ZKSNjSlM9rluH-NQufyyeJ0YV9L71CKeRRYeApM-5vRlXgv643xiyphSagr_mjU2-gklBKah_H0HBGFxX-f57qWJMr19zON7eVLDfd5bx8UXcSC4OVBgb4OYoS8iWMjCTf3L0Wn5EbaqHZnZh2xFaO0akp34NFvHCaMmOrJVYlARcvtdwylfyij8idB0WdpF",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365279048964396614\">veronica olivares</a>"
+        ],
+        "photo_reference": "Aa-ngMbuIjKKEwtXaxED0C3EynFy-X1XXc9ejHiQ8xAz6fDwN9AJw9X42jk-WqT3PBYvrz47TGg1QZUnTyPy1nbUSBmu7yK6BK_HW2HXLy-C70ykb3TXzE4lBqE4ZauSxnyXbylqAEEgAOTcmrYIkTtgmL7ZeO5QdGornLtMBdGY5wXiSwz6ujU5tE2Hr8MMtxNnvTOUnX9Wuc7pyxWcVbkCbvk60w-d6q1ASmR4IOazvuTcoSbXwDpj_o_RXVP74HRotqZxsuRkc2azxJKIsqFn1ZoPm3YFo8_x1jvCSXEC2jByPECge05yu5OKGmYkyWO393vT1cAXf3sQGPHffXgIlymEHhQIhZy4HT_IRd7C13lUOOYHSvsAfWytCxKW2FsvKMeP7oul-7_yY39UYSjy1NcDRe8zAAxV8FWcZGxpZvrJZA",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113402378191561116916\">Christian Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMYP_pgcCM8XBCflgQLKqC6uXke4ckpVfHQC5y2CjMbvYtc8hwqTcQUACMIjco4wMhXOmOH5-5psjrr7FkVYA2HRkkwnUal9D0p5W9AVz-_o47NwyIaoA9WudbN2rGrYE7HP8S4XXhAGOui3E5xoYdFCAwPS-cetF0hJxrcVIugJP6B1ig_w3eTNC_IKOIpGJN252_bTaVEp3onSn5ApT2Q8fkxLhZ3k6uC7lvGDRg7PiY1NTZtTv4pradQXcNGRJ8LdzESxdVUWB7CtJ6oNuVNYxoIQgGQ4_5UtARxyFbCELPyF5-RJcMJKrkXYxYOfnQGBS-gRe9l7qeR3AUBOcrJl__AuMFgchheLSnJWfCNboKArBHXgPoCoh6vBmGh0W7Bbu3Xusqtk2DLAz1qv5qj5l0I",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113815706094247712601\">JP Figure (DollJPF)</a>"
+        ],
+        "photo_reference": "Aa-ngMYSfmqQriTmuySNGay0rj9NR3t8oktu4OAXvJhdMp5KkFIakqULamcbjbzEacnT3qJWFh74RB3AYgrIYFBq7ZHsFgmwuTpERL9QI9QapbkBNxV0bnU9M8fieF7U2mn6XWw1QqP9wQDMZy0SJ9icqbKbdQjWRR74_OqKnOxmAPoTUq2KWWLlKHMwwlXNHv9vqIrDg7pNYQkrTpM3xofx8g9Maxa8JKbBtc303mfyuD6A-mV8ABXl-eyB1t9PZQ21q_VxMilxPY7PPl3P_zCDymhF1w5eOdckU8O0-5jjJSKsIgOwZqqLjlAxEIcecYaZoq5xfnRxoYy0GLd91Jplefy-slETGkGsqLDXqYZavvmoEKWY0sJN_0-4nb75pwi2CdlqgXBXb-PTPdLmuaaUDohLVoSZzKr8FsjsYS_BELYjgA",
+        "width": 3600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109897262107110916507\">Rosana SP</a>"
+        ],
+        "photo_reference": "Aa-ngMbtQL5373yvYVyQpDNVDttYpOj_ruveb6VR7-sxrft39VSOf9Pougfp4JKjTARBsRc_Pv7dwOcV1ICtHwTTB0YU9_Nnc8eaQcMZXcpPx81IarUTcsPHap1XExdKJQDdKfOMa40p7jpUw6PlVHoiK-VS_wgxICsj7avWFJGX0Ys3-IsNax1EMq9G_9_LAYwmGzZfQeNZU_2g3ZUUyrABm-FoZ-ElxPCdD0kGsb-OUgJ6t3SwRoxgmZ0Vg37OIYc86hDWgIrjKDzGRijQxzfwxKLrEd6ghPMjvqXnKG-CP8cQR_JSkgy5OqnyeYYIcII8Q2iqKc8KcP7PQW277fD1H6rOgnfSuRdzCov6Nef34OilMAhfJ-WvFpiOcDfS85aD56mMVpTfRqP4OBHrNK5Qg6ZImQ",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108629154491609269766\">Tohru Kao</a>"
+        ],
+        "photo_reference": "Aa-ngMathpOA30UTUJNDGxwn2851kK3k7WdAWTFnn23zlcSCxURmZPaA3HyRMTjEtvfX2r5ucZrnPruFS14XBQvOYQEDMFuG96UDdIvtCusfy0ULh-k8uhgMehAp3XweLViuYTkm8_-48D6odQCZJhbP5V35XA3S6cx-mPTVW-IXTFaUvGrZ-HG_70RquIIjDkhz9VLdFZvYdvBS1PWNVjccHWY_LE9Yv6ELFDR43KF85S9_4xuoqBy9wevtoYeQ4rfep6CYDkQSc65J3SYfobv3gr5wrzmGa39w5XKqVN2hruk1sz4NAOdjZqpzgCVDhSUn4Q-YAqqYveSo-UK2FrVoJElGZ7gJSPqWWf1Wc1owmIKLIBcIBuZWR1Uhi8b97shnlXxiIOuwrziuPL4K8D9RHqZnuVVarzA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ04CUZdA-hIARiWQuFazTZUc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=5144750885383857289",
+    "vicinity": "5007 Fulton Rd, Santa Rosa",
+    "website": "http://www.kj.com/"
+  }
+}
