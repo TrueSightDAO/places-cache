@@ -1,0 +1,255 @@
+{
+  "fetched_at": "2026-10-28T06:45:35Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Keller Estate Winery",
+  "place_id": "ChIJF96adQGwhYAR53wraw9aTpQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5875",
+        "short_name": "5875",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lakeville Highway",
+        "short_name": "Lakeville Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Petaluma",
+        "short_name": "Petaluma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94954",
+        "short_name": "94954",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5875 Lakeville Hwy, Petaluma, CA 94954, USA",
+    "formatted_phone_number": "(707) 765-2117",
+    "geometry": {
+      "location": {
+        "lat": 38.2003074,
+        "lng": -122.5325661
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2015331302915,
+          "lng": -122.5312281697085
+        },
+        "southwest": {
+          "lat": 38.1988351697085,
+          "lng": -122.5339261302915
+        }
+      }
+    },
+    "name": "Keller Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103372554924358562000\">Keller Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY3zbD0Hgi70WiATNc8vJtzt_qmhecL1wiVVKGQTUk4ZzwJrPDQXquaNdposFe5Io9x1H3wLqi-ONd9o8yK37K7YMmKIAHPXCD6MizlpviJal9vRwjzm4xcsZAUpLAafL1bzG0ggJctW16AcjeECDHHADBOK-IMlfzMqNtAyNaNTvRDfG8bjQJ87joPxK-BjO0XKLEX76Xl8AsAY2XA3j9msTTjfRf0Kp-ztbAXy1Nw9OQ40Kn9jPO053ijemx6m3k-84IcKqOUmu1woxFg5r7_zW-2XMYH2rsFkQsqo87Z6xaGgUqhUjFGtbEwyxRdWcTVaZstoR96nUMJKzdNwKteMH8MmRcP7XmKuwHmKQvNcsTURZs7PssGNae6erBkzyQI1u4chLGCnPbvbZux0CSzPzw4y_GcZTApQqgTyzwdeA",
+        "width": 1920
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMagWrJxlVNRIojUIXRuCCiyrgD18SK4x0Re83EwbFJ9iEZ_zkRSBLMLxqHcghiY03ycHW7N2N2d1rtSj-jR-hO7ZZ2VlAM5pq1xekshxvCjfM2FpYapmJBLJZCasmLuZzDtBy1ttWbY62zGqEZjVvrFByza6FVJ4FnTJeImfva1j1QC1srr__d5rF5VpVP_RKG4KVChqy2e9rDyj1r7EWU6ZBjVZj2juaSpnDcgPPi5Rdx7qbJBvpuwSc1cM2jBZ0hrrJ1zNaAPmuIlK3STXYy7ETQez8CpHQmhm3JUXlb_fvdI0dELWySzkzDI80_hd924yXc2FGNV5DTRsbaXj6tc1e4riVD7EwnH5DyPjQdLf_P6TYZwXJeseqK7OjizuxlExtGK0tVR6rUxVmOrEf64rA",
+        "width": 4800
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108849805761139219726\">Stephen Schoepflin</a>"
+        ],
+        "photo_reference": "Aa-ngMYxM_YVnQWIq0VXcbuSJPXmjJKe4XKGdWeNxOs31MMNhDCimgEvJtV3TTlHinLhGcc-pSlCm1cliCsNqHfHzD06kpzfFzHy_BYmknC2eJMT0vnWOk190_5RLf69awIrbPfmsspulb_Jz4iuXRtAlAbvYR2Sa8oJxYLbUoqETIpaQScHGgQccNHUKqHgatfF0oIG_xN-IXTt0TBiPlnu9WVRnY8Yl93GY-lcpMiZrXurxW5Ts6B0fWJR52rNtsLo_p7om0OzalLzdu8J-9kEJChCBAsCHDhXV7qdIucyipID8yLNYR-7ubCuU4uU04DJQGHz-ce5tl2offLF8i5xP6-1ekcmwt6DdtRGRoP5g5rw00FaayWmDQAhBvFJ1MnV-HfdS13m1hgV_MghyVSMOXDZ0Kgop04nxTe9xkBm6Gm-zw",
+        "width": 4080
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103372554924358562000\">Keller Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb2HiapTdomzShrbtdmMnFCmxM22hU8fPFvQU9PgVOPcBnAKu5WSbF17waX-Tcrq_gHXjo9P4fvUX5U37ReY5k87R8A_Uzys59legqokj7iuND4YdxCIbXNK5LqsEqJsFoujFuF2qf-tdR4k9a9TLp1HWBDiy4DPXY7ECWjUfdek3P1PnbE_eJl1UvYzl_tXgbYGnyj1sZYdpwKK_IkAldhFlz_GDSvVa1UBcVnC9dsG3kwyZlJOkmb2nq8apm-cqQcNr4R9BU-o1iOLzYL4lZ4jdVrVFGjK3nUyV1AKWb0x6IOPa10fzVeAg9Mq0hurzgCWMLnbOwCT0Z8azLx4iruCJa6IaPxup05OCVosPwq8FfcDKvHOzeBvBnmhPlDXrzWG_liXp_E4FDsEkuM7POabNZl",
+        "width": 4800
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102801178907435540679\">Ana Marjorie</a>"
+        ],
+        "photo_reference": "Aa-ngMZ5iwl2CNtjXNnfBoCLxpldoqMGVQSvFyZUCjswJbmHy7v5UK88jS9ZgJv-PYLOjKqzNAX_SWXWoK52JEGL8Lvbu1Aqr6NzD4EOW4fX82TnOSZxN3WchXcBak0YeT8hFE-OHWbK9eWXVYbtuxfJiqphax79s3IRzgLWhiCLasx7PDJWybV8hfoZMZ3jCmbI9Qlw4_Y0P94auQJHWxFlJis2HZgxGIi43939C_Ks_wa0ZYYmK5i11YnvFA8paicZXo7cNFFDuKjVKXcWbNB2ca26APu4U_wiW8O-iPceAz34YeDMjZ4XNWUyUQ4yH4VOCoHvX8eIJ4r101IInqPqtZ1Rl6ko2_rDS8sA89s7TrlcLnZVdKwc-sPx7Z0u3KEwcRwnLUVDu1CHEQEwIjlsw9ckbJO_",
+        "width": 1536
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102801178907435540679\">Ana Marjorie</a>"
+        ],
+        "photo_reference": "Aa-ngMZboHLREn-emS3ViNIyzfvw0aXhdrcE8ay9bafv-Q4XzEUDdlKTi9gz_0yKD3LpKIYCUGaAfdPQjmImI4ixLC0CtjKl7RU8bkmJWYVeotXbnyACg4BGKfvlgLoTWLkRGyYyOA49KQ0oERYFFGyMtP5MCorrsixZYiF58Fd0r6FSMeCtD_1POhAkpn5IkO1s3JhofMuewrhBm5bjXJpRfbbeWLsIlQgHgmaYO4UwEVStq3qA0Qro66YOcqF81lNokVP7Yr_U59speOgTX9YAc1x2I2jH7EWe_dsPWdR3FXhvwoRaXu6RpEVQs8dTUXi7Q6SGZAVDj9dbzwLgS21wMeGyOV6_sQPU0m9VUVBA14mwvZ9OMvYs-MIbms7j8NK7dGu4m_tzE2unHf9KNa4CxYRGvbk",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102877912579434219230\">Lester M.</a>"
+        ],
+        "photo_reference": "Aa-ngMZWFA3IF1qeQayQBj9wQX26sP8C6GF97EEVhFKYdDdm_LZ7S1SXvwHR-bX1lnGOG2nA72cEsSxf2CQ8OGl5_VwPOxKfvfe89N5YJLAdgeJ1O7P3AYdnKd8iIKNWohTVrlHCgKdAJr7ado0co3wknUSKf1AMgEC9M2O3V0n0Y-hrr3qUS8EgjNizmzBRhEUOV5kyTJBG4UU3KLtEbzctUvrew5eXSAELsroLgZ354Cfs6xtIyow8N0zQkdAZidD9j3d92P4C-wPdJBmxecssWbHAwMbvSveNwXQGh0-mc0KFQAfcSLcAUYH6MT7X4r_-oNjaFFZ2sbh48bHAm7FFLf9EjFnT7Y2PNfgwqhggRb_EB2lFkpNZUZaAiC5TUMLaiYh6y2_UVU0H8hqydu3ezX1nukMcewHNTb6mLox_JUQnBQ",
+        "width": 3600
+      },
+      {
+        "height": 974,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110083089623149484544\">April Potts</a>"
+        ],
+        "photo_reference": "Aa-ngMbfYOTV_M-tt6qDSampcLXTiHTrFcKDQJ3-EYuAcAAeOwjiR_YfOaZPZBcc2--8V5Pyd6nMWeBw11OtOKCb7GKYjdk6Nk8o4R1dejOZ2baTdlPqBo4MUBlMjIGRzdzOdFrLNzy2lni1RpyAPxQdv2HVqk54JGNcWK5e2t571itb3Wz6aV1LPdisyV7HniMOl0vgqwoBSpvVX1CwT6UoDQEKM0Co_OPwmznZQxRGCnS152AxASburGTS6Mh370mAlsft7BHii5vpf0W2yRactGcYninMO7fvVIiC8ghIGl2fWabut-ik06BSfUmeawaZt5ZHq69okx4sSQr46lDDiRb_ozpO_ajmEHBjpTQSwEv4jGoXXV0wrbcUKzYUgut7Rm3a1Zi3eLrjIMo4UJ6h8SBalIij-a5JgqCLyGZnw9yi-w",
+        "width": 1320
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108677285382637029333\">Demian Raspall</a>"
+        ],
+        "photo_reference": "Aa-ngMYaj3FNKHYPYE8rtkqdpGjjqu1PjUWmjJKk0UQeKr-7D8jq7VImGIb9YORXFD1QHGrJsUIr8CdALj9_QtRyIz9z4upBu-l4kQkEwKwkHPHUf2VV1r1b2rZJ15C_kqnoSn3fgnzbNOcLOef1kAIrj61iahce1Y5uHRdlueoeUGKJOjuqJ7QPkgPa8PLbx8-UxhZQYbLql9uP3zikPjApo751_m5dkxsL8YLpLc_RkZUWU4NYo6NZKJCtCrgGgO70vrKLkWSIrBAL9IpLhnVtO5bO9NTC5bIKyhX-UHxhvk_u-146jqltIyFDXB4vkS-e6Hk0wFTSJyIYtFIlJRMK0bOsXRkhlqMHsrNOiW4rwQEsrmnLANJI0q554Vg6WbTrfdd9oyfX95-vRiJA8EmUuPn-lwR5",
+        "width": 4080
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117812505418333311430\">Maddisen Christenson</a>"
+        ],
+        "photo_reference": "Aa-ngMaiavFXPX8oV_voAccOp9QpnZfQfjoHFdvjuslW_LTDqZgB6Ff2ciOsoOWU2G5k9NzZpv_iKeQGf-ru7KdPY5OkfQbEubAgex1eQVKgOdOmNVbrdWhCQ-zutPwzgi-AHt6dnnboWrmmPBDiHboHKX-kWHi0G74BmaYApKSb0EaWfXvFo_MnH7-g95weJ2yKi7KcnkjmxVWNAdSfB_WEn4xxw0bM2GCjIj2eEG0cxLRIsb-afc1_jjOIgMufscxgzDgFmxINkylpruiOjk8QxxVKjvUrJgWXPwcGEMSVwdeGOJ5n7v0ywnoCZ_d0209xfHsUhXTTQbqwCPHabbKDOuuNMgALnUOoTMMm0o0AnulbS7hqhkwfEyfiRl8JbtvDRF56AM5ykYn8ZoQXnDTYwL_GIVlnZbx-vlplyhmeSIm-",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJF96adQGwhYAR53wraw9aTpQ",
+    "types": [
+      "art_gallery",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10686577988065787111",
+    "vicinity": "5875 Lakeville Hwy, Petaluma",
+    "website": "http://www.kellerestate.com/"
+  }
+}
