@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:47Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Eleven Eleven Winery",
+  "place_id": "ChIJfRNH978GhYARRNeCx3l6Nik",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "620",
+        "short_name": "620",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Trancas Street",
+        "short_name": "Trancas St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "620 Trancas St, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 224-2211",
+    "geometry": {
+      "location": {
+        "lat": 38.32595329999999,
+        "lng": -122.2877361
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3271824802915,
+          "lng": -122.2863997197085
+        },
+        "southwest": {
+          "lat": 38.3244845197085,
+          "lng": -122.2890976802915
+        }
+      }
+    },
+    "name": "Eleven Eleven Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1066,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbvsTMI6RH8e7e3ozuH_Vvdpq0BZrAkYRggCikWVxlqcdn3peI0Cw3H1p76XrEiD5MewGcfCpOnLXIrCdZ7njOFTsFXSiYdz_Ayr1_za9DZttSPkbiY9urlvwwtB2vrFXJsAFCMFjazGqRp9Zs6rG9IbFlFrFxCZlUshGsRKNbud_dC7rXlgT4ntC2Or9wzxvTMRmZl9lruV79gT124a4Q9D9ce0noq6p3ahk7u0C5_TRAKw034TOuiTFhxTBSy3RKE2B9LoNWmvhaxyy1QWry3DPTd66-tXQKhPcD7AJJdIBOhxz_dIjcn8vI65lJ1ttSjELGy4e1UCxFXIATZriFbED0N8m_z6kAE8cz95Sgc0ocIhWzx_sPvAnudLmqAl6P1qdBwOPbQMGrFnPkSdWz33kg",
+        "width": 1600
+      },
+      {
+        "height": 1334,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYun44Ictux-WR6ljpbUFzkfNsaFojC5UKSBJccQvaxftiwAEDy05fS-id0ggPVIBtiixNsJFTEN0_p4HX2gFxKpNAYxmSSBeIALQXFACTeE-mSjc9V0t7imO-BUFtG4xCEztWPSlk-GYp8PBk7tRWP-sB-RqldIGYJlyQYgF47NXREf4za9gAwarY0Nsxl1Vz7bgk8C2MyV4GWlxfIxpET5J36MTFVhw3hEeHOEfXgIzemYyk7RFnKewwhuFLSh7EiJm5JYsuptIME00QtXOh3XEZdOP7-R4LjDPjrkwzhEapojY-EUSLP2Qr30oqUo88C7zpMKzTKLroiCtHrB_55n_CnqVxwy96euzWurFpimERUwtkLhiDel5EaspQYoPxB-J-Sc-ckYBfzHiwSJzaoDXU29RQ",
+        "width": 2000
+      },
+      {
+        "height": 1900,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYmTBGWp6kcvvJ42HJc0Uqovab6UxvrcVxHPLEHzVNeq7n5Wp42zdbP9wDyOB1NE5CCv_N7TtwIQnNLaVxALRqUkmyjDu0HG14wSM9-pbH3a37gX8p0qdTGhu2Vz4RAZ1NFJe3scuRWw6mFCOGrEd1nVICfGYH2eHVaFw02_1RbwwNS0sUht8YmvWLZmTE1nlaLt1NXs23FXNvkn0fK-ktFWggyacwSrU1Ide2_lM-yxaavc6FY7fw7RUoCzj1klIAhhARcF0QHU9P-Y-qXsKIF9i0OLyNNthGuV3Cf1uTxREVze0Z_10IeGBWYo4lZAXz2kxDefe6b66g9tcVXDoGN0fl2mc0Cut2AiiWHy4IjfHabS0bWbAREatxUdJ7VjEz_ais47b1Mk58BamuWZmRVz6p2EpI",
+        "width": 1267
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbTcJ2PSaV39sT9uJZ1NS2-6FAds_5qgPhoEwrxji4cYC3-Rd3ijra3nvrqMisXmTjJrLFtB2Lv2vicCoD32Qw05rme151Vdm0QQfwFAiqxrmNH1ktRgOH9mT8qtCti3NZlwCd6CJhPnx2iQPVTfS5nkXHmvEe5s49Jq3gF--_ZTj056Lk6jrNAgcuPhViS0mWgW3cUgikhPTs6U6UCH8nakFk5-W1wETsDlQSL7NM3tq_tmQlQuE8q9PvoJBNk8vYK0MgHuAoYKjlw0309_MJk31UaArdEtOjhkeNNCfzCsXk32JFJAmpO7wVF1qsgUcga46_BBqMMuqkBxwIzXd_LO0io4zWNBUaDVhPgHLx74zIQhm30NG-6-CwIlobYrDCnd_ZVg3yw3DYpN8a5BosGxA",
+        "width": 4800
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMauwTuZnQQEIqzyMys-6TSegwzk9sCO8FqgoUxDvIfArt_jFC537g38rZ2bffnS9-TfGazaVm2qJlOWxQnrE3XAqh_8tjlEMknwzmMCjmV5xU4XUyhSi4vTUnXaU47jvLRzvLdymBZrohAng4I3R4-WXefuGuwn5M29LiSHeE75znnVLQwVqruXGfaWT4tabVKcb2mPXv7v6oomKQIBiQ_c_0iLy9ZmhNKivwvED6CKoY2If6kyObQIbA5WyR-Y8koJDRQeW2ltYGZXfws0IplpCdTf4gr6iKmCmqihVTTTdXwqMd9_FhZEbu773uApkl_Jf7OSx1KR44DfghJJ3XP7vI-3fl68B-tNnYgtVYofae45LYr_PmgfdfFhePZQll-3CGIDc3MA3Wp1MGWUViYp-MI",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117147816121619500775\">Ari</a>"
+        ],
+        "photo_reference": "Aa-ngMbMIsLZNGs8rH9wJZIC8ejqa4X_MrpQMrvqzxSDEa-Q25cWU2dqh2G7Jjjm9mPj7lEND4pdWr8hRQeWzybawN9DfjnrxpnUMcw6IVfuoebdrA0jy-bo8gWj57iUWcsqwVgcZWTBPX3L6PtAwaoFcv7P7HBTm1CmW1wLxTGRTALD92koNPayiJKVW02AYNXS1wGq4yrdOPkePRCMYR9dLZuFE68jlkIkZhaVIQjhY3ACHJFWgrVmm8qD2yWdlWAPfr8u-QKzkQdVepkGU4QvT9x1nI5V5BXcWGSUoyQ9182355jVw-blKT8p01hu7rp9CkkjYharCtHpwjqwwX-AHD5BijaycTNrPX_oLp1lFHmA04MV0ByeY27CUbh0QGixilFCTQw238UT4SDOeA73yYfb9GE",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101108600905126206766\">Mr Mckoy</a>"
+        ],
+        "photo_reference": "Aa-ngMYEEsdBdM_jCw78IsrV2Yu9POzcS5wsEnsrWTMeeG4niFIGJ_G0ygWweANdU65hopX4Mt--3Rew6n05jJ4Vx5qkuHwdU2Qfr_iDTj3DVrLdnalQrwLzCfRUBi_7eMOs9bOCdMhCoGH-ucGQS6ANA8dzg8QRBlwPM1vNmVGhzicxC68PVW3aVBo7YobY94K9a5JQJnnjfn0PCc9DjU_UYJek-5VMjSHoZiMlI9R7bAqTVKaelI-AieyfhI45hgGbvqHlleVhS8VDI89CgBNROX7R5T-OgUGW_3dg093hS9d9KsLnKHeluW71AO7jCOcGBJEpOdxLxEC7Y6jbFpuVCCCEUEXn7I2PkVMnxC0e9N4_AVXqgd0k2scJfn_rBL11JdzvS5xW-Hr54tNHSDUobQMJcTYRI60V_00_Sn48dXBO",
+        "width": 3024
+      },
+      {
+        "height": 3984,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107356835422322585674\">Don Gabbanelli</a>"
+        ],
+        "photo_reference": "Aa-ngMaV8dpzoHIKoNut-JEJWUGTw3s5qHGeR9je1QugSKxeCnMKPQB1t52mRQWBKlb7hVg1bP0uFqxl8Sg60Fl-dMmkom9F3ZZ9E_jqpBshfEpUnNZEu7nkoYlysaWGMmvwnjVL4WgNElnA-4SLTM41zo-R7ZuKUtP9A8LBO8pM0gVPXr-oJYJD34e4BJRnPBZQSBDNg5rWidw0lVRyBgMVUtDUDx3hHhStsREG-rxUAV2LzbItcN5Azh8QaakY7roe_eqLTsmHHkG47tGQCA4Syj3RiELQERH9ZpUNet931oHKWneYqklRv7vwjOnmL7Nk08-pzqRmJMm4U5uYEZPh09rQ-kRPAvedYRMnFGaCXSkzwsESrRCMRR-uD0F7WUPV9izR5B9VPMVAUUoAMBezhml7TMWGOCg",
+        "width": 2988
+      },
+      {
+        "height": 1334,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYXnjrkaK8fXfFG9pTM2_G2u4I7F9HxqCUUzS7qg_QQ1fl9srJGVXQA6klBnVgxdv0l6JsxDXd2UfuVzs1lzihlPrlJ-5XvDqRdUEX5zVsVfKBoGudr_nRp1VaIrG6DIPwH9S_BI_y2FNImrS3BH4Kah0gWVVoP3bZKP0FPvcKCFL9goIFCpWFKKx9ZBymMdj4n6j3YFC_hgSvoPRao9k-TnFJ9oLH7hpwkm-n5dNE6ueHSNLO5hpsjrDCPLzWMFGoKShvY-rUub_9uC-o2KxttSBxcr6_0zxm9n_zBhkkWNr5SDrh8LBxN-M2nTyqRssQb4XHAWDnuWKI0QxrTOZTCfhHeyoc26yoYaOpXUTM6ShxGtxxGOymnRvze-36EnXLdocurQZ2OltMGb3ODWf2RZA",
+        "width": 2000
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113125839516782973172\">Eleven Eleven Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYe6B1I0bpzULWtyHKVLGNpk2HYaaXfuMFLjmmDtK6E_W6GkvRZ0HjYDGsnZWjH053mHAln3hAg9oMCgVswac-Svg13T7VTmQkEZdyZD9Jf2l9cANrgwvKlqfFu9LIyMscN4sD1QmVY7ugWwOehBgcG3iF2JYHH8Rp4r7dDB_3hncQ_WxsU_t6hGChJffk-7uKlDtuTjtRsf8rPNlrJUPXOuZLU933tDi7l1oLrj2OsHO4BkIq0aLmNHTz59C0wjhSEJ5RB5PSKd9ETt_SHdhJZZ8duHS7k3VcYa5yfvMKcNTTZ1zrhS8mhfgzqDaIxvrb-UqTbENzdsH_XdtOOwqfnkUxbdXc2QZZv2zU-GBLaKoWge_dQL6k_JeX0q3tgBL_R018DGknZ18FTq1Ami0dqk2c",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJfRNH978GhYARRNeCx3l6Nik",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2969695667754293060",
+    "vicinity": "620 Trancas St, Napa",
+    "website": "http://www.elevenelevenwines.com/"
+  }
+}
