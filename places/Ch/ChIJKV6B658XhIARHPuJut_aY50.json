@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-28T06:46:11Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Matrix Winery",
+  "place_id": "ChIJKV6B658XhIARHPuJut_aY50",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3291",
+        "short_name": "3291",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9349",
+        "short_name": "9349",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3291 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-1982",
+    "geometry": {
+      "location": {
+        "lat": 38.5747004,
+        "lng": -122.8772665
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5759874802915,
+          "lng": -122.8756464197085
+        },
+        "southwest": {
+          "lat": 38.5732895197085,
+          "lng": -122.8783443802915
+        }
+      }
+    },
+    "name": "Matrix Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109634175304985287583\">The Gourmez</a>"
+        ],
+        "photo_reference": "Aa-ngMbXV1NF_Ds0PSS9vvBV1C16q9cwu049m5nXK9qRe0dw3h_pTT_3OTxUbn-SNe3YzVzln8F897wJyx8pf3VvnWGqHFnB7iK83TqO3zZu4gRiYISKNZMa4do3vVyAKyk4csOJ3CPMnixll-7PolfN6qakNQpX86oAOh_EEmGclUhR3AYLxoP8mCJubKiGDfsCK7p1dDmH4VZRhe3KwsnAk3GXbMX3O1rzYIHX_XSq_1EKxJ3RKGlUM1coqz63bHDH167dDPtzftQw3EGr4OuKuoNNMIqQr8NU8EDx9W7BzZqtpKQN0dOVlp1JZ3_QF8Xg0e0AtqbeND5hSTCvCZHgRgyOpK-siL-FsquSiMiYMJEsIVpyrxUBPQvmOQXXthxeJ2jY_khJ87YkUvdBYIDRAL1OHJBwQmtL5oYku6yaWy8Bjg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109634175304985287583\">The Gourmez</a>"
+        ],
+        "photo_reference": "Aa-ngMY0OsLyg9HnjArpOJxI90YWaxhczeeOqyL3SrnnUrneTqlstE-10i1DJFnGKN0CBCHr-2nCOWjeDIYzYDpzK41WN2h7M837C3xDE-2wsTMp4fEuLVYsvVY6OUqp3ymeSfeE5RDyY_J8ebndF_zpGSeGlYxGAlzToQp4FKt7VVmKBJfP3yAVFlsfHCwXvf3-U4RZQQW86eog9u2BUZbJI4e1Llciuzkvd4H_6vlNbjsakL7n8Q14gh6oU4x88Tn4F4X1pe1wEvV-vko70RpVjpzoi0v7B0p22Pn2WOFce_TPoZea3z4QMsw7DhKQ3yykyZM1TxcEaP56grSnVtbbo5kRKAZAPrvBkQOuyCRRJ1__VAU2kA2h6AAZ2lDolxuiGs9Fs-QnXAv7636ZV0NuLC_zqePRoRzGu3BkDyOb2IXIDw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100511028423668843654\">Lidia Hernandez</a>"
+        ],
+        "photo_reference": "Aa-ngMYKRQUam7y35A53r2GLwdu7AVqBHe6xBNbCsPXD2IxmLOeFBYRIkOdzRCAgea9VNEfZA8NwZ5Ivzg0eROBaAxTzdMDK8NHZcJ686j9OrJchVS5nxxSowQr7ECE8XwmPa7jdrgGuUXEI1cK1n4kVW-HxUmd1--_OGNGXSih7j4ZvFYBzZKgVUNb8yFUN5VDM6EJg0AnAAzr99OIenD2A8A9A2OgYQ0tI3VT2_qUY4HaLYSRDKGbqrA5-1M2AAuTeLzN3S_LCvOelSN7ioS2Gf97ldHPYpwP7wKtoneCuOwAT_MZ1Y5Ow6HxHCTgwR68GnowkvoM5q1CrghSXzhFIq6B8WAwethNdxF6cml5uLhRf7L783sgqn4ayNAzZ4WLBAc7zkfHzQvqZT0xL-Kf7EdrkoyN5PA-EwlLHzPzz2ypSSQ",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112696922474579434558\">Richard Coney</a>"
+        ],
+        "photo_reference": "Aa-ngMbo9hY8mBam1n-eaP0J7j_EZ9adJBCBYi5WfAo-JrR9idZTh4vUoNZNRzTmhbBq0xEEg3k42LzAclfxeheVVyp3HcyDccIl2hX-SNEIvAjtAQZGNzGLDTs8Aa8f0MLRhrqAN3nQCQ2i6Wsc_J8vzFxBVJGXUs841PHDmVnbiIae_kgDPezd7Cs3JMytlWRK5dW5f2VfatIs_n9FJKs8YSsAwKIl9qG4-YB3lcwWJ9zM8LZnNF-A-cU2u3tN6Tzemc0P81FlauwR-DdJ1v5vXpSBh7goGtzdrEClkqDSKI3UHabx9Tk_ijETgjhnZAETBCq4QEzggBJ0w1HBtUHhexB1msZpr8rkr6FLOCYdmYdJxO58IGnXSuYrjaksnH2FLnhgezknrWrfd7rX9Vo2PLF3iDGdDD8",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101341947304305081343\">TG</a>"
+        ],
+        "photo_reference": "Aa-ngMbMj9ycCDH902ypC0eJQ2rPK9fyIgQVh39K8NjHQ_QQg_FAEbC99ytRmm4f2rjLgKaU9eMmVY2Kmv6m4FUUIYEpRpRv1j3I-GKgmmlnZTZMlgFgThIuDRIjfldopk7m1OMsIHaUNn8Z4OCF-pLur-ei3cz-Y5A9PsAWoEtgU7Ib9rF-bU0GbAd6jYWSX9YYR1qV-N3htQWl3EO44gZuVXfgAFbXsy_x7yh2h0wekTlqvVBYdEMjwIhq3tWYcL1c7HJU86LrAuR3sjp0eHQk-dP8YwjMhiQUYdf7EPsqeVH19Iblbm4ewuQw-75s0gkn4f4AKVpIyll0SkNzNYLw_HICslTyY3owMDua4FIS7BGchpIWtJ6yRE-QUXDauXRU6STe3mgkLGl5H6jhNly4Wa8obkCz",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114564899022930050456\">Alison Thompson</a>"
+        ],
+        "photo_reference": "Aa-ngMZfBB9D6l_kK2nIWDnoxVzzw-wXya1MhqLzq66uJduew2NH4pDu8Libegj9h-3E75UhXY8W1gzkAkpY0xt-GJg8hEa-kbHTIAbp0zG3JpNI-70ZdfwKropgpRUTXDiPFAmPUbog8xW9dP5y6bgZm-f3ndpLhLnXSiew_H00LaTam3lJqdyyCLl18bJFl7hDlpbx0-Ea_gfC7aJWDxZzVWNrcAFzq5B0QGDLk6iR6Bwf7DlH9ll5f2OiKCyjixuR3ByhpRvcGQWeqSzJEM3PiQghVU5NoVSIfbvErp2zIWeXP4tu-qrsPr5dhB--rk4Fohm1bkYSt_cZsfVH5MZ5_GVMUHoULz9H1wxadYC-dkgD1N8Aba4DE9Kf5im6P_g1w18Z05qNKKt80wBxMHHYV8YjTjM2VHM5mm7EaSIBip7-UQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110471249711146635523\">Greg Andrews</a>"
+        ],
+        "photo_reference": "Aa-ngMaqbz29-KT9bVFl864kvqke3b7T51kuPTz4j_0gdTGu0621oETY-kwfaFbqI1QAw1IxOXSwES759_5TLZAC8iTOMdlSt1qZ7SbOgvaJk4g58nRupjAo39IqITaMEG7OMRj8WfXEAr-LwnmQsGpAhHde1LDIeowW5z__rtlnwCls7IkUkohw-mdEyPmA718blwPs7QyYjKp5_g0Uehg4O_dng3RXA_h5K_1I5QMyXqR78H6mG_5d-KRehmY1p0GDUalqgn-y_8R7rm73V-GPSIcKE6MsGoqQsclcCPHqG2y8mDphMMPgwYFmgKeYcx3wVF6qoj47WPCDgmTPX_VAYlGERR3ajR0YmxjxQMMv-ARmlq18RZ4rhAvjiPj1-uy-QwybRXgLzttsfoXWI2FIGvGq2IU",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104086036244546896481\">Gary Nishida</a>"
+        ],
+        "photo_reference": "Aa-ngMZbZXaLnrE_d_ifVlHK2DjE_ZgAGFH05XiBKOpKUC8ne4JcPAHNBs63hW6GMlYU7zmz833UCIJQx2LGIEpA47143UKHTkJZu9HjaGgzsf286xxNvfu2f8Wgvs6JiOO0ZXtZxbUZ0dPsvHm6L6__OdzyBHmwP0sXyZD5P2fZwYT3mzZ0_boCwdEEZilYoKm63u3CwGf-r6TEyEcZlwFyF1sOQyy0tvuTEv3OfmD4TsUZbdN9K83Pa9M9ypN-3aGcYDv0EqGI9MfzuTo1PkejpmN-oKW0vV_XyhM0RWIXKI-PZ2_7rHnhQEALr3dpClK4ZIlMZroEuLv5NFyUDhnoBCLEck-ALp4qoQP8Cy67dddKlDgLt4SPCTO6yNDI9IloDo6KyPBrbz-gPjxgA0d_rgWVqzQ",
+        "width": 2992
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114113075544437672890\">Sital Mistry</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2J9QrS2ZdqjTTiVtMTDwwtZNRA0pVspbed7-HHLFaYH8GZHi9GKlrngbDPoD4UkVUzN9ftkgmBf2lAO58e513MkHy_GKvffXezJYaxu2mmvqMW7QghPuEvQfIUPnICiP9EfWT0Ol4UYG2yHaizfDNq03PPdKt1TCFf9199BocWqAQsrxDu03cgYFU0g4FKIFKULwE7GmaHpEVx5pl9Qzj0Nga_hZviu6oAhd-VDoh5EmtC5LhIslSzg0PLX0OPLU1BoWO1XD9vYrKKQ71hn6cHctGx7GzQH3O9w093A2Cjq1y9g16UNaBPfQzwhn4VazjSK2LSOZE-ysKldjP21GLWEiR3OJ8kM3l9FA10IaljbLS1pf8hP5T56mIK0Rv-Rg3RZeRgEX-DBtlDWJn9jIjmg",
+        "width": 4080
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111654913649932694244\">Thomas Doyle</a>"
+        ],
+        "photo_reference": "Aa-ngMa47p7xwRVNLZjjAuL8oTDaKvxfwGUcvHRH1DJRossfYzFHXBKZy1zYc1IM7jd4RUStH8S5wU4hUvHDzvbR7HKFM9zFaFPlfC2-RLNk4pgulyoRdWe-BIwbH57rAkmYl8LmSgF1watnAhriduPeTOeyL2Cbca3zqJI1DNTVMVn8EU8bpOVY_0YhkuXCIUKSyNA4oGnmDfTWQMb0eHmElQXnwz6g1yRFWdTn2mXDCh5DlzJkMIZEKjk3XEn1LwekDDggXl9r3FBZ2ulSeM0l-WtQCBa6dxpj1nEvcwmXPyuHuT66iJHCnA1Y2IHRoRDekShELBjViVU6SFl3LMoZuJUHPdcwhS3J6-NXruVETv52ysILx9FU_aP9NBBk8_yzUS2wOt0o-eBkPxGItuQIN901tw",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJKV6B658XhIARHPuJut_aY50",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=11341148941091207964",
+    "vicinity": "3291 Westside Rd, Healdsburg",
+    "website": "http://matrixwinery.com/"
+  }
+}
