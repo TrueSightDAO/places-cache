@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:43:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Porter-Bass Winery",
+  "place_id": "ChIJ04dUkj4ihIARpeO5b587Gag",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "11750",
+        "short_name": "11750",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mays Canyon Road",
+        "short_name": "Mays Canyon Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Guerneville",
+        "short_name": "Guerneville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95446",
+        "short_name": "95446",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11750 Mays Canyon Rd, Guerneville, CA 95446, USA",
+    "formatted_phone_number": "(707) 869-1475",
+    "geometry": {
+      "location": {
+        "lat": 38.4866708,
+        "lng": -122.9708232
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4876767302915,
+          "lng": -122.9697116697085
+        },
+        "southwest": {
+          "lat": 38.4849787697085,
+          "lng": -122.9724096302915
+        }
+      }
+    },
+    "name": "Porter-Bass Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114180185525844099978\">Filippo Versienti</a>"
+        ],
+        "photo_reference": "Aa-ngMYqk24edfVCR0CS-WXJDv_OtXYU0X_fPXJc7qcLJ5zAwY5Xx1UGyK5E8GvJZdy00mZv8vT6GA8mIXS9f-2rxv4ie4W9_Y1sRtPYC3qVFFQAQNUkqkPsxU8VVyQHqNJdtxBwUyBtbg6oXs4x7QQY1cJ33wk8JjSzHJ41QYixSlBbVopaEasAXZN9llnpFG6oAuSR3yrUHQ-1DGshRCGDSAHC3F3oi18QLdgTRQA06uZrpYl2PMgn4hOfKVw6cdyr7MeTQB1cj-6SG-x7WYhvjbV3BQUGgc3C74ale5eGE0J2lf_rzRZOx9MMlBpaieX5hjmSCtLU14a4PFbQydq5lREOjjHmjcS4ppbp_Nk1iFCWyUOB2cDoKWeDAkXRlKBIW_WWoOrO0gDifKz4FNFTz0815ENGJk70rENNlWxt3l2zhg",
+        "width": 3600
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101483457993650155731\">Jason Ponder</a>"
+        ],
+        "photo_reference": "Aa-ngMYLi2VlosWjaOCs3Z5NBVTVb7JrcQMYfmrPniifFBLFfDWwj5rZWfSzzKqhgkPul4VDHxgCez8_hfTMJkt3d8MdLP8d3wi7qwdywcUrGgGd53-0Np6rms-mygLgvbbKlN3wH8Tj4_-lUZEP7pP6uLczP6qG-d791ZAo5aAPcXSYJvbguYO-I6vsecvwWQRgOYQXuLR2l8gUROno5e9L3n_gotHwPlGXPI-vt4C_32oIbSMqNNpQ4ytAMauFUsJ7k_cjfUc0z4sSZkOAYhQAND4fssKYolpfRaEeC2KAcTyZBuTAOM4QzDcgf5Q9X26nuJ2mwOZsDWkGwkwp4ydnQbcFfQ1AEH5wpBE4KNmhtnvdUEdoNSQBiYu-Kim6FrhfC6eFGYKanbP4ObEz2Ejf21WEyer2Esw",
+        "width": 4000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106169216727493326395\">Victoria Ter-Arsenian</a>"
+        ],
+        "photo_reference": "Aa-ngMbExd8WCraIOU37w5XO_HanigheyMgqLibdJ1lAC2AGGFU_8vXU3iFWPSFwe40g2to2MpuKqgfGWOnietjVyS_7NgOcjfI3P9ULpXABUIe4pfDJQNBay4mkqOKStzKKCqnf5SmtceUzbvZfeK5Gihvqxw7p_PW2YLHe9WQbpJzX4Xm1uvc-boe0W4TMQPNEwdZMKpj2A-t4JSzxVFSeOQLLejy6UsBl8S093GchXnN7mkgGU6mG4K_BAS9qb_aZnGhwONmfv0CCQtyP5i1shCPZtgyLYRLDw8n_iouMb8f5f-fBwrl36huMPuHbDWAN8spnFAjJHV5i66KxN17jjFiq3d9WzowSDov324Q6U0xRpd03jzBuFA1gamlMOYEmiez5zaLwcJN5fDkM8KyJArqNSathnyGQ_mA1TF-2pc7pnA",
+        "width": 4080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105093679022706676185\">Rachael Sass</a>"
+        ],
+        "photo_reference": "Aa-ngMYH7fryOyKF09eopTSNa0iILZTjwJN_gBr7p0RI-BuOULmRJWcwYKMzBmUdUePkhWv8FiWVXKbsfWaAT4nImrfvoc8x65YjtHMFfsGGO0SVjs7WD8boAea_0cpYfMU6q2q6dDiLGGoQw13nhELmxyJmnwqLqwBAMK7GSZwdyVg6de-sj3W-Np1C_d6bnly5M39tR0iCY_8NG9OT5GB9VYWcua1Xki1m8LIjInm5Iftnv2aDIhkBs8KvILpzDcGWZajv5s6_hAgRjM3Q0UBS-AeWs92dImLNYeT_iLpaMHyUzFuKaPf94UbSfx4IuYnahoGXLZDI1ycriMZGKoEdMT8nZPZpP8_vBgQicrRbhmTli74YnOY3rWcmttn0g3XQwM3LyKkSm6qvqo5FLB3Lh7bGT9DLFSs",
+        "width": 1800
+      },
+      {
+        "height": 3096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105119929173350571801\">Mike Warren</a>"
+        ],
+        "photo_reference": "Aa-ngMbqwK-zuxXL1Ty-fC6Xm7NN4cmUZBGgjmwc_s_YF3ndkV5eXsNaPbLycBZbAXFkM5ELA_3Os4aqS7fJr6qf1Mkx2RY_SvogVVBIHn-pP7BUxc44UEhKaAxRlQklF5Xq8S3dOcK4lmggZBSx1g-Z9SM2h95Y0AEQPCHbNJVLh-YrgPLGQiOeCKCXY3tf-g41t6Bms7Xh4pNvmFqgi1sos-p5LC0RJyNB2O4pa7JDgXTUO_QvXB8k5N3NSYU5yoHpJPnaCz5LSNWDsVFhROrbjIGd7fb5sXG6t0f5XVnu22aJTzdWwFYLS2PXr9SkAu_iK32JNItD9tGPouELocb4rLbJ2VJBLdX91fwC4_Ga4-bR226jAPR_CtCTGosO_-OFhynXgZtyiE4cuANQ76nJVM8IASXlOc8",
+        "width": 4128
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114986782546399269475\">Chapin Kaynor</a>"
+        ],
+        "photo_reference": "Aa-ngMY7olb_MMZyjiijwYpW1ZiLL310LdL4ebqpM4tqHsTZJez7iWYfxWT-cjAMVVGUzzKFhZhbtE6yWtq6aebP4fsh_0ttM42tw91FGNVFKdBmgiSCURvnmOAKw6WWRUkhl8TuPHWVbgwTHKwl05WGXVquuVPWPuian7fZjixNve7bABrYr8Bk8rWySl0MBS6m5-vGhmdrYbZLHeNeSrPDNoyneQ3gRjRAba9-H_CP0E_OPYBuXBaFTHsYJS8Ll-5esrViiuTIh4QJmmESsmxdFVx9iXy9QLERUfE0llbP-4q77ePmIZF0OzFxEl9l9yT-XZWQD4TkTGKMN4Qj4FB2rbw9uUdgQErRBB5qlgoESr8FGHn9fPIBeoNJnt1q_jpbpqVmQAWyYZtKmX4ENdhZ0ghky6p6rH4",
+        "width": 4032
+      },
+      {
+        "height": 2725,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105093679022706676185\">Rachael Sass</a>"
+        ],
+        "photo_reference": "Aa-ngMYpo8u5emwH9FLANVAjpXp8SvJLFw3IskRZCxfQkySNAKo0jeZZLZOsiiOJV4s88QNfiI8uCH2ZuG2eabJHHkpaXsJJrVflZzF1SRv9MwruFiW9LGXLI0ue00iZs10U70NXPegRdGN25nnTico_cyDdJivBSQL0iIVwrpef4McHTmUpzahboLxydKLJ3caqGQkGe6JurLwFKN8hd3vzmohvRH-TEwqToqShM2aO1DEk1H6dWk6rivY3VRx3-mfuit49POyWEa6e4GvDG8GmNSZTTBG49n8y9sFTnLiH0_wHSTUq4C1VstpX21Oz7nOehxL50jEUZdzJ1j3z2NjuxPTwOBV62vagUISEd_gM9EHBN2KTHyNtzjM5mExt5jJWwr8nAQ5L2f5oxWvwZ60Iix3Y-PM",
+        "width": 4800
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106392590674835428970\">Lee-anne Lindsay</a>"
+        ],
+        "photo_reference": "Aa-ngMbNxcVCAs12l2AuLjrxexgJwrlqswmHfv24Psi68e7Ci6gd_n4JxKmMCrPEWeqoMPctilDegGa72YWVDPVW1jOlrj2jDjG_vm0iVO44khBznaIVHihidJ3dZ_uX3MR7Hh8eHImMqDI2bZLGnxpczCmXGe02NGy2e3rgjsstadvHXg8YBfwKJhgf036-qqb0_r9E8MG-HcJGXfwKdUNvlnVNHCWxe2FkqaYBsfW00rpFtaVyGuCPAL2gXS6cnmWEN0evx_UIof8d0uVZJhEEfInmrepxFj3S_juN4XK77V8upX6KtdNrjLnzIvf3vgONIljBnnirfN_mmASZFsK-E8I_5a3QJ7h23UyYXgvCyJjpwp8wdIwETEJS1UHNBuDa7QPEWEAkUALL_l2sKtE",
+        "width": 1440
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112152256911780972760\">Goran Ko\u0161\u010dec</a>"
+        ],
+        "photo_reference": "Aa-ngMZ6x6WVDqnM0S2hV7d8hMInLdb1lAQ0wnQFmB8IT5QfGDwQeXGXfJqwWL2n7z8oppJ2C5ecmauKcsXK6wlRz1UXiLmpBZad-tnQODBMLr8q0_rufO04EB4L_Ol7bLPmE6-yxO2b0Tl3nHJHXXW7tb7U54D0lVJiAfCzeUTp3YgaB_vNVfzfC_Y6p-Z-Yg7p0nIxRaZkaOlITK7tXAtomG0dtDGbh2XzuXeFf8xIobez2NI-SpkcJUBBIjQlEWp20VJU6nTewGyrfdq8JeTPA_gnwdadtwiElBQTXgTfunQwTwgWYu0nsubVXyNNcQ1tK85DklR5zXz17xM2_H2-rrNBXHasWC6szj4msvoNPlQTMwJBWgDIXQyRK-TqYuJuIzcQB8LOAUv_dchfdhKdmUP7Z47X",
+        "width": 2448
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109762027443241967746\">B</a>"
+        ],
+        "photo_reference": "Aa-ngMZgZHJy81aDiXFvA6e_eP1-5wr6444rlEUIj_1OG3HSHcT0jaWLPH2HXfbNj4Js5s7trJjrmKfG-539QTQm25e5ZMGISwF-XGryr1gwq2Kb3pHfYT8BHxkuQGRNlmmJsbYLJ3m5qCkvGcr-8kw8TonbnjnZL9Fa6F2WTA_iTkht8U-tytkGUJ_rpQIEFULX5nhc7C_Mxe2ahZsZim25sPakq8iVn_vFRe_EIec6UW90nDJKoe25Y_JpuOxMCobUc8L2q1dAGZU6y9NVHxjZZdNr2UPdUrUbrbpfRUsR2gyD1j4N3A8YTuBsflIao4ruBocyck0bmV3u18S7hrgpVef7lkAf1BxxbYZxfvsmnKnw7szpDj-tjg4Mu5x9Jq0NQeHv6-qoKsuk77ncD3sbTaiZ5MI",
+        "width": 4080
+      }
+    ],
+    "place_id": "ChIJ04dUkj4ihIARpeO5b587Gag",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=12112778228749951909",
+    "vicinity": "11750 Mays Canyon Rd, Guerneville",
+    "website": "https://porter-bass.com/"
+  }
+}
