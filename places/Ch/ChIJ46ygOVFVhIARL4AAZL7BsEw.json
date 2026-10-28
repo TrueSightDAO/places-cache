@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:20Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hestan Vineyards",
+  "place_id": "ChIJ46ygOVFVhIARL4AAZL7BsEw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6548",
+        "short_name": "6548",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street",
+        "short_name": "Washington St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Yountville",
+        "short_name": "Yountville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94599",
+        "short_name": "94599",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6548 Washington St, Yountville, CA 94599, USA",
+    "formatted_phone_number": "(707) 945-1002",
+    "geometry": {
+      "location": {
+        "lat": 38.4030836,
+        "lng": -122.3626693
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.40437328029149,
+          "lng": -122.3614175697085
+        },
+        "southwest": {
+          "lat": 38.4016753197085,
+          "lng": -122.3641155302915
+        }
+      }
+    },
+    "name": "Hestan Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115273430559578053312\">John Burdge</a>"
+        ],
+        "photo_reference": "Aa-ngMblTNDIByk4NNnjsmbC_I-PExpKiuZKnO3R_yzRaPWSHu1mXRc9lDRm8UQbdl07HKEhCIYtMdPWAnf_B7iwra2nrpub4ow3F3712mOabvPrRY4Hz8VQiM-B0kDP_FcEcyrk8is8WhJPqljS3SbZ2M5agrJSw1BQHZLAeP_AwtLlOV9-_a5XMFugXaRlsLkh8hjKDKguKHtJ-q3Jy9TRwDb1mrJvHpMv43B57DL1r9QnY-cJhjezn5uRibyNMuSDTgOKkyIfmwUCMpcXNsigNGHkBnAqCqeAEpV11tqCho_mQI7Kl47Wj8UAI6qK5GckA8TPb0gwZAJP0gDGTBY-WbubGqF85tfmX0_GwkOK4SN7AwpnGmxH-PzgW9erw_uIAGbH9cLuP0gH6AoI7m42spfWzJBzorMKzs6UGk7DdDWP4g",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106206511677592870990\">Steff A.</a>"
+        ],
+        "photo_reference": "Aa-ngMadYgZpfpoQCl4VLN0OqWK1OCQ44NxRayhDdgZiLcttRFTyyhcXJTTqh5yhJ3-4CPMrmbgMfK830LsC86tUsftPeMNHlNoEmrFTGWC2H0w8jRp0cAD4mt9aL3k-3is8k7ZwpSJmaQqTsIRCz3jMuw4nGzSGxtPgLRyiaWlXAx17E4lK787FQXJAahnCjNz1WJPY1ukkDrq9p4iKP6IkfE8l_iygptpAMctByJDIwA5bVcukPrTK6rzIsl6fv_BG1ROpw4q1YLsmTTkNm9mhK6l1qt6Ezd3I8Tu5umNlfDmzp0Z0qYjQ4HVc_XepIUVsapmz-PtjFrMM32WRauNyDT9s4JAC6i0_r_GoyhTBkdEO_eo4pB5Ot59NLJvce-MTWaiLJptPtxOG4p6pMnGyBrxZmMo",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112558258871131360932\">Aleksandra Marcotte</a>"
+        ],
+        "photo_reference": "Aa-ngMYKh5oU9UKGD37y2zuKoKs-tx84oXOttcXe84t4w0i3MwdAM5DSxjQ5g5oo7o5PnR2es_4ZfOhkmIe4cwQHF1CIxIz4wd-24I-LpriTbdDN6zSfCqjnhbdHseMWJBUVYV7jlQSx0bMRIrwJhJNs3zLhutl4hyjZBOMOlq4xkMseJZMLCcSAzw3XG3JaYgEpPPqLD71WhDlrl3Lh-T2FIKoqisyOljbqTwRsTCRgDi15l61Ksgck6bxsOTD0jbLoGecG8C1g2uZv6KZbkifYWqg7PB5iXgEM_vgu5TovVUIf8GL2obx9mOPYf8NvHZ4ECtEU__xFFSS7y89wczXHzkB2yW5kL3dk69k4sB1p_EOoG2rQ9W_GJ39Id5IPqeJZeFLFfYsh6lf-xAXXI8sRLJgCTYHKTb4",
+        "width": 3200
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112558258871131360932\">Aleksandra Marcotte</a>"
+        ],
+        "photo_reference": "Aa-ngMYZgqVdZQdvwEo0w45phDAUpnP7gvCqZMSAT3jIG3h8hCn1JDLqtXh3rA45oeOjQEcWeD_ogOjzl2_7QksfuZ1Frc3S9OqX5tOOpNMgutYIgANRQNhPQAAvYURgtIlGuuooU433dQr-VafSEt9MNDDyZVHlzvcK823-So_2Ae8Gz-Dz_HL-o5MMlOPn9Nb_yCYe-wLg0dHKmOp_RtCm66N9DRFpcdDJnbL_O047L8yjv6cddzIzqWaa6D_njc_4IK0NADQfTeT0HVYfoReGid6RXt_lKVuQdq86_68E3N4isbtE3C7RdwT77tZ8YNR0vj8DaFf6FZcYQNd0DwKxStoKs-QnMCjLYYUp3LExMVsnrKIg3otJBd-Ao2MnDqIAWSlKtBSMJNlQ8n5GgiUEdzH1wadd_TE",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106855178709283008511\">Olga Vesnina</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-okn4pauB20cURhnrRL7NTu2hiWl3CkLs2GEfUs05bncOriKVd6NwPqdfOaeD7-wKS4iOd_lnVf6h7FpO9gnsML2zlwmVFiooTmD6q-H7JgZS7b2zGR32XHPvXjndJuikJT6Ff5Jx_kyrrX5ST-AgeFG_3FD_fs9mewouL20gaAve6DMXRGzm5WSOwK6NlR3qAn76DuJAyBcjGViwzdjpppu-iD4Q-BUdikhe91-whdVWnPQhHdZyRCvnyzWCQJ-aRuzmL4df6r3TCtGDU_KjEDqXnnJ7sJLX2tm-k_iE2MOxc_zSlJBdEc8gr2WLl48jvB6mvu1FEpIULpBbPN4Q1pXVJliw5jPOnXgB3DOM7x0H4q4ZDshcri-zJeQ-qo-suFhPza-GM6g_wMgUEKDIWBw005Y",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106855178709283008511\">Olga Vesnina</a>"
+        ],
+        "photo_reference": "Aa-ngMYOyiaL4V1irentdUq5ePR8JlNFMg4OMDcxdWsMmgEG99bNGzDx6H_zocovpJij7UUCpBGcNDxc5c5wLj1zXwvDkW5vflU5lh0pPZPRyBsLuX3Mc1LcPxAH470ORufSOYr1hl6vOXB5RLeCf1irTu4rnCCBpkMqad_qKXDn2ndloLUuh21tPcM_4f5HhvPcYplyKeNNRaBg7MQy5p_gKNKMrN-WdWba79yn7i4WiOBQWlxx3ZbJjyym8H9fOHK0Geiyf9-uwOtQgreSLqN5NlldTTlpO38WOuGXvaz639vCdIL6uLjg0MC-_vDMLKH2UkMTw_s7DiF8oV1zdeMKd4NtPKN7BPbsXTN-FvEw7mjRpVrmHqDKfB2WQUL_fg-1H0uTg0caGya_FNgsCwKKK2u__iI",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112558258871131360932\">Aleksandra Marcotte</a>"
+        ],
+        "photo_reference": "Aa-ngMbzmTCBHzq0Jw6Kx87oeI6SSqqzReZYF91l-HjQitOwECV5nDdVICdU_n5ryuhyveP5d40WfJ9blrmCoUpwdb_EIEantZvnbBgszNwWCu5i7p9eKSWhwgbfX-qy0Q1fiXlstuX2LN3iozLv7FVR3YArV1zpvu8sCctUYCk5b5A-zpq58hAjf8lmv46AcXq2Gkl8ov7bvZ9oWp1mI5oNr-D51FlE8f3VEVWQOBWiqTr_L9XbAKx0Usl6vVFC9Gehk4TlcB_QGJazV7sluKJR6iCRjCV88kiIaGCg-cvxpxZmplvJSsONVBzYR92mOjOgTpn0Cm0RyYd7XOj_i-YZG86virWETW0rIDFcYgXG3zlCKhqUlc_N6xSag1ASSzJMCuNe48mFMrFpZdczmmaJAEP7zg",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106855178709283008511\">Olga Vesnina</a>"
+        ],
+        "photo_reference": "Aa-ngMbJe9BqZtkNmfwsF8o7PtINDrDgi3mry8_Aj0ZxhFR7X8JOhVjZwFLCORzgPv2om8n4vTd2PXjnEZ8iEG9ouTw3pejLKQ3BiebQZ1b3LrSOiuuLMlc-eoj2OO5UKks3LsBQ22Mq6JgFu2TpQb4mlPQCqREzHK6jeslfYIa1WbAjSu-Hm4zOLsP7OHv8RawOX-MB56VByOjbqpBwNXr7TwgrbUENZyw8hYobg8H82wfHIKsm79K1rrXPcaEfmWiEZakJTQQ2rsjbksKblDBzGE-C4j8Qs6KPb5KjcNdBMQqqW7S1mJqtvotbvIX_EffHh2VXKYu-d_s-QYvKaFVVzaOBut4siRRQdl2tIYr4KzDQJaNiS0NQ2SjCV9Dchlu3jMQikYEclixzBWoMdvYfpxpwaW_zJFU",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115825934019250114900\">Francois Bleibel</a>"
+        ],
+        "photo_reference": "Aa-ngMbsoFF12qKREoO51MRACMe7ovkoynCuXBkX6GYRHcNPshDx4JfDdBMPVJOPeaPv8HcCQkuj41PXeWRhi5V_-4tx5wyDzIMRdUliJIaD5kBBjkEfpdtrQO76hUqQcELmBfpJvH5ebxibDlNflqjfwpkacj4_Rq40oJU0O5hwe4H_-5iLRok2R-6ZpDD7cdC7yR_rVwbUB0qUphQZiFQUK_-1ebAxgiI3GFL4qmK7tdh922UlirL4tAY-nUlJmClEoplzsCrECrIWduT16N5cYIwx1mHuNS4Poftqwpkz2IR-Q8nm8RmPvhOOcdBLEWUK4H33wFfGZ33d5Uj09Ub8_5i8SUhbUPywlqdd4-zdFTh1icWukOC1yTi3Tt8FzGoruh6lFkmrK3yN1pwC_4Rp22eH9f-3Z6E",
+        "width": 4080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118100801585704154089\">Robert Hegwood (Bobby Wood)</a>"
+        ],
+        "photo_reference": "Aa-ngMYcW7nRX-QYOsgoq9wCE3ZHix43-onP1BG3l3dL1ecXpbhfQaw9n-Lxpi_PoJ8foSwcln9sjg-aYMX4kxzkNJC7v4GP96RkkejjFWBOQZeiyKuW27i1KghwomneUng7k2kYvhzWvJqi5RuztvubEsBz8r_fwQx_yL4q468UocQTSYR2wMaKAShmMZ4v5H_RqHM--Zid27DsyRaOjiisszia2vHAgDaNE-DP6D-795He_f-zEFaD3i6hztpzs1oFDjBixtDbrjQgfgkbVreQ02ZnanQz713Y9Bs-uu4mvcaO_JyuMyMfY1-ooxPy_7YVEO5mPcYe3oy6mshx8dGzn3jhmVnFHRAEWv-5l-FcTNVCQetndLL6HiP9boSIbUGamHe5l-u6fmOou6LKMxJOmAxG1sg",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJ46ygOVFVhIARL4AAZL7BsEw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5526129766249300015",
+    "vicinity": "6548 Washington St, Yountville",
+    "website": "https://www.hestanvineyards.com/?y_source=1_MTY2Njg1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU="
+  }
+}
