@@ -1,28 +1,195 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:18Z",
+  "fetched_at": "2026-10-28T07:17:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "reiki warrior healing",
   "place_id": "ChIJQaBmYC13hYARrOIV_CEHuTw",
   "result": {
-    "formatted_address": "4980 Appian Way, El Sobrante, CA",
+    "address_components": [
+      {
+        "long_name": "206",
+        "short_name": "206",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "4980",
+        "short_name": "4980",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Appian Way",
+        "short_name": "Appian Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "May Valley",
+        "short_name": "May Valley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "El Sobrante",
+        "short_name": "El Sobrante",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94803",
+        "short_name": "94803",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1900",
+        "short_name": "1900",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4980 Appian Way #206, El Sobrante, CA 94803, USA",
     "formatted_phone_number": "(707) 247-5399",
     "geometry": {
       "location": {
         "lat": 37.9758983,
         "lng": -122.2971131
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.9772743302915,
+          "lng": -122.2957602197085
+        },
+        "southwest": {
+          "lat": 37.9745763697085,
+          "lng": -122.2984581802915
+        }
       }
     },
     "name": "reiki warrior healing",
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMZ65ucn69krjj8WWPmIOOpUB4PB6yiPvwtmakorzrx4BiHlX8cJ6O5_3d4-DTJdexKaer6v9RdsrvuR_oiqxQiFc6hhx6FtrSqZrWwNzC-CZ8Xp2-uOcYYn71FOfBqKCzogqHqf6JU06hNNZfkA0zEFeo8nOxfSEr6TWAJAUAP1rjinFvIGFWcvZ3YtycQVdXgI33R1Oc0izc5ICQPO-pOQGA_If17jMMownUrmpFOscG6bwEvRZfUVuAWvMhaAW_FXClM3Vj-UkiQt2j2d5gzk8KhT-ss3YxOJdF6Fw4dlZ2_TRSVex6RXVJG01CAfYU_fluqk9UOyov6r17OEjiCA-NL6rX2hpAsGfj_izrg42cnJ-PgggboEC8ixhiYCLMY4G9R2tSHw2ZCievSXTcJ3u9_Qni4Vr6OjM3urmHZG",
+        "width": 1080
+      },
+      {
+        "height": 1468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMZNW6DqKUo4NbGgWIGecHmjg3cQznfMwpbbpI0WLoELvGPLzgi_fsEbb7v9rMTe38QNM8i6mudE-B0QT6yv_MPO3HWh3t0XfGjuzsKcK4iZRODtN6MKhiTOzdC0Fhuz1vRj0CRnqKjAStuPguOVXp2-3rBjWIno2N6fYzn9j_MdQR2GgPM7o46VGNJVhKrKVdoWNzPwiZerEiMm8vTHF6EfNRoi4TbfWSN8gE5plQ8JI8VFD7cSwNVQICZW-6005kg8q7osRRW6cCKsYKGd_vz_2wCvDGpfe0Apg-jTgli1xjXTotBlxcEt9lFED3CQ9CDZMOkM7-7WTBC3J4GBWi7RK7ngaev8npzdNiMOIvOErifGqe2DYDI53XI_1ucoYsqgNyh0ir-_lyZyQiYWevlqiJ8qQmfc2pGgaqBPx3UTRw",
+        "width": 1080
+      },
+      {
+        "height": 1084,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMaXZTVhRJVVj3Fp-usu4yUHN-ZsW6Z_IHIL4cx0mmHLj9Ptia4MvxYdfrrs5gmF0puMjHrnw057S_tFCZ5J8NumJUVxiCPiicsDOapIELJKtfeLmQi1FlQILviHp0D3Dmgpf3TucuecXGOm5wjGPcSymOg3YdajAgTtFfD12sqdHpaIfV5D-HiC-lXxG47-yXpy5RXLUUiHa4kDFhXvB2CbGb0m_ikH7mPLRWxyRpuy_Loc0Xa4XnzSQcgB-Fo9mo1dFEvHEftIq_U-AqudIKMk5u50iLDtA-YU9_mijDmRffEyIdu4m4cYTzdx1nqQa8o8NOQ61rk4BWsxq4e-L40v8DQZWlOTbqbaLHeS8QPcSh65UVesATCcB3ETQB3rsZx45q6PrH5REIj5cns-gMrO5dKp5p_85skrus48w_WwMg",
+        "width": 1080
+      },
+      {
+        "height": 4384,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMYUZpyqxleomolQx4EmNdeEx9IjxjuyhdVxddmAt07IIpi2h3aNQJNW-eAG83kzc2t2Hov49yK_h08XwCNRIiZG_ntJb54UPssznfn99yQPiNR6pQ7SptCpbwuGRvZApT41tW2LzbjHiNv4CSZnJLw19HijU7O6xlri_q0uWrtKLnvteiz8ouSuVH91HJgpL5Hcjmw6uWfGEJiw3-AqRomEIN8mEHpl0SgFwFFdwXiktDPW-VEnoyfmuS7NK1HjHm-yy-zum2BryUSTpArFBbg9vByFBIDMiTQquUnX4TfphMZMxkefKTKpbv7WdscCVVz_rsUbuRZUmFo6OZTJq_pGowi2I8GshLxL0c2ffz8YfqIoYCvx5xdgEhS7XrXTSL_QzebcTDWua5jBfGBhjWPEDIU4qUgAetLn_mYeWVlYlw",
+        "width": 3060
+      },
+      {
+        "height": 1086,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3-4iaIZ0KLXTmCzFXOEOo9D8map_dWtryzZZMsb55-6QmuwWvLjbNyxuIz4kRT84c5bVGWtY_vNaE6elBNKV9sAm3WoM3Sr3qrpgRQgUeY--63w_NCsxY_A2zflgoaF-w2DPu45eYKSeADMFzVy5HN3ua2fmJO2xHI67CcUlVQElW-uwGu8LD2PeQpJSzG46pnh_5LTq4tAW2rONxKXWOi2TQa1Wy59RLfOFOQh_DDNbtAua84bboNmhdsz7mjP5x8hhuE-OaxncBTcM100x3KuTJK-1EQ2MKPZeFW5Br5-owFBywBwQ_X6HqCvjxaVyDCYIadXgAPvKFyoGYgsO8XCMeOyHrpt3jQuTj46RjyKSYvSVUH_5B5lSkcaf8o5YxTjoDzF4zYgS86CXMt1aG-GSD3UIGESvmZtj2XMLRmA",
+        "width": 1080
+      },
+      {
+        "height": 1596,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMbhGzx4SW92teBi59j1RzJ_fNtszfs-LTu3wW730oWpBKHuuZfnSfbcRnGZYGb2lu8qWTPS6k11E2UzTIQWsNf7ovd6BHvFeSPTzu4_o70ji36ucq18mZmQOHmCOpGj0GcEFRKnh5PguS_42A19wLWDI4MHSZlCFlViL0cRTgrSIiX8DgLHT9IkNdRsKKs_6DUwbsO1vIAol82oPyY0tYoUO1UKAwejHMufDAW6lT5O23cypsZFPf8Vp0TIRK6BDBPehojiq4D6VOP0iTNbmxEnxz2n39CKoYEP4iv9UtLGLXhLNSlUB3SCJbFhGEGHEnf8iNFIQlwdgpSKVZrF_9NE8ZFp8Ep4_8j9P11pJlV0eARWY2YV2uh32Uw_Rm_zqDVrXyHRkB3dLUBe1TgNcT93gQuV03oedBciwn80XjC6",
+        "width": 1080
+      },
+      {
+        "height": 1217,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2J0QP8C-mpZD-0nMH0W0tnxBeW81p81M0wOrKUGklYNVyY1dx0sGvQh-Yrzbf0SeSMZfHwv_XKsA7NDQ2NRE4h8cnOO8wCOutsrxn7ctTJJziyP7XuyPxkY4-uliRUgmK7UNpuZWupf9xGPkvI9uVH5ZBw6sN2zh8VivWHqUzweTGOmqb4QV0FQf7Pw1D9s78MW7QbxUfpS-4EUBZpDoxgmV9WmYLjdTUAtZ3Rhub5yWG0-t2mSmAnlE7TV3d6b6U_FeAeyuKkKe6D-RLcNkzrabi1Fd8Fjq0DKwALK_kPSdq_Syobw7kUQNec6LA5HLccua_RSz5ubnqA_PuvRO3vsLEPRaIFRxzXhQWFp7jy2bcDvrzcYAWIMRtBsGJWFEFCkrhY_WJsxj3A0aDbXdINtqwKAJAA5Hu6Uy_vO_b",
+        "width": 1080
+      },
+      {
+        "height": 1215,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106668645597215395959\">reiki warrior healing</a>"
+        ],
+        "photo_reference": "Aa-ngMbjP54_95Tl7TqC0LxOijg2CvFyoXPslRJNjB1oSpFIQxhLX1XQTq8Ms4zFVv9A2CxAeQsHtaCDMdkMIUmXLp4eOVknUc6dt6ln3dhNGsBRUn8otgOFwUqZmCZeRa28_fI_2FJ7OfG3Hq71tg6Y_KJWdp2ZaBcM5md4RMtKaoqHV6DvcK_Wdzn1QPmY2dK02bzlNCh23DOmANkNVOi4CQq0foYblURkh3u3VZat8dVKw5nUVWaYRFRDkfOxN407xd3UFVtrq2Q7XaFksSpJlEeAJ19Zzam2ySYPIfvYkSvnhuVid6SbKHjqMtqwM0pv1hQ3-4_cL0_B5hEgw3HJFET_w-w_edcZ_UjNDDWWmJO1XSSDAOGfaDNRdMn4rWKTsjMc5eYoleqjjmaURmBwwx6cewh0F9encxdOp_Ivzoug5w",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJQaBmYC13hYARrOIV_CEHuTw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4375536355511755436",
+    "vicinity": "4980 Appian Way #206, El Sobrante",
     "website": "https://reikiwarriorhealing.com/"
   }
 }
