@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-10-28T06:45:55Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "C\u0101po Creek Winery",
+  "place_id": "ChIJHZAzAd0EhIARn3WKATLaD5k",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7171",
+        "short_name": "7171",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Dry Creek Road",
+        "short_name": "W Dry Creek Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7171 W Dry Creek Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 608-8448",
+    "geometry": {
+      "location": {
+        "lat": 38.6811,
+        "lng": -122.9538868
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.68243383029149,
+          "lng": -122.9524873697085
+        },
+        "southwest": {
+          "lat": 38.6797358697085,
+          "lng": -122.9551853302915
+        }
+      }
+    },
+    "name": "C\u0101po Creek Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3896,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115961712926609301147\">Capo Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZpVSlF54xxc-I_neJJSzhCED7EVZfgNJ0tYqxi04nsp-AywVbyaGTgZsbTg7MLGZ0mXIo_KUut4hkpLk-AcSKl5HZg9ZlLZi4JqbCNsYdr1CdUE6YdWOXbeZcYFVvGQTzCSfaAFIyrh_lds07RHVvLqLgAIthTD_xwWXfvsTsdoe6XNv-9Qcnn64tUDka-B4hIGvrfKv6XoBOR1J_NHBJUK6QNswyK-Uhv6RuuO5mDDcbxM0D97f_jCSqehN3kIvOvcJoEntSN9WT4sJSIJFE9gFMkYrRAm1uJ2E8kWL1boPcSPulCUvoxmWqj9pZkRIXZzytSPFeBYAWknrEvVdVUEE5-c56cD-4_-qM8dS-F_zthq_oi69GRi4vUW1QOT2DY-kCSX9eiTOaqmNBB8Vz5VJc",
+        "width": 2922
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116503901312652754920\">Scott Eddy</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3h2PZAhR6rvGxa6TGHqD7LCM-_Ee3k5pMC9SOzNlHwVfoMkCRsxWSVFTWfE8tZrQQy1j8o2okpFEZ9hmcVNj-J3dMZdkncXHNYkOFXqZpOokouCf6KYRXJ4rEE_UxsPhD_YqKGgsgxy4owZQcJNoeEPeDBhqN7FfBwC9sgVwM2YX0StJi42l4ybpy65Kw7v_M39O2o2-HPvxoCqU40HjnSTX3101aTMhYxRxybJu-U-8znPYbn6gZ0P7NJf9WKaH08GhdThca9Kqg2eWdWJYTozfLSBO10tNacNCZaQmNU-PJWTEmtYU_UXK8q9ThHVU0Vj5EGyhNM8UbazHONP8sjXJIoRooBCUVcqGjd2O9PEjf6oqxjLbemYwBL-euEVcJjjZfcXUPkQdpW8DCKDyoMyk",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102327403706101276740\">Katherine Nolan-Watson</a>"
+        ],
+        "photo_reference": "Aa-ngMbNPFzrfTJ01lL7O8gU079Q_Mhb7U7aS_v3ooKJph5xamj3LuGQyguaeudgHIDeE0fDIEEVWLwx22aaVWabDLxHkx6Mov2ypdPQHBG7A0A4G8P4sLOLMi0wmAfMAi7U3UR2H6wSKL0ORf43EtCI-o-DTbsRX5TEVpKQ_vq-Jip9e3Z7vx5TsqptgIsRVbQbjseur9_ePXH_OzZJfI_w_OpyyDAa_5m_udLkRUUs14iStz6ZXnzDgOrnQpC29Q2rlHlsRm80MA_r7yt7PT92goIh-fY4rUc16dAlCMbBDZc0HBxbK9SZYEeAFlfa278g-8uTfv12WTf2dEg0JSaISBKrU1V-2DIy--t4Q_U2dfcLRIvFMtPyiU-ihu_agGbZ3IpND22nFwR9q5O_Cs4uByBgmgd4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108285407267415390662\">Randall Bosetti</a>"
+        ],
+        "photo_reference": "Aa-ngMbY__OKfwhkXJ6gFkQD1y-nvaymNhA2omPOcVQppLD1AqCIsNuyIVFrUzqjOlcT0r7r4ImOkP_wQlAbNBGjLAgQ-ehZ8om5J7ZbRgRiG9EZOui6VGzDbQWugvTyTQEgdW30SXPOq1QsUkPAkR1Z1CTHXwbJL_iDf-CPSCuxis5UsQDKgwFe9RwrPs7D-9XPDCFG7Qj3CVLehqqqxMUszvHsbmlwNHKj8qAQ3PBDfpg5tGn2E3AMtz7cGO3Y6h_GTYPVJI2ABcahWhjO2MY1M24Ys42edTMIKjG7oRB0oRLdS63RQqL34tMP91LlC10uXFZ_n6bWM_Ha-CnkfTdhWEvvrzPbUCap3GpJRgB9eapPHFLmrjq4pBdhmEk6bo-czjANrdHFdQinNXj4DZrFu-fhctU",
+        "width": 4032
+      },
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113461924597026679194\">Joshua Bush</a>"
+        ],
+        "photo_reference": "Aa-ngMaskAMx8J_JXnEOj_SpVMaTujiPokxT14GqvBQx4SFSx1vahmroHwUZPKNVG32Kad-SAivyBWLiPvYFBXgy8StrGq7V-8Ee-UpWS3nVSmdkmijM-V0dtlqcHi7FF57sIlZFsfSkCat-SAs6FsLOcEmZKq2ncACt4Wjt3ZpehuoUj0E23bxvO2MjrjErLxyvjoWkd-4WGWfQb_Yc0tZOxvk_bLwzPSb1-1gn6EgO2SGZ691cuPqmWZ081gyfQCGfj7LUo9zwr3osRvWsObSjHiy59sjv2DG7cM5JQ4RmNGSKWTMU71GYULiWZYq5xsMyLLwpIQ6cUadvmWTBJcgksfKQNv-R3CbZYwSEMT9HaKjktKDyLghMngPhtgDUAkxud_gy4dgcWPt0L1V-9JAHntxZLIo",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115961712926609301147\">Capo Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZqC98fYCPgTSbWugrXIGP5Qty-9SsFPVYy1FkYpjIWpALVifS-tb513xLQSJt5JXpBmk5qDb_UZe9kFbAgEWCichN-epYjW-gBa2KMxKkelLFbhkXg6qQn3Fy3Zip-Cmt3AN39rD3ZxguPJYDLEHMifRb7WJBfMr7irCwKnuWkSXS7D2CjoL0ZDuxWwbWhOmXEwnFmfpO_8B3D7KrfpTlx09yTg-iIdwmEXCyYUmMPRy0lXQUFf3NzVyIy6hUnapCVPCn6bSTxE3k1I1mb6QPpsoMQN9EAN0hJcJmQZeNGo-D5wBDMSvQZqOWTx-8kY41TaXKECV9Pbt9vwu8Bh7_bbjsX_2v7IVWZLfGj6AED9IhHFJuK2hmqyOluA9RxkVPy9WK7J4a0XIoJJdeDSyStokP1",
+        "width": 4032
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105880155641854603759\">Lisa Wagner</a>"
+        ],
+        "photo_reference": "Aa-ngMZVL5fOJY3JII2xW8QSxlRezNuyjKwbc7Xgy0UcTaS6Z08v58TENA-bfJnga7FuKp1d6-COCGhmSXku5fHnz__opUKq1cilEicgIXHByzfgvAhtw0Ea-lhxNdu7s0VrO0azFRZB0XL5DQR0cKxE0yckW2-TINOHaVWsN4rX5o0QViXKsSaIZR_28efOgHYfEY21okcQhdmtH1JXSWwpGcxdzQfTZw6IMEAdCnHhsM_NBxTYTif1zJPMJM9yW4njMtI7AOfsRNQ05G0eLclB2qgL6Pz_ijt5AuOQFAC_RCl4X56tumKaHizFhI57O0jp8c6eFpaxmaoEENatHkqcbdEZy1_kqirmYAz7ZIHETDM2n6LgSE9J4PL-S-9OfUtJEAkOT8hHq2rfQvfZZyqBMOgMqbg",
+        "width": 1536
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103810239590902135340\">Little Beis</a>"
+        ],
+        "photo_reference": "Aa-ngMZ7zddmV9JTMve3yoKZ0cHn5Lo4B9yAux1nPAZ_w25P4cW7ARcC1KYUEJTW7tX0Mhlaa986zrAkxJ536F7ID10H2uX3pGKnM3wxBbYCZgENLKJtR4K7Hwjc2ndQ2Dy_brY5A1oXei-BwpDOUqRnpFjIyX3b3NhtrrsYYxQcU9lNZsvTC5KQCrl7mTbcLJVj6Q1XEzadiWq9U9wahCvBwXUtipito-5hm7f414wOFIP2-KX-upbNveLK2Few6AWfHdZbzVCjb3IJXRV-pT1oU-P0AO9aoHEz7xLocy2vbxhsOCY9sHkL40eTZ2hMmze_AdIpqdEc-bHWyINon8ImNnV07T-_Vp53ujqIgu3_GDTuesYYv_4pUlle297Nzy6St-br1v1HDcmjS93By-8JySkfKeF-EuN7mParC55MVhLh",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109776618474634873591\">Nha H</a>"
+        ],
+        "photo_reference": "Aa-ngMZJXRqSoPjidLrbwppBjC3WvyKrO6fPkSi13YXhvsF7lYOkuyG-FUhLf8wTMTpbaxRvBPyZPjsz5zGjwpChWokQsIe8-8l15unpdaTEtEqi8Co_um-oPBWdWliD6RWu6cFoqfguXfxyRyOXGwmahAdhfEqkJeB1MrpyPwOqZXGRPqxmBmVPa32G3NdU_iu4l2V7HhGznM9cVs9ZXAF7zwNrNYiblyV_iAtr_1JL3DaqRlRCJMaEjZ5oAiybtkMIU-I_9IdpZ3nasc8WwMqglypZYorX7cAFZwhGOrd3FTXX1YZJ_JdK1jD0ifY5vPZp97gPjZHHa2m2-L-EzF5toxtf6DWN3JMWaRAQQ9Fq-5dtnYkT7c0Ud0ZLwGepL2EWhHr6AHCWK-e8eaxVqzw6dBnLIxGbAc0",
+        "width": 3024
+      },
+      {
+        "height": 2752,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111455687630259906475\">KWW Media</a>"
+        ],
+        "photo_reference": "Aa-ngMYZcrRwLZMPbvNzwED_HjhDiuo62NHILUZorAk3ti1MvwnNE-oheEYd04mQPY66ERtjRgLdZN6o4yLWHDFYPFwQJFt4DRRs2uSe_QFcWDMB4wEoyWj045jIVz-aqUp40Jt5riTqsPBTVJdsNV5hdfPA9_g1xoHKqvxBimJirZo8r6mj94p8l1PYiZuFk6QI1l2SCPHV-zahrXs9ocgokq8JRzlj1egFGJrcDh-h0gpm_1ffLxfUDbVusKAQHz-6YwQMn0j1oWS2Hzqdzqu_j78ndZqMshrZahSO1wVZxPHhtJ03p9JrvHxeDmOIZpqt6Wdcs9amJ965JkOecuL6zbiU7CSUxyTMm2re2rrQ2IRshvrPWMTsf5zZYvuqEZk4DeXS4H0sr3Udsr-a-kojn1b1k6sQ0FY",
+        "width": 4128
+      }
+    ],
+    "place_id": "ChIJHZAzAd0EhIARn3WKATLaD5k",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "url": "https://maps.google.com/?cid=11029273920762705311",
+    "vicinity": "7171 W Dry Creek Rd, Healdsburg",
+    "website": "http://capocreekranch.com/"
+  }
+}
