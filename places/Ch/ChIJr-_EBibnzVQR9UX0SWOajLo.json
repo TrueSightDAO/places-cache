@@ -1,28 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:06Z",
+  "fetched_at": "2026-10-28T07:17:00Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mary\u2019s Inn & Mount Shasta Retreat",
   "place_id": "ChIJr-_EBibnzVQR9UX0SWOajLo",
   "result": {
-    "formatted_address": "203 Birch Street, Mount Shasta, CA",
+    "address_components": [
+      {
+        "long_name": "203",
+        "short_name": "203",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Birch Street",
+        "short_name": "Birch St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mount Shasta",
+        "short_name": "Mt Shasta",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Siskiyou County",
+        "short_name": "Siskiyou County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "96067",
+        "short_name": "96067",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2345",
+        "short_name": "2345",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "203 Birch St, Mt Shasta, CA 96067, USA",
     "formatted_phone_number": "(530) 261-1161",
     "geometry": {
       "location": {
         "lat": 41.3145785,
         "lng": -122.3088976
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.31605273029149,
+          "lng": -122.3077482197085
+        },
+        "southwest": {
+          "lat": 41.3133547697085,
+          "lng": -122.3104461802915
+        }
       }
     },
     "name": "Mary\u2019s Inn & Mount Shasta Retreat",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_brHUOOK_KJuW3AXR9mErM9xtThqb5_-FxlgFXDU5_5tJPelBs3PuBqIKrnknNhDlPE63xzwh_puRstncp4RrV3ZsTXSZTA6gAflyYWQhzLzZZcHldmU90ouPagNa4C1dVkJwXbPHUryL4eJlyJEC2HU4rqRlnzGijhpnyMJ_Z4kJ2Z2w0wnPtMaZhobggNK5ZAZA9SmhZbqSYl-GRjTJQXAQvroY1NaK-0KzG2qvtN8U_a59YrXlxaKS_Dw9LTv0KDUW1ZGXRuW4O2nJK8pUMpn6fdCTBXCJKs_mY2Jb1h8BSZCwijRtTDM1PuxqaASIP78y7o57o4j9EHtBcSrqPxUi3gxFVVaBd_xUjb0J74hlXTQdSCWPv20HyxAQxBqkSly-irqj_gdQHhs3ruTIvyjusxcwTVQP2oVMgJko",
+        "width": 3024
+      },
+      {
+        "height": 3022,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMaRWgvKfOTrze85Ypomz_2HFJ5lTS4fbsq0UvfN6_syM2yPSFB3GnrpwTkKnjOaNZzIw4Fng2bw4icwAFchXEZSQF-teLj0Tx1YMoNpyCc-fcVFOrWw9d0UJNEg1jEd_irXBs17YSy78dwDlmctkIpKNEyyEzYx32a089Vg6Bi_zrei0gvxol7JNUhZHjotyYNaWBcs15ryLZ0hWiTTClqVboakXZREwIktj7IR6rHtJ36X-tqYjI4APdVBCvjMtNgl-CpCKVReqNL8uK-ukH-RAGvuf_MCfX8Waa3_pBlmKb4KMd1h0hMon8_psgvHh-cgagUxvqthrf1YnFfJ0lmLKjN578gUy8RUJvxBlm1vDEro0tHJ2K6tn8k6HKy6v_iOFH2W1D880Je0upVd9eVeryaesY9k9FSkOv_mvlYv",
+        "width": 3813
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMaoOKfzLcOqLbxYFr3N9Z414NlJyc7phMZocpIaEigHoZGacU1jPTzCIepcAkOCr0S__01fB6-DzSYpNEWwYg24ktv5VwaeI1G_K4DtGDb5zLSas_y8y_as2sphsTlugqs_zQeJMCuT2IxHilmJWhVSjXDWlAVqqEz9N_TMGDb-G94uD5FIRyjNHo5CrC1tfpu9xJX49HnNMBXmpe0u2A5ezb0WdcjNRFE1QcnK9qTWLvDUTstIYf0D0-kZyEjbw8jLS3Sim6x37mESC-ipKbNhANQscQRm1Fns4L72kFLVM75WXCRWUb2xlGBwcpYLiYJNFaXWvSZJA2a3oW1dvDDKcbhmv3qwAyrh32Au8Vh1qwsTjyo23iUut9nyQd4mvNHxYUl6cmN7A30SX6hDMgpNoPo9cimEoanFGu037hM0JQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMambb3zGDKnAiQ9Lr-jWBe5uW3XRJWDqmg3GLT9m34wr8bj46bmOgfFUYpYJoSu-7t3CUkzac-51zMN_Iszd-qvlLBdAyA7Wilj0WqiphmTXYuuIcPJCCKCzHZFM6mtKSEPTR1SXEpX-7T7ckbcp-UfgpfS9t88fDdreX7XGPfPdxAgVxYk-_QvFwm-UQN6dS52cyDS86t_nZLXUTQ2-LmAZdUUKi607mGW28xydDFe_n6zk6OYBdHeXPBGwPPVeCf2ciyXkupAbgNaJvAh8A7YdD2qK1_6cS7jVbTh0l-xGVCz02lrziJ1HxKToOWPduqrzaMkQjRCdimFlqyXQEi7_Ow9MAvkGU9hX-kCTw3YFCJi1ygOC47nJ0kK64AgCPsPqOpQ8YU3GFwgfMGO8C46hyHnvATg7OUq6Gdc-syoag",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMZrIozZodgcM4JI5k4Ipn7PGbWfHbT7XDtMCwZzgTHQlqGs0KlCsu8ZG71ytVOxMv-NOxqwLUA3fF-AkPlluL-zpzlDstMCz9TR8ntilUqkB3aR4L7-q0fXn8uJtv0V89WJ_viIZi9VoUtuemT9R-Hq0PnVz7rwY2Equfb9dUohIewRWcVbmoVufsfFTmkcgCyVgOycdHlBJd_FWkEokMsBdI6PjP0CEvHubCE1EcaUkvZH3vfDogxE0GyDl954WFngcT1LhUaLojIJflr5YyUUw0t-_GWs3DsGkBgwjQRPJJ28mxdxMx92yJHMHeChKYeMRUvZSyzma-J5LCJNGAvhQMJM4msQCibzZwUx0kEOepP7sOhaXQah9D0_0pvk5BmzvMNXb4AXdHJeXvWN_kDmUwjQBtHa8LYpriRC1Ws9",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMZvwLcYvfnR5024LoaEOb1GOV3SWH2ckqD7inQlzautnaUSRoeLaBpI5ljEzV9nu6e7TyiqouhfHcR1Ai2P_1f_PvJn4jREITi7zDOx0-8Xn4KPI3mcWkch3RgvsTiZQ6TeqyM_ah3pwBZKP7YEZV1eBoD5CKhHTcgUSqMeEva-rUhFDHVpv2qINc5fKSsyX3TyGx2p2oPXYpetTMWxfLIcHXSkOn6wt32ExOS7YJmECEb1OU3HMUsDxbZ3PDyJYx96BKY0qCHnGfuuLRHjbIkmqDsVog6FOVYQ2DKzKzs7XgxmKAX6_3E8i1Z_TMzF_7RcLbHR8Qo3BqWJj_dItta-b6NAiomopibe9lihe5-RUS78uxIgP2UrTJ4JRTOM0bh2frJix-ohDPbcuI7bIecbGCkO-2VS2FsRdCsJyd1oBA",
+        "width": 3024
+      },
+      {
+        "height": 750,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMaWstXu5E7L2ZioLCupXDlJU5ncyfemeIQl5d0_St5NqXoB20Qxgnm24JZjhuse8rml5YqS_4Z9VOz6ugAdvGnzZ0TgkQc1rek1lIwc-WZK_Jf8E6CWkd6cMmAyoUCHl3uBIwEd9WYdTE2VKteHxEfRJaGVLHPCI5wsCpbdogOiPQN0lzyvfI6-_dQzi-fkh0gcv-98tNdH28mYKDPuqAVy7226W8ewgbD2rmjvywegG91JC93stvLpJXDVVweoT6N8fDMxrINFNnu4tyMWcgQ2CRJFtHN1_Pf5Or73iN_fSAVijp76XWtbBUXTeLd60cJYH1b5YhxT-yxe8kDTpYuITVsoGjp-epfoYXYlueBt55IS9zTdsktbRr9lv_RKycK2hJBzqXOQ_wxJM8W_plU7snlm01CcATYkG5liyVZV",
+        "width": 562
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMZU6i1WjvVdeRCJHdTaePajK0xLqzi_9nwY0cX9r453A-2BbfmppuqrJeMDTwqt4m1QvVy0F6iFzO-FdEsQWCZVmmB8gnXr6JFX69oHadLbP3r9E0SyiNz2Vme99fqsaqhak-ip19ejBJzPEd72f2NCjZHap_uYaPxiNZ2SGbZysp4ZO8OeINM0JQadu650cS0VSriYiel9hFD4mb1QAggWA-ZQmdZry5LkUvjwkyfPpNtTAlJvboO3pFsjY9vWz0kOMHDdPL-UAnXTs5ArBwIVZgEqo2ZqFWL7qFgTiRJyuYU_EpyyiXc6aoCz0hyYdPIWQtrx5HOB-MRHGsha33m2ZTv8RcySqvmey27Aos1eGzK5hMWwu4xX7CGD1b9AZuexHWh-UGs_0pgiRgP6SZRXyFPaEy9MVFQFYK-Y7BFX",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMbZIUu8RH6qGOsDm6YqSVF9XzxjpWwAhho5yPKqVOqnJSaDKO7W5xDRjfhud95WKWW5AXw5EaCAX7wW3j_zXL4HjH7LJTP7tYo75m9kIm1mF9PFP19clwAX2WDbztdYituz7N1bWgOLOB1-0VNtRSwxL1o2zcfKyFH0NhaHOgoW-Gg1_crUJ2MsDoh48e6mY7M5zVjIIMnV0g62jhkG6EM3pUHPbqx2MknzGkRCNYM161mHWaarMGQDY0Q_IP31T8qJBZZNH5U_GBhxmtbfOKUCesGiUPfrbdKDWatkzp43T4kcrbPf8_M0jPhImALB41JR3yNzuEiQNQ2fS8f8Wlfkfdcbgm3tMNdMSmmiNu9tlqDlOEEHTZLhpi-VG4JLNw2XIARnePerVq8-Kj9aT0ArLFZACYzIaEGB0twmb8bA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855763972460993465\">Mary\u2019s Inn &amp; Mount Shasta Retreat</a>"
+        ],
+        "photo_reference": "Aa-ngMZIVnNVFn6xh47Uzbpde7ELqgZoPHitjUQsqFsrdouGtgPRInPBs33qtGrqHh3rchJRGr90LTxiOaWZ2F4S2-cAawD5A-z5vssE4m7tcVPBGqb-aGV2IsL4hpWHaHfMfrWVasIVUWgbEh0GfGSmu-z_GbCI1IkPjTa6Qy8nvUnbAY6E3Yi2Qv44RxUU7bONBE383OONs93IpkAybfQuDHUh-svesnYs_D5a-Z7S7YJkIKkDBzXZBGQOkOdgBGWAzAGUBnnYREFelVjOPSJ56bkyVRybtJdHcRywoIHfJXP7BabtNPTzBbAuf9axXrMD4B11LWiTYM3-Yk_Oqr9mrLKHi-QiCE4oOEqClGhK_3CrNhGROPV5rjmlVgrge_o2I4R8f-X1W5Le-hFlTkekUJjIptdVWPkJptqE4_5u6JcqJg",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJr-_EBibnzVQR9UX0SWOajLo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13442288739027273205",
+    "vicinity": "203 Birch St, Mt Shasta",
     "website": "http://www.marysinnmountshasta.com/"
   }
 }
