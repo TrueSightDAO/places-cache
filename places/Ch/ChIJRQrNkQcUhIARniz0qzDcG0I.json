@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:46:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Stuhlmuller Vineyards",
+  "place_id": "ChIJRQrNkQcUhIARniz0qzDcG0I",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4951",
+        "short_name": "4951",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Soda Rock Lane",
+        "short_name": "W Soda Rock Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8045",
+        "short_name": "8045",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4951 W Soda Rock Ln, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-7745",
+    "geometry": {
+      "location": {
+        "lat": 38.6377961,
+        "lng": -122.7992986
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6390938802915,
+          "lng": -122.7983912197085
+        },
+        "southwest": {
+          "lat": 38.6363959197085,
+          "lng": -122.8010891802915
+        }
+      }
+    },
+    "name": "Stuhlmuller Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111573434516466508059\">Lisa Mattson</a>"
+        ],
+        "photo_reference": "Aa-ngMY8LTL2hPj3oMXoWhXxgMe7Es_cwMa1WyvKv32tVtE9A_mExx0HFLYv5cwKZSURA3McQULV98WfgVP41RtSx7-RzwEDZ0U8XUESSU8B7qHV731w4JsDWeT50cryNFxX3aCm8eT5euHHFatbQiV3yvKcrfM2GX20U_UZNKctTEYVGHl2qtllFhrTfxJqkLvF9fpol8Y21VW2ji407EzAn2LZlxniImcBBMaeBmajt5os2OIi_upOsvMQq3hscSSQ28A7E3cGfLxe6Sb2vouSAeq7fXwUd7s-z9wcHqe8xcd6TbbpcJbXuqPGMdFgNGhnS6sN9J0xx_Zr2XxRimUn0bddoMK1W6IyuNV55u5ivo7RVdhPZlkLj8QWxwFkK7HoJ3sSA3Wtrp1f1XpCgS0MrB8y-7qDit4",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115801246550763352682\">Jeremy (Rockatansky)</a>"
+        ],
+        "photo_reference": "Aa-ngMYRshMuLyUJkb-9q94MdZXxQD45FEZXmBz_S-lApawnvaR40YTyo6WebqI0Wzc8aOdNsS-NwIVhnoE8FGI95wp0wP6K1vLlH9yMD4fApHed9HJSjkc7A7pPswSe05iP-SEK36hVe7IYKVGUENT9MC45Uh6Wy1TN3nZtOz40viww5KRND3mNkQgWaSfpnusB69pWwedwgINTbT-7mRFAwSKTCWZPtdfOBNrK4JSf3DWHpbYZbKGFtArPsqCFe0QykmbqoSttDE3KEhZApxqhuxARIy2WwnYXTNSoOU_yC3FfbE-buB8TLab3cDyV0dNexZXGENGJR-lWjV5p3xy33p0mpddzBgQDu7s76u2YG668qwqsHUTvBKj4fv-a32Z-jJoxXEUsOTe3L1RsouB8f5rnmk9M_HU",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112055913785056453451\">Elle Kirsten</a>"
+        ],
+        "photo_reference": "Aa-ngMYrD9_1sy97r33TI1ItuyJT53f5lMtXtI6ZP7Fk9RmaOD98NP4DMldYbmM5QWa5BQrWON1Y7pAZCrg9pkKEb8kPudbFOIBR4UxMUnASRe0JMQoSUnbfBVfbhPfSMz7fH6azJUr5tLDjjFFxtvjZ9-BVLHfWErAz_nPnq6oqlTfUa_kGH7F-x4Mb3kLaGF_emYduNzbdUbYiYR-hAZSlmoYcZdPOsQZMAWknFHEt8D4QS8GImcZLUfYbAy0baAjAp8oTwD-o4VKkypffEjk5V_RGy3PVv9X1m-JEza6Nk7HcPyVDk4FDJsQOUnMQb0hpWnmfVBqj1ZsarliHQmWq6CvZo335QpWQLA7b30fk_vChyeON2en9jy97MSVI0yfN2WVL_wy5XZufhaydBQ80gNuqew25Peo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106123130487412941852\">Jill Kobilka</a>"
+        ],
+        "photo_reference": "Aa-ngMYidDB7bdiWLQEj70kwb_HdmF-DB_9azDpZw45L-vOTjo1JKdsqpBQjAaY9aiT4lY6WrUxD1DdOfiYP0fZxLgjLYALCMT3-N6AeV0kHjKVB4eaAkXfptKwWTEpe9n6PibQkuQK0erac8i8jdVjWWy-CQr7LGN0ijaZg610vRC6ObsFENryus41IhJS51pe70_65B-UeOTGLjmG1MR8PMr82ZJlxmfQncC9vEeRJTqniL7K1FFP5FCjWLFXSOYk-K8S3HMUod2wPhM-vyBd6nnw_iC34nplgQnowv3vbBCYYnxprXg4j77IdA8bhIi3gAlPKqjubRIb97ET0DGSUr3r9dPNHPfJXLxbodN7QKInSXA-q7kSyhGB8Aly3VviWylGN8LttByl112UhUPOYgmG8gMibm0E",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114358553714145655523\">Dominique Watt</a>"
+        ],
+        "photo_reference": "Aa-ngMYL4oqLpUVQkBwzORV3Q_Pce5eDTP5u0Klb7uu9jwfCPABjBMUZtpA4odfeyms_1jp9UQLVjK0xOvRNdnxU3S-A9LAlp30P5glRanfq01Pa4NlmbROg-jF0klmE4VU--0S8tHJFYnp24g22LMNkiEFcMSYYXsZxWRGoVvVnpMyO2Z67qdfDNSE2ledL9xs5MG7_4kDXWRLWkzmEUzd0tRKv7Ja9gZ2oGTWjeQJNhm4UyYn0QTeBrLUpvW7zVxdHVzsqA70Em-KMSv-Jqj5OOu9gOcWmv1bxUiu8GiEFwjZC5JXLenyjpDk-G-5ikaOwe9C_KH0OOBD2YmgI1X2a-cOK8bdMKBMYltAQtDCigrIuQyw8jLyJqku97SUQSaORTl99I1NG7-W5enYtg9tehT01fQTyBew",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108468635310075048635\">Kelly Eggerss</a>"
+        ],
+        "photo_reference": "Aa-ngMZxE-W7bTzTUKuy5QIF627EhY5pFtOCAvGf0DqPSqk60_oQSa0BowCOAFNZplTsJvIsTxPvHafmqrLlmL0M4IrYPZs6qvQBu_td1RU_HuV4uhuZTfyKpDM2TN4yF2DMm_eaUdp1sTNR9ecDdlDm3G51j109Mce33ixG6_3poZvQ8VSYNd-_UNMYS8hAj5OsCTDj3ccYxCHWUNTdo1hiGYjSmnoroCIBBQoApYgtbbS7K8N4EBWGZo1dvN5Femh_QQZvxA8OJNwaQzBHbxAVWie8XKZGkC165BriwLrtN_Ki8br8UrJesek-0uXG46xwWCiLdG4QwsaAFSlbq1A-qMzUnSzm7JxmzCR7mJIY_wfB0-yqNPwrhw2V3kkrF2zkE8cERm3trK6IisyJX_EOjs_GZ4tzK-g",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114501824728119269240\">Sarah T</a>"
+        ],
+        "photo_reference": "Aa-ngMZaoV_lwjHXjpYh3G8mEyDNKHHxq82xdezW6zqufxNIbszPBhrW18MJiA3C-jOKe53YtiSGFJsEiK9QrhXB7GySxPQuBhAYditeZRH6KscoE4BuxXbKs2zHaeqkZ5133yheKZ_41uwrtv4AKjUa0-5liWQ3mXMKnsCOfUttJlToKShgUlghZf269cE0JsRzwtSEsNYUB-iRWWsVgGT4-27QHJYGSvh3T4KY38pdqzXp1Rbpsa6jV9oLXMGW7g7r6RBRgl4grF-7umig-a2HfTLoteD6NSqc2MqoCvnTnQwovIpsWNKB8FAKqPAmT5LStJ4OE_RyRsa8jQrBqt5ERl2cycXbjWvFUl02wO8RVYlkSiaq5uuC3uofIyWLnu0GgDQv98rqsjieksXu-Rc4x3VyOXvEdZ0",
+        "width": 2700
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114501824728119269240\">Sarah T</a>"
+        ],
+        "photo_reference": "Aa-ngMaoWhh_eimUaUQ_l4GfEgkotMigMpCzTH95ZwQR06sefO5U2i_Av09KiVXl7Heygr2KNW27LbnlyckVxhKw4gnsLxdaogiPguwDMK7ocqE2_d4OLlsXVHAGU3-RxqFoMc95dGVM9gtM6x0RSO_LFXafHfKWxuPX9WM6-jeJwMG4iy2AyQivdi_oqLDH9ijm-FkdhmcgDcAaPtc80v1KhreO3cNj4NRxxzMPYK2v0xlfVOqKFZM-MY956AR5dKi-qx5hdkkBMWnwJ4egtCzFJ1u2d3ebHxw8ntJMVIlmg3r6SJxv3dAmWGO-mWH7xRzRx70pzOvu1kp8m4ZfTWD1HRl9kMmQGUWW3RsJoDzKWGuQFCgqknpGyj0KogpL6sK5qeNhb4B77ItMjIb3tiVJkeNiOWs",
+        "width": 4800
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104879787309744237692\">nick stegner</a>"
+        ],
+        "photo_reference": "Aa-ngMYRcOMb_VuTTH8NMteoxVBG4I5ArXEqVDK4UVHD1xSXcwKGU0_uswWhHigRDoMOLTTNCC3CLYTlUbqUD8W0zXEakNL7k7YbE-b1t4zh7_HtWke512YDdCQEOkDPC3CX9TrqgxM_irZQBCfoJW9qZ0UnYYbuc0NXHUBxyECSct4eEjSWkr2z37OkKu471GHZAYwijnV-Dfgz3nBOFuHMgXdp0XbNIbMuFCOLXcii-1SBNQDDiRaOUHelq8qJifymEJRF9HwCMuWMN2XWWsXCtOazVamvXtb5voW5RMdSANmLRxPqBCZCx27rcdwNDiaRLsAgxYJlfs_YK3nDDJbgksFrov9Cpqv83ofqt_60aelvVW7tqkqL2en-t-QSTmpxsrGraG6ijpjFtdGNB4FjlOsktYY",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111573434516466508059\">Lisa Mattson</a>"
+        ],
+        "photo_reference": "Aa-ngMaoZDZv3AfHf2xbi1Zpzi-lEHL7___Q_urroT6CYU7bAPH5obshrY-LMsBPCg4aQN7tGipdvW7XxtNqey_CMn39LbPuqUNuD45hF7fdSSufRkIUTZGp1kmo-ZyUp3553bavhtKwcqFcP6sDO2UYEWXYGPAwFN17AlCzRads7_7s673Fb4ZCY4iJfIFJWJwCiDoadc_-RKRjvuHcncwNeiW2mr5zk5VvaDT8xKUHDwglgSALvQ64qaPvNec8MWmLVBvEgxgVf4Sp9yOaKXeBwNcLBQFEvjXnqG6oqCE2cxmlyIxncmr43qKWlnf9YIFoqdSnBrHcLR1awbfK_JuD4ppKUlsTEnSzT4QxmFxtfEIvp_BFbbrKKKugZSOoehzPvtOw--K7v25-EulbXT9e9JkMas7I_YY",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJRQrNkQcUhIARniz0qzDcG0I",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4763643132475878558",
+    "vicinity": "4951 W Soda Rock Ln, Healdsburg",
+    "website": "http://www.stuhlmullervineyards.com/"
+  }
+}
