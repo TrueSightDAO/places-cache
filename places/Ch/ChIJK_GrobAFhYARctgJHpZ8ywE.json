@@ -1,0 +1,189 @@
+{
+  "fetched_at": "2026-10-28T06:46:13Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "BYDAND Estate",
+  "place_id": "ChIJK_GrobAFhYARctgJHpZ8ywE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "24",
+        "short_name": "24",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Blue Oak Lane",
+        "short_name": "Blue Oak Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "24 Blue Oak Ln, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 287-5563",
+    "geometry": {
+      "location": {
+        "lat": 38.3149183,
+        "lng": -122.2333159
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.31630038029149,
+          "lng": -122.2320476197085
+        },
+        "southwest": {
+          "lat": 38.3136024197085,
+          "lng": -122.2347455802915
+        }
+      }
+    },
+    "name": "BYDAND Estate",
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104427425409510176525\">BYDAND Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMYhDt1EcNZVoCm7y6eNdHqbzs80wElbZhRsCi4wEJMZ3iuebL03YQGnPVhrKFoYiA5qvVoujf8AyErEJEXlbiDtx4f8V3HYM2zRS7dlb3syRJb4QwtXiw8iw7eTsLEmLN4XbisJ-7mkbutQeKYWrXsAXpHbKyZnYVNWiFF0VsIRKKpdRGQa1VgwpeNE5Th4SYizoYoEZhzFOpS_KIOIvwnGSQDG-7_Cuuj3H2kWLNqDE5HZdAD2tZ3j0OF-FHStlMubdS-jDXu0Y_PUt7Zyx2BRhuPLcgOy-Mog2tIAG0XlRb4ktmEGADlqsTJvMG8HzmBWfmBXL2UN9YOErLJnDJPVaQcbEhrnj68j6lJutUBBdJWeqtQl0nAjTADA41kRlm2A4hbryZMEFsQQ0U3YtGqXne2Il2etB5gDnbABbR6F7Q",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105704733986100005292\">David Zion</a>"
+        ],
+        "photo_reference": "Aa-ngMaJlejY5kkFPQeMvRS9WkVEYtLrw23JY7FV1B6z2U8BVJzTm5QzIVCQbqeOV3IJEQ_uKArsHzZp3G_Kq2HbOwYrqGUy_vqB8Zr1UMNn455Q_xHNydxMaDWrFs-vhP0iSwh3d7ECefgGA3oEB6Z4GO7eMp33IY5Sd4l1CyOPVtc8aePe48d16mqShmCRR6v78O6KgItY8XSlQouLkFyJx5NXDZ2A3qmNyuC2IdMaggi9vcuzJgyZ7pDBamUkaTvKlWImDai-pgQW_dW_f0RIbFQF8Rw9xBfqqfQgINGwcWDb4JAWDoSPOPSYU8jkyOQQmAsU-5zUD9L0uOaa-i16mj8MqnRca34IFUqN6HZKAvL2hyEznzrfMNhQ25Sn7MGaEIr6nQe1hM_g6mJ0IKSvip5YqgsV0AMabVerHIxcK_wPBQ",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100678542274247274632\">b\u00e9chir benismail</a>"
+        ],
+        "photo_reference": "Aa-ngMa637OZ53YCzJVoToPBD2Myo-2YWRpvCpxioidwNsXJ-f-IjRGYqA8ZDOeVNV_dxhqVwpRirZxBV_y1kOpm7_PVog9E5L37sS-6xUk_j3uFTlzD75kHeqfnR7bAHNH9y_frBAxoP-8tAkVVmARq4gMGQ6piHDE4oKUjhO9knRp0U_ECFSEYPVF4dqoQafr2H5uL9DnWO3wMmi42xRAws7l9q2OSbOt0utw-yzwOAgRaV0wt8H_3kbuJlj7JuTQpfNmsL0_iNgLHjObdESFB3N97dVfrMuwfry3xc3gRjKdova1V-m-47A9PCFJtk3izO0Z_C-mND3V1pawnKRPMBJPlOr-iK2N2uMOKF23avYtXjQDFxC4KBI_KI_Fdcn8t0Xhpv6e4-ZzCTGi9-57GicfounsYnSg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100678542274247274632\">b\u00e9chir benismail</a>"
+        ],
+        "photo_reference": "Aa-ngMZhdFLs3ar1d8GaSlGPVijohe7OtDJePnJFTH3AfR4S2QRB3Nh9vQHY29NNsbcPBRkiuRAxi9TKtnPTVymmfP-2VvpljDhwscFbZ2zV3luolB8y11Au7IZFWPIPZIdl8ibY4BcX7bzoAeq7dAhcYm9Wt0l7H53UZIm4mv7nnjv-rbIlzBve-a2H_XZxK1q9CorkpuQGnsZyGtlC1bZsoi6l-3gG_EdicPTOwdAjfFwyhaCLZ6N4b4QlWC9xrFOVJO3Royo2q_B4AIMKrHdqXmaXWM8bbg5sfavgANkswkD3eJUktrPC9jfGNnLpLrcufY_a0xCSTr5BRaaTxXUHBoXECaEErfsY9twoCOwUVB241Xobg1mxqWbTi18JFrgFguwHxTTmhOw9V4h6vrjHFMI7WN4-acs",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105079675070666639317\">Peter Griffith</a>"
+        ],
+        "photo_reference": "Aa-ngMaFbGeH_M5Kf-um_JFd93q8t_ge2xT6D91ryB2fRH0cLvOucKQLngWVM2YIh5K_M_jZKSHUX9Zakimqxw_Ptg99ddS7Hu-RkTx9QNrgQlvwWjwji5wjdrFEINeTyird2mbbypgftVw30IoM2ZK5Dnb7GgT2eJ7_7izXOPwcTVRE-ZMDZqrfKptArGZBCsoTYci1GX2V0t8pd0QWZDe4sn36DZGXgAKF5HmrjhgcS1SoZxh-ZG1GAORNB7rg8THjcILEdQQ9lpLbJKJHXZI8dgJ47f-540EwLmKWV37LKFhJgUkqxV9LHrVMo9sn5sfE_dZPQCK-VwUOycAoGIK7pIGvsSSlqNIW4se2dPt5eilVtO71cJaueenzYrSsXccfq7h_hNjDBIprw2OUHESg1GFS65xvfSA",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100678542274247274632\">b\u00e9chir benismail</a>"
+        ],
+        "photo_reference": "Aa-ngMbOXvBkEc2msSI8R9ymrbkw2E1b2yf0D9Nanlv0y1UTAZO0LQMaHO_NtkBelxNkSESQaj6hMP-z-4zLKDOQ36s-1SGN3YFt7ZolJ8PPRihreF5dIdVHUFaY0tUy37hSh8WmoioR7WtCxzI4LCs3QC5UmwOyU7zJFrRmoVXTVgQ1RYhnLc1KKNkBGkGO1WrvnyYCwN5ByudJqcqb0-TbyEV9zLYAL0AcPBj9b5Dbbrrbx-39z3pFtzmkrWFF6NGIUDBkdrUXbVUNjyLacYAuc9g5wTLpX5-f3SCcBi7cUi-hK3qkbHUGBpHIN0bdrO66Y0vX1CzUJ-EHNZMSeP6Axo_QAhpyaQ_Td_ho6R2FnexoOKQ2rz1q1CYpkz1Hy1ZMDTwPjhnWLRvxws2lAiLjGSz-wkTw",
+        "width": 3024
+      },
+      {
+        "height": 3603,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106741233076685476158\">Lomo</a>"
+        ],
+        "photo_reference": "Aa-ngMbRDrvAUHRhzRPgNWK1pzITFPvVRA7u5-MMPOrIZcenm10LJt7676XsgsMF9_4EadT1CZMB3FVkRNmhTZJv1duDYNuoY7oBUnPt1z5V156z1zuo1d0Cu2rePY_JSAReOGs6j4BbXdX0qzq97eqPHukbfSOznM67eVgunYtnkvKGe8CrRxBRozt3JVGMN6fSyuyK3Yo1Rct2P20AAmb8Z4has9ftx80Of7Nm0WMbt2XAgjMmOgFhtmuhW8R4MGOMTi4aex7AvRb0qveJlBdPQjFpU0lT8ZnYUR0Lwf7qWs-w-DkYLXE7H4WaSnUhjSoKF3zjEs_C6XBEhO6rPgOZK9-hYMjYGvWdZRNaMqioERM7A6ldG3tU-I9qP0EbQEO2D62KHuLwXnRXcdYaUswmXhRCZFY69EA",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100678542274247274632\">b\u00e9chir benismail</a>"
+        ],
+        "photo_reference": "Aa-ngMZycqM16eap54vy3xXK87tBs6G5QlvqNCDl6q9H6XYwJigSe-nZCr2u6OInVxL-90tiGE_HQhBeInDB1YpsTa11Od4_uGwuA6ooRKvW7UIELy2l5qNksW9_FXw78Vp5CuMBjMM8WJxzIJK0ojlIV9lFYbGsMuRth2EIZ-UhijpMDWdXa8bgbpPNN8ruRaJup2WQnSrInvPIMEZ9N9pvfRq0L6m4ICK_V8D_590oIWwBpOkSjXfkasf_NczA_6DB27Qpwt1vB-Z7lXg9LV-0oqDw-lY-c0--USizkP00GLIrvk7a8xSg6OXzF2l6fEQtDUfQdeQeqYu3h2CnZyv-gZ--rN4wqFAudnmoGZpx7Nktcsp4og-axxsCiydUcpMmZbwWm51muRHI_CI369MF783MjIg",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105704733986100005292\">David Zion</a>"
+        ],
+        "photo_reference": "Aa-ngMbzO_trQPr_gxoDnNjCIyM4DF5aFaSzaysMRvyIsIMZmgG8md5t9HhPIo_gphfU441TC_Lhz6kHK83ep1opYMFVxEdxBh6EB3K7BMvudJ6dVQE0QcywaBd-b8z9bMFbF026u0Dc-SwElzHNy2-nV-jg4NMyHq0IsX8998OHuxhMl6AeHxyjv7VIHe5iYZ_LIv5208MlrXwwPKVPZaOdnAK-aNGZq1hEu0RaxLP5tGYWS6a5BBKAyV_k1k3SF1_wVcdOumagp9d0zvYzEs1xfl3HjYr6SrLoTyMWHQxfbKoeFvqVc8GzGo9t810MuMYzVg7enHeTobZiiNAl381Jq8KCyh6vsM5mFTY23vt9_vg82QWopQFYCLPZgQFMW3Rbo1F23sEhcWJg6768iSbr4KDZVlXzh0GmJfU-jk5xWTP5sw",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114428706235154792064\">Kahai B</a>"
+        ],
+        "photo_reference": "Aa-ngMb9rjHqsvmNh0KRn9HJZLg1LCY4eTNIWRJzDpj51KssQ9vrF0JgqSP6WZgPbnnA4BgZbmo-tpYQW2okewLr-LayUWgZQ7ZN5aWfWnRX-PftAXNVmEnHswtGjOmc9IIp7odSr7ZeQJ0C2Zi_-kmZomBkhkDq5e3UPiVArfrIEK_sC6QJpIVAWyaEU5tARyEifWvJL7IQyQ3bt5_JEffO-jnRSwrdSd9wilNvWW-dr0Xyq1Bx4xzpH4pgqWA2Eene4j_dttmi_hPkO2bKrEvxuB31eK_JKWzHEsuxB6Van6Rg5L6CgoY8rB-9T15k07ZuGTeYsUMj2grBicbjIAeJysaUUxKWF--TdCNABhil8m5JN7Gp0pQeWt7LY4Hf5-0YiyevNy9iX03BpzQYx3DUaQDRffJXP88",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJK_GrobAFhYARctgJHpZ8ywE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=129333998501091442",
+    "vicinity": "24 Blue Oak Ln, Napa",
+    "website": "http://bydandwines.com/"
+  }
+}
