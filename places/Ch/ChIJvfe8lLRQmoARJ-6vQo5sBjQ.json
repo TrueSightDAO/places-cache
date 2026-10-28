@@ -1,40 +1,245 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:16Z",
+  "fetched_at": "2026-10-28T07:17:11Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Planted on Main- the original home of Flowers on Main",
   "place_id": "ChIJvfe8lLRQmoARJ-6vQo5sBjQ",
   "result": {
-    "formatted_address": "318 Main Street, Placerville, CA",
+    "address_components": [
+      {
+        "long_name": "318",
+        "short_name": "318",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Placerville",
+        "short_name": "Placerville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "El Dorado County",
+        "short_name": "El Dorado County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95667",
+        "short_name": "95667",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "318 Main St, Placerville, CA 95667, USA",
     "formatted_phone_number": "(530) 622-1121",
     "geometry": {
       "location": {
         "lat": 38.7282675,
         "lng": -120.8022123
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.7296679802915,
+          "lng": -120.8008995697085
+        },
+        "southwest": {
+          "lat": 38.7269700197085,
+          "lng": -120.8035975302915
+        }
       }
     },
     "name": "Planted on Main- the original home of Flowers on Main",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:30 \u2013 16:00",
-        "Wednesday: 9:30 \u2013 16:00",
-        "Thursday: 9:30 \u2013 16:00",
-        "Friday: 9:30 \u2013 16:00",
-        "Saturday: 11:00 \u2013 16:00",
+        "Tuesday: Closed",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110352208458012383927\">Son Mai, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMa0sJ3gKF5uOzTr9inW2ChXxTJ40IjhVdfrHcUS_jgVQ9nflRlYzHPQUYc1A0eZIldeDLwNcDNGeW8fjnIDSJ4c4eQNACbLuXC1qaETtC80_PNnRZbHoYOXxaOCslveeS2zDpwfZHON1Ysge69oNbbd0u9qk02plRj-9H-M26qCBKmqxyH7ik03OVEmyF5v-A3OkPL6JXhpnT2RFwDVTeA4xad88JkPGxBdM-5kUz680VBLhERWEgoBNQ5w3szpH_11MhZcHb_OyIrMkN-K0GTTrRBqpvjUSX7-BmcpCijABcs77BqHZXOOZuEsj4P08BbIPmk79tq1ONMVl3dGCb7QoLzp4Ct0XKD-U8_02dX7G3PyEgbTU-_vuZ52V_Lp5RjpeaaS2OndA_X8LeS_vQ",
+        "width": 1280
+      },
+      {
+        "height": 466,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111599697401053929501\">Planted on Main- the original home of Flowers on Main</a>"
+        ],
+        "photo_reference": "Aa-ngMZwSCBnzFZ6c4j2WMrsiEl_QmvKzRdVz0vD7UxrBxG_r4ecBlLzn2GsN75AQ_mt4Wzh6bTk6LvEq6DFbhnEyld1iSVhBr82lRAxXdyCJdIpuemBxd7uKl9atIAYp1IokcDolbPBzKiV8CIPzWvbicpErbFJR_B6Blt-TkC-cWxIEPFxlJelhoPJw68e9zprpxanYPPk2vaUQJ2RQYOSaOkST2n0lkZpi-fuITi2gvGW2pyzDe5QgQOEaXE_IzL7XRa1Cl5_Tia6yw8AqkMWJdqVqZW1DDS31yhcCS5C7ZwERyHutqQbw_jLGBfIErPr7_8W3jEoQod9jr2g9iV6Ss-tkkVx4Kxug_fokmwaA31UTYWV1pmrX1kaC3WfIbzxencc-Vp2UIA7V_trdiqSRSczvglmLq6LAPPcn0BmqoiVdg",
+        "width": 828
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110352208458012383927\">Son Mai, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2rMTLlqnwYmA9BAlQo0_YBgnV5tpp6wPRqqdLYt6xlJXfcKvEsaLIWsrWA5I1YHh8h93uhOVubdprGHM49ydmKwxIeUPohpMdZMsFDZU2vreRXe9CbMhpYrtiloFNe1eDTG-bbW_V5Q2cLCg1r74Ir54M-2xx24SmRzrGmApD01uFc0bxwoixg7PLAbzDEO_FUzBAbKdCq6cY3gbPNMC643FhCIjgkXKsC9hP65KqLzSkdOa7X_ukdge530HKiJP55hKhEQrxS0BP1CGPSCrtJkkBOsvX9rYFposP9X8BrxhOEnuXa_SXuvFsRLn9R-ENmxvJoyzKg68MwJxlb7CK8OI9-2IMGZGjX9lWl_JpSn3kChY8qDP4UWzNXt1KiJfGOFo_k1afmsk0V6P_VMfHJIQ",
+        "width": 1280
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111599697401053929501\">Planted on Main- the original home of Flowers on Main</a>"
+        ],
+        "photo_reference": "Aa-ngMaswhOVEnY69VqznDdFDLNxRCzLPGqtPSNZpuEGnmue4KYqwnCOvYgvpDnIAEwqetWJOM4Vuh2JyYfB4Ae6q-mnWuszJXUt3BPJnwkvyP0MgG1wH1K0xotyBu5ww4-PJNcgtWZSQMGaPpOjIUX-WuIjnKiDGfYe3q2qrN0BEQLjXb6PGDbxvaKlObNWqvpecqnUXcSUxed3l6Bx4Zmvh-VPGgWPpj2uyzYMA4h18OYyVWVMMYShZWcBGO1_neCcoDe3pSe8fYNeR8dM1ZiHPAipNGsidtM976EdWJB0-RQcSiRvaFW-P4kFCxR1pxGzj2whJC6XF28Ts9eLgGVihBQ6dNLtoSV3oU7wcbsl2cb-CLOh0OQffbvMAKR_gFCOI3jK7IjMagV6Jiel-OZ9DKtaMjfe5XJA0hwHTTFDYh0pCw",
+        "width": 1351
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109593072105110612732\">Anna Garayalde</a>"
+        ],
+        "photo_reference": "Aa-ngMZQRB0lbSr5DxsZnABJTQiVMm0tjEfkW4dEouFkNcbb1IUKtdczcCUhubhwgRjG3HQQZWNALzJtu14gahFyyyDDzUZsodRCMIr44xf54vySKLMeUuaTW629cOhsOlYNuKziSN7yOQbRrATBs10Zv_sLAuh_63eN7RRLVvvFjMPeOxypYBDx15HCdcsQQtycx3PqXRhIrk490vw_cHBVpRevSUSE7xR8jyJVla9StjXvK3U44YzxWmLYahrk7BsRLC7-oWbzBRebhVXzWeZHL-o-Z2ir5YNuFOy8klexgLCoJph1S89DYOWunvoOx_CqSE4GqZN9h4WrSl_WTVmnCvup3xkk9H2nAW7SOH_E_4qOX8hMR-mOZ9Ue-WaRTx8kuRibOG_N1tnQvHarw4sD7lu3RLMbbzo",
+        "width": 1365
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111599697401053929501\">Planted on Main- the original home of Flowers on Main</a>"
+        ],
+        "photo_reference": "Aa-ngMa37jdclQTmZyyrldeVfZc7QqsJ_OQCIlyBSxnmdU458coY13dtZZeTasTkta-LRV1ZbZ4hyFIaHi1GWJnTsUf5GRUnRITSLy3jOfX3QbkBZ5Dj0hygPyjIhsqJ78OA8nkY1qBT2g3RUMB5tAqYpjAe8u-iAhFMc6H_eCyPPYaIIJFUEegRg4jkqP3CDmfDmYx_g-3aueYpJcpwIWBiI-s83TjOIvPjwu8con6G_X31iGfgZxc_99sug1L5SFSSes1XaDI2y8aDuhaTfF5mZ_e2iQ9LdNTgXboL-MulTq4An2ofyA2wR-PWbr48UFetEi2fSYEl8LksUfTI7iqA4QvqIJ4tzL4z5tu6IyIrNkpzre2ArB6eHEPO1KuUxfDYolSzxCogh-BuZlkqB9ZFSYvWopXvop2z7RHJ8suJDfvlfQ",
+        "width": 3024
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111599697401053929501\">Planted on Main- the original home of Flowers on Main</a>"
+        ],
+        "photo_reference": "Aa-ngMbzwyHCM0yqZNQWxmpqfKzbzvuZcKqyyHR5wCytAWSaAiR14No34H-4A-yhMg2DLg5J3ZjB9kYoN3mVaDHu9coFHzXnZo-Fz2O10Ko2OjfEnM9f7wOneWLoc8nB-nM_a6MaYVRkdpmcxq8sBqpeoYNxZybhnhyy41e98otcAC6Vu_Ou7xmlKPN1MN6RKUj4_AqXwTZ1YJvahyInffzvCJ5PynG691y59fG3Jbpol5Cc-JLJi5MeiQwKxzQNVKbDkpvfmQ7k_I1xiPxV5I-JMpPqj_YCIgBa-rSodAqQsi7-yNVmcLSiAJVDmOIZCHR3oG2xxMa-jr0MjgVmvXZI0udBMM5YRJIjeNyYGjHYO65QUGlLqqUAA6Lo-0-7QqwE0060O6biJ8tMYHoGY7SOkLh5Kxflaz76MJaGv_gFXpUq1w",
+        "width": 1350
+      },
+      {
+        "height": 2556,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105942826230873486240\">Tiffany Lindsey</a>"
+        ],
+        "photo_reference": "Aa-ngMb2IbllCfE52tQNRIk4T1GrO-Q-vQfI4P5CaUbbs9MQSMPr8g0-p9bbs3RTFFSmxJChXGq7NVJPjqq93pM3AGGwsT3uALqXy3F306Os2526Z63LJHqf9iZsRYhvRnVQOhkg-E6zjZ2CBa0ZAx3ojpC3r-rGh_O3l6VVNh4UcrC2yh3yZHsQ0F9soTbdUQiaLimWJcD9fQdA8ULjVAKJTZhKfNBCdBkQzNVTM36swagZH5xsO_CDRH_rPOlz7GzrF3BaM43b89u_nw2trKSjmpr-kxT3Rgp10A4NzVg2wN_YZXMydORxQUP1FW6DUrci4ylGyUZrO6ZBxFTw0ukft9GHd6hyqz-4HABRU_cY53v3tl5XMzPBzHiOgAw3Si6uFPXzUktCCMH98Lt1WFPCISgAbjcS",
+        "width": 1179
+      },
+      {
+        "height": 512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116286070169554112537\">Izzy Jones</a>"
+        ],
+        "photo_reference": "Aa-ngMblFK1RIbPhs1zFGWWB8oZ3b-owbhB9SDkP_LyQV7lFZWb1CJ7_PeLMwpOMTuvdOxkxTgmEyB8Brza_lPERi4AUjhZ4PEFM2_7z2j4dnYDJ7D2bIuOHyDHcHT8eimAqJr8oVqPQOTPzXpdBB8yQ3MhdWkk-nCTKjIUvlG9-h58vXfNJ1rjyTDLcT1p1LZ-w3G4N5lohbYy4_dBNdaeq55r3f8gKlhmrCBaz5fhaJklq7HuHAX3LJCoz-jS5llcPj93iD-6T29MObkpQwEKz8D9AiKHVRm8ceRYzQ2sGc4iUzqjh3NDnAsDIQMjcsSEUypZk4kspKmr3ixM4K1Ka84Odq100kC4gPeak_1VgWgAOWuOlrQnNHZm3exoOR3Dbn17MkBc74NsCsCEd246TLWEVN3EBhq4",
+        "width": 341
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110361362718134899485\">Kyle Pickett</a>"
+        ],
+        "photo_reference": "Aa-ngMaLSkRupOat4w8g7XgsNcnFipWuF0a98SnJ-7YN4NadzOie1EPHtPkbaStCTle9liC3Im5jv0i73rBAS1yM13d-4QwcpleZvD2KP6NhGbnA9lMFSaz0YeeHchjxFrcyUeybxzoC47qYaGpS9_otDuXgaZ8NKSlkGGw86AfbP8uJIYel_5wxxkhEAHppM-Fe4kwa3E4JtrYR4_2ihX5aJdfrTmcl6b_AIzNNz71HAbWWkAZ70rUfEIRyyE6KX1LJRzJKR7pVErh07dSWEV15RK63bwNMmmg8CXcfnjSlDET6z2bWE7KM7cvAEP9IUTCl_g0Rv6FuaL9-neE4fwkLGL9zfui0Q_pAXspMLkNqU-SppPQel2TG7Edt8kPzWR84_oeM4bskfqTg_ecYWez5NbClg9o",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJvfe8lLRQmoARJ-6vQo5sBjQ",
-    "website": "https://placervilleflowersonmain.com/"
+    "types": [
+      "clothing_store",
+      "establishment",
+      "florist",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3748803098092498471",
+    "vicinity": "318 Main St, Placerville",
+    "website": "https://plantedonmain.com/"
   }
 }
