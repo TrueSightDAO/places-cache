@@ -1,0 +1,189 @@
+{
+  "fetched_at": "2026-10-28T06:47:15Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Roth Estate Winery",
+  "place_id": "ChIJUcXcGIYVhIARIfIkIDaTIJs",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "10309",
+        "short_name": "10309",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Chalk Hill Road",
+        "short_name": "Chalk Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10309 Chalk Hill Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 836-7030",
+    "geometry": {
+      "location": {
+        "lat": 38.5706909,
+        "lng": -122.7774823
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5720090802915,
+          "lng": -122.7759569197085
+        },
+        "southwest": {
+          "lat": 38.5693111197085,
+          "lng": -122.7786548802915
+        }
+      }
+    },
+    "name": "Roth Estate Winery",
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115585619586342058657\">Roth Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMapxDRV5LHSeTe5gHVffufRddtW0l1IyPNCYrH26krfyTxMz4wOgxwiY1W_vRBuRBf4oUoy3vdp6_dQNgKMFRIyCUIsVEY6AxhlLTdSMTnkDbf1N-MSJ6zTiuc8feOwWS6ez9UkvYfTF5dns6kPxkmWltE5T85Lr_SlVltTVEiFf_9JORRBraISFF1aCHgbOOnw6E17UiphhiXAZpjU6ix-w5tHmvGbcuXzZI62zQFGzKftnkR9MLjXxsjJ04OMKXpBdCH_nJlR9gD69visfDzs5la91CuoAzOdCfRSeOsZxAuwN0x0UQPjWXQ1tXiab8bsC-srlBQbhlLv2RPf4Ttc3uOLFb3vQBt1P9Tc-27j2dZdzPTODfecOe01AceOohJt5zZToo1v-Hh0kscy8UnXJr8",
+        "width": 2048
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115381765085100969636\">Diego Rojas</a>"
+        ],
+        "photo_reference": "Aa-ngMYpmCR77AZirtgKvxU_yk7gx0d09d8Y8INqVmK290ws2SDcADpPzdyu61UMlZLUjGCWOzZE7DkEfEFbAHLZUMnEjv1nNpkCr46wbVMZlpyBQHKQ4EVUPNRWIz15Oy8nnJKkdlHBC7Nnro0z6J4QVDXqT9UKl3tlwhVW2ySzB9E1c4o48ZWy2WLu9jQGOUkLuJY7s23biuUAn7u1eIe4RuSQ7D-6b4_VUXn-raRIwNfY1pJQTMcrynJ52_yydytYfkPnF5DTK8YUWQAE0OV46WQu3BQLPNkcaYVFHOoqEm-YCIdUFIVFuFwEd73eByavbOp-fw4rWux8kqbjVkVl-Ae1qiel4HRkX0xoqXzuXuD0AkViYj0r6D3GZuGQfhKvFfokISNmo3GT-4xyckaRJBQJEw",
+        "width": 2184
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113591775146177889473\">Joshua Engberg</a>"
+        ],
+        "photo_reference": "Aa-ngMYuVoQVunhJJ0dLfj4fP7SmCOJx6KeJkAYyVnDR3nffxg52hsb93TDNenpRIhOVaVTD03agqkEeXHG5TPQzQjU5N4NSReasfC1mCQ2b3tzxtJY6azzYFD-fI8eidVInLSSoW_xcOqfWMK7cavMG_UPHnzRzM7WAek7fePZxUONIkQhzswPbTiThw90j8sjHpiX-R9Jd6W-PKuakNdTAg3ELuE-OwK-N-8D4FGkvFA0qrzGUNrjrjxwqR4boCeDo54Kyckj5CIbMzxa2idy5y9aPf-HeS546bvmqKp-GLft9hbebi1PUlELKbcv30iPJx7h0Ufq7b2jzUwf6Gl0ytZXIhZ-1I9MFNkrG4dQ8YY1jcGNyP1RdiOIhNdNvg2z7f1YvlkAv0HnsF45-sGp8KXxDP0s",
+        "width": 2252
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108197520051820558131\">Alex Boerum</a>"
+        ],
+        "photo_reference": "Aa-ngMau6cDNdLnCC20b5_VkxxMGSMNo5nIaOZrEhRc6U2l4V9RyzbrV3ATKgCL1uwK15cx-cuS6fSjsRwojH4-1-z7YyZPjBWwOrCZooFJn4N37cwEnbcL7GbRjRHVH1MEX8491kDGpp4n21-QnqRJGBj5KHe3XOWlq9tPng4IZ9_w7xRFV_BeQAZ08wNAy0bU0bgYI7UgmJ_9mVuHE4ockFaV66tWu-L_yROYXIOmOswEQ2gvK0ri9xCyTcGdJd4GFS7hm_7FkIn2trivaBUoC3b7PfbcVI7TTrxT5qhGhWEt1UixvGOfOsCAKFvKcuydz41-ZNq6KExoFxavCgSfLCpuB_UHqcP6YKYOJkgSNb07faS2QeaHlG6mBfCwbzsX0W65iu0sK_a7piGxIwhBXl0uFjIk",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106619050407567091076\">Dan S</a>"
+        ],
+        "photo_reference": "Aa-ngMY4JGA6XANUFJn0FwMerkRvovkR3pcmvqpoX0aKdi8nLDGgKhSL4ik7Wy_mjRXbWv0kXzy950JS4RC5rcbrGysTSOsWbIWyLc1XAgrG0CO1itEg5eDwMwMIFs-FIW2f3Du7UT95XSxJjMHrrrfSFql_qKqkKGZP3P1pxQuCuy0XEH7uXDfSF_5yWv_-MsnYio5adUi7XHKNueUH3CZOngRGRYVPU0bLECOfWxcK3aIRxo5ebNQgbQ0Um34RUH2XZOT_G30GgxgzYghstGG497wX8bkBjlQq7Npd5zhql4y5CnHrKpN3UD04nxPoKrCrIvbzhQfz9Qk1ZYwOF4kb8yeOsnAlxxIhab_mBLP_7fsTc8nh1TMo7xFY5K524XRsbZZ-rmXgLQ3lCH7I6oPsUvjlUgyYgFU",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMYCllL4DRK-2CC3BYZzJ_-vzm4X-mjjrwRWqe3QLzPv6GxVRKSQyforAx1Gs48-VkGDuj3oP0oDhFDPUy99XrBAGDUClZign6GV-kSQwYr5kI6_hqhfuhH7jPwaHHWCXqW4yhfstY5M0hrsdS4PjPyEob4vNGHizBrvsx_xiei3GFqPjEBKSm__tsSydYazpoP3uvy9v9B6BfzvqYfWmIbek0Y20PE6JXln7OEEO7stKWVatCdxj0Vmz0K0f5zd8SYu7bxf9wkcpNFYJk2f116lfdbjCdEVKh8QngFyrMz-2xvjD4CMjScz66Dp4-68zeljsG1bq7gsvzLVC9CgJyxm8nXkzqZi5m7RUPndkaDBiQLjlt0nV7H1fY8IeGQ9UfnIyicWGF_vAkqmXDPS59hAJnM",
+        "width": 4032
+      },
+      {
+        "height": 3293,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102647768470197729275\">Ivor Newman</a>"
+        ],
+        "photo_reference": "Aa-ngMaxeMt6YF2e4OU322_pdG9gNoeTgywFkWcc3AjTVz8AOskY3jGp041SR0YCR1Hn2jG9E81NQclDf8nanRJ640yXEFFcFHEtH9ELtx-1j091VTt8-XUCwONHGv50FdvCI_ij7v0nd-rGePu5oF_qjJmZY7bpK61gUtwREaPIDWSidtcNI_T9qYATl9VeqT3FLo2JkIiO1m2LE4dx_TqIx-W3hU0kI6zFaT-bAGVKX6qGB3fYb0W8-JWv0SopRS6wvFo38Ih0SLpAQOAjaNSD_w-nhssdNtN8i2C4E-43HyCaGQDWLvI5cZGPjdYVaLLYrRdoCZVrb_sGwhyGJLckos2T_u2UC4DbaDg2WtiOny_QYpT1tZuWSgfm35nlU8EUl_OHMJA0B_1p8e7mn_dbIdUDcz-fN_8",
+        "width": 4146
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106619050407567091076\">Dan S</a>"
+        ],
+        "photo_reference": "Aa-ngMZnZKjKRrumgdahI6TZZhqJqMwxf8jBB7fIMtqjnGAsDDVj7H9KDRo-kfBsi4Zl3EqWU78xb10IlhdM5tv4YrF4avRxFhCeYJ3zjrViYNhwjjbwuNLWgrwveY53oOannxffF3jVDTrBQ-kWvfuYw0dj7LrXmjYFSrG5Cu1Y2gZTw_9DaEq0B6OhixcSzMIXOp1OwXH2Z0HtHH5yXe5YozIpawoovnmjXJs8ft-_IGv3dK6X4Tuzt2J7XWvU_ezUys1dVuV_00LTKFbMcM0wsxgiU2vg-4bKBjTI2y24DsvFXWDxYJCb_ymE7xpEO7my24uv9G8u0DjK6qY6f1ROIemdPftxBFKRy1PGrFVo-Tw_iu75OcaILKbTigfASGrD8sNBmZpbnkhlzTZV-lb8zSkxW1ju0sI",
+        "width": 1600
+      },
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMYRPsDzfKvX83KH2QSP6eA7-bWCZ0JJFsElN7RGxEKVKH7ZmshqQWEl22naodJLCgezuZ5o8RRi-cYqN5F608Uo7RNo7FvRhuE_QJAHc3tHr2MbBVKya6JVUsDjaxBLYTacP7EmjL5ZFa_KFg_nnMvLKVf026D7eaFExpY3m0eiIBmXfucr4ibFyvRMsIOL874o1NHk_dTiuEyUE_0eDi84wC0PXG9cQTV3C4lOYAYobbQ9of9NqJcgUPwxQab6PWxh6nARJ3XAZKPBifN08KotYoichCta_3UA340liux2oH67TmVg_vjxUDYJEtXFh7VavaAhApH5JzgDaTqNaS6_LbgmmY8wKgAYtrpvd4s4EGXUzSKXbn9QIa04O7LuBU80YHYdECiKhwpKRyBh8JNPlkQxAxA",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMYPwuWoFMmRlQYvvl9mqq0QA0hlbGTL377znTsmm20uyPgf9-YTxoLPAD9cle-yPYBRXG1yCFP_JAXRZeD8zHP190RQzQHiNGpcRS7oyE2BGH32JKYQHrX8ep-k-86Xh1FXXOwTCf-dei6xRjaRpSZK6hTbkzjs2LD9mxU8QcTDd8SjSaXGG1MD3DkmEfPT7-zKiYuLD9REDlDGfJYJCsMUVPrgJRTY5Q_pkb2Zg3nrrFG2YmmkJa-_o4yNdjyNCmvKNv0K0GrZ336ZX7kqAUZiyMr-VeIdM6MQSvrcT2SoFn2jnezyDSCEPaqRYrMAli-50m8hVLBrCK2f4xY7Zfat7NcadUWxD4ZW5gtxjV569LsGkAnoQl2HkEAZOUjgVWMt2lqFcn8uYj5B4nqHNFwH1LEocPA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJUcXcGIYVhIARIfIkIDaTIJs",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11178096135810380321",
+    "vicinity": "10309 Chalk Hill Rd, Healdsburg",
+    "website": "https://www.rothwinery.com/"
+  }
+}
