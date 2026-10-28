@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:31Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Olabisi - Winery Tasting Room",
+  "place_id": "ChIJMSO7UF0GhYARte93zLpFExg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1226",
+        "short_name": "1226",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street",
+        "short_name": "Washington St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1226 Washington St, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-4472",
+    "geometry": {
+      "location": {
+        "lat": 38.5789343,
+        "lng": -122.5795016
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5802150302915,
+          "lng": -122.5781715697085
+        },
+        "southwest": {
+          "lat": 38.5775170697085,
+          "lng": -122.5808695302915
+        }
+      }
+    },
+    "name": "Olabisi - Winery Tasting Room",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 823,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMZHJp-dgRnPUMhnCbxrCo--JD27Rurma-hjyq9fPljOwazceRtAZZ60Oezexo8CiApdQscLVx5do8Mv4K0QrUC8OiMo_CxPhgxh9WCfB0OrK0Bq8g6uKXXhuLx9Tobz5xDTfAagjtpZTSHqT2L2TMGTqMe6A375k6Ihr8BYHmbL03lxeu0ohYvVii-Jbe4rP9YEJFo5uapisGdwFCv-Ak_DL89qEB6pYN5EPX-zLMFJtH7qr7-WfcRPP48WpuaHD0T4zj-cHzYo-h6KXmYc37-De71t5HhEBYAo91ezyixcrnupomwMo-xegm3KyGJJd1LqYN2kb1TOA5xtkFLPoVugw-eylbRaV8c1Yxaw3OO1HQbNPSalAw4-n8tR8cN_ug3uXuo118TPm9hNHqj10uBBp0fJaO6jC-fsmCgKS9qi0A",
+        "width": 784
+      },
+      {
+        "height": 765,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104337370465895730618\">Barbara McGinley</a>"
+        ],
+        "photo_reference": "Aa-ngMa6XePEtmtz80S9_eiMTLx03c81PpvrzGi3FXbPMAxrJvL09qG_LR__TYrk8SuzJlBmkF1hyY8Hvog3iNApjFd1hA0ebRdknjmywWarjpzB4vooxnXDEaLMGpk35D73jm7MHpluSwr0GSh2tnTiM_2ZGnNUTlhQtRr1QzKxW4YeU9mtu4vKLzsKUSOYq0c57Lri0x730mKS6RwemjX83ErDzIISgNTcKG9adQFPcP_i_qcM_fuynjovvZH8GGntBY8I8n02swoIUW8ipcn9YzO-Ujx3GzHfvG6hxdIC5WkZC4YPfcUVwPmanPpfDE7uLcxtgIsvGZBua0tRATiOGVLE0RxdkLQcL_iK0_rmWqoCVWPEZILPq5PnDTlLZRV5_B6A_K_TFkZqMgx7XdzYSoPyIx7qNXl1OxxBD17RVqaltg",
+        "width": 1206
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMag7xVCNAiHywlhUDo8zKyLF20zGi-JzK12kO_BlKroxql88wYul9bMtRaSmglPrgx-fQX8xyAD-xf2tCLvMD2jNKI55YqTg9WtTrPj5f9oLwdrm4IbOFu8tIctQYe8jVZf4PDqqkm60ZpG-CY18ww5g83ohP9HlMPJGmUMhv9-ipX-2JdJgNnPhMaZsX3MglS7EOjFkFhJwfQ9wZ3VG8h1Zkz6P8p2TmKPkaAuoJiB0Lvti7PVMbb5lQ7rbX6MMXjYmG5oKSsWe7Z_XGn6L-7aaCDJhisEskP0cs6TkDTkbdTQmvHxfI3VwBcgzZjMqgDYWk98xtHkc_5igp7XaLRNXOCKq1cKZzl52wwepbBEGZv2turl8DQKBqe07GVz3m8jNXFFqvSH4oar2MPlrUV5xg",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110676069719862068894\">Bill Fish</a>"
+        ],
+        "photo_reference": "Aa-ngMYXxc_rhCLsOYaJHwyeVUxp1oaABX5FOPpnJEMh-GE0vRbgiZQRR9KSsXqCvEbuvVgiw4D0oh0yjHn_wqkbhm_j3ufHaay0WDnTIbaXo-sTkObaiNAefhBKvd9jFvBmqjPvMHEvXqGILdLXJYXhMlcjUArWaiJit69Z5emyS3S4P11BN1KGNje0sLEmJ_44tAIF6aW1ti68so8DSOeRD7IZJGV8uO0bHejRKdJLGr3IO9Lmp8jWehRytg0bEK8XVhHe54ddIipST_FCM5xVokxfda1R7fEZQGh9gYw504M9_xneGDkBhsAR83CQGrxxUhOmzyVumJ9M_7FtI3Gct6qfGFb0WW4QN3hbnZ4Pk8f4sv4IDVvI50eGzQgwuMN76-HAVbxDWXWtkAOrCTKqZszWjak",
+        "width": 3024
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103566755989300658715\">Kay Bee</a>"
+        ],
+        "photo_reference": "Aa-ngMY9qG7zl-915Oq8gnJs1aUHIkdnReYg412UaKE9yOsZwv2mnSMJKSnwvNSOCiM_YdqvSi1A4JD_A0orD9F0V7byCjetbLtRR7b3oZasFzU4Ihi_c5F6XcummLjqJPJJAqqBP3is4DucnNwVLmTKSvDk-8wbjuhFiaExojwfidtdsJ4QiCMh69XFWEHfjFmIgcTPgdGH_d_5Weej30Y5ker16JDRDzhZY0RqFJ5QMmgtlxUKG8rlTQ-kyF3-WPjigoA-wYKGIDHWZdvnQMvCw0SQYr_xTAlKkbWdL7c__Vt516oAgq3Idl4kqCsnc-xEBerKo-YQUaE2ktdZpEXqr2qBRh5VLl47Y4YLZjynEd5NqmqK_BHyjEaqzmO2e4sNSSbAFwg3b2VxrWsUDENab-ZlyCZ-JuY",
+        "width": 3456
+      },
+      {
+        "height": 893,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMYUIBtLzFvNgxf-QkU8AcW356T_4LJjaYrUH4QcLG4psEKOzFAt25kA3-Cd2SuNVVjhDo6MLfzuPToqRihuoUvLTlXB8xG78MfPPsC-fM_QlM3GZdaRlLs5Pjo7fYyCOmk24PjJrdNh9RiQQ55dRRwocPEKkJ2M7HcMNadQU61tvJAyPxbJAMbdci19F-WT7Zv_XBAs0n1E116THLlq8FBDqRtn5ONfci8iYw-ZTiLrmlymLSUchAfEqX_ym_x3sFtILTJ5k1MAVPJEJ5SWdttYOeEXs-m1JV-AljbYl1oa2UoaDLFhDKd3cEM4mfaA5N6Pqt_9cUxPuES0oW-339zJtt4zVrClwqXHvbMOKoefseLW3El1Dx1xRrxIuYyIKRfiQ0Kmg7BkickCg0-YcjZvBw1L7RE",
+        "width": 1259
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMZFU8UiFM9LMUefJjrGV8VmwRRO57Ugu6S6vtlyfy7hJL6jsKzpNU_WT3HUbuf2iTlOZKvnHIgyMj0Nc4-cf07ABeH9W98PGO2bMZcC65qSgHKPSwLcxeMxONJzXrhS6V7NxrJmVCNl2tYiOx6uSHDBW4oHCJApYvm9kaKLSg8GLR9i37zVwOgV5LjqkkQFztFySUGEYDWyuaAk47myLdJn_7oRkoX50yG4gMwsl5rkYaiYxJuLRVqmmm4WEzzqfz-p41DK9rNQYc-dDM8Td0DRB5fqP1UbF7c5ODbCbtEBqm1fntndLz_qY_IYFC2YCLBTXhk9B6qoJYHJp4Cw1ZzbZkhPMOY_nZ-T44hTcA_VrHf2H7LUVSs2cw35zSMixY0ATQBqno0uhM359BXEM6kD9LIdoZA",
+        "width": 864
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMa2qts_BFLUunsO3S-6dw-7KRSdOnQJOxghblhDJmOlHrT4_77QnZ5rTrFRuki2_MXPpsxcZh-2WWVsLwNzk3Cwan7nNXK-ok2hTiPJImHxSkn_yV7yYi3P0v8ceDxcX50sgjLzWmhX9kTTEbIxcg2LcxSn1NfhYK3H_4_4aovFpoCSPgq7MTi_2_RLfqKPS1_UJ7xBRBYj3IGxnYupOstVp-v6ZR_y8nzVt5rxKcc1fYojs6hkzyed5Qgl6ToYlw_u1O3PLz_wb4b3lPMwJjFRDlPOnSk_5V-1F9O-0SsTKBYj_GSO4Ovf_yHX1AFSptFMVC9Vbopj4jSifHyA-LQ0dTTJTtKlGApS5fFzG1eLM6zJSI4tfOE8isqud9DPAJNKKbuTxn5ggNbxeQd787vXPFw",
+        "width": 3024
+      },
+      {
+        "height": 1214,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMa1hs93dA_dyu8g40EvMWpg-KDJA8wZH0qlnjFcGVzYlwACC3Zz0QhBNusCsioyTmrqKEaaS5UKVgcGdng9sNFW0oszNplU_4d5byyBBx1Ysgoc-VLCRz8yoNKVvC3FRpiHshGO06wAmdPn4h19RdqrleDc-9k0sU0DOez27ms1AzRYdUnPtJwKsdp3ALTuLp2XK9c6hY3Anoh_3Zx_w0s3whinSUifGnArzRmBxrDYzirCaGz0ERVX6Ldjxl4WFN-k0mH18RxU1TGnFiOihpcjyWq8uXwMclRbWPxFAQUJz33qdp_naUcZ8_3ZQxySDdF2ikdEhVVKZubzxEvt3Uh6fOlkgIQBuoRkOcAVpZzPv1Ml1d2yIa2BC4hKWE_xkpvmks2QwixqSO3f-aHrQwGa2iLF",
+        "width": 1899
+      },
+      {
+        "height": 2387,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884566872691432540\">Olabisi - Winery Tasting Room</a>"
+        ],
+        "photo_reference": "Aa-ngMYrfdxE48CVoeRD1klau8mCZFWyCNceLxnHcDbGFxh4b5oTqolrFL5-Ghowvsr7CY9LsFVxZabVQgyl0n2D-T_1nQYg0pdPJtDviHbpZMjsMUvYhmQphOu8DBLvLrS3PDX6RFMhToT2KK-Lq4UbvXWK8BA6REslJ1LY_2Iul_CH2OO4rcIm7A1WbgB_HnR6XhN23GEDnXnjca3Fg-BfZq2z2fbIh6pMxEXAaIqL4XltXoxZUL1U9Rye-F0tSBdi7HAafoyEWtKkjGmuXLWB879JqHejHHBMNao87yENIjigHitqfbqShFfxjUjTs9lg-ei-dgeG6FzZXmNfOVdDU_eycf6uZbxYBFVJGm8FsrCig_88kd4V_fIHFt-yfdQiQywrnZFcKeNpys6CH8JGWW2LyJAHidM",
+        "width": 2387
+      }
+    ],
+    "place_id": "ChIJMSO7UF0GhYARte93zLpFExg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1734806950064418741",
+    "vicinity": "1226 Washington St, Calistoga",
+    "website": "http://www.olabisiwines.com/"
+  }
+}
