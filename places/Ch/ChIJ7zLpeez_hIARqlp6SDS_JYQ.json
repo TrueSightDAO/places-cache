@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:44:43Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Baldacci Family Vineyards",
+  "place_id": "ChIJ7zLpeez_hIARqlp6SDS_JYQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6236",
+        "short_name": "6236",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail",
+        "short_name": "Silverado Trail",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6236 Silverado Trail, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 944-9261",
+    "geometry": {
+      "location": {
+        "lat": 38.4183519,
+        "lng": -122.3373293
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.41969453029149,
+          "lng": -122.3359493197085
+        },
+        "southwest": {
+          "lat": 38.4169965697085,
+          "lng": -122.3386472802915
+        }
+      }
+    },
+    "name": "Baldacci Family Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106238028052656097923\">Baldacci Family Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbeElg2VxYurv_PiA-LgX75-xfN5bo_NGqRHRWkVPwpzH54wfbFuw3t3k4_eB94gy8-kCiE6QIlJFf2oXRKpCKixBJTVBVCvGrly3VxNE-QVps4Jh6W6WvBxdF_AiYda5luSUy7DphOs5u0OLCdfGOC6TkHDSaW0sm7fCiA6ArbFyx19dHWKPevtH8yK62XWAgRmozxF2LIjVm3jtlG6C2Pwf4YENM9wK7HGxqgDn8Yz08xOu0c16xx1E4qH6amvU41RUGrgCKygj0gsAIEj7J6ODlnc2rRPbjeLozbTQLWomOGacHnFhcOlhqIiRagsjWsiYYw0olyy4gqzvUSrICjC-NOG_ESAQzxUkXemdibhKnVYV6rpNgy_PvTAVUU_FLsVEzV4aODhOQ0kQY-dMX_6_uM",
+        "width": 1200
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106238028052656097923\">Baldacci Family Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaiC4jU7KIIhJJwvc2v6Qrl4Q5lcOvjeuRYYiZL4Y-HfSDdbKr1iRFMXzzlyll1aU6NN272EKBTo4oIeZX7nJsucNZO4y9bYkbdmzvM9xtpIEbgWgbsDXo5IT6cT86Ltrw7AnQAsJ61nentFlJfJ7oedmVC1ZrzR7XJq_kcJg6GqSZJI8jpJ7eiMikKlwF4qLPC2ehaoNUnePcAVqssOyS-Q3Lyk1wC9Urx5eE7T--hNlRKSs-Qo_cIyybOHWvLgXzjfKBgbCUwu4ULi8-GAwEVlm3z4n49j9O1haRBhq_B-k1WuC8OQdTy1DX_COtJHtAQmY3YiOdXmg8ISzGLvaJkuekbpNDLcLNvO-Osy4RGUafmaOg9bYoPtCe9fGscHgpAlfQbWwYVkjAXXYgKgIm1cUjvJLTQOvM_k5zTjeBe",
+        "width": 720
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105133062855443650453\">Tim G</a>"
+        ],
+        "photo_reference": "Aa-ngMbLuYn4xbFRP4UJ0BeuTcQTi6F7ADQBEV34sS2H-tqYWxHbKoBENxLrT9rBahfm4Kffq4epIcKI_7uExlj7wHiYawhcos-IF1Ibyi43iNafdY6MERdxXE46Byv2bBPTsBav0T2ngu-BmwQiFFEVH1A73nB0QPB0Yxm6zj1T3NtNTkQUsNMcUkGFyx82Crp0keYkExoCqqldW2Mow0OoC8AHcEp67Vst-Wx7JriP_ncxHWT59_lDuS_NkCClkrkNKBm0bDErEWANqdKhZa_8wgba36BMjaB2HdnNP7bA8ur9IcbWXimQ4kTbNx48F-RyFqQs1BDN-_LkqgCOIuKCBd6Iwun0Xr9P4FCwuizlzNMKN22Y-O2bicIBJv0DbUnF073ZcXUfJi_3aRDd7ToadjHmtO0",
+        "width": 1920
+      },
+      {
+        "height": 2733,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103988570986815361331\">Ot\u00e1vio Marques</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3YLCRKoLB2O88e46-bPPu0C8VvEPL4QS4YwxNQIYO2h148xvp7QNdBY8oBsPNv4FYjX_RD_HiTj_Ru7Dd3P80khI23LxUXyjZbw6i0tnWJwwAtmlupLVjiMzAaOr9DtYeLuk5RFokyEwnpVqVHOVjumuh3Ft89mdjvQmjV8tkjvTHxq-PgmLTf8NVXPxX_20M9ZC1JiDFmyKcmLiYibwFd5_sQgbB16Qgly_jNyaLWgD5RIpJHY5ulNe9M0h6M-Mnpvep89XbcNsLkyNwD9EFfLQjY91s1iS_W1uQezIi63HI0yYLtdUmA0u9RCw4BwqQEnYhhbAiE0nETGjM2qnZBJEtff-HPYrDYnTzKZ9aKFB9Fk6SKe75Nh54Hcl5Be2m8Sn7Dkat0SlPw8e-phtb8Wg",
+        "width": 4126
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100482506171973307687\">Michelle Dreon</a>"
+        ],
+        "photo_reference": "Aa-ngMb4jx-utT0iyVVoN_mtBSFks12Bi5E5V0ynIyKH_bSpXU7rhMOtPdlT9LrQDFIqn7a3UI5jFSDvp8hDh6jgxR_0l335hZT6vJ2g9vDxvz7MtFnFCkmrhQ2ed--UC0LOBDXPbsT4bdUvPhzI4DF6d87en5vW1fZTX5cgQnmrzDuasIfZW9pxjI3wWDLMdQUoBWppGJvO4nKmTe69BMyYjuQdiAUzNv6LPFsZQJKNysbWnpWcnUGuXZ6FaoKV0l0EEMxkX12H3jzeODcS6bowwBsoRLD16_Sa5hSzFgMV93fRSFS05271GgF0ExVjaZ5Ln3MU4q_stetP40RaxqRXbKthdhYhiAGl0gJGaY_SqR29uPKGMxp9CPgvwg_EUwdHFvHBiPWTBJRb-ApPYBzquEtbORRU",
+        "width": 4032
+      },
+      {
+        "height": 2653,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103988570986815361331\">Ot\u00e1vio Marques</a>"
+        ],
+        "photo_reference": "Aa-ngMb0Ci3A8djA8UEnNUwk0DYDqqUUfHX4LzUhYPC1NouSrNdKI-AAAqBjVCwYJiXfyipq2NfkiCq60YMn-J4tYToFEBDvBc5Oaf-dlkgcFGkiRo3ibGMWvts7f-BWQ3ePSTPkngICqfnXrgclMi50JTy2MJPkS6TpaC0yn0GB6YEkRtmR5Nq63jBgArBvSAoGE7Y_-eZsZ_tlv81NCkMqbxdLeHDTautjuW_sYVZEiQIxTLi9Ogyzy98KbiGFh_yrOioAMpORwk34ZmRCBlzViAq7ZGsDgak2knqFIMYqFIdMUDo8gy4ooaADHiSeDL_BJOonuc6GzzqqojVhL6wgExvGY9jEGfbPqk7aSowB3i7ffQ4i40yFJNvHu0d8EDj9hY4VZUlqPsn7Gvkw-35djQ",
+        "width": 4007
+      },
+      {
+        "height": 2615,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103988570986815361331\">Ot\u00e1vio Marques</a>"
+        ],
+        "photo_reference": "Aa-ngMY20Ci9Uyy1OEqbKYQL3Pmgi31wn5aq_Jy6eWCHo3WmKPCDjda9Ulynf6NhCeEEJO_GH-mhb8r24izGETQr_Cun32sRpwZWFtJ5MCj8GxOLS8EApnysiyuMkMO7WJgvU0oT30btapCbMpEq71bUkN_3D0ul3WHlZrHWMFWzA0SDEf8hl61rfzeW38OO7yb6c7zE3qWjIjTJYvcuoo35T0lq5qvLX8quSmB6JG9vOnDaP-3JyoGdAzLvuRGfPEr5o3WPs75smiwsQ1ssGTjB_xPhTvLdrbp53aDRviMsU4gM070E9dP565AyNN90vHiMu7WxqNmjd7K0TkennUdYocEgsl2IM7CbWWrpa-H-z5IvCmGBBk8sIA6qm0TJ54uWOb2Eg5elkKYABjryu523l3m3WiE",
+        "width": 4031
+      },
+      {
+        "height": 2306,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103988570986815361331\">Ot\u00e1vio Marques</a>"
+        ],
+        "photo_reference": "Aa-ngMbWeuC8x66jWAhVLhY_AbU4H6gpLSpwbys2rHU9s_FWMzA47qupoILQt3ZdgisVvqHCYEU7_fyIYb4xHgPdJrpxlVlRvTm2BCmnx3qaCWvn6qdlQeKjJd_aIdMEODqD-lx-cwkdlWQqFh7U7EuprVPb6014IWpxz_NRmF6AgX-FsBUVJ3CRtuPv4J4z5IwpZYkgqKONyTHJ55jvR_TaGk1sy_iCL_NqBHrJzPEEZ3dIzX5gZVuIlC9xDEQQs-tElGtQlu5gGCHSThhJcPBcfszNZtCn8M5CUWqR-jWZ29KfzS0GompEMLEgl6s5To4KhDlMVKumT_m2MBsGxRKSdlRtpXJZp8TJxtM--yG26FBZWwTQRgdrIoG7O4DalLgoo0e2e0WdHyJuOgCNFFSLEWyCPEWGc3U",
+        "width": 3437
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115754361899476361399\">Liz Oh</a>"
+        ],
+        "photo_reference": "Aa-ngMaScMl1N2cpiiT4-kCwVvcCu4qin5gF4xAake28kctuVYWWTMLkULZX2i-GaBREWThrTzF6tvjY1_LTB6QtS7M50xIBChraBOZburD_CywhkMFcFBOsnviUFwzb1n1I1FNcJwRBslv4CvlSCevxaOGjrlzcdp8bKoqbAWlzPqa_EYCziCJArL-McKdGxCGVQcrTqED43ujnJ6fA09FqLaKd1Tc1RcEXJC1Nn0f8L1lkv3drBYXlyqk4Z_aIYHVfeTUEeocQDUBVaR1yZNmJj7p6zEGrEKxWM59YNmfQAgaVs1pzfhZMaVbu3MBDcaObACGzlP5-G4iz3C1K6HXhz2VejXzBql17F5i-m4UQ8JjRsq-NW1SvHGHYyTj-J4b4E9SQFKC5DVRLZEKhEct2ZcGiB0UR",
+        "width": 1350
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102763059084355668300\">dixie malaby</a>"
+        ],
+        "photo_reference": "Aa-ngMahcbow0dDWmRH12i8joXkfqqJdmCsxQYwRUJNv1ldxJHpfJSlAJ-UWDLJp-0LIq3ycJ2M10yJ0ARriTAk-a0CTGZqtZ3Ct6L17KDd0coX3SIEO_qKRdb2pQsT39mq13H4p-dP0e2qva-rZioy3v5zTxErXH9kPyMgle6oYbI2u3r3mzaYOSWAUI4swCGRpdLNcBNNkKY8o64UXvOksI3lQGd-2xW7P4V6A1MxqfSYx5t65gl_YIM0w_psOtYjgzEPsHh_YTq4paazUrJtfntxa_LL-CuyTlVuJHZgrbsrNlXRJRxUgB5SLcu2sVX1vRG8PP_pMV0Oa7Bnq4QJxQXyI-Y4FNOuUSeUkzYU_EbUTjes-_Bf2W_H3qcPAiFYQ4jY4bp6Grdn3YILHrevfXc7mpJvF",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ7zLpeez_hIARqlp6SDS_JYQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9522227218419964586",
+    "vicinity": "6236 Silverado Trail, Napa",
+    "website": "https://www.baldaccivineyards.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing"
+  }
+}
