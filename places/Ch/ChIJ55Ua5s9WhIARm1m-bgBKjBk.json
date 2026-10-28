@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:44:26Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Whitehall Lane Winery",
+  "place_id": "ChIJ55Ua5s9WhIARm1m-bgBKjBk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1563",
+        "short_name": "1563",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9775",
+        "short_name": "9775",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1563 St Helena Hwy, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-9454",
+    "geometry": {
+      "location": {
+        "lat": 38.47751969999999,
+        "lng": -122.4375543
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4790887302915,
+          "lng": -122.4363421697085
+        },
+        "southwest": {
+          "lat": 38.4763907697085,
+          "lng": -122.4390401302915
+        }
+      }
+    },
+    "name": "Whitehall Lane Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114285136155968700006\">Whitehall Lane Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbcoJEcCJAUJ8R2v9lyegxf7ALR459ybLVk3jlrwmEFmwKeSKCySozHoEOb7KjTh5tK0WOYUoLLqHgerR2W4tW6nis2JGcxT1h8UfNHEXxDPJrPAxuHmrdfIpygzo5ONJ2MUAGiR_6mio2EL8gjQV0T2HeRFKzrNIO8-aZTrrXmv7wresEytxnDJkN7rk9YeqAzJteGXMpxsH0U6iHqJO0f2Vrvywr1tU0PnYDC2kPt-6pCXUUrgRQcFgF2UzelPG1_iBYNccQsmgEEGOfT6D5F6cYmJhEFVjLMaD79VIItbxzxzhHP-QAJLNItHygAKpYelGlPXJe0veIde8lqo6HPsSYl7i1-hvnIZYvn1N7sH5u4mgBW33vRn-non005XYW4KQirCJSZl-9-sLYgrW_aTg",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111200749652295891537\">Steven Marks</a>"
+        ],
+        "photo_reference": "Aa-ngMa6BqNUjbLEOYeBwiZH4vxcl1agBaGJavUp5psdKrJXyhz83E5EKv0Ln7xHDKKU14ZWO-pBQtl6RgJxcvXGGeFbnyfCtzRWDXJLWlOQJzHtofJDtZadNzd4QCueHJeXM9HBEWB-vXKvUna8FrtOAZq6ZIq5x5lac8RefZduuwlJPV44Io4RHXT6jiG-GKluPcSTM464EaD-i6ZiqQOMwoviAW4VrdMZDL57wQmBl5bctHs7ZrPGjOdq3OVvnel9RWjM5WsiYOLSkHZcZRDwSJICVwn6Zgwdu7R8O5mqgMAclCEe6epyvv2MX4ROv81Vd2LzGLcwxW1n4azLaswOcC_yTalN9tGpUt-y1ghgL6SQwwov-bhkmSDt85Znu7CnMVfPcLqgbagT8DxRauBXUFzwI58wSPW6m89SMZUbnHqW",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112725860323243807824\">Patrick Dillon</a>"
+        ],
+        "photo_reference": "Aa-ngMZsmKWQpBpnPZGUpXOVyRotxK5jkvazItyqK-j_osH_-9nU25FUun-T8QosHQGxteOTVTNz47wu8Pa-hGsDkv9049Yd6GjsmSjPSsolSp00KyUFfq7wzRpLRnNhHhNcB8mNCDhwHL5c6GpfqXXsXAV4n9A0F5bggmjyp2WQMprO6SJS50Ajz43BEVptLe33LOw7WJgnUcL6BM5jc1TOjJT3-W5PzVy1swppao9490lyui2KuDo6Y9j_PXNS0rsS2rfL73lwGtDVrBnwPD1xIE70gPzlQRaTJnDHD0w1k9uI-BPsLUHrh2HOgyd6R25HvFZcFV3kxD9agzEBfor9sF1AKl56Slnfi6k3EfaROiirdbYWAsAqriAhW275GX4uTm_gSm0ijkKbNNnC8rSS5KAr3bQ",
+        "width": 4800
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113732136959818246858\">Jared Cadahia</a>"
+        ],
+        "photo_reference": "Aa-ngMYaujMxjsSoHENKaMQhBtrvnVOHBruxGNLkoKGhaB2bBFJLJeFZLyvpNwb9qJ9q_H4bkhctFGJ2p30F4ZfR0NdUKiEwI1-Ufi0YSZ2-8sbyCl6WTEgJBkbYpBjJZRzRanW83RqphRVN7nYragNgCzIx2y97-_cAKGJoTR9sxJSIdCOdxbCWREZLoqIHLnN4aCCH_5Ps0RTp7Ww05zUaRltgWEW6k8S7WD7119pJZHI4Y-eDJvqaO0h77vR1x7PdwLQ_vNXsBOcgzsS95oLP70Afhcam4AIpV_3ddGIv0bfhqLG6gZlWqthwYjiYl109J_OxedMQTsW_DVjItolh2abzul_tCKUYdHKAgiq1A_Xe8PNcmGlBGqEj78bFI0EDYZf5rpZwPcBsZeNtcgo0ZBvifxMBaDnA03X0VyKdF2NZ",
+        "width": 4080
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114285136155968700006\">Whitehall Lane Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb49V-LQxAAUp9cFXME719e9VviPwtGRGp0vdLYSkovb_bfRAaEc65OuuZTap0ZZnNkhhS9pIP4TgfxDZGoj_u9lWb8i30RBVVTk0s68siFqOWccurZYky2CSCdu0yPrp_4YZlJHbdsinw-6KEgLxu-F_Rg6UXCLD1l1lUhaSlimVYl-aEdN7m9uNmvaKNX8KHF-VZHUVBFoAUl2pL3rCKqHeLYQBl9Hbx26qmuTKkyp4dR45-xa93IpHw1Uu2YU130u2EMl5aUFP6lLiAO5lVIq6WTiDjK9bTKMBbmtOwO6VVdQ4UHJTCDqZjp9ZwMQE0RT_aTiQdPWYXT9qT4YvJtoRO1OhVxyV9M20F8ffdbVVIdAPeNvLijMBNgzTCLD77xd0Fm4EORvcdGSdehRFjXT6e5fCM",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530655687762478796\">Kelly Cannon</a>"
+        ],
+        "photo_reference": "Aa-ngMYM_lW_pfKo9KuSnNdR6ymK8JDxQ4wsawZ3Jce0i378Ty_h6H4OMmpPzXYvATega_Lqyle5JeWgSycU8HPeLxgoYYDLsSQLdcCQA9YU-WCP4B2F8989a7-N-EFwu_mQ7QCSFJeJr1QI344WXiQ_ebC_7BpDLfBzIff0xp-mR46aT4xSCybuU4flcm5beMgGD8v7VUXshF2dsswslm28gYk5_kjVjv2j-_LWmIcKMPrEfdcSgxXIm24RcXOule2Wq-brYJMXKZJjaez8WpGfg3jEM199C296OvCpUqWCbYTEQWZXhpmhsN1iGKDKiy1dY-Gy9vnYoNBt-CkZE79n7kLPSnCcNerNloO0xYiREBPn8lknMiy9_6K8D9-ivJKtspQNjMMPjwawRSDPP1vteLaVCg",
+        "width": 3024
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116209084109712066000\">Michelle L</a>"
+        ],
+        "photo_reference": "Aa-ngMY3u_Y7zAaqe4cE_RhAJNmiyA7kfiGNWgpovpz04WPDA_cM3DOTfjwUx8NUs7JxzSAV6LuDHc2yQzdFyvTMwugtdaJN8xlBlXzHSCdMyGLBP-2NOYW48VXw2n8s32K6cRPrd79jpSpLkUA5UbBfeciNbegbJHAS682Nt37E3d-tVtG0KyxWzcGdmgnEWdr21QjQ3suk_ujZNGIjLEyt8KsigXFSurT9s8VG6fGh5x5l-fusIaGh7bTK60jHK6bqN_yD8q5skXQVd5Lz7prKW9ddFtqPHVT78Cm_AzntRNYfTQnFxuRHqNfGD79xSD5d0COSPy-HppYzO45MUaLvH8lPKe_0_fgDpI_2w8oyLi6l25ealE-HP210RxqY060sDqd9E1l81h9C43gdtBAme5dfx4EVCjaxdQuAG-CEXaa1qg",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114285136155968700006\">Whitehall Lane Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYZ7zGtNm_y3irXZb3vTTRZ1vt7bMgsa5dx3j_KQksNzl0L2kAuRLndZHRjvDtOA_CH2vnVUnZ5TPaDgjcY2thYJ3NE_QaV4Z04rGUkv2mIigNqvbcmPIJlVq3EubzTUYlXulzTlfLmuySeluge4igDPFNMvi_D1zdbRBM8eO7csWgav0COdJSO-R96sKu9c2aGmqyghrNIV7OlP8JQLWrHcTdFV8D80XbsBFmuw_FHF7njU34zGyTbWnZIyi5aoh-axEdAb_qv53oWMKhlbaks8rBPxoNp02vNHRukuxl_KFgepwdM7PwiGbtazzolml60-Idm7Bjv6M84w9sMQIaRhe_XRpIoEoa3R5Gr28QjBwF9jjhoenxrCdSMlylCumMFLBMx5e0t7e2_8BHV6f5zlg",
+        "width": 2400
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMZc-2P4m9fKcLv2dMaCi82qkLLJ7Q0mbPETZ63PreSlKMl0BDP8pRMpHtotmkMWabrHlLSCZVVP_N082hrZ10VN8oqEDDBAzKIurQLI2rTubmbYY6Lr48-Mfw1uxEdoWyF8hLrXX__4BH3YwBDM1HrUWDFtl1J2eCw0GO3t8sS7kRIv5-fzZYqNgsRFzK2n5l-eB15KkzV7EeVtAt9tfkqDWXcvI9VGij-qwAi33TCnxxtvVUkO4kHrpQjyN9iPuFURpzMI3WItfJN9aL8nWqpdAlMf7Da3QDH12fPr1_TT91lIOLAmkt4A5n8OT4uE5jFgYflnyNoaxWNvdKBcyDzOJ6i_n_E0onnqhOBxC2XIpUyC690TUYzk2o68SehE_gFYexTwDGWkZthrc8YI8VZycgw",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114672453602868041428\">James Gomez</a>"
+        ],
+        "photo_reference": "Aa-ngMZHz7xEPqhIbh86z5WEDJPpJxC7dSDTlt5Tx7OAmZXXFl3bMztB48J5rBpy28jDFxqk0psG0_-x8ZR0dCUaVF6EDu5xoG38kXMJk8_Cd-kFNLOQF9r6wYz_Dup9ygRikkXnTaY4-EZjtFtzSPZlpfg3--aFlVaOz43_ULbNzqSb9bAD43osaUcZmxT9zyU4vfAXYhjhwCNnFmTtzYm4bd6EkML5t48MTFgNQHzR9qKImBS1ouKYkUP3Xq-F0qtD7GxbJ3bThGv1ZXUHXIK2uJz_5nJRDb7EAY4aLBLTr0aw9hGHupggFQmCk2Pm10RUCvw-JgaGH-5X6NmgCrK57gOueF4-il8uMPF0-q98GcuDvXfEvV7uwfKw3I1CwmioBZP54zx0XXfAz3mbYDVHMgzhbA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJ55Ua5s9WhIARm1m-bgBKjBk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1840927713406114203",
+    "vicinity": "1563 St Helena Hwy, St Helena",
+    "website": "https://www.whitehalllane.com/"
+  }
+}
