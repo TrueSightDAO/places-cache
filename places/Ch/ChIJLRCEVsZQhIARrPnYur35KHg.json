@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:46:26Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Salvestrin Winery",
+  "place_id": "ChIJLRCEVsZQhIARrPnYur35KHg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "397",
+        "short_name": "397",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2158",
+        "short_name": "2158",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "397 Main St, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-5105",
+    "geometry": {
+      "location": {
+        "lat": 38.4973186,
+        "lng": -122.4601777
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4986451802915,
+          "lng": -122.4588008697085
+        },
+        "southwest": {
+          "lat": 38.4959472197085,
+          "lng": -122.4614988302915
+        }
+      }
+    },
+    "name": "Salvestrin Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109321087669475469003\">Salvestrin Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZtgHUU1lBGHOGULqq0sBPMhq4n5YvbIfFxiM4TF0mt-R2W8DOX2meD9k9zBNvfG9-pb-sq0XkWtGo_Dna-5PYymMvm8zYQ8-rObGWDuHGeE4t67UO-_4HSKjG5OlWFTzdmTzxXVUcmL7I6yfwwFT3HPsbcnV6U82oYU9ohFRnMLl3sim5xppPthl8MDQLqxr6OrfJjuvMaxdGIK0qJ6SdzT3mYfN9WtdmGA8hqaH4DQ8YHYb4QN7KVd4ROl-Fiay-rDU6dZolXmY2NoIiTlD4J0J1Gxu38zFPw2k47EDhHauRX5_sm7ZuLbGPNsOAb-aPrprLoCO2dPCNSTD5tBMHvJB62uP-qhmMCjeoWGEFZ_cnWq1akZnD0IUmUZYzqiNXx4JeLLhNA0aH4lOylis3AgqEMiMo",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104967267104341712338\">Sherry Nguyen</a>"
+        ],
+        "photo_reference": "Aa-ngMbnMT5jZbPq91TY8O0pwcp_PdINOlijALNS6q3LomF2VLr8AAVwF1ad4ngf0eKfEKO7IfQCMEcPfYttINImEa-T41N6eKo0ju2f3UUxFNobiSypwD8W64H7rGpdTeeLFDgvDH4d4BARNICIq9Qd81cnG2n_y83fgvNFXNOe8Vs-wU5H5_N-lFpJVhGHEGFOYQSwTZriVvWQfaivO1VrKCRCVod4SYwFRAGwWITi-1WcokKOvjAzVXBA3TKMQ-fe0dHgJZSjlJK2X59yJg86FGQMQ_OCnzXdz7CMKT7KWJh7zgUb5oWLL92z-9ebbiY-WSEYIL3Iej2ss2d1HWa2noUddUWaOXcIwaKwA-aKE1tk7FkSONvR_hvuVoLuD5dA7YrMnupjcuJFZf8ROGezKXBS5_9khkk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117985545552799305650\">lydia wright</a>"
+        ],
+        "photo_reference": "Aa-ngMbAoJiPLN5RA6qYUflVmmEWfnH41rAU7zoQZQxgcOWX_mldsRCkAZym0MndjHL06puk2DaL9Egf2yY008dZgfBcg2nIzo1m_DZZPyA8RgUi0fIqsd-lTrDbUOugmM6ZGbdeVhmx1kq9gCBqQpieJayKFkRBJWWlz09h5pkFrT6ZXbIObJ5XOup4_ud9wUGJLeUBX60sssFWarxfXdWzUDEndCGXbMzjXikLbgND158MUaaeVTkaStsVjHjmLFQzN9mZY_ibta1tVbXGhjwlw2woyivRCC5FD3kgFeUkgvigrqWv4yqOPCPYmQbZ9uDXLgHoyvBizHQirdq4cJU4kDAP98c0GAubwPqjQZtJJ45Xs7WRgpHWT1pyjSzCUJAwvZhLJ5xSaCA_XE1ae5AAp_M0FBzFGtQuCTsvrT905Sb8Rg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117985545552799305650\">lydia wright</a>"
+        ],
+        "photo_reference": "Aa-ngMbPpGHwy-cgSBlo-vbe87IlL0R055z0Lefc9FfeGohoDFFla-8iOqwVkALUYsl7xh8rzPJ5rxvy6G3sHrcGPypSG3XP3gHUzQXTnswTn53CET9q4OInTNLXLEcX12sVr8PMiGdflHh2RQAgFgS7UwMDwMKJ4staugJtycEzvv12pmKfHZ21d-kHV0Szn3PRfnDh2QKYvnQdDZkpcydxpmQD0W59DNiUTC2WVMV7vcGttNAW1XQibLc0cT1kxY3CGexPPPWUacfWdD6MgD920gaIBJaZbPdFJVwnMTAoQG7t-zIvRoiBTgrv9tSm4sHxXJLtTb4v5U6pSK95Ps3RgEufphZfGYGNMVXK64G6NQx5js2FYwUTuHu6JeBZUzqCYkNlSyMjfsgO_lXHEy3pdsMEMKM58F6QiNZgm8G2rRXrGA",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107356835422322585674\">Don Gabbanelli</a>"
+        ],
+        "photo_reference": "Aa-ngMYsBnrOBWT3zzcYFk834NrYY7ixcueJhgFhvacOnSsso7HUGUDNkV-1AmtwG6LX0AyvqK9O1QkICph96P5GH-PQkpmwce5KHUpG-cw2ghh0NZWFqlJ9FApaRtu339GNiUaQE7n-4Guj2buQ4n7-Ejzw9az8DetIumzYDkC-Lvl8_YufpnwlbrUscsEASmXtFS2e_NfxFnfLL8VRzYe7Ad6omoDtOrgn85aeyU3zgOh1J_SM5gjCpYKYjREgFdcp3C7a7kFFUb9fiaRqYCZSWEJnB50MoCBKoLFFG5DWbcI8QwXdE21MMiFhFuoanIaA40f7gu8nf6gHbxLUIX7s0HZFPtROlux7r5Zd1F2RRVt5T45gwTd7h0psdwBpXPqIBMdUBP8ZgAdhlF1VvOXGRdYnqH-B2xY",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110974003358882509153\">Rehema Maluki</a>"
+        ],
+        "photo_reference": "Aa-ngMbUDSxRhk3S0fw1jdwCt3s6Lb_acRnic6zVfFCdSZSGOZEHHzFw1h21ysJrmas03Ww43TXmu2JBTgIDope2i9QMoVMcg04FkWXHOiUHfLKJn4J-0pxY42M7yhAuyJsUolS7Kd8ThfHW52JWfkF9S9MvNwz2rMnGPD7YiBKFMFAIO-PrWA53ApS0EG5fdF832ejxBc_4sGj2VQVjeMv960h1H8RdocMrqqk7jbn7F6w8Mlucq-US7ElIsrcIgEd1psPR9YG2dML6pE3hOC5uukDh05xNqM6Fe7KY7GpA4ex5-epdCnM6YBgQRICaGNRez6D4-2y1aOzgCWdkYxg8lPGwxga28x2A7f6dYjndtI0yCEj69gP9BK1fk8_gjiiOWCrGDn3ReyEU5ytoiHh2XeCXlxI",
+        "width": 3024
+      },
+      {
+        "height": 2668,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109321087669475469003\">Salvestrin Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYRYuWoETjo4AeY6t6HFWSHVZ9j_wl15MF5QdwRLxfoANtme6XBdE8isHZshKcLy3MYYCCn3jhES51bXbXKKJvs_n2KHKJRNBgrZgDnclnWxx0WqEibKFxJNUpynR2h4eY_nkr8nIZs9LMicxkXBGZZIgAkGhjdGZVQW2pnCs9PxqLTQva3virVPmdGZfateCf-pdJ7g2F29YsipFQhQmxsb27udqqnlgmlBO9l_eEjo_3qNCyoC_GtMBxmZzaupXOxtX8BdMxWFM_LjmpRmLp5JxnhzRlZTRdEVByNaURCfY3MZPONVNzRorNDJZYYXU5B-DQrbNybnCBk_Ahj_HZdDvUh-Ox5o4yRWXkLtsNs7lwIB-hTqZnAzIp4Cgk7aiH-2ee6YzZLpUOZbZiC3RkfnGU",
+        "width": 4000
+      },
+      {
+        "height": 581,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107773094098932560083\">Johann Naylor</a>"
+        ],
+        "photo_reference": "Aa-ngMbVMrR2sgb7lAFCfxsmYZdBajjs89zDsD-pgSPPFPfo7IDD0EjNjUGX8uxcmANNAjxyixQMdEgH6GwjbYDtPZfLcg4xzoew1dtygX7H-RDRZlUAiiXGWAYOdSghx4UDqvN59gAYnExnXJ1egwq4zDEoF6uzbHRCskfjNL4jLYqjD4ZbdnKK3N0zC1VZ0GmrWCFuywov5-cpnMRyK916pSVYu_yOQS5-BjlK4IpT5Jgvw40xS1MSRP_8mmq14IShgOh2sNvRF2-Ajm8VNMz8mn08knhN3yHpVUS7YWxZEI3Nl3n5wH1CzQ8oYSyVagoOf9nrkn3AQdYTe_oEmOnfLmZFQA8RfoslncilMNFoi2ehFZLrCNRW_DF5bBk0KxIWiq98zotIZtzF95dEoa73Pkci7-U",
+        "width": 1032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109321087669475469003\">Salvestrin Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYEmcrAk0KLX-Orpe2hrkA09LhS4jHXoVPJQ7dr01YBnlSId79VADC2cTH84-KvUWhX8sguAG3kfXaH40OMhP2g2hQj2r6y1fWL3uDVpjjdnJ0V5buoRu4R3LURInr_5-8HaMmDo0O3Q47FfTiBbET4fNGo83A_Ers2A90YHzUQxp34Nc_I1TPRZlzUFwdywQ9uJLFkm6zJ4GIW93ZaWq5mpVlBv7Owrq7CojhIXdsz-OOE9W9SB7tgkbBlr75Dn3x2BLTkVRNJLEg-56BE4T40hqTHnUtmlcrQhlg9m6hOyda5WRaW65N9eh3Bq3NxqZr9jTcxQgzY78l0QJEbQw14vWWcZe8PdHG8eTrbx7RTZAuplszIpTrDxvsY5SLN0cnX5DyWui3aLVqZYwF6-gsjWcY",
+        "width": 3199
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110153206920152446243\">Edward Rapier</a>"
+        ],
+        "photo_reference": "Aa-ngMZ8LVPi_aXpH-eHqjawW9-QKKj7BSV4n6LASYHMKS4Bb9z14HGq1_BwSsslh6YU5I5YAlsv6d9KKnrpCNQqdJTMxFiwHyUW2CpiBziWUDPWTbykmwsqtpuRjhM6Ppl5KatdWrgrI_SqGlCL6ozH6BtaZikdf3wo33jDZgYRICX1khlHQnGRLRC54pZvI5ralg1dn5v7AiwwhO-C4KG2tJF_F_qa4scu9FJ-O8wZA7dFKs7OMXblKjXuVErVbyK7Wmz3RyF6DilGy9wkeYCUq4trskk9AEINBETPAapROoXzWVAyHVaKTls0_5fSaFC3rzcwJBG4TRtJ6_KcUgIIm77RyScUnON5FHCKAmiVxwVOiwHp4YnUWigYqpVitxJWFzvTNL7maIL2Er2gqWCA-rE7vnqoY5Hh3k9XszeOdVvdCg",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJLRCEVsZQhIARrPnYur35KHg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=8658444876898695596",
+    "vicinity": "397 Main St, St Helena",
+    "website": "http://www.salvestrinwinery.com/"
+  }
+}
