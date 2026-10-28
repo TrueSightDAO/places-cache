@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Stags' Leap Winery",
+  "place_id": "ChIJU9nqbuf_hIARJ44m6cYyUoU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6150",
+        "short_name": "6150",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail",
+        "short_name": "Silverado Trail",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6150 Silverado Trail, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 257-5790",
+    "geometry": {
+      "location": {
+        "lat": 38.4141865,
+        "lng": -122.3213219
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4155183302915,
+          "lng": -122.3200671697085
+        },
+        "southwest": {
+          "lat": 38.41282036970851,
+          "lng": -122.3227651302915
+        }
+      }
+    },
+    "name": "Stags' Leap Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1243,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117063527369208563935\">Stags&#39; Leap Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMatrslwcZFbtdgF2x8yOh-pnV-K328yhu9XLhcdGg5Qbn_uJPaxEjZPXJOWjgzzI-z8FU7p3E-2LP0iFK5Hv9GSh7T03e9gw7-e3mvu3Dtxz7GWeCA1DMbyXjMfg2Op6dp1_EDjoI5up8MsTNcRutQbE7YB4Cnxyk9BUPOxDlRzjsLQW0uv8gC1oy9cyvvircBcu7eYd9cmLSHE1OFDXCbJ8oD5qpq1UIFhfyPfr9gY4UkNswaHP43TuvkJDgqfqT4yEJOoKGS1u0t-CJSyaIuJoDmRZES-smRx4IIgcFcD6Uf9Myt2glTH-lzdB4ZEyn6Adjjg6RWztPprQqo9NI9ar2sX068Kf6tO_kTqZXDj7TiAGML0U7YjJEmlA1k_8Bkz-e8iFpNX9LHf7xtu80-R28rcl0Y",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114986835135781957542\">Emilio Bahamonde</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_Htb75PL_MZZqhKbngpP0Ux3NAg4S8dhDkAwu9dT0ipPCBDdmKXjJVQHmGP1Yq1jjl85aM3UDhNAijMmDsFi-GzZYNvND60gMB5o-xVhLf5NRGhbPL-wVGt3xiXOWmg-rg6kLwVti0PbiaBH2_ZGYqyKxSbnlRZ0fF5MRhWpc5El6tWlPWhXWtI5NMrlwzvh9QTcjmmtxvXSV0_WSy43G4y3Kriz1DfsJhkaOzl6e4KYd709gAJ5kaMiQTwL9OEzVgo6Wk_yLSw21p_5u_J0W9sCwauQfjTeOoS0-lH8e_NtLH-lb0Kwln8KVU9Wo6uNRJ_FFDkAXo1u0bFAI1kzua-kEPj7aH8CCHYOkTIu_rprOBzhQJtcgq6fsl5Ior0idMEDH7jBv5oGTo1VgkxiO8OffxTM",
+        "width": 3024
+      },
+      {
+        "height": 2573,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102163579506389510668\">Christine Belin (Xtine Xploring)</a>"
+        ],
+        "photo_reference": "Aa-ngMbYrhXNbjVMS2lj3jtzBAzE63OMXwypJIauTdeVMm8xNF9tlgI1BzKfX6-WF7hyI-AWA8TBJt1JoKAjwMnOEQTgS60lqSgUsHG_XG9GFR6ixW7gjJRXoqhKtEXAGRLnQr8vqlxnJ3K_18xH5Riy01Ndn1BFIZ6eupXx15UOn2U2qA_tKvvU2Tz90OQfheg0e2P2tSIOBhNqQC7JwplSlohnMx1rjN0LEy-yphq6YoAqsm6Ww2g7NHCCsPren4ROBUzUjATsTAy-1hi6D0f3_aTCfUSyQjWp92tIlUT7H3TRFNK3im23HLmV2HdDTQe9_os6QYgtFoHiVodjei6qDwN7EwfzSkT0_HOIH5r1RkvHyvhN2bEvOOdR5ZcMqDt7yKW26DmpR96kg0EL9fDMcDk-BCw",
+        "width": 3003
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111313948128015953916\">Vivi X.</a>"
+        ],
+        "photo_reference": "Aa-ngMbzNiamkfI_lVWepX1QZwTT-pRpCnTNVrdhzl8Ii_bYxBkGrqGH0RLAH8lBFiNJHeyJYtPA7BJXrN5wcFPysHz8ul9-KQHmEyKU4lf3FXrHWiNuNIWTFOC8FBH4A5jVobDHKQodqxAdwpXVgLtl2zFPjG3XGysxI8p-9ft7rIOnthRv9Lc62NfogZginbK992z2xgBPtr0eER3Jg26-BYHZ0kdEJ-4zcxMjUwVvVuljoJyFZpuvhBufdudfvkfmIv56HWEFnXyE0O4c7hSlLuZygwFG5hJdfH-wX4vSIXI4z2SXhM0n4fEf-bFPy7_wnyM__6R2vuDEb8un3FWtYbzY1Glitct9FStjMaSdm9rZ-xDqHxmiRUJ4No0vd60PUtXZH3UaNvTKl6-UaQs93VU7gcE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102172925054045528511\">Y T</a>"
+        ],
+        "photo_reference": "Aa-ngMbUU9IGazZ83YXJLPoKdt6dnJt9fXX8xk88NnCk93Oy2wek5Qj0PUfsOnWUQXlaCWwMRlVTTBgKlXhec_8KZsytbWQWIwLm3Ja94f2iJE1U9MepBJ1Wy9hePYGQsqqC_mPfU8Q_QL-ABY0B6fHI3ZcYU5QRhgshwX00aYXc83ZeJ8-pCcwC2E2SGOMc1wIM7SwL6ySbnhy4U-RqkOVhvFJuldtqsWtB9ghwrjxyWrFiCs_jH_UkaDQTyLgKMb6L73j9t3bBBpsDvDOjuUmKjy0TCsM24Xb9mWISRH3MUMo37TLU1U2bPJ7hopAIfNpkBQhPyAb-qHZsf0tv7qdjIPEe4Sc0GfF7RvKTx_aPU7IsGvXI5WfVBXRDNgq0Yry96nbs2nJD9aPNWRdYhOF57z7vdbmQgZM",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111020068428124833165\">Garth</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_6C4E4IHxhr9KpMh9EfV74jxX4XIwGN0J_03H3ouJgLDrE6AOYfMv8_J9MOC6B_ustBKn7cstAxPnUtvjjHOaUly2bE5HrfKvyzf_JmI9rv6UdplahFxgvQwiDYu1PHc8QTqBeytj7X9DCJPffgYWfs6oxS5XKWeD1gx5rNymy2YRMzdtSi9T9R68ku5hcqId47gSzbhyQbXuwQxFFY0ZL_VLZQDs4_pOWNFlKEy8Gb3qVs1FPhMxncZ6WE0C--8FJSo9grz8I-Z9oxj7A9WTw3aNh4Z749zRFmO4wu6ZFRYiG_BO8jLboWcOM8JZOfB5adON7ip1tNyE3irr3aRGmQZfYWUmZkHQOlJ7nzKo1NB4maSTyj46N7p3BR1WlBgE0vLKTTJtPGMJMVn9e9KIei7OkjE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104111237688911470915\">Cherie Hibbard</a>"
+        ],
+        "photo_reference": "Aa-ngMays72sv_W9kkr5KmPnb71cQFUhV-8g2AONzEc9N0F-W4wrbkX6KZ-U2bFoqjvYYd2ZjM3SdSanULa99OzOjUS4CkwFH6mJXLWj9CqO-Ay5MlFULxc9KEF2tnTttclRsERbmlKDv2O-9zwVmKJRjSkHM_M6LjgmLMGUi_5Te0-pInZLmw0oqrqGlw2qS0AFASmtydR-kVITXbkeLREcDJ1NDFJENdnTFOKBH-WICy_Ov4Zu8vK1wAPeAmJHhKOzQ8i5x3d9U5bGvxP5XwaiHpcsKWJYDeH9XC_Rj6pHsPtvX527xCPmSJaq41MyKyw7inSWt9kTYJHxYz6ziFiPLohgDafaWJIUdbINpMH5e_wFLIPJ3JXgrFDrnEo3W9UvadIEQzeQGvFFaH__DRHJVVqb5-s",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104137382550489771860\">Tristen Hill</a>"
+        ],
+        "photo_reference": "Aa-ngMZICzMKtKWMxd0EunZP7SNwY0lZUhzxY_59s0oNWHsYizsDtUSDj7L8xBluupToofZnomJGqw54_Ob5FH-FgD6oUu98KHDbSA9DhkIvGuAtQQ_csIB_Z1x_6JYE2ned32sN4moNbGtqrvTr6fMI7UCzGFt87rNUwI7ZyLe8ib1m0yTkZb0w8jcXcLyvLyLW7HOXD-skbl9ZdzJrw5anm6SJIWEtg-cAPBcB4Hobt19ZsAhwgWtp8iNbDpb05FKAJbLEP-G0A6PU1BGFzLapdui96CR-eGFkmOgN_mwBnoPnkihWS1qXBgxfTl8aCBg-SKHmOrdC-oo9L4leUYB1jD9e-yJnHILgwcDf2wgsX8nBljBanp_H3sHHUcFZ_sWf8SD6IkniFQ2ZanxCQ2X56BPI0rw",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105061099394492403376\">Michael Wu PhD</a>"
+        ],
+        "photo_reference": "Aa-ngMaN7Li_Ki6n8eMIgvtfAUrzUQfoMtEzDXaMWIddBslmb0zx86ErOozUGOWa5WJD2duPdLnOGCiUA3Z8iNANBWAi6pNI4CqWr4lo3QzCJlOq2CmE5Bfv4sqPNS9It131t25y6K7au6jBQWW5_V6ODzm7nKsGKRHVXsRYRvH173c47dHHYfcqlOm6FKHwGzjvraApGQUaqYMkdwkvfgAeki75P9JshL-1sGLQ58ENstsI6m7H60nk50o5IAomiR-7olDvmd8ZgySaINwx6xFEbyPpbCpjHb2HH63pXbPd2ETh8036leVdPXaXBV-ADTBfRaY3DISjOb1TtJ9Vq9neAtF1nZ69qpW_vCxzwwN60dYF7B9iGMhkFwldVLioRre7D0cZ28suKoX5qpCrp9a8-Aa4AOk",
+        "width": 1600
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117063527369208563935\">Stags&#39; Leap Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYiydFQYDKBO-nNDMPUehVNAdaGKCI5jRXYjcTveInYTh4KLwYSytxvXit84cYpHiOKth6CNDqLEgm1D5HAklBGlpUIGT2CH69jp76bDyEYupwmHamLy6f7eDIWnw-0OCeF5czDeUtUYYNmYK4FOQu8KF7B0ZQTEK8P9RxbFcalmJ7qjUI_fYZ6R2cClk0mDUlqZ3kksm5BoyD1aox9sn7oKfPj7cTQkPrkFxHZUJ_F6DjYumXCTY96MVf7d6iB3SkExMMd9zbw6jPxLXTa75NJZY3C-A0be76eFkpO0CfrAnNfDRl8EW9fnGOFwV9FNUKU-kRl1sOsRWzDhIaECJrfiRi8hy2ajHLs3hlXIgXRQ-mTsIE-flGGryjOxrqdHmKTwvxDpTs3m5ybuoGOfHOfCg",
+        "width": 2400
+      }
+    ],
+    "place_id": "ChIJU9nqbuf_hIARJ44m6cYyUoU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9606796785031220775",
+    "vicinity": "6150 Silverado Trail, Napa",
+    "website": "https://www.stagsleap.com/"
+  }
+}
