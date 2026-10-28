@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-28T06:46:33Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "McKenzie-Mueller Winery",
+  "place_id": "ChIJNwMukEAIhYARRAM5JvxRAeA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2530",
+        "short_name": "2530",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Las Amigas Road",
+        "short_name": "Las Amigas Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9715",
+        "short_name": "9715",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2530 Las Amigas Rd, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 252-0186",
+    "geometry": {
+      "location": {
+        "lat": 38.2321512,
+        "lng": -122.3318904
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2335331802915,
+          "lng": -122.3305480697085
+        },
+        "southwest": {
+          "lat": 38.2308352197085,
+          "lng": -122.3332460302915
+        }
+      }
+    },
+    "name": "McKenzie-Mueller Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118433708587219344076\">Terry Stratoudakis</a>"
+        ],
+        "photo_reference": "Aa-ngMaom6qDE8u6pCjQZ7Mc7k5ydSrpwPhb9NUk4O5oEePFCo2cep-tj3IYyem2mIYB9t3RFgyRodjxwrf5m2RkIsuj9XQCzVPaiprjxTWHv9hBt6oETNJ4YdJMXD2R9BJNSpqQ8YzLxMpikQ9F0JjELmnE8NlW7GQJcwV3g8q1yOx_0nUpCgdn7-L5LhyXboKPy4sOID0hBGrjGTXzvChHJMXb_RlDMhg339si9Z3IhJztlJnlODg6Uv62UYHxVSeAr-ewi8u8V5Xdv2UZDidEurESwk783gC-kH6kqqiRJSgAPNxQMwCN0Fq-XQVfN0bSW7UtnLMYtLGdtQQ9kytAYqU2AalZ4fUVG3uw2NL-K73XbCjOcpINZRAndkT5YymB8XBMrouksfKvtiMAvMVhNF5r-A",
+        "width": 4048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103216250586812721721\">Rock &#39;n&#39; Roll Wine Tours</a>"
+        ],
+        "photo_reference": "Aa-ngMb022xhdhHePdF0Xuj-Clu56uAJLVyvQhPSwxzUlR0XjBdW5I_dmNIjf_WtdDoE5UoKgzDP2QL7CrfhhQmU1KFULwwAUcN-uZCglouMI7RcU45bTT7U31WhkIWMUe8J9STuPwXwwR_bbcyDmKDinKRR8l_GAPY3vXkpvAnZVjT_ve-2TRnrzPJGrai63seYeXOfoRCpkhY_eKPwRHuyiNoOAKbeP8TgtE5D20HDPcT3G3tMQ3eM5uea9c8zCs4AlnjMqVQ-WfpLVs4ClPkiDfNPZYL4dGyEiI8cZ3xraNrMwg69j7x4aQ4b_zG3MGSHQAQwYBIfCHC6QSiogIjU7EsVBkhKZdaKIHa31aeHWz05BiiFfPbO2nTTpu3Bw2KW7eMKkNZSOZfZ3R_50-IwkzVjPbxd",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107799700672603674716\">Christopher Jacob</a>"
+        ],
+        "photo_reference": "Aa-ngMZti0oB7YIWyYz4WuEBhMp6O9Cci51ImoIU0fsBRbjiETv7DPmRtUX0akkfzoJMVEM8HOflocgotAN-_gaLwCHnKhMkivUbIc4K5CkEX_uAluyVt-h_Tb3sKYTmUJyoyLWq4G5ZUpOOTQ987dX46Dkrzz557uqubSfPtNsCtZM4uGXqC4cjPyFNWOeNI2fJxuCyoi78aKmnnpIgO6Rfjdf_otmioWTiIyRtaRb56BiMbXeWcYv8Srhvdt961pOteoQf4AQw6Q3jAL9guMW3k3N6HcQk5l41L2z_BYFosBfsbqRQLDdCbCRB2zE62bJpQdw5kecHQv4m86ztXc0htn0e3rOYB0wiedNZ-jcqjsyMQjR0uISVSFS2rSwUW1Hhe6BKaUdltduJDGEALeUL3k3XbO-0wus",
+        "width": 3024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107799700672603674716\">Christopher Jacob</a>"
+        ],
+        "photo_reference": "Aa-ngMYyP0EbRw2KyvGqGjRAMJbCtMgX5eHJqISihTWqgal6IpWQ7R8Cp4go9kEpIUUKXehm0UAgkksidGvhROIGYszHGfjwsvcxzdhT559R7wykGmUqRmgy89VydcBimna8suSEEz_cU3c1pm_sJjcixwpIoOeTGMgJNOs4qqTeMS91TKBm-H2rKpZdfeOWWFD0ECP9apFU1CjcKKxkXyebJJ4X8-2tsYoTii7uELEwLWjF0McbpiRllcE3HIPyNv14kXvKqfxN0CycXTJC71qCipgVuwnhNbifGajwbqIdJQNtocjc0g9yJCDLpJvgCMCQxN0kUAqeLMWwETHey5t_J4IY7AKbvUXfavOcRtYe_1Jkhu7oyPD-QA5auPJJhhSKOB6mq47YuLE3HBeU3Gqg_82Zjw",
+        "width": 1200
+      },
+      {
+        "height": 2794,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103216250586812721721\">Rock &#39;n&#39; Roll Wine Tours</a>"
+        ],
+        "photo_reference": "Aa-ngMYEyC4jLKCRdRaXtU8mPt4nkto_29YFeAzoQ0aLNCecaVhfCoMRpyohB8FrFXBpzJ__nl20mHNgy-sjOyHeAcSlrOtJWpZzA06DH_m-7OgtZ8Gy19TDOHALXwdtvPNeZel3hId0nq-8NADx_KpnvdekmbRsuMoweDGLseo4eUlfeXIN3cSxY7WowhAcQg92HG-XvCHxKSR_s85xNTIIAyBqP5_CeSOE04DIAtZbr7OWZo5h5tL5KfhcnmxEb1zQ66AVUtiQBcFZDXrrMbUJnFePdLwt364DIpxN5-qa-xtETPea4fSOxUe1x7MY5fnOpcFb6yvD9Nf5r1-6Rh9ij3n7YzqsOCtoDjoHGawLPJo6OPmZVGpUd7f41vBdRwjaCUugtaukv8DBjxxoqOfYkvlznD8vos8",
+        "width": 3725
+      },
+      {
+        "height": 1869,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104937507137351907454\">John Adams</a>"
+        ],
+        "photo_reference": "Aa-ngMZaxX1Ws73vSYNdFsqANrdRtJkHG7QmTghHeJqbJNhIwQCjhB_loQ9_ZHO5Kt3pdq_o9LQwKwmBd3ybYV1WYtC5bh51Go3rsjrdmodjlME2PkJ8jbLFZtq_MqxpajfqAhS3AuHMx5XX2PxI-hYuyKmkjTyaTqQfehI82lBkSn4XTfx4oJDH3cDDRjzTLl9nRb9GPxB9SyofuEw2qO_mHsGLIt9pqFIMYFnl_RVRonuQUS78SIpr6wOssBcTsoJcQ567slAuHlJGIS-IuQgk0ybtqgUTCsEWqhim3cBGBIaSoDGtQCB33a1texc9UL4c7eaSWnvEixuXngVHlJWclwv8NPVphS1v2X5-jC007_W81Rau-9m3Tf8N8A1I_tTJ2f_r753gDMlPY2kaac9uV9UwolJEOms",
+        "width": 2918
+      },
+      {
+        "height": 1610,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104355471212877684197\">Ellen Warner</a>"
+        ],
+        "photo_reference": "Aa-ngMaYsumEvR_qPASPuCdaJjP3U6ua8B1seD1F8o7131iTJyy7AZTDxJr241PpME8puCWQwQjzyGAZA1OJsIxJEV3KzLrh9EDqV51OqyIoKGPahJ1c5kTUDezf-ACCsQ5dxqU7yVr4mU0rgdY-ENvWhQOEV82BymFN2lLlt_u58HgqMK_i32ZLLTsY3Q4F2LPqkmm936X6vzVZyvakZR3O7o2wjryc331gk4bNTXYkg62W98v4_MXHRLCh6QmEJ0Pm9KnPdS9QF6qL8knqLHTlvG-78pqFnC9I6GbNK0Giim9OJP6lqgApaFWXZP3pq4DgvvluMQpfWnyybPL-Puak75dtJXoneySlV538hp9V6QUi0OhZ3aFApHChN7WqywEeJ5i2zxjhAdVP8_CkAvTcRqjWA8JoYX8",
+        "width": 2048
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103216250586812721721\">Rock &#39;n&#39; Roll Wine Tours</a>"
+        ],
+        "photo_reference": "Aa-ngMYCxV9FjQBfTVZgqF1cFbIaWXfUusD8WxmZEqYgHfRykpJtuzPbYP85fDCyE-MwS2WFhy8GOR_q4XGrn71lt69d1346WBnUqLijjuyLAUxZwqpZqy13CKIyOvvokeyNxJsnyB4yNdms9LMob_G_hpLkQgJ9qmgVt1tEsBs5FdLet78Z71edHk6UolAvIwLaIdoLhTYDGhjkp0_ducLe1a-EJAKCtyWrU_5-ZSeZaEn5WhZwI442Jf-oj_RlDuRCFBlTHKyd2pDLaN8CezUbNBdI02-yr5iLbXu6a0VnKNsPhZfVSs8QgaTGC9pzG5g2xGqauEUGZXx1vVb1DHIBcH9pRhif8M_PcPo8awrMLxFyNg5fiWpcB55cYlWa-T8hZYZFmb2vY_mCzK5GkxDFKI5rvrssBmU",
+        "width": 1080
+      },
+      {
+        "height": 1366,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106483928236575112967\">McKenzie-Mueller Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaOEWxBHJ4AqpTj5aqTQnGbsGMnb09t_4D00es2XTCEl2TA-e-9LO18HkQTRDi32qDg2joz3Mt93Bzn9-Gxv-6WfilOaXZnUAD_Hm8CH8PHRJNp8H7l3sTtbU73gpyipY3b8jHx3G_8KRCNfdjsTOZ2Os94dwh6zrA8WBqYJ6EbuhkZUwhVEoeSM7qTfJpLcxqz4mDZ9BeywizZC3e3YVro63QjR_eXj2qNFs6OgblkDE4KCQaEhPYVRqipkMvkb2lqITw3VGdrj4qLm5H0ILEfkD6iQb8JR0rMfKbZOJBLmMLSniASD3qBszqONAExWFe3DQeE4RGjAYopA7d2cSpQkCUH6MbpE4X318GTcAp-c6RrHbaEZBSAi0tAkZY4VZmOAsz1A-fm_kUwztrAxT4mSo9zFbrbih84K10M2YlTYw",
+        "width": 1025
+      },
+      {
+        "height": 1779,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104355471212877684197\">Ellen Warner</a>"
+        ],
+        "photo_reference": "Aa-ngMYWWzX0kitJBBFdgmd6Kp8Dg1KQl2qD_AT9XV3QXmcrcT3pJzBQpF7Paqv4GTQ3-Hi10_KleqF8o8LiMG2KXwwf_zmyzKgqcPfnQbwXPJgNU45XwjVn0qdFWy_qC4Q9ajZrf0COiTnjTYQK-CfKWDge9BfOxO8WApxzFsHaRiMex3nHsaNF-pFVe6RNf7lcrF57XQbT94_gNnowCVsoiVkwEdrLPf0wC3RNlWwOAVrbv8py9acIlohaA0Nru94EmdGuEftc0B9NoyZPh_0bfz8lmZ1nCBoBLaB_KucDLuKkP_ID7uMThIo63jaI3o1lEZtmDH89r86EMV3ljwzCHq3MoocU7gqXlstCP6hsv-Yo0SKJkU7A8yPwalUrbW_hwRROqsNJLF-Fe-KZ8hzevCK4OTI",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJNwMukEAIhYARRAM5JvxRAeA",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=16141272682887447364",
+    "vicinity": "2530 Las Amigas Rd, Napa",
+    "website": "http://www.mckenziemueller.com/"
+  }
+}
