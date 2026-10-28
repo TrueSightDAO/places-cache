@@ -1,0 +1,275 @@
+{
+  "fetched_at": "2026-10-28T06:48:39Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Jessup Cellars",
+  "place_id": "ChIJdY6bu1pVhIARdre0Pf_V5k0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6740",
+        "short_name": "6740",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street",
+        "short_name": "Washington St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Yountville",
+        "short_name": "Yountville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94599",
+        "short_name": "94599",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6740 Washington St, Yountville, CA 94599, USA",
+    "formatted_phone_number": "(707) 944-5620",
+    "geometry": {
+      "location": {
+        "lat": 38.40596350000001,
+        "lng": -122.366255
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4072934302915,
+          "lng": -122.3650281697085
+        },
+        "southwest": {
+          "lat": 38.4045954697085,
+          "lng": -122.3677261302915
+        }
+      }
+    },
+    "name": "Jessup Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 373,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100820250723456682992\">Jessup Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMY9Fwr2tk2p9XxVs-urWcvIB0JOMNal8G9ZAz7KoFeXJlepsXB9lES52M7K1hS4C8OSICGhgC7G_knqvwpDuCKqxP5unwAMzTAMAHsW2dkNhVYh0Qd1UCOitFFqxVqhd6zN_YqzOxJVMwDRvjrb_56hxhes9L7acWMh5skxQ87b0mMU-uK7prWSH5orUoUABejmHXnc_ztzuSVs7k6Y4SznENAWFtWRm46a99LL1rQsII3N20oviHSlGaHziVSjIcx8rJkFrkhxB0JnrSaqgvZdxRGSwsgX5JDs-rD2HQJkuJI5qxIYkyz_pRtQKd39QwVg4yUbr5mj1VCyDAX5pdRX3POtTg145ucL07FyVA3D43_OWX7e-gOb7RUo2tzpQ6md_0EAdzf3RJxjDDHuhQ",
+        "width": 960
+      },
+      {
+        "height": 2242,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100593171705127621680\">Rimesh Patel</a>"
+        ],
+        "photo_reference": "Aa-ngMaYlmbO3ymBRl_-nXYw8oXyls948IbJtoaXOfbDZYdRDfQgJcQzgJ150qAa6ehdJMJrFoe68JN_eds9tuqVKRsdrukv6GDjlWB3vjBilHmp_AV9cKljdmrUBJaamA5LS94jRy75xQCIQa7DIr5-4xrqeLqroqMaQp47AbNkyTfqKIDaur9yivHOuJuQnJIrOtdAa22NfGg2juROFI-FUo6yTOfstXuTPDDXH9Q34jzhaznriTdV66VzC2Pttpcs9WNRgqw2gniKO7zdTPjyGii52MJrcd5Xl1FgXbZSVNmOoSmPRvTeDTofV3fFtlGn67OWXCxXJ1lI56-ez91yvoCdwpjKX_2eRYT5go9D_Y2n3mxnCl4-za-HHHMLt49kmSRnWsppzuiT5CAtaiMuOC0PNLw",
+        "width": 3364
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110955626298196536672\">Annie Cheung</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3tB0b7eQu8bZBVzFNbGql6v2cYLzGqbzK1nr23oyJVYZ4q5soDciBBY2xupFc1izQBHq4QN5Nb4D8XIaXqvYiux9lA-bU-QELrEBvNorLR97jKCuB0RFX6d2M7CHb0008eaFaYE2gSHiH1I7XrdAfaqveMCmq1rVcwvnQh9xy2-rCnxa6wEVN8-i9uPXLnT0xekk9H88Zs2Ql7isSxtb5ooTTq7CBlsd-e6cvRb7itlBf0zfqbnAUPfS_D84lRdKWEH3bTbMGKfTZ4Eb4E5JDmD73vzqbJsty2RyfgNQjGwQwpp6w8iAW3AuyxFw6OjxPo1ghGqEWJsGl8KU6GaSMLM50ufdN9dJqoCTcu-GmqTw1bFBIvFI4zb0bslpyv5f7i8ztg72QzhmiZ4KKltrQGqo",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110047790736903431135\">Patricia A. Saunders</a>"
+        ],
+        "photo_reference": "Aa-ngMYhX1lSoiUlpljUm_bH0edBBru8PcxhXLZBV7JTJ1bOoHrFiSptA2O7EsWaQGWK_0ZAVVk-oM47Int2lclnTt70EIT9Y7xpPY5kMkY80iaskwD4kNoTp_-h96eCZLWCe2zrk8dppbz5V9p8eKDSTCME_wmVZfpuxaDKeXOVt7TVZ1Dn_NFUHL3lWZmkx0Rpvt6ypJX2D4AsjgETj4M2I-1wYL43Hq0iSOysAJ3WKJhp2nKKXx2xt8-T3UYASPzxzHVTu8-jNUOCywOPTKM3F1McwkwEFMcYFXf3qGjSjsAA7WfSnh--RdudozciADNXXj3vgIw5sOE5dvr3Rq9o9ohvPknjapyGNhVE0s71XG-DdDIkymsJx82EEDVFT2JqWyIVHJP5QB2IdSGqh5dRMi8FuPz7Y5mAHlbwFUxioKdw",
+        "width": 3599
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102316895094383030393\">Nigel Nurse</a>"
+        ],
+        "photo_reference": "Aa-ngMYD89uutCFaLYXgzb8MiErZbUIRkIJu3hsxSDLRL_E46o2pKelbHJNR6ua6WlvY4P3-rC_m_uA33Qxs_hVM7UaMsCPoCyoG4yNLaSwPIy3S0ZYOrW9qGfoE_01CcWfgwRqI3Jze5eH0OOiZ1r5Sx2BZIDm2aHax3kBkEbKU3hSisUdzuKoOeB1RePwQAbGtbpDOpIdu50EKUby9KR76Ip82yPRX7MZo33Xdcu__DoY7GHuIJXlbF4BUsspXuJIObpIn0dQ5vLYU1QNDdVKwMM6Vhs89Mcdaz_Oj9Srh9Oaw534Jlo36APMG0mrcI0G4yUNpqz3zHdYBj-2GeXEvXRDes09IcZR6ycl0FDt8DdDz9geDxkN7bkct2XBtyGH8Cwtf-yCDliHl25oZLWLFN0WvJdvzm0qthWhAPrCOtgC_dw",
+        "width": 4800
+      },
+      {
+        "height": 343,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100820250723456682992\">Jessup Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMa_BP0oEoQOTdbJ14WhChlzYsDIf3x6j1T9Psm-p3EqbjyeeTd0cOtQbPV_5FkUKgMiTo1Si2bY8gLfA_z3L1sh6zPlF5NbP2L3PZmOkAqzlhqglS-57G3Ei26U0VZLCNX_qVEkD8uptbw26iN6rXGVtUyfXNhpoq8xM0F2RPJ9RG67a_aNlnh6hz_Q60UcmciRS8BmiroJI_sTPjMRMakvBvBoWWPnVviL--xcGHPdvwW4xkBhYcmvLV5RTfTjcSLwVUOrb8bFykvvDtqALA-8RiQhlt37UZuDvtoIvinIHzoPy8UFd9bkXjG1mpTF2OyMGqeFDHq-LslEiTfBpw1tJtOzMuw78_kWji--52dkprqmKGtBHBobY8Y_ArFmpFrmXRn_GsEWPGcpzQnfiaBTRLg",
+        "width": 471
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113148267549440363760\">Mo Mousavisani</a>"
+        ],
+        "photo_reference": "Aa-ngMaHzWQZ44t9FvTvzmvaduBxwNMW9fM_LfKmOaHvlpVvT8Ae7lyOmPvJWwndQ8YWp_O7TNMXyiMhA-qyZSq9axkgm4VwIJ3Q_Rzy48Mpz3lwm_R4rDkdN6rvKnpfTK70wy1OiyhUbLVkkZ7dK8J5bSK8Z2LvnzKc_ITPZLoXt2V5rhKqLBbxB25Y0T-Ge37QyFx4-rfxiDeALWDJ1N9X_X7Ug6OVVAX6Km9FO3-VjN4CiUulUhbnIdx0LkVUdGx08SCFcVCESYw3rPvQV5J8OZ4YaXXeYZUA8CuYSeEJCmNqLCTAh07lQN_ZkfLJ-_8uymnX1figkx0kNpD5XJYujf5GbotOCtTx-pYiLxAJ_sT-Er5Swx5PWnB7TgkarNhfM3O7tWJV7m41kHZmf_ih_t5DiPdBzGw",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100820250723456682992\">Jessup Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMbu8PijoNrcgvF7WCluAaYSP43HiqYC3Lm-i21BTCuS6g2RLdPprDeMQb566xh2nhnMLlHmBqg57bHyEhSxfthoEei-rzcva9EoMYaJWdyg_E7F_xUeiBgR5dqI1oM-QyiO2y8XNMKAkkGtLfsDALYQEeCduBuJ2ys8peOYcB0b9V1oGBmhGkisTCsRjAtK415_bA48hb9mMFQZdoZl7E0qzQbWRl9_2oAUl2q9PrNrILtZEcaPItDPqxc7LQIpbuXY9IE__ZODhr5abtNiZTTfQwSAnKq8W8S-QrfZn3EIQXy3CVnxZkdmCCNu91y9tDDyklvSyjgx9y9G1PS7liAYFyj5FtN4MIZyhTBEj-uLcsRIShgkITLxxbKJXn2hJJzaXeatBgk9thDx-UfZpZLmH8s",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMZqgkFXhhH088fIk8WSJyzowlr3BlW7F3obfziMM6FSTfAlcMXX_b8GIQWNR_wLZRy_KtwbJWX_YAbh-TIG9nFD7rLsGAc8ppv7AQ1UQvcQYz1ffu1R4oBEKkq_MAbzUi8ZxtMteTGCBTU5cPTAT54tuFVl5ZVW5jA53LrYpSHJm7AFunitLl9Uk6Cc-UNsAIDzhqlmWXbrzHwB2ldoVMNbGjtRafQRMHSyTPDYiHbY_I3PhIW4uo7Kpma8MalF9S2yjgLKlmvGJjQDVzDWX75LBSx1fynpgkdmV2sa66H-aJdeoBd7WW7Uzw2mzH6vTm2RvxiP-nPTnuv3RnEtqSJq9CI0jK4vqnhCngPnmQ_7Ejrj5QUWEY3A0X_pwnoZOaeWC40uY8sz3lAzzAXAeeGgIlbhmbU",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102201930695866261819\">\uc804\ub3d9\uaddc</a>"
+        ],
+        "photo_reference": "Aa-ngMbvt1RR0uHuNYnjdjEUu4qXX02T7aJfWLjTJg61YY1P_MCjOjeAyYI18lMPWqxUSCbNDzl10W1rPIXUn8KTrOSEG6tm6GaGiubcQgMYp3UkReltPUZMkmC8hSzZRWKEhqMNKBfBKSWc6ZPZBUbwH6si3Q6ky0QocXdxEi7f2V1ZPpA1eCISgkVO6zPZcnHmV-c_cijtgvacUoTTcrrV3YzGB8EAZB-ofUHY6x-_kGi8yWt9dGzmJqzjdh83OEiJRTld4iXEUkgX7O3yEvXGvRgXtC7B9JY5H1t8mjadMuWPv8LFW0TqoWWjydq0x6hTPCWDjWwUy0V0j9EbkPMn62AlGgHLo2vA7jaQfRjJWn3YcL8FvEmKo0w08FyGEHgR4df0H7DTs9_xgwKnYptOJBg0YZ0",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJdY6bu1pVhIARdre0Pf_V5k0",
+    "types": [
+      "art_gallery",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=5613409277792532342",
+    "vicinity": "6740 Washington St, Yountville",
+    "website": "http://jessupcellars.com/"
+  }
+}
