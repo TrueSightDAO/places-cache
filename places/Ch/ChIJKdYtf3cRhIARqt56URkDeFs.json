@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:18Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Medlock Ames Historic Healdsburg Tasting Room",
+  "place_id": "ChIJKdYtf3cRhIARqt56URkDeFs",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3487",
+        "short_name": "3487",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Alexander Valley Road",
+        "short_name": "Alexander Valley Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3487 Alexander Valley Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-8845",
+    "geometry": {
+      "location": {
+        "lat": 38.6664982,
+        "lng": -122.8199852
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.66779613029151,
+          "lng": -122.8185863197085
+        },
+        "southwest": {
+          "lat": 38.66509816970851,
+          "lng": -122.8212842802915
+        }
+      }
+    },
+    "name": "Medlock Ames Historic Healdsburg Tasting Room",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111946396050601832921\">Chuck Dougherty</a>"
+        ],
+        "photo_reference": "Aa-ngMYs_pHh5tdEcaqlBOQhdYltUHSmTDPxSkfo27QEX2UD7mNhZycViKK7hNFKclGBDSjyfhY9qrpXEJnf-wMt3GunsUGHfHKZQfdjbgrPYbyucUy3LiNju25RHuZtx9k9tdw6WCsoJurwlSCWUijgjhp3afZXlVh0rG0cgRq0q4MyPndjTxkq-ZLEjWGdTh2-WE1KsHsStWkaIN8NAEt9McHsp0hYcN-Xozri1HldYiATVlQVcZT8wU_AI3DbF0uifCGO9nCZjw_ax-V0gYOkJCtcOoUZ2ROFdUMSzqT2dePp5QdrTY486fUvurU1Y3_Sblc6mJgdImmhRpGL65bAu7aa03Iy6zCHeGpb8s4jLMkIp6cW0Ev9pLmFmp5JPzrm0RNzvCVGTu4VMmgUmN9q_IqHOrs",
+        "width": 2700
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108676462338970758906\">Brendan Gotch</a>"
+        ],
+        "photo_reference": "Aa-ngMYLZOD2_SvXtYtoUvrm-eq1jkvgLtE_kIAn6PgagtAHtjWWdBoUo-75uc4UFFgbqp3eV1tWi0YZSDeFdrnFonJL9VAUwKjwTnCHr7OY50Ta7-X587fc5ye6r-BXKFSv9tC-HLKHAOKqSd6iZka-TZ3ruWcDRptO4Nlkd9fiR9k_4v9kjnP6i6oBrLiSPd_cZEHfGwX0N2AHkReao9rqRXkzZUDlJUeYod70N1ftnRL37atgv3JZsvJjkIoHLujeFZXHtnpWXdke8ONYQNxGf4LQoqoIYKctQ1dyKavraAW4E0sdPjg_dhCVaHtpKtxA12MMiwtzS1yeL6b94JQrQuNXBXqmnv_XC6BGf3ll0HVZ-IXO3IRnjZK2xuWe_6f3WLHg1m_0KotiODbkMYzyFo85z18",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMZjELJ6zPSrp1uS3zdjaWKychi8QvcuV_HQAswRFf19-D0Ci8N-lHvIbk6NeQ_22sHWtEH8e80Wcb7DpBJVxjaekyC8z5b-fapiITyeHX9LMQ5_FSjknVqbNkno8I2LhGz9TKzb9NPHVYduFRP-D-okynaFAKhyPnsQr5z5KHegVpPeccKrUro97G9WGVop9ezlHRqIKcjcPNqv8aQ1EehjFpd9UuRNuumXK7-hCCORT2TgDqapPvqYSP-zCKk3qVXBvmuoVZPwQwfgdJxn2mnyGA1G74UAPlMm42ZsYxy612uFrWMuX74SYZLS5XU64bJyebAUkTlz6QCGinXwUdQbYsmnJ8W7mNUMAA6pv1X6GA-mqc2MhY7Pom6KXScF0vsdb1VxXeUKmTXd3NcGZzXVJNmQ",
+        "width": 4032
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMapjKRXw9Ggrkwfjm3k_HU0lMuyXtU51PQd0q6cu6YS2zUPxOjhtceApePc1I6Yp5R8t2PU9DKW2FD9JFpg3mPHZG9yKghFQlt6JoJVpUbjLYXDGe0r_7SOaeg4HkCF8Fm9Yn14fDFivbGjZr5tGvBesiW2BQJ0FyM0cnkRVLc8j9OgdYkbEGWJY1ZPBrmqf6cHfrJpLhREraPk459t2oKChw5m3xosFROPgNu6HNthK7k01biaUbb23fTKKoGDWW6EwkUCgLLTeB2NYGHZot1tYJ-RH78L9JECVhAfzho3cTn6hUfFeMajyXPVEIiOdjj-DPWPJoR-FVj2mLlkS5o8LmVwPn-HDGIfjS5f9MIkrA5J5fPIQ8O2LQLmGIXfIF5JL1fjMi7wwgaNrhkejJ_53A",
+        "width": 1080
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100111789071464997164\">Damian De Virgilio</a>"
+        ],
+        "photo_reference": "Aa-ngMYJrAJB8EC8RyDhC1A2s7aetCkX_LQM4oUpFLR65qUvdUqt6ax1l_nK0IGb961lw8ZhLpSLA6FFFtQbUBfCgi2TPYYa1Or9PDgNXP-0LbL8VkKTN9pxm7ke6yzMHj9PwDMMMmDEXQawep3MhTa1NpDrPXZmrm3Na54ObaZUCX3WuQ7CrmBCAx_nSMBV1WaufO_diQ6eQfz86V8YeC2WQxWk-8th5T71LCfdVlXoG1xndmIjT3jkwXiViySziESZVYaNOojjSPUhHHD706sMq-Q4DtEyd4wXUATjAXpW2whMM5ZuQsWOQuo1W95eMRk-IEyqU7oLvJdyAFzJZidsP_eUPoJlKpZOaXxoCfESYuSNb2p0j2a29fJcjbkjqbfoIlpVuy-jgEkmPQvhAEeAckXhbnI8SYo",
+        "width": 4048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113194172467214453918\">John Minervini</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9QwCBhVnQRy64fN6vDOXhTi-V7iKIZLWpX4uftjB-_0Oj-Db3uSQ39X2Ov0WjWHwiE3GuWbWHsUn6Q9-dKeti7MOMTIHK9x_1QHH38PCjHkDhrYiNetQUq6bN0sMGBzu7Q1jWCG1uuwMVHSktALZ-KlDf1lT1-XNgRpUkUv5B8f7XrenJ6GPIcFr3kVrV-AYsXVMTL8EiDLIrAPmrJovISaOHlDSYCv66k6_23EevrqFn476xAvaX1QMXJiW5NlxRhcq1fPif3TdJqTZGU07HQqkYjL6pk811qdGv9imOpnnCP3YlmHS5l-Kr0qPTRJNMLOk0nivmM59FY7mwLenULnVlFWAbntVrEkJ6zNL9uELCzR7mDno34Wan-oEkMYGb5yFl1HxdZxCPinwVlX38OiR5",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117490339995179362577\">Mike Parker</a>"
+        ],
+        "photo_reference": "Aa-ngMan5T6aoUWPcSHgdaPbty19Nv5-1kEcEpgfq7NjKuN70zdlEZgYglqmS4ytg6BymT-W2vVU40jpH0y-KdceL_oWVQbKiFm4fmtM9EIeDOQ78OV2wGEpjF4jJjnkk0AcFxTTlbhFCiVVHReRfubnek9tLMxC-y_WooxrHqfNmVD_9SilL27gvCpaIipk4OgGqFXRFcAR0Eq364AXzSPdcV8EdBBbaPZwwES1Nq-4j1q-1ISFlCOWaQBpdWn8Ix3xIpiqVGRVLKEIOVgkwc4T2E1gKFX-ErmEBXXau5TwZnA4tZjj5jKjZP9bEgBqoASOvgm3r1rNR03bd_2yJS-TeFx2chzFsVyiUmCI-E0X97SRhFBZpx0BJH6mX6d_6xXa_jpjy_IAccXO0hwIIRZmLhLnof4vslo",
+        "width": 4032
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106202457141114518898\">Shannan Muench</a>"
+        ],
+        "photo_reference": "Aa-ngMac142o8uHkzomUrOPRt7TrdwzMAE0HN4mE6Kwpq2QMu98y-w4wWsojNIJR9HCpEhwLFBk7jg74hqafl_teTZKxl8LjhTeKGcRwMnJXoxUjI2qBeNb5k8hDrmSVzpggGNBERScjO-o1SlA2kAEo_rrEV6-vAUXw4UEVwW4lRplCuqwWQY-CwXK2nDY2SC6wzHz9qvayXP8CzlAR-1fSEGDM76G3MW8mISL1HY2SWOmM1-ITzXGRqb11Q5u5wrnuLFpl0KQZkENIZ6YLBqt2_JAEGWrPq2yn865dS0L0TXlmiqDHJNwmdPdxu5UIIa2WrlIIjLBg65WGlPkSmJdqWXvu4GpsrZVT7T5wi2Q7FJCgqRlRnQJd2HyNr-bOLvkUkhJgcwp944Q-UDlasG6M20m1J08",
+        "width": 3264
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100814062614675922445\">Josh</a>"
+        ],
+        "photo_reference": "Aa-ngMZdpSVFlMAXfpMof7GsalTztOnfTxb0hTpaKIcCU6h7fe5nIU1CoUCCosmGm1ndqRiiQmmeKBOhDIwzzqFbwQkisiG9rHHsW4GMui7D-2S7Dg-pWBxThmPqRX4LQ8ISvwJk4ajWyFB8VY679WkPTspBltqFud8ZjxkcVbl_TLaOckrBvOc_qxDKLdQGMsaKfALcC3irSc9Je6iEfJ9G_k5Yv-LWtWA0QGjXtqT7o_Q1D1DzUk8aK0L_1A-qaLKap26kTXoodTqr2p8N9CBjAb8AZLjT7RlHvoW-tYL6BsPMuAPXZfsKNi2jrPHuXofMRydxY_vhPAh-vxcufQycjH3arTuPot7FA3IJQ2F9XnqPtzwrdcFkIJT84Dz9ULd2kbS1zXWRRvg4beTNNtvTr8qtbxQ",
+        "width": 4800
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103240768045444191705\">Andrew Abraham</a>"
+        ],
+        "photo_reference": "Aa-ngMacBI-BtKICou3lIuwwg_mpyAJvISHjVgjGJ_QV8Pp6jnMwnxSA3MrZ8jj5rAX1YEcAgUxnRSZaLGIlKr5ZHBgByJJkK4sV-_xkqrhCN56tsVWsEyFK43BAybKIWsFlraPVMK8pvYLfAjKr7Jr__zhT8RpvBX2iLgI9PKylHwLKPx9zNh2RsoVIdVyunBnBnWw1CMsVzxi79GbPJuY5izldE7VOj0soNPP08rTsVOhO3zfIBH-g7yyZg1E-NUfpBQWmxTgJKTl0e7BUOlOD2iZX9yNNY_MGtI2KrtHcaJRdSei40KsAFNkB87AZTc4R97sVY5_bzlEV0hxEl5h-9nZyZSiGyyJU3mLwayUDqrJpR_t6AZ29819bbrvqv6FZzcAEqIU4ebS35sfvC60ENylUiG0",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJKdYtf3cRhIARqt56URkDeFs",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=6591021461932793514",
+    "vicinity": "3487 Alexander Valley Rd, Healdsburg",
+    "website": "http://www.medlockames.com/"
+  }
+}
