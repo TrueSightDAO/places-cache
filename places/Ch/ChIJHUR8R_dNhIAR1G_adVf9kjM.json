@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:45:51Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Deerfield Ranch Winery",
+  "place_id": "ChIJHUR8R_dNhIAR1G_adVf9kjM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "10200",
+        "short_name": "10200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kenwood",
+        "short_name": "Kenwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95452",
+        "short_name": "95452",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10200 Sonoma Hwy, Kenwood, CA 95452, USA",
+    "formatted_phone_number": "(707) 833-5215",
+    "geometry": {
+      "location": {
+        "lat": 38.4063036,
+        "lng": -122.5419918
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.40772578029149,
+          "lng": -122.5405920197085
+        },
+        "southwest": {
+          "lat": 38.40502781970849,
+          "lng": -122.5432899802915
+        }
+      }
+    },
+    "name": "Deerfield Ranch Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109039247028206383464\">Deerfield Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbisez3rgg3TFJPhIDV4cJOaRCNcEZi-NDyTuYQ1Rm5CnRR01vqvj4x6Stkbw-6LWUNHqiw-JZGbIgDMvMsVWzK1t0XjCCWop22S8t4eRn4z1Kvfk3doTReeUsS3y4iggx3FR8aGTxpunNMjrq8onZ5kyrRUWzvRKMNa1XEFKxqHkxkxjsra9DVG0zkMUBMSm8kow4SVU_ufTIf2glsXIlDr8N7SfPLHZ-VUQLQqK4c4bDEFA88tWohZYMX-oAC21fzDlwGqhLtNIF1AYdF5YNo8s65ANAN504dlmZLfzhFGDic3ywEfw3ADqTIUG74fbDI2zOYH4bm4XFjnV6Kfd9QnITaA0TRXf0mAqreoscoMjkLJqBntxg5q06pPkeNhp-QeX7vTq53-WJFRNftK5F-fQ",
+        "width": 1080
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109039247028206383464\">Deerfield Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaDKmo7bhumP5s0n0tAP_c6cgmnY2_bxmLgmYJ2VmIF2alen6OqWPj9ha14yIdM6eUoAXl5be2N07ZUI1rAtASyXoYQK2y0yJv1YifJThqTbpFng2bUYnUMl7Zzimz8XkIcHDNtDUGiuI59CDKMyQq6rnLpqudiEnibk7_ZfpRS_vw-9hRNDO3_GZse1OCJkINz2AUYj-3MQDRDBuPv7LPTCtyslEl-zC6Do8zihdtXcibew5dwe7wBp4VrVi-ZmguBGqK1m4fg76HB7kCjE-w4FNaTz9BHOcxk05ub4F2QjqcAZuO_Wm_ubFmWnioORVulap0MzPlBXqoLgUk8zy27ESoMx5S-XwKWrcJWl07CASkCuPlx385cYlEhUIeO8AnWI8Lp7ZsvXP7mdTwfQkB-ANI",
+        "width": 1080
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMbetuQqq2XPoBbJDM6ziCtmjxqQ6b4mmoqe5zE-T3UaAdc9QBmEdy1Hbyt0eM12VGArhQRWVUj0uoSXblswkDIGRJr0GeGpS1x5Tp8S9uaUzxoK6aoHfcmcDIxiwlkVGhSqf2QKoZEba-QnO0IlVSr0bdSz7sqgvj9MpGxwaKbkLbgit2sniNrbEKw1y6vZ_iIM02TJdjCvqtzTLPOW3tqpSpxLNl1y-EmrJRUcrxkQgM9THLGQhpVEQvUGhRYMK7Jy2Dd2QU1C08iOnPw0944dDv72NIeHBFuZzEYiOnce4buyR0xWafwQVmsVWI6TBTj5kQFuo8QLlZaqclHpBGNkXQ4FlX7gCeJXoQjmFMZiX6MS_swLGnCoTdkw24T3lAaNt1Fen6J_ZOUpM3lwf1ZCyxI",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114582034286962790497\">Emily Crutchfield</a>"
+        ],
+        "photo_reference": "Aa-ngMY72KqJHpMdmtEYY6JQivVgaje2rb_8zwSDaxgE0PepSOjWVQYfSx4du-dKpv7Y-2k61nzi50nhQ9o9YZ1aHfS6P8frfptMZOBSSWHM-k6tSodV-Usx1673DPyCQuZKeM6ZdF11n8bc5kuIkQkVk-VOnLux8OlpndwVEOvec06RzuqRBU0K972mKXIMatdBfnf1nzJamLWnt5b_sxMh69Iohu0xTl-Bnds3ra5orH7uhiYYUdlM9HngVs9IYHY1Ubqb9gw96pLC4Fje6wCTKRHYeB_pUMdYosLIwoHEcwtkrqWWropu7EM5CxnZ-aYuDa84nJSPSdq7Gr57IS8BLJbq-P37gbASSzpv9UDO8xfYvyovGNivQC6OUtzS3xs3L6kmiIOmA_K9UPn99c1PqojIy78",
+        "width": 4080
+      },
+      {
+        "height": 1951,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbqEAnKnNTybo6XYIeLAi4nKwMswE-yAMnjehotrYEV7_Le_3BbjB5hKugc2ngSsKLZKXcJbFuHj5oHC-0B4u22jRaC2J_dTBgLycw3P5A4_DcfxQR1Syap_bjYZC_fkqd5Q_RVKcIM6pl_Czi6PwqxJGl-6pLtw6mIKjqdnf2pL2Z2FEERVdfismw8BQJsAaL6joNqPbYwSBtiLJgjKQ2ERSNJysR5LSI952DlOGlGV8YeOxaigztNDzKqpNHfPYp1y-fPiTYb8s5Ev_k0xkJQZniewkoTNNR-TFy0xaRenP7o1XmxP1s6MEkOUVPqXXejgqMk5gkJNbzTKJIEckRsx6DdZuOGyLPZgRWuELLPfdlcR_K8JJFQiLg7pNY0ibJROqA8NbxJO0HTbGPYQcaXjaw",
+        "width": 2973
+      },
+      {
+        "height": 717,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109039247028206383464\">Deerfield Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZXZSO2WFC1IAZUsg7IxT2MWBa_auDSG-ovHKsMa7OXrh_UsyF8Fh-P8RaEZekhfYlOfvYJpluZosO4TXgKcREq_LLgn5qYtjBStNm4EAd7rWGrk-nj1PXf1VjKfI5maGD3PIcRhp5YpdgNKwrPPSy5wog9bAtnqoUe7SwYercncAlScxlG0cnTz0nWosWLRh7XJfT435X1MetJA9C3cns3Nuym7SJdJaRHWJFuKMoOGVV4Smi2CszkJHeScZ3g1bng6qi6nL6ciVLrJE97ENRl4l0ZZYPkx2pzEpkBhOkxGh71j0O6dLKK8n7xxkmDNvTKvQZHFqe0EhWFT8zd7TJ79WZSbuOE_4EniAfBmnlKpiUeE_aK2N5JwN2n_aa_7iuPK-xt1WO7pglvEothNsvn_sM",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111516388624685124577\">Kevin Hartman</a>"
+        ],
+        "photo_reference": "Aa-ngMYDVOFSzziMB3Eh4jLF3d9baLBUE-PX--fSagLV1Ukkv06dUILT-iOnEoXNSBGvRaomA04p6sEmaeyhmUjb4N_8XcenZqhLcLXmuW7x_UtFuMIGDDMe5usvh0iRy2y0eksXZbiCPfTVvRSBzXY82LYxrZZ35NbguteMiaVkvr6wHhQcroRW8FyPQ8CDjsg7bD4dm55LukWrzUAvBOylPFIre2UvsvsqGxL5JifGxYlZ0a7xl49QgzEMb5bM5LmHkXw15lSTGL0HSAXOAZMftdL-YA-WzbE6C262BAnTcC2DHSFx8xfvK2yOtM-FolRDjDSRNt8tEzGH_FF4ktnkc9GM0DbVWAm9XkTh4vsUTl4ke2MoqXJwl9KGOo0qCyYJKHzQCbpBD6rJ1Bf0-qnfmJoQ0oAslvM",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104022067388781371083\">Justin \u201cJDubb\u201d Willhite</a>"
+        ],
+        "photo_reference": "Aa-ngMZBe_oow8IMYGsNNLjerepwI-9B6Y1lUQu9KPTIGcYtiGjp_U_dvpbDv-a4AlTsiwyYpWPtXPLRof1iHIMAFMW64dLwGShH1UqZcCSmxPir8kWcCrMvx41l34Ool6ekNvrWispCp38D5yh8VUk6eF6NqxyGStIxcKGnCtlNGKFKZKbaaRly3cswrmzbIIO06WF3TTMfgfq2D1-I_xbrznNOmaHDLcZajRokFQJZu2PQTLCGxt8fqEXRs0ZhH3-NWupPwSrauwypNnQygA_u-uGp2Q72GaOSusHVK0_gDFlF_doKVd5005MpjXitgDq6JFUsw5k_RC-0n6Sl7kEb6lUzo2SojiDYe-Qi0J07QiWNehitzPDzUgYSSYSP4L1nXTk-pcWveHtknTtINodNvHm_JGE",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100853330600465632721\">Angus Richardson</a>"
+        ],
+        "photo_reference": "Aa-ngMaq0P1P_yO5BkMn2LhtlWWm6CmljIxVQo9_dfQ3__1KVspWiyU3CWl4OyVzo-c9GXnet-BxujhbsowDkY6QMHZd7mA04QQXTCDEDsQ-w42EC_mJ07I4SVLvuzD7PLnG-CTI9jQKMpt4ln-rVwM-CF1GNVDQqv_1_kly1XzHG6NBhAcmy_VBlvZ94Ab5JMuPQBTNchAfsIFtPVf_LBTxYfH6hKmJ-eMX7lW-1UBUlzE361Dt0s9zsS7mb6_ZtV-nxW5flBXDEMlfWaYNuQW6KiVOLVi_-Hi2uJODckHqm31rNOT5iyzd3hydkADu1BL_nbmbICykZU3zoBTI45fKCaCkD4sPguPbaB84uuvdVKox1f-084a0svSjjGJn4CEtu66N-xNSpGJHogJnLsbToigQ9FPxjp4",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106078717445646702904\">DJ corliss</a>"
+        ],
+        "photo_reference": "Aa-ngMafJ6kBevgOo1wbkzDDCKWHWW4KZsoywvbq-TNmgvDlJ6Q93P4GQTFtLGvfjfKQhyxqtJ5Qyqy4lNs7uO-5RNOOHqiCEVKUaXKAXlTTfOYw42ZVx7GoKejiONTz9Qy-sbJJwfKSztgBepCLTJlFu03QKofUbR4cb-7vqZh4HN7tc8rxqFKLFBfq10c3uoPe2_bykASCSgOSyjNSmk-GKVP7JOUEXVWJhsefbFGsLsWLhmMFzw4HKv8Cj7XRSKY4GwW9ObM_-U95omQcbcfRmSrM4fS3FOC-FCPsIg7vfH0J4RGofnAKVzPvgvOr3Gd5FIkAaGzjlIqTlG9e5ELQDrWlKE9KC4TFwUT_zdXik_83ptFuArfzrU-rtDiL5EUfcIDCBmcAMS21FNlpcG_7GPoPjNc",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJHUR8R_dNhIAR1G_adVf9kjM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=3716311194615312340",
+    "vicinity": "10200 Sonoma Hwy, Kenwood",
+    "website": "http://www.deerfieldranch.com/"
+  }
+}
