@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:43:58Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Merry Edwards Winery",
+  "place_id": "ChIJ0VX_8gA7hIARqvNRLdHqU5w",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2959",
+        "short_name": "2959",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 116",
+        "short_name": "CA-116",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sebastopol",
+        "short_name": "Sebastopol",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95472",
+        "short_name": "95472",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6401",
+        "short_name": "6401",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2959 CA-116, Sebastopol, CA 95472, USA",
+    "formatted_phone_number": "(888) 388-9050",
+    "geometry": {
+      "location": {
+        "lat": 38.4347304,
+        "lng": -122.8548526
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4360303302915,
+          "lng": -122.8534017197085
+        },
+        "southwest": {
+          "lat": 38.4333323697085,
+          "lng": -122.8560996802915
+        }
+      }
+    },
+    "name": "Merry Edwards Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112697488601209498950\">Merry Edwards Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMazV5v9l87e9BQKqgy8Haay8eh-UelMYQ_E3o7zzmp0Xen063V1ThpP53GD3c6yeVE4A6uM7qJjCPvqzyqw63_Ywlz_AC0OB7l_JuhLpHwtoCJu3nH8OV8jpiGCW3f7CzKrJmybCmbigqPzCkCVR1vGQTMJCgCL6I0XGv9ZAo6zzY2co6hPd8agUuGkKXensMwqzSYwsc671ppxCzMzv2pePqXtYKrhv0-JIpX2lQ_kbvhwo2rnN3W8eU_VBGsFJwqT-Ht4DAQ8VW5bXonkB52OR6N0IUdznEDfT4vXy9zgQnYdDHwxqE3i9JCaSXQWWut6AxUmOS5mZeKwahFyLBvTeQbw_y4PHO1N_vtJyBXZkcmXqtFTriQatXILn56RDtc4VH_6rDVo1PEJYMBCK_yMuCSC1vBewqryvtPZ8c1zqA",
+        "width": 4800
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112697488601209498950\">Merry Edwards Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4K0b5Z1AyH9VL8QlU1pTPsO5k4DvKnIl44WhnF3qOUsJWnER48D_4XyKXlpLw_6HK2XtY9qOmOIioJB5QjHV-FzOtA9BGaXYjaUSJaBC76Rsvbrrpk4Y-7zMp5BN8f_u23G85mOuPxkjQLJZZ3EtwNy0sRaMvHqd01PJNISqmSGjWE8RmUA_tLLjNLYf0oLwOBq-o38ZoVjVe3AMM0mPx9WPIbioIfkitEG34VM-8hD1GcOELS5n64euAFC3oMnSfakTCQWcYoluNXK-UYhWdtG38IHFQiQdVC3KdFQfz-AbVB4hdI7GX5QV5pAQTIdIxiNpyeFaaXWj_zXKFEs_jqDE0PmVQ8dwwM6xM7iT1SruPN9Wr2cz8AbRrcUkkVd5VWelZeqoPzC6cROlbdzlbbEsV_kJprEn9lIa5siSO4w",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118075199031081561609\">Moorissa Tjokro</a>"
+        ],
+        "photo_reference": "Aa-ngMaswa4vFSlHWqq8x9g0JsZeIv24xkSopVhjLBA0NGk7sAl4wNrYSlcJE6LRdFO1fKD0D7_1wocxtnIG3P0lerOetTRX5mQUa1tU9nDmPQik-D-rTVtvFaoYLEkWrQcvOB1MVBHI1RfsTp8aNFObIAezTO-W8yPzh-oqrhyK9dUWkPRvJZBITNNywhmsgnWWFfyQo3vkJ71tDIasrHAHIfQ2rf9wSHe-y5JeieZIDPTt7FipBvJ3c3xDMRAQ4VDFQlBIhjqRHkw545ksZq9UHAoqQXlgy2o9OOiIRsTi6-N4XePQoZJuo6vEVik5QEO-X3x3ORmTuBFsMsfQA1hPBH9SL1n1ml_7dMjEPXVBohsq9EiRWue46ALk3SjCGtmI73MVmuSmYShxE4_duog8hvsjVGysT06aw6PBvynDY3oS",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117377994628732681807\">Elena Browne</a>"
+        ],
+        "photo_reference": "Aa-ngMYmsBIyobC_4RvMrOc87h3lD9K6kjlhXS3BUpVMwWsSybbyPJuXKfapF5-UvLAt-ahyjAu8H-SSMrvbkaXnOOxP1w0IimEN5HKYdqfiF6v9Yi3KJ665pHszAzFp3YNx3wdsX2q_KEzIaCzxcYQYwkgs95EC74e3SMtslAj_EaWYuguYU8tM48P6BxedsRMYq6kcaiTl174nd-EDmn3ao4tSpbeoNK1M9kFD4WeG2xZLR61_xHkFkgKr2M50PRMhpNwmhGpNbtz5SgIs9z1v5_LgSRfBoy7R_OTnlwkE2APMjPvrR6RoQ3qwCpKG7qjIukicFN3NMKcVT8bB0-xbnxi2zSe23VN7l9iKALgBNt817SHXf0BomOuJqlZl71qJEKyOu3zQNbiP05-hCFyPnYzc0FY",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115409066808753138105\">R TS</a>"
+        ],
+        "photo_reference": "Aa-ngMbdn-0BpZS76nQyh22mJdYURX057lmVR4V0CW-LcWC7S7LNXoMafzM1Hzl11l_qfIWmCfiEa4N4jLTLYDOaabV5dfqqSILM3JplxKjHXeDXkPFaQoJemarmAuO6px7LmTal6y46ytp6o17Kx3wjjTzugauyk8YZcDu7RUFzBjLp0OHl7Cdic3u3cwTzMKS6o9SUO4pyEABtsUAbOjTdSGlIPm4yXiw00EXHVO1oV2IM4qK11MZJ9-r5Y0pcBj8In5NXBLDDUQ-wlk_kpIAGAu_VT4uSG5biVTp9-2LFQlEWr6LEIUHhaqSU_CZ-kJW10i0PzArmA6X8jzzHet5RXW-GJYamXZIfjTKhiZzJHpK6pzbu7AliwHcLsEejxFRXUJttpuQil1GwJKmS5RMeQlQhKWI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107975386503664192959\">Mini B</a>"
+        ],
+        "photo_reference": "Aa-ngMYCL430zZRnVji3VpdFx-97Pv1zzu6yYSh7OQ35x9Ce5zmM5Z0FZyJeJnbKBg-5DE7wymfAeUpQYwPHcHL8zpZzelIMniMi6rKwu1drE001H1Hri-pszz5YULAe_eFViGQpZFwu_0Yw9iUkmvxPo7SokKWDbRb8wk5pkzATmLlS5KiPyPQKMvANi9qttKgaU1xLrJc_ZG9BHEUGC5XxHa37a1UP1ANqzvAKdpv62ulS-Av9wWobBmiOd5cVRV6vzWb7QkEDbqlFX4orHslOaL9_vrz7Kyl4aUU8eu--nxLhkpuRhxeIJJi959n3CTPUFvGz_r-blZAaPukPD0WdVJuqY4eeAFkSc-FAsfpfk5eOMkYNNB_RdbE6sojsbAoHtsYkdjoMu9V72MeEbuktiJjT2z4_220",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109205144679654268249\">Amy Higgins</a>"
+        ],
+        "photo_reference": "Aa-ngMY8znVq6EC9zTwelWedrm_RA1nAC8GKtE34i2QjaOB8i2_H-tMnFYyQ-9rcOvd4ssX8jS3UyUnzGJ9gTgQzUp6XcrxR4RuV4YA4iIHjdxNEe4030vInjM0butKZopFkhSuceMMXLWB57-ZpJA91FNlWDHKdAEfOjNcoPawXJtGPKQsrCyXxCwuqzvRbpXOJeiNcIrPcTXfmUW0pmCIZLbefG2mf5BuE08_xRusa_5oL5oY__97iEB02BK_7zbW3T7tLMzV645chZ3KrSaj_YWmLzASdeG_vCaHYpuvEL-OM1sc_nMjCr-5256sLkr7J9M3hON3LH0Dwq1SChs4ud9NzrH1oNBRJXdZGVCDNT97TfY97op0mjVrcOuN4VY4vmnFuboW2VUukRYi511l0vSDh9Pl6D8Y",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107975386503664192959\">Mini B</a>"
+        ],
+        "photo_reference": "Aa-ngMZe9CZctwJy2HjZ0vB9BHSJk7BR6oPapTkd-GTv1taB6gfMXNbAJpTiZnNQCxuGG1p579A8EYml8Nam-rtP6fUiFKC_7yaNmtel6kVpZ6qF2oEIj9f_m6TA0YYIy3WGlBHPiEXnUv3sSSUqN3iC4IdaJQmBL388anVxVo1FZPinZB0ZzI_czd9ak24MPCJxzyZbSJnB-cnfNUk2zFed4xXZTm7EBOAnUt6gU_J2AYjbD8a7yeraoisVFgyhnpM0nA-Te3CD6ufJ8rEsVvY23cncM5XDnkeYpEOUbfQPH7u4DUktWxJczTzfCrtBokS-8D4iwmdTtfNOFgFtQwVeEGIAMbj5zIA-5msGLrKJpbzENwKiuXRLrIeuaSBsZauiCjB5p37B50qITl5lQcfZx3FvfSs",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMZu6ZuQF5_jbOVDzFrFs2aDL9moVAkzZANKXAsWvr-30uIYBBhaJYzvr0E_G71AZfwoaYfovhE7S2zO1XIpKASjrUID-dHgelQAa-Ckqs9X30CqJymwuFuscm41YOMedsQNIwIM_BySCZZv5a33viZOr6mHlKinOuk4uFr364_B8cKb8xcfnNRoYf1n-A1du7qJyzjJuRJR3qNvEt3BiDouRgwD9CkclpnqsceDOPWOMTcu-U2S9wSoWyhg1zT8msg6EXJb6uQyo-7xPwfyZmbmCM5zYZ3vkGJrKLdDkI51paY1ioUlDl9XE8Q_RBxYN8ZiKvlmZMbRhCMKaCy-ByV11uAJeZWk4K9wbuYbD6E9D6h9sxlkbQgQol-pVh7O01A-OJU3RadYfn4ukjBRcyIttWIKy90",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113216191593994231437\">Kelly</a>"
+        ],
+        "photo_reference": "Aa-ngMYJ558E3_AP14ml5ZLgjHh2eU2HmJZUeQeUMmgJJHLxG29_qN7HYk-woyJYlaoEIMnsyvGC8fI6nLph56Sbvib9zu9Etm0kVW10Ry5OHilcMK2Rkc2F5CBXnTMpQuWUTNI9YJrAy8Zn12ugrNMC97DecluzZ8MQZchawlCa5zdtp2LPEMMynoFF2T5ZNzxn-jYXkPdWgUqbP4tpxt2mXNaHeLVbzHIQI_-Z4gDwKGV-rrIjInCV1syiqhWIGE6jkraP9vPEZ8xlWJayskSQ_sHcmU-r_UhvHHdaDB9THSDH42ekj1mNgJHyoVyy_uG3P8hMmmGu9J71SiwOC2RWbnZvGwTwN6EINRmn54ZMkh-Plajoy2pakUVySUaj3UMmeTwu5uqCmcetwCTjwDk7540P9jQ4vHpiTE-vWZ0jBxsm",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJ0VX_8gA7hIARqvNRLdHqU5w",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11264605277113152426",
+    "vicinity": "2959 CA-116, Sebastopol",
+    "website": "http://www.merryedwards.com/"
+  }
+}
