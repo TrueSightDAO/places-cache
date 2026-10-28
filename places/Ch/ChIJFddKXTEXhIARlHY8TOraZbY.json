@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:39Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Chalk Hill Estate Vineyards",
+  "place_id": "ChIJFddKXTEXhIARlHY8TOraZbY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "10300",
+        "short_name": "10300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Chalk Hill Road",
+        "short_name": "Chalk Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10300 Chalk Hill Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 657-1809",
+    "geometry": {
+      "location": {
+        "lat": 38.5682232,
+        "lng": -122.7710048
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5696402302915,
+          "lng": -122.7696214697085
+        },
+        "southwest": {
+          "lat": 38.5669422697085,
+          "lng": -122.7723194302915
+        }
+      }
+    },
+    "name": "Chalk Hill Estate Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560454947177242105\">Andy Marietta</a>"
+        ],
+        "photo_reference": "Aa-ngMbWkfucdKtVitw4n-4R_uScqvXLnbHpQx2a_gGrg_dDfYobo7uaN1zIZ2doZKje6uJpv3GAr4KdO_3ziBl2RMCISnXW-uNo7XtNzc-e-_GsHdtT9rq3yqZ2-uF5ssZL1-rEpamr8iO2lA6mw8aC-lavl-6geY7Y6fNPInleTRvhfnqE_BIgf3HvLLO3wj5hhIU5G0SqTDpJctQMM3C04hDIZy3zMy_chfLj6h8Rcb_7BZivA7XGO21K0DHZqwj7GNIuif0_cdH2GasbD4VVyofwqPorjzMxEgRpadAkecIaFNKjMkaoXAkcl2y__3MCh0YQqXOgs9G9GR2UdHCayf2ZOV6rnXLny-aWA7bKC4PhDjcWyrw0VqBnh2fsD6DTWB5mV4uAqh7Syx0MlCBuBeyKHtLh",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638330191295539810\">Tim Rutherford</a>"
+        ],
+        "photo_reference": "Aa-ngMa8FbJriGI2h3oATTGvFMJymugOF2mUXz8IqWjipNaRzSfNONcnsteT-vprwMylIQiMfY-Na6eN-lkgIKE2PDCc6VwfH607_QMIB95khJI78esBE6wJL6GWWL0o9arf9AsUxGPToRrQM82cSz0IN8Kj4bOONsL6UeciLY3TbfMuqM9Gsoeavu-piIpLSEApnE96uwJvkgPq9ABNlb-AuG6TJ5ar33WbVavvL13Rxtjsi8mQjg4HwfdnbXJcFuI4_O1HNtOlCfD6ZBx9YOgo2hQAMYOSjFfCqjb7A-l_M4pDa_wjhcN7Li5TUcYKWm1-PYll8EpD-M-KBXi0YESm0BzSzSiwaU7ownbr1FYjd0VqIsdxIFK-6pIy6kLch3Ro8ddPQdul-58yQJz6P6sZmeaSVsA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100784205412047964855\">Jeannie Hanes Wright</a>"
+        ],
+        "photo_reference": "Aa-ngMb2Tgu0faCA26n4q2rY-LfvWbLE2SEu0zBWIL4YoyUKvvJb7k6-0-CjzJDCidJEO86FQTNh9bwthsjq-9EcMm1QmlK_cA50dOrMfii6cydKeGym4fE0JAU8ivzwAh9x2elyu8Zs25EP2sipYZmz3GLXWyVQM-2Een4FhodvqK6536m8J_on1aJl3XxA3lvBY5Zue-bm7CGIDXNDHcWvY4moAw6-cvZVcnjXqhitQzUpxtTWpFGO8Xp_0LkpO6TtP7FGaFy-rgDULs3HgmZp3fbw_Zie5zHLmKOMLwYrWhSawZp1lMiUfUBBOuAmX3dHdpA4kOF0vrlLZyn2DDg25bPkLxi1rKduVTdaFVObvyWb-NvbFIxkdNkPqCF1jVh5qrK1F-W1Ul_4HYu9zbUHdwr-ckECKb8",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100784205412047964855\">Jeannie Hanes Wright</a>"
+        ],
+        "photo_reference": "Aa-ngMYhUO8okxHbXRGtDezJF7YrxkBzn7R4eqHGpA7FMs_6qBKdjnXwdQ4x0NU_JXqMmLU70hfV8HTyNZOTdwynFfYCFscX96e6eilnn_3x-5S5qZXVvo4oKJne8AgXqD-ucx0Viv2LggpXsq_IxwTqjLJe_W0TznV2wIamWgzp5M6snbhBnz257tAY3uP7MLiUR3VKuqj7QCQlMCDFY6_9oeUTF3Tnff6jRslxlDdMeG7VJ3V06R_wgjEN2EuCgHRrxKQDmWXMFG7IxGLATfq8_NR3PW9vz1ZsEkhkVSZ9kK6AjTQZk6P3sBtQOTwC8zP_6zOIPX5q418-GbNRVFbOZPPLOAHiFI60-7kPkIWc7oEKzeW0EUiGq6D1PJuwdpcrD1GPrQT2R2XHWPa2JgUzY3zZZ_M",
+        "width": 3024
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102647768470197729275\">Ivor Newman</a>"
+        ],
+        "photo_reference": "Aa-ngMZXtGnYnQUY6fnttSmSIn_Pmk-sSwl_139JdObnKywayqpbo8TOM92D2DqMBAY34PxWEGWihrU8yQuiZitNqFyvaWY6CeO-A6Djb5qkgtddgIJekAo6f3Ay46l2fLhzYsj5wBvtG8tcnO8IZMcu2t5D7vFI58deIzEnrGC_tU0QlBXontrTDYXStfXc4gAexRIJFS4LLMB2cIFh1vFIQAcHPbp-OFa13RVcgODS3E4CDXRRpABvWombG1VN3Ts6MfDkk9c8t8HbXB5TbkQxhKS5Eqrk5sMCDKuZ94mWfVFlRTD9D7LJNrvBl2YuWj6VK4IKJNxdArXvxfktCUJHMM1xk5PwER5pZ3yZaEL0mlqm4-F-NJhwvhU90m0It07K9VkOnrhSoQvlLGmqxnNOt8ZuCvM",
+        "width": 4608
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110414521879450279697\">Douglas Bennett</a>"
+        ],
+        "photo_reference": "Aa-ngMaX4pIb8HYSFCKzyFf7WpyoPB2qGIFQ1clkXqeJ3Yus12Lyzi4jwmTmnXr6SSSaRxnDKrLwvP-lwiOeIW9urC4jCaVsrdsrknEAA7XAqLx1Wsd1H3s3SSNcUxzCIJt4e71snVjCMBRcq4k52qU3-emXfPV7UhWrEaPsNSpUFxb7-tbT9O9aJk8iQ_D8g5gJxkFiXLCI5q841UU4VpWrKT0kEoIeQ3qzLhbbY_4V6Tr9JOXiijEmcwYxLae4RWDddlwXMNre1_GxLm-u0MOmZQMRFra4iGtMRoMVO5CKbp4MK9n6Bmc45i516zHZ81--RuZJ-ClIXnHWLusIFXUeMitCY9N4H3s7EO_iGvXac3iJUBdzR3kThQfuxhherDjxGEEKtuDdDTkYpbpOjVOdQGm51yUL",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMZ12_JJT_BHdc3lMxeqXhpL3O2ERyreR9ktdjR581qDi7XkmLTClx31n3uTizDrIA29rlHkMki1aCKPEFZHjqyVosLXqURLNRjyhaIH4wqIWV3cHoht5nk4PgjGv2kntf95iwQtglH6vv-gDZr5wzMuczQ9Rr2kKkdrizXjHMeH_eTkEoxZxPZZT2wN1XcHrluQ9xq6MsDdZ-jHYtxpXOeil5Yl3immLIGLU8d7uCXQoNsu7x9eakrMeYdeWQ6PFe7fKhaIV3RO1M2CUaIhzN_hPkH8AQVjCJpDmEs5XL415uy-dglTEQI6LSQEOPt4rWfCeGe3gGSyCtHsVcEWRvhFbFieGXG4OKaZEf4U6l6jUGHAytnkF18J6MnCbCCQMLE-lEGjmQ8Edyr_FnizxopzRbk",
+        "width": 3024
+      },
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101189846057409425753\">Jamaar Valentine</a>"
+        ],
+        "photo_reference": "Aa-ngMbaMPv9skrHwaYtrzqsNagRm6IEKJecQucVVSMMqDIYgAuSMk-8Yw0Yq__ixAsbvl_t1iT0lA2nzR4N38hvnaA5Xcsrjshb6oIbb52iA1XaxNga3oWVuqLdnbbTXJkdmyY8ge5oZphAmjsOZ6Rh834fzQvKfuS0ViJYZcE4s8BHEc2ZPHzyXwtGXy7Ujs-E1RR833r7u4WO_ca0vZgzagYkeVeWmt4M_qMBI_kltAIVWuEQzU0MHWYcKQmCZxEgUp-AmiTfMQM4PCzs1RLjgrnRcv1SaVoVD_MNB8hgHFtwZc_7W2-tWlRmCTbNsB-59r6_TXWL-NgNQeebD4-PjDE4L9HWWqDsbuHQtlpKmhd7z-LujDUdBajk0DyjMQlGXmwq0AIkijXdFDuIZb7wZZ_69fc",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560454947177242105\">Andy Marietta</a>"
+        ],
+        "photo_reference": "Aa-ngMa7c6dUb2hoiBE8-2AlIUmUG-ZTBExzXdcbZpTLeCzsGxx0MK8nw-g88cv1yXjKE16ECO6wJbz5ljLcHSCgA5PTEGUCbvof6TElmEHOEbXdZb1yAq6GnEb3J3mSSRbnc1tB4ksKz-59lNiyXVkXdPB3WdaAgyWZT__ZPB5V9hs6U5m7QvEXwGnzZJ5dw6okOgIHVgTweZFsQBQ_l2sVH08uRmVaIFeAWEyV4AUExaTo4qMx_HuP-80TynZ35CZpNHzUDD0LM_qvUV54YyoTkyfhho7Q9tFQ6mQxfqRm7BCtA4Wg0_hULhjnOxlq-3OFrz43CxcZQ1WxyEy3NQgDSXrmGxqnb2BT6G-xV_fjYObOh9I6X9npHOqypuJ9FEq_PCvAQFwwh4dbKolsx3hbfdBGnB-dsPA",
+        "width": 3024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108436129475244899601\">Nancy Hayssen</a>"
+        ],
+        "photo_reference": "Aa-ngMahWlQFzmqondGe0pE4SYIK0astOHa2clvbvc6zRFjAaRdRtU9v6Fte1_w3LdVsvvG6wXLsh6VTLGucQxyg2qJPASBac1hmpq5Mr8COXUNTxeqxBoDlKkr1Z8DasnaQ0Qqwsu_6_WERo3uMpg_R4JCLte_lSnX4ae_T8YGLnkUBE-A5oZiSmScS5unJ_hbzRl7FLP8P6-blhXlhV6sNxPdi1DqLndNIYJi5K2DxfOP84FsK1NRuqVw7_k47pjfFwRzrtE8Z2SeeWPGQIGKhMsKPTaskCABNKYQ6KXtmGV5f-Z0NivAn02kqPgPL2fxSENg65Uk8jXu_URrPQ71nREPNl8Jh5U4d8FYOCbHak94oJ8DPjLZWKS3_UCal-vkpPCqgDiON_Y_ynmXXUe-du9DM5Q",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJFddKXTEXhIARlHY8TOraZbY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13143151787386893972",
+    "vicinity": "10300 Chalk Hill Rd, Healdsburg",
+    "website": "https://www.chalkhill.com/"
+  }
+}
