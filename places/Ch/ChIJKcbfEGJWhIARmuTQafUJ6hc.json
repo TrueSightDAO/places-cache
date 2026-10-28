@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:46:15Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Frog's Leap Winery",
+  "place_id": "ChIJKcbfEGJWhIARmuTQafUJ6hc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8815",
+        "short_name": "8815",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Conn Creek Road",
+        "short_name": "Conn Creek Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rutherford",
+        "short_name": "Rutherford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94573",
+        "short_name": "94573",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "0189",
+        "short_name": "0189",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8815 Conn Creek Rd, Rutherford, CA 94573, USA",
+    "formatted_phone_number": "(707) 963-4704",
+    "geometry": {
+      "location": {
+        "lat": 38.4746169,
+        "lng": -122.4003498
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4759774802915,
+          "lng": -122.3989593697085
+        },
+        "southwest": {
+          "lat": 38.4732795197085,
+          "lng": -122.4016573302915
+        }
+      }
+    },
+    "name": "Frog's Leap Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112904699352702294601\">Frog&#39;s Leap Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2LRAweIuhNSu9O-eyq2bYeOiIejgjCy9_4X_yR-PxUJL18gthYdhv4iaU40Gy-NSmuWEQh0keS8MMW7_K5WtgHNZuWs-VvgZuGxcyQF7Fc4YVt6k8JBR4-lu0waF4EqBYUiRcQSrlhJRSfjkdZzyZvc4Ey0OcV2rEHQ0Mn-FW1SDL3zfBbbX1bS-3SZF-YmjPaWeIC8caIjeruvgpd754HOCpgSwSJYt1cFj2xc1_V5GWeU6SGCpEFBYC09GCYj6Wi-Yc7M6LNfP5S99DY9IxBVtZsZkHT_n23xdHD45859rXTVKNuFtcJzZ3w-ZVxmfg3mRXzgvmCYs3nRFrcOlo_m78hHBr4u-MPv71soQ0guiewiHLGuYmQ62dZQ4RmVcB9rWxCE9EReQZe9k-hf55sDY",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107209499669584476868\">Murat Baspehlivan</a>"
+        ],
+        "photo_reference": "Aa-ngMa1dA8crEu82NFJD8HlcSxgBb9ayDNlfJEtUNZ5FpJxy9nurGmYQpu6zTW7h_SeXhyoW3IMlhKvw-yCc7iCK1Gmw-oJUqLSaeWH_wf2sBhNXgnuNKF38oEVpJrdOwlZVrv1wyeSAKRbA9gV42imFNB6X1wQqZkksxmsCp28RtrgLQ1Uhg-ywGqGdZhWYW2kbAjFVUuURF6w_5W7O1IU_iz2yyja9iP-N6ncZik76xe0ojV_IS9JPWvWs_AQEdV4qTI_ke5QQJMPwNfvzP2tvZ2zNrmvMkVjG20ESCO8xep1NWhGEyYhUm6pSEgMGKF3QVemY79-bIBqbnvDLSVv2pbSNtpryTEVL3ZjtBDVKGFxMriFJPwc8L94hy9sZM4j59LKm7lUrG1tDXuMEHIZpJzlfA",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109124457243032507494\">Ruffin Evans</a>"
+        ],
+        "photo_reference": "Aa-ngMbitFgRqqj5zTzsULPY5xuO1tVk3GtwoSZPp-Wsl-vNfOVkJjsizYSgsIAuz8OiNGE-tgbLZ96JqlBP8pVx9CUqiu66i4ut2IT4hxqfA4MuAE_9U2L-z9FNUvW8Km75-DtmmNhGirDb5-50x5Do0EIe5G2t7vQaLRPBppC47P-I5gR2Mi2alylQ0PyoS5EdHCsWzY3MR3VO-zTNqLGCKCuchYYtd20dtM7AZPEYvXfr_4HCwJWxNEwHoDEl1lnQ3S_weemWIV7pJmbTf_hzAO41JhnnzR7I-6t8VTW_fGCGQs4QQ7WXq5fZXYfP1AHCeaCDnpbMbCxzbASGAhmIVshhndpRAJR7E3jvZ6-oLzw-8rqxiI5HpovMgiRqGenzDj1z31L1sP_EVTbByMEVtvhGzA",
+        "width": 4080
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101677861286804439628\">Ian Witherby</a>"
+        ],
+        "photo_reference": "Aa-ngMYPZ-8BdPS-nK4rXvGvRFEI8jTOICyW_4GXoiCSKjdt_tMYEifgX22A_3KIKRG_UXt8isypmTYohvltd4uPsofadLbFNktOUtR0tnh1_FUZ4Hxa8Y3e8LzmlY_IUmIifWEksn6QSZJdQq6nVn0OWGkePfWFoB_nBuSpQmi7-ltV8YsbXSgToTr6Tg_FDcEZWh2Vh4UfIx0ai5kDYr5lLyvKWW5z3mXFglsaTacmrTsGxfdbfhi4L9E6Gbz-XqWDUIZP7x_ebNefipkSWsCFdXQUIBTXe5IfluH9iA5CZuMQNi9fta5-EP9VKsf3Bauep2owXUc6qE4bCmn0Fcho_ebGXc8R_7_eG7JBxuOwReKST34YzZq38-ZKXU6WzaSpNRj2Q8aHuZOfzYaY_rMgwtiNjCM",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106903298426874354002\">Shelby Thompson</a>"
+        ],
+        "photo_reference": "Aa-ngMYyxBhxrlhj5z1dqFxd9VskA4atQTp_M5t-Fy1WR-UizXFRgZjKaN1MzP66xhfHON87aLZ-c4VZVutAdjraN-d0XIPhQwjH-Vsve0FUtOf5eHRuYRXuil5ib_VlSIEg2Qy9Oh01V3jkQnS2KkzTffjl4aB3vcLNplEQueAQEXL3LlJlCky6uc4yv6zu5Ge3Ee8sBgzqIvo2eUWbuWTbY6ATthJJ222cSlLRSCzubW4R9gbxyyobBepe5Ab6K1f9FBzbB5F9ziC_MFrJJVcQZtzGL5yrw0SlqJ0wEbljbnDzFLvqhdwdm2S5fsUmdH8OtkiJBiqT7o4712-jQYpofWUTl_hJ7h7e1FmBnBayyncT9gjIBRuktFMByAOTBjw93u-25WkCf1vhqhRRzywKkFkgqZ7ViG2UpUzl72vzAD7Imw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108328713105218130477\">Alex Konrad</a>"
+        ],
+        "photo_reference": "Aa-ngMZUL9dZZonm1YkdBx8f5PwC2uH44phVfXB8t62ub3IXz5Eqa3_fCM-mU_q_jjo1JzXiUxVpck1A_B9NKHt2KY4PdVEd7GQjslwFKk1afexdbdZtS7OwEm-pYuObGLIBi835eKhJYZWeke2YE1_2OnFLHycwnE9b9-K5NUrk9g8etRpfo8j2CuZAE6U7BPMCXR9RU9KG_17KTU__7fxipoW-P1Kn3Nfr0O2Skihv4gRynnvdy_FzpFJgOwvbqjerb86xYC6VcT2UvhCEtjj7mvWIv_Xc9CSDwgvx628OMXNnAjozWVsPeszit_CpGkhrnfCVPkLLjByLLQV79x7n-o7hZizcD5k3IL5sI_-VSi7-eRrBUyQV1kl0DdrAHSqQzi6zIqc1J4sx8FTZsZnaW7RlzRYyM-A",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101571177070691386926\">M G (Tiborones)</a>"
+        ],
+        "photo_reference": "Aa-ngMY1wvL0EvoUGmVoCt7HlpYvC7-5_Ab9U1Bbppc0tkYhYU1qth-MJqD4xhQCAs28nC24l011mNt1n08KRYHCNgLxzfFpuPdDse8lNeZ7WuxtbaYHjhHM0piQGmDBz247iLWkmicQ0TxNqEZE3eHSqEaipEq7Dinn7cHruiN1USCRFh_Mxhmn4PBIMVhHiQnt4ehZSyFzTlVlxqdW7dFNlNcHzf311luUwTBpfZ0KE_uoaYLpYj5oioez-iESCDLgWI4fHdD4z9s3O_oEYK2yWAOGxxilqemmkd1lfgITk2Udh008neXZ-UeR1calVxjh3-hlKqDuMvtJE0zeWpYBANYd8f0Zjqte23kgGWGbKa603jJrkCQ_Dn1gOwvZKRT6sbCenMpaNFkMueUGq8zxCqAQeltHDUx757lYV_JoYTaH5w",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105047095206363344408\">Mark DiFelice</a>"
+        ],
+        "photo_reference": "Aa-ngMZnSauHY19-8Y8CGmH4Z-LnI5GROgfXKA7vmEQfenE__UH2GUGkEO1jAFp5PhSuYfDW2Axbu-8Fwf88vYYQkvCazxFE8j03DKmthpIGSw83E9-1bmg7dv3bIRbFQAyQY6HjwGIlvYgMgz1uBTK6oa2oy4i8259snwlfM7_KPYIhy5iSj4bUemB7yjulH2vtj104jFHaTJL7FlOwkrcnNqP6Vjebtqi7jcDGCZnJpvI_EXCqYekpp5F4OA0KEwm1CeJQGKZFVImZbhF6BYvjnCFdFnuk1eifYJfKq5S_1K9NuH5IjMMam_vvvuamhzlqbyTJOX3MilyhYYWzaVZYJbGoi2r_hjh9ygAHAqP3Lc5VsgLMZKtFIIjFwzoLsSbZV7_LkU4HGyETNLTQpSdQ4qwqb9I",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111112771027467743744\">Ivi Toska</a>"
+        ],
+        "photo_reference": "Aa-ngMYmt28fgxMigh_OoziAaSjHdUtcs9YYZFVfGu4bpJwuVvmaTEVAgZ_X0jwdl2LpeMETidvcJHqmQKLTTXn7wbH59oj8zeNXyPPmY5fAFdPdWNBmlQNZUjb8lhcdbUbrcJcrcrMswtftZJ20s3xZtp266wT66QDIw1gvtTX5BLoJhyV3ebYFd19HUq5c9Lg9EQvB8-TnrvpcaayZ_e6in-_Xo5ZCBv8KQwHUC5vHXD5Ie9YxcN8_2rrBUeVEuig9njO9m05FKXcHZX-Sxnhrrgux0jrQNT_otqBA61n1mmVKl57uy_9MDiASkr8A2LVrfLKKEtRzG3GmwRTB5YlPB99236SZCa2xZ4NdJEXzHTCf1nrF4zT5iUccloJi9Qlsbn9AoVW5-Sr388-O4mepJDHGDbGOfUGyiYzDTJk8TnV4",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106277080779435640017\">Jenny Hsieh</a>"
+        ],
+        "photo_reference": "Aa-ngMYjKaWGSyY__LbhUrzszgArqQnsdDpIBoRaH4oZmZWyK7jJSWOZsv7E1V4W0wz2izOW0UZ4_uGwcAw-8O5dqeJEwhbYegCNtoTMyfNeVrmP-orTUY6QPl8lxrhjBE_Zfi8KsFMQ4910_j4MKx0S9AxkonFmgPGCyXGLvrztffsL2z8u1yotDPj67DUVBs4euPGkvwzmYMe3jedRysaM2GCS2ux4eNKYMmsaPOY-wu4d5JMRuud25fJFV5vsRr1TzIOplsSULKWlhYsgb3I2-agLtiipGTwwViCsknvhwcfMmBCavmCHhL3iA_r1e-3DQreZg3i9D3B1ALTLy6czdY5DdoeWV-scontPtwiIPG1j3wtznM1r_Ov1e1o-EAjyxjBtGaESqRcZUmJUkVwZtoLScXrfnZY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJKcbfEGJWhIARmuTQafUJ6hc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1723200757069571226",
+    "vicinity": "8815 Conn Creek Rd, Rutherford",
+    "website": "http://www.frogsleap.com/"
+  }
+}
