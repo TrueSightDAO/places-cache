@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Gundlach Bundschu Winery",
+  "place_id": "ChIJH1iqDT2phYAROLQAfJJ_0J8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2000",
+        "short_name": "2000",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Denmark Street",
+        "short_name": "Denmark St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2000 Denmark St, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 938-5277",
+    "geometry": {
+      "location": {
+        "lat": 38.2807396,
+        "lng": -122.4171519
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2821324302915,
+          "lng": -122.4157115197085
+        },
+        "southwest": {
+          "lat": 38.2794344697085,
+          "lng": -122.4184094802915
+        }
+      }
+    },
+    "name": "Gundlach Bundschu Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112890724758787096044\">Gundlach Bundschu Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbma2p35Q9mlvbsutCvB7akR56EB3HK28F_UzNGTBvhKjqn4Q2L2jnrm_3s-1bYS_nHrP5q5DdM0AG84xZuSdk9ATcSXGE3_830AG3YMpfPgdqmtsqtM4DmbHBB_RzTrGNz8c2naq4__jR86NX527dVKZNuGV7moC4s2nzuMmc4zPepbRsBni4g-Oih-M-PivwWT1eltpsWf0Fm7djCRl5GIeIGx6AT88v2x7gVFz7IvzkpIqzj7k4vJVFN5H187HjE_S0NJbjymTXjblwmlkpKsDkOE4FqVHvzzhGDmOlSy1AKsy1GkrKSeKY3OHAAskMKqAiopaMv9NpnBECRdNf44K0FOFFvF8swtMgLbcTWqzZGjeg-9F8JdEBCyu8rpJS1tyXSJsAkte6PXnh9xcy0U0Y",
+        "width": 1000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103171285009198928626\">Tanner Cude</a>"
+        ],
+        "photo_reference": "Aa-ngMaWByLArk3zX9uZ_jEzif-rSuKiobsQg1L_leTMHuBMusU4FUCyOueQ8X-WQOW6XmGwlrUmQPtZbNkLb6doekyJin1vUZFInr--lhQUpCCehm4S_9_0qgXEr53h1cFmCviK1f3efB-HbdSwlIWt3ykWiX8Cb7NrPCJ7lOvCkrTzX1DjLjQC2l_sw4mRc7bVpkvhms0Ev1WuBv70qB4TGJVxwL7ghQf9qbWoSt8QldyVlZB4bKa8fVM7v6WrJ_vCogbm0NhnfNTS5dPzL0rOHlYYTxUUL2k_gi7FLcMnyO_8oH8YThrPjzyt903a_69YHcKlLJ3nI8RQNChQik-7vxXQkqqJIZru63pNmBTj0kjE7vPwYN5G6JK8tUdZjhjz7aDIRaz-J07_Z6n4cJ2rA5ue1cDs",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101250043801933897308\">Kavya S</a>"
+        ],
+        "photo_reference": "Aa-ngMYYsi0t_D6RtsfqzUrvLWnC2YwNghv5J-AbMI73gUx4P3C_cs9a8PQP_xqQbWWqdzUIuVF3SeHjaeD-Rk8jCIxc3CyAreZs1YLcRcfMSUCYXPQQVhqikLO742kcNiX9iL7COIw0DN4aAD0HSBBd45wPG7AeWVm05VsVa2kb9MRDoOJa0HqfY3y1NMgOm3hIVPG7xMvDsMPD9tMD-i6CIQAu_ZVo1EUHyhpwlaOnuECe58id0CKmR5o9PJyjR6P0ncL-Gct30D94x-ne1j4w8-K1M72yKFb_7AILubw_WdcttuBzz3I_hA2kgv1VUaUN-u1IPNOeUMvSL1_0oOG1huWEfn5zM8umQnEphrCxpLfd0WwNxszoZq7NPosDKn0QKiCver-5_TVbC88Fp0LyEkM5W_g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115266504627985498258\">Akanksha Bhatt (iamfab.us)</a>"
+        ],
+        "photo_reference": "Aa-ngMbsdTiS3wzS-8Y4fV8wtCJSOHV_j4Hr0sOA4qRb4s56Zw3qeTOQl_G6jL3SEVKQ_qciKFWEGQ8maEUsf_4KHayjQ7WjkWKB4-Aa9_I9vb_2eDXVPgR_YrvT0UoPRV6R1N8mXojnsj9cdbc16NjmF0yFKw1LatCkePuGKw0nywSGwadn1I85hJO827lUixt3LliwTDI9X-Mh_uP4AnIatDnL2hObtyRJOKcKwCr6S-nhBdUaV6v8pzdjt837k5Ajf805LTiURxWjoW2naEStYNMp9Fsjzq5goTEt8HDYjBQzwy0Pv67-p6BgT2wiUuov9jrX5v9pcWyieESaiSIAIkjCBWbs2SV1knY8V8zzi223dhWCxemJ0qq3IqUlwXoLZU26vzYyYLZETZGWC8HpCrJ1L8dc_co",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111663540352940425090\">Chris</a>"
+        ],
+        "photo_reference": "Aa-ngMbpPkVTNMNdW4_PNSYjqcAqJ_0C8NCvGIPPPI7ZsqT2Mla2TWsuAXuGNjqRedMXE1ozerveHdhMtZRO-m0_fnhRr0-T6WAaER-ucBF0l4olpfgPXD3M9SPUPb7EUa5gQB0UELZMgKXuwU7Eu5zKrSh0S9R79YbRdshPwnoGpQZZwKS_iQSfXo8lnntlBiVIbltaNXxePKxP8v4QZsuUokoNjZtAXa9Q_6VmjkXFzirrpJn_etT_dC5OPPKCpKTROJoPH4mNc7SJmI9soYYRjm3RAH0nmciFMy1HvrXaD5f_ftkFJtf4TvmlWioTh7qYdRROuUcPCck1EOi1R7X1wK-jgEE68awBwRvLvvAKJUQiWX2PAMrUG6ka2aMCzO4BANzWIiCvgp0tkCIxYEOt_h7PIw0aDOE",
+        "width": 4032
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110070537882082600599\">Rajesh Patel</a>"
+        ],
+        "photo_reference": "Aa-ngMaSBNVbHHEuehFP3FwG6-kak40wRbehiKFK8upBQyjNRHbUCW6zEi10tzHzyThB21J4IeyUtCcf4HSi39mIu4bjkc1RZXPcOOnF7kolM1E2P-KzcffXMrvwzJfnpI5fDHXv-YWzfcxfP9NoKTYt2MwPmFuWUPVcjfwCl7tX9hrzzPX5fiajCbHwKppYd4ociiuSw_Y7ssoOqGVyS7Le1ZPyLJSl8yfiOaNCrTi96DkTSKkh4vHZVFYtQwp1n3q9qLfhrUR-KBqEEjqNzZ6AlQP7DT-HVbS-zJAPUnEwY4xbocZE7B5t5fj03Y2o1txnkg9I-FiKltAVg1IgNG9Q9vJF5gGbMdXK5IIdFfzgXiSoxNRlsrcr5wHRDRtNEJooMA4vfsMcPbmGMgc2D3MTYf3QhD6bbi61WIxX03HeUGSM4Q",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105462468182430583693\">Leroux Yvan</a>"
+        ],
+        "photo_reference": "Aa-ngMad-GKjrYXq_fx8CAM8BKgbfVc2fWbuTqNq2FqPnnBHbL3yDLBTN7gWoa0Jekm9zzA8iM60e4sWDhjeAN0lOt7pxTRGFtgWxPniTKpWIH4LwWtmGszipY2PZdu3_x-ZUdnmU3NaRKSLte12fwgqNpoEXgAX-n3VF_lhCGESIBLa1lZbnFMhYGGJc826jJGlxCDnCVWicV5-hFhUO1vP0wi682Gb8YKD_ctvkN1C5rjrTqhRjChfjBzOSRvzyFhd9l-0zjMeSJbl9lxBtdJDR4h-NNCaqks2Yp4W8e5G4rOmatw8Kf6Qq9Gs3856kuZlu1jfEIr7lYepv4Povwp2uS8d5FyCTewvPf5iGu-QSnpmWYMcHrNrqv5FMa0awA_0E4m1ue8pYloKR4LuFWkOm8SoV4g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109078897780734504889\">Shuichi TAYAMA</a>"
+        ],
+        "photo_reference": "Aa-ngMYqy33AY8XcByA_L5UgeT5esWpTHJNo1jMD8Aw2um1sGCkqNs3yFlX-CxxQyYBQimRg_fy4vayje0uVGDxiJv_2y9qCNboKmI-18htF2Dk8tpWhy8ALDNbVeLJFINdowOQMGp7I9FDf08Gzg1MWT-piFjVIBhetnsXhAt82Nj7p_5ht-SbQYjYNoQBRwC9j2s9TGa7V_iWKZH8IengFZKOfivkQ3uiuPRrmyOr-pX_p67itirJmLe5mUloEkXMUnma3wKqENlSyRHTUMooBy44HYNFeih3uigR1wR3SOurwBYoHSIVleVrktxqAIB_FwhvjQn3uoYMb7P1eFzA1rnPvu1R--5u7m6G6SQg3jIT1Jx7UKTwNjHoMT22_oScNnyRW5y-5lZ4j2PTop9lh9Fa-O304Cn4",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103688512592452127720\">Peter Farejowicz</a>"
+        ],
+        "photo_reference": "Aa-ngMZNOGH_CyfpOV0m97Md7V9lWMY8P_kfmXZkujcDqSvTVCSmU1Qrll6mVxMAJLkvF_QHpwB33jipvvCklyS0c0D1ULKXx6ZpKu_nn494i16HOjNGgz1dK6UMAF7QtON61s8D_vktfLw2i--7EbwDkCZX6QN3IUDxv8I599CJxBLNw9xU8wCiA7zkqdCM8KSQqbls-yGGe7Pmo4z2k0u3knuDy5wJNkBaLwThVMrEJNNINMf-TlEqDaHlW7SP7aTD-t8yaU1r9Ousht2iLdxEfcxOAmKzdSoD0zthoeAlr2BVN6RR5mT77rZmyo_q1dsGT1pviR7H4UFm6zF_O-HYvNHgkIpi3b5gPcsmN5c0WKk5nhl8wlltKTWdqlO-kcztAPTS70TcYDushDQAPsYwlwrGjyckS_NiU4M4ZCPU4WzGNw",
+        "width": 3600
+      },
+      {
+        "height": 2780,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105462468182430583693\">Leroux Yvan</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2-FHzWcdsVMquTseHMXVjyaBxuVcz_kx4zpcdbn4bY0kzm4W5LtNKyRCt8cG7zddy0P3z3A-sRyyo66bQ-Zv0Qeb-vz8eHftg7x_3DNceLxqsShoBDwS-8jzhwTyQ0fp0StQIRvvQDXkjgDzePoZ79ACIkZosQnBmXa26YSRyGuirxaAjOOIjJWf6yF2BCjHNN2wzJfG3WiKGh2FxfjE9miB-hNvaC3tbbZ_95yG-jchU_8nbyfqZUNSoBRRPrcCXz44hg_UEEATyPmL-_Pa_i3uvsCjYVHNRN715TLJifG2Z3-i7Gn0me3mXgb3blj27VpkVL8wtm-9rYnskIaLE8Xg0r3qmjKD_wf2pMfPRCyGmzn5M7vZuTVNtuPRlkf1fw7nT_PB8p17n85173gFoFdo",
+        "width": 3706
+      }
+    ],
+    "place_id": "ChIJH1iqDT2phYAROLQAfJJ_0J8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11515844514308731960",
+    "vicinity": "2000 Denmark St, Sonoma",
+    "website": "http://www.gunbun.com/"
+  }
+}
