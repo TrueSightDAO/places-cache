@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-10-28T06:44:47Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Benevolent Neglect Wines",
+  "place_id": "ChIJ8QnE0Y0GhYAR8h9adZQRqHE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1417",
+        "short_name": "1417",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "2nd Street",
+        "short_name": "2nd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1417 2nd St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 241-3463",
+    "geometry": {
+      "location": {
+        "lat": 38.2965788,
+        "lng": -122.2883716
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29800773029149,
+          "lng": -122.2870725197085
+        },
+        "southwest": {
+          "lat": 38.2953097697085,
+          "lng": -122.2897704802915
+        }
+      }
+    },
+    "name": "Benevolent Neglect Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMa2jmkZ_R4HKuVoSBOL2A8mRHtI4HGsBl_m0325B2GKuPsk9KXteWqg5RiSWzyZ-oqMp92IrtMp4RVDqHyjTn4XyrAI4KIgpWbwai0IP-oUobdG2Jt660tIwZInIxYJlSIE9GYZPlgkb9qXMHb63F835DNUMuSMrzhI-6NGFERDpfHEsRWODCKK8prjlPG8H2Xo7pfgbFMKi8L-OMclZRatwTPVPG1JBBAryDgN46LuCEN27BFM--WKCA06tLgP2ONj269LNe1_YI6xozI6m9n5-WCDkBZDTzIjcxJs0VelZkZASDeRKh5bCGQwnOQSl8XvfItrDvb6-rDHMd-SC4tVl73w5a8apH7EZONDXDcWlgzFu71TgJYg-WvCotgSWyvBkhrwwCmilav2R-KvYnpv9aRoB5s",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100849446597824536196\">Nicole Paul</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2bjBco3lZdnW-AYrIdXElXVvmHrt9qfoGC4dGwro7dSdHJiOejyS73lez6wL2pdhb6-hN2lZOXGirnXfpiTgFlZd0txlDn27VIc_Rl2C9S6IiSKWuA29LZaNvKIUreTFpm3Y1H_8IU20AL8PK_oe3wspqXTAOqX5xF2F-RXbnJ499HkOXVZZK_2gAut1VifZOuamBISlNE_ZcIhyMm2N89Gnf_aqHPSi5L6YINGcRCgOFxF8-9y5rwolAUPO5xJpdIhW6w2v1DPODlHw9XhKVBiuXUZ6rEf5fKBGG6aSXkilbX9BlIoLqYijw-AeNiheaTncMhpSveeuuDae4BAZFv79_9lEn0VxEoxW1Xzbd4KwkUk3hBSN5szHw54pgNAfcJBOl7Jz317ivVB9AkaHDTrkquBA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMbwCt7TqI6Ag5Ya0YulZSDiF470iN_1gj3o2EROj43KuYJy8pDMLhooi0-L9mpJuTWVGTeorSAJxKmEdMEWdY7qt4QJq3BpIynjhaQJ_9unzp4lQ-0dsVdQcyB7QiJoysSuWdXjB1CNhso4kDrZBqpkNerDRMiDHdjj0A9GGQZ22_DM5P0DEifJclXApCmQ3_3AX1OWVlSjzBq8E3OP5Hm0ZHwkMoEHUXoR2dzjCKnr-untSGhVvDwPmyszBNGbUK2ic9c5v-KzhnflNlL3rf5whuESixMlYSASFGjDoVQgwhilOCc8RqbBbfzzWQmx2CsCIiy9dtOsd701h7A5F2PcrTZds7tMBQbFH2VwLoa0JiOEu2v57nm8PY8daCCpEeDUgE116jbP4kjXGrdoXDgjhw",
+        "width": 4032
+      },
+      {
+        "height": 360,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115484073400444065144\">Jonathan G. Nagy</a>"
+        ],
+        "photo_reference": "Aa-ngMYD1nmJ6sTQfvuOD6Bp64uKmeBLL-ip5Q8blF4NPozXDDJb9p6od1C7E4m42-zK_eQLu4TNYHjDWu8jq47xik3WayZK5z5popFmDyvnLrjtYzQVeIXh2ZFfNwhDJYjq54iptnzLgCrnvcHlD0rXR7zIE3kzIAqSTKZ6l_XVt2OfLHXLc7Rc6KiY8A6XLHFNDYEqpMaShPhPgSEbzuZhp1NR9qA2CN_bqcSRwxRF_Oh3S6kf0ChI-Trqsq-RjPaD8spPNOc47pXsvvcymFKHg9ZKQS_TIb3sc0b1tswaURF4Aj3H6ehU53JEQmAPjIktAhaDvqCivOUWK1ufnWFrh_rHIlh_vbpYXsvzMu-hmkX1pvlP9H8RRIyzF6BU1Vfnf-O7hFUVrDR8PI3blpqQvvC6QT4w",
+        "width": 480
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-HjO_dnd0eVb-FWzsyR2hzRTeCS5olwkWNyQkPhX2tFhJfs0lPmviMeXWOTjj9HvVpfEkCpsKBodcWGfKK8TrU2mqz8X2tfjLnoLqmLRWtYWxok2xq4AtpgodTYnVyo0GWTVPID9XiIyMsAN6ytYrN3vYQyGvP6Rs1tIw2EgTNfVAvc-12kzMTFvcmWUfyyO_JKQP8s9kynOwOH2xD1kXp8nwL07rpR9x727W1CNThuaSjC5fn29sp3S5qmj1l9Xy3K8kwpTjf27qIWWdJIqVljXabkG4D2vLqGDO4PurDg-RsRmlF742M7t-Vu7VpohIDoyT5P7jz6G239tbw-pRm8RSKbfV2dHEPtgCWCjD4rRnAMSYjFpj8M_DJ6it4Iyyo1zZz7EKAqtaZR0LAvZ3mKUJj84",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMb1DyyDAf0ydj4hhiijgmyWbyKPyRwPT1fYpifoxzrU5172volk7kxqXHsisc26HfsyoSTw2zrrbtF6O3KJnKZM1Uy8JExBpmRHJ6OWuSnPV_YrX-D3uSXX1OqdevXUAe1hQ71hoOXE7aSjdibWUxFLO45ujPeEEyoLm3DOzmfLamcSpdwYtmp3Fqrz3tYq5UuojOg5UGUXT8nF8I7T9HqtnOcUWVz4jrBKeWxQbVDuwoy9hm3fm9ZLSq-lUEcNOMa51oWCvNc2qcY1ob-lxRX8S1_fxM11fztkJ30QdqlDTU8mLM0JhYB-uaZZc3bEeDleRM76ftC3aniBFIoo5K2mzPvi7_9dus66zYiRHzvBmsvDvsFtrldMt12lfYoUKgkzMrYRofTa_jhw6RsMNr1ttPR2_8M",
+        "width": 4032
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMYse536LDyVXnJnOE110BamUnEjwkbom6AuUQCYkmADf3VLl6m6qv4Cud4YExp1VtKIegnDvfBPXDuvSAKZDo5xzV_3joFtOkLDtLh6jjM0MBI69-xDd79IP_vY_jA9A_-0wCs4BbuF34kd-H9sA0Pc-65VkT-jbtU8WSTCRTP3rJBF-fCHTHgqrC94fpIrnmAHc3vg2Lxhra-EZMlzM6d2OTswz-QOlIZf45r60JYl0VSqiVvbQuYMlNV8p7wQnq_rmwlGCI83Q8L3DVC5G5oWTeG9QQyedosekhDrypo123fQNC7rWOybvxKA5Kz_JbpbGTrksA0HrlNdOK3FKWRjl3LeA0mWKqAbMS-qwGhYxRlIq8kZ3HdDRQszrcMdGLGyBWAHBfV-lQQF0IA-izT9xq5YY0s",
+        "width": 720
+      },
+      {
+        "height": 1085,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMYV4HYwdmtIUNvHEAqVNIpP2j4hnazL3Nw8LUItMUHCtEoXvF42eW_IlOoRAgHPX62OkT4RkE2a44sqQ_xeZP8c-cHf6_abzGnhx121n9wZYN6ptnT3-Nx_W_LV-UBwXfdOPXgNp43_tJCcO9m2b71XtIzEzRrtfgizzt_FjxuvrzjmE0dv7sjbpHxGl6fwQ7os8ASjRKDptcpGLlIHcXRdjIkCHFfKSQA9xebjBBa9rMpntI_KjpEW41vfUi9bQB4jI0UnEGr2oaGlL8tu8sRxTH61wml_R94anUBcekXTd9Uuc2QWCsf0yAuryFBo8cxCb6H7_j1Ro6wBOByS75mwktqNdBQdddj_JkC8HbcZ503NLQEMBg6fhSbnepll8uRdXGr04xsTWnJ_XpPGt2iDUg",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108581584704319010627\">Isabel Greenfield</a>"
+        ],
+        "photo_reference": "Aa-ngMZvn33w-705yqC4takBmj1BiMGmMnPHIcDwQJl7pYm-CP7SFR-6SLPdU9XHMrS9L0FbZ2IENCP9DeDQJUinCRSiXWhY9OO528Mg5zzuX_0uHjQ_DleinDBKrZm1BDGVpVFO1hv8liapCx0eCO2GSbAaOtDlPm8P3HMOLd5ljeobOgAD1URWX7FfH0TwbJOINx8YfHMC6lmEotFFS5kQm_2MOwRiifTUWF24b7Ta8q6VCygSMvDuk1XxibGvUop0UUoAG-huqbSfW8qFdOqPpFFu_OxKAcwOWwGnIdf_V1j4dW3ZXY-vJ_uCZfmkgpPM3LZt61gUE6jEAF46TuuM-Aw-6zm3pXBcbnyNKmkPPcLNF_HwREP-AbwvQdj193NpQTqOWYmtrd6bfEUAkak2H09TGRo",
+        "width": 4032
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100378801034491356686\">ben brenner</a>"
+        ],
+        "photo_reference": "Aa-ngMbwoksQEJ1CL13sYp4K0atnIyBHYFaVbJHAT7EhlOJ7d-R5llVKVP4vFaLPp_5wyyXS40aReXHgsAL7bf2EX_Y_XiqGItjKpEN-QrcZ-ox8VGMKS4_Sx0VI79DNrUcEwydT6Ad-M37qobc5hwjahUaQwuyhq0GIepklQyTc-0GyCNqaGUBwCwVribs5aZ6v5H5M3tPtAILipOdptzCUTAKReBatvAjD6NKmWFTMiXy3pdWdSGV9Q9graCq3xOlAFeWumnacFic1024WYLaUEGlONpf13ZfthDn0SIFuVXdmoCVFd61YjGBHcL4c7ZfaumYZc_Iej0t0B9-3XU5islPbO4EjgdXisS1N_sHNbk1DRiS1fBcEmtZCQ0o8MWdflQnx1aavlGsqK9_4x5i6W6aer04",
+        "width": 1200
+      }
+    ],
+    "place_id": "ChIJ8QnE0Y0GhYAR8h9adZQRqHE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8189815251694919666",
+    "vicinity": "1417 2nd St, Napa",
+    "website": "https://www.bnwines.com/"
+  }
+}
