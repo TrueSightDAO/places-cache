@@ -1,40 +1,261 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:15Z",
+  "fetched_at": "2026-10-28T07:17:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "THE GROVE MERCANTILE",
   "place_id": "ChIJKV0oscHVkIARYBjdETvgsEM",
   "result": {
-    "formatted_address": "18687 Main Street, Groveland, CA",
+    "address_components": [
+      {
+        "long_name": "D2",
+        "short_name": "D2",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "18687",
+        "short_name": "18687",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Groveland",
+        "short_name": "Groveland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tuolumne County",
+        "short_name": "Tuolumne County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95321",
+        "short_name": "95321",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "18687 Main St D2, Groveland, CA 95321, USA",
     "formatted_phone_number": "(209) 309-7858",
     "geometry": {
       "location": {
         "lat": 37.8379452,
         "lng": -120.2310333
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.83937033029149,
+          "lng": -120.2297284697085
+        },
+        "southwest": {
+          "lat": 37.8366723697085,
+          "lng": -120.2324264302915
+        }
       }
     },
     "name": "THE GROVE MERCANTILE",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106930329598508940322\">THE GROVE MERCANTILE</a>"
+        ],
+        "photo_reference": "Aa-ngMaQBiX_zph8hqtgrZ4ELww1gCMhyujjnomizTyVeXD1i1w1PEC9e1BNDkDNjlq7DnGFExU3BDVsRUYMsHEB0jOVYtLC8u1nNocGC9cWSNtEuOhlecTPjeSQVCqkxMA3edY9FdZbC8rWaLeWOtxlWcNOij6T-D_HzOtO8Kcvp_4QtXqN1kWmDS-wd1acfCVblhyQ9qKihi__1rfTCzwwNpwbgxkAEzsrDg_hXCX5_Ted-MdByayCeoUJ1100ncrtOy2hq6ofcvRyNS6Rf7Y9lfHlmqF0AKdJpK1GyAZ8hj-X6ZQfPCqJhUNPGk1Ck7n-dDrWd4pABJJBLV8WwfMBFoq8ikMyddpHalcQVR76zl-yd1gTnH64-9z_IykaXqyWgRPOtA_M-U6W6wOJ1wq_L-__bADqM3g",
+        "width": 3024
+      },
+      {
+        "height": 1255,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106930329598508940322\">THE GROVE MERCANTILE</a>"
+        ],
+        "photo_reference": "Aa-ngMYUb6VXAK7zU2W6pYH0mRzHFSNgG_XGTc-cjr-ZVZ67G9DBYPGj98hMfzucRS4YXsyRyqjXFnZtq0teAIYDh2EDth2DFjTzf-KN7-jXM1rRkDGgwV7gjLSPyJXGUfodMZ1kcz861hxkRSPXWdvrrlb6gcM9Dkjb9eF1nvjRJnf2m7Ax-QRQlcvQDHKrSHMYHg7tMIoqujekI7d7n-Hh3BFoPErXBwtN30RDx3Gihhfe52Kp_PmPBKhEhgvEyMCNoMG2P5nAwsRlO8miE5L4V6HgqdFmn1j3i_ajI0fwAJViW9PLx_tBwMQdtx7fMQt6gfAi0FCYKrL3muiCZWjRZgcuFKlwnMuTBHBQqqP3JqlPYy_OaOjjE1V9TzuUL4qX4mwWBn2GqGPLoDTUBYF2dUWwURPJo8o",
+        "width": 1255
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104886294594033803855\">Haven Hwang</a>"
+        ],
+        "photo_reference": "Aa-ngMaoD7Wgjp77Qm4AwHc8TBEszdrSJa66kE-CBFGoXmOfdHk9oZ12w0h3Yu72t9-iQLBHCVAJDAgM1ufNi-oLX9p6Og0wAueaH_gz6AhRkZpHiGalrg4gj6zKM133vQ0irjSOa6U_v0t_Lvf-kyLkgtcpQd4OOUQP50qFQPBHlzGl4ehi6ibBF6WprvJNdMws5gXSquY3sJgBlMD3ZWdAuoKLUOWR-tAWqwvNpVwhYnwxHY0l6QtFDIqte1280WcoO3yGUG7SK1AGuPXMB2N9UF35RQd8-IGvY7KvQt52uXdWgIjecKKqdrDgjkyY7gwyI4HPGxlIU2TvUhe-r393EK1Izk3yYOBIgt5FBshkGjjmDAFgsQvPNjz3-r88yXH-ecCVvWyOHNpHkHZXFbqiS22vpd_WqDrLRcRw9_-Zfvzg4A",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116247250470909103045\">Brett Austin</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4cGedUkcm0X3-_8eY66_r8msuSeRBARzLcg9XcNWI2Q1N4OeJZTGafO3gcRybVrDsYU5ygTtzwtdfnggAet93K_hAS-hoOd7j6FsiA3MKGqJ1TjGB2ZZeionedE6A2FpEAyUuTXJczM-HsSbKmRj3kUex5tBZPUWUksyY7_u4Pc3o6NNej-F5ZHTCBXs33uwubppuzVlB7M_bMwT7m7lq73piV0SjvYOsOaBrA2RR4Z6Th8SzTYHGebDOn509d8CRgSYhYLd-eLG5z6OvNdxmpDKiTqW3yE6EBDSYqdZcKWCr9qzoRMQ0PatUdf8BTgPJxOthQkn85j3wEBB_MP7g2x8Y3Pp4Y6jkeibAIuuTwLzH2drY_XVqOtjvixntjSq1jzf16tlcRh5v6SPWGgszU9luSf2Ik6IyUsNAheu4dA",
+        "width": 4032
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113834798365945618331\">Bryan Eshagh</a>"
+        ],
+        "photo_reference": "Aa-ngMaBQQ3hlGZqii3BHNnjiPlGZId6pp-7q3VUXPUsScb4oqFxva2b2AqLQzZpSnxRzDaq6invvPRrV__jGaS4gO-nDDojiWRVDc1OiH2jJNm4rxTb8cZpqeK1eaZFfnLiRApL6QrWlaU0jyrkEZD6sAuS4r4zAVGJ5_BANZ9UFlv6uybckOggcK6DpRZUIw3-mxMAc_LylF136tQ9ymE3Mg3YMbo5ALYBrrJw29r-qzE2xqeoDPiK-ZSF0YgaRZTnqQ_wM0zJhzYmXGwlnvXYBfWHBRxPEs78RuXPPbT4FDRTIfCuBvLMIe0XogN7q2imB-29GH4qo0FD9LOVAKiqhF6riI1ZAILLl54Hc1TZtz0VkjElFgCOo6GChu-ig_PpDUnUt9uge31GI9TcqCYbYDyV_sIX1wf4vIH-Sw26ry0K4A",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114201789503842235728\">Alicia DiGiammarino</a>"
+        ],
+        "photo_reference": "Aa-ngMaC6-P7FevaDXEZAAT-sktFdnQ31olreay0bMPa3leovjpWTO6_dgBbi8TgTuDG2kdyROT7407yKptAOtO3kFPRfHSryCPNP2fuvRlskW0gVi72FYacBIAsK-1EYR1eu4FaeGMGd_cx0tlbLiUtys4tu3kWKmGyqrfFR64FKWTBLC31TezrcnVQ_yJFCo1AHmPedq_TOLiUgWm5MdYu-j9cGyABde5cFtKG9lSbtTwOLAjvC4Uqu6ocAdch0tDDSNl0EEeyg9YHy_B0sJ4b0701A7SzeViSgRtNs37JU9m9NVOPd19GSpDe7iXp79s-8tj86X6q7hRDB8W3x3Y5AG8U2qhKkGWLRX-xBJKF_E9w8uEoGK95JRc8tgIcFn6ebdY-99ZlXjCZxw7K8ecbQ79E1OU",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102651011486276285282\">Pam Rasbold</a>"
+        ],
+        "photo_reference": "Aa-ngMblnP1ZD95mLUbi6dnFD7CJWz_ibTBEsLQPdqBAuuFcPJtj7l8cyEliAe7uVlVQzK2PLvR7PCD1tsOv1VpuMCWXdOi3W8o4s-eXvV-TMqpNFDFetBUzcQHO6ASr4QUnAdPcqyPYdIjO8fGWGKFnQC_tJ35J97imMva4QjTfN01C5dHO07QrC2XWYq3ZI_9SZJa1429acfI2bxjPscH1Dd9cjt8dFxfFQjCN2nIDO7UQiVjS6AYy0K_D8fjn17nGIZKLLBntwcjO-LxeoEaTJz7JuuFdbbfCvN1zu82y_O7pjvncS6v9WiIBS615eZxLUWcWycsGGrH1P5ag0KVFHDODc85G0T-KnLTAEh7LKKXtv2-AZAmBWVfxI8H6-ArfIB3q4Mp6EfQgMAXQVqcKgmO6BWE",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114201789503842235728\">Alicia DiGiammarino</a>"
+        ],
+        "photo_reference": "Aa-ngMbnRJqRnHkfPBkcJChtRVEzNgv-mcMGULhwVxYmTdy8MC37Vwio0vrK78JjkkdwMw4OQQJFfm9JK-LtkMsSEde-kxh9_S-fMfHnHk4bqi5TzOHXSyJcc0c2LKaAtYcIV8XNtQbSi0m2DdQfcoQJsE39UC9jH97blXsK8a_ZsJWNiDUmPWFaUQYGelCWlxtXxl_3MgxaiANTTaOnEvln7YJjfRKPDjVtIIp3AlTopu6E0qHi8BGohwb-26Hl9XG4-irZrfn2XNuSkvCFwWkn7iEfEvl6sMMPhGVL7EqXVj-f1Ttx3qaJoo3m1fSqGu6j1KwnnCw-YwEEnwBEvuTRaTfibXuVGXnWRc2jMnY6l0B-41IFWNe8T4tAw1kjwsjAEkE9uI1ZWAi5O8-wNie5ihAWoW0",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104886294594033803855\">Haven Hwang</a>"
+        ],
+        "photo_reference": "Aa-ngMYya0VVYTt6h5BCwvVCXoeZ9R4z2h4WhKRu2WwnnPiym7FHImBGj5pSJGgRcdswRYBq_sB1tgHiz8GlP_JHxfORRR5Evbaul-aMlcqSXfN4sf0gHQrdmBmj_z6jN8RDnBL0yE0OyqTwBf9gQKnY2oUYJOcwi-CFsK4aOijTRz0N5JwG-JBR3D-i8R4CgLl_b6ymBsCjKp3Igww_AORgfwpFmHINEbpr75_9QrCYYiLdNK6nOpIfOv9GIXQRWSS8meEGEiOORbiDhQ_fmQ-oAbXK1tyJ1ACckBDl6aADhlaqCXMUp4fnPdQtF59lObPVfu6HDpamszt7Zz7LWlSsfLpCriLw-sDZ0o3qz_s0ctNBnKezIk622hJFC_DJS0NcC6nF-JBViJQ4KhXxxEKFRjICRxUZgh3GAML7x-G3H5TRKw",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117253501382461709381\">\ubc15\uc9c0\uc194</a>"
+        ],
+        "photo_reference": "Aa-ngMaWUSIoIVuSf4C-3IyXa5niy-9rsl0NTY4lO4YuGA4jktiQwMveEa6gbg3H5QZOYypHEYzVChj22zGsVG65BlMiq-u2UoTfTI5oJMvw1kuaraf0bvsOHmlzDPwb5A4nCSNHQCPYJTXBuDFFWK6VULTNYMNqh8ypeJdEnedp-WYWC0uoVoQXehHtcUk0SAUz6dhoTloXcFsiFhSvwkC2f7UkwHE_HXIOCW1IuOgpZlqJcsUvkvj7Zq8jkyfYz4hfa0HdJPXa8Ojgeb89wXby72idbU-Or3hBhLABcTGtt76orEHJb3ey0haRAKhi_b0wi9fYZvZqiLC3ddAWjvQojkyREQ7fQazmH7oGU94W6y6mf9TzLn9FJGEGO7cmBWDMMVtQQDhHHHl-xo71Jk7oDTC5BFA",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJKV0oscHVkIARYBjdETvgsEM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4877644940749641824",
+    "vicinity": "18687 Main St D2, Groveland",
     "website": "https://thegrovemercantile.com/"
   }
 }
