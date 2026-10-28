@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:58Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Alexander Valley Vineyards",
+  "place_id": "ChIJAbsb9-sThIAR6WL4kqfOO-c",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8644",
+        "short_name": "8644",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8644 CA-128, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-7209 ext. 116",
+    "geometry": {
+      "location": {
+        "lat": 38.65647209999999,
+        "lng": -122.7869114
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6577954802915,
+          "lng": -122.7859750197085
+        },
+        "southwest": {
+          "lat": 38.65509751970851,
+          "lng": -122.7886729802915
+        }
+      }
+    },
+    "name": "Alexander Valley Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2121,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113654858240232324043\">Alexander Valley Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMY2Ub_mM32kygc0JmfWDvtElYZy1gKdbY-HTSrjuVn8ZPc0xFUrlGqoo9wGCSj8krEK7h4Rt1fN6OT1NEzT0sjwFnhklNOGG0IfxPEPUUMhxj3I2RgjidSZTrjMd31WpZ2_vTUO0CIEwAxkSZuByS36Gwsxu-cfK2ab7KNtqDE4e_-iAfd35blXHIs9BxGOVwdZ1LD8kR91qAjdMS9RHdZg0EFx0NHrkyuTm2JRSNU898zvO8Ib9_9sSoCeZgJx5fkfk57Oo0e8VKYFcWVVrH0EN5tqWhLHBlKiMMQp3_N8h4krVXK0MsxrYbNmhYbi6F7Fo36iImu1yG7w2UC2OtTFP13wBAeS6FFFEdNF_NbGT2EHfMIY7RUVaeQhT4JtIcMyLOf33E-27yqYMAsOihJkNpq8wJ9HRGKg2hza7GT9",
+        "width": 3182
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104644983440372166441\">Gabriel Go</a>"
+        ],
+        "photo_reference": "Aa-ngMaKZflE81X-MER9A1WGPwwMWUgTiVccMeo_RVLtBXc1mSwOqGbxLrUXn02_7Mj-LGWzTKIQVhAaxu-eEkT0qMdjn0PlhOa3GxnpgNFU_gauVWd53Gder7DrRIlZL0pPKysDXnR9HVschCB_pNT9hLpPiz_XtbslVRGveWfrE0j2oIGVXimnH7bm4ZSZnxqDkPBjmD69SmHBck7hQXzDIXoDB6vxuRE2oRe-5ljZw7HymaIdVpPmqJbKWGl6D9MDbnM3RgCunRWttGqz6ijpzB2vu9ZbIajXz7vAyEyB0bOrQcmDGHqUZV6iBotn47bDK3Vsd53CtVhhTLfdjfvjA7ycfxFDRJDHoYsQ5QKN7VWG1nt_dijyKRlt_9sqDW6G_2hDwRIq3ccTto0Czeu4GoVBE6Qz2GM",
+        "width": 1536
+      },
+      {
+        "height": 2642,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114622175624423893445\">Joyce Pedrotti</a>"
+        ],
+        "photo_reference": "Aa-ngMZeZkWf_LkAXD64TTOwoPMVHS6JzGOce695rfHWJEM9UUm0GGsi6HZnQrn-YAqvC9-dy3ZUOViUv0gM32aOABZJlGyKIhspdmH7C1zZ8VjSg2b3NMo9MySommbz2ln2qfzVeJRQmWoEu5irlIv1LymOdmqhARbel0oCs6y_dkPqTMYYTOb_eeS9wN9cFnL316ziWmtyDdPO2RhFV2CCGkEEaJ279mRH1z96Exy93gEZPATze6zHjWGzQDcmx3bvSmhW6GJRM6E4j__cqGptzKhV-6OZqVhWpfvfzPvsMjG0wQjEyygyiHNCq_sotKyxijCbIBZQmxnFdRpXte5Kv1wzWKmAgbM93cJGce-ivJw1vUZtpWGTsPAhSXcuV3dkB075aIKIHlQrY5smvfNyCN5I5qo",
+        "width": 1982
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114534746289111305883\">Amy Burlette</a>"
+        ],
+        "photo_reference": "Aa-ngMZFnLe3vnCr7mdrWK2tqsoD6wwDABfvjlPOssDV_ULEkAfRYwtaHpRn66uyJVkUuQ6dEQsPsAgMvVplHIDievoDzYjDpm7zUSFltNxUS3aDbDS_l3ZbSTDVEfKrkpU26z_fFykxPDGavUasc95ZT28zBlP3nLpRnptBUg7l50XFoH0bWK95y_YDVLoPK53G9sQhm0KOPjOGTYLyZWWpmOUpaAc23SIhN8xO8Yi9GyEUgGxWst1-7xbuWxm84ZASLjPLG7Zte-EKDUUBv0CAGF-fNCh3uKKZwgkLxcCayAAZehYuDkNXzBqdOlxyk_VRxY58vb-7dQkCC5q2yweQ3BYplPiLZReaXUxzx86S3lrBf58ojrSxK0XnNTa3ldyccPs0O-vD_4eHLEe_2DMp10JCyto",
+        "width": 4032
+      },
+      {
+        "height": 466,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113654858240232324043\">Alexander Valley Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaZcgBHxEvq-ihSbqss6G9dxv8xZPiRxS7HUWxbUb6ajuOoRgNYPVMSDtm8SHgFkIzH-rEEWbN916v1iOwf3OeVMtC1SanDH_DAGgweqeY-x5dEUcD65PB7oanU4BzAHXfgkisJBOJoMX3edOXPxjVvJ0G2n6_eosGed2i1miFpx9KDDuxiEgfHeiwSNXS8dWTpK4Xf7FtSxXtE5Tb78Tu3LVG-O1s47UCD3COhlQ-XYuR90p5HL6JzibP04WBRWYTgyHEpFIbLy6APx-c0xTkUrj6gZLX5lr4JYCgTAB7HcpWoIEdvcAprtBdT09XFYVMEBpl_lzhb3cOrC0_43QVuEChvfWVLf5GwMTnChYrqFPTXbfqcywrYTuLlY8iChfRC4Ghb7vZK_oTSzkSViFHN3fYmUaQ",
+        "width": 640
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112647922041675533346\">Kristina D</a>"
+        ],
+        "photo_reference": "Aa-ngMa4uMcTzTftO9iRO-cJWzekh5RybRZb9o89LRJCac_7oIo5vexrN-ZjKVK8Z5SRoe_soc8id1pliQIjiX0pXNFs4C717hKVd56FJjOjZlSobALOnb_O5IWWFwoRrHbNd9d6dOhIWc5u9jN0pLdDd38_Oc2kJ2EfeCJsHxc2qvkHPY6sT7hNwbbXWGKtEFqZRoVLAa11Cehp5aVcWZLmTC92azz9yTBVD2XliV-kU-Km55CKYPeArkFlmt13FOTcDJ6izCtSTrDWCvRbDhqRRomDSJ07UXnJbMCo_8bPJMBygjuvvOHlzLPXwf_5L9t9UbQoV5COgSK77RrB_Ax5R9Mkr-aqGjc8fIQI5tQ2STejRy3usJpeHZ_IUtLqbjjjGI8z5MuXUlSzYNKtN2wY-JcbEMA",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103676461339476360823\">George Pape</a>"
+        ],
+        "photo_reference": "Aa-ngMY92CeHHfaftKYXiw4_uqFVlcqUT8dzUhF0b7zGRhl9NDhVZk-pBgUzHgZRCTaYDm0hTPwcu94UreUYk8iyDpT36sGQdMfLNIih9c5ZmfUKvAg7XJuTAbYh940mby7lDP6WYc62AXzCmk4ez1I_itZcsz2F3Kfzpoq8ZkxMMqYfJZoIGiBE7DMb4qrscPCDObY41EasglvEthW6WIuyxEksMuqj-6sKXI9_GJBPMxDhBRDDCvGuk9rvyxCDUEkAKTFkwJF1Cwe2lcHa-IkI3AN5c9IzUwB37fDGZwdPT3buDC9LP4t3sO624OWt3INM5hsnzGXBH8FWQXGcWfCfGXT16c5ayth3fnhJqbla8V1ThKx6-NXu6CKYePf8KmVipPcYd8wgsfGlaI_Jl4WUwk50p3o",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102036334639471329613\">Zeno Cavallari</a>"
+        ],
+        "photo_reference": "Aa-ngMY8ezru7RIthyiZHGc8jLpAl0WdGIez2w607Jl9uaZIA-hC_Snb9Gje1SDMwV3Yq6yGUgd0YUV_82hXi5LKXuWGJ6kZ2QwkaZ6Z5dkuQ14hSHZVjYpcQeNlIL6urRk78kQzd1TGK5UA-qRTVjDbJb-1SFEE1KxGNEGps8NX4VxMLOtL7LEzQIXHz6qYFg6giQUVpv1PxXSsd2lE_62FfEsjAw-TSszVFe4i5GCjhuE14FTmgztCOWnCL3OeAUfR8RgvVLiHZN_KSWAU855g8qh260f4T4pqSTjMQxb1norhnc8ljhHvoqhf36Xtt6UYNA-hB1eyb1_m5DB1Q9Rx0A9ImiX_siHrBFAR5iiqbzWPL2_y6tMtf0wgTNBD2o-1iUGYkAKUWPTfAxf7suMhhW2pqM9y",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105644759975803009477\">Jordan Alves</a>"
+        ],
+        "photo_reference": "Aa-ngMaT8xd5degedapdapLyKEaGoYXpXA6R7Re74kP2JuV4H64nuS0XPPg5uI7Edy-XOE9RV4zfQbh03DmoDpWRbxEaoubVyVVAEmBTdEm51phMZQkj3fuRzkgRgrAZT7HhOO9M687ciVwljtVdWZQ8h-0ssisVIHIgyrhp4no5KEzvHMwIoirQoUwv8PnzUAkj9KRCgvF9JMcaqi6zoQVFrvFO5Dic_3HbrCAPtL8dTekdVBjtBCKtmFA3G1dRC-VV_EfIaP_KDQA4BURbk0igyx322M5ccOAH9s_ngKz0VSK7cI4iownSx7OGLSU-qqzBbkcXr8kf9jjZ2x1rGNxbbHYO26xQcw8y9cMmlgI_WIr8JXo5lsurauDOF4UrGQoW2PrhCedpxbzvigY19q_vuiaUxfktgSQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112647922041675533346\">Kristina D</a>"
+        ],
+        "photo_reference": "Aa-ngMaHcnQSh_aaWOEUhKceiaqFERqNnko643EZOFohx8keJ74yXMBY8GayQtv0Zno1X4VZmKa45COgDQO9hs5ozhgnOKn6Falj-x-DU4tpWhm-5DrkxJwRcSTkI9lEWFcZthw_lsDkYBGQRP_E_15KrianPLyZ1-DEBjzc7d0phLvUnELq5gmUPmq4_xpN2Cw4BWRdRqB8cA6RbB7F8aHoFQFIU7tjY5Q0k0HNpuHs4eiXEvSD_ORa40d05BHeJsQZojD-bA73Ve3l65vBH1A-GRXeXl1Z9lc4CGcaBjWqQTZfuEg8lNu_TxgWGbarC1Ymzsv0W6sZR7e0k7tqQGUM4hBW4dP3nJ_U0IpyOkHaoVkRctRHB_Sgszqk6tfHvD3inacucLMk5yVs7B7m-eVNhtaIBdA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJAbsb9-sThIAR6WL4kqfOO-c",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16662138465507893993",
+    "vicinity": "8644 CA-128, Healdsburg",
+    "website": "https://www.avvwine.com/"
+  }
+}
