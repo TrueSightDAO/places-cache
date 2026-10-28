@@ -1,40 +1,262 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:03Z",
+  "fetched_at": "2026-10-28T07:16:57Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Creative Healing Center & Crystal Boutique and Event Center",
   "place_id": "ChIJ4Wpcp5_nj4ARwYxDotKzrBg",
   "result": {
-    "formatted_address": "1601 Railroad Avenue, Livermore, CA",
+    "address_components": [
+      {
+        "long_name": "Suite F",
+        "short_name": "Ste F",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1601",
+        "short_name": "1601",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Railroad Avenue",
+        "short_name": "Railroad Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Livermore",
+        "short_name": "Livermore",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94550",
+        "short_name": "94550",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1601 Railroad Ave Ste F, Livermore, CA 94550, USA",
     "formatted_phone_number": "(925) 443-4442",
     "geometry": {
       "location": {
         "lat": 37.6810951,
         "lng": -121.7764968
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.68246758029149,
+          "lng": -121.7750554697085
+        },
+        "southwest": {
+          "lat": 37.67976961970849,
+          "lng": -121.7777534302915
+        }
       }
     },
     "name": "Creative Healing Center & Crystal Boutique and Event Center",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875738334389362238\">Creative Healing Center &amp; Crystal Boutique and Event Center</a>"
+        ],
+        "photo_reference": "Aa-ngMZz0pfudM-aDBb1VfoMVU00GlcYUYklcV_ZmZzHEoG5Gqpv6iiTOuyy3g05Mv7bCN-ZhDEpRRP2D88E6oB04rp5U-nZ5Eh_oku99ZhVrIkGL0YpG2yj1sUMNY6LxFp6C2SsPzL_Qx6R9wh9YJaWBgoOTbeBkhvQL8RdLhJ3ip842-5Wwfrj-iEWOIDw2LOsvnTmv0xNdiriccGCWv-5PioxD1KUcPma3Vk5s0lPOWce3zqbNbHtkY3e_R81d_590tZiMzUX8U0_dpDfItroQ63Pyt4rVYxXtqgUIbSwWL7qHPiioCGV4PJJGHHS39dw-FSI6xBzeNoIEGddMCmnzsqsOen6c5Ve6ZJNITQBhO-vs072cFvt_YK4IMrijH0IK4eth_QSIEOO_iIk8DLDC2JvDXpWs75QhnxOck8ZR3MM",
+        "width": 4032
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMasjsz_N3IH912GmjJkl1wkWVV2xf5Rke6Ny-F1fnAZQMI1yd8bq4hwuslcSozHhbZzBJFgIM42uaqGQ-kajovXnD6nQfFUArm1J_ksFqO24CkXlW9pNbCEFYZ9r7Py4q3wk3aMUbSSVPaob7e_VbwDFGi3xmhumIvOyUdMbBT7xBbp_uPNomPvAlM-RrkWYmzWaV-2q3e0gkJ_NhE60TTI3Tc-lU9QH6wHepPD7a5w-IZ7iVE8bGIYSfmMptNX8-6911XAxXdpJKXTIkiNQUmYRS7x7gj0lcl1BFqWDk1J8tEl6g_4E4wJppns09bHHeRaS9sVd-a7AJMhaU1UTHhb1sQS4ydOd5O3Z0gvLcfL2rflaj1lFqeZdLDaMsI_MZohPT7K77Xgg9mc8icUoIR1wd83CIKTTl19MAeb_yk86A",
+        "width": 1280
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMbKGOUMa1X6PHz5-ZKv9utt1E5dr_VVGCm0DiJp-0CysUjuyGBarI5UFEY9uSvbtUX9xhmJTr98hzRzi-bakaIl27kYRITXzYZ9rFBZemVekHFcmCeHdYmrJUuLx9xG8XV8YGoQfqtpM4W9gmVpg8XTtCuZOBYBCt6xe4UZ7aFrQmarkh25WTOBsC9ApT7oa6LJnl5FuRvsSv1tpIjold69zWrLVBwOlj7v_1sZvJourRg-iqMDv0bpzXdK9DiGpd6B_yaxDlhqKvOprBi79ofrxWjvc27ROqzIBIsYj4rKtBnufUTbVedfG8gFwLsQAOhLTB71dT517IHVIBnRqpm-9yD11i1RbzeW44nCm5vzsTEhD5vc67MYYPOucCv8WOlTb4rrLCB6OuQ7av9NQcUsiAOWKKOCtXyF-WEW3HkXOQ",
+        "width": 1280
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMZN3_kDLAO3Mvvfw08UZ_xFrn-u1uBN1M4ZRHp2CgmkXRlo4sfsWQntd9yCDumLPGZFdzo02TIxoIoVKMmNKSU8YMbei2OA6x3ZlBQQexX9AsiFVVzybr60QxG7L2OuFOO54trjpP09Q4-pBt2yBeQdtYWiMaWCrAM1iiogPpfHauiXBCDkTASkeLcgheRJoE3IjxQDwudx7ikTxCR7UQiNI4-IYEx3yyVh8kCDNCCPl9Gfizd_DnS11RSbdiN8h6ho5xN6Ujf_Y_cCqaoIHTLE1biDKUG5RXT5o5pofnC6URz_6LR4hbUoUa6NowKdjng3ty3fsH0a67BX0CMV8uLiUFZkEXXbKoo5uxUQeHN7dMSWB_I7dgEidKgjRIm52pm2Ip0NRhD9A6kbyb_DxDgpK25CUVx3T6F30d94wmUrOA",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875738334389362238\">Creative Healing Center &amp; Crystal Boutique and Event Center</a>"
+        ],
+        "photo_reference": "Aa-ngMbjOKyFOcWzy6mITiRpPDOmwKEB28yOE6o9ulost6ANxsgYiA3YdRXkD2k1WUm2CswFs8jD6_IsMBKKCTFWrHvOWszUG1OsfFSfDBpE22qBvUHfcVMMmljkTffC5GX_WyEphd31mJ4Xj-p0nqkp1UK-bWx7FaxFvYOcnd22krOqVxqgPImb4vCdtYQFnhfqXAW4gQhj25Lp3FGyU4tK4y2j_0sKlcBswTrwj7p637OnXtRxcWdQTYQ6_x-JGo-uzyZTnDC1D1UXMrn_35Wvn8DkeeSe8cI0lGP3niBM9cx6LZPf1eRcqze4zQHcIeKnO-1-kU5ktPKqccBo9PMqSKAdds6-3NJeaZNCs-PpLSyYlhI04qigqdZKpzUywsWlZzt8pBLmHETKsiwXY6_EvnFLJA7L",
+        "width": 4032
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMYN9AEnPQQSwHGlxHtlDDHGjYrfKsmgEh9j-kAiuyqRo5SKfGhUT_CJRVHoWbkZN1XDUBNztwomF8ssoi9yR-1ew5cw5vL0Xy6b3ClrfU1TAUl16svDz0SDKai5tEOAAYy-DZ2vQ2XUBcp-02DDlN9P2KRuVKoK-YJnCJudRBYkFCCf2cNHoBuguMa3XhtY2qirwtNCa-j3UPQCTeOVct3pggHiucxgGFwzghmohozncgNB3Em106TJBiIIPAJIecXna_g5Irozf_UtJktjMJL0Nc-i0ievP6alx-WlBvx5qaiEybrh90ml9cQKy7a3-Odm3YzR7iix_mRrniFVK2N-GqC1rWryeNkl9f8fPlZOhK-QVOAySrWAezMRtFTSMlbDgSuIj-1-EnU25OvP8VUdrzwkFfE5ntIQu_DuWVVJ",
+        "width": 1280
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875738334389362238\">Creative Healing Center &amp; Crystal Boutique and Event Center</a>"
+        ],
+        "photo_reference": "Aa-ngMYEkzNJvALFdapgQXUvJZz3lKUmY5osGBHnzXpznYgcTc1Roz6Ym8QENQUc3vYqdpdcxdf-FSRhKinkmIW6J0c3_zqs8s2U_USplh-XrAgr30DCjt3tWKrVMoSGcyMV-S-X8Xe_CPzAiKCR-hyTNoKGuZhsD4MwvhRdlck2286tfY7MN5G5eIRTAThpadpe4v0dMUkddZcnWk_Mqr_HFW1i88sDIftHrniCQFswUjW2LJqCghIuz0-NhY3mQJFCdMCIQUdS8iZsc4aiJGI2pMkYkE513ldGif4gn65ClcLYJq0lgEJr9QDmTPR8JJRaGxuDMtvit52WOsfZpKrMi88e2Wg4Kq-enwqhXfS-pv8vgY0KckLCELv7oYYL8hO0ogqS9dEctXlFUp-4BLQp6Quepj7Qiso",
+        "width": 3024
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMZ7uw1IND2zDlyV2mfwQaFQSq62kRkJpHdK5l9DbQ4Bvv3uNvQvbg6vrkn3dhREl2vmktYmJIEsSBwKM_YRlEUlVYYhopyOfbW3ydz4GFaiU3Kt4t0LJhTGRbWcEoMrOEUVZ0TxzdnQCTmG1aCg-MTrwTF4OxMyPHxC6J8RymED_9irPA4R6K3CHTvWWVZxd6bth5Pllk_kIYYBZ5lKUxMpPulgHqwZJhgyw1hLRtGK8lFrTda9zS1tRAYcXIo9ZXpErHvhGaFWzibrWj9MBnI9bUbNmhTlDGJV7Q5mv0_CSF_MTj1mV-8Hfn2r5eOBG5pUwcnMP-axkU_B8HZpnmsGKZF2LaG-GjVzIWvL49GXuJfcOj5luClrWRw9lqY1QJSJZU0jVggN8jJJyMc7my4q1ck-Dp4Ctoo9VhFsKpJUkA",
+        "width": 1280
+      },
+      {
+        "height": 942,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMYeaLx1G7GG6V8fjabicCORC7BJI0NfDBz4V2B-nrJxLWiTNa3uYEzKKxbiajbNUI7KKs3OUd90PMX5lWw2jK9-t-w-TR1qeU98ZthS_UCJLzSqDyakJp3JFIrWxGIVAuhhebwJZWD-ubDD46HIJr_vFwOW-iiIwcrqMYw7MtUQRAB85vLJGkj9iPl2U5WR0BkM2331cP5KcO7Oz7GRcidxo8zCycF7l6vAPQQb0-bzyFKciHLJaKR3tEE5Bh49ZjGL2730DUxFwQsl99TQKXyxFG0XQjsNzyiIuBb5dchyRX2_97J1PYgj7BlKN6ELNJtweF3MgSC2OB1tcTxktFWKWRlqdr8tllKoANfahTn1pRsqkn5oICvmqKjavP7mgLy59UNl2jzFkBBl9mjUaWb1s5eKqe0SsN3Lz-T-uWna",
+        "width": 1280
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875738334389362238\">Creative Healing Center &amp; Crystal Boutique and Event Center</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9JxI4gu3CNPmus2tg2A4GbYRgGV9pEYIi8vO6gh-sRDUFjcqhhPRZGXekeysQR8xH4jMpH7ufcTppW8qzMdbgAPsoS0hh3vNj9v3Fvq5K-yyb-1KPo_yX1ewzIWA02F9iV7Ol9AtBT0H3gihmH8NEhedt96YkoMSBQvpWXXFqgy6uCPtLlPUKAcSESSSYbq1UsiKLSQH4v32scTbf-zqW86sylh3Tq_bPFT27tZBhGFjybheajQl_OwOqHC3eswiEnmUbigZnl42LkzRrqofY9OU9VBfXtXNg5OCs0p0veWUo8eOy2zal8zst44BrJoIdsxFvOLkL480z8nHITlKaq43eCpoKguocSA3buFsu4JKuEl-prCptVHULxl-orXXfm43zBvLAXEdFKxT_U0VVjK3hD6I",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ4Wpcp5_nj4ARwYxDotKzrBg",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1777993670151343297",
+    "vicinity": "1601 Railroad Ave Ste F, Livermore",
     "website": "http://www.creativehealingcenter.guru/"
   }
 }
