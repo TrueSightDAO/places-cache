@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:42Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Chappellet Winery",
+  "place_id": "ChIJFw-qEKj4hIARnwFeG7sQxGg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1581",
+        "short_name": "1581",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sage Canyon Road",
+        "short_name": "Sage Canyon Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1581 Sage Canyon Rd, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 286-4219",
+    "geometry": {
+      "location": {
+        "lat": 38.48198989999999,
+        "lng": -122.3354352
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4834178802915,
+          "lng": -122.3340733197085
+        },
+        "southwest": {
+          "lat": 38.4807199197085,
+          "lng": -122.3367712802915
+        }
+      }
+    },
+    "name": "Chappellet Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1335,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108272679350845274709\">Chappellet Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMatLp8mXLfbbhZ6XFVg47qnkHPCbgHMlmyTENX3ab9wYOFR_Z6MGzZiiYfAvpO6weey7pecmz9-Wmn81zOJ67snA9Dmu6_t3jMB2cxI2a7JRiMD6LQN1wPTN0h1Y8mp_E9P30ScWPEw_dmixFPZoEdGGNoBM4bZ4amyQg-aXsfrXsL1AS1BWhphx3TMmUwwNkE9c-UJ0hS3TzRK6SbGHHAT31hfBgNLmzcwLFjPj1fiFrzZNjPd0fbFFH7H1F6I3q-VgSFStye3vGp0Jk7sweJxnsjnmtFKsdZpKdQehpJvvCq7SHP6QZGi9xbdMlJZX7zwIdjZBOuoVD4Ckmz0McI3P7FOOnCTqX5AJtjQyyV2Stp8Ia8nE5OxXHQW7IzSeKDE7kyn7Nf99bJeUNToH41xG5Y",
+        "width": 2000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108272679350845274709\">Chappellet Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbUvu-efiDRQDFjwx0hDOFcTkOsml75PRQaqZ47FQkiCzO_iBmSyDT4tIBxrPMi-5EUq_pDjfYT4xpQECtwSdHv7s_VC2dqHyWIp07g0b02grKKypPyIKiAjO4sZhTy4VNJourzKxv0DzCeTo5vMzdXpSh4SRQCQqibCsg5wBDATlJIykVrawAufW1rlZvIWW9aIvd4u5hn7P3sGj1gueuW3Ur-3rAPriSX41ARSsgdtOrmnXyn-SyIKr2mUY5vmfqwbA8cG85Q1jrVbHYBVIIb9Oy0iL8ebwXaUt2tsZRrbJIYZus015lQi0PLUMlCN6xEmosEM3ancRaa_vie6V30u5ci6YRxNS3I6ZMjQSmPxtxU7zvcbNlqs3ggXvjj02ddbvfh_iCkpsCNPDECrFi9ItyG",
+        "width": 4800
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108272679350845274709\">Chappellet Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbzCGtVrXVm9CutSlBATYT-cZ0Xm9OLIC2hjOM3nTIrgEPv9bBnkVglJ_f8pjkjvv6OCNDCwd4IuLo4Fqi2oXfpaed7nRlGdRHCLcwnfsbq5b8b73kWR29gDvPFwpXDlTjbqG_mG2txloEO224rj9ON1sS0PBp_uLKdTBJCdDU5mPohjTTgnkW39BNJKLNJHf11WQFN8T7JH8GPwki_fQNPNu-pOzYzlWCHqqUGqbD554SxoTCI-mfL5WQi901bBuLo3KOeiLRtZzw4s8HC28LhkoIKzh4JmZ9EPDUtl5GEnZ4n4lO1-P0dtSjyzYm0-AWLaq6ackb_q9vrWgBhh1pBQ6XdmwOvITy1rmqbqOlAGAeJD_MR83ELtGH4OWuy0F3tKbETe5vgOeX6ThaSFOkJGxI",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114039032646466151880\">Laura Holubec</a>"
+        ],
+        "photo_reference": "Aa-ngMZPqTmSCcnzF1qFLVbitB5kEzZrZnMQQw7O82tmDnch_MROURKHL_6JKlN7NCWa6OkWxFrSSx_KTuxTkiMgd_Nor0NktzFufi0GsuzIMLMh_J26R_woiwjF_fXq2_3HGl2gvfJZ-2LkrkU3-1enR0abloyPaDqOJ8lWzruXpY_AgpqPVfED8n2JeG7WZsmwFdBFDhCF95aIM0N8cynej4ohCdMn2YdT0gs4hmZGY0IqQTQlKBZ2SNjo2SZ-YejeyYPT_YGMM9wc-whfysnL9UDHCFOBqESiREaJjszCCxVDJsTFCf5VicF2zVO0cJTLd-giF8X1doDP3iN_K0iW5unqbN3c4Wd6VY95DjhGD8x_ILzkiJJJ0T7uqyEgfjajfRc2rDpCH7xxwqon-HnX-7NHSPkiWmTe7bMBMUQK6Xusxg",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117003153331624824589\">Raelle C</a>"
+        ],
+        "photo_reference": "Aa-ngMZqwcBNJecDypBU-I03_WVgZjz5kTz4bj4gr6vS6EzSKMLzXc0rtBf4Gr201B2UV9nu664Wu7hQP_7gPDEMXFdnap5-OO7KgeciHf3jHdTQx1XSH0bX2bgGIzBQ8bZ5skGeVcwBdMPWJ3n1fI13J1ddGqxYF6X9xYmGBKYpOoImPdbA5Dm39nePA_k15ttIDY6_GrGvgLacJsWd5N1O_M4wPHs8RwLFjLBJSDO9ABW1hRuLbV8vih7-zsF21Dmo3SUk2gOpzGLioU_o-8shiECbgXH-rFZuCfWl8zngTQOe4THr9UnNA9MKxst37nr7SpTnvYI_H7rlB7NOFnohbBVn6ZhYaGZjmEfSPR2Mjj048jdXgO-P1DbzmRus03v49eleM-nkqIs2TnbqM_VImRruoUo",
+        "width": 4800
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108272679350845274709\">Chappellet Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbjBJseijb0VwAWjhVQ8yUCF-sM6_bj4yfOM_bFUJROyI0D4vSjcRfkbJXGvl5_2d03PvBj8mKHBd1e_3_jYNBYHBma4wRDjZTk_7713_PvXrzqpXY7Cv4tl-Yj_JAco8nDWLOT1tkYkna2Bk0d60lPG3zhqi8HeWEcige1VosSEOUGHlqeCCeh1rB6nPC_tQt8vev95EvNZIvCJiF9cggUixjbl9q01DWtYIXFjBwh7Hj7tvb8dmDADtG1fGfRD5Xu_WOu2_qWfbZTgqQT-AJcxnz7UUHfULSD6XxhAqENEbnandbBG1YEKPUnuv9n-nEg3tDpaVy7uwC2dLBHGgMNEX710t11dJ1AplRggn7vJU8dy3htsSC89fAenWrfn1-GcIF2suqs_Wbx_1KfnyfCK4c",
+        "width": 1500
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111423085838599775335\">Gabe</a>"
+        ],
+        "photo_reference": "Aa-ngMbkg1Z9O-1EtkuVrkLs0Q2zMh5BokaKz33mrIRLIqRNJaV0XW49DyyzPaxAqacgajnDNg0Kpjh3mzRz8tODNMCb_bY4PK7pRYxhGtTsksfz5TQyGocyZXspOXcqqfWNsmjymNBkRS1Epfkv7zRlD8rct94jLaww7lNK_K1Cp1Imlxwykx53vPcKcYEoPkgybDEDb_24IuRjnGcIGg8lqOzwVIn6zQ2O3Bzf6CPI5mfP37LlQqavTj--tTj6lXCCu5uEFRFPHmGAko3Ng9NyBYOUuATXJ-ne7sxbl-Tr7DjHH2UgnAo_4HMm9r0rc3wXlCy07XLR-p2lG7KYFKfTw0V74J9opPsVgTCBuAJyt_FfPplscM4XRtoV7A0FD8ejLxC1ccBV7CrpMlC78994FSoMEg",
+        "width": 4000
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117759327834398219272\">Kenia Escobar</a>"
+        ],
+        "photo_reference": "Aa-ngMb1WTYecVTS0kgseXOgTLi85c-_3IKsK4lqe509pk-NKZFsZk2ZsUJUu-8xnh9r4AUYqt6JYKNa6nD5vgCAJTmbubwqGAQgqqGPdj6Oj4fghxc4bS_WH_9hB1alrmJlumzGGYs_H4PbDQUp_B6T1KmbGQ4ycvjZNGzge3QR7pXFbkmNwJ7p0Mse4XV_jp51VJfujafmWj8Ogbddy1FJnk2XVb8qmMEgIw1ifc9U4nCt6IfZ3vCmb9kUaaIpUHsePGKCm4LJwDWUs8IhfDE4qFEVqa_t-rpMsHYVw6PTQFG1KJL2QDBAW5v4theWLAdkTbLGS7ozibwXRmCDYi2CbVoKDDNRZsPL6QXS9M4LhQMLwUddr8J7W-mVCRticIV550YXnJzV2Wol37U8TmYaCY3tEKQ",
+        "width": 1200
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117003153331624824589\">Raelle C</a>"
+        ],
+        "photo_reference": "Aa-ngMaaPSzUGOqP02VNFkKPbPyj6O5C3dzBrx5MKk4wUIkl3uISZy2cSdOLU2CQcaoCNzPeadvSI07D43nKyZ2h1i8JGYyDBZxkaUwP3bb24Oxvw-t4V2sg3-F9BoqmISmk2QbEwV1S3tjIeHsQQ0xxyO9BBx8wBvCrRHcOCt8R3dw_kYc_p2ebeUxjim08_4KgWKKVJ0jj2ZoJ9c6n6sB0wrhFcRATv48ol6K5mSwd_3N4ERofhyZXhQQ3C0Omly6bpDD7_RHgT9YFBFMLcbGJnSJbXOzjqWBN7zsiZ9hvrNBc3-wecM5vcls3KApBYOvODDm5u-efGRKK7I8K2ESWbzy6E5PGuVg3ejP3GmjFPm1ffnkC_ZLuJNTDow-X45vR7wq33uzopMdpTl5ikm_knMO4zvEY",
+        "width": 4800
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110326414720018839779\">Joe V</a>"
+        ],
+        "photo_reference": "Aa-ngMaWV_A4yp4XXLgwgMoOeAg5wirwH8gXLqIICljZSGHgJyHv-Lxbbyxip5QfroNS3uwJO-hMI4hznNu065nL635iEmjx2hvK8Qsu9AY7HhgmsjnSLtvzgGvSEjA0Fj856sudsFdpqX-bOm8PbYNxKVidV1r0NPjloP6b2DrYlNc5-wSLupOA96BrAtnNuvLIdW8Kn-c_TzZwmYSINwN1X6iOF7uGnANtZxMgQQ0QGLVtTifsJQWPunXb62TPt4yjEOrOa_kIhQ5lFP2Litn6N6sOktqD6Kj9_xEgG6viBYBDOBtIMj4rkruvIQntP5KzT50uWICwVADWHWE_y24XH8qL39t9fKMyoDuL18-aLgnvvg76zDRX9yjHCBh5FUb_dwbnrTrogwsfe7Jjk1xWNCaM_ptoljw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJFw-qEKj4hIARnwFeG7sQxGg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7549177271183868319",
+    "vicinity": "1581 Sage Canyon Rd, St Helena",
+    "website": "https://www.chappellet.com/"
+  }
+}
