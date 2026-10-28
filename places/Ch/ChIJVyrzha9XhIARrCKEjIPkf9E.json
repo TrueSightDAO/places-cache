@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-28T06:47:28Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Aonair Winery & Caves",
+  "place_id": "ChIJVyrzha9XhIARrCKEjIPkf9E",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "647",
+        "short_name": "647",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Greenfield Road",
+        "short_name": "Greenfield Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9651",
+        "short_name": "9651",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "647 Greenfield Rd, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 738-8352",
+    "geometry": {
+      "location": {
+        "lat": 38.5102968,
+        "lng": -122.3910498
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5116141802915,
+          "lng": -122.3897015197085
+        },
+        "southwest": {
+          "lat": 38.5089162197085,
+          "lng": -122.3923994802915
+        }
+      }
+    },
+    "name": "Aonair Winery & Caves",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107221637993583917610\">Aonair Winery &amp; Caves</a>"
+        ],
+        "photo_reference": "Aa-ngMZVfY8IGgKSE8EqGG0-j3YnTEDt0PLVtTZcHVcydpJ3tWmoDi-lgWkTB0OANUTSEQjn26m1RIrFlfLJBmcPMs17YLvEhQ_cG0Hb9EYciABlO5Tnbwi6GxRwBOgUznNkimPjjyu6p4AVz6qEeqaD_oxzdBnkBxeJ1TLLizlpK_Aj0vTIr5El9qmZIyPspTjXghvC7Fk6kh82dtHuq7Rd8PU_pOkfidS6c_VuSakyhrRKXV3kZm0mO1Fg1F1zhXdXCNBKe_m73oDyNkouelHxIDFzITqtHAE4tqrqh7eGt1GbCd2hYBgNQ3YzkQDwmI9S7QSLL0Zcr65X3GRJ-TAJW22vZheCt12MEhRc02-MTOs_ICPULS-DgC5lx0DHVZdyjjQ1_QZ8e_D-_UDVGQlQiT7VXdWz4-A",
+        "width": 1500
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107221637993583917610\">Aonair Winery &amp; Caves</a>"
+        ],
+        "photo_reference": "Aa-ngMY_qPaX3GPHDEY_MCJ_VYgZ2mZzeNvUHzvi2uhgE0WCfu_HAODrRzT4vxgS907ESA7uSd_PVyBk-drD4gApvK-oHEBerAnjrRZjFi0sGmD7njay8s9xeHnCtzTyENH0Pz6hmtgPCaQxxWrBaxJtcZV9q2CJuYz_84yQec4L_1hA9vomgy04ytyhI4zfEYCjE8NKxVtBrpPtJsRlQ3O9uNsNup0N92mP5wcKJRq4i9L7Yi0OqC17V2UDzDuRzq97pJsKmwDsflWxctfal_HQ_fn-h6m0t77AJiT-87vkfqGhREcPx7USxOj-ndOOFwx5RfR6mCrxqrWpdwKeOuf4_kdYqUw200Od8xE2JSRrYIY_FZxxHv8WkV6SvO33fCJWiGi80z6QMiW0OeL32fo5if1Swk07yVkZRBwP2o78j4kang",
+        "width": 3600
+      },
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105061099394492403376\">Michael Wu PhD</a>"
+        ],
+        "photo_reference": "Aa-ngMaWFE1sMzx5s6yKlKFdXrsr4n3U9aYHfIgHY0FqXtcGEj3RJbwa0uXN40iUXMXIuM43tbQwQUwu4GKTzNTOW3SpXtgL8mebterc37tWuux_-D2f-2hI3gnCaY1iAhPz81_PiQ0QITjzTbHg2kUwdpQNinSMZ0KW3zy5-02vSov3ZjVL10Tx8NKNkUSBJzZ4P4oZW5Q6QQCedY9REt3YCZFuLE6ZFwfbXbQzn-CkE5Z0CrVMGSIyrXnbvw2EqJPGjeOAEmULxPLtl-pkaFNwhgDu_RpPuxQXwjuAYC02mdnlhYDBlJLKnotbjxhSaByo59fWOQ9fbOsQcSImr1VqDKE5YnfpRzIfLe_m_onDBAk5QaH4w7a8KiRCwNnQGoTBi1AgOXQEzkUPkGdqypj4uLpvJCA",
+        "width": 4624
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115515922995050208586\">Michael Johnson (NapaChauffeur)</a>"
+        ],
+        "photo_reference": "Aa-ngMb2wDD2nj2CwDuXQc6ataMFGBmazP7Lc-8d5TBsnuaJ3j3icmQQLXnFEi4Uo6ufL4S-CBA_ZUeQSZOzMZtMSjAf8OgdI-uanDO3qCZaC2wirsdKSQ16tbSv-BksIQKO-i-lGQI6DZ7Z2rneDrW_uuWCgi-r1D5bme-W0mz6cOrldztvLbSlAKYzUfla3QjGegT1Z2uBMeaApfAm9_8Y5FV_4R05gQAS5wHK4gruWBKtu84MOzAAPOyLb2A5Uu-jzDfZ9pIFzinQLEX0be7ANx9yRdrnrM04hEpIwKsXI8_aDkFUaaruRk7uRBh58n9XXZbWdt2rkj-d6OJenySls62HP_anwYG9EHO5zHFLTEUcborDWOBH0cXzaUQC1mzT94Nw1mv1JxBG5HYDpw0YrjeOEw",
+        "width": 4800
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115950356892836998265\">Alexandra Kurland</a>"
+        ],
+        "photo_reference": "Aa-ngMaCRdbvNruT7ExJ9BX423FDjGvbOmSU0bwU3trLrWrYsmSOjaOojATMXkUB7tuNUV9bPOa9v4RqZURPAjuFpQmK-8QHQUUsTbjQ5lH4E0jT1gxKSfD4Vw1GpdBYr6ZIh3OeffEmsWvciGk1FnCfkXHmeVaxNz5uINYdwBcjBvizQpZSRRFQkwzzw_5pNXUQ8OCndejXo08W5yS9GHHUFMrIIfUcpgVHnb3BFlczJ8b1CPhmTfgHHZMTZbVm1FgnGbnkmNvvQPC1EQkOrCubr4lh0WrH0Tnva0WnLBbQFy-Q95u0QvmreIpdBxWJoIRex-3MQ_KQOOOHoTFSgl7Rkw94l40U-TFui-a21BjrF9goa_lnGSdH7euCJrz-SAu5ICRDeN1kth3RW7y2pOYug8etKw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106201623168003642595\">Hannah Hathaway</a>"
+        ],
+        "photo_reference": "Aa-ngMZoddmZORBBIOePpL_fIcsqYyYVzQ7Y5W7euGr9hhksyrLqH7AqWPMpBxHCz0xHwmOqYTXXfqGqAGoQMt6CgmkyhdGWytXwojTGORoRApspHsgPqrC3TsaH-foR-jGTVgy73Y8rVUv8upG08famiyu8UZH37PTcmozIfAB7IJemZQbMhgNUodZ6Jd-aDJdAHqb3mHdMEXLQatyqlhT4Kvu67gBQQ2tkI2FR5TShMz6GW0L5wztHTYc5-EEvXOMafvFV3t-MnoH264GEcmDL1Y-taZv9Uxa4etXCFIXVL5YKt7AqaLwIQnpfn2_qcEf4CwkPQwp5beIwCSJAUXBKu_7_2RwBBXZ2WJZaNSzK647BRnmZyd1SgKH8hHSV-UWdIWOz6aLsjuuLELXTYhdRd64FD3w",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101209265562003537898\">Rick Evans</a>"
+        ],
+        "photo_reference": "Aa-ngMaXZkwOIKvqBMvGBIWcutm_DouPDayb1bHVNt4RFG4PfaMaDzprFTzn3pBrgYbrqmu5zL3S7hthkvfuirPEvvoGjEkn3WdlLKMadPyOrQ79MZQ6JiIu7kB1DvpkFTYgsx8as4Fwv69ewFyqe2JADpGp0R0dauVYQZFtCCcgX2vdcRd4jyIXhTFOd8VbR53WI05kT6PzQVDxSIPkgB4qte5ByashrjfE59uXMO2uMox6SAZ4uUVYyZUU4gfeQfiVcMDA3q0CKUD-Zx1JMOMTblbLggPKoMNkM9aCvoUKrS0wY6CYqydInYVQ4zPs2hnFXhSw5VIada3A18bjAxwGhakb7fhPVIGizxWqfa4XJ2PeDNfk3VA-21HrOeCGQ-h-rpGx3XlX-gffzrpwOVyjsiNG_kG-aU7XUK9en22NyifTMw",
+        "width": 4000
+      },
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107221637993583917610\">Aonair Winery &amp; Caves</a>"
+        ],
+        "photo_reference": "Aa-ngMYai4Al6n-RHTyx_SvM0SbwPerWMkrfka-5dIIWIJ6Q08uJl4stH80ZyyNJQQIx-gKqyzJLkBxO1bqlNYtXbuPHSGaJHvCCWn-i-XHrirceWxQtA3o1Vp0qw3fRO6gUML_CSJ16rD3sOhPdPcJOaEFyTGszWiKNZ9kpQWV11wldcU5yMRyhu-Hnfmc9Mni8fMU5XJ7KYjYxJFKzDVKN4JzGB1KiNPRCZFkS8-YcLrejFyx1BmnhIrPdJw0rjHvFgzJd7C2NY7TBcs5Hr-goyKJ_NPtMwWnD1l9ax7UGml7xmLapf_btskAkLHj4pZgaaiLfnd5r_i28jEMc_N1bL2aAUye3E1QQDT5z5TKysUqH2RnuNHfIOc95NFDrCoDGAaYe22bPwGsvTx9Wu2sGB0-q4Q",
+        "width": 720
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106161907388621746351\">Bob Jorett</a>"
+        ],
+        "photo_reference": "Aa-ngMak4susB0R_IF0FrvKKzioSZ-pDFKShz8aLqLggzD8WHt3HlOewnw7Ev8rAb7jPzUW9wIfi9ogsZOIzp4XZVaa-glOLZM83Qgm-S1IVVIpfnQj2ez4n7xOT6iy02opMz7wBhh3KaM4bfX8_NAm_CMtSwsHcwVhaXxKhmV77E1i99fUYTdDZrp32ja4kCgPYCPE2dqyRMOCW6j0a737X-VZwTcXP6yLeLBqocj0W_sHPieDkJZzTJA4tfWcVeBeEohG0asgcoTsczpeu-QqzvhVZRxlt-AY9LJfEe7psMJSFDAylPW8zVPglbbjDWB9IqeGyiABPp5kOvQ1b8kU9QTfnMBgDlqcjPXr_9wmS78-MbuV52JM2FT_fEq0TjfOqIL1WQ_MsaXO4hoGgBa_qt5OYL0Q",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102767239872123363526\">Erin Maureen</a>"
+        ],
+        "photo_reference": "Aa-ngMai5U0jabFuBYIwgkTvWHlJW97GZqqL4tVPUKqX89uFqvQvokPlahItUNPoeXrz323BEEqapDA77xsSK5V-X76fP3Lg2K7w0jURxKe28hhQTQRiNGb0W3DkLQAoGOvnvP0rplkOoXUrNDuGJs71Gi5YqSy_1iArBUYK0tRd-qhYD8S5Kk2teHt67fzKhez05-VSLAQrDbTpSA3-XV-bpUdG9NeWhw0Q1MPmyGbwf1mJQoUCfZPvnC40Hp8_8BEfoPdImvUWVKnOlC9BFqdRD1wFdGh9sDWHli4LoX2okJf9noN0f32N3v1exPHmBG21zjjmNBs-RR9c_HMoBMpK4SylmvHsWoI2_3apc7he2VyUpiDeXrsh780p_AOBuOwpms-LymNO8cWqpf-1auEb4zRBQGXvQ0I58hBmG78RKxDBaw",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJVyrzha9XhIARrCKEjIPkf9E",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15096035729618510508",
+    "vicinity": "647 Greenfield Rd, St Helena",
+    "website": "http://www.aonairwinery.com/"
+  }
+}
