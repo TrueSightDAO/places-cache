@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:48:49Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Rivers Marie Vineyards",
+  "place_id": "ChIJfWb2LadDhIARkL8dSaZUAqI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "900",
+        "short_name": "900",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Foothill Boulevard",
+        "short_name": "Foothill Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1507",
+        "short_name": "1507",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "900 Foothill Blvd, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 341-3127",
+    "geometry": {
+      "location": {
+        "lat": 38.5747716,
+        "lng": -122.5774173
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.57588588029149,
+          "lng": -122.5761271197085
+        },
+        "southwest": {
+          "lat": 38.5731879197085,
+          "lng": -122.5788250802915
+        }
+      }
+    },
+    "name": "Rivers Marie Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1400"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1400"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1400"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112395330527889099409\">Rivers Marie Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMa08lZMW_lIhyCU5RNIp8DE3_Ner12HK9wvyyRseXytSRSZ1i2_iQNKuvw2LohrbRLpo9RJneX6H7OrfiE0ZwglEfxYl17xitOqRSsAJL4RwFxUD2r8tMvNhcqD2cWwa1aVC-D-HTsudfUVJMcDGKQlK3228enXFe4UTFfceiXepy-NrAn27vZaQr1Rgtnb_rtrLmT3f85lhdK7tLyRJsb7QUCgWEIKLqOCcQdypDn19OPOl4s_wCNW_w1dxT36ADFQO7oJhEFYMK94vsYgi-ZE64qkyGeNGCWeVMVf_PYMa-AGpdkGQ_4XDy0C9lQYPP7snWSC53yUlGf2sPT-H0svXBhglI8RfBgBQODMNcl2fTTT6kv8nJjvCix2qD0ri0aEIlCOrZjS87xRhx7f9fEyf6A",
+        "width": 2048
+      },
+      {
+        "height": 2867,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112703318625515677730\">Katie</a>"
+        ],
+        "photo_reference": "Aa-ngMb63d5J42Z8WLDToQmcsNg1UuT6j1UTWwciCqWuhanI6xKhkGiuMyYraj9aea4d3AoAn5UsLY4EYlri9ngNy4joVtx-3BTcUrXQD_MEQPq2noyWwMUd9aYUjmi9r7c4vO5T4USQB-RzRLdXX-srOAg85kUX9_Ab_TWS5RTARw-qVXvI1QFiZxzTJ2oMY1VQXN7tgB6F4VWd3ZPkBWrqLqn-_kIxwKBujJbnYO3HS_hTh1BaaHeNQ6MUi3XupckXmnLfgz-75ZYsqy3mhJQSBE49-a4bY6hWEdnccL0g-WufMfUyke4xYAYPWLThgCFGGanTvNRJ3ik9Vd-KzakJfRfMqTCw5WDWxdMC1ONQ20NgCCXRNCjFxqbNU-peHdLsDvRa8iLRRnqLd01FXXTIOFsrM-g",
+        "width": 2184
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112703318625515677730\">Katie</a>"
+        ],
+        "photo_reference": "Aa-ngMYYyAY_82IPiVEHXhkLVsY9rvamtqeFLwVaTNcMbG89KBAtz4-7VT2vWX-2UleGRUmQ5RADgTwkDazIRQKByXcDE7CHA8IHXbJOFgeWvC4HlG1H3o42s2Wgph8ywopCJuNhrIBYap3L8iK4ZKBU7umJpZsjIdVuV-eUhhOb8t7-VPKpUgrUR-9o6ATeV3zP2nbGy3C0CeI7XoIdUJU0RUhUdYN7D8hu2OPzoTXAF5dZoe68DgkQBGoFGFYbJLU6kA1WjBKwLk4mZLCxe2LqrwP0Artw9n6ZVbZ1hdv6e_BsyEwQg87U2DHswL0JRekHJ3jz_g1YJGw7Xc9LOEKli46nUPv_b0E9dQpupEl2McIOJGg3vsre7dISMkPrVDR4K5m8eCJ4YAdboStBkNlME8hy1Sw",
+        "width": 3600
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104573231967696775314\">Scott Austin</a>"
+        ],
+        "photo_reference": "Aa-ngMZYNUrc1VPt0PpjgOY9w4Bt2mcD1bi2j7gj0HU4BRFKiwbrRI4dCRukUHA94JFT7zy7ScIsirhCsx86u6LZr0mk9TdTyDZExolbBPA9Qr7Oqaaw7njW8dkWBV5aG335Zee9AkuG5AD6jEko2VKVJPVrYLfmRsdt2AYmtUbdUgaC7gAabhprqKRHnwGHkHIumU2_YzsQlAAnpZUjpIzFlzV2c7rSQXf7OSYrHI9oITlUUaO0xoBBlEqNLS8stnw5ttaKCsU5zw4FgeUh3BExonZ7TBvRpk2aOUI8gY9IpHVdNCU0EnbxAsWwlzop_-VxjoZAPlQARg_9q6pFOHzsMx_KatiIpbvUZS_spM0PW8WExEln_PfkGDUXBG8qyRtDM6OO0HSRwankShMxkG-y3a8KXA",
+        "width": 4608
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113880454742478735281\">Cr\u00e8me Br\u00fbl\u00e9e</a>"
+        ],
+        "photo_reference": "Aa-ngMZqnlWK7SywZG5RRHhmT0ipX4DQ1v2Ez9Jifu3U8GmllD6366AvBRguYzBRhLNWwdSAfUnsHNJXOWtUd2RVxOyH7_RGQ8dwBXVKNuvzYupBdELSDcvtejWGESHgx6wm10DTuSTYgE1_IdLf2_WtFLbEaFopqreQE1DZYo16WAw-YTBkCsLBko4bNfUo3aJg6n0IVXO4v4__VZTnkuwYMaTWxTz1aNkkEYdF_MoIfFyXVTop4_4OI0OeDVsWEDIQa5PCdMut4n6vWbhvz7sUsrXuvZxy1ZbxnMoPm3wKFemqgBIueNiLZzmO2cNDIWiqvamREqqIUr7I2jpQT_omP__ZgPbCqD7PwbpiSQ70RHV3FSbKGP2Z3AN7_jtPwxwP6ovc_MQqXyuqK32GEFRaCDFuT7usooj9PGcG12EotMSiiQ",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113880454742478735281\">Cr\u00e8me Br\u00fbl\u00e9e</a>"
+        ],
+        "photo_reference": "Aa-ngMY8SoBT4YBPXUFi4Mv9iot4RdfSnbtA_6waZwD9CY5kbuvkcyCfLy-D29DlhiZ3Ksz-x-ZkgdDdmu12DU8GcToNnXh7cNOHN1BP_L8CXl-CvT75Toafr2IeB7BAsv48v0TuG4uXudKXs7EE10fglPfoRN03xw14VCh8vqqhx5nUHlIj_9QQiwkrQ3y9XwqnSEZtmMCR9x_G8TQQz7h2gArgpInuoCj3X4K1KhrsbaCwBN17X-kIyGGnQKsdgstGxrRu1qR6MvHCZMx779dPBe2BsqLnYeY-tcdLyXKNN4TBBBWHcUcT1dQHyU5rh_dSzrXxplXQdr_inH33AQd3UyPfj4S32hNAt6bYZAF1Nw5oOxcZYnce_lj08gP4ohQccM-YJOVBOHEK83YdW6bddkj_T7HvRKzkXsWVUxHFPtpS7g",
+        "width": 3000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114124429663317796787\">David Lam</a>"
+        ],
+        "photo_reference": "Aa-ngMYvsoLHa1nmY19k07byoG-wS7XKwc54VtU9L2G2YpE-y0xJJqpvxybhlHj7b8TjOA8yphrVWGZsj3COaSm63r7MNQyf6_KituCBVs5-UfVEvx1ZvdQPhHmH8dVyMuIXaLzfNEygBNbjGmw14S0LiuptcUUKDWV5ZN9uSxrzfLs0XoHgq7xNfCh-et6dh-ZvmyWZRYakriO9okYCmWcjvn5p_BG4u4Kkk0Zc2EouUw4UYgHJL-inKD9xAWARop-yjW_Vpjn7mUFsh6DxfiRLrgx08r2CDqvI1_D7in49Q5TyLT7-TRnoY3E7fB4Q5esXcSQzxhbExyArfzDYfQvC18XGNaW0Vavvjv2I8RKEg0EPPizCg4bZXlQtxJEkXjeVkbBYxv62i4ApPxiMTaKrSQkznyQ",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116867959633347521968\">Wesley Yu</a>"
+        ],
+        "photo_reference": "Aa-ngMZTwLwZjMj23x_a3PjMkV7sp3FIq72oytmNjv5SPG66Ozn4gG35dLT0GRskwirkkMHIBIA3xaQutq8R1fr7QV9EJeFg9fqMaaAv31IeX8nGU_TBBX9Ob6VIDKoCerxjiMHD_tPg4WPrGR_Q0O8jiWSl1QRwv9VigH7UVT7tGJU_0rA3vfjtObZIaT3Io-XF6a10DO9ouKxdtMMDH-kuhESqYlIRs_YvEdF-ZbJFv5bt1EluFatmsRIeQ3hFQ3dk3v2LW497YqphuWR08ZTnZSDvnUZ9IC9tpu6ka4nhFcIwBBkaOdflcmz6eZJpKsH5djlWVERDik7p0nKpxal-jy5UD-un0-kTmz0nI3kPio953NpUc3wRo6-8SAcHZIxMfBlXWk31kAGkn4TsOCPEvRUh-Ts",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113880454742478735281\">Cr\u00e8me Br\u00fbl\u00e9e</a>"
+        ],
+        "photo_reference": "Aa-ngMauvNMbpe7FifNBYcSXk4ux2rsVRu0c1SQjMQdFg_sdmFFpe2tDUFQEobvuPsT5BgUc8_Y8spAssSko9e3VTpCR-VFfEahxXF05aGSrtFhWz2-PnWpxxZQ3kyudnXNF4w2Rjyni-OfmK-_JrYwhhf0XH3A5hGt2x_30qISnSzvgp8v2s_8VWHDSn6QSq0vrX0k5SZ1QiDsKc3f2wdL7EGBzYyxQxYl55kgiWMWPWEYak5u8Z_q1CtpidSThKJK3OF93BLgYG6gnX2HjL7P1Pk4riiteS-QOomaaXvNK21nouBsW2vm7TVm9I-SUMRKm1qGy50wyGt8FM8zFB8DLdnOD6Efo0AywmU2LuH4miImBG61OLb4cD_wE-mn6-L0sLeKCJqGQRRglONod6i7_bRkPPWZIU_Wzq6NLhlxSKrUx",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113880454742478735281\">Cr\u00e8me Br\u00fbl\u00e9e</a>"
+        ],
+        "photo_reference": "Aa-ngMYX5t2BR3ObFDm6v8IZMJ4V_yCcA_IlLeRPQ9yDjUJoujyevxCy5eXlwnmGG7Fp1wuUOzkXwON7U5XnpqmU3LW2GamXUjXCsm9SIPsnzTN97LLy2JbuGhG7I7qSLhZFjiBeF1W-7jj_r0Y5QFqtFWyq5p3Ahj2qLCbGBn2x__Pg1aynbyuJJkC0Vpqbb5lOhc4QKBxn9dXFLPVH_kT1kvHdEy6PfGFYALScqcriwj8kRTTS285of2sLRDwPb9nFwUi1VRwWsc6oDsSEbvT5BnloJddwyfX8KGZpg2NR5Ix4wgT00VOf1m_B7cQr7Xe0XIixRkRRUOF23yop8p6l_uXsUwflWxmXfiPHHDuRI7JeYb98EHu2Q9x1DFAvX5FiuIr5XlZEJOpiuXaKeSfMfCpj_pdM2KzIbBVPwQMpixWUDw",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJfWb2LadDhIARkL8dSaZUAqI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11673986257265737616",
+    "vicinity": "900 Foothill Blvd, Calistoga",
+    "website": "http://www.riversmarie.com/"
+  }
+}
