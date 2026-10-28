@@ -1,28 +1,200 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:19Z",
+  "fetched_at": "2026-10-28T07:17:18Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "WitchGang Apothecary",
   "place_id": "ChIJWy8ctgnbmoAR39GkE4Lyqp8",
   "result": {
-    "formatted_address": "8 North 5th Street, Rio Vista, CA",
+    "address_components": [
+      {
+        "long_name": "8",
+        "short_name": "8",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 5th Street",
+        "short_name": "N 5th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rio Vista",
+        "short_name": "Rio Vista",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94571",
+        "short_name": "94571",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1633",
+        "short_name": "1633",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "8 N 5th St, Rio Vista, CA 94571, USA",
     "formatted_phone_number": "(916) 243-0420",
     "geometry": {
       "location": {
         "lat": 38.158658,
         "lng": -121.6939009
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.1599604802915,
+          "lng": -121.6924924697085
+        },
+        "southwest": {
+          "lat": 38.1572625197085,
+          "lng": -121.6951904302915
+        }
       }
     },
     "name": "WitchGang Apothecary",
+    "photos": [
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZhJ6OBL7VQ4BpDb0bk47YRJdkFRWpji9LvfEzRUwhJdKQvyXiAV4Zm1js4smDhiVjb5s8KmN7BFN0RdvPDIHKb6kuCsk3UwMPUKy93GbGeHvv5t_l3TpecbJTwaWrv3-wZmDUSxcQWWb8IICqse-kg2zK5PV3Rpk9WZLniJRrC22q1hC5md0HldSt_i_MqDNPamag9tjCBUvVr-pM1Zbetfg8qBuwVSoHe0ZIeJM6RucTekwtiZB9gPLo_Y0HMChDP94lt60pjG8NlfUelEMnvo_Oqmeqp8k1FMoWD4YMza9-A2bpIsbpRBuervaY4Xfz58yr0MgxCWKhtrRgZmjRpM0l2l9Pvo2bOENWordC5WF-Fmf7YoKRCRVHHUQKHAuwTqFyvZZUYTryoIu15VQ3MgswZulo",
+        "width": 1500
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYB1-JYzwmZPiqcRXgvP-x0JvjLvD2rbMhRVtNRMbsI_VLNpOnm7aBFfSoa6anJdYu8hcnkU7ISKNagwl_uwiMRaMbfDWprMx2GYV1mfO_66z2qn-KLDQm3sZJzJlBuh64Sp1rlPiHTJIYlW9vjxNoq-FCe_URX1nlbPAwqC8fpbv4HjHSu4VLHc6o7mZh0NQg9En7L4shl5xlbEI44lonqfilig2z5XRgZKkXSztNZ_8j-2SKaMlBr8nSemnyTZeki_bh-C39ldoV2qgxCXkkI5k_eIYTk-TM-Zfplguj7yu4C1v47HikUsy9dhu5aTgKolZw4W9hA-QKC8KXrxRgmFeaX1p6t0ea0_nzIyHXm0v-omHNtiksqa5uVMyiI3Ecn7Wf9vailPHIPXFxfbhf1vjHCWPNkuLfAr-OxTo3l",
+        "width": 2048
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYNzROU9-lfEh6LFmbOP1KjVS6v-fpFUS_5Wj3vHk12wtjxCgZgzXFliDdQ0fG2WhN4pJFu7OY_bEI0wvJ9OC77wk3uHruw277WTC1FFGWNtBn7iji4gck0qsk0A87JMBYrgkIzozo2NgCEOclMk3iHXIWf_tOj_Vd8HlL62IpMknqqmFdPxJKP911EVmjFYN-ZlBvMRAZNH8b3b-vIUkl4g1tzY0zMynY9gL4Cz52OA1WoR_jATItT23mRy-6JcSjSxGJUzB5Vp4rqHJydlUA-Xhl7fAjvVp85V7A7XdYNNhwrojRIIjP0xBjs203tzVfhpNoEC8QFN4LfK05HNW6ntxzqIYsK7wJgNcQHT0XYCasZQ-upXewjma1nNEDCVqwAi1MBi3g8qQWSTyn6yuvjKX0rmf4",
+        "width": 1200
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMa9sF2AL8L_ed3VeKa_5reYlqAVvvaYdiGX9wH9Z8mQylJdsY0UbRfopj468lRU6tGm9-94HB9ypavDtgClYk7cETOKrm6Vlan_C7-t8Ar8JpEfU1hayXi2y2A8j3bc6kVz7irQpQTzvHIsI2No-ZvXpAtOGgOjTsGRO7n1XzPSY0bTS5c3MVTiDz4ibBsIYeLkzJo3hV2Zb4kD1qmuVZKQdnCODtOlQLjJtUXeRpYCkVxd34Gs_MX6M9cs9J5HzPNt8QqH1x7e8AjkP5XE-Wuv-jg3JxTwIfiPe8RCoVfNfh8AZ-k0h2R3W8k-oSX__0SSInnO060MKONFN_HFf6fUIJulkEXb2tyRNrAKxJJdx7elrYkGzl6Lr3YW8BATnqWIuM3gNKU4cggSPtCz84NTaouA",
+        "width": 2048
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMae5oqvsFDNXVFH4FTsN-r1-MGFBu4nhUML-BvF7qWtz64EOUFxuJdvZEPegQxUy6FJy6vbt70F_AE-iNYO0iFAUI-g8M91nWquOCfpVNQbAjb6keSEsuK6VeOBHe0Opi3eA-Q8CrsNfSIBlbbaxLF0iFuH3NWtQb-V9opOBoLa6wfz5RNr6XJqistTs7fjiVV9LLKkr9mMTuYfNc-6b6A2KDjFnSgKgLawnTz4fm7v14i2py-mdqREdpkPeuGXWXGZ6-OCSvXzzyoLfrzCEdqqENZp-tetc7d47aZ3k_S1Ev_6oExLmYpycv8Ge2CDHLK60tIYe1ss19725EkFNowbqhYsMSgvW_uPLUoczzbBXxbJJCLVYvIgPlKspD8rGc4hPbxuKDnixBqFb2NRZJgkRQo",
+        "width": 1500
+      },
+      {
+        "height": 1064,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMaASv-Zyjm9LaTo9F0JH0f1NxzN7ZTMWUGkR0Bu8BoEszxOssqmhhb49NJVYXIS-WvnG2fmyFvahlbZ-92Hmeps8qX7IY394rc6kJ3qw_lne3G6kWcr4ADd4I6ZjZ_twprLQBiC4rA_vDYN_SOzEMyFBQP7pqruYJTXEFrPSyTFgWQPqxZ0E38WiZBNCNQ-qsJ7wM2LN9v7wgY8Q4FvuGllGP6hBXAe_NFwCZjtxeZDFzjJdOPZgNwYjygkRofQMRPLV9_NHQxZgogrMqNJZYPThZgjfl99QyaQRArHN2wcKOv1df3OesCd8I-3DytKEbdcXqqF3uOfDWgFcwvAE33yzQq1fPtEiHoQpglLTiishHVDvK1mObz6HWTF3_8MJyVcYY4BhwlgjpvrF3seBuGFey2Sud0",
+        "width": 882
+      },
+      {
+        "height": 576,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMZdgjy-6jdJkNZQKjhNXom2Zb1UGDRwsE5wnTuh1F5J923zbn02TJ9mYLhDqfnhrXwGLOOtvZNMhx0nzYvN765bPyocHXXMa56HLKZQJ_nwYQZt_Wu0S-42KDYAfiw6wDusNaGx72LNI5R0Gr5K5uGyaN1DcefvkJYSbkVEe0g_ipJp7nlKRitWlIH9gMB3_RCDwJKqjPptLOfDA9rR0sQ3rPNQaGCwUiQOC7YWB1EG1XhNVUd_XI_hMyAqZujDbRm1JH17IT1Rxy1l67PK0i44-6hJSRHCf3GPHPaZMmj_nYmQlhJtrONFLeUVTfWo9xHRj_M7EOllhAuE26P0gvJ2U6Ot1bOtm-ukxFjCBOcnlYkn87n1tH2dxdazoWjP91Pu4qgxH4pFjvbryot2tY8IJrrvnMU",
+        "width": 377
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYfvcQKOQpxzmGANdUgrRpU4wfoDeIPkl4C3PhLiwBzxp8Vfq-4QHqYPK9BUqqi2uojZRROtEM9BPsW9Y2rTIpUIuhNdGRcDvnJwyaxDIUP1KFYEsJ0FK_fLpDM9lznP_W2yK-fDy-Sp0W2Eb4NNsSMwMzN7bAu7mNK0YMsj5rHfbRJcBAFxX-yrv-Q82cfLZwl2knKaEl4WbiCP7vFw54c9OAat_UE7blNc8uBeSSHPqZ2WuuKHdUUDzZEjpuxf03aFrVCpTLrqr0gjBOVkVQj7Fl49sjhr4gcoUPrd1BjsAKpU2Z1Clo6YxHeIpRY-kAsHWq4ckxMRcYQdV1vot797TaB3v-agPhlRXOPoVlOMDTmqnimOq3RzCfV9bkIxMRhRXdr_ts1nTZh6jHGIJYs0F0",
+        "width": 1500
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMYCDR0af0THUYG9DEsxzNx5l0I3W8vhJRzLAXtswajbqONOIMy99fk2DZVIrvm7baKHpW1YyPUYb5q0GDZupc6AMxCtan41r5m95LwFJVrzLHZZd06uPPcAwrNS7juevSTzKYzlnoenqKiwbM6NUtJESLTnNTsqFJOxrvaQeBxyPcu5sRRXryIYNCX_9oYkEg7gBGfW8hA9KLFwU-HjioflkEiC3vPAyMjxb4_uhhtYmslvXeF8t1wvDZKTJyUWkJC19RIM2BdL63YlU1ofq9o_wIoLjxgrWvl6AExbEdFRwb2Mnb8Av9R7Caf2Mos6atNsxtPYvVRzoEAchXUkNMKCGnqsTy3Tgn7sWU3qDd0FnfuDgDOEzO8uIrPvA470b8NF38pRcFCjkX42TU6_LibYZq5mGds",
+        "width": 1500
+      },
+      {
+        "height": 1628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115489244971729640175\">WitchGang Apothecary</a>"
+        ],
+        "photo_reference": "Aa-ngMb_OqMc-_8zOhcUg3Q7iBctCKWtx4af3rZJw7xdPXlDyD-5A1hV8rTlTxkGDu8IcLXcEjHEdFYbluIPUI7XL3vU-0gSNmVRjqP6yv8PYFB1kgysG7ahi30lur6gRreXamMW_pf4BCYDaa5Ed_KQcZBczOm8zS_Kencwec9ncZIJDYY0q1Yl9fb_fGS_qCrEkXm7B8ee10NJdcAyDJh_fhtatNQ3_aukfPjxV_7LfHnIVnH3cvedlkgpkmdCnm4BoHkiFealfKfHDVJLOH23_54c4GNb3soR5kzn55BGeTlCmae4-FXEBGk_JttxxppXp5qKY9cLkPs0RP6vwR9kpa9d2AEu4OHou7-sBWdg2TgLH6ilIfzQRCxVdOrQHelOvsZ6_LPwxFt3pH7BLqCv3XJDu90",
+        "width": 1414
+      }
+    ],
     "place_id": "ChIJWy8ctgnbmoAR39GkE4Lyqp8",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11505274838560592351",
+    "vicinity": "8 N 5th St, Rio Vista",
     "website": "http://www.witchgang.com/"
   }
 }
