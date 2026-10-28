@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:43:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sleeping Giant Winery",
+  "place_id": "ChIJ-ZQ64QgJhYARem3KSSo4NLQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2258",
+        "short_name": "2258",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Las Amigas Road",
+        "short_name": "Las Amigas Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9717",
+        "short_name": "9717",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2258 Las Amigas Rd, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 944-2054",
+    "geometry": {
+      "location": {
+        "lat": 38.2303388,
+        "lng": -122.328863
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2316720802915,
+          "lng": -122.3275138197085
+        },
+        "southwest": {
+          "lat": 38.2289741197085,
+          "lng": -122.3302117802915
+        }
+      }
+    },
+    "name": "Sleeping Giant Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3197,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117456472441773294212\">Sleeping Giant Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMac2EyebKmVGhJxG8AOyfYdAZsq8vaa4aySRqir3GwPNzKpbndPFjREVkmE1Pj_HW1UYn5UK0wocBOesxHIZ_4CyPIC0cnSS1pLMs0dTbLiRPZY9z7kxRk8iZ9Y14E7DyIlOvS0cN8O5sW1jEyOuZkkCFEXsHMNULzyO6SraSYFKVzsTjIMWKULh3RsnFLJthvD1V-DjbmMzEZ6p7NmqKba9G8tlUVITN0FENpxUdiq_kIl3qA_cYozN9hsckDaMP9kUe1U47Z17eoz3Qrubuc3ByO_wbI3h0lnhhd8oUm-ADWSxJugS2n45ynBdXXHvPPU96KTqWoOmk98b672SaBivmsi2acR5f7TUpx3h-5c-Eh2IioUaSsex-kJ0dvSbrfIx4-EzoFlu6MoYQP858gbvi0skrinpWFfUuDSH3kvPg",
+        "width": 4800
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117456472441773294212\">Sleeping Giant Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbKR_a7d-Zzd-1C0woyE_RohndknhA9Vpk85pVambLDAERZQv3EUqRnmLMqAxcH9acyW43uYj0T4jxAby9LOdZE1y7Z41H61EYmHCdSTzxNIDyRllbAkXjA8VyWyrzdYOgguGE_gDvdBsE8X5PmOL8HI4rQo8Hlvqdg9_BJAQes-fI-x0hUi9dQL4OtIjh1jKMWjZr2f_zq6BeTEziZT68pOVd5tWL9cWcsUwXubA-tV5J_izZHDYwWA9IMskdm6H0sCL49MCMN-9NJJs-gmjjds_XGmxsZ4QASm1RL2Hrl58qLxxmF2ygcvjuJkT_gPc5t32Udbq2FZmB-Fsc5__CjCBFHvALtozj3yvAajUZ5Ouwx3z1Yq8lZyZ1llHskwDyeTDFY8oIApSbazEf_jJmk2T8TTfSJK911hdESJ8fPEg",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117456472441773294212\">Sleeping Giant Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb3lHF6qcgxbF_733RUA-PwrIUhANLvm_jQ8iBa5XftShPgqQjtJMvHOqF0EGP4yIKP1LLttkslzwEwWhI9DY-wT9GcljqPfxFzZlaTlb2sEr5Nl2Q1Zfn7uVPnKoxeLP172vf-iMH9PGFnzLOg9ibo42oExOa1AS3Cp_FC0ghjRZHT9wdCGtOGyWF2jsRXa3-k3uebK4r18bYzKvIkStlRQnVlJvnmY9cXRZ1G5ADNR0hm5SiWYqTNz7dFLIeIugVo-O7yWk9wCV0MdpF8bI5SzpEQTVqxTEAVFWYk0eGr6hRJpvoaX0KxIegeMPeo2x4TcS4NKz2yQUsMbBXbMRUIxxVbzgVVbZIN8zj31z6O6_rhKDvobAvc-GgRvC6l144pPEFoIR96fYwLEtvHCr9OfPJe4j30N9CKL5qXE1kU",
+        "width": 3200
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105321670124682602667\">Lisa Mello</a>"
+        ],
+        "photo_reference": "Aa-ngMb1M4D5QMSIG3_-Z7vKCdrphG3zoLtsfO9MCUKvuvRFCQ19W0Qe0Wt6zBAsBv3itjQKeNkCiJBGFdw2Iod09JkGdPXQNXinIEeSs82K0GP6BF9j_kepTEvIHkZDlhVPwNBdJH6u81Bwn9LtetkGb3K_Vm6ThANk75QgQn957OTgZZJPGNuROQfYMemylo0-Oo2DB24DJ54fgeJrygWlDxJraipADHV6DCUqzhIumXj5q2Tu9kc9AlNrNy2DMJ5C0rtAd8FHPNJ-eml4cQjJg1PHHnaZTQDAaSSeHRITp2SpmnB9DRjuetyAMHt-hp3SdPIpGfk28WZpIx-za38nlelg1Ubgn_tpr8dzVya3pjy9a3qGDhIUMdOL_A3DPnIQb6z34sGhEZ9fb-SawK4k57vk3Sy-nUpuezMwsVeUvyYUdQ",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936619755532383940\">Harold Godfrey</a>"
+        ],
+        "photo_reference": "Aa-ngMaN87U43A6s2J4-_YPrEwblCcZCuev50ZdTxSal2xg1sQJB_M_4qBpnn8WnyB1EWBZ_NQDs8usBL981Mt3tQVsgu9rZi50-m2shOiISD-p4ok7QHv53q41vof7fBXtegpln0c95Sp5263BLZmBRLMllDTMTweBEKGXy8QFLS5KnhrHigVmpGoMFYzOK32gPhM-veCwomfcDrn98dkjjjnnWEMSxMEBNddnmNjA5QsAHsS_OdpLDXw4vF4ufcZpsIMoJjiwmr6wD86S2QTKxEnjudnm7YiIbxTYo4SZdCyxzxR78Rjz05_DKGwDNlmJoHoXw2tzvfsHAeDCJDfLMHu0Ao92Ncv-cvpfXEDVL7yP5Yv-Wn1CjKBqfPgSaeqs5IhkKBu-CnrTpcAIXskY0BZbGRsZa7D1BpM0HHMPFy8bP",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108765475378000024517\">Andrea Westling</a>"
+        ],
+        "photo_reference": "Aa-ngMZzeLArDVNHRVhq8KF1POzJQcGRIV90D8pwSiN8TymVO4lP7Pm3GTKIeKWXxnPnK_vQyfrAqgIEXIDuGQyQqKJQ8bh5Z-ch4yyyUoI4z89Ces_mxaUkUS_Ud3W5trnCVzWoNxXBqO5aeRcGEOhw1goR8Wx5SSOK7TVxNeB24Z1ixOEt2kh4dlxsw3Rpn9f91Y62_IjOmbBU2sTsUofLY_Q6KWkOFoJNOuVnPrLQMZuLVwiKRbLJifQiUVRZgyquF_ViQql_KznYQzC47Eyyjob6oo5ot0GF62z-a6gopUDTbKhBkdXVCpgLJjkwDz9he8scPuTZw945MH2wZAyEjOKYGa3owfkRu_cHVDz_Fn672OKmdn-gdhW5Xij6NtIzNo-f7IQAgsWfBqZ8VhqEMV1JzkaM9OWPnW0nq410jfDrfQ",
+        "width": 3024
+      },
+      {
+        "height": 3261,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117456472441773294212\">Sleeping Giant Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZF-mZZlbi9WwnnJJqzl2-y73nuFlEnia-FzXnAlIGIeq_qIMQCKW7kfwWd1n1qXGHL_i0sBKmNWHtbEM6lPCESGvT1Bzr41MKeuuyNsPMOL03FBloFBZuK3TdUm56BrNTioxtcYRBt6_-rrQYA2z1G4MjDBz83qze-5XK-DWCryYoFvJ3WvE9f2CFDpqQdWmdCMFRyt-ZHXEgWQTLghDx1SVbnLLcnDqSDqurmPuLmTnl5CCSVAcLnKJcGpHVFKglb2CzyDnmVgWafGUvG1Kf3XZghM2BU2tH_eWS3SdWmOyNDQlYtKWuRcMXkAjDQ7rsGg3f4nN9NMWZ6hJEXdXNb1pQcNuU6hc-bnNq-BsE0ZqGREqk886KDySuoxqdcD_vV4QqK5G3SK11OALrjLnZwOIlGv0A",
+        "width": 4566
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113960063617567952042\">David Nakano</a>"
+        ],
+        "photo_reference": "Aa-ngMaHm0YEYNPyDKKXyrmFypxV5w0NK8xtUajCzcFTfstuXtKoS1idmJpYFLvRF3MdwzIS9hF4A4zJLTW-ddqCNFirwWLtU6ncJiOuhxODO_RUjUIjeXbq_YS6SDHrK9OuJ0EEZaBh13TkmXjCyUtZ5layBbpJAWDTkFORjAywgFg1cXjAOV9eyFIWbkBcy9z4-n2Lp6FafYxXGtdKTIsg94Qb1BHA4q5Ue39GIjWXgzuC0nkvvhyPWqXHiCySiahbMeyCo-7NbZTqmb-cTSYlLKb-NbSZ5AGz-szymTVGHOkt3G2FSuAvykz5GZYn7ExDqjGJDNHQbx-2RO0hWsU79p3601JmogwVpGD9_fyMwS1AXR798Ogg_vRkpF2_cjla3xXG3THtbJtp2OE_URohbAdTI00kHOukjkRJlQOB0ToquA",
+        "width": 4080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107922373560771076717\">Claire Larson</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2svCs8vIze0AF2om_Uw4oP00KxXYZJM2cOWQjZkVtwmMBvrjJhD-vv3-54plnWcdN1KMDyiOoJFIYA2RzogWXuNyR0yd1I0H2mX4xRZQQ8vJ8PY6pOsyY3XGBhpGwxTzlRhFvXTFSrOQGV7BK4pQWjeZqI5dIBwee1AcsHAKeYqMRGukMRdxnnW2we0gCRehxZaKT0_L7s-igI3VlGnh84Jpyk60Pi8Th4mP73v6sMi3xqXf7l7zwndCuGtCmzDAH6FIrW2XKJQsRQSNix-XsgyD2NZxEJaDKTI9-AmUW1aTG2X1lUIGu4V0Fr369ZYEHiaH6n4oj_YoPMMjSu1wt3wZub8UCNU5EtoEXQx-IdHdYbbilyR57u_fPrUFsnwfVCFSXDu4rIM2sN2VzBY6EXHGNnU05XL1-kd-t7So9RA",
+        "width": 3600
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117456472441773294212\">Sleeping Giant Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYjPiLOUeaQ6P-w_UVSIijloo0wDUe2Y7gDm6FiJoHd248jGUpxXz3ClrtpCxKI1dPhHzDyeQrcqaV52kVBC_LfB1jdsyu7UeJyqE_anvWoiTGLMcZ9inP9q7AbJGJ_UfyDEBf5U4Kkqv6bKOfpAVeupIQEgebHB5Gp7X_cYKh5pxGNoNJXLW160uEmHDLPkGCKOYCLvVI1zTWA04OEyfBLZwpRugNlFnUNVVLxkdMQtB92za7POHJXyaCGJUfKmjowiFaJ9_0v3H7eeLUh642AmVY-5tIQ_9KIf5pwdyxBucGuDBNkr3FeBCMe8ds8i8Whw2mn6FeMgmyknoyXpVhDLHeIzGHAlc-nzNIH9H81ZNe1sdII9ostl3tw-ObWFCEfgLbGbvafz-q-YIJqHF4ELqaHsbm7TCBTp0DgSiSrqA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJ-ZQ64QgJhYARem3KSSo4NLQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12985065379893767546",
+    "vicinity": "2258 Las Amigas Rd, Napa",
+    "website": "https://sleepinggiant.wine/"
+  }
+}
