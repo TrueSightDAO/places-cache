@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Chateau St. Jean Winery",
+  "place_id": "ChIJD-ePUBpOhIAR3jDZHZO99RI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8555",
+        "short_name": "8555",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kenwood",
+        "short_name": "Kenwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95452",
+        "short_name": "95452",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8555 Sonoma Hwy, Kenwood, CA 95452, USA",
+    "formatted_phone_number": "(707) 257-5784",
+    "geometry": {
+      "location": {
+        "lat": 38.4231335,
+        "lng": -122.5541094
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4246383302915,
+          "lng": -122.5529383197085
+        },
+        "southwest": {
+          "lat": 38.4219403697085,
+          "lng": -122.5556362802915
+        }
+      }
+    },
+    "name": "Chateau St. Jean Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768228425250555806\">Chateau St. Jean Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMa-_SpSrqWuicPS_BAVmFM-ziPXMiOHtPQqMx2z8zxbKzqSQDk9eyqOHgMKG_sHXGwNa530-d89CVyPAscIFPKls_A8mfzyAMt3CMFK-a_W5INdoEdBVXpin8894S5IcJ4kJXnuL94Y063B2gpb1jaWiwC_uDiaQHJl3j-8WdA0SMTVgQlLUc7vyOQFcgOWdv74XhZnvGdghk6_SHgvpylmu5thi_SsynuqcrtC40ebLiEV7yX-OD5wWQKjDIbtxJ6KTsqDMI7jrboRPtM5JsEjRMGbVN4pAhkkCwaiqOgD6WU-b-Jxlt5-4AG2U1tiD3Z5WkBeiU08LkHaXR87Pde2AOZIy5Shh4ZLTDjZj_vQhJFRig_MuGKihQgMq7Yat37scCpCmcnVcsHpfjUPHAPtUt8",
+        "width": 760
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108100332962227240524\">Shiran Fox</a>"
+        ],
+        "photo_reference": "Aa-ngMYSHm0nsQevkQYbGrSVo3AexnIkOV8S9Cp2DgVK42ZIZblnsGhghadDeznXOgIxw4azPvF56aka6TFeApRz3UxZs0GBRDbbh27Pl4FcV_lBqQdhTP930sbJHak3V_iXBxWcmbOP7LRMnz78CB4Iylr8R4rE_fHXt5EH6U4Ap8uyD2GyNDNg_ElecTYyBEj40_fkrvVW5Tg9aHbVbf8lj-PNwX4YlY4YqojSPagACBwVWKbG11TmYWhlnJNhxafSP1dvAmBZXbA3yUEkWf_BFbR_6_r3qe9P4SXGwgIOGqiYE3lUD06-NVJZrOtmK-iaQyw_h-Vlqy1KmdBwRZ9oOI8kl7fPaMczDuBfFEgKnp5clkKMJNPUPNad0BgdEnx14dvN0SY-gvkLKliVXfkYyioVow",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111533853691445857424\">Gabriel Daty</a>"
+        ],
+        "photo_reference": "Aa-ngMYhPSGK88tMDDFBlb00gN5gTTmM1URNKFifR7TJoWWYJtnTVn3K9nhd8HCvNCnN7gj4pmJg69T-AWc6sxdyk7Z4M7meoi2I9E1kV4a3YYEeaKbQWR5jXrFhoph0h6HGST71Crcqc8OKULwGF1AGGxLI6TlWdhWnkOQ5OlR_w-vMMzKg5LAZKA5CrRqZRQ9plgIc_DgUDK0XpG1URzEGM8xR3w7sXaIkEJnuELuWJ70xUOx4kkgD9-txg3y3RhcePq6ZyDkbd4wZaOzmWxiS8rUMliC5frJ_l1jtqB22bOyj7xhvqhSbQJV8tSiSS3HsN4kxVJltwBCJyabQqpX79aLQlQ5470TJ8gPeO_c6I5he0V2M_XePkwAoBLBM_GQineT3GV_JFe1u7gLe44mp54plus-8LMM",
+        "width": 4032
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102647768470197729275\">Ivor Newman</a>"
+        ],
+        "photo_reference": "Aa-ngMZBgqEicWW1gsrGbWxH3lUOAyzI-ydmh4DbVjGIpMXsScS54s2tOiScd9WOgo--dCj62On77Xg4nHUgQSfTFmp7i1T8zA0kzbiqMmbGtQ1q8kBo_TKrOTPjjVgjSCPe9TAxfuOrFRkIk-ZuF8ilSY6HwCckG44vf5Vr1ZU0xJJFQgaZuCk-jqnNi-PYqyYRJSI9fn4D6lS5v5WmRnCI-RA6Ef0g6ffFG-A99OptX0uM1NZpHomjWgl-7lRQFczCkjQptqeYfpzEf-GXeBC5JrBGaxesB2COzA5zkuL3KaBD4IJfB98BnLnZIoWJEmudgjuncZecjWhb8RxVAxdIY4Pqy98Jp5kXFW1DYdFje9aKKbWf3E5WQtqTOFrW6EL2iNAL4GkshW0mwIf6sC4V8Yeg5Q",
+        "width": 4608
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109036602200383195843\">Luis Turrubiartes</a>"
+        ],
+        "photo_reference": "Aa-ngMb2QMOO2HghoPnHTJiSC3AAojebwROBw7xjpAXw_VSzzSB9nurviJ_GnKOddlBRbc2MJ8hNCLmBLKnXX6qZgcEhTb7O_voz5cBcSNoR58nQ_jRicBcC-QVqfZX_JXeOzqZJN29wJpNsIno8ziJcI6NSo3YFYCY9dTOPy6oHWysSSZf9NLUeFXxDJrEZ5iV9yoYyDudxquY1jrxeHdQj-5bmIyYfB65ebbArkWivPN8xA2b5JNfHHdZmJ0WACtVLCsO6pjn6aZyobpICGAes2QzJsTjMSa4cMqAu1sKKeOAwgMgoHlrfT4dMRYVKK7LPtwHCkI_U8S4M6OOElpoPS-cwguNcgLib5zKUcw5bvnV9IIfqAEEOT3tBc9HBMrvYgxe_Z1pxpw3UL0ECHPprT0daMGzwqvM",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100121444682130041890\">Juan Carlos Bagnell</a>"
+        ],
+        "photo_reference": "Aa-ngMbALoMK-PfRZHpbW41wlza2Fmu578CkJ6hMElsl-hN2WDV4NG2cCo4B4e5pc3-xA3jMca0nV0B_3vepKNAX5YeKDQjPGPJvNKm8K8uNcNB9pCMI28o18bV9-0KgcVMi72sEygWT_OTftAzl7ljtpE0pB8IEYWmH77oI05XvTZxOt3D-etodsiTUOaTDYAfGzKoPedWBS3B7OPyhlwLbowLILXcN8aHiBrBSmg61BlR28-nCLX3KoEM3ZGBidjMzo4tt1_0xJ4744pn1wXwOSRTRJSvRfiXUvmOEMq1N1iiRAKCyjE4lt2x8JYJbvhKyYqPe7n4o4TgvAFTZEZspDjr84l0nButLCQkkGXsU_qdJO2gWUTYXPmt0azV3VrYJbONExVcXSiK2UdB1lQ_sflFPQ_Ytosk",
+        "width": 4080
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115018602259237232862\">Street View Pro</a>"
+        ],
+        "photo_reference": "Aa-ngMY2Ve-8vJxlViNzFWaqrGviRi3_g2t1t88KU8nPrc5N2HeDiPR0J5BjG2uhtd7oyb8JkbK2GqkYVTXG0XaVjCk51G6uxRzBkqNlGhJKvbyS5u1D9rkQpYgn4Ou0OQFPjpodLwUEcfxidukYaAvyegN6fCCjlpp_vLmg9jrmEu7F0NDpjQbluq2k6oFUsBPyiseR6NI8_QEznTRCFmeUTiFzpSd6cqrr1xA4gmtrS6I5kNvvb-DLkHVpu_inD_JB47iyweNlIVmSzQ9OVzT4qpAnwsJpLlgmbQi8dwGV3TBw8J-sPCK4ll-dDVCUes0uxXBs9sGyHxwNigLcHVw6le1eKkJx3GA-puGTyTY4D2wlWeMo7dwSTwXDtqpr9qnzdVUAzq8cQDDe0HoPJ7By9UY6YihpBnY",
+        "width": 1067
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101784345190190202287\">Roy Seto</a>"
+        ],
+        "photo_reference": "Aa-ngMZpmC7fvJDStbtD8P2zmoi9WY-zISreav2ipMN3t3F8nkhmFSY1tPs7Pb1f3gKjCeiiGfroeDfBLmNsVSikaGb_IisU11WZ9expnwpe7hgx2jIElfZDPFTBYNsMxeVALfFvr7yIhHrP8ddwKPXfyTOv9rwcsW7y5bN0GN6PDZPQBhJlIYkrCdb0jfRV2diftWRbFErcxew2yy7GGR8-pa4jGFpJYau8F7SN4FEVM4beByEmxn1Qnly0wH_3vYvsWy8DUBCxohNFw3sK8tzpfjOfGCJHUppdavtKKhu8bql-M2b4QQtWXYrGWIhg7LQ61bk6IZQoJX6WFJH63TbetcIWBDfmrk62anAlAGK8MxwFncdY3JmI-q55DdXTCww3UJwIHanXnBCqObHxdIuFfHf_Ex6XRlhKB8wQMo_nWyDjFQ",
+        "width": 4800
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104602538216683430273\">Kylie Rapp</a>"
+        ],
+        "photo_reference": "Aa-ngMYmJdNl6DEOcFvFaJQUp79pBBBccdy_z7Gbgj0puG96g3J8SFj07g9gU3iVzJVyWJcqAYZKm3WSe17qPDgp6qK_ARWuDvko4p2P7bD4Re6J3YMZ8nGszpgP75V5KTL7xA-bDeKTYDgBP9fXuUvgE0S_trlBYszAL9Qq64_s06f0L3WmsdtA3NbSk-cL6XgUuulnm860Ngv__9CykETkOwKG6-JSeYqme2cBqwhwCWjKEM152W2TCkn6CVokgXPbRQhXPGROVE3r-yx539TJ6o0kd1Leux2Zr0_Q_ItyVHsZau5QfJf4RdUCYqd9cET9I0097qV01E1Z4Zy4wM2ovkJ9en-XzlUJoLX3ShhPlDxH_0ydR6Y0rVgDGfGzpO6luGNYGlNMMPWF9IVT6HX3__sSQ7ywj__wJvLgd6XgBhw5Jg",
+        "width": 3072
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101784345190190202287\">Roy Seto</a>"
+        ],
+        "photo_reference": "Aa-ngMabtMrYLcqNk14b4cQv5xO8TehCvPbkLanIbXIMFpXGr0fU0TLf6lpsFyFIIh4nI8_CW5Q0M_xpWRXQ7APLkHjWrD1DxuRGWfmpMpamOyXNYF3HXcz-FoV6xAu9Y2k8GL4UMPRkanqLlvtPGjtGmuArgdO8AtpDtX1MerDawelkPhCnfkZTJb6YKI90G6syzffSUQRZZ-1jIn0ra9oE3gvLWt9TUQGD9N6LgloyyUSq53rHFnqKFKY5-3bk1MWwH7PEKqZlNUZFB48_KzY45Sj6fknmf2_evHnw1AKQOAtsD5ftKg7O7UkFneXalMm3A7197lxV0mTT6ORQ6NlWQhTIVt19gQoxwE0BjJlm5RL8pkAPm4skuDv5SijhdK73q8Vo3N5G919H0eN087rAEmvPz6EVxlQwlsbuHHoOreHdeg",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJD-ePUBpOhIAR3jDZHZO99RI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1366206501535428830",
+    "vicinity": "8555 Sonoma Hwy, Kenwood",
+    "website": "https://www.chateaustjean.com/"
+  }
+}
