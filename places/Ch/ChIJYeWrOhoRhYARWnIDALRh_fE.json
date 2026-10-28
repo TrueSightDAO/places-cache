@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Wooden Valley Winery",
+  "place_id": "ChIJYeWrOhoRhYARWnIDALRh_fE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4756",
+        "short_name": "4756",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Suisun Valley Road",
+        "short_name": "Suisun Valley Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fairfield",
+        "short_name": "Fairfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94534",
+        "short_name": "94534",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4756 Suisun Valley Rd, Fairfield, CA 94534, USA",
+    "formatted_phone_number": "(707) 864-0730",
+    "geometry": {
+      "location": {
+        "lat": 38.276527,
+        "lng": -122.1128601
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.27779418029151,
+          "lng": -122.1117085197085
+        },
+        "southwest": {
+          "lat": 38.27509621970851,
+          "lng": -122.1144064802915
+        }
+      }
+    },
+    "name": "Wooden Valley Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2434,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114692388384974711253\">Wooden Valley Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb48ONj-6He0N1cQhDJyJuFuDknLn5Grm0wmz5OO9JyB35cSGThR-BapG0Y-q8jkU7koDxAthIxz5LAinvJ2mYwQ_wSSrzfk3Un4ply4dAL0devT7Y6hUY7YGNNEfqYLX0oZAio7SplulI7MeXMvUN8axNyRd9d95E0rVgeFbRn8269OXjbrOu87iism3SJmsSrpCxTgfeE8FkqsQenJyWyZkWX5EKFFgQZzCWL-JyO8DQZlg9c_LLBygrZ7qNAWF-4fe8eqyluwJT7gjDBOURb99ChUvmVDisGbJ0Dv4sU6FXgAYidLze8uCA3ENgFwJ3yq4nO9KSYqq_LHfIczBNfM6Z_dQJa9EsoeOW7DQKvHiFuG651ovonTHo9vn-GJ36nm4bJlOZRiob-IzzTzkKjiL5Gd8_YRSRcNmUeClbiGA",
+        "width": 4192
+      },
+      {
+        "height": 2795,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114692388384974711253\">Wooden Valley Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZqT5ltZjzkN_c3cxA2cRufc1pWsF_jjvv2UQILsWKGUVZ0766sgYmd3xSvvz9Di-6Pj5En4qd6aD5TKwAOWUfe0pG1rKE-7fYNNxUZZpHIdGHJvbP4GO4N9yp3Z1Xp0bhpJ9KDkFP7L-jxa5yOJpHPpUdRcXBvSsrgsBSe6qCod6SiVncQrfCjLFL5rzhcLX5Gd3Yvlu8sW75fkvSz2vksu3JOUY8k0pY9azEL0ggGMQplJRgH5cF_Ilkmw6AjzWHw9WZtuw9yvrxBytmTmNWf5G05R9riJZ7AQlzjpbjI7k6iitrqH4c96bVdB6cc-foyoQyrasFz0ATQ_Vhvv5UnujIS6P_bRZJwbXBvoduveK_LVKFWmLs08Fk-0xTokV_jlkXf-_tcW3BgtssEay79tV0AStJLcezIRJhB9LFD-g",
+        "width": 4192
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110352208458012383927\">Son Mai, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMbS4CHgs2riTgMgrqS6tfyrCGDbKm3NCV7lFmzHGvY4B7rzoLS177VzQx7ab6QID_bdjDhtvKp0DlXFufEzemCbclowYdY1XysqYC6LyEA_l3mPQLkEhfJ5UJPFu5VgvdNlP2yYT_j5IQIkq4NCMYrqdUHmwygHtpxodl_YL_gXtkFi_iNMgC6uQGFYXud9gIxKX9EnepaYyvESFIsX2Qa2Zjo5-ycq3dL22thCci4GXJn6Ke9ihhkbi8cnRgNdpIqBG-EdiF1WOCyxTdT40JrISvsUOXBFUEAJ-nkfIuYPL0DgwgrtlBj2689jU2UpdTfwnOIvVd4zwwlDvjgUlmhyIcu8K6y2hHybbpL2rUC3qpdYRzE0mgB4WzSRSP2WgA1wfGexNdMgqGXJDwUQrnD1_NqgZMU",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115274910714700024180\">Robby Griggs</a>"
+        ],
+        "photo_reference": "Aa-ngMZMdotCvdf53ynoRgaKbxsHTTYukqWon_AyFcLEPAgQFUj-UPkd90pkYnFoReqQK3o7zR0QbfgCl6hhz9csBgerv-JKXbMecI17yvvM1mmQvwhRs4sYXVu-pIZYTaWEjN2fCDd4SgIrL2nfSztGBk_fgllKWl5wHsKGZ1iDh6ncq79BpHisssGZsjMHxcbgZHwL9QcL8aJsmxHLbANzRWnrDwm7AYQQl16HmFCjDyFtXLzg3hXfs2fRGcBWtLl0_Yuwy_15uMvXQr3ZD9INkRmdqtIMVGdTVo6NGkX_6mC2AeQkrAV_ZKWPT4BThn2AZJDRIQKn23bP-u6kJfTNLgv85w_gbQxMDuyxOmt83GWR78-c4OHvvPVujPZX9kf-hkF3381oh9R6i3PfHWDhWQzAzXeoknk",
+        "width": 4032
+      },
+      {
+        "height": 2434,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114692388384974711253\">Wooden Valley Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMas-nkCRxQsr5kbZ3RSlgd2pgV8yEd0b7PR9ki-BW3n10Pw3uK9YkkdIcfqFnjo4HFQcw8o1oQ-mmUwob8e2pcQjccHvdxighqA7TF6vOCDSjjplB-mjsvSrmDhWBuWMMXQoVuhoVacTqwUn3l3_j0SjDHlolopUY3-KlV9PBGAQDpcXcvuHNwk1fwilUaz1XKteIuqd1mgOsyefrmKHZpoC6iXzIgu5EL6bIf5u6pEbRhrGMVJP9LUzOwPbh4zfH98Q29eDdOKrFbMnS5PN41svmnuJTVXTT0M3iYnTUJrZfLLScEPn-OC-ZcnDcDDfCpzNqA3sTLOmj8YdM1WEAmaVrXZ4hIrPBSqH2RAO6GuDMLrHJKk6Od5zKv7ggOe2tLsDOHp9mqXtW9kvmsn1Fsklh-IZqTIQ5kZgO8-TbWY9Q",
+        "width": 4192
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101072151175858916773\">Roxanne Bussell</a>"
+        ],
+        "photo_reference": "Aa-ngMa1awPCg4xcQbGik0dYBU-GjGX_2eF8TTbga3P7OA8Zmmc05-CvrVIOhkhrdrKsN4K2lnP7eMpoWrVgcpR0uL562s-3OBnQSGZIWR9bfGP96ZwppfRGL65DY1XxGttyjpujwp_oTM-VrlWB659efSFv3dwN2S3B_6h7dGqLsvI_5ULLN7oYhqnWIDvNz79oyumB-jE-ATMJJr6uN7CEoKW_qORrxCASwZLzry_2GYFqjnH2Pvdav4oEwLQu2soCiR1TaDNWZBjqgfp272i4YRze62XqeQTt8Ajvow2vQIkjiSHNjYWfMw2zoUTdYFKjBm4vT3ZUzbECZM7XMrSlgABc74Qra6pR8XwP8zUd6m8IvyUm0jAfLTiL4B8enJvjjiocMbaKMINFLdtAXWL9uueGoT8",
+        "width": 4800
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114692388384974711253\">Wooden Valley Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZTHDqWguXtRlcnZAWXxojVFfNgkWi-0n6uQGjQoJy9OkAFdWSZLZmIsBTC-ynStJqyfZRUfuz-rEw5xjF0tpmH6fKkfPnqrzF0ZJ2yzR0IBOxP895WpzXuV482AC5NZVNDzOvJHAlvy1mSv38cZY7GFFtnnm9o0a_9i48cL5IbFyyOM2htAwc77GOqYSOL4c8GOpAol390mkxidCn4pqcC6RrkxaHXdf9VTuRl4u_ahFcPAab0EiWnbdUkEpyjN5WUJROIVC0l4uxjSnsLit_eedsMIKUFJarNIGoSg-8Db6NCpPHGYXkZRyUGbJ4VjQw3g13pn4hZ6e9KFDSMs0k18aA6sIyG-e2KUi9pmxNP5Yp8xJDX_U32UTEf227VwNKCvOuyRoS9bVIQBZZnHj-7JB8",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114692388384974711253\">Wooden Valley Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbp7Bk44xq2zvyczLutbQ9Nnfpek7ca-gpx4Q__8KVVjAqG5clg4Mgn0fFrHxBGsEGkHwPF7Qs01k8nC3dCMvTnxWeFaZuhsPcp8FOkDDR5-aELombPmZlC5Vpuhm0wrg4PixMLpc5-ry4OhbguvRawt5u6sjFu4nn34U6JqCWoa6mQFwwb23pP6Ju3zGHik38w5ZHiMlWPyvB6CrhttiRHK7abjuzu_J-BL-9Ic6Mct-8lZ0DEaEp3l6APtLHiVTxc6KjzNWx-xP87mDyw3sfP3mmw-8di9IrCbD6DlxCr6LMQm1LYTHwbOjwqvXdLn9Lu-Lndj2635VIrvduO1YUPJowIBY8MBPx_OsO4JKfrpSOO7fIYMNbia5UlF-bJavIIksR3FUW-DfE6glAy7kxRieyqTPZs0HF-d107QXOG",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114632520349623936571\">Tay Adam</a>"
+        ],
+        "photo_reference": "Aa-ngMbkhseJXRjwtmg6OgLTMY5Rpep0VgJnUY53JQRJdDxF3BynWKvBIRYhf_U0FDFXvndgvW4iOojXx64EnZ7HzoIX6FUZMiMMOsjfbTkaOOdJdEFVR3z4eBaI2Q40JxdaHY7UAqCdbjLDitWLFLFRnaOxZq7fDnGCy3GR2vB25LTcjlO6T456tHbi087BABxKWujS5k8HBO-hfwqee3ht314nSluMurBS-0dYYMzeqvhCDCPoBWAbswVbr2OgAPZalKaI8lp6QgxWmc3vkhjWMD_Ctv7cPoPl8OC1N1HZsi-JsJwB587GDbYJzV7I0FxcZlGwUNGZmURsDhFMlWcSmTaEzhUzyHMLBtOljkSDBcPjJONrXnkFDQ3M1s_Gq0mFTWa8d5WDz5JSFpt4CTCRevn_ZqWJ",
+        "width": 2268
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107291051920792102348\">Taylor Arleen Henry</a>"
+        ],
+        "photo_reference": "Aa-ngMa69EzYmHpogHh8gi-sbOp9XLWg87P9yg2IcTu_tvE5AD2ODkk_V8-I_I2QmNlsPXytswkfi8Ty9nYvs7fROTOqsdaFIolDcD-pykD1YU51yVvWDDO3p_FITv3SaO5UQw-J1XHHtlocmT4cqtrkKDCVWRCxDpeb6j4kOk1eFzFGrN7Hmo02M1Q1BDbBM4Q6KAk7AoU9J-nIt7KfqknF8pbyu8tds9ZSOoQHmLeTg8nJsBVXiZN6xGwanHv0KrLCdtCOBq2CC5UZeIvtoXK7uonbM64ldJ080NPRDunIFTbjRoxQqhh8iuCFL3sNm6lZSnkLHhj_I8GHVeHKEMsSehtRooXdlFcSeGKvr6PY1KuQzkk_517nABF7tDVrawqMRmv7zqt9w7qsQIQysT4vM2qUXX2OMtI",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJYeWrOhoRhYARWnIDALRh_fE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=17437200757970661978",
+    "vicinity": "4756 Suisun Valley Rd, Fairfield",
+    "website": "http://www.woodenvalley.com/"
+  }
+}
