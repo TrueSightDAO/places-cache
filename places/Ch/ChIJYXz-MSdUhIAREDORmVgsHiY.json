@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:47:50Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "St. Sup\u00e9ry Estate Vineyards & Winery",
+  "place_id": "ChIJYXz-MSdUhIAREDORmVgsHiY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8440",
+        "short_name": "8440",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rutherford",
+        "short_name": "Rutherford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94573",
+        "short_name": "94573",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8440 St Helena Hwy, Rutherford, CA 94573, USA",
+    "formatted_phone_number": "(707) 302-3488",
+    "geometry": {
+      "location": {
+        "lat": 38.4547447,
+        "lng": -122.4153033
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4561216302915,
+          "lng": -122.4139388697085
+        },
+        "southwest": {
+          "lat": 38.4534236697085,
+          "lng": -122.4166368302915
+        }
+      }
+    },
+    "name": "St. Sup\u00e9ry Estate Vineyards & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111982066162032008279\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMamYGDybZGbLmEpE9cnuRdNIdixlmE-pR5IgxM44T44AklR48NT6c8nz54O7jHlo0PhHNK1dIo6SvZI-fq7b80WKbdqQohPenawJmdxsqUrNImd5SudV05136rSAsb0Wn72_XzSsWnwjbVG8ps3E61aGv7AOo3ZpyGvIckDDaDjUclCtqex62mURCw5852fvxcRLJcdQjv-HGFbnkiXosI-LB6vJ7c3QUoNBWXzzxj6GP91GWyQBmcnGj8X97FeDa6RKGqa2LQ-c-5LdragHx8QEE818WOz_OpcVN9cQnMlvev21XlOaB-hFNQmuX0m3jZHk3U7yCu1mJbJ0Q6BVyva70TI8LFtAHJQBFFezMtLoxBAiaHgEtYc9y8BWm-V1HrUbqjShxn9Vf-NatvoZ-g0jdzT",
+        "width": 1080
+      },
+      {
+        "height": 3179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105117523340100043828\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1QVoJCWDC62pvPjJ-neXt56UhfMZ2qvqkzbiijIkp4WpMjwLQH78TBimx4MnVaId2ARjK-PGndDpSkgtuPST2fjT3a6uHqhZ1Uz7psISZDm0H03rS7vPn3JggK6E_Z71U6G_fAeDpR2Fex7dPZ431t2UrXHpHd1YFlVxME3GKZxDJGYbUfsbdNy2ThOxMESOGGAcQMUNa_U_M-xddhMEto42z_K4WKIAbIxSvSeCMMapXlA1YGZEXZNNVM2WqK37f89Ts7cmzOw8yg_6EaKCSkFm6208ZMPqkpHbRRyqbqEpmaYN-82TRU2qzG-NkkBlXXgCSvMbfZokCR-vwsZDV9soZL3sO62NxKrQHReMgPLREgL6yT-qEcEHjcane5eY9fD1B4oDvCUCyFjJWhG4MC9c",
+        "width": 4800
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111982066162032008279\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYudFz8BTbOe8optjegxnkGqr_2KGA2fklsL0sODRW_R1Y7gB2K07_IaaD9_tAJqrWTbLj28XhkjgZkCroSbC2temQ7dLbuJVvbqhAD9iIlCio6L7YdH-fPdAJ56OECvoSD2x92uLQdVB69JbzUtDZPIRcHsg9oP10iNKSDOlR4eNPTL1x265wnvrrobv57BNZN4K0P23uV-zQGMXSYVHBYy7v3EUk823Hu_MGa20tGtn9nBCtFZsi5TvXJRfcL8_LG2s9XClrFxG6AzA6hTD0R3K54LWc9xsl1viYe2DlViZlEK7oA7mKrvuesk-G_2_DrKqKX_IqTxUEuBCy77_lxheAepb4ZZuSZ7qSHK8MeBPKXc9zM3FCxZOY_Iilr0qYgbLetbJU4p6VNhOzuS9Vn944",
+        "width": 2048
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105117523340100043828\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbEeD1lZvruiF2uIjxO8prulbdCW3cbf2xGajsKxi7HOxHkuXGnwGc3FTzp8Jp_XB8mbbcUM8st_LoCi_fqu3orbV0U7Akf_gSPWnPm4v5w7oZk58KkUTvhwNrC8hmfB17C0BVMPM_I3w2WKQkXYIWhn14WBi9v1RzBsZie6Fz6W9xxEFTYRhsxI9ePxWmMADMhV_A8su3LrQut5GJDiSmsAChuEWk8At1dHNrl3CqD6vzHoMwJgVPdzerazGL5atNQ92C2v-j1bTBYQmPn2Kc7p5YvuPL3w-o83kc3q0alzshJQ5BCR1I11MCNYHq51IvvqY391O7s_SWNCf4mAnARQxO5HmvJ-ndVWIiDTE7PcJCleNfOwGMgwm0-Gcc4mbI17ARh2ofcqrlf-305McJpOB19nOA",
+        "width": 4224
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117104501942933073648\">V G Subramanian</a>"
+        ],
+        "photo_reference": "Aa-ngMZIRWNLaaILymcb0eyy7gh4vT4jZF00cIb9EKX3gUrBCYnw2y6IoWde0AtASiuqVXutN0rTeiTnaA7WHZdXyTzEvqbdIuilRednkuYBim1z-BFwjh0YQtho4GLgSVtpqJ1AYEjqYDPG7NR9Kb_AVrka51TPjACVZuPkSJ8cTnzs1GcrPhFzZs5TVkUK3EF180oLzk0z_QmdAjAj9om8Y7DWf9h3kS7fiSjN9OoKLldWMNIP4tBgoLHEX4JJNO0LTXyK__cdosu5tO4sNsiHaLzektswIhA8fKs01drNb-uV9ztRRNLM5GhUY-lUSpYQUTDKKS3DT5frAqk3QgIhLdIzEB8Nr3O_IBOkL4i2vAgQR2COVpFWzF39ykZQK5G6kyQIYbgg6qE9CvnLXdEjVG0GKbVcJPM",
+        "width": 4032
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111982066162032008279\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9S5G79GLt06M3BCoL84AilWtFTXgmuxIBXmmRE6ANWc-Gd0fz8HdbFzUEaGsI0JJ2nKb6MPLQpw0nnRuZaUoiXlEpYJEJI7B7pd1CZjULVs-ktXQCfPFISyaLGwhziVmWikJP4oPKUYTOSYDFV1Iezf8F7fiSAJiCLvLXhUW8uZSsthRCUMRGP1jOlvHdAqJnS9TJVJUIzFNHkdRPnYcvl9AvNhqlw9JCpdCs1tdppe7zoG0fePUV9TODgAQcDsqrBcBGQEihDjtjBwh5WSz_kHHBg-CVhINtbyVAbqBx2WgO6fsBZxmH4htjhGMzRHiS6OKc6E14RDm1r4gabrfa57zsyaGMIYlppnfjIpIU4y2y3UG_aTBdnMG4g69rBDE1Xj2GhTsk6YvQdLfL9FN0TvGc",
+        "width": 2048
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111982066162032008279\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZNIyFn7R53DOphHc1D8UnUumDfJ0NJ3SfCgzivH7fhmWBxOlVl2EBoDzeonj3DQv59edkACnBV7X_sqBYDMBzsKaqE4xZAbBguhM8OHoREspCXEWCOdz2JfcZSSYz_JYFwAuqJMQ1wGM_KyK4qRRdYgFdIDR4P5wsSKaJTnP5OBoALxCuD31Z7x9T_1awF64kuupecJHwwDP7peFs-YYWUvoPiy7xpu1ZYwRcMceMviu9Gcm_a02tUiYGpQuYvb82cD1ynxSpQdAfnY6KevOVj0CH_053D9pHwYnzPABH8iZE7B_KtytqMSqu5iL-UJIdJy__O5-NwtqN8t63IEziBbAFmlFvrHwBMuHGGkPADihJUNFw6AlHfag_3EpO4EBqNMbhBm4AEz4VjEM8sfjlGyoKZ",
+        "width": 1365
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112869794206022978539\">Rich Stephens</a>"
+        ],
+        "photo_reference": "Aa-ngMb3XhxLewy5dcRIaS55vsJdzgO6g-_1phAyXshf_aaUrlLycRqsMAMHhBg9NPlPoI3BBUUL3l9sFnudPpeuphLASkxEYFAfFJX0ejX4llZJlxibq7wuw6GJ3EWGWTuEQ0E-onfx6SXghGDDlam5GQoEsMkpwwnxUS3eo_z0cQdAYHz31Yy2lC8ZfHfwl1aet0T2w_0xXVnMl6r9TGMhDQRDZgEIvw23HEBf_FWPUemgvDroEkQ174mPTD0yJnfMXnH1feoHvS0hAURPxx_U09qUhrNcLFwAvn8VSNYT7mqD-YRz1pMgjD7-XlX_eTC6zOgTa9yPgWHXguo3KR0URM0gbi_dPX12wcBZLbXR8qc6UDEcLaJFF_Bfx1Tsal3tsb0rQ_4reZKbxNFppCRkf7G6I9nn0Xc",
+        "width": 4032
+      },
+      {
+        "height": 1361,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111982066162032008279\">St. Sup\u00e9ry Estate Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY23esrLBmMP8KomyN2K7Wqa5gG7j07SlSS716_mSttULK-SIXpdTveRsZerEAfDYDMQIi7vszdN7K6ewEghHlyiF-JAYRgrUq9kbjCZmmz0h39AFFxuXvxUXpW9FSXQ8bJjrFihHNOafGGHOdZE4JpEO3XjeINiYwahoLhAtDcWdzquQ7ZnpwNuyZMJDz8SSo7JRV9Sutuj2CLnEioWEsOlb1yReJ2ETmCUl8HOPZ5L4iNEuc-uIVv-NoSFaFiQ3ZdZtwYOA1VZZDkNkklzGq5AoNwdQnd3HVAn0-yHZE2Xqg4dRiDAvfY_4ZNVhG1GJ0B2KSvUNkJIvQVyP9mxbSRyDEHcoiTo2Imm1Y-fxB3OVUCtgsrh-QW9gMCcD9jxL-AtkYXUDeB2bpyvw0LssA8hQE",
+        "width": 2048
+      },
+      {
+        "height": 1042,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104010619919520888506\">Brandon Holloway</a>"
+        ],
+        "photo_reference": "Aa-ngMZoD0xidTD60m45vXYgSX0iiQ4iYcAQIBRwSTkNG-hAWpA3TA4mrHTPNTxoZAm_CQMJx2th5-HDUEYpxINIyuED--HDUE6ZsAKaUh4nLD6mNOMrBesQQd3z0KQFH6feLqc9LWwqmKWImSiT8s9Nl10CG2-5vdWHXBgUFG5dstBouoH6SKQth9ST37_5IdVMgp0iWs-OuqYewRPMqw-R_CdhFfus-qw5NCov1ozJ6lFfET3-yrQmFhhip9TEqbnjYpMJ6pdjboPxELDTuWiwNznrbZ7iJzmJRcf1gdWOtr7lXN-xKglIoqPfjPkAqvOQ0eFXYyvqwQGEbadVgsgVdq2sFJ0I5hXAiHmJqubUWSaG7mH1kvLIxdT79BJtnfrfcs13OscmP4oImYVmxhOfC6G4Og",
+        "width": 826
+      }
+    ],
+    "place_id": "ChIJYXz-MSdUhIAREDORmVgsHiY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2746681581787755280",
+    "vicinity": "8440 St Helena Hwy, Rutherford",
+    "website": "http://www.stsupery.com/"
+  }
+}
