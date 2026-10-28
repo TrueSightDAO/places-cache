@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:43:48Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Bennett Lane Winery",
+  "place_id": "ChIJ00ZcqiRChIARc8xL6ORoo9s",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3340",
+        "short_name": "3340",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3340 CA-128, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-6684",
+    "geometry": {
+      "location": {
+        "lat": 38.5999205,
+        "lng": -122.6152103
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6012129802915,
+          "lng": -122.6139532197085
+        },
+        "southwest": {
+          "lat": 38.5985150197085,
+          "lng": -122.6166511802915
+        }
+      }
+    },
+    "name": "Bennett Lane Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2609,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108930535192099184957\">Bennett Lane Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbA8env_FkFLKbj0zfpqtctfFHiJFlVxNHL7R6a0Y4SCaf7518-XaJh62UX_0sAex-wac_fxQ2VRK-I7e3p9SiRWPjSK7Ta_PMrmgcs8k_FHDns26iDd5OoNG-z-FIOU7aRWmwVkoQutSGqX652D0B7iULE4qRs9UjM4gJity4Ey39ITKIpwvLgI9Q-IMl9tglDd7j-IxizhgqF5lsF5JmUwg1Ike0t45P3LS37x0WkSOksMT7iwW0p02lxpETKFFH7apX5f9G_HN10oDDTrJ-qQGkdH_2MHntb1eId3JoRtJe_ud-sK3eaAKaIea0M5EQKN4JUW_S5G7ooEVrL8o0rnktYuuhc9UTw__TtdCY_uyx-OrTwlQtM0758Zo_w5ujWkQNfYZHN7mcJDFZGDnwBwIfb3kVc4QISmJsmjv-3hw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104485387412169511544\">Captain Go</a>"
+        ],
+        "photo_reference": "Aa-ngMacyzAQQp9ApjKVGQEUuFx1n_HqWD2yLIOZEpcY5eQWp38yWYSd6hTmFK-aRImK10Ef1rMIquiGKFjW-Fcmalzf5q_jKkF5FOQ60IW7AT1VjiiFwxjZqoqi_5uJCv_8-r-dyUndCmumRcXk0pH94PcfhawudJ3zJnD8FSu6xd-vj1nxvWscSv9KzFyhNHnA54uhkaBWQ6U6526howopPpOW4xcPws82-u17xHAs6zHdGr1xjTJG0exioIw48pkCcPgBwvQzjG6eNsIJkp1HjQm3H1P-LYK6QdWxXUOxMoLqb8kdSA2huwz814pn23JJjwIbNzV0wEzw4zARSrhczXIKdSGIRECjPacMDhPA0zJS94zbeX9jI7hz5CH_qE7cu45glwH1hvBmXiG0BTC2-RCqpNE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108643706056433612810\">Kevin Steinmetz</a>"
+        ],
+        "photo_reference": "Aa-ngMaKeO2hp9zF8ubSJA8e8kfEVYX5EUz_qSbHu0mqk6otKNOYWCFJE9Pl-JVEP8W8J0xfUTPRMDi1Ps8lDi-py3S0oGOJA36o-RGslw42MX7v7ISdazEux5q3HmzG9KQOuxlQiZ-3b8buNYwdPDT-mBsxoeVVFW_0e5c3MHG25Jrs0Pv9jVSo8tKSfzKctjKY0L0jVQBfxpSLGcIBH16loI00PiK24VsnJrUc-SmAS2BwFNrhV-TbP1pK2MSfpUXosXYbNFqwdIhddg5d3qVFVJzxi3G2KH7hE6UnD8Jd9ANWID09os-DmcPMO2fNu5ktEy9uD2HfFnXudZn9Vxu7vWOlHXTbK4QIHfYpzUcnHzucQPMqWKMSsB_uuBHd_3Kxm8r8BWUI63UJ8Wx5MSuFsR0bCMc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108132178371451399492\">Kate Cameron</a>"
+        ],
+        "photo_reference": "Aa-ngMYG4_yPgAlGBcurPOVK_zVi-tANqI_iJieBqJTgsZ-ZBOKRIpnfAnGAnfwvw4r3OxH0Sb23MZfbAQiUFsfViPR9rAnrQ0rgAz2h_SSps-zIK2LKshyFBvR0du6qqR57EDBE-fTEgklKZGGL1JD7n4pKcCDBvXMXxnbciwfuQYDRxYSMDILngb48wHh1ZKb44UJkJ3NJo7byZLv3l4lH4lnvvk3oR2Ao8fcWqGKNllgp53UZ_7pkO1Bc22jFmQ6IccnPzLwAKzK1zSolSKXkAGFj4RFdejChlu7IqA375C_DnEQucZJLaYLHcCLjg1g2GVTyOUJeri-nrgcUghYwpBnS0yrEQK8PwFHsZFgPXU9TvETlHolrZ9-v94A9yQXovumDXzd0T7knup8gpcGHbV9N7ks",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107463453177728550627\">Heather Foglesong</a>"
+        ],
+        "photo_reference": "Aa-ngMbFjXnkCJKjZ3ByJqO32yuojQpusktevjt82LdyyXZXR-pGzNlj9yFduRwKwJFohW8fB-bp64fo2oRQDlKJk00zpAfCWAS2DVTl52sr-qb4-PnLNjlcVBSDUKfyUIEbJ-npxCVqwDdN05IZyscW41iN8swcqRU09Pup-e8jEOUs4h5gyNO2Xo_2e7A-z2_hK5xi0-7_FQ2EBKZRyNQXDbrHlp0B8SLWXwQSS-gwqfW_Rbz3m3muku5_oq_bJ3pcHvaI4AGD_4XDo88h1cKb2BH4T2JBCzzOjXKu5dlseL16CzWTp82u0BDvh1qbPDdtKc6KpStF6CwNf8Qd59ES3ycAQwll1xTBZeXoJ7ci9WpWJqJcftrWyTvpZ-RS05_FvjeO8dyW00spj6cGdGg53rE2v0Ipbs8",
+        "width": 3600
+      },
+      {
+        "height": 2956,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101942336106065233845\">Asha Striber</a>"
+        ],
+        "photo_reference": "Aa-ngMY4jLRplih1OMPJnkJv_yTqlULIjOazxY-U_zYCON4EFBOcJh5EMKHPTYoi-Ee37vIKj8kdwLmTpVUof370KqLUxrpC715CobuEu_HJ5IQBVZLf0EQk5hS0FT-kBUAdsTJhEx7Tr48sJUdxT-hOxAUv9uefts2-26--uw6_0R7GXEtaajQMF3tb6xGNvqZtB89dNxfHHt-j--gVkvU625lissEo_naGxoIYguY27R6d38uNzKpYLL7wEOpYdy9uFhpJtNjO9328gnKHKKzWX3ufvKOpXe5FbZOqUJUGCyAmXs6fQa6C4TRiZwa_1C6Y9l_7o-kA0mt6BQdxWqTRWoOOpvq5YoBGKYaCJNWKpnMAX2-Qf9R_qT5X3vxWAhqFfPwdrDTCCXiLj1K5qL6VP7dI6TTFY20",
+        "width": 2956
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118399055109152255509\">Rahul Agarwal</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-s2oqSzZ8YdC3V8IkIvXpsfFrZlQjvyfE4ipYONTWZXWyuNRl-lFhWpuIRPm-7l9Y_SzobZd4qs7XW7sq1HTtB0jxGkt9sWa82DQUsCZrjN56lDRWuN2m8Rit29HxnRHIlJvcHKWP2fcECHT2pm84R8aW1KEg_Mp96awKIKFChxHozuMG5WKnKbgmlP6pq6UvvrSu6t4V4xuDmBghHvUVia3suyxQMRkTRQwna18-MVt5jGIVwFMCI2aIkaQS6rcb-kxfwNTljRc7enYvpg3ljsP9Ma8kqDHhaiobl0r95AqgdYyuW3KhN0qjJB2ZGCUQ_6ozMch9WHQuCM-xP7wym55EYEx5HL61VAapdw0JqEcIGVX1DElgxrbcIvoKGNnd96NBXwblZh6fWEbpwXk2rlseirc",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101094485520945847092\">Robert Kosin</a>"
+        ],
+        "photo_reference": "Aa-ngMZZ7nhd9yTOSGPlHDgHdJLXDr2QOV9vsl86NP6TGYxyXg0mwrZsn5mkvaHg9NHmHvcJUs-wGUEKwS-ZHgQ4Ce5MvBZCmCtWG-8R__n79rsqhI2HsCBGITfFpO8zvWYGAjD8Wkj4L5C-XGhQJvkeCRAfr5-zxAqzlT_aEtqi3-7f48GjEpv_ee06m0jXpQVf-ul-W4RIOAU-3kL3mDLs9m4S-dEoq2Op3gVEQeJP3UHw0S1BSiJJLYXdmd2hRZZoCknOV9BNkWm5GTlJTv8zKXaUe2K3lRVDnwuMfefDX_7BRIGcoz_CWDs7RWItnjXNsplMRSbRczo5AsNoLUJDzSdCzkaJaKEgZyj5zU5DZu3r5ckK8VEqhy26ZuNLeV0FbP5IGJIVf8r72Fayr2kZxP6voEFnTOrAy1foYYpNyEN_ww",
+        "width": 3600
+      },
+      {
+        "height": 1001,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105407754491164565811\">Rhett Lynch</a>"
+        ],
+        "photo_reference": "Aa-ngMbYSKC2upxPIQQocHt6pg3yVkdmbp1JEvKyTNpwuFt6S_ZzpSi0aeP6PYUoew_Y68_1rulagha6jkzS-qd7EtSRAX10DWXYc_wc74NlOjHyIvDGvxzuLff3H-bed3Jfywy8cTWwKB8ouR_FiqlSMvhXvVX6NAn84vbTyI567jQ-SohvWe1oWlPktebqaXGa_8rQeLYtr9OHKfzzPymCZfszdhNZdhsPYjtoZd3D6yCubvRIVBg6Us_1EFVboksW_vujwKGbfbqO2TL5pO5GRVjVA9Ll_FAB19dWbtQp0kanmJTIqVYKaWg4rvSb4drhExuCsPCxEgJbFmpIfxrTZFgtSyExRuQV4030_Gi-4cexgzSWSWbIMDTcde0KDJifWhUGFX9oObxIH8FIxk3KoNvXQ-0",
+        "width": 1500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116499414960845184844\">Jim Mannoia</a>"
+        ],
+        "photo_reference": "Aa-ngMb0WysTx6o8UsVREoj3pJbAN_W7ac09btWU14A4C0flm14EFJxwk8U8JInM9hZXGFuVlLhjn4EfI790dMy8YJjPg2dgGh0XR7ywVPHwyTuVd-lSymUVTVi6GLrK7vRpCPElm2kfZYohYc2J4bs9pIuIuFMhToNvizuuZWQyD8e-5FKOzSMBskBWajG8DZ5v4_4xHXwaBx7WccZtIkE65tD-blvRYXU65Q-Drc0RwUFAFWhiXiH1MTmy1McCqm4gB0efN9QduyWAfZwJxZgtpagKpWQHtyi8_vSSxViuzOgUWH7rH9ySlDvtLOaLov2QN43de8uSi9jJuXsXELhq1g_EM0GzKBu3uNTrf8v4v2N3M1ce79JTM20khwAm8vtU1XiM6B5-EhsTbwfI5EXMISyVJXg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ00ZcqiRChIARc8xL6ORoo9s",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15826608847869168755",
+    "vicinity": "3340 CA-128, Calistoga",
+    "website": "http://www.bennettlane.com/"
+  }
+}
