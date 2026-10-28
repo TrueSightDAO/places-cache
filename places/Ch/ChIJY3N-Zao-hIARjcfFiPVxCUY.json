@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Martinelli Vineyards & Winery",
+  "place_id": "ChIJY3N-Zao-hIARjcfFiPVxCUY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3360",
+        "short_name": "3360",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "River Road",
+        "short_name": "River Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Windsor",
+        "short_name": "Windsor",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95492",
+        "short_name": "95492",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3360 River Rd, Windsor, CA 95492, USA",
+    "formatted_phone_number": "(707) 525-0570",
+    "geometry": {
+      "location": {
+        "lat": 38.487818,
+        "lng": -122.8082995
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.48910738029149,
+          "lng": -122.8069943197085
+        },
+        "southwest": {
+          "lat": 38.48640941970849,
+          "lng": -122.8096922802915
+        }
+      }
+    },
+    "name": "Martinelli Vineyards & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4602,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117979826295696235470\">Colleen Hawk</a>"
+        ],
+        "photo_reference": "Aa-ngMafofwPrDOa5yDRw_UzAHBe8Sh058s-AnHQB9wpjbaQiA0L9XmHqqZqrJqbO7B0rFC4-98GA05E_f-okN_6zU3gOWFgb7EkpWUvRWO_SyTwzMPCxJbx7QdFSNBruPZOJD8Ay97lWkdDts7A1BZKqjNd0on83hdXjAUyE-3WTx9oYgnpruABFhGoBQon-N_IdgzVnr4VgSiyUMUQ16jDZKKZw2qwPmjI1oF9w4t3xm3eMETfQLdU5d_nmvrYXVQ5BYU9fkvhqKcRqfAeecXOpf6_qjEOZz_8d_qnW62bsCDdLMi1dFQdWb1eJW6LaXWEct1C1lNNM072TKEPbFUZdBEX9Xufjy5T1Y7sm9bNi-qqiTK5s8d6rc4IH7NY8A2Q3ETOSd-C-8bzIIOFoSasHYNghuQ",
+        "width": 3285
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115579496617923087254\">JL Murphy</a>"
+        ],
+        "photo_reference": "Aa-ngMZYwOmypTQxisvpcND_w9uKDrPt8iGOyPJZv7aL1ZjX60gkSvasiyLNWEl2nasoIZKGWJSMx3803Cn9xRvVV_bTvXQrSc31agqQjacXjOXJMso5m5G5ef-Z-W1_hszefD2gc2IH6LfWyn1NvA5u2ZrjjKT6vJy-GBJ7NKOwaJgKK3st46XZXbuuLOnHcuL_YKK__R7DxptsbjCKdsAEaV1CaCM6mjcawolQzkdhj9UzB4VuyeKJdxmH2TLM7ZWIjQaeZuEqLHA0FZ5o_yJvYSdjrSpyR1CdEFb11B-EyhGdJmEWJ35fCWMoTz2q65sjTf0j1Y3OMArqyB3jiulKCYgPeOWHARpVX0P9XnUoNlPlglY_rsHgVIx4OQj2fRzsAyjZYxlqJuZmhE0o_VfvS9PzCi0ZoqUS1j6pPg6UXU2PuA",
+        "width": 3600
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109592597429112509858\">Chad McKee</a>"
+        ],
+        "photo_reference": "Aa-ngMaU-29K22P5tQuWxtKB57unrYGbxKCD7pY0jRMh0hPe4Mde2XQAt3pO9A-7QNnKPBbbq2fuRaPH4I4OS-6cJAGuK6jNX9Uzm6Vb3dh-mFrJByU9eF0tba38gzo0HEm5DrBwXZgWtdbr6byrNGp55iI29Jfc61_c9KOK5CCAmeP9aBUxSNmdsE4xz70NhPvd1unoDfELY0OhgM4xge16fweq93V7xz3JG4hiXi2m3-xbaziYwQtalfbH99u9fvduiTBpslQOcqllhBCzKqUC7JQltwIoTeuclfvRercODb7Fq-O4UzPthJHRTghOXbLDDcem2F5fUbZTausOikOhQcvIfso6gSeAMQUlnIznppkBPVGu4DGsj5TfEasC0Pn83voq3vjOg_lZzLqqW7sxGFVIcko",
+        "width": 4048
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116622109657743888017\">Darin Stubbs</a>"
+        ],
+        "photo_reference": "Aa-ngMbJgH_o1aJCPrXVsQNN2GDyPB-x3wtwnoCW3jIrZ_07VmumOMH_wriXjiOEUqckqNBahQwlXARZMj0tOq47IQkfcR99uKBnG6NPpgLVD5HsjHJQ_q60MHCBra0SyL3KwKeEWFAF9BzdqeGdqs3q2RusIYtx9eDoJXMfLxQg7YhNrxmvBDxIgIlUKNAXRV0zPcjeBNbEs1YQBBtnf1BkhShqazawfMu31UF84zlDV5z2YWWI29-ZrFGV27OEJD0zWia7wJYPVQRATJj5tJeVHMdBWI_1iHk5W4iMRZ1F771G9W2mr0rfKdFeOPKdNng3Nf3PAFncBD5mC-KYy5TqhTQ7fCjsIRmrifPQHktrGlAIESPVU8T2Fqwe1ZCs1fGUABTuiLP2Ei5nEl8JvI-kc9mtbqA",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116178129405114433899\">C T</a>"
+        ],
+        "photo_reference": "Aa-ngMYlWMNe4uJ628WDhjeJMw095tAM29nnTSFRwjONFhnXekw4RoVSUcdsqgLoKfHUCafJ6W1pgg-dj3pEU0bFfuP-d8_AsYQEDtv4amz0FBlDrh0dy6ApTtBLxiqzNeWtMkGeDgikxpTgcKOhG9erVHMdRnntIhvnf5xwMLEGbV9CrVdfmU2zFV9Fv0L1NUcCnp8zUcLjb26Yb1f_tJautzSN6OWtUXs6vqm35AnVOHf103Ljz9O02XjC5JGfZh06K8Mt2guMNqX2ZDzP04H7spOhro2IPHHh1XdtAH-UI9e2TiErcFK3CtoD4EXo9LHqI-MsZFCF3wgR4oV6ffOEEgtmenCxsTxp_YQvC1fMrAy2wjJJQFPf5ABuIzb2zROOuENlw4OfxYlw4bnc7jDo-5tsb5yNejg",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108436129475244899601\">Nancy Hayssen</a>"
+        ],
+        "photo_reference": "Aa-ngMa6fEg_0hFe6CEaH8bpMencMp81yHRba_6kTTRdARRnpW0yxafX1txpCwV-NqK8DEedxGVfzE6yv8K8-FQbEx2oU_oc_fMADQZUsrMwJ7VDYT55HT0szw0V-9bhemtAKxSda-5Sj0FECUSXReuYTBDDuAFtAlijndUCewWrZQu77QCwN0M4N7_JTC_c1Lf_L-tb7rv4bGq9wYnlSDDKH-yI6DiGWRqKSkW6Pi29c5_aaKcBCKa4oVcZYWtwGaIWsuFYmTdYqmDKEYUwu1HBVvyqsksNfhpoDfhwNdpxqzzz7T0xYfycpCLKe3y6ZADefZmmuqBgVpFwdaoqmk0RFz9gRQ-3SwpYtKULjdMel0UrsO1YUMBLmabLylvCDEWWLbdKIOJkaIg4teRGVw9anAljOQICs7o",
+        "width": 2048
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112081166173380140894\">Raul Galindo</a>"
+        ],
+        "photo_reference": "Aa-ngMbOE4kqecQiciFfIIBr9gyTTFPpNLaHd1adjvgsNAwHzGW1aE8TDoukMOkOSxGOBojGniwTcDVM-Mzm_X4Cz10wrFPu_20ZxgOsGWcjV-SsYdT7FmDRarnD61PP9mc0EZfMLRa5rt_T8XGqHE3NjlKJTJci6oF4mikMFphrE_qCVWfOYr0qtlpwjYwxRskOuXSJs9YAmyoEA6QEWIng22Co5yEbIXnjzYTI-3xrl5jmYgZ9itIdCizE3soJ4oW1vlKlyXzKrA7TQTeo_SPOxyrasCaLNPXQEwrVmpXXkN3nbN0bKqx1JeJGa_8_iVBEto6FLXi06QILGLgyr044FPRuVPehCmY9mhIymsgQxQ4h7z1r97rJH2mOzzkPoBLXGnAfgErSLXF_goKmkTiGMS2i-6qZL2Ndm8apU0do4k0y6w",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112081166173380140894\">Raul Galindo</a>"
+        ],
+        "photo_reference": "Aa-ngMYM2KUnFPt_QbQswTQgX7pgrKofRpC3bsGhb_Xx7d_6ZpBh7wEb9-UPClKwbGEW0BbKRCTen8UCr-HJI2vY_ItT5pwAsouEnAMBP53eheX56eWMhYIOVs7kq6AxTUZzwISkV0GDykwF2jRRVr7t_XyN-5PHb6M2pBI7L8de-B1U0AqyI3LFbqk8gZ_NKdnKyeQEnxtveLFxp-vxACis5YrrgvoI5w7AxFJ91IP2rqNgsHHNie0izsiDNdvkTNF00wViJ9ZIW2iAbEGwwWGx1RmeeaH5aSpOJzX7IJsmskEYuYQy8jf8l_aJiEzp2OBCjrpELCGy7qS3-H3N_9hSriB5UIDv3B-qR1_rYYM3ZsRbPD5a21vbBbv89HRcoV4IhAMWjlgh8CLy8g96hm8I_1uau2X6inDMbqKvqtx319y_Ig",
+        "width": 3072
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113787645430333463145\">Marissa Butler</a>"
+        ],
+        "photo_reference": "Aa-ngMZstdiXIUCjNcwOyNA6DxfRrLSoqbzOnb8mwbTWK7FDmfdVXoqy10TVGxIzKA7h1x7mhJ1ckrI9UMHz24CXW0Bi6qdToDZ-LYB5WDc2E6YHw38_rD7kMxSZXu4o3fcnH8W2zOusq8SjASNDBHqvWuMBs9tVkdPTwURtP3jVDj2FWlO1P-jaBaNkYjTRqKwcTkvSjm2lLyMiUNtTEPTsDxc-sVa4SJs6bcEF6WRmyTtIKZMhHQYz00Z6laZVcxyj4HgHV9gGxH-B8UQKmE6BCeuQ0ZTTUJn79UaQQ0wz1DuisK0oNHcsTRkA19IUD-HL9EeoNoZJb1a-8Hpuic4lg3rlrAs_vtN1f9yyAvctLXtX-rB-GY5B5y2WK73vRlYaL0JqGjFpROXwgM24rg_zr8ZagQ",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109286659005563032069\">Dominique K</a>"
+        ],
+        "photo_reference": "Aa-ngMYKjUWRQBca9eR4Q_6MkjYUkllXS4mG6pYsc4cde3UXHrH5uO1sZtST4hNDQZp1SdJTMBURBxR8H_rHgGb6ID9ecOluyC303MBbWh15co9NiHil3OhvMtnQUS4ZUYfpq0cvFLK_274p6JICRRaLj8SzV2j-PKkE5FBWuzIkBsaOT8Ltl1-XTvPVbgrZaVOR6r3BBgza3YLZXlDT-c-kf3T0WwmqeD7sadVFWAfW6r6IJzxTYuc65N8aWWdTT7bUpmmMTEpmiNRgenlhH2-f8HyDNuoIoumXyCY_PC0_Qnke5aGtKzvaa0w4i_VfCFRJVgu8bNQknF-ep2w9qrgT86fcLGur2A-BHUcrNrAfZs1uOaPLN_zYXm9efj81wbL7eVbk30G1ZOFArv4QU8OLTIoPu1A36pw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJY3N-Zao-hIARjcfFiPVxCUY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=5046690156820940685",
+    "vicinity": "Martinelli Ranch Shop, 3360 River Rd, Windsor",
+    "website": "http://www.martinelliwinery.com/"
+  }
+}
