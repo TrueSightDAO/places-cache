@@ -1,0 +1,261 @@
+{
+  "fetched_at": "2026-10-28T06:48:51Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sunce Winery",
+  "place_id": "ChIJg7sOEuc7hIARWLOebZo3IyE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1839",
+        "short_name": "1839",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Olivet Road",
+        "short_name": "Olivet Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Rosa",
+        "short_name": "Santa Rosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95401",
+        "short_name": "95401",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3816",
+        "short_name": "3816",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1839 Olivet Rd, Santa Rosa, CA 95401, USA",
+    "formatted_phone_number": "(707) 526-9463",
+    "geometry": {
+      "location": {
+        "lat": 38.4647127,
+        "lng": -122.8169395
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4660854302915,
+          "lng": -122.8155846197085
+        },
+        "southwest": {
+          "lat": 38.4633874697085,
+          "lng": -122.8182825802915
+        }
+      }
+    },
+    "name": "Sunce Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMaLFigiPcGzSXSRZsMx243sHeYFTm_qHa2F0Caoz3VjyMKYlcU8ma8p9FzYkcVbqHVaQRvhgl1t7A74tc72dtjvFZ3FZ06tKJF_YB7nipCkqGbzRtSq6WNj799Ogeirp8Tv0COZso7yxFzOw6K1z1ra7gH6w4FQh5hceKlyUME9eZ-fq5rxf6dQdEpFztfFjMeP7Hrl4thq40AFgElaP0yZLcjnrttTXGxzCBAA6_xvqBJ0brGBMiClONrX3VDIjk_TdvXgj4Aeixkov6YziWVYjdaIPRUSKR7XT5T6VSMnimAE7_asHO9ohQMFP30o66caIiGaizeet7AP-ytNQQ2WmwuV1KX5NuB0v5MYnUkWJsCfhYUyu-e7VZau4galLdkdbQxiV0tUaqII9iwOpN-Bn38",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105450430195070480843\">Sonnet Schulz</a>"
+        ],
+        "photo_reference": "Aa-ngMYcqikHH71FMLJ0rhjgD2bZYpDxhNOp7zmU3HcIe87_A6RcDZAenpiMYq2mrXQ6d8ngsQyx8RUtaF3WZBKUVeN8ISzGk9je8BbXzw8HD84Qx7DWJks0rXAGK0kv7TFdfL_qry4vIQjT_EmyCOCc5ThARiB1ZUtaCkFtkyf9vkWYh71Hq2PBiml0CGYG24JVcoctbVFb8XAwHDBItHBrNkmSEtq09RndBr2XrQ2uzZZPeRYV2Y4kGSszixEGqXDz6rn15XKoAokOt_AVqOKezzuzu7cDmSDTjk6kyOC5LzCevPC_2X9MSyjfTAsVu7SCHoxoyAOg-TIBJ8IRzJNPqvVYxW8TLJMZ_3Kd5_x7-3OSat-piUxzh-PyfJEQz-FusXQYQOkpr6Pq-m9NqZFmyBb8y60xFNZDPtnhiNisS6xX",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105450430195070480843\">Sonnet Schulz</a>"
+        ],
+        "photo_reference": "Aa-ngMaBL6aXFol7ghQ0IlJ9aAaIUPhwDwD-tRR2zqa-heoy0URxDfT2PAPi5JRWh0eVRA77MyfRYdN0PhCC5SuZYz7wUfi4Rzizf292OYsF5ksijdGdxM7we9-QUfmFoDo58V9ol2wboofjY_4J8F8HZnmxMnmszZF1bzAisGnYDvbV4N9J4AOqQit9b1K8yodHlmd0Hf4Yjcr3v6oz-3fdq_3_BHbnEQRrdWcTGyd9v8CcK5GLEu6iQtG-JigeOY35j003xY2yUCpg2ZrV9LBHMxNql_0k_Hwi6MVsSoCl2jmh1NkpgqPx1qqbClco6vg5Maeed8Yj9gqeYUdMujB0qsy_7NP-zwmDgc6az3fgPPPffonwN8Qzr8akR_74SsycLo2YJzHsT4iVyTp0XzlG9_2GfDlmY9cx4Sh7cKBdkUrQsw",
+        "width": 3072
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108202375161374310999\">Sterba</a>"
+        ],
+        "photo_reference": "Aa-ngMYUIF_pPjm3BwLa7VSO5aEf4l0PVgPHX8R8mGFyb601r4DfnqRxuVY-sXf24qCLwONKN3ng5_7Bi4EOp5IGEAq002EILOe9-0c2s6Y2Y3BGo_evCYWWmLZFuUF0Rip8mi6IM0L_y2u0076frmlV2u9KBkzHzeIcEb5S388oS1GM-beeSg6YmJ-h1J4pJlMIr6CGQ2wnP4k-v06c8QAJuNR3ojX4RuqcKP7VMeGphw76ma9ZA6htFdaXZkR7ZT73dXfL8xyXYRKqTZ11ONoP_Cdxkt0OeHq3tki65VYaD-YkJ1JP7gheBmFXL4GAQ851MqqXSIl3PgXPkGktvI3UrlwR1XnAAl1san9H-cRvERaCKcv8vbEV8pI8OvAN7ui4-b5MKn7OHTQv0pBJNdvashk-3bP05Ag",
+        "width": 3840
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMar6hS9Vk4IbL_BHz0s96C3teM5MNx7NKNmxZuEg451w-TsijvZwi8q_eZbNOKuBgsfyBmbHFox3cPin-NIm6UNq_zFSa4Um6bbjlSuuFfNrsw6XYohQF5RG0i_Dq5sEnte-U0fGSSrsXfjlCOKcZpWgnng6Isc1ph3cDd5vapLE3HEusebjU3cYxWE9siH0DAnoCIcTqcXwOr8U19jcpL6MgPCK41wV6rzdk3D4zMTmw6EdQXy5VTieyG3uzANhoWi25lWlMvSuzsMmXdP6k-mLeNP9Hbt-fH9wG_rfyG7DRqMKlVTH3DPUB0dkq9ZGOGlx3umI_yw9Vma3MgIF7CLfox1TkRkYZCKM-KMgD-Z2Vx5uJMb_cOgT2k8VyyGDJbfZmUoRqa2Kev5wAtN-yPB0D0",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMbGDo823F0_dk2-fsJ8buW_zQ4vZjifXwqMtU64CSBCsWLtXP_y4R8GBzqQtypsbmGp14Va9yn2YJLyjBZkduoWCfQdPBCOPdlcl2CH8rpms3ivyj5HTa_maA89dV37uWggPKSrKRplV9D_2pG1dHKae0TokE4f7Kl27vEeO7b3t55STspiFYox90rcV5SYF090cqHdd80P84dVQuNKVHJ31CGwq70sBGIKkvza4YpEcmnjGmi6gMEAiTdNrMZxGF3nc8NT0Djf0wr7SLdz0Oj9lqxRztHnXUJmwUZi0EWKUG3zRHfrCvWwC9PDa7Wlbs_NkmmW89VQzGGW8iFvbsYOBT4ZbEEWJFHdJWdxV3Oft3RLPo37O4l7_up8RrRHFtCcK3F13UsNjhHvWbL08RyncTMW02w",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMaX0m05VHEHftEWtNqi-y2lLDPPb4ZsDWpQZRQKiGwqrT--Qf7E-AWx-Bv5DX-ETyDx8ukE3tF-mnxZ1xtnXeBgwNzUMfFz2OM0VsIWtHeOIS4LVpPdiXG1ICG4rNkUIORJyFfFoMvYZX0aSR947oQjgDc4S8FJ2AbBsZE1T4ktT1X28diPdA_K4MLkJBmLjYOyIIqtFCYdnPzL1_AjXgQfOiQKpdCh8maC4IsRKNUx-j-HK8P-aJBEWpq-HYOmMKMIfkNM0hwP6DDOPphvah5suy8ajfYTRnSl_thupNmTscpWwoP3Gnwjj6878GglKTmR4oS8PnPvhkLPpw1HUgll02Gv2RUHbN8J1h-NRCfbVY2Hv0soJ3Ggb-DrXL65yr8o3OkcTbisEl3A7h818WrDRQ",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMaKz10zp85BSK11oZJCe-vsw9dB5Bqh4A34LUYyVeoyXh_ddp6qS-pRnxCRmkWuvM9EVKgEc6IcwOV_L4wB0YC4Mwd9cZvgUT_G3UjW01YuyvpMbfqF6NZ8v_E6dELUE6S0hP3EvMvTAW5VnvDhfN7rBL1MH3Cpa8Q5XXYq1utlb1qMcjBJQ_2PmkTu8NZuWn0RQzFrQTebp-3Xrfm9ePpWHQ07_X26aAEJuuWW92ISQPCryZa52Hpbk_Pm1zaBsTu6cgpJuyrjszE9LdggWsDl6j7z-OhDF1RpjhB1R9LpVQ5rP7KmZcUN9cQMc4JXxhIRVivoQViSZVdVLyFArv3KJVIziTZTyxbPoORURAym_KFixbwPuO9orjOEcbmXQ1uU0KYV5d05VIDOIRGKYhLjpw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMb-3EYsuZLSTJ_X132wlggvUoAP6-1ewrGj-r74uUT9lVnTHoEbwWxT64zMF0jXgwrlmDf0O1TKBFDB3AUSb7iSUPXCJmjj1dk-AN_HGF5PO-sBvpYjN1moGgra8iVfRPQ0QrR63qRKG4YMvfP03yzjZDBk7yOQDLlzvBUkDwjF1acmY7uPOXsdm9Y8lvqjQXvtJ4QA3tuzyx9rPpOLTAAyi4PYnngm43GPdHWizBzSNxbJZtRICVYfhBbKA-0Moa12G7bY6WF67GroPzNkzx-O4KTIC60Mjp9sYhzTvHtzLxX7fpig6FF4MkUGaaSR2rYi2Tl720BvMJAmK5Zv_-u44AibRcwXDzUzWKP_-dq8hG7PPrxDaTLeaYpVXiePL2ndorE4aK8hFxguI59yWo__dw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105665669516042882519\">Martin Soon</a>"
+        ],
+        "photo_reference": "Aa-ngMbgOmE9uzPQ4q-gYY9fRDR1JcNjxWZ_ve_MKhW3QHJA6UtAnaCWlWPh-xiuZn0o_X50mN9MnJ7YJKnf4iKKIRg3RzyAsTp67odPAUmsubAXiZsGWqnuKoDiVRSu2DACmpJ5VCsXRDU3Jg_xky24K1aGGMzaTIlzlBTjK4zoZXBQaN2s2iodYxmSbCDqovICHQ3qprTEuNZMNown_LZ3ccdH8UYYmhLABSLtkrvg8HQYgIbtgeg2RBAzKlx1F1PNxQASu-Jt5P7D11QrETbiMIwnP1pm41jdsmzendVMH97fWMYtF6BL6gurPMZh6GWiQQoF-TKU26j8T_wln2VZnl3gQdZwM8MOzT2OHn9cPxpnHhjs34CNduIqHnTw9Dxb3S6h1_t2XKnnB3un6rHuFzvsPm4Rc2I",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJg7sOEuc7hIARWLOebZo3IyE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=2387813363840103256",
+    "vicinity": "1839 Olivet Rd, Santa Rosa",
+    "website": "https://suncewinery.com/"
+  }
+}
