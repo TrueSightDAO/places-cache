@@ -1,0 +1,216 @@
+{
+  "fetched_at": "2026-10-28T06:45:02Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Bluford Wine",
+  "place_id": "ChIJB8V_Th9fhIARpyhirirqicQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1124",
+        "short_name": "1124",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lincoln Avenue",
+        "short_name": "Lincoln Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1724",
+        "short_name": "1724",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1124 Lincoln Ave, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 965-1199",
+    "geometry": {
+      "location": {
+        "lat": 38.5756386,
+        "lng": -122.5800946
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.57702098029149,
+          "lng": -122.5788473197085
+        },
+        "southwest": {
+          "lat": 38.5743230197085,
+          "lng": -122.5815452802915
+        }
+      }
+    },
+    "name": "Bluford Wine",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101389622891312597244\">Bluford Wine</a>"
+        ],
+        "photo_reference": "Aa-ngMYhMuDvHYxAHsR5n0UKIqvTfRrGWag7OkQgW0IO3OqyuTm8bShaPQLcquyCVlAkc9hdNt9oqiZRfFt0_9cnn5kLg4eaY-O-y57vVUru-kftEufwHkmYFHF795ga_S7S8fri7hX5ovQWti8IpKoLzOnhnNgbjf6ACvjDw0cZJUAVeJnok-klfvtqJpkgLIl-fl3N-DaORsAc9cOQPzWi6AJMc5EsMfBRGn_Y6GhXgbOJoq0X-E2EF9w_-NRUYSbiggW2N8H0mxFl-qWHQFcwwIM5vp47iog_yEfeGsHRVRna-4eSEJ8-u4ulYad6WtGh-t30Rq1F155xPlbrRKY0aNrudhRZkvc2z8qY3m4fN2hrbNawo84tigifCFGPu-Lgfuh6NeF5xkOKqML55sGgUJW_rN8",
+        "width": 1500
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMbIhPebcNzKBaxXwkldm6892qIR9b5p1Akab4GbKDl9imn7d090YQcQxcWSOp-cFC1cqJIguIBnxlvkFoEJSp2wAFS2PZaFT7-NAhnJ-nkoYj6NMwQ3xgGzFMuz0qGTGn55VGxeFWyjpQvwspWjEa39wrdz5O8daMUkVW4hZ329kekAdV3OuMuEblntghwRLw226xUx_l9g59U88CZKB34yJGS0OVAf_OOyjNh7UsvnQsGpa2Ooo5lT7y6ViwBSsXyoqyR2gLGF4if8chOpFS62Mili8UYZK4R7LQZY5r_6eOMFEzIBWOtKEfahf-9x747mDdVz0LAjjOb6l2bxczN6D8FhXswpjNYYacPZaQ1o5KFVymad-4LLizgby7GH7r_vmlV1XTJHOrxfuVbY3pWVGw",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMZMz7z83yCrckjivjEqPOJFjVPjtKWGKZ97h5JR_Z-_HF2pvdHP64TuHTLFHH8kGh94iNpJIfrj9PeuZWWZfUbMqDI1K2OaQQAaj7DNQIWUMonG1zHvSf2Hmb57J2AwQoEy98h1IUlGZ-1_ZYgIwjuet9z3fnVpaNU-wIKc4aE0lB9cwY5Q7KhWA2IpdXFe_7duvWWkm-mx6ONtdYMlccvP0_nOD3EoBX7NaTbGqh5jOOlW93h3LQsHeIcBtchk3XXamWYvwoeVg7XCdayvim0dPfvjsnzeU8Gb4aMZgjmBTKT1fxut3qD3D0IC0EpbDEfIf2c-0hC9s3JVnJUpqZEeBivXcZ6aEDx8X7HdjsE-ZbwiD062sm4PzoQ3KCdjoupFp95cdSjZtW-VUTJyJzqqSBQ",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMbc4HJCajPDR-fb3eB_JBYQ1XrP7SaUKlE_i4L02UDM9esbgLhpjGuwgs2l7RnABoDEnxKugGy_xpEN9PZyyvjf2xYkCTsXWeUFvZdSjuMNPOpq4By3NsdxP3B8hEF4fxUTkD0Rrcj47kk7lW7jkJDfOcJFJ6x4F843-DvlOtnxejTHeBiwdZXaGHd_ZWN42J0ujXk1chpEfBA2m7WQhQg14AEycTXUytyJzsOf1LELLlTIntHrl2hbfIRmME-NWz-I1AKE8Q_oLZjECD-AoybQe9CntjRY9hG2_lIw-XO3Cvc3Pw4tb7GTL9Sh3Q8ioVePPqSeKUdjBIOIW9PfwOboQZYT_1_vCd_MxHNuflDrJkhXpknv5pLKugLHG5WFVqgSTPIpIONN3glx4Qzx1Ny30zomAl4",
+        "width": 1024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110166441071545999894\">Hayley Miller</a>"
+        ],
+        "photo_reference": "Aa-ngMadVjs-H8EexmWyWsGU9mOxmcq7GeWcLL5TloTleCm5FAIVWiiyIiiJVyDyK4HnuQHrZyIEfAuTuVsUAtdLrttVtevB1Ia_0HeMOD1fmcjaZIXmx_X0I1HU_S-pqeGkHvPs0VhnN194mcE1Mi6netUolFoFyn7vf8m4u93G67yg8JcCPpOoxiVx8fRF-o0Qk_ZNJZkAY14LcGjrlDhTlRi27x-89dXo6Wn4gkp-3sDEjWLC2oQXpxScedFPsNC_D33ZT450PsORDMFrRyohMuUGmVQhh29sASaJvyu7CzkwMdGGMHOIZjNR3X2MGTimGncMdwczqOwu5gcSuijlrnE1MFjvpm2ZXirodx5qO1Jc9YIxhd004819NvqPGCldOniOtATX18tnwKRfhb_sUBup8Fo",
+        "width": 3024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMYphuFrRSoq6XKwyzZ5n6cvHEiukTohciZNgpFZ3vlLk73rmNkB7sMqlvEBhgoJTe1WIgOX5hEVliwPa_tknPPGAPfH46NRmFQ0_dAsuBi6yhLZNygfNWSnp4UMdqF6oFSl4J8Bz_gt-Pf9M2cYpaqExOzTGTfj9HC_ps64kB3LUYsX_P-jy0aOZywRzmnDO8wfJ9ih1Vf7Ol0Q_zG6ksTLJCClKiQoCPLLbhwAFQdw7dtMmkEAJ4eTnUOwleB1_gRA2oeFfWs0HRm1HpuUXgC1wa33xjf9D_oJFJi79aEFvqhnX2aOQkQCC71gyICw0qPZ8L6W5WICHCVdMpFndpAXDJDjHTUwUNvGENJZAS07UedmsOMUxLQVgv6kCt_wb7GNuA_3ewtVxsViE-cCSg7lHA",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMYCMzF6yDiftYLHEdhjUhjOmn04Yem9jFGd4cfeTWzrOkrQBw2gN6_KFVitzTObNw-Lc9ZZBNGxzuK4T-ZAloau1ecX_-ZDhfJt9qmdHTd4iXmf2OdLFWmZt9eLEXoGCDuUxpkkUsyCLAuPKJEdRWpmzVyRTh119ll6fHwELSU_lhPRNs-PAqDegbXpN3pS5h8e8ShBRzgzH1cBy64C82mvmAN-R-vD3kD3WPPZjvvze242hvQ7Tbc5ilUWtLeCteBKJV7rfR505AGy-9bTkBI8eRS0Bb9jNDbD0YAKUIvq2CnjiSDBVnahkJtnq41-3uqkvTV1LBfcID1AANy_sfPVdVhZnHxhfy6NMIKQ1mIiJh1fTS2ayIEzH5ME-dwb4ExWmZkGYocnb405EbQWIEfkJN2zOkc",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMZ5JyJeYwkqifx3k9SbssACljQ5uSRfI-zwpQA1R4sVq_efAvTXdJFOiynYjcon_YkwVewLK8wi4IEKGyyAuHJdkwK8bZZ1o9NAXvayeCEPWjroXEALWU5eumvFAG8DXmz2hQYhDWax1Wh8TLmS3vZcCxNwfXOgSleLnaX0RJ_HjgzyLMyGDbC5xf3aq8yKIOYiL_YuaBPktdrPq4-i7ixipVeFMHea4yvkuIhUNTBgsPPsHTQj469g22DnaaMEX6LZvaYUJEI_OlzGeKgGvVUfO55S1bA09-mkAfW-JskKXLJr1Sq_NDTv1z30LZ5YykSusq2g-cn4yUOCwpAPo5Dp8DzWOQlRH9LkOBXgXnIy2XnpUD0BxSRjskWPQ9FVazQeQX-M9wZ9UL3ZRfhlqpKPM9P-mhA",
+        "width": 1024
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112606856573846836905\">Spac Attack</a>"
+        ],
+        "photo_reference": "Aa-ngMZ5bSL5nZ3OixZ2tzw3UQZzbIKOwSGzf6ABVgYjcSf4vJDZY4nZUnF3CPW3uV7LLgAJHWBeLND6pn-UXcn0qXXHx9gG24BrQFIkXZs0vA-pYOun5CB4CvOVH-6ppi6k4QMwskg7ECgxdJMBkDUZEoUmHq6Gxd_3dorpEpAdWxx6hOe0xaaZ5IyLn97J2mF_VKrw7cS2OVLBgA0ek_y2uudoBbkdqhEUa9Z_UviZipzhTqMft5uA0B3nSXQny9W0GbM4eGzXMBAaLd_h333y5x5FDnf7UEb9dQIIhE8OuNVVfdz9cahQsFekyIEf5CyRKghy0qZYaphYe9pgzfR3NWRzGloL6adk145AbX5P6AzGAZdT__BRvGJkDpjv09b6zvAErKUxr2_JYw1kz_4qFwSOpIk",
+        "width": 1024
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103721369244726076169\">Lauren</a>"
+        ],
+        "photo_reference": "Aa-ngMbsyaLid3R_224Y5KxHWy_eYn4PkwPpKuD6vWKUWze6G5Y6Y7j1yVOJ5yf_ZWxM9d6lJDiRDBnr92AN98B2Jl-qgtg2nZHkOMK-EsWxI6CF4XSw1iYZOoI7WHn0yGZadWPwmbbv9w2GWKBOZnDoC9Yz93_Vm3UKz8YBTE3UyVuYdWM4pj79iizocH_WIChvw5CVvVb6SSg5Zi-u-njFgPf2cnxUz_B2Wcg4wmAchqhBiRHr4r754V8M1Ls4EtdQ853jg2NXZyMyyza5Z667cWKCFLlo2ei4AFYfA2AA5bDSRPQL5xQFPXS_yxMadi6GrMhyWPP_NzFKkEI9rp6qKeXH7ArsxpVynetReA41pAzmHw6HoEavbs2FyqPdh-JOtRw8qEuCjrngMhZyaWzUZpeQZb4",
+        "width": 2016
+      }
+    ],
+    "place_id": "ChIJB8V_Th9fhIARpyhirirqicQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14162107972278429863",
+    "vicinity": "1124 Lincoln Ave, Calistoga",
+    "website": "https://bluford.com/"
+  }
+}
