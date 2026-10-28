@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:44:41Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Vezer's Family Vineyard",
+  "place_id": "ChIJ7xekJuAQhYARYvgLXMOomN0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2522",
+        "short_name": "2522",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mankas Corner Road",
+        "short_name": "Mankas Corner Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fairfield",
+        "short_name": "Fairfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94534",
+        "short_name": "94534",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3134",
+        "short_name": "3134",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2522 Mankas Corner Rd, Fairfield, CA 94534, USA",
+    "formatted_phone_number": "(707) 429-3958",
+    "geometry": {
+      "location": {
+        "lat": 38.286116,
+        "lng": -122.107615
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2875684802915,
+          "lng": -122.1061688197085
+        },
+        "southwest": {
+          "lat": 38.2848705197085,
+          "lng": -122.1088667802915
+        }
+      }
+    },
+    "name": "Vezer's Family Vineyard",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117527276586256156109\">Mikyong Kim</a>"
+        ],
+        "photo_reference": "Aa-ngMYFOeB0LQzdrNoRYz2ctimdrCQ5ZWPe7T9iEpzUAmgbAnoCbBAVqii16gWpZgDvhGndv0gN-eojUne-X2MamSb6EvpnfAItfGB5-QwqaN9I8MaeKLR8N0y9azTG34rSQy8WCXGX0pjsFhKQE_4D3obJ681SAy_ruSs1nckd0jfrjpIV_l7WHbdo0tpFmQtLh7DgiYCJDyqSwS0tTitPVBM-Xhvjei1GW2vU4zavCBkTXyVkKwG7i7qiOATueZWfpg3gvdivzTvMC3oxA9GeFvvX1eRuCIah9PMpgaFEyNwEMDO7vDG0Qktaq6U8wL0luaniAzRMfQqWfT7cMq0cKQ5Ub4Wukz2ULPx0Kx8yBfrtC3LnHk5gRII9pC19UCt501_-1R2S9EsiE-Qxwo358vCUig",
+        "width": 3263
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113011224316992458542\">Tim Bui, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMbE5brCGFCSWmG7W_b0WLbSA-IKhigC1BuAliGgAzrW_4ZypoZj3r21rDpfDujZdM0ueld2_hWxkv_C_2eGYdxeQdLTlGrOYaU52m8FgXNO0OLB-cGjIv5XyhLOOckOWLnM4myQLO2parWeMfcjQbuC3p3-LPWWQKFL92x2eFEJAfLrUZF68LZQbKto9JV8LY7-PpOPVuNvAoD0N4Q4LzcnBqA-RXiLHyQYHRIHMTJ2jCSdYy_v6FMQpA32sevkh-5d79eauLzwb3_iVRFQqV-eV5axhyahNbcw2hrC-t1JY8XVvAq0RlK_C0mqNoAumZyOPv0XK_xM0ODVZszB-GTcHMnQPh2-SQ31XpRYtDnTraTc5FqYuiul8OQtJKAqz9L_Scus-SLWuzaKK9n8GeCF9SDhWfQ",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100971089619605139708\">Devri Anderson</a>"
+        ],
+        "photo_reference": "Aa-ngMYoCFfPFpyQeiekJcCYep8-MbeVZMWtlcnTx6TzSVM0RJbZEjqOcoEOCo73qIYqJzlGMESkVVdteEbBm9bom5-EWc6b5W3MVMIP_B_K9nh7ujTSIayFpoQYRRtIQ1gENH7sFMLBnKDQC7aN17gY9S7WQgczF-cywLyse5WI7GIgCQmqVs5YYRAo17S_qnwrbEozKwkG2A-cuzRzB2zmqP7SmZeMzFA1VtyO5yFfjAOkPVrHVutptv6V93R-C9SILh6MZjilFo8W8VWUFqFt6r1NHU_c8JU8T1Gfd_GPevRuf1sky2oeAt9fdvUbo-4ku4Qzrm0A8P50kI2C0r0mtDo868m1ix3HIY-W7_0gARg8lgF4USANV8guLNeXcPwyL6nwaWy4d_ZB82_laHVZjtXzXG7diqk",
+        "width": 4032
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113011224316992458542\">Tim Bui, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMYrSDrudlpw5KOigFl32T_s2G0PPDa6XYjpOA0nsJOoLuE-c9YFHj9GD__hmYxos_pkC8xR9ciZ4CFUV2SFibUPsAnooypdNrLVeRYnrtJrDdHMCdTojNvCLDYNyWmOZB5mduTZOt1jrBVwgMXMSwcjNglmRAf6yct8QmfqALOfGd0VREVUjZH6USinSLzSK1lDrkqnuWvgkmdttTZJ7Q8bWGsZK7xgp9bIwfOsyrC7jINKmbEBcO4T5giinyixXFjBMYC42glE2vyhzxpqooJkATk5PcwpjUWw1ZIa280xmuXq-B_VvooGEobWlMv65aPrXg0s0IvhuAMLoQ1nYs1b2DdbrTjEDM7LhUXs5ruMNsKKCea1QOjp4S38rscMTfundRllndYO1wyJRUjhREJRTCY",
+        "width": 1280
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115403894615852818420\">Krishna Pavan Achanti</a>"
+        ],
+        "photo_reference": "Aa-ngMa_V-mhaFSpRT4NYp8EGCYm_e5DzkWtS7o7ld47EAiiSZPJeLP2maXjENNExHceZ6UlLfnFJbemU-USyBSUxiudhDptBBN3Ufh8cyvUopScb8vyCT8eupQVa7x8HZI2d3HA_1f1NSFfMmZ8_oznXzp00ZQ1qZ-XHyhu05C0uphCPGeFgCZR9T3ocrh39fNYEbyr84wFfLyL9ErwjtCajISfbiDTEycFyhqRyOITiBZzTzQV6klJQcb8a3EdgmGZUQBGiWQXyU6g4edAnys8Zk5-kq-1v_MHGuwW_diqB69RXFjs0EfQ4n1wa2kQ_1764EwOqPwWcQFwzXcM5JZUOlK5gDkufA0oZw-7niurFNpQIMsg5Q2MNowSooMyIULvKAxxOD3dWpAIr4w0z75Hq0zjfaedoUE",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102872335114612405725\">Bryan Shaw</a>"
+        ],
+        "photo_reference": "Aa-ngMYAjefI9Wc3jYGQrrk7_7J0AhaeBzmWPvJMIE18gKh730W5u36ANU2QKnsqRedhg_Ir8CnX2ZG5nTXNR0Y9nA7ghuAWOuA0dttyhxjAQ-ufJzo73lYt9Tthpg5TBKWDbCZpqtBF6Xf_Bz75hrRxAMwnJ3XVE9vq1EiHm3ttW1MWlGTc_rNKNWtx_bA66tu2ek6VN7v60BTUd8VAY8xyscMsZWgiLlVtG9pwEQjFm4VLzsqNITteqRR15ezRjIJuRWNVNTvJMKp3nt33_-lLAs1Nm2cHFauPviRrx4ThUNuMSfUO93naD8d4nV6A-CZZU9tzDlxcbgAuo0s6ScFMrfHKUNTf_MJBMvGG8Ir52pU1IjzYgeXf6YKgSCLvsHsYwuF1WIB5myD1CTPCJtcrnBjM5LI",
+        "width": 3199
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113011224316992458542\">Tim Bui, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMY8OjzORBPxtUiS9tFr7oah5bOA4jH9h7xQRBLZDmWCLtbLP1UevGAW8xxF0sYyIez7Yo15fflhfmzcNtpqJ92M9_IS5KfSPSaUnggvqtwh2kWS6irIuINyPvkB-VvMvzbFiVu5nWfjujUxiQxN08zdSPVUwR-nNOC-qQios0qkkndpEzCkG7ykt4WLH-DEBbnBILqK_9tZfrb4XBzSEpzGi1X_IkopqG_X_rVTN5PM-xmJ9pJIdxI11AH__pGYhs5y07HFlnMUYe0IotZCHHAYcaegGCd3P4zL6vIIpRp5bAqA8F3Oea_uPqTwam1lhhG22140GfldF-Wt81Hgf4CdT9Ewdf174cagnX04ONFAJEZM0e7rTlDLqxBXYMRqE75XIY0hxI27EsUliprohBaAJQNqk9k",
+        "width": 1280
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113011224316992458542\">Tim Bui, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMayyd9ligL0mK8O7ZPoBR3soRFIrRhH2nu8X6xuvWH4qX48qsdu7rfqpQPIBUd8mAa1GZGZVTbGtkIH-GHjM5W3kROKisfCyRFcK-B2ccBWwU47pSBDxira7W7IOlaKnGenMEuAhW9X7r3lfLlqVNwa3t2gCS5-6fKqYK4JNccnTvjYnoomTwMPwpuMe9nmBMz7a7C-UIQEZSPEKhc9BZk5CbeRZkm_wOooMFGRgzMgvFG6o2Rj6sC3G0GJQSRwjUbkIqKRDssBr0i3euvqK-l0RlW09cOKx2OblGuRMH-8rQWbdno9UvuMoF61vjSGV_qOrbs-fpwrV6LquV15d6FqEIKkmvxGJe1qNnQDy1x7oG9bHYYBMlCWOPuzIAqHvo9yeLJDSXBjurKAq07hG8w0nU3B",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100971089619605139708\">Devri Anderson</a>"
+        ],
+        "photo_reference": "Aa-ngMYhd3e0ABaS4eq5AyoeWDn70yv4gfvLR1mIHKHnLieDtOCC1IfRyHCIEhnqaRV19wF6dFL5Hy-mazc1tHwoocErgjMZ7DqCKgs33rD9DoxM838_eXgvM5ie9QopgvLQB9j1ntOoodx0sTOIo1vzZ8UQNWr-V5yqOqhthi__beWmfyD15w-AWPGRRlqeCo1bLrr7-OlXwFmbRlkFbI70wm0lhY7g1PrswJj8lG2jTJdIVjNNY79k10df7oJHi6bstqi2E4m8dkS1cJI6bNKhh65vmhdmGd2qmEh_JoepwsgIqos3EaCvBSaZoN5AerGJKic2UVYlx0c_WhDL9p--0o9PhlKfYha2H6e9rODWEYeCX2iy_cgqGOtjLuScZBxFiOgC6lIzrDPZWHQ_smIJq57kqzE",
+        "width": 4032
+      },
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113011224316992458542\">Tim Bui, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMYaTIEqVYYAiOPqJ-uqzGNhIPQvaAxs6qLDcWSdeWkW1XHp6kNa6l4IfaKMYPJzQKWBVi-tdsMHvIwGUeFxzybFZUMnNyg7QqDykoyNoMPE-bh8-7n7fBIjZfng_QrqUoCKevI_3Bam44g51VqLgph_MfCmWowjumPDz-aPCvzynFe0S-vnsQxKAb32WeFQP-wcDi9xdNM1kDH0SNz7DtYqbEyMGOOyQjpgWxn_gOFYYCooBg3mpf4_fU2Y1-lyKw4iRX0ZkC7ENUtW5j4ALNEfUqFTg1oTDeL42V4vL8yAPrp6ihfH2qYxselFogZfwy_sR13lA3OclDxsz-sRu6IoGKysagHAZzSwW8dm6myPfE9p0xyW_b6-uwJG7C7nAXdyvp4AnMJRv97b2wPInMsqnK8T",
+        "width": 1280
+      }
+    ],
+    "place_id": "ChIJ7xekJuAQhYARYvgLXMOomN0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15967698035858471010",
+    "vicinity": "2522 Mankas Corner Rd, Fairfield",
+    "website": "http://www.vezer.com/"
+  }
+}
