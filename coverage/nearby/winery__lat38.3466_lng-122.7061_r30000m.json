@@ -1,0 +1,3125 @@
+{
+  "centroid": {
+    "lat": 38.3466,
+    "lng": -122.7061,
+    "radius_m": 30000
+  },
+  "fetched_at": "2026-10-28T06:43:31Z",
+  "keyword": "winery",
+  "label": "Santa Rosa / Bennett Valley",
+  "result_count": 60,
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4368311,
+          "lng": -122.5772025
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4381818302915,
+            "lng": -122.5758632697085
+          },
+          "southwest": {
+            "lat": 38.4354838697085,
+            "lng": -122.5785612302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 888-675-9463",
+      "name": "St. Francis Winery & Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3300,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113688062061575101271\">St. Francis Winery &amp; Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMYclnIDqO-sTokW5GBOh6-hNn20YY4Dsrzocjbx-YqGRztmZ9LPsQ8sg8On2EhTgKmfrQoJocUaQnwFHCgTZTIatGNyI3Y5t9bxTxrL06cCv_L1qusoOrf_jkHSiJteGxodSp9eNWd1Lns3NVS2_PtXJZTxgWQ_K7BC3071S4h2qNYDT2rqn4kh1V1IX0rtZfLvrdjTDTw1fIEcKAXLdIGlQLDvZN7_S0THgj5QTvc-NNG1P1vEZIPTeErczuuZ2s51E0TkBL0YjZ1ro68U7cHug8z-rePCHmaBT5soX76a2Xjg8eEtVtC2ILlSBy8nSaiP6-NdVcsMkAEIZOTpsIiFt-rcpc9ZPhhvSVVPqHEVaWzTD0NsPoOM937GbOAiEc9fC8tM-HKos2zzKqh6wpuy-Q",
+          "width": 4368
+        }
+      ],
+      "place_id": "ChIJrQ1lPldOhIARUKZg-nvMMa8",
+      "plus_code": {
+        "compound_code": "CCPF+P4 Santa Rosa, CA, USA",
+        "global_code": "84CVCCPF+P4"
+      },
+      "rating": 4.8,
+      "reference": "ChIJrQ1lPldOhIARUKZg-nvMMa8",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 1886,
+      "vicinity": "100 Pythian Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4916175,
+          "lng": -122.7239746
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4928751302915,
+            "lng": -122.7226676697085
+          },
+          "southwest": {
+            "lat": 38.4901771697085,
+            "lng": -122.7253656302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-738-8383",
+      "name": "Halleck Vineyard Estate Winery & Wine Tasting Room",
+      "photos": [
+        {
+          "height": 1003,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117184925071315813401\">Halleck Vineyard Estate Winery &amp; Wine Tasting Room</a>"
+          ],
+          "photo_reference": "Aa-ngMbmFrVytpT8lYElNKJsvL0fvt1Amb6qpKbXjCPAKZIzsr-xmPX10xc4-peNgexMHAoG-0KfDapSubXzR0uZyMujeZExVj_AjsZWtgDXcnDKwlpay0fjWng0p4nmvPiwF7Ih3ZEiBeGgUul8Irny7wWIo97EjYeAXEu6QBORtwIrRNp78xcYam-q0HEA-BArrxcjz0VAP9N30bwn2iLvfq3VKx57j2A2gKjpR7j_5ZGuv9g6YxICPGJHxVE0UdTFALv4PlJS8GfDYPsmPED2KjphvvWnQ1S-FB2ioXy3T30Sw1RYQsNofwRJMyYRHxHQvmFSMCk13DcINk5UFDMvuNdrxB1kqsXyCMYU5bdpkKF9RLfQkSSc9ZjtGmZoKLlMqHKzOKb8mDC08SqBt_PULrvkpZY",
+          "width": 1348
+        }
+      ],
+      "place_id": "ChIJ7SfDj0gwhIAR4JmqDdudPjU",
+      "plus_code": {
+        "compound_code": "F7RG+JC Santa Rosa, CA, USA",
+        "global_code": "84CVF7RG+JC"
+      },
+      "rating": 5,
+      "reference": "ChIJ7SfDj0gwhIAR4JmqDdudPjU",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 675,
+      "vicinity": "4545 Thomas Lake Harris Dr, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2995057,
+          "lng": -122.421974
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3008875302915,
+            "lng": -122.4209980697085
+          },
+          "southwest": {
+            "lat": 38.2981895697085,
+            "lng": -122.4236960302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 800-926-1266",
+      "name": "Buena Vista Winery & Chateau Buena Vista",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104625489352747323900\">Johnny Dias</a>"
+          ],
+          "photo_reference": "Aa-ngMbD3aWsvGasBBV9IjVFJ1nMdAF741Ti9z7rD-ca9_au3J4bXCXyWB11XTWBHNxB9-ZIxcSVPBD6Y4VNT6o__4RhvMxCzM9MCJ7HV-7HPJ7RFn8_OBkJqXSc9S4sT3CnoMzLd3WTJ2hRxozSfNPkSZWpvLl-0fuDVE42UgaHEHb4UE0HzS65yfq-BJw8D52ULj9RdcW4NLElJO5FXoScMkQrVpTktVMBCNSS6cGpeTGL49l6d-dS2vx6wPeoahumDO0hlKT3rUyso-DyFommcljxvyFpSsaWdZCBzAxfWV6TivGQ4STM3wjpouU7sMO51Vgp6hzS7VnDyBULJf4KIo8dUUWasLl-Bcm_jivsUiiEN_zy9Ke1LLCvp_QwyK8ovLk1dNA72Z6fICxyCWNDGGJJ73YxQd3Rp-GJ_9vqd_3Oiw",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJ_8MU5mCphYARSa7D9vE5HWw",
+      "plus_code": {
+        "compound_code": "7HXH+R6 Sonoma, CA, USA",
+        "global_code": "84CV7HXH+R6"
+      },
+      "rating": 4.6,
+      "reference": "ChIJ_8MU5mCphYARSa7D9vE5HWw",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 820,
+      "vicinity": "18000 Old Winery Rd, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4029212,
+          "lng": -122.6278191
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.40416853029151,
+            "lng": -122.6265803197085
+          },
+          "southwest": {
+            "lat": 38.40147056970851,
+            "lng": -122.6292782802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-521-7019",
+      "name": "Matanzas Creek Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1333,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109536746427737552664\">Matanzas Creek Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaz5aFSNgr7Z87uHAVQ9tfJDoSoJBo6n3WY_rdnt2HaO7P4WuMQMq6dOyMLqynI5O2nkB6jjAgdcHwaavtTAtRBu4ogiegLVSftHWThQ4rWR_2sbAg5bHANFNGeG9F250RMcanNt5DYkvYXixYUx1D2f9vJrxEC4Lx3pyuxOGTV_gesyxSuo698YQBCff_FomqrFVKv82tnBv_YpQY3FRP_CLWclm5ApvEBE9MsSu2fdL-ifjyR1eykmC2r6vWVakXsYLcv0FsyDnFwH1S1FKrt0h9y81RTBvl6SrNGLv6_cOYNd5OSoEGVazHVxCz_dU1JM5zbOuG2Fw3dCsrA8CKlUJut--V9PonEHgmmPX5pcjm3TZqm1isdKpJSrygu7rvLmx8f-oGhCR9JqaB5nSYJcPQlHpoz6ezygxmjAclr",
+          "width": 2000
+        }
+      ],
+      "place_id": "ChIJUSEhKk1JhIARfn412yLtXbA",
+      "plus_code": {
+        "compound_code": "C93C+5V Santa Rosa, CA, USA",
+        "global_code": "84CVC93C+5V"
+      },
+      "rating": 4.6,
+      "reference": "ChIJUSEhKk1JhIARfn412yLtXbA",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 281,
+      "vicinity": "Mantanzas Creek Winery, 6097 Bennett Valley Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3493746,
+          "lng": -122.5017291
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3507498802915,
+            "lng": -122.5002281197085
+          },
+          "southwest": {
+            "lat": 38.3480519197085,
+            "lng": -122.5029260802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-4064",
+      "name": "B.R. Cohn Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "Photos are copyrighted by their owners"
+          ],
+          "photo_reference": "Aa-ngMbXDQmqdG4pO2s-XXTSwYV4h3NTg5D7MMu4oBI2c1lFbkEfcxT9yKORORaR0Oj48XDU50cwa2JeOF43idr-9Jv4puSztNAPqN0_vq38-UWiL-4DwvMeCGH1xVwtKQ2vLuVOpovJx-6l7LNii2yAlFNjiRYrSgUXfMK8xsYBK9DY4MT27hg49uBYmcgGS0uy0SbRFrDzE-g6jkl4enpS5i01A3TpdO3UTIqD4cKzDqbRKhGsBBY0Du50sJ__5Cok29JvJ0gibv3qVtI-QGGQ7pevBqwaiHZtIha8b6saI9UcpVNZZH3n5_APHhKyIsCKEUjNH9YiKOKk0hh56sbAcaFvEeyFv1URtPaH_AmPITYi8bh2X6301Gg0E7J7nSf-Mej4bK2rVRGYz6tcWslOdOpabQ",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJE8NT3i2thYARmJv3j_UZxAA",
+      "plus_code": {
+        "compound_code": "8FXX+P8 Glen Ellen, CA, USA",
+        "global_code": "84CV8FXX+P8"
+      },
+      "rating": 4.6,
+      "reference": "ChIJE8NT3i2thYARmJv3j_UZxAA",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 759,
+      "vicinity": "15000 Sonoma Hwy, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.50697479999999,
+          "lng": -122.7729337
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.5081913302915,
+            "lng": -122.7713311697085
+          },
+          "southwest": {
+            "lat": 38.5054933697085,
+            "lng": -122.7740291302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 800-769-3649",
+      "name": "Kendall-Jackson Wine Estate & Gardens",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112358605558488662014\">Kendall-Jackson Wine Estate &amp; Gardens</a>"
+          ],
+          "photo_reference": "Aa-ngMZVtgn7yKLzARCnxmv46eTSnGEMcov1840c6tvU-s9nLbAZUYx0tCXoJmGXldspQe1YsbRMY5BP4vgDfqLQ8-qcg9o37VOA9ruJ07cw61O3osu3HpSJbQ9-g4mw4NKwx_-pXkWT5urfqsvRPRGJ80oT5grNd2YHQFMHDibJ2S0iTPYzlCDHD4r_lUybOmisaEydH-V6tmoR8ie92b3rwRElIxln1bzaxP14_iw8nPoR5Rnw4vTd_rXIVldc5piqUg2ywOHQi0lbfEfO5TAb_TGpmn9uSWs49DezHWGq2yM3J7Ub2hUW-DR-U4wxiWoI5c6qRjahNGfM6MLnBkeQA4VySWXwgLLT0M_xJg2m_YtXk4FL5RQx_ZcPiDtlty6TRllI3YjymJXHCwP6F1YiUx7KOc8",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJ04CUZdA-hIARiWQuFazTZUc",
+      "plus_code": {
+        "compound_code": "G64G+QR Santa Rosa, CA, USA",
+        "global_code": "84CVG64G+QR"
+      },
+      "rating": 4.6,
+      "reference": "ChIJ04CUZdA-hIARiWQuFazTZUc",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 473,
+      "vicinity": "5007 Fulton Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.208473,
+          "lng": -122.451803
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2095886302915,
+            "lng": -122.4507739697085
+          },
+          "southwest": {
+            "lat": 38.2068906697085,
+            "lng": -122.4534719302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 800-995-4740",
+      "name": "Viansa Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "Photos are copyrighted by their owners"
+          ],
+          "photo_reference": "Aa-ngMYlEXhKffukrbRwmfHya2VfXRJwyDfrDFm64u36t75vkX61CYwiPqgawJIZ3KC7VwrLHvnUc6X7afjGzjReofhqWb_6L25hp0pCLjMt6x_GNGsgJgIi44Yqb0DD8xDQ_FKoysGxAZ6dW62C5aBmUBpoI5fhA0IIA_x3wYb7LrTd5KR8vdGFgGgGkS4k4i3o3B7RHUvm3fa6V19CkDDIG__XFLITwanHd6PWvUbF7bIn4pVeozrT8Hv_JwYZTDishvHqjF_FNDJOzlKEW4GpQWb21o_agn4hwZWSQlL6O2j8PctX6WmC9DJv7p2mQvMF8NVPkj-u4BEm7YmonSomhfLTzQBkxEdqxvamzdJ-mCm3-uPrQVPGmj7xGK6qUqD3pRaEMSDCG8ochfWCF7-a5Whn9VUu4m4",
+          "width": 2796
+        }
+      ],
+      "place_id": "ChIJRV32UuOlhYARiLE6qTo2uMA",
+      "plus_code": {
+        "compound_code": "6G5X+97 Sonoma, CA, USA",
+        "global_code": "84CV6G5X+97"
+      },
+      "rating": 4.5,
+      "reference": "ChIJRV32UuOlhYARiLE6qTo2uMA",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 1070,
+      "vicinity": "25200 Arnold Dr, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4931708,
+          "lng": -122.7237613
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4946881302915,
+            "lng": -122.7224782697085
+          },
+          "southwest": {
+            "lat": 38.49199016970851,
+            "lng": -122.7251762302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/event_venue_pinlet.png",
+      "icon_background_color": "#B56AFF",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/event_venue_pinlet",
+      "international_phone_number": "+1 707-528-9463",
+      "name": "Paradise Ridge Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1721,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112083322303007424659\">Paradise Ridge Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMb31QALiw-tS28L5rzvWToZ66yvTgPgptOgmDXPbqfBj4Scs85CO2MGauE_j4vZm2lVv5oz5cExz8uaJxaux_plhcr1DiiyKsasbFGS0wvZPqtkaS14HoaI9YBbwRcC0Nv-ES7KWqj65tD02h1IlB6pBX7I4HNpHwzbMq6jM2AtTT02BQ9bqzfA6xQwLai3u2craVZYZj4q4NqPGjmEuH3Vet6HUyfgkkK327-CuxphNVwE6b09tV_Ty-s5Ucun5mN4K41TomYeQa7vmRc_APQs1Nbe7Jqfsesuw4VaeAJ_9dXROPdaYt_I-24-yURCEVF8ohBKXlRwmcRgjEQGTM16l_2_VqhxfuxWMnn49OE5VvH63keNXXoMviauvBDuA79Fl2jBJXgPB2ohdyw_2neciusSzNQ",
+          "width": 3060
+        }
+      ],
+      "place_id": "ChIJX6_AJ584hIARzzQnijEteHs",
+      "plus_code": {
+        "compound_code": "F7VG+7F Santa Rosa, CA, USA",
+        "global_code": "84CVF7VG+7F"
+      },
+      "rating": 4.6,
+      "reference": "ChIJX6_AJ584hIARzzQnijEteHs",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 293,
+      "vicinity": "4555 Thomas Lake Harris Dr, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4000405,
+          "lng": -122.6045371
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4012223302915,
+            "lng": -122.6033515697085
+          },
+          "southwest": {
+            "lat": 38.3985243697085,
+            "lng": -122.6060495302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-867-1888",
+      "name": "Coursey Graves Estate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100626882140735346384\">Coursey Graves Estate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaaWC6Ln2CB3wweHLBIW_Nv0-wRoRoAPj9OEaghj0JkRdFwqGwswZls8Eaqv5LbobJ49tYGldMxzUgmx_TdDfXD_qV-lT7gSOTykBV7aKYWOw6-xYfNX81SU4NaSR485cbnbs9v2r_u-bBxRwUAD-w4cFj48lDRlVtEM-OBGsGvbRZSB6QS1sJv9SATMesgPUQGJGcG3RNXrLvL1vQGi9Jx0wY1Z0NuF2hlKqBgV_fGJbf0mYH2S3utqasQt5LD9Fysy2obVsk3vpCWyq4jcV6YYIoaF2dTAVSi_TU5OYpFngZb17cX_cWZHj7J7cLSjcOz6G2uAx2GeTPb7B7GiO8M-_oUsFs8egIqCXM5vzS9pLGSXiXAMkNnjWMCbFFCqyvyvzuQ_YNGRb8NF61m6LkN4cA",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJnSlEeJ9OhIARs5qShuaieH4",
+      "plus_code": {
+        "compound_code": "C92W+25 Santa Rosa, CA, USA",
+        "global_code": "84CVC92W+25"
+      },
+      "rating": 4.9,
+      "reference": "ChIJnSlEeJ9OhIARs5qShuaieH4",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 488,
+      "vicinity": "6860 Serenity Way, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.441556,
+          "lng": -122.586264
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4428762302915,
+            "lng": -122.5849055697085
+          },
+          "southwest": {
+            "lat": 38.4401782697085,
+            "lng": -122.5876035302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-537-3810",
+      "name": "Ledson Winery & Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1440,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109084941961488838748\">Ledson Winery &amp; Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMYZ9xTVuNaXzIddVOCiZows7wvYO7RSYjkHNeD0AsvViRrYa8b-r4wYAfIvHx3rQ1P48PbtSTtOJHwPZ4VJjE4fXXNkyVMfS3-nBXt1lAOwGewrd99q9yNM9AfHdICDuA8ANUTYv3kvsN6ZgWO_IHuK_I6NFRLxhOkMkjaQmLYB7Au-CNVZvhIAgsUozid_NtiJb5mxqHG0NzrbbJD0MkZMQwZiUH28unTvCOGvXSwZv2ia0nKcSCDEdgG0BscWLTO-onMI1G00tYKHdmFYA9bLAV4oKMB0fbF4qbhd4GfIxrVKOF9WKve_4Cc-lgXkFhWGV-smQtf3wpW8cCHd0gXGUmDutnaaG9rM1dIEBY5QLHdxVb9zCt8EyV7D-kUcFmBA5Csjk9OIoqrRvnVn9HSLEMscC50",
+          "width": 2560
+        }
+      ],
+      "place_id": "ChIJj4naxAFPhIARoiF-1EtF0kI",
+      "plus_code": {
+        "compound_code": "CCR7+JF Kenwood, CA, USA",
+        "global_code": "84CVCCR7+JF"
+      },
+      "rating": 4.4,
+      "reference": "ChIJj4naxAFPhIARoiF-1EtF0kI",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "grocery_or_supermarket",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 450,
+      "vicinity": "7335 CA-12, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4654514,
+          "lng": -122.883327
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4671772302915,
+            "lng": -122.8813799197085
+          },
+          "southwest": {
+            "lat": 38.4644792697085,
+            "lng": -122.8840778802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-887-3344",
+      "name": "Russian River Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108325008455508237245\">Alysa Oleynik</a>"
+          ],
+          "photo_reference": "Aa-ngMYyvSq8ZRpX2BMlXqIVvDszlR2b3jMqGfegsAdnMpxh0EQtHXth7PgZZhnmpHgUps7C6R3imMgrURsFIzBiJk-pRsAtRB6faelkc70gcSUcgGvrt0MjyPD0euouzxe_ATaPaFACMAcUeYetw7Mv9j0sJw4cpLDZeN9JRzKd95044WDq6w8R2vI8hzHo9GxD4qvF6ZoRdWtd4fRGsfMVE_AvEm17BT5yTcyS4IQE_WqPziWz21wc-Ab178EUbxOla1ujK79UfUDM9QdKKwwghYomXGKDYJmvrdWovJYE6EzxLOO1R70n8fHYLQ23IZK8AiVfUIdQglZuUWl385Fp7GMg4tzLrKNYjF292CL2cC-wnYxj_q8sDnAs-N2dnL7xp1LQYNPn8DWMCPETcNdxxVuawyQ",
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJETMVuqY8hIARmiZA1Hp8WqU",
+      "plus_code": {
+        "compound_code": "F488+5M Forestville, CA, USA",
+        "global_code": "84CVF488+5M"
+      },
+      "rating": 4.6,
+      "reference": "ChIJETMVuqY8hIARmiZA1Hp8WqU",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 362,
+      "vicinity": "5700 CA-116, Forestville"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3608081,
+          "lng": -122.5427163
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3624330802915,
+            "lng": -122.5411310197085
+          },
+          "southwest": {
+            "lat": 38.3597351197085,
+            "lng": -122.5438289802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-935-3000",
+      "name": "Benziger Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2912,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110109809529159833123\">Benziger Family Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbzyrfPoDfZzEJ0Zq5RzgD4CWgDrlI1Dskp7Y1Nvz1L2RLnSsjynuDYLc5pKwU8VBugukQedPiaF6UJqUz4UjqyZV9s0u6YDDTlhoZcXo3KnKE6ABZpOIOTLRhjKyFI_tygGVaNLZIIVWNQiKLkjA9tDOPtbj5OeawXacp4MmlL0Ss9_u8F_J8mcVPDa2IrdkSNyoieR6eABLyzen5cfdM2c0JvXdCbrXKF3b8XbYCJNpu9v1AvlJdx_kXo2wWv0JPT1B9ExhV2rijNR4ZUG3DO7GXp05WzAF622o4VIK05ZqePSy61J6UKJLaNHADkItmfmwYvFLFBBEMntfy0_r5fcK-BWioCC8rMb4lMOEXdp3TtVaFTyGxGz7YwVv7TheECyAKEDNqBv4MQLbK1Q7a-z9mK5tk",
+          "width": 4368
+        }
+      ],
+      "place_id": "ChIJh3Sqnl9NhIARImRUxt86iFY",
+      "plus_code": {
+        "compound_code": "9F64+8W Glen Ellen, CA, USA",
+        "global_code": "84CV9F64+8W"
+      },
+      "rating": 4.6,
+      "reference": "ChIJh3Sqnl9NhIARImRUxt86iFY",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 505,
+      "vicinity": "1883 London Ranch Rd, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4104285,
+          "lng": -122.5397266
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4122331802915,
+            "lng": -122.5385246697085
+          },
+          "southwest": {
+            "lat": 38.4095352197085,
+            "lng": -122.5412226302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-833-5501",
+      "name": "Kunde Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3203,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116422502287246339594\">Kunde Family Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbhkj9oHVbo-a-J97hKSok_aTIm3A6LLXqoRf8CFtO1vy2Bk76wbjqe80gadQPFqdxkeJ2odK_XiS07jDFLGMa3bXvxS9LhtVOha-YAgjThj7uSquaQgS3X25XSqM_pdAE7VItR93gvvLI_q03onlSFQ0qfKaNXzo8Osy5VEyFSpJwCpwYLK-kA6WdPOoyxfADtwS4aTH5b59Zu4rVMYJ4hwKAt0bzu-u_-Zc-vw-8RduXwOCa9ahPXaTppNp8rHKPcqVvAiiHZqHL2qAEz8QK2aXjtvx59FuBZAjYDmKn8yBV9z42Xd2bUSpfBhQVN_L9bsqI3rCP-Elc_gFcHdZybq_IiBz1HL4uDRGoxisnsr4HuIfI93cgRL3ZCmv8wqS-bzhA8nQdd1dX3cEh5N4VJreVVK0A",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJma3VbfxNhIARuBvFv79GW5Q",
+      "plus_code": {
+        "compound_code": "CF66+54 Kenwood, CA, USA",
+        "global_code": "84CVCF66+54"
+      },
+      "rating": 4.7,
+      "reference": "ChIJma3VbfxNhIARuBvFv79GW5Q",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 748,
+      "vicinity": "9825 Sonoma Hwy, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4469278,
+          "lng": -122.6037955
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.44823838029151,
+            "lng": -122.6023592697085
+          },
+          "southwest": {
+            "lat": 38.44554041970851,
+            "lng": -122.6050572302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-537-8007",
+      "name": "Annadel Estate Winery",
+      "photos": [
+        {
+          "height": 1066,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109941668213863906948\">Annadel Estate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMYyfWxlriAOIqIbJ4f9ygDcxtbNbiQJ62G5pLQ3AqjHcu5glPgdGzyD-zzVZ4V7ToDQ6UFa2T5TEf5IGbUnoatxRJpfLMTTpWyZZGzEw4d2wKh3ZmrCp_qdN7bhAh_9CfBjwTqqMESPQkGGvdtxUZx1MNR-zv-WSOlWUuieTAA456uqOQ2xwTpcjtNFqPsgWWUUz8ioBuXXqYektJeCjRa8ClPxQnyLGjKhXFbMwZS1Ff-5QJeLLyoaUMJjH90ROBPvBk3pX3euA82PchHOhOP-MuS04jx7JpdzJwuM0hnsXAIi2tUFZyqWal2gtMv7sZkvXnNqgn85Un79IAmD0yT4X6LSLn_I_bluogXSCnj4D4TS-BhWs8oCs6woRT3nWY1BnjSsvJji5Pv2_GzIS7Xf0wo",
+          "width": 1600
+        }
+      ],
+      "place_id": "ChIJo0r-zBdPhIARKKcNoqffbO4",
+      "plus_code": {
+        "compound_code": "C9WW+QF Santa Rosa, CA, USA",
+        "global_code": "84CVC9WW+QF"
+      },
+      "rating": 4.9,
+      "reference": "ChIJo0r-zBdPhIARKKcNoqffbO4",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 110,
+      "vicinity": "125 Cristo Ln, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4561169,
+          "lng": -122.8988332
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4574314802915,
+            "lng": -122.8973593697085
+          },
+          "southwest": {
+            "lat": 38.4547335197085,
+            "lng": -122.9000573302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-887-1507",
+      "name": "Iron Horse Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112319440261278634671\">Iron Horse Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMbrg6K0Zd5FJeSI8bfMcE2sR3RZO1iRJ74c0cml7G0UwRNcYntrk5e871eMXHpBXBnDX8odUYcSxIM_ZbfcQ8IfSwZT90cl9nGE32ZvU5sM1lQ60mQkWrbsvsXh068hhDPiSxjdj7oHXTVHirhM00JMAUFRkofsFaqyxyg4_U3EQ9W1oVE_ECPZW0xyHVtroJRWD5gcvPKUGoI-h-pCYA47VpYM-7Eem9KR3Q7rnL14lKxpoKc6-ZAgL-56EiG_fs1AcSxOsjXDyf6aZt-CjOY7f8pcVpq5Z47MhqqqbVHExKf-i8cWs3tNjRZgqCyKxYco2oiRuZsX2HzZLUVtvEBu4HjH31AxdJwKOO_hXpocW3ak3rnEDmfV1-4qgoGk5T2zNCa4Tl9hbojj-XMnFfHzXw9iCGMuDQwMvlYUFE5yeA",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJx7Yny1U7hIARLKNlRVMJJuk",
+      "plus_code": {
+        "compound_code": "F442+CF Sebastopol, CA, USA",
+        "global_code": "84CVF442+CF"
+      },
+      "rating": 4.7,
+      "reference": "ChIJx7Yny1U7hIARLKNlRVMJJuk",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 297,
+      "vicinity": "9786 Ross Station Rd, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4231335,
+          "lng": -122.5541094
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4246383302915,
+            "lng": -122.5529383197085
+          },
+          "southwest": {
+            "lat": 38.4219403697085,
+            "lng": -122.5556362802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-257-5784",
+      "name": "Chateau St. Jean Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101768228425250555806\">Chateau St. Jean Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaY0Z60BWnwKhzJFiU77Yba0XHSWDfVk1MgA6kskFm2EH9bBTDIRD17eSbSMoFVHpy2bdDqrK3UGysr6IQCR0IBHOPBuSbh1onuRs6CNhh9Cv275bGdPkDN_ch7q6UUgvo-1rdJY1iSl2r-t2Qp9BAjKfV829wu9y0BAnCrxdTactmpoZwI1ul9jyQAeVJMhdWSTdNAtH1i9tLnn6q6FZ8ogqpMWkCnJ6VWvW61J87KX6ITY0Hr5_qmju1R0qnPvb2sIckMLI3-AqxWKggcaX-vbJoMji_DItibp_b02fuAi7vFKhGfvFiHRNLqmoW-cF7H4kwCu6uTAyWm9LYTzWUJ8bCVcg-PcNrulOa6oWivdAvgn0YqBi-n90hJlHY_K6tRH1TaROnCEV0SrLieF4tovGI",
+          "width": 760
+        }
+      ],
+      "place_id": "ChIJD-ePUBpOhIAR3jDZHZO99RI",
+      "plus_code": {
+        "compound_code": "CCFW+79 Kenwood, CA, USA",
+        "global_code": "84CVCCFW+79"
+      },
+      "rating": 4.3,
+      "reference": "ChIJD-ePUBpOhIAR3jDZHZO99RI",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 333,
+      "vicinity": "8555 Sonoma Hwy, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.475387,
+          "lng": -122.815405
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4767788802915,
+            "lng": -122.8140556197085
+          },
+          "southwest": {
+            "lat": 38.47408091970851,
+            "lng": -122.8167535802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-573-8711",
+      "name": "Harvest Moon Estate & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2839,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+          ],
+          "photo_reference": "Aa-ngMaz9SuA47ohySOoAkgH9jPxxBP7EWHXuo3KeZi5feyPMjDuRQdjgxnVyIV-spBsIi5PKEZBimqsvMNc7BL9-LmSh6SpmSsx7wxwK5dmwR3CV2333rsMZUUgu3kq5Dm8RHYChsLiQuH1uL5tyKBtKAf_j8W4z1iQ3eGmHVYZYaI26yHjYxVvPs8K_ls1tD6cc78xcYIxShCObP7WOLUEhcurybsDuAz9viyafOag8NE2GbQE7yi91k9_IBnvoSWJ76zQDSJMVJKUevY_QEvXYBky9r524WaoDzOGPebBts-peCvs3Ku1q6PldKxTh8W6NVQhk7RkM1UG752VRfxsiMHaRq4GYuiRxB2vjFAkN57MD0I9D9CYcFeQe0WTYorzmAV4gT36ghISoO1clhMkkdSknOM",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJo5LGfvs7hIARGDOF7uQFm98",
+      "plus_code": {
+        "compound_code": "F5GM+5R Santa Rosa, CA, USA",
+        "global_code": "84CVF5GM+5R"
+      },
+      "rating": 4.8,
+      "reference": "ChIJo5LGfvs7hIARGDOF7uQFm98",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 171,
+      "vicinity": "2192 Olivet Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2711713,
+          "lng": -122.4607236
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.27257143029151,
+            "lng": -122.4595399697085
+          },
+          "southwest": {
+            "lat": 38.26987346970851,
+            "lng": -122.4622379302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-7211",
+      "name": "Three Fat Guys Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1994,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110452365855454463956\">Three Fat Guys Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaqObHJ79h8viC40xYEWjcMJUZ6CUTL68nXk7smKrdbafluCfPtlV8UDmKTocm6bID9j68WZlrKNyb3xs6ZEVmaF6dz6XIKQp60FC2th29_QfJve461RgLSWPAxfA3oE3UxkGwiwSMv2CMQeLxbMVEPXZyPPYXa8PDUXTOVfvst1-4Vws5iLTxBxl3chrMmGwUbE9kBOJq86jxDDFex4GXmNV34smaOCvDTQNK2y-62gWI1bzQPGAfQ8KGJz48evVpEYaTCzUrJZDZw-WHkAaMo9qMmCq4wuGKpCJpUy9iAOLX96ADpg7G_OfUdeQRauX6X8BhliyWbNJKv9XW4s9-Idw5M7uJviPA4Xe3we7uFO9kMUn3nk-z5ljj9fgbm-IS-nyAatPCkJsSAwF4_5UHAsew",
+          "width": 3545
+        }
+      ],
+      "place_id": "ChIJT0WZ4PWvhYARhJt5yH7z0R8",
+      "plus_code": {
+        "compound_code": "7GCQ+FP Sonoma, CA, USA",
+        "global_code": "84CV7GCQ+FP"
+      },
+      "rating": 4.9,
+      "reference": "ChIJT0WZ4PWvhYARhJt5yH7z0R8",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 339,
+      "vicinity": "20816 Broadway, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4725199,
+          "lng": -122.8134303
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4741676302915,
+            "lng": -122.8121460197085
+          },
+          "southwest": {
+            "lat": 38.4714696697085,
+            "lng": -122.8148439802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-526-2255",
+      "name": "Hook & Ladder Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 521,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106409533663038684659\">Hook &amp; Ladder Vineyards &amp; Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbSCltJuNB6OR5e6uGrTsk2Q8bQ0yYvaNR6s3mlycCcHKODUVdwkm8u8_SaMOmoeONb3sizvRBGIcOH4bBfntF0uZwOY0pFs0QvxGCVu0R-F_QKFve_vWQM6MZa3T4UrIMsyDTfE8nJUWEV1oOQPRY8AERe9HQgZzbmeZ1wRrRheZqisyDiIhagxi4jS-Uf5IcVHQAceAWHRJewUs92UQ6HXhuSOSGVIj30S8ksK3ySWLt54TB1KsruLUzmNIyYpus4LGTSCmguJgD2w5_8LG_yGA03Jbqt8VOVqG6A5Lbd7Y3fQTcVbtpP4cUiree7Z_1q7UdheSXccIOLLukpkUi1nVI_JzyutuhciHiSjQiSysHF7yR1HIBz748XPEOi2d2yNksz6efrzF1tYuUCzOwWprw8DLs",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJPWfvHuM7hIAR8j7MhjiZMjQ",
+      "plus_code": {
+        "compound_code": "F5FP+2J Santa Rosa, CA, USA",
+        "global_code": "84CVF5FP+2J"
+      },
+      "rating": 4.9,
+      "reference": "ChIJPWfvHuM7hIAR8j7MhjiZMjQ",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 175,
+      "vicinity": "2134 Olivet Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3249862,
+          "lng": -123.0394096
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3263699302915,
+            "lng": -123.0380058197085
+          },
+          "southwest": {
+            "lat": 38.32367196970851,
+            "lng": -123.0407037802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-921-2860",
+      "name": "Sonoma Coast Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1034,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112547185202842248753\">Sonoma Coast Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMZ7zs_EAMOWSRG4dz7kKoE7MaUgsCvYbWO7bM2omlM9Cc46nqAaM1Gel0oujCc_nNhLGL9t6RY49GZ2urBiBhzTZJExhGpN4aFoTvr9pSNkUHF2rLoGhXjXSNqjDiPKjDAh0ZJvoQA8JiA0O3fkkrmlmKO78NzMt4aEhxe7N00sLb-lXvbxVwt81Qyh-w7X_5SUpiywxz5MnRWtq7AxfndkvyyXo_hkPKYfKQtqDgTKf0POc-I9u8V5WHizDY3uJ1vaJSWwx7_h4fTZo25xEfP5p6ggdi_k2qlowlj2glibyX1o4EPSp60Pm7stvc0ReS9YU5kxrSsixcrBW_Oghz7YWs-NHMHfRW8us2CET9RqxWHkRG8aUtttarmoMTOb9NVRSH0Bco_dEy3YxesREk7TpG8UnO4",
+          "width": 2500
+        }
+      ],
+      "place_id": "ChIJUQjDfWMohIARmDdXobvby7s",
+      "plus_code": {
+        "compound_code": "8XF6+X6 Bodega Bay, CA, USA",
+        "global_code": "84CR8XF6+X6"
+      },
+      "rating": 4.8,
+      "reference": "ChIJUQjDfWMohIARmDdXobvby7s",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 436,
+      "vicinity": "555 CA-1, Bodega Bay"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3785596,
+          "lng": -122.8324734
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3799153802915,
+            "lng": -122.8311259697085
+          },
+          "southwest": {
+            "lat": 38.3772174197085,
+            "lng": -122.8338239302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-827-3556",
+      "name": "Reichwage Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4800,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110079195054454184841\">Reichwage Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbpcs9M5pluV645fIZWRSGbaA9puBd_8Xjk3U_yg-pBHydPwRm2yK_2NxsEfo-kd0Tu-O2xMyQOzV3wO_0XQiwC6_GY4KKGknpiIdtVlPLJhCJgRMOIUMqfKpF2onnb8v9591AzwH4F-VEwYVgJHZqmjkM06oa9rGaRqDjbsplDNn2AKHkbkxlFEof8G73uhUjyx4gY_1WQuFCuynDDW_yaAaiwcwYyEZhcAyui0uCg1SF-FNnudX8FISWKnlAUrD15cLS8Tg81ahXWYhhk2ObQvM9Uo8DLI3so5AhZMmxMRz-eD3R0V4Fseulzfph2PMUcWM7Gazm1LzmLbTPgHAIyPXMSrDcIvf1boMbFHNsEIaPWRmMpiksRbu-smYgACe5LEQ0zCfqClag6Rcxbd2MOsdOdwLkHAmxrHdaDCQAUMg",
+          "width": 3201
+        }
+      ],
+      "place_id": "ChIJ2d269SsxhIARafwFEv35gL0",
+      "plus_code": {
+        "compound_code": "95H9+C2 Sebastopol, CA, USA",
+        "global_code": "84CV95H9+C2"
+      },
+      "rating": 5,
+      "reference": "ChIJ2d269SsxhIARafwFEv35gL0",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 138,
+      "vicinity": "1689 Pleasant Hill Rd, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3705412,
+          "lng": -122.5166891
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3718075802915,
+            "lng": -122.5154870697085
+          },
+          "southwest": {
+            "lat": 38.3691096197085,
+            "lng": -122.5181850302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-9401",
+      "name": "Mayo Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109257283192247757252\">Michael Mittelbuscher</a>"
+          ],
+          "photo_reference": "Aa-ngMZ4qBrCzBVPsrV--Bk5Die602g7BKOq8LDENiaO3aOTay_YjBhKdsQRlwGXhfJ2_Msjm3DggwOhvfohRx1huTowKkxc5Yfkt3R7oY_3nzhMVsIQOoNGv3WxHaQM4Yee-TJcyMZE8XPbxXd-r5SNpajiSxcH_N80-T8kGF8-AHYpXXXHlxemBW0-OcWFxhxRxR8QsQVw_KH_y6QwsaQG71I8OQt0giTFdgB397gnOgI4036KnYp5WyHxu09Z4_kzOroGMD0BJtbRAlxjWQclA9Rkgwt7Pqa0WhfnhjLdaRrbyNMfUUBRiKk8iz-ooTvNDSIfjr8pYyzu4h5Ynh2hcbHteKJdC_E3hZyEJ8xEqbi0txBgUQX9WkgoeKU5TqIheEoX0yYTAl23FmaDz4mvHbgpfT3LKQPfQwiVO5GHcD_q",
+          "width": 4080
+        }
+      ],
+      "place_id": "ChIJC_F3_pRShIAR60pa71-Jgkk",
+      "plus_code": {
+        "compound_code": "9FCM+68 Glen Ellen, CA, USA",
+        "global_code": "84CV9FCM+68"
+      },
+      "rating": 4.8,
+      "reference": "ChIJC_F3_pRShIAR60pa71-Jgkk",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 339,
+      "vicinity": "13101 Arnold Dr #9446, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3948658,
+          "lng": -122.5629073
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3963394302915,
+            "lng": -122.5615486197085
+          },
+          "southwest": {
+            "lat": 38.3936414697085,
+            "lng": -122.5642465802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-484-0077",
+      "name": "GlenLyon Vineyards & Winery",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103083680711181460122\">Tommy Dies</a>"
+          ],
+          "photo_reference": "Aa-ngMYhIY6bSvyURI3bMwWQPTRh2YEyDdtthkwwyOaIOFMKHL4ExAgGb1UCJKp75WXBHzw5v60NNy_YW4Lzkg-i29eLk-OHotwyW8zUOyXNSEFQgwtsVa3z_C6HCX5epLQstTsN4GU7LX6HDZPQ0TZMA2qEeqHY-GlfX4TcX-uBw6bSUIrnRXJ3tBGH6LZjQojr-VS746-8r_mog4qCVdvE27qyEKvK61bI5Z9hnITDZ8dZ3kL1pTMdvti3cCKBT8OyvDww4c__yqIf4C7HqHXEp3hhER9f8htnb53XbQRzdzLM9Nmcml9cR2Bb4aECq6pbm4MSpPfguIwYV-uCrOMXN5Vf3M3c6bX-0v_mUrS3KtC_y7EVK-4aGO3E9DVzNTSFGt0-EE7zXghxahvrJj6KtdcBqKXRpDv9MMy_AcC7whYFlQ",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJrf4FGr1ShIARH5WUIBmgVbY",
+      "plus_code": {
+        "compound_code": "9CVP+WR Glen Ellen, CA, USA",
+        "global_code": "84CV9CVP+WR"
+      },
+      "rating": 5,
+      "reference": "ChIJrf4FGr1ShIARH5WUIBmgVbY",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 43,
+      "vicinity": "2750 John Hill Rd, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4421027,
+          "lng": -122.8445728
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.44351673029151,
+            "lng": -122.8431636197085
+          },
+          "southwest": {
+            "lat": 38.44081876970851,
+            "lng": -122.8458615802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-829-3374",
+      "name": "Lynmar Estate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1707,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaA6Z8q9ZMJBQNvwPCMgMt2nkw-lTgQy_jCuzjJjsojiGSxUQepoF3u0u2AFcCqOiC7FGkoDRI1OxXODg_Rl6X84TVhyl2okZQSQnDA86gGDAl2DK9GMoW3Rt-hDLRHbaRSMCvG9t7hUREgA6H6H0XgiUpACDryBx7yWUPjJmHhw5DNpmb38bNncqdNryr2smAP-hAx5CKNflrTZV2ifsc1Z5BSborJwlfCr9UnHsvdsONi-MjVHZRzETeexKMmmlg2yraLLLzrN3ZMelpQvbl5cdTJ0ABsbhFbxjOwHkfuVB60cTocCDm-gxHdC-S1LIz_GdfH2ZgoZ0OpeTr0DJRWqfJ-wyGPh_77tgYf9NeQBtTis66mdcwbcDjMgXTiSxLA5Pl-UwRmvhTxhjxbE5xkS9X7R3s-BASzaaY3ljOVug",
+          "width": 2560
+        }
+      ],
+      "place_id": "ChIJF9rH4LE7hIARsWXVTL_zc6A",
+      "plus_code": {
+        "compound_code": "C5R4+R5 Sebastopol, CA, USA",
+        "global_code": "84CVC5R4+R5"
+      },
+      "rating": 4.8,
+      "reference": "ChIJF9rH4LE7hIARsWXVTL_zc6A",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 139,
+      "vicinity": "3909 Frei Rd, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4063036,
+          "lng": -122.5419918
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.40772578029149,
+            "lng": -122.5405920197085
+          },
+          "southwest": {
+            "lat": 38.40502781970849,
+            "lng": -122.5432899802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-833-5215",
+      "name": "Deerfield Ranch Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 720,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109039247028206383464\">Deerfield Ranch Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaij2WksY7KrOOQhhvPifwJtY5rqGtIXdvaW_gnhgAhrs3BVFBw3CWYd7Sf7CK0myX7_CjoUCGfKQs59HvAnCo2qM97ZB4pAdq776iaLPiQigv-d9tTIIJk9rBh7i7KD0VQiNtpB4gVPUoYyHgcbwVEEJ_-gVOZJGuIniMgp9N6Un0cVz3_KzryRKZbuHW1eefkt43ZW3koXOMkGBOewwb4fCPqPim36l33Vkw_D7VMYAglmf56qgzjgwwYYKfPqJTy6c4qZWECHGdR5blo2g7r_luVyw4eAdiracPbx-QQV48N25vVFtxUJENLU78eSPYbkmhDrvpVZqE2C_iD4oLVE88rjhXNeUuXG4x8GUdlxe8VyiBIqf0fRVT7GLHByw6b5_Wcr8PnDkJQYg6k6N7r9w",
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJHUR8R_dNhIAR1G_adVf9kjM",
+      "plus_code": {
+        "compound_code": "CF45+G6 Kenwood, CA, USA",
+        "global_code": "84CVCF45+G6"
+      },
+      "rating": 4.6,
+      "reference": "ChIJHUR8R_dNhIAR1G_adVf9kjM",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 149,
+      "vicinity": "10200 Sonoma Hwy, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4263889,
+          "lng": -122.5563889
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4277425802915,
+            "lng": -122.5549324697085
+          },
+          "southwest": {
+            "lat": 38.4250446197085,
+            "lng": -122.5576304302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-833-0053",
+      "name": "Landmark Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1188,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113992858498240266237\">Landmark Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMb3KsTXqj5BR11kHGGPMF_Opg3y-89JrJ38BIih75H3iVHsoo39kfa1RIERwooN6EalbxHrIED4A_1OdxnQZg3Pv73fqvi5euRFMiExl7jvkxzhH8ZGd2YsKCc4lbDw2ZJo5parFN5OqfeDfEcfZgZ0uyNPtsXKPwNmfLrk_Yb32gckQ3v3_WMtJPmFH9Q35EbBi8GeBWRKosjOiOoma8weoRIQEjE-9mzTIs4PIW_uSvHO_HG7mw6q-ib0sAqopMiY3aNs7kT0yApzVVq5eRUASHtaoys4N5lpqf5xvUEs4-gwOXTljUL2ByJxG1tun7K0LSOvivPhmPcus-Jl8BFhEgSPXaftJqwEqiSSQbPn_AJxhbcdHo4VoOs-YIsN_NqTftn3HaafM9avtmk5y02kJa0",
+          "width": 2120
+        }
+      ],
+      "place_id": "ChIJdQXBhRNOhIARbfygBiThSjs",
+      "plus_code": {
+        "compound_code": "CCGV+HC Kenwood, CA, USA",
+        "global_code": "84CVCCGV+HC"
+      },
+      "rating": 4.7,
+      "reference": "ChIJdQXBhRNOhIARbfygBiThSjs",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 152,
+      "vicinity": "101 Adobe Canyon Rd, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3609504,
+          "lng": -122.5029373
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3619069302915,
+            "lng": -122.5015903697085
+          },
+          "southwest": {
+            "lat": 38.3592089697085,
+            "lng": -122.5042883302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 877-550-4278",
+      "name": "Imagery Estate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103112251080636330142\">Angelo R</a>"
+          ],
+          "photo_reference": "Aa-ngMYipfb6wyIcSlrUNEN2_n2MDjdeqQw-LTNmxoTAxOaF04Wz8psMr5P5PkwiRIbkSLX_OOUtZRH_Z3Aiq4uARnNPJWWD8YgvHN06A1uABEiw1gbr04wklO06In-w9pLCC4UiP4gv2K3AhjaOMJfRORkZ8HfH23nTk8We6ZisVR38ZM4BJgehtP3_TbXBOwY7i4AjeHiYVwqA8uLd1Ctg_WoDm7GIUhqS20vHUplLdaD05ynwMSx9OuMktnX8pD8-Zgoh2QwkyaZHgQS4QRq2pnd3fDUqU8jbey1jwQWXyUjoP9tu748MAuYN8DhnTwqWnhaZGvh5ZJaYqFqg0XRZgUsd6ro3SRCMdzNojnuDfsZG5ydNZC_lGkzMhATjZ-vdDKI8G7jo4Iv6KE29rHktHCuI_BfdObI",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJ49S3E8BShIARJvhnsMKrH9E",
+      "plus_code": {
+        "compound_code": "9F6W+9R Glen Ellen, CA, USA",
+        "global_code": "84CV9F6W+9R"
+      },
+      "rating": 4.5,
+      "reference": "ChIJ49S3E8BShIARJvhnsMKrH9E",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 251,
+      "vicinity": "14335 Sonoma Hwy, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.416523,
+          "lng": -122.5491224
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4180083802915,
+            "lng": -122.5475514197085
+          },
+          "southwest": {
+            "lat": 38.4153104197085,
+            "lng": -122.5502493802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-302-8000",
+      "name": "La Rochelle Winery",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+          ],
+          "photo_reference": "Aa-ngMa9MKWBwxbALSBX60E-NpWdOk1KEmY7a_WbJSjJ5g98M83SUCBW6wjpjA5TLDAZyr9nm9FbQT_y36U7FPY2AbejAsBvoDbCmlfp-T_YJ78BCfkf1LA1j_LyM08NXX06ccvD9Slyt9gVSX3p8mGsOmIwXz9jTdq7VpEoOFEuVjx7Q6nNYVyRCYD77zijzr04Au616JY-93_D3Jp2HlY_Q6SC4_5GAtbqYPx-l97JO5cgKYqdv0HQS_Vl7vQTdObuxJJ8-HEgz9skZm4goNG-rIymRp_117-GkP1bMQuJ3YzJmXDQuMkspnP3Gw62xmVJ3V2Glluyw_143GwWURvYT-_WM5cnHoYvLUZwnTXYAOM4TAncTeo2eHQkS3RzaZ6R0V6uOTHrbyU0U9B_HuS9I7BFjMtWlqU",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJWWh1GBROhIARN4mvNGZHa84",
+      "plus_code": {
+        "compound_code": "CF82+J9 Kenwood, CA, USA",
+        "global_code": "84CVCF82+J9"
+      },
+      "rating": 4.8,
+      "reference": "ChIJWWh1GBROhIARN4mvNGZHa84",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 53,
+      "vicinity": "9212 Sonoma Hwy Unit 2, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2415716,
+          "lng": -122.4807723
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2430975802915,
+            "lng": -122.4792991697085
+          },
+          "southwest": {
+            "lat": 38.2403996197085,
+            "lng": -122.4819971302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-935-7115",
+      "name": "Roche Winery & Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2700,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114837709599071595076\">Roche Winery &amp; Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMYvtRPS8Bx-hS0Q4gWaKjHUArTgLzK-b1NltYPkbe7uk3n8rkJBnjvqeaD7bzeA9aVt36pff0bYZZ5VPH_Bdy4GMZMngSQxdfqi6ovGGHXgwzF4XKwamGwwgvTRbT8MjDXWCx4_6lWozue8PmzuxiwuroJeJgncKlRPlf8mN9RbfZushLlBD-aufXqlCkMSFSc-TvH-R4kRh90u_fMCDRy4dj3BbT7-p4jz7LgbybzPaIgAVfHHQANDeJXUSR6MvwargnS71zV3AQjfcNWLVyd-irglJcmnns7dg7GSel956DvUVo8O1vODOuE9nwiGoGkNxzYKMPR9Bjkk-d7mFDxFQ6f2UpvW6poffujHbVi6unPktvf9UrFtGBAsOhrEuyMZQE4S5-M2hrw10AWoYHI4AUrN_QZwhq-GQmyewUxOyw",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJq2DpZ8evhYARvH7uJOCGi44",
+      "plus_code": {
+        "compound_code": "6GR9+JM Sonoma, CA, USA",
+        "global_code": "84CV6GR9+JM"
+      },
+      "rating": 4.8,
+      "reference": "ChIJq2DpZ8evhYARvH7uJOCGi44",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 225,
+      "vicinity": "22097A Bonness Rd, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4231081,
+          "lng": -122.8141635
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4245299302915,
+            "lng": -122.8128207197085
+          },
+          "southwest": {
+            "lat": 38.4218319697085,
+            "lng": -122.8155186802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-568-2455",
+      "name": "Balletto Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 540,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106151177959900110929\">Balletto Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMZ9Lb1Jj9HL5VjqVkkHAKadZPdwKDfhCm9wA1TTToPhXMUrB-yZzCRiOIzH4k9dmo6AT3qfMsy-LwhU8lJEW34gJQSn7qHC7cw2oORU-1saDa0zXu1uepcL0pdsdOUkrfGKj0SbYsIhZAhffJMKpKrrfaSXNUNxTCuqRnpqiqcYpgEUmgvL6h7jLOlUoryTfN8JxCznmN-GeJMl_FKIc6Ph7UelbLP3Ug7f8aWDq9dD5Djwe8uCbXfvFVyxNk5msZcac_1AIA0ME-FP3-lkvYPCE61SmAOw-26u9N-mIYf-4kmPmc_mIMpaD9aOeavR0Kkuw-IHUd2ZFCeOeq1Ve79lbQEV5s08HYsa0NjOXSHIV2u6-3r3P3602ez6gKQzyiZZg49eJQ0GlTkewd8JjDLUXG0",
+          "width": 410
+        }
+      ],
+      "place_id": "ChIJESkhkx46hIAR_RC8Ya4w-gY",
+      "plus_code": {
+        "compound_code": "C5FP+68 Santa Rosa, CA, USA",
+        "global_code": "84CVC5FP+68"
+      },
+      "rating": 4.6,
+      "reference": "ChIJESkhkx46hIAR_RC8Ya4w-gY",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 136,
+      "vicinity": "5700 Occidental Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5089672,
+          "lng": -122.9659439
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.51030823029151,
+            "lng": -122.9646373697085
+          },
+          "southwest": {
+            "lat": 38.50761026970851,
+            "lng": -122.9673353302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-824-7000",
+      "name": "Korbel Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 472,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106444735387305893965\">Korbel Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMYTe-sWZBew_Kl9kG8z1wnG1i0q1a5An_5j9qImBq4cyesYQ84dMBcas6GLyvOqDJTZL5M7KdazV97w1tR0eCSzUY9ulfbo8yNutjxM6lOjfZbA2JBpaScr_gIUv72ZG33yE0vsKXH_NDjIM9boGNu8BDC4_bBMCKg6lAFV25lDZKlosNMtb7_FxwcZ7zvd4_DKNKfGl_HiIIFudHRISzWmG8RwFpvo4N4s5ah7Ou6u8StDCM5Jhk3_9l76YrxO4JDQY_9PzaNESZwWHq89SoG9NTnNj1HTY2ctJNF20eKBPISM728dG6XzWBEVbyUHG6CmDzz1DIFFBG2OnrRwXqG5Xr9ToCimqoVd1G84JlZm0TYhyN-8bJQGz1exrVtqqXkXDaEIbjzwSjgmEzHYG_7yzA",
+          "width": 1024
+        }
+      ],
+      "place_id": "ChIJYy6scqAYhIARf29RvmsQrtg",
+      "plus_code": {
+        "compound_code": "G25M+HJ Guerneville, CA, USA",
+        "global_code": "84CVG25M+HJ"
+      },
+      "rating": 4.6,
+      "reference": "ChIJYy6scqAYhIARf29RvmsQrtg",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 538,
+      "vicinity": "13250 River Rd, Guerneville"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.367125,
+          "lng": -122.604111
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3690268302915,
+            "lng": -122.6025043697085
+          },
+          "southwest": {
+            "lat": 38.3663288697085,
+            "lng": -122.6052023302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 415-577-8552",
+      "name": "Belden Barns",
+      "photos": [
+        {
+          "height": 769,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101325960073029084418\">Belden Barns</a>"
+          ],
+          "photo_reference": "Aa-ngMYyeNocOycv2gp8QiEQkH4oqrsTyTQPBtrVlaiJ-Jn06GTfJQKhuR9FmizlzpAs5TJURmvdLgTPrG-bitm4GL6jB8tvcWjvwuKHxQahMjKl_keYOipZd7lhuHhs2Upjd-wbbq2_PmC2o8ITfU3FlPMxScTAh02Y_qbKgyFoQMjGY6ksdfpryUGH-ex2lJ6nqppucv2DIRvo0fpZEnWlD4bJaafsns89GbZChWJ2bsEDxJmFy3erWUCXcp2reTW8yMD2Jhh-5DmkPLqJlcGpc-19fWu00Z54SM8SGY4J0FYu9SKWuTFJ6mJuLzPQdkGymy6NeBUt_I-0lZL73lv42IFJYYNbhWcC--pJ82jY6uuDbDR7zAJrmiwoJKM5Y5kN1jH6iaUcOOGXa7lLCvr5IAznjarCLJ8",
+          "width": 1500
+        }
+      ],
+      "place_id": "ChIJy2R9dl1MhIARZ4JD9esJRKA",
+      "plus_code": {
+        "compound_code": "998W+R9 Santa Rosa, CA, USA",
+        "global_code": "84CV998W+R9"
+      },
+      "rating": 5,
+      "reference": "ChIJy2R9dl1MhIARZ4JD9esJRKA",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 32,
+      "vicinity": "5561 Sonoma Mountain Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4347304,
+          "lng": -122.8548526
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4360303302915,
+            "lng": -122.8534017197085
+          },
+          "southwest": {
+            "lat": 38.4333323697085,
+            "lng": -122.8560996802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 888-388-9050",
+      "name": "Merry Edwards Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3201,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112697488601209498950\">Merry Edwards Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMa2ZGHQQzm9FnBGM6r-JEziROrY2Ie4ybPhQnmQOwdldL8zQ_mS15CINJqKJCTsiDmmUZbJXbYCVaTG1Cr6pGZhNd65JWd59odF4tyCwN9deKuXoohBYi8m31V0E5cxtljhF_lnAMMvROw_TE61AybpoPgrsR4Q0Iu021lIAcBPRw9X7fS8GJ6PlghlfufYw8u2SZoau6R2ZnP7sbfXepWGJYAnC5grQT9Wq_6scqg23kSQg0AfLVKjn10uruseMb1al3WYynt1sPyOYjN_rE4JSywyjxxGsm7onGLF09iQMEPoQgN2qmk67mFppYoS88k_p50eNhHPvmvBKwgYb1b4yReAappSjDZfPioMtW5hA-5ykNIZ45nhN64JlOmAsUOIfcjwh9capFiBpbl-BCK-SGrFzOOe3uFiiIatcOSqeQ",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJ0VX_8gA7hIARqvNRLdHqU5w",
+      "plus_code": {
+        "compound_code": "C4MW+V3 Sebastopol, CA, USA",
+        "global_code": "84CVC4MW+V3"
+      },
+      "rating": 4.9,
+      "reference": "ChIJ0VX_8gA7hIARqvNRLdHqU5w",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 191,
+      "vicinity": "2959 CA-116, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4205457,
+          "lng": -122.9001529
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.42199153029149,
+            "lng": -122.8988170197085
+          },
+          "southwest": {
+            "lat": 38.4192935697085,
+            "lng": -122.9015149802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-823-4365 ext. 114",
+      "name": "Marimar Estate Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102120552773031745939\">Marimar Estate Vineyards &amp; Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMY4IVLBdknFpLWw_df-XG-zRe5jIxSmcJDiftCMc5XaPK3CNVVFI2NwKh1gKgSoascdBSk6fYJ7Zs0LQs-8Ah7MXiTQiwBNJFDtVLpoXocNleQ5yHwf3GdDBQbBGyD0-LNpL53w6OJQbC4_W2HlQ_VlEpZnzmeQiikUwErC8i062m1-mwuBJXSX3fzTjeWheti03EcAsoTii_-6CpklWc8JCx9fz4HEyUkLYhKSk5KuTU16y986LQFhn4HnrTtHpPUNUXpBuN3AokRku2Ml-api19uW6b5bt0CoXvFmHoI4CPMPgjOtYmv-np07FgUY4p3YXNNUY558FjWMa8n5NpEXjc7OMcrNgR1qt8pnCePZJjBe9cfbhHe7BXk8TUgvwMMuFtOdy-vRP5VYG2BYWgS2US_uGh7s2pe3rlcsCgNRHg",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJu4nB79MkhIAR0YB5WH8Y9sA",
+      "plus_code": {
+        "compound_code": "C3CX+6W Sebastopol, CA, USA",
+        "global_code": "84CVC3CX+6W"
+      },
+      "rating": 4.9,
+      "reference": "ChIJu4nB79MkhIAR0YB5WH8Y9sA",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 93,
+      "vicinity": "11400 Graton Rd, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5248187,
+          "lng": -122.8321646
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.52621948029149,
+            "lng": -122.8310728197085
+          },
+          "southwest": {
+            "lat": 38.5235215197085,
+            "lng": -122.8337707802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-857-5700",
+      "name": "Bricoleur Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3199,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112724555154726970670\">Bricoleur Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMbb3koW8GueLRQLok53MPbQugs8-VDcNLQx9rOWlC6_gAVveGlSBaJMNhAsXY8DyYGh_ed8jp34r_d8ExCT4XHeR47E-WWUxWhvMOZgfBr4waOgnlIoqLdLSKIxh4PwytkZev2FbCELrLkwBb3l-UyfAiYWbis1HklSHS0EQ_Lk7IkknEISm0rYDNdFyHasvzU8VfDgVaAwZpaKrL1yIHx_PCtBii2jZfAK3OrLWsSFVGZ52n5XHSjBt-WCIoXbvCGMXmDVTQZFx0Lu3UXoKmaZlK3a4MXW0kokIWRcmSs_BUnq8sL9DY6Rr9NKK3ClytdXMcq2nSbcYKUt82Infj3kK_cRLbCwp81nTCVm7wV_OxT1mIAATs9oswjqY1tPScTGrkkpvaQzrVr90M8p25uv49g",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJAyFGBrg9hIARyisTwCsQTFs",
+      "plus_code": {
+        "compound_code": "G5F9+W4 Windsor, CA, USA",
+        "global_code": "84CVG5F9+W4"
+      },
+      "rating": 4.9,
+      "reference": "ChIJAyFGBrg9hIARyisTwCsQTFs",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 204,
+      "vicinity": "7394 Starr Rd, Windsor"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.487818,
+          "lng": -122.8082995
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.48910738029149,
+            "lng": -122.8069943197085
+          },
+          "southwest": {
+            "lat": 38.48640941970849,
+            "lng": -122.8096922802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-525-0570",
+      "name": "Martinelli Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4602,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117979826295696235470\">Colleen Hawk</a>"
+          ],
+          "photo_reference": "Aa-ngMaU9vC9jRxFG9Em8oEj-TcJHReOj2v3_nRshLpezB0kQ9xF_8lNdKbVxYbmm4sArvXO3wyjv_qr6wL8UuiLApC3q-Cmk2XdElYLrLhmGrQl3DiQ79peVkbawY4J5XA8Z_coqIPOyJYoGfqZaNgRB3qKIM3riIv1bh-qr6Eg8qlnlILPlMHo5vnfDUMjIgWpbzcD0iXIVYLCFZp5RZzsXdq6P8t0a7xmZDOg0L92AkOGwoyMlgl-bwQ-vL4JPNZs6Nn5ZQHq77w1IcvCkFiRnAt9K2J--vjUOti4as_kMNfcUIpQ-uSdKTFkW0FBhRu5YIEDyy-HKKLHBHSPgMK_4KOqPoA_nNxY462J_pzHQgx9_RPiyK3XfVi1dzOx46dIpXryVl3tTkQFsU9YXq3NInfZNwY",
+          "width": 3285
+        }
+      ],
+      "place_id": "ChIJY3N-Zao-hIARjcfFiPVxCUY",
+      "plus_code": {
+        "compound_code": "F5QR+4M Windsor, CA, USA",
+        "global_code": "84CVF5QR+4M"
+      },
+      "rating": 4.7,
+      "reference": "ChIJY3N-Zao-hIARjcfFiPVxCUY",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 142,
+      "vicinity": "Martinelli Ranch Shop, 3360 River Rd, Windsor"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.301734,
+          "lng": -122.424804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.30297563029149,
+            "lng": -122.4234782697085
+          },
+          "southwest": {
+            "lat": 38.30027766970849,
+            "lng": -122.4261762302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-509-0540",
+      "name": "Bartholomew Estate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114836851587651583334\">Bartholomew Estate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbPX1dccIb5UKLaxIFmFH5BXbRVxBdRfv0KXoKALb6KdyxRR0EQojIkiMgUmpLVZBGDbe36Dcf-YXhaVSO9s0xym3MeYxPWPq7ytntTRnlR1Bqe7ZMUFPoCa0dnT8wB8yBMIwdREqcspLu4LA3h0eAdhM5imq2gbauaCt5bo_k80otJ4cVdJHbrzRBMYza3uC-KsXTLwfJ_CLBOzVB5vbW6jqqHJRxiUhuTlgcTwUxU-r_z78oOvK2PD-XKJnCSHhxCKK4Cp7e06PW4O9pD2_jL1tTzsT697n97uANAniiFo_0GWF86f9kBE_-NWsT4qSF0TzQj51KSqvDztxFM9iPTsbfZJmgt_d09wjRCh3kmdDXhtnMdrIqz347PJK8QTuJobCtn9922wUw3-8-GzOyQdyI",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJvd3Z7V-phYARATOtRmAGnhU",
+      "plus_code": {
+        "compound_code": "8H2G+M3 Sonoma, CA, USA",
+        "global_code": "84CV8H2G+M3"
+      },
+      "rating": 4.6,
+      "reference": "ChIJvd3Z7V-phYARATOtRmAGnhU",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 247,
+      "vicinity": "1000 Vineyard Ln, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2807396,
+          "lng": -122.4171519
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2821324302915,
+            "lng": -122.4157115197085
+          },
+          "southwest": {
+            "lat": 38.2794344697085,
+            "lng": -122.4184094802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-5277",
+      "name": "Gundlach Bundschu Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 667,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112890724758787096044\">Gundlach Bundschu Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMYpnrCmohh52gx_cdZZeS-AuGxXooEyBR38QG00hdk8Ch9uqiuGh6ECNE3ArZIeZHRCO42vM4dQAwNk-GkvGnNB6wyJzXo03RWUUbQhnv26_FPK9oS-KqadiHHN0miY4MlOtLHjiXR9ExKAuAnI2A4npW8OuTfR3JZbYuYMWA5uaU_WH1KeMF8CHavCAUKz0z0j4rm2CzISYfHdzy3UAFuNov72cnqwVD_pgA9i56LTtioLb1LYFIhgi4h9hykkuOie89LwDwFh8MORaPIER5lvoIciOSBtp9iaR_6S05jQ5OoMoUtH0i3cixR9cGFqVEg0lT4BWz89Ng900uoHLDX1xX5fUz94r87sa7nagUUwjjWr53cXwdIsvfv6z9l-_bBwEGOuxTach48CVlWUAT1Pkyg",
+          "width": 1000
+        }
+      ],
+      "place_id": "ChIJH1iqDT2phYAROLQAfJJ_0J8",
+      "plus_code": {
+        "compound_code": "7HJM+74 Sonoma, CA, USA",
+        "global_code": "84CV7HJM+74"
+      },
+      "rating": 4.5,
+      "reference": "ChIJH1iqDT2phYAROLQAfJJ_0J8",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 716,
+      "vicinity": "2000 Denmark St, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5167442,
+          "lng": -122.8450871
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.5184446302915,
+            "lng": -122.8401358
+          },
+          "southwest": {
+            "lat": 38.51574666970851,
+            "lng": -122.8450871
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-888-1598",
+      "name": "Domaine de la Rivi\u00e8re",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1920,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100653529181987690691\">Domaine de la Rivi\u00e8re</a>"
+          ],
+          "photo_reference": "Aa-ngMaE8aCco-oSwzU71_2FPy7Cn0219zcmsFlyMFe0AJCSCJ5kEzem4ucOUzR3uOGflzt8b6RmbLidCtm2TnwiWLfvv7qvv9Sp7p6pZP8wwG2bs_TqzuJpIHGieQBkF6anDnXhv-ri-pMdQgwXCsScbKjreb2qgqZ3rYWdVfFwusPG_ogxy5VlBD1ZzI0NfuD3xiAF4eZeVWLELktX4C_DlOVtWdJYPNLdao5be2HHDpM-BTuuiINQfUlnroWC0LTrGDcmkOHtV6_GNRTSOP0YS-xVbEoDayn3-Rv6_BmZqYB2RCTXcAGLv8TWc0GxU0M2q6BwFKQsu7tvxId-NWrm83NlyRAN5ZuwnciUXsRHafcxGledGyQiaP1cN86EpXaKtj56sf0n2UIdhgIQTK4zG467OSQ",
+          "width": 1920
+        }
+      ],
+      "place_id": "ChIJOQTtP_89hIARMq3c7P6l2xo",
+      "plus_code": {
+        "compound_code": "G583+MX Windsor, CA, USA",
+        "global_code": "84CVG583+MX"
+      },
+      "rating": 5,
+      "reference": "ChIJOQTtP_89hIARMq3c7P6l2xo",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 190,
+      "vicinity": "6157 Starr Rd, Windsor"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.65291,
+          "lng": -122.924876
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.6543877302915,
+            "lng": -122.9234679197085
+          },
+          "southwest": {
+            "lat": 38.6516897697085,
+            "lng": -122.9261658802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-433-1000",
+      "name": "Dry Creek Vineyard",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 412,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117924695116526820593\">Dry Creek Vineyard</a>"
+          ],
+          "photo_reference": "Aa-ngMbq4Jse-Il4VYRjt5y6vZ613oJG6Z2m-fQOZFdYbcxi_oBFyTxIFaptFEz-CLhpkw6RYulV6UAzKwBGONY8WOFJHvqdbB5AgU95nC8fhF48rsZdfWwrtn3yhmL_cUPAVhm06vv6JM4zLk1LZ1OoV5o5B-Igj-KELsOnvK-glOR56mOHHF2vn2IaENy8fzmMwyunq3tEVjbCmf151a2VnCDE215OyPIukrR-TCBhwlK7di9oFJZKslMBqhWTQ30lUQW0Tsppf9Z8Z6h8QDZTvTRmwLocrCq6Q9pnJFgiBNcRSIj9NdeyYvvCi8lUQt2RAJKp78NuG8ePoEWujXlXX6urXucRrB_z4YUDAJvqNPXUP7WOv3LLzZryWBUNfhqFSjHZ9ZUEumLNKf9d4Ks5HwMRAPUu",
+          "width": 550
+        }
+      ],
+      "place_id": "ChIJqyeQW-oahIARtz0a4VHxwT0",
+      "plus_code": {
+        "compound_code": "M33G+52 Healdsburg, CA, USA",
+        "global_code": "84CVM33G+52"
+      },
+      "rating": 4.8,
+      "reference": "ChIJqyeQW-oahIARtz0a4VHxwT0",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 382,
+      "vicinity": "3770 Lambert Bridge Rd, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.7059111,
+          "lng": -122.9807722
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.7071940302915,
+            "lng": -122.9793162697085
+          },
+          "southwest": {
+            "lat": 38.7044960697085,
+            "lng": -122.9820142302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-473-9171",
+      "name": "Bella Vineyards & Wine Caves",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118044320265407498253\">Jeff Grimm</a>"
+          ],
+          "photo_reference": "Aa-ngMYD47Hh4MaDcDIc49YBURBwVddIbnT8wTEJ8HAYZ3zMp5WPCt3xCcfDcrQiExEJIBojDLkzibCst5WcLEc0-kbnaMONh2Uy9WMqTIb8SP91bhA-BngmEk2-mtJMzWnbDnP9mG-JZm0C_rKE2J113vECOzPkvbZQMIj84_cZD9EV9IuAP0q69yNHiEzMqCeUu2IQ3x_8VzJR9CPnMUHx1iWI9IHodmRe03GPwzQT8VE3jng3yKxqKrKVFiFk6j22XQpboaV26k3QIYCO0Ky_h1RkAxHPtKHzUX0LGrM0clZXcFS5RIGCxyyFNFQ_6pEpgjlt6RYXimildNIBEBHoIcB4i-sP2TlvUhYv1HJRHjrcF1GqB-b4g2QmHliYX3vGq9Azlr8bDobJQcafRNf8DxM0MvFVx7ClEMxegQZHY_k8",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJy3ahB3EEhIARR60LAcc2k4g",
+      "plus_code": {
+        "compound_code": "P249+9M Healdsburg, CA, USA",
+        "global_code": "84CVP249+9M"
+      },
+      "rating": 4.8,
+      "reference": "ChIJy3ahB3EEhIARR60LAcc2k4g",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 233,
+      "vicinity": "9711 W Dry Creek Rd, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2371467,
+          "lng": -122.4474275
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2383855302915,
+            "lng": -122.4461332697085
+          },
+          "southwest": {
+            "lat": 38.2356875697085,
+            "lng": -122.4488312302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-3031",
+      "name": "Larson Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101707786683040907548\">Larson Family Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMZ98mc5n6y_nQ6QPg0FwAynhYK6gEcDd_l4rIW919wUcycnL3sFkvhIoPhuFH7nMqp7PwjXTL20SlA2GiCZsHzg0_qfeGw-GbikJKCK_f6kKKGUHSyR9cu8k7U_2Z2jpjlglYOUDISWSlXtmnWdiQAvdBFMVHYbqa6VW9xTGunDZLuuSC6wQV46x5pwO2-2lsOy_9q-DhDnzbEQacelbz87It4xl91neD5v1tgp3JoPGnBph7cPPZY3lOFn6bCMyczSQAJQCL8-G65k7uLQTQ5vFcewRhcrlUC1_AjGpTp1B1HSesa2E9rOUAn5GBp1PudF9q1Gk3Jl7h39rJaw85e-fZD9_heAniKe_ENzAse4QHrqssWbQkPxaG5UvO3ELh55zZYsCfOENVzuo5-HPFAI-3c",
+          "width": 1497
+        }
+      ],
+      "place_id": "ChIJ5ZX_5kqvhYARsYav7a62290",
+      "plus_code": {
+        "compound_code": "6HP3+V2 Sonoma, CA, USA",
+        "global_code": "84CV6HP3+V2"
+      },
+      "rating": 4.5,
+      "reference": "ChIJ5ZX_5kqvhYARsYav7a62290",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 310,
+      "vicinity": "23355 Millerick Rd, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5729081,
+          "lng": -122.8423709
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.5745298302915,
+            "lng": -122.8411485197085
+          },
+          "southwest": {
+            "lat": 38.5718318697085,
+            "lng": -122.8438464802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-431-5430",
+      "name": "J Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1333,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110726896347639134215\">J Vineyards &amp; Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMb48xi8oDoiBv4oXegIfuqxhHKkdvADsOQJub0sic42bxX2KAl2zgkujcyMGb_JNsgaN7s7Vb9qaeITxKjpDtaE5glSQKldZsnsHw--V31pMoCH5-s44ktKAoS6bIW5gcmPsxkgrKYzXGTL1wQKDhuNYDCn5ss0AioTu7LquDQxcEVamdJvaZz28Jqv_aIrpg2nOrl_6_fYso4KM7ksBTv_QfpIuG58JWw_ZU4ucWTkxtziihqJh7BaJgu87YqvjSBe5k2Q7XGJ7LtMwe9vxEpUtYYj-n6wEybTS19oDOchRuNgVpKQXTWJMhOLUW6A1zarpzXril8G3Qx3zqTVzCgDQ-QuwMf8gtFlydtahWfD9whLt8dDiT5fHPLXlNMe0Xy6uBYfBAc0B0IGfw-JAQIgOew",
+          "width": 2000
+        }
+      ],
+      "place_id": "ChIJrw7m3kUWhIARhZho9nZ6e5Q",
+      "plus_code": {
+        "compound_code": "H5F5+53 Healdsburg, CA, USA",
+        "global_code": "84CVH5F5+53"
+      },
+      "rating": 4.5,
+      "reference": "ChIJrw7m3kUWhIARhZho9nZ6e5Q",
+      "types": [
+        "clothing_store",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 251,
+      "vicinity": "11447 Old Redwood Hwy, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.6811,
+          "lng": -122.9538868
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.68243383029149,
+            "lng": -122.9524873697085
+          },
+          "southwest": {
+            "lat": 38.6797358697085,
+            "lng": -122.9551853302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-608-8448",
+      "name": "C\u0101po Creek Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3896,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115961712926609301147\">Capo Creek Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMbbyRpBrqLCrNVd8bvPVqCONlxX675T1Za7hevXLuAqqN3pDHLNvSrWzSRiFsBfOsVls1HZMP0ICcchHfheE8vdvy6zoyNNygx9SgwKHj54TQavIcMOQA3nNMO4LQ4id1Q_TUvfGRdJ9IC_vas93tGAwsnYzl1akCrnw9Hb5vnWbDcboUJ9ItAVmx3a62ohz-8TNxEeV2_Xb85AjEzrHF-vHHJn_5z72aQkjiqr33tseayIg4miCCq1dMU4I1AZPfO6-3FWvdDM5LIthLDYsxm3QaJpqLgrgkv6rvo1d7rd7EKLD19aK-6uv3vc8ltFxigovh7ZboEV-Da7R17Km2eBukvuAQD_Q1jCarfft_dWWj4VPCkJjMF0ITykqKFdlm1EHroZGoTn4-T9EJd9EeDJrUY",
+          "width": 2922
+        }
+      ],
+      "place_id": "ChIJHZAzAd0EhIARn3WKATLaD5k",
+      "plus_code": {
+        "compound_code": "M2JW+CC Healdsburg, CA, USA",
+        "global_code": "84CVM2JW+CC"
+      },
+      "rating": 5,
+      "reference": "ChIJHZAzAd0EhIARn3WKATLaD5k",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "user_ratings_total": 184,
+      "vicinity": "7171 W Dry Creek Rd, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4622227,
+          "lng": -122.8212788
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4636523802915,
+            "lng": -122.8199302697085
+          },
+          "southwest": {
+            "lat": 38.4609544197085,
+            "lng": -122.8226282302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-755-3325",
+      "name": "Wattle Creek Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2700,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104388039435941604748\">Jay S.</a>"
+          ],
+          "photo_reference": "Aa-ngMav1vpSIfne87aapgQsC3rovPnbhovT_uRkC6paNbZwHYA-rXzBMvzrgfYbDXyPscrKBEgeuVNFztsNZqS0yFMjvwkS5Yaub9GxA98o6FGSK1qzOjKiN317EMTDQz7EUBPe3f1Z6aBNSHW0w0EYLeIyBRqpXoBlIEK8OCjsEtKJhxsvPjlZsYLoo4_v8Z-sNu3dUzr1F-nH7Ymhj7BNo-0VCbuCWnt1qIzJenihDdU0i43OaWV6HTEOU_0fLxS4X0NjZN-6nD2ZHk7sFuyPlGxzIkv8kOj7hAhzCX2hja-BH-YxsDa4cSlzkKky_vdCxq9IfLjSx6VXP4AUd9-R5_JytIK23QGqU2OxYO6Je1Tph8vxrO8rXmnsW4VzLEv37UYaUugYAy2m8Ck91fRlQ1bBNJip",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJLZJNqegGhIARNY2s-SGLOAQ",
+      "plus_code": {
+        "compound_code": "F56H+VF Santa Rosa, CA, USA",
+        "global_code": "84CVF56H+VF"
+      },
+      "rating": 4.6,
+      "reference": "ChIJLZJNqegGhIARNY2s-SGLOAQ",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 157,
+      "vicinity": "Tastings at DeLoach Vineyards, 1791 Olivet Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2560568,
+          "lng": -122.3949341
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2574032302915,
+            "lng": -122.3935922197085
+          },
+          "southwest": {
+            "lat": 38.2547052697085,
+            "lng": -122.3962901802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-938-8822",
+      "name": "Nicholson Ranch Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115629561287344026184\">Asif Alam</a>"
+          ],
+          "photo_reference": "Aa-ngMbhbooK6nevDSalVRA9NFWGjkr60EkrEEB6i2eZNMwH1_jtRlpnx5-4bAo_5Di-qQVnYSUghWbyZTkDP1c00-ejSSXy9fSR2DElm4Q8aBfWpRjyWDbUrIl1y4cZROcTi1PWYv6Q3KZBXX9tBL8LAG08pWAYlR9dEk4XVLbGEOuyKn_cxsdU3UfkMZCKb8PSqYPd649bIR8Ex83mdA-NmKjGjC_bE5v78qvjvQJXSEyp2uu0EcYCLgC03DjLaskZlyuPMR1BkHHMK7k11qgJXXNtStWJu0w_kC_vE9tU1ZjZbeR8b5yyGQvC76V-eeJDHAHgeAlogIklLwTpsoXWZXiCNAG-wP9Q5LevRiLrjxkJQFSpV8P08zyg6PKz9lBQwe20Oc7SpoFb_AcY94IJ18NnIg",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJKya02l2ohYAReEwNeYgBFgc",
+      "plus_code": {
+        "compound_code": "7J44+C2 Sonoma, CA, USA",
+        "global_code": "84CV7J44+C2"
+      },
+      "rating": 4.7,
+      "reference": "ChIJKya02l2ohYAReEwNeYgBFgc",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 313,
+      "vicinity": "4200 Napa Rd, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.65647209999999,
+          "lng": -122.7869114
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.6577954802915,
+            "lng": -122.7859750197085
+          },
+          "southwest": {
+            "lat": 38.65509751970851,
+            "lng": -122.7886729802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-433-7209 ext. 116",
+      "name": "Alexander Valley Vineyards",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2121,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113654858240232324043\">Alexander Valley Vineyards</a>"
+          ],
+          "photo_reference": "Aa-ngMYviE4xTykBRfx60ejdG0ruZRAfndwDceBcMOCykTLPy4ljhRB1lzfUfRY2JCZfcGjHQ-DZQzVvLHkC12Dc7iLCHC3sXMGd2TzsOiYS1MnxxCZk4maNo1j_8nJMfpP0hYbzZl9pFm03cgHmR9wgFV6Wu1aFUssGEhY3jAHuHLVziiu6rprR_aKVomcu6BTmDY7YvEhY-lqdQJiuxQEt61MiH3zdL2xfOi2L1KnPJ4pxKG4HSrgLia8wlEk1KyMXhsj8fnHA-AELHyiniwxs542qniwDTqhGBYEYt6_HRWznqFDfTvEO6EyNARnbR18e58DIHP2lyCRZdrrY3wlllJ3QlA-X67rFFYeCPtqRYknRjb1vhBp8LzsKNTBn-AtU8EXoCOVH8TrBx00wQAQDdQJ8RX0iIFMXH9T4QGUMvfhU",
+          "width": 3182
+        }
+      ],
+      "place_id": "ChIJAbsb9-sThIAR6WL4kqfOO-c",
+      "plus_code": {
+        "compound_code": "M647+H6 Healdsburg, CA, USA",
+        "global_code": "84CVM647+H6"
+      },
+      "rating": 4.8,
+      "reference": "ChIJAbsb9-sThIAR6WL4kqfOO-c",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 314,
+      "vicinity": "8644 CA-128, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3836368,
+          "lng": -122.5247325
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3849786802915,
+            "lng": -122.5233468197085
+          },
+          "southwest": {
+            "lat": 38.3822807197085,
+            "lng": -122.5260447802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-933-2814",
+      "name": "Lasseter Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4800,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105563255747384796575\">Lasseter Family Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMa6mfl9yhAj1HbrF1jCDrDK79uKohRP3qR_9qHU8FcVhQ0sXYBFzO1Y__6MCaWIB2cVrDXzaN75UfYXllgSpqXMJMR8cLs20xrM3wI4mOoO9eFWZd_Ng1hpVZ0jh0VVN61v_Qu5r9PjKx56_2MxgUmJF7-7aw8suX3FDxrKZoVH_42D_v4IAoS3yLzZVI3PuQLNGoaZ4t7PW3d9fE5D3FfVMRCH45s1DzHPO-_EOvUoq5f40XVM_aBKB8e6gDydoxXSvhuS23JljixreC67ak2kPQJtkabUdJy2-kGHVSNEO5jfQAvi0PSPB5-7NJV3P21vXnlbrCBRHR4AZVopZq9jpmemfxNHfqIEUQ9q2z-VJW8w1f4OgWhYNhMOtTFwuRSuDoSNUhx3bTfX6TD4CH-PixYwaWg",
+          "width": 3200
+        }
+      ],
+      "place_id": "ChIJ2e-Pa4hShIARnEmEhbgGE90",
+      "plus_code": {
+        "compound_code": "9FMG+F4 Glen Ellen, CA, USA",
+        "global_code": "84CV9FMG+F4"
+      },
+      "rating": 4.9,
+      "reference": "ChIJ2e-Pa4hShIARnEmEhbgGE90",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 101,
+      "vicinity": "1 Vintage Ln, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5073594,
+          "lng": -122.8973961
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.50878218029149,
+            "lng": -122.8961923697085
+          },
+          "southwest": {
+            "lat": 38.5060842197085,
+            "lng": -122.8988903302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-473-2909",
+      "name": "Gary Farrell Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1080,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103625708132003269836\">Gary Farrell Vineyards &amp; Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMZDH9G-kpLCh4NtJQlZxJiAl2O7m3UgXb3dlzX1re_HKvG-OuWIelnWXJYl9jjq7Ox3F_BJxiGXzIcbXzoEHaj6EJTDsU413SoPGIRSVzkNaDXJO7RhJNtE1VhQxcdfVkrnPh4RvfMZet_hsOFDlJcOUXSuhJDf_bpyiAZnxAFt_QtXwOaVkp--hlxWcyIGamsb6kUwDzlbc22v6Npbo7vNhpIkXYd0HtFmGaoYZPr8RidilentlIsHPyAeiIw4OaCFQlGhLLM1S3uVTGbCXG83YqsaUbyW_4jRKW1-NNIO0g3wbHYXBJQKIRBtsoaD_YFnYcaWUlnrTkSoNDcJ9ydybwsNu_r_oQMIJEoxiK9inh0FEhGpJ99QmrtbUGX2s6WKM08pl2jI2Jikb5XX-i1xUVg",
+          "width": 1920
+        }
+      ],
+      "place_id": "ChIJQUxJQjM9hIAR2LuqvUaEqw8",
+      "plus_code": {
+        "compound_code": "G443+W2 Healdsburg, CA, USA",
+        "global_code": "84CVG443+W2"
+      },
+      "rating": 4.7,
+      "reference": "ChIJQUxJQjM9hIAR2LuqvUaEqw8",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 142,
+      "vicinity": "10701 Westside Rd, Healdsburg"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2366459,
+          "lng": -122.4641956
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2379706802915,
+            "lng": -122.4627849197085
+          },
+          "southwest": {
+            "lat": 38.2352727197085,
+            "lng": -122.4654828802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-996-4188",
+      "name": "Anaba Wines",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1628,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+          ],
+          "photo_reference": "Aa-ngMZ57Alb5KRtxDV7iiNhynJTUbbCoPeHs0BHMMBvXKA-hLTFWpLxYXwRAR8Nq_tPmDQAQtPVYxeN7086_0b4foNmchMoO2l5Yrp6U_ImYi9BNaBX4a-dIKKw2TxD1rccTFwmslG6H4B54_R2kh9y5h0TpW3hFx0iJGsJopbkHMaLEn_YlYf7e7q6y04T-aaK4DfQ5fkQdQDIxhZmyFIqwHavgGDf_0wMKX0BYNbm1Euk3SkUHYo0e1YYOFHwAZODPvRGVoATjqBjRT9lLiHhy2Sm6iJx2NHp8fBF0D0u4iygcE1JeAj69_oAVnBWu7znxbLYe1jj2IafMDvqFfRJqe0d3E9V5VxYf7YWVxHhS8I11qVWFs-DC0sz6LJuzIHFCRIlRnO2l9M9sgT7Ph_zvjCCzpxZWQLxOKI3KsBz00urYg",
+          "width": 2171
+        }
+      ],
+      "place_id": "ChIJF0eWNTmvhYARj5CoMC9-FyM",
+      "plus_code": {
+        "compound_code": "6GPP+M8 Sonoma, CA, USA",
+        "global_code": "84CV6GPP+M8"
+      },
+      "rating": 4.7,
+      "reference": "ChIJF0eWNTmvhYARj5CoMC9-FyM",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 225,
+      "vicinity": "62 Bonneau Rd, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4647127,
+          "lng": -122.8169395
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4660854302915,
+            "lng": -122.8155846197085
+          },
+          "southwest": {
+            "lat": 38.4633874697085,
+            "lng": -122.8182825802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-526-9463",
+      "name": "Sunce Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+          ],
+          "photo_reference": "Aa-ngMZz_v86tojl7VuQdnuBdVOhVFu210nOUh52ccRK2hNIL4gUe8F8t6Fkp-Llo4GOXlbOovKsT5l1vvapzDL_fLPKTVE-k_tyogHwA8SJ14wH131KNlutbnU6EIaxoCCyFm11Iv7WtPvyKXglDbyYG3c8Hw-F1AsP-wIFIN3SL5PlHaq-obCxe6ukncM0DZ9YJr0coCFHxTf2Qaylg4ts7Yqjylrqc8fmAPEkl7tAxOO6UqzmwWtEBxu7m_E1MVJ3xPjMVKMlDdHjCrUeE1QQwkVLkB2GecttNg-tL8LimyCXKKvHanALKQchpHe1eZpebEE-qF98WjifqdcKXmcvrxUajRgcSs2EFxnT87W1da12YlK6JxBHtIJG54P5UVtt99Pz3k9CirbYFp6IHBNopidtFbk",
+          "width": 4800
+        }
+      ],
+      "place_id": "ChIJg7sOEuc7hIARWLOebZo3IyE",
+      "plus_code": {
+        "compound_code": "F57M+V6 Santa Rosa, CA, USA",
+        "global_code": "84CVF57M+V6"
+      },
+      "rating": 4.8,
+      "reference": "ChIJg7sOEuc7hIARWLOebZo3IyE",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 130,
+      "vicinity": "1839 Olivet Rd, Santa Rosa"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2133337,
+          "lng": -122.6032891
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.21466813029149,
+            "lng": -122.6022489197085
+          },
+          "southwest": {
+            "lat": 38.21197016970849,
+            "lng": -122.6049468802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 415-870-0516",
+      "name": "Parum Leo Winery & Vineyard",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1692,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105355611425581646122\">Parum Leo Winery &amp; Vineyard</a>"
+          ],
+          "photo_reference": "Aa-ngMZntaqZ2i_mCl7vzfnwmaxNM2mrSqZcOmq4TlWGjLiRlF-RuxouKi1Ok_3y8Y5DxvyIS-T1QnTT6YuOnXTy3BBXcDARHB6FGzI5JDXstWoV23_UAckHQYOrDAAhCpGfrTh2q9OQb7rtb2gzhRDK0YCL2DRL5qA4ezpxPYKfPkt0QWfFTUJlv7-69bUHHEBysv0ImoZwuiLzNtyS_qM_AWvd9kbuTyFG2A9Q_ht-sQOqZdBrIPAwcwA-lEJl8J91b0wLXN044mW6lBAEiMqupU3pO8di7Rq5scOVm2aC3fph50tTlQ5D1z86gnPyrckaFcoJCFw4iuOocrNBMVlBnZw7b38Yx4eY7YT30EEBmsVAKWWXuXb9qFkyX7dmT0yObXkTPIVJoqnt7lP3HanzmmZPt1Q7bkVosCTzbnQ_19mVbA",
+          "width": 3005
+        }
+      ],
+      "place_id": "ChIJjYeQu1ixhYAR1zfXRyQC64Y",
+      "plus_code": {
+        "compound_code": "697W+8M Petaluma, CA, USA",
+        "global_code": "84CV697W+8M"
+      },
+      "rating": 5,
+      "reference": "ChIJjYeQu1ixhYAR1zfXRyQC64Y",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 101,
+      "vicinity": "4415 Kastania Rd, Petaluma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4168083,
+          "lng": -122.5491722
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4182571302915,
+            "lng": -122.5478634697085
+          },
+          "southwest": {
+            "lat": 38.4155591697085,
+            "lng": -122.5505614302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-833-5504",
+      "name": "Mayo Family Winery Reserve Room",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114534780971569435451\">Mayo Family Winery Reserve Room</a>"
+          ],
+          "photo_reference": "Aa-ngMZM4NpcGlUYKbm8I6n7bUkEq2TL4uEdGNBJ-rUDzdorMTRwEg6Hh5p68ZiCZDX5E1S2TWrBZQFQQdFDXAYxv3gnbHd9hFL1DjHX5VEwf_PiAd7p2uDz3Ypo2B3jZGFDEKqDpEqFUC0n8TPgAPEyqwXFYudyhARQzUxz3xgZt1gs19lnR_aYOgmBIDptw0NNxLEatsuQtItxA0eVAEOaFmWJyCcNQQON56rRjRM_fay6gYyEtJXRz7BlFnWPmVWDrPc34SFkH2h5TtKcut7jv2gvGQBCDE1GzLWsORsXhrrGrmOTKGPChD2XPvG-CpsEVfmB1A0UJGTCUhyHHfFYbYFOYiZ8Z14qdpr-JjmwUi0sNeqeyJoovOqHry5yDBhkhN_4e8YEjftlibgFJCRe2EeDBUz7_YY",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJUyRXeghOhIARWRYeFqtP5hY",
+      "plus_code": {
+        "compound_code": "CF82+P8 Kenwood, CA, USA",
+        "global_code": "84CVCF82+P8"
+      },
+      "rating": 4.8,
+      "reference": "ChIJUyRXeghOhIARWRYeFqtP5hY",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 103,
+      "vicinity": "9200 Sonoma Hwy, Kenwood"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2761163,
+          "lng": -122.4152367
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.27740523029149,
+            "lng": -122.4138355197085
+          },
+          "southwest": {
+            "lat": 38.27470726970849,
+            "lng": -122.4165334802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-939-1858",
+      "name": "Scribe Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117922216573337252192\">Brian Smith</a>"
+          ],
+          "photo_reference": "Aa-ngMYl3z4ofw8Tc8GmeVSG1-96g8c82FsaNGUSGKp4CjQpDsHFaF8176UWIoXDUbCapJqGoHTS-sJ-8NKR5E3LfIHlWd1c7XfK0QpM9LnwCHHzPQvpnnNOM34uTMvxhLEeQtbMvqpvoMAcL7ituMWPDmprdoHGdysFK899EvM_zMDdSRrD2YIcTkNqiOlUDn1VeAMqtZXyPL8wTJlzJHD_4YuYbCud5d2wZgPeMRX3bSeExiBUdcGZOLmHOy9e3mFggZu6KPz5cf3FykQYb_fN5I1geGVzc2rkElMd-9EqVqNQEWVOutdeITUPgSkVmMDdLua2o0xXaCTHfJR7Fc2q5X9dXmFEJzmB7HNyT0w5U8P93kRUQpMLT7dp1NHz6ja9uXvJIk4ghBXUp-HDi7mCzwLjJE0",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJPUvvkRiphYARQn4LaGyq6NQ",
+      "plus_code": {
+        "compound_code": "7HGM+CW Sonoma, CA, USA",
+        "global_code": "84CV7HGM+CW"
+      },
+      "rating": 4.6,
+      "reference": "ChIJPUvvkRiphYARQn4LaGyq6NQ",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 269,
+      "vicinity": "2100 Denmark St, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3462232,
+          "lng": -122.4990271
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3475714302915,
+            "lng": -122.4976267697085
+          },
+          "southwest": {
+            "lat": 38.3448734697085,
+            "lng": -122.5003247302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-996-2750",
+      "name": "Little Vineyards Family Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100043323051774426106\">Little Vineyards Family Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMYQQItIpWwwKWl_TiOnTaaAbyXJuy_h5OLCH4f3mwZ8sz671mtTIIDyBHVbO5hKdDVkYsz0bK7ygezZtWhmr4F0wrnF5c0TR8AtRR_0WU9n2A3hLpaJlY3wZAlMF6SI9rEhVW3cy8MOcQsJVfAjTnpsP5q7IEr7GOyFGylL9IBmalHveD_cH8ZPPEnJVaPXFCH0hMgFO6gNbfiNCyBuz2HFNKJ84d9ImAuQMuXGBALbG0xG-N9gAt5Aqrl9St0kdrbXRmwkRbFo12p1wX8o0Y5eW8cqYaCzWP_jrmKr5sc9F1z8YRsPzhib0kOeK9-Mx8bnc3uHsiW8kycus4mQOn4HQgyw3tnbB-EnQV0E45wQrYUVXV7W7UPU0BG2nXlP_5wqk0KaBVxXRzTENXuZUD8Y4w",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJe1pTQi-thYARLClzyqdPSzM",
+      "plus_code": {
+        "compound_code": "8GW2+F9 Glen Ellen, CA, USA",
+        "global_code": "84CV8GW2+F9"
+      },
+      "rating": 4.8,
+      "reference": "ChIJe1pTQi-thYARLClzyqdPSzM",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store"
+      ],
+      "user_ratings_total": 100,
+      "vicinity": "15188 Sonoma Hwy, Glen Ellen"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4226864,
+          "lng": -122.8705949
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4234898802915,
+            "lng": -122.8690116197085
+          },
+          "southwest": {
+            "lat": 38.4207919197085,
+            "lng": -122.8717095802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-827-6102",
+      "name": "Char Vale Vineyards and Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1152,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113748754809473269328\">Char Vale Vineyards and Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMZUCg_wSzmqVbPSJtcUjIzUcDdafMqoW_n1b5hbd6DgljZEt2QkY59WmCIPPEVfRSN9vykbyxcxu1xAS0bQsgLfMWq3Rfe1zkFV82gz-GkCjbhm6VdcgQTwv3rGM_gisKV4urEbmA2nDocn0VhNToLs696prCGA15DzA5dUgg8HNO_7Gp7YtBHL_G6z58heP4gU6-maD9WPfuTQy3wPhrpG2e5VRdcRJTnjaHtG_s2aKhlrP9AwxOuFLFkQcWpHd6R76BYtUWiLVkm7RbwdjsMUW6afXU3qCuxytXbEq9OR3vY_IIAtbmGtnqXwXOyQaXk0TGPyyez57lqtOZnEfw73lq0ypt-gAqEcz13t6RtFagZZqaj4Xtmw0Cg151ev9VR8Pac3vuzbzLWwHlVabdiw-zwS7Ao",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJH5NU8OM6hIARZrbuXHRVm68",
+      "plus_code": {
+        "compound_code": "C4FH+3Q Sebastopol, CA, USA",
+        "global_code": "84CVC4FH+3Q"
+      },
+      "rating": 4.8,
+      "reference": "ChIJH5NU8OM6hIARZrbuXHRVm68",
+      "types": [
+        "establishment",
+        "food",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "user_ratings_total": 100,
+      "vicinity": "9280 Occidental Rd, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.43728979999999,
+          "lng": -122.8583333
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4384809302915,
+            "lng": -122.8569368197085
+          },
+          "southwest": {
+            "lat": 38.4357829697085,
+            "lng": -122.8596347802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-823-3887",
+      "name": "Dutton-Goldfield Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 918,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101081379411615529003\">Dutton-Goldfield Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMaG4EzVuvXkzS1ELGv9VVSmos2d8etiP0NHJKnm7VtzvmEWqWa4Imj4pfqeuMFLkv_xR-HTYtlyNt2K9ZjsTWQDjbYGxaoY_157SZg9KomzY6WhfmTvfieSnAiBObZKBcu9mKE3PM7Iw6Qn3OM9sFCqd_ExNIahCohOMykFdBdoj8FmKS6K8CIDtO3Gq1V1vq1KxFoELq-HUAbVkiL4cPJqDdL07y0X7xjl4VOYdjFybR5wd1zE9EYqIwDw9X2YM3-1MSc1PmmROZ9XrRTtOtQd01o1AyKU5hz7arjptGjqjxGhLWJq184tKhB81WnLgEHh-C2sxnruJqHFSxQf7JOIlh7DCFy8NzvsIHH8zXGehK3t97qVZ6HI7L6ut4dswwWLFzfXYfKTKYZsJwwMM0m2qPd6UIYlLIR1PGmweHKEVw",
+          "width": 1632
+        }
+      ],
+      "place_id": "ChIJkwv7vQY7hIARntis0I58srk",
+      "plus_code": {
+        "compound_code": "C4PR+WM Sebastopol, CA, USA",
+        "global_code": "84CVC4PR+WM"
+      },
+      "rating": 4.8,
+      "reference": "ChIJkwv7vQY7hIARntis0I58srk",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 129,
+      "vicinity": "3100 Gravenstein Hwy N, Sebastopol"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.1744606,
+          "lng": -122.4503658
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.17581508029149,
+            "lng": -122.4489849697085
+          },
+          "southwest": {
+            "lat": 38.1731171197085,
+            "lng": -122.4516829302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-721-8700",
+      "name": "Ram's Gate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101677108318102410043\">Ram&#39;s Gate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMZbfAqDpJzekTWZoA60VIkSini0gSQaxcYL-t1d5LsiB8HDhK9b2vjORdKE4Q9tMHQewOjIczq0pKthNp8e5Gr8FeCxkKd_5fyrtXi9UhQE4REWkVDsCeJxqVIF6ULO0CDE17yHwDo8JnD0yVAUzLNT5WB73AmwFCUOcuxcaQDbJUM3hBU-Agu-mIlirQTtZoSsfR-GEOgIMS23o-FyALRXEEUn0MpkBNj3BP388zGA4GkGAOqExdoOMOIU--9AHwFYExQG2_RaXLU-Ae5Ew3gyN-IABFM9AEf5-S0I0OWHYYLz-SdirIbAr0ycehLf221djovUlu4X94izfPsDgzeTKDCe--gKD6LXX4DleW9OI8tdDOF1dSswfDUjyhBos9rlmtJ4joDwB4SwckQhYStogXyX",
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJsZRG4SikhYARVSWiVXEBFKI",
+      "plus_code": {
+        "compound_code": "5GFX+QV Sonoma, CA, USA",
+        "global_code": "84CV5GFX+QV"
+      },
+      "rating": 4.4,
+      "reference": "ChIJsZRG4SikhYARVSWiVXEBFKI",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 323,
+      "vicinity": "28700 Arnold Dr, Sonoma"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4814414,
+          "lng": -122.7758605
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4828464802915,
+            "lng": -122.7745460197085
+          },
+          "southwest": {
+            "lat": 38.48014851970851,
+            "lng": -122.7772439802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-595-3803",
+      "name": "Croix Estate Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1405,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114214510732973514945\">Croix Estate Winery</a>"
+          ],
+          "photo_reference": "Aa-ngMZKZwVKNV9boaEnGAuyEyZnCjYEuemVAsyMDkML6nVOc_vWY-URUBcn5I9IQw9jA2YVWxmlMVENGx98sS-9YIO7kU56-GGEsSNOy-57biNAfwMgLaqG52Sc0FZcwVoI5v754bdGVPbseEXlwFQS_9AE3Mfo99x2d3Mt6niS32F2fG1Aa1aS2bTtIvEWqcW9u3cIfkLPR9_7-nF8O7Z6YytU5V7EOYWq4tXMtQxkjIuK97n90EAS5SRl796ib1aobCWNnshnV6ziFbQjuLTNQczk331Tmx09x1yqRqtu43s5K0csWUVy--ssZEBkye7eQIwO__NEUDjRMfar7QotdWZRSshrVpHAL5P6N6m5vxW4B1IsyRmMRLLpHPeTCRRGx2TVyqji7IqaOPbJn4BWUh7kJU8VptAoiMH-xGNBNQcgzw",
+          "width": 2500
+        }
+      ],
+      "place_id": "ChIJsThSaaA5hIARwQNvU7q8c0I",
+      "plus_code": {
+        "compound_code": "F6JF+HM Fulton, CA, USA",
+        "global_code": "84CVF6JF+HM"
+      },
+      "rating": 5,
+      "reference": "ChIJsThSaaA5hIARwQNvU7q8c0I",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 98,
+      "vicinity": "1406 Wood Rd, Fulton"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2932201,
+          "lng": -122.4493456
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.2950275302915,
+            "lng": -122.4481060197085
+          },
+          "southwest": {
+            "lat": 38.2923295697085,
+            "lng": -122.4508039802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet.png",
+      "icon_background_color": "#FF8126",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/glass_pinlet",
+      "international_phone_number": "+1 707-933-3230",
+      "name": "Sebastiani Vineyards & Winery",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104572542914144232457\">David Magnuson</a>"
+          ],
+          "photo_reference": "Aa-ngMalcM1nM5mQyoFkS5NMtbnScEMehADfVVjVjdxszml48DoGHxnDFTNfGnogfTAXNdyBJLtMomRJ9IyzFxRTWEiCgBRUnHz_o6k_mqMSpIpIX71CD7rB6t2I1yjJBwMj8ySI0Eb4pnc06lw0nDgXVlWvoL7vN5_c6KClmOi2jfTiMxL4MPgApM5oyBBiLcmclC53pMazfxCWvcwrvUeIQnzKOhG8Q9Di_1GDRXrQzBO81k1KmokoUvIBfLbdU0T8UGDMMEqMz_1XdH0lu1hO1LQ6TPgsjNW9mK4SUqCo2GFwn-4tUStC8qMDaLXWy7y2hGH0jvsVy9rfEdIXKHy3l6bCBCVlN9KTL7RhHwa9VTOiI-Q7InFjn1Jr9lT9-Wr_jrVwmL3uPTAAStt-XTKSlpUc8x755_SQNp5lwC558COm_Q",
+          "width": 4080
+        }
+      ],
+      "place_id": "ChIJZ-i26KquhYARZDyiv_FI2VM",
+      "plus_code": {
+        "compound_code": "7HV2+77 Sonoma, CA, USA",
+        "global_code": "84CV7HV2+77"
+      },
+      "rating": 4.4,
+      "reference": "ChIJZ-i26KquhYARZDyiv_FI2VM",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 249,
+      "vicinity": "389 4th St E, Sonoma"
+    }
+  ]
+}
