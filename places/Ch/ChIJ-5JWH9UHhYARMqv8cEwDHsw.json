@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:43:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Gentleman Farmer Wines",
+  "place_id": "ChIJ-5JWH9UHhYARMqv8cEwDHsw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1564",
+        "short_name": "1564",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street",
+        "short_name": "1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2841",
+        "short_name": "2841",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1564 1st St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 948-6107",
+    "geometry": {
+      "location": {
+        "lat": 38.29729349999999,
+        "lng": -122.2907007
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29858438029149,
+          "lng": -122.2893382197085
+        },
+        "southwest": {
+          "lat": 38.29588641970849,
+          "lng": -122.2920361802915
+        }
+      }
+    },
+    "name": "Gentleman Farmer Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115132432332506070648\">Gentleman Farmer Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZaoumDvp3CGQfEWNjMZxyu3_6Z9cfRphHvEFKsDfDLbkOzqkdIHUu8P5f1H9K0-IE6jYdAXmHsgvhhNluUx-isws6zR0nZkVAyokscxm4ZecAGa13oDw3D8uDrYFFZ-nXEMSZNnpPOOlDpCBR-uLKUR69YfIFKoWz-QmtqalPvDhisw0HHmXbT4iFn062t-ZIRbuewBhOa8bkBMIe_V7Jlq8Lm9snJutDOSYMLrTLHdGFmDx62m0eP09YSS6MJ3yMtDehv-ujELvryaGz74vopCkA7QVSIk4I_3hjhRN9HuCJb9wly39g_oLhu_LSJubDOFPlazC1SnyLf-TSCHwHW090Y9dT4zTyUaznnSze2FIJApLdK28SwG1sDWzgbkeDsEOkHa9nAr7Hfj3PTBS-vsc8JHrE",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102382183634307011860\">Bizu H (Acquario)</a>"
+        ],
+        "photo_reference": "Aa-ngMYaQEs-EbjlHr29DVSG3e1TNXBtN41ImOSghBoqVF-zWmqBArG3Dwa_d0USeCBV6KMcPiq1oAxhYEcaZivWRUqzjHjONCL6JWAPze84Hq7XFXJcdbf7YreoqiG2mq6FhoQv0qYY3uLoVCRZitTQ6NPeOhwpVo4bjHu6YjCO83BGaLHhKScBE0RNZkzhTW-QBatATwXwqDawnaXq8Wu-Mve1XQQWwYma926s2JxRW5sydUzA-ZTfRpAE0ZBLTYVLicIzArzVHy2ITbFUY0Yo11rEcvK8zrYsbvoP76IZ36WRPVhJHlJ3h7z2qKe0WhFiLOtCwg4l3qb2A9_6hHRikUJ4_EyuZcmf-aLmolyNyPwwMeRCeiLJ38RVgqcUio53p6aiWitWUPkji4X5xkmkDbplff3O",
+        "width": 4080
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102382183634307011860\">Bizu H (Acquario)</a>"
+        ],
+        "photo_reference": "Aa-ngMbx2gHQKjVqnHuXMJTrxyaJfPQQoHF0GfdnU3kx9sGRAQTmVeM8PdgQGAIZbSIpnSCtoCXEeWWNQ0SSEVU9AGyDmYRGt-X-tUA0smhZNpggmNX4j2nxARaHr795pY3C_BhROMCetA1aJbf4ATpXcOg2jHgDUMy_H09g1lAxtqBMVIPpkhR8Nk1G4fNwjop4l99vSFkfkqeMWPUpK2xooToBVBm7W6077nMUgiQRF2QWcgPZYbc6FxbI_0D5w8-r_Rks0Uw_5irxzc2O_ofBsGaFnnJtAyf7mP5nk4t5b-r9mPPZ1qcWwLdsjXzYu7pY6CcGm9Kv6KPlrZQi1PtqXcvDu2NsPA1Wo6iAUtKEaMviEke9wfP5LRfZk4tpSwi9uBNkcDNZ-nu-4JAomk6mnT78hw",
+        "width": 4080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113984300280579307054\">Alexandra Nicole</a>"
+        ],
+        "photo_reference": "Aa-ngMb9eMYS0X8miV0bhk6pMrHF-6b7M4ujKhugp4TmQfL4pi0NenwZ-cdhmJ_NTdEsD-KTubEko20_Tq7u5IR7P_loazYn_anC310-glHtRan5snDbFHE9PjbKOAuWAsT_RHnurYpa3HpfdvWpSgR2LQgcfJ4FLQxW2w25Zl6ePV2exGJ4JQ-OaYHI-iHkWIhjhaHtFmgL_eEoOvTLMZHRuVRh5CpneGksJEpXx0a6SP6OJbyYZihmaNnJ2Swu4a4sQgBGZwMYTbjR8qWybf3nmWRSymX5DHpm7LmbjLI3LuqC8kQ5bgf5Y_rOckiiegxLl2LBG0Js7zDkqvCGC13l8w1M3IMb7PR7OA7yDMEfZkRGb2IDgL4uq-1_yD5bY_oNVQq7Lk0a51cM_SUrN9I9FtC1H8-u",
+        "width": 3600
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102382183634307011860\">Bizu H (Acquario)</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-KR_FgepcO5RoufxlscOcDJ8PoqkWbvYjqknsYPI1kmN3pxM3XiMTo0o4wEdYdiQDAo0uFhVZVbOCDxxH1B6EgIRJVAHPvInS0hugK1cBH2FhTDHjBDMCKloZJIaokoP7rwajPZz-mOinlMBxUxZK18xpnZDN65C2tk9nPrmmne4rIo7e8Ew_WerH7fhJfTO2YMNk7XViSgUW-NFXjKVNnsNEQvQJDxQDEg0b7PuqPBYj3SKF1TixJM8_iB9BNNAPiYOug5Gx2IfqbL3ulqRqqTBi083DbfuLptmQFKAxC1_UqIBOHqRjmGDpJV8ERxqMP82p5e_ShYgq1XUL3x4mDegvRbn4IPJacn42ThPw5mBQzv1Q3CLxMjjPCXW1txBly6s1v15YEpYaBe6v_Is74wUJRKE",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110310439643680474434\">T B</a>"
+        ],
+        "photo_reference": "Aa-ngMYHJ1F2GT49l2mEjXoOHWeTYZp3QE4vZoMQi3WckLj2FxNxOO-9zVQBb9rbgMe6yLxgVtZSzyVP05JygzbNxq0nNB0VcgWPN0VBE2ba962oVmLWsnS8-7BVBcOGCh835fiI3nSK_86oBOMDCvSdwICVWw3JIh4y4r8E2LMce7inhBOAlRMOAVcAFUqDq7-Bz801vJoWbZlKc5LNIOz9eN92_52GiOsmAufRHWMdTGL1fOkIaEj2e_29o0SERMKMtXYjDmZhSwEfnz1ePeydlb7RRRHyZTEooSfY6ENsDTz3GIATrucEumW0eg0ec3B90biptFhChm2fsFx3J7H_amOV48aN-lDNQDsnI8BCFSOObEskXYN0YWXQhT3dFvSf_j2Vib8HDBfwJHhijO16Nzxo3dl2oQc",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107268712391802373524\">Abby Snoznik</a>"
+        ],
+        "photo_reference": "Aa-ngMYcfnUH6U4zsUxpdvEpIDDq46QA8-p4a9oweec0Mf7XoKxwQn6kTfRIidk8bCqueCmbdfYmEuOhBfsOgeC6xd-fSFHeDlxFy9uxaOclaAnB6DWsLjiaRYYfSzc5azD1ofif5k_T8VMrImS1LIKidhEr62xZjkbzLof8szh5-WVubkOhN3AVIWljKZRHyj2tIaRzUdujJ2cLdoCNvAp235IkIyDS90mWHAFzw6vkhxe8aFv49Vv9qkSDpditojc--Wapt3YVhpxYPZ9l2wHaRqw5td3CClqN2Aihi1eoAU8uAAOp9G68K3rBp2AssAsjbs6zpMScnlCVY6AFZk_8ncJOYo7UJvEmB-R737EUW-6mTbizrDg4qHyHxWQUp8j-rDiU4pb_8hX66yvKSPT0XNymuIHux1_DHzCHk8BYsVAbgQ",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112172466598420393967\">Trevor McCarty</a>"
+        ],
+        "photo_reference": "Aa-ngMYUL1SGPkmVV4EbU9751947853XAibQSuH6p5IcY8xz5v3Vy5PdC_-SZEoa42tr173NAMMWX4bhWiqkWlEOTWBboIpaERMRX6Fsqikh5P2mt0wHjxTzTyd9innXeU9mK9iuBWnd4nxuY7LL8PHHgnr7Ez8nTiuScECr5LZIFvZY3E4wpNNguVjfSdBbw6Ar6yYZ6FPSA6Zojswa-GgwWoiwktTi2cv7ioh1UpAhyroxE9OyxjPS0AS2Zr70GEx-3NsQJg351DrLQpyWO4e8YVnaRsFbQICCmYQqQaVUUNjfNM3yWXvcqolkrySACVXSG-vnlPn-RFZs4jjKpoQ7MF5pRU5VChEJdQOHgAHbNG9cNR1cSybZJ4Zq-XYGW8K9vnkQpypyNOW9Ghhz4D8WIufPw9hEkCg",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102382183634307011860\">Bizu H (Acquario)</a>"
+        ],
+        "photo_reference": "Aa-ngMY4bc_XcWf2EKHyHuVuYVQtP3cYksEznO7-fZL26pQvUXOe1NMHUfaVhiuzx8h-YTsgugEJSuk8b4L96yahVtc28gTgd-i-qemGAbH3_2Hl1Ir2YY3UOti5Q6xPlsd2V56-dLy2VRfzqi9AH67MwDuf_zbVlq2ndid4_OuKJ5hGCAWmf9ODTvoWbnQbXa_PS_fKq_8yJTvxoQsUsnvuUTK1k6b--9Qw2T4LLZ8nKsO5KG6pvlzWr0zAHOMbnD9bI_62D5eVQO1Q09PDKSr_bCCq1n7EL1dF94G7is3KlKq3blMwWoBk11CKHqr72OXpAbmbVyb9sT-KxLYUSRA99nNmevgKWSMr6oE1UD9vNhEd9BHZLDxt-ENg4faHDmznx2dxtUmwjsEGz6lK0pO71XoJXxUkwRw",
+        "width": 4080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117982863205445066768\">Eve Bushman</a>"
+        ],
+        "photo_reference": "Aa-ngMbDs6fZjsORRy2BrmcO5bmvKlD68GkLoqOru5Uu1zmsLv43trBxjUNQKVe1L2P2OICmhxqT3sd5ROPHCGoljgPv7Wmi_-VaL8cLX24hkN9-YLy6oqzgdLvzsQACFwJqm57hyIP9X_v7xlZgXkgT_yFRRJOz9L9e0Hzhj2V3Gkt014h38dYZX7pMJF-E7eKbO-Ri3MNUpOW31uknkoXvN7KL1rOubEYyQ9GV6bGl9lDQ2ZWRBIEYcd7pvihHoWbjUNI2UZG8hL8HAeIAogN0iPPNXSzBYb6F6RGBqd-YWYgR3UR-wEMZjnhBDAX7aZFdUldPVqJntu1o20JIljgbBzUeMegLRp5sz_8UR6AueQXUXjSIJZ0HckOyoihm4wvH6I3Qkyj-t-fjWQKxS0NLYQ8AUQUaTl_1AwNwYgUIBb0LLA",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJ-5JWH9UHhYARMqv8cEwDHsw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14708197059886623538",
+    "vicinity": "1564 1st St, Napa",
+    "website": "http://www.gentlemanfarmerwines.com/"
+  }
+}
