@@ -1,0 +1,278 @@
+{
+  "fetched_at": "2026-10-28T06:45:15Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mi Sue\u00f1o Winery",
+  "place_id": "ChIJDzltT7EIhYARZKp3i1V9p5E",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "M",
+        "short_name": "M",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "910",
+        "short_name": "910",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Enterprise Way",
+        "short_name": "Enterprise Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6209",
+        "short_name": "6209",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "910 Enterprise Way M, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 258-6358",
+    "geometry": {
+      "location": {
+        "lat": 38.259695,
+        "lng": -122.272399
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2609632302915,
+          "lng": -122.2710231197085
+        },
+        "southwest": {
+          "lat": 38.2582652697085,
+          "lng": -122.2737210802915
+        }
+      }
+    },
+    "name": "Mi Sue\u00f1o Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116122038320996897922\">Mi Sue\u00f1o Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZm7eEhOXtIidfJl4jjZAEvuEmKUK4I5h48zknUE30y8PQ-R8aMZCO9Na4aJ7Q0da-b9IaXxIN4c49auBkiWVliQPURe8JlJZ_Iph8Gm-byizphYfqX3geP1xYBmpM1uPmd1c0rjVxDY87k4JpcwIIsBnePnDyzvn3bYiCPug8oqQk4SvHYVh8VVjneN1ZHTFBg-ZwWmnTnFEMkQERY3ysW59Hoad8EeN3bvyDcx0Vbs5_YpNLhUJmsoAIKK_hTO5ruD8m17XvOpmzYkLFLzvAZuHMaUr5SazT8ZGEA5sQ8zhCuwLgQZpRzkcF6Iqbi_QuGj4MrYL8ZiE1s0x1RQql0OpT2oaQ44xEG4ZveXL_MuZ6FOmdVEiLoGjBAYBnui8ScUGImpLbD9iKA17-JWQM5Ysq6",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115917133013653923159\">Alberto Chalbaud</a>"
+        ],
+        "photo_reference": "Aa-ngMbpwltfrNpJI8cZK-hPYiyJMSoxqbaJu5UwB21MlqIqAB_v_6f1tShytDY17GvLqFkV_0NnVn9gnITdxqC7guJBGa2owjiHwbJOfaP6AKmHZRQV5njHUiG92dXXPULAGNnW2IykXCAIdr3wjVhTqVmG_c49a6pn05uezu9pXNBppzoycTQMB-JotIxwuiGQHKo_jeMzL2AP9XqkumokoCWgZ0bq90Tyc0aa9BNl6SakwKAauFEXOVVA70t4TcXi1RZivTPHA8pFduBhGcypwyPRJRGLStRWJD03siQDOrzkGCcW78SZ_cQkxjlAnBeCF75zL_f4HQ5CZsN3-Ko4OU_iWwM1OOE2yLoQgmE9QSN5YP51GDYPk7tCNBiCHUX5eHrFmRKkawheThTTxuSbmxiQSB4hFnU",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106411409292415099288\">Jennifer Hurder</a>"
+        ],
+        "photo_reference": "Aa-ngMZxAGG7lZt2PDMxDDLcTJbU2n0H7yK5125It6oOSemgWGUz6LBTg9nY11zWkw12K3GMBj6uiShGlhkqW12UOQ_C549h5iZmJM32kjoOvTJbJIdz04_cyvSiQRboarYrJRdzHoeTfyGU4XcxH7kVyFTMXJteu80oqp3fIgnH0HbNjjicDBrJX6teL1Kwkz0FZx4xS3tEeYovZHhWoXrsEzgLa3wskMaUEkfx2ScsXicTTkkVklX6nwOn0PMHy7aR1Lv8nmpDhSb0OEgy4mHOpxD_2jUW3n1hFzpsP8Ad3LMD8EJhstPQ48Issg7YldU_MC2H06-4kWyxsAlTafb99FBTWMFoh1u-e05ELa7M2Nb-pFIj_LlK866I-j_Wq0lntUCmNxF4pS4NeUEbqjk75-W2PA",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116122038320996897922\">Mi Sue\u00f1o Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZrIHWV_jF5g8yHE3pUgUt5zbYl9eraWE5ohBK41sQGq9updyg5WSHVvisnzTwyDsf8LugbzAoO1R2z1v-jcdPXku0cJctjpa4G9Nb-yHecOtyzvSrDg1x_t00THtxVIC4eNH8JwbWhLRRj3KL4OYF0ky-bgNWS5-bTwz21OxARAnKAKq5BTWcgNn2qaCldZw1j4HNV59k7K7HWhF9ukSYVM7O46ihamd3w4pD8MFiUz-LNHgqlS13wJ-fPKNGw8kzJIlZ8aEoqXeFOPpHoGy4Z6dJQz6svosftqUMFLQgm03UIPwbE95TLDkLOvSNqElQTHhfejtGK6Us4PYeaZGOOk0yl30GHQDCFY5M-Y0hId5rZxSPjsjIq5TRofeuKdIjcd6vO1-pujxvsnLq2tVdMyDs",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116122038320996897922\">Mi Sue\u00f1o Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbNIsuxLYg6K9PALkoTgXA_E83j-TGDxldGb08bxJoUtu5fEp21NOC3w1pSkKtQC1ezb3_1gzecAfJ-cIWo-JmIxkYnuVGhiS_TciIRFVSsrvL4RrKC9NjVzn3zZyGdlWKyklxPAqysyGb7PtVf9qW8e_npYdReAkudvYIJPHRK4K7Gd1EtTH6EzfvNwTAy08JHVyW5M3ZQ061kbY5MUfOrOrT9vk4SCFITdHESenyeGn6fa7aAl0tlXNjQA1oZ5lpBKw_uIr-Dzn28_2mGZpre9w2AYGdFm5bF0YLJeMY7IvBZgIIAbKrmyLBZVOfMlS2v8kcNHvII-zUsAPe3R0NX_JNRLVypoFutfbjYG2PUc1juNm2lYMxUMuUp69RPMaseNOPEAHv_QX3phnMn5o3lLXFNX14",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117650815944450528769\">Justin Snider</a>"
+        ],
+        "photo_reference": "Aa-ngMYxVN7zuGlFFMwvsKO-iEZ3Pn6J7jHK47BchSxn-4tsE5rtUVY7nETrQ3EbIG1D16oF6ibeuge0e2ZvAs2H960Q9s4WXUbtVHdEmC3ni1J01Z29Hi_HZBqnMhYrSz6nBvduQ2-zrKPQzZqMpEr6FCr1j8_jvHJnfa7e4rs4nGeACKtmlsEjJivZGGNEI37gH5F2ReJe94DP7WdtxZvrp_IWMMr8Cj173hdJ1AIqMjrwkuEeYtHPiF_X-F0ANom_2546zLCJK6DSIKASqZqMtS9fwzi90NIlnKB0P9OT5xjCVlQj7vH9KVC6_W1qyN5GQTFD9HrCcBDCewjj-ptg0AqEkO92Wfb0wm_hG0RlqWMFn5HbbbHHXt-o7r6SD9g3ySpcY95JaDaalfnIGhJMC_1EQQ",
+        "width": 4080
+      },
+      {
+        "height": 644,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108769042258103263523\">Kevin Mahaffy</a>"
+        ],
+        "photo_reference": "Aa-ngMZ0h-1v9XAzPOLL2qXZk2GyZ4Nh7kiVwiKYl6ZhMI5g1i4k2ME0KzTJt-lO8SBJlZqGuAp11QX_-l2LTjc6cA64aAXOjhUxB7GSbJqRFHnebPuiP_3qG5Ze_A4D39Bijb3Dfcnzz6zEQHNOueX3eRjP5rtDkO1d8jiEwj6CNZgvJQ4eWNKZxUIR7a18SYGYky1WgfGuK4pmGsCqJigm50ZTwMSQ1NbQmzN_RMbGS6VarXbn6KSz9Geis8hs0wAAZOqNAtQ25k2Wt2pZpIfCDNS3wyt9ox2dcP5vWFR7_XkXat3_x5G5p6FzQLYVJcAhG8xiiXiNbd2YXogx9rf7eHRrEmr57ygm2J8EzvTIeB7NZewY1TFsjeWcZ93wVlj7waZc24NZlTRqPq6o-yJyCHDr59MDomq_uSLA-0sHAxNKrw",
+        "width": 645
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116122038320996897922\">Mi Sue\u00f1o Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY4ngoXdRj24W7MTGiSs81T6gSsnp0DD7funV6SO06QYgKTMbEvAkb4pj4BF-7dhMn4rr19c_j9EHMOp4MFzXL1DJmUgJLxS6JohAswgxoY7SChxWODjaDicN6piWW_g_RjwjjRawTgHGNdjDnoQyt77Y2iONdjO5hJBLbz8Rh6LdF8pWfCf4OvLaExrz0FmDo7Uu_YOUF-EMFZNNIy2bO-Bfruy3Y80oajB52favt_7CXQbGu3XZ4pgq7XB-9GhZTw8kyVY21ORL3tdzICJ8bGBECtl08xs_l6D-4n22vTNVgOcB4c5o0aYYmiarTHVkKiEh8qb0zZVl9XiIaFPd-R0IBFSF0OKLF8H9T3FSX_Y_gyioF_p2IWce4ubQnE7nWTDRoIDOX0MhPeGXBkDPx8lAYaANg",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116122038320996897922\">Mi Sue\u00f1o Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYksyMSad69CxPrp479PE9L3lSU0PHotoEMBXTY7P5AN8DlTf6boKSFJmlvCVBSJPfCNCXlsdq9tuRISWabc3GLhuWPSVevG0oO7IfLlxK1ZDhpfN51MBzPAdItUfUKex6WVg0nwc8c9alAsHOZ_kBPcHlQ9ajvRVsggLkoAVmjYjz7z5Bv_fVGDSzPzmxiwljaBDQ_nHNgShGK5zuuJBvzZGWlYr9-_yIDRhta0WAxnuuFO7X1LNkH73JCbdY71Cmp1nQF9v25yZ4vMF8nNLl5LkPljxRrF0V-VfwGDuH8meRs_OwDg8oqzfQvccPBVBZDb9s5VUtBoA1vbwqAUQfITcUg201PYmUZirmriTlwnlZ-X_JUrOpSQcVLtU4DFpa5WIJCOkdGY5QVlyJRkJquImN_yI8",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+        ],
+        "photo_reference": "Aa-ngMbRbfpCf9suypQ9Lq2600C71D4qV0Mi1YmW32ZcuFVKwYpwXQGrH1SFCWNvn1u6i-gIgfsSQSn446rA1ROhVOZS4dVtnQ9MaLhhqNT3_alqmjvvsAj33V_5QivYMWsMwuNHpKnv1rXCdM9iLz2Ah_T3sA8CCWneNAUHjVd7HK6ZYAc68OyPQwAH-wpJnxYepV3Ji1V_JyO_6H7eWpP0ZfFtCzDP-Gce7cDWX8-3zXZjQqec3jg2IkFt37Dnk4JOlB-pwQb4K_tJ9AIMiVQinhY-_GBT0n8e2v3Rpb3vGf8qihPpC1fqo1EiXDbU3sHC1BZjQ1B7LEH4DPdzIqx41p6x4h7MhbDbHMl9llvb87YzcsS1YE2ik_qTC2FjQt95q0k7RYn1RF1hORavL3K2k11nfQceAnY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJDzltT7EIhYARZKp3i1V9p5E",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10495495262975797860",
+    "vicinity": "910 Enterprise Way M, Napa",
+    "website": "http://www.misuenowinery.com/"
+  }
+}
