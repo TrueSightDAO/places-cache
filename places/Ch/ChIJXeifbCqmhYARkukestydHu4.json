@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:47:42Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "The Donum Estate",
+  "place_id": "ChIJXeifbCqmhYARkukestydHu4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "24500",
+        "short_name": "24500",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ramal Road",
+        "short_name": "Ramal Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9790",
+        "short_name": "9790",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "24500 Ramal Rd, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 732-2200",
+    "geometry": {
+      "location": {
+        "lat": 38.2307435,
+        "lng": -122.4056061
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2320920302915,
+          "lng": -122.4043183197085
+        },
+        "southwest": {
+          "lat": 38.2293940697085,
+          "lng": -122.4070162802915
+        }
+      }
+    },
+    "name": "The Donum Estate",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 384,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107352489557201481151\">The Donum Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMY3LIkoOV_VasgHB9Ye_uXtAL3PkJkbDYrNvwfUd2lq1j5CrNXnmvBzf5M3vvKAAzTgq--ni6f1f0Lu4B_Uaw0FjiQvPPVPBxjj7aAssfdLK3eratln7RRJ5EUfMbDjgqA4ZHYtAx6DMZ3xoqfk7K0yVGgTwWm2LlqfYr9GF6CNzIIwx3OOr6gumsghgVhtqOdzVCIhs-2XFaOnYe7WuSDjRTQBYN2mIidBloyG1xOAMQSWz5I0UN20ajHvaJi5MWHYtfsNwyfvWQ31NfsjgxhL9QuHZAnZZi6jshd6Vq_w8zXgNE0ffnXPCkYj_4MqEQwWSHDGtqC1ZT6mxyF4k4MDyoaUzxQifHmuOTJTzSPakJkGQxWWwVb9JZ23d9rD64dsywC34JP4QgTrIvhlof-qJ2U6IKTFJMaOFVUsLWhl8A",
+        "width": 624
+      },
+      {
+        "height": 1115,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107352489557201481151\">The Donum Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMaIo1eUeSwI5b7_ixg1x852y_CeBxNilcFQ-XIlysCi5E82lqhgaCX6AaBkDXq99cAd5GS5rcbPjqvKGW-xBq0CbCNFCNVx6ClM2qW0fGUW1IsXTH2XVeICAy2WtSDHFUEThNhvRpBLCfu1NncoBPLUCuh4hfrnBUQXUfeXlgI592OpSjTmPaYBY5Wd9AkrpYSp-nAau1qUql_Am5J6dDWKRGg8HnkPWbfSeK12RnyQuWnJ8DtmAugmZar86vqGwzeEcGXCG9-N0rls9y3gIf97WKazBBT0Dng7FD_qZnMfP7j-bJG92k8EfR1WMVMiPrVP4G9JvZPojFhf2c_w0Pnv9vMvMFhsVcgZyRDBINp0lT9PYWrZFvtzY3w19RvW1FMS3dUseYYC_2N6Q4-duBbJAsw",
+        "width": 1800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMZaMQFxh_x3hMqvWrLrpP0fQQgizJetlc9e-JnkZIJ-C06rLQtoIA4q2dC1VXmvBrLmuMCFBBp5cHi_re6h1Z8hVh9AbVPX1oE9Kkx7XBU3CdMET2F8XKLjJF1pdnHSnlu6fdw4wcv-HFCfXVqtJOrIz5pplo5CsZN_uTkWnykjda1YSA2UO65xudDp6MAdvcUmUDZjAya1Poe_EdFte2E3PXtZGg8cmTKoIk5r2KifLTurOfbf1BemW2Uvh1iwMrCRnnD_A-y81x-bcrIu9SQS5sY4bLf5citybNeQcZ4K6eL5xy9ty5f70a38xC-jQiDQRiYR5tCjRR--rvvSNYWR6JVsn1zHiPohPw6sm8-B4e07KSgp_ZaGPXVCWATig-i5HZABzz7FPYJ5AlJqA6MlvPQEcWs",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMaERSgc0iN98txUcTAmQHWhM-uOU2ypGoJ_6w8UOoHv28KCO01KOShOLwW8zuCRHdXHOHn7EUfPrDYLrKhp8xjV1IvQOQBo2r0wjSSGqXKU-d8-zhgV6PKfH1KGyr94ru4VzQlNMU871lEHHoIjOWDcDQ4vpOlbCEeQqzMTbyv0uId0j9DoJBCBYIk1LIWGQu02Io33Pxu03ouRPWBtJO77mUDtozTZEBu3ElatTDC5RVpJLsOqPeCFkKI3_Y7sLrDwWn9ECD9ZkeU_6MG_z5Nt3SO3PjLUgHr2DVuKsV31NdeZfA24AzT3grlQRN5kdZFDgp97j5XTEUcBhiwIpzKJIg59nfk-kErpeya48-wG6xWntk47q0PApBUsLceUPH4yy9GndAE5k1_acIEXOize_e0",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118378684712586128444\">Tim B</a>"
+        ],
+        "photo_reference": "Aa-ngMaI2Wvr_3OSV12pB0vGNWL9yx2kflYCoyCod9rVrglRRwhRW_YaJYK6otCpJOFHxlKr4D3MMY--e6wuqX2HMxxOmfA0bMJ9p82WrpkXX_uwGG-beq5wIE1w95_UWJEPOq_jvpzlEzKDziXkatWeOVdESjIGcSsvD9CHbkczYgjaCFvinHS5vPs8wOW1ZgTWjJGO7LOS9gNhfHm35m14h4ZQjSCX03PGoURbVHzcsIAXyulZ48hRueyx_PT4-_5mzqcisOERbUzAhrsyb6Yl9SwrOz6nBSP_bilA5LEIfkm4-qdIrqrlnXEHptrIEOKN7s_-YBKpNBj7H1NiFRMj4D8ocL2RzoZ4bWIuOe6w-EJLbXIXu7r4wYmOf05JV_r0PGUPRav2yMLoAxWPbD5z_9HP1N39bCRxUn99yQtf1BiH",
+        "width": 3000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113960063617567952042\">David Nakano</a>"
+        ],
+        "photo_reference": "Aa-ngMaEHu_0UFetdwCNsmrilX_uXUQEBiBEV8PHKKJfgJ4qbR2U2BWVhqvVoOriWAqqU8GivVkGjPStnO2DLscenWPHJXZ1UMlU5L7kuxMuODS8Qvbsdo5LadqryIbyroHWcQ1rDSjvjr_H-2NO56oBpEEylXkvo5k_kiIOsAlksmcAPcgk5yyNvICLIHFYVGQx7t4Nkzod1_dp339wwOEr9U82UnOAxAhbeVOF6GBhqgargY0AFj3F8wOv9VsZu-0X5O_P2HinJ7FrnHj5FV8QijVdwQogixpZWbfL4MEXaQFxvrTCwtouNoexUaF3hmgsS2E9ewSFvV3NaEpHwEitSwsQdEH9hHe_pyu2Eoh3o9aHOw-viqTFpIgYG1dXgbFxnksPpU6nt297rdI6otMG9vwqtFP5TsRsVJy2C9MUPRH1-A",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113960063617567952042\">David Nakano</a>"
+        ],
+        "photo_reference": "Aa-ngMaNgL_FoQTzF32fi30Qs018U_ucKkJBenedEKSUfaX3j1ZNi-Rx716rUGk6OQ0_Jb2cCKEVCGpdFZpU1W2FKNCCFUdZr-nqaNQ3PUcyRC4GV3K-9p1r7WL0_GkvVtn1EKJt5ZbVPqelEn5eYe-w43YWqFgM_Wr0mpvSuBk6HF1FkXUl3dtFyd6JBgQk_olNUZJN2RE5mV2_Ka2H3bXk2IsoOG6OL_pkp-hdth6twcPZHMfFRO9jDuJ2lk2p9q0iQ5D56ApkQ72VGPDI4V9XyMuiIuM8oWJA0qNJrCvMMqnhp6SyA-usEg0sbOmR7o5fjQa8mprCCH9JhjRurSpZi_a4eLebL8s9DxZqLbpCSJxiAaFLeRb63IDJcql-rfcDRKqGLPa6kB_7eUQ6E1Po-8c57DKFIAd-Gjn3RGmgLgVhdg",
+        "width": 3072
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114119446702991446409\">Hannah Choy</a>"
+        ],
+        "photo_reference": "Aa-ngMYQpZKVaa8fRZRl5YutNqSuPC6_vRoX8gjjh3ouIsjUS_o_TOqc1t5-XEpukDvxDvl2H3-2SUZTRwWy1NXvAhpK0dC5-i6vzzYS0tO0XUyGXqaQ_EoBEZGzmFem99sMG2cTCi5_HtslnVbM4mbms1leKaIwb2sqACBIvAezipEgxjlGy6YKR5mcQ0VbUnYSvxW3GesjRsvasnMGoNTj5DlCG6iymK2ZflAyPAH3svETD7iXNtzj2EbEOSUkFAMC6HMLwGiFyZQmvCOW62z0C8xKbweExwLoVkR_AQ9itqSwUgv-bjGLaOQjLdV0ADn5jSqpSn6nj7vtQbchDjQLktM8NlyTlOuCQZZ1-vOYrqvmhawiCOK-8nkl0tgXq_kGbIcGuWFR6Jf8-V-M6Bi4pCCzEA4GeOa56Hm24H37l2Om",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102889446902189882309\">Chloe Tula</a>"
+        ],
+        "photo_reference": "Aa-ngMac8RewbCKLPy3jgLzLlpMMqy5drxhNNddmrVxzDGTAl7GAtoM5lQzq4WpyJBQ-Kxl4eAOAWW9ZQVYOy-cbbLXuIP1Ttu2s-8atG55PeNpaKs5TKMgiE2ycq8dtzquUSg4-I050ZVbhH66HiD_E2SsVczBVWdgMkBwjhQOtBaW2GIK4xTArPnr_MfkUkFZnCeVIPmB0OAt1_Gwysx2aLOqCIkhKXpsNfUipZ1lD7WaSX9DwvbIQFhqwVLI8XHK9MIFBP6fvvVgF9UrVkInGz8iQnHcV7iBhVz5m8es2ErgsRVcnT4o7Fctq0SN0puruQW3_CikWEwjpIXUxYFZaw5rostrhodlv1L4sf8MiEKODq3vX2bAvwS4HbVJRbqSAxo3PIqQsQqTo6DnFzOT12BYmulut",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103209469123428879581\">Mic Flo</a>"
+        ],
+        "photo_reference": "Aa-ngMagNqRh11jin3axno_Fj3k93cFFQiAoMb6FTzfhqLPK-1vO-elaTKI6m-JYq1FepOfp5osdahzlP_A-LSqHWX76uV84ylZGWIvSk34VITNO_CqZTlkJmK-w-AiFX4AljKZJQ90yI4eVuH9tL_-VPbTIkd0tEt1906X_yZjcLNN3UrgW2mVYXQj-GmpDUjiCaDnKm4hvW3hYR2_G1EbiUHseFQ68gKk6HlxDdhEDeUejxt6A_n3SJLUWzo4o1vLhg2ggAaf8Tt1T6lCGA8PFwOcVKEq5egi_FphbeE-QXeeOW7Twuog5BQZyn80IWrr78O3u6Xdot1Tz32PS-cp_6KK7jBOsPSDqV_uTpI0llA8HVmpY4rZl_ZEwdnBT9rqPVgD8jyLZleRufX-P5UtLjm7YIQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJXeifbCqmhYARkukestydHu4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=17158325201534904722",
+    "vicinity": "24500 Ramal Rd, Sonoma",
+    "website": "http://www.thedonumestate.com/"
+  }
+}
