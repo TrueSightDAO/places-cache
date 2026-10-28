@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:21Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Orin Swift Cellars",
+  "place_id": "ChIJVV6C_JdQhIAR8dEc6SqPfoo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1321",
+        "short_name": "1321",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1321 Main St, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 967-9179",
+    "geometry": {
+      "location": {
+        "lat": 38.5044442,
+        "lng": -122.4693466
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5058865302915,
+          "lng": -122.4679415197085
+        },
+        "southwest": {
+          "lat": 38.5031885697085,
+          "lng": -122.4706394802915
+        }
+      }
+    },
+    "name": "Orin Swift Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111914371746463034852\">B B</a>"
+        ],
+        "photo_reference": "Aa-ngMYJ4-mLVXTC4a7vIuwLMmO8beZ-ywlatpxafd3F1DfQkSjir6fs91Fe3cCrxb8tbra9g1EbY8Pl_1I_CRmHyf_asxERbdadSKPs-60orW6UXPNDGHBiF8mSiYpQfMiwdhUZU8xdkeThR6CzZkdXdXziRiVt9nMWP9dovQXjs6IJOq5gjL7wE_oQOqX8TJv6oMLWvupkJtGKBewV7oqkJy0PU7t9cDtYTAGzhehQ_decFMRx_qFXLkHKX85L8eUb0vhJU_jz0SGAqAxhOgq1z_gFqdNOvk6_L7TTCptP3sqF6pnSin5I3_GbMj4SvxzSVUTNr8C5wJyEHgMTfyWd-lhJH3Sl_9wNx0NpvGEtghaK_xBo5ink28GGzuSJ8cnVZsgMwhKrZf8lNFVg-3SMP5fAMA",
+        "width": 1536
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104802662318530697265\">Tom May</a>"
+        ],
+        "photo_reference": "Aa-ngMZqy568S90b7h1k3U6PbT_1Eq558pEGu2L6KVk8_iG5maJpEqsfvzuxhm0ghdbAI17XlmLOH-9hkFB6xM90d5_8OP7nVyTRyQI0f2PY80z8xucMET_7G0yOl4dGXct6Rv6cLhBAi2-sTntApfCkanV5s9aZ5grF5GljO9vTfFKgkKzmsFoU7_hgK2tf-wq_2P8OI7yoDAKETAeR44RGITb7tdd6O4NXSl1CNH6tU6B5Ui2pZmoUyu83TdZ4Nw09hBscv_eXOnDRXQAdqXLbmpVdTSo_okCAJJkBKSC-vyNgoUyKnLvpNXDPhKtBTOcPp5UPY3BovRABIaILf9LXWt1euxk_lT0--Rv31g1v_BGpyt3aGV-tEKPJgcGDD-fqCKDi7_o1-p7xtQgG5b2Rq1WNa-ui6B8",
+        "width": 3000
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104703619864649484248\">Ellie Lopez</a>"
+        ],
+        "photo_reference": "Aa-ngMYqL7-2fUm4Sipgoi46S8Syrs9ZUaIMeEqa7C-bBKyaCPxg0HvfwbFjjzk1uGKSQhdZTQ1cmU3YqN5e56PnN1Yuu_PG8J6MTisE1QU_DRZS24grOpErZmNWACk5x553Nzpy0MeIMf5z-3Ip9fIxMKI7jTQyczX7_lcfsHo3kx4EPtNimkJU_YW0X44UVjzWYv-V66m7hbkS9jnH0cAE95gcNP_05b-yMMOhMqKXPJmM6qDFdHldL8AvjJXCfS1n_zcX3XrdAZVgqCw7cv5rPZ8pEsJ9gzYUD9FJMldi2dfEr57ywyTRPaKsaGw9s7HOstSccL4gMxmDlKLfgkTtKsp6KZff_am1FU0czQIG6Q2Q-UmT5Uz_Lw3wvoDHtIV042Jxv_wtNNjU94AM5jdm6PstpXQ",
+        "width": 3120
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105032880148142737352\">Wolfgang P\u00f6ssenberger</a>"
+        ],
+        "photo_reference": "Aa-ngMb4Eb2zMO1tm3zSbKTzlXaJFh7RjodAePY2RaSwmuHrh9C-Jqsi-MW0lbL69-uyOeGBzAMdO6HO0fOE98wScF0tKrLn1fe2xLktZYR-I6t7UsFb2ssmOr15_fJLcAVb16cju_Llqrk-4UNCjtvaVgssVf_X2nomWWzZc4cgIbMqS19h96pXkEOceBxw4oosdtrHBeAKRpM-xvPlH3EKvpG2m6Me7lff7lznEnRcfIJhKY6r9DlYsXl5O3m_-md7NYHebAMlxHJTxbnK-xw1rEw9x8oIbVDGZBM2r5uW5wRw3lhf57l2r_x6td_t6EUB_MEaIkg-AuHkVEC5M3ObQ9axkQ6F2vZs7DQ0Tpg46W4KCLcgzh2H8sqyxgYvmcn5XuHyzE2H6YrhdZ-80BTe_1vzRL0",
+        "width": 4032
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113486846042805566025\">Orin Swift Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMZqyPgBWo9TEO63PEgtJ9X3U3QkvcKaGWdE3TjVBAPgO9Kc8zQEu72X9-TZ0TDFJILotQMreljAhZJb7h11kVmdQYYncce0nKOMy4DLeqD7qy-zMBJabjOulW82Zjr9cpq4QqLFAh-sKCJ0kOKn_nkqB-NpSaaE7yJDYRGtRW3J2S1Q5Hr1L17ppE4AhJr71vM4Q9CHX-A7HC1s_gD9AUUrQ_l5GC1TxQAKUIMRCsJBwbfcXNjCqWP2MPoQoKDfha0XnZOUEurR1gv7TmWkP-5ZtZnlZkG8GQlQCSxRSneH1jAdjw2BKelbI8B_fBqdAmFfyqsjie4GCgcqX1EhUomJp2AlDxrMgURPBK_wLm9H51DK7pBHLyXUDEiMf5irTHwk32t9oufOnuhaT88c0tnspSg",
+        "width": 1080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106161907388621746351\">Bob Jorett</a>"
+        ],
+        "photo_reference": "Aa-ngMZVaL6WK2n1qKFLDCxvmTeUNSVKK2pivs6SodVbeNW9_uaKHaB_7_GYIu7vU35R7fYzsKkgJjP8sny4eOwDCfUQwsz64iUXQd8-Lh4rbpxg-464bIUv31Xlbevk9xGf-zuzO1aSrfR7gHj7H_7O9SJK3sp7j9yvrW2F_2_8QDRh5Kv74tEbQ3qnA1CWYYsNX92RuAHysUp2FjQd2xckVKFk4__C-72Eo7oWb_WFTlWHSq0shDgIr30v6PqBNatYjmXpnCsh8l9oBmBCQ-HHB0nFs6nlGfq61KBw0Aaq42dw6Qd3j4Ewv5ti_GAtPTStIicQ3hbkPwf0u42lrjoP9aDBhBGYFveG-6k95dF30-k7oen_XLsXTcacf3-FEWxO_sWPQ1biOnnLir-H4X_4ATLHuqY",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106538710158412913945\">C Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMb0Brcvf-fkUa5foeFTNd3kOYPCo8XgogUwRxiY3UP7mllCcikLyEAP09sfRicctS8d9arILbIpj6HX9Xrrk3gewB2dv59TcN0YSdXfRJKTiK-EFSZMKOiPF2SCrEjFmcjayqKRaopTdyx-eL282zzBbm71LSdVoJocWbL8f55gag2h8JCn71N7ne6W7l3oZ3vwxJ9YJcHeo5ceE3KLeabns9RKgXl5Sg3VVup0qryvzjgmupn-l690VkJXxCphDCf8wbyHcvSFVXaZrIAeUcNaKRVNxdK90WoVh8HGYTXqd6x4qHyou0b-1nMx1E1HPNSaZLfZDQshir72H1hDdI0PZRomc-YIyF8sZFOMR737npaDao8jgxWk1GMsGDyVCPhqUmQerjky-faHZCEaRAe7gw",
+        "width": 3024
+      },
+      {
+        "height": 4618,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111096264255495661994\">\u5409\u7530\u6d0b</a>"
+        ],
+        "photo_reference": "Aa-ngMYcz24EcvPqe2uyfzJV5udfOLTKSnQrcB52aJIcaPywhf_TAW7o3mWV3_28poDuSVQBALdkdp6SCLuhMBijMQhniF97YCGSOpYtbdU_FD_yJ-6Fd_LyC88q0ws_PNlrgh-8o9uSuiNPwcs9rLHj7ws6HhyXiBfcc6eKKfVpUsRNQ4w1ddSV-yBTcdVUJ71PSExgB38twNEcqDZ_nstfrCJZSbmr9WoSa-TbKC2eacvf2G3RpcTkE9JX-KWwVRFQAhoEMxIBcEbOOI7W2wTaazWEcCun1noZbGRILqDMecXkMU16AiGC__KIhQGU8pbkrlBJaeYjSItLZ3vZalAan-4FiO5wUuSMC44ESwA7xb6Z9VkgKw3dS5csMdOgX0VjTWDYQXM_Mj5X5wxF1GwLQ1Z_ABJKE4A",
+        "width": 3464
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106161907388621746351\">Bob Jorett</a>"
+        ],
+        "photo_reference": "Aa-ngMZse31gY7x3MiNIVKPX16IfhGaV7IJYKz6JlmjOwgu9-Eur5LU9ufWDIA1lfCmbZLse78NwRnZxv18F02un1my_mwIq0TAxP6k6G-JpLwqo6LOchLYOriJgsRZbJ7m12XQevCsxgz6bK4_kFw7dYcaSglsg50rPYJBMJQEV3cXaGCyv2lcGcjtIQXf7NfzS99E26gRnLohI1mw4tu6b3WQr-StnwmOfXrNICCUkWlpqsuScSdLThzKATh5d2Ypcgni1gWZdIESxUrN2u2Lmiy19JgIuAxp0V5ViV35kT42riQxigGiTEwlhPTs9U75MVz79A7XsSpZrKdJmBVKYpkM8QmUSRdkYoDBJkQeopM5b43_0ZT2CAFTGL-8mO3v_04PTH-0vPcbcXdiXOTLPCCBuBDmk",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114288926311130756191\">Doug</a>"
+        ],
+        "photo_reference": "Aa-ngMYt4Spn6OsZMd3p-SPVVw-_uob2zUZv1zOHs61CRSQFQK2pgYK47gQb-G1TNHP_OIXLF51MYgBIQ_g0_GyNRPbgzeJozJnHPu-r4vBD4rDd19Ya8H9alChgd7dEIYCTXqK8fqAoEkLLbempIj1xu-4hieZoVswzeTn_qfam6tnQGguPxS8z5PRQZlCnTPXZGrL4wuDGnXE3rPFpEXU5cfOQesL7eRwLXNO9H-j6J4NTVj_de5qyUY-mp3AD1DTa6I5g29Y1N49AO2cQ-UtDnBkbaLCtn-b_sapvWWmLX-PVUNpfjEz4GOtoXikSkL4pSWe7JhJ48-ujqH8Uq8QMeWLPf83AQFAlqcKcHOOMK1NnXmY1W30jZuntlj48SymnsRYqkFSaX5AinjG-b1i2bzSsMw5qg0A-iUtIg-xxJha9",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJVV6C_JdQhIAR8dEc6SqPfoo",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9979571238761976305",
+    "vicinity": "1321 Main St, St Helena",
+    "website": "http://www.orinswift.com/"
+  }
+}
