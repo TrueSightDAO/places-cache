@@ -1,0 +1,288 @@
+{
+  "fetched_at": "2026-10-28T06:48:10Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Markham Vineyards",
+  "place_id": "ChIJa9scE2NahIARBrSgu1QVFM8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "North",
+        "short_name": "North",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "2812",
+        "short_name": "2812",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9655",
+        "short_name": "9655",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2812 St Helena Hwy North, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-5292",
+    "geometry": {
+      "location": {
+        "lat": 38.5190265,
+        "lng": -122.4890094
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.52002883029151,
+          "lng": -122.4877869697085
+        },
+        "southwest": {
+          "lat": 38.51733086970851,
+          "lng": -122.4904849302915
+        }
+      }
+    },
+    "name": "Markham Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 793,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117184932289759134971\">Markham Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZDvrxTJD156PQqhauCdo0aEHMBZRXmrxIfcSXEeuQr2_Yu9hrDz0kA0c5ATYTg9-fDxpK8a19d4X-jMc3i5KDupkznLjQUSG_F9aKM4n3bS3kCHnX7w9YwbusFnFXBPrFstnGXCebJmd09RguglyFwQW685zIVclAebFUN_khcSlJ2giH6L0x2ZPIO2Qo1UKYqPefsFSD3T1IsbW_J_myd78e5DB9qL8bZua0-z7NUFQYWfKgJyvPgAJy05ci0EwmJJqBpr2uyLbpTkQXw8uTbhKcQiGrjxHYG5ohpIHSu0BVIUQR2oOFFzpXZTRp-oCucNm5kcGWnFMall5ZuXd0oI-hS_PDipnal3gAo5BTMMa4uaK5ud_UCJrik8r8Qir-uC_66AYPYXNRWpp1eVmIWAogwGoE",
+        "width": 822
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104904651434876274219\">Sanjay Mittal</a>"
+        ],
+        "photo_reference": "Aa-ngMaYAi90Z3LlUlvEK43nFXO4iKCODu1v7PmADPomo2WxsZpmsH4VjWSHIxMx8Y3TXt_IrrFH49IL7t2iTN_dcH9Y1-wGGWRoHjaJokH-Vnm1Ko3oe6Jl10D09B59VcJcz5GGsSUEMngN5eupgbQ2iG2Pl6zmyZzhb_ygk_o7e_l97E73LWPsWPfjRCqvbYsmLEJu3zNF9zfGOpW3tp5YE6vdvrzF3X26EA527N4WfjX4ykGbQLFFHub5XCa4wEJlgS-BaQaCewdkW0ZXOKAeqzEptyjcPyscWeiaO7PPTCpbYEmcojqGwRk9amsLBXOc3rMALnL6xdrQe7fYdjxBlYfvi24yVDIGUwlP1fJqCRP9zAFNzycm4WPNuDN-ktXparLTPnbJxekwUYbdqRcoSE8fdH4",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103101346422539189396\">Randy Nordell</a>"
+        ],
+        "photo_reference": "Aa-ngMbrfjvPuT2kpqRGaYn4fjM13Bw5ajZ0N9b97mFhnwmh1OhuMS3JuT6ULZEPzU8YVvX0B_T5hFVtI368xJ2gVIUxhE3fYCG81B_h1mB_tPiqYMmrXMY3jzS4zP3Z5fZAbRTSZN5-31NdI683Q6v7g_D1a7nn4-OudNehv_jbrFJ1R7NXTKzQmt6XZne5vaGKK6cIyRxM2SdCi02MqM6rEr2oe51-ttwM8atrKSpenB7tXvYvpuU920WsmV1cao1cSLhoMP6qrdcwdctXmb-iX5TXy9YYw6LgJH0vX-x3DfCM44YRiTWHLzPTvXl0rZNoK-YniOdSBarp5p-g5Df56J6LQhmzto9XU6svoH-UqI8qlGtfLmGVHHEfLZFO-F69gT6xtN4DMa4wtzKtpILRuH6CVy4GX1PyRVZpbu_uQRsx_A",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117184932289759134971\">Markham Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbH8916nMyVZ-C2DRIsTSySAOrYezH5t0WjRvIzuzWsPsF_i2IDYy-_h248SxatNicPotBmYO3xv_T201dQ0h-t24qP5Kw0wi6rE3fGYc_izg_F6ACCJhGZxFB2I05hvaxQ2GFhH5ASswdGjgVL4Y203VaWicA3yKX5yUZBlaxnFPCyaLM0MJSCuFalqOhyu7clnQuZPRaHxfUJ3gSYy0SLydR1C0ocbPmU7D-X2JM3cttv9_gvkiNoiiFlSG5yEedIYEJNFFqcDDHIO3JjsxZaMNb0zV6uqQdJBijAjO9UTlQ_XkiN7syYi-C0UumIvyGcSY0Lj-ANY03CCD50xdvdembYQM6HBjiTlmRZJBVXaa3lQTKw3L5ELAVgeQh3L0rP1HxB5pZ4xCwfALVQRVUoVqwW",
+        "width": 2000
+      },
+      {
+        "height": 683,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117184932289759134971\">Markham Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaeyVjpZmu53YIUhqpLs_syd1bNZwot0GU9t7932AGrYUJ1dE-pzIBilR94bNegafIi7vXzaNEDbwRzim-cIF-FoVj74rhdtDtPHCu7Z3HSFW5vpGM-FZLBCPjUvRAtvXTNa_8GiCtJnSBZ901JTF2e74Px-Q6x8iFxBBvyCaKt0_rp4xQhXvxB-3DxfqzJiGz0ItxxHVqrCL7fG10jeH-L9jaZPuJmQvK79QokagEPl7MrTqcNZqTAVahFBO0fSmqNhzWjpeVIdtckOEyHF34unhNi-6ZD4lKV2Nicrw9jBb_tnd-gJu1pGTdTCbzOudHgQaWEtkKQj_Yw5tXEj0O7WD713VFVnVkjzp7NtELO82SKV7pdvNCxnMUhXnMfrsR7tZCivkZDD9JtIGcPnpT0DuRy7FY",
+        "width": 1024
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117184932289759134971\">Markham Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMY7COcsfcFqhspcrZIWCr0zDtQrenQBUc31vbeEvMyxW89R0WaY4c_9usds96xviT2qYl0nhXefB_B-V8Mg3YO_8N8c-vT82pojzS5T8raQRQL2HHlyBfMuQWgFV641-iqxguSza0ucPEQJzx4rJYmAKXi_PRuDV6lsg9mp1eO3LH0XK0DL7PyJDAH8b-wjSg8Wnu6Z7r_yyEwcqLnQNwI1Ia94ZIqODaXG77usK2-BBJKdkN8L6R-c3f6CBqw8TEO_xxYvdeF4n7rz5Cb4gjc0pzlH9xZ6qJDjQfW9cRCrlzTBriyazcAWOMlDTl5icOcFEbohSuida9pNXtVKmuyCqwTX65EBmIuhJi7ReWMCLoonqAbhhSA5UwPSbmLvrlZZ-FRwTSSm2YcfM0jJXFEFFCM",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109849026903893201606\">Jayasimha Nuggehalli</a>"
+        ],
+        "photo_reference": "Aa-ngMbgNCy4vyc-oBj6uOLRNyVIpX2biow27pbQMQwGLPd3kuaWRaWMuhvLWOq5pumQJWiVWxNx2RIm7TYowPn6193Hgl283CoQQ9fWbId5gDjXA_hQOXPAmnTxZl9PcE9iERx67I58tCmwD6ltSRtIjAxTeQHObQYJPLIW3UIwGx4rKKV_DeshvneS_SN_k5PeVt9kLrLvMhY5vfnZALl5BN9EZOGuaum7CgcO6PZ-KgN9D9pDp85QuFwtoc4K6D9bKihNa4glRS9QPxfWi1eKE-nsSTM40BlNdh1cUSa9itEqfv9KP3dRvUFrDYBDCcPQBI5IQ3d4smk8C9AI2hWYUsK40y1LTTdBsqP2diVBbbAn2hHvm0HOCg5k8GBezWsOWEVgyjHLYMbwLa1OMMDKK9OOX4Ki0ELObZNWrfeIiKkA9Q",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115527032762725635097\">Elsaid Ismail</a>"
+        ],
+        "photo_reference": "Aa-ngMZsapa39ULKtnZdGVWUuOtugQHDKEZk4mUYo8S41gjW5Hhv3LfHeaqcEmIaeDCF3hSNlu-YizUy60vM8JHBoIIsCWGWp1GauxY2YxIPEze3s4xZFsXN3RBZRL2kBtxI78NeCrHdW7wXKjdcR-IWnBpXv4h90ywGJDNMXxtT62gU9tfj9jrvka8QseFAYBQXIm70B23JAlQyhkWEgwAOE5f9EFWXeFPTRiqa4x2AgLbU4hsJCwasLHauPqjen0og_4bgY60JrjfpI4yAOn6MI129RukoOb92tpRHki7tmZ5QCJ1VMUHhz9Ui-ODLxG06JTlAh84p1bxkZSMGgyXreFcE7Q20Rt66d2IlnEH8TN4-H0z-4AI7Phek2HGAspFylfWlp19nctQwqXqiCNqXQ5QFIK8",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107530534188116227736\">Peter A. Morrell</a>"
+        ],
+        "photo_reference": "Aa-ngMbdom3YIgwMdk40Zk66gpAhSufFS4Ac5fi1vLW9vvO7dd4OIjlgha9wJYx4unNBsFlbUEK9icM3RaqzGLfVVRNTtzHtSZylhsRm5KLTp-uAdLtoYVwGJnI-G9q0Zj4w4efQn4_ccyzIr5RBnFf_WPjBS9y0XDC77yiAPvYbNE_yT510eHGzlRpkvvCYylBSRDsoK3Pe_w5khpne-x8_It3cJxAyUhP8ZOJESQNx3wLPBYkHvR4nDoxqtGOVutKAOe6XzVGD45qNxc6_CsX_y094NbP1S-10c2Q_vSzxi0A98iHMjJnUraBK5wi0a07m5EfqWEPtKshJH22dHXiNP6ql7A2IK6YvXEgpRXZMG1jxe8Kzlrn9zUnd5zk1-hzWC4grlRJdSL0V43UYtFx_wS2784U",
+        "width": 2048
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112472718272784724058\">Eric S.</a>"
+        ],
+        "photo_reference": "Aa-ngMYMMWNQceOvaKyyYQFGZpaNtqpLyN_BmGR7PwlyDu1YcOR3gsxoVFSqZHzI3kdTMI3ao3kLUuJVEVCSr7rrr1oc84IIB-ZgvdCXcwOyg9AOkAtH_pQ7Nsz_M46WsTbXjPrvtoNuX-jrGJT5nR_CeHqW8zZ3wljLboTrI0oaLhcsAQrKy-twh6mkz7VRYtiIevGBgdcwwUIV-cEGoA6JKY39TRZTl896PYdMd8K7stp09JiqGugPWCwt2qLrEipKi3GgNqpugKLfBc7yV1MTg1LYUNTonun7e2lYyBkJRceos7vQ3Hd7SWUUrIQwAcC-sWZpkNwPEJl8W2q92BirDl-LuzsA0G69rQ7graCTuSrKEV-zDbQH3SvHfkTFxpo0vg9JYdTP8TcxQy9TqlN0U-AG5NuBRPQNxMC_qAmRO0eC",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJa9scE2NahIARBrSgu1QVFM8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=14921574919054603270",
+    "vicinity": "2812 St Helena Hwy North, St Helena",
+    "website": "https://markhamvineyards.com/visit/winery-experiences/"
+  }
+}
