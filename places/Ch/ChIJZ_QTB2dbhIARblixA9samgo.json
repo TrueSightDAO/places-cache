@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:06Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Davis Estates",
+  "place_id": "ChIJZ_QTB2dbhIARblixA9samgo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4060",
+        "short_name": "4060",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail North",
+        "short_name": "Silverado Trl N",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4060 Silverado Trl N, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-0700",
+    "geometry": {
+      "location": {
+        "lat": 38.5704763,
+        "lng": -122.5142738
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.57182633029149,
+          "lng": -122.5127889197085
+        },
+        "southwest": {
+          "lat": 38.56912836970849,
+          "lng": -122.5154868802915
+        }
+      }
+    },
+    "name": "Davis Estates",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117566862243107935743\">Davis Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMaV1T41AVP6a_Qouk0uLVbNGSdtW7nG4_44S-eNs8JsENf2ZqQZ4hNRh-Y0q07RjEbKuifxmpqsfKTJjLOv_B8f_sluoHEweX1f6fhk9alBmiIw1P2W-Z-3LC8ZINp6N2lO6fDA0BiyC2gY_PG3PdoaoDrbsTeVMvkcl6FeVjfOWtTVXZ-fpDEu2N-daHqlO3C2DP0ogu7BcTGvMLTcvK1NhJQ4fWX0anor9wnMEr3itmZRyilGGB0U2pLCfG04Z_YiFZShvbGa_N2EFAXYQ2oFOuX6iAYEwDBWtuUABTvs0BWqY7X2oCM6kOJDliPkZhm6pFuchOmHVCmmrNh2szmCTodnToCwwdtHBjAN4JAL7F2Jbsa6C1YH8oPqQTbIwIY_-Y3E7ohWU5gA-CIbH_FvO6s",
+        "width": 2118
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117566862243107935743\">Davis Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMbwXFjz03TTqWEvMLa286SggxGU8QX6AsajsqWAtu87I8qdrJYUbYVd974dD26yLPIO4ruRm4bNK-iArXta2uBBLrgSIQ4jnoT2Ncl5P8Qrs6nO7Hb99jI14YQPvAsF34cdIOAGuEWOmbFjUEp7AOQXzqoPdTxxDC4eDyK-FHN7euMRYj4xiEp7IeMGijNDOiB0pUwbQbFDCYjEi4kJveCe9uFL4uHKAXZidzAiOv99g5_JwL0t-zQAovorWAOZjRrUo_hzGe5qrM75F68JZGrMc9HLqAW1CAgR5xCihO8NpqHcq7JsdvmitEvviRT_g9hLJn-WOg57gpE8tv_qirPbo7npUGM2zEf8hJ6FTH2CTKI14G8bSFMDgEwoWPuiQFXhAyCkIV9iy6HbPO4GcHnc6tdIzbAk5UtgkVK1CSbk",
+        "width": 807
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104490929048212532461\">Abe McClellan</a>"
+        ],
+        "photo_reference": "Aa-ngMYtowRRbc3p20vRUwkUx1g7Wz8nhPfI-W7YVD6cAfprM2U2mNYlpxCwJvQJU64OO0OJTSMIJ9JgO42iBnFgWQo-s4UAmhLXkWtynlh50WysepZsIMPjRiu4T2nkfxFIcLDD-nVxKp6kj-mqAe9qAnzzJjSpLtqShpo0yjbbWccr_TnLuuBhNG7caE2qx2bGriyY7T5dEbf65JcMcXXuxXDlr7pEJYV6yMDjsvYgJ5eJ2tGM1_PY0ye_wm74xTbTo5VwcHxnjWsVNS3ZAJylIkVlCOJjdumyO9eMa-D5c0xVWF37UmoV-3xzPC8FU_KnHQI2AnDZo4rSQ5AaD_oopcQ5g0vpFErZMgW5hVDemc2ih-hsOuPuL7Tdcg7sbtMTss6zcF5qDwCRqOhu3TkygPkq8TsVkc0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106820701890175262610\">Raul Silvera</a>"
+        ],
+        "photo_reference": "Aa-ngMYejCsMf63hFMDJqz6V5VyZpg3uP5aZx4tjadFg4dYroNGmge0dSsj4DkcSZpr2W_W4muOJLgUpVpI0Y4hP1i9sAQO2ZgNnrIXurJWoApuhFc73W-lEUvXQTcDRAvocc0u37OGpds-iEkG0AMdsBJqP-oUvWwPvcXzacdW_rpntgWQPGliSXxtbqTI6vuX76n0xjWHJ1Cu_zR2PokhzvsE4l0QccklqIh-CrJS4M_WaKp2iKlJo81XhKDddHq4ZSXt_SvZGli-MP_0Do6pOeutTi9jBpzgDzF6Cht079ojT4jhjvSWoUM72qbHbfVYoPE60BkDhxrGmq0i3sQIiJJn2alRZo-n9JYdlOKgNQaOiLUZvpY4u_8lljyldVOli-QU1xth3HTKpDfiB5ZZ5WFzk_DA",
+        "width": 4032
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117566862243107935743\">Davis Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMaOf-UVdJNJVFWaXlHubtT6C6kSMtF9okgvbDkuGInYJmWKLM9A-N7XkARYF59HfuhPtYTxMc9DxdBMxl1tB4YP3Ww_LgHS2Fc2d09c6f-fU9FOF6qkM55j22WyG2r4m4HbeE8OYkx3_cbJb-38e_awls_EWqjvSDWoUJaPjZyjh2m9i2Mbzk7Z1FmwqezBwT9HdHJ55oxOr3zBREkgv1AihvUz0ZQw92s-_B23CAIbUqp2XGCDnQV3AVb4A2YiavDO-cpgE4r_TdIHY5xcn7QqmyNOjhvPvNhBgJvN-gA2OjB5KB75xTve387WEFYO9jMNTUpEEHnpzbhV9aeLW81ujFd__5S9H3D_DTf7cVYd28kRxRuuYUdN1cW2EovaYmayHeYLTg4w7J-SBUioA6u1OsU",
+        "width": 900
+      },
+      {
+        "height": 686,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117566862243107935743\">Davis Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMbyIUNHt6FawEqOwSY6RtUzPzwCYLsemVljUu_yiWFBoioq6Ob4ubwEcd25-yfyzN7sKgc0Z_RbC2KCRMvtYxpkXpvO4rSZn_I8gThFPaUW-Fh9Or0Twz4Sl1x6_7gTuT9lNxToXNWPb3imaFoDYfRz7nDRu7-GgWnCieNFdb9KXiZbr_fcXICEQD2u-_DpD5cdSqwf3V2tQNQAMbNLhUkFnCcKQZzyQpgePhLOJJRYdQqfuhhxFSH011cbq4tH3mE-N03aj4140eOApw88Au21lLUTuu6DqxAdIQ10mgsui3ROY8Pzoxjh22QvcgfFXQT6Bx0ZKIVq6kX-IMHnUkGJe7HzylnmxFc85rztt9lWcgJ_cDPjKhLWkyUEX86DgKufYLyGYRifsUIzZDj8K7Iw1wwmdoq_ZMRgwUQy36Am",
+        "width": 733
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113657895236629878770\">Kirsten Coy</a>"
+        ],
+        "photo_reference": "Aa-ngMaNkZSQc40xvu5o0o46VCrYoJukSjpnoMCLNpJELkcstMlXDs-Xm3KQ33m1h9E-DOOv1j6Kk9ISIB9FtFAYQq3dZ4iFlfOEyNef6ELH_qRpbLznV2id73x5wHWnQOZId99nVIZaRMZlcZGF1rV3nvvKcn2J6wVY11PrRUB020qFM1hUfrSCQYBRH-ODQKEfmbpNwSpSymA8UD5l07hBMzitMKIL_OxYX2LfaW-dbGXpugmG_lO-9KREbusq2Dv52u8CJBR14C2967C4Edllp6k9ZkyDzzef3HmBHSIhIrjmBGnpjrxcPEAqKhFqvOaN4dfcKGF0lLhNMyJ8EicrK0kF1dwC_6EH3hnJxfhihFkRLpuON84WZuSqmb1WyLEFfhhhdi0cdIiRn40F2iciobZtlouEDh_p0dt1kVa_-c535A",
+        "width": 3000
+      },
+      {
+        "height": 1926,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117566862243107935743\">Davis Estates</a>"
+        ],
+        "photo_reference": "Aa-ngMbIzlmw2BpxMZFk7xWdazx8oDE0pmTn4DE7LCkZQ5Dp_5FW6i_yxX6ARODzKEsFvvElVazSMaygBBwEQZYI2k2HajYOS4eU6nXz1fRKiZ71RP3EiiOT0AacxZsrvn99MLlZ7JqaNLomVAHVlHoQRQslnuFXMyVlQG_NFjBXsg-IATtzhTrW-5F_nrzWwMQHdBCD5iuYeBOZqtcZT2csysubZCiq84TH1Ujf7kK9nlrTDL7hcj6i3tloQEpEgRcRt0Px6oOs06j8DElVTfgypTd0cWQNBq6ab9hbdzcnqhVVX7svMixYPsS9r3YjunS68UQCifqbe8ICS5dUa6BO2PPochRjcg0O-fFtnF3esXUeAQN7W_zjlDyrlipk91jSet2N_i2_ZolvpE4pW9NiFEV1h3sArhw",
+        "width": 2651
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114726598015441738533\">Hunter Mulder</a>"
+        ],
+        "photo_reference": "Aa-ngMZpetT6Fdu9Qx6rqLYQw4y9rrhvU0C__5BCq9X4lmAR5sdRNHJdynejXXWGFRe12DA4fXseX7FUGEWjCXTHL2VrqJpxAbEmBH1zaqjBusQ_UedfHWHrifyQETxI8lOlWgP4J3YCeuI7BEO0mfe82U668EFcSWrpLZ0MqOzfoh7_8xdZ99EY_I48hT94A5OsrBoSG7X4KWpcYR4z5iwilD_zxHvJHN57M2-hZqjgQl0vt5fd5Wt897AwYDwYhRdDyuVMYC15tTr7ZRZwgV18MaGD1RoSIbjNLqQw7wb85qdr8QJRRAckmNC-MzGn4u2fERXhKgUo7UhqwDsseNN7451f5NSihHt_s_3vWNNSvG8slzkiNMln4-oP6gRc1vXvC6j8_rHTQcXSPd2XA1mf7hRlrNsc53c_Ub4dPgvzAC5J",
+        "width": 4800
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103960193648693262971\">Faylene Bell US</a>"
+        ],
+        "photo_reference": "Aa-ngMZXkQYJEFcH5H5hh3_upbEZkwyGPHwX6IZv6hi042ZJffH1rdbrmxH--8c-K4r3ZRWVkhXc7s7C_4RvPegsqxTatXdwIarcxYT8W_mdo0JFLxQBhBh0wfwSewSrHMHbQWG9MqUh7sNFoTP6e0sF1SaOV_ZIPBB0n2-GFDpp37IVxSW45fNnWvxecm1YqEKbdYlrFbudli8VGnbsGcVNZ-1IO_hazb9SaJyz3VP-L_umU3sSM6TniGXZ0rx_zPQlhxVrIjpOmPtVGO5F5keR9Gb-HlVPIh8uQ0TneRrH-Vv1dKCdb8oK9AiWx1NrcmGTMxoeAyE3g0bSURXaTwgaIVfFCBz6ONzrC2pEE9JSVLwvK9GEjvrvuKqzKXMg6TEG4-embPtAOMFRKXuBDc5sGBAUvmf1Spg",
+        "width": 480
+      }
+    ],
+    "place_id": "ChIJZ_QTB2dbhIARblixA9samgo",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=763952614754834542",
+    "vicinity": "4060 Silverado Trl N, Calistoga",
+    "website": "http://www.davisestates.com/"
+  }
+}
