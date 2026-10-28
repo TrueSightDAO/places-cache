@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:20Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Fortunati Vineyards Private Wine Tasting Lounge Napa Valley",
+  "place_id": "ChIJL0XY09IAhYARfHSds3VslEA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "980-986",
+        "short_name": "980-986",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Salvador Avenue",
+        "short_name": "Salvador Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "980-986 Salvador Ave, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 255-9300",
+    "geometry": {
+      "location": {
+        "lat": 38.3476681,
+        "lng": -122.3081655
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.34895503029151,
+          "lng": -122.3067587697085
+        },
+        "southwest": {
+          "lat": 38.34625706970851,
+          "lng": -122.3094567302915
+        }
+      }
+    },
+    "name": "Fortunati Vineyards Private Wine Tasting Lounge Napa Valley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 732,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114196404005123265710\">Fortunati Vineyards Private Wine Tasting Lounge Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMZUHsVn7tunKHS3oyNG-YuFuOBdXSU9ft8881n62_dxmBWho6cbgrU-69MJhHcvUu6TkJhfcMn2bkXNx8ltl96EVf_kr5DlbROcHHQrkle_VLZv_pMItIov-0gE9xpERzzdP5jPkWe_H676_LliEe0zMP_4uS8uS7bGm9PrSeqhkNEdUZOqRRbKgsttd_sx9e1ylAT-YGclTdbpCsmoE7NLDBf8unWEsgeXs-TlGcw4DL7LruDGZORMiFUEyLRDRQfNHqhRz7LSKtb0fVJTKV6-pxUW678zExit0iUOXI5-8uKojdgAC8tFxfhX5ZBbj-nZp3920mirx79TWHnBRUBhzdz_gOlxsqYp7LKEh4rqgBwgnryH10ymyBd91W_TbLr1vsi5FEI1jPk34JqkRn8uB-oDKjI",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116949897507477108479\">Jill</a>"
+        ],
+        "photo_reference": "Aa-ngMa4lmPD6Qmza6dmfB7uNgUx6j00c9n36cTZUpBd6Yw3UWmzelqQbd8RpRpa35Mgo2eDXwQ6OApdgUaMPwCYEAqIIlL7YsayqHh6VyXIgE82zgslLHOh44t11Us2JVetwss2yTHCMmqKWyasbGnv_bHdIRGJkcdShZc0cFYoTUO9fxaGY5WHrrk4c-cAWP2is10Q7vv_e7oahh2j56cuMOsJy_vi2t6ftg-Ho7lBtAB6f5t53iVDKxO7g1_LgsuZ2pf5YNI0St8OHmI69lvWwfp8KlyI8xrHx18cV3uyemLhozOXCZ2wTBLgVammsKHs6BC-LJ6Ak0w7bB0ku97NEH04ucesnu6YLPB_f1pWT6-iNFrtBaGohycb_ebj-i-0KeqgCU4iV_AKiT5Lsb6R0GQ7_Pxpges",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104997731699031420380\">Stacey Mathews</a>"
+        ],
+        "photo_reference": "Aa-ngMYnPmam1nGwet3EYFY8e7rUYSBP5F8n4gnBEDak2_-aJYD1ITACK0v1H5glW5uH027ZlG7L9XWjbUx3aTCY4JnY16j0JfvpBqX7bHKY5WV4gDyPCj1LwfpLRPF7Ya2GqL9_WCBRE3ZqB_2f2BWtDZFIrdoC95p5hRqgBqr-uSx0Xc6ywdsCMe2Gx1PL36jIz4bZfzMwDbEnJEF2Na9Uohlhv4geasg76-aGqjZnZOqJ_bBXG2VjIOOtB4EvrYK-o-8wZ925loOW1K5L7EwQWECwz4e8rmMyReqeOQ2vKCzoe1vLw5rC13aZbD_doo_GAvWx6Aeb_cCIjjxq7_ue15RY-nk1XI5d6guu8iz8khgiQxq2ZeTKgovxZrU7KjnseLtvhDrusHIVJ4TjojVtrEjgqqWTHeAuFYA23k4oDK9F",
+        "width": 3600
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104997731699031420380\">Stacey Mathews</a>"
+        ],
+        "photo_reference": "Aa-ngMbdebAB60A5liStCCgjJqXHf74bf8eqxLh3KgDWK6-VGAggKDQ-qnktp4mszQkG-Rrv7vp9tCbNRYzLFNnD2rN8yWtLigI2NyKvujDkbkb9vJNyzJBJgsG1KCQj3rVj7PVuNxhT1nxpDEQIpr8EFbTIejYm5l_dhXOmBEwx83mfEMl9WtkGz5Kbkj_eavjOTwMt9RTXm9pr2p5l7mJzSTXXUx0N0pcvDJLq-1dVd0rfwW5NJhKg9RfhM1nc22t-F3lElaJoOyYvuR88B1ywcBXt8MqCXvyTxv2G2njt56Ngs35kp704EPaeqgZTfBVwOevA77QmcJkdTCg4XxHOh5Bp7TJZHymODr44Tcc4WSvEUKujzFwGjMr_iU3rlprJIzpo3rXInsqRl5FHPkCUf64bqWSRI2oD-wdI26KfvNI29g",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107058864133824410364\">Kathryn Dreitzler</a>"
+        ],
+        "photo_reference": "Aa-ngMaiOa8VpOBHeMQBKl3Pac-9vECNSuQUCMyV6EoHpqiVcOTDqYCFQ-Qae0SqLYnF-QI7n6ldQyWYSblSPnosk4FTWKZqfw6xRsoyxMwWLXLxgbYsa0Bv7yiz_nt4nWiCHA6dQaYeBn-QeiTACOoNP_SyQc-_zsjuMf4dm-GTaI05FSmDKQpE32_4r93jxMNIwcT4qhD_11QPqk_hiOeydUVhtVEXVpoPN0JNnFVGb1JEtr56f6mCjBcEwUm1tXqL5RMovWQxgqI5W5-sgG9NStMcrqTXgam1xz-dyFGSIR1oRB7A-GB7tDdXqDN0BYuzyujUpUYaisq4KgJCUpNFGeH_8pMx1WL4iWmsCW_gh88ydIt1QDAVkjB1AY_iiyQ6MJFTPEXM-HhthSZCfmwInAV1hYSU4Ng",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104301637648182757364\">pin-chen Chen</a>"
+        ],
+        "photo_reference": "Aa-ngMayCoR-UZDWaX2T_uemuvaEMyD_KNJh28DjY2iSy8bFG6Wutcmu0m5JsqCXjJgE8zE8DbBkbAr2bwhiGKgpIO7aGUsdk7IOexZWrTB9Rkoa9Mhkkvo9ATEuygLBsJSvBsODi-e-nwLocjd787DvrMwJ3jGaE7qRuIXRk34yK8t7k02MlrFykmimkXvOhqk_KyX4pNmCvLbir8w3eg3bDd--xJ90f1oEozYUCEfJ-33_Fdqbr4bM9zC9dtZt33vuvVv45YHMGQAjtqNjSMDV7_McTiJ_DcdjQaD-6a4dI42vVMYlM7XGHn551f9Npu-2LIuW9Maj0fzsaUIJ6Tb5iPFX4-R8qWVwpY9sECtXRBPxMI6xURfSp-RqBHQqsOfA7dXgsekp8XGVW5eh_o29X8LTlT9x_8Xgp81-1hyWPdWLeg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117672825016664161587\">Gizem Ozbay</a>"
+        ],
+        "photo_reference": "Aa-ngMb1sds7CzkjrGdqsJOS-IsOF2kLvjwqrZRe9GQY0iXGh4Y3S0wAso2vXZnBmFUujqL1Qr1Y4LEsxxiwWVJ56UbhTpWZ6KP9JagL8g5KQiwljy1aOAX4BJajXdFD1nGtS0qiPEYtEG7dVaGIuo1nzLXBlb5xshuuHoHfz53PdVYYQRSKqYbjfajNfgd6Fem4x7Z4RYZlePAv1mQDHqWdHwXzPQYdtCn9lDG6Sds3qEj_wvx17X_ccIGK1P88-jk722IsFjYYQ5l5WF-Y1ON4BnmA4LugGva0QyqVhMYSyLw5Gpvm89-vslxJSUeWEmYqS4ZaUcNtSXEFEfGXo9RDYRUpQFlcG7_IfGVsbbW1r4Ixj7y13PEgyzcjByn13txMLUwwIJtqiTr9E_gkYaPwelRnDmu3YnxhYzQ6BDlY9GFleg",
+        "width": 3024
+      },
+      {
+        "height": 2320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMYYisc0y78_ioUy5sv46HixLOojK7WyrxUlzkmf1jS-udg0WulFWAacQtqcyfvOBoq7z8c12IMaFeC7VPgOW8h-9BbyuBduFpyt1KDKB1Nz6hzuVDvgOpxU4U7isbuEWI3EFJPKBfeRUQbbxzSjQxs3UWYmTYZXXHViOkFUYImqAwT8aubULm379rPUCvQ9xhrFSaRVnkTHWVlORWs5e0Aji2rRTNb1Xsg-glbmBTduEb0-IDzyMJZSTReDlVpKfu2Bl0RS7SdHA3hYhCniLX1sFg802noMnzQ8P8Q3QXwEt-0fIYLt9IgoBOz9tt2BiQt8A3rswVk-noZ3f_6AlCfI6yxE7R_tbO7lxh2iP7UVbaMDAhT5uo16tMwbFaRCVQip2QvBycTB8gMdU_ILefFHOgrqlbs",
+        "width": 1374
+      },
+      {
+        "height": 1908,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104375584159098474331\">T. Jackson</a>"
+        ],
+        "photo_reference": "Aa-ngMaZHn-nAQ1tz8BWZWMe5d-C6ahnw3Hc5Dr0VbotiD844I8Ar2EZAsXJq4NXu4VK2TFvC0Cc0BlHlX4AY6vNXciaMCrtCT_DWoF24wvllSfnAtBxepjgA0aNyhE4UZHoor1Pa_3rgFmC-whVWyvkBFFSnqDO0tnrIXRo8CO1HHr16_oxwBhQK5IgKdRSxy3ZgvpTz3_QLBpMIx6dDeCwzd2PRfYifRNk6NSFTFu4lpOYjQZYxOn8UJnveU7jGCcgpTB-eB78oKSBPTx6g0N4z8trrByADoPpvgor5jVXOOtKnAp7wJKzCa0Zs8c-h3TQuqh5AewTczEQrDVWJ6FDnf5kQBaIe3-k1Scy08-goZMUAUh4JT-OXeJMaNy_-nccFqj7qhbtf1xTxlcJpUstitzaqnbaEhs",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107365762284751270133\">Orange Sky</a>"
+        ],
+        "photo_reference": "Aa-ngMZXm47qiVK4NIR31IRYK3Brte3xEDgO4sEa16ax5dsJCczohk6IMbCilCnAtREFlc7T8W7PfiN-W5Au933uPrarPLpe28bYMWo4Tubl4-BM4lFOtB7sQNHngrLq87Wvx94o16i5FDE-TXlx3344gnuDvK8cE55OJeWzkLDcbtBtm6o-uE84sIywfvTVDk5rXQnAatFsQQao7hyhGvhtZ6KvO8fGNKyOqX-_p8a8h5gy8Nh3CmlNm32w8OYFcdwuFaoZgkWKn2tgNf3KhrS2rvbm2SGpHE_5i9S6AnC9PtXKUNsCpasOtLKf-1kkRyYC9Wj8GoFOW9-HPRLtCgziXqcKNBkv4e6hDP4vXYR4FiYWeCV2NVoezvhOJRWgjnWdrsz1n_vjZCDyxxG-sZgWBUXMfikMy-D2QNEvb6nIPtIgcA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJL0XY09IAhYARfHSds3VslEA",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4653463567760979068",
+    "vicinity": "980-986 Salvador Ave, Napa",
+    "website": "http://www.fortunativineyards.com/"
+  }
+}
