@@ -1,0 +1,261 @@
+{
+  "fetched_at": "2026-10-28T06:44:13Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Soda Rock Winery",
+  "place_id": "ChIJ2wEol9wThIAR-DX9LnKXsYk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8015",
+        "short_name": "8015",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9643",
+        "short_name": "9643",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8015 CA-128, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-3303",
+    "geometry": {
+      "location": {
+        "lat": 38.6604,
+        "lng": -122.79925
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6617383302915,
+          "lng": -122.7979145697085
+        },
+        "southwest": {
+          "lat": 38.6590403697085,
+          "lng": -122.8006125302915
+        }
+      }
+    },
+    "name": "Soda Rock Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111714432602029762484\">Mireille Guy</a>"
+        ],
+        "photo_reference": "Aa-ngMarySfak5rGwV8imjnpAsRYrcFE5ILhyHDWRzWX0lggxAFKsJ0-7m5R0Y9wpKUYMzrfTkqGQiG2j6tmXxiijIMOFbOrCG0d6UFLG9BX4D1qOylkHM_QNDAwd5a78CgSaNTJgwOxNuYWB_MlR8z4VZbev47tobgx9kVe8LKZdbC3odhN2gYLuZwl7meBTgovlthWwrmcrk_REnSJcWnGxRFTciVG1xqJsrgn4iH4boAT94kzrzqUhIdLMTLCNiJEKCQJGvkjkOrK-ng5KkgLtZdhIiIOD9fnLFJAZjw537PwhAFh24NYVXj_kFQL0pOTgFKIIViDvmrJWHxjdYgrYVxTLULSroPY-gQQWCUR9hQf_o1Mh2b1vi2ABLqQ2rvGqydVQ59-AXMSqpjlwCA88EaL_5q1",
+        "width": 4032
+      },
+      {
+        "height": 2166,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100916288967724584768\">Soda Rock Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbarv60oPM8kHfJjHU2IaCEzI59wIdhZSlBTenlIm9sfFL9oruNtvKYEL7LhvGq2OuOxqDkC9jPjljQH5yuiEvBvV62KYqw0PyPxJfenMo5pxlVLTngHCBlHhHxSIUr-3zT-PeMBNCSsCqyNrVVc6H602a58fLrYBScf1uxmIrHW1c-rVKoczyHXT8N2MzVSb_WTO64WuFmDyprwz_yNRHfpUm2Wr9zmEr1i0SsuenEBD2O4MwoSwZQU7YMgbS5dwjWaLtm2M661RCjD25JTKZHspMs1UUmQQ1MSNIb1tmTg5clQ5k1JQ3kABt6tNJbGRSHpoEiR42nxwndUb0HAaFFKEj_lQjVcaTEVbBxaNsGlKoesXsFvhggD3wjvZhXQK0h9x8sr_QdQX7AWibHvjyd0uQ",
+        "width": 3249
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111221662651950328767\">Caron McMillan</a>"
+        ],
+        "photo_reference": "Aa-ngMZv0SSlP_FFjY78vyU81es-MRSXC5VV8gfUPxCC0kyCKP3mjM4Kel7SlvUhuhHo6AAio4sCUPvGstywJ6EeIHfsra9NxwTIUReB1pl5uyyzo5IAD0awKwS_0IWD6hUY0edxfm-a-fnl4aJpDyh8RqDjUyJj8TFWA5S4OGXqplvvo1xs69sUbrU8DBQuFVP0b0nxHZGtB2nVHrAy6ARsR_GA4S0SGP6NypD1QKTcRdmdcthNWC-1c1yM0DgrxSzh_a5f2p9H4peiebJVPEUn36j5ft0pM_imYlPkbjhdSUz0IpXQ0Md5ILKwWvi_C8n29-rhSvfg_yioP8eueCDsAMy-W7EFRHdaOzyrVen98WO5xrQ1nO3ldrlr1vJS9u7KeUrd5cIwxoIm0yuJ41eF_CygjzM",
+        "width": 4080
+      },
+      {
+        "height": 678,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113811893656012600312\">Douglas Schneider</a>"
+        ],
+        "photo_reference": "Aa-ngMaVAQNNkEO8yndXVH9Pc71NkLK6djfeAAEO7cV7huD994TyHrFLUlspydGEj3UMXFqR_PsaUbt5uV4kUck-l7mg5u4_rFR0eg6ScBuyEqgTLomcSQFfcG6bqW_KS5J-O8JAJ86MUDTWsErfi2h3urJyjhg7k_W6zHxxh6_XW9gprnlRPXZ-QrjdMIjZPnXbrYk1G5fgnK45vkWMWYUzVGk1_V48EhwuZ5pjlBmwjiXwaKmKoDZEzl3W8NNg_P1LDWzv4FzFRvlnos_uWntY3JXImv7XJt21ZZTdzpcwKpyrhajGVCLNj4-s0ON1VQx0M9dBBwtOHmG8OXZJqUJI6TC2h3hMcNvPOLMS3c6PIwHD3ZfGqxxCqg8bqzSm7h_g_zhBxrwNdRowcUanQLFoUJMRipgRo_U",
+        "width": 1024
+      },
+      {
+        "height": 3806,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102292936296298074346\">Wanderers Compass Travel Blog</a>"
+        ],
+        "photo_reference": "Aa-ngMbpzRH3ENxlTDqEjt6-RcSbl4J7KiZDSXw9lJ6UvQlne_3i-m9v9ALMg7rvgWFdyni72lexx8hnV9UG6m-mFv0ZtWshIbdqBE-rlKyw3DscvB_bbtAhrKKr2K1mQAgd7RhXwSL-Pw6n24w5jNfPlFHdBBnDBTN8cdtNs56wVBHZyrOnU_cYjikFBeo5Q53OJ7rZ4hLNV2XsX0kre4yDNb_pXbmDUVuUlw9ucs2E_E2b8_7vOsQ78Vz_h5GAU7at_MDBqpQ1KDQmM_ZXXauy1cCtXM8Aqnynoa5xLMjQLUEbnVRznG4CfMorns6EfRZcCtEEGdFNY5edgxSa84Ku4ib0EbL0b0F7bubjddjaV_8rYtp_W34YMlZu_42dv6vmGERN8iArjigrCJadFx8_k5P3fgLdzsA",
+        "width": 2757
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109049853434771315943\">Daniel McGuire</a>"
+        ],
+        "photo_reference": "Aa-ngMbbKIgzU_4ddptjThODuGLXBUAX0hCUftlMrv2a92CfkSmbF67QuSl9WJ8pmqq1PNYhghTjK0qfsB--1ib6Gi0araSZCfh4iYpnnGnTKOtpdDKu5uCNBriqLuPZgNtAFf8EtwwM7ow7zBqOYpERiW8pzH9eFSNXUq7Mc7YzxFAijJ-2xAWsOYuDTaIi7T1K4YkyxFVrmpbc-NQpIyY9jYIbOtFICSMe-admXMuWetuyx3F_618DXnBapgXSwPpsUkvP3OYGR_d1Pc77ijqO6ES23gVrScrgf0uFNf8q5KqwU3gwilPj4qQzNeyEgzaLzBKdgkOOvftV-M9e0eOyOsyYea6ZcuvWBCKbMeRV1yRiKrY76s8qKlnJ-oF2VYEBmVV23ZggqlyU2WgDee1ZneMshgc",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574532729357790876\">Jeesung Chang (jc)</a>"
+        ],
+        "photo_reference": "Aa-ngMYvMY3Wyz9HvOq9OevYfzdRfwyKl899XXqgMUO6kcmRqlB7BrjmCFuLa1uqNYeDSXsjnloA_ldPS71J0DUTGsCv-ZRMhD8Fw8gq9vTbrX3vGeRDe0dJVSgZ7GUsAGV8PvOrJf0dqX54EnwCcJKSXLF1ZJg-O0Oh2hLNGyf1tI4fLXOlwOeNNaRlSP725JzRrC90JpaQKBi6iBxLQ_L7Jt1hPmLfn3RraFEgRa1J86QBgAYw_iTeirq720dQkWeZH4dFXmuCmIs0z745cABzHQ-_fpHyHuLjZznPN4iOBqIwO4Sd3mgaeLO9a-1IvdROc5dmllCvwXADGezqKBP8m61TUyD96LY0cVvTVzNzAp7sz3bljab4ysZxlET2S4f5yHvx4VHxf9o0XT4uSSNKhSRytnQSjaf8v7MJjzIZCcyG",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112836388593076035397\">Mark Caubo</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1LIBb1hMhtH1sgs-1T2jSfc8laj5Oe-OlnBNLHWsqsll0uJ2To4Q7uRij9hS8giDNsY9RvQNExqt1_xcHyasWDRxq8ReKsk10BE1Q_HsWRUzCj5U96sv1q6sXW1vvFNAUvoaA_lZI2cZUKrvSRuxnqm2UzRPxxGBWLXwQ19FrNoCJVlq54jhe6koOn0ejY6_qR3m4PvQfYehda5Dy-evkf2RzUPPvo11i_nDum4iPwqa9WCvGuecdpFnTBbWJ2nLRRVQfVe1M6pODcRiFEyYNcLfXEJk9XVf4voiHGmM26djX_SgILANHrqc0e0uFnoAHn_fVEmZH_HqoMJHtlglwT0YHBr1Arq_j3Qi_pJJiyofc8RYPGX5b_b5QqlBzcqZ8ytHHxZnaR_7pLq5KLYwICkpX",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102292936296298074346\">Wanderers Compass Travel Blog</a>"
+        ],
+        "photo_reference": "Aa-ngMbbC6RWYbE0AuVQ8dzveMoTYSIJS66XyxrAEbpoifHNH7BgB3XN_7Q--lchQOEys-m-32jU2LQIFWd78OiJK-eMA9x-2eg-XWGARz3AQEDtrx-fXf5moyQSM1p_Uias6PPZ7VWzGHZRwt5KfF8IXRjqIQq2o1jwgFy063f6c-7Pym_T1VyVHdA1X20MnnGN0YDNqG4i6tVDqGL_oSAcgo4FF8YShz_rz9F8imelonCwb6OihNUQ16_okrk9qv6M60vR_lfpGzQLmwvtp5Oz5eALkhoXTDUSuKShSxr3EWvlKIhhwRVR7CXg4RaialBvkf7Wwlyfsyi1Sk0cD1T_m7O0Q1pZhkVYn1GDq5McgklrGdANIObGiAlaHJJaMiV5Mocfl8Qw7qXCuszh2ZrVmEpjbx2b",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115004779552229672224\">Chelsea Catalano</a>"
+        ],
+        "photo_reference": "Aa-ngMYOrucMxIPNB9RaGSnIxUJV7xiW3Ki4TC2tczZo8mYDB-j2YjSfd4GXk4vLgWLjNKtY_cACp1EHO6GyCBH6LfQbd6TND2czbuUzYr5m6GQLo8dyGIJAfw8wfXAsPf8tAgf5lzGCWA3tIfghN2zS-BsPUfIB4k_Z69yFqDq5SR7ZGhiZ1nrHz0WAam2AI5DTdHCsAfWOXO4ShThUv_CXJyjjAoY4SLgiqcxVpCP_b1kZnRvsSVG2QIISLXLr2hxW36ye4HUNRrH1RJ7HsKnhYjMDZyOLh7275t2FN77wfQEZVtsLKGo7wcRnoAwNwjxF1lJxQWOOsiF5aHjAZvpEZz3NKzy2yySZhuTpfRuLCt4nXxe9du5tIqR2OLyXClbxJhircedmtgFRgLN3Z-RnTYp4ZK4",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ2wEol9wThIAR-DX9LnKXsYk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9921877970744325624",
+    "vicinity": "8015 CA-128, Healdsburg",
+    "website": "http://www.sodarockwinery.com/"
+  }
+}
