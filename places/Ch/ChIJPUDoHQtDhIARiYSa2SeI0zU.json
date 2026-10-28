@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:46Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Romeo Vineyards & Cellars",
+  "place_id": "ChIJPUDoHQtDhIARiYSa2SeI0zU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1224",
+        "short_name": "1224",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lincoln Avenue",
+        "short_name": "Lincoln Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1224 Lincoln Ave, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 341-2497",
+    "geometry": {
+      "location": {
+        "lat": 38.5764147,
+        "lng": -122.5796805
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5778003802915,
+          "lng": -122.5784637197085
+        },
+        "southwest": {
+          "lat": 38.5751024197085,
+          "lng": -122.5811616802915
+        }
+      }
+    },
+    "name": "Romeo Vineyards & Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20097:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109691512588982325089\">Claudiane Ouellet-Plamondon</a>"
+        ],
+        "photo_reference": "Aa-ngMZuoWXeR6V7kFr_ZWLJgYfg8RREDWGIgpD3o476Okp97yrEy79OU0AeszgfWLX9s3BIVvY7zuROgnLvXmUP-K1yOHcECX9F75gktqoPXhLatUwgsOFjgKqqBDt1u9NaPn_UQzRr0DyeYJwor6FfK5vhhmTPC5N6KCHAi4UXBXISSAC7KBjO9gPhqFXK1pMYtW9rckFLB6UKHG0URnCqxSd_KiOBxwDtXsxfRpNEa0VUTo0sbt8KD76jd-5ggDH-pL1XZ-h6lds9eVf1x9mD_uMzt9xB9Us1jR--5_-WQdk2CGBA2gSuObbreJK14Z8vjM4e2k-3nt79mL_KIZ0vK_aRzM0y8m9X5QbpZT79U3SbH3diGhgmh7U4tKF3o7-TnOZnaw332VFQLIxYgdUbKfC5FXIPcq3lbBNIRi1GCEGyRQ",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112697871465507224496\">Michael Anderson</a>"
+        ],
+        "photo_reference": "Aa-ngMZSviJRlwCZk1tnGiHfz4OcVmPTtcwHG9qbZjXcoqftYfYbmNWMK3UkPjCkSTC_DHSLTEDKR9qymfj7RbdYSazcZ1Hm5Ba_17Gj0KTgZdNctSNzjiHIir98P2jn-XPs51mybkIaZhLzrxkxlE12ywwoNCGoWHtvz2Kdfygs0EHaVnZSaI2IZoBMLn3r99MHwmpK4cCh8I2MZQotwaniBcNymIkJ2IN7C8kR4VeBBaYVhUbwtkQ0k9eNkA5mhjkeBQVSRwPGPhINVjb91lV2LWOf1Tv5LaeN5UNkS5byVr3mFg7mozEqtAJprBpINQu6m1C1v56lh8XYDDb8qGdFY_0gfVvrdxUYaosGGDvuD_fwuoqCslQTai72XVq9z6_XHn26nZa4bW11ynxGwJ4UN1n-I_8",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109691512588982325089\">Claudiane Ouellet-Plamondon</a>"
+        ],
+        "photo_reference": "Aa-ngMbIjrDK1JzC1kY2cwZjK-udUMTWY1bhCPPr8z80cHbafwFI8W8Ifpgmqxl-VGlWfssDNxajsEC-BY0Qgmeh7SWIOc1BvL6mUhAiJDvP5IC2v-ZPgpmkXNJRXN4do-NaBJTwUuHZnUMjnGvE9NIGPQKDYh7GIWE4dpcdfFcd0LMHHtYELiAeezzmgGjK8OPgeVoiK3YbmvC0jqy6FJq2ShFLc-0__kfNeF_5_kH16VR_SiiWK_fiU-doBpZc_ggmYKwxikBo-rJuLX4TSXa6n2xvzz5U6f3RhuI9tsUYfXo9tDQzdESjmbqiNzsl2TZwXlQpgn3sdY5STB5v_GhUXQGSbtlNO-rzSG1G0WWOvjqb0zsVj1lNvi8v8gjaGqVICBVV-T7d26mPOQncxpi0gOwQBzBIZDGV3GyzPU8iZdXm",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104385572029435197022\">Claudia Lopes Redditt</a>"
+        ],
+        "photo_reference": "Aa-ngMbR9dxLQn6-9wZjd9jOtFYzB93hwPMchWZVNjDVufqRLZOWWbxphUuVz5Ttt2Hvdg7PGr40xGbLTjIPHKOPfRMiqF2pcMtKYeZd0TJbmm1OWRa-vKqwowSdxzxbb30n3uGbDfWlNAckidCTAg53sQahfxgFm4jphc8WZr1ZM2rodpJoLlihsz0aY55lx1NPAcJC-dZmbTCvr7W39u_Te52cc4YUMajk_9E6nHinNXc16X0KcNAyKKgHCyOaJkgu_Gv3K-KV6vuUYjM5At0g5-N1EJ4FbnbMO9R3mDMAzKi5hFEQXG3KowBtPLGx3Ni8pGEiRNC9bmQKrvJNHGjY_ldQPCAqbrVSRwa-J-ZtWhqnGLfC7qynXxKJtI3Wrpxl-ERw93R1NJKbLyWNqX9unIjU8zJY",
+        "width": 3072
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101782702645765993694\">Kelli Miller</a>"
+        ],
+        "photo_reference": "Aa-ngMbPTLRVe8RXttQ-mrgL-in-xAdNWaKX94wlfeYrhJIiz57vtWa-se2FKQ0vczY6o-MZK6q8e8HIG_ZVGLfalPAXdqP8tBy5eUE9IEP-FMOWQmxHauX-F_Ok-T1tLlbuhmoV5oIzg8tuL3-hTj5EJlbXpwskfT7CODBxjHZ1YPM5GpWZpQlZRuM8SJlquJ6wq1O0o8cFSai9x9g4fnxww2zMBNcw_Uu_0MyRa9OutedL0qPndSiKQMnYY1tfyaB5z6GexG9-xSLB3PK8Kz3S4bZ8H3_YadasKb7H7tiLMcQ17wEmrvcAjP-P_Kq4SCvjXOBcteU2r8Q3s3OePZ_0VigYvugbgwJ0uIp6hRhUY7syPiP-4QUOpyppOgAtSGSfIrnVH_Vk2vgrCXtJg6ULI1Keew",
+        "width": 1536
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103685298918857542960\">E Alba</a>"
+        ],
+        "photo_reference": "Aa-ngMZQxPWsP71TRTbdsYMurBIu2WWNGTvQYj_Aq86pEKLUe8s6qXGtBNIjt_MeBMeSoi_J3ePPENSUUiWf08es46hkJs1JH8Bq3kdD2OT-oQh1pdAfMQOSFhaqTKZCFEGFR6ejd0356sQmoTlSQOPgcO3Jcr938HignijMMKLwwShTb-SSYASpvUGPoUqvwR2wmWDva6TdQZI-FDTm3NKUgee_Rlk0WQdGX-5rsPk_oW1bX0UKSuVkopHDfIggxkvVF3SeuK3oX-JIJiNj4UlB1MNVDTnp3kL6XXA6Krx6L6JRvqeEvEH8aH8mbV-qda1lsbtyhuFt7F1qHC08dtK5KQnBT7E940fuk0uiJjoYaYO0tPr7PR1w4lvv3EKVz68aFwRA-BRZRWmca1tpcTfpTSpzF-To",
+        "width": 1080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113974461729793148397\">Juan Robaina</a>"
+        ],
+        "photo_reference": "Aa-ngMZWdDNHcRNaa27ET6d_HfwPiCs78kvFtwog8BtQzV_hvdxtjorcK1UG2_MOhxUh7whEZAqt4EKtIekSaCjeS6tBfZIZAjBNdm9R6IL6tmS063WcaC6DEpbUHetVSTBKNXf6udz52xs9aUfxxO5ZFRgp3jA88GD9kHK-NopRULLmV-Prg8EX9DKHRTrljYjIgLnnzZ4_MzBr-Rp4ausl7XqadJkf-QFl0MamE1MJROWzCxkyCVOz9o6qAM2UvTpMb39o2B--Mh_t_W3RxtCTUnpyrO3sm3nSrFdDZex5uc64Vr1RtaUPyUmVzNG_P3SMBO3JBlXm2oi48oSNdYBD0VUu0TYJiuSnsxzCn-3Vk7oy0YDwb0E8RnOMcu7kjNEr7oxGgc-1Fotecej8-prP5UAi2R3lLCs",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116647248749885930149\">Jovita Cardenas</a>"
+        ],
+        "photo_reference": "Aa-ngMaddZ1v8HAfER8-isLXZahIFogGcP1HpA2A9THfg3n2IF-u6eJe_mRWgVQSXqxcy9b87dg7Qc-Z8W_QZW2v5B2xg3HURNfZ_CJ9EsiWvLvB0ZQ9t1sObWAxNczOM0sVde_MoCeK5FHfIHSv19uglGN2sbjT3ZmOOOY4h2IfnNrOj8rgZDKXzsJzMUvLDHJFL2gzUQzmXAucLgwmT2C8G4XQaGJJYtEtMhMkieE8mu40wTGeYtam-7t5INdo4PKSb8kU30ezDjBupEMJqtb4pJSy8b-8ehE4_8gaCxYwMk-vOvf6BUgfWuGJff_mlbIPtKbYnamMTS5bebjc2n0RHc-4_5shm-kHmPeDNpm_1CwG96io3XgI8HvJyFNOjHgBc6phr7m6J9zM7kTeuwwgwXOpQiuSChI",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113974461729793148397\">Juan Robaina</a>"
+        ],
+        "photo_reference": "Aa-ngMaQh_yCoBf0FNH029fXltIKNlW7okE0T_DiC-dOOg_zlu0aYCzZxJIaGti4AAMuhMm6Ou2VTyoBgfhCTQ0abYdhWHrOLmUDFRFQ6tIL9k6hrq3fc_BimdCUAsTuWnrnP5DCPabi6nmB4yEAq-dcEC490qZXi_ikwp9_nf42ld6__klAMfs8Gg5PESv6oJiOqL8V79rPq8FN8rjZr9Vc-0hI66Ech7sjfpzkq1mAtss5JXkqJaUloGUefeW0wJcx5Ucvnmf_JH9OLGLigdTeFwQYeIee3ykt63HOBCiO3H8l76hOvkjZq0BbkEkighW-Z5-rWkgykGGc8Ola_GVxwB64mJ5jZIgX6DJaysFC6mAsDref58AR71Tat9Uz_wTZodQnG9T9vrfe5RZiBVXWKdhqOHm9WDY",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113974461729793148397\">Juan Robaina</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4ctbZY7x4pLnl0a_kOxAytwre6fERoCbKmf8EGA15h9U789OV6FbCpuGuNzUqpsNUH80EryZ0vm09DGMCCUiIVWp2OvCE6jabHTepEIdbKJfj7AvomyR5HL3W8uBwp3mBgO0pfzaW1gLMGpcWoxyIACAtjsqdFeflPEA0M3S9CIxU3quG68KalhiEOvn0wIosZo60El86yTp9ZGyLfwtiwJeUwq2qlUCFyTXD2QgfUctB-3AAnyv6eqOM3hMo5yQe9kl413J82A6ExoZr1xwkWWUkG9bVgxQC7p4fIvVgNCkAH1dWKkp3QsEY-sn03t7VNQG3oPqAeyZK4hfNiEyezU8LtJqQODmKYZY4PJHs76pQMnu8lgYJGBY5ZI2gaONogL7rn9xIGLnqclHdrsO8Gm8",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJPUDoHQtDhIARiYSa2SeI0zU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=3878593408832013449",
+    "vicinity": "1224 Lincoln Ave, Calistoga",
+    "website": "http://www.romeovineyards.com/"
+  }
+}
