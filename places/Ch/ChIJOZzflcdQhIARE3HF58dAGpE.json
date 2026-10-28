@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:39Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "VGS Chateau Potelle Winery",
+  "place_id": "ChIJOZzflcdQhIARE3HF58dAGpE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1200",
+        "short_name": "1200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dowdell Lane",
+        "short_name": "Dowdell Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1200 Dowdell Ln, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 255-9440",
+    "geometry": {
+      "location": {
+        "lat": 38.4979466,
+        "lng": -122.4598778
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4992838802915,
+          "lng": -122.4584177697085
+        },
+        "southwest": {
+          "lat": 38.4965859197085,
+          "lng": -122.4611157302915
+        }
+      }
+    },
+    "name": "VGS Chateau Potelle Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936704795121589150\">VGS Chateau Potelle Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYJ892QsdSZOu3u9jgcicVkFnPjZwvzFGT4C-CKNu9W4Qmh8ZkyfLqLq5N_WX-rFlVQj7kq6NbhRaX5V4vJGVXSw5DbHGadxv5XruYWLFffLYTpbUi2HGPMeJvr3GhMaE4vppazo58rCv0Qhi4AqKGzMldg8Q3LKbEo0QLvOD01OhBG1DTqDWRaNNsDVfU0zUgxGZcDt_NllSLniGjdAhP3PtJfVbm_i0gY_TYNFXH2YRYL45KrZDaXR1G-0zR8AjoXLzrzyfYPrHRIEaAznUaBmH7Q2Qgrw3pBdBC3tiNecVNwMDyXpSwlfjM9jxNxM6IYMSftnKSLN7-pEkMJ-tOlZc0-jzBM39g3Owc7a5NLFOXVTseI3SMkEUG6s_dxwRQ0emnagnAKU6UkHheZLgcZL8TRj88",
+        "width": 942
+      },
+      {
+        "height": 683,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936704795121589150\">VGS Chateau Potelle Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaPl-3KqKDySiBuAQ3gpZ5RvadIeOXpusjEYaVKDBLTYgQuB9Rjy1xuhEDC_V2-r-7E4O9_VeMkuy_Xb_xE3vlpdtzjtFWqLOASbsDJmK-PVCjk3i0ZS_Sbmz2prZaH7Vk4g2p4eT6xEH7Ck4JCw9S05PKHP9neRMo0LDSJSXVk-kW-uXD1HfaFiN5esHe8bgulLzqkhqotDC5EMlr3GyLD-EWFiCWs0CwnpKwC_fL9l3g8JF1DVH0a1VRNOop78DL5lFGd9C5fLsdSOn_MH9jVzfBH40lq1DEDuVJUS7Y7gY_2975TDV0IM5y7JheIrOBv4O4IhR9Q50dlDLlMK-stokueObosGHr_S-PX_HUdUKcVY1PtkNVNa3p1uAEFfNcgWLPm4dV6i60Lb1N8Ut7miwg",
+        "width": 1024
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936704795121589150\">VGS Chateau Potelle Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbs1ZMG51M4wplgiwUr2jAzHtnY_OIVf_FoULH-pCoAPGSuk2ScCvgAlL5GGgp2jBbm8iAqjXPRUnd9iJeH3McA5sTSBlli3Sp747U_eOkm4CHtrhLWCm4BRhR2vaBv2_PCnBoMJLHz9EIeLsKt_FlqKo3aGG2KNtAKQvZpjL6ab5JFPQ4LhR7I40d59NrY8CXr0QUpGCOTFnvXnoT_bH1RBASIKIuwGi5KaNNPSLo9HotbPIDz5fTyhb9VbGgRKik_nQNQjaxKIKoP1AmidqAJJ1BH18EdvspXrXyRq20rn3fu7RcJsTIxc-nzWhu2uVbQjfkZYUOwPLIgP8L5eRs9nE7A4haMdUQYV5qKpTxc4-Bzv5YilkFt4q3MBzbW3obDN5n3fscmg8pZ1Ld_bAAfzrByVaY6pNMJVA7ROtqphQ",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111200749652295891537\">Steven Marks</a>"
+        ],
+        "photo_reference": "Aa-ngMYd9hQBKCtIrqOcodIY25ZnKyM0LkDaRZU_cHoZeOp0uYWDxaW8pqroTVZrteJhT43JuA9VUDMqrujW1yBzTrkexDdswPB93YQTf2Ln9Ayy_rUe-xS6XbwayRqDhM8ha3hA2UHEHzpel9B_D3v9Rbj9w1w7BxvvlOnHJLjdglxr3s-vIEP3waFiEOyn0ezgg4j68Tl1nLadtCA0Ljs9KJUsIsreIDf50PB7-w0tdpWFss5sNJEPDntJvZV36Md0JH4NmpXQKut-RxzCXRWNOHqVqJV-qW1USwkkAu0f9fDqLpmWg0rOIYigaa1GI1JsNDWwPqF0aDm7oeey2EuYntKQRSetGp5w1_JPh1yB-IH5q3IFL3SSN_rGZXzxZoG4fM7wOBORAdG_rtVoS_ys_-Pm41r7BHTQmyUBUkbupJi4",
+        "width": 4800
+      },
+      {
+        "height": 628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936704795121589150\">VGS Chateau Potelle Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMakslM6dOABdfoWGh4PDydB8aovKqkynpnbev5iC4JwCSl6h0CoudA3C5dDKCMCTxf6Rj3yJrCw_sd6irga_2IBkOGI-vvq3uJ1e2HMsnpIehBXwyofqi99LACeIDNPsjLMwbHuvPDjt2Djn9okn_qXdeX7BzPfWk-zuJD3aJeVqe-hh2frhkZtBrSmzm6H2F1R_lrQrhlVVaUoKm0iMn4Z6bVaX7wH9gAAHyJC4geUy1oDnqT5xTLxb7btEfgJZpLFmskDNtp9hlfhT21Nu0WgGoLQPzG6vurbe7Pfz-sL7SCyYQc94GSXJd8HdZOr_HtK6HJFJa-D1f1LVdDy2jv8j-_ir0PyOlUyrvhi0ad57CbIAs0hDSgakX6k7XjpASZYEMRsb9SNQ2KOFAHyD4LmQ-otUxY",
+        "width": 942
+      },
+      {
+        "height": 628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107936704795121589150\">VGS Chateau Potelle Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMa9VRH1xo2QMXN_E_qt-r160TgpQCzxmWNgyOgLmOUdNLUPEIBA2B1GJwha4nUHleeK8dtzRHcD6fVOP1QvVrFCLEBSLW1ICbbvS_I1wYONDMevIeGhOao0buuzEgaOyCZA-8UZSuNkW1Jf7IypNsLpfx-Y0EYrDm_obve6Q2_09e_9vVs0uNX6Rt830yJsmUAmMPGSsTQFVKK9cedI0irwqH1unxxgnNd6ZIHRDk1UNicipELRz86_F7VPl0-fDR9HjJNTdlWoxXBH-FR-4OBC3-pF2crF-Mt3WN8wjtM4cRW7fQg5u7-KJukup6K7mdHV5cHmpPd86x466Lu_ZXvKeRaQ2OteMGt5-89kHelZzEvdDwYLQHG6V2q4d9O6GZC37HWiRedveFz15W7orsKskP0",
+        "width": 942
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116024809961410688788\">JD</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2tOoVWh_PAsuifCVRamv4LYghOhodZmmcR9oQkdCG_kFAbCUa5AjsQSYykai-N7rPHYit9i9YBk5Frc4SfyLbuERuW_jVB1LrAj-fg4OpbVLXx8R5m7ELdyw5Xs1hXNliFFb3skA9kKpU4ASG-yj4SMFIOIOEHrrnqkgxNcI-ugcOI-oS3n5r8PQvdmpzUKLsY_SRoIgtXVq2yhnZMoZsNYFCPEKxGd4UctzTy_XLUBL76-eXNM67Dt3K3wy_VedhFUuonBOEx16UgWVdWxfn402RjB191iUPVTg1TnI0GyN19bhB243i52-syg8dq-LHCSjakiUDn482eRQyb-nIZS9SA7rWX4p9EKVYBSZzJgiT58HvyB6VjH-rELpunv-cKoOPZwk3y_qN9hWga7RdyRc",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118066879311794700273\">Mark Weldon</a>"
+        ],
+        "photo_reference": "Aa-ngMYwIJRjJVueirG-vS_GzhM1afnDGhdcqeT7N_5UQ9gTJJrwWw9BJVl3DFq_yEtUQV4687ZIfVtmIoCJoLmu4-9kgaGhL2C5ZMQ9m7As8xNDpzhqwSJ3Zv7Ao9AmE_44n22a46KpxQCvxVDdv2r38GJWQ4pm6PQ_qRfNPgmNWuQosylBvbQWo6_um7VxOMNCDWE4OlSDifw2000G-uMwgkSayGVfHjNgpCiYg0aMIYSSXy_arrXALOlS0jq0H7mH2dqz54gq4uEICssy4hHRPAG51StUEpD2hPYtLTb7CeucJbGipNOO0UQ4xPTBCDS_6q0eYUlJCRghCsfzqaMng7hz06DOJLOOb0xke6vQ6ifOFomCgmrEegKChjVz6dJ-iNZa5h-zGIs4hBA2pZBV4jOGY0s6",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118066879311794700273\">Mark Weldon</a>"
+        ],
+        "photo_reference": "Aa-ngMZJj1yzh5FIset4bbwHrUFtqHj5pDBupOD75Sci6lu-6NpFiTPsvV4lt591kgubAbQQkYz_ImL7O2ltrFeze3aB3ebsFaUiHmo4387vA3PbId1qXfxDKWgwmbCn2QzI02J1tuNmwEDwYqWb6jk8w1bBEJ_KXl7-bcM4eB-9VXl16HmGM6PWoH18csNrstfZ1etQqHGf7vDSwQ5QF9E7SZYoTn8J6icdK89IoxgjYW9FhmqxxwjbJOFpDxZ4n6EKT7RHyd4kMCzSGbRW2oACvpuh_mlZWAQQB_0Fnq1o2cM2j_9DtApOvjAinod7BiJ-UKY8GrjyV_TeSNNUyG0McXoi_0Mgog7t1ik_4iICj2V1glusuOeXVck3zA0ExrbcvdO6terl9kj1lBjWgbSzfntl2GEKA3k",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112223975096991796383\">Warren</a>"
+        ],
+        "photo_reference": "Aa-ngMblCdYqN6lnplgLdCRLxsZ_DFDx1gvALhL7rQ8Eufoij2P0ibA6_wApYGWnx3LtpYMRLgUvhCX4SYVmXrLTCaW8woiUJHDxBkMjrus-d81W4TYdX67gkJSaSDxZ2Er0BsU09ttnUf7R_vbrlauUyX0uIRDwLKJHzwZF5RTTgtKW1YEO-Z2v2JitoGuLr1W3gEio8aOxuJtpWx0AlzjnOpJoFCXNs6iTeSnwBdzjuK4XN9pGCDp9_ORcP5bVUJLSBl_xi2ozV8jaiiZ_aJCLQmtJ7K4iUfrobmU49xuHt1JDEIoCCZSw8iP1i-e-GgMlNfjQmbX7NN1wtxPYTl9LtziXaUJ52zVfX6o38omsuumFDq4UUZCupumGodAxqwq7o2vhxVB85ZV23dvcRBpRydgQj77z",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJOZzflcdQhIARE3HF58dAGpE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10455740712225173779",
+    "vicinity": "1200 Dowdell Ln, St Helena",
+    "website": "http://www.vgschateaupotelle.com/"
+  }
+}
