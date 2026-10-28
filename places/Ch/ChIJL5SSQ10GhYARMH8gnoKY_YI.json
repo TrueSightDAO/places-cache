@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:24Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "John Anthony Vineyards",
+  "place_id": "ChIJL5SSQ10GhYARMH8gnoKY_YI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1440",
+        "short_name": "1440",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street",
+        "short_name": "1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1440 1st St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 265-7711",
+    "geometry": {
+      "location": {
+        "lat": 38.29750629999999,
+        "lng": -122.2891432
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2988246302915,
+          "lng": -122.2877421197085
+        },
+        "southwest": {
+          "lat": 38.2961266697085,
+          "lng": -122.2904400802915
+        }
+      }
+    },
+    "name": "John Anthony Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4459,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113624814556411385008\">John Anthony Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMazRedbwHNg1r893eigDTwPjQI0hmMTQu1f5f__EBo__xPFJ3JixsJaNUPpyzjEFkn8KprRLhDTyZJMbZQ5Rkjq2FiuqkluNlswWBGf4ktdeheoI9_jHNnKW81fnlFS-rrP8Peklkb-fdTnVYgrsXFkAKot-U47N5qwwmTganw6YwotRvyJAokBSoZJ5aqsthpx0BBeS5ynZij2qB47vgmprFSoVnEx1-tIw5mR_TrjUf-Pi4nBvbNvLgfLnNXyvMRwOf5gb7rKW0YH6EreezRQGuBsUgWlVsO7TiS9pbpaBFXmFvnSBD28irI5pAYoCQ9sOH6pWqquLFQEFn5CJhye4WNH-xn1HBd3GWiv58--bBKpnJYUzplRFCA7R-mUHR5tiiOY3Pp2mRjDb_PWGAPh4PI",
+        "width": 4459
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112758170914915509053\">Tommy Justice</a>"
+        ],
+        "photo_reference": "Aa-ngMa0gGrcGqYokP5G7qdjcGQqVDfsISMMslEMLAbQGz2tdE8BiaMtH8LGBbEgQ8S-UQJyMQ4D-YGTO_LXGj6REbl210AeDuEHeM26k5N0KU03xXwpyOVdCdDX7jiZnhZSYhWHDiWIFQQausvsdbAVH-zYwMF_sWukzPp2ix70bThQyWwaeSQf3EBdHa7zXIFslCTaviNi65WyXSKZ7pnWBv52pAQhmryFMeF91zSpFuCFJqsMEFNeKFGM-W37uyrdq7EBSYj1Uuxq5shpb_7gABB2zZM3tweBtnA-nl5c1ONOXX0JCEUYjyMpvIr03cv14Ysxbqm93-mLUUl39UN_OMYBUzbda1BcgQscnC3ceXGyPKd2R0aDfouPlszOlfZ8aqDNR9zWLp3kDyZyV2IpKLJV9w",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113624814556411385008\">John Anthony Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbHS1V85eY-JivFWbYzhjVdAOx5i0xFndRjdr1nLaG1YSw15L_FIOz0JN16jAYNvKSCfarxKweFYGgyHtGOnN6qPdJoe7sqrz6Qh7ZnBbLAVMhhetnwFgQirA8cB5PdKxfhsquuhSEEc-CuP7A9wZJqhX99R9eZR0f0wUAUY4DBQoBmD0X3OSWiPARyRviT0uN_0Jcl79hZq7wI2bUZrVt7E-qlMAdFDJS_o7fAutMyC0jV6aJ5X5keB9B7J6ZbIUOf4J6lNGa8lr3UGsUSRGs9tIR8ovFNZkL1SvMQHUAh3MnImQKpbhbltC5q1rUdpG0BtePzipNSyhZvn5FUf7Ct_NTokpoaTvGc24KqEgs6BZ95ljU7b4ZEPF53wgzS5ur7Gt1RhZA0g52ck3E02tT1pUqMJuWpAODB-kyN0RIrpA",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106501630062914963731\">Bottle Room</a>"
+        ],
+        "photo_reference": "Aa-ngMalZ8qmsdY91Bvkt0N6pT0xiKHA1AjaaedcWB1VI4EDpz4aG-i4EAh8XZHtMZzlaM3WQuYUe7D3jXaHxMGnBqSVYx6S4wn4J6rggkQkdlvYqiviSlAxxnkeSSan1e8YE3mmdc3gvMpLKn_ohmnBwlobiulPQC2S1ZTnb9HoJtJygU_bjz8FCPtCkfXwuBGWtt5KeP-5UUQq13wmqbyZiAzOYuwdC288vP6__RkqtXEexJJd4QezfflPSCeHdcevKExriyai0AiqLxJwG8-eBPw6v7AsVbkw_s6AEHOnjq2W2PePR6eRC-04uikQw2zxUnOghJeIcZwPu1tQrTlzIB_v3D03q2FIeGkVgBEhDQprcuJZ8O5ftEQaR6pYoTmxhh9a4CSoSQw9XC5RJnpyToUgL2Y",
+        "width": 3600
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113624814556411385008\">John Anthony Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMYPc1Co69sp_RzEsInXYCKMnYBNfVcMVyL-0wefS52TqR5bTyg5YRp1dz4LIOQfivb7JALwRnwZomsdCZhHz66Y071MrHmpPGuMDIFTU214d9bAoL4QI1F9v-_SOzUTNf3nTrz2nm77jqQORsIB02XwtLHG1mzk11vuLc2UfaWCgjGzj7mJRQyrUQcasD9pld5Yi05FJmP6s3WEfnhjmnkabw_yAFAba4e4hehK2IWuYl8x70zU70VkFMdM9w5vzhF630me52P9xXLZiVckVlof6fOpVXmxgV-tMNfI1qV6svUkGHUiP3CEyJTk_7pmgw4OzHU6J6lEUeF9TGWgDb22GWs9slIVgLI4D2LAIBbGZlq0yYERFCyfE_z_7F-mkXu5RgtA-1R4yDmQLxBlO5crh3ixHWVzPJ269RQVLMBE",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103897926888206905698\">Betty Y</a>"
+        ],
+        "photo_reference": "Aa-ngMYl2uGxXCsI-0g0G7bcvdUVy9M2gr8R8ssklwnuzJxRIAMcasV_WLj2bkLFrC-BM04gvipfuJH0KBxB3yu72Rlu27EH2P26DLHG_l2lyzZ2oWRN2hjpmyI9tg2rur1DvZEdce41dJNWhWyP_rkViYN8OcMkIdTFZygj5G2l2ixJzKiBN6otSUR4g1U2RzlV94kba0-T3ZtWppXlRDPAzTnAGCMR5r8TfBL33yre0VgFNKDsIHToZAVAXq0quoHW3DA66nQkSq-DoO4P4KjL1LG2-JAOLGKXswWyIFMYh-jyrrqpAesbkfLFd4vKKEn7wBCubLfXtEVmbZt2d9tN7704FBsKZTGTgnRWg-cCxtwupQyYC6fXFy5pVlv3ymkrakyMHTm9ChwYJdk-er9C76QEpg",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104047029780176876988\">Julie Mains</a>"
+        ],
+        "photo_reference": "Aa-ngMYxEsl95LwTC-xdiiLssO_owWL9h2fAAciNiPEr_Bx-UO-4LPlgLdUh_NiJ6_u7FrL7Bw1a4W1ehksOpCEt_NLwrgiG--vUaQROc8IaBEhWJGcrbX2m7_k-RAnRSHZyXTo4EF7Sp213r3hI4FSiTORKIKrc1UKLcemJYSK7CgUhT0d4HqhKU3n2XoPynYjtiGpB5VAyXHUJ9qsrpBjuz-v8NT9sG-1umyVZoMDj4MsKuZywhVHNWLIIihXrFlxN58YdK9MswN7-zdr-Obp1_gSChVX0fpQYId7ZeqkQa0x-WjNOAax_CB1bm7yMpIgYf3fpa6virwAXzQnuwvYlj2_3rP1GGxomAe7TRbEtPiwc_FwA6l4d8S5jbG96W9yy_qPL_PGfl8k3Tfu5FwTpzC9wpidCBDlQQKK9spEGTdkP",
+        "width": 3600
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116314240622192387462\">Bellanira sanchez</a>"
+        ],
+        "photo_reference": "Aa-ngMaB4MTW_8mw6aWGQkkLi-T6F8T-tmJyyG-WEstF0EcNWrs1dbE2hiBu6W0d9zMxV0JybNWxMdXx7bszxmCilTXK1CZ9e44QOA88a0TzhxPiAZLH-8cry5XSJ95ZstKoVSlj6HvNe86I20AxW0wc1_rgv4x4OqzleoC2kj1JdQOrqnVulxduNZkpX2MvuV3l3YbhbRPtTfEGfcuU-Tc4JJNvp0OrdwwJ6ulfwtIj-u6r4jMpL1PUGeNFJ2WqDfKUnIMhSysni0fNs63G5tEjbUajKPBoDROBErp3Ok4_UuHEbp2n87ufgjgUvNRSZgKhZHF2edHUqSxW4DZW1y-FtYY2LX_OUVNK-n3Jkv2JdlOs8gkCW65tE2rifhWhnSveuHa_5ujLZ-fYA2ROPL4L6BbFHUw",
+        "width": 714
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107354610075636656464\">Sarah Lo</a>"
+        ],
+        "photo_reference": "Aa-ngMbcqwvIZuGGB2WEeOYdbnNJ0HnyyVocCWJyVgyYlnF8Jm2GHlSlhCMkXq7vsrZTcNowo24-KQR55bEilOijNbJPePN1kRlNKVaAORA2MHH1fHT8QPgmv9a5VA2Kcr7pci-FGvpNLJOHrJ7i0rRemEBOiZDXr4-iQN93Bf-5JlRA0MXHexI502SvxfonqoDcU9znkGKlKMYuwMwJEVKVBscHuInjAUs9AoHyZZg8HsVMbx-qNuWfd7AJsn1_-3jqbQrvZlpd1qqIHZfXJYTSnVoyWPpktGemRz-BlPprE-bJKjbvvwOUNTv0hJpOkVsgjXEcrNPvAn4r9ARhIgVjPX7ULcLGTjh5i8p3hnYH5LPDEwm3jXjODaH0QQr8oAJ_q_5eyZ4iHCAsiZ40wMVTD92ppBx_ZT4",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100698927905136096970\">Jesse Rivera</a>"
+        ],
+        "photo_reference": "Aa-ngMa0ORUjFiAVRhwZJDUWWMGSnb_oPhZCjVihLaVEZY_Dn5VUPQJ-8C4hJKVeHlt8kkfvdy45GYUosgn9v31OiLvQw39jW4H6UqftZ7qf1Wycehk5kOTUhDRv4wDO09DLShX-4FEtiScemT3-vGzC3ltUFu9G1T9BmZR2KQo6_W3kaxNQG2d7nrFIjR_k3qWKQYBvPytJeiuVI_NZ6VnkRm44g4LLCJKPBLTYXVNCFeSxqWklH2nnwbyLkDpPBaXaWYmumFTi_QuBLjAhCdcfTI3yVcKuwkgcYojgcwlvRIqW_Vhm6KXdDARn_HGjHs3JPY047pRXMJ1KmWhlUTviXoKLLh0kJlOaCDtDptx5pNtATXh4uWMSAFDMYqiU16xEJQb9veu5ItjstZrujj_UxYln96eWUgD1f7GsoFF_n5B6hg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJL5SSQ10GhYARMH8gnoKY_YI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9438868080804527920",
+    "vicinity": "1440 1st St, Napa",
+    "website": "http://www.johnanthonyvineyards.com/"
+  }
+}
