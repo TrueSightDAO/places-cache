@@ -1,0 +1,254 @@
+{
+  "fetched_at": "2026-10-28T06:47:17Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mayo Family Winery Reserve Room",
+  "place_id": "ChIJUyRXeghOhIARWRYeFqtP5hY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "9200",
+        "short_name": "9200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kenwood",
+        "short_name": "Kenwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95452",
+        "short_name": "95452",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9200 Sonoma Hwy, Kenwood, CA 95452, USA",
+    "formatted_phone_number": "(707) 833-5504",
+    "geometry": {
+      "location": {
+        "lat": 38.4168083,
+        "lng": -122.5491722
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4182571302915,
+          "lng": -122.5478634697085
+        },
+        "southwest": {
+          "lat": 38.4155591697085,
+          "lng": -122.5505614302915
+        }
+      }
+    },
+    "name": "Mayo Family Winery Reserve Room",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1830"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20096:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114534780971569435451\">Mayo Family Winery Reserve Room</a>"
+        ],
+        "photo_reference": "Aa-ngMbe3f58qn4uheSFF6NhYx5pS3aaZzIbiiyW1Xnd7FNPLyNRTH3EZmiJ3b-thzu2_X67lhovZJ5o8xREyVRAShfd7Uk3OXHsjP-g4GrAvvwKqcM47aD2jajPZ1vgR7JUhyuy0KmDwlnmGqRZvS51Oij_F5cypc1PLuuJti0M9eBLTPRNrWn9720KF0cTypEppCEdb2EpdO3fjQMYCcLHlQX9m5_4hJ6XHLyrWs9OLmUUHuXyS19LjzQG_i2GGpTY6A-Fr90Z7MKZXNx3cNHlE8VfN6zcP7Y01C3780g_zn5gl8dxrWFvk4GreeFv7D8jHfOiLUmT-fUYUr5MRpF-Hyhe3RZnRhTOFniimW0aUuXfOE4Ctuxe_DvxT8YgECOfTH2QzR-cH9bqhTPvFR6GD9Ds28pvi70",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117797406861869014164\">Courtney Clarke</a>"
+        ],
+        "photo_reference": "Aa-ngMb760pT4lK8UU2iqn17t8moV5_C1QGQk9oWUWVqiLgpMMahXJi76hqRfK3SZmiVYUX8_rdhiG64bDwH7XZp79vCVb49qkiXRmg-naZPVYN-5qHvXfxoudIOa0aj-xKaBhOw3gQNqjM-VRJSKOZnILRU0G0J0dqB6K8m5XkI9_DsxWHYqOnZKOzB9ntUBUemESQu1VejBkEsUgb6eifTr8PiEmeNshl2WkR1j2OBm_9jmITGM3QTCECvrtSNV9LuY839i23Ci7oPPEPD85fJcCDKdUhubdXuEKOOqf91PoE3ImjWivrWKhEGjSu9VlQoxQC2hgtup-mrjsljliUq61XYU6j8lfG0z3L1UD43y2LJtdAD5mCI11nGJXRkd28rsU0m2zAT5BcmCAt_8Z_BaMuGuRvYLzc",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110544874310176909658\">H Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMYGap3I111jx1jqliOpVjFAi8BwiBN0ZKD05ZETtuWaFUmyxXOA5kVLo6XRcxhNOlpFjyzX7ck-oqko0TwFoMeSXHJ4-mIcj5ek0KnjNvWTEaLwrJzR-rwZkSoUs5-qODKIo0Qh1nKcUJ-tf58a41ENGaeODCyhHsLiLmLdxWiMdpoDMZ-Mz4pdxAApjELe-1C3NQomQIDUSwXLTDgIwONYveVkD5S0zmPp9IPqPSF5U1_Rv-fDJ6BI4aHjAxBjJ45FV19KhKEuj0Z7b4PrDpcjrSqHGgI0GmUCkPxsu-8tWr4w8bVWrI-RMu8sWMvvTrA0IwyyV99XRGin198gTq_CP8t-p4nKHMyYKBW1A19EnEAoiSlC_9WOI2nfIttgKxK6p4VVNp-FgjN0NnaOVXokbj7A6Dc",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116052788828368160877\">Ann Lasley</a>"
+        ],
+        "photo_reference": "Aa-ngMa10iSietnv8BDJrqNYExG4E4oKTlb22cYev89vKl1jIwnCFHOMnmRtcr1jpvUMuBnbPEX5pRuIurEfCfPtxnxO0oy9DjfZLuR2cvRB9bAOvQ_J5-dvjYVHVh_B2T9m9UQmg5PFc-BRbLUWzd52T5ll4N48x2k1nlVjy3Miqp527zSsGEg2qK2oxnoPwAcNxt8lOiWtx44PIiqaiM_zqc2QGmbb22o5ToXFsZVTiG07d4liDyUz5dSTvIDDhj0ofe2okGW-US3EG-RqoFF3o3GIVr6bMyICQkW0YfgenKf1A8-FOAqdhN36AMQzMGjC1y44BLUqAylL8kQDAqV1CPYj3LnB-t1dVswEGYw9Iz6diCmRzxXAFW81rETN0zYs8PTrgy9KdpTKxebuSHFjgfPFB90",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100065557442744468642\">Name Here</a>"
+        ],
+        "photo_reference": "Aa-ngMYWfFVggz-AdUA_J5Plofmem97tZh1aeEAPMCp0VB7w28Evt1oEi4C6vhMUd-Kkv2ciL2JiMyKlVLlT8gFnLU2e7R-xNzgVCFtXo4cYIu_IRCUwZIyk5flI2bOOz_sd5eRHEL8JlzRpxp03IZjA83WQI1Htsyfv0Oh-5cviluZS0C0F0iUGJWNjSmHIoi6WCepAD2s4b_12WW9yOwUHeZPk4Gn5wo4oi7SWiIP-LFvbbSXEs0O51DcSEb9d4pLbbuXIxvixn8l0dfDpDnhB7HA0J02TEn_c7tH2yomhRsB9LA_vB5jWj6Q2xnm8XIqESU4eIWcXrGhzphK1apovsFgwfqTf2H0m_2sJYl6gpYmEDqbMTJlI-ATwYt2-a8aZzihvz6xaF6GQ5nLggKdLQhJs6-LlYgI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117797406861869014164\">Courtney Clarke</a>"
+        ],
+        "photo_reference": "Aa-ngMbcMayyHGCVYB8tsHsViJWIYixe5SSt57n6Wrq9JXjpogNwV3tU-d4K_Qx5X8xifXQKVEGORg9sf9h3foEw5RIiylSXtrTtijNVHKP8MA9iH4dWhckTWSeKV0SXC-3QyrJ1SOnk9r1Czui3lG0mzBz3zjAUh7pW5L2R__J3hor7IieDNHXmeGMaIZ9gTZCtfDR8czzvj6Z_jdDd4uyqWLDwVf1dDcDJuczh4BZycfaVjI-TkMpRkzSjXEkODRdCYCACSeXy7S-fns43TWm93110srRrxj0ZmG9zOe6_xwyL1DeBGODrCNHpoM1IVvIdB2cPcBl84N5SQ69OyR23jIPF6QA2iaTVFaNHh1KS6-QZvmcoXLVA4Jw-QTHVSoqjZSOprkcYTNezcbcWBJrs4hk8hWE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111998598846188989693\">Egan Lasley</a>"
+        ],
+        "photo_reference": "Aa-ngMbqDVYv_30wsmqxmQHbGd3eFYVecfCuNR5O-BoQd83na--BCY49KrisXQQSkJ4Bky3tdxm4OFyNmvLLCs1uQVBKZYsyl-xXY3OpXP931ETup0znFg3Il5KrVTN3THB8w38jhVPneCereJ2D1a3YNo0Qva2JBizw7xVMcJ6px7wOx9q4qbkQM1fRWLuSpjv6dVK5iZo1u8SXsqfJ0-J_eXBS-jf0JaxxPAdAAxWhqY-bY02XMYMqU2DblrR2jBtA7gTd5mKROByGe49xWXUpAFs4KUAwbF3Olsf73GpVk1qQYSUYi2Bc-C00THCdKFe3OYDKOsm4KL07TkUPqGSkoky1DRcd6QYmluBXeiWjD99ykPIL9gaMstBazZLpHgR2wqjYIvviLuRquZjeigPHjzMgww",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111998598846188989693\">Egan Lasley</a>"
+        ],
+        "photo_reference": "Aa-ngMazX_jDO2BTXGftwdUH7WGvKWvmPB7OZCKhXQbkHkRMj4emM28DbXoXTPH2twHXBv2ITM-w91lQkAH6LFeqR0fpRZ5ma5FYuRdIuOwIbCkhGbe3VIC_o7L8eS2O7bWzF_ZB4gJsfpZcmqFDZ1nffQTl0b3qA7EJPi52WZTihTLr_qBon40tv-R5bdkXF_27Ghbmu2_BI0KhaXc3DkphfW2jB8r9fjreBk3hsKWhUeKXso1mgPpCWexWg9Yy-G_jhUunz6_tFhaQhPYXKU0czGOpiFR4CFJV2KOpaPgY4TGP5Ef6vk4OotOZBARXZPVmH9Is8dKNNNzqYjHknzG6jIfrNf7KyGruH4cSAaFbOC4_9A-MgFHHOpHfGe3ChZCS_YmZS9J42x3ETLw4Uhk6LY07of2z6Z8",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113188986619644213045\">Jonathan Mitchell</a>"
+        ],
+        "photo_reference": "Aa-ngMa2cM-boWGoOeP4iRZ4SW1dCsbOLhwC0F_cfgYDt9hz6EWv1a4uay4ARW_37LYySwv0uwwu5WQ9Lm4NqNLeXIchYkn2ihD7GpK4gbnBGzLC6gvprtKV6vfQlHLZfKgkO33FlA-bRhyFqnjRQP1WSQRl8vAo9S1IZLE-5dtr6u5YxNIBU3zvzoJhQYjfAxAHZbUkMoLujmQB9s89lvo8aKow29yL_ZfwMwBeklh4SGX1NRsO1qvoz0l9GAt2Jk0DK0yyNU7E2etHIWIzXPX5Z2H8W5vWpEgvA6DDxTa3SzwfWJ3lkEMkSVcBQi4gM0UuVeY4aWq3MzulTxIoj9JoRHTt8kxiVzSXCAt2jf8zLyuN33uYN6iE3Pl0uvzm8f-kMuphxYetGGJlufL-ljoTIidCMFgjFHo",
+        "width": 3024
+      },
+      {
+        "height": 758,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111035145107690341757\">Reenu Reji</a>"
+        ],
+        "photo_reference": "Aa-ngMZTpGxAbvPNWe-9EHZShakLzi4HRfSJs5KnV01MbhkxnLqmimLSGZ_Wiyq9bvsKggmLVjlSbzwHPrsrL2TErtoXXV-0r5ODEYP9byzd426CReQ-UHhS3Y0uCtRtHo4PH5o3BAUNKQnI1BTm8C4pWgdE_qAB_zotOxFhYGVv0M_vpSewP3fbTuxzyBlD0NGd7Qt43D57G5EnEbBsWg5idcGeXwykOTV7tNcPRxLG686swQ04trazsgmfmwQIoaMM0c0L0OvJCKXKUzi08b7QCfvJMDU70-UhR-aICgE72fjiqGfhFLjEtwEwSuT7i6Hf9sRQSWkAy3UpcUIizEKm4L-KmM4x5mdslKmiTynWDssED9jcVDEYZglo-opzTLi4CDCv6_6DHcckb-YIIPH7CALAdDQ",
+        "width": 1168
+      }
+    ],
+    "place_id": "ChIJUyRXeghOhIARWRYeFqtP5hY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=1650093909706937945",
+    "vicinity": "9200 Sonoma Hwy, Kenwood",
+    "website": "http://www.mayofamilywinery.com/Reserve-Room"
+  }
+}
