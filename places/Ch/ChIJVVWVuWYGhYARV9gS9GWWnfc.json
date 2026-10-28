@@ -1,0 +1,277 @@
+{
+  "fetched_at": "2026-10-28T06:47:23Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Napa Valley Wine Train",
+  "place_id": "ChIJVVWVuWYGhYARV9gS9GWWnfc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1275",
+        "short_name": "1275",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "McKinstry Street",
+        "short_name": "McKinstry St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1275 McKinstry St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 253-2111",
+    "geometry": {
+      "location": {
+        "lat": 38.30239540000001,
+        "lng": -122.2835525
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3044160302915,
+          "lng": -122.2825585197085
+        },
+        "southwest": {
+          "lat": 38.3017180697085,
+          "lng": -122.2852564802915
+        }
+      }
+    },
+    "name": "Napa Valley Wine Train",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117130957741969094699\">Napa Valley Wine Train</a>"
+        ],
+        "photo_reference": "Aa-ngMbzbP0f3blm0FL_qfHkG8jz4EjJm1KymEkDZCuNhCr4uJZtX3thWjqZax3Zt-MRo6-ux61e7XXCjZW43TmxVsEW8P7SPKVAV0LClR8azjJlYrQT1O4q5Gh56BgOz8YIlxLORgXPUOkNVguDPobIDHzd_k_WI2uzLpKopOP_fmVf43eNSP1lhTNjZsXwoctDbiNx7NStFOnFwF5ITVrUn9IM6_ELmYNnjVCJSYHPnxlHww2YPs6iMSEKbpdg_FFqTY3TMaDnkrIPyILX50R-lzt9VRZ1sBfaHuhlpjCUg0noBiRC6QDmoPZs3RtGyTx3al5trkew8cqFi6ja0fz6TiBt0USCyL-yz7AevmMJqKFevxuZ_pHSOVIO8BARIoGtNyJuRtRUjH9nf01DE5qHV5WX4QaNeyU_OqlBLsT5FCz9ig",
+        "width": 1200
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100537345473003118362\">R Bachmann</a>"
+        ],
+        "photo_reference": "Aa-ngMbFMSl1umEa7vEf0e7kmtyi8TEk0i-_zz8q228A5bKaY-fboePZ12AL36eo8h61SPx0yc3pkIQi0B0B6TPEGdjIX0FArso_jRk7GP6dFhRFj6W7IRYkUPFjGLwyqKPRSBrg0ODSPJ5fny58OHpuZwD6D8lBrxL8rm0OzvWBwSGoxLgQknikczZKL4uNDeD5XMco79toC8_47LkORCzR8fZB0hmJLUX3jwqc01kblq-s7SwPfRJoPqcmN25uMvUoHSXBxErvXmXA1UMX5CtnRgzLF79Txo1ebQ95gUsOgSsLdc9KFAdgiKrtk7cfztf11kqEzEsolQbF4Xk1rey0qcrZ4KAiIaXHOvfLdCpruqodkN_FRJHOfK-UHswSPYmfc-FgN-LZHEd2Lx-11fHdnd_imAI",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106622206723518660596\">WS Wang</a>"
+        ],
+        "photo_reference": "Aa-ngMZuS2UsQfe97nEnkVmzVNY-w6podHoffxV6g8Chs0rCBIouEvNFy2024zxcgcwAtExAau6wjigUtU_5Yf6pGmWsfxhLNtTF-RJiExb-hGU1WVMGXV27B4zjd6VOZD5xLWKTHJzw3Q7WWTxby3c4wyZcd3Nqn1qmVdu0_DVPPlPNv6E2dolgSOSkm4zbOefW3af5TduqF59N1jrt0Hw2jd5LeFyn3BZq1aINCykV4wXbnfO0pDxd0U_rhzlSZLo-xs6JHNp8Sw0n9ojbHb3H6YtjfBEbfRhvsZiJtLE1SZe-pTrRN4Rm4bhVWA9Mda3mKINYlNLOIOirU9_2PoaJQ8OzV0axo1msVBZ6j5IlJV90PJLpEenq0NBB_wg7t8xzHhUWIsq1nyQrNaf7Vt5fPsrQs1s8",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105801919484091084849\">Vinodh Rajagopalan</a>"
+        ],
+        "photo_reference": "Aa-ngMaENwKwWgdLOKRQCrMpfqUIoWeOh7SEcyNPFU33BJh1OyU58xQlaJOOexyJocK-gfjH-5QFhMVWPAILba3AFU9A2PoHpeGifa6-quF1e853ObQt1FKQaEsCNLJxvaAGXoaEFuYOX_joS-UmD_3EaISTOaiz7Hq66Q7jDnlkTUameO4atEjkGNqDwser3qGuLTAFTtxLi8qcl6Mo3KNbuWGaCGZfChimP4yfr-Z4PdVJSAf9ylPzb4jHiTRjRuf17_0Iy2_HosiRchVJpaZ62xro3Al7GXXU6mZK8nd53S2io8pv6C0fHzx_YyFMRpFa9XI0xuQr9i0_JAyFAkPYa_aVHFkEI38LRFSjNJ6wOx6PFkBhD9rxaaWJQA2hy3xqqyFVWy6Qd1CF7_U1AK4V6Cb4BQ",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103428989229413740467\">Denise Jackson</a>"
+        ],
+        "photo_reference": "Aa-ngMbZjSUfCVO_UgoLo5p64MPl5r0PefUfQx8lQQLPfqvNb1ptEN29b_SZrZcmBtcsRsxNG99z1e1AOI9KWy6nf5Ytz3huxQEVWtE5wFB8ZroeMX2dzRShaASyPzdlhx3BQP5cgWLpUXJ-cu8s5aEASNcm309Vaj6_WA6_Hy3CIkDPd7HuF1x0PAgmteOO-cgrqGNt_eqDB7NjVOyVIwfmTfZfruTSQ0IOPct6POVAI2Pc-98-Ee1TQUJ1ESga7mF3Il84yDoL1b5ac6dVjx2fyD3pYarV7gQ9Gr76-Riik-f48YeDU_YzRi9gvwaEliU-6IO07i1nQ1IKGr5T5sYMUJmwui8TxwFjQGDVulPHzwNcnyEAbO2L4v_Or_05h2sg2V_lZ4d1GEKpVphmEMJ0tYil2gZx9_IYNeoTtYP7PsxX",
+        "width": 3024
+      },
+      {
+        "height": 1258,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117130957741969094699\">Napa Valley Wine Train</a>"
+        ],
+        "photo_reference": "Aa-ngMbpelLNYnPKUHqNx78L0Y26X1bglgUcdbK7ouQU3sptLI1suOm8ZffMm3jixWjv-vmi3DlX0vRb2mioJmLOER3bLApMSCfr9Yoj_6oxJYky4p9zOxhFXYThuBz3Y7Dx9QAnrJ8EaW_Mqmc1ctOz06G536h_JUCKr0Uks0ENZd9bdeMmJGyfmgb674SSdAvCkX4prvV2Zivp4XEbzfyoIVrxWREPN3a6U5n9mghTDM3LCP32hu3aCRDLY62GmA4oEtIOoCoyLdVu0e96u3sxrP47BS0WG7dV9QIiFrVr4dV_C4t29HrSnEMWfC3kHGwKyjS2T7RkiIHPz-qe6BImoPMKyib01N3RykizAGO1XpOUSK0R3d4yMG4DUmCroiZVRBJfxMioOprcyYiy7yuwtSCOczPuVCDGoqd7sOt5FwWpkA",
+        "width": 1900
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102927426432312217905\">N Y (Mango Sun)</a>"
+        ],
+        "photo_reference": "Aa-ngMY3sgQhZBtxCBJphD5W7w5YfLRQHwFv9HrP5t091lCHiAaGoOHRWOdGNwfnueMNr4bYmGlR_f8CRIfaVffX4FFFI04Wkt8chL7_SAWdoI5amZvEI6z19Ue-hyIupD2D845pXOP5gFfEhEZQtlNPta_KwE3KQUEbMmCm46sDEGkrViYPfNRpVqthBeRSDasGMb78_ReNf-JZXYD6RHHDpvbv8AzMA6RYJQ59NNW46iMe188U26WlwhjGC6UbgeTAUOUl3Uy-sTYpcV1DPVe8vaJAZfx-vA4KexKDoth1FJ5w4zWcwrPrMqlVBLEFgPTONpqFTEaldCCciwXG8bTuAUeDjJxJ-4_8SAHF9RD3EBFM4D7MRfvJAYr7DhUwAEvH6y0QBUkPxt2fou1VOjeg7tVrbBHTd6E",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105061099394492403376\">Michael Wu PhD</a>"
+        ],
+        "photo_reference": "Aa-ngMb5DVnd7emPs7KJJrr2UXHCAfksrsblSiwgpIxE7-QQHliCsTQ40NX6xXGo4GQ8mtraU3v9Wl1VsiiT9aSBstSRaGAkGFjHF-DZOqpIkT-B2kYInmWAqd8o2f5uRUKp7fNgIVj58rnrj8yE-hm6pMfm42pDRF2A8Asvw46nO1ejekFtUQwYWyNAsdYiDJpoivGlcurU-KZWBYC00h77tPBP9ou38PW8feOtt_Z_3O0IaQY-QUyJcBlGOpP1cvL9kJEcr6aNQdfztLYDP0LlEpHbSBw9nR1n2siWHftVcbbZOevbanefJbW0iBf6J46BAxmv_u1d7rgqNESaAB8eH9me3oYAabZ4e6ontWfuSiu9BR_BH5JXdsoo7FrVLqui-N9CJT4IjnXPpUoeGYZSo-QHyqU",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYSUr4RcqV82Taweuey2fWHff5Livf9IVscvBqa6UAmfUX2QBSEm-o4DVKiNPDdPjuZmOrlBcGrNdPsuyNYrRr_F_vE0Rxng3gZQB0V6KkGObPyZlGpTdZ_Kv1yAwrxGFVOV2fkc94IvFG_akYLe-pYdEldaWRAvwHn7VUn7S015PgVzBraeDZl4I-3hfsvIdHMH2dbG3hl-eV6phPHWrfN2L7b9uqSaBT0Aqr5oNoMRdhXAr6S-Hf3RIjx0_a1_5tyHSz10upAlLsqSJwT8MvoF5o6Ysv9nX5L4F50WspWIqzLkwGPZkdNpgWQjBmChKru_VXpXdC7lil1-3DxC9FrpdpV7517i8xQC4wlVwABy1XAqt9qNFHg8LClOeUa3gQ6ys9cWe2Uc2SBGsH3opeBagMBuNg",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106906282499561032794\">Scott Sestak</a>"
+        ],
+        "photo_reference": "Aa-ngMZDq0BzyWu3pKYJ5Pe6ezJ6ZWvI0927rG0XomuO7Eq5iM6vmn_ZLa7SpTYVK8vDCLKxjYRNMC6zXzBDSjoqrN95vtLpNfCQAulCsFdpyEw-jmH5VD1Zlo_hHQK-pikSnXwGuuspd8OmRHGWsBFFD8-D3Aq2XLlfyCtFySf4NGHl0rSkBDExkesQtJ_AS_MEqD_DfcobdhD2wD6eDv2FpzjUcEqWfgxmwZ1twyObkAVLLgw8rJmSJtkHGyBb0fYFiRCa1zy0DrvLkM2ud102Nmi2wfsL_WyB0OnetFDuzBc4Qu1uPFGhytqZFTAnI4oC2Gc5f6PXkREkLwSFioxdlH96sRMaa5L8ChFLMZtcElPyZLwcaut1wVr8awjAOIPr9eLg1Kf-Wz2shDFJRfKp258Q8lQ",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJVVWVuWYGhYARV9gS9GWWnfc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant",
+      "store",
+      "tourist_attraction",
+      "travel_agency"
+    ],
+    "url": "https://maps.google.com/?cid=17842582663342512215",
+    "vicinity": "1275 McKinstry St, Napa",
+    "website": "https://www.winetrain.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+  }
+}
