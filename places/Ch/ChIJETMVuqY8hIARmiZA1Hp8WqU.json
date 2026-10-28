@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:26Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Russian River Vineyards",
+  "place_id": "ChIJETMVuqY8hIARmiZA1Hp8WqU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5700",
+        "short_name": "5700",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 116",
+        "short_name": "CA-116",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Forestville",
+        "short_name": "Forestville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95436",
+        "short_name": "95436",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9393",
+        "short_name": "9393",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5700 CA-116, Forestville, CA 95436, USA",
+    "formatted_phone_number": "(707) 887-3344",
+    "geometry": {
+      "location": {
+        "lat": 38.4654514,
+        "lng": -122.883327
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4671772302915,
+          "lng": -122.8813799197085
+        },
+        "southwest": {
+          "lat": 38.4644792697085,
+          "lng": -122.8840778802915
+        }
+      }
+    },
+    "name": "Russian River Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108325008455508237245\">Alysa Oleynik</a>"
+        ],
+        "photo_reference": "Aa-ngMYRcQDN0zls3Rkii0dFLzzRAJ0LXPfYbDwfilh73x-ahl77XB5NQm7gHEGEGwzMKEF8UwGRr-P_obobgoNMa-Dso6iTVrQAjjRtKb_-dHZ-B4uyQdW1N9p3U9Q-RWZv7BlHO3e5mQVyj9HvB3UMbFiQCPDD9P9RkhCE2TwT_EZjx_EhCFLdfDV4Vc9AodtNaIcegfNHh0pWbG3-BHGz91-tKpO1dAleuyBInC_4f0PyvChUxOt3Iddy7ul3Sy69Mn3Q2N15-JLevh046E7eljjKYUAdAA-S1aSB6ynV6uv9jZhDIjPrL1Dtjvn7IJ0s0g6302tnV0gKPJlV6T_--mBQyjut9wzXOmdg7eSAM5buKqEs6mx-39x6u-HYenf1Anr82ypIX2u84IuEmwbWfLqu6XA",
+        "width": 3000
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104340795686079342615\">amrit ashesh</a>"
+        ],
+        "photo_reference": "Aa-ngMbtQY05710C5ciSDiujH_XR8cWALm1MthHZUodbVoQd_GpTBOn_uXqPy17MVaue9PcyZZmhABw-zmSYOE07MoXTkL7RnDkilE3p1SNzD-i_IpG8gbtyxDkuTntg1IKbcHN1hG4OgSZyZ2kKc3bWKBeqAhuXv5RWG6ECA_2vKaVHYXydY7dcEyNiSWWOJ_ShUWC3CukQNFjVSNp6qUIz4e-D-5zWVcAIy6JLB6ZGKG4OuvFPjLE42DgJ5IZkWW6HY1drfBz8mqCOXz4S1ipNre1f97a1FkFxnexwQLnBlHRyQia9SUHOHhUgDXneKlxz9b_YG-yUx_2zP6sDKpMQz19aCz090NUr9u0DmVGHfRtsNtJAoEIQccKV6-mCWVSyt5OlzM5IYySqJbQP7WpO0yL9gcK1",
+        "width": 1512
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107917126086742511340\">Sam Burks</a>"
+        ],
+        "photo_reference": "Aa-ngMbTAf0y95sBW5ikvw_aqlwyCUllA2zntGKxvuR_imQZ1bzJ_n6dtlt7F0OcE3MA2RZljqq1SIABHfIyzlPgu9wr9G2qACQHqY3dNrgCC3R8vBF7-rDjgKSN6o9bBn66uF0bXrhU4MYqacqN8EejHqVY96FQwOv71bxdRIXqQYuZAwm4-3iMgCxjFM03_FS8pyCD0vc8S74pMfRMQRq7sNqS2S7IbwO8XHxY46AWVhb8oKiZEeGVnS8dhYVhMFjPHK1Phj3qggBWWa0ooKs89QOi3naJr2Tv_GUGRcRTERIRx2A9alkjvJO4gNRIe-Pb28WnHuPPkbil7GDyApvaskoFZ9GbfivVnbfHxALrytzpW1wJU_CU1CIahBB0PSwBJEnsxv1UOoCspSGcl4Wne8NUb13-2ZIEjr6uYpvehSuMkw",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113590370674201035455\">Marc</a>"
+        ],
+        "photo_reference": "Aa-ngMYpOxchddKtd7v7k3NCOia0hDFUORjVatK7aMKKc9wwPgnHaGd5K2ykaYXZay-gMWFLwv2r5iPHYStQsV-EAYcphqpnXhIpOu9y5hIerdjf9uf44EteE_mc29PlLkOOunLauu8acTqtv_uHQImoQGzkntsphqZ5yRnskM1WY9wb-AH7aaB5JmUUDD5CnifqvVnXqcc6hTMr8yjW-D3mXGwcsGKUvSGpnHM_ezCcqdHPDNoUv8FD0cuJPfcjyxy5356kiWRI747qhXwUmcBoeMixshlAju0SKacfFuUWly3OB7n0KBT4RWSnazjCHwf320PIZPGZ6WccxM-jJGnpEmqC8SPMh5lK9z0dUTUvH3Ukvn3kN2lt9BN2bPqKpT0uLkmKZp7FfdbhF-HrcyeLat2eBF2f",
+        "width": 4080
+      },
+      {
+        "height": 2217,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108756889261785179573\">Lisa Watson</a>"
+        ],
+        "photo_reference": "Aa-ngMYdiguin9JuIKS4ojU1fOq6dwsq5T0n_GRRpHRjEDWAV4j19vzrhqrWqgZhChI87TB8rwN3larf0n7Ban-J8SM-cIz6GG4xEBtQyGBYLvx6O2MQzVGG--PN2ebOKlIq98u1_R92sEkai3b9vUmxVHAdBvrYtcS94kBUIjRRBUpK0yTQeM_a6XkX8-PH6NIVhr1FMjfeKS6S0eB186Xf8Ei-RhHpV4ne7BaQA4JOjEwR8bNffpD8kn3oq8Cp4UIWUIl-_ZRJ-Zz65GE7vF6rpoz8XQsJlA2Cq_EIw8bK4cDDJvk9dnUrTVPUreCAIyQzkWZEqEolTzdsQ9w7x6aIUYKnsVMRpBKdkVE_TiR1BpMZCP8WURuTqi7-_2lGKO7TK3TLUAQ1d67yxrCak70kFhlTuuLjrcIDgx8a1nRjpivB",
+        "width": 3201
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102448942083534056581\">Carl \u201cRick\u201d King</a>"
+        ],
+        "photo_reference": "Aa-ngMbXBOQfp4qL3BWpLiDOlAG4uZI9g_ATYNIxXNgtxJsy3PId1q5myx_TrwmSgA-fXqpQ7MYhXhhHq7yrqYTgQ5B5nqYJw4ggXR5ZuSEf0tY4xKvpsC8Q2qGrN_j5HZGtogUlVukukLXyjGHHglZRf9AsfoeVpOji3uMXb40JUXrsak9BgQSeMNeiGI_Nv2nrYnCrglpxd91Gmz8RbY1Rl4986dBwfNIQh0mqsD05yhPtn8nhAKttsFdoAX1BSK_WW4NSF8TnHnOfrB36K6Osed0DUrUVVyY9ChlTjvYyqPs7ECulu17COS02vKZRXjJ_TENeXOdDOe1hO3BGiNaZebkt0PcdSnIP5FVK3i9q9J_eAJGHN_pwaq0uFxwWJHv41yYdMXYH3MosfMh-mQxdFwOkmA",
+        "width": 4096
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103508383090426977584\">Brenda C.</a>"
+        ],
+        "photo_reference": "Aa-ngMaiiRIJ2LXWv9E1kBpCTAs7Wz27hm6l-Ug32nFo_CvnaNOwHA3G34ygpQYM2-_WlKfi2RumjkQPB2xSPgbWm-PrJ9nTKAe1KM07Iq9PZO6_LTwNBOneAaO3UhNw12U1Dz9HMIjjMyfevjPYRvU3VWWkotcOu0AkJ1igCkTA_uevVQFhE3m7bCIFJnudetYB5CNsLvkkseUQrVpR4eLUevbbt8zjth42qbmGGZCfbSWYlqcoMeLQm6ObYMf5rMXibS1onx0c0PQsuWForstraW4eVIDIpsJrz-TKnvICsjK4mLygC8U7mhY_tKpg_RWU4Kb6EwJotfPGdQ4CxVPjq6a_Oy9MLEDP1e_W48vUa0RYrDp5PI3LEeiX_wK2Qqk3JVUJbggaDVDR_HXuziKLhXyyljEVG61-8UZR4UD-H8Kryg",
+        "width": 3024
+      },
+      {
+        "height": 2600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMYMdwAQ7mbmkePKVDcN8elwtjcwnRormLOSdLG68F4GjJUwW-XggnCV8hhCtKxJhmszhwnfqhKoIQFXnh9k8qjPG30lfvazrb2WDFBUtRQLnKdnmOXPssF5fFsk8sXO20uh2crbiIkjyt81_lCn2VL9y8s2hkcVWuH1fLCEiXLV1x9FJbgeLlRMRD3rN_hhuM4C-5vMJfq4WNZ2ugoAEVMNrwLRI4bUC124UcVNck8uIrLZpEksHc5JPECPkVVPl76dqd1pjGJcwNT0XZPflw50nMTcSK6LKjceOA_LTYysyNTdJEsDQYuqUwoWkG-SkTJW2TbvpZz_uF4Fccw-xB63qxH03T41WMFsMB_BwRhwKAcAKHko97zm9s_FYDax2bv76IMqnSLGHDx92pmlqQovJcQ",
+        "width": 3900
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104161827224955690643\">Katherine Merrill</a>"
+        ],
+        "photo_reference": "Aa-ngMbyeFCaITkI83NHAXLhhbB-1zCIViUoTy54qx2YPde6hcn-YQ6txF2kgAjK_sdfGOZ648ufDOh3M9vo7NtzQZZs3W-a6pKSTcN7eVc3iL3J9YaFmbJHtQy5U4AAH2zJKxkh2ZeaFEmOomNPEq6wtU_QucZ6AeINP9wVxClMoKGJ4H30gnbSORNcpWWCcXHA3r8ITWHKYHXkcBbOdLiRSr3UfQQm1Pi-XdKGb48wTOfl6VesYH48n2v_8b2Ri8LJhIVTqRD1WbZAlv0sErxBQfdlWZsGoMp28Wvy9Sd6vm0nlnfjlC3_uNYi_tW7bDN5D63CMCYEPCtPWXv_Af-HVnxJ1Oy61W-2DZ63YiYlcGZZqydcJn31WHGzzO9xM-PSLQPhZ8NDAF4C11tB1eWcEUNGGlfL",
+        "width": 4032
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114029604019679909804\">Nick DiLello</a>"
+        ],
+        "photo_reference": "Aa-ngMaCSEVYrpwEpPvMQlbNh6t5U_SglFpPhz9Q0k4Wl8XgQznviN-gmxSaXvepV48v8_3LY7g2McabEpd7LRcayGeZPuhbwt29mr7v9bJgvvYGQZxAul9HUjl1H8uk-iheTgPYHard05iH-y8HgRpWHAhh9M8Szt7fHCpEN-Nbs8zmFcZuX8BhYs8oj5_sOW7TASSb1qoKsbue6aCENTHUTrCwx07htfAQ3QGsSusSlhMALGpQGO-Jw4PjlzUpQ2wP4YNpvQcO_ZFd4CVR5d4rhBV346kQvVY-6Z8ur_Dg-nbjWochzWMnjzxPWeP-iiCopox0faHqMzD6JCTUw8yfr_BcjvQL2Kt63ZRJlPziIfARFPQtYbaIt9hCZvQxnKfrG8_KhuSaI7RxMZUIBpYTtCL6TbpzA10",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJETMVuqY8hIARmiZA1Hp8WqU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=11914972631150896794",
+    "vicinity": "5700 CA-116, Forestville",
+    "website": "http://www.russianrivervineyards.com/"
+  }
+}
