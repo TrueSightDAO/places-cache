@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:44:49Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Roche Winery Downtown",
+  "place_id": "ChIJ90rT3hyshYARF2anKWpAPm8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "122",
+        "short_name": "122",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Spain Street",
+        "short_name": "W Spain St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5616",
+        "short_name": "5616",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "122 W Spain St, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 935-7115",
+    "geometry": {
+      "location": {
+        "lat": 38.2940653,
+        "lng": -122.4591601
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29531243029151,
+          "lng": -122.4578200697085
+        },
+        "southwest": {
+          "lat": 38.29261446970851,
+          "lng": -122.4605180302915
+        }
+      }
+    },
+    "name": "Roche Winery Downtown",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1930"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1930"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1930"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1930"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 373,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101261008319512631401\">Roche Winery Downtown</a>"
+        ],
+        "photo_reference": "Aa-ngMZJ71-UNE79OyMvAXDI5qYBUhAwbY-zbOGmb_aOa7sxD-IDI1VY2iCp80dvnwuRX9BVyFdCbg3HyTbdQjUq__n2mitGSSqof5GFUpsv1RQS1Pi1zef2vXb5M_A0U1hkjAj2OtS2K67w2tYn95FjYsPUeRDxgQG3CL3p3NrjqqCl9cNym4FsXteV1tgRrBbtqkbcC9Q9Y5KzhvcubqGthgQDVvnJUZPlaWaGdKylX83gWS8g9oBCvq_HpSw8UUuUQOde4ukvuzpC2I1l4eS9LmYAZXRIpq4wqgSTjh60nV2xRYtXUrEJsj7pvvwnH1TcSwHUm_Bf3tuvDryWUAb8DkKzrnyk93bV5AUg0CEC8udKMxb6ZjP6m-KbDwhD_uvBHpSRfFAaFY6g2s_mXi1oJ_CYC1k",
+        "width": 497
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114284008270801110401\">Lisa McCleery</a>"
+        ],
+        "photo_reference": "Aa-ngMa-pZCE7elZiW8qzK6uu7_BEoznuwaWByxcWZZ1uBWOksEAs85sNMKhx8KNMNYt2RDxKPqSr3QukIYKUXm-qIkKWr581Z0MmQbbidmX0R8F7uzQyGXCBimEyg6QgQ2I3Y3hgTHB3MHj50fgYMclus2__P2KKMSLscIZncKqXpOX5APIUjUL4UfAoTE-LoekHritc02wNThx6blN0nltf9xMWyPTWNJ1AA8o4qcoPbqPiPsGBKNy9Tyoo20sugOuQ8aCL7uOmHznxN4ma6nuCYK3XRpaZvARLA481_823-WRtWaSr2rr2TVQwHHlVWBqztkTfkZQ4y0uxPAfD76ibFHYCnC_JMdbOd8CcjMqUuR-S6fyCVakZ06zIBy8tXnmSCeQb4oQItUJH-qpHxa8AjNcAuc",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105602535153011469838\">R8CEHORSE</a>"
+        ],
+        "photo_reference": "Aa-ngMYnsUlGk034tTMXmtXztBQhK3fStD1A1pjDJfAVoMbsFWPddtbyadm7hc0wLDznBoCE7YMWzRfCCu1HFe8NU6SyiDBbJ-E_2MuC1cjnrfb9aNdjzvT2TGiqgrsVlTatuw8OPolx7_pqM9-gKn6HOPp68TAFnjFpODof1xolB3mT-m1Bq3lJWefVlMtWKoIn9knDaSfJxZqfGp59pkVmNMGz4M_w3xHnSsD-YWrUCZJisL4fqcvtMVSrRFJsn36qT35bZiayDZtx2G-zNZkLTWRBUa7Yv2eEWVHBb1gmj08OqFgVH8tRPXgcpVmnQXdb9W05c3l0lqS9hd3d0nnzBtr6rzswgg2QcdHW0-a6gTG-ODlDfaEwBdCixhkOuJX66bsGc3B4hS2WqSlaqeq9cuaVsfo",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115492714115796357491\">veronica herrneder</a>"
+        ],
+        "photo_reference": "Aa-ngMa-QEGTuDS9Fzm3ob5jBw7jcw0xQgo2Lwes8KkxIeG9_YQgMeFWiwHROQNQqnFEx3GS9A2V6BrDM9tT6z5IvSe5mGpbaKWLmU3IU4_b7OnBmaGtgwjp6WBd_yrIeSGiyjKM54VoXUinlArC7KIHOqu63Ht01svQ9XznBgmjrJ2pAw_DsamCZB2WMTzoallXH5prGiop0NlWSssOzyX3YJho6u70_ypag-zf3mE5alLeOjRl5JzO9KE39oE3ugcISlbzqht432g_44oplLsxF6rKJ3OyThBbxI6fOG_6lX4q4LT9Dr3bmoPdaASBKa1ztVZA4ZPLnkJBwnKQkiLVTYohXrCj4ABfK30KpscQ68O2cFh34cPII7X_QZxZR_8uim-OvaE4hynxYUPr_MXrgE_n_4fbecSgIgV5kbGmi2xdsQ",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104625489352747323900\">Johnny Dias</a>"
+        ],
+        "photo_reference": "Aa-ngMaw4CtadoIopHSbY4MXm5tnrB6DynvrYqZrY3pB1FikRWAhqXTsvhydeFGNFCzgwj8rclbPSk3fgidO3kQgwKLH5s0iu9S8qrPJRBu9wgly-vYzvC3GP9l7DcA-I_exrANFL9ZzEmIK7gmb7w73RZfgZ0unJ7eEKZ3fsLMW-hx09Es-q05SDTWdmakF3ZUiEbsoHDd9pa-llghRHoEyODIDUmeRkhD8wDND1Yj5MyKia_rzaqqXnYR6XBmaNoZWFkibnW7AYjUfn5bmYMuEleuHybJv2mLnAzOqzYUHSi4xtHYbzpAIu88q4OTRyfuLYGtTkxB1orgzJO_uhLWAJb0Lyjbg1nRLKMcvWJyWrRNyfXD15a6C04JNWasgQMAxEUEioj0BrnEnsrJPftPQGB27WWkpoKtgDBnDnjsVvxw9Ig",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109571522102167541627\">John van Bockxmeer</a>"
+        ],
+        "photo_reference": "Aa-ngMb1zbWxh8oEwGVWnDSrXbhzo2AEtOHKPKZd6DT-52FOPx9GOpfYLkV0HWnpnI0E51tw9uaj_EQaOvRGHWsZNK4N90_tEO5ctd8--sEklNw6K3-cOzxqOWpWtUnloNIzy6rxhq3uj_9wFSmIHlQCmzAVcCze6hJHEanMgArbW_rs_KlLkw9TD1cm4tC9PCKCziVS0GQBhNcUWMyeopOorqt5USIUzWLeuiPXL_sRo7raefZ-17sKWaTLmyCXYUHtL2yfjXYJXjguK2Ek1UqSvv0aTOYtWnHatcEboUzGSIFQH2BlXaKbj24t1SyU1jDBHgWUoxhUN_Mz5REOfE39EnvZWObgha6yoISy1sD5dnd6C6h1m3_Vc3X-_EfIuWvCB4NZ_vBNIEeuqJQzPp1nL5iHVw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107193359748026265545\">Jennifer Zamudio</a>"
+        ],
+        "photo_reference": "Aa-ngMbxpWM5TXhpMHZr2hpwcwqrIc_BpLnnd6jRgkAtHbWf7Cd0LhY5jYm2XiBjGPReCOmsLEVAdakLScfALRB9BtuMgkEwjkAJFVNg805gPSp50B0Uzjj9qSUyLaRu3qFASutM66PVFengzy23vk0IJzmiq6HHviF971C75xJURoh8QRFLObgn3LagLWgt0xapx8fWmNG7LxilhjgmGaRQi0awVhSrRrc61nj7ovZY6EzNCzOdYT2QO_9PfNpfT4qFmlDhobKRIXDgh0KoQn-pvA4k9uH2lyScRMtnuPoSCUD4JJeMjhlCJMB5CeixoZQd3jJ-VECMqMwTiiZ0oEWTUKuwtXAfn4ypl5pq23XvND6efX0K8LJE6Jh3-NGS2-tCJW81Lt2_88z2aMygR8B63L-lv0UnbeM",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101261008319512631401\">Roche Winery Downtown</a>"
+        ],
+        "photo_reference": "Aa-ngMZefN1FTtS2yYUkoUBR5c_6MCTJbVr4GiX_g4yP3P5u4rjrLIkb8Jnuku6XaGslqzdFE1QCBvNaQi5aMqKLla7FgriT8Xr_CP81iw62lN_RFBV1LOcIuE1ySt5yPyl6O2NgTPl-UPzcKXbBCXl70CAoHgHU5D2zXqj9-vqUMnfvwLBhiRgraVZSKiWW3ekaTaLPbwvyQQMP-hqNcnLQOiDBgoaffyW7ju_4LZLGiZ2lG0XO3tNeKJk5ucmn0aLhKuz2B1ux0lZLk2B5L8S1X1BG_jOvAIX6UEPbViQ96rI1cJVpG9Btt2ExTNUTj5P5Pro4DNTjaGb7VbCcAY-zCT4Ic7hL-b2NPRsMF4ytve-tv2s_D7v0MBPBexu0YdwSdag47f17Gi0nmfJV9X-IbhYsf38",
+        "width": 4800
+      },
+      {
+        "height": 1500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102490796675113441348\">Tofu</a>"
+        ],
+        "photo_reference": "Aa-ngMblraQr6x8QhbPafEoCxnSJIv3JHtAZ062kaXHUwXa3r8pnfMvVRUiSlqtwaS_6t6d_9vL8_JZp2ooy0vb_hy9DURhaKq8u3aY10JQsUN-hmtS9-iMPfq0Uj41gklPwyRKdmYCBoSJgj57cdUwjlQwoRU9xLRNCDioYzrRZg4q0dcPtGqNQ7m-SroKZUrdnedz-qEK21oFgpfMNGc8tgXVjowtfoJgQ4_LMd_uBH-Z8-3xD9nUIsFC7RjmK346xaTasldI_JQvz7XMhbRNjZcpB570GAwekyefHMpqmzYBMuto76qYvcW2dz9mkLqd2u8AVhrf-9x7bo7ZPGbxg9AXJkYgn_WH9e3M3KPbAlzukX6SdzG0j81Zkh4_mHcSZgxwY9yiOO1O0tll3EowFjjL3Xt8",
+        "width": 1125
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114227089721003504654\">Carissa McNeill</a>"
+        ],
+        "photo_reference": "Aa-ngMbi3MElOezGIZMcsfQEg96Y0PnysSjmHh65EWMyAbU89sOsgGZLGjs_bZODL3ZnDSMlgTFgfxBGjn1OLZ-BgGkeA3rYi0xtfSTuzV0ZElAZfvKvVnHo_Ks2r8XcQwwgM3z_zy0xRiaqd7it9F8mC3WLubE9x_M_XFX4n6ExodCOvlsUZzwwI-hLyA_RRvwoTNnzEu0QJu5XlUydN2XObeELJlW92Lmwv7BJWpsGWBZoNg2M03afG0zLXxDG6tqyChb5tpMLcdt6c5kjWCyai2LWg3-Wgnoe-0P0zMIhgZjUnN8_e3pn0L2bOExdvr_bd5GfWzImCl9AEGGUd14Tdbd5q-ZWJ6IZVTM0yA5pwKnyGCU77mSYLPKTcoSkeyH7W7WRXQVAHPOYG8ZXOJFsZqX1VZw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ90rT3hyshYARF2anKWpAPm8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=8015915211475609111",
+    "vicinity": "122 W Spain St, Sonoma",
+    "website": "http://www.rochewinery.com/"
+  }
+}
