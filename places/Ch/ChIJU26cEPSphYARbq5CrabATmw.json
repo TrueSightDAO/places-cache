@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:47:07Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Fontanella Family Winery",
+  "place_id": "ChIJU26cEPSphYARbq5CrabATmw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1721",
+        "short_name": "1721",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Partrick Road",
+        "short_name": "Partrick Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1721 Partrick Rd, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 252-1017",
+    "geometry": {
+      "location": {
+        "lat": 38.3126125,
+        "lng": -122.3732591
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3140562302915,
+          "lng": -122.3718383197085
+        },
+        "southwest": {
+          "lat": 38.3113582697085,
+          "lng": -122.3745362802915
+        }
+      }
+    },
+    "name": "Fontanella Family Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107497088403757303863\">Fontanella Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMajQxqDXl6ewAwOgxVRdU__6V6t-CH9sdToisTQOjDwo2M9_ZULq6048iRzIWKzCSyeGR66iQokWXGHLF8lrXpJodX0pRFX_gmKv_qhU3oxhfWd1d2HPqL7Y2tfnErWFImgPQpXUgazDt7tpAEgfA7qG_JKsUELRncxaQQHW_RAr5m-nmoHyV2FgNHTUdg_IxHk6L7NB2uXtFboKd5459LLl4gahLEohgX15cME7GSexhyEmXaaKwBUtA0UnkFUrg1S7lAmVZmLTOSikQPM8K5kGmScw8LnM_5iw_OeftvweR52uUs-G9R691QRyZorEI6Q719yp5GBRySfcLO_RUXaH5YnvzwMm4AD_be2enhy2YCZovF8UmFDZvWlvtL9zOmHsPcdG3KHsatJmrNJksIhuKsGMRc",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103547931721456486933\">Trent Krause</a>"
+        ],
+        "photo_reference": "Aa-ngMavvGdPDbaGuyNh8kTjGnr8Ccwp2NZSEhm4ESwqQDVrp_YzKOuFYoEUE_6XlYh90CqfpukzePtgpvYLHGYLQGEVKZhiRsRe-NbhtLF6uIaJ5dV1TnGmhZzE0m0dBjB5FhiuQdJ4tumV2nlqnyzsSuX0KonGJhRpAlJb-fLEXqPFTghwaE1BbL076kjpIoQFE7VqmVbVwWhtnu9W94NYJFCoqJtif6iYNVvhqqADmloN8ezyytb-m0u1dD3bMRgejBxn93SNDZjIo07Rjnp8EIkRBqxw_JLdmVIevPd-pc-Eg7MCLDsEPii5arFdWXlmrgx_cwczcl_Hknwp18dWBiqqC1mR49O8cYlxQCTfH5B7AlbUPibM9w1Y44-UaUJhAGVpaphZ-tH95swNeS24Q66zlaE",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104551863867761296447\">Michelle Beretowski</a>"
+        ],
+        "photo_reference": "Aa-ngMaqLmBctrchzrd2PcIxvOzgC4LjWW-lrnepkdh2fYq_u2KxwsqfSZPt5p8OpxgmeuKEsNkpxAopdsQczz8dq1fgBe4QenzlxUetbNbKlAUzGjUZA4kGBE4yGxVJktwKyE6Z1pDmWNgns06mnYZ1SYfJsPOX0eJTWjQad2nKnl988Un4-hcxRPKk-7OPsJ0Jihv6azQBW__KbX_kSyg68FuS0q9jlz2AhgSPf5jX4_pBj8hTHmq3Ks6bS8XoZHL6Nga63iY72r7ytDWLi9gDlpRFBI5ztaabCSS5BOfoVc4K4Xp9b2W4pTRjVZa13Qqekq9uPiNFiTkfFut57O0AKm0L_eQvjxBWnQrzY74X62o7CoNpcOwogSbhuvj9Bgo5EEmZgTH3pFyTU54ElJJbpJcndMzvdN8",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107497088403757303863\">Fontanella Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbcEMVN_nyJ7PFzsZ83-NcKEmFBkSV1LQhaX2RAzBi7zE-44rexcpSs6M7cf4JpaHNa9EtlQQnQx9wrXtaNgyrNfzJdAgyimgn3UXcirYINtRG3HRgAtaAahsWgckTZslL9TCjpKUIQI_egzx8BycxzgO554uiZTdGH_dfTWZE0Px_iMusFnR5ck8623QQ4j4JNZi8zed-4kxylROq3RHsQImRkdeak0W8aX3fKf8uSNz5V9qQwvF9UpjoErbOsDB6jtIC3ed0VKdg9vJ-NtfY0cUTBoWm3n8aG_luiKu_E0blkpIClb3R1Hqn9l533I5R1tca3CLuLlu1lRW9tkF6uGE101r6hwxOvIOSXDLmWUM8woE6NYTxPwj4RoWZuWuBQ8N6n_PIdJXexoB0QtUYPsns",
+        "width": 4000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111222771419628409861\">Jeff Miller</a>"
+        ],
+        "photo_reference": "Aa-ngMawJ8WyFnYMC2FTY-lWyWyw0GEUCfBfx0lesf5NqCFnSWpmz-3Jp30DGF-N2e08D-tbg2i2Dpm-4uR4s5gxaHbcFcQNnTQl4yUEF_m_mh5HdHsYRYPLW4UJ_f5_FRVqvcGUauBlRUwEJOCVyiqJS6ETpATV0_a5Z96kr4Itrb6zH8rInW9JuZrKdREu0mi4I-sLibvXTbW5Poj9D2wSRPOtbs2g_Y357HFzFrOcspE0IuQD6Myp6LZeKIMGRoMihg5AolqngLNJYc-cd4wgixrmMih9gM-rUZRrZh_xhsuUc_DOKL0bVqy-jnR58pJSCHRtO5HwQjivma-toFdoo0ZHYjdYKkyDIYCPh7nfRnwGR-uQpazO0hOxk9RUJ4VXqCGNRBoirQiSKPwQPVhxJUMLHC4fbOKJPCn0viWsmAMDEA",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107497088403757303863\">Fontanella Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYktb8sYd_2idPU0Bq_SKgIJpLb1alPlEkxW9NCGnQJF7rQUJOYBgphsnLx5uGysqCCwKAeq9CukwhGa8ZIQJk1iQcEfJ-rHR9yVSLZF17qRCPrl7dipbifvBOCtYfYRDZeLWre0AaBInPiv5tBIveAQGfQwRJpT0fCaC1EDT1XQa9Hs62kdHPbc0BS7RaTOwkECGgDAN_Uq9mesGn-OHsQ5FU13L-0iXgGsR_l3oZnmgShkFQNtsiOrmqLEe4e_rdvTFXu4i1zf44q61Qr_hwtcvJ8xhas7O1_v1mXl_RycojaMj1iJB6tdeDa2ZNPRANlJffksIIn5WcXIlYkQ-I1hD1HX7YzVjqSCGrOZ9WHKtoLJn8hr5geFbtEkn244An2bUDTWmvnSbKT6Cq234LUwzA0ebw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100292539983448577418\">Danny Hurley</a>"
+        ],
+        "photo_reference": "Aa-ngMbW0vBJbihBRUF669cirjQywrb5mYsz3jsMwA-09CzBQTGW8E2k7DcRbv57B775DLAbWGk8u04T7M32aKdBJ4S4C_cuIOKvCA4Cv80YW0VJfqCIqS668_fAqzNWoV7CnVqBJ4bbS5dU9bAwYTzQQzTAyT87rdDzjT8QBVoySXeGYVYIMmczbuqYrLaz6co_dnykkuH6W2AXsNQsgk3YLtH9LT7y-sPHD9CwPi_gUPwsW9IEsvIVjHtitdUUaBFCetD2R-rbALhxC2klPQR5n3Nutw5gJ7oSCf2sXiS9CrFTG2Kh-uuzPk55fyt_OSg043ZoNeMf243u33InnTLLVJXdtXRcOPdBmWTKWJoI5hJ1mMfpqJ9UBhE8KWe17Nw0vOeL8fh_QDDQY8s2TF4_LcRfitNGLQK0VN_e87Uh6nm5",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104361328543951510965\">Mack k</a>"
+        ],
+        "photo_reference": "Aa-ngMZaWrIcXCqNfaZlXNZWl0fBtDTAwL2tawmEX-MXyriD9bK3u3WedPvwa5H2YYH2BDlAlDV9Ej3g9bIhFg12wZfsyYQxj6yHX9VzXxwjTEHGYK8u34R4dJC4BMtiD14TIgoN3v6w5jQG1eaw2cmboSyFOg0sd5PfFumd3RS5XsLrsABpMeirQp0-nc3g5_4rSSv-htTGQLtoX758U6AhYvuJb9yXDYoeCcYA9s62QaYPd9CcvTYxV4pUJDcRy9jx6hzU0kh6FXoXcBRaKj78O_DWHPostPO_W4GpcDNwiwkU7taYxj1a2Be9gwHGprGe1V3VEIKtW1vXinFl_xOG-mJDR5WMHnd6vvxVdOb0jTUXmBBIQpjhpblX8ahQrVUxNa379vHPvuaGhz9MG0YnyUSmfA8",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107497088403757303863\">Fontanella Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbPpCzWdEbLctGjJqNJusZaqWYu3b6rIYzb5PcLvicZSV4IW2J1HD1Uxmfp94ITG6QwI66GgyAZlu1_pFGr0hVhmtqEMTl_GbqZ-boEzEHcvBFd23q-_bLEDGzw4-icB_ZoPnWmwZ1ZYqenZdYWJS6I0OmFzNuI0IRyjhBF5033zSWoMfpyp4ol6f1eHLAnNrr0OUFOpEIasjxgefyHhbXBc6Q5z5Q35F-kaWMGWImlWLHaLgNOXdBYcjiYZNJDrETi7Jvuvck5GqO9LFmLpDePFHBV3F-AX95qXhPaRMAyAqmHNb6yt5_GR781UrVJ6dnur_1YVxfUBHfIskMMLTISDuZG9NE1gUzMIximCXKKO4RPU036Wm9xYdqdO0D77qE-8AI6-z5Ma1fZ2YnxBskBd94",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104361328543951510965\">Mack k</a>"
+        ],
+        "photo_reference": "Aa-ngMZCwTO7BrQCPsaf51vIf0rlDprUPRzrLOm0gXxQv5Zp5HIZPN-ZYW3ry0df9A0XMApRjRKb6E3GOXp-cttNMFbXdTY9wHxYJEWmtGmPMif0_aMAcjIdO9h9-4z2bjy2BKs5oAeFO0JhTLg_3JOBio36kCKsA01Q-ocW59Ic1LrRT3yt72THKVur78Jyc8huLLeGhq94PmuZCvhblEW0670RPr7xBqzK9tjlg_hbPzBmPhjIEIzE2sZwNRf86W6EsV5QDFs0Yay6D7GgAQU0nsseQCpkZBU0-LnTZcCusc0rLbhg2hpnKdda541NDM63pCpxNkFnqcwcG6xYT-Lofhm9-_KoP2ln1Ndjf7vWVUgm9aVcX7XfzO8tqHC1ED-6zcQ8Xwc9511lupjBTGpiKVKCJ1E",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJU26cEPSphYARbq5CrabATmw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7804387026383580782",
+    "vicinity": "1721 Partrick Rd, Napa",
+    "website": "http://www.fontanellawinery.com/"
+  }
+}
