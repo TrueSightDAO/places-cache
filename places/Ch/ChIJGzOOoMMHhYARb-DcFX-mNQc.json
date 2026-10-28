@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:44Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Housley Napa Valley",
+  "place_id": "ChIJGzOOoMMHhYARb-DcFX-mNQc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1038",
+        "short_name": "1038",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Clinton Street",
+        "short_name": "Clinton St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1038 Clinton St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 690-9192",
+    "geometry": {
+      "location": {
+        "lat": 38.3010881,
+        "lng": -122.2879588
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3023683802915,
+          "lng": -122.2865642697085
+        },
+        "southwest": {
+          "lat": 38.2996704197085,
+          "lng": -122.2892622302915
+        }
+      }
+    },
+    "name": "Housley Napa Valley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117796762526672771600\">Housley Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMY9bG2kHKYPUd5-aVoOXELG2RXPmGo7mOgdXJIYXJTO2Z1GpL18b0ZwSGM3Do_K-k-lUTxe0noz6RJfsFinNu-KjSr-zLwmpmd1sIL0m9XPp12b5qrZZFreJ2fzX7C4oFUVqZ-0ZyPdD_P5SI58-FCOvo_9iEV0qmIYN5wJOhucXxhf4vdqd65nQPvs9Yhg-wi16NAzRjRADxk25jIY_lYS10cSww3IwSV3N-Q1MwyeNbz5jIAP6Cw4fJn4JOKeohFwrXLVl8hTp_CIal-ZGT_belWhZwdCKbCOkhBqLA2t8LzMtPLIbhp8V2C0DnyB4jJbYP7e1hbOo7Uu-zzFFSQFw20wgmP1-ymeNhGM6oWa-UzYKwfGA87OxfO7iXauqddOtu0fueyycxPOYgYBlKWdrA",
+        "width": 4000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117394388670891201969\">Chun Shukyee</a>"
+        ],
+        "photo_reference": "Aa-ngMbhuAwqluHn6ieYqeIxlGR0TU4OCTLhnCb1SNhCAVl5MOaICWkRB75Y-F-8i0aAnGGBnLu1PbqQbvmh1SHrae9FSyp9fkBIT4FnGyXVS4BYNF_bVbHLTPP6cqaWFpbJbsQw87Fn1Gkp74lNBgOZ92VcHurKtCqMAmLFXJCE57JtLTg7luPb5aZUzt7hEoogcqKVd55pXllUXc8UvYyhXC4koRFcFH_g9aW1Et1zzCCqMyHRwDQ4tslvY4jehXZ9onLu6W_cGQjP75KNVcfs9teplVwDcKwUBrc-Bu5eeg-jXPZuTUp2CxOqfgLa_E5B5J_CNBrDVYo85ysq7j6IeAtZ35JGNFBSBoLUHMQJC05Xh11fvkBhiF5dDQmhLcICWIBJ8YEnuP3BguJOMjbgzhDliw",
+        "width": 3344
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117137777587343101221\">Andrea Mireles</a>"
+        ],
+        "photo_reference": "Aa-ngMba41icypMstwveaENj5oyRWRIZoCTJE5LtQS1rCsvDTNhIf71kdaaxBbQlwk97M_Mh4VFHsabebLOI86l7shGDkf6Haq-keEfka1QK38oidHOx30jSkNL-IHR5Hibiuptag-o6Li3IquXkRIMxXuJvnJn4zSepHCohiyMu452h-6unNWUKJUW1C5jDcqvGBsZ3aWhtSS255bxc4N1U9o-HLGQnb9iIuiOU8t3Z8KGBcu8czwEEg9r9fl-R2X2s_G-rdfQdduycT5x5N0bZ0snFN9k2J8zbqJ0tlS5ZPzT-AXNYfQMBW6_uFB35K3V6i8SqCzOkXQ9F8Pw2zmXhOz4c-jj5W_cJxZtg0fqlqofp84ss9yUM8KRn74aPxH3xr4rOWCwWKXz8o0vEgM2SBJF9-lfHY88",
+        "width": 3024
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111335146235212392635\">Jamie O&#39;Hanlon</a>"
+        ],
+        "photo_reference": "Aa-ngMZfzKRkC8LHA8NN-c5Kv909M-Gz4dpyOiqnFSVY1xmspkYDMQZ9OHYmFx7lyzxVDmvZkmIXWb7GEXrhR0qQ-ls5Z2eNnVLBL8EzhMPPcL40rGaLUVKi1UiMEUe8wM41UDv1jz8cHd6NgqF1yGart8nORgMGKTv3AtAdxQsxS3y1ZB5SdB9eZLJmtGWrxpFmFsLYjhbnVNhLoNyFTglZxq6J-BlcesJHULhIWnV_CgVnzgPijB_5m5vLXF7P89U3IOOJ-0XnpICfhGLNRAtW1Rngh2HpVI69UPf46fJI1lJB7tNYip1Zia6S3TbQwmSYu4_H2C0JDWclVQgUbqBFRI5SIt-O9XJHXJghMQBKz6uz8I9zbEk-eUsuWJgp-9a_RCG4d7p45BO2S_BdO6Sl5MR9Y0I",
+        "width": 2016
+      },
+      {
+        "height": 947,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108828716037781413300\">Nicole S</a>"
+        ],
+        "photo_reference": "Aa-ngMb7UHbUzck5mbpZNAKrjN05YRkwoFyWjVVYNAiQhwtMWUIjawSQa4Dkwubr3TXlpg_wCziLTtWgyPGsVZicFhHwJ70_dbxnVo48Tr9RKM4Ra0JnzJszS0ocQ7CEo63p5bY-K8SHjE4lMwO5QQEKeRS3tHaXW6Whh22Ev86ZYTZuHGQFFpf2GjwCxowUq1Foi5Su5mNav6u9uyBtMBfn1jODTORciJS3K-XyldbtwjE3Og0jWaZ5Sr9ldkuKXmn4kwrdcEK5CJZo-dZhDS5HDLabgtOzuxSO3zJ3UpOMnNCgT5yY-5145M4DUTSOPTtGiOrLDs8b42kTAsCve_EeE5fuQIE24rM1Dz-8GDiRffT__i5f6rdK3_7NrmyFLHTaWdUXj1uNF8n5-irBwDqQ1TfS-eE6MIU",
+        "width": 947
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115067056097591878446\">William Bryant</a>"
+        ],
+        "photo_reference": "Aa-ngMYY1GXbvLt64yarCU30yo7AmPWs4amQ5RiNBCXAwyNx1vOdSyD5fDifp3V3lnVTJJIU1amaNKImCrjkg_C04KIDeA66w_lRj-AyIuzNSNi9WrMmkl2W3g0o01y38av5kUh-bYUDhsVVuXxHRsE9duzS6AeZWqRcgMRo-eyqxP-9k24Ek57YP8bieH07C6ylR_Ob1K_hpDGQokp1NBj5BcoOIVW_MjBdTIIzXxaqkQYZmZ8JxlwH2cOeyla25ALAJdaIZrKj9QAGBPbQsifya7QggiOZvo0roLi1HMBkGpF__yPFYbDWn2q4KS5le2xA-wJgYHdjYYS_HxTeopt5wCLhRntVufY_vrEy_TXct-mDC2RksmV0FD8JE6LiuUaF2obzfCg2a2meO0C9UG4HjXB__QI",
+        "width": 2048
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112940270681212368249\">Nat Wehr</a>"
+        ],
+        "photo_reference": "Aa-ngMYs2UAnpo9cuC46Uye8JBftsP-IA6KsCQoN98pVu-YskaYh7UZAKPuJcQkNm-YESwlUHo47wiSV1z_yTMl_mfyRnMQI13fHh3xAivJEhMUQKQgZVhEDAyC2joQSfOn9dI_ueY9hrA2NLDzBT_o4209YNwNHMFb8YGmdYZ8VyxR35Sxh3F1Udl0SQAD44jtD-VEi00up2e2Mk8hNK1NKKN-bRG8LB25OU6VX3krGgGnVvYKYjX2dQRcxrqaIkz38nBJ9AVjO4yROwZzBw9R78wadeMEoI69Yu15hlfFxw1v13yYEky5-X5zc-Z2x0Ng6xhWJpnBB2PzUr8yfWflW8RoEV5q7xWV4RSTt24eqpqlnh6-dGjFifV5JrMwzyXoW5irDHSWMChAuHUXiZoPb7x2K024V2f6_7oOxjf_b5HSzBw",
+        "width": 3000
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101784877160519675468\">Tessa</a>"
+        ],
+        "photo_reference": "Aa-ngMa-KOFJm055APS5v2n9oygANoliIrKOrJ5mnX7E7ji8jY1zy7f6mZU1rtj1HdKqQCNUpjWsThtTJ5S5pAOrDOQbNVVs1Q28rUvFtw3v_HxIQbMHUaJH36jXkTV-YibI3zi9W1rpI1LX7w4uQG5x41X3r_cjW29ePi5OjOoaxrAoGMY7RG0TbHbTD3iL4Hqy0pn6VhSnyvaxSLhP4vjwD2oLz2JAA__djMFpnmHG2RNoTb7P6fBkyP5ok3QNIPfOp2w166DSKgnA4-hMmYl3U2ZlKsRHOzp3uU9sMUU9tn4g0blQ5jB5iPQ-ilpD5QK_kD2WmWYXZcerev4zbiuMAJwGIegx4FvqDp5p1ynTrQRGydXIl3S7fAeLX15oWBW-Dx5yAAxDCiMDSgViL7l5O2tPgRcVBQ0",
+        "width": 1200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100128950417577248419\">Chef Cher</a>"
+        ],
+        "photo_reference": "Aa-ngMYOtFRa-x8x0H1bZaQaF1c4jxu-FoTuLVHQS3825CsdntncKUuwfCeCiUI6KviekJpvI1d2uIyN8uYTeMbCELrVNneoLPl4R2u8XxWrGBwIdp481ksuW4XBTXwgkjXW4FUvPz2MM0L-BkO88ubPDaNNGicl0h6INPYXtkgNFsiHRIK0exbKINPr3TiCBKqyRH_F1-5oBEMjiRSFIsn84XcXD18tzxCW-UCLsc-9oqdRpeBMmjDS1oNs3et6vjBTH4lr-9y1V26BXrsrzvohT3EFpPd_GJLtl7e22Mi5wsxJun9LFxBAvO1o8mXXT1lprsvKNueuvN00sRUWsVuoS8X1JnTyG-YCqVKqwkoABWglAAF0AnMsPOkvTwjbrvUjMi7wi_SgawOO7WcvoG_TZhFuL5UtbMI",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113396779041313111367\">Michael Sprofero</a>"
+        ],
+        "photo_reference": "Aa-ngMYmfT49A0YdfZf01YzfN0NEu0ZDOW2rtzVWmbT4_Qyhly5kK-591lFgFrUVjDpK3BwdUG9T52yMuCDzCMMfLHBtvDCbjDBZ_kbZa_cvxaft50kf6uhFKUH_V0X86yMzuW4R41l34m7V08lJ-DKS9cOuOXTHCigPA_UubSGua64tGjYDHY1XUjGzP4Hj4lWvaGdFXh02mlqCUab9rpW86vUthaGtgKw9auN7vfrL_20EiaYOgUrHet1YzzOgbC_mAprr9ug7dElF2ANNs2iDmclJYitz7-rAXkwkUPz7kRGm7x_m6Ojs9A2BbSbV50WqzFhGFIaUOxkpyVXoF_dqGjwIrt7hkTa9QmH5AnJjlck9xPlBg3tusX0qo8o4FzL3iHFn9cwmwuz3uF_422znNLSECdIM244",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJGzOOoMMHhYARb-DcFX-mNQc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=519504396789014639",
+    "vicinity": "1038 Clinton St, Napa",
+    "website": "https://www.housleynapavalley.com/"
+  }
+}
