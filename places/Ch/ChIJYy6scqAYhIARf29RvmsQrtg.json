@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:47:56Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Korbel Winery",
+  "place_id": "ChIJYy6scqAYhIARf29RvmsQrtg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "13250",
+        "short_name": "13250",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "River Road",
+        "short_name": "River Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Guerneville",
+        "short_name": "Guerneville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95446",
+        "short_name": "95446",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9593",
+        "short_name": "9593",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13250 River Rd, Guerneville, CA 95446, USA",
+    "formatted_phone_number": "(707) 824-7000",
+    "geometry": {
+      "location": {
+        "lat": 38.5089672,
+        "lng": -122.9659439
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.51030823029151,
+          "lng": -122.9646373697085
+        },
+        "southwest": {
+          "lat": 38.50761026970851,
+          "lng": -122.9673353302915
+        }
+      }
+    },
+    "name": "Korbel Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106444735387305893965\">Korbel Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbjndOvKSXPxYzmBiKtlVs4jX52ZLiolNLnP5nvA3lgwh683VK6YdrxHJ6FcDzKgCOMjrom1V4b50p3wxu6o8nGWo4zW6gevHm_M8Vov6ewLiwqunm4C6ek3f5f2Ik8AURxS0S2CRv7QkYwLnWBP69IhO4TkSx5cIM4lZ83Ex_6VTbeuppBDJR7PgovuCD4G7zgY493ITNyRpYb8JFJzqTSIQ59xBbdaBNlY1KGadPp7uNBZB1OVa1-_3pD8Lu_vjtX2Sp3RUotX93bGgCQ6DuSxmh2p3fUJHwuU7myKTQ4eOkvNBM2kRHI4YBBdh4qQ5Oy9FtJAPV4eAUMKh5J9MzGmUiIQpTqhC3aVAkM4h5KeFa6T071rDk2PL4oYum3bBRgPrxAZAd0cMgczFlv1s-oSQ",
+        "width": 1024
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106444735387305893965\">Korbel Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbvgkeq0je6zaWZiQGgaT3U8zh5LHtpi6ZWCGZ1yoax057wgU_KRbCLHTuUGeUIsJNEZGJFgp6epWmjg2PSePudYUxspltWPQdOTPvKUAW7A5p-cCzqHo6FZXPQzCOruNbPIQXVIrX5YIM2-ErjHZA0TgmBXvB9RPUI0_8paZZtp0UEYeJ8Qps81p34-MbgLTtgfFezlwRlKYnIZdegbHsdchvVUU5rbtAYkYQzY8q2qtC5K4G1a71TRSki9ksGvjYJab81Uw4FWz-OsQXdO9gxBsHsX8lrPvxYP9ylk5rllVWTCYLeRw82LExo-N1C_ocHbl2alOM6hSMqHhmi33zv3LHMKDMk9Ghl0ESAVchv6C0jSJA5Lr-GclXk8ZrfIDNk4XlkKEAU8uFLkXwv-OLo7WM",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106206107275037038734\">Take Back Roads</a>"
+        ],
+        "photo_reference": "Aa-ngMaAz5tIUtzRkVAuz9DnQzSK1TPjJRZp0GS9l7FMJhguCodroS7FpFBlCYybPCssPerEo05GxEYVHWtzTkKougXfYpX6cyhNw0pZQp6zYjPb-HU8l3_osDwppNZllQnBmRgmCXtQuEfTAj1oya7topPZoyB3Nv67-9HOk6S957Q6AKsd92uyHeJ-MwjOd22YLK7avZGdT5AlKVOvhN81bGjIKKagEqD87n91huCbTRprVG8ykbHoGylJOSojQFvcMY4XElKiJ3teOA8VEAjXV89-CEC7TQiDehOR43t_vevm5KeQ1Cto8ZbiHqMFueX0pFMurpqSVMBcOnu9No-1MpN0JbkEsrywZaeWYsS36TSHjYJDhPPb6elLHPthLUljK5knl-GF15YfAuocrbbQp_3FD1MOwts",
+        "width": 4032
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106055803791443423234\">Adam Straubel</a>"
+        ],
+        "photo_reference": "Aa-ngMbdF7rUWPOFJSVDJSAeqtopHoEZ1BjSAIdzCJ4vtiNsYCnzL1v_t6oPamWJOAIW6HK-bnEW7BvD1tdoYUbnVcM9veluI3LKhLlqIsw8q3JLt2f81-uitYQhB1Z5UiBfkAVfOAV5lqy5TceSC1JBamo7XNRuqONdEkAzlaICT6ZkMOLFEHp5g91Acy3AqiLF0_R_I_c9D0uIKQlr9tFBuKRLmTHJBZ-eHXeNKn8RzEmGhaNu-5uRAn68e-NR72-GJQyCs51pWMDmU0OyZP6mJP6QvlcmGQK5krVCu0ZAuh4yC8fAzpvLco9YSCmVUniWu4LOieJz3L5GXA2AeiUu5pFd4PDrvx2QGYT0dWVPBYf0IQZNoCSP3i9V8IXoktZOIG92k3iNW7utyTDZ8pNBBNeUsEM",
+        "width": 4048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102111783040093577444\">Chiu Kk</a>"
+        ],
+        "photo_reference": "Aa-ngMbjRo81d3eUjWY-uIMDyORJda9tJUzO3YBWc_glOS-1UiDEATSt-FfoR4dGBQBaEqPnSi4KP3M13-9n9LGr0diX-WXvkhsBK0wS7QAJsPTx2RDqYO9USAjkV_yzcsqmsj659XQ7asOqp95lOBUILnaYWKDN5I8qWGaFlaEDiREuC6EdFDgz1txZ-mebiCK1lEtSWqXo3xsHsPTsQAh-P9GeR7wpwwgbmzhyXSB8KFZVIgh0lpMyzH7Fxnzg8IIZZtbGe1G7lb8wEAJxtidCQji7XiBm3NSC3xOg81-JhiJGzlKZlhiaPH08_laefbCACiug0ckwqHNZ999bSA_UBBf-YSWnLUgz8A8JFTQXZW56E1OnLWHtqaJ1I8KjdICRYXIuHGOwiHF6DJq7yEyBt11VFj7D",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115926144413125841514\">Don Hudd</a>"
+        ],
+        "photo_reference": "Aa-ngMbiu7atunDK9-Z2gr-yUn6I11Kc8FS3_5ijKMPpadhiARfU__qxXduheNdf6t1WsME6OLM0pXw9jWA9iFyWexrVnTgOKCDUTv-W8K5NCo1odPlFZFcgHO8-PEDU9tnm_UZ7_Jvyvtj9_xwDGwhALzPGH3G-cdi0sk6V72tDh8blfXU7KMk0yADYhHnqnTWaFK0fG0w2MvtXvzZoi3xg4yqkL0CLyPzTXL8kBO7nz2nhp9tVRLFuhnxV5bzlfGLmuH5dV61bmtiVm1vJFJsJ0jnZTeSfj9eqJ_2uIV_quPgIIxuxYSGNWP33RZAFpOyyGIkHGcgye0Xm1kIf6aumD7q07pvNRWRWmV38FkWufCDBR2E-L1wYRAlIcdQeG8u_SAzzkNql_T_sY4-1GP8HN8nLyQJ74I5BGOobzbNZaFLO",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112741836859169042260\">Robyn</a>"
+        ],
+        "photo_reference": "Aa-ngMa6P5U5di0JAfWpOCMjXoqvxVqhj06EC2rVCwWtrgXfwfL8-fAd62Rb32a8sJi6-8IlDVMvzLjp3h8VWE7bn1Pq8DyO6ECJKXgbUgFknCxxNcioY2yMy2wOgU7nvda0G7BunhU5JQaVsOrawdD5P4NmVPw-hhrHnRoc4nHkcAHD7YYoPoMvmdfBUPeTibxWYPGrhR-6Q6RxuZrDDv7cAEKEA3RaTuDLVo8ODsw7d1f226EpeBcgWszJdw_gb95u0LIfaysn8n_71pzbXJWVvSrRGCKPVP4J6zIoiZYgPfZiE-PTKbMa1-A-2-ghoG7sncN4iEvWDNprs3WFSYt0M202mcY5_hzCMlizAD-su1CQtYV-_amos454YN_Q3wDd2miAkL1UT5skOfaLb7xVT1P2TTw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106120122803532575615\">Jason DePerro</a>"
+        ],
+        "photo_reference": "Aa-ngMYewjL4eOdtHZS_y_r71-kbix8mexFamn7d7ZF9IzDkoAkSBJrKGD7IY_MjSnSdHBuN_Qjez_a6sMnHpFvEgstr6j1hxSj7x5v71I3vwfFo2XWuQiiez1dcpCYw5fC7W8dVsVU-nZ153tR6hjvWjIH9-hs1E8QMUeIp_trLOTAiFLNYGFQhDD644W-UZVJ7ALMksBy8y0c-Mgl1sw3RbYRZ4HUgJiEEEl8pb3K_UaiMiPRDQeOmlDPrcPny08S_H1v8tRfeFrXojSG6y84dj64uFRuQeZorLD70A3JQvSlcbCgscb82TsZaSG6e75iGA56a2_knC51kWinh_ewMSm5nYPWOYOSOqCjoEpQ0CWTwiGw6PZgmcRxh-z9lghXQC9XemApK0ZS57V2loATPrg",
+        "width": 4032
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117844734935754417197\">Benito Guerrero</a>"
+        ],
+        "photo_reference": "Aa-ngMYsh9zXX63y1QwkIwF-qEFhnTKqhDD5P5qTGKz2ieNOQdWZjYtTg7-Wz1pqIjr0SSLSTzwLBiWq2HMjSo0LiOxgG86kS_Ov5aGH9JgokwgwIJd9QS9hPNC0-AfMp088RBydfT9HlDTFxiO9fjpPx3z-2qrF3gIS2-4plYyvkPA3eyWvGQ1shIpcE9k8Yr5ikbR5vaBk2vDoVQQwCLtfKfbvF0s_YowEMdmFHiUxuOHb02GLwENU6v8fag92qNzxd2Q9iok8ObPBdewVnlJG7PVOOXgKlef2k8-VnjV011bNgdx8ffj6EU6MBD0H3coVZaGRndcRdvO1ESayAzH90uTJ62ta75EM7btx4kKFqan25UDr5X4PB53HEroLH5aMU_lacRFEbYrrgYxc85EhIaDlisA",
+        "width": 4608
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107027995560599304671\">bartellj</a>"
+        ],
+        "photo_reference": "Aa-ngMbTswpunTvhtWZ5kmUh5hQT7A5gOPw7PpcpIX9XcdMSmiSTKjifgU8rKjNBkIYvBdSWgY_Kdr26u5Ym1w30zBy7VdsqT3hYsBzo_QInqVSsxmTHfJyRtFzMaRbEuUxMPqVrla67h1Tqw6MZLj5QloREfzxHZJKbNxXghv-nuXapgPlQugFL2wwfhs2XdFogXL4v2ZK-LTNkTFwlkh7Gcrd0GEpmqe-IqplYSPpTUpKHnF-3-UpodMtoZ_iOhzWsTa3qUQcasF-ZAyNWEdKhpdQdBGBLRrrF4EndjAwppSMNunuuivjnJXvryj6gkqQ4Ek-c_M-2F8Bj-v-Ve480yV3Eqz-kBiueX5_-iqXcqiZNM0Hhh1GqtqGDSei74zWF4Y24cj665vLXP8C7FkY6zmphE-K64a0",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJYy6scqAYhIARf29RvmsQrtg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=15613435013080641407",
+    "vicinity": "13250 River Rd, Guerneville",
+    "website": "http://www.korbel.com/"
+  }
+}
