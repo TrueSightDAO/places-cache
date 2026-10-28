@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:47:02Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Three Fat Guys Winery",
+  "place_id": "ChIJT0WZ4PWvhYARhJt5yH7z0R8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "20816",
+        "short_name": "20816",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "20816 Broadway, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 938-7211",
+    "geometry": {
+      "location": {
+        "lat": 38.2711713,
+        "lng": -122.4607236
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.27257143029151,
+          "lng": -122.4595399697085
+        },
+        "southwest": {
+          "lat": 38.26987346970851,
+          "lng": -122.4622379302915
+        }
+      }
+    },
+    "name": "Three Fat Guys Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1994,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110452365855454463956\">Three Fat Guys Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMavGY4k6TpNfRPz46WzmXO0OeHddavEdOicTKmuQBXAPVXHKhQnROzTzzGyhkKX1i25ynE09EGOaTsD2UGfIhbOcEEsp8PM6SbO14A2JKcMuzwKssVpNJRWTULAt7CY_l6ciV4LTSCfVc7zIQT_dm5UcOxjijRieHPEKldm11QMrcslBNYM-jvyKNTtnz4CdbIIff-YI3q2T4fjy1LFqtOvb_uOPAMBC-5iQgm9LWJtvJ9s_15cI9CyxkBevZMTNI06FIMobX_-TmJalXm4aEtzNNxYBYox10Z9zDmcVEvxYKegd3QPGf331_7K0pRxuY4QBuf-XbgGd4LJFAv48fi3Sl7TxgP6Abi5BG3ge4HWQt9dEajqv99orR7HwxARWjvlyc9GAV9hpCQB4Wa5GH76Lh0",
+        "width": 3545
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112938800789610109362\">Keith Johnson</a>"
+        ],
+        "photo_reference": "Aa-ngMbS4wKuDgMi-c9teU7VJYKB1n86Wv0jd3cWExKG6VZKK1GFiH4AaKl6qXpBX0fgwgTQJ-1bWAlUJoIG8kqakjaeVVY110Oia7t3pJ3ts1lSO4mxFvMjMAxURkPMoSmWNsmluSuozJ7yPDiP3H-Nh7eqlIYlS4YlaivSniJ3bmHsNIKhk4XtH0Xy8Cnd4CBq-Kcxq3E6ydAuk5z_1Bixd_oPKYbFK_Yf4Wzl1Ij-NWUZQMgK_kozGD9h_pao4tKyns1Gzwrlf3FkfKyV7nAAg3IoyHzbddpv4z79hv338y_MnDTw-HQmUKeyBykhsHpdvYtSv_UAKDEAMWge5SqNpzVd54sTy-aCHiYymWQrAd_lA-BGAuAGlCEwkYHAmRcDlrzK85sor03RXb51gsKrOZPWXqL0pJCxx13hbbfUuKhY7w",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110452365855454463956\">Three Fat Guys Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbOE1hfBANCxxpS3sGtzajbBxMvznJJrWvFUWU7YJwhEq-Xk3g8k0GUMyNcwk6TfyGt6CZJ_NaZWjKQnpPuHSoZr1Cz5yIY9uaMYyHamJcpAz-R2OAJt98z29SsgXVeSMwb7CLSqc0dwVCodfNfzrhdIdIueUYiY_ebH_TaAfN0ePqG_ss6ZzErfrQjzFQWwmhPEbTd0zBpeO8DOE8mt7T6Ksw1_y_APUdTfdKVVRSWftnf_kndtgPCNCP25fyaQRJP8e2TNWczcIbSVahRPAjVK-E6ECwcI8EAiXkoVU1ezNSKMIminm5l5ew3XFvXTdDH6Nq2Vx-UA3gOjRL1K4qlHC_X1UKh8EgTih9nqIv3oLHXYx9SodYVWeMP_PvDosWHjxlF8rn4_WcN9jIiecE2X3J5B9Y",
+        "width": 3818
+      },
+      {
+        "height": 2904,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110452365855454463956\">Three Fat Guys Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYXHg2MuRMOH9qzXyTjJpD8dW0dt8JD2D5wg_oGyXO2QITJ80LRxRRwMk67BlVJDCCGXsH8rcKMosZK8jCoYIaz7t43Lxs6dR2yhJqPKufY3o7yTXmH98XoS-xN3SQA99PlF2YEtvT_wzMtDGiZfD4VAqcS6qJFuUGBCgbHh_p-msCEw3emtl-Z6JV6CepCq5u5oehxix1TAlJBkF8Pzm_CXuMKzSI91vpDIf4mEIqz_WrAkiRR_7iGuMzo6-6vWGZyheoQpZ42yfKLLQa_0vRwk5YcyboS1O6Nt3fuv7jE5IG9j6QBdsIg9gtX-lnXUgF020h6ck0TJnNfGJVLEE6U52YfWtAoQOORiGjcVfehTysVSRnJt61NJqmm1f2Je93b9Pf7qNDRdCA891F3wq7S-BXmB88",
+        "width": 4352
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113319580087393790784\">JMQZ</a>"
+        ],
+        "photo_reference": "Aa-ngMY6bQDeWPAE2gYOKoA4hqA7nX-zKVCbCREp48NA9clVU4WHsEHi1j1-ma-Ey5feQnHNWbx1t-dn9sSOcW0D3v1C461qLkQBO8ifR1t3i5Wh9Fi5zgkCOiytIfNdGIy6gVu0V0oihEsrf6U2mDbETFEUNol_reOhbuUxQ4Ue2At7telXGdsKAPg_R489S7hnBpk-Ta5LaNYGz6he4xI6UiGVLxUiclgOyb-k-2QKXxkU-lnQwfsSKsL0azecaMh6UhdVgc-gohLdnYZGUtBEFqlxtcWvCsCgInRicI1gOuqjSyv9x-kMSPaHg2knLbwxTFVtOtMF-gn_Agb2sn6346FJ9XvfDkm3fKzxwRW1OgDE6mfLwGmxyQNOxOcvNjsyibsR4MjU6wsbOpCLddrnccJcFsF5ZMs_wYvxMGXp6mpz",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110452365855454463956\">Three Fat Guys Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4lOF8QxLKG9uEwi0b2EenbGNdYSKnup_fQvuHXEDNMcR25GNxlyB3ezsIzcasX8ImaMkuI6YTsYFfItQty7mu0bC0ZFUEwVPr6ZiASOcKVPSI4q44qHGjZPYgNoo-vOasDhK1GOhG6qalZFyosVaSSVVNJmxdANKYHn9qQOTUuCc0aqaW7ofY2jlB1fXxpoEFla-akFcp5x8lx_SlIGvZqcjaPm5JC-12mgzL-bMNwxp0LQaPvwWja81QUn3308X2soYPhaHz2CoYltFn27ncznaGzmYu13AqWwDVw8nCHm-1Tcqh2XOpFAGh4xlktifor-GDwtljUyaEJW1t4B3U6yJpDeQhZ47B3RVvbNd61aUrINg_LsF9PKJoVqsHJYlShLmIR2_n7r0WQBMf9JlJ7kxzRnM",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113908337072740613082\">Bradley Brown</a>"
+        ],
+        "photo_reference": "Aa-ngMb3G8lLksqNRivpkSneB302SZ74r963iC2ngH9tKk1pqbenbMqFP9RVEPG4rVHB-Q_5Hvvy-ZoXcm2soyZ5MiwllOMwgkn99yw-3cJ-G8s4br6dvEt3JiBBFn8mBkQzJK5e6IxcqqxJYPh0g1OslPd5SqaT8z7b3JEXKBg0JFpVI9N4yDjytkqrFpcxSqALOjaCvFIz2jFkQSig2GCiC7JDU1dvofSne-1V4D8aSh_8fKA3rjIze7Aaib8o1Iv0SuRHUkdmj4CxE5KQ4zXM8W_T6KcUSAAVKO9Wl1rKwce1TuLFPsjilQ4BofyFpiu5jnOmP2vb8DX2hFy5hOf29hfTtvAsclDtRXz98lr0Ziqcpc1GrAJnQcerToW9pSLJG-zdNc2lSRAgSCTYFtRDpnb1-0G9",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117259856953808733680\">Dusty Tovrea</a>"
+        ],
+        "photo_reference": "Aa-ngMbbF5XKgeXVJDY7lnG3Uc1FKDj5At4n67B9vC54YV06tKE7ISoDtNHEG2ITQX7s3wRN1FCzl6MlOH96DPeWdLgVt0qlhDMyQO-r0_xfPSXowKF27Esmel3OKfThycLrf6yth-oRfhMzh979EmjshshKk_FsfaRySls7uaNODVADJdSeiU9qBJAZs6hVDhSmYjvqVmnSR8b-W8EeALpMxpyemUHBAA_TOl1nONSrtdUHD_2tr0cvouyrHcpfLpjMS8IjZ96aQrMbv3G6OsuOeZJAcLKXHFiVU25zoucdyCpTtmjVg5IjPTdSEI6lC4Vo_nhrITaB6ganQgdqxdTei2LBEcIvClnWwt3hQWCSuPVJS6hpZGk4HWA5yNSM-l_1HpuTWUXNbcq59Z5HV_9k1Qbk1uE",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYFReHZZ9m1lTfQz8_0zUZKt-1jiqBNRelbKqjAPMLFHlSJauXOfPmqxH4OasvZxeeJycVV-kKjfoIDEfI8sQ9IdF2xsHqPLtIzGBqIIQClMFtRgy39zdWb1kLhmUK1YVjJpRYhFtceVRUp7hQXJiES1enBmtcv62JGvhDC4ykZRaX8MCV3vT8rf-dDKiSgJ-ldZl4UAR1Oo-gM9S5i__IeoU56XHg0VSRka08Kc7pDGhac4TJMHxbGio_akZ4TOBZrfGw9cTCDjAuhVIV3Kd-FedxETUnWpR8bhyqwANwmRNVRvAeG3TMZY3F7pzcKTXJuyp-Fl_twYYc1MkwG9pnA7lVeHUPv2Nr8aI33RzAQhW7Ucr4XLtfB-vwt8t7m8wiEwFI4NtQ8f2ZKkObqwOp8NrT4",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109144406062125751161\">Ryland Mathews</a>"
+        ],
+        "photo_reference": "Aa-ngMZQzgbGg4g04I-zgigGM0VqMjVLySiJ-Y30NJO0Tb4kXlburoI6NZwdj4ZisqqoniRm4eTyAZORAxtFwHwkBrbQincat_R7xWDPoNxwiYAXbGiZ9k8JqvwrTzPK4ouENiaq_CxFYCKuPoJL8aSN4JoarTm5cRinvyVmLlrSS2pAL12QQEgFFq49fPlBp0JTR_3Mm80Hyt2fRUOqNz21b5yctetlO06Lre-iVFo-fic8kTn2DhmxQQPQPhNiCgJOiv3gM_Bh6gnUzc5gOa150Y_qVh35TxF8IW_t6SqRwyB1mpBPb_GFm4xyfgLzuvRzeuQhfxYY06D9kY4ol63ZAkZXVAGednQJuuVN9aW1oItMRcPRrvfgnA-MlBOJwNsz7rfFvbOKfwfPjFmzQBVU1d0fKIu6Bdk",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJT0WZ4PWvhYARhJt5yH7z0R8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2292881411163134852",
+    "vicinity": "20816 Broadway, Sonoma",
+    "website": "https://www.threefatguyswines.com/"
+  }
+}
