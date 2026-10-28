@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:44:11Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Lasseter Family Winery",
+  "place_id": "ChIJ2e-Pa4hShIARnEmEhbgGE90",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Vintage Lane",
+        "short_name": "Vintage Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Glen Ellen",
+        "short_name": "Glen Ellen",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95442",
+        "short_name": "95442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Vintage Ln, Glen Ellen, CA 95442, USA",
+    "formatted_phone_number": "(707) 933-2814",
+    "geometry": {
+      "location": {
+        "lat": 38.3836368,
+        "lng": -122.5247325
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3849786802915,
+          "lng": -122.5233468197085
+        },
+        "southwest": {
+          "lat": 38.3822807197085,
+          "lng": -122.5260447802915
+        }
+      }
+    },
+    "name": "Lasseter Family Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105563255747384796575\">Lasseter Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZcb3wBb0usPznNl2FL8oqTuTF3Q7k0rpoaUmhIRmBI0e5ERmnqM0VouL5VGfblXWUibwZoa511BIh02adGCWMFnyG17xuDDNK5Im_Nh4JKyYXC47w0B57IyiH0xwhTgoFkIwk5WW4WDeGL9XG3o6wshftWTF1578vtnRIPdJKNy2yximYMut8dUhKfmpig5BTAXET3IWp5RPqKkndnU6-463r7xw8CcHSwEK2MQEjr_ffyHHnXNp8ei1YNnB5ci5dBOiKudJsgMk8SpSyCbsaCaWtPo7aI4g0M1Iisatu10CpgxVMwDKz7bwBmNb2L410wNrwFmCjrgZhMxmea-ClM5Qwvz8pilw352ldS7aJh-_WCbToeu8pFUPYOAXNJt5Zip1P9pZanVx3mRe6dmPrprZuasC4",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105563255747384796575\">Lasseter Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb1ejLebhHIhi_k-JVmbkraY9KqrXSzuwKOb3goAf07wBL7kAL8pHkmnWqt6BYyNXyK1teha8TajqTl1h4CrYkj--hPqnrgoY0lSIsQiLvrwHpcwRK23ZOb5iEYW8_as_GYP20UTWpc9fUrILujl7jQTwDhSWI-aVPzBgTPw_sDypMJ_1BmIzG3KUlylUG50uMc6MmAd6wZiFXmOnia6UHSdbMipDLMlqk2HdoOiIbd_1-zKo6F5MJefzP8IjmTfb7w0URsMPa45_eHCx3Gw5Rr_dzPV3C0EIfiCFTzd503uJvfwcP_H15njfBQtFfQZklOWwK351FnWk51-WEVTEmsoocckEDta1zKK8VZhSshzbX5eIM_9EcAMXmTRbwBJ859mRMYdjdHgl0haWQSk3x5Rv9FgaQ",
+        "width": 4800
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113544257558168448025\">Lasseter Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYZVgrOmJqZ6_NwtLehSfm86Agi6VaJmIiHf7jq1je1bb9GxFFLsHgILYqqrCtjyQv_J4F58NmQgs6AAuuwDqZlCbzrHf7_aGYFtaF0PjYgRTWXxVQ7VFb8TIBAy8DuwEnUwkQl8537xg1NqL2v7xk0ke97wfWC3ZHX6VHaoGPIa0pjFd2MCvGm7m0EDgLjis-BMlgj-2BhAS41_jzYS4UClDssRmg-LTQ7-lLrmYDWNqBBwKM2dyTI0cGZXanzE8j9qNMZD3c4AckmKQzp_JsESSizuaFNcc_uqbu42vyWnuWkaJd-nfQgzmG-_bMaShNdlfOVxqpEpOLBOyDRf2gOgos6YDy72IbxV3ms58IQngLTbnDUx9MhUDU4lJqJHaQvSz6XTFKDneCBHVBtcEVIIvo",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107524058439730533847\">Lasseter Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZbvUWUt45m7x0-EzvGJCBghr7-NhZnvbMHck1Q82OZo_etY5xHtYa6uoo-Z_EqGACY7iqyRR96RZB0uHm2wN2g8K_BEy7MNA7zn2cgj39GEsVHh3X_4msWlJRdcPHKyOwGuQ0Qj5Xigrifs_TZ8Xb-ZA4pKuR7ZIgK9vL-fYxcH5GYJ1STRNz1cQHEi967mJMFFS2FH_omWsspqWW7jswdLS3IL-TpHgdAm4SXz-QcLSJe0admq5zo54ff1FkCErTivFFvvaiABM2Fu_ztLUu0IZOTvwo8PG55gOHj-F4IBM1mu0dDiOzOcGzABCxS2q_uwjfk8Ov0DHs_LHPn6n8feo8ANuTqU4EcmYNMhPvRuKEJ2-qQO8d6R2SZa_1r342jga47eehS3Nxx_80ajPaUVchXNMM",
+        "width": 3264
+      },
+      {
+        "height": 3197,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105563255747384796575\">Lasseter Family Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMasuNnOb2uN_WMEDfFYcBuo_u6MA-hztoyNXwbK3PmhHQ9PqZjuOOJJyWgJnR2x7y9YUb62k09s9jvev-c41MIr9R52plDhP1D9rhxqRJH6dbrVaf6C0_uiTrqFAOVAVUTczVdadwgBM1N9Zgm-_e64_tj5-_IsE3qzhAl4qbQoNn2YTULIgqKvvNMbJA6Edrrffwqvkz8x9Zg_yiA5WkLwcSo-uE1qNS4ZtDQo46nONqp0vMq6a-QApBD6POCw1d4YlAFXDFGTaQcXUlsg1sj1A64rb7xqFR5IEjIyhcUwfg3I1lUw20qb4u3IEDHJOF9GVjQt_8hzk1k3V7JZllXNDqkum1kqEMpowSRfSqQM9QD-BNaMGhTEbqQbxjDOFd_PJuM1x3eMErCgYd1_4hstdds",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102776450004630334447\">Ben Child</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-Yyp1nK616D_w_TIVi9RzBeg4BDNCKZ3M_Ay_LylpgDl9igzwU4qVeEzgzIrXO9UF3vdziZ2Z9Vh_wP26xbTXIAcGZDf9HW35WJDrSIBswi08UNmK7IoMnHG9mU7xdF3XhmIKHyKhgW8wWg9_OzLPAbp732xLX-pPomvxUR3tNgeG0hWIw0QC0HljbHD10ZyIbfaUpfojYn2RP2M41y1RmBHKP_Fr5JrZL4ROKUq-e8bg3tZQ81UQmkNK62XWKCrhM_kTI-6R2qqai3bTThvoGlPAUWRzEdRG31fFFmtiKnqNM1LftGxbO2ITU_TTW3juEH9V67ZWMyAfZyV64J9x7278NFUYdOEey7EM_ni8YS4NSW-6_LYt2-Krf8A1KB2Gqh8zskQaJkPm9VdkUAdsM5LgE1Q",
+        "width": 4032
+      },
+      {
+        "height": 1448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111356693856393670339\">Juan Carlos Ruiz</a>"
+        ],
+        "photo_reference": "Aa-ngMbKZJoz6wbjt_0GrczyDzFmxfdC8_p7D7BozFqoNx6R2EUEAGljN_quyScLAzFlz8wjO2tufaKZqpOGT_GUWTDepaeJ2TR8rF7fKHBJuP4t2FN8u9yCGyR_5KdyXZhKH682SmObmVUIoThoIwLLPTyBPQsUgfj16zdGvg7ftXR_ZJe79o9zyjk2J3ZLhZ04b8yZCeyE7qPKSjAUSOsCV1aadU4GTcLHMDOsjmi0tZyATNuOWmkNG_Y9ZodMSQ07YTunYzZTUp0OHnwH1cV4Yw3y0BVut0RpuahkNQGRw07XJUXVMtwlxqBxnDU47y0bx48dV4Ke1mKlvxws8DtbUFBce9fSi977d7LtHh8l0cMTy2EtVBTz4kK01OwGBiTOT7JnEg0vbN_MnBMvMffcptaUrwtpW6EwpPmTZjjnu5UeHQ",
+        "width": 1086
+      },
+      {
+        "height": 2999,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102776450004630334447\">Ben Child</a>"
+        ],
+        "photo_reference": "Aa-ngMbNBIQ1c8POIMttreo_LMxB36HKU5f2knYKZUhPNHitdN4fjqQpq0OqkK_wNvPwlwTfGz7iafF7b9KrvB3spZkLgxaYJnhbyT5NJQYcZb9HmjobwmKaibDf-pSmyMHn_n5uGxP_T6HPmwE3SSao5IJKpkrWUj7wQL7K4cvsXmNP3JqfwmWKFcLOT0o-Ojmlpguj_m-X1QKUUeDceK4XJvISbA09EMBBDZFDIV2T59j00FgtuEQVyI8a4365Mc-3-djwiDrn9vVm6IRonc9kdyVauK6ZohYmkATLGemAV9RBU3lqWx78IPQtJNA52V2pypMPx0wH5zpJsb8Cgzsis7UyFmzxhlWFmv-_x5m_i3xo-JpqptGiun0r3m5gjQJmc5eXetEJLJASF1hrd3yDLj5WbA",
+        "width": 3999
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104205858698683988588\">Sharon Grayden</a>"
+        ],
+        "photo_reference": "Aa-ngMYZzDEYQEchv4fJs4WMHWeCqxxmJvkDf4bcJJ1LXEjSS84aigGvbmvQ7VyYC_134u7SPI4GY4Da31AASGSz5uhb1kIMLaCmmkuBW5SyETUXi9N14ol3IyP-Zp5uQDGZyMIx1O_t8OuARQZCuOXagKGSK2vxJ67dMgeUbcsAcUdOMGcSNzLPROxM94eFXxxfj72TiLDh6TlLeLElILgMv3bRkUh75_uv1jqtHecSKNRrL9F_nxxNn9CwVlwzKqYnlKy97OCifnW48N6i6i4v3ded0YJm1HhWxoMozbfH9K5nWJEomXeSVZLl49J0VATAyVCwnLzQj3so9liVk8Sa_LkVYaLJNCmsZ9Kn7RC7lAmnRPQnMLxJXGpGsYeCqFbW0pc1HwIkJabk8Mm9YOzhj1T37yA3XDY",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104205858698683988588\">Sharon Grayden</a>"
+        ],
+        "photo_reference": "Aa-ngMZPzIq-_fxrY8lWHVqtnEQ8sfhjzcHXIhJDSsbPBQT02pmlkxlPcyFfuBj_1AHKyKXxgOxvCj2eTS7U2Ado8QMePx1l2AcngAAuey59VJ6PAvlyFktBwMYCkuZRAKSylXF8pIiVZ9wHPtn0sjlEKZHUwkmrsC2giChyedZHtHqlr9mIFIybCUZ6dlOsc8vSDNKm3u2Hs-7nt548w5dHds8ySZLRFdcyAsKLft4SsV15IfPiDPBemG3vCWRsCnne2pAD7bW2Oq0uU_5CgVdkxQ1CDUnickNdfhOabpx_reFhhNr7l-UhidTxyrnii4QxQzrXA9HxKmzUVGz48Kui-8uxbNBdHUhbJ_e52nbgp_dNfhkdLAoSUxuemjo1B_9fg9HYOrCCFOnfMvAu-iRc-lkwuuwVeXQ",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJ2e-Pa4hShIARnEmEhbgGE90",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15930083696523364764",
+    "vicinity": "1 Vintage Ln, Glen Ellen",
+    "website": "http://www.lasseterfamilywinery.com/"
+  }
+}
