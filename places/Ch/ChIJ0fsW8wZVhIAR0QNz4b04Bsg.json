@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:03Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Paradigm Winery",
+  "place_id": "ChIJ0fsW8wZVhIAR0QNz4b04Bsg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1277",
+        "short_name": "1277",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dwyer Road",
+        "short_name": "Dwyer Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1277 Dwyer Rd, Oakville, CA 94562, USA",
+    "formatted_phone_number": "(707) 944-1683",
+    "geometry": {
+      "location": {
+        "lat": 38.4205537,
+        "lng": -122.3937684
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4221286802915,
+          "lng": -122.3927288197085
+        },
+        "southwest": {
+          "lat": 38.4194307197085,
+          "lng": -122.3954267802915
+        }
+      }
+    },
+    "name": "Paradigm Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1530"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101911638150495737333\">Paradigm Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZsSn-HIf9GZ-MeRPC-b9a_S7coOcY76982fGE3f6MTgidE9fwvDbkvHH0NMwaGfJzD6DKxmFnBUn25dQyEiN02QyaeayJIOTBXTbkX6skQoG9NtVS2wYCRduaciTUzkGJLWhcYBFXc2FjZhclb4WL-Uj2IS4T48Zpjr6BZVUrl-Aj7drONiu-W0VLXLdJaZ-McN0Oh2HUk1URbZbFpCqL7TLmYSy0SiWGZIHb8uvSSRxy-I9GJJ0NL9KqWux8ZWL7xyMGnii7ewgQWNIk-lNAkBFGsgms5FhZevcm2jYy84hydi_Q2JwnHeo4ySEVkmsvcV5PqOXgQxCf3VlcUa-0ZBotpKZBxGxAMRAeY-_LgZUA8pRizdsZGUtAdrG80jCftuP1G9oUhiKF5SItnSGmUzA",
+        "width": 1200
+      },
+      {
+        "height": 1154,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101911638150495737333\">Paradigm Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY0X1Myb1VbsnW912G7RYdL3PoHFYk4D6D6TWrsZWDRB1GGcWe0BOPb4oHXdxKCZrQpbqExoKASijc2Sd6InT48i2PlP7b0xvVqJJI0ul1SqPJgGwV5sYkqhQdMGm58_zf53-9eDtPeluBK70XayJOQYEBZ8ERI1TR-ICvQfVAST0PZgFDanif3MSzAK2naR5zZcItPY6-rZEv2KEreiFKHM1AiDwPZ_Z_9MKL53Ow_vfy-NHCxpoiqQf1vJcDl0iwjXTbA64X4qjjljwAAtEEjdc8C52dTwcZ9zcWBdbXJe2IQJsD33YT1qizsFnowLAIvPEPjMJr9Bsxu2fNUGgUhX3kd_JNxmssqkHMPgzAyjl0sFfpxqf8jUFEtdb7MwjSZ26swwEffxldOfdIxKc7wRA",
+        "width": 1732
+      },
+      {
+        "height": 664,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101911638150495737333\">Paradigm Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4I5LIrw-3UpUlTGvCric2nCu0NVwdWKC0ajdy4N71ZUQUrHvHtppCpVQ2Mn2PMrfyvL17veMY-tMRoZS6DectBnyK54snV4Q6zUHZvvGyqYF6elDMp1v3-VuM4QTn410NY7X5r52ZQE9u4A_xQyvBvsPVc3a1BiCNvZz6PXR5bwq9mZ_Ff89CTWgDPY9KQr0XVfYVz4Y0khyDruqH1LMbyceyK14O2ey5xsCCSpm-FtbqoK049IhWgdUjk3RjmJIRL28KbuabrW7VFRKu8F-lKI5t6yX6MVZWi9Ep-_3iJIX1knMCNvKJh-fV_Bgc0rdkxANgNM-IlgpiNUkyCFNssO6Jb5Y-emeGNkqiPv-53qHQ_uUqlJEy2jkUmpr3LE1dud8DGp5ryiMX270V5BKFaEs",
+        "width": 1000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114088227600746802180\">Jimmy Berg</a>"
+        ],
+        "photo_reference": "Aa-ngMaHof3HdUgoEBKnqF9LrDxPiXsQjABeSReWWY35jgG6xL4trHTFnopvzbRLf7gYfxAMym9uci6JLh0oR8bTMtb33Z1oPUtx3qPXHKCxSMWKo2rrNKCxJ_uClHo_wsQfrYfgSHO5tnpAi-KQk1z380EWx3NC1zUUXnxlg6cEi-F9jYo4DmWOzM7UycRzVp01ydfaqvPy6ciXJvSaq_E0uUDJypd33XyktHKm1k5TVEnRwgzw-lQ-iHAPfY3cnyQfwEOJA9gJfoqQFyeCkxGckOE_A8g7zguC6dCiFYNqwCZ5mTlfNyIRn4JM6tSfhwE73yBo4bZR33u-lIX1omCtjImzJXajw12yWpsJ4I9hHvFhFeAVqIi3W-EhTJ-wwAJ9hksiX9j9nV17Ksjwbg_Y1-FabfoYtCCewbh2-z4cEFs_",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114231345622198028867\">paul253db</a>"
+        ],
+        "photo_reference": "Aa-ngMakSezX-WurQ2MddtwyEgLzP-hDwAYrmChJRmifVCCN3Jj69ydPFmiTIT8T_x4nbJeKoC5n1-JlGHMg1zNOERDpqSIQDlINRdgJW5eojLGporwT-iwXwD-B9m2VZMUmCq4wxOA2IUjT_jQshcLr0WT5Sl4bWzdUNeJ1K9QuA2gI6ABzg7T56H2u3Jszm6wVoPGXmM5WJDHmKbUuXq5eauK5elOpXIVsbujaG_bjiWRviqkPDFVhmE4XenbFwu-A6zUULUJ6jLyzNYBkF9mRh1jiCtDkN_jI3Dgr2FqL7fSf-1hZniBBNdoLAUKh1qbKUGIkLpMSMIZhVmpePKz8v40jkdY6ConmRwZ_E-L8_oiP9cIOLGTah9_6jW6LzmwDn227jK_inu-dc6-uYtpPzxi5LrC5",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100507075067360877344\">Mohit Vatsa</a>"
+        ],
+        "photo_reference": "Aa-ngMYKnd9Cv9fzne9P8l0awT7JOlF_VY5tgRfPZWBHrp8hXCGxXuK4Vp3LJJ-Lwy2S1pR9Qf6Tp4QH7gzOdAE0Es6kvYpmn6twCOMOgAwjlOyepL4SGATdwFsJXtBMe1k3X9C4ogd56QzhFuJc-kjQDs4_phF4MWdYe_nV5yOzdeVl4ntOFRWrQoGmOnMlYBRXaa4ymfxpBL2RxRDxbAwmo--OKmTHpSwko1e6ewNt3PCEkxYGKjcFJJa3oS7rwqhENYLRy0d-B9BhU_2CGBpTEK9loDmVCgHTs-fD5T9_b95sG6DqjZKOACWgyLytVInokr8NZ2HwK6njfxYvBQRodWFIDanH7znTBgEAsEtyRptK7XTJ4j1byX1V2fi4mJNvNm6m8ea1074sHGW5_nXMb3KiRbgjLLk",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104408863784749251091\">Ben Johnston</a>"
+        ],
+        "photo_reference": "Aa-ngMZkw_Pzu0P_X17aks9lGpgr12DXFaqbcHJZjjv271FSylzM3KLy5hP2vA2JfeKRTFzhkSi_qnvBgx7PHIbWLY_f5b7B2v0JTzaZEFMJoniv6FYKhfFUh0vT2_KnrxdJQ92zcnwtB530PJHX8cyyl3ZQF19NSFy_zoCAlyDu-GkXgb6o5ijvb7Hdd8xuStx2hqyUqDJ0TEgkGcSa2e-dSK92TJDq3baasXCQ8nsaySh4UeBLrXS8r2ZBNc2EuLtOEGPHLymhYIujlWbpxkV_-ImTANlXJszrQCEFmHHmUcEwLDHThFgzmwSa-ICprybt7ObI8OEhyiO4FpAwZJ8afVqnG2GM9m6ngpYxLkBMwM1n-xyoSsNUkJg5uTkLK3tuEyHAjVlsDc_56lJ18GyGBIuztr498Ok",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117530430278961563696\">Bochog</a>"
+        ],
+        "photo_reference": "Aa-ngMYbbTLzvlQkPDRJ_SuZ1t4sH2sKdfMbU3wVdRR92VwWomk6rBZD6fGG-4kOgltLJcFwEO2hfP_bhKqsZ3YkZ_P6oHBlPgWOCzPFV41E3GbdS_yu35jocB6docUpsPHnGurLgyBtxy6ObtmuVqUhu4j5gnq0gOX2VOISv3jOPsYPRC-toMqFdzENG1xaSqhEyxQW1oYRF9EmCtbvZuQzd3ud7pWyCIivlKe9Izi-fXqk1CAw8z06LoPnjbWVlAs5Y4iMWCD2A2fe7IiY_eO1WN7zilw8rnn4Z1Hjywu_2_AhO3FkkEgSW9iXKdF5KuivbhA6RbzDfO0152AZKF-O2OiAa0fUcJdu83P7c3iw8px9NgUVeA53_Rm9p2_ullMsEJ9AggMHI3W3lmAvJHbgPJQ54Y8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116370043675048399665\">Fin B</a>"
+        ],
+        "photo_reference": "Aa-ngMbs9vHbXieryzsXGBlUtRHH-_j4hfwWy0aSTVSv-7DcK3Qr6NDJ1TOIU-MuMih3G2prXVqUNPpFX7EeDc3Qu0MZXy39Yrm8VeKXSqe8i_j_To0Yv7Pto3Lcd3bfQcWmG9eNSvN8xdHNxw3W3RfDMImOsMlph4JWjYSzFcT6nDFgmy8NNGH4qx_Siqu-cRB9TgMe4WblvlhKfKQ7HMNEKO2JXZsfLw1fFq8vaDgjPvBDaR3wQGQ8QkJqdLXNNIeWQN9kZj0ajZBIXub9XRLg4RC2jv007MUooqSUfHxWfu--fOfTtvYMRMMwzSJOpge1UYKsCwmoJhfu0cVgxfk6b74EG55oiQn-egrQzHxi1LwQ4Isw683ZhUzNxO-60xz0JkQHKKFHzeyKnwfF1qjdyHa9Y7I",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101911638150495737333\">Paradigm Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYrIEk2Mia4h8FzFbF5pkvJg94EHbGUql3ovXD6k9gVnZyr7hVBOhWrzkAeCF-YWQEcxPvckpabkJU0-A0mGOpTEM4IxXtlr3AbF6TOYCsa82PXcbY7g6KKsl-UsnInN6T_d4nc57c68EYELrwTcnJFCkNRmJ5KvAwK-SeC2e93uiSWuPFUQjtf_J161hN8VoPj6ab5QK6kn6_zccsr4Gd_PtaW_i8idMB1bKBnnwMmoackEbnf7NcwG7_8WHZ36b3EKvFWi3jDl1AP0PyXFhzYOAVrV8yNvjYfqzWetE5pEN9iqwaJ8E8UTuQl1obBinVdOofSqDV2XkMp3PeyvY6Y_lrfBcP7U8cBs8JcyiCm7lkVGB7yaaQecVTVXO3t-UPxH6hWgC6u6n3RswU8tAadhwB3",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ0fsW8wZVhIAR0QNz4b04Bsg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14413270045628236753",
+    "vicinity": "1277 Dwyer Rd, Oakville",
+    "website": "https://paradigmwinery.com/"
+  }
+}
