@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:43:50Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Homewood Winery",
+  "place_id": "ChIJ02hT35SohYARGKVoCqXk04U",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "23120",
+        "short_name": "23120",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Burndale Road",
+        "short_name": "Burndale Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9722",
+        "short_name": "9722",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "23120 Burndale Rd, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 996-6353",
+    "geometry": {
+      "location": {
+        "lat": 38.24563699999999,
+        "lng": -122.4209659
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2469768802915,
+          "lng": -122.4199819697085
+        },
+        "southwest": {
+          "lat": 38.2442789197085,
+          "lng": -122.4226799302915
+        }
+      }
+    },
+    "name": "Homewood Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105474213374179448947\">Gemma Carter</a>"
+        ],
+        "photo_reference": "Aa-ngMa-Gcvo72d8H7fFTuMjGj4TWc7_kRRHP2DJWivWsVXe_m_D2lHYj5zHLMP1NFzXw_ovACh0v_CgCke_rg7Xpt9TMYIxt_mKF7CMxf--ZxZvGY0QmHTO-PidU37Drb38eOxpJXWbF4VVi3T5U70dIRLQ5VaXpQ_sYmmx9cZbd7MbudfgGJrw_iDX99dyVZsMwevz4dnPhR7GCigCPS0jSRNlVngUZI3BxcqJTGMjY05xZF32bUdYxb-uIIBLqhO1DNltZUedVNv-CsxSS97mD6p2Jty4VZ_OcU-eALjI7oL4S4AJtxaQhG5K0HOf12RLivVBjv0_cqAjOBkBMevTkCiCl4W22zepvqdGGxBihm8UJ9zKKQ1Y0c1fpraI41rNFCl9mQatcCDV3oiM4DFdEvxhSVQwZfXG3lSsoanWGuhqCQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116725492943177889422\">Joseph T. Houeiss</a>"
+        ],
+        "photo_reference": "Aa-ngMb8FHWehyfuJaqtEkOsKTPtkN84T_Nw5SD5D_0k8B1-0tQDNzkYdHcDp2TFmM2vCpjbHhTQMaL_vqVs7WsIPQWNjNZsHAVtnyTlDA36VIXSdKdJciGReKYcZyGcfOmm1mADGu-P7dx2ycIcwUZ4Gg5N-DE-_YwOHjrpKE4mjp2pTRJaPsCCfa3BOJT5BB9r9uR6FLr3xM-CImB0qE84EFdkmaOznRHRhndjzEhR3625wVRhqhX7RYtjvZ2LKY8gu5xwcCs92RhnEKbXwX31nPkEMaSK3O1OEX2AXoD-z8LSKycy8nMrrXyWwjupJnqi9q2JDUDwCtdo0O29AlkqlhKK01LhFGh-M67iyVNMMWo1YFFPDPLfcHLoNpSedkRWUUbsmLKnV8clFmVjX3m8LNlN3N0",
+        "width": 4032
+      },
+      {
+        "height": 1331,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103935429301281744989\">Mark</a>"
+        ],
+        "photo_reference": "Aa-ngMYFYi8dxWdCX-G3edA6T56wJno_hXRIoItEpI1zRZl9vfsxbtq6T1LSG-QwMiP0KmJgsaiaBVLtB6tf4o3I9Fl6TZIggUDxBQNwUhwjF7ehcq4uuY8NK7CudzYZFiEWqS6rW0F57NLD0cKi7MQsCzOadpBZRT8mZvdeBiDuxXM7gbyBALJP5eMw_jgmu-IYrwoR5GW8Vzm9YJaC2sSGpCv4xroWbXkacbTf_zfavdkgiXUvmordanLM4IpOBmmcNc8eLknr18DmbcB0bDYxcKMRM0LF6uE0HPEWoMh1K4HCALmU2WTDXdlrGPtvC-lOuHg25cL9Kz43yR-Bi61S1YKA_nEdDPJTd8-vcSNv9guybbZxLcxmyWe6UQ-AreeQj80luQdHPU7CkeoqC8UoZf67Sw",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116725492943177889422\">Joseph T. Houeiss</a>"
+        ],
+        "photo_reference": "Aa-ngMYMD1fwlDuN0m9jY6fKEjWiOhNquWkQWJknmi_vj62kvHuFksQc-6cWDOlqSK1m-6LAiaqBl4OSbd0VuqksbqaQEd6H2I3PdK9x1GKUWVMpVFYBeoHqfQcEsLa0cHrLOfkJ0OFT-4dv-EZtWJqiy7y9uRoWyvqNJDQyTmK5JBVGJUwq35pG0WO75WPlXBKdrKf3mkncEfxpw-Y3eO0tOuaGglh5YbJBGlIB1EK3Fwx06erlKY-SH1U32xYogS_s_PoWhU84m-_Wm-RenKg9QOjTS-SoejJbg75KIOEuAIHQkAhbWLoaMiWwkUOHE7Cs0j5Y3Y4FJjSgOEUHvYy0V5GdyGvldvfn0pByWsvky08QEuHypseRshbmuFeagJ7DnTizKfncZKpwXvZecYEamOOJyMA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116725492943177889422\">Joseph T. Houeiss</a>"
+        ],
+        "photo_reference": "Aa-ngMYHTyT334hUGVazuAseHLhI2NPHSbcDji_KZ7K4raFdOa-KC6kr0yNbA6sJBGwREQpRVGpudn-vq-3_o1prQLLm3LQSL5wZV41AMmGOQPZ9B5Qhom4O6g8yM4dB-81yNJylK-qhOWSpmh3EwI3VOf0as-HuPIrgu9QySMPmjGswo0597QpgDZJZt7LzgiBENqCdKKYtIutga2yAbCjy_GGgqyMxDlyOGJfwrsRAENGjUczBJvLI1YZ5dDl_It8FG2VmUo1s5IOox6GOo6F2npLPSk2GdU9sGMogDdCDfXuxQ-prIHXqmFvDV14i0BhBkW4Nc106lIsizHZYuYQEbeqUOzf2HCQIFWNjOqS8z1HVTX38JZfIF8H-MwtZZXBrhGG4fHj_kbbvRG5wtTbFL8JUdfPr",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116725492943177889422\">Joseph T. Houeiss</a>"
+        ],
+        "photo_reference": "Aa-ngMYWDG_xrXF2V_mBsknbgc94pB3gP4JNVFTlerwzlDelDCwHqD9RAy9QoSLwmYETsw7ULFlS5xJ5xiRhePRVbrKWTGVHbZ_KiJB7wUweu1mgGlPJYI3xm_b6IWufszF8tFOwcTaedhZPaahMBOERz7GsBhhLxg8E_j2MD9929mv8GDpIhfxFtikvUfFs1WYSyUEzZpSpOZTmHEVe0BrS8EPwn9bac88uxeT6XM2Yvlxr6pY-MMSCBFLivMhiUXXJXw2jAkwWN2rsyr5oZFPjUdqIDAKMOGuvNoMv8PTVPXbSM1EEWoXUa9H8V5VBUbYrVRQPdqoqKHfale75m0b7EfqeFJcSF-m5n3fzTsczE6IQfOVFZVcQ_0hXrEdsT-B3CoaC3MOX1QuCqsKIjLWN5mcH_nVC3ZI",
+        "width": 3024
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109827973779720229842\">Angela Lau</a>"
+        ],
+        "photo_reference": "Aa-ngMaJtV8S-C5xoL1traht7vsfXyxyfFinUCWzGHYIu1OVCU1Cpr3w1o8ybsarWjzeT_J7w68E5hhFBYacoTI0ozohT3LrurC9Jazzegwq08QfdZMQDdakin7LM6K9oWISWAyeDxUPUfcpipMpy68UPLZOZ0Sxl4OL-pzPF46TUbVZH1-Bq77np4M_1Kprnq69SpFORg05dqTbs4DDmt54s2TMwpefiH3T4yO33uJkaj2mfohRA_oU8UKT06rqbitg-EXY0hqV0hREOt5U2ISyqgWoEEi5Y-YA1yuAwrqhpVhkALmAXkkT_BRgq_-K5sCZ4sSbDypFCua23rslDADtEihhK0wXjkFF2xLEiKeOuG0evIUB_56gZUcfc3Sim7sVdncq7aRtEH4Sg26c7XZxzhUar3ev",
+        "width": 2448
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103970413354537853845\">JP Butler</a>"
+        ],
+        "photo_reference": "Aa-ngMZU44rIezEP-2BuR8wY8OpPUB9VsHoryZxb-LvZ-MVOUN-LLu7279-iEq1jIy3_GjVu8bMe_eh-mCr0NOqf81pQz7CS1K9-eMgj1ktQJRVxJsvMsVbIyncSMO4_r-fe9tLbJ7E2rTizBFGIKqj9dFCxRyEJ66VVoqC3F60-LQqn_clSSD2BcS0k_fFSl2cXBXX8yT_s5iEMmGkvXX1LS5U4k5Nj8XWZBAzh2B4UMQ_Bv3zzhxVsKkh9GlHLGI9JSlIMD6-FsZRXNMdWQzwE7ghVnW-BAXYlc2jjRbgmG-cQcxPFfKCQZ9kTIU7jSV72GCS98mowqVFznFcvrZJFn2dY3OTQBwhzNR2ywbVNpUELyQrn0qQaodBnXlE9G95NKLHN1IXRESavptJbGuBNIRQA8QTN5N8",
+        "width": 4000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104771464990037420263\">Melissa Long</a>"
+        ],
+        "photo_reference": "Aa-ngMbWoeJT84ixH6G5tvKnBlsTHEClv5_6T6KEOm3QX-6WVGHrmftGd1eMu0Z0MjjZ28s8FB1SNpHleOH9XpfzE8ap00czfHdhHx_QBwNwOU-SuO3OQBjFtpDkJKjFlWZD7lmt-5B-ETQeEvktMcYKTds_Sp-3ESWqLNZHvJqIVwdWVAfqt4O4LQRpabKhtbOrbLhGazJEXaeO4zulicQHfqT_xFoY3bDl4y84FztgClJPBnUxr4Vuiul4hNyTdikD9iARnoG1YaQCcASnzobcs7rYxnrFS-zjOFFh70JVBBttY8LkZ3XYpBRkRygsiDBaC3fnqOvn92NkiK1YM7rCKOfHWGsZDmvVe82zsf9CazQzpFULPftMM9frzFmuzMNoDeAifDiqmKJjubuXQfgFwmQO3NCEzoB9pW-y7X8LGeyC",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109827973779720229842\">Angela Lau</a>"
+        ],
+        "photo_reference": "Aa-ngMaotX1Ubun9PXrYctlxXgBc4XgBIdxQpjF-Q-fDDj-gQOU50MKCusmT2ODyfaPZulTdyQHJmwZhxmokwcmCPz6YEmA3dAseN2edceZsjCNMjDuv91ex6LgQz7wDpUzbFUDi-jRuW_eFaTEgQlM90KOHdOkltOBX8PYAyAVYTJMiK-IXTTp8i-Y2sbajU1lJPRqk-l-9c8TrBmW7KkQ6Jah1kzy3KDRwCnSofKJgSlyHE5RNcEvjfwA8i87rLSNe_2D9sUkM5HFdft4nDmRmM7Ue9KluYesBzg2wIqB8J6HRPi6Vi7MgShbEOvVxDPyYo14ibqYwzvqN6K8b_77e8tz7OIOfO9fqX-e6A4s_OXm3LHKgaOPWckDu3CLT9ezbO-lR8Y5VSbnbg23mExCGevGqBgY",
+        "width": 3264
+      }
+    ],
+    "place_id": "ChIJ02hT35SohYARGKVoCqXk04U",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9643302624625730840",
+    "vicinity": "23120 Burndale Rd, Sonoma",
+    "website": "http://www.homewoodwinery.com/"
+  }
+}
