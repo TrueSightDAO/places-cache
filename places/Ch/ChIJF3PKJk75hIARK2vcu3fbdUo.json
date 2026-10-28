@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-10-28T06:45:33Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Brown Downtown Napa",
+  "place_id": "ChIJF3PKJk75hIARK2vcu3fbdUo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1005",
+        "short_name": "1005",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Coombs Street",
+        "short_name": "Coombs St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1005 Coombs St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 963-2435",
+    "geometry": {
+      "location": {
+        "lat": 38.298546,
+        "lng": -122.287149
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2999042802915,
+          "lng": -122.2857161697085
+        },
+        "southwest": {
+          "lat": 38.2972063197085,
+          "lng": -122.2884141302915
+        }
+      }
+    },
+    "name": "Brown Downtown Napa",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109672538720727494796\">Teresa Saunders</a>"
+        ],
+        "photo_reference": "Aa-ngMZseHrrgqSdNY-9Xn7Y2LCR__aS9NRUH6_8AYQUHgODc502zO7-v28g5XDQVgYqEI7VabonTI7NbCnn9BM2X0eNKTXG-LdlF80uaB0tf-K-Qe_tTzT2JzPLL6CsyfErnn8hMv4b8qxJ3M06nVpOXibbejw0XVAS-qKIHzi6pJYVxqZGoICHJRTKmgu4p34N6AcqxsBKVdOeYcrpAqpe3eLzcocerTvSYe_zuXmTkn0BERlnqV3emCO_jv3A5-fivgsgWevGexs3hfEPqPR1WfjbaSXflc3fXKbK4pFcH_VDmOOMf86rqV9elSU9ha_bzxEPO41dZ_KQnkUY2tybkmpG7KX9LixxWznRpTuGs3S8Q6Yr4MRkukmBp7K0_0BfP1uIfyZRD4-myGEBEPxsBvVi7VdzVpk",
+        "width": 3000
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109040247209110766147\">Gabbi Norman</a>"
+        ],
+        "photo_reference": "Aa-ngMag2Pt565iwfHuat-kCQjCOIB6dQNJV3UI6P8VBVcJr-nvZNGnCExyt4t3UvCo09yLvVOiQfeX7UlLXr5JbXEAAV48-li7_E4sFhLxjF6vMG_X9cfNboC59jX1SwR2MzGVKpPnOG_Q1lzdVhsGJ2PyBdpf-QpZ1VdiPRLof_GSO9it5lgWrnjILLXcu33fXLcpI-8MKKGrgomcxtUplt-mWQxUgB1agGmgmKZ18fBn5XQ2O2XkcIKcSWNmhupR-n3Wol6Zi-g2KwPcfO3CsJhES5ldmXSDM6W51yZgZ17xPBBq1qTnkxqNSx-H2Z-A8tkFZEMn5XApP_0Ppi2-qxuclqngif4qGDcnPALcf4c6vT8CxXYKQVyYSsLBnBxR0Uy4T2K_HjH-p7GG37jxBal2g16uN5EE",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109124457243032507494\">Ruffin Evans</a>"
+        ],
+        "photo_reference": "Aa-ngMbs_7NBACPq7h9ZWdcZMMycYu8bnqPM_5KTtL-W8CGJMd7kK3NtEPlDvZ-JIIW40zvX8XwFC-Gnh9kHPt87FLfZegP2-0Ih1D6m0znvYd2vXur5MkoL3sQQVkBFb39Wxbrl3zICI-4rvyYr-3D-i_s1hxeKUBePAhzo51svE4yx7XGwdC8e9kQOP9jcgPyb0m7rxPM11EXt-jb5yaXHHeTqdKrZ6IHAV3BYruzGCNWZWeoY64uIb0jdylD0VPHNk2kJlCAUeKS5IPL63nMSmEOlyDFbwBPfesv7LNPbljh0TsbhXuTpytY5mY6_lQcyeBXbKglR6MRxrkhmvn8x_2jgHiSRQSc9NpMLBXmjvlgyUv9YRcnS81yT-x3f57AX_-BQu9vGKizzA8kZe9WMQcqtaWIk",
+        "width": 4080
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102008257201064772914\">NYALA WALKER</a>"
+        ],
+        "photo_reference": "Aa-ngMYB-8jFbQ-10B-dga1L8Aftr20y68K0NOWCATg7dt1MQsXVlfaUVgK9Ek-Z-6tmaL5kFKdFbLrryKxvldxEPBfyXhdkVOgvGQfJfl8XpUevjmumX1is5_QpEeJYtJcpfQjWxy11QYbRRuK_0D768QdkDBoRarZiu-v25Nckz0juxjlabcF0xUOn9GtDO6U3XaVd0dMq9eR5CUWkZd-tO7CHQedVzCQXi95FYMdPVvxG3ejqLu-Q2j7SrXc20rRYXPfTG31LtRay6a-oWFkuzeU3L7KnFnNXNgKcDuntJr5c2UXPR-HGPRKeBxnWA8Q8fC_YE6NaP2vsw3YiNuOTn2n2uJ-LT389NcMuYORHUuJ1hcHwXw3Wb4hrFtQE6KYdWgufnXiTsEDm7oYZPeeB0Gp6K5w",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112996363549748377077\">Rose</a>"
+        ],
+        "photo_reference": "Aa-ngMYOGdNzGeVFZwGU9bZHA9s_3s8c2rzb_jJAXR1h34AiOqFRpSz70pJHMN6bPt_GCKkUAr6johksHbMvNKinuXM6pmIvt9C8k6nePsZW-phfrc_EAsUOA7LJrRUpPwOhnczwcwu5FdCQuClBLkXM1mmHNzlZEjjVkPRr1ywn7YQFeBBRcNq2Jn2NxcIZnXYKLBnO4xcujIKrQ9vqxillR8bSoLZnqx9BFmQT-67X02gtxybii44R8pWfYtuIcyYbr4xkFSigdUs6nejtc7di5SC30iKjCq-3lSWO-7Qd6Oubg1fy4uus5IqH9Bu6S2dIB31FkxRzwIunbuUUGFfHwlAqTCIiloe0q_X88_ZIpM9P655huIUFeNAICi2eYC0gcF9xWsgO-wWAMs8Nv34NsNufGBU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111174665568183374712\">Jess Liu</a>"
+        ],
+        "photo_reference": "Aa-ngMYYpScHMWJ7Qz8HV7scOm_fxNIQ7LjepIGr-_w8lXG4CpqjLFrBS3RZflazAaLyD7QHWi0wKn8CUCdZfqXDnN3-fM6aryMd3OIovboMv3oeTblzidQt9hCQ74mCBv1djzJBwBJS8KAv5Xpi5aUUN6N6pzUORLEL04HOmt1r4-X3DaIREuAa8nM6ufzYQXv7rr9IYRlB8pkYQOXVP_d8k2vEztPFZOP2xvxGtbqZJrlWpPb-lrb128SyEvuE5PM2gTfXWUkTU71wfGBOm0ubOEoSgPFZ5v0ThDCcG4hHLEuT9VwCGSMN7Q3zjmXaFvuyN3G5gyCYMxNCL60D_DXxdZTBdW1e5461pv1A3T-FZ9zNmbs7bN8nMDGMW3e8U0T5OBQGBfm3y_H1wOUGVqprxILPzw",
+        "width": 3024
+      },
+      {
+        "height": 876,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118056554459822954660\">Brown Downtown Napa</a>"
+        ],
+        "photo_reference": "Aa-ngMY18ZMSmJxD5z25sljzUt2wH9gBagBvYfOV2P581cFmQWbsllg9uGR3WwGzG2LERvHo6YISva7PQrmtrwR1WrAH3xIGK72HbXhJZ73unyTBqxAAIPNdDrwxJ3-srG3VsvK9vMIZOpZ544RildE5SlRlATdGk46WmwNKBd1ldtirrKH14PCcxz0m4wuqT9-GIU12m46cLDp9aRnRlbERSoulgSq_6cGl4jl33iPpFsSGtzxG3hsdoKM1AHtGeJfd-IqP8--T-Z6oywc4pPxpdwLBksu7vfKEmY7gD3Q3qD3KQNoFavZ9WUfOsblp_Y0QlM0ektyNhbmJbCjFTSeifchaTMRBYlt1nxTzs0uKc_nMFA0ZhC08c--zMpQ8LHeEx0-khEX2PeG6zpnCXJuc7OzuY_54Hsc",
+        "width": 1533
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101281014834641167859\">Tamara C.</a>"
+        ],
+        "photo_reference": "Aa-ngMZFmgxTiotaIQm-pgcDsQ4LwuUxLN5c9kEiBrvBBt26jYZXcRx9QtKBDm1Kn-Y9H3Pqu-aAYrf0QgQZ5hTy12Z0HjUkRk4oo3zRxxf96ySyyqLnu3foIc31gHzT7Xvp5Mynjw26dTTd06Ofs_F-6TbswwbzmwZLT4LuaKICScNhmdPaCv2gIxRb6fon6YgSZ4u2twGS-Ikn2k4NGvbCc_1jzPq6d1nUvHIStCJf5k2IRovGDU36qLNKHq4DpRhFZoffs_qF96M8n7gT5ITPkEoi7ewQLEl5rUo_-66JbzcQxv2G8182WmQ8i6tBrXdF2EAZUZ2Pp8QaB13KQMvSlHYGfabnrKYm5mzb9BG3YsGxU6ci6aQJpzaX0n6JiCumFQARwwBn-gZifn9UnhYo2E09J7s",
+        "width": 2992
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101074005970720442284\">Andria Kemp</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3xVbqoNuKmC5LyMTx9abUmMgbpEY4sR7ZjVSZqkekNyE_Mmde445jLDv2KcCbCM10_yP2UBe03P7FjgCxpvKG0DbG7r8zVz3vddQpJXmexczYepNY11F5eP0XUlM_I2JsrIUCGkI77xwX6WghNQr5zybE-tfUwGXpqHozgnQ5Ho8sB_0zmZvHvkeZpoXc0HWb1cH_nv0VxnCEDeHH24ZNPWw46jb2VJT_jA18TZoQVK4UmK9gevmyNEOCdx2wt8hBT2eHQeDG5Wd9WRW3-E6QbGCbDQfVjIDp7flOxLjWCs0qNU-Uq7sspiJb-wS9ZWlqwbLJ4BigMH6zrScFxxn0Ye94itO82albvIpjVXf4eTi9wrhn1WWVHVkiPa4i7jbu7oY80ORgIu6uZbKStXT2czmuf2IMYT20hDqE5U8ksQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116622564984798559629\">Christen</a>"
+        ],
+        "photo_reference": "Aa-ngMbdrK54LEXvzm-g1Hk2QEkWdNcrlW_ZARcj13gPBPKFG9YWKAlFCYsprGvFFDssPKlnf8AWVibnUWFKJjcWC-E-KuBjRJlBKx9_WDIRRKU2xHHN4ySCTHDv4dvq79ssDJ8ZA_RuzuCES-qp-qhvN8WMzPJJ9iyh_GQzFzgI0kKRbsvhvcLM2XDpGouHbYYRkJ_LgaVcxDC0CnWtdZXxsoeVRpX_lmPYdsyvl8bK4Bh5FCEQdNzkh1rIpftCw46tlJzDUX2nq6iSvjUtJo_4OTMhFHirR6J0Y8P27bwk582Gt94AFM_b2Znf_yJI7qLU-azMv62nh5cm0UhFdu-0kc839ovQrULc7NvsRAVG1kwMhy-bUIl3zMZ8JqZkHMEDJZiZPcnED1CqPayBNbQb9RH1lkQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJF3PKJk75hIARK2vcu3fbdUo",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5365435838381189931",
+    "vicinity": "1005 Coombs St, Napa",
+    "website": "http://www.brownestate.com/"
+  }
+}
