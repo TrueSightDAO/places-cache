@@ -1,0 +1,230 @@
+{
+  "fetched_at": "2026-10-28T06:44:35Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Suisun Creek Winery",
+  "place_id": "ChIJ6SgFStYRhYARXhH3YmBH4LA",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2350",
+        "short_name": "2350",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Morrison Lane",
+        "short_name": "Morrison Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fairfield",
+        "short_name": "Fairfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94534",
+        "short_name": "94534",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9750",
+        "short_name": "9750",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2350 Morrison Ln, Fairfield, CA 94534, USA",
+    "formatted_phone_number": "(707) 864-1818",
+    "geometry": {
+      "location": {
+        "lat": 38.2676089,
+        "lng": -122.1198611
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2690096802915,
+          "lng": -122.1185213197085
+        },
+        "southwest": {
+          "lat": 38.2663117197085,
+          "lng": -122.1212192802915
+        }
+      }
+    },
+    "name": "Suisun Creek Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
+        "Saturday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYsgakdg_NLFBbY6AQKN0bvshbkV_WEs_BkPqUgzZARm3S1n_lm-2ncvAoFAawA3wOnttYTJHHdXhC8vFutDedQTZr5D8Ghrqd4xCrlXC1wwLERi0CYFwHCTm3DWDij1dzj7yIi5481d1OOAuCCMAIJvGH1bCauBfootMPE-Txntzxi2bxu7fsC4BhrcTRcv73I7LsWo-Edvxi-anv6lqkDFL_66z5ZN8JrUMwTkL4g38-CGCym1Wi--QB1Hrkg7A8PBVkEXerXI3jHPiv7eidZJZ8Ge5O1Dh7ggkE5P0Wx-VZApb_JYxy3KzJxZJ0oHr0gqJXQsBDX19dI40dc4d884rM-kz9yOn1ILlQBjwz6ecJQn1oCQgG80HLP4oRm9knHJjDF8ENvsblfwKuxRNNTC04",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbw3dH6QWWoFd9RXwkyKCyppAoinUwE8jaCUcTRJUKvi18AVraFD6f8Mu6ViVvuh6dTUs-GVjE7JEoiWz0xWAGAswOOaA_-xrJw_kWqL0y_KmRRkMu8pYievw2iE2-gfmP7_bk9O3TgPjABYdN1wdvNnEpT-Cug_vuoD5g2uIwJXjmh1_3TQuV9zlg__b1eQ6VNvpg64KpdpgFx2Tgr5yj2OIYMBAlhb1UQTlwYNSH6XnvGiQjqrKuShWO6_-pLOk2lXxEPeCKczHu9OE2ihw1pXN-xdD21J5935M0AsItyIvdigxM9eNMLjmRvdKvKIp2-q5iKYBguWTg9WayhFltxK2TZIvRoKFeQ5UsISKPHZpEIk6qPaZxkl94Gs0iUOLGjaVzhZkAGAqxAhfFoAnc41jc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104393416080003928748\">Catalina Medina</a>"
+        ],
+        "photo_reference": "Aa-ngMbsbVzI2q5ZaJcVv51nAWABfY7YS9DgPpyw-_ztQ_mRzjGVFvHyB3Gnc8juIJnlyx-vE5RKQwva5Fv9VetF0lgzqlKGqDrAbdr-ysEQUgx66FAUrV1M_rU3dEBq2Oh1_8jaPvjRtgEhfZktSLpBO9aLE_eT8keEXTwrefKrqoEwLnJ1MnP760gDUr35PLWwosOO18m54bmw7P_CYDY_QceDTTDRFOyK-Kz43LeNZk-S7dGC8zFhflbGf9dzJofumx4WF6s54g1rD4TSakduX5_RXZiuhP78Zk5M0gqShl8rv13KiwnXMc0kHU5I5GOEHnuvDSHNIJeU3Teuk4IX5xyVglVu1ClgJD0jeloaj3DYq6IgEhI9T8ImJKNOJFcjObZc-KTIDPBmVhWbHmPr9FxkkQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb6VTp6ZBwpmVjZYnyGYzhieRaUbxV7jwPDiLskHGKsglzQW7vCX3FvdO5IS4hBYkGTZOw4zMgW3QAH87zi4rttYGde_GNFb5usFYivQdbUSb4FB65UdA0KcoeuQLUoFv7P3OuuhAx-xT1BSoKj5Fq9k0lzs5pRBS5UjmxWMO3slt_IISyYyhzpy8X4vA39gjkdkHJTljzqAvUBfXsj8iYeCX7MQXcdbgdiESg8fkibnNs796i565F_GkJh0uQ02nyZYH_ramtm-NSaA3J8keW7pcNidMok5NNPJfSS4bVPdO0tB_Ht4kyQRDdvI496-8vbC-OnjFh3yspVtzG2-bXL2nBwSMdLShALMv6fDoyl8Ck5UfRwGwbt-x9C2NXlc8O_M4eZT0BDW3rGuOG8fO_TMXer",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106058670331163921016\">Sabrina Winters</a>"
+        ],
+        "photo_reference": "Aa-ngMaK9LvUATBHq0sdGU2dFMtjEryXlexkYvY4bZTKk8_qLREHb2L2_GAKvJNzHOM9EjyXIX-MxUcAKCP2gBjv--VoWwLH_Myx8tn5YsNsJ5UM3JyduED1GX4EpML2nz9YNc5Vkz-aWx9nbKTTw4PqFdRBYAQhQr9K6F96JQbGxzYPZZdUd53BuvF3E2rWCPY6l3efu0zCdQP8sTx-QR7TLX3I0TPk0b8Q619a9jzAUNCjXeuFa7pSXTgJbAMJLrvdUuZZbz0R1cefHmeF-IfKCHNtkJ5IAsiahYPjuss1zRqEpbcgqIs4Az3_3nBXXsN-3x8bUnPzFNKcan59wFF972aV_enE_b5ggwA7qteynvshVrM8W8qZmr91KGeCp9TJmsSK328R7xiO09SpK7B6vIXcTG0S-E4",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115175030788215914345\">Ryan</a>"
+        ],
+        "photo_reference": "Aa-ngMZeNHp5MKpFkq6Kk9WyNL_bWqCL2wUMYUc88CY8TW8CZRuKNOmHNb4qvRG25guq9sUz4-QLBhf4ndTrvlBy32VJCEnXXuwpAiOmxrJXXPxgh0drFeMky4AZCI6FT0_WWIgNa7DZkEKSsUE0B5G3anLd8ESLoQu-LeMlyVnfhGnxzKNenMf4F6Bvq5di9HhgtXa_pq6QyFoIZB0yoVY6_Ku5W9ILzSkUcb4Uu5rblyiaHiwEs_FrtqrViDaELOjMKM4dH1GhywviBkQ5X7fe9zQ2rdqTS9_S0L0OHU0K-DkVviOJ-VqO40rjESx0NKMPRqNVMOaJsJwA2nlCa5LUzFhVqlAaA3Q1u1zs6ryl4lP4YsxZje4RAYB9bjfCGa4YQBEp1RTH_lsj5_U1V-MLfV_2Y4PvC_I",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZCkGvXfnyllVEHW4_05rfyhAiUFaus5z4a5OnzcF3yOjFzAnc-7YfffTDC3mIfSnGohGxgFr1bLghj7vMz_4QRmxIKwwuxzJZoTFkwY4dUSSD0gstKy91qJa1MywFM8QSPeHrZw8M7Cn2pnEIOFlxL3mSfiyBihOG44qof2zSM-LB7YFmg0pkuM9Sx3cWOijTFrXVS-ERCRHc3I3Ok5QdxpDs9iKWPxKSQUxQxWoxEa2Z1-o_rHlFZ435mRWkCk99WVa54IBiA9BRQb7XaitYO2lpmeog4QytCOn4DB4fnwwzTNEIZ9Rx88XguPgFJqBQVwXaKnEwR9wX3djduXU4aYPC-vVB0S7e1-WmZUTvZ_0hNQalz8yaL2uQPZFGEwTv4gECPZZFjTF3jsOzoSQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMax0DoX-PC7k3lgREjRD5DRR-IETbTE3142YIzVH9_pjwbhOM9una8Sj6DCqibzf3U6bzMm9liD3fgghhEt7q15cpGY4Nzcxe2TgQpLr34i7uieN0v3d83nVIJXo6PTYUsFLo6pyS9N_IscArBdU8w_KuifyZlpZKJxjhWdrZow6_JRuTL8-YczOylH7xftSaukNRAcuH-Yd06zSBYOD2-eAblkaND5xKDWKJ5QfjoFtvpn1T1G947Z-380jabYK-Ti8NZRL2vaN9o4xKpZZ1HCA6tJ__0Tc6_QQxVnTfutHq37DS5_vD1fqTEL5j0kuG2VexfTdObIK8tgwVepFUZBjAi_ZpagYqUvzB0lS3N_guQJYbjs9-PLgxjl96o9gmUFkh13QulkecFjgzhn8cjW8sc",
+        "width": 3024
+      },
+      {
+        "height": 423,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMapG115JFyoMNO_BGNw8oaXh4RFSGfcCSnFPu3DXQPX0A96GW_1C4UihWHjP0fjuqm3CoOou_NAsnEHP0myNMnxD7Jyfyd-advxLli3yXsm-cwlt3kZT0gdF89MAC1KyNlwzpNnbdEmjADcKVLvnvCvmAn3iB2S1NL_ZfJyvBiCeHXURlQ247q4g_gWSwpV1hkGRghSEkoFGrkEvXsOe2R5BHO1W_DwPj0O6lMft4cVppcJ0Ycd1pwxAgNJUgjXurMDGcmXPFhy2Ze4vNfcJeCxei0Zf84olOOy1IFQwj261mEwvrscLQ3xm6EM8orDrUq96nDoyzUJfIrOPT7LzTqQKH_brZC2RCRtIU8Mn7XHfy3mT7_C1wZbAFEhV-iecG5fAv2H1yhsBknQIHWyIOUketQ",
+        "width": 567
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111978688456508796555\">Suisun Creek Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMamIWhXyRBbf-lAqSQkcodQ0rf3Rg2Rf0fOhycs6eZVLa0qrUMijDmYQDt4CFAUaObDVx3qsbxgKyMfNINmCUJKenfsMjPfQ7IB672GzqLJPg7sH3JL9LVMf0nUlZ9-iRQYpZRVcru4Ym1cXasoi2gNpPbymMLB8GCnG_CEuezSSx6zb4msqvf6qDThf1ujNmfgdOI-wA1wVf0gFpmfXVe4xpbGrUm5a_uSIajxRecuavbH4h3TJwUoWK7LN82dnwDeb1f9GdeYecskc8PX0AzYUEwZvpoCSw5BmtFrEOHgoyKJLJPHIN9JWAyHPxxj64nFpjevCfAbhCCeq7Pqn4O3EIO30Q_FSWRuD_bTUgUkE_xptCuL8Yq9ctgSfjLQQqBmj-2XWWqAd2z--0aYnPQ4kBwT",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ6SgFStYRhYARXhH3YmBH4LA",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12745265424761295198",
+    "vicinity": "2350 Morrison Ln, Fairfield",
+    "website": "http://www.suisuncreekwinery.com/"
+  }
+}
