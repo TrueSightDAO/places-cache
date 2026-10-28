@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:46:28Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Wattle Creek Winery",
+  "place_id": "ChIJLZJNqegGhIARNY2s-SGLOAQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Tastings at DeLoach Vineyards",
+        "short_name": "Tastings at DeLoach Vineyards",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "1791",
+        "short_name": "1791",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Olivet Road",
+        "short_name": "Olivet Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Rosa",
+        "short_name": "Santa Rosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95401",
+        "short_name": "95401",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Tastings at DeLoach Vineyards, 1791 Olivet Rd, Santa Rosa, CA 95401, USA",
+    "formatted_phone_number": "(707) 755-3325",
+    "geometry": {
+      "location": {
+        "lat": 38.4622227,
+        "lng": -122.8212788
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4636523802915,
+          "lng": -122.8199302697085
+        },
+        "southwest": {
+          "lat": 38.4609544197085,
+          "lng": -122.8226282302915
+        }
+      }
+    },
+    "name": "Wattle Creek Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104388039435941604748\">Jay S.</a>"
+        ],
+        "photo_reference": "Aa-ngMZjn6kCXrvYJiVq-Lw65UK6U3Str_hscOm1crEyPBQ-6X7L-j1lB3kLBav0OgjZzMXE8B7kDaZqTzC6V6dpWNiFeXpQXZaMUu_HQbIBMKmASL8optY8HPYtTG55HOX2BoBmAvYfYj3qMMBRA-5KDDb02pUSt56Evawucua1iiIK3a_fHLSoXg0P2RIVwxObfTz_5Qnh5_gV47o1xFDYaz5lukXK-xcvatN7QwwhyVoCx9y6EcSQLaXJBoheBBmZo2rETQblAiT_DW9V718uGM8wJ38LixmWeHmkvCfoELa20gFw_q5WpaoIu6AllEVesiJthnHvfI0EROvEmn5mxlSt36aUDalVvVvdQgif07PZItB9xl6vD8ZwMcDI4ZOLUBNocqj68vWZsOs3RDSsf1gK10K7",
+        "width": 4800
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117446481460862719184\">Julien</a>"
+        ],
+        "photo_reference": "Aa-ngMbcEU9AvnfBGJgFnzgLUR7dcRosWMCEO50Ti3LFlORCjyTPRXgL9Vp7Ocq0kiTomA1vdurstf5tV30VnkB3ztSt2kuTYsXEeBo72dYLMmelHGKUNoS_PqhTfxtQ8V86YdCSfEsOBPl2qzvt4ka81NAcBm6Fb8Taf0oSjkykltZEEQxGPHejDBiXXiNBf9MKcaMgX-bhP8tLG1F1YfDkVUMK9SBPQp2gUNrXLjbzQ2on-tDJMqd3r2C6pnpfITMT-eO0zi-2GpCZfgxHDDjDJ8cmXorDHJoSp3E5Njy4et74qvO20kEXFz6GC5khZFFrgytZH-zF14V8HXQHc4vwsyaHWmm3zoF0EcY306lcg743EbGXXMVMKGgm97d-WDG6h39QVdPubeB8JftRLbIcllINQos",
+        "width": 4608
+      },
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111450706673730952587\">Albertino M.</a>"
+        ],
+        "photo_reference": "Aa-ngMYfn4FIM824spyrsOa4v6DIA2k66k0Wg-rFjRn-IRjRCfdKck7UxoN6TnMyqGQ7ulcMgxh2-StBUFzWLVQ7s7TmvbeZnrbOcD22_DN1yCc7h3rb3Kza7q2G_mIYBo3f-N2oi7ik53Egt6XYSJV-JGPmra-_Mbu8aqOSOXK_3O2YjfPijRI2syINxIoJdVGRqmoJ73E7JSqg91Ap27SBF79YTh-ToGwwAajn2cMzQXGLnKmucyFyQU5Q9oEJLpVkiXsUgrobtp2l5f7gh1HcamwKs15oRZCypX5PYlbxVle-MAyU0dk1ZplAOQtaR8mwqGpo9ddjibFRHwWvWDG0HPLwLxtxwKzd-XBIZMvjIxF4qJyBljjFCkJuUF9B2RQbu_jjQ8EWszeHjDLY48GtYgweUBRPuIc",
+        "width": 4128
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Aa-ngMYoaOUfNxqSCIuYIsQF0_hr5byAGi4qesN0MYqyln5sbKVl6h-Uz0KuG_k9laJ4p0pTxB6hAnxCpUvERIGj9EIbLnbty-9GhsZlknzimMGXpHznWOmljTw5zK19RuvhR9tRqd5_8mZouPEDlqYiNwLRrM5HjROlNX4YSwo1jMSGp1kTJpRD9u-aFkOMUx4qDQjjyIyr3i_WDCx8eb4cr-KC-bBIrtGwyYKQ_uqJwIMBBY_8BOq9UGG6Yalxxe2ZZhQTNDN2LozpoW8ZefVhIeFOf4PZp2lCHagv12X4iXSRFIuxinGssj7odBn177q1-ZlVYoM_4S7u_Gi3IjRylnlaUQkfVpMn68G7cRA7XvHbhJgK4t2QTL78oID3U_ymxo-N04kuaKUVeO59_osN8NMVaddtFJQ",
+        "width": 2048
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117326466380949735831\">David Briley</a>"
+        ],
+        "photo_reference": "Aa-ngMYFSArMmrZAohW8cgFTorNf1qEahvYzlU6zUpqW4NfEei2D6NkG_s7JKk5GLR6g_wWQwVFhrE9V5zig_yDuym5A0D2LtGFmrWYEXeleBxrgnI475NiNQgy2OfRCp3zArdKCtT1eUzgfAj_3ZBJY5q26oMQZfcZLAMcX9AUFFK0KglF3ronEqSzHcug90aFFB0sRywZgHtWGJ8k5DU3IyisjJHS5PhsMf9EWqQ4sivgP-p9u8wAxTyc1-Y0u0kM8X12oJvd3VzWUL6D7cJXOaCtHIBaEkCNlKhcaT38Ovw4khkgOesNdgg8-AA9ke0rhY_rxkhNZwurrKtm7WoA1G7n9P9lZAhkNZsdehQTRLCfQ_mB7--pb0K_kOpY-I0rV59xQN9_Sqn6fflNPvV3fTqzR2NU",
+        "width": 2560
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+        ],
+        "photo_reference": "Aa-ngMZvI51jF--MtKqfoAfwUq1GpwTj3o-XTNErNgcG9V9knb76V1YSlzZaaBCEf8GWlJNeqMOlH2YkyRlXZUYq7vg-N09RaO2bZ9I1xWnMcykJ0vlsvVxn_tRrF90EiF4KSlvqlLXgSc3I25zEJV1ZWKgKqDo6SKWMBAiLRFcOmazz6WwU6Hxxef0moHoGJcveGNgzL3eesStvtRGvZp6atV30YR9lofaGArVpClBrgx0HHUYF31AUPBaj_xTkJgnGo7rfQzosk1H5hMDPrHIXuWHulYwlwPj59GVQbkttW9JDkKeInYgQHgowePLZx8WrmrihQQmce1iKkWBMBFrr3VmXYTxi_K_ulHFocUB3itmB65nklMepnLSJN-PSXsqRmiI9qJTKYe738gNzqZhEBeL41_jE",
+        "width": 3024
+      },
+      {
+        "height": 2450,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113385365268981292368\">Tony Vargas</a>"
+        ],
+        "photo_reference": "Aa-ngMYAyJ6O0-lpaihJ6C_8CW7Ze7dKXttYyO_gioutZLxWBmboVwUyY6bMvV_sU9qa45c3aq6WzCgBhkkEag1tv-55wKUn5ac7JIi9juHbUSJaiZypRjqHKoL9Vj3o_ZbyVyFz1BhH4kVyIDEbZHvEHM79X_LpgNjHCJhHpJj_jftAaRTLHu1OP1fQK6WTDKDUmHMYAA2grbfLUPC23DxXG2x2OmDyUBTtAve_Opr6wuUO8SPYO9s8EnorgqNCB_NfFBEh270TmyeIuFvswkggfGU-J1xqdeuu6OqId6SVxa1_73NS0au5zjVi9ynMTpT9AGTVIpq26P58gt03lgPfWsCwPTZAjMeXyb532Igj97UbPXM-tyBPNd8XwtuZDyA3RatUSMtlEwPPjPWSGU1NZx5xCHZFgN8",
+        "width": 1960
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115856601504185925389\">JJ Gunn</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3jzj1baDtUsoynJ_m2xX_GyiI5jV13KHQgi7RM998YzO6oOsQG3G4mDanmjrSDIDzIM5pCJCQNTnmCFSqZMJvd2ocJxNvJXlVBQC377jcy28_Tx9KGInwwuecIekbX2y7_aD3HPoxxXaWhPHdNwRhSjdf0-kSB9KhfcqsqXipAJ2AYzpdcRxbKOhoCOXSfuOGAph43uzR466igco06jWXa7g1aGOnPXTJf69y1qYbLN0wAnZ3gyWzbn76IUQ0qgsK_siuo--wFN61JMzjUvytLOh0pWBtQ-TC216pzmZWXpPSMywje21tsHvrg5aF2cvXqfRKG87XRwCiPq9pyCbADOILtxiG5HR4RMWH7d83lQHOCseZYD4NwyxHB7KTCAQ-eMzRfg2K6ReV5fgFIIWB0vfUQWQ",
+        "width": 1080
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "Aa-ngMb30CIgYkkWTJq3_8L_5g3ZsrIf3m8GOMhzLWYzJ1C9z_jM_EBS1xMXjq3qmW-LqIUvXUOrmQCgOhFdRuLLqQ66emBKklKuxAbU9M4APqfTzs_JeansPEo7kl1Ooxy2ELvq1-AEFTCzi1X3DkmgQW917KiqVO-w6aOV-E0XzFNKaKgZFueOmyGLtEVHqVlaqMkn9WjLtnYOvOFm8CJ_eoDPdywzDwHFs0ACExBDD1Ickck8qfQSIWluiWchAnKhw81Uuw_LVwiGwG-AqSqcsor_AokFIM3kU3cS_EGY710RtNYbc0N7QW_teAUMN9IQCpPsqEGNeb2qDzS7T2m3Cj3-C1FloC0ra4yxDPCdk-yHiLuzEkgMmTFgN8coxSI5_NQ6S-UyPOXGUg2y9pEoR3SYHi_n",
+        "width": 2048
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100845247658687796813\">al grant</a>"
+        ],
+        "photo_reference": "Aa-ngMZmVBRAfCc0X3H2yFG3wqb_OgGpC6c-5UCvJUIysQsGPzsf9GW-CmkJPJKzRR_8zM7sev8PkLuSjEp_YNuq93Em7qY8NbZo7BOQH0uI4SZQofMQgDIod-c7pW1FfxeT3CwBRo7N3o9eQXO_exZj45s7E3Hw2HkfhbuA4QFfXnvHItY_wUAHUcGWHKYlNR8x3_YxoorKibuPl5g7-7cd61L1ovFN3kCxX6M3rkZv0Ld_LqK3QSsPgEuUkf1TfJh24FxKBfs_ghusKKIpspHIwIUtw8faMCcEmgsqfnLFUQenipcBRS11I3Ejsi9me4pyWJbqPPJSWgkfQ3sJbakYo0l2rAbuVU38dN96PgmtrF6iEjPucvqzFHqob-XENbGZysXKjpwTDgWf1VCpVps8nQ42lPY",
+        "width": 3036
+      }
+    ],
+    "place_id": "ChIJLZJNqegGhIARNY2s-SGLOAQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=304145952886525237",
+    "vicinity": "Tastings at DeLoach Vineyards, 1791 Olivet Rd, Santa Rosa",
+    "website": "http://www.wattlecreek.com/"
+  }
+}
