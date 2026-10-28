@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:45Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Capo Isetta Wines",
+  "place_id": "ChIJecrlE7athYARGqeLK9Ocdpw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "412",
+        "short_name": "412",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street East",
+        "short_name": "1st St E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "412 1st St E, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 231-1227",
+    "geometry": {
+      "location": {
+        "lat": 38.2932885,
+        "lng": -122.4562547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29465228029149,
+          "lng": -122.4550095197085
+        },
+        "southwest": {
+          "lat": 38.2919543197085,
+          "lng": -122.4577074802915
+        }
+      }
+    },
+    "name": "Capo Isetta Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u200910:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1020,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMa5NsUKZD4SRTOvpOynO-ozNMSUWAW84GmXi24ilDrqN0Qvt1xMtjKN1976zCPzmCftIbWDu5X1IOhtzSTr_f0G-U1Vge300-ECO5g27sUrRVYmm5le7i66ZdycKkLprjlcblO9SQE49_HUcSDYyDDkioxqqeOLp5oMaoZU0foE7Ya24YGh_hWXyJyH0qcxRE_36mg4bT-zVI8LGNApE6WJpqy6lsez8FJLbhKFYOqTdPI3ypRB7s4HKiy6OBYdYToaVmoZwmaSZ4Q4ttkU7FZhM_PO5gDyeec_2ZM48dPBlmScrbM3BOI883faej8Qv3W4NGXdz5U6_aQES-zoJJTgNOgk-S803eh_I18k8EjBnZBalxUxaH8wyhqcmgP34yxghO0zWj7Wd7hPd6x2k4j0SuJuLz4",
+        "width": 1360
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMZxxRlvKeu5cEnciTxgK7_Fs916lExA5A9TJb-3jYr5a7BKqyewRhCKCYKBHbXxGPQSC4hDp1vSToHOKEXUrZ8ZSFq116LWHxKf_jKBqAIa2j9IDJpBVJtmEbPV2VUpI6AmCz63WfY64VxqgFB5ZOlmVIGgGJhs1l3ps9wSlBzjf_0bltajkKZ9sH7uDDzRgjhMpfRkcTncgM3L7DgqUSQDd2D5968igj-j98TDj6Zk1DbEOyMqEvYridIPgAx2R8GMj07Lums3ISzYhCE7bje4PYbT94T8qOCOVL0XvLzYtzc1Yjel5PY26SlnmGG6VGCngYscdTtUE-jMC7Y7Je_JG5KGoPXDgsUYOTuAzMbsQ79pb2nvLRLFsh5vhCi4NgtulpdgvI6a6OMxypuMyVn7Xp2l",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMY76sGUB2POGLozrSrfLHyALCAFSVoTjcLVOmvQd0m9C4S6O0cnRpm3KNgsYrPjJGz3-J1I35elBUZC6uWlJlym0_XgB5D9JIhNpgvTdRF3h7esSpZ9a1kfz0VK-5op8pYg0V3WvX3SaxDMBS7fYiSyBDyFCr427cjLkIkVN47OXJl2gzrSWGTRuzvF8jWCX14QKrlQ7LRGQwhb8ZA_6Eaju9zj1OpECidJdwZ9AIMI8eAR3b33FnjoyovDvUUmMLzDBhyRtiuUvBCp74Ot7NgRjcjw_fVWGAhS4Djj0wcJlGSWb7Ftk7yQoTExp9lfO7KG9nMD__k7yeMM1XfHTTlBFLyHWsLmlm_TsgLeD6dd9Cdtogn50jn5EllUYK-wLl7osX0OTZCyjj6pmROQdWaQj_g",
+        "width": 4032
+      },
+      {
+        "height": 1056,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMaG7ZVjAP3MJGRBGJA19jai-6-TxS9q_cDmyv_vU6893CogUep8-nS_k2dl1mpYUmIszBUAOS5sdo65ZwuFq4ZTk9CBPhaV326mdrMx-ehLSvltzCOnWwluY24q9vAN8c2X7Zs8bQIZsBTwqCDbmX7p-tAZFiZ37Vx-w3E1TShYBC9JTv0HNtcbqCv4uk72FZuBzWejMvruNlz-SUWw-nxNUKr1RUVrh7lCzn9GmMYhHCOZo2klv1qKRNqKEcq7caoju1HL4Kf5kM5fma0ijobUUaygsYPkohfirrdri0PlPygSEg1k_jj-1F82ewFDWTc_lANYKwCasLed-rNlvnPiExKf5sYvKSpBObtIe_1GMPQTG8k_PgerjVa8xfpzhMyl1ekiVY1SM0d1vpJKa0TVTp3LiyrQl0uS3J5lFG_AzQ",
+        "width": 816
+      },
+      {
+        "height": 356,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMYv8nDGKVAueEBF0lKDZx7rtS1YzuyQYk-c52-E43OlKuwbNTnyUdMDAjRLKgcKtycyLzG2PApqb5eN0Oh0wxDNfLdp2Cd5KYogtAIG_CMCioPCvh3t9uuY8_Y3nNi-XtlmAdTlFanRPitj0M-dWlAX9CO8u6g5pELpW-_uttAxq3PNDDyZTXIH9D1xTRwU1hYVlyh2MLaHLiV_CMkaA0DDbmNAt0s2PwUREIG1gaZXp0KcuhN8D6d_antjk1FtQ6Va24PDbb-dve7r2_10-Yns_kSXnyzpVvsf0wggAHjq0ckF6PMozx_8IlGhSPdxvU_LD5sVv8q-cThYPDGdGC_LE74tAx8rt4K5AYjcqq-PQcRDaBh_MgxZppyjYLgtrt6eg1wRdoW9kq074-uQ4dTSbUqYvkJ-JN7zQiMsN5IsVw",
+        "width": 300
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116816566555218274561\">Karryn Tapsas</a>"
+        ],
+        "photo_reference": "Aa-ngMbITX2902HDrApkLyH8mH4h9RsvjsKZhzbxf7GNUoVtUCXXeHzlP7U0mz8l9X1EfG1OFIAo4-YWi4F_SBck_D_NBRrH1kuiV0su4ylx2fipxPDRJIMQMYcxZHFRggcddlGW4nxU_BDuqH9iqBKJazx5AHNHreU5UEj45QQok-xNmGge4YFunDmJ7Z4CntrVyfjnBdbuyINb7nx8vHBeLoNtLp3uHcPNxl_ZLjKjZAd6uoeA-ZtxSUHC_1Uk39E9Lkcqbidhtx4hEHItmpDUxKlgLSSQRmTVez85KQ1TtKLlZkEmbbu6gp50oegsBOhkQx4Yc5fLvaFuXkb0mFUufsUK6AvCAWMw2zHuf3X8TGfkqZRXsEdOKNhPdowMoPVYe4M_VH7W1C5ksEhqGDxITd07UpYw3G7AUNfCDP_4_I_J",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118088465585084398310\">Nolan Dunkle</a>"
+        ],
+        "photo_reference": "Aa-ngMZtj79nO4cSC5zpofkdqQJK1BPXLmCCS4TiwDuC3tH82RAUxVcJdIC4EPH02FtPd0r2dIQJiRDj7Upbjv1sw0LnaHQgFr3tGJMMIrZxp6LI9sHh1zjXFK96pVsz1sCukb0DEHr12OxhM_JXiutlq34CNk3uOQJhFmr-U4Q9MwYnPVEoqH4sUZZ2lXWUP7CpW1MalKF8xrybIV2fK5FsToG_a4vgCPTNDylw5Ler_fB6JTOfH1C2IcHdtZTNzDiGDk-KJIyxxENM1pMQNGXgDajHij4ImtiYrdwS7OH5neWyI4agKiWk_aV5F8XNUohfW8kfe3xLZ4PoEyMVypEwKBKtkuf6GBJreCooHseOnpGw0w3ahYP94i4KgWRXCxr9UbPaKfWn3DmkCM9L_Tw0r7bYEtjCwCs",
+        "width": 3484
+      },
+      {
+        "height": 407,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMbV8IRklHIZQsxc2iWn1Qnrth5kYMFtTPCCJvP8BYJxm5-_afBaN79AnTDvY2rD-czZwl4tZSWxVcwHlE0O1ajCak4W3AIELi-BUwxN3Gvg7uoUf8GSHGW_wsG_OAib4ln39rdElxAdl8LL0urk_1NCtHn_elfWWppkcs9_LF572nGwvzhqgl52MQQJDWQ6_SN6cjKaV17KYtihDxkWj3mABWdLIuEsQbJTULrl6_mkvAUhpbX4hRGA2sFZc9aP7kFuQxjncN0ZxKSi5Z1upt9Rmvy3emM4JxqgLSEXRHPCm3I5eaKUIK1BjMbSnD-mPF-nXOn2-7pR1ayo5A6CL3GD3DRmprQpqnwtVzuUP5pl19f9s5Sd8m925E2X1_zn9q9BmT6FhWlqlCETS041-ERVQsx6YdVWapJGWceZkfNo4g",
+        "width": 640
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMYatyWWWqMKJiYe1ltepqGcvCqyBIRRDElUlz9o9186SBGSbScX8gFIKPD2inaAh1bL-NitvBf12J1zRown1_2UusZAOXjSILI4K1QXoHU9qIFzSQmMrPdcj4k6kmh2OeZ8xfD_sI9VcDanr6ESfcz41QFJZJ02x8YIU8Ou_B470v5mKW7Swi-ppfFlpteP8dWHUGpUsOaM8iemTbp1ZoaJDU2_7-mxGa0V29PV9jUsOKjqrtXTS624O0r4W4T8ixhc7l6hDgKhxYlgcIGSbW_7Keakh-6m3J_odc3hiE3PsCzodL3lxksU6T3-SrLHoly6sGP5Fgd2iA7C5WIObRH-SytUu-mC4MAlN40oxIguDIcgFSh01aT84JUxUlLmAakjUXvAtWH14hy7t3fNy3j7icSD",
+        "width": 3024
+      },
+      {
+        "height": 3757,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112024515245297488885\">Capo Isetta</a>"
+        ],
+        "photo_reference": "Aa-ngMazN8wiGUFFtM_8xekgyht4J2rp2lBTfRgnePA7cOYB3ATbqLQWnER-pifVHUcEm1QKp4ESQA3HFmYTBPmj2i04rNViazVsM1KoNAjYkRQrCoXWN3UFkdcN-6A6PrgE5szCmFPkKBDY0NthCS6g7Qv-SJusKieg90f9bD2wAjfavxygtCe4wuTcH6z80VQnsVIy5RK6cro6pTn77D5bb8ellHslxxoHANFe-EM1hJTrpp47_vV6pzwh3CuZRVAplH0ZQZZT78NV8pQeE0bvYLQ5Vx2cY76gdmSHc9MUtPze_srXFYj14LzW5C0checuJF3UlpJOWuCwEoaE07aUFE48qsvuHpAOCkhCuJSNggblGNkPAycKVtW0vBup7uuXEE1QLFbT-_dD1UNJJWdPAIF_hzvAROY",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJecrlE7athYARGqeLK9Ocdpw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11274371147951220506",
+    "vicinity": "412 1st St E, Sonoma",
+    "website": "https://capoisetta.com/"
+  }
+}
