@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Rutherford Hill Winery",
+  "place_id": "ChIJ6WjZhP5WhIAR33BoRxm1c5A",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "200",
+        "short_name": "200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rutherford Hill Road",
+        "short_name": "Rutherford Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rutherford",
+        "short_name": "Rutherford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94573",
+        "short_name": "94573",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "200 Rutherford Hill Rd, Rutherford, CA 94573, USA",
+    "formatted_phone_number": "(707) 963-1871",
+    "geometry": {
+      "location": {
+        "lat": 38.4936839,
+        "lng": -122.4037764
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.49514793029149,
+          "lng": -122.4027699197085
+        },
+        "southwest": {
+          "lat": 38.4924499697085,
+          "lng": -122.4054678802915
+        }
+      }
+    },
+    "name": "Rutherford Hill Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104755832716274495781\">Rutherford Hill Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb4JgS4hpZoHHV13xwUFHrBKE6jF73JAL5axfovnC9vPTsgbiscb7LfRmwKqFaIlAsx5FkbY4RKg8Vce7E0gLUoidkUUoIPFLSWM3oBQXR-Q75y6V0LzL-o42PpiTaCexwta1Vc_puD--3a2JiVqDsdT7B7szC1bQHOP1MIAPfFJmwo18Xh7ZJhe_VgkF544lQeRAns_MT6Wz_MhwjF6CQ87WW9Fk3h10hEbPfHKoEEzFansCP9Q5cfS9L6F15k-DWry0MGcT51ngwlI3dNZhLOLYakW5btIIXRvNlDeUyBaP3H3QrJnBwhT-HYdwzIf6qUtzXciJMbZaWR4i-fvFyz9GdJI3hl-KqLi2DM1aaGX_W1cVhudi-hX-J_hPWfDwpune-YmA2SDOAh2mrI5iieC_M",
+        "width": 1500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116480288567519715299\">Rey DiDonato</a>"
+        ],
+        "photo_reference": "Aa-ngMZOgaAobFv-Ni9mEQ2VNl7uFKcw_NTIJofEcIBUajEtfBnc0Axc6SdNSdpAFpuILOlTD7ryknD7ZrJ_AiBWk5WZnmbNECSmMdfwdtJ3DA4RoDAKDfIA9GTWJRrCzC44uryNPurk1TX2r-p9aFiRGzpCkAXWwJ9inqktmRsjvvZpskExmSHvXlGy__ardqxnXDLMPxNeCIWy5qDYw_HXSUk5S70LtprGYFGdXHf589CwMnCpPI4AdNUQCRd0-HitpHB8iszr0nRCwauNb-IbHxN_ej0E4FS7UT6bMo-vEBmuLJ77aO57vWwEo9tqLqOwaVwvYLj1pSrULfXkkVMjsLhLs5-9RYBPRcn57trdrAPQBaOdO4W1eE-Ccm4vaqTzdIjTq-Lzx2kOzHYAlEiF8zQPmhoWuPg",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100478566662261640324\">Jake Davenport</a>"
+        ],
+        "photo_reference": "Aa-ngMYWVLqxWRt2olddzhFSQOTv5a1hNeMOwBCAu506VXP92EC8bwwnr5pRk10BJDDlSLC-eEPjF7ZmhvxR3zmwW_j4mQ-L42jDxKxiMGV8-Kl1vQFgHz0N-jPGYCWEd9reRmh3kvZaPoFhNbsSRw--UyQgsQbZG06xEDZcmyV2-BB2k_N_EHL3KyWpISfVBkl9X2-mINVh-zDm2MwdVL_y4cq_MxQ_QVI09IfL2jK8hBObq1WWHpocLgKqzgVPpuAOaZ9eBEvphpxh6s9gm6qOL6AMqFoQOQaas0p9fx81sFnl2s_dpEnnP0tYm_FEbH01hQuTpm5MH8htebJRynf323Gx3oFRg94JQRIxV-zryp-y5U3ySAeI48K6i2fwv1VQGn7BjIuFkcdgKWlnV2J8K639lIw7YLPbNgGnCUADXZTM",
+        "width": 3000
+      },
+      {
+        "height": 1856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104755832716274495781\">Rutherford Hill Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbNOwwB_4e6Ybt59qma3PQxqFQTwITIUtROvy5wIpk_kYfrhm5Ku79icOt4dENUYXsmAt_MVQoYpt5qqACpvUQAkGifSHcaHAj7ChH87Vv38I4S0drTagaodkMWSif2wMEYtcf8G8p2cmbSpYDnHbrqaECVJET4BMZDheLwvp6Ie-AUBJv-4w7nFrHR4RasoMhubEQ_0ulL6XZFIs_Yl1LCYqjIsW56LFbq5oyRRCSK1PKEvJuxoAmCE07NQrdt4QPBLb9O2FK3dFrEY0laYrLE1iV2FaE5DBW59Lw5fbXnlQSJE_PfAex7O1qln5t6MixuRlQBSFKGooaFFHH07QNBQOJr7z2FLB1Lo7ZmPiOAlhf85JZyT76UoMkQsldPe-xhn1McjwPY-X21cdZtOO1k5c6qEDM",
+        "width": 2784
+      },
+      {
+        "height": 2250,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104755832716274495781\">Rutherford Hill Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaMk-OkmlHv6GCWnK5Dwd6rcPaMyJ-8S-dYqBVd-tWsT2-tnMsGlSwtFA2PM3DxZI3Tb_imqjoE6bho3ThXuuWTOYlXk2KuUZKGBlxirmyNRRj5cH9Z3NIPKfQ-HDTSUWZeyGYpJA2wmSY9JcCkyxXJOeGpJYHSnczRzhS6X-8ZflZPl1LDma0p7MtPZGpawDItCQAlyjg6l4XQQ0F2B940irR6-UWtrJBBwIoNWorGC3FIncsN79-bk2HC5Zm_mTMKaCjSOrf3Vbd6b1KpPVNcyHwzhCQ9LFIJS3jqi0PbReD-ZDJYrW94QFhuK0ADC_MyF9bkTirzG60aqs3kdQD1U4n9A2KpHKn3t1LtOsZljykYZ20vBXtl0tQBju9oMC7f-ewPxo1FkA_2K0OwnnEjxn4",
+        "width": 3375
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104755832716274495781\">Rutherford Hill Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZt68Bbg6QDVVlgtoE-QslsgSkItgLnrRSxw9-uvQHEk28Zzg-N42aOB5KTbs6HvJWyPG72U2O0jT1oj1IIYAqmozppotrNo_5ozoEruri6QmPJOtL12pS9B2LsfOiU2V1YZfXfeY25YzuM3yeTJgoB89Y0T3y-k9oVleU52zyFey8Zgj-d6qHJIuKNNr2uOe_di6BFHjJ_HKhIs4qAewZ7zbttDse3vSxjFyaMGrHaDDoH30LAegAkXAWrkXM3ZB5tCvzuFwy0CCyt95AMyBn8CZJtnlv36XBkqV4hsIR4Y7TBWgYWzE9iCKYtPz9O3EFt-EftSG2UUOD6jmzLeLS7T1Cepg3KOJGCLnMXBQAr_NvsRynw_nlvTsyjZaOXxg_YLPzt4pRbyfX53wXX9hv-Zd2vkmQ",
+        "width": 1500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111382531760032175372\">Anne Fahey</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1gkpZySpwfipSjNgKSYUIpyfQ9DM6u3ifD_4xf0EPqmeM2Du7vXk40ozBEoAR7O52WcxF83qaj6em0cRs8gKD6444L4p8cLgQiD_CK0kSZJTDNi44kLieWI65aq1tkDVFUy9OPscA9_e98vX95PsYIqiFNPOmh-tOT2sxEsIQX45tHeimxejzokX5IURGUCSSE6jyjXe9EvsjsAl7cOa4eUZmxwdaJC4MRHR_ltZA8tnwLizjEW3g2MJ1UxzZwpGB1YtjbbGOmRNIpVeqvZkV9M1NYSJgOmYqPcf5-0P6QrvLS8Q4Z4PBbYKVa-5YgfgZmQEDDa3fU4BGS29fhj16MJPkOlJfgPuUwJAfn_9mTiRx2r5ASP5BC27ykIOz-OMVA7u7l392q3vA3w8ZMQ",
+        "width": 4032
+      },
+      {
+        "height": 425,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104755832716274495781\">Rutherford Hill Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbs4jvo4isJHNm_Swq0JMwSCGwmZahKmjlg3yY3dlOzbWROuZZGiB8xhDwaHoQW_yV0rV_DPmEjMhcFnJhMwZNsEJngMlT_1VY6IMGUd4qSU8E5A-R5OMmBelXJU4nq3ok8gH1L3zxGQc_-vDcjufzEdvBRfWBtxjFKC7FSC-t-HYK_XbE79A7Eva3pZDnQ5iBZa4vgRgNA5EjYHZY4a1TnA_0a20xGD3pITju4nCrDEufTY0-q-7kHKIbRxA5vydmsn9BROSAy22e3ToGMiF6OtIKJ7d5nS-c_DIdDhET73sSSYkiJRPL8yxKCUevZptcEwhSQiBY2diVnt9dRMCZI3-jS_OhVWzcdnGjyZJ6TTg0uyzlNUT2FZJLBEo0ER-Mxf5BrWaWjf1zuL6A1goZm9eTum64",
+        "width": 640
+      },
+      {
+        "height": 1296,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107176328886283810669\">AM PP</a>"
+        ],
+        "photo_reference": "Aa-ngMa-JVPG1VXP-sRwVdVtJj_WZ3KsXx6hvA0NdR0l8ZOFWh4n04QMV1hx_ywxu33Xf2w6rF79ddHCAd6pxUKeWtXFHw1mMHiH4M8zi7ns4fz_Us1CUypjmdPoIbkRtUEoh-10lVEQmzZ-xc6a842pD4gnr9RTOaDudRW2e8ZtTwyy7slBGSSm_IHJyw41jq2qFE6E9HF9isShZ27K56jrFMhnOhIoc2OUkaRscFIQne1ma9C3wDt-2JTkIvMQdDSqlJSwGTdUF6xp_NcTpM3FkPugxa7GdvuvaB1NZGMbhC1rt7X1zEj2IoLBaqO5w5zmZEeUYK4EkLpZhf-5Ke1RGVp4cZea1-yjQvt-E6dDtkPNo59CO4JaEVcXEk9HjzN3LZONnOQBe7kxn2ut5LW6lJIai5gr",
+        "width": 1936
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111443814542710068141\">Simon Benoit</a>"
+        ],
+        "photo_reference": "Aa-ngMaqEIhAHojG3w7MK_Uw8GoG46XwaL6EW1IjQqoI9epklhN1KKvnCn2z8IAflOX0zxAOT3fPomcM_SgOsQffjfE36WOl--ubnf_plyTL7ilOsI2iYV21RAA6mEdkXfbs7MSDaXDUp-VHJzMTbTL5-46vPcw53mCKcB3SkjiHhR3NlrUr5D393QN5V3p3SKYCXZq1TgU9IfQQTwZ_dKD95luQSfdU7HaCTJJ_1kHR8DkR3Ltm8hQJDHmtatyYj3RjgjZwFtjlqE-k5w93JnCuWUww6CTq2xgm45_NztTi5uJgaYICU-K2JEpsbxP97-r40OCx9jjXqsWkdNWNIDNNic_WnziSw7q1GrK8INns0x1HSR4jdFGI6asx-QmEIp_cagr_uBCdtxVjykWL95PQm_QarbY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ6WjZhP5WhIAR33BoRxm1c5A",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10408862283960185055",
+    "vicinity": "200 Rutherford Hill Rd, Rutherford",
+    "website": "http://www.rutherfordhill.com/"
+  }
+}
