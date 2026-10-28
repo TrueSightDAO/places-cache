@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-28T06:44:00Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Trattore Farms and Winery",
+  "place_id": "ChIJ0dJvtDYFhIARbdu3o9HHESU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7878",
+        "short_name": "7878",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dry Creek Road",
+        "short_name": "Dry Creek Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geyserville",
+        "short_name": "Geyserville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95441",
+        "short_name": "95441",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9715",
+        "short_name": "9715",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7878 Dry Creek Rd, Geyserville, CA 95441, USA",
+    "formatted_phone_number": "(707) 431-7200",
+    "geometry": {
+      "location": {
+        "lat": 38.71011439999999,
+        "lng": -122.9618221
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.7115672302915,
+          "lng": -122.9604373197085
+        },
+        "southwest": {
+          "lat": 38.7088692697085,
+          "lng": -122.9631352802915
+        }
+      }
+    },
+    "name": "Trattore Farms and Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 639,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbvXpSe_6AdZAEM8ZBnA8dKLVOXg378MvDSmaz6DD5IQ0g3NhgqGn96m4hwsfarphJGa9shaSBAyoxb1dSVIZteIJQZv8G3jVODoH0DXupGAoxdU3RZsWxsFUbC7hjuvbdPT1Tnz8tVyJkU2tuThfU4ZvnZ_hNOJT4cK9YQILx0SIhwrVC4dkDVFmpMVHkt-hpB3TKewhw1u1THprCjbxcD8uwzC3cCkV22x1sx-Us70mvFWNmFeXHMVlaMuP5CfMEjzPBsgj_6ZXPAgEuVU9Sx6alYpvAghbb_COrsS7DIGGZhwJR5KzTpaDM5jLhylCgcYNaYsGi9uyXVnvCoHVVcNxcGJSlcbtGA31s_EAEPJv7agfb-KxLQNycuGJKJLZ6Kq7CiisMndpxn9UyNHq32fXndZBM",
+        "width": 1140
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114147907162891697075\">mary grimes</a>"
+        ],
+        "photo_reference": "Aa-ngMYOBTlmpVFFpD1Ppag_5oyq8d-ZINo_Q8vOjMd0gg1scFO7XMEUX4popntKZlnaUlXS-C4xqmOWGXS6yylR1QoLo-kUIbMuzqM0fTd__bWJyYbENinv9X1WvVEnB7HMPKRFW7ryDlBPAvqYcaA5Xo55SlBqFeexJs4WPRc-8g5y1ddvRd5GYfjkKJ_-BFtLPph_tve2p78hvJNLJgEvnOLsCNzp45lNts90wvyOTqTROTgtlkEOryUdBz7VEIqISy6pqIw4eqkHHqO3Pz9J9aJCM4qKItJA-eMIZ-Uwinwd8Qmbuxhkf7Zwh8ga1PjdVRQO6chzGLgbXYMikXmFTjYr30tFQrVsWlpVSR4jiF2su_MaWB3L1xFcYM8UTAy9FydwZfmVmZMwlD0sSlfCCP2823c",
+        "width": 4032
+      },
+      {
+        "height": 376,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbv7JqaWFCbeaqslRmnQ5TE8HY2sIEzu578xiC4PfHSIRULwcX64KafHl2v7XZyKDBf4mDpWdWJATgCcCABP3hpM0NYDVZ2DGum6NNw71vzeAYHNep4CUfYGnMkGg_pkJCkc_T6gNPpisA3T2rtXD-AMMK18zv0eBivK4hjunxm_2OYmwqBMrGhvTbhHKlZgyMMHClkB4PPlviKIb8kzUb6D7StSUWC0XluyOKbtQhdLOv-1fo_KebKQKiIqcmyzM4OICB48u_ad1jIh9Kj2rwcmujjyonuQzRXRfmb1IRUYjGjIDcyG0oI_XCgR1mx2OWEnzFk7W3E-0vf3gYy73Mi8VZkOuw1pHbeE4OHUvxNONezlAxCw2v8xDYV7ej0quBSHtMq4MZnE3zLYG-R4vkmqy-jJ9w",
+        "width": 564
+      },
+      {
+        "height": 422,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZVbzPMSUtPOKnMqZw6Q0g5Cw_f9_IbqqU-UTyp3-VLfMyhUSKHnBF_uWkrHeOf8HyAs8GbwCLfSRg6O4xV0qWnxdF-pnkWlavdHXHemNlj-jBfnPDREgU19udGLG2dESailjP2hh9KiZ4gtel-2ZqLRG2pDIoBqXr7mAjn0mOgS44vibWO0zBcgIT7TkaKZYjsQUtyhxncZv0INU_VRv-v1fnw7Xd5T6WV00ojSvCASZLSQ9DwnpChziQYpxKsAIcTWwZB_UMWTNod5nqtraxZrok04_rf0eLjEZFgSa161mFny5iSdsrzMjIB7bQS8tQC4sGWylkeUrXQS_6BGCwrWnPET-_7_KWt5nrmWWEQx2IJyxP5g6Ez2OXwR9AGrWJDTnBcVbAo3klu4bpcp4ll42Q",
+        "width": 640
+      },
+      {
+        "height": 3324,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMblgSUGjcnDtNuoomUxlpYnL8Zms_abPk3U-8cszp-0KfDY8KaIviEicXG5kJQeuOIqjoRDHgTAuJFsUUEZUWO68ZmSfDQI793RfLZEIqTzCfZvVdAgTI5Ix_-uw1maMzAJ_PNM9oYhpWN5YSGLJL0IBEpAhsfukIowrkCJvugskFSredPbjir7o65zj7ZZxXLJfXb0ao1NjJ5hDVn-br1EHnFVwxTcnuzr4mqKvu46j3i8V7COTQ96UUchZEIftKDNjJZEaz2UIjKXT29dHtiMZp21Pkka8kZO_f_EAOsccHmZuSZ3exWIeXAYpPET6c--kRJQopWwBnkmFvHj8tbixCltyXKCM2HIAMAoVrNiuU-njUrHP60YRYLy5wn4NlwoePWy3BtJXiJD8LS9v2pAE-8",
+        "width": 3527
+      },
+      {
+        "height": 1432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb_r745W4oi9urj3zpG8EPHzZTJxCxqChnLI_3YzBOQN-k4GPk3Jb0Zht7I7TDLdk8_5PdgP2-HVDC81jfcpio3CCBbQljiFhmRSKj-YX-dIhV2kuN7VOBeVZWpqKV_HUZjZZvRPmJmLfgy6JgL2chHLISVShLsCValBMOJLqz0NvppGuHw8cNoXMWPwCyhDa_umVLjlG2sYo4WyygXoaNCx1u9Zc9PRhgv9dmVzl_OaaCtNegVAudK9Ddl-12uTV4TKzQkSkRxOcd_BWUOzYyf6E94IcuNeUoADF43v1da19P0G0ks3qGODktvger4jG468zSDo68o5DdlkWZ1fVOC_gxm8ZSua1A-3ogZEmv_QwH5J3q1faCDpPKP6mWYOPpzsEv8TJWJBo0MQ45oxAYNJg0E",
+        "width": 1909
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103154855120061887212\">Rob Tulloh</a>"
+        ],
+        "photo_reference": "Aa-ngMZBGJd_bDVKC7DE0SfBDNxPs86Oj1EX77DJQotCcs-cIJYHVcfjk28KSfikz_U7sLehNTOpwYCRyppeM6PseIB_ffbeteap3X-waMRdar6ffWmGtfzX4y52hvRGVP3kDxPLXF6toSI0qSTwvI0TZFgW1cDd3meYy7ZbfuDAs4FJo1pW2-m-S1BeYosrQkDNVaSMfHvzI8-zmoTL5qnpIg_sQOTYCPo7VLMg2tFSFEFLbEeB9l_wqZ3bFd-yDKbWb1ENqwgPz4nE8XABbWnWAKL_J_oLGhiaX9_wArtszBuNCPuQtlyk531HydL7ZT7TLbzK8GYDGvqStDMhxMzduAHH2JtubKjw2_cPuk0D0uODu0FhAFfZ3dVkiQEeXzwcLiisQ0ynu2ipZQLB-6X_o1ZcXva4xGhEI3pDF8h5zT5Zsg",
+        "width": 4080
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106327164797440714856\">Zachary Rasmussen</a>"
+        ],
+        "photo_reference": "Aa-ngMZh_FJ7vIT_TeCUZhJnL9-qUAAUlef4jUoChhV8TwFrOddRv3HXAw_v6yIGSYoTgHkAAPT_EoZEYcI3CsA_r6M9RdUocnYFuj_11WD3Q621_-2gZ4jLkmrz0Dc01-UVquOl_cqW7uR_inR0egJSoFiS86gWAUwc4G7U37Usfhu2T2Ss4IqXXYwR1F2wxnFMFrznxnlAgCaxHkDt9pKACxqnuQrXbA4t5N-xqsdtWwdYvGKsDCdCjDzlXc9u__6sAVy5qxu0Lo5QsPaDYIEER6O1A_IkpQGhV1nq5Hdz0gk50PoSkHic38Qi9JUnAygTI1lObXTY9L_WCfn9-7W0IpHilsF47ZzmnSEhOukxUIGDerfb_hZAZYDIbbROAABoV6MCRc3vZB_GZXrK4l3rV41DsmU",
+        "width": 4080
+      },
+      {
+        "height": 949,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114749308426173304528\">Trattore Farms and Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZiLoY0CIDs4nbuiV7F3bseqEyh_ZNaYlsobUZZapIeWEPCwBtXtU8oNF7S1vCwUsqh06gEFgGb5u0XzMOj0JQvC1Mn3DCg3UlVRNbLmJ8NWJQ50g2K4aVSnIjEs23A4NBftzyTbcpRGeIlLCbC7jERGW_lM5jCN2C23SqF6rliOEU-kZ-wy7lLJPPVQ3oNr-LlS9p6ZYFsGAVOq6wDPD-1BOzPgiJ4VKEgwB8QrbNUHKQbSjiAnU_5nJfikP9AkooFHJEcgBIzbTlh-sovv77HNeQftz496s6oEBlEL_bWlWb-9Yf85FHkK_H4PG8LN67fOLVYUpmNemVzyjQC1_aOxKPbcVaM7evI0PMw7ulD1uc-CO9w-3z6Fc0uI38-7YXpRCtu8GP5U0uy6eEAuSd7e14_",
+        "width": 827
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109277890129231575678\">Rob Chimelak</a>"
+        ],
+        "photo_reference": "Aa-ngMbiK1Kq-p5JPVhmZIoPtx_PMjBP9SfpVxUayznFlurOJ9G5e1IIF_kXgYMDeYlubGaA6NSdx4be2Ccu61BWoMDPkEbGxhzRvrlfLE2qZvgWJUWKQzgwf2KqEyW2Ep2IzwSg43qY2NUzui1iB_pWgoic5dzEzD7Z3cvEEvTIEBy6yMF1fvvSCJPixEAiBHi9EDq1CzMRIQ335wqwbid6kJft50wh2ZsEsml0lfmWwx8iCR0eham_nO_sqJMxfiJJKSxjtNlZ2znW2iWHzgTeaGTw8SJAq6wv9tY3k-QCgLPLvN9sSXcZ246lw8iwqO6JnHdNMASM4FbTEr_BjhA9670YmwWNCnXA6mkr8GFVRRVElmmvNKoTRH15WwGFJJ5jSNoGTxw8QoLbETG2cTJuFxJH1Vd-sY8YMuKEUsokl5uKxg",
+        "width": 3840
+      }
+    ],
+    "place_id": "ChIJ0dJvtDYFhIARbdu3o9HHESU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2671135757216242541",
+    "vicinity": "7878 Dry Creek Rd, Geyserville",
+    "website": "https://www.trattorefarms.com/"
+  }
+}
