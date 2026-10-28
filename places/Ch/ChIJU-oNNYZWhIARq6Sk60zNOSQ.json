@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:05Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Honig Vineyard & Winery",
+  "place_id": "ChIJU-oNNYZWhIARq6Sk60zNOSQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "850",
+        "short_name": "850",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rutherford Road",
+        "short_name": "Rutherford Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rutherford",
+        "short_name": "Rutherford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94573",
+        "short_name": "94573",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "850 Rutherford Rd, Rutherford, CA 94573, USA",
+    "formatted_phone_number": "(707) 963-4272",
+    "geometry": {
+      "location": {
+        "lat": 38.4723419,
+        "lng": -122.4067651
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4736930302915,
+          "lng": -122.4054102697085
+        },
+        "southwest": {
+          "lat": 38.47099506970851,
+          "lng": -122.4081082302915
+        }
+      }
+    },
+    "name": "Honig Vineyard & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1529,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113261705377846954531\">Honig Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaxKHa3vTPfuHzVPPYPbDVKEMqIgFKhaBcHbuLLeOmiWIbjwERP2PrKVu_9ZpVV1M6bCVEnK23GxqFGShMBob5wiBZVkXhrwnsItwWpOrodx8YMwsyFxGWNabGIrLZMskLoABQJ7C9aXty25YZDuyyThBVRzf5B34V9O2fyHUOWUg5br4WOVzII94w5rcizI8HxiHubVSVYJQKVCSBLwzQcJ168HNTYrkYoM_9DRs_z59G8CUjtE2_yYD36dfFwMIPBgwfBM-m04N_P49RMDJHfCbUkbcwZDyPECO_FUER5drhATsQ8NBVHZo3-QynLDv1b5ItTZ4Dntg17Z95ghOQS5szVtOUOnVcweuVplyITipAIdocioyuLnpIwH3U0nvhczGuuubSCDB8NurDnx8YUNh0",
+        "width": 2048
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103426076441759368350\">Bruce J</a>"
+        ],
+        "photo_reference": "Aa-ngMZznkgVDQqw5U1Ioqxiqz_-8JHVf3cOErkbGtVQgElV4Y2LcrcpdoOVvgz57m2C_bJJ-B9KbWjkFCDwHlObJAzsPq3mHK8qUJtWArTOSkImc1zWNJv86AjuiT8y6TyIQPvPv7Xl7RhQJw3H8LCtOH4Q0OgIerfm8HVzQgcnAcirF7_Sml2XR4QEvFmwYacbo1gAhCru6P9Slq23plnnY4HepLBL7-qHWUvsIK3aWa-SzI8Eiag85L6ZcQ6JtRgQPOsrYj-ygvoCprBgyOA4KXBqgE6Bi3V_hKMKe4N5qQASkzxzSxuMypnmPHM8XeRnxrMjcaE1Yz7r2gqptdC8mSRj02hoDZN62qJY2U2XvAY3OwctCwkIq-hxMSRhy8XtXUEXowTCVgKRr46r_taUyIH3BpV83Y0",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114937174424473239145\">Christie O&#39;Hara</a>"
+        ],
+        "photo_reference": "Aa-ngMaljsGVsqrsnl5J3GFqN2eG58HMw7aWl28QadfutrXrN9As72PEtt498itqPs5_DR3ZGLu_KlM-iIUZAQjpUnVvYIiiI23kRl59cld-PS_cw7IBVGtM2G0KG2rOVYrJn5XyxkJerDwzXKAOQdWTNMC5FB0eyXeT3rNUvG530DdmPPln3rKaJNYAUjLdbscjR-DiAHyNDUbPMAgzZatgLYYL5UGWDd_AqJ0NCa-tZz4Nzm2u9r16ACPhGlYfdTnJpsBZaq_uoNXnT1F-r9syhPpdh2r5UbBF7iOuEl-CNJtXxBu7q6_3tHixGzAL0OW_8LKEegczUVyVsEyynrNe5bYuo-ldlRRdGSSt3kH3M8OxHsJkdno5HMIOgCcsLtB2WOz6t-NQUMlRz_uZc3UcrtDfHBw",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115128543927464926822\">Adam Camp</a>"
+        ],
+        "photo_reference": "Aa-ngMYvJ6AtxtcYL6bHHm3q06_BgPD6Vx1QejQvuNjfmFYpJOqEkm8EJpVizdcQmtt0TlJro5IhV9lBZvVtBYw7u14OC4AKroMNHH0nh6LnnOs21jSB_-TUMyMlhA7NTZJs84L3YDsOSJdh3DeVQQMKKiM_Cf3I78nTf1KtzOPRxBe6lIfWLyxJ5BLb0QUv4fYnhM0aIPyf-YFLX8435h2e_o-Yo7VFtSBCOghzXj4GQVIhWL4U8EyUXxbrs_tQfP5zKmIrLvUs0LUIsD5wu6VEmT4dXPkW_mWrCpmS5uj6l72wcxUIIOD68Oq-9cujbbo9Hkl10AYDcZjSdyDgZk42CHxiu8w11N31r0K0Ixi_bmnWWC2w1vTjqAVdZPxQbgJITiJiRt7_gVC1D8qB2ywIYDVdKtnNIVeR8-ZWX7e7y7JgBw",
+        "width": 4800
+      },
+      {
+        "height": 1570,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113261705377846954531\">Honig Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb_LWjpauG5gmuoqksSCC63GAMysEhWaphiaXyupXuioZaRLBlrn7neu65u3JHZVrx9Y8GelpahfaQfQ5EKwZCFkMGXLeGXX76ZiFPrw1c4lZvIFwKBdafFpmiR6LG-pzWaodN4N-O4_D5X-PTLf5xKzzPPflV1OVFq83XxFVNzzKAlsA8DAGzYMgRDytRifh4A_IteKRDa5D1x-ZKCd3z4PaGYazGinYAqUqRUDHKf0S0OS6ohsdOWJ97clrd4WYHrRt0M8JL7jMvRIwqk10f5tDj6rZreSs2LVqguGNCnNMqhsZKsdPcLHEGe7WqRfFocsVaUWX9fJxojxh9eg4ZiGxp49UjkOUZC8DN-7ap5226auWkcwBNmcoNbIxS53EaLli4GC8Z5c-d8vtsNj-YyEbja1Ug",
+        "width": 2400
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117384676354042393094\">Dan Okavage</a>"
+        ],
+        "photo_reference": "Aa-ngMbfiClM8fx0MaQ92Uh9sj-gCSgcd8JlD0h-4LZOQH8in9Myu0H8SLwtmOpmvAm5L84g0-9dltnJ_Ob0D8jIgXCDuKSJ0QwOLBJxfKh0YHA7gLWfUxM-MvpV2C5WlmcVj4crMbSGjWrTs_KZUwJm7uV6AatLVBAQVhlUUNIHduXa2D9_Xak52RiTkgQy9Ac_nIMA4kUJGPhlFzYdTvkRgAqHFmRd8DsAbL_uH5dUFyyAPpMTYfKZN3HOHakxqkvzRTgR2sJIssJbgS_iF6-PaHzn34CmEyJx4P2r7pNBVHHAGaQS7uJCvt3QXiipUkPU3_nxYO-OS9olSSwGEXQ6yX0tY_zKkHjcV2ke1GFOi0TXo91syAlpae2ob1ctYrmFUtRYvWVLnKoCpNeTKLKIsjDaJ0Jn4kc",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMY-LAV5x2tpl61uZwKdLCPtbD_ES4JRxjUiyNznVRjNOeS4SWEq41D6jX7KE-aSxco4Tq79fO0E_0fmzDIYZosBDsODVeJeHIiJsTs4juH4bwdCHp3oiw-gLLGkhd9bcxUhTzq4_QpzbAjFVnytC-fncUnCmU5py8CIofSTqWJwLZnYKUEo2dgXvMp1V2CtTDZCJbKP91RtzKvzzTABRgjtqirtBVT3lN4cBQxbcmjbDVox1tpX6fqGuVPxE3wIXtKpXddTaQbCiiSY7cwtCVV9tsMf7sUy2poQMN26jXngqYxNUX38DcY9OCbqR7kTRv1rhwTM39xAQmAY9lLrFDzxXmSlli-3YgrZsLeqUS7MRFUVSrMf9oLSISTIIsfoPJREqgOv_wVnCrDdu78QLBBCVw",
+        "width": 1848
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113261705377846954531\">Honig Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaro8-OEareNF-GAV9jdxnSliCaITze0NWJUjVEnBwon1M32MIHT_FGTF6rbZvfNyG_WCP_qOAEgbfifRVsvOkmDzhuLFdoBH5i_PET7jjTH5KofJW3maK-TMVDA9qM3mRPSrdrPVLhfCktUp1lgwZtH_D6XX57pLeEVAH5zG_Qri8gNjKihfC4EQA8govJNxXHzLQKB1OwtIl1WTL1sCx6ECvZrAMKDfyuekYWOBz_kccM2Z1ZZzKl_z6cEXXJt5Tp48GuXYIAKkcs58oNCA6sJYaQbkPT3krQfPpDZRwa9d44oFdHNncGZkbO-o0zMMbGi_xn8VqSaXMidLHfJmy3wQJDI-Y2oPbmLZj_SIrfgFZgh7Eu93tBXovb9MTBEiWEGKmfIeE44pbYniXvBzCq3uM",
+        "width": 720
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107464882941777223063\">Juliana</a>"
+        ],
+        "photo_reference": "Aa-ngMbp0B7vzS6oD4VBTs3_mNLlVZGu8G6yHri45WML8ze8453pfSlzg0iNxJxAxq5D-fQkuUhjX4p7eBi6s10W3zawUsxL6r_-OV5V9QfP_KLaq6skdUMnzkj6jiovksgtKj2QzAYz7jRZ9kgADAWouzfKkmdCegXIRdLKq75oZj3YLr25Mgru-7OK01eof3Zs5LaDe9FL028-UqTQKum3Ki-vwlTz4GbZ1HhonyCfaYg-P3XCs13OtYD4CbE88fQtBr5DG9MCXrpUuH6e3JGIMxLyYXev7a5t_XP3x0ybVx5ogHcbAbQ2FJvTG8w7M_ZSefX8FpkhRHosMHjv86TEiKz7aNAgBwRsHSBX2juJ82i0RexaY3JfRPgynJxp8HYUT8PRFnRuJRRMOkCdb96HEksMAbXeddWCqcsT8KvPqWlq_w",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113463435635781271647\">Joshua Swanson</a>"
+        ],
+        "photo_reference": "Aa-ngMascmLNmQG3NbtRHZCo32Id0AnxaT24XJw5mlwEaCWKnxqxLhWMf4RpxKtPHNigaw6I-lGcP51jh1v2EYWwhVhHUWOvtGW-WuIPuUGR-RVU23MS4lbsJTR5ujKwQY1JUcPzTvgMFmwthy-dnJG14W5NbLIaAbIAEic8M75JF5FuTI3DMV5BqaJXMpbhqZTDRz4CGsjqAqM7aKrI7Un_aV5-OGwVanxgRavvYH6bj3w2a47qE7t-dslZ7S21-Is8Ol4k3dCZa58av5OMJSgxXJWyQw4GPXyam-MRi7E_9dRnOI9sMLApun9IWi9oL_FYBqljLPJi27Mf5wI3RyXtC1-6Pbjd9aMzz5D32qzQwp0xDtj7JYnCm8GmFTVM5n0UQcfaAPIJ6zGiYaTowptwar7Y0Q",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJU-oNNYZWhIARq6Sk60zNOSQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=2610343189292557483",
+    "vicinity": "850 Rutherford Rd, Rutherford",
+    "website": "https://www.honigwine.com/"
+  }
+}
