@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:05Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hamel",
+  "place_id": "ChIJ1yG41yWthYARFgnem1WTqmM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "15401",
+        "short_name": "15401",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15401 Sonoma Hwy, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 996-5800",
+    "geometry": {
+      "location": {
+        "lat": 38.3468759,
+        "lng": -122.4931775
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3480760802915,
+          "lng": -122.4916975197085
+        },
+        "southwest": {
+          "lat": 38.3453781197085,
+          "lng": -122.4943954802915
+        }
+      }
+    },
+    "name": "Hamel",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMZTM_vGP-4iMQhosA4NwuzvxASycK9HVX5IT9UAK8JROg56QKeoSSZORinADGgR-OrIMuELFCYfpAu9mbfxPUg4gFa-ISoeIw3l3FoC7VY3HvW4J9E3--UEQZEdOEok-ynGDcefrf5mU7EWyebuLWQAiV9-n0rfGpXqozYSiFCjwA43WSQxLZmlcmNYxTuqzi2sDHJx6C10I1uboZh2PQXbwqfR3kiCwOrA64kV7RwhCtq4s5H-9AxuC5hE06Dro3ar9aiEtzeP8WKMe8sLx471t14LwYeOdaguqcHd64kQw_MU4SBMFCKplulMv8q2tH4u70gSa0netSWrS1VGjX4bpgjJ8YVFfbei4aCqOCVpBJYzsNeN5fNj5cEpUdaRLqeOKKWARDXo0OqcDQkQ6vr2cA",
+        "width": 1200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMYUhCSoOpla77r7d-0rCll5WeDcob1pckDb2WzqxB6WkujZM80KBVn9w_0FdAJNrS1sX1j6tbkLcAh5q3cqqQ1Kn9r67AvTvB0JALhPXIpElyYBzZaSv2IFkK7znq2UEgSrkOmul55K3fDWUsNnbT2ZS87pLsxScyPhwOlgA9WSLnGdKLHe6072ynTgnRUnMkDhmx_zskBuOQhljBWeRY3PQ2MqDV6ywJGdN5sp0ckBO4dgzJ7V89OrD5IFI7DnTaMhIlIzQIAof95KstVq7oJ_14Edyxxy56txwjAVRCzudNGyiKVocZIw2WIF18krlDGIhMDPqMJi02HtfmlstdZgVBTUFB27AmTPlzD5n2hmcdF87DU2DCOXKkR2WU5LkzFyCJ_Cd7dr4RttulgY6gP0lGc",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112058769867288186206\">SD Gilmour</a>"
+        ],
+        "photo_reference": "Aa-ngMav6_8dIAk4ynLrW7R-K8MhY5crTMvSbPMmXD2WKZEW3NWu8iwjDAub2Kjf-xD-mq6wrPy5qd1Pc39AO8ohrIKvRXeW-CoCOSJZVhXlnJ1P6Qhdqz4Qr9O812v-EcQp4tDoojJ8gQm7P4gTOZvWvi8ZgrDyoS9E_tvw3a6NDltVBgBAy7azD6F1FEYu-j7NKBrtzRkEDCcsVD-SZ6DvL0gB6dxRQpmr84j_4JeKI0u-BJVKS27pvXPjETr1A_I176-sfcTQzyGiJVM-1X8rAs8RkCuDkpy4ZTCLushT_OPKGPHZCF0kQoi3SKj62AbWzLvuXj-oyWP80JkidZsok_B-G46A04jQkkxaTNukDyIuM-mwsIcirUJrkC9MsmiaodpDc-GyeIJpupkfX4U8Vatd8S5s-EeUH-0j0sryHP2SDg",
+        "width": 4032
+      },
+      {
+        "height": 1140,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_gVGNCtbAhQQHcsBdU9_MQFlFX8xADCtGUTdZxahdpKtJH7FtzopBmUBA6cTRcSpy3lJ670O7JjSam2YaB196XpjZ61SSwpryWCpeh0rl-kVhxt8h6Hq3qeJunCRTl5gH-fsQQZm6Zn0YdxJ672s8x68L8zS0e2D7E0_ADxZUFelYQDBl45BSGfAg1U8GdkUdBvefqAhd2QitG_NWHmPlH5LZp62XLcVBPHZsONQbmz0TIueUrz8iTegfifqgK8P3Oxjx8Ry9LFeNWQ2jKXNrElAOOBlOaDCj1cKHbNCmff2zRKTJdG5pQ9zXrz1KsH0XBQpRD0ch14Jmi3nzILsn2Wm4Uh2dlBFA45qjUFdREyjwEg4ROyfptsXnmHOskJH3tsWD_IjZKfzcC20UK-FVt4qlSsU",
+        "width": 1685
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113402378191561116916\">Christian Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMamsQa_xDdK2mVH63hhWqgTt9It-dtNfFRGNJFtH7T2gr12doKm9JwpWom5QKScaCfd-2-ciwO-v4WPHqZoU_9nXZa2So77doybF_xPi2AijLpjW5jJkJXDaKG3JDmmQhNeeqQJCa3BNX7jmuWlgQ7DAD-O6mtQrUj2mSTHp7-RN7iKilY34Oj1akmv94wxAPizqS_Kd5wa-uQxqidfE6ADqx8UXO-30b1HX9rJZjuWVKQgQA2_wC4HzTMaeIA48RvTgqqWkiF8XQO_TVQhct5ugaqSBFaHCJwe7paN_95EjcSx-JQuV_dpa4DhvX4OtLZpOv3pWBuz9UNIwHsIH1OOlu7nqnpzIwtr3ufwgLz8d3rRuJffxeD7UEEmL5XkaSsC8fwoF9P008c_XgZlDaheq_y9y2w",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112058769867288186206\">SD Gilmour</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1Ti-g_Ob2_PQa_wXowOogBMQ7KgqzB8GG1s-LHbqJRX8vCatz4ZnFsJ86387TbibwAXKoO7l8zRcJwYTpMk5Y4CL9Cg0Mh1hKWc0jWZN1xClsIZ_S02__PGu8mSpn4R84EfDxJDT7-Xultxch8xE7-lvD9AfPpdZ1ckvWkgA4TVOPKUEP4si228rZdB_6uLohMJhdp-1YIQeTuHrkLy2pcrKN2DdtRUPPUijJZZquTIdMeq-QnVfFLVXql9LWZl_PhRpeC9oUREeim5QSUGYjd7Mo2o8ui9qBG5-O1MWB6ERb6K_tOnmmCXT-7UcEh5UMAQzAKWEEdOqW7lfsk74M3sGLH21Q9WlGFoxy4yp9k9n3SrHTK24vpd0p6Nex_Lr2A8T1O84wWde5QEUanvpH8-sPmw8WyWUUqrWCqo9DzQ",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115877876997670053756\">Jesse Passman</a>"
+        ],
+        "photo_reference": "Aa-ngMa2OVakjZvGUO0aoTUaVshQ-M0VyOIxnYN3qr5eAWjDbbeDh60_a3DJr17wxQuYyYvyc7BHbouYarQUi-oTzd63EhTl8MYCza-wBN-nxkVMvYEEmhZZIvp4p0OtDDAscVMd5z65qYlIMI38puLOgqM7tWjM4GX5Qg41UU1ri3LYrew6PaLvK84GhRyph8nqcK-jFReiM91_GPFLZCZpGHMFd-gMWPKcxlNpziYckx2p1EpW1S-7IhUoqT8LBZJs5bvqf39_6jjuHmd4NUEU7_m4MxGkZqYq6E_QLG9BM_7o9P56OtCKYc4CkXrkIWRU873N8ceqVvX4LuctWkTThHRjskR3BUH5PvzEauHkmpbBez6Ho0vQcCUaayU2dmDnaruqEPQQDFyi6QPJgw2VcMEwRA",
+        "width": 4080
+      },
+      {
+        "height": 1140,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMY5DtxjHEmXZgskERfeIV8LL3JHmMb_TOJwzN2-xbEm9oGMFld6qMCl38WgBpG5XRD_8n-eSTkkmHWCaJ9GAw-3gvzkzYcQUQtPVlYZT63D6gi7zGcFW0lyIoHXwZo4YRB9-HX_s7PsqS9lnRGrMSQE2Q5Y7TIkjlRLychlz8PcmFwehzOuinvqTP0zggMC1aiUgWQA1CERBGwRSndqIbGtcBJOJIiTxLFqmagswBaflqJnnPsnt_Pza00FlmAMqEYuVwdC-icTyNT3CLB5iEWRwshzZuQziF7Pnk4Y5X9Wy0Hwfx4dfWG4QEQZhg0rXvcNtR-yMEbU_fYlTfGyDGRN38XJNyDdDXOJFcrkU7QMYAxN0xvbwXdm_v-YkcOtIsBw2dfLb1AQF1irqZ04wR-l1tSZuCE",
+        "width": 1817
+      },
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMYPofhSfTULTtsGT-XFavIi30OTGM2DsMl1S8-9sss7TVaEwSJiRVGOBOQ7usDEgUUQkCqVPoqbTU9Q3wSxr_5No0EWwe44ltgGKb8rVyX94WFtDlq0Bq9uHwUPHol0bCemeGOa5y7DwlOMfjWyQ-7nN2_Ez5AIOAXpF6-8F-MnrIfzsgw21Z_-QyqNWbzPbS-glDPxIWe-8RHwMqeYQMahCPk-uwMRZ6eRrqW8Cxg9frqc4irvZXUmhU1iZJ7nhIpYF7tHnJwn5_IRHtNSObnHrxcQnpsTqs75Z04UevdXfq36_M4wXS9wS1NFjysVYT30mI1xeSzTDG6v51Fqsv9wZmEUY5XuW-uWbkZj9sDAmlRZMHdwnOhUj6wajLmnTcsVLq4R0aukieWsUXw4b199MrR0",
+        "width": 1000
+      },
+      {
+        "height": 1140,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108998077885155779823\">Hamel</a>"
+        ],
+        "photo_reference": "Aa-ngMbMLE_-nyt-oBIuq8pjr_xfEoR_EbPxg2q26vzEIViqt3U6vjhzz0z81jxEy--FX7gujQMej3fIa8hncyhBI7YqwwWmJOsVcZ_6e78b7jo7MxWpQdJ4yovFPQa0Oxq8GTs7NjlDw3eCWKuo5FZd1JWI1JBML5GnF7Bt8UVwqbDN_z8cTZnjsz6-boGRUHpNdt0Tzxvycx4IXRM8fyGJjCQtNE2_k5BOT8cC7l7tzfdygwUAP8C1_FOJEIvlxSuz6nLWO0ZcBznpVCjJEDkocf-FM0sLtXPFG7tPuDO9yUGLEdZ4uO0szCabfo7UFrseDQipsAAyLkRnBc-zuHeWlmpp9fxnXL8aDGQbHFohtl1qJorH3WXKWdtd7LHBDTmeVhh-NdpIb2X4dW6Qav5fZJUDm8vkUTo",
+        "width": 1710
+      }
+    ],
+    "place_id": "ChIJ1yG41yWthYARFgnem1WTqmM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7181714551692200214",
+    "vicinity": "15401 Sonoma Hwy, Sonoma",
+    "website": "https://hamelfamilywines.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+  }
+}
