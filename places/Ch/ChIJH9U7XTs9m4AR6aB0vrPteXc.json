@@ -1,40 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:11Z",
+  "fetched_at": "2026-10-28T07:17:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Gypsy Chic Vintage Market",
   "place_id": "ChIJH9U7XTs9m4AR6aB0vrPteXc",
   "result": {
-    "formatted_address": "109 Flocchini Circle, Lincoln, CA",
-    "formatted_phone_number": "(916) 800-2811",
+    "address_components": [
+      {
+        "long_name": "109",
+        "short_name": "109",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Flocchini Circle",
+        "short_name": "Flocchini Cir",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Lincoln",
+        "short_name": "Downtown Lincoln",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lincoln",
+        "short_name": "Lincoln",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Placer County",
+        "short_name": "Placer County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95648",
+        "short_name": "95648",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "109 Flocchini Cir, Lincoln, CA 95648, USA",
+    "formatted_phone_number": "(279) 900-4048",
     "geometry": {
       "location": {
-        "lat": 38.8843099,
-        "lng": -121.2946186
+        "lat": 38.8843433,
+        "lng": -121.2941913
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.88566558029149,
+          "lng": -121.2927855197085
+        },
+        "southwest": {
+          "lat": 38.8829676197085,
+          "lng": -121.2954834802915
+        }
       }
     },
     "name": "Gypsy Chic Vintage Market",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 15:00",
-        "Saturday: 10:00 \u2013 15:00",
-        "Sunday: 11:00 \u2013 15:00"
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMacCnurr59wTUf0eeBjZIDd6t10yYcT2jGsnLn974Bt966Oq1f_hITaBfEvSQKNRJdDnp6jo39iOUItlpV4k_WCGvvnlIHjC5ogVTFz92iRGsfXChIrrmnA39sJ_4m0QGQnKXigJf66vNWIA8NQeDIt-NznaCWOt41mGgy2T_9gTPq9VJLxZLGSid3NPAU09y1MHTOwndhyjXOHkv6EHGFytBam0jgn84B0k5jZLCwcqiByRgplW0zvLvjlG4nARYULkiP2rEOX-kccp65ZaQieVZOh2f7MKgxDIilowX0qjIgGvtT7LE9mV6s8nlJRrBkzR6ezA3qD8jbgTrlRR9XFTlygtEnULWl8K3kDK17ybf0bT7_2njatl1rShngSIovsJhdmAsNfDrg_ljjVsHfF9JKVM6Y",
+        "width": 1620
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116635095150656586417\">Gypsy Chic Vintage Market</a>"
+        ],
+        "photo_reference": "Aa-ngMa8JpRv-jFi7P771wq-jYAORh49rczMlSnHLuxYCBhDJTppYZwB1hO7AeEFFE-XNJGWIEQ6gPebhVSBuFyELd9PfS1tkMYulehDtRCDqzgupsg_2yvutmXWEdIwifI-UJxt2VVE6BI-D_79dVY9FJr9KqIBjhhY4_3kaYsHAQ8X4TAQKEUYguMcj_nXSj7OPlXux-DY0jloUfPPFuatH1yXf_owuZFTbufWuloMKtXzhSqkhm7bxesN0iQBT1wVSsJlpanUIyLhEx505HtVFT1C0leohQxQGneQlCFxebrFGMngGBqxciO8AxaS2KoqoqUhAp1CmQruAupZlA_TC4IqHzqe_V27y3PVcEhYX24aLYw2incunZKdtQc56gEwCEkYoVBuSzMN7cM195f7TuvzmIA",
+        "width": 4032
+      },
+      {
+        "height": 719,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMbHJMQ5b5hk2uuB89BYqohh8ZLp0YLuo_Mgc9Z492GskXiCHgEeMm4mlK56N2Aw3nWWo3YKNyifOt42gxubLMRvDAdJeSgL_MwUhml9jp8P1h_erD1paauGyZlPq7dzb9lzql5_wmS9NwDDv2yqEJhHqjuKrOTVYcKqY-ca1QIdSCXXYtlzBTEgSQTCT8ThNo3yr8Br-vwtnX5s5ckP0ArwpWJ0jHOeymOCEIqNae_eGre9C9AudcQ9dQJUHYD8tOMDlHcUDuG8CqpY7VcYAu6h0V46BvvABmkG58Yp1D_hMyOFby_B0B2hqddjmKKu9f_1MJTbUhbkbbDvX9LaUN2rOAjmTLPEIdNaE6qxJ40L8Ir0A7YCgJmJMYdugXtdLYOEHFwnEK3K3BrlEhwg256Onhg",
+        "width": 1280
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107259114707884203189\">Diane J</a>"
+        ],
+        "photo_reference": "Aa-ngMYcGHDN2gDPR-nz5ZYETNHjiZDVsEkjHb7Zuo5-bDWChyQl1s3NHney-_OFlZpewm_r10U0mmrYYT-2ya-v0AaUdTQhiHZzsPYcnUYMVu746psTwG4z1xLQ2DSEWs4XVdUUxrcVcVmyRjCdDl16_YyRf-RhYjzGk7-FY0XNdNjjqLcikxiBuPIoYRwSRyspGs_LjzbPT4aAkCW_B4bcidv-GB1gVasO7HAP_Q7pxQ0A0FuOMJ-SBFgh1GYAxCDuHhbZPFhGyRBeoJ03qU873bFFYNtAk55Oa0wUzFfoIQMcNLXkZw2R7Vmn8TW2523jaLQxJX_oET7N0jAsb9u3jWDcABDe5XVGA2syQoxaVkZL-AmK7DEv_Xagyux3xGVP8LiUx6KAWgH_a93AF6RdKQQFgqQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110413787657583069132\">Stephanie Cohen</a>"
+        ],
+        "photo_reference": "Aa-ngMZIzyz4_Tztt8PaYgR416I9ODea6YY6RGfpIR1ZS5PngN1GHRqXrQ8xkByj_GKiI-AzDF5kdPtcfngbhsuZc7KZwNpMq0zDEaQPx-NdzZukjqPSMaS05VUqpj-TuKHbbQ1AMr-8uZrauzcbnRuKLKt60CHzypqAJF9EDuLGJN-Li0pjWXNiWLUALaiJBJ2MVh4nul8vyQAoO68tTHjGG7eMuiPLFW0bfqfG1zHutZ_2z-LkUN8X1Sk1KOmVf84JljmR327XH4XiurM90MEkGX4IW4GEajB6CkZvCuKdeBoKKlhakhJaJrlDri5emaJU67AlC0q_Mjq_7A8cZUXfFqLz8iWJY0ad6-YD5FGuL1pO4yIRGWGvF3XN4oL6uZ0sveLrG4sd0qe1MmWfen8vlJvHi7I",
+        "width": 1960
+      },
+      {
+        "height": 719,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMZu7A0d7fHmWc1e45Sfaiv9N2NLTEyDCmKFSy7rgShrmB-J3iJSbkUQbuCDTSZcTWVNn5VNBE1CZnQjS8ZlarrMpbuwmERzx8tlak1ztGLkRZuIdqkVMDYEpvUMjQlnCQvQQ-mJXsHMiK0ZcY-T8hGyiC5GPqwg8YD-MTXpQ_UqDTjmzwAD2O843cS5HRctv8aFeJ-wkJjrvUGwZdesAd3ga1tQprLWmA2nfNMzKZxfKWVEKVarc-_2MqmG5xt6BZ38Z9k3inRqxdYw_9stmzMCeVH8562p571n6qNVsPe-FRnza1iS9R9UbLrOjaa2CoAFR1eDn3hk-aoNO-TsoIDAGFSJuGCCNXpvjVDAd5J2FO1hYc18d7DD3jgc9gikH7JxI_ro6IYINRUFPab9uqVlnPbE6jg",
+        "width": 1280
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116635095150656586417\">Gypsy Chic Vintage Market</a>"
+        ],
+        "photo_reference": "Aa-ngMYIvRbfcECFdrEh6NHVE7AD_4AG2f5Qbs_7m80OrS_oSK6RGWcm4PNJs4kxP5TJ6-lgOuhisALQmAfot842kCjK_rk2mbvkvYitn-FnSZ14tDwwTYxtT_YzkJlLGYi2anyED50V4elzoqWX0S0hIhTY66jNzL4LXLzxS0HmOwf2Rxo3_Ia2LeZNn06upb5EhRty_UK8aRSe_hDpFKjMkUmvB3pQgsTU5WpvB96hdJLw1-t6q6iOEPHLD140g1l8zdO_6sA1LA2mcT2jaUvFitt6i2N512CjRjwe1LeJqs3-plj2bydBOQ1tE5XkhaRjBd0xDdFMeocuJbRCleFjuBAJ7Qjh-53janCu0zSCrt_1J370p3T6EChoZuB7x9GAEMRg6oHNeuIK8XayqHRtkGoJ_0sdfe8",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103593656901467579242\">Susan Shockley</a>"
+        ],
+        "photo_reference": "Aa-ngMYx5T0ArR5uiYEYqmMeZzME0hwITny5BYQfYS5eoamQq-2Ryz4SUypBQwvg8dcwjL3X4JOuxvvnwlrI2NQt_vNsQK0joWTxlMZ0ICB263jLjuRJ5vunuku2mgCwYa6ZrLw6mjVkMb-9xkEH0HRAGBcRp_6yFkTsb4CZO_Qugk9akbTB6kV73fthSrX4OKleqe3I1JpcAU5dM1rXwQkz7zvpmfZgn6QYLLHYALnZkXneIy9FAvvTnuU-Tp_OEggl3PPGjbSNc7EIexBHf7MEU7L9XXBSRbwUNmlmlMA2NCn5mZ_I1xXj4o5xNcuto85NjlXhFab2Cvdh-ag_uto7rsT180UGF2douZUOJ5OzuHuAMouz78v-Gbbyeba460fLtN1ptau1lgmWtX3lWyV3EMmjuOA",
+        "width": 3024
+      },
+      {
+        "height": 719,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116628017237318634822\">Joseph Nguyen, G Tour Photos</a>"
+        ],
+        "photo_reference": "Aa-ngMaXEQqGWokx2qZN3NNFze5RTCdrfM8SIX9YioEuoazjiSQGsJHRwj-G4_gSBmDtHkqPXKrEFhKsNqZKkOwyR87zooW-Y9TfnS2FRER_tCrgm0qc8uX0xOIJ5u-71pu8nqAp7PuxY4r_yr2ORnNZtDHsqI7BkCbvHrMnXo5WPjUDpdr1lFsWiNWfK8hmYN1aoUmoNDgNS7yC9EtK6Y9Z7WNSurihGEcgz7CnEBFYiru4b5cgLwQ21Ur1Ozy3dFzwponKHSnN2VcbtSO1cfqXBX4EVoFX_GaiKNyHPdgQ20ZQHQfk3mzzLLj6kpP87soSX3pDwl8U6eJWmeVQPCczJL5Pv6DAtR1cJYGJm9urGLcHpUtRXwgDYJ1zKIpKn8PBym9dppKBqWzOEzn4OJfZyedL088",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118248080494043873096\">David</a>"
+        ],
+        "photo_reference": "Aa-ngMa37ZbDzPG_Tpru7H2-hHMMR8dlz9-uHYpdC5I79J-g--oFyLsHBvBS_nhDE0vYtyTaf-nnss2HJ2BWQYVBShor6bMSZsa3Zuvzmq_rQP_ki7qwQwnUfIvtWDbWURAc5hJteltF_zd7rC8OsyAFp9_1YweAgOPDATxFANdw7zNhXGUF2BgRrepJEyesg45CK482qQVIBNIrHNr0iYOqOmH1e5J48pP2GUq5FDILSHvIzpWOi-W34agtbZRq9ZPDiu3xspKDCL09pdgLVKhF28j15jCUkgo6jIsXxf1HT4b0Au4tk50Z_pw-vFADrX4IMTxbkmR_65WAaq3rSNF2irku6XK3oBxA1wVBMfoSAljSRudURGY0BMrEuwEt7DXAd8CwTMy2Z215s2-mR5tftrDxvEmjr1s",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJH9U7XTs9m4AR6aB0vrPteXc",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8609173518945657065",
+    "vicinity": "109 Flocchini Cir, Lincoln",
     "website": "https://gypsyvintagemarket.com/"
   }
 }
