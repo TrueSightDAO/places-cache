@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:28Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ashes & Diamonds Winery",
+  "place_id": "ChIJEzT0PcUAhYARmBnUXa8OU44",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4130",
+        "short_name": "4130",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Howard Lane",
+        "short_name": "Howard Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1324",
+        "short_name": "1324",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4130 Howard Ln, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 666-4777",
+    "geometry": {
+      "location": {
+        "lat": 38.3449353,
+        "lng": -122.3243908
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3462266302915,
+          "lng": -122.3231301697085
+        },
+        "southwest": {
+          "lat": 38.3435286697085,
+          "lng": -122.3258281302915
+        }
+      }
+    },
+    "name": "Ashes & Diamonds Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1830"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109408504317976790706\">Ashes &amp; Diamonds Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMajBoYGcautHV71XmM4T_qg8Pcr1PvJq0j4K85E2HHrnPU5s7bAeqUuxgjOBwMGv9X7XWIOL-5K_15CIn2SH5Cs0gBPW-LBANwKAPln8898olmEludvRagrfIOWM-zPf5rtRVayNEBEe5BqSxif2DPRmJvYQcpud0j0ujMpFMvJsV4iLk5YHfttAaz3qR3rkjEB_ghUFHh13MPmhFu0CbdtlW5ydqaoWnFKi0KroV_vF0f4El07iB1YCOQVrpbHZvZ5njPQ2BVTrr9L21ZfxPaQ40fuTRsAG1-u5LTsDyHcLbf25XALVebz6GZ0dqvZ-nsxm27dj3ASweL0F7uWWwE-nQ2dTVSqcUF73_5trs8EU8LajGITm4PN08UrajYwoTlzf4F_c5Nrh4lg40EYuJvyX_0",
+        "width": 2048
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMZaoYOkH-TPKkhGt-bld7yC6bsAWQqkGWY2Vdlxy1pztYuxdrMFohiCTlrNt0Xt0-KazinkYEWUJGYvaL6RWjMy_RCCto6dSguJPiKtfb4AhigLHwafMFt0UvGCujOXjNLUOLE4BD_08KrhmD6FXU5xuts9DuL3sKcbWtLKBHyROsk8dtgvzMKvoIE9JehvZ5EWqDTiiMbCpzt3Cn_bYGmw3Zmq9rRYGsNQB8FzloI2GDBqZflQwTUTjgx-pkzCnAOezplytc8Gs-MZV3rWCEry834Mp2bghXoRalDzzojA6DsneUy6_SzAufPR2ScnAqpNutyoAwkzfJtGBxGE9mjMiU8UABms7pKFGuz_FX01nykzr45nHyOCCPuf0-jOXQWPNY_GvVGAJLndL4clLPLABuk",
+        "width": 1534
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109408504317976790706\">Ashes &amp; Diamonds Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaEJax62KhuOlFppEB1jBlVMS1h1NV6TSC0m0koP_dx3akW6rJccqaaocWRQEJb09wh7aUlNpAal4DZn1nfGupBaBa451-vv_lUAN4-IoUOmvr9OScoVXnqEwgMES78_U1am0MJ8GxOl9X8swKaCyVmzthtYdxRuJr7w8JVZSfNzSDSWZYMetVunAsZy1iezEvzaMnI4R7v2sy0jB5YhR6XBRTtsf1sb02BmgJjF5nsF1jpZweIAgTzT2JGTukKHBBE_ieup02Qnp8XV__vUDHyZR4ntyeV52VPX2_PPlCuTNjiXpsC-6usIY09N4uFKziXPVCAe33jkKfRsWCia3RHDKHnTa4VE0j083FkFxPKsQHTCs-tAMrdPO7X7JLlWf_-K-1bghUniYzuVIXHSnoK1UFWMoI",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116445947055677778202\">Bennie Lau</a>"
+        ],
+        "photo_reference": "Aa-ngMZ5bqq5CJTKC6QwRBZLCNZtlPm5MgHm20ojECDAc3W_p-m-iUyUmIp8Ddbhx-ZJd80-vma8dvfov_RZk9o8xn4bCCwAy4XV3rZ3no3-gW-IRzr1sWWA5ci0kKc7pp7xEGwLTczt0yQpmVjqayrJf3GXBYM6Z4080WTOZEJme3xVS9lFxcSBdDPTBHRnIn_QkOhvhCtGeEdDXn5qfxwb-1MRlhU5rJFjMJ_uv9qyTBKVPOdTU3HuyzJtvRQvwnXkdyoij38KxNPw9p5aLnUzJdR8BF20nfMWxMIdGJcLHCXNKpTqBnlkmsIH8E2xW7571ikrvndeNDnZ-mzVwMxA2DrXfgKlhHhMcM_W1B5QzjUcDRGBDIIJsjVvYHhkjdLi94Khox-yBO8gAID6L_Tc7uSOybG1",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109408504317976790706\">Ashes &amp; Diamonds Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZRGAC4wuW6Uuz_1NtsU1wPp7TWGYt2sNy8ObQdJqqokzLJLpvNzF8Vq4_Az7DuAOAHf8tZDZzj2Fl9_VKvFX4rXnPaePg9EeaTgyGD-WJDnr4Fxt_FI9m1C4nn8RnbBxY6zNZzYBERBuQy7RVF_-RZiiJSPnzOsu5wiuRD9vBRhqpHoayBYLx8gvAr_vvwwzoH_IX_k_JwL6ycGwSfG2jflNgzvnSirDUSBBA9UNZLbI2l0RiBUgQW99W2RZJdmGiH-pqVX9bpCRp-qeahVCxQTRBCvY-8HRKXrqsoJGYp9WZEngvab3Tot_9qbl9d2lUlbVTlzp6ixmsj7Oejgfh5bIY8kG2OsgL8tM0CWuMwsQnNFd0xf6V9gGfyKDk7m8BfpJ_dDtlXMGFHLH_TpZH--X6l24UZ249RXQjwtTiCMw",
+        "width": 3840
+      },
+      {
+        "height": 1081,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115335227840063428129\">iBen Consulting</a>"
+        ],
+        "photo_reference": "Aa-ngMZx6F6hVNAF5ykbS1xl99UmNKlQxcgFTrdZhHE5fAiU68rPDLa5gYedaYSSZMtWiGFuyg8FMfRVzoFKfUwPgtAfJ_DoYDfx6AH_cSfYIiFJ5vwsLsu6IINtCL6_HN96c6I5a8_gr6cEvmYw6Z0gVJpPun6hKo6u9CwbRcNYuZIrbZMV_LKHju2E8NgsA__oDxCvPtuj9O_BNd0zFtt0vWjrxK-z6ugjl1403Xd7EFkwdrp-l7Q7Fpf8KIkPj-tFVG7IdYFl1w1gxo71u41BKmPZv5QGEytWJHT67MEnz-FSuVqvaBq-nJ5gCVLLievm9Z9VIaNytGn5rfmJWKH_57Q5goyAhmOW26KTppl9k4TNEkDmBDwzk8y1V5uKJ7szwfk6nYW_yJtbTMZxaE3G86FywzL_5Ug",
+        "width": 1440
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103591353595689799675\">Manuel Rosas (El Profe)</a>"
+        ],
+        "photo_reference": "Aa-ngMbC5aj87ABmo_C7DoEG9d_hm6jL8sTnVfkaKXaODShpuTWUVprSnq9f7kAyguK3RbBEjSuHZ_e7QqD2yQYvY0cnunfOMEnP_jwFsGT4ouGSjguu9MKNTnPQ34aokBa786dZy_rMxIDXcy3IdknDTpTfr-gsJupi_mqrPKi3LmqajMnH9krRz8B5hgsD5cnP9ytTkNGTFl5DLo39SDYdqL-9tPX5c5E3aOVSZHfZZ3G_FW0JeZFW_H75eqS8yum1uk96Cyj_x1cjFe63ca_ezcn787RLt1LkLHPaKOBmO8XHx0DstF5qXzxfUQ_aKAQ010JV2SP_CAhednG00nhbjqXwo67jXXFo5YByLnmYVJFvG3KQrXvYMmXAoujNjOCJhTBoPCEMOSem1X5uFac1Veny8Mw",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112406192683964419604\">Jay Ratkowski</a>"
+        ],
+        "photo_reference": "Aa-ngMYw60pSAuEG-Nq6w1SUOrWmCDrDb3P-8NwPDKn6CFHScAc7mFsLjJ60IsNwmqw2bL2C7BXjFn4UGZovMUiQL-_MD6Ia13A_qLN0WT0aNBZxXZhWFuLxlmrqKUViOBzU4dMu9BiHqWYpcjvBXBh-Vs5UT0nTkXY_JuCNuY9zMpo2hfOO7rsSzCev9V0Rx55PqBqbffvesX8Ao6Eazte1BGwbRO1VosqW3hOn_ed4RYyPPvjFGRnZaXMP8muhGFoKwRxHmwmf0f3bnTYosbVNSW6tSqyq7_DKGPAlZb7LQUBipSkSF98zqC4kT_KbuGx6amuWdMYdx4-BLuQMdHk0N2m7B66wAymQfZHa6_Wj0Vr3zNg4LA1snviE_Pe9MrSw6IcRpAI7yVQ7i1heDQ_EITNh5KXANArGABzrc4dtlb7E",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115352933766718997216\">Cristen Smith</a>"
+        ],
+        "photo_reference": "Aa-ngMY4EEAxtGdpG2ElutBBIdG1bk6R_gVETXackKvhyAoF71l7j6rwq1rrrBwCP-uBYB-9qpa7hyeJgFuvZBrMbPRQqOOPWlmEBwZ-3n9RoIiPyBo0LZSV06yTjB40BNM4RTSbkNXVobrEfuosBIBrk67QJLOogcq6owyQ8fa-XFkMEK7Axuy5M7uNPy6K4kD3tdyNiMDQeGunrdbYgAlqKYrVxqQyoEMYUZdi0CuArSM4wDHEnMQWge0LO-eMUqHphfI7FprXuA_sLT4UpIjlVf9r48ry_Nx7wH2NhADKpTEFcSXEq5Zkv1QKClOHQS6IqGkRlh9Z0UDk4Zxcc0wPWWYJ9L9XD0x4A3M9tuPAmPzEVUpnUv-IuUHrobIKS5VMxCZfqPrjhEkxIyfRaWjycKZ5MhjM",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100920993832918885634\">Neeranjan Deone</a>"
+        ],
+        "photo_reference": "Aa-ngMaH7qiXfvKrWaKI7ijlBd2xnjcSL4SBxLlOxG-LlpM8J0-jtUn__DZfHDBf-NlJLHuP3HpDidxIlh85Z7zpF66NTyn6iukAYZYIhd5cvZBayVz5VN0lJZ-AwuJUkMAgfmd_7hYgNelLR0TCNZQJ5NgixYnuduvKK3cja0RDIW47Yulq_KtOWmzhr3mtcv7avrdXR2CGptmXu6T5OabShgOkLUH_qN0IfUZ3gadMPq4bg-DwN415xaod2iR4AWKTiQPvtFDRKhlEjUp5sao13qgATxOP4cEHbBoWQrPl4hryYizClh8fGYZGBdbXRlxdJFA6BD3GmjnsLsNpUddf0CLaekjEXjtsguBBQ4YAx1FKCeiwqx3ppf8eRSOnnIjnWSHS8-bQC1enT4UyjfvCPRHg7U4tRJ0",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJEzT0PcUAhYARmBnUXa8OU44",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10255556922808998296",
+    "vicinity": "4130 Howard Ln, Napa",
+    "website": "http://ashesdiamonds.com/"
+  }
+}
