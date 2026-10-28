@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:48:35Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Jordan Vineyard & Winery",
+  "place_id": "ChIJcf00hgYRhIARZfDX1GG9o-A",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1474",
+        "short_name": "1474",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Alexander Valley Road",
+        "short_name": "Alexander Valley Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9003",
+        "short_name": "9003",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1474 Alexander Valley Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-5250",
+    "geometry": {
+      "location": {
+        "lat": 38.656218,
+        "lng": -122.8437964
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.65772683029149,
+          "lng": -122.8427000197085
+        },
+        "southwest": {
+          "lat": 38.6550288697085,
+          "lng": -122.8453979802915
+        }
+      }
+    },
+    "name": "Jordan Vineyard & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 8:30\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaufgyBl8MdN9jOFhpndnp7w1fYJjC-hTiDhdxEQ5_UOnlascLRyb2mhQx_e7KR54P3wG80yzgVnk9nAPqZPOXovWMg2AWDfGdUFz5P7Iw8sYvCSPjTu7A7DzbOIv-JGJeQ9-3O7FAOPbB1pKt0XmztxA_KtIcPNCkNm_kHV1Ois0jMFsxQEFRlfkAIadt7B8cbqlLIRAKfJBDJqq4UgrmUXaiwfXlqOOdyzQK1S5kXuU0B4-GS9HnAbZBC6DshpauGX2lH84RNfT5kMTZA9WdxbvlCuCe5yo5fe-uOlLJOxbeuAWNjlnZryCjkIJmIoPHfu-aKurB07hHPYFm_4eZTNDS97udZcmG2E37P25TRPtMu0O0HZIRb6RJcIroqpSbiu9x7B3gowHBsVmzNrX2ppg",
+        "width": 1200
+      },
+      {
+        "height": 3533,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115368536315659990276\">Mary M</a>"
+        ],
+        "photo_reference": "Aa-ngMbDudUeIy8c-erGLACF-v9qVK4nW0i7stlY-wj8OrYtNHj-9jRd43cJXmHYJhvLrNLfvVQQ3ObvLnAIcrKZ1Ue4StPvPaJyddO0BkLNOzQ1lp7U3eaJY8CeQhH4kuWofEGCfSRsR9Gkn-PRl9XGpbjktyHD8mqluIk1va25RNBHgyKrkue3vSTGJsoy2E1kWtR8rGqQqeqScTXi1CNr0kxMngy8XLYXfMo8rK_tzY1b77f1MKjJXBzYq8igfMB7ps-nykKoduGz_2jzaMnwISlGR6QudPTDlGSaA_3K8GDAAsZoWqmbihrlExuJrqTLpdGPCCETuLydK618L6IGymP_uFwkDKwxfRmZCi7TSXnwIihl74muiRch_Zhl-JmuKuZe99Rs0nPnafxhzLzDwXdmk8M",
+        "width": 2777
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108436129475244899601\">Nancy Hayssen</a>"
+        ],
+        "photo_reference": "Aa-ngMZvxkN1EFAd1ozYh4jcZ6mIGY7tKYc1v81UV9CnL2UwpzSJT6M61z4_362UXqGTyEQcSXecv1jzfiUF-H5RuEGNXUo-DhTBie6sjC_bRjrl2rEZeEl_b20nquUfr9B02fzEHnUM-iXa182vcDU7fNTC6C8FS1lytM6Jcmkn2nLfK0uZ4HRR7RSxe9r0r7M7W0G3o8eDfiZCiX2kUN1SaQXcGCLmjwLpysCuvFNJDl8SUB7qpgP-xJm9uUY1HkVVa06jfZEnbAZ82ehuDd2wwGPi9U9eUwyZlOHxgvEmSvrlbzj0OK163eLyPth7e6Hjt-KMJQWTbh5he24bEbNTcelSA9MWKSgM9QV0-4SbvPIg2xRk4YSwQymQXxcsNnxVXx-cjkMjkwJ9CnSjRIvvnCVozJk5_Omr3wjCmEdrFYoRFg",
+        "width": 2427
+      },
+      {
+        "height": 980,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbznPjZGYfLunah83l49FluPaijTwHUdynGcMHM5DiHIJ5xyf4S4FP71m4pK_IGFq2czo2GCLN5fPStZD6GWzUSc73wp08UydgarB_irIEv35Zl7xzU_PvYr6GxsLC_ISEbsHrlWDeSidv_Zd89U3gKEU85rlQXhVEDqjqT7XM6JU7SCJKNpjXLoN1xc3ZXuSwyMiRfQ5e9O-a6XJc8iZWAdgpZ0NKIueVZT4fBlx5S0Qvu34mdkSkUaaMgBJAXgTT7bHbe9wHoGIyS1fHB6d2-gO35zBYOaFytAWJIlO8eT3F23_vrUz9jPyoU9fTd-uKGxodbNebHG894gO5M5cMmqXQ8XTZhZ706o3FI1y-rxtvhNhi4kE-XCDfaR-wQ3fupGzi-acTQ-YM1ffUbSbZmSxg",
+        "width": 1650
+      },
+      {
+        "height": 980,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZYz8TYOGLCeQQMirTm5EYnCjHzsfw7znF0aYMEiVw92HZ82CC2jyKSrNsxazC8iWUCgBVKNf3eQmb7nZ9Uhlay78VAj-QBWRKXGoIYSDIgyzKHFC8_0lt2un3CZVWwYVePDNTz-2NxjLeIDzMnjay_QNwAQ-zF98EEFRFazF5G2pHqDWzDddcNsV9V6-edzn9v7H0Ai0PSFlo3kgKX_8T95TNZ8EyQiF2jm6A-DMjzTNMtdXi90mAaiyYxlDs-iLCyqy2bg1kdBP6EA7dvPWN3V2EZKO6knMosxTFNm0IhSMQ9Z5GDsvkdW7j5uy9EzAFINg2dmo_QSt5JGQKkW5-SxIMyZRfSGp3EzXmbJcTtHCGygJkYi59k7AwSJ89915pVr1OrLe0m55BIdF-3PiXNxPh8",
+        "width": 1650
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105500000196248573194\">Madeline Harris</a>"
+        ],
+        "photo_reference": "Aa-ngMYuCMLo_pU-UdcUWoc9LyInyKUVf-sd2gSLTsR7bNIHyjZGtdoLqCmfHue9xWrhBuuurg6ewz_JR4TQBmjRfCtDL6DFmt9BRNc18_Iyigv3PHtqYsMEXpcq5lEMwxaQJgFw5p7AnNz6MRf44WWBsznpbDfjh2IiRlCtYLZgTL3hZRGGaje6FqFy62YCdH6lWIdWonjdspMEfK7KvlWoMkXvU-f2aG0OviPiJQNVMXhdAyDKazGtAuOt39o0iC6FPMdI3vH_X4kCyYagIApokM8mbdXWgjm6VIQA1lcmI7bZsvTJGQmiXQiMeEijU6h5uLxqG4DaGGnOdGBiMXIPV-51274Yc9z0gXbqdJeTZjwKKjI1AQ37UZpO3d116rlcBCBV_iWaEad8hnVRUz4qdQLUFYcAfk-5zzMnkMd_Kf6vNw",
+        "width": 3000
+      },
+      {
+        "height": 980,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZu-N6J0D-iMwctRmUZLVOyDmqiZVJdEiP9n8B05CTiF9LDcyuSMuxUpq6ikLh50Ho0xmiyJJJ92PzAXlNAkaIFYjXVkrwjhMxrenr9KWYfeWt-03n1GBDWg5C4D9nxzj2j_PMmkVWc8NLSqYn5gCNd15Hjhf9xD7dgu3CptDA885S-M_oXic8ft3-lsEzjguXNc7f2f0wzxUMR-iebn7GykEcxzx8nxbjO6PdX-KoIWKueIzZuZu6e2RuqMetkJNMLb0HAwoWk0qHwoUP_OdvzWdcJRctt61Ew1OMcJiKdxyqt333DBSVR4dMw0aaYsEE8M4zHbSENpAMRkrcgAno4i-KEJCsBTg1ZA0ZXR35rc3B_u0LHh5FvESBwVOhg59e9gAhZCySp3JXh23DiOrVn7Gk",
+        "width": 1471
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb2HoaH-F9GTOoZFrpURl72ftkERbaJzD-XBi5QzIG0eCvDjpRpYJ_Mz5vez7lW1MlVUaxxZeqsJ8WLVGv4IFbJ0RTj6VYDy6j_6HHisZb-crGG5vPPioPMoNtkIopLuXFd-YaeyzYzkX4wyqPeW515jpW_vraAuPeo-ISUObJlDY92Fj7lx-RCvOBvf1SVOpK26WfXjJ1cl-tiVlKgwv2_1M2yQ44n67QYoE24yZGQx2Xw-IQfSCcl4lPXgHChfzt_NJMuWwvqNYWzTjCFkKd_GyxF4jOH0rmgygEcGq6xzPSLl4ssIXpYfBXMAiaNs8slA5h1ji0hFNCjrD9NT12zk5tJ7TYAlXwijPCmtG9teyOc8REXJqlonhUGxN43nmda86uB0ub6pQjV_5qZvK6A5zRhC7w",
+        "width": 1200
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMalFXr89vq7gNkYd5wqMy1Uj_ctV4VC1knZNHfgLf72qLK8W45Xxqb9uS2Q-frACxTqa9mh8N0QYkFx14by4TN9jUMPnLXuiM71zWptOU5kTJ_8_x_bhaoT8Pl9D61-Mfbn4Hxa_2rFGGHkefeIc9r0Q9qfYMxYlxik9FZCbke-Of4gyyc0jNCXT05JaR_PeA_lKTfvFpC5qXzwzDPA-ZRtMFof440oqPWf9JRkDJkz9GPdlWA6cN3mAOGCRYVwAllJTIHzJOJ1I9CY6ISG0mWtsMWQar6uGgJRjf7hqdGIOuqUz0Twt9D8-s1F4tm-TvTP0gT3EAm04iWB8beN1DVHqTYIjJQTvFjQpScIsjmhzhaiVJt8DJPUSxE7crSjphgLVHfjBvPrNdtfjKOBmZT1PsY",
+        "width": 1200
+      },
+      {
+        "height": 980,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102606208600083716678\">Jordan Vineyard &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZH3Rxi1oBd5bNDUUITFYan9wHmLwx2PkjMCg00RiuWWfISRg0c_QRAe_Hm_WWyHmfapZBMIocHG98DkT5sX4KQ9tMTtPEQ9ilSxKOmtlMKrK_rnPMOhsMFCBBCx0zV_RrVeiruM9GQyO_H7Y-y5x2lOv59s58WNcP3psio38GN3-EejStOe8SIcBCEcOw0p1wqnAh3OysaQtdZ3XM296UZUNb75-jacNG8apoW1KAHq0gVAQ_jxK1mhWWJ6wdTqSDCpbk73G19xvgWv9ClN6q4rv5aY-qec4_HtUenBkdGZ7kT_GM2R61uS8B1shjPmB2s_dxJhNodeKoTfxUBUmdFSxC_vxpvnFRcJCNPVAbScuC18vSAxwQsxIS_AY4nx_Z1OL67H0fwWlws7vWwMXaqMi8",
+        "width": 1650
+      }
+    ],
+    "place_id": "ChIJcf00hgYRhIARZfDX1GG9o-A",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16186989713580093541",
+    "vicinity": "1474 Alexander Valley Rd, Healdsburg",
+    "website": "http://www.jordanwinery.com/"
+  }
+}
