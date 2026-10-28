@@ -1,0 +1,259 @@
+{
+  "fetched_at": "2026-10-28T06:44:45Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sunrise Ranch Winery",
+  "place_id": "ChIJ88W5Vi0PhYAR1z4VdoCFDJg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Kirkland Ranch Road",
+        "short_name": "Kirkland Ranch Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "American Canyon",
+        "short_name": "Amer Cyn",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94503",
+        "short_name": "94503",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9697",
+        "short_name": "9697",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Kirkland Ranch Rd, American Canyon, CA 94503, USA",
+    "formatted_phone_number": "(707) 339-6366",
+    "geometry": {
+      "location": {
+        "lat": 38.22036689999999,
+        "lng": -122.2288018
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2215290302915,
+          "lng": -122.2275590697085
+        },
+        "southwest": {
+          "lat": 38.2188310697085,
+          "lng": -122.2302570302915
+        }
+      }
+    },
+    "name": "Sunrise Ranch Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1686,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZXiUckIZMeW4lxnGQ-FLhuouwMJOxgGVvy4MplTCtYBGN7C4966tONWUY9qIHLtM70G7TrL0kQUDHTRWrOaR5QadhC3XVjHfsM7hQ9RVWp85sUdenLLbwe-wR8GshMDxHWyFjxNw7ZPXonid2nWlCoC1omdUBHQJYXB8uH2QY-NIR0kd-FEuBS0Yl3c9-G40Z7iSiMXBM4fcQ97omfy8BHoY_61iW5vBTvCFFieqCunhXMR9qmqQazGwI393gbhv2p2hrNosuZTd4J-QiMNgZB_bNIttIkQN4QanBZVrpGyoLKwB1zWx-MsAF4nMmOpNXJFRbz-SZ9npKf_tTiCywvOIgvn5dM5bawhoxUQ-ZVGluLz5QogLhmel-esnNjEsiq_jl44CdrGZoqPHK_A-WOWZc",
+        "width": 3000
+      },
+      {
+        "height": 2004,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYWXjImkOHRzPi397xA5tavDHR74aNzPRZpnTmyQkU_TFE_78sNVXKI5s2CNSvU-GQIFo492wj3HhCBAk98LL7Y792zJTnk7dv3hTfeJkQbq7-5KlIHOB44GHBaTdOLm9DogwvprWt_8j09NHo6SO3756oyJ0gJpioxRUkEUEKd0dUUvTW32_ljRDFq0PNOE22YsEbfXB35-ZAnhel0y1n1xHWPI3-_0-Iz53gbU0LK9c2ecE7c2uuX-VI48peG8FIDZriT5uPy5iaexW6NhDRiZyPpx8S94ufiduKYF-WSy5OxJq7GkkFHofT5DEKpsNCXSIorZ1ak8_scKi7AZqtLcoJKmApPKKs86roTFwnPf9EK-wQ82e26_sJzRIR0HbElcDD_nxBNptduTzZGQWz-6ZJnBKY",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101794808830650831001\">Jeff Hughes</a>"
+        ],
+        "photo_reference": "Aa-ngMZqm5pa2a0lVQOFQG6qMSp4VMh23eNlj1uqDTDZsxoAR4MJI932pkIhObahlEsnLX2D40tWgk9wia4c1aA9w1IFeHDWpuTseM6itmcwBX5_KZ7yr0QiNZZsVjznPiVXfw_PlgEpEP-MZKO3pJhs4dOn7lucdkKcsOGx9ss7jSdNgW_NMDgjtMs3DiXnVaEU-MPm1SImJ-YT0e0K9l_sj0T1qeWwcrknQZ4lDy1kJ6tlV0vzDZgMSHfdn_alR2aNRjeFeGLD1_qvqcs7MYdXlmosMoJ0zDlQDRzl_kSeZZakHVqBuXa7eqSDgOjgZoabhd7yf9yCFPk5wg4uWs2h_mqxly8Kp3VOHnHF8oUcHPMqED7DpjMXo_pqYc-oVxnBTAh7HBFE0i1ng7ugb26kgE2wvhhXuJA",
+        "width": 4032
+      },
+      {
+        "height": 2002,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZjK1zLcgrF74rvCYZ07x3_zlytxQoEbG-qxpnOt9gelq_X4crwmwEE5vlbZkZpCtRIFJuhgCFFyjGV-YdpyRPwjI1c1wnnZRRjUwtqq9xrW1c0NHTBSBwFhL2H1WcCPR9ndyqyb699fT4_wHZWDOguMtN2l7VYrnZec5CTt_Ktt4V1qic_2BtyE155i5PNWkwXrWnC0xz47tEtQxm1s8HSQmC0jyEkFSI6gVxvoj1xKuK73tMP1RcRM0ErPzq9Y6eP-LV0L5zpci7VDfYnJwHNB14gkFlMfeBi2-TsFV5veHrvQbAKwILwuqA481MWZsapjgYZQVXytXayKF_mdiCB0xch7wP_gCq7sfKueVjyNHHw_HzC0-BwKfDS_VUGEOylZevylWEXloNSJGBa48tyQgcTceY",
+        "width": 2999
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116086207639437558016\">James Patterson</a>"
+        ],
+        "photo_reference": "Aa-ngMa8R7WPaFPPcWh5heoHTzH8CS-D8QJ_SaW8gDwfesUJpF0ZsbZXXzegsEZeb8zpNUPVFSIFtzeQlK-S47bbPeXPy8yvC4NeLFKbjXgFvdpJtNHOkPLap6JpD0_g_sIi2F07Gg2chpR5XY-O7ywaEqcMQBPM9N8fhz4786igV386AdpFOTl15QrupVaK7RQbYEfiqtlT__frastMe7hTutZmloVxYiVayXHgWv4uWXPO5EDenA2SMiWSMdAOs8YUc6qn_gHwTypW3497d7-vXOzogs0zCuFe88BayClpeXmVQNe1LRrHXW0RVApAAHq8LsF-ZJZRWH6Tc3zLqF2UY9ioaleQNwP1Thr662VGpZTxgQZcEVvKxWS-5NNla6DEQDMsvI57fgleUYveVkOhiIpahcCw",
+        "width": 4000
+      },
+      {
+        "height": 2004,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYtQ_RX21Mnem1K3H9BflpyZss82_2PETqKZ54LKEnetoYTxi04rEr-MRxGA6pugE-VTW32MUyKeecRjC-qbP2RRvprviZc5hpmuk6GiNueoJcA3y2KfevK27tDZ2jDceaY_iIIkvB3vvKloJwhPrrRWXAKMb4UXa6Z1pir_qjn64-jmyeQD7TqhZ989Ff0k7lkP95mHyuUO75XuqAjYoQKdU1pa2uY31IMCuUkxfPmJgjvKNucpWhspkJ20GT31loiMmY3sDeUVi8ZJqwGes29jYaXQPgJHWIvwiJlPiSupz49tUwS9uuw4xGe5ry1WgSbW1e21HeNURr6-1dXKOrN5n4umnbZ8bPZl5EtxQwQ0s23eBKKMnjlhXRqkbUSYlYPr4hwRV0NsM8_oDk2zfSFYwuyZUuEhpM6pOitZX9r_A",
+        "width": 3000
+      },
+      {
+        "height": 1573,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZZ7r7uOtrknjsUW5gzNz6sudI4bhulOSzDkqCnynVn-gpWpARR8POMLsKIXxdOpoGZY15zEJSW1mmAEWSeG42SO_ExSxSHngVa3o921ifgGkSTp9uGrexlZNZ3gr1gDxLqf7dFC1-WiBpZL_LpSFpzQCFjKhw7MVDyhpfNL3hROcUjtnGBXHif_23FsGlJlZ20I85gz_9YLjCFUDHd51khiEHz8pxaaGIq5s0us0SuG4Fq1VGm6SQf12tvNWrAsDpyq8iQE2dfAcBuEw3XHMW63R9zPqPH62XCxDOQQWAvHlUTctfd8EEZzBBI2jeevq6E4CbOd-koXTJaUEqSQ1eNYn_8T-M6eqzTt3jzHCQP8-U7Cgzkf3C_pL7ofBI1OSRPUYT7HHwbMp_18lZU_xhM-hgfSvc",
+        "width": 2787
+      },
+      {
+        "height": 2002,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYl6WoKLAsSVFxmM9-LKaHu0avYupuvDtVZmT1M8FbH5ySkuavTnrVT8GxMbW_B97j87sJiTle91KOKOAbmGP03OvHNQRHKxReC7AK8S7K3IQ9YPd9uYASpO1OkInAC6Oyp8fXAQWd0da_Yde25gc93AJe7hpoia1exm6MY-dMX2o-18BVQ_2ZWuOF_-lmrn9ruy_O80ySCzt5R8BUv765jQ8i42Y5WVM6C_Fe46pgXsIzHGN-PR86TI4vj_ZBsfptS8wFCh1r7mg8dFHg0pnnUQDQiozj6XOI4rmB6SGtA3frVdZXqIuvEx0DGKkL9wcQj1RH0l9B6SyTxZnT8EOJAp024sMM83RC-rru96cOtnNlpfaX43JSk2F9fCzTJ8o34sltIzAfMuU2cj9NfaoOyaYnMFPU",
+        "width": 3000
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107356835422322585674\">Don Gabbanelli</a>"
+        ],
+        "photo_reference": "Aa-ngMbJRfpLhyvmA9P2Bb3Anm7NbbEey5ILvUygNWGY9M5B6nbepNEtQvr0U6kSmn_w530CUFK5k4OZH8jQQJz3fBmnIbYI-gooHKBF5c1qsP8TOakkyvQoKgJzmFjNxbbgSVssMh3Zb0dqMbYIapXdwKumQc9QFvGFyw5Ze5d_NDrE8pT_pZc9Ntol0CkuFW5pLJyv3eBqo4yFZ_Xd87YKNu2XmLExsM5Q0PR7I3YcaT3tsABbPzPcpwb93-pG7hW20-M8n_FQxqiCNh-LJ66A5_RFykFzZuzal-kEqQ9p9SD10UiCCQzlB41AcR4CSaTCL4oYx2cNZ4gnYzmVc-XCBPoCWXyvJiwyRqnxDSE5Ib2l4eDQqzMHhHQM9KgvC80G4yqiIJnneM4JXlbiHIju7hbj9kkxpwo",
+        "width": 1920
+      },
+      {
+        "height": 2003,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102775788785265744600\">Sunrise Ranch Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZYWAH7tORUb6NgxzjU-rqIi1JDJGn0ieaQZwSyY2cUamXfTSJYuk6kVh8EZrPDmjmxWPgMPw1TD3yP-2ZFnHXsYgykh9c1rYz5n4HfLFWnhJWJhJMxgrsEBJeSi65azW6OmgHEy1LsK42EbP-PEh_1hpk04s6X4389JcShyp7oFEHuDiFitXCATKdVGs_t-xt29YdxqvVPJB9AehQZ3hdSTKOXpEV091qaTJ8f7vk0o5T5CYnhMrtfXpnGnanRSh7kcjf0S-Ii3ITL6MjG0EE_V-F6HNKmF20UzDWq3uZcXjYZjcD44LZmhMFIgNdjn4DdU_S6FdemGGbA3wyv41arOHWuy0lmc53bnnBaJSR8L1ed-Do8eAFsWcwcEi7N4Ly_CKhkc1WukST8h5F2AE9rArU",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJ88W5Vi0PhYAR1z4VdoCFDJg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10956278780268986071",
+    "vicinity": "1 Kirkland Ranch Rd, American Canyon"
+  }
+}
