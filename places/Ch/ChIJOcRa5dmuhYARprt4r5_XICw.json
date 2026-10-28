@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-28T06:46:41Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sangiacomo Vineyards",
+  "place_id": "ChIJOcRa5dmuhYARprt4r5_XICw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "21545",
+        "short_name": "21545",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21545 Broadway, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 934-8445",
+    "geometry": {
+      "location": {
+        "lat": 38.2601975,
+        "lng": -122.4577266
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.26177193029149,
+          "lng": -122.4557603697085
+        },
+        "southwest": {
+          "lat": 38.2590739697085,
+          "lng": -122.4584583302915
+        }
+      }
+    },
+    "name": "Sangiacomo Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100581936166106033148\">Sangiacomo Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZ6cHdOM0YN9vmaLpLXKD6IEr4oRPGD2bTaHKCO75GJ8qDfhW8TQcpmINm68YaFJnB0qAuZBiu5-uagU3QSUOsqXaxbi42xP6ImrAq57dAK_qoE6WGL0fGABGS5BrMdBkFZhSW8T1HCKU0UI7v_4JiXWh9iOBKLmx3GtGRV7DoHTGND84AF4Y3oknkVP5Gc0ZQCDmcLQChexKCIrogAnZMgEjdYIa6F2_08TPdYB1vAW6w0lZwiBHbcbB_j-9fWLG0SHOMQ3Oc9AUKA002jIhzdl66a3LknPMMbpvF58E0-vJg8eR-F8FlKCgpmkEWdd5DXPbr-v74dudIjBHd-imISXboIg21qUnVvN2NgxSM5ukQn5GLGVpIg653Me4uSrIQXdlWOmFmUvchwpMqdUegItqU",
+        "width": 1920
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113923212612981025343\">Mary Rosberg</a>"
+        ],
+        "photo_reference": "Aa-ngMaq4z5r6auKV-dc4-Y44MB_vhURNxoq1YxqOneMRzJaXTue6KrVwmVCT0XKjSKWKwsfbndt7t-07gcTaR8mzA_BHyBPab6eYg59aVTG_eq-fs6XLalpcIvCUJrlmNF_z_wDAE3_cC15cobHvkmJ2Xj5fCOdRRZToARDQiBWyNWFR33s-ZVGA_3jpfC7T_abujANxiz2rlEfTMdwDt8_xd5RhmH9MbE3wLJmLrHcxaiuDlLtJ9f9g8zkfr1gD3wsBgky78YtVpluxAKa2pI3aNYeU3o9aOzl9xwkyFv0zwJkpNh999NUxCajcWqNH3VmBY6QhrVSvfrC8SF4xxO77ygJOBiI6tsIxHPnKITE_ngnhsg2gYNf4tNra2kkLYvVOqlXPoJfvcPKl5lPXJsIykvEpylFbsoJadeuzF1MReHt3w",
+        "width": 3600
+      },
+      {
+        "height": 337,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100581936166106033148\">Sangiacomo Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZyJn_bM0gdcPeg4L87dnpuVAjTv1Xzo1hiA-ZXOBVZTfPvnOYOmhWdbL_4nFKl0NH25cp7t9AC_KgNxqPY4kFTVZBQiChEAhznUqWJAuc76MZusIEAa90kA6JNuPUD73jwIY5RAJgAiPGnaMow8qiGZ9NUmoa3C7r1_ejowGUrkxwwt8tZQKx0YZILgR1AWfL0oWqiSCnFeCSWAucC4sbKqMGkIA9jrbshViDZP-mZj9Xx-GVa1BE-gMpjIACS4fe0Yl4xt0scl2ZpA42toqXvX4P4vThgsaZI7vmq6xIaOIH5QyFiJGyO_GG61KYtRdjrU3CaNwCukORg9oJQjHpNPESaMMMPYp9HvJSbtNfutlQ7oY-Rh484Y3N4vJdJl35F-g50VdaqmWJo5-UfRTjQ3uLtcJY",
+        "width": 600
+      },
+      {
+        "height": 1066,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100581936166106033148\">Sangiacomo Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMYGlIJkFxRyqBsdI1fLFER11CvXOiCa-f4te2L25xV_9tXiWFFWif946f_QLL1nG2CfG36yyFaH5MBtZ2SpzXWTxBnUGWC-RgNIaqq_cA8YsiX6xFqgJ6Ai7e19AkD514uWKqS2S5w4FdWEPt90A4KFKFBtSSqGd79IKKfXqUiyuvs6fg_nwj8F7ISMa8OagbErCKuA1dqVoFcyW0P3ix1Fu7Ldphv3A8GhW1JNCKKZygn0AKAvA7h_wOqQCtHXg0k5_59Q5Mjh2wcu2g6vfwKdGsG7yNs7FEJQw0f_Yxuv-HNicHbZ6qaGZYNZS0G0F_dP1H7tRVF9TC4_MHgF7wJfWHUPgSnVGwOBnZ2QERfvexkIysJ3RtVb5QeWEBf54Nf0Lz2cJv4wpSudMVwJQsVMC_ao",
+        "width": 1599
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108814215368676212014\">Meghan Delzell</a>"
+        ],
+        "photo_reference": "Aa-ngMZYKiSkovsa7GYOxMDUpqxucpix6WW-FJJj350g8Fd3S7rLWUgcBNN-QZyKdjngEkE_YAqG3yTHxkVh_ZXj1LRJ2IWVle-qRgz5QsBUZzSkFb6PEjCsWB1Timyw1_S2YI46hrMOjBNmdDZNY4ZViFprxdloyLijEC1OgrVjPVaqU-lEBfo07vX53MDhByK4_wst0p-Bc2ID302K_DImKNuydoBPP6I9IIb3yfZgIyTHprDbnlWkmEkJdL8FO95OZ17nkhwNbrbuxGGRJLQKwuWDvPf7tR_I6bk6ZNZp6wf1ImSxACLGlJIMs8ocfLhb-faR637EWu3EtIGPaIROuMSS-O9ubpkTFlKNuQ-IBXH8fJvCvTj5ipfQn8qEt1NVmMTeXeULMwpluLt4G7IuihsqTl8",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMaYDoTBzD9wTQM1Eh1euKxUDEjppxcDor70YGQPKGVd8tFkaPxhkAfwqUcLWEiNiy_Frt1xO1gxHBNRR4iZIk_oJrXGO8N0Dy6Ze95FFKBVfVYUm3e8ju5LetFkJbqkO5t8DHBOuf6tjlgwL8lkUj6Wh86TkS3XCDLmJVcCBr27splZQJGBSWk0r7qKtZ3kirqyddqYQT1K34vNBKCB6uNybm57EHJChKwp1HzrVCwE6fyh7otrj0FRmVtvz_yy_LjPge7lX1NnsFYr0IeDAb197QVfZH6ldms0TJe-JekwbQklU49pOfNiY3xgb_itw6LLT_5L0FrG5h8fL2YIigC7y5WkyaYJMHTMNCNaRVNBImU4MJWJ7gmgHsTOh9_ipEI6lnYMHeOjfwJtQAqAR_gSu00",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111755579199519930438\">Deborah Willig</a>"
+        ],
+        "photo_reference": "Aa-ngMYg7TfD-cKA647orKvoONSTVs-xP1DIdG9GsRxKpiXD6kCefkxzpXEGZrWshQHJ6pAZaZS5GbEaBbwcoAAdmzqeVc_lSXCCLyq1F1Abx_NnjqwUx1ZNjQOy9aMa2eyntGGCPi2wdjRiCzlB-xUzwVfb3zqA2wTjJ7nsVr1mFkcIv9bx3JFkyCcp-4smEgLrraqsViotcSCn_V8vpg2Z8w2MvCOK1zV6BZFGjsYz22cq_Uow7M3QPywf1Ec-Pe4imc3fBli4INacCKx5wTzI7uVSxNOidse8gEzG0QU_pTB0CiPwde5Ndm3H6Ao1LIZD6jzhkBLBUBRN7MqP7uFgiOgv2Hf1RHt0s3TQKA_N1-Yz7Wtlh_4wUVnoaRMyQ5F-Mba-LgzXgVIxiBvIOcpgnwA0ealDZNg",
+        "width": 4032
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100581936166106033148\">Sangiacomo Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMa7ZDUAqwXMXlVA6DWJtU8Jr_aeUTd3nNMp_BqwFzKmlS6PemNMU1ZsB7suWmzj_eYd_EnQuxwBHns3T9vwANgHaS1TqnF693j_bfy2GLVLuESCnNPi3jZthQoeiIaPUs_RWuBLdDk0FNA1mFM7a-y8UT_qG_MlqA7SgDH21FaVvh6oWYmPS7HAKoK3kPYVi-cBcIsZbmjCG6YgFmrs8bIY1INaDFklriiTfGLKsK_kHPGSlQP163Sla6P8Gqlzauwce5pMDp6czYWJkOTI4iKcDRnrrlifngUMwhuekCmWdsuAwukl8NRN1vyJKl_RHAsh1ynnWZTUk-bYT4365vwAcBLGRMg8J8uCaoKC78BkSSLfzzr1oZ6UpzODf35HDr_GLpH4BCQ5ktcufWW1o4_FpnpSJNVpyeVZVuHTUMOYZw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104722072051408175809\">stacie elkhoury</a>"
+        ],
+        "photo_reference": "Aa-ngMZPArVkp77nRgxptvZqN6r2CLKib0FG7pFHeN_oN1W6-rB5Il5QvuC519CHe8RFt5kmv0oIFgQjVTAHGPbxP2qE8OLagipT9g24zuTLIUUEMJIvpQ7UjqGsS7HgLSHKnc2gysSMG8Znlo3-CoNz_FTiCwNm7XR4Ve95ijlVnDkpHDNXWb6-uggx-pTMOkWg2ZNiFlkEkSH0oJby0mhwuGnhF7yHxVhi3mU_7f9z7S_K53b6q6PD1EIWm8sofm3AHV4dSnflW1cKyRBdqOoMlb8TlYYqWGJFFTpsKPhnbrE-cYICWZJZa84TGyoEhFuu3q4fRwLB9StCERTohHG9HEYZMoDYurOdJYMic-RG0Q88v_xbDQEBLaXNDozUhgFKd8uLC8QnL9NmNQJWQakJqXDvu0Q",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbjhhrFXRCURwOIuc-DyRmcMdnQz7V52RSqmgOZ_Swv1ztkXFYuxbEdInJoh8R2VaV4TMf4YP8yT0AnGCrDe_CEmiMjZURZH4Med6qBwCtB37kMSP7HvLvyoDia8RwuMZ0jVl2K83hFJ8iUmNkquga81tuzzHV3gqF_Q3niyIexzqjTnfn0OJp8QTMgtV1KGyAcbJBO09msMdjoIiFK8ACa-1y713GDUfVOTe2SRXpJthea8zqZonj8DB1yK2_InSkV581MAPn9FQ1JWuCsnfZszXCRbMhz-hxc6rZcoXfBXrjMXhwCYaacHJ6scI0Zw1OKB89jwphdzuwKleLhRXnx9bAO3iG0wcnlVXfccwVzQ63A0Oq_6EVkfx3OVSFALRdWJNt7IsH_smehrhET9AuGSA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJOcRa5dmuhYARprt4r5_XICw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3179778417767267238",
+    "vicinity": "21545 Broadway, Sonoma",
+    "website": "http://www.sangiacomowines.com/"
+  }
+}
