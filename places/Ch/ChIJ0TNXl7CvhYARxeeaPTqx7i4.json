@@ -1,0 +1,255 @@
+{
+  "fetched_at": "2026-10-28T06:43:56Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Extradimensional Wine Co. Yeah!",
+  "place_id": "ChIJ0TNXl7CvhYARxeeaPTqx7i4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Suite E",
+        "short_name": "Ste E",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Behind Purely Sonoma Salon",
+        "short_name": "Behind Purely Sonoma Salon",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "27",
+        "short_name": "27",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Napa Street",
+        "short_name": "E Napa St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6738",
+        "short_name": "6738",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Behind Purely Sonoma Salon, 27 E Napa St Ste E, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 682-9324",
+    "geometry": {
+      "location": {
+        "lat": 38.2911116,
+        "lng": -122.4574609
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2923414302915,
+          "lng": -122.4561180697085
+        },
+        "southwest": {
+          "lat": 38.28964346970851,
+          "lng": -122.4588160302915
+        }
+      }
+    },
+    "name": "Extradimensional Wine Co. Yeah!",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1615"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1615"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1615"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 12:00\u2009\u2013\u20094:15\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20094:15\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:15\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMaGlUnR5K1NtrotVg8DTDNNT0L9TpyniKazBDv0BXsveoiXfBx4Wpg5gkwtv2w3wpuQlifWpdbxrspWn1W9Zub1_3vZaSG0EBkMCtV2UgTTrXabAzUKqAjQ-iBo0J00bydljk9krakFLj8mcDCutkWnk7OS0ZOjFdBcwbgww5H3rWx2anpSK4QXUbwU47hE8-AQLMV79CGu7GYsuCWbduQhQj02bDpndebY3hqCSvV6cB0TY9aeaBewCZtfnNs0BMv0WJ7ZBYT8pJdyCGBmU1zCRn4cZvuWtwsPdU9yyb-iluRpht3fvv2lUFOm6vHGksiLefymaJwDh4GInJr1OlgAR-avVNDnIFONeTSjypLTEY9H4fTP4XtKrpth5oLAWk76Jtqqp06YdWa4VlMboVBYQRAj8d8",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110114794712346758720\">Elena Perry</a>"
+        ],
+        "photo_reference": "Aa-ngMbgcrE6G3UeSccxciwj3pd4DhiaGPN1nHp5fpp4WrE6W-jxoJdCQ4yRjaGSYi_OTBLaHls2gJ6HHPxdtkUgCT1QAIjFzixakpDyN8_e2PU1U8E6k8FDYzeyDzLflizOrHW5cwbnY5swi1as-kM86rwKKBWtsgGfkJi_LxIbRNCaWcTkGKXIZ2qvHOmDoXXvwst9c6EaQNjFy-jPheKTqlszDgKZE3j5NbDiAGR7WumRqJl0SHY2IDMx_f6VdntwWe7VxkEtnT_vdabqmL2bJ2SPOIxk0mzEOEopyhkPIUyCUs0nuQN91g-GMTnLZn3zFe2jzUHoFvoJI2OXxZw3Mk5OZ49QVHH9syJ0zzo5kA5mkzhSC5aNZgRGaCT06SoOUFLR2EvcTEsz9CUsylWak3DJJqUo8NX4G_M7HaZDH1Mi",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110114794712346758720\">Elena Perry</a>"
+        ],
+        "photo_reference": "Aa-ngMbYS-bFt2m60RBMnb-oErvU5UT2u3vvzsmROhpFBy_0-UDEAmxT0NUYEBVbb2pQqV3KlsYvNc2iKwBRQl20uZXIqkMcAZ7KTgWywhP7oc_qcGDx03T5ifDdaLNz4qR_9X9p-eDeGzcbD4zI9uZ2FJoQI4t2jPlM5x0Lkc8OOkm02HeP2ty_o5DrCNN9rScDam7LRdoDJLSykC7cEs51okI3g5DWqM_iQ13eIxRGp2OqTqtUcHR_4tm3g_Uaej-0Hta-eR5PiNuBafEDgGu2NnXYLpx15RIpRT_DwgpEsA1JH6g8eIill1acDbdLC22RtlCzu-eLstn7QUm0Lukr_fnRZt6N7_kLGbbQilo3mN69dFd3pGdCbc-GNhoeYRqarvWI5hEQeYazaNZCYX6-9gV4bK6gOjsOhLE7fVdGy_E5og",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118318921566830313180\">Jo Bringazi</a>"
+        ],
+        "photo_reference": "Aa-ngMYI-196dmpjRHeQcm6ImzlBzHT7sueeu97yleAKLBfsM2JMbxkTjxEW-JrSJYzOi3F1AxqKmtyiK7ssesyhMLO6Q-A-JGFEo5YApYznqYoFSwaIRMSIW5PS5uJ2ILrEIyiq-c_fcHk9LA84v8ARQxzLvkPAQgwc0Ps4vMtRWOGHYsfEwidjxi_rsYgEvFnfCORXUMbGzrxxqotjxmCaS6omjngP5I0pcDHzDKcUyoUu8iCQ5jdluJmAu3ZztUlY9xmbC3SW58bDiMaZvglBWpw_AIzrKowMlrY797k9bvndGn-BnsJxl9yKQvmb8LmJuCk3TVieJHW7tsAT5IQ7pXXcHsYfmbR1BjFDNWO1ENJh_q0ZS1irC7XJ-NYaMpr0dRMfKKndjeo1b6CgmMGwnojFRT21MCBokfIr_NLUNMCuuA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110469955087923490049\">Nicole Tidwell</a>"
+        ],
+        "photo_reference": "Aa-ngMaeUjPUZjhi0cH8LSCFz-9NboSJ-Wm1IJIUQgJ5fdEeUk6LDhfmlz88x4Ss3UVVYfPDqi5Ub7Q9OZdptBsDL1DsceWqB-anPD4lq8SR-dAbCU8uhE5mYHjofOCNITTb8A8jN6mEtu4g7bWIi89PTV1M8fxiA_BIdemHuQyHP_t7XE4ARH69sTMvMTqzUBODIaBBEWEZILc-OgFDrtNc7E5rnCMJwdoe-wVP4zwi5DxGyrI2FlDOm-L8agyVFYVbWFAATitHp0SdOOIiCIApsu6flzKk4p-WpanlWx9PMNeYV1PH-8W8y1U3MFvGR0jftHQ2p19SdFcdZ3siTKzpr93725nxVCjyd2Ko4bXRSDxMIjqdF8Ov5JK5uFHoUnjPoYIx41FD3YcwoGOEr9BNpcZHuyo",
+        "width": 3024
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMbQllcR5C5yY9GnmI-QZOQG8kBI9JhICWYxqiBDYmy2-XnvaduIBO_bn1Tuu89TqbWeLtji_-1mdNY-3rPxxOl2qHA-UIWKXt8loMrituaEfKSDFwuIAdB2iy_EHMDCvU6etcD-JPR0S22oBZ0swOs6QqGOqeoJuvNr24E9ZCJyxsmJbGTcl3fCAjfVvSCFbR3-HntAuwM6wIRQtE7MZff48ZwJT4TsMBXc2z9bjiNPwfPOeyj9MvWs0Kb3nsuy323Ti7-5sMJk6PpewI3bRGHqCXIgTYLoABDK5sqwCW1m_YGiPV20i9tY0XsU-9Q2_Ye-jHzsvv4gTUqMgAcP3BVItT2atJgnlyd7_CCl3kV7cXMuObepWymbny2XU8nvc33Nb5XXKxetW96_qiAMM3bmFA",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMYgSzOkie3hy10ol9mQuM5xx5rR00zdZDuS7-RlvDnGsqrXLBaJ3INKqgwTaWS7s57ZnHzEH0EX6m5pCwYawvvPz6eTyjjWkidErIV9yJ3D90f_Kd2JAo_QFq3rweb1TxAE2YSUWAmhUEbHhb74zxzI9Qm0Uz3SDtaG1Rh0lgkAvMxfzDd6rjI4J-szO_Sz2FnBULvaOki_NFZh_nyl_lTpwTaP3e3TFEVKWsadJdHd6LSCU1hQOLDDBAy89dz2nMQybXiudapwH_r5k9yIWfe8JI9ElaKiwk8_xa_iJBqfxP4hhJQjzYAaQ-YtgTkt_5q1BBoP32Ys4asAqAUm0pehfyA_MMbp-vLoIKPbRjRh6ypKzkeIIKvk0OW9MDS4tbffhK6QMRFMdv0Gwk5XfgI7Jd-9",
+        "width": 3024
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMZ52mrBXnKpa6LaoSyv0SCT94btwK4-HZFJHRvw-PiD5MPzz12OS1U5IpYKhND-ReflJyN2vXUOaRgE-GY428xCtj9Xfpc_BX9qsAVV7GvLQyp9a4pj4hfIYG7N1KEovfZgFQCQVc80PX903jcuK4ZKIZgXG_viJM_hO0ic4p24RC87ayts5NX6Q2Mm6B7EJj_7qxxWQpP5cFNNQUUdHFpIv5GPsPqcdJnYZyCYzO6wgXuv6BA3lt1Agj--25vR9reM1t_qcDpApG-9PehzH4mxnmNlZmnntuthIM_MQ9C_ey0XkZLbqn7rBFyY9fgqPRI13ARmWGBhtFBjeHOxEkocBSyLfuRRuDfTfFWdeU4gP2BIgQF5UmrjDUvl6iyJI55eAy3O3rao8iAXHM4O3ClCczvYk4s",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMan5moElsMgiMcsg9YWe4CZgMc4O7MCptnwQcdMnbO3OI05JFZUoKO2iPJG0u-zZEoTMeDxDdAEkpMr5LVr3uMb4-CTQstFtR94Z4NHLMOgW9yJ0Uzd2saFmsGwwqdU_DnT4i8Bwek1PF7wsqKpiA_nEAitO19TZTQqFLnp6YrAGoCq4x-AOACj5zOZppICfIbupPOaOcFxcO0s_jv8hHMkvmISoUG7ji3zb8UtN2jxyftj40ZhRFrFdjO9Lxf6ygiJjGSbHazE-gLxqheZD9WfnTLRLbVhDrMsBfC0Mx9nbzkm5QEMkRYTOTsNxClY8Ig5AO6LVkvCmGAhAvrzSoJTA8PvX13WES8E8RKzDAsAZrSJH0pMIbLkFKv1rR3bB77aIHnBnVlqHobu_Jgl3SfLqlfla04",
+        "width": 2000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107167912994919665543\">Extradimensional Wine Co. Yeah!</a>"
+        ],
+        "photo_reference": "Aa-ngMawQubYWLxl6Q__EzXCHPRs87paPpahlXEaRnTNsp0EPyyVG8GTjlSyWroQoeWeTPQBm5rgChm8ifqj0BvX-WrdADeRVtwmSTQps_QDmFH9f0ChxuOCgeMP0uX3cmH4cI4PVq1RwzuEnNqxD4OvinKPwMMBtXADVC6HBWrgHamHp2qQb6CcUDDM4n8AUdK7bcNbNGKviVIIOsj2cxsUtIlCOW8ToxWGcgJMXxUF3OI3uhEpDajUEJ-mWMgTv5fSigtJEPVv0V0ETDt7KXXskmumtBr3gmmecowqb-BcuCUrJ92bJi57pbi6EE0Lwwm03FUz2zuDFSeXSftD1y5RsivFB8tDbvmw6KzFdDmNwxI5YMqBG2Dn8eOZqeaquyo22WyYqEuG1zPM1i1Hoa7g9k2LRy7rwmE",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ0TNXl7CvhYARxeeaPTqx7i4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3381835233901602757",
+    "vicinity": "Behind Purely Sonoma Salon, 27 E Napa St Ste E, Sonoma",
+    "website": "https://winecoyeah.com/"
+  }
+}
