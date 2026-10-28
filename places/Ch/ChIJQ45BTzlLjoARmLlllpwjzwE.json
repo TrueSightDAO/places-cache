@@ -1,0 +1,233 @@
+{
+  "fetched_at": "2026-10-28T06:46:50Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "The Mountain Winery",
+  "place_id": "ChIJQ45BTzlLjoARmLlllpwjzwE",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "14831",
+        "short_name": "14831",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pierce Road",
+        "short_name": "Pierce Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Saratoga",
+        "short_name": "Saratoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95070",
+        "short_name": "95070",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14831 Pierce Rd, Saratoga, CA 95070, USA",
+    "formatted_phone_number": "(408) 741-2822",
+    "geometry": {
+      "location": {
+        "lat": 37.2601556,
+        "lng": -122.0647
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.26159768029149,
+          "lng": -122.0634280697085
+        },
+        "southwest": {
+          "lat": 37.2588997197085,
+          "lng": -122.0661260302915
+        }
+      }
+    },
+    "name": "The Mountain Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112428958686872534714\">Phillip Padilla</a>"
+        ],
+        "photo_reference": "Aa-ngMY9T420N77qChfadE3gxFXSajcjiXlxVXYSnWXXL8GNubRtmtMIxo38VI9LWc59FrpBVd-IrcVyySoBOYlQulBGxtDdtVAz6zcHRqKN7D6nf8jVEebcfojJ1mGZlutGFcbU0UvAY-Shiy06zMAWR87HIbDsuYuMWSufnLVkOdLtfAqbLI0aqDOtgOWQHsLb8anLZ6d-WJ_d_E9TsE7oEKepjVvAEuRgHDW_LeRiIhhQ31KRAPsGaToCZk45HGOTLlUu8ijAVWjBiNp7mcoOypnDxtTxKkoFAy5f4KmbbuicTSK6j0odWnVRkr-ZAJsqTz7V3T0YSycmawKZB7P1XNJweWwMQyHmfVHNG3poCBa-LczrviR7a38_NHqb_gwG04wJSQmm85VJbilN6aVOrcwepKi6Ce0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109546009091015942427\">Harshad Poogalia</a>"
+        ],
+        "photo_reference": "Aa-ngMbvq6t1dWZ2xLWSbCgzvnk63dkOOSWiiwx2KoD_QvlL6DA_fP12ChHwdlePmId7-cI_dqp5F1AWLj3VMKKaLjXdCL8aC8I3exFdUu9q9b0YGGsdG1aLs2FfGo-45to3BkYkVcAVZlLODFrPPlrvyunDku1nD_eYvQXDvzB49W6AZsWSz04ywUAf04pKPZRxRQIs8tZ6L0Kl65n2_a72pO36hnehQofoDpEOL6YuCkt-hj2Q1yICi4aAZ_xWjRcJdoN1DKDAAbGVGZNNwVXZIztvFU3m0K9x9hz7OAAw9trmPqcD6_YIvCWzvsGcY3_N01PxVrOXpoBIxsIwij_GLf7-JxiHmljwDGXQvcgCVatMC_taYiMUQc3efel0DCdpQV7AcSPPw5Pvv0Evpn4z9jDIBRJtilo",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117244001432831126011\">Ian Gecox</a>"
+        ],
+        "photo_reference": "Aa-ngMbPWi8qIk17xiRzlJkXg_VJBW7uW0VZtPNUs7gEVPqi-Y1Ec10VjVm7ry568Ukn3ianoiPQD5HAGtKYPFYNNIWfebYPuN0ZokxEaUBnDFL9eXlqTjSycEAL1Qkx1iv-j9XQKH-OEephUUJD9LVEYBDOrQrL4gNVoQ3RTNOaXBcziHNNEybCTzUFqIBQyfpcq6W90xK7VsW1y-GnRv83nYJBW-eBD6SkFo9-ikPUy5OP6zC-nAeqtAWwv_v3zMg1qoukUv2F0J5IoDRtXTNUxA8IP1xK6ycsHKA902DuexEJFEnk1cj7_4mwvWoupd2mcZBL1E4oZ1YKDcaeofP7hu9pCckHC9whKKZWFQQLphTv8timQrC76erWh6nkcszuTRzJnmGPyTbPHNT3QONsiUpnxh0",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102766825793418741706\">Wen Clemnt</a>"
+        ],
+        "photo_reference": "Aa-ngMaOtdg-TYdZ05JEcJf03KoRql1VP4UF_kthlMf1QylP3_XGoRB0SDS550lQg7eKhCxYqkqYnDb4mLHaQ1OXiEXs-G4bVlqrVhTXCDdUn7mtJTApHfRnZi8Nm9rwX9xpfq1jZUAx_poLE3OhMtio-bifMo7ki0yF_yCsr5wSMINO-qHhuB3Cwapedb19_lV4OLgTLhNBhBd9yGN2JaEkiwWyNkh4dLnL3ZVitM_GoLQgsaODqN84Zc_FxnFe4Uoi4H_Gb1A8QA4lfZRgFkA13H0yvGRgjBxtxa2RsEZRTacg6gKjG4Rv01NtrXajNyK_Tocy9BJjnkkxzxd2YywqBkhA_oehkwdYN1kYE3qagCFg8Z25VsB-z5JdQ14guXkyDVlxPPmeZL_6L_lEyTmRNvwFGzQ",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106759623083886164547\">K Danko</a>"
+        ],
+        "photo_reference": "Aa-ngMY3gCZZNN1QPZE87gfamees0g4cTMctKbDdB8pJ-v3CD3k8-0UWUGDLRChOynLELos9Snb_wM6R5pKVwqF1cHBUAmBlyGstGvE7xfkXnHeZko8oOjug2J_wUWmuMGFQkcQMrhNUKF5Tz2plQAOhA_uaRqPwu5Ni9OTdfC4UzcPqXKcTWj7zl9Hc2miLQ0u4xcfYLE0rHugBujrbsERMX9DN5qs8dhbPcALvYBdTDw5JUjvb5ZNAeNcmuQo0OMYWqEpAlVbQA3QeZHVXDVwiBjXwkiIWl1LtKEJu-Vf5Fx0KWP0YH0XTKlUJlHUPQeZEoWyGWTi-lvk5beP1hS9BQhvdn5tU5tPFn-XXaF2ATm2iaYELJqeTPYpb3HRrF7se1Y7ZXLAbiK6PKlM6nHg6LpoXNM-_",
+        "width": 4160
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109943926442721382173\">Aleksey Yanovich</a>"
+        ],
+        "photo_reference": "Aa-ngMbzoJQ0Q6qRIFNW15eQrx5LZOorNa-O7XHy8cEMM4MO8D1FvdSeSuEsJYLKDKRTqgvyDt0UB5-LDiG51B3snWLcvBKGOTHgZFHqxLWlv0U-5D2ZNwRf6V_7XofQTlBEoIcQxKdpvcqGqrDeFKMONHoZQXFMNTzXMPrOs6U5UgBkTop5unTaVuJ7I0dRgn9xGzMc4JdTHLnj2BadHgWwGU8Qn28dkwnE8eGZH5pvQoXJE6P0yqxF1hxfx7cCYMXhuMbDuHWVCjVM_vlVhrE4TN15GXl2xXo17rhQxhyq3vjW45WdkeupZSTL1i2K344M-sb9-qVtm1JfTmFqb2Z6wikwl0X9A7FVrhb90JQZo6xm4fIPD_VIP67g3cuFnf1GAN8Avz-xxDDz68BOHHs66LHO3fYmXvxVZ3X9LI03OiFjRw",
+        "width": 2040
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101250043801933897308\">Kavya S</a>"
+        ],
+        "photo_reference": "Aa-ngMbOae_5D0OyNlcW1mDGJThqQ7hnX7psrKgTLGUpAFKgGMIWhjCQ0rbq_5SSSanmEQBVSDD97fU4TzFt_gBve4lxrzfz_KFrmFbrlSWLICwaLCfFfB2plp9_nVKBfqF2jbFpVvYQehmYGVtSG3AFAZzH6Q63Y_XtjjEUM9wjmmWCln6ol_P3d-E5jalICJZh80vTyNkGdp9ELH9JODNnVHu_2sg0OP1L9jKszMD0lryl1Q1nvf6KZauo011IAoycx6BfM0FZo5hsTy_bPrPFAv9Z71xkRpdNfwbzgzdr-U5wmjKCxyG1eST10F3QaXLc0ujR5zuchhDUIuFkrJ4oDDqII0BjV1sYiYZK4SHKL5l_PUe4MyVpdRIXDEyRh-BG0Tzwc2GjnPFYvl61WdZEWRtRik2rzB4CONZBSFOW-pXXQA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102766825793418741706\">Wen Clemnt</a>"
+        ],
+        "photo_reference": "Aa-ngMZdAXDFiig3A_EmBt2rjJs4Bbxv6Ctf25n7XKEkW0Q5pAOrOoxOHr3DXrQ-xGzVFKIn8dHTW42ySC43ftTJ2vpPOb3sbcxwrMOjWNOtvw1fnzxlTzUGRq3SBfzwZ4kasIdvPWXdmU0v5XPHzzZHMsypMW-VUGpVbc0TJw3x7KtYYRgIIBrQ4xAS6fSVbPDIk6Q0Kaq8JiOduxleDXN0d6nQ6DrVtD169M4ZwhH61X0DWQB2diesao3Taiyojv2_UWmg1KBOLqnOxxH25OB7oOzVmYO8Td7-M5cJWhhCJexulW0lxU3hyc8zPLuaOM9gRA8jvvEmRJp2kv3-bEZwRfKfexR7iYBc6VZVQmI_zZHZtshWWylCKgy8nnQglJmYHQku8r0mYkNg_QTU03s0CLuVYs8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101935422045689248487\">Jeremy Baumgartner</a>"
+        ],
+        "photo_reference": "Aa-ngMa-7fQFzjorba0xDBXnFfTd1YJ4pzECVgWcwST12jxRn4WdW5HD-FK0ShzBq6ygfA4vaIg1sjfTVahMSmR1GTpF_oNZCyEJ78_0U5RagJp5vcddf10GEEe7JJbu4q4LdPVz5CdAEh0jmMVTSp5m0QHt_ChHW6wC0FkD5mH-Ywv0nbnbMLadmxy8fhiQ_BPMeyDLTYN-gbO2ygDFBYp1inqaksC9L0F38oQAs3B8uqwylO5ssDpe_d1I0OcbbQ0s3L_pFcwzB9k92gfvnTJGXZa_W7kZjwHbcHv-FkqjhaNFggyurWyCnRyC3aYRsG_pIGqzH8t-DC90EAgQr3qCnnwoXKIssMO-N2ztM0xVLdXFArwpK9lxs90EDzXmCECdhMWqqoc9utn4SeYLF8cK9zqF1g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118420481359488304709\">la la</a>"
+        ],
+        "photo_reference": "Aa-ngMYoBjBbETVNYPRqtNEQEr-l74hsVVg2mM_m3Gtofp_qXHXxs-qPTBeQiPODm_PvplAP77uSav5iAoz6Kgh8g4-xf_HEHuKi-F1v8ekzT8vhLCS6acBvv_HhPJbChuALAHs8Wd3W4mH-iuVtPpSfpGP0fi5T8wc4-KR9azrO800Evm58Qvs563n_O7XhvOvg8NKzBxhdI78yyduK0fLArf_vxZexYrDhhNPkon0mzQNAxvQvRJWbwEPD2tcCmGWdm0HLV1uDwL2frVDv39sXbV4-5KR1PK7LGLBlWVrAxp5qb9IgZkP-Cd-jRqeRA2VTO8VziSNEN_LC9zbzo3hIG9Ma4TW8d1gJ4bA6JYciDd4o4zymERW1-2dlSnUW0JcNSvsAkZH0JV-C0aHPIDUfjp-rffbQWu0",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJQ45BTzlLjoARmLlllpwjzwE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=130362069662153112",
+    "vicinity": "14831 Pierce Rd, Saratoga",
+    "website": "http://www.mountainwinery.com/"
+  }
+}
