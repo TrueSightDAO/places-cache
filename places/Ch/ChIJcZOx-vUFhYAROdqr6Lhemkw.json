@@ -1,0 +1,196 @@
+{
+  "fetched_at": "2026-10-28T06:48:29Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Black Cat Vineyard",
+  "place_id": "ChIJcZOx-vUFhYAROdqr6Lhemkw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1352",
+        "short_name": "1352",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "4th Avenue",
+        "short_name": "4th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3612",
+        "short_name": "3612",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1352 4th Ave, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 815-6185",
+    "geometry": {
+      "location": {
+        "lat": 38.2812225,
+        "lng": -122.2480297
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.28254243029151,
+          "lng": -122.2466587197085
+        },
+        "southwest": {
+          "lat": 38.27984446970851,
+          "lng": -122.2493566802915
+        }
+      }
+    },
+    "name": "Black Cat Vineyard",
+    "photos": [
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115992098647807712149\">Filipe Recch</a>"
+        ],
+        "photo_reference": "Aa-ngMYBU1Mpv8sIjzNgqHMQ_7ZzhCxTdVJL9HgICptlt-yRLShQihGDFSOkUdB5sVNlyjarACXBDeIV8M83oJ0bmMAGfVZDOePToJnMkFPqQalbGGo1Bw7GWWEp8FUyr5OEOWX6jg3dvcwIhYRkYjUhJrNCXJGXE0JGQ88kO47muAzrak4s5edin0hpkh-lWvddl3vnpLw3I-pzymI0k9z41TpncL2XiZmw085SiiJVve3PtY33-Yvh4eRQuGieABhdcvwa9nbZkpfkucYXz33l-57YA9-lwoICSO0afsguiTIEyU_nVHI4sKVYYZrMhUZsw7QwrF7Yry48b1YyP4nGJ--VCZ7csQF9cNWPKVILJ496Hj3ngSBmofnso236SIKvyID7nQfW9u6RGuX1qJFc9_AItL-F-Vw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434678509419993534\">Meghann Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMZhiBaKU4UMy7-4FCThHATatVaIOclNNK5SQCyRqI_sAVfO9_l5AwOHuy5FHLqt4cfaPMlGMdJdLK85JmrV8A7jTOi0piMlnYXSAJ0vXOihF2Fm-kOBiGltHsMuFogg_G4CPsllPr3RBDdRB8vU4VO5BGQngvwMGfTaSkpMVKYclqcRy4zA2t5y0-09SFw5ymURqTh2fjYwx4D2pqQi7skV0jThbtw3LPPGj_UtYi3s5UF5hizv3OsH8ElHC73KG1h4sanoQYUWQYSm8c0LDlre16xQaYbK2ifepS4Vw22tSRpNfbTgmuxpjl6G76LvF1bKRHWF9nmiaLXU8PCN0g5Pxv95Fur7V_eX0GwDbw4ZBg3dva26lEdE33o8P7PCsZakk57aVbJoPrxwqdIZPxb-gB4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101946543408554354376\">C.D. Brozovich</a>"
+        ],
+        "photo_reference": "Aa-ngMZdPV3UKg3tf8Gze8wckBxecYVMCSvqJhn1kCO6VIIesZySrLSElrpOiMIilLH9nQOKs0NH61r-4jRT6S4eIvyj1hOtZGR-zIciXZ2p0co8WG0tzV9LnWsdehQlCkABwggRsZ0vT4xShM2eTxxSozYmr6jm89ShN-mVRIAYb7R_1y8n6Mahcosq2VTNqSJLvXl9VbeFB6LiWfywj5017zQP0s7vM9UMYcveIJNP9vJYaxZZSOTbMQFXwHPR9GfC7Q5v5wxKjSyA4oOaR_fGQnsrqRVyzC9dRdY2Ci_90GO3EGn16tQ788YIg-z2rF6cjfyl_-AnWnTVPhrPGt3PhO03clvtmEYDmXOCdD173J-ZnLgj799JHmxa-NzdGGOc2CfFyTiqcXx9zQEoexm0h0mrPQ",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115992098647807712149\">Filipe Recch</a>"
+        ],
+        "photo_reference": "Aa-ngMb7MNO_OjfUm-lW_iD44K2qYS4LUuptY74T8IHfPRiCBr1HJNROrJ6_zY7hSu0EVFX8IkLGwKtFygwO33T1jwRCTyrZJHMr2V0WZ-tps0c8FTlkKU5kYxVWackQNmw9gOLSiMNIs0Om0cBZu-1UR7aTKY-J_B_4_XeyKLJ-ZeTryCEDICQjpXJ5LXUxprmWvCDVXnGj2DowulL5M175VK-oa4tRdN30lKOzv8cIDjTpdjUpkBBzg9Q4NHHNNUrKjFel8LLka7Ucply_5C70e-sqp6DQoMS-lfVE2nqBxfJ6-JFaEMagaEBxCoxgmrhEu5WEHkUsDI0PbcGQfEtjOyMZSFhoxtrO1t49-0VNQdj0X8kt3oOqfJdt5yeCNnjPFfcREWSD9mRPIJeEsRqwJJ032CE",
+        "width": 4800
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434678509419993534\">Meghann Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMbS7cYpfHdEENyhxAnwDwh0Blnk87MCPgre-7V08b126hDMn2CMsJxhDcAbjdjRs3VV5bB2y8fPKna0-XDUFHPxG__u79TyzM97mRtRuPj5JErUJGtXvPc60hfW1o-VCAGlwTMM0x81Py5Im56GGsAM20lsYxL4aVCYKbaP8tysp048O7ESYe-osHDxWvOuiJYOSJnR__f44IS47UQBHw7NnaCfiQNZFZb6Mjb0MXvJ062VESgmT4gnpL9okM7dzouWmjKelm7hdtoRdTrY-LgjTZE24EykNs1pQPkhO6UznOVlv76My_XGG9yE7pqm7U9tCiGJ9Qp9kYOKXHlEAXFHkWgvvQUai0inGpasdLJluKZIdqCDu08aNKNGFUal8lUC5ZFz2bWjtq09NoAPFzJw8lV_IOo",
+        "width": 961
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434678509419993534\">Meghann Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMbQELu3PZJX-NX1pscC-u4EP37ciqmRgN_-1xVQvqdaoFfByWEBCA0Tjbso4sSKe5fJ8CyuKOhB0JPKMgq0pDwvg1NmVvI60J6NKW6eDs5GQkDp19as8WuwduEVk5nbXQK_ZE5ExCQCWRvCsbQsMNsBjdFzuFkyeFE7IyUzRh9jz99UCXY4COtW_NfNVqc9AZQMua3zmu0mjiw5Oyy7PgIBNjN27xLcF9Efr1AEOwGIVyxsnfIbmjl5uCJ_axNHxQ1y3fLVW66xtXH1KnzD3PsxpizejcydkEV4o7kFKPWuemGpnapwBuG7acGDcOoBF95SYzpFPRnpHWFrVbMxi2TMOeqyfvg8J1PI1ExsqkhsBcUIJhPQgqIMFMnT8GyppdsADTHffzVeaBFGsjUh-MdjWA",
+        "width": 4032
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434678509419993534\">Meghann Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMY3c9XDA_QL46U0SwiftFEIlNWxQ_CrmNXahamWcHukrCVmc-TDXYExdddl0kVV19awa_DjGbXVrZrrdQ6P-YX16ycGkqnMtvpoilRb-vr4aLU8rUjvzCmvYnWKOS50GFN1HOhuCOom8YCHXbuHIiXbzNiAJNTF17d_85rimCBtSCf49nSqbKpUE8xWrUzsGGTbw37fqOIK8IVHc-S5oWWsisTHu0o3Ar67SfVfrmGJlCX1PZ-WKDNo5yUfeoC_3UtK7ibf1qbIAQ6jDVA2muz3rW7u3tMbu6GiPjMny1Upbnvzb3DZuoOnocJeSFUxqI5umph6rPPe5OlSWu-2SmYhQOfFI1BcUHkTANfCYLa7y970-kMPEiTwinJvdC4njay4dhAbhea_eqMcsIh2lxdjFg",
+        "width": 961
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109434678509419993534\">Meghann Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMb0nJd0TFGikuW3NNmIsKHokwxxCTx0Jl2vpVyES9TFplu0wIsezCyCXRe1OlJwenzUrWpBBPA2nqKchCiZCj0Dm8w40RtFCYF_JsrCxp60DLkZEaq-0QIdXZI8-pDR932-3RlD0ImP8AJlZfRqTlsnvFgVm7UMgv_zUkMuusLrSj-b8jizStgFyxPWDTDKKq6NSsBB3UB7YK2Pdj2iEKnkbMYDWkuE6DK38MZLr7G6Rk0tClZdPDvXed8AZ7uDTDV3BqQRJVJumBmNVmR7jvcxzybp-JHaovxQEv5lQQNdmWr3DFmQN-r-06sCGZqYrRyE41NYwJDv-MYgtwZd3uMgZ5ncBU1LhEEgMuTFaadJt9J15fKi7amqRmAf_0h7Ps52EAe7jnWG6dTym7lk-pyWE8BHgF8",
+        "width": 961
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107317082943242666574\">Luke Butler</a>"
+        ],
+        "photo_reference": "Aa-ngMYmFqP482yHj8sfpA72A2VNeG75P02PGiYpQiA8ZtLSs2psVBjxYnNXoE1yBwUoQexqMHuZtXFVA8Kp2zNio6sBUobsx1Myo_oSmYVcZBln8yIUJjz-CF1PoBZ8J1VZ5JrcShOuAbLGGx7W32Hz8SVx8rpYpNN0R2ZP37MBirz9XkPEDiDnaVR2p9gpB96n5tsINFrDfNbm72P9k0w5QYYxL0hEsYuKT5ibul186-VxcYD2r6I_3SggNvqN-lCiz2biqcJxKXWxExcuCVAX3VOBJvFZFWlD_EyPCfEujuJNn9-TyVbkNBlvFDbyhD9EQHN1A7qJUUogjrEr_DW7ooL629xiM8tjvMrWKgIeVviSSvL3CyHg8itm-O0kg92FI6wtb9E4HenAWqDkmB928JnBzC0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107317082943242666574\">Luke Butler</a>"
+        ],
+        "photo_reference": "Aa-ngMZdvDbvTi0iiQLCg0WgdwRAHGDm4DiVFonTeAJYc3nrNZ2D0XhBjnljsfYhuirGrU1jsbJbx3re2puF-7Kk00hGTXMPuq-7U6IYxfYsl6pU-wvO7vFuFZtVVf43FA4wS405gq4PdDKKYuFAF5fwzilEL4mZagy9PSM80TBu9mss2V_SgFc_qqupZsytgZl7MrPlHyMQVviDn8PRKvWZepcqmzSTznRA4pz9PCK34k1SJ4l4zXNW682i6hCrkQpuy5JRCx2Oy7KPAd-1PC9osXn5Jp2oFOItWCaI8XEq3s1jy2JjLiY4tRaBoYRb3_mKw46GPypl4VKYp9Off8MXy4y_v6xMrg0lT2AQI8KCIkeLibD8A1PEOsZ5FdO5sDHCIjGUU8tpVBPOT3QXVxR89bBwW_KP",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJcZOx-vUFhYAROdqr6Lhemkw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5519828441566534201",
+    "vicinity": "1352 4th Ave, Napa",
+    "website": "http://www.blackcatvineyard.com/"
+  }
+}
