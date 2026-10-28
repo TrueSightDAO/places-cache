@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:48:31Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Zialena Winery",
+  "place_id": "ChIJcdahRYEPhIARuqKAiTJsi60",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "21112",
+        "short_name": "21112",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "River Road",
+        "short_name": "River Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geyserville",
+        "short_name": "Geyserville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95441",
+        "short_name": "95441",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9682",
+        "short_name": "9682",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21112 River Rd, Geyserville, CA 95441, USA",
+    "formatted_phone_number": "(707) 955-5992",
+    "geometry": {
+      "location": {
+        "lat": 38.7164425,
+        "lng": -122.8939374
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.71777908029149,
+          "lng": -122.8925998197085
+        },
+        "southwest": {
+          "lat": 38.71508111970849,
+          "lng": -122.8952977802915
+        }
+      }
+    },
+    "name": "Zialena Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 300,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101551813032991125839\">Zialena Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY8kzj5xEqmhR_fcba8-tprlGERWl1rqLYXsvLw8ZiLMgAMHWBefVzcejpjENkdK7rveB1GXBB9e94bpcZrCUQnulvMVMsdefK-IEJrKlAzkWPMF9n3k0kakSF8PFBGCmc-P4fHowd1OS-1ylCTHZbJxUK0fgRVVCBAPdzt8fOdp0k1QN4bvSUleYgQTsJ7baPAb6NY6_Gw0lJPZa-YR4JEqw_h8zAVD6T9ECqNzT3GpuwvS88D6uxYr4KCj33X95ymcjTvgSR2iP2OrVPc_JsLxX1YRBwxRlgDbha1tbdVprzeZ9PYL3v1phpV0O3FaVbuayxPVskUMVxvwsYQWIrFcoWdOnptSg7GhsCekjHPOE7UKwTcJb4E-ASZvvIAsLNTmAQ_BcMvGhi4GS-0AQ4ZYnQ",
+        "width": 500
+      },
+      {
+        "height": 682,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102117722304781831429\">Zialena Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZFXyAHATGlmvGx5AXPnVfXPiq-dFqb00TTliKIomALKwCA_haiIk7F6PEhDHJ4ATx17yZq_j7SDa0YUsm8bP8a2DyCgWtWT2uUXOLi9tQUwD_kZVsmvse2E9YRZDaLPA42em0FRpxagcfqjLC88Evp4Cdnil57N8SXnzpZKHqit5l3IZH6Jx1Ge-LrU_cyJzmygX_wU5sejyyTWvgDDe8hrsevngUB-25-zl_vAKm_eqEnOUzVfaP6_f6uPOgCu9kOHGtsj-E_be2MbGYG5NcVAIgZt57f2PLBgsupNHWXqt57G6ouBl0PN8sbYeRwOYxt0aZY2sbj1GzXod1fZJ1chomzkzwRotwisAA6TnOgRFvuKfn0RYpYR3pyvPyO9brhVAlMrx6g3VTvkwo-pgexupA",
+        "width": 1024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104104063399885200718\">Anya Buie</a>"
+        ],
+        "photo_reference": "Aa-ngMbDhYu1mDQaphtVVyc0xtA2nyYhW3C6w8hd38oLFN5PrVYbKTNZZ4SW9IWDNkwEvEKv01Hj3pcKb0dvvYaWIQgk3VqRwJD9RJ8d9J_o6eiBM3oEsed01sUTHYMZz-0FHEhTCwZpcYgf_UJLb-Jkna03vqODcVanToYBBAiUTYbXpXaVgr3M3Kh0lTAYHv-PbAPd41rUCdIc9Iy3P6IesbLBEBgoLZTw-_tUYPwYmjlFR5bNZC8z1Sg493qIzffTXWhgE1JEeqJ8ssCkqs5dHYHHjP0f04u5J0Z4o8oFd95edPsa1fFRNguzEXvjSOpbkSdt-2qzSkYAT1Ii-6REKdO81-qllno0w_IHrptRWuteb2VA1PP-MjwOMGfKaAac9sFsMZrwGuWJCHsguwoi1x8O2vSR8WctBAKCWB2C8sAwqg",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112863420193926969817\">Lauren</a>"
+        ],
+        "photo_reference": "Aa-ngMaQcyUz7HQD15ReJnd-e3dTNk2U1T9ez8D8b42FfbNnnKWTUEfiiKS0HdQRPjllvj2jcv7G9CqFBRoI_VrHcj_rbhZcFRmvtAX2A9_rMv0od4zVHay0qakpszS1wI986qdaIZFI9hIh6biOZhbXf-AA9NG5y_viCYGngIIC_E_OR2Z4Y-q0TnCvQ21lsOUl2D1v_IacB0qhI4KY7JISK9tc838qECLDPTvPE_ztLkEraXMYW4rfy1V_76sGTZTmOYsqepdKMNmkA0qXfwFrW6rV_aPEl7D9bB_K9uAKl6CPANFwIrPfWyMCE4OCe-2XnSV8k50hMZBLoCbz7ZuWxcIEN60elHvKXI3FlF_CUrdncHZAA4rcrbNyyLOsAg-YoefzArvWOwMmp9GOYbPFB3fBAWtqo9A",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104039208135080222155\">Zook eeper (Magoo)</a>"
+        ],
+        "photo_reference": "Aa-ngMb1QMUgVZmk278WGeFebqINiEX5IS1-75Goe23eYJxIelOBzej7wVbr4QBQijEUhE5JddDsCKDW6_RVnnTpEnDH2JjmN-0jH6rJbO9G1r9R2-bnvNf_ord962HgR71y7UPCtysgNxSVHdpb2T3I67snxvqxZhZhMQ3FMrXoqRNghGjEfHRXu2llh-2sngrfmZnuGg_PwQiRxfel1PPbC7CJ03B5LtQS7i1oi7gCubcwuLNtMKXkWoRXzuum3dTLG3jY_7YjC-T4KN5fUq53aaUH7xqvWCj9iNRDGJGxcNiEWVDtl95QSESfio9CqZh5nTQ3OvTcpqzQaoR5fhBlygtqiYorQaVt5ftn5HUAHGcXunSwa27n2ekw-2bo9_hov-uOLdYzPjwb4VtM7oNW0FEyofTFm-ypUyCgpQV5gifzfA",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113237272722540154843\">Alison Lum</a>"
+        ],
+        "photo_reference": "Aa-ngMZQTX5BEG12-bhedk3QFgWM2GGqQN4eL1YovyLy430iKkPR0lu1QsIqnlpJoVFKyBdeGBRBS4end2bZNF1EDx25udTIuLf76dNuSY86dfVuFqqK9a2aWeX6OxKGw111RqCjuBLaK0I3WDVv0LtOBHucOc7iXPCwD8Dm7Ydprth5rzBN2IjeMclqEBqYTsV3zezkcV5j1GGaipYBR_zSL3mn7TzxMytOQE_jxxHBEk7CzhUa8rBPZ0CLCtHE0uSQaMEl_QRUmIlnpgAVW0Cw4gMJfcy8v4bR_tK9oGtBamirwk_iiL-oKQet1ntNC80VFbYU-7SjnUfNe_A109wnaek6_VYQOEXJweEnIA9H1nWWLfJaXSAI96Wg6EgGP_T2JmUfljHBmSH2zaSrypDpedj13qs",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116659129985118187670\">Luther Symons</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_-zOOwQC7w8sIw8_7NX265yWgbjpL56JRqzY_IIiVMWhjWbw65RtdLa1gfdZy3iIx5E0ob635LyshP4p3tdM3T2L6pvR5_BYBykaVCvnPZfb5nx4eDD1MxRFA_LzCi_9FC3D8AE-ICbehT002ndG1FendALuDO5K23svhofO5ppAl-FNP9k5YXNMfCJOOJaErMVSGtzCZRKVwXtNwweBO4BhY5Hm6caZU0xUpo5Q84AL1yRpEoj6zhIeaqmYTwzZYPG0wPAcX2FJX8T5RLxBAreZDpz-URMNQAUywPgza0--PKBbQi_SR25kCcqogQmanV-IR52V9d6F-T77dsA9Trz0XPXjF4UNytLxG3pbtQtALOc2-MQH576vOQKPxdMxZ7TY1nQj3GlIMWvw9I6BiXMo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMbBFHmS7IGPj1AWdSGGuwZJ-5rmRBFk-BZBcGNwxDm-AVP-o6rPF0CZJnEpABuAe6LIAu7gciIjs5tDCi8b9uosVAunbB_1VaCQ6i4rvDng4Sac-g7ZgLxF2YThlFSpDqueoIfrhmc6ie2FG67P25K8jyozYWFBi69qOEIS4C1yyB-z9uM3sjcbOtd_3_d_1IwnHiWExoElUMTZfI2x9tE72TbFLMWrDUoURt9xV0lwtRTRKzn4CTLU97q3VZ0ucIBN7QD0yge6bHIYl_mNgtSJEgSkyIiIqdhtiBtSV25Irn1i-SoAit3z50o_X86lzRLvwGLMiotkwUZCLFb4wUbZp25II6liunjnBeDXGG1wxmlwk5EiFUNROl1G3KhfOTZCfvptFQYd6-NB6pSYk7F4s0g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109597086556065502749\">Deborah Vandenboom</a>"
+        ],
+        "photo_reference": "Aa-ngMaBLvr33UISy4BKPxeN36v3f2Y5bZpEd1aEpr9xb3d5ety6-b8MTTgQf6HpuuZiB7Fyi95n48L_pViOPZzRqojOn_R3Q791adCnLZ-wt1heXmCEDb4DO4k2_sln7kF2DMosE1x601F3RBzCc8qaxpbfKh-MB-W5XnOeUMj53D1eTaMlu0eBsWkAGla-e3mfuRLX_cZUZ37ur65pwRfOZO_-cP2JmQZe-hPKXqYJAFafVv2PlPr-rSIq5Dpf-89D62OX1MF--e6CFaX32SybrAK8_65sY0w11DmR2_pIXvxfnpjBOB5_npCyM8BZiCQt1Ag5kBnbXOI8jXTlH5yYu52rdmgYX8JhuhVIm8Ic6Vo1nja6B6wIxdIH44zJNGXrATKEFtSAwDrVi7HTOpT6QcdkkwXQxzHVe9R2STjw_Swi",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100610773655114217893\">Logan Wreschner</a>"
+        ],
+        "photo_reference": "Aa-ngMYyT6X_VyEyqvvARozQfN17Caq7SUZAHrbLnqxw7vgP06rmtDl7xaQtRWbXPP-liNrc6RbhaZUwc8XkR748lcS6Q6Mm56euFqGTK40HZZ-b6rIR_cXLjkDov4c-IR49MOPWpSL6m22tMOcYyc-hr7LWdch25Gqx-hYJkE2xiAsHMGNqgUv17ZOij2QOE1TXY5yGIcHpTzBMHxuHldoivGgiMVN3E2SOW_YuvWxpUf1apTDcUbJXlZH_IJMrN-h_yw_y_0TsaspnJFjwuBjIqWJrq9iFV4VfiijVOCIJiB10JIfdlMFeUhz8TrzU20O6cESV2fgIZNXtOi-MRvZOQEWXzmbK4xByv0f6nKBlDeD-3U84oREyYFt4TrFnjg7DWjjqiTYfZJ8DJAPIS1e-0IwT4c3ak-k",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJcdahRYEPhIARuqKAiTJsi60",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=12505207754635387578",
+    "vicinity": "21112 River Rd, Geyserville",
+    "website": "https://zialena.com/location-hours/"
+  }
+}
