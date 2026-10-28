@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:47:38Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "LOLA Wines",
+  "place_id": "ChIJXSOUDohDhIAR8yZ77rNeN0Y",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "916",
+        "short_name": "916",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Foothill Boulevard",
+        "short_name": "Foothill Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "916 Foothill Blvd, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 342-0623",
+    "geometry": {
+      "location": {
+        "lat": 38.5747589,
+        "lng": -122.5786223
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.57609853029149,
+          "lng": -122.5773554197085
+        },
+        "southwest": {
+          "lat": 38.5734005697085,
+          "lng": -122.5800533802915
+        }
+      }
+    },
+    "name": "LOLA Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 736,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114948044546253169981\">LOLA Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZyMVPHHXFnuebVEuSMej82331rYxbZ6mE844Vtl8zDgkfDdKhEdMOp4sm7jeRoxboAn73L-754yEIHzYiPTScZ7FQbIwipVjPVbbcmPb83UozVRw5R0hRJChdJnEo7ddjfr-0mZvUNQ1vYYaU1ylK0x8PTiHhrH3cRvoXaLI2aWPFb8RZLvXYWaQymwt0msFa3Kn2fOPVRJq8_OYyGqKdh-6PI8fo1eUFssn2EchB05A3Gjih3mQgvUH8zgHvwCqShZufFHRDsDu6x_uzpjzqBiQIaC9ReHypbIl1sBarp6A4S3xQ9pvejXBnhtNUAERvmCcZK-iPDYArTpyVFjrmViVvNniVwRyV8kmdokogTANr-G3bFTIJ-sKqJju8enXrFAa010Omvap-cxtHLn-tsrx71kiw",
+        "width": 1307
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114174026797672826789\">Eliza Singer</a>"
+        ],
+        "photo_reference": "Aa-ngMa9lXRAs-I8YSFOizZ4Vr6ZWqsflImRfWNxGozFwQFdOz_f_FB6CysB8DbgOJBLpmhxV7UtiOehOuqXqncLfdElitpC0LlxavpKKhKQYeXhDCStLCjq7IPns2OFEC9SPx7tWF63uIcPsdsdpDn8fFLhJyUkkrCkA9IfAeHdLhmkwBVo7Iu2L-a2U_t7b_Bsn6ZO1Hv9TBsUhNzyfwNPA_6dDbdRpwaGLOZ_Lv4XtFfA5fNlOeFbgbfnPX-TdUMRc1OZsQryGmp3wAqzgLWBoRKysscjtjAVwzFJAs9oNW872SUeQf0q5pmWKNSV_rNMnl8Iy4qGYosKu7J02j9XPHkrZzzgLLXrJKRFByNrE9DzuZISOTrkoKB-02diTsrb6tHUB17_lyC4bhORm2UCPtiYZTL35MEq7aokYz8mRwIuVQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100273833630572827202\">Michael Torruella</a>"
+        ],
+        "photo_reference": "Aa-ngMZuXHd6MmDbijwfKZkU5Dxj_7sBTl158AyEugyrUOLBVZ03OUvSSfcvlUB2ziRgpadKr7wBNABLhQo0Sa6GZK1qQprVYvCp_l5kWFyfQvFHbr0V8FlEVmb3Xmba3bAiPMAWb-9jIf9xS14whkzpNsPp8jri8qqvwSk5gjqlEzgCEqz_xu4s97CXi_wYPLVjQ4Q0tsRGv08hK_Q_ro-EfQXi-6-vg0IijA2391T4FX46ryWmT50JWf4wS23wpqg95Y3uyBZHbOPEEMd9Z-vsJzCYS2lNk4EpMU9S2glcjeWWlyPFvvLfYeIfbZeMb5o2uZJrv-mpf1D4yY_UD-j0wS2h7WmMzTe1eHt80zVg-gHHRB_AJ4NzcZVNvylxcqQYTL-j3Ym1HGyd6RnIBLcIU9lq7LXtOx4",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110953928142948746939\">Christiane Trottie</a>"
+        ],
+        "photo_reference": "Aa-ngMZzes7zDwKy3FQY4S26mwQFNN24xJLdVkfK9OKPzimC1pu-byZOcCHhgGKjexESAcwAcyz4oUB-Xa7lkoItnXnZPMFqebfkElxgfPCwVVc1RxPOhCk8-ZYu6JwT8B7nmdh6j-8wnE9GbE7IgQs6K8QOd3iPkFKrt9fJCeMqKE2vBOgS4hQaommzyd32go9HgXx0pyGxS-LTNW0oB_aARVDQM6QT4tAgGH3S1_e-ksFBsiULyR8ODDrQq7x55405sNhNpuaenDC5lkkvzybLKHu2aP1nUfHU1e56tQpJPtQzE1d_8NCIXzQ-c8Y6u3XbSEjVNlaJxkVN1gR9-9OO3MUneMY-G586I4wZazu8BpNBfuJON7bBx2P7jO8hv2KG3-y5QBZLzQsEqzQeTQ0W8qLJhpaR3MAVRT0qxdS_emmu",
+        "width": 3600
+      },
+      {
+        "height": 2961,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114948044546253169981\">LOLA Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMY1FDd6Gg8pSxnKJuPuWs4Ie_7T0LJpCKfrXyWNYBXUMBTToYBsn3O9ko81UL6h-l92rahkFk6HUhBFjVbA-H6odTNAGW-9B_Ka-WudNAwHqmcKlLR54JPCys3rduT74dd9Z5RyZhb6_XgxBPtY_zVnYJemlxG7F07Ny5a0gO33gghKTZ7inNa6WN0Izbd30bwYd2GLelFu4VQR1XBsIJkVGw_2wOeLCZAsRte-G4kauN_b6QK67PToYqB7ZfhKjDx6ZxnkcIP2nnUSgRwyIiaw0cy7r3P9_rs5FoVgnwdtDprwsSwMOLG1iHEDkBfHQ_6E8emuDwB2xG8k6syCbtvOpsoNsZXaE4Ro4WtIhHWxbPZ8kzRKvx3Bx7iqEDvx7NfHCucnQrzFHAFRBx0iU6BoX1A",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108882063351146109526\">Annika Halstrom</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9nDfAFNghxcW1Ct7tk3EsMjqDeFa0GygLFMKMutjrAdB9H5akWPU0GSmbkOFRFJudY44C14c9LMe_1MXjCfNuLiRxDdEkgC5ib4X2uDio1VFVaKUwVpDe5T1IWyVke3YlSB5VjqhoF1J3FR0FyHFUExxatNN6F8soMSf06JL_RvKzLFk6f3ZRDAa9FeWog1vteyczEhguymBwqbmDKT0eRa4Pd_lORTJjUzYorwdtLLoQ1txRnjJGmmtHTAUOdK8B4ehejIUTL2NdMaPhJoRqgJdiIMeS_ZK0VMv9bt17FnyUj7Z4PklxYy326jD438DvE6TZ_l_Vm2VrOW3uGZKSLcEyvyF06B2QzUwV2wei57fIA-fInMI3GFtroUbTXw_OMmtXoDmYThx_tViUfVHpHQusLQAp6b9effLFEhoLyg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108486743913514307098\">Kristen Bunger</a>"
+        ],
+        "photo_reference": "Aa-ngMaEoy2VjsrATRwXA1aU-PBVFgXGndXiU575QWUNLdQkp2qjq9_3oNPrHMAC0Z6YXP5pqA0KqIq7yfq8IS_u1uC9MUAP3z_3DOmJW1sPG-j2MwAIkwSzU8KXIJeB79iLUYp6udOGmtX9e3Agt5hSp28kx-JOJiTPQ-S6m5J_aerP1sWaZI43Vd6bhSS-80yh1R81HBdcbsmLkJIFgyUr49UEcUmJ3SOD0V2oGkpfxyVcvtX7ntT67ywIFPBbOoLvya2T8wS3KuBtcKWXXWKAaSJSUYf_3-i3bg8mjcaD7kSDLEWUDc-IIfCCWH0NrLQPbQyU7Z_SATzd8_LybQQuseAvTyVEY40pD2hVP3D7cP5Qi7jBbXRt9r_Onj2BOO6hUMkXRFqUSkB6ElqKCCKs0DatpWfkJCRq4X7YCTA0_d0G",
+        "width": 3024
+      },
+      {
+        "height": 2998,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114948044546253169981\">LOLA Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMaCTnhi8IJoc1ZzPQFoEqQZTrDOCLprMvKxhlUoUJoacTP6e7407plg6aUmItqYtOPyMovqwOl6QwmNS0P77QMNAzOyZ6JSwtCrMSQiKU27U_-03Vsz2vr1Y06QboCs-4-G-GJ06FCfPJy67rU1UM8Ov7gVQ_-qew3vtOBRZzzzr4Etj_xRBqYDzqafYnImYfN_r9RIZykfnhhgPcG5mS4y2oC6Aku-6diCs47pwqdbceD0Rg9Mzw5F_evEuVsV6HQ3dP9H_sjRnSMQYFDYRqwcp6fZvqcHLOTS5_Z4-BbDHKEo6_Yfv96IXvb_5tQ__cucGXhxohrnEKRC757Jo5oWUdSk-XsCDpgqyETQhEtDm6LRHqwzHQC3ePsWAoZI_Ll7hx11hUax_dZlLfy5cUDLXA",
+        "width": 2704
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101969886354419598351\">Chris Joyce</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9JACFu4dVWT0LLU9T5I8Ieztf-tgPDLrA2dtGSCP0bBqNEvDnralFJ0-XVMowFteUPP0llLv-JGDQ_TnFVhTa4amvCXBMKNNNEd6d7iGJGHSWdULaButIRCxgNJt-6_q5DtlQrVYDkGiUh8YuNDiEkVbIh4eWpLnH03JOsQ3as7mqZ3_Np84kM4NyMpTMv9RcTS6WSkaWmcTHDe76evhyWE6G-choUBp57LyNuCBHlg75UJcFHsjJDyJ1veutjzRbj_vLc7Vfsxl2zr8xWJSAaGZPeQqpUX_jTlB8HtFBWXdrfea6Yb4HWa_LNhebnn6E_-Fgz7RS42GYlm2GJ5YbCyXbgokdwCGipXt1tL-AXSXLe6CV4lWSfKRnv5i7U4iHUt5vLY6ouR7l9tDL3q-QajkXJiqwA5UsD0TlNnBGSA",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113518556041795100254\">Stormi Leonard</a>"
+        ],
+        "photo_reference": "Aa-ngMbs1kDO2n0cYB6GQotB7FdAwE2okCKgcF7rNW-qcQHht5gpwZsWWJVo5ISWv36qBx9tAj1yr0FUucYXp1z_l0fKgLLLII5AP9fc23clU2OkbrgIzTCvtVVspoL4dWb8xKyF5ejenVLbkrGNwGRugTpoDB24U4lDX3xuK1-Ea4Ao8oh31cKa2yxIy5ZYvtJxxwOSlxthwKW-rfx_FNMP2K3fbP5W-XKcWZO8r43jnKFaYy9WQwKNrI42MSdYX0DuksDoxUAmIxORVv0E0G_VrNgqyp7pVa-I0NEABKgEXPZXHBYoJdFoLM_HghUPiiE_GHCW-v06QxkImBtDdCZURrYlCzf08Uvu8w5nbOexNeHUIM57WcqE4Ec7vgRKLCHLW6tREIorQ0mVPp0uKpYUlFmOHH6217DRs597NBDH-PspWQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJXSOUDohDhIAR8yZ77rNeN0Y",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5059616833267246835",
+    "vicinity": "916 Foothill Blvd, Calistoga",
+    "website": "https://www.lolawines.com/"
+  }
+}
