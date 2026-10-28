@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-10-28T06:47:26Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mayacamas Downtown",
+  "place_id": "ChIJVWDzjH4HhYARAIKWWds5Ru8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1256",
+        "short_name": "1256",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street",
+        "short_name": "1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1256 1st St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 294-1433",
+    "geometry": {
+      "location": {
+        "lat": 38.298323,
+        "lng": -122.2878557
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29956938029149,
+          "lng": -122.2864810697085
+        },
+        "southwest": {
+          "lat": 38.2968714197085,
+          "lng": -122.2891790302915
+        }
+      }
+    },
+    "name": "Mayacamas Downtown",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109935896227419770341\">Khurram Faizan</a>"
+        ],
+        "photo_reference": "Aa-ngMb2qosC4vjo01intsGg8UkxF5FI6jKISyHGizksjFCIDR_dbQuDhrfxl6DETNkIXPf_wIcyRrm_HVWnAXBNlA8G-r1Gt9WEhsXXE9aj4wUHD2NfKJSxGXWj0JPEUUsTEiawhSpJ7veekXuM2l8cxkMVfILGQEZ0wZ4Evx6X5G8Drm7yIvQC_os75BJeo7QAcJmBbueygk3mPozu5xarp484D9A1HFYpzNzsA2wPFBGIYCbnUjK54Rjc9LxcG0c-emtQPjAWqc0PlyjUFglMPlJbXuG5X7wA2Cn3c4IBt0FYGvT0cMlCl4Io5Pib9uj__VaU4aL0JPVFO54NFaQEO3uqoi6eVlfeG5RbAh5yiSwUnmLcCF81C3yFF-CGRiaNNSVfkLT9dFo5bEXa3nJEhCAV1mjVU2M",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109011216029115651175\">Nina Cash</a>"
+        ],
+        "photo_reference": "Aa-ngMabygvttupVDUNfzNRNBNHE1dGTIPyC_EyZ9xOCEn-Rci_SXhSypHjnE_9NQfDOpTzOb2nCuba5wwjH6K16n3IknQjPr7j1ukCcpwK7-SjrxIMqbzZpnijqb2k9vsp0OYjELYQFu3jNsARNIfnG402npTjO0VhiBxCItIHEawo0zkHFTF-luQpuFHth8ptBXjUAqKMxB7FG0svlmcY390ljbsdWPssli_n0BgMsc_Cwmj9w94AbWgJ_6VYXIkdCgkCCjYX67JXOTFWBGXe_XG0Krb_lGnjsYMkmRarn2CILXwXgxnWgELi8LK6GW-ClJH1LLe_09VFtaFQIV9NPwfg6ysuSxKT7-DYyN6jCot_cbN5uJuH4ivjZln813CUSqUhd7bfhFgNy5iceGS-zqmwb6p8R",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110446230346301521847\">Mendocino Drone</a>"
+        ],
+        "photo_reference": "Aa-ngMacwwjgAME2PyYyF-WF_fbxHbnWc6hAVHzXJTynsjcMp1_DjBSMkHFGzlfVfuZ2Y3DsFhEToMp5oiiGK5mIpqXE2bMjrK8PIcG-jDXr6Zo4owkLtsfUwWWlHvzhfx_hn-WUjlRbJtpjwuKzAGqPiIar0edipWs9FSpAIgtQSsZnDAG_GUGHYw7hizUmIEMGxfwQs5DdDqT5XFlcmtMTJfMixUL2jFwUwgA04NzU1VIj7CICh-g2WWKLZ6BvS-eti1ChwflXPxlBSOHyKjgal1N3mmEeCQwCmmJNxmvwCYlo64eMDRdIBnLNS3uc0NuuazzZx7gje2hMfE2QjZdIk8mLDgLh0P0OOLbYalLtEuTi7JolX7WwaDxstC5Ez0xyk5yMGyKO5y8TIvK8MsGtJK4X6hg",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104953327847599785753\">Frank Taldone</a>"
+        ],
+        "photo_reference": "Aa-ngMbiKHEiVSwF7z7NA_ek9UFYTFSgzoSHRip_zb-ZyaO8hK3ZjdY6ItiZ2W9brqPnGo0NQ2EYV1lFGgi8A6pjsSIRo91AuLMyfG4Vc4wF1DmHW6E5VEq7iJj_R-feCrf80ixWbrDN8QyijxPw3PljuDlJvl2D-zm2_qxRSp9KpbXE9AbHrFrDSnyNTi5P6u4rXkjnHVBDRxyXAjr9EML5HSxrUqQpFI3_hQCqdVNiOeQtFNY2PL_xCCvS3oi19Y3Q-uBKDjqpMRMU7V7Ttj07516Km6o6d715sLnGKx6hcbS8nnpUEh6PKwZIFWcfoQ_9lBuKueQhkSAgBXrXnyq9mgT5HrJUWliYVGmC0SrzW1Ot6Ko6zaqcf3QhFkW0bglGMPwCtzZgVgsCZrbXqI0GAwOfJ0MEiMM",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100319864494910408909\">Alex Kim</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3k3YiML-xDh_38eTkFZyV88CNceVObxvp1ySUTg0hH8vYP4Zys_tVie1Qa2rNsYVUB8cifWXFGPqOpbL94b5EFkE9lvnhhGl5b1bGp5At5f4GC2WPoouj2jr-EuHl_-efXdKqjzjDA-aJyGME9rQYjnvYeCgqcIKyp4Y2766Mz4dHCo7OGau0zG8FVB6D78sicvKrbJ1Hk1jXd9hH3ZBQnRB9mYnuUwVvCkh6S8cUT7pytfKKBwV2SqMc9zDRQgXxl5bzq7AaP4VJqTTBY5UBPoOUQO4BD3T5isEmrou_cCJYfH5VKFNcO78XV3GdoD-KZMGXprHdlhifTCjtbLawr9rnyJivRPDkZdLKiAF_B0LJb-FDfylNPIsV53ZAAYbwmegGXXQPul9y28F89894isE",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117086707591240769437\">Emily DuPree</a>"
+        ],
+        "photo_reference": "Aa-ngMYp-2LLqa0Q8A3JViz9LdzT6hkMG1uIJ_sDBmMLI922IQL3DQ22GKq1yXGYpqInWYFFdLOHn7AuWk6jy2H6bpFy4r0q67XuY9kQ3UvLY5j4k8FzvBUQDqCL087-6NHHEQ5jIVG9XtKk7MKcUHRc14zu335grv9mfwGulZhH2AYmlEY2hit_aXYK5m1vRz9gQVhHdaoaroQUzCRMep4T6ZOQX0ZY3vDlfFzIvurOYSaRtwC51i3nl-2_SV0rK1WVV2GM6UhgqMWc9Q8V2VFI2tCECWhpimBqghBdbJvz4bzM2Z2pTG2bw1ySxa-JSzGtc9ScDoZujuxpDKs386teFPFRtkK7hw3UD3f_vYrnc7LbFFU3v4U33QvAt3hf4vVDyKyVimr5PZ9W4_W176kLTjdl4HEuFXfPVsSKp2QoAyDmcQ",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111410562553338975745\">Marc Sierra</a>"
+        ],
+        "photo_reference": "Aa-ngMYBiCsfMGU54RAnEaVsxJK1Biv1Ca4w_jL4l1XE2AaQKAkNvAHGEdYgFRDFaBpJ9idp6vE7XpHaV4KmapiNtdk-zXdX6bN-frg-94mVVmnG4Vw9q2XHa7daOI1joojRzHS5gDnBad1T-gfiVu1hYTLMqo48xZ0dYKFASRoirhh-_XvTcZ7-e_JKTwE3mUIVFDKo6gpVDi3z4OokkL4zvHiwf8bmRO48Np2A-0EBVp7QL2SRVuN5MozFovtHPhpKb4X5cIQLBUpTmDJxTjSARzLjpTJhuBjQznVDwL8Y80XyrdRLSTTFphXSB765Lr9CGOgXSADcwDlgS9gptGmremVXyVDi9xaGl3GPYJMM2tIPAiaZngv9OUGJIeXLDOmzX0ySNRllcn8RESoSpN_zn-yiqFo",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109011216029115651175\">Nina Cash</a>"
+        ],
+        "photo_reference": "Aa-ngMYsCUXaJTZAwBr6DroguiXkeSTLYze3oit1mmYkxuqK150xEPsaTWgDC_hvN0-xMUr0O63kRGg133oZANpiDWcomMVNByV1urYv6ousHuTSSKZeKhR4XaGtp3YSymjL5isPQQLFep9phpL4p9dTyenUMDtYXijP6wefbVdKSwjRVxCvnJ59lDqWH60r2dS5nwyNtP-jEFVc-of4v0cAkVQJK7bIb-zSNDHB-XemkcYsfX9tal6vupbvSt4U84InPOGINM8yJyY-EhfU3-MZZ1vUQRflGkDSlLUyv62fCZqqapWiVLkiCD8pIekQdW9GqJJOYzSnNWhe52mGMC_qb0Yth52EwZXqUFwe4k1SrNPZyg36JMHXD44ggJK83d3lJXImuca6L6i1PouO08Tr68CqdAJ2I4Y",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106467301346914499832\">Mayacamas Downtown</a>"
+        ],
+        "photo_reference": "Aa-ngMbum3fG-1kCO57vT990addxnD0Ocr7Zx4sckaoIqbVcIfN_4FHG_laPL3priVtwAv2LRbm3GeTBKJDislwnhMe5iC3WxAAFgJNTMyrq5rWCegXFEkwSSrTTaP_rMwDURiyO7f8gK0CZB5E3fsgcKSiVpNaZaBkNwvsjRVbDEyhkpSVfYWL9HLjx_D3OvtFETA8n4Xz2GfeW5-FERlYdrKureqaCH0x9byaPddm8BFcltu7Crt6edKSBU_V5RqTgLH3mRACmdiUI-bkQLsUa44ArBK7ZLbdnOUBTCbLUyW4sEBZQNQglgyIzt1YoaR0rRHKo0UN1p8Ygh6q3L3zT_H0sTbK0rrWwlJ81gjPSiFROkualOvQx8Gx8HmTkos2D-CQpRSdLb_CRUhR5uq7U5lk9BSz1BHI",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111410562553338975745\">Marc Sierra</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-mksacEnXvFr32-llGuggcdvhQLEBCXSoL2pEX-l_24AVx7uVyJka7pE2dDN4gqXqjGGuWdk39TfFiJw6acXsT2J-9nVigMZcSH5LgdznPM0gJSYsf3A6baSKtl0eot_VE1f2kZULiUxB4IKs7ARZlnP6k8yY6T_OWOfvEWgQHPyS925yRZLG8YsC3rHtgTaKt3D5AslKZ5rWqC4Hl3I606SWPLPlLP_65YiWFIraUwHnqmoH0RyVbld72J-iRMA1SYSb-l4Ym9ArfRfwdGGB4_lIePZ3_Bz2hiJX_nFInPTctrZR2P9MFihn2OXhW3PTxQPPvo1zJ4w5Zvs0UnNxi0QY-seqQm9xJU8opCHQ1AgRqynqp1r2Lnl_hVGQnvN6-RO-5e6Tg55Ghr76Jrv7ig",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJVWDzjH4HhYARAIKWWds5Ru8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17241531837698179584",
+    "vicinity": "1256 1st St, Napa",
+    "website": "https://mayacamas.com/"
+  }
+}
