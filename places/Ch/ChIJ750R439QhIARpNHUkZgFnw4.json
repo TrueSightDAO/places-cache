@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:39Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Spring Mountain Vineyard",
+  "place_id": "ChIJ750R439QhIARpNHUkZgFnw4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2805",
+        "short_name": "2805",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Spring Mountain Road",
+        "short_name": "Spring Mountain Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2805 Spring Mountain Rd, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 967-4186",
+    "geometry": {
+      "location": {
+        "lat": 38.5070904,
+        "lng": -122.4921781
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.50849918029149,
+          "lng": -122.4907872197085
+        },
+        "southwest": {
+          "lat": 38.50580121970849,
+          "lng": -122.4934851802915
+        }
+      }
+    },
+    "name": "Spring Mountain Vineyard",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108485312184962939444\">Gregory Hughes</a>"
+        ],
+        "photo_reference": "Aa-ngMZYTH0eOy1xyZJ2QeHs0VDqx-Bc8YDx6VuY01tENr89sfuD4dSrKU23RhwVbAKF_cW9YiAdtc6WXcvLQxdUwDk-o8jTxXgvoul8WsNJsZl12M7qn65doQ0C-Uq5xWmMeslxCgeT8pmP01lQTEMYPHPjz0NoEEcEajuO5w-kLB_kai30k0quaDaEgZicbz9jzeo3-X1ru_c89k5s3abpy10JSJHAFjMAbpl0FbP69sI-U7S4P-iNJQsPxb3s6V8pKUl4tMVeiFj5G-8XmXX0jlqLpg_xBYBv_SfsZzRQ4EsYZU8_kichrl3n0_99mKfVDTE1rvHhzwA5I8YiMVMnwKfZP7U8cNixClCiMmqv3RV3jf8phVYPfEQbpYqcfhA_CkC40FJzjDX6uzk9bchydXbptXzAurCAQbvLL_VsljqAyA",
+        "width": 4800
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116373793630066477833\">Jeff Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMZk6RbgDmh3RhyvKKsP3wQQjpAwc-ofdmCdnEx6mjG0hCav65yPK6TiZZqpi2bQuLHYFn-tavJ9Kkq5o5vg5YcH_jwPv8bnyt5txBF8nschfZ0NE9G2mXeqCoWKOCjOG_wPEWTYa_dov7OBC2pGA0JyzkAN7khSX4xDM8TgTMrS0BPnjPwOBQm-oJagCWk8Q3xJURuFaoPXIrSmxiZfOA9RGWdU7IYbjWQNsVnTQZnioxh_HTpGmAVr1svtTaM4MbO_dNW7AhFeyCp7ejIpveLkPUOitNGCI9AZ64y6VGiwCn0WdMAJjOwKHu1Tzpt6phhiOhRbLjejoEnWNfqoE0pRmaNL3pwB9NpT_zHIrNlkHO0WrPztUpNEFawuS-rkn7F-D1e1ojX9cwUB-ceQRrct2eo",
+        "width": 1200
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108424374961867429429\">Kade BP Hutchinson</a>"
+        ],
+        "photo_reference": "Aa-ngMah9ttT3Hr4ICe8AdOEg5q1gxEJFaRb5KuVB_L5aitt6xELzzZLZPV27t7YHe9pM9PRENF9lTYOFOTUxtP2z1-eLNB2500-f75gjNCvchnHpTc1_nSHi9TzXuRuqupVtoDmLrVzMu6DGoFstGuNQMkIOXqYbXHBEeu1f9j708rWCuzGbpS3gJq7fwTOZbJcfkhYrOBePNngsQ8AoHSqm8j9u_c7yn6VKBKVIfoZe86SXX0Mv5oYGjOLsWfbspuGSJtxm-P47s5wLppGS0qOqXJoLD34ERoeDEz83m4g5SevWU4X2fMPCHGtLWjpx9AOVa7RPpUZytJoCrUkuxj3_K-mgV_G9Hq88v5z98apyfwuIzGDW0U33cyVdH_9DlQtXrpC8JmKUFL2xh47mmLYYEuvlpn8",
+        "width": 4080
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103325818724832495810\">Cameron Penny</a>"
+        ],
+        "photo_reference": "Aa-ngMYn73wUE8VlbQ5Fm8mtdWaSU0au_k3NJDqUV6B8PDG7Fo4Adyd94pHE1CAEYrJlPjXkZZa2bDlukvKKdvYniNDUIpz7CHy26ktgFrTLcORvGdFKhE_mVDrhmeDjAdOVZzrNvRtGcUvoUc9eeOh_1qGivt9Ofp1-x9lEe_IL3UecAgMXnPfVTH3SPTdQ9IkPe9GZmwnUGdkIGYgVANgJhJjQ-gKxKTu2j6HY601Bpk-NsxXlw0wUR8RUZGgJJKgWjU5KJEbVjgqkE3NZBuN-OiHE9j_a5vt46YDrW_b8JhXVDBMSmrd8ZsqG4cP-j_DY0Hnp6_9-MPdQdI5Po21KwjDe-3jErmrlUWNq08Wp_ukJq-ZDdxfhAEoASIKXb3o8KQ7bUuIvkPEMOSOX4Y2LEtJLWu0",
+        "width": 4608
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110742501001647552518\">Pamela Liu</a>"
+        ],
+        "photo_reference": "Aa-ngMZy7jXpT-TtMrHwQ9FTmaqeLS1x3BwVYOyYukzsDOku-t2Wi5xJaP18SaKtkHx2CEp0RCLgy_b4v-2--NKTK6IViAw72-OjL61qtKXYDQTAJZSriYtsMB8iVTBnU1tKhFEeFDaFB2mxGqCHym8FTuQ_lM84mRKDG6SnEkZqle_BRsOKWqGooocJ57lBNKogDS2i8JkzJQjF_KcyFZFXzRxH91CYpBRLTeLcdh5w8TPGcIIjV7Ym2NtwBk_8-8tUrxMeGUSoAJH9dYaLSCQUi5tNV7eKLRRjaaiZEB37XjaASCkjlTDAYfXD0EYRBE450xLgKoABnwdfIB30IVLJLEc2xWbg4nLPkdL1qIPPnY_xBHa_BN2lvZInDPeCrAITuUYSCG_QKP5IFiMnJL_EqoaRyVc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108367245231036312385\">Chagas Disease</a>"
+        ],
+        "photo_reference": "Aa-ngMYKQeVz6BATpqsHaKvI2OvHf5ymjQJW9Euppsg7NunPbfAtO04a_v2kQsKl8gT0ELRQTspS1nkj40tkSmuMU-iyqHaokwQc3V2gfeDzZC5PaX6_ptJoarTzmF_45g9jzATFQLxCdihsPhsJOIUoNZ8787o7muBv8-tGRe8NqqR6Nx4M3Hym2XiZvnMfZ4vS_CBSYH2Hzew4xXMP_hbAJb2YvYmlfRLWrhDcPD2SlISLNmKzWQWDowUFbEmsQJcXf29asJiAxRAefHX2R4kYeTYo5gCJqnzeuvexflbOLVcfuoQKxP6ctSyjTCzpJPPuWlKOqdDF6uZHoR1qFdiSz2UIEwILQBDrQBSvbNnv-9GWh1FIrO9smD-mQZqotr54VkO6oFOB8R0G824ln6iuOPH20vNBx7o",
+        "width": 4032
+      },
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113503546833713547435\">Andrea S.</a>"
+        ],
+        "photo_reference": "Aa-ngMYLzzawM3dXr5CPmZrK8Xgz1QdVzNKdse5lFRxDhWigVOLDorPGGQJ4QxMsgZl58rbv9DpbB-QU3j95P9sbsSWUwQkC7C_C8L8blG6dRJNDwlrZ6hFwBLqCrr81AawoAUxoB_nEY6zzDymy4cRA_3Fvtfnbcq5FbKGfA3HKpEwzGg7fzW0wZ8pwnCWcRDqjkFORxyojLUbWdoi-PhHZ5EXpVUp8PyprO0u2rmrzn5gVP0WhK3LtKY8tLT0GX8JSPwAASbhomq7BksH7gcKgOGYhQ159iGpn-ikZeR_u8JSd3Cb_LWH6Gr_qrtdP07Tx4KUuV442mGBvk-eYskuB6mah7V0JzUq2c7OSs4Eanzju5C5euJDNiYPsv463SOgo0IX6_OFZ9Ubk4j6LPhRMUxcs-og",
+        "width": 4624
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113665851801949655165\">Mike Shellenberger</a>"
+        ],
+        "photo_reference": "Aa-ngMYTFW0MKok16WJLjoOAxF4020RVLU24nMaYdIt9dIUhnUKrHCEkXCD0zsAqx8QGDPiDjMQIjIpvsiVdLFngJ_F4zfyUMl6dpa7XXAgCc0dTvhXDiCiiDaVTHYcvNILa9vuQ9r7hTSmYjymaG2cw3Q-f2vGIFaiyLWbJJGkBEd2xpRdRrJAVz6t8K8-XiPk23NOtX71hcqQmEfP6NSEB_Ny0blw88f57d5Vd9IEWfXlGlJlUjQ2wEiCvL2D6V59Z1Ub7Z7p2WD_E5UHBDtuQNgDrjBn-JXtQxmNlnKsjGfGmm-Tcrz8lb1b3akl6tWegPXduQ8zKndz4WQePrhRvg2kLVo6I9Woj-hETKiTJXmG_BbQvb4kSvQwqzZ-0fVYOHYihKZf8Aavrpb_jVoCzqKVmWYgl0qsHniX7Vxe1ZHzu4Q",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107045469951341743915\">Ryan Schubert</a>"
+        ],
+        "photo_reference": "Aa-ngMY8xV9aPWf1eICPRdJkE-qLg1jdHac4TXOcAtTopB0FmLRA-TJnG4pmdtbdugMCH6ZyOB9pIRWjJWxk_eujlSx9np3lbnlrQvtJsiRN2aTYWLcBbD_yx_5-5GyDNmP4jggYG-AAdPzSFMJEgIcy214mpdr2jCMVYX9myTOzeRA0b8wYw6iDOIsxkGi5_3Vdv7vS73pA7fQpaNGmSnhz35h0g38BQHOW7qS5Mgi3tCB2sIedglyCuby9Au8vqOnzGDEi8fXhrqlJSeSs7SRg5gH--JMnx_Zd8TX4SPbTsuTAt1HEMqAPWEVaCPzbBovytzHfbT8HueTp6RFwBJ8y8UJ7YOgrt3VvZZw9-EAfnsPZRk-5bpM4gNKOW940LQFVJohV7p7L1-MiH8Hnga5R3oxcZRQ",
+        "width": 4032
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107222926279340248734\">Valerie Paxton</a>"
+        ],
+        "photo_reference": "Aa-ngMZEKwcgitne9GSbAxpHpVm2ygwcJXc1rgRd6A_eEHXLIwc9lyfM6xJKWa4s_vPdw9xBPeYRyxxVrvwynraH6CkQhg2MtIKSIgOoCR3SehKHCCEk6qtVgbPut9Wsk6dGE7leYV_0FL5mTBEhmIzpW5JCnZQ9NNeYljj-Qmns9CdHZo9Z_Xg3D668m0up4TINSAZ_cq_t5aJbGmK5CsYcM2NQvAQJxRRmaHAAPMfqqeYPybIJBlUicY8gHduON1S1LNE2WIFsnN1bZ79wWLAhEb-rHPZUEkkMCpfQl3N3YUsJAMSwb4cWtQdgiCdP6VrLK8DouCWhgGWGtmjxyQRtgCHUXzWKy9qccaePT5NnlVaHtr5daoPXMOEv95D_BlrQ0H6DZ6Osng47Qdgw_yTFgS0hlG4",
+        "width": 4048
+      }
+    ],
+    "place_id": "ChIJ750R439QhIARpNHUkZgFnw4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1053566990667796900",
+    "vicinity": "2805 Spring Mountain Rd, St Helena",
+    "website": "http://www.springmountainvineyard.com/"
+  }
+}
