@@ -1,0 +1,209 @@
+{
+  "fetched_at": "2026-10-28T06:48:43Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hindsight Wines",
+  "place_id": "ChIJebMdh1VChIARBc7Bj04CgHY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2383",
+        "short_name": "2383",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mora Avenue",
+        "short_name": "Mora Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2383 Mora Ave, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-9000",
+    "geometry": {
+      "location": {
+        "lat": 38.5952332,
+        "lng": -122.5828153
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.59650833029149,
+          "lng": -122.5812823197085
+        },
+        "southwest": {
+          "lat": 38.59381036970849,
+          "lng": -122.5839802802915
+        }
+      }
+    },
+    "name": "Hindsight Wines",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3123,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMa5V1sjR1FuMNjaCgEfo8UEGn7_tHC5zhewFqTyIZpEIRQnBsx0xklI6IP6i6qLUYIrtotAPGDCriO6hCR22Eao-BcnbAcHKnfMDcV1hPsMKvfEFiQGr8Fixumc1cQp6Wcii9UIa9xUPCZzEOmGOCPVGug2KHDU_s8iGWpIcXFd-8pIdqDNstdGnuTl_FoB8VCT9iTSPw5JpSqeauifJ2wHxqLh9hJMrAnMF6YHljKTV9epR0wB9SDB9ASKs2hQsFY70pXbXvjdhescITV4vkuwxA-m6vthhMNvYnzpudT725fag8HdJZhGKA0aumbxrmkieWdizvLxw4VlIcVIxgXkOSk3HEiccfvl0-BMoPBFY4qbVMX8dpY3LLffME-UdVt9AjEzMPmHwL0RdIeQJ2gZlPUuCeXlU8KslQJhpD5cOw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMa3YVHKr1vJaNcyfRHY10v6Y9ZdOJFwOPQ0aa2LG1fWuxLEw87eTEy7vryIWHbmkxuqdZ7kHtT37HT3gNyd0MiDW42LOQRXv9HWTke_2nWaoveXqT69TuiHPA2OPkkl3vvzVXK5fiTNgzQnQayNzUhjlSApxrfbWkmam79hObzS1MNxOzHbZBSQzBGMuvGgUHPfY6H1QKlhPojGKF-MK6T_A_RSNmmkoyGipOTiY0zdu1oMo-iOexxqGxzBgELICzoJs1AoBiGiPtT0IW7DlHzA9s7T3jnPp99GFZMn1pzXwcGr8JEgPEUNtI9IaKBk0g3F-hNYlDYibDTCaJVCZArTMKHt4D7nfn2Sblon9y-cymtIVNy5olVfeStcMSt5ILZYE6vsVEG0qYnfqMbKcruUYwwtpBD_ezRulfRhIGVwxg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZkUcohe2c03LtGPKTJHg9-eeUIImXUyV4mjwQTkluoigpk1QcP2rRd9VLKLlrbnkbdo7OC7l447I0eZaKsTAkCArojDWjqNfgMKZnwS7P7fsxue0koEFuQllu3NX3kuonpDx3u3nJUC0xMVJmxGB5h1tRbiXCREcqY-eaY-EoNql5m2y7Du_K3XKXcaVqrD23fup1TuLwquT0DMVTOtDF6XYdfIUN6gLa6Ep-eRBhi15r_fCD_PaTbEOnfV5H_49ElpBCiKvEtPSv_RBJ9UEXZ1SK00Emt1aCihysN9cRJ86hQQcU3octPfmzSTS6iZuoclU_4WBK_U_3WhBvBhi0Bt4qi9ZxTId_Zt7SHMgX23G7hVfKPtZb5p-RBxNHvcpa524T9tSk4PXaN-iP7NRAfN6_JBI6y2ypKKiYKLyUpZA",
+        "width": 4032
+      },
+      {
+        "height": 1097,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbLbAJSbUzOWaxPTRC7EVPxxO4dkvbrOOPjcstuO83Pq7azVigcwTZTBB0Syp_ph3y4j38Rn5uPjZKo0cdj4jbNrgPV2pFdYnQ2n2vLcO4uA9ypFmkqzAO1Ki1RVyRBQBjQN8tD5bITpslOjQN4mIo5oSf1CKj0pyht3--X8X1rXgnEDVd7bWZceQ1FXCZLlTqWzxF53komsEhgAcfgwGs69PZardJz-S6ZuJclgrEcdGGPPivZkHrqvHfpfx924YtDb-M1-H5r9R515c2SsPoiCx1yb1s877UTklL04aGGFhj0QCy1E62mWTTLMc25fZlUB8MnFG0kUZpc7xXFym8eil2TqnzgiAQQEE0OsFYOc2ZrdChcHoZoxu_jcU5jzXlM4WBQ3ZtAu4yEX2CqpLhFdmFY0xp5R0PkkoU8GROWUg",
+        "width": 828
+      },
+      {
+        "height": 1022,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbtNTmmEepnif5WSbm3X5ePDDRJcx6ID2x_8wo0Fj5O4P4fSGEJI2PC_5PQpFosE9KoFuSQeE1VATyyU9wQRjhouHEDMQb5yi1JkdP2VY60X-QAHVP8dQseHjoGnGXVrPXsaefetlrp4fa4khnOv6VsAl49UAyPWb6sLrfZ39rIlqUAmWr_G-97RNfF9VtZN1UtGa1GSRROQfNTfDHeBM7B3EFXa2qF5GjHah8L3CTH3v9skADlWZgip585ZK65t6HRzZQsAyRHr1xMigW0uEAhHS6EDFaR0huSfd2AS4BKWBy35VbgJ2HQ2iFsQxcm8jUaETd_-GaX2jDErEq6MZQGPYtF3AJjE7n1V5vSJJ_5uSsVk5MrRUQ_GMJ4zBWHzZT1D9YYYFDl3oq0yBEhf6fu3SzQWOdq1QgBv7256PkuPw",
+        "width": 828
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113480466712548381085\">rachel sapir</a>"
+        ],
+        "photo_reference": "Aa-ngMb4l6N8H9E8EWkSGe0rmgiupCLuYuu7u90TZBjlpZDSjBsupuNk_FV76tsEsUkxD94OT28OSKRGLlEuRDbcr5lcSZSYUIyZfes_dL9rUs-NutgSxzMToVFq1gwoDQIgXtV9WQCHfjPtVc10JpZ2xPAqjPlYwps0UdeMfDPhID22Q0BSlBODGws5YFtiGKMFZrQqaAICPh9MTPKI8u4t9hgQyvUTj4zllBl6TKYR8-Agg9SJS5ozkKFz5HYNGuAA9IF4NP-ZPaFf5Qa8qHahGctEbHxnsL1YozsVGzNXrzTpDlqVhN3Zn6K1vK-AMBajxNeLe8Wgki9jDY7VRL0DXCIQNPI0qtjzOMwDK8TyAteEN7D_R0c71xuGAHty3VD8vyrUjFte2-yCDMPeOcO8kKiIhl-i__I",
+        "width": 4800
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYryRhbIgY2gPb11QJkPDIlpdBVNkq1OuVEFPN_EAE4w-JmjAVvvLHBVIjY6FC4tyI3AzsAty3pTw5LBfehfHExmWDqDxZXILXJDoUzzvTHhIEXcin7dNlv6AixiK66C6gzzb9Rne5_2iT0ZffTiszJCZYa1eaH5Q1K5K0t2z0tlY9YaPPX9a9poeqMlSrwFkqW4wjR1mnNTbynTsAuKoBSYDOlZicGnimD7FiP-szFC4Pe4QqOgVeN7sdlt-VV-M3cIDlLPVdtxApMjHtTk2RDXo4UegELx4Y86gUx4DKDgZjk0XOXof1_PgOjQelQEHo4JLaT96_CbswfscFnKQF59q-xGMIFNg4h3gvBbUgP7ajVosjzinnmzgptgEpBLMHJ36tG7WcC8334K8utS7f8n74",
+        "width": 640
+      },
+      {
+        "height": 2800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYQD-DysVeMykLMhpCtO2alk1jdJZRzLf6Ulbr_SZW1YHBEaMBq2Zvugql99g7TupbLb4bjhXKZ0rubgJ3SovSzWUZZ-6YUTmfGMHzvdW5a4ZtpMeIqAR1iCY0z77-ebAJATiAzfp7sU6ZEcw5f-K-iopCCI_EpVdVyEvPZ9tVaJdiLk7SwX_fG_mSJGoxMXaMHvxsZJhz7utYtdU3s0GCp_cfj3IOmk-msmp1GR_xOgc3y0t1B9Gan7ivzPYbeOCAPueHIQTQFOakZxmWQ1Z08wnHrGm-XPu17pJ7ZZKrpIy7i6CtrJJvtUUpHnL8meNTTtptQDS89627-3RL3Db9OwgIb6wVedI8mI5-qU3gORESopmh2MmxN3s8KD9RuGIUGyWw-NOzIqZ98zlnXLp9q6WmcZXM4ovf9B8oLTu92lA",
+        "width": 3736
+      },
+      {
+        "height": 277,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMa8Qd9WOlTpRD-DAmdimralBvUpdzAK4Z3jsQCRwkJJz91_3_S50-KS0jJzGY70gpMJTcG3_yC075gdjPsQg6TqnveNXAmCp1BLchePNQjcpQ9TillU_uEAv8tAvo7oBCAWPz7NXLCzJftQXizUkqZ96kpXn7GbHKleNggSju6PlrCF1YHwzadNjTo9zaqfjp1oyAGCtGUzrC6YdhpxIr2SP68Y6U0ZKU0CubvlYFpBa3Tu_iAwoT1vWJLRkl6e2YqrDU7P8HSkeCqWsLPe7qMLToMdv6py_25nbsQK38xWDk7LXl6QYmroBvI5XRzxNYw8ooKUP1Q-d4lYtRECXSPnhQC83t6UVmsH50M2ZqzjBF5agQ1WttxIP6rBB_ckhODXddWKp0j2oa01hYaEwqQN4y-QR68GpyCHlToU4NeNkg",
+        "width": 495
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101622069969472319328\">Hindsight Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbMvGrrVzxhXTUcWeDYV9310H7HEFHBvA0-rShNgBhIEhoEokSSu3baKFlTHIvWiwP_DdENRbbOXlRxEjyWwnGb3-j6hinIQ_MsndbqHS_LZVWwny27unGZitoeHLSe0-MaeaFa3CFqIyCvUJeElmnd_aOmiiUGQYQGMoK5agPBsBvwbJHhtAcUgzWXx9VLXDmwKjp5B0Qq7MXL2YlW1GNquw-9j9jrQFeFSvX67uT4KztyLyqVlrTMxXKoaaZpWXxwMqkKCBPxuWpt2h-ljb2WrHpQgaRW_SCOXMUFiBblk2Z2H_WrEKwHHTP3vhxoVfJNzIWHrXH1GHLrzNyuCes7IUKhw2X-PjqUfUERErP4pHTWBHPhe8s1r9LgSwk_69eJ5O3vF6LdE8YWpKeNAQNvdNXDbAmhCpzAFQTLzwdxaw",
+        "width": 2016
+      }
+    ],
+    "place_id": "ChIJebMdh1VChIARBc7Bj04CgHY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8538827429937008133",
+    "vicinity": "2383 Mora Ave, Calistoga",
+    "website": "http://www.hindsightwines.com/"
+  }
+}
