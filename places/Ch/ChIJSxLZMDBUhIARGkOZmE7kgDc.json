@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:00Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Cakebread Cellars",
+  "place_id": "ChIJSxLZMDBUhIARGkOZmE7kgDc",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8300",
+        "short_name": "8300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rutherford",
+        "short_name": "Rutherford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94573",
+        "short_name": "94573",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8300 St Helena Hwy, Rutherford, CA 94573, USA",
+    "formatted_phone_number": "(800) 588-0298",
+    "geometry": {
+      "location": {
+        "lat": 38.4477904,
+        "lng": -122.4108888
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4490965802915,
+          "lng": -122.4103793697085
+        },
+        "southwest": {
+          "lat": 38.4463986197085,
+          "lng": -122.4130773302915
+        }
+      }
+    },
+    "name": "Cakebread Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2826,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103958120604976236355\">Cakebread Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMbfPoO5LLhlfVnHFri_crcLLlI-yaA9FtPWCMB9zctHG5TGXBIb-dWQBlFYxDBs2KU6jzV5Cap9fGOotd1mWvYYI4kT_CuGllINvH5l7zaZREOVg2TOlGSQNCo1f6apW2VotR-cr0MwfdIpIze-1d6Sjs8Qoq_ueZwsnj4QbnCYzFweIWtpOYLmepmb5tzWaSwm1XYh-xBo6QxyGcZviTerCLQMUg5P9xiJ2u4AASVfxGCwPbP5i981CKLDWA3xZRZDveB4hROOZHhT2B2Npiq3PUM-rTn_xIOB8DfvjGpQtXUzBEfyT4wXWj-NDQ_NsnOzpeKjE2zXwFYrCFPIiPkxcGcqq_XcLYpaXw5m8dUJ2t69CQ0PacnA2EQsvSJLJjxaV---AfrOed0iGjyFyuYmLfv5YwY",
+        "width": 4252
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100601100520154132607\">Andrew Simpson</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2BJHlkkUHtNudr1ONK8TD43b8MDok1WXKEmIoXigv80rB_tX-YD8hpM1QqSht4A3XrspOg-iNY23reWGGclKsBzg3p3YXv2PVuIcOjIUTye9Bp8jwIfW31cVVS90EKFGGrMi1f-_bK3xxm6zPq8SzYH4NYhvJMHmE-jbsfLcj6sehU57S_RHrKIM6b8QTNYhDd-8ZaK6vHsZrFv8b5ru49Wotm3VNw5Qm39k_VDQdl8Oz2-0vK62srRJXzLcyOvPs_kxkz5D0dUSUqmWvnzFiUp1AMXVRVHtNyPI89QAybVb6bItlUoH4l1te6UVPEAVcVFM5gBKhqsJQnDvxCZE_CZzoir7ItjgPGiGnc56Sg09olz9pNBSszm0L5-jQBbzNctBGiR6lqrq1DQPUJc26F12tZqk",
+        "width": 4032
+      },
+      {
+        "height": 998,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111626789470658774052\">Bob McClenahan</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3IZ1q7euTnceDwR-feZYocjsev8I80cvACqZq81z_7OGXGxAxdxHctO1kKt_uE7ifItoN4u2-dl9ePtPsVYlBUHJ7ipwQ19IE1oSv8He0AEp3In-Id7R8tzftPkezMDNyVEuELhB2SB8lA0n7zfeiFwGs-N90rn9_J0dA3NEOJHFjMUtsi40tUJH-Pj1M8VP-6K6RZx5VOSBGCukGld6OE0q5aOc1wKu1JSfADK-vtHjjPk-XqSajVhhe6LRTiZUEUEkjRxDk4VKafjgJMLTAnO7fDJdUGcBqyQeYAVxeNuh-VVFpZhe3GSTdg8CDZE-15fT10R4-FIL-8Fa-DwzT16mLIT1LwzC9xUuGHz9t0kJsA4n-KxAd5C-TfsF0fYTbN9o3NxNEY7B_8QH4YxtxqLo",
+        "width": 1500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102153565806873593368\">Nick Balestino</a>"
+        ],
+        "photo_reference": "Aa-ngMap4sOcZOO5-qjWWGh3fM-0xatSzZofFzhVKZfmMPy6_uJlaBNok8KBklZt0tzrr3cd-gKbPEWStnbw3pKh52kol1FPDWzgqMsvQUF4BzQlRNhjQTcwDSz8O7Ss9AlC4NqSo5F9GwxXG-QiFIv_dvm9Bf6mk6qKpMrsZEoCzb_8_0Bkbk7_DmVSBLSgSke5DS-wBCmP79Fd3yX2d_e2488kqFcyldw3hFrY_82_KDkpYomnCgcsP5o0mp8o0Ko_ZXh-UvTAK2IexXywc6Wxqz65HONLuMckZTyl-J_3UI-LDhNvMWIk1rW_oRpHnGcZYpy2aB4kAfcmfJedwiSrH3iF1tTuoEIxemOKuRKUFo04kom652g4lRZDkph9Maz9lD8LJ5U0KLvJgi3Lht9iRZLtInA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109309608072029890698\">J. Medeiros</a>"
+        ],
+        "photo_reference": "Aa-ngMaBoViyDmsPFawZ9OTriCHFtFHRGGgXnaoE2rUuk3UeKb6QbwffkaP6-8ZvQwZga_8JlUooErACfxllIIoGGXnOY2EQWhuBKuuxfc9A8nYklPp05pNQi4SKbz0VIpb3fCFUmVuFdnzZL713t7a8LxCRRTGiwLSX9T9IlnvRYPz8PkRuudlS0ZCPE8zdzq3B_eHbVzCertZxZu89sErG1OYwzW-00vP1h_9roPfUQ-SiFn4uBdMX7fVzBvU4Zxzc5R-t0iCgquM_LH8HjeSFRRrPvsT4Ag35xuXJYYGB6B7wM7ADieD3tW-TSYFtNVtDwmxygJTFyNi3Zp_4tTCmyNlrOHkyWiTMFrYJSUGI_W1WFsTIxHYO00P19gEk0gnWQg0j9zvrPf6cfMVMsgIsoVC9HvI",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107257786728412355265\">Devang Mistry</a>"
+        ],
+        "photo_reference": "Aa-ngMb2QSgoMgbtkLc3HUvq5DUBgsfjnJJkjEe8b68Upj7jr8o6wAqqBqiFxJUeVxvAwvCvvLywyAVkQLOA-MGrWrr9VQFlK8yEdBgmUPLcFlNYuqHU6V0AFbiIrRs8fMZOIajBQjrZm_3m_4E9ItjojPc1h1s297xtXXgIjIE9Ls5BhoHGGql9iaxaqpXGpf2bAuPQXgzdrc6mk4U2X9hC1N7a6nWJ5oO590iUVsnQR2yHY_SJZz9cqGDv1qUUujbYiAGoQoHbaIDgXxz98fTIgb8BOcaMFsAAJfXLaQwHPfjwU2PtHGxD-8xUvGDZDtNXDxfU6JCBnyeZW0PV0sYNGg-RB0MywFbxj9N1iJqH8ubshXDqhNEHwxIjzOF4B_sUrIYmqZcEv_cAQHY0DTVDpJVyhWdGNus",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279097320989294629\">Kristen Bingham</a>"
+        ],
+        "photo_reference": "Aa-ngMZysRNJjZnMWLuXuFQTN-YwAOHwJkV1ktECWzXxs94Tan3AXeRSupg8NMHoYTCn7rjpWE0EmxcGbiFtmQ-wuNsjTiA4bdAUczXqjqFGAI3AOE5MVZWY_MO7pGj4lB8KbbuGpj8oDZsipekSVmjtNtywXsIF9f8s0u5BWYhgFbfnH31Rgl8Y5qqsVEnTWkar8Zz7x_fA5aMN44R4UsSE8w41Pz6o4fY-dOd6-tE7OJxJKvU-QlIi8YuWmVd7iusejx5SzKjzHZ43-UQTz3QIetsBBcIJ7v4Pel8NgzreN0l5EjHtavMJg0jzS_3n8RLnbJOI1pICUT9L896QkZLZ_MbVE5Td66RifAcYAaMaGbgf0lEK4ZXM8MvP9ecnrYeqWAYaEi7exYC1V0Fdqr_0SIFkL5WvUIA",
+        "width": 3600
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117302104102244258137\">Arturo Pardavila</a>"
+        ],
+        "photo_reference": "Aa-ngMZnH-MWK2duNCC7D6aGCO0RHm4rVjWZ6C6vy6vNB6lFtUgDuW-Xzz9pxgJ-TRqf9PTzcj87SUX7Rvk5YvEvoIMETE8i0mtFjnUA_dRRLFt-crTdUf41aXpVHlMr7lP3SU1Y07g9ILHgZwGNbyb6-OhmjCZngSXlWEa0oMbK4PZY9t1P3bOe-zzVgDWuLjRruDFXzhQTZbrkjNeLhN-GPmsUZyuJcs7kyQ-79p-23zKcUtWsZqPHZ8sDJaKUJWutv89JrlH7c5KTjnG32RB4IQY927kMhjl2cQrS_XluxDNyGsg8WihlZbopfTQZDs_tmwi_mnwu4-uLCWDDwlKAvNOYPTOM4nO3P59LzO-Ay7GSuQqABH-Jers-TElHZu4CCFQyjObajDkkjc0QrA4RgDTNJBZXshM",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100601100520154132607\">Andrew Simpson</a>"
+        ],
+        "photo_reference": "Aa-ngMbWxVN0bwmdVwDhY4C6G4DP53qfc2PptwH00rUwJptUs7l6aJNlsQ3wWjcF_ERIwL-S6dJgoNYtZ9Pc4NMtWlNtBykvyo8Fa__pEGbq6FhwxYg77Zq1avyXUG4VQenFD0_hrf2NRmNcICOqbHqCTuQzgQKEK_Iac6FXP5vQ3E6mIO9j3LBetRpRaqQUIK6D3JR5Cgatec1-Nb0eE0sw9UI-iQenJv8FkVQtJDdaa8ulEqjz_MRJjHAKrme2-QZywGOk-qXM_Iv4js6_3DU6uf2jMkpichBNa2rXI9-tAtx9X3L14wPsFTSlaezCBB-w2c-CXt2n2cl11PFG5bk9rphvGNx64I2eaZiq7p1687fQR8s7PJK5zHy5nE-Lmh8LggIMGEaA4uGF_05nSlsEziFVd7Qlfn8",
+        "width": 4032
+      },
+      {
+        "height": 998,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111626789470658774052\">Bob McClenahan</a>"
+        ],
+        "photo_reference": "Aa-ngMa12kRHdE-9bBpXKHJ7o35aFLknVFUCFaEOr4BlwlJ5rFrWwTqRFNZbF4TTdTiKFYkYRvnEvGCL4rhNElIMUEQlhCxuzIT9sF-wnaI0CvZd0ddhScvjjR9YRHyTBRzXzaNh5m_G6N1vYsHFD4JtGpaQnUTqxbmy6sD3Ku5chnE6DMDycmGhLNPvB-fkP6VLmazLZ_LnB-esgAaxhge_JHEO-ms3WezBUtfsdxfA9YfA5-mCIMzx2hQoLFEQ36LkonDNjIWIibRQrW7SWweh4EUA-S3UoTrvq8tF3gVS1r7Z1osVGNgW1ipgUeDwFq33grYwpWa1iUxnXGNe4Oyrt6cBviYNkK9zVFaycDtqYIXQEE4Ak4n8SrimaMg-XvgPhC1HkFZN4vG3oo33U1mdrgoHB055gfo",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJSxLZMDBUhIARGkOZmE7kgDc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=3999447495323763482",
+    "vicinity": "8300 St Helena Hwy, Rutherford",
+    "website": "http://www.cakebread.com/"
+  }
+}
