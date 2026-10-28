@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:24Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Promontory Winery",
+  "place_id": "ChIJ5-LZsFlUhIARRPhdS8XUPaI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1601",
+        "short_name": "1601",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Oakville Grade Road",
+        "short_name": "Oakville Grade Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1601 Oakville Grade Rd, Oakville, CA 94562, USA",
+    "formatted_phone_number": "(707) 944-0125",
+    "geometry": {
+      "location": {
+        "lat": 38.4219168,
+        "lng": -122.4145071
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4232825802915,
+          "lng": -122.4131782197085
+        },
+        "southwest": {
+          "lat": 38.4205846197085,
+          "lng": -122.4158761802915
+        }
+      }
+    },
+    "name": "Promontory Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109701840235340082019\">Promontory Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY07FxnU7P4q5OPeXHDAUzTEx_djUlqQMNMRSfDOuzPm3ip2JPHhIb2AhtWtIIvJCkRGgPntME7CAtYcmdSgOdBM1MhdPwtzmBjxAe4XDH6caEwO7FAjHOCobLCRiUABvcxKSx6iXwaenrzt3OkfkQ8zhnv_47Xe66yfiRxE0COYh9r7C6V9gp26MB443kw1__-GhslXv58hF_K6hk7DH2bPqDB5_alUItyeFsmhFu0UC2qXig3ow8-C7ZJJQebijbBIMLPycPseUYdj2z6NSHm3KgFAt-ZpgoF9KW6uRsKkphOmcFJq5q_e9ldCfUlb2AyoZj6xW00e3FumFPMK8YdeKryaXPeYobpwmr60QoulIyWmnCP8mu0Lcq5rP35Ck5i5h-SKPeHPZl4xWd5eWFknQ",
+        "width": 1398
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMbhQ-FsRG6FFGYQRoGgomuCs0YSWXI60Za-XVWCQtq9FHjK2gmyJEY1MhfCmowgzVI51cHzusA-1qFOa0U7yZdAbUCwov2QBvtGuowEN0T-ycXG6mIxNZP_q13mb6GmgdmtBxZLtLoQRTi4wfsgCVG1l-9FC8OeTTv1QFxWkkTMVHpxWUkx6eyGTxVirmra2__O85Y4csBbiWznCumqt1mZM3H-q-dKQewM-k3PS92vZ_mYqHePus12KFwN-KQbyEO5-29puCIcF0Gqqc9DrLfdE1JGjYGHCHjNrEhf0aJERi5lsmYbXHH4KNxLY6JUbJgVwRbPTggadD0v0Qx_phczC9K1dVMCPe_DaT1mlgsRn00uNn42k5cZ0q8yvYKoPfTuvxoUEoshJs4ELyn45ocOBfXa",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104560461279385030111\">Yi Li</a>"
+        ],
+        "photo_reference": "Aa-ngMYOM1w_tYIxgjCtbHBAtr4m_0bsw2aT8qGaJ0TV8Uei1pIE-s4CM8ii23OkKCvzbFuEP1-aMCXHuRe9i19cEX2mAy6Q4P7SNVsjov1-yT0JezOvJz-nXdaVDYtDSp7ZFZs4hIs3UZMktOkyoI00eLr3WL08dL9D3hBHSaVTD1EvWNgLyaiTNbUFMCv9JcW1gTQyB_dUUbso2ful8RVHdIjZEdn7nnPsqX9SoUhlMNJk4gQj9cd_G3XtlITQJsWRuc-79FXA3VD2IGlPYQxwSgrR_M_4RBijhkOmwvJkGDy6J3k3Kwr30q28fRHpu-RCmW6_01KbIMrutNWlmcVfiZotouzfdp6MYcwoKb25BTcu6I9Y5spDecFHiWOik0UImjuBNvGsckxmxwFs8tB2yvDoHDy9",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110171745516397643533\">Rich</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2XioaWiBh_Lh11D2OLhHqTtGh6o16IHvt74nC14zftEctu1JSndivElYazKJmbhU04G8yR4CRenIsnC7CYz4gHAMW4jCNqyx4ixzocBAenY5ZggXedDYX7nSkPBXQ4pgichwyX51O4QHbo356gsb3p8LVxLVDPmMqJ-1j0BtSzt-623Wx_4YEuLJFR6RMP2HA2Pmx-zqHsxHPChI5wD1bP0i3LJlQ4L8YvhBH5fiKWxueJCh_IE6AcxAUDl4VBT5E3Fr5hpNzrgOyV45dSP3bPL5iohtmpazftW_qWJPQgwVR067pQIuuw--RCUTuVhInpwCM0TFwMZTeR8vWUcJtqfr5uahsHcqIYj6zQCEMQHFljwJG-HMbF407L3GyuGXmXcQj5QTGBnbv6v0c40v7QXjZzxxIPRUo-bPuRBo",
+        "width": 3024
+      },
+      {
+        "height": 3226,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109701840235340082019\">Promontory Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbDAmrLBsoQfuxrXf8CQB6A19FEyDRRpDg-ddqwc3xbwQ98YKcCqSBMKmsQF5ZWi4OhWVLmQBkgPUW-GN2CTKDu1ueNlLPMQt275Mg2MBbYc-g0Fae6dMN4deXsTsygMwEYSZZgYZw3EI6XW1kSKycXSV-_kvTprIUHVws42ipi97SLXqazyEN1GhKWqdMsDtNKDiavxwICJvj8GpMOnqbu0ne7pb3OlnmdPLcWR5BZ7AjFAGTyNhhADjjDTHku0Ff7IIIAw_fKcQke7QcgP8GGMgjE3787Q83YYlLQUx6CBRufJXhv3WsxbV9UFSwoTITtj1R9bMOhQ2haYUq_0mNfvlm0sWwTCSsEH9e6CfhFf4H6jlsf_TXlXmaZ9DXUR_1T_I4d75PyQlfxIRf77XdWYSw",
+        "width": 4680
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMaeXpc0F9X85LzS_r9nmB9fD_IFbygqU0nk_y-op7UAarvB3ILMLzzR3_le-Uk9DK-efIoYdNYmRUaEcx8b8scPw-TPY2DaSM_HrDpb4BQ-Zfab8_J4xKqqZpw6wSqNlFt4dqwMubhI1F-CrajMYAk1vmCFF2-o6wlfVCDAMjZ5FSgyAlY3Dv3WSowGrxo0HFyz2eZuFLZZceO-6QYA3lDTi3EDzU8O8XGsUTNc7H1AyK2s-nm39KzQrXJUvqNkwUbWrL-Zpn4SYANtBLYActJPd9XqFv_qMUK3bszQoIh6EQrYixJylRqwt6AYy0hRZXwauHZ_TpnXjZmjOPMHYzT60Wj-zJXxvEMj-cJYx27Ce_dYckOnfWwfTxyfjwbhCzWehhyRkJ8kzN2OrhlaxSvMKg",
+        "width": 4032
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100159526993529271240\">Vincent Leger</a>"
+        ],
+        "photo_reference": "Aa-ngMZDN-m2assam9c5-gObZxQ_ucHM2yW1zhtrhvWKE5RyQXE1vy1fwhHDIsmDaHOMO1eKGzyJRLxDoLYLW8ecaT9a4CYMCiJ6O6M8fntjV7ktkp2KHaSo5lmRT_oANYT8vdahi3Kj0oPlEWcGQSb4qfpIbBAWgX21JBdeeYAUptETWgkeqlp76mlKyK8eLPMK331WrghKd45QAcEOUF1od3Gb_qpSXTHsj3xE_PCP0JhX78kSxCps1NG_xxNWRjC49xjs2Z51hgRqUqoYUcV8kHbool7gpy6hzyJRqj3UDME1j2go68YwQHBL2g-HfWHdluIPo3KYOLHgOMj6NwrH71eWESFk-0Lb1BH-rQM906_1RSbwss5sjYYThakjVl7Dmrjt81QI8kIAj44yFjX59TM4o_o",
+        "width": 1024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110171745516397643533\">Rich</a>"
+        ],
+        "photo_reference": "Aa-ngMYJLY4Es-6MvFxgo5gYYwANDMsa6nChBIAFdREGrX50ulCVzlbMfkUQqOZV8r7hEiG79rT6EqvRpY2_puArmJ4tAr-Je2Q1VrTgWqVCT8X2KE1ScjTkGJzUyisQto48Qq7PbkGJxCE5E87DkBHCI6ypY5R4DVXTmJK5CwZkIhlOhsFPECNGhbv9gpmGiocHSYAVDzYzWLVFFhUG6jUzWfIs8Pov-619CxS-GZqIngLA8LcQukWjRtnXzS5wO-7TO-BV5ke-lN1STvB0KpiyJ7Er-T97j9KWId_YdT8w1pGHA4K-Q_0IC7P1gF1xy_Ox8A8J_jGKzN1sH9V1zxzMbPIlKe4lgIFmYaQGa5LkQqDZK6bzxI9rGRfv8D5ydrfFmGncJSQyj0mtlMi2kWcUw-lHvi3dBSLGKVTAUEYNAOVxFw",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100634688516050568952\">Stephanie Kua</a>"
+        ],
+        "photo_reference": "Aa-ngMYgTJ_G9JgmsxBn7DC4-N2qahxG7MCbeor7svDSVCBx8yilWvJg03icDqtcWS8wEnV2_R96I6UnU-d4r8Mv4Bf13V5wTz_hFOBtaQptThTX2scioY2VOiTxGC_YP8rIxmg-Jw68G3uxc3Q1L67F0oObpt73BHcqYXlaaSiGOECrvE7x4mTuAda4L0HEuMmexaRgn3RCzA_tANOQCJtTsUdkhwQ9kyx6ameqn4LLen7YHVF1PcKFvN3P1USfwkJmkzTfIVZt8SySRLyt0Repg38DsSbqm6lYJrZx2fmKvscS9YUrSa1ruBhXTeQ8xKgdD3KXvy_SF5v_YmijFJI7NfGD4KjYyUHO2MPr-vWW0VkG4YcsSZ-4OkFZltBL97Iv4cojPNXpTiXs1Jsazgx8zPFvJFY",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100650146047131808219\">Sven Pole</a>"
+        ],
+        "photo_reference": "Aa-ngMZ1SbRRSM8w_FB177jPD-HNGc-E64nMdPQUugzxQbgx_XEjeSDdCLKAaTVay20c_7VG3KvcAvJenbNjZf__w623M3Ub6j6_uUCnyODuSw-DwdBNWd7hGy4oNmB7Mh4tWspaJVrcV1JTxVZfbffi-HdwE5zxCm8M7uNofqsNnSOeQW32ILqhmHYyHH7y1gR_0CoFW1AtEX1r32vFDaHbA501CNt_EfQX9HUkEspTKzEgh5laG1QVkvVL7TmXYn31apODhPhYJZlWFaURGwVkQ3a6W3d0-mTzsLqNETAqTRa2QBc7VulDGTEpbbhMz3OjdHX6I7M_Nweb30ydN2cUWvkXF3rxDwKMwjGlpK82JMR3_Cx9_G8c2yMea6kSDwgZ1_bxLPn-clqxbBR4pk3b_OtcGww",
+        "width": 1868
+      }
+    ],
+    "place_id": "ChIJ5-LZsFlUhIARRPhdS8XUPaI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11690734151561771076",
+    "vicinity": "1601 Oakville Grade Rd, Oakville",
+    "website": "https://www.promontory.wine/"
+  }
+}
