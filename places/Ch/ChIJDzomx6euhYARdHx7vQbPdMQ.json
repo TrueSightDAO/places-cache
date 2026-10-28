@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:45:18Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Winery Sixteen 600 Tasting House",
+  "place_id": "ChIJDzomx6euhYARdHx7vQbPdMQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "589",
+        "short_name": "589",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street West",
+        "short_name": "1st St W",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6638",
+        "short_name": "6638",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "589 1st St W, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 721-1805",
+    "geometry": {
+      "location": {
+        "lat": 38.2904079,
+        "lng": -122.4594463
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29176633029149,
+          "lng": -122.4580891197085
+        },
+        "southwest": {
+          "lat": 38.2890683697085,
+          "lng": -122.4607870802915
+        }
+      }
+    },
+    "name": "Winery Sixteen 600 Tasting House",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYZdOn58UuE1lYSnjtNQ7bPpBDZhiXySbfba4VLWCkEwYR3nLBzaLyUUr8Ut9wjSyG1mbnpjwFdjvtbzZ4iNSrJeCpryv81k0d_6sLIIOWf5zREaQYARgdTqntkuuR_X18yUEZixSmql4yRz2r3-msAaXTjNGD8NOc3R6MnCd9fYF6RwVLMgxqPdYG37ntRVgE_t70SkS4yOa1cLcB14NsnN0DTFlMGlNCkV-eCN8MFiH_6kAKQA53Uafr_BeQSrRj-eVxp49fqplSt1hfcl9c3CP_1Vpc3oAGjIk1uHEbVLi3ZytiaAP6Fr-_6jfOhTTRCwtIuWhzKqA-jOomVsyv5e5gdBzLWxu1nC0_PWY876YQZiiLDJ-SjbFfdgVKc0uf8Dpfy_pj1EnyYJpKafe7p8is",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMaV9eHHlyVWu73DotqQGVDpZkqMH50ocdtoHJmIfbLGUXMfVg2b9jk01Cx0DqHYXlog0CIPmXFfZ_OinhDCRUY3UjdjvbEtTsy_AYFdmQ61_sMglAUx4fcWgllhIbdHbRGIincQOztHOjvxz5ZaPfxOOn4sm4XY3ZHQUG9F1oW1NeidTn1vBWPdVaUDQixvntlEaFBdk81Tkko26hhZ1h0LOPMajGLyy0WkmAEzXVVDF6yfjXqvCKrzUJTBmUJdfWjPxAoqxmkuLsVNxJuYdsaXJz0obFut9QKHMHuZ-QnjR4n0yKexArSHXLnQvv8X07JVW6_Y0jFjZlXGCXWsZkH8qryI48jUpie46o1J3op20Ibd9ywjNsHKW72n8mgMxtjL9j7KXCyHmhvOeSNMrGHn9feGr7E",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMZIrLk5bcxVF-nlvxzGtLwSRr90VitFsTJHnFGxuo12XPnMsDURw7AcMV21BEmdIJccXXcZ0719mFAnOo0k9mmj_--qzKmkn0ht4wv_TmjV-lbOVMvGk9oxtkGQiew75ca0L5NoGqnawIYh4g2dM3KmFYoPdIsUWT41xargmuY8BLatJ6i5hEBy7E8iQCBKWzJTOHFXiXuRr6YFSrq6XZ-t2G2KoTVqSARF3xHr_Uw_-8GZbHKV_ys8OKZUtasgmEshvWlR12zHS9p03Tx89rZ3Z61vrnddMe1Y_FmTo_u6efHOMbJcVLQNzExu5zCSvYMXNwvDdT2ozuuj134gpFDXBgOwrJq1UtHGKtTymiYdCeELCqH9-MzJvaHdXMfalGWsSTqTWWyaawhJ7TACTrLMioA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYM-zKgBO5lxYzPiNJVV0vqrkkk0L0KS3D9iwKrMiqHkmv3-VcnpKzufZGZkdO5gNx5lXFLuuI_g1gwIh43yvjvrSaLrbJGlNdYxixZuoRTDGVfMAsOSVwrsRBEZZdINaoGwtApgGwMK1O-HS5-ento23d-00Eb81l4VwD-5izw_rUyr2SlnSaGvAt8-KxMkACopRB_Zguwtd0Hz0rdqbRUYtkSMd2Dv292BinpvdQ0L2of_9VyykEQ4oeCcZmrNMHAdGM4HO_Tp2nRlJZ1w7ploPyNtUsYoYKlTSXZxetepsmumCVQjhAk38OV6EBETdw7xLtfZqeoKezxVKD44KQCypSy63t6vvfmbY2Nuf3FymwH-akxNLRb6TK75kSGi5dgAnbZ1Z9dPxV-6HkeiNNQMdg-",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbPsjs4BoxYclQr97weDwpogaQH3pJA6RhuInpyBwW7zEzoGfnf0GFY6eo8ylHsE8sHTrSg7vmoFbMPpsANKcutg8z7lCww34XtDJXewHH3sW0qfq9ouxWdZUqFayDuEM46z2PPymxgwiFKKsLWTd6HBEjfNvYNTpPcItcdFcAhlKtMecfXx7A4_fqx0WWsT5vn6MwxbOEdDAKQ4FqHz1zaj6f5wdr1UEQR3o5lAFjeT19OodKAA24zwrq5iwBj9uyd6LHoEUxO6029mEAtvhmqR6DdIIIgQ2E5f8sHQVHgktYfuMr7GZkFCeh2JBM_qXPZqw8DzaFh7bi_d3w6t2Mzl0KlN6rDujznbHuK-kuEiwmnnTFgm12wCy8L-AUp2DpDIdu8R5qvtD0m9aWaI2dyIVM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMZLbexdX02J1eLSy3vhVvV0P-rrtzGL5pOnk71LGikSjTH-thmbu9rNKiC8oFRqK4wYJh3b05_osCKG7AOfG1vGvtldCKGi5TGzmZGJ1bm2_qid1ktIrR93GiY8HBvwYRvkx4G00uJCr5nsXxmd6F5CARhfj1LPqDE5MfUwiCnTEgYWw_rQlZzcrZl5Ov5tnY1HnWAEeeI_9mGqjD2HxCGjAHb9fxdkPaiPC1XQifbpy0XMddGNsLhEgUGfTWVrB9wrJUHzgKIuxoI0fRoLNb2H1NzOXwHN0UIDD9cvyuL5v_gjbyPc4ifBiKLVhV9l8aWB_-gcgSPRiY73bK_7gB3ljKGIVmQQQwQwPIq3RjiK3ONAWaJITyc873zxfekSFagEzHfRAoAOkziIW9ICb3mGSvI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMb3bTC8q5mpRfmKikIFnUjIcOZubp1DWhfxrDg-U3ph3nDmW6AlJZJBB9IAY_JOzsZlU5JVJA6rM2Eze5SMXYF8E91F1UnZmi7GyAopMD_1YUjznKjOeenR9XL79gKlSG7cqAvfRtrEjpvBufz0VEjBYz8YcRwMzXPoCUGXZ6TCvrJOHK_uBy19OP7M3pvZIQRNvACWNQebSJ_OWZO_0ea2STIx58i6hfB7q8M4lvTKoOAU_a_Lf9TMo3GxDzW0Ye7x6N61CYwSeeR-M-INzAo2XcnhAmkbuNnIrSDSq-ypOq81rsytv6jOJMgwUXeTKU24zlfkWkUosjKutovZDxGmEyfgLqYJhsLuBCdZajG29aa4r9JUdhDtY8UKa_4lK4ArgnkEWZpF6quhjD19BJuRnw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115629561287344026184\">Asif Alam</a>"
+        ],
+        "photo_reference": "Aa-ngMaMV-Y2Cqhhlhh19jXrAbvFcdKlGJtZWO6L2Y7TDzNI4whlJpAtAk5Nr8ZRxrN3HZFBB42jDal_HX4n7viUMOLscOmB-isjADyvyTtw5sIaDTfsv-msiNQDHVuUWxtI00RnKONAPHBQ7PORfMynmaOWs_CDGDvWbnnnXu_SnsEESMvAiuQ7iy5dHnhF7EuavuW2pxpcITWgy99RMIZ-rX0XIsi4WH2FSK6lm7DxhvGEe2iM_gh-ZKcpFjxXvqEKlgaI5FBLEUBCXaa32-8DaU1iZ21OCbLbL3s8t0Qlsr1VmmW3TdapuU4ItZ-zaPKh4WekeAzQ4PNBVVhuf8xXo9RmVcx8xqfe0n4DvG9toFtQgnkJu4N0Qy_GbQqv04RitJk79CLQ-MvvfpmmApvqzOqylng",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106339600033490415641\">Alexey Subach</a>"
+        ],
+        "photo_reference": "Aa-ngMb_e981abZJdeWDpbC5WBvYm1IiIxh4WWbQZW4O9JkWsHa_DTo6MRlP8kqg1XrQoMenl7sUg76acZkD4FgsLBJVJRI5z_II7H1tBGzOq-0k_slYvFlWDlfiQzPmszpqNcbLHJAjOMf7gVuI05HESyo7BFEfKTUPUj-C-IWHNSoSoi2ItL3AE9vgwoRbM4rZ_SOWkwAf1ZfJkXmfqIvBxeuSPrmMdhcimEc_sWlksy_OMKPYFyFm72X0gZvCu-fwCR70gz7PLbVtTSvT86lGXjKWqhKXUpzsKIeN7BL5eBJqIrL2LFN-jm-A2xc_03m_B5zHq2MyhojKow68g6PEppPsir31WGuBoC6I0iWF7ByOhz578BssnEkUsuPUtM6gzfNPfShcdPe6tM32jaSHk3gudDs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMaykY66Tu2Po4hQhQjwXOS7MshidufiQaj6SOopQQZnabzR3HgGSCM7HuWVK9ia8EyPNhJ5YT9FZdo9kAhWbF3afirD7mdZbgpi_ovTL5L7otB8VjJ0t1Y7Z4dQy7IhYH3vCdZGCx4DVF7xKLn4eNm_0j1Zi174FGUUUz-IVC589-29FJU92LF5W-zb_JCEv51EEDDY6MMky0pbbJqbgZ3dhuGyTUIKzUPQx_Q9J65C3lKCLNf3QfTJkwcCb_uTl_lWdadaV2t6vKx-yeoLtIVHiAjHi6KZabFtyWdvBIfwq076fI8fathRI7L2d63YvSgGysscWUziozT0j7ZV2YJRMw-BLp8y5XKCuK87qv8SmsHy9fr8VLnJm2xL7LA3meH8oxHz1gVyAXSDXbLh-hVIlQ9mO-M",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJDzomx6euhYARdHx7vQbPdMQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14156167156588051572",
+    "vicinity": "589 1st St W, Sonoma",
+    "website": "http://winerysixteen600.com/"
+  }
+}
