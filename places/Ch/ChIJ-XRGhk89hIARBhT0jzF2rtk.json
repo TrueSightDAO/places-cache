@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:43:43Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Porter Creek Vineyards",
+  "place_id": "ChIJ-XRGhk89hIARBhT0jzF2rtk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "8735",
+        "short_name": "8735",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8335",
+        "short_name": "8335",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8735 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-6321",
+    "geometry": {
+      "location": {
+        "lat": 38.52110589999999,
+        "lng": -122.8902541
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.52245198029149,
+          "lng": -122.8888617197085
+        },
+        "southwest": {
+          "lat": 38.51975401970849,
+          "lng": -122.8915596802915
+        }
+      }
+    },
+    "name": "Porter Creek Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2291,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114844356429605351994\">ZENG PhotoArt</a>"
+        ],
+        "photo_reference": "Aa-ngMZweIBKB7InnC6pDx8r0O59nqeIAqxFUEORYpHwqI93bbgcA4XT2vK1o1Ys1JAMjg3RyxNQxbZ4kvBMDQxJQ43p0f0PVi9AJPKg2BBREuSjmBYhNJp9BP3HzU1BpOk732fMFAInUCdNDYiKJctahUgc5KCFhfyx-z-UAeDDUin8Z0yxo8TskTlvI9N9awBWD9AQ14jM5k8wkwDKvbtLXBOTMcpvrNsIQFpZGlXckag5aaynauK61GndcdxplewqRgqh0JdHMMTkLzMXxn0rKoVboA5-mtQTjGYij2OJpgEuj6sY3NkA2x27-kH6373SDUcJOWJHvisqmwfoBbD9JoJm3EO_6SCrnrx7FrcyzKDCOn_jaHqo0uy9vskz5dhCGMdC8n5T0Yk1wsCOBEqKM2xlAvsR",
+        "width": 3055
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105930546624918360119\">Felipe Galvao</a>"
+        ],
+        "photo_reference": "Aa-ngMZCmawNu46duLBH7gHVPPw7sIm95k2FZnNtSy9oCVUCCAfT4BOmBnsEDdybIawdzniD64b3JIoY9g8M50KmGl1Uzdd8xF-npRmwdfGxcY6LTxiYPfeqDEWIaukNhjKqTN_5KtA9L97UN39s9Wv57LV84sWuWTWdaOpvExD1kHva9_d7VaOLmkbruQQrAcw8vl2iPitkudZANfiB4T_enL4RTWt8GPSFaB6I4P6hOcuzUIUeOxLYIHIwibyrInKQ34zB4xiSqj3A0nFlxWgpZQYt-VQCCY2kSTjkW1CM_fi-tramxcLf9swS3ZnXExURPvcmhCv86D1uip8shu9jV6X8Bm4GIpUynFheQYuM9K438ldGElcwA9aDa6fFlIglozlOVw8idpPvfcd6ZNzTOFDJqGglzoU",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMb5FoL4UN1AGxOKdYuZNwDMaVhUFzFZFstDmNfUowE0XiiLneHs357FAhCkdFMswtkcJTN4NXoFdfGwUn3RmeYvKShyDeZUKgAaJTKSHY9vGB4VEV_e8B-Br9ka4OJNief5XxxV5SujF8cjhmp5VWewjn6cax8J4FJR_nEScxG9Cq3W-nPSfYNuiNLd760YmtCT8SuJ8h-Z9f7rGuL8FSjeHShS2ad-oml4EDrVGRtpEXqT5YXKVxeFwrpNFxxWt0eDoiYwoDSJE3Amb6oP1CpNiqKaFu1-O8dCjq2EzpnT6pd48i8EpUZNu7sFv9GmmLEo1PrUeIbCbw__MgrvqGs5vQxKpdbOJORC0Lkrbud8dXdX1Ul9W_zTWq54zimySPycXxKmtIeGqTv7nj0rWluCT4Q",
+        "width": 4032
+      },
+      {
+        "height": 2291,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114844356429605351994\">ZENG PhotoArt</a>"
+        ],
+        "photo_reference": "Aa-ngMbotgvae77GILBGfVkCJiSFrbXWh0a2C5FyOiPxS9P8VyfT1cjeCCt4lUS1E_6i7qHcQBmiPPGcA4Q032CnLe2vfoQE1e58p7n33XCgMN0CpICauYvtIo8Fc9fM3u1cpRcrW6PEW51f8FtFw7ucQIdpViL1eTiuRpVLCkhwhcvofKzzOZJwf-9Njh9F-8qfsNJgyU32Odb1R7j9ZgoXKAyh-_fUNauJn6g3afcsnweaGIWKoUYPkkQz0PIjY8vexSi-jvNjkJonZnDGBYt-VkVj0AxSvm2FjH0YiyejGJZfEODVT4GalUVpKDKUF6eZUT6wTs233YhdvQpB5NOa6sKc3wyRS2fgPHD-31KqdJ-UbdKj_mG9snufvF4RbBUcvU51txkQzTSRyVp8dvJxK-skJzu1kE8",
+        "width": 3055
+      },
+      {
+        "height": 2088,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100222563156225999587\">Jay Dashing</a>"
+        ],
+        "photo_reference": "Aa-ngMYljoZ5QO07gwRGGEPOqwMpSm3ZeTM9xNzhbJtebrIQMatEIvXFHt3SP4OWL7Z6yBuWJj6YSBabvCKG4LYzP5_roY-sD_6qhhj8rB4Uf8Zh9YJyt51PbW-yDUVp2TNFFdKjfPlj1-XXPlhOftqmrjnLe0llq4CYXgC6K2DT14pJSNx3UdXUSihQXBODBvGLpdVK9RApF6z-8SwiXNoVansbg6tuzib1yoU0Ij7isnlO2nGsoBK0W27k7LjBm5YPSvkgTSgD_fSwENOqGoj4VbF1WUIshw37D_6hg1Sdw9CPxQIvKuCCwOhwDb-xngbqAXdTSsjyOT_zH3SyHwvGTEaAXCxQCzbbKnIUKUdoa9d1oPAp3KYKWHsObbCl5AMalNbHLOqWED5JFNBDqrQq6WQgdJw",
+        "width": 4524
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMZyADy2odmZkhqG0sgjSSQykoMw42-baDRVbXs1ic9MJ4_XfRyWPPg3p98Fzgur0gaI9kjbm8onZ2Uv2z8v9iXwa0Wfd5gXlGuCr0LcUpJoe6tj4CFFoOb4WkTSV333x-mSb1Wn9zi6NlafX6bOzrj-Q6Hs1lcWf1j0ycP8lfbD3ZLNl6zvBGfEuxizQtqbQGyCh9aQ_tfkx-e5NqLDVmTsQoGy1knAb7XKPBYpSZKxps9wGrABIuuHxAODwL3QbwjHxhEhe461MXMSA6v6fxz002GfmtfXJ1ceiGyflFTtlT_KF-Cu3eDPbj5DPtJx6FH-UmeSXb_0mTA6ChZO1LYq9Kk4sxVHhDin1O6p2K2bv2oJ9157wqgb0dYKyOMEElpnWKmLzTb3oe0uwwkUAtzmfgA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105049033996262226022\">Y Tonetti (\u3068\u306d\u3063\u3061)</a>"
+        ],
+        "photo_reference": "Aa-ngMa_RX9D8sc_0aoHD_6mIzeo_jmbTu0w-PXMrncs8h5nuS1aHBIWWKZlb4ab8igUxpXUu6ZL8AEn6dI_hWI73FxY55-TRa6kUT3fIKh-efA9lUQUCSjNf134zSzu0edyP3opSWTif8gAr6ZtGp4Bb8Mt2_RLIsngJ5j6zF3E6rLBboknJsGoR3WXVrQbL2ODbjlopgZHvOW2z5F9WeK9qS5QRsNQ1MjaY9vW8gqAWc3SvdUB2ly-18L8esSakElcCfqhhyP-Z-wzvPDA9NgzmsygWXGDWBtkfa_cU6TxM3hDI52BZQkEvwkw86VDnL1T0ZeoC9RqMcocSTym-OwmGX9z9zFTd9Z0ZjG2OfrhCThfDHS69ud3TWGpoBcBApPj0eIAsngbiiBADkR9K93quxXdtQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMaCMpjB2W26xTroiS4yuDrSgGJWCVWxIcxOKa-RJU0ufZfsDJTugf89ZitMIORmBq9rGHD8oqRrglTBgcv3pdrNLLPrkNTeVe83zWz0FhPUzq4Vq0huG-XZGYyz9kSSzMCnZDYbu4ABXvTtFUiyZDFeIhmHhziXmv4kpOCWY5-YXAcXS6P4qe9SVvbD1HCwFjryL-w0D4-3ml9r2JDuGlu4M7yXTf1fK098VxEcSg1YXWp0aBPgFBjW9NAAR5GvROjyPiY5PxfPyXOTLS5xbvUXT_YFrmmMM5DGgRBhLNIy5rJ5PlYzRRjd7Vrs7DHEgrk335eE_TSNjk-R1qz0WBIDL6-D4DTUGxaXkkrvGfiRTVIP86OUBqdJca3Oh0SnEcooKK1HXZYZdX_2o_WAwgNrSwo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMbMbidm0SRKMBaZ_6UejHsuhmCMwJg58Zua-xGgLkxQb3SkiOS8fr9LmP6eCdXvOywsRwOi2my14UVypXYZHkCVMMukzckxvN_zFBsXSaxU2GzAe9MJNLoJhkVp8fbmXhCeEZGAyHQWb-H3yyCzy2oqjcgtvppDUnPwQq60oCNivFOl-rbQ4kzOfwwWhQ66QQRKtnKZ7bT5zgFolhUX_k52NYUAeTl-0LK8VU8xtjnWNxXJKhlUHxGbkXZazJ0FaHuMYFD7gANb63CpvNfO6sLCr-UuDJiDXvE-N0_-u0TQLLYZM4jzWmHguyypD_OCi-Cb6Dhcq9MB_WVATrXcZPbvnvOuMRYj5SJrLfG16akT5CUqX-ugO-G2xJFAmc5ZUjkx98kS5pMSQg_CNVz6DiEr5Fg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105049033996262226022\">Y Tonetti (\u3068\u306d\u3063\u3061)</a>"
+        ],
+        "photo_reference": "Aa-ngMbivBD31yODtdcAClVde085i_9xj0ED0aeQnhgm21O-XFIg9pc4EdOedp_prq6qS0vU_2-uyRmwtiClKUgPx8NZ4zSJBXD1ua2-lkMgNqC7m1JRrBrFpjlq7HWp0nU5CyD1zaa7MDjJOtY9QZS_fqbJaVRULI3tHOyN-I5Bd0nZHYq48Pmvxin500YCLM60SysNFQK3ImaHCPEeKU4OEQHZIgO5rCLVkfvxllIOou0Y31ts-nTypspJUBZPb1InVt0r1UjN9Erp4iC3sK3D43gXmuI1u4Y_kfaYxeOK4xsMuFMUHmL6E7gp184wFjs-I2EjPJIbcVOW6mBzbcPzx9awAmTQBfHmKoU3KVtoBCOBHLpFiVWD3tr3axeQrNffEQEfGTYy6U1KYyf2E1YeIvIHEnvFFGI",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ-XRGhk89hIARBhT0jzF2rtk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=15685604507418629126",
+    "vicinity": "8735 Westside Rd, Healdsburg",
+    "website": "http://www.portercreekvineyards.com/"
+  }
+}
