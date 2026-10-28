@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-28T06:48:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Landmark Vineyards",
+  "place_id": "ChIJdQXBhRNOhIARbfygBiThSjs",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "101",
+        "short_name": "101",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Adobe Canyon Road",
+        "short_name": "Adobe Canyon Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kenwood",
+        "short_name": "Kenwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95452",
+        "short_name": "95452",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9045",
+        "short_name": "9045",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "101 Adobe Canyon Rd, Kenwood, CA 95452, USA",
+    "formatted_phone_number": "(707) 833-0053",
+    "geometry": {
+      "location": {
+        "lat": 38.4263889,
+        "lng": -122.5563889
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4277425802915,
+          "lng": -122.5549324697085
+        },
+        "southwest": {
+          "lat": 38.4250446197085,
+          "lng": -122.5576304302915
+        }
+      }
+    },
+    "name": "Landmark Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1188,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113992858498240266237\">Landmark Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaXeLOda4_sSVTmW2kP7PVgDgm3GmnevBBdW71e7xm43ec8OlUwQXCbvT78PoWrtB4xNm51OVJdrU8VyL0e7UxAN5oXF6zsU9rWNfXux1BCHSed-YFp7T85-DWrHPogelXEP8kJjlq0Wwwm9rNwIX5a1GjNJEeBkVD-_1MSCOjP_bn4VBQQN6aZX4jYEE_6iq2uSzVD0Pyrvyg1AgcQcfyJQkyIBPiLpKPKj9Si0zjfm7AIA-X6Yygfn3C4Cb2USJaPK9F4UUJjLFWQR_IskhFS26t2_XdyuhjQLHButTmYxL466v2H-s2AyYrGBEeJJh70C-KAsx9pEbVbk1z-BlW8PRubX3ECLKI9YpwN8_40rQDFcl0bqK2zofXU72qBZ9x-zbBuJlfhzKPM6EX8mJzTlE8",
+        "width": 2120
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116208111380976228257\">John Maull</a>"
+        ],
+        "photo_reference": "Aa-ngMbQQIJldVPiM7ObGCytGZn1pi9Ywdi84Sau8hgZAza2qYKe32u1xgbInIB5o5AlWuuoRpBLwLjOzesa8v8nCTZ67USPUEkh1ng7TsOM5E6cssbEwCqmbXz4wKgTaJ1bYhx9jP6tLuslAddsXcHViXKMkkbcq22mo8Kklnin4KLrgdxmHdbC1aHN7SgrEBkk64bLZ4IXTrJYLau9aRtCCQClAElL3rGmqlVIYo61wHOJYqxXmEjuls-HDQ0Stq1ybW5_8a5I1I0xFVPVUBbKx0c5bTjisYRfiLVtROuPLqT7gKbZ-UZWDQL3QVyH7Af1s3SjZQ4a8lYmNU3LTFwL0jvZ9u5kjcFnivi0lvnPkW20aayLwpv_db5RE8TFuYqsej2lZMa4y7fSt98q1ZqJDdxHFKsvClE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbEj71tNYzJR_Ddo9lVQIRe7-ZD-K0ktSPrbgbZA88yMGbLtAXrL-BzCGppKpmBQqzBjs3Wwk9H5QLE4APssbGXwDMB6CT9bNiz5vPtiJ0zI822AWRypPvKbj4T7gZoA7I0ZMifP9Mceerq64iOVouD7omtNCmu-cY0sZCQ0qPdK04k5x_zlw5_MkV2eZ9AKzJaM9IXaL2sfpH714auoAUEwgienUaSJiUC_ePSThTHqg72xEyR6dg55FcVaSGpG121zocISn6gKrUb_f2qtV2Dj28qPR321H86X3yljjYSec7x6qP4_w6Tn49rXX0BD3KPxM0dFGbxMbcH7fCq5Gge39jXM8Ho_LynCmahADOoPVuqUxhvBSipUFM7J_Sn6Bq6LzEiH7CAHal8P9GvLKA9tcGpCos",
+        "width": 4032
+      },
+      {
+        "height": 700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113992858498240266237\">Landmark Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZGKL9rYzoMMtZC5vgAKMEqnFV0rWjhbIHbuNv8QYposKZdUPJ3lGvGY5_YtNdkEELzQbUz-7Hl9Gsaxc2cJGsftvZGCLHjy7MFBa8uIWTiV6VomGB-3_Am516YjuYa7kMX4qQLfBfmskHC2KYr3Y3Pfwjo9u8xNCmoME4dq9augq38VtqEjfzboaqnl0XKT9qJ9W4s2f7cVguOqm6MRnUHbgnvsgrKhO3VEXWzZNMMnZ1mlVHL9ITHr7J71QwwLPqJX3SEDatxlRYMPY7pQItOqBTazvapgGByDrFnLYVhWkTXPv2C89radq7EESQk1U--2O8ChC2sEHsMkjOTlD4tsdAnorXy5nFyHPCclz1xmg-a3gEuge-FyinWnTg-xt1_T3wVjJCTde1Mj5_7BDMayUw",
+        "width": 700
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113992858498240266237\">Landmark Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaoKvPki1ZKoSI_LyDOkCmnvyFESWI8INlqqURKaW6jMHnA4yJo-jddn20d5pzck2GD0-htCQIDepI1WHuM0lNdGWFh9XxTjNIRKmHJmC7DIaSVwH-devhQpnjrTfkCUVWFVt_Tvk-u2rVajIfLz8g5-kHL763B5dgPSIKEyQEwB8KkvsJMZqXk_Kbfmr8a_0nQCNtH1aCwzGZNBpoykG9NRz4jsqWEQmdaUc5fhO9OkOmnfRV_s3xx1dlfY9X5pmxTfSg75rhrZ27TBzF_MAvvCeTym2X1ZQw3NZRSxaGT6Lo3mWY018bX-nx-RxRR25YwEKkThfJY41KvAMjIbWfxJ_rLL39uaYRqIwLRw9tSitxL8Yd7db5lwKWy22kKuRh3dX2_gi1lRB84gIq04OKCO6F9",
+        "width": 2048
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101433824610411336051\">Angela Maicki</a>"
+        ],
+        "photo_reference": "Aa-ngMZUfxvLz0HvdfAXIIVZxQ8gOgYHmMyUU7r9A5fM4Ll3DMYJYFFX3OFpfxRqFZQ0G9y2DVSK6jAkxSUvhEtbuhKL3jmr3wG0-zGVnkN8K1WM4XewQ7qg3hQJOdZfFP9xXMxjt-daRx1YjH-d8HLKn38DGLCPQxs9fBHZ9kfJW6nG_46s21eCAdTYbFbI48vHOyd833KSVRVFWpS9iJsKM47AGEoXiGbf1p_d98o_Us2DIldzpo0l8fz8-OeBQyjYGL7-LYjlhNYOfBewOcwPIQV4mxVpSlW6D1Hz25h6lGIeHDI7JlnijHme6nPwrbvV7nDxEmoKVNUgAKlJDiYK8Zka9wo5Y8dcu0tlUp6D1P58ZysbyUM6k15a91W2fn3d5JwjZRluEmGoYEBhOCTE8KKhYg",
+        "width": 2048
+      },
+      {
+        "height": 2710,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYpZUt2m4o1O5pU_8AEUUeMKogq_lgSmPr9Ab5r0zLW7PiWOcMqi73SVBXGcG9eFRrh2IZvE0_q40uQPiVJf5z6PHk7_DDWDWA-3tDagFB5HnguxxgNAK8yxkR2KRt-VrN24ra5syls1zST3k6bWXt2QKtKJTaeafeb36DAAUTjlsqEPPgFuSUkZ14ItWIgdClzRMGhQj9twjhqBnUR6pIcokFSpFy5sYmgBDwCZBMzeFstycwfA42xEGpe5esdt09cdONQVE5A6f0gPTW4wiFNm5G-IDdDgdjaDWnhLZVkw93lWe0n9nQlJiAapPxIxsUrh4reo7WIWGcjjiFnvkZJWqHt0oUuBOAmAldFljOqUFojCHVZUkTIc4ijJviOIg8hRUDPPJAWphKa3BnVzibYuZBtVlI",
+        "width": 3614
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104339846650566371732\">Mario Salomoto</a>"
+        ],
+        "photo_reference": "Aa-ngMY3ZFLtCn8AmeEHBYQis3nvop2Qx8hgV4sN2HSKOebKu8GcnxYd_Cjqgxc2pbXqk481EDHiaDiX1mn0_d7w3Qu-ECQj7CvCI99-u1TqF4wOpdTLSXtEJb66nE_pJ_Msii54HHMhkZUbCFvG4dNFOTFHmkZY7n8oBJ6ZqRc14k1gXSnzBDZfdoLQbc08UY_Ops47h_lUYoGkUqDiRk4eUn_GpOToz6UxgEQK6v68RLHm7wdkJP95G12cAWaNYtPFED2_jkjBAINIQosGzw5jR95DslnghDZpV2Wanm9wxpUl0jaxz9LHn22ZUg5mARwFjZc4CcPfsmER5uMCE_mwBAzoYBL8pPh3XwcKmdnRwS2HMGU_PgzEY4xThfvv_L85Jl2Z9joCITj_uwWtwkPaJkdKAc0",
+        "width": 3024
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113774027323376394929\">Andrew Wong</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4e4WzAuuJfw9G7i-pcMJwJo1L5ei1GFIN0Kv4mlSx7MZ_6l_Wy-XEMQyolD4A_fSrO_7254oL6lQDYbVLY6fe-JYLkBNufjNESl5-b1Ap1osPhYvLeAsgDyc6day2p4edGgk1pm5bvcs2s8Qh0yvE15kJkRdx4gqeMv35RI1kNgKyUUEsoc46xRqa0Vzdh97v_PQPcDwBeVaR2DOS2LTFzRa2LjfbxI35gt6hS6FzlkGC9KQYsf5yVRcVykHDbmWzfHY4kpESGqXVWjzNTMYY-0Zn1xtfXENyRobG4J6BvDoCUCYrlDwXCCLOtBA7eiixCysMg9_JmS8DtPOXSrWfcB63NYD7wZjLFJrJJHRQitjkUtj40rkuiwHyoG5EMkq5QNJVU9IST4u2z7vGrXJnwg",
+        "width": 3456
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYQCkSx_kzBneHYKZq3MnETgKUAIc9Octi_fuxn5GCzV0VCL_pbe3YtvTNwY5nXfu2Y5VvywQCLEyMOTUSQrSa74FAMIL79WOcnoDHUODa8ZBEYStSaYzeCkMSNK4DeaV4yqKyVbZgZbTdMUsQlNbGTN2vdQ_2wNLEb-IBVp28Ed6VTOv7XZRZ4TYcHlcYW2BkAhj0b2zQG77tVWLquskl1b1hmWRtmLHhZufeQlvlzDzTmdXOc5H26J1LM6K35RDdkZZJ6Vh4HOnxQocuts_F5VgXrxW3ixt6xfVfLFZ-tsK9jrdwaWJZRkb1jb0B6zbrGwl3TVQr_2w-zy5puRFdMM88any7a84PI9iG2cRGPpfLgsEM7XRgq48frzPV1QtU16R0KTdV8-PktY00sINdrtfI",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJdQXBhRNOhIARbfygBiThSjs",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4272474741360622701",
+    "vicinity": "101 Adobe Canyon Rd, Kenwood",
+    "website": "https://www.landmarkwine.com/"
+  }
+}
