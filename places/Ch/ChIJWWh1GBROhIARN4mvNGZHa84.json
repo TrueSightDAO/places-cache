@@ -1,0 +1,196 @@
+{
+  "fetched_at": "2026-10-28T06:47:32Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "La Rochelle Winery",
+  "place_id": "ChIJWWh1GBROhIARN4mvNGZHa84",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Unit 2",
+        "short_name": "Unit 2",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "9212",
+        "short_name": "9212",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sonoma Highway",
+        "short_name": "Sonoma Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kenwood",
+        "short_name": "Kenwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95452",
+        "short_name": "95452",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9212 Sonoma Hwy Unit 2, Kenwood, CA 95452, USA",
+    "formatted_phone_number": "(707) 302-8000",
+    "geometry": {
+      "location": {
+        "lat": 38.416523,
+        "lng": -122.5491224
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4180083802915,
+          "lng": -122.5475514197085
+        },
+        "southwest": {
+          "lat": 38.4153104197085,
+          "lng": -122.5502493802915
+        }
+      }
+    },
+    "name": "La Rochelle Winery",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+        ],
+        "photo_reference": "Aa-ngMZns_6hR5kT1pV2xmUysXhFLpFYw20D2Vba0Z4Ja7I8Y3twybJHrjzLSTf_kk4GdISEi-8QiET8QhPc5ovt43qLgDdT52mxfryTGceLRAsmMLYB6oRo8WAQ19pVNDf6urNjMvI-W-itLPzMIRCxXY07tb6lb_dgsFMY39ftUZxrooexRu9MS2CDcxhqab9VYqCVZUXAJfCsCjSy9NZlHkhI8YhoiObl561BRnbjRo2AxdrpHz4Sy4WCwteYs3g75hkl-sUMxPn1beJhR-EpqV-hHvGnNSvNuxDVnSgDAaVAHAY6WRQiQgtCeWIXn2ZCKfi1CuG6KUdnCXO8oJO7OLBlFoQoKaMViezgvCpJJVVnXGm8EEiPOqCT1_ddwlRnBUMxYeJqEsEs4oLzMtmwCg1aZm37d40",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105935061103665565847\">Ethan Feron</a>"
+        ],
+        "photo_reference": "Aa-ngMbk9z8wqml86iHlnLTCNrwAsX46tq0g9NMUYSEzZz0kwiOgl7ES-HRs2uyR4oL2PV1iO1uOgdPijkjyhwlK4050V3lAvaw2PQkjds97XSWWMolUfbHLLLyMMnyMplkl0zVGsT8i8rv03yCFpuD4p1aMtzdhehZ0HLghdXJu2MJggc11mMHUe2b2aYgWzQlKNBarbJylulVNJU3pqSc0obiihgLLMINRGvfHh-mwY3ql0yH5EUDl85gfGbzzgKxvcJbFopxa1JKf44Alrk0bXyK_YCVc3-2VUYHkvUYwaPYHMt9jC1bFMqKps1hXTat0525V_Jcxx3MPdvjZC9HPxkMNUnOA2xDIwrwqXUA7WYdX-wDQ3eYJJeXplH8NQOuFSHh1Y-Pc8p4fod8GAxAk2RbLnXMnPrY",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113407715985528984427\">alfamale1974</a>"
+        ],
+        "photo_reference": "Aa-ngMYRpbaOluxZRTiMjBXHRlMyQqN9AwJa2NOKQtBTbf6_6BpUNJjd0hOHNFgW_A1VmBYYcT6nyNJgxpcjv0O4LMIo8x5LpzNi5WqGj__CmvnpkrojIQHCqZBXzgaKKsa375rE8oGHOmKFcWSDKKRmx5wQyGFjc1cwuZEAjhJGle4mYu1HXSj6Z5nEZd4w-rNvWXRsIy1QSoIuVF9Gjly2c8Z77jug9Ja6ot3JeqPGAcIRcxY2HHElhnomTfldkFewn8WftsX3BUhK3NFzNg1CNswFjZqTQyjiT6VxaEBJNWDzOpXCdA9gjYt424Tt0wtdDDgCtSYwIS5i_1dz8kq6Mu3f63I0IV8d5ELLIj37TOY20sRTG2U1Igdp6ZusuMdbPs8yaupwhnGkJJNxCUGeKAukHA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104937507137351907454\">John Adams</a>"
+        ],
+        "photo_reference": "Aa-ngMZvcfk3iHJzRqMn6gM5UmiBW2IYr1jlKf4gUpwXX4bJ7aZcDnPDruk2xPVVRon5Wxo1ewhV7m74S4_g239srGafXBajRb9wvPDiuNLGZwDj6yP0bhhjkHOmUBovLW8iPBFo8wILPi7qrjz_SPGXpHotvXhu3UmmHjzH-Wl8ra34dv-qFwluB1lwT44ev8jNqb0cf2bXDe1DZFlO02vB7JF8sEUMUjsBYxzjJvTsRmwJK4N_PYJafjTNiQMPHsB7tktx4ZCt-vz3iHRHVwQYM2HYKpSEDZDmhRCFwfIlcncnTSvVKc39sLZyNQP4VssVJw4mvkYWw2vpoNNRMSRcT6YDW0GpvHbOmwtRuyRtSFOUuKMzsQPTNLKG781s88N5Co5DLboCzU_b9DLpwzVQWzOl12E",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117461984852523518025\">John Adams</a>"
+        ],
+        "photo_reference": "Aa-ngMb1gRA-SUVbtevWOefJl9beLwc0mLykWXJj6TfNjSx7i22dpGYPofmLqAXkc1iLNrKGMvOosd-b83XYKjTzmf_AHVTRsOT3Vu5rzzbIIEeI3HRW94_2CMeNFDeC9OwPbujypwa1EyBCNPazoIE5ZstP72Wr6UeMtE09KCJBS9WUjrNLOgpc1bgRnDIyFXc7zvnxiJ3pNc-UpCBSlu69Z2OsndXteRte3O8mcyqdSi2fzkuC0uwwsvy3FGuJaiA_vhH2UYxMU3m71CwIuETl6oq6tMhVMS7rj3T8Wl2VwLLnWimeGtE7fUIvfa_PqodpofQSV82PArU2O-tvh6N79wZdWSxPoPJfPcYR_j_uRejenGPSGwQkG1mLMaR2e4jocWyq5P2asDeJQLONTmjELnfixBg",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113407715985528984427\">alfamale1974</a>"
+        ],
+        "photo_reference": "Aa-ngMa9-pu60bbPyqe-IhpB8UWQs8pIZD6Tc3oXofJW02C5eHlg0NOFz9QXBop7y0nR2sjGQjUDlVnqmLgpicDELc1Hv-7KnhX_pqD508LqyCI-lVQlr0ZzwzL1BaNWBXdX0BIa_qhGH9TY2BWgZ5mtN--n7ArHepwsIZUOByJBLQElW4xH6UEaSYet98ws8wP_PBiJuEr0wNo9yGDibXBozeJxAqKppksBFklfK2QB_PTUF9L6YHwv4cBT4L83WKw4Sl1tRMHATV3FOqDHdj_4XK38G4zU52fDEYTqLbLiYvF5bzAQERe8ULlC-_PR-nk9K9Ui7ISjHja7LHHvUUc3cxr2is14SLE_XI7uvI92iePwppqjin1bfm0-w3fMxafBz_B6ZAC1N8RnCfKEYVbSP8KkiHc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115249554159696458189\">Joseph Larochelle</a>"
+        ],
+        "photo_reference": "Aa-ngMaooUvlgKgWEPPjr5JZWwGVoMYTBtv2yCYuL2ddekSpZG1hS5zchCk4MEsDce2OaB1n9bkKJDLPj8ZbaM890o3q6WXj-BIKrF-WJYFkdom3PMv00EROPpBG0Ou4mQU7R94XfkVLiMLwg0jcckAaRyrdYEzXiJ_Pn4o-6EwEmXyjroXxCtHGdcQS_zYRVUFi-OTmMNxunaaQ2elKUpm966ssGpWxCbj02qhcSVkf_k7SNaELEv7Jas46PxJva0amhNcurGLE3fUMo-8m8Muh09eEz8Th-RqqGuBH_99mb37ufyM-QQKSRuYgbGx18R0WoULkV8R6Ss0bOA-kGuhreuUk4kFpawHUowxjZ5AfHr5e-aFwnaLcLE_bXZsQ6RwofSFwx6QdvbJraNIEeno7FDvy-Fo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113407715985528984427\">alfamale1974</a>"
+        ],
+        "photo_reference": "Aa-ngMYfg3nb5yqAUuOWNfs-dkCEUioAer4JuN6SyflGaV2VkBTDsG4CGgfJ_C_pYCfsk-LxwPI4JCxjHffi4FN6SLASnoPQxr3QzZKBKKFvr5TyMHTPWc7-Veeu7UJ3MVcn-5Jtw--POQohNPvqJ4UI-q08tGCHvWsAwcMQl0fbmDQ1cJnGmDyxChLwEdbyyAXMASCJa4TS9-5P39oZ5A5ulfkYqWxOGwVSzHZ8BQ4EFxnDYdCWSVKpppq_u4fuaC7VmO2z0FvPjyFWT__yIu7X4srJz1yHJrUgTkDJI5Cn0W6YjY50Ia8Sye_h0dcX4WL_AwaNDyU1sWfWIEs24pl0-D4kL_rCTUbR5TPTNz5vpbUrbnC3cRxIGwWd9TM6JKjIGIkoucfWJYi-m1DorxVfIas-TrY",
+        "width": 4032
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113567547280470802774\">Marian Kopp</a>"
+        ],
+        "photo_reference": "Aa-ngMbzbL0z7vob-M1W4EM_1KPqylrEU910A4VQ2VLsG_Q1IrAyWsY7cfaIk7BAPzlFVfUJzY6ZCH_VEvcC-dtNH7xWQbYSLesQHdFaQ9H3CeOmAgn9rEfyMY5r77LIKiSmMFrwDJYJagVsMpvVSz4X-YEelZCEBY1xck-gaykZmtdbSOlBN2MRPs0BdoyV8RW3CbYgVk1hajvhtAHCl2PgqCMYnsptwzb5rE3cX_g_2j-FDPK1FwchNoDEjKN9wY3whWxPSxLn5BE0tf73PLMswlirjmzEVGk4yJOKMALDoJvhvp3tMSsv-7M_BIH9HPUFhJbS1bNL-BRxDU0TRYkInomsk2T3v4LfDqEgTGQFNhtewyKCiWODwCyedpBw_Mo81hhIpOi2zVm6BYz52bjPsYATFqQ",
+        "width": 4160
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113368047860183746622\">Carmen Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMZuVucpZ1rJbm8ACxqvO5VOgJBUFYAm4edWZYyEkmK4X61usWL7T56NyZq6cMVKrO6sjOWe0-UYLKw7QhIMavfrEC0ovmn0EVA26r2pTQr5PIURZuXToaXFbutjEbHSJAae1u5Og1GhsXgxs15J8GzP3qOEaPnX4GcOdVxX9qOr1VMuBbdN1sskMhzpygMIXE4De2WRLcLSdJmNP6zUoRKSwRcR3TCl9cbsSwQ7Lk2bhfoUsj8lH_IR9PhauHjQBgN7rUJCWm9Co0F3Zf-G3KRb9-T5AWvR-mXSRmr0tXAXJKvyfaXTrHl6wmUQIA3Wvf21Mf4hvmImfxqZyGWi8jtsxDbV_PZqfu-SFSNRxSwQokC4bB8wVloMmMPqRcBzikV8TqJMRSwNiKdFmWxZRpEdZYwhw6M",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJWWh1GBROhIARN4mvNGZHa84",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14874060698617350455",
+    "vicinity": "9212 Sonoma Hwy Unit 2, Kenwood",
+    "website": "http://www.lrwine.com/"
+  }
+}
