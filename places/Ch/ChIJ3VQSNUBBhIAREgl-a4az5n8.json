@@ -1,0 +1,261 @@
+{
+  "fetched_at": "2026-10-28T06:44:16Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hans Fahden Vineyards",
+  "place_id": "ChIJ3VQSNUBBhIAREgl-a4az5n8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4855",
+        "short_name": "4855",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Petrified Forest Road",
+        "short_name": "Petrified Forest Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9531",
+        "short_name": "9531",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4855 Petrified Forest Rd, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-6760",
+    "geometry": {
+      "location": {
+        "lat": 38.5613565,
+        "lng": -122.6310578
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.56266208029149,
+          "lng": -122.6297879197085
+        },
+        "southwest": {
+          "lat": 38.5599641197085,
+          "lng": -122.6324858802915
+        }
+      }
+    },
+    "name": "Hans Fahden Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100910846063647289726\">Hans Fahden Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbKO3vsvo5KYK_ERBqnBLZ6sUjMislum7o5MPUU6ElSVfo8phDpNQoalxEjRSjQO15BaZfe2qR8h1Vq93h5Lei2LmPiU8tKiRm8dCy7mASeZ57oJU1ev2X7KvNuhCmB1gi5pxAIar6YmNhx0K0qgpneFBO_Ey4WrvUL4FNp-zSKZA__M4zapr5T6D5BZInZ0nlzgCN66VC3e6kem3HWKZYSCJFlyJryR60W-k1B9DOcuAC-0PVNU6Yrgkm94O71uNXR0E9bwhhGA7awS8hxQrl0aPvydxkc3BVYtEzPOQSXUVGSDEOTMaWRp40BcfGlsDr9ow1Mq1UstPkUyqdeL7eYqugawVUUrrm_AcuXc9QwyqCQZclzsjTf0SQuEnUi1l6ZFn9qHJaswBMrLbRzSWuqYYj3Hr0",
+        "width": 4800
+      },
+      {
+        "height": 2624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101398320545667402779\">Scott Pinner</a>"
+        ],
+        "photo_reference": "Aa-ngMbm57F5ictLhsEYYsmit-rfVqk-OUMYA-Trb9rtEEOlhiigQoPV-zF0jRF_j-GQSUG3-PJUuJ77sr6mQU4i5WX6-jAoaLZVELbChMcNtTiCtq1lx67UA8GKFvfnSpHeg4NOjxEHRyoRMDtyQEAHxWQnEIPSXgs_FmMLRsNqeJK0QbQc-0rvbnKYATevh8LpyTHd2xcsvNWK4_tjiG9Dm2arxTwnC6TI21IFL-K1oFy9ksgXRxAHMuxudlczBGQzCmBOx5N-q_Q5NpFe_KQiQxb5iiCPjHf9ndSBiDnSuY_zJjVmzObGFdIwNEVf8Syq8TFLYXromCH9woDbz34GssNLxDNBYi55ApX9LFbRxDidsoC194Xqi7In1xgTthXfw4W2MB-yx4R2Jkv91bK8wiSapVuP",
+        "width": 3936
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110770460445250267208\">Cecil Macgregor</a>"
+        ],
+        "photo_reference": "Aa-ngMYlnkNcvG9084NRibmlmFMvNogUClscGjFfELvYcFovIi_vYzsQOc00tHTr1ceW4J8_HWEM0qDpH5EciZTtUKjOipNulLpbJT1zUVHdr1CjUAQX-5g8pQDNtBJVGzvbc43rtiYtKbpLL1yjDxJZMKI3JgG_DIWJZ8dtUSqfikkgufbqpeLEqRVwhg4B_fi9DBwPjPdF0R9KJGjnkqEFBBih_M6CFG6YG-JKHibRLjt6Mdo_-7sgnG19Xd4Z353D0-3_e9MujoDFKR-1-yXX6ZdizbumMs73iSb81Ch33JlgluUiFeHZvQWmZHqWwcS5gLFJz3F_cVyUbGkUwbpAZfovAtHwCQG3TdQ23PQao7_xfjRs67AsA4aeDJlm64nzoTpD_j3A96eEOY94v5uXMtntMQ",
+        "width": 3000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109918458810363924767\">Doug Claar</a>"
+        ],
+        "photo_reference": "Aa-ngMYQpFWg7N7TIOtukul0lXZ3p0oEm8YoBvBfqBvzgvRq6IW2U9NfrT70E4JqGxWzj_8HNZZxWDGIQ5bfblPRUsOHeQD3tlr3Bx2NPgwVwZyehwtk1Zw-cbtOe7E4CuGHEpRnxdkSjgMTRi4OZ6sPg4jWCQzsgA-ZkSLSptAkb6_AHPCgyu5fJwk-TWgsfzkhjcGCzoTO1xDopBcvHyAqeYAIK24gkCd100kY--1isoD6rre_skdCVqh5aVMi8k4y71-IryLjeBZtEvu77hB7FUktoyZPyeqbxO7dhaaB3Xf3A-VJh_U39d2sip5IM0g5wQOM6lb5KGtkfMut3r-hX_Pfw3i42MafN4Xd2QlZM3rncgFce7eCgo_GytiVHDMzeb-cD7_ZEmj6aQEFNE9afoX3Bt76r3xPLz9NuFxRHfDO",
+        "width": 4080
+      },
+      {
+        "height": 3126,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102115935189388409521\">Hans Fahden Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbq2Xd9zRBywkztq2uslkS_1_yhdiemIYRzEL7fjuaI2Y-ffZMDA-fPPhYgqtXwPDZjdOM8BmVP-USH0qjnlUj0aQytyUbDfB9F69qELBhGP14mLj9ejr2F_V-Dmjrw-ANzUq1mDxlJPDWMwl8YErGTDKKAiUyEMLq92KI86Gmgt-cKjXGtuD_5yvBq8lnLP49hD1Wv2935rVk-DlQUhQvD-_o_v6RFF32ZfRsFFYRNur5pQULoMJ9ZQUz1g-965M4oboPF7PmqDJpWMz-9vZNw01HZFyOSUrQePFny9kkGGIIfkyC3EBHTJsBATk0IANaM6yrR5wKW4ngkkigfs94bo9EtRA8OJFtoEzQ-u7TF6-khYnxn7HmKfouAjVMYko6eW42bqtPjj5MPm9YH-8UNTw",
+        "width": 4800
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115358134760259309657\">Cecilia L\u00f3pez Monterrosa, Esq., MBA</a>"
+        ],
+        "photo_reference": "Aa-ngMb0u_6qL0ffEf-hNcOK2v8taLp7DQkHLXGHiWzMGUI66zJt9hXQzOnuFiuQbUK8kYt-UnWPHRpQPyASjLZKB1y5D2O9JCK7rNH8YZS9XQFKUT00FWSPZ1fKhG4x8xlBHkLOzVEIw4joBWW-Q-dqHJYu6f49EDj0Ff7_rB5Y_ASQ-vVn9qZ5oa7CQxohWk2Y2W5wjnsWpTA11Ks_-X1MNEcsSUCWkGOpZH-GhZ8UMtHqBt_lpkeCiiI4gYhW0Ff1iv1EXzH9W2pwCaKilNvwysGpGUmEntxBsWpEkqfNolZFGfpmavGjc5gD8dKuoCQLuEAD13isrHEdpnc3-h2hWYTB6fCbLn9zz1UYY7oqVQ57Cs-tY-V7R_OeNg0m_PV6CZ7jKm0Zph-9D49EFFoqR4iptbAz",
+        "width": 4608
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112784665327648324603\">Kristin Howard</a>"
+        ],
+        "photo_reference": "Aa-ngMa9nXztnqagb14P03KpoemXULUmxt0Cl3cMK5PutxHspB1kus4tPEVVS_Ldp1lb-b-tr74WVq1S8HC7J_O4mC5BQTE_7EgGnqRKaQeBoAjXM-zfvClLvbM25HefWHkZ1itW_3sXeri1R2ljWY9JpEJeYvRh_aZx5CK0yP_Lc_Z6jMVqx_fRvJDJWrOxMyxgH-kyB-yniYQp7PtgPxO9ME95nWwO20Y3YqBwRvv-hnsy4uHHTD-Pn5a0sKegKIiXG5JjH1BA4Wgdq20O7yEtsJVMn4YXAOXye_Krvp9JdUamrOsfQkql0e60bkZLQL-c_8rXTiM9T3Aj7sQ_wLkBfSRIJhPW_mD8Ewl2BToerOPmfg1KU9l2Fu5dqH1QWGfP0ZlCTkUOGP1ReDcyAylFI8AfeCK1AYorMFFJ_-03NCmWmw",
+        "width": 3200
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114613545612575992677\">Markus Fromherz</a>"
+        ],
+        "photo_reference": "Aa-ngMa6dI5fuJ9ci2mAJVvwjaDW1zfQ9VtuvCSjm1Hct5cndre6VmZ8jWLOdBT0_SDJb3UiEHBHm05v6G6VUIpj1zdN77u08N7gfckxD5_E3Gr-YYdXpPIPBFv1qsNQiEcvmORjReDbSmssuNr5jxNZfkDz28JcgHAxDlSp7OZ_LqHJOdvMXZU3p-chah_taPvR9X6bIAGtBggH3vIfVHXb0Heb9y37Jea5G2XdoQwmv8jKV6Q-9hOcssxoQ9rBCYrg3waEIppRkxP3qlPMN0O3uVOtqCpJ4jcBnZVCfAF3BvG55eyTnpy2w1p8V871jy9TnzvYfJ2EX57n1Gd4w8tEwn4MSw8mz_BQdYjUM8HhIsNH--gDvbQdOxX3Sr8PRVyMbibFWqqMw60Bwn2GFjFedYgfQAwvBJnpoRabpwh-uXiV",
+        "width": 4800
+      },
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109273263018089131394\">Jewelia Bergmann</a>"
+        ],
+        "photo_reference": "Aa-ngMb1SNrvYo7NnwhuRFrRIObsx_HGCxM47jb-O6QfHUix4gj8rkgC9vr0yfTD9WpItIwGliO3bq0eNpizZYeSJoRG8kZCcbrW4pr2-REA2h_l8zyLu281MHLSL7A7SZsTC2i-TY6t5VeOolKCMAgHNu6yyMGjnDy1SQ1sf_2fJ5lNoJB1R-XLksrZPzIvJWCPKxol2CEWYTyYKpFCV7A9LP-Y2Bs7HrqZnGxMv6wdG5b2i0fPeDSt-7unA9vNI9HRFJ_b1vWAxuGIUsT71wu-TPqt8Bc-S-T-Cjv5trtVUvyxgg5t6nd0NnTWmsH_t_m69F0VPDDHC4EBlAO3QL99kQr-f4aDSwndiGiifL7tbEH-kZHTorV0eETMxnlIRcGe9e0gv8KJ420xgT1mIjpncCOovOE",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117217203710884078453\">Andrew J.</a>"
+        ],
+        "photo_reference": "Aa-ngMYpJ24nVwSroWDAEqlkXhHXhJGCSjmXjOhFdKfo59t3NlDywGmysxQZsT9WbiGUtuA4jA_c3vxcIrerNzl5Im15OWzhZ_eshhMMOgn7Lb_aqhBaELSBlXyUjQRvT-9-czFhXJeNWeOxN6dXExt8eFsTZQMbeqyXaa-ioI--3t_1QgbrF3oIHPLFUUV7tyEtTAHCx_-Z0wFasEm7r9hjuRiNmPLBpj3_Ov2fuq1OHFGNFRaslgduksW5pJhtwX8WudS1Kk4oNWbFEh4enWrBgl9Y9lKUDKS0YSfChW_k2h_6RZ87dx3Eq1-t_B_xQIG8hIOgEEptsGCfo1mygEE-gEFgYPG2c5CZUZnyU03-332i1FGoyowDLTNEHVHUrRFulS5ZBX1YaOpRWd3OQDLKTh8yDoPzRw4",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ3VQSNUBBhIAREgl-a4az5n8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=9216251077370710290",
+    "vicinity": "4855 Petrified Forest Rd, Calistoga",
+    "website": "https://www.hansfahden.com/"
+  }
+}
