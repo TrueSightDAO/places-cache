@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-28T06:44:28Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Mia Carta Napa Valley",
+  "place_id": "ChIJ5_RuF_QHhYARolQE1dRd-jU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1209",
+        "short_name": "1209",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street",
+        "short_name": "1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2929",
+        "short_name": "2929",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1209 1st St, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 346-2244",
+    "geometry": {
+      "location": {
+        "lat": 38.2982263,
+        "lng": -122.2870766
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29965258029149,
+          "lng": -122.2857641697085
+        },
+        "southwest": {
+          "lat": 38.2969546197085,
+          "lng": -122.2884621302915
+        }
+      }
+    },
+    "name": "Mia Carta Napa Valley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 3:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 12:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+        "Sunday: 12:00\u2009\u2013\u20097:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2962,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110418296658343915239\">Mia Carta Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMbqGtwedC_VZPLSaCXD_YNVi0kojJBr2B5wL-JnowS_IV3rf9kFEVqf_Qq7EZjrV5WFRq8FV6JOn-w5W95dUrVVkucR1-wGktXXwzyEAUJwCx5Zi2OYT8RYUwHEV998FvE9OBMxhwntHtyrD_skCVlisLw03HLdgY26u9tr5iuThdEUA-nZOFhg736UHJZuv-HANny8eSea-X68xMaZ8y0WrWycf0QPEqs3og9TuPDPBg2o5dMx9xR8HooWacQkk1Ho9El7vlhEY--mnTGfBKNzC248LyXzRh_F4UW25YDIBd9Xl2ylTTesZD1fGWFOfBR2kFgxeOrkAFfkV45bIq0UhqquMwuwbbTOgz385peDljrg7feioVmq1gWL8zemj5VpkadoaxlyMuSlYUtaGybqag",
+        "width": 3977
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105332974721511085191\">Nik T</a>"
+        ],
+        "photo_reference": "Aa-ngMZVwXFSTtFUyWgzfO5i_884URwW-UfifDj2TPSoGNceBcfp_PftwSjl410d6eOniBBOIj38UlABwBRb2mqEZ34wDkDakVhgxzJIsJ3PtGYF0Y7AAloDul9eyftQsnrniS66rs9QAVBnIvg49nO1JdeeRSzqZAGcDbYtPAj_cb8i76_64SFj95J2zrLILqaZRAPNdi5OZLbjymamZcSWpGG7Py64m0XiGSbYI3-VnO-JIv_kjTrG8dOrm8EPVXxYnj_Cgu37hSk9SDOiGbcYGCeJh9lWwvfbGY_Ehf4o0VkcJLD4iYcvi-6dSR6fMm0BfyJ8xwl9vjfio5DKQpnGQCDciYyJaFWYF7d8zNXoW2xm2x-voYcbV3P9XBvzSAqDCWsikYW6oE6TcjiZxX9_97Qay6jh",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114378830773796122321\">Matt</a>"
+        ],
+        "photo_reference": "Aa-ngMYtY9o7rFLV5ICuvjDqJkWIz_HfZ07N7s8nrUBqHJXKb8T9ovYuTNiH9wgzCdoJ8SwSYDy940teMDZnujjnGrseGaL6zavIGrLoPFpTP_HJg_7Rb1m0FqFRNQhYTGyxeqa2CXyK_Wup6q1pDjRvJFhCELyBDXMVpMZmNY1ITNZErxt-iUN56vqSXubxOKX48r145vnODy3aKwajGQkHl0oYt1D0wnh8nE2HS7Lb377MbJaCirJoLHGPa2LhpXy__4fGxx4o0PiaRdtdbHFRguZFSE3R8NlYv6s16dZMKyzF1N4j4plYiha5VL4sqVVKgmBrqRvVRw6uWzsSjYPzBB7q8EOXmc-dTgclmnw_3yEAvBfka9VbwMR1q2ntyEXgNRDKRrzF8U_4iqmIe3ab3oHYXLc",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110418296658343915239\">Mia Carta Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMYqKdZL__oNcrV0Xmp4L1V11XTF9D2HEaVepn921f7m-0cHQ5ACmnkI-KTorbNuszK-cmYClJt0bp69bx8bPFFXwyP0cVieQd4aPcH6RfBlN923fmTDrhsFJrsTTa_qDrTro0hTTsRYw9czxfkFMQH2k_FFrE0sBZlVmxzQ1-8jkl-1c5-ezg3Nbh1h-kJJyLV-aekSqBcAlUcXTYJfLlcid6O1hXUyG0AWxmGYDDrTjx9OpmdWl6i7nHy7Dz2RDwRccd4KSUZfMGpCK98nQcuAXw5IGM7-tvsqith35AHsoCHezB9rf0Pdbormvo5sJbtQotkNNH3znpo-hbonSvKR60DZF8mPglMuBhv7yBTaFBkDHLY5aTLYIRFKdsLaCUnjnnQGD4BN3FndWapJk8Gy7WtEmLk",
+        "width": 4043
+      },
+      {
+        "height": 2416,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110418296658343915239\">Mia Carta Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMatv1tMYI4Aw6Bnb_vi8WjAxFvRpQa64IwZgkU2qVsAXKNTiEoYZUIVPEm-nssvdaD-z_3tf1_DEDEUE_1emy6y-SGUHOAGaJidCJtO3iwZVkBXxYtRI-8nwhP_XIZ4CPzEUSktd38HFYgU_8IHE0zybaD-Z2ci0EpkRr9OMHsuFHWj8xDuhPzEnULGWNEcyVrMK8UZUMzYOuRis8sNUBMhJtkn3GLwAoOQ01M5q9J1EjJYPjXeyJF-qH9VKl2SrCI8qlBw4mcRJhxmzRU0_YxKAbXUFUwsMx-Px0E7yvQ8x3yHHip_nj0L03vQujmGjj9TXxBHoa0-LqeYCvLeLAhkZfZ1e6WLbWroaaDeQTN6dU9YIN1ezEpryjP0xrpe1oeZcHSUj5_fTZCjsUK_Kpev_FY",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105822495608984063593\">Terry Lim</a>"
+        ],
+        "photo_reference": "Aa-ngMZCwJhMK2U77C-4AOpkIKeWM9wmsCfXsmKUp2G06d7CjRF87CYsNHdiBN25sv5HCsi-cnP3VUfocnke9QG_NPGsB9KiLH8dGvEK7-0FwkjL5KN0PIMX2wtF-71D3yWKpNCQ3a6kcFy1B1H_u2_SwlZ6Y-fSmG-g-BfKteubXzpbRSg0eoOzmuUMy3fGafdpuu-rnAqAY05c03IlDEKFRLhrGa3ayyIoamzLcufR5jfPODFfXelpqK6srkPyHOlmjBpFFlzw6Bs5eXh92TllEXeWOAqrcJPCEog-qI80f6k5CS6TGRC1mEsJgTqRPH-y7Oqh_amedDA8Z1tnGW_FN5pSJFzBavI5p1qScXrYDWvzg3_rmNfZtTqzLXLACQo1U8SA26cw2eJbQ-ktDqzTyTCbHA",
+        "width": 3024
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113913374630870448739\">Wendy Schmidt</a>"
+        ],
+        "photo_reference": "Aa-ngMae9icEZd_sQ0kt2l58wW_rIAnut1_1eLZVj5RujQlZLKA5fLa0txxmGR4oVCXcGiL6d87ywdQ_qC_iLJ5fJadOVAIzag5HkbpROVUnAydAWMJe2gDSl26du1f_w0k1aqJ-kWa1HPH_ihKVs6chudVB64yc6nPulJ_M8R9TkkFz-yX4ZaRN6v_7Fs17cLe1LwV40DlDaGPRXF3--_YttKBYe0meG6bjLV361BBnFArL_Eex_gQpecctqV7zdjWuV7gJZdww59GCazVk8aL24CEem65_Tm07SbL8p4-Oskfuo5_EDIMFndzXxPVRIxoD2ru7NHpydxPm07LOIOcOBWTG8kiuAul53DyQ828jTZqWk7xdyS6eSThUqYTI8PYuR6FYhAmr-opVG7RpCP-xpokCHTk",
+        "width": 2992
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114770395102253230772\">First Name</a>"
+        ],
+        "photo_reference": "Aa-ngMZPcu5x956-X3AEJLzT7TcB-Her83oPPWrcrYRCoUC5SxPhvl78NqDtpdfayLY8cgEH0drdfEdSKp4Z_TZdMCrJu-k7Z3c3b3H0zZIwVE9d4J2M313KHKpGremqw7UaGwuobEVzKXikLp7DfpE5fqRf4qwKtPmCMhKTHCjvN81Osw9B3VtBHHTJgyNZaRcwKpybP9_TTIh_gNq3xOJTnmXE22wlEPwFMonBE0bTMb483h0Hg2yQdypSWwo6y79jskS9Le2z5O7dk3FK0nrqGrUzrl6OE8mNB9MHsmtF3Se3LLvrkSrJ0XnEN-80lzWx2JMYhK4LAne0Iraqo5WmzFejoSFxmQXgeI6WuGKiHsR2wwu7rEnoS-s14ZnZBOZKKZxcGLIfilvHOUwEu4ACkZ3EoA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104226818545546876329\">RetailSupply shop</a>"
+        ],
+        "photo_reference": "Aa-ngMY1Q8YN9oLgaVtgqRErkF_uRr13knTwXMyQpw4SmJCfNct3dHaXLg7UQKzVaa7cUoWoMmjop4Tqh0d7mKSh16qpZn8yIl-vazJZITSvoVsrfMdSyZW5rh4WYQodLV32utC5ZbRGlkJTOH4TreYv76WDGBZTGPJ_O4CXrZcpLKyqM-JA3wKdM8zQkQUp7H5YslbT2W4_R7N9A8NtzKeKQV8L_ESDKKedERDmN2FMi8O6Xb6aLWziGPuncOhkfXjKDWea3__zMeDWffzC2VzJJaFleCOfLfQzLUayXkVHH27AalzRODXsGC5goCMcnV1AvjHFk0xdV7Xmg-TEBaJekvutw6Vy95L7Dakob5JsjuC9IeWUlBnC1d1uC0jWMP8arsKgvjpWdrelx5fXyC4BKFTAVh8",
+        "width": 3024
+      },
+      {
+        "height": 3630,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110418296658343915239\">Mia Carta Napa Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMYVkti66XI0tW0Ypvg8sUoBrRbttfIoAvJDcE74QyrsUcWgSAhGUTvAiem2R_d4N-KsJT6NQzOJ8CdBYutX-skTZ9typcx3lUQHRnyN5TwJ2CWfbkZSOjF0e4lELejFA3AG-4K0LB0BPEzkx5Z4EyNCZGD5pdoFTZf1Wn6-v0emZ2hblue01wnMi4pUL45F5m75pTeE4hNJw8dY8GFkD8JIhJ-BIq91NczDoAZnmegpdBG4xH48Cf2h7Z7s7wqBeQeK1HdduS8kSmAuw03gvHJzUoeN6wYAtvxzqsd0BOl8iypMaFuhe1NrKya8wHuv89hQSWycI_jBWK_sKfBPTYbe8ReM9d_0kx0yX4sYBdYyBNC7AMwsehCswtR0n5fJo47rGJCnW0S9lSwxsmdipvk-fg",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ5_RuF_QHhYARolQE1dRd-jU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3889524396876125346",
+    "vicinity": "1209 1st St, Napa",
+    "website": "http://www.miacartanapa.com/"
+  }
+}
