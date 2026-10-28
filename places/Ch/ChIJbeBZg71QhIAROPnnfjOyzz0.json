@@ -1,0 +1,270 @@
+{
+  "fetched_at": "2026-10-28T06:48:21Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Lang & Reed - Spring house",
+  "place_id": "ChIJbeBZg71QhIAROPnnfjOyzz0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1244",
+        "short_name": "1244",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Spring Street",
+        "short_name": "Spring St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2024",
+        "short_name": "2024",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1244 Spring St, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-7547",
+    "geometry": {
+      "location": {
+        "lat": 38.5033413,
+        "lng": -122.4688333
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5046164802915,
+          "lng": -122.4673642197085
+        },
+        "southwest": {
+          "lat": 38.5019185197085,
+          "lng": -122.4700621802915
+        }
+      }
+    },
+    "name": "Lang & Reed - Spring house",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMb0FRTjTcggcGQRx2WuFHzxl1knf8RXlDOtGgOoDbTdpel6k2hGZUqT2SPzidIrjJHqr5W_Gh4BTNb-u6EF1Tkjl4KxWF7wf9Oo9kmYzw7wcczyqs7KwslJ-qrAf4XWJNo1OebmeQzqseUB0ltI3nvXHBn1nf1OpmhiSXSMw5vYwE_j5ko0hTj9N_DvXw_bg3Xus5oz-RWanuUqpccdBm81a5Rnr_7Z5bONIIIoyOJXLHxqLQJCTz5FqulkXpc93KM_CMMNmdP575bcRsgclWwt_xEQ06DJHQBa-JzFLjXX0Q80Wg-GKjXh7wv7Q5Vsf6WLePLWo8bHPmVBHmrPrbnJk8YE_svDwr34IEvVTqPDbosOGidioxI3DGcuCB8TF_PrF9bxa400woa2cC-co5zAWw",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMZd1t8f7DV95l_-koHw0WE8JJCrkqp1RBg6c43oka6rN6TAzTCi9q9eSN-mN6gCzFH-rFmOQguf_ZPQ3HsdONhWSme8n_lGj8wNHjhD2iTT34MatvNBgY6I_hZ2r8sC3jEoj6VmGwDhbKTu-Nwu07bprj2exnOMcV9jkGWIpLVztcZNLQS5o_DV_unCH8E85dErLTGirOlWBIWhju1ersnvmZTtFzCUtwh7oSKyux4UoS1v4MouroC0Gon-EHG3LzOfgxj9JgvMnxvDQORMdQQ7hLj-b_CQGe6gVjDJvGPNYjiTKNyOpxylACEIovO_Mh_r_AsB2XiNTOYmCq3U8VRyd_iipHY851cU9dtHKoqPzjMrUY-kmzuSEwbsrkQCbw4thpJnC_F7pvTdYiYOL8LGsqXeA8o",
+        "width": 2400
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMZDEkAsdVoI_xoc4SBFs1WeBBKw7j5wciaTPcVeU7woxQlVD5yaWYH0gvYoSByzKb1ypKVJ6h0XdAQOZjR8gIXRx_NCRI9GEywHa85qRyFMWMmdMYB8HIQ5CURBu2tqp5gojt6V0Zfx4y-ovbAdKnWh4rax37Gz9L7Hfyv7Ec9fPYQ8Dd9eaNA-wZHFEgXO3bpLRAtKT6cqyDISxe09IjpjMZOkEc0ifgo4viWIr07RakuhoRc2FM_WPPwz1Bt9hIcyjn9QrtIn9N0Ufor4lUfbYTaInQS3LQSFjkPqfv6KEnyBeDbvktE5Cy2TXpetaQje1LzYiyV6IG4L-3LRISqSLy6E0wgd5-5QF_KiVssI-p5SLSsPEbEKASAflAOpxRWAZQ6Cf5wclb0lPN7b56FaIwQ",
+        "width": 3600
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMZQawg_1_ItdBCIR54wGFavGK0fTWeuHfMPYk_lZ62QVbzOG85xwaYvRxoXc9a_iKDV4w9HUpnPbThhCNXKon7XPAXteQxMFyJGvEAaIYBut5a2cIUgftIaMzwEFwOOXbY-XKoeCCxHhjC2YIk_TZucihIOV_vRyVZpjpMAk1OVf73fCkSkdbzhUr5SH6dupo1fVLHRWy7an2L85PnCRujPs5DKTLAoEi1KHJUeU-oDHcI0zK5Qy-MYemfltd7KZDQaewDkeDQxT0WBMH5bvuX0OEGX-Lhocv39_xbQ_luZ790luQE3z4IbhPhBAf_biNKK3gJNYn7FuYYw-Boi-1AIQ9P0fpVyhxt-KKHouehIl6kLcvmLHALOENPge9r67gXAx39kEsoo0fKHIrA8nhwFtV8",
+        "width": 4800
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMaZcoK0fFLNtOYUElc28m9JRxUpiVW5G6CZ24lfhlJtgbQfcyzcm-3Xd0ki8O2Wvf8JiqIqI_-m3tdzqkHWVojMGWBL0Xe_wTkp_D5qbYVcrCe-X2NOvVL4fPaX-rPgqZtEHfRQ884WrjOrqFtZ9iMJV_txmh9cL3mGI8L5FGX_ucwNHKx6lsXGFpXG2bUQICtFfV6hK4L34x_2nYOlwIJ-K3JM8U1OTGGFdmdQFeroqcZFwZclELIfJZluiAiusQI1jjzmPzu7dB1sabtVOWhYNWM4YUpK7AUOLJfW8Z_ZFjXLNhxqRQabIc4lpx46-HdChi8aPacpN3TxpJXKJ66QMtFS48OyfmNHa80Ws3l0O5i9yG3FSrxwzpsOw47xkbMGKYv-eLIuRVbkt_wOn-6NAAcz",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMbmt4-eQq7kYf5XdHUvWbxHn9mpEVnN1IBHv84D_pKu_1F6tUlsqm4heaa8LfHAIOzdv73SVRDoKIt8z1ZubhNNyxVgvrleMfRgFYCb9m4PfUdqShqGdd31qsQ0uYVbu64d7Uxv1Ps7Ooo-v1QDGVJVoufAV9lHvFSYLfmvxkYwQ3GD63cDf_U9znE3ZNEVuCWXjt6oLG3deTJ4TQzI9z9DkfCuk3ElUJCTnA1YyjyXhsZQHkc2c4IWOwQpNe-3tgxyTFwOjzmllN3giPf9hFX0FQ8Q6RU6DjtqYJ7YJsVlMOxak8evAP0cahsr4YGYY7feuh8sMSDAvBRB35npILutVu1Yq0Hf37qbw5AvypTKLH4t9kFk7uc7-QI9DHWMxwP95ZuGUm9b3p3jWEve9O3zqsDdZTs",
+        "width": 2400
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMagyRnqJC1kD_Dw4kniEFgJsA_gWcRunl4QW_w4VWtiBs2BD65w862NChHgzdcTr5JWpMiqMo7KelnoxH0hCbrPge5DfdH8_O_fu3Eb_mb_FuFZAu8w3KG-OkQ5mWS1vgHEK1_975Djg99_VgzC0sZr6XqE4CQoZ1nHYwcpKZGS-lTI65A_RLJNIfrPgwI_EmLIC8xS-abuGK6rcg8dVRiVK_Po8poUcBPZVovZS0yvanmJ9G-x5xBi5D4sUbE1mXXg9zSrMoHA7tyOs4n4lp_HmNlERgU1UBJs-jGyuybKvXC1bZVbRiUN-38SZxrqApq6maxlopO6Q1JZK8Sd96CmJgDxvxSZPU-M6UBhxRICS_vUKzzd9MsRBKFeAihlxXhbxcRXRbw2g7N-wlEdYE0tDuBwB5s",
+        "width": 2400
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMYV70zf4zpzJVISLq9nTsu5P0tknwzxTXJ24Acp78GDh2RQIvjAkQ5vhpN63WI79dF7Nip4nRN0Vr9dOXDz7L6WE_pmI9z7ZZU0DCYvB2_I4RNYg2G_wGCAAfwF9swyYLsCqXmkvVEzrvVgSEA3xG3mQYX3-olmY3f_hhsboYR5eW9TEduOD_5uypiPFHKNR7Lk-jVq96dSAxRq6udUexnnlLEQooCxO7-P0BKlaushb6TZA9pGu6tHBNQS7KxwUJadCM1T-duNb9MeFeBB4mA7Enbe3tt4GZNGFPhYqoGyyTcw5s_hpzwEUOE7657-zXG7VzsjYzh-uHfnWLK0ou212C1tR_EmHYBfkKLPHfmMpT_3wFX8vpuyB1QuvpVeUDVoslqJ0652dXh2Zn3BxDhj0HAA3HA",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100751600385902086006\">Lang &amp; Reed - Spring house</a>"
+        ],
+        "photo_reference": "Aa-ngMbOyzxBvR_JVDtLHxdg8zsTkoT3OMPLsVQEINm3g3Mtevvl_zLRp6lKKH0ilOCfJ2E5RmC9JdntRXr84zAUbjD2lIGyvEpxnRMJW2cmmSMc5FkXrYp2uMBCmKWHRqlyQZHkfEUxFA_MYGbdjkkFX3DkcnKynQPExQ-P115lvj4fP3Cc8Wa1wBwJYTbKLxplfMemxcaugr9CjYwO9_1LvPupfLuJialDUNn0XpiER9Hz7_N8o7SSfZs30593jmZ4jmEett2QeI4slW001NKTyrpZ7RUzJr17M6KFKBlyM0ShWUXA4Hrjn4Jv_qDJfs6PH4Zq6PN4H4m3yIkC0iALd2c0zzceQqZwmkkyzRad_C4TRTJmFYRO93ftcO2hgQVvjNbDHJsITB4U2Iu5dLpDq054SDZ8Zyo",
+        "width": 2400
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100958608630671334969\">Esther Gonzalez</a>"
+        ],
+        "photo_reference": "Aa-ngMaflibR7les1Xd70l34abiYV45mSHhnolxtGvZOMqs98puyKAADIp8EIIELV7YBX1HC-7eAi7UPYG3EywKveT94XRSRzgcQUrxFi4r06rDWq_ZD0CJghINZaBJvnSaUZJyEqgiQOmXpR5CQdcpqFiZgspYaDB4f-zOYr6NaIHhqM4sfek1VOfq6MbKdNcJQFUQS45By1zF7Rj7-AzdldvJ10bGwxL5c7waslVdyrFy8ciQl0lObmA2AF85FkutXYbecTG2q2YY5OLEbM9ICtKXc24ZNwyEIHfh6uOEtT5fZ0C0CBzwItypbcLCkY3JTKrBdulKcUAfCltAsqSJZkIZT4Kb1vYmpIT2k9AEZHgI6yeUdDactwEdKZLzjgnOT98mYZOGBVHwK071e6ooQ_TW4cFrLP3h2pP_guXlzDIjJ",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJbeBZg71QhIAROPnnfjOyzz0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4453974490734917944",
+    "vicinity": "1244 Spring St, St Helena",
+    "website": "http://www.langandreed.com/"
+  }
+}
