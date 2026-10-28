@@ -1,0 +1,272 @@
+{
+  "fetched_at": "2026-10-28T06:43:34Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Robert Mondavi Winery",
+  "place_id": "ChIJ-26DZgpVhIARpynsTQvfIVI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7801",
+        "short_name": "7801",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7801 St Helena Hwy, Oakville, CA 94562, USA",
+    "geometry": {
+      "location": {
+        "lat": 38.4417342,
+        "lng": -122.4081507
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4433993302915,
+          "lng": -122.4071922197085
+        },
+        "southwest": {
+          "lat": 38.4407013697085,
+          "lng": -122.4098901802915
+        }
+      }
+    },
+    "name": "Robert Mondavi Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2334,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114245451238822385931\">Robert Mondavi Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMblrK0svThbulWgek0H5HyMB1QAcPrt8nDADCTiIMiHtnfK4Hvh_rduI0zQ-isXRiOLw0WQXReXSrdMH_sUJKudzw_CClNWX2tAAwnMV59qHJ9U0MducgLXNYa90JdAfP2jAaYLWkuuyxVK3pbyXz7YMwWISIUOiKMIe8KIF55W_8UOf6EJS0xW1ivKwFuWmDuO-a2sVJtayilM_YfkBHnyvWIr1fUaUd5lYHcau3yxaQEkhcbjJoyO3Qc0xYj7WpahAXY3xNwHTVWy2PsZ1iWbdAaPSEpE5oEdWpQjzjwublPOAGTQmYX926-Kyw4mzrmHa37c6LwZ8bqY6yclbgyXrKduPYXu_Z4Tr71RfcazMVebX9BkWtM3MgTw99Psewv92bD327eSsclU_X4kFSG8RNRVGIGi8pANnpmwtFIBHg",
+        "width": 3500
+      },
+      {
+        "height": 2912,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103079526275359000556\">Daniel P</a>"
+        ],
+        "photo_reference": "Aa-ngMbr1yFzWPIeNmyzeyJ5mdgoqhtvXa8SHeSlWzNe_BSpeDsZY3W9wDFvv5dG4J1zplL_xPLVIhtt2D0o3EHupYccug6Zyg7feQjRdrws-KA57POUgaCKoAFX7Qw--2G1Cgya-a2dOx2khpOapPQBbwVjJVTz6ERBkXPYiVrukSDV-HmDbchJG4zn1jsmgVZK0nB6wj78-TjF41vUI3FaUlna9EA9xvBIhxCW7AVKfPAAyxwFzvLGQirveJUrtsF26gHQXPjNMVW07xabflJJERl64FhmV8YFXjAz44iPGJ-Ovoaof4PHG6GFoSwoEig80DVBLT3kjq0lPj8_qJiPvnDq6Rh5FdD6CoAs7pen5KKAJVR5LnhV__XAI5VMHGWPmYrrvDD4FLrNYyT8kyaXM-N-XGrOM811BZZBg2KSVYtgrg",
+        "width": 3883
+      },
+      {
+        "height": 1537,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102664773221372168095\">Lauren Lopez</a>"
+        ],
+        "photo_reference": "Aa-ngMbX6GOHEgyVNyhqkK0AIekC3ZZuUInOC3Do0cYyTi8SQXApNIWkPP9IocHTcb8CNpHgsnFUv2qJfaVzDMpN1KKSCfGy2N9Ayp82NkfCqQcs0Au6YIGhjyHyAw4NiRvhzLUqtNmXhVxgxrR-c-8urTk3GDXxMWYmLlUCYMS06SBlW5vhE0ZM6SEmLcp-x1ezXGWMz3D0N86iz2UVx7ldH6EHTSb2Wn8UYWAHWR8SHksf3hY2ZkDBIYO_neLGHpT540njLp6hV76r6kJIQW-HiRb5iU4vxHqYT6zPNK0mmc9lRIEKKa1I_7Dh53exSQ1aNyAkDePk2gcIFb6gF5nTYx9CUjv9Y9QoIuTKHC8OAKwaGyHlWPw_USOrN7XddtrGuEhvtp5gzeeqgxjr_WlmvABx6Zbaxvc",
+        "width": 2049
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103079526275359000556\">Daniel P</a>"
+        ],
+        "photo_reference": "Aa-ngMaD03fibltwzRt71NIO-zYFhgEoA3FlMmJJZCXbq-mu_Lypf8Xh8UZ_5i5hm_0Lv-55axlE3dHV3VIv2lPWbFnAUmUGH9gJjZS58P38AJdwneeEuLzdgUEyXzCXjNlVNfH3YdaD2-JUPyHXbBo31AC04tTi1mx6Dndrpb_AA63NbpN8IjdLvJ1QYnheccJBDtyKs0ZeoY3A7zUYvLQINWYnLgRBKXNiwsPL0hKtIDPQFDZ2myjQ1Pgusurt_F7pWXNRxhEcpOpSI0e9vOo_1B1hi4upCoejJS8wuvopALOnZ3SiPFCuHU-dPtkS7YZLd6T_3OQC1dmS1LQPYqYB1_smudon5bnYcvigQeGLHgLkgpY_51B4SCothBgmXqQLvSErJdj3Cj6_5-qY7nR7Knk8HWZc5HL9g0PZy_hiSjTzHQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113164329995311592447\">Bing Yan</a>"
+        ],
+        "photo_reference": "Aa-ngMZJs3D5V81hFvkJ-SItreQ033tTdFfsgnG75dQp7i5Ei-Ipt1UpaIDPSEPJ6oYEI7ruzqh-nN6lHVP85jYaJMo-2nAyk6alXD0OUCqBGyI8ycoHYJMGi7bXWDcHVe_mbeq5YSrSXP96sAxYBZjPpOfkMLfevfD1oKlaN4AwpwPfPLwkfp3ZW1geqCpcp-Wq2aaR4RDVAUVsl5lt6HsnATc_QuYJs2WVXrGdtzB_wtOqq244GOsuefFECvRwSP_y25OHFuaJya83dvwGDgHZHLVbHSMOGRmJTMxZr5Voo5JcPtnAlBfc-61GBLl06ue9nHcY04jwtWSPdUu-wDw5-a7n00L7U12uC40QmAvw0FcKMfyiBeP7xTFieY-KWZX8KJl9vyLfdYBwJaPQv2vi7G6c4_lwIdI",
+        "width": 4032
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102622606964194458966\">Art C.</a>"
+        ],
+        "photo_reference": "Aa-ngMblj5njDW1b3flDIhOvQMZ-UNwSR4UT8PcofPMtKSwFCb2InafZNNSx_gLZ1fhW4oB2jlri9FhaybGwztVWox6Uyj0d5zw3UyqyFkeYVuSemyLEinOPDxOvs1_0wGTCEH4O-8l0_WAXTKX3lf2L6SH7TYdi-Ihxe6JbfnJvbfszxPFWjpy9Li-ZtN3ycG28MB0AJ94Be7CDcnxMVU4b3hEEBqyalj7p5TgIA8y1OIL5gKMaO4w6VOBdqrPJ3QN4591dbJNo2eEqAWFeGHE3lBZXtyIB14NDExrpZA4vpmxT6jiXn6IszH2qZPHuyVWswVKQMoS6f5v_tlka-HcM7P5Ua7O9rLgaTuLQvHwKuExBgAzO8WBx1q-pxyzDjREo116j7aB_omrxfJTdXxgIuUJt-WsGcIQ",
+        "width": 2560
+      },
+      {
+        "height": 2436,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114245451238822385931\">Robert Mondavi Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZajgGRW_4ZtH6ImOAZJ8VOmcoo9uwoL5Z7LM1RiLdzvmtVBHPv-vekY3XBUD9pQCn4dcGlFwDoAGcqjnxEKKWRgPMrBkPTmdvXlB1pg6rB3aaMKk_v3AoJ-U_cTB_2XOHmTazTLwxJX9l3HKBY3XhhoTSeTrqoYR0QkDNoNm3RD2IG7UoG-5HM-HynMU5HzBxHOyedWLyuLnC_7i8ebiuNVAuaBJ9cYvhNo5Lt4yiS60QITAXHGLDEJuUa7NpafXkBmT5k5pvMwgwANv8xhUzE_4Z3ajQ50r1zUEIFh5hp5H-vhpZnbWfHxSPHLQXManMKddXo3QnvO_M8GIXSz5UoDZC_fVBbdrLpY55aghsWnpXXI9y-ATg7r9F_yGZGf4PjgXvdI5qJNcWWXzd_w6sMqtV5IhSIxZfTwrrc-Lv4",
+        "width": 3500
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103036035608745542281\">Scott Kamiya - skot808</a>"
+        ],
+        "photo_reference": "Aa-ngMZ98WjAbYcXmpWfaYoAMvzYlsmX8WwDh8-E6woUUBZHiRlhw_OHBlKqIKvUWF5aGH4jcPZblafsl21RaMshMhT89BQaNb9U7SAPQvb3RoC35BapuBkLyePiYEOm1huRUVUyT2hfHxJC7Kg6jYkXfL8TPBvY3HFc7LdtRpLqSEdFhRiZ4uhcXJmbNNZIre3JzOvyzaXP5vitKUwmrkM4cMbuizbXohtO5IeoTrZJlWknYrxbHIpThPWReFO7OCP7sCKeeeogTr39MlurhbHegvuaBfRQvJuOtgwNFlEZkHpMO8-O9bYVCNbeVCmMm4hSSNDJZgR7aAYrZDTnywZGx5S_4CrhWc6V8BVD73MQFFSzOiM6sfEkRL8hCZTKgH5c4wScBWqndofxsomM24ddzSyxkowCkvn6N_qyPIEo_HTxVw",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102759073645981086787\">Dawn Faessler</a>"
+        ],
+        "photo_reference": "Aa-ngMY5l-Bq6hzQsZk27vvj7LYQgCD9pIv-wRmcYqctxKU3jOa8EKqFb2tJi5jWKxXFMA2guipZ1X9Li_2jcb33_jgO5_6X6bUyTkSYkwsVniMOY6d2RBihiUWr5_kX6VEPGofve38X94AgJev5MSVh1NicS-jj_K129772HDbdxdDaM1pKjy3isXACILXUKuK1zAqFyR4kI1zMLHKS06ms5JixLwFU-2f7xBSVRlp_3AI-83cLyPtsAtgGYKmZAmIjxju0i__tjey92KVy3vfpCvbOppnEQqhCeEbd2mFSEbKKrg86estheWFrrUOT20oBG2owzfLLQVUAhyTcsk4MO3Fy7S3xuzXLg_2Trzp7-79R9uHqvCKl95nlnw-vNLje1UIZZHlaaxsHb2zChCPds2efVkcJRew",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113514179643616056717\">Foodie all the time</a>"
+        ],
+        "photo_reference": "Aa-ngMacNkliMzsI8zdHCmlUmpPsq6zBj8bVxKU-7tHZMa-uHKX9e4bAgPN-Av1LagrFzmBb1ZJVZter08fWEGTzwMf0op0yvhNFZRhpB9Cky5y0EaZsodqhJBhQM5CH8BfLaMh7TZpgsp_WLNiVXkbzLF5Vg9-s-xJZU7TOqfo6jCRhl1ZKnugdcQkYv-rN5xINVHmgCykoACvu2WybRzoD9r5hWoaSQ11TeRyVvKGH7ln_cWulB8wOTX406OttuboI-Yll5qitqy7VnLjSkwfurzwlO1BT30ATTKzAnIOtsRLW0XXwBltLIqpzxcYoHOnE6TylxhBq4iIqGIwTq6HEDF7QTb9o__pXtfAcw2cPb0vF-BYqRzgeH-uAnRaChD_gvD5NmmkphMzpd9wZzGFMsijAMA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ-26DZgpVhIARpynsTQvfIVI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5918256624986499495",
+    "vicinity": "7801 St Helena Hwy, Oakville",
+    "website": "https://robertmondaviwinery.com/"
+  }
+}
