@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-28T06:44:56Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Schug Winery",
+  "place_id": "ChIJASvWqz-vhYARTVxgeOconX8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "602",
+        "short_name": "602",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bonneau Road",
+        "short_name": "Bonneau Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "602 Bonneau Rd, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 939-9363",
+    "geometry": {
+      "location": {
+        "lat": 38.230682,
+        "lng": -122.4767316
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2319838302915,
+          "lng": -122.4754336697085
+        },
+        "southwest": {
+          "lat": 38.2292858697085,
+          "lng": -122.4781316302915
+        }
+      }
+    },
+    "name": "Schug Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: Closed"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4288,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104267830677303811150\">Schug Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbWBwzkYBaG-J5uwfvFM0d6zMC9KsRGmvSL1x4G-KQ8IT6DBWgkcAhy8W826M0iTetQHk5hJVHKpgS21PLVT6jvqxHSiLIbxacTvaaqk0t_V45xJdfCdEFMaJXxakszNkdqILeN0oenuOen3RzJrB8K8ED5LGWgAwRWqOaNoDHL5elCaD-mlw_GTzeKydRfO7MyGIuUDPkr9NZ74iI_eOGBz-HTljXcvKEWtfEvQGzSnbjrPrGBCemOCkwSY7EYsiBz2q7IJPUNCxIKZ3depNskNs5wXrhEvc1aZsTxeeCleD14hP4hNbv2t5HfJN4Jtx7m5do3NOJiuBTDyOonJHnIregT2WPGYU8ZIE_YFPzzlPeXM8Iz9ofXmQRyc7p4B-J9DOcr1aZrqAl1cophMPz8EUjb6cYCt8YbHfmVQS7otg",
+        "width": 2848
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105808126474689369110\">Ben Fisher</a>"
+        ],
+        "photo_reference": "Aa-ngMb_ITUTFPRJZTaG0h88ZyUpxziBcFXy6xhDq2RT-uU0Ju5w3waphsIUDJKEX82wugMiwaN7E3i38RGiTa4JdW6OuTqAEqGpLV7w3pH0DxvdY1hh3PisFlqAyTgBHBF31-saRoFpFtlFzsvQvSMKsQVPyCOXy01kQfNetySSwqlm7KUjuSvRCx2XoREgJ7oSe7l8ifI9mjbGJzbv8vRUdrMR4zBnV3C7TZ5NqFH_eBcbbDLrhCRm6Nuj-lLf2IfHjPTC4bhZfZnifZ7ZZZO0APuJe4kHV2anFNmDJYX5ciZlb1UeziIuZHp6GDunUMzhZFfOtiDKHucHnbe3zhENZKcNIIU8WLt7kuZH3pfUl4OJm50ZTilsXhncVRAWi5bYyOFDXWka_Tq-kB00vYd0oRr62hDMYUvxT2yx5S_momY1",
+        "width": 3024
+      },
+      {
+        "height": 2403,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104267830677303811150\">Schug Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYBVXVQnDuZgTBG1nAHFJGfJ4ZlKwdDdhtd3_m-1rSYUH0foGkHrYK6DrIoayr7SXoPBolvZAmXF5V7MyDn2bioIHtsjaRU0akQ7BEgZz50XKgqUX4iGp9-5lA1oBTaYV9Lli0DBlf1v1bJLlM6M4OCfzITSAhjHeEHxS_lyX_ByovQsa76ZV9Lhoo_bLXn8I7k-mXIsYmFfaoZIhdh25pU6diQ77v4I01adQqDHirjUJJAHDjPWLl3Q91Z73rWeI3MaXcp6sCs9Vt3185M6Pax29-U_sxHJuderwOqLQxwiTWtxD-BqIQL9WENlE7uPOhf73aMOFsAdPxJ4sGNP5MJefexy3DYje6EqKACxa8EobLwm3B-1Y1YyaNGcom8eQaueGziPQQuITQUDqQTexXAcwg",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118333175096512244820\">D.M. Corbett</a>"
+        ],
+        "photo_reference": "Aa-ngMYNTq3U-3RTD_pZ80QpZ60sKfsgc9XNM412pFmD8bH11VaLTuA-ONy2gZ1AT7i-gGcSKW2eiKudLg6lnXDCQMDiSx524V06W2q8O9O4yz2PmAuBkxzyj0CrYXm08Jlhc0octOwL9H7dwgHn0YNVN1Dw5sfv4duNSomufCZBYHyUHac5aSxqF-SFuZISUf5PJc_YA3OaisyVgtRLgu3XcuTmZ4YYg1qqtJXWEGm7CPRAZ627TIu4N1O_UWC-Y7lH6BdRm_p8BEBZCGKEOgC-0NY8L197rHlr8HIi5lOJcpPrOgfZyN-fgH7pEC3GRTcADt_d8pf4o6hgWrhk0jHvPRbKA03GR95GbEzy7ukZnX9Kd1k2WHw2RWQtpgIog3tqjQ5TtwpCVKHggNghTGyMurXdlKg",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117393222007383301570\">Kevin Embree</a>"
+        ],
+        "photo_reference": "Aa-ngMZis3r-IabKqCA1sNwsA5IKHJhlIMqJYTFTgXcFJR8DLn6QRJc4ZFgwmLGvyNUGP_xjv4svmyMFsfVJpnLe-HttZMc6oaZmrr6C9eyKGpKRXlFdzh_d2K4kKZ9xi63WQKfErGoRmyz3gfmeFNGtWgGaK49-ZrwmXnxK6w25pFNRKJ4pQewPpLa2235U_HVH5LT9zOG7dCIvIfJ8bqkVFTdCF374nN3U-zMDj3FKcZl_Mb8j76UG1oUMjZ44pwceXJ-dh7UXUdBcD5I9hNYMXGcSF8cvjxRyV6Oy60vU3EdTB64eNczR7_zTWb09JWha5CGg2aOda2GQepmnZ76TNrGC6s-I6Wpixkijd6HcoXEMgzK4bsPGJ62czM26PxZrdOGlS7AzYooc21XX5yCL5YaY-FfXilK3XXvsDqfg4-UFiA",
+        "width": 3600
+      },
+      {
+        "height": 1215,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111613178489483392834\">Adam Frank</a>"
+        ],
+        "photo_reference": "Aa-ngMYEKMIx_8UvjZYlmUOyMj1LaZ9zQYmUTwFOImwlf6gbXO1vt1NSvpiyh5dHn5GZeyykeQ4TdQ2gNslOi09o5bsqZFf-o8rfPQ-qh421CGK9wiPMSyp2NlEHDdW4bwaBrEf9iknxJA2WpQc7KIxfF4S4WbCQaI5V6aUBRKhY3s5HXM-wa8NgDc7cMPQdfMQa8jQ8xpdfUMQdQTeyvUV2LNTAu66CozI6E8oNhFc6_DmgQTxoRSPWPqlN1pb-cQI9zk4c7vyLxzpnVrhMpATNP81iWqj5vH7IYWu_MWYq1JNskIkRZTdba6CpMI1i1wpj_eFnQTZPBd2RS1agtCamQ3S4XiKflJFBW4tboCKszD58mZKHkXmYBtmwHoWxZdg3NlsOSh_H50QsrqHaU96BKnMz8BY",
+        "width": 914
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108519959534719017389\">Janapriya</a>"
+        ],
+        "photo_reference": "Aa-ngMZV7A6jziy5WTyRdkNr6QNb-lAH_V-5OVJxejow730WSBwwSZej1OOVN5bARY3jsyOVdPWgRy5hnv0XH1MQeB40UZDB-JQ2xxnRh7fUf9iKbAjWP2pa7mR-5tiROUaDNAMbYALXfKHUeQ2xWo7SgAs4P_66ycowtnKYxnqP81ZyCrE6zNpmm8biDzSi4xuHeZiJlcMWUGwySvDjPjVskhdmDebTgKc7_KmH0vCQZ3aTFXQr8-8t0CknOuYn5BjDlweX37FLGTqt15eYqwTJdrdz637uMzcm4tHar--He2_vGeiF7AiYoZhX70YckcwpWKtcVdHvcf6TKxAzcn9apsD86J5WfFCt8jm01gXv505bo6cI_xLWSjp5ZM2Nz78YyFd45BYozw2HLA10Jt8TbYhn8RwMbuU9IlGWzRaaTqN4",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104267830677303811150\">Schug Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbHZEFO0y6ZwB0cEh4h1NXsbsp4EwlLr4QGhIcQAAqd7veQX7JETMvLhGl47AFU7dLR_LaNLSoEVHlgbqhJpToUZ5IBnUmXo-Bx6aov5nkAsUd5f9u-UqNBd4Eb9V5gtGa7gAkaHOqei926rrPEl8iiZDbVBZrHzU3elR7TAaPSuEnw8Mdfl-5hyZKEejQawp_DOXsjSJMq2EzXT62I2TeatUpHdmAlzVsPezCnqcFOCIkeXThCbQ3NUhW8nsWlh81C9GrmTkS7cyHQ7n7gJljteAtjMeCIhIdVi0eAbY1s1MnqImle4ts8eyAmfqJxAOgWeShO56WBUJ135K3HmCtZWJWCYHJUGrLLTWxLXU-wV43IXjWxQJfoNzP7VIHzcRHaLxSpFKMV9zjFTjAoj323kWk",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101199435058903916143\">Frederic Conrad</a>"
+        ],
+        "photo_reference": "Aa-ngMYIUDiENhGOqUtL3EFLpycvFBTHG0ABuvbrvbit6eJzTlmBJHN9YysmSM6I_HIYxmTCQXoccBhKzl07WhUB0vefgs2TugvZlI8b4BfRUEvq7lhNQVs3t_JoJShkN3Mc2ftMEnKAtaKh54gqnISuGzusowPHjMGm8n2-UmVbA24XJWK3vUDS6pMC0it2XC1MpnMYEKhr1oHrZFxn54PMRyU_va0u85heuyomhxvSrOvuRprLS6edov9054seObM-UKBth382QJbZwCurrLtA5AgIz1yuG9-36H1Frp2LrqDmhsWXsu857hmmldjunqdskfz81Jj6HPb-LM-ttgbg5GSuVtJAYI2Elg1Y_tzzMdL48iIkZXmOwBPV0YhOPgXvp5_nmqBygLZFxWCdixP6wi6xvvU",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100287807627514599457\">Tim Kibbey</a>"
+        ],
+        "photo_reference": "Aa-ngMZHuN1QMF_oERbfdxFEBTBBQTacfUYXKLxx7CRS5zrc7SvTkbYTsw3xhA67xUPVYr6l3OcdqJ4q1Egk1INEdfykllfj4v8Cgnl9ij-cXmU63UC76y2vdAQxuN6Dosv1kZiExnKYEbv_7CPSxNrzle7cVec2dyNxA_JnXHGDh9vxSRs14aikL1vMzwmKunsSfhLMed_cLiz_X5qhWl7b4S9HYr4OFmdLippT6HlmyOy6cGxJSTx4mMnPBiyR4SgmgRDSR2sfq6ey-bWK3DeU26g3dDcb_sBQgdEJS7XfPJNL1eNJcgzg1ehaFdfvHYxIHi466k54Q-TYJwnm_URhMz2YIGtj2n5oVTn7vykFbgiGKSY6oOWjbzi-4jMkixlHILsalgjPcyoYm74Y51VLwUAJq0HcFyQE7aaZxZ8Ytxc1",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJASvWqz-vhYARTVxgeOconX8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9195550988782558285",
+    "vicinity": "602 Bonneau Rd, Sonoma",
+    "website": "https://schugwinery.com/?y_source=1_ODAyODEyMDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+  }
+}
