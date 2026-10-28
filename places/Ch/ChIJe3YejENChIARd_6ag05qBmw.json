@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:41Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Chateau Montelena",
+  "place_id": "ChIJe3YejENChIARd_6ag05qBmw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1429",
+        "short_name": "1429",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Tubbs Lane",
+        "short_name": "Tubbs Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1429 Tubbs Ln, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-5105",
+    "geometry": {
+      "location": {
+        "lat": 38.6023418,
+        "lng": -122.5975822
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6036837302915,
+          "lng": -122.5962126197085
+        },
+        "southwest": {
+          "lat": 38.6009857697085,
+          "lng": -122.5989105802915
+        }
+      }
+    },
+    "name": "Chateau Montelena",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108843706356390540240\">Chateau Montelena</a>"
+        ],
+        "photo_reference": "Aa-ngMaiEOaFUWkFMInQsEYj3erX6N4DKDxG0KXpw-7qPXmBa_nmsnvyXzQdlTQfunW95Jp6ssAoYVvVep4IUbc0SVPLOuNUKZ9_GmfJtxZAq1QTRqT3huQrYWs6WicBDCI842w3ICPlgh-QPEUYPdihvCgXaONT_013KCm5BMGcyhAknlkcWd53aSJ3w8wCAHrMMDB3812sg5_l6kJoNPohhobIgQ_DyZiseZe3cTLLGK0U1DQwrCviM3yZoNmGcHTF_iihLqZmXNV468259i4PFUcXutxmI8wXalWnavy50BaUt8t8COL1ETj_s07aBQ2QBbccA3Jd-N3YBVu8gT8_33Ufk5YWCaWB7_MdcgoMA82BGaocdKrZrNLyUAbtkCIwSOX5mwrKDotKmpnfRlN9nsstJ28",
+        "width": 2880
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112505198954297357592\">Alan Alan</a>"
+        ],
+        "photo_reference": "Aa-ngMacdgDUPldPQQDF8IHglDjdgY8r9bgxOfA8npuaufCXc-5fQJ1aYGY15krOCpUu-gYyTrNPczJg5-DQwZJMgH48gvlRdOI0U3GoZrCQfeT1pLkiE21_V0J1tdn8c4EkSFHJxVoaXEwC5dPQAs2Y8HWiKELdcYIPyX3fZP1touBWcyubJBYkZGQojBBXP6u5DVeyCzwp1WPMGsvMb2k5EC8glgGvs4GKY1spaEHOGtz7q4E9ISqhigPHewraNwictMs33cXkI56PbfGcLWUI3Qtr5EOdc9epxItvPX50xYBRtUNNlJiI7fISMYTgCk2uMiSEKpZJw3ny6RHrav5hGoA0VFM6ret0s3TVwmK9grVg7jLE1y_Hm2umPARzB814Sc5tUQAmqLnemi8PspB5ef7G3Ltk0A0",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107516462010519419283\">Dan Chen</a>"
+        ],
+        "photo_reference": "Aa-ngMZpExC8pgRShYevdz3vUk3CBVgs0bcco2A_Pkk-lELkbj-nV1JY_aLiFbLFE_rFNokSwsEpEi1MLmXlRHJNNaLx3ssLJ85zmrDpU-lZl9EzaswQVz_yXDLKBchWW0OwMXrH0m8t3uI6-d85tY0mAThaj4d0ZE-r9_h5abAS_H-TnKutYLHGXd8gfATfJ_clQTkr9yfqy3EizzQm9m9F6YSj8DsjZtKmcG5ZoVV3xqpP43U_BlkmbI-MMrW2r-zrHimbJo9Oplj72ICB6jmrlCeahXSS-_nRjUtrwET66iCIQYtkzzSIQOr1-E69NypaJHr13fLRW8U4yZPP0uqFLtcYW74zzL_3Kf9fFI7Dl_fnLktZT9g5NrqHAUcUnqghCDOb0V-nPwjOl3zl8tBQGj_qaA",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101720553180737354833\">The Foodie Architect</a>"
+        ],
+        "photo_reference": "Aa-ngMYFlF_TPOfPynLcg3Fg0cKZedVbUgP-qwT27s1fa6UmEKQXKnW23vCXVVeLw49M_0kWPrUocl1HzYESNkE-MwHc25oC_Cncl2VAMCgQyUVkg16ApgYMPHG6-ZjimDL50ScJvTHQ_uZZnVb5d2F_dPN3KTWIodrexd2SVCvBL9cd_0ntmASy1xSFSs35d_pUCMlMgb5k4YRyTn-E6rhDtfVSg9Qvbfz_TLB0zU-_N6pago31gb9J0iLYKhUY-2ZCyOInAG-dEUqLdiFfM_pVgh2bd7CQP5UQWCKcyJUeU-LMg40LoimoAzBMertizK-FdnqbFWkcD6xKvtZ4T1lKiDRhRsouXdKz5L1efoGeUZQBfE06SqA6n3YLQ8_EZhErCn5PclAzQ_ejbYeVIgg8z4tegSk8GLU",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105900223873134443088\">Stephen J. Lautenschlager</a>"
+        ],
+        "photo_reference": "Aa-ngMYg7cVDVboBfD7Eh1tVDkih3wWylZLa8L3_QAp-qpLx97Xe_2Fk2V0LK6obZpYWYQyuGe3r-caQ_Bo4gzcxnYhsYZAUD5-wHLedYJexJCI6hQD_UaRwwdGEvJ0_SaMw7SRdCr_j3wSyWJgf0OLUzSZYW-RX4kFz4I5gzCxtskE_gUb3AiWsr_AxhhPiz-LaRTgCIMoxYAdWIJbKWqoZY_DNa1ZCDrKKY06vZ5hPinfhE6ImFfNpcHLU4TMDs-Fjr0_WGH8PIVicXC2X0EhMwrar4qMpXjHRVHF3L5J_i_yWhdXrAyMGideZgFUQUYCD0Oh423KgGd1Mr_FSLtj7q7PT8TLHg6a54Mc0gtz1lSibF6zcWSy9zV88oOY-uY0ZEIYsPH4tL22588-EvF0VMJ6IWD4",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116896253750992744196\">Kay Rogers</a>"
+        ],
+        "photo_reference": "Aa-ngMbty6hP_k_Pe0Ai1d3IRqxNst9_erx0ZXWD_Khj5pqv6e6sZldigrAQcg7xNG4cPUawSwBt8vIzmg4KDhz5MyBLOCVmXOFd674FnqvG2l7FuJGovSrw2j_ay4zRjAZ4b3z8w8eOTTqvQyAzFp-CZYs_M049AEewZsjT-Z5NV2_CKJYIi63wGQJSD4BY1nuLPFL2qMliPl_RlLBhLZX2FMePn5Y5CbMrJBCR5ngrrbhCAHWihjH5JafKZB0QuYJkLKK9EAWSEmqofM-oKYilBBpP9ynkQ0DsJxpRESkT0E3gXDpFS69oDW1-lCAETV0PGY9ScbCoQ7YPx0yyp4gko19jpRe4ah-YCpLBbzHUd4TwWxFP8lr3qk0s1BFkj3TqeqTHsHz17dXtx3CBZhxBy8wgsw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114619634523319420040\">Alena Ageeva</a>"
+        ],
+        "photo_reference": "Aa-ngMYB5sKVsgRDZQv-DGFTFSxoqIudkD5lTDI46Ftc4NskWgoYY-_TN1Km2p10oWw9Y0oImoJyNi0nsGB8GJqSFqx1cNOnzNNknchcKhARMQYLO7_RmniLao-keyvoVeeyAB3TseWVdJY7V56G_jhu75f0nFX05CCAIcfD7AQ4Hd7Vq2_HejcDjl2mhfs7GTgNE4A38t7TMorJBg2pJg1u3AXpLYU-7QtIKtU6qqtWzgJgEQVymsOepyE1ofSz3Z-hAwT_xBC_KeewUzJ2aF3bcPuAFYLNDrii4YdkzLu2tOvko0XAEBGPeHdmZSWxQUGuoFW6IDC7_ezLzDM-I0_9dIhlRkN9ts-Z085wCGx_EGl8uz2NZuBwA4dbTYu0BK6X4sV9W_A19mNFnnBGmtp8-MMedAw",
+        "width": 4032
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113364249409593530721\">Brandon Brooks</a>"
+        ],
+        "photo_reference": "Aa-ngMYNBDjH1MFgmlUBDYeVqoRnNSjt5g-9PuOgD1MRGMjggNa-21e8LOxiX4AvT9U8szRKZy4UvASHH3mPEX-SpZhIYfEWzcFAsdrXIQotEW-dVDSsVqgSaJgoYSgqiyMM71Ls71t-xyy8O-ZNK4qB25wfuiyHnOyYhb1Pn_oxyP_j-EoioER5Z5rNGPw72cZYtVLocTHd1LDWuteqg_xD3zDBMnOQD2m6OP_0ARxjc8CZAJfTzOW8BtycSy0ENzdZ3F-G62YSZ8PqT3g1xpB07tsSEANvtoKH56lGg3BIHG1nRwbtN12kjlRiWYm6d9R6ttXmNOoLvrvugwuCg3NWlbnpgvgOq7vAJBUEOQ-_V3hOY1fdNAG1qkskI7YnKkXjykkhiGZziZln3_IcBlsAoKsEh9CX",
+        "width": 1536
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109419490540243562956\">Natalia DiFerdinand</a>"
+        ],
+        "photo_reference": "Aa-ngMb6ftGSUgG926mVuc-xaT4pQLKkenKC3tf4_fJoaBbGt6tvP6fwoHSZgtD8Nv0rFwR13Sditz5PQdFOSFVuXFuhTkQYKCGFTaX7irQFo4OUnBo3D8YwRpechAMA-4hopPgrapW9mtmekX9pEtz_6WGmc2SAT-X21q34hJIu6uW4zc9xFrtPQFWwtKS41c1xi16ED-M9CfGzKWd5VaztMmdcjrdj8W1I8hA3c2gsG8mthAHBGyI0MxArvk6rmAYiSS-p7vfC5Ir1igxa2EXadZdh7k7FlOUT7T5Ftb7PUdCTmeMTbDnc3EyXKjZFCMNYxvv0vrgbpeQRLfJ1l8O0cGUPPHVt6dA3vz3Y6f678PXQoYj5qylyNB0bQWBHaxNzkP-qMHqPUaOVAPmREIlZPGBlFsc",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101335329983190340648\">Melissa Ng</a>"
+        ],
+        "photo_reference": "Aa-ngMYmS3njWCROvhF0-ZPihJ8wIEfS95ymJoladZk8u6mayh8au2roOl8BGtCqMwckPGXICGrxDfCu6Sy2YusrT0usjDT117CZS1v_Lv0JRUy9fmCh4-LHCK0Z2PMIMaNpFrne9aBXvzeqtFo9z2n8yipppN7k8hjEBi_Fd1gb-YUVwz8NjPdk0NWo1D5egpv30XUxhALx8zNufmcJloqMTo9IM4EZ2oBzEkShkh4Dydix2VPx7MJEYtUpk9MvoC1Melj-SRIsiAIIjAzvLV3fjbZrGIoHB92GMmeNo4ExXNqQ4DM8jDxRAE72DtCQGmMSKTJttzcpqFNU6L0CeDRKVeaawGFd0q2eQkMK2bUOFpNwTCX1oNAPLx5G-Hag6NC8gfQRc-sS0CiCcbHyTd3FvbjMUU2z2VI",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJe3YejENChIARd_6ag05qBmw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7784025891404447351",
+    "vicinity": "1429 Tubbs Ln, Calistoga",
+    "website": "http://www.montelena.com/"
+  }
+}
