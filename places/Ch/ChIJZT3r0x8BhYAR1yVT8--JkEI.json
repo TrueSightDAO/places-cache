@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:48:04Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Monticello Vineyards",
+  "place_id": "ChIJZT3r0x8BhYAR1yVT8--JkEI",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4242",
+        "short_name": "4242",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Big Ranch Road",
+        "short_name": "Big Ranch Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1301",
+        "short_name": "1301",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4242 Big Ranch Rd, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 253-2802",
+    "geometry": {
+      "location": {
+        "lat": 38.3589809,
+        "lng": -122.3104149
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3601047302915,
+          "lng": -122.3090236197085
+        },
+        "southwest": {
+          "lat": 38.3574067697085,
+          "lng": -122.3117215802915
+        }
+      }
+    },
+    "name": "Monticello Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101302782987743454247\">Monticello Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZAJxAO24Inp_drFP7ZWff-QCbfbpobRK4UCY0O43HeszPixUnRXjMZ_tf9XyPFPTkHQlMRfByIyI_eWNHQMJEl2nfgOn7vymB669s7HmrZymsJSRoh_o-TIzXIa2A08bxPLzaZNEP2w-k3I3l35Pn6xcQkQ9m_jFqziixVhFJwtsy9eeT6cVATCtUFD7EXQeGsfc4vFmm3UqmWVTnNKtnB_IIhOYP2k5d6dVufd-liQzNyKd02rTP-at9MS-cyf3uDYVTyC1eYhA-kzpy_7E07-40HvgiWCsUI8e-BUiUg-ciSe3xhGrtkxQC-VadBqLuaUt_dc14tx1_yvxFfja8Olmrp0gI_sU0VdsLG76H_1_vXbOzSBwjTgQhEdZQFaLvD7D3r2ksX16UvE9_2HC6PzjjP0iaF8bZ53QEDxqD1Zg",
+        "width": 1616
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107379592718253800810\">Scott Bright</a>"
+        ],
+        "photo_reference": "Aa-ngMal_FO6TfLdqBvnrNZWsFCDIUJCli8CFdSYtYu-TBZ1B7NDevzIuwXxHUQabcaB3pBdetBl5sV0PYaCMBf4EsaC_37xdq6ZdrItr0Oi4TL5b0MnaXEl90WCemof1mz5jwjuRzFyVeiHgrvWrS3zM-v5IZzVzWDAyErLjtOKTJ7KSvUSw3Q-fUSSiRXIDf78Y6ky3zvYL8dqqDvd9vmseXllHeB-xIxUHuPIJsEbOfr_WUDyrTHhMT-hBpTNhc4ISQRaQ3jfG4E3JOZTak833kSKyAnHIj8qLQk21rCQlDgD9TeOGbF6b5ySxLSKeyhq_JE2E6SeXi6WCwpidIdqAEPMwlq3JGOCtfKROIIeg8hdR1sXkr6We-p9hki8Y8h85QOXOkIuDEZMRQQQ9qpg1AXnf0K1",
+        "width": 4032
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105788307136909427523\">Anju Kurian</a>"
+        ],
+        "photo_reference": "Aa-ngMYMceA0Y7Klwhm4ztcP6y3jOzsinqXnICGDYnRaSUyuw_IyiXYFMFcqn0bBfwIsW0a0o-75uRkUbbshBS9mOyxhxYI-phSRSosIuEo0WOR3vEgQzKaTeyVaZta3G2ACuJhAeK2lpKoWQTVyl3drE5Q5ouI2bZaMw9-YpOsLr0anv8OxD8jP3l9OC4RIeUKDfSR7JK2cmKbEEbwxViQ25RjXcOY323rELQ929X52QLrsbb0J2IkVbNBpiVLFQiEZcp4cpQZH1Y3TDX6ppD0E4IJcS5Q6gq-Jr0EXcw0obtseNlXVqA_2LgVbBb0vrmFE6FflRNTT4ELXEkWuIF8Gd65TiGEGtRpy2qrcsnbjMZhW1GVfh_jVlqibg2FCOO32nDn4PqGaHKmeNb2D0TQkjxgj3U4H",
+        "width": 1024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101302782987743454247\">Monticello Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMagJxXCS7pIdcxgeggbKMnsf1mwSNECa8wb0zDsLc4mjb99EQo913o44N2ZlyJKURLZMRJeclOIMr93NeQ3XcI8gmmrJyBQhCzaUEiC5UOXcy8vQwakvjG4l_reJyjJzBYh8ycitxwbY-AlAz3rnHpJsfXTFy2xG1yQpszM4MFSjvJV6-1m5LZOK9jIQpNZDSo0irb4wdp1HEL4qqshLax19LPaIYJBzQ7y8AoZPYjulqC3dMKuAaU7MjakF4N5e8TeNdmHAUwlAVqR8mf-Sc-s7BWqE5IBrjjGrR2jeMGQjYxBteiI5j_WRi_Ou8dnwMx3KnU6XpOp47tqoVLGyQqLyvoL53AUcHANX7H-zdPvCGjKzDYK0NM3vxbqh_dl1QkPggT3kRU3x42RHJnk0rUNp3w8E5O5kaf6AoZxY9Sc",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117908658679877731757\">Manhattan London</a>"
+        ],
+        "photo_reference": "Aa-ngMaMIlBUYC6zDPrc7GOnFybOpvh2GdeXy-cClXEf2Wap0qn33xZmMK-FLMtyrYvpSHlX-HNP-8W2MLBlEm1BAuEsuh1kj5bbC9jxSrvJ1_Il0rvzjA-rKmUZ-C16mzQRL3CJdp7XlM8N5XNKuWp7qe1vDkRJNrQk-9lS4nb9xkEzzWk6CkumaeSfvjXf79oSFawDhaQcxwgx7PwdlZ1CzsBc8w4GgKe_Zlv0zpc266gLu0fclrdpiByaD5RLladoeX-8aQWQfJ_idSFkVlX0Q73ZYkXliDbo5WIgVqtlPp1pkRveTgoZ0hSPdkncecDgb2hEnzuHQD15Dd84dPqYWLdB_EhGAiAQyyhdLTxXtqfDbh0SfzKATe3nguLlOwt0_C6RX9u9MFw-VqsjGI84l_3wBJ0if-UsfpWbl6N994lhhQ",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102329425596547554745\">Hongzhuan Tang</a>"
+        ],
+        "photo_reference": "Aa-ngMbrWszkGiAaIDEcTaXMFJRxkmH0EnoJ-7g_QDJ_2epEKIoGEGJRrTposcUhDbfw9KeM4yu5nTDBxUexZdoritCEldlB17WgWfRNqYsUMeTiuL6VUSCX2mSAvOAKzIP665k4XXtkpxt90OTCU2oFUC5dDXFMhgF70Z2_ayAaZ5Y_5AKOOt9Vj0Yn3tb5cMHMep0jJhjWBw_XLo8euAmZlMSqxfiVQRhbOyQLAwrrAxCC2VzU8Z8J7iBu3aKE6Lad2wo9d4XebjX9xIuSyyId9sHB3z2xto6HvJ-HFuHSUBjfnqxkkdFUtcqa5MkPN-qtSAy3Djgqr6hf5HGY_BFGW59QMbHCEWOt9cvUWYbuz5JbBlT_NsnHIylbjDZFjO1BXL28b44MLCZtwSW6sHpREWpaxxw2",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106477791110249607568\">Rob Brown</a>"
+        ],
+        "photo_reference": "Aa-ngMY6IoWo1XD1d7V2YiPw8M1l3vjyvowvdImR-QWkXWIqcWeWIndwZfKYqvZLd5XX9rHizloaGxCldKOmcyu1ze1PSL4fY75125HMpSu4YoB3DxIOVCppy9fCi5h6JsYujKBcD-Tt9tAnkMPXxdDQtDMRLq1g8_W53NI-09SKlgDjMixop5YRCb09jRu4leOkUnmEVHOnhlAbvxTuMSwLExvfAIUApLyvNyyswp87xoeg3oCm0YiaHNmjjayUaQ9Zg5PO4tSNA6Ct1hP96MC0EpQqeR8wSm6UoaOqMF-oEqDepRZsqTRjoLJi8Pcnt9w9DFPdYhiqLW96RiqS923t27F7FKstCz5-eABkA56SktaiObid770763ayqUogsZ21mDCwY9L_tNsUGQm6EpWr4zlmi9hCTXsmyPkeZpCuZJmP",
+        "width": 4000
+      },
+      {
+        "height": 2854,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108799546576312327962\">Madi AM</a>"
+        ],
+        "photo_reference": "Aa-ngMZMGezCdqrMdVoJiEXkWGG190vWJOkFwEdXerWsK-zvsVK0qED2WgNDhfgPbJiNxEwpMZbC_FRTwwVceT7q_ho7FdDQaoWEATd7YdcnipaDPG4d7WILzOtkVti_RWAUQ-zlJ5b9418gWRGBdh2foevA_TGBWPn4pQzqGg4cmID_Q0H1JzTz4VE3kZRnZVPelUta6CYoGQc5HmpslBtgQTq9eSz_g-SW5lctF2Fh2IMLwT7rD77UHVyXowqzPPlAmCns0xWeXklrd3HDQLI2h0eTJ1RXCPt8_sjJyCJKTb33Fgw94jISyS-89xsRuRZLglnYUHQE7RX3t97QXu4XwzNDYXdwWTgqogD4jONa0dlSYWDwPov6OUAG46FDKZFL0f2DZvh-p6Dnp_fT7dhd89B7y9U",
+        "width": 2854
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100359665021809417944\">Jeff Mraz</a>"
+        ],
+        "photo_reference": "Aa-ngMbac2DLZoJ8XXIop80chic5XZa2xeIhTvNcjLODJBO8L7SD05R3AJaHZ4nzU0zAzuaeH0AvmhfgFveMziLMKClNUyEcMARhGWqG40V7aDZ1D1Q7HF9RNEyC3qwTHQHo1_uOu62R4H2nCQFB4RK-rjxPZUYaTt17J1VrjvXN307SifJqxWy5U2M5_vm2TEkiggSrjyy6uO1EJW9tBOVoehsPLKkQcjCOGoAmDXvU7E7iaE6JTtno0lf2ockBj3dK2IMsYqyICrx-edHNVv7awHZUZCHYKDno2o5cYgawRDkIEUqVFuETGvHijnfkOpeB_qqUfBosnUh3ed3QcwkRC0LZb2Tpupy1fHYcPcygS69Gh5X0TOtNORa1zV8YkvUej1EH3jPa6B6delaSKrT58qEirjb9BLxoVQGJp2f4ZdfhkQ",
+        "width": 3600
+      },
+      {
+        "height": 556,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109247243203121812257\">ruby corley</a>"
+        ],
+        "photo_reference": "Aa-ngMYq8-0QFTiAbDm8PSkrm8DVx-NJFvQchCaEfzHTr3CLIGes866hQJLr-ITqf1lWohtSMHMBhAkV53AUh8xn1ZKHkztJc9tEt9fwl_cA9aSN-1xpYUi4IsNwATs-drB9_P4ks1m50DJZYjF2GZjCFELL4tJjDPmRxwldB2SOLVkN8gxJhcX2GYvR6emzt5v26QUBfGO-8EKlmFEbFxoyy4T7PyUfFe6GcJ05f8ImmecmZZPxkaq2C6dqGLDBs6BkZih6oNk_6Vj_yI2eKxS0tt1quKOHW3OpAhNfwjvUhRNzuzeAKShDQv8PdPssRHoeVMFFWaig2qUaePC0AzqSqrgtN6r1NBvWDu1-YMxAIUssnGPhWtNLX6HI3fvokFN5borHOsKAe2j6vGNou79gV7hWgrhxyMA",
+        "width": 834
+      }
+    ],
+    "place_id": "ChIJZT3r0x8BhYAR1yVT8--JkEI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=4796485266822079959",
+    "vicinity": "4242 Big Ranch Rd, Napa",
+    "website": "https://monticellonapa.com/"
+  }
+}
