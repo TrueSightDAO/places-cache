@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:46:04Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "DaVero Farms & Winery",
+  "place_id": "ChIJJ26wYkUXhIAR5PbRYxnd2_8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "766",
+        "short_name": "766",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9334",
+        "short_name": "9334",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "766 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 431-8000 ext. 1",
+    "geometry": {
+      "location": {
+        "lat": 38.6035834,
+        "lng": -122.8839846
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6048780802915,
+          "lng": -122.8825017697085
+        },
+        "southwest": {
+          "lat": 38.6021801197085,
+          "lng": -122.8851997302915
+        }
+      }
+    },
+    "name": "DaVero Farms & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279623667300384699\">DaVero Farms &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ7XNRBiN2IsQoR4Sh4nyYea73R3YoZhSeEMWbQ_GRbiAJCI5nZfCaI227SS39P1SSGRELCElXhzqvfBGmT1XVV7w33id1-bOvz-b2L1qJAK02dsIeiZ-GI0SUI9hbTVZU7b4HJ1CpcqfuR_q7q11pKHQppFI9NeQgw92KC-eSoqvXv18TFhb6taO7EYz9ke_i3AJjEeTPnvJn2OYzsobMVO7qLumOOmMfF_J2PRl1bm-dABzsHevbuM_XMpquapv3FVH2OPwSNdUBVPgask8pJLEuhwXx8ociPNnI-27wRigZchgrKbRJpHzWYx-Id6r6NnG_Xl4H2WR0JSIY5IvZwIQz7Kd67PW492A46ZLhhDA1wnggn4-rSKiBtrCCCSIkdmTEkYXbOLe4BaoTNjJGYJQ",
+        "width": 4000
+      },
+      {
+        "height": 1188,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279623667300384699\">DaVero Farms &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZLlASiCPCPNCsa1Xvv2IfF7BPQzXo5sKFQGbuqiXa025wJG-VLaKsnNP734aeWvD6hunrzS6tmC4UIeAfllEEBPqFhEijD7X8kO2LUCyPEAYZNAsnznnzhgw58_9IZB2FJ26kF-wHl2sF2ecirsyJUpP6g73z3YeCI7BadT4cvRyKz-DJhtcyhmt9tuhWthu-j2aGcLcPJquGMTfwEhKOjvKpRyBWfxbjLx0DHXGi7BDcDrecgtgRkdwYk_11x4ROtvnco_lNAA_jFpHe04KmEzma1b-_HALWgUggI7mQNfq5Lbvgkmf6IDp6Iv1g1H2-TCMMiAAlkrGUMKGCJ3EWmo46guJkTHYN_NRejB8xwiXnFirOWJN3r8Uf9HNNJ2pHnM-4WaXFQNFobDPcLJDX9vQ",
+        "width": 2000
+      },
+      {
+        "height": 3655,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109518184481883044135\">Anne-Marie O&#39;Brien</a>"
+        ],
+        "photo_reference": "Aa-ngMYS1Pe2YtXEohdozGTFjC2tCBIVu_pn3K4Dd0iJhBvP8rTduo8wwn8LpbvbV7bZTEzP18t_czS4U4MM26Gs5fMbaeumGL_4-nLqeBaWBJfK_N3cz7ssI8Yt_QsfHzr5f6kGUnfzWRyNId_MPCzKlX1fhZ65cfSL7r0ZLfpNCa8KYxbpxDGlBfrlJcyFEgxXJUnN3u-FT8ksUZiB9vZmcv1RGvzEtjOCEpv6diNNVTx4XdkP5UPSir3Zu1LBO3suz5npjJEG5ckiGPl_miNXP_bCwejNOPRuC7DFliVWJHVTn-Wwaph1yO38jx6zQmrx3L_s-NXQJ7lV9mIDspoCCk93mmO9_cMr1eEap2c-DjOaEKe5tokPFeYkf8qOoBq0u1KvHFYss5U5jtQuda3raLSLwjw",
+        "width": 2740
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108483739400934811125\">Danielle Wilson</a>"
+        ],
+        "photo_reference": "Aa-ngMaAynDZb3mfDbjRFwvM58fCN79soimvV8iEZS2wHtnFRtYdgc5er4WtWvC2dDyX7kfTNuzWUzgP4LVWImbZBAD9pBzAI2LLMe6VvA3N2mlHmhzdHuGcYGLXHje8WeF1xRjdcxtTLLq0cnMTudL0LAABCZArJdu-HxLsmDvUMqF-fVL7zj_s7cRH9f9Kosj9PcbOIb54puzSp0Pj5aNxGQ6ZJnn073erXEbhit-aKOBPiqTwVh5i-zSMz9xpTbfMbgh-KU7yGXCdEc-iU3e4n8uEpRvxKEIhVT-fp_qzommG5EwTMZjjaAgP5fHHjCPvMpDOcGuRFsoU0Tnq7L7HYz4lCBjQY8CmtrpgMKvuxSAp3VAatJshwgosAeC4jEexqXEy2_PC4_sIC4e4c2zs1yIbZ8nJwrU",
+        "width": 4032
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279623667300384699\">DaVero Farms &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZrrrhXGHGFaFWhmyEvwDBTt2aGOkk7dmNj13MyIFR7Z2jXOHh2722GuFPUnTtadkZsD87oqpyrMT3XJWibqzX8PAce7ImLBaf3PO04R1OXxGWkXpyvykKbcLIAB6meKaXMruvlvzGNPiZktnvovr3WwbKOf8pVQ6ykUmiYeeUfK0-A9N8wFgCfPnbOsaZ7LLkG-LDBrKV8s4g4Y6ffhNR9mOxM9PEheC-F8UTRJ5cF-ZXcFzFdnhFIPKXmPSlcfkvo3gLakDpgqcBI27Jz9AizzZJkJZe18-235wTKf0fU8eWGErI-5Kmi1Vgpw-zr1FTPjgF0RqjGYIujLl4loZJQzm6n1Xlgf0V0s7XSfp6UdNfW03KVhwnPJG1wh4S5EueBAFFAFSnO7d2zzZ4gKLesNAw",
+        "width": 3264
+      },
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279623667300384699\">DaVero Farms &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYxIUiPAGwjb0QHQsovuQMGAmQ5T08UsQX1yJz7IX1m-PSrIPH9pz_qQ1Q1FzbZOfu70e-TKYE6dprjZyCpm5y7z_f0EO4pjICHfmhHdto_rQYqxEAC1SKXR2_YPKR_TlzD0CLhiU8ZvDYio7-VZAAQDh5oE3NgFzbiq_HWX2Iwj4gWf24ia7xG0Dn7xJMtt6nIekbshPOCZi7uL1HPZY-mXABEq-Oit3P0k-WXaJqOZ_cWbT6Mp888wyibWnV9XMcPuyuG7qpbkBUMfRjYY0dkwc7UNFNiNjxUDY4Tr3EBij_sSg5jgPURMFkLfDM9LOcupCklZ1AJZicArLQBIQTYC4H0WHUYpCc472Z5CdohWtQgIZUGmS0pRt1jA8pWt2lVQEvgdYp2eriTu6Cn_2k83Q",
+        "width": 1600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101231740301992766185\">Barrett Mahoney</a>"
+        ],
+        "photo_reference": "Aa-ngMaFuccd8QrIuzXTvXOvXEXSwJhe56WPh6fT9nqZRzw_TafrtCPuOmc8idjLDuzkxCOvqtpagXqnM9MtcMjeuaLaQnAvteDG9AgBfxVPMrit3jbR-cH8A_DIfuBsWRU5LN8fZ1sePMIQkpeTc2bPfXJUu_dbGCCW2_cRY7T3plxL9QG804GFKjWzGvy52S47IMhcsOOhysq9ZrdbUMcDG8zhTXf3TH_gFMqYOH5fS9R_8PIlglMJWARuBuWXehMK_r1AgBm4rWHHjEwZ0VjTP8Ufa0fz5MxLs8fjX91BW5p1jvnPlOlJZoUheY_rvEc2_MCJ8psKZTeAdg6fV49KXz3ec468eggPD6AO_nyvfhhrJgPaxJe8RO4KnkDQDpxWikGRvXsHSrefotHW3g3jDSWaG_tb2EQ",
+        "width": 3024
+      },
+      {
+        "height": 3088,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111438397953933961092\">Tatiana Malinko</a>"
+        ],
+        "photo_reference": "Aa-ngMbIG12Soq4oyWirzKKqTATJ9ZoX04xGhtEqu9KCjQOWkR3YTy0jYJ-_6mFuHQB30h8LEtgkK1f5Bw8UhJkJ8HTt-4Ql9gutz1ikU4s6EGJKDYOwr3XjhxPAoDwoPYJqXi2Gea8LNcD7eMS_2MAlZyM-CBdj2-oEW426jXhd3-CGO89b53tP0GaqVCf4dghL65js4ZM12-7n_Zj84vYYLYhNoVJo7eHlVXiLkOnUYATj3I3uhumSgTcmtaaCuLASm41zI7A3g7JJNDoOLuhR3a3SMgPP13_LOF15_XXZluE2meOLUwIe7YqqdIkDLOUsrePfM3VwQgelxxljZE7ufxI5XthbHk4VrvH3gWpyOPOhJtbO6wLJJHo_1ACIoB7uhxK3w77tbcoVFWDmEf6Z2nLlYYo",
+        "width": 4160
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108756889261785179573\">Lisa Watson</a>"
+        ],
+        "photo_reference": "Aa-ngMZcRJmvDt0GXnsJQ3bAKrzgNjQhPN36OVQeo9ULUj0_uhY6qTzNZ1VF_EIPfEfNEheREn0Hdce05Q_pXUFT_Haqa3LQ8PouX8rNVxUzgcDJLP6AIrrabrlkWPWVNIzI5CIz2F1S335okT8XofRf3vHyGmtK-Mlo095GfByPUhO4mvDAnfYlT2HTJ_y-6CgMMrwbKl_6BB-ICH6H8LYLrb4u4cDP-U9yLCLmUMtUAiQuJGKycLJoqTyF2rkv3DLxUJmCLU1Vr9zfhz4p1MQKIrNdNsmM1SueNY9DAPfSF6llhN7PPQcquolLREMKiDb_XcoW3ow4YWpcdZasowChnrtFyCbfKOAnL3QuuV6u6oqX2hjx3_SgGCqacxw_F6N97AZO5NsNfXmOqMZ1kpfLb418hC-tdZE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108756889261785179573\">Lisa Watson</a>"
+        ],
+        "photo_reference": "Aa-ngMZE011V-N_EqEHlXMPJiXHtOc5BIvdfD7es3b1tHtlRRvGnL55QhpuNF7YZxMsckTtWgHVNA6hzLnxwwihv97Vr5otO-i2HoRUKfcwiLRgEreJVdQEgcoL_VPfDf5SXyLqiFLX66z0QhlBgiE85D91-t_ejwt9IRJU_Ot6s5AK4GxsPrvbyPbfhN18qcvOAOuQYGAPV7XQAHR4Xas5iKHwJ4y1vrAZ8EdrhB_bTMUraeDq8RsrwwFs3yHiaVQ0jSn4-SJ3BxfKIiPl1_vGS0RSh0li-wXfDmxDpot00JefCcFkROgjlZUIV8t2dA3MIqHslaKP2Pvq0PCOoeM3iMH43NFzApdoK2l4xzlDWOxWwAu3m_UPxFh-Gfja7NvXWnPFuCPt5_GKw2u0PQXR1G9Z92zEyu28",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJJ26wYkUXhIAR5PbRYxnd2_8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=18436572600689882852",
+    "vicinity": "766 Westside Rd, Healdsburg",
+    "website": "https://www.davero.com/"
+  }
+}
