@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:13Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Joseph Phelps Vineyards",
+  "place_id": "ChIJDyxQZTxXhIARbKiL9AOCo3k",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "200",
+        "short_name": "200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Taplin Road",
+        "short_name": "Taplin Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9544",
+        "short_name": "9544",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "200 Taplin Rd, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(800) 707-5789",
+    "geometry": {
+      "location": {
+        "lat": 38.507208,
+        "lng": -122.4286189
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5085527302915,
+          "lng": -122.4272044197085
+        },
+        "southwest": {
+          "lat": 38.50585476970851,
+          "lng": -122.4299023802915
+        }
+      }
+    },
+    "name": "Joseph Phelps Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113584839681869374998\">Alex Johnson</a>"
+        ],
+        "photo_reference": "Aa-ngMbrKq5rZYPW6knR70Rvjnuq2hPuATICcDNFreshqg6lsnXYEne9bg5mVOJm-b2kjAMw77Je9CR1oFk-3oHhh5oSp5wiIMmZk060tMTeqM-JIIEk-BcHYZy9b0dF1U83yyyKGl2A-Q6avdJzGBHsdvqOKOg2eRFWSl-VTPz3ijoXQKZH-AJtA-oCzFos7p92JmZrLbLqB-wbXMCePfdy4oIIoI82PWlKiS1yXLDSN_VgSXB1Y8QmWdPjhKuovGejzc85KV9dC4ZzSa-ZRk9QmZVVQ__TgzXEQhnx2UmTeCERHN9CA67UfeklPyGwJpHpdVQgug6dcrKkEMj1sq7fA4G08YXfsNjXrgHIk6CLUwm-A6Q-jX8uoeiaV0fOiJd_B7kXE6cZtsfizPZ5YNRjUvtt_ILy",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109313121398776794727\">Tim Suh</a>"
+        ],
+        "photo_reference": "Aa-ngMa5rbq33rF0B8FcVdmVwEbIhOsvdHV6rS_XAhAnb-30dez69HC5jSAe0qMLVjartTQu-Tm6Hzdbf1fP9Y4ieSckc5lyxZV1iQ5sgkPQbnbndzt8qXzXnkNb1jGHz7bxnjbiVAv3tSQf0VdRDJiGD5sHztoedUWOr7VKkSGNfNTaLJ87bscCLh6VwXC5XBGmAincBcReHnKiZ7_ZZPsGtc1gql2DA-GvS0wiralqdsMJcF5ak990DCi7x-cSFScCViSmEtHIgZmXoryaZcinOaiAdw9d0qE-GRbY7M_GsA_vLgGKUktB-i0XLZLCVL9K_KcnnVkvWIAPI4-2EaSrV_2xtWdBJ2GJycHh-O-tTPdWWNHJBjUIePjKyHh7O9JV3eq-H1m_kjYBAPU50tl67tUGNuL9MAF4ZlTJ6-XLP6Qj",
+        "width": 3024
+      },
+      {
+        "height": 2001,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105429454837931823263\">Joseph Phelps Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaGyp7_L_oXXvmtmIBqnZIwBQ4tPXj4ZaY6J5IGnI6t_pSiRtKbg9ZZ-RtIp89Kx4kBxfzCNK3raxVKTcm3WfR2s-BkCwd4QBwuQAiL9OZ_dSy1TpcH_qxAq6HAR47Qadg5ZmenL13N1OH4FAnIcvEvNia5HEAi1qCSQQXIDiZfLlAb3OGXAiUfoztAg_uGrI51RNWTFQbM76Zpzuun2xnE2-vtfv14--kNA9l_PTr7vVUVAQEACf2amHc_IdueMwsKeAXNIjedcAmthn_nd8IRPAMqaUZBmcfyUmmUdCMsIgafIYwImP5mR7ZMtAScp3jIOVgLLNRVYswGIJX0uv_0eRFkvrRiqVEh-UtIESqTjjiq7xUKBtJJwjqyFCRP2bAEMLHOqaY2SmLQjHvZNiDS9Ac3zUs",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101507704677134265391\">Dennis Ho</a>"
+        ],
+        "photo_reference": "Aa-ngMbCeQfz_oWlv81sc5k5yIn1Ch9-5i0TK96vjuD4-e2mjRakMjQ7Z2L7xInSF-jKrXJ607QfySr9KyxOFvZa3_rTfM-5XqbsxweXRwyYjlXjW9ac1BXjA_W3tZr6KXOYngyCNLKOdkSj17DgS60kWWU2ZEIjjGnhgQStKqmzSh-j4jfzMZT0Xo3v7PNkK6xIocU45bPKjCMaS3jRZS7o0QjJJ71RsE8S0ZvM68Ft9ZDlt7XwNBITU2FCdkV2iWj5vBfNj0KshWvJhi2Vm6mWamoTl014o9AtBa7f4dqitCI7LqLxJiHbSKBnxFYfkl6aNDczSO4zXzbb_0M0WI39SlebN0FdMwNs-Ypx-KQG4yfAsS7P93H5VcGa9mvRkTE07e7LIpgmJ2GeXHhNC3utnyclGlNMkMI",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101507704677134265391\">Dennis Ho</a>"
+        ],
+        "photo_reference": "Aa-ngMYXlcsqegEz3FRHVL4uiR3tUeWTo5uYzOuGcs11dDNzw9VzxcDoaeG8YEYyQHY9xFXaFEv0IWbyP0Mudlb7RhPJWDCOJw_DLL6hGuDK1lqCmyNdZen4jtIunwWt0u3JGQlrshGSn8GDGx0N7K07qR_hWBhQWup3hnBm4fnyCjTsw1teH77-5EmkiZDEj7dfv7KsnpKaWdSHXzYZASt4PYVzbvLrCtN79Tr8CWwOBlibneiFm4MJIT1Zmp3AD-P8l0bleh2WzXOX2jsEgVf6g8b19-_GYOzYGLpxfvdNTIOeGgwyVNjBGtzrbmJv5PbNiUaKBWRK67GCLk6xRxSTcGrTnURrL5c0teGeihsMATROAW_Dn-SWtJJS046Zmz9FJhP6vxxZNhex9bDkDFwWfPNVNSYqnY0",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117427575890708867167\">Ian</a>"
+        ],
+        "photo_reference": "Aa-ngMaGViOBacGYyz5WLVoz0OI6RFk5CJRUGZJfAv7_A0ru4PmP1vldfOZ_-nxLQOcUfZSbRGxSGtB10Fo-QMZR6TpGtc-yJZMzJBOEp_cfgktLTq3QdidEOW8QToidWyvhhN6sBNO3YKDer-pxA3QYp64lMq1NZetY7CrVxrOm89aq6hdcM3Z49f2rfVPJ0qtahC9i2poq60ZhL9ZG1ZLh5yUYYaFdDBfzmJ-0vDD7OwE5z7a8atShjohdIyY1nnwTJgqJMhVL_V5m6rNBbuFIztdn_9KjoKtZwL3s0VIL6jpcESzOP8VwhAzzLzclj0fP6VsfSVQhlT6tblP7InDsrDbcxf_boUkpjrYp_fTULa_HgZhCVa6wj01Ef5Q9ne1NJCgMHbCKlNvSLDa-MtyDVckxHKI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117427575890708867167\">Ian</a>"
+        ],
+        "photo_reference": "Aa-ngMYtkf6xR8HmFpEjgzXoylA-y5905CubwB_d9nEy-FFlveMcJcuYO4DPAku3zvfaDUCVLuvidsEo4ujFBMDa8CeJp8f9PHFJD-SGqgB5U-VaxjFqwlSkb0SzMbzC4uuNMC2MUoGnLSWLkJPmAxTHvPQHbccu7-6CbNYNnCnry81qLDv5Ay02UE_GwfEDngxDYjtKtDQzKRHHD6-jj_y-AODcGviXfyE6I09mNWWizIKlX4pcCIry0KqEPXSzUmuu5n_rXD6-TJ1CqK_hEY2gAFCKzv6y943mNMTW3xWdIyJK4HV_REKgPX1PCui4jsZ5gviNib8UlsZdTOA2J9ZEs_g7xSdCfthNuczj2KuS4bG7P1wkI22erFs3AI6mid-aNa-0L-y0xvE8_6lJzTwfV1HPUA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108828378628146454026\">\uae40\uc885\uc11c (Jason)</a>"
+        ],
+        "photo_reference": "Aa-ngMbo3xNaYzNUFsQFeFj-elxRFj9LiHi2dyF511HdXyT6n1-Qhynz3HWZrlYoIY4DwPgPSiWPM0qC0VX7zvsfKKAZhMATBdlLukTPpfZreShUFgYW6fGu1H8SqAriKaibP51LivfLmXpG98DK4dSgBeat2BmXPHcpYFDqDFPMB-yDtYPwnFGQetTtzutxQQTKE9DHRxoH6WpGLR5u2HiB2fwG--u1Ibd16fYNIBdTH8h5mDwZMjYZUFVO4MzFvLgNexsoTE6RZuYI-KdHiJWDVeW4gu20qbmrKLdGaJgQk6dBVBC8eBJAI6yhM-04WLtHoIb4I-2NiQbpxzyz8Iu9lXv0Kh6HGtvuVRxisKWolqfQ48e4QIQd2GAgqLA0ksFAutNiXWQ951ZPSndI0lcTaE7976gQmq3n7ESjDvhSapUpZQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113544838705731645280\">Peter Romberg</a>"
+        ],
+        "photo_reference": "Aa-ngMYPlBYQWhtLKYZLLP4d5y1_1czha8VdGNfI4O7dy3pF7AFswp2Mihy41v5OP96z0bX0sFMXjssjgGTIQQ0Nm86eETTTymSCf9llonL0jYsvy6XJ1njpujgwHlMP5Xpua_PtK-jLYUckDGKkPZUQ3man46lQDziss6fwUTwGBvtlxW38vK9JkHLGLGGHdtp-Lf97Mu4y8tVPHbHotjTv4mHEc1wtiLirBzA7_Iial2H7-viG2SPvjwaKeioOk_dHHLemSEeFgm6TC9bEul7mSHrwWOraU8ta_ebSvc6iC9-eSg7KQp0L0nhVcah5-h0VRcBQPUT-N8yHmov632nNZTaSpvMq1XV267oHrZZW8SghrjS5OYm_XAqoeoiejIgl73dafoyekUnlFz7ocoPkXXPsDg",
+        "width": 4032
+      },
+      {
+        "height": 4053,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115980244991816318917\">Le Va</a>"
+        ],
+        "photo_reference": "Aa-ngMZvFtAWoptoYLEglC7d1BmNOL89iuJCsba263WBCb4A8KW5pmIoru8BgtxeAsfinAcLkr8RwiRB3xFVnu7mNxpT_ynLFzD9dYz7mcYbGiCu6nIoOCk5qgZKhj1NdKndZ_UPH9svWkKDIVcsp9n8llB5Y93--d-aoUIAadBD53456x-Kyc7V3dShQn9tjBgLs6iB5y4IJgl-PP5muxg14F13v80oGQRVgHGXqvnHuYFp2Lah6AqJkCUPhf6_EPYh16-C6jgtRbycrwA233gORwqmELXA6p1aObXkSXkRG1rNOL_xTjyLLlwpPkmdPX1JFjmyfeDkr1nVFfbJ_enXlqb3zx-dNvrPMXJr3_0bB5LA4j5QWMXC_6ipq-WOfhOSuc_QdcFMh05anMzBTIv1pDHpqYZVMXE",
+        "width": 3454
+      }
+    ],
+    "place_id": "ChIJDyxQZTxXhIARbKiL9AOCo3k",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=8764992253292423276",
+    "vicinity": "200 Taplin Rd, St Helena",
+    "website": "http://www.josephphelps.com/"
+  }
+}
