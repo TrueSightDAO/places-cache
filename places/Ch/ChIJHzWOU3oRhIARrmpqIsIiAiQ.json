@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:45:59Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Stonestreet Winery",
+  "place_id": "ChIJHzWOU3oRhIARrmpqIsIiAiQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "7111",
+        "short_name": "7111",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7111 CA-128, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-9463",
+    "geometry": {
+      "location": {
+        "lat": 38.66248179999999,
+        "lng": -122.8173769
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.66387183029149,
+          "lng": -122.8158795197085
+        },
+        "southwest": {
+          "lat": 38.66117386970849,
+          "lng": -122.8185774802915
+        }
+      }
+    },
+    "name": "Stonestreet Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1530"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 418,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102604194025868207923\">Stonestreet Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZCcyI-CyZQi22xD2k96F_N-sHmVoCQXZpF1hjHCird3N4XnqlKdeic3WJJdfBSS02lLHU0-H85mocoEAfFQcGLQqz6D5Es-enzeAMXjzLoY8pvvxY0ugwjluUCqp5NrbLJMrNDJSvCc2U8C4FjlKeKhVRNB58NDZ1oqUVwQnl8Z3GZeSoCp4DaYvDvAlBvDm4GrOI_Qdc0KrGi73x_xoPprbetS1rRjHrOhKYsi5l2fmvmOGOSVn5Ey7F6jlE_InEl5AOuW77U8O1L4ZR-_by7vwpdPaSdQy9BxUmSZjFYVOXOSfaUnnVpLEoGJCY_ZcNMFG4jdajSgajU6c-UfkKZHbnnrneQkY3MVfgLk9CHecN6Es1vwymUnXnVf-lv1Oa_YbmbaBfYVyImj-hWzwhtCp44kSE",
+        "width": 600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105989302649434373809\">Allie Graham</a>"
+        ],
+        "photo_reference": "Aa-ngMZWgMuxzYlRMe9gcjZ390BrD7M_YQeF35-pTTUOEAw-u7M3UbnVpxcjUEA8fnWihNWLVRvbazSpEqt65qsUdKnG02RdPGkioN_SpO6ctjsFu5bVgCeaYd8LAIjXVsms0CESiM-oAe_zYVYbaWmeFLB5Ey94kcCY7JnU0uN41uoWm7xDn4vy68J3BbvD7GPkz2E-fyJcO-LeeNqlJj4R3qr9qbfZwlIhk0aS5KTO29gYjesZ5sKeP088tIIRhekJLen4UaDYxVkwLrOoFw8E6eoIeWhdKlJMpNlrdLWfTt0ySTbLROrmicaI82FoMbiQBHOdVyIaPva45jGPJeIDeqM-Rxzt8u_rP82vz9A0WJjf04jShFrCF3N-Fv_hJj_dNcTWIi_wBfXxrFb-KLBIAopClQIYDCWQbhNXopT1w1OgLA",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541475180542522680\">Cervantes Hernandez</a>"
+        ],
+        "photo_reference": "Aa-ngMa5AEpf2WRwQvJL_lVHIW7PI3MDjIcv6btuIEyhnVfPRYvugnNNr-Oz406egfmgid420QrYKOvfUS9bcrAR3olj4bUnbVoXSNfxbLXKpPDne22BUVvG6obkpGkhDQrhVLpMh7Siqz3RTpl62KeZkUciidMurjMsfnDVFDdWwG5Pm18EIV60p1_ORtbaXNURKBgDkKFAyRASZnk5m1XJguI3jZDH2pCP6YHA7wjhrABPA4htuuz91FOEq-4fWd4Ug3XEmqNqgmpsl14iVfxA_T76a8AO-Cvlg-epLlTS6Asgjd4Grai6r4hTqxcYCsgUljJXJBUmmJ8ORZgPb5bhkZ5E2aszu8B-EIMS-meXoczeVnmELiGy_wNwGMLoKdQafQHGt7i9Y-py3ZR82fea_4Lt7fvr7bc",
+        "width": 4160
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113880454742478735281\">Cr\u00e8me Br\u00fbl\u00e9e</a>"
+        ],
+        "photo_reference": "Aa-ngMactoxnEed1twCe_LnmlM98g-msV5FxDPYr9py2qUCYEXj4ka2l3ZVqfq7NDpKNOhN0uO6BTVB35vrxV57amX_RfWCaedtHgoDFXD12ccHib1yPQDvRp9sHOZgTD5xMeVcOXVt6L3b224OXCQ01BrrSlcGXCOjzcjhiWndZ6lH0tiSaB4mi1fjDi0rZbDsHrcnMS8U4pivydtSf2heM0tfoPbDwvmEYAD2o6KVgtFrOQyf0t5WZnBwrCjeKx17-E3AItu5qoKbokORGPhAsPUg5NVM0ThyZT7heWyHbh1QQ7ehX_68eokP32ZOGh3EejI4gsBpdCVcZsvaV28RUukcGeI33-Pdr8zrLiDsgld1LwnABw6_v89fkj-YFZ_wQpFsMnWhHWRa-eswUrTPzOg8fgxd8k9vf4_71eDTzqIAHhw",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106327548982257513876\">Imtiaz Chowdhury</a>"
+        ],
+        "photo_reference": "Aa-ngMZGmXdyEMb2HA2xtITvEsJ56QJZKnyXA0yQiVaI7sX_pq2kmszfeCE-kZeoLoBOL1trN-D2Rev64GHIrUUoneMuhRDpA8MvcWxgwybuxqGOroBApEfL6BHxaN-OF-UgA8LrioHQjzVI2H-KbjHUKpkR3ZcEGpJ9YuhG-xLJmTjKEyXA_8fUD5tmh540i1nd0mjjb4Odt8yHnSgbdqEh6OWEf33T3ngD4Gdh59eeJdqJfn_zoLGzRdKxdnZrCU1mybxSB5eCP74wM8j807JhynDWISSj67eky3bws2Egae9aIicj8_eDu66tfVQEzPjIZYWNroArn-YBc2NQ9sVoxpi17GEReqcKPuMU0BbdH3M_Q-u0DYmoeUCLfXKebg2xQY-tPLV1zH8kTpZm7epoipMuuHI",
+        "width": 4000
+      },
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102670402838903375428\">Si</a>"
+        ],
+        "photo_reference": "Aa-ngMbaKudpmOHyp9jHPXMhdb2st0i4CtyyPGD7slPo8KWQTtlZ6G5ofbZhvdgA4MzE2V4ssIW5MirxjPVjLa9Mqxw-9OpUOjFqQC_x-3nWrVejwBhxeBTYAPQsv6fOUZHCIPK0zFKF2UwaaZam2Ds0ZJFENkmdWvt2GGwnSWHS7PVoVsGwTJlnwjRxWVCnzy8-T8g0bOXpSIyfpKWvMBajKrNeC-rwYXnTRZv_44QYY6fA2wSHBASiy46Ndm2RAWeeD1Zk9JXzClsZupAtrKmHvKOaujsJHciTfPfegrNTAo5jcusrJEW24N6HeSFVVaz8_uOHpXxjXOHYLJD8mKS0n3R39HsLISMNU1Su2V8OXoJN_6koJk7qmj5zpwNfQARgwJ1Ak0G7_9X1bfUmlq1Mr8HNDwDWHxP8BEBAXvaoO9vslQ",
+        "width": 4284
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100344236526545390471\">Brian Robeson</a>"
+        ],
+        "photo_reference": "Aa-ngMaEHHPjgdDxQUn3pWTOBDys3gQtHCY9y0tumzQo4axu7Z8bN6kfYYQN0BiJqXZwTAWVOmVkrXkAU4oDPnw5y1pt2yy2DYsvl4K-JFofGZ42elN7nxXXix1vXJzMTQQvFoZqK9XLiJBev5fcZx9TC6NiNbNYKdnDZcYjKWDPM9nRdNdiRU4Y6_8A2rnE55HJbo_dTmvFZHZopT54owU-sHj6ivWeTJGK_fQqvqsM8BV12UJfqQ2GDDeRwpS0Z9e57-FabQlduCZVvtdO2zrmFTMm6pYEAd5cRyF-reQ8VxeMSfkYBCqI8DqA6qDF6EAJuu9V-q-d2SPsMsLJX04vhFPxJlRxL3JZdoytq05zQZ5yIwjw7IrRzoFlbq0omt04D6qZAVeVwylwrPkrIT_NZ30fkw",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108071565465616857156\">danny perets</a>"
+        ],
+        "photo_reference": "Aa-ngMYoufNlZ9i4zIDgvhNQA0RGNfwfrYUsBvz4vYw294MMn5eTjV0HoO5qyfD1onCvb9DUNR4R0NDn5rKfBNrIWNDuUKf7-sppWqM7XADubvLpWPmL27wz-qi1E6h77zNZCjWtfcIuQ_l6BBewjSLmH7_cdURXFACiVA_WeiK0mMZb24Ijd8_YiMaX9NZAiiIUivOZZ9lxFcWxomJh0sBOADh-meNTVkR8k7TkBL7s2KX2q9_YqKTpFRROt-q3Pn_zeb-ICQsuYIpYOXEoJyzCFCvFnK58YDDDntMCtUiwb-nPO-ymvLYqi9oGTZfPEcTe00V1gHVTanb2ss6PA8MCZjBudGCHPhZo2_Xw09pVETkRc2FLHMkB4AnNKYt15mBRAgvKIVXvLf5RaDoR6V2aPPK4MkQBzGWy47fNvGWgFx_yqg",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114663060259512866833\">Danielle Legatt</a>"
+        ],
+        "photo_reference": "Aa-ngMYVpRBWKiaDS3numJukS3K-tVwMjHAOGb4DJVDBU2oiu-59GUP8C5yf2Dabsf51U70ND-9N5l_Z4L2K60D3yUYykTdbs4VCi30oBCw12epj8XWAmk0xwp16jqnIPjg66pjeLP0apNzgR1bcv2R5JUE1Juo2qqELsHChXsgSRczu9zpOmhGhTHJCv2Jy6UW2s0bixh0B6v6QyOFWsoApc0N8YsJm5E49eUEZKJFZw9OR0Xs3L0KXZJyNXYeq5PvdxHeFP7DadceYoGYBE6WZyfSwrp1F5ReS5cw9H3Gmx6p8huOFvKtjvsoJnkMnv9ZNdMQ8k0_ddU3lSI6tIQJelHNPZrKSkfuOSAH30fOEfOnwT7VZ3WN7giLh62neGXMNTETGnGWMkj8Nm16OWfy3YcAD_Zs",
+        "width": 3024
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541475180542522680\">Cervantes Hernandez</a>"
+        ],
+        "photo_reference": "Aa-ngMZHpI9w-qPsHK1D1O1d2IdLlH59QJ6bDHFHzYyuxkPlSW7WPKdw7fAjZzRcbWnUuRLfdCXiix3pNTZ4A_ILWXpd2Q3zeLzzQyaxz9bBgRT9Pc6ZVRXgMXL0p34Neok0dmo7PWMPAHFMreQntjXbGRHHmhntbkpKKb6zr7Edoo84TWyZfw1kolOmf8qZfkAM-4RgT_WsOLo1amkmhQWJjgB0AEGyGRn9qdG_YCcBwJYsDji_P1n1mzltiUfx7BoszF0Ng6xrAwx0PyDd33QO3niEiaicIl9BYlG6rN31wiZ8OFSH0ezy0N8qHL7HGMCqCi2cJUXIIPj4Mkp-TCYF1YuSIaAA2yMFOS72ayCi0tB1EBMsmDsJHkhvlJXmp9s_jUkBkZoMf1HIblH5ElQXziqC8A",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJHzWOU3oRhIARrmpqIsIiAiQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=2594674552515226286",
+    "vicinity": "7111 CA-128, Healdsburg",
+    "website": "http://www.stonestreetwines.com/"
+  }
+}
