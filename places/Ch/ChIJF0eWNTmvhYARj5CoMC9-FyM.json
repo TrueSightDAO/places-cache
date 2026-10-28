@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:45:31Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Anaba Wines",
+  "place_id": "ChIJF0eWNTmvhYARj5CoMC9-FyM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "62",
+        "short_name": "62",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bonneau Road",
+        "short_name": "Bonneau Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "62 Bonneau Rd, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 996-4188",
+    "geometry": {
+      "location": {
+        "lat": 38.2366459,
+        "lng": -122.4641956
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2379706802915,
+          "lng": -122.4627849197085
+        },
+        "southwest": {
+          "lat": 38.2352727197085,
+          "lng": -122.4654828802915
+        }
+      }
+    },
+    "name": "Anaba Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYXrOx6hEsxLN-hRPCTtmL35OwYChOysTEA9we1V-h62o4rXP7q3rm76erHjF5mKjPFpQhhs_ByvvjOzLDuqA0-zJR28UUgwQKvczzbOPMgzE_WLLqd8jyXwaoYlpEd_ZC_rF97Fy2o_WSyA8qZVQr5KCGIAef2QX3uyFka-9TR7nuASWWIUn_Btujg9I7-uofVvBb-E2gCF20kh7yw3reisgqhuDHI36tLXGH0w7tfnPtIg_TzWaictLlJBmdT9AvNpg_TqBIBCMJ8MizuL040T-1l5ZSLnVCjW_v37O25NXl8VExV9QE29l86wIzLxYZYyYZ4irNVQshTcdNF92iD8gbQJ2rdTAUeWJkK2b43QQKETKGPW7ZNM7a-Pdz06WCfIiaeesGD1yDiUiq6H54PW_dWhW6n849UZ01_NOuW2g",
+        "width": 2171
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMY2Lt0S-Y1m9XtqXI3dFOmz8MrGC06v8By520mzgB8P-lyJFkrVqlLtn2re7RbkxmW_f6KT5v8BvlCm6eqrGehXVGlRXPXuKZjpGsDa2HyXbBt_bAYvJsycKXm4QOwm6Llwy8GwraqMLXP6utfUJ3GAUiXX5ir4uHlcYKukVNnY5HvPeK8_kqrPbNZDLhZGY8zflVyFf0pL6k0k3Bl4s_uxchVmBirwUTXdCz3ZBYePhPXebUh4gV2hOIVc8uxwPp6qmqBkM1Wy2fEzjZ48i-o8kMmoWz9e81YImTyqClOFJmI2kZa7fi4C0RRqmInWsZYg3EqlIzp44yEZWDiPlz0TelML-QNIgcMloAnWv0mKPML9Jm7Bs_v0Pidd40WlHGFu4jzxslHka2RVRHKts8TIWuE",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYrxwXmWVVKRttnWss8YW6Q3BlzQySU-X60Z0xNtVv7RlJGY32QJXrHXVajfbt3Ne32Xu7-ZpxDbjH0g1ayvS1rjpBXM384Yr2AFgV0Rb4tEQGCBXQIlmAVzRMYXDAzCXT161Oq_nSzT_f9WVuJmygwB2IcAO7OWogf0eNJMVUUTGn9PBgraTqNu61x9NXFa6qzUsnbmuTvXhiOpJAPL_deMSf9xOYqW0OOzGsCG21KcQ2Oa6V5WigePF4mL9eb8PN6Y4KJQeK8JiH2vE3VefICcYlDjn0n1s-WJeeIFiTmqQ5D-HQ78gSaVoyKKWt3UISCxLYIunuHvyGpIEZElRWE4I8hOGRabILLLtJzqQbPt_LBJ6hAYPkrVaBM5DMRhDujeOcyBxVRfUdexDCQQRcij377eoM",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMadJ85MY5BUlmHHWca3scW5kA5nGwPVJgR4IU_xGA_VN5Rx66I31dGh7fgpDZoQJE4aKdM5qdCgW6Aqe97V5CWcPzPkCGE7E7rEgrF4eedjTE1EAdWWTdAzgROrD_ryGykhvF-SEHrXtwER4vzQ1rckvEeg21mK2UEQBeJfDtDhxbSeHhmGRw7dvwLhSPM5k_pP3tqUbXpLiCB7xia15QsWPlbnAfh0R8KCzLLBaaRxb76VCpWbsWm2Rii8VoeTTj6TK377oXKgd3CfNJuvc9vTJK2cM1kCEdb7MtIIRZ9rjcimUNg2u-RokB_3ucbjgNnva_P0P5RRjDXpCEtgixF5f-8eUzfYnvWo-oXNpiX2y1vGf5mWSPRewXcQHVizj9kPqlTm6DMuXRKl1ozhULzULELzhnLhixIsGscU-Cht",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101263751589419254908\">Cory Pursch</a>"
+        ],
+        "photo_reference": "Aa-ngMY9cHPGkK3gCPThynxBCCo-ZYitZYDpOMvI1Qkv7WKy0vfpsu1HotpZHBT29LYBq5K1jVVYfbXd_rUMnkxwEfWwU18FLj5kkqFqRbtcdIa-er5D0n9ithaDkLL_ZvPT3PpVbcfv5ZsdycaFUDYToaN_HDaurRB16_MzXi4uR4z1pKIfaeRKnDg8GNHI2Cc3RtPZMZmIGhw4qY1tkUKP4HNJzYU3tNuBiT-Rva8NrHoeb_nwz_aAcZMods-ObUnq5q1uSUEAE5N5mr4Ctjk4aUVl1XdtDKuRSfX_E7-WO_ONrINytKkIDl1-Jxfm4nuJ4PEfJWRJb7pl5s_klyGuiP9H18sIJOtWbpRw3ZY_n-DCV7QU_SgEZtxpcxqwowhdq3Dkr2Sm_ZramkeX_9McUGXTtgE",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112428528124374438252\">Jim Stallings</a>"
+        ],
+        "photo_reference": "Aa-ngMYvzt97BcM13Vx3ddlhq_allamb0_ZBRfBHMnS5AXayNTIMm8kPhkoO34d1ZiuQDBZapd2CQ1uZIVwGgpnZZXGnxK7yu3jm7OqYvqwiF-g_30wgHn_rsY6nhnOr0LOos35XLU28bAIWO2-yUsFrKBwI2X7T3MEUxv18SXLdQT0OvnQHburn5LEske-pbZaJqidDzu0T5AynkY-SsCTaQnWZupcBXxPeiq9jVyWWeCyE4ijZXv9Y0BARtqazcr_L9dNXIH3_Rxzfl8Aej6L1OOegewbEGBIEkh1ffXzgKX6cMzvyWXh0HKy8IBNezJgrZS_O8oRu_ikPZo-X9JbEzL7z6EWL9K0gPMSbOHuIuBL7m8cIWTr_-73MXtQKbztsRlw8X7sJoCP6hNDH5MBuP2Nxqg",
+        "width": 4032
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106820648219985695383\">Sophie Lussier</a>"
+        ],
+        "photo_reference": "Aa-ngMb5z1Mrt1BRRlDidCg8Kxj4mSoKLunYMIdv3K7zyZJPyX0HrioClKgZDccMZWwmEb5VXlUaWC3_XzuCGqdvzneXSNuMjPolvk0syuw8ylBDSgbOTn45YzbqLI6f4oBOwxdqt_AZggSkXPfhWDdhdQsBgQ4Vej2be0zLLRsRZ-xeyY0x2lAjfv9UtrQ_5Mo_uwDgILAT8AxRNddK6WJ7bWSkD3jHwH_WhD7oY_KThkkqAtvAU_73X0pmNzhSEx-hEDmhwneNvYexdT8jYMCpdThxVHRdDHlW2b70WHluT8itgcpM2Qr8z69S7QEUMHUZU3lAUyBfkW_gEPtuamX2nVe68LEJEJRUcvdYyDl6Kh87ZycQ5tkdcxaAIAh8VWTfoBzvZWs2Vgh79JaVhWX2ODAcYGNr6fE",
+        "width": 2048
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMbVALWnXd5J2K8s89dL5q2MctDjC-xxC6nXkHqWTPmvRIEpff2VV45IZL1Oy0kPiqYwEaUK18JSgO2S-hqSARzhY9rmpwZmc4JpuZ3GrOBpT9cuKUjUdqy7gmk9iQYAGLLj5DVUEKMyHE21QVL_zW3q-r5lPS6-AgO5_Elny5ZqKHU7Oh9F36GV5b4qwhV2Yr6D6QkrGfv4ntR_eW-lLW1j_8adr9HQIAFYLzTJQi_EehMtOkmnN8nJZWSehgSjUitfc_yNfPj13dit_K1Gn6X3ACE2LIWFjDiFWevtIUuArQrEJ3YoRwQGaJVxpbJyKqS9wSJhczEXlCLybboXEhoakVv8-fcwO82LgUsYHlvXW90VlmmJ9gzfFe8liquIIikzZTbDEEACFplOCsskx9zMJnE",
+        "width": 3000
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMa34G34gYp2EaXwrPHwxaQXWJht1eTuuLePHdLTyNoIa2I3j85tL3AfkaIHeUqtFZ0Ju5or9Mes91I6KPYL__drB0iI9Y3dVHyWgZNgEyGLMMvyuvzuC2MmO0rX5W2VEmRIzhU27c4k2Ouoy-EU-DmsFCZkQ3NF3asVlbUwxa1EntzuNEfQPlesxeeh_fFV6RUURSZyGu0xz4-77iy8--19AQUJyZCrIlHzTUzBuWNv-0q0fAJDadUNL4ywuycf5LKHh5QhfcBEj4mXB14H2GeV8WX1hnIlsvUjxuCcpIg0ffXCVaURB5RaJYE10NdiK6kB2n3JFXkIMg6vMcTD-Hq2vDMOE0YAa0TjN5XpCoWj33Uiif7Foa2V_GevOlYefLfhwEfNBXbm3Yq79bhPd0HLpAiKgSc",
+        "width": 3000
+      },
+      {
+        "height": 1023,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109913267268835898378\">Anaba Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMYGb64B3nO9WXtMkQ37g-wRKoXicouIJSpREKLmBkwF9zOJ78s_Sc0d7fXrELnN8M67MXPemHtcHeLrQ0Tw3McxDz46AXfr4yUJeGSKG64CLUyzfAU1lvNEILEWjI63xwxAKNStLJYKnl9GQC9AYgMOqsYrNRixmqeEpDPxzPq4hBoDc0QJyaZy7BOn24bI1q2L9njswKjQHYWCJ-X0YIF88YtdlqvCqh-qpKEfzh10aoZDPg4tMaNpQfRmRzUXCZXpEMtp1uH__IO2dUlsyidqtatcU4KYG_NsqgiRosN6JQiScuKwq_N6i86F4zo0Gbis05voI69rB5ECQHY07iArFoS9rGRKi4kcxnHSbQUfJhGFOXABPk8GWXI6lSGTiKDx7iFGRWHlGPrSJpGLaDHRh-eKz66-1Lymh1LyvuzWdQ",
+        "width": 1537
+      }
+    ],
+    "place_id": "ChIJF0eWNTmvhYARj5CoMC9-FyM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2528628456936738959",
+    "vicinity": "62 Bonneau Rd, Sonoma",
+    "website": "https://www.anabawines.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+  }
+}
