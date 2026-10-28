@@ -1,0 +1,189 @@
+{
+  "fetched_at": "2026-10-28T06:44:07Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Hanzell Vineyards",
+  "place_id": "ChIJ23uTaGyshYARRxX2QJjJYww",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "18596",
+        "short_name": "18596",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lomita Avenue",
+        "short_name": "Lomita Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "18596 Lomita Ave, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 996-3860",
+    "geometry": {
+      "location": {
+        "lat": 38.3133878,
+        "lng": -122.4624397
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3148315302915,
+          "lng": -122.4610479197085
+        },
+        "southwest": {
+          "lat": 38.3121335697085,
+          "lng": -122.4637458802915
+        }
+      }
+    },
+    "name": "Hanzell Vineyards",
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113584274837892774798\">Hanzell Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbeOfiXGBfYUiK5OSojsGau_1-CsU9yiXoGi8zFG1tsoTp6od_8FvgK7mABMNlJ3M1ohY5CeOEYiuk5AuexXstJBFUfoeXor4I9i3wQbXKZQgDdv-8Z221xtRVxcTWCfC54QtG-JSFUwR0cKBPV0omIQBaKB8oXlIalHC6pWcWl8qESHOjV13OWw7h1n0cNbs2LpYpqnitO9tQEiDOjQTEgownlBIUb3ulS03N44vfS5E78-l-ihKTRA2Ue7bBtp5BWpp-HkcmWszsptDi2mu7m7kHByLP40Kh9JIWwVJT3CSIWBzaSKGXiZioQyrBRDazxI4p6G5dYofSYLgc9C8XTzl5UwC5zAU69ExDguryS1hZVktFZ-CZwnbUnaD165Ac5xnUN7zzQ_aDJfFkmDNY7i743",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101250043801933897308\">Kavya S</a>"
+        ],
+        "photo_reference": "Aa-ngMZGfD28gNIRRNLcom6oYgEDJ-uxp23jUw7JCFTGFHzXet2egktQGCAy971Zx6VLrT4iumrJDlbw7uHvo6YLmzP7_CiqU0ykA2P_-6Oklrk2Kj91thchkGFmtmYA9J_4T5DK3PN1H2_NAkO3In12t0bl5franYJ2zDMT5ukV8ceUeomP-20H5n8NVl3gixUKNJFTCxB5YM9j9RLtQ1Hur6nAoiK4FMQUg-nvslsiWwEKZsNmpCLc4qqkP6QX3oZErbEkp1hPxNCclpAgFXLWMByHyFy8FXAgky9IMK7X1GAqiMc35kP5ZEuTsFOfZxcDy56WbdFOf2FK1s0-frwF2Nh6QQal-EtVSVROW8gu-O0XrDdqctZHmnMIrqGHfEfEtccxUOv8VmSg7N4uf7pfgCCO5PM",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116208083968729259650\">MK Smith</a>"
+        ],
+        "photo_reference": "Aa-ngMaJa-pz07UXvNe_SUFdCMO1C5c23pkwK0jD0HSpb7iW6dLcTdLAen5ykn2nbl8P5HeNQwO-YZWW3EhrJFh1Gpn0VL2u0O94XDkBdQhJCFPtUT-2Rnr2UCXTUYck_OGG64IOKJMJMSwVB4HaihOXcguDXKWXKRmn2NM7hQBEhyMWeoW37fg1-GI3oGr91EDi_2ccPIhjBgRv8SB4mO4b1oPEY5lGIg4GNeCG0ovj6monLNM9q7TqcZuZt5F2OcBWwQKnPVfEaecVSaei8rMlbBHnaUvxWQ-4sGIc_oju3QuKr4KdCtx2p0vZizVo9M-WUq-X0hYPQqJlXMdgKJI7SMLzJBWrw7PwW5z1Ner--z5fyeAiS4b3mbqOyoYgInbfQgBy-A7aVe7LOf62B08llEHMADhka8r4l3PgSaZOCOZcqA",
+        "width": 3600
+      },
+      {
+        "height": 3758,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103079526275359000556\">Daniel P</a>"
+        ],
+        "photo_reference": "Aa-ngMa-i1PWglccDn3NsU2L6he5GWJzDYpurf-_OMmT98Rh6qSgzAgbD2QodU7PlvE8Pbe0gKL_8Cu8O4cI0cYjf0OFsR56pxHrPIYfw5v9yNdLXStB9WvFshoBtxqkNLueDCdZ5emquutFyozGrD78T-KrBVOXaH-eakAy9Mqir1AlU6PGZDUPh96wDL-KdWwTbuslMVzc2Ws2_p1ajRhgJmAdhLs8yc7T5oO5fCV-9Gv9dVCZTVgOKfnj0HDXgAZF9cDRZWJomklQwsYehKq-fspQF4oP37Kx2XrOdR7ed6dTs7zni23Goj_RKPkqCg1ZiujXtWU4rWJPE6PTcKUabZ2PV8zAILnpTFMN3aZUfmudMC0mCJO-JLVOiDTkmOsgWVIGlFAa6GDGS5UAFVam7RCPq5gaEeg",
+        "width": 1999
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115266504627985498258\">Akanksha Bhatt (iamfab.us)</a>"
+        ],
+        "photo_reference": "Aa-ngMaL6CICB-0adVKsr2dWAxyRcbqlL5v8ykXrQUQLXDyPIHLvYBsip8V8pYU818a4UrcSymbESkX8Zx0ahbnAaiFqPW2Ha8bKgzmZlKVt0uNzMXcCNjfu-2sYdGlJWjP2g3hoxzKMZYXitHvD1qUawnf_mPhMOOYYjWzhflHJdqSBvdOJPogH0s2cuzcFVGqaUMFlr80wKQpTZzTP_WRdVpS5jCm2aAYmirE0Je879iglVq0s_itOaS6TYYuM5joOEm7bdWghxWnaTaceijFT4Ezn8AscLspwcan1cr_HLvEF9N0OcYtyy84gzftM4zZjMBKxD0D0D_2OjtVh00nInsqAvk8kq1F0dQPNocHW80G7KZJpwUKoOq9rgD5hK4olg_TDDzYOgIt9wu00muaOu-P7bN_SDXg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111152118654237873868\">Ashley Brock</a>"
+        ],
+        "photo_reference": "Aa-ngMZLJ8RKFjS62s4vU4oOhs421SdkvvX9lf65_6YS0rNe-6_OaLZCwB2Rt4o0Ivqfr0PB_uR90HmkT6MH-91iwv4g66gvEl7EbBs2OJLBmvq3A7NjS-Vk96vBcpl6s9qIRdn8gR16npaV1sIXALsE6EaP4Sg0x47r9Jh5l9Yjdqjvck4pbwm7hDywsoGmhF9Vz0obQCTBMy8AhCOt84o0Tsmr6X-UmOlH60nj5eEKPmCBVBs4SwYdcvhiMkEy0GUTuTIHE-2CHm_Vztp8LlR51R8T1pAsTCKKRy8LKtwAhgaiNmrlfUJGAZ15MDR4DN00eHh_xu2S9lKl0gKfcA_EX3INdtYFDaClAsPtXqMIuClbqXOzhTegV6th6PlS2km7P7DIkqws62XGNDL3fs-VScgBVv4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115266504627985498258\">Akanksha Bhatt (iamfab.us)</a>"
+        ],
+        "photo_reference": "Aa-ngMbGSSysqnjYm8so8RXj51--6vbGUHDUAaYULIEfZRlWx3Ma2sf-0dVeCDBsPjL_LSLhLNT0MtyummXTWvUgPWYUhQ1xV0fZZJWoOo7xG4TIASeaArgaOuk3gaynfOAnBQWwll1yZezKKqbvqdsBpU_YC9U5RAMTQhQebVzmRxsLQCARYWoPEdsqLFhi7z_kufHNpKvxVVSJA4RFZI1tDGNAmCkDdWh9EKTN4IQA2ouIEOY3Jpm87tyRvpjOS1rtesyFHcIDUCcfHGQMA6U8du72Rz7bh-aOTIwmQM4zVo-4NOl15guiH8Gv97YxTGvoWCk7rw8t--pEScM6Z43v7RM46MLUJgBlpIWiY1zcNODRZAdcXVIpzTGn19HzZvwWNVJFG-6B4ADY9z6gHC7UT583XQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102817298149466054396\">Vince Lertnitiwong</a>"
+        ],
+        "photo_reference": "Aa-ngMZWv5UNPTVpWeyStZEsDGslCOxaSffAlMY14g-s4PhYF0AQyqxDk_xUw73w_joI6CzZgetE_wYf0yFmAGSeZw2L12tMc63aAyoNr6ncFAWNsfaMcqwMKYL1IJJuk0Crzyv6UGYS_mkucNdBiP07kVZzPxcAz7Lxi2TWRMsmFv-T96NqV2mTNplZlGPTFK5DjJ8BqHtUMCPhZvR6-cIq1uZIrBWpY_UTA17Dl9zyyQKozEptg9yy7TuaQFLiQeG6oMtujJEldfoqf9PCmy-2W-UkmEeZqRPjrUW7_AyYXUMTXTll0bKvpwwhuMK0sFG2WEbVdmpk_7pKOAE5nKFM2dG5tznQnGxyp8Mk4SsijYpqG4gRds7mjuXY6JWPHcCXhfPXdNqbm00pLqjp4UGMPbbrgNk",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113584274837892774798\">Hanzell Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbPXjCJQm7a86-LPOPK0EchqCojy2m7Y9N2PBhs0zv5CFEYSH6HyXYuA8JlwOJUkqkPn2Tr7kEg8jAYcxneXx-Xsu61GyAaYJrNpw74vXD5xUc4G8ylK9Lr-7s10oMm-6oNE7WGytycKGqVlOS6GCwikcQwavBMU6Ptslmnx9tV4WcbNGppzWFDYDMr5vJ4hKZ0sDpmI_Y_QgZK-XDhR1ob5cbzHlJTRINNMSFtCoy7vw1OE1SGyw8o8NIXkCxOlM1pj8Xca5_3iCu0XU-J2kipbQiLoV0ToPpfVhelnvAVeKd2O1WGDuyqpVvYySc75adQheJvSp6tLAKXZ5u80SlEXLiou8vUYmsYkKjs5lI8px9kdV2FIRwRWdY1cVxnrjneCtd7deXItW30haNc8EVCrXaQJBY",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101250043801933897308\">Kavya S</a>"
+        ],
+        "photo_reference": "Aa-ngMb6zlMrSUj2cbNjVnu5qfLelzO1c_hBRL4rbjB52BsB3jSCHsqyFepp_F9cDsZ-6nneQDt_6OS9xRzWJaj_b0851bfykmy7zQgNtH8MH9_LNos_CEDnUcwAROXiafYtsME13cK1yNDGo02abC-j0-q3v0TgHZb4NDaWXAgnI1vw-i57i96P-eN4DsXPqXtkV6hOitwEGQ56RLo33fUeAHdWG015lYAtV2sDl9jN78NvJ4LnhxgUw3t3TZbj429WpK13sjFsrXep32y1O1iuybvWHlQaRcGTJMuvrdarGpY2jipfNCF5spA880OCSQZJGxLMvf5SU0OWg4Du_ymnhuML3peUxx4GRWkUCUQhkSrkgQTTMvzdEivXqAkUo6C1FIYYRdpHMn3PSk0GQ1Z3yjgO_g",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ23uTaGyshYARRxX2QJjJYww",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=892778806911571271",
+    "vicinity": "18596 Lomita Ave, Sonoma",
+    "website": "https://www.hanzell.com/"
+  }
+}
