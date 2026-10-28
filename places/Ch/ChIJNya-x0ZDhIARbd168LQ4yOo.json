@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:35Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Venge Vineyards",
+  "place_id": "ChIJNya-x0ZDhIARbd168LQ4yOo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4708",
+        "short_name": "4708",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail North",
+        "short_name": "Silverado Trl N",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4708 Silverado Trl N, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 942-9100",
+    "geometry": {
+      "location": {
+        "lat": 38.579574,
+        "lng": -122.553434
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5804468302915,
+          "lng": -122.5528545697085
+        },
+        "southwest": {
+          "lat": 38.57774886970851,
+          "lng": -122.5555525302915
+        }
+      }
+    },
+    "name": "Venge Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1405,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117576167960169149819\">Venge Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMagDf0BF_G_WRzVbL8-jReDUH25h5s7yZthAyqmcNGsQrn0dzvkKn4PHSSq_jLFvdr-5wA8JhHujGvwC0lUxu0sYysJIXhwMXs0brr-57FO6E4_fCVC0V8iudqReiEhLfPoTyLrhO1PvAlcMV-wRzyvT7UPaWiX_rStf9RHulXgo5R4Kb_8s5BKMzFIdzBwfxXh6OuZRfB9NHm1Aun5sXo5J0EMrZW6EkYSy_H9lwNYViTx4hRu95B0vx_fV7hzGDMZJ9G5JsZslbPFsXwvrBR66rxDuwEzLZe54pWaexEHmtBklx5JVsil9wJ0oy6LcTBgNO7WbElsTipyuap-WnUE3HjZLanLWjoIWSayMWW0jQrwELrCLvN1B87XoM6buT5wfDhslKYCC4StLnseFGYa63rL",
+        "width": 2500
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105001025957824037512\">Tim Kohler</a>"
+        ],
+        "photo_reference": "Aa-ngMa7KjSN4ms1iVyXmUNABayoxsPWqQ_EkHdrFCM6YNKzQRg43PRtfsNklyoMIe6FcpFqCKbuazC4S9S-4I2G4AWAJPknkF4atkW2pXxNiemvXFFoer8sxvZe1rVS3ExyxmDqP0Il8_EP9nNDASjXKxr8ReiW6raAv3LYys_ueBCn5dypYn7Z50da3vsd3PFL2NW0J05mSyuwySNf11fuzgYekn3r1c-OQ9M-VpgiXq0A0MUHkE0MG7WBUt2JwgFqu8keDmw_aqFbhrXtM2pOSO5aSVSv9D5efTe_d-RW166gZNZms_70xGUAY9Elj3P60_0vD2FLFRdYc2_fV5gA8NUXZYnWnIS_I0YkaR8mRwkvqFVKkGmaFOAeFC6X7o5QSwvWYsh39gXS9I5a5PIEGOSu46FU79R-wIjATXK7EDasJw",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107299768085437562489\">Steve Smith</a>"
+        ],
+        "photo_reference": "Aa-ngMbDyw7HCciJ5xbsNm8sV6Og6-Y1_OnoVbZ92Hab_Ytyc8EpRkOgAgi4sX5CN_ErgO0sV1_zuaTy-w4drv8ndbwC5_kRmT57H_mwfqo4gxffIf-95sBSHd7ExV6bdNIWFq5WguAAa-BAom-6YXRYOqXmxLdj5T-5w4REFdLR2M6pOU3xP2v6HpyD7wj4OiN1dHNaOXhg0-ybvzSw8N9b1biTVcg30rBB4N45cjnE-ZyceostU4KWPRb86fBxh72c9kSUfT0Kh1aWQt7SDCEAiYBIjOdX4ZjSfSLMUtpZnhlprBDCq9lp8t0K2dCbkhhBRfk7PBNw9idUQMn-nu7ONSBN_aMwqyBUS7fsk8dNJD6Asq4ki1GM7fMsTwGcGroEkJJTMGwkV4gsstu3Zswrttdn1A",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103932605388577683425\">Skye Sinyard Vera</a>"
+        ],
+        "photo_reference": "Aa-ngMa1_GbKLJC8Ep7qvXjWWRKp1qDn786sGWi_NQsaihCQOcwMgjHj397_RYbCeTQjA8tCacp38BmyD0jT6c7BypGG4chbRxLOmcJcMVQjnt7gdOzQMhKqc1In3oa3tnmDt2xJOqSRMWLMrdmCU27zgkf8dfb1fsnjvBLUTRt6gMPjriBfz3UeXMbc66raXapZBme95s-9P1vdaTpzZnxa3_wD5ire3JzS9NyJsUNqf0HPau0DQnG4bB-FRCy-XN2q_btkP-DOj6D7X8yz9nNQoX0M5E2XH0G9Tc2ePOC1H-00RCCeSt4eIkkkPvv26BVghebkG_E1yVP5hq6jhGst_1Hk1vgr8YlmJs91jYc6mn7Qy861yc6wULMxCEr4wELeMkS6dZ78K0kGhRh1cpNXdHI-ia0l9DggwDHPuNlrov-zUA",
+        "width": 3024
+      },
+      {
+        "height": 988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110471661156391808677\">Stefanie Smentek</a>"
+        ],
+        "photo_reference": "Aa-ngMbrJe-q-jjKqXTSt0CP4VyEpGfGkKxzM8Uq1PQzioPAD14QvZ-6FFfcC13KirL0Cfr6xOQRKULxi8eh7eXtvHaG0DYSbZL-Qnkp53HMVy4zavu5qT6DFEsGE29-cXpmajo0q6-rjZ3BRutMPg993YY_1Fy68F2QPo2ShXZemjF3AgysfD_qiU9FY8mqt9QwTJdx0VU9KGRbUlouuLt2CMfmTfjuQZw1wS1sCplOa-ScKDProQ0UNdWYmIMr8X9GZnqpAl4juBLvV4rmXgk1J93otCgjYlBoXNAncxYDNquWvYHaoE8hownD-2PLoQelzHaY8xkdN0lOpus3Pdf95F29_cDhFlzlXMpvWnL5Q8H61XW6VzTThRwcoF2F9vyeOFGyAK4rU0td7ewBhcgc2P9l_EUSWpk",
+        "width": 1024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115579496617923087254\">JL Murphy</a>"
+        ],
+        "photo_reference": "Aa-ngMYBcI_12QaFO2hRG3nOPKlOhS-gvPnWXUr04l1uxvf4QdzmbcbrYxAGmgo_Wx7SNujCmuaLYA4JQXr5vC4aQpZECye701KkxmKytYfXrkpJsLE_-AHVYbpP3ArwEudNG50ghlvpqtWb5ozrvtTbigoUBY6vCwquz9ua0DOtq_HrDXyIv6A1OYcsGKfG-K2IXTjkcNeugYDY1V2l4MYWfpS3LnQaNYkKejEth25HFqiXFYq3vngJCgxtNQFkMPWikMPmXrggqBBHG8zpr1ZBUJl_rqhNeJVTGJ17947lQwkrvsXagdXu8Tb-pF2chhy6tWJQ9947Rds0XHpUbxlqj5NSyvz3B4BPzsqMEgnaMeOVVDSBJBePC1EoTJZfDyCPNMDh485cHCneOZAdqWiT4FLwQep8v0z23QWcktBgpvLH_Q",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100361284485864677501\">Scott Brookens</a>"
+        ],
+        "photo_reference": "Aa-ngMYqb0E3hAQSkFtXoLPxMAMDm7aKm9YEkf4Ehu9fgJOUOk9QICw8ujEq2kyfyi-t0bcQWJlPOeG_OWvtuxr_YBwDyKObYRAESsqZRmr-3GCkOES_vNRR-cO2MsWYwMcCKO7IHfBuKzjLtbmCmBFS9S5lT6ZYV28q_CBvZpwIAqPplPukk4kDLXtNvF1mAF_yEVveHOl34WzFsdSOdegfIbC1jzKCJJ2mhoy58LHfO7kPwxLMhHG6olh80HAjJ8oXr1mIwW0Ow41SWRAeWfdl_LdSEk-XOBQnRxTNkTIEETfDLED6LMw6pDOavuEJo0lBvOxSgvmBy8udMiPSMBtu_Kvwii1G5A_l_qlUM8omDf6oCgPTPDK79PMas1BZvQFGNYvox3qCsTkIyktR_JSMgho_1ep35LeWCzWy2WqwXLkxww",
+        "width": 3024
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117576167960169149819\">Venge Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMYOgoG5gI-P2yZm0ZNQeOB8_7A5Sf8-r-kq24OOAV2IUk13KAdBuxQFpFK_heqbFvU0AM70-vMHe4idD_qF1ArxgbRbAz5HFCrFlumiPDmt-KkRdS7g7Yo3xF_4ftcd3ExZruS-epT1aVAtaWR7-OHYOd228u3HublOosPgv-xP3L2hOhpUjY0h_tLNGS-SXUMOMNynjvFXqVuqks9G9QbRdm5N95EBdY-0wqRVH044SlQwgDtuC5tg8AkYAjxR7i01f4QDQlzskIE6zlKn-TpCCWttLdNL8ZFyriNpg9s9nfZL1gKd3WJAgOn27kY2o73Uf-o8-pnI5SiyXuMs_QgTtitfkI_n1QNeyWpkhe0j7VhohiJJmuzaEuDVPS_oZPJC9uaXyP_hAXKJAfNx8FH3j9M",
+        "width": 960
+      },
+      {
+        "height": 1667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117576167960169149819\">Venge Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMb9QpBAraMVYas4uYb6rLorNXnKO7YCMRKK_sT_r4c3LjHzExWAPbR_A4t-N519aVhJPVXw8ZtOdRSONmqPzmm1vMfOtb2DxLKyvpgShDQfYrtkZjazHiFP2Y2Xyj7bbUbQYvtkPbda1M1Y8cEsiDMD6F6gfssO-WhO9VF4RPq7tBKFyH27gxui5-0xe5oPs59153_3sImw1pDVlwu6pMZ-J2XtP0kDh0U3BxCiY0GsNQErVGODHthvKsdezgnBUjY9TVQmYFNxSdGgKTL-izkdCeFgxKHqQQ1HT9VJbRzAZDCKXhXUfEMW7VimLdKue5AUVKSd_GYKY9uuq_pshgBrFiLTmzlDH9wjp-0SQ-HUU-NOfTwCbrz9-M2UTc7rzubRW7eDj8btxjV93SkRp1RvBvH8",
+        "width": 2500
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102579620642636885229\">Kim Peirano</a>"
+        ],
+        "photo_reference": "Aa-ngMYfIEsA2hi3YMP9MU1_SD_tCChsjyDPuFXtHmUGhh0psTRK7uLcUJlpdHBGxzuqTZnIznte9_tIC-skPdUT9-pwZ6NZlFZl8Lk0BKkp1AEp4zPTrMzWFKHZzvGQZl9gv5hf3PHuNMd6xHfmAhdRdPwcbqeVVGz9bxHBVlBMXncVaiEGsVpuwCtnQZCylNPzECIiCxoYBnE7wHTuUgTrghR7syX5paJUhPL56Iz7JiN9DlpcwXxEeZuPbTo1Hs1Fn24afyjgi2astINnJeYLUrjuDFx_YU5d9zhba7mZBwPQEVvPHceWVDoza8LFvs-lNU5OZVoB41JIRswYhZ7o7e5msdzqKdf1OfCieQ8spwXHKUNm5aMxwiyOIyjWFAh6a-vri4QB-9bicCWwv1g1gkf274rw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJNya-x0ZDhIARbd168LQ4yOo",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16917834349997120877",
+    "vicinity": "4708 Silverado Trl N, Calistoga",
+    "website": "http://www.vengevineyards.com/"
+  }
+}
