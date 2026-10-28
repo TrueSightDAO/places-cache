@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:48:25Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Schweiger Vineyards & Winery",
+  "place_id": "ChIJc7b6HiZFhIARAr_hciuliP8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4015",
+        "short_name": "4015",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Spring Mountain Road",
+        "short_name": "Spring Mountain Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4015 Spring Mountain Rd, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-4882",
+    "geometry": {
+      "location": {
+        "lat": 38.5261367,
+        "lng": -122.5471606
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5274089302915,
+          "lng": -122.5456081697085
+        },
+        "southwest": {
+          "lat": 38.5247109697085,
+          "lng": -122.5483061302915
+        }
+      }
+    },
+    "name": "Schweiger Vineyards & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117030426896606501423\">Schweiger Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbxop0y5y6y7CTja4cdgZbktYwcU07k2if839T1RIno9JYUjE0WD_x-HLAIDxuXKsGQRbU3tzYb-tnmYvzb5OBpun5PtnWYVqF5eP44oXkheacn1sIpMgVnQb0u_WTYQP0_P-qsEG3SsBspqAUi0NMtrrVuBTLoNE-tOEFU8YupoeNqB2YbDZWy_qUjcTCifMdBQ4gHIXc52rI2k6Zmpfx7965YWUS1JcAkG6Zi0hGuA4K8LNaKXoXaBYWPmdqgncrkyhwh93L7-1ZAi0E78ucRj1JHYVKX9dKYXg_O7AUfJydxAeTlb87Tr-AUn0uf6xtdz-NosxNJYwgWe3qqD38mbaG1YIzQAYxTeiVCAmk-vxBqKhSk41Ri3_Zsn5td_5FUr1dX8ykI-TswzvtIpoTglYQ",
+        "width": 3200
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117030426896606501423\">Schweiger Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZf2KvWjMLdMaKtex0UcLqAioO_SeE99V0JVmQGKm9jsCCjhMOLOT4mFTRhl-pcIg-BubTEHrM1EFK1uLoJv-yf3sPkX2SQh1AdWjMO4SQ4O0B-9kRrxQbhs0OoDVJz46CL-gLWpHUwD8UtCncbu5kEpCezrZsWh29NsBZwHNIG1X0nqy4vPyXnHHQLMM2TX4HukSITouaaSXUvk6myONtrj14rSLJBoSWYAvTv1yp_buck1PEcOnnqEkA72UwesTk0f74-oiekhzwt_ce02iZmrdEQPqo34dha0I3yM2LlOxhjIyNXqD-Ig2SUsru0BWrTTNgACW6uv4HNq-PLxVDWlYV4R-ZYmy0KvZVxnmHn18lLtMvlLHOmUSaqc_rRdoQXPLRBWVPAPGKsYQ4sXSgGB6w",
+        "width": 280
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117030426896606501423\">Schweiger Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaU73G4QZ0KLKgERsweFPH49ZSOlFVqXJo0nCynVztu3sgN13B5NL6YY3iPE0ZUe-z8yvgRa-WNLpsUIDP8Hy8pJErgNwMdt_j8a-0-peYN__gACWrLTpkTEX6nE7XfBOaasodWynKrQv9dMbB7bASWJVHWfhYhfJdCKetskvTZ1YmNgEdQkVJe12m0H-EgaSiUHwozg9yHqeAeufcdbF1kkM2-Jm4Du10U3EpuHa991ZnA_UG_SqU9mROfm5CHFo0J3IiMjQmv73apg6Ey_EUFy1MRbti9kwEzGk-A5GkkgxG9BC7HmBM-NXkS01lypcZUvQfia5YE_KxECx6QLOGAjxI0X6YEznPUlPmGyMUtLH7Chv_YNgytvcGhh1ZDskx3Mfz2sfta-uTzrnCB1vn0Mmis",
+        "width": 3000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117207646618368552133\">Sarah Latchaw</a>"
+        ],
+        "photo_reference": "Aa-ngMakjWdjLadJbIiHFsQrlDxJflEfMXpYho8qU8EA8_y1IVxBRFC3hka3HNdlUrosq6ugvHbdEOrWWwg7ZVijv-y0r6l4IG9r_wWCDSgKC-XgT9HpvsEQYpbLPev1HpoM20ykNSxtzCa5m19zsyWBS9uLogVCyoezAfBA2DMnv-pTfUId3aGStu66Ts10_F7z-lzOh1N9OYUqkDfBAT4RF_MoIJGgflJJ-CoW4HLP0eMHdeCHxHYPPsH8G9BZzIxEeK0IB3dn6PQnaHycD7D1Emsq7VPZvUHlkqqcURzH9R6j0GCilWYEIH3-IErsQDEAov_E_OnrqcJvZo7sQ0MgB24fgipB7iq58e-aGXduygOsyN4xKn62Tw7HMOmvtp17c0avBHtIkq_80teIWlIKgRV9WQT76tu0IbhzU6xzyoca",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107245474349427069089\">Chris L.</a>"
+        ],
+        "photo_reference": "Aa-ngMa9wBjZcRzp-zm07jymjDi9uJLeiMbyd-t-ufALo3qI2oukmn9HvqUpdt62OCK2J9mk8JCarBFT5vyPIzGxVXSikQMg2jaoKp4f_5gxXFMDyGYKtZAtjIpi3TV3hoJ-2sOoYDfu9hPRGXxA6BJAJ32xNWrakaqnLA_yywsb5diSBiTaePaJJfCW9pveibvF1yCnolAP3kHL0lWVCm1yAjG6M-qMpGaSyolUGpHgRrzHTeJYYFukfseRBfvf3G47dmM8kmLlPIrk8Hw7z007MFXFZe84Fsd1CFykM0FsT1xJGPE3dVucFfeJ3a2_zJMeqEgLY76EqKgw-X2u81EYvL53Eqhp3GeaAVKGcdismXx0dz8l4YrrenQjnmLfkwYl-_oDjEECiRNjilFgZQu_11j1rw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112311083089407480000\">Carl Johnson</a>"
+        ],
+        "photo_reference": "Aa-ngMbsQrul9-la3raINwHfh0UiQndetEjOM1lIzbcujP3lXUoTQ06r7qt7jM_9mFDTmjpY8Bs1j-ZBBsbalPCJizf__LMkzvn0Yz8lQmiDJ91Yh3kP3oZgq9KllemwopN6-QqURTc0ejR7QPXUX6sz7JGuiPcRdsPNrhmICeGCssjgPkj-cNvXlaS-lICa2PnKU9oBSySuqWbq7Px9I7U76buU7Qg9jBwzL63iNPsoPHHv4iFBGsC2J5E440KjAD4FmFJV95B_cKRp9XRfDzbvZr9MidJAMat9fz2RtPOoLgKJFQR1qQ1U567LgWFtjh54AAOtFkrNUY_CN76Iyk7yKER6P0PsGMBTBnzeyez9sSfvvu6VHm14Yg-yFvTrSFMuc7XXpDXk4yydd4SFg8sAPWMypAw",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117030426896606501423\">Schweiger Vineyards &amp; Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZ61RLxEHnx6pfpZfAcV7w58C223OaY9bzQpxHn_5ndcyCSmZOjemB79qr0vmf-8X6IEEpprTLfjxwnEBPlkIhj3Si9oapj8Tu4pD9kjS8MwQBA0nINuwLDErDueI0PEXcADqH35AWoDNW5kf6U5XcphLEsFaOsd8LZEQ-Vmf4Chf9ITsYQUcj4zr3B9qnVch0UeTJLC9KeZrr0uFoXhxkqZpu7bq3nVwJtNnwim9Nrb53YjTeguyUj7F8ZfE1poXWw9XBCoGEJVEG2PHJa4g9lnNl9FDbVPByNgOBuULdMpoUtAfCC-Wz1Z6yW7aT5f5zaZBlW_JnCTlW-UF1XlnpR8jzvvCwQuHvtNaPE-WyIFi7_5D9_IKO5Uus2xrHp8lUl3xq43N7bkTvcgmh6nJ3leg",
+        "width": 4800
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115084708727041610141\">alan wright</a>"
+        ],
+        "photo_reference": "Aa-ngMZQgIuvVcBrwhqwkm1aCseUZZg1yu0vE8LgaCJ1MCPKi8X9T0yMrxPOSWD2nnqeNbtD4pD0SnldFMzx2rStIkHzkVNHYWdxom6_eATe8k_M07fcQRwCjn49t-a-zvXV2aNYv2fcRo43sj6X4WM8AHQlx20h0Q2xt_a_WrRzm065vrOZR2TbC8jkWRs5NvJeWiyAgChXmmZ_7H4NE5rC4TBzzytakj3gud0Iq3-LxMfQuR1B8KFbWD6BRuZflV99Z3Mh5KmLLrZfMztCWhTOvr2lR9sC9dzPrKOV2o5x_7Uz43uxHqP3mwesKwZ2-xyeZKffZpKnQuVMVvShYOjDdbqqQrNlVJvUcWUexr-MjxbjHQHPy_py5t2qbPuBGHO_PyJ_Ag_VMUFihi3z68Mbkq9VJEk",
+        "width": 3468
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMZpjzKWvN2ppizQjzRIyItcu21ZRNH__596-fmySSIF80zP-MnNmeWPagPQPKMvEjL5lDRguyJAf04Kgyn3OrME2qI2knpeKvqVI93adu1MtF3La1_s-fAYHO1WcT1FONHOFzGtw6GXJylswlF-wDboFYvhvSiGUKhi5ZqJqatKKcIFdOjLZrkuJXuySLnA8t-XcaGZhVqNoLM3ipHUpdrep2E224FmqNhLJLmq2hOjI-1UIw5W0RZ_DgEhvQjy5k_CCcaZZp3_OjfFWpOlCSLLHWx2EZderiQtW3sN0kKRByKu5QTsvczKGSaXXGhMIaJRFBDN-NbCiP018k4t-iPOuM-nwzxfcVHzlsY6ma0bPfA8tjr4f7caq6wGEhLytlcONVj_SW-gt6Xd0oaCJOxyrA8",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117207646618368552133\">Sarah Latchaw</a>"
+        ],
+        "photo_reference": "Aa-ngMZy8MSL0Nma9uOqUcHpptkhiMdJjqcH5rV3MOhQcE1wk5ZGsyMwOThbztmOZHvZ1Z0Mp2b-foZgyuZufRMsWh_pX4NHp9TUcDr1YgtzjwedEatsIx7XWdMyB7tX-WiD5uT7oiRTNtwYaDELK6D0a6aL0GSqUvRNNJazTpTONaqrDWsVv1Qs700wLGyWaW1RkIYKtadHDrep2_OwaDKfIx7TWXkYjS75f-ggnns0l8acdL-qMarPCpNvyrudliq4j_lrLFjzGpxn2JdCII7vYVLOHXdYxJRzvqGbuXXrD4wgE80IJhxDmYEDQtiiRTyAWQdfSXy6Fhv4ryMkVWrT7-tQQ5lwrsT-2JwH9FAedfRPfm3zPabr5xkDH7J-aEnizyVlu6tfkD1Ue1A2Z2aQQHxuOnGid934F7y2nBFOGiBKOA",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJc7b6HiZFhIARAr_hciuliP8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=18413148682533846786",
+    "vicinity": "4015 Spring Mountain Rd, St Helena",
+    "website": "http://www.schweigervineyards.com/"
+  }
+}
