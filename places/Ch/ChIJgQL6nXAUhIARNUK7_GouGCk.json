@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "The Spire Collection Alexander Valley",
+  "place_id": "ChIJgQL6nXAUhIARNUK7_GouGCk",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "10075",
+        "short_name": "10075",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 128",
+        "short_name": "CA-128",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10075 CA-128, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(800) 544-7273",
+    "geometry": {
+      "location": {
+        "lat": 38.6392882,
+        "lng": -122.774614
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6405755802915,
+          "lng": -122.7731784697085
+        },
+        "southwest": {
+          "lat": 38.6378776197085,
+          "lng": -122.7758764302915
+        }
+      }
+    },
+    "name": "The Spire Collection Alexander Valley",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1530"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106689600765150160255\">The Spire Collection Alexander Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMb-ATXL_yhaDCzC1_GLmxtgO-3EmAQnjvHTgXH9K07FudycqU7XcWgC8xyx2iYiuBfrXZSbo8gmMdhSdMk8lXPplkgd_YVOP3i2XRYDgGtRK_fh7eHUMxiIl-GpeHSxpcWJsy8QupLPRYnxr_drPVcdfKYDyyUFkSG3bbukMkLn8yxXj_brC_liLOS76F2-tPSY40SgsisMH_9-riiFPnbZbJrK_hoKtEJ5GZghKT8lSYNIguNN0G0dDF2JaQoUOJDzzTGQZNrdAbyVLyzHOw34UhGd3rYMC0-uZDVyFsXKppEw6YukZYhU9Ck2Lk_Z_eYn97mp46VbhgIsTVk-ajq5GrammxCiUJT6iH4SVVGt6S_-M5e5vqS5nnYrzHJ4hkWAQJkoAacLPkjioi3YrRkKrW73Rdg",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106689600765150160255\">The Spire Collection Alexander Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMa2IPDXVMWW_wLxUKDGzq6WoZMTheQ9tNft-DcpWeoiflQi1ubGZB4qxMTX99_GwsnjOsvDZb6q9zXEVCb2l4FEk_4f67LcFpy6kH5sBGbyP6iOE_LNxYkk45eiEaBiflMRk8Mw69Q5cAmi5NFMOTG-PHMmWh2-NS9wn4udU2yX-WASKGU4YqDRSwOQCuTgVdd0eEPxpU-8lZpTk5atRsFcsilH9L6Vw900CB2EHFf5bdM7I_MJTgfpHVbWmwLY1kH3sk9FubzyKcLKHA2ywZqCNucS2skhxuuUch12eBn7CfMA5UN4GjPEGhYQaNYdUCD7hriyKZ33VEdRqGOBzEx1E2HUARUIb9cIKdwMlXigISpCZvb6WbyQEsEwm7mFFcc8Z3wWsNyjyEdDIZNwOTji4gTcixw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104786495347075157287\">JMatt (JMattMke)</a>"
+        ],
+        "photo_reference": "Aa-ngMasR9n_XLihPPEEkteibUUu6Puhz3fCER3Pi40OznRDdfyTAtCoyyp-cOFJlaFOa8XoovgVN6sf8Zji56kmfVkeIJbmDw84PTfwuzDF7MnKk_FRqNPIxwZcAae4YXYdfeS1m5ixRsuQ5w2QhmV1GaTPYehAhXwYuPX--g0qRE684i2nTV90zkQ94VOXFdlAGu_RaP7iOIMTU5oC8SvgVIrLLCOUo064ULSvnt1sxoF6_r5EyVWZFareS4d35KwBwwaQtcDWCgoHbjYk12der68TfnZvaXoeWi-6IUxhmvowTsidO9L--H6bYdCPA2vHBynSb1QWGUPS-l9sFIc2ip_nywKOSXwUCgUHy61lyXsY2Mdx3vwDH9NEfJPwyONccwS6G4-6MSR4lTr15SsEJbSsZsk",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110936216134084603298\">A1oakdogg gaming</a>"
+        ],
+        "photo_reference": "Aa-ngMb4Md8TXIg0eKYN_HyLThw0GFWQNe5ofbJ3PQ2Qh6ZCj1FLSLadEviQ_9DglE9KJywluK9Mt8wiUqql6vT3-d62U0HfhxqsArbdEBXWyOPmy4Gw9-AOU453OUd62LQOE-i0IbbSyaIL_KPYEvrGnd1gai2LA4hRwVPMfDclMP1KdVXeKJlX9t3P7WM-RHZ34jtmqjPPLPK40sJfT-xJf1QSKUwoqt652kjQecg0mFEWbjnfe10WP1XNOWzmZAqcVSD0Dxp4CwkcrBazklxkZJS7DmzbvvgX8HdgaIpNa_cYlaNDlbOJnS4oxAzyhro463ao0CEjx8aJEz2vv8MIVRmgLlmqYIgTvuq2ziw4Cpwl5wdj8tQBcRSoTZq64hMo5f35qjZYXaGz-GcYd58T-PoShQ",
+        "width": 4800
+      },
+      {
+        "height": 1707,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106689600765150160255\">The Spire Collection Alexander Valley</a>"
+        ],
+        "photo_reference": "Aa-ngMYH4Lqf2mexKh8zahpYOFEperZd6fxpt3Bsqcgo6JISru7LJ5DpUxB_KOHQB_YePKqh-4BFiM3jI2eLpWKr0fqVZKAuIL2QN7JN8Xr8UdXgkvNrd8vploS3r4VrC0ODVK26ZS17B4bqFzAQYasS8YXYPxz-SbSBoWek6lwk_3o9g13alnsq6RpiZ5qOnxcLcEsM8hARprHLDCqoTJCAhH70c-I8NQ2Vt5DDJ8i87g8gxCN_LZPXZFM5NQwkIcOUjwvr6nQUUH9qRWwRiJL8PJxU2rXh3u3p8A78hxFv4_H2XWi13lMY8CHdG2OOYZOwbKDKleUIA7cyOiqSz2hWwJFWMXy1gEKX58FxAavcDqi2ebNR0pB_YKy40oS-b61zriWEs_YJHa4eGDoYup_L8IvElAQ",
+        "width": 2560
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102888820306262983547\">Alberto Correa</a>"
+        ],
+        "photo_reference": "Aa-ngMaYRRV1A-djB1xrL6x4qq6LkzaSNJlS_wWBG-af0_nyVwfPgGs4gXPxbk65rZOKLjKtS1UqfhKmF7w9HuZfG4qvXig4RaIdk6kxI7tx76Mv7nvDtyGmupifNhyB0nkhk9ml8DQzfx8qErzu8-YQIp3G71I-f1QWvqc8JWB7RlAH3Z0b6dRax0iN1h27iFQgzcpMRk5EYyIiNT0WiAjp9BvAdS48tTxQUlR7qdRJCOSE0dGs0WoZBLWmNmB5UOdrTe00rcB0djObGCW6wGvDYU99U54UYCMR2A1QOADHvxK0njyJpwekBHdvnmb2mpBwBHpKrTNdkZTzaaqIffsRj4SzfDKjQN7BLDN5pagSxoeur8BntvfsMIhGxD91hun209ho3pJBI9laWTGKOwiWCprtltui",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110936216134084603298\">A1oakdogg gaming</a>"
+        ],
+        "photo_reference": "Aa-ngMYa-wu1pv-270L_U8KZz3zN860UU-c_jBWsfSKYMfR0X1S6wf8kSW1FCy6tpbs2B5REQ0-K9911xHH8KxEQ6z2iNuAmU_9JuuRUNaPXpUkel8EdPE7bu1JYlHrH3jy1ZlGtGF9lrWkTk_lNpqc4W3rS89KgzsKCxnClYBj5wc_t2p1C9kEr7ozDoitidGvAXftgv-LqKlP3nkvhV6n25196QZishNBfBzQFfytYpVcKrco_mIVgXrRAmgPslPA7-KbGtx8JquuZlGNGpWCdeYT5Q8vsaYf1tvl8Z-uLivX_5t_SMOnFd_IgasEG8XNN9On6pkpucvfMphbZp-jHK8begIJUeMmTw9uvuvkgqyhCeohKzZp5AflF1G0ombhOxSaz5ikgU05zvfIVFt8RkDMinBk",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100529098072488626917\">Matt Hernandez</a>"
+        ],
+        "photo_reference": "Aa-ngMZDCzdn72v8m_OffgIoLfDiZNY-eNxGEOAR5MQDM7RFIaVjzv4ZdmA8ywAIjM3_Z4Pt_Ltk5QrVb79y_osB4apORMBPeDG9lHdeFQnFbS5GErdBHUNaREq8fwVlzbhB-qCFU_wGvdczjqcpCS4Y2S2hAwyBGwSpxVZfJ20fs02IXDO9P57_iASI-q5B1Q6q54gsYclVJVBssZJSG-ZTIM7lCO7MPxEFO44k0pN2KP4yCQucxN0QXWBxejRoLa3wGV7NUH2l51wH8XfejpqCp4fymLRC46En7jN668PrbYW9kHyz7-JKLQlr0Sjl1pvq9aIfv-FbkrW7E0rSbQGXhRwSn1zbIZgZz4CMSrF6yPES5dxYP9_WQMPS8Sj7OjQP6xCmOVA6mbPEHsGsC4yTel2dEl7Loe8",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102888820306262983547\">Alberto Correa</a>"
+        ],
+        "photo_reference": "Aa-ngMaJu8VacVZyvml9NiKwwiGuJ3ePAZUKQWg6LUC74rFEriFnmUl2vNYI65kT_sno3B2xOqSj0y3xa_qGtV8KBYyOMXzaRsMsQO0fO6JiyJnYYaMztqezkdXywDjiezu0KgFi312rSSUXR6jTOg3NHopP0xjKXiWA1nbQjA70xrU7yrYXAk6TpUYenmvyAZUTrbMszXWFsyK624eDXe0zDV0Q2m40zYZSnRZ7M-4JytTiYpZzB63TOe_7NwUMy5_vkqpoIs8mecCAYFtbMZDctPk0-ou2ltcy-P1fXt7HCJwU574zdsSJzIAtpo9bMhs66olirxpL9MLXWHcH4-szM0sTxswjE6M5Dy_qhYHZxOhntz3OYIRdntqtWehSx55keHDi75F3aZsnBkmb8MARZrmPFGP9xC0",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMadfQU2lP-c19Kbzor3l_zRIvtD9BQ10AoSTaIVL7B7am5tQ_ASEkfHlBjbCZZ3e0fBpJkdvwiu6sDY43QOVMYIGDm8OoZIXVIXJYMyiigG6V64uO3u7q7Sy8YatzaXvUhqmf72plePVEAyGRH1UD2xqimeI8DtsWHidrsUVP3qu1m13jBo8un1k13BMsE2gSZERuiRf9AGvRFF9ODzywg50ckG7yhO6OYE_DLiKqVXhyM9VrXGqG50uAoNCelhDfEq4t38Zc02bx-Vp1LifjkY3AI8acbq4mr7c0s_O4hjjzS01jg5layXVY6M3topIBWUwOHckWUDCjeBNVEQCLHkldFz97Z7L-nBZr7Cj9B21NbensfsXenPPBKXq9XxEpHLVW3pD04zebDvZ-EuDxFf6dxOJWE",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJgQL6nXAUhIARNUK7_GouGCk",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2961167792037642805",
+    "vicinity": "10075 CA-128, Healdsburg",
+    "website": "http://www.membershipbyspire.com/"
+  }
+}
