@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Bedrock Wine Co. - By Appointment",
+  "place_id": "ChIJO2PCqfYwdkARyf5ziQp-NXg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "414",
+        "short_name": "414",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "1st Street East",
+        "short_name": "1st St E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "414 1st St E, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 343-1478",
+    "geometry": {
+      "location": {
+        "lat": 38.293239,
+        "lng": -122.45621
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2946067802915,
+          "lng": -122.4549920697085
+        },
+        "southwest": {
+          "lat": 38.2919088197085,
+          "lng": -122.4576900302915
+        }
+      }
+    },
+    "name": "Bedrock Wine Co. - By Appointment",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMYpQ6yEZeqe68SgnxHzJy5VYN8ZDhL_omjQfnpWalGDphcpdRAeYyPn4OPjwTVFpF8LJGSOZ2pXXdDqJkUWufixnnYA-e8GCpLXfeZDXQOPgeks_qwyIkMEBFsO7aVG17cMEI--EajP6csddpKqQQwbYK3rNP_HFtmjxx0PbzlKWU2EcOUVVwzb3MFU33R1bdvk5OGtJHGQhAl5yf844KQK3b3NfhuwknPpZqMn36B5q2Z7tw8TkzRXaELCnuOl6VjI7tKFRiOEHCxgAXosF0SRsS6KTB_J7F8Zxxy2qpEYe_E9AP5i5UVSeL3GmTD5MiNHVhAMIbL2S4T6oLrXH2YYuVHAh3Ht9dzExkG9fy8qvzichU17VNEBv5KmtyyImXG12n05jqwVwkWEwPjJPE8sCHH-yHQ",
+        "width": 936
+      },
+      {
+        "height": 1724,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100937381020808964863\">Paulius Vertelka</a>"
+        ],
+        "photo_reference": "Aa-ngMbAbUax8834plmnLG4Rcs77y4DGASTfaj73k0IO39fBJv7dooPl2Q1n1LHLt3oOCp41bvmiXaYHn47jH7iGi1vSV2jV1VX-mH_a1uTuiXz8xG_4mIeIvo_E_Fb4jXP9dB1i5MjGeBsPekvPMsiGhdP-6e-tYpYJwUp-Mq2j_5AI-NQIqEbbLg_x0Kc69eggLjRuMmwAAFVGFY7V6nHXF7sB7Za0MEJxzExXVTYnj5kQBWtkDWDfiBrQKfodZmDMaOaSPV-jAXWLVE6iiWbPFMYUBjwluV5eJDIwhvYod4evEBlQZArDjSjxls6gR8oPWAjnJ-MZtxzIUP9cCmXTAnSwhyB9uaF5IFEP6o6J3M77M674lPPYidEOA5SU1govTvbaL2She-EAflPE3hr2oWnyWc_CDnI",
+        "width": 1161
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+        ],
+        "photo_reference": "Aa-ngMalyx0FK1vLwRou4qOQ3PjH1TyusJAtby8HxlJft37Tm2Vwkiqr_hVduB4dbOZdyDWF7qcgbTW1fOcBV9ugFUcOai3sgax-5LH7dJai7_IOokxAU9cr_4oYKPM2n1HAbeXU8WceZUnJQTpC9qBRvHvxLRAyKtrjTa3gN8uanxs2j5UNPFKFKXtjKDx1_QkjOv2_zsb997DveTmRpgwdG9UMfRlcnyYvrhAGSnklkkipPVDzZclZXpsRgfJgDymhciPjkTjAyw0koXCOcS96d9lM37fU3CTDw3HcSpJrGkjn9mpvQtFHrUKq-ILktrMkZ23V_zhSDwuYP8CothGdRZe6bRpSNhel86TTlOUYNdyxlAyu6wYvXZADA_gJCWG-UHKYpG0kHmunAl9b_Wvfkz4fBxc",
+        "width": 4032
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMa2NBBQfJXjfRYuqSi_7VVip4wq65qeUevNbl3ASSQbsoeyrXJ7W1Fm3wf5p9EFIqf_ETWmFxXq2E4liPwQpqdUbgeF-Y-jKl64eBOXfmnzwCesszsccOFmKfa-opbzh1adzvweM217JvAXdgQLK_SkBRUkImpiIzbIe4Vs_c2aKPilDmAs8REQd1LXCXOnsl6qZXGbps-tBRbM4e6botTSylcQo0_WHdTwuglF6khOTTmJYe9ogHX93qZ_u3lKvu7iLwutTnUiWiGhlJHsklrBgOO5JN87X-n14fsWAqVQaLS_henMIoptN94jDRAHFgAzhUQmWd3Hc9SJmllsPEX0DDsmhFjNYFjuN_25-fQboas-XVqYgyubyPcyVlzT6i4UgN7L6Nj6GJfaagxWbyTCYEbgje4",
+        "width": 2000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102313887240791895124\">Ryan Scully</a>"
+        ],
+        "photo_reference": "Aa-ngMZi6sCLcEqJGKE_9Yg3fObHwiFN1XdD8juy1o34AnftochwxtDDEl7JqzfVYiP78oD_-8i5pFYNiB8taT6q2xbo2fpoV9ErfmbjKa3joHX0NIYYvzAnaOdnO_3s1b676he0WbQK8vZvyrS5oBFuuaicZ1ia4CdRbSACfd9pGey7qloQx6u8WM7dtQew4RozGpZiEZtN2Ac_dX-CX_7O_lymUjUYj8qX266peMpMVbJ8Pm8MgnjVNLusmph9WJTLtF9oBpxZBO3KHnBR9abIM-xZoyuOVvfXg6xRJileXoeSa2iqyEYDdIU8_2d31bdxzoO30z4md9DTlQhuwXSGJPcMw8Q4ARbkzrXheDNz8CzCOgA-6p4aoA-EJMztPlpXXJ1Slz4sp1M_iCLzJeR9rEGeUNXKhS0",
+        "width": 3024
+      },
+      {
+        "height": 533,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMYLxN_v4D_ba3VNBdJSBwQ9uVF90DLAHzGBzn3K-A47FECCcnRfgyU3cXuPK0YNzjK2bye5S0T-2xVHawcHtiuJTIG3ccD4i8OumTQpW-D5zPqZm0sVulQLmvt6azVgIIVzgHKTS5Y29rXkGDT506KCaR_VbUtxq-sl7M0sbnahKLdZ8aKJB_f7NcAwya8sQFnikJ7WrOlg8EZ_G_XH7xVDtZswsAhorE0ljGxr5Pn9ue26FBuR94NTwuJUwnWsWYPbH9R2UBAm8jwkGxYzVXON8edtU5Jk0LOlOe6E-I-Dm8WBluFV94zAG9yWr8VM1QFRGaaif2lBL_1ara4n_Kq5yBbLGZS6BYCR7P1LfXFAHUxlvyVRmvdIPYIpvCtRoR2D5SAjPmmOd-_9mAn639S9on3V",
+        "width": 800
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMYxfA61CUEYJJmbWwHkGI7GQN5VSyvnMVcnyBzvh-HbNqNOfow9FfHQHax6UEqyd70o6Jf1SWejhRCts3hBTwA5jhG5Djs52s1hLqKxOlNqAJ2Czcr3SIsw-aYGTRrOqNRPYwPMIfJUIQoq6zwSlVJ7bQcyaICDpjrxs8h7kaI49mN6e85cY0ZpY2_6dkWzlgEJ5zKD2_klHc4C2hOcq4BLb5006wD5TedJ9iw2as-6GdapOrR7ELpsjN4WB7JYB1X49s2ZIwCYRdkSVBQkGss1z0JJu47pfKZ68-XmxONmhaCmXwUZOZ8p8shTrjEnX-dsnwn2LqhS3AEkhusIHH3WovZaJvpXmw3NjzawGVuXVI4SoKMHgJ9JkobfkA5skD369UsVJSpakmVuTB2SJPqCGfCXkS8",
+        "width": 2000
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMZRf-zaI6OzHFDTxTKL_TLZFPD5MKe1h68EhC4ZHd2EVu6wUjtSRI-kaKhDVHHlOzWgbd_uz0KfTfxp-cBr_OST6Payconprb6t_sGYXakmwdO6JboK800sIqyl8FqdfTbsvYF0_YjM2DHHpjVy75fuMH97xNaMj9W3HJx94sVVCG56ytU5O-j4r6yW1Crt4dZUYM6KXdST2YzyLTo9W7z6hj0zvsSf9cCyfo-Au7pVZlxuEiB40AiX3TUXK8YfjcNxAC2Yu2BozplCZnS_yaq-j_ayaIuGXVE_dO08IM9N5xSmYGbrwLfSG1vKhZooKeFAbQcrzD1NIdyQ6cudJ4Eaujftu7jt2diJO6wmESznQcbvHOFI0PAUidFmUMETAqlGPYan4vUOae6XgcDBzrFQVsuNydc",
+        "width": 2000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113356430343963989905\">Ray Serna</a>"
+        ],
+        "photo_reference": "Aa-ngMYPHKvQ3DqSYzJrpMFeqlUYqDLAnwLcTyq4M6Q4Mm7tE2lAezmpAD1U2jNiAgcMQZBqP_IvGfBiSyhHrzVKDb4vZtKtlUPIpPA3BhudDx3FTw2_tIoKc4ydc_P8gllKc94k2y_ZT57rjzHtmN6N_IkmdMkZpwUKc42yyOYbAblROjqdHaa-S2fFR7l-eSGtAy8o5r3z1QA76MpGM4h6Lr-MHVuHwWjLrVicQqoG6eBVrq4WD_N2mpZFKNW4S2E03sGfVRAqYQJ__P2IzXc5fAbfhuuM8W0N1AiQpOPoP8F2y322Y77QEM_oNknDij8COrNbDvuX9kKJAgc5vvMdP7yJH9RqBeUHdA-yYCg7UWhwZmBccxMo5gOoUVk6gp8VLplfYsO8OmJj0DGN2JUByh3j6g",
+        "width": 3024
+      },
+      {
+        "height": 533,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101493830935076361880\">Bedrock Wine Co. - By Appointment</a>"
+        ],
+        "photo_reference": "Aa-ngMYNShCUywlld_EUWLenhPq8U2uVWDJYswY4AlGVNx_7YUmjzFJrqClgiDeNIzgiaQsqa4CSBOPGRDBulhT2JDGhhnluT3XutBOEzNtB7nKo57wRU-GTE5eyMTFs8epEdj5Ix9FPGg5P7MhVoEzTFhNs3ZTOe-KlL0BBRkt0d7RtrFi9yGM9E9qc0S1Yb6PwRYgJ55vZwOQzvk5HlG_TEO5mCUmyupFM88jZbD-rF3TaAcJrfXIJ0iUjz410doiK2LsopOAvj2WkiO1iI4mKuu18053J_al4GqjkdciELjuukVMmjsM9GX2g5x8cvNDpdJ35xA0uL6MJnOP7YVx1hg68HXA4gaGQPfpLa_7WNwvtdkGprEWrD0IoJaNKqnRei-Drv0-xd8bydv7XDUj5MSTphwwKYXk",
+        "width": 800
+      }
+    ],
+    "place_id": "ChIJO2PCqfYwdkARyf5ziQp-NXg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=8661968042037870281",
+    "vicinity": "414 1st St E, Sonoma",
+    "website": "https://bedrockwineco.com/tastings/"
+  }
+}
