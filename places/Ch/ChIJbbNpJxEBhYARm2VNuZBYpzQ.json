@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:19Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Darioush Winery",
+  "place_id": "ChIJbbNpJxEBhYARm2VNuZBYpzQ",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4240",
+        "short_name": "4240",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail",
+        "short_name": "Silverado Trail",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4240 Silverado Trail, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 257-2345",
+    "geometry": {
+      "location": {
+        "lat": 38.367522,
+        "lng": -122.2945869
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3687561302915,
+          "lng": -122.2933960697085
+        },
+        "southwest": {
+          "lat": 38.3660581697085,
+          "lng": -122.2960940302915
+        }
+      }
+    },
+    "name": "Darioush Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105366757284473610143\">Darioush Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY9yKzMxrP42-NK9DPTIlYKo3YiuRZnSvgQgVIeAfEG-2UWs1877YF9Zo1bFjdMdGozqkonRNpbgaGaB2p1E8lGKmROj_Mw86XV-EfmHGO930WUKz6i9fk5Ufba8zHETIdaYGVZQ5kYx5FfF9sdI2zsEfcZAfKtb-BejCAsTY3ujlNDu1-_GshJKv5OiCwb5A9pozBECaWvnArse60dsNp133HMy12LDPuQK5bOy1iasLmL4d4QWnjDhuBMyBTZe8gCdBByxkJQX4SSI6wSxoV-rH92J_0ewUESNsyht8ewuqGk6PqYE8JPWw9LO5rAgauAGjhOwt7AUSQvay7NC5lBk6gFobRdn7SkVckcVioOE6LLQvIJpFG-eN8dgWMoR_IxFv5JM_SAIOd92QrggyjnthaZ768",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103740704618818531133\">Tesla Toledo</a>"
+        ],
+        "photo_reference": "Aa-ngMajx7JtDwh94UZAhTdamDLJWUlBuLSOryFYqxsbN1P2P1LblJiSV-XN0WxTKOdl9zmm0DwOBcXSwDbD9ojAnEEsVCxFzxwmMsqNlOrwsSrCp6EbnfzzYVN_08YSn0EsUSZSzKraXClVJgoJ3DATAiR5Oq3T76kLMA5sOr5RnuY4XebRT5PPd45yPCpWHO2Zr8T2lmc4F--e-BakoRwjVvpJlkZDKySgFQvI5ijN1HrDWhaRS9nQvrtDWjrKsF2Nijgx-8x9z6O2U-1rctKfDdRFSkz2zroY4iEChPKX3AtuskkbwhkOiFQAAL_yV1cPib4qfoBzRDE17mp8buj3BkxmBFFyL31nvD8d-nJEPDvMuC0dpHFAfjvlcBcZ_nZGhhx1NERU38uwDmdTV-kcoUzkpWEFFdty73u3tiI1bKBSww",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105593791541788956178\">ShuLin Wang</a>"
+        ],
+        "photo_reference": "Aa-ngMbByzQ5Wi-_fBARb9D_bv_iL9hDsk7C62fj_AvGQ5dnDAQw6BlQ-EoITN4qwZl0O4b8AdckHjK_KGKVUZK3Ce_wWcZQvKq-QkIFe9kRXomcOmxD3yf8wTNjWHqNyTsKUX1CuvjzANupsGopno8IQii7yRhvJ5RCCx1pseP4-2kgT8LdAiAPLi2dfgi75CezaOF2niwWSjnAJgp6NL83kNxE76hrfeDiD9yfLPFemvVBAPCJ_H_q18G6a47Z17rRqUxe3lYphu92II5K3-j27I3Fy-r4Jtw24iM2yuVdPx2XO1DrRt1I_9XWdckTUF91CIFVvRUbfSOyZonrKn2iLhEV4sJHEAURfMvuGjjOvyZdZxDPZG8r8FMyFHDw_qljFJpLzJ4X9_VQq6WejTGpUjF7IRSE0HGBQIBZqxyTiqcSVQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103116114619936595015\">Denisse Moreira</a>"
+        ],
+        "photo_reference": "Aa-ngMY7PSQ-L1YHAsyXknOF1x6nXvXUJJd60VLSN5AYfRuHFHrm2Smm3sPS8IVWFVuNgFTmyLRsmELs2qbZyMcrZ5GamqmWzgmTFsTuGH3tlgEC8WiyBDtyWlcTbpfdTP9JEQvgyyyaKos7A2BC-wm4WRMe93hUp3NBHIjDcX_Sup_p-x06vXGH444wPKDcDzh1MQPR3VDlkgTc4iqKaDvncJ46mHjNJH73DR63PLmNFnuYs2QYJ16sGNwZ8xY-tpfwpCQbTC0w_qtvm5aI6kteBOCT8pg3cD39adNLJfkRmQM5bhMCCoXeTYscDMNC7H3HKY6GB85tHikEZEzXi3vrfnWPNhv7nzogF-3xSdECYUCGqvEWxOCvzLT_47-MdFdFq89rAJ_5Dx0IOx0L3lmMnm4q4sr60WU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104327409423530487895\">Sandra Lee</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9xoqC3c7kJtDjl5GFlI6gxN8y0jxNE6PAsrQqAlMyJKR3hQ9alXCaYgKuLJweLryvjZRbyEdgcXhHVUi8XdGZymu_pcyxzBy2Q0J-wJ5z3swmw3RO-co1v3CpOGGEpwOlC1ZpqcICvFrYkmzIu2FUk0tTCGIEUX1hrJZmr-dkRTY645Ljlb0b8SR4PLphstUMaZwS1cxS_NYfjJRRjmfSeMQ5qReig49zWTlbI1p45ySSnE65sy0pLJkTP3Ws0ciN73YGLAud2mH2SPR6lgmM2nq2sc6SGD6m4GcRg4MicJcX8U9zODxPHxBlAX3e5IxTXxEBk2HxQWv9k6mu-ONtXnhqZoTHxWHUjmXM0_4Gtvn6W_FtPiYG-JEB3ssA2iWX7qxfKvthf0TpsnnLyqPY5_3_iRs",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116756975420943576521\">Sam Sedighian</a>"
+        ],
+        "photo_reference": "Aa-ngMYrIxYWkgCLaVxAHmTUKOZcGVhEK--q2c0NBj3LMQmMQRBPqxSl-1qkigzJf7qv91AIoPyxKLMkplib6peUvRR_bMGQfsx8h4E0LQotz_aGMQmgBJo36fTytzO4EnE9EPoAEJjWAMcghmshrMgDQkisf52Xf2sbQRWhP_Nsoc5CgwRKut716is6MURhSn4Jv8EyJCnuvDb_yshY4adHzrWSjkSJ9fLvnQ62TJTbplpXh9iefQtNhfAeCiLJ8_fkipHRg-AeZYQXAoPVwYg2DbmlWMHexdUoSDUv6VlNKClHWeVutHzoFA53KKFJW9o2SyF7S1DDGkmtQcX7bG8npDRn3HZfUWgBEl7awvwZUyBHUUUa9VHcj83m-OD7Gov4GhUnL8xKbwGPGpEB8BmST1i66uHOPUc",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108896419319112038004\">Andrew Siegel</a>"
+        ],
+        "photo_reference": "Aa-ngMYNSO56yGZ7FTcopxCpdoR8C75UaMHprBwYErvX7QMV4UBqqXlaaXKwvnDwXrxs_GmU_RC-uyOBkKQkiQNtTumFq-W3hA8Tp23L-YFgMMfs9fz5WSJtPz7G_0VMqZBB4gE9NUDiCGLpafL8J3E4cMt287siTYR_9cy7Dzmlv2ThlkKblYlKr8gKe_DFtFW6C01jXkWWSfAgthWy8aQ_gESDIa-C5JME-0Szz5bhW0rMSjCAKbV4Ki6YX2st-kJzYGYPvfyF2VHRwnXmQPNyDkv41f8wtEYXMKTpryNEaXMdcO6DngOe0rMNGDsHuIO0ceMWpj0nIOAPl07e4SxJrH0zalyPGlNS7ZYv_JUAdbEjMV_2amRHg-xOBSmdqmiWjId9tatCPy4hJZQ9yV_8BHYK9y4MoW8",
+        "width": 3024
+      },
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108152111356669851166\">Hsieh Anne</a>"
+        ],
+        "photo_reference": "Aa-ngMZHvwpeCBIMefFGI2sWx6JTQHZPpETqvg8n2DQL_z2_UtdgMKe_nbCIjHuuUGBIXhQndVyfq40q-Z_YXM1KBtaeKttQUiLu5Uk4pI7UPpuoiTXiPTvjAAO85I2AgC5iGrqoXqteV01BivFjbUbemkjGncY7UAlRPxmutBFIo0zZZtpoouD0Es6OIUSU0w_9vIiCLfFPiqjyKWUHEE7zQFPp4ek5pJZn467yjSRqy0lNzXJAh0YDCI3hqGjPWuK1SSdOc2bn1uSbLGWKX8R3eR_Hi6qFsPuiN8bXGHSdLbNkGBDBroGgZPEbm2oKVgtHTUAYdgqCHHHUHwQmP3Ek387IsikzjDcFA4cWSOc_WmchHzFiYcmIrAbwXaRETQ3J_xJQanlhDA_tsZ63QPDFcv1dkDrRDzXHD9VtFVxuoqQY4A",
+        "width": 4624
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117011243510257996916\">Juan Manuel Arrigunaga Rosas</a>"
+        ],
+        "photo_reference": "Aa-ngMa_mLtnc42RTWxpA9XDupdhjpO5BiUBxVUOplyzExvPKvxEBIz_gDCpjX4AQED08k47BzwgUG41cxJJiLzlB4Gls7fXMkrRpZQFOB-1O87x7-wjBYo8TjZ1n4ZjpemsRUe1Zc9-usTFrZxOeZejpDzIXgGA9kqof1i2gYwu37WlhknTuNAICleLhUDJBbp_BeNtTwfeZq0cftNkkdzsQEWfO2RkKJ0TO0dC1TZWYXeq7n0OEca6SOjUgpt19YeNcyoNJXW4w4-v_l2wXZ6TSVNcDxU96fkdrTQxUpTmOLpY2lrXYN9OWHrT54pEGnJjDMM-K6YiEZY6qrzF3OhtrBrvSYZrY2F-bCWTBWQgC5wouuFjlRalUin1XwGaUvevekAIdGPtPGveuvkWzRzPZWEOzmAQ8N8",
+        "width": 1280
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115394531136283006754\">vladimir berlin</a>"
+        ],
+        "photo_reference": "Aa-ngMbAD-ZcVRumsBSxtBhvHUTvU_2OPFclZrG5ux20U3bSSvv6s9f7Kj_S9bi9zWsp1wFnEaZfqLXP3oodFrct9yvKjPEhseKSiYYb66dV6era3sYEIT5cbUDNWelKw6IQ6p_pqGJCGVwmRXjXyNp9Zv2pvTDkc7SS6u9kUsMJPhMnHJRv1ajxBRvPB8KDC1cMhPixNXDa-wpxRBQDfMfqdgF5rujLjmErf49bx2SH4_LZ7XTGuZRvCnrZl5xYdAmG-U0Nbz86wf9sUVdi65sfIiNfuRD8zs9ZYXdX-sIljaMVij2Ox6gI3YVb39BF0r7XRanRuYn84-ZpEZRxzktLUKEd-443VxUHEPHKKoRxFgvzuUxx8aeVkbf03okbgi5bD5GiPLqb19qPGlDFg1Ts_kNfzbs",
+        "width": 2304
+      }
+    ],
+    "place_id": "ChIJbbNpJxEBhYARm2VNuZBYpzQ",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3794098589690324379",
+    "vicinity": "4240 Silverado Trail, Napa",
+    "website": "https://www.darioush.com/"
+  }
+}
