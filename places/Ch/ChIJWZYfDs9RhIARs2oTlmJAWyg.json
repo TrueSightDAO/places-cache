@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-28T06:47:34Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Erosion Tap House: Winery & Brewery",
+  "place_id": "ChIJWZYfDs9RhIARs2oTlmJAWyg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1234",
+        "short_name": "1234",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1901",
+        "short_name": "1901",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1234 Main St, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 820-4445",
+    "geometry": {
+      "location": {
+        "lat": 38.5044238,
+        "lng": -122.4684622
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5056969802915,
+          "lng": -122.4671985697085
+        },
+        "southwest": {
+          "lat": 38.5029990197085,
+          "lng": -122.4698965302915
+        }
+      }
+    },
+    "name": "Erosion Tap House: Winery & Brewery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 3:00\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 3:00\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20098:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106826359806990400861\">Erosion Tap House: Winery &amp; Brewery</a>"
+        ],
+        "photo_reference": "Aa-ngMZd_V4vNv31XZ8scBVZcSKUctzcaw25kHEBpql33vXO1qIwMNJGX-lZCar_itJO9KJO-qSWI1JoHAgIVUHc1T3CTM_c2IvtrRuFqw8iZ7P1gWsKthBwYbho6y3XPExbfpGkN6eAjzIXyeQB9q4ROtgbrjwI5U3L0osyVPifceSrO4fV0k0rpc7ecmh0v8E2hmKCqRwIs9ada_TlvXCpxfv__ehBJDNrrU-rxJRnoqS8S0D5cQ56E0uGIhkaFJhTJbQn5mWmHj6kz4GYYs9X5V4GMsifv5MCI0r60zk_1h1L2K9BHouNE9IA27nQrPX-w0aXDojpF49SrdRlzhyaGzgZ3cZLFFE6aVlTBbhQO_NFonr3Zhrgq60NeilPJgDgYsUxe3Pu8oDUMEblJaHn8K0FIyI",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111565245409255262288\">William Landrum</a>"
+        ],
+        "photo_reference": "Aa-ngMbjFd58ANv2wsztTfoa-Tz990hzHmj7OLiWSL4mLw6n7z0-WXrOCXOishQtrvwuLEke9Fs-2hx8S9kInkyTxvgQ0r36w_ayG6yjaUcicO8pvID83fz_GSoPWP6WviW8Lz0isLIgszcQJQnolD6wuc6N8PdMIfWj2bu4HY8TXGx3bVSHkUfPOhQAhBBvId-tJfNTmkfy74XRiJs1Yy_KFreDW78BdG29uDlxe6Z06Y6OLKKT64o1Ky2vneXV8TOa0O9DG0BYbaw4Pw-sGUqC7oQu3HhnWEJk6rKEtQi5kE6DDkwbF7euodxnLeA7sGcf10X8Pkgk6F-x02sY3oUf-Uu6QUhlghwJ7qejk4ye0HZX_Ek-stsX9he6DXrZiNJcjyX8oeMOXz__tzZ5L1RS0LNrh44nbIgfxdRJyfl4WTapNg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105846164338216490707\">Dana</a>"
+        ],
+        "photo_reference": "Aa-ngMbgN8Z701Dw3asOH9g7jXx0vwSdfNmORFFbt1pFKxc3_Obazi_DDCf6_W_AUocwweA7pOXqUj-glRWyQFjKb8_HU6Qc8k9_Og1RRxU9B_5cY8sRP_-K7DYmsXPrG819rV_lo1DF4NLJT1vjGpL4tPeHZf1Zeyw4rJC6-Cebb4joTeOD2Rc5pnzoNoAwrVFPD6axHKcIXmOnHGsL4cO7eal5jNrc_bBbieR0t5ID718T8sBVL3IiP5xGlKEVcFl6H5VmL7LWeInLWEk8gXIoIBrwz440X1Ab6GsyAjQE0A3LFASu5HtmrsMEfQfouYD4vjIKsYXuKMsXt-YQexhCc-3ah6b5rL30A9hnRFFTBoQIOH3nqOxSkojAHTXCnWlW3VNo27SUjBCbckmLqESiAdoHdlh-",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111565245409255262288\">William Landrum</a>"
+        ],
+        "photo_reference": "Aa-ngMYLmXU02I7zo8tBLVQFs_IOQFPBPpBsopZwbHNvT3hCvKchwJY9Mmw0qJCdAr14ONW0HKbcy_vZrYw9wXr5R8dbC8m0pLLEZbwAbtziF0T-KrG0t_8JyBVsGikpWw-EF3-tu_nJgoUqnyk6cE5Bg_KFMqPZuJ6qcUQaGGq6R46DK086kIgKau2itpvS_NMjg1RszTCdA0SJaRd5K0XyoCVSchN0-QDqfMtw8uldPT8GvpoX_K5klKJOpL2HPVxtXHsRZNdjffLVuqAoCx5C4Q3vHun_pihXQVtPzpB0oTVEspm8GTzSqsA99Gah1rm56k_22wI3rDRkUgHbEroMLgiq-pG_EO8OCN_9iRJK9bfeBOqdjqA-n6H2D5tQPtRnyZMv063-E8vJCOGm6c725c6mcBPzc6pBvaKfHAXvSu5dNw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111405525398371714208\">C VDB</a>"
+        ],
+        "photo_reference": "Aa-ngMYubzJ2cxPiE9fKdN42egh6LbIbsUIqFIlOJIsxTcMfgebFMCD1665VVL0riJ9eTiQCH-v4yns_W-Jv0bbRvYFlz7pcw8GvQh1SG2EbvDoIm4XrbrcnTjqblq9Wkrdu9MfRfX4dEaZ6rGGsAvurXP9TwI93P2egG04QWnYowLwMCdAm-a6zUDn9_lfZF0eRGLOxMmrCGHzyt1vYLYOu5z1_D8xqWr7pERpZEHDYTVGr8IhccsPL3ZoYqUUi-JSUrYRIRlgRI9DYHez5KxxT8zckLpnep2GgZXBNgFch-HZO8n6dBzYthaGN6CPGSbNxqH6EEL3jue7pyay5e6A6FS8sV7kocWYrdVVMmw9FzuEPN6Tir2VLCohi2XDEUu0GhjWJR2_BGVhdxJiXtnUDBBZMOlFHhH-lbmXRLzywJlqMTQ",
+        "width": 3024
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108000686582278450401\">Cali Native V</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2Y901JKk4YsALNnRGvubKO_WlCFg6jkFG1Do6Husyg28b5qeIcQrHTq7skL4_cHxMvLLW8UEk9Kyfax2TzZDCI4jpPF2iVI4LvvSwDWP11yNMS1lb8TO9ktmRNFqirPsjuGPHt41y1UyY1BpbqcPzstT3sGrXNb75ABoJS6M2p6T72OpDrmUX2Oy0ME5m7jeoU1GEFhYq2Lkl3YV0RQd6Bf0IaCT2EOW99rNqMzEgMXN4Mz9BagSJ0FeJUlkz-pPWRxJxaInV_AP2o-S2lmUnQHWGt-r-eANLDIIKamz_vIgM8EGMcpzAXpP95qkNbN6MiGah8XXFjUTdFKieWMYUrehQzzhtsecgbw2SSrYULX0uSwGDNfX1_8tpT7AjRpabMhL0hTwLA_Gho-3qwy_wmSc",
+        "width": 4608
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110086616573869269360\">Love N Gratitude</a>"
+        ],
+        "photo_reference": "Aa-ngMb3tVB7KnbqK4H_vfx9_OpxQdiPf2UrLJ4F6doyYYaqVMu4R6U8Tq3wZ5kcHMWgh8VnlNA5KVfBx8eJStiY2eN2XDSH8pkWXGMp07FOUXVtaaSKjq1q7NGAI8z_TVsL5P66fiW_RJYWXWvAGeQpiGky4I2Tq1nP3GKQ1B9TI0qLtQox95RtN57eC3KRwK84x09PHVtK9ztOUPNSmOmJGe_aAnXwnVyCzOlWz6hkqj_-ycecOuAfDUiOAX402sGz9FdabJ6iH-CAFB0G7uRwKSMINdMN8slEbePrXkAS9MeXwTa-JX8iZ0YcbKFWoEXJqamAo-0hxbtp_W7z4MrTmerMRv97OgBqgD7I4CjVXoocvcuFNibUE2ckCLA8j8gH4uFod28wLSXk5_Qvns1Kcci4wJfU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111565245409255262288\">William Landrum</a>"
+        ],
+        "photo_reference": "Aa-ngMY46MbzqJa6tBR5xd1nLpuPEY93lmcepqy9nrK1pMDYNA5QEqTZbfBO5pMz3c_gmISGw59fJzcQJE1L1E4LAP6FAr-DNMW9O8Z3W6RLDWOdT-JcrScwG0EcIJit9Pqa5hS-_zAwEaSXG1vjzha_ypmyJKbkr8yWv0j3_Xo0YfgDnzfVtGnif2FE-4fKxFB8gnmQGiCUXtEmlfzcLUfcAGy2yQCRH3-ElZVYcJ54tSacZOS07wbmdgD1rnxlHOw-r2W9cUHHHM4KgdPWGgjmuA3VkuTeWkobOYE9NMYl2dUolcCQpRRExZubto6KO2beqABiVeCPdhfrZSbgJMVq35eY8SgWgHPac01rOS1AbejbG7ltN_Iv4Gvw2iYlOyvMBb40NClGkidFsZkAGCue0MtvfspEVlQRGhq5yUdvLlb9dw",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113330344258405273176\">(\uc8fc)\uc138\uc6d0\ubb3c\uc0b0\ud55c\uc815\uc6b1</a>"
+        ],
+        "photo_reference": "Aa-ngMa4jTk4zEQKEu4TMKV4DmF72d-ZWH8fsqkKuCTCwm0mxRm2IV2qidgpR95wJSgA3scv4PoO1RWI1jqJUCtwauOtNvMLqS1aTgky3ClQlrm9rCE3JkF7kHBs-lqQ-h0fus-zYWYgYmCYhjxqy6U3OYx6TesguKSbiAPtzQOxN1yDcyEJXOqB9JBIWzHXHSXxsIgPJKBYb2PgsNOSemErIluVtsKhl-wa7oMHxqu7pNpyQ0SSaCKG1-lM1g9_BDOVzWK6fZQC2RhG1ieWgnCdVZkyVG9wUoVu1QIE_MEn085rcWJ15P40eUgfehJnHjew7a5OcQfbCi3HA7L-DY6l97g7OL2mZkoVllIObB5P7nc2VosxjePiw1WiLIiBgRP4lJHgbR1efpwaLIeo45co5AQIyAwkKg4",
+        "width": 1920
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102652897243216116000\">Nicole Antonic</a>"
+        ],
+        "photo_reference": "Aa-ngMbA-VyfGA-CwD03U3ip6odIVU30GqXryTiMw459U5MhwHTnaET5BMczLthub2R38RzMx5hANzco46kqfvrX8roXYu69My5-yJmgsAtBTSGF3v-k8KoDm4bUmOw0j9ft3CvMrgfLxr6nSHxtH-Y4YAuaPrsp5bWRQfmjwuEPPunLmQoNzYhtSGZbK7BUnW29WXnlabKMWyON7ib1UeC8P2NyKKZAKY2hG1lQT69YLJ36BzQA4bNXP5fSChYOevdnL0MgUcq2b2cMr1dypKnUZ9oHnoMyO4g4f6RIEhsA8K1vsmH9sMF-yFtxwxuK8theG7l77N_zuI71awZsJHD7EluL1IBCacbbdqjyic8q58qBT1_v-lvFprvLS08lpnd5H8X_YWVO4VA3AQ4l6RoUnZBLiFFrZd_tsZ-AP6pAEMuT2Q",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJWZYfDs9RhIARs2oTlmJAWyg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2907988776566614707",
+    "vicinity": "1234 Main St, St Helena",
+    "website": "http://www.erosion.buzz/"
+  }
+}
