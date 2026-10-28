@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:02Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Girard Winery",
+  "place_id": "ChIJIUonFI9DhIAR7rNp9pkWuYw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1077",
+        "short_name": "1077",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dunaweal Lane",
+        "short_name": "Dunaweal Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1077 Dunaweal Ln, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 921-2800",
+    "geometry": {
+      "location": {
+        "lat": 38.572283,
+        "lng": -122.5524011
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5736256802915,
+          "lng": -122.5511087697085
+        },
+        "southwest": {
+          "lat": 38.5709277197085,
+          "lng": -122.5538067302915
+        }
+      }
+    },
+    "name": "Girard Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2132,
+        "html_attributions": [
+          "Photos are copyrighted by their owners"
+        ],
+        "photo_reference": "Aa-ngMYypMiPA7-Ot4FkIyOiaaOXEDm3U5doNxJ3eDDocmH6H4SROOtYmOux6uCaX6KGoHx45NP29IUDXC86QPumAWag-OkInj_GZphj0GVzyaoIF9BX7Tg759CgzqXH5NwkLGX_rfsWBgllQJJvWb5uMEHYxqjgCgiifzjyhAXhMQ5Zu1EVR_LIMOav1F1fFM2b1BXqHxxz8j3EcNmtGRzLxrkN6BZDfTvw_oBhevp7huEochH7tNV4sYl20O6Y-UFm7F1YKBgPtXXt6jES_naGr2I48Sibg-9QZxKxhQ7rt2ZNBUXdqOfM608mgoZaEe6Fsa7mq_eiQDcETLp4HT7kbBwfr8m4o4pZEXPyU3gB_dOtsGkH231BRQcuwZmS9wRE_1gnrwhFOrwvb1x95SQyUEiHCpo3e4Ks7a55V77Whe6D",
+        "width": 3200
+      },
+      {
+        "height": 1279,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110143246975185057968\">Girard Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZXqarP7Sh_GVacNZI1T_ofDeWxyR58-UDTvgY5smfsFL5viSdCCSIBZqfhPnnnD0KNo_CLFtNIUg-ddWuAZVlVf5yX7_rQHLklPwwOkx76O_ILhxPCzMOYhGXU8m8zo807hpinnQ_xZBXmp_LJk-a3ZJBuqD45Yiy4hxHtCI4Dxus_yLpzTBqanxkm7CP4fpxo5xNVyaKgrELLH3Fk2-lgesih7aRq5W6K7n5RNigDRpeNK7WvGv5H-VfFAPvSE22RBh0ee23xyqhu1hUG9lXuPSd8-Nq5L4aI7Z1WdeHIsKjMA7xnugRZT1yGEW9Bl63TguTYvTeeCSN6mN8kjRyjNUGAk8NfV_eKPLExPpz4Akdkgmg0IDwwGjNnOagsU_0V826Df9Z2KjBf08Y0x8Ho1uqGVW7AbrnPgucZjXaZ",
+        "width": 1920
+      },
+      {
+        "height": 1208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110143246975185057968\">Girard Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMauQcpgJKJ3tl-2Ai6H6hXoCOYvpyOhR4bFQC8wVuXYgcA1qQ2ALPj_la4njWClFRMkEicZwxHI3jSO9_s9OTlFS7q82E40sN6hn_58te9Y2uEFYLWcC2xyp-txhr1U1LNdj-RM8wPWdwOhMORaPUBp3epfq2kkyy-Ur7W6njiWSJGAjsv5MDSulvBqZbcJ2i9baQoJVPnvXIRFF44ETRGGUU5Fk0tXr_yAJA51yQegoBjGpAPlnWsi2jvWjnc-ck8e8WMm6_5GKvuCnQNTX3b-CbIAD0Hg1bIWxfdhyRvsbM3FnDt1oEIBHoDXD8Qc_My1t-C0Q71K999O9r5zR1YRB--WmypS3CRaZbyXKvMaEInAhMatoQuttwi75Ka_GfmspixUnTqddat9J-VUoHjQMRjMabKgkQhNMVLFBBZZ-A",
+        "width": 1812
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116782528251762375744\">Maria Elena Villamil Rodr\u00edguez</a>"
+        ],
+        "photo_reference": "Aa-ngMYgHg0YygsO_IzwFvoh8DOovXQMOBs4w0KkPMG_CJb9f1pcALdFKggnqAzzrGqrXUtX4-FMcAsY6MlryaUn7-axxBumKNB5ThOgKijikuYhgJRoN2fziW3udNL2t1jAKKyQcSvZvsu0FlwBGNB3GQjoWi1pLbMeq8US5AM5x0BKjQGUiN7t0q_pFWFx4tYX8vZnhjkYHKMwC6EPIETJC5R1rvsh7G-HtaqqIjb_1H-NLJ7F57vwmBAGKMAjzJW4EIFUvegkFzUBHpVogoNhVsbHOsZC1widvAjiHFlZJ2gT18E6E5E_TeOfU7X1nIWWTAo2kPUZ3utfLirocwx0i9CyUKT_T6uCYJ-8SLLJhlD9l12dM5mULejlKqLM0GtBfGEPW1ywBpTk0lqopRqhsrDMBi7kJrk",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110892611041487958259\">Eileen</a>"
+        ],
+        "photo_reference": "Aa-ngMZLvBB-vENGiLwhtaTrxIfrow-vGEQBRBPQ6gmwGe45tkyq6kzskotDnb1BMcDuKRkJifAleRlVnbn-SaQrBMhL1_xnS-oJlCJYY5wVWOl1X2F4lhqbqDHuIeEevcs65AedcXCx1VKy5hQ8TanmPAtTnnOLKRdA77ggfnLkEgJy1ZhTDVrpBXtECwlp00bFjCLeI7J8w1_WML_H26tZagC6uFM9g3IXosuYp65qXrNOVMeUBVSTsSWSdCTvMsdpMUNy_FShJyxI80_uEORpJl1GJQCCkCfMFJkcwUrO5USbx3CzAcF4wdYac4HrBpiQbHzhR1y-fcOqe2Hhj3dSA00ROkNgGJUxwXyRcMRnsVGm7FELPrrSsm8UBh_JHps4OpU5Ze_stKUOR_8h1VPpm29rqtUug8Q",
+        "width": 4080
+      },
+      {
+        "height": 1248,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110143246975185057968\">Girard Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYIh9LVtAQpsdhYg0ujFp4S1yXMd5MNOO5ZT7P6114wDGKun3itIDpHFXhGcoFtFuhWolf0Hrg4SajGMpZWKrqCrjcWbkdkOVttFnzTA4ntSzM_ASjNNk3KGIACC70GUAval1z-7NOJKGnIrLcjGM6LwPTECV3esXLI3RylrXG8sG90BRbTt1vLOO0XIFl4uk3N9rrSdJbEOaZkVMn8-iNKGEeUWnUiWYnjMiuJPobVTVeU00TcUo_V49OpPom2Bye5RcuegxSAH_rz4p6aO4lvrpDkcQCrEFObGEf5xVTdz0A9-FikWYHO1LEFczv010lQVAbBE1kv4pn4xQ7EdCvrN_Dr0bBljmDEqGs2FpfdeiZDKqzd54nNrr0rT9QVBNpWENfLN_5qqnYlLaL9PCgRH3HK90vgo-Hz2-01Fz1-Zg",
+        "width": 1872
+      },
+      {
+        "height": 1248,
+        "html_attributions": [
+          "Photos are copyrighted by their owners"
+        ],
+        "photo_reference": "Aa-ngMZpTiUZIS_OrAl8lKN_vTKakde_yvHJNOjerPDryuazxxjuTz2FG2cLE--XN5X92kCHuZD19Vx3q35jx_kD-mGOm5lZ9Slu-VAkKSpnbAn_E1b2hH3LLeSuYle0fMX_GLeZ98ORtiJx7U4tRbh5QRtQw_JuS7mJSen1AGwRcFPtfO0kBFhD9tK0rc3TxcUb4zzxaUn4nKpPe5Zop2RYqOTsMNl5QJuSiqjkvfs2PQavDIQLDRUSDwyuRgz8_iYEX4_xcDQPX1jpKycsFYilvMlKJ5x5sksijiggi4ZiC_aKnbL76xtglNqL3GuYi2P8wU0STb5PZ9-tm6ktaIaYRXsKb3mwq8DfbuWU39G1fX6odpmy1GpW-N2Kz4FsTMm3wM4pWw8eptaGz9RhBhd_TyNrIjVGlE6xvXeszCGGeYsWDg",
+        "width": 1872
+      },
+      {
+        "height": 968,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102490796675113441348\">Tofu</a>"
+        ],
+        "photo_reference": "Aa-ngMaVPc_0TGUQZKE_vqj4m3jJPUReHWYWi2rS75zalwBrpHxQn1mKlKDI9K3Xo8bYm0BVoVVzw2X8y2NeM4nkHs2rdBXnKNsYhBLK31W8Qk9UqAiduzLBOPDGz-KjX35oMOOakqU0s67so3UdJd0pVYI2yFzzCVb_GzAU4D7sVkLjD-2Wk1Xs123NCPHNHX5fk1zfxZpNoI-74Ips-hwFcawCsEgEcUMlaXX5OaTRXL-fVvsahFXSfsXMh2fDfUPyLCgQga59LRatqNRKCuhFH0UJsFmndgqLw3fb8pjy48yA6CeLOwfha9UMtO6AkARmkANOFRYBAlU1S5Y-u1G_nuNs0EvCbFSRzu5GPS4SsxX-uvEnT9JGSzKJOmU0ITrv1eNl1OdVH4EFe5uPUGbuo7K2s55H",
+        "width": 1290
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115597053172295384990\">Mark Collins</a>"
+        ],
+        "photo_reference": "Aa-ngMZxsHrvBgQP7qj7W4SOFMsCAeKYmaNwJWolgbHBvkZSOzK3-uYuV1TKNgWBdZ-wq2umFIWChjtwEYtF0n2Y6EJkaM_rGlJhVIZrP2x81cTqMVUfe2YqTK6JBmeE_Mr__1XIuyIdonmQiFe-3VZ6oBGgimdFuJ0JUcIl1W8vmTW6zOLK2OmeRVXzBfOKt9O2-8X2_vt4DPILetxGyV0Fv693V-0tNz80Do4thFbXtQEbCrT0V0Fl7GMsJq8FfayIWiWzHiStuJHoV1kR6Xr7Z2BFEutDeHBTuNlpUXBlE99tQGVemYPSt-kJbvmETdKUTTA3KtzKJzvzDEGaTPmzKWX03QVSY9SGgNbjoRLx9yc8cP5heCQiUVdvyyieaub5L_BXQB_tYxKDCrxdOgE7yZuOTEaW",
+        "width": 4000
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115335227840063428129\">iBen Consulting</a>"
+        ],
+        "photo_reference": "Aa-ngMY-gq465p2eB9FZ7OBE7E9pQGXGXLDZRNxPAaL11JYZFH_W65EWDu2p_WNkhtsGnB5POB-yL6iU-_g-QHDlvCwnClrPBQ6gYRQb63Laq4MoWi3W5zzRi0M6qIzNf--cMgCbwVqhdwDxCXSLp69fMBElJhvyV7UrD9hpdNDdsNf8x6UcnzMHW5UsnpgkvswT-aEOBvw39_O99bFMrJ-7VoIWVJZ5xzUN84XWUg_COGBpbTazKFmG3I9PIR2zmia4LUlkbQuec-6KtkN4Mjm28zJIApEA1PugHHCZ329W3el6sjjqGQiEVhtXpJo8IcxcJ2PfPfoP9-dYZPEVnA9RyhUN2IvF0OBu3Q7iBHcna5jj94Y4G_GUk0R-vjVnSpp-eR4_XraryhUAKieJcIQasyvOWYgK",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJIUonFI9DhIAR7rNp9pkWuYw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10140160886521312238",
+    "vicinity": "1077 Dunaweal Ln, Calistoga",
+    "website": "https://www.girardwinery.com/"
+  }
+}
