@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:45:11Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "MacRostie Winery Estate House",
+  "place_id": "ChIJD7sEwiuphYARIVsEQ8hcjS0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4605",
+        "short_name": "4605",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9362",
+        "short_name": "9362",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4605 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 473-9303",
+    "geometry": {
+      "location": {
+        "lat": 38.554578,
+        "lng": -122.872684
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5558332302915,
+          "lng": -122.8716594697085
+        },
+        "southwest": {
+          "lat": 38.5531352697085,
+          "lng": -122.8743574302915
+        }
+      }
+    },
+    "name": "MacRostie Winery Estate House",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114618795261707654597\">MacRostie Winery Estate House</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_W5NS_k-3WCF7XZO3_EpCM35YwHFzKUXc7rc3vF6NFEKBS2Eie_JCuUEl3-KdwYUqvGmeZI1FZQCTh9-tLzQq9qGMpzvrhrgxpHoeO1UyJq9GuknaPBEa6-0kWoSS9P6hXRYeB0861Zq4kfQDc6EUdJU40zHHT0yVFTKnY0D085uiMYXnEmFmLUuitmTjMCmZow5WhpY9Zx4vuG--nidrQTFi1b0NzOtoz-00f9C6gbcDGRTqt9MIvXebn49YtO2aIgEaYJ1jvcb5v1DSHhVUCk3gZGJ8EM3R6bH6ZcbLUZh00RHROk0zgH8dDI1m7iu8-syjw3_nvf14sTgadqZFBos9hw7zR8pMOsNcxyWM-5yaxClw-PJN991aeQ07Wj48rUv0ADTZBZZ7irGoQkYy2C9qwfqyPvIiXjyLWknt",
+        "width": 800
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114618795261707654597\">MacRostie Winery Estate House</a>"
+        ],
+        "photo_reference": "Aa-ngMYxdEljvHPr5ilQPzR-i9mbzSZAOegBbsYwXOONOGgVRkmvQVlfBtHnKO4C1T_sENh4RGmQWY2sClYslW9eBDGhOnCDu24ra8aPVEbQEPX1lA9Y_atvP9Nh66DOakP9egUAypoy1LK0mAqTFtKGY51eVXV4ACQ2x9oFUi6Ezy_vxE7fMCEjz3Q0cZnHXIQQKBLc1Mgl8vIlx3T4SurBfft_PjoQiCxjThd3YvwGpA3v02_WP4WMaPy4Jo9F-dQT7rl9SJcMZLNKfGLPg8SCdN03hzaengINIx7aDXsYeIgcAKKNHenprWUKZaNSfCyClvIdvlnIbGc6YTWVXHbatswSUyXWUZtQz1cOo5ka2C59YTefmyEBSMjMFVNT6RP5ZRf_XHKBv3m0RMnLeXzhiXw3bi9G26Y",
+        "width": 1500
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114618795261707654597\">MacRostie Winery Estate House</a>"
+        ],
+        "photo_reference": "Aa-ngMbqQhYf_reOQYoEpkLblQyinrsjv4dikuBHwK5mqAXropXFi_0M6M6qOrmc8o3aQJVCJ3Ef54wH6F8mRoR99B1KHOm0GF4Dj1Ib1RtgrY-Z8TsPwRoXJkSYwalM442ehdA-_9i1R9t76_SJv9UUUwqpN3UPddMbwOvvbYxfiA2FSWNQsAkkkvVbnUIq2TE7nsTxJ5obk-OI0_zWxlwyI-f6Ft72jH3BNaeT3dwIBcWYmeX5SWN0_CIH9i3Osfkrj-dEgkD9NbIxnGV_0ow4FIRImXOOzgCcCBYW-0UhoLYWkXqODGmhasDxz-HSONgcekE8eQyfAHqfqjcE_aiik-crhi2agJT1iyMlb2GxlC_jaQp1goZSzOsY1DjR_T5BNdpyb2STx3autUiZtV0DnfK3rk4",
+        "width": 1500
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116208111380976228257\">John Maull</a>"
+        ],
+        "photo_reference": "Aa-ngMavfZswqPeuFT3qrR_5EiRKv_QOkEieSc5lq2JuEHHi32Tsuv4Ld527V6QaOyq8ggK7M9suXS9OQqMsY14XOhuatlsHcNthtGcmuWCEqjA6AfPZkLV0sRxUymjLMQjcl7AHtdqvt8ES6fL848RYGk5ttv-ANrFhr97SHkLcZSlwkvcBLuANIkVG2VDKxkEINMdA3fkaLCdf8lPsR7dkd6kWoCXIr9H7Wjjh69lRZJWNPB0unMUjprSs1HOPbN4UKU-zfoEQALwqzHc5ocIUaVzNhrv5vwXbGdMpgrf5_IjqqdBs89NuNseb45XfJt6vAxb_K6n-xYZw0jwuvArXA83WRP8WoFq9__2jCA0fMQZSCd9HIuTweA5LbhyOqoC3GNHrE4NyvZ6GCnuw20ZYBxQsnHs",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114004157066136960873\">Cary Yen</a>"
+        ],
+        "photo_reference": "Aa-ngMYpy1GLivscXY6FjH1HqzGLcLR8pnMsIU8Dq_HOYdkx4CJrzQBbfUw2hafdCWPNC5-0Hv2Qh7QsNm_ZOSUA6RK1pfo8aCMLln0jRACCU2o0tKBwsr2Peg2GME3G60DdUJTjxCsefcd0synf9iVvesYKENGL1a-_zNtuDFocTn6NXCc_XjypiVJgFbhpStvXK9-YUxyDisp4eY-p96RFSseLTWndUoaL6EMo8BP6fb_qMOUpK8VmjB7PE6aA_1vqJ-H4iCjBz4yduKseDSRdOJzuAm3qiI8wO5BqBSHLbYjqO8MKJpQgYLl7RK4_4m3vVpI_JxPu6Ei2TqgeixiW2n5OqtCsPLm4EdYOtGYlsTgyBjLbnricrF3EUIZmjjNskv8uK_NExAsxCWA_HmcUnWFPkMmUeLM",
+        "width": 4800
+      },
+      {
+        "height": 2600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100773405796618228131\">Carrie Moore</a>"
+        ],
+        "photo_reference": "Aa-ngMaAPiq6gWlbaikkvrNDSQbuYNnavw-TTgwAqPbWc6DtsYBKGINeFXk68ll0FzNuxpYiVV2FEtE7-BzdzKjuBhHPSRqJB91oIVlqdLDbKC26gB0D4cd5ol17jH6lUSJWbDhBjMEXEJ_p9EDmvcalewn43Eoz-JmfQs7IXQTxnu3olfKCGJwXNEgzNEW5D-arwnp_gYa76M_Vt5iyetvc9221w5WvLw3RUHo61gE7Ug-m-rGQya6iGfFbVMYrFEVlRFd-M97YlT3kN2USo2KE0ZSSZjc1vHoUiLehZ7qC16meLt7TZrtu6NX6qt4biwLNqUM416fLSwb5eRW7DvHy0atUIlpF_SteKii33nRYyyANHoYqTXy7lWJZ_Oy-gCcsoCawPXkRu3fWcShbsECacEzDJUpY",
+        "width": 3900
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100775521124561373592\">James M</a>"
+        ],
+        "photo_reference": "Aa-ngMbxawjhJekyy1xJNdA51VolwVoKOvv4QqWb4yAxrhFyiASa-HmFIuVWMxtcmGqBUT7ywbmB7hsPBidro4eSkTAAKafaaKPdxZImxxDk5M7WOk-UUV7cVy5MyQQ694HYiq286khb7jgKGecL0InbV5YLbB3ujSNt-q32ugQWTuk5bw3KrUyif336aZSdntXvGSBocH9LKvIS9txaX6swAdPED1oBS1xGVUasXSDoPI55GZBmAsJO5StWJ8yHWvmo6xux5BcHRTOx7enOM4unP9b-YMd5vN4vVooVc2karAPmDiuJzxP3ZE3Z3KzAiAabJvzs0vpKRUddFBRaVYxLE_UGbckCMoExA0i97wQTlu0_9S_kJQGi4C63JlIqruq910s1BhVH5D0iCsortPkORtc8iA",
+        "width": 1365
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112810461221915706341\">Michael A. Wicker</a>"
+        ],
+        "photo_reference": "Aa-ngMYQnHj505Fh_2jj4_3ju-oe_MQJQTYJOa4i8iIiu0JDRKTBl7_vzw3QVtdpO7CehgHRuzbOoUTQb_J2gvbC0NecWcFD6oUN8k-gTQtjrcBilSSdiQp5T77IAR3ujbQFeNm66rr3mjEnFOVNQgE5-n5cFFCZnpu1E9ryONf8ruZea06b21_QrlfkMFzXrhFrtdGDyUEU5c-plTNJQpt7mq9VKHKaG_n1KgKcBOWrRvtRuQacqY4ye1Clfkl8jTJ2NC7qLn_9dUutaEGACl7H6mNe16RauT7kOuKehEyY_DTy8f5i8_CvM4qdAPssw03h0e_r6q0pFe_d-4Y9jaZj37FWne8yWlkZ4WfuprCnRCSIDseTh5jSg_rufyqD6cooO0_m4P42swpQCacdCw-N-DD3m5g",
+        "width": 4032
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114618795261707654597\">MacRostie Winery Estate House</a>"
+        ],
+        "photo_reference": "Aa-ngMbCbgw4U3yvB_ehrou7me005AByHdqS7-WwySaGGcZ716l78JqHvXwsmYN-iV0XJfvSCMb9_4SbSUKkTg4kcO_OCb93HQVceWbtMd6pKy-GYqC-0wI-rSh8qkJfu6BZQ2yh4KFP3SZq4zI-5SSIUxVfbuAfAXFRYxlWV9KPCDgKVc_h36fHw01rotXXyciCuBEYtiruNJFLKsxB8ZwvWW6Ta_CJkLSBKk6_l7pirwfydQMDRBUvM-DaGRv05xPY3yMMEBinmChBivzjgtLjc1_vcJ5-4F_GIZHtzJEJSrt-aBF5BiwhAQEz69R-uk9sxF5G1nTYq4Zlmd8v9V-xAhAbxR5WTMqVEiQA19IHixUd_trpVi_VaFB_K4ErHpcvCmbOKG5GRUwrQ81aTCV-SMGa04ANp_A",
+        "width": 3600
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108230267655865805796\">Dominic Cordima</a>"
+        ],
+        "photo_reference": "Aa-ngMaK1Sfw2i28qzIg2gY-wXQ35lG3PVb9YB7EreuP-hY3i2SrNHc5OuAttKSqqBBOA7t5liVG8mRzxFP3G3Aodlg6Svgu54QExI0gLP_jb-6ywml8JWfEEL7vZo2E-cxGU6EkyYbIROZIs8BLSf1PUEKCxiZ8kJdphDuZ_Xl23fn4i_hC6Fl4VreFNEBsA-RnCqvgfwu3V0sYM9JnuFNMbTkNDYkgu3Nj7LpQfHGqwda9umbKVREjBVKMpAa0aupaj_U_SX9h1RLIhBULqUHFu99bH6SbCGglM4-Tb2ktyaaABkhD9fv4Dj5FBxEljozKUKdKiCd0DtAp9X966js09oU_vLSMpx_UfwHDjVfpbkOU2SEGLZ_rBjKmFGXEHMUS-a8UWzVm8bVAxcUWdv7xrEIGcGkm1Rw",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJD7sEwiuphYARIVsEQ8hcjS0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3282381718610533153",
+    "vicinity": "4605 Westside Rd, Healdsburg",
+    "website": "https://macrostiewinery.com/"
+  }
+}
