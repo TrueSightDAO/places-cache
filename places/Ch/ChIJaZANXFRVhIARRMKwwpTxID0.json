@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:48:15Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Silver Trident Winery",
+  "place_id": "ChIJaZANXFRVhIARRMKwwpTxID0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6484",
+        "short_name": "6484",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street",
+        "short_name": "Washington St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Yountville",
+        "short_name": "Yountville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94599",
+        "short_name": "94599",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6484 Washington St, Yountville, CA 94599, USA",
+    "formatted_phone_number": "(707) 945-0311",
+    "geometry": {
+      "location": {
+        "lat": 38.3997664,
+        "lng": -122.3588842
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4011460302915,
+          "lng": -122.3574434197085
+        },
+        "southwest": {
+          "lat": 38.3984480697085,
+          "lng": -122.3601413802915
+        }
+      }
+    },
+    "name": "Silver Trident Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1530"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1530"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1530"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1530"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1530"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1530"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20093:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111222771419628409861\">Jeff Miller</a>"
+        ],
+        "photo_reference": "Aa-ngMZX-TBcorhfB0h9q26NgqpQvjHPcpp3fy4j_c0JKKBL9V_m1nne6EYxAJFDOntZcOyBwJF2jIh6ukJNxHnEtsfz4aJr6lTu9unkGw_zAsLqwBsaZXKZuMuJ77SaOOUirgOEi4YUqfCUXoSoSbhdc1kxz5bI8ZdYP2l-Qkf8mJZGFrPd5kmr5meO4MDhTD5N27AMPT_WXNA-RRzYhdVOII4aCqjoNoiqK3EGYJixENkS8xY10xpsM2lAMEhUTgPrkzSmP7gRIOPihVwqoKlXiVGCQOlRx1SYaOnwOd1xrEG8V8pV583C3zJEcMIy-FKsBHn37Kr0ui3DAaHI3vkLI-rAN1kbR5A19oGQu9L_VVDU7CYTY3wV_BKIty8t3T8C1M1Nk0kfNMggXqmD_dlh8yWs-mjiuJ_KqKd4vSI_ArXO",
+        "width": 4800
+      },
+      {
+        "height": 1364,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100114737425811706338\">Mallory McEligot</a>"
+        ],
+        "photo_reference": "Aa-ngMakLZyuavNM3M9LAgdjYkjQlXJpFcMLOv6-WmvuhzJrTgh-lpUVdoA7VDRqv3p69WcHLuECGhHVl_ayDxjEJ1Fuq8AUtbdKHz0YLxx6HaLCSfFkxdxdRKV-ETeqzYVa2zqPGS70WXVFvTMGl2nM7Gly5W3eZUbYeImYzwz3BwyW9CqCAP5kPiD9J5kUXnqSJ7WX8zE4-1Iu_hHW_EzxPxUK3Gbrd6l6Y8R-6No_AZIiSatuqrGdayDnjw82QVi-GBgj61QVJQ65nc7WTFfcKtErZjqjy26FtXdjUXmQE9Dh2Y85ZcQNkrPn47hBkVbtBcl1r6-ugv7dc-9mVX1ZYzJCwGZxS9OJ4RrUfquBqqfL1mKvZjyP9slImw59bgUyJA_v1xz6TKVwzl5eORNifzHHWrus",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110047790736903431135\">Patricia A. Saunders</a>"
+        ],
+        "photo_reference": "Aa-ngMZKS_VjAHbzzJeQNsqLioxOZhtn7xvZ0vkEvoa8I1jULfwARqlmKWtO_ove70duUIWAQ8L3gjmoB2m0VAiPQhpp5SAPtabNFQApmVLAcTA6YksBw6PtJ8gWpOUKwq-HlGj9dpQJcBxZ3CaOmkz57jACrKix8mdcl9nRXLmMvrkajKvHC-_qkUS8LapNyd3KbrP_FIW-On0QgsP5nouYhWwoJg-DB667z2rhcErZ_jk1leW9Cdqwm7S5kZ32rW8VjAB7XIlM2ey0Rf89-L_kj7r6oMez2YS2KRRc0TQPMn8S6NONawtCzamJVyg6wtALZi5IOHbsWvI4RZHHz6QZxZiZqBaGzFCBeiXtcwYUkk_Qb5BToLuu8gFYwnKPq-emyRAHP8q3SbQqNOQFZJ6OxA",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100114737425811706338\">Mallory McEligot</a>"
+        ],
+        "photo_reference": "Aa-ngMZ6F_jPFq0v0dMbkAun7etugm2L7cXofygoNvSBXiNxzq7Rk6h3Y2I7THA9tho3I6ixbbXKA3RTRHct_yLC_SRBzLHzo47BzOfHqMxUrnvFKD6okVYExaadOw8urUUGMl1oL6PGOrkUOl8BjkL3Y63e0AmBld0RFjBbR09B27Nv_xfGCGAI6j5Ko_eMsWrSNvDwksFvMYHhA4QKx1sNC4DjCC75GWBE-H7-3Ub9LmBDWAowne7siR3-U-tzb91XLuWLjIthYsGyZGlUCZX9XBCZbxazbYd08WXb_BHjJM6tKV66wbf59dzsYdYyGLal5L3pEB06VTE3C1yOHQloLNCRKtld9Og1hyN486G5W9jNAKc4iPP9uxi7bXUUrXxFFlP2bqSNOnofJY6aptfWxH-diTQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111678269256482995658\">Ann Boehm</a>"
+        ],
+        "photo_reference": "Aa-ngMZ8qhdv_2_hyLfK8a_UDFqhi2_CEuKMt9QBQBFnbaq0EECPwLmba67e0Vqg1xD0rGOpjXTJXzuXcUJcshCNe9YjiGG9kfZPTCYRafm70b7Pn_FNV6SvkwnVOfvTNzpsz-5l1f2aTgHNFB7y1ueGJcJhiWC7w3J1I8lbjhfs5bczBoQZtzqf_MTcdIAl1anez2TG-DRBduX2W_NH4vvgq7z5YXcfbPks2vkwziigtvXM7hKD6pF33-fdpl2xTVc7TtII7u3JE09yIs4763RJpVEzIgLds6Nrn9p7BOHFFG9LBeImIUevbmU35yEyH0qb-JCp8Nt-X4Z-7uOQcBqzxVrAac2DY34LBuXN9Uywn2-ZNBDqTDP5YRrikB1B_j8DDgJai12wh3whcS85g8cMOVVBmCSp0oUrqxFjldzeLWyX",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMaSLLhta1odEpVIa-W-pShv58YpxPkoqZjljGC3YU8UxiIQb99XYMPTyR-nuRIW1rFkXSolaGErNCAqo1CuNdPnnEtjK5aFhRi7fOBvNHQETz0yJr6GCP7KqxMW2mNx_eY4AwWDQbGDlDn_gQdThK3KJVI9BZnEU951dCJPcyQcIIHvGhvR9GkBSgY7Q7UcM48ujJ1csG9oQq6h4BYaRYYlDTdHwn_TQuSEO-s7LtP6MLV8IsPCFG4dpWRcxHmv6GtOulRWGYwjcQWuU67zTuAJwvgcwenNSf5yC5bKXc5efvgVFABWaB7Y3DI8pcAm1TsxRgjVyPPKMZU_hZ77A6AxE9TVMx46XA2m9Nxulzor0uYOGOz4_cemQreE1j-u9pMHl6pTEwAbmDJ0H5o_X-0DrXOj",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111351833262842951354\">dominic corr</a>"
+        ],
+        "photo_reference": "Aa-ngMbEsbd9j36aYMT5Egu--vupFQu4S0kHiUyfiqBATZ23spBoJgkHcicnFjCRy1mizPO82-nuffOlzfXuhHMWT-uOlY0MC0XnLiztZKY7IiK_cgtz4vCBaDq92JlRcWJStkv1hqtmGLBvgaZxNE5yhfs_F648l4VxfASvJQdL_OKffQQtZ9ow9ojnpcXcg50wpexKw-rzU93EB6Dk-Xj3narJGRhi0Ji5N3PssDZNhydM_-VhlFFNZRH9K4jF3ebYHL6EMkzsjejDHns_AEfgBWMRKH_cbq5TXZtC3u5Nn6rg2ImYVLlWh8iLSyqPbiWsXzr1hvVUVF9r3pCKCBRcWzvYxbNquI6HSZ2WFmrCFDLFhBSHD2svQYi0reNTO1O1so_LV7o5rYI_nMnHJzlastQTYiMh2IM",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMYppOVfm2cyWATOVFqFqRKI03cvLBMX_GoNCD2lOxVsvgFBvhSbHQAUaZ0X2C5pc3amxZIA8UTbPE3SkHmmkDLaLIXsV02k0mGLCqGZTSOeFHyam-EYNHC7lsxFgyzSL60G55PoPd2EKuBrpKKHhDDXUxrRXCIwOQwNHhtxs9HBzI0qWzVeOJjluEx78VX5FGXEkrbEMhPa4Hq2nZT-zBU6XZrd3JIDgi9j6E_VOhDi8zt9tUa_pM2xu_ZOYqMfMlBI1ZLY5Lv10JqIrgNT9ajN0IF26qbmddLBAP2R0WyTyYWHVYH4e5v8q1i1uHW0SJDCZfSXmX04Rmaj6MW6ofQlGEWdNApDAphrMTOl-rYGDtGrJdAVnZ61lxW_i-uYdNnNGNZssIcwyJs8HHjjwDTK7_66wa4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMb8g1eujyjemD6txO96630B8W-Q3YLRxVFBb0sXwyfZ4lpKH0Gq9XLwP2oR61Ypq0tOL51lx4mheskdR-U1_RMxJunFH9e_68B0sUnLQ_d_lyiRnwBuJ2BjjBzPhaA67Td-iULzuwJ-A-8_2jLUHj1gtE1TV0txCYo9bQvS6fkJCesYIWsQl7LQDCvBU7HrruFjggwHOdLdKZ8IAarEvVVfAk8-zd3u1cn6K6ok4szdeRJAyZi7LxAzdGL9LKMuxqWtisunL3qalKg96n9kacKyRXCx-9M7YffTljeNRrMre7kKkbYBi0K80YeLJBLUgLEWlzvC9uMFLQuh-UNqSt5jb1cOU169zvXkqM3Pm3NGooRBT71LxMKdoQLZy-61UADDipdRuiEorE9K-pIKBxNm1YM",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113172523262210572834\">Manda Bear</a>"
+        ],
+        "photo_reference": "Aa-ngMZ6621w5Lwpvpg_f-fTmyWG8E4eoWyFEvr2SCv4QwwHeg4JRls1lmN6veILfBh84AlukIoF-lsZaNhUQ4DSyUaSmZs8P0_VLm3A_IaGbHnW9c0N9AmtjieA-Wya9co7GYKmsqBWuk09SXsC6mtrP03LHbKfQ3MpRg5nMse5QczPRoiaJkpfPTMe-OCOuB3xlcAJNW8tnjfR8Ecf0VUBucWVE1KlhqEZl5jxCH-duIf5ZZHnj6v781bvi4gsRbLRAHfBgdVoUXsIBFSue1z5aYWm1FmXDMvU9QWYl9zIU10OAqm0pjmOSR90ycq3n2K9Zb0bfalcXuzK4v7xzo-ZGrQ8jtzhQ6GwhqQ6kFA_CcaFcWHud4VsQaKNmWwyZygogo2kGhbVUUe9X0eWE1t_pLv3sC86how",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJaZANXFRVhIARRMKwwpTxID0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4404786056792162884",
+    "vicinity": "6484 Washington St, Yountville",
+    "website": "https://www.silvertridentwinery.com/"
+  }
+}
