@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-28T06:44:33Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Chandon",
+  "place_id": "ChIJ68bpHFNVhIAR73tuJWFqc8w",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California Drive",
+        "short_name": "California Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Yountville",
+        "short_name": "Yountville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94599",
+        "short_name": "94599",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 California Dr, Yountville, CA 94599, USA",
+    "formatted_phone_number": "(707) 204-7461",
+    "geometry": {
+      "location": {
+        "lat": 38.3957877,
+        "lng": -122.3651405
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4013144,
+          "lng": -122.3597465
+        },
+        "southwest": {
+          "lat": 38.395373,
+          "lng": -122.368462
+        }
+      }
+    },
+    "name": "Chandon",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1615"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1615"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1615"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1615"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1615"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1615"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:15\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101435014089205797997\">Chandon</a>"
+        ],
+        "photo_reference": "Aa-ngMZYTGRLL41Z_urxxtu4xQA15OItW83jax8JwW1ihT9tBqf1e7MGttR_OrXKN5hxzYpPkTT7zjxd47CgY03W6jJm7aJvWVZpor9RgExaed9nQBE3LzKGuqfFqvjaQfvxZAnn_aMLs4eJGoxhu7vZvuQwCDLI-tJXIumDjQVf7lvMjsGTk81or5lL9E4MSKBgs7HZ9HG7NfNMF9wjyK7RQZMLrKRHO1L6AbqvXKBreNvToWeOIOfMt5SM7A_eVhyIG4GAiEEfU4yfPRZs-tnPc-hj_uBqDbuZ8CUSHsiCTt4rJbfKjx2pxZ0UD1xHU067837pup9clGZ-S8QvW9Efo_CKRlr8zWs9GY-jYlrT1lzaMifWjP03Bdsrp4ab1DjE43G3NH0mOq-Ip0c0Lr6DVMak6FxYg9A",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118075183573212876510\">Elizabeth Patton</a>"
+        ],
+        "photo_reference": "Aa-ngMb87fMV1BX723FlE9REc3Xv8xrBmquCFtiJ9gp2lWsmOEBU6DwJnv_cPKH59bvCwPi9S2pCXfJYgeMoP1fva8sQU0u0Pzcn-tJqpa3TtT7E_US3-39-PuldNg9EqMGiimdp2gL_oPPB2sh-0tVAyjLGEjfXN0OJ0nqhEtYGmiMv6zUImoJcYaJm3X96GEjGCTfgBtTKpxCwreOXhjn6Oga-njnRgMp7zVodlf53wyEiOYftPSrGt6AAx0zIMzVRSH0nwGcqyJ8KVd1wwhHmHSqQbT1aFXwhSvY_1LEke1XMDQfVBU0tpbhpx7Ell5U2jw-b3fzUajM2tQTObeAN3AEqXHsW0n9DUspu5SAzI5TWXXgIUejtGxHzugmbNKJoiy8-Lg-QQOZWNE5o-RDmZMRCAKqj",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106858869338890533731\">JAMES Zyskowski</a>"
+        ],
+        "photo_reference": "Aa-ngMYu9hP7mPyRbV0t7tyfjd_hkRt-IGvVc1fwINr4THYs3evZZwMUHj3PNU6P_Uz-neLwJZPBmcu6Di7Dsxv7l2ldE549FGtqu3FCP_-qEl1kY6zLloXldB8dix3FFcnvts2iEDQaNf3GrpDK_k0t_MdvXTkYiBpGkDQva8_1II5yY3Mu2kDACiHGKZboOYOhmNmFkuK98OuRFBfHZzE30IA4v9jdDT2A3ycRt41qLT_CfUlGCGtpzU4GfTLXsatDEKQS4YOgPsbVEAp0IDH83ggy12wk0umM9wWQkBbaINTN0ojJADwUbLVsosqrYcbgHQ37WpBraKnz344HZbfuxefsBErjbJH7f-WuXnEuJZAgJpfixvFhdIz8x_rkW8NcY1gASh6t0fmwshhCV5eIs20eUQM",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117404601377316021180\">James Scott S</a>"
+        ],
+        "photo_reference": "Aa-ngMbt1ESc_PAOuMlKWbTOxa81SNg0MOulbBHIFMu4hsTdXCcHlKXpAXtE60YTDsXWfADa9N3Lu5ePgD5jLFBA-ajo-IRGNn3_biFlfzcx9DrIsjepvUNw1GkNqhtNTMPu4TviT3TYolirsAxLSS-axjabyc2E4I4eHx1NJz2U1sNrxxXlIFA_JJwN8GtSKSYlLzn7TQIbWf0HzIYDe37lUsjbtlQuYXZebUylxV2mcT0QS1kCa7E1eere7qhO9ooJU1jJSP2UBGvGg_iDpmN2NwdvuSO0dl-3YkWl9-wUmIDXtF6DXaO3uXnpcUBFF38TDZmmwKadQEB_i5EL6PXchB_2ICmqI5_Gggs6FTMHecUxh2fWWVvXLt0CXY1VoJoJV0GREBO6mlS_l3HJ5mm_3EqmpIZkMga5hjYeG2mFswyvpA",
+        "width": 3201
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109098835731164565954\">Josh Bauman</a>"
+        ],
+        "photo_reference": "Aa-ngMY6njNwZuz0pLvs_LivV_RnH563Bc7WFjLAm4XxqTBcbx_rqOQc_rEFPle6GlBPcDFMe_prRd1VurNUwcbzh2Uqtl3CXZRhG4zDytUCD0aXBkleLfL_67cuAV31A8PzghrIQhWXXm538CjMZJjPPWbw6lokoAC-FqLahlxK_d-hVoOj90TkvK9bRIUpIXDXkPAfeh13V9pD5gBNKLy3JH-nmXIjCPdP1astk4sFi0_TvXzArgbwXOzwhaDU_sNbUyx2uVuG35g9Pbe1r_9egeTOy3gqCeO2soecv9jP8Vr3Mix5KoDZ5AKXya4q0pxdFPEug_sDeJ-XiV7KZplh-BtUuTd3DW85MBTT0XQUdVCMPo94WMd7OVzo91v-N0-B550it6uj381aTguacg-kLKvSPhk",
+        "width": 4032
+      },
+      {
+        "height": 4471,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117404601377316021180\">James Scott S</a>"
+        ],
+        "photo_reference": "Aa-ngMZfR0vKjW5ZPazU6ZubuXJe39EnBq3exUL5wRxhtOIu9hCbzVeWjJ4e-rQ1CnRYgKGNbxYUPkfKqhaAWf-1db1KzQJaGFZd3ckKeEQfHTqSSCbhJTI-SSLSNLhyq-AMIZoLfz0hzht0hebnLcq1Hk6s0w4tUbVVVrtfV09wUEJ7qpaguhmnxUkucn66poJ9V6oNQ9wiJjz4KIaVG56JBtMnSFJA0t3YOahx0GdgU-6oLUpCVHc_sCX3dtMafC6qFJqmgaXwP_B8xPDi3xa9w53PzHTXSbVFs0q8dT-O-bmCoEuLztZlPwBW5eZeOzlr7ahqQwP3826IhM7HGGSb5hcObqxNrWADSRq8LIW2TfeYwbHS2aCm38wYGXURPteof7ZUAt4S2ixFqvt2nfowKyshiN8",
+        "width": 3577
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113310852936558489993\">Tony Pec</a>"
+        ],
+        "photo_reference": "Aa-ngMYsWDMLTzg6xiaG8qUxkgEGJtbh0IIdJHe0gmYUNS4cQR7v0rszkbGebes95318-ZO4DYx7FqVZNDLS9rP8NofhfdD2OToAEpav6D7JSBfl5lydxwb3TPIWTAxDg2o_X4N6sXCT0Vi-IwHiJidoQUunsyrDmvmce_n0UVmvZxGlRxpJjdwAn_-5DGtmssAvIdp7cjAlyO4qCDfptSGvxNOlrb3h6zK26bA7_KHgQfkyi7PX5Yj14OCCUkGoipiCXCPkwGuOF8QHjzbDBBO3X2RPtZSvpCal4qor40CHp73uwb8yUHfksRE3mgR8r8ogWk39bTYgM3mVx3gqKwd467cFU3SGlF8sa1LcI_A6sLfJW2d2oeqOrPZfS4E0B8S24LuaFJqBSuD4ugU45GhjUcmr2G1pn3etsh0m05STKSHfIQ",
+        "width": 1536
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100049532309304863904\">Umut Akbas</a>"
+        ],
+        "photo_reference": "Aa-ngMacP4OusGK2tVv5rn0l5I3CXRgaqzufBCmHyM5iJqcdDyzgVEAgg9hrUKQzo08cR_OGs8A4US9nC_ioSfZkpZY8eYk1VVcttTWd7yIade5ximYxtqTNpM8GrEmJfRIqUn0gIOliLotKNtIWGshshDQENdg4NUbTIJj1_s-ws2polQyv_o6X4CCi9RXKxLo6rav06_7191xwOaB4H6mOq7n4ZtIgOP-ZqR_edr44Gyc7OXUPJDDrK_pUQlMguqRA9ErlhxOVwVdAXCVEHp2DSSKmgZ1YR8eM2PWfTSqjii2uDJrfPhNlepCzIBqD0MMgzmk6jHK0vHVbKfvB0ysaHhrXD_GvpthZ5EQiV6v6nNX5L6KM2n-nkgwRyKVflX-jer-IawsyR2-6OQDuK88-N_kE19M-Q2w",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109001674910950870341\">\u9673\u5c0f\u55ac</a>"
+        ],
+        "photo_reference": "Aa-ngMbmKTlZ7upuFwYNIaGBYOykr2spp8_UzUpJJwY8-1es6aBh8sarWwd0CeqxwZrBqbDJnr2QdJ9U7atdLn2RM_9hHXHoTa8U9W3XGIjIVTCnIgrmu3YUG8vSQYT16I8iAtM7kDOK54YLQ0lH9mgqhd6bcAJXQogU6AzycBAeNzcFq9IPMBml7vdK8zgaTarlEzfFyawct-zAYziHsMR0KJUTpEqjb7cXp7uB_b3UZy19bZ32NoWbM3og6exv3itgj2NN3xAO9FLgrYkpj-E0P2Lhc96bS_VnCkUC6np1RRnGpbTh0x0KZvbPC3kUNOfaWlvbe0plS2IWiaMeym7fAp2dONLZBmIHvNApnA5A_K_Dwp6bq27LZKFj83itjV2YzhECNwhWghCnqFYF-_paaTJYEok",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114269785865084058477\">Brendon Taylor</a>"
+        ],
+        "photo_reference": "Aa-ngMaV1VQ80o1Jg3382saWZR5RriFjlToG1ZLyj1j2XqSdou7cAquDr_pbpwciT2IxOH6N4mmO42kGXLJ3UbT3VV04JsZpDA6sgE27QFa41lzS8wK0wmFheGgZQiJ6f7Nnjx-mZXnJGEAjWRLEuBe-2XQB9cyTln0CYjyBT745pXg15HjLl9wHbssSPSbz03fKuyEw7mu1f0kPgwpbz23Osxf44vGpkO5bTox7FvOJFh4pge-irZoCghAd_fUuD2B4iBR0zNVsruJ7oiXqNBjDVlaP5BkgWIaSkx31zcEEBS3X5q5gPVaF5Z29CoeOI4d1xW0gBFcdvSujJJ2_IM3kVDvEK4gD2FHazoTAE3MHS-HkdxTeG7uWbe3y812B81M1-CSGN_kI4hzz9Jvu1pm7Pq6Stlak",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ68bpHFNVhIAR73tuJWFqc8w",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14732235771531394031",
+    "vicinity": "1 California Dr, Yountville",
+    "website": "https://www.chandon.com/"
+  }
+}
