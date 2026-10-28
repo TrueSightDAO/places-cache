@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:45:24Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Balletto Vineyards",
+  "place_id": "ChIJESkhkx46hIAR_RC8Ya4w-gY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5700",
+        "short_name": "5700",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Occidental Road",
+        "short_name": "Occidental Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Rosa",
+        "short_name": "Santa Rosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95401",
+        "short_name": "95401",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5533",
+        "short_name": "5533",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5700 Occidental Rd, Santa Rosa, CA 95401, USA",
+    "formatted_phone_number": "(707) 568-2455",
+    "geometry": {
+      "location": {
+        "lat": 38.4231081,
+        "lng": -122.8141635
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4245299302915,
+          "lng": -122.8128207197085
+        },
+        "southwest": {
+          "lat": 38.4218319697085,
+          "lng": -122.8155186802915
+        }
+      }
+    },
+    "name": "Balletto Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106151177959900110929\">Balletto Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZvzVsemxKG3u4DS5aIkVKQNXZ5y46-milBlnkkhRjjIuU10Mq49HcvAQAFxyOe3TDJVVvrQoj1IJ02ERSGyHeSn1hW2HPrKVbIyMz8txgaFoVBemLD_G7Q_PrDRV5XafByGgU7pAcqI0Dvj7Z4PbzOp8TNsJIE5mv2NzcqMwPYThhJsII41M2eErtZwj-PsfU1V-eujA1ygbovt-9bqwwz3YyC-GAiuudL-yua09dBSTrUsgy41bouqjFFi-B1AEkca5t6s1ZTfRcZRjjTmtjTk7fHUF58Lk9X48WYeCCluWez7867OyaCW8E9tto1cqQ2iTRv3CU5ipYppr244pRO-ByquHc3C7URNPo_yq0i4gMMqdXH29vbEnJ-mjwCuxTiMB7YlDji5-ENwgAFcWP-aM0",
+        "width": 410
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106858869338890533731\">JAMES Zyskowski</a>"
+        ],
+        "photo_reference": "Aa-ngMZ_JIPRfjuyo7StLgLDT4MCUoTJ7ieLAnEkHw4yRFQVD5fhf7gm1_PEd17nvgLGYQ1P3xN62B5DXlOa-d9NaMf0V1o9o1-P1qe9RTTZJ5S6zcBW36cxZ6893_vRSvDR2EJ8o-63PASzIfpV5fduNpzbmMtPNGbOBZ9KAcRwx4PFqYyNOg8zjzMsgrX9ULJgp9YsA0hg_4L1IdyIGWN16H0LdhzWwsPv0Yu_FyPYBzLrHHj3eZcnJI5M-jCXVuE8anzwuBBs_Igv-OxhQ4pHeMvzdDy0IQs13Q9AeeJ8ShVGM8cfdd2i0FYsDoVRSaCMCUVLFFqk__A3DpRc5ZI3RdxHKy8CqwNfikR8-LFRI7lpojMB3YHhZp53tUmWwFJ2XETgOI5OWG4LEntwiMtzAt9oqP0K-04",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116052788828368160877\">Ann Lasley</a>"
+        ],
+        "photo_reference": "Aa-ngMYmb0krl7EZHo8p_CKxAhXhiypgZlJSgNUWG1B-ayzNH9YgqJxIqjUGGZ1umlieV9Z6rfjqc4D6l5Fza7fOLJbP63Q2HfoBY8SDzWV6613x_8iUFcYS1oHykajjOjrWIer7_-m6_80S4vqpvkBVttRQQedMCz1Cytl2u6ptS0n_hOrASyDkoXQjPCHT8TZwWw35xHKqWpwY5pK1OR2v8j9QPasd9UgEiSqCBmAcI_EIpLRffMUzCgm5iOIH0ohydnF0FoAEgnSlNzE-apbyYs5nIozMQhmM22Ln7bfuTDhi7we8_-l_ekIE7jByFE6cfgQKPbzm3kCrBDE3-xNHZ2fgBbsRWU2fxwqxr97W0V5xvMi3GVb7CUs_LzRjSH9v4yD-hZu2e6x_HMtyDKKUd_nBoRU",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100035126010443049963\">Ralph Hibbs</a>"
+        ],
+        "photo_reference": "Aa-ngMb4U_v1Sz-OMZ4nmIBsixCldJe72DnqXJI2fXJal7mJjmzXklNj4UQHH-B5dLizt7lQ6vcBHnRbKVTwdAjYC_1BWolXaEbkbPfWv4GSrcHx_h6AwyHO1YlxlsXwYKDHXnL8hy5vWaR5wW32HtUPgpqPReNjTfcFBE-ncSDyYKRqJ1OPzZYB7543h265QwdjQo4fdMeUd2TDutAPZOer1FgFm1ZM1exeXtXxQLRHrXw4RSlkLN5yZWWe9F-bm3I2F6X3WnKGUT5Rv2lsx8TKJg5-XcdIajPCebfQZyKQ-O8ad8xOn7B2qRnpn4M3NP6R_MyZxTPhj6aftfquk4yKlgmtTgY1XIESqsRvx--FdRJQ3gt7Dw56zme6mJBhGDn8FekUSg1kSj92q2Mv6uChnCw88CHZGGI",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104409072810626832319\">Steven Christensen</a>"
+        ],
+        "photo_reference": "Aa-ngMZlmyd1fZrKxlFd8mTJaCP4CoF3REeqBYK-MWqinSD1yeHQMhZ80SM0bGwy9Rx8IUji9Bc6Qe-jDuikUcy1QjnGqCGZUezpBIb21LKyP2kLyU1fY50pdmeMW4u9xEvN0aERQWxGcFcok_fGpudvG7ucvGMHCljHFi8EuawPG8E1Wv4JsdsU2UiUxJZoLRLw8NlWO4bJLqLr_YdV_pnOwva1_efLvF2XvDVT3MsvlO5RfHRj2qym-JYuyuks51D4wNRf8BjlMaq1bjkTQdEliwefGjh2wyDf66J8XEk-ErL7-do5Q7jBEEhAoslfMGC1nHusgUJKNM0du_v8hUVxN_XhKG0mg-nmrOoEBYnVHQojv9KJDYOO8r8cTUucHUmNh8FgpLbxpuwMbqB9AjDSeI04mjU",
+        "width": 3024
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108450505419528174677\">Food Travel Lover</a>"
+        ],
+        "photo_reference": "Aa-ngMZ-UV74cBTortR6Mm1kS4vdhoW_potw-CfqNFzO9Nhe1gwp5se37n-1ha8xneL5sctslyDnCj-7aIXPHzzqQgoM8db7sepiAN8QWSywdrPCiX41ohPy574KtGVY30aPopyM8WWCtckXLxEWViU27wDOsApOQyDEFVHX6s78vMs7LyyZpISiiwZ-F-cY_nvLap-Jj6rShKm3xK--yJyErhFOXJx1xWA01CvwPGLppIWD3BO8sx4BmXPX_yt03Pw01ZxCVdd11ZtLa9A4tzqIFMIujNtu9Dh5xRWo7ppMTOkojNWiWF6JatsFvgGJz0lqXjx0wUjQfEorH5Cr1SJbJbBUZgBTdi2nlqr54h2-mv5r3vQKKxEzfb2pzhLciQxvdtJN4XI-NzsMofkb_nJqHyOenn0",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106639738310942136443\">Jennifer Z</a>"
+        ],
+        "photo_reference": "Aa-ngMa65lcWEubPN0ju7CKTwfXB0qIMiFX9JwN2Jq8Kb9oytPDaPrVsfI-sUnzVIWuNhh3TWI5PLGlURRI7oj_miQSPb0Lbhib60CIDQFBK9FojLkTEcIa-IE-r8vKR4do6chJ4tzKLx7sNqBpqy2EMIIc3xNhI6pcY3iFOZWucCRZdgVScAlBbznE3u0bXFqDqO3IRYXmZ1ah-GD5IsYDfRf3KJAw07V0D3nAKumWcGi87XimQKykoPxBsuXqvyf70QvbTaMIoydLdklTVNVeL8fogqxiKAlWVKZNYuQaxHUEQZz918bwyURvQx96SQVkX3auqqRG_rlwbLmR-UP0_GCTBsBFJ2_RBdL3dVpaBqQnW1kx4PF1ntiDJ2BIN8-zUYacpjWSWdZVgrvjx-RKUlQ4sTjY",
+        "width": 4032
+      },
+      {
+        "height": 1667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106151177959900110929\">Balletto Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMb7O6MIhvKP935sRxOqKUfw9yhT5uVURIiOwnYmiR4acM5xVssedWr7SuLGaTTr4fEfE-8AjLtOcG25nYTHtOo38Ow6-wtjhUiAG24m0ml-GvbpLA309HsF7NjffErUP0IFRA0dT0KCS7rEWyY1YjZCyvKg0IbpkyS5feSbNptNcAc5oU_rpI4g87bTkO8dfNKBfLuVokRMib-MiUax48oBvUMB_MpJD7ptgVQex0UyNupysyl8LdlFwx0Ob3LzO2FV6KTFedmTmUzmbIOBBOjdGtj630yV0o6tYzGwKlFWZnTB6Hl8EdfPqOaD09T0xUpA5FGlNJfM8ArSjdXTHlBA1C51bqD1m6X_Ov3srrC0Ra9D60AqP7X9jT5geMqv3iyRL9Ut-GMDBQUGX2Vzdq68fB0",
+        "width": 2500
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106151177959900110929\">Balletto Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMaH_3WIV-nIh5trb0n_S1iGg36QYpJPIRrMTz78QolWrDL0ps5tfHFJU1bsMee6EzfGOn-CSbiY88cJjqrmcoF49NuVEer4cQY0QcxAVMBG830AKMPKvZVpDQ6WOokc0E4P4sCcjCGRK45tn8HxZeJOAr6W1Bhg2mg1lXh3WgP_i-jjCaCDC9HVyoEUWA7SZRb3SkLgvoojki5ogOa3Itj9C5_oc1xKSdbbEi7Gink7TgVjs0BiskgWbcBrOY_nc8h-2S9H_QlJw5Av_x1BWmI91CRZWioQ3Nf49j2B3CCMCS9vcDBcEHhvFnD_XeWfJqiZ-32w07SO1EguLadb5e3FGztuNlXXmqSVrurbcYRyIWy5tGObQs5fRfbOK5JV06HW1B2SoVpoF1Y8y1xO7tppcXY",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116542072279006783850\">D.Orman Cummings</a>"
+        ],
+        "photo_reference": "Aa-ngMYHkjtPkOcFwnPAJs6N_dP2P_oMX7dIP8K5SWzvZCPJsqquIQiUbBwSSfGdMxMqeaY-n-1vIQS5JuM7EuiT-Z2nrHAdEWLRqMRyI-Cu4TR-msM8LE_L2rjHiw1OpjW6SwhKYIsA7QQp3WorejC4qEEl9e40QwCZdy8s851D94Mgv05pZmAwt_wjifwunFVXbm7nwGC_mqdMwr9aYxTQgYNryHSZJj_jOUNDdnVw-WoX5-1Fi9N1pzL-2QfXoUZawRmlkTjgVQaM0Cv3_cq5_2E5OasWL-F8GuUQaGDXGePSJbj5yfZSObeyCGs0p-AiWzfYfpyEywjVjjxeGrRjTZFAuN_OmQTXOUWdd49i8g8FhKfAiRruqnRl5bydYP0kX7d1cUEqE02-6ZO0rlR1uXu0iny2KSA",
+        "width": 3072
+      }
+    ],
+    "place_id": "ChIJESkhkx46hIAR_RC8Ya4w-gY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=502767833927389437",
+    "vicinity": "5700 Occidental Rd, Santa Rosa",
+    "website": "http://www.ballettovineyards.com/"
+  }
+}
