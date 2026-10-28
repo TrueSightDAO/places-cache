@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Wellington Cellars",
+  "place_id": "ChIJKQ6JoXxShIARZpmMKlv3mIY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "11600",
+        "short_name": "11600",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dunbar Road",
+        "short_name": "Dunbar Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Glen Ellen",
+        "short_name": "Glen Ellen",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95442",
+        "short_name": "95442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11600 Dunbar Rd, Glen Ellen, CA 95442, USA",
+    "formatted_phone_number": "(707) 934-8604",
+    "geometry": {
+      "location": {
+        "lat": 38.3884178,
+        "lng": -122.5280014
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.38980293029149,
+          "lng": -122.5266651697085
+        },
+        "southwest": {
+          "lat": 38.3871049697085,
+          "lng": -122.5293631302915
+        }
+      }
+    },
+    "name": "Wellington Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115501857999921712304\">Peter Hall</a>"
+        ],
+        "photo_reference": "Aa-ngMaTOnuhh6pRH54INI8wY1yPmcp0Iy32E1cnx7pI3RCT9VknD_51PJUSXHxTW-zkpI_g13cJQG8dYW8h9nUvUcSo81PMRm_UTrQJBLHGa4wHaDcrBjD6A3KKbDqD_F8qA2ZRJ9BQrw4BwsfYq57ePofJRLX2uCIDRk-E6EcWUEQn4bjA0qqJHjGljZpqpRFUJF6FrMd3pm5PW1Xupncd0DQ1To-4EY1EW-inEa2DHFadhvuppIpn8Vspz1l8NhuO3b2YI24e5fieQEaB6C4ctLyQcr2UPLvf5VGpHQBqe6YFg_PMmXbPF357p-IVrz7uJ7HVELDjlVbPwE11En7krSDY-_BuxVoEZSCSh3RM6KLrf5nr-FmFWNoPzw-ofHT7k6NpyjAjJOBQvfDYpuctwTHEmR9KMlnwrtrfStTJtbzMRw",
+        "width": 4032
+      },
+      {
+        "height": 2057,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYJsUMz5hMTSYCaUbO7RcWrAZnogPVUtGtq4SwrDRiOFqfrRqFerp5BOkJ_ZyHjFvzVvwNd_sLrWMeDUWjQ4I3AuuAo22ISHOBxstdK20fxH3xQmhjLsxM7p0bOl3P58RhxmGEpmIleHK5-qo_JnHda3aInrVbaoXLfj5WXsOFgGgnhS3Z_qXCP1JDDkFh3iz0w-ZO9FWKf-jCJ9kTs5LtHRozGw2dj2SB_jX8qiKwd5QVASAnku_cz-aYUKEoeTuHxwEXxNk6WWz-eiRoRSi91bbBUJlBUAJR81Qvx8GBHVxB-CC8_VHlSOXId75SoaOXFK6wcde_9KcSKEzoHLyMmvQPrP6QUi-Tu8hzHE4GWkVgOiMusivMRWqPZJc1HABlwDGHmIeh2ulQk2Zo9aag5RxFrlfk",
+        "width": 2678
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109807413456206729540\">Kevin Ives</a>"
+        ],
+        "photo_reference": "Aa-ngMaJCVkGIcS-GAtVvTq4EWnhzZCDErgvVGhFI1H0rbq-4YDhBtXAv5k5oU6awSpUGWD9jPcbcNq8k9d86F3mQiZY9YJTucHUxsZ0AUZb6HOuE3g-JStMGnoT1zFf55IRzTRZMyOhGpNO77MDYrUcl6hb0P5VrrtpC8keNWyuUlKn4rlVkmsPejBYYZXNxmQcsJLmxWZwFhhwFPFPQIw-RRaY5lyt8aOYoXpiy-x0HLGJfDtV48uDbne5q9DG8HjsPTYEIkK91mspzokHwnDc-YMoii8g1DQbur6FOUMnCadLieChEMggNF1w8rVxg-KsHmziMUHM4sJr-BE_fa5jnVeNlTbSCD6gN_paQ_A427oFDu6dwordWcnef8UUOo4m2YQUyR_fVYabz7q35894nucXKg",
+        "width": 3024
+      },
+      {
+        "height": 1238,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100614189218173970777\">Wellington Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMaJXDkjPtXbLS8JmLnZHHzqNJYT9ibargnBMw-sMHrhmgwgESIV5hNEIgGNX7hY3vfeUuD_m01JwpQK2UlBteJ7AvNUf9sFea8o1TQ-Sz-N2wQys-au7wN1g1KvOoewRNeNp3-dYl4SZqCCPZPhEemBPSddbgdhu_PW81iBoSq7ML2FvcQjls5XAFX1NxueyoZF_rWSBCvaLb_-etdyVJrsFbNzv2YId47od59XPFjaBKC2vZWAjsKs1qKROtPeM7aMHsSY-yay9GxItPHqRFSrxN9CptO5-7a9rm1xIV2l1gzszbDTvGOyJQYb3dYOv4e8hkQL50vLXSWD6yFibYD4ArchG6Z750yGdf7_A7xQsPPd_4QoQCfoxbXMEIS-KeMfVUGxEZoh4ASA1GcqIjAoiutN8Y3TWkFVLCCKIQ_nMg",
+        "width": 2048
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109807413456206729540\">Kevin Ives</a>"
+        ],
+        "photo_reference": "Aa-ngMa4zxQlGVAD5iZofhCUbN4f69rlcCAEUOqNVsjKkkWoTCDcduMlotD163tK28j0GFqPkCDzKU-unU8uX_3OrOciaNnJm9sr8Arf_bBOQRPqWTYmAgd4RTRoFoAZeF_Ck4gofdsQ5KAiodvteHEjuJVkXxCBWoOwNJ0yCmFXkHfE8eLyBC5WO8MdCVsA8d9onXN9PKNnfPrX0sDgr48tDI03dnafrZ07KvjWVrbRgqZp7SbhZ0tjhoT5E-Kg1Yen4u0uFI_3ixQcc2CXhQk3N_oV7UB2urA2OpUbRlatYIXenvS-Cy-F4Q1HbOpdJbIJAXaaUAZCRSi0qHjl2ZzFx2C5AHhD7cZcaWwxTMrt6YFTc4oYmPeiyf197W1NjjNolYCJLbX0P2pkx_wv9lcxjjLqc15NFkU",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104336812466658582906\">Johanna Schuessler</a>"
+        ],
+        "photo_reference": "Aa-ngMacdPWFjHzBNSW80_jC83GXuP1fM4vgEE3xH71bqsI69_jba4TMDE4x3X2OuDD-8SF3WPYVaBHi1YOfw_6TsT4J2IA1JqjJ4c2WCEN_KL2FXJVYBjpEvi81d9DaHmtI4ukKm-mvnSM8JihnMcK6pJTR9ZKSWCFGg0aryw9JDxkjh3nMrZGnvYsgnFbiUUkI4-xrnHXXyAOWNlHH0rZgQ6Kd8o1q0h0xWaa5stdrC3M1CmgqdjrPp1PHKz_CxxNFIRnTbR9Uv_W9ltgq3M9PHPcF6aXvobeIj1V9IBM2giMLEBi1fJAn-c7NDeNHVYz7oUXb8KehkmlrQj4QrF5hvIpvXVQ2Iux71jVyGswfjJRT0IlFf3x2M-tny88RYvbqFRNpVxjBi-54tsdpEJgmjXh7kJpBPPM",
+        "width": 3024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109807413456206729540\">Kevin Ives</a>"
+        ],
+        "photo_reference": "Aa-ngMYQJKsMdGk6NiyqP4kYy9Vn48CfgcHSFrT1-mYhjXvsC3UOTx7bmnJXoQjqHQUha2Tfa_LEFiWOWypyDs737WSu4IkHIGrNUrtEM8qJe0i7oaBpZAOGV2xoPQ_Fi8vJ4Wbl7Mj-CsGe0aD8WUxEomCO_yX182Um7lsf2WcTy3GxKxsr8ufdJD6y9m8ZDvKB_ZsjOhAc5ZH_bUYR7i5UHOdYq_sRPG5QmwkB99bX9jBeTbPL3769uhKdh6pAuGAjcAAKLtiwhgvQKV1TUTTbOt0DcY9EFMSwIUAq39cD1B7mMw05vtazyjkSbgJqpNhF_BbdlyWt9LTP0TPkLNAGt0Y_92XdWbpSFoY8mTujN7zo0i0wJWTUQz6o5GDFiNikEk35WVoO2iMoqo31SZOxjuX0h3fNmcw",
+        "width": 2048
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114582034286962790497\">Emily Crutchfield</a>"
+        ],
+        "photo_reference": "Aa-ngMbfJ3U6nu_VEs4v5ATgbkMhKHKsUycsz0LhVF-uvcLAIDGeqR_R3ix4UOPYOYfCnAcSq5wme03PyEyOIIPG8GARHyplEHEWctKZE_gwV8f1J-G1yv54xDBG8fulqgEEQCZUGZUPz5YMJqIm-dmVQmhnb0vfN65GugZy_0YxWL_nzYPPLNlkNwJGl0dk0JynjIOe3nOMnWLww4JsFX1CdSyEn21nx9jhgv_HKpz1_KvST1K4UzPLW1aZTC4CnFVRyTm5lH7bv9QYm8XuAj5u8HhJwhxt_jBLEZ-tV9KgF9e_MgI6IIs0nnxM5SZUBW6huVPypUvYMKoCVWaarMjwfAVoxxVekLAfEYBSFBOg3u9oBOLw-XdczJJ799W42coUdvW1bizHPRAJaOXiYntV6NZyNS17B_A",
+        "width": 4080
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100614189218173970777\">Wellington Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMaNaZcfj0OW8K_Y_yPLTdf8O78UVqXCgdyW1gP2SPZq1xlapTDBFx29zR7-l39bdTynqg6-MMMBBvCqz5ZL2ec3fOZ6Z2rNLPIq9ncdkXn8yCwV-3UFDpbenfE5qnZE_-_3dsCgkRT26tOMgoWWtDT8c5rbi0RppLvUmI39ROhrMrLlzB42p0dEIY34Y3Y8mD3Gjm18FflsYxHPUO2wV5ta4Q2896fY-YfLnv4kABPmtlmOQ3pBbnuefBiwZuWjTZEdOg3Bcvz4jpBABoXSYrUDcIXMYZ65Gv09eLFaTdTNi6UdRHZeOLe7_ZRADJsyl6oSMDQk7pnpf_u32JpYIkMe-EzwsW2bbS-IlGfzcLnQH-OMLzACvDJ0ULVWPCCbAEOsyceATdgCDCFDzepv-RL68efEACjsSPGYCWFNLpuU",
+        "width": 2048
+      },
+      {
+        "height": 1311,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100614189218173970777\">Wellington Cellars</a>"
+        ],
+        "photo_reference": "Aa-ngMbZOdgbX9qfX-1b2x3YhQODdPPl_z7ZIjQiZw_4xl_8YQcLvPFf-YG5lOhuYgZ_Iad9xND4pKWgPKvyaeovcmkDwzar-a8zXrr_RnPzJHwPjbx43i0Soj1wswtg-h237r1Y2BtRY4LdsyTiqDQjlgewXPomt8N1JGsLHQMk5p7zbzkbFOscqlkeG4joOTjpXhaPQUGPmwuWYQN8sNZkYxQqdBVD0sq5bR7nvfdO3lv-vo_nb2kQ1xzhNi5NUYI8kebg4cGQA0OmihsCf_y5Sh58IBuBtq52T7M9msvkArafu15YVpP5Ni-0vaHuluk_6cvg2UyIQ-YfVMmJJplT6z0H2PGYR5o8gda7agkIaMdte-bbK3seaK3DRDRTsagtE3tfyCSkM6X3k4JCRjvCfDocSeyWrwaxT2aS0loiBL9b6g",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJKQ6JoXxShIARZpmMKlv3mIY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9698773768470305126",
+    "vicinity": "11600 Dunbar Rd, Glen Ellen",
+    "website": "http://www.wellingtoncellars.com/"
+  }
+}
