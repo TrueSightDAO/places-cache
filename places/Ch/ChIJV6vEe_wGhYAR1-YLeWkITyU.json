@@ -1,0 +1,272 @@
+{
+  "fetched_at": "2026-10-28T06:47:19Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Platypus Wine Tours",
+  "place_id": "ChIJV6vEe_wGhYAR1-YLeWkITyU",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "182",
+        "short_name": "182",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Camino Oruga",
+        "short_name": "Camino Oruga",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "182 Camino Oruga, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 253-2723",
+    "geometry": {
+      "location": {
+        "lat": 38.2280025,
+        "lng": -122.2545071
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2293059802915,
+          "lng": -122.2531064697085
+        },
+        "southwest": {
+          "lat": 38.2266080197085,
+          "lng": -122.2558044302915
+        }
+      }
+    },
+    "name": "Platypus Wine Tours",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101462639320311837037\">Platypus Wine Tours</a>"
+        ],
+        "photo_reference": "Aa-ngMYa488uVk42KUecQDsVfiZ1_qQK9coCzozoYT95mi2DGlK1KuTOnYfB4bDmoORAow33XAgUKfdMDXvuslkqwTZi8QaIYlZczSuBL6juo3v-4MPvoMXd4zHs9Z6CVbMMf0-iqP_uGXWC5MJ6AVZ6ZcXguNH5xZWX87m6BV92PRgPS3g2hrMpkPogf2jz11pP7tgJaiWHrK-iXoiao9izzbMjy8kY_pputG8549bFvj0_SmIVEN6yokg9NSBjNB-gSXi1Z1r-ghOWXxq8TTJoZMlYn7Slel7GdnJ9nNlYpIJJFepFoXK57p9aFuMgazP4q4UICmG93BTKUk0OTzxY2p55HbPLOZS8XtcoFeTwaj5Q1AR5CtS1MG40OTvC9R3c_cZkHuloyj8TJzTWwGhiLsth63I",
+        "width": 1024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105760389045000022418\">Marianne Risley</a>"
+        ],
+        "photo_reference": "Aa-ngMbdrpDxAtnZy4x5l84Q7DRyLf9Dl9TM40w1E0zzLzBbtmut7Oqj5tFqcenv0foRoa3cB4IisCHwUY7zAQKkJtTxiFgJg0MDG-zM9Ql7pTRIykBmixJCRJNUKeFQYX9mEsNmZMm49pL2xqBPfGoflbsB2VNKT8LiG11SOhAHreoClzQsGFGxW7SM1IYElz9D8QAyaIyoB1hYsg2CnFmTIlj73E4L-zFPSl3GRelqrqXMy3aZFnwgVTPooyu6rP5LKu7vrYl013R5IuvImD_sS3GBj65rRlpJAS-3QfDxgFCkFt9UQuPeSkG6LJtC21kRNO8ndkMJrMxGpA2c7SuNVqLo-nOhOs8gwmQLe4-YLTo42sQCmVXy8DVLvo7e2tB6YwcjSVKNuOchfDrqkpWRiFAPNYupkOjPnpifi4F_QTQDjg",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107402719025157713693\">B \u201cFlorida-DATAGUY\u201d Tab</a>"
+        ],
+        "photo_reference": "Aa-ngMbMyEpIaTLk8V3shkIfK2TzQuv9yNeTGHvSBFxgDjFFHbV3F2AMBFb-7eTbDxkqLD6Qg6VsfSkTb1wdx1Qgs8QZfJoOtA9aR00iEIxJA8LksNlGOpz5Dr_AFaV1pdtd63aDLLxuNQpTjXHySfyEJKJlD_ohi7jZ125aFNCyTjlgVQtboIR_7Eidb_-dwCeWwZsRV3rfvItcjCXO6jrh-sqRh2OgHOXKvTFir6siJDaFzLi2eiy-5Nvb4eg2Ti5bipXYFqjdCn6uXyAh5blWBIf-_T4zgIfyNI_ni1knM5tjhfl5-8Hg174IswIOIaLLd0FYO-EH-t7bP7KEjhyT7vvZcZOCxXpIefWBuMMQYVxQf8jnjlh0OlYhHCcJiRM1NN6jrFmbyQd1QNw9F7JOHbULx2frUiS7dIKTbPplx3g",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103124384721749070922\">Angela Beauchamp</a>"
+        ],
+        "photo_reference": "Aa-ngMbv-vG7D8R0qKu9YrpsHfMkIg5EGXOrH4eCXb17NrDlk8G8y9VRWFuTvVE4vUgqzgW0M0CCb4rx8JgJXQf9-MmRAU6Otq-N4XNiI5pE_UXf7J45cevG1-9FypskY96GjFZh1AeqPDNWhIwNan2WGEcgLkIDInzBAHM7QGsL-kkfnlz9ADd2MtVlpSMnscgXQ7PWdkOoTzSzkqgTaqJatIYdy0n0l4Kx79enSq46ST1ThhFlBvqjN-p2dLieVgV5sare75EBSt4lKq2E-DxPIv1iXr6dnx_p-OmkcZY3xSdPSubCcv4UDctfk85SzxXfwIwdYV0Qmn6nPs_LIwaiuwKQpIjgAYOFxA5LfBrQkQlOD_loE-f-CJRU5HHlPb8fkTJPEPxkAlJC0W6EvaUwDq4X4bm9CFZurqFeJckbYXCB",
+        "width": 3600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108393534772206126939\">sherry sp (Sherry)</a>"
+        ],
+        "photo_reference": "Aa-ngMYPWKYeBCz2OdxiSGlDZwWLnr8BepSPDzgRJgRl1evDNq5vQm2C4gyG_aAuqFx0X9SD7srTRIA77JqsjqBBZgdbdLi92LFIQblcARcqukbsbYth7ZDRHeOc1ZZP-uHKOhVjcsM9vJfTgbUxI4Jog_Pm09912BgbR4v70jZ9_tcL_y5-EtsLt_ZAkvtJubzjfPZZ0U12kYMaGasvmGk3gaNp6P-zB8FfbBxkMMeDrtrInJ5jd9Ad3FR3-xe02eagKa5r1EcgWxMGdumQ7ohx5FgvwX04QHfOIRdCSJOtzgbE6A_lSsnNJwYQCoVQQQ7wiyvWHOI2Mv6Qpf80tepUSCJ-hJsZU4yic0GUBk6e_XnB565W57XIyyXhQNFTjMLLWh2GHGKU81WXC0RzqdLnd2MtDcJj8EP1VcKGEi4ncbPo",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109733960387761060191\">Lisa Corbett</a>"
+        ],
+        "photo_reference": "Aa-ngMaHjXsHSWhfZ7fbyVCMjkrVMUbT3H5aW50UDlXVKg_d222c8zVt0adgoED8J0TKj0vDHNLyFoMMhQN0_u97-vhVjUPYNfGUtLdBOUjOjINJqQIsy8Ld-OuYr9LG88IkGsWUfTs7w-gzfwtCBBknrA0FHPjNGZ2ETzVUCYyzHv9dt0L9wAET08IRGv-tU8f96LyMBLegAgsWQjk2AZ7LJC2CRWbxp5vrVhS4-RC7uZCgwMX7ZxHEqyWOK8xipapUZrOmmE2uw8X7lgDdWFVZQ2uETw9IetGsKHcjqRV_4HBpUgx6Bxo6Eaka1DFX7g2wqK88wCuAFTw5YxxTtjipE0rQZTBNbQX-YbpfyvJUPjZ7_YshnK3LSv1beqMSNVYMxj3eVjMRY_NmePpKHqqgzJVs7nqk_4hmJ_ZOBAibPrDYXA",
+        "width": 3600
+      },
+      {
+        "height": 1106,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101462639320311837037\">Platypus Wine Tours</a>"
+        ],
+        "photo_reference": "Aa-ngMZTKWBIqdHE_aRrpkOhzGqwOz2FLgeRfhC3EMiCVgTfkrSrM2iGRUZ3KeWnRv9SvQyCLw7B4dAQI1FjKkUf0PGwoihU1zrDSZc_g1FBz3Vw42jgEMwkwr3wvladh23OVbmo9nMD63N5HqleDyPIKhzPRtDeuGLOrCuzPFY5AEVeX_b5OCdkV_GfKjgF1Jol4bz6IvVSMUMy9HWzQFEJuvVxxfZv9KkNHL56W1hg9R9cjnWCmpFax_BkIcxdQINdDkZ62CbbtCDpg8SaLfDv8C-b8lf2plFLGtzxF2gPyFKnygXGe7vQYI6gRgDZDOt_THiw--gBI6E1qc6cGnborXYx4eHsf-m0U7TqpRItyhfpBkgVPfh38sJJJhOV6g1xJjF5MVBQ-ue0o4iA1IsJZVkgHhtEp9MYOhJ36miGpRLk3A",
+        "width": 1474
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107402719025157713693\">B \u201cFlorida-DATAGUY\u201d Tab</a>"
+        ],
+        "photo_reference": "Aa-ngMY1MG_pPSdfC3khiUblZkrWUvgxzzGrlkV-llfemvjLpgJ2GbYceesH0LRlYeJzd1tvo4BzcMBeSFDHs8UW6Q70ywXwjABxfrjC6vY-Z2CPlxv6UthFggwjMyb2P3WVNZu9hObEJbhfnfOoz06TSTzu-U1Rbz6J-7LcIgzcDLbqaC0Ac0DC2dnBO8SIEaD-XWKS_B46qaoaAjqCkrJ8PHt9wA0FkEEAPfwYXdzGgmSQOLTwYDWMBzFfp2V6HbZAIfp6RRCvF64YbLSlbkB9RND0oEoocR6MjaOHY307LgqysaVxh0ZQ1jyoeIEHFw71uoRMcA5_bqrCZeE7UdYykLh14C-lMfJ-3h0hY4c4ESs0brJyI1_Wqm2VwLjXjx6YSCvI6k13kyU79AiQmq5qrsaTvulHYPd_VGDMZKaEql9ENw",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108393534772206126939\">sherry sp (Sherry)</a>"
+        ],
+        "photo_reference": "Aa-ngMbeBhxB0HKxF94vJx6aciXmrL2ifCPiJ8EzDN3XhwWd0VcraNkafx--NLwH-oIT5SquEZbHu9vuU6cY9ZDuxk65lJ-K4PtC4QannOlcOyKW-Ix1JNKxc8b3Jb66hN_tgqV7YHqW5IpqY2nFTz4kpZkwi6SLEfhYZpiOmatuiiKdEPy6KxDiYGGWxutcQqt5lc2gVWczJO80F9rF8zNlleVfQ0iXmcFjTHws-58OwQxmy4ckEwOFNuUInTZ9Zwuuog2t1W_EI493r-DpIuxGHhuUcT_e3J99ZucsDdMGWuV_TU94nTGZqG7wK0wmsz2pXzg9xg4-w541RGKV8QYyzgtHjRb-zvueX9Cxt7lPt3DvrjqjuU09Jems273T64I7VTBll_-CK8zxT5maP0u-vndY18AMEP9tlj9gigskScqWJw",
+        "width": 3000
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110398614520182855172\">Rachael Stadterman</a>"
+        ],
+        "photo_reference": "Aa-ngMbeLnNinEPFskswymSRyKdXqyC16mLyg49p75skWGXW4pNbN99KtQ0ZZz0a73kRqZGTIAClEKm9lN5MPAfJUzS9vqN38xlxEvngrkfinuCXe77MDzlbJmNA6xdULg4bjjiFvq8xWt6DsMNBBB1tqP2cV4zSFbJyEFy9mv9A_UdYXhWwqRJkF1TjHNZbWr3b8edLYfyyfYY6r_tez8BWU80VzedIYSJC7W7TCPE-fu9przRFB7BukumXIlCF6Yu1ScamvLUONKwMqvDab32vgtcfjha3eSrjNJLDvwW0vQ3fCbhw6wjacJ-fAKZaPwyw9tu3AuMm2b9oS45kpmDESy3dYfSdFREKeri3GE3jB5VPvPxuAsRUrxh4UJVB2LOx0Vm1XA-Bp8xZIoRjTlwdSrQL7AB2dDeyVtEhlYGExFe6EA",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJV6vEe_wGhYAR1-YLeWkITyU",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2688376751658886871",
+    "vicinity": "182 Camino Oruga, Napa",
+    "website": "https://www.platypustours.com/"
+  }
+}
