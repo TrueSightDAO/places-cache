@@ -1,0 +1,280 @@
+{
+  "fetched_at": "2026-10-28T06:47:58Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Sebastiani Vineyards & Winery",
+  "place_id": "ChIJZ-i26KquhYARZDyiv_FI2VM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "389",
+        "short_name": "389",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "4th Street East",
+        "short_name": "4th St E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sonoma",
+        "short_name": "Sonoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95476",
+        "short_name": "95476",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5717",
+        "short_name": "5717",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "389 4th St E, Sonoma, CA 95476, USA",
+    "formatted_phone_number": "(707) 933-3230",
+    "geometry": {
+      "location": {
+        "lat": 38.2932201,
+        "lng": -122.4493456
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2950275302915,
+          "lng": -122.4481060197085
+        },
+        "southwest": {
+          "lat": 38.2923295697085,
+          "lng": -122.4508039802915
+        }
+      }
+    },
+    "name": "Sebastiani Vineyards & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104572542914144232457\">David Magnuson</a>"
+        ],
+        "photo_reference": "Aa-ngMbItziVWEMk6JZtj7JL0kYrXfdT9YkXwDXYXuwwVOhVs2fEc_Lj2-fCzzKLRlvr8VXbqjNogimbN7vJ1qAV8n5YdNgDPeD5buClfHFXXOpaX_kgQyJzOGDNcTJtfbJheOGmfqgX_pMLJD0mkA9chNTXOxiS2MS8fBR6Cw7dUHjpqO-lDJDkoKoDpOlSI1bCx7gZYhU1pDr7aNcvWwauEnDHg2gauX_rjJNNWPNr5xPwEPVlwP1xNod3HzkFM3DVHJKwW3aDJx1r28GApt5gQ9BuLYBMsICVZC6-KbAfpnP3D-ielI9McSrWI5hyFZRupojubGHEkKOLTce-fACMYvobaCZ0iOvlQMAHqp9I4Mq0dREpIv2gwMRLaRzylR-SjkMVg6zQA41uCrwnCFXg5iKTUDKXTVS_qk-2r5jjbLMZ6A",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMYAKqOt_2CEgYVxD_fUy6CJnOAm3nIYVhy8ngXAMcwu_4p-ACIIC-28LXAyYErNV6Mw7uD-eyjbuvGqW_RFedjx3GbXy-N2Jqonb1fDXicX9Yoz0E8dbZ7FgbDJJp8XrsPAPg5GdrPFKV4GG7ZYYrY_x1S7yC3OGMEuBDjiTSSp1gA5a630qMYSa93ldI-ghYIQJkfyFfRZNdHXnV4P6YubvtcYAUadXoM_rHN_RfFJHZYQploh2B0f44u1-SIns_5snpkGqCASv5r4tjtxms3HYT4TltbP-EgBAb1x0xsPCJr6lqsKH9NP-8lLPNv_9zPSeSK09dleH90_vxlHUMdFrssZE2jwLLTH6-Op4cRZ6baAag88Rwyc45AwtAWMA4il9WsOAWqFl-pUd3g06ixkeuU",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105104754117759775817\">Richard Torbett</a>"
+        ],
+        "photo_reference": "Aa-ngMaT11P3zKGYDfSBlEFrfgUPLcgJOdmitVJW04sJbXyJTJeeynulyiFbjr6KJGmuk0z4984erbPvVJ9RM6kHAoH2s6xX06-hY0IldELfUH1EVZxADRPLZBodvh4In9MMQc0qMHR4WofCW8MT4ty-xtfOiXZF3E2mYF4PjOtFsUMogYdtinSiqgga5eQ9E6gt6Z9TlfwfsRqG0exDOMr4cieaO69FFvVRyAwDu-g3Fij1XegYPfTKHae8L-uVB0a_yK3IllSdlh-93EBH_xSFhuKO60ZkMtlcBHnhTMIc0j166Dc4L5ogbjTd_5Fx6wAJbOha4Ns63bcsWh7vh3SfqQBUup2nTzO1DZxF2GmpvrrkDvUbvnrjzV34AxU45okLmUmDeoxYz_Hml7lpJsAZJvsLakbX",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105104754117759775817\">Richard Torbett</a>"
+        ],
+        "photo_reference": "Aa-ngMbe-uN2B-ujMzufAWvQgzAUyUqQ3tf_PQ_UXvK8BdPIfa7zZSeLW6aLnlbTpcNznVHMTczgRdyxktyIrZGQODH4zU0PAs-VouIRgYOGLj7C2dkrJLdJSj3jhqE6pwJi0t1MV3f_fMZn48dIqmCtYYEwJJCfndK1wGZ2yK8EQN0gMDY_N-dAaW_M7Tlr9Bxpv2aHUOoRCcqkMHMC-7NeOm00MukD9ueJCKG2xfSY-pxCv-NfMQUKehaWwW__YT0-ziMM1dVLIrPi4ZU12cQNy_-Uli6K5lSOEckoKqDGhl901Ylw1ZnRQNxPQHOrJgaeXvv8zsnEI3V9eiD8Zm92wy2t20dpCtVIi_Ll2wIju7sKr3yfYM1tpbHT_U7C7qWQ5vp7mwLQIbrnNieXemLcuBm3IBqj",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113591775146177889473\">Joshua Engberg</a>"
+        ],
+        "photo_reference": "Aa-ngMYXElyBOU5np_A-FhDCHTSa9Iz7S_RXt8fDOQ-lbs1T2--U6xNlDCpSwyiwx_wzOPAYbMLNmdQi9hj3hnY51uIVo2LCNYrA_eNfHg17v4Dt5iYGeYpa9rkaiTz0j4dqib88wkCOfgPvMdXelK8MfDFNhnI6t8-KG324wPF-qtwDJw0nkTaS2h6jC2zzwuA_QWe36VoBnYfrSzE7qfuf9S55sbY2UaDcqB4vfAG1E74bWCirYZOtGGXiQ1juRc4i4aU0ATJSmPhA24oFfpVA-dGC4ea40E4ePr8O94PDZ2RQOPPddS-NRQp7ympPnfAtzi_0b35v4c0HiMdvQgETev5hOAU9c2AGAGe4M-yjEP8hq0-lpRKfSPzpvnzU7pdsv2uABaIASTwiGF4DyR08X1pJgDU",
+        "width": 2252
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109713569770948637812\">V\u012bkk \u201cQuiet Sonoma Insider\u201d</a>"
+        ],
+        "photo_reference": "Aa-ngMbJGU1ZyDY_ri0xOaBwEk62g2PD09aJpGQWoJd8GF34EoHk29Y9b5v25MUqw82BH3oUTSUaza0XHUfnDo-DhT-ouo30DhjQHdzjujS5QMkus5lxgFc6krF6wItLUz2_7UB-iZyGqTvALflGI6b4ClsjgKw_Z7x1QGcqwczTZKP5bTde4DUyJ5wW0gr55jl0mTP5DmnZus6qMpN6Y5y1RSrr2GCHVYKSWhMpMehUkrl8OUL4CVIZXOpOgjUOumVZh7EIusu7UDKR0Z_dVvKMp56erTOck2dxyRYH6TFKLjyJZjY7tY6-n-8eJdVxOYfBtldA9AaqJ3u7RkuQt6iT38CobaxQT73Nplq3FhfLQAAQ1x7kHJBSJbh9VeyC9GXfEztxgAAKr_zEq845X2eF3N45EcU",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116711077326144892657\">Brandon M</a>"
+        ],
+        "photo_reference": "Aa-ngMZ9H7HApsf9eVkdB2Tfg6GhAsDbPqb__j7mdYVs7yswyNR43JZswJs9Ljm0i23_NzXs4SOhE4NVXtkz-Ih6UrORBSyhzh-dAuFOQBZgJr5Qwlp5MynqnLeotWuZsA0kkq_x9KfQ0MXFSsmh5aAnqOpotdwqtZNe9ZZQ2W3aIfCiuYEcaKRb4RmeuGaOAGJNTlZ1lAj-btEII7lRiKl-lSHYgXnUvkqNgo2m79MA4p1vnRlPj6SM96gjPDiuPaP61Ipa8wejx8Pdy831E-16dCqdmy__5YWy3EaN5bU5I2VCnXHd-XSAPpv67KOTZ2DzJbrLOyew6oazBMpIFBlQEF80sqYNjKCt1JJZ8GnPoyUxI8GCNzY_I-8haMBBrK185xVCzcNoWiB4AgT-XEl--TtHs-aBTdM",
+        "width": 3024
+      },
+      {
+        "height": 3008,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109092612779476123234\">Andrew D</a>"
+        ],
+        "photo_reference": "Aa-ngMZZl6HWYP5LhNnrsS8eh1GpCGwaTtGynpU584H-z6dM8XSS55B8elClKGixtYIGtWjiFr1jCUhr6trFjsZjhHOkM5xBAQDBCmbCS4Yjiuzz2kwjdFpPKxtIJdE2m6lDPMwoQif48349ePXzeq02SRfCCgahq07JWyJPGbUWSSMqC2DlEXxlGbbOv3Wi9vYcuIb-UWmFwwpYPa6c13FXka5bOL7IO0oxD3XPBnOJsTeHEx949V9JCYXXowoZL4XAe3Vhv-2pNUUd-oN_kYANztKWn-fpplrc5oKuuSdWS1Hn8mZ0ZVIXmPLVk-qmuryZx2a-UjR8euNetaYlJr05DW7SYKZ9C6wQCIpMIlYihVfXmHMSHkgSDiq9zWuA079NJ46sh0tmM1prasKy-d3OjQuzZaJlvzA",
+        "width": 4000
+      },
+      {
+        "height": 2736,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108045217770588300036\">TenpuraWalker</a>"
+        ],
+        "photo_reference": "Aa-ngMbRGlCkzbJnif9wzjrVog_zFHhWBX_0gR-_xUJn4t9uLLOX4KzXza0v4PSEhTnhcdCcLk5ZQrvZh0upQaKEIaQuF3KBwTKPbHw4skuLC02ERvJKZlhPgOBzbilU5sxpVWu0M_nHulBERMVLcJr4vG1D0ZzqSnAGIA4GJ9ZG-gsGsyx1hXmNJ-ZkpIvzg5h_ttS3HJ_kZ7Y592i4mr9JchT5IA53LecQxXRMLUlOj-nNfiONG2YyiSWTt9_52TJUpD_FIBTJymWc9ByYms2f6vSQSbmk02ZSxIqupA8IS52JSX8e1DJUBAM8zPP740xRHy8YZ8rTYQeZIl4LrMDdA7iheDw9CH7jZiJjjljVnMfO9Ch4-vUJJbuYYIcZmhDMVIIkXd9QZHwlzb47GX5IAd21SgJkhsTpl08Vb_7z-nBgZw",
+        "width": 3648
+      },
+      {
+        "height": 3008,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109092612779476123234\">Andrew D</a>"
+        ],
+        "photo_reference": "Aa-ngMZwmdgfvU_r-GBstz1SQR7K3HJrryv7qm18np8fmZm8WjOGXubCS1I3xirJc23u8rpiwOgZ_HJXbJpBwThjdx74J4j0qiCUjAXQRiH2DAgd4FWgN5wG5mY-AogZiLnF8sW28TSBC_0aGP1U0M0GH59sSnLkBwgucCgO41b5l48xj05BCDsXvOcrwHbenBE9ZbsjdHaUk53m_Yw53EuOe1jDm1HjEBJw_FM5bAFQT8mB1NvME1zofOvLuwMd_C6TH3sFDCXo5czm-wXlz0oUXomO2xVb6yqTBW6V0jKaiOZE4SIFveiQxYZWKblMO9rU7BFKhy4fh1LMbh6UTl2KhHCo_Nm8ltdxTR61iSrCbXUZYqEVtb52BVVIxbSz-oLxgJ0rANFGaigV4BpKPC1uZM7mRQ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJZ-i26KquhYARZDyiv_FI2VM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6041940578233629796",
+    "vicinity": "389 4th St E, Sonoma",
+    "website": "https://www.sebastiani.com/"
+  }
+}
