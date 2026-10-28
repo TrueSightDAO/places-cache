@@ -1,0 +1,233 @@
+{
+  "fetched_at": "2026-10-28T06:48:08Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "J. Moss Winery",
+  "place_id": "ChIJ_zNa07YIhYARL_lUg_E2g7g",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "901 B",
+        "short_name": "901 B",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Enterprise Way",
+        "short_name": "Enterprise Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "901 B Enterprise Way, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 647-3388",
+    "geometry": {
+      "location": {
+        "lat": 38.2589493,
+        "lng": -122.2736
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2603576802915,
+          "lng": -122.2721647197085
+        },
+        "southwest": {
+          "lat": 38.2576597197085,
+          "lng": -122.2748626802915
+        }
+      }
+    },
+    "name": "J. Moss Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108030856491930087156\">J. Moss Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYoLuY3NqQ6noR4Grk2U_coGtNsq_Jy4AuO_LRTAYzcCWypULdrt01Um2K0UfKNnJdMkzETQ2WGL9SVlM-ar6mS80BwS4AmCltXGC7FjioSvI0l2xQoPcJhVbujrwov_2gboQh4V5lE5rzXgC_ebXHdO1o8e-2VusmtKDm8OMyrHXp5pi9hq59lKSB9J__FtHS_T1ZzU4Z3OPvae8R6dzavAV9SptDwWUEvYiE2VIHzH91IZ5ANDLAMvF_1amsQCLPSBxb0gWbfxINHuXDSYw1EQkXLixdBGGc6dPDd757Kz7ou9PqFL8Hyms3MD-fHJAF9NC_zUinAU8uIfJ7kpMjn5As1wYdEACXJoBTFquLP6qLuN1YtZp10rqMgrEKRC-_A2vEd7qBaTGnJxBQ3X4k7Ydr3mRM",
+        "width": 640
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116447822958285151016\">I&#39;mJimin Today</a>"
+        ],
+        "photo_reference": "Aa-ngMaqz7r0Wx8fhPhYAtXJNP7omFwoQZDFgCyyLLnLyHOTOrj1yGnjQy7orRGT4_K31yuJy9VzOERg3b0e_CU0g93EMhiz59lb9wpjXsAGrGxlUaKB1BUAQn4T_4BKNPsD7frzqvDIEaP6DwwoKILxJTwa_FvMWF_y-Kzn0Eq_Xh62EEVdKwJx2Hs2ml5uPW_i4HPg3z4sOuMvhGv6V5ghSTKJfthbWfbp_y_jmQOutmMbsZ_L0rdMMTdDq7uwSEtdhvLdRzWHeQYig-L0-3wfn2TDg2dnKZEhIo7iDT0VuUrYr6xO3_MhxNHeqmv_KKE3J7Z3E665QAdEC6Cw--WkKwmiNJNLjKWPWJliGNtPVGcmFTtHaFgXgCsitYJADZFB_dsHu0tSgHAMIPexi5LAk2_OLw",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115659970313326226692\">gary Samuels</a>"
+        ],
+        "photo_reference": "Aa-ngMZGpHcegkgFJZb-A4B1nTKtNiz48GqYSElGenJaeuzcaJFMqv9BRe3riW0gaXMKiu7K_6wI9_fiHZ1oiZVb6QmgQsh97jEZa4fmYptqoOUsY6BZyfGOYnqgsgaoiTEdzwwSxnScBpteFKZHYCYYDH5NCrMLhCscmwVT00Zr8svQ6Bit15z9CFb9n_6xpFK49eGh-can0nopKF4FE1KwhVYuQ99TaNsCKt9sBwYCbX9EB2QztKMA_pVjNxzs5tVne90CLslsXUMuoavBMi6TKzUbzTVvXPq8GBmB-5UBKmKff1G82_exJI-6xSoPqW6Da8PxsD8UOuqQQylea7YuqyC2N51o8uilV9WTwL3EVZvfvEfRZAHXzdz0niJ6dcnURgFFw-iqFm4GBxGZHn8cEA-D89m-AqE",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115659970313326226692\">gary Samuels</a>"
+        ],
+        "photo_reference": "Aa-ngMb7B1gSDmEHg93Q4FouoJUAJOpeFLd31L2aNgm5lGSHvNWSe-q35binZiI0GejlXnSp8UeJBfXxkWXkqTQv3u0EOI_PyKN4oNqr26tZ-VPvfHm8PyMszIA52Cu5OOCIW7FsjJpOPzfnRMK17iOAZw1oaFN9XcUghX53TOB2-3MEa72PNqP-bFEl7zADuHEJr0qu4hLH4bULao-SWRaHuUp4apWYaft7dwDnbaJxZQFhZwihHN_Zplge5bgvNvH0VvJ2xqzD3v6Ia5Ta--ApoaPQIrgnLMh-h-Pctqt71LL8G21YLOXJjIQkE-YBzhhcmC0cP8YTdFrUOdK3zx6oDg1HSQUnE8laKRrPgTU5EDh1UfIEa6Smw7zQNIzXR4TyhrIHZ0z1kvYk9aeltgZ4NStGlw",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115659970313326226692\">gary Samuels</a>"
+        ],
+        "photo_reference": "Aa-ngMaAqA__rrXK4hMJw7EQeKQKl5K3-lyEpCAANwC4zno7mDGCy6hTVLqg9zpyiaJQ_pcGk8_THu_VFt9huHEznkGnvXFiYwllqpyuzbNZoNbgCTZI1w5wjEx6O7NT1vrtMlHYE8y63jDSBM5_08RXU5H1JNZ9N7EHY8_jz-Av390BDyJ7VARJqbMkuZzDM7P2zWvCgaQQtXs-WP9YDVhmalyiWkWjsd-yIt98AsFgrF4EIKcvV-QBV0keCA3c1BHm8PD_lBmvu7LCsSXI7OCi0IvLAQQDfIw14Mq9ZAAn9AicNHrEanW2sA4Xu8QxrR1i4y3ZtaeP40R7j-A3j0zDp2kyZha40I7PqA1crO2sPngpy-vyqBHwAmvfXiXSpm7z4xWZl3i-gXiMlXHxbPJqpvr1Sg",
+        "width": 3000
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108030856491930087156\">J. Moss Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbZLztg5pQ4oAs36z_zHYkwx0ikYUFb6D1hHzzn0ZqwGr5vnhy08EphC-j0myw1xlVKxQ6evMSy6ftVK6UlOVSydRmndCNKbGJh4YZz-P9Aytqzdl0g5FmnOMdUUOGZl4XfZ5GTQHSig6_E8oQJT5UPmE1qFArals90zjZouJf23t1gyG_YF9AMEC0_lp1e9GaHLw-F3fnraila1K9IsPNpU_5W0V2MhbmBhxQ6uO1OTf1QQzJMoQ4mINP_ozzLtRFMCrmcJkirfzsT4S32Dq1xqWop1LF-6FUCBpBVmdvZTV-6iAY3dl8ooUACWwAgaW6udKqUyAXfdGV_VXP0yEKuE7UBHfR8dTuVivOoJoLDRcRYNM6FNhGJyvW-V_vJfHdgc4OfosaS5KgADdxjw_Yyx7RqbEg",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110814885542628213508\">New Jordan Era</a>"
+        ],
+        "photo_reference": "Aa-ngMYnUvopEGBOeTJUcKktWPSEtMa7XWnPP2Rkbr-r6Jmm1a42SDpbzANV89LYq4-9DSyaEWzWb9UR7Dzq2uF_h954L9bhHhDAAUCzlrzVLbHKA_A9rKYtoVVmPwGdOhehWufZYp_aSGtkgsr5LxhuajVW3DxzKDVQB5f3wKo4MfEXm2Db4_FV0Btz4a8jVg6kwTYW13FY0_Qy6gIzv6NO9_KBI8Y5tDPF6OLk6x1zXjCNJnoB8HL5Oc6mxH0TfiZHM2HvMAEOpKVpqwdCyTxRWr0OqmnE55n1Ow_cjtYCndy7SSkOTLqTuQ3EigPw7gqRBFjUaSytbRl6zUfLz5usxAEG2QhUfXBS3FI9PkTAIgrpqXLLQMLY-n0iwPBx575c0UycMgi29rrE3s4ZvltZxr7adQ",
+        "width": 3024
+      },
+      {
+        "height": 2112,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111777574721105467656\">Tykeria West</a>"
+        ],
+        "photo_reference": "Aa-ngMYgwQ5x4mu1_tBQ1MrEwK8IS_NUEs9wvRqOBuaJMApwUCj7fmvtkj_Vn4Yq2wyBSJX-vWjIFLOp34l8kaJHSNANUGTQhW9S--6pOUCOZZnF7nNCPPEGoun3s5LyClDuaKtkDgb_290CxoLCc77ZyWcHN-SwXUw9PmThGYpGICZNZo5nytluENHywO3XSt0xcPc4FrOr3GfSiauaPCXOH__UPSzFW_oRcQgAOpGXwzdVNiFZgvcUJf1HcvhmXz-9PMYZAmsEhe_LEOEiA_ri9qzFjcBd74DoqqLYC5hiUg-nyp532Kg6JirxWUQ_nQt-6AhPMppFACrq20egT1RXc93wGQW8g-5z55zRvoDYFksmk5gUaJkDLqRaGH7zi3wfYyhv0qcHPFz9hkNm76SjNVUvMf0",
+        "width": 4608
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101117294740594892028\">Robert Hong</a>"
+        ],
+        "photo_reference": "Aa-ngMbG7UsNQ5wR_0BW9S8s-3AUMbOOyP8oRg8PMikNlWvZUMO1RCVJZzwu216Sxz6wtNsleIuYtyhHgLU4pudxgy7Vyi7qFCa8-BjjlzhDC61K9Hc5FbDprifcplodNJzCNEnwBBPWw8IcEvFd0Xj-CyQBA9hKgTvfW6tdo_e-aLKAbJgrS2DiMhq3xznOu_J_vWJdBRSldxiwtp1xA83GGqGDzMy42ygi6f6yXiAkis4Ugh7oxu3gi3ay_q-E0h0qQW4tXuP-gOMas3JrTx1xCpcfaZvvmrbbVTH_T-qvoaGyNcjUClc_0b1t-lQrZmI4c1SEQnv76f1eyUYzxIy-S2DrgfM05rSdMvPGYSzkuERh2RChIvXPX-SCU1sFMqK4fA3xPJTa3BY_TjDaNmDsNPBvASW7OqU",
+        "width": 2604
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112914118063650166409\">Moded_Corroded</a>"
+        ],
+        "photo_reference": "Aa-ngMbAvllQ8WJUg3Z89dh0t5Vk379wTFZ5Ish49HGj8w-Ok-oRPtkC0mTTHX7CfpyrX54uD15tOk5I0o4093t06XcxdhzC3PqV5iLbRoH6k6AgTyto-Okz3pzAwd58yRyrhWO-oqyXw6qQQKoKc3_byTl9gSHy3G7Am4M-v6c3w9hhg7Xd_4rKdvD6SYsl6j1MF78-LAXk9-zX2wwSST1H_06qRzf3YHGoUsRDWXsoXFLdfJcrThV0VX8cD67ABnjikTUVcFaLdFv5FNJRhtFmZ7ZFWWlOo3fN9ck6NJV5cgk3qmBDznSrQLItVTxhqi3kMe7ML_iOK2P1hVLiCfzvu3dHX_jDIa3y678JfH58d9H6_HeHdVXCuU5DybJs9kvq8Bmks4-BeuywNAq35O2g7i9307d_1K8lKdofAt2_RvBk",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ_zNa07YIhYARL_lUg_E2g7g",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13295530935846238511",
+    "vicinity": "901 B Enterprise Way, Napa",
+    "website": "http://www.jmosswines.com/"
+  }
+}
