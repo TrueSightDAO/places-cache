@@ -1,0 +1,270 @@
+{
+  "fetched_at": "2026-10-28T06:48:02Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Del Dotto Estate Winery & Caves",
+  "place_id": "ChIJZQHq39NWhIARfKTttwoiApo",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1445",
+        "short_name": "1445",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Saint Helena Highway",
+        "short_name": "St Helena Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9775",
+        "short_name": "9775",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1445 St Helena Hwy, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-2134",
+    "geometry": {
+      "location": {
+        "lat": 38.4798384,
+        "lng": -122.4424787
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.48109728029149,
+          "lng": -122.4411112697085
+        },
+        "southwest": {
+          "lat": 38.47839931970849,
+          "lng": -122.4438092302915
+        }
+      }
+    },
+    "name": "Del Dotto Estate Winery & Caves",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108199060806039980523\">Del Dotto Estate Winery &amp; Caves</a>"
+        ],
+        "photo_reference": "Aa-ngMYs8HoBm0ka0nyUkEsUaYT7Bod1JE2YtWigMOKx8LEINDV5EI__DO-UEkC8BqCb91gfsqakX8CZOT6JAFJ8lrshBTlYxsXHKPUbWzCB90cMTmvF9As0fACxDsVLVOn3IMgfmSPEVHWcr8Ds6Dxt8JQ7miqJ1HHNuGKLrBybZrxtWAiA30aA0heInJQt6smZ-yZ4rZN8gBpIlbfnaB8MqgvwqndJlLeRWEHtnNdrPutihRDdUalRcAEuyv5x-oMJSoi9noAmPk9549Yd_vGG8_GBRPJpBxk5W-UfgAAvjf_RNDqteqvQBM2Z-pFUzhq8iwgqLgW11eFBC980KnsDa5ROcQ_NXZ5uzeJ2Nl1pYHY_DBGYsSfbwjoCPPdwA5b3fokpIo6ThWfEarqjThxBcJZlbQ",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108369955319274349876\">Thomas Chopper Russo</a>"
+        ],
+        "photo_reference": "Aa-ngMYZwU7giH8tztKinGLxQPrRHB2JnPuZh4mHB1BQOGlipa2-Wm-5clD13BnZPfZ8WM_fb0quBWiJ1NgPJpAeFcZinhTiDxpDxmO-ag_UeN0pcOXQ6V9DuRBDuCniouxsALO3ppZaQaDNaRBLpwAuxsbMTPPGn1foRXH4hctUgwVKeTxg-NR29Y7C7VaIe20CPJAq67AZ6XlpuWQltYp7JH9o0yy5OJFY6UytLz5mHY7MGh-OPPUQONqrWMLhPfmEMnBDx8kFYa4E-7fkKhwkQ8COlqdlonbAE9twqf29E9UoM6Q12JogyDCNQFoT1aNcPxP-cva46hxn00EKh00_S6RyXkHeAvGUNRh4FyFdFdVuv5fF95Gp5WajlNivPvRS-_JOU4b3rTgjz0bR3eUDfrNb1Nc",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108344322368647237607\">Elle</a>"
+        ],
+        "photo_reference": "Aa-ngMYu62ELlZ78rIO8Yf8kphjcwYTCOtLX9fbL4SuXLB3Gfym5Gxb7O51fwXk0zjcwKGhrT7WbjQz2DxqOz_dK7lvgm8fwsFkEaQiwszOE0G8Sr0yjCM_V9c5hsd50615EJJW-AoOcTHLXd0zclGc_Qri8TyGCR898yKo7JxY1gVwx1P0BXrTIScVAXXBCBzALLvhHXYtyVv6vkZB6qR4WWu_sE_X36UyJKlZznUGnMLs4U_JQWkGqn05XyD0HxbDjGax8bNbjy86kOAWwXa7f5DwiOtfseAnFNloX6OjUnxfKrN3rafyeK0hirvll1BNjxekWnE0qzm5q8tF_GGaky9fgu8OTa0RzTiUJNr6deleVBJnQTKZqnooaTZkmM5iZ8A7HERr6uyo9uh_tWCwkd6PUeoc65Z0GtNTU9Hz-RtWm",
+        "width": 3600
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106624357834993345987\">Nam Kim</a>"
+        ],
+        "photo_reference": "Aa-ngMYkTjJIS7SNP9cQlcDuq7LYAR9M-dnjZZbQh6y3mb66sfsSbRZcsMbkjQR-qQQeMptFxAXLS9NzsslhBp2Ucal2ZReF6z6TQHxe2FeZNreJpSHPecLCgH7DP11U2b0fXcNLhdGIqB6Ir9pTJpN7h7kKFmNBCg79R2Y7fLnhsZMFIfER7HT5efw7FYTDMyrVqYT0M8dYWkkQrsk5quE9ir3FpuDTE-bAb51sObSFe3HRw2lXpQn4V9whQ_tTup_umwIv9gXWmqk6D7IBTcEo4W6ksOIgsg4BDF6q2aIHTU1jcv2T7H_8fqZ2o14ywoE-ctu73NP66vHvpIYyMKumrqerhI4O2lwzEPivb9XUmKD8flmr14xaE1Lc6XdRIJ_Htg6E1UupitHPlUWIdeb6U76AP-LC",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110048695041592173956\">Ray Torres</a>"
+        ],
+        "photo_reference": "Aa-ngMbJMo3wfN-AQs8dDCBLGcW7olaZ8I8mZ9BS6iwkr_kquBKK6UFBBle4pndohP7zR_NCar5EXBMJTmdVSP_xcvVzjHlzmYzIA1ePmHPbx1waZAr9ejt1Kr1cDyJeZlm8V7XREw_Q6HUoF9iUI6YYgwPH6kI0pl2B8ARmHhk3cYBAIOh-nheNGU_QINMA0AuzB1PVEvm3ndHEfAup_cZShoZiUWKxxfxpxLLZMeSRklxRX2ieb7ygyLv6iSMffU9KI96TSNvuAfwgOwJt_6MFp8VBvh7kYPFhU271kYxSB7pxqefnSX86rWwmEOA1tcUoHVoPShV6Tomi2GExEYdIKO-muHtQruB0ZWRniRXZiH97VmzHc_2pxUJoCNlbCRkOULq1iCUfMvdgHQS6ckd2ASCl88U_tjs",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115418681760327310918\">Evren Eryurek</a>"
+        ],
+        "photo_reference": "Aa-ngMbSrCTZ8dVo5yOet0qyLHgeAeEssi3Dm1rKEg_0w968_89M7VPtTAirJvYFV3RKSXl5IGcnt2ZOU7Qq8hSXBp93Vzjl-zy6uS9tktiMxGyDwtZJgQIaE745nJPIyLMIJMQE7ZgN2au_NSTg024dVyix8CE2zqJadWZYtlYMkNjd5uXsTF-eKkqTG02TDeNsqduwk3MYD9g5dkOwEHm4Flybdf5GLOUyoEpU7xmbKvGsqk6LeKtbjW_JJQlUAuJ80wOVbatZ4AtLRFminU6Xeo91S_v3W11vJowR4VZfgDNZIWjt2dDPfUQIKjLvbCYJpUzNWf-TKPdKdIoZ86z4spxpvPr8r-x35TMuM97XzhkcwFqqNx6ey0lhruvl-KtGaqF_g0qTMMfEvBvxvZQ0yEoezEVmVGfYNT9sBe6Vx-vJGQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112647922041675533346\">Kristina D</a>"
+        ],
+        "photo_reference": "Aa-ngMalb2OK29IBo6kBHTbYFuSq0ALDrqOfcpg43xFRrvsPrNPBa6rCmWt-Su9QVb91wNAvuH3dRSISqBicc5oZoZlcI7Xr2rIfB5PHVKRwvUoZXcyJjv1evdbufuZQpdZ8RjvPDbLBdv-kMRVEWtFv9Q8hjI8uuYP30eI2E6Mtsky2I9RGDEGRK-X0BUY797lr7YDcfKErCLLeo3nOZP75LMCzHYvqol0MjlIpx85dyoc2EFBpKCoepVbJulQjr4IoPhZ3yvvwQ3gcAjsPeZNwGLAfYeEfPrHdSpMBwAS79r_udlGZ1ptmSdCDTIgHdqLSd3XukHnJhdJETqFnaIhBFdng6qGsLOBgsElmIUj3CEXqcevACX0BT890pBau0mVw5GVOmeJ2DUwcgqhJo_BG3TXP-VwiqDA",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117382548213467235299\">Antonio Barbato (protocollo81)</a>"
+        ],
+        "photo_reference": "Aa-ngMZPQcAtXkz85_AJbecgLAZVxPat41lvVd2z1WhygRWZol0t7jWd6mcuRlEftZ-y_mvH3DaxCMPvgarlAhnnpg9Y-_0fAkFc68odDUX6WhcjG5ofbjXIUDa9uHHU696KfpzKE-Ze5Rm82QWZwbUW4u3JDx3sg6QcEBG4awZ_rzbz3YMF4PYz1Xg9yE1KusLM4UAld8rtBRm7v86YWrl_-3qch9LMC2TCP4fWifd-lhttrQAi87zAGldDR_bQaJBev7dvq5unN_E2EvgViUEosiZ-v5lmo4rZXrIym-rOsTVaVxJUlQmwBVGHOJg2bIyFNlWQb_xuWdmbG0hi5drvCrHHtpWB_oAi9Z79rUhkSYamYNBspx8NTmsPG-ZZv27LMx8dJcJjOs_QO5tLL5fmvGJM7qQ",
+        "width": 4000
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106213198867126991200\">Sean Evans</a>"
+        ],
+        "photo_reference": "Aa-ngMbIvMliyPfl1sZSALiSLJ3mc0s_XUDLl4G97mGzUoztBHR6ITEellgt7wyMCUiMsMytLJ5yvXYkumVcQ2uyRBHYWw9Zuon7eOry-V0tHE41UEjflWHoJDzySoJUUmOc9QQbV-SS_LBs4r4B3ouhXB1x-QEbyryRqZhC1151j6xoRLvi0EiQf0EpXO7KJO00rZlae0QYzdv58y7BySwiftmdlSfA-WAy63EbpCo5IkDf7CdM2m8Z-KdUVCFLkkn_-pTOfrQpHDq79UlyiDemwopGmPFQzyNLgQYtPhxYQk2LsfkT7SmLMrFYGpUH4CyM_jzGnplxrYD-R0V3XeoT2wLgk-D3HdTIr79uJpVy0x8B_M5sqgeB5QF6GqIr0tQ1_UNNJFbOei9Dp3ga91PtT8EDusKy5jpxaCAv8riDaR2b",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104771425092541282757\">Phil Collins</a>"
+        ],
+        "photo_reference": "Aa-ngMZrXPAV9V3JG6O4Bpt2Lw83e7Jy26KqtQNCZsbFNd_ENNuCYsdEJZaezRML1jdzUnWg7K09Rgkn2Ps-cXlc4wgbQXksF9GInswiXhMJNGPUGQb8X-rLQqKXmG9xeJZH9bsefdJMGtF3A87jW22VgnAjTFi4kDHJqIu55GgZ8HUC6jWgs4PM1lb_9RYdwV3MauabAeOcDvwEfvxOgCoDmn-ObXlW8gPuzwyjBf2z-cevjAiui7s3C2RyJyPgXdLtMzMtusOIeX-mW_OsbfMSNeCfHAf7y8dvL_XoEOHAFmqiuAA6JvE9dBsrzUgVl0Ov6RE7DEDSbiEz0qlRJFWOyX9mMwn_uxPAmLzPqrcWmvD8v1cn_lD1j5yAxZ9l3YpimonT1Q8ummggY2fgOZSnKSs-UQc",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJZQHq39NWhIARfKTttwoiApo",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11097469861225145468",
+    "vicinity": "1445 St Helena Hwy, St Helena",
+    "website": "http://www.deldottovineyards.com/"
+  }
+}
