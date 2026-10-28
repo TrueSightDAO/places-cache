@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:46:52Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Elusa Winery",
+  "place_id": "ChIJR2L8PVlDhIAReGLUW4Ke4S4",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "400",
+        "short_name": "400",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail North",
+        "short_name": "Silverado Trl N",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Calistoga",
+        "short_name": "Calistoga",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94515",
+        "short_name": "94515",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "400 Silverado Trl N, Calistoga, CA 94515, USA",
+    "formatted_phone_number": "(707) 403-6644",
+    "geometry": {
+      "location": {
+        "lat": 38.58441759999999,
+        "lng": -122.5674342
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5856955302915,
+          "lng": -122.5660590197085
+        },
+        "southwest": {
+          "lat": 38.5829975697085,
+          "lng": -122.5687569802915
+        }
+      }
+    },
+    "name": "Elusa Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111114467286627290017\">Elusa Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZcMFoV0aEZrEGPDznlQi5ZFfa9seMdgp4Exjc3Hrb_yxPmmbxUeHmNwodmNuisDr70UR29N1Ghy-IbNIlcMgDO_UsXhx-E34d42pstsOqY6zZf8lsugNEf6KhoDl5zNrV00jkqjzWyegfYgYeBpvfD_tTu9rtr33MJ7KkSLgJ31rKoss6oaZo4wuN0Hg1CLCz20zsK7bilF1lQ73WvrxK1iYV650ghSm0VH0yL4TnO0ACu-tVOZJ66NX55cVVjDzTckQusk5gRf0py-ZT4qD7Mq74OlTHUM3TYOS-B8u0PhvDDAh3HhcYXqsensi_Il2PZAKF0WTsyBGhs8wJKp0AaPvKQX-MC_1fmLZsCIh_aR2EWy4-ZPiWocHo-4CXz9ONd5ZQN_WPTCyPgZQSKVDZoC-1dmChqNtY4adRq1-nMHA",
+        "width": 4800
+      },
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111114467286627290017\">Elusa Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbr1REoubRu0OKJYlzQdNfiItQFOMZL_u7UzTS0eoiy0JbWzYH9T-WjGaGPVbLpS8nJIQxdVu9XIb-8ZjxiXIjs6WGBWaQDdSC7mAzJ6ZlQevrW685xo1_oWuZVRd77KeYU9oVFCy6Iy-ajfb5APWGgTeTBlOFIVsuqHRdSLz52nB1M_KaH04OWibpD5FtKjJWPuZfU5Wx3kA98YAdcGO3yJzZOFstnTzF3705zWL5xvqBf1WNRZDYGwUgw5X9x20bq7csok11OQaB0MCGWQDmAfq5U6wVLFvSr285LX__Rgem126PZ18NrAL02DganfJkAHEwNHkLrUl5Ga2zNUicpG7a6WNBrGaQ-2t17GeAYIuSVkrH0XWwysp2mm9uhDH2giOzLWrSTVLZMju81eamtQlM",
+        "width": 1000
+      },
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111114467286627290017\">Elusa Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZg1L8OGLQRth13Km-YdfY4rAUxqYgk5zF1Ug_LK3ROMYw3xQ3TVgbgo-XtSjOZdKwrqqVDzg4sVBi7FcvhkT0z3CVXd-25Rc2g22uTJ-FyEHLvVZfXsi9YS9jOZi2YbXVGsZ80fJyyqCGq2nTmdUdPbr2SHqQ7sj6zNPseQs-Tg_0hFo_tFlAd12ObIoWpwbKx8v7ha8BNoPOa2YA1b76nu2bm4oJzGrp7dgucGx72AcvJFBDrZHIAsWs6uA3orZxl4-LHBa8h8NHeSZVk65sLeSJKeroY3Ivg_zvzlc2gEkRuqvlBRZd8gqYijKBmj72qD2b5FbzmVaIzor96hO1J2EC3TYlPi1kTOLGP0LQwTqcn97y44dJS_Zvkl27CDnPJS39VQoKBoWaIWesTsvD-EmovYOQ",
+        "width": 550
+      },
+      {
+        "height": 3194,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111114467286627290017\">Elusa Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMb0ArkQoNLQ2uk5eTEeub2KAQGB28U9drmsILDwQNsCTH-p2NIK6CgB7-d_beAHneNViVuGlswIDpBM86_P22Rco-sS6fHZJHKD_2dPSwWZmdEkb9E8RGSNhZdIhJ_ZhX_KiscuSglwLEFXQO5FbcoCPkMZu4zNWnUNhbNPQzfYtCDUh5Ml2ALkF-MdSmDvYHfBCqCHucnDjJ07g5ROyUaAD_5WuTbRUrYvMsT9BWieEXqqr5pbu5y5ese1SK1eD45ynmYVC85XTGJWaCnCWOyojHPxn8QusDCEdzGe3XtFC9PctYd9tOwINqBwFi1qFYAtIHngZZ8H1dnk4K1K9bBHq2T_gzfIuhwHNQovy83unEHSpkp8mTM_kPflchnkXjDca-jx6y41_v05afuy-AHkXMq6TV_biPUbxc312dmk",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101722987628802743785\">Bryan Babbitt</a>"
+        ],
+        "photo_reference": "Aa-ngMY_maZLbNEJ-FrRkA8FIn_A7jNbbPoTNxnl199s0YdUbchArCP9QizhrtkA-ia7aS6HsErrQDEGXOUChNiaZBOuvw_K-MktJIVcgR7w6VZvQ34md-h3HyCWrtHnFZt9YqGM_tGYZF8EcbYeIpUy6RpCTdoOkWdd3P0RR2BDcL9m9U2IqzJ00rTZVi7neR-hBBT8_CEmOp1H5gTBCcZyoIvhzICcXcaDvAit4RiwCk7_0RQlZoqXGmTofbd2MxowsrdoJAxU2BY97bEEbtMKE5cR2fw_tNC1PRDItteEyhta1R4kQBazm9QpOISMSsYi3wRj7Z2P40Yy6ei4aOY2NNNbBgIup7Kd3eoFDWBJPby15I1HUwqoyzpXqIAlDml9q7Qf3OnU-f1q4_SbVYH3lwvXyd4",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105743076550444047005\">Tom Sparks</a>"
+        ],
+        "photo_reference": "Aa-ngMaV8fr3PPFh2-E-1kQSL31uwivPAFNeQBgNE6KZng-5Kv3VjrRynZsA3v7l9XkZQ_xbRIxVv8bRwkvvNFEE8eZOl5asFbQr6a937u76kcq9pXP4RYT-_ztLh1CnKLHbtTMxXoU1wQLMbGvpSzIZYqPhS9yRkNoUDXiTamea0sDaNai2t4zHwzp8ooQGOLJUazBOJW1zzSs5Rt2KnogKYG2kFv1MTtPJiUGA7b-PPPU8jaXVKYA5xxtxF_5yT_99-Yyos9obJCdRCgraeguXkhYBDcVRqbPnDxytFTMPE3TiMkwR4yDHmeXoTLDCyScJTua0yC0PpDPlg0ZfNcWTFr9mCieyrbA23ZcLfosvhdAtoueBt7LBPwW65R1yMeZGV_28PqdQfGiFRgyuVqQrvwmXN00",
+        "width": 4800
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111968022823181576755\">Hannah Nguyen</a>"
+        ],
+        "photo_reference": "Aa-ngMa1JQ-dvCUzuICbheXmdL3ARww9f0nLw5zldSqS9FGP7hnCOY0PaBoTzPYrLA5A1Crfhb7c59HZ5758HewEm2pVwVJRnJQlYJhMuUX_kjQ_alJhOw17yeaaVHZoIKHiH5m-AQRFInyo93kDZNc3kswwE4YD6rEzRSw-564rPJ4K6yCrjg2DaPnaqvKVZWh5G0sJlBG-j03-xUjpa-h7A5tRNcd_kOyMfmHkYAWHg8fpQh--3PN9_9jcuxcJEh_BkNXgzXohE9OaI2LW6BSPD-4jqXMk9lYHc1Rwbv8pLg4bLWjHfZVwQeTQHqgv8aSfWfcmVZKPpZ3rjPP9xcXiJaukbk_vhJIMt1w7fUUQ7rTXeaeepOmXRJD_qOspEXOcMBS4QxQScH5MKoSSojGWfXBdfJ_ooKkhz5txVg-0oji0",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111469832021896684985\">Samuel Chino</a>"
+        ],
+        "photo_reference": "Aa-ngMaWQyHrR8fiQkEXZ_kb_YB5YXZ9-kEUPAJgiNZQlrTazA23i3ymVi-dJCj31CvOx0YqRfuTG9XPakohfJlfbWxz2J8-uqtMU-KjZGUNq4KGfWBZe4qTqwYfAcvanhoDdvq80x1n5lkwx8csg2wwxjA1n2rGMMsIxI9CsdK4HkYDNZaPEMGQZNQW4M1Sjtpui1zZHoRQZdTBBpXQt1GiezSJuRNsOB63qtVHXQw03bB39ykRBL-5F0d9Jp5kSmYF9volDrU4bUFmiZCOWdocVyMBbPBlivaFakB4vED-CSKsybDI9p21x8KEFXsnVLCxQlX9-GkcJsRVj4O_HdfzXJdp8L9aBNsA1bbq0-AliCNVysYc9CtPb_F7nzaAGhiP7Ob7VfA2KmW4RvwiZxAneTzgoBM6",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111083046033052580006\">andrew mouzaya</a>"
+        ],
+        "photo_reference": "Aa-ngMYaPgKD8aCTjF1pT9teH5PacoGj54EItuLA1XhYBJgfUfWNeT5m6-rFjJ1dQ4QYBweeo_4eaYKnyTgCGxEG42fSE1AEDEQWoZb6yfvopeIAcMISiS2bOBq_qipb0PBQdsNRppA3BKEsePcKbSd2Dkyvb3IPTUVmwr8L9NznWVre40amtSz4VzaCJlJJWildSQajagSC5v2x5-Ghx5bWbIFq0HVO-dwR8t2ZMfw4MVHFvgeCYrFavtTSTjxYKO2pnsYGoHfvlGlda3Q9ksw2Mv7VvtWGQva-Pq3cQf3qq_y2fpoyDTdHDjNddWu96f2n0Odyxn5i4aLyN6zZNM0ru9O3vHS72ab81JPOMr_Af8tvCddnnAVrovIQVs7_3KMqvvW6awjD7L92iSYXC5bvp8v2Dgw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111313948128015953916\">Vivi X.</a>"
+        ],
+        "photo_reference": "Aa-ngMbweeQjmlMSztdpXUfLVxNG-H0BCSjPZE6BW4uJdjiPR6Aw1LuC9Zdpu6ipGCK5OQBO-uNSuIUKWCHTR0jW3MDEVB84y3vy3xcs7RUyu-7zaUd8khe16dH1COinaHvZP_aGAc9bOfSh1ZRg4FoobkxXtbqGwtnharvTP29Em66h9y8D48jeSnrvgxhxygkZihUwKoUgCLbpkiPfrQyHDEr2AC16TO1RkwXzAozQfJl_jXYnwa8mgV9mwF0oWgQKeN42j2N-ynbH5zo9mXLZ11ozwVsd9iG4P0VxcqeGBbEm3eH0ea5xVxYyNZn4TS0lgdpkwRp6GPwcoUGgVcdD8uKEIM6OZvWPYDFSxgiKaOpwqBowgdimyu2X574FfmVDeoLqtsmFmFAnN_H7HjjeplSJfAp72Pw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJR2L8PVlDhIAReGLUW4Ke4S4",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3378155478228165240",
+    "vicinity": "400 Silverado Trl N, Calistoga",
+    "website": "https://www.elusawinery.com/"
+  }
+}
