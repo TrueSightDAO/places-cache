@@ -1,0 +1,233 @@
+{
+  "fetched_at": "2026-10-28T06:44:09Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Reichwage Winery",
+  "place_id": "ChIJ2d269SsxhIARafwFEv35gL0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1689",
+        "short_name": "1689",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pleasant Hill Road",
+        "short_name": "Pleasant Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sebastopol",
+        "short_name": "Sebastopol",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95472",
+        "short_name": "95472",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1689 Pleasant Hill Rd, Sebastopol, CA 95472, USA",
+    "formatted_phone_number": "(707) 827-3556",
+    "geometry": {
+      "location": {
+        "lat": 38.3785596,
+        "lng": -122.8324734
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3799153802915,
+          "lng": -122.8311259697085
+        },
+        "southwest": {
+          "lat": 38.3772174197085,
+          "lng": -122.8338239302915
+        }
+      }
+    },
+    "name": "Reichwage Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110079195054454184841\">Reichwage Winery</a>"
+        ],
+        "photo_reference": "Aa-ngManoTgKmJAOBtHkDex1lFdgnU4wSfO4yh-HfHInh2jBiSA17JFzhztxHtapiXJbWfyaz3Ec5Q94wZUHicuvHimbj8znkOffet1s1HPBeJT8Gpi6BQ1gHCim_4WmjmGtXmKz_be3BtzEJduJGhgaN4tsPri0LpqU55_DQODPXcsdouZpM93YEVaZGlLaBsCI0QNyJg4l-xtF2RRbcJ-_vlB84bAV8WfGji2pzEbON-5kz73TO-qYBr9j-WeU_YOLbcCHQbQc7MCyLPxP_pEymWCAzlZ0LVlrhVwXImbJH_fi31RyR0No7pn_xR41bP3NqbADU1aUalaXVt9ixmR8Q96TU-wkP5W4h3Ptu0-lSWYG7ayoNjTxzYmZcawBQ5SnCI1i_oB3k1bvPIaPW79Pot6KB32ro76JxhMQLp-wsr2zfQ",
+        "width": 3201
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108421773205392701051\">Judy</a>"
+        ],
+        "photo_reference": "Aa-ngMbi9H6znrcbUj90Jj3k_M5IOxR3DiLeUKfqljhQc9W-Ht6THZgvkCr7tJXipISx8aQcYqy1bIHpdPb8-6POPJK0ygE7nPqMXitIBnXE4L0qOG7nbSvTqmWo3c--KyWSotg5EXfKjx9knvUiTbf_mmUFpcYXM7Bg5VC5IBuT-D37MCz5EKU_jf6jQDK6kliqG9jyDpJzSevnk_JeIH6tSCoq72JJnrRiJ62x3FaUpMdjwjscJY8axHmo6_IUEwiC7PCDIz3mRNp02gVvg721GOMeiBGB03afC0d_danByprP-4Uq57T8K7FZ81h3LVcsqo-iGXN54qiNedg7WpRJOnW6ce4o9KB5uLdPIqC_in_kp6gtsYqtN9an9dnPPMcfEbwR_KTyKSJDAsLL2HW1A1WK8hA",
+        "width": 3024
+      },
+      {
+        "height": 2356,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106603443924390770930\">Craig Love</a>"
+        ],
+        "photo_reference": "Aa-ngMbpt80c5bax4fNYCuIPEpfQ8IXS6fp1CsnsmXv0trT5Y0b3h1ma8N-KG_nr9uz_SX2636U1bnmwjRyIu8zRIkdQD8wuKpiW_heE0hM6RX-nksXRiurgGR164fhJGDGM7x3PoxHNc-SaiaBtbFL9sluA3lmmrW8REIP7nsKjyCyD8LCACSsRJJiIgPXS_q35XiZdumtDxIO-fwDnMBw-OGcKVJ2RG_CoWpP7YKpG2MxYsA-vP1zqbCY68BYua5fa3_7APQ0j9fp22JkwtrhS7SEP1riO4lVTKud7MStCl9edQMCKAWfzJGwn8ZokW8hYH3jzGl556Slp58LCaENab6tfivwMByD_L7Tc6LDRt9gr8NGZO9AMUOKUoFvFTggiJucvAn1D8x3u8QKHxwWTniijnm0VStc",
+        "width": 3845
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111944934556765509110\">K</a>"
+        ],
+        "photo_reference": "Aa-ngMbb4hyBAumLkscm8IMJ2j-89uvREIdkv7LJxZjZv3-b_RU4L3HzqU3xrXyB2hxZy2hWk98qj2Rcz6IXM9dURefVdHrFXQTdRzluQj0nrNzMwRCCN8m38Byhz2ghZ6KgGK2_QOC38DvJpJ2H_mqFKBgz5cpm2xTmYMuiOOOH5SMvR8JSp_moUZFTHeUJhlfNBWISBdk_YbFWF5PTjc-vHp_k7DNIE_JqKHz1SWXWwwGO1SDt9svdAv1FPOVID7zO49ZblkfeQevVE4to76E2zkxzEpEPABfLsCc743s9FEWe9RzVMICBmFJ-_QpLM0ZNApA47KiSIFmfkAz1Xs9FWCo31lECVeu_U2emGRtSEvGJi599ND6myRsf7W_wjRnFunrE1nzA7rmLL9pOlZMiqIUhmpyx",
+        "width": 4032
+      },
+      {
+        "height": 1083,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110079195054454184841\">Reichwage Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYx8xi3lypR19AVeuhkjrcYvfvroJeq6Ts7divG1vWNX7dY-x0Wwhh9cnrzVROj4B4cLkU8AJvl8r0LrqhNWohRLHrCZffsJ2gojQ2gnyVQYDnN55-8ExxHiDhZFj1GVOwCzC-ZySdR_As6Zx_BTjPnwNne1pQAGbY0cw5UIaEvn5-vVb2UL7lkQCqyh8B3dLwQJNPU9-XqaqhRkYVsywGz36NBTnWh7NJrzZkXR3IVbTi8s6YUEeqxd-X4xt_msw4SuU4cwzOd-Ycs_JDvciTWbsvSa-sHq2Zf5CBG9M2Pz7pjWTesaCJodiZpAoBg88CSsGWEwBkDLoEv5V0flwN9fBdXJnlEqwWdUfGumpFVspY1q8tbu-IRtmFd9q5llACk0F55dWld6JnoF5ZS9sUx-DyYejI",
+        "width": 1635
+      },
+      {
+        "height": 360,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110079195054454184841\">Reichwage Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMboajJKYUvbFoNmxldzuChcD7iqEyPuVDKPo514MPFuxul32cJnfkaDaxOtwZ7pfNBozsTqBY2E88dBNsly5oa2iLov91ZikRO1In1sSJucciH4jw42DyfRa4E0WZ0xoDs7xSeLvj0TVZHMyUdFivzQknmFY93nPSdELQ5oE_Xw2s964q1lGrs2xt03mIq4m8yZ5EjkhTBkmeFCzq84XqrXhbbqzWTi85JnqXUnexM25DXPgrZqUHNvvwrheB9w9MD-6PXATWRFi20o4tK-9aUeBh05xCthxxrkf2HSfLoPT_d4zd-7v4JxOQCmVnGz8Qv9CX5DUvEiTt0JfcR4TvIY2mSDndZFGnw95pztuvEsK5OyL522ZmdoOkW_KgbB0WWzNIivDIi7L0HWTvsqMVCk9yo",
+        "width": 640
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101216368553403564374\">Angela Johnson</a>"
+        ],
+        "photo_reference": "Aa-ngMZ3nDtta1IbbgZziAMhBJyfeMaVA-nyjxo3GGu5SI0ugbemmkVUPgYlK_3JNQxY6mkMzVJI__aPbZKoujZ_QZ6sGqryqYFHoF93p8sTzoGSH-T5m2tIQsZ-EUxx1qQGFMq5G-vER4IhPJW3JgMWQQaPe4lumRsCyNXo3oRfyemC1M1Z1QRj9Gga_1MMHpKoizy-YzVxwxuA89TkTa_JMLKIZY5ckwxeOB9pFfRRmDQ0C8DSwZOeCYFjKR0nKGMfveCz3M6GG7bJVFBG29hZulOOqN75ZvRIqDGy4NFlatrqXuxFWb7O0JH1hTlOo7e8YLyw_nICz5A9sBJL2xREZ3TIaQH9wTLfN9Yh3LmK_LbgJioo4QaXQGvqRS-c_B8HvkmfDomF2-kwfRq3uEPp_93fhEEuPbM",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108567795399175437330\">Steven Knell</a>"
+        ],
+        "photo_reference": "Aa-ngMYYc0UFNECfriiJodmm00RiVvcdW3inw2f32JKXUVKVgaE3dFJzV32sFyGUSu1hbTLVMYlo16BzezpgcC1cYYWEtyJKfZwcLkte5GyLfPPK-rrr2pt3r7frp4aEkrdzgZmuTZLoaVHoeTE_MYHrZvo5jBgJ1hO38pHpqh6BSpnv4YvBlFL0FAi92ukYQujxiQjRiJu_fHlusvrvLo9DJs4j_4YZtzLA5oKH3xjkCTBxTW8Kox3-Hh6m2lDXK-3auKzK1gVM6qfGZN4NwRf52MDrjvfSdir2G0OUfJ46DaoCsa_2pEV4vhhY7_szhlisWVX-WJPkSrUQa_As-4t2zpIXWbQBJi5CJzb1Wn8ohH-9K9DSS1ZMq2nM-nxNE_HO2XQ-Cy00rXpkUPHFO3I-jlGnQ8jhYJM",
+        "width": 4032
+      },
+      {
+        "height": 796,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110079195054454184841\">Reichwage Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZebb_vcAtWwUV2DDIi_nl5nBGhsBQ7Oa9nOBXErvEsRcIdXonyzcg1z2EP22Un-xzmKqK2LutHLLJbBxp3KIFpX0jpjyGUK2vZTPP01WYkcuqKdeYmh6r7fmXzNRcNheQzIjpIGmAqCJdsz_asr7eoHJMDXhcBQMv7loMDNrORynvoARs0YEujEn1K0WeOJoWAutmJIi-KTeibjVBmI30HjtnBY-dm4nIkPtmiELinNKvBOeEBEbzILKznhi8DLoRr4sGMF3kAXtEB_avzZINYu26GPs0b4tvMU3GufxDXZuMtiWn46tyK45S3FVQvQCuySwp4BPaNq2jsWgR_TrRpfdxjNMQ0mNAteRvi88JLSLLqzhNJ7j3pFtWOlg4BqPDpVOgWYGJySSepV_l6uv69iOD7ShTKJ5tsY-gx5Y5X-w",
+        "width": 1194
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117917547187421791396\">Maggie Farrell Trivella</a>"
+        ],
+        "photo_reference": "Aa-ngMbIzFhnrpO0LZWToizSoofbqfkqRB3GujICw-Yd4j4PbE6pBpavZKlc96zl7Cqf7yZJET5XqwUTByuFvqJJCm7blYYXUujnZbGFl6rD34CZN1blH1f67ccw2iVUcyQPIfggtjGvbFW97IyH1azfClRnAnSbWohP-quAXxbZCOeJ4P_3QwEhI2XN8pha66tdAb0PRJrhM3n4mbO9-i6SXSicvUN4Is-hV-Ueg7wHwcpjB89EkO5M0UebSCmfoKPrubmN0I5JxRJtcT-x5xlOAKuUNkw3omCx_aKAxul8pCxDmshUeaW2PQh4uYz-woV3iMfBvcKwAy4MtPbpojk3WlVGzCITXWsZklVuohFSO1_A5960NgPOpv5_NGO4XE7qHNFAfnNSPUpCsA4fdxvlT4wgi4wP27M",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJ2d269SsxhIARafwFEv35gL0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13655188935511768169",
+    "vicinity": "1689 Pleasant Hill Rd, Sebastopol",
+    "website": "https://www.reichwage.com/visit-us"
+  }
+}
