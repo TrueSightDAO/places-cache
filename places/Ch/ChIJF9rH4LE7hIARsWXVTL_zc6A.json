@@ -1,0 +1,270 @@
+{
+  "fetched_at": "2026-10-28T06:45:37Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Lynmar Estate Winery",
+  "place_id": "ChIJF9rH4LE7hIARsWXVTL_zc6A",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3909",
+        "short_name": "3909",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Frei Road",
+        "short_name": "Frei Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sebastopol",
+        "short_name": "Sebastopol",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95472",
+        "short_name": "95472",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2317",
+        "short_name": "2317",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3909 Frei Rd, Sebastopol, CA 95472, USA",
+    "formatted_phone_number": "(707) 829-3374",
+    "geometry": {
+      "location": {
+        "lat": 38.4421027,
+        "lng": -122.8445728
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.44351673029151,
+          "lng": -122.8431636197085
+        },
+        "southwest": {
+          "lat": 38.44081876970851,
+          "lng": -122.8458615802915
+        }
+      }
+    },
+    "name": "Lynmar Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1707,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMamiZ9zfV0H0eh81ZbEKrt57Dvan0CknWbR4yJFcrDB5GqtCXzavZ3OLsMHy0qcYChgWFgEj1VhRqE8AuUjiOt46KJuKKnGAO1wlLde36kMlgKiOQlncsXEutWJRYePbBvPXtVCB1MXlVVLp2ZkqTIH_pZwBgE_JJrSSkwUffvNJwBZTyevT8C9QGW25FXXaCejqHPFfCSWh1H0ga8HyzEbOUDg44MeKnOYC7xo7fjCk9ABnovV8iosLacgPsSlK9Ajm4doAGq7GIegMFTYwg_Bn_IC5DRPd4MlEW7Wn4ysztQNxKeSsEDCY68V1W6Z4kF7c2rSIuOrx9Wg0nPES7twchzJuLo_G74ZciTzz-ukrF4ptg1BUhTIXd7BDWLrDQc7T887iaGpLQiifIL2QlPDHJRlka13Gdb0iQ9dR2JVJQ",
+        "width": 2560
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZSehOAVE1lh_8e1wek94a1mWei9TPuuIQGcSVLH-k_lrwyR4Ku78d74lWLAlH7gToqLlGA7yh-ut_0jxMJkmQgmB9_NbMzFhXuFdJg2OEk_BelIpo6EU9DcrB3JAkTDi8qZPcM1mmbbophtEiUvwadAa2hMg-DQuU1qD4GeVDtgkwJQmKLSV7YWle5bFORSODZFiP9rx2CIRuHtSL9tyJRX6j-lpe-lrM51_Luh4jmcHtBd6lcb9-bSnnThLAG_L8cbLik3ziY68Z-mJEwrnofjvEyTBID0PsaSTBlUfZd1UeN91GnTFfiUyHEeNFWwgZJ0mM4Y2Nipql3GgNNXIHxhCMSYktIYxGmZLOzEllxkzVqIqOZ6xP5xbFjwX_RdCLgO54UxhkgP0MpPFt3YR4DPuxwf48",
+        "width": 3600
+      },
+      {
+        "height": 1058,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMZZ1ge4tQWkDDA4qXmCApbP3KqXx1AGxOwDUEQWmA2F9JuglKoblmgeQmrzddTB4U9D22ZC82-KStcejhiXxy-vR50fUtElODyIoeGjLgPYBnIUSLsN2-ExWiH_yG5gw2HS8mBMgQz1pBv6CDE7ZZiCvMqYd6q6mrkqOfotDSrdiBDibWz03yDo0JZiFYp8IDZnOu9TAC0Vbxo2hdrQQb14e-S_UIawk9qKrzBoNrb8O_VtcdpoSK2ZRL6_bMMC1dp0NO5UAh-3QXc7b8E_Qw0cnhAqPItdnY-Rx3ssjYQlIGUVLR8eR0Xf6qXWnqQVxcY2aRefsnKqJWZufhaBBqbclMvi3_TW7RMIRfRCrLsxAHRSGZtKq01RksTZyMLQUUyGSIxWcPr60pmNmJ_Ka-QkjVeAzVk",
+        "width": 1600
+      },
+      {
+        "height": 2728,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaSWScH5SBkhE5D94hnZKtGEnkWb4jHHtR1h0cPpGSftTZMBySL-ryFX1oYQptKm2ONdwdAkVNSQ8b2U7ynaKP6JIQSA5-CvmC6-0HbEDnA_Xvm-K5qul7rkqONR6dTdRJKj5sUelaR6ONRYe0mqVHizXlBXINa3-FJ-xfZKP8sIQy7sZDj70vIHlFHM8RtAQi7Z6759OywkqVhPE-siiPaKSLGGwmLp7N9jEYYOpMUI74FYf_dUzCOm1wSY6TDQFYa-rMojyfi1qWjrkhREXisvAKy7Swbo8lks3vy1I6bOlxezRiimtMCIdbIifNkUE0htCW4KWsZ_F0FwCRpP4MVkHhrikcKNHruz2AgpROcAW0m-Qw5RvzUpOqxbUek09EltIa05-x4gKBt37IeWoLe5S4",
+        "width": 4100
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMY6V4GVtyS-_dOVxgvM0ZTD-4d-52sDwlWYI3Xy3uDPzPKwVI1GB-ERYZ1C719f-Frbt_JEZbbYy2kL0xZY5HNjMJf_FCXVhNIu_c_5y0mGL9dEwGug1isxXLI39MM-Donji3gLoF01mIXzur0Yw__9Iw2Ow4EKjblQ3hK-3A2tw7fkdvsnftP3KGnb3ZxEjUzQRLWDjNgFaWmyUBq7q9ytRSxOlgQnd5xzad0k6f8-Vr73YC2Wyi444WakSwSHEFs6Wnlhb_QNtDG6O-1wvrzdJz7yVmfe9ay21EPvMjzKWkB-Sdg5REwWjI4hiOmdJ3V42hva48azTrpO-iw5Jzk3qNGtUrNwz1KQbwhw41T2A4WTlWEARH-LwzYtl2MXxVCDmQRtsxjkYe6U_J0j6O4ifXi9",
+        "width": 4800
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMa_lNYy6QF6EXugVGroLjBrBeSXlh8smngghehKyCQsOG3jjtFN4pXAYBqJDRAxcynQnKcmY7SIg9nRdE7ri0iSUxlGzQeXvqPYdZVVmRou0Pw2QR782f5fxMzbhCZb-pPL8pvqZBObaXCcSleouUQjtkUb5WHn8oMHE-fvTWn95JaTtMpF22mheGYZrnwxPyLYO3U-zWNtG86-jaUFHNgVUp2MESagxE63_E96wQuwe4yju4TU7aRpfDHEYuEiijowW2Mm3JPQ8nY3znYTDZS1g7eFb1XgnGOxliLIN5YdYoLgA7d81vTX8mx4kSexIbvGO5AfmUNbFyQzUNBf1AMvbfm66dzBGrYM1R6Ys94Q8IvHlLfMSdqVVe1UOg_uW3t2XOOg13_yIsol6MHwOTp3qQ",
+        "width": 3600
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMaw_BpRQ732ladz7BQ5OUsqBqLCRUV5HuDBtzvGVNrByA0qahpHw89_kQrLz4GkpQV2NMf4o8eisA-JEkDBY4pcFVTXVR8w8lIgmjMWAfPI2NRmLC_Pj0pGvLNLImg-LgL-XSlmJJXPJV-U0On0yflGyGmqlShJk49uR2OkBOul5JJ_7kwcSym4hAJoMKBb_dl8PPjZQidm3ieZWcydQw7-PT0aWVSe0c1Dt6cj9E1Ll3BCQUnE2fqkkwELZ_fWt32Kz-ZEfqg9Y_cMpACO6ru71ayreFCqTyjQLLq0xPFMbIGyKQXeBshusObrezFfZGD0GwpxBlZsVfPPjh_KJPkVOE_vztjy5ncWJPvZaLnDUhRLm2PBg1JxvqmVCW9O9-j8gXjb5tLAnZ-ty36e8NPbaW6Q",
+        "width": 512
+      },
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109081861733594393153\">Sonoma County</a>"
+        ],
+        "photo_reference": "Aa-ngMZfbEUc1cK0LDEnnTq5giz-_DeyRa8NdTDRz7fLZ_F_zIGuahAP2k9jRBVvBW3_ZP8t5hJ2oS1ncIBaIDSLvr9ENDthgiMMRi0UHaOi3I0SgPpwtDjTLFr5uY4Dbfk6H6w7Ce8evVvn5t9Um98KHMFIMNihBGfNT7Sb-yVXZRNfkiJCrVj_5rBRw7T9dnLIS5ts7LpjgGSNbb4Xf-zV-a7U4ME2XTsQIHCazbd0yNi2A0Tr36KK48q1bkbmMMI_teFgh_13-t13RLU-7_B9k-xYY21ry77BhHn3dgROLnI5nJzr8d8j1gDim029KdHGvG4AQ216uUjZyIPn0Sjka7GP5kTDlaW5mez1N71pwSFJn8BbwXbixKTmc-AJQoyWAdW8P2uj-f_QJZI9lWOc5kC0EA",
+        "width": 1600
+      },
+      {
+        "height": 2531,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102563527849762676672\">Sonoma Bill</a>"
+        ],
+        "photo_reference": "Aa-ngMazEdvtsnGWlHP844iD4WNoY9xL4zrUAKHYQL-zNun9tCQPQqedxzbFT9z7X7euJ2v07S0zl8L-QLmyFIpAmtq046xGGH9AimRcHcaWr3KK478DCvBWZ0ukoq2w7dHCRqGXxEVp8tA0HLBHgAz_lgXQuaLNvuWQuWaFk6Y_iZZyNzKq5pXVNwtH_Y-kAw9T8BahhiYZ2Naf9qDlf2U-w5lwBm9C7N0MWqh-tZOj86WDAdVDRmcHOT8Jk5a7x6hQiBlR7oHmhtNLmtc3uouuWr2_T9CJX21oUbU6ho6ZFM-rePxbKD0Hltf-fC3AwIwE04PJ05WyjlT_Dz5Rb2WcGCUY-ICQBZS5My8VYi5fT7SnTr0j8wcNrFYEnwDQGGZCQqyEEfsyirotd1R0tguCX90G0chV",
+        "width": 2119
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107424568990601397372\">Lynmar Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbpY8d9zARZl07nCb6XaOwYuiZBbtIZgW0yOP37PaKfpzskg52oBuB0T25RKrgca8cu6rQldNmqOGuzkRs9RFYxEcJeknY6dQ9TTQVfK7K8Ly52lRCy4-hdW9X8cRFCBxx0Cs6vlUyP-skmtiC8lVf5VwBl5YloTEc3ciMotBgj5CV4oEi7R2CNPVMaGCm8Fmb7AE6XjHSn6rGGdBVwcT9tiRP8HhOnL_SBbrlmUQcIlH3aRfcWHTE4XPETmo2Fhnunts9EVTEy97ieWyOKb4t7FJCny0u0FgfP07Im0m5Mh8_vJ3zlv5YwQfEh3ZE0UgVrDgxxbsKIGYXr-AB00gGNXrW4kcXLujDlU0A0wZ8OWKdS7eax_GjkCzh1xgVhQLzbEhrDPZgQsbi_IH0xrAgW3eTY",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJF9rH4LE7hIARsWXVTL_zc6A",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11561852671343551921",
+    "vicinity": "3909 Frei Rd, Sebastopol",
+    "website": "https://lynmarestate.com/"
+  }
+}
