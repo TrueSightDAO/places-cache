@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-10-28T06:48:33Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Robert Young Estate Winery",
+  "place_id": "ChIJceSf3OgRhIAR6PvzZ3FdFo0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5102",
+        "short_name": "5102",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Red Winery Road",
+        "short_name": "Red Winery Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geyserville",
+        "short_name": "Geyserville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95441",
+        "short_name": "95441",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5102 Red Winery Rd, Geyserville, CA 95441, USA",
+    "formatted_phone_number": "(707) 431-4811",
+    "geometry": {
+      "location": {
+        "lat": 38.6927606,
+        "lng": -122.8228176
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.69406268029149,
+          "lng": -122.8214793697085
+        },
+        "southwest": {
+          "lat": 38.6913647197085,
+          "lng": -122.8241773302915
+        }
+      }
+    },
+    "name": "Robert Young Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106613852011011459731\">Robert Young Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYJhUIpMWiHAMDqH6tCUrUAODiWeYlOEvB8ThYGmzHGy97HcbynOXZ9wgEcBnWoX9yXRz6PsXKCM5LFACcTj2n74y0w_qx67uAyivlVMXDlxUgIa9kWIkJceBXiyz5AhzaXxKONAMAYAvZHt4wonObCHxZY2r6Z6hwuCJB5tjpO9xF5_A2w6Zj6I5qmtmXBvNf4qAFBmNcP3BfqtszRNz8A3Hs1lRPTOLBq2hyZdAVMc81dFD3dSMNgOnsGUSrYG5tdPVZaeEylM_ymd6rYfr-QE5QJK71XOcQSvd2gYQWiJUdPdoG8SkwkJVpwj_Ol8sGWhM1vN_WvzxRFE9-U74BA8hXaBvfxbW-QGiZP3K9tCjw106ZVVu356t6yocV7UT68XUGfqlLYO-XaH_rcoJ5liRhiBn0nhrRtrO91S9TJ",
+        "width": 1500
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107522708225742863217\">Robert Young</a>"
+        ],
+        "photo_reference": "Aa-ngMbq1mhwS1FuG81Tm_Fkd0fEqqKsaeZsLe1zlWfdaTcnLklgjjraJ0EKcSQHbsVLGb0l1kNVm3bn1SyKVbVSTx2tlq6w9RU93Oy9tpyKcbRRFR_cfvF4FSEPXNrDodWNyzSXXBBLY86l97FA1Vyh9PONduVDIxg0AohnS890cagJE608aTPd7GhQrM_KWVU0hbAkTawt4vbm7kPtQ7bx-pdGFuusS4JIw2gLwFU7YgjOooEswtt7WtfPpGiFv1RsXBl1l2T5m9qKL6AV08dxKBnR7HsQVTYKOxkhNuk8PAkaaHGNy3b_-aqX9lCUHYeeoD_vLmuHOamAqxxxeT0-XKnElVtb0nGofIECrVlPuQD8qQdbkYSg9gVjiYMN6dYIef8WoIEis1B67uLjBy9u-FCs4ocODgM",
+        "width": 1500
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107522708225742863217\">Robert Young</a>"
+        ],
+        "photo_reference": "Aa-ngMZWicYCanG9Svwtr_b3WnmaPlzdgEMquPBPTBJgPZyQOTfvd6LFynZn7MGLGxmCMuf105wk97E2ulGEDFBAGW8p54QBdbYFUfYgETZHFcOisch-Qt99nYjz__O3D15QT3d8-5eeBgjeJJZ9D5Aoa9_7ya7ngES_jV_Wtz9YSD2HQxfWwP7ZsLqOwntzUgi1mrKoavTCoPkPgQiVczgUAZuy7TLRD7KvBU7ZtcrgcPthvxatNye3vSzWd75dAWJ4pERQ0dOK5zG9DR63e70_NqbMWtFfM2glSpfDRJTlGPeitAg8AHXjbgqVXjDRO3GP6PkoEk_1ZKvTNTPFIqF_MC1bpu9TT6XHzCDxj0WIFB_B2CYVO30Kp3iZ1FSmLEu3eBSRSU6u6GHzFVrX4NYSaFitWBk",
+        "width": 1500
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116267625160527493751\">Hedieh YS</a>"
+        ],
+        "photo_reference": "Aa-ngMYdEQqx8inqKyH6fm_TTaHsMKg4dLYc6rwuyQNVo0Z-dkaFqri9fLDlQx0gyScWhsjQdvoFLNtaokCmAcGGh504WK3XqHo8KdzfYqc6jFBpbeqH6F4f0ZSlLK_Jdll_0HgTtnDty7HTzBqBwmsOz5HlIObXPAQUGXrF2NdCwr8OANm0BxERgBWrbOXLY-BF1_hmzxBTKSIMDz096XXlSFF6kbcOPdNV_GDKd7G_5Z1pMj-B8tbhVclHJhdit-UqBYfQ8OkN_sFyEPFEnlBUyk6uEqHnp0vLjTFR1HZZQ8OOu5XnTn6VR6qVqMd4Xn06FlkLFqTCZcaepdYbSKdL_z0k4j3jlmjmbkuKgdEr27mJuyA2QcgXP8yyTU5cmOHRIg1ZROFqdnTEBHTiLG-18knr0RLy",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115620005094645203869\">Tom Singerline</a>"
+        ],
+        "photo_reference": "Aa-ngMbPMGMjMd-6RxDuw3BDFuLnvoMk4rGkcaBHr4LQoijtkQXN3KmsY86GRdZb-_NV7mSr6fAQee6qCupBJ9Xa7Qg-mZEkr_Er3hIZ7Uf6Zc7SEngj9hC3Q4dCvRT7Ka9BywdSUxvwPijabhOkjP7smVo4BwbuZv7uQRMcfM-BZWMvGiWeYC9iOEvF9ixcXLn5ejYs2VPuIixHAwkOOIJiTXB4nxMQCA9zwgN0mPBhzlhAVtBcTOGyBINZMtDx3qxirxuMvtiUSLmJ_3IBAJitVcNxVyD6xDhl3uSG6BSNjxwJnwzAf_lQpk_9if4wk7HJ79mwZn5lzgb8EN7X8KRPGAlAgYLfCMFN-E_L1t9gVdp2L64nZW9uN1EVYeZo4fzEhYz7wRa4dB8f904q4hXVeOlGPMNItkY",
+        "width": 4032
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107522708225742863217\">Robert Young</a>"
+        ],
+        "photo_reference": "Aa-ngMbw5N-d-Q1kDCyEYJFUtJz4kQSnNRyJN9Us-4wvDq9YTLnnVN2B7sgA0mX6Z72GkBRHAylaSnp1ltGTF3pCsxamEsOM-T8eQ3XIKvvPXT8_jXwc2Glhme7d5xwgrBigKtNtaQ7fZF4VkLqfxbI7pDhl9uZV8xGdkc704LsD0m0GLiaOj2jFwcOsgqqXnQL_iWDs3PelD8ng4qlH3UJdJZccxKE9zJ02M9zXaMD2IMifYIRAoJDQfPwtLRpEsxnxaTGIZ5TRabbdDEq_aJ6oAySlENViFIojItSrgemAcXrZf4B8idZhFtJcp91ERWMjZrjghSEKyUMLAB0OnuVW3qk4qHahkUs8HOjFDMkE4jC-tjbNqFpkWNpmyzZYosU1XqP_lIE4pc6pRkXn9RQyCfBuL4qFBOc",
+        "width": 1500
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106613852011011459731\">Robert Young Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMa2wEdEtinveqwhdUQ_0mbVPKvrOR3drytBMycmt-qhzoU5w3pyuS9JUunAZUxiitxvT1_-89_7eLVhfYiG-dPsAi6sWncTOPAHWZvGkU6ZHqDbgZj9POpDZ1IZ7b6rXKShRkoZzclI6I6oC-0Zf39aV5owTK-CaXzexkNI8uSkL2WiODhPcaD0oEDs2gfJN4zWUQ4itPwTSjD3PLYcEnRBJCJeSC3znXJ8Pn1lJlvx5rEQJIIZ-JAmMoXGaoyE3TjMnuZ6-6xG42mA1mkpxwbkjg0wd8PCJoEN5YhNoNBDg8UcSr8gsZPlErg_oEf4Kw2pklta8WRmGXhipNgr2bEGdOTL_aIWaRc3-_IfGfnQaINxvgIxyPkB4nEPbxePZ-o0Z_MG-be7M3ZtfBTnIn8uDjs",
+        "width": 1500
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102911192894546196997\">Minghan Wang</a>"
+        ],
+        "photo_reference": "Aa-ngMbDJ4hMXqwhqk24UTgrNYNu9183njesgliNeGHbZ5peVVk2xS46ZKO25mYjdbQdUfV5cFRWYRlU2pQdaT7qSX0eOl4_D8dPc0qYxpqr7RNrLE4qNowCZXTdxrtOVeUtAq2S69DclcghUc_EgGmOaMSEo5qIBc_4BJpDKr43M1T1LdQ3ns-brNgQ4FGDauGB3alhoG1WVnUdUia3Zvj4qku5vAosJVYcW_C2Yxgc5GQ419HQVOb3CH_wHw1CSmQPkElItfNZv_j8ep7D2JsmyxTMcOjiHrioaESoBajMTihfcNUfkQWJpOdBfbAIQQVTMkLVxFJE_uUb7zbjazm9ZH5D3pX8UR-ZaCJQe91pdj7y1VQ4DsoqWoQi-NOyawLRdy_XYFY4YbqQEHQ-vHXfQS7RWAw",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105650316318284430631\">Jenica Rose-Stine</a>"
+        ],
+        "photo_reference": "Aa-ngMZuS0GG1obr_VC9k-Edh2hkXeXiwH8Y-jQHwC_eXzYeb3MmMWlCcVRHs-YhT7GRiB_Q2SYmZcSZ8jIjzMHeBcmRDjTgZyo85yEA5uk6A9blY-s23K3bO3slDsgWuM5KQgHMMQ93BpcJksaiySjbn8r2x1v0EHn1tC_nusVXedPPL0rClMwEeHgtzVscoJBhvMTzjtRzb3tVcNPvir-Xngs9pCg4h1fpMBk0FA76r-vpxcwrd4ugUGQ8qrOM2FnwdE8Racll0BZQr6sexCTstXC3wsltHjdsxZCrxpb4P71evB7qv4kRNs-yh96O9ylUgE979bqHR65Ya5miMpPpp_YQRhg7WixUFnhAb3nn3_ctY_7WKkQUuSmP5U5FD3p4MJC_fl4I4uBP1PyqXH0yNnCbvyGvIiP8EJoHiuXrMlg5",
+        "width": 4800
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115515922995050208586\">Michael Johnson (NapaChauffeur)</a>"
+        ],
+        "photo_reference": "Aa-ngMbPGEwL4iOgAiUzsVLetCRx6nRGkv2IxKO1uHjvD55dpkx0jInh-D0fqcNfhWZYR6LujQcyX8iIwrkAlM-R7w6zKwKA5iGRWWk2qMJtR_C5T0lwV5cnypXWuFWS5MAo4nzCj8VQfhliUjpDc_5PPL5-_gZknblcQIa-X4DYm12dzlDuFSTlS-efo9LKOB-DvYV-ysXmPME5AKELSni-A0xEO0DkfVpSo6x9Lf81w1kBZbPwCNk7VVb-EJdDzk1qhWGVeJeLpB18gaokQaQ_LedP2ZxFdrI636oYasP5cgL5NQbTLIj3cRTkvnUDYruYnmpZNazOuUFy7RGm-0eI258U4RQi416jSaAGE8bWZXDVX1aWs8ysytKGWvtC6COPsgycYwmeSt8centLcdgwOETLWXo",
+        "width": 1620
+      }
+    ],
+    "place_id": "ChIJceSf3OgRhIAR6PvzZ3FdFo0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=10166415950492204008",
+    "vicinity": "5102 Red Winery Rd, Geyserville",
+    "website": "http://www.ryew.com/"
+  }
+}
