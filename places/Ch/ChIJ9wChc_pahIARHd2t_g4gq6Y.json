@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-10-28T06:44:54Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Ehlers Estate",
+  "place_id": "ChIJ9wChc_pahIARHd2t_g4gq6Y",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3222",
+        "short_name": "3222",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ehlers Lane",
+        "short_name": "Ehlers Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3222 Ehlers Ln, St Helena, CA 94574, USA",
+    "formatted_phone_number": "(707) 963-5972",
+    "geometry": {
+      "location": {
+        "lat": 38.5320946,
+        "lng": -122.4982428
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5333936302915,
+          "lng": -122.4970870697085
+        },
+        "southwest": {
+          "lat": 38.53069566970851,
+          "lng": -122.4997850302915
+        }
+      }
+    },
+    "name": "Ehlers Estate",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111862602489303070415\">Ehlers Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMYG4j3BFRE56TtS8dDiXc2X3ajm1eUvdFmoguqqSb_dt4jJAECl-c7sWrln7l2Q0BwrcSjUFBYmd8EaeLBGbTsTu74_fwBXfgk5S2dDatJGhamidxgF8DfwxO3yKH360ivo_suHMhOfP8RqdzToZEgB8GPUplcT8Df2TE6oBkCutxyRE21UqXP-Idzwh_1H6cuwTbQR7keeolEM_L2f6qFiIkD7G_GbEG3wUMHBUh36TgBVMwUx6BlShXI16dPToMuGRCjY8nWGKKrI_LvE9ZOiGvSAZbo2clpqGqUUKx8DSLay8tOGKdsj30PzSkgoxjg7nHdoJrWS2WtXNPwkffgLc8uJqdVyYScxiA0v9GFyG1J7nO1Uo_D_h3DFu328iHiNKrVHaw2A0nG2xHj26f6p-gT7S9Y",
+        "width": 1600
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111862602489303070415\">Ehlers Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMa7CRvBT99pBOBz2ueLTQQ-D7YZOV0zIbaEOL4h_lKfHfHKsTNgP8k1m1whJU_s1VpKCfEOo61tCYuxwolxQSBm88x75pznhp6rqEZ8hrwja8LW8q1lmChc0W4XRrRnHfSUcT39X1RrdpIBvR74igM_2_qykMpUdUM49X39OB7iTbJqis4wnPn2HjMvgPiRCpIUvFQRd16dlyvS2NSlHe74d5C8rXxSTfku-iPXvIwgFN9WVne_aGE7sFj4-VrFpMkAstp6JfFOl9WOSaJj2TLJfFvbJFeIAN9A1pmVaFcuMgh2bkYxZAxGbmUobOdQgIqnMwANUJuvvsj6--vPbKHLCvxC0yamTll0klPpha7IiHCL6kyZpMmKf_k5q96qNWl2aARw3w29RYm3xlc-x8jtL4-g",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114359909228074887327\">100PercentREO</a>"
+        ],
+        "photo_reference": "Aa-ngMZO0PAmNUp_gnvrsYLE1cVc5CSTYEblNEc_feZ5fghQEZnYodgzYU8NjGbQb8HvCWC9opjqM_3JBU96G4e1Im705Fm5-YE_02tkJzT4HTgCn8IbMTf4da4OTxgbELxOa2aDFzzct2e9DVTkaV2mbn7s_KDmQ6gDPVM91C_LYtZz0CxYUax7YoMIUKJ6dbEzduHpceYliraFgiNBI3gXBGaH8vXHYLhTzADfhAmftqi5X6KYA7JadQdhyr2jVNr4mwYo6TgmI1mTaSw7-JnFMbCgETccXqy48-o704xuF-fYAO9Vpib8_e0sSUGpYCaXdKpSmFo8cPqb9_sG1MzrcILUp8VjNuZ-JEHdnch26YCuqOXcP_Dx6ip5MRBwIwg52Tj0TMtjX91bgQkouNWuYeNzf1E",
+        "width": 4032
+      },
+      {
+        "height": 683,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111862602489303070415\">Ehlers Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMYUVCWPA9Lz2sY-lpHzfhy5V61G4iuMh9M9jA9YBsUivjdGA_jsn0BM74lD8rWmzGSE1dnXI5uYJNwqoy5Va0QkgWuwvF2s8FcjeouYW3BhV9Da_UfM_9tnUvMXj_NPyiHlkspVHVIm6hVWviYythvvR9tarM5bd2dbTCjyZr-gNvb1i4k537AeKIhTZVCJrnNFihStVvshjtO1Vks_WK2ke0A0XildQjNClgJ6j57uuUaWUbM6I8xZAm7LIzoE2IDOVFbDtS-0cY2mhOJ0yUvLb-LN8LP6Sj8djVOWlsBnzEDnwco8Di92GJkbpsOIsgQ4zWhDEktg-r_e1scDj8nIGMh2Ki3XMVRxe5r8evHmqKj3T4sN4xXcXduSCR-1B0JCfdkH1BPWLDhk_LrJdOIbt6nCozw",
+        "width": 1024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110117385739832772688\">Vijoy Pandey</a>"
+        ],
+        "photo_reference": "Aa-ngMY9fmzKMZ0zWJ3yJKuE0eaHivOdpShSub0nCGYqUjU16kEYKbQFw9vWWiE2VihuPH1Vi-l-EMNbsgCpm3_gEdNpHPkhCIr6sLoQkKUuvr1Y4VonMrXg7BfDzWuczpcYGUpAefZ899Dhg6TZzSvybSQCsguz5KLZB-jCJSqstgInabr0YKlHEaH8MrxbunOcED7Tnh0G5buAs-C159dvlMiIuoT2xjqgjdz8_Z24wWhNe1oLKKgSoQduSLuYBWGtRMfy40qG62pYXzAq1tdmftR0dDwFK3LNi_2BL4iYt4r8YvvswQ5U8rz1aYxPhHr5cUxEWs2SWGuT7iH7DBSfjtl1Myrmx9A0_WvDj1iDq3lrNPLPt1bzZ_RfYBeGvvoqck1FVeYhsAO-VkzSS7xskGHHwaM",
+        "width": 3024
+      },
+      {
+        "height": 1760,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111862602489303070415\">Ehlers Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMb3RpUubh-UCrPG6usp38NeY4K98ow6SWOIfM-Tq8uLQieZlBIlQqpiqgdfOmQSpPjjCYIfRK6xF8DddKpUpB6v7sS5F_BLcn6DFuL7Pd-VuVOUMcreYwSpx-Yb_2yFY-wLtmRtLct9xmEfPyht9K-nQRDNGzCZGD4WEkfNgy0FqxUjw8Yo6makTy27xk27SSofwT68pDLLctkmL65kdPVKkvJFH1V1SHt0PFlfis8siH9b4HC4sEkh3esilD0EyLntG0wlBJdeL0ThOGvh5q5NQIckuOW7Ddd21Hc3_06LrUyybaEGkxtH5v2gnAnIDm2F17zwD-fpE9H9davu2r2ibVEgMJ8KX0JR3cjcr-8mokrRXivu3u0VTWUcQT_qBQFQFi4nJnSrDC2Lsu0pVZrkxbgLOyI",
+        "width": 1440
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108233191174217566802\">Linda B</a>"
+        ],
+        "photo_reference": "Aa-ngMbFrc5FF0_B0znHRVdGk9_SOmn-2NKx7G6mKO3dQuhgAR9dKJUfUMcu0DJ4ppyrhiWYCaRDGn0Kjry7ODJnvXoGpEY8VnJc9WQK5VxhHDidC6Jnjg45C2VdKi3HNZjG4dYcet70ZFKZddFIlBhwA5Oaoc9UOH6UoBITmTMgY9eUoyZBS7jLk6MXQj81HkwJiFAzTYsjwc0pbpzj2OmkzGvdYNHQcDekIVGE2-bOf4XX1vjPDstXInVWt7QW7-7TnhRuQSIU7wFfaV9BlVWSM3MjdHoC69RaHCul4e8EqgR0NqIO37su9Mkv5C20nMujonBb8mKatFvfoDt5tfvUJKBcq86sLVQmRx8JKj21PlOFZ_koXPgxiCRcX_2xBuW5IkMFdhCLNxP7tgf48MTKnjPd-nPJ",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109190219915905577411\">Bradley Ward</a>"
+        ],
+        "photo_reference": "Aa-ngMZQHNhABA7xr8G-62LGhfzoYrrl-Y_9b5IxqoHfUOxP0JNHSw-e3zz1r1PgrtNECkdLtibHZ4ug2axQu5u7Ji7elvkSRCyD6qVBoAtRXM6c7EPankoj-K1Ixl9_3ydemvVbD2taqZgh8d-tcXoRmB6hLqkV8jOCeJVsVbCMj6-sHkXY8W6pzvhQoOZV7h4tQK_gpNxJEQy21CVKb2RBr_Yjf92ergLptU_IGNZr8DkKV78qtI5txLXOnQXY9atcqyWlnXG49k20m9TEpu4Jx79_lBNizeohoRy4VAVPMCR2PqsmfXUFMfrWn5Y5X9q2q1S1sYPSC4zCpsKpfjIFcdPmuhr-2UjbiMIWPp06_cZQxQ_qovEuM5XQRUdxAiR-OVHXQgSvQdFcF5855Ki5x9nKMw",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113687872048898902771\">Michael</a>"
+        ],
+        "photo_reference": "Aa-ngMbRBbcGJuihAwcJDV1_F1mgUAAN4c_oGZx2InifGnYeSd3ApBlv3hebhl8u-dtzjRMVfjK7j4fAh3NlUjUI9ASfUqlwv68RZGaIaqOI0Owj2R2QRq5PfXE-9ZvAgFiLVE10_sl6zT4F9QuKMOBnU1avosVhu-7edUQZbPrO942ygvwytlJpqRVYloNAJ79VsL2oLMYA3QvLWwDklQlRoM7tW7xgrIDlV5ufsvyIm-56yPGsBZaf5qTR7OzKY5-Koxgx0AOb1wYbBApPcnmWQOKlbUBs8NH4ZRBSXj8kmJYPAohFvV5YS8EArSD2TuIC9B5vkpHfv3nxarJ2_xQlT1zD_E7Z1rd72dWCHstKM2TquExH2WmFZlqVeH6LsBTkmywDYSnMQTIihZ8dwQAmmFT7Z7oDjOM",
+        "width": 3000
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111862602489303070415\">Ehlers Estate</a>"
+        ],
+        "photo_reference": "Aa-ngMaF7JhHPGhR-XjHuDWmS273Psj1gtSO_YdnuLKgrtEhuQuIHkXBU2QHbWOUTdQf22kLhK5j8pyJNyECiq1pUvkj0RGY2NHDSpJLl0bV3rwpFGUbEayo99PpZmyRidVPfWIuEo450gmlIqsaovpR1ktqNBcbeGckDwDSPECrtYb6kmXes3LoQmuNrJL4p_Rq5p4M2vvwvTO-JtPUeR7rYiJwlrp-Mf09hE2YuuSzXBIv9tFSQZEz3pFGt_h1Vnvz_yMzTZYCEoW9g_RJCNAB5ct8Rw-lRsOFd6Jfl8AvbUqJAA5jz92O_JzI0eqPQoF8Jur03_LHOS4UxeVInHiwxV3N1g0gkq_dq9HEp3HNB_mDecNJpRSb9_1iWuDQMmlN57aueh_vT6Ka68U8PSyhPSEYqWhyGDgdUApmSxzJbWtN",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJ9wChc_pahIARHd2t_g4gq6Y",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12009728080087997725",
+    "vicinity": "3222 Ehlers Ln, St Helena",
+    "website": "https://www.ehlersestate.com/"
+  }
+}
