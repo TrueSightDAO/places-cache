@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:58Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Far Niente Winery",
+  "place_id": "ChIJS54ghVRUhIAR2-HJQ6_cNcY",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1350",
+        "short_name": "1350",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Acacia Drive",
+        "short_name": "Acacia Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oakville",
+        "short_name": "Oakville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94562",
+        "short_name": "94562",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1350 Acacia Dr, Oakville, CA 94562, USA",
+    "formatted_phone_number": "(707) 944-2861",
+    "geometry": {
+      "location": {
+        "lat": 38.4257857,
+        "lng": -122.4030004
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4270850802915,
+          "lng": -122.4018518697085
+        },
+        "southwest": {
+          "lat": 38.42438711970851,
+          "lng": -122.4045498302915
+        }
+      }
+    },
+    "name": "Far Niente Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1630"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1630"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 576,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108281884509520426537\">Far Niente Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbpmTlc1gJ-pWz5wheWdcWFnJLrp9DfFxly5ec-RTowsYDpF9auVpMyRWfQPTG7t-y4gkKpCn-kNU54yOoWYDP4YdPDtB5btqFt8gdKfy0sLfVvQmwj965oJWSqOKNRlK4m8U_0OW8Oo5mA4atLwOv9NrsqNz3A7NhVqOEpervzGsbvszZI_VAqU2qgXkae-nBwF3NRgrMvkMVKGW9HeZAYZGbbmZH_DCytwAfUz2pt5Gx24Q8fXkf4Oy5Qmt9JIWwAYCgFDLzDKpb4nDO-sk7jlJuYMuYuRZ34ngbl-3atQ1yeVnMWHdBFbqjUsG2c4l5I9T9xgSXNcUcsmcZJYbkn9tKSTcQTJCzNkBMeXMdN9qzlZ0GzwvKrIe_Wa5EN5XKyPl9U8BPWrh7XhkT-aLUdNw",
+        "width": 864
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111232044652009831780\">kimberlie smith</a>"
+        ],
+        "photo_reference": "Aa-ngMbYNFDqJVySv-yuUom4dujmCnkIx1nB_bLM_1ERkvJmDNZJimpAsamiXyck0j07mIrinwp_mBVdcDRkVywdakPX85t-4vHXFrfocCsktE0VEqfFx0ah53pL_CwOOspvx2k8Q0IYn1IV8cDKzFLkuKNb5q-OoVMN6wpdJqek47vpgLusuxLPrRepLf6-9a8aCwa7F2T7BpLfAiy4L4a9gI38GdwY-KaSK7CLqMT2ETVDFGtkjzo0OVI0KbrsNDMqoIT0QY5YN8gOKSMdnnKO9-OdXMHsBqrgiL70szPOBiW4MTDt_RuojNiK2VsuyK874Pvjn42soN8ZJV78O_VYnXKZ8ogTHePBgpyq76lrAbugNFiqYY0ABKGjLmhMJGjqBqkKz8R9Z2MS3TLcFbsUMTPr-bumh-Q",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112771779495361886270\">Wendy Chang</a>"
+        ],
+        "photo_reference": "Aa-ngMajWPxNHbtrK1KTWKqtlGohWAmLRShkohmqql7hIDipVvJbfZaRygJ7NptboYTbMuIAlYWYLGdqkGPK_sU1BQ55KvC_LyuryQuB7k9N6nkM4VrM3NW17SS85KdLZkYFTK09lfZeY_KGFKJmqlrxaO43mEhbYRuEDeFfWMNafZQr-DqHsNPLQn0tCYfREnw59ICH7s-_uBZnchHbAHzFRjyKgUMLXvvnc3M3esRPmgdCJyn8jNkedKgnis1wV1U2vjeHQAbUzfDGk4pcPzdz4YvsdjnrvlaRN0q7OpH2DYUDmLgwY4iWiDkr2onlLsRiTs5YtMS_aJtI6jbpdKCM6YTqZdhBnmB6cFTWMygnJ9nzvWteaACWu1zVyKqpL6A2b2-duESIb_PcnK49O37OJ9jnYE0",
+        "width": 4032
+      },
+      {
+        "height": 959,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108281884509520426537\">Far Niente Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYdf_pDcjValXbOIExmS2obZdrSriRFNln_Q6sTGKOv-3bJg3bTWb90XSRqmZbQlPy5LDjjSJneY9ifI5jahwO0NP_XUVhgarkSGdS99vH_kDYna4VM_f1S5JtOYQNQUU0-ts8V1yzFl_N74Vy5J88nF74xx8NndssStWIAxUqDbby43iq_MnAWE0gzy1ik4BABJCoKA884AZK8sAA47e3eeyZ3i8F1IQ6bv31OENYE2a1njES_uM-_VWXBlVREcI5RbUwr9PwW8U9Qm8FxT_yAGyAgyv7PQ5Uvq33YdYgJPOpr-C7_QsmBnw7TyuHELNqQBamiOJcKVZTuI_XcT4V6Uo01FetUwL-xnPBe-04sMKnmUZn6XCV_ZEncNlh9GWYHjEVMoPx9oOHUccMRQVxv7QrZW50",
+        "width": 1439
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106374217724250995070\">Daniel Haim</a>"
+        ],
+        "photo_reference": "Aa-ngMa85UhiPLFDrlW9CHNsM0JoKst0hSVwJDhygJCUj3lEYtUJVTEIPyqOnWjNzIaeqhJ77Q0UO82xa1w5EL56MASwRdJl6-lzFm0-7F_NTldBMv5IVyjr94trWl-1nOMJ1MI2EQ6EaEt8JCGhXaFOwHxPqNfk7KPDOAoqZAvRZ_POR1A-ISgyKiuPB6FbDkchFEQ2_NUL76ZKSL7DvoIQr1au_qxIIe63mNy7jjHXdMbmkiwbRCo_RmXsxdMHQiYjxJc7DONHxpoK9S5c6d4nsu02RKMUyPkCLxGR1cUXEdDncBaQdU89djyMq9jAzVDBvT_8lVQv9Scfney1DCGvs061OA3aCGz2iThOWGKlDma61aMbCRHHZvrSXni2l6KBZgof4HE9XxxbaQLzMJZnvbL9I_rKSuB6QN0EfoVTdrym",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112549117813680364092\">Anne Garner</a>"
+        ],
+        "photo_reference": "Aa-ngMZRmCIYQfKSNoMk-6aeKP2bJUvcB7agx27YyCpOGaEbrlu6ybDqUq10fruqlt5gpTZf3fWvvClOGPxJdu3jKZ-CKzBJZFrxMSHuDYmYMc11g8HEPvBymTDKtB8M6-cCIwHmamKKK-gUeoG13S3mkEljKe5NiEK18iyWCuzOZ1CXANbL-O4TbkMSQZKonVq8cJul93PyuQq72hPkYhLPpqb9RQcIpCYpLG9ZAXfuD-LZNEr3SFhVfY2NAd291BAcbiw9XaY7Rw5rNk65HprNC-mm-cwF0EsUzkK8JLLU8mkbknpRlwm4n8ByiVwpWy0v29-mNeq1Sg3OKZyXdBmLA9ifjzCseimRdRfyUvQ3yw0nsy5nriUpmDEvKNbI9ROvoiBfOK6S-JP5YpiRvMWKMeKgL3OySWo",
+        "width": 4032
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108281884509520426537\">Far Niente Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbAUQyVAfA-w3TpazV6CfyOw7s-mvDvOQSlx-G7rYMuSVFjasw6x_IeUAW1UDGDo_1gh6STVwzAt_gCdlOapQZm0ZcGEDZYrNAcqgkMacIecIEiP0bvA3d3cYtsRizOl0XeVncpteB_b0UpIM6QERU0laJLRhKrzRFYzMoG3iUovoVE0bbxRgYMLb2MRzatCyNoicGPyDTOET6I266Bwh9rTUVtfZkpU_G3ytdzC-F8gOYUopRdE1JCsBoLmI4awClV7OTcrMopy3bnXCTm6STaB6coEfHCvi5vlis6bZfVGpT9WjCMI2ESL42MSdikYwanTKsgOVtNdi7Z8ExtFME_UZtXrEDMWv2zCAhZKYdiov8cXDqfgo5YsmHNTWhKIOwLxBBgtc9DJaDVL9jNrEyNug",
+        "width": 749
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107132257193086734208\">Komgrit Sungkhaphong</a>"
+        ],
+        "photo_reference": "Aa-ngMbi1aSJHV6LDhx9VuotzczABNfCfQdyKZNFnv2XrPdYFld7WH23LBXumzQn_kxXOE7dw6NAskq0gebY4B2cNWQMnoq0-tqiptfUonwdSS_9X-fPvwal3JY_4OthIu_0tuKAd_Ffv1zDr0UTOq0rR5mq6lQBKtPO-h87_VVqCfJoab-o5gltLwoAEnfDFxncGYVT3zTl05Y5ShLZWE9QhfzuNhye_Qi5tqyyP3WyqiT5i9Ii4FaF9sSIxVAXV6nUQy3tmWzu1q3Tn7FsoS8CMncUSqQNXFlFyflu6rsLC3X8RNfQKlykW5BPwFUBZu45e1uSrEe1oZ40RFmjzM4M4xr8JeS8Fm1ybRFQ5oUULk27EssZFNbxh2jIKNRoRAhWonqu_iBYS_B_YyEXpsS4tSYJOUy1",
+        "width": 3024
+      },
+      {
+        "height": 3464,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109313121398776794727\">Tim Suh</a>"
+        ],
+        "photo_reference": "Aa-ngMZTDt_fqMhD39NPHHw2TUYvopXis-macUSU9SO5cB52mAEVuRPy7YdkVqhCmA9zMoEjF1ciaBht_gJ1SOJvZEoyyD9l0-2czWeSqID8zVGdwA-JunjI3ZFrE1LCAxunvWTI5du3lKJbFC3oKJGmyx-1YYxYlVrTw0lLQbLgss2RCDEhZixQx1HI40LSvaw_Q5_C9d-u79oYOfeLYX22l7fRmiRKpzsvCO0SJOR11BrIzTb_6dCqeAGonSl9B_3OJGeQfyZajNuBhmmfDwm6YYYLQ2fN7rANvGPoQQJ5O-v0Bb8VAAyn0duv8l-zqitZYel7-XtNG3bsv69EM4Uyov1wmDC2t0xHqkuZDSqkh4R0sYZnhVCM5CZpFLOHzO6Oj-bgZU0fZ4trqe28efYWll7MxS2Mdj9K5_n55CA-LYos",
+        "width": 4618
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107938564940959960452\">Kenneth Yong</a>"
+        ],
+        "photo_reference": "Aa-ngMYrdjpErbSWrGvP2rjmOvAA3rRhFahUX4ZLpEVoCxgwGkqT_grIM230vrtqT96MwmOLugporavOXjFyVY3_2A83ivpj5jpL_taPNOi_v68C1pNEwxFTZ6F0yG2sp_hzAYttOsngAZKav4Fw4O0MM3WPvM67uOSoXsDk_tlgSMhshhsEg3qeWclXlDxSWdBWOAqjwFO17HQRh1wz930LMjwQsDIE5JOKgPYh_te5wYjJAhly7iF2k4ZQL-w8KhB4y82PvhdtMckMvrDf1nCoW3lFcO3zXTMhUU2xFK0UIyjbwJ1tfrtyutrWuGV-N2uUdH5mhejSThrvXOVUxjgdShfDPJxLcTF6PvePTPnwcjtrqmKXeEXfl5KcrrClbW8hHfcBZnlbcrEeWH8TeIdRS-sW3QgxrVk",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJS54ghVRUhIAR2-HJQ6_cNcY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=14282564438590087643",
+    "vicinity": "1350 Acacia Dr, Oakville",
+    "website": "https://farniente.com/"
+  }
+}
