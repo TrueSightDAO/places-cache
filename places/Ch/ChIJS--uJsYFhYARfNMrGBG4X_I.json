@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:56Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Shadybrook Estate Winery",
+  "place_id": "ChIJS--uJsYFhYARfNMrGBG4X_I",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "100",
+        "short_name": "100",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rapp Lane",
+        "short_name": "Rapp Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "100 Rapp Ln, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 255-5661",
+    "geometry": {
+      "location": {
+        "lat": 38.30895,
+        "lng": -122.248222
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3104181302915,
+          "lng": -122.2471132697085
+        },
+        "southwest": {
+          "lat": 38.3077201697085,
+          "lng": -122.2498112302915
+        }
+      }
+    },
+    "name": "Shadybrook Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104208171589337301377\">Shadybrook Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYVzaBaP9RXzd9wNg-ly_SAXuHQhRvCyWac-iB8euMKOdLEtmtzDfqecBvvm2-g7RRvcO47rAz9xz4d8TiYTHLMP8XRDWLE51zNrdi4ypSSqbO9NlkhDlA88-UIjypyVQYI1jvNt0QK13erV3b7yYOXBncMScjjqHH9teapdS8EIF42zqPC-aH9H1Vza9JE_N8mMaZFiyuNGrXYOUPmpOCBguzsNB479fJqtgqKdevrEr9H4z6ysZURjDXSC2kIpZjG9uXDNBFkGwLQNO2FQbMh60oHMbeDMyggBMjdBYWAiY_0IStrFO0A2U88nFon-6uoMpclyaJc1EpDWyUvcWtW3dCjCrJzBJuhamx8UG6Y5-BIcVf8qmgOCJt7yy7GOLQgG40srHQDB-Kqo1G6eiBgfoNCiE4",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104208171589337301377\">Shadybrook Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYdqBoG1kUmhdx14o8ci-xRfpMwIeUryeP5x_MOi5JyfitovoAW_mKuleOEHxARWrGSBIC7QiZ6VZiC2zngWSJd0t8ywSgt-d7z3OVjOwH5HEaAbwI2sG6-M-AsVYNoyL03nqaFrciq_iRu6Up0TVOfywzFMf4VbQfCV80Iect7c2PW3KeiAYHjRUFrYeOgvee3pqKI68Xgf0QqXLRpVVXHWHu3Nn8n2iWX8kS_j-LfiM9JFn6wfMa81EGhCplwMooMw_m9AiJgTgcxIcs00Ck7nf0ZUWpOg8zgzDUcADSF1Oywg4m7600vlwL1k12lJwZfl-w1i4Ar-XfLJaMMBarwBQ3Jt2WNnPvP2e02mhS4hJ5cn0cJ3_iB3KuOx49rdi8lSKfjzmLE-X7jyBmIKTYNqbvgAp4",
+        "width": 2979
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101612554502042735170\">Jackson Hankins</a>"
+        ],
+        "photo_reference": "Aa-ngMYQFPu-MKPWSsDLdLuScwjWMMM8OBasy59QDswZg8gyJ1DpV1u9T4UkOUhWujKDZNDVfi3JxvCGfEl8zMVlY-EOptPmqvQTknLj1JMYjcxPEP7doYB-3x7c6TYaqn5x3SPCllxYpdNO6IxU6kHgzba1pMTWaxa-FujA1uqmtrBs237kQUSExXkJwA_E-6-TYbE_BIjfhLIPwJNTeavxwsLz5dGaHXfp732z_SLgOBXAxWI3YeDejbEwfA8NSc6whXsIUYYWCAlRfjPg2KuST-8-vrxhzSi4NhcLDtqt-Q3R8xAJIFhWPAq2SU9Y9LXm9XVu0FIaGO-hCJm0SeX24uqKtzdzpmcxTQSkx6wFS1dH7y8u8NUxbiiBhK5t0u5i-UB3Wen6aOYTxJjt7mwS7MckT30",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106066383607866198813\">Lo</a>"
+        ],
+        "photo_reference": "Aa-ngMY3OzUOD7O1DmA9dRga82n14GDNhiIKeWJ7832XwCmYhMAjSOfWgdYXpiwKr6uhIZwU3OJ6EZ6lk3_ynwYGopFPCuXD-iu5NVxkNIEIAKEucDqMtH45Hq_uTBomU1frcrwo3WovRuQ62PT2N0D6BGRCPDvcos-rzTdbdJ-7GwAWt2fuCpIp1WyhnMix-3IXt0LbbeQNXg5ns1eHkhBcpinZXV89v0MyL0qCONWv5Dz0W3dv8O2MyLTINSGv00QnS-pmI-swXMFjR7q5nimp_EpO5OLnicPNcx0xHnRrrTKxxzviM3b295y2bOLDFjYNEVrgcGCHSXB6-IWGslhUBBVe9YVkUg0PZTQyKN_ymei-jTSS9l0Vump7vFJqp1KJP_nTcb0TGWTD5UgoGRh25AUh",
+        "width": 3813
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117100929837534876107\">Lauren Brasington</a>"
+        ],
+        "photo_reference": "Aa-ngMamzpDzPeCkCOBgZtyD_1WHIwwEdvHEMDV-uiojJfHww6lFbXfRDmhZR5nntj6wq_ypjKZYMFlqF-bGmZEm-7C0e9MkmIxHgBSG8jpCcFw9teWi3fotJrHhE0d9eXxOZxc02F73pli8jbTgjl8WoOWLkpKDbOf78jJQuUm-R7CqopvskPBm5FiIaBJrzZp4znO-0zo976vExF9MNwZnCNIvK_Lu7F14lKIksg5niTIb3lUhvniNPQisrfQGsArhYnYEIVsIvXGRukaIfs_ufMp0pvy-l8ZthloYERNH4nmOqNniAuTnyto8qd45FQoRgDmBgYao_5cdrmTGyyxxsQq54fVORZcoMk6ltymvvyOODY4c3SOqpRxa_WJj7jmes2al0LOlHcssTT9QhnYt_jU_Oh8",
+        "width": 4032
+      },
+      {
+        "height": 3018,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104208171589337301377\">Shadybrook Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMbM6km65nOSTqx-boqZbGbmkpiJNF9Yh5mK-F2Q1ceI-udFTrGKmys8lTbi5bbefmRDqhTnNZZHPv0R4DfRvHLGeKNN-_4Ydf4rFKmUQfvQvYQ6UwhYZyeH_OQsMu2sJkunJX7xtj1ebR5fryBM9gr6eafTsVr41SwO-lRSZZSJcKvZPg2gN7D-3y83IUEcX5vO10s5QBBFD5shP_-TQiQJZE4Wi8rDW0Ou1Vnydq79tarj7p3Z_uY0FR1Gl3bzw-8Fkcw-BYeKpV60bDqZxwM_pSWohme2Lvg2sl70djSeliY5l836OD7qUsf7nowuN_cO0wH4toBTca4eg2g_Fg-hZLRIi7Qz-COZAkkNrbokVe7l9qkf0IH_LSZL_OfxOzcgQKoFPIjQOykRC7SQfmVfwVFqe90",
+        "width": 3018
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104208171589337301377\">Shadybrook Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYVJw2V_lteEvl1gb_gH364ze3Jfidf9IHTkohX0-_NWEZ-yHLwmrulyKLSMXDNJG7OzfebPCUX10JLNEBd4r73CchvXIfsIdiWGuJXjQLuDTDMD7ZEaxbxrTCNYEdgfOWO9lhHwFezOewyDdUzvV_SJmLh-UuLBIgQuyetanqRTGu0AyvYJG5WCfXkxoo4x5QRPgsJ77348Ahp1fdwSfZ7DvGgnVh7J145-oG7kO2zj1UWE3xph6m6oU2LM5rfP5uRnYMwocFUlDcc1wg4xxvRjaosGCCmKP5x0a9bw03X6SyOxPDvOqBLhbHPQqsg1TH5xoxuHmfnvUIk5sezld_UZPfyZj7GG8dxXQ4bvY6zucUdvY376z-2EImbsHBDXVwF6CnoVLXAE_Mz9SqeP_WYRrNN5uQ",
+        "width": 800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117100929837534876107\">Lauren Brasington</a>"
+        ],
+        "photo_reference": "Aa-ngMZUOZGw5w7siu_7UWslbhEsdPqtUwPN5jIRI3XO8cmz3cx6bnbBrT3txt1RgsFBM_2YcwCkB7h0U5n6r-MDdGHnde28LkpFOTFKkXVCbDSyXAgZWhYgc2atGZA2nbGuUqGNSMqeXNJufeaPh8n873F3eoAYuYH2mcF6GbgMFaAwJZlXZ2xcU7BZZ9lPFF2Nqn5x8lMX_qhmWMHe62dE6xd3NMwGOuIsFcRyWbDzQ-CqzZiiAd7hibnAVf7eqGsbWQoIW98F1_VX-J4sBGQ5XUZE-3MGRe3juMnVCrltrfaOWlBCqjvi3sSAOizEpV-23qEve0fRtiQDcS2IQRRp_0Goahds3WbEtjvk8AbPSeUNd1iKkiOlf_Hvtfzt5HhBCcaFCMCYnYoW9EMCXvMAeAoAnmWMDGM",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106989184920188274566\">Rajesh Ramchandani</a>"
+        ],
+        "photo_reference": "Aa-ngMZK185OjRT7Q-PKuLOyl2IT5nG0_-BHbF162mudOW4CDC3c2p41w7HwXDyirCdRlDUYXHXuqNvsrYaCQibVApYz5Dc0xn2zcM9NwXeQLO9eMw2ZAD0kQf0ipeTdKNngBNkHQLXPv3zKrojcZTHT_BrUIMB9WWlOVr7DUrx7wADhbbW8PD0IsqN-DTJr5avpfBDBuh6_fWUNXVlj50QvBXX9lTyxn5WLHca9izYVI2bJRQE45uXact6cNwo89LCBcRkxCvCRpBD1td3kw3-GqXqupKNbFWDZnAJdsmQWW0BOLaq5MN5TFKyH8GL_5rNtyqZB1LM-JsxjmWy4bz7UeJYJWy9mTyX3Wl9XQrpIkXf-0m53U6lckwLLaXJFa8Mp1V6_X8jSqQL0Ouzt8IUrwXmzBeHATipT319NJiX-DyVS",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104590764226817992387\">Rodolfo Martinez</a>"
+        ],
+        "photo_reference": "Aa-ngMb8tH8pflCSMdRJhnAJHmgL5optNREQsB__2bA4YEi04j28syaykN4y725sl1V4SBgjwbJ8p3DFHPAzb6XYYKuz2Wr5HDh47JYrUnAVQZ-8fiQn-JUdUUc4x3Y20CHryPFPzFCs19gEyrXMrEeB9FjtwXlsYy9LkJO45FzuhjC6N_9E3_STcjeQ0ECOnYRjGISxasnT7qoT4rcsBtzJKC7aFg1hhXNgVs2O97kPpOHKkrIldg9tPewtpT9-menXSYGD85PJfB4zeQInILh9tMuEnkCh8Aw_NzwW-PUs1iHbZbBCQ_cxZYEcgEe5JbvOBIZJ-iC9GI2-m6Sb4wlU9pB_LibCcphr72r5dlG3Bk9p0lruKcT0i_DaaYXS1yFzjiSBTWg0YwopqYPfr03XymzPn0A",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJS--uJsYFhYARfNMrGBG4X_I",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=17464880263525553020",
+    "vicinity": "100 Rapp Ln, Napa",
+    "website": "http://www.shadybrookestate.com/"
+  }
+}
