@@ -1,0 +1,263 @@
+{
+  "fetched_at": "2026-10-28T06:48:00Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Purple Pachyderm wines at Claypool Cellars",
+  "place_id": "ChIJZ0ExIaYwhIARLN0wBn-oQy8",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "5425",
+        "short_name": "5425",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California 116",
+        "short_name": "CA-116",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Forestville",
+        "short_name": "Forestville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95436",
+        "short_name": "95436",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5425 CA-116, Forestville, CA 95436, USA",
+    "formatted_phone_number": "(707) 820-1263",
+    "geometry": {
+      "location": {
+        "lat": 38.462515,
+        "lng": -122.877734
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.46374868029149,
+          "lng": -122.8765633197085
+        },
+        "southwest": {
+          "lat": 38.4610507197085,
+          "lng": -122.8792612802915
+        }
+      }
+    },
+    "name": "Purple Pachyderm wines at Claypool Cellars",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 11:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105465228734601698617\">JS</a>"
+        ],
+        "photo_reference": "Aa-ngMZS5bnJpLKgn9WNX4I-EELMx4gALQl9HZHFmUv9dotpObh0caJzNhwILVfpAUb2NuI58wyonDK6MZFJePNTwSsqqLWBaSm4BbHNED4Nk1-N5u7BABDiS_yMR91y8URzykAgTz7vUkRHALNxSYBAtCiVElAtY_MJr70re0TznK1Vuf92gv2pxLiQE-kbAAcmDmUrYzbX5FNF5l571kq4vvV3GGTMDhV55mTbaYH1GlY0l3vw6ynDKcC2wDH7FcQfLoN5skjY9VCHttQItHy1ngzBc9o8d-9U1aUFQBLEX3Vat8rUJ7R80C4qDw7Qz3vVGsFRQjJre9ysrC2A1iumkVCWmcbDxRphNAVuVWc1wCc6G7lu0clSNFViWvBXYK4gZXpEVLynlYTZvZI-0cujMqvZdzk",
+        "width": 2160
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117092919482691200684\">Kevin Wynn</a>"
+        ],
+        "photo_reference": "Aa-ngMaUdffVVmuFrDwm-kniTSY9mixLCUGEI2JYDWGcyDSBWCRVU-piYBDOjqUO5-xUTFwV7lEyhfink0L_4Ny-QDhnyll8OKTSomtMvLz9r1vJKXADiLcBvJ8IDKRrpa1BWOvN5H4luRTW0-QdTaox2ODSiAGZGsSNx3-W2-9ZpPLnD07sLNGy3r88ykjg-XhnnnrIWBrbF_CiYren5tq5oJjxT6BKmdwrWKwHldXHUF44GPD_S4wxmtLTWFXuR858ro2QwrHL3-IpNrxQx65V54WDqu7oamQJJyS_NrAeUPozvXYY7nqy6vP8DgfgaWUZbh5d4xF0xzVdmm6afI4c2bm4VV5ALoDQTYpMn1hjo-45-h4vmsEthUsIU_KVeMQCuW1Kkm6aF6vVN_DU2GVWTdL-pu4",
+        "width": 4000
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107188252277776758847\">Sam F</a>"
+        ],
+        "photo_reference": "Aa-ngMaToFHWZsYsXCmlIJKb3OCXs-WnQ6H8oZut-5ilywDaiZVSKDc7fGB55JH__RR68PRUDwFBpRpWb2meZCtfNKmkt2AKmAJVifFn2mIFUkXPA1lhXjcSVrIcNo9QMz-2tKDekIIIjAE8l2-6_BJvH74jM1wjuPAM_j7oSUwlsZqR6VRaYtKdhUW5Xz4edaK1S8S24PT9gDAby2dQ-7aps4xpU7K7V5_FYojSO9SksdLv4gvOpUtC0UPEwOlWpbuFZYx-Ib_mgZEJ4LxESsOmPC7QTnSdKSIQFyY5tjiBFb5UtpUXEPNGuMYX3ZLk7aWHXY83nAaUAe8GNIvE172okkLnmLUtoGR8QSsRwukpA73qODIJUsZUewA1pgQovRJHTC4P5G6HSqGPKaoOsnpTS0c73NE",
+        "width": 4608
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574348451288129578\">ellie</a>"
+        ],
+        "photo_reference": "Aa-ngMYciKn5OxiTPTG8P06BuHy7M65Tq4Nn0Rhp2erwjnohA0mW0mZQc47P2xzi3r2d4652AEtX7720tadU09C3mQALhC4Tkx3U2uBQ-_yJyn-89QLFzjP2vA4HpUQqZVhUIHVpYdfbk39lyVIXEqJQUbnRuGLBqfBrdb7j2x_pBjxl9zPIDVTO2dL49E1HjG3NbUQEXRN1JFhQe9lDN6g_XMC0O_Xz83vuZrjXE5zIJ1Mw_HaWRrfyBJP5XiWci1Qo2P9w6a3_CbhCd6YcahV8ZyuG7dbr7zgsnVwgmWkW8KJbQKKxNBH8BV0ssfk_9WyXUsWzb98BBzzlwjOPKWqnZeHtl3uTBr7Zc6T994Ib7FMT-8MpeDQtlP7zAceWgjipLu-YUcpAufxJKv57cxV9XPmS0d9w",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116532277230666914379\">Ben Davies</a>"
+        ],
+        "photo_reference": "Aa-ngMYVIvni93vFYRQnQ1ARyaFbNwhXN7AKsetX00CK7KFA95VSrdDKeTa2aWkboy1QKnvXWZ5lPGxcuzTf4ZMIwHwyR90Yw_1IWULZURATqGQDsdISzYokzfNhwVxSv5d826M1LYsC2d58I_n3Sc5rPFW1vHgkD9DgngLUBjoaNkfRcQRkym2nfBW6cmWeSQfGbn1NGMrQOfoPGy5tq3c4xDK93dfKQzJrhKEB7jeIIc1k1k6HEMPWQOfZrdOuOcM5b-0IHtcnZtvZzMku7xGeMd3kAau7MTJDKpD57ZZYzof9dMfshBMW3x1qcplaEo19FyZPmqwX1KsHuVs5fJGiRsgtG5j5pXJJkMubBPX6K3ZDA4u3bBgqOUFF9MDCKZpejiSWWjvAm-iGq0jNig6UCzOVzzRwslYAkkqni467iVuJ",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108655538510833035804\">Monica Poggi</a>"
+        ],
+        "photo_reference": "Aa-ngMbrvzDpweQ9hIQ7NtveGCLLvuwX_AwXvgSTCRo8APLhgLftBAHuLAqLUQGGH4xVGQN_FNOuBlHTHsJUE2huqvIpi1z7gd-hccZcpMD2rWck1qdsdkzOMqgLBUL8DYe3AWLmqiIwekL957GnMsQTlcMnYoNap8R4MxGoTwqCbvla7MJHslertME16MB3NiF81w_7KCg8iExFpThqx6uvJ80BMlC_R7u9yBHnl-gEsHXH-McmcTxjpRJTeso9M-JMdi48-DMgAG0MFkIjbuI-zX7_awM1s-VdwYsRCimFxOlcvbY5Xv4ar4NTZGvMQMcxXUnB3vfpG_ZsUb7VOpsgDs2JpYZ66VoKPoQRQw1XD5vxEhzHS_8Kdxa870dKWqB41BCc-LWFW2SgGhoM52EYCubpX728",
+        "width": 2700
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113279096844689747363\">Blandine Becker</a>"
+        ],
+        "photo_reference": "Aa-ngMbiK-cS7aMrTf6pyGge4ROSxdAbQhWmHFw7_9TPSevlGTl66Ql1s8YRQT_Mwj40YXTJHMthBJa8ExVfyUvM6Uz3caWW0PWCTjOx6g1BdqoKgOTbaRdQfBqMzY6WRz-QImc4XJxJ_561LpQo7dDLzwoJ7Tau2SfyvrccZLCiy7TEz13zsIk4p6gVATjI7xKEng0-Jbv5MetNi71b9E6kx_OmR4ALHn5NTTG3igIhRmi_TlpUOAv3HxrO1cvvWuleWD8co3IfPCPI9l5tffYfUASh4lL3iVFoYxcBHb7HNKPihqgpaY0dupwbggVQhz5Nsj1ImJnzCZ_26B8M70-d3cFXSZgVcjRwTdyJimksesmBUDzk1uwunl6Pn0Qu0OrEDyI613Ch0VRhDrern6zQBp10nmJOTuY-ZYe1YoflGwPS6Q",
+        "width": 4032
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109370004145761828025\">Colin Wilson</a>"
+        ],
+        "photo_reference": "Aa-ngMZS4OImvlJDckHSQc6sud1HGWKarNUQSfxYt12_XcAFa2YUdOR8QC7q_X_WkLL27GDe_0cMsrfNbBX7WkBTdMzkBmcwE0cbOdKtuIzTbrq2-FqqWlS51UKrdxJFwg3SiCyEYZo3iEaYu-BwOeGZfC9Eue6wat-cjuMsuB-2BY4iNRtkH4xY_G6gYmpsjhGY88kwySmU53jqGAN8AHSleYxlaFLr_qmOjdkXznPOX_WxTe7r9G9um3V5nygZD33Vss8eE0XwXZp6mrK5IXTTOFepq6qT47UAeM-GQlAyaT4oaZuEM_vrqEQ3jYay69tBGMYTwmp4cOdxejAbEHSHfLwLk9695Yxe9NiFrttidaPVYT1CPxRg9L8Gt136ng1OWhem68GL0jKAyKNyHp30diG1beVWQmwzEGlRv11zJuLRlw",
+        "width": 3060
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102295477941248367242\">Sarah Stierch</a>"
+        ],
+        "photo_reference": "Aa-ngMaJP2TkXDzYT-e2GdxBJcaH1L33hf4miJgetv-i5HjLzpiGRlPPD_lu2DAanUVJAlyXnhqZ_2Z1OXzFXAJBE8qlehwiscC1LwbNLW_OE2fLtszou_YCVa18Cs3c3t7UK83iMZsI6VUjfCdICiaZgyQ_3EETTLG2ddQ_TKphlm3oh9psRU-mGTdk1AP5IOrnjcHbLZRw0EVO4H0yZiK0MPRlibg7_XIYfYWn0jK1W887iwNHS0CswIpxuIzbhRUHsSVMDcLDF-6V-6vran_vQ5Fshvneag2vO0n4GGuz5PYNPgFFu9oR12iES2FQYRerF6Bapfs4ce2YdZ-CVukFLiPUb639uckPYDAW5waV2tVGI9ANhnLGqcWX_y3et8sbLMyo3gCYVCRsTYO7CKChBPhE6Hmv",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100958317241602469787\">Gyanadeep S</a>"
+        ],
+        "photo_reference": "Aa-ngMbj2YKiKiKwiTE8901SJxBy4Emw9zNYoJm0-d3cnXKPSTTmDMOks69Ijh0su-aL-hCtPovRAh6QHfpP7KJ3mLOUULToX1wgZtgX0IXKedlBvJM_nk2tYSOCEDOFNLz1gpOGzSZaUYUgbtg7NTKVif5GQKdhyILQIDTy8qEd2VyNyTS0pWsCRewXN1RKFAM95Kv5yKFVvoAaEgG8-CpmMXQe8Yr55drdPzkKOndG8-9jvaPFfmlYJnNeR6-1j2HZriPfGxoqTIf6w2_LhKtqak2WG_aBzMseIWd4QyhN1X6YiwEW_05pwCX4k5v1RM1zDKAYlfE1pJ8J0kVOePAQSm5528O3WsJtvlOy24FG3muZxjHGQO0GJmkBsAA9BzMAMGj2llt0kg82KpweIMjpN8_8pTnhfMA",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJZ0ExIaYwhIARLN0wBn-oQy8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3405751006740405548",
+    "vicinity": "5425 CA-116, Forestville",
+    "website": "http://www.purplepachyderm.com/"
+  }
+}
