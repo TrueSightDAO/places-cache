@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:47:52Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Handwritten Wines",
+  "place_id": "ChIJYasQILxQhIARzmlUMZACQ-0",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "6494",
+        "short_name": "6494",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street",
+        "short_name": "Washington St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Yountville",
+        "short_name": "Yountville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94599",
+        "short_name": "94599",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6494 Washington St, Yountville, CA 94599, USA",
+    "formatted_phone_number": "(707) 944-8524",
+    "geometry": {
+      "location": {
+        "lat": 38.4002591,
+        "lng": -122.3592746
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.4015375302915,
+          "lng": -122.3580279697085
+        },
+        "southwest": {
+          "lat": 38.3988395697085,
+          "lng": -122.3607259302915
+        }
+      }
+    },
+    "name": "Handwritten Wines",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108450069936938300699\">Handwritten Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZ0O7S6uRiAjT1QLM9Jr1gEznOlRUIQJk-m2aleWd801Xd7CEskr7oNO0wrg6G7Jl7b7lxXoHdEHWeqI5UugOrHjpBT3ml_OFRDxBk5b4C44fJhD9bS2Xct5LsG3mHwrLIKQv1I2sodHa7qNrLBMUAt14C5l627n1kUWiaE3ZmRXql3LyD45jNnGWJ_idyDfWckhEB3XttSAEpPL5HUzl6qbPaS3XlEgYZRIPisfMobm9qUiIJh1Okex3JB6wkGrO2CAB93yRNTena7g6vh8JwcG7LGo8a8_-eqpprUAS5erubpvaqwW8zmyArJ7D6wRmpXpuXhiopJJPbT1X7nvijTJyJ3YKsJPoCxjXJIsM1M4gDfB6dQdY6wB8QRzFOCQAXV2fGZlqkweb7gfHVdBLVaoNmvNaI",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117873149710949379427\">Sharon Figi</a>"
+        ],
+        "photo_reference": "Aa-ngMagoATKiLRvaCRJOZdZXJ-2qlTxSaD7zh_OXaMiJMcEyWTrk5C8EUPL7cxmmUyBCarT1lVVnWRO3wjwS1YIrYZiZSvitvtpXEgMVTcxN-aYV2YRHp-4afdmEAXqQ8gwdAxEyYmp4GgLiREwkTRhVL53gJB7JoPA_mRhUzGK99QzQhjpzmhZdV-1F0kteGY4j3NS2k0FIiIowyxunbg7RB5ISfzpT6hKvmQDVF1t7BLO2dphTPj2ObIxiL6UtY4yDdvoReuCRAXwL-X-EB11yu71dDLLnvXY6joABtn3bxO6oMqCNcBVv9OVajBbPuX9A3hlyLTyqWey9uDRRfyaW8t2zSTuxyw05IkzpLX7_RknBdG2yIPWX3Nnw-CCRQTfLDU2xeWVBFuSL5eIuHeoVMkgjd69vuc",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108450069936938300699\">Handwritten Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMaWrf_i8G7PTHYgfqCzSVFkiZGb8Iv19ThNIlfiEENBD-GMO5ixl5y3ZCl1Z8uPkgbE-ce1CuDkTyRFkNqgNr8inuAjpTbie-G_rTlmvRi2f5ae_wFSJd_MvGI8mgDOj4uZDPTGUaG_vwvlVkw7X-izi6dOQNx0KJOEkFyI4GrOd_dFIFP4P8RDDL99hYmOAbTEJTo_HbChyhdnPnFmkSdnw1UKEpJ2YR2KO1FoWTFkKzM-Lo5ro8wDiJURMJpZ-2r6qZ_yUgLK5KQykmEVXKHx8MnlSFWJJfzEFQZHqKcMboTB2KbdF3q1LDqCeiiudMlUKn_xKcSKlqnstp1y7FVgE3-bOr-lIsJOeRe3-uXZBYVJBTf_qs87cHD9NDv6o2v6YqKIWcMXOc-dde1r7rtuXUqP",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107636748694033451542\">Chris Miles</a>"
+        ],
+        "photo_reference": "Aa-ngMbpvGE1rK6YvfD7eckXR4okAtiKzCABlz4zmB0Sdm0LkBLtDAsFG8aExe9rETGEfDAzs2U87-bv36vOqJWTv7ejNp_FNogESzE9bwtFj2Hgi86RLedXFfOMfBbBriJDbfNEZdY0O3X4pOnizH4BCltADLCKzLanjidP9XdPXywuMsc4TUdzHDRTPsNrOOkvehyADtOw3b3cq7J68M05nUVL1soiBqZvP8EpB0M_GvE6hiA-w7tT2ZM1WyJU13Dzl_NdV508rww_UuhWJPZh1XxDsTxSdzwBBh7bkh_HB_IwwdmfCWIMM2q-9FbWRFRrID-8lxUCjh1BLYTRicuaBa9LNk2p2eObkbAX5jYHoKRHH_VEHsLbWeYBDITh7vHhmdRMMJ3jV5gvWb8TVtU2lfZrK1E",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117873149710949379427\">Sharon Figi</a>"
+        ],
+        "photo_reference": "Aa-ngMYuBnD90rLfHmkZpVqp_S9rFoQjmefiGdQpfQ_cF4gBhhY6ShjF2atrNz2INtmGzuVtm9bzxPEtF2BlKgwaXNim4mfxHrE_7V8U9Nh4L_YoAB73OXpw71CU_7y50O630MKxCINsEY2BQs8XnEhmh7iuD2-reZyjvhDezhtnx2k-UJm66eW5fgnCxZZzUZpvc0cS2Fn4ILMSUTt7AGh5IPZeO2igu9oWRUTPrYU0N4m5ayfPCMxxbAVDWBVu7JG-fl_oGpRnufNO67nDGWMtsb6GIiZavQx7WOXjEO-LviRHSZJeXUYi-bAMljAcPA8vOFTC1e_1sHP3h6xZ88B41ITQxT3lroxbl7fNSXba7VYHzQLV8bCafbLYW-EV2-K-gAq1J8S_uWiWMs7SBZeH-Id0WCM",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108544695669026500365\">Chris Tanjuaquio</a>"
+        ],
+        "photo_reference": "Aa-ngMZ2JB1SonMhAYR0LXwxh04jBfm_xobuB1cUxFRyR-vwoSy5FPZtmz4wnSP21kkipYeupS-bDW-myN5JEKCsqZTxukS3Ltzlfh1eqmGp-yP_nWBjd4h2vXqFSFKte2hNiMaOTZHUdlR1cJEk7HyzyIy9JpKOSId6DsuSGJwLXyIss27TUZzVeWi429cL19Cng4__t5Bj67sU5-fbd9ngtdNQBQ_8iNQKTD7LBaJw5tRRumxXP22--sF5iBurjBYUUik8gVefTTXNCdDNL2F8KMzzynd1M_aF3pnhi2bAOK_04AnsZLYKshbScwD9G3_W86_eXVntkCZ1pFQB_D16svSAPxkigSgzgmp1v-XJ98mT_GgemSmxri4HUbkWuxbhqbSDiBatPSu4KqwRlgGp4QgLRUb5-XM",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115553099278931309464\">J Earl</a>"
+        ],
+        "photo_reference": "Aa-ngMZLCGl6PLsMuQtQXFhjHQ5phPPVdVusjzteQ_92DjFBdK2sWlUdPgMVI5QZNlBqtZCiE2xOWxtv_ypcUd9kzNRtRoUsiMl45Vi-XepJsXj557LoqjX136euwRzEjsW6m-2z10bNTW9-W_jsLdIckDHSDmUOeQppVBNZ_HQfv4sz01iSKSDD4FeNZRh41kSAIl1grKP_j6fdGNVPqYxLeiw7a6fdk01Yxw3hoUJk37h7uZhyL4QbwK50lCyChHlN_LIgWDIl-4c2LCnULW0elj3zv32CmTVOcnVB8ZNkaKEc5DgSfh-cdEFGwk8act7lruRJNwkLv1Nic0-UgAhVwsCpgAEeplgpd532lGdnyoNsIILrCXXUPC5A8sV36vxhXCligMTzNy-srIxzJNoh_UkTiJ5zuiY",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMatDgPy9KeJTJoILyaUrszrVLF1of9X8hPsDxt6bs2gIB0GEj6kwvV0JPuiiFG5vtIo8iGJ_IGs3YPHMiQkdl_tKD6bzQQk05BPhDKd5if1haYWwwVnCob6bxlEjGWuXNZhw-nn1_88N1ooLSZlCluxZVqEc-A2vLruwdw-DEvtKf_6T6JiN1TaxyMd5nDnfHt2FdzT9Wmvb2024c_F6tanT0mQ7k8Lkr3eyCVOG6sDN3i9bCW0lgUCgRkjhgfsx5q05XBZhj1l0kOSgY2JfD5wOOAf9Zx-MU5wcv7Cvh68qbhR9eudfbnP0yPM1qO-SyP0RbuP6nnE0KDAVOmtNSr5lOczV7qIKZkTgfOLf5mUoJotMFx9moBbwCj4th6Q37m6MrfeGGvRDGIVnG5ImeF_EAw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117327476036422560752\">Paul Freitas</a>"
+        ],
+        "photo_reference": "Aa-ngMbtDUHPdzmFKkYYJN0u2GDTQx57BfDa_0EeT9hjTe0EBN9lF6T0OcL_Zdhq7UFMEwclR68uqpUx3lbYRlaU38-0jIqrDuJzwQ5FlBv8GQU1718lpmnvr4rMXwKX1HpZC4mU3dAauJGbC6tXdPmkvYdrE3UrszyYuwnaq4zJPAqFS7jsAmM2po_RXEuq-m9EMYVU3DhR25PjPmw_hUvY9phP28PjG_OzPueuLE68hAwLsmRQX-AfEUcTvynwrXPfSNhez8DdxRvKBKWESXaPrmbwYbLR7t9-25hvA2l_tMPWm1HVoDmdDhuTRuhU1QfafVJv10gU-29gmoejpc5et5gQPIE9i731PMi13B2RmjeaejIZg3a4kaEq5er0Mgr1pu6wbK7x3GJ8ajEKhmu1BwLbH-8",
+        "width": 2268
+      },
+      {
+        "height": 3193,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108450069936938300699\">Handwritten Wines</a>"
+        ],
+        "photo_reference": "Aa-ngMZoie2WsQHjDs6flZL0fAiU7KuGTJ-QOqc2vOopEKWrTajIUMXju2Hc4lNk8LHJuWL0BDJz21J8c8FZNGFij35j7tbBLMuIF2TwQFFb83FvHRcIesLKyNlh7UA7jJm8j6LXosSWeGQDcdeBWlTwllDqj5PkVl4qDJvptgKg-z3_8UVRRuhKvljUSCt5TYXLxI2AfG2PwvNymNPaHAKf3uhTMm7pwxGvka6fl7KwpPOw6Or0lrc3i3mS66NMDLWTgFgi1RCBvxzPfcrNek3Y4X9y60YJSyh2CSdH1wWrGSN1195tdhUMzs4Ueyaixt89LnoE48i2C55Swv0n6qr-Cmtj5vVTnmWqcDpg64hJxBvDJkrsns8w7Z7QCiSk6YdS62nPEEKHt8XOvvreE_7uKs03VnE",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJYasQILxQhIARzmlUMZACQ-0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=17096511428754696654",
+    "vicinity": "6494 Washington St, Yountville",
+    "website": "http://www.handwrittenwines.com/"
+  }
+}
