@@ -1,0 +1,281 @@
+{
+  "fetched_at": "2026-10-28T06:43:41Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Moshin Vineyards",
+  "place_id": "ChIJ-WoxTCw9hIARQb6eIcL9UgM",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "10295",
+        "short_name": "10295",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Westside Road",
+        "short_name": "Westside Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Healdsburg",
+        "short_name": "Healdsburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95448",
+        "short_name": "95448",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8346",
+        "short_name": "8346",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10295 Westside Rd, Healdsburg, CA 95448, USA",
+    "formatted_phone_number": "(707) 433-5499",
+    "geometry": {
+      "location": {
+        "lat": 38.5022195,
+        "lng": -122.8971531
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5035771802915,
+          "lng": -122.8958011197085
+        },
+        "southwest": {
+          "lat": 38.5008792197085,
+          "lng": -122.8984990802915
+        }
+      }
+    },
+    "name": "Moshin Vineyards",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102195474685687829403\">Moshin Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMZOcJcNf28U3KjN75P7QaelS0yyu2ZN6YR81LFrTsMqek_trcdob9nnRh5cM0SFfOabh3OMBHqUTrT6KHTYkVewLxV-lthwN9_lM4E8_ysqh1qoZSC847S3knlyBqGc40LDUkfjBKwfAmS1g6dWyTem1ZoP7IYB33-OuSPgR1H-L_d-pcG40wf6BX9Nrr2mlVAUzscDv80onMm0u-q1MmpZG71GxN8MOtNA_JbXzrpfbc6tLpQ65ibij9hYMpj3nsfKXDvI0FLjFbdUtUPFKXqh_RbOx5v-B8EasEDgb6fvD-PmuH1BTS7dp9EXQS8p-36BIh_xraoIGeXZbIvDoR357aWZQl900q0D-N1bYA-EbE3md_HA3eV7bSRDmzHWIFV22g5pHpU_ntTip7kR3T01dLYj_v0",
+        "width": 664
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113222341541100959705\">Tim Garrott</a>"
+        ],
+        "photo_reference": "Aa-ngMZGU8JW6AQzSmlGpf5e7xfypCzs_rx1Bdok2iO_fqRXFfuXg6DTN6MF7cvfe1nIiT9P4q_2tYbHx3mrZoh50Ltk9LcRQYTHVCcPZs38SeBmYCGSJL34Ln3SYqPUhHEt-ECTnCUfZW-uvMOiHLEC9Q8aggqPN5oPQcVmbBQMywa6XiNwP1Rg6bBeH3zWRS3xjO2KLsd5qDW2JhVAfvP-NzHuDDrdk8UMy2nTm2TmD4lLdXF4_Wifa6iCtHhioxCHZGvPuFktbBGDe6brGpvW6PlW7pvS9mrNKvtVV9IzJqZkTwyuFwfqL8g3i-ZudsdzdRbNlCYho5jpTnK-phynNJoVX-Ui_hHet5RJgIAeKK8aBuvgX9qnsabZ-UpabpfCPlyXPqQ93xKBCISMIVNoDyN_e0xdj5ob7g5Z3uYCYjLF7A",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116869057930259280807\">Ed Lehming</a>"
+        ],
+        "photo_reference": "Aa-ngMasKrqBHO4G_nyB7yTvEM8AvGzvbomP7gAHbeU6mdVaFpO-UQ-g43uvvQ7uLBwsWK941vC0VWvRFu6K5YHUe_B6PdhnP57OGt1eMaISM4RghQl0HfCYw3_mlYOg0ZyH9zMxR7u42VTn_7gUBVnml94GvgVQAY_KXkhg6h7BD66pAdoYGOLQU0AoKYMuwE9QVoSsPOrbdyfIKjuEe77Cvf-8nvgL36Gcl-CHTtKAvhKpGzQIOgShwnPYBEBZy7oz2xX2UGg_5A3NNYCnfGhXEdA-dDjv5waXA1AeB6JVLb2LNtHEiI5OoEsLSzSQSrP9zdFhGNYAfEYm0kzJk1ZEsPod09SwMuijOnrWc9nVMx1t2TFlfUEIU4TSRzCObT6L8PYmTJDYc4oSxdn3JeGQZPvaI8W2x4k",
+        "width": 3024
+      },
+      {
+        "height": 856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102195474685687829403\">Moshin Vineyards</a>"
+        ],
+        "photo_reference": "Aa-ngMbR4-mSJ4vDDFBdCaQQH5kXj2SkZckNQCKy84HOFBsiHMMIFveB5rVLXt_raNEB6Gx7Uj3S0D56v1e5fJ7CKT-bBBqpaBCTpK7v0m3LBmKazhIrKhoXS1PpikBtLPI1mo2yhvuigVrwpfd_HrcJuWolAfn9jPAWzAfQgmEWIu7KI0Fw3PQ2Dm0M9GJ7nQ78zAk4Ci6m3I8Y7-JyYSgo0B0-bjyIW_k7B6q2e9OCT5JPC8lcKHg4k8WzCt3i4BV1kKMvLAFCjugf8OfIFkUfKcmq1IKZ7CoUduT4cO9_p_szXlikZlgE75Kbz1HVADgQtvNM_fbe8Aan_lFIsNa5jwBtfWB7XH0s86m8XW31O4F_SHARQ5QkkwygrZvTG0fMdkvd4YhQfCQbmLx2kwerdeK5hEFpC5A",
+        "width": 1280
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113222341541100959705\">Tim Garrott</a>"
+        ],
+        "photo_reference": "Aa-ngMZWpF0gXNFTs0n9D-kBX5wtY9v7kw44uMc7vlwG4qa517D3CCn3FFZ4yUky9QZW35-OBxo54os99mroDDqDLBVi_uiYl_gV4DMyIxfUW4xH9bAeYZ4Jy3Y-uybkCaRRVXTNLTxxUFNy8OCPLCPM87ahuqJibFwwfNt06dQs0xK8TdDEMmPOSqgN5C6rwBWn2c0nszKU0y_R3L1oOEXDrwUxPKceuqffwPMrBRMbsOEpGvkYevHLW5yxH7gz5La3OpLfZMxAaepySepW_fUDuQaBExWTLVT2mYx3tJB4mKTtP495WxG1KYj_NmKAl0niwuKWrJjmMKD8pdyw0pueinfApsAsQ6d30usWVteyK3al5k1v0d85REnZ9J82gFk9Z1wIuat7ygqJge5PmXH-FOT4nqk-2v1jruzafDJkZ-vTNg",
+        "width": 4800
+      },
+      {
+        "height": 1728,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117543875757052925390\">Sean Sean</a>"
+        ],
+        "photo_reference": "Aa-ngMbnKItB_6g3YOf_g83SJGe_ZR_hUVarplO4vUCx7SBRicz6SXS_XWN2ryI4NLLqBFnb27w_XiNUT_ZOgl2M1wwBBgFcIR4Y9DTOS4bVPJ0p6nHs_uu6oGm8zNfejXNz-mjlpd8xR17bvzsEEDNkdnOiZWbMU-FhbyUrt1pRPVtFX9CZLB82UBkIO7mOX0EsOLx42WkZ8NLyqjQg_Z_Oh38A-UvmBFvEmz1ew6SFs7BPcWDsoSOMi5geSe_66QRcF2NpTej0qeoEDzVt91OvUo-waxgfScqftdK7StpegL7Ms1ocmpiO4JZSYb0jzyLHkNvsyq49S3DcKAZPQS4GicPeWEHoIqKjM9smId3vGqdTc5w85bi_C2HnfGKyQt52NlQITWn2IHe9u5n_iSaN8YB6hA",
+        "width": 3072
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106961647375285777557\">Joel Hershey</a>"
+        ],
+        "photo_reference": "Aa-ngMY3yZJCJA34BTLFvAPtYxdiGe17Qc0aTwohYrpU_eRwTjaYdSiNZ4bA-xRsIU7JqZIIJ36i2XF5XI9iDUl_0kNjPWkljg1lPZLVHMQdVhSlO_QMwSfZ5dfaGwSxwYSAbnG72AHvXAXtsi7kjytmvGUaqPKYFEoQW4V0eG24LukVwHQb4JlsgYq1BqHEoSYXGU4XW8L6edMMenk3LTnpAX1Hdl0yj8hGJ8mol_UskC-1d0trZsN9yVlAKWuU_-klrKrU_XNGxdtd5GO-tBshZ8qCu86wLVuJvBKrudMqxFSdh-wmkEsIdWUsDAUdDWrBqU-as7z6tYpplbaxXRgZCQoYNDn4h5E6uucqDMOmQGFgIEGL_Z7E9benYH_7dGoTI5n9TI6MkYifet1PudAFcSjk6O6nyEE",
+        "width": 4608
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116185029029298541904\">Igor Levko</a>"
+        ],
+        "photo_reference": "Aa-ngMagJ9yhoOZY4agCodnEEDWU3wuHilxWDkqGQ5z92mCC93GNDcxfRONfR21p2G_8o3_5bOHHU5_oYjcb6gcnZ9_93gPS3mc00t6NKpgJIgHIaRk6bkIhkoKpMjzkXb6gpVFgN3XzbS2FzbODSKGIFlaUb4qPR2NzvUfulSKGfE7gNzMy8YyxP1TEyapAz1FmhBm8F8aib_pYgZ4AnVQZQvIpDuHCTpyW_XhVubQLn9t3AuZDBK6428g2hUXHxI3Sb3frBNk9XJCYOJVeKsB0su9AJEsoh6R0qfdtv1i8yVZffONO1wf-e0vEK7YG-UMg1J4AqgJr2W1Y8n3CRbxpWr8BNzGx5C2xK-UBZGk6dIP9JmCd9IjVTxIjY50q1TvvNctg2fHZT6EG4rDXmvHeAHE6xqw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106297692534900256143\">Jennifer Miles</a>"
+        ],
+        "photo_reference": "Aa-ngMbsXCH6wtXIpICBi6PcOeMJzsHkrVSOrqyltZST__vGzIO4yt6B1yEbar3ErezRpcNgQS2wMLTFd9_lhW474ia7Wrh_-hjP1g7oTwFL0MnL9jIriw2nWIJ3xKQt570MO-cL81qnddhq-E5Il6odXfuSdTEWMXwUHFOkVx5InVnTqLUBSIPu_WlT2JjK_GZIsg0ZhcsPFWgbzFF7h2qKJ9GaCGafsfvZv78oKdZpTU44EzkYqqZKZexZoapnC5rjF5Jdo_ufGtek_UPUzq5tC7z8JFVGYgmoFP3AFz7Sfy9dd9EcIzixThdXc9Kgp7lnxGH7qMKVTgJE5ruCH3S2KlbSDxX1P9-btw211w9aAdaxXvDh6ASlQfSRel_MctzsWasm5LxVxXhBuS-2KtVMGhPBaFj6Xc2e2nWAYATw7mGRHw",
+        "width": 3024
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106961647375285777557\">Joel Hershey</a>"
+        ],
+        "photo_reference": "Aa-ngMYFwTLsL8vGlwc_VDkMo1FY3QP_euEB6JA32OB0fF-jpzBptbkC16m-QgGGFB-VM1PdWXm1C732-HZyTCSddmNR-RMaMgLH3X-YaHQI3prxvwdcE5_il0FSEmF6QgtwMs-nt8C6gFf9p7bohwFFF0mMDOt58rK0S5Wc2UcA88qKQazdpqcQ1srbCM0yNkjkVAkXdFdhYEyblxbnrDlpa0G7CY6mpnuFoBYuSlWD4Ggw-stpQav27nMVBjfI8jZC7oQIrmTZ5hXcQaLe5OcRzQo9zy7MIP4ToSvwOwcyoth8OwmOMMFUO_1ASwJgSPsAUWmRpfUkoWEcKqBUaw1LhTEpQvZU5oJjDU1Ei43yTWwiuLiF6PBVLDTKpazw9M2QPmsWV2p5FrF6yFp04-mWOdovYAM",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJ-WoxTCw9hIARQb6eIcL9UgM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=239532740433591873",
+    "vicinity": "10295 Westside Rd, Healdsburg",
+    "website": "http://www.moshinvineyards.com/"
+  }
+}
