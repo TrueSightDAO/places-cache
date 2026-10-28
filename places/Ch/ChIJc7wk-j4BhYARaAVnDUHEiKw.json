@@ -1,0 +1,260 @@
+{
+  "fetched_at": "2026-10-28T06:48:27Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Black Stallion Estate Winery",
+  "place_id": "ChIJc7wk-j4BhYARaAVnDUHEiKw",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "4089",
+        "short_name": "4089",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverado Trail",
+        "short_name": "Silverado Trail",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94558",
+        "short_name": "94558",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1113",
+        "short_name": "1113",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4089 Silverado Trail, Napa, CA 94558, USA",
+    "formatted_phone_number": "(707) 227-3250",
+    "geometry": {
+      "location": {
+        "lat": 38.35983179999999,
+        "lng": -122.2906388
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.36118258029149,
+          "lng": -122.2893682697085
+        },
+        "southwest": {
+          "lat": 38.3584846197085,
+          "lng": -122.2920662302915
+        }
+      }
+    },
+    "name": "Black Stallion Estate Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102710198228956295000\">Black Stallion Estate Winery</a>"
+        ],
+        "photo_reference": "Aa-ngMYU9lBEWHRzOWelPTtoBs8KhaKsCgRHetgR1sjvJnzFBhYAtXVGsn7dZdW4n2CrqPHE0ZRQcZocx0h5A3Pxq_KHZZ1LCXr7TfZ5w3Gx9XrcgjMi1pMzWFGW22-QuqHuVU6D46PTYDFM3AA6GEucHWZoFkvQT-l3aFMdN6h2HPt7z_FgR585a9R2YlJfCx04LiU6o2BX057TeEWZwf_ydJLsnsLid4uHcRVk4CSANrB7ZblzcEf2PkvtgExW6BBi-L6gjS_85GSMAokiRjxl-uN8Oj3REd-GyOeoEReVWUpxDdoHSMRTY4nJRpKWSTxYnloLnrYmPipI5uDv7rUQv4kG-QmHTelwHAblyQr5guA0rQikWyhi-gyYoJDlLgMeCo2pXe3sxK9vduZUH4y4BqSQkb4",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115887387166905438009\">Teddy Tedford</a>"
+        ],
+        "photo_reference": "Aa-ngMbJBGUem_bbDhUYOu5RPVZqQ7LrqBHG85edvRDNxPuPqocEXhijKs4-2Hnqu8nIdhNFj-7v3CgmElOo00yYqfMOu1B8Gzz0IpcqPhHixCuTXCxs5ZVS0N-jNCbDbslW9FV1Z6a6P62pOm7xhlpACTM1JBKUJBZ511vemDYUWW-8BfLffRu3zyBWLJlodyikRNFYzg1n86cPedtEehDN5-_MBUqX053nhJI55X3SgnAl2mbyEUH1J0Ef4kA6b55cxieC2xuLanXkDXeCQvBlRj6wo93tdx72sdf2pCIhWGxTZfBYyJu9qzESTIs0V-l_mBr0zeo_S8cuht6TZh7Eb05rPoxTX3ANTjkzzjLYBw_2kDwdzUCvtdcZnOmXUhOiD7pcMl2It3p_Fg5ipUBQt2a8HxmL",
+        "width": 4800
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111866408197504020011\">Author S. Shaw</a>"
+        ],
+        "photo_reference": "Aa-ngMZ4oqeSQY4ykvhnr5XLs3xUWKdxGEnvEbM7E7Si1ylCTo41NmAOo2yYWbbrxtSyL6MySID2om6XOflqukZ__jE7g06b3FxIcAHgAV2J7VcsqZ133XnZReqBQz8XUiGa8SHTbAoj5E9rx8NXTb9QSZZcKkE9TTddOZ8hGcK8wEg3-CEpmY4fWdNY5ONk76HP1mg12OBCnOoU6he4NWACSd9DnBGK230LtqA4UBuS3crc8kkAicztPSRUktG9djhi5DBWkeRlTRPej0v5jA6KS_BImogWPXPOLLqcm-QYeVuR5sLKUegGrwsAiBySsf2JQSAIab4jZOz9Fbb0aw5tLtuP_cr2dQyYMybfX91M4jTy2UymNNRH8gM39yidgOMeJhvIB3Lh-ax2bEfoUH3QxKda_Ilse5TCcRMvM8xrtc0GUA",
+        "width": 2992
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103689295971307262556\">John Risso</a>"
+        ],
+        "photo_reference": "Aa-ngMbaPFZaJOVAsFnhYzRntnNEpigLEUrBUR1FgejbIrozeGZt-T43DyCpONKZ28SoCqcYuwOOZORrK31bMdz1FjODzmNrIFxsy3MClqISBI74sUVepXOpie_XJ13JD1USeYUKtloXNSvTeo06iPnithtm7wxfZ3osb6Vsj9ClpAvWep7BoL4VqnuHzc01SnrYJM8dLGDdAEOQcLboMPCd6gWSUvONfzqV1qbhCpehVnsFF4W-IJGR1xppRD7lQR_gN74ddToa_eiR24Wtxxe71c34BJfIp-cNWdTZ1TqKUxtDbMqhmW7F-nHzYfdmPuxP4W13YsiEMUU6trOcbiizHbaOyXTl2vcEXQ1r8XRN34x2E8qLVTQCQQXT9AkWmQk1cxdicfh7Az5PlNYcE3TNyJ02Xg",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102022222275245034688\">Byron Sheardown</a>"
+        ],
+        "photo_reference": "Aa-ngMbcKtd7snGF-bicylLrjnzIZNmKYRWq40cOYJAgAs9OGJZYmmueL3jDubgxgOQ0g-5g1ke9S-cnYP5jDX4vSgmrAU53pQwqguU7IEuZQ7JjyHlCCjtQI4FBgYEMYUc8lq4x14FvghiQk4sj5EUe7JzU8Dk4E77kGaIUATnzhLBhnFY-vjJhcPdhz2LQ_n8DXF3DMsyhEuZztmYB4Ym8DEJy8gbDYRrJ1reHCdBgXnA_IDdwdXaLDyADHdBd-pPD8-wh8-xI2Z7R5meEC_KXl8KDTnfPBCua0JPxsRsK6uGVAPtDP7CVDXiGYCwEroMI1hrnxqerznZ1dfDTUq2IEX-frYgry2GQcnDqtyb2OAyjoeNdhxi2XY1CpwqAPTYvJ6BetVHDjKikWpB064IK3HNPfPj81zI",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107209499669584476868\">Murat Baspehlivan</a>"
+        ],
+        "photo_reference": "Aa-ngMYnbrDaP40RVae4RAAHo-TtjyTMWCXWQ7RDzUGK6H6GBvOy128XrWvQgoDCcEAI4xngiVpBIL-qVF-vybuoTUld7Jr_XXPcYAfXof95hgoJadCPEbQOlPz-x-fOXOGEThPvcuX5JbwArI_qQjxABZjIE-l5Pwz9wPdIh0GNn5SjvwEW9Wuprvgr-4iIGXzDP6I0fubvDpthJrTq3Jhgr_55EiyAFyhks1HB1Rst8WIDsxOi3yMS2eF2hWh3och5yvHZjWUfSuubir-p5GQ1b_cMKjQZTMD85hwgACV5CnVAhjkeHXSTVylkcIrXYw8bO2Czj1T7TCt81Gh0eNkBj-f6kcDIYUM-upYzzfwF4wJeVPBXuXOOebWE9tzvcaQRcJqTAmgg02xlyVbiIHw4CWKyBAk",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113380102960202250899\">Jordan LeMay Zilavy</a>"
+        ],
+        "photo_reference": "Aa-ngMbb4T5RCT_cCRnzzpbnjQmcSd7TH6We6NO6y3XkV0G-u_yB-UK3_aMpUGKCZtuhjjVVV8WGm4ClwRgQg01JXQcOfyWO7DxS1nnEMfaukGsuA6inpfVvDs4WTem1RaR071ltnWSYuWqEFUUeAZpx1NeZjU7yhryjl7in9ylXEid6PVjS-0Oy6cwVy8-ZXRY5WkFhJbyHt0NaoD_DbDcKyJz5A_9P0NNw9es9JKPniqbL_AT3Z5FAjv3LLeMB8XbR8LQKtRbV3zodIJwEpG44gKCEvH2I3FjaagstSuKXpGfxWRbPyB4uMX3XwQXfkPG8q-M5pr7z-ANPAZPTaEsAdeZX6hZDvYnlyKnnfDKLPjgV6bUJuTEMbZMjD8LouQCgoyKeRMPeJaQf9ihzbu207d6ZA4A",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107641896740908304825\">Mark Carter</a>"
+        ],
+        "photo_reference": "Aa-ngMaSTBi6FTSaZ_k8MCoD38bDDomCEouTfeP0BWB-gNC6Tfy0FskNUluAVIkzz7LzopJoVb_ZZW8cyKQ5-ADPj9OH4-XRl382XD4PanZe29Qxd1YGiJybNvBI3HjAvrM0d8-csoKOuqM9L2Xnuw5m69hYjVVCr1Wyr_opG-lhCiXAXXbqcHRsDra5V7lU4WWwJf3XILQkhEGyj1nn7fUGShqWNTZrY-3sHKPvHNG_Wh4n5xMxtHRjr65QFcf0yTjWtT4L4lXFfwVQF0jlRYscNozBwvTe8wQq7Mb38I3yRjVEb524OtEjl1wGpw42s9M2dwyIlEwzt5F0V2feqDu9GBrEu0fh6asZuFP_S9mZAhbuex6mz-tejwJ8C3KCknYKESSbiBSDIcB0slIFQY0wrcZP65A",
+        "width": 4032
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109968714222653962765\">Anthony Giudice</a>"
+        ],
+        "photo_reference": "Aa-ngMYWw29j5LgyZJ57CoXRb3GkUzfzJOKHTRml4pvLbw9SNljnlCviAT0yQwdmxF7lsP8zwiG058cOdDKQG42kBw1xvWoQIe3IsEjymRMl96Zhv3wN2FGW-O5V53C97Z4wi5vR_6DFPEBjMs8ALUwKWhcx4VaPyUFcBE5_ZIm8smaCsZ7DSEf00_bMYFKZ1iKKMsWIYkCjwhlO_lg_sk_5w1wH2cLAqM4bS5AhKsF2o6Pf3wsPwEX28VX2a1Ng-v1pf8K7Y6kfsUQgxe4g80I6YP1guy6LCh2AKHZL4C2sXbxE4cnA-ifBlXykrhZI15_k-arZ1kuyeJ8iaKvGS_8NSUuKUXT5djAPCI_YX1yrlYShmm7N8GvUyzhBKsQsxF5gnjw5iJt1Gv35-mtHLHPmy2nebQY",
+        "width": 1600
+      },
+      {
+        "height": 1624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115265730745811760405\">Mo Aces</a>"
+        ],
+        "photo_reference": "Aa-ngMZWtJb6jSjjY-4ELLx334lKrityymK9vroOyu3RZsFGDqaDq_WUiGJNkQnnV65Vnemw_8FR3zVyzsJTmn1r5gl7lwwJ1HjOT4cdJMLeoQIDzzWx5iNehyEIgV3JNp1UPf-nEwBX43AP74lBkkv1loHajVULu6Cu7mOeeIopYhdgvF6SxtABSlcpzcRvj04NbW5-s7fcZMZ1EzFOuQIp42Rg3QY9N4t1R1WgDGitca6h1GziupDIdudSKPXRh0HgGHLmqexUGhnLQl3Qf4CBkazXWbczoEd3tzSWNdwa0HtgvUux-kPyaQGoOLjAzsUoKmz3KCI37CLOtNPKakKzTLe3xKpD_YOZsYObf-URKdFwNyNVO9G9wynn_-OfNeUuSypydOQVa8q90WwyYuQwaAb3lYM",
+        "width": 884
+      }
+    ],
+    "place_id": "ChIJc7wk-j4BhYARaAVnDUHEiKw",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12432402555033027944",
+    "vicinity": "4089 Silverado Trail, Napa",
+    "website": "http://www.blackstallionwinery.com/"
+  }
+}
