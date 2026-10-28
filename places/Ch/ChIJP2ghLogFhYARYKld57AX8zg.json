@@ -1,0 +1,274 @@
+{
+  "fetched_at": "2026-10-28T06:46:44Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Caldwell Vineyard & Winery",
+  "place_id": "ChIJP2ghLogFhYARYKld57AX8zg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "270",
+        "short_name": "270",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Kreuzer Lane",
+        "short_name": "Kreuzer Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Napa",
+        "short_name": "Napa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94559",
+        "short_name": "94559",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "270 Kreuzer Ln, Napa, CA 94559, USA",
+    "formatted_phone_number": "(707) 255-1294",
+    "geometry": {
+      "location": {
+        "lat": 38.2807272,
+        "lng": -122.2285481
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2824173302915,
+          "lng": -122.2271767197085
+        },
+        "southwest": {
+          "lat": 38.2797193697085,
+          "lng": -122.2298746802915
+        }
+      }
+    },
+    "name": "Caldwell Vineyard & Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110598376053043892920\">Brandi Norman</a>"
+        ],
+        "photo_reference": "Aa-ngMatUF8W74k7I4cd5AiJ9lN4_SVfG3JmkJ4B0l-O2M574pmKep15maVHbL4pBhzpavO6iPFHd2-BR2GfmNKbPfdr7LVdtoaPXoRO7WhDXT1OyhzAO2j8YcRB2spX2Qr3jD4cCpexymnBGWSxQfwwZHJpUqu3hOqAQFBG9ASkUoBrYDYydqYTC-2bhmvWBdGYmN6c-Dekfea4CY26vo31AFYJQwmMp1TpKqVOSuVG3mrpNodGXSaPnGAmO8KImGcUOpEsD8VkCe0x87mn-wg0olwMUQT466Vox6iJ-2zgveXIqGh8os7lZMFfDWKitZ_tyK1kvQw2_ywkHKpAYuiKGcMOki9J69IjXqbYGvw-nz2GpPqSSOlSBvYIUypRXwX5VTqXRG1HwrWvLYcqbm9MRnndFcMxsHGqbpBhmhzBGuwmgQ",
+        "width": 4000
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108630443953589827550\">Joe Sponseller</a>"
+        ],
+        "photo_reference": "Aa-ngMZJZ8UoU4yH9QpNkrS6z2oWL0E4u5OYN0l_39THrOBRFUDXquRdbkwkhcCVDy8BRqjyeayaVpLnqqlpaScBoqb1ZI5oBkQ-0M9ZxMqaj7Rb8GJAiHHiaGtw18elf3jHCE-rucsmW16FYpav_rHPtfg4fA_Ye9tQ-aBdWXme_yJHWcXUUtcnCrkM_9g9EpiJP432PcWqTpbBuaAnqtKyMXoY4s3T5ilXmJrKPHMDZ4BuptwmyMyI1h9F-QfVGgmJfHNI9Kss5-E3TQVadm-o3oyFD8nuBjqCy9nLUi-6_kV4Qe0fA_XCNudVl9zrI00_F4nOHxt45QVwUKSK0j9ne2XxoKa0pvs_dmRy-v7QRguvY3Vi0As67LlXk2F7sW9z91iZzAmyKX3m4EsLJj9T1ePBZ-i0NRGMyR4rq7b5B_rGZQ",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110275570621872685000\">Susan Sargent</a>"
+        ],
+        "photo_reference": "Aa-ngMbUB-xRSsjsJxaZrOzDzjZhzzoZuSkU2FrI_r8NgxYVjPGi2WMxaIJ3Ic3b1wQApgWGJCqTw-y3NpwFF6EeTr30fh_qxMpiwY5M5mK5ewX-Y2DCypqNhl_r7NGlxCODf6dcVChnp_xq6ev70AOp4xF_xYHCfLDeyDEhyTInixMOXttsP9Kqu4ZP_xvXKGprb88o02SyZEl2jEbxy1sawqtYq-Nfn4C80E7zx5fXoMLpsYrgIZy6jdlqZsxJ4KpdzWu6jjpd2yLdzNUyiJ-SE4DkJpri1kPZGZ-cfoFLHscNsiAtzEAx5NW37UY3CRcwl5BPaRDK_2LQzraiz80vv7KAL9IixulfU814TYNjwO-0Cd348ftZcv7A-LI9Et6Xs-1_t100mwZA3fj4m-iKSJTk5A",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110598376053043892920\">Brandi Norman</a>"
+        ],
+        "photo_reference": "Aa-ngMaZ1Nv192xNBYcNyLfE9VKMP3xCdfl_oS-WJCZvf8DcMJRPnor5Hq7t7nbJA-I2mynJgH2u7wnELmrdldyizJZiEVAQ8ytnFYPPGaZ9nDrWmnKobCeIhano0bIBS2wAF1KxOqUXtxvOz_hQE-9PAh5Zo7Pc5Xbko8xPBY726WinCMYeTsrgD2-qJoGyAsu0CNnWoGWoBvjykHXcoL1BVk5Q3EhEmR7NUEK0drXbwRsWbx1kIebK2tr9BfgKrWcjeOr9JpYAP_vrBaFgw-W8pQ_asnjzIKXyxjJGgns0ekLEU7ayO-KPdOw5l-MKk4-hRPelCYKemIAiGZ21PEmq0MuWbYN0MvnfM8DPTzO2Y3dnRMGcBYLog8l5eJDsPqSKXaT4DM_N_9x9852SpR7H8es3Sj2V0m8nsTGPWA8Tn5SQ",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110598376053043892920\">Brandi Norman</a>"
+        ],
+        "photo_reference": "Aa-ngMaA9PRj45EVlbJZGL0PAkRo1bRRm-rDpe0TEkyJyFDgQffq0-XCYa0-jiVLkHygRO6TahQCu3eX4-X2GuggmKY90JbFfut70sdVBVqGMzNpRdQNDahN1geEvyDF4ixwrwRV3D7XVbaDhaEnmS15MvwQ0jFWNdIqiWGiti0nsI13XPB_aQTKJyWHPhRinyNKIEq7Eed9hr1XzwvjOqY4OSo97WfuEbbbhu5QiKgp33dhV7O5pBJKPUYtdlq9LY-OO6xUYG38OzbKLgf4Jd3EjPgzSzkuMxMuDyzT1waWjnfxZ2sNRaQaslkTk-4ZDt5nPDgtDRtgSqM__QizSKbZBMqNOq64A2PwrndgVm_DAwpd1bDfyfsCVQspMkzxS-vpW9B8RdStTfsNq6zO7jewMaRkCjBF8HWrDaqqFN7WxdkGYw",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117982863205445066768\">Eve Bushman</a>"
+        ],
+        "photo_reference": "Aa-ngMZ0zRR_mn351YMo7oDm5DFDIYR6v8Wv7tTyVyG_P-AWdOlnmooIpzMcy5ZJruSa1_VQ8Axs_ZOQmoc9X2wJjuHT5hEBwBbLD_SYuI2OG3UD-IPSses8NMIA5713SZ3TIdxVJmhFMmm-4fBs5kDnX1WtNNNx_hI0PT0AiY4BbEmqqCSVmBlWOoaex8cteYM_mkd9siciTYnlBRYwaWUQMWPKl1bfU2faMA0v2QYwMkhMmhRqwAGypn53WbuySZAwFHMBQFKm3DSn6E1UHY3ES_VL-X3vySHENiZEC2H-HcQJ-_GZRvyZR1avMMeA3P1pdpZh_Zi3ETQ4Nc0pXAkyiLlvjVWUyEEmmofRr8KoXld1iYC_b95FsukgU-5PBt532wcJn0DGLMP-4NWNi5eEtYgvsGh3Z3I",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452134034001890724\">CA &amp; Miguel Islas</a>"
+        ],
+        "photo_reference": "Aa-ngMaznoblJyg-zJSNsqAOIm7pe6FI7A2kUBwlCci9qvziPzwjYRoEAKPnSNckuVciZJYLeEq3stOZzJ-wFoBHJhjtXpW9DS3X_jH-N6L9NqtVSyWL4PCDzCf6vE0p0eYhFbo9Jkt3TDsmgXOECVT93bUnp6YhSTd-q0CY7139b6pqIDPXHq0rL7eCTo3IOvK9tDs95WzKV3v0W_SKxHolr2N_1RLNhU36HMTFKyOwyPWIhb9-Fy-MR4uznjzzK2AfrnbofSVf1Sh1ESgnVwrErSFmmkM4PPZ7GYB0QRX8LYn9NLwh7XKrCOCYn26vV9vKInn-gEP62gmSgINie44whhs9QFbqdhv85RrBG0ieV35ZVZjRD4AzQYqfgvk7y5z8yG_ZvMCw1b0scJ3dviIUPkA41kI",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116550828396545355042\">Elizabeth Thomas</a>"
+        ],
+        "photo_reference": "Aa-ngMbdeEnop-azxjdlCGumipNRvzoZIRbe0v5HdWY9D4BJLrWvzUU1fUR5meJGMMuYBGaRqELZYYB8AhM27XEgskPZxduKbXD55mrwwZ0MavSAuNPPN_1_pfZnTbgdw1HrQyY5XAUadck35XJ8moe8HJBCPZJVf5ZVIbWldxqFQJsXvIj2Ika2PUWYYFcOQXORp4XXyh4Gsg_XYonXgpfj5W7KHtPrtpUsdaaVbAQgjMr_4NdMqGchp8oeQda2fuRhYWkdzKQYaFDnXWVb8rMIVDoj9VmKeM3XkNS6CphADUljaeEVzhbWuj6U6B9QnBAncmR8WhKOOD8RAsAyPTZBSydbkfr4iyR3-jwwXWTmDicVmObWGq7oMQQeC_Ox1hkDNbuH8--phlzsoG-qUVwfHBHfhGFM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117982863205445066768\">Eve Bushman</a>"
+        ],
+        "photo_reference": "Aa-ngMaDbeTDLZe2rHajmwOv0Q1KGliu5SxpkAAJBe3jA3-mGVMITN16tVtc7wfg8jM_CAXiuvoPecn3zQuAH7XxIqpxPFCrCUFqOJmNT9elF7XKc7MwuuJL2vJLtb5qGXIaAFfxQnxleYksflUt86FWH1eUhdJPN73irTlaN1BMMeXzmwb0N0cvrwZU1RapkRwkAelfdp1zebl1ntoa3qAC5deEvn-qVd77ik89xVhrkw7eYqY0BU37kBTEdrgzvnU0IR4yESe9NP60O0Lua9b6fAFmH3P0_afJ3DCGijiw251rqf9S_GEMBy1aq1CStucaDvVr57VAbNUlmIfcMHbBTm2APoMa-z5w659JT_jv-LdMZhugXXabAIvVddovJ3vwhD0VQ5oQLsZF2oLRL76gor1TOJIb",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103897926888206905698\">Betty Y</a>"
+        ],
+        "photo_reference": "Aa-ngMYl633MkuC7-dCJE8QCmJbsDzND4YS-xYdxJvRr2Ocuaa0j66bbdUQDVK2MW-9HsG3OmTjy17lrzL4i-Ey-Dr77zZraxhGQx_KixmUYlh6qa15RsCHWb43leUYAh8ZK0b_FDTAem6NdhJyp6eT0i_W_aUN64xoAqaT4E7sKouceQdf3X6sJnpK-wfgIRjiOSUOaX9OVGk16o8iI5bB4rl-kl3USf1af7YKly5xLJCpqL8s3Z7XGBLMUiviNmi4wJafjlyuQiFnPcHKY8li-o6fxMLxt60Ep_pvWnQISAphd0ODtdCzBX3UsJenvVS6hWkw76cBZO2eEyyCNgecuz_aM0KkqPZ12rn_DjHiDJCZTmpNc_EujPoROuNMCM6eY2Sak5r0svojs_Yd6Qhu8LjNNRP9Z",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJP2ghLogFhYARYKld57AX8zg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=4103649734028011872",
+    "vicinity": "270 Kreuzer Ln, Napa",
+    "website": "http://www.caldwellvineyard.com/"
+  }
+}
