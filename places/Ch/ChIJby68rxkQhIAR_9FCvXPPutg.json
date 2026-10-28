@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-10-28T06:48:23Z",
+  "fields_requested": [
+    "address_component",
+    "business_status",
+    "formatted_address",
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
+  ],
+  "google_status": "OK",
+  "name": "Trentadue Winery",
+  "place_id": "ChIJby68rxkQhIAR_9FCvXPPutg",
+  "result": {
+    "address_components": [
+      {
+        "long_name": "19170",
+        "short_name": "19170",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Geyserville Avenue",
+        "short_name": "Geyserville Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Geyserville",
+        "short_name": "Geyserville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95441",
+        "short_name": "95441",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9528",
+        "short_name": "9528",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "19170 Geyserville Ave, Geyserville, CA 95441, USA",
+    "formatted_phone_number": "(707) 433-3104",
+    "geometry": {
+      "location": {
+        "lat": 38.6793659,
+        "lng": -122.8728644
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6808297802915,
+          "lng": -122.8714179197085
+        },
+        "southwest": {
+          "lat": 38.6781318197085,
+          "lng": -122.8741158802915
+        }
+      }
+    },
+    "name": "Trentadue Winery",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116832744409549508644\">Sean Liu</a>"
+        ],
+        "photo_reference": "Aa-ngMah83DgFYLhI9a0oZZFcY9aznGHeAKpWAyGJ6KocSORXP0RN7RBrTzPvvEPJzQGipYCr_rI3WTFiyHQPD7aQa-MwgyqTCqiNSeoFOCX4PdQom-vI1bjutNKDP9mEP83OEWwgpv462aKzf5Pm2dhYV-0ZqR-w2G8FHcxJKyAkLea3SONOpO7YNLcdGwc3otzv_UNvTfOMANlVNZGxPsMJYRApmdJ_iRfHEdPk5LSUOgmCqyQY250F8eZksqccNTQ_0tp_UXL1WpRCmqpTrFH0VbbA81RNKQFatVJnb4J-UYKGgsschXQJ5rmuwAu8ttmR5dpq7qGlRAaLjDRnGL9gngh5We8ZotVm77BDm-d_I2W116cfsOK0u2bMhlJ-OFknEtRMCyYnM6aY7592EYHqRIif1p4-iRVgelGe4JeDB0WDg",
+        "width": 2048
+      },
+      {
+        "height": 3193,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109842466491335557266\">Raymond Tarin</a>"
+        ],
+        "photo_reference": "Aa-ngMZoNeds0VSgPULc0t6DmaczlnU8xXzp2eHcYMbEFjSPGEkzQv6U000o1-YGkbwb0PQjhqJQY9EcLaBFpl48aSlxIzT47dNNI-5S-VPu0wYefvdXzgf8Ko4UkExVULYSkS230tvs-6ZEoK8WFHWkrkEiVYQiYNOOEDqS2rOeymwYyBIgOiu3iiVG_ZaawOGolJeG76sJqjnDNXn4KsZ6SiCz_Z5VpM5SeSRraQySKWIl_KDArPZW_oMb7GzSio9otSmjdBjmpuSkp-1aePPQG9p5vQxG1R3eYnNGmRJzwWTVgSPyXE79xfFpzWBE_P9DIQFd6_srNKVqymouLSKKWillcSpU3E7oL49zQDSCXEY8M0cVQDt39BN85Zi8J7yIuamkn2EvOLnBQd8FVu0L2cpfLwMnPW_y7GZpkOASv5AXJw",
+        "width": 4800
+      },
+      {
+        "height": 3428,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107628767546966972037\">Emily Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMYRN4YTbeXnddVwlSRFxDTFFaJ3nzoP4TsQGVPLmdmbAs7I3W2WsXn8HBJyYw_DkiiWOYv43L3gNYVp3LM9563eeaDV5_1shhGLXrEC5KxfIkCu3m6pnLt1LusInCeH96ki5s0jl90wF-yuhhUvp97ZGMar9FMcKlV-FcFGQI3bBAL9SXXYKa3kGR-uUb61msWYtwPNoC6SuzUuy9XSRvEZbKqvFqTasNug_wl3kt8vxSsqrGsWAyx3_rCjZqP1m0-lIqPd3kk_ngSsF5-yb3EVL5SNRdOucq0ccW9mgPInOOnbrx6iEk5-4zZEgKGtV2SJ_82gsx08mWxVhKYQU_5BDMuyNAepwET3Msg72DXB_5sEON0-Iq45BCq19y898qSrkzaCO2GFjOlWPW4m8BiTitQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111595965830824825553\">Kjersti Goodrich</a>"
+        ],
+        "photo_reference": "Aa-ngMZRIXEmDk2EtyZXzML4QWn6TE280oUMkiLiDXEbnFrNddlnyq-pkd8n9Y3qkJRtwtGqocF8r1ii-NXXWOIJIfrZBccrY7FkRZHiZrZ2t-85z1pa-Bzee3GxmHeAcBBOxz3LFGqALAR2dYf2fqDH__J8KKhBPeaVWuC9uAc-EnxTdILkhj_f4Dt3yOIs9fQsww1NTSM_p-OdJSZYCA8XYR3DlMAngKPD5dBRLJB1q0m4VZDdnkYx9qqAtRg8Pp7OPzByegGLHFQS1WiAe0VPd3YNzSPB_bCLzGSAj67sCUqsCXJaRI0S9YfDUfaNQiYNBNbbmnqyMz8YNjrOnSQ0ZSBjLWOvJQebsLvwVii-0xzisWDO5zdHqR3T52SIGuQnT2CJmuY6LZPj5sTWY7-aQXb4Goo",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107628767546966972037\">Emily Martin</a>"
+        ],
+        "photo_reference": "Aa-ngMb0MxJi_CAc6bk6BUrPtpVvFpaMTnteDD7gmVKvPnsvzYjNKvlJtReM8VUFOB4x8y1Q_QP5SGx12zyF-qV7sZYBI8tJFxgpeQp-2PPB_w5s0pr7Bqjs6klH8EsqNrDpUpZQAi_2OeOFYJRnI7ic3l9gTeTiTB_dXVm4UGtTgrMI6Ji4ivrZ9EFuQMmLabLxtu-8Rd54TqyRxd2mH6KVJtoOTzrvnDWzBT0vJq6V5e-Y4vT1YRD10UQ1vN3sg4-07_SlFrk6ZGdm5IDWCsJ2R1eIlrHlq8OeW5ZKPeDDIKcIWKzvuVmI14uDH4lVN3voPouai4CLUa2Vqvkntf631Pb1PePnP1rFh8aT10p8MMocGfZO35Y0UPDS3VRY6Efzy0753p9J1TX2zbnjkKHXkNDV7i9NRKA",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105922468961140428855\">Zac Clark</a>"
+        ],
+        "photo_reference": "Aa-ngMYmet3CURUpj4OG5tsF5ALh5cmmIVTx8MNFMcLPsey4nQfpcwNTnPTVdYDYEGYY1crEesoGulrpm96EGEVb43Yc-4sTHDuzmvFC92QXuEgdD2EoFnjdcmJghWcaq-tQN2SPTgcmlm6eNrnUscbAVnPj8NwiSB8EdR8P5cwOFjoMy--P_WEAswNMzONq80ExOhI4n37k5pSh_KA2W6cQZQIOfDu4HoosnjNwOInvDGdkLuYrcQiHO94tnPQw4PbJ6VCVOVgBp2PsqKBYkkY1UnESgkVMyde4P6KamsSzv2EnAZQW2EnoNXZWcfPm8cIxc_mGPT4vOCirM3_9LXfPLMfI3JmWUVuS0wWS1_QN3j0Pjpe36b8Xd6271Fyl4w_-GKFdBIN_099GeiHV-Rb5CknST9Y",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115597053172295384990\">Mark Collins</a>"
+        ],
+        "photo_reference": "Aa-ngMYGLMffUvHEfS22-tD-CHH3NRj7CDtBRG5lFuBSmlU1sCqbPHV71IpYQFd3JzEkHVTlQ8dTVV0zJQSltLd9nHwzr-_lH0TfgqwImhMlIcVo4-uXSvMcjmRizrjsNAvB0g-aoxJgCWSkK1varXB9gdKt9FSxTa1Yp2s6COVhbFSmk0BENs8AYekGzfg3HYCJR_D00z9Xj0jxKoz4s68RLcWLzZ-se6nDt_lcDqg-ZK0FxnvX4zJFptl-wCIwWtlU7sX5r8cVzkcJvDCa4Tn0kj1P09Ow1gWnSz4xaY3nL00HYACst5jyuy1LtkBkVYlLYNGFCUxA9o_XtWT-_ohh8fEVRSIEPgQqWXaC3mgzQsn4KYVDcy_MeUggdXt1lLYijyF7H9iXwDfYbJzRAqGU7J6R5yh5",
+        "width": 1868
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112713717859323854127\">Jenna Misciascio</a>"
+        ],
+        "photo_reference": "Aa-ngMYZy3OQwJ6bvs8XR9XlhXb__Bf5EMRfA61utcIG4bWQeDc0yT_REaWPU34O6HKKIVDrUHrqwwPFJlCCyOwVicgnmwCI5GrlpnEWT3jjLIq4qoXSJUAVV2ijtlLsguPE9ex8NKMkPo_ZHQsEcIv1C5tBOQ5_9KxZ51-w7LvGaQ1IsI54BUG2Wr2_cBdgEMPAJq2FMk-l2qwPqPj6V9-wXWgGEG8I8d3QJJw1tUwR8APdz_cHvQsNuWz9ZgwMOJAxobYHRp-gNCkWxQBBeTINljmAi-5H-igeUv3xZ7ikNCRjvCgYjnx_C3y7NNY22C2qEgAr6YltowkQagLQ8jUuS8fSlk04IGH2SdyhozN337yuKuUATpibHVDjvZJ9u4N16yoHfN1Uq0Jvw541axR4HgHreCJ5",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105922468961140428855\">Zac Clark</a>"
+        ],
+        "photo_reference": "Aa-ngMZabtdWbega5ZeJoElZVfvMVAwFUt5At9CypV6ODcddIHN9Fc_cx1SBYQ_qrz4BwNWkaLRiG27jxYeJaH5JRimrUKijGlVkJ34Q_I6p3L7BSxune5faZQZhL11xsb1skGsJYq_qGyf5_wzwsnD1Gbq_vsOzdemK-ghq238TwPIRoDbBjgIjNL1Q7KcFFOUs1CohI0aWmGXUfkKnAG0kfvJQGNThGmrFphBe0gpax_Kbo6EyL11uS9A8l3c9z55pJEDAYx79yXaPNftaAETXJhll8T3fSccSm4Pa8czp0P-88u19kwVEIbxHsz8QnCUP8rbmg24LO-HR2r6VlgviypwvN452UpSKhCSFWNUnj9BrBRFyc-H5UrCViXZB_6TgVsaRNFT6poFAlBZp5XyRGYbKtEwg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105922468961140428855\">Zac Clark</a>"
+        ],
+        "photo_reference": "Aa-ngMZ15S3mRA58Lg3QcdobFglMsgmQbKsooTx-cgp3mc752okA6uLUE0jk7jUL2a7FgtSXQJYzBO3JWyLvGSbw27zK_oiMf4XQwXZvwcrJINPYQp5ERLi-pQ5CBJLqLThQcDfihhHopqMiBeVBLZEFWdmf-ohMk92h8Q6ofNkNxb-ImpuHEAM1GPU3RvMLsoYpDJ423vgs17NRVNClllwTMdxUDu3FZHYK74hcYbn7n4oVFgmt1CAJjaTDtHKBItPliy5xPgzvkg6SW3lQtIjMIkeLuEpbjxx8BlJIA3EA8nMfJ9y69unKk3FR5v0mQ4XCnxvWfOWfUtHLYRH256ooTR0G4WDETbZHzVNYWdneRvrrmXCAoHHfvxd9_V2DGeTvUIVxxS3ehVSG23tFx3l9C22R3f4",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJby68rxkQhIAR_9FCvXPPutg",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=15617022753864077823",
+    "vicinity": "19170 Geyserville Ave, Geyserville",
+    "website": "http://www.trentadue.com/"
+  }
+}
