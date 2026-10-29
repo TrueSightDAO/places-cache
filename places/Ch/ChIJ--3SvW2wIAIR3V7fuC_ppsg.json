@@ -1,28 +1,199 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:51Z",
+  "fetched_at": "2026-10-29T00:18:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earth Kandee",
   "place_id": "ChIJ--3SvW2wIAIR3V7fuC_ppsg",
   "result": {
-    "formatted_address": "2280 East Main Street, Ventura, CA",
-    "formatted_phone_number": "(231) 580-1502",
+    "address_components": [
+      {
+        "long_name": "2280",
+        "short_name": "2280",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ventura",
+        "short_name": "Ventura",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ventura County",
+        "short_name": "Ventura County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93001",
+        "short_name": "93001",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3568",
+        "short_name": "3568",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2280 E Main St, Ventura, CA 93001, USA",
+    "formatted_phone_number": "(408) 438-3017",
     "geometry": {
       "location": {
         "lat": 34.2764485,
         "lng": -119.2658013
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.2779114302915,
+          "lng": -119.2643206197085
+        },
+        "southwest": {
+          "lat": 34.2752134697085,
+          "lng": -119.2670185802915
+        }
       }
     },
     "name": "Earth Kandee",
+    "photos": [
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLeRV9i3irUjectw-soJTXBd2jRtvorZAeU-U5L_BkZWfT7dE7o7OpP1vkfKmW3xUc_kM2vJJZXDRnObH1qvLogSPOG8Ev64saF7jTxhG9I8V01Em9aNrX-ajpAgUw_JwyJ9FqmcVXx-LlNBQ9RwIU--rvuK1pTNCAAAJbnuabX29_6SbIu-LMdAxj_JmrOvOs49g45-fZQ70WhMQaNRGNDt-GsHvdwYL48LZGPbwuUDq-aUrBRmZ7DduRx6epEO59wkdCv0JuQuxR1QnB0zGWRFlIM_AAd40rhhKLdP3LIogXKnFptT6F7HyKn9a3nOOsaniuIUWmPIyh8P4VCE3wpC6Ej4RWvZ4jjey_BJBcMLUjaIhyFEFITDitaY0FzIOgnFlKe_aE9bfQeFpDGGm77lQ76r",
+        "width": 1442
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLdUusFi6JAKHSiCiNfEPjjGdoRopjjPxnux7pZ4hh01tYEu78HnIntRYrWC1AoatF_sydpM00w3U6RxcrIY0clY7SLQCuhcrM3RC7fMH0ecBAyHHQhM261DSZympVGcpWv0eq6xCI3mAzPMILBhZv7opcEgVp6ZjPG_YCN7j_0KkatH1zVDjHCGn7apHmatzS8p1Fm_G_41XrKC8qFoTwtUE6HATo74CH1TJm_uuPYCwfUrVZQ0fO3d4_xiFkhTfGnssajY0blT7LX83PLsstwebs5p2lkJKfOyD_gYobUoqa_cSYwuMuMecBPBZGv8ZmeZQgtAIoObjza97FT0BskbScunAN7rXa79dcVehEYBVJCcxXf4cxH3sIMvBHngd0GFvffA1hGnNCrvWFBgCAsJvs7n_hs",
+        "width": 2401
+      },
+      {
+        "height": 1244,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLfF1UyKrcp36boodeUEkG1lwu6S3FZWF7e68FZvHcpaGPeFzrqOQWwp6TYhQC0qbLccRVIZnCcU_CgSI9kvHxoWPGf6_Gmur6z4izIwsa6RsTtLPCs9sBb_PmMxpaSxY5OsqyUVFxLmVu8oj0GcblAm9qSenZLQwrwtyVrYzejr7_0ZdpxFG6DCYIw7oUyM70JQEDx4xaifQiy-ibP77aIHDH5ueeqcOpP2sSPROQeX4BoC9pf3iyf5Dvr7o40F5rN8ogeobLpMk9uf_2ggtST7OlOOhUYynvLHuhZ7DcWFZRZhnTyn0J7AiCqZYK599MJ-24PUyW8sBABz5Ogg2GSaCwU8wWs4NfADthRBQGd8Rv9QO_Z9fLyvwwXwyATzS4W3GbAz7_r4RkZRWwH1b8nZbaM",
+        "width": 1242
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLcohF-_3Ch1vKpHPi1ozl_YnMw6tG0IcMW-R-gheqNtHqD3O9KmAj1Xujz11WcgfQW7VSIC2bRJ2N665fJT0kT7UyqgWZmTSDy6FaiRcU9wg6LKr9d_slfaB9K4wm7pz4EYyqqAFiyyvTrYX214srGKjOne2DE0m6dW5vfmKpZrz166s-mRqJ6EOY81jZ-Qt4pX7wFfcWQHiKTP6mXD8IM_niVewrC2fK1326Wl_7p1gAO7FkZ7RK-l1gVj9TAVCp7yiJ4k0pqbkNPWA8DAXN1dYGjSbRAGvkYQACJJIDSCPsB5GLz1rpLknElx-vOWHUUTcsjJDJV6XfiisGUZK4PT4DTUA8F8L4fCo5G-L7iiJ6kI6FzgOAvqQf-nW84XcvYjjspZEfitZntPb_5mkv-ntK63A44",
+        "width": 2401
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLdU21lCF88BmtPBBSe3APLiuR6B8MXdEY6LSrOetzb2DonFdPfH1DNgY9qaKin672uo7xYm32g-WW8EdGRYql2DV9W8L5typA5e9zHLVxA7B2RbShIGcgfGaGZ8ACs31iJKGikZ1nPCyrSlaZjLTD4c4mCL6XAS5sGgcmuUfuw9XoQS9zfaLpdFWDAQUZbMXpC3Tek19K8IkbI1yZKfVTWnVNccnYrcslTDk6N67f_qNPKFeqHUTnx1vA8htz0cwtdwiearQ7GacTfoHNUXT0w4o7RxJu7d_olx4BT6A4A98TF8Cjc9ltTWHc0yjFiq9Z9xl4gqz2goQDioD9Ry2IXKjWD3Bi9V_baGxeXCkpF2olsarQQcCvFc9VhttxIMSdoP5cMjf0Z2vOm1UJmZsnT4kqg",
+        "width": 3024
+      },
+      {
+        "height": 2401,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118186220795973041823\">Kristen Anderson</a>"
+        ],
+        "photo_reference": "AV-0GLdSwKFShcSfTvflbZGL8yEJhNOzRFud09uqpMOoTuHs0TyQvJ2nq0Iyxa2CXBABnYFwSmORRr2NxPucQGkLZ0-SLsO7b-3cLYJnYg4vkLd4SZylIiiokcUk8eQEz3jdc6NLLIWOVyO_oLXck5rxyb-UY3iPWh-ClGjkCpmPxxu8JPET-Zzif4tuZGTZjNSXc-ONEMoMgYUnyWFe3wDaD1ju1BTfeH1YtxGF1DXPtu294wm4L8ENNEmUGcR3U1zMJr-SI807jOjbdzUczLOBpYESIpduJnHxWTwsogeAQ3HS-5GmOu2pmaVQMp_Holw8IsI-dGuVFRzr7sXnR0L0ZBISm_4dUa6_A2BHiDoNeNK9iTAbjxmTbUY_CV12R66-AkMeZjC0XNwvXBqsUi0G1zErDrreQ-w",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLdz8zJ_JMW40Ti0vK_aRzWUT7e6hwcw3b2NBa8rgzvHsQCkB7HA6oXtF4pUvkEYTRF4w2nYDdZFL9Ver1oiUGXU66IUEgm-2ifTe86q6tAgpTZGIeHlMHcyemsaUbKdXr-RU8FstQHKu8OAjzNfhj5qP4QciNx_bhWbDnrUhcBNboprRrH0aODkcxWUkaRz6HQq3f9Io7qUYCfIky6v5JYY_VsaEfUGTJf7YXYHyO587mCM_sETmI_L1ft1uE9r01-yuvgjlXxGWYh6QiwKB9MOBA7zz5ueq8W1y0K5DOXoZ5VDmeBObDoWLbyroGUyYCZnOwzNlEWALibwaQzhWIAPQnCPkfMKMWw9UFuvX2mS_MTwWs0hwDABEYs9xTq7WBJc3HS5pSnRyHa_332povMTyeFSPQI",
+        "width": 2401
+      },
+      {
+        "height": 2532,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLeSKkaPdsaYw8CDFOUDuvf-Ym8QThTQrTzUXCrOZjcgZXkHI4HKRSdbj0YsDa6yj7kJE1p0BWHDk62QCp9DK8-GA2CCGtSW8D0uT0t4KC0wssArMm1KaQFdIjKzYYa0EWwgoD9k-QazeOw9oOt5eWFpzEEgQj-gsghAkK2ZqHyY9gnab_3yXbq-F-b5lzBkd1J4GOUa37PIKc-XIRTPf9_N-euLf-xJVJbddkh1Qzhose8YL9rmvg1PZFHihSFzTNj-kG0I1otcxiixAmSyjPv9jNg6_epVnayCvopKGADDGtkjPUmVMoWLLDQfooceUeu72dPFUB4k3bmYZd-1JaZOID2_Cl5T-yyhUphC9s-o9zgv5XZGZLfW2NPCPO8zE9LRsbsF8C40PntyYRegzsY6A5Y",
+        "width": 1170
+      },
+      {
+        "height": 2358,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLdI9XosWQ5B-f7ESp3nk_Z7ZME5D-QtdJGsNF44K4saoJhqbs_2WmITF82YpYe-wN-RdBeX6SpVD7FZAdf-cRKNTrJGoP9ZA-ek4e1Qm35M1_3ms6Wm69laobdR3SyxWtzENLZYv2MLiT3IcpUT3w28nqwBLyDR_Qsbao42GzHCZWUCIh7pEf_k_4S3g93GoacSXnjXPkToVQfrsK__Ffni_fPnAu1TEh42muTN7htOXzx8mYgtgz08Dq84A0rgecqcBjbbBJ2hfi1wJ2_qWDJBrWZO1AlzNzaFxc0QSiT6IKbLV5mnTf9iy7v9lLjkixku6oUC69sutTbISj_ii25W974Os9edzouO0DHthlit1SnqaWAGfyjRM7WnpIqBFut-jvYWmbvF1lvexbEjv5Q33g",
+        "width": 2357
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102462929637991010994\">Earth Kandee</a>"
+        ],
+        "photo_reference": "AV-0GLehcK6HVD0kxOaBsaRXnROPEED8LErvN-uFOrb_2_q6CsGoPYycfcJtjusa9yy1gSRx7cwDokzcng6DGsMYxBMMiQ2GBpNVSFozrr7RtZvlsomGwmvL_HoDJ6FoFL7SmLhksVC2HjCnIf3ZUuP_JCbgxUJbVDF3q7D5oLpkWAZF8aF_ft_SQsrfb7wub4Dx2-k3THIfIcbcx3wUF8MCmKhJajmtvBDavmBXdjSVYZS0bkPmYIEb54u0pkmDiRsTGrWfqeFWpuhLjAoQUTIsUE0T2WD5vTPGgYIfvZw5MKKJ-xWJCQCkQ_NzyVNXT97UmFxoZTAsa5i-I8cp1nCnAMK2DFZTyg3LMJYJ9aTO6dZh71WZbihwyzv18ELwhPTn6qwb0gm-FLp_00mF2I-p_sIecA",
+        "width": 2401
+      }
+    ],
     "place_id": "ChIJ--3SvW2wIAIR3V7fuC_ppsg",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14458500044893937373",
+    "vicinity": "2280 E Main St, Ventura",
     "website": "https://earthkandee.com/"
   }
 }
