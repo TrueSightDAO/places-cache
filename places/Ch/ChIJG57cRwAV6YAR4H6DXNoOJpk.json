@@ -1,28 +1,112 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:44Z",
+  "fetched_at": "2026-10-29T00:18:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "IV Food Co-op Downtown Market",
+  "name": "Isla Vista Food Co-Op Downtown Market",
   "place_id": "ChIJG57cRwAV6YAR4H6DXNoOJpk",
   "result": {
-    "formatted_address": "1533 State Street, Santa Barbara, CA",
-    "formatted_phone_number": "(805) 456-6936",
+    "address_components": [
+      {
+        "long_name": "1533",
+        "short_name": "1533",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "State Street",
+        "short_name": "State St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oak Park",
+        "short_name": "Oak Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Barbara",
+        "short_name": "Santa Barbara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Barbara County",
+        "short_name": "Santa Barbara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93101",
+        "short_name": "93101",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1533 State St, Santa Barbara, CA 93101, USA",
     "geometry": {
       "location": {
         "lat": 34.4268175,
         "lng": -119.709514
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.4282306802915,
+          "lng": -119.7080959697085
+        },
+        "southwest": {
+          "lat": 34.4255327197085,
+          "lng": -119.7107939302915
+        }
       }
     },
-    "name": "IV Food Co-op Downtown Market",
+    "name": "Isla Vista Food Co-Op Downtown Market",
     "place_id": "ChIJG57cRwAV6YAR4H6DXNoOJpk",
-    "website": "https://islavistafood.coop/"
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11035524267935760096",
+    "vicinity": "1533 State St, Santa Barbara"
   }
 }
