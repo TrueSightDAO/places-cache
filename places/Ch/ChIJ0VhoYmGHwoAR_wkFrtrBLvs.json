@@ -1,28 +1,206 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:24Z",
+  "fetched_at": "2026-10-29T19:47:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Olde World Apothecary & Botanica",
   "place_id": "ChIJ0VhoYmGHwoAR_wkFrtrBLvs",
   "result": {
-    "formatted_address": "25848 Tournament Road, Santa Clarita, CA",
+    "address_components": [
+      {
+        "long_name": "Next to Drifters",
+        "short_name": "Next to Drifters",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "25848",
+        "short_name": "25848",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Tournament Road",
+        "short_name": "Tournament Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Valencia",
+        "short_name": "Valencia",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clarita",
+        "short_name": "Santa Clarita",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91355",
+        "short_name": "91355",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "Next to Drifters, 25848 Tournament Rd, Valencia, CA 91355, USA",
     "formatted_phone_number": "(661) 666-7507",
     "geometry": {
       "location": {
         "lat": 34.3923143,
         "lng": -118.5615157
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.3935442302915,
+          "lng": -118.5599161197085
+        },
+        "southwest": {
+          "lat": 34.3908462697085,
+          "lng": -118.5626140802915
+        }
       }
     },
     "name": "The Olde World Apothecary & Botanica",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110009559833037287564\">The Olde World Apothecary &amp; Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLcJk0GSTeLJ1ec1dU8EZQlcFYrgj_I3uTEm2oXpzy69vlOzztOMdK7MH2VVl_RDWZDx8piA9T5blbLN-rtemywCS6qz153QmxLk00Ue_ErfhwsL4FJNaXlfuBOq8ft23wX-AzGtvZPpBHtgeK_LPAxbwHm68LodkYV-ya5dC1LvHt7rQSDEhix5spq2UX30c0_loKfe4-UNpDy3x4YgxoWpwk2uTYdgpLHq2nXUhtUVt4AEFoS9miYZNuqjNmShKMjNBz7T1j8RLhl1YFwCjCEp4HB4R0llZqA0mjvnAUfu8U891tlKuHqc_LcdrEkB8UB8qpbtooTTixBioK5W14emkOYug_13CujRipLf5oU6WP4palIwLhg8Oamo7E2Q4el8lB0LC0VUG_hunJz-AEMclFaGwV8",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117068799143957457455\">Jay Africa</a>"
+        ],
+        "photo_reference": "AV-0GLefNqeEyRz9xzWqcC9Pw7MbJIK4je6hFrAfPQTUBSuCZdAJ9hu4yDoRL2RLTTCHGXUqb_eY7QFpgOUDd1MxPrr3mkJrnIErLPXlAMnHc18XuTVSaEkzxMQ5opGuvSOobhE_lz_DWjsBM4bxRObFMXueXJH0_Q8EJ7J1DWRozEeuGOKzFxxmYSMA42N6vL0N2V5J9o6lwkG6Id3Ev-UFHRd47mGGVCCcHWervgqG5DEpE3GxHTT-tw_OTRjhjb_-yZkr3wIlKrA4d18lBIt8umQasR2mxKcGMP2L-5aB-x078olic_EJ-ezu340QRo-1c-d6s4hiYo5uWAq96tHNM9H2UJirVr7QzP4E0MkqCTXrvth6qfuL9_FUYAfZGAl8V80vfXDRrJ0NR1eV8VCkU36SCgg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106450125527170786308\">ian dio-Lovecraft (semiautomagick)</a>"
+        ],
+        "photo_reference": "AV-0GLf_u9NC1X7t1xJAQLqWXmIN9ERffkMsqeKR4fTFF-Y1P5GxU1d1bPiYk_Q-M0IpLAmWxDMLmKZr04vWNB6ZIynpJOzZ1bWDpTWDKXL7AyG5MZXKr_iiH25MWaRvAjEkdjaDc62vJVoP4qxnB8LQPJk2df9Ldlc88aQx2wxx_5mSNFKUBKB-lVq2ipXT6C7KAs0t57v731eifh6euDnoZDD687tsWwJJlD6MeTLnGRGM7gKTyPErAxym_k1jHGubWzMaX4kFzf0l3c5CqPIWW300N5NfU4WZIWCHvGm7s8fkQChHwaNe3xfEiqjrZPKV5ws70fhlDKU0IqoQkRuyqUIZfZ7Gc7EiyURnLAwddg_r6nZNI-Xp9dQscOZ7mhxJocv9VweQ_CaEBayfqFuuTIl6hAI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110009559833037287564\">The Olde World Apothecary &amp; Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfrm3iYvYeHHbd_QJXK1Yv2Ngfo55lXexEciSuZrm77GKNGmfkKMclIR1o__bjoPt8NiwBWC87EGZ67lsSpmDIJ7ElR_YBnNiReYdmCXlaqoYBoD3Kzh1Y3N8tfskNbjjY_clgP3crxB8xnPbfbK09yf5Z5agT3547xugmuGJGJf6Fhg358u1OropOohJBF6sPsjx3roOK5Zc8d79wTc_pvWo3qVL7Q82981uDzZkXlcpXgPuMCoUfKLJRcr2Bm5seP-B0E2dPiT7KpOr6ZAzbqMkL1rumst2bv0i-dak8CcoQrSbUI-R4TX1vUTgBbTeV5Z9aPappHZnN2zruWf5CPqbUenAqt-j2Ozi6F3Ba8JTfSOdN2usWEo-NNTyxiE5Cm-nIMDzDwTYsHBjtvZHdBYHDCtvo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110009559833037287564\">The Olde World Apothecary &amp; Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLckKyzf_2GuUa5JlM-Tkve2Nv7ucGxiX-zTi32WkS_A_ZfC77XfgYS4I1olSYhH9pbH7GHx2v2h5XwcTX7G6fLbE9XJKNxf6IdjErplRh7Uausv_NJcHt94NlAPr2_vniUzyAVn78AotSYOiDXzfDBOalN5G0zDiL_jHhlIte1vKpQpljBAaiBCywUGr4zKce5xGWMHKhqlKzzvNjUmXePJP5pKJzqisFSk6sLZIAvv1LaxxVNE7RLzz8fJL8D36CpGAk02tLbVMH3K4cjSg7iqeI2QBGXrpqPZD7KlpQqM6a-grlW2YG2ov6EUatcoXClovumaiLzRGUN7lxlPZTVur0hhXxeFcqr4oC0hNtd9h9eHoYoA0-MddNEsg64nPH76DNnXvfWxgWKlB6oVhBMZQ14",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117068799143957457455\">Jay Africa</a>"
+        ],
+        "photo_reference": "AV-0GLeXZfbF0Girsa-FDDRH1fqcFBhs3CZ7KjwhZq1KC7OYZ-gYoNnWgoeLmW0ZpOy6CqLcvE9pA1Wf15wRUOGlHXFWqhfqKnC9sdIIGDlDb9n9IcWr0mV2wIgexcqm4_Ulw-SNH6xOlbUK1p-zRM58RjZpxGSGm0_8gF1Vpx7iEBC8gKEDauQv9RKkzOavJvA2hSI3CweYKk9uAOkyX2XQubsr8FAcqU6dsFm1F6bmZK02o-Rx-ScsvRDKKWab7A2F_WKfqPoiyrfgA120qBWh5Bj5p6hpJ6B5Qe-j41Loyiql_xLPSqMNebcSxBZpRosuG3ydMXfaexIWyAXrMSht0aQdl11QulL3SSMHXR4_e3Yr0IrvX6v7GbvokuQtfM9ocL2YK5UVst75fM8Qq3TQkcv7wkLl",
+        "width": 4032
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110009559833037287564\">The Olde World Apothecary &amp; Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLevI3SHEmABXfU8yEUUzSuYWjGsP4O8EPXWcddVvgwcgagw7SbvSQvqQOva5b06YF3gb4MzISqoVZzfyxErqeDwz20or411GPrdIt-s5WwbD_9cprDCOcm2JQZsKzygcN0kVHeeeVe2l9yi4aVdpmSr2fqBL7tCirCrY_YT3PSINsDR-KjwBiptmcr24S_5L8QFNSpfUzjl7F-cyB5VZkRrE4SHzUEPMwQ1xuyvsTfHxRMGwVjFGALTVqv2w5orPvEu2lzax5y6467uh9Zo0Kc0GEI9Sa6eeJJHp_CotfJrSBP3EQ5YEZUnZmq-pP1riYYvniPm_6TO4RaSDvt0H9R50lyKyi12S0X-E9zgeAzG7kgbNFA-nY4QItZKdbGPYVqi0RFRUyrvqYhJ7ZMCMzm-IPersHQ",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110009559833037287564\">The Olde World Apothecary &amp; Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLd-f7apWhSGHLdKwko3EC291ifLgZ1eDDMdks1rD0miT6ywk4arhPaDI4J5OVhYCXZd2aJ2cpgeTsSMR1ytd5QWnw9aYdJ5czd8gWoVM1Ml5aK0T5S-0MYNOSlGJgTRbaf4VM_qzwevWJeoo1isrHFo6OZAjJTB1P-IHEEomZCi6daaromaGrDXnDJoEsvbarEZ-C0DvC6ZSogAdL6sMFV49my6NPvKkXFoV1aQ13H5lU_RYlgjycFwkjUvzDKaqj4qNxrkMT_JsxXqnX73cfDFhdUznJFyocFl0_paYgEnEMGSQPO95Ch8-v2na03HZCx4fsWWQ97C0Y-BmpFV2JHO6i-LiADsWBPQBXwCxe_VTBCNyyWX68FghEuxjNMBIgQ2S_P8Dotu-ZVzQyQyAH7Rmg",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100162877050973201784\">Arielle Modry-Salsa</a>"
+        ],
+        "photo_reference": "AV-0GLelQozE0S3VYwdYcvOdYdypXvgnrVq4SXY1liA7AN4rMDhXxG1xlk6g7uxBfoaMkj3waYju77sxGFLin-7V83d_Om5gn-v6Ux1P_rjyecFAXGnHaJzyROl34Fo2bN0zK2d-xu3MuK9MUA63dDE_tap2MiNqmpFRF2e4uospVbuFF_Fu4QwRHYDodCeUfSnO91ZTvCcRDWzwnfJGg1iITs7hcXfMFQJbNXOPVrpldB6umsb5lyd51dVnNW0aZ1uIlbIXwj2PCi_zzyw1cihNRRBhII-x3KElRB7qhJ5jHJZlTTDNZK4au0-BdzT-RSW5QG2A00lNKp4WbtKprfE2sd_WlxVna0c1WlTjLI-XpjpmnKf_GjsvsE_CTxifLJ4kYmy8hl7dhJqNw2NysbMQR7J261E1_F8",
+        "width": 1638
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117068799143957457455\">Jay Africa</a>"
+        ],
+        "photo_reference": "AV-0GLdcK_7NKF8cA1k0NY9YcD1C7-qV02BkIO0jZHfEuyYH5YygBOy29jxnlakAEXPby-JdNts98h-H0rbhpztEkT-V-muwyp4koT0SVOJ_MBBmBArL6fZMDKM-So86CeM-jaHMU-i9yTZyW2R4TODB6gbEHQSbS1tr8TzBPki_QiApy6NLY64a6m-JHLN40XxbneFmhvgyoMtIW1envMYf5iOz4zOMv9aHZncs33fcHaJCXSfZ2p49E-ABoB7IEuv4EPsZ9s7g57QJYGRxvQUv1K0ZFbWIJqYrfGfaOwg-wEmGvOwv3SmekoD03kTFbFvA6FkFdMDwD-cxu0PVIvWEF04e_OamW3Ky4nvDPeQK-dCDtIncho9bg4EgAAb14c_t7QQLfVJJgfB82ZLl-hezMEhJ-Rjj",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ0VhoYmGHwoAR_wkFrtrBLvs",
+    "types": [
+      "establishment",
+      "place_of_worship",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=18099617097415199231",
+    "vicinity": "Next to Drifters, 25848 Tournament Rd, Valencia",
     "website": "https://www.oldeworldemporium.com/"
   }
 }
