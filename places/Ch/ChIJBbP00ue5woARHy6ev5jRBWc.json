@@ -1,40 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:04Z",
+  "fetched_at": "2026-10-29T00:18:14Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Nappily Naturals & Apothecary",
   "place_id": "ChIJBbP00ue5woARHy6ev5jRBWc",
   "result": {
-    "formatted_address": "4342 Degnan Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "4342",
+        "short_name": "4342",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Degnan Boulevard",
+        "short_name": "Degnan Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Los Angeles",
+        "short_name": "South Los Angeles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90008",
+        "short_name": "90008",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4905",
+        "short_name": "4905",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4342 Degnan Blvd, Los Angeles, CA 90008, USA",
     "formatted_phone_number": "(323) 903-6655",
     "geometry": {
       "location": {
         "lat": 34.0047775,
         "lng": -118.3312338
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0061279802915,
+          "lng": -118.3299924697085
+        },
+        "southwest": {
+          "lat": 34.0034300197085,
+          "lng": -118.3326904302915
+        }
       }
     },
     "name": "Nappily Naturals & Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 13:00 \u2013 18:00",
-        "Wednesday: 10:30 \u2013 18:00",
-        "Thursday: 10:30 \u2013 18:00",
-        "Friday: 10:30 \u2013 18:00",
-        "Saturday: 10:30 \u2013 18:00",
-        "Sunday: 10:30 \u2013 18:00"
+        "Tuesday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108047477461263069575\">Coco Chanel</a>"
+        ],
+        "photo_reference": "AV-0GLcA2jDXBPktE-cYqPJpxVsXQMBX-tDSj_kQ-A2TCj_SvQF8GRW2tKoKthhzoKsCUH2DiDRtpxDfvpH93fApWrn0HbeLNgf8YzOhYWBJxHYmwr3t8QdM23bsH9bVZbEYcZZ4g4AxLUiTTmmIsNGresQBIrHGtPqMevc_saRhO8Ik0UHJIa0XtAciFY6KoPw-WdmfMLZJq9A-bvFwZsZXgQ5zt6oTSJa3mnP2iwnht9MdmzKx_ou2FLiD45qBX_e1vdt9ANTQ0GSA3YgcDr79g4Q2GaKy5lOfbhKWj_2FK9ObB4hFwi7dVc45qBEnslH5Cd3zpgsSez17iDKbzH1vA2VZy4V7lRb392tcoihyKY9XcUMbFQGpudPAn-7a_WM0sIevzqJ9K-m6VlOJ_ptFKAD8zEv_",
+        "width": 2250
+      },
+      {
+        "height": 639,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeHDsD0nyZpHOUkW5-T8VlVBkk_R_iydQiPDbPa8wCR3uyaftUHJIJsHn_LafgyW4aoU7l5cfuIv07yYWSCGgigRf0jOoZFGEAuV1r4Ka3GiQsTz4oWuynnKtdBu_twAo3up5h1pRUJdN_e_ZJRUAfBY6HFIul7iY2WApI0YCJNvP2_ITDwNEqzmh8dyeoyfwOxv3ElFdG48cjNBYHgZ4K-T2Aa0yppsDemj7Qy9swxUWoPw3I60ZnENrg6sNQ3BFwcpwR74S3nuGg1VSDAkVWrf6QQY3PI30gedtc-lzUw0TOr2dcn4C5MAXn3CfbfkihbuVgo-HwyWAaMagLT0X9AM5zJYi6gj5WQCONwnMz7Ntzgb5gno8rQT4ZBMjz_DF4apihuzqsF-ZsKiqS83wpjAO_x",
+        "width": 960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109791773066652449128\">Rena O.</a>"
+        ],
+        "photo_reference": "AV-0GLcWtUjHRnijCr0O6KK7KRUwKH2quyr1ILvO1v23UeaMWjfoFQJtULzkfM228TT29Cg3v6fofW2sVrv7P3BjSfTrDy8wIWoig1V6qutudojQJqNm4a77fso1CmVNKGE1-PHcZsYgU2SNN2jpGE3C8T-GENIOdjCzqDlQ0nKQC_uI4EAXIyCsiVLs7kkrrPZnbFoJw_SDYKapSn1I2i8BYsk-KXYaRX3GW_mVKWh0zEQaNQSTx9Go8d5uWEJ5nIVBuEZDmKh5Hj2EFd9MK82c8gKcPXlD8F17c88DThoClOpNglrPDG9CJ8QyEb_2xo55mbP-kBOeGDlptyJY40jZy7_bu5tRyXq70mXB1UgtfQxA_Ph4epa1AYpIHf2iiPI3f4HcHUjEXOAQJugwPyWZKKuruUvA_xo",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113555126632220534134\">OMAR A. MUHAMMAD, TH.M</a>"
+        ],
+        "photo_reference": "AV-0GLfBaE7IhRKlxp1xNzImopnyFb17by8zDkf9HW0KfUbi4qCWzvtmzMV3YDFsQsyuOJNcpGeA0zCqCwI4Ssl86nusVfs7FztTYvPX0_RowCAWgNtCnYaaJZvNOf0rXEYtpxEwscTAVzcyQxhOpz1Shjlzol02ykIJttnPg6AcngqEkB0GOKG6rE5bDXcC6HMoW-2xH-WFMT8lg9oQSM23VsGS0Qs_ah0gwUdAJb4IEkW1kHv6-hl-4Oj9LEbuDp834JWqQ-GfgT5BNCLLxrkciPpADqUw0ja1yo5E67qWlo-u5BM6sxwQsI_Jp9PjWW0uxkR-WnQSV92sRpFTr5bXF0WeX9PjhaPM0PHuIJNtaZiBhkFlU-tGIjddMAqP_fkQ5K5ayrXFuJ3n76GQmNmPEoo-mVE",
+        "width": 3024
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfvQlcsFfqW5XsikYXshhHmAvTSoFt2aBCrtLXoG_KEC2z_XoC36Q8JNrzF44gpNfDRm-CO_G0BBYCTPdTn4iHZykCx-ZgXbXemkTPKf7-9k6kbU79WbxePm1KZ1lrOE-YrqMZdDir-DULPENevf_Q0PCd8ZLbJbuQy6CUIKwu1L7xzXMbZzTxKIViX4kOBb6ixwizN7L_A-QzSfsnUdhwwWBIE1s24eyQ-ydWqQPwLV5wYLWEv2fEuR2pjaU_DsFrxWsXDqGwUHDUGgQu4bKadM6gFkaaZ8UxopkhJrEjYIQUrt4JltqCmkqqoupMglgkGqFud6vgjTqhs4ZPzz43koH81Wjmm-hQbKCDWRMM9BDIXbm58qB7ZBV-3qm1zzVuGhWeMv4OOjv3qKKVCVkVvYw",
+        "width": 3000
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLei_v9ThT-Rz0OlJtUIcHLFASNxnSdWksPQsXpoFr3LPZNhq0X5iIcA9t_ApX0FDo-Gv_3ZJzh2k_yraaJsmXVVUmuAWuOKAn4kKWwljxD2aPypkMrIG-uImEXT_q3mLS-ADOU47xMFRtMEH9PSMeE-gUgtebzQCPTR4H1A6P5ldKKTGP_T-fjIh5WtGn7RGgSWCOZOA8xuufvxWrsQl4pKhBGbr0nZhqLK2ltbnYBSQlD2XlFCLbVcerrvrS0DNyPg1Vup7pJki2vXDdiX_ELrhowsvKzmFYHk0QMMq-OcvJ9uASEUjGKDZfn63HDXaqwdtE0gszntFfOsFG0nY8-iPUiRplsL9IZZq5TzkkfkDOWrdkk1oDKLIizMgH0iXBWlv4z8_qwhjma31Q-1_DpSrA",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfUHttO9uGSWrr8p1pBYnR1XfBHI-29lO4Os6mfmn5es1aQMqbNsXq2Zby2R48U8cAiwntdDzkO8AXP0oihGIeB77skFgt7IsnjcFhjTBL5CgOqht31lZ3w4chgXwSW2tDMxmA-iwxt2EvhiBGnZG2GbC3GUZj2qlHQnGwWqAViH3RJGNVBetSTQjuv9tZsbg3Dm20WbUrMPYcS9wYyTqIRI6xJxtmmAx-c9hN7XJY4_gE7JcsjkcsVPOWTzqT9jk-GJ06gz7qofC0LyGgQ17QZf_9vqpZmZOuOpSSqkjBvd5yRpYjVjjzEn8F47klGNIQcdbnnR05njIqRAos2ZJzt1ePhsFudmMCpkM90nP4948PwaZskcObcFbULiK96jJeFJf9sfL3mRF7hcYJ2F0-pLqA",
+        "width": 4800
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdDIaLm1ZdCljRRb6GkZDm0cINkW7tFDR0anlUJEZfG8qT84FLinfSyiXNFZ4IQLIsvRFHdoXgMhdhFHxnal0yjUQYmIQ-on91o8Pi7XRR8zogY3CYbsAH0AKV52NcEsHuhnZ4-ZNzlDSosP1yCiP8xllNKB4yaktv6j27mduBZLZcXlZC5z-thLTNoWGw0Ij5Gi0tm5sZOrNC_3OuTCETM_v_FyQGsLFNgP6TFrUGcrSWh2Q187HAjeJ9HVWB7bPIXCNp5dmsstRC64oYc4GBwgoEHdrq4IgqZEyQQElotARQRPHONEGfsGElk3MfFCCq1pTfAIHv83VDHt5HUyt4pS1_U9fbKE1OZMQZBTzPNuz0-o_F04j5MzVUbKD3Y0p6YXUHGXwMAK2eA_1-dugf2QLXq5ow",
+        "width": 800
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109177142238877465586\">Nappily Naturals &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLenE4Y1UtlINJ4PXyB4W2EehCJzTq2x5wJyNue3RmCmiiO-QEuctgIVeE0jciue3eQpetN3SOjGzUiZJ2YXUOtAYRe5dGxuOHTibsZTDGvQTMuG_aMwR2blRkOfkytKgE1dLzUX7Wp6uXBu-1NdhFMV1YRpRRWh7HcKLQ10aidH2dcVa9u-b4i1elb398M1LdiEXTL6CpIZHViBIbPqQkTkiOWuk0HdD3_tAWNRe20bI6lpXGWU2-kcOdqbEQYN6kpQp7kkUU0WlOFBrx3DtpwFTQ-3dvrHBMykhxlWeS6pOSCBLwqK4TN3kMIpXrfmumltFcF3vmHe5rg2bTI4bj3zmfep8F7e3z5ZmnDF8VKOJUF9jNQVA6uVOcOeBjxzxqhj01EDVH6RUiKoU_rdk6WSKV4",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108047477461263069575\">Coco Chanel</a>"
+        ],
+        "photo_reference": "AV-0GLeUM56e1lmTxEqRo8P0dVavhUYxDPmXVtW8gMKsjQ9DXk8DAz9dk3iiQdbOx4XGrd9U4kMRSqWZGuDMzbzmdzrS6c78MR4lAPHkcqkxoT1c_KJaA_dXwdeg3LwVen6Nn5NPNtjKvjQU_FltJzGrEAHRLMfZl5JbfymQp-bOxYz6kYTTbHo8TvRiJ-0PdUJHCjfPK5dVwDnt4lwQPP5zA9U2MOElzt6rIJ2PjRcTvd7tfnhBFfbyxYf7BqCY3IpnnsXQ-nucRVrZezYqw62zhep0CesDsE0DPOZQTrTKXr0uaPwtrpnXtYM5Bi0dswbAeBoFrImVYixYlIBjrnowARjFefYzgzELEV2q7_Sz0cpMpsi8UAHGh3Dmos9krb2onKgD2srUiHpVu0MaJyw8zsfJTvY",
+        "width": 2250
+      }
+    ],
     "place_id": "ChIJBbP00ue5woARHy6ev5jRBWc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7423570014770179615",
+    "vicinity": "4342 Degnan Blvd, Los Angeles",
     "website": "http://www.nappilynaturals.com/"
   }
 }
