@@ -1,40 +1,246 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:11Z",
+  "fetched_at": "2026-10-29T19:47:37Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Coastwine",
   "place_id": "ChIJ44gQdkXh7IARvih1p8MA_Uo",
   "result": {
-    "formatted_address": "257 Morro Bay Boulevard, Morro Bay, CA",
+    "address_components": [
+      {
+        "long_name": "257",
+        "short_name": "257",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Morro Bay Boulevard",
+        "short_name": "Morro Bay Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Morro Bay",
+        "short_name": "Morro Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93442",
+        "short_name": "93442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "257 Morro Bay Blvd, Morro Bay, CA 93442, USA",
     "formatted_phone_number": "(805) 203-3027",
     "geometry": {
       "location": {
         "lat": 35.3661231,
         "lng": -120.8507131
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.3673676802915,
+          "lng": -120.8493502697085
+        },
+        "southwest": {
+          "lat": 35.3646697197085,
+          "lng": -120.8520482302915
+        }
       }
     },
     "name": "Coastwine",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 13:00 \u2013 20:00",
-        "Friday: 13:00 \u2013 20:00",
-        "Saturday: 13:00 \u2013 20:00",
-        "Sunday: 13:00 \u2013 18:00"
+        "Thursday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 1:00\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2987,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117057945109657563349\">Coastwine</a>"
+        ],
+        "photo_reference": "AV-0GLfpw-ljcj858IGLWR418iVBmekB1O0Jk1VcPXlN9bwuQlRMz0NMsT99XiPYt3HcSXHEMKR0ZN6Pt1AD0Jl_RKMXhl8CiOAeldFKTjVqACFrJktFgGm_Q6is7zaf72-353223eXN0gN5cGSlTUk0kkGCP6OvsDVoON5UHU8vQXJk_Txho1OfbdQBi260Lf99UTzcCSp2iKAD5qePPBa9n5ny09ufo3obGq_jjUXNtyWMFXM7EULy_AuRYMxFsvqB4eYzc5AWuwfn1XXUU5PZjo_IUTw2Dq1yD9VxV3mdXWNzFXHWwp5tCeklRvjWqlWPB3USbp1QYkR7jjjyKlesu-KpRRmEEYtIulSP4qxJN1Ja4DFIsB0KWCeTDhbDSfMKvp6ow_rIU2ZdYJEgTlyYj-naCLU7OLks1_et_bc3OTdPSg",
+        "width": 3982
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102332765223562317418\">Abigail Hofbauer</a>"
+        ],
+        "photo_reference": "AV-0GLfHR6Yxm4eQf98-RA5nTJmhAp3R7GJjzgmjkciIzpnns2aDZ3Mf2FX57wpKyhZ7YHEPbYvcXBgjmSFRFk0VmOB32OFTR7DJdYxYR5LmoYgqyY8TVO-9MHJZtTlU95e2CSpNMm4RXvf9YyA4DBxNV5Ap1zdVhwGhE__yxmXn7hrkwj1MFOvx5u67TWuSfBwcXOAh-wLujeyz5yJbCOg5RqIyTZIUq4-rbFXVum0_oByTvkQd3Px8blbwEyP-G-Nnprp2m0CwXRYjzhJQlfG0GytyeKqi56xJrLDSxAs5cId-cpgJPr7HTrOZGzQW6lEqBDjGRMG0ph6-19ZKE7jNAYNHqVTIXsJ-wHVUyktYeP-2PL5blXHvlxG1-QNTzC0p76ajJc-qJ2ATdaSX1jfW7udWYxeAHFsF8XYKDxje0phc",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116414737668643391339\">Taylor Berberich</a>"
+        ],
+        "photo_reference": "AV-0GLd89-P-tSSsdImATt1xxPOlGIrkDlgqK40RIFpKkC7tcx2yi2ldJ8W267tJstnOG2f84ZBCwms5bXA2RhVZZgJUx5lrjfYjfduigACwxvfc1keqs3eJx-ihZjfTPqJ6PoUX1N3ZLUUHun_pzAEhULsn5ZUuLlrNDMRlI5YB5_Yp0L3k4iU1ovqRvrW0I9s1XC9lYBwYx9aka4feHRzGCGhHNhCVOqtnV5C_Ot07ZtsUYtKtAoj7jKc1pMzoJdEvS_gdV58MG853FZaRBkXpvFREHaZPbWbl2k_65PadqT9kGdGLfMN5M6-Kg8WJV9csEhQHTIrkDR12iiOXAcMk3b_2PLe99YHUH8ebnOFtwCxvcB0aPjlAzNuITAEz8UBHOw2HYAU4QvhHJAzLa_KYxmBPE5PwcFTghMJtGWtVEedmiA",
+        "width": 2268
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118166872724859985138\">Stephen McConnell</a>"
+        ],
+        "photo_reference": "AV-0GLdyPPGWoBMWDNxuh-TmXloKwW-eO2-QJtYiqM1WwQNK0oDC96fNiL9u20Tx6JERwLOhG85NBaik4UDnon-hAkyN6lTt1s_nxJcXGOUdb7bITzOPJ_8jGHePBQhogdekKuxDR-1vBdm0HUnqp5fVy68OM_L_Ac7HXCdrkVgFL19vkSM0SuO0i5ULbMcZakW_08uhQgJW8TMjTrEy2ckx5k0j4NJVNLD8lrvmQfYPFc7hb2Y7Fr1wgxBBvqzfRl5qt07ui5AHpmzYHPFXV-F5dGh2JAkTR7Wm7KKWt3sY6nMef6VoTNrqdc4nDOAgoFw-UYvEauT76kwsqnUjuhZCc6inMjQJmu740JGhAUv3TRNf7GBoTtyaIgaU9g6RpCl4Y_U0n5s8uNc9149OH9_vk__52Op1tiCTFO-V5ut_Uz5IKw",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104097500992337627372\">Anne C</a>"
+        ],
+        "photo_reference": "AV-0GLcyd3qthTCrrEKka9YWMIucKJk0DW9ZRtdNwS8-Zc7xfMUbPYnTLxJJIMJR28mCqJRNYRFCPcLU77kk6LPRjCBI6jxUE56oQpQ84jtfZer4J5pOHItH08s7QemiOYkavfuw_CX9mIgZtlTnOLsjtTIEIX1hnyJF5fRw67WxDqmgTva_LC--JXF8I0qygggoXxmCSr_ylFAzfxy_1b_L2_r7vBACi5HiX6_sIQs2yhuPMJpNFkDr1nYiyU0v6t1mF6IY-E2moCiryT7fm2onY5gvahdeOBZ9dXkOF-oH87QXplPH-hxca_bUWyCP1XG6JNTBjbOf7Z54dAI79VDqSFDTYBkylQdCle4eWPcbe1HE7OcKGA6oCoxauVVC3akDV9ONmKkdWPM7EdHG7WCj2roYwkUWzfdcD9r68d8epJQ2Og",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118166872724859985138\">Stephen McConnell</a>"
+        ],
+        "photo_reference": "AV-0GLcA3eQ3ZYd-xTSQ8OCUkYUJg9R28VYa8fr1Su2BrgTy2wHu9stb4PneOCWInkbsqmOD46U6FYowgVZ7VirjpXKVVrkISozm1xK8FqNxn1f0nddNJ_CQDWRgeOwS8YO8A-k1bZCZIh8NFQwfQiL4tkz2MgQjfVZFUuORTBsBZAc3dzWAgr3bYf6fAkoh-mLM1j9G9dAHK1ogjrpGaIHZcN-GqHlGYPq-ONQbkKnhTOWy6vPh6aPmteAoMFmVDxFL8TmCcr4eFZrjaW79eWOF0xVDy8ViwoS1fM4jmuXFHIM_U0cUz1CwLh2jhC6xtaqLi98ZKHJZN5VCh1WAdMxw7l9Anj2nGvIAi3RnWBEKKT60r_F4v4w0UCk9gspkv6gSjXgI1BKiAZqAagoSgHOhMQpC_ZxdSHSJY7DOqb5JunhaTg",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118166872724859985138\">Stephen McConnell</a>"
+        ],
+        "photo_reference": "AV-0GLdxpY49Zfocbns91oMpTpU105imNP1Pjnh4leobtp4OUinu4sWdWcfE6bkDhrAasr7ZtU7rekrMDsQa5dkyRAIM0JUTnpYCbWfXc3tSNSkYQbJrTty3G8WQ_IUhFXRHU0fKTGyXAgYIA39RnwlRKu5dNPph0MgVe3RT2NpJvKr2CcaWRg-acz3mSTZC2jvTzDqxxkahdzi8a7fLQoG8ClZEvz5fcW4Ii63SxG8COyo2XfgRemUgoJM5CvaEUXzUqjVZ6wbU8IsgCOpFU2hQDGzUDxDCtT1mh0Enkrd6gLmpIjKy1A3ifgzgX101zDAFq0fyNC4hQn5tIh5gooYhaxTw24mZQutg95QQmHwfRQs8uDsCNdvKUyv4FjQx252NgdzgqYYzXpHudJlNtv9gtrazE_EMRJPuye5BOuNYpL7q",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104097500992337627372\">Anne C</a>"
+        ],
+        "photo_reference": "AV-0GLdLemeDKC9eWoPzQVbUEN-XdTfKHhCFULPG3d7YD45Od1uyuPlIKhSpnLtsNoOv5hNdu1JPv4ZhVP3x94t41npiP5Q43hzmEBat2tdq8KwZIJt463w2tweeuXXgF11Z5UaB2mfKPEA_YATic1nAO2fwENEwlXw-iT4ImRfeARds0WbVX23J0hqN8MxlR_pITxh3Evg1EGpi9X1Jm0jfANti-eBgf0yFqOHKutMd0Z4yZPMaDt93yxtQX6tUGDWhQuAPcmmrYnjL9KBJWdr4G82qIw-9LfsDPr8B5tbUfPHYlIFsmge2AHOO3mxSiXDCihxYZcb8EX3FTtasqmIAPOfxIu7Dt4jb9dVGh015fhLdaMblUL5XZ1bHcPzhg2SnQ0rxKwBJArFZ4LfB252vXkYJ9khvFbdHmJSGgDU5jSLnFw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102332765223562317418\">Abigail Hofbauer</a>"
+        ],
+        "photo_reference": "AV-0GLcGuHnTiNhKa54T8KzHBs6eBW7rrcEPUFbOMWVeThPwPJ3wg4FnSMU8fZoDiPcqbt_r45ksW1OjWQs7hYL-AWhMdmSP2Ob9yR-vMN0reTSKERdlfZmSgp9AeUAtie3SKTgQuppDvhzNDWDFDHMYBU8XhsJsLrA4xDIC4q4V0cELhbbhHiBsGZ9NYvhJKDoDiodj73HlUK7029BJkPKHBhxea4ODXH8Boa44acPF6AD9hoYFxVpL-9F6MRVfuOvLrhUUxzI9vQ_o3wehDki3yv2xEe0p2DyPbAWzkeIUrukiX3_UYRo4omDo40Uu0oeLV-GkaVRXbJyLAb0Kaeek91HmspGox3c_VjYmTtnSCaGrbuwPNIvf2EPywF71mBVkGDa2gwgrquiYlRqO-zJmVUxHRovX5Up-Ys6npChVKr1jjw",
+        "width": 3024
+      },
+      {
+        "height": 3977,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117057945109657563349\">Coastwine</a>"
+        ],
+        "photo_reference": "AV-0GLfTIecafLxQNr9dcbb0qSxX_tXZ8sJpaxGn3RK5H3jkiIFlSOxB7Q4VxIX4kgM_QRmYEeRR0KNmUZv2JSiNmguAO184QF6phr_DjYOPuuFTElfwkOPrhFU5U9JWK37HZt0odDgMtsLw5qyvnI2XpbW_nfGeW_pNcLSVTBQqTl9iXofq5ZQFEIEBnwxtKq102Jf29SPCdl7UXKJuAJ0MvG2m4jiGbxAEiU0T0vyWDdB2uE5DiWxrGka6bx82Fxg2z-elmwyMlirg52tt2QMY_jWC4CoUv5LjFidZTHwEG2xjekgwxwjdq_CIRJjkcxHKKG_m93FmK9zFZYT6dGX-Ui_WZj1znFJcMl0rz_UP3hs2yeV2LaoMP8OOTEmKBMIEaSEh32lc_sBOs2WssCliw8dFy5T_VmZ4MMrwbV9cbm42ow",
+        "width": 2983
+      }
+    ],
     "place_id": "ChIJ44gQdkXh7IARvih1p8MA_Uo",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "liquor_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5403475968242559166",
+    "vicinity": "257 Morro Bay Blvd, Morro Bay",
     "website": "https://www.coastwine.com/"
   }
 }
