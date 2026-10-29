@@ -1,40 +1,261 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:14Z",
+  "fetched_at": "2026-10-29T19:47:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Enchanted Cottage",
   "place_id": "ChIJPff-QT5q6oARaCK_hZ4cQ-k",
   "result": {
-    "formatted_address": "2331 California Avenue, Bakersfield, CA",
+    "address_components": [
+      {
+        "long_name": "2331",
+        "short_name": "2331",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California Avenue",
+        "short_name": "California Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bakersfield",
+        "short_name": "Bakersfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kern County",
+        "short_name": "Kern County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93304",
+        "short_name": "93304",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1111",
+        "short_name": "1111",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2331 California Ave, Bakersfield, CA 93304, USA",
     "formatted_phone_number": "(661) 323-9929",
     "geometry": {
       "location": {
-        "lat": 35.3683113,
+        "lat": 35.36831129999999,
         "lng": -119.029167
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.3697537302915,
+          "lng": -119.0278217697085
+        },
+        "southwest": {
+          "lat": 35.3670557697085,
+          "lng": -119.0305197302915
+        }
       }
     },
     "name": "Enchanted Cottage",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 9:00 \u2013 18:00",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117479424019777891877\">Erin Brannon (Renn)</a>"
+        ],
+        "photo_reference": "AV-0GLfFo-igKQjLP4eJVec8jQ1gyEjV6VvuS1Jze6uwmLBZgIjoOJ5RUkNApqCoePFD-pbJI3HISgFz2wstigcHbib0yhEoxHuf_Z4sBFtyEm_jDlpWenmTTO0n_UmUIlnUviMj1dtIBcuXIs8c7Jh1oxXcwS2COlEM4x9YLX8xJiuZu6t_KCMn5b0hRmcQ0J--AHWgP0c2OQIae4xv9bc7kO8lDycTHQGpUaTX1zLmz-0vmN4LB4FcdIRDWUee0VpRzlMVDOwlTHTXPtDaS2z7DHa2GxMVvsy_DMQoKeUsbC7eE6U9oJWgGDCtvvOoj6X5BM5CYjrDwwPeDLa-3uyWtu9cbaA7kRCWVdAJTzEi2nQYEB2UKGTG-bbHjQTNlOn_kfRjiTLJ7CV0CVZre1S-Vn9NlUthdJUs_5JMJT1CC9T_Qg",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100635198930959965655\">Mina Blanco Ruiz</a>"
+        ],
+        "photo_reference": "AV-0GLf0jL8pK-r5_Q-zW76vhzUOQf1fy1MSR_xQewoik4xi1H0GiOWpQWzepuWOxCpbhgaP95XvVCEhnHTLOwGCyMBDZTM16iyAXdNdXq6k-kQkAr9OQDGMtbWviZaygcHkBokjY5Pbd5LwZLbvqmSDN5RVq2hYoGukvfLEXTjD7fHp3jbgKH1iQAFJmqQx-dtA_p-34N4zWzGQ0wwY3gxemv6txuwAjPKbjGUuirg9C3n6RgBG2LUHcv24BheWsSgyfr81tOGKn73Ow5WzjmI9pox9Jqt0tu91GwSRMoYWeFS8Yn-3G_reHk9X1gHK9Dd8BNeUk1UU9VZOV6__z1u1y_vi5MbR4Txqghv3ORRCm1xSA18ErIcmTldUi9QlQ3tOeRLRFYJ6fA2Ucy-VCu--7qoBZqw",
+        "width": 3000
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104887703907572703804\">Joe RAMIREZ</a>"
+        ],
+        "photo_reference": "AV-0GLdDdoYE7crdqQY8c8VBUjQ3J-u9Y73RVaEyH3ECPWbCFanpbsoF7hU9zIxNutnI1VeWejST9YM2exqeYXUr9hku7lvrdfih-EyueEfgxUXOSAmV9G64_NUIvE4RiQHcGX2kalDjn-Zpq8uGEsghrvkz836W5K3ymP62OkGppoflx-w3-mjJX61hqx_IZaiwG-ZlS3Ko6kjL3LKGIwaI2MJCwNuwWHGHuYEXhcYfcjBnNQu5TZYy3zxEsmOUuJKtxCHETs_aXbCLya_LbqWtA8TdQdmApxHEDDHJ3V8thgaCY0h1yuWss-hgGE_j7IBvywGOVgnv0fbk2D0Ywj-XbQBdNlgVlAY466Qpj1nIttTcLaRTJFSF2IMlSpah50_1p0PAyYqH7qNcznTDcnwyD9iNpno",
+        "width": 4160
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104405242989399402903\">Marc McPeters</a>"
+        ],
+        "photo_reference": "AV-0GLdUbx4HAsgbcfBg0vMbemWQU5Hz6pB_aeCx24WuVhdn5wvGjxnMC2Px3SWAM4BY-VBwJieK036pPE5NZ3iioZKVAFf6L6eDJwWOn9KPkxusl_XJd9n69EhVzJk_efVvuo_OGJpKBoK5vnCv4fvG78G8sRO8OjxWLS0wZteMKYC1CesOrYUwrgTa5yNDoalaSmlHI2py1kK3WhD2KWrXmLor5_Op6Iw_I7C1RN4crI5qY59mi7OXnNNEtIAeGOon4ginQDYaBEf3uUGz3Vkc4hcQ2R-bWXQ0ukWE3qG9quH3jv3mHbe5oECTu01oAS__bfh_viJ2hrttf6rq_5oR0Yl7lt0WPUU33HkKgFx-B9ocBG3kf1fJ_tJ-8zf0OEoMK8rij8oqznPLkClkOzLPu3EcoRo",
+        "width": 1960
+      },
+      {
+        "height": 450,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102576280473915426552\">Enchanted Cottage</a>"
+        ],
+        "photo_reference": "AV-0GLeIGSVP85VAx4ZsdEMrZzqRaG3CmOQX8G5srHae7h1vMzerdjH5CRe1ZfO6kxmlEUqcYwszqkpOtgCu7frdYxzVEoWBHh-mq5Odf_28v9UsCAZ43RWGeFYoV4HTE34YoIE06cPq0p3H3o0Otnss5KxwQ0FKQkmCM_UIanKXK1-7bfNAkh3xhQO3CFymO97GnOuCb7l1BFqHM2ICrMZMqH9qXJbhexjS_fOBPLc8_ivpLs8Im9NuMJjx8H5sIEgQij4Drzgrr9XFhXVRYPZEe2uPMVWp1-ZdMf2B2fueNycOdKe1B_-_jvHWwCnbHv3Iod6WVy-HNTZt_d0yubG59bRRwO-7hGdnQgrVzv5JvVT0GRAjNNAVCzz9vbRRJ4RhEM4B6MLYyROLEJayMEsIEWRl6Vch",
+        "width": 1150
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108447495461974073725\">Linda Diaz</a>"
+        ],
+        "photo_reference": "AV-0GLeOdQUiJEE4jAFj5yZUQ31ooA9BcJQfTEkK-G5p5j8u1PRI5OD3ggM0JOzWpX2fhKAv6QsXm8kuMr3rODtj5GH51eOpv9cPfZ98omIVdKUfackj9aZJTze7drjqdAF4gkKSBa_opo4cK_RyfahpXkTDPoTvNAHh8u38jCoYRlKKlX9Uaci55LkZIdVvw3pbPOtboAId9UBebfXV_XfanA2uYYIc2O1csxD2dVKLwelV8QAGwtCEca5ZFunAGda-txImsLJDqEbfpowCyMdpc43rRx9m3LbFN3vz1I1exVL3plDxOjFHPXegEcHsfFX0ZdgGkKAsWQcaB-cS--KHEwaJ9I6GtlxuPc5Mlket0RBzOgGnAEc38PfFoxZkMbeREUUQr3-oOUJz-QXRpkvc5AwYfZwu",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100635198930959965655\">Mina Blanco Ruiz</a>"
+        ],
+        "photo_reference": "AV-0GLdRrE8tCIMbS4M1NuDJ85-JkOa4BCQykHZ0m7Khc0JfLcpEsf94TWUd2bvvi-JqNgKZzBeG1VvDS2vYqw_L1q1aV_CG4wDhH2SIwxIaJUmxUCbpM8fnReOgCWOFcrEz-G2qq-Ye86V-BpDNSP6q-KvafZTQQIFQovHGAGiawkr73D4Ofi30jB2TuoTTWmJ4aoK3WGxHTXq4yUyJwu_bdok813NoUonWoFeTJN5fZ4dtQfY2zacPapBv3YM7VdVj8y1onG3sR-sq8gLIBY1wCsko_9HgBIJQx66Tx8lQq_69VzSACkm75Ih8RDqyAsgNt1u4z38OpUCui2VR9wHUtYp_iUuz0hddNEvQ8I_ad31866xwDy8f3AhXiMStTsFr3GWApC0lfNY76FSo1pxRdNpgr9MBHNA",
+        "width": 3000
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100607790931393784832\">KRISTA Schwimmer</a>"
+        ],
+        "photo_reference": "AV-0GLesxg-VLYjUs1I_X1NlWJRuE1uwb6MznEsEeVoZqksOd3a_GdsM7h2MpzzY_QlxUr_L55U5mhwuAc829s1AlwK0phT501Ud_hkbsXd_cG2_pVatUIPFPatAGpUgG_btiTZ6lVt31od_G501a7xsmgExHQMVp3FfbYndXYYgkNSLqXCyrqt8rwr5sb4QqBbG7fUZ7572s3VTzqQiumMBLI4-7zw_Dspdnt-9-NLilAadcDFnk6asF_-7w6qIUKUYNadDLngtXpc6mrbgW19bfqeskk7pi7ZZpFD0uZsVPKWr6imunfAcQbeCKyCn1iE6F7qzx7zNQsQkMaRfZwJAfqkTqTnZoId2_1I5TvZKhABoWK6-CfZUe9TEnzKXRa4f_rsRipidMJyIz1siih1uNR8P0dw",
+        "width": 3072
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100635198930959965655\">Mina Blanco Ruiz</a>"
+        ],
+        "photo_reference": "AV-0GLfUdq9ir3pgoWqABSiIPYkTkTPRYOVO0NpOdSZLdF-Yknac4oqWXxaGCn7eRVPJlpcUdyoozr2t5FHAeNpwzdZjwA-48bzw-rCANhOj0cJn2Mwqzt1VNgc4onxERgPHUNLJO3FlZn4T5Ot9VRPzLf2HZAL9TiPMMt0KU651mcXyjkxhUd5Zw2OmD-eu3iRXxkIUwcj8y6L2SSOohdw5Jz0gKZK1WxOpt_RJe4GGXXbkaSJEdo_4fGqEJ9u-BKCL--J8fZ-HD-9yqFvlbFZ4zq2GjOZoJ3apAi3L0-qRDoe_XWvdle21L_gzuDIHPNgmqEFEmVDtHg4AuGBS_4lcG0Zao0rvJ2myyuWRQMWtyY7AYKDrq1y41gSgVs7Ex7FVGS_RfNnrtLRihY5sYt0_BMMnZRs",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111919164998454811989\">Whizz</a>"
+        ],
+        "photo_reference": "AV-0GLfOLkU7OjcQF9tCrXguXHMJXO1y5CW5Pe2_5DkP54_Wgd5yNnmM1-bwTJTlWOhDRILkf5GNA0UKYqvYw4qpZVDtG45QQJ1dI_wjYattdhgvu5iX1kTtpRyn8xriDl7AahgqpxSKUS6GPPNYHECwnXXmO99pQeDptJPJnG_Y_ye7qu1G61I2tEKjfceJJ9GmlwHKnrkAuPeGY7rfdycqKIcIuxxqhOhafewgNTxNBU-NT38CVTpxkEZM4XxQM9sE1hxKjvIlfuLX8uMVKSOYHSFtW2GHAsUQjDsUYbzZTQAo6dDN7b3X1behWQYWkTSZlVineHu7pLjb_lMI-7X4Qnl__-WKh5Xt4iYkX4zM1yII4poHgvLRsEwE2oVwAVxG4q3VVRZGe2JrQWUoKNPGuxZyKVGPWDs",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJPff-QT5q6oARaCK_hZ4cQ-k",
+    "types": [
+      "book_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16808309701451129448",
+    "vicinity": "2331 California Ave, Bakersfield",
     "website": "https://www.enchanted-cottage.net/"
   }
 }
