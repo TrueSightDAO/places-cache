@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:15Z",
+  "fetched_at": "2026-10-29T19:47:42Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Empress Organics",
   "place_id": "ChIJMWrPvWFMw4AR27ko1EhC8mc",
   "result": {
-    "formatted_address": "1125 La Brea Avenue, Inglewood, CA",
+    "address_components": [
+      {
+        "long_name": "2924",
+        "short_name": "2924",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Manchester Boulevard",
+        "short_name": "W Manchester Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Los Angeles",
+        "short_name": "South Los Angeles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Inglewood",
+        "short_name": "Inglewood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90305",
+        "short_name": "90305",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2924 W Manchester Blvd, Inglewood, CA 90305, USA",
     "formatted_phone_number": "(909) 767-2831",
     "geometry": {
       "location": {
-        "lat": 33.94849,
-        "lng": -118.3528843
+        "lat": 33.9597671,
+        "lng": -118.324935
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9612022302915,
+          "lng": -118.3235858197085
+        },
+        "southwest": {
+          "lat": 33.9585042697085,
+          "lng": -118.3262837802915
+        }
       }
     },
     "name": "Empress Organics",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLctMZnXjCAn-L4wUyO1dJN95RkRFVwLjGguMRrgq-kZfQq2PN-NOGK6trTClIG50d1UzdxPwb1pcIMFbjTRYE4QVdlIY7N-v9HX_4hyzPizQyqFImutnrZn6OCi8sfaYw0bKCdfzqkb2ApcrUAPXpz3xUgcvCRK5leGM7u8U8cfLCY163YGRUtCNpeiVtFe7NnZ5vsY5cmjRGy7O3TL8yauSc1vuEzRxq1medylwnb0vw1yc-_79dudcQ2O-Likth7MWEJPUbd4bBxdEkk-PpzCh8Qb_78QrhBFenN7M-lnDD63INn2dTGQ6FDjkHzEzPm3hWhoqDxOKnNKaqyxALsX3ZXdXIEbFZ98KFRP56plH8Fm20qR2CWwO_W4QsSdyopSXZ3FOsKpdB23PirKt_4gONkRDgb67N6hBymdSgE-",
+        "width": 3600
+      },
+      {
+        "height": 3754,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLfPW1YNiy-seZRMOk3Kmz_kyucuDzDK3kRrTZqsbDKLGlJY6KGMjXkTZ6FI7-EVkMMY8f3AElG34zAbrNqcAsvMRR4VyTUj7KQRzJb3fxlJ6fLPAtC8Y6ewiaHDSq4Z7o-Trx0_kehqjdUJ3flaV653ly4doVW2ogpKMJD0HHOf__6jDURqfnEmWw5G88mdJagwPywBLRA7UnpICHs3h-3PxIaARHZEsVQZGwO_44E0qLCopEDpFRiOeh7NXbRo_ngWQYOEHVFBU9Pxeq2N4oYtB-ueOyrwnFIgTZlzD2PHsarG09d_myHNNBITxE7apxyHt5XwRuCWlCC0D-EAaHOIZZB4I-lsy4RYvGHo9eFTrRrc4pwh_daIBYZgMiKps-JrNg7ESfTFcQB2lNPxPm1hxg",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLdmaJ2mP7ipofCmM590dzTKPsdFoIO-Z9QeN3_KJ7ghoiS78Mz9HR04tAtWyR8TKFJiGSMtXAqIiQ-DdeXOMz4aFuV4wGg8t8UXDQVDfs09KiLE2NSZEYJ1Y5Injm0OWXLKSRQ7F5z6FOK3PDhSg8tLtPTeYrEvDfUIMltPxDq-Oktb9EbPad6fL5tYZhZuNurmpImvmwNcz-5wfMuxIuvOC_jP9FzlcPM2MqIW6qU-Xy3_uZhTb7x0xUwSDdBdhz_sfzXy89OcuflCPfPToaMF_-4ldyd2pepGKe2FLKQuKfvshSu-SPyYCPOCoTORy0weAHkun4Iwb8MZLRxo12LajpYHHbn8WkBb4AdLebFqnwJ3Z6mnZxky_rWFb6Nf6H2kscktgEZbavD9EOUYB7rBZ8HdS3Aew6rH-iZDyspN1w",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLei7ck-Xw8Bge5--i9WudQtsMeh9OF9QWUollApQUfeABl-jm3JdQjJCHH4dOKx3P8FvIE-lOAn7UPgrQi9fRDm5t8AsYt_hoI6xRnGm1X4cd1xs4CilcxnTnIDaOqB0-q1qsH23IN5cQJPTCx9BZQQIQt7xQqL3hOAo2IMpPVNOJmmFZjS4m4TAahzijzLbUwPRa1ATac5jMJs7SA3NSkZ0y6St_hYN8cNp_h0mF7Xe2oJZPy9Y4CjuOjgW5CEIMPn0YkJsbENizTSh0CCQEQUiQTRpSxqXOTypRhOPVUOU40_h7iHcBWD2HMbs6lSXj-j8w8ZDC0gpc-vy5I1zDwA0fF8RcJ_c--PTfAC39KqFidKKUQuEaafv-cjCQ4gZUsKvfVHyUnMXukuTd7YJNJ4jAnR5Vo2rHSFSdJ3OHXitQ",
+        "width": 3600
+      },
+      {
+        "height": 3614,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLcXBpxez60Z4Ck030Tq_NwnOnOlN0wspINldzG6aV2gQztgfPgb11v7R41MzJJkdbLDBwO9nik6Ci15eZqOKmUWyYzYaqrQ689lJa-DcNZlCG5XiXuJG9hFKH2H696yv7wAbsiRJ9cl_aM36s8qjJ4uv9omV39sCxWworI_e4puDMJkQwbTOwsf8tOk2g9OyzW0CskLGxK1TkdTMwM6whmRllby-RSZ7fLl8unE-4FqB8UHrk0_gNUZ8hP1Te4fLa3QvaY21IPJBXIECcTZKSlUYk7FK2WAP_5tFhqHBSJyU7D7G8kB2SF7sxtVJE8ZXofH3ogkFg2uNvV605pU5n-K6hBz4rYA_inuph0t7g3LoqSmfc5qeSNKbgqF4hd0p72ferjdhZIQUjOp8b7PA25wrW3SJDs",
+        "width": 2345
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115528856038822961943\">Dev Martin</a>"
+        ],
+        "photo_reference": "AV-0GLcb7IXjNxLt-r3WCw73WDVAzU7Rh0UxutrpLXrmSAUtCMS8clDQe6tISmk2yRi-_Nrlfa7tgvBB-_wX5a37fjl-OZL4uCJ-KMOUAamkjkzRCu98s326g79ZaIsFU1AORJcQirKMOzzM-jCLprWPoDL11L3U0eKqC7NfJakpzvuDRLR6CYE1j9-XKrA8nEVcgKdrwk-zf0hDMRWm87hi1tlFGNLFKNNMESbRx6m44d3HFCXWqDD5zkVnq8gwJ1HYzxlEz72Zy1GC2CzAlITwxTyfD9n9m-wlLi-B6MIoEEUO_eULI2AC9tovcbqwPUFeYvhTeWHBoWFWHTJAvK52PolmWOvpjyxWpVN3yyAwZWcfnAtoRN7gy3pEpDeomy11p4jdC5CN1jEKmGqYQ-egG192V5mgToU",
+        "width": 3600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLfjrky9GBmOiOaNOVMMHvtq8Ycwk2NOQBcFDpAX7uOM_AniW_1CNoZc8lwiNmpXDpu5v26VYXq65kktZDZr9ZhjQ_tocFJ0OFGlq51xkaL4GyKzqPSlFxXcp4d7c8PREMHoc0d33eSoaz587NWYfOHagoPAMhjbSo_txvmat-IUk5guBdhaeUU4XwIzPqIg1Bn8bZQvjyEbLfq5eGSZeR8dy0kT-dPBYzsg_3viu3DMUwTAvtNNvOLaBhhFK7uXdwnXJxOWRoGccJ773PnAGRpu3CKO8MshFTdfSH5u6zjlFcL8pJlHki0mE2su3zX0CT8SJVBVxBIr_TRa8QygB8WcOwgKkqGe0Lnr9aGHgBkhIf2h1b2RgJEvScVYZZGvEzadKGXL0QCIyxxPN8VpViJIjk8",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLc068DL9ck86cAceIh6ohnFK1COaIqVKlOp-JB_S3OiVSltzoUksSrKvlUnZnP3FQvI3yBHw10h3DBHdHIfYftFWYy6fiGpRAHDUWGRsN4yIYR9OMAaOmdpM4DqbJk2IcfIm_FPDhGvwXqaiVBzMMd5Bw26gPwDX3HhtW4QdYOushDCVPOYrvgAhds7LGDzuHQO6vyZtcJvBNG-pp1uorreXtCNwzoP1vIhDTqkB5LrUUngdr4fMsK2_b1byRKqZKQ1bDJ7y-Qtn2zwVLdLR9zujzaYRDcZm4cUqnlzvIFdYrYH63hldfTFI6bnYOGLR4pgznBwWl5bglkyzWFitYZA_iO15G2Is3QY6xn5qx4nZ6mIqiBE-936iJqQ4mNsGYdhpRk7U3ioUaMB0rN0BclOvYDCuEB3cVH5cO90fl4H",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLeYkVbFKEGXPTDX7jB2uC5_0icxNwqgVDFMFDfcQ5ELcVjX1GmuNPGO2_XUAr6TZYXd1khSUrOGNn9aVxWmvTsgxS_apnh--L6GYovj8bT5QfhXdfVq2sXhGXgWzZcLwjdLc7OV3ti4Rpgboguhb4x876YB2AE86PBoyV2GAihADZP983yxToUdVaZ0ytpIitG4SgBMWRr1lSpnwUniQxUId9IzRWmHT9cD8nmKVlpkYW-ynzALy656YsYlefNnAT1XjD7hSevhrZLxvMP2NIMCd5EgLgNoPhg5_ZHulQX-t0zhJt5g11bfobotssAZGRrLMxDl8OoxyNnXlkbGojKuHGSntWsL3EXpzooUrPlPyI1PTk4ZHvjul5MYuk-GCotKuLkj8IyHwRVciJ8F-a62685esZP37vnqfRkd_GPlpA",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112216593577487985206\">Empress Organics</a>"
+        ],
+        "photo_reference": "AV-0GLfCSO0wncPzi6Xs6y0S3LAxfadgoUBMVC_O5uV4LgTysNjIogmCYx3SjpsUEwjgijVfJ0PJvAUSIZbnBJg6Da1TLG7CnxfPrD3QuDNo1oE2zux0uQHHg85U3s5TJm_Ly5kv-hWht0dv4xPSUxXiakzD1fCM6-E3D490xiTwxfyM5fmXFK6V_4dO3TWtmHQ7AC1G-hDGleYvXE515TYgGGj0Ftb-epWvexllzTGRvytybZKyX00RwqESxP-djbJwzKKvrRB_akG0q91lCU-g54EDLe1PoZz4QL8XNxRL9mx3xZAeLLGpdRJneVGb_T0u0nce2lbzWRoeFvHWIITWydlxMjq5XSdo_qL_2SEEa2QZ1S6jAlhihFHvaNGkzDEMM6JQ2bJ3nc35Oel_aEaTx9Hc-VlDU4S18GK0mIHbRdxATw",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJMWrPvWFMw4AR27ko1EhC8mc",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7490122010835073499",
+    "vicinity": "2924 W Manchester Blvd, Inglewood",
     "website": "http://www.empressorganics.net/"
   }
 }
