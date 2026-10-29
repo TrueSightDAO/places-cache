@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:25Z",
+  "fetched_at": "2026-10-29T19:47:53Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Naturales Elementa Apothecary",
+  "name": "Naturalis Elementa Apothecary",
   "place_id": "ChIJsbAIm-Itw4ARRSzLa-XP5W0",
   "result": {
-    "formatted_address": "808 North Garey Avenue, Pomona, CA",
+    "address_components": [
+      {
+        "long_name": "808",
+        "short_name": "808",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Garey Avenue",
+        "short_name": "N Garey Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pomona",
+        "short_name": "Pomona",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91767",
+        "short_name": "91767",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "808 N Garey Ave, Pomona, CA 91767, USA",
     "formatted_phone_number": "(909) 319-6304",
     "geometry": {
       "location": {
         "lat": 34.0656721,
         "lng": -117.7506461
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0670315302915,
+          "lng": -117.7493525697085
+        },
+        "southwest": {
+          "lat": 34.0643335697085,
+          "lng": -117.7520505302915
+        }
       }
     },
-    "name": "Naturales Elementa Apothecary",
+    "name": "Naturalis Elementa Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1069,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdvGZzjVcGFm7i5v6bHIXjU57JZCxqtFFN1J3DIldyHK6TrVsMuECQdqAn0wxgzL_x5eI4wgJzBs-n8yDNjRalTeZmQg_DLXNqlVaSJF0sp80l4rpytfQSO8D9ZcbM7LUg6BKLTdPyNzhMYwvzFIZs20A52S33ihH_jTCoG6oXYU1MV9kBh9sW5IlMXLFihUV8USPbbHf5ZWITzUwD5eWNOxUa6FB_X-Gx9IR9Kb2xlWlEzDm4t-fxx2rpz-RombcEZJV1KMlS5z98wh6KtmV3_AO_ZUIYw8fiJGbzYYT6_ss0yHgPsxGGsjAvgGD1EnoGvUF045xAe7IYKalGoaEWys2364japC5McI3WFxoHHR_URQTAjThZKqNtFl075zrn32-cuIgC4noomJcKTyKY5Jmc",
+        "width": 1600
+      },
+      {
+        "height": 753,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcpK8dFnCX-_OiNmPIu6PHPFiIooum94bgba2X9CBnffiOi2-qLhmk2L7ON6Z5R-_vNBjRj8H-XsjFr_JPzj_8EpDY-B3JUDf_4Rud9zWxrF451fxoW9Diu6KeN_CowJqr_bCS-C1FgMPn4qY13lUjN-_vyN3JmhqK7ojhA_C0Ojy83OnA4uEA6o6nWcxsDLPCKe2YaJTks-cip24JNpGqFBW0HQ31PHJXUJs0J-wET0P8y4UtY3Hr-ek6N7RzXhkpZ44ls0wJDtxuzgy30Sa0K2UWYIWpciErKgUqQj5m4vtTtFhXtVhsvAiTWQI7qcq7U5mec7RlLfq8wTsOB4WKOgekU9fGXgn1RpW6LT6Lj07u63d6sFM7reCo2CoBTgd4T6pWwLXeNJSJCvAphu_4ZJco",
+        "width": 1497
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102753873537389663510\">NATURALIS ELEMENTA APOTHECARY</a>"
+        ],
+        "photo_reference": "AV-0GLfyy6bJrBMQzj_2v1ahRl2qUVrPokyRoHMWAlBbMP_RqtQtchATds2T7yf4P-wrlY-4zo_eJf_oHW9Ol9faqzzCm5cify4Ultot0yQrQtaQCVswH0LDMgoz-aD4gtJbReDkd2wCUHVgQUB2JfZXMAW2-gzcH9cusXFdZWGQpSnbXBqZ1X0frHGKSeQ2s4jG-sbtAREQnTAIf49RsVNBzJKb-3-TihdTWRRq-AEsvRjGgt9s73nAjLFjJj2jJoQKFOlo8aNcYc1aBNwr9zZ-GCTDIP4ev4LaBjf4HmPf5043URIrzh51vQqeJfDGL3PkNcFRwbm_QkZR7saoaa5hqQCcmHZSw3cVGl9TPkvSSBGQoRHsEQ97F6ajwJiYcbbZOEYv2WPXrPHflc-hc75V0fB3TZCbYR-DduY5ECwrR53bOA",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102753873537389663510\">NATURALIS ELEMENTA APOTHECARY</a>"
+        ],
+        "photo_reference": "AV-0GLcKlTCNwgHUw3f7u0OLJizWdiZ-PQzv4bRXhl9IJvICl07LGzWdNy2hTLp74U3lqDKR8GV7KBQLNglaj0q4A-TBJOTwqgtQcalMnHlONCdqrweCJ7R5pQu61XktEcKiv7zMB6wWpWQrt1utURc3Wy11gnNRfVQ1Bo5YAW8q2Jai35_YEZzGHplbuIfc8RZXfMvsobe3UxAvKSxKl9iS6bn_ebTKcrHb3JpnyBB8SFHOm8tUe5Oxch9OtgI1nJ7MyQfBhkLOH-858NLH4iXOgkG4wMkCDpvPYmLkJyObUKwh0DjCloGLDWBc2r34kuZBxAVPuBkBsCT2O9bNpw-NgUbu2JtDsY3ljHAI2eBgpEj-xbiE3ic28_7qwK2CxS1k4uTYa1OTORwVRnfJ1ihMdxJk23SwcNgql8dG8V9vxCWCXg",
+        "width": 3000
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108422248163446461061\">Luis Paredes</a>"
+        ],
+        "photo_reference": "AV-0GLfNWURKdBjD9L8mpiKncOjo73kg7S8iQgRMW1GQCtCccxxnxoPPQmZWQO9_NBivQoq3aZVYcu66IlpJLsmQnBANf3F-tbLtSGoBeW9FbMQaYBK13aijpkYpXzRkCodjp_tDMD-2-21Gyjskq_qf1yp_op7URLC6z4yoCEa8_aZfnRCFknm6t9iir1cgiFkAGu3UBh6M9pRPzyb7lAasn25O9Fn_yjMdd-FYQbCRQ6ajeNlBHPxd7_0KdHtWYn8pBHrX1Mava8iZDCCZ5TCl-OrR__x2mGsSlCoUhvgY5J7sWBYfbeIVv4VyNJ7jw8NBPNs4tk0I18eyCZCT4lENpV0CD-0MKGMhr8qzrpwa-zonaLA1IN7qIqxRzfKO68tdfrU6STXE7UDIRqPxX20iAgdg-is",
+        "width": 2322
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102753873537389663510\">NATURALIS ELEMENTA APOTHECARY</a>"
+        ],
+        "photo_reference": "AV-0GLeRazWNUROpiVhYbcbszOcxMci0vhekzsLfGl_uqCmY-EpHRNIt_sZPdB6-qwbFd_HMQIsEIsRA5rwLhHeCtMv8sHYAGYiNccuUAm1vGrsB22qm4g5XEpwFfXQKSzF-ZA51yK7d33UTuHs2aQzMAbtp56yBE0vVKCE6_tpc1nxOGHZe8IHKOFb09dml-pHXnj8fHeWRthdcsBBKlct-bcg2kSsKXyIfXioYoQg_xJ-HsJRTRsSTp2QCKMvHdIHW9PZfB0n1dBfGYZiNNbh6NHtJg7oz5SnYQiM8VwQMZmBDxi7XQqaoMvODfBWV0ijEgkXBql0EUt4tONV8HjFPz68Hy4sD0Myk-LAN1zBxKURQkiX2tvwFUSct-0nh-xf0Us-T06tdI-m-Nze17pxOeOWy4ZXeMJh_rPUWDpm3tcDQNg",
+        "width": 3000
+      },
+      {
+        "height": 753,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdE0UbO4ZV6tlwJDM5Rh0bzuv3RiFdLUlINNMvE0NFLN9uEle_9_Jo29AK4-swxS_C00dCwmWITqlz0vmoojCx9ic8mBa6jLvbgKcZegvqrwLmKTYylXNLEy0wkmDirB5NzGqpGCNa8br2eFDAQNtsKwbT3xKhUHvjhPdWBLg-hiNmemRf0WqEqu94xLiUR_1vXg4JW9rRcq7SchJ5n3gJ_9nSE5Grn_s2K-PH_oPrkF8B-oT0LV2TFZYNynCC0Ygz7vu_lacNctSzT6G82kpvLvlKsym896H-ZM6UfsYS5g-CYIfx_UEealeUNkKM8-VR032tHz4Zm1aakjycGmHrLhrpaGSeZVjLUJQNYDAdr2nnLc7a6DzPrFtaXjd59Oc50JPcIm5jEcGlu8lFwwQGU8w",
+        "width": 1497
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdUS1-4Q6YcKpr34wBkcv3X125obhUK1XFSSNeIpvQ8wccqPnKMd_bl8rFLcWgjKhuD0UhfAJ_GF_vPSkI1tWNQnSc8wBG-RimIPGlZsKZyXzcPArStAoC5wseUB8ohzLC9I5UFkPtK_CxbOOfYjgtkdqCwopP5yMOtCKX_q_Utr6nuSfmT4h_szFZ1ZG3hMWDflpzsyxSBzvn8EKvX3PMhZLVjS_S8Qrq06RWFkl_ccoQwZlspraSRVobh8Awr7KrWMYa8KrdrSaJvGn_q-iJ7mk8gJNNXpMFh2HYXIb6sWbKOy_RReWftLNgFIwP-OEiXmMqmbCDa1jK3-D4guGzm3D3ucpEAnjPW8AbzA9IuYOS1CM61LwnGkbw6tS-TNqG1sG_xTrqucOP57rlBHxr30VI",
+        "width": 1200
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeiqP1-DX-OYfLFxZPNhZ8WqkUVsNKQ3EZpmz3dh7iLsKAL5cH3kgtJZtRjIWePuWa7ixYw3luIzUuTUEnzJxp9nwy8Nh8csV2EWIuzrK8lz9che-WAihBAyxCDcyWbj4JcNV-Fe1KLS641JKECHM-rdJDGR17UBkt40r5b9fDFeTzL5bLz5eA21TvVuSasPHUmLik3t9jd2hyK3SJbzweYHcmcmFbcDUhzqgzNill5yz0kl011ytLZpqm6kMrS7mqNdB1CDxk3jcfV6zaip8zEsvopaZ2y3wsJMJHZEzuamSO9I8dQYW8Z8ZwKQg2g8yH1QBEUQHanp6ellYvE4YQI8dBGWcZwaX31Zn0EU2iYrZJz0F57JLxillDlVj2oIV0-biciVW6gAE5n5w3bDArrsbY",
+        "width": 2048
+      },
+      {
+        "height": 1918,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105434411507327950648\">Naturales Elementa Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd-USm19tsk2KBXwk8RtFIUQAGjMZJCerQOUvHl2QyG_Q1BV9Mxrii1a8Nao90FNvlNCbPyMAsNJmizMnNhl9_c8CaKq_BRLKDCFaoSOuFFTBh4tQEo23Wb5wFLOUISLv3_0kuMHZSbIBoY5vmAELFwgikhOE-_VxJ5dothGdcR4QbgeIme3VE9d1OeQ7WzTf8NGU1CkLcVaUChBR9-Qwsj2nn6Cof_nlDk75GEA-ami_wd2sYkNVKyQr2Gnd7OdDk5nUTymVT97FDQMbYNY9kVmuZB6BIZlzBpa7VcIjRihOR7MDBQHiMJH93-LFJoVJ-8wcKgFeI49sS_v98pVLYqt2BlFzGD1jhQJuftHuYeNPJbbHK5Zsu_3nbWci2tX5qrGY5TIgEYgEzngogWr6gpDpQ4",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJsbAIm-Itw4ARRSzLa-XP5W0",
-    "website": "https://l.instagram.com/?u=http%3A%2F%2Fwww.ayurvediclotus.com%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnDmcR_xHnz_3HNbkIXVYh2pmG52k09Q4HvKTCVB_UccEoV8WCUrke_DmGSsk_aem_8kuQIqioP3VqZ9BuVtvsVQ&e=AT2gYEtoOEsGV3lZ8flHrBFi38hbkkvvY2YOPCuo5I9idWaYS5HplqahhRukn_ioYItQEn1AfPaGFoypjaFX0rTj3Qb7DkUEsob4TWde8Fw9CfHPY8DYJiVRWQ"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7918964104063822917",
+    "vicinity": "808 N Garey Ave, Pomona"
   }
 }
