@@ -1,38 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:57Z",
+  "fetched_at": "2026-10-29T00:18:09Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Country Natural Foods",
   "place_id": "ChIJxRxQr-uhwoARRIAb1jHxVdU",
   "result": {
-    "formatted_address": "415 South Topanga Canyon Boulevard, Topanga, CA",
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "415",
+        "short_name": "415",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Topanga Canyon Boulevard",
+        "short_name": "S Topanga Canyon Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Topanga",
+        "short_name": "Topanga",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90290",
+        "short_name": "90290",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3155",
+        "short_name": "3155",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "415 S Topanga Canyon Blvd #1, Topanga, CA 90290, USA",
     "formatted_phone_number": "(310) 455-3434",
     "geometry": {
       "location": {
         "lat": 34.0837241,
         "lng": -118.5995667
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0851515802915,
+          "lng": -118.5981084197085
+        },
+        "southwest": {
+          "lat": 34.0824536197085,
+          "lng": -118.6008063802915
+        }
       }
     },
     "name": "Country Natural Foods",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 18:00",
-        "Tuesday: 8:00 \u2013 18:00",
-        "Wednesday: 8:00 \u2013 18:00",
-        "Thursday: 8:00 \u2013 18:00",
-        "Friday: 8:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 18:00",
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJxRxQr-uhwoARRIAb1jHxVdU"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108653882299891742755\">Christopher Hycner</a>"
+        ],
+        "photo_reference": "AV-0GLf13NdF3lQQYLAqIZD_-d5-ymSdHxjxVVbRltnou7YdWvhfdpLOyxdaKjmtmOKmeUpBWmE0e7PTuaLX0oRSof9N1Mhgi-NB8MgP2iwS4RYW8kuEqtQpR94bep5AzPx39L6vLUtd8wq_Sz72OsVnh1tvvCKHlW-L7K397LymUCqwii913IdIEijpqdgwTcI9LuhrryM1weTNj3h34tVXjeQYDBCl5YXTi28xs1dPaPVJHvI88NYebgQwmooLTQjKIoi5ibnpk7mQK3bsT5pZaI-ifTHOePXu3VoQ3AgKwdznbAvgbWDx2NuT4iGkgI5ABLEULrvqW_WOwIacwwqRm7OjRTenVfEdltgkp_VkZ6lLX65oBq39UAD9HAgxsi6LHeCOOdlRQvaocU4iajRqnMUI9vkYFgQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114301486042376686495\">Hannes Bend</a>"
+        ],
+        "photo_reference": "AV-0GLc4678K4X2anlZ_A0ltAro_weArI75m3QuEMD2k6OUjh5WEo6hPG05ATsnS3LQj8GtMJQb1HSTiuyKDxhckoS6UxY73DvsVCZS20qRU92W3ZP6ei1AZ9RFVYUIkpKwn7FyHqFvf0mfyiQ3v972yDL3Oxgvlv2ttYNLseHBqNiaZPUENGDxyscmQ-MMhFWj1FsHHRpb2ezmiamagaNdYksWSzd0rYl74D6Rf526Zp5R-URK6o265CVMn28O7FPdW2q0iEpB6ymLJMZkH1EP1zFl14hMBODKJSOfny3yJTSqLpAddd3Hg1rRr_qFQliGvXy4NJkIRdnwi9mzFAmayBoouXUItI04bRs0VHNnj-yzwY-AH94V4ru76CS6NcFkppo946Z04dJfR4CZhvjC8lyRNdSE",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114301486042376686495\">Hannes Bend</a>"
+        ],
+        "photo_reference": "AV-0GLf6eYo18SRKUSLTjAtFTPNGcXIys2mP0xByzZ8uu4TRYqyPYisXgPrPAp1H-HsPAaZejgRfOAnNi6bVW8jw0luf5aytT1RytJxgqBYRM2-pF87pvTwALFWa8301jQxq6W1cVSaVH2ycgUqiUtZnsALEEHlk4I-C1szu_f4twVlmq53oT70BWv6rinxLbZhd4tUP6CqWXO8VS07AAyNXoCB5YcBa79KAALqC7c41KKTWZyt2RNkiJCC2qv-d9uR09NFeKxc1eg0WFytVx9KdAHqjsuvOc7RqdXCvKxbi9Db5gcLhAeSOZPGPLooeetV9_3EQvBt6g9xtshRusGvg-LrYlpAVbCPjLFs6xoPgKyn3SvcGF-4-eQStmnJ2I40_pYqC48U9V4_xMpTHZVbdh_11Gkw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114301486042376686495\">Hannes Bend</a>"
+        ],
+        "photo_reference": "AV-0GLcfVaKIoNi0fHWCJOoLqciZiBE5alpuIOeofDw2V-mxJfT8SR_6AMY-uPkri1ViC9DFuz9bTeKqt0TWYvDjdLRZcoVc1ZrbJZlxXZUikdLnc8E4vrvtB1frSa_u4dvHmz1G1yia1E8mKYsokhMYHMb_jYXAaUKaHzLBcQ7gowywqEtDMseFRa8MUuFgevbemahBZxNGj3i1WzP0beKrHnylDpTy8J8hz49OHkJh3EIEjU_Mm_dkkb0xutBAkqPPN5P8Dbh-H7UyrL21T66uedqV202yU9viqqOLrkdV6yfIqtsEGjdK6jNAod6XJXpNvuen7GYA3LRs6ILwCo_dsZvJ00vyNDyuMuCMzg0AMcbYOtcTA5Elnck8F6oFPmldLsD6UOenalcED2FCyuVW046U_vg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114301486042376686495\">Hannes Bend</a>"
+        ],
+        "photo_reference": "AV-0GLf1ttcPH-392G95Omp-fFhL166mLLYQY7zADbglSmKQ2irxmlC3DYqT3xLTY0lsB1-JC9HU-yBSZoNCMx1HsAbHjQqfZ91Mfr3MJk4WPD_9N9zdEeWIOk53yig83T5fvN-x4zXWq1rck-TY30gPDLxcC23x5tmxAw3Gfq52t6tqnmkmHa0r053Gx48gk9NIwIlC9XWW-aH2qNg9rP9BrOQbT-PGyw4yo71Kj95xTyU-T5uu9Qt8QMvndKclshBZJyQtEvfmwNRlVOHMpLmkulKLjxkd3W8QNRiEz3POE3XwUPMX9tVS_LgZ7EnAEe0_3CoRHnbcNmapI1L8vPYiNtp_4qI8zadI3egV5c0SEw0gd3txiN5qu7JvnWMktRBmFV1eefkbxjwiV1TXOlq6MuxkOWw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115374369541966187902\">J N</a>"
+        ],
+        "photo_reference": "AV-0GLd8Mg1a0ORf6ZxqYRs2cj-8h37Q22rsumsB0wAWmgfmKOKtpKUQi14IVCPY5mS4MQvwqN4xewVm7k4OQ3kscTLhm4Ai52-oZVb75s0xw7unsKpCmp0yt6deaiMwHQmwTdCvSuCZFosHp4775BwYlSbGm3boGnmgveLKeeBF8aACAUhKoO5WCAWFNs-aOi7RGjlp0rgk_gqoOK146Hp4waURA80W25vvzEffZ9qFBQmsArSBCiAOEAUbhgW2DD21NT6_TDF5jUI4Z37ieYjnhSrA8Gx8ygkqIwjmL63VQncl4_UbeausWBG7RY6ONzF7IXIX2skkj3CuGokTDs-kjC9Qqxv23UUK-mIreOUur-Fbo6O9K-W7Tb0omaou9iTVQDLfd3T6KoXZo6luJIB5SfnAazg",
+        "width": 3024
+      },
+      {
+        "height": 4320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112862882897018922606\">Beach_lover</a>"
+        ],
+        "photo_reference": "AV-0GLeOc3Ia6h-uhUHdNIn02xUYTE9_cZxzddTvUo94HpBSSdyHBezDScoeTSnGfzHFsK1zV9vJvY0kCJclYZ-vljfRlGWa4P0_0ImULh8MgyA_bIeAO8Z3yfn-aPK5gwyWlHOuiCGXYurZNXQgNQaV0G6wn-InaqxG5th6MTT1IlCzstM2QkoJhE62oWXQAd22RKN206W4LT3fJVXEC9rPwOY2L6uW4d-r9ZoSe211Atq46P16m_q_QvcNB7YUat5-EgLK8EGwzbYYeS43Abhsjye3D4GK1dhb4F4FNm-kCxW7mwjRXOJZr06_28WKFFjirmnxrlXwpilUvabcBatzlrFtotfVQwbjkgsjMC-L39uSBQTgX-Hy3nhq7YFqp8MxeiORdam_NYql-s5BKULPrLncf_V2Cy4",
+        "width": 2432
+      }
+    ],
+    "place_id": "ChIJxRxQr-uhwoARRIAb1jHxVdU",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15372458099446874180",
+    "vicinity": "415 S Topanga Canyon Blvd #1, Topanga"
   }
 }
