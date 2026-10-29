@@ -1,40 +1,265 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:05Z",
+  "fetched_at": "2026-10-29T00:18:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Village Market Place Store & Soulful Cafe",
   "place_id": "ChIJL6BHV9bJwoARdrseFsd9nk4",
   "result": {
-    "formatted_address": "6569 South Vermont Avenue, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "6569",
+        "short_name": "6569",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Vermont Avenue",
+        "short_name": "S Vermont Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Los Angeles",
+        "short_name": "South Los Angeles",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90044",
+        "short_name": "90044",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6569 S Vermont Ave, Los Angeles, CA 90044, USA",
     "formatted_phone_number": "(213) 746-1216",
     "geometry": {
       "location": {
-        "lat": 33.9794058,
+        "lat": 33.97940579999999,
         "lng": -118.2921065
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.98073108029149,
+          "lng": -118.2906557197085
+        },
+        "southwest": {
+          "lat": 33.9780331197085,
+          "lng": -118.2933536802915
+        }
       }
     },
     "name": "Village Market Place Store & Soulful Cafe",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 7:00 \u2013 18:00",
-        "Wednesday: 7:00 \u2013 18:00",
-        "Thursday: 7:00 \u2013 18:00",
-        "Friday: 7:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 16:00",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3780,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLf7gGpAGRrBwIg9b_MJnHtoC9TTnPlxOLgdyUSBAL_KE9neTpHVn3kW0WJW-zUbYEsxbdMNqRY0DXuAiN1KA0d06_FQ5KiuFsCV-nVLH2joBLZU-vdpbuguyENzr8-ZCPv7ZBNBUdYUkxrQC1K93uKayRG_ww2-r3FxErEulEtoHTvosDSRFChZfC938edQyHETQgHRdaYNXs1CCR7jsh1GjzMD1DAopzy2v6wE3UnR8oYYjsbniOc9dn_s9crmSzBlRiSTz0GNCzKbnPyUBWscsks_M2ghytmnvWnAtIqbGy9MO9gm7cseffeyAq3siNyXd4ao1fp6ymLeFiS17DQWHGwtPJrqofBo60oeZH5chnKsRaVDlGMNPy-5LXIUp1QTxj-EgFSD1am_Rq6N7YLbOW0a",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLeMTMC22xT4pX1EAnOSdXSdVU0g2-hUJo8r66DIjTiR7q0C85cZNfo0ZTE4TwcntkueHwwfSmZXi4aovSK0JfibacBO2AGN4HyAKSz4iyEKlGBe2t02fey1vcK1OEh3FxDRazSDy41lbDjP6zInBIoKeigSv_r_l532V_ZeBDPSjijdUo53CKlQ-rsqgexHLsJLAmRuEdckFvIfe2LU6FPYz3B7_XfGjlb_7y8qWzyZEuEQofVFA4Rattl12Bp2VxHLNcrqLqwS_XbDzBgOKm9-OP5ORwsQdAkR1t0UcUYncwXEo8c3ypEmsMHyI8PSwAgkp_mXYC8P7IMvoxqeP5Mh0OfW7jas4-OX6IHExjpuZM9Qe7gF6Lg6eqY0u8i_bjgATWP2JcuTNAx_EF5ZfqknBR6TBvc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLdM24NALWPtXgRLGRs2cIeg4UFWhKjgWeilAXozEfagLo-jo4H7gp2JAWkrcrfQT_Dh0guGtRQ1gi_FxzQnGQ8TXxmS2y2_QIlsAALwy_oRYQYeDjR4kM1-NvMHagproFBorz2z3yp1IZe71Zpgxat94DI5d_4GvoEv0iZll531nT7CEjHfvtykEn7VEfx4S1_XkEwdt5Kn7LDrrAERDvb3mQ-Q4RdIvcH0e-fJeQ26k-Rojh5hnoBSagbgF7x11ipK6qwLUoAHJRaj95WoStUsMp9nFiArpPDo74v1a1207ceVsK7sWjudDraZ1BNPCJbQGwAoLyJWEDRzH86jkZSC7ZTaNZVENFs-1yjpZn-93DleIqVLs3VGEuRVpiw2myaoxAIFl0A5sW1fo69PrASv9ls",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLeuIGz-IrP1gE4tStulWy8mohUl6N-Lewm1fJK2R0kDXbP3eyWRVr0dHiOvOURd5giKks-d5nYaD4i2KoUslVpbpw41J0vPY9nDPf03oMjbOQTLhP2BJEP2Mz7BEAj3rGRqjwnvQ2o4AkK8ln-H8SHc3DmTZHhtEYE9St88RAyFhhYk1-aXKHgsaWeQWVzc8NjyBmy1eEf3WDySJyr1edThB9bRszVsyxKsIS_6JVjo-KfMVOCNOxoGXKkxBruqlAfnOjDMl199OTZ4-36Qqp81AlSeblEe7DVcc5ChBUNfA03zzUqjtwnQXkaUzdoZ5W3mS-f7Tk6dO0fWloLCB5vmlxZMyTH-eaBhkGCntlCBRSbM-lCBsQOgMcx5_I1U-Sw6gMVv1cpJgGKzjjA1-JwFey_F",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLfg6yG6w8l8hIHsRdfH9N6SIArCy7VeoqfwIuIzHOLe4XwUjbWrcnau2PdIiCyKCoyCydRVldnFHA2IwOG6_iNDhLed6vWNPeUwqhHMSwC5Xj7fr2MwEgGdglhtj8l4jOAnxW69mgwm2SDon6mfhgXUhxnuIiJt9VPNuEKrmbkQDcNTOPYeVugLJO_VKreT0I2bAUm7dUJauCp5rq4CYBA8SZ6Ik8-a5ZQaR61EweTPdf9ZqjKUZ6eKMCMyD2AJ3Vze6VO244tpYbs3jei1Ss3vmzftilOJRwwwz77PeGJP3Bdgj5HXgXaj8APpJ8kCw77N-1pS1sQoe4Nv8YMZQRBwvgU0qxhwlODLWf3A4YPEN8uImHMKg0Ru8Dk_SQVozOVaMpOkarQhccxmFGY3qhROXpJ0YAY",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLdEpLs1oUpIf6QtygnOGb0fIRMkFo1Wjhcc8EddbISnKdp5ew4ClM5_Y2KsW_ercAYfC_sEYdkMK1P-ab-nzaJgMdJlS-u34TJhuP4ySYHw-Vun7g597eI-sJzb7PfvXH6PBNjyM4f6WChExhzBAvu1xZ7cCKUDGOXLRZKE6QXEPPNp5TlqRXEraOPVttrwYDsmYQaYTG1Bq4Mq-C-CuRarnqnRijoe14MSsbMITgrIuB6lYwE4Kj4J2I2LEgCTjyzhynzaKctU52Nqf2y2CVcoN0l6RLFU8Jsl9Tc5T3zi_7V3vFkIn3du49vIMqmt8ONMgNjMIjh5oHX5fYlh41h9fqOLfoGF0q-b84K2Se994wcoV1IBhV2YvKjBXteCkpTRg9wof8yEqeJaiuXAy3njeWs",
+        "width": 3024
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLdaa5neeS8VZhh5zIA9sAOn8gA-9CjFMZEnT-iH__09tPiy11w95u_J9KfehKWQCQehQwgpND2tbvq-n5ZjsAxPLMAMjV9Rchx-AlvkTI45Zg6nItPW_kWmdd_tWvAlmfgLdDd7nAPXnSekmawqGCMb8mlRcek427HOven2JfbZynWFIHnw3TUI3VCmUgy9cxonLMF-E--c_MZlDeTmlj-Vu99daF4HC7fYWaJfeC1mB9uoObCpOG10PT7gObXUgEbc_nJbs-jMu2iklZmaTBbEW0_SCNK27bETDLLsGRCoTfCM-auZ5s4Kw4E6mj0TFM1P_JMobylc06mQoeHK-UcJ_ylrimE5V663MrKUARFbbD7QBCHSmk3cRi32jPOcXdutVmJE7dLuKcStQxnJOJeumvwL3V8",
+        "width": 1728
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLcysgnFnb56v_GOF3Zx4Q-2m1ECtkpnyGqvOz1Vi4CdRnkQykzXRXKeEQ3u38So9NW7nSnrQuVFn-lix-4u4msEzSAvUXw2PSJzmppX9q9x2QiNCLfIwUsMs2SHQzEEWVzW4muvSmKmL0e6kUxNE6K4D3Sjdaogum1MNOnQ_Maqb6Lyl5hTS2yDUAcM5CTahokxqghIBTj3VqgpPG5Fu-CL2WAJa2RHz9NDJS6Lpx8kToTY_PzA8Mq5qQtTBJMno-6rw-t4thP8ztS90RVQDlQnDx1jXEPVm-VfMCYqQIb_q-Ui0wr0exlS5A8KHihvYjte29jx1YaaZEyRhAPxlVZqBPhJW5EerEgZwb2DbWFFI-nZkoXcMizeEJZPvM2M18Cm1f1xBuWAYQViRmy9sbulbT4",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLf-FqQxsl4JEVbuh1V9sul-KsPLkudCJfK7p9_AlnETNFusdV6U9XIc485iT21aiNyYKRixZedn1LEo_zWR2E3xqD7W1mT5VVxsTEa-hK5kN6ruE3vKKpEMYdQEd7AJaKYC22GiVFHtK40rTK5WYzojieHspzDXNgt3-7ks8bZGDvYKNUPcX-d_4nWoRCNtk9mtQWb9DhYLFwH2ezvddIXsr3jnU0hm-2aCf1tyEJ56LughWJ6s2mtAAqnzOdcMCBo9pqrHNT_zJ5vQIiTlkwZCCYSGmbd-gceCnr6LbU_9k6uRfp82wYNqzc46H8HEsjiN1Eh_IWs_spcKQ8HadugmPvRcfuzcAjzhf5jKNJ15hBk4TR0gCmjlDaYrtVDzmWMD7O_1Wy1SrTE0rtdIA4xVOg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110875168469730458605\">Village Market Place Store &amp; Soulful Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLfrOotHKYrqzFrjECr_gZxtbf5EFM-UwEVhX6tcFUuvu3LWlm3YaLM3rtKoIxHHLmcLwdbyhxNA80LY0gLRc3wKMrCubiomuFRD8krVNE-OSKDxs9BAmFRnswtlkm55e99IwdbLzeAoajgrlIcN5prrC6OggVBK6_sIJp2OklB0InFLjtGiPrmWZ9KpN71EQH34tVVfwoRWwk9nSuhJO6iJZHwB1PK1eHpScTXUnTS7IO3Zh60I_kaW8hg39wrT17IdUAUpfhMxsXeQ9qm9KTZxYSq9c41WfWpR86jv0jw3z1sWBkdvRb9wuMifBnrklinIb_p3d64LBBPFRIH1Mtzyq_NDFqQhNSObcT6nRuvLEyyxptfWluSSHRZLVgWlVN8SWDJwFj45Tcej8g4L1cdSmfZY0t4",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJL6BHV9bJwoARdrseFsd9nk4",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5665103675301739382",
+    "vicinity": "6569 S Vermont Ave, Los Angeles",
     "website": "http://www.vmpla.com/"
   }
 }
