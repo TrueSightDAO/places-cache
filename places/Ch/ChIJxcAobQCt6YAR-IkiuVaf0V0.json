@@ -1,38 +1,274 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:50Z",
+  "fetched_at": "2026-10-29T00:18:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ventura Ranch Market",
   "place_id": "ChIJxcAobQCt6YAR-IkiuVaf0V0",
   "result": {
-    "formatted_address": "1532 East Main Street, Ventura, CA",
+    "address_components": [
+      {
+        "long_name": "1532",
+        "short_name": "1532",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ventura",
+        "short_name": "Ventura",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ventura County",
+        "short_name": "Ventura County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93001",
+        "short_name": "93001",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1532 E Main St, Ventura, CA 93001, USA",
     "formatted_phone_number": "(805) 628-3522",
     "geometry": {
       "location": {
         "lat": 34.279434,
         "lng": -119.2770962
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.2809536802915,
+          "lng": -119.2757805197085
+        },
+        "southwest": {
+          "lat": 34.2782557197085,
+          "lng": -119.2784784802915
+        }
       }
     },
     "name": "Ventura Ranch Market",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 7:00 \u2013 22:00",
-        "Tuesday: 7:00 \u2013 22:00",
-        "Wednesday: 7:00 \u2013 22:00",
-        "Thursday: 7:00 \u2013 22:00",
-        "Friday: 7:00 \u2013 22:00",
-        "Saturday: 7:00 \u2013 22:00",
-        "Sunday: 7:00 \u2013 22:00"
+        "Monday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
       ]
     },
-    "place_id": "ChIJxcAobQCt6YAR-IkiuVaf0V0"
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111494877821128425491\">Cameron Embree</a>"
+        ],
+        "photo_reference": "AV-0GLfdXhTe2QWLXBgBrXi029rYdmGdChr_43wDBBixNxHmVrbWg1DLJ-axw9IH6G_uG4V0rw3hN_uVGEA1Qbt_2KZFbmySRL8DXLhPKZmUUejr7VaCWT9GK5y0TPFo7xwJmel8HrQtWcugoncLhmeL05Nj_IB_XbkXom9rWpnB6vRtP1ukxZBl9058GFpf8nWBeP6irIHigLJS-sq_r7LPW6C--yxTq0EaLdfI38bUNgKGnCZ1JX1A2V6Ifvs9BHcKwpZ_GbGsBdazWlic3Snc5E-osNg6eb3BMbI3WKZzh_LzI62xBpbzlx5dzMsq8eChGSEV2acW83hpnZ5bBuOmZxiXMj64Pu-ABvYZkgYTHH6Bcc_bAEtNDmGS8lgZjWTB9FV7A5E5kRiBaTX9HoM9k3icBw",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107170777792148965576\">Mark Smith</a>"
+        ],
+        "photo_reference": "AV-0GLdrYJ6ADStPEYimSNenV9m2UYkdlzN9HcZNaom2RjDJ4wGkQHGK13ZqdHyKPMHdsk20zdFU6YgDso8FREstjp58IS3HLNheYhi1WRrm9-V9Gdkyt9pNAQPxcEjb0NOWz4LGipcan2-r6uswqKf6jC3bJMStWu1EKdDaFhRuS8VzVWkRWzXI91Gx6pIEyhd3JuxpAqeN53L6N0Vjs_rouuM777tbPj32afSiESH4tyin-hCyQyWdQYpKJXIJUuHPodZb7lr13xkZ7YWktyvlg-DEGdUcJVnLtNtwi33PUqO7pfwimlv4ye2F9n2_DQcUeVu4A7p3FiPTF0AMqfNPwt-CR8fIPm-XT4GrLpkoVzuFYFfJzJbNX6p8tyb3Sg-mHFjLG4N9-cOjDfxXr1seh8VFMzZqUgg",
+        "width": 3264
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110740943537885582928\">Verky</a>"
+        ],
+        "photo_reference": "AV-0GLcEsbYbnK1P5Q8HgwgkKtrvzWtQT1DwtaHmAoA1WbYsiXXikHdczbniNkO6sk6UN8csKep_a81zDVdHnN0yh5T0tQTyi-EE3R9kMYJb0Y5tORKSRuQUpr6o01jYetLPashRAYqH-rikX8gWc3xCU6CVTuHB91EHAQ2u_mMOZkspUf91S0jYfXFakFxIGVYONxSH5UgiEMi2MDY4DiMc7-_vp5JJdnfhL6-jgr69TIrd0YlWZCI534DWM2vwfJho1mbTG9Qu9n7cgA_vG6XnycKRoXPmIpc3UjhSjCx4C_fEhIXcoOmslmAp1RFYObGHIqnweDuSqjBRwtb_MojfcRKLSlTpUB1_ObbhIy0nqol6LO8c02aTzd1zqxtRdM-MApR83Pph9xdpagXRCmMDzwvDWx8eq-w",
+        "width": 1024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112568836502127371592\">Mikey C</a>"
+        ],
+        "photo_reference": "AV-0GLddkXBG8TwBnIo8rL6vmsc7QdrgnwnKvpsga4_CfkixyXu9NlrxNGdn89M9-wavEjeIPk8E7Mq4eK4BV_Zra-B0Pb4gepjL9DgVnhZlbSjH1tq6yq8TK1ci3Iysmd6IOQr9VJmZWIoBEXrgUuqAIMCl312NqO83OLbRMKldXIPgiRVzi9YZKgINCZSuGwfKlxIAOXcQvbzmkXd9zHsf1aPdlTFLzcXDIOE2rDuRLX4yUSLYdaij0xmMiCwxwjXqbiHLRq4TBpJo8ySYwTOGoDdVFjihHhvimiKHRQjmGoQDeZnEVs6oMmn_FUaGTh-GpeZhkQqjA9r1H7S7szBYqa9RA0AaQd0yd9mb1N3q4BuDdjWq_swBvfbzrW4_GMIGtC-j218J0kzsx7McySprudk3soSY3i4",
+        "width": 4032
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107170777792148965576\">Mark Smith</a>"
+        ],
+        "photo_reference": "AV-0GLe6-aIr19GcAf8qBQJJUUjhNx8mZFs26p8uJoSXiB0CzvFrKvaSGyveqC75AY3phC6zoGtWIBO3xsjQ_lYgRBNl1ilJEAVVpXD1jzPk_AksbW_S0Hx2WRQ75_TM2_jeWEK9vLdV44LiJGmT2ZP0c3SKj64_wag7chney8pHbGdO6qaBoOFTq7XE4gQlc7bFSDbqEGT_o6pfTCU8TAueP8KJt5H2Kc6_MVAOTHfkSYv4LqcnzYOFS9SxRhlicqN-QTyWz7kf6ccNsOeHz5lkiqKlXYaQPS5nTYdtbZpyKQc7CEgWC2CDOO5mCRf4X6m5xVXNJFFEqcUcHSGMphQ5nObVZzXzsgK3ZHLgRqF8Qny6UPH7xgtsXgcH7EuhZ4UirrTHpVD6Q88AMPwIM-_0QVzSXx4u",
+        "width": 3264
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102452796261943546266\">Xty Mcg</a>"
+        ],
+        "photo_reference": "AV-0GLftQMmlwijqSy5cne98C-goiGoiXG6euEQZhFmSRjVq3rSQ0Egbfw0tG2CaN3Sw5wC1iM78mG2z0uLea1AUVG6deoXMC8LuDU9WX0mhNPaPbhDSZKkPvdRfhB3CxUyqeNKyDhkx1K9dA20a3YEfVANew1Y1AQmxdjPoIZLSLJoyYRSC2fe-esbS1pbPCEfv8AlMt00uQ9bz_14Xtur_swcmqGvu_lRLzot92vNB2PDbQEX-2pCZ9T8Bmvv79Zuy5NkDjVRzU5C-5j1SP8XdTGlvijdQT-2mAey7xKA_ktRNKcQRpqS60dQ5J7ky1Mm8lJJ2PWEbdPyp8mQvPPnsUxTDRtIRCZY2rjvf-dl39ndEQxVB5DdzdntaER5aUg5Vo5YHyEq-zX1ocV2FL5YO48P4wxc",
+        "width": 1868
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111494877821128425491\">Cameron Embree</a>"
+        ],
+        "photo_reference": "AV-0GLdgBFBlHoXK5XTgqK58b2oSEAVPSynLFq1MD_vxQaoNaC5YC5E5qaQgpm8YnTe-somtKJzZZBdC-QEy2qxRV5r__fijCQmoI7NmwAs_AJfPMB2_IdDdrLmbNd4ObxboNr269-XydW0oeTf3KU2u9DKFdE9RG8GMmj7FUm6BB_5K8fN2GlZMP1wsMUY7GAWxt_32eU72-JsPF7T6RdmI3azWDuLbQWu7SacbyU9mXJ09xXvZdJ_ABkBPhcm4e4Y5OB73n_YfKi5tm_uOgzuS4JkUzz66R_hW3ekGhdPNqUKDsW_y4Q3K4dlOBOK9xLyrr7YAigmfTWfNqanVZ0Jpvb36LKXiOBX4PWRIVgttAJGc_8mHNYaVqen4JVrQencCxwS9XLNYQSaxxtW-A6qe6wwZI3Nt0u8",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107170777792148965576\">Mark Smith</a>"
+        ],
+        "photo_reference": "AV-0GLd4J7atumdAKS2czAnZUIdQXTzIgDb77lcoFM5I69FyM-Hcg0uJrJx1Myx_yEOMWEUwC80cNHILKD5grZCvAsjGOxMpzQdPVdNmdYpc7UFj0BixQ6fFNA4I0RulNPiM22FugaK4JgWIE5oWI3b2gzLsEOhZTK2ML1GFo3Rc_7VcYKJCOt2yHZ-XtexksI_wr70FvRTYVLzoNX_lWqoGO_ZMhjs_W5TGtJtBktA4TZSznGavUUlTxSJu-IL2ZDIv1mcQCXVPeqUiQ5aFf8bcmXP5pbSCKuh-u_LhuPhF6gQ0L-iBvvCwG6Ik5ufwzOZLi7Gz4N-c38KThIl0D9rhPHuWdBegK8ZvRGs3YbZTyMvvUw_nv9taJmDLeWqpwg673JRIgAEpNGo79-S_7spw43FM0WIz",
+        "width": 3264
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107170777792148965576\">Mark Smith</a>"
+        ],
+        "photo_reference": "AV-0GLe20AK-P0HHI_eN8yOoUgWIUFfU0DiSaiPm9IArs3l_r3sP2yUyd3rw1RYlaraSHwM1LJsh9yKS27SLQEgPRWJChDMya0XIfI_HBPn8D8AUwWjG0njgSTyIWyRZ_Jj4H7Sdh0Em-3ASmRC73kzwLgjdyDmN-_IHltTV4RVQtWdNcOmEHxpFdtRnsycXeN09nepKfQiadxCLthcskRTs5uaxj5lMkMWofg7w2GwyZvBH5_LoX6Mj6tfKhfS6Vmo3HkZDqwdJVu_MhRr_Hz_Qo-ZJWPp3vn9jy9F5ZCtZ2uaboYADwkPH1Y17dFlNuwuGvNtyg4-JagSnEE9OQ8NVpRptK0j9MXLrkA5vfgciySYp4acpWSb2CsMoatWEIDZg2aqNzw_BUWE2KKc8qKkrHgt9ZQ",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112568836502127371592\">Mikey C</a>"
+        ],
+        "photo_reference": "AV-0GLe-qSopYBPwDRBNbMfuF8K2aK7wDKMdlBltq4Czdj8nAHfBaXzlbvTbPhtTTgQPd56EMzAF5c4kKLXiRSLn1Vr24T2n227UeSKXosR0KbxcvBwsF1XsEEYLUt1niF4-XwUgBB-7qX72gF2dxNM0hUJuTZiBWe7n9HwNaVTEkGiZYdLQ_wxbcRSXo75xUZgTuT11tVV1aBelduTfJtES1StSDKEbam9UqA3ChRqoBuHaOdaLc2z1ss7g7u1QGGu82Vo_dzIwiivGDhq99GtCTANHZ6ZtmFpJYlCVemr-gViQ15Eff76W98R2nPbTqaHtb9f3j1h6N8wGJyrc9llNgb5rp5SFDSj7vl1qbPNEDy3qgnTSa7wfTZFDK3C0kH1yqrNGbo4rrQKALEv2QDi1wJwQJYEhf_s",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJxcAobQCt6YAR-IkiuVaf0V0",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6760359710481877496",
+    "vicinity": "1532 E Main St, Ventura"
   }
 }
