@@ -1,40 +1,274 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:49Z",
+  "fetched_at": "2026-10-29T00:18:03Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ema's Herbs",
   "place_id": "ChIJF48GCPCs6YAR09BquI5vSSs",
   "result": {
-    "formatted_address": "695 East Main Street, Ventura, CA",
+    "address_components": [
+      {
+        "long_name": "695",
+        "short_name": "695",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Ventura",
+        "short_name": "Downtown Ventura",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ventura",
+        "short_name": "Ventura",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ventura County",
+        "short_name": "Ventura County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93001",
+        "short_name": "93001",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "695 E Main St, Ventura, CA 93001, USA",
     "formatted_phone_number": "(805) 648-6426",
     "geometry": {
       "location": {
         "lat": 34.2810215,
         "lng": -119.2902257
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.2823526802915,
+          "lng": -119.2887821697085
+        },
+        "southwest": {
+          "lat": 34.2796547197085,
+          "lng": -119.2914801302915
+        }
       }
     },
     "name": "Ema's Herbs",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105110344307474393733\">S Q</a>"
+        ],
+        "photo_reference": "Aa-ngMb7vNNXWIwg0W5OLDcRSfpDoc5NRSnMwl5vSIaeBHNazzNQ4cHwFRmno6XGoArR1-c4QGKMBrbmyduourMZ1NzthzYFqlxBZmC0thrIMBvvtP2_1I4_SgFtjpF9_TwFp7nufNiRzQ4MxArYwVequOOVhB_LUx2SjR9X7UwksQ7Q1X-N4iACs7V-0_3s0Lr2KHr2U-YXgDUcqh6xtSTR7mZykstn0sB7xPQo6yrR_XSSEENAOHUUb5ZNkZ9IHIWNCjqA4KniBkSgELKAeyJ53tGtTKu2Sf5jKjBAu9cGlanZTVy3olojbsGPboShjknTSfswvjZGWei4Wd90baK2a1w1-t7xFHV6KRB5wnQ06lcsBdlrUS7bmPWgy5ubWhee4p--5eYEzHsrCnnL2jQf2nMAHA",
+        "width": 1960
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102160018126888764942\">Ema&#39;s Herbs</a>"
+        ],
+        "photo_reference": "Aa-ngMYaU-tTwjusF5AvF4funw8u2t_n7-OGJXKZ_TlV9E9WfN4EQc8J-Nw-K0qlVOxaXrOB5qTG4U71wFl9EoRZkfoVeny1uZP54ygBc4F8MoyMkPNDHElTNmb4hEVH0LRAvcs9PMGXZr6K86jGBsjY5GW86PzakhZMfY2st7MD29T-eONisqsY_a8XcBJHQCfPOGLKv6bRVe5H83X_CC5JjluZo73FwY0Ae3j-rZMSQohEPV7qgkSpp_yJcSutj6I7FabR4J5sXOYDdQ4h_3KYEwAZFBW-4ypUiHJLwOwyGICDaSfcQCoB2lYalJ4hwivzltg8NnE-evv060J0zQR8rLtiTTCnYyIq-tfIjkPVU67gXyaRODlfTmUzs0wZowkQ7PTLtUIve3vBFF8sJrn7VPpmpd2N9tY",
+        "width": 640
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114790250358435321708\">helga ono</a>"
+        ],
+        "photo_reference": "Aa-ngMZTNzanFMj2aeBy67UCoB9WLaK6E7Etf23ldGYX-5Lmu3xGt26kfJfnf6hcJ5wmj8dhxKCGFx0QZOqj-ONrnWf4IUxR53S34O9mH-t3jVDQPMV-VFEEer0Mi4iDMhqvedCByNMiygaheAlTwIyjsEv0-ozZPBUPCeOSVGHmJPUfFyHDgiGa4_rs7DZh1pLposchbi0dPwv1RJOnqw_6_3thU5S83Oc9O-TNQrABZH3IHelTTmkmabxDTSEBW1_cIkD12OShnn2dcrXiw1w09q0hX4jQQ5OBS_kLafPtqXOzrNFIR1_qWL0fiYklUQ9_tIVntj5yEgCWcsa8DOvN3GIxP9mcgd2LJ0L85dMyilvQRrg2GqORBJRu9_ERf6UJ6WV8IEGGIulwcZHUKVeqEJ8FMzMpbh6OYCsjVzLlrzwbvg",
+        "width": 3072
+      },
+      {
+        "height": 1851,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101869921453088933168\">Zach Roper</a>"
+        ],
+        "photo_reference": "Aa-ngMbd2ojV_Jq3GjpDFJFZiWoykJ5qA-DgFIpJ2tbgj0RdpJIw9o0vlx2P5AN_OtxxkdVAFWW1-GfOlDAnDCiLUlbCno0Zy4RxXod1-5OuPoPQeZZ7VGaN4cW71otDNLQ1dM13hb6Q0lFbe0aOemzDfHpElEMcQcJLqsu2M0TrC4j4AVzs51z9mbLsnxSyBuoNxzPpthWy-eput0h7NkGa9Bo5WGI6mBP0gMeHi4rbaaJYtyTh5-hC3Y8QmuO3kTRoxJH6djVNx8HEKd0-UG87gQruaIJZm8bpOox6i_e4dHNwPy4DgHx3962Tu479HcNP-EU4jlblO9U_0oT8TBFLyr5SA360nBpRUZhDEd8LCNKoP4-q4Oi0PqmzGin2egE8KoNY3H2vQV9YTpDSWvu8CqIwAuc",
+        "width": 1390
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102160018126888764942\">Ema&#39;s Herbs</a>"
+        ],
+        "photo_reference": "Aa-ngMbDtntfKvIqmXG_jGucm3Zsv9TrNNH4oYkuZ_Pc2HoQc9N_fMSxnIw9LfLqs_-VamrXtFZoKrtUjDYP6sdVCfkA87BEEDcE8Ze2OEqpOAzdUT7y1TwVbbiyA8M6EAUz4sEvfsKXwJGOqiBVLuzw1oj7BkXk9JmIqUAh6OjMkp5TjomEHxFDlaZnzEppPGn3pJQc1yp_74vm3g1r9wMQ_cvBW0A_Jq3GnQ4QZXb3W77ryLxOMFNHzgDYGfrNF3kYlmHHHAtJEfk9ugeDNlTd_6fyatFQqU9MZvVObB-JAjRaTwObcdlWoEZuFWT9gX4Tdy8vfjhkhRvwzwKO9es9RymdTlbyXWScD96TtByppWdEzQRaivprJb259f_o-1OpMmm0unvK6QLRFbbWnyvpDVkzpvI",
+        "width": 2048
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108204883655426754709\">Kim Freetly</a>"
+        ],
+        "photo_reference": "Aa-ngMYOxvPhhmKubNUqO8UguT3ARoSFWBj_GaZcLn-_iwiIycOoFD7bkTwP_awGPXHBN674fBUM4VtcvIhtsveIgCQhtxlHXsZRBA_-ZbBjETpRmPs8Ikldeg6It8hvkCAWX98lSWKvHVZPDPwAwFZatq6TDfDgRMl9dlOX2uPa_GloTIimw9HCckiDuAkqtPP7Aj3oXZwZxKdUBOpZyiKpcmIqMUYp7dEu7dHqDO08IDO-REa4QLBpp2dV7aiancjZFE9hJ13IBmkk39k7w7OjhWBlfp1Bv-Cc8QOE2CpI_llwFL3b7lTLaXff1FfsIDQ5bYfwa3m69W_2dKneUtMb0zCdriPngOyduk5NhTBPKTZ3tVcyZkpwgxCnaPKqyFmX5_FcLcYGTpohWY89FtboBMM_b5DsEDc",
+        "width": 2048
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105110344307474393733\">S Q</a>"
+        ],
+        "photo_reference": "Aa-ngMaQ-TJV-SOB2vPDUVLf0BWd0AE00FmM8USkJknR5i6f0aHL4oP66zOIbe27sR5yl1UcQfHSpGmIa9w-zAXii3bniSdUdqcpdcdktpFD7u-ahdHo9yV7x9CdIclJaolllaopYrYTJYt95IzInHsJm1a4W9diRJXOysCrmLKHQiZQDj0Bef1K3KLRSicxQWmcxMsX1iyIQmmMI2zj0vSTFQ4h8nA1j-Zqhu__qclBs95Q6Z80eYrzaTbB2Wbkn_-RjlbKGX-RXy5xPguHq8fhGA2nVlS1F8zYYFkJZ7J3DyOsMvJL3zDzY6ny-ofO0HHBaukNCWfIeE_P9HtdRIdNSSxNeBp6zqZJ_GHu5CLh-XloSfcQdxylTruI32Y8tSOZC-ruNKsB36oltHXAgdS3fCr5eQ8",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109749398685085737466\">Mitesh Prajapati</a>"
+        ],
+        "photo_reference": "Aa-ngMbT6WA0DFn094a45S3xnsfBp6MKIs37Nn6BlmwXpy7-x-AX-opAsl9OWx5F_ONh9J2t_pSwC7SS87i563ulwMXFDhw1A2LGpc5xThf69gmBudv2zzttIB4DTb9mnf1-ne6HVyV7u54IPrX7SLS0xHFpnuRtwDlmwAfRBGPp1votTbFDDf4BCofAmm3nV4pGBy7VBuGpRNu-K_MCKl8Akng1v0YduagrRz9_CKn1f0h91DAA2LmdBGmj0va9uuuEAhnl5Qw2UjTJaxbX_EmAWA_RkNCCJgLn1_m-lrbrnEvxxXB4GPGGYWFbvkXqylkBtrlkSvefbm27mcdIEHQ6WUxA7l_2JmMV4ex9KyPNFXiboxPdJdPy2rrGqcx0JQjywviro28Rwus9ZDaRLxEY7NW7K0Fk",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109749398685085737466\">Mitesh Prajapati</a>"
+        ],
+        "photo_reference": "Aa-ngMaK0n-v1rOBSDpehWulhypheRziVetavt-T5CM6ZNaiEYpw2IRpDBsEFXuibbePgYvosWFFkFC9ueGedb_P7ftYP2blVBs-kJ0Jx7ep8MI0raxN3SQxoTljBZGT91Mt0awjvK5q7zJVTWkAL_uBDSuOXo4ZNZ1xQJl-cW8pUYJnKclJ4lQdtAZQZJY4Otv_CDO-gFLWWE5Kyvj_9EQJqkfgwsy0xlR5YNKwsRJXZq2KFQt4DT1P9VHkkd4kAcaoGq9GWAk1dEQ5z4LXxJQE7NDjknCLErKd9maria3mT-Hr8q9JNuJG3pLEl6-VyUH8mWHhYOdmiX3JBvQ2Nl1sfERf-q7rzBxCh0dy9Tp2V2iKdJ0415QMfXPaVJ4sLzxl0hM2P4NLywbVZHnFAq6pgJ2iicw",
+        "width": 3000
+      },
+      {
+        "height": 639,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102160018126888764942\">Ema&#39;s Herbs</a>"
+        ],
+        "photo_reference": "Aa-ngMaxw-BOaLUcAIUIYjvTxhc3NFvSdyy9w4Bm5p1QW0uFQPKZje7PohznY74eDWRheOEHkz1kp-K4tIv4ItVrP4U2Vu-wAhpSpi_GZaKjBoM1kM00h00YovWonRXA_WbVXgo4ztboGsAF0ov7_6r8ECFnrnX-9f_gLR6Yh7dwfVJI8ExJI3gOVwOlcJglF4I0epIibpQcsrsYkm7HCPgzMvccXxPrDtH_nRZ8arLz4X1Afx9gfqJaU6L_TlfOnmjdj1H6fyZd5OmzYTboPFABA1wqOAvcw9f_9nfLrZFLL0vBdqqpwYlsT_Y_8n_d8gmVy_BgWWXCGSIYDCD7wHV76OOTHDAz_tAM3FZKotFrPaXFzx17BdZKRqKagUuUk2FYmAKJVG_yhkY8IYE7-1XBP64bhQ",
+        "width": 426
+      }
+    ],
     "place_id": "ChIJF48GCPCs6YAR09BquI5vSSs",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3119146875700826323",
+    "vicinity": "695 E Main St, Ventura",
     "website": "http://www.emasherbs.com/"
   }
 }
