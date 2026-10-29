@@ -1,38 +1,287 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:27Z",
+  "fetched_at": "2026-10-29T19:47:55Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Moonlight and Sage",
   "place_id": "ChIJffr2io9v3IAR7Ou3pM1lcYo",
   "result": {
-    "formatted_address": "707 Mission Avenue, Oceanside, CA",
+    "address_components": [
+      {
+        "long_name": "707",
+        "short_name": "707",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mission Avenue",
+        "short_name": "Mission Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Townsite",
+        "short_name": "Townsite",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oceanside",
+        "short_name": "Oceanside",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92054",
+        "short_name": "92054",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2291",
+        "short_name": "2291",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "707 Mission Ave, Oceanside, CA 92054, USA",
     "geometry": {
       "location": {
         "lat": 33.196693,
         "lng": -117.377534
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.1980347802915,
+          "lng": -117.3763554197085
+        },
+        "southwest": {
+          "lat": 33.1953368197085,
+          "lng": -117.3790533802915
+        }
       }
     },
     "name": "Moonlight and Sage",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1166,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100128609697640659342\">Moonlight and Sage</a>"
+        ],
+        "photo_reference": "AV-0GLf7ebmrr4Yx9cVKhA_mDeyQmaIkUZa0wopspddNtXJCJxmd5FvVJRVylZPg1XljW302smueomeJ2jHIMMTmr5eN3g0uRXAPk3LRxv6YnaGk2ezQtrRYgup3sXx7IYVQ01wOnPxtI-jVzfd2pxHRqgaaGiG1iiprmkZbEeYNMGcBUPcCzqImuZix6jjNuTYTmfZWUZ_6y_7n5rK85Yhv6RPBzHWUROE3zWXo6F3SHynuGgDIyzhoWwMZ9LYiSbprUAcC0jwUmR4RGSyu5vrWAMQE8uUtceXE9IO_OYmbX4Xj-d_7ZYHZnlAWQ51WLCK3Vtzc_ZdPQXBxvMowMAYberbrxTM7J3ga8XCC77n8JjS3HqI5cVhSAOQ6VOUzREEMeVYyYJCgBwtLu1cIlgtvUuG0sMzLq1U",
+        "width": 1120
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101036636500010260725\">Armando Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLcn4JKKVOsutJCWvkRNrOKZrKMqTahpbypPqiNm1PPt-7offY2-yd7nJiJtDe6cy463n4Vy1mHHpoSxXeZe_2su41sYUTgOBaWCQO1hFUAIfZOVnJWJWOh5xADnS9AvLILFO-GBD7ha6Ex-lp0JD-4_NKsf0VZLhB2y41tJqI44e6ICUySnruo0U_s2zHy7025lrHKIR2RK1azNSKxJoy-NuBY5mW5CKns9IbeZRezYrgGno75HwilI6ZLVNrg61D7CGYzwAbD-2B6sbkotop07ddAw_QjxbtRAsUdqvtmw-nHhHKDV1RW9vdQgJjTGYbBCq9QwiISEQGUWR6cVSQmdQoHfaMqXDwrEcmmAzKGrZAY0Bdq9WSWlZqucwvG2c3bfB4r9WfY0wz5UH7irlF0-4bo",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100583707769074548317\">Jessica Claire</a>"
+        ],
+        "photo_reference": "AV-0GLfDRvQcu34QXKx7ggYldziXJevmpm0_ELFJBO3nnMWs6cOdmKNuwqAwg1RUqLSTLVap5BvxF3WjHJMr29BCKW1poZt18Hj329sxM-CoAdNufRRTsM_O7ZG_cyhBhXI6OwNEuXPiMprEbT507qc2BnztRMvphZV8K6RAAF1BqcqXgIV4UjlILNLxn9BNZ_rnLL5NXxbANuHS6_Capr2p_o6Y0nI1hKdeZqb6cL61RsoUOBtg9UO9yvViKWALEyWrpZzyh2ogzk7GQoSbbSl4bWdHY0mWCTwGOcgg-C9zBbHaVwn0U3dwO5Pb50YuncLC8UohdDUn3Tve8zpa4DS9Oj6BXlSJJdOOGc5HEHbJkPSgfatnowzp6Uo2dS3PAKolRvXAWq38Lg6C6hg7cKnxQZoKXUfhKut6SyqBmLev9rdhiw",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100128609697640659342\">Moonlight and Sage</a>"
+        ],
+        "photo_reference": "AV-0GLcn6Fu2g3ZHY5_E4Izvep2jY83wrd1Qm1rNLsNLUFK1XauzXTQ8wA3TjOGJgD_JtXvKYJGYH3tG-KAb4Tqts7D8NM74-X7sOBVAvsQ-4sJmcz0CSC2NrPbkQq09Y0kuU2SPDqlnDPjGUGGYSG9xdL3-LlhYFpMYNvRnsznEmguL35ldlbK0uckiiUTtiiAQqI3A7ooBIOAf9CLVA3tzW7YUn04gbWNtVEDJK8N00cqZrPjuSzLtzOEa-fdu9JdvF6qbJxmEwPojjZD7AdOZiFOOe6EnTY016waJh-CIvBuEzfzbfoP7zG7legIgINAr-YFBfMRJSsvBA2bUIfcGmmBMPmUNB2RoTgSaX3aqVs66acF0w1Mt-jBapDNIdXi1szSqRV1woArnMJOS96D-ehbT7tYbKfE",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101036636500010260725\">Armando Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLfolvAuu86KQpV-B6u_kgofpXtN1LYiVNoPEkqPhLKYGuIKEsv1FPV3rlGaMbJBAqH3s0hEk8q6TyObx6EA0YokeiDBPuSA7X6Ldl54qDySBgYLGCO2ux01L_fUvLM_Bo0-IHK8dWycmG7jUXanFKieIWX_wHiuf6by-XO-kP8WK7Wvvi0702vkk48ZxQyRjkQ2OxXFbC3fcCk3kEbSZVyoYOb4S6r2t_s15fc8hIJRujDboHHMCr064aZNXcIp0F6wDMR0_JxJgVDs_XHVdJLrtL8G-WGfa1IOfhytwFp7Zbsl1J-YBs9Bx8Zx12QHd4tOABMl0n5xXNXkX877pyQsBEpIpHHdW6_zapB_Lbc9Df-hnrwJOB_qSrHMJ2fa0ReKq5I5uXEjTldTNs74BQkyGC0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112686175379669902262\">nathan torres</a>"
+        ],
+        "photo_reference": "AV-0GLfI_ZW7QX_exhUc_tvEPfZ-ahkfJNlgDtpz1rugJNOzQZ2NtMo2U3fRdHlcmdVqisYIrNdfz3zCNEKX_W5Gy7MmzfUIkDreTBt962SVrOpKxHWF20OHWB-U4HApxsCrF2DAIB12yl1VCFfdulUtbK_NcGvuH2sOf16cSGzYfMlo9-TFdfOhqw9UZ_a9HGsTmhAmQ6ZA3kbr_r6Hkg5YfztihG0INZjyZpsijw5oQvx4IIXgrS-eqtmWbaPU4BiiysCCiGX4Pm1qIIfya_2be5ZNrenVAkvmo5Da5jCZt7aGK6CCrF3dFIqOJ1VDcb9FkkPZKw6poiD2Oqjet8gTL-MqFJi7zDvuK-VhuSOKCQumYaD5cyddNMr-2x5adjyo2B14OH4oGahRtgnLIuhGynA6hxpJQgTvHotrs5u7tG0PNg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101036636500010260725\">Armando Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLfy8-NOtcO-xXIo6keFPgSe1VLJt5EfCj7F3utnkfk_RZaAGgUu6JJ-djqshskRh5gS1GIOaky3KN--VsT5El03FLNOSdM2FNYngoSp8w6PIYRsuxkCoB7ya_FbYFP3EVzRfa_UWoB-NhRoHe6yThsxVQmKn3P6_UJs4o8sT6IT9KBwO22q4eHgqoBreK6pR3GwuLdjrtjcKALszPjzSfPbCz5X__O0I-JwjVE_3-CJKOrxiOdwvR8_Q4xOILB6a2F8WrubWr1JqvGOKfA2nYckWmTiDTqbsMvk3xiweuxUp-PIO_N2i4HtrRtw397eLVzak7-c3aFciAEUQSe6rlSRxKyq84KTUmJcYeoySxj0RonvC9HjmtTN03JmsWfjUBAJvOnA5gRkVlGAdkunQnXbiKGrXjg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116890880786006838566\">Stephy Lou</a>"
+        ],
+        "photo_reference": "AV-0GLfvxM9VaOnY8rhJ8cYm-g8OnVTc0_TzZsUPw1o9MsvX7zq8m3cNWScn_P0MnpkFO9Q5btuBsvzYx93KpiSn3da5HfIpF6JHtqFUtsqvikggJmkzDzS9y0GJ3fPj4nFmmkRbKX_nhLdycmxUYaaUCmL0BrruxayPo8Vtb7mdBvIXpwSnKnDgDoKGm0nyXM60xGhK35JiRZYs0wLZBZ1feYOjKc4l7nRPUmzyIwBNcX-E5miADDvKatq4aq9yutinB8pQSqOz9WZpImV8_6KvbS1fEQP7YdVtc3l3Y-GyYdUwGSV3UO857v8JM8hkMBtE2PQwavX84hVX6wYKNIpzLTvQNEVNG7wN0nw2CFqRg913DDidAxUilxzc3lhXltTBPMTHoM7OEpw3Zx0lJfm6ybvMhqE",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100128609697640659342\">Moonlight and Sage</a>"
+        ],
+        "photo_reference": "AV-0GLedbT14ulm8fW9UKTjpZwTn7K2mEL16voFeyvQSIRBOAr4rPYaQPVJq4nUjIkxVC7TC-sAetHTlkLxB0CIjcVjOdeeSfd6yElmi-LOh_SxHopfi3e3U1-uB9pGAlCkrU_I4X9oG-r5OEXzldUNUfAy2rZVVFL2viO1I3rJBIuKTVoFmCfsmAiskCEVuBuu-BllLlBAyjp8rBaa1wNQ82ddE3GOCCt_tof12ZFgtKnkhAzojg3DNLJjxVgCjjqtZcuuJWkteYPeyQSL-LQZP5eiIg1Vil6cpNgEFogA8Rs7EN-60VnYAHirZlnBbwLmADOFKnlHIba7zWdEZTWV4zLfRr7E9njF5RaIVmX0l8xtHbjng6ChKzJnav6HVn1Dv_8KrMBymBHOK4XiM4zNiI8ssAWkU9JKjb-1UDmB64GvG",
+        "width": 3024
+      },
+      {
+        "height": 1078,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100128609697640659342\">Moonlight and Sage</a>"
+        ],
+        "photo_reference": "AV-0GLeqwuqNMmhusH9O4LyXI6kUgzFmkNeyg-iss0YCMPb8Ybjlp5GFcCimAeblUwxl-J4ASivta2W3_iN8xE6BPKVCfaTC0XyCDXHGwDUrVB1CYkKEm9f9K3YXZ3QLRIRCcZ7SsGLDdNkw_w_q9lQBNy92hdsDdVfgBX6pCg4tT92rvuGj5Tc1emQJdpZ-0cGOTTLPBGfMcJnXzvjtUUmAO8lO-1aNAOWp80XGGiiM95jZhjiX4nbzhVSEzgtT-r_pLfkAoN_LZgLofSPuzDzQuJxe6EayZcVElmlrEBe7f8l-TI-i06-s2cLjIHWxhEo2CrFvOe_UfGuT0Pu3cpfgk_257hrl3ZdDSIleIMZ2Xus0evDUX2xmX7Me692xRNNAJzfrDs4kdevkSaIQ-HBTPz_xy-k",
+        "width": 1160
+      }
+    ],
     "place_id": "ChIJffr2io9v3IAR7Ou3pM1lcYo",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9975866583508577260",
+    "vicinity": "707 Mission Ave, Oceanside",
     "website": "https://moonlightandsageshop.com/"
   }
 }
