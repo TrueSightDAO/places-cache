@@ -1,40 +1,274 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:22Z",
+  "fetched_at": "2026-10-29T19:47:46Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Green Man",
   "place_id": "ChIJkX-pieiVwoAR9230MHT2cEk",
   "result": {
-    "formatted_address": "824 North Hollywood Way, Burbank, CA",
+    "address_components": [
+      {
+        "long_name": "824",
+        "short_name": "824",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Hollywood Way",
+        "short_name": "N Hollywood Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Magnolia Park",
+        "short_name": "Magnolia Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Burbank",
+        "short_name": "Burbank",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91505",
+        "short_name": "91505",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "824 N Hollywood Way, Burbank, CA 91505, USA",
     "formatted_phone_number": "(818) 985-2010",
     "geometry": {
       "location": {
         "lat": 34.165349,
         "lng": -118.3455328
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.1666688802915,
+          "lng": -118.3442858697085
+        },
+        "southwest": {
+          "lat": 34.16397091970851,
+          "lng": -118.3469838302915
+        }
       }
     },
     "name": "The Green Man",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100077416312790562039\">The Green Man</a>"
+        ],
+        "photo_reference": "AV-0GLfCsDKQnZUfrKYW7Xa3bOQ3EhHlU7uIPKWP5wFivCDsDjqdi-_oZIDnwyKF2UuvrbhCg3QTpyM_oFBR1-KmZC9FS1btrUXeLKLZRzN0_u0NjB61Zam7NVZLi9u8vdXUgQy-BYTUdE4UEcCPX7KlYa5FYT-jnGglzLFAHMmG7cGcoD6aA6l9sT0zaCGDmnTOQuGH0fmDuKCSXrHnw9FCFKG_ekA56fDkoyiIWDJsGvBVb5bhvAIehHQN6vccgTMXmNtZ4RiVnje2cuNTjAvM47_zbWY-spmF_p1KRmHiDvrIeQk3ZQ5MuWsWCqenRvDnEhedSGhKKLaindywncCqIiQV8Cx4-5Ai89JxasKg7ABqRXAK7StKHH6KLhy7Ojwb3q0a22dEDetXrDzCbDRV6R6y5w",
+        "width": 1394
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100077416312790562039\">The Green Man</a>"
+        ],
+        "photo_reference": "AV-0GLei9vUaURx1GkzgtMb3NELsSGa_YB2w2CfGV7cVQOXI3MXOj7TuEG8liB7eVffYO5QyZOiWI9h775x21pnWdKltE9nWuDPqs-6rjWJPS3qUXC74otlNOFby1y364kBS1SnEcBziNxEI6bg8SfzE49GEj9La9gdAeGUw2W7oKCh2cpFUiWjTGkp9sKy3U8YVEwbjgtgEn2YMMr5sVhz9aLECV6qNpuP7yvFqB5jhtEe7Gw9q9T-Xa5YAOXGlTbdSDYJu0alzW7x6QxOuql72uCdSwmETJFNyFXNW0DZosuyWyeMjg65FWQObG6w2hMEZaVsP9LrZCaaVxE0jDjCrLaWnAFUw9CjRNH1L_kbMrdAipvU_FVoFLcbnY1oVCnMDOQpiUhkB5qD_b2pGmui4wex3Wjbf4No",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104999275262667423694\">SN Valadez</a>"
+        ],
+        "photo_reference": "AV-0GLeLwiT90yJBGFJH76I6y1VgQb-AwhHU8h6yGOwp_ZZAcDqoc0OY4zlYHJlBGFffwJeZK8mMD0ZtTsnyDjaYLj205f8WfawvbHCzFKc0oM01cBARFzfo1NlBU1aeGehkRsqNAuaOg5uERJ2ioIdsNWoJjvDYvtWEkY_T4ZECVP0XIYlhBomosPbvbuYPD2ZmXwH8F0Q1v7VfUXwDJPYboOZYpy-z6YywYFItvZBej_EEgqLaSQu6c7CNWVHtzVjb0vP1Wv47ZiAEt0XNeZ3R1lqMYSDkdsWSjBgMSnPpvqw3uDebYea6y63pnhBJFaUSNxVBICcqz25TakQMGkCze6rWDWHKmwy0tqyyyJ4RN7TKsi8JIdR0itKXhAkHZ0oo7yLjlfaqv-dN714dmbbNoWsYQgZsA5E",
+        "width": 4032
+      },
+      {
+        "height": 792,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100077416312790562039\">The Green Man</a>"
+        ],
+        "photo_reference": "AV-0GLdRys6tiIo4wENCNEes6-c0rz56KV4UW9XHSdRnZFOvhgjmABuYGbI-Btmz9R4QUUXvw6_6wkoc9h5yIdFRyk5pt-VUQ3aVMvky4CyVP26fOZK7VMQGgC6u99B8SDiQxnUlcqD9mWF-3SzGLrbUzDXZuHn2bZNC4vP1MnDWxqF6Csk6sIa0PyQrWYDgr8mPZ_LM6JF_3RRxYku20HiWhw5KbqaMwVXnPwzJF3Ckd0FtUndGmizRbzQEiwzry0re_ESg1_4KRvQklAvlFV7HoSXC5JjLQWUZ8ELRjaCfoOYpfuzAcw1t8nJl5s7jZFzq49qug6MZdgZTO9XcxBqfhKWPUDeghFVuWhlCEGLCAA7HdwxP3Ygs2rHu6hjp3rnO4N5PYiWLO8oKDB3Wj6z6wGOallg",
+        "width": 1188
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100077416312790562039\">The Green Man</a>"
+        ],
+        "photo_reference": "AV-0GLeYeWWB3mfH9purLEmwF3-v1JcYfe4hrLqSf9XpRghFVIIr5MpW2x6orDH-pnAnmGaKJ1jGsgrUwv2hmk6VvD6fki-3Xx3qZl0VBcWXe6sqSVYo2vlnYpR7Xaf9Ooui7OFegL4D7D042YL2lCoS86utKoSN5g0xgscPmAJ2FqaQycdv772DYnMLAamLQbIrIYJuFCPVTCxUcMg6ik0lppLr7JZIrBmsZ0JfDwNK5RFl63-guTynDOzTS3mP69vkIRdG2-5SK7Hs-csBJuktvyNL5SmX2WuKwNwbqI92CvuNAc-RyBKLNkpCuuAO-bvKJe9yRbBnxTxCQ8QPCTA-Ze1E8eze7xuDGAtKDCFLvmoLeztAkT8Rdwab83_BOm9LAz-cF790cbIhzoqATEH-GAmuMiz17Xw",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103668867070548752671\">The Only Real Trinity</a>"
+        ],
+        "photo_reference": "AV-0GLf177w1K7s-LLk-IZ4oDyLYT5blRuAtVmUrA-9n_MX2C5IebSTAfOM0KbL4IP47HPiNmSc5uVYx6kGAsXcow1atu074lT4DMXvxoZiQbY5cve_yfusoM90w-h3eNikpsXAW-I-fOVrCFO7xayWJ1mwtYBPHQmvP7DTAyDi8sMd3YUNIUDBm1p5cHsBgJfA_xNImyZnKwydkN5A5DhbCI_gX0XoIaWVZmIzOUu2CBdbTVvXAsdK2mkxLxDiYh357cjgEpBpWPHZfF4j0n9zvo1CW6McIzLulUF8bxQIGkhUXxI7l-v0uKXEKVDIqo7JNHPLNNEoQVgl6E6gHtwlkFV1Yx-p6YI5A8-TbxX0fCBbGX0R0tRD-CEmcnkAtAk6Ndpa5_qjs24hG6Yft80dy3-SKN2totEM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104923304954097080634\">Elizaveta Rushinova</a>"
+        ],
+        "photo_reference": "AV-0GLcpEGhSI5drbTICCzmDqCpFOpiIePvRj16pGB1RSI6JJ7N0u5ba_kC671mpoFwxThw1y7XC24X3aBN8lwKmD4yIoOS73DoZ43PSqquxNrzt7UulPQ-VxYnRS20CD6OgpXTFrV9dxH9VGmtTKtfHD8lbtYnrvZLNf4I87eyW5ztfNa2qwFvrUDb4EaE6MKjTJSOR-CxE2gkTbk6GQXRddl9vZPc-ONheEBLaRwzOkrKwM2_A33gBkQgL8FoH6D568csE-PVbgAli5h_F3lHbT7n1DAXze6ps3jDrqiDuk04EmoAht0brRpHuMRtJrMGGXNFM1NwxC62_MA-Qr6N9UdMD7_1mOpUqWFXzBOK5yWEC5paL-p0pbcML4hfzn-RhB559860DxDMy-pnpf-egE1b37YA",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100077416312790562039\">The Green Man</a>"
+        ],
+        "photo_reference": "AV-0GLf6zGNQO_AZzAuobiZAkH_ZAVrT7cUh1hiuH1Ahh8z5P7_Of7Rx_HS8Yjzi9ye26Eo-rv_dEUuw3CAFq5vKB--49AtBjlO-FYlxbRAm6FjcWHLBbC-YJ-RdQoNvEYiJt8lnHHsHoMtXgStl81xzNLBEwB6pagCl9ZE5T4rwsxSIwuXYqfdKaUU81UTWxZ-x8xTdNGQWFk1fC8rDfwtvtiCuz8RwgLuca0cfGiD5ocnfYSS3uiE2SHJBV8b72aqNU57mnvkCLEfHiptTteCPivVQuAiWtXtN3l_HIvaYaNjtUjoxGqItFpTuMTuHOVdYWP3_umyQCL4mwxLT-vP3E38Mf9syW1NWYzmr3wCLC1JaqKTUWt1miRbOmzrtYzIG-ShfFoTMTYUXM3vOJqgoS4HBw8uMjEs",
+        "width": 1365
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108319674517416759153\">Hao Zhang</a>"
+        ],
+        "photo_reference": "AV-0GLessDXInLxMq9EI8hFo6GfWcjpfV9jI09DAWnaGXXc0nQLTk3IHpnGJLejlnytKFeJjXy-el9Ngj9FNrOFaRU8ExT8WvMtVYylnVH7mcT7sIrwbvt97Uv-Nl6v_iMkDPMIm-HR9PI5-V9hFV92ctN0cg2iXcg9YS6WuKITbXilRH-LfizUwfppvoerpVbLphswXzDWXARvTZGR5ZwN2ELVSfO0GOLDKMhYT537DYf5rquurG_-RDWfMQS4dJu3di6rrDMKamhdCmKMv3ZOxuYFpqNqRUYtPVmR0HFjQxAkn2RB0THUGFswVP5slSDmjoNJCO8Yx0PV9q4wJD6fTICOOvD14fyV94zjWmZ1WhgJ8t-yVTNxrZ1ABUtonsnOxeiuTUI-ah6QOUPkckjxTu-BF4JYpbHbxhv9rNkiJlIabdQ",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103668867070548752671\">The Only Real Trinity</a>"
+        ],
+        "photo_reference": "AV-0GLcx3wRm8etjP3h34pghIbjRlCzhD_GFZFyFPd5wR6mwENxwJX5TyhYfjp7-G4wvWc6ZDV-c5G6p-R1Kb0AJFBATKbiLK1MNYvt0w_mq9ghPk4Sl7fcVn0eqi0Tgmz0u19-rBtrpy2z6_aA5JSsnoAzdH0HfBROcT7S8OvzklOhGWR6uj4KtwCjZa0uEPpFmBC_1GVhaqzNvkhHytJcDtTFx-Q4HsTVe1VuBTf3IXTAFaZ3cPQBv-nILtkvv80PqHvSJPyX0rqCVTL_o-OGAmrH2d8i-KkwEgEQNnO3sSE4veJdqejy5zOmDj6ezZy6vEFquzF78-npdIDZcR0j4pgW0JmxSfrwkW2UBE4J7kg_ga-6ogdo3XOs-EkwTYlTrMFvBTZ20Suw3JW4j5q2YVg-B1yQ",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJkX-pieiVwoAR9230MHT2cEk",
-    "website": "http://www.thegreenmanstore.com/"
+    "types": [
+      "book_store",
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5292000541058297335",
+    "vicinity": "824 N Hollywood Way, Burbank",
+    "website": "https://thegreenmanstore.com/"
   }
 }
