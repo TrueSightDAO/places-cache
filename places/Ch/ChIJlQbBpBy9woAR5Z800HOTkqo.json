@@ -1,40 +1,273 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:23Z",
+  "fetched_at": "2026-10-29T19:47:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earthensoul",
   "place_id": "ChIJlQbBpBy9woAR5Z800HOTkqo",
   "result": {
-    "formatted_address": "14517 Ventura Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "14517",
+        "short_name": "14517",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ventura Boulevard",
+        "short_name": "Ventura Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sherman Oaks",
+        "short_name": "Sherman Oaks",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91403",
+        "short_name": "91403",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14517 Ventura Blvd, Sherman Oaks, CA 91403, USA",
     "formatted_phone_number": "(818) 658-6060",
     "geometry": {
       "location": {
         "lat": 34.1512888,
         "lng": -118.4493649
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.1525144802915,
+          "lng": -118.4480228697085
+        },
+        "southwest": {
+          "lat": 34.1498165197085,
+          "lng": -118.4507208302915
+        }
       }
     },
     "name": "Earthensoul",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 16:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111296334216508947844\">Earthensoul</a>"
+        ],
+        "photo_reference": "AV-0GLc75P61wiDhqHY-Lu40qgQ8wbETtdhOZEBX_HqUJSUo0BOhNyBUlzXYpXvgJSAeswxbAgEd5eX--y9PtBtIr7G9K-qI7h6L92kDcEVPrRZJivEGLGxXiIPTAAaCEOGiou9MQqoJ8LL0f-nvAauXvJ4EPenuw7mFsL3mxdeyzr4_Qezx_fm9yMXGzpkhMKpPgW3PrcqQtJnmr84XOIr770F-dGXaoVkvqKCG35cYfF-iIrHUB8dhaFuWegjDBoyFwV2uMm1ymTcfbq6O5g4XEiOYXXuTTITEjOE6plcWthJlF1Xwgvore9mLOpLSiEcZR6ShWEDQJvHlE6yOXWaEsPeCJcjErOtZbsJs5uIXuN25Oj3UaknsHUHfnC2xf_7Nyqwbhue-tR8a-D5n5clDv1OMKv5OUcXXz3GWjpF5cSD-",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105114459777397704342\">Valeria Zab</a>"
+        ],
+        "photo_reference": "AV-0GLfmb-SlFMJKcbQ5lXjBrXj8CLZOIgkHb-S9oL7FDhkSYjGvxxQH-RPplFTkNUg6YpL1Wmo_XQDUets3agCNrKZ6GzmTPlmUNdv3RDVodvdoQSKFohwc2gg5usrxl-R1HaYr4ZQcod6d7rfofao3c1SspVEkO4OamkTi2k2AgLu6nggvOvIhZ9FootvJ5j3BGYWfumj6_lRlXnkerYImz3TZxjI1R3BcpdD74-Sn4mFQaNewlziRO94W2hzb1_X_gKpOMVk-yP9M103OpooqdVkiS6rIyD_IF5XDXTX68lieP1hrH8V-adJimHr9qY_f8uq61ZM83gbVPaNT3uMN1m8-G-UmawLPRnMT_NW0Pjkl4aaGAjLCV4oMb4mFOEmrrGdFDDg8FeZ_A-fk5dWVx8qhtkk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108783942272235009729\">Roya Shahsavari</a>"
+        ],
+        "photo_reference": "AV-0GLehT8FJ8OwVe7jCbO7xMhEfeiYnLd-yTT_gfdSRSvxq9iuQIWo8WtQ4qAzo3Oau0UgR0OmCvUbM2YmQnhRZoxYawFS5U1tNECOD-GC95yz85efCN-ffg0RVWSt0YzYuQj81l5V55nI_03q6B3eXo5stKrE6SeP2snuYvsxFH-mzN7goZmstKZhnBHXmzvNzvNuRFcYBOLE5ekHw3Jo6rlAs32ObGdtXgEtXs3uEvDEcNVZbm9qKYbSm96o0k8fv5y8fizrMratA_Da_mFrII21H027iXvDs-9q6FTNGb3LnMxtJHxQJpgrQRT_ApaDRSPpvqMJBAgDIhOimAQCHo4Dj1nD8-YRestGNUXtR-UY33MpcyGkvzbxzfm3BUowdUnGfs2rPqGORZhoLLrchtw9aYd3L8xw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106828838696670869713\">Chona &amp; Bobbi Love</a>"
+        ],
+        "photo_reference": "AV-0GLezy6AgswLuR2lNkMk_27aEetddYMaHijJPJ1JfcUdKe7XQJLgsTrfSyMOYFN3uCj-FZjkT0QjqZz4gk4VnuIeP7hLaz0wA6139BLnOt0_-X3qrNo7wF_pYve-YulGVMUMVD67dULK7sp2jNEt2LmupVkkmxFJZ28fK3bBXQvlv5ceveHVdhiNTD_PFk6GDwVBj8Zh71gz2eyuWzR2VTOTVfhXzAUP8odzMU4H-zBlWGMG_UlDiGopeiVSBnkaGlvh6NQFMZFFbIVh_XXBSmyes9gae0ECfFjUHnJWqOLML2AC7x0d4xSrnD2HzcclgiCmx5c-QoYIYIY5s1MQ9G6xmNnvAEs_dv7UdbNxq9HJzI_fF16r8ovGqAfE-hhteqbzHUmA73ok1pYHdYQvMFbBE4gc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105114459777397704342\">Valeria Zab</a>"
+        ],
+        "photo_reference": "AV-0GLcmIoP_vfGCFXa1Te-BnEI1lK9obfzyhwlQZTBS2O2TtcS-DuaQ8KVKkAkPtILnM812Yr6Vqa2rFi19GLZIRZ-LMpHwoJ4ru-IELE-Og9b4EFDfqeDp1kOLUuzTc3SML8eVEdlAn1x_AkqZhLORhSEQtKTll3E5YEhiiriYvFJyKC-Of5exKSB74Ldzd9kKK-orcNBp7oGsKv1tEc82RXE8lvEM-Or_Pg7M863i5iCkQBfri_niHlNGmaGz0BC_zacn48QrG24nVKE91hB9lAVVfzAw5G3QMSHrJ9WLmQUP7q0e-0tGk2c_vD2mmhqZqCDiicTdUdc7Po00Ww72mckwG1_8Eso-_HFA91Tx6I38oLQJeDl7wueFpD8ElDIDUq6LjWAw3fJveS7jt1Yze6Snww",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106828838696670869713\">Chona &amp; Bobbi Love</a>"
+        ],
+        "photo_reference": "AV-0GLe45H48EHPK5IOmJg3eiuMRJ7dTLqMKf6yR2525WSSeo0EyvOLoUNQYOW-W-iC-akL-SMMbE710wmzQpeTG17zpB4UHwlSZfx3OIlpbcKAdFIgDUfuBu0LqeueiqHB6vc1saHVxjWCKqkbo8QSQJ2ZdawT8vrUyL9RfBXP9YwvOKb1EjU8JjKL8QUOYikZZjtUpizw2IpHb03GmEsSTCSPn4KtMusgmcZmPOttWOre9DHfpEebzR-pE5F_F6OI4yxeLnDT6znbf2h5PO-iT27xl4-7Q63Z_nRjF9DCeeVc5JdH3UaQengk8Fi0e5_qwYgXgTdBVB20ztwJudBws1u1xHlKYuAEfa_TzAtRkcydl4FubYvEgyGSnMHIMANCqElBGV3bJUTEG8JXtwvsHmL6nOxw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105114459777397704342\">Valeria Zab</a>"
+        ],
+        "photo_reference": "AV-0GLfGQV62T2fxYBQgP2wS9Y0DICY0JqDuNAcZlriy9zlIQgRu8rgief6LJ6cTRacRxvApvKyU9nFzmiF06hQpeaPfdXPXE_HPEmwb-oTG8xS6eJzOyicWlPc5iGl-UVXUEEGRW4rBi1ylQww2-1goaoS_RNWJxK2e5z7g8ZUsyITmkeHN-VHOFauDJTOX4THQW3hn_V_EkfUBxynd0P0Bam95one3y126h7vaHztHe7tSoyiztSLBFZVhQlm9zuS4_a5b8pKLs_yj8ucaQoukWHd9B2OF8nmDKJZv9zFVOM4XjqIHU9ZCP16gE8cDMmtMIrJuJYu_S-EnOe2h841l9xEwx8XbHp5KCslMAF2and3oWNoSXI0gfeJlx5sTXRIlwjPLX-ZYbg-cGySrgmJ3nu00OQrpcao",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108783942272235009729\">Roya Shahsavari</a>"
+        ],
+        "photo_reference": "AV-0GLejzOUvSnRvvot99Hglhf9ZefD5kh4-AEfGKhBkO2se_sH_26I39vkarY0QNAJqSFJ_4j-Xyut4rzkP5aINzq3Zx-aB2i--wrdx9Uh_I-0_6vj3Hq6ttpSgQPTvpOJkJ8E0U-nzPEqgvBBOPbp2HRk31GyeolATcxCEW2UxOeU-PtWLoFWrzv2g9O8I88Ba-kQ_f_cM_FP75gZuC-gJ6b0gJnQWPOC6ZMTd98rD7NGyRjwgqMxBPEOFa9MIoLjkvjq1Z-yMbaqBK18dpbSN90Il9gb8YRpT1ffjKWT0GvHRaSfXlkMG632ItsSGeIt-TxnEv60iPgJkUiTlnWkLKrtFe5Jm1B2YmQdzKrZeG0bnPEsu1EeI_PiGFQTusU4WWrhAt8enj45kk1bTV_cw9zA1A5p9",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108783942272235009729\">Roya Shahsavari</a>"
+        ],
+        "photo_reference": "AV-0GLc27eYBr5cffhKhDjXOcWodEWO11hA69LlFzp4HDk7ssW0asBwafs7MDGR3RRYgCyckpcL98sGkhEvgysu0Fm5FETw7q5P0Oz6BSN4bbhxOvfd_-Pkkr2azq_kL4ms3SnvNuNMwaGxmbyvstPjpzmPE07iijXXcPJhcROKyGPH_B41KAYjEgNrb0RShO7m7tVY9yl6uebanw1cX5Q8YmVN09-z-AHhSNF6ETJGa6El0Big1cpsU1A1YY08NVM7kBi4QHdjss3i1zL8CHuML7xigMKCnX-scHbpfbiE-HMk_0Hb-oPfXcQEvgy-MmiLj9abcpMkxI2ysNayU6Cq1-zCLo9wMDX0BOHH0SyLFt8h66RR4QzYwrtFXB3F7RlqpXhLOAtdxsBmOMXrGeqY-GfC2-ypGVys",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116205411678413712981\">Trish Hook</a>"
+        ],
+        "photo_reference": "AV-0GLdzdVHD4T3HevFDFz7PBctRauXouPmfLjO7k-ecvOnOLgiyCOooB8aWU0qh9DG3mem6M36v6sPZxi31aYBRsiuFfXoPbQFgq7N1hV_Fe7wfABQy7Y_5ZJAcFVGc90LubS301ifvOwiNzWdwfU6EfcQBM7FX2ARKLyNKC0mTgXnaCfTmq3XdEInegW6UL63jSy5ohkpREl5CMQsQQmT_mPVWKISjHnNYVlLfzVfbEAbce4o6mHBU0yC0vh_Mi9a-frHf7T3y_8BsjbpsdXYTOh7-tK3Gfdy79R_tkTvIlcn6lIQQIwgl9SG7DYUya4lMMGm29rSj_YmDW57lXvX9Jv2plOIWg1eWEnvvZZMzfn3OTt2_uyFk7de9VSQcAf-T4TeeHk5chszPoQU-THUreXQkAj-iY3u0CwAZrfLyoSTfVw",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJlQbBpBy9woAR5Z800HOTkqo",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12291048458671136741",
+    "vicinity": "14517 Ventura Blvd, Sherman Oaks",
     "website": "http://www.earthensoul.org/"
   }
 }
