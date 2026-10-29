@@ -1,38 +1,197 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:00Z",
+  "fetched_at": "2026-10-29T00:18:11Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Natural Divine Store",
   "place_id": "ChIJN-W4vcW-woAR9w-y3I3GEQw",
   "result": {
-    "formatted_address": "7901 Santa Monica Boulevard, West Hollywood, CA",
+    "address_components": [
+      {
+        "long_name": "Unit 112",
+        "short_name": "Unit 112",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "7901",
+        "short_name": "7901",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Santa Monica Boulevard",
+        "short_name": "Santa Monica Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Central LA",
+        "short_name": "Central LA",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "West Hollywood",
+        "short_name": "West Hollywood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90046",
+        "short_name": "90046",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7901 Santa Monica Blvd Unit 112, West Hollywood, CA 90046, USA",
     "formatted_phone_number": "(323) 822-2866",
     "geometry": {
       "location": {
         "lat": 34.091029,
         "lng": -118.3618133
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0923074802915,
+          "lng": -118.3604466197085
+        },
+        "southwest": {
+          "lat": 34.0896095197085,
+          "lng": -118.3631445802915
+        }
       }
     },
     "name": "Natural Divine Store",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJN-W4vcW-woAR9w-y3I3GEQw"
+    "place_id": "ChIJN-W4vcW-woAR9w-y3I3GEQw",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=869694515654561783",
+    "vicinity": "7901 Santa Monica Blvd Unit 112, West Hollywood"
   }
 }
