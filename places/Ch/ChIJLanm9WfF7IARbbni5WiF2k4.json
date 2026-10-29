@@ -1,40 +1,257 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:29Z",
+  "fetched_at": "2026-10-29T00:17:56Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Spice of Life",
   "place_id": "ChIJLanm9WfF7IARbbni5WiF2k4",
   "result": {
-    "formatted_address": "1306 Pine Street, Paso Robles, US",
-    "formatted_phone_number": "(805) 610-4130",
+    "address_components": [
+      {
+        "long_name": "1306",
+        "short_name": "1306",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pine Street",
+        "short_name": "Pine St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Paso Robles",
+        "short_name": "Paso Robles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93446",
+        "short_name": "93446",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1306 Pine St, Paso Robles, CA 93446, USA",
+    "formatted_phone_number": "(805) 227-6000",
     "geometry": {
       "location": {
         "lat": 35.62827,
         "lng": -120.6885933
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.6295782802915,
+          "lng": -120.6872985697085
+        },
+        "southwest": {
+          "lat": 35.6268803197085,
+          "lng": -120.6899965302915
+        }
       }
     },
     "name": "Spice of Life",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:30 \u2013 17:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114133240378987274165\">Dylan</a>"
+        ],
+        "photo_reference": "AV-0GLeogk5cTZe32SdVD1liGx1sAFTj9BQZKqjuJCB_2BVg6eR-WfExJM-IyW83rYBOPRE1ROTerHPGMEj0E2y3kL7i6lXRI1_hhUHy8iSs23iSQWp1hglrgarqEJHzeCkWI4YjVkeGHxjGa4-unKFys9eQowae1BxU0f6bAajcNas1QGl2mN3kL2tkQMR_0XbuWFZnvTcAnCEZKUnk5q_idJS0UvAPiI0EER03GHuFhNfB9RMFlwg7AZ3yrzlGnISo26DqBvyFEP06KeF_OhHWQlZ0mq2pJpOAQpJ7C6VFpOU8SUzRHGy-J6Z_VAWc8kxbUKnr6wQ91lC8w5T11Ilzw2rN1IDoAQdPHUwUZPGWi5r84VFzWqHn5YDUGtQ9POI5eSxiEjE-GPkD_beIctf2ucDJmc20",
+        "width": 4032
+      },
+      {
+        "height": 4344,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116535180509879238147\">Chandra Pivo</a>"
+        ],
+        "photo_reference": "AV-0GLcLXTkQfacQXw8qZgyKC6u2YkODaJkkLd9vXNSKoFylz8ExjA5vjQ_3jnK3ZNfbWPLjAqelkfzpqSxohCU53y8v2ZIFKJAlw30btJ-yCRB66TUiOqRQbFdOayD6vQxfd1PzNMX-LHxWoLja8zyRvCBiFu72sX_BKUl7WgxRU8ZnT8b3b8AGgARynRmqYPOiDDd_2YrzItbEdSUHDlmj9FUzy583Ob911zuME-o2YsOV4Ge13FMWZpfgF7Hf76xdTHXDcG7RJgb37AI5SZnr0FkJ8beKVx0kbK6au-Dg6LHX_V9H-oIACtJ0ZL6ROyGe8PVfUFR062OT_BuxB_AnOL_zXF3FR0tQ40U2ukfmjQrlkER1sd1m3Ekf40i9U8jwXGjER6sWNynE-6JgWVDyx8J7qzbq",
+        "width": 3257
+      },
+      {
+        "height": 4575,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116535180509879238147\">Chandra Pivo</a>"
+        ],
+        "photo_reference": "AV-0GLcWYI6r39ezTRcQPiEeEPIPu7IPcz69A98irhdrGwbaAnQi9VI2cqtlOTIbXR2hBffjJWi_UKWuS6QH-18uIbjyScbNXiJkvPCGudXS1FumnATsKIPtifMjlhoINy8yk28X2ldHyOWcYhyLY4DSciONsViEp44XUQ6Td94o0lUB5eJNSw4Nmz4w6e32PcoJSNp2bAch14lw2SnwOYk8qwI3xzAZgtZT2EHT42KYFBksSD_KhztcldB555hoKmBm52JbEdU59YkhfEIXsBE94tYyQIew4Sffxu6JXPdIOm39wtrNQuDabbbsiO9CUAB2LtqWUDZ6Ij6T1VNXjxs80uueoQ2TNt2DbjaF5WggWdtgogDJJHaypKDs0wp-UcmFgn2QhF8AyFRhxR_ijtvTEpQqJQ",
+        "width": 3432
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117657911795005054316\">Spice of Life</a>"
+        ],
+        "photo_reference": "AV-0GLd_v-uXx1va5k7dBKYg7QSfmsTt41kb097h87-26ye3L2ZnCmxJsM4SBWGXQIiANE31xjkI0rvFzhSHiVRfU9fOxDHisFgflW3aoBx8dxH8IjgIolTG73vzMNCGj9EKcYzh6QSVmRjcUU10nm_0NtHECFoA0X5irrXXEbf85-X6sNRBxYL3w7ypUYANL2HIJDl4KD5UEF1iSe0HJmkbfI60boTtvu1VbZKqpm53moA6HRqVA0glcCf1FoViKbgyivBOldSYdnVngp5YftL1NMl_PW22evvbvHO2e8n1TE2TK9_DXjrJ64Rxf86HqaE5cHn7JMxaMpS3yhV_DB1d2fCM_hotzxughdQEbSn5khp4mGJQOC2TBzH3SOL28OEdvo4W66niy1jszKhSwAU9sFC_37nP",
+        "width": 683
+      },
+      {
+        "height": 2943,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116535180509879238147\">Chandra Pivo</a>"
+        ],
+        "photo_reference": "AV-0GLe5uXARhjV5pCQ6TPPVq_dGgfJZyqFFaxtCmQMWJc9HI6PLCUJA78V8U2AuirQ2auGCQxWg5bM3__6iZRNSiEg31wEndRyXfiCJl7Hb1kV3QZzgSlkFIu2OiABKI_dzuI-rx5xvPCF771nqCF7vwAHA0EYTr8XaGAfqdzeSaSOrI2-UnVLGoTq5Mno8qBJBcxUg-fGgDTRbi1azSeOBeOJHZhRrcCAwVs4JGD5eyOdS5jnS5kNhyJexlcpS5IxSHuD96OcDT5jFW0q_UUgGcu2PDjKLeV9mqnbK-qeLk9RtFAZNN0asH_Vj5Su4PirukhqbNq-c8RAUdHAzpe9kHB9d1HP81L6YfBNGA4c4hQPrKZBv0g2UYnqydjkOEydG2mwNnmnBav_oVBMx_qq4IolNRQ",
+        "width": 3926
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114133240378987274165\">Dylan</a>"
+        ],
+        "photo_reference": "AV-0GLfJtY4dxb4icyvKfCePKjIbuO42Gld5NjCzgEDkSRNm61osfWOv6coLBAGb6k1nALkgmbXrXZhApG4w_Q-4i0l2rAngB5iaIx67f65BJ7nttSd4u_MsAsAHNz_4oQPpjSaUQc7viQl66Ql0RC5husPe42SX0Fs_tBBttTczpsHvnuEjIkHnMBbz9ADg1TnZDypLCKX8DPb0d0kP6_5Zmzr5Pxl2rSb9bw9xP5S23yuZw_2ltEIY_AKbLeJhrgUOU2DFKy9dD4D3AdKSYg7wYHkjvUwWXENpjgnpTGW8kWNVBDl0gpZrSCIdY4mUrwr-ByZtmQZnGNXEDVjjzw9tf7R7nywiAp71nqrQHO3_pi6H6hfMwOzX5AiZYiYRa8nIwA9g0r0nr-6hoDDLgrO7jnlxYOw",
+        "width": 3024
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117657911795005054316\">Spice of Life</a>"
+        ],
+        "photo_reference": "AV-0GLci30ML9geeqkpMIAh_b20Ir7vjS7KPccjpommrGmywOhl3cB9YW7sNGdvyNO270rnunFMXQDsijvTc-HToFBIpezEBY3bU-R6LyliqhybT8ARyOK2nZJtSmC8c7u4M44p_HDE6xV5eArgGdMSuju9aWS6lD-TPSj73tRTNk_T9C5hvh5lcvSbwayPL9L5WFc5cZlpsGekXoc8RjVXfjJMNt46jYealSn7pzD5Q-M2y4IrshvjUw473xD-6EMLSIi8sqGpmrD_ZK84owcvKyPDGyypfNrkQpRXSsk3y8WEGugpep6fTSd7yzw_sRPxhVsnMBvaB5VldWzln40oLXeYOEOwBL1Zzq1wvGeAhZojTxKkcAXBRpBr5xN3VyN37AJFHypo78WK2FKMha77mqjyn53g",
+        "width": 478
+      },
+      {
+        "height": 4520,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116535180509879238147\">Chandra Pivo</a>"
+        ],
+        "photo_reference": "AV-0GLdRwjkGjQ5SJiio9hjuaZE6_FBERV2NCS6elsBGbutqIqZAK8iirEe6Ps9Kh8VxdWbLM8nCDV_H4U3EXSqgZGCi_yKRr5E9AHrnOQmyRSqkYAx-qtXyXUPoSf1OKehAkID_7-j_BhtOZdAYzxX59LNIB7q410SH4imlDsVCXarji8qVtG_GmjIDbimshuGl14Qk0hhAlPO9dG1VNLRU6o-SZ7wGAxDUg1FGbysfFPAF-fYwE408TCogmCTdXWMBJnYG3s3g5-kYayxrwHvJCgH1hg1YBP-Oxj2WxVBImto6PqMyyQWDJzJhA8jcIvh5M6a2wS8bFHukGxcDWL4h8HtI_RmAiK5YghXEiPK3EmHYBrGFYGWEOWMhyBL-zXsdu1xUMKQHfjzuCgBcO17Uy8shTw",
+        "width": 3390
+      },
+      {
+        "height": 1020,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117657911795005054316\">Spice of Life</a>"
+        ],
+        "photo_reference": "AV-0GLfty86dB1jWXj4WOidgESwNFjZlJ9hWdRhcmKHe9lwYtXlxn8JM9PpdqeeOQ6iH7tfL7K_O0sn3oQ3Rts14dcKRS2rNXKrqR8U2uV7BNRMmncAI_hh5ylRS9io4lFGvE6YJ5g6CdXDzlCTTROCmXkEsIRbY3dr5B3LiIxKwE3xRTQiGrHQobZ29dT_oinIhMN3GTV6OF1xuPpXfgHKb_hmuM4QXFolniZodWB3jZetFq6ZU9fL6gRQN4EziAMb_DSWY_ywVKqjhIWtKIC-vLs4NfS_YmA-M-R1NxVdGmP3exOE97WUNyza39EowSxJCxlGzk7fSWTOg3m6woigG52HoK_rNB-xcev68-uJ03dQUvah1Qwp52Qi-lv8qwNtXh4akUIw8hgispkZaTbr125VDENXG7BM",
+        "width": 680
+      },
+      {
+        "height": 478,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117657911795005054316\">Spice of Life</a>"
+        ],
+        "photo_reference": "AV-0GLexGSC2-44wlq4BP0JdgVzkKYJwBY-915wBa0e6f4u0dnfPsgw5ZtutcK-bEFEhNIakCPnzjwxEaNutvWHRa3q_MgxPuysCr8It18A8THucHfSl03EkhPc-XoWlxKsLNk128tlS1WCUbiuZrMWovXaQR5JVYDo33-rcR7f7NX0TwhstpiMiPLPE8sWZZDP-_YaJBRHxdf3e8xsryMJyMZ7G5_-zwdAKsgrVJ6ElJ6y8-7GKkB2gIWOz7lPBNuFrIXIsY1LH3AaJv-f5hk3YV788XW3BnS5B2pbsrv2ymNodbqLqIBYNIQl6PSPazi02noqIx4mfG4QB0VUjzpcn8GEocqtK21rZtQli1HJGQudvTtkCkQfecwpZfEhSwqPymx7_3MBdmEjHtpGUwSxnH-yG1Yix0ys",
+        "width": 640
+      }
+    ],
     "place_id": "ChIJLanm9WfF7IARbbni5WiF2k4",
+    "types": [
+      "book_store",
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5682000565461236077",
+    "vicinity": "1306 Pine St, Paso Robles",
     "website": "http://www.pasospices.com/"
   }
 }
