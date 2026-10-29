@@ -1,40 +1,264 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:05:37Z",
+  "fetched_at": "2026-10-29T00:17:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Secrets Of The Garden",
   "place_id": "ChIJffOO_QLx7IARahmwtGB7GgE",
   "result": {
-    "formatted_address": "2050 Parker Street, San Luis Obispo, CA",
+    "address_components": [
+      {
+        "long_name": "2050",
+        "short_name": "2050",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Parker Street",
+        "short_name": "Parker St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo",
+        "short_name": "San Luis Obispo",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93401",
+        "short_name": "93401",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2050 Parker St, San Luis Obispo, CA 93401, USA",
     "formatted_phone_number": "(805) 544-4372",
     "geometry": {
       "location": {
         "lat": 35.2718234,
         "lng": -120.6687225
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.2731522302915,
+          "lng": -120.6675058197085
+        },
+        "southwest": {
+          "lat": 35.2704542697085,
+          "lng": -120.6702037802915
+        }
       }
     },
     "name": "Secrets Of The Garden",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:30 \u2013 17:00",
-        "Wednesday: 9:30 \u2013 17:00",
-        "Thursday: 9:30 \u2013 17:00",
-        "Friday: 9:30 \u2013 17:00",
-        "Saturday: 9:30 \u2013 17:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLdfsU1g3ekidPbEdR24OK94XeiokQHH2ukGS0VK7LoBEdIYXoIwY1JE2nhGnQykG-x9zA0YnYNLh0ZhH9b8nL9W_ts39qLRhUhTiFH3phTtrAtVZWizsSzatPc5a48iRinXrIhwOc6wFajO-7A_urAt2lpQTLzpYNOn3Y82VIoZkF-4toeiyyHw8ImQzAwfv-assXVYEOHDEJqFswBTZi6eD5utxJtwxrGWPgQAXMrf1OS89jM6N5mBijIZfhPenT5atpOqtg7Pq0rihzAWV-uW0kIEwW2dxeOu8D0NvVh829UwQU2777_PHTs283xySn4I7QIk8bk5_HW52adtgcsgYJMRnbf2eDQ8s_Fqg_RcNnSdsOKDU1sfxud0pDlQYBBAdXj9j0eiShMu_LWgX2HNVFLp-O8",
+        "width": 2016
+      },
+      {
+        "height": 1772,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLeGHnbv6zmv-aGtTmjJKk3N7LKoFyLDFLJ-2qXNh4LRRajXhi3Qul7QH6ySe106GZ5bpEK7Zm-Lk5CRyF7iLcpEgnycYosJRcsuQvOJ_rkEUyczbT40yETw0_2iMQlk2AtPGrrzCv3BCd6Cfrw7_sfrRFPKuZm55cJ_wucoDGCQ0E5NMP_KadLRxoUBOEp1hKoxoEaVGmYr4ViM0FJKFIA6qMQuBlo9so6t4TZ4Jtlk-0NxCp1s0oWML4Aobqd3FOh2KVDZ9w_Rilbv8aQSDyAGqAclOFgjHfcFmo0n1qW6evIGwNHwVZveAmLS2ObGTOUSeKXbYeU0qpvVQ1gm8SWp9RAVtwnE-_dpTVVh_IzwQaa3uQ4aLG1RQrIy32tHE3LxvhhddItqtVEUn7yrVDf8wvJN",
+        "width": 1772
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111284045093123960630\">Dean Meyer</a>"
+        ],
+        "photo_reference": "AV-0GLezuVJNjrR-mPnJ9us6hNEGR8okVy8jB-J1fn7JSul04IJTNhUk2s1Reu1IM59lTKdFUKcq5Zo6ffLOwuzHCRFtnIeS8EUeuadZn8-WtTjiHZ0G3Mn60o5iEsbFpKU9E_pn9_MOKuzx_qlB3qKSc7aITARr6mrWlitjq4SA4brYaC7nUdHaBv6nPHIR1dD_pmljrLOXojvMcWCngKWsdcIIpmxqCwPwFnLD0ObpEG2rNSc1bfNDO1WjozbPM13bUMbKWYZ0RXfKGwzGodCq9JFVPKvrmvRAgUmMOcddrG_VkiK06Sl8agbtpy52gBnoGG-hkdKrry9eCUj5iL1IuD5eTgo_jC7FU2NpZrt-G0QI9RafY4g8TRnBT3fFZcBo1jbV109o-7kh0Ak3r6v4DMQfO6rO",
+        "width": 3024
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLc3lrm0INECNQW9ohwFg4dzLJM2-am-D3eETTNlJ0tqvn_vzsPu87KtvCahk9zGwZ5OemTLToly5EZymmIAoF47FknudkDR41zQ7ebDBSlg5ObZtIbivW0f5BXZv09kR_e_GmL5On8RxtVmKLbDUIE3eSu_O4SH1rB4SlxGS7StkERbPuhCT3L8NczULkmWcYdKZ1mZuhghy_mIOZv6cg1mtdzF3OjOucei2ZXU0Vbm4BAChWW_buDSKgca5z-fD_D-p9kcwXujsusiVw58kzT-HU6f8Z3Bqb_vja29laube66d2uzyjesGQPGAC7JWc4UIlafBNNYafv6m3kXnm_KIJitUhv5zhp1y6JndKyO-BAmQ0fRVIPLfIpnNA_yKIYNPWI9puz158Eqh691ItuPGX2Q",
+        "width": 960
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLd3NKCO4283UkyIa4oxZpoEA6igFjSfT1IhOHs-t6QF_XxCpIOG6n9_MY8V7OzkoJloW59TKyBLUIJtaJJ1cM1gBAI4EamdsnyP1mFz4QnwqDfXUqu0I6JaHdUvvO1bBis3P8GlR0d4J1Z1Xoj1CbA6sJDl_cXXOHpC3xPHKm8APUei8N4eKnJbPkI9JnFFLO5t2FCc5LM-mvpEh4caw_NMPpIgegG6zZK5WuOcIfD_Fd_30Baic9I2q1flFZDA6fYP54vjqRjlZAIFCFyP8p6amOhjDZrBz3xzLeyx0s_Gc5CcuT5d3xVgzEXR0HKMNa1YRCMhxHyB7VRYvOk9WWdjM5bDDQvxHJSmPbMj8sm1HY-Mg4YQLJiAJnIFJR_G_vUQoNwi1pbrtGy-UKxxt0rySrRYthw",
+        "width": 2048
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107449571376615869062\">K L</a>"
+        ],
+        "photo_reference": "AV-0GLeTUf9jdIumRt5Q66P5CbVoY3_NJCXvSQLu5A_QsCR63nJ2kbQgDm6XAcBxa70c-GjEdDFdZNb5_3NvfXitFbrvCNDP2UeOKGDbngy85JR2uwkud9bScWX3ut2hafhKXw-Gt1OBS0QWpqqKD3Tr_dDUq4Btx8fVka6xBDTO6gk-BWKdzaHQ16UyHH77hnwKitYhHEW6i_Ozc_Xgmyb-C_1y8E-azcWqT5mSWula6oHDN90FuOkBbye1a0jaEXHCe4De_vL4cWmgA7lqwTDGoZ5OttFXSZABKxWPwbEzm0K_earpOYdWJJZB_f5SIgpwQKtOiqHVs4u8_Ds_C0RfMtyd9YFS1Cua02nxheUMiBBYPkY1pSurX-5NoaCxdDxlsRV1aG-a3CgusQTHvnA1UQgcOlBZqfFHVuiuRSXv4S_HTA",
+        "width": 4000
+      },
+      {
+        "height": 2447,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLeOISG9oZwefhxeBkLmLkF2x_UXZ2Yq4wX6ZQ6p0NisUpoS1mBPHMmMh1SJDYpUx6VNKQfWTDv_F-WQDLKCL1rrOpF5h7rDF8oAzMCZ9LTR539y4JAeGwqRoIrRS1KHNNWo2GE8td7S83Eie4vrZk4IHSKxuQYVWvCm1uc1ysMi6rvYUy0qkxn_wXYYnZ3vcq2O09cnnqzDoqlBT_cq63-9Ulbd4QYwpeZLfQKDAzVxc8xwlip6zK5zPLPrtWs_xOK6BZnBe57OH_If3xnjZoB3BvhqqIGLUzucirs7c7OOsU3SQL-MxH2K9Al8atXGpAMlJuMufh4fW9vQD4sea6VOyNh2nuCST6mHCNJLEuAqy548jZkCqnJjKGt6KwNWxWMA-KSraIvKgeHeUl7vd0B50dA",
+        "width": 2447
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLecPbEQSmMrsBFyHR-mwKWqrZP-q1p0Loj8P6xuUquV1f17emzYXmWesvd0xcSonT1LFN4F6uvizVJK1wXxByd82Dm_FmkIn_907OheMhs4vuc6kwl40qbr2B-bhgYIcitUSuoe7xzyQhYEMNRNUEVPRZP03I97Kj3mwV_osrmOhcMEmRKAZ3AnzverYRNaaCi49lZ3mjotZpmyIFVxN_XGg89W93dZJoSFFYAsFaD2a8SmviJSXDnvqfR5rNvV2aHtv_41Qthqg3x9F6tfIcwJFSvRI-DwZeHCwO_g__pumOm0mhx35URihuMVfrzlhPh6FMN5BubutBCRBQrtQO4wOnscuQoy1l0q-ZwVVL3fZOmohqcV8T1c1Mg9UaU4kieFq1B8R7lGi5SwLZ9v0aVgrME",
+        "width": 1536
+      },
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLeyq0x4FZbxj77yEsMHNo1UqMCshS90QZYSoOFaoy9TpabdZ_yyEZ5g4uNAjed9huGPiiUxEaXhgD1wcEgNc-eHyyzK9OAkFp0wGlMLwvNmLnb5cvyv_U0ibFYIO72TOK42utdPb1UhOca_smLqhTjuSylcQYJEmsVisKsgqqgvQBbCw3L09vM1OYZGlOlnZzDxJ_YapPDU3nIWLLANR7-_F8A8yDUERr0a2ocXQ4Yr4w6UVzYiQSM-JNVlZb0JdemWg7YJgNuNbWlcNe2zmkpaIaWfPGvnPTLm2baV0idNLhFzuDXp0h-HYN1_B061hTkZBTfs3xBfYvX6fpcLue2-hWr9VCVN5nU4SfZPFDuh9cvlEWPAr5Pw33nlx7MLrjo1AwlIu7VTXbLW1tSfEd1aXqs",
+        "width": 720
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106847864011514536414\">Secrets Of The Garden</a>"
+        ],
+        "photo_reference": "AV-0GLfr9eS8mWTn8YzzICL8KDtsDWdgB7zDc9SI2AqOj8j4uZytTUHI2QvO9DCQ9zwkfL3tcgklrSvt_3tVR96yNTYINRSpcHjzpI9es6kSz1FkOFDK1UOL_OeAghDDoprsRhA9RGBeXyQrnjkmKwHJAQfXEltxdMmHrLfrwoDULLh8iVwmYjXjtAO4mnHAXwn4-9F8UI91GBkB8_rukwl5CeRuM7-a8PpKzagUHR2t9YJ2O5UMfKRQ2yHk-CAyKkIwS9xBm46UkZDdxzlkM-162x9BNkjoV8Mu-J4le7Qto-2FNLLOd9cIFA-nBnpH1Yge5zh3o7mZwBfOyUwWXW5uG8Yf7drUqCdHVrTk39jyOW1ZQujo_yXuaEhi_1LUQCISmq-NADTAwUObrfq51YBYipqdRz8",
+        "width": 1789
+      }
+    ],
     "place_id": "ChIJffOO_QLx7IARahmwtGB7GgE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=79511598710921578",
+    "vicinity": "2050 Parker St, San Luis Obispo",
     "website": "https://www.organicherbshop.com/"
   }
 }
