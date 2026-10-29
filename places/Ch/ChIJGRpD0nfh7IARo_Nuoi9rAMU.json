@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:06Z",
+  "fetched_at": "2026-10-29T19:47:35Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Central Coast Music",
   "place_id": "ChIJGRpD0nfh7IARo_Nuoi9rAMU",
   "result": {
-    "formatted_address": "365 Morro Bay Boulevard, Morro Bay, CA",
+    "address_components": [
+      {
+        "long_name": "365",
+        "short_name": "365",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Morro Bay Boulevard",
+        "short_name": "Morro Bay Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Morro Bay",
+        "short_name": "Morro Bay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Luis Obispo County",
+        "short_name": "San Luis Obispo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93442",
+        "short_name": "93442",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "365 Morro Bay Blvd, Morro Bay, CA 93442, USA",
     "formatted_phone_number": "(805) 772-4930",
     "geometry": {
       "location": {
         "lat": 35.3660923,
         "lng": -120.8492612
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.36737068029149,
+          "lng": -120.8479105697085
+        },
+        "southwest": {
+          "lat": 35.36467271970849,
+          "lng": -120.8506085302915
+        }
       }
     },
     "name": "Central Coast Music",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 15:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110593201244106614981\">Tre Retter</a>"
+        ],
+        "photo_reference": "AV-0GLcpjgtgPADfuygCSmLi737DTIPS2uqlijfzdASFVKUzK9tpUhR13J3RLY0CqqBnjHjplBIA6AWbIl4hSRieDQeuVbP1RpUqCTnBLU_r0P10f5YQNSD37koeArV9XWbSJP0KfsgFk_9iZ04TcmZ3NKgPtGdYYt7NsQEhstkrbSoLWpfRp-TH8E9vxF81GiO5QCtoIOeVuij5zSc4FfYNXKu0wJaxNMGnedH5gvNeP6uvZ9XZkGkPWPKqspgnq_1lpB4-WqtILpYFc1RxI4keklcMmAsFSOVSRhpp68k7zU8O0loXPHrJ8teg0Xy-XtFzewzmGljQLRl0jD9VD-hrueKMqYBKJ3MmkMxpHOBg3OtcKe1Xb4vy0SirvWDCXaevpGtSItJRfanPG6BwJ2CYKW9YVe79",
+        "width": 4032
+      },
+      {
+        "height": 1530,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114287525479166492856\">Central Coast Music</a>"
+        ],
+        "photo_reference": "AV-0GLdTgkSGsQFoBoufcDP2SjZsAr7AeB4bszEO17g0k7xyFTvSzaf31Ldf74BMaaM0VFfDR6pJukfZBiw3WIoRs7vqpcTY2ftx-IVZ3LFjf98dHKuwE7qtb4xrZMLHfw-EeyREav4xcibmDZQWaUYej9px4_XLYQ-xCfi6M_uc0rclSm1HFrVcU9ahGtrqXA_ouu7SwFcEEOAQsIBmSxDuiAkPRKPeBjh6Sy4sUsnEr2qHmqrvNdKqaTRnvJ7GODw621GBjxVs4chPOqhlOSv5Dyoz0Jb-s7Lc19_apmrUKgBJHBzyI0GEEyts2Eo3i5yMTW36YP-BWLO3FL4t1J_6-tTNAkaDuDzVqMQ-3N5kJIzYGT7XNFL0f8deKuZnorPUv13kGsKuPBDY4Ubkd8gZ8XRVitI",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541021508898356854\">Roman Oviedo</a>"
+        ],
+        "photo_reference": "AV-0GLdFyeBhpeeW0dOXOBQeO9wm4n36ZDwJP4cKttE02FRjQWXPm5nztz4iwoqbLdpUlyszA7cYWocsasE7LNfigf22YNyZ_MvMilYpj66Hmf_zu-6Ne7yvcRo0pfy6Vmx7HEo-lWL8fvkURMQZVga3Gyw3EH_erACnvCHgTKYekaIiExNeM-_cJwRejF0NiFD5pViQ8pBa8acH_sfCOUnqbUsLmHFNaETu9kg8zfi6yxY3g3VJvZRSCScrfuKZx1YRkxVLBlTlEYI6wFiockzuzlWH97dV2vY3F5bbKbacKMyUMQpluGq01829XUWW5EgD8v738tdCuSBTd-s1B_JruAZyMaO4KZxzyxH581G05pUWmNarMadPW1YmJeu_yCEo4IoQxaiY6Rzf3dK8taD2AZtSsUs",
+        "width": 1960
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541021508898356854\">Roman Oviedo</a>"
+        ],
+        "photo_reference": "AV-0GLcSLKaJeu2YBcowivvG915W5flhv4VFnBQPErrlBk6KNWkIX4zxf7_1DySbmHaUua3HpZXt9H0u9Rh_heKAoyLPIjyUdb7GagfaO5LuT_0mKf926FmjXOd3SLdONv_jHb35YG7jiOaIMzOLmSxCdisgGVOqPT4TQimT9KHa_gMjKH7FLqfEbegU9Mvv47e1f1yeuVPkOCKx0FUA3f0LGWY7VaZOyTqUw78KF2435dDE41BaBjvtsYB6spr33YH_rkoEKKxufQ0whZsovuDmdi70RW9M6pAC57eBgh-xYjvxgNmBI7LFgjzJeZOftWjL4jJN5dovsSRNXgJBRz7tVmxUV-XuWGX-AdlpavIZy0OaRAFcW5lni6M0VF_Osx46TQmko_AH5H2XiHTNIHvUlbJFZb-O",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108632032144968861298\">Catherine Barellano</a>"
+        ],
+        "photo_reference": "AV-0GLcejiBH5Fr3c3d_i--3kHblQs2zR7VjWt9Xi9xH-xS_iVbxWXmDixHPiHsvVGOHRrecRJhWa9rfQ3dCR-FXHKMg-JkB7GQV3ZdfwJ6s-ndwtS79CQpe4vnCb5Pvtd93BXhQokHsoHeE2jU4TctEqG6zcPFkG0sb_wwaWQ7oCScdZLNE5C1c1HEPyu1fAyjQn5uDs5cPU7mwASB7AKRwxHRtsNkYOeADw0gg6rHhNYG4CSpZff16nUyfs8jAXlwdVfysBwpF5MidNVkGYWSTzNEzy1OgEsRwiDHMc9XVs3OcjXvOVBctqbznekJVWERyI7TE87hx0ijyFY6zVeGS2QxOHvxXf8DdiPO_muEAOlERKjUoOs7NlMxf8SVbfhwDIQlWRumsaR_3YtDQ4FeT9Fuv7LfomWL8jslUNuqbq_zwKQ",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108824310614810811382\">Ray Zelenski</a>"
+        ],
+        "photo_reference": "AV-0GLewZ1ZWXPVJtN3upaO6vktSbTMihcwOt0mnhH7oP6Ng6WAWjeXcOn4jHB6tlElEroMdPLfl0klOfKBBEIlEZEtbknQP6eIVNmVmulOJ3zI3bvjwf9g4x_PbLheWMyAst7bASOzY45P6gRwpG6GE99AU_6lc0VL1Whr1FiL2LNUXX_gM2iEYKgkYPytopUnXr2gR9qoB_No4jMqEGWECAUmfrIyo9jJb6hyR_hg1P8SDUjVo3XSI7Y_TvNiSNOAkScaAk2OIJ6Q0ud02M7Yc8xRpoLz6VxElTULjD2fVns7yLsLuVkwMj8A52K-OGpZ0_mP9uzvgPL2qgx2Xp4rvpzzwQN1ObEntzt5x1TqgNPY3YZMJ0r5mcAoO30OayFpDi4DCa159E8G7Spfynd1Zq3XYRke-NP0",
+        "width": 2268
+      },
+      {
+        "height": 3203,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111557884895470941076\">Paul Malarik Jr</a>"
+        ],
+        "photo_reference": "AV-0GLfgbehva5hXHc36aVHH9B-8cDRFDXp2wbDS5yD-7PCsfnX6GrkHuHW9Ril-AElL1uWSM3K_QO3oYZr5ZXaBAib9KwJyKaWLnFbFPQ78F0FMQRPo03sNxzpSYauR6tF_S9G4Lr9tlsdl3s_vFXY0EA3a3wkkk2SyovJIw0DAfPO9bNzcD01iTFcR4Yr-aEThCXRgyraaXBoQg5n2NUG4luB9JZjQlpznK5Gt7xo0SEEc-vFz_HF3HLVgmcFR7HBT2CkPRiNFVacH6g2zbSN3dQAcRoEzF88F9m8e0HnD9WB6HoIxf9KWGnzMGFaoJjZvJ-4hhfSz4UvMqJPzzcPmikNrr8izVCCFlYlaWIB0kDEope3-IlxB7MC8ClQaiZMSGTpH1dBlUOQqkgb3cl42ZiAIC9e5quQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541021508898356854\">Roman Oviedo</a>"
+        ],
+        "photo_reference": "AV-0GLfCseEwrFl2AMNEMuvsGCp__pWBgbezvefHknXYISGiOXEkgl1JI4x1eVOYKqzEoUiNl3VhGFiAfAzrBM5RVVjwSlgBKxP2V_-ymWdLxwEDpN3EMwPbrydmn7FqGUn5QGPwHTOLYmBz-1r_iIASM03lzt-jER8P_vubmvapd-4C_9FfVWZSIqW2-szwGEKSwBcA1hYwP1K9NtUmW7NcN5fLGKkPhzvmT4v-RJ8UMJvwgyZrPprFSdj1fP2YNvrvJXWcnFCAg_tedt4MtxWkf4s9yidJtZ61PzMWwWFKGaRYp5Mu0Mu2VVTbtoWlMVUCiN8U1PRTdhJKFUsl62ajp8b-Xb3kC5sz6fpBqUZBcA38-KWaGRk0rJ43ZsisBMUGuwXAHXrsWIhocflA0JWCQv4yW_s",
+        "width": 1960
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108632032144968861298\">Catherine Barellano</a>"
+        ],
+        "photo_reference": "AV-0GLca1ESG_RGXdMBAOlR5k6JENKtcsOX8CEWBw9VuGMiCl07tpLXpCeD4A-IfyM0zIWaN09Zbmjj29oqHpjM4ILjL_d9uj8FeBr2m4-4A-KY5WLMVw-5LSXWytjKTkMaZXRmPeoBH8sFprS1bySpT93jj6RjhvzA9ep_un2S9XFJzhPZ8uuCJi8febWsjA29_L38504NEkNeSn0reWq_t1tIPVzMNucFoPwUAT0ImxgEpqRI-KefNXBck5rWjHi3LC_4JtuD3O4KW8z_Fvzf5gSf2nqQPmatKQ3Jgz6zzp0OTFDX97A2VmVQHlPStq8yKn7BwU2pdKSlFhUu5nWgxULdhaI8_qH2a_PVIwGghex4_vcsUdXRpgf5Ev4Rng7Kzwqe5FQJJDbRmXkdPJSSqHDCwySUEzVsnrBAI4h8vpV8YVw",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988769653068432485\">Cheryl Marzec</a>"
+        ],
+        "photo_reference": "AV-0GLdieRtDCL8UE-8T-ZdK5e7mEtJnfJsYKH0qbl64MFgyvGTgAjADnaOP-PWdPe6FnjhOdox3-QFp6v9OH-KIYDlrkIBi_8ZP4a1S3wOa-mJBwGvrPxfNFjNhl4oeHaJHBqNmiC3Du4QKtC8KiB2IsTNKqmv9c2Uj-AZugW9Qrqsli_TxaWuCK637zLKLZi8B70ApZyU_KINQZi-4TlQC65o-odWD_vhWAQshNjOAnWc_-qBHT4Uu5mrfnRNKo9IHnA0L1vQJXl81YWE-BKMfd5PvdOO8lYIK2KSTpMjP_uSs9ovQKM1gw9pcqqio3_B34fUvjw85fG4hCa4zMow-YHc-YrfEgq_5gEYzza4GMOguHrkJhv1SJc6ixj-FfJZ27NHGikoj6vhcU_k6MyQ3oftdrmk",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJGRpD0nfh7IARo_Nuoi9rAMU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14195463877804618659",
+    "vicinity": "365 Morro Bay Blvd, Morro Bay",
     "website": "http://www.centralcoastmusic.com/"
   }
 }
