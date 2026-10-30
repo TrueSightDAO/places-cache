@@ -1,40 +1,251 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:55Z",
+  "fetched_at": "2026-10-30T13:25:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Mystictucson",
+  "name": "Mystic Cavern Metaphysical",
   "place_id": "ChIJ--JJyhdv1oYR6Qz4zoYX5jI",
   "result": {
-    "formatted_address": "6546 E 22nd St, Tucson, AZ 85711, United States, Tucson, AZ",
+    "address_components": [
+      {
+        "long_name": "6546",
+        "short_name": "6546",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East 22nd Street",
+        "short_name": "E 22nd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Terra Del Sol",
+        "short_name": "Terra Del Sol",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tucson",
+        "short_name": "Tucson",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pima County",
+        "short_name": "Pima County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Arizona",
+        "short_name": "AZ",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "85711",
+        "short_name": "85711",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6546 E 22nd St, Tucson, AZ 85711, USA",
     "formatted_phone_number": "(520) 405-6062",
     "geometry": {
       "location": {
         "lat": 32.2060967,
         "lng": -110.8521901
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.2074100802915,
+          "lng": -110.8508009697085
+        },
+        "southwest": {
+          "lat": 32.2047121197085,
+          "lng": -110.8534989302915
+        }
       }
     },
-    "name": "Mystictucson",
+    "name": "Mystic Cavern Metaphysical",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118084799505275628938\">Mystic Cavern Metaphysical</a>"
+        ],
+        "photo_reference": "AV-0GLfmbHzGgR6z1PzD3MrB1rYbzNH4qIQbAzHZCOBvtXayI1dAxtCigxlsVg1BBJsm9h1Te6LqSUESDZBeVlfCm_iR4Sasoqmiw5cmXIvAYn5iQ0INbu9iF82gOVY6Pc3YukSlciMJoPDioM_hVXzJLGp2isXpFaCiZXWtMiU7-lYQKJbxLLchM2i8oS82-L3C4n0bqzgyR6-ZfExIWmSwsuSMzBh6KeK82lc16UHCCBLQcF_ksdJCi9qTGPzERAhBDkvKGwGx7wsxCWkE9FH3JjmfHmCTNXtsoCzbE3oY7jiFD2LCPnoPl9j_G_2S12v7aoS7zmaModHswCIxQDi7JFs3XOcQxoGspHCvpWh9q4oOGwcaIsHm37vy13kc5MEgKm9M95DPPP_NXlD_LnYFeqxtwqSByag",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118084799505275628938\">Mystic Cavern Metaphysical</a>"
+        ],
+        "photo_reference": "AV-0GLd77UQwRqaCu08PEnDTE-xiuWvpS7rpSWrcrCqFS6MQxZItdme_qtkOGAwblCZM7TcqMF2UoQd4EfbZ--86dKcHNJ0Fdqr17b6I0d4d6TBj52qWGJaZ5-btmewnNxrgVwxVQLsnbzoPQnZ6vn-pYBM9MHKpFw2VZ53exMFclhaIJFsMCWgqw63ax-syBhSMMiGFT5s5A_Dwqn31vDoA9-Rqot9ARvEnPc7cD0vBcyXCmAbke9kAK3uPBxPTgXsGGE7MDyHOB8LMKwf7Ikaz-cvasBk0DHs0LIy9VBVn1yCoCO0s5amDXnN5-YEirNSF746CffU0U-k6s0Fkgl4-ZKKysp70pEfgVpG4D8B54muZ6bA7hLJz5nB05tNt0WjKtgaT3qMhqjmUeW-QJwVbX5A1_bQ",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLdJpYaNJfAHh9P_Rp-TFK4kydEuj_91fMyD3Sqy1pRyQ-jU3cnGTP6sPEWvRLm-aXmuFri_ARFjLd8T9ejpf0SMU6Ogdp2sz7DY29MZ8JwNcCARDsm3pZNzqPIiRGU4An_jKQE51aYbqEvcO3jb2oX8f-aRN53qTuWcSGvJqeIH_H5bP2g1Ljwhx8X3B9BmiRJ_5x6kZRTl5vdq0ra7OJTwdbM3a6-WRiXsugWmXpIKOai_jDFF2Vooi5K31TEFld-uJZkmnfnimaLVRrHdvhHJjzlNu1OXGDlZDpitjBOq52BrrFxKtUH-Pwjqq79F927_I-hiaU6E2rQO8OdQzGJ-WBrEGH68PPx4O8WexBcBnp_fyimXpn3skAcSwkwB40garoL5ojLM-_C9u8yZ_tgfzuc",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLfhacJUNhlpLncZ6X5cx8OwHObDflfdvkP_YOlFNIV-atsC1ITaGBRrsWXufD_uAWq2pWsP5lLJDUPJZoQrR2mbul9KQoR3awlUtlD5phMXx6yT92UExzNCpiqsqJWaelX4NFkLS_xonSinVXha_vSkcBIZ0iHZTt4UOv2Py0q15ia2PL-RsBCTHNng2pAlItKmf5P1BUiro-TO-_0GrPWkO9IaNf90a552nVFMwC_9M9uqSqu5BBcyQOzEPzzEfZvwWplHWFnSjv2nvLoxPCg5IY28xOsSZ9oLSdsAjg2eZokfGkPhjV-zwIn1VJZRD95oU_zW9naO3AwaXuYag_tn4P6r9odjUO_n0SXbIkQKlcnTyvQFOw2QCSgDM_eo7JBxzj7Xm-mc15Us9Ut1-6GLFw",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLehf-ar3vvvp2FMMe6Vj2flIIdS03OECKxmnexadTdOEbYv0NRejK7Ig32NmQtBwa8eSOWXUgUz1G3CE0Guze6hENKxZCbOPdIkR4eKD6RZVJKfoZ-8ny2gHbGjeC7feX8pTFMdG-tisJEo11woaQIXX2gANEycm9IaEB0k130OxNIMiXf77H97q1A1_SrseIQzFd8R5b-OczlAubAU9Byt7TKgiBX9mEOEai5aARRoMf6yOu-SV_CiFMklxgxcJe4KYvmRr7aaNQ7MIlf2KEHlLlMkDzkG9MyiTS4d8-W5lg6TRBLhTkc4k7uqhAyqykt1Of_3bcWr8V6MpBp_2WMQx1ILgZI1Nv897KlNeHcoIMbEYTs3Zp6bGnKhwL-MpeclPsBIyB_z7NGk3IGaAa4YbwEztvY",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118084799505275628938\">Mystic Cavern Metaphysical</a>"
+        ],
+        "photo_reference": "AV-0GLeAVznQqJmIdX37eojN3UKk_xmRVtixDduuBxraeCY0w4xxFap_x1byfAoqYk7kDKb2Mz8m4np8VH_WardcHRDEmXOjCDQWESmwBZB0xCmSgTBYsfcq-n_b1Ap_cMrhEsvANn84UfR1IzZGLtaCQ35_Dx3Fg5TaZGoAg6hqHzLZ_opMgb37I4wWUlmCam8M2w-dPEq0fyQb1m0BR4F6XuajYgrKNaUlE47Bt-r-dtw79VRM1Thv2LTq9R72qC7gdKbqW0vD4o1lSN3Q3wHVYvbFfAg55XbdyiTmnmjXJklgOkOrknZ0qeWmDqGInrMFlS27ik2ijV6zCM9SY1oSg0IECXUiUzmmK-yZpaO2UOwuN6aQjsTCp5YrkH6rQL1D_Jko2GP9Ma3wYOZu-DGId7dOKK4",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLfr6JLnC8Asu4FskJgq9p2xhMIGJqyipHWm0hURfTJmcsdzCJmsT___I7ZYjfs6knS5Ohf_JAC-P0D93Dq-a7cxirqzkzLhwch9vwYe2HgNCK40VJHREP3WGDVTRkWCNPh4Vs64WoOJgNQOw5yeGOoGM0nz8zPTildr-h_xG-_Ckt2ToCfGCdGfYZbwrwhlz6hs6-iY0tqFpN1_zfhTnzCPnKY2wG5Vqwpxc8MZceq6NrLBCNsRvfvnEvYcJG9xVrWL6CRZnU58jDhTfcEBVygbDyi-9g698tTc77XKThF7phsekba5R5nYHWmUFZTEe8hpESD41LnZbyre9XKG7nPBi1EboImuJ2d-p1PeMCDGP7bT2SfrrAGspIh5Sa7B7N-bgK0GCrrPi7oTSS3fI3XjxehvJYo",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118084799505275628938\">Mystic Cavern Metaphysical</a>"
+        ],
+        "photo_reference": "AV-0GLeOEev2dxL9k13fJwavmchU4e-4se_ioEU6SpYaq2CP_k7b_ZFXzY01yyCCw2SrutpTA2F1FR54BnO86BjzP5RtBUFNe2kkMXrup4jBWyr-UHKPFXBjDy7gOgH2ywAqll68jd4r4C9_-ghglSVPQYOZsvWWzdh5Mbl2ngyVmLgHzVZmUGH7GpO_AKQMRfon53jYRnIlQ165wBGpfsm5inkGeT-nYctPH40TBiF7cgDeL-Z3_zdNXOeOjRr4DaRo9DZBNISRLHNrMMgCAwC0NfPUf_PlZtrnq2vS4oc0jx6M74zzxYYeIbpWvrQtU6FK0-Lt2E8cnwjPAyPEEAPct8SYehfqbzubMImn9wbb_61JOewtmjfmoNILAOrr1qtOaZSE8ZLZd_zEClqt02gqVwevVO7IQXo",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLc2dP9U9Bp_Fy_BfDLm5l9Pq0L5lMwJ0Ac0dT5lp-mgWV1xGDbdzRL6xa87jZNMTJGa4pOEmZXUERkN709SGYBQRKF8ravfQyGPmPoxElXZUCIYZZpSJEbc9hua_OSHXo6_J0ceCqxDOEvUWtoOPrsWJXvIvQaRACvoX_1QfVatJxXYvwRzmbW5nPFKNkWaffKWmpFM2nrMdADhVugyxX0SzRGgNnbZm4rOpmJzHBCgOdkip42g4r2I6GuUPa5rwM7zBztOUDIWisvrXc_V3zxaAcynLR_22wj4RiTXAFZzVGpiPi1h1ah-dXLnP7qnwodTQU4gRULPLFYa698kpXqRzTD7_zNukNs05DBdHUWBwBRM3P25896VLrhmAqA_5RwidJXuCXr6dKAkr7iiEn3g1Q",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108327820517749827923\">Ari GB</a>"
+        ],
+        "photo_reference": "AV-0GLchxvBN0XwEFqU91HMc4Ktg_f5t1P8bjlAN_v4lsqrSA0ozuWmScBwa84yY5VnhXs3rHM6o1q-U6QHHSDpqxIbXenp8K_noG3tE3R8I7XYCbJaiwwRWSqLK4RvKMGNs_xsapsjhTUzLfZ95pdcyx_2sjrqFB6szHP1If_FVAAFRSani6f9H_DxN5aHDenZ2lsOT27_xBP42zqNExWtoHFGL2PkEPZJ6RbdEmj5fbXwmgh2u4OYc8I5e9_M-hupmNj0eI_hNIivAjwHxgJHjBnUtUHo1GzRFrGEDkqYCF4AIb-Dru4oKIT9M9yhHIbP59ArGOUGJ14xDHaEKmm8oR36njdVjVpCRyXUmrposslj4Tszb9a2Pq7G4Mq3VALMUKlWihijsAEJ_Zv6SwNv3xvUQEk8",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJ--JJyhdv1oYR6Qz4zoYX5jI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3667644814305266921",
+    "vicinity": "Tierra del Sol Plaza, 6546 E 22nd St, Tucson",
     "website": "https://www.mystictucson.com/"
   }
 }
