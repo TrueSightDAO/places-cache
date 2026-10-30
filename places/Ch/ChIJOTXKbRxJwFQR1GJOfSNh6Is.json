@@ -1,28 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:38Z",
+  "fetched_at": "2026-10-30T13:25:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "SOHA: Sanctuary of Healing Arts",
+  "name": "SOHA: Sanctuary of Healing Arts & Farm Stand",
   "place_id": "ChIJOTXKbRxJwFQR1GJOfSNh6Is",
   "result": {
-    "formatted_address": "23321 Alsea Highway, Philomath, OR",
+    "address_components": [
+      {
+        "long_name": "23321",
+        "short_name": "23321",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Alsea Highway",
+        "short_name": "Alsea Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Philomath",
+        "short_name": "Philomath",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Benton County",
+        "short_name": "Benton County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97370",
+        "short_name": "97370",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9575",
+        "short_name": "9575",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "23321 Alsea Hwy, Philomath, OR 97370, USA",
     "formatted_phone_number": "(707) 373-9966",
     "geometry": {
       "location": {
         "lat": 44.4973867,
         "lng": -123.4410701
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.4987256802915,
+          "lng": -123.4396792697085
+        },
+        "southwest": {
+          "lat": 44.4960277197085,
+          "lng": -123.4423772302915
+        }
       }
     },
-    "name": "SOHA: Sanctuary of Healing Arts",
+    "name": "SOHA: Sanctuary of Healing Arts & Farm Stand",
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLfUKlIo4LpX14y2k9dEjmhPNCMUAD8j_zrgOe2ZQgyu-MyG91xnyCnzZYJRuevFCFa00sVBDPLOn_mO2ACPihPbIbwPR11wM8ZU0h3RPsnSiayhFQ-rqbF7eBP8xw6GOBn2HbJGKUrtEg2SxemHlkz7uIra4UNmED3c8yX6K7GptvCTxiUrEFHQLCcW1lS-GGG2S5TmMcqydgk8Gegb99yiuMZvbFUz915lsgd_4SSSxzv_2ytzeobq2X_v7keN6E4KJdFR31ICHhv8977Is7ByBumtQv2v6uMlNQEoZb8nNv5lWskWSWp2ea6qYiLOA7xXP2vzL0qn82CwjdUozvqbYCVp0UGDDXBCi8UwIrL7xLtcKVKPFHgCXi_XK_1YgFz_cp04knKNnuLVfLiSprH75_vXk1ad3vYu-787f4JV",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLeJsvfyfGPj6I3pJpfG7rpZGqpY9voQ8E0N0usVBJmCTCkaEJNyoFhfdkA6xNzoTBngxhOrpbaJ9pDXyu5BZFcReJpebBJEdg6HzHQyY1TVKHDjaRhqgZ6MLRm0CoAHygcNJPItTheBCdGDOhgohubx9nM5LdgIBavtgCz32HOyAt5Xc6EM67t_LqUwT0e3FKlcZqLLgCjAotwSJudzqYio7FDxidqUgiUC259hCsWvthO0DScUB-gXiLJjhBsHANjSl2uOuZ8lRQRbmroturlUTTL4fwC5SVOrjIsuQPRCpsRTu3X-Sy9bHSwQmlOkg2UUEVESWLY4pnnJ3ivTGcDFZBf831Zsl9ccHjL3aPsM60ZpJbuxiUU1QnLkIfIwXVSpSvV9371V3RbOSi28OTFlDA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLf4wzHDqeYiZK4Bf6eTNyc4rULpd8b8ViIBKAbHCNqHaAc2-oMHmpeX42VqUffzHZ74LGs21CwgaFx1dX5uau0wR15ekjPpcV8IlcXYXVCmVZCw-zAFbXziCvzwyC4DrWpPy1bR2B8Q3vdiE6yqDF9NNN1oQ8ZEpMr7F5PiC8wmVR3vCzoBS2Q7_ASF_MNK0X4FMdYitH31bmYr7XhfwKRJ2DLgNcyuMnTZG_Am5fKmdutIj56Y5iHT3_2GNoYf1TSXASfGzJKqCyeZmPO5gzyH2NTqSkMKPSS7XAMlDhSLXli3DJmhy14spoa8ck_w5NnjEd1Idtmkncvwd7l0TTOr1_UYP-LlIJod9D-__nl3YAe2mBDOIy-TNQ1No7XCElOf_RCOYQchvsY0TFFMbxpj3Q",
+        "width": 4032
+      },
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117450215431937942668\">Nick Jameson</a>"
+        ],
+        "photo_reference": "AV-0GLd5zGe7m4fQa-VWC_b15WNbqsI8w0IM2EnK5whgUDusfGYz3JNY_SXWZr0Ll0kkCWs12bRg0SGS879ZgZh5-L4r9JCPO1bjmM3V7YNvOj_yasTPE2wSTHiKOmXb-_jxpiozSbr4KeD1UAd3V3UlFa_aydR510janJ0z3g_e3p2F--8SP_nwh46V4d0Fype9tL2qWu9y4AB7SJ_V3DCyvugZtYPpai0jSASLFMAwDAzm5X9QT5wi498XFSsIBHAclxgll3vbpHd-zKeHEKVfgq2eQbMcHYq1b9w9M568hF-Jkd3VTMSb03d1xNqvuRIyhLwYuOGxj9hKk5VlumTCdKU5vOFeHu5HBs2lElwrBVzwvVWeWv9s8DchowGMadmqIk5QjpfEXlYB8XO64ek_Gl-oeQmnzxcyXTVdvt7m0aEiOA",
+        "width": 4624
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLebcbo5ThSvC71tMh16G1oyzUXlUzMLs_BllJ_6vGYwGyQdd79VVXN_B6r0WnvBEMnGeziE8QoE85UPGuUxEyskseCASudM76f15Y0bHYcL_L_1t19-LA7oqlf3jz0w2WkBuAP-1EuksGf1ZNRc1fSnzeoMjwpGtCZ9NhOM5OpGyzH8QVDKCDmAyJtScXL__t6u4ioA6LabgU1VxWMPYQ-Xf91_McolmBuZQjEQ-32v-bEVPi1AOBRJsztzsRNOmuDvlKntqEgkMPFgycppEwVGpYgeH8Z9UDBlAkG4gBEIbcgmxSFzvvRZauv2f6nJDND_X-s2ID8BP3m386EjxUdjFmWhw4hekYh88QRizxu-E6dPn-F8ZukIsW8QNAmEibMtjcxwEesOv1Q21Ec5h6A_r0Q",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLenirgVH3yrm-3F7daxG0JwXE2vRC5x5EyTEXX5iMKSkX3Ubdt46MAsDvEQR71VYzPHLdOeRB7shIH1vuVj8XJMITITwILNWzswtZkb2YwuP8BADpg67Ho8_jsaZRSbk9ZCUiq8-c_pGsHQDnPaVobWIC-If5SBVF6ZP5_EBWzCQank-EiJhaRLPip3YIt9PVNaQ5pTpeSSvUO0x74eOcHnJqZknBA0kKfbb1Ma6Exn74veaO-CKAF68VjoxXuRH9FD_Am9nXOTPO96JPEtlKLriHP2SN72BC0_ms4rY44xMXIoGhIByF_is1_pPoS6qIltYgjMMJu3XcNHQqpqNuDEu4t_GWjnfgQ4UYUwoHNOzKyL1m2mtN9SffPwQ-J3SQ0QCxh0-1rjgjgIHmuhMH2eWA",
+        "width": 4032
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117450215431937942668\">Nick Jameson</a>"
+        ],
+        "photo_reference": "AV-0GLc5EE7bC_x-EbPkvIhqiZ7di9FOaVhJgx7Z3uxZOGL8ZkMNqYTXqGn-LfhRYz44Wq7NbFfdxMlS7TasxsAyaQOZ61-R9d2oadywZhRDCEWkvKEZ-qZIHtN33m3dfrHM8vgdUBkeCanlVzSqVzfd5QE3gSksTfCRzS8lqEFCK-hg24mfPSl0MqZ1e3RU_i5bqXPAsFV3Pyia68ALKaK19hQnmjnZxrturaBUGIMwNoeqVqTsaM8bc_6K-Rzip4g0_XwMtkBfE_lKDRUGseb8szwZcsbn4YMSh11Cuq_GZRByKyEQ3s7FBTno5XV3rjc5PZ0CkyKUi0i8lmH2xexg3M2LVsZPRfzL-UkxJWU6DJXmHDJ1uadjf6Fnwed803W2VDO7sDM01umpAui2aix_sYsvzhEprBgiZU7hwSBX04wjKw",
+        "width": 3472
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLc_KhxUEfdgPc3qNaJjQU8-9HA0iddZheFWd7B_ojl9zXfsHrF8XfIacqlv73i1qQ_pcVDTNLeMz6OEvNWvll7OPRSLx3x8txQ7f2F3AV6scG7Q_TVto92L1BbcyFJMeJdDuFEOjtrknqf5iWdMlDj7ZzV7WtTPFLAXj3p4P41diLIusTB4uqx594spNu3rn9HT1--5ndjvRd7VOTxmetrvGo_e1gEqidSd4Y7Em8jcH9DwROGU-S9eVj-saOV8cttrzNALZjAlXi8Fy5kJK63gB_j_Tfe4yrh0mJO6uNm1IzpH5KUV1NPxCE-RTjPPRkdHv05vbLIcSZVQMqQxZv4isk3EN_Yle-wm5FuCZlfr07VoClZzh_3Tc75IG1jEtt6eUTO1s9q0dodgmEmlJj0mdhEH",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLelwcNctJvoG97MURICXXb_Q7Py7cyl57DxCT7JZHhQMI1Hz3WJsRs7krHbTMpAxWhD4MIXpmQbQHDx-pn-4XuvBzWIDC-GTFmxkzqtn9PKw8GrJJNwBRQEN7hqTqQ7UwuV9-uYR5UEXzdc_P2fDnpMqrQ0dj67fg4H6cGtGPrCrWA4B-zkkRJegbvMqjhopIyRsM1qzihOvyrUz320ufkvr7A4tPKNYZTrGA3xi55MYT75yPH4yi14lm_nrmjJPXYZSG-sWyxDJ0dSHvxlzw032d57z-QnBv6oUAi9ybr4vlNyTj35P7qA1VW980b_jmEfK8p8SLjfZKhVH0uGrDudoCBhEoYbSg31Hzc-Na_EEGfSdIFUD6palvVtKEokhJXcf9tBGoi1yvdGl2j4gFHBxTxB",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117281730890036265121\">SOHA: Sanctuary of Healing Arts &amp; Farm Stand</a>"
+        ],
+        "photo_reference": "AV-0GLd1HuSoXZtgW2yXjR9A0cncbdaHTi_O6Iz1t33QWltqnZMEV1TICS42GoOdzvmq5Oh1HzcJYHps5-xOUfGRCScunBAoYZGjZni56AjMoADt8oviTzEvXCCnOflGSkeQdMSNmLqAY4DDygDYK0oYILIc4FMvo9eqDCBTKURrfydQNt5aggrHpQZhPnfyPCahyzppPBZ-5YoiEIs7aP7--Nn0GIDtPb1Byf3LMbSpGAwgBgCPasdT7JEdYWVrHsiEfN4hhn8Duq30RGzTkffFzCJGkBlaoCqCYwcTFl6YnRN1ASv_fV3hGyDwDdX6V2-xN1psm-QvuQXQt0ErZE3Ci-vNB_XgunihDxYSdDyyQsgBH53RJEcBat0Cfv77JGjfgWulkgt_u1FPRh3-40OlG4p7a2Y",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJOTXKbRxJwFQR1GJOfSNh6Is",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10081414570922894036",
+    "vicinity": "23321 Alsea Hwy, Philomath",
     "website": "http://www.soha.center/"
   }
 }
