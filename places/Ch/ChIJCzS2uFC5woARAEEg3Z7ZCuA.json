@@ -1,40 +1,243 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:34Z",
+  "fetched_at": "2026-10-30T13:25:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mojave Moon Apothecary",
   "place_id": "ChIJCzS2uFC5woARAEEg3Z7ZCuA",
   "result": {
-    "formatted_address": "5688 The Plaza, Twentynine Palms, CA",
+    "address_components": [
+      {
+        "long_name": "5688",
+        "short_name": "5688",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Plaza",
+        "short_name": "The Plaza",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Twentynine Palms",
+        "short_name": "Twentynine Palms",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Bernardino County",
+        "short_name": "San Bernardino County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92277",
+        "short_name": "92277",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5688 The Plaza, Twentynine Palms, CA 92277, USA",
     "formatted_phone_number": "(760) 401-8040",
     "geometry": {
       "location": {
-        "lat": 34.1504703,
+        "lat": 34.15047029999999,
         "lng": -116.055085
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.1517407802915,
+          "lng": -116.0536630197085
+        },
+        "southwest": {
+          "lat": 34.14904281970851,
+          "lng": -116.0563609802915
+        }
       }
     },
     "name": "Mojave Moon Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfEK8W9Jt6FgQEDkdXcCuV5-5Cl6WMvHXFJCUCADxee3_bx3OrwlvxqAGvUE_AHTAqVrDDQc3sV0KpBP4aRxiERlKuHQdlgw7h0qOpBsaB-LQzbrtCqbNxFx2gziJ71KRZS1Z-s8gmqOk2_ONr2W79knZ--XEfEza7QYvhJayIfV32oa3eA4WtYT8QOV3ZZz-W7Y6snPZLzbshwCYoPZCLcUZbyIkAAJpIH5n6lnISL0l6hlgjuM7bCTLInG6JTlVDWTEqbTQTLK-VNKT7fSd_29xG90nkVn8R8Mm_3HEzqN_IaUncfookYQkBMzmM9GEhr4Ta-T7tTFf_E1aa5VBOvLXIcBg3NCz69c1av6hEYCj-tsqMeuAtjbspNM0JZyopnAaURgR_RI6SgGaPDMIYiIvq0FHbbOlQ1yruMRSx8-A",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcFnLfMX9v2F6ncAlpn4my50lz1PkFlKlMxxiO966Y_AXAHeTY62RcYXONUqBYYUMz11YljCrJS3poONrwsNuruxSx-C3sgJecyz8rOxcxWfGuNZvnri96WyL8Nr13Iz5ZUhi0lkU_71281u-ovFEM3YBe4l9Hiw-KX8YeVNQfdv58Qzr3MOeI8yU_8mZR53Suh8pH7gS_gXr7grMMOBncxdklocRTHrhgqLR4r5-KVT6yzePWp5-tIcxxrkgXMQUoLCEJ-KeGnKI1pDLLLxplDpYoHD_8pZ6WrAmtno-xHq6EbRW8mkMyuPxuBTAvRvN1C_6a3Z5qaGOCSABCQyvdaZFKL8HjGemNoIyGWBTsZW0MThETXpsfVgHUOVmlDc0KdOFPSO-ET8IJ1I-SG18pZoGvIbWp2OfRruR_n02XF",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfmoXpQeKkjZxfw4l_e5J1zNitiHTR9tHjF-FZMyLL0A93Axv6wZ80oFoi5To2R1yxYed0EEV9JALA3TjY9_3rho5N9aFBa51Cw4mW8o890sKU2poaIugpWUpoRsSVVIFg_C75Wf0_tHzSj1VoFIWevtsGw7w4dSR3lHIFVG5tAbJiYMUxcvNP8yrmKyqKxio25TKa45xK-wF0at8ELerb0N1Hk8MoJOh7yOlJVw2CvCRhRuaj_eIb_m4rND_r48enyz36kQx_uHfFKgCGd6krjSkIyRFgXojl6bfdfvRUUNzexDsa0DUSgU1rIsd61cBQcV86E4s_u141uCtMS1piAQJZPfdyyOpEnfV52UIPAG6t5j_Qcj10qy7tgC6WzQgtGcioBbEzIJt5qfnwlnU6JNMK2yrZYXcYyn6ImD1yhHA",
+        "width": 3024
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcrzkzJ0FqcS5V2nq8tcIcA5fUcXA8H5aHyYgLDVgD_rt1XCf942pyTfItSArXe3eFD6dhyABbeaJX9Yi44oqYLvoxgMNQYEGO3iejWnXN4UsQtd-X_jkF_O2AYOQf5wRkd0IV_kNnZ1bBwY_lFqAw8X3kJjXOZj2cNknOA346Z6Qoh4WI1WRqviSl0TzrgfzNC2OMy8SjeMKXhuw5T4p-3dFtzibjuJ1x6BhT2iGOf0eY0lIglxxZegVU53c0NflXMKNrvx_hcpZDnFzztp-eIi8QQwF1XKAKf6OtzkQnl6ilwHYTlmOrf-v5bTXjI1b9uLCzw8kC5_T29HSpxQK1K7jTBvUYbVb9DZz2xQPHklLTgGR3UL6B7c_Mxzs5eRj84UZmLY4ZH8308xtQYWmi6F_Gepb4RcT-S6FyCyC60nQ",
+        "width": 1440
+      },
+      {
+        "height": 3580,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdxz2BY6GtIw2Dh6A_22pus9Z8TkRbsRuU0ETQJuabdaNbaKGnXjaOI-pAonjPKsAGodv8D73HUYFK1Y5dmhcxpXyphN-YLlo13yrMBNYgxzif1n6REP78aQqTqaYepHHC5vEJJ97ctQVFPf5Vv3CGzLvyE-r9v_u5AboHonnBUImAXI_F3ofqhR5rxX_Oe7FnX5L5W0b-WfcE8gwA2BsxxHY-Qq2oTCarDV-piNe6OgUnP9QhVqxJmJjrUBcIrF1bpaPNYnCkfne2QjgfEG_V3VxoO283OskWvDzAkJiZMbFjAUo_cRPbIkLigJRxhhLUiCKH6jSipa6q-bF445IYdgM00j_v50q2aWBVGSgK6m6YSKQ7f5rs87qEYYHNh5atkohhPqQfQtA7xF9tzkiEX4vlT",
+        "width": 2267
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe7nbhZh59H6F88tw-9iTw61k-lqR8-Db-uXX7JRnEWaGipgd9XBi9SJXS-N4RNiPnK-cZNX2mltfFFQ7tAZziGurKCJW3lwjwUtQb1OjsejCF4p9TF833E6G_nBSDacmqxfeLeK3o7JKEZsSes8z5fYA34piK9v-ZIswaa_YkWdu2_E37_JVRjxtJqSNUd_tGjKg5tKnlGO7HQZhpLymK5QnmWRE13hRiqISrqKj-xzLN1HTemva7Jzm8Dzau0th-mekCnyQtRgK_L_HloFz-o0Y2828inYiIdyxul_bgcmNsG7-SdILFJ7Vc-Wjmq6horD4BogkGZTNKBGrhabDFCB46tw8hag1rXz1rSGOyAkIEH9DGIS46dH9IT5DJ8R_IR2VhiX0kzG7ucZz5QPVHiptQ",
+        "width": 1440
+      },
+      {
+        "height": 1056,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfG-_wCSj35vHAZibFl7aA4YfGI-BF5zN_0SksH96AukRbtgUDUOVA9qpGzR4DtviOIzpFMXCoPmPLlp08X7VTtV6Rme7hxKyBNTbD1nP-c3S-6XqAwoE5fhk2PZ4n4CTsgZJnaAdY-urgEcDEFqmhavP7_dIuRrbaFYDr7SEwH7kKbUswNWmQPD_JzorPK6Wdi6zz-evNEq3ZElEcnH5l0W64YMFsvO41CoPKKaTBbYuBvkjxwnttXOVXSTWEDBSQa0vpNQCzoKlFjvz3KKINBhZtDE3DWvekZvhdbA3qRhgMR73zWNpxHU7B_6QD6YdrpFp4IteYmt8grBXtxwCIpOtQx1o5TdqYW0z-I4rDMW94sdxL2b69BVn0BRDskAByCOpjajq4FG_JPCJ5K8YuPdg",
+        "width": 846
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeq7PPuE8P2A-BWd9g8nz49NifhCZgCeJf5DT25X-TjvodQH64VfXOGeh974tyuafW8zCyMzz_X8B6HzVhXQxFQMYkufbIaAEydHv4232eNfuWOr2hJos8v2L-hQGCWvZ946MjngidnzVN6PBmIvWOSrp1rGumrsFDFIiI2xnP1r5E9ilsEdOzo1lulAjgGMF4__GwrmhgxtYGNflYzzvtA-ABKfqCVS6QDvioQj7CO9aXq8r7Cw2LT_lVxLYI3Bxl2JTleoNe6bWcIo1Pm7QvEwEiGo8QP_etTDjulxM00NB9psnD0p6jcQw4zmUrp2L8rO9gR8xoPcJcp4lw03br5hVezsQYN8qMCmIOH9H1uYikgyvnsqPt2Us21kNDso2NrBM2uP9hU4LQ23-URUk_D4Q",
+        "width": 1152
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLegY6xacu3bFOQ6uZov7hj-7zps2Szs8romwIKjLS7DF0VN6OBZq2I7qc9UsOEZyQrfWYAEv1QziuD5l67CcEZfCUgxRdCzWu9MAGChtB6U637Q_HQhpXS-HNsCBrzFsC3Tqs5vc_UyaUd-FwZw04aQOxJdadjZBILQAb1ge0EGLqvBblGjtXPUH_k9hrV1dj8ZMUjg4c-WU1IUjFFYi7DAY3kuqhXJQ3E2TlthRbHPgsqJDmz2KdHIDRvd4FcTD4fN-Skx0rhdDZl3ZYuLffpnYk257vt8IUVLNs5QcpeCLy3ASrdvGCLYKI9Po9SMNxjgOTT1jD3Iwh4RRRIyLa8aW7dmimDwvEXXmriutFyvo5ia6PYdGb-1cgbri3xfydSVfDYUh1te6dq5I-A334LiIA",
+        "width": 1440
+      },
+      {
+        "height": 3835,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117637660982328976959\">Mojave Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdqMuTNPQ11SQEqbjOJ8W0Gm2ot6O-OiCwqVDskP97jFRSupPUkWN5e1wH7kMmb_WiPs3IKhXs3E4gbj03SELIRhAEhExXK034WTqUJvuVaH-Ub5mPM45zo8cZH5in35oXYvq6J2WhRZkoNdIgYawWTgzUIpcQwQb3pXPf9fw51oxmitgAC4nD_DdH968F9KqIeO8GT1syf0OvUqwkz-bhNj1AdUE1TF3Ccpm8RFp2y1t95PoaUKKsz_Ha1-RAoPMpe0pNB8xhXcpil3PcumjDYFNCdO2ctUThnXcBfX7AOlO1dK5r3nrkyPhDeK2gjlZuqXRj85N8kSQSyLL1EGxC-JjB7U7W9PFZEyFEwsfHyyUsB1jCjql6xFhPALWLmxOCg_BDUcwBwP2SRoFnzw7fpB4UDRW4Ek4o0_EcoKRXpdw",
+        "width": 2740
+      }
+    ],
     "place_id": "ChIJCzS2uFC5woARAEEg3Z7ZCuA",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16143955090600902912",
+    "vicinity": "5688 The Plaza, Twentynine Palms",
     "website": "http://www.mojavemoon.net/"
   }
 }
