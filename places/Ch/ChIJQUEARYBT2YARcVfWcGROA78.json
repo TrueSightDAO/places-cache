@@ -1,40 +1,204 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:28Z",
+  "fetched_at": "2026-10-30T13:25:11Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "NG Apothecary Herb Shop",
   "place_id": "ChIJQUEARYBT2YARcVfWcGROA78",
   "result": {
-    "formatted_address": "2205 Logan Avenue, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "2205",
+        "short_name": "2205",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Logan Avenue",
+        "short_name": "Logan Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Barrio Logan",
+        "short_name": "Barrio Logan",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92113",
+        "short_name": "92113",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2203",
+        "short_name": "2203",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "2205 Logan Ave, San Diego, CA 92113, USA",
     "formatted_phone_number": "(619) 624-1550",
     "geometry": {
       "location": {
         "lat": 32.6977694,
         "lng": -117.1392944
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.6991925802915,
+          "lng": -117.1378756197085
+        },
+        "southwest": {
+          "lat": 32.6964946197085,
+          "lng": -117.1405735802915
+        }
       }
     },
     "name": "NG Apothecary Herb Shop",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 14:00 \u2013 18:00",
-        "Thursday: Closed",
-        "Friday: 14:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 16:00",
-        "Sunday: 12:00 \u2013 17:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdoXLO08DPj1R8dZHnU96iE-JsmH1J3t8nM9c6dthuKHBPei0ZBqRGCViH0lX6jv6Id77ytLPof32wcvU2BA_cOr9NcfzdYHFGLvJAU_EYCI4yqBVJuyZInyd3tfBrluVwWLcfwNazEVgaq-3KujGwO59kliG9tMNZpyJEPiCXdfTI-QYQqoOTRpb8c46jRJe8DVnLcEIcY8Pt6b_3qvtJhbIVzKuSL1fDPxX7rKUZ24nZB4rJ7KLfVLKBGYWMcobeS32lfw6Kq808hpRiGhwIdblH9RvShfsQBgdNeum3UbYAduaGZKIV6hjHS9rN_KQe6LNCAsHz3sXgpnqpV3M6YYnsSSypOnMuLposISGKkrsaP8PWdYo-yHY9gwoY7mWMh2oZAWVMHqlMXfIrJK42Otg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLd4JnXB5ow6NTrYVVU0Q9kjtlQcDLk1BRrzSvLrxdR5xymDoQNNshewGCpEqL8Yn0tIxZ4ig71pz2kmt3Mi8jXSr7_129vgVEB2_AoY2XAVTrIkQh4_vyeK79H5J_zSfvRlIqhfrVTslY5W8Y_TqLpBuMe5Q-yPAuQuPe24qdRmEGwy6VgHznINeErOn1Z-15MNeKmM0m12-ZIhPDgBKYVaPrR8yAAbXsJNUxYB99AlnQ1zY9Nwjhw7KMahBm0hSvwGsgUz1EX_6Q8biD1-QyN5y9E1fsQEEDNmvYRAm7g2egQofGNv5ZI1pqPpQinwQXzeV4uoncIg3XLjskpf9QpE56Z71ylLMf_81Pr9Dh3EN57uvplY3BgWe96XJeHkwWBAVTJwFJRPN_xc2uD6nXP7vfpiBwuULuc2sQ1W9Hp7",
+        "width": 4032
+      },
+      {
+        "height": 2851,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLcaHNtsRvs9hokS1QwE-XTdda8AbqmhK8sx7R0-WiAQpljyZXe2AWgXbNQhl79vzTRJLWACAkTFUB5qWFEBuGwlDvcHYp_thvnvt0GQRYqPiJw9UNBEop-aqt0YqIv6vm3vnvPzm_2K7Vw1F3t060P9k6nlIHwCPXo2troxUW2_BCDoBsq9nC4WrL-HaHcVHevf1o2aVs6eVOYDavdd8kMhVYxXzmcu5pbQVyjtKKX6ZTOVEKlTslIZUmH7q5YhSQQb64iCqWfu_o89AL8uuZB9K4MvA4Eq6ZzXn_8WeuAyST7sMEtLuw62CfkJchMyIWn6iXRYfuHg_8l4t8C0XgmLTBPofO1FKyYMsaIWj0z9gBDWAm2tG5m4lY3XHPAfJdlErULo51HQiolsqjPxrvaEhm8",
+        "width": 4800
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfyP4KGlXlIF10LXnavJ5eDnO2jCdiZM32tCHBu7LTTB_WDoUmV2xf-ZUeUPYAroq6wuokgKN29PCVOAnSp51BK869mBTFG0zsqBYg_Ia1cUSCJT4t6IdbaYUNMwI4Mpp5lpskdLVAPu9zxa90PoL5v4jUFgGwS73MK8E__VxpAOlsRK_thBudMaow6bMn_RE980OMocTGuFhqbH3b4wf-zKYklIgeA3NAREkIO3JhKM_0aBS9dI4B82VBUWVucWhybfa2nRPKXXsQ3OSEavgl-f3MFtukeqzUvYzuYIQQrD_pT0iCE1BocU5Q8A3b7sOaLxLnajmQQUX4Yn9EGFY6d49NFpVrEQAUNkTJCIw0GLp8hSft6u51FygitZh3OovTEhwekktgUYtEuDqEwohFjKecKgaY",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfeYA3jE7z9Ulkz7P4WCaDWPWUKV47lA9MC1zJI_Rcd6Tk3YM5-U4g0MFqzkDDOOt-LucIcGquKQ6JW5VvbWQmnV6vPQpnatzAX_GmaB5IeDE7xSQ1jPn_WhhbbWN32Eqo8J6ahFF6E_V9gGx1MKJnrrI1yJCazyPAxKTgFHrZl_cwiL3wQdS5UzeKQJkS6d5v1_g0lm8tUcJSWbRJp2o1AenLXlpkhNKeqVH52j1s-TZHojshiVPkAzXIw5yJVApV6zprxyIVyE51uwUwyVw-cXUQTKOVlqUgXzH6c1JY9l1Jlo1NfYp2pIssaRJeZdBzObOK7CkyJ7YB2LWzA932YisnZ3Zc2axz0urPqEwjcz4AHuJ7USopg6pF_jnBqRRVdRFh_E5SQ3tsacHKla0OGtBNd8Xg",
+        "width": 3024
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLcLXEOR6B60tVaLrQpnZovCYXFStO4xXVgpH1-W0Le1YuyYP3uBA2HNTO1W12KeiTj9UccHGZDGBele2QAnJxIKIJJ8sIXbKVfz95xSomg0ldxxjIe77iNj0ksyFB0K8Kh7J4I0ZwCW138VCeTneGvApcPS0GmWBurPXOAd32gcgcuifBAWcWE5Y2j9F75_Dt3p0gFHLw92jxBQ3lknecQOKAnYG7dXbW6UHxEq5kj-4cbSKwhumJ4U7z_4h2UAY9f2lL2uWG6EvQlY6PMmeyC_MWYxBgN1OMM1MUXXjXmIb5b1Vb_PBNf0KCnpArXn5GtPOgd3NMxekpdEtJ2Ct88XzlXg_TsqQwncuzw_dZVBGudkFUbtTBY6OzERAb6Gwi276VVJXjt1OG01ycci0X_ts5s",
+        "width": 1080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLd-N35T0_3FPISOoHfo-whIYAt7ZWt4_kqgGWOE-OaRmJ5EP5RyA-6oyNrqZuEJkRy-ToNdbmebUno1H4oRRA7pBREXAHC4sT37EPSl5oj_ceRITv9LxGWd9i3Y3UVmI0j2nJWJoLVJ2TLLkzVkjUxr97OBw7iyh6bgeR-gldvPdMpSPYm8lF6I54QfUElUtQV_3R8Pflqt4Fu9CWi6GizcmXHQFAQyI7qQYaNLkLs0gzBw8iQTP4VIANWVqEI8kdfLoV0coKxiddJKONcX9nJOlREiNY5x-YrJspZ1k4iWrMkavrR8UDK_pXiCxPshCzByKUYSbnG38tLQLDmcoqLSpchrhZh78OOaAbgrwfdwQiVypAet4obzy305W2-VXDOVd0jhASel8lF2TagjdbgQp-8",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105719104985563923753\">Diana Barbiani</a>"
+        ],
+        "photo_reference": "AV-0GLeb4nx0_yZqLExct3flRgRWBWSImaKRbz2ZUJai-19N5ZXbgW_tevCc8CzEEmaD2xWLE_vNo4wtFH5YVvZcAgh2D5sMEPhn2w_Iu30zfrOF96gBRwMNCtK009UPwX9hb3wBfJsLopUtjJuZmfXdvRcuUXywKXTzpFV-ovVGJOghy21624-ibEk35EDmHlQwA2iALKPXYH1jpv8mD9NQsbZoZGVTibYU9i2UV60coL6IuTx74cEjI4Hdg8gB_vc4Z3BwVmCBMGMBW_671-U2uFL5oSsXjEJlcdx5Hwfpgm5iPciufVRN9w4b1vnSwxnrKjZrtNw1jpLv0SjMUowVpOVAXdP6RxWyGAOv2i6HKQIOFE_y9tHlER50wanUtJFYDxH3QBOwi9liAQ0_U4WvgTCITlgIavPyPJO0f4l92qO5",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLewQVV91S_xTefwdp_Hpk1IdwJwC5ofjseN1MyjjnYpmDBNWL8NPUdx83yGWAyEd_Z40o6IPllnp7ECpXxPtM9svO4EQ8TgaNsl1i_9ZZuX4vZ_cSZbeb_E5P6snIOduh2at07RQsF8OLG2420qwQ2eeK0C4srHSY5wg9YuWKaC-3zuN1PliZV8IrXHMzMp9OUEP_U6xsTmPFLFMFuUl21ZuafEoDdugTHunKQWK5vl_qKr1MY0Upi66HKSmQbw7-SW4OOWnz-x6W-mtMHLtdF5qBtY3TAnEC4A8EZMoG_JzKsTC0CX54WHDkEPba36_8khNOFVgDM6xkAo9S9v-OnUrJpOmLrq62W4AUe7NB-bc3C-qcaOQD2UjGjqM-g2YVVXEniDW8ep9jmpcM9WMX6o6Sg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102309087235231425914\">NG Apothecary Herb Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfoUAz6sBzMztV2PEZd5xNAFC4nLJ6hUarJN_AM-tXJ74FsXW3xOHcD2poe1gVd6TsfGnwqvm4QZSSzSIIwDp0Kswmch8cGf7ZTrNFL6L-d0toxDsDqH-RnE-VaTMOvIFeoAepWSj-AIwWH4ZvDBztT9CEiQSniKthxqaYVqz9hs6LRRNILfbRZbhZFCpEm-oGKdBYg8ilegB42Oa2Xah-Xl23VSppuSfMgih4wlpAoQ__Ojf4LQyPxfCCQMHeQfcmSKvfyYlz4MQrUFQxAGQJ2QaylhVb5zrcvHdHE4wCLI3T4QUy5byw3psR3TlOgudUUsbCOjg6WbEy0HADesXaK_TO-De6kXrg7lgesoe_ypqoJCTsbx0uou9h-9Zucq2o0NZGK0qYQotrzcByASn94n4QJ0Vk",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJQUEARYBT2YARcVfWcGROA78",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13763931079471159153",
+    "vicinity": "2205 Logan Ave, San Diego",
     "website": "http://ngapothecary.com/"
   }
 }
