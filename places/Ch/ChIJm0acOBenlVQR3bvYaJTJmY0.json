@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:02Z",
+  "fetched_at": "2026-10-30T13:25:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Seagrape Apothecary",
   "place_id": "ChIJm0acOBenlVQR3bvYaJTJmY0",
   "result": {
-    "formatted_address": "2823 NE Sandy Blvd, Portland, OR 97232, United States, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "2823",
+        "short_name": "2823",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Sandy Boulevard",
+        "short_name": "NE Sandy Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kerns",
+        "short_name": "Kerns",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97232",
+        "short_name": "97232",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2823 NE Sandy Blvd, Portland, OR 97232, USA",
     "formatted_phone_number": "(503) 374-6801",
     "geometry": {
       "location": {
         "lat": 45.5294528,
         "lng": -122.6367947
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5307259302915,
+          "lng": -122.6354990197085
+        },
+        "southwest": {
+          "lat": 45.5280279697085,
+          "lng": -122.6381969802915
+        }
       }
     },
     "name": "Seagrape Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfjfoLgopBiuagY1WZOwPX9silb15x52UFE-mFS7NrUHRkVInMxxIrMbrucNthAppWoOr9XHTJNksgRLlkgm9Tt9Ly5wM8higFkbgf7ukSAt8y6803rqbli2lQqUWdNMpNdlBK7LYuZGCFljM3WWkich8LSfdO3UB3nUTeC1aRCBDAFLu7pMXvVvWhapNHjHm5NVqZs4M0vbWPyiQYffHf3bZJSqo3ZfFo38HuPsbZqXGgduwx7z0xLMtL6rHleKToE-3WABCAGdRU0z91buTeJ1TTcZJ6GJU9_HOnMhdU5PSQmydYlsxpM4Ey1V3oeF5cmL4AeW7zS77K7tfQO78GjeVb39ob_ObGfGIsCCRE4pA5KEVt2Ju74k0v7T7I2hPzlqDA1uzPmLgiGam1n9UuBrug",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcC8KfImHq6mMBbfUXuLZuBOl8RMrhfX5mkk04sh7FMI-O5rhjmcm1pSTJmEfWR3VHoj1i68FrqPrTuh_j_8HxNhhRg_Pdpg5FzxNPzi_-yWLijeRO9tvEjXQ74ixnWs-uANW3KIgTsLtn0-9QWe1WyHl-hhph1FGpa-NXwkxI8r7bas2tP2NiUBYbciEgpNTmnlepV9whIY_rp8dUObu9CGsnVYYx9ryhfD1Mbw28Z8vGio6MGEJuk4Zy12AZXlJWd-UOCYxbQ1Gqd3VJUWF7IITi-sHQnpkJFczepKgHj2aXdXvMT4H7D1F7JCQMoUHwjsqjQwTToF5eGsk3WpLvH5LYuUQcMYFAGgU4Xe70XsCy4h_TGkycIciQZcjiDCcjlxyZeUf2FDEVIVlZbbMuWlK0Orcb3hMjVn75TgsH7tw",
+        "width": 3024
+      },
+      {
+        "height": 1772,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLflkRc0Yx7LX4yVK8-NL97hmr8eUObgm4T4EujNn25ctzlm7khC2FmTO7_9OEpXwLJricW7QMm9bsaPVmr9E8YeMvrlBBV_8nclcqw04kA-BDVWcv9_-OXShVahcYG0KKak3dmNmYV9oUWsbk2CwXlzs3OgDDQKgl8ubEHX9KW0NC_HKgHc_wuo5ArVpKiyQF2neXlk8m1qrZZUoLLBle4wj2CDqHxCGyGHA0Bdh04IcnQNwGOoGrMMqYCAvNtXsWx0qEYFHK3FMw8gllhkgtB-89-uVVDy1TCO-5GWfY9TDuuIEDQkGFj4wS3EmvrHAuYpsapvawdPeNAc11wnKeZ2kgxrjJC6gETLHAL3HN66Qv4UiqhJX71D47wrmMbHHCp8NDlDpxKrlSFyFRUljg9l7Wk",
+        "width": 1772
+      },
+      {
+        "height": 1772,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfcMq-4NwC3gj-XjsAzlb_FPE1TMx_ce9sEbaipK9Hyy-rz8OGHFMfBs_-f0MyhnP61LO1FtZX5etxL030usfcmnN_2WmIFSDVLl4yEp-4DzTBZZP2WLGyE2nTL9E_05PgvGuIvrc1xRaT4OSalu3JHEssQGR8KOGhnKjE-46Iq4V28w2Hy7qKi5pe8Xw5QqgpDTnh8j6uX9fGNqitPekeKpI1PzkdOsDm6CWzIhijs0gxlNixG-ILFzdJoy7HgYbdugGsNRRsDR1wLqmYoogk394BCy9lK4xSLYXEhsfi6BKDvGhCtAfeMdihvzH0obMw5ySsWhObppxCFlgZPUZmFdOo3-VCuuUaBMmU-wzsQzblMK0a3y7Kdjm1SbkjfsezFveLk251W0xVfcZ9thufn",
+        "width": 1772
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfMN53fgRbTCOA-4lsqRFlWerNK2IEhOUUoRPw2JADuQEDxVz8RhROxOr8NCsS8KXWOmAFTfxLGEwkMStQC-NZWq_wHR0G4dynH5MEptxOjaeuLlkVurB6DjIFpuTzyE6JE5m9EaqAvQQIN7gI2v1gzBBzw2X7I0b-ZDEDoBEtLYfATi6LEgv2IanJkDvTR5pCvzvqYCd8cWofEMxn3vXRUE11U6hbxrv1tPsML_NUuX9mJoWlHf7o__qon9AJzXfoYdnc2lcg35RtgtmjYR-au_K65QB9CNRzX7PsUa_NFSkZMoshT_LjS4U5gCnecehW5ARkmEHJynzOfn3juGinL5xVNw596_PGxZpOtNNWaObor4tpFoKwJUpzIXUOcgoY-uoTEbY92B2zTSzD8glRwo3M",
+        "width": 2048
+      },
+      {
+        "height": 2308,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103210557789113405675\">Maggy Marsh</a>"
+        ],
+        "photo_reference": "AV-0GLcP_c0uuTC4GeyoZN_1kYxEyfHloXfZV-l-d738oV9Mz6C91uy5PLFUngVZzTgK6_i4osiGOfxfM2o_86KNjcIeQ-rvYnw2vbIZYf6NqJKYoToL81ke1AdvbT9LpmmKpkqVLyrUxjUbru1DbEzz-ef9N0UmWnG-O0jn2xwtAwK6E_hCGCxxnIW5OMED2NRpC5qNbgLU2CQ6diBbNAdb1rSEH27p_Cripyryh29XNOO8ZdTJst3aH19T1D5dDpLqeq-9rb0zx7Bcc-Om0X0QPV_JZXCKryvM1p44PRka8Mvexdz6GZFOwqy-cK7NbFkbThBGzDdfVUU8odp2d9pdoconLSye81zaDEjuglPRYVJCyVDseUY89VK9hvnlWXjO31zyYsL0Gx7yKEfly2OK_o0mS_9YHVH6BtBuLYzKB7FIhw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeZaI977pUnXJh1DfSP2uYo7m6ibmF7ez2JTypA7Mev11OmI4cgVqbBSB3tTrjOcJztyWL6jR-AORhvhsOLSnhPWOIhWbzQDOwoJ2fdHbh7hcnNRehoMfzLoazJnrxYJPPyTAFhS_ap5e0_KTBcgUkO4vHppni4igUPWSt6JUp2n8AKVABnpLW_A9e9O2za6zlJIietaExuM_OuORm3kOBMKxWs4SFUBpk0Yi21i28K_NvpM-8NlvGoUQdxwkPjw7UkxJY9ypkqeUEKhHXSCvQCLgHr5zN70DnUwcMfts1P6o7BJhfix2v3MqVi0ag6W-hwbzQwBWccjVAy_GtCL-5rlajOSiJ9KEWZonCUWWZ6LDAWgx4fjMe6qUbfCCElI9qVXJbBqZVVkiFQokYOEufFJYQ",
+        "width": 3024
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104702695706820898795\">Seagrape Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc3NtHMKY7rFkYrsvANuAM5lJGqI4GVqloZsz-0OBeTezCaI6G4YtpyizIUwT9miLuuBEMGyEPXSqPJNJOspqa6vTGNxDnQFzRSP4Q40Ep8M4QoujjitSALAB5V7WDICvx-k9YysySXxiD4oClJxMsDRbR-2VR3TTG74YeGSqhAHyR63SMA7rGEX04agkKPzVAlHSLF2n_G6ggSlH3lefDcVJyoE595OCNMkqa4S1QUfRdejXsxN1MvGolYxpNt9Q5DBj1uokcL9kXyxVsyT5FbqaMBY6fzsZTMaCqOe0nJrEOaawBqobN7X5e742FKdcIAJa7Z0RhZFFi3IoFacwcMW-OIbzseSX6gq4WgUvKoLBV2IegoDK4hU5rluaWwTqGv_hGZcj9pMedVVNu9H6ibeQ3DH0A",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107655652379824539122\">SlowCal TV</a>"
+        ],
+        "photo_reference": "AV-0GLeRns2RhceLOlSxPLkC1Tm7x80auGzvGXlGmWA0a6vYMMl8N5YoXgXFr25xICNKcqY_pI2oUGaeK1ZsT_KG2E6KLTLlArViJAbNZa40uWPQoZWJ9_5ct8ndTeuv0vQRMhnzBz3TQd66YzxdF6lO0LPktU_BF0hiXt0Z17fKodUVLcUgIM-FlSIFoOWQcIzh8PrFueo_qm7WyQUz5xlv9m9J_GVGdq0ILqZtlfKYvX4JffqmQyxd7BQdiyIkT5kr5pfYnjSbD6QHkmHMP7ea-P9K9_9D1-4evqn8xRYOdkQKZKaU3e39kWbvXQzWqJ3irCPOuU7hwN8pV0CQNsZsAdYzBnlapBjQAWGi_oemI7HlnuemlKGuwJ83Y5YtpTPfVAGHB7FEg24MKHma6LNYOGqvdGqqusw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105419164344169709068\">Angelyka Cava</a>"
+        ],
+        "photo_reference": "AV-0GLedARtFunlIH9vgR2qvAIMQloDBLM4uRPSWPjaHs7IJhOrP17ELA-NBSxZfZEB22H3Mhrb4kckfo38cIrd5RL73F-h-3I80Ji3YukR2WLRTFtyZVSRwwNRhW0LDzIPt8MS96XZTuKLR-WIQUnz_FTLsuUhOjgaxa-znGKa759EVYFPHLmAthCvtcVYCa_9Rgcqo-hS_H9azvZ8ce4ySs414GwmpMiN4cnDnSqaFFbJvMpLSUR8meyJ7LnHw2kRLO5LrMwOisSqQRfNrF9y1pFJCYs1xt97xFziC3Kzz3BQmEao0X73JoLwSCKTjfqvuW3AGnZWbyqFmZmRVYqiGJ1E3TdL-qcdvIBAgITfwZp6T-A7NxQsWVmimqJKHIgPkMEjeAXxg16MMSiPIaTRfusbNwjw",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJm0acOBenlVQR3bvYaJTJmY0",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10203408070035946461",
+    "vicinity": "2823 NE Sandy Blvd, Portland",
     "website": "https://www.seagrapeapothecary.com/"
   }
 }
