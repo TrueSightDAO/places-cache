@@ -1,28 +1,191 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:40Z",
+  "fetched_at": "2026-10-30T13:25:24Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Be-L'evated Holistic Wellness and Apothecary",
   "place_id": "ChIJwaZ45lyjwoARJiwHGkzV8fE",
   "result": {
-    "formatted_address": "\ue0c89112 S Western Avenue 222 Main St Venice, Ca 730 Arizona Ave Santa Monica, Los Angeles, CA 90047, United States, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "9112 S Western Avenue 222 Main St Venice, Ca 730 Arizona Ave Santa Monica",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90047",
+        "short_name": "90047",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9112 S Western Avenue 222 Main St Venice, Ca 730 Arizona Ave Santa Monica, Los Angeles, CA 90047, USA",
     "formatted_phone_number": "(661) 916-0606",
     "geometry": {
       "location": {
         "lat": 34.020465,
         "lng": -118.4928982
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0219217302915,
+          "lng": -118.4916766697085
+        },
+        "southwest": {
+          "lat": 34.0192237697085,
+          "lng": -118.4943746302915
+        }
       }
     },
     "name": "Be-L'evated Holistic Wellness and Apothecary",
+    "photos": [
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLcCQgk8W2k2G65BeVFiJjpQpMvpnJ3QgykY1L7YOphzlvGnFiXTqW4IyiMk6rkxbJnPO5aq4YJxNY19-h1xk9bEK7HkvqLZLr5_gYugLQ4sE7rUai04ELJt6mzdXqvmpBlfYqUoxLRT6mAcBSRuyI0tebujuHAUUrIwdbsELPU33c4qDfRJmXyqb1yNW5dICkLl5CMiP6zzyBZzxSVsaSTx-IHGN0Yqc-vQYisU0uPvzw8CwZLDee6Jfnidz8VPxwvDNr6v-FoNcx2dFWMQty4lZBv9Msp2NVkc0rmfVuC54vtdRy3Qx0qVL4Kdd_4WG9g0UoR1LgVQcGYTSyjlL8NtSuEZDPmWRnILm8JmJpcDVY4Fvkww5FKcXvy1efUG90yn_3nlRB55cDjg3EMW-lBjA4Q",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLcYxdgkK_1Di8OcS_BnrT0qN53DeINCtKJhGVXDulB-MFOz82Z1lmGdYm16V-PtjmKzAFRGXNEiLgB_7TMKn9Icqrj1gUb6gUZsP3xTfC-X7BLfwAxzHNZCwVcFs-zj2YUWvdpK-94NE26mZM46jstbpNJ9dNNdSKEf1fsGQpt7PoaFnzwRZBuVyNNDry8QCqyvu0xfjkpYv78uRvh7_6WnFv9ZIKUgr57q6AcJji-5X96fRESg4x2hdsEJJ2tiV7lbcfSvUAMLfZrQXur6YmQVVvqeIc2VHPoUplkHpMxTTEz-mzl8xhQUumwA3DWzG_-xmkvHl2qqCi1a2WIBTUxmLIJSIvTKIUuB4sh4W1UNREHfjjPWPHyTA57B_RbmwtzuC-Rkf9u9Z6MRbxLSnieZJg",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLeeqG1Fm0oJ7kPL-8r4u8BpP1Mbg16ITToyAGo18PZIGviluTf4UzW66H2ybTP8cFs4qlmSCsVx7sJyf66RD7YweKq2N1iQVCi54LYYI5VQT_FWsGAmGabTWkuy4y3hS3z5xBRpOCSD9Zssa2JyQTFWfrRrFkmuWw6_EiZph6dXb9rtP1bSceT6ajNt7fA7XFwUaA9TL3zoToZP4amZMSUh7IOLje_BakxdBHs8vIvB-gRsKT7ZpZRTL78NRLOxA_R0-NoNoqBarI0ClgkXxBlBLmT-i3DkQSt1uA9-DHxK7v6cOA8TWJhNDhI377hCyqZvRfjH2gskqgXcD0B4gFMI_Hvtw6f96mSwneBYiXNIgOM2mnIRRW-JtFIar3m0u4fQazEqx6kPTCfHcpSu-9CQVs8k55c",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLcS712r8zhDlMjoaQ6akSBEQaX5GPHwWGBQle19kPd_AA1jvZvOJEpdMO09yAUMY_-OSsNRHIJ0iKD9Ojh_jGkYJMwl6XdYsM4OVvP5pFsOYXHlJmpGteQxcAeNno40ElEHboEjX6Aexu8dESaI3lbeYUX38i5MlZX1du961MjFt7N5a4DDBZ1MHqRFlLr9tg2itOCQ6s_uji89oDuJOcuS1JT6SpHVqWswJFDW2qixOn5kGB2BXJHHf5pCDvKU6knumUMNNHuSQ3194ruj8ahtYUSn-mmVZ02yW3urRf8V04I-mDw4wRJqzhq0qRvHSjHankMEYQhrLST2SxLHzprd6On8sVgrxdPDlxW19QcwPJv9rD4QFHXOVrvUX7KaFO7oKh6wjMTjOG1H6H-PTc-zhLBq",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLc1yfidEU9sDaTwqUvpHEtTd72e-0EJhAzizHaNsPUlkFOrpJGe1CYIK1-Guwt4NEi24JkWLy1UaFhHwH67SUKDPoBQ_US2W_ghemqhjISAu776IF9PZYaY6YWA2F9ojwymGV6nQOcRW3eIxxephgpOz5ej-UJLkXuO0URn1WrOfDHnRlzX5Q2fwAAzN40JSFh1rIoZP0SHilcpDEuL0ssLA3RrsSgcIBdQAJuAYVWl8jEjIMStmgvgsc_mazVYIXx-bqckYitYMcVfyRGY3TqTRec0JLAd6rHKm5CKH43DhmNR2OpL0ifNY_07WtgrRr0oqM6c9V2FGSbddmpZfrhhGE9ebNf1urpaao377fX2Wry8gbscFfDWda_v05VJ6gFN0SzaQGVzvZ9dsrVG0a9yAR-KW-8",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLccCcF691ZEHe4idQe-55ZSpyjnYw3Sm1JklYHxtvrvniEe-71i3FbVRlggh_8h7A8sbMONH8VkP-XD-izjxjKIK4ONnAP529zXwa-Di5aM93E40t5TcG1i8c9plK3Buor1D_3EB32tB5aFe_6w3nNkU8VMwbabkTO9EWt1guOxPiq4NE-Z7qd2onuchjxdzZF-zDN6EFACIM0tGtCE6528NwXQyQ3JFiOX2yej8vO_wwvHofSfaFGIGNYVzdH4HmbOKI7fPJoYIpP5Ebev8QvntG5ciQFjXA3nydTbedrMhKuRIkBkqXpzmKQXnUuP7UZThZ2kupPtoYJb5sgu9r0f-1WW95EC1uukDx3eAZonvglBt0rLB_JrxSARqw9fr18b7bQ-7J-MuWnZJVli43Xv3tXS584",
+        "width": 3120
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLcPp-DMAAuLAgnXzltZm8ky_UxkJlsCLkalcBMEmXdyVoI4fw4eWMvGaL_YMbs-4ErH8c7-CBWL2vjmziHl0OcsvwZx6STNq8w5RP1cMuLZHORy1fGC3yZkf4mVLGFuZBRO8fXr1flLRVnNzhiD-dkSxj-mNDEWSSH1nBt3NTDWAY9PwLRxA4cu9koW2GhdKDj4YqaLnS9tnyv8hIJz3JZOey8Sfg1sQeYdk2cY0POgnF8dxjC7bRetGqDT7Gm-6lfNkfHU_xTsyO5VE-rSoERN0Uv1FZlpsEKplB5A2hIvuEuKzuaINIRVw4vIv95mG4x95dcJpVMoFQrn8USCfvq3gNbrWtTFf92C_rLcMKIVvBboMFvgDDJheuLLZOX7pKvlE3ora2Xcv7u8jnhBCEs5S-rIaiY",
+        "width": 3120
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLdi3uZXAFfAIo5j_YjzcjF40n0YtpjBh6eBuYpEfgpJ3QFfe8iuaDUOmyTlORldi1_IINNiF980z1MsWxSMdHt2wjkAq5F46f6i9pJ5dZ7KxFDDNE3ktwqWpwNd192ExDEAGhGxVT8NBrd9IG0ac7uecgAyRNZEIXCxAFUUEQVOpSeaK0F6hFV7SAnylG21i4cRdQc3Q88bmNXPncZVX4O96itxvnWdP7gEVditQk2Q7fQkkH4u1ae4FtfFXZPvj2QZVquOGumNMrtYO_AqgAW5ORty_WriMKNg7xmrtXWLD477r3_PFtFLLEMQNg8b_Nc2Nj_YndoXHJUMhpS4juN1t7cUbr1068yECG3EHb3YzVvlvzWPs7n_MwJ4QWueEyOudvesO-Yvq0g3TXR-p0goV6w",
+        "width": 4160
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLcDlNWvF5TlaLZiGe-iLCjwAz713Sbigr-kWpd3i40LzLs05-1fNQpXCadRhciTW_ZDoNsZotiAdCYDQWhd6bFhUx2wotQ7BKrtZm19UHHQOLNJ3dMv3h8GPoI8nbmLINdjEPf91nMjIiCh8U59GBjs_Jn4ES-H81vhyJQmbrgtkImp8HgXMZ3TfKQY-61cMuTU2QLs1u9XUFeJy4Hh4pBlqqcl28S_ssk4tTAeVUCycTAntC1MzlZjCcKrIk1-7WERAsD2UnRS8ze1mXTmSW0QpTr6y7cwVPKCsdYRkZZvvIyaolRlTp3WfTCaQD0Gn7W2ch-2LX1aSN8_70kRs7vlJ_rrYvUVZeI6IlqWf_PXa0Gf3U4R944cv8dMIhoyQ0mdwtFsshVnS4lxEyNhCVreCb_5",
+        "width": 3120
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102324343509808585402\">hilary eshelman</a>"
+        ],
+        "photo_reference": "AV-0GLeqmLV4bjm1yQTu64bk6Ig6pR1b-UlCiB7v3a8P7lAPrl1ZF3pnRbnL4YmHWvrtMBTnohZ3-Lmf4J2kvIANXu1qvZsJqfTLt28YNZZ1fQe-Abod9Ac89MaEnyZH_UWBsfM9KqZCc2U4-cIi8U1ZBNIkKS6pqxTbiT-_0DS0eX4wBd9gGw6LvAu5I4xOcsxWoqcyP6urD-ksIBz1XB5ctNEqbIGInUB35uLxrGmh-ucT3XoYuj8whc4Org69lgFqyEV3I482BuSI_C6z-1OJu2aVz4pCvb2ez0mfZz9E4_aRxQR-KLSV80NyOWB8lx8yvcWHGHf3iyBEfavFmqpZgb9ForXRu4W1eyOdSS95ktZ6SuqxHHzToH36cajhYEa4qGtGKSfgId4InxvW32cIcjh0jRs",
+        "width": 4160
+      }
+    ],
     "place_id": "ChIJwaZ45lyjwoARJiwHGkzV8fE",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17433950155358809126",
+    "vicinity": "9112 S Western Avenue 222 Main St Venice, Ca 730 Arizona Ave Santa Monica, Los Angeles",
     "website": "https://belevatedllc.com/"
   }
 }
