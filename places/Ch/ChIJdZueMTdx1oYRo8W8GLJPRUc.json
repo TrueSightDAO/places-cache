@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:56Z",
+  "fetched_at": "2026-10-30T13:25:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Yoliabotanica",
+  "name": "Yolia Botanica",
   "place_id": "ChIJdZueMTdx1oYRo8W8GLJPRUc",
   "result": {
-    "formatted_address": "1307 W St Marys Rd, Tucson, AZ 85745, United States, Tucson, AZ",
+    "address_components": [
+      {
+        "long_name": "1307",
+        "short_name": "1307",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Saint Marys Road",
+        "short_name": "W St Marys Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Menlo Park",
+        "short_name": "Menlo Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tucson",
+        "short_name": "Tucson",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pima County",
+        "short_name": "Pima County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Arizona",
+        "short_name": "AZ",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "85745",
+        "short_name": "85745",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3112",
+        "short_name": "3112",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1307 W St Marys Rd, Tucson, AZ 85745, USA",
     "formatted_phone_number": "(520) 780-5539",
     "geometry": {
       "location": {
         "lat": 32.2289874,
         "lng": -110.9925862
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.2303978302915,
+          "lng": -110.9912436697085
+        },
+        "southwest": {
+          "lat": 32.2276998697085,
+          "lng": -110.9939416302915
+        }
       }
     },
-    "name": "Yoliabotanica",
+    "name": "Yolia Botanica",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 19:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfuecGfny5wGJ0dNrGPNYFi8XMg13m4Hz7GPEZsIro7SRfIH-B4HH_z9xAVskC39iBpZ5pCh1LNq4f-ESK8DRc3xDHGoHDT4Vs8ynr9wlqkvPQ_mL2YpxjRJVvJEfw78dulqsc0XlvYJSow8iyLfg8BQwpUT_72hIFsFONt9ngaP-aq-NlTrIxiaGqzRoJC8lR3qhjQ9uOLjsIr1usFdYwn0JPmUj2Z7JO6kUf3-Wdc3y02EhnG3cy4OvlGT0ylivU5h5yT5QyXzplNbI2nvenw3VTL6n5qaBpb7bq7eqbztG9R4OaG9FKDJ3Vj39EPQDOfRIojF4xTEKxHMWr495pJueCEkiRn5Firneh6OK9vvw5om-0mtmJS2c9YP1Fc1zevmGf_uZSGQ8I3lmR9675LFY5Mt0k",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLctk2frAqC25vx1tKTATao55QwU56TbjOOpRd0lTTba3DjhT8SKal1Pv7z2DwjRDJOGXk17Nj0g3t0q8ejqatxKk-sT1-gYxEe2ZQpEB-9xVJD8z7DtmwSkGx0VIzobRQaSEXg01K90cyW2JalWVb0kTeUeQDrbgX7Hfobo6vSC7tlgjYvYYUzStKm8xJ9iv1AMQAo3o1vrz7_byLUdgoONnSnJlL2uayJsXWHWkYlyP9pVR0M9OUw5ZloMcVJ4UgT03ZH-Z0RPNehx2j40_6CDvzbeZWNqfeX1JrYyAeSd0Hp-DTAcO3o7WUzM_-uc9wO-IyDZ0G32Fykn51OhII8okfyMTvTTYTHKBoOBhgPUvyxwh32Yo0lYxsKNgrfZu8dHXv-CypKJoTP9tuZvr-opWFc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111808485267471549277\">Pauline Vega</a>"
+        ],
+        "photo_reference": "AV-0GLcmhNdAalDVLZLLEqKMLwQ7R6lixNP6Uhcc_NBaVRWmUz22jVseeSqh0JU_2nXB3fjxwZFGNjR_C2KVBN2KQul3WX-qoM5_igKwzqnneb0JaKzdR_49bcCACoDWLMIWJn_QGK-Ww68jlJdIOulOAVxa1A4gmSi4s44upyGgFWhZr-qAWzyelFl1vaCeoxhTRhAZVI_91Qpilz4HRBU-IY_edxon8nF7WuRiM4B49VKZ2sr63zC186Bmw1zhAUk8kZqavBPmF9Tm6OYqS_WnFJVfuixW2Nl5SitF2KRCIGUapLzeaGbeya6eSw0-hDIsUqtWnhO8Kgd_7zbehdm0-ghnmNVyo7FXixYjBSK3F4Yz2fN6MlPLKagQs1eRhzAnMHJhgm6aDM6Imav-qYzVkvFRbr6A19_rFK_V24BaSW8KaA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfe8xV7QL-m5fm3abe6vHZPv9jRajCYJBRAPha33pUfMgW3dvMqjLPotjOvyOEk9C5iddpeL2EbCtXplk-leRdgY8nBfXnjvIvwVCSVU8e44xcelzeme37VCN92KJk3btXWv9rTBbHCZVA1Uw-DR2_CnGup0QzErfVdwwMAhJbfofA9abfz3HlRHSf-noNVfsORKxwbnsOdeKYw53GTvoSxz1TJcjLI8ICo79TBxgOz30sGN4gAKybNomARrSBa5hlC63lPWlj_RMRrtyN93SFOJIb-0FCqnhzUTVq5iqViLT1OKyZJ8BX-O5DzSn6YCJc2UoQa_nztXEfI2NELbPIlZfrJsA2zEkU4xKy9GXLhVpzxWof-p2xBQO7qhGQDKFC1xRe5hsGziep1ECkw6U_qj8hk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102508306130288188789\">Lee H</a>"
+        ],
+        "photo_reference": "AV-0GLd8AzVhpTFLQ3yPWEMz71wt04-o3_VZGyukfGH8qbB7KrgyU0qpr2-W9xX3sSXJ4IU0hTd9RAFVEf--FL0T0gXgfAnyFyXQue9vEZij9qzcNjziWbsQKVKodqFkvVBd2OgPbctcGWldTyJt5f_TiiZFvYBWl0EXkymEWppS-cEHm4isT5FUZXrOX7kXpoQceyLRxsfmvOJOl7NWLP-CoTeBeUsvY1L4VVo2qBfZILysc6d9pHwxYX_iRxIq9qMcGIvboswz0FGg_7soJwCz1taieauO9vYVdsZoxxmyUn0lLHFKJXOqgKU4unULrrUIK43f-E0fiutAZeYUJIs9nWyfGIYnla4lg8KdbqJRxcdx2_hPlgny7L_Xm34bY3LEFP83yQYstd4dotwFCuvIZdSl-arbMdlcvaMEPgTu8h4iZA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLdANcuYg920Q1ichsiFmcWQ96dmRpIs1XIOn5DYSsAFJV_1e-I76Rh20J3h8e4uMrnTsyk3TAZq-DW2AGQfsmFfX0u5To_fkXj1YSjsycNOOXuH_-AiQLjH2d5Lvy5jnV8oyFKnMB99KnkWeaqDvADfq3Hvd8CBcTCrJa2biOxH9K9kIJghhwB5uS14ZZ5b_3Ufd62b0jCyD1ZV9k3CrKV_7V64eEfS8QtXEcYqx1qFjOD2Gn4NPJpBkxGdZFLmqPSaOPziUnlc4BNz8KE3V-gHbkWHEcNs6_Evjv5Pb5hbqB26AisC-gU1HieXcuy5Q2jGD-90McNQs95CzYGBAvLsC8xh3IOuFfokOsUwe6O_-iV-6jrVXrR5D4UmGkQG5fSRrzmRPr9hCkL9ynRyzXYub5VUG04",
+        "width": 4032
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100923376169031177680\">Kimberly Pollard</a>"
+        ],
+        "photo_reference": "AV-0GLdMPKQaPvX49SYmWGIblGbLL12h8qx8apQ-DcmJITOSioDWoZbm5kSHL04ewV1CUintlLkTwk71WADM2EEMzrdLnD6q7WNBVLd4huoa8mq7SrtCGustdNjsWXrpyyBgmkNyZ-ubNNXfQwnwYr4ZHbR--9fgUqiaX9O8U7zkImyr4DFp3jmRR4dUP6vwkS1Jr5rUEDTzXft4wymhlMRnzrun-t-dWZpCPHSeTC9N9G_uZ3Q9EufyUmDRnm6TqA_xgs8k30_j1My4kLec4qEXWrpyq_c3miflcPxX3U8UDHurxM6EoI0tSyZWAd3aBnTKcltB9iPowhhM5goiHvyb1N09P1ET8I7lf405Wq3Wuu1qiRgpI17faXtobr3_xDuOOY5PWCKdaQ-Fis5kwMkGzJPcczpoGUdv2RFxXlmyW6o9",
+        "width": 3620
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfbjgjUuT4dXGTswJs71gPPTCan497hXi7H6bl_3z43Soo0bh6EhbUIQRXcX5vO-QxeiNQBt7ZLYJxNIKgJ1mkIOgegF0eZIs4TML7E-lc9cUujeI8uJwJOE4RgAtZFGm07heQdbKoFw5EMXrVJnV9uiXrCd43m98GygsIaFZ8MaVqvET7QnIKTqoIWwJTc9L6lRAryexMoIpH4oiiYcsRpFDzOA_g75VG5WXUawkS8VenXejht5qsMPv08Mxwnmn4j3APMER1Efp7_vFw-VojxWxl3sNDNS2DYCxVwae2jPk7dT50FTOBns0nP85UrGXBHYomeFuFEQ-Daso5xryLDkXXH57RBloJq4FMjH0bKopeoZa_SaZYvRzbVFI-28aCLTXs9Nctf1omp5vWlZMTpjBZzuvs",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111808485267471549277\">Pauline Vega</a>"
+        ],
+        "photo_reference": "AV-0GLfd1wXGIlMqMqX6kYwL-iKb0XYawnLZ-H7yfsiSSrdiSOhWB5UnD_Ym0xSOfxsNC5Mbsa2L3u1WzB55h90rGcwOcw2JU01NliXUaGiAfE9yEvVTD3gxIemBF32HU6bAFeiuraMT81F96ZMTWJJUrYHWF037DbSyrmEAD_nP6kiox0qCSKCZ6zTXuxaqZhLxAFOTslEvDBVvKD-45bm8ryy7332qAS3VAWIG-gmhHdzKz8tOOXqFNz3eGql1aP29x15PFUMU1Jt-LDFS-Hh3enwc50ysagiaVNbmgl1pd0czEOpih_a1rNgz5PHDnzd33agj4okWaUqIzSZ3CO_YWx37ql3y7sU9FKa535HjFqNy9Tzeit1l_dTy7XhOLFT61vV2gLEwrXJ13dwY5vJn4S8IdK8GTdXd96067dmba_IUwQ",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108844890640305164369\">Yolia Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLdz-eMcivBz6VCX_czdRQiUI627JQf8rlcboQxH2Zq6D6vxJL4qubQNutQE4KofCo9TDVMTwJxqERKb4JpWMkq9kr3D2vFm1e7xyLk0Ymyu_KkNHtfWerEJmtA40kWHx2oGd9rLTzm5MAxDWEhDb5iJKJIVwtxgeYeh9scqwCcynxZm2WenANjzf3RF4v5e40OSLGodjusSsQ0W4c-Ti89CZWeutkZIqootAAAWnsYltmHVHRHfl8VnwKtVSP2S8BJLmEAOJVNtmbin-_ZvgibIdZO4UUP_trD4N0uHIUypVnW8M4ISr9B-JTLIwj_dJCQpnR4tZvp232OnjnVOOLJGMXaFTCoEfCiGa8ORQJG_GH0cxruGmt75cdjUGl9ulXxutK2ZLcrpZo2-20yD2GRpv8k",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJdZueMTdx1oYRo8W8GLJPRUc",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5135598576423716259",
+    "vicinity": "1307 W St Marys Rd, Tucson",
     "website": "https://www.yoliabotanica.com/"
   }
 }
