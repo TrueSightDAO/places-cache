@@ -1,28 +1,197 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:32Z",
+  "fetched_at": "2026-10-30T13:25:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Eye of the Cat\u200e",
   "place_id": "ChIJ-YmPf6sx3YARj00fbAc6ByM",
   "result": {
-    "formatted_address": "3314 East Broadway, Long Beach, CA",
+    "address_components": [
+      {
+        "long_name": "3314",
+        "short_name": "3314",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Broadway",
+        "short_name": "E Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bluff Park",
+        "short_name": "Bluff Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Long Beach",
+        "short_name": "Long Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90803",
+        "short_name": "90803",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "3314 E Broadway, Long Beach, CA 90803, USA",
     "formatted_phone_number": "(562) 438-3569",
     "geometry": {
       "location": {
         "lat": 33.7641887,
         "lng": -118.1532807
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.7656667802915,
+          "lng": -118.1519220697085
+        },
+        "southwest": {
+          "lat": 33.7629688197085,
+          "lng": -118.1546200302915
+        }
       }
     },
     "name": "Eye of the Cat\u200e",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLfvpLILwbB0k5DJLtmDAzS30mTDMPxRCBoC2paZJCsay-5Sjhdck9S6ak19rBHDpoe9RDwAy8eCsApwpxdqwJnOBw8T_kPPXC5LsWSgIm38hVK-QFfK-iUudNKjZu3xI5mcbYQkbHyxe6yyHua8tluWI092nncnxvCeIu0bSDj6YqVQnlvLtjnvX3nkY4vvzqUhkrjtfZ9nMTDw2J64e7kRnwey_Ywm-SKK1rqY4RLgJYg1miyD6p9Fn838wxOcENoAxS47nPINeNyrfGZsG__g-bLFIuTjO_cdzKvsfzeydWmpw_I1LNzi__CsvdQNHbbqC8QYLn0qHcIvPM2Gps6qzIYEViTrGoHT2knFK8JuXG1u__VwZeH8kKNqW9wOuVJACEbNX15iRpvKhN8znQ96q1Q",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLdZTaWINYzuMSe-8TZ3y1QkJpVyW6DxpZlyvyblZ7P2pWduZRDHC9igRfb4xA1uaiEW1niNcgy2cNfjZMg8gHZvv54thuPv_w-19B8r-mFMNV_Smb7Cq2I8EfCg5PosrzxMEw72s4JL1kOnfRNchEM0o1QGLhFnXl9iUzEGAmyvkb2_X3wpuQeUHILoEwshF0KZY66kzySIS--iicaK7PzxRzENkQfIGM-0Ih5zmokffqOl_A-ev3i1bTvTNZBwHrdZLkx1feXKmST8mLQAww2fQqtGrwz9C6a-c3NHw_VSKwWcX76ipW_lwqS3Plme47UIRO6d4e56Ni-z1jtI_6R8Eooa7PL7yOrjYhGOTkPZTcFPqEE6iUWk2LnaSGXqz0qYqWDEsZap4INvjBHXCNTpkQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLe6d7dxnvsTn6crhMRc4_UGdiEoAXyQd9jZTqKA37eURM0WwoGpMfWpRTdyBI6AX5LcyMy66xzxGhIP8A02UTjnAUysowlUTHve9hdi7acCVGUCYlkTvpLnntWIYRcL8cOlJ-4HyXYRU2F3Vh_wr8ZRNSVKe6V4JU6DtOAj8FNMkX1gDcN3SqlIbRLLHN6SfDbSumhzT3JcMsiXxreQPAdDrtDYdw1XLZXAWMm_x5uWwuNyboLv58Ok7O8-reQWj33dkt55n-mUe2_CZup_zzZMS8cFf31rZKQseOA10peiCzVt-nexJ1EbtBf5cPellv2qUvnvgM3ms-Qd3AYlwFx_RZGk8t1E595cHRyzKZbWTA_56KHmnWDEbhQ3ZV3ll6ZH90bjftL9y6U3BS9pQmvNaw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLd-G7-M54g3xzYQg_pGOz-pDHQ7ZjC338omeuKkRmhI5F4gw8ziMh5CwW9TucmnveXWVpmOQlsbgV_8fyPEjg6lYyFN0cLRQIgfcZ70o7Y8KZPePzKMoRAQ0SX7DN00OYZBSnQOcVG2Ppf3YEBT7lnRB2AHlDqXde8Qc-XD534H9c6ofRiJMLME1gGcsN5K-eVQOZEbNavhZGUUCS1o9fuxuMmUqbqxJXE03YgyXGstEQvKkO40SSJ3-V9t0irRZHHehGSxBXQDjjAsEQF4gwTcKoIiFYs3XDt4sbUQZbGOG16XGFyeA_XuLfRDO9sT01mr4V1FyDzTZKwPYoAXW9sC4xxuuBiswnxbT0Hs-dY0ebkkYaMdxD1xs_om9fWV2MhWmwPEwVfxJ4f4Z-AGg8LOAhLM",
+        "width": 3024
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107197543948064553323\">Samy Zamora</a>"
+        ],
+        "photo_reference": "AV-0GLci67k06fkSgGkyXCLLloCTxec4uilWxE_4smgb-SSawLPSdk2sJ0wTfeOtzRFZ2BDzMv1MzqVFIpZWtcBWwMKACSvLZ0ipvTgF3tukMzOZSmrNpEwsbi9da0guGT4o4vYveotV8l1A-JeY5mcv3s1_RowCI6VBPYyWyul-IbI1bVmHc-Pw5bnZU71gAQWxriklmC78X_iCQq9jryxR_Yvy9mH5oeyITafYEHPf2RjvQYeHMdy08kmvxGRNBibEatOkiBlp5vGoN6eIycMU5cVdv0LKJw8ge-XdoBZUhuKR9oSMs3WKUjYf52MWmiXK1ErtDidbp2-siodxJz3R0bJNivDJWTdEMz4k1GOsy6ovkiW05XoDh_r5Qd0dJYluReYHKL0KMy8KEynK7S4ePkqeVxQ",
+        "width": 3120
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLeGlL7HEv1fO3KCZb4rwM1ikU2aBK7K-1vSvNgJlCy1IB-9lCWKbfQWAykxC_n94bRnA9y05sN7szIcl88zJn5tjxVaePruaWpkxLccsLSmcuGIEvPZYXXNbGgulAEAxP6cUD-d1VA5NCLZYzhaeoWx42eMMB9wWeVIHi5fsS8KGSJ42UgctVLx6OfT54qXj14nvXo25zBpz6RmFruX34Aa3wnZs2HpW9-M5XLiBkMYIIUWGvJiBApQn78i5TbvTv8Cxx3SJxCAfDIH_qAyZhZmR7KUIYjk7RUI410ruXbZQ7Ncx_DWsTX8eECAIt10uCaSXMgFyxIL_XKlTiBp-BDDtGst_5pT-7gNW1H2ZceLUOikSmDqrFCDl82wPBYZS2GOKMsvoXiJYKYHutpjWHr5lcl1JUM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLem7-TEDb4AJOmWZK2v221j0kWTmjWQFM-tZFiJcpyYkZKY5um81zPfKtlEhc61RnN7f8PsNOFgSRdZ8lNbnnhnoG3kiWRfw9gF7eCekh-ylFwC6Sj0MpKqa-xxRW5hg0TBxbQQazCoW7vkHN5TVE82pmVeJtWBCCSIP5HTJDbdcHeGlIg4q5FNQRevwlpojTrUlFwMaTZChoAl21ICdrpMoMIf3DtAwqV1Y-ifaY3h2t2CSVvs1W1zz1epO2jF7Uq6RRpXTKhEG2mX9rgu2i7uM7oBAK9e_j0V5ue2l7xvvKbNdXZCbClnZiaHaurogEd-d2MhmA1U6NA55tKOYbetGgloSm0Bp2Dqw5ogveRAGBbQdpUDJQiB7vrStS1qY1KITF_aHJ3g_Tt0ctTaZk2Yce0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLd9uXF4AF_4CEnKA0nru9gxg6rKuJoeXxy-dulFyQagoStjHvWE9NEdfPfXEPTZPifQ5u6Jl9l-TC9fTGWRfBkKhfuxwIBI_8NWcMjluobuEo40iNw0L2uqCOzIoYIcQk91yghmDNF7BAKjCp7XGDocMXASXBRshNyoOWdVwxdOT9uWD9HS-ocYjmB7JAW48a5CIWGvd4scCtgqg_5pDkvd_1qkOXtS7o-f6IMLjiT7UXdtSC9gQoBJfp2m2CkpSeeAK4BgrzZstUsmO2uvVrvCJmKbxMoCkJjqbAFBvhYs2ybbVJLFdzziJnwBJRciGJP90T5r6Jxy2PBAcgP8hOcdK_R8ww9iUyq0x7KyU_PsEhPZbdpU0tN8Vjzyi8PU5WGvyl9WuR76dBfrrYklcRruc54WePw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117738250906370044426\">Daniel Olvera</a>"
+        ],
+        "photo_reference": "AV-0GLdiulaHJws37ukMzvL1hRDtsPajvggFrlE1MD0DxHG3_QWaH2XL_KT1PCNtjILFM8WmCixIyXIsBNY_IX16DCPf8kr9R2-tImiIWIwQCN_F69ykvnVTdhreVdPUv8ukviHU_SjxALTZFoZxG_7ILo_XyfvNee1mPtvoYsulRhefa1Z2IwpF7vi4a3-QgDQptXSFRz3oHZSsvneA01_D7ib7vGz4J2ftvt8zsH_lQmHh87tzX5NacjuY664ZW9Xwb3yZNVfGce3k1pD3OXkJ2ZCA46s0Rl-8v77H_huR09zugAXEGe_eYhuCl7gLdf3dECVdRuzmTIOGdfnhUl3aApg2lgdZaAIyEl0OvmA8mwhuRT-zoasp4ZCzdP5NrbtRPdLM-5A1rPoIB_K8bjwCRDG4IwpYcQs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100782364760075198602\">A \u201cJoey\u201d Damiano</a>"
+        ],
+        "photo_reference": "AV-0GLeHAJu8LSRkTe7SMY6hMf2V-OeyDUVMEbsZ0u_nJ88ctMc00G7VCL2BWqFQa46kyV72AepeLG2gf9xtO2Dz5uYvfOOChM6n4H1DOMKGrheJy-acW3E6OZUdWXXbaYZrcuCGCpK7QdU2-PmZ6-KgRQc5mc41PO2URsgThpBoTW33jJojXE4oAnkEhocJSH1GVyrw6cn_8I27bU3nNfgBMKLol5L8S9qhCXFTdVdGSgHlB8jZ1Hmn3aHr-bFDP3WDOl_Xf4XNAzd2nhYK-j5YdPmpCxl3QeqbLlbKvNPQRqPt-Ow23d5YpDeoyvO7-xeFtC1LHCcVXlpJD-kCzKGQbfsFfmd9ssPtqc-4RnCZBJar8EzHbTEFrP2Gu-Q2ous_QjL7scedvJWnF9-55kqH7hj-NQ",
+        "width": 1960
+      }
+    ],
     "place_id": "ChIJ-YmPf6sx3YARj00fbAc6ByM",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2524049919717625231",
+    "vicinity": "3314 E Broadway, Long Beach",
     "website": "https://www.theeyeofthecat.com/"
   }
 }
