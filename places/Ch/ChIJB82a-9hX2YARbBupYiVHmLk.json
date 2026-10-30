@@ -1,40 +1,265 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:06:30Z",
+  "fetched_at": "2026-10-30T13:25:14Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Blackbird",
   "place_id": "ChIJB82a-9hX2YARbBupYiVHmLk",
   "result": {
-    "formatted_address": "4711 3rd Street, La Mesa, CA",
+    "address_components": [
+      {
+        "long_name": "4711",
+        "short_name": "4711",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "3rd Street",
+        "short_name": "3rd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Mesa",
+        "short_name": "La Mesa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91941",
+        "short_name": "91941",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4711 3rd St, La Mesa, CA 91941, USA",
     "formatted_phone_number": "(619) 992-6052",
     "geometry": {
       "location": {
         "lat": 32.7651407,
         "lng": -117.0176355
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.76646638029149,
+          "lng": -117.0163473197085
+        },
+        "southwest": {
+          "lat": 32.7637684197085,
+          "lng": -117.0190452802915
+        }
       }
     },
     "name": "Blackbird",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 23:00 \u2013 19:00",
-        "Saturday: Closed",
-        "Sunday: Closed"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLf6Gd_hRMCnAJbj4Qb1pfMjHPO8rdp-LvyAUaQHE-fNU5Os6v9W6qQTBuy23givryJPjMwvpJb0THFlX8aTAxIxLRvdABZjrdQLzB3m8TCuqUCW5l7QuyH9IrZYS0M3Nq3J87maMti8myct3SM7wEL6Nmk9NocXkysLpf1es1DYdL35RQqT_vP1C5Dv2Egi57UYYWFxgk5Wm0trSOURe-AcQESd9vaaZ35y-inX9dGd_UG3Bc5QElmRnkP6D3DTRlHp-i2xWYnA1t3QLS0YNZRXlAr1r4kPU_4mUq5YwnwpqILl4-X58SpaZOO-MWhQASV7jNvuw44Nck70kDwZ0DIDK3vX-IMaqJe-nEmlOFXI1GpKmK2o8_XpFDaWzYRp2JEfvSaG09cCh2WQHLqNZG6-jTZb4JZRZZnuxpoBdujknw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLdtxHtkNLePjc1Ik57DQqOX-lr7bXxUVDE_yjjaEfgDM0I1_fTqDeHx_AHlCCgYHRmkE-S6L2QV4CY8NNA_B-S82ya0EcW18Xy5G8x7i_DirghgVcvc3_oMelvaoVj0vOyroQ05t9nSwmUS5Nxoz-kNnuuhYOiGeoChnckiBeZvKzU56x2gFNUGM7PV-eiayuNbdu8XXH6d8mwb-4OLb0j6Cw4HZZPwF4eiTGQbi9Ygj1vbbNg3Oh57XKuoe__iKVt6i-YODD6QNSVfpxIGQzRnrezPzyMXv9lA0_k5Vke-ur72TaMk1gtaZ4JWS5ssbTQcHEO_p0NJhK3BhrL5cHlt146aMlMMwJVu4qKy9KNVZtHySnTSJ_fPUQruNyjbUhP0kSH0bbJVtQ-c9xObPMAXcpblk-vKmIn21YZ1IsDSKg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLcfvDjkSHDxvd_Z6Ah5s1fd3kxe6R01G2nsRqJ7RhxinEKK87vdcGb3dYitAMZpnkzIzEmmfBa0LTVWd8VHkwWtF298Ii8trkrhDG2YZsajpq_cUI9_aNgc1fIC0AWUaEcS2bf3R3qHqIJUYaBNrJfSJgWA4PJi-AhYTpYRJ4HZ47BJCHq23a6RhlqbuTqS9tFCz5lWMskWf0ZA92ecqo_0iOoYNsyC4goPTAz3iAda5RoX-LMTxxSHNzbNllccASVlCS_XclqHiTohg0seC_-ZW1bFbfB_aU-S5bFdQfEnPfpbbgpR-m4RmWmHzPtw1tjAMWagP_Ih0gvjmdd470jiWgqSVofjtM-60F-fR5gQY5v07l9LkGKiGZmd9RKpjs74hNTTzURKSYy8teNH9OZ5jThuGVf2ijxPejv9JjjRqQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLchPGExBc8z0rskjhyJre0UtIRERWnL-tOWv1vkl2cDXKmEvcA63sEsqhnSddoon6GSPw3Zjs2MlDFEbsDVdNW22mCTonVUVdf83azcX8mDTXLJbapK5OqoOkcEuH1J7PlYSMCEaHrlFM601NXLXZ_4hIL1YfBNEumbhwXk-ClbLTX_Tbbjc5vXuGWRJ834GKtvyEgIPjBZPvQlH7aZxxvrDLPO1kPVMxXbLpgtihN58BbZI5NlO7wAgIeXyLo22S-rxC9HTuCHFZamRn2c_hDjIQt88FSNySYOlPdf5qQZabAbul_UnkI-qfeRXF_ZtrodXNzqf4dO7uE_6Xk3NiIQuoteN7pDPgNGnwl8E4tO2T4G_ATaIdfcCmN3uRc87m3q6z7cO634BzQ1xrA8gjIz-piJuYxAZB4kOm6BqqV2-Q",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLdDSNlkYYV1Sb9r1bzfTKdm5KH3L48RxaOImALCx8UjQVUCjww90-2JBFK35Pq3SFobdjD2mfsaOoQErKlz_iMrV_8Sx1nlwaG2DRJSdGAlbJZ8Y-oKPoPjJ4eO7QHrNT-HmYMuW0l14i-a-B1dONwYH-qHxBXavksfdKizhB-IMCskXNSvLRrl__1oB8XIgBaA6ZOv08dzilk_p72lG78B0Q583tR7GKJ6C2P4LDWpSLmqR-UTIdrzg3xSVPgZxF_IxisC7MwuAa1xzLym_XpNOEbb7pJ_WqvAfUYgKyKfs8tYqpirfwSo1ZlapFr7Vv8ADmVZVf4My2q9ZuK4qhIZIijmVNWYxSYKo2RLs7MQxM3RpY1HqfK_f6MFGgwjG8oQgwmxsCJrDPodQleijYhTfaOOQlGDbnYUTzKtz7ydbg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLcg128sgYIH0belXv_2bhNyq16P5tQi0UeHN7ix6l_hWl4In64PSuyIvVLhNTrXDsn0mpbhdg9pt31K1tMqcoeWXi4RhWJmYqoqHyplwSSUlm-5bC4A4N9IKJv6M92oTQeVTzKBGeH8bzGv6xVgGTU1-4wAwQSQ1ISrCRctcnMDFKNfBhr4jEjMotpavqcmSU-v5oSw90UAGFmmTS2-PlHWhafiTt8rkBWjVUhjyg12oAIlYm0pPUaihVZU1kO903aJuZuxfyZ_AbiV4cEAjygKjU_61E2JkNMTyvEbvL2weGp63gda2-xqO8R8C0vWbu1_Irhc1WKDkKyuk_fcfHggmlpAaejj2znSjW9B0Y9Z2OtuO2kVztC-cKxMMpfb1gEuddulyovSkiIHR8-0xcVy2CZaTGHB1_jn4w0ha2yn3w",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLfTuc9RAdyYRB3wJpeMKODI6WPOFBdygj4qjLhgP0ZVXN8QeZjysDSBNF8wLYyD1tWX6fi6W35e8bCvL2nWX_lj1TynQMMic-Y4yCmOKwCHFFb0Ko9h2-j4CcURAoLaLIjeHxYjiZ9HQwfwUOmFDCj0pnO5iV5Uxe3jkAKMPbEL8pyUwxmRVP8Faliqinf8eF3UCpTjU-GhabWpYvYPT3D92SVzXjMpWirDoOOzMdUA25fGeiJH3HjUthJQDTHnQEJYteVYBhYXbp5ZuOngxtPAMi7D67M8A2lbZ5hf9viHaznwdjnz7f9fZSay3e0uC-dx7ZI2S35UvAx67s6Qz6RtDbdoGYe-ir990w_qT64ohZkOkdFcWTQOITDmdBeIMZUeHmXsdjkYWYXuU3oi5VaQ4_wufPoyS0LYWEIeDls0Bg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLdiIQ-d-UOpN0cLWYPh_EAUBTTPIFNQDeJTz3S0QgvzbRw4B94zzOlqiLaywEfVtqg-_XvxYSD_oKIbbWtV_H6QCqB4aGslGgnSBOjMypQGnCLngLLzuMTBmMkrsG_-PJ6VHvl0ZvVqLo6DWeycuIDhiVr-BqefZm6zmLxO6XUYdYNKB898rRed6bKgieSnmlstVnWMa8sBbaW_xeNUUYpWDM4qDXznHdytzBABbizhFndqSJtL-Uy_Urk7qXt9s5NevFOhW23Xv1sAA1HRzACQyYIzLw933ag4GSJQOa4m-LMhekZIYv2WU-whZeJLz49pP47uTV8AKSkCcnBDRIqACJanfYOGfDa0tX1pP6F8dOcnxy0z13L4v_SOQQt64Ke3Auq9pWTOMXdCRv6QvCV_r8hBKTeeiCZbunaWCDh-",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104874890144633120792\">Blackbird</a>"
+        ],
+        "photo_reference": "AV-0GLcYbQDgrS5mdbCd9rcar3ZXLCO6Y06X7f7gGXscXV_9Fl02PoF6eWhNmvJATMCt6-asFeTU0mEJmo-A6PUGMk1z_etIa_qFJGjk2gvxMHLmJdceOV_KOkSmLRO9-T0avV-dz_iZ3KiKRPtt25E-pZyDzhUG2TU6iJwSFs6TjvTG4J49Bx-aJO_rpa-GTiyswp-Ib4y6gn0dSvNLbdsWDY2shOEqjbTVtRdk6EIN6IoZZfji-goI5D9HGK9LclePHlxtU5m4NxrOrIZMI4OHGCffn17sEeJxjtHN3JLyKFhk0p9Iez_wkg1upablZBMCNeg0UtReF9oHwn4ipBelKias9S_2-VBAr4IrHPkAFZq3jNhERe1AuIRCsDAdZiPn_xWZqVcMr92-Z_2RDhqkRs2btTOmXUQ2o13xP1aG8Q3xyw",
+        "width": 3024
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109679025845130091332\">Aaron Bisnett</a>"
+        ],
+        "photo_reference": "AV-0GLdOceuIgIJdLslNLZ1X4xEO5y2UUJLg7M5VGGLK3KQlFJc2BAa4-AF8x6pQ114hNfp6lZ6q_MkGNUdyzw_rilvlzj0wvuvPhNfOWe6rqd4hVtnEBXTblc18OcJprwvtqT9L-XnwhhodSl73cBDEEoo3HugZQ8qPpk1L9DTxbpRv72ULEqyo_AnlnojwwFS22k6NlHfq4Bho-FW0HrSbFeTgvp6akdRp_khi8UCvG4FbWC_j2HlV-5quTri-zB_QT6vd5fjQUtYVV-_b1PMfPOBiIo8KFbLsv3I2Nk0hcT5q540O0dDj4KEZNaBXUYMZot2GpiBYAqwZ2jA7a-_BxiucfsMIxETbLDxSBCLkqLRcSBGQ-se5np81ws45AV3-h4rfWO_V6T7dU5cID3_v_DXB5oWrzdRea65Zf7bA9fLb",
+        "width": 1920
+      }
+    ],
     "place_id": "ChIJB82a-9hX2YARbBupYiVHmLk",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13373517319371299692",
+    "vicinity": "4711 3rd St, La Mesa",
     "website": "https://blackbirdapotheca.com/"
   }
 }
