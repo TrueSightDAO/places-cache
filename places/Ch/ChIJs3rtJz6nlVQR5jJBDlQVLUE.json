@@ -1,40 +1,288 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:06Z",
+  "fetched_at": "2026-10-31T02:40:27Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Soulful PDX",
   "place_id": "ChIJs3rtJz6nlVQR5jJBDlQVLUE",
   "result": {
-    "formatted_address": "8029 SE 13th Ave, Portland, OR 97202, United States, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "8029",
+        "short_name": "8029",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast 13th Avenue",
+        "short_name": "SE 13th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southeast Portland",
+        "short_name": "Southeast Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97202",
+        "short_name": "97202",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6605",
+        "short_name": "6605",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8029 SE 13th Ave, Portland, OR 97202, USA",
     "formatted_phone_number": "(503) 820-3513",
     "geometry": {
       "location": {
         "lat": 45.4653305,
         "lng": -122.6533852
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.4666450802915,
+          "lng": -122.6518467197085
+        },
+        "southwest": {
+          "lat": 45.4639471197085,
+          "lng": -122.6545446802915
+        }
       }
     },
     "name": "Soulful PDX",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 961,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111842122009111190886\">Tony Hann</a>"
+        ],
+        "photo_reference": "AV-0GLcSvkjEcpP9qV6eaVn9eQ82jSoDbGpT-fUM7HqDE72Kt5ErZNpy64Lxijqq6YvzDHFqvG0G1S8iNZ4aAku5Fc10tG5vOqoewkydhLscr3IDZpktxqNSsJPUg9ibxbwk4wMT21H7N3b5vULu9UXUscXS94VmpF1_Ugr22b-xKRbjpKWVRwgnW9Sw57DpSCOdibErA7QdC8YLiIW5vlVNVYb8r4Quhb9Rd27ajqtdr1wZF1ErNx6awwqn54PA_wA20dXn14Og-2111tRswJ5njc8Hnxxt4cgeeqpFRgeRDOgjo4Uf3bGZnWOWIzh6E_yj2mo9vm7S656QdadSfz22K_oBcCP0rP6bykmKH1hlein4-LsGSuK0YGsaAfpN1jCy4YF22nkSIrWBzndWsjz7vM2sIMc-",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104101707697737780521\">Soulful PDX</a>"
+        ],
+        "photo_reference": "AV-0GLdBuATaNL5xz0BZvrDpSFEpsY0-gh1VC9ySsNAMFkgaBc5DcZnaDHqJASmkpHQoeRT9Z31H0AGLqZVzOhDVMN9S5kGW6ogPNmWMZxV_klPn-eQnqI_Bgn54vGAGMkxxqMsEgGLwtu0caX4lZ-fovcN4DtUzlFIcxFJzDAzueHqSUgDmA6K8KnsrFzYklecj6hL147s62gf_qLFZQoQ-ve4N_EUVU1GH0VP4zLCY7K2FDfMzjSu1a4EA2BogZWhDRzTRgmgyrwv9mjedV_Ye4ioCqxsg_Tsux6cxAfXVdt4ZvfhgtVYIS3Cucb3dHK-lQvHl9ymcZLg4Nzu1rpvhzSfYYHeEUQMn8NEAWE66mIHEgaYc6Qq09j57Pm5BZrY_4uA19DSyxWgbhzUlJdTo1c2QLQIvIqc",
+        "width": 3024
+      },
+      {
+        "height": 961,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111842122009111190886\">Tony Hann</a>"
+        ],
+        "photo_reference": "AV-0GLfxfKWYSPJIOfFuF7vXMuwnpNjoJZfhaGQiZCuuN-N2LHyoVthsuNQWxa_4iAY9G-SfbTJr9Q561hwUUCoJu7uKVqcyCotZ_qYROl0y1ED0Z_tdKzeDmyJJIeyyTyhgHnyTY7aTUsI5eB9OGw3Fm-NE0uIlW9EeUEQpbc7d-TID8moC5YWTbmlnNsisEzXemVScJjkq2uHNlootXq32PDJhdsWP46NMt-G66h-nc583GkUR8FZGq1icn7y-AmMnXmhOfM3cvu79VvL5taldpq1QB-nQdIRILD2KAwxAiUGg6IcL6i96QBuYRCkkYAGAhedteCd8hjuYa1l_lyqfk2ToKae6KQiBcwiqz0_0tXScAW46w2cs2P8pbQRxvPU12YdTaPt1cfyjh4KAOEOGhRpoww",
+        "width": 1440
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102552895393875179554\">Traveling Sky</a>"
+        ],
+        "photo_reference": "AV-0GLephazCvwYGHsqV41nAOOA10XVGEoZJbHMwEjAMqAzR5mHUft0NMdTd0IvV9m6aRE_-R4-uutlEzocCF72Q8886K15FrXmwGZOKJe6ZFWT_WvDhRd3s45tMElwbPP9Mru48PIhTfV9SpXpmlqRg7zK3kOt5J0pGn3NhMJ2KkkdRoUpvh1BQl8kUGinUVgNMrIh84k3mG4k2bdhFvGFyzOpI6btuLOVsEjzPPePhNsq2wajwNkn7AzilPhRUcPFa6V59Ak3w9yKcmIb9bneuNlHXd3FnCX7GajtZ6RB0M7w0UhP7_hKbXMVN4Yt9TAK3T4ObkUJr6bdRfapLi_Y0_72erlWRldnnLM6poJ7Ybw0fJbQTrntXOMEjyXl_abvx2QRnVY_d1K6gEPDbrrGY47SWAAjC",
+        "width": 3000
+      },
+      {
+        "height": 1713,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104101707697737780521\">Soulful PDX</a>"
+        ],
+        "photo_reference": "AV-0GLccou0YAiI5BC3iemHVpRBeuDL_EupWrYBQQqUwXtzIlKo6cZA7D9d2LxQmDvkMjJFSjFyho-bvnr0l5bqpdmcElZhbvGoNAqJQBcTuzqgf1yCA5JYXYJR932igVphcxP-tPpyJ23SgbghhmNbsywRc47TL613mJG82VYpISfWNQSejnRzzZw97HrEpVi6h0MAsRX8gzuJ2IRqmE-L5BHsjlBeUHiMLTYioYvefbxbyks399PjjAPqTPgY9Fn09Gnvyj_4Q31Oly3CSHwaEy97xfKxHDBZn7EUKmWtVSERYSfIxqssyrd4TN-WPycYKaBl28yiVxKRqw2OmtXFBoIax0alInElDMB17G0j-4R2wmtyj6azOjzHbVY4OKPcjiD-bG8a4Sf7GQDCr5CJjBwFZ4XGAn2YPWu_8U5ogMrWhXw",
+        "width": 1506
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104725101280374494533\">Mae H</a>"
+        ],
+        "photo_reference": "AV-0GLdXCZgSTdGjSQzunfRLoe3Tf_V3gDylN7T97OQaqJxGfkFY_Uhp2sBS3tUQtylr4t5ysoc09R3SW1XDOADO3-0_8ef37V-PHhDS-4tZsMW1yasTSqRGpT92Ok4mIgfCiFE-i36twdNlU3qVjZ_V3vG9hSpUEWJev8JzglXgr5I1EBCGlcunyxOq8eFlfrv2W4v8HtjCbg9ZlzmEdYuZtth3ccR6Ito27AuPR3tgmQC55HoDsWjzfDFeJ8tTBE-zNV8J0APbVPIfMhE913Q-C_7FtPOCsn2V6kprnk53ELmqyJth2Hd7MQPZJeANwhnLBXa2Y7H3b-MmI3LDcFqzxHzTgnhOLXyArWukGQ3Ljb93a9ck53ePjRgHTr334_RgEVU3MFrJB79dIYFF5S44qdB02td5",
+        "width": 3472
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107536995448016052071\">Joyce Reynolds</a>"
+        ],
+        "photo_reference": "AV-0GLfoLWZg6RLZTovAYOpJ4WSIytgkQ8XpYAunVfhPZ43mqMhgin9OAFO0YwuuLvXK65oEiZ-Dx1z1uJv4w6YKfnAGLMUL5bDb_TtCKIhRvkvM8ImrXuXFK2HvHTEmtGmpMzkq2sigLJhqfwDg7-ujNnhbU2aJd23HKT7C91wOw4-qiJIPSEpW9tTCfeXveDlbRgL--ywPRkUvpMy-hyZtpkOw55apNXeaTODkTluhAQa35qeNl0_xPIiAQwX4ph-aMdihrCkhBT3vwuvW3cuCg98UMimmjyW7V_ntV2DDF1iFzWlUOvchrnvzMHay4O7IMbZ94GA9GVtP0pIu8Tt8JUwr1qk27x4H89iUFohO5nMcJZOkfSiZKG5ctA-iCTBr3ayieh1EeuAnyD0hbbxOHuB53eQ",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104101707697737780521\">Soulful PDX</a>"
+        ],
+        "photo_reference": "AV-0GLe4yQhG0fs12YoRotaE-09h64aFNdCvZFK_3ceLpHJGhBpwwQG4KzhLsuhdz1ogwplAyGDaScNRc898X5XL-0kbWxFkRGLZbYK73xWQaNQU6vLvzMYv9YCpOzVgUj5JddeMS94ndVWaQyhSDNSlBJcNjeTynnjvJSbSu6OHxHO1H9QAKUa_hKD8iyho3j1ah1qNts-hSSKnIcV9Oph-IqVxbpX1p8acHAPIIbaG3Nxd5e_GQ9CFyadJIIoFLxtikl9PqQLGENGjvFzUr0oblguWVVpYbzNnaUqdNnH6NP5MoJZes8UuVkFRXTXPfjSE9fnxtU1c1XxTg07PEaToeuVcUf8Kdtw9FgPMfJbX_Z_tFgs8Og9Ae62Jz_bxeCNwh8y7FT41I_E3O52C1I9JBO__5vUOpabjwT64QxZfFgRzUg",
+        "width": 3600
+      },
+      {
+        "height": 3964,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104101707697737780521\">Soulful PDX</a>"
+        ],
+        "photo_reference": "AV-0GLf3YBDiCpczTF07dpcZ3uAgMguWWm7Vns7FFBKiAvZm2OoU_670cw_1s1lEWesm4jSosbq5x_GvTIktKGsBWvidvlXat3I6p6s7hJsa0SHPAm0KcMI3AnHNLYSBJ9D7q9HPDL3E31RMhy5-U788H9cMjOxWtMkZCa6KV4vSJe9oe1B5UExAwF2z6fWqvO2DIN7dUWjALmusP7QZNJcpNpnWt1azzp-v4fPUpD6AEWukLlQeQsBDTODK_AOuiWcR8xK7Tb9BspVsyT20ultTUNCCG73Net9Uew8QXvH_wdM9juqda5q-4lJvBleWZyg-rsuoT_X__A3uay9WNrviyGJGLvPk-A35qZDT6S6OT-vf9pB1B5mx5gsFhD2j3_feSkydE0szqQaOR_2V_7zErqByQQ",
+        "width": 2776
+      },
+      {
+        "height": 961,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111842122009111190886\">Tony Hann</a>"
+        ],
+        "photo_reference": "AV-0GLchxXzhWOXmuf_KzOs_0JGp7WUDBLSBK8zFcUY6RgNorjnaGVxWjwv3izPOfCpxDCQckuaeT05SCCylM6A2_0GuvNKIemAUltpf26UtH9NfN4CX0WUg6vdMy4_2MHs2Oa_lR05E6VkCHKrGHScm99wwsxWqKTlaxFLIkx8tWlYzeS7aUE6Rg8od5tATXa7rzScpHm_CCAX7Pc-VKxOfRzJUM2379QBj5trRGVUpFBFkadGvrGSb1OTHPslBXNOd3QbEBm6H3dljzEKr-4xe6gXhcPGu-Eqa-uW8y1x5YH44drFuxGzgQAdytzP0vnRLR1a6PJ-XYjHqicWh16cJ0rSTAwLVyQlPTkehZbjtYnIdvLiEH8vImBC5m7Mk8YU8GuSHHik963hAveMNlnw_gXXnq5I",
+        "width": 1440
+      }
+    ],
     "place_id": "ChIJs3rtJz6nlVQR5jJBDlQVLUE",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4696433437177885414",
+    "vicinity": "8029 SE 13th Ave, Portland",
     "website": "http://www.soulfulpdx.com/"
   }
 }
