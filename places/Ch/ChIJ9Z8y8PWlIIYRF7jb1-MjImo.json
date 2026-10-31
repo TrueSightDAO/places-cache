@@ -1,28 +1,204 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:44Z",
+  "fetched_at": "2026-10-31T20:14:29Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "rosalie Apothecary",
+  "name": "Rosalie Botanicals",
   "place_id": "ChIJ9Z8y8PWlIIYRF7jb1-MjImo",
   "result": {
-    "formatted_address": "3201 Toulouse Street, New Orleans, LA",
+    "address_components": [
+      {
+        "long_name": "3201",
+        "short_name": "3201",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Toulouse Street",
+        "short_name": "Toulouse St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayou St. John",
+        "short_name": "Bayou St. John",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New Orleans",
+        "short_name": "New Orleans",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orleans Parish",
+        "short_name": "Orleans Parish",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Louisiana",
+        "short_name": "LA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "70119",
+        "short_name": "70119",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3928",
+        "short_name": "3928",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "3201 Toulouse St, New Orleans, LA 70119, USA",
     "formatted_phone_number": "(504) 488-4425",
     "geometry": {
       "location": {
-        "lat": 29.9733513,
-        "lng": -90.0893872
+        "lat": 29.9733498,
+        "lng": -90.08942569999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 29.9746634302915,
+          "lng": -90.0880849697085
+        },
+        "southwest": {
+          "lat": 29.9719654697085,
+          "lng": -90.09078293029151
+        }
       }
     },
-    "name": "rosalie Apothecary",
+    "name": "Rosalie Botanicals",
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117155240704353983437\">Rosalie Botanicals</a>"
+        ],
+        "photo_reference": "AV-0GLeWpA05hG2x-RhvQZ3jMHgCNHeiXLoK9IT0UEbGjN-CPDhYw8zhLvRdKiTlRlDqmBB08fn-D_fTmX5i1TK7KJvYp2maFrcxD57fgBYXrgRQyvDVyTZtpPLgH6Gc_rCIw6Qx1cRpBNXHclTQi0235Rc8l7MSSfEYP6sLqD-L-wOSczEc4eyXuJ1C-n_HN93-z8r6UiTICJWKoErMyYs87sTtaRwdXTR2bA8yjFy0pjCivqWe9clmadXh4oBdWugVphBLPIYxS1rouP-eUu_tJnfAscCFDLyApzt6eLzA86F-E-bHssE1QzO-chS_DW0Zcme_FJqm2aojL8vpgrkydmdT6r1lQbpFWcBOdgVn3vdk9L3PO99AmGuJvx7fNTnw5WtxNKbpN5M0m6Pdm-yUe_E6hvr0ipQ",
+        "width": 2448
+      },
+      {
+        "height": 668,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117155240704353983437\">Rosalie Botanicals</a>"
+        ],
+        "photo_reference": "AV-0GLd2e5zpHjIYMsOuBiTQJjoZymq7N_VKRiFUK-H0giqJeVABnE4bEFS29CAA7B6MZ7Xs7bOwi9dWmSorn-HM4Y_glXMJyw7gsy15baLENlLpuItA9rbksqupJwWOZOr13qf_TKreOoVTX91r5N0F1SZ4LIVOEuZtV3SuN37h4Hb0X_zYvCspxIE7S6cPsKzUXK1SwJasPRAf_kDx33HTV_qmSpG7Vhs5f0uszeAgnLnHxOgo0T0rD2jMwbeg9f2P-44UCxpkCWGvdvGU3y6FzwyTPW90lyWLY-qD8iNQO0hXee_bCNtl1ZkKCn4UkQTDNkut7kPajVEc7oAthNL6_ddHJcAakq3oV7xj22QvnDGahOWWlmDh_xK25qkQrYT-AbhwA9ZH0yhHJpnAMleK-6i0VJ3u",
+        "width": 1000
+      },
+      {
+        "height": 2371,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118300728393775169190\">Evan Overton</a>"
+        ],
+        "photo_reference": "AV-0GLf9C2SYHmhBHumv0BEeVsbMlaTY8SRoaFMQXE-be4mTcZzZ5nB3GRIrtaEK0sgfa44K75OFGbeftxJDbVnh0XotkUILSYjrCVH6Yw-UFrVdpG6A0JMLsUXk5Uu5JsOCsBrFVfXP0Xx6sZeBbbrObaa0ZFAnc6suxYW-mYVL2QX02r2C9RTNIzxb-CVbR1SvADxEgMbe-AVV3Wj8BuSUjy4w5COP17VTF8VFl-cYsHIbwRk2fBfImfwMob4H1FqnNSnmD-EHm407JO1TOlvZlIdE0A-aFUJkAQkEKbs76WGPQIphVCzO_sdEIRalXFNvG0x1IyAwIHs8IOqhq2NyZyzjsF-0e7T_D7CcsV6RN7kSm9tlQ2EoL42Vg4ku1d6S6VNMAw52dBZgqCPcDKe4ho0fmUkHLnk",
+        "width": 3140
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107244901742576884386\">Anandi Premlall</a>"
+        ],
+        "photo_reference": "AV-0GLcwfLqWBbG7JN3jS1pkuHMbYfNKcD1UonBONLm7BgAH2DlK_8vGY6wh8GNJoFwpLhNJ5a3iLxxvc-vy0lH4ve2uwnSrL7bVGygMxXrmFbF4macNsz70LtABpGBgUjL6uNv7icsNmswTQMgbT13JTpwnOG3iqaINxuvj0p9cFmCUiGHbHIpKaG_y96ua21yj7LJ4Qr8OhTntum_wi-zSgmT2kYckUnIWKUFn--FPN4uD0Jgx0IFT-2Xk1TIgGivg4IHh8S3i_qAeFasux9Nbb8yUcQ9HI8tahovz2snLdQG-3Ws-OVf5RUvQdYsPn4UZ83B4lg3Vh6F042YpNjBDJRXFkcthxerxNdW3_gZjTGwOhpexzUPOu8HttkeqK5YSnQVQjvsYoCdCusR1kK50HEaRUVOJzrQ",
+        "width": 3120
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114483664912459764168\">April Bennington</a>"
+        ],
+        "photo_reference": "AV-0GLf2JRjzet3Igub7qBSh6gq9qgBwxcdC5QpS1awEilbgPPlkov3Eyd11jcAuK0w7vaeHfMaIGOjA56CFfboFmLuwoQKhYWu74f-BVfgWiZMf6cnBvtwm_o75hwoCiKFHC1ZEMqqCGNtqRCvta1Ri5Bh7CUDfguxfQqyNIX3wanP5YaOWQdbz7VfdJK68ZBUTXxdUsEnNqtId_sSvdJQRsHd2hSWdUStzHwD-4a6zdh-_FIPYtczadCkhi08_2Mb4crorwO358s6lFutAAY07mXIa_bZVJ87uca9Td_9e4Xc5Ig1WrncdK8dmy5oRHgf9J87c9GztpF9qDotlXzo0t1vWZuWFv2pybqCh_JXyDKN7aLh_orQkxuMcdEMeMBfpvGHyW4HGMOn5EuVf5eMH0aqO2A",
+        "width": 2448
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100851383601930552669\">Matthew Shilling</a>"
+        ],
+        "photo_reference": "AV-0GLdOT4o0Pryq7fevmzwhgYrtTaorWvrvT111dRZeo1A-TAillaVeFXrHzi2GSJf-5mZXaLlqQU5aEO0uBxtp5s9m0VU2HgZykDPn6ktA_yjECZS_XMvpUxKQgHNWDD8Wka0Vv_GGb6fK-OnAS-PPUvmM16xOfeATfA9dS45Le_wJQWMNSnEZHtwMciDYKp7oWbxRcctf7MpzjJjrWTdzNzWF4S4jvUe67rvMRUOx0I0uANgYSsqCmAmgN0NdKOqXNSwqzrJTM6yhSrVQgJCt2HYWx4OPOsG087jWcIwum1evM556irylSheGgBY23eTAFwWnwRsRtqErNpy4Xd3WY5lhnS4Isf1XyfefIAF1hgp52pIuS78SkohQ2YGb0iDOTqAw1qFCSTXG05kb9btGIrnTMQ",
+        "width": 1920
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107244901742576884386\">Anandi Premlall</a>"
+        ],
+        "photo_reference": "AV-0GLd-NCTVCiLPmvpyHP8dTaVZtMts5sDy746OvR5aj2OvHxu2QNigKenyHZtSKfcRoRW2E4nlH9TMWNrprXnr_go8BqKvzTPw9cZ3uBYdetGre6dLg0fIuhTnTsbJeidM-5X4qOAblq0qJNja-DwqmOcRwyOf2kRvyJwSiHe3WyXQdVWmitwonUv7CNRDE4iaaTosbA1Bz0ybUdDUUofw3-ycKvwO8-SfSIooAdXfBdm1BiYA-CqsAgYDi4oAcjosNb3EQYSnzBTqruE2QYXR2_7TAV6YLu1Isi_CjqISpj_rfIb1e5xpKyfbBi-mH4t9VYm5_4Ms3RULqqVwrBvM1qShyS7UF-ZcEyARcTcBV2ry_T0Ow8ml3wpnj9N0LYImgT-owZ6AHbde5L1knOsQEJjhUdo",
+        "width": 3120
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114483664912459764168\">April Bennington</a>"
+        ],
+        "photo_reference": "AV-0GLesz8s14qmYw-LqOG0xWCZrX45AhKxJjfC0zxnkuK_wPzlhl2jn4V0RNGvyoKrwR04txNw-E5ztXLIF1n_aX_6w5QhUUnVFzVX2x0WxkKAqRwWTK3ipUhjjEd1ZfYuSTwCGIWKNahbx8zZ5gE8IB9IHUgUPoYkhTqeiGeYRTXsmMGL0002i9gvzm78v1jCcNGS45mWTgkv6tbDnAVS7Ev1cisDm7nDO7NpN-7iigHB0qt-Ph5lSPoReDRgGcXzlhXutVMhRogWmnwvsVfX4-JQPySAikaTjx65GTYVBpKRt5uSTAuVfIbZi1UFTp8uuNfu-i9DtiI47NRL2Ul6cpSXuXje3rN7qve87SyhPAXGEkCyRU5AUK2AGX5lxHn34u6KuaflmJCxNx9Q_bzazCDIU_xQ",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106087421481137515525\">Emily Remington Murray</a>"
+        ],
+        "photo_reference": "AV-0GLdpIHCElAYM9TgKmVdWVZKX9iFZ0tQEc807pO40UmYQMnEORYM8sjNJl0h2kC9MtUVqwuWFeJqMJ8lKB_vQoNH5Vazza6MdUGLw0S6RYj04id2NBVLz0_8YdpmZPJGLBU6952Oi3bZFus4R5eyYXLTP7FC_XSaLdd98_h_WJZd-It-fe6zHLYNm40OaRMdlFz_dOO-ELQXN9fa72eegXIHoXkxMQQr_zG1JyBG9kjJ2YW5P25C6KJPaUoDi_H6vvrIKtpkTbg8PhhAfZET9y0cwwEBCautsCTrLb3zZs8GaUW-8iok9n3BbWFot10KlyOZWDhWPbFn9sfgF7IzhRnOchk4Lum748o8-aGkQE6jn1hc3qO4xgSlvYkW2qKITJB4tSeA3nYGA6jP6yD5Sy6e7f-E",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103437336505065392710\">Candis Konesky</a>"
+        ],
+        "photo_reference": "AV-0GLd5ZiwtqUSlS0VdNBl562AloG7qO72um1Uj_9UWYyw0CmmmQipgLBY5TEGfeHfiWBCEX-YuUR0tNDmBkbWLq6IRd1ltbRR5ZLR-UtUntG47KDP5D_GWe5qY2HUVOSwIm12ovsb4BsovMeOyuahKqKNWvhxpCQnnw317zqcziyCUVIPNatiHJB1ddVkLKnLkdErGytVZOXN6IVQ-avgeDoUh_2wh4RvIawlCnm3l9CsWxvwUGfQFr3cGM8J5h_tN-mR0pptEePrQ567K9pxGV7NvhNo0P97K8lU7VQVnkeaPoBarg_GqLYFIyEobGJmVR-jvuFx00TOfjtcJt0-XKwAF9ORlP84kUMQFAQI3d4cfNnlLXVdWgV66G_20HMFzkm9pHZBf2JAOmd0REU_6JfXd1Q",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ9Z8y8PWlIIYRF7jb1-MjImo",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7647714578714572823",
+    "vicinity": "3201 Toulouse St, New Orleans",
     "website": "https://rosaliebotanicals.com/"
   }
 }
