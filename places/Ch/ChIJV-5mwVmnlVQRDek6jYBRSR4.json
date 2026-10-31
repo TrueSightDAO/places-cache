@@ -1,28 +1,290 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:04Z",
+  "fetched_at": "2026-10-31T02:40:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Apothecary Herb Shop & Wellness Cafe",
   "place_id": "ChIJV-5mwVmnlVQRDek6jYBRSR4",
   "result": {
-    "formatted_address": "825 SE Madison St, Portland, OR 97214, United States, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "825",
+        "short_name": "825",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Madison Street",
+        "short_name": "SE Madison St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southeast Portland",
+        "short_name": "Southeast Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97214",
+        "short_name": "97214",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3438",
+        "short_name": "3438",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "825 SE Madison St, Portland, OR 97214, USA",
     "formatted_phone_number": "(650) 569-1093",
     "geometry": {
       "location": {
         "lat": 45.5132154,
         "lng": -122.6571018
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5144284302915,
+          "lng": -122.6557354697085
+        },
+        "southwest": {
+          "lat": 45.5117304697085,
+          "lng": -122.6584334302915
+        }
       }
     },
     "name": "The Apothecary Herb Shop & Wellness Cafe",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117959575704211206790\">The Apothecary Herb Shop &amp; Wellness Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLfPlevqQGdYIikWUyRp6k9c-F_-qURxh12LcMQ8QXaAyXThgQEQK5Zt0v_MYycNOx1dAUl16qSUoP-0WS_rsDkiZfDzc1KbTlvo5WULQ6YAFMPKQjbgv79P8b3S5oIe967-njbsY4OEM3cUyBYul4DC8IcFUsgpY_emjIOBM5POWO5Q2oe-IQuI1AQHX79FL-Sa2oi14-A4scMd3xmDi0pJx5MCwpp4IqZgvrd5yc0S3uXuo7O2wdboT6J4zYvbOx4IfykNS0qsLPGypBj2oK2tYiuJbDUAYo4tu4PURkTo8JSjLG10Y_PbmNc-HV9KlQqdSnK-JtazUd8t0E4lIjMj4LZbi6QcxWv4RG62p-XlzrsSmQ_OMsZsm8eGUz3JqJKtVcmmapqTHJx4O-f4NGLF84o",
+        "width": 2470
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117959575704211206790\">The Apothecary Herb Shop &amp; Wellness Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLebAmli4VMOdbPwcIl4pJl5kqpOrFaYQ1U6Rd8QkN2oQeNWTNsxHXOITO9guZA-191OE8NKxrNuaXVkALNelwkxjwfIR8k3aYrZ17u5CtiHKrf08UrOIRCUTLVY53UAATeXJNkBye1QnFtC5NoLrO24sOxdxJ0HrVUcoWvVI6FmEd3EgPAX1NRqVBdGSU9e20CvJDvP3nuPHRsJem3NQaYGZJFzxcnhdQVzOAjWHMTO51E729WCuggpRn9ec2N_M8pMQD4_s9IjYLbfcRqrsHosUeaAzA84MboEDDw28ytva-MUCyIl50xSqhQHGAbQL0xKkH-9OX7W4_5EWgPyVC5nqyZBtLIvqmuIMojQpIWnLKZmYlGaM1GVF-SDYkuYKoH-Ryo3SHleC1ypZTBhYY1eLHPhLCI",
+        "width": 1280
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105266868806596986978\">Jeremy Ross</a>"
+        ],
+        "photo_reference": "AV-0GLcb9fo60pHAJ0xGPSJY-kNR9idVHx8zrPoNhG4_trsf_YVmEzK_GBuLLw4HEBlxGJhbnQEOSQXaUIJwuxf75Z3WyBPVq0KoIfMQ_lPJ-SYX_105f6N1kw7wL1AQZvWB8suKZkLVEzaehTmAvsNQmaVmdMGMylNR0TYHSETdFRb-7F42gzV4eDibJbfZ-J14csZyyfWNdDF2pD5bcywYuhSbrZFxyI1DcPYf4i71e4xYRwvWIUTbRcRzQpYg3m31YUEBA-CnwIRlr1ocUhQKeTcdXcyf1bRAe7fNvirJo8s4lZcGL4L521mWr6gwDQuOIBDEH2ON6y0nCGIP6EZhxS4dKsbFIuxfjbvccRxoha5aN0WKtEB36aMkmRQauhRCtY4oCY5JoDMG6PF0gNyTOZm9Zsw",
+        "width": 4032
+      },
+      {
+        "height": 1812,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117959575704211206790\">The Apothecary Herb Shop &amp; Wellness Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLc-ATp8-xC3etyE2eM8e5IudFs18L3pKQDo2A5QLNf2CNa8Iq5x9ZHILu5dzwhIwyOVS-6MnyLSRZ_DQUUu99vT1FErfIDgMhXOHmZPsnbewM8YpcJn9M9R_eZDGVVfJJFMBfnOIpMcRb6lfO4dW6qKVpLvkhCFQjgnngnJ4wAT5deesX_xxV0ak-AiyT6rFBq3JmtNd53h9zhbpu-bE89QO44RPdnmr4-1ib3cqGq3TIu0y0-WoYkazbge00B2xNF9f3Abh4zTuOl1nnZsqhizfLX4eCPajHNxu6ii2a5AMwQrMACQH79vqFJn8x83cyQVhbs0z1QHmIRav-1oPiXZ4qshzvMSbk70uNoy0upgqXc3od4KflRYvJ-3c9W2qX633zFhQkR7BUuEqGBKIKidcg",
+        "width": 1356
+      },
+      {
+        "height": 1820,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117959575704211206790\">The Apothecary Herb Shop &amp; Wellness Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLcm_wgHAl0ZLCGIAhJ-5M4j9cOR34-7c6Dd388WCyGUXhPcXFvlUGpI1wscY44HOjDfHVpkem5mdPgDz9JqOPS93WpCDS4lmOXNiN-37e9Hee-w2YTIV-Lsrd6xuIDpmQW7oGGuMSKvtlLZP6-U28BGoVhwJ7n8O9H3c0PQMehoz0MrVaF-t8YPx9Pgr5Ubofc0cQE3n_875K5dnLvGV7Q3RHWL5zhCFzoLMoqwzM3_Z6NXI6gdpkxCdNgY6oEQqEkB1Fp_ykIsZr9MXAs1wzQgA9YLahg39uac5KahdesfdlOsw5byRt0mtZYYXEUA4tD1aDPX9wgv_zpc1N6KgcOhKt6RYlFWBlF_xTOM1Iia-5tQr1HWpvsJfRt-nPG1kBQmLU7e1AZsKvvrfOcZmEdR9xQ",
+        "width": 1346
+      },
+      {
+        "height": 2184,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102911818635722362218\">Elijah Steinbauer</a>"
+        ],
+        "photo_reference": "AV-0GLcOZFl5FmPbV51xqN5rfcfOWUzKbAw2W7lrBcSDFHFo23P6Je8mlkVBCyi3eYwUlNFTIs8hpNDEABrq0Sv4bLKRhbJagX2emcsOUVscBDm0yIF1gBLU8UF2meLPfpC6fqDW6iQK4LCkAcPJsY5sdj_1FCbI69kZ13rvARIaCou5OUYUbsNTcP2rFdNK53X5dTfFKJfvI4uAGMSVXRYQUIKtcPCdU1o90rR6FkDzMpBxNbauatjmv2Tz-chgzaUhvr6Q0-Y7CV9SLqaJqsLLqh4_8r1GukoRwwsRCcY0DQJtGxDrBvRVa0O4D0Fyjjc_P4GuUsp77uapFCmWvm1IdLwVCffIdUzp6F9rrA97X4eLZFc9vo9NODtY70-tdUSUtthqdY71b2992bfiLHXlVbXErqLu",
+        "width": 4608
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117959575704211206790\">The Apothecary Herb Shop &amp; Wellness Cafe</a>"
+        ],
+        "photo_reference": "AV-0GLfMXFE-meOcviMOKSQZFnlTjSFfuXvbSirVA8qELCMOGUZ3yRj7HImcZ4KSh-tkvNz2xv8aemqKzbgz4C3m0HikZbrVkYNYVN491UdrUb6MAADkjIoJzBTSJuoJVwFaDjeokDxE9opK8RmYGas91z2NzGYCvaKV-qk6eJynjrYXOc4NLSPE2tKNoGNr0pQfkRloyVCOLREyfJ07Re0oDizrkSq2KKkuyx-uR6NpXPy0zfndzPVJ13QAIVNNQT-w8Q52dWKwAEtwANHkT6-Xcrw2IYBK75obV0lZ_jJwO0mYdK3yCAFpFFX87phvOF6o7hqvY0TodxGAp7pXxJhUNm3ey5VKkykZHgRgFbKPMKz9lHC_cuJK5wPA0NDknTOk5K2C3piJfzJd542xZrA",
+        "width": 3024
+      },
+      {
+        "height": 2184,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102911818635722362218\">Elijah Steinbauer</a>"
+        ],
+        "photo_reference": "AV-0GLdHVwpbNst6TxXlredzMi7jM-NVezdai5sheQCyVjwnfhRnRld0WC0pErbJA6n_ymk0NayGVZdfpxveWdjex-PKjRplKYlaPFvXvFYMUxNbm2kJrpM50FBVWQjfkOzov4fCXB_7ZDOZ9VYq29sTJxO20lkXEGWXpfvowbVL-h28nb1DSeYJYqCCyjJxGeGEvwLVVHOYrgXG1K3UOI0PgCSCPEQBo-pCB8-ITxRJlcMHEfa6SIeQ9Df7cWhp8ReaYfgX3RAw58nbEO4GOp-p2mmCTMnaie4WqeU6os03X9xrWDsGu42OKmKnNE35epVSGRpBaEeLEkEwobpRtMv0gnuDuhmVcw8I7Y4CItJZUqWgEfODHngwTWc7xYGmMfIlu3-J3jLx_nsCQY9qwIpk7WyHDhlf",
+        "width": 4608
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116411874848072471592\">Dylan Wolff</a>"
+        ],
+        "photo_reference": "AV-0GLenMiKh9EXJ-KtOKdtmDHqEhIzCHgZQ2Zz03m5fQsUoeAJ2S79vI1_QNy00LpZhy3MO1zYhiuhS1DzIWjWssjqLMs97hhlQO-uHr_UuBaTPYNf1rNIhHDOmfAPSFFAuv-7rSV3v9OENgtED0E-HrnJvAAt9cN0cxZGCMeC-sOJxW2bHGEwE5m70hNJF1GSZpEEWKjbmZR6HH1u0RiiwNAQHEQqEAQvKjWWS5PgLoIzgcFAW4p7EKjW1XtlledL4VrYYMYZkJG_VM878Y4qtHDsid1pRZqZXSzdf4dmHzzvyaSOgT1xdrVsJ_2jHmonrxplDGD9MFyD5efme9Wm3b_3P_3MDZCGrSwQvztJh9H98UDlnTEmtjXe4JqKkvjH3qjM7VsQA7BmpZLFEwGt4UP217uA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116411874848072471592\">Dylan Wolff</a>"
+        ],
+        "photo_reference": "AV-0GLdbyALOy-nG66ztfY6Jfyr7i37rzm7g5UJPgqX3Z2iJMGh9UvxpykqhJ9vYBIVA0cIalIEXKyHx9HjhnQI7OxDxEF8iphDsS6q4r4W__9gC0g7HLYvhWoYQKI_M4KYRlu6W85xqRDDWMg7gRqjp_-4UcWXA6yskRyXyZsDY-T5MUh76gzkgcPflujisA3zJT3IDcI0klyk2lhdcEne0Be06utZ7s6keETSucaXMFPpIjhHeb9dXiH5LLM_3RKTnQczbdqx50U64RlChhBKrDRajuDOyF9KSZHEJ_681_cmI-HmEj5unJvpIml1mDPol4m9JOvt7JpqDJ4tG1abHNgH7P99bOmkn63Vy34Ci9SJYLVyMDZjq91E8QJ6gS5CaqUxPECvjLtYLJrqfAk_9xDETixhe",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJV-5mwVmnlVQRDek6jYBRSR4",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2182365107004827917",
+    "vicinity": "Columbia Supply Co in Portland, OR, USA, 825 SE Madison St, Portland",
     "website": "http://theapothecarycafe.com/"
   }
 }
