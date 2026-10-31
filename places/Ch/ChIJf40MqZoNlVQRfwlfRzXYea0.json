@@ -1,40 +1,273 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:05Z",
+  "fetched_at": "2026-10-31T02:40:24Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Way Home Shop \u2013 Metaphysical Store in SE Portland",
   "place_id": "ChIJf40MqZoNlVQRfwlfRzXYea0",
   "result": {
-    "formatted_address": "8437 SE Stark St, Portland, OR 97216, United States, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "8437",
+        "short_name": "8437",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Stark Street",
+        "short_name": "SE Stark St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Montavilla",
+        "short_name": "Montavilla",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97216",
+        "short_name": "97216",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8437 SE Stark St, Portland, OR 97216, USA",
     "formatted_phone_number": "(971) 940-4091",
     "geometry": {
       "location": {
         "lat": 45.5192296,
         "lng": -122.576344
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.52052288029149,
+          "lng": -122.5750970197085
+        },
+        "southwest": {
+          "lat": 45.5178249197085,
+          "lng": -122.5777949802915
+        }
       }
     },
     "name": "The Way Home Shop \u2013 Metaphysical Store in SE Portland",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 16:00",
-        "Wednesday: 11:00 \u2013 16:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 14:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLepZPX7NczgZCudoBrctfkvkX_QAMdgd4hUYLnE4vFbZG-7vDlYk2WcFOy6GoGM0F-fswzC14u1jsjHonqJmR7mCn-R2gI7WRka3_rDoHfJh1UFTlA2lGrKb6bnx0_vdWlpijR16ZcFnIU7dD3G1UWPP9yPDDQFQMsjKZ_ObmUjMP5iT-_FbnoPPlnkQcpoZlrFYrHNVuv6fKOmCC6d3v4IAtL-mTEmESC0ZogUxm59gjeaEDxhLp_kTw1RWqgA_xnh_gSfPA088jJV8VGpETZ_CdGoVcvhXGQRqgwuCEs2KdgPcGhR-bjODBKzSs17b2UbsXO2kRA1KtIQbklx6dhfSKtXFGiz7vnuQwfuxZUv8oU9tGM2Jn683AQN0eN0SgaNh2smNijKug-t4krqhuPd2a4",
+        "width": 4000
+      },
+      {
+        "height": 1952,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101650935757086600152\">Ironwood Tribe</a>"
+        ],
+        "photo_reference": "AV-0GLdj5q06dOTpltE4eH2qIPVM0oE1WHPvKmE-KOqTXN9Zh1elb3japn0EelzaBJmIKZY-pAu7IVrdoSaBw5Iui6crI28vVmKT9lTrj9XY8WOW0Qlzb9RJe0wYRS01-6HPa9cTKstNlRL6g4cPLhArp5hpTvL5VwVazVtGYhjcS9tRFWr_qP4iKWZxu21LhTpNFzskV233ed4FSdk8YPboE6V_Xw3Uiec8N6lwLNkiajs-iK4ufK8nfwe_UCMyBQZn_IrmN9D0Rxn4ljWqKeOv8sj4hgUCQapSZd07eTPnJqm5nJSmLU69fowCHuQD9Wy9jDoIBR5SX1eUXSPzw-PLlLyGeXRfYctwOpOxqjgKOGbj5Vlibr-0RQrsRt0-yssIYoId-h-kaHspfC2G7gxOJzhu_mT23TubVziUV-YR5ubD",
+        "width": 4320
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108702544263375217100\">Abbie Lu</a>"
+        ],
+        "photo_reference": "AV-0GLflK4I7vBkaU7_os4hfVh9hBCDKL83_vmNknD0A7FCHeSUEIB4Cbib3bGY5kMcr0HBD4Pt_I1ossjOr2E16uht5u6P6iLbY0_r7WCf-kPLQY2R4wUxIBDYgslRT7v2dGalIZCCZIKL-onUU8R4eHy2wfNwEp1wQq40Dd8J0BEg_M9mFqlvqwUVWYBlPB_aCOJvLqMgfejzPdqeibL4EltoCU_TtJc2lOIhNALDbD9CJDKhhdYCushC6iNCV9_8YikM4xvScGYP5uJv-N41spgm-FofibdwRQqMu_DpzhMevBKaC1Y0fuNHRiCvIkkQIiPyJ5AmQQdm-zYdY_Z8OlBUrVz2UddL-MQoB1cQnoPTFTqLjWUCu5IpVb_wS-NhoXIFSvEkg6Vz6TY5_Rx1PCOMIPua9Kf5zCZNyv9sDkcMs",
+        "width": 3072
+      },
+      {
+        "height": 2358,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLeRQ1ts85SmpMXcBOBoeUE_n9ccHx1VsCMTU4oGj8UMaq_RomLlytCns4YdIeI5wwdmZPT_2jHuwbBEgjDCkpDwNXmSpZSeEFenXIenYHJpFD0dsixDW_kLZWir0AhEO0YCZTe_rSkwjRUROHQfXM_n-LnEfFEw7xa2PkQD2BaYkpMXejJRIE4US_VGGTl84mB2_IpdCa9sL8ZtKzd6lWs-vbdX9Uh-bcVCv8omqsafht6Tjf2CTVCcaF4kan7dDx99u92xaA8s8H6bppaeufn_npMEVDlQyZuvv1emgS-08JOCcTcgB8No2bWuK-SWD_HWX6h5inZruFIVV1ryNcc8P84SPqpbGpUO5kqIBcCYdjFPwLFuwSD1j5_Dsq0QN0nGEOyyedsSVX7FBkWYuOR52gEhjMucpz5wbcowodCQow",
+        "width": 3008
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLcgGZkiB3LCGsKexpOet6sU6uwFQ-SpVbs-8SHP87kxeYiPa_YKWNGyZLUf1Q4Ty15LkEDD1Goyend-5ppzFPDTqpJ7F3FbNeAc46-NXMXdcKMajMg_i_lOMNQ0zJrAVs2ilcZiwxU0s6gRt42fNz1Y2X-H78qApGnRv1A8o6F2fIPQCZBiMeJFop_pfGWXykCWtOUWtosp5rtekf2puSu14UHTz1sp3TiNPJWjpJLg1yL4afLBPWoEAVyoqDjjUuEZQz8C2mFHWtM3pSSpIMGPyFxGjDGdKVM-cJoPbdUQUQRwVgWg1eQOVzkgOYw5CmZwyj-9T37tK0cDcjKoe_LSQxRqqdZ1crJ4ctKGiXZ9K5vo97FUqpK8irOj9xZht6nimlnjFW5Vj4Pt3gMz5Q4HAd5xNRbFScqKgvvVsIDkuA",
+        "width": 3000
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108702544263375217100\">Abbie Lu</a>"
+        ],
+        "photo_reference": "AV-0GLdzHblrKzbnHlZU0mDQvR7GBgqiRoBoL2IDqmBXLXKsLuQQ3dAagPfyZjb69PZiF9hOdchkgXPpxbMZJ_Q3W6cLBpwhSSMcvLeYRBlQw3jsXF-kLR6eBLa2fCQPzNgdTI4uVGSuqwv0xXDXZGeftlVPN12_X0vPasXX9_m-0gRhgdxBkmplRUyYxH8zSyC0yPAdw2LYHDigAgCURIV4TSBSSL5AOLA6yv68fMGh6Lqie5OdvM3-_83KopISC4jpEGax7EFKpwZwL7zJO73goU1EZnUh3XcD539m4rXx6S9Q_YBPLh_77xdIX7mA31L83MtwGnLvKGp6qN3EwTH6IlgQ_ynIWSkMxe7Tc6W1R8p59hxvD7eAbAH8PTRvRSwBl5ZHsJz6pXVCV4BKtvOCMRGFgC0EllSBojBi5MaCJhGMlQ",
+        "width": 3072
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLdRLZNChS6xHvPEoRcK023wNVsZ5EyC-fbupt1NRiIVILTxbkdYnfUyNUrZ_wFaxVI8giY998n2hoSIUBNKR5lxLBucoW5dxDtbDpSlfylhk_J22Vrz8qWQFCykJoLXptZhGun4at96ozft6XT9uhXRZLIS5YTrV1raQtrS5QUrAqqAEvNFN4GAfR864-OjaQksaSuLWm7h2RZAr77qU3GpHYKgUNye0PhcoiuiidHvW2aTG0zimo6lrjtrve3E2Gj4QNFDznTUtGF7Z3dEAQKnz5aYCXqfOofBRhg_MO_8PicoNQV6QtO2P1q1-vIazknayc63jGaTP5m7BRpLB4wnFXwUnQjm0M2qm26ogX1j1Ed0eB65VSfbksq2HZMTUTcD0GLxa6qrGaIUYmcdhCoMe6kT4-SzofaHd_JkZ7OC_Q",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLeJO7abWnnuMIq0zUjFvlkKGUGx4CfRKeJTQU4YrdKvh1afJ4gdmeZvxiRHb26PHf7-mJymzxX3kpAvxw1E8hI9b5Kjuix9hbqrmo7MQKQ8FGCCW8zFc8_CWVzXOKA-MJZOUUp40jAaKm0ZTL_eWhsZMNkj-XVklMzfTtrhDZGaxDTFX0qpjOSpMmN1_tMG_jybQna1VzIXO17kA3NW0jjsrsFuiguHq_uHwFJveLeJJEYpCbxE0-aF5f6sQ4rdyq3ihOYrlYGA8WWk-vNxM-SGdKSjVQSxlX1T7S1NyiKHHdbGx-5NLL_24lKBeEFrBtQOkBk70hNf1Vu0o4Tkup8mxt13uWBZ1tKFCbWEhwhA6BUCuZ1LqJtRqDZgogk7AxyPp3ND6D1jJQnsWUCyloWcOPyA",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLd8rwtJNVoY8zNPvT_R1D9rEoQK6a2_zyw4pqi_C4MKJldEheg6u3-0oTgb-298VF3zwnvslW9doYVZPJy2B_NRSHDj3U-Fc1di0ZAM4l3EuSLdkKN8wxzNd67JwNNAOtlBtDZ7gwYylpcl-s6Qg6OXFog3VYRkGlYGnzlzgV_oi9CL-JTFDyYUsMaqqzJ-xXxNQFxVlt_WuaQMNv7GB5ZTUHkY5cjr8xqDgQgiW_-zoYAYgheWj9gZ83PiD1BWHNBpXuZUKng09CiR5P96Z6Kj9frRjk0KuPMQk58x7S7CHeIBYU2Yg6hZn8oDj91oyuQwlQHJUouSTQ4PrD2BSxQ9w5nXJ3ZPBb_zY8xj35Wu3XqGMglQmwk-0-HUJ3U3kVacryOWCll3lkDUPaWloT3mbXg4CFOTo13f6NNw1d1E9w",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101229929514504551738\">The Way Home Shop \u2013 Metaphysical Store in SE Portland</a>"
+        ],
+        "photo_reference": "AV-0GLetqNconmZ3ZLqGsM_InKVqImhnA15goS_jVHE6KaA89OZtDqQMRNBSS6762bekM_lSbClnbyDy-Qg1V1lJ8rFuWrmkJeTCFZw0TSdhv0rv67rXSaj8QOvL0c2vWDwevEzrBo4sf6kUBif3-61Ir24DSihRYDCEhgI1M6Wnn34pzaR4twuKOu69HBOFzEH93HbUMte-Uxe6pbiS5pNE5MvWOpUNCq510brL9zK8VMZ5tuwncU_s_s3N3hNXwmbOabdRz2xwQNiD4y7ie5RcmpmpRqKPtt_am0uvBPOBYP_-rev_Vd6CEfj-nXslxCLArr74X8O6J3yQIhxDTySZdJypOleGw146OID_-f1UnLRrmJHekHIHdJq2aQmiv-LwG-0KwAwIibFF1QB63R9oxYvEIJw",
+        "width": 4000
+      }
+    ],
     "place_id": "ChIJf40MqZoNlVQRfwlfRzXYea0",
+    "types": [
+      "establishment",
+      "health",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12500259964085799295",
+    "vicinity": "8437 SE Stark St, Portland",
     "website": "https://thewayhomeshop.com/"
   }
 }
