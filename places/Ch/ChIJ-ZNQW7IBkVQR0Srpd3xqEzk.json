@@ -1,40 +1,275 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:16Z",
+  "fetched_at": "2026-10-31T02:40:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Blackbirdspiritual",
+  "name": "Black Bird Apothecary",
   "place_id": "ChIJ-ZNQW7IBkVQR0Srpd3xqEzk",
   "result": {
-    "formatted_address": "5243 S Tacoma Way Suite C, Tacoma, WA 98409, United States, Tacoma, WA",
+    "address_components": [
+      {
+        "long_name": "Suite C",
+        "short_name": "Ste C",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "5243",
+        "short_name": "5243",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Tacoma Way",
+        "short_name": "S Tacoma Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Tacoma",
+        "short_name": "South Tacoma",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tacoma",
+        "short_name": "Tacoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98409",
+        "short_name": "98409",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4318",
+        "short_name": "4318",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5243 S Tacoma Way Ste C, Tacoma, WA 98409, USA",
     "formatted_phone_number": "(253) 407-4616",
     "geometry": {
       "location": {
         "lat": 47.2081899,
         "lng": -122.4833131
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.2094783802915,
+          "lng": -122.4818855697085
+        },
+        "southwest": {
+          "lat": 47.2067804197085,
+          "lng": -122.4845835302915
+        }
       }
     },
-    "name": "Blackbirdspiritual",
+    "name": "Black Bird Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: Closed"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3708,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc7DdHcK0gMlxsuCGt90fT4Gbbvcq6UEdNDLMGKJ9eK7bixKFdVG3Dy8JQ7M1iZDGCVjdsLHgSBGu-3vyBEUdrEY8B39VXuQ_jPrEnOwu4v-4uI7MSl34zwRSACOhS1JQNIEKvJvO32uHT42IdLRtxfqQEj_svFzh9WGaz66ijEpnMJDHSc2heoQvEP4kcvrz6gbG1PpxYN6hv-L4MZSDuVvW_4Rr7rghLNR_Y90LOR-44onJZwxTRsMZXRTBiVJ9dMaKGoLBNQui6m36953GhrJqs3k-kuJubYQu437i2pLgpdhwx5wtzv7tSaomP3g5AgbTYfh44sTvATMxAwWzO8HxiQswIHyMm9l8P0pRGfVXjaw4ZZ5-cYkpEfQhsW2Dd5BUcciB8vQJ8t8dUa-GlSwtpV",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeV5xnmnvVZub2zrBsU2HcdDydl7jRlyhTAzbVPkzinkBwS3UwtARfhBpeYVwRtbscSj4vMQXyMYlC9IylPhDExIi4nWIiF4QvaHc8CjkQF8ctl03Rv4f54_1sfsvVneBjXz5Tw2v8b6VO1WIymqNBxoCO_Td-wGcDi0R_wYpOoS1cJCZfkumlZtI2-Hlqsow3tJ1QOzkzYNnyLu2sxI0mMo2gJSqHzc_roZplnVZX66tluXDOflzE6FBejwxKe00qJCjkCmIuG_2BZghoN3NEo_vntkQJ5gOmQPFCDdWpK1U1yjr3_1q8C_Un79Mx48SO_FRkoIQlVBgAi1QsSYMjb25oChfRQtxYYTRpTF97hawpDt04lZwQPlaD97moE0Rc0lM5qknKc1HlY_Q1CGbTqSA4o",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfJAZbYsI2ydWshtiY1uQCoFWB4-9QwuRbo9fU9vp5slfQdqofT8kZjkvD3GnYABabMH6jKRlVTnB8D8-RjAAKG8y5pqI2Ur0fL4ejg0b7ahIUTtPhPk3OBlaP-wjfrHjbhLe_M6kej45icxhrJc2G1peRtwu5gT6nBJz14I74WVqTpxRBKQFjr1EtCtmoURdtvmF_edHced8g4kyqe3hw1uJ8oaj5qqifsqlNhZNiOCMHWqaUuUFe71btjzT8jD3RuSIomOtYQjLkGhQwFFxrTp3GKhGv0DH9Vm1SNF5aamMBiYFRnmDzIQccFH3na3nZSErBwell9oF53c4jZPjITUWMTga6THxbuIGsPqqrXKo42nSAzzGJIFBB4yqVES3WP9hlgnGZu8Q371PP0J5jR6opW",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeAE6UjgW-hNy8D0yDN2AXUMS6SviBJv100YOs0LUO1VQgJOeQMWLoGlPrCjre-ZE6xNX4RJ2aNPUlueYjNH9UBra2494Thf93EWBrZRqD-5cR4If_g61RpN-iGDafb5tEYWwJA8qTDp1LSnHiWwKgjQ8--bPiaLIisC9qwOgoWFpIUtADAneuRNIekW6Rd8O-x3OheHkQ4C7TUGQ2s7oTk47oJPVD2TNjnoSVHukx489K90slbtbt6MNhnW4PF5kxyTlds6m-XHVal6BTSQUdU83nutjga_k5Fywy12lsH4-ueJ-fIIOZVn0O7wrYV8sonRqTE48fkZ3mTL__hlEDK7IFhXe-vUsOIZ7vZBPu7Cqsw5XKAQhhruKC8I-h7P4MIWGJSP980SBoMs3kCVTfNWcJn_faQiZqr9FTDyWUA",
+        "width": 4032
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109679025845130091332\">Aaron Bisnett</a>"
+        ],
+        "photo_reference": "AV-0GLe_sONlOnA-nuNSIX8HBJu7cQPZMm2PmRIjqPa9G6FurNX9b8VHPY-iqTHMjFHWZxsmB-h9Zw3qTX8fvjK7b_d9tdo5dMDsIwLnWK-jWpwlI9EFNyJKRBdhaCBcaN82h_HViWOtuKaDST9j7DM_o4xT-ao9mVrmfjbbIJnPp3aXP43bxsEebmTSJNf_iRSQgL5_CO0uKh5W47_FbVOFLWyEPW5DxgZuu7yw41hRozojhOKvUw2VO_jewFgdWEdIRWq0oUfaC0bqMRdYA3AFKPPXwLMsRwrWDLTSfG43h6nn9iSaFppmXENEaR26jupNxVlCpOEV-MfsbxGigUhA2j8tbejbdbq3hlnzhh4mUJzBTKsnQ-wQ4GFb9Ere_NkXRayTL-K6AVZdugJSMTmpr5BkvPUJwEs",
+        "width": 1920
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdMpH1BSuCZcodSq6p2eujQTRbHXvmGruwSJ7G9nGDfmF3UpZANvWdXliYV3TcMnQfkMVrZZd-loHsmO4yUtBY1Xc7UKVFNgW1BHyn9Xoc6IYK_4H8zKZo2A5rQD66r1XOQjIM-3ctLKFp0sRWCgjt9XdOYP6Bvc5U855p9qrr9xhTwqORFcXpZ116pyOkOomnzM62og1LuG7lvsFaGCMvOmXx9LfH1986CwIl0xh0tOfYkml2gpZTOyDprzqMMnVEVOXomCdzeZ5j4Ya23s_gFHSUvbc79z1pouu-LSuldIK92cDW3APOi89j6xrhwrc_STy5aDnW8GaHkUXhFkVFuGTSEsBF6S8v9qe0YCLeL7o109K1b6aLf18VrrqV38iChq3J1ou-vXl7orw8RPNGVUy3_",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc1EtHUD9cnlzvjPrelrdHAjlcEVaqfxjtwhvrVk-EN5VcP0L7-_xZ0Y7VuP7FH9YPHCqSptMmvdWTHc6dlQvGp5RbwHn_SYCOpZYrFndED9FJZNylT6MDtKMyKc_Z_2h3ipEdhFZ58oYBUXsShm-VTP5TkRbY9Iz-laY2IsfRb47VpkdbZ_TR-liN9svVCrRWIaYjROlKMIj4Cpq33HzhroLKPv6qyIqmrp7cqMydgGbqdM6v1g5oueWTgwnJ1R-LlKBeZXozkrVNCRIor-KmxvlFXr0Pepr3u_Y4sAin-gBTQf1ObQ9cWe2OtKdEhLIC4YgNuWkArDK2vNIA7SFFRpnWvSCAFUN4cgFnYqw9A8DLCNUy0GNxvXQr2J2MPfuil3VIKmpAWzld34LEVD1UQzX0",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110198069593801603262\">Eleeyah Medrano</a>"
+        ],
+        "photo_reference": "AV-0GLc5NO20vBT3C6giJrcoKUzXBX_Nieqff40lzmhWV4f4M-PrYR7H2Hr8enKxudg7rX0SCQJrfLGiebKgPbk-IZP5YuHj-tXteUutTvIZx2vYRbF8NQaKVY18GyQpGT8jbgPf0MzRIyomgqYkzZ5NcPFYNLR34X21VQ1a2g277ru2T6gz2xpVqv6c3aQJ0yChLU6vjRN0pUe4kOi6unYHzsK7aqFqhNsdwfnNyg9Ur7Qb6zMzzZhXK1Sf0Xnz0mstZ4gsTrb3ez9iVkFu-n-amgoPEjukTgFoJDyqP86q4UdBqGxcIC1u3MJ-q-Oy48t_h7JLSlCBbTqYQoj0RXtld7bM4V06FPqVPpmBzp1EY0aY7g962NfN1pnm-PlkaQ_5basSAoy-rFOIxXNBbGB1AVF84No",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108652633415680601404\">Black Bird Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdEVFPEFKM9iXt7LISCJ0fmig6rVdiChGLcBU_DLBXyoeQPEx9gaULfMVl4JcpZ8qLAnKo2nZrisD0lmMzRHmcajbQVsb79CX0FG9vwBSnC3cfcv1k-kd3di5b3Rc1vRLaV0gM6uKUL4whwb2KvB0LO60PBrFIQVBf2G4aclYhMxdD_eZpy2t6XH-7yQLnQvTiwkCY-XFIfOCTG5BrwM8jiEkOW3UDiMAShrNPmmMuAXgZiAqRTQhOZy1ikLjKG_BP1p5RYJ9jZEFHSl5jcN3J6aZDMLHF6gGdD9WIbHkTV1uMDJM9mnIhwh3jS4RESpJdLKhKgUKU2iMl80G_HP1cVCSun3F1gR6kwI233mBc6SHiseNPZjBecFy_nS_-PC_s8zGZ_HIN66hsTBIGmrk5lGmS1",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115348430432369169047\">Stacie Nguyen</a>"
+        ],
+        "photo_reference": "AV-0GLcmUbTjaZYkoQrorsNMxCfIdvCVW2DcN5llk-wHJ6HIrlOvtBGubYRR6vxG_IGIV0SWMytChb5sTE15aPxeos-RVK6-B4vGN6DrAkExV-iZmRIP9ZbV3WPdQL-0H3J7pj7I-_qopm7GvA71UQuSc3_PSNHr72D39DiolRhzQ4PGDq6At6sOO1UFsdfwZvGReqMpQsK81mD8QwltdacrvAPDGdhYLsvXOdVPQbQ7-3MJMraOelwPV3gw-aHGWdwou5eXB4m2w7d7lR7xXbcU5vd9S0OvqIveNyEDZEa03BNk1ld0pVgSVRxdVez3vgrsdGhWH5qms5_5TPh5Qp6M1GDiB1dUG1jPVVOi8ZVHqb2LErtk_9_BYxalatA15rhZdyi463ooNMsYDDsmMaGX_sVVcKhvRrm9NL5bv7fQ-WIZCQ",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJ-ZNQW7IBkVQR0Srpd3xqEzk",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4112747967539653329",
+    "vicinity": "5243 S Tacoma Way Ste C, Tacoma",
     "website": "https://www.blackbirdspiritual.com/"
   }
 }
