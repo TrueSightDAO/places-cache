@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:27Z",
+  "fetched_at": "2026-10-31T20:14:11Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Silver Moon Curios",
   "place_id": "ChIJAenOfjLXRIYR_Tp364gZ4-M",
   "result": {
-    "formatted_address": "215 W University Ave, Georgetown, TX 78626, Georgetown, TX",
+    "address_components": [
+      {
+        "long_name": "215",
+        "short_name": "215",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West University Avenue",
+        "short_name": "W University Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Georgetown",
+        "short_name": "Georgetown",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Williamson County",
+        "short_name": "Williamson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78626",
+        "short_name": "78626",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5502",
+        "short_name": "5502",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "215 W University Ave, Georgetown, TX 78626, USA",
     "formatted_phone_number": "(737) 349-2839",
     "geometry": {
       "location": {
-        "lat": 30.6334821,
-        "lng": -97.6787638
+        "lat": 30.6336046,
+        "lng": -97.67871
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.6349928802915,
+          "lng": -97.6774406197085
+        },
+        "southwest": {
+          "lat": 30.6322949197085,
+          "lng": -97.68013858029151
+        }
       }
     },
     "name": "Silver Moon Curios",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Monday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117808393164912435792\">cws1184</a>"
+        ],
+        "photo_reference": "AV-0GLdVCcmK40gK19PKE4QKWqOHmZFjo-CSdtcJp5KmlbqUIzYzCYJD4aLmHVamQs1poNhv8HjjJyuCGsndj1XMSV-9cr04qa8WObLq7cBAfTSVwst6sRmUh87rp10K14Pc2tn9-9fjA-CpMj1VCTJOlwiP8Hu_PbW4XN2JwXx9Pz5Fu-1kdc3CX5jPjKOVAOTWcz_gl_fEZbGhFpwvWV2EGXhnVOXj_MDWV2vKnN-1q-0Hf2kZQqx6pp6w2r2cBK-JtSazteC_FdGdHhj6YxescFnQkvELi13KvuzmJKT2s72ShLH27p0qdU4XysAXcDQqnf0VQxf7dcylLjH1zZ9gpVfXZKoMJMth0e-y9eYG8SiwXkdmLIKIU0eqWOgznChWIuyuwT6SaDjRxAZ4QuanQ2IxOZofZH6e63mndcDDlrS_WQ",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLeP0HCb8rRWdeTZCtztJekqXSx8CZlOKkKea1WWAdMvdP7bo7Z1sN4zTcEebm4usyDnIS-rC4vJJBacy9eEzycKrwJsESqBHYdb5x2h11LNyeTMVGLqKiiiuKW1CVcbi3Hh1_Fm0f4yr0bQCB9Ky3FR9WkQ0Yzt21Bsn9JCx0htuc8g94aNpHb4JMzFPSy4xXyXXi76DcaUo8TZ7nh04U4jhjrONhxIOOinyqqUm2Ozly7C1iJIlIrPS9Se_sRZMHN-AYiAbTN9YjkMt5jhB-pwaOUyKB1fI6fNDsEUwKA-luIn84MjgTm2kYfUtaNomA_O48iG9nW-XJcE-gTm_pjGZ6d_NfiaHNvprIxJz478gDhUNpLTvQ0BBgOC9I6p2TTf1G7-Palkfs_9JPWTav7n-SI2UlM",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117808393164912435792\">cws1184</a>"
+        ],
+        "photo_reference": "AV-0GLeiB7JOupyXHUFSmMxmdxmfp_6j8ooxPFmYJa2X_BgPcs_ZXYDUNISKYljAarRqM3TSTDTmie4LzTa96UoYQdYHuKw_1m0q8DKP5DWyPFdwatyuj3iMMAu1ypCaAZHMZkQZ3luXnDgTdMHmzGhZr34kaAmkAeH15xEuSEqYnValeIgbNRSFiIgyjO2i4ULbfjJDZf8-OWXdWFeDQP55-i-Gcn0OTWMOnSkMoESoQ0r0zJ43jMqolU-rfGhmDZAMl6XTEF4Fyf8snB233xDk5orgIP3EV6YvnBwmC0iil6D08UkV4rCIPRyblHy5ED2-uOwYJUVoAvH1Z35lUm_7MMovMgHauaBMjgqZk8PhA5MHz2POaps8tAD36Z-vx-lDTPGbRrGDPqGLAbhwjUlIfcKW_zwxhIv4CIyhBvouxb8m_w",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLf8jiou16bDWqQykFHc9BX3JGJLncZ9ZJYVVZHkYwKHyscAhX-fZWqfHB_4mYxDvX_XYM-5wbAl-d_z4RAXSy67gx5_d-7fJOIwmnPRoFzspHESxcLXSky2rU-IWC-evYWJKyfG6hq8Vd_ktEwMCZ-E6DpEPuBzkkLDyQUq5dqy6z2do5NjrZLlGlJ0GVU-swDt8iBBtx6sNYEFwM_Hygnp5cBtKPY73F1NbvZIrtuDb-PvarMFdjzneC4stOxt8MEPNuHGBcwmUeMBVnMPk4mAARY0sEDI7PYC8GAeVEga72v1or4g80WQAQYh-BVFy9w2Nj_0inV8gdac7yTVIjVOmaWibfaVphm2AJSpGGqpaBnoxRr5mymgEq5Fnz842tYrFWQVrFsocMb_THROXLRdZnM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLeD9kLzlU_cztr8C2XjRx2S7rRUVL0ZnAnOH61VJBpnAl8G9ztMij6S45m5rQEMXXIhA7m-UK-EMJvC4_EWU0uxhR9DKRu5wg0_Z9eyzxVAglO5bppCKIBGTAjsAHe7vGXT567f-hHDULRN5c736zOpYuz9J9XrFzi8HrrvaC3s4Amiw-rmhA0D8qe8t6cVNhE24oSWomBNYjmiVBeYhHLvFAUh4PrPAOemmYtOi9LCyhZ8_cVufo8JSuE0lWDvHR4goXwU3wjUwx-q2sRdoofPYFmse6Ebr8Z8gGwffRcOr9Jt6aUL-bPNnKyvgUDOh6zfcYsP6pt3ZFburLdy2GG5S0qG1HTT90adWcOfliGqR88s4qeahrXprTCciXpig2fjGIEkQetyT_NE5EQcQLeolyc",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117808393164912435792\">cws1184</a>"
+        ],
+        "photo_reference": "AV-0GLcmXlgUiIYAa_-McCMO2mendTjNJNl_pYmoG1sF68rnCrJKQKHSy6u1w8riu9hj6lO4dqrKI24zHxPWFNMz9XGd5BqKJoDrKBP5bl3SBuG7NbZSpmmd-1nIEuztu_yT60QMVaUClZfHTtf2HsoAKFWSHxMRn-E6JXmleM452yD5kHFH8DMjwo9eZW5vcUGOWkF8lk6VlUBXMfaXfIM4IwvPfu1cwrzvIKBk1uoNykOVcwIGQ7x4TUg5myEs49ztPxcTPZ0grKYx_dY1k3TUWXXWHMC4RS_U6VDbnSpTMBRlJHbgvrjZI5Xc_0eR3QPLe3VEMlWKDVbJKntDN1nQXtZBMse_MED-XhmLBeGPpOxJpaqYqXyaawuvdg6OBTsaXURtdKt4o2OQhS0EMuyYRmrCwp20p0QAAs_NjweQZmBGmA",
+        "width": 3072
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLe2QF88s-uNos_jqMTNpEfjyyTU23GUD_Vgv0IM0jmp_XPXpI2IOrWfJhYHe5fpigcvNbQCOIOVNCedQM3tux7ZQEcROYB1AxWCpu8aTfajo30bcrCJwvjL8f6rSUhbxWFPjloUgq_d4H1_Di4neHFIH48pIOXOREsOqCdgmLuP6lqRs8_1_wDNJjGENn1ZzMYjeJFp_Mvsphf9CLthDgHFuqVNcfiXgudZc0A-GGYiEF1SyxlUVlUi3GZvM3-qVXVJXlr14BVa4KfFFv-NAncUl0CxUgU-r_UqOm0yj2KXavMyTw5Gaw43LAijW4MHcu9_zSaFOzD_Whg49AVuFj49V-mThifvE8FjOkil6lWsWq3E5cN8TyPNKfvnqN2cKGmIKiMwP9O6QZVDxebZkJySokwIFBU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLe3o4W1Fd3kzreP4yPqfmYB_bNJPeyNJD9o9RUxvKUYDarhd2vzZ2DWlmr6q-MCuXezTbsOMQOJ22nty5usj2oF-Fq3nigc0jAfBHHBZEldcspOuZ3ndckawQmWByNUdL4cPG0MKPqgjCA6KEddsK-9JXjo6AP9VE9Ss-JJEETsmi0zkEInJYJy3irhEDWWFw97mfog3MSo_MNYvfVSqPgww7ApB0LrDO9_tPR0bX4D2ojW0MYbRK4E_GPSQpA-zpKSk5iPHY1zB3TN9Ry5A3CT3Tfo7xFDv3RSs5Gjuy70oHy8ZDgy46u3ob60o0_pZ8TJLGSgfYObMxc54KjJUWLRheUR5qt55YlUSiBKYeRQu5vGwqt_H7ycZBOx6ubdtTGkGhXm_e_nyYd9uGtULc7eQcU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108335702055918431201\">Silver Moon Curios</a>"
+        ],
+        "photo_reference": "AV-0GLfURXTikXb4_ngcpFqIfEi9054gwYw6OoxoTmpfXwgC2ifYBPZVwsl-EYTF6YG8K6_iZ-e9DG1rhZLgDZGCGSXyHkzkdptagDqaTM5uuym0jcY0_Nu-vG4m2YUezabok50D-Jl2WObP3OKfXiYwYZJhdhS5DnoF_7gTwxZylEhEs9l_aLeSyMb2pjoMsRapposiXjQafGKawgoLijF3BCCD4WDPZyd3Vaf9NLcM9NObBik16BR_Hkh-AESXeLAzhOHcJOyclGe2MK1Vc614x7g9uxXvozRsfXk97IoKgMf4zraOWXp4rrhllcF4XEwPb1-2pU9tTehiNAztHhgdx8lXlU52mY4xV88yU6dvvchpgKBPQIm9WC4bKa2wr-drFS-wTiQzJ4GvXQ1LxvH0Lhe4Tuo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101131691958428143300\">Kira Von Sutra</a>"
+        ],
+        "photo_reference": "AV-0GLdjyUWUIMEx9riP0u7dD5g-BTAiey_bXWKTSXD5EQDEk7WJX1Wgav_ZaVV6iqi-f6wYtgysWXPdDM7fswFCDEdqAsRBjupw0zHV8u7nxpEVHSfhk2WWDsApTBGqCU_mX6oAeF9COsErhXWD-wVDpd_obwgCGvth3mgDf9VtUi7VCYQEG04U7fSIMTvgANvbWpV8qU8TFAKnFJMQx85124HuNi0l_KUvlmmGCUWkBthMC5Z8Iu7y-xNyWXcHiu2MU9Ny3MhMzX8G97PFKUKo_CGgrLaNj_rH4K9Rs-hRojp6POV8y5UolqMsFYHKdX8n70pj3f4KMpBo3uKFoJsU68IrcatBJNELYIzfNC3WMyhBKvlpCqaBPz5csyNGSycqpv5KxJyPzbYWxgP5p-FuqsWNAKR8K6o",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJAenOfjLXRIYR_Tp364gZ4-M",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16420996742179666685",
+    "vicinity": "215 W University Ave, Georgetown",
     "website": "https://www.silvermooncurios.com/"
   }
 }
