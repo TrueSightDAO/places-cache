@@ -1,38 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:34Z",
+  "fetched_at": "2026-10-31T20:14:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Thealtarhealing",
+  "name": "THE ALTAR // Astrology & Ancestors - Teagan West, Astrologer + Ritualist",
   "place_id": "ChIJQ72RNHC11okRCGrk2xnBIB0",
   "result": {
-    "formatted_address": "34 Elton St, Rochester, NY 14607, Rochester, NY",
+    "address_components": [
+      {
+        "long_name": "34",
+        "short_name": "34",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Elton Street",
+        "short_name": "Elton St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Neighborhood of the Arts",
+        "short_name": "Neighborhood of the Arts",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Rochester",
+        "short_name": "Rochester",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Monroe County",
+        "short_name": "Monroe County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New York",
+        "short_name": "NY",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "14607",
+        "short_name": "14607",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "34 Elton St, Rochester, NY 14607, USA",
     "geometry": {
       "location": {
-        "lat": 43.1552757,
-        "lng": -77.579638
+        "lat": 43.1552523,
+        "lng": -77.5795405
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.1566455802915,
+          "lng": -77.5783636697085
+        },
+        "southwest": {
+          "lat": 43.1539476197085,
+          "lng": -77.5810616302915
+        }
       }
     },
-    "name": "Thealtarhealing",
+    "name": "THE ALTAR // Astrology & Ancestors - Teagan West, Astrologer + Ritualist",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0030"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 19:00",
-        "Tuesday: 8:00 \u2013 19:00",
-        "Wednesday: 8:00 \u2013 19:00",
-        "Thursday: 8:00 \u2013 19:00",
-        "Friday: 8:00 \u2013 18:00",
-        "Saturday: 0:30 \u2013 17:00",
+        "Monday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLfceGuDp0ApAn6UDLKvaY3zDqlTDCFlPkDaQL6L52A48mEniNvQlhLG5pPpBw4UNIB89WbmW-rKgp8JGJ8qVQ_U-Q_vHc4_ThY9z6N8HD0ag4AZdF4AlwgUjp4CBCmmquXkQ8OfujsPBQoetdk6Zq4iPUJgeEwFJJ59QqUDKcfGxRLBXTTVLXk_g_pO15sEe--bcjj_W4RW5rBYqTBy4yXCoEQrLoZvjmb5bmgES1cd6InCYzx0RQumtCIE7b2YggnD5txwh8QGF5VCQ-mtR0yPdTJ83FpMIUx1grJjR7dx7uGPcND4gYCngojlenukjNtrfl_JHbSpMiKyHff7oN3dPnkP3-nSkjNj0h3u3m6pgX3DfwhWaZj2jDK6NzlkVH50YiVv-SqvbPPuwDjG2oBOCxwdDaA8kuOxS30bZFmg",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLdk9nQ_8bnf5SWDGLGBCwjqXWJ26IqmG36WczxbW10T-_feY9L7-aT1MwIu73R5cq6kXoScvzQB72-KP20DFTGHqGAQVEbpv1KVYxe_fQBG4ntTONn0iKsbnhVjJL6ZjaUPQuTEr4QVgNnJdxdGf6_Pf4_RyFB7cxnmIkVHvDY4BxI3qwjcQHRHwGOnmEPKZZRvGDymYkRPg22IX6O5lJ_3rJ6q6xiIM8pgOkhYL3-lKur_lEqiCAcHOdSgaprsAfCnVh8d8MBGC5Zf8UtIoGoHogLdGPLO01J4PG-BrZNboqu1JND6KMJRDjvNqp1k7wBEAO_oYFwHwih1487FdWe3GI6lKp28_diFbNIiorJeWQ4Ei3iI8V5BLWgT3FehxNvCSFvSZMADpzEUugnveuKAoi4",
+        "width": 3199
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLdvvshkFxNGzhFf8ARb3adlgZEy4s1EarAFCwViknv-XRqyo7a6K9AfXWXlYS5W_7XyrWB56lkRDRS7QrRtRrufea9c_UU9YU5RptUu5VPiIY4bhjwz6_q8FBcLRTdxT3aJlrV2rbDeFVOKYiM8l-tXvabUkXkb54uXpP-RyUjDGFt5g-Hd825kIGk3y7azlcogbp9ICfTxhk2Heyi0vsBBqSreLqwqr1vxN3-OMyCY4vq2he_gT-qpAv1JGLrozpeKFAyc0WdkaP4Zs0AnMtt0adzzl1bwAjE5KMefqrgX7GO_ebfcZ3jOayDbtoyruuz5NuxlFfxAeXNC7Pnd2OiTO5QJ87z7pGalhhzx-08iDlnQvP2okXfo6KHNFR2WsycK9TljaxWKpzoPgOW2j3l8NibmAPc",
+        "width": 3200
+      },
+      {
+        "height": 1796,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLd5BpX8hZOluUDL2BUgyI4WZ90WPGjrNCp-rwJ3sIuzv6HfwW7AycJOEFq39bhsEnLUP7fRW7xnGHsETsa_4WbWpThgmvNQfUK7enWQIz9Iki8eTkrjg-SuPf63vwrA9NbJm0lKM9zBcqzYmopXKoiRZDM9G7omfLNwlQWT5t-58S0aXjThEZeau1C4xVqc6UC2zfNEcMlAa0Ogs0-XxinLw3m6JTsu5uRkCWO62Cc3of2CYqtpWZ6SE4CFc1vqqFFrZ_cYp_b3jZpgBs6U2nVQcqYk36yJPOKpTHTgLDHY9LBI9pxtxuElC-DDBf8aYdN8uhVp-P-OQi4d5ykBr_aiQkeDMifVQ7dOO1S2K_oMlJauLnHssVBkTlMUep8kC7jYGji9OBxz7G0HjdVJ4RjqZkiL5dElXQxtdf7tGH8Jkw",
+        "width": 1440
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLc0IMtFjYwIdx5tYbrjqGa67lO3I_EFumR2KCbKPvtbgHyX3Vb6BXDpNppc8xU3xy1g64Kdwp6k1g9Xs4nLtTVGdD978coL9L6S9lyaAVMskUZ9EGB6mFr8H2MzWg7CUBepKE16cTkmC8GisSZHrmeqa-tj8gRRXk8oZMbDM7ZYWvhkvhQP51DwQNNkeDVGVKLKQs7QanJF6tyBS6iSQeeS4X7_aPvZZ7ES5HfB4XKVeuj4nH4uuE-ExAasYlL50_Pyc5irXObHYywcO_C0EDTLUjDcxKYIGfpUX09u0SSASdLK6B5vtEyg5AHnTg2svSUN-vRAhJn_5l28unW7w2bOuaxNIa0hGQM1a54kT9tJJ5ERKQ6Gl-OSw8-ClRDb9HV_qP95cB2aVWIYxUnp5hcdmpwe",
+        "width": 3209
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLcKWdvc9_-brUu39ZEPU6wIQUAMGvHzexdOwa30MBEL6xYsjHwp1M16gETzvBbXO7r6xs2LY5FJ1DsKR36N3syZQL4O0AZJDAvDYVDFqOlJKavQmh4saTskyWYZBC-SLqqK5HbvDqP2HB6ZFNtocWNsQ4G5U_3Yi9hwUlq40ZoB93yahKX--yonP-zqwAEjWfP-Vlpg2br3vZv1CAExH6T3Sq6PbkbGgaqKivd_uWyXxwLzHEL4PPkSWAm-hxB9vl99xYQnXEKaZLjSlRU_cpMh3h9WER2tLj0rjQklI1czwelYTM9mEPi0SaWLOqe8hi4iX1-2OIVuVV-zA0-7_RmjgH4SfTiFD0TjY-omd5HHm9U5HAq3oE0u4nx9OJ3w2FRGL1S16779BLsbtQTYfC7cFgBraj4VfLVTteh_Yis4",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLfkaQl8HlLr5s64l8y5lOqSJZdvJoV3jtIgpsAg_N4N-Re50CLqhMS2OX1uVcJrD9kHgaYLi9QyF7W9BnC_jEKCxLsbGs7xn2nU0JOUWXDYMRMxRjuk6QnyV2lLZ-b3xaXewE2-lefa1AQHy4k7e_4Z9MXMPNvFwR4ZzsVUENio9_r06bU5EKb_u1R378yW1LZz3sf2fh3S8QthXTIwEVv-z4S0MvuZUYFxTMDhgH_u6q1QDMLdr1cWK4Tgt3e6Z2b0wvq_wYVDfpgpFq-ianBMfYVBrFzyGqEfB31zu4hrwgAPL5TyW8h5d7MMqjwWgCJyZwHk9pOm3satfnK3HZHzjWTxBGlBg2itVUjJdbno_z0wf2vMc9p3SIkwAyiWOUAnivlGxopK5OOR2nq3i98R9tI",
+        "width": 3199
+      },
+      {
+        "height": 2556,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLdJnwD2HnadFxNUwzYOjBaqhCiUCc4M3ade0h1e1GxR8SLrzoySH7rOiTDSvIFu44627mSB4RbqzYqz9vSphPOBkcYPPnXS9dac3aQM-7-enNRkgO_hJw7R76v0DBxIlGxSzD_8lUDR9U-E3dCtzSUe4McRxL-feYHHrnnqQrm3CxEftjp6SnOB7rRyR_7lIWIkNhrqQ_sAxk96Osp0dRFUiK8NztAH9W8NS386V_Rf2YTk77vIwRm4LpCe90xOXx1MUpxpRaJBPkCmeWoJgO2uROrqKm3N7z9zXKfcjeIseYKJwsm-Yibj4yKD3Fc6fsJ4tfAWE4JRDXMEQLHVF1vIGFVH_HYLD8WxYe1k1RJnRzwsLxrcsQcFuYrOAZXHWTIqh5RkihQFXyclgKFLcsJaowI8CN-ugUBqnGb1vSZaCg",
+        "width": 1179
+      },
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLfNRiQG4ZMyr482Bc1kSfCmZ51_uhCvcC7WnTO3-tGG1mAs9dObhMT5qvHA1VTr4ExFSsZsbOSUYXmNVq7G0Z4Ep-VVxVy8G7ww7oBTsbTPlDC5RkyemylCgXHe3w6eeHgCrLoaWRqpRF4tnUMAWOycsMqi4AD4u6fY8QjDk-QUZ-tE0wM8sy5qvQ54Ii8TFM7CX4SlIIxy1Ckwv9KLVA_P3TPj6pL1Z-E8x8WD_prThEXsOLHyrUTr5LcBNh0qT_Ryzt8t_0Dj8-rpG9eS2XmOkD9Rq5SzMouFXC3vvpBb_yeDI7f0mcvMIhd2jfoJ9m_C9IhGJ_e9oIR2IVf_hNsRuV8rhxwyoQGZRjbfiaHLqYh7EG9L-IdewTObjovTDmbdQzoR8gryei958bd63kVR5ySjSu0VTyi2lW-WIXqd",
+        "width": 2048
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105997254134645862969\">THE ALTAR // Astrology &amp; Ancestors - Teagan West, Astrologer + Ritualist</a>"
+        ],
+        "photo_reference": "AV-0GLf9Rlx8HMgZ-PHonwIlS0w7yM7dt06lm73R51UEFLqK2a_itrrAkVZS8bmJ3g8vV5GUP9JSj5bm_hoerlSN-xggRn9iw3MfMAYmJ0SA3HoUglHgh6-ORG6DX294_zJP6WnvB-I7lHxiouINtlCq5YNfu-drQ6YdRh0CsVvziLJe5jJkpgvo8RuD9h0AMshilSXzHqA6VBbus9YUw5kI7jvYlJkCsEh9t7J0LQ6X06K27TI_1TNpvOTqlMPGsxkqKxr074spKg_g1D2ESasiWiABMy2AET0GPiTP9nyfrvlMPlWh-GfGRBIn-6J0zmubQ5p7d8bP9pjpZ7EtrgPTyCmYMnLPTWcLqo7hbX_z1ycrgeH4yuene0EaSJDlAXkf-yzHqUHQ2d2VqxgDz03OqJdaK5Jjv3NSCaA",
+        "width": 1536
+      }
+    ],
     "place_id": "ChIJQ72RNHC11okRCGrk2xnBIB0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2098889743162173960",
+    "vicinity": "34 Elton St, Rochester",
     "website": "http://thealtarhealing.com/"
   }
 }
