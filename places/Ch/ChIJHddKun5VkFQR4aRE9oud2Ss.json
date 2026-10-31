@@ -1,28 +1,204 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:19Z",
+  "fetched_at": "2026-10-31T02:40:39Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Crystalspiritllc",
+  "name": "Crystal Spirit Spiritual Center LLC",
   "place_id": "ChIJHddKun5VkFQR4aRE9oud2Ss",
   "result": {
-    "formatted_address": "3802 S Cedar St # B, Tacoma, WA 98409, United States, Tacoma, WA",
+    "address_components": [
+      {
+        "long_name": "# B",
+        "short_name": "# B",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3802",
+        "short_name": "3802",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Cedar Street",
+        "short_name": "S Cedar St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "South Tacoma",
+        "short_name": "South Tacoma",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tacoma",
+        "short_name": "Tacoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98409",
+        "short_name": "98409",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "3802 S Cedar St # B, Tacoma, WA 98409, USA",
     "formatted_phone_number": "(253) 272-4367",
     "geometry": {
       "location": {
         "lat": 47.2221109,
         "lng": -122.4769368
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.22347208029149,
+          "lng": -122.4754522197085
+        },
+        "southwest": {
+          "lat": 47.2207741197085,
+          "lng": -122.4781501802915
+        }
       }
     },
-    "name": "Crystalspiritllc",
+    "name": "Crystal Spirit Spiritual Center LLC",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105182683417142586438\">Crystal Spirit Spiritual Center LLC</a>"
+        ],
+        "photo_reference": "AV-0GLewYQHyipkWac-GbA0DL0sjOoZdup_-1BceRql3WVh7NXqhkGg1WrZHgNMmJvFbUpmoAi4UiSgG9-K16gEaUXuCdcKjZGOZvj9VW5TlXRPSeptAFQbCNiaf4KucoTotHLfDEYOQmRF_pdLBhw9vabA9pSAKKycFwvskhPdcpfJuO_HkgeoZilVPoMkMzjg67j4VmADMO2d1TELPM9hsZrqBk6VO7QwjWWWN7N4Hj5QShecASfSLTrX2ixxFhf253TvT9LTR-mBpoNbFQk-EmTqaEq0ikVEegvSiaq2jujHD50TerP16aOO-n1dGbEgfpuxxjt2k6xvBOXgLQHf7SwS4xAH4balnHrYYeiwHOqkYOgnM2ByCp4iWWenBpDUkNGd3vuf60cQR2kC3znbYebwO0FIickA",
+        "width": 4032
+      },
+      {
+        "height": 2790,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106240328005506683199\">Joe M.</a>"
+        ],
+        "photo_reference": "AV-0GLeOJjm8ExCMMJsYmUzJqNFgO71CQbpj9mu3nmJOsOLjvcHOAyhC7VIwChKCkR78cFlsVCsqf1PEi92-v81_lp7Qvn_fJ1Go5dgswxbRCPxyiZ_CWjVA1zUozZbuIupFSESwMGVgfp71NWgG9HaF7hPKZlNB9iI_3O6JJJiCS1hgPvCk0kq_KXDKJ2Y-GY7oN3OeQZcwb_eZxHm2601KCbmmp-aAbTMVWXkgmaF_kb_96kkFhxvKMJELeMfY5JleE2bR-SmOvcbil5NBzO3XzNc-fkEVKWnGeilrbsUFmTes8SJHsRLGAKysmPPh3YMyz6MgpHkxEvw-EQ1k6EdxS8RRBH289IKBkCmT-k6vBP77o0lChKsIfaZbHi4I67ZDYPK8eFY26w-XEraRgjL8OIMqJb4",
+        "width": 3720
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108681092037775823411\">Amanda Maebell</a>"
+        ],
+        "photo_reference": "AV-0GLduZhfIkKrOK1_KfZEWNmGw399nawX30vPOlyC2ZIK-HSyzy0EwyTiWaQwULWvufetlWx9z5SPGNVEc032r5CCPqt8xORO5iCXZaKadEPSvsJ1jUo4vXOjazMmmWO2KgeW4yCd6xF899Vf6231PLR7dbARyXdT_x_nqCj3p0hOvv4_PjNUIXgW24Z-8-2g4sgKnVesMBi7TZZJr6MZhdS4ShKh_fgx85DnV9jLImH0f_jpWX9b8UER0TvJBL_2U2tVdKNprV2fcaz38SdW7Din_HVWg4cDAr4CGRl4SknzX9lV_g5vKiZ-7iPVh3wpm21Y9bWM6ufa8CQlHl4VPg-RXcfLEr23ORCzP-jgOWq-zRF8U5cnHN6zjvtj8e5TpYaLezEfElJRf648kPnpEmMMH0zuz",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108681092037775823411\">Amanda Maebell</a>"
+        ],
+        "photo_reference": "AV-0GLeZKQqww6yYxGn26jAB4bsnYik09kE-QZkChT14Mb5IoGBVasdksp2th8NSm2f9U_0dyOjQ7hZbeWKUiojumd__ze4sMAHM1xVtL3JtWJWagv_i0BUDp-_pUqirIApQphWZW11FnueN_kYcxYJw3GI5uLi3Gdht3x9ewxHoRyJ4tQD6QpPd_pxuiZLo9JY8ueF-Efx-lW6YWbVc4T8Zd90YSKlvpbjHueWPvrJigEihNIZmXT75WykkXoWD10kDwai33n9DLl3C7wXCAtrFttYnFE8WBDbM0R1EJvVTvrwBZtNz3ZevNvbSMQdfW3eXCLDGv5Lwa6x8OZp2NSjcXCPrV3-cGP_WY16jFf-2UIekLiYQ_MIXUuJR5U8_KWRgo89N1tn1QMhICQyx3eYroFOdz6GgeKQ",
+        "width": 3024
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105182683417142586438\">Crystal Spirit Spiritual Center LLC</a>"
+        ],
+        "photo_reference": "AV-0GLf9iRpj2EYaygTp2mnQf4DPK-_5jLCbvmUtgYw6smP-Dv7HwdxNNGFAD1TsEtr43bu812w9VUSZXXPRZ2-H-PX9Rrj8gP3rQaL8S4XsB2qJaC3nCQOdnEiGRLXmg2CB2iZcqESFR-cAi3FpvigwIsElqvlmMd7mENMCOeXmY44ejDWYq9n6S-TZrzBUHUh3zb-dwzBMZ2nSBxnBxMT1D5GOLhlZACYcl7-ha6ZEB3LsprPWOhNJRjVoY7fcF_m4AlgLcjWuq1BodS4oK3ZmroRrayO4r7a2GaEVehO7SwppG8ZX_F8g-ls8C3zyfMH82AmTeW__FSdFSvAfujLit1Ewrhg559yroP1KFezqIR3IcTWj1rGEka6oPuW0CuUWb8LVveipYDM1a1Qj2i_TbPxdYR8",
+        "width": 826
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106240328005506683199\">Joe M.</a>"
+        ],
+        "photo_reference": "AV-0GLcjCKTEQzYXpRHUULoUhG0IaS5vG32Dr9GXWn2dMQDbk-83dnT42O-zjcrA68hQ2WfR4witjgBzVdY4hifDCK-fkujhIP1yHgSRVw27TjQfE1eBuvqKeKQt-qiCby92mJ-6QSqQ19Y4vuLeehqePgiyEAQIgWyMeX0okxbgKW9BBDOzXmRAc9GbcMrLAEhVMiM1Dq8s8_02zPrE0vLPkf6KiSezyZhNj4VpnOqGHx46Y0Wxx7nGL0TyHwLp6Tf3i2O6fAhb9vwv5RcoGwwV8ZhfWEe9l_Bcvkacq_Zg6SL7vld_WjEWAg_B-vR9Xn_FUp8IDNz0YrXoXSdagJUMisisUZcMPkpNnYDyc19zGRQN3EG_JT2dITY0UnZBuKZldFsYYAVGxya9pwKMWJMYQwDIXK4eYr0",
+        "width": 4000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100630718453482602420\">Woman of the light Awaken</a>"
+        ],
+        "photo_reference": "AV-0GLeowu3-FnGVL38yLF8FnJxO5YVm57Fy7mZTFRwrDQ33SFKviiw9uRku0Is0ilbwNoUiQCxKi0OSchGWUPdxfDs6VKvnMSDw0i-TShpBJD5BMFfcMoazGXs_iAunvQEE2rUNeCBaZlJRjwnC_7v7VzynYA7TOkndscnG7IwJtZqEjWt84ZVrdK7gTtXvXpG3X4u5yl8J0MQuVWAhUwwV_y5kMG1pjiA_bkZHqz8bLYBaQNGoSFapEOGk7-wtGGOXm2LLMgul-kxfzaNs3RiJB3x96SBZk3HKWLV0D-eRODBXtT5iztvTHPUIL3egG0Ma--GUCT28lCTd3vI24a878ZA9RldRCCp6rMfHyrd0rjJ8Q2yb0RrNM6MWe5uRfxavZv5zvztMp_3aGU3qLhncCvxDMKU74JU",
+        "width": 3599
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108681092037775823411\">Amanda Maebell</a>"
+        ],
+        "photo_reference": "AV-0GLduHl217kmjYZbBFjgvrb4zJofwL0BEM3lfpnwLha3Q-BB0zjR3jeLGug8bG9HmLXDf_PLJ2DMCUPDl589-CNrdDLfEW0thGIo561vOe-ADjKzIDO6uSnheHSPTIANZks7ANhOAZBbYNPk1BUrWGl_7xCljx53fQdrkZI8iz3-Ucg0zal_s-EM5EjM_ZZA_nOMAqPhUg3g1r3TMybi6dFMGkI5egnOdwdowS0H6lUNjefFssOwP_sF0p2PJVqlTAlWHG2AkVzbxCoM11jYWao3U4gz3354NmklKCcRQ56He60aTU53ayudthpKX52h2-4A6qhX1AvWEg90Knrzui2CbQ5HwQ7vGjftwCBRnTf5q9DPcbcwdCPg-7ByaIuSw42yrhloII3Y4G_C27Gq0lXIsGAc",
+        "width": 3024
+      },
+      {
+        "height": 2799,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106240328005506683199\">Joe M.</a>"
+        ],
+        "photo_reference": "AV-0GLfJrkIdEyfYBqEoVslCnJKCj2by3KBZUIJTHRkjM3eQ517ThXayfnMwDZ8TFWqhCzuwJumiOnYo0olnOFKNT0iQbai7CHnWuhfLOMEFTHPu-d5m_akS9Ndn6IVg9L9lgynJClTEGjXtLNcC7QPT6EC6Y0BfY6ztNAm3WLoY089BiD0jHYs42phKD0vo4avWEY90SmQXWpvwoz5NwbAkEk4Hk_Feg1hhVHBnTB_oKUGpY7cH5xp9IndyoE-B3hS0hS9UmleD9U3VuHM3f3c1Tj_fmd-xkG2zUYYEE0kKM5vFDYixh0BdDs9zLmcwWHccmOA95c1-s2vP2vdWIj3RhWSqXkynK6-x5n06FuobQdVUXSqDPd6qlVJ5tSP9TU6AzgmT0srRua97TgS4H-3Q7hmbTOsG1eQ",
+        "width": 3731
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105182683417142586438\">Crystal Spirit Spiritual Center LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcWdY3WkhkGOoqVwLVMaGJUQ0Xlnkz2c3wCsYhRAgmY97AIRN4xE3IeRj_AXEULxnUpBuklfomgFZ1cBRWNOd47D9q1y7XGlauGsLGcX8Gco5X8l62v_DHBvJucUbEU7wAlnc8YvG-SS3wcp6XI9mDCPxGc_lI1x8WP4mAnlB3DtOZG_6qjonDvVC5leJioF0zkcssOtjeueX0LzzQH8KnwwUERV80AMd9iXtE6WamFsxzTKFuGtXhOJ413LjV5PUZ0qj1eXw0baAd9AOYSW-Ineg1Z3WEHuIo4neso29VIVbK--vVZyaPLlqG_DziO5ky5WWjd66ZFJVTt5m8f1hjE4gDqV_KU9UHbGPWRYpP3a_t6H6iyF7Lr9_sgqBo583ahuz2LdKBr9LQX4EJIKenKf8IXxEY",
+        "width": 1536
+      }
+    ],
     "place_id": "ChIJHddKun5VkFQR4aRE9oud2Ss",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3159729838034822369",
+    "vicinity": "3802 S Cedar St # B, Tacoma",
     "website": "https://crystalspiritllc.com/"
   }
 }
