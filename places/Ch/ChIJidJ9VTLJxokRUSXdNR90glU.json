@@ -1,28 +1,198 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:46Z",
+  "fetched_at": "2026-10-31T23:37:36Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Freedom Apothecary",
   "place_id": "ChIJidJ9VTLJxokRUSXdNR90glU",
   "result": {
-    "formatted_address": "1430 Terpsichore Street, New Orleans, LA",
+    "address_components": [
+      {
+        "long_name": "1430",
+        "short_name": "1430",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Terpsichore Street",
+        "short_name": "Terpsichore St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lower Garden District",
+        "short_name": "Lower Garden District",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "New Orleans",
+        "short_name": "New Orleans",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orleans Parish",
+        "short_name": "Orleans Parish",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Louisiana",
+        "short_name": "LA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "70130",
+        "short_name": "70130",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "1430 Terpsichore St, New Orleans, LA 70130, USA",
     "formatted_phone_number": "(504) 884-4711",
     "geometry": {
       "location": {
         "lat": 29.9371882,
         "lng": -90.0745803
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 29.9386895802915,
+          "lng": -90.0732244197085
+        },
+        "southwest": {
+          "lat": 29.9359916197085,
+          "lng": -90.0759223802915
+        }
       }
     },
     "name": "Freedom Apothecary",
+    "photos": [
+      {
+        "height": 2520,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118067208498451496393\">Freedom Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdUvBLsF8_BvrQ3W6_Ye8XTmpNwCIs3YeD_BlO6UW1nkvStiZfP3jOteKn7srMz3CM-n04q91WdUrQ8ERYymE3H1UHLlI9eZBW-PmAeWV62eY7XPNTwInslqH46Tz8k4TpDlnLvmhcZl8Sd2t-6x-w395wuqZuU8FN-1MCjnKTDL6jupkR7ax1SvI8WKj2iP8D0s38osCJbQkmRpxlaCcp2Gw2Hs4k6_HWjrv7VDBbIU8htEs-n5xH3_lg7k1UWwQV-cjpHH14ADTJZ78KrmWpmqEEkDhbo2UYYFX2hWyO_QDGc9JCINkMuBRECdoz1Ez16wQAIDcHy7DLf3NdDqq-2rKEI_8lnk3nup0awck_UfghUElRt-oV8oIYj6b3qd8_vfcBszOa4jA7baCrLjZG72tpj",
+        "width": 4480
+      },
+      {
+        "height": 854,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113803223735835889150\">Safa Petrina</a>"
+        ],
+        "photo_reference": "AV-0GLfcHOB1oDdJ6Vb3zURd_KrYOsjrGbwTOtxOaR8fKs3cofTmIZDD7_NmFygR3LqJa9vdenDculsr8vV-ZtqByBetcJzWDDnxWd1LjrkRCnkImc-5i2srirOc5JNIvn9szqXjNIRTdTl03mvk9T-2oXXkBvx6ZS3llhCjk1ih21eq4Xuy5vC8nAZPxqrBqNO_A9snnumiBz7z48sbNYqJwMQN4Hm4dHX3u6O8mmcB35Q27aTKG6sRrGh4nlGozTFm9qDZ5Ny9bF4L0tsFkV6fcoFzZD5X03q_PVb5F6ve8JCciyEdb80ru_uDY8p6impeXn0b7ukN1sqgRxaYfDBSREWFKYEun_RuZlJkNtOF8nu7g-QzH1ptVfdxfOpqAGeoEi58w1ABimFzZb7jQWTaucmpRe6M",
+        "width": 1170
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110591259659774996936\">Jamie Gonzales</a>"
+        ],
+        "photo_reference": "AV-0GLefYUo8SxjCwFQuPC3CLCJn3-EeUEtCEkSWYpgzwJhzvDHuBRihAhzQj0tRCkokHet7BivjE0MPloEoqaUayW_peLVt94pL-xvpUkOUaxOogziDn91Hii5Aw6vh2ADKGBJbpZ5vmhwLvW6XHNNHyWQzEolX_B9DPxUd8Fc0BP8UAfv5WOvFy2zq4hiEZmJUjqh0YGkkhHc6MzM5IXJzyszFIJsAKEkwVVbc2vEQ35ZfF5o8zP5H83rMgbjP713l-pD89JN4uk_A6GMXoMadzlF-L6I8CZSKeOZQSb6vkmE2LHYINPaMawBA1Im5S_8Z5PTHOxiBTQwVaRBOEPwiVQo8daRIRLuO9pM3te6_5xR2dxi7FcWqKCTPB6n-uLqmeQcL_p7rcz1GUfUEcYtwflLVnC4",
+        "width": 2400
+      },
+      {
+        "height": 4053,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110591259659774996936\">Jamie Gonzales</a>"
+        ],
+        "photo_reference": "AV-0GLdQn33kQYhgGAwVXQ51zBemGdVaqFlu9OfTpbuuv6p8sIgtHz1G3md4DVJyY_BDoIbQLVh_I1TsKxvZLJU4Bnbr4F8eQH8Us6InQqfDIdl_C3qkcHRITq6Iz9X0bKc_k25X1_DWXLBFPJadIHAU0COFSkPSd8rrqakUo9bWJY3m-QTPPLDgrcTuvXGV1upw7-7z1QG9aYw3ycXRucL4uzmhFDJGotdXb1F0WcfDfP1Iys-zBeCRWOTV1Xzf7bIIYSKt4uVzjT4fL3jC8WumOxTC5s-fJVbEo_Pd-qrv-x16jkEJXI-Xo3bMpFrZ5jLW5yHctFI8uKhs1c5P3sUesH91P8lpnvxf1vvzGchP0SyXuAPrUqqAISoSOUZlIBRDNbhqQ8DxDzowVB3Lc2qKWQBM2RUZAMc",
+        "width": 3240
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110591259659774996936\">Jamie Gonzales</a>"
+        ],
+        "photo_reference": "AV-0GLcHXqsCJVjj78o4Vbbtyy2oAV6agBZFeVSDJpgkmToxT1QzdZ3JPRtpWwi7jNURdYVXhZIprowClKCBvImA7ymr9Og62n_xEjrEKdv3W2jB2Zm2lRUs0mxkZ_U0wqQJx6lfHYzxpXBjDFqtwaSL3gomCfnd3aKQ6JqAJnoGy7HYBrX5c7S9fZsIDMQY6dB5yRjYIki2ae01Wt2rB9-GjEgIMKhi6K_gSg4EbgLAgSJ5Q0cGemdL9kcYl1arnt4vFRltbvvHD0fteDnQf2hB0RIPjTqebr2mlJpwqJGw6cd4qAnjRZfdfKiEjhun6iwPCKq5IQoClFPbIa0YyPY6nBlJJ-pZOVMUv_9gvkKCj2mt7hprCXRZkBg4vhIY1Ml62eyTdBpYZePqmmNJYMKzpcre1_LT0EI",
+        "width": 1080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110591259659774996936\">Jamie Gonzales</a>"
+        ],
+        "photo_reference": "AV-0GLe9Mrj2uhmGmJVd-AbDbXneDAMTPs5y1V-d1La5KqcQle8Hf4OLskxrY7o_Ho4X3D6ndsbYshD0ybabi4kIwKa2Ol1SeuoHGVLGeyA1iBlQA2mqznJtmLj7pY2477NCiDqt5BPC4dFmcCKJZ4cPV6m2Pz-enF4t0S1cKJbxFhF0u5uBeJ3whhThhPR3lbCpHtJ_N1y8K46QwmRYPkv7XjATwgyJ9ONVrRN47kj8ENWu5sZPuLes65ZfqtEaNCh9gGdfU30nS_pW4oR83br2GUXIwDp3fGOnScxUy0IfatvXcWrc6oNeCgYJzY4s1tckzVJBtir-A2RoSZ_hJh23BmOQ09Gb3U02hV2tchBJaH4i-1uL918mOOs344JW3cI5H4shpeb2686RgsZBbDYbTpuRfpxuOhU",
+        "width": 3199
+      },
+      {
+        "height": 1551,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113803223735835889150\">Safa Petrina</a>"
+        ],
+        "photo_reference": "AV-0GLcYISz-Q8rcuSDxPO4cxvn8z3DvYzwE-mPmkXjQjPSSEXv418PStwsh-LjC7kAy63eXUQF5qW8QBXQqAy7FbKu4nyshNXx5k0RnpgGEumM6bSl8pou5KtdvywjXIzWPpaNhrWnIGYA9_1N4UB0W2b_q-n4bhqMClQ8m2S2uLeqmOtDp3O97MapzXytCdNCa0R8mr19grlih1AyUcuUb7dS0HcUMxBHkNxMNAHXY4S2xFZw8X1yzaZNpL4SM_9X2QQmKU5gwlSyxzsdXP8gQWzTySpIdZfBBZwEzfTZR_9RELCAZnzfShqyzhyxdX_4yio5ilkzo9afrjMt6Fs4T1KIy2KWjCovbjHShIwDT2lU4VgFUySqj7PZ3R6OFm0s-BmNKry0VH7_yXXKRCOELxg2yhzM",
+        "width": 1170
+      },
+      {
+        "height": 3415,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118067208498451496393\">Freedom Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdzW-lcNJYDi-gZDV5pzXnoqR_8LMEtIUpCzzvgVzzzIag3SxIxoWLgiCT5rnqflpVUKqyrB2q_tq861rAh34E-jzFVym-pGuxX6MfMxVorOgKkf0ocOakTPObQTWcnFNde48gWVdHAmF3dfxdB0x1wgVE64yXaJYkXe1-rY14KqKVEZCqi4QYKb0bsE3NOmX9i9_Uc4oG8-qyw72ZGqr_ZHamm5KOcUuszVyy-FqN-qA1HuRbzIt7E1xG5xkAvWRUL1i--PRdgI0Bra_FtqAGUBGqVcoGMhBgDFMptpW1zy3IGs47Ydg-RdSd9gKGHbYrdgBnSAU8HRoZGTIWoWDrfgCMh3FAPmbA-T43Ow92yjH4wjtL40rdJ2eFBHrNN9x9k29axD8QZDijdZfvbevX_MsWxPcM",
+        "width": 4800
+      },
+      {
+        "height": 3354,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118067208498451496393\">Freedom Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfGYoFESSj1eySo7rIUoz9toI_tc1pci6faZ5qQX0YCfNprXlTQfPw9QyKgTuQfgs0MdXvrQMuS-KVihKDQls7qntH_Co97Xxvh-53XLcLc_C0DAMEvqarvOmLPkSXKB9XuEP05R2HHFgRHwLf9BmWOyfJhqAclG40F-UsQL6Gr2YIQo9g4Je1vIIaEbiNUt5mSmklsDtdtyadrqxUHHdzD1RYfVw15m2x5fNW8PO5F1CAIiBw8j412TtdsEpXO5OiVlmgShUW_jb8MzgvMJo2LECTE3bDMoed1Ufjb4kVw9NF8ty3gmMRH6_Wdycf0Efti0ElhYNafyc3B7U5cBEwKttF2qyan2-iWXlq7fEAyQnLWS6rgUQYr952-q-HRGuCFqmiIRIu7bl67uVu3So9xMidU2wM",
+        "width": 4800
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118067208498451496393\">Freedom Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf5idCpmYxOKHFiL1777ckqT7EQ74vlRUZQ2-_E-69M81nddg7vY1t9_pBtNR_morGVc27-yG_9Luux5mT5QrMX2gOLo4EMpbkpXlY2fSz5uUqAcsZIKwy_e3aJFbPoQU4ilFLNgfb0rQjQjoXzze3pSjJvG0mTSc-E-aY4ZW_aL0uBIBUPLBDT-LceL9dNxN1pY-etwro3J1UVIdeaQf43sLS4h1FXkJ60Nu54ev67ZzreWyR_y8aGFm77-WxjneyhdkP7-ejapTcZV34EmEf_8NVqt9fpldaueqg8-mf4j9Zht8w6LsV-KdZDs9GOVEg4C-VFCwK5SIGxw_e06eZIA4EcGqSZnH7gfJ49q4OZEfE0MHckKRB3gJav4dOPDPGx6YumdFjuDAe1cmuexOSHZEI",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJidJ9VTLJxokRUSXdNR90glU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6161614917592753489",
+    "vicinity": "1430 Terpsichore St, New Orleans",
     "website": "http://www.freedomapothecary.com/"
   }
 }
