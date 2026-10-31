@@ -1,28 +1,175 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:30Z",
+  "fetched_at": "2026-10-31T20:14:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Purple Luna Pro",
   "place_id": "ChIJH9erUmHRRIYRBnv-SwQMt5M",
   "result": {
-    "formatted_address": "2021 N Mays St #300, Round Rock, TX 78664, Round Rock, TX",
+    "address_components": [
+      {
+        "long_name": "300",
+        "short_name": "300",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "2021",
+        "short_name": "2021",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Mays Street",
+        "short_name": "N Mays St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Round Rock",
+        "short_name": "Round Rock",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Williamson County",
+        "short_name": "Williamson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78664",
+        "short_name": "78664",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "2021 N Mays St #300, Round Rock, TX 78664, USA",
     "formatted_phone_number": "(512) 291-6227",
     "geometry": {
       "location": {
         "lat": 30.5305859,
-        "lng": -97.6881692
+        "lng": -97.68816919999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.5319751302915,
+          "lng": -97.68691871970847
+        },
+        "southwest": {
+          "lat": 30.5292771697085,
+          "lng": -97.6896166802915
+        }
       }
     },
     "name": "Purple Luna Pro",
+    "photos": [
+      {
+        "height": 838,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLf2bNg-IjPgVIwpJDTA3UE00XCgekc5AEPdR8rf6eJkKtO1yqAzjVhBxDHDTGSAC15UVjtwx-yL8vy9ioghxjlGmjGjp0D-jZKqUcFyx4WaK4pp3k_XHEpnMbM_7OGvU4vrdXa7zpg9DcbLnApLYM4Fu35qVx_NWo39B4LuGumWeDgno3DUgYZsCeI4xyFohkitI1lrkm7H5WEqrSt3dJXI9sW_pCQshUzl12mc5pguyvWJhpw9X9lHmD52u9CR1MlDnPsg6l4_4C1pVdhsbuW6ppzDwjVTHCW4TOV3UE3ntzQXnyQaRxjvUW39bLIZvoi1I936Im5A-1HOj3YtZsH0Fg1klZ1seZZ6REUQehM0rCQkjYMjymJ8z5PPBdwEvprWeQ0eYRUERuNlnlG9N5U49O4",
+        "width": 1134
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLdIYUa8kSgOD_K2omvoChEtJ9VFSz904k_tmay_6QZf1gFVzBNjVXEf4nkBZNCg0iyygFq73oFPW4v3Ss0D1leBQKfipxBUJjqA5hDYxsVYzXSd1JxSzT3JNgGyWi941ZH7ovGjg94JHvKjwnNNQZrePOQnpP8yN4J28vA_ZY5X4_N7-vQ5pOYt8HiKb3qSIdrjvlr-4v9PPvmfuP_vbALf9F8taLwoiXq_JEH3YKhbx2XtPS9viUSlVGH18kdgw_SQgmRBL1JQ4vxQHG9oJGRjYubqndCs_219cv7DflK2FYaz-4KRve09145wdIYxNRNRtjcXAgIUxbu53fzA48ZgsXGta0zXqEEyuqoqyhbxRbtfMt7IGeCQuIVes7EkyAMRPGhSQ3pMGPBp6yn_VXZgkFCfvjI",
+        "width": 3695
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLd3gCGfBY_z9wWVeIbEfrRNUtxd6VX0mNcuAFegnt3leoaqRKnnw6XGHy3RAJJ-unJJuSNX9inALgHBn4Nq7ilofTBWgpAKhW9RjvSr7F5QsMuQMfI5bd2iAa-OO26Vs9BmaYNf7sLZ2Z2tHSfMy1x_dRzEUYsrQePUQazAWQS99SikQTZXtbDTiPRv4m7HzudN2d0watDC5VaRuk8BQvZW2s3CIX6iJ8dPml3HkDjTyEkZtTUKpslIlhVfQBpCyISSItn6HLeI7pd-ViC82OfiRV4Qm1GVmxrEaUiZ6fjF5ZtSlbxh8DwncpB2uWLBhTy5V79Rm-tKHOu7n65bAJJMA0AUt-ukMr5NZ0BHQZjniqeL3br82e9jbi9vW_gWY-ppKsTmNxTwVK9R43r6mDfipzP8hng",
+        "width": 500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLccEgPM1Nygi-yiNMzfzBWJ20zRzozrWV9ppgphyff5hmEdb0Y3sty1Hrbz63WyhLF2_Yybj1JdWaMcl4oO4ESUEUvE_eSVwdZIzSYOqK970Oji3W00_wFBiKOuz0nxSEJub8a9hS5fqS8pLkmEjF4XBY0eyXM2NEFUPfcrLRz-AU6cd58IKd_QdLToAqks6hc0FWBJU2uC44xGGdOKG8m26aiM2RWChLVckgPPWJ5fHqz5_L6k0IL8jiHHlK33Kky_JimsVi_HdT9xG4KDb9E1Q9zwpOPWJYa5eDlD22O1b8xMuOrAaYJynUH-2PiobD_XYeBDQUaqyI1faNv7p9u_UGVctwYYCQIPuasHBy5iuDn22VpCXKLIXwTLEI59p19vIYrLhgJ_F6NYIENU7ZBMStJdDeY",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLeXjvC2Y0NIxwvKpc2dAWhbVeMG2w8FB4pEoJD7EnMNXQH_uewuaf_n39JdAnKzIW37WIQbhukRmi9rbvj1WqKUkQzcfJbuLgnc0qfnyDzzO122J3OUOmCLiMC493LOv83829HCNyF3WU5iMuEWweqBlqsfwpGKBcx51tMVvMhVZTgLbvCS_g6ttQuvmwNhd52E47nbSPW4cvHarV0IhZWGDALegi2DWx5X0HqeSFH5yFu4i0MyKC-yoAAMmUSVa64t_N695hxI-2xHjbalW3AMRzY8haQuWUVcxfVxZRU0iFCSadMxDJWnj0htMU-oYervcEQsmd35JApipLTxbFLXjNnbBf0pnwFsg8PfJ1JkfRAOJgGtbW9zEzo90PzH6xQO1FSayg_yRKJMPohGA_2H2OpX",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLfqZCfE6IiQKo2DUDpnS5aAmlEzXRuM1aKGXSLwOT8eB6svMROUlCKOj8KtsXwAbSSt03cjsB-JYXF9il3jK5ckLq8cyxOdI5Wk9zHIoEReKiKQ7XRd-1HwdCUvqk7ikKVB8cYqTxEJOMnaN2wSuro2Umg_ApxOy3MWtSHHcTR3cs7fhxtVGvG9oIrNKaypEpXy8e6zIaVjzKzprulFBRHa17dfF72INpwv_pPUqu-yeeeCna8bR6YE0DsYUcLgCDO-3_SCzadHw5qMw2kJh22bdcxZItCnu7sPgmEuB4qBKfrvqegraIMSbaiJZx8O0qj8LmZzRqFl9wOYN5_IW0POPhm2cqfRBgTtcvbuPmEZntowmOBtZ8g_LzUsaXQTjG6nxLLy4VE18h5eaZQW0Fe_Ad5DbEc",
+        "width": 4032
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118366141536442587873\">Purple Luna Pro</a>"
+        ],
+        "photo_reference": "AV-0GLfzrcU-q2m2UsKELRITXynRiq8oxh-sepGaT3xDKqhwCDpw-O9Q9bLZNrR_gnwIhjODE7gPyAOiTHYJ0V0x5keM-47fkkIaiJgW2Xj4apclvAgub8Kw3Wc3fH6L2uKRBk5zw1PgJlElRe5bqH7o89gFTxr57ePdqV2UMC2B6o0pJHUetNPULXg0Hkfl3uurS4QIq6BOV2Gfvc1KOKnk-Q854OWav1v7_akGhNM3NChBcFqs-wEi0UAHfzmF1KcQHwih5U_KAX-FPxAxzTHp42DNizd5zZskyw9kmZ3t_nT8ZSYB2gffYcotfJ3jeF4c_zJhuvwMm92sTkNRh8v_YrUvcEqeIp5Yqw5UlwGDm_IC2Nr75lrvlK9ZnmHfgawljVwn8I4tE8veswWDFzOq1Z9qTwc",
+        "width": 1545
+      }
+    ],
     "place_id": "ChIJH9erUmHRRIYRBnv-SwQMt5M",
+    "types": [
+      "book_store",
+      "establishment",
+      "home_goods_store",
+      "place_of_worship",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10643989456907827974",
+    "vicinity": "2021 N Mays St #300, Round Rock",
     "website": "https://www.purple-luna.com/"
   }
 }
