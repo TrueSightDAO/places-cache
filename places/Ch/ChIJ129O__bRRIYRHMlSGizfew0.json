@@ -1,26 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:31Z",
+  "fetched_at": "2026-10-31T20:14:18Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Amethyst Garden",
   "place_id": "ChIJ129O__bRRIYRHMlSGizfew0",
   "result": {
-    "formatted_address": "4401 I 35 N Frontage Rd, Round Rock, TX 78665, Round Rock, TX",
+    "address_components": [
+      {
+        "long_name": "4401",
+        "short_name": "4401",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Interstate 35 North Frontage Road",
+        "short_name": "I 35 N Frontage Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Round Rock",
+        "short_name": "Round Rock",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Williamson County",
+        "short_name": "Williamson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78665",
+        "short_name": "78665",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "4401 I 35 N Frontage Rd, Round Rock, TX 78665, USA",
     "formatted_phone_number": "(512) 843-5186",
     "geometry": {
       "location": {
         "lat": 30.5671424,
         "lng": -97.6898547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.5684799802915,
+          "lng": -97.68887526970849
+        },
+        "southwest": {
+          "lat": 30.5657820197085,
+          "lng": -97.6915732302915
+        }
       }
     },
     "name": "The Amethyst Garden",
-    "place_id": "ChIJ129O__bRRIYRHMlSGizfew0"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLfHAq1yRUJGKqOdi328YeHEKCakUg7NvQ2d6krrz7n9xkBd9sEys5EYqtyYB1VTWy4JXz0EzH-UVr1zc7c29y34MSnc3ZlgHS0DWgggAUuCcR2PZflehIi42jJ4g20Vr3gjBx-R-8uKKUHoaoEqyZlpoKXWMZeqEZeCQFcCvkCwUzESGdVhp2khBWDAnFLGKrtsh0UF81b1VWyyvY5TZFvdVuoHbRdU8_Uc3EBkXsrTPyiVDfFL4U4P1jqG-viQPwcNXKZqNVZdKdrDHrfmkZNxep7YuLC4fSFDbwC0QpeIgvYVMi-T_DckwTAEcYkf24bLe-WaJ69Q6B3gfQJ-UPFir_zAl-LO7pfbUcotkYicXvEWZJFcG56-YPBMXd2GS_5lqIIIu6SFL0VN5qb-mD59neszNbA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLcfwZLpTkXj__7imBG20oaFMn8WxwzSCPWnJvpvr2QkR26OMAiBz0Sn74W1c9sjfgDEN7dWDxSON1Mwwk3nhA2peJM-QLRWrJKDzAY2R8nooYMOZ3cVCd0aLgvfhI_bd3VAeY1dqkm5qILC3R7wunq8k3dvnuyrxthOWSaF84XP7uAVr3S38A-cQVysxfePNh4LIlVmG9i_qzXUG3ailniz9dwtT_htabx0wY1ztY63tCEE5BiKfWV6FP481vH1o7ixd07drytYK2pmbz-H2PaAtqH5JE8KqZDV5zbc7mjpdjbkVNNKFI3a7NjoYdgtZbgSASB6dXsHSUb9cCi72-4X6ykbMc6vsrIt2wLabLtg2Y9SfpXYvWIIoZfzUBdgUATHtTcLCeKCZ9nw8Yy8GLT2L1CeubU",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLcnhaGbJP0BsY-T0NIOW_5AwykmBjBWr4rs2BuoNlOsXWmTqHW8QWzrpHprAsGrVVw-HR3qOdwx7E06lD6VUIY2_3w7TjOeY52WHC_QP5DYNaJCrnnVJPGP6VTgZB1-izeHBGQlYsoEq73lO3g_tfLejRKrFzDS5wbDGgAFryULp063_9HmJlDajjrJQ0AtDYM0x2aAbm2fQjeCiXso7582bb8BkIMqPpKwrte9o9AdkSz60BVFRYvpbtKVKO9XMiy_6ZF6nTbWWsPIcvQvMsxwVqXLOOUt7xEzGWt-5H3-85YCMcSDD8-_oOne0s4OrGbxFgsR8pznIpnZq03uSYneHURXA8KXUN2URTi4FttdTroK03ZSvPNxOji_C5pgRthmpn578BhktyS_xFn8El6XGmk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLfpOQDg6M1kLp2Fp6bWP_BirYLx5VHHTLiSF5fSJTLKG_rNvqYUlVItI1pL2pGWG5CFts5naQ2AIAM3HwydTgkIWUXrd_wnl7egJQCyqUVnN-hAISYBIdWQyuOHayXVg0IjFcKl8KIB2OfF27ZiA0xcg5D-R6pg1lPO9IXm9X_npmefMIdrjVCS-oGIokrgCujectN6JKh0JQ6UQH5Zk9o28I1QNYy24E70W2b0isxCPgN3-uQP8uiWl-5Uz7PrX4SyS7yODtPYzxlbXtXGyYfoF9OGZ6Mz6p5LYEFc_2mULtfE5TsRFgnd4CEJH_WIV4Enu7F6zV4kIAIgX5FmYki4QXlLd1XhY7Y_Bfn7dRkSSwZMybzNw5dJoTbvG_RYWQMRFB9x5otJQGRWUEI8td5VW98",
+        "width": 3024
+      },
+      {
+        "height": 2485,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLeqezfeMe7iOVuEF3o2mIqY8Og4V5iaS5HxefdL_jrz6vTQpphgQGy2IXEBVItm43SOeD7ucBJoHexVqFnjc0Dfd-ph6vRJhAUA8AdXWfBIwhfO8uvpCcuD-J5WDpZ_A_sVto1xjGVkkUH1q1VEN_mg9edtwdvL4jy7itI82M0m3iOon8APHsL_27a6NxpB29PYTOUuXANbPx8jXK9Wyx7A_JUnQyghrONpBlZdeU6bx0g3S-En8bzZI4Epy5JpHJwoInN_C_10TSrVnatJx1V2NEGzktd9K_perZd-eCgWdPGxnApw0LS0IrDJJR5QK4PBaxo6-xJdRh3VdqsrlIGI324jSM9b1fpt0eUORZujjrzNpKfDY9aE0y1I1yLJI_LsXpg3ksFeRqZYN_1tNXH_qyC0Pzw",
+        "width": 1864
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLeXm4TAG3sB6p3yr_rM3gxjzdwi-R1p0BaTyg9r95Bf93lZkhs7pySd_N5Wx2wEWw0YtzIvS-UcNfV_eM17SzwwXtm87HcM9UMSRTjU3GQX4oWcYGxyOBOTFgXiNMZldLirNVO6oZ2f086rIdeRDrRUZr7SgQ340WCTCFddoo9XQd07y8MQQo1H-O9e78SfTJv8dJJRRBAj1Iw2_0ZNA--ppusNoXuERNaP9OJ3DfNhI8EmT6fyQZdrSDeBH_N6bfBoinXBvARdGKejNQnmO3oj2ulRL1S7qnYfEnCsqCK60wQCgqS8Jlr3OVNaHnOnpJlyYy23LGgO8-3ov4edizoFM8BKB3rmfDNe1nW4fKSZFt3jZ4X62VLdJha-2DCnKvDmjOe17OqWIi3VnasQYycSVBl-cWM",
+        "width": 3024
+      },
+      {
+        "height": 1218,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLd386N1yGpoRIqILOXZFAAHTYLN-Ffd-CycKAeInySBLAuzKuVTuwMhqOwcRVOLwUSb47nQ_SwgPq3LmgV3QDtO_rqoOhDwDupHp8wV03TERuBORFzWIzPlw-mHKpZXitqbxmadVJhqr8AsdDxj8UBBYtfV61BkgJhCFS9BHaoHTI5lF6YktQbQcMhC2ZvWXZNBnIjvaejV7s4qAO-BrZCRojfBPktCweOJMoYNJ5SlAopklT41-6hunyx89yS0weRYg_1utd4w5V5FTLKY17CwxIezR49KW9cpq4Bfg1aO2Si7EcffNDVcJ4gkNRsMCAEluV4aFiMe3E5mmliWwZ3E1CnnF9S8PLQnQcanf0aXCeEhBUHPRmkYklI1ob34ryjXOdHZ0G4kd3XlEx5sxihNeBXEqEw",
+        "width": 1125
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLerMoHL87Jy1RhfP9Bl5MtrwJaGhxHMDl_8Q9uFAuuy164z0c0WultrX-gXpYRNa0Mf9GXZ46B-jwqLWsgGjBtpUdsILW5vZE0D-BfHH7tffWWmiHGsw3u7lbA9rHmkHPWUOTlxxkEE-8mgNGPkY6fcldeqagwtOl9nug_QCEiAn510lOCqfBjA_UKm8VIs6G7N5nHC6KUAT--CxizJGvbwjSP6hlHIxwZDRZ4TUG7HWr8CGXzX4UnmJHnkMr5q7jDHKrRu3ce9zaO4r-p-joa7iPllZbwNkrxf59JUgPT-gbDc8_qr-zC5Wsr17LmKqZDgLFfoPZNE1hepHYzs0VEY0zxV6xQnXP9Ke6Xx8Kh17OM2uI6_kaRczRW5mrVyqYI0vq_YFKVV_oWosxLsN5gtQek",
+        "width": 1920
+      },
+      {
+        "height": 2484,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106177258056326351824\">Keisha Gage</a>"
+        ],
+        "photo_reference": "AV-0GLd5VTd4khzudZW7_dKFBhNdRt8O6Yq8i3y-vjKjqANJwRNerYfJitCPPm_jt76SizMuvd5PGuAGH1oIK_TrpH-EGAgFLmaV2QTS6ruOghHShG7q5gaNmeaIOo643CBtnRrzblz3_rYvkK-mBIsH-186TI6JNdD5aLUnsNebaiPkH1jza4bo7gITwCVOAZRQ1LVdzcT8V3jw8W4BolF_BYM5PHB5732DSvY_RSAzEZ6uLTjSfeYAaQ02jFinXG86uj4XkIUYzdVNQ--IkfgYE8Lrc95fgLdYaI1e5mZ3f7IpVaYV2Vs5tXvtbEzMz8rexWUIuWUVysldBzN4b4Q63svbiUrgYlGKNy0JiS3GoV0vOv2gyYV1lTgba5fi_6gzg5_jYZwOgtxjAwDk9N1IoCKHaNPEzWY",
+        "width": 1573
+      },
+      {
+        "height": 3589,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103495832220035269419\">The Amethyst Garden</a>"
+        ],
+        "photo_reference": "AV-0GLcoTk7DhGgrpCiDDp3gmuk_B-N4FpIdwCBWrCCeYk0yF6euaeuVSi-cWgGUu2aS3HISjQveQV1hZSZ_OXAG_ORbVjd2P8HEhDBbsonKBlKT6WCmOgaqsGnrvlAeO7Q1z-7m7kl7-zr3PmuneikI5VmaLGtpO_ySSUw6aq9B1xPK9y1t-7BDrZBoYTDyj3LhycvR1pS8krA7YN-O7-kjtlsOvxHrtEGc3hDv0_JdWKQ39FueFpZ8eYBRrLry-zFyu8QYjzdUd8pF7EqBUbqKsbJCy5TIsWT6XcqrmAwZZL3_Q98srLTFJ4oXxiyntEDfy4plnF0C-d0SU4cma1dKovGwq4rFvs74fvnV8NQx_P7lzNd0S-GTgLH8lM2AjJ7-rHZdp_IlfDCWcXQtyDLGRNFWCQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ129O__bRRIYRHMlSGizfew0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=971615525141661980",
+    "vicinity": "4401 I 35 N Frontage Rd, Round Rock"
   }
 }
