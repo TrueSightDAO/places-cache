@@ -1,40 +1,241 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:11Z",
+  "fetched_at": "2026-10-31T02:40:29Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Fairyapothecary1",
+  "name": "Fairy Apothecary",
   "place_id": "ChIJn05pv-UQkFQRVJ4D-ggi7mU",
   "result": {
-    "formatted_address": "421 N 36th St, Seattle, WA 98103, United States, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "421",
+        "short_name": "421",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 36th Street",
+        "short_name": "N 36th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fremont",
+        "short_name": "Fremont",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98103",
+        "short_name": "98103",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "421 N 36th St, Seattle, WA 98103, USA",
     "formatted_phone_number": "(206) 852-3000",
     "geometry": {
       "location": {
-        "lat": 47.6518353,
+        "lat": 47.65183529999999,
         "lng": -122.353563
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.65328278029149,
+          "lng": -122.3521800197085
+        },
+        "southwest": {
+          "lat": 47.65058481970849,
+          "lng": -122.3548779802915
+        }
       }
     },
-    "name": "Fairyapothecary1",
+    "name": "Fairy Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1500"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 15:00 \u2013 19:00",
-        "Saturday: 15:00 \u2013 19:00",
-        "Sunday: 15:00 \u2013 19:00"
+        "Friday: 3:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 3:00\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 3:00\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd4HFCP2dsErr0LJcoV_zn0wH-rHfIYRKsAlXxHMkY4M6x15u6bxPL9ML61beEYG5Sf8WYIOTNoNm7pz11e-IdZbIQY8enxAPy-e1gYaR5BQNxH78By9IqiO3nF8dmeNpwfhmDGYDvWhGu9k4zUloCEPQncTnJdAjxYONHWQwiog3ju0KjP95zju6LFmiV0ceHv0k0lyqBxKgNBnI9UvkEX16eXtb9vnvX8LbVTn8hJCffACwLmKnzNSCLbsskOL-WWhJdjsNYp-xp-PjterayPtATv00Iokxesx9aDk4Lik3l_Voxs0hx9G6pcSAVxxIxpVIXANmg997e0ULPncGO4ajZrLHieEOXoftQR_Mo8fzi6BUNv-qopE1UW9hClH0BzkKbJ95P-0zFuv54BPlkYAew",
+        "width": 1440
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcm5RFODvr3qDLPhTEn9Nuoz1iiJGCmcNmapweMq8BZsrk5ReQDnk1G-WfikBt9_rA4uJ7rdY6bYGWPBUV4jpJG0oYCR2mViPKGrgGnW0oQspBCm0_KG-7DUf8zZ-MS9AiZ8hdqxKHtdS60xCkuHVQ4NVSXZQjMX-8u5bYk46jT26StY95aLKJ83P1vJMin-T6BAFOGaz3QmRabOrk6ARAWGkgDxQJtqCpIy5NG4OLARZ2OSyzigbgHaU9OoDLB5HWRSH2G2YTsmBSkMOggGRSsnNfOkIi7IW2mXWaNi109lzTuve3s9XprEIC5Zx7p8VqMD5NZJX7zxFm19E0ri2ZSvQrxrNBhfyqjZ5GQyNnlzbafYnRyUlfpHZziYC9JdGoGoMFMhQkQmAYYn4sOzDORG3DKJ4g",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdeNnDUuyuAZlEGQKDEHB_YItoQwSJasmD8ivLXL4R2Oi2um4_AxXofxbRCeR2WNzNscs2ePvWSWOrfmbGtEqIEf7I5KIfOTYSy6T61APqM4eewINahw3YrM3byy_EcYYJNKikXzQosjvDDekTvzx8z8FexoUdwDVRoIQHWbaFw_QdKDj7Pb4G2TmKxmYKNRKvZnUD6dVwbrJ_J4wN37X5uZZfg6DKR7-F3eQNMC_H-PL53EtsZ6J5XAUTYtCA1czEdzYng6I0IZb7rIFXJl66bZ2huh1gRxBXaFlA5NhJ_c1l7ZFwq4S0z857c7mIYnAZHu-witPNjkSPuJ9Dmr29wsfReY7UMS4w0M2lcTU7-reOXwoIlGyq3rE4N-b9hWGr9cbUTOtHj5N83hJDLGUNaB0dq",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfCKy7HhgfsjBwNcxyuDk1zqNdHsSr_U8Mx2R8vS2zDEMi6IjMDvrA9jgWQ5omsdonkpWdVNn9nX58lGxM_xF9OK_NX0nbhLaXG1vgP5TYuAhpsEdodnNKvBSO-Feu81DcRRlGRpZl5NCEegCt2r2v8WnyZR6ri0hwFRbbYk4-PNQX0cc37IN3jRCsB_xdF3mIz-hKFx2AAoKIyxE3aQwFMmo6yFhHgCCWRFcSC-LarNUFDUGp1_OAtcH1Fv6Gg0370P1_n7iunO-vzSDRWYFgEJEXenKoj3YLEZn9xZ0O3jTAdoEw7CvhbYABQJBcaGUc0JtB0SiCe841Nm0xwIYMyE3m2qmSufw5SVpli2eUaZTcD0EBULTkOFHAiVPL04m18jHIhn9tnVk7FvmtpR_lQhg",
+        "width": 4000
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108140244583704665011\">:**:Fairy Queen Lolly:**:</a>"
+        ],
+        "photo_reference": "AV-0GLd1q-ubSPx83N-3SRdmFd2KJiPHHTKH9znuW2E5E-s3mxutZ80MacdO1Cyv7LIBFt_JBNMD3ZW36xjndbAzXZtmPsCb8HO18-yiqePzByfM5gxCJYyqkLS-S5zHZk78HQuv4pRvVqV2KDElkg9zGliSlcqWBg0nibk7mLTUoU2ecOOxwK4Pd-cvp7ieh107gMGyq6rEGV77rT9IjkZPelpEiircCqXDYD7HcIQ2Dk3cIa0eYm-9l7hJ-5TLV8SqdgoT4sFSWMD3Y_sHnum7PEcaEGarSn9A0UW_ctYyJBiKhFV5RbeqWZ5JX2b0JbMxM7RcD1BtpwQ5ybunnNKVLauPOvX6QWpb35P6zHNo74hX1DcsTMU70ZAkSV8nip4qYcql0WjA74x8b4yxlQfCsJfsZJYenDI",
+        "width": 1080
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117206519045506658524\">Tara Coomes</a>"
+        ],
+        "photo_reference": "AV-0GLecL67GdOqNDsAodLR3VG-cueM8kUXosII0xB2SgYagr5sMtcOgn8U36nY4y9TrLMwLrWvvld80SnEDTo1qwJ9xbegxeOzjihwPHt9tvwBODkQHSqUAodnp27SXLydBRc9TGTHbayotzHB-AXQarGIC-HWq8U08QxRKdCs4fKwjUxrSPY4MP5phV-FjIZ0IHM6wnaM6XpBOls8eCgFy6inZff6XA1PGtHleTIFXCp4bIzlFe1wj6djdyqf4wtJUfFwZr5RS053OYPWZJqmUQg9XOGhrFVnNa8xmFDG26U5rsEnRXAPTxjTRb0Ytx124zMpfevkYxd8uRf0SJriby90TBD4xvK7q7l_GmoAaMKxIMGDfLM-hF3ZzEWinTtU3RkgjKtFKRz2VbyvMIgB8hDmL95-h",
+        "width": 1500
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeax246itTlpYOyDfRi8dYQFvXt8SEX7Krxv6PRUdl9pAL4PCgWPBGIVZN82Dv-GqrdwovJPdzVvBGTfVy0V4GmllKM3zIovcxeSqsrpVeDJ_3kHv1IJLl4Gpyywlmjnbaf73oiI9oNktNj4Rvriv6VZU-0IYjgdOrKyIo5ITaILPP1KR3sH_fdmJvZljtDqMz6OLbTvMtYVtj_21NmVJJaJxJhQrSpeQwiid7bXaqwMl3_uPThvU2ygOVtLfMyMMKOTdQTXRmoAlF5tO8LZWehsOxUf7z43xoHtIYWnwylwsDr-fhsIQGeobkTX3cotvNtO32eNDeGU9IcR7KZkxrJpjXvKwNZuTZa51Al16MkDsgFQYs0sKOsO_P0jqzZbLT0Km5B61kcSz9FJbz8QFAhHd4",
+        "width": 3000
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117206519045506658524\">Tara Coomes</a>"
+        ],
+        "photo_reference": "AV-0GLci0r2-kq_UEV7r-KqbcPGWWKJWG8plwYSt0kaKxlShWGnMjkwXHjU_chygKGdGyVRlrOVhhlk5GqRWGHlXY7WqbpsYuvHgMb7zOcQ1BlT6I4UO40Rfl-r5S7gjeFQsUn6UdXJbK4SgY0TTarI7kR7VkQRir2tqLnxe4yK_o-s_f2ARIT7aWxUg3tn4wUAuX6qxBIXpFou_l0wnaUI6c4Aoo8MR6Kjxyu0uhTS7kyTjzMe9xJTmPgjB_xmaFpFiVsZrWeFdJwuLdx5iVP_Je71o71Kgm8IZc_rhemXM9imJtGBld3aKjUZDpO8PEDaeNHL0M8QGLzf5raBYqOBDedsrA3jFgL2oIwg9IX9qzjJ0vH0KHkTYAlcYwsPtKaCF6GYiopQfxRattxFLlryxKm-k9qptCc8",
+        "width": 1500
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108140244583704665011\">:**:Fairy Queen Lolly:**:</a>"
+        ],
+        "photo_reference": "AV-0GLc72-XvQ1mnupGw41p0j5jC3XG4sVVADtBC9TVMHKp_PoECvyunlGskRowJ5ZasmqxrEZtpXrnFeaKmjSpHec9v42_U3S6ZhkNy0XnSpx5dOghC36mpBVOsfZfqtTMnPcoMcg0TGTH2ArsL616tmORKkjHkZTJ-sQ7kr7ThCGK5h8RLIziPLz4QNqxiyQ4QVob7aZPfTtAjgxMl9nF0l5iq5RcPGu1ykEEqBXKlWoq42mxEoNgw_9fyL_GvsWpAKaTfOb_2H1hmLMJQcc7YBgNWAbsZ5CZbRldzNBE4vL37cENFUE8JmWm_AMq2JwQYD9sZnxpHtrrcHZKP8CXI1viQecyMj-tqr02kBIY8AQePzN8wCcdDD_K0NGzYI3MSfJLEVRPhrm29DFuApKIs2AUIXv___Tc",
+        "width": 1080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109858873652109984133\">Fairy Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLengaIV6Aq7UHD3zDRg8HJFkc7pXb-p4_pk5lqplFoHK4EwDRrYAShOSi4BZtnbwQYIC2OC_kd_U2aJe44dpZFS2bPngbAcw33sLVEFXsEh5SUFS0Mp105X7RiLCn05j4kh0Yqo_tePbfREpUlWZEGyM5GUNRCyX6s8LKYCTXMTESvi3VUmju9JGz0eXq-tk6R9zQjpIc4R6Itnyq6w4DhEhNQAkepxVCVt7NmWaLO4v1DtblC1ZawxuUNhJXK9FYi5emo4KTUa0e9m6HKfWsSRtCbw9qsn56odrw0sHEc0j94rRzlQ0OjvAP8dlW7MpUzwE98315kpus7hOdTh_YjCIJB8Dp-62mlOFeCPDxxjlLSOExuwqOyWQ5PcqJTBTiaEe57vl4VoB5cdeOw3RF6K9Q",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJn05pv-UQkFQRVJ4D-ggi7mU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7344845464237481556",
+    "vicinity": "421 N 36th St, Seattle",
     "website": "http://www.fairyapothecary1.com/"
   }
 }
