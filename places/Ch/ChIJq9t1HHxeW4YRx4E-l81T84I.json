@@ -1,28 +1,198 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:41Z",
+  "fetched_at": "2026-10-31T20:14:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Herb Room",
   "place_id": "ChIJq9t1HHxeW4YRx4E-l81T84I",
   "result": {
-    "formatted_address": "14500 Ranch Road 12, Wimberley, TX",
+    "address_components": [
+      {
+        "long_name": "5",
+        "short_name": "5",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "14500",
+        "short_name": "14500",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ranch Road 12",
+        "short_name": "Ranch Rd 12",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Wimberley",
+        "short_name": "Wimberley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Hays County",
+        "short_name": "Hays County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78676",
+        "short_name": "78676",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14500 Ranch Rd 12 #5, Wimberley, TX 78676, USA",
     "formatted_phone_number": "(512) 847-2375",
     "geometry": {
       "location": {
         "lat": 30.0026808,
         "lng": -98.1009641
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.0040357802915,
+          "lng": -98.0997191697085
+        },
+        "southwest": {
+          "lat": 30.0013378197085,
+          "lng": -98.1024171302915
+        }
       }
     },
     "name": "The Herb Room",
+    "photos": [
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106346030879908745815\">Christian Johansson</a>"
+        ],
+        "photo_reference": "AV-0GLfM-4aqcAotSZrPX-DPzO-r2LJNpUFjqU3RSMO00IEBNoUU2yfNQCMabNRuuZe-JXD6g81LY9bQfBddu8t9CGA1gFHg4Wka-HOscKN9NvyXzg7hC3PKPBfr6MbSfVVDtDa1Obi45ibdWS6SDlE1384-YWdDGsvnirOpqlk8qPEzZrunqW1akaEXue-eU-7nFtzkCxnoztVVHHuSz9WkcdQhwzDbRloUDDpIIaOqpm4ZvOybq3xIw97HtpzZEtjM90cLMQzJusaNRvt7SKJEGGtwXPfUc-fH7AFVLh7R99KADnuuxk7MhZBVsptbx-ZXrY7RRUkbnZSCGeWn9S-MQpsji16BIl1jIzrM39aLRWVlSlL08e04JhneohIvhxR_9pmEF1SjnVdS2l3AJDBBhW7qnw",
+        "width": 4128
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103790104684253932447\">Lauren Stern</a>"
+        ],
+        "photo_reference": "AV-0GLcJLNHyN1KLcghReuhf-nNpXf7YT4wXOsIWmDHBT5fIv7z6GcaBAujmasiRPosTbdOa0q9-9bRvmosH2svm0S5BMBNp_tn-CmFTR7Y5caET_65MFXJD4F0E6Y7pV2lev-uY7RYXU6JRfiHF6NptuDzFHhRQkZwJKOdQUc1JMY5NFyofbbxDy-hqe7-5Arhu6xhc1UmFkjc6-YN_fFk7O46jVBxELeWbs7C3JpUBWIS55qdN73hj-nB7ZBOpq3LAhPp7nIA2F69rAiDCWHtLmwZaJlu7YDxX1zWmZw2FgolSyneXz98zqo8EMfdEX7umpLuBXcOPEDlA30szcZ6PUpcmpjdoh2znd0ebtDdAeo6-ff4MH0BLWFuzb-GwRKOlLb6jkoh49-L7n1dx2d1WqHayUPTADVI",
+        "width": 2268
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111148972654746727434\">Ann Warner</a>"
+        ],
+        "photo_reference": "AV-0GLckmvJBd7uwuTLyXJhEFXCRq4ECHlmDa9iP02UQy_Wvvin6x8zQ3o4Hug8LfNAo66ubovQxQQF4spd7S2BeZOqx94HjmiVQIuqhXZaGZgiWOMX4LqWAn9nxNB5WxtlM7_k-eSucEycuS1xRNX_x40P2Al60VzL2STzPrKn1gYApox0v0LBYdDlpygKvjqwMx2V2j9iTSDU4hzy3yX8HcsUt05SImKuU8xVpwmtmrQjdBasp2qnL-paiIvTyvdRRq4-GWCzUpNBcQL8cT6eTBT6fX3BX7ogKk1ZhZNfd1Pcs4zUKrrxBSztLYvTdN6PdAvITnq7cJEU_sZs8VyU5xA4MaSE4J5LL9WxPqhepxU91_7yvRXOseSMEfjy38aHE-sLer6WPOigVX1UGWLJykjiXx9M",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115061155592940788432\">Gregory Hoyle</a>"
+        ],
+        "photo_reference": "AV-0GLcAYBbWANslYjV96Zk3r8odnRUR_iApVfiiV1xzm4FSo6hfpMmd-S6DpPysQ0QAAFFswJxdKtoexfX9Z54UxjjIXWHxKj9b8qiDUal_G73LCImySmlt1q1264PmFBf_60inoWd2tIYxIVJej1xfPFGDAXtZ5dvY7wiMqCkycaErKzd7mOSoVJc8T_DpYJj4z8ythB4y91EDif2oSXbamZVDyWxvjjNtTT-qFuJb5as1xI_3Xe865tlxPwG2eAhgY185mr1rkKxMJdCLxtlUlCh3c0djMb5ViBZ43Q7LkMBD0ypU7Z8UMLDXkGcU_BQjWspSvCdlpoO1ZVnJOaqlf2if70MFNnC0W_0W7UV4C5m_1YN_hhOcp0xlLcqxETwMrwOVCM-8uab5f74AS45S9Hvu",
+        "width": 4032
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117093696143030048228\">Paul H</a>"
+        ],
+        "photo_reference": "AV-0GLfSDvliIOliZJOCtCwzfRKVUP0Xrgb8sg2asLjl1iXlfWP0C6bQRfH4uowGY_AXtMlkdVyeDJigiMwCk5V2Zo3kgyMNTbI2qPIa84-zC0YtUD4rbckRNqUEVMq0MXaDdJSkhbK_F-HyLfXDRbpYHgJze0W6YubfUiy0PuGGFBFpU8Todk1nLIbvLkWfa9eE9ofMu7Uups7fC8offYu4vn2q9Qezx08-VGb6PG1T2Vwa-3eofZJpNajNZhkzIzZPuBcNdAOF_ddGjJvnvSYeWOpnXLMRS2522T6agRwZnJ0vF0m0g7z6mXL_LeWoKOSboilI79laeYAwJxHJE5TNKrme_GhwWN2-RMVHbH1URdhUV1P4bzjTHpMw7VAh_Au1HxgEVFR2Vblj0U8SaDd_YH1BZze0DFk",
+        "width": 3036
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115061155592940788432\">Gregory Hoyle</a>"
+        ],
+        "photo_reference": "AV-0GLd_bgZjKCYxOAcKzVdXEe6xf7PM9Qx-aGjvi2G1gSJmtj3woiVcZh_sFdg_HO5RGypYpmZ4K8CpttkccIHaTlDA0zWJGcQZo775v5fBJAXnNf4Lj6a0HsR3avPq9EHIGLnaNHzUDKLiWzM9j5eZ5WH4GicIHM39ZGyf79ABwcn_oFPyQkCZeGP5q6Z2O5No8XhBbz07RIHIL2fl5TlpKxp9QHYLL-2e75iyXiYqea-CnizO8tfB3Zu5-W8UI9QOJc6gYC6l-rSxK5sBYf2sPWPsnUjbevfWm-DsJa9n9-FckC5sdyMP9Lx9B5B7-HPSzbLY58U9_RDxVOGylg26eKymsPkqeRqGdjG4TqbAiL419UVzQ71zcLIZLMj4PddGFgTOJGihYBM95NBC88H5iEJUHcvcVi4",
+        "width": 4032
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111148972654746727434\">Ann Warner</a>"
+        ],
+        "photo_reference": "AV-0GLdESPoxqgSWGG-4BU1Xsns9TefQ2_716fqmz7WUsuaOMx3pmqr67toBJuJquKYqicv1VRfWPtKADYsj0Lf9bfc_5JR80J7d3f_rookejgOfEmOE9pu1aNWg5TPKq405rPeNcS5PLSFCm8OcpUzB0Aun6Xy7TvQaDB-JREM3jJCQRPvR6qC1Jo0bkLXuN2eQamBUTZszu-vOO8C2ZXNd8TFF-pHIqtYhJcxH0Fnn8rbmWNsUInFHjzv3Z7vjMZMNjfMxZkRX-pg5G_IDpxhBXPkMG93xjqXt-ojIJvcDQsVrq0ohyrvDMPACk6O4ztO1WV19rCjm0pa3kmoGQCSvqx3Pq61Cz202pFgpxU4F9vhR1NQAZxdyhF_F-fenPo8_LwLsD1Xy5KuBEsvRIpBgcfDgK3g",
+        "width": 2448
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111148972654746727434\">Ann Warner</a>"
+        ],
+        "photo_reference": "AV-0GLfBd4VjE_MTFxTb9tD8hzA0bRpeB6OwS8crrjS2l-Vf2ZAVgIqIGCpgLSBcYV3_GsFdaOcWGfvmQUcv_SFpEKVmqtiQqL033S7ul0jgOTMMsGAS02-cmuoDlwj-z6dnGdeKBtvtnfqwa5NiDjFAeHwEVcHcUZzBAlTr0X-voilezFFU0YINggVOoTYymvdhdOYKITRUJ1hF9Hh6wMj11cbYBMVdZtMYyYaIQhm9ZEQxc2IESeBzDJRCczGFPgrH_cqI5XTQRS4LWGHwt6LOLu8g3zZeC32GIvkBcb1_O1DtzI0VpmHiMqntOhSPWwoi1mSYmk95BOPYgmibWCRi7gQqPyZ7kVWnx8Ni4KQIQxxL7YpsViScHGmMcWMziw4Nw8VlAdLhAV-FosrM0jvA4bCswPKn",
+        "width": 2448
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103790104684253932447\">Lauren Stern</a>"
+        ],
+        "photo_reference": "AV-0GLeakeSMsht9KonUb-zuw2-XixKwI8n7rXl7cmB1BmNXhR0NGtGV51XO2GefAGfdV0_f0kAfKXy-9cVXkle2BJY7WQ3rrsbXT9JKnJwabx9UZiwVDzu9BI4G2qc-I1gBDsFZZCWGsGo34HKxAqp5xTdSf3UZolL2SbjMpUSiRO00c6vHWZ5R0XvPn_4O92q152Nz2tMUdI-1iQ2T0vt6V9JoCHNA0N1eEp9_v6l836wLZHCPBud5fiJ8Q5_h2LaVeqLLtXED7IWM4fjlO3nabvdWRohKdU9hEAssPcRpTZMy4rMR3_selyiwyFm42vuN8WBLORNHZFeGe2HdVRkZRnq4Gh_t0zjtIh9Ertem_Lv6fAWZVFFLQWzTvWbjqzKSsq4jzL0xWrJ-Lh6blqM34-6Cx6E6",
+        "width": 4032
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111148972654746727434\">Ann Warner</a>"
+        ],
+        "photo_reference": "AV-0GLdoe1Ot1zdNsHD_pP6ymYOUHnS3X54-wEuGmXJ5vTvTA6vrv2GFxNPECFOOUqUO_v1mQqNluQ4FqSAGoZbup2c126UFvZKrh6lRCX1ClRB22Z42klSASvo2-arNeiKr3ZLmW5AOzzb-0OPyVIG-_SlQMZ3owRkmlj9vz4f1j0rRwH5cdliCWsM0XJ3nELEFRKfnw8s_0OFlMTdQy5JNLe1GwQjrZ0cHD0Lw9gR1YgYZ0vvv-8tQwqXCYNX25I2uRnnG7Is-j7TVTgVufHI8qKlu3JT17cH6qNRp8xezxYn5VZiGiwdgLOHZS4D689w8pu4B4sUcmA7lccWPesLL_6YaXbiphzE10ayx7G4w7JHa3PNhE_8FFU5ODI9ox4oAomGmuk_U7zg7SbVc0qKPBCbPi28",
+        "width": 2448
+      }
+    ],
     "place_id": "ChIJq9t1HHxeW4YRx4E-l81T84I",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9435977786742178247",
+    "vicinity": "14500 Ranch Rd 12 #5, Wimberley",
     "website": "https://www.theherbroom.com/"
   }
 }
