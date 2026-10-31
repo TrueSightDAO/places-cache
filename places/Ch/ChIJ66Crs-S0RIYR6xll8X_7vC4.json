@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:38Z",
+  "fetched_at": "2026-10-31T20:14:24Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Herb Bar",
   "place_id": "ChIJ66Crs-S0RIYR6xll8X_7vC4",
   "result": {
-    "formatted_address": "3200 Merrie Lynn Avenue, Austin, TX",
+    "address_components": [
+      {
+        "long_name": "3200",
+        "short_name": "3200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Merrie Lynn Avenue",
+        "short_name": "Merrie Lynn Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cherrywood",
+        "short_name": "Cherrywood",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Austin",
+        "short_name": "Austin",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Travis County",
+        "short_name": "Travis County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78722",
+        "short_name": "78722",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3200 Merrie Lynn Ave, Austin, TX 78722, USA",
     "formatted_phone_number": "(512) 444-6251",
     "geometry": {
       "location": {
         "lat": 30.2855459,
         "lng": -97.7123974
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.2869125302915,
+          "lng": -97.71092606970849
+        },
+        "southwest": {
+          "lat": 30.2842145697085,
+          "lng": -97.7136240302915
+        }
       }
     },
     "name": "The Herb Bar",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 18:00",
-        "Wednesday: 10:30 \u2013 18:00",
-        "Thursday: 10:30 \u2013 18:00",
-        "Friday: 10:30 \u2013 18:00",
-        "Saturday: 10:30 \u2013 18:00",
-        "Sunday: 10:30 \u2013 17:00"
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103375848983728108133\">Brittany Sanders</a>"
+        ],
+        "photo_reference": "AV-0GLd4oCMfKDnIFIuWLxhXpF-p5CmnQVqFiA_bEfcePVyFDYNgKIaCAjlrrQfZ7Zoc-v-938dcvZJgZJ1tzy9vcBXm6f3HfTJsrq3q1JCwX6mH2IWe--sQIfa6sTfSQRZQHk_-oLXstqR2q_Y12Q4R5W4BL_IwIm34p-NomhibiC-_ptb6rZwjXb-XRpF_Zd_XVzN5Ixe9mgeLapR7cJ4rr8b2b1UWoJa5iOwTKNz6TTMl7aWFzAWpvSBK3wyOLSRPdKCC6yFLaZWx2BdYzMYye8Cx0D4bdUWSNqmW3SM8sQB2wb9aV0c8Lbgs5aQKsoHlYIVN5gkE_jBiCu6pFdxX8hKolmvC2PfZ4zkHCL2X5kN5mcK9KD02An0tKW5cdPdiUoNvEhmCGzitciQNHD_1njHPC3sQ53c",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103948186958460042271\">David Luebke</a>"
+        ],
+        "photo_reference": "AV-0GLdopJvppGAzHiyjZ8ExIo5TqgIxeiB3REe4rap1_1RyX1hx3Jtb1DUOU5az3PVls9p8yvgNPiUneX02g7M-RKk_zAZZBEjDxs305Y4I4yJVm2Ae6CccojtF6jl4h8MaXCX458rB-T9ACirISI4NfKOAUBrJKVdP8xYrp9oSFk-ehrsBgxXha1iKJvrXlH_K8v8qG6p7eJ46BrrvckNzFHrWIEGE9rTQYluhgyMMc4iZYZ4i7gEKWlOCGTDn5-GYoXrwhsvMKF1tiRcNXDzMT7ti9u5SntrKsU0SDNgj1N-2D8SUsKC4vFidSy92c6hMlr-dB_UHQpt5Lc9LyosNuGdgdq595u2c-mSdXs0kiOmML-qWUaLtNbsPvXN-VviCDXtGGonZO40qSiTDIBhVfJIVWDZVRmM",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041312046731694626\">Alyssa Magnum</a>"
+        ],
+        "photo_reference": "AV-0GLeT5WQWagg1TShZSaOUfKPFEd7PKnA5-lPdSyHzqlFxQ7k-cODxCndwzBeP2DDRipUqZzZs4gHFxaHJ00EXmTXBSEtQ2bdwlOUNj7qSLAed_zvx0rNRnLFxBU7JYXN218mrbOWVbi1m73JZnsqAlGxyCdBllQUQAo8NFYU84ISj5LTlPrAFV8cOGs37FgnNCHpk6h6xhXHlBiJC5oMnHk9tUNyOzB71hB9NrUlW7ISTw8tBRTRb9GFQkX89CI2YO0DdwNpmt2A0YSEtJ95-MisvFIreirQ99jQsd_trCSaruu-SwRkkEhPMty6dtP-2dEScHl-e5aud00i1nARy4vySAzUnRjLJQbwzXWRe-HTkla8PZx3pJv-qO0Wt7AxrOvg00T0prSoded-a7gtgKM5Gxn1Z2p-ax00em1lzPu0P",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108247538534046916768\">Chris Bevill</a>"
+        ],
+        "photo_reference": "AV-0GLf1NsZXGx3pubfPPH3Zsu7RThrC0fcffbzHEeLFI1nvm95p2JaNuMI-_8iejAutDnCwGpWl1HO1NMtyPF_XBZQxPuOVBQgqXT894pnw9YzCgSdEi-Rs9jagv3KkTZBPJXjXG2tO9eX_I2tMidTjr8jNHLzr-Kwn9XZFeOD_PrHkZgtwaDTX-xG8KWQnomvZGUSqHGx_sXLmkoWp0t1TVWdKIsUX8km2wdhVKFRwUImDf4tkF0YXCLfPHBK_nUhmuFvAiN_I8tVploq6YXiA6wcfXk96KoUw3LGz49qrrr_J_6eFiJNn3CSO3acU-Xeakc4FnPLOvoBu46HuaR72W60XBc7w_-BWczBQbpEUKsssjmQTNG4tOR6cgJOLjqd0EVT8GfG1Hkv6ws5Sa9I1qnv4LFA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103948186958460042271\">David Luebke</a>"
+        ],
+        "photo_reference": "AV-0GLfXuqpbOQK3QbpT88FBKL72Xn_dM7BOA669yTHhMo3mstbVI3iAHxZ2PPrD0lE5YTCxwYpYrBx989EFmejhxp6oLnorRPK4qlxQJOCqPQOeydV4_BJUr2Q9v5FmTvNK_gZ1Klpf0ecVnRUFCPnUfxjU9bYXQmh9X2FrKAJgARdYLsMOege9YdR2Os8Dt91CNkaG0XQ2Qp4njl2LVw7j1CsvJQdmX9Qxy8gcYD0PUVJA65C2DMnTK1M_t-19lbvE4rQGWL4q8f-nbgLwm6AeoAOtJDkghkNMLGFQjqY2wnOCOh_055xm57LYj5PAbCcy1BMXLtfriwMYKqb3GcCWutO2u1gef1-n9ez1e_FReyjTB0eGP28Tj6ZhB5kLNNDTrackQSEIhiaZ1QxztXQWDigDZA",
+        "width": 3024
+      },
+      {
+        "height": 3286,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108957096154951476740\">boop</a>"
+        ],
+        "photo_reference": "AV-0GLemFe0EB-2CU4TaQK6lusGv4V-fIKg2Hl9zLVGYveKaVEWQe3IVk3fVAZE4IxScImwOqm_Tb1OywELjBgx1Drr20ZgjNNBEjDmggFebpUbxrQgud2Ffh7WXNzh9uj7jqPpxHqCOCiDWLr8sNrLiGfsKwMctGnM1f71Gg2mZqEcrKKT-zfmgh5qsGRY_d4aErEjjKir6DDvrHNSVsU8MejyAfsRgaicFceP792pIX2r9JXRkFcDJjHXHJPnK9Fg6WjsTzPMskymRCwz1IfwN4HXkOxhFs4LKNk7khnzCjVJ5SENQJP3WdVOX1MCGAr8u1S2ihA2WmwqvkZP1qSVUXeI8R187L6qNhRylQJ6B3gpCDFLkCP2kMY5-s7FSRueYEIRXxue7DHATvJbUiagaP7LKKDBZhic",
+        "width": 2432
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111202896375418224466\">David DeBalko (DD)</a>"
+        ],
+        "photo_reference": "AV-0GLdZ3ZUhQGXBw4CQXf6cb9yDWCKH0XdBgOGScYGApvx1lJC1f26T0GFflaIWNJVjQUi1_BodASUNmio3LKKwVVWrrruC6NrJnkDSMM2MBQcaFK3mdY3B8R4fVjbCWoAasuRj4c7yX1cYs-SNvNaVi6QfFsJwyLlpJlAlig5TLbpXZJa0o7IueMfeJK58JGyKnzr4iSwdeUVtpYP3eqSptxAxEJy4nKnL1q02ghYSC1CQFu3OS7jypLnsThsEODnWjZNreZhzyjUV8Zo1ne0AiZWD02iDfbQGDOKENP0oE9ehWnd9-RnWGX3LPxLCa_hoxtQyLRg2k0V5k_3a2KCdhJOKgLijuvYIcpb6y_mfNYd-DZiK1O1cT_ms2X5ik_TT9Fe0U515zOqNaots3ZL6EnVlfYgNv7E",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102577082089875279566\">Jason Brown</a>"
+        ],
+        "photo_reference": "AV-0GLfFoUdgoiPZa8n4FSY4LXegzTxe-kv1P1YsSZn7y7wMMIVImqtBvGaFopxGpo-wkS9qMpZR9xE3DUYlEzLUvuZK4KLOVKbhD2llCJXoDMPCJgwLWeyGY5WhzlDMh2t0oEuG9zC9Z3cRsBOb8CMwLCtA9mdsDvrjSxnlOlTrBFN6WV7opgL7HSIQCY0gh_fo-QeOv60S9o3ycpOonHmsCT6wo1CvXndt3Gx-fapVmkWFQlL6qVpbfE5XWWqh4c3rGPIbRcuO9qOuDOuBSQr7zm47qiub-b7S42FPwfL9U6DXY0mz15B1BvMxr3zz-ZncNQX3QZKlOEww5ZLMeUrJrcOu5w0hvHplIl2gkv4C0RO5UFD9S3VP4WR_o-jRQvJa_o-Z7gQu4PgY8iIi_rvWqQZOj7cUeoGanCrH7Z_LO9f6Qw",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111843121677381926087\">Emily Miller</a>"
+        ],
+        "photo_reference": "AV-0GLftWFw7DQyn9k4MoOkL9B4PBmrnHddV2Hq8O0z0PpjSnYVq9Q4zqBD1QpqXIj-tIkdUgUzbEu5IJw-tgELhTilPqR6feeu7XQEGRavAlGi4J-jNqLBbMzU--AH7Do6mH3KHFmkacFvWDaMdJUCsl_ab5DTBMhZD1RsOenbS5wl1pztxNY6ng320EZoSm2BALDGXwdMSey2CeCTgvZ3FaQ6EVD0Kfdc2NsmK8b_casAHRWF-u_eXmg1bbuGnCCuZ1as5yV0s-RIYwobkSQcOm_DTtlKJvopz4ABPurzFF82PxH2KSc7382DUIDc2t01XVyQdQKX4Kuyt6kk6hEQ9az8N_5P3RXXVhDqPhpaLHBAVyxocJcbdg1Qc0271lNwvHtgB50LJcTq2bUuz80kLBwetmIE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108247538534046916768\">Chris Bevill</a>"
+        ],
+        "photo_reference": "AV-0GLe1SN5oArqGGLfwvXBc5Y_UCJhFcrUZVr4rr2KHuQfX_msQ7kWBlYW4OT_LSCGaGIFf7fW8M390zgp30XfzdxI6KbdRbtY48FG1kylMrDcY8r8HytoqzLx_mzc6nNFnM10W-eP8eV7Xz0nfffXabVylsZ68Yl0kuoNsonZqFiaZWvk_029mUNwGshZP254eitb-1tKfGa4BABbl9OE981HQVbtci_vt3NVwL31ddU053Tvp4GGLuUwfXuTYzO1kZLdpSocDg-j8Jb3XPLfK9M9ceie16DjxQoVbk05ZNC_4yIpe8OZu27r7yJnFtkWfh0QCTDE7xcK-34PYDTUYRFJbSm8CIvdqT6OyIw67v31vJJcxLwbPKBlgWFjMPfph1CP_RstIoFvzamJIICD3a2YqESM",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ66Crs-S0RIYR6xll8X_7vC4",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3367843148295641579",
+    "vicinity": "3200 Merrie Lynn Ave, Austin",
     "website": "http://www.theherbbar.com/"
   }
 }
