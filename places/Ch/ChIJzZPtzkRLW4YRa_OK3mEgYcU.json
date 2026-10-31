@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:28Z",
+  "fetched_at": "2026-10-31T20:14:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "UnEarthed",
   "place_id": "ChIJzZPtzkRLW4YRa_OK3mEgYcU",
   "result": {
-    "formatted_address": "100 E Main St Ste 102, Round Rock, TX 78664, Round Rock, TX",
+    "address_components": [
+      {
+        "long_name": "Suite 102",
+        "short_name": "Ste 102",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "100",
+        "short_name": "100",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Round Rock Original Plat",
+        "short_name": "Round Rock Original Plat",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Round Rock",
+        "short_name": "Round Rock",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Williamson County",
+        "short_name": "Williamson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78664",
+        "short_name": "78664",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "100 E Main St Ste 102, Round Rock, TX 78664, USA",
     "formatted_phone_number": "(512) 293-5330",
     "geometry": {
       "location": {
-        "lat": 30.5088975,
-        "lng": -97.6786573
+        "lat": 30.5089641,
+        "lng": -97.6787755
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.5102897802915,
+          "lng": -97.67751006970849
+        },
+        "southwest": {
+          "lat": 30.5075918197085,
+          "lng": -97.6802080302915
+        }
       }
     },
     "name": "UnEarthed",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 20:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "AV-0GLf2qCjXRckLyIzBtkSOr6FYtOGpDThCz0ATxTaRt05OXMuzjlrYQI2M3V1KN6FbGConAQW7q62NHDjLl4joC4Aw6RPE0zeGpss0MzRVsauRbYB5CkFtI80rJq1p0hEAkUIy9KxIKkpQgELzFmNdusIYUmFLjkSuxlvNOb-SCsHAGmqvvCcgoJ9vHy_LCByn6VdB6FQ3PMJC3CB3nEiG6jIUzuRz8DkZkrz6CLE_7VH3Tg6dZ-uUWsjcvfAULrb7eH5sEKqQAu7WFtY4uTGB8QGi0w6nManB-Qz1iiucJGv2adqEGqtWbeiwGTnh_xrYo2aBltSXZWvz1zArYzBiX6xn5pupAFN6qMHoWvdLQPIvV93hWznRyNaNgrGXIvPyMXNi6YUXoJaAqJA1o-EJxg4_DjEIFxBifNDWoVuJbMJ1",
+        "width": 1546
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114640962210043813943\">UnEarthed</a>"
+        ],
+        "photo_reference": "AV-0GLd5CbtzRJUmb0RMHLAjB7HLQmqz6VBpF3VWL9cAxfdhGYQEhm2zNqS4Hgs0PhTSNAWbktslk7MfBNx9OaX_rTalmINc7ZPv6hbG90xovZvhtFy__Dd4u_uLXiObsvijxyNnFUiV4ODAqW8N9Bo9pPbbTbNyMmXtZcFeflroerYGaPAFB4lXITU91iRxvRTllk8VPFvsg4B6tnaCIRS80wNojzoDzBLb_157vVMLA4UkeWmCkr3SL08qFbivIwujYCD7J2RB03JoOzv3_cGanpOrzEB7TtHIggHcZin1TamNr71OUxlkzxBaSzB2_EVhU3xvn9L6fU10NZL5mxtp6Oonvv5jHEnYkaGSVQVG9uE7WadFYItZi7rWjwnTnH1xsDkoukW-KI_4YAtfnHq1fdRVqA2z",
+        "width": 4080
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106945539029732404679\">UnEarthed ATX</a>"
+        ],
+        "photo_reference": "AV-0GLciZgiQBWiiSrSHSICGV66hhQDuKCXsgG_Ryk0IoJPshgQ8oTkRYZx5pkVVw-3vPeYvzQ3P9UhiJtwfT-2pgLiXWN4N0Ib7Hw-xtcCAT2zn4Hbs-dwwoLMR0h3d15Y7LMuEAKbxT3Tr6L0RE_XqMuZ58FoAThsB-O6lwAhzNnwOaKUhI6y7yu2M_Ki68pE3bq_BEoTSh43wFyh0INvhjE39uokJ4R7i52tFgwOEgWSJ-jXI0T-rVQGk2Hn5jMinp2fnC6gJbfJ1QtrfZ7bEY5oxQo7F_KmyoNGUkihv8lT_QLY9-f4AegzChg2pIRJnnKA5EFqcg6oI2O-fkV_jQIuzFvbt402ClzXl52GTWyhnC0WvkT9bfs29ZXnle8SfT-m6guc8y8jTw4CAgQtBzDfhvnc",
+        "width": 1440
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114640962210043813943\">UnEarthed</a>"
+        ],
+        "photo_reference": "AV-0GLdMsSWR8APHwgSzSHXY8wzDsHwfm3OKNczLyz-8MZgUkldxcwhOmOAA7nREQOFXrNCx2yZ9bxeBkK6FQ8t4eorVubL-fakC0EEho9J0DG96AtnhDwjtONHfKNluFoWWiPbq4CWzt3L3-c3B9EYpUOemOF3VD07NZFLMXJ1nSQfpbYjIq0nQYMc4KVPzZA42BsMt3mKaOxntO3IilkzQPQpQXRBaXX6mWElIzQR6lbeh5Rmr_ZCGNgz9HjlUvXr23U7F4g2kyoFFUIouU-Vsn64mpoSfYxMHAWT2aF2yhJub1MneW7iqAjnLKYnNfPt9b7lblqAW1hm-t6Bgc8TqY_Cfy82NGWYQXtqdmhWMcQBDDcx7Z6IWkBK6CxzGNO8DSniZS3ADBM7Hg4Vi9aFQ2_OvLiSa",
+        "width": 3072
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102528153779381694550\">American Marketing &amp; Publishing</a>"
+        ],
+        "photo_reference": "AV-0GLdOBYGwarfLS_-0wsY5kRPZeKGAC1S2LVAe01QI6m6xF-H7N3DmtJ46HcOj6d9gwvA68RZw_OaRvs9xZnhn2FACBbeKu1jFK--NWhtRf5cjoG4b7H-VpDzJ6LtqWSSFF4A-gOYl72N7ONfmkeLZ7vU19gfvbQYXWJ1xRCGH5q5VmFgPHSVyZe5XuguiG_xGACDWem02ZnlmfCeA44ILZ8oDeFsaia7oyjlVZMBZ6jvdNTwPU6UZhHo1gzUap_NjS9rvEyVDa8QDgIxe-MVpwPPNNGZCY5YspqVng_79jZ5gYs4kV1313NRuSozK8aytQA32AQMJm-k9AbUuTdkPtjOUZfQa8Nuo9x4hYTG5dGmWz7IpWfyoqJiniVtUpP17649RDZUDKBMZAKQ6irNIdItQXVPH75yK7l8y9J-Tg5vXUA",
+        "width": 1546
+      },
+      {
+        "height": 2304,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109066539791386313297\">LorDefiance</a>"
+        ],
+        "photo_reference": "AV-0GLdawW4PvixyrRMrM6UQ5-24C-b-FYKTMDohmGeLJRA_vMdBoKX-1XGoq6DQPQMMVyqMNITl0cSXxsMltrwwvN-PS7jQk5kpzviOYp_pQCLZD_USGDmTmsdB9OcJ8WSISWbxPmEDc1J8KZZM2nax_HfbXp-fFcG6FLNX4GAn53Oo6S1_QZNKJy7sLapluFlLAXqmWDq643576MmRYBPnq1Pi_0Go752UdHO9Tjs93kp1-L5giK8Vz9OfdRsZFzaBeWQFVKFhUIb2z6I8xVMRp1seCyJPv-Db7YIjZF48pfFd-0glgK9r6ii2T-SJTTBOlBlBYjTHlEiI2PtEBdidj1_yYnk5_5qakU3h_pnuebag9ixT2IvCu4Div2oi0pKMMZpKQ5qGGxeViMK68MaT6oOU9-cDP29fEyMCAw92pEVW",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114640962210043813943\">UnEarthed</a>"
+        ],
+        "photo_reference": "AV-0GLf-T0nB1yuYLS129hnriP8lip-bWyFXANpYG6Ek5cJRdaSIYh98qOnZenICu3IWGk5VoYyywH_2vc1snuhSgOwDvwRbaSqdGXFCLg8ngwr1MGj-pasivLBODZ_JWSgGXu5W7Q6UksF9rR5X41Np0BjVJBNBpTsS8ugZm9Ehsbna87Sm28KI06ySZxZBCKx-ENO6g8uqUep36UOzGWsxzdGVGLRSZjHcFe9OlBgSdibKLzF4uQcwJhi3GPBpp5666bAFu2oOfwqFINbUP3-8Fabb3zz-3hgkE1QuYOj70oYpoE2IAsB5II4pezS5hOYEcb_K2mUN2FUGoFWilS0uK397_bWIlIRCWVVT9YF1yB0dOEnjVs4LjCo0UIN9AllR1J_dk2uWPf20VNgA_nS5GfzezWw",
+        "width": 3072
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106945539029732404679\">UnEarthed ATX</a>"
+        ],
+        "photo_reference": "AV-0GLe3aGbKOf8Oo-cNhLWlcFaQTa2FT6pGW9oTSM2iETQFLab3R20bwDsb2sF3RKp2Ltf0mDTbuO6oo37kpQJtx9Ett8_KBb5GGMQOlYS_hIh65nd-hfUBWBqDtV5zigNECz-dR0TVg9miyYEGG-xa0Tan7oqB6BzQiWCktxJIqTBnNrZryRcchhTLk6ubOOVSgWOgBRQtWzefX4aId43z7LWJKMEU8GxO8qzOWko89He28NOuhzSRnDNWFzknMFUX5KpNwstojptVxnGu4Nc_XQlZrcFIFoFbtMy4-R7u4Y2zccyL7VV7sOVvz67ecaRVl-r72zYoT5CvFULGvO3pDyfKnGNrb35abS2Kmd3nxqIS0kUyxDaEcPBDfF8mcdBllgwcyn2AuVEl4cXc9s_q8BTFOgc",
+        "width": 1440
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116166653173623785293\">General Malice (Malice Media LLC.)</a>"
+        ],
+        "photo_reference": "AV-0GLfHEpChGdfBNhSaqNi5vKG4K1yCbqMXoLfMInYxtXDrG8woi49B3eIo2hvTlDMhJvM3NtRVaG9hLLahz5O9ZtAPtlAAucx5pTDX8URT81-3ArOIOlUjq-yl40D0gWTIpk6yoiu_W-5foP_ZXG2atCCqawa5sRtOyLq6qIOVeRETG2HU8SbxcA23agotpS3a0_K6oqrQWmqNbbdfJxOAdKvMkx1GTY-iO4STK1kMYNHKVm_vZnN3CeRRr2Fh4E1U2eQqD47EiY4fEKxbvQNVfFDCp5dubt5-Iq85pJ6HgoXnjsCI4WTb4grNfEw2HxGLNG4te-MGjFSArWSqHRyPrz6KpT9FLmQCHKi-tuW9IJjCCy_RQ6TygL1Viu2_pbQz6eagJDdf9RTmc9eWtnEyXlqbDfVgcO0",
+        "width": 3614
+      },
+      {
+        "height": 3614,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116166653173623785293\">General Malice (Malice Media LLC.)</a>"
+        ],
+        "photo_reference": "AV-0GLfau5OBGbEBHpccZhi47mDeCgafe_9oqmG29hWmKfPc2FiOCbhgn9E-2jC39_biBMy-U31sUYb0sMLw5WzgxkEBp337yuYWYAJfo22L5-O3ogmQtF9zwxj7ihigodm30TrfCo7Qczf7vTMqtUChoHQmour7qWgUKkBVAuKk7t_de3jmKe8x6zU5q65ZwOWhWSgAbej_kNmNoqct91u-QPhz15Ii7bnufC2BJsQCuSGsYDyony1ZzAXDM51j1KlvDXKxz0M-FfYhXIDoyv897fk-H891YDrB4CO9KOjf3Z5LIdYIqHeTqz1y8R3t7its5O9uNP9amF5HrPOsX552mipwjHTK6u1v0RsFkWWLTAWu-N5V5CbZmD73r0aNKEHC2okI_BPvXM5SFCsCky8T70SZvpeTf1I",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJzZPtzkRLW4YRa_OK3mEgYcU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14222684702930301803",
+    "vicinity": "100 E Main St Ste 102, Round Rock",
     "website": "http://www.unearthedatx.com/"
   }
 }
