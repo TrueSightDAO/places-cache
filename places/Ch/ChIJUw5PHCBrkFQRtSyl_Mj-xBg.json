@@ -1,38 +1,261 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:13Z",
+  "fetched_at": "2026-10-31T02:40:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Phantom Quartz",
   "place_id": "ChIJUw5PHCBrkFQRtSyl_Mj-xBg",
   "result": {
-    "formatted_address": "711 N 35th St B, Seattle, WA 98103, United States, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "B",
+        "short_name": "B",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "711",
+        "short_name": "711",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 35th Street",
+        "short_name": "N 35th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fremont",
+        "short_name": "Fremont",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98103",
+        "short_name": "98103",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "711 N 35th St B, Seattle, WA 98103, USA",
     "geometry": {
       "location": {
         "lat": 47.6502477,
         "lng": -122.3491217
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.65168593029151,
+          "lng": -122.3477934197085
+        },
+        "southwest": {
+          "lat": 47.64898796970851,
+          "lng": -122.3504913802915
+        }
       }
     },
     "name": "Phantom Quartz",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLf8AzeBCmgeBtIRHivt3OW9wLLGaN02ze4Sm_MG27yQw6p8DL-WULtMdsLlV05D0eHe50ndVSMCWfRvkDQv7umTtCev_ioe-10DTktazBQxzqVkpu8tAZVbm9C4Knz5LeBMDcDk8feVMyTpG2j1ceGt9U9AAJyEdVpmRw3HuaPreovtkcmD36vEN5Egbb9uSpHjMZHCGG-9uiOjZIzBfEKs-PhS_yCqkUkEjT2jB5hRfv8SSCSnPZh2M_OFZffVzM25gHV8HptwfDuBQ_nh1Cul83tHKkry0PLkI-s_69nzguwFhnMgJsrWltilYLQVK98-tN4zda---yIAutYsd7WtzN6wIuhEQ_acYxCvkZg_zhf9VDLgtiTQJAcvcY0kn83BeyNJEUsk7SFRJSsRjrg65CRq",
+        "width": 4032
+      },
+      {
+        "height": 2174,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLeGIBoJRsLeD4KTtxDsyOHx0_DbQHJS6uvQqBzlwh_SFCXWRXKFK5ec9sq_uU26S6cORxCX6vBZWq1HRQ5d-BGuBdKOaZzvZ9pqBwoVIue4R3rRRe3BbgJpAzOdtj42b1hlz7yriI49dPXwL1bK_i8zCfU9eWDC-hcr0u3fdwsxGj0T1MvC7RM7Z9reNxhDgwIZM54WdGbn34az3oNdOoRGg8-xuh8qU4RNfxprZnuMabV2phiZtTN9VOHiIjHqXQ8D8QKys2FgXbxJicBRxsPNIm-Ye2DXm-IoVfcD0FC0EEBuhjPR0Yc0d8QBaiw_jisKSqzL7RcTmc6ep58tZfpM6QExJTKoz8gNLMX-YmIzeF85iGMP_RibHmRrno2zc2bFr0d4pD-b3_IGg7yHqIjRAPU",
+        "width": 3864
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLdkPWbbqVamWVD_95J4tPjI4DXRS8kWBDTDyAf6LXGuz7ZnDAju5sdw3eue_jzXmZlKi48taJ4OHdqdMr0v4mrJCjCkYet5JZr4tHePCq3v3l8shxF1iM29fFA8Ie8dzL6r1KTfbihjObHjovoJlKGDXBE4H3G0h5w1ADTjXMH8rpP-5tVdu3twIe7QUfo459eDfOUoO_rwamkBr2zCfCD5ixWKcvN71lxKmgPML11O78NWJEp6UNzsaunJXiQnCW6nhVEhKbUtTMzQwL-tlBRYpRsNOtFFzgASZaq-5f9TY0IrAZceNg-XissNF8g-1V4_fJ7BaVkyI8brWThMZXaYpfRYqALv5EtiZ3tQsuhkeo_XFa4tGeCHVkrGHaUXlNfEQIn-5KcNITa17OEUIZ8ogDRhNWw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLfjRUTmb_wd4BGI9oBuMo1d7-JE6dc9ZqELD9pGBv2MRXXnTlXWRxa6fUGuyOLwStG-mrZXQcLYsUqumXymJ4xGgUlu5ThN-KP-a93q7aBaIeFp9lPAo86j9VXvzXlzyJt4Mg65wIlcH0Hlvod65UsyL3OD4bkt3o86Qc6c6vElOiipKh7HmSXBtGbvPI5xYwUCbXnlwinS3JMdPqH-V7RzeuBBjqOgN6o-HRHI9XwgsLdSWM69WeWSbfUjNAjgSIqye2Th-2QiejnPll9MrFircihVJMwzbcif_D4epOZDgQQfPPZ8Qv43csK0xJMWiVjiwPCAORFA8EqYz-JIO26y6_kn23u4X0t_MYx7dkZQbDhaw-sTW0BMlS8zxrJOEiq300cHkw1LoH87QdWyTJEsZ6lb5uo",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLc6XYq36QHw0PI-Vpi6Gyz6YEa8wrBvfcqlupuX83KCma36L8Q1aayIUcRMpshfgeubDgPyJGtEKvTPieafB7TcjwCyk7T4xSNOzRVVMgBv84GobTWl-5KfvdMKVU2RKC-vLHEK2Fs7uQunz4RwK9DD3TYOi4xhQvZluqb7T0Weu8_Ww32UTwhOC-Jfc_MP0-VFm7YmIb6fhYUpUhSmNh1-UYRGxf8SYg1TySDTyvn7yJZonTh0r22B4rPYzid3qbtqmW_uP3Omg859rVE_MpKepZcc2nBYvXglIg28-ClMX-Y-uWKqYqAHQVICDOE5jWNauEiQkJoi2Cw9TJegCSz8cxEftJndy9C0JYYIqoRwJqe-NL2Q3Ms0GTT98n1a-hx2tAkV69GehL7GubDxw6Lqb0UepNQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLdaM_Iw2lLVeLUg_pukrdeD8EizUfkmshp6CySV9tnwkJfmKCr4ipe83jEtcEakqS2KGiXJ-MgzV5hUj6OKd4HUsiJuTs8J8mGWpxbcRlmfb_QuIW0TJ2J-Qpdfl5B9PwGGX8p7gq5lTtmVkxjtLc7Znqtf8_Xo7gYvVBf8olH1iPfTL-0iPAmKOl-jcV7zWtIk0HrmKn8cNxVduyzQU1WAE9wTHfsWzTnqGiqDYohQBwFj2gcl-h1gjiArsB_F_4Sae2xbK4WnhooP0f05Llo9hW-V_r8I3eNvo9ZCboXyAgY1XWwk6kGx7fFam-IfbZN0b2LyJzB4itov7BrWEZF1YWzK-RKh4qESoYZ5Yt0w823fdO0mHYS65m-xegcSuZj0oiUEfEhlktPSaQke6Y1qBUr1N1Y",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLf0Fv42w_KAVpXkJXDq_URT4THsf83ovCcCwEQ2Y57IacwxwqV6M13YSZa1eiSjMqqGvISRXRFxDWZwlB5MqWpz9gB9gUdkP1UZsqHH8S5O61Nm-KZejFn5tRtnmCe32FSX43OPgdmBStnhKVidtEbA0u-gHqAsydupfCkZcoBJdcfHIqtp1MIns3X1h7Q-WXe9gWoxhgHTKgoPEP71smwq-OqC1s03lFRNFZaJf5HYVxpZbK-ue3qp1knWeF4uZEY9u8L47tIGxCcZnpCit8fOzdUC-xwljkCij4XUjfnMyAwZvimKAiKWqDlyyRx8HI1uoUFgQRbwNwOXOf82nPG1-KvXgOU-VQJ5w8S_jN7hZ1a9NxZ7cIw6AXd6lEyidV-wlRHKxtqB0ITIP2ZLzC3nZitq3FA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLcKb3DzjUB_4zuwl4UEF0mc0C80HVUAFVbE4iPrfBiyfoH-qXAvVipJ12F_OB9CoKhPz7BY9Mk_5jCyn-GKz_96HHBCyz1HC1NquQQb9CPb2OqigDS-fX71tcRzT5vaaW3hj5jYm6AbAAcFOyxjV-9QCBqG6fV_fjrkTEjE2fvdmwu3gimMyqgnfWg4FY3D14tAnvs_fEO-4z32EvaI-PLqprAURWEASP4yzoi26w_wYd5_iph7NoxiJwoG7h5Kk5_4oKhiiZ-L7vFPErGpwW7aPaEAuZlkMiJkJVv4d-5ARE_vS_fhko50l_q2aKTrHjA7dGYyZhwSV4ovmRUoNmQYsu-PLtrNTFV1kQiRfLHffdcSA5g9SQXsDpqA1w0qAZTVhUjp1c_Jm4gAd7bxyUBjIfA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLfzYRZ5xjHVmXuc0K-H3mhJJqHhHt1QAacGVv-bGRSyQ4uuZdCytuRW2TDiW9SHcxLLQ1tdlG4eghWwIYlfVsTbj1pz_esiAvn-vRVXorahmhU_T8iZHUAsi6Hyl791kDsL1heG3sHSS8ErvTEcVcgFTMM2HAzBJ3wIZZz_nP1tpbtJNWS2LEdWc7nbOzUo3tHnl2JW4WYyidrXU4x4qD0HjW7WY4ONMi8nwddYiRWGG-iY34Ftq1JXxL4PTGAelcWICeQ5WS-jlsQE76W4TnPiRk1pNtCS24x9gmR7GQeGhZQgCpXHx9SlCwElRkMxqUCY30alcLcUeiZKJES0vwmjjnNV-lrhUZHqif1dbXxXZGNX8pA4UgCxQTHiOfM-hiWXut8Ichukoc-NYhYYGYtdK80",
+        "width": 3024
+      },
+      {
+        "height": 2885,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105971485205900245948\">Phantom Quartz</a>"
+        ],
+        "photo_reference": "AV-0GLfm0OwmTHeofLGEza7agKnTqeY-ZIrcqSId1BBgmqlmzWikycV6w7p9wKCPj6-cbec7q_XsCB2-xF9fcND0I-BKb-YOPrNUkilc2VmB76A3gFOriCFnK_vlI2aWv4JqxiTA78yWkQ7FbzFTEt2qwvz-RVxbe_5SiBGJdtT-5kHmHiThjPl016VEXgvxn2gJ1nYx50dD5nuIIi830R-f9jvhAE9iI9abXpSxtmJuLnMrR4om9LGH0Ynedmkrw9ltzjxVmvgQXemL-Ph2RHWbAhFnln4tEU3rRZ8rMl7qNRgbae8zKOFsyjTyB167I9kEO733KKSLlDaYLNJ1JlrdYepUiiSUCSv2McKYZFGh36cg0b9og25TcGdMweT-8bEXBtzkRWen3njphLXfmNhHrug_pug",
+        "width": 3846
+      }
+    ],
     "place_id": "ChIJUw5PHCBrkFQRtSyl_Mj-xBg",
+    "types": [
+      "book_store",
+      "clothing_store",
+      "establishment",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1784831491531156661",
+    "vicinity": "711 N 35th St B, Seattle",
     "website": "http://www.phantom-quartz.com/"
   }
 }
