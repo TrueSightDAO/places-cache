@@ -1,40 +1,241 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:17Z",
+  "fetched_at": "2026-10-31T02:40:37Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Earth Shine Llc",
+  "name": "EarthShine Apothecary and Botanica",
   "place_id": "ChIJYaXAKvIHkFQRDNSAUcB9UzI",
   "result": {
-    "formatted_address": "743 Broadway, Tacoma, WA 98402, United States, Tacoma, WA",
+    "address_components": [
+      {
+        "long_name": "743",
+        "short_name": "743",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "New Tacoma",
+        "short_name": "New Tacoma",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tacoma",
+        "short_name": "Tacoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98402",
+        "short_name": "98402",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "743 Broadway, Tacoma, WA 98402, USA",
     "formatted_phone_number": "(206) 445-2683",
     "geometry": {
       "location": {
         "lat": 47.2558461,
         "lng": -122.440698
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.2571887802915,
+          "lng": -122.4393981197085
+        },
+        "southwest": {
+          "lat": 47.2544908197085,
+          "lng": -122.4420960802915
+        }
       }
     },
-    "name": "Earth Shine Llc",
+    "name": "EarthShine Apothecary and Botanica",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Thursday: Closed",
         "Friday: Closed",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117542001302928054390\">Earthshine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLe_zdELYyXtEzHp2LMxGHgSFCdZnfw9juW5FpYuHizrgNxMiP6E-XhxNnQJQvUpt-EvBFjGAqaE4vN_gIWWn1LFvzlHLA3q6OVllLOgsXc1eC7JWebt6n62suignVJ2KBKs9bDkFcYEvBRjK37g54fT9DIgdbRYE4d62SkIyf6Ibr2MpUpoH1L4ANAu2vtKXydFQY2ko8Ht5ncs2dhvn-fi4qXqmLfAn7jf7qvuo_GyPNtkaSeFuSj9otUGkZfcB8pBkwZuFOoGoY5y6kvVor9w6V0Yi8zznYmQjyN3iSR_q2bu0Ly4bcs4IET8mAgACt8MWrr_nCEBde9EFW9RkeQl-ILRwnYe14KW8woA50NtzLpvDHYCALmvs8U1edIfpocurhmCmAgrpbRTjt4CM4U62kE",
+        "width": 600
+      },
+      {
+        "height": 2972,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLe7p3IRFQrnboX943X6m--yvcnsfT7LJX-kEc2AO9OOYv0jpm8dM6sQ6AnAdqQbLfMtWtuL4q3XSEqVbCKMy8vbzR75RDpGlPqg_pTCXJWhHgQkSD1A04_TZijFrd2hLz8qiQZjoIudLbpgmt3iSlBj5zTIEPT6pZ4vhy5_tk3n7ksehwfDEtkNdcKmZ-CJyoNiC9S_3ge9zNdpiAdXIhQ-KqSORsJ1GG9EqmBHOG4u-LNwQO0NyOHmBlSz7sVDOBSJ0UtUwH7JQL_yCbjG88jfbrRm0Ta4Eoq5S71ufgFfYeoQNnxlp1VX5a2MwJfSAO2eoUAc8S6B-w4K8uLp4MEqTdjWjpTKPK1UeCxZLMlROcbxyqYWUFp1pBWlh1YlisCWemzBaQJtipQJr17TZvCclbEFVX7lnF8E3tWJ0u47KA",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfPbTaQo7ZSzGMEeDP4P8UR1AMZZt3yzSlsbpWCBkZhGDRT_V46GybNCWddSdJgdNcWule3YxhSfC0IOaI0KngqX5yEIvQSUWEoGiM6KL9k_1VR40Da8MdEQAaPb22fz1TnaveWSL-kiejQAbd4RBFuyfp7aunrQ8-MgTCO9ObZqkzt6PkK7BxjHOC7gPqRcgPz42x71aCfBKXU2vu1T9-u0C3epvSOHGtcrYFfq9Z9DI67NAhu-I2M_yDYUGy8jevjsia-npA5zWLr_as6-SVnIh439xwHVhwxd3oV5fXmP0wphk7-08b2CQRV1SARGL9M2qPafQuyyaNl-WHvFX7EDPnwOtrhy57XrSPDA5gQqf7GUWqCRawOYroq_JWZjPaA2IFAjEpJ2IL_mYdlrY67I8qg",
+        "width": 3600
+      },
+      {
+        "height": 3025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfHaPlD_03U4yLAE-NQa9T7Y76sQInBzNOEv1ztNq-zNHYS_FiKRHo8Ay4h8fyEK1Fa4X5l3V9XPwYvONaK0ZpFEJlYTbEDGNgS2Pmenex5dB9XaxcecHmgDh5WJnLvCgdHNJMcV6DVHzheNXpftsYBQ0MmNzGLogt7jFrp2YMwcfJabdWHemAkNnnqs0JC90jBKXqJo0TcKxz4kRBvfR93F65z1RaQiyKAC4M_K5Lk8ddtnL7CAuatxeDxH96OxDwTWiBxT6sCCRcd1Nz6fZmB3EEoAzioAfl9oresZcp6at6achygjV8N5duhDdj8KIZJVvPImv3VdwzthXfTzAU6zym80mYeCmrKNn0VzSNWH1NV3SOjXmqS0-hFKLPxQJ9tKVAm0EcdzKa63Naq3zE-MOo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfXEYMBWrA_nu1AfoWHLpD8wj5Bv8DfGC4xnI8v9_D7FBE1As0O9i6fsXlxhCGTo1MdsZIsPESQtMsgqKJxVWzcnLmq1Si7byy4BjEyr6HBPe8Jvu9gPnfUCNapruUPgqHUw800aia45WQTuZ77f6NOvS0bREcHDaO4DanYJk-UoNufCc1q00gGx5SyzouqxRGtLrVebiXsEA3GdyPKKsyAaEBLUNHhSAf39hKNhjRAw6i4I7JecO1assUDQfreGDOPgWXaonQ9yFLRuXEkCJH2ls1_bIu9jvIlqJyQek27SAt76waMosrTd_4YPksOpnUxPqE8EaKf5qF_brB93lHHm8RguLRjEZfOCNoqYhPBRrJ4NN0AXvXmv4Hks6alEWSSPTFSpDrv5Nvh0TOfSu1Rtmo",
+        "width": 1960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfn1TlxDDOCm5uLpvYAxr_-SsDD8tQawA4vtcriXxm3Z0dB5d7C8yq0Iwfsv99NqTIcu4DEvsJAruvd1X8OE8tTgnWpkW0t6H17Lnsmm869fk3VYN_p-JVfEeSVtBcJK-YOBbJ5AA4Ufcsy43abNSeecllb7bdrN4QtZQn7C9H7g_tnfVhGmGpw69nnq0NRGPI2-tVFNOVi2qhwpo-ndam_RgWPJglXjDA6zxl5gJQJHQ2zhZfEFeP_xQviXTFSC95feaQ8EYW6N06KEpWQluOhut8AJK2DcIEkcEapVdwHcjJnTeTj6Xca7XqQuVz7HvsfFxTkVQ38bD54wjshqzxxpEFofmPVzVcpM6iEWQqjJI5Mw6mwK6NwCyk0McltPPqsUZYV5EXXwsRGjMpNm4Kv5A",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLeIs-OBYqgXVIsBIQacNp6EKrpP8AGtbeSe_1EobYBmkabKQMQWkHGBBIIozoiVzx_zTjZQdeLTytnfTO9UHrU_G9DOi3ZGeOrWnunZH18U91qxjX5-j7xpGA1iDDB5V3zjzLYCfgRUaCQf2D0vkg2HE4m8u8kvAq95bWa6--EpDxLqgqFnLPeBB7ip5CQei_DHh3_LDg-UbgRb7jbfdzQZFgaJq72lOVzY8_7POT44usejG5_91k-zyXqp13p8YZM-sijWYoO1kKMXzYE9N7orVvoQDPriG9QbiYafY4KxuJQcpuiu548ZqHnU4XHvVARaoSw1FkJAzfZpIfncowhRte0HyxRjTAsKYLpNIzum3VElWclq3Nb6ooN1OEe_15A_-x9h3B5Aa8vz7ZEoRqAwP0n8q3w",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLfa6ibrnQkomziKQPf-Zj-ISXL2CS81LewxGDS8YEAJ8Hu_L16nb7Qo1lqwqOCjKVivnM43l4eXU-cPjRcPbtIQksfY0v28e12AtnVwcI8Xb6wzez4sA-34S-tnZCWdCAPd1uC2sLDnp1gjYvi6_ZnDjyXSDLGtghG1ceoPxVAw1p-u4FroPmz0Xt5y5VoO0n-9_ay1uZCJnihHyYJKHzsd_VuwgwGzNp7STkvbCzuh_xSpA6nF_BR88IVJbJlgkKZ3yGUqAHPEb4aDo-4JF-vxgas8UlYaWH04olUtmFJTsw0WEz6fW2fIRqh6o_Q2I_uhTjCFVVK_sQtd_QD41xj-o9UF1W0Sriv104Al5oSdwupvPmVde0Ib1lqgGhy0x2vivBVZ7jMbJ0Jc3QQLihL5_zs",
+        "width": 3600
+      },
+      {
+        "height": 3445,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLcIiinEb-p_kBDn8sdaKotWBn1RLPq3IGeSPg4uteL3D58NmnG3DMjYuUmOaQJ_ZS9FhuC6sEAzJ5uZg1QHGO8Ckr2-aid2GJ8hS9yYoe6auskrtvqRfv_rLSaBnlW4ZRnuqPYtogjM08Pm_Cj8Tbv0mTbA9trsaSA1jBXzthvjXad30goJV-E5ksDakkviMZvbgwkKk2WgNV81yoQ2z8-7TEXxpaxwFGajwtYyNvs43ellqq0KwyjFJH6jkwKTCC2JcfbOnx6M-xN-psTpaGhOkUF62AM09vJw3G04i0y2nNOkI5GcQ9tw28u2Nfh1ruSE6mPMOhufzXnYNIJz1I70Gor7LxOzqKzyvROPD-b7vsPSHCZVX9ymFW5dtb7QF_ImX_1WGIE0y7oI3DzeN44WMAOTPQc",
+        "width": 1943
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101228053744152869319\">EarthShine Apothecary and Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLf6-PtckRcjJb-JuKTuC-tsuUH90rzuqxSGI-7PauRZr7tYHxNh6PVDwm5GLyruU8LZk9-Ypj20xmRJ2y3dFD6Qv4WTjgL4fYBdCrDF_3OdJaM0t9P2n9IbR_VZadFKGMfeuWg-15KUe9SP-0sARZgmtTAhCHmbDuwrvN5TtDv-umAtDqb3rkIMqVq7K7txK3jLsGzJtntgEUiWhlrCvGOYnnJsV2kyvVLVL34t7lRKoB_vbu7RSch97zowj90ByLfQZTMS1ue6xcamZZUGGaHkkZYxBY2oozWCIAO98VBoaNMrBG73sS8PcXSSW6OHslAndrdGSTf55wQGXnGe6pmQBCBLyireaaArDmAjrgSl9LFDpOC1uv8Xks9HLxIAkkntMjfAEGb-nPXLD6pFPMq0OYE",
+        "width": 1960
+      }
+    ],
     "place_id": "ChIJYaXAKvIHkFQRDNSAUcB9UzI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3626380389917971468",
+    "vicinity": "743 Broadway, Tacoma",
     "website": "http://earth-shine-llc.com/"
   }
 }
