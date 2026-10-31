@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:24Z",
+  "fetched_at": "2026-10-31T02:40:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Solidagoapothecary",
+  "name": "Solidago - Wade Vetiver's Apothecary and Esoterica",
   "place_id": "ChIJXdqXBdepXIYR6RgMsun5R38",
   "result": {
-    "formatted_address": "504 Burleson St, San Marcos, TX 78666, San Marcos, TX",
+    "address_components": [
+      {
+        "long_name": "504",
+        "short_name": "504",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Burleson Street",
+        "short_name": "Burleson St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Heritage",
+        "short_name": "Heritage",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Marcos",
+        "short_name": "San Marcos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Hays County",
+        "short_name": "Hays County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78666",
+        "short_name": "78666",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "504 Burleson St, San Marcos, TX 78666, USA",
     "geometry": {
       "location": {
-        "lat": 29.8835199,
-        "lng": -97.9478278
+        "lat": 29.8835943,
+        "lng": -97.9480402
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 29.8848369302915,
+          "lng": -97.94664676970851
+        },
+        "southwest": {
+          "lat": 29.8821389697085,
+          "lng": -97.94934473029151
+        }
       }
     },
-    "name": "Solidagoapothecary",
+    "name": "Solidago - Wade Vetiver's Apothecary and Esoterica",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:30",
-        "Tuesday: 11:00 \u2013 18:30",
-        "Wednesday: 11:00 \u2013 18:30",
-        "Thursday: 11:00 \u2013 18:30",
-        "Friday: 11:00 \u2013 18:30",
-        "Saturday: 11:00 \u2013 18:30",
-        "Sunday: 11:00 \u2013 16:30"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118160866831913030311\">Cassandra Trevino</a>"
+        ],
+        "photo_reference": "AV-0GLc8t6zl_MAKDAtNiseMpF5pHwPqIQHnWZi_YT3tDx0GLaKdio1Vqn1EVI2Ux_WsWxvJ4yeOpESK6pMmu09fFQ8VFar8zH7dPXT3bn4KTuo1WJl5AMQ8EajW1rCc1yopzwyvsb3p3RUYHMUYdOBTORrV5bEZ-gfGn2Qe1p1xqYoYoxP-awYc4UxDPvhs1hpV38g6A3fOQ0k0VxBBZch9sf2w4AL8U-ENmToBCT-OTauEz8epLwvfK6T4vVTkL7lKpZ6k3hzo-QMVkgQ01gHczCRaSeeAIpzZYpHDt83assowzyzYMvLxMxM5OJ36hG6vjpPKezPmMq-3rPHwHAOawG-d8hd_yuxYe08V0QupzUgi71xQo2-gSjAURbaw7vrzeHx2Rrf2IPzf7sN9QSpMcGSS5MHq0cLRWzDraYyzzCl6",
+        "width": 3060
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109770509418326638537\">Solidago - Wade Vetiver&#39;s Apothecary and Esoterica</a>"
+        ],
+        "photo_reference": "AV-0GLcNwSNxd7LFo3dxFK38hkNbM42FDtUBJifUlxhoTA_Q4WVTXPMCpJ7DNvwpI_v-9jlnG9ZnWM6dHusr3glDIVzSoAzCPWSrjGXf0dlgbTbIBo7RcrvwG8xdd2aU9XzyGXJXiUrIqSkJkn1g_aCwWQcxSuW-3knjUJrKWEeEc8d_ralu3vD0FdPcEWDMPDY7bsg6Yt6sl1voZaB0FOjxXCMcbSAGo5vyy4jdKovKc75DFuQZzxF0B09dyrNftM6IlIzkfkK3yoW5IwRpCkwI1e5_tIG_IcIe42Pv4-6u_EkFzWWYAwztecYx0TsYKL3mXwBDh_BnLM18AnW4HVGhZy4NAzsTa3uqod5BvfzDRuUei_xITN4zcb_A18H3nGkP8yrKs0VFms6iVKrePAaoTiYb1X_Eu9s",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109770509418326638537\">Solidago - Wade Vetiver&#39;s Apothecary and Esoterica</a>"
+        ],
+        "photo_reference": "AV-0GLcaSx5xjuYoPINRYZO0LsAIQng8JIpoWNDZJCrmpJWfvtRngUK_uUDcqoZSqLKuw37SgL7IMlmibXL4qZGEqIh0fxOf1qIh3lN1uibbZv5MSwnMGRQ4etKrIh7F_k3MPVS8jWB84-XGCZOlYlBeKdtU2X2AayNyUVCDTVkvU75xdQCof9_udKBxdfxD3Avb00LfR9dd6_V3jWMkhxcK4_wGut5RphahXu9QbBpL6rRroIQuf6jVbHnlF0XUV-YhhkVKMq_-w_N_VT0pfHKGDuhBsmmuCRf8hzFNeKTb5DZahyUkxZN0o-sM9m1lZ2asz3OoDO-iI6VqaSTH7RYWNJsX0rUA9Ugx6oBRAwr5fPWKcnUO4KIAsto9jxz85vlfUisjBMBGrry02EDpI4uqsKUXaU7EKD0",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118160866831913030311\">Cassandra Trevino</a>"
+        ],
+        "photo_reference": "AV-0GLd25GTOndwqbvCuN7nQrpBjU6dyV-2bw_sDjQd9GIs2rd-VoYRV5mhLgQYmegBcot5f3CBC0KBOF6ZvHy4tinW6Z_u6S-WhwV0jWPfEiTYAdzjvZow6k5fiKvr7WlfSKdCbIe84oRP05Q8eeoHwlG6-ZiYCwrSLSjpR3RNwNbKlBA5kxisMfWBESlNlxGjCgkL4uCyjg3fLG467m0Ux0A3T_d1thzmH8y1qFbBhiaT2-tOA-ebeCT8RxR7Ut4C3V1xgGxZfMqVnwQLUgO79NXgiXT7uTzRPyC6wjFLn8cCWwR_cv3S8zPnYlV01l_8WbLGxCGZn3KmhqqjiHvSu6quPAg28I_WrsS-F5XlTxkqgL9tnf0mHLMIqsIqZLSHi2Y-piD72t66rEmLpF1Wo2MvEZmErgmXBuUl_mxa5KobsaQ",
+        "width": 3060
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109770509418326638537\">Solidago - Wade Vetiver&#39;s Apothecary and Esoterica</a>"
+        ],
+        "photo_reference": "AV-0GLfwjrU3g1a8y9Bvj706ydTaxeS0MxbkTx5B3siIz_fmB1m2kAsk1fhcaWTKdyo6x7bBxj7g9OjQofmdNaxMdQN_StwkAgjbzNlU-PfPIu5VSwCb4xOACgVeBI-ArPvZnrf0duIQbG-RkOAiMPNnCZCJalm8krGvDEhZbDVQ4tOIvV2wK0dkRZPqcQn4qIDte0O4d0QkeZwF9S8khm4QmES8WCkts0TEVdFsbWQ-tSPCdSWJl08byQqu7m9zLMA-yZqIXOjgyoAk49GIk5TxutSFQd9A89OJruY_yurYwhIr-Qvoip1mxP674rfDjNoYIWDWQGhBBfCg7qWEkTTST_AlfKoWRrr6iG481_WescgqmUGiEBgsVeSMzGVh808atcrYgkTQZpq27G-ydMmKU6_sDPde",
+        "width": 3024
+      },
+      {
+        "height": 3255,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118160866831913030311\">Cassandra Trevino</a>"
+        ],
+        "photo_reference": "AV-0GLd3a43WLEuRYRkuUYs-ai9wyim6L1J0Iikii5X6xjlUeHvLEkCEriDMVlN59YowRe1AjncR9oTJRJdMGyMjXpL4oTEzZ9g5vU5Urjj_JRN3EDhDqW21ziu661CkcJm9s_AxEeQuTrggs8VVP6Nmi3kogakhVtuUrMSBZ_zDNjlVwQ24aMpfJqEOlGON4giei40crMFpXr__vdGq_AW4_5iAH-78uiGFTH4ywM2wPfPz3yldYmyxpmYZ0s7yeR-OvnGVU4JDKF71Vynlt60z_kCfx_0l7j9AUSng0qD7l0fn4jyH5ZL4U3fFR3rLsMnca_h_uEDgOUss2WpFmvg2qP8ZjAA67QMgGZFCqvGciXZzWpTWPULGOCeZrkNVEMFdvkWrtebVjjk5i9bYa7AXK7wv1IvE_Gvsv6dc_LD5pVCgkA",
+        "width": 1867
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109770509418326638537\">Solidago - Wade Vetiver&#39;s Apothecary and Esoterica</a>"
+        ],
+        "photo_reference": "AV-0GLeELPVl2-sv4XMs5voErGr_jlf1x3gwMQ_tH0Wd3VbeFhoZreUNw5ICXd1WjJFUapOhmW2ifX9YSbhYFyOMN2hxwbMRYSbYN6Ghnu0PfH6GIY3jfwirT1EivhCiF02ejl6ZQYpAekOAELNIJ54SJnQ6k4SftVXA72bjAZUofHsH70FLNRpgp2lFHrCdLwhBLs3_VKCsncFQZWvDLPL7J7J8n98KbSQULkQLMP3Invl50CVlw3qcDxa0-sJVL-O8tNEd8qAT7utWkM-0bWAiUTSoNhpZhceLqUoZupEZdDaKp-I5s7tPSrdAfSLbbBMjEPPvje-FEnkE-Pbj9JZKZpH5bZd07y8KqLmEU5lfL76rAMueK_MPaDWPM5WQ8fAluSgR1KoIQzBDMvInla6WvU6YUnMys2g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109770509418326638537\">Solidago - Wade Vetiver&#39;s Apothecary and Esoterica</a>"
+        ],
+        "photo_reference": "AV-0GLdB6jXfPIwr4WiT_c8I9RNQPZ-T8H9IVOx7i_imvXcaAvC4fox28F62qZQxG0p0HSBlvSg94APl-L5D05z9uZWz6-RG7oJKdUwM5bcF5r2YNUFszpY9yUdhe_s2OTtTvc-2vVuFlNSakTC1Grl7o9xFL4XbQ_NaasTQEU-kXR1V29yXhSE0VWkrS7Iw6TGfpPTv71N9O8gYoevYMb8UBXSuDLBOT75Pd09A4mnn6Mq9TFbu2Ws5_cUfcE-BzUT8kY1Wa3asei5pgaSxgUhHX3zJez35KnyEKcH96awwz-Q7teMG4CgClesWB6WBIY2Tp3lQtHpoAkjsM-cH5ZMNHM41QY6Puxxty6uIvU7b5JeJt-ZWwbK8lj4KUqyOOnAfhgBHdchY4bS4dNBHT77kJPtuqAQ",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109732846856114241592\">Josh</a>"
+        ],
+        "photo_reference": "AV-0GLcsGObe6BZZ3ClzDstIekT8u4Wv1HsOkUIIUfbuSwI30xlog751OBfPiqGF_jD3IjfpOB71QI8K8hV0vrGI48gVurhHMkSJVCEaxTwXfArtu5F3xdZ3qbZO80NzssO-UOxvewjCIP8lryILLYLvSv8P-kfZ5uDbhqJkYG4xmQXNqX549iLMfq6XxCPH0ffN1qY_OHZOcrZ_1-LB8DHLxIgTb1PURDKnFqUdCX0q-wDg2OtD1TJ7N07u8u3MTh0320wEwvsap0GYSxT2hDT8esHKuyhTpJxs9DJA5CuSvrtpRabyMNB4X2w-6p__ogeIh50YnzCH2JAUHVCUun7idqpwy0RYV6stS6kZeXeTzEvA99tNWOif97mIUF-5cFeEGyxDWobB8fm4HlSGLpbhPoTSPA",
+        "width": 2250
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118160866831913030311\">Cassandra Trevino</a>"
+        ],
+        "photo_reference": "AV-0GLcgdfRzIWg3n1zL9zvtnr1Jiv2-8y4QWmv9i37A6M9iK70BHZZcZroeAaBjmzQfd_L8H7WMrtONP60AixDnJy8ld-MuRlT2FTjYIzW-XkhWltUrLOtrYSs6x4DEVZjOee1vW5H079IdCi0xS_Rz97cr3A3b9du5rMAnD6rfXQwUgJUGvh2K345e3O53cqLzNomVJLJUFHEqqNzptgEHCMBNGR8zw-CKInrtXsD8fOTxDLQa4it5-pUp4VFFKsXFVpC8YC6q7tXWbeIs9BTfkThMBp8mmPuHJUQBJ4cmrbRBDoT-dHhCUa0MkYOlmI9tYzLB-iwoaV6iZATo8Tbd4nvL6buAi4LYYstK4BFLuet2hpVOfVPPECvaSmVyOzHmdvczigjRPJSZtw8kuvp-7gFjlrqFRsZ_1nOc2Mo7zk60",
+        "width": 2996
+      }
+    ],
     "place_id": "ChIJXdqXBdepXIYR6RgMsun5R38",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9171573948273137897",
+    "vicinity": "504 Burleson St, San Marcos",
     "website": "https://solidagoapothecary.com/"
   }
 }
