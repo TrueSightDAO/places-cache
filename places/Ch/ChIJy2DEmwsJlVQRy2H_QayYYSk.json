@@ -1,38 +1,258 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:03Z",
+  "fetched_at": "2026-10-31T02:40:18Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Roots & Crowns Apothecary",
   "place_id": "ChIJy2DEmwsJlVQRy2H_QayYYSk",
   "result": {
-    "formatted_address": "1812 NW 24th Ave, Portland, OR 97210, United States, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "1812",
+        "short_name": "1812",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northwest 24th Avenue",
+        "short_name": "NW 24th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Northwest Portland",
+        "short_name": "Northwest Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97210",
+        "short_name": "97210",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2538",
+        "short_name": "2538",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1812 NW 24th Ave, Portland, OR 97210, USA",
     "geometry": {
       "location": {
         "lat": 45.5356811,
         "lng": -122.7006996
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5370274802915,
+          "lng": -122.6994333697085
+        },
+        "southwest": {
+          "lat": 45.53432951970851,
+          "lng": -122.7021313302915
+        }
       }
     },
     "name": "Roots & Crowns Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2269,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108610771378187576029\">Roots &amp; Crowns Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeJ3nVHR8MVsNTo2DyR-sKiBm4oE2Tj30E_BO0FbTkZtoNpIXPYWHzwGL4LjOcNG8nlNtbBK8OV4Ypvh30EMAgoq4XXUq3HnJzdbyKA9AhWQ7JnJN5gsrkfhSQvNhETbCpK5doFYZU-eWHVpll7DWvrpPMxamEvw6Z6AxGJJO9DApiTLdsUlVmswOcmjWV8CeO4tOwOQYzY0fM-aHCo7RKF_cuZkAH_9qZLbxOnBdBkJzKwG-9O109gn4wUOEM-rStb0-2Ryx96GC8x8JpC9BDjosK8jxUv-L9CoeZrhLGKTv2HsIn7YGpD75hGrZnL5vXhyH5EXa7f4WQXQk-Ld-HvzGjb9AbXoEPriZ17McXVseM0P-Y3QA7jM354Vj7QWWSsrbHTJ-uxTSEs_4PZludMaXSsFxQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100326110113250460211\">Allie Moss</a>"
+        ],
+        "photo_reference": "AV-0GLefvPTkf2410--cRxo7idrD3HjXYpR0yucjVNQ1SIFNWiKEcnLIM7onfDlD9GlB-FST4lt5oNtw8kO8YDI0ylzvbkWuNqaSHpWm1q1kaGCYJKuNcquJhId8g1sgBfibQnVGouu8Ty59073zI_5TtJkeJXM9ZzMPjbEH2dO4Xa6Yufl4knf4qTxwKFUeqRLd8cE7D0BDtvQCc2pGq_4LeHPenSlW6FFOvHPk5gPjlbxtA6kUZXNXMxqjf6e_hVBbdFjU8diEIyoldch-ERWhJ3O7b_hZ2HeX2cbSrFgCrr4alhoKXL8P76vixmCZjtLF6NfFk6s8vDmuqtL0CeMiydBzQELqAqauL2J-ZIxnx9xAxvO4NCIDdYA863DVauVsYWAK16hnPokwE_aNDzfOyAz6FhM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116626141833974718642\">Danielle Reghi</a>"
+        ],
+        "photo_reference": "AV-0GLcG0Si83JJ1YCJncTLI8UzDDvTuya0ob_9ubaXnFqAMz4xa0vCAApgJuLi5yd-WSJoOIWIGA7DHdr1t2HhlginNWxa3whFq5ZEtsOK2wismdZpeDw09Kcf5e7W7rH5ZJGth0JfRlpxPB6TX5H5SmobmOp_4D-B5bBDOZ39fTj1ro6Hf-MCylGk15cVrSf4cn775o2dvFvns9rZ1_w6gVYC0RS9VISLCpqF21taVT9Okq2ZJxp67DMVDvEnicZdrzGG82-BPg3hPBYPyOyouqixNIFIv9Qa06hODt_-Q1Ub2Me8Se2ot3SVNTq10cbFmS43TzMDXAIYCMyaXKh7k8Iittufc_jOap7Df67YMqC2-23UtlQxvw6tn0GAXxLXQuuEFO6dK4zTXXD_MHGHKNrhHDpc",
+        "width": 3024
+      },
+      {
+        "height": 2269,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108610771378187576029\">Roots &amp; Crowns Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcfzvRCYkvXpAI40Q5y4mHFXjK2D_iRMvgK5gORRdX2fn9dSTCg-LtGE22twcqJGBpvEmdfNqpPVEuSj-tIgEe6nkQGokQ37M7ZFFMhZjdRHLErhbBF7wi7xEmNqbBg5xJrHkQwiawvNxzaTairTB4-HxeIfU0AuQT4bxhOm4fdC6nI3BTtg3OJifURPURl31IXpx-L58Cc5MLgILCj1gW1nHTkApBTFP4iOWnIfAHgkxTsnpD59XUuTA6YDPUKRiMjhOhjnqJj3ZSdfx8a0ImNmpJTcKtdpvv_MkoTkXdeHPCMGI6mlKumQzy0d-zIggW-XDlbm2Pu-Ab2FQX3u2lTn5PLX5e1UH7jrPC5xrBooXekDlSPEUixsHIra-T5FYlbHsN7OeazBYbklyOyDtI-SSc",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105541350199135931781\">Monica Figura</a>"
+        ],
+        "photo_reference": "AV-0GLdAUilaIfoZw-XaZBjljIaomw5icyyR9DdhxBYtDNEtZY7teeFRSAU4isy_hTx7NsNAJi-fHlp7EBjHNnQkPFcUOvSTV0TvKa0YhaanxJn-YsfRzqsD_ilJiFhWzj2jo6zcWOh5tjzQy5QEVR7ZDVAEGOOelrc2yVog0Y4nhUrolTw5CNOdJz8Rq8jJ9ZS83vs1MgjARGeYBLfUbUgjAZObgzHe9cklPa49Op0QtoiU1sEO06uTnT_GTM9ZDCO20_G7N5lZvS-FGaxXIKL6xTRX9QbXVZieixPJZUIvy3NknIhvCUiCtr5oO72D5zcYKWth3fF7o_EP9EAvjLjQ3T-XucZP--xV1CbyezBnnMIuJDjpmUSHDjE3M78ONn2SQ0Ac36kB5ZUyx-qgVuhatD133GhIbuM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105541350199135931781\">Monica Figura</a>"
+        ],
+        "photo_reference": "AV-0GLd3546-6CKE1C03ttnsqLo5FLt8fElvJBE82znTQP3wXtXULczk9qiOG3mDAHGOY3dHxqXnb_XqoBLDZkLqKRCuoToC40_TuR_AGCkOaoBdWSv1KnUxxelBZslhJyWZ51o0mO67IsbtbB5bQPiDw6pRtthOLSg0La9wuJC2M488eQ2f5j2BSWs7SCnI-xhu4kQmKx1vFQorfuZLq_LfWhtMmAnAlTAimueFXcp-qnWnwFK-EAPVwMMLJnx_1ovA4XyQXXQcXGhJXYwHBidn7ADGHHzR8qLit3ipegFmCTLW375vtZdGE13zr9Kf6OQWblx9A2aWjQ9aBCneZqs8sl-5tFyoX3Py4oIWg2RJUMBc2fMowAE3P_ThV4PDBDl2yFlVsC6KJUz3fokwZnEN0s5A8rU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108610771378187576029\">Roots &amp; Crowns Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfKX1JQRArgvry1cCQskoWv5_KCPD-PFK9gyYYsBwPPeGlJtwuh-v2MAMXvfQY4eNswZ2MesoQBNYTVIsJWikot0VILFYNso1V_BSfZvhaKo49tOQ2FW84iph2SHUW76S1rLZFDJkMbPgIbeQb3AGopoYNjnCIlHSAJG00ecDpQeIKClBROeeZ37lJp5dyaBXtN1I3HUv1GDlyZu_wA4aOvhKczLsHzDwXUn9U8yn3WARwrrA8Q1H4csibXi3PUdWG3hroJtAVrscnKuIS9wq9pIqPsytiLKHHAlR6XveuEczTGhfRoF1HzOtzV9IvtuLGcYwlm3myADznXwJRRwFLA7w975-9eBZzB3cypUx75BKbq5KSmGX1mByW90KMrnMWknDDC1V_CJY48LYHBviZAKOL0KzE",
+        "width": 3024
+      },
+      {
+        "height": 3025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108610771378187576029\">Roots &amp; Crowns Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdu00k5hT4ZWfxzmB_UHVbDKb_YcUtsfBvLHlcSp7zIUc9MckCIYAfBmODDxw40oK3e6UcNbJ4o-Oxn6C-wuD2QBbdqiMPIOtPKUuxZO8O08pnyW2mYMv72vTJ73Oh2XPEzEYKmjb-11hCfoICc6h2iBRlaBWutX5ilnPlUwM40ISHEcZ2mGJrboVte_mDyDpWFq2Rkg8slgAAe0zRmRSMBB63aPJeeKSjIzk-w5pNStStEQPe__M65mVtmmb40KkRl1Y7A95-CDcRerY0oVagNMWNHaniNcype6dLVmMrIbnUXYgd6gAmJ2EMnoV1XfOr-D26AjrcK-GJMwrqKEpv8e-ojHNGfgi4Fqx3QkS71gd5lXO0w_4scJGPEm7gn-jyYSJvnQFdrknoY750piKxQLSIy",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108610771378187576029\">Roots &amp; Crowns Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc9MMGTVZCryeukkMjsydbvpZUvuK6dtjTzFyPhiA3PH2jrCaVf2gxXgk_KdyzPunn2HIHz80oq1nXLih7vMflLf4NoJyGzbKQF7eYzy19QlbzWRmk_LUIDhvdL6Y0nBqihHsPbCjfn4aMlj30pB8WGtjLMR8G7-SlU83dSwGE6oUOXbdGmKnDsxn-QtH2cuqAPlJCbm7EULbb7ZCP5todzgFmgeteldNg2ZmiOQfFjThih0EUL6SIIGENkCFqIwbaRma5bwfX9BPRfyqkUI0gyFStylSnN9fYN_7QWBBIEmUjxSYvn0kVuTKmANIUGIsaIJ2BXIVXau50iuK2w-jsD2n-02i3mpD61uxGhZt0VLvdYMAzSub3q52n4ZgUBLS-miPm5VzdEyJ453W2wF_eOSw",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102993843528980339683\">Lily Hawley</a>"
+        ],
+        "photo_reference": "AV-0GLeWjwJgaSLtGWcnnAhBR1ovenGuE75ocvwbYiLdoOSYXoQRdvbax6UjXcJpHW9UQmXXlYAGJbbhm3hDUPq8Vtzf9HZpc-UdDOjMDaShv0zKk_6GZXGwTeHa88hHdOWtcC0z5-oJXMV8LYKjgtI25r9inRYzRQjJr-tSQbw8b4aPSnwoZit3Ht6xPc4OS3a0AoFgAEcmFR2EOQt422z1qNcsiNf1i-AkRwQChFnw1jtw_ADArXGy5qjHmFiWYba8qOciymNl1z9iJ32w8A8FaAPq8p2oUiGPZYE5fJOVO9upz1X2zNtesYdM33_-AB_t7twC9j20iRy_iAzPiu76Htmfu_QUmzymtxfd3oYu9PiWXvuCS3cwmIEFKe34bgCWj_0FZrMZ-Qor-SmrXyKIN0kG5S4",
+        "width": 4000
+      }
+    ],
     "place_id": "ChIJy2DEmwsJlVQRy2H_QayYYSk",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2981832293905031627",
+    "vicinity": "1812 NW 24th Ave, Portland",
     "website": "http://www.rootsandcrowns.com/"
   }
 }
