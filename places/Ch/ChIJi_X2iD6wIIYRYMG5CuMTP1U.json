@@ -1,24 +1,110 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:48Z",
+  "fetched_at": "2026-11-01T06:43:50Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Breathe Enlight Apothecary",
+  "name": "2815 Division Street",
   "place_id": "ChIJi_X2iD6wIIYRYMG5CuMTP1U",
   "result": {
-    "formatted_address": "2815 Division Street, Metairie, LA",
+    "address_components": [
+      {
+        "long_name": "2815",
+        "short_name": "2815",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Division Street",
+        "short_name": "Division Street",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Metairie",
+        "short_name": "Metairie",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jefferson Parish",
+        "short_name": "Jefferson Parish",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Louisiana",
+        "short_name": "LA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "70002",
+        "short_name": "70002",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7043",
+        "short_name": "7043",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "formatted_address": "2815 Division Street, Metairie, LA 70002, USA",
     "geometry": {
       "location": {
         "lat": 30.0001641,
         "lng": -90.1642193
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.0015131089634,
+          "lng": -90.16298948645046
+        },
+        "southwest": {
+          "lat": 29.99881514838041,
+          "lng": -90.16568744703348
+        }
       }
     },
-    "name": "Breathe Enlight Apothecary",
-    "place_id": "ChIJi_X2iD6wIIYRYMG5CuMTP1U"
+    "name": "2815 Division Street",
+    "place_id": "ChIJi_X2iD6wIIYRYMG5CuMTP1U",
+    "types": [
+      "premise",
+      "street_address"
+    ],
+    "url": "https://maps.google.com/?cid=6142650282615095648",
+    "vicinity": "2815 Division Street, Metairie"
   }
 }
