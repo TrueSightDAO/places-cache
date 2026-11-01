@@ -1,40 +1,259 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:16Z",
+  "fetched_at": "2026-11-01T14:27:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Health Station",
   "place_id": "ChIJ1SzzJXUrw4ARpSI54XC0urQ",
   "result": {
-    "formatted_address": "20657 Golden Springs Drive, Diamond Bar, CA",
+    "address_components": [
+      {
+        "long_name": "Unit 109",
+        "short_name": "Unit 109",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "20657",
+        "short_name": "20657",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Golden Springs Drive",
+        "short_name": "Golden Springs Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Diamond Bar",
+        "short_name": "Diamond Bar",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91789",
+        "short_name": "91789",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "20657 Golden Springs Dr Unit 109, Diamond Bar, CA 91789, USA",
     "formatted_phone_number": "(626) 257-8441",
     "geometry": {
       "location": {
         "lat": 33.997777,
         "lng": -117.8537627
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9990515302915,
+          "lng": -117.8524095197085
+        },
+        "southwest": {
+          "lat": 33.9963535697085,
+          "lng": -117.8551074802915
+        }
       }
     },
     "name": "Health Station",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101827537096875449151\">RaRa Hung</a>"
+        ],
+        "photo_reference": "AV-0GLcMKpJc5CxFfVVl5fHraa3tXeKicOQJMsJMh50McyEPktRBx3SD-MflGxPWjUlGX1njv52FzA5PmGg-md7uH3ZOYFkRbulp0Yj7axL4rOCbPMP8ciPxUZvFeqwIDQQkr0Bu_FdzxVGX6976uRbQuq8-uggKEKLB_BsJeCG8RbG-VGQNY5A-YzcRQ_qSYvQcVCWt9Y_BX6UoVLcUvAcsBbSPCyPmEl8AwIyWtU3daDQJEvWLtjqYdYCxuLgICwUJlfwHQb4MGUaTWNADspfJK_6luBmXWlJgLtj6RvZw86TG9tTyVobzW2VZsml8rYphD9wheQBC-J5o6Ru71xxHdvWZRFNchwc_wpRYa9BClWHc2bol4USdQUcoV5KZn2Jjw15DkTCTlC7F2qB8a9XeGsVaEA5-TBM",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101340329220005237272\">Mandy Cheung</a>"
+        ],
+        "photo_reference": "AV-0GLftlt9JxXNW0FeExkg9M9mjaBEgdWlOxZk_o2xZkmojmkbkNzRR7H8Sd6NGSj_aT51PXP2OL9lCiddOhojqk0b-aPk7LrQlzSYgQ1TN4k6dyFsOa6ij-ZvvIFO4xN83Ula7wh8HtCdVR0Itz1_4kpXVkTr5JLwB42NhHfYIwzwVc234ZjAGR1GOeiNwJnuv0SvPRbx1WTaZYjadlmcP3BZByvv45VJ3FkvS6ZMFnKXWQvDNih36jxOpOvryC0S8VwOCYEOERZcdCAHLAg9bQ58zCmrVj4Cb0Group2ATeGlI1u-yaDfdP5iI_fCDPqYxpInX8jf1i-H8v4kBrxxyE61QI64f4gJ5FmX7PAROduGqodnwzRGFmtnFR9qc-Y9RfsKg0VWueEfbGtKJbGu7L-SAx3t",
+        "width": 3024
+      },
+      {
+        "height": 2737,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109668252129669039634\">Dino Chen</a>"
+        ],
+        "photo_reference": "AV-0GLe8u64Aa_cF01GJBpqDZkZaH9GIhOtIGaXXIedqVrC4GOv7gNkg0STgUH1tjesUzUt50Pfvf2LpV0RYVPJPZZXTEsz7cl8s83PfHRMcgg7dLG-2eMbloiedbT8E0NTZZqpPD6zCXG8OKNe9Rf0UCSL1g3SywNYrqKypGXOuDdybSQBQVGT6t3CJDbmNFR1nJ5aRjGMSP1B1K6fGQ5FKo1WxH_n3nnxaxUJclb9MjcPChExeDMGk7CllY2JoKgaTEMrWdEa3_c2u92fyAvoGPiSbNG12xXn2x0yAJuLJ7nN03j9C6hg6oqs_oCY75qoeIIUlfE3_tZYgdbaMNrjfjBrtn7UQ-tBW4FJWmATOoUzE9IzbKA6-ZZ5qG1bzusPRFJrVNpJB0D0wTtVYQcPqId3ek9Bte3c",
+        "width": 1558
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113814666433530980322\">DIANA RUBIO</a>"
+        ],
+        "photo_reference": "AV-0GLe3uuHb-ma3nNstceFpujktssVfvGiwajBrZ3tOeiCbD9huGOYIBeptod1b1XAVoo1iWskRDLJmrmNk1XAMiSUJtj32QrlpVidxJoq-DjpY_BPpjDDXXegBkBESnyC_pC4tJsq6EaBfO9x3rODjBsTjiV8cEvAzpgzPGDUk9EZH6i09FeNSwZi20vlTUDk8Pkr5XNlhV45Or-PQuJ4n3GsMYpSXaLdKUYlnXpa8k03XvRrIGJvdc3bsr3XngI2uuFY7W0q8e1U32ttYz2Le0q5rUgItbCu_A8RCDHPSO5OUU1MoQFCYuo3tEuXKJldoUF72JjH0El-yE19AAao69DOsWcZxGDDM0nbE46ylRQaebQsOmESmD673hxm_eWXAIkIpJVSC2oYmyoULKMUCVEWCLe18eWk",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101827537096875449151\">RaRa Hung</a>"
+        ],
+        "photo_reference": "AV-0GLcS-a2PYYXMiBInXqDvaszXW8j__WCpFzgnad9sOtfDPMV8gzq-iBnO-35TxWR9KDJkHrtSFolMIOSJetUbaDQiDp8k41S6syczN12r0m42U5JNrp1bPnN6KVcp0mKkv3qYZCxvDNU5n8hG4zWtLVoKkj7akrr3apbAnB0ykpGnkRuYmuzs0sKVg_N5VjyoV1FNptnSRTaZUgH4ZGzWqfq8Y9E9sbL4wuojxBsvnQ64CXmMhLYPEJ7qjM0s77_dR4_9-UHYmmzHsbSw_huwc_Eh5NovgTvHVHiNa5-oVveWEJIgpxrds_g9MQqPS2dBPKXctY1c1LCr75EjVhakbeliqHcKfMCyx4ZxwE2XajG79_XK0Afmuk3NjwAoHA81haBz_1uVZQ_zbAVasyM-QWUPxDY",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101539763722042035691\">Sunny</a>"
+        ],
+        "photo_reference": "AV-0GLcf3rIf8bUBARaa8NzEyys-0iEXzB7fevCvZWKR2FCNNnfyGN9oO6yUfTKYs1eJcCVREgG9yxeI7huc19z_t_7g22kg7WoYwYoDFNSQfiGZCKCbpEddpJAUGPBbkwf9i_fQd3dxKCM6tuMluBIzlAJFnpoEAY-D6KzzVrbyNy0st78cgp9PSSD7gu57RAUToQPQzERkYFT92JC3aTNtRQ9I2VfftFbUWuRI99WTNZqGhXyh-vtgvpOSk9TxYo6Nu17D7NPIFQ3iT1z5spiiZ5r0KnOD6_DZRfPIAde25Rvf3hToNSrrXjLhHNFayNlPJftX-FvycVVz6dobwzGjggQzfzXUZLHH6hCanA5oXkeiRebXa6SPedlpab8mC9fZOmdNFV5JEcmWQtKLl4DryFQw6HGOCfY",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111779374847940150486\">Gerrald</a>"
+        ],
+        "photo_reference": "AV-0GLf2WZOPGQg82XNZtRyF4bCbyoDC5k9qINcMKAEvl8bm-UAeca_UAmnTwkebM5EzW7ZGRunDRQHWaKqPS5NDPVrkI1aU1-BfkJwfcaEMa8KFuSJtHVPznQ8_r5SMC5-fEQ_UN1mKP4BzWDKJeMll4Z6dtQaWbC2AQZ4fo2FvJuwjLM9FnQFD79t5yNkN5TI_SnyJj8o8Z4gMa6zn4-eWsn8ph-gPln_9OpPHvsBVhPK-hZ7-ndfniuxSjxknjkwkwuAAJzAdVvwbr5GlXtwUwB8sc3YY_a12TFAgwJ66n8wKW_pKElm9Xofx0xvaYUv-UVZzoYzNd4GVONFwWlmIuRLx-P0UWgRC9Fn5__1zS6OQEK8cXC2GxSzeCE8esR7-3Hrz8IlsnjSkQRYaDfVU8e_8RWGU",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101942079852936061265\">N H</a>"
+        ],
+        "photo_reference": "AV-0GLd6MoI_uxz9BangK8OUxzofXuqoOTUW_SBOmTOM8EqWp4H_utlkvrGhG2rIVjoQMHoyrZdGJL8xGRfSbQr7cKf-8q_EcvYPyL6CdpvQQFmaOxB0ZdOJGCiVeO5LNJV5RVS0KBFwJOR13XKRpgJMSEAUom0UAJlV95gJqQLSZSYFspNst-8BAbZTZ1enWhp7wAUgA-z45ESXoQxxtDzZBi-25UFYh6HtOnGmcSJQYfft8S6DcilBxY7RvRYNKd6AYKwLzKhm0p9AL3H0Y_dn-TEN9egT7izXFFXGBJm2qoyQqVLkquK42VNJcNb742MATOZXYV-jITAcM93a5A5SbTA7OVnl2lLJs1k5AOnYbsYIjzZcTC-6e4AVse5B1_uUHa-d2jvhvbj6MfjGbMNClCWWimxKB1_G8ph8WJg045pAlg",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108611755961157450985\">JJ Loves Travel &amp; Cruises</a>"
+        ],
+        "photo_reference": "AV-0GLfufrb62IMD5Thkwp14BCcVRzgA1lhpX0TQvWvU3mFnIW42OqJZMJDe2XzOshUrMnWq6iX7IyziDoUCLcNaIqUJbgUOcvSZXcD7KwWoQspq_7UAhimqbfxMiiuxn4K5u70-hh5gM1OviqM_SDTGiTleGxkAUNdvTOOIb9fCn2b3mRW8RgcwIOiFTRqE7DTwlDW-ahSJz6CNEt9zTPs771ijV8dTMBhyqSqcVx60lpMRUfWzDHiPUQo_4iWG6BdJQDEVez9Ip45VwaiT49j511-N6UvusJm85UyxEbOZkLFDoFNSoScvXCvy-9RZ-JYBrBRDcqxGPRSDWt14kYLGGNVscA0i5lnCdDOzvquKY_OBM7U6kvIH1uOohA8GPDwgEhDfbvedR0Z6T9QS3tEKvneeMBQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107035620211666833859\">Tina Kuo</a>"
+        ],
+        "photo_reference": "AV-0GLecxnBSVjYF4k00PM5_rLzDhpBGTP4jTnnZ_akkT3AhIFT9r8gUqM9gw60Z195jiJXfPC3Gv4xh0vG1L-7nYLfrvvk30oHLYxjYuQX2gr9LjpuM-lXafIWDEZO2-OG4pkGxUh5IU3AzV-OyKQVYQ9cRVYeUHH2uGpZ-oTVhLiVN76RZIbIl1e4B1vSs1wdbPRXfT3fditu9MIAG5ucTaqK2rAaZqu_4QH0JqhNZIXQo-zysstn2zScONExR9DNFWLiSiW_0Q2MsLifKPuVh0S19VvxTO5gZU0JP47GAe0sFKv79FwhoynZ0YguSK8nN4PjCn1-1kmBstzBby3MNGlWEWlNLTf_BC16jyLay4CpxKMbWYv7N3XhYeyX2rte_9iZzQ_H9W3yY8ZL4QmjQnfI8-X-YdHUZg0lo6r8Bnjkh",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ1SzzJXUrw4ARpSI54XC0urQ",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13022919669403165349",
+    "vicinity": "20657 Golden Springs Dr Unit 109, Diamond Bar",
     "website": "https://www.shophealthstation.com/"
   }
 }
