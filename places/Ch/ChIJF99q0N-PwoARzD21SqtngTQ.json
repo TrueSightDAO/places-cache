@@ -1,38 +1,185 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:25Z",
+  "fetched_at": "2026-11-01T14:27:14Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rosy's Articulos Religiosos",
   "place_id": "ChIJF99q0N-PwoARzD21SqtngTQ",
   "result": {
-    "formatted_address": "13741 Foothill Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "100",
+        "short_name": "100",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "13741",
+        "short_name": "13741",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Foothill Boulevard",
+        "short_name": "Foothill Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sylmar",
+        "short_name": "Sylmar",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91342",
+        "short_name": "91342",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13741 Foothill Blvd #100, Sylmar, CA 91342, USA",
     "formatted_phone_number": "(818) 362-7942",
     "geometry": {
       "location": {
         "lat": 34.3101217,
         "lng": -118.4324411
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.3114464302915,
+          "lng": -118.4311693697085
+        },
+        "southwest": {
+          "lat": 34.3087484697085,
+          "lng": -118.4338673302915
+        }
       }
     },
     "name": "Rosy's Articulos Religiosos",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJF99q0N-PwoARzD21SqtngTQ"
+    "place_id": "ChIJF99q0N-PwoARzD21SqtngTQ",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3783419147358387660",
+    "vicinity": "13741 Foothill Blvd #100, Sylmar"
   }
 }
