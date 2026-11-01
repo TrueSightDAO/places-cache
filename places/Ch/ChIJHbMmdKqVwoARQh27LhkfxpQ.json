@@ -1,38 +1,183 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:27Z",
+  "fetched_at": "2026-11-01T14:27:17Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Healing Arts",
   "place_id": "ChIJHbMmdKqVwoARQh27LhkfxpQ",
   "result": {
-    "formatted_address": "303 South Glenoaks Boulevard, Burbank, CA",
+    "address_components": [
+      {
+        "long_name": "Unit 10",
+        "short_name": "Unit 10",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "303",
+        "short_name": "303",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Glenoaks Boulevard",
+        "short_name": "S Glenoaks Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Burbank",
+        "short_name": "Burbank",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91502",
+        "short_name": "91502",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "303 S Glenoaks Blvd Unit 10, Burbank, CA 91502, USA",
     "formatted_phone_number": "(818) 859-7340",
     "geometry": {
       "location": {
         "lat": 34.1813937,
         "lng": -118.3042435
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.18268958029149,
+          "lng": -118.3029542697085
+        },
+        "southwest": {
+          "lat": 34.1799916197085,
+          "lng": -118.3056522302915
+        }
       }
     },
     "name": "Healing Arts",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 14:00",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJHbMmdKqVwoARQh27LhkfxpQ"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108477231628728109182\">S S</a>"
+        ],
+        "photo_reference": "AV-0GLdwVXw1WLiKDsZ5whqXktZjx7wmuCRPwXc1e2g8SpsO1HyIbK1RY1VK0FsWzA6rHYLA_8zPdyio4C5zXmdygXKI0G2xu1k8DVwHVVdFaAA2RxCySJ1fsPLrtpCg3AtDeuToxhxUa2-lufkNE_CPVQpfIV0yMsdvrb9RIpa_mgGBCqC8gczj5pOmzF5I71nmLCDCq7MBHczZi8bI98e1AEUUR9WgW234z-6GHlNLuNJbaryfOD1DVSZBvzc6jPvAA1Q46_yWBnC1gSMOoEYshDSqfiQYaa-2JnPrIJsnATC6CGQR3edXazXorDkfmVgu0HoMAn1rVqaGSqEvVYlXnxHj6wI_3ZgnpzjI2g88g7e3WmJnkCU0nE1ahxJCtLH7_QabudTcrhT16kSd0eWO4UERNKg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108477231628728109182\">S S</a>"
+        ],
+        "photo_reference": "AV-0GLerpDPT4e0RoYAZK48oDk-kECKAL61zP-3YBWjjT3PtBnEJPfLJVHf_unW5GVSqtKPxzbos3zicJkhC4n7JLnfEw1pfMTW0EAWHMZ4z1BeUQ30foh_d0IOzAecRleUXllRGTy9RcYVCz53a6YR4iMQfijD-phKnNVgoVxmqZb36Y_axxeJhZFrkHPeZ-aTtpIL1DkUR8D4MxIq_aUi8sKDxtAmnd2BnlEu_91GWorCJoORvjuoKAr7LYd1dQutBTerwW0etwSEhxsNJTmyrUzXic9Zo6Sz5xhL8jv-eNBzWkaehFWQ_S7aEijSjnvsWjD5l8cXZ0VSoBhasCVNUo6tC0CUzKAMsMMEmI1siZ6B5H_gaRRvitIEXXMc3nyMuoTQYuTPFHZkUF5m7XFE5lxmlKz8",
+        "width": 4032
+      },
+      {
+        "height": 3780,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108477231628728109182\">S S</a>"
+        ],
+        "photo_reference": "AV-0GLf5Z5i8GUynSz0kwTaAHtdtLIE9gcrTrLQVvN_wzeLmkj7r_IFU4y-UhMfq1CchbuXYk75RVPcSSa9Q9tdEvgsKpzyFxt-bayVBIIXanhH6wlfbYbonB7HtAw2KAwbIqoMNPColvIZYSD4uBw26vU7erl5p8SwKXYNl8AtDjuWDa9wCzBg2n6PC46c0YcV7G7H7Cbp6FpCbmbaW_SUiSgbyqByXg9z-TJEyUz3lv1fIW-S7m-TB8wIrpxvfmWOUykIokOt8t2zYQpfamXUiAtBeiye_MMj2vPYcRhOpBKRKGz0yNc2AU9oZuR6FZCh_VQc_qAT7lzhGK-GI9YVS2QjoLUTgRfuFqrekcUm5RwETOLSnwo7n0prPEc-6fN_Ztzs_hY20hR2HmKwQit-06KnNegUK8SU",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJHbMmdKqVwoARQh27LhkfxpQ",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10720290156020702530",
+    "vicinity": "303 S Glenoaks Blvd Unit 10, Burbank"
   }
 }
