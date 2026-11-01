@@ -1,38 +1,171 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:33Z",
+  "fetched_at": "2026-11-01T22:59:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Urban Apothecary",
   "place_id": "ChIJN15xaFHNwoARlzBoPfsX8Ik",
   "result": {
-    "formatted_address": "7017 Myrrh Street, Paramount, CA",
+    "address_components": [
+      {
+        "long_name": "7017",
+        "short_name": "7017",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Myrrh Street",
+        "short_name": "Myrrh St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Paramount",
+        "short_name": "Paramount",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90723",
+        "short_name": "90723",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7017 Myrrh St, Paramount, CA 90723, USA",
     "formatted_phone_number": "(323) 949-0533",
     "geometry": {
       "location": {
         "lat": 33.892895,
         "lng": -118.176864
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.8941818302915,
+          "lng": -118.1755144697085
+        },
+        "southwest": {
+          "lat": 33.8914838697085,
+          "lng": -118.1782124302915
+        }
       }
     },
     "name": "Urban Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 18:00",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 14:00",
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJN15xaFHNwoARlzBoPfsX8Ik"
+    "place_id": "ChIJN15xaFHNwoARlzBoPfsX8Ik",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9939470745441153175",
+    "vicinity": "7017 Myrrh St, Paramount"
   }
 }
