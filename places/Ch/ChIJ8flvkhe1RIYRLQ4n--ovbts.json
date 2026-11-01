@@ -1,38 +1,291 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:07:50Z",
+  "fetched_at": "2026-11-01T14:27:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Casa de Luz Village",
   "place_id": "ChIJ8flvkhe1RIYRLQ4n--ovbts",
   "result": {
-    "formatted_address": "1701 Toomey Road, Austin, TX",
+    "address_components": [
+      {
+        "long_name": "1701",
+        "short_name": "1701",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Toomey Road",
+        "short_name": "Toomey Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Zilker",
+        "short_name": "Zilker",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Austin",
+        "short_name": "Austin",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Travis County",
+        "short_name": "Travis County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Texas",
+        "short_name": "TX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78704",
+        "short_name": "78704",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1033",
+        "short_name": "1033",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1701 Toomey Rd, Austin, TX 78704, USA",
     "geometry": {
       "location": {
         "lat": 30.2641631,
         "lng": -97.7617126
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.2657896302915,
+          "lng": -97.7601631197085
+        },
+        "southwest": {
+          "lat": 30.2630916697085,
+          "lng": -97.7628610802915
+        }
       }
     },
     "name": "Casa de Luz Village",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2030"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2030"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2030"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2030"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2030"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2030"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2030"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 7:00 \u2013 20:30",
-        "Tuesday: 7:00 \u2013 20:30",
-        "Wednesday: 7:00 \u2013 20:30",
-        "Thursday: 7:00 \u2013 20:30",
-        "Friday: 7:00 \u2013 20:30",
-        "Saturday: 7:00 \u2013 20:30",
-        "Sunday: 7:00 \u2013 20:30"
+        "Monday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Saturday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM",
+        "Sunday: 7:00\u202fAM\u2009\u2013\u20098:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110620707889675292098\">Casa de Luz Village</a>"
+        ],
+        "photo_reference": "AV-0GLdQC2n9LTpNprN03Kk9oaO16KrDR1jS3oN-9G58Aa5PbBYoeDH_w6rn86nYRuNYTCKfKiMuwgCvM2kqiNoiim9fNE1IcRrAvGVVz6o1n7Aq2sT6mY6-lPkBU039mDt6q1ib0-FNU6waRv79peVTjoJh84E4RVIIDenTvPCVsS3b9n-jDrvH-j5x-18MsT_fMZMhm1l7zmV3tiLxMcqoUzBmkymPXoxrQHaX5rkqw2QYR_6EEULaH8h9EqGGvUqb-7hHrTElnYIlf0dtKbgsDMtN_hqWFGmoZYtWMFiD16tflg_KXuwdOJfywnsPnTdB-X1PVpqhxWeJwa8AsN3cJ0zRPF8bLY8cPWVQCuSkeIfYNfEaFbpy4AhCbcbXMHxEJQtFieJau0NJwCNGHD1eXu6kufE",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110620707889675292098\">Casa de Luz Village</a>"
+        ],
+        "photo_reference": "AV-0GLfyJFxE753ILmRbZHR90qqfioybNR4uB-g_RevSQSlGWMIX9JhYUBD9oNGY9laFsQC0Jo9GKsirc0h8WvAzRQevoDZOkYdIuyHz6M2q2d653SlPUOjT7SLP4rp794L6B2PCIRN_SWtD4bWG-K8JhhLmRX02W3kB2I-j-8E8-pwg-VDqWtub7sfn16O-iWMfAnDq1sinhY05HOfex-Zw_DBu6MhzVzpLUVEDNBTGbJs7nnGuVEEgb8DDSDcxB5Ou3xsh6j71JgF7IzYo9KO8UKaMvtwy9HaMpOSCEZXxb5rmEOxAHVYhNWD8uLeoNrtpvLhFW5TPl8aQ_ICsrl3kmv7NF5QUs7ioTzyAjw4SmspWw5lcIqyqCKKNZp4fz3MaJcC5tt2zuszb8UvZ7mptnKHW7jM_wC4",
+        "width": 3024
+      },
+      {
+        "height": 1534,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115914309431523052716\">CTRATX</a>"
+        ],
+        "photo_reference": "AV-0GLcRFeRQBXLW8ppUwEvydHL0n_J6wDNc8N1psaQfiKja4Cxi597tuyrDemEVJVoFBmABYQ44tjoFKEHy5Wv_ZNmhZ2HMdv4PxbUBi83W1FesmWWtiMOfiUbxtLrvNv5-cwF5HPfrrsOUgLzKGv-Z-Z07rJhkT2NLYv_msclLolBv0LimOB2dkY1y7QOWzr7TQ24us8f3zErbIvc6GV7OfBPa83sM9IYwI30fa734TfQe9FCydbC7LOPoMKJZVo805nKTteuV-_UQKcooD7kjRsgRE0bT-6QAY189aEgF15IxMLoppe8XduUDu_lSnTKMCHByurtcQLP8jj_6penseLMIWp1-OyY-T1b6xZgx2NXT47_OmjKGpyOfWfuTINOhn6KxFK-nfHv2fvjQ0GOtf53UJCJsoyTlH8jzgfkHH-SpzQ",
+        "width": 1574
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110620707889675292098\">Casa de Luz Village</a>"
+        ],
+        "photo_reference": "AV-0GLfzaNPvdNXIlSRnkfAv2gXYpycbZDuWlsEHijSCkz4oZaQ7nZU55V7mezqsp7xL18YE3LwKMQeUE0zCxldjlvG7e4xudGVMwtxyz2KJ4BkPogdZhGFPQ09EQiJoj4ZSrsfbY1U9gkKVuB2aItnwP14Sw9f1zhwk_SI6LUz5aDrL5WSQvKiAzB52elXBlwjYEPm1Ghs78xFOw0zAU4x2g6HOcwpwp3d9qn282FIo3fBKk3n47e880tCzhldpyIwGY7o2Nng0DBzF7Krda_b2IiQoWxgInz2Cx62C5qPzZkWNqCtCgv3QZWQQlQpmeS60BivRSisJK3eQpHVQQGPL63CaWnJYxtBegvpaNwLv3ihrj7C8D-J7ZgfZ_KKXmP-ZvMTHD0HZKxrxosnSqu_6IB1a-v0B",
+        "width": 1024
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112673654088177874712\">Bianca S</a>"
+        ],
+        "photo_reference": "AV-0GLf4W6rdTkzbHN618CdmbUQESJeZOCl9iulhB2ZHEXwkl9HcSMtV7SnuUYwCf9nERotxTSQhq9ut4fVB_G0JP1VdSctkaSG-WQB98P5mP8tamEsoTvuvUZHFrONuw9Eg8i8TQSxniOfOyvyKmTUMfZe_gg-_ssZEBbjT7OOsFGthQK21-AvIqYQ-UG1SxtcaBUmgfh5CHcAi6uXfaKn0N2KrtFynEOA8VER6_hYjbkTnbUPvCm_8lX05sotbiihY2jnkXt1yMvYowEQvlJloMQbhw4mPD65TaI2jxR3MlhHnyAMCbE9xav2ZoVlB6CCt99FffjyiTH37biEtokr1qAqkD9gjrnDpl_Pw2mfFfH03nonw7SZ38ASdJEKzzVprDIlzzClG-rXp-3SGksbD30T-lNBy2GXnuIgCzfkzJGBRfQ",
+        "width": 640
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104378113715695820082\">Tanvi Shah</a>"
+        ],
+        "photo_reference": "AV-0GLcYD2-gCrwKWAim-9kVsgEX23mcVyt0cvKNRtBt-rb90MyHr-UWdNxyz6xkptEjy0BENdRF9zMZ5LudMYEmj2MoRqYxPQasH8KUmK-yoe6M2lOHvFtsKf-9lLu9MXimqp6smuq3vCspJY0-zuugLgkfiOK5waOPnEZH_sjJp-8xtOF_rvlCI_SxCoExRYV_hhGkXV2xxZXqdgXdka2G6GzG7l9W7ErYKJDNktL1RM-qCqfG0n5GpyV1HQFN9o_zACXrdwMut-Tn96fwNOT_oKErGmwEjk5vQpCGsvrVIwQpOVBS5y5r28YQWOb-fx7Ra85hAk_bdLgRwBHjMIkZnq1MvLYXK9RSYMTagesETSDOr9irsROrkzJ6Gyuaff-AKkRxYOsCLhU7eetPL_QNEyNXDVWe9HM",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110482507208657709000\">Vegan Traveller</a>"
+        ],
+        "photo_reference": "AV-0GLeDXXKwR5WzairlE7DfD2yPduL7ADE3qswJqya3rjzhg5j3YASAYBDNtbjx85TLQO_C9rqxTa87wWVkXrua6PPRIIHWnnDuPUurgVvxhrArRxEKFFn_zGd2uubgIhDeopTh8snTSRye4xgjaQAvXJY-mXUFn1SIl9hBid3KRTf-gWBvqGQEqdN8a1WzXlnNEPySepwHUtThnXdudF10aVg34FzJve1IdhDSFLc41gFTgLiSCNX6RSjzRlrHKIYYbvFJhuDnIfQOygmnbe4fd-gdhZ9Lmdyhgay6bHNOEzL7mXaFZSW5_wWv5DTejdc7nx6iHyoWHS0qkTaTZ4PVz4g5BnE1_t_FjQlrkCLb39gp7sRrOBlx9A6pSboUYMGb-3Xsj86eLSRZcERMZmFBLlvKbflDbeD_CyBDBagtctID",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117254466221136132669\">Summer</a>"
+        ],
+        "photo_reference": "AV-0GLdkVQ8FjDgf8EIZYCWRTEo2XjdcLo_xiT8FlGmq8ozB1FYXwIBhJ26kMg-LnLhXatyYSzmPciN3iiU8M9MasKOk7-x5N0IFA3ql6UyFjEWwNqtrs2sILJELzshT2UteTP62szw8lsEnDmQ4ZFmKQ83vLtrFqCJ5HHudyGXT5Ezzalgnpnc7u8-89PhzoxoG3zCe0lreSx9OQ99PBinX722K_OeUy3Hajic5d6NKxTohU-IhOtplUfYmWFnZbHF1WTxL4TWU9M0NIlprMhLWhW0x1GqATxDTCHDe_ULxIVYwirzkvsBZQoM4YU8gIzVMW1K-9HKpurZ_TCuvWoxkS9kc35VsyVORjuO0Di5RHc1285TQNJw02xM_ML3YVYaMwOZyMJ_coyiM4dGNxxn5B4QvafM",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114255114938357378492\">Ryan Lehman</a>"
+        ],
+        "photo_reference": "AV-0GLcs-lL7baLyfPzqWTed7Db175N2peqh4CfgwvrVvDH96nNnPO4i6fHDG-2sc7UCR3HEEw2miwDDszafbFFxeKcLUVNJ-B0PMmWcV7nChFnPZ-MunXMTNOV3eQtp-m64Ozjtp01l2PklIzL1a8f7NrUZ7JrKmhGBY41U0ZqFjlMf7vCVTQmdDJs6YOQhUQQXJZcTnWxewxJeEG-bI4yWIqGAYTjhATjcV7ju71cIW_TSyUQFE14uD6h8qFL196Bgt0B-DSPa8DHmpVsoeUyY2fAdGHaeYZuE7HKOsFHULqndpJ0rG3NJKVExivybH6-9__qP9ehbjapeeaqXnnu3SG1xlZY55281BZEiFdufGc1fz7qNEfJ_92trQBCEpBPYwx0FO_YsOB9zrHMLLb_MvhJtnpZZvR4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110620707889675292098\">Casa de Luz Village</a>"
+        ],
+        "photo_reference": "AV-0GLfVt5jlKF1FJVyF30xdy1PopX-xCCd5t4AdV7dISQyhzZJX7jHgw7jD0ENPanyJ1Sn4Ql-Ciuva5lKlluSt_QAXfy8xxkc4TduTXvTKeU3E1mlU-A8iCyoVGQk3xUtTX8Zto0OJt2Ll1SLt49V6-T6t-RaAPYqLcTYks9CJGnpN4NOnjS3YC78rRicWjqPFUEqKibx0_-UzdFsA0YX0n62ZS_RiardJ9S5bPe1QlacN395zCNXwV6he6um95wz5NM6DWL1BUf4UNb9OZ64vZUV0PfOapgCbfF8VdJjBq9_fGTOnU2sQPBrSKKHXgecd6EpLHTAEjvfJP4nb7puwJWTK5h23aKoaHrHQOkUGbfvxh8dXBmbg77Y9YbaRA2vY26OrA3UmqtlbEfiTDpRxQx0PKSfF",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ8flvkhe1RIYRLQ4n--ovbts",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "primary_school",
+      "restaurant",
+      "school"
+    ],
+    "url": "https://maps.google.com/?cid=15811628028026883629",
+    "vicinity": "1701 Toomey Rd, Austin",
     "website": "https://www.casadeluz.org/"
   }
 }
