@@ -1,38 +1,275 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:17Z",
+  "fetched_at": "2026-11-01T14:27:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ase Illuminations Herbal Apothecary",
   "place_id": "ChIJ2TZNZgAxw4AR9aVqMLRdqHU",
   "result": {
-    "formatted_address": "532 West 1st Street, Claremont, CA",
+    "address_components": [
+      {
+        "long_name": "205",
+        "short_name": "205",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Inside The Local Collective Market",
+        "short_name": "Inside The Local Collective Market",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "532",
+        "short_name": "532",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 1st Street",
+        "short_name": "W 1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Claremont",
+        "short_name": "Claremont",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91711",
+        "short_name": "91711",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4705",
+        "short_name": "4705",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Inside The Local Collective Market, 532 W 1st St #205, Claremont, CA 91711, USA",
     "geometry": {
       "location": {
         "lat": 34.0942871,
         "lng": -117.7211782
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0957932802915,
+          "lng": -117.7198309197085
+        },
+        "southwest": {
+          "lat": 34.0930953197085,
+          "lng": -117.7225288802915
+        }
       }
     },
     "name": "Ase Illuminations Herbal Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 20:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc3eBGMDCbdsrF_Bs1Sv9545r-DdWc6Kv0RmfBhbx8JlLtNhDbsamsATeb03pO4xps0ABly9B_-6sdpZZaDKSQSAY65UURZhGXTlG6R0_6K7kIcHaQTzOwWONlChdpnxp-GUiBrzBGukln_QBBNKNt4J0fLuuTBecaEJrdQPaZszcWj5bzncSuFVB0Rvzqymxcq7AjJw23UbTy7MVPCKPM3p5h7hv6bt7T2_0-lXq6IBGy0PytqEhY8Vl8eZv09YkWT5JAUp9Q-sty3IjJDVBKO4AbmRpdcyDk1gFprVjAbgMEWQiOHrZg0pM4sm_397kJDcXbFQMC4SxNjen3qfCtKRA_cdtKdIfJ7j7M7WtwmCDd1PYqurA09xFDGjSirtbsnVOTlaGiAuE-VCL9VVSYZpZcNigXYGo0vXklI-DBTOQ",
+        "width": 4284
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109155414052248154926\">Jennifer Bradford</a>"
+        ],
+        "photo_reference": "AV-0GLcXJcKG4LKJTQbW4vLAetFrXZH8gjfxqRItdiMkirKPukiZMb4ViAUpT9uJgJ5aBC1fLxHU-ZE6_zcpYbEy6DE3A3tdVADOLUs12RCxUtyJMVTQSvwq55ebzcvGkMaqU5tZbW2YIXvvsLvn-Iwu0bpWmDX1JtNL5ZD8hh7eFTctKgvDvx2sV2YuFAJ2QGaJriuYuORlM2R97f-3uRPSdUkuK48wtJNcOL9i_1bTj4zdYE4s2tE-CWlplS2Fj2joXPSKQF9qr6n92k_P9HrA4OiYOCQ3slKKiRCKkr_Zqm3zwSAhQcZWi37TJuDXLdljzf-i0z8IJTbsjBbwi4_cjN5Tzz_NFwWoKbBuSqxuY4BOhPif5CVAGaE4b9-_KIn9T9d_mOGuDf_PBaUITsqmtFJ0SCnlbfk",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeLR29IcKBm6bMJ3DwwzJijLOfSqSdqhO84-A-hBmEImwF-M1pibQEZ923DDzFMyqUYcor3c4jO4xYzOE7Oq1SmY_2l4iL4BHZAcI_6eElVCyh8uiJ-B21F1eUX0MexwbmvRvPi5v8aUMvxhtC7UXqY7In2ajG0VzK5lqZKkbB0TUlK54lDqenZOYvZLAo6g_JF6qf3WGey7rQ4eWWr0y7bUaQscsMo1fbr7tAG6YSOlBsal9c-ce18YijDV2MoaXfNtnYtoOBnC8uFGQezCEqWdmT_bbjMYDBg9NaOZTT9CiLw-xCiuWHQlX5lpW8aeYOYDblUIucYjWcdu9eRz7GYUUr33hnqDmCHeFRKc6HjjuA_a15hhvXnmPHoGdZReAov0Vw1Xs71tfU-uIbdBnfduWYCfr78NkV0yAW5qBaOSA",
+        "width": 4032
+      },
+      {
+        "height": 1254,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcWrI840QZCzW1C08hfSnft3Q6GQh14RxGjOFZOG6_vPoqQ7WPHKjfgYK9zhP7PXVbT6e1UWrror0OzKD7C82Qig_48D6JTjPnCRigRyFApzN_s7WbLTJlb14HsdueKz_EWydRq59sDrjxU_ZPXA3RJKS6qFezjI5dgsvnv-qnsl_gBmDX9-1JmbRxbjknCybPZ-OqQrutY4t0wVSHDO9MFu1W1K1LZetZSRpSgroFRMz0GqnOSIgCbmd_QBQ4Jj8DVeH43CZy2tn3z9ZlnI4pZ1_OsfV_NSABSLFrx4_zo3dzAn3FzE8gnZUhBgvfz5K4_mwr_QunEXWPPKkHMa7TjlKFPJWE7vAPL1Abfk4G3NZlE0KwGYdNEe7NI4YXPYb9fJFa-YYbdMdgSXS7KsU00TNbdPFBALBjG_rxS2rMbxg",
+        "width": 1254
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLftP6Pj9LapPe7FRgzAGFSFTixPTnHZUB7kxcUTbcIk0lKYp3qv9gLUlgyNXNfIDZW8LMlCdUwVfmu-eXEGUeec4mO9X4Mzdp_Lra73Qlqnxhd0GwmGq0HnLLcL7cW8dVIiUqmQuWzEAnX3LVV4NOI-8mikpSrJM3llH1k6CAFKhGI5FIh2-KOCVgHlR1trEqGcPPx_rtv_OZC9IT1blRbztyYJQSKolvkrj4Nx-KVob20KBsYoBC7OHg7Oczpkb0QVMPTt7Lj9NK3AaKNA4fUg-9OLFX25DkYKhCKguCABPrN2NEsiFmXgpi8ItDXxtBEoMXGyKwUePirqSfYe7kwH31bjB_R-IzFl1HEIVCU5InE0VqFfZOJNM318Sq1kwdERDakIcAEOxJFrAfiDn4DDeSPGPq-ZhrjSNt4ySndqOw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe2ZOHIAU84MmIwjwoAKpvoId2YjY1wXzmJTDRhDwkreQ8u4EQh1Il6vS_rt_vBGJNp-VmlK3awPRpDx9FimVEyLVfcCNITz1E2wHpgTOZOwlmnkztauouwhVm_5t5df7Xhj_9LNRH5PCT3qgqjeF5ej6rQMVDBvrnYRL7W6AsnCx9OWijzKAfRsmzkhqryAVWGbzRyYrJphHnaGqUDy3pDuvnS03fKzwO_6UVtxRwF_DsofXBJljXx10advyDgehhU8kHLTxDq905sDB0zx32hKITXxeDdoQGcRlyAOoLj_AFJGT5yJqJu8BUzGF1_8awQutnh6baDr9JD9aIFpuKlngG4rjYSxl4SK4pMGTRyzNiHllYGgfBgUzAn8iu6cBRD76UAOqsiXmk70OL68PgxAAzhvscsiHZv4sk-d1Bu",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116177181642776378552\">Ase Illuminations Herbal Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLedGBHFU1ge4jw6da41DJrMUViiLfiOvpZUBT5rbSIQUCyQZtjdUnbNcsrLkNTJ7Sc73ZdXbBbbqDw9I2q7dPr6L5QWVCsM6vJeyqFv_B9GujPhHbaII-pbZZESsX9gDcFzmtjXE-p5ILISmvlKvueT3fQ6g3ihLtHgyAhVUmBYHmKYyKfcr6wvAD32BM8BX6FGzfVjMAMkr-KmJ-hPfJJxHXInKG9Nq6mqYeZ-wNtTnALJN4NxjW2n5xw96nLaSYGSnPBjq-vz4d20p92tK21A2nyhRk8cH7VH7enCDvitMGHKgdn4KVc4m3iQsu4L7eAcV9zSlUoOmJTV6rvrLj4zmdJCX9gmSWCpgelOVriJv-WTMIoX9RWMI3iwvBfpKVbxSjFlGA6dHaytoLe0ebd1KpSdU22xvb6tUKyFkrMHHw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110590637187833171471\">Saundra Bradford</a>"
+        ],
+        "photo_reference": "AV-0GLeQencMZebkOVWcPJM76LdJOMJZ5zpe3uLaNIbs-CDQ2_3GaUXse4FCya2C1j2h8Mqt2oX2FIvH-M0_Es_x2tku5Hi8oYmYhApK-MvWj2leuXI_NBk48LclAjceIF2Z2dJibhYAxZKnpwOTDZDerfVZ2Gdfe5w3EtO3OpdPT8ADy-RgJJWehsXoJYB0pK5Yr3U1pG-IER4ELfTI_ifNROq7nKRf-eSon8EqYDZ98Fs56zdTor-eQhz-xW885K1dBtOg81djlTfLwR-ZBs453dMid1qC6xWdFFF6JRRI4VX9u3a3YRPbLBMxmzPYjnaW98FV9rVEersgJF2yF2uF6CsS-hfV9AMiyhs3VOW-eTqWJe-3Q8AoGY5SB-l15R0ORN-j1R2-1CT5eaKu0JqktIrN0lA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110590637187833171471\">Saundra Bradford</a>"
+        ],
+        "photo_reference": "AV-0GLelXfdRWK-8RCrW4VE2QvQINcBK6ReLqzItpP7lSh45fD_Uy4J9lfbgREGc-dnxsS25mFwDLvfOdauGSOYe7j7F8x8G1IAaM9cRBjKmTDjFKXYj_IsrGbed8WgQCZPlRB85R1jVruxAbV45NmKNw7sHTo9mWun0CEyW6NafQsPrQnJw26hSaadFS3rGR86EAjEeuYmWZk9bp2yK4-X-gn39Fm840TPKj7SUQA3BHciUqUOWBuHANS4gWkOCf4lw_9xjf7zj5EJg8xvWqrpofDc0eYXIpyJ-69ru2I8t905l5yw-Q3Tw9JM5hoxCBBpwlOArjkXsD8FuG-9XCNfCYeDji4oIyjEWBX53U2IyAJQID0A56MWjLH4gD8kDx-sn_s_pjwa2hniNlGfCb7kNQTef76gJYxI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116858193864837602475\">Lisa Thanayi Jwahir</a>"
+        ],
+        "photo_reference": "AV-0GLdl0XObh9XTUefKAsj0UwBJdvx22lfYTPR8KVFJISvrxpO_CXMuiag9i9aaRgj2ovWCg3QTVOjEenO_YjBxr0FQp_-Qt1Nl37DdJY7V8wvsrbSUAzRYyfkFHHh06C0ScjtgDGOUp367kC-UeE0RFUPCAcLSA4F4i9VC5V_Hy9eFRDobpPrzKH_wXCu3pXKW4SNldbOg5Vu9yhhQUlRGyLmFmmuzoqOjhbZqGSAYQEE_jPYHbnH_bgFkZdUK1FrVOjzXoYieEsdT24iqAlstjDO1ktpGR5SB5LIwP_aAuqUxUli-UMR3NBnYvCEVF3ZJxtwxL6doWzbZSxcjtRHCrB27fRlvqnq_Ha_MP70pXh600_we5yiNt1cfy0xjnb4JW3-cvofI0u9pAnzMW3HfrkpOY74",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ2TZNZgAxw4AR9aVqMLRdqHU",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8478129327012750837",
+    "vicinity": "Inside The Local Collective Market, 532 W 1st St #205, Claremont",
     "website": "http://aseilluminations.com/"
   }
 }
