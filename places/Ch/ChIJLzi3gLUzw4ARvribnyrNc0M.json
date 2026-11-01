@@ -1,38 +1,181 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:31Z",
+  "fetched_at": "2026-11-01T14:27:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary 4 Skin",
   "place_id": "ChIJLzi3gLUzw4ARvribnyrNc0M",
   "result": {
-    "formatted_address": "6906 Castor Street, Chino, CA",
+    "address_components": [
+      {
+        "long_name": "6906",
+        "short_name": "6906",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Castor Street",
+        "short_name": "Castor St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Chino",
+        "short_name": "Chino",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Bernardino County",
+        "short_name": "San Bernardino County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91710",
+        "short_name": "91710",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6906 Castor St, Chino, CA 91710, USA",
     "geometry": {
       "location": {
         "lat": 34.014193,
         "lng": -117.65405
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0155334302915,
+          "lng": -117.6526489697085
+        },
+        "southwest": {
+          "lat": 34.0128354697085,
+          "lng": -117.6553469302915
+        }
       }
     },
     "name": "Apothecary 4 Skin",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 18:30",
-        "Tuesday: 9:00 \u2013 18:30",
-        "Wednesday: 9:00 \u2013 18:30",
-        "Thursday: 9:00 \u2013 18:30",
-        "Friday: 9:00 \u2013 18:30",
-        "Saturday: 10:00 \u2013 15:00",
+        "Monday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
     "place_id": "ChIJLzi3gLUzw4ARvribnyrNc0M",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=4860454005813000382",
+    "vicinity": "6906 Castor St, Chino",
     "website": "http://apothecary4skins.com/"
   }
 }
