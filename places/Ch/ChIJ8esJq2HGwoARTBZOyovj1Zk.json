@@ -1,40 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:21Z",
+  "fetched_at": "2026-11-01T14:27:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "APOTHEKE LOS ANGELES",
   "place_id": "ChIJ8esJq2HGwoARTBZOyovj1Zk",
   "result": {
-    "formatted_address": "1746 North Spring Street, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "1746",
+        "short_name": "1746",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Spring Street",
+        "short_name": "N Spring St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Central LA",
+        "short_name": "Central LA",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90012",
+        "short_name": "90012",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1746 N Spring St, Los Angeles, CA 90012, USA",
     "formatted_phone_number": "(323) 844-0717",
     "geometry": {
       "location": {
-        "lat": 34.0699354,
-        "lng": -118.2258075
+        "lat": 34.07002,
+        "lng": -118.22561
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0712732802915,
+          "lng": -118.2244140197085
+        },
+        "southwest": {
+          "lat": 34.06857531970851,
+          "lng": -118.2271119802915
+        }
       }
     },
     "name": "APOTHEKE LOS ANGELES",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1800"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 19:00 \u2013 0:00",
-        "Friday: 18:00 \u2013 1:00",
-        "Saturday: 18:00 \u2013 1:00",
-        "Sunday: 19:00 \u2013 0:00"
+        "Thursday: 7:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+        "Friday: 6:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+        "Saturday: 6:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+        "Sunday: 7:00\u202fPM\u2009\u2013\u200912:00\u202fAM"
       ]
     },
+    "photos": [
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105409621088721881914\">APOTHEKE LOS ANGELES</a>"
+        ],
+        "photo_reference": "AV-0GLcTv65KdxeNg-vspzEcV5QlzpjnioUieViI-6HNfV219l_uvAuu6igGps7V-AcZfMCfisFa5vHr8P4hjJdnT2dMwXDd5wS-P8fIwZ1x1Xygv6YpJ8_cvWULkh4VKBIZ1bISAb2Rleo_1rr4YUoitgcSZcZPZpug5nU2S8j46MjmqbBPu4-sPGNzMRZl6qTMNzyyEcToV_A5E_A-GFv6fEM5EL6mFI0gDXRVxJvU5RTwuFr-qkPpnaetGIpU49sbvjK8Bg6AFhS22bgS9n-I7OzSfprbAMYMwp4LCfQK0rfbioy83m88dxwPbVvziSKJHMp6ZxhTIfNgMXO4x2cW3Sl1B_ICCOQVusZAs8FyysmFi40lGWSuPfNYhGn1kFAS3KDAfsOwSx4ofsk4y4CtF3hW-TM",
+        "width": 2048
+      },
+      {
+        "height": 1296,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115506312132153915472\">Massimo Pastori</a>"
+        ],
+        "photo_reference": "AV-0GLcvHF4gnKkq2VQxVigKDHPdUtJwt3DhM4_VuRfopSKdkiPC5vIsIKh-vX5s81xODUsBJ0bh90ZeRbgQNg1ll_3RE0UR6Rma3Pgbzyx882BO6EFIok2K1wELPzPo2jrDev3SvQJVOIrbrVwrQrnKpNfKkIxs-sZN24MSp06oAFDwNqwMbnoU2H-eiR4rztyejJrIHSQpes_oyWRJFJazyJwcYrwFaK03S7T3H8Cky0bxWsQmmnwHNRJyuoisHdyT1moEKExotIthE5GePWzqnEV-n3uK3qACxNCkoL2tUDj2kj2WVBGlnefq-kR6Zo29seYYT48DEmSPTqOd4msN-5x7twdAVFIh3qA8wLwISVf4epfs5lt5FZA2dKk7pq5GJq0S2aw5wkD9ez9wh9qECK85TDKx6AU",
+        "width": 1944
+      },
+      {
+        "height": 4030,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113433125413465900791\">Daryl Trinh</a>"
+        ],
+        "photo_reference": "AV-0GLesTiN-MUWW13duFD0fiElzYiQO-FMD_7r9A6WaNrO5DeOq_Qlg9X9JuusznNXFX2oJ9UgDqu0R5Gcm0HGv9_6Fx8MGd_U5rhlLsaUbUI4B7LoTQIYXTCaeEBC51fyXrIkDDhWKfJFGJ6f89oNFWBbNt_D_ibp22QyoSt_sfYP9WaOU70t3uh92-7wU339Tgt4k3IT0WKAze9YVgW4vMkSIAgkTaClvDc_xKLSznKnLqyw4zHrLvZ154dst40YDYqR0cf-XuBERhi7SumUr_aUET4evBJ0RbBPXsSZvN29vzSKz7ZIIxiFT_lVyi1HwnQHtJPxEFSKWhMJe8BGdy0m_iRiukdCf6eUn4xyjVAdXLwYCQi1MAofXxAAjSbn9YHONK9q2nuWGrfk2w9n4DuHHFGyQYU3-PeY89SkuA4AmIw",
+        "width": 3034
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112087894722578552401\">Dimitri Majdalani</a>"
+        ],
+        "photo_reference": "AV-0GLcZGb3_3Et7kE7iw4mgKJwKPVQgagqKW1BYdG1Zwe47CubjsGRzm4PhJ2lDgBBU1aaCgKsPY-bcDBJbhD1_ouoz503YJjwaoSPUIdNPIDRUQmfgCnBBZpvqTuxVPFusQWiN-xxYoyDTC80w3MCmyTQSVARBoQpkL8OKuihg_EjZ4AOTf2tsbhyCAGHK1W_cdFwVsd56oFHzAOEkTuKlRRqAFmVb4xZ4-tB-9B5PkU-GC3wQylXp6UDkbYFzrmE-8uFmgnE9jiLK-UU1uDPl8I0kQYVPPpJK3FO5SFlBcoUzl3rPUUGA9BWnn8heTL2q0kxs8g32WJKyzZAkwbd4wxfeG82umnMwRcNUBlJfI9h-YYFMMmp0jouYCMZmrDLxqkR4yVtUNHhw_iUpe9xvCs2UJg",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112029829431798926945\">Emily Flores</a>"
+        ],
+        "photo_reference": "AV-0GLfnYNfthfQIFgqBMuGVUwV66SgVJZv3dQCK98yR1Ie1c4X3OwXb1wAD9kZ1gpQ50FWtMQ2qGqyWWmtBktLLlOtykqU6QkklKWG34x3i11ZiWY8vlKxLwjaoLd9BJbR3PFQSyfF37EX7o9csoAVbMkM0nTi8wyXZvZY_eMK-d30kr25UQkeEa_4V5y4zC8nVJKwxkhLm5xnImnjxa7vpFAjNHuPzU1deuh4v4adTwhRGfV-7Sc-rGsuOzO9-U2yKHRkdfZ2WRJAI7hmdqM8T7BUBFEhoHpd5FR91aONKynqR_r837ohiabmN0F9M73WcTiRuCmhOFm_xyydD7Fa6QtcmLV4jSwSjpADQI_r427IfMuHYy2YFmKWwDKoQRnOZvs6SEs4Z0yTjO5pdjLlFzCR44nMBPi5hda-O7arZcP8t2w",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115657949013885925194\">Madhumitha Ramesh</a>"
+        ],
+        "photo_reference": "AV-0GLfy8k-j643QFmkYixJtu0KBHLUY2aARKZqYQ29hBmIx2Ha5pZTA4EY2JQmfH4o2xCf3YaLz3lF6_Q-5yafYc_365RENoOIwadOIHpEmsEoReZqwnZTohgbKKL2dW93eF9D_YWiB46oXGIaXxPwV9JOdIWOSvhHvo1vTqIbRK609bnAQ3RZlxBKWIVX8JUd7sNDTmLR77IsORHedNdSSLdQlnQoh1NfTc1K4qGr0Jv1GuETWuRl6eLRjEdkHwQGK_Gt4jajjg-fGsYtquCtnUedF-3lUzuzeZMEipnltRdvig-_pmoxTBGr__-ieix5mmBVAcSrYdHOhHAJ814yd1bzeZZ1JGXfDh21XdM1_1cW2DMjQTZeA-jZzJMBpa1OYAiL6-j_A1zb0c0T32vdyIfhCAyU1bEs",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117010362393100665667\">Wilson Yeung</a>"
+        ],
+        "photo_reference": "AV-0GLe4s9J2sOmL62jYKfYERMpYBDkOWkbdZo2c3nElsDdSx-689I2UbI8sg-xInQoeuKN271mzWQUeItAjHZEIm6g3IUCAHdz_q_poXxoFSJpAl-17gM2PNj-qlhIjOMDKr1-02njk_KSsyMDYUtCMibwL2LDH1zddAK_nG5S51ydFKofjEwG1Fqy-g6I3RceebRgGlcqpllWi6SIcBbrftB1SLp7A_9giTKpgx_aNxuRhkO3PGGdfi6krI2wrquV6_HMizC3eStuwMbH8ltCvXeB_QB3NUfB2vrhoRPBXv63o4LHUWErHTRq8-YRuQ3ELOtnysZJS3H-Jk_wZhx6L0TtXsIgRxEJT5KGuZzOOJxksXI6CKnanoN-ZFWOFOJgZTvVy6Eii70rIknTizkVGY6uT4Q",
+        "width": 3072
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118103232734885705632\">LuDster</a>"
+        ],
+        "photo_reference": "AV-0GLdAM24xpCFxJMNTaKwHmBd5hqRoLxooJCooMbaSBIgIHLvfKmo1lpgFTvK6jUAQBmbtOswSHiKuPcxZQh0-T4EtBWKKAaim1tEnAARnhtci9qV-mgbrP_xGnVMaV6sHYqQlqSrLqiHXdLLkqC-Whz0am5lrxxgPqPwKnSdI497DJC3WhWzz3nrqH6FIBukEgMXfj-QdgYXDrRDQKo3SzEbeiQDiI2nPXmnjABEYIq1Lyg00kjrZ5tOqud9RnW769-A-TRY3rGKxCdDk13O1MJY7NvNrRf1cQfOaH_VFsfvCNUgKqrPLVluLPHf7cflO5ekN9y4MBAkb5Y3miRKciu7dDppIGQrrU9I45IkGlwBPv1ytRH7PycnBw2ZNj6vfo4Eoda22Vjz7ex_B-e5BQ4t9bZohLjZNB-tnkjIRU1xL3w",
+        "width": 4080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114863162419682943675\">Steve W</a>"
+        ],
+        "photo_reference": "AV-0GLfTv7u4dQd7O4uAcWiQJZfzpyvycTuwOqXSxaA4dFDJv-gw9PdbysX-sjgMIzJDMLElmvpc6YlUdyYomhQyE7hRXAGfN9VOSl9i_a7gx0c7E6aYP8A1dCaPk_7ViZTiclQ4hY9NFA2BpKjjtWJwhMviH9ghFZLT8KtShhVECRnfofYpp2SsE3xyRAr6gV3vXmOBcEP07gJJgI98UApA6Rda0mB-n3Ilk-mEUukF2_BLHCRMgW22KgGZV99zoUlS_cpThYaSrjft1INCYJ_WenhVP9TiOaZyDGKS0XNDUSFlYELhO2fANo9dlFOzcz51eh93RYMx3wiWffkhrqwhI0X1CC-5bLgkBF66d4B1Se3h9DKMpMN1K42dAbetH8vRPA3HE6c4NarcTEMDcPF_fV-3oL6Jw9XHvjCib1IamSPbsA",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114863162419682943675\">Steve W</a>"
+        ],
+        "photo_reference": "AV-0GLd5-2fkVUE4in-q22Eh8c9NtKrHoKWlCvNwnG9JfiQj-fiu9YXihlg8s3WgTd2jEiO6iobq1RUVJcQzK5B3bZnnT4W1DRSQ0IpGQvpj-G4fwXeutn8kr7QiVAxmybX79765KADsx3LU4jTIYde_UQ77WOyDkYm1MHh07tVUebIM3GubfRwsq11KB1MaImphGoHpkzG8w7DzZQZ7p1dZr2Fzzvu80at7J7pkJIaAZ4vPhwexYrrhcG0DO1WcxE2fWFkiswxNlZj09yBAVCI79UoCgtwszICLy8hVPIIhrY4PxP6nNF5o3Ren1cG8dMJoBs4kGzBSGiMnGmYD4rFMsX7EZm4nkd8erQkPcGoAFukf6Gm4LOsbMCWiy3nNPMglQa9n37KVNG0NemToDJwMTgLtuGrnKywg1iu1YQirO_IEzw",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJ8esJq2HGwoARTBZOyovj1Zk",
+    "types": [
+      "bar",
+      "establishment",
+      "night_club",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11085016247376418380",
+    "vicinity": "1746 N Spring St, Los Angeles",
     "website": "http://www.apothekemixology.com/"
   }
 }
