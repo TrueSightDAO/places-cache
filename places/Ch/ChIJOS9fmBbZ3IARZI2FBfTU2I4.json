@@ -1,38 +1,214 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:36Z",
+  "fetched_at": "2026-11-02T02:42:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "MPM Apothecary",
   "place_id": "ChIJOS9fmBbZ3IARZI2FBfTU2I4",
   "result": {
-    "formatted_address": "1851 East 1st Street, Santa Ana, CA",
+    "address_components": [
+      {
+        "long_name": "900",
+        "short_name": "900",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1851",
+        "short_name": "1851",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East 1st Street",
+        "short_name": "E 1st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Santa Ana",
+        "short_name": "Santa Ana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92705",
+        "short_name": "92705",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1851 E 1st St #900, Santa Ana, CA 92705, USA",
     "formatted_phone_number": "(714) 900-3421",
     "geometry": {
       "location": {
         "lat": 33.7460046,
         "lng": -117.841583
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.7474123302915,
+          "lng": -117.8400416697085
+        },
+        "southwest": {
+          "lat": 33.7447143697085,
+          "lng": -117.8427396302915
+        }
       }
     },
     "name": "MPM Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 18:00",
-        "Tuesday: 8:00 \u2013 18:00",
-        "Wednesday: 8:00 \u2013 18:00",
-        "Thursday: 8:00 \u2013 18:00",
-        "Friday: 8:00 \u2013 18:00",
-        "Saturday: 8:00 \u2013 18:00",
-        "Sunday: 8:00 \u2013 18:00"
+        "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
-    "place_id": "ChIJOS9fmBbZ3IARZI2FBfTU2I4"
+    "photos": [
+      {
+        "height": 629,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193430835667825705\">MPM Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcsANYtqwU-Q59AVb2wGq1H9vAxplTsfDdBhYqw_uM-Zi_FqDt4rHNXtPZuBA8ulIpYXXeP77jy7S6pPAv3dO2A-64zfPaflMK4iz-h39i1M5tiCpzaGGGlSuvv14bPwGjj0KVznLIYAwMDAKX3vFqwPDMxdBxbozhDwitBS5tYomRfBF7NlFFjaA-Sk2DcAfwD3ZGnidkbjDopRAWGcRlUaKS-Jk-22cg07su_bhskP3xaisa6ICeZwRCtkTDWmIRBt8KpCw2jmKEsaoB9Gta7QG1C_JLucpFN0DqTOoIR12t3tpv_QNJkqHRUzufsSsTJUswmTdIu9zZTXTkfxckgZfDwSnAmzIaov8BMj-pob3QV4dNTy-tUtzBiy5DfR_9R2S2HonPv1f3lNZQ62kl-Pyg",
+        "width": 750
+      },
+      {
+        "height": 902,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104193430835667825705\">MPM Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeqETWevUHiT21uUCPCZCKm82e_4ZWt2lkny3NBTdT8RMeUEIXqkYVTv4iKuG25KmlPoywsFWywNFl3jSLtCwUKGd1Djdu6cTVD1om382pBWIP4mL16-6mnvgNCSfqhC4EEmRP1XLVACs8beOZF_Pb50bW0FMVZC3lowF1l8egLR4SSomCUnHIBGw0L0re3a1VYPo-9REq571E1z2fjMSd95TiKuJJs57bhVQpHQUm5F5DVS6nkolec9vxe4wJvMsSv-nKfwQrCW0uoJAYIMRMM8xmg0ljX_j21jDiyqdu-_vdGzgIiaTQU2ROF6CkUTrPUcK4VrxArZX6SaHXC4TuAEnJ37t-EV5TX7gG_erni78SQh-JIJwHNPFGOFNJsRkxmqYhADBazy-3E1wzInrgupOcW",
+        "width": 882
+      }
+    ],
+    "place_id": "ChIJOS9fmBbZ3IARZI2FBfTU2I4",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10293211092885015908",
+    "vicinity": "1851 E 1st St #900, Santa Ana"
   }
 }
