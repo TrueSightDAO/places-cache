@@ -1,28 +1,205 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:05Z",
+  "fetched_at": "2026-11-02T02:42:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "A/Z Apothecary California",
   "place_id": "ChIJtXNB1w7I0m0Rn5ayikXg7zg",
   "result": {
-    "formatted_address": "100 Spectrum Center Drive, Irvine, CA",
+    "address_components": [
+      {
+        "long_name": "900",
+        "short_name": "900",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "100",
+        "short_name": "100",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Spectrum Center Drive",
+        "short_name": "Spectrum Center Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Irvine Spectrum Center",
+        "short_name": "Irvine Spectrum Center",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Irvine",
+        "short_name": "Irvine",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92618",
+        "short_name": "92618",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "100 Spectrum Center Dr #900, Irvine, CA 92618, USA",
     "formatted_phone_number": "(877) 810-7323",
     "geometry": {
       "location": {
         "lat": 33.6506411,
         "lng": -117.7476322
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.65189728029149,
+          "lng": -117.7462418197085
+        },
+        "southwest": {
+          "lat": 33.6491993197085,
+          "lng": -117.7489397802915
+        }
       }
     },
     "name": "A/Z Apothecary California",
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLeg1RD8Q17hWcCET418ui8RIyplJQq8PfSpWsVOv6Z66unc-AtOY6KDEpJ1g6dhKPDMhI3c1K9CvVUnmdKukg2iNEuqPbMRxS5b005SDIq0m3ll4tEdqzCnRfLeD6HyAvMLdQSEmq48tsaebtvut20rC_lXuO2W3lUR4ebVbJ6Y6Hs2LWnjExcvqDlOuJLYOQ8i72f63Lh85aY49cQgGrc5zhnZ_GYFT-OqQfcbITd1A-Ih4WrF61EHxnYVQYVG0TcmYvGrAm-q-oGD-H5VBqR2o8QBF-7uEKmiAOgywtKRnErCU9URjos8E8bJEBo84zut6htEtydeVQJdhm-gi3imSmr7HjR2QJFuotUmS8Py5poT2B-leHcJigl2qBpXh4Usfbv4AGHHTbQl_Ndb41wWbK4",
+        "width": 2048
+      },
+      {
+        "height": 1819,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111891257773051147566\">Ankitha Kulkarni</a>"
+        ],
+        "photo_reference": "AV-0GLdzmHmh8vdPCmYQxmrCM2-MupIrJC6mamgFx5zCCV8hCZXK-U44RzVZAvFUdw9wjz0JWg7SauYZmZRXzmHKhD4bAI8NfxsM8OWKh2BKY8MvMvfcg1mGRjG33WH5d99gcdCRugqgrix72Vnga41OG3ZNIHQAY5BHt_S3vxOt2TapcXi-n2P-F4pxef_N2z1jliLzTwJFvvr1z4WkuX3pJlZuP2RpP3Ri-6U6yXIW110XtB-omp9E5QBYfNs76NNoBfE6vT7Amz9LX_bCU6buGrUGKgSZ0XubjmHOwpTRw11MZDAzqco8CRe7Y91Iuv-7Hrqjb2g8MmkO8zeNuUn4LkaoU6POmANbNrtn7Nkf6Tr3y2ttjb6TsNQAwptHrHVzSAYqQ4gLMR0sG58g5bMHkTpAPgnV",
+        "width": 1080
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLd7aOdj-f-NTw7tbTJpqmN94sb4fDNNfXctSPhyKvdv4ucIP-yAxYJ40uDTqUCIzipU9Ke0oovcnFQKePP6zftXHxjCzbHej2SLwCu-0zfYBPcCAS31BdACGFpRXVRwHQhnDsV1omzXbqb6vhj_zPUCeJxyngOwv8HqTO1V21fsoCDb9Yf8nR0HOGZqVwr4S0EmAGsTE655adeOL_EO_dnI-X3T7wTATdddOcncmFfhAf-cVPYVWUJJnpXVlRhyxYdlhlQ_wSV5o-RnZw04aXieiEQY9vK_G89zMFI0YVdANmmcy2HDiWeLU9GvUK8lHvIhcth7OoQpjfCwIL50DiwlpAViwF51a5sm22uWNe5SuIo2pBT4uk0lgd2Zq0kzhF7HI9DG_d3W6OIfBOkVo3fQ8A",
+        "width": 1365
+      },
+      {
+        "height": 1819,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111891257773051147566\">Ankitha Kulkarni</a>"
+        ],
+        "photo_reference": "AV-0GLdHEhVLj5y_utf4shEmBFLrw7JGHkb-XPSQAYH0CcMOj-D9rcrRIFAOPgrs9AQKO0poJPpAbO32j-GRqvk_uYjtY0kTV4PQJqFE9jPFwUq4taUlnZ7sjwhnAla2T43w5ym_x1GWzkvahaqXI8PwUP4p0JMvVa9lIaaxgoeFwbAIrdWB7SDM0sVNmr5e2p4GXg0rjPHZbIRpevyitP550kDclphT9SuICzkoNtF3nD_8ukeTABFft7w1tjKKYhEXl1tMzULOtzzXvmnk04-3udSYOGCuZRoWe45_Sye9TT34SAc0vuxzXwF2jHha2ElJk2NZjlxvZqC34N5xuU6YerrQ9XyN_2m-uU9WD44a75x6SRKWmL8d5DxV1ryBnIOsscQsXBfL7rOwS6nKzwbsQO_5R-fbuls",
+        "width": 1080
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLc8SQ-pd1ZqvlPXKtp3MB1VxG8DMjQlfFtvGWAFq86eiR_bjRSeMSBF8HK-pbkfDagTSy3rH7W23TPnde1aXGJSBpUhzDWlCkHmyJfwf_1uqNEfPJ5FOgjvvWTvhZaEtQMMm_IpgvOFyyQUUiOFIhKn70UwRrbt-YDxfJ7oPfv7iGsrdcO6T2NGhPTLN6L9zFiT2Cq8mOKW85JsjpYfKx8cSqcCtA9YBqQ9Lu64VUtQIgo06pnCW8k7TUvxC6CuhrvvUTB_MOXk5DJ-7pWzbxkGouvUk8LUQUInbHutSOqfT_Gnf97jeqxVKTR0Ay-Mx_GxyEJ-2bzn4P8YnUPMzwgEVaKZxX1uYVYYPg-2v3_T2uQSyIqdw1Y0HRJ9JHCXzn76iTjGhF5hp1iC3ORNQIb5J7c",
+        "width": 2048
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLdvpozBK85R1XM9XMAJVn6qIEvLpRt2-5si3QYyPZpV_blaZ4WR0sJvVC8zaXJA6sTHaFCSpGMcT3HgXQh_FjDRmEwIVsnPoxDObNkanQNpUdeFefVpPY65bwB6_hIrWBpF8ykg__u5sEKGr8VWTZWB9q9y0ZGYJYHoHjNJ_xCXBEUgAuPDEivrue8Mna0MpzE1-uE3d31g0OZgKmDIY9h-LiSzrvuNZonvQf46gBZV6HuOFlrZ_yI0bQ8mBtUH8vohQ_aNlGyvXd0vOvLHeyKsU86FYZifYNn2Z5vKEQAcW6GiOc0yrFBH_vZSBkghplB9v-EXdH23T2Wt321txLm5h7Qzpurd6VjSk1ImJjcnsYOzek2AqHNVlQgBmtFdXORh2feoNtU7h1w7mCgDv1ylvH6k",
+        "width": 2048
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLfPk8y3F-HS-kguOF_nRqRgHRhegNJmcG3yMQnPLShXynYKXWcK6MMn-ERRHg5qp-9KAiqUKTuUAcKcwVat1NvFG2WV14r0myV_va5yOQC0az4Xke8dY96uNN56KNrUj2tlgxcZxGtJfAfCh2JMtU92bPwkzhqYBteJtVnkix3ac4zDeDPN8byIG7a1oJ7g9kF2R6x_znX3XyiH6Ru8uMsc3-ts4kEv0LCyZXJidA3ikLlkaotvIsz40F1oMv5wRIfjCzOyc4rXa4VhXwa-2iQp_-3uzrMDt8m7Dafj5q38X_zNI9iX3kFybgzsts3tVuu2NqoECGTaeb8HjEPdLCFl8kD2KGwlpLbt7AHUaop-qm6SX6eUOf4dTq9wP-CtoJwp6X0_TYqu9lxdBqPa0nSmFcEB",
+        "width": 1365
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLeAN9CtrH7mUs-EhtvBDZezUFZk7OO9DwtJKbLh-4IzEjazVWx1D9vLmAfppwaZQRuaaPgzTRx-3lap17NCnBoyMeYbW4PTpcxUGOwJmxlxZIxnYO1UFjqzTL5GzKEbFo9V11UhYyuf1qWrQ2dL7lWLKqS00oPHGyLMgxEcr2vde0L8tVkuJL7EHMg2hzesTzPUwl0fulwXSkY31dIVh91-IQWSA5ErAh-EAPctLD4YLMAypm-hOHLevCnoa_GS_q9a5thFaU4eGHGP0Ja0SpxXas3Hfo8W6SiGVk5ajEP-gHRPy3olNhwfOMSKpJbhvZzngxC1ocRANpPIn9xLk0Ort1r4Qro_-VkaLn-DJX_v4AYTezRcO0dY3MbRhGTmTeWh8X8f8JirSjj7qbgHYXRvNgE",
+        "width": 1365
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104668500513643445211\">A/Z Apothecary California</a>"
+        ],
+        "photo_reference": "AV-0GLcsnW2U5q6JHUIdK70DeyJfy6w6niq8Zk71SXF53cPqFMnVjuRZ98ZTdMzmY4XHyGP4iE7nZaHyMhxyU9IMhizO360QJ4a37sRSs8oSMlb2j-w1tqcCaSwlSlJ7Iv_HlDCpqVSaaEkGqUq8bBY1ZO3BD8-Sp5CxtoZJmL4cjuKAW1d8BhAT16OORl8nKid0CG67jIEzE7JbxgLfYFn3pu1MfTpyzBA1BH38xVZKwho33zbwdOdSMvNFrJIr4_0fLyGT5tFU_mi3bGUC_csqGPZSk1ykXhNB0CUGC1QwobeYTos2InW6CmUJ_pKetgY4ZQYpVFXufxRoyBGuUBb4vmF_X_VgQiydImiBdf-wddfkxMbqhFORDEwh2B8m4YvoH6irO47BaO6QpFfylIPctVvwyiw",
+        "width": 2048
+      },
+      {
+        "height": 1660,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105413611289088767863\">Sara He</a>"
+        ],
+        "photo_reference": "AV-0GLcWQ3OioFrvdsyLj4IhyJ_nz08TEehoTEaFUHcU6188_dhcCoQjwKdXvibFsgUvH5T_I9tPgAmI-gMBps2aYs_W4eJW6wuSt_DDoAaKUuVD-W5w0b4SGIzZKQbxOqkHn2Ucha6axxnJBejnsoYgP5xlrSp0IBiyoLIZ6xe2Ulbtq6QM0Q63p1XBAEOnxR5HVfbev_E06NtSo1Dnv4IHjCd2EjqcpAiCDQtGQeJsNsXqfUumwoojHYSS8PNxYu2S1_I0Z1ke9GhYIHPrqUAU7aioses4XMLK7VOz88oD5URCWnxOkyPAduoEKuc3L2D-ghGGB-b1DPAYu10iFcwciITo93_GOZuxCJX8Zpemp9fSbppUgKMsYNCoHLNPs5bFkZFi1YE1i_V87DdABQY9CSSHZwgT",
+        "width": 893
+      }
+    ],
     "place_id": "ChIJtXNB1w7I0m0Rn5ayikXg7zg",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4102744374842136223",
+    "vicinity": "100 Spectrum Center Dr #900, Irvine",
     "website": "http://www.azapothecaryca.com/"
   }
 }
