@@ -1,40 +1,205 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:06Z",
+  "fetched_at": "2026-11-02T11:37:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Candle Corner LLC",
   "place_id": "ChIJv-PvvxaHwoARVxPZGhFw2L8",
   "result": {
-    "formatted_address": "23300 Cinema Drive, Santa Clarita, CA",
-    "formatted_phone_number": "(661) 425-7600",
+    "address_components": [
+      {
+        "long_name": "Unit 105",
+        "short_name": "Unit 105",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "23300",
+        "short_name": "23300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cinema Drive",
+        "short_name": "Cinema Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Saugus",
+        "short_name": "Saugus",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clarita",
+        "short_name": "Santa Clarita",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91350",
+        "short_name": "91350",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "23300 Cinema Dr Unit 105, Santa Clarita, CA 91350, USA",
+    "formatted_phone_number": "(661) 652-6819",
     "geometry": {
       "location": {
         "lat": 34.4188097,
         "lng": -118.5430064
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.4202874802915,
+          "lng": -118.5416392197085
+        },
+        "southwest": {
+          "lat": 34.4175895197085,
+          "lng": -118.5443371802915
+        }
       }
     },
     "name": "Candle Corner LLC",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 11:30 \u2013 17:30",
-        "Thursday: 11:30 \u2013 17:30",
-        "Friday: 15:00 \u2013 17:30",
-        "Saturday: 12:30 \u2013 19:30",
-        "Sunday: Closed"
-      ]
-    },
+    "photos": [
+      {
+        "height": 1401,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102634061557170646726\">Delvin Hines</a>"
+        ],
+        "photo_reference": "AV-0GLfueX6LXifg8GyKahXTsT3aIX0mC1BqaB9PhfXrl-iklfX-mj3WjtkKjhpHXLQqZp9Ifq7W6YgBShnFAAvI-nPugYJrU05HzMC3OuGKUsCNXJfqv06FlnC3RPKjEo36YxnwG2lE6m1TOsW1_myu3j_Fga62qi19kYVW3Fne4Gq7tS50crE4y2wsZ3pw1SCG_1KyzysUCcS5MlCt2zhhrGL0WjlNwq7EfsriwysrEHjqxLRQk-nzcOwwXmuu3np5aW2dWJaJfx9BOxy3sm7la7oKJi-QpEkApKxE56ovBVwxwCC-SZv-tbxksG8Q4TwBj-nDBxi12Kpp6ZhEKIu7jfguMjCE88kYIxDJFFolidaMqRnceOFeD1peeEEYRAWkcrtbL1V8-fqq-GH1QQFKsuxucWD9Zqw",
+        "width": 1047
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110575081520332681574\">Candle Corner LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdL-53JhOj-Pk3aDiE_KxBk9h2CgP6ppGFbpdiD1Rk_j5Bvlo2n1wV6A8WrLv4o3s6e2Eiydxj_ZHxDs1FPbSsPejm0JIF19zTNY8N6oHjQKKjiF3Ggvr2qvJ2CcoUi-xViJg72iex-UFbkE34iKMwLTHcn1sb6zf_pF2QTrUQLywBynq1STzHGSRttej0m5ma9i0NoHOGrBgWNuEqAKkFzQC_3uzgh7EAz4G3NGNF2Awq-GyEoCW5xPG9ismZGLycFqzmgOf1B8jbmXBJ4F8lIJStUYMgLJVX-_ul0YrJSgCtxCvukNb_0nQNzYIjZsRkH9u7R48gZvhd1UkmOOl5n8aexeDytaFgs-vYnIjdaw_5ZkQu29vfiUCcHZV18_HAiw1AN9MBg9V7JdzZ9ybd9ORU5DnA",
+        "width": 3024
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110575081520332681574\">Candle Corner LLC</a>"
+        ],
+        "photo_reference": "AV-0GLda5WHjCwkK9SFWMDDnsqKfmfDvmJYSJMfruFpDjRvBZgNMsZ-RZvvcWOk6NxTE_1GsCdUOnMyho4tdw1kFhv9KvrwGAujGXGT75bWjynP-aMcunP6o1-367ZOeu3QHgBk8JnkqOanQcsgJU5CT3ZPMRkt4CPJAp9Do7HuKACKhLnt9uCfQtOwty2kfWOVhmjGf-la7z5WbLj8aIF5uFO7LBtgnyzgl080h4XRAeP7gezfOCrZf1emn5dI4Ut85NsbJJhYemvINOEfMwjAQy4HgIohK-zzpVHAFYp_lzp7Ev5R-Eq3L0bhH7QE1JZzwCXCLHEyXRZSVAWPFhnJUFMYph--fCQ_JqecX-oAWdUfZd4oReY5wi73FhxN6FVCGLuFKLR2ZmMFHj4UhRkahho2NuEE",
+        "width": 4032
+      },
+      {
+        "height": 1188,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112177358538058559211\">Kim Campbell</a>"
+        ],
+        "photo_reference": "AV-0GLforkaCiAbnSYmlMCNbURQ0-VLmbSjWG4XRrgFoKLnYqjh6n5lSoVbvhu_WmJTwe9p8VQamOP5fZODTQpf2aTZDO8gFvBQhHaJvyDDNh8cgsaz17qwEtoZqu06m-tlffP1ZiEqOsh8Lj5g37RC7155yrL6obZlrVdVgKe9jB3N3tfbAZGv7DZRetfAUBKBE_iLKRc9mehrPBEtKX5godtkWJg7RZNskCWZlScEDE1ls6rojj1p23oNEFS4bH2-KFBdvCNCHRiuhg0bcQtTNXZU8cWuDIdrZ5RHEDugTHYtfBYWzYlyy0V-iUFGkBJZkTCvON5UXmJ1rzqc-Mxxphfa71SKdER8vE0JbrBPf3N3pHRJYKxXweL_8RHvH5wKOjU2SfyTyu9DuzlF6YuwaMsaLqDbkpY8",
+        "width": 1316
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110575081520332681574\">Candle Corner LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcDNCx-WRhqqqIlZrKkvUfCG4257_JMBpwo6l7QbiZjfmcxkc_cGjWjNHGjmAfUwNBRT2jeQ5v0xuaY_IU3tQhiIIEcoo0t5KxSDwTL1YuFgukqmKu3OKusPa_SkLY314PSN-wOyKGhZDWnTMHeaPBHmSJLZ_qNByITJtoWXQPEQei2EEkRdfTpHZmNolJAu0lJXhqWfJBvOid-f4a1cRvUM5cjE8qliLspqzzFaL7avv9qfWDGmT3gZ3BEbRxuG0Lw7FonbcfZtgMtxo2yTvRZfdhA-lwZXge_cYKb90ZjFxUZycdtjlaekMV0tSaDXSFCBK0Xh46RdrTNqpWF3gnLFnqCwOPy9ben4hwcNcfoFBKt1GtY9ZY-sRcGy-T2HOAlLp9UyY6plzOmsji6EjUUuuQ",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103058041902869295398\">Jennifer Soltero</a>"
+        ],
+        "photo_reference": "AV-0GLfN85kSVw_jRzgLMxZLvngcDe1S_67y5ub40UbQaGrz_xfJIjaAsckIuTYUz0Q2peHb8Q5CpY5z1k4uC2qT256ByjABFoihqncpF8f83EFJcTKOoBMq-8RiViN0ipxYqkJ393GD--IXRa6_J7xn43h-ZJyvR7lSgPacfNI2ZixYOYhLjEapUcsRHGTTIkfuQVGGrbwbYu5RkHbfd7mh9Rhzv3VV7B0rOpJ4R__ASe9Q4LvmmTIj3udeqX31X_nN3XgQefuApNOkyUiCu96iMj5tQOhbSIHLHQpEkIRD4OJ8RQ4gjcEtQBX-LhiHdjXYEtKdn3tCJ2ZZhTh5Xw5-ZYU4bFOkC_vrsK99zw9L3DneFY91NhC9YZsRc_kWMmrPt50peDIxUh40XsT4LEIjpEbviZUqbn8",
+        "width": 1816
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105744764071153148325\">Karla Munoz</a>"
+        ],
+        "photo_reference": "AV-0GLdHX3UtsQ6Jf3ykddtljrWiVTxtYnGi93NgV2CZyPg3phfwGEYOoAgT5Pz5j1ZNTlgKRvUqjh6VnOUQBhIjeQXDjYQ-r7inquYr8bzaOFQDTVEaaTSiRZsA4NXDlNLOsfrXygOhnrF7fDTC6FWrhDCVMOtX_9lhl7OV--u7VcDdwGrKToD8GSqzMPkthmL8ELZ60u-GFUBTaMlJVWXF7eZL8LsCyqh_UIeZsM8cSuUhq5L6mINOqLtLKxulp_xdopsVZXDA6xIsTWBknx2RJYW_rpdUiFMKfNfqHG2em-q_XO0-trz9QzYBAbSwC5NFdxUe5ph9U4lMpNo-TKYcshKS2FOJ3jzZUIjA8bok5lJuq5ZMdk_2FvlGHgavQ9YjlSZ5QqpBBa68TGcNZrDN2Puh3Uc69p8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105744764071153148325\">Karla Munoz</a>"
+        ],
+        "photo_reference": "AV-0GLf0RWETeZqNR5L7RD4MjfSZZhrOUYB9_qegSu7IkP7Vq7H9ZJTHId0ZOHq3SjyOHYBLIEQaF1AiSvQKhNCDGEvjhVgCLQ6DR_dv3C_hbml0R3hmF8emIC2cBdxdfeRKH3noxEOhUOkYNNJk9m8qQix_04fapvsGSljFlmy4e0-CaVWGJEt9coBmk66NhPwUSWify2m3slE7IT5uqUWX78YblK03aU_TvCS7yMD7wNQrq0bu0hqr3Jgq_Ws4-BhTSGdQIZs0mhXuxEZQue_6v0kHx3MJRVbo4c43iSBHRxhbF9n9Lhb-qraxazvZvHCpEuO-lEtL8TjEbWrZV4vncP0Zm8x6XH_WZeZQwGsH6I3eEAV2B0yvcBvwIRuvAVJlKW0MthdV6WG4j0ttLh0FnnZ1Jw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111478264697951992392\">shawndrell lynch</a>"
+        ],
+        "photo_reference": "AV-0GLfif6vLGiW_QkkTzNXp4jWViC8HIKIYvO3X0MJ0__uKGDSsoA6XJut9Nx7jB-EY5X0OifGgwdpjeTEkyOSh6FQjLSvpgWlz1QuKSE6E1zVVEKsIsSHZrMq7kGkBUGiokCfamIiXcBY2gEy29wlYpASlNYvzqGh3ct6-GhPQ18gCvJGbu15bUYiwPQeF6K0unY9bxdS-zQpNah6lxXhnYntIceR3a3JKQ_HGqnGfm28q1evZ5G52KHpA7rmGh7FxIPnYXQetqwzj9u9NVoeXn1ucnJqDmFOqDNDajUDcsZDRp6sZHtjMemkdqMGj7qqyfnrEhaZEqwVB1P9GPToEHblhBvRgpRu-Vi5jAPKESMzzZZjrgdZszN9sBcjfP_ewFUZYTJh-XkG2LbnXa6-3HUogOVSiqKg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105744764071153148325\">Karla Munoz</a>"
+        ],
+        "photo_reference": "AV-0GLdVWs-vnpk-p_vjdFXFboyfnZwhyeDNydhYX5oM-9nl6lnTC4DpjJjBslmF0y5-SJBa5v9KB8zEXAAYObRmAegvSzrhjq9YH4XNi0kIBMYzVHyUNwR3ddoU_jxuO3FOFBj6IdthPnPFbBhZsibEWIZCAON1zwuNE1Jc6nP7SvyMX3M3rUo53uuXlsYnfWWIPY39fLihVcb3HAwPZe7dAZdeNp7R0jKw3h4JgiolzaiNFGiCOp-HkSGIccazLkmSjpYVD9OI-VoF_RePILvSVy9cZBbpo5e4yF0vlokJCYHW0tmkxVMy5QqThRi2y5e5YTtMg0_14LDIEwwplkZmDYEWxAKTJRpzn1Txy5voSw-YGoPzESl0CKaUmrB8QjjRbzgMwmRR8y-n_vrR3u5NXPW1T4U",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJv-PvvxaHwoARVxPZGhFw2L8",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13823922274980926295",
+    "vicinity": "23300 Cinema Dr Unit 105, Santa Clarita",
     "website": "http://candlecorner.org/"
   }
 }
