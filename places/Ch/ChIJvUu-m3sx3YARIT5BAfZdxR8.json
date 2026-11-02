@@ -1,38 +1,268 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:07Z",
+  "fetched_at": "2026-11-02T21:53:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Atelier Crow",
   "place_id": "ChIJvUu-m3sx3YARIT5BAfZdxR8",
   "result": {
-    "formatted_address": "4005 East 4th Street, Long Beach, CA",
+    "address_components": [
+      {
+        "long_name": "4005",
+        "short_name": "4005",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East 4th Street",
+        "short_name": "E 4th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Belmont Heights",
+        "short_name": "Belmont Heights",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Long Beach",
+        "short_name": "Long Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90814",
+        "short_name": "90814",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2846",
+        "short_name": "2846",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4005 E 4th St, Long Beach, CA 90814, USA",
     "formatted_phone_number": "(562) 355-9152",
     "geometry": {
       "location": {
         "lat": 33.771858,
         "lng": -118.1456744
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.7731346802915,
+          "lng": -118.1443561197085
+        },
+        "southwest": {
+          "lat": 33.7704367197085,
+          "lng": -118.1470540802915
+        }
       }
     },
     "name": "Atelier Crow",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJvUu-m3sx3YARIT5BAfZdxR8"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLdJkqgQFPCoMyHzBoGlX8Ndoli1xNqYYcS2ScRaxkXwNpah0n2vmmrGvyM8ZZF49bOHbbf3vt9Z6vvlMHHhAP8YUt4zR15svkMrMncsj2EG9ab5II24nxUqgnb1Uio4uXXq_JZ0CyD9B44N44KYAb2OqZT4ne074GoIhoKCMv-br58A5M6TEMVjaP9IlZ42DtpHCcvyvH0O44VcWOCDi6gz_FmY1PtkHh1984uZxZUDQnSE6JzANe2wI3Lahjsf9c8oXYSdT-WRt6iiwA8I07loOqoWQ7NFXN-cM0QaZ4pHNW0BEfl19mFM_OsNMGg1Kwlg3vM56Dq8h6jKx-Z1NsM7LCGwNt_9JKDsTBwsJMJrIf3he88X01GTUJZtTtUI7jkavOa0A9fHNjysR8QOccm4M3d-GYo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLeglAOrY3dtmlC6a4-xPswCprIq8ai9wjJJpZe1Xm4ZMp9n5b5YEyBC90Q3PmlFOMhyCrMbvKldhNTM_RIqg-mkSMkBX5Vjb-eh5mY--3oft_cDaDnWzLA4DIb8EJ5X7selWQlnXu087cIymD_nPldMC_SexyKz1AvozX1dF_v5I_EUDrbKvxtgB3t1v3zHFCN_cA9BriVeYLoxcvSY90HyMxfQF8IMW4ZZvKMn6Q_QeLLnLN2QninN9yqkXS2-D_CvhMfr0EYGVl0vsDh30k6eIRy2Ra3kJcUn42QT59pMvSYiPGYYtif1w0llAhwKH63rX8iosmwhi0rDxUHVvuY0MEyRKbgDXvR0z1kx9XlS5YgKOlvAsTSq01E7XtfgLEhFT1laf9ZFtE2RkCiY1dFswIYEbN0",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLeBPtgi1-t4EFinwx3gNMY1VlPp9B65GSw687buqZP5cElt03dBvFADiF9PFJO0Lso3rLTlgyUQEerxfpgujn39E0_EmxCCSTBlsgjmWyFSgBaZMSmLkDAUBHnFfa7JPsmBpyC7DuP2G-OCxnQBmiyXoHcwSLn4Te09HZVPOZIjQCsn6xZI0zAKrupIGAiBoarCtVY2CzPvfXMT2qbqpbCjEFRKh1fUWyEt4ZU_7ipjZ3AGyrPeKkhIfDa-GFCRNkbEn8AHlG5KeGaI_G80cNTSOQCm3ot9RPee32nNYzvtyiSBwYmjb20i1SjRFR5UFknzjceAUFQUGdjjobmfOfsa1PCQo0bEawSKNiPjywSSaiarZJHyEtlMORlDCdvmFlQppM8maj1SiB9_JWY0Z9D3QeQ",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLdHzR0TRnkxlpkpJMdnIFNxDni_z7QuwKB9nsMPM4COgpwHrxg_lWOQ37q0-YnUWyhnP83YICBtOFV7TDlZuK020-ElvarjM-5sGSfrwy5xowhCE2lFIuCF7PYjzGMtsdg7iOItTZnwj1DQlG0pAuKjwUImNKcjQFEVY-9v55OKSA7Oi7ySYXooOrd2Ydrs9ONa5agsp4u0t1Wj_bwfMMWNFuSFpnnZELKvBmECqZTHYU90ZlGj4q2_cOmB1Ct-hJ-nVvMyXeUnkz7kM79p49hncOB9QrgXsT4lcAydoXDYx2cCLAFJF1YDfsvibSmlKCTOjnYOc7seqXIjpMlYyaNSnkYblNP5ctrN9xH5mFqHW_UmYJOaTdZV5TydVe7Tdi2jowB_k3P1F0r8FcDuAksL6Zc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLd4t8EAgr12ooOI_nK0ImNBqMwOMHPDYO6n1Z8WjVFMIG8c9pfxvW4ccrXnI5Zs8uYikXDC377rfuI8cayhKD3bz7aKDoQPLEC_-TmqxrabUUCC_zYV9mBk6SvVA4p3csv4ZdX4WMtvdpv__YyzkiaDPqUejMooAu_61-_x6L9T9IbetW4HG6Sp_YadJHPGV-avl2VrDaPwzZHcBH4D99ajwNjC_3TH8JPaYee0xw3bwmhJFec5m0P5GJKUS4hsu5kxtwFTFs4aTE6w6LbPid-MHM8xSDLQSTpzpHVuE8nsqmz9fRfZ9A5SfeouxNOyGqdeRdYE9f3pmk40x8jA2VlzkfkaGf5oP1rvh0AtLYUTMXKoIEiyysrEsbsekpFoHUYbLhf9e9VQmFcWwmi86jmLH6LRZBw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLciuh-TIgkN0mfZLJpL0zHLcV1rb96JnQGNquGxfOtfAOnakTxxRXPv9c3cTEya5yrYrvGGut77ov5khDcHfRWk_hAYZXxlgk12DqLHgbuEIQ2jKo0_zWokxabXBXneMNY-ivnbw-NYsYmnwepuBogAh3mptjwSSl2ppSX7gHwxZ2sicQF8X4LBaVSQz0XW0isp0o7on6BvpzlTnK5CfCz0JBqHOfALrNjNSwkRruu3GCZqcDCMdCB4bDYPp-adBKg5E0N3PXU92MFpwrV8x6PpBmOKezvegv_k80au1x1PQo5FA23SKLl8ot2eJ5274s7_U-DaxmoXndDH7Aty40PWc70PjVA3J1djJX4aduqUxGAIWu1NFb_x0zqr4kFGkPNXVNdYO3z0OLGIh0W5nt2XneYbzJE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLdpGEF_Y0CD8_UXbGTFcpBwCT70Nu24MwKNnZcvzsEYDIJkKkLUEY_F3CdU2CqCDDJ4sEyVVsJeaDWL64Cze5X0TYJERKiLN34rfMGxn79GzMv68UB5gjC_V9SE2Y9kIPOo48VF4b3QsThCk3H8i7YcrkZOCcY_7v_aPMc39MCF4EPlFSkWkdGwZ8VdjXCdScY1BVBCksZtPQRnzCvfXldjLbLzRuKmsFsEuPls2OlhYf5QjfwgLkYuuVLNtD9iSEwfqVXzzgfdFV-k_TIO7eDa_y5YdFLLGg6ekeFH5mHN_1FqYJ4I4WwpV7-NR5JxGQyhUIfVfBUDN1KMJVgNr8GohX2ECP0Sbk5_5Q36FwoQSrrmtb7deCKAekETHbj21RGXfU-id4qMh3eMaGA486pHNoKPhLs",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLesEZEpa70ETOdMC4zjptS8xSo3T3Af3z3_hUy4qbQOFV74BMVArsLTA_F_aXZrBmVi_zA6oDpp7burVjxOYtSoa7F0mAMBJs6yEqpPBKB_ZP2I6M_sthN08-br94CxU0LmS2ABx3I36tJIqGy7F6zxnET3jWwkeigKthenjSBCfr9dfkmeHa76KCspumYwJ6K2cEucllt31pAwo9Vr0e-tWQojQ3HIwpgxgdeTp3j0G1QDSEF4seVYI52Uh55-8kexKiLJ2oB5v9F0-SPfJl4zF709opNh177WvE_0CJl3Ur40zsiQ5nTnKvqcw1OB_XIdrzNBrUM3mx6d24Oi2elbTeohC-KamYzs6kFHeWqyT5hLO1J9mCZPiStyX8NaqSCGTDjknj63osvuCcEBOh8yI4x_r7M",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLc-sg_Y2RkkkvQBAvx_vrZVPe65-4W4Asaj31AKVjhkbabstskzThcXwLOd-T0XLHHzkkdmx6FSwgk4ddUAuE1z7R6LX_j8rsTWLf1errTi03u_3UTPuPIJpjSXGEsVXbdhujTIf1E_nvSs7TFhgFS9UmDTsYsbv28h0VjNaTxSefVE7_qjuZuFe1CCPpQ90sf6rAnx_bfwa5iSSK1M6MEdCeS5ejRbh-pvzF0lZLIgtFzLniLClV0O00J6VhkX885OMlh42QgUbsapq_Cc7vqbGmPQCf5LTEnl0ghhygKyiuR6bEsVHv_sO0DMfs5kuuQZgeSsyAOT3kfwimI75CW_fu14LVzBPgUeIB08N_RDds1mKXK6W32h3yi0ZnNxfsDPNIAC4e5gtBRiMD5eCjsRMtWHABw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102130321744106619870\">Atelier Crow</a>"
+        ],
+        "photo_reference": "AV-0GLfXZ0N0b4c8CBsJQMc86Y3Sv47CoaqAkSxcFCOJXNrdxDnOmLcXR-nMEYmKMW-Nm8xcmdYRHbSUsrK2NvlCWIccOPtxcuhtWGON2eHJz3qsl-Apv429U1MJi-c_35nNjmzgPYPzOzw3tQo0JMYyJ7w0s9QgHj9uBxruCWNsRfzQv_Zpg6k1L90-_n1z5awS7IUGQadcm7uwKX9J00ao7emIjbz731QVGCYZkF-7LIeoBb0gbamCFBRuO9EtZ2tI-cf-LXECwl-Mfc2Kslfml2lhKcchs6Krj_P0ZfOYDxzUsuzA5Zn8EHLjBaW8UuYnM8X7lSstRJshsP8qvUsCq0r6RSZth-lEIcQOH8cz_u6QN7eIXMbOBq8v1fix6_7xPERfdjdd5yMh6esbcMSSCXY43uw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJvUu-m3sx3YARIT5BAfZdxR8",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2289339296752156193",
+    "vicinity": "4005 E 4th St, Long Beach"
   }
 }
