@@ -1,24 +1,119 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:45Z",
+  "fetched_at": "2026-11-02T02:42:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Elle & S Apothecary",
   "place_id": "ChIJZ_be5BW5woARV4OSHQwii2E",
   "result": {
-    "formatted_address": "1017 South Fairfax Avenue, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "1017",
+        "short_name": "1017",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Fairfax Avenue",
+        "short_name": "S Fairfax Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Little Ethiopia",
+        "short_name": "Little Ethiopia",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90019",
+        "short_name": "90019",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4402",
+        "short_name": "4402",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1017 S Fairfax Ave, Los Angeles, CA 90019, USA",
     "geometry": {
       "location": {
         "lat": 34.0576116,
         "lng": -118.3642754
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.0589341302915,
+          "lng": -118.3628580197085
+        },
+        "southwest": {
+          "lat": 34.05623616970851,
+          "lng": -118.3655559802915
+        }
       }
     },
     "name": "Elle & S Apothecary",
-    "place_id": "ChIJZ_be5BW5woARV4OSHQwii2E"
+    "place_id": "ChIJZ_be5BW5woARV4OSHQwii2E",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7028749078872884055",
+    "vicinity": "1017 S Fairfax Ave, Los Angeles"
   }
 }
