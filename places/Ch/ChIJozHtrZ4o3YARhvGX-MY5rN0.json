@@ -1,38 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:56Z",
+  "fetched_at": "2026-11-02T02:42:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "D\u01b0\u01a1ng Lai C\u1ea3nh Natural Herbs",
   "place_id": "ChIJozHtrZ4o3YARhvGX-MY5rN0",
   "result": {
-    "formatted_address": "13523 Beach Boulevard, Westminster, CA",
+    "address_components": [
+      {
+        "long_name": "13523",
+        "short_name": "13523",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Beach Boulevard",
+        "short_name": "Beach Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Westminster",
+        "short_name": "Westminster",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92683",
+        "short_name": "92683",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3281",
+        "short_name": "3281",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13523 Beach Blvd, Westminster, CA 92683, USA",
     "formatted_phone_number": "(714) 894-8019",
     "geometry": {
       "location": {
         "lat": 33.7661415,
         "lng": -117.9906806
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.76744623029149,
+          "lng": -117.9893033697085
+        },
+        "southwest": {
+          "lat": 33.76474826970849,
+          "lng": -117.9920013302915
+        }
       }
     },
     "name": "D\u01b0\u01a1ng Lai C\u1ea3nh Natural Herbs",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 17:00",
-        "Tuesday: 12:00 \u2013 17:00",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 15:00",
+        "Monday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJozHtrZ4o3YARhvGX-MY5rN0"
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108892264579035996796\">L S</a>"
+        ],
+        "photo_reference": "AV-0GLffk7E3e434D64HjZ-KOOc-M0ul5aPy4Yb3CLrpCbYmEols3npvQehxbj8ucQGIMaGLp9EuXhq5IeB0edwCw9qOl9_hx6UgjJ6watNU25dRNUQJdIzhgCLVFcsS4j8CrEaxOhiPdSOep87vwC1xYHNjmTlrqFm0nM9VGQiRQ8CKCAvjVE9jS2KL5kvy_jhbcO_AAotnE1hWxygDwdk_1_Ln0BmiMwA4UGLiGEFSiLK52Veics2P92W0FPB7QOgBFt94VLVOGKS3RLra2jkQDxwWT5hWQ7ltMwOH27xHWZ92V84Q_m7VELY1VRDM-ne8z5l3ZcNsI8dhvWZ-vm1Eq7TZqrkO1sw7TznyHwSg5dJ9wH3oOcOqOvRTE5ygQhcGw7VMgTBl2FvPgL4RTM89AomjCVM",
+        "width": 4800
+      },
+      {
+        "height": 2015,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLchcpOYF-e0LN0HbcWEWANk-aIFoilkcCLNQhJTmdejp-U73Dn-hOSiAJpSYS5RbDl9g_FGyhgwPYmLIKdmgFPlLdvii9edA10CTlxdRG0k4-F4FD_Dp4M8fvUUvsWLKoPy0BgggC_gOp7NSSHa0MPN2Br_W0Daiaz87SyD6TPLiB3Azdt_S1SehG0_pVQUiDy3MBhPieKDjkG_2Vq9jVFQ03gGFlD0kLyjl32dYW5JWu4_2ZM9YZcFv1eGefCH5b3VEXMKLmp7M7OiUfLJ5J4GNi5os2GPdUcS3-bswBn6qp0X945vCuCb3Z3sMpJ3GaehN98FIE1Cr2YQKoZvGMgFEolkFKvNAXx3lIQNBRZ6og1RQhzu0AuZNU7D0tZdZLWkncZoSHJSeVuIhQRlluN-NRknFCk",
+        "width": 1503
+      },
+      {
+        "height": 1125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112806745044584859037\">Tehrani Expat</a>"
+        ],
+        "photo_reference": "AV-0GLcckTvih_h8zs_yvSH2vXYZr9QY6lgx8aQFtYvEChAulPy0Jk3vPelUF6GkbhbmtfZ8GTRZQNqX1kqb60HKdhev7yN82JBlMCRJR1DHumKWkhdWIYm2K7FzZlMMz7jlAUSyOWopP_yvGJAlFCpIXO8E2I7oOL73NPV9n_rI6u1kaanevkujIfsUOm1KYxtlB518yhW1U6k04I2AtHeiZ3mTa5uICKcE-pQtoSIaZBOhFS8If2E4OTXm-hTD5FjMnf-XfBlKNPKsLVaBfo1Yvc1iSXHj9wR-p08JO5LirJMLTw9FlpvYXdT1Fohtg63OXnt0dCFtuI2MQFdjs7svELL4NdpZ47oIx_tZ2ezdLXRVjR_h5tMDJix2L7OQH0m-E49kmlJlq86ri5yuqb7hQEAk0pobsIo",
+        "width": 1689
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLdm1SXLjFy8nilqv3lUDOSguuwfhr8qJjswirGjsO0nMzZjoZdtpUZSB6hM7jsNtYq0aHfjdqu6hwwCrRWINqMrdAkmTIeum-9aHcviALAE_SJIsbha0fAnPpZvk3zGifulQzp95Gs55lRmsRmBdUvV-QDXVP-5Ctzd4lN0RcL1Z2ePiwW11UpypqXTF1E9SCWZNqs7F1xJ3IxxVTkbBuCdBiivqNVLZohW_2jPw4ukclSAUoTCPT-SQFEZ01P5PDLT8QKUfx6tNp5VCVh4iG_W1n_WaZ3ISRvXc82XSRc4wxHO-Fv-IEVkKNv5_ypr8LesNHtNAZKT4OHA-3mT_Zpyq0Veyems-UiaKiEtwrfOUc2MBF6PQ6-T9Jt2SpiW-Ccfg-KX1UAfbfXE94k9vhDWUR2Oq44",
+        "width": 960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLdsI8la3Y58Dqv_Qy0GEI_4Zzx2bWVqAe_Wen-a703RlHAJdyDz53l01A-0bhmv0nBH0lMT7Uj4w-1If59TSmq5ib4H2URptmgufKouKNeQjdGT1vHB8a1c0hNd3dtquxfKyti-fhPzoDor5tTep7ZNwWVsGakFFu28GVO-OYeRYGM4mRKixLuoo7dgHdk3k5sFuAcXBy-Umd4I_ishOnRrIfIVZjBWAyGhLQY3SRd9HHZsV6AjEojh6Mthb_3e2RMsqFlCpS3M4Um265vJA190QcW2bOGcHcKzCYabZpuYRjPGZm0eYrAf_WO-XbRDXpSRazaEjSj4lptCr871x30UkPZ-7Ufr0ISbRBwsVRpFinJdMY27nB26bINGSUwWsUhPEMAIDYyR7dpifyvfTw16cEw",
+        "width": 3024
+      },
+      {
+        "height": 724,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117739777104717560797\">D\u01b0\u01a1ng Lai C\u1ea3nh Natural Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeouSu4V1hL2DREffQbTQxwM6pEZe778RlAQ1Pr2TJ3c0MCu58XF7yVs8BK_xFKqr4djwbtgO5VQflzf-7IZcDCYWPf-dC1zv6qgJjNNsANNRJ1qPtul_ytQjKIO4R2IalwwQNTfPA7lBJLVejZ-v3hW5Bq3m3cSRN4Pd5GxtJnGE22422_rdGclHk4sKJAj2haa_4klwwUYZjtmDRRKuoFm4PODgwC6a2n4ReXqJ_AgTsOqCDdYK5ZhNeQJpvJY8IYveQHjA4yTjpkx1mji_8nq_l0p97u2bbrhb904c4qKbFKRBz8q5TxFwCAHrDKaBNGs5sZI16ml0xet4XTVj5iPSaWtp5rDArCcXSI69PuKas4m4PmEpB6Vce_bGN3jRF5O1S-hBaEk1B3I6MkBG9bCD7p1NyErUt43RQzHUwAKA",
+        "width": 2172
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLf4fQuxakTHJE8rsugi9LMP-oa7XHtGV3iwW2WLVnDOH-qp04zFaYtPDxmOOzMjmJQf4-j-rEFWJX_Yxb8O-qOipyhgh4gcerJ6UyZy49LgbxIw69L0E_WNRcTGKCyG3kL_ACHhpRoelWcV28u11twK0S_l30LPnTlHUqolLnOJcjzBW3ztvajfkknEx-VtbnbWi62SBs40odri4qFr-S_shmPbAFRlFZ9lbgfvbRrXFxZsh6YvBExaPD0VB9aMNOcZalv_B7OkHbYt35OLSTwA_AVKFxZxRD8agk5J_DW81hCRNzaWfUco0gTTWmRTzLcDKvcqDV6ZFMP97Yc4kNFZFkpZf14Nhv_1WsIuMTseSKSGA61S6Rb7yTyXF8HEE1QvQpwCk2kbKyxLgzNaDcfVM8oVEgw",
+        "width": 960
+      },
+      {
+        "height": 747,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLeYhmDhZdZHyYknmMFLGZKcdMQ-Wq55OK-50U1QG1ow-DmymdN2mig8FvcrYDq4sE95lDPxjzBPGi1eLS8zMl9p2OFbMl9vDFU5RBVF09Lo0BhsixwwYLMSYBvVVc2SUndA2cWuFY80p7Y-Pp4eBdFMiOBJxdHRr6S7ySGuPjZsM0b-LyFnTv4-546cqivcaiEutNFf5ssew_jJmxbo-kDF-lkFHrPXfwk1lu_jkUq9NT4d3CVoFaBDPOu88NHyNW-Wh5pYlhgxoXfjJygsJwzeQOIWwHkxwWkdsVv9mvfvAdxTG_3Lt_1QERLJ4pzuR5ZwrEhm5GctC8NzEhgUNvMWBU7wqnG8htjENcX8iqqtH1ISEn-CuiOh77bVqwX7VPLRVvf7xPCctIkJzEKgo-Vt1uve",
+        "width": 1502
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLcxMBDZFo087nOLgV8JzEVGhyIuDoe486JHXettMC6nNl83mjwbC420rx5M5SQOWw3QUjiCa-fOBFNYvJdnK7TCyxActDYB_ysI1N7NDsrJaDuV3DqE9XN2NSCntudBI2IHf__Av6-eygHCTGALVhqbHVFdpWwCn3ktT9UV09IHe4blCUrTXMTgn8qmpzTbzZw8wWqqSg_5vtxJzXrQ54DsklhCUrTmJ-oEiniLJwvjPtOSaZZh8X1fwhQOkyW3qPT31UQGJ7UYNnNBmPnT4i-iYG6TdyMtrDIDeHyPsl8HtOzNgF9SCMCN5jck8uAbk8zAanWafXBJSQ9n_HXRWf6c3RkN3-7NYQX7tx3J0be1VBlwspTEXW_HY7Kyofo-kh0TkGiRSySRFtpLKjJTZJtMDQP7",
+        "width": 2448
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106556759626102923770\">John Duong</a>"
+        ],
+        "photo_reference": "AV-0GLcr8tWu1dGxEXyJ4Xp0ro5V00KUDLEc0WpLQP0Q1dcHwTTvuZsQd8BKKAd1tp-DI4Q1dr5pfJ25yfht0yDcj61G5aB9YHczmTuXl4aS_1sbVhP3IP6AWdOh6NH9s02WnRlYlskr4Q3W_1Ptfo4fjWlgvtEbeVpfWKj08WXKjA9kvXVXdJiA7wnw9FXWkU7w7IRGmQ7CORYq5jzcaQ32uP7NZMw1bQhoLcTCmSCXBcK6Gij4fDiu_saJBrNRdX7zlXbdTnjxsDexgu8uKOiLKMbY-Qy5MnXqrgS648mqH8tKM831zF0IaupuzOwRnaO2zIGCpxd0OWTZwcpKn4o03lMWvXh83oLuAsfzWsQysYLi1dzScdBjuBVWf2zd_AtXwOQ7cXA3JZS52qZloj6y6vaQ9H8",
+        "width": 960
+      }
+    ],
+    "place_id": "ChIJozHtrZ4o3YARhvGX-MY5rN0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15973205505113321862",
+    "vicinity": "13523 Beach Blvd, Westminster"
   }
 }
