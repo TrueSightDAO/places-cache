@@ -1,38 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:08:50Z",
+  "fetched_at": "2026-11-02T02:42:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "San Judas Botanica",
   "place_id": "ChIJj2wIffu2woARHdOm5uesA9U",
   "result": {
-    "formatted_address": "115 West Arbor Vitae Street, Inglewood, CA",
+    "address_components": [
+      {
+        "long_name": "115",
+        "short_name": "115",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Arbor Vitae Street",
+        "short_name": "W Arbor Vitae St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Inglewood",
+        "short_name": "Inglewood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90301",
+        "short_name": "90301",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3882",
+        "short_name": "3882",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "115 W Arbor Vitae St, Inglewood, CA 90301, USA",
     "formatted_phone_number": "(310) 419-5820",
     "geometry": {
       "location": {
         "lat": 33.9528693,
         "lng": -118.3555469
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.95413653029149,
+          "lng": -118.3542008697085
+        },
+        "southwest": {
+          "lat": 33.9514385697085,
+          "lng": -118.3568988302915
+        }
       }
     },
     "name": "San Judas Botanica",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 19:00",
-        "Sunday: 10:00 \u2013 19:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
-    "place_id": "ChIJj2wIffu2woARHdOm5uesA9U"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106632102865183640354\">Rodica \u201cRachel\u201d Carroll</a>"
+        ],
+        "photo_reference": "AV-0GLdLYlUvg6bjRDceZVNm7KpRRny4t_H-iJtKHHnobMfRS_VUtI-mr-9kHkRtEwAfPniUcNFRr2pZFXAMYXt5UTGnIU_4fSaKQWGtyqEPMbdpEKo2fce0-x0uaXvuSrkKnu15TVvFCP0WhF0_oA7hhPSZneinVvgsYbm8K2E-iMrJIXL4MmWr8_-ilKNPSvsYfXYnbj4t2bgPp1N6KVxYIyLVcWi4U8vkmQRNfbN3uA555kQ8ch94pWZ1B5TFFNdocqR7Xia0JZNgYO7AL8xgXZsB3gXxnXewYqZX2DfYFKcbr88b7x2gTQbMEUgXs3Zg9DcM6iZE-vk0roZEMKYUdqZjUvux0vFjJ6WPn13AHOhxqCgsJvZXdRMFQwsNt7teBU5I5lH_So81gBDBE9DoZSL_KhvbxZM",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105012405080079194266\">Maria Herrera</a>"
+        ],
+        "photo_reference": "AV-0GLenh8UhO1SbWSn0UFpms-YhH5TVX0uFslsRLfpEcC6gRdZJLIt0deivkX7lSHhcbE8HiiqmUjiES7sllllQYYhp4pLfP_U-z_NlFm3MCn0HWwjsKq6_t-WshfpKBn-EV486OeeOWlsC4nuXXurhFA0Q-1-F2jHC7DEdeo_FNgNClujUn-7d6VX4UUqPa9x_5Ur7NVs6R-J03f03bWIRlw1oDVccC_Biw2c75UCOq3ZIbnGGoOfimL5e4D7UtU_EuWkpO-Jh1K2gexkQtEGZIIthb4vz96NZNXVVrsK_sKY9t96PuUCkgbwSXkYmuXk4V4DQy_hmrApqYae9_XB7FuYsI6gHXbKTGhKB2CXso204yNdoqTvrZKUmEztsCJPxuSMvtbuKJDQ0__FAcCYpuJHp2yA",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105012405080079194266\">Maria Herrera</a>"
+        ],
+        "photo_reference": "AV-0GLdy_RRbnQ9TwhKOsJqEAs95qzkJ4uUKRqlk8Ji29Od6wUzjqdHLASw9qa6yRl-R5ootDFMA4i2EwrEur4SZB0BxTTkOAOxWMlRJes_7eUCQRMscRTiZQgC7q0hJTu0NPpZpC6kOQKhI1qWd7SOtUnkLvzeUpt7NEYY1clYRzyZ2gYeVRDIr7hRrNmAeaSIjntrvTQ6-D00IDtSkicFcbwidrrTTPQ22TGHlUXDsFhF4GaCSMu_UQ2B3lzbDeLHevFoOMP_qwlM2wZLEqLHDM7ls0HGlde9BzE6nS99B4S6qMgtvCG1cca3MJkOK67iUypms-MDKErYAXOmjqmgpr4QT0y2Jh_43gQVaqe9lcOz85DUy4lyw-1vnyKfmu3qBH9Gj07ylw5NCF6Im0B0nAZSOKr2C",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105012405080079194266\">Maria Herrera</a>"
+        ],
+        "photo_reference": "AV-0GLeeg292YlJi-4J1cP8efn0jGmLsNZZj49nJj6OAOG-OCZPlJ2nZ0p9e4Q37AcW4RJxHGL3GFX70EE602amIIT0fYTE-U_f9vq6TcDdkoIOyqhXQvlXmUBqahIyqaqheXoGPquGLGo7IguYDxJWl1tQjGgwcF8JTq7tDwZbwUdUVvK5QhPpESNvjIULxpl-GcBhwJkqVP-Wds53hmoaFnlmlRIRcHrz8VIb6dpMaSEGCaiWqqmZPq7-nM5naFnKPYT9bALgRffS0Z3MfJX-123R_x8I6C1JIgwICfTSt3cTEBZadhrBj7LCJJdCtpdqyPMfW1fVm-nBBSOJX_O0Qhh7IroR_r5SK0L0pdcK9ipvyRss0CIHBAwJA1Z1JahcnDLbrmnWcrD4YiCCMTMN7wgEftfGxWDM",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105012405080079194266\">Maria Herrera</a>"
+        ],
+        "photo_reference": "AV-0GLd7G3WoEMUCRAQ0FRd4xumVRdmEqD6Aw245x91BEmCxu3H_gJJ4fPzQVEPBye0OqCbg-cJXYhByV2qo8S9QrVPffdFHk3NZFvKPTeNxciJ3Cm9-a3kTzDm6fxafZoWT1Ixe21vEV0mG-sMyBez-huydnPXIa4l80v-Z0s6fxvxj6sS5WqLPrEoi5ltfy1345eQFaAYBKVgRCsLh8bWEcgTZJwK1bGHRF7-WhIsiGOYOYjIFB9I6oO2siBJ2b8foCwbNj0R-MkeeUJVmpT8kn4b2O1eM3CXaKMFjZ_GSDTnuBmK8OPOXrWDmBxuyYKpycmjoLTyUKfV8vrxwYhRfQpp2adt0jJ67qgxgQyfp1MhFs-5GUFeDn2WkS2gRZqlucjSMrK2HR8VGdialVTUVj4KNSKwlibw",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113388564973114697712\">Diana Trujillo</a>"
+        ],
+        "photo_reference": "AV-0GLcs3-NZ2_oboK5Y29gtHHW22Oc8X-htBTpJIeMSVuGQ70yr9I2YlHq71kJYFdycsmDkbGB2O0lUvnc5HsHXIhA4pe8JplrHEaflu9a4zINz-pxuyk4GPaZd1GonU1oBf2ivx4yFc4VcLGevlsAwCFsfskJQPH660sJXf2Pk2Ei8NqSkNh7rTLHAicWTqlip57e91qJ2vAbT-a6d-OLXPcBSv6EZ_IFbvIKfIY64U0ecn3_qRHoBPTvHTI8TnNs6vEXzSZDLnmC6LHetPVyZDc0K15gczCwwWCq1V0g2PEdfQlXBpf94mD2dgmqEkteqCMvUejKG5Bq3LkYJF8W8u4t2u9JiKrvdwHHg7TDYY62I6jTsZ3Y9qJbfUHMlSaCQw33eh9Tm2R20ZGgNhIu89qeZYR51V1GmURS92_ijRaNikQ",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105012405080079194266\">Maria Herrera</a>"
+        ],
+        "photo_reference": "AV-0GLfEuBuDOV81226i1MVNCICmL5002lV9pO7KAn1HQz5ZQbh2rL2d71oOlF6VCOfCdTTuyiofiqXpVasXs5lR5SmNv_sKdSOzgzJiJ9U5pAoUeBYUXgHbkCm3_w9Elg_0nP3mRuKf8ImYj2mHI1KmBcQyGKDz2fI-Yl5UvnUMtwgb5iOeFVPLypEeY-18dzu3alkrO2S5Jvh9EmQWNOO77KtIJxML2NymGDN-JJuunkRIBtUbTBRe_361s-_UD5kAhwTDVS-BmSAqSZJWgTwscVJy5AsIhzSryaY3Z9XBCfz1slWsmYNmJKYjdq6FQbwEoqLBcFSO2uzM-yIQv_VLGc2yFfyApsgyKMzxKfDFoILWNb3XpQdLxBJHv0wkQYuhqGheUG8jzFGgXYWqcGDkzqVQLf4",
+        "width": 3000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113388564973114697712\">Diana Trujillo</a>"
+        ],
+        "photo_reference": "AV-0GLdu0mvdL6JgR5Z7pM2RZd3S8-jQwglxtflCMPZasjC2t4RwG9BPntzOABmM1RLygg6BCoRMx646Sgbd26Sqy26GDDns8vHP5TXxMb6dnSy6RO5AEV-GmDo-h9FG4GyQo9gw-mPs1_wpmRJe1jjx2geaqArTrg_pgJ7iKCxZMESxsWUavzk9svSd4TNnzF8ixaz3CcsKplyXlCwCG8o1yig68GLRS96-uklfIkaM7LxqufKnlbaO9YnAavJq25jVEaLdmAxmpZ9yUHi0SIq1qkSbkgShzSsTQzYfptjT5mCm15i5x2sSYKoHWjquU0iJusLZeDd7CsuMZbNP6vuXABbJg3A7B0nx4UXkY7dCWQQVx237gWdBofRL5nyeQSLn9Mwoh_vQOxHJSLvAiR7TP-nq3_mbJCi3Zomt2ak6sMOT7w",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105257974932929315912\">Botanica San judas Tadeo</a>"
+        ],
+        "photo_reference": "AV-0GLdiua85Moe3lu31yh3oQk6UFirh2UTNtO2FcICmh6refLEhm3gLtjSUO7D-jT8FlkFMDL3HZt4YcLs0U1thaCmOBLPpcUz3V54Jz2fOVCkQIh-SccOlnTbvOCjWRq0S_slKBHI-vd6UyAHdOD0qiHMN45mOPSDlcLJSWNaQY3nEAQJEFqTkJUbdhYUHFu4E4LNPNfntwCPtifoRIscji_thvN2IpV0UgSItjKlIqgxKBsTdTafTtabP9EVVQG8eZMjx4MkL9KGxNqx30lbxcnGKPeo2aJBD7DAhskr8YHmT_c-PVF5b3ANK8cqXg91m-7fe2njoudVsf22Gwac2yPZ-LUB5LxXueJEiaALrxmLjrQ_ShygcyQB1Y5dXhRm3shzmQbgGaxOj3zCaoMSm7mndxgl8jM39cUUoCHIS-Fga5g",
+        "width": 3000
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105257974932929315912\">Botanica San judas Tadeo</a>"
+        ],
+        "photo_reference": "AV-0GLcSVgjRoMYu-G0MYsuaNe3HMNIO4Et7nqdO7WceG8oxzFbBF28eJZEyVs2jDRPiRPdC8fRMXcKLfF-2Z8yRIXyku9l3ttxIAAXcb7OaWNQVVvn16Uz6tZDAfKmRqWE_29yyfTRGXORyCX9OMsOr9N6wFkMMsnYx-kLcUDufk0VjiIzBhepl-SylmHxuK7YaXPM4Jvyl_QSjMeeulYC3zUY3JaWhHDaXTdnCogCQWwTIbW5BXcBz5C-enJ1kUSAFGeeTf1QAJWXT87wb8FxDHte85WlODWtk81rEgsZfF-VO9Gib-cqesFs5l-3weLg-Jv8qucg77qgFb9f_BPXIhQbpF20IbgXqMVBTcd51O2ah8hTBahMlI8GdJhRUGHJrMQHL9VuBuh1w8Off75xrxMWCJOr_hJHSgbfRJaXnWc8oFQ",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJj2wIffu2woARHdOm5uesA9U",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15349302067015897885",
+    "vicinity": "115 W Arbor Vitae St, Inglewood"
   }
 }
