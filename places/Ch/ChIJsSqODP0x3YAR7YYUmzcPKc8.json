@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:03Z",
+  "fetched_at": "2026-11-02T02:42:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "The Apothecary at Midnight Oil",
+  "name": "Midnight Oil",
   "place_id": "ChIJsSqODP0x3YAR7YYUmzcPKc8",
   "result": {
-    "formatted_address": "255 Long Beach Boulevard, Long Beach, CA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "255",
+        "short_name": "255",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Long Beach Boulevard",
+        "short_name": "Long Beach Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Core",
+        "short_name": "Downtown Core",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Long Beach",
+        "short_name": "Long Beach",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90802",
+        "short_name": "90802",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "255 Long Beach Blvd Ste A, Long Beach, CA 90802, USA",
     "formatted_phone_number": "(562) 269-0218",
     "geometry": {
       "location": {
-        "lat": 33.7702209,
-        "lng": -118.1897457
+        "lat": 33.7703323,
+        "lng": -118.1896164
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.7717208802915,
+          "lng": -118.1882045697085
+        },
+        "southwest": {
+          "lat": 33.7690229197085,
+          "lng": -118.1909025302915
+        }
       }
     },
-    "name": "The Apothecary at Midnight Oil",
+    "name": "Midnight Oil",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1630"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 16:30 \u2013 23:00",
-        "Wednesday: 16:30 \u2013 23:00",
-        "Thursday: 16:30 \u2013 23:00",
-        "Friday: 16:30 \u2013 0:00",
-        "Saturday: 16:30 \u2013 0:00",
-        "Sunday: 16:30 \u2013 23:00"
+        "Tuesday: 4:30\u2009\u2013\u200911:00\u202fPM",
+        "Wednesday: 4:30\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 4:30\u2009\u2013\u200911:00\u202fPM",
+        "Friday: 4:30\u202fPM\u2009\u2013\u200912:00\u202fAM",
+        "Saturday: 4:30\u202fPM\u2009\u2013\u200912:00\u202fAM",
+        "Sunday: 4:30\u2009\u2013\u200910:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100228301413377990698\">Aneeda Media</a>"
+        ],
+        "photo_reference": "AV-0GLfVE_3LpGTei3BerY85YS1QKSCuEwRAzC4EeKbsMO712syu6p_-XsfGldDwcTCZrYScG7aPnJ-z_1looOjiipH2GVPc1DhoHlTtTSzNC27gR3PRx78Re295l-Bc9snff4z07UOBrz4aHRGy0BMoE-z4srw30H25VqFZtxJgj7KQ6R-R94K-u2W3qV3cw0zKIzPvGDAkHUAWpJIY0SKYkyKU2rJstz-fI9gdjRQ2qyJR-qQ_C2zLE-Y1zCdlNKoqZOgI29hpbLKmA9UV_j7qLRtvWZuRXzdInQ74_dDKBV29RWGOKzVs2UYB9cVVsm_6u19J8K9D7rU79-XIcxnR06zskv875NdgPlzDhS6NViLKa1qop1TbO5N3UVZISqSr57zdge-hEV5xGBAWjiIaAabF8S5UnkCXH-lO0ynLYciS1g",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102400581001250161227\">Renee Lee</a>"
+        ],
+        "photo_reference": "AV-0GLf7PJ56uvDdZhn3sZWt6XVgbwzIjfuWB-3UtKBs79DJzpQhL-IqD9jNLao4cz8FbaeY8qf45hugTiMpCnSrf-UtoOw8U0hWcr5bB08ytYP10saFL-t62YgPlSv7yo25JO_P8WPv0l15kAZT33_DKbQRUB3NfCdGNACT7PZTSfaXidNiTtNSwI-IvxTwZjnECX2flvqgAEz2Tx0Ws3F0j-lEdz9OhFRnk3EBOAoArMebkYyijAIzmblYH37jKZR8Z2typ5L4UjYW6zk4P6e5lZuWlFBf1hC7s2XwWs5xdcy-29LrBdkgFxlgdyIrmyCmkPmR_jV-z8PVhpguHK-qlyxtmEeCw6ow-CPplw5a0kNx8OEMISdLQKGnp5gmvdKd7avDOvNKvenVQZzz1n8KIBTpZScDKx8",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101277546147194424323\">Dennis Gmail</a>"
+        ],
+        "photo_reference": "AV-0GLc_7IE5-HCKQw3ECoFNNE7NH_YHqZ5c2c_GnF3X0EiLlVLIdwmLJ0V1iB2OzkEM_iUAm15jQz9zE9ICcFNesgZwG3-febn_xiwShDkvNhUOw9uGrgtx4mwlataVlGJBVYWuLMTuTRsijbqIggMOYCzZ_KLU-MfCOphzkgHGdNN_t5XvTHTH07h-M1iC7GDglo7ZN-Puf_trD5cez10PdQRPCLfCcEKDf1U2Uj-V-HjoKW1jGe0PWHw0JV7UHva8WsdhJFwn3AjdBbGU8Jhqg-1rbtrl37yTqKjfB01NnB0DorK162AWgbDpGw-b7R5WdZmxMUwebHzE8IkrlUsU-WRhAY7db5JrmXpKnW_-m429b1UBQe1z4f9F8kASIG6g8IqKPEGKUh4wtwNDTI9ZCDko7VcIAQh9LRe7H47Ee2TIkw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117639936091474295038\">Andrew Rahn</a>"
+        ],
+        "photo_reference": "AV-0GLcTCpj79DmUcYKpkvVf1AAFh5a3c39PgL2d1P3Azomg6dq20X8DBqQTGR3WOgeGMWBtlkcjoTjXRbbe5N-pvH3Vu6bGtMYB2wyGj5VqInn6XLu79XOWD9BVoa1VWMU9RrABPGX2XNhnjoY26PSYFMYiuksSddIgAnAtV71l2erzRZH9Mb7Xp0NvQ2IB4wpravfkEI2dbK6AEYY9heB_BpaApq79M8to_nsAHMoLTGNNR8eVp7o7GRym4CAZ9BfmRn_W2yGg6rb90lWYjRfWM5UHuEYdMRtsgZTZ7GJ8aegUksjKHpZcrF_6Wyn48BWo6dIFP-u1AspbuoLHuJ6NPseEVLNJ1O_Ne2EgzH0q-HD-twwuuOVLUUMqJ0ERLZeefxoJ95tv0_5tlmTNeQPMQBkd0mvu7X9LjoVg94RcNUQtxg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115288429400310138684\">Sun Lee</a>"
+        ],
+        "photo_reference": "AV-0GLfhNNH75uWTb7GJkfqCz0uhNG0wPufAlw3XuSbDjvY_erMB99XAa-lJmIKX9peqRX_AcdeUlEeKydPoGLKcyfG0NqoeRqOnCYBIppPI7PGoYK5zJ1Uc-Q0JPS_Iswxy5splX06CpIrNYSmqqJIE-UFbqPKm33G-fLemSZ0S3CIqEbis4sbAzJD_YCsio7ZOd3YJne9QLXc8fkN-7NhDg09O9XIDjflImStMpgH0x6tbtX8Yt2V5363BowjTzW2PvtF2SfzvLnogw3alNrpfJIs0AMEOGTpFJYZCfJ7fDlCDNKuOZ1vINMoNslffVgwKPJsjHnqoI7p60BDVBAUtECkJFwXiKYxIJvT8u9vt-SbmVPMlxHIDYZYGgZJ1xEs8ddupyBP7KwrA2xUmaLvKcnldScOeaU0",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114250639087404184484\">Brandon Kim</a>"
+        ],
+        "photo_reference": "AV-0GLcGtQvv7r6nFUZv7vZtYcK6yB0Vnzfj-pBR-eXVDetMcRsaQ1vbY-aTYyw-8KKuL0--nRJ50vZVgLvpckjbK7O8_S8ZZZgBHMTTu7T7wyFft5H2ornKSeE9Jf1U2wVCrwiAOlaI0GL_Jl9scdYn-BQzmOnWdNYvVIIhRleZiK_KdS0lQGHszNiILZFqzrDqfDY6-zGnLx7VQDbiPFjztBgRr2U4sawUYpCqVy3nI8qufgJlA-4jGU8QgFYoqMHxd0yMca-DuUf6CkwDZPBdrhbxCpi4xppWLQv25K2b8_G-c8pI7yBzesVZwHcKjjMiPc9Rw36RSrKhfDHCSV_o_PVKkq5IWtOoyR5S3Lp5dbAwbnM9eL-ZyVXEserbhTdS8X89jbxGP7Ie-S5bPPPFyHK5QmkV3mLRDQVkXeKaKm21",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102759073645981086787\">Dawn Faessler</a>"
+        ],
+        "photo_reference": "AV-0GLf0N2NlF9rhpW8UyznVXvGbZB5B2V2RGxn93yQlwLXWIBr2vYBOgp-pwj8ceCtLQrvieM5MQPFLeJqgwCSHd6l2ZbWZdd04XYCVm3Q6BqEd4g1xeDK0Cc2W_kh2ejWDSXZHQCls_afyDBV4a-_MPb4O38LYOE_N14pfftqTE2UnG_ARROUKaDXn3TT2gaLv4rBhx4jArqdYBkmzpM6fZ7xP3HOy3M587pK3VXTuf5xuEvPEtdG87qZ96XYTgHCS2APJKHAISbFX_jJsrRDuFasafd0Jwrsa58Su14YySe6fybMMsQJKr3lvLtEwGqeR37uA42tSs717I83mVPXEcf0vsffY_gpZXZIY08xlBvM0COWJw0kmIw3RGvJhWjruCNbXQCykijzpjXyfpYxnbuyTWwX8HSXNhtpVHuK1462N",
+        "width": 4032
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105625043610345283170\">Jeff Bleem</a>"
+        ],
+        "photo_reference": "AV-0GLcWsKP4jGnoVeudRyxy8xjcBmcr5ltD6qrzJK-yyJsxfHuFW41jLdkRPhIlGYaoO5u5D6lcXGIJO-KAI7kr2cpJ2GrNx-RGQQ32n5UGncIwxaxpu-qn6rhNej2cQiSlrowwU7tldNwCZklauvGJvdRyF676ZtqducX9JwrS5BYfjnWblClhxFwDsMzbuUC8DdBeN-tIzC0gCdzLDfHF7v0rZ6gywlISx_OE80iztIeFVbQCefU_lj-nLS5BRamtrDe-snsIXWfqsxD-AbIes1KVq6FB-UX0kIp8rvJVAA6J64D8wjacqzzKb_b9v2uETaJBhDHdKX9Nlb8uwYhaJ8Tgkgc3nhZltQyBTND_2Hbg7fFa4HoRzhXJL3v7Dj6M5gfpDURZaTlVbMgHUVTQLQ70m85kbvT3QgcI2TsfzM5J7g",
+        "width": 4080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115309404017143252900\">IslandGirl99</a>"
+        ],
+        "photo_reference": "AV-0GLcyFAkYOqHRmKyl-S74ceIHVvxPld8A0puIH8xGOTR2wAlmz_8RGgPXx2kRdZkPfW11JWARRNExzVtImUYXy5IvTPmOXgjSHLJZIu2dZU8ZLu9Nglkm0Fl95DC1fZHrHKFjBBF_f-GaMQIFv4U3fNjxen0UJWptxjz1N4L_eGauvCbjq-bIw0aLjj1igVFRGRKwJgnCyyZe4oRQOEdbncI1eSK4jc-kEHnt9J6Zn7o-SgQaMFp1YkBQ8KzfqX3B9TFOL1I6U6xAcIKCFq5atp2QUnKRWBIt5g_4fSP6JO-K7_7FxDlwTrth3Vb8TTWXHlejWK329A1eGLg7vWKOf-UumxaXF8QhnED3-CgnMr2pfHrG_A2wF8-5s0HixnImugE7xR6IytXzmZbLh8lIbC321O3cKG-vshT-TS-JgQUw",
+        "width": 2216
+      },
+      {
+        "height": 4076,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110577861887062267925\">Andrada Groseanu</a>"
+        ],
+        "photo_reference": "AV-0GLf81-2vKdIvX4MDyMedjjna1WW-jOYhwSu6OSUF1fYndaDeT9f8tyKJaXd8hBfTpageW25ALaMivZD166cYTFpy4qfQ0zlKj7WVVFhcJTxup4Q1UmeYx1OfCgEVhh1-_DG4RIXYEirVXGApMPDfQScnJWFs8hGzJILFB-pAAwzUUi6oYoEI13RER39Ohsw6Io8qrMxsLTKI6y3THAQxob8c2u4oKVIqDe9wV7HriYsdBgGKRu751pTwKYlbT0ofjn6zxg7Vy8wX627DY5rEtlhAqXyPP4lXE6kE84wxbUv5oZtjLpA-oJ9JISmlPWSRquSKDDvF5JaikMOX6XqY2lNVNZjs623JB_nZa6Ye5zme0oIsaTnCKTj91HyW1QUB1c8DpquL62OrpGYYmUJZxCic08IlSYcrXu6qMmr-XgIEag",
+        "width": 3057
+      }
+    ],
     "place_id": "ChIJsSqODP0x3YAR7YYUmzcPKc8",
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14927479171395651309",
+    "vicinity": "255 Long Beach Blvd Ste A, Long Beach",
     "website": "https://mnolbc.com/"
   }
 }
