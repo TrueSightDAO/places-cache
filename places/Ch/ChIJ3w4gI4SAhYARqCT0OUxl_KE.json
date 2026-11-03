@@ -1,38 +1,284 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:25Z",
+  "fetched_at": "2026-11-03T03:39:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Barbary Coast",
   "place_id": "ChIJ3w4gI4SAhYARqCT0OUxl_KE",
   "result": {
-    "formatted_address": "952 Mission Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "952",
+        "short_name": "952",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mission Street",
+        "short_name": "Mission St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mid-Market",
+        "short_name": "Mid-Market",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94103",
+        "short_name": "94103",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "952 Mission St, San Francisco, CA 94103, USA",
     "formatted_phone_number": "(415) 243-4400",
     "geometry": {
       "location": {
         "lat": 37.7819145,
         "lng": -122.4078009
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7832131802915,
+          "lng": -122.4063857197085
+        },
+        "southwest": {
+          "lat": 37.7805152197085,
+          "lng": -122.4090836802915
+        }
       }
     },
     "name": "Barbary Coast",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2145"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2145"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2145"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2145"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2145"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2145"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2145"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:00 \u2013 21:45",
-        "Tuesday: 8:00 \u2013 21:45",
-        "Wednesday: 8:00 \u2013 21:45",
-        "Thursday: 8:00 \u2013 21:45",
-        "Friday: 8:00 \u2013 21:45",
-        "Saturday: 8:00 \u2013 21:45",
-        "Sunday: 8:00 \u2013 21:45"
+        "Monday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20099:45\u202fPM"
       ]
     },
-    "place_id": "ChIJ3w4gI4SAhYARqCT0OUxl_KE"
+    "photos": [
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112740508208930118335\">Chi Li</a>"
+        ],
+        "photo_reference": "AV-0GLcpk3kaBWMfvePMAidXEBXGko0hJNZKpxgvoCZTYbW9h0SJmneWb9hBc57zHQNLkr7e-v38HjkScKDmfA6L1ovVD-Danr9fsls9413dQq_d62xa7HpfkYjgpV102350nsmarpblAzdMh-ATmyjXkiutcD6GnFSerZTJdEL0kktMVhLnqSCebbYapBGngG2dS42nasPNH9mvYGMUkt-uwFGBo1bwFH49qkYhwktA-DUmnGosjChH8wUO5ruIAIFOhPPGTqmPm9Q7l_LiMe8HTTHAVRoY7HhEMs8-zAltfAysU5_yxvtjgAAUpbdMGgJxYlCUzRZOS6lRBVsQd5eyyxyNV272BRg4aXcUc5UgKAaSC8YEnKYrsT5FhRJBQvSLRxEsST1UB-p_1fI3EulbBXku2MFGO8c",
+        "width": 3120
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115344511972011147235\">Alix</a>"
+        ],
+        "photo_reference": "AV-0GLdlqgnUfTGyUQQuVoeavx3C7NopV94vqpyZ6PH3TB_ABGWgpSk-KXE_JJwAI_4M863fIogmbmDXRqSYBinZhMk878eVOYIU1qu2rkb6iRqV-oey2fmrVV4lOhB4TuDgnPGcafLxfrAbqLKdK9MYgJB7XD_grTWEyhXEMVtCY3E-SLLxiunO0ub04odo14T5qWVrZzwl-QUMdGpQxfa17HUxBTIi8Kk3FBk9yMDF62gj6iF4u6occ7ammAij8U6xaLo4sZq5uGR6i6xAEsUrf6mMDcV6TT-zfAW8DtOzBAzTrA5wRv_4wgnWXzF7oUC_N-CtG7dBP7QneI2InyBAGmVqSOwdHllnq3Nm31IAF6DaaM5AxBF2eG6X7oDOyIb3yCrjJIwKDLgsg2pAGeFlejat2uLQ-6w",
+        "width": 4000
+      },
+      {
+        "height": 1868,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116820326191470796551\">PotShots</a>"
+        ],
+        "photo_reference": "AV-0GLeQYljn-10s9DNOTOQnY_0LHAUroUmKwG6Q_Fc6AKhoMkuwB0cyfLWGdMPZ0Ekcpj_YtsGATg_w-SU8MCri88p3xOCu6bNDtdETAJ14VzqCoa5nspgQ7SZVAbPheZcvurxvLMetAxhcuoAtLRcm4bBYtz6IAJQG-CBrjKQFPIWHV7xioI1Ml1ru705rLuNouAyzvC7naGNgaZXpwYeA5B3R2PQIkh2gD7SiI2rqt5Tc3z6aCRzq5wYEolj9i9NF_RKvbqDrfcbs2IdmD4d6v12HBXdFh2xM07DduItTPVBh4dJ9uEX0Mb8xD-aZnDKcah7wOHoZrL66-57f3fN1p1_RgXNDWgUT-q7zZbNdYebX4EXTe7Fww--qzjMvapFCccPbl_q64jvMb3yy_4rXJXitmq64CqI",
+        "width": 4000
+      },
+      {
+        "height": 3220,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103649126995885390002\">Joshua Tellington</a>"
+        ],
+        "photo_reference": "AV-0GLdgaAb8PeugJZGfwaSz7f-uTGcZ8UYjLRKymX7VXdaNWt7Ht1WJ-JpljlBYhCMDlzvheXvmkpsSBKoUfgSrMrAElWl1NDaZ5JO45zBfvRKnJ0HKEg9sXZTt-0hPEtzbHh4mwJWKtQz7z6Vn7_vsDdz6Y0N_aHi1kK5sWWS5r6GvQOEv4y3ct8ZnWEvA-vPW-CHatXByp64QNlIuIGOoPV8y_1wjjP-y3KvzW4wtdCAcbI5FRxxIhZiyIzkeUhN29UN6diZySJqB3aRD-U1Rawl0lZVH2R9DQFm5hGezgPG1-Bhfi0EmfRJgfiVNWQcbElgjElUa0xqZGu_RQiTmvixBi3vukXXxq9dkML0mft473VgwPwFB5hFQc87tuviplbLeWqHVkoi1s9mRtUb2yNRt_C_pyRw",
+        "width": 3024
+      },
+      {
+        "height": 538,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117431795042872900573\">Melinda Rodriguez</a>"
+        ],
+        "photo_reference": "AV-0GLd5-9h7YAVwalhxMbVA_B5UCmHohyXMdCat9EeSCpOTbC_rjCeoMeZxfp9tv3DjPIS-AQ0AHhrw4Ske5AqkCOIiqygfIEIM6SH28xqQMT5tHHGANzRUEcB_ev8ip-nZ0TyorqK8dWe7o1HAlrxQCPX9EYLz2iE_g7EBHbDPU4mLGHT2_jTFXSuGMqkPrPWFRibiE60s-ElDWwMBW1px64OE91DGmVKh-lltWuq9ai3KZGjBoPMr2G5_t9Ggl9GFGyfeSiPpI6EakPxkNJKJhdiJOKVyF0tnTXfbudwNcKTOZnSSVj8RCKyijXE1S0PzDoA5USHn5jtHxGEoyWq1L1mMZrBceZdr3CWdKfn3LbUvZrIqXyKtbwwACPFT5TVCwSW4NMIgq8poE1LWOofpFzWrEBtTfqg",
+        "width": 907
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110469237616656857217\">BARAK WORLD</a>"
+        ],
+        "photo_reference": "AV-0GLcWsFW6s0F19AI9VE5-K_q2k1nSbIBtP7X6GqiSUojbdi99Xn3KoMJ1pFuly9M-0JxLJGKDW7n3yE-FUfFH0PlUDaxE9tIld4kWL2tt3COPPdRQvICGhiZi1naDpjUFYQfQXjPo8mUllpM0j2Bi1DeF0grSnHOmuIgilRL09kb_njssydW-PziPauUOBZRc2yAobSyek7mydQr23ewT-W81p-7TTBm_3znk_Uf1fUQ_zprdgQmqiTGF7qGkgegkvybcgaB1ys6b9niU-mGsxWpBcr8eM0Z0_KmFO4bSyhUunvV51OioDEYUs3Pqyp9WmP_-SuQb8CMdQK50CkF4zzhWtO21jvdyhxaryW0TH8PcGzr_CBSGmciyY8v37KAJ9rxgbjwli_IoQc9SG2QevbQb5pjgJXtXPBTC_xWJ7SCM_A",
+        "width": 4000
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100685541679061506114\">Niklas R.</a>"
+        ],
+        "photo_reference": "AV-0GLeNLwpgUVodm854P_yzOVSA7NdixnUy4c8SBNQG7GePVYgspg26JHa9hl9Ag5QeZJmR4ztQaocNROAuPRkfdEOifNVv75jpiRx7Tef1k7zsnERDzhcO7oPXWxXl6dPNLZhfeL0bv9Gg_lMQ42n-nfaRPM6fVCs8AkRzPTN2OguPWk3_tD2h-zS7sYA9tGMynAo5oFoyj_Z61RYLqbqAMu2iHdCgaHKC1HmwGv2B151bEHvNkAX3VkpbxXxATAy0R9MGyQGPgNtyhtIHDAfPKPLSoMmyvMQH_qq3t19vVje91QBTWLopVnpDUcrJJW-UXqsHDCM8jRmu1S_UGmoOhKjEzJmwaYlph1FBGHxmA4EJAz2KLEYH9USDBQgkrg7W5Frjh4D7GZRi3t2wK5YrxkaSi5TcH94",
+        "width": 3072
+      },
+      {
+        "height": 538,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117431795042872900573\">Melinda Rodriguez</a>"
+        ],
+        "photo_reference": "AV-0GLc4QEtiJF-lU49c-ciisLdbiPma1X6SDMYpclIVOsRf_Ze7zM0gj3leNt-nBGzghUDFk8nB3y41KSbHbd8fYbqq0gj7PVXUplQpihzAPjCjf8btJdbcsIlw85j21GIFPBIKGgo0d9Fgxat7UtcFqCF8twEl2JgNQVbjT6Wfu12w4s6uEeXbv4DbD-vgbXqEbqUe1nWI0y8Cf6rLtk-rVwlYKwYSfvX-9E-yW4T_SfzpD6uALAENwu4Zmu4UIN5c8s-qECPdH7jx7Ulsbjnx6kTJnGOiRMASb_X87yOymO15dq8wUf-_P4N_Y5Mq_ob9Q0NQ1DpD3vMyTs2_-1E7BDjllHXApkmFF-0ARLhN5XjEHS6cNDHt4VPO9GTF4mBqbFZXKpkPjkEkbiVlQCAsSkAuSg",
+        "width": 907
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100169847005389214453\">Solcelita Elgarico</a>"
+        ],
+        "photo_reference": "AV-0GLdgDbARivD2DYTd0FoO26f7m1BwDCBISXZxvWRx56Yv2zWjLhHigieC5uwAwKxv36kl8RwBnFVCyZHm-fD78_aX_i2DTviwz0egb-St-wG4JykhJQ5JmXnyI2A9K2u7cF35CJONoQ5hSs3cCIZm1xfflCvr-M3ZqYD6Kk3SDP8M2GsVfJT0h-4tRphmlrigqz7SAILOc3f-hdPNmjwOEqrWS22dPzd2RyIYIlkVf0wZFoBCVDljPsyerga2uGScSBPUZMjLm-Vy-lXx9nol-KxdqvUyXp9dN8QExUAzcNOzBFq0AnMSqjsYGXSGl87oSOya2Wwk0y0l7Ki0JGifzNYHvF3x8yLcbzd1dNgnKIAYrWrNysonhbqSKTqqlV_Zt6u56GsR6kWU1gUVXiACXrtwG9a4R4TVp0NbO9S-eS5JDw",
+        "width": 3600
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110469237616656857217\">BARAK WORLD</a>"
+        ],
+        "photo_reference": "AV-0GLfRyZarrf-5E0H4m6O500_H5MpPAs6xsj1kLE2x9BQ62hsD9mN1J-4zj8_2uyfgTe5KBSAMm9f_820cR8ypUSE75u645XJIrBPOxfMdQCdqNGoL46LQnPQXOauJeE1EIN-uElCuqx-Xs7VIVe1Ohe6k3YGDV5AfKcB4uMVRIYdnLr-A4DfB16HbnREaw-0KQQhxh5-GRXnaU0VwpNhCWu9VML7WvOAkN1HrgXpZfqBuEmKTjxWUg88y53JSPWbMJP_29guFXPr5blqEa-_K9c4G_VlldMChiWS6a8f22MYNgPll9Gi0eg2ibPaPAnFieWH4cCzphivLxWkY5KVNXqZcbRD0_ftlMEvLydLReNlyDiD0DOMdIALcHDRnDA8YAxstQ97-ggoPMDpDRo-0LuVNI2ZY2DnRhAesIJE1Kv8aiA",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ3w4gI4SAhYARqCT0OUxl_KE",
+    "types": [
+      "bar",
+      "establishment",
+      "night_club",
+      "point_of_interest",
+      "store",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=11672315712301704360",
+    "vicinity": "952 Mission St, San Francisco",
+    "website": "https://barbarycoastsf.com/"
   }
 }
