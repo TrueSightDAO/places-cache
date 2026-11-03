@@ -1,40 +1,183 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:48Z",
+  "fetched_at": "2026-11-03T03:40:10Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "CC Apothecary & Wellness Boutique",
   "place_id": "ChIJJdQK0dlHjoAR_lGdVGUHBos",
   "result": {
-    "formatted_address": "6223 Highway 9, Felton, CA",
+    "address_components": [
+      {
+        "long_name": "6223",
+        "short_name": "6223",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Highway 9",
+        "short_name": "Hwy 9",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Felton",
+        "short_name": "Felton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95018",
+        "short_name": "95018",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6223 Hwy 9, Felton, CA 95018, USA",
     "formatted_phone_number": "(831) 600-5529",
     "geometry": {
       "location": {
         "lat": 37.0517599,
         "lng": -122.0735885
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.0531033802915,
+          "lng": -122.0721371697085
+        },
+        "southwest": {
+          "lat": 37.0504054197085,
+          "lng": -122.0748351302915
+        }
       }
     },
     "name": "CC Apothecary & Wellness Boutique",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
     "place_id": "ChIJJdQK0dlHjoAR_lGdVGUHBos",
+    "types": [
+      "establishment",
+      "health",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10017702552924934654",
+    "vicinity": "6223 Hwy 9, Felton",
     "website": "https://mountainsidemade.com/"
   }
 }
