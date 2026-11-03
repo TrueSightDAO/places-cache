@@ -1,38 +1,239 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:34Z",
+  "fetched_at": "2026-11-03T03:39:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Practical Magic",
   "place_id": "ChIJByYmlEeXhYARsBztkKm2l4Q",
   "result": {
-    "formatted_address": "51 Bolinas Road, Fairfax, CA",
+    "address_components": [
+      {
+        "long_name": "51",
+        "short_name": "51",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bolinas Road",
+        "short_name": "Bolinas Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fairfax",
+        "short_name": "Fairfax",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Marin County",
+        "short_name": "Marin County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94930",
+        "short_name": "94930",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1662",
+        "short_name": "1662",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "51 Bolinas Rd, Fairfax, CA 94930, USA",
     "formatted_phone_number": "(415) 578-8598",
     "geometry": {
       "location": {
         "lat": 37.9859882,
         "lng": -122.5891127
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.98739438029151,
+          "lng": -122.5879294697085
+        },
+        "southwest": {
+          "lat": 37.98469641970851,
+          "lng": -122.5906274302915
+        }
       }
     },
     "name": "Practical Magic",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
-    "place_id": "ChIJByYmlEeXhYARsBztkKm2l4Q"
+    "photos": [
+      {
+        "height": 4019,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109289796669654181990\">Practical Magic</a>"
+        ],
+        "photo_reference": "AV-0GLc1kEcZUd32sXEOR3TzeaM-uFVA5t-NRTyv6mws3SqRGddlWk-yRy66ydn6MdFsCvq-YLDDNyxb3lQM-AR29KkiHAlh1jz4hvLazqZWoIgB7F5Pvfygh17OcAEGNKoSMBAp1gmRu4lSxPczDuIKq8CGs6FDIzq871ICwTTmIqEjfvOCv1sSxIGxeHlZGKpgo-xlQtlk82kBxeDYDfFmvqYEFZ9ntWgAdjw3TIYtJxwc6SVUbc4JOLC_eXb_rpkyEbqFlFIo7xAFOpc0NFYaSvBv1BIztoN7IUoEyKaVJRszGevL3h20rzddxPjiWjn_pZFFW9YdJhbplXiJo5FQFJsockELhbygKlbFrp6i-Al5V1lLt2eDENxlRD4uQUvVlKW9TfHqH-Grl-m_xjSNv7vscP0yHjbSvlVlPT_SkzqVTg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109289796669654181990\">Practical Magic</a>"
+        ],
+        "photo_reference": "AV-0GLeBt4d3Fm2fH6BYIsJWR7_anmUy4flEtxZoQCeU1wX5fNMcUA0nEXa1JA4CxzatIz4c543eA7ps9QLA2AbH3KiMdtyrzCV341gQJrLnpz31g8fkcX41VdKkBSjivj892Mf0E5kB5QBwy3I1JvUVyIf6FiepxOqUvv8PhBacJAEZdCh80YYthENXbOoM8aGsqUSP1jBxYL3RMrCZ7_NfAYXcOUhvcuVj5lkx7APK5JllH1hACA_4EKnImUyg5nXtIYdcmUk7WnG2Nr7D4hpq91NFQmbct_bWQsNu6Ef_zKP6AsS169rV1NQc50Puxz8s31_pjExCIrTzhSFfbjYIEhSLu25QQNTX2ql6Qzecm9Xyc8cXh4gRZRfdDHSMq8FrVOOcTkuPHeNhFVPOrvkoCy5-6UasOQ22EAr9FouirBPBPQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109289796669654181990\">Practical Magic</a>"
+        ],
+        "photo_reference": "AV-0GLcEvCVLTanY1Ii_BgK6GS8VusDafwefdaHs3y9b7VsgoP2xiUhcXTSjG0wOrrhevbCxNQ4E2zhlRYSOJdOGm-9hxgwqpzviDOgZ2SlyV3PU1L6Cgqu7fXX_ZcIqCTDjLBFN_XjiFJbqL4FJqO6Tu7yslxe6heokiHykrHI4a5SH9JA7u-Hb0PacuBCHWpW22fCbq4-N8LKPilhgOIGQkduzH8QG0dO-7SXTWCyfT00lxgcFr74ZAkZvPOkB58gq69cxbDY9MIpLAFuaLd-2c9TILDSBgOB7-UYZR4GnGxgQjBjyDvOKdDPa_B-6SfH--OCo_IgGVbKcoPisrVKT-X5WWRI1UmffqToMl479dbaM_XKMzj7zEcelf0v_0Dol4xKcfd8ev9M6FWnPn_Ony9ACpo26E2ltRFQQw5W76_rorQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109289796669654181990\">Practical Magic</a>"
+        ],
+        "photo_reference": "AV-0GLcJxr0CX34wME7brncTjvsoZ9YQgVahsULPe_UhwzZ4Yhbwn5g9GBlrwIdRP-ffgrmQflj1owI8omyjvTM4YeoMzhzkns4J5OXra1oEHH0LAgDjHuD2BfYxC3igxkGvVBPlPBIxV6PgqpbZeCy2R4a1xwpP30mgxhGcHjdnGVDjantZhtZWFrtXrSblR1NLJ_0Ew2sTU_HoXImAfHUae2ppF1VZcm-jFDoVjXvkqFU2lzUR4VuHRMOBoG5n7a9U13_EVR0DRpALYYjaX7jDwV8vDvmKJwJLB8Xm34LfMIqTZHBz8-oqQIAcFWmx8ANqf5kFo309chxjGt3Bijw_1GaqwnYrLDoCj80dpP_l6U90d327i6L57jZGgds5a8q5iW3QyMb5RG0n6jUJGY9KpEMWcIjXpY_sh7YsCpDNtS5AJg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109289796669654181990\">Practical Magic</a>"
+        ],
+        "photo_reference": "AV-0GLcJZVqZnVHWi5nNXiN13i2Bdfo1jUZJvk2U2xide0o86GwgkhWHU_r54eQmdKdBUqvl4ZoWeeOlmI1cM9lxre391mRtHEeJ4spKaYf7SqAtmCKSe5WFkp-bMQ9GakC-9BZttzgwPU0AkLZx3Zl8vRsHara1sFp0MC82eg4TkEuVg89pjFr-59w73T78xFe-hWaEWZ5xwF35eTEvd8ZJG5zqzAPV9-sszH3jtufBdXysSC5rTGaZSTqWG6CIBq-Y8GS40d6lA3VxTpeSMhoEJrIgXy_f-8svtXwp_BycB08CN1KdeCzQZnAVYRKwElj3PW40FRaD3g8zn4PYFG6Ejyz_Tf7NxP-x3kl-4Xp8QjINtxN0tXsRUD5a0ANbwCilVGIK1_eaEhJH0Sr7hkYj5LkRh630m5qJBR7Gb7qvcD3e",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJByYmlEeXhYARsBztkKm2l4Q",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9554305973886983344",
+    "vicinity": "51 Bolinas Rd, Fairfax"
   }
 }
