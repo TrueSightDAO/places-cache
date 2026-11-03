@@ -1,40 +1,208 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:27Z",
+  "fetched_at": "2026-11-03T03:39:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "\u2026love\u2026 Pescadero",
   "place_id": "ChIJ3zEU0rwHj4AROCIwhxyVbTM",
   "result": {
-    "formatted_address": "270 Stage Road, Pescadero, CA",
+    "address_components": [
+      {
+        "long_name": "icebox in the back",
+        "short_name": "icebox in the back",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "270",
+        "short_name": "270",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Stage Road",
+        "short_name": "Stage Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pescadero",
+        "short_name": "Pescadero",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94060",
+        "short_name": "94060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "icebox in the back, 270 Stage Rd, Pescadero, CA 94060, USA",
     "formatted_phone_number": "(916) 420-7964",
     "geometry": {
       "location": {
         "lat": 37.2530753,
         "lng": -122.3829534
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.2544196302915,
+          "lng": -122.3816953197085
+        },
+        "southwest": {
+          "lat": 37.2517216697085,
+          "lng": -122.3843932802915
+        }
       }
     },
     "name": "\u2026love\u2026 Pescadero",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
         "Friday: Closed",
-        "Saturday: 12:00 \u2013 16:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Saturday: 12:00\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLftJwz4BKOLWxTcxdkxifBetkqkbH8VOV4T2RhM6mtYWS5BbjUkqmAgAnTJzQE2yN8Flmclb_sJYJxYJzD0iaV2lzx67YHy60QXHGb2gjBYcqoY2hH0lVyO0mCCvPHJWUVfWDRn5eTCPnSH9E_XLF_EAatpy5c8bCryv3OJSAWMLW4SpagJkMZzp7-leD5jm9W2p3oVpsvj97WUIYkJEcaqBvoGUpJC_l5nzgLlFiM09EHiYY_q7ydHMAy69zpyZMSfXx74ne503EmxUnb1WGipZevIUA5wcu0pQW1kRT3_H95TKP1XfDAzOOPV5lmwIoOkmMndLcfzu1HubYBd2dFvPGqd1fqe5Y1wFw5sB-7unO94-jQ2BChhCbpNVJ57r2MZJ5hoqkG7GRdlYAjU1ttSzQw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLdVWn9ggq_VjoI1lZSWAEbkbg-k2hWv9H1LIi_ytVFR8MfT9UEi1y1cpuJvHzgEhV4GZwsIL2V1E3abOLowJjnSgE_qwCcEhIKj6hnna4gYniQVU6Y241tOLwGECKsE8IcL-Xa7DLIKRmPfh7sFYfj1hJrLDbnMxVQ_TezGqkWZTmzr-a8eOyXbxlA495H6y0SnlIG1YZaHRVjYnrC-W1tStqfzrFzmiXpO9SEMErYRIVacwett18NqFOa08M5SFU2wxoQR98ZQRb0Y655n5Q9WZURpBWLOnJjai-3jg_S8Xom26H_WOHdV4tKuUeWDjpPuFZZ-KGmMy72fMsCzMptpdFtUZ9-9N-6qym6yCxwSOKaTeZtqZ3bGa9XWBjdcOM7RBRZZGi8pLFMYxTq_UjYINe1B",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLdDWlOLWSoETGvhpO4j-AoMDorLcIN2Bd_ZCl3JDOAvKUTnPgXgruWRgrcdfFzNAIoCm28LPvZ1UaSZuiZgs9ArdrRTFMEm_PIeoCaNwObyBleoKle77iRX8q4J1jBAWip0zbrTFoQVOdk2s8_Khl0wsDclWvUTvfWx5BcbOqU_VQA3DYsLBhBnXjcviDYYO9x6MMjEvQWllnzLDBLnc7QuZZl8npTIzQUq2gz8PhFPohdck-t5thAORCdQhbFDbD4geRLPhLwSUae3SOIeUnTfe5fZv554kq6TkXMZYhKmDOB8gJJaPhcNg4kxl5_IrWKU1q8zSBkWyfLKVoBDmdKjGtlSCgQUe9X5MtV0Ar2oUIQMSUB0COux5_q2A3VfkmhaQBoU3wLNZec1N2ZeLhMz_9BUTO0",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLcGZZnB6WfAdY58O9joSRJXRUlXF4XgGjN7JCn_k-jRwwi9tVWGa7RnGMioGednmkeOe0apzAshwF1_uxxR0P8YbykRcjRIheCObzhpjO8CirSMKIKzMtYJHZY1d-hEATkXf1t42j_uPiEJBvuEPdU6o17yKpPXNxWrMv9aMub1kEYnhsC8DWQZP3orw1OhD-j1WOYpAbKHDc19RMOi0OzcyHNXzjMUi-UoEtj9xDy3UTf5BXoPAxg3T5w9WrqPcaHxbsUSm9Pg8NEt3NcWrhrgJnoDSpI0kLqQFQqK1DGrF98mwLvWQo5I9zM4H4TMQfJh2gxWwdutVM5A0uu1scfNkAFSQfGis3dmJ-V2idxx60ZdTlEzWDZ0mYN74i3vfyXGHNwFXoSBXJH49rdrVT4K88o",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLfcsyTqzi2TAry1eO9ULMhx9jrQPxiGFeLDg9UKgXDchtjUbWKA42ispkO8JRBU0--gUjZ-SrnEXCilLa_LZ31PMsjQVJ1yYxm9PdmZYcWH1icf0ax92hiJ4lyRBoEMYuV-X5X0WyMkqd17Jc8gWk_EDX6ku0jEOAIhvXJMuqSnfDgIPfVrgNSRiZH4sYHhjrmCmsAV7P2jVS55cj9iuFG_YaSPITAd_vXXmB9dr0x7BVBZ3XTrzTBTQmWp8b7GeeAJucCZ5IN8G1jl7sQ1TU2ozjdvGzumrar4jd0hB69c3FA6bmHyO3NnmcYbtWT2nS84HOdYR8ma69LUTLDncZj2ItBAlCUemcu3tqYo_nzEuy-RleipzWodhef9nLcVowxOfzifYV2dUEYFqfu3ljv4b6g",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLfMQFH-XSxLrUCpjmrwcNYkHh7BBZvitSDxhMTD_0skB2qcyAW6RKAe0A0-7O8QluL6wv0_wQt-fWTNpuE4JoWPSKer0kcRK_hNLEOHl8JkaeGiL_kkCXPhOZ0YiPV4lfmCThlS92m4fC575JrLrVycHvbpVBCoKXz8vr08TbXzclOt03mTC78l7Mk1pdyT_NTES5Ld3emufxC2_26plyM3u-c41B-Un9BODhrb8tMrT_pZOCt1PD3cOq6immnNE_st-6aqal55UcfzKZtqVYCz69lIi7P9V0WjUQUv8rlYWRsRv4lQyXnczYYPxvRZurk7rk6XyJKISjOY7UgeFpNh57H24fimhuEI3sxdAQRieuFj_0wkUT0TgxY37Rl5CpuqxGY7PeDuRKn6N7IORuu_XWceJW0",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116018648237253764487\">\u2026love\u2026 Pescadero</a>"
+        ],
+        "photo_reference": "AV-0GLdW3R7UfT6Lvj_jeuIwAu5chnhRNquWWvlw_SyVVwDg4hXMROqX10Elu0h_ZisgISFQnKtwJl7p5yu4OdR_tfB090QRH5tYSNDknnfd--KBCU2pJoJawV-7HdV1vKM-LYmUzvt4J72PA2LAGaP3acf6fXvCPO4QJn0zOImgCvU-eq6NhsVbbCOEi1ND1PUhQUSfi2Yj-1VfX2YwXR_aeoXG7wcZtPCftZap8ALXWruFp6UgW-WgrWHNhEc1ITvA3LyLwkDhNtablnIBN2OqBLecpNp1U522I_VnEJqsoJ0sG-ZQF73tsu4j5Ho-s-LDSWz4oIJzgbs14iWPoBob6ZVjBestt64Tw0LaJn8odZEjvyHN2agD6D4MCssBFbHrljEci6F2QfvfY_4l5ta_KSR7Gw",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ3zEU0rwHj4AROCIwhxyVbTM",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3705782018155487800",
+    "vicinity": "icebox in the back, 270 Stage Rd, Pescadero",
     "website": "https://www.lovepescadero.com/"
   }
 }
