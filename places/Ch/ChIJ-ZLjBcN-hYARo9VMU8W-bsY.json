@@ -1,40 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:15Z",
+  "fetched_at": "2026-11-03T03:39:39Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Alembique Apothecary",
   "place_id": "ChIJ-ZLjBcN-hYARo9VMU8W-bsY",
   "result": {
-    "formatted_address": "901 Hearst Avenue, Berkeley, CA",
+    "address_components": [
+      {
+        "long_name": "901",
+        "short_name": "901",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Hearst Avenue",
+        "short_name": "Hearst Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Berkeley",
+        "short_name": "West Berkeley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Berkeley",
+        "short_name": "Berkeley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94710",
+        "short_name": "94710",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2054",
+        "short_name": "2054",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "901 Hearst Ave, Berkeley, CA 94710, USA",
     "formatted_phone_number": "(510) 255-0901",
     "geometry": {
       "location": {
         "lat": 37.8696555,
         "lng": -122.2969513
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8709617302915,
+          "lng": -122.2955801697085
+        },
+        "southwest": {
+          "lat": 37.8682637697085,
+          "lng": -122.2982781302915
+        }
       }
     },
     "name": "Alembique Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110549148896052664666\">Alembique Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe3AvSdYPBrFTsh42J7PXND9geG38Pg5pYFeS5JPmg6akRWcN8BYIZvGHZjaC1l5y3Ld-WCmE2qY3nNo7swfLrsuRS90u9jg60oCbi8ETj7g6QDuNtxrkSiAD0gO_dGVdMoIyqsU0Ie0coYNAOkPSZDE5_YDu2G2qBQea6n35EE0aNjlgohnk8nKO3PJI4MksRq8PluKgZTPqRTSUgBWGYgliO3FCBiu-PFUHZetqvSN4p_4xb4TSjrrc0K-3uioWk58C5UC1hpVwYGdb4_P3y_AxdB_2SajTvcP4q9CTLnKlI0v9Fch4co0J-VO9-3ekycxadslUdLMpDzOfV5ZGRsyUejvjonbeeww0TNHbEQwQ4z_QFjJQ7VrESSfFRisOCwwrpu_Vza9EolAycTwFuDmu_N9JQ",
+        "width": 600
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107187323022669813221\">Shannon Meacham</a>"
+        ],
+        "photo_reference": "AV-0GLdOO7QzKcntukNPxr9hQWqPS7RPeX6PUFk_JcJ-Ze_6WFOhqctUbvrTQYEVZAbk8GC0YhXs2s_R95bzUok4WWSrndICu6B2MedkMu2si45gyn3GSVUj8OhnPHWC5aEtcqYLP6nXbYcJguqeSQoou_kx6uAKs7T2agk6FbOZKGZc8XwIw4Mk-6nhgW1gXCO9GaY-_Oa2Eq_e4k3XRaFTSFlpPoxEU9P4pAYcJlhy9Q8H08iFT50DHjftmv55WpqwiI6fYAZJO1oCCiZELVGWZ4oaFquyXN4tLcztERa0AKZ2JY23KNPGtEX_7Bocdu8wcXcVqMs6dDO6fkfDIF_QtXkULnnJlvIJ1Rlrw0SK_kvxN0Mm7nWWIzckPquapxZqaWXiwBePhBl_sZqx6Uh8UMEX2mxPZXWI-xAWrixknjyKFA",
+        "width": 3060
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104409702597682673587\">Sina Ferdosi</a>"
+        ],
+        "photo_reference": "AV-0GLcJ3dlf4f0S4LTF4uob9rpPKEfXUdBJT1ANQlVwnnNEXoY61M1El_BzipXoVA8T28e6aR3agIwI7nWFJ7qvU596MfxH319JBVhwmxPrMypEuiFTHzjaukU1WickXn9dsVyEJKjSp8ZYkKv-BQ0I81C0b5SgN791Tck4ivpdCtw740zsF8t7ATG1I679WNlidpFZriw9Uc2vrpP8jUpUlqarlERxq-sTbR1fkudfDm7oNGBYl4DZf2V3CcCscZhQddS8IG_6XeFiEWF89_D6tI9xh6cFpTgS-wHiXBp5T-VMJmCrPuTyjMRw7a1WtQE3r7OAOn8-b9IVGmNawUfRyVUBjT5A5RbH9gPRzkUmtGcU1-1LE3tnUxDgBlo1xGwyGjtcgJiONeyv255SZcuFKMqIWhM",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104409702597682673587\">Sina Ferdosi</a>"
+        ],
+        "photo_reference": "AV-0GLcJLgmip1xucDadq9Do9JMwfXuCxG3XNzK2GBja2hPHlps7m3NPtIgfi80qMGwjyGcAU0qNpm7lGsbw1fpjOFHHCPl_w_EDmQEjFjuQIhzqSKzsHGP6yDwFRnm9d8HsFoIJ14eOnY7A83pTyvBsYt7mTf3SuR4MnFRhWnUI6Zd2D7Yh7A5xWo9zy_vxVPy_e1qnwEK6AU4FiqgUjCvvsgOF5M40tswusYtCoLmBA2MxAc8xo1QszMwFQZC1lL1GfCkjlZm8AfJ8NCg7VAjAh5ifO4CGiMDg7orFnZ8y4r-2fQvuWtRIgabTWvAFcfTwKXg3OulneHhwaR5U8l2XSsCsQEO6yA5QakIY6AYZZ6tAfrgjrgNF2dCSYPI4UeALJkNcolvAtY2J2PJiTCfv-LjFFbr2",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100754630014538826610\">Rose</a>"
+        ],
+        "photo_reference": "AV-0GLfEfkIhMx91UxvKgWVOUF3q4fOrhO8_cPyWT9DrmA6Md0Ko3ISaBm-UhmEJPv5DGBWQnXLT97gosQugXFAxte4E564dnV-79hlYWbJU7DuxeJHy4Z3fpFJPM55RYYWqwVjtx7fwsErR-6BmB26h7L_qLfbh6WYnDRjHmZw-myzAe86GsxHq0xmhhGOOA-p28bvYwjGu59OdCgbJoK7M7k20vLjwk3Atmq7dgFspUSd97uq6b_eGMpythl63JMYDe17PrEhQEweI2FyoESKUrVwMxZyy0zI4vZFOgHQ2f4Tq9RBelZVq4k13FIszuSQSPUZh3cSC8TQUyhbeHHSmjN_iJJlGEiGbqVO6hV7Cdo60qvIQtYz2yJoxWFF9SrA3WXnKfsxOaEzgjtoCx0kvJSCFFwI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115802813356870126024\">Ethan Oliver</a>"
+        ],
+        "photo_reference": "AV-0GLeqEUJAj3_AmFq--O014Cws1jTC2Nn4X70473LTiUeyoX7j2388WAcI9R1lG2iDyMI5huhcXRIREZLXBQUGbyXpYyx9mEaQ30ONZZkTaF1sUMKNn7Kg0sI9I5-oc25fPlXAiF73B82ZUQvfwT72XQTLBpf1XMyxZ7Bmod4hlOPOcmlji0w7Ad5d5qLJrfgRuTk0Nt4B5UhLFkEbPD0uD9m5tIGIBRnwv_DbxqsAh5fRsRLDS21hzRSD72I-gu5sEoaS3vXJ6NAmHuG0lGnurd5vW0mKC_c9EK3lsW-ctifI-Ha8Ltdm3zRar9HmyxEGAcF7_1wRAVMAXL8O6R-yCeNN0xdVNdSihQ0ILhDg8PrYPIIRgu5xWACi1xwfe0C3Kdy4xqoi3AzFvMfoZ7arE5waPvw",
+        "width": 3024
+      },
+      {
+        "height": 1292,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLfJ3J5Ek2Iq7cwoOZI2_SdjTi7noC8HPXbcJVlaq_yOlL4YGShJvRR4Jit54gpBTdrEkM8pVJr3qHMKKS88gMik_KCWk9VrDOHHkf3Gb3CY7CVOoEVBO0QuzWbrpLu-XZ0ziEV0JSgJOBleKRfgjYnBpurMc-tT-0k8h6BaTSDAsKIIhojEQz8SH5VSEy6_h-yFcSTGyiTxAKSx3iwoNUVWHFGOFpYvqAhH3C8hOsg_m6E8BKgJgnGuJnQDppFvXnu_Z57uSFsdFXBb_UPaeDrTH20YcX8bNbsFcpYbO1o5rxK6MqHkqsTcsho5fAgwSv-3mFbWE43VMHijJ1bhA7lPCykCazsUjdQs4CjHx8r4rry99YCnisgxjIejnxUIPqWcowpejL8curWAx1LzlrhCZkGmNEw",
+        "width": 2000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100635704099302025811\">Sarah Brinkman</a>"
+        ],
+        "photo_reference": "AV-0GLeHX1tLdHHbYym8kwpxsaRMGYRIImwhERx7Z8xDDa8S1lOm-NhJi-gpuvqXZ8Qh-x8p5BT0GWNnBs8fBpv4DLSkVCs0Dsd4IsVUiSFpDL7IbcBrWrqwpHu0qJYBkx733L9K_-crFUYJ7vVnj-5tzNEd1aquwJkMCxIT8AYKsY6WlAwLK1RF7yPmrWEXI0DmDJL13XrX3brEXb2ngQXJomKigGHU1WEFUdzXgVR8okwY3O0tgndDgSVKuop92itDIhSxBvZoYcEQ4l7g7CJE4xs4iUy6cQYOepViPRCVM69F9kN7NVsXZQgE7YO7FUa6cCaR738bsdJ7EaeKu8Pkeas1ugZwspaIALES4_KtZaEkkKBI5r4PEAJO6F8Yle9IKZlx1BnLZFqo0sfKaZHPUmzaZWA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100635704099302025811\">Sarah Brinkman</a>"
+        ],
+        "photo_reference": "AV-0GLf4SdwY14_bJx_8R5fR1hHeTatbzZgcW3WAu3RWWMMJgu1HC4vh9AYdimC66FTXa23lNb3NS3qW2xH-rwwmFddZf_n2M3RZFmxbGIqdQTuNXlvYb2R4frHDZ7Mx9JAjQRgB40Zap_gCa6Mt1dRRvnImKc65opu3e2wN0gKpS_S0S2hN_WeP69FYSyZpY7cqJ3SzJRQLXKzh7xwXExqzjRJBK8Lrn92bILs060XNA3vtkJGPZOt2deq1fP36AJ4cM7Jadlo6sEqnWit0lzM7xryDdloagNXMrKaBn1rSV5rafKmhwICsJJUlFMO-yBTiLOYS-E5CoOIDKE6K-xZYJX90CxB0ol20qWUpDBULocf5S00lcR2iqQWT52odmMdaFl5GFhBaeamzGGBG4ru9TnVCXPtec68",
+        "width": 3024
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114091473331927161781\">Sage Hope</a>"
+        ],
+        "photo_reference": "AV-0GLcluGHh3hAnrp7aZDRmdLrlHI-8v2FxRBymMQ5Sv5jBbjbs9ea5KPkcWwM5t_1a-w9n2CS4RNBzYewRIOAIgHGHG-1iHLwgi0iOOMRW8w-UakSAH2ZV93uFSfhhfSWx7-ed3MLsA4vgnGppu3xjXBNOQwjiyzpGipTqHpZcKadfd0oOt__xmU_p3s2GW7c8kxhsa1EfTV-V8kfGa3PzR1MfGvybimy7L0VxT5IFhw9Nbuajp8AbybyocuKk3ewU24aVLa9-hky1HNxID8IPQAlEZ9B0Qmvuj3E4UCX0qFUWSq9F3WgXw8qzP_8eJXjD_1Mz7sK2cwLsQlJfKDjydbtLAOTcMI5PoNKubnzNHtfX2QhezklxAMIaIzMnl7UpM1R-jvQHn_dW0AaLB5J_2fQgYVtYK7g",
+        "width": 2304
+      }
+    ],
     "place_id": "ChIJ-ZLjBcN-hYARo9VMU8W-bsY",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14298575621663282595",
+    "vicinity": "901 Hearst Ave, Berkeley",
     "website": "http://alembique.com/"
   }
 }
