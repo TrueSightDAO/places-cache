@@ -1,40 +1,258 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:55Z",
+  "fetched_at": "2026-11-03T03:40:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Top Knot General Store & Apothecary (The FillerUp Shop)",
   "place_id": "ChIJS-ap-ZghjoAR9h6n8j_-tow",
   "result": {
-    "formatted_address": "125 West Main Avenue, Morgan Hill, CA",
+    "address_components": [
+      {
+        "long_name": "Behind Top Knot Salon",
+        "short_name": "Behind Top Knot Salon",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "125",
+        "short_name": "125",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Main Avenue",
+        "short_name": "W Main Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Morgan Hill",
+        "short_name": "Morgan Hill",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95037",
+        "short_name": "95037",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4527",
+        "short_name": "4527",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Behind Top Knot Salon, 125 W Main Ave, Morgan Hill, CA 95037, USA",
     "formatted_phone_number": "(408) 710-6665",
     "geometry": {
       "location": {
         "lat": 37.129095,
         "lng": -121.6571186
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.13037613029149,
+          "lng": -121.6557123697085
+        },
+        "southwest": {
+          "lat": 37.1276781697085,
+          "lng": -121.6584103302915
+        }
       }
     },
     "name": "Top Knot General Store & Apothecary (The FillerUp Shop)",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 17:00",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
+        "Tuesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLd6WDggS9Y-IJlLSZGOokFFNxVDAMe7d28_QWz9QmqiMGTcwWML12q4f343eXdTrN1c_-sZZPqHuYgPXH4pnpH9Uo7HOaWXHuga6uUYHBq_YB_4lsmZS9Lv4C_ZNXnltXJjU6xyNsAmr7VQU-y_9psYapXdr11ufpH6TjtbPP1Vuu019gmHQJik8ky_k2Og7OsButKZ20irO_dXjwnKcTGOHLwwAoxboizN6FYG8q5lBvqUwlxB-h13Cd1JkRJRM9twYfLz2AglYZxfMTklUvj6D-f6TbMZ7zu9SqvVpIh6Zh5HOoHZCL6mrz4lZw79QL3u6D9OQe2SbrTmdicK0-wllDyytZ2sSo726plEMBE8nZHlyJFdaOZEKc3sF46xAqcFesdJmImrDOLfhb8TYaiahXLbJsrnaXztBfTfD2aVbw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLcsV9Ps30uYdohLBVhKlUxbhV2nw_RHM3mlPMu-cfAIsfN3alTx8Du_m--YoKYPryj7yPHoLWw5fLciku4cAKs2qNfITEezIdoF36JD2-SAdWcpmmHdOpTcGxPzUkFDyufzMs1L4xWwsQgXHPGVk5F-LkOSectJ1qGuTLemBmTj3OlVAsuQtDTqH3Y2LJqOP16wkwRVn-oHCAR6hiEVMvbBX7BJy5YFUxCFgbjnFT1N8uR0C15PoUsDfek3MQWlE9kdXVf4_J4oVKMiKQBrUHHonWgGspei7ja1rldSy_BWlgdyOwekR9YCweSuc0_gMO2aqJfwLmYgFXQoxZjmtYJXuOo56CHbqw3T4WGuW1wgSJCBgp4lECICEbSZy6wOQOffYy0DuEmbnXU8AEYuvwl9HCPG8WOoFcnTtHjRF7KgTA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLdtm-QuH_ruYfDvA6gJNbDt3Y885y2sdZyKXJQ5ZlQ-yirAENKEHbvR1WYRdvX4mVyNHF7yOTM_dfXqHlRx3CTABMHt9g_Yzf0eUFA5g8y2wJs7d8inNhSPGCyOAyTZUNLV8dhGxX8f0HAzzUuhZY_Bi5NpY0Vrny9lVFk4CdrrJtuiouCf67I8gMK7oEgHMW0TDCqURVqCUo59FudBihvHLmtc_xIl0O1A7Wx-SGJk9zFz__ny8DDje29YQyKaGdPJPUK3OWUoQ0MzRHzyJ7WPRYy1PQ7ebUJpDSrBk-pGzNc3o6YjtuKyo9tm3GsMn22KeEvC3K13h691wtTVoA64iVshPy0awnc0TTHxFt_-BoC0-Vsyqk0xYD7FKl8Cb8tEYlbHQZdc_P48I-_BKPmF9drE65tMz8cpnsNwx09S",
+        "width": 3024
+      },
+      {
+        "height": 3397,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLcm-_ScdTLshXzozupRlual8YI8ol1RJgflXV4VyMgnWpCai66pbSI2LQKHiQz8Po9wzICp0Yl9LQgePRT1MIjLVOx3W_wQUDLKfmRN92v1a40g87xniro9H4A7fjsnxzoHbv0I8znVVaHFSD52jslR1Nkd5wGdC2ZV4kvADNK1vrEIXjMyOMHAvIjI3JxhMz6lEQKEfUQ9HmT3mFxkvb1NT5OAf8pTOSedtA6nXz3MTmxpPWCz7IoGLBPv0WE6IuuoWg0630NMTAlCXKPVb8IX72rXfVEJa4qh-a_aWmM7b27KO_NRzpRmcpIRRIJ-GT_74jA4ngFJazT6dIsmq_-EetyXwwGXNZ8DenYm8ug77ySbbkK0O4bBrLA-gzNx-C2CMTvLwR9fM3Fm1yL7TLHTe8OnvSPnZbjRX8-AqHbw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLdTG4_3TAEHCa5fa-DGUY0YGntLw0ApIDXzaPHswvDWi9ad7LMR-0UA2sxyMW_3TIQ2HO3P22lLQg88MCythipWA3JlZEjQS5P_uMvQH5nYym4G0TjiOfbs6YbxTyfFBUb21YYmWRKiMb2rUtHGqmLkagvrGUmlD1CG8X7SzeOSj5OkL4QK6GPlPCG_2sOAodsm_RZu_ZJhUbskGmD6-TOZzCRUQqAwQ5_Z-KiBMd4qfDbdVgLGvS8RV1rqKZEWKAAetyra70tSYzlS1fae8x7J4SNYOnnO8BzR3SeoSP_clzhiohu3w4D2T52lJXcGMwB3YsT91o0m5SoDekdNxLNIGN9Z4-67ZKDI7OfMQN9TSxHAbWj09LylmXazwQg2TeFsBhpfeRer9RtrOSehDmLsmE1XWEDO95mHFT8cvZfr9Q",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLcen_UHiM0j2wcbZbc1X60khqoPN6neyHm3djh1Kt0Ea0dKljnjZr-OhuKcMQzQUQMpV1Fbdhjp42gxk9l7lPp9tUhFn5ptkylCsWGTPV8e7In-hSeFyt9IgmvlHHCqXSONi1PYAruHv7cS_L1hZbcaPqpHkvOgOf8iN6Uyvd8pfHAywWNnw4Z6fqRng5CF6FpFQnghVX0aFXYoa6ZRZjWDR-oOJVUT0JD7oYLHTzlWFSWdn69CZ77VIweyl8t2g5EUi5ss-jU3Los3zt0EX4mhb4cnbrpa1NhVZwqRPbYBCqofC1d9moRenBtxdIN0awBqleEJlcCmCPBfIfbFvU03xftK8AC6RUvUdkzSLkxvETe9Ad39mV1bCTPO_b-d3e9wrWS8uHiV2Gs4i0BilqVUbA4idPdcJt8Ms97Gen-xjA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLfI2Kf30Yt3FSoaw7QS6y172zt6ML7LJg7ambL3FgVIz4rjf5PYtFR-3CkJe0NOh2p3VTE8PSQywg0l4t4oeg_kD4EYCpV7mT4bjLq9UaoAO_Akg4fhlv9eX74xd_lAMLVZq9FiCtRWDnTZtQU3gt6y290A92GSVnfQ6fV5ifYvHAuEDAe7wsLIbGehJXSw9Rf9NXt9qHmPjoDwCQaa7IGULyuL5M_e6XeZRVRcJvRzXFsLtfFtHAW5VjxOj6twcspcQDzHwE2dmlC1iJrDII-fVJVm-HtREsKK8XeBvchN9KA7ugqYF03bI5cdiFD4x1qM_RTRzQkIFQlg27Mff5R7A0pXz8GVRETeylWbsjyeMRI3yM07ZI85YPK6KOgfhwvcnj-WKwVPopvzlqWYWWTaW7RKVmr9-MK0YtrruE_QWQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLevZF6IQZSXzUNQpRgwpWGVBNTD92FRVikGLk3-vWkW_ZdJJaIuoqK15kEc0zm8XuHv4b48yW7CQCIyz_ogmajt0vQtHetTavLFsxh5BiMwnGRGaIwm5eXQXoHBViA1mEl1yB526LfM3BV2_lM2oRBlcMSvUDBkZp_xHyVFmCuVRJM6nr47RXvM2BYyNn0Zbc9_b2gNLhrlANuIrkDCjMEU8wNyKtFvnu0Dp-L_AQGir-WjyOpdcQPkvIuiUfFvK1Bcu9XpNS5gTlyyZC0HAAeZMc9TIeoClJd72-QXIN5WKjNRiWz62CLlUacYz-ZlqzMDvVEVRwt6HwXOlbBH9aqwy4qrIdwvBYuiiSMU5HX-4wF270BzF7zl88Ia9fqanq-JoxRM18IC5XsPFoLTEGTOSEkwHrj2QDgaU6ZLz0P6OQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLd_wuz6QqF7CXzMGOOMSEqL_Hm82mKICA-VnpHLObOMyGVuPnVW-KzNUYzTKHoqgFiMpXU9wh6Mk8TSwp4d1IQW3aeGrLpk6L9CnaHMhD-mKzWAkEuYOT3wyPlPFgDcH3DbtL5pUDHcLkO73b0g4u7yLUijORK4SFDEqSMVj1LDN-HEOFL_t_WSFdi9OAPqttxM8FwXC-XoolB7NqqRgbyqRc6ov87t9_P2tHfg_v2Czc7cFHqD3arutrta4NX-Gz6AA-EDxyYFtN_V-44QgbhTPv2uqxsjbKWWJUU0mUZdg4Qc1YmmR3Ah8ApbfwRp4NnsZ6X549qAic3r2ATQm326r9RCUUWGtBMPW790xXsdAG5cXuBn4Z3mZjDv42E0QhkMnYFASn-GT2CYSO41Gis2_VHUNoBFOGJfUyk_tD4j2Q",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111358779626629659730\">Top Knot General Store &amp; Apothecary (The FillerUp Shop)</a>"
+        ],
+        "photo_reference": "AV-0GLccrVXKLGAZaC-YGcjWCcpEa3dRJC8tG-I4noOOkoQuSLZDRQLb9SDn0XdylrzgVDDzRDIV6p0V3d2jsGp_XLTK5fhpLBxipHtWH7fcO5iDuYnfzUWCDV1mbsTnrU_egP26cwKjCLx4_RmvJKt-lh39fTIxFCn-w9OFPL0jaUnSS4ADC22yxPt_Xrx-pAqvXiIRWOWr14Q3AFxWXtlRHOGzDkc33rxM5E9i7Y0Q616vBzcHbzPPXHHwSAMum3e2kykUTHta3Mt_SCXtZHyLXvsEJJRu0hsgPHBu37yJb-rO8qmH5Z_bX2EnApckb6IuysojIOUMd6sUfIcinuX5qTZK-uQTAiirzsnMm9UPTkA9hx9PbnrdNzDWNfSE_XQufVKtakF68dWPzS4Hwbcbqie_jwHMuIV8fiHuTp90AF6Haw",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJS-ap-ZghjoAR9h6n8j_-tow",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10139571161678683894",
+    "vicinity": "Behind Top Knot Salon, 125 W Main Ave, Morgan Hill",
     "website": "http://www.topknotlovesyou.com/"
   }
 }
