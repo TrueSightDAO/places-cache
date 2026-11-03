@@ -1,26 +1,132 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:49Z",
+  "fetched_at": "2026-11-03T03:40:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Craft Apothecary Farmstead",
   "place_id": "ChIJKQUY04o9joARzlcmg7LEAT8",
   "result": {
-    "formatted_address": "500 Cathedral Drive, Aptos, CA",
+    "address_components": [
+      {
+        "long_name": "500",
+        "short_name": "500",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cathedral Drive",
+        "short_name": "Cathedral Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Aptos",
+        "short_name": "Aptos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95003",
+        "short_name": "95003",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "500 Cathedral Dr, Aptos, CA 95003, USA",
     "geometry": {
       "location": {
         "lat": 36.9792447,
         "lng": -121.8988983
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9805308802915,
+          "lng": -121.8976883197085
+        },
+        "southwest": {
+          "lat": 36.9778329197085,
+          "lng": -121.9003862802915
+        }
       }
     },
     "name": "Craft Apothecary Farmstead",
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117183349329662531440\">Pam Larwood</a>"
+        ],
+        "photo_reference": "AV-0GLd4aLCm9Sqey5UtegtgaNHtPZz0rXh42kCVWhSXZr9-kdy7zCtl64TeCM_GkPx5JH2mw1TAZlHUvMTcHpvLb_Gn2Hoop8rJSNM9L4A289wMwkNUup6mCcvhIHmlHdGIZoTwcGUdlnHPomVK7WnPeZdQ4fxplcJDIZnRvFQgQ84QOi3xiKGyDPuMFHQ0WyosE4GwEwKNnGkyNIr7suvWB6RnzN2NXVuun5zj_c_QQbWYzB2mchdNGLbP-3N67qz7GdgbMRClldy8YARvhbRl5Pa_ZbFSXxcI7NQyFxzdLl9qzg8f70uRHuGR6FxGcAQm5eATEs5QxwbW3ztPqw5IFLlQ80fuVVdHgn3AKpA6s-20c9EgOW_3_uB5wcILv2kMHcSYvOdwwnVde90QQqJfWM1p3BIw3rY",
+        "width": 960
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117183349329662531440\">Pam Larwood</a>"
+        ],
+        "photo_reference": "AV-0GLfjoPH8aLr-VQD9b72peZxAEXuZk2FCAKfZvdjhK09aoKuwq7QxBOIHDZObZ2CtBWBQSFgGGwmK0PYwYAx9pU8QVWbIR7egYH90y1ApSKrIaXO6o5z6aI7lV0s3sZy-t28IBkoR94fAd-2KI6pNVPowCV_Ai6jGmHJaGw4gtbRIWgGFG3hTrqSVOh_tJTGYSO2fQ3-PgpQwEmY4L6AvJglGa9GAcYpEMKh_K-_fQF97X2zYOL7NOpFYOjcd0bINQn4wGvRY4RHAYJMupxXpcEU_BEZSFg9Adz6RfTHGWPx6hg8z4dJ6PNmnQYCoiHHOFWRg7ijrzKeazYBogJEpw9CLtg_atfGkiaGLc9kGMKWCnUt833n_ssglTRDzqHvO7durhMqQUmdvPE4gmG5_MYC1DGTEWlI",
+        "width": 960
+      },
+      {
+        "height": 1405,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117183349329662531440\">Pam Larwood</a>"
+        ],
+        "photo_reference": "AV-0GLcifuypRWwkcTTzirp9-_jY4458auwKm6-sWp94mQ-VktsYc4VuOVNGtBFeFzqkjydRpGA12Q2cVwiCUGMolleHuS43BRlUAHimBPlMt9knWWQNvflUC4Qj8VhUJwFTmc8EZCMUjP1RPOWiWJeW7k7tj0zz6J3cz7dI5YORWjAEBI3XiWTDv9pnV_QvLlZ80K9WhAcSk9cZJ5jbst_C5Ea3Mynz_CnHdRnFGV-E_-Z2TBCFAT68i0rUDDXuub4IurfDRaSaD13NF22f0e2l9Spc9RA_8GctyzHC6nZ4ywoeVn7NDiQFM2SRNzhkk3MUCZ8nCWljmoeGjui4Qq9uWyB80ZthO57_kRqJoHJuDkjpw8AxZ5Q9GSwPGEdRPQPmhaCEvBxE89WgpNhvBLk7-7wp3g",
+        "width": 4472
+      }
+    ],
     "place_id": "ChIJKQUY04o9joARzlcmg7LEAT8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4540126170349721550",
+    "vicinity": "500 Cathedral Dr, Aptos",
     "website": "https://craftapothecary.bigcartel.com/?_gl=1*93l1v2*_gcl_au*NDc2NjAxOTQxLjE3NDUxMDYwNDY.*_ga*NDgyMjg4MjQ5LjE3NDUxMDYwNDY.*_ga_QZ4HDFTSEZ*MTc0NTEwNjA0Ni4xLjAuMTc0NTEwNjA0Ni42MC4wLjEzMzY2NzMwOTU."
   }
 }
