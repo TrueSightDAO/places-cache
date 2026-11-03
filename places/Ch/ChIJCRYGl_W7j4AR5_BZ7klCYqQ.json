@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:37Z",
+  "fetched_at": "2026-11-03T03:40:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "RAW Smoke Shop",
   "place_id": "ChIJCRYGl_W7j4AR5_BZ7klCYqQ",
   "result": {
-    "formatted_address": "265 California Avenue, Palo Alto, CA",
+    "address_components": [
+      {
+        "long_name": "265",
+        "short_name": "265",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California Avenue",
+        "short_name": "California Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Evergreen Park",
+        "short_name": "Evergreen Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Palo Alto",
+        "short_name": "Palo Alto",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94306",
+        "short_name": "94306",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "265 California Ave, Palo Alto, CA 94306, USA",
     "formatted_phone_number": "(650) 272-6495",
     "geometry": {
       "location": {
         "lat": 37.4276888,
         "lng": -122.1435349
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.4290617802915,
+          "lng": -122.1422450197085
+        },
+        "southwest": {
+          "lat": 37.4263638197085,
+          "lng": -122.1449429802915
+        }
       }
     },
     "name": "RAW Smoke Shop",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 22:00",
-        "Tuesday: 10:00 \u2013 22:00",
-        "Wednesday: 10:00 \u2013 22:00",
-        "Thursday: 10:00 \u2013 22:00",
-        "Friday: 10:00 \u2013 22:00",
-        "Saturday: 10:00 \u2013 22:00",
-        "Sunday: 10:00 \u2013 22:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
       ]
     },
-    "place_id": "ChIJCRYGl_W7j4AR5_BZ7klCYqQ"
+    "photos": [
+      {
+        "height": 253,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfAaO2hrANjUX-VKhdMkdkDTPuk9cFvfD88u_krXZYt8V9OsIDr8jhFUOchCHtOPzksZADgaC5nTxIJYUCY05JWLtoOsWAESp9Qxh3MnK3tIUeCc_KUMtq_nttPvc9SWGmlzlaDHTBVYKhwoQ4eBf5tx5lNuW0cb9XNZAkGm6khCSn1I-XvbeuTE5TAfx_dOMwPOu0Y1JEUQ3lyg_T8hAfxUe0Ya9bmDSbDsWgUmKpkPOzsr7P7GT7Ccryq-UYi1gTeNSqITQ5DApuZThG3Up_Ra4jhE7MQ2FxZ13ifCqh_lZVFNcLCFX4c40EkXcMBIRCILfejXCLmhbaGuglUg7A3lHV4JzJRsVGeWa0e95Hj7bCihYC8mXOE13sajRX5C09wTAOduc1ilNli5bjrZln8IfQ",
+        "width": 452
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLd6WHRRvMbDIv2fysjvylW3hIqAWcrJ8S8bRwzoRtlw20pqVX3YPykP_o0M1XiUx6lXCznTf8mfQd_QcCYh4SU7BqXOs2zVTv0_FG-kb1Mzmx8R3L2GXQ9Ri1fQOWdn_6-gDqudP3Y1Onq16-sfKiJXStrfsMFMhtR1_qBSk3b236fVSF0dEZK6GEVkjAoiIHibuTaXEL9OQ0z-9V3J1BOBLZhraptwAf7SEujJwtgqcdBOllYiF6AW4ZcQrgeCwlDB8wyMVBUpCEVQOPwRTbceab5n4B_5BpsL2dld9oByiEgw30Riw2bO_Jgkv6drPi6kSobqHQAwuCCIgmhXs78yEzJw1vWsRiKfl9FkdCwcPNhZsAyBCNDjhI-vrqWdiEc5WP6e35RNLdA9goBWYckCziQ",
+        "width": 1081
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdkjw43NFqWvk2t6_sBWNufmW3S0z7-zm0phyoM5eadkUwKtW3KdXHomkIcU1wFxfh32zryU_NHM_n-SfJOtrYe_2KnBMCdZMkDkoLwdYFZYA-7Kt1KDtSMdfh9ZW4jwVTlOScOAoLpdD832lvbl3dpx8BR1JUhED7fdD_dWx3E2d5iDLlVpLrjCS-m-fibEI_htPKJ-DmY2aj5xweTeddF1qmPuU1jed7Lozcbajay3M-XeC-3VEMSkx629DnkuAtACh8Aci6oko3b52OpMRG_dbR-b5tq6-sdVPGNgQeWn0-FU4S4d9lAayrGOexJBWlQ2eL6_7lXZlgMguK5Swh_vOaGS2zlKM-2daB6LWMyOheeLm_EA1gfxiUykQfio7ybUr-I3GcA2ytXWeZQsFwCdE0",
+        "width": 1081
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLchwajzaDpyRUcpWPp_37GyZoqlXphZ1nvoYItUpT_Fmw4OTOrcLLciJYoo5qshIPNJD1CnYsufGgvVQU0t0tB1hHYaNhU58soCIsp8pefdMn2S3j_IP35V_Mw6kS3jtJAbf1ugakLbyh9_AQbtcQVOczeOo-xobrpHeW4V5M6ZVOotDLouZPV2V1Q5QnM8UuHO8t3USyQIgF1KvvYn20HpMoLPJni7chLuNTpabPfpzmwKKZtg23qv6wBi_hRnWjm8p8TT3Lb0ANzWlt378rkU3PIJ2XV0tt9LJynLho6c8kzv8Wa_9qx74JBEXJfsDBUfaArNeB8f0rcKO9TwTxiqK8tjBeFmDTpUe-ZGjVCVjgx5IE02Lq2eYQYT1RLsANqPIc1PPzQNhc-eMXQGmE5TLnk",
+        "width": 1081
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104103731626225911186\">Mr. Duncan</a>"
+        ],
+        "photo_reference": "AV-0GLdw_yJXI4G2rHd0Mqhyq_2jWoRW9xzRnRXblQoWlbG65A-MjdTgcPpi-12emDgEA0-TOrTkxPoHC_NlneIG1anMH0CJ6jYszQ7Wging_k3F3ATZepMbXs6xxJO9j9L34BlMDQjwFKSAEkkKJNaq1YdxEMAzaxHIkfDaPTGxaxNBEBmrl_CUG8qIl-xJs82IuWmCRzWhLPo7U0pNEb2Zlf11MUEkv75knW10GoihTVadF0BDcM4Wv3AYP8yfSNcU3HN6-eKYtWzIlZnjW8wz0qnF3rQykQNa4RtU7UfCRSmRrQw2GBoO1oh7WJWhYWX13vBRBIMqmB1cuJ-LDeJhoVl8A64-O-gygV8nN9cnLhcJOBUc4tdKl1XbkcgVVyRyd0ceOYVrboHXX69d9mLN8RQ2quc8",
+        "width": 4160
+      },
+      {
+        "height": 1081,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdoKzu2y40gV8o0PM7VrjKESBMj6r0A77xnO5wyiBQX9qTGXqE7246u3d07VuodAwvBjDFzag6QaCcRxW7SoToPsvctunEjAA380CDIE5QYvOXDSxfaRbf4CMxRS2Bsg9n9jZolIsnO7dE7Mc0WM5VYM8LYFVAAt7oP6oOc2SkNWKWN9mKpwH9ufGiaY3oClHdyTt1RAdJ76bhfr8mCMJgx_I8HaWMNFyTN3dMfjseqzUrGScwOowTap-r2TrfWH_yIC1wdct_wM9x8M3k9o58JjGdmYr84qI-n8WoSU3ZOVfpVDwE512VtOlvM2o6Galk7Vke0Y5XKuJE55tQDKMTdYSgtOPRxdXth9cdhwVqZLYjZubh9U55wCYLJpJ4QptqliG-dZDjbx4AztvR4Fh0XTsz1d-M",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112765671259078382915\">Mohammad Hammad</a>"
+        ],
+        "photo_reference": "AV-0GLekQE6TDQHXuGuLA-DbIVIpONT916gbZOqBUWURWiu4intDaY9S41DiB48kLRHCh_wLm9Yd7RKREKZUyLdVPa9vyryhNpt0oU3KIZY9OAR0kOLs94rdpRoG3ZYAunxhfbPhjPV01U1CKEDrHNzWwTmP8xKSsnIW5_nZY78lpfCZFjRD_GOTtswc10YiBQYjFRBzdpx8eyo0zD_BhC07o_IuQulIKpmdIlc8gYQEwq7Tx2UOph8SnjsvxD2lH7cPY9CPeSWsPNjBiKjpABK9EV2S_13YBbziPM5qezEj0tkuGjNGr-3h6FB0YeztpHbBOOZzVbLUBduvek3cxJEabqCvFHw6sXOO-X1FoZwAfAvIvBcHXS0L-_80LaxJmQ2bEufzbdHzB1KhRN5KLWPC-NbKSFmH71s",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112765671259078382915\">Mohammad Hammad</a>"
+        ],
+        "photo_reference": "AV-0GLfZgnKSYRGmMyyxCA9tEweBLxCBCOtQHWUtFSwrvYPO4gWggW4hgwfjF5XA36gULsyrKNa3JsESeCEDRqZOZUkX7rBy7E3hzXzKu4WYf5XkEz7FZrMfBKCgJRQi5ijfci4lHezpdcJOwhrBC3MnhgVbH-iMfiMovpVuzq1pRzQPjbsRsCh6WcPtQc06UjlnUe1WF0AzYRgT0JoUxmB_vfgUClj2TTarB_CVnypt_IDZoMc-zSnaGxH_qjuMgHiKmQ3yND7kVh31HCpEodhW4vLkT9OU_uTe8gn_gvWAyeV9Z8nTjtIBUs1D1NjLqm5J0GBQB1ICGJO8PVXueTH8cNsMNaDmo37a1K4eEg9u0tmC2Wd1gdi54F_Q9JXIbgO_ypvGuXeejfujeQVcL-MiGRUBX3E",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114464324600272832901\">RAW Smoke Shop</a>"
+        ],
+        "photo_reference": "AV-0GLeBmBiUfCfpjf9FwjO-cLqOFQAzvRbHfBEZbsYig3VekxgLNUZ6aR1BhP1kAaYuGDcXW-Utjxd3h_yd6LQqwHj6nxyE2n3WMTlw46O7QMjcP2QL4IFRhD-m5B0N9FLN9KdcOQFnTO0gN0LtXQL588v9dDC760Lyce8SifkRdW9ency6AD4KqVvb9d8EiV9cW2hv3SA811MVOFKqgkCsdT8fkZgh6WN9ExEqjUujOTsnr_FBhSxkooQYjFmiltCwwJHhd5IhztPXXxUAOmJIEQhfK04DjAyp9Fzf82DepDN_sOrXcgeqhdxZSuKKeMlJrh82f0eHwl5dz3ZWdZ6tQXNkJUpTYlOHo-h4SYUSph8QNJLpmMdxC1iCm49HYXu-1f0ZQPnVCysKbrAehO-UrdalP6o",
+        "width": 1081
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112765671259078382915\">Mohammad Hammad</a>"
+        ],
+        "photo_reference": "AV-0GLd5nVmoeJH7G_mmpH5q8aYpRLOUYE4f9amOJpAk0tfZgbG_LWX4YQx-KYVb5TZOy0OEPKFjDv0bciCgKGkVjA7eFNvFWF1NtFm9SiQR0ZBaeZbioA8n4qDLX5aoRR8hOX4yTJpsID68vSb7giNOVmtl00xf80QjM2v7oM7mxVpnKaLguAAX1DYrilRVqjmR_-YgylZbaQNgJBA1weEL4qUCQQ8jGnvHN25W6GVs5nabHkI76L8b38frDBPASbFnEnXkhccaNtxHIV55bA_UOfXExuqOqrxw1t40eV5X0pjhTsE7y4c8rsHIkG-JfFwSjpwQFRlS2qTf24m1t0iMqVvxcE0SSDXg99xM4QHbDkTImrSA3pM0A46OEDD1_KbtwpOD7m3qQkKDkZby24NWJPboj4o",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJCRYGl_W7j4AR5_BZ7klCYqQ",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11845102855236743399",
+    "vicinity": "265 California Ave, Palo Alto"
   }
 }
