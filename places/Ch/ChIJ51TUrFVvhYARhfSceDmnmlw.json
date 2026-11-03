@@ -1,38 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:29Z",
+  "fetched_at": "2026-11-03T03:39:56Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Yaya Nkisi Apothecary & Healing Lounge",
   "place_id": "ChIJ51TUrFVvhYARhfSceDmnmlw",
   "result": {
-    "formatted_address": "523 First Street, Benicia, CA",
-    "formatted_phone_number": "(818) 795-3022",
+    "address_components": [
+      {
+        "long_name": "523",
+        "short_name": "523",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "First Street",
+        "short_name": "First St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Benicia",
+        "short_name": "Benicia",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94510",
+        "short_name": "94510",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "523 First St, Benicia, CA 94510, USA",
+    "formatted_phone_number": "(818) 222-3333",
     "geometry": {
       "location": {
         "lat": 38.0486831,
         "lng": -122.1596315
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.0499941302915,
+          "lng": -122.1581988197085
+        },
+        "southwest": {
+          "lat": 38.0472961697085,
+          "lng": -122.1608967802915
+        }
       }
     },
     "name": "Yaya Nkisi Apothecary & Healing Lounge",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: 9:00 \u2013 17:00",
-        "Tuesday: 9:00 \u2013 17:00",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 17:00",
-        "Saturday: Closed",
-        "Sunday: Closed"
-      ]
-    },
-    "place_id": "ChIJ51TUrFVvhYARhfSceDmnmlw"
+    "photos": [
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLcZj1hDxdJeyjYBiaDRmVD-7uZgwovt4JYZ7CHXmOcvDn7NF8rnwKzxuE3uPUYfoaQI0JbLkmJnJUgz9YqZJkeqVxVl14JQ_fygmNXbUXF6Za4I3yGulDFl9L_2V_3fQhZgnndKWuR0sCN--HNt1c1TYKrQaKUoWIAPRafWhCqLEa-_25Lg3_r9K4rsRbXFp9nFELMgzdPmsLN6rDMEh_40hvmmkbtdLy-peVG0rnJoeMHiD2vCIbO2_SUpACah511Q_KmIP4Wb9ggPlWMl0wG2ZLGxYNsKoeWermQtAEJ8JBZCX3c3bq3OwyWGF1zDRgCgo3_EyXxcmr_wLiCXXeWngkZA7c42N2G2_bwLoQRMzhLPk8yTfNyZD3PUHfRPBYYhdEaGssvHafqOGajlVNws_w_a",
+        "width": 1242
+      },
+      {
+        "height": 3858,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLcWjHZc3gqB-l0XL5snPb3iefOiTNqZJWUkWzztqof6nUIyc-IM-pSNlhrW8vUK1IquErY2EB30z_dlVM9ied3I_9BFHEbDKaJZY-1UMamALydojpJfdXXlm-JJAESga8e5Fq1FkVm5IFAkgay8mtBGq5Z1eWRY9_PM4gKL9GZq5Uef7mWvWYMDf1ZcO2VZCFi5QlBb1K_TFO-JM_P8D_T84EfsktGXhFogDzfe0a2fQsxibR8EXgUzMvoEY8Ps9oJj87DhTrFWUu9wUltL3M3u15ZSsI4VP2TvRvm21vJbT68Q43jxWTlmbTj6kuoWJg3GZDG8PYrZuP91ZH5DrEkJHN17wPcW7ArV34imSMX_QbovfSRAkWSLfDdnVf5yyFYEZOv3FcXfbtjTt6M1NNsbyv0YQZE",
+        "width": 2894
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLff34DXLUuJLrQMAtn0c61_DZWA7QlkSM1oA3fjYm9ImwZzA3rpLjon9VkeqorZzA0merR2soMbdUNS2L_M02tt4M469ZzapGgsm56PBMMlb0Q-0YplrME3ljOpKDphQflJwL2ogB59iA11Km1p8UXSFWMiKLLKoT-fD7gvZfD6erHAk8Lp9gsaJzYK71ceUypUxDlC2Ene8wYp0aptyWDTc9xlsdgDAioGYOKAK3PZ9tAQhqiYq1GIxvoce4yFDx83ScJj4ob9txtk-TtJZCU8Bjx_svKLQT5iOG6KL2T0CrQETR54B6aJ5xH5sAXoLTKsRJb22KhAFQ-9JCFrgMHShzSDz2UM-LeCSTtHYdHt55rg2WAx8zDDnvnCE4gg7ObZm0W9Ci_LAh0K_lIIvnzgo1_hYXM",
+        "width": 3024
+      },
+      {
+        "height": 1595,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLd7BwMPOxoy1QcnCMVxYHVRq-XxH--OkCjGunmQWgUD2BnZ5uCz1cgbsZN5ci8gLsLgCFI-CJUiGGCRKHhyMGQ9v07YT3lH9VwNUAI4RfpO_H5joStaZ3p6tfd_WZRQpbJ6sTiZsK1lFEW4uDevemnEhnkBCV-Y_156Nn3wDkFi9vxf3WU85nfva5qO18-xHRObfx7lRwIeeaZpmXc3hYqp0tWfeUHakJ6Nt9SCZk1cy7gTgKkkh2mvmlu2Z6Q_iivoFBHWtteIJgIpE1Vol8XU0P2rvWW7NSV4uPboZ86Wc9lC8i8OHgEycrerJTOuha2IyKokhyFu38ZUwli6O6Rvaz9e3xmEq5HErKkPeieM055MrzuYChY6tflF-Np0_rW5ItWaHo_C9I_PF_Wb3nOOj2Y",
+        "width": 889
+      },
+      {
+        "height": 1053,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLe-WOqmbW51StKnQhHNrj4LWVubSZB9O5z9h6tOOtYDZ3ouuzaLX4C9SmDlEdCPYWWg4RvakNv0c28stkcODd3JIhVLfqZz1HDMfWyHKH92tKrp7PH2pKphBdUQfSsojbmUMiws8L22_n665OUIuM3uUbFo6wdWJBZk0WVwFEvdR9S3HgM97AFZtftKb62rcRZFkZwGqtjPuFbTdf5ZynWy_E5XZWVZZ77_KmABtwzeKwMIk1NSiS5FmD2v_-0Y40RGTVpbm0e6QhQKuqlkAYPmlxqjNsSah8gJmpMF13yyqkWRV7dWevG5V1qJDXP_1_ESerOoElnU6ZC9eh2N0du6FljANofTAKw6luuRcI3UWzezJ_Ssfm1Zahf9hIX7xlmkGoC6oXKws5MdwoVLM2p9t5TW0Dw",
+        "width": 1280
+      },
+      {
+        "height": 1180,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLfbhdIf6c23ilFarQcmWqUY22RvGiGcC_KSEruvEvv4oFtqH4MgFkl_H4hFw9DAfXTQ99lRT7o9FQJBeLy40sXbqV9KCY_My3kXXOowusV6f7YyaVclut5y0rs4YLUTnE4HX8jFu9TA1Dbu_f1HuBAJ5xvbfeU5yd-wh8URR5HC5i8VOsLVRxVTIYzRfmeXWakOLO6NpNsRVPddMfZxWK8GnPaznfDvtSct0w3j038a6k6F5HznBa8vBsQ7M1LUUBGVmVdbF6u8ea-tD9bO3ADXZqnbLAnud6hmrwPSQOZHzEyUBqP5596mfSCj1pQvqCHUSGnS7p7SWHi3sm_Xtzx2Q66eGa-ArvNz9Y-nLHQncJy04jgz8-kAte9IDSCcaPMMVJNEMXHcnVXi75C9lO-vwsxL",
+        "width": 1242
+      },
+      {
+        "height": 1929,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdWiHqKx54_MZiyAZ6URCJeMXl-XM5FikTIOB-z-agM5haeJmLamtiNnrqyPysdlhiV5-z8DIIMIjAzT5Pxf9iU3nzU3nKnCpL5P9c0jJmM7q3CVzyAMdFaX1gY_JZTJNTfAU3wHGPL04BT-pNiU-7gd1vZ5wJ9uOKZi_v_85mGclpLU_e_dukLdu9fACRQifGqI8xnH1xHEsKpK0GUw9iFE2T2lR88Ne6zjNp4Bj5PGdU11Pdo1n1TUJVYj9GvB8I7nT3vQ8jF00x_7ljXcwSJLkIlaDUJ4ZoYjn5Hj-Qeyx9N2atxReVZosh2e_WpdXKLbnAx6s-qNiRLMGKScWQrCmDK5F6lhLafgGShPaAzXIFHNoLg5wrMCyqtzA3mF4ftsE6TDDH8Ua05CrKl5qO5AsE",
+        "width": 1447
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdgiFKfVceXem8Y2J8u_VN5R3L0mc2jxuIlzNOy1aiRyYReTJb7XAAZS_EWNSgplnWszdxVcVnAO-KtMPSTpF5I5QI4szTrnWb-k_SlbzsAFwIDk8A5L1_O4hHvM9px0OCYBZHQHERa5GGvA0r5BKRBsfvYGB3rrygExt6zMYhLYY-OVXdRBghnO6c3I_9A-PVZdzDqdMtNppu_isbjIjwyONk2C2gE7pfGnJ0TXFCzp1RtioI7RBhy6dgMbFS4pBj2HQefR9RV3p2b2I0pG7YC8p7HqSrL0JCgJuSctFK8SpljGreQXgfn6KwAilwX7f4YYB4CpnRXcnSPx3QCIegQ9BXCGzvOD6E5j7a3cCeQvOQyCHQDWpqIVvWS1CQrKm0LrZgXTiRHio7W8m8R0zmG9nk",
+        "width": 1242
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLd5PW-1PbvklXdfi6EAMsKb7Qkt9M3iW5_uZGQODOtPuPwzBcS-aRCj1s59j7wE3Pt3LklmolfU3xeRbm9Dh3kBQ3cTGLxyIxaEspGOFVaHdJAlwH6na90Btm0ElWL8hNeqc2qSbPVY0zSLQiBkzqqpSOPMwweXY_jLa9aFqbr1KVr1XDJIe-Ppmw9qzsvB8Ida_xpvlLM3ktEj3ptzsq-l8qjegmreO_g_Nf9FJ9MUIWZpfyXKs0Mip1xr4t3Tikdz_F9tD89I-jzmReERvZqz-h5V36p0T6EqATJ9nHAJyux5vwVX2N0bVWsDEUHDmZaBbJb6CXWSoUn6fuF6bQ7o_s4YafPvgnpHyDTYjIaFWvna0sRbxmwGVia8o4a7jji_URtJ7MH2PXqd5llpl_dnhw",
+        "width": 1242
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237386819442786901\">Yaya Nkisi Apothecary &amp; Healing Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLfOnm9sk50J-xXJMqW6xMjRgNVmvGvYPlUv339FmjLLxnbdjUa2wQUpnbyQDAVccMIihmncrnvGCS5Xnn7aLWppThlS2bvqHzsdOGrDrSBU4cvcHyFFaIeymbUbk8r_3kupMWOU9sIVOhmM0XjiVlPyCbBl57qHq8VFxspzSLCxHEmndo3jQjxJ8oAwWLV0iZXfNBR557-5TVVstYZR50VgnphygYsGuOHvvrQ_vWRvCFPZYUacdFgIYyUeI3VgwFXKEYEIUQJIuMWyX5xGb--ZwSnVLMsNgbl6we66nQppc3BF0zRyBW0e9eCHd7BRBSPlIZmuXK3n65LSaez9P8vPezK8vrsGIJy0MVdE8senyD36LQpVWBNAbjb92iM2Fe9xJLw_PlqlsCIWC7Y9qjhY5Q",
+        "width": 1242
+      }
+    ],
+    "place_id": "ChIJ51TUrFVvhYARhfSceDmnmlw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6672829663181337733",
+    "vicinity": "523 First St, Benicia"
   }
 }
