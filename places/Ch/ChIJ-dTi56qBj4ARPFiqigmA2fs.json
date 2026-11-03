@@ -1,40 +1,187 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:17Z",
+  "fetched_at": "2026-11-03T03:39:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Herbal Alchemist",
   "place_id": "ChIJ-dTi56qBj4ARPFiqigmA2fs",
   "result": {
-    "formatted_address": "977 Broadway, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "977",
+        "short_name": "977",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Oakland",
+        "short_name": "Downtown Oakland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94607",
+        "short_name": "94607",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "977 Broadway, Oakland, CA 94607, USA",
     "formatted_phone_number": "(510) 788-0023",
     "geometry": {
       "location": {
         "lat": 37.8015944,
         "lng": -122.2732482
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8028619302915,
+          "lng": -122.2717981697085
+        },
+        "southwest": {
+          "lat": 37.8001639697085,
+          "lng": -122.2744961302915
+        }
       }
     },
     "name": "The Herbal Alchemist",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100684572924018359022\">David Cielo</a>"
+        ],
+        "photo_reference": "AV-0GLcH1a9pv88_7zgniOxy_QwOQLhWuspR2pg8Pe0CcIJVf7jKU6H3EZEKkHR8DQ1BwHc0ZkOqhciMqE-KCfVkYCqwqBNwwcPTldW3V0U0prsU1H0iMfKcDl1VVc4T97KQSn1B9ndvLwYN5mRlOTKqIOnbxYHTfVteYY5vgjrs7XVU3GHuFABTJFo_Perd0Zl_Us0daaEeUjrwREdDBObH7w8_zjVAxaVNTh1-p_501bFWfDzbZ65ttd4oEQIJGnTSejoXWjMUAAxlO3DQtbz2MadUPE90GY-xG2g0ibhRnSJYJni2GwpBheexqBIIbWj_icRkboVNny74ivX0hP7JxRh31ZGAjeAZ9yimmZEYRBDw8JTF4FoD70-FvrSlvo0d7dpkbZSAJi8QQZXJCJttLjCWY7I",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105147054363758023856\">Grace Fernandez Tang</a>"
+        ],
+        "photo_reference": "AV-0GLf-eZwy12GijxVqrHyK2xGBjJtj-n7pt6bSBJBCfXF8ilxt3ntR07HzjdCdeSvBZ2LUZhxa5rhcWgingGY_RqQvASwi5gGq3GdFMuNE14YaQguFwJnJH9wWLclCj69YBbZ3SLXKfcgUP2xfRkBjCle_EPvvVJ4e-qhcs4pQLpIxEO7udehgLkDWtaWR2O-B4PnZZvWwO8UGRMzS0UzrnZsXswxm6MFGI8uW-pB04SUuv6Q1VUZf3biiXOVfwKKvqXLB4rA5fToHPwyIJeYdtFi_a3pmXBhMSxpozlktBndlOCbafNHA6-C1GelzCXk_gbd2_KxBDUxRD-AIa5LhDR45hltA2EZKOTjmYF_0xza4HCbGUyQLUax_pNs6Zdx5enmRfoMdZy6CphMabgrWE4S8mcg",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ-dTi56qBj4ARPFiqigmA2fs",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=18147676951935604796",
+    "vicinity": "977 Broadway, Oakland",
     "website": "http://theherbalalchemist.co/"
   }
 }
