@@ -1,40 +1,204 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:45Z",
+  "fetched_at": "2026-11-03T03:40:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Hail Mary Barber and Apothecary",
   "place_id": "ChIJHf_atbhRhIAR_gpHjqL55WE",
   "result": {
-    "formatted_address": "1225 Main Street, St. Helena, CA",
+    "address_components": [
+      {
+        "long_name": "1225",
+        "short_name": "1225",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "St. Helena",
+        "short_name": "St Helena",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Napa County",
+        "short_name": "Napa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94574",
+        "short_name": "94574",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1225 Main St, St Helena, CA 94574, USA",
     "formatted_phone_number": "(425) 260-2463",
     "geometry": {
       "location": {
         "lat": 38.5039902,
         "lng": -122.4685838
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5054215302915,
+          "lng": -122.4671600197085
+        },
+        "southwest": {
+          "lat": 38.5027235697085,
+          "lng": -122.4698579802915
+        }
       }
     },
     "name": "Hail Mary Barber and Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Wednesday: Closed",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117414099913186282657\">Hail Mary Barber and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdG792P5lLzQCYIYNEzOf1McAQKxPuvii3avSNMVA1t06eXr2k3DP3zPgEwgbWt4rZDmBNhZv5J4He12XJF8tGP15oD5EPpRQ9HoMeVVW_69pDrJNP5BVVdZXpbk8Kf818fE2gRLONFIFdUIIMgQeERNVaFusdaIArb-uAeCjnACSiEIn9LkZKer-7jSNSDLd9JXNtqJG5jLtJgQXBCnKTiKJIz4uuci0FrUws9plxjpYgTpkVLo8xW-HAs1AZCcxZY9XldxhtLJV2yVwKLXRJzdqaUQZZ-y0n68rGgV7NEP7N0at8vI35fwHT3AFeeiL3gEVEGjHQhW05d5TJvgeqDYpHxyU-kjWnalhCr2zOgFBPsnMnvrsDcBqOdfdQzwGERgKKQqC4t8KFzh5WUjT8fYoc",
+        "width": 3024
+      },
+      {
+        "height": 2301,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113387336936305185631\">Marvin Humphrey</a>"
+        ],
+        "photo_reference": "AV-0GLc4k1s_lhL9f21q0o4z5jKVmxVzvtFCbBea9LlYITXc8VK1I7EF6Z8MPzUQiBbDJZqDmrjAUSKMIYKX62AZQSPXH86-Ak5Gj39mfsg-fBN8VZLR4VlUkcKy53jdJNRDcb0cqX1dZYUYoVO38TzyzCneVJ5rcZwQJd9lLO_QWa5_NP_5lG2t6U3lbpa_oRjkKLLn_PKyTFxp6k8gfOCJx90KfdXo1NR-V5ixs_14l9RNv5aV1UTNWikUoPweDGfagx9AswQW56A9i_WFueFuc6qDzdkNwshK1gHiFQMNzhDiBDzLSuq5B8843i8kVNOewycOUogPP83bNj_pExkrtx-ejQP6NNrnpqYjPq2YVgevZ9e7MAnqdpX8QnA529lnlAGfZhv49_nSzazn-NbNFbEu5w",
+        "width": 3688
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113387336936305185631\">Marvin Humphrey</a>"
+        ],
+        "photo_reference": "AV-0GLceE8NdtSzfv0HVU7X1LJRlNltWV4i4-fJdMt59-dhdMDTTt0XyWTVTRo2dxCd0Esx6kFPuHVxdF9gu06Tvvh_2c1CWalaHIySUr-C7rMv6axRX7xsbMrFkycEKYxc2gfhh0NPLTxqmNbfRPYzrhJ-sbIedLkSdC_NLWKWshPitno1YKRvrjUSxQoaOgaQ03NHHxslINM-WUEHgNVmgjWXVpLnPv1DMpuFxhZ0gJMLMMnO6S_y524uVi5ZYo-gwgjMgo11NJeKlgmcEI9TtZcpA1T4SnSitfpB-wh7LKjHD2h5rR1ipHLPKqmlj5GcU45IslX2StM-9Os1luXg9u_zaEDl6FkT-f06__cXrtsnLf1Y2o1hEb95bQ1YZ3MI7V1H-kxUkKTQQD_jUf5Es9fdAiks",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117414099913186282657\">Hail Mary Barber and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcZFCBXTnA134OuWlpDK_0FT47G3iVdAgitQYFGWvU3h7g0D4Vy5DJC0Jldvy1ycLLRtMVT33GL5aHO0-c9ar_EePl9K5pMq0Eo_7vRtM36gV2roM8i3KFVEL8WkMqforj-WAb8pEp1uFBrv6brK0A-QWGl9GDSEjh4oZIAThFg3g1le-D-OQ2MN39cZoFXuv7FQWOqyaVfJ7Ec8mn5iaggrAajNbc9sVHjxUCqdPh4GeJiDAwboEIU25G2vddePnIcVdsvRFUUHqNvPQBCFDRaCd1B3KW0tjUjb_mmUv2UR1m0lKl-IQ35KG-Shm-Bns14BGc6YHLkuaDpHCXS1JLuO9ZxMX1lMG62S-Q0E-Vv3OFWOByviQDfscmOfiFDCgC8L63Av3ScwBLvqRdI2TbWXRIo",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113387336936305185631\">Marvin Humphrey</a>"
+        ],
+        "photo_reference": "AV-0GLdXKjco1jW_WldZNTxcabbjUAz5TCGtBYnttY4UKXljb4pJpxlo0EZGbb6WV_twuLhzAIkgu4s77FhIiqkxksLOYGe7kn44FUP9caZhls3CZTOeMI4LMecCMTH52xYgeF2Zzjhb6ZBN4ea4AeyTHDQuOC-6ziecks_Srw3BlUAUpXBmKmanhxtWSRYMMSY4FXyx-Rp82U_b5EMtqYccSt-_lnIsmOE9baHNznEtfvZfW4zP0VGYguHvKCwdfDo0prHO064lhyBsS0TK1xRc7TPB1KIx73S1yUEqeMC6faacpXfNYNylciwMxa28YrmfZQ1c1axlxq5aLK7pMzrjhsRu93_D_ihPYeYQCKtOd7nL2mLqZPXEhKdd7fJlzIu9XRpIp079FYp1sYmKgHQW8BeOKESuARA",
+        "width": 3309
+      }
+    ],
     "place_id": "ChIJHf_atbhRhIAR_gpHjqL55WE",
+    "types": [
+      "establishment",
+      "hair_care",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7054318867912788734",
+    "vicinity": "1225 Main St, St Helena",
     "website": "http://hailmarybarber.com/"
   }
 }
