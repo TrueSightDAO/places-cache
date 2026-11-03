@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:50Z",
+  "fetched_at": "2026-11-03T03:40:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Life",
   "place_id": "ChIJKaSmiaaAhYARxLzGTqRCanI",
   "result": {
-    "formatted_address": "604A Haight Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "604A",
+        "short_name": "604A",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Haight Street",
+        "short_name": "Haight St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lower Haight",
+        "short_name": "Lower Haight",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94117",
+        "short_name": "94117",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3305",
+        "short_name": "3305",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "604A Haight St, San Francisco, CA 94117, USA",
     "formatted_phone_number": "(415) 252-9312",
     "geometry": {
       "location": {
         "lat": 37.7720333,
         "lng": -122.4324297
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7732991302915,
+          "lng": -122.4310658697085
+        },
+        "southwest": {
+          "lat": 37.77060116970851,
+          "lng": -122.4337638302915
+        }
       }
     },
     "name": "Life",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1830"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:30 \u2013 18:30",
-        "Wednesday: 11:30 \u2013 18:30",
-        "Thursday: 11:30 \u2013 18:30",
-        "Friday: 11:30 \u2013 18:30",
-        "Saturday: 11:30 \u2013 18:30",
-        "Sunday: 11:00 \u2013 18:00"
+        "Tuesday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104641095422852249098\">Matt B</a>"
+        ],
+        "photo_reference": "AV-0GLc3-eTdLWLqo-Yfyd6mY8dCgw2Lg1OKo8oyYAH-01Zv6kJxe4LkdulSKxJIFH1I_MBT_8GwP_YuPqtkMkaeIt4cXxWErJbtAqB7LKfPOpazo1l0kJRFPTzulTdjnblXtJOkxCN4D1btQKCA7TDVg-zig4nQAdAa4cvClEu9tRtD7XZUcfZMw_RhgGT17ri8dCILlcg-ja61_wnIuRN65Y5BHEIEo2tMpoqgJOcX7uUSI5lrLgl0Cbisyzv5vu6ll3UYqyRZX6wXJgGu1QyofU6ZxpDoRL3h7OVtwc2WExYjglVhKsuYdhGz956nZLOYogUH-Lx61020loe8mABja3aCIb30cIl9vWtD5S1qvenjSKCEfUWhY4C3KVzRBnYdhK1M8ub7ZG7RMOrZKun3oZ7SF6g",
+        "width": 3024
+      },
+      {
+        "height": 2447,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113083612225126166888\">Life</a>"
+        ],
+        "photo_reference": "AV-0GLexU368OW2Nxi3OyMm-sHwAKJbr4EzGY_wm3fLUYIUGNQiq11dNyHAUc32OU6ldVUmpBOYcf6pAcfR7wXKK9MGKGUvqLyEMrzHGejEY-vIOvpTsmJhj8YSeGhZeDol-L6ZQ23f73Xbi8Q5OLiJuhtJFBK8FYbAArHGMprgo9ZNn9CjB3Mq4P8HIt3oeO0UK-4KWJp7Yv9wblIxk90hZSf1jiykml7Fs-lgAmwmY768OqwOVTbhw278qfSYQUWoMEDEMCX6pBRw-6_LfunWEdJz5XBiyF7hdjUnmRF5bMgJWa2W3IfGc8gjDrYcIC12AzDbflO3VMn43ZN9RpyY2T-if5r7D1Ln1SBbEIa7a5k7KCjmqeJRw00MPSNpdbRNoTHfACT1e4I1G6qavd9zyuxt7gpU",
+        "width": 2447
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107065609311746059573\">ALEX C</a>"
+        ],
+        "photo_reference": "AV-0GLeCO8bFC5S79Ic4x8FDhfH0dOvw0t328KYfUjXPeUGAD0out08qRY8d3KbZA1cuL2Mo-3zua4AdTEDjtrxxK6ZSjNR3uqFVhD0ijdqGvSD98i-hbownpLnH9BjWY8Ec5uUFuuvmjJjCPmOvyrrLFy-g3hMMAtjLKtFRdmL4iAMkuWArPDfM-6PVtEq_uLKyc_cD_d_UODXqv3nHV_WgiBOk7ZzcvVsb4unmks0Fc5YzzlWYxOBYHUSoFNvTa-W8cZ4r1Z3pNkA84cYGKfPM1lVccjAjUGCdC_ZrpI9IjnjmYTWhWy8l1eTKLWlcTdZK6pgUVz3zfmxYXxREFsGykhGIdK9J4kQ68oVoGebHFlcwabMvjfwJZgdCiKBG1S0tgssCEN7sBRWsvQhtSfAUPcUGx6I",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117097421879993119090\">Chris Eyo</a>"
+        ],
+        "photo_reference": "AV-0GLeg6xw4D0GtjxLgwxQSiWFkEeRSPc3p9wb7WNg_LgmCn6ufzRF3L4FDFYxJ6SqAauiMkSJ_dMSY_N2hOB9qeRuiPVM7r5P0ri-RqeVAVSpAXlWWse8CiSLKZTwJuGtO4KKbU7r0P_g0yJjcQ3x7c_oZ47rZapZuUpGWkaRAF6oZTI_1YGg-LaRW1R7GO1PrZO7UG1bkWxTu_I-3vkxcfkNuCkcoocEZjXM0bkiy7hFd3no39PKRWxI_NU8qYwLSbqk3ZHEGPSobfcfgOOCReHd738-kqRSSDzla4Gh-O18TbyvXiX5G3SQCFqXwhioK_zU-qHroybkpsHSzSjaSGvAJEunXlq2mNjBybZmy62TXvtU6456yuKBO_HthNc_1VslvYWvCP0ynt06vaoLR_wF8toK0mOb6v5JWFxajxljZUg",
+        "width": 3600
+      },
+      {
+        "height": 3096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114721033015344387148\">tracy watson</a>"
+        ],
+        "photo_reference": "AV-0GLdwFqb3JMmussvqOdsYYAq4Z2nxuaa0Kdg0SKQPV19f1-qkURxAE8m0AGxIYZfDH1xJ6Ev7oxdoU_PyKJvsnBp90C0u8W4u0oJm3qdqJlM1jCym9SV3Fz9Svr6j948dK8dNgcPG_OAKTv1Lis2lDYKntwGJJlLwQbUPPoGsRo4QehxT8-NT_VQNkOdCqcXFOUO5yFv_RBefA8UvOoP3L7AtCwp6t7Ghh6wuGtlOHscM6juMuUtcsUaSoHeSBRYmTE7QZcaIcMh7C2kG4-hQrE7cSprm3KFrDgv1DB4Tb5LNq0ctw_rk066bS78wQX6gc_sqMZ1WzT2nQv0C6Vnuo0_oefUmA_2jkWSYcNJrHOm2h8Slq-g1cgaIEZIhSqWY3vj9m7yQon17B3n6zJx6RSp9Gew2",
+        "width": 4128
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113083612225126166888\">Life</a>"
+        ],
+        "photo_reference": "AV-0GLeMWEFmah-Lhh0vZa2lCf5lTf7QETn6yiPCEEZkcFWGxbKxTZJ0LAAyJiEIJ4Qn3Ee7y6vqesAY3NrmTDdX5R23FveUK96jQUlV5YSqJcYBsoX1p04MioiXyue5Y1DcvNi0JfHaoYODXoZUL-e1qu3RXKoJuQ31NBAFTjMHvg1UKfJBJjgHYZRzkVI5SagS4jLMaFuWetbVt_Tin7WlR9A7oiVbm5llH_dsYZO9_cAxhSe1ptp7_DXEYXg4QCjgxGZcdD1Eg_26_X9YIi2WTJA9hjMmsyru8rJAVjeCzHoSoXDduIRDLcLbSCWC2qJJPz-CYGoN-92_Cd3IG6t330acx_ql4KyJy-DL8Eqb6OsXO1QmwZyS6qr_BGGhdCnilkD51T5cVvKY4d-Gw-m_jr8REPI",
+        "width": 1363
+      },
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114721033015344387148\">tracy watson</a>"
+        ],
+        "photo_reference": "AV-0GLfAFSjM0uEBg8YQsIyvo32uPHrdgaDNUvn4oWUvYwIFJaLTWpybJNZixjWWRm92URFyq_ST7_aa9O1zOzqz3z1cG2HC4ZbsGbx_yU_nwePyr9u-I-RuouUHydhWT8TITFF3dWWnTfWuLovLdlfi4I51WBD9IitHE_eWLb5TweiMEEEq4Bwxqy3mqqx1oEe0WnbveHyTAWT8vT1bajN4wRE06aKvN3c7B-FhhmpIkT-FH7uBiawkkKoQIm6mUNwQuX-8JJWavxgduyuJkQhB_FxmZCVUfE99xxipbfxkBTgvEcXHE3M-NWeOvjLiD5MKzU_opNxPw23j1-EYzwztXW7oxMTyiN1cxSaEGY_Er12c1JZJNaRiCn5NrOHunShsO7L0E2Hd0uGkFRu2WP_s7wVqisY",
+        "width": 3096
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117097421879993119090\">Chris Eyo</a>"
+        ],
+        "photo_reference": "AV-0GLdwMsC_IYhs0UjfoGSK_xi-AojBMq54uebWE6oYPZaHUOCzAYKMTWUYm44tMqI8uiRiJs5Z4yYcE0sE39H2YvWlinsxyegjPsWZaksVYqShVyjU4gmViisC4ASZIgUhgxTI68yxYaV5puIdOhJOn7e0dUXFtNhqZ2Rwy1YRC0RhZJPuf5JRYB4qSSEw_j0iznasbt5me4kv5UG9cYUrlxgFHfjcCrkD1ShUCZsXUpq18h-A4rWN2CqWAWt59dWLcLgC_VP6TPvPZi2PJmTE6FFwjIc8Hxob06wVUSrxg-fw1e4U6cmDHDZFdjzmNRqWdaFnSeMPH5v2p_1Jz0ndS7bVq1z1egOX2TC0dL9uaVDbXF7Vl5QKZy9FDMa6uip-u2eQMTUntIlkwq4KxbB9_SV_5_m-zOQ0DYFxgJdrTsugPw",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107065609311746059573\">ALEX C</a>"
+        ],
+        "photo_reference": "AV-0GLeqIs7WaW2sbNVazTPZCVil5Wx_sTVPsZvTD51ed4QsBW-iBuk2nfh8BY1G-eXRtwqkTkj47N2RSm0Ap2PZJF_Wnzo7AD_LWbFQbp7QbHwKiXhyveKsujUweJOadZc1VQqW9FfQhsnxlxD7k-7Wihurx8oLhbgEh37rfTsekWuAMIYSwVgPe-e_jldmEg6kCQsIIj_YTQvZ7ZTVnFOmOYu8udSFLNQl3nKieHcD7A03lwyFlhb0MxS9wjgRRqwkqLABUeKX_9nDEfeCzWgimv0Bgy1ZEY7u6xiaj42hBmGg43JWjTSzE04vT_04piVeW9-3_OtSAdYaiDTms4Ji0wPq0XXk6wgreclvBNFcrQAWqUpWLIGygXyWiPh4bHomoXVH41kP-9lo-mQwp50T9zP4Y2Oe",
+        "width": 3024
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113083612225126166888\">Life</a>"
+        ],
+        "photo_reference": "AV-0GLfV5vY3nu8znzTC_KrciA_qmlHeNyYzuow_95dkj2HLeFwntxi2uz0F_ZyGEKS8VHViMftba02n7ZgQwzEWqS9ThsLur05dBUcsxVzUS8c-GeVWMuuOXqJUrUqC5azul1tYg_XdNkRcrKbi3hE23ld-nlYcxqY3PGFtbGoVsld-cUoNLjkZpiVHR7j_9j4Wnsc606mWP5pjLiFJTiLZ9upG2MhNJ7E-ct4ryKxdhTL8tSMfneQ7PvDFRQMpWIBwzKjjlFMmB-LqNXRObwxO_V4kYB2HXnAcTHhTvg9KJb6ZsYwdEwQ-Ya8J6fpba5h50lTYyQHO7r4ZosH_nTe_8NyCT97aOK5ZCD5jtgNW575vi1ZLcl0HB9PmLfE6bxFKUhqiNCOdbG3EKBWCRqkcy73trik",
+        "width": 1000
+      }
+    ],
     "place_id": "ChIJKaSmiaaAhYARxLzGTqRCanI",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8244475341318831300",
+    "vicinity": "604A Haight St, San Francisco",
     "website": "http://lifesanfrancisco.com/"
   }
 }
