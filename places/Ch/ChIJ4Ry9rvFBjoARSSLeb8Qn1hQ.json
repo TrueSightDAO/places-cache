@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:28Z",
+  "fetched_at": "2026-11-03T03:39:53Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Adorn Apothecary",
   "place_id": "ChIJ4Ry9rvFBjoARSSLeb8Qn1hQ",
   "result": {
-    "formatted_address": "3000 Valencia Avenue, Aptos, CA",
+    "address_components": [
+      {
+        "long_name": "Cabin #15",
+        "short_name": "Cabin #15",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3233",
+        "short_name": "3233",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Valencia Avenue",
+        "short_name": "Valencia Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Aptos",
+        "short_name": "Aptos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95003",
+        "short_name": "95003",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3233 Valencia Ave Cabin #15, Aptos, CA 95003, USA",
     "formatted_phone_number": "(831) 295-9304",
     "geometry": {
       "location": {
-        "lat": 36.9764092,
-        "lng": -121.8865165
+        "lat": 36.9771958,
+        "lng": -121.8865278
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9785128302915,
+          "lng": -121.8851022697085
+        },
+        "southwest": {
+          "lat": 36.9758148697085,
+          "lng": -121.8878002302915
+        }
       }
     },
     "name": "Adorn Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1015"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1015"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "1015"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1930"
+          },
+          "open": {
+            "day": 6,
+            "time": "1015"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 18:30",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Wednesday: 10:15\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 10:15\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 10:15\u202fAM\u2009\u2013\u20097:30\u202fPM",
+        "Saturday: 10:15\u202fAM\u2009\u2013\u20097:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1351,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd91ybDSVMN2wjFvzN8dF0tX90aCGRkFrwukm6Wtga3wJy7V0ugoc3ZdQal1hs5ayueyXb54Zy-_xAgNw2cUdtIQwDu28zMkyvU-mm--9P_oZl-7DymGOF_A68KsRfFDqilIlFsQaQeVUnKD0DoZ9dExAPCADyQmrqHbEYrziVAbKxJp0mFz1QJtfqQ3CcKzey9vP-2fz4pAdpzQAE6FeButgEFpGKNxjQfnj2u2_31iisnyrIM-2owJ4FM1ZVRlnybDIqOrKuZ8gDAVHsUs7LuozZKlpPfhrGGGxGFG3F5CJsKIPJI0paovFBxY_ugb02L-ti5qOmykpvSWa3hUq8jX9vWfWRB8vqB90Un9HyAsjDIwF2F1Qf-IWdY_XXfpTXQobtQfu1QDphjYLg8iQZ30LQRwbk",
+        "width": 2400
+      },
+      {
+        "height": 745,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117899833536124875663\">Michelle Kelly</a>"
+        ],
+        "photo_reference": "AV-0GLcnJs5BrmY2Z3GbdZpm1FhDpTcyoRsVuaF4kU7R5Knnq4bb1k3qJtvOkeoPcUiYt9V1fP5Wra17EFzYpXPdxWNqFtZqqX7GPpARvuclWtofYZ-iKyPUm-1hPXrhw_4_s0Q6PH4EazQANjn3p1YLa_nOO-bAIGzcAAVVi3LbuAdtKV2YVXRx30j218y_D4XdWHZ_KhPsS1K8z_LUf7RIdW43448mG8Y_epIiJ_H0Etq5Uo6ffj-tUAJOQqBve-hg_DY1jkT77SbShaDbMnmDmVmEMHEmG5jyUbFND7StnuckDCgYrlKzqTFMs5CEpuIr99-sLT1gSrWsiAvBHBtC_5uuSUQtZ9hjarQ_Ks4LdSPO2wD2TPPYxpYOIYoB1-o6fhH0gjS3DFuPoYV9kl6FSKPnLPJH7jm_VKlD9P-0MnoWjA",
+        "width": 1170
+      },
+      {
+        "height": 1351,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcz5a48CeReY--sWo4lkWZx6WCsEW_08tNkT4twTwO6oBNewz2md3X4NRDgaaTljvOdVS0trQa7eR1hSYOhpzq2SW8p_omQUMY3Dd0kN7T5jrDEOEZxJ-Eo9e8I_6xlI-8vahCyr-qmvRp7L-p1Kf0fLi4ImgWIXXpiQHw1p35V4QCDWLs0pnigYzH8eW56MkdkOsM1zzDlx8LijFwazBbLtmzsMdZKJj7NwGgxInNsK5PyQ3adebpfdaQoEnkX_3Zp8kQwYpBJJ5rnBimrnfPYwkH8le4kFbLZ3_kjm1i5fhKI8c65XX2CcR6-ht0If0XZHudW9s8zuftpMqWHmopatGUJGbINTyUMT9iw45byk6CAwEB8lsFhuuphrbhXevJuhC44dsYkFohH9RcISooe2J8",
+        "width": 2400
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLepSqfTCKuMyFxwx1Ff7mGOnrrb9bz0hgpYNyc5WqRBNTsEHgzKUE8FrTw0mkgId2LMaYfuAPmF9Tnf7okgto_posOssoPybaZLtfOCy1rA-68jPNs5K7YS5x6UT5KOvTngDLWusaso8RhcB85GsfuGej4NCDLKQK15-g4vITS0NQWw08RMkNRZhoZgSsRYOlcrKhVUrFCjmIY4K6EZHvYGVXZm9-qh5tCa9Enqsv_aWzIp3anHMMr0G9NZx6vq8rOx6OAKHdVQVr89ofTFD6UN1rJZdnB4dPztYHyEJtBE4Mc0Vp9G4lpk0baCQrE7cOq2oKbCJtohtYP61D8FPqjBUpEM-A9ibGT_GIqNXkXbQGabIuIMMvZVduT7vIkF0M90dBNXEojLNgGt7GUCVKG3ug",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLczbqtUkG-IdopFk0rvCT6SErkEFMgRv_X_o_PJAL7Lxt4hjXWwIrnMKNgIcNCQ7l0bwndF1ytzNKVjckB4KeaJ7So3Ib0X26m9wYvSYfsyqM1TPI0XWa-UTfAcSwqBycU8-Ox4LyFPQgpDQ3ujiaJIE1GyBHYbY61IqNjgvK9BfZHlorfVZpkRgFFwN5pHRkUcdmpQoHp81gD02eAvzIxNS3kfaednL1ltngQaeOFU7MyQspDCGZObm72U421DlYlcOwxZfEsyfIuFDp5U8sT9xU6GysrhYUScK492ctIqvvuJBx7gPXdHmRQ_wa7RnNQHCIombHqsuD9GMoZfpKV3D4y8XqqlRYkAycY5hY-6QSm1knnuyOKM9hdx9lgoUNnuDpzpq93Oncwfw9REOsE-aJc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfxXNL7apOeItrIn8JxHNqTTHO_Om7gpPVj3dhSe9rq--BwryBLqL9NMK3mbxqTaPFcecf7TP902mk1e8rfSoil6D1gTjwHvWX14MidmrwYpROMzJkw-UPyp6sO-1JFbXiMkBdgBCGeOdVTyPZQBn6YrCEC_Jj_TnY266_zEF8pYxE91sYfaA4XGBPrlI1TWPsxW6qAn1rGH--uYyRY-7xrnLGn8ORigzuRc4B08cnxT9E8sn-I8LLWMzdD7roAAPQaMyuKmnE5LnCMgZJMrHQfFznjltna0yuEIQcdJKZd5O3qJXfCqfvkiOC0NpLXQiQZrWnD_Wfw4UF2WRfceWMy9lubgzX13u0EJqcabtsh4BzZgoel7jw3fM1PiAOk-VDEqtjVyuzrrufLEqVrkR8bcGxLLOc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfJ-aKCqhoTyGR5wNX15jdsp1T6NNZioOf7uTNIdcDNb1QoUgGrPpzQRFoyZ3hDpnr6XEsMrtz-N3gp90wTjZ4Ogu7zUa2yZYEpKykXycrz1x7RBmMlLDU7vxeCoEWiQm8W9Rp0N4ZtEbvfHTZMe6S_IKpAzscA-vps02N4tBIU21iZ1slo5nuF00yeUypom3SKRGwU3HGw4JQB3dbQlUDujRSDh19jDaDRd6ziWq67dJ752y6B4oXWiKRHgE2XLTU0nm9E1m97wyu4RSS3f5neuzGd65u7FyT7dc0H9pjJB57cZC0iZ8_6m1IBjlym6MIiFuF9M9njxS2H2-H2Hu7a4kKtalKgKaXtczGvgf9HSfcfNyDyB6k9QIIwWIVpqc_UOUJim4r6BX_o3tc6ya22JyAD3xU",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfMctEw-fYrQqdkqS8cznqV-O6peeqPDv-tnOQoTXK6LfghxLqYehkB7pukuF2TPimyd4Bb0KBBfmdBOD6YgNgGqx2iP1RWvKwW0jcPnV4EIEeR2K6vbUzePD4wcT7ngy7oZ5x-tIwnx-VztrtJMDONRX9UZd3h_QhLWvrtKijajSKgLHcQumP9ve2vLVqR91MSqWO2gpDj68IORUc06slU4jU4__yDa1bV-mnIuvhsqB0Ro0lDv9vJcUWd-kpZOONIuyeHwqOWFU8xfJtLtjTQdHuTvTOgLAZ2Y7JaZwarapqF97HgDxocpaJOlK_xC8Zjk7akmGQjTxZtMR3kgiwejn84b9Zb3TqhKyqjUmczKTMBcdLUxJpC74ZnRImz1cXXGuGyZ8_7tp8Z2qIiNZXcEjo",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeS05-fmpwm4ybGEOWWW7wHVx-8Ni2uvIehKTLwwZONGuOXUaKjMpl0TQv18Zhe7TTBNjayrWlXgl1aq_DkLU9-uSrZKKVrae-DiLy-taQrlAnrIUr1CYWFxxBsI6eiNIZhO7KJTFoSC-SwvUQ4saF5Zb8rc9vjx0iFFfJ6gydyYto6p9y6_oTuZI062k6FIoKNjwJqcu_53qquqmusYouI5EgaQ9iGLHjMVI2c1b1uMpGVBDxwtYXAtDGQzoF6Ur0DHr-ZLejRRShAbENxHAtCalfHTrg_IYPooFMY2VABj_Mi78x5GrFgHOvo7U0syihVYNB1kx64ETH59L7kB-J7FhJKvSb0kowkspzSe_-4npKAeI5VEKgyiuJfyWcfZv9mLeOP-zwdGadepYC63V_Y7jUqAwY",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118050183901080436769\">Adorn Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdsybLBU8t6-wcGapuNy77R6y9ZOnDvx47GGDks4dpioAOKsmgwaML5bC1z7jxc8QnhQa_4N6IAyPhXvjyNndG9NuOKG4b5OIjG_Uv9rHalwMqTWrGbSk_o8UvQJt3djkJbKX33ZazQHMNDkmBtIh1gfn7VUrh65xKj060YYROFv-K4n3h6dbg0-1wbZO-5BjaNRWKHAG-QR-DMNQWQgyYlzBL9IDWUAEKvjpK86V0BWdcB90vN_FmO3DR6vMfXOJ3uGMPg-CzDs1mIScBZvGvOWq4hqDdd0OGNEeP70qHHULW0aQmPF9Oe8xOLpE5VFT0qQuswUnun8Y8znWGkxsVBYvbhEY1a-TJEUjRB4YF8T9LThbUfFZvsmdVK5W3lVnUznuN4heyNm5mpEXz8Nw_icUM",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ4Ry9rvFBjoARSSLeb8Qn1hQ",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=1501431250418541129",
+    "vicinity": "3233 Valencia Ave Cabin #15, Aptos",
     "website": "https://adornapothecary.com/"
   }
 }
