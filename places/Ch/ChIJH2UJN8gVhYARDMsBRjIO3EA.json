@@ -1,40 +1,260 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:44Z",
+  "fetched_at": "2026-11-03T03:40:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "TBE Herbs - Total Body Enhancement Herbs",
   "place_id": "ChIJH2UJN8gVhYARDMsBRjIO3EA",
   "result": {
-    "formatted_address": "4455 Central Way, Fairfield, CA",
+    "address_components": [
+      {
+        "long_name": "Suite C",
+        "short_name": "Ste C",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "4455",
+        "short_name": "4455",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Central Way",
+        "short_name": "Central Way",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fairfield",
+        "short_name": "Fairfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94534",
+        "short_name": "94534",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4455 Central Way Ste C, Fairfield, CA 94534, USA",
     "formatted_phone_number": "(707) 759-4791",
     "geometry": {
       "location": {
         "lat": 38.220626,
         "lng": -122.128213
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.2218765802915,
+          "lng": -122.1269550697085
+        },
+        "southwest": {
+          "lat": 38.2191786197085,
+          "lng": -122.1296530302915
+        }
       }
     },
     "name": "TBE Herbs - Total Body Enhancement Herbs",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeVQ538wNH6tfLidA0XJ-kRw3GSglr76KkEdNqTbVTjp2910e9rJZvBPzsi3yCkpVvUvMR2GgGOerL_tPCiB_ug9CD9uwu9BGvITqrO1mhWdLs6J9W7qZhLERoshQSjDkEkIq4lRQ87tr9TqzdXox9cYyV3uk6-gViahC5dtrMl2GpEKDCmPIRsqPOrhiEiEXJ6PXVl6xFwZLhvy5Xc_0tuwp1NtmxcNBsyCcWjT0xCapiWsSBQzMCuyg4GXZrgM7EBdPj33slvsmlNeWYcp2GUS8hqhNxDGO9qREbU546eGg_dJaFeoXQucTz6bj1aFNDwr1gLoz1QkWh9EpXXWy8wIZIILYug1P7aUEMzijNFc6R2zBPk5W9NpExTh4VYb91pSYrwlu1lxHfqX8b0SMmVoCiz",
+        "width": 3024
+      },
+      {
+        "height": 900,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLfM8ffr-VEWa7OeIApz0Hr0RFanaX7sFrHJhmqRwmfuwmR6UgZb5ZvV0NLRiX5My1-f5sQ5hPW1D1UiKBeMutLhNCgHx3ycMGn3k0yw0dqJ0A3NodQ5vF-rpuiRU4AAtZ1FKtuOWz6WbXREoCNOyk-isDzqun9YsgQ5R6Aa_6qz-tGOmXn_vQa_euCFhXe3qGYNfk1HqJ6J5LF6DL8mlCHXAYuihlPXPZI8Cj9QsdMIcBvexGSico__mhyRJ2q0KxjoCjUy9nscJq-WC6r0W0GyjfE82qAHK11pQkWHBl1_uYhbYl5AimOX7LfPkBMuhYPXNTJgEalyTS4yFOV7v3a6s7F6cSpOOnU2xQ8urwqvvBmY1L4F3IXXHVAv6jSc5ZFd8cFj6b44mQJxZ0DFskWUsMd_aqw",
+        "width": 1600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeIPuYbrch1_KOjV29hh__xlnSR_KkQt__59rrQbUcFbMkDMgs-QCNCtN7nVrxpE-RfPskhlpRNJgpzqMzKLZzCLFoOA1BjSpW85qjWAZeoRe9i9RMNW6Bo_yif2lRGi3Ev05Le59mvZCECN01vVzHcft4i0bvwSuevyW77HdAw-JIhSdggldFHkpj1ysePuOyvtC1j6XwfH_S9IYbDb8YesvoSctkX8J7rqbzEIjd_grVw2BD5ODHaIh8lJ1HSxM8BrZYbOj_Wl6zytHX4G4S3rWH991eRlIvX0KPD9IFR5QRGs5NDPBcKl9MA8ZwWyDylYG_gE7eRB8zFY2dz7UbGx8dbuHi87d13l6XYAn8EcS9fozqiInRUnOKnQlXFcv077M138yEBPVNs_c9OqQ8ap1jmeWk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLe5PCDsupiUk5gS67Y-JaUQ_os4r_5sd3FEw5_5aepJx8eek77PnSGziQmjdfduI-DoG9UizcKuBJJgv0uDqTNfa8DJI89P_BQmtb14Myg9evYIuDa2TIiFNn-2pRJh64IQg0BBKGPDwR0sP3tL6nyLjm5Zo7f7-cw7LwfEoztUw6v4o4tbQ3uHFfuzSRIkQtRr6G6_sfzZC_dLp1Re3JvRo81h7fQyaRoLayu4hO-PqIaePiz5L-PYKBbszAZ6zZ7ahif0viJGMajrqdTo85tM7OK5DUB19wt7RAF-NaGtWW2aqri8OhcL_1NQYfDZdEzXs3rPZhPsTFfX_88BPeqMgxgmX6D_rR5cnFVMt_x19m6fVYHGs6j4xH-bXToGmZEvtyNdz4aGaD41HvdS_l8aNgk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLd8BG93YvJajZEbSl8eFMOcbi9Fs2aUPafgk3xs0CaLR8E9ui1B9NAvRakSEeVLUh7rbuX4fa4zM72raCx8k_6itWfgBD6Wi8I2UJ4u1OkUc1BEWotBkpRy5mQXpSqkOFEZGYeTk0NKMq4ThITjrm1ymu_SMgNTb3ypbmEXlWshS_BWt0scyU9Dp7OKi41WWAbnHK-lFzWJKg4zTnmkZnMyvYW5LpUUh6mCnXMMMTjWzsu1vj-qYzrfcC1NLsmAYLp31v1MANcGgkjACyeXdGTlw9p2gNfRcjvZXNQ-LTMVhYCAIJ_Dx_VOXp32SycincJ80QwhJmPBo0-BdXpKwfusCLWBnTWvZwzXkqOYaWP_NenTh-R7zNtP60Y3nf0SEIE5qe87_5r2x2QwrS9VMkLx1zsoxqM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116070448045541170091\">Deanna Ibasan</a>"
+        ],
+        "photo_reference": "AV-0GLeFwAC6Y3cTIlTmDBkg2pKPYAkrxi2gm2bfPPdICaktPYtkbIphuo31WrkBwf-RcoSksVvA89FSnQCzYXML0QLEsFw17PymtOo7TIsI338AUkvDL_X6_V-CtxZZLyLGuovJSKtbzI0RdSVws3jG8or5ZMpD8mOPg5r2NyYx2ojHJn6tRoBaLUb9MxBNDtz4cQNN1sLaboC3UxaUU-AvCPQeSpLtpMnDSKGRHQ-UJ-s0LQyGp47CjWJkGDeUjEmj_J36oZ-520st9NP8BnDtpPpE_HeusiZcjMHoeUDuaNQuoEntPKkd8u0D0dYvxO5hpBvPkS7G4C9OjMnJz5G_Awo7Uqun907kClI9cv4luqLrwTpmWx4C7I1_eZeitZfyrZAVhp2T-ZvpzOt5rf0uaEpa-t4",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdluiItxR8otxHA4l6_0e1SNP5IxtSYqdLRyFh2BSLdoHjtYuT_ZZIFT1bURjcRlJDkPEmIZxM0OQ5luSJlDVf04mbgaVuHs0axKR8We45D4h27DqX5hMxte8ja_uBDLCVZLkVOdDZMOtVjhuPAK1hCt0XCKgrUolBwhGNOANuZ2jCekurIwg3KmvnSgbD9wivloGRYCC1aX7s2uE1_elp9bMm3Rk8bNwtjg_7l-ucMweHTGmWSahTWQ70jmJtoBTYcIEK23K-3AmI1ru_Gb_PpmAIYvu3k4rAsnNfWHfWaG9356qmwA81HJaC84t59zvb2aHwU2Dh8hjGdd8q6k_EXPmtTI4EOeiHOIqHDKDp8fQ5ScfMEnRsHSl8FwwM0J4rjGRpEYh_bceO-VS990H9RWz0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLfzkc7OUmXfk8HjxC_z3s6bRUL45LIYO2YYt3vojQR8eGH2hhKBGc4_9hQS3Ytaqm8J4MHEPc0vO7Yp-1Cmx1QZ3w0Ak4Nc3RQ_Ey87PRksKBvXnjqcPp3IIloxqQgru0Dlpq8z1I-SHOMM41SHi0uF9BMkuvJfBdQJc0F30rrlYG5VpcKwWx0OdCDwT2FteUR-rtU34mgkEBu3-LHGSdkfCWcyJf_PuhkNWEqJwA0o7_REtz6ybSq0X1Wz7FfII3_jQwTFJqATLka0_m1M-GuNd6gvQYt8z566_LQiYoe_l46ZWUOPTe-XBc7s4rwFlfywXamjG0rBZlbQY6LeBa2pGh5gXadHSuFFlwpERwg28p5RgNWfXexvlx_-5SOiK6UEMn9slh8MXc0c9GbQa7wW0Zp4AKE",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeIU3pIPZGsjxyS0PL7z8oSW9j4iFBZUH1SESZjLHY803iJPIHNNZbHKWyTfS8sKt7duDeq0RPzK-Y4JkTrCPPWnlrdRhI5-c0omVt4phJg06_jfPw_Uw-DbBTrIqgweF-zlJHvqATHRKGTck6HCfkbKQCuWYwbS0w5We8FHx4oAZkbDSvlItm9oj_PX2ncO7_Bo0jM6EQ-QXFSxzqwgZTjritdyWY4GwFh1O8Kqd3CIolriBhZOXEE_-M5hiDrwcZsC4iXAC7d2C8JA8Iaje52SaZdVl1oqmzLByY9V4yIWcoKmq1VAkAMzGUBOg85WXSlOXrhdtFhDtG1ngnGrh6maxgsnlc5sLyJ9kkwMy-1FpFpkZyLwugNhEjPALqSoeYgxaN3zZ-kAZXTSt3laDe1frg",
+        "width": 3024
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107452810587592433025\">TBE Herbs - Total Body Enhancement Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeKy8y3gFEkf0wAClOP0BBMIldN35KIlf7vBQtpicZ5rLbERevWydw_yYMIwfZd1XQ4ALRG25plWt12fj4gHC_BKDw6JruyXo_kI9r7BsosnE5vzkQrRUfGLo6yLfA6DhFkZgOsB1qeRF8HYYHt3Lfom78bMLARykfvFy1pgrawfzhtyxNGL9Mkcq2MSE8DtIQ2_nt0lN5dDeZOXamLSyRfUOSA2xZmyzcfhywScqEvHnoCDlKdlXICgDnlsRy92cGXzzJiCSVTfWgtB13xSmD_ovapCC5Hqe4bs21uFBTB1DPTYKDPifZuMFPWbEvWQPgt3i9guttFwIWBY2z_V2XxEb67lC57GHpKshXuEbVtJtSweDh9BnO2XgzF2kq1mWqUgr8-RjCZi23o8TWEDWLN7AwYlSU",
+        "width": 3840
+      }
+    ],
     "place_id": "ChIJH2UJN8gVhYARDMsBRjIO3EA",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4673626122389408524",
+    "vicinity": "4455 Central Way Ste C, Fairfield",
     "website": "https://tbeherbs.com/"
   }
 }
