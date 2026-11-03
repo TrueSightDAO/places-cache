@@ -1,38 +1,268 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:14Z",
+  "fetched_at": "2026-11-03T03:39:37Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Wan Hua Co",
   "place_id": "ChIJ-76mu_SAhYARzYW6QAM2X2I",
   "result": {
-    "formatted_address": "665 Jackson Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "665",
+        "short_name": "665",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Jackson Street",
+        "short_name": "Jackson St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Chinatown",
+        "short_name": "Chinatown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5009",
+        "short_name": "5009",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "665 Jackson St, San Francisco, CA 94133, USA",
     "formatted_phone_number": "(415) 398-5471",
     "geometry": {
       "location": {
-        "lat": 37.796013,
+        "lat": 37.79601299999999,
         "lng": -122.4061527
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7973703302915,
+          "lng": -122.4048445697085
+        },
+        "southwest": {
+          "lat": 37.7946723697085,
+          "lng": -122.4075425302915
+        }
       }
     },
     "name": "Wan Hua Co",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 17:30",
-        "Tuesday: 10:30 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:30",
-        "Thursday: 10:00 \u2013 17:30",
-        "Friday: 10:00 \u2013 17:30",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJ-76mu_SAhYARzYW6QAM2X2I"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104187402473242664473\">Litea</a>"
+        ],
+        "photo_reference": "AV-0GLe8YcVnzclW41PRfmvPoFbN8wXoB0ivarmzcAYp7bNauqeKeGdlKh8YeCAZIsKbDfkQTSdVosan8El6HTErSnskuTkNnVVpTC50xDD2LB2Dm4JvOimk3ff5vnkBfxg6sD9EkD0ctR-Jjw2fsr63D5TJbaN7Hw8UtCvVvjU84Pyr_9T489aB-CHl_KLj1rfbnqmTuhgx0vRPuVzZz9Bf4yQXcDfYUC_kVSSmoJTg0YtVz0k1_Jld56amMxNHgRyTFyjNOKmucm1OBdn5HSSoRByjJkc4qNFIUHtMdR8lR40X4XjOkr0nH1feW5nmrTOxrs9W_fzJlGixgkRtiTbh9sf2F2bsrUUFTGm8KGIjXgypeXg7WmFILgMb-s6rc10ffsal3JSVAnXhQlmYKmp6MZpFJQiZtm-LT38mJ0wXOrxkWw",
+        "width": 3024
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116705106741146240997\">Arthur</a>"
+        ],
+        "photo_reference": "AV-0GLfmd7agzpzlTur--s0_pWqp9WyyXKI4k2fecTGjpWaUdJ46nMYPsY2lPhs7NXwflRi49O1oCJ_s5eH1uZFIdRSa2SzVt_os6wqhcXFZhZ0p9FD3Q8ixbSsjv6vr-WbzjCWaz2D_BvJwEQjPTKAw0AITbnwTzPx14I2rvYRmKPgDq0yHuTCkEZvm7ToS59uSO_XUNG4rDHvP6e8mesTMMrgdbrNowurwzzxk7db8Yaoj7Mt4vPYFLbLv6-dKl-S4dMiIOdhgWdr0jtgoBYcvD2w-kSwYnUL-arSP-Mdo_JJQ7D7_FBtthPEpYnPAk1iVrNjt3I9f43arI_RzPKy44ho16dVm5vnJlRaOHROEkAWuslzGDUcY1oixbnfpGhBdlcpx9uehWIGz-Mar9tCwSROlT5Bj",
+        "width": 4800
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "AV-0GLelcymOM2mldOmPt2bqIlyjZmHN0CF_SIAMW9hojfFI66yueA6ANj4palJQ77BzNnF-xDheoEmTkdpYI-fL9GjZDK3P4YOuaMTe-IrrYGOZJWJ-p1uHKvNuKpvGWTQVpoaK8Xw3I4g8VncY64xpvxJrX7tPxWTl6BoHPIUiyNKkLxC3nXgCmJmuDQcSpmE5QPv034rIzI4Q0uc4lmzLflE47qIR83AxD1epyBf59IwPsgdOhZ41zTDKmY-kHwu9lEC9iNO6Sv8a1-D06ozGPXD9XQprGZOGPbSBP4mDKetoyRtDLLkTL1R8WTRWxyFCPW16SQxu13QAUYkBEcXjKHu3xNmjPmMYLvZrFktTqIwwlOTw6JvyuFa4f6EB75hFKimlajE-HtgOvpT8XTrX1fcSgdA",
+        "width": 4800
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "AV-0GLeDHM7duRjn3SOBVw1u5jJ1Ce9teeirYSWq7rKBOTBHpiXbW5W3HB65goDqOZwhDG3a2Fy3YBcub7ImdSKmEWfuZosaIxAqXNRsqkEaVI5LtkXJCp3z1Bmhg6PKVIba3aO3hJDVhJF67SIDc3-5L21x01W9wpDMS6FnfOX6NsFyKQoX41suEJex2MiuFZ2m6saqsSifQ80r1TTeE5qaLDfbK56-ZzSgKQZe7mfGnm5-WCtA6Tl5UfOuG7yb6z8P7cRnaMgi4UZpYTA5fmsEsbvC2hXD7V00rXJ8UqrORMPDIOJu2xVz0YAntMV4ucVJdTB7kKsQ99Zk7-hgaRMvYGgEDW6a0wNSP20zRkDAH50TIwdKKjWE2nJs6L-I1O7aiO7_4RmpAp3FaVi88tc_FE5dp2G0wL8",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108225472003240362545\">Richard Ung</a>"
+        ],
+        "photo_reference": "AV-0GLcJv-COEGcv6WyaRcGshaSd-eDa7b51CjOnP8jNUuFnvFhYap0Pd-WodU6dC_yI3SwMqU7TX0p4wiEISR5c6PmRmwtsyy-57XBJLWJ6Uk6CdeKdxFCH_8dJ2Yk1KBlgxUfD8Uzl9NdsWqC3OwIDrSmQoHX4YgYd9_B7qtENgM1qLpT-zQHrhtF3bov3gfEQ8agFccGis89MNaDbmCsVJMv5MEA4Qdm4TNGFJZWEf5eNdeLjuVidjFV4tks21RFCTIUY3WPwamCPRO83nMHZGL5JLdYHIwFVTWIOAnv5tjDYO_5k4NdxdQMVUrV2Wp0ljXFuPPMVCdIk-_Niig5thxmVFH79MbAX2R0FH9qOI9btU4u1t9xevu2qTpzRL_v4J5sz5GGVgIyWS_mX_gVlVE5ywVuZ_E0",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103351381600041576098\">Tony&#39;s Lists</a>"
+        ],
+        "photo_reference": "AV-0GLdoqFiIUN5cAmSj0cVlLkVTputgxG3BzFPSMasasQVQ5TOYef3uemMBDCK81boYiupjln43CGVsGxmPulo1AAIONVJHLLCoHoHnYsGlhcjqsGC96jf6mKNT54g65mKXZuLNnoLIwVlr0DAu6rqh-lihQnC_sQUNTFcMeFsHet-pov1lT-p822asInEeUYxEyERkOp9ajpn0P1H6ns1cagBZgPaV8YaBXg5ooc-GsSarFB6Y8zOxOlAhdLg-4eoqIlAgJobeDMWIuuTCoIHSqOdlptvIwkxwNDQ2zz9NZG3OTaR0D4kkUFAaTH0CB4ntMCuDvN7vQe_iFNYYaR2mr9sEDS_r7Hhs48SujaE1D5UNMTIWl0qwVFTNpZuwM38PUkPdjWMDMzRNwlGpIefLbdrRwHg",
+        "width": 4000
+      },
+      {
+        "height": 3464,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116162280728527985973\">Ton T</a>"
+        ],
+        "photo_reference": "AV-0GLclm1LLVmaI1PmLTIRrjodOXqbPEfjlI5h3OxOyxg86GmjHJdHZf5-08XYUyyXush4Dpb1UecBYxbOXJwtkjNakzU3k9wO9-Kxd6W-MVRrBwfvkkCG3bRHkMF_eGZDrbpQucmXc4erUpdWbyQuZclxJ-o7JV5LQF0Jt9qoIebHnCbe5Y1ldx_eKDpIs4C9eNF6JB7XE_cvpjWAEb6nxt9gP1p49ofrTEoWddP3BhjPpAdjTflrldYOdiINyyf4ZC5RlxIBDsbi-6cCksCmiwYE9QLiTX7_KdRZ9prii-PqyOUwXA97sYwC2_xRNLCPI6UYbzq_Cvr3hclKIn7GS54CPzwnum5P080Yl1C78psvfwQfM7eBPol8qdaQNwLnGhJD28JXo1C3Mqne69BmPhFsHV2Q",
+        "width": 2598
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111968482031089951962\">Jane</a>"
+        ],
+        "photo_reference": "AV-0GLfBRbtsc1zF6mGV8fPqE7Rrl3sQu7YsXL-e5GnAEarUrQ23q70vP4S4B-_JLpYfKAAhLJh_riQegMJpdGvnfCV0tj1kZ8x59wlTDb8gZJlJSrAlEJNuWLMbPFJW_0HttTY8Y1y1h6XN5MPc7Fkivb_xUa48w1g3zY2zEIANn-bsvqpv20-YEIznvicDj2OCC68pIhDHWZQ06oEo4bK3xjnjyznPDww2r7kfDVpwJ1Hquu-vs-geCk3iFvBYktSRHe-Yk-w1-KRMXALXJ0JrmcJU9KFo7acT2Ulw4jZuPqwvSyqV7cr3eAa7roOyVFLBlJasmPYmEb9b6LiXgkDZoeuHEvCGPi0E9IiZAgk2v4eSpMbYw_3k08RCZ2InFq5KX-zNJO6fDg3Z-K4jFMC94MHKHoVJTCs",
+        "width": 1920
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104187402473242664473\">Litea</a>"
+        ],
+        "photo_reference": "AV-0GLdkfORhICfQOkX7AGb6IsZxfJjFN-HQQf8RIxERCTcBcsKBQ0pV70C6CzTjM5J7N0ZNV365NDNKu0YdEpYiF_mD57vc-Zz8OUaGYh6UF6mrLEpul4rGoZ7vP3eSIywSxi3KzbKSuIY11BsMYhqhKSoRJ4ATzg-IDkGior-plQJ7AqyRnuQU0DCosTOsWU26VwfD83Cz-0TqhhKtW3sVJpyV9d-ix-D8TM_Vd8bDbuCUmp0gQFg6MyJiIDut_Es6ZlLEFfp20zcKQmh9zbuV3n0inAdLEkLUO3Z6NJKybe36T0QrBRft3Gkrf9FhU5xm_S5DE2SukegokUlWvcCMP_5NtxLPOT6X7HdtjxnQadg6GSopWj4etvbHFVm-Wex_RyK_XuWldS949_gY1GUDN_UuD6gz5Xwbuf1k5sYxIMRICw",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104580858930289469818\">Elsa C</a>"
+        ],
+        "photo_reference": "AV-0GLdk5GqlX1zXuPA3LWwCTxtmgNu3C-4Gua8QVEBzLJofwPDZp1qYqLvgUcrmP-ZKHhSWj11ihQepU0Gnw1TgVX8XMVXBLpx3sXrVzmOPCy3lPKZTo4F9MBbKyS10pSo29PiqSo6vPFZVnJKbyEUU8SZDh-5YNlIcbgkkrtAxy6xNIMb07AcmUq-WXLSkzHuS1d37IXSiW7z0qOBP4gvCf2zBsHSz6wVVSOogHzJG2HSjoHzG7bXhqfaf45YNYYQL1NDDqW4UWKu_QwjzVtJsgiPe2IpROnJYdh8yHWpjZj-x22as0tvJCjQpsVaohbitjLJCxnj1E5JeNgtnQ22VBzVbMx-pBhKRJbJ1IvB-I0kHE6Dbs8vJWZDIJAL7SqjGY5OlLozmXviQ4kJbdY_9KNtW_sNp",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJ-76mu_SAhYARzYW6QAM2X2I",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7088443726103217613",
+    "vicinity": "665 Jackson St, San Francisco"
   }
 }
