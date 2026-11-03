@@ -1,28 +1,156 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:18Z",
+  "fetched_at": "2026-11-03T03:39:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary by the Moon",
   "place_id": "ChIJ04ztRSg9hYARL8L2-N4NEf0",
   "result": {
-    "formatted_address": "685 White Oak Lane, Vacaville, CA",
+    "address_components": [
+      {
+        "long_name": "685",
+        "short_name": "685",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "White Oak Lane",
+        "short_name": "White Oak Ln",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vacaville",
+        "short_name": "Vacaville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Solano County",
+        "short_name": "Solano County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95687",
+        "short_name": "95687",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7117",
+        "short_name": "7117",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "685 White Oak Ln, Vacaville, CA 95687, USA",
     "formatted_phone_number": "(707) 416-9719",
     "geometry": {
       "location": {
         "lat": 38.3463426,
         "lng": -121.943778
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.3478028802915,
+          "lng": -121.9424345197085
+        },
+        "southwest": {
+          "lat": 38.3451049197085,
+          "lng": -121.9451324802915
+        }
       }
     },
     "name": "Apothecary by the Moon",
+    "photos": [
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104344471078938009267\">Christina Cushing</a>"
+        ],
+        "photo_reference": "AV-0GLd8-FJETlShFPJ7YWP9FwSUbFWEnPKFW-a-cgwPHizfDASV8wpfwOeEmmj0n_tkuTa6a3AwSiwM0xOYLLJnO2yPsK6AetSxDRYsrC28EavBiNAXEABEXCTQT4-HJOfMF0fMZG1NMvfFtZWOrvwsTBFVjS4XZTRzbRi9henSyHInnvqnjykw56hpR_Hr7M1e540D6AQlJuDEqWuAPmDHJDRhNa0uTECk-qGZN6R38wsSEX36SPWUQFi-PtMq844g2Mtp0-z7KU4zqG1_cmi5vBzSOUoDtfB84jDgQlsimH82WP5RZmiY4OknlkHLmMbZ1kAERdDJFZeHPw2Md4QMW5bJ4b_uwu0YCIP0fsXr0zEcnOI07kuUsnBtQVPYGDAkKQ9MKf0f7Ybt23_0ZI5bDfamHys",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104344471078938009267\">Christina Cushing</a>"
+        ],
+        "photo_reference": "AV-0GLcSHPQBWLiZ4N6xOU16o7-jAheHVQ3Xhc9BTkGVagupEpLfCvS7lFV97uTGPTFtGkq3h9BT-S-CWJu4W39O1Q16W6_1vb_379KVnmPLvkYzOeGM9ayMj0nr6_c2UqdCXzr5V7Du2wyT8H5BHA2XHvcmP4730PLYtmfet6utBTezVjW538O5BHoZ6Mz2eE6Yqs-5JPLoT7x3lRU7ZUGd5fdmPNZAmCOSANtQYDbJsZs6GBrlEykunxGhqa5-Mj2iQzH4oJKA3yuqPieqwl5Emx_EtIkkCR0KfxjatoYZTuEi22GL6YxvUmSSF5tj6sPVUqaUcdGjkzskF5Fslk1ARx0uOhmoI_LcT4p7o5uZ0qaZqIn3Owc5mffSDcoYsrMeQ1YblH66KzvxOpMbNAwhuVImNA",
+        "width": 3072
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104344471078938009267\">Christina Cushing</a>"
+        ],
+        "photo_reference": "AV-0GLc8JOzbCYN0DTjt6czgtmTmhAOtDfPVCtA7ihjY3NuMzL2Su_YaMYgt0dNIVz8ouWYmhdNOAJi6E2uiliZM4__N03xekDLDtjrjNYrUEKoqCg350iOQL1k6sbpmGjf_RJySf1g1h-qMMokPr8f4eD_zB6cwDPgXMfv1ybOzXBbnzgEi7-oRQ8uSI7by4JNLH8LF-nMy5RkZWgT3IJZJGFkCxpCGJyi_yGAj05ftnd2wZNuGffRdgSgHWdlCrtVCOEhAV1uCMxvSx0E9Qgsq6Yz69fXn4i03w03Wiy6nCwCJIK4e5i_5CVbywRNvLnoTr9zq4RIVS10bd-zQ0vKNZa_APdTvSpgdTU-RjxidhNQp1F9nhSPiQ4m2NBlV69ig6_wxyfaLkaBuuFH9heUnYQiLKg",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104344471078938009267\">Christina Cushing</a>"
+        ],
+        "photo_reference": "AV-0GLesnxiOTwSvDugf3N9qPZuWoiYeuN5j4LZs3LQJ03_d91boyxj1YZ-83OtG4C-kVB-KAoouQTBn0eK5DlxffjkysJt9OXfOgxl9gQcat55HkD8CS5Mn3FGpj6pBCd0odJOAzYYgTaDC2-vz6t_-k-CCmu-C7INZBWFNgqSmRlSZRDXoZn4lSFW2R3sUMDEJQFeQwxjncHciPfzz5KoarCv7R90bWJDr8kMwwWjXOjvMhPE3xhqp8SFTxYddwRfix4muRxkyoS0V1hK5DzqomOsPzM4MPd95O3nNhO2EEkpg-WYaSzt8pC7eiUJPIb5bp0_UClveCUKlpSVuTP2P5iIFVmH6K1i2kByBAFBNESuhYH3CWS6PzV4xrq9IBzdEOApzMzqisKC31zop_UTszAnDzw",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104344471078938009267\">Christina Cushing</a>"
+        ],
+        "photo_reference": "AV-0GLdEEauYah3SV2o2g8JmcUM0PS5j4_CwgBcYtauimRWjQto8lJgRoTcTx2Re70Ma7HE788x5qnqQ2ztYEAIh3oYJipsOpUCLKTOWm5H-pd3w_8XWb_kzQ3i4u3R76Nq-ED2rKKkpC6qy5jYw7-5fCJx0kmimo60uX3F_dl8_XvX68sZRTxB9W4DlO4HvoM1fI4RfSSfrF7e1zYRLFsa2s_wtvkA-wfQAx_h35jtCVklZwEkYe7pLa0Nq5eer7VrL0hlx9TMfh6t2MmXPr1ZslxpPtgXgEP_BxsmKifqKzivYU7zF0uE7N8LXOZtohlZj069LtoI91eGPiv5rYGwEr7cQiCVV6zGBTutqsO_DZYTBdoylcRUg0y6C9Pu9hPvNhQPQ1ZCod3aHiXfTRZUkNdN5FOXkQbM",
+        "width": 3072
+      }
+    ],
     "place_id": "ChIJ04ztRSg9hYARL8L2-N4NEf0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=18235371617510670895",
+    "vicinity": "685 White Oak Ln, Vacaville",
     "website": "http://www.apothecarybythemoon.com/"
   }
 }
