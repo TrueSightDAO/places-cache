@@ -1,40 +1,222 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:24Z",
+  "fetched_at": "2026-11-03T03:39:46Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Dax Lee's Part Deux",
   "place_id": "ChIJ3fu47jh_hYAR45KaNAnIavU",
   "result": {
-    "formatted_address": "421 40th Street, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "421",
+        "short_name": "421",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "40th Street",
+        "short_name": "40th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mosswood",
+        "short_name": "Mosswood",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94609",
+        "short_name": "94609",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "421 40th St, Oakland, CA 94609, USA",
     "formatted_phone_number": "(510) 454-8339",
     "geometry": {
       "location": {
         "lat": 37.8284149,
         "lng": -122.2607034
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8298052302915,
+          "lng": -122.2593449697085
+        },
+        "southwest": {
+          "lat": 37.8271072697085,
+          "lng": -122.2620429302915
+        }
       }
     },
     "name": "Dax Lee's Part Deux",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 18:00",
-        "Wednesday: 9:00 \u2013 18:00",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 16:30",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105536776571837853380\">Erik Karki</a>"
+        ],
+        "photo_reference": "AV-0GLc_gnf2tMNZyfffm2da2lgzdhRRqibCgWKGcH83Pvy488r77lQ9_Qrt4N0TTRAfzDQBuQd7ArZtFuH_se6hteCOBoM-Qi3oupPsstSjnha9PxgXoKTGsd74Xy-XKvrY-mhHwKo5YByJyTz5RI96aN2izFf_mcjBDAgwcqi2eZcDJLPtiN6ZftlCZkGMb8_PTrKxUTFan_YJu0rKiCNIKQy5aAYcQDAfpYTh0UUoojjTIdZ0ZYvss3wEpa-pMaQPGdB-sscdQcNZMKsQHXg0Z1ozLuks7yfT26RAOZuq-SVLZHp9mw71iMdIs8u_DI5vpfJPhm0n1Gefmfu8SfBh-cyFp8mSYS3_9nOd5qrnjWRtBorzEyiLPq8OW4t6m4r1UISrPlIuBhFEjJE7LTv8ETz_8s4v",
+        "width": 3024
+      },
+      {
+        "height": 1184,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116766040455867895625\">Dax Lee&#39;s Part Deux</a>"
+        ],
+        "photo_reference": "AV-0GLdgch7FzqsKBXx4pphHbYyBtTsnLrZJuB8SPjhUzHlEUo-BMYluuZvf4ZB3IXsICxpQIhidcmn8krFUS8KYvCBQ9k8034Tc2FunfJiLk_a1bZwVc_ZaIOwGrS-TTr5giB599sHPqorIFm74qlcoMm_vNLcvPCUzGqW085A84l3NF8sC8EpoCf1iOqKsw0WgpYlWSGtef08Nt2m6lowL8q-CAhyDy7zKUWBr0XHsipZ_rTag9k8cwqSRyBpdGRSBQ42U4kPmwGl9Ys6WxjEC-4jIubPkZ0NBe5xKKjHB3VLnB-BV1nQu8KBPH0AC1CX8myHNu9yyE3t57SG9EI2yGZOehKX0HD-jCLw0CYHgqjumtNkj--4lfyFETNMoJkDDivNLUnGcwT1BnQl7V4JioLhqcV2n",
+        "width": 1776
+      },
+      {
+        "height": 518,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLdT4PJvcq2r6eOV-sVdzFb2_B4UpySZBFv4GgsHNWOPocpctjX3EJzhgpCIG6pjKmQRkCs5s8fMVzLtvVxm8hxJHxeTEOLRqINKJYdQoAwwJKEOFdSv9SXKzG6O-MhFKgFBKm5IMpbmKfaVH6VzCVUxHhUa9BHzELeKdKqkJ65IPFL2Xf1-CxsRuYpgUoS-i_5ztjPJGRTFtSXefwBKUXDjU2lMc6ubN1t3aWkOKW-3g5i-bKs-GSsRebqnnomZvGBqz3Oty8HBjI9M3TEs_UjMFiwh17Wb-HScpci45EcUwWluGedkqezJrV--SYe_zE0yIQa33XDpbo_N7ZKpdDRXgOkQRaW3k9rSl10osl7_TvfoYme9Q0_X2nV_tiK4fiuLmx58j5xIzYpiuH9d2KQyz_m18ieTuptN2cD-xSlE9A",
+        "width": 693
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105536776571837853380\">Erik Karki</a>"
+        ],
+        "photo_reference": "AV-0GLc1RPzDnF2bcChRWiMQFAfnawi9OielAHDwAmj8ngU97tiYRMn5ECD7wITJ7AlFY_YvIoLbKQbwKp6ek_ZBtT8VMPOVD5Cjny_fPvFnD5mpaaV1kL0ZYpdpyhuYHNI5XBnU_iZgMg8byVb0xv35_6dNRMUWVMSAKtLi4RvQ0G_kfkc6BFGgfma1E8Bv0TyFSbYnjy5KIndkaJwsKe7-83v61mpogmjEywmftpgqLhybEanB2STZ0w_HDRJodIQRQyA2krcgsAoiH4gBWCZcieMI1edIF_efY-BDljYv5RwY1EYD3840xoL8NxCQPQdw8LYjmnB10JSpL-PS_lTZUIGxrGgYFTQH_ewvCJZwfI3mJzJsrm5bHbiHkMuTOvyJKumm5wyDIaxvca1UF28kozxRDIJU8Sg",
+        "width": 3024
+      },
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116766040455867895625\">Dax Lee&#39;s Part Deux</a>"
+        ],
+        "photo_reference": "AV-0GLeBzXCOCHrxlgxZygX4vtswSB1F8JbO0152UUv22dtC5r6xPSo6i4MJdpGAfF8W3cJGmV1ZQBvT3QkCQrtCPwCnk3ln7_PQN5VoyYhOINIsvsz2Q07RUMxWOn8QQU3M5xwRMUi5VoGfYXvPHJjXG-Vy0KQuhIClSAhDnWPWfg7EV5Si8Vn8fTIp89hefKMoYQrqh437q1sKnigUNElX8WKewtg5esdDVEFHnQLUV5gU1KpZg7BZcf4LN4CE_TsEw0v57a1PeztSRCj16RAcUDIlu0bFVuUgWKGNWXRFFJm6NEj-rr0bjkTY7G4K7jHIDe4FL5ioGSGrEaUGtfq7Rs7q8BECPC0ib7qaeMdtRa2CLqZu40mGpiHD2uYLehxpMA9V2lUqhKk_QgW7-RoHWIEeCRQ",
+        "width": 1440
+      }
+    ],
     "place_id": "ChIJ3fu47jh_hYAR45KaNAnIavU",
+    "types": [
+      "establishment",
+      "hair_care",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17684166828686480099",
+    "vicinity": "421 40th St, Oakland",
     "website": "http://www.daxlees.com/"
   }
 }
