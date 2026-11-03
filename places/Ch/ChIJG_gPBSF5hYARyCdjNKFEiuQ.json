@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:43Z",
+  "fetched_at": "2026-11-03T03:40:03Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Wan Fung Chinese Herb Shop",
   "place_id": "ChIJG_gPBSF5hYARyCdjNKFEiuQ",
   "result": {
-    "formatted_address": "599 San Pablo Avenue, Albany, CA",
+    "address_components": [
+      {
+        "long_name": "599",
+        "short_name": "599",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "San Pablo Avenue",
+        "short_name": "San Pablo Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Albany",
+        "short_name": "Albany",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94706",
+        "short_name": "94706",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1126",
+        "short_name": "1126",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "599 San Pablo Ave, Albany, CA 94706, USA",
     "formatted_phone_number": "(510) 559-8032",
     "geometry": {
       "location": {
         "lat": 37.8952753,
         "lng": -122.3002771
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8966025302915,
+          "lng": -122.2990309197085
+        },
+        "southwest": {
+          "lat": 37.8939045697085,
+          "lng": -122.3017288802915
+        }
       }
     },
     "name": "Wan Fung Chinese Herb Shop",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJG_gPBSF5hYARyCdjNKFEiuQ"
+    "photos": [
+      {
+        "height": 3337,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110162457115297224651\">Peter Bernhardt</a>"
+        ],
+        "photo_reference": "AV-0GLctHqYuO-a7eUPgZH8hADVLJNYRy34A2zDYWR7zRPHHyuwQJ2Zf1u6KHYrUP2P29AeLC6NoGVRoBWNUy4Z1ioQSZo6vjbeiYz8BMl1TSRunQBGOS0QY0Wz72ZiKMXrDwHXUF3Q51vJoA7vAGE4v_nT6Ugl8NHNkQJNVhsf8IgFpFrNgey2Y9j8NrsvHEfwbsT-4IZVBfKPMKpmqqdeXy_5QbYU9YcIqUrDs9VyrY6bBVonHkVApvcV9X4wrzmL1Xk8PUbxwaIbR3LnootRbLXoKEX-RkrDgRXPQkNhXZLQ1U5-nHyuFVTYnLagD2AQTgPzGGWsREfC4QkyPSqLLqoNUZqR5MVTZT47GQGwGOuiSpLxSOWSFlQhvLAMsZlT9fZtAvGYcFRU2fJ2kRp6vcftmiOEK",
+        "width": 4800
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLescVZZ_hOgx4M7AjcIcMasBM6Qgs9lROeJ4zqrgfDFLU3-iFMqKxBtPPgae5sOJfWJVbKr3w6sNY9kcYJlnnRJ3Vpk-boKi3rIVpeQfAMkq--UDp5XfBUf1ls32ReTzpdD-R85oXLS0zh4Ka958yXiaqde6vkqMi5X5SKov_lsj4BqGM1RUUTy80DPJXkunpUsRAQgjsQWxFMiv1azsNYnIskCwLk1ZdUPL8zKOqGocL6L5SVg4nTf33ZInRTM1NvE4DdVJK4ybGLsG6tz0RoZ0pNeryvpH6q1XPDh5-Ob66RLLPrjsK4OjEa6op4r4nAg5RWkq7YDdz_Mf1Shn_Nm1HRHR12HeEwSS9R3v3wghTwS6YqZYtl2NAiwd2_lK_USnGCylR0fxf0a5MpeUXPdcO0",
+        "width": 4048
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLfc9KRi2CvahjQsbIYdc0v4A7R5fH6DDc7rxzSIpaE_bkjiBd80goFTJqCE-h78FkvoOGJziIp31CcL1JlDji9LNSxTJ0KnLgiwYEP_p0ZOzKbSx8c5JoVIbPB5WluMuXCiRQmBpf3WbTmUA7MYAGNLZBiWIml3nEcxhW-assQGepQogPh8IlZCFl6Kjrnl2ILG6M6-M4vc_aec8G4gII6491K-fsqMDM9pO5t-LoQuQjf5lSeMig4ckbBbCpqQHdtgt_QGTwVpyZfIXCiRbTZajRxSVwpaJMHwCdZuMXyTyTB3Xhl3F3e0ZgiVEcCywqdkZMxxEw4vZilARLalVCGW-AB3cYoyJpsVlXQUBW2lWR9e06HefIgtPPp2PrVdDIRrXIaAeBKpDNwQfqTJCnOLZ12j",
+        "width": 4048
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLc_HJ6XJYE5BF5cewADolCJNDPSzUwLEvFiAM5xvRZjGc9vmIO5uWNVrRhSJ2RpZNuYG14KVjl2SPnujR4ydCMsrXK_JiZHTPMq29dNbMAHRVJbDyhoMB1Smx64F7SRi7l9GyAZJcP3c9j8mRr3nDU-HsEazLX9bgV2MDrm_6KKQwu5FB4KT74sWd5DFJhcO4EYyiyJSS9YnHqqguPiQ3N7C8HWegg2zNLect4vETFELBO3CJMTZ2waewvYLdzZMAUTQh6GbI4_UpuQJxNG9RSpIMT4twJzK6bfxIHe7LHkt6P_IETaZoCuwPvv7XpWt3yWkj8yT3BsRTZZS1f9yDkX0FO_Z8YU9yA69jIpWhFJ5GxH6Z_ZqnKSS910cAQAUCgBa9fFVID75vamdWWf4so41DRo1WY",
+        "width": 4048
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLf-mvIYtgL8Jz4YiUXkCUictlbAXwGmeUkYzIfFRXMjOapHIc7E-n3D3GcPulaUYEWu3H03YKIdJkv4rtnHPFCLeLanGaH9bjJoWICmrAYr88WeiAnoVgz8zseZmD3I7ieHrBgLzjKk39B6uxHZN0YntzwW1gCi6QmXEtxM9g043BAP1l6fVIkv97K3XiucBsAprjHb6OZet4AlxBwnDUP4bUIcDIEofwBULlJBYUKGcA9O2mPwr56oU2nWnemNInzAyr41lYssrgjr_IGEdXhxjB76lT1LSjUKCwEKg_PfufHFPa7jB-UvdhcMq7Pk0vZ73VGrCArafDSqk7pa2kR2EPMk2iFIJXrP-eVaYOsXHIWWwUegVkJf3X2mz8d2g2ZFR6utQV4nR_MgeQ4g7U_1ng8",
+        "width": 4048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104430032095132210349\">Miss G</a>"
+        ],
+        "photo_reference": "AV-0GLfZlZL68yuXvvhIgotu04ev5xzDAMM90YVS9UjMNQx38MhQv8reG6ULP0Pug9PGauug6ga4fl3wEyw9UBSkjR-EcJZMFqfhwNA8hAWD3j0q0rWiW58HKJEIN8IMt0WHxTUzDoLlwPXmTHQQzcUN44DX5zStguSEvCGLY9Ye7K15HrF5jPEcbUKvoZh0MpWej6nH94XofydrYGhidOjMKvYp9VAdOmBGIIMpdgYTqNuGLyuH9bQl0j4vl0wsAdep-BWWfyRVesdcGVRaCS3H4l7NhUFrNWs6_R7sjulzJbss7KHLva1c-VPV_IL93NVWzdzAC_wV5r3AN2yLeIGcKP-QqPv8XZDQyfAa6IFSfhiZrJhPC41zSZwf7pAqNRUm9XAJBNmiIKQdx5vf_820AIQ3XOaM5hZ-bE8NHtOAOzp3WQ",
+        "width": 3024
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLfKetykurZyW4agm52m8RHQZpVksDLQPwUcvx3ndM2mEqXQyDh7SOyyn_yFVwJTfJ4YIBd2ulK76GuFKSDp99fxt0rN-7Ik1CpuW2JRM0yKfw8FfAWIQvdr5BAOoG_uZrIQ6qjqIk4094nre-8Bzh0Uyu09jiz6PT7Yp4b7c12saN3exVXyt-O9cS_EUvJPemLD5_24dfXm0_oqbgoGCiJ3frtOZ7I14EueLLNPC8JyXr45u00T6r5hKR0G_sBrC4lY96AvNdGK5wNUF-0LghFxccNuens4Ibn3b9O6hInyibbhyHZywjk9_UHA4eMCDwincHgtZnHodlJwimH5m0Hvnz94J-WJe2TrcZi9dOXrFb1jXqLw-0XFp9S_SmyE3syUo70KyLyxP3bjRIHJoEBkveH8CO4",
+        "width": 4048
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114848446501799714678\">Eric Tam</a>"
+        ],
+        "photo_reference": "AV-0GLcdTiXIfE3aBrK-Nlz135_jg12rq_I2MkuGUkxk5hTItv9wKEa9Bd25DQCcTgLLxNwUjw3TUODEJw34pgiO6rXwlshai9USvQgcQAxIdghmCyBHniiYKgxp1kzwJ6LjORL0OlfibuMtUfESfMRkkGiA1er9zyPl83mGr0dM98M9R5ww3E7ZATXDLvkPOfAxswnwfFX0AMTWRw8MRDNDYPUr2QOP2aI3EycWn4COjOequ8AIpA7LyjhXOKpTxeAwSFUOdMYA46WEL5VlRsENeZKjIemRA65rNpY_nSnpgkC4UUn2qoMY1GPEOUEnOkwVE7V9lGPGqHAD7s-qrtaf9lhinQI2HkvEY9PTYVWNPUP-VFAqTi4X0W7E8EaULecgqgGzNbdJ6GhAG8-q4Uwk1nQvDkI",
+        "width": 3036
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105574610653079965961\">Jenia Ellis</a>"
+        ],
+        "photo_reference": "AV-0GLdYFH7T_Mm0Q2gE5hEhya0nEB4oyO-5RsPjFgJLk9oqvZrZ5Ln5RMiFOBIIrR29bZ_XJSqeIUtyoCXiIAcbUQId0ixyU35Aa9oVeHPl3_Gx8YZmh0fFRaAEX31MMbNkIeRqohH17Q9CL8hEh2jYIW7133g5dBpNveaX5lAwXPwN3QOmH5xW7sZ9TwRJ517TQ6UU_oWCuDlD9wmywoGkvFJvtd4TCfpn9LJDQvev5hleJud_yAPgQPe8TXRXrOLdhGiDf3TQg3lyY0YZcOgEM4Zt1KnmPPfUDkM01N2nyCHa7HMSgXhYbR6vIBY39okrXjt4rLb_uOLisb9uYPx6SoCsnv9ufiMyHBTewYi9whkg-Zpsbeli0AW7upx61Jik7yzy_KstXf5Q-ZGVjlDoCmylHPQ",
+        "width": 3024
+      },
+      {
+        "height": 911,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLfNWJdPbFuZ0zluXbWZCoojW5s4OIOKCAB3fVBFey60zpbn9VTNvO5WbEZ8IPlrn5qMX9RcLiwJHJ5RbFJBMBiv725tmEsGaw1ULvN7lswsr9TDBqh2khSpzBvBz8lKLoHhWlk7Zme_BenO5Z1TyXXbrVGI442xO06EnwSIxSdXmeQIAu27RXT90-vwlEBn8_-E6uR4x5DAIwdmu17-Wlfdhpp48fK9C3lsbkMj2YzC7eLMrKzwS1Vwxt4vsaGknNvPfiEsAwXWKddBRnBKfee7qrTNrQ_n58VLZEQAs-5O7JEc52rOKKprU1gcZqTBXyw8WPs1-m-d5VFx6_ExPjCSkCMQBCMk5LiAu2WRy9p24I25eZv5TFXivPzEE9BTmhJCeqV6a4XjOnZ6xo7CuNjenhbjblQ",
+        "width": 1206
+      }
+    ],
+    "place_id": "ChIJG_gPBSF5hYARyCdjNKFEiuQ",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16468050446592976840",
+    "vicinity": "599 San Pablo Ave, Albany"
   }
 }
