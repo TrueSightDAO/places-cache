@@ -1,28 +1,180 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:57Z",
+  "fetched_at": "2026-11-04T16:31:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Silver Stone Apothecary",
   "place_id": "ChIJ66V21EDzv1QR8gE79d9CUcg",
   "result": {
-    "formatted_address": "18116 Coon Hollow Road Southeast, Stayton, OR",
+    "address_components": [
+      {
+        "long_name": "18116",
+        "short_name": "18116",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Coon Hollow Road Southeast",
+        "short_name": "Coon Hollow Rd SE",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Stayton",
+        "short_name": "Stayton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Marion County",
+        "short_name": "Marion County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97383",
+        "short_name": "97383",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9629",
+        "short_name": "9629",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "18116 Coon Hollow Rd SE, Stayton, OR 97383, USA",
     "formatted_phone_number": "(972) 689-1059",
     "geometry": {
       "location": {
         "lat": 44.8361313,
         "lng": -122.6905141
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.8375920302915,
+          "lng": -122.6890077197085
+        },
+        "southwest": {
+          "lat": 44.8348940697085,
+          "lng": -122.6917056802915
+        }
       }
     },
     "name": "Silver Stone Apothecary",
+    "photos": [
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc6aJ7oo11qmXrT3Y0RH2tQ0p7WEe6essRFd-WqOPp7Uw30qcD4LAotOUz8VfzkfMu4xXte0S4FnUXqzamPqrQAdYl4bAMXL23NBLQ8iamvrEJJnQLJIiu8SMvvLVmfWPVrXZz4ZmVGAKTXe6PhMfasm_in1AqATcKlAQHhMGD5Nmo3RKz-_0-W-cqi1lhsUE6ynNAGpV93dXzIg4qaT1OmYn7P0dPiqvV4aK4hk5EKY_p_--qzfMal3Qlp-fI87VvdAg_heN0XtTnAXFikcY0ITlv0fWtXQDRh8NVCmLY5iyCDDEQhLqzmAKSt9kZa7ZghM_gr5ENqp-iNEDqxjZscjyrezPscw1p7llIfHMIpw8SYzkpMB7Oh_1fLBVoY3pPKNYtadMW4NMdWlf5COp8ZQzPq",
+        "width": 2048
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdVGzizqcIM-iBiYGkPMNDfOr4IRUqaeAC-boq1DMBy2_Zt1EBSCs8iWWT8qvKRQO-7Y8EyhlFsekLWy12XTuQFgc_YZJNNacLyJFGWbSfVrB0rlOI7DHncRb5MLYMZ7hzJ-4oHpUYVHeRx2R3oKpd3sSVEksk5pvfVm1w-jnbmmDNQMNV3bwEVExhbirr0W91n5tIIJqfCIJa-CoAvD3ITwYfG3thgoK12JvSxlrVpLTzk2SCVJ-UkgDz_lrYScd9vmrie8XbNrUSmmC5EmmStEYAZ7GifVUEOmSBnZIFG0_RSGWEUl80uFTY3kxyWYe0KfVC2YkzSQe_jJggA51BB-_l6PCTfGuq2zDI2VAqkvO533bTfRm-lAWKNaa1zPwRcvVqjsOzCC52XUrNbYTdvakk",
+        "width": 2048
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104882759548678612427\">Tia Smith</a>"
+        ],
+        "photo_reference": "AV-0GLd4lA6R0mnca0ZIaZtKyLC0bdgvuuug1LfITsIKhkUuivCfeTeb6N4RBhNBSnW0zunIccKm9c2fH4J9DgNxJiW_3felD8rebprWGZpuqEZtwwqJBLdM5QqrAIxgveBqHyIEVlLV6ydbtkVV2N_XO-gkzwnuozwgSYt00ZBzWslvihAOqcFkObxRhG4CnLLcddiqAdWrWvorbPahvV2GyfbJlS9aFcgFAwO3BvUTFCaWoMSGwRIepS31_qbblRJfF4-ycgONx6C9SV064NmDYbDxPk4sLub3YMUR_BlgPGCJAu3c-c1f_o659D7nB2r6DZ8pXZynCT9zEPtZgCn5UvB8DKjjJe97T-aYlPzwAY4z55xXQypCV98BpPEDURtRN90EYzcmq5v5Zi6_3vGFjBRE5DI",
+        "width": 4000
+      },
+      {
+        "height": 1876,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeL7nCrrANcOBpYD0FahGkuGIOPSV9p90_AW_BM8-KQh-hVQN2KYzhWM_CikJ7M04_2fCfA99Q07Xp9uTJMU-Dc6b2MqXpPj7bFCWu0o4taOZHPc-qCDxEbNgt0irXHh1v1_8fELpZCNPnywwb2dSX_xxD-_Eacq5BMJ7NMRwkusVRPFOknANopiVj70j476xHnelQk0mgSf92CWb9DtpK_hz555uDF2tFdX_7Jr746-7fd3SrQ4kyi38Rv-kyFqHO2HzUYX1I0hTRGXsXcmcskQxgLjYeGpRbyaWardHaYzw4YRh7GBEb07zw9DMqZ7gtnNCGJ7JsP_mTCMhuXSF1mWSHXy8XpVT4sVwOh9oL89Qs4QUi05o6pkEUrxf1wEuc7u3C8b_dRJnSEBanaRNuRDXO5HmM",
+        "width": 1876
+      },
+      {
+        "height": 1538,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcJp1gD2G-O3afwqq57aXFyUKhdsP3BFE2BbnqHN-qBfT5a2WDGiBoG35rgo0c4cn8Wm4priD0GywanGrgWBrGyqiDazyHHzDN8FzgO8MMiCh4EdhKXGhxdfjEaPK62RDm9R-QxZnvY_HntUH5d0_8JkICxKLV4GV-DQboT2g8lnqT_75KClcdYsVhWYmHc2AjcmiBXq_tuD0uzxB_Fs7o6s7FbkfBweU7jJSghX5jGunvNl3BKMhzS0rdI1CxZqZBSRczHhpqL8FC5mwmIyHloACFCL56gh78C5zYP6AKp5huhnx0rjz5xQ8xHy_ohChXcKyaYss82J_t3G7vtvnm3tksKTBBUjfkXG4_-Dsr22RPShmtucdzooP0qwBETObuRGZd3MjNeUQVM2_8qZNpFXQGiGTQ",
+        "width": 1538
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcG4oHIT0OIczGi2sBIAOnf5YSDCd40JwDnZGE--xo4HPDK32_opr-4s8UiGwO5bg-48p3HMv6Sb2VRF4sPIu2kZ3eik_7briOfDGQREdiFNpL49nMJwPdJk9Kzd3zHgQkdjc3zN4dWSDsU3tTBUWXbzN0EqBOEMzsZN9XtpKs-KiSzUAWPN6bl_cMIoYMDJ-1mTbvFD2fue0WsDPDsklGjfrQU4KIss-gK_nPar9hs9_DxYyzMYvzNyKpgKJZCiwN6YcZinOz66173AWginyJHWea5cWJEy-wCqWNCo-7z4SHCcEJlccCMPAiR9_42dbchRqMDMgEPMN7v3a_X6h6nIpuKQlxZQjWIToPuSzGavbaAMS0Yv494tQo8UECbkgnnWkCSLBCZEmcntQHpK2E6Tv9j734",
+        "width": 2048
+      },
+      {
+        "height": 1944,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd346p_-yzKE4BQ_T4YJoics7ccAZWGS2rlaZK4FdWfTFqTO7VqB37-kr_-brF4YZ5tEZMlF4o4ZQqlETIHki4EOZzPNQJtIu6V3llQsXkJ71i5cNfMd40xURKxjaTy-Nl6u92v7ljwdDWdwIc3lzDbAWj-6W3cqLoSYldjmu3U57IkNgj0lkph9W6ze7vqBWGY4iQ54jj6c4Oj-QveR_8FOk_PmojAGrPT576FW5WKsVcZJUH-zo4NcjmVTn2bnFqzyW-qO7UlJK9bxpaEv6u_3h2Q8z6LzKfNZEQInAWOqGOJICgx91JHZ7WQZ1yft_3ii2UIAcaZJ5PKUJJp_sS1NozoDsV2oswBLTtfHkwSeE7rGKf0m6RJjyFPVV2xTkDFpC3TF0rFvFtZpgINpPRlpHMI",
+        "width": 1944
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116490500659376400741\">Silver Stone Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdgCv0F77tbX0iiEFaqPFc195EMpSYCySEENfJtoh3jif2cJ-gRhy-18FU32w5LODd4fsmJeQ99mO7N529EtAbFYxeN2v5LWLrCaWghF_8_CIFb_09RXHyX-1Y4i4-9MxusX2aUidZ0BPGNC6xqE2N2ZATcmM9YhGn5_YEmwKVJaqQt3aMTGJD0lDKATrFFRjNWdftp2b4uVq_JrQ0pdOZEt8ATm7gxwBJYvant86z1F6F1Iansuo5w_9_fbwOF49UVVebNz-INGq6atBfMmPcQrt8Zl7CUP4UeII2xYP20UtyRswPvKqtjVmAe007fAGG9C4DCgmqBAe8mP_fTX3e0f7h6-lBLukOG95AI2tjnRUi_ZGTcm6IYz1-KZTrKNPTf99BVOoGP2BplN6y7wc_4I1xqZpU",
+        "width": 2048
+      }
+    ],
     "place_id": "ChIJ66V21EDzv1QR8gE79d9CUcg",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14434391810358575602",
+    "vicinity": "18116 Coon Hollow Rd SE, Stayton",
     "website": "http://www.silverstoneapothecary.com/"
   }
 }
