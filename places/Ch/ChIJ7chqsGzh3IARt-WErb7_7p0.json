@@ -1,40 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:58Z",
+  "fetched_at": "2026-11-04T16:31:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Apothek | Aesthetics Lounge",
+  "name": "Apothek | Skin + Body Sculping",
   "place_id": "ChIJ7chqsGzh3IARt-WErb7_7p0",
   "result": {
-    "formatted_address": "1870 Harbor Boulevard, Costa Mesa, CA",
+    "address_components": [
+      {
+        "long_name": "Suite 28",
+        "short_name": "Ste 28",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1870",
+        "short_name": "1870",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Harbor Boulevard",
+        "short_name": "Harbor Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Costa Mesa",
+        "short_name": "Costa Mesa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92627",
+        "short_name": "92627",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1870 Harbor Blvd Ste 28, Costa Mesa, CA 92627, USA",
     "formatted_phone_number": "(949) 945-2211",
     "geometry": {
       "location": {
         "lat": 33.6426171,
         "lng": -117.9187478
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.6439983302915,
+          "lng": -117.9174813697085
+        },
+        "southwest": {
+          "lat": 33.6413003697085,
+          "lng": -117.9201793302915
+        }
       }
     },
-    "name": "Apothek | Aesthetics Lounge",
+    "name": "Apothek | Skin + Body Sculping",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1430"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:30 \u2013 17:00",
-        "Wednesday: 9:30 \u2013 17:00",
-        "Thursday: 9:30 \u2013 17:00",
-        "Friday: 9:30 \u2013 17:00",
-        "Saturday: 10:00 \u2013 14:30",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLc8BHeCpVV0yhbSdSTvyGTfQ6wlOXtF4lP8LBewUcoWBPYOd1lPTJCQPtAH2ZpQUs-IHNWVHbHZ0imkUU5T2BMRq9OvbL96H45Uvk-MJAic-Hf2XAZ8ZJStgLLlLrafhaeyhNNoG39fpRaWx-_-VU_L1g1tDrqnEMpJSPf4x6yMfYEACpI3gs55iI2Nkjz90l0BP1YeQoYbQ6b5B76aYhwc1ZiMnT-23t7Hy5pjDIwESPdtDc_rmonI4hBQaCNnSxO8-got4r1bEWqRSowOBDn7tL6IX5ewwTDvcViFCddrUazIAlfXytbgEMVkBijiE7CRJGIpGZuvkFetQeVI98HHxlB0uWxXSqmtVcmmf7pj06fdPuKa57WZeetGLQIW9W1IwGF8-bNV8fy6hhb7qGu343PNLFP1kPa-H721e5yQ",
+        "width": 1512
+      },
+      {
+        "height": 1544,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLe9KvTexrue6HR1DTrMVUYpnUQYq-b6VoqteTH9gy9CgLYTWsE0aECJ5rND8EwDzLFAXf9cQOjl5aqfRWG9x_HZXzVz-LJAaB7QaFIFCkkf_03Wg1wNxstm-hEc7NMtWw25rveho1cnah6S9ByXAL7VZS5lhI5r0P7TuekgHIuxar4c2ceztXIvjMYA-oOqqYFAurmptTXpDR-CkY9TAI7uM1pE_-N87Lgn4jZAfU5ReLBnQfIYUhUBDUUWQI48dgAv8sI3rHwE_jnOr_JpVxRnUtju-9DZcZONTt7aVlI1NGSw_Qy1yE0bcOzHvlpLlYxveNb6lao_EP4RfmrZQstGITsVHQP-urLQj1b_k0d0b-wAeQClo_xgV9bz1DDDac1LVBrdObxxLmFX5IKYrsJ4Xn5ywlSzfKYIo8QmadWEuA",
+        "width": 1158
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLenAU-F7-rXI95APXpmH8PgoYJk4HjwOPgNucg1wR0sTTgLm0EzPHoO0jzkkZa7WpblaTizvAe1LpfRSBh_neU4YfypEzrEMTxaZx02MAuuSeTkik9FEy9BBaUlDaPBORncwvIIVvfk3lDrd2i0ms9ytqWuMjOQhMVt1KQGImQUlmG55G0V7dmGUBsEJHtdxyM1RqLdr0387WoBQ0DvyJURi78j-daPOVejw3lQlxFd5rkm1R4uVTRMXbFyR7k_8tiAJDSwJepUHeTumYBtAVS1WmpNLfEsWI22Z6XvusTPIWKcZl7uaIPUVBWByQNsoSW7POhCQVAb3wDYv0sCp3C9Dwto_-3Ll9mLLove7Iy0ZAqqCs70XdUeIOVkPiN3ShWHSDXLBCvz1ieHRc1LIHL9TNSy1Lg5d_e1Dn4B2OI1Lw",
+        "width": 1536
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdmTIItrjRSwIRDrWYksG_L_wvw2LgJD0-WQs_stqh7EOJ4EbPLxokzNaBezN1ilAu9fCTuv-4qAkTh-GUovzuDD4-_TV7THYIwpblo9xsH734ixO6Qge0_fz816P0NpbfCKtIA8yvyhv75uUlSHTMN4aoLyjaT6ozG23_JkM15TB8P4akKm0jD8IwYR7OQ5xyIIcldW9_5p4Y58rTAgCJXg90gTNL_sZFSldsryWs3z0xCavFrc2Dr26Yu-yuQYUd9xOBYnY0hfOxjUB-IjzMJq2vEfc1oo0Ose8pjnQFVzxVeud-9CmR-0gfoQcUu2VujSGa4pc0LUUrZeI6qcv40nlcN1N0RX0INbQ82LKHODOQINSU3_Vt_NZvsSdkDmqOCyPW3hr0jvTWYWi5EWRKdhSL6",
+        "width": 1200
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdGQgqegVldYtrXnEzpiwJ0WtQIyroIfNp6Aup77fE1ahGvZkqNloHGw8G0kS38RWCM6PGzXNhHQoQayQRPrT8xbuvTXS_8gK-bPdN29YvDYX4jvUt8uK-OVv7igLVDL0qyyI6ox6SXkkd1F6PLN33HhlI_tRswAVt-2PR5IY5BGw673VObUOUoYqPp_idbQWlltI-acRrSGT_pFG2dmW0WeGVD1cNLy62oM13RVH8dmwcahYI4sNA6aXRGQcGKRdDd2LXS_q2W9iQlzELgiwulPJanaD5fdhCn8qPEyHeGp_2Vxju4msAg5KBL-q0X5uVuAMmFBYhCAl5E19uw-FyMwu2sFW0WugD-bwOaRE1wGv1l_92Dy1llzRvovLWY2Fpo-xh8feZHsX832uW5XS3FGZMfhRWghdMZn_2MYPO5",
+        "width": 1080
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLck9k3zpF-X09orAN6bqsKxnaeAUZmSiBViCKjK8BvRCoHuDPMI6lFcpHx5mxt_JeQJGc8koc-AGHPCKGBci3nHlUFMsdSgExg4zSGy5BfIMvBPaciMbgfef_Z0lOX_o_tk2T3Fsff7PQ4jj8vRcMSZST8iZwSwEJ37xtLKm-pltu6oX7HR_MJtHjKDuqthknTQeNZ6cF-fTMqmdDSMPKo_GhBc7YfDqVJ744x2eiOJYZHZDm_f4t2X3CtiyQwQoRvDB2u-73plH8F5LJhqdqXVgzeopHRW6q-qvmn8-31rGH5bBI-0EwSUH1_pkjvLD80AeXBUZivGqefzwmbrpGrfoLjPBIPgeRpsBkTzrIW1o6-eX3DqnJ53VhrGp8xUpnkUj7kKUnGKikU7XbdDHfAem8Xxzef_Aaif12hh7dWM",
+        "width": 960
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLfAYgJ_UKERIOzwk3wJVgaI6Ja8hh1Jl2arIg8gQjK_6UIs9sBDxUc_FZ6h-9lkuDHQu_aM-2NGUd2evWq1JgPGgwb9EBLihVISTpwmdrw-I03LY7sZyT4HnQR3_ILYXv7wbko6MUsnytObWIaaVjT6JOK7fHMpauWW1KdlqNzYtBCG8XVpnzH0BE3XKYjIZjDYZLyJ3Jtf3E5NGuvOIpKnCnl07yK_ZyN3_TXbJYwa5rSIjlpqW2OsMFeqQWXM9x1GZTBPNBaULG9nfN7dYrOzCukPCBaQYN9r3-x3IK_1vqRikNLlhOhuSmSWqXXvKzE7neSzI93T-4FJxxXV_zrgRTg4g0Zk-07PHyGDD93hUt6TXq6Uo5WptgRVa1auFgnOt_D_rvExUt5JCJnxSIHYuA3wlnXzyImssCHPzzWnhw",
+        "width": 2142
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLeSOZ8-LANbqgquN5Xpps3lNAbk3TDekOV1PrcAe_4Ecjgaf0NbUr5ZOL7c1VBDnMJjL4vF59iLRZaS7-yT7E4H3Lwt2X8b_o9XveoXOnydDsrPC7R8vvuze9Tr0c6TK7ZpiPhJcoQvXQM6KNefCanT4dC15pGykJ3jD4l5eS1Sakok6DSKlmwaq1ldjJjLDEK1DchKbaISizqCooLLsfl0ZU24uwQAMXwbtmFVMPjSgC22S9HD6XtXTOQb74npBRlZmQD_PIEUxV2cPxSr-GaayZxv4XaRIZ0ou5cJmBmvgRprn0dbgiJy8oGxjsP_7k84wcD7M-Fe8MqXJ9_T7oVO7PhFgBZHupYQTOcc9__rlJ0YMbE5O1k8GXDAmP4znneT-uWg4NWvXRIiNN037phqLHPm_VqAA3AZB3CkpPoyZg",
+        "width": 2142
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLcPchP-vMjsk3urbsMgFAt5rPBrN5LW0TSlELrLM0dVq6uXgPm05lS5dIi5bkbi8BWGmgPxrZWJhAtw_TnRXtTIPmSoAgsdcN447BQgtKGSzKbkdeURdnhxpQp2ulT4NRQja9_1WtBVM33xG9q7ORaCuif5VjyG4cd1y3ddRIk3mO5usiLyES6Errf9hBbtv1mvLalQfWb5f0jZe_au7yx3kCxp_vhC3SJifd9pYFn1OtWprD-Fu63h306DyYZgGeT3llijmMUszbBVxWcHVUbLq8HHUwdbcZL5bff2GKdjbR_WVgB5UX3vti13F5niewv5sP6tJhbAeaZ-NmJe5Fk8Vn83tADrxs_nmc6gLqiNZhtik2UTr9JWQ5v95EYR4Cbchjwd2FSVWXB6uf1G7LXpiLaSDrkID7Vlb2QKpj6s1Q",
+        "width": 2142
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100213975449690621310\">Apothek | Aesthetics Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLcFV-t5oZ2TtaAzO-bh6522bE5K2udfB8pE9MeYlRnCdA7lCFnK570e4qkVd26dbGqXfqeTR3E_TBu7kFlsUyxRDhRVrbWMkmJH_PhKZp9vHR20QIi00QQjp4CxORszc-Ple9ol0um7KcMeQj7x5ou4cd22DXNQgyqDO8LI37QvJlOa-MeDd74CKpu_ZhzLPMTcFfsgBWbvj_sDLabrRuuFg4DvxEIKEHTMUsEbwNuhomn5ALLVOMFckuSgvMOJc6W1qKJcR9a21gcYrWHSIrxmF5hOOvjyX7rDvTCRLM1rnWm4WoecoVoMXkoNiIETbuiE-12bLnuPD2X3SxwmQXn_6sA0mMw4IhlvlIdP1hVG10z6rnWytknKE4kb_-w7cjfIbe3VZF7_wh-fcuvjwb0cXD5wbHD-B9fD1U2YmcJgtQ",
+        "width": 2142
+      }
+    ],
     "place_id": "ChIJ7chqsGzh3IARt-WErb7_7p0",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=11380314502831859127",
+    "vicinity": "1870 Harbor Blvd Ste 28, Costa Mesa",
     "website": "http://www.apotheklounge.com/"
   }
 }
