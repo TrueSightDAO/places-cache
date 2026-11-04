@@ -1,26 +1,114 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:29Z",
+  "fetched_at": "2026-11-04T16:31:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Apothecary",
   "place_id": "ChIJq6p6_sR_j4ARTI7-ByH72G0",
   "result": {
-    "formatted_address": "500 Terry A Francois Boulevard, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "500",
+        "short_name": "500",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Terry A Francois Boulevard",
+        "short_name": "Terry A Francois Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mission Bay",
+        "short_name": "Mission Bay",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94158",
+        "short_name": "94158",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "500 Terry A Francois Blvd, San Francisco, CA 94158, USA",
     "geometry": {
       "location": {
         "lat": 37.7703718,
         "lng": -122.3871248
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7717371802915,
+          "lng": -122.3854358197085
+        },
+        "southwest": {
+          "lat": 37.7690392197085,
+          "lng": -122.3881337802915
+        }
       }
     },
     "name": "The Apothecary",
     "place_id": "ChIJq6p6_sR_j4ARTI7-ByH72G0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7915352464390262348",
+    "vicinity": "500 Terry A Francois Blvd, San Francisco",
     "website": "http://completeclearskin.com/"
   }
 }
