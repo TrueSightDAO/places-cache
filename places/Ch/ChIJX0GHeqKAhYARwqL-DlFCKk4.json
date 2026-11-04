@@ -1,40 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:03Z",
+  "fetched_at": "2026-11-04T16:30:36Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Church Barber & Apothecary",
   "place_id": "ChIJX0GHeqKAhYARwqL-DlFCKk4",
   "result": {
-    "formatted_address": "524 Octavia Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "524",
+        "short_name": "524",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Octavia Street",
+        "short_name": "Octavia St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hayes Valley",
+        "short_name": "Hayes Valley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94102",
+        "short_name": "94102",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4314",
+        "short_name": "4314",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "524 Octavia St, San Francisco, CA 94102, USA",
     "formatted_phone_number": "(415) 814-3788",
     "geometry": {
       "location": {
         "lat": 37.7770546,
         "lng": -122.4245687
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7784140802915,
+          "lng": -122.4233006697085
+        },
+        "southwest": {
+          "lat": 37.7757161197085,
+          "lng": -122.4259986302915
+        }
       }
     },
     "name": "Church Barber & Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 9:00 \u2013 18:00",
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 659,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeuBvWkW-hBBAkKMfI8dwydDyyyhh94oiOKGUF-k0NlWRpXzNxdxa09kf50e7obudckznZslhirxDCMoWqux34RaEGpFo-PE6LltxjvbXqum588tMbzHFbbMtMY59cwWccq3BeUrYBdwi6cnJyhZHiOr5DVU1VOjlWuHOM_idrRm_2OOYWfZ9ao1vsx7tIBLUuFKTmKzWqY5WqehfJ5_AAO3vyTRzzLzmtC_jwcvUA95SDpyzSWQqa6jTyTBVV_9K2gOGpW6Noa9sJDGGUNuagVvy3Z4cj0Zaj95ItDCtwdfS1nLXGQS9SYjxIco4vQMhUftK9kt0ZUwXxaFLEugeabnoBRHaaEsv77Elr4_lXKmxuDLE8GsBphKWDQRzHTZQ1IWnJVeeRHLGPOBL2UfIB3GL9Txb0",
+        "width": 1170
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLduMOl3IQ0nAq9FGbCrIFC0Z_DxSVvgSFKUxCTnVUz01WrPO8-i00PL0Xs3y3RUFr-AzjQCTpWMhJoRQo2hX09HBcdbvmOuQryC0fH3Derc7LgdH2GrWnFuq4e-Q6RcmxZ_v5YwimusKoWboULK9UStQfGMJo_lS1pqZ2y4GPDeEX8G3oEBCTz4f9yjGVT9gAb1NcJ_XgP4ZNv6jLeg57X2xgfzrelAjj1CanYPXn7pmReOI5D8boyClQldV15ndQIsTmwl0sr2dadMhuPHkW0e5PDrmoEJqpeihNipcastVJJyySCp8rpFJUlokvs6NKSM43TwiFQtFZDcBeuVBnRAxUXMtIhAmNQiyZFWZ76xiGaVFypfWAr0UqVnweOBlqx9c2dVOj39GYYSdXXbpIDEf-Q",
+        "width": 3200
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109276773382112598912\">Clynton Taylor</a>"
+        ],
+        "photo_reference": "AV-0GLcHpoNQDQNDqerJmhk4_TpWOn6wR40oztlUOlnBwpQHobmZTNSAn-ayCBkDGQPvwDEi9xVhprV63IQVFpNRlvMUoF10Rg3w7xMZxlJZXeBcJXPciJ4v-7EqvwgslrtaizroLYrr86CJtZk7Quk6O2XwgTlYBIhWR4caOaBrH8yTrXTZbTumJOJQBoGgVrSOUpjdxxiNatsloIpkHrTCLskNdDs3iGk7C2_vIIjuAGlpVt0n9KoQY0ERFBCdf7u7FJTdp3W3MAwkU03uis_Jkf1hgO-IsZhQ8zinRBpvemDeFixpij2Wy-BCerEDhSTrX4cdT5ziX3u2FPG7Q74SkTXGIbdv6NT5XZMxsq_J1Ycrpvm80C2PJDfid4G6x9WRgCY0czpy7ucmhLn7oGFT3bUMSA",
+        "width": 4032
+      },
+      {
+        "height": 1820,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc2Owk0XMEn4fiIzU8LhlmAduuXlOWJxzqi8C_2L37Cr1vwMQO80rEY4y4m3c_nQriIewArvLbMMfDw9gIV97zJz6_vGosqCY4edhJb1ou21SH1IB0VWP-wtm94h7awDYHInQCRU5sdsmA1ZmAeb3P3YYYNJysHBsSKUe4gKiysM6o_xUKj_W0OtHhKUEcFH9SVyv_frZ0JHgN-Mash87WaUi2NfOM2WYmioz9b68tnav8N9KXUQp_jWWFf6Vo9UBu4cjm66tgD3kZnxdJ-VF5IZYI_YbS-q2emvU0EIEsrnBz8CwomWWqyEBB9AlZ8Js9eEf3EjjShs8uytzP_q2Vqr-ZVDhmABxtooG7wz_8vAFxiEoNKKs87qTAgZZM7OoCY06Wy2v0LWsJYlv1bgLCRjhA",
+        "width": 1024
+      },
+      {
+        "height": 3428,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfJZWdHLaSu62x9cEoP7xuPMv9MwcZJBw0O27vdp1uWUZyCPMS0a55-d6EIZVRV4pNA47azhlxjUDPUoTzEcke_nLvu1ZH30aBTH4eJIg1f6v0BarkqqcmwjnXv3bsrsB4T4hrrpLFkTeQ6DiFHq2hJJEsxy2hNrM0faokzzT8VM47rKaqxll6YYs2MgMvYZiuGMzsYRjK4ODkHiqrQFHtzAV2kZU02k0FJ7ZeRCHPJiqQqqqz4_X1CKH_awvjIAZeBwFAOFLhr-x64udDVCXJjDhfhRwBJb16m5oymtLnBzAqpTG3YQRi8P1nlE61hf5ztBI-ERjxe-XR8CNv5Aw_jRCzIIEPvBcxTaDd3zYLIgwC45n0lNJbM_-l7HKiN24bXd0jyyigEGB0Hl-vXMZiNZ5g",
+        "width": 4800
+      },
+      {
+        "height": 2133,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeKVihfmmVdZuACMvy9wsffftvV_t8oOA6otLTWOagGgPWEow5uPSyyitEFfCxQVh94-k6-dVcJtWiMSMpApiPONSwoe96vrAWRLSzO5XFGUsP7c_vzICsuPKG1GxyjJ67acWTorx3R2M7ozWNDIAck5Oa2nGugtQltoJTTNufF1YDrWrDLiX7Yge2fsRJhXqQZE4cfy0r1fng3SQz6vHfFl1jycyZBt9uA14yxUBZ1O5LGM2ubXOeiOPcG2XjYhdeTGuOR5nGXnN4O2nr1ufr-uJmWCEMYawkSXyF5LD-zaGfDaH7IhBiUcegE_tKwD0iGdGic2acghqPQxBJmuwQ53SUzH13mu94Fw2D6AvQws4Kxph7mOjADO5RjcRP-_cbksffB4Q2w2W_NFp2t55OAdYk",
+        "width": 1707
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109186574311827319253\">Hector Cabrera</a>"
+        ],
+        "photo_reference": "AV-0GLcl_yTEEUgOeDTl_ZZweoOGVIXCOtFxohfUIuKaBmabDKPFMD4rZ9iB1oFFkUfwUlzrtK7WmdselbCyXlWP3SwNnyXD1_R-UkBM4QiOp2ht7nYZ3UaNLrAyphC8L3605h0GbquCe1hUB9vESh4kh8ZevnS8A0AY9uDun790bZkLjnGzqE9fpn_uGGo6Jfk5S2Zr7w-JYuakeI4VRN4WmDowWJxUMA-Zc9MyW1nv3fR4go0RXBaX2V4YWQlaZZn3Kow7LytxGxX5KpAXkTQGztILsxrI7mT2oNSst6A6fiYEV5mZ6G2jj9JH4jQ5b6LLWe7vBXlcUWEt6SEf_PSnKiWYL1OvF2dAdgorx4DOwfLgaCsYV2sOGGQTCyPBJJXK7DY-0ZMxxMpdXFrsiomfXCLH8Q8",
+        "width": 3024
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLctBkDocbYviHcgjupTk91LcLmgJjiOtTuNyS6npFZsqwVyh368zx_GKTw4fAa8HWnX6VT4yCiCdZpn5-WYrHXpfcHM4whh97blqnche7RChZ_dDLOzJENm3vOOflwKXNUhwhUwd0zMXuiIBpSW5yBI9qjuQ44AOwffIMB0F5B936FSEDVpOHy0RXCcKqgCjakLUeztwo88bvbdw2r1koPiYlHacT7FvsnGpO-d4D5udhALjVFa-l2Vp9pswr77AAOJCbvl3NCnUiPhxts47-r5iiuNsu8IYmE0EVW_0wnZOEnNSYZFWPN-vGrp1MGWBTDleoWL6vmJ_aYZmiQsm89gm3yzFsJFC7kDVleWXyTVdQtMGs2YFjIEjqakY15ZPYesMRd8ga6f6EwSriPqkH7QODok",
+        "width": 1920
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdtfng3dnXqiZthuGrW8xV534b_01AZhm-U4F5c8zh0QJIUviLabuIzb6Y-JozeafBGXku8mX84z9gfJTujwoLexlr64rsjgYF2Wv-5Di2eH8IFwxiT-tqoRRNPRrYPz_c-hIiWOMz7v_ylntbaCjmptvABCyEFDovVkUd7i1XvDnojQEQsgth-hDpDGT-khwicJaVvR1Yjdv7wWQORx23pGH6H30pH835NGSpF4wysd6bxZENKLnTH0dG5XOC0S0b-_YIUX1OvF2z9Q4j_3h504pkV2nK2cbDESbJ5rGiBIGnnJtaWbhMTrBIMcb7xKDFm-WXrdfmqz1Ip6Dx3lrfkYyrM5c44Q8oJv9gCGFxNfwEimo1IwCglCbyT39n95frCq0qMOJXTRyRj1C2WEsOYZD5WO3k",
+        "width": 3200
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157797804866377944\">Church Barber &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeoKFIW3tRVu2pWn-jqfnMVt_c3TBs3XTotWFvwGow9HzsbCpwx-tKF1oWQx24MCtzYd3ZCGnnCKq_hGuBq0FqZDL0j1h6IxoAAtZB4o2Sg4SWgoGsKnmU568XzW3Jz0jTKeZyQ2ARUzqaF21C9OygrwWbGxe27KBDAEirzGr7mpqdTb24KpEIDdIUeo1amvuujNHhp12z7caYUVVf17YzEJxVp5G0VEuOWliUDt6CK9pTkpYu-PeqDZhYxyTnfFm2EMzNwqeYW0U8-1DCerka8LF__r2EKESVUOC0coD7zY1nrHeKLu1uQ91ICkImVonZkL5D1KjCwYHem2jOphk9XEzgJT-TBXjYvVNbCjQnpKOZYPLKWMbliyLjkQf8KC-c6vm_ohGjwCHHEnxg2vRf1w5zmH38",
+        "width": 1280
+      }
+    ],
     "place_id": "ChIJX0GHeqKAhYARwqL-DlFCKk4",
+    "types": [
+      "establishment",
+      "hair_care",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5632387199891579586",
+    "vicinity": "524 Octavia St, San Francisco",
     "website": "https://churchcalifornia.com/pages/church-barber"
   }
 }
