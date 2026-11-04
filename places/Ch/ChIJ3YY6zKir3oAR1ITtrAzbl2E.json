@@ -1,38 +1,250 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:51Z",
+  "fetched_at": "2026-11-04T16:31:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary R",
   "place_id": "ChIJ3YY6zKir3oAR1ITtrAzbl2E",
   "result": {
-    "formatted_address": "1337 Monitor Road, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "1337",
+        "short_name": "1337",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Monitor Road",
+        "short_name": "Monitor Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Morena",
+        "short_name": "Morena",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92110",
+        "short_name": "92110",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1337 Monitor Rd, San Diego, CA 92110, USA",
     "formatted_phone_number": "(858) 205-4366",
     "geometry": {
       "location": {
         "lat": 32.7713852,
         "lng": -117.1987895
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7728032802915,
+          "lng": -117.1975547197085
+        },
+        "southwest": {
+          "lat": 32.77010531970851,
+          "lng": -117.2002526802915
+        }
       }
     },
     "name": "Apothecary R",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 18:00",
-        "Wednesday: 9:00 \u2013 18:00",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJ3YY6zKir3oAR1ITtrAzbl2E"
+    "photos": [
+      {
+        "height": 2001,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLdnQDoNULZkeHx2OKCeS7CMbTVdhR6wqZ7akCgePwFo53z7AXlQrYsfxWItNqC0sg4DGrT-lz8AzvmIo1PIH4SmVx4qWyfvHBukp8mpSUd-HKmsp9T6RuO-OiITv0xx8VIdNtKYZngf7xa5IoTvXenqjYWhI0SSKLWnqijGIksK_y_fBtRDunmja1HuAbdsw28R-pQ2yG-Up_QumCmszpYEX9skQH32oz0M_mWGBl2MFzCgvnpeUQitczmjVFoEsT7_N3vwYlRe0tx6KvraH16rQN4lY4vaecVFKrPRiQy5NniJg-FYf_H7RST4PAvUFGhcp9CYPzP_DqGnPqZ7_YzeGgkSyjMUZaLZt0DpHsgGk3YwjZ4V59RishaJW5XpNvHxNbcRpS6mSt4I89miOiJTL_zo",
+        "width": 1125
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLeS7LahX4NwHmVwoe-rnqG2qwVTLKAE1MmxV_CKu27h5Qfejmsip-fnkODJWA3kFbjrXTZQnSs0DuFs4woaFVaFRv1Mflx1p7PdTR90khWdV0tYFxj5o2zInCjbRgbBvnam5YnnVOR_xBWXAHN0qX0_fHs-ixQf58QFZ7A9ZbQ2um1yLckAxUlc2y9r52p9hbmHnHF0BV5VH9KlrW3nAYkG5F_oAWhafKw1lRMEoY2MA9CTgRc-aEleJdl0BRCNC7T4o0AMUbL3IF-MxnuaTgn7UYxWg4Ktg2XRJTlZUSdDv0PhcFszHG3bHW05zLJ3qorofg_SUka5cN1NOmgfd9b9gZMkgYLP2xPKtdFN7iiYiDHW1DDFj55EeSdK_l2n_64zx7_COJIuADJlndf42jKOFqUiM_A",
+        "width": 4000
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLcBjzQLgTJkQzONMiHjKRDov3lnzYkv47FLgijVHWPfyNDq4oXsa_OnQTd1hcFanjcjIbQKDNO3BsGhved67tBX3-OdE0cV08MizXDXwU1F2UzHEga2ddkiGz3J69QgH82oPNG3KNCPYPmT3CJKiO2Ke5-y-Km4-HN7EuzvGWCe-1mv77smRWJldS8BidNrlzC2nNrpbwm53QcCzOSmEaT-aFj71dzBTrQp3CBWWp0itMZRny-vVIx67lmy5Co8WYffKjEEmAbTaaDg-Pu5P3jHeXw-SmoIsV6nOy1HQXRDRKiRI_yoe2KAf2Iam0XI2ddb2Od7root2kV7EJjZzP3lp8UHXYm9JNVhc28QmVN0AkrT_k5ZxiOLonhQRQtsukWRj7hrFFN36cc4741BdzKeQ6aP3z4",
+        "width": 4800
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLfYrSACBmUtYOlrX53kMaa_8Jg_it3v3iR9ZD0MPv-06I2ABvtme6kYwWLeSc7reOZN-Tm4bR4IcunpeVcVF7ZFzo_ZnThgF75l02f3gMpEutTstJVFNY23gbgqSchHJnTCIQgEKum9N94sGLtZ4H0vYMxJiPRMBoXO8QU6VowP3TargANTu5JytMRum5-xFEpiiRvcrgf1xQwda-ZSeLcVA2_YCgrTxIbaKEzYqXuNig0U8NOhXnYccrw8OeIgirqsA8_kedrKOR2b--8tLpXljGlxSV1kJd1oKHk_oXDgPq9VBJbLN0cLDMmfOFx2bP_34qKtTGlIVEw7_7nO2no7x47BR_DfIJ1jduJ96VSVBQcz9xUUHI6axreVtZdGLEKvVa7cPq39Jm14PHMxxB7YLbtsC4c",
+        "width": 4000
+      },
+      {
+        "height": 3743,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLdL2CM1aDk4SsmU0rM4qXZwMvnXNVyJW2B3ow1uZtrLNJSgjvscysOBLs_z8gctoPc2kW8gghXzXtfKmTObg2Ga6nR200wUKR2xjlwQZkgFmGEHDoYzimti73lCpanReoBRxUtddK3OEPpAE3QBOyLHZKFyhli-aresc0tFdeAX-VuL4xA26yl4mxU24uGzyxrjBOruGH4yi4WeVx2J2mTY-dgvv7O3NJ4AEA-9z3huRH-TNFZHz1KFP9qnBuJQfZ8y-UAU8k_BDmyLhvCLRFh4-wKEgBM4rQhBt71yttE5ZXuNn3eBm_uj0M3p_RuSRrQ6L8it5LD30LkzEVD0Lo4TQgL_NFMEHX_icd_wSXVxZXl95W9_DCB8A0UM8G4rdLcwQaCQ1akWaSi9mdDges-ahVM",
+        "width": 3743
+      },
+      {
+        "height": 2660,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLdxoq0oAD5VTesR46Wmj9_yCD6QamvNicygaPHAzBUYzx_6jez7bQMpljraJypj67kOK2vnL7XrcQ3UN_fP1AB0gsWgZAE2ETbAMu6TjD1HlICp4zgzmCCJ97zON8WD7AZgEueqfIxJ9wj19DiIznndlhVhybYeTVDa3KnNMdQivzUxMJy75xf_iIx2AQqTqSi9OCmTMCcBU-YdAnL_P7WdsUnquzzumhe6daBnPDMuY2pgSehOiSN9op6_pNaa3vj2lSl-h0nmYxEgWLifdRh0r9eJSBOj-KROjIGqLCTczaww8Vsc7jznq-p2f3MeIjjQcVmbpKFFUEEyJFaSNptA3G-K4EJsydffGlkzsxoY0Y3mRiPScAN1XMvlW27uak3chsGZLmUJNx94nh_AsrAV6x6M",
+        "width": 2660
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116074808183376811553\">Olaf06 x</a>"
+        ],
+        "photo_reference": "AV-0GLertl6odCyqKoPRLwx4m7lOFDxPpVTibn0qMul7cy8ssv6hj8QnXLEEXDgrk5ibyMxXXdnkcbj1obEIlIhhXLAhINEkKIXw4zYVtSaEkAKe7rIggh3N33lZIds5caKdk0ul-f1UiU3FpNIvIYO25UP0NYjUnSu0NYHLKKF4lvGYJ8EPX0lM4agboaC1gEoUMMuei_42ifAHMSz_z4c1miHHi7e3KKSwqwFOuLQqL7Rm6goPfNl9PXXFXZw5g44HV35ns_UEr8lWMYwuv1_vwS8gzAAXB-ta2Esfsz0VIqTcMShR5pdGhMpjQq-PxmmAwA3II_tbcfAzL7TSXM9F8l2XFPyofDTpHvTWKv_Uyv2NO-wW6TlvB5bY7w0tVhh7pleDYwjVsNqZbXp6HoZeCC_A20A",
+        "width": 3024
+      },
+      {
+        "height": 2960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLfNIZvSREQSnJLOwEWOxoYLb0a80TZYXBRTAEGkKw4d7qk5G4UyHQ_auQ5csmnOVttppq0qoJLpdP1rnp0uYl0igBVTDtIHPeyN_yg1fxoHL6W2vBC_ymBMDIyLhephJtZBqTPj3jaFRcH1IhD1zWnFP20er0N9QLrX2nxBjYyHchAV7rnysISqw5PPTbkBcnb1jARMOKa4M1My3nYuEdj9xvNLjAKyL8Z1Vcvy9U6FFnmTniZ49iuwVoVOFwsZp8gsj3O4YDNncDxNF3KHOaBQ_kJzhGgnCSAChJ4aA0YZb_hpxEtgZpeYKzdJdtcPB-heAqjSxh5onZvteMTvaqZgZWjwU740uDhxmkbuw059hsaEFDLLS05XP7AcZK6ULD9UW-DB7k2yUPcO8MQLeN6vWMZzgTc",
+        "width": 2592
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLdEG3mS-IuU28DOb38VpQrNPi-J-R3E2cczgvUV2bq4qitxQaJKqU8pgsiN0sdZNYpO_ns2tl0gMuSVnvH-0Bodz6rE2X6u00mRvJ8kYQepCoix5kTJGKeNl1ojVoc3Gr-yOvycoFqHpbUdY-Ac7BFYGemSr82x7UiqU9W-4sGSZMngbIMuGmVakyxtanSGxfJyivTqy9MRZ74VfaZX7ARZQzfjHvKZfCIQUKjvBQL0JQV-HYI2iP6wiv3bOxNo8KsnS_g6-UoPzAnGEQqMtCzxHsDEJOSpLOUmLZdFGUO-FpD9bHkpclPBmui6DpgY6RM5qUicAjF1Q9XKieexsBywxVXV4hBZfNMsmPmIvND2uJwt_XCf_XjP8nwHE2ISBLq33jEeDqqYjF_rR-NeGV-5vaxRy6k",
+        "width": 4800
+      },
+      {
+        "height": 2327,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101399339744804441525\">Apothecary R</a>"
+        ],
+        "photo_reference": "AV-0GLeQsgcp87KOt4RTbQCkOsN0l112kNadvYJR-TDEju4cJZ8ZStqW5WhSb9YrJXhK3iYIB_juHdwG1yyWSoaOG2fLEA0Q_Zc2kNWUHpDCzNWMSBCz-D-JIiBoO4nlVeQoPnmuENy1nlufvsbgPm0uD0Geuu-KNQTq298zFeSInr1URYmfi0yLFYA0qrAWTqxMXTtuNT2PB398HjGe5i2K8iojCZn6BWgtAfLjzr5Vj94rmJ8ncXVDVQRuKX7kUQXbb6q4V2D2LjkyaLqg0b92_hkNKrsmZQOwc1DpUSMr_SgOMncSy2C8PLkbaqQg_rriQAW-N1Syc9D_WoLPM5xPWA7w_Nn5a9guWPTaz0GD1AV1Ngp4llWyf1Lkm5kcAt1KKRzcMzAy2FnEhP-gr5_UNpOImQmRf44",
+        "width": 2327
+      }
+    ],
+    "place_id": "ChIJ3YY6zKir3oAR1ITtrAzbl2E",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7032330190649656532",
+    "vicinity": "1337 Monitor Rd, San Diego"
   }
 }
