@@ -1,26 +1,120 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:39Z",
+  "fetched_at": "2026-11-04T16:31:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ancients Apothecary",
   "place_id": "ChIJw5Y-kEh3hYARbKse9p_9664",
   "result": {
-    "formatted_address": "1439 23rd Street, San Pablo, CA",
+    "address_components": [
+      {
+        "long_name": "Unit E",
+        "short_name": "Unit E",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1439",
+        "short_name": "1439",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "23rd Street",
+        "short_name": "23rd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Pablo",
+        "short_name": "San Pablo",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94806",
+        "short_name": "94806",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4822",
+        "short_name": "4822",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1439 23rd St Unit E, San Pablo, CA 94806, USA",
     "geometry": {
       "location": {
         "lat": 37.9547748,
         "lng": -122.347639
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.9561226302915,
+          "lng": -122.3461514697085
+        },
+        "southwest": {
+          "lat": 37.9534246697085,
+          "lng": -122.3488494302915
+        }
       }
     },
     "name": "Ancients Apothecary",
     "place_id": "ChIJw5Y-kEh3hYARbKse9p_9664",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12604446845597297516",
+    "vicinity": "1439 23rd St Unit E, San Pablo",
     "website": "https://linktr.ee/ancientsapothecary"
   }
 }
