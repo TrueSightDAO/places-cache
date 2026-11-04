@@ -1,28 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:45Z",
+  "fetched_at": "2026-11-04T16:31:25Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Body Alchemy Wellness Studio",
   "place_id": "ChIJ-y2MEI17xVQRQUWG8H3zwUM",
   "result": {
-    "formatted_address": "213 Southwest 4th Street, Grants Pass, OR",
-    "formatted_phone_number": "(541) 761-1487",
+    "address_components": [
+      {
+        "long_name": "213",
+        "short_name": "213",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest 4th Street",
+        "short_name": "SW 4th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Grants Pass",
+        "short_name": "Grants Pass",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Josephine County",
+        "short_name": "Josephine County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97526",
+        "short_name": "97526",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2458",
+        "short_name": "2458",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "213 SW 4th St, Grants Pass, OR 97526, USA",
+    "formatted_phone_number": "(541) 450-7506",
     "geometry": {
       "location": {
         "lat": 42.4392444,
         "lng": -123.3297753
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.4406293802915,
+          "lng": -123.3284770697085
+        },
+        "southwest": {
+          "lat": 42.43793141970851,
+          "lng": -123.3311750302915
+        }
       }
     },
     "name": "Body Alchemy Wellness Studio",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLeFz_u1GowQo0j17n0LY3evsHQgSE6anhH7FWze4mCyrVR1KyH7j5hGvKPkCI1m1TjG4BC1O22ZsQOreUwZvdXHl-a0RkIGamM2sK9G-zVskXFYyAA3SquRBucdDIr7edSSjgyuoZjYj4-lxXL1xFst2sIKspHFQF6kJimgMiK-auP1Lsm5lZLJUo3Op8zRtGR_eFvdOkASfl_g0bjqYU68UgzyYlpVAB7r7tXyQXeFXTBDaFKOlpAKFGtaftaaU8RwSGYdVRWz7Fw2NLD0jUOG-2Xemd1fbDJNKSMHnSkJHAwzhBl6XZc7RVwzUWTvAxs--afGQUN4jx7diM20aOVK00my1nuQIWPDd7FrCmdwnUAmQsl8GzAtzFLoD58vWuKjsvSqJtsdVZ5Pan2H-QAWwLU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLfRqpP_GAg-629OWhPWmhKYXDUTsjquoXGsPA_lY9ZerAbYysZ3n1IAlgBpo-xeoItHwUM-pgW1tefqo8y-6fLmrG-5IB0cBYST3rWFQptLue_RtGT2WWrVcib6c0RSeWagPFUdoPoHSxY9SXfc-osvmeV4jzhd3T-4z-t9Qeqm9hPsrl6CtgLqLpiFqRwSs0doOLS9yvdVfd0zCB-b7uBE8lXuONlaOv2UFzgxr_SXaFIZhA0Hoy2YeBna9jAwHSB_dwojWPSUOe_kM3VCMgitGroWjCd77tRTTtC5o-BcxsY9K2JzETmJMBvzBn3jgzb4gLg9353tYlaijIYsVChlMEiW-riqtEILjTUS9hiiGZtjFEHLLWRvDH930UVDFdBqwC5CqqqVkhGZHRpN1hFN7G0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLfjvtee_fpIRtKhKoWGhg2egxCa7MPPhq-E_qyvIbkx4oGppsEGWopWNXQjZXv6q_qSg0GW_y30nffo9wXCUJc7nVrYYTg97NoUHr6nLuMeCoeVBCLdBpcEMizrkB2xPzlS9w82XM0C_3CGLKci8OMzTqStq_XHS5UxKCB4lPZxr0iLDj59vJ1aXYM_qxR_DwuySF57rIzwgkM2XxM6_UkHVP-ZtqETAyjIbwdRwGPfTAZfgyH44B0BAfX9EFRAfLKJi8JHTB_VnV2hC6RR-8gbMyMK0FprsCy8ZV8Z7rR0IepP0K7soZPJ7-Kqk0jqTRK7ZZyC8KS7vmxo8y2_hUT77_kUVaPxToBLnh-la1SoDeMNx_OLJBaLGsN_j9oeBqcc8KvR_OBL6Q9U8GzaKv9hEbM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLcUoEzENwZNnmBfK-rZb0vKjLMoynQaBGnw32V24adH0Dho5gyS8rUHSGqTb_eFewPUyINbe8RijckNxTqb5vJ5Wp-ljQ8laUEpubxpTRfyH_GPacQl--nBNv3NpcmvC6Q2XjPDjFQwZrjL4HVIjRPsafjs5eZp3e9gLxdFqn00bA2mIxH3ghbj_oC0XCvUGtJguJsjDi0xQBNgRQOantD7rAMxC1Hh8VYD8Z5fBwoacL3b3A7ddmcm7WoK9C_1nXwMN_CeEEXACpEEhiHWFd2YX479IAm5onE1xzzOiTTxyK90OoDEmrUUgSu0ehCvB_J6ZtEGw80ofPhPBrxJ38MkprQ6gDC51RdHAdX_lUjIY9D9pT6aB6SeH2K-_TAmg9iyjJUtysfVtWSYu456xxh7pfN0e_E",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLfbTVe9n5xM3gCKb-4_-1W7txQClryksH07De5Hloeg70vm5J-bhf8gUvhCVnG3RIFpVdDI0meYJ7MJCj_NSyz0ZYnre-CLPaqj5-JxZDGphrWdfqLpJcYTXLgrDzFpquAiNfUYZihlINHTSDOkRx1tGVvdVzq3Ex214ctRNgJJKvWnMcp76HCsL8hwifKkhIbdoGMdq3kS3v1Xu8gPWllHPeX8g8Vt3HZqjTqvFGXP3l_m1mo5yK5qgjAZfgLnwJMVK2tad8epTsY2g1jrhbiQB7LFKRCopNUr5akp4vzssgrhuTIX7i6Nc0pH8aErtGGKDb47Rvs-AuLYmpOqEWWyf5yo4KCmpeHghhrbbB9bmZAocHVfM28GLoRqBEQ7tqQ_Z7XjnAd3ua7N4japTFVJSd5ktL4",
+        "width": 3024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLdSeYu-5r7YB2XgbCAHZkfJpl_hGtQ3PfTEMs-CiSNvDzLbaf9kKn5LocYCJmPwGStVWt-Y9Q4jsOn4jatujLc5T_RlVuVEp7QOKGhSlyDqADl8mezg9nsghxwoe1BVi3vmPUJamkSoDPWsuOehcFDtcojENLkzEokzirf1euV9DG3zHjlvdga753Xbyj59_yKYurJjFs5Q5SuWBeuSeJPP5agn3YjCNAhD-WUuXVaBP2mUZc7moeZW6ThL0NiyAZSDVQULPYKLndTsbJXX1lGI3_BUcpFjGogdAhW_DxAp6TL-FL1SodPTxS_RS26QnhXLAhG_A7SkxXsTZ9_SzdvOynhVeLaulr7j2YoNhl3E92Qf71F7JvyNmWjlW7O8AQnspnjvFvs4koRpxJ-TioO8aJI",
+        "width": 1242
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLe8f6J4KcPUu6n1C0tSrG4Pn18gvlNjGWJjMir19ysxjsMR3PJWv9d4wpA8s0NAeIAvLHGAABB3gqamDajlqijazVTAzsO0hQGFnwbin8Sc4bCDVRS2NHtPXYEmTrakQ5-BBUjpFUrS9KSSTFjwzZ6kh7HCRF8SA7187Nu_KHk1TZtHO1WAirFcXv2vAen2pkQM-PFmiBzBwmoO4MUd6mH_1qAYztSlZrGC-grSZaT0yWONtQJv7SMzbsSgjzux2XRKkp3tNA5BR4min_obWQd0ymQMBabjeK8GDnl0YkEWpHheBld9HLHy0R1DCp_6RfibuxOFwt0LRV8iArkRrrWUMoRvTBQ91WndSfsZFvZkiHDZuAU2O_bzacI5CEeIeRzNDy4jqxERPvq49cVs0Gf-2wGt7hM",
+        "width": 3024
+      },
+      {
+        "height": 809,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLebsk9uSrKqSFz-o932bZ_uvSX8gUzdVF72CfyA-y78XXX5LWl-Ea2Cr1j8bFBcGQRIep52t2QuxVdeUvCM29T7tsyFGsmIFQN2sPSo4jy8xkrUVcXEAO3QfBDGPfOFE36ptnPyxt8SPNjV3yi4ymfyH0Ct7kSXRrWvgqVV_mlpuxySwnTkOon4Faj69R7YME8Ok61zL5qe6IgxBPuZ6k1Elqw0a12h9BKVhNclKK6QybOtazXQq9GSuAVycTnXDSeGiue5M0R9O3vHNkdLjCjIqZB5tp53fOQ30A-YYGmT9BrhAq0rC-IrfuNtVJFDzbUzFPDGNga1Dla2jEm-8h52A5e9Ga1zreu1yRCS2TRrD6zGNoISOe4SE0wLqFCELlanQwEN2qasLOkOf3DfLTnBcQ",
+        "width": 1242
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLepFeSNpUKAr4i_DUxO-9FHq74c_xgCSEQEue6Hj9GbmpKDfvSwRGkKMYHlg0bfMoY4kDqDtvGB64jkZulETtgyir6_qUiNHnZWbPHpEZgD77KGGJfu8XuV1UgeMh4ZL_-a_DqFG7cIRi_D4Lka7CuBR0XMarBPj3gs54MFDdVgimLpSzIB26NYQlXlDTGTMxSq4udLE84cYTRBKXSzwFrRq3Cdjd4b-UdCkaf0IdA6_4kFPIJ-scaLKspYd5bPwoL7H4EtHRWgOuVXzUz93y8aol9elTn80ryAGREy3ajCfKrwLbeDKzD3XCcv6YF1rcbZR788yqC5fj9LMj7s8Sgr2J4yEApXFRw5a0hwFwTdVVaAGVoLNJMfRTHuHP1myeoe7Qi9QKngFiDIhjmXkDdcV-I",
+        "width": 3024
+      },
+      {
+        "height": 1529,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104317007516914971607\">Body Alchemy Wellness Studio</a>"
+        ],
+        "photo_reference": "AV-0GLdmLx5PwK_K6MjawzZjlPk_70AaNNGqly13pXi66OvWl_ofNXUzei0FD7K3HlE77U0zDa_daqTZtV1qSfBj3BaoEfurKarUrKt3onAJA-pgovcUK8v17xlx8fjNJBXLm6PJsHPut6jbdUXltK7cs_fNC7zQ2itST7rgQyku_4r1lgWb4bD39eXOFGO1LAhpOn6XoZWwxsUCcy1MKk_v-0gptt2XDh-WXrPSV9Mipbf2yFc7Xlmrk01D9DGDqmu1tPdihob5ioivG3JV-qyfUTfewjWHmceE7Qmdf9kvsC6GdP_y7EbaslXyiPhUMhHAIsmctUUKIRarixE8ntLZJl9IbWqn62UlN2PDQbfVAJ7j5cvEFBqgJV-ju3R9y6874_2NHa0hRjPrMp8puaGRG-QmKFEK_cI",
+        "width": 1242
+      }
+    ],
     "place_id": "ChIJ-y2MEI17xVQRQUWG8H3zwUM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4882451193278121281",
+    "vicinity": "213 SW 4th St, Grants Pass",
     "website": "http://www.bodyalchemywellnessstudio.com/"
   }
 }
