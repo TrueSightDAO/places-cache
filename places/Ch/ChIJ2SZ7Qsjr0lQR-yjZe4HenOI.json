@@ -1,40 +1,238 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:50Z",
+  "fetched_at": "2026-11-04T16:31:32Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Heatherly Apothecary & CBD",
   "place_id": "ChIJ2SZ7Qsjr0lQR-yjZe4HenOI",
   "result": {
-    "formatted_address": "1647 Hartnell Avenue, Redding, CA",
+    "address_components": [
+      {
+        "long_name": "1647",
+        "short_name": "1647",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Hartnell Avenue",
+        "short_name": "Hartnell Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Enterprise",
+        "short_name": "Enterprise",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Redding",
+        "short_name": "Redding",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Shasta County",
+        "short_name": "Shasta County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "96002",
+        "short_name": "96002",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2268",
+        "short_name": "2268",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1647 Hartnell Ave, Redding, CA 96002, USA",
     "formatted_phone_number": "(530) 524-9257",
     "geometry": {
       "location": {
-        "lat": 40.5630638,
+        "lat": 40.56306379999999,
         "lng": -122.3414353
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 40.5644523302915,
+          "lng": -122.3401570197085
+        },
+        "southwest": {
+          "lat": 40.5617543697085,
+          "lng": -122.3428549802915
+        }
       }
     },
     "name": "Heatherly Apothecary & CBD",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101429788712595499717\">Heatherly Apothecary &amp; CBD</a>"
+        ],
+        "photo_reference": "AV-0GLfshr4BEssPopshGJE2dVU2pOXRcXp6cBtdnLNyXbG3hgMbjx4HjFLtt8tCnxbq20XoOakG2l6BqdMOPpck7xS3xutXR6MZvOHtm6_u6mtHbuX2uaeA_K_Qg_lhhO7Dft0b6w4KmkBlxHW2DGI3EEPS1f7C9_b2_d3sEf3LOnNl9c6vb3u8RPi_Jwez_8ufklco7c2cGaOhGia_Cg1ZaHLs70TK68nNbNLq5w1HIIhtIocs-7E4kOsjI9vu1iC-ADyULrLBy1WqEjxwchDlLhoCJPmej23pTCAurmu7es5Dt2xm8OLWOXO3ZpjmnwLhuqOOazuTCGtNL4zraHP2wGw3uwUG4aq43N5OLmCpQ7nSWva7P9ARpftgNP0tXOD0ZvnfWWbcG3GChpNeey0LEFFZYwFpOLk",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101423380738608403743\">Josh Heatherly</a>"
+        ],
+        "photo_reference": "AV-0GLf9dxk0PgLrkU8tnumxZ8Ak2rWJNldjLggoEwhOXxm2co3VYD7df92_q23T5orRsZeCXilmDHB3gA1aRGZTD8-VBA-lOhA0ByYDJaUIRdGVWxzZOtwE0CTT1TGV591ZYUDoGE_VwQ1RRkuvkZvCnGNQauRzJVVAWakHN7wd3tov_ljZvihFmWVsR2BnJIByfABKCfBtr9QnXycu3Kg9hV0wCnIJgIj1s_cxlC9yqTPkOgvpELB-vcWetdtr42WwgZM9Um-LnPOpHAasjdjokPgaohJMgl5K1nCmgqeeQxwJwCsfo9hJR1bdZHX1uytnpPH_Y6yR0fiOQ4tF0u1NoTLfoTLoVzSPrkuSJvj3ShPwphJUPU5QSUHkFvXRi-xz8Bf_DlxF-IldCzIy8WdELv3WhwM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100740713068012664679\">Dana Grzebyk</a>"
+        ],
+        "photo_reference": "AV-0GLeYqHF4OEySzqImKzdVcm0Ol3cI082aLlqgyfZvY__YuF1EOm-OfeuISd0hk28kQwSSthR8i0ishoxZ_3E_03weeqBE1csN2HAomoHNsMLzDnsG0iWuZR5QMYtwqTGmZpXGDrFX_eCoSV-XoRPFAQwaKrOR0327RI-pykX0nWQ7fdXmeWstvDuBQ84pFQqkQPsKTQrWY0He5V8AAxH4rVRaL64PNhMMNd8dyuoDw0wTCDxv460SJK1yZHXrMW-lp0Fb9sRhSWtw_vLWPAQs-t39AeBmMBtC4uGaT2vZg7Dnp2o9VgMYm78OMhnSymiIADC6gNeFcpuZD0fS9E7E28MZzbiRaKPmP2por2GsoGhbICbh2hU-VoqKFEcshuj5fN7L5vDYR7goxslXtGcw8i6BT2w",
+        "width": 3024
+      },
+      {
+        "height": 1994,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100740713068012664679\">Dana Grzebyk</a>"
+        ],
+        "photo_reference": "AV-0GLf8fH6vDLBvbODA1rUMyPXX5c3K02vh8BWb6o_I56WpT1r3odxiloxI_mZ30LPXbF5QDDx2Y_RmRrPyy9CEydRYHExnORrTYZ-7tlDMpPK8qJJ01Pb5iOC_xW-CMn37-DWJD_LZS3-N3MzhnRoItdWREf3RKlF8Bv8krPlArQvQRl8Oc6dGszSO3Hl6OMnJMNeMPNEOlhmIZ6e3vxbzjIt7z7dozLpmza6h1B1eEhqlByBtb2eZKcIa7wPn7Pro1VKbpudJHa9mxY7ENJshzRnfW_GS8DWVoMK_OyDyyjgNOH24VL_s7OrLu1FnweBox07leDI53_pQcILG7wKd6pi4m0lz1X48gGwIU7fiqXtqJbFmX3edUzNMLzCuB2F48__q2rDsrY-Ekh4nyiT_dinxrHk",
+        "width": 1122
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101423380738608403743\">Josh Heatherly</a>"
+        ],
+        "photo_reference": "AV-0GLcXPKv14B0KYpgIwM_FWjsnmjkXLTDiY-MEBAuDmBeQg_bgAaoCxAr7CTrTkc5BU6cj9BI7nUkFqb9D5o9Wu7_xm-wXtFyKhYeEcjsHlVQp93Uw_zmcK0rRUDohLeXhTd-fmNjBi5qtqRk8uutvqYMBwuAEQTqURJ5XZAFqd4dGlsmE5R5RJokd5Y7acjTTJfUU3ryJ3uTjs2Bg0g3qQxfL3cKmULriIyQB62YHemzjRGezY1YhyIa7b1-qjwLAhTWXNd8GBHqZqcONy--yCB_a1bA5lYj6JZZxF5DNBjsq3EOAUCMkp_mq7FSh65fBwZpSpKPt246VKdgRetYtqJ5p1POclikd3Mm_FcXZwe358UaWknGddcG7I6PdT91DfWSkqnnYTTy_KY-L5uWayfO68eEX",
+        "width": 3024
+      },
+      {
+        "height": 3757,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100408108444260542207\">A KH</a>"
+        ],
+        "photo_reference": "AV-0GLf2GWDNSaLhu__XeVO8pi7RSrTAUuhYIlJJleUe-LLz5RTuQ4UXnQ2Hh4oxOE_YF369ELdeJWd1CZYUM9nnpVyMvTTq1Qs4FNPc3AYS9DxGyGsAhHsB7EYugCy-dLCNJXb-movIVZLgZIFa7Wk2av78iSnbTuA0EnQwhzWarcrYg9z5vSI0HKe7v5SCrbjX1q6vkd4vbMdBkoP_ZJ3gatjVuvqv2AB9Z4mK23U1IvyP8tZmOhomX_Ca2qBOyKA64863ss9jnH5aMhxEvNmyZobC7cm67iRH8P7ty4pMZ1A8Lo3bNHosZ0wTYlC6VHKlXWfJLxRvKgtoyIiZZY2OOti81SbsV4u3PV1uBQg8mOFtawfCg-KJDDMs5TpXSsZjPw4lT4pyui3fL-wVJ13MA6Az8Qdtzyc",
+        "width": 1868
+      }
+    ],
     "place_id": "ChIJ2SZ7Qsjr0lQR-yjZe4HenOI",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16329170996648552699",
+    "vicinity": "1647 Hartnell Ave, Redding",
     "website": "http://heatherlyapothecary.com/"
   }
 }
