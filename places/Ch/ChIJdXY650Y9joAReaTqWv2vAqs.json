@@ -1,24 +1,124 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:09Z",
+  "fetched_at": "2026-11-04T16:30:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Craft Apothecary",
   "place_id": "ChIJdXY650Y9joAReaTqWv2vAqs",
   "result": {
-    "formatted_address": "2005 Sparrow Valley Road, Aptos, CA",
+    "address_components": [
+      {
+        "long_name": "2005",
+        "short_name": "2005",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sparrow Valley Road",
+        "short_name": "Sparrow Valley Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Aptos",
+        "short_name": "Aptos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95003",
+        "short_name": "95003",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2645",
+        "short_name": "2645",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2005 Sparrow Valley Rd, Aptos, CA 95003, USA",
     "geometry": {
       "location": {
         "lat": 37.016692,
         "lng": -121.878952
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.01821043029151,
+          "lng": -121.8773741197085
+        },
+        "southwest": {
+          "lat": 37.01551246970851,
+          "lng": -121.8800720802915
+        }
       }
     },
     "name": "Craft Apothecary",
-    "place_id": "ChIJdXY650Y9joAReaTqWv2vAqs"
+    "photos": [
+      {
+        "height": 1798,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115718897145551572341\">Craft Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeEiEROZHugncGb-Ouoap_TOcHl1sTBHpf9yPEMtkUcwPMUVZMiEsRTQlq50e-CXsK2cJiJdlmlgs3rWcX-NG19Ic1mQaCn-cC8Kh1j7-H6qjWGertDGSi5pxekRbr3zomm84cFKzI6oiDiLjjyvAN6MC9WaXaHwvizPMu3U_Vc8-HlaL-BvnKQ8FCTc_nzMp41a9ZRPQHhaWxGw6yrJHsXh5G-MLMfXS82Ng1hvA8JHAP5o_m95cXIqLvvbi05I2SlQOaILlDbnLCBFtdCVMhtXmczQPDX06IBRaOR-Lrw_nwVXOyWffk8d2gP3khAVpOdvPmFE0DLt__2IPuxfsaSNrk8hBP1uU06y6r3Yaty1wFCuvoPTHbEPPFh3y4FgXuY5cFhzsuCZy2iwWfelAVvt6bDWk8XTSW-pI2V_PFD",
+        "width": 1677
+      }
+    ],
+    "place_id": "ChIJdXY650Y9joAReaTqWv2vAqs",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12322605033126012025",
+    "vicinity": "2005 Sparrow Valley Rd, Aptos"
   }
 }
