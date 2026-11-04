@@ -1,38 +1,247 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:20Z",
+  "fetched_at": "2026-11-04T16:30:54Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Hue An Company",
   "place_id": "ChIJkzNHaPOAhYARIchRHn4Eja0",
   "result": {
-    "formatted_address": "776 Jackson Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "776",
+        "short_name": "776",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Jackson Street",
+        "short_name": "Jackson St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Chinatown",
+        "short_name": "Chinatown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4909",
+        "short_name": "4909",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "776 Jackson St, San Francisco, CA 94133, USA",
     "formatted_phone_number": "(415) 362-1888",
     "geometry": {
       "location": {
         "lat": 37.7959532,
         "lng": -122.4078913
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7972691302915,
+          "lng": -122.4065310197085
+        },
+        "southwest": {
+          "lat": 37.7945711697085,
+          "lng": -122.4092289802915
+        }
       }
     },
     "name": "Hue An Company",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 8:30 \u2013 16:00",
-        "Tuesday: 8:30 \u2013 16:00",
-        "Wednesday: 8:30 \u2013 16:00",
-        "Thursday: 8:30 \u2013 16:00",
-        "Friday: 8:30 \u2013 16:00",
-        "Saturday: 8:30 \u2013 16:00",
-        "Sunday: 8:30 \u2013 16:00"
+        "Monday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
-    "place_id": "ChIJkzNHaPOAhYARIchRHn4Eja0"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115102307186632409206\">Torben Mauch</a>"
+        ],
+        "photo_reference": "AV-0GLfBt5lZBy47w5McaQhF2d1UCke-yjtW4ZbJ1rFoe3R_g7SJ-7jlfXKOIEHOMH2v4qzdsY_d6rvcT4InxhZa1PewziZuIFgMHcpqkqrbGYbQjkIEQGerW-6pqlSHYGB4jJ9xipjIXffoFx5a8Swxszxzz4rKmnI4Mt6Da1jStIH3z2i-okRcQ5ScPCGkltoG7zLilqSLzcySyZHfaCK_fa6WHqkCUTYniq7muVzTbTVRT3WLtdy2EBhnTjP_WCSP4Kx8GdJGOEUWqsxWdpGo5KwtkaCNe8SL9LVD_n6qKwcHn8u5PHxgLv67Z5MTTt_mLBInSALkkktdewnWxni32F1E51rUY2rRtYCL440oydlMPpqi6BJIXSy9QE6dWR6ri1js_3TeK4v-ZXOtsmJTKqfsbkU",
+        "width": 4032
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110455581988430070971\">mario andres</a>"
+        ],
+        "photo_reference": "AV-0GLfskvryc21F8AmdVgr-zpQghMBlK9cn4c-WMhwMsvrKzW5oryl_wSTljAXIMZP7IQvQyal1xAGXcnxZNK3_iO3WvGkSx52TmlZ9e63iR6hcw9WjiuckdMWk2xUdw1bdtaOXI0rmYOkaJIqEhU-4BzeDep280rqe2zOgloYENqfAiR3Z0TeK5egwG_0w9ucmBjUyb1IWqJ6BWi84Xst-JDOSOPjwe17TrubYkGN-ylJ8Wg5rlF7uCkMxv_prHZy0Z3Jt1MuANmd_dCyzWlHMs3Bl5D6KvYX197v1aXZ_ZJvc7Acfr2ZiiXoT0p1fdVtPZDD5Y98MF_pL-iqA3mFmXOBWyKD43PdRh0CqvJbtAbclTCzR4aY-KYtSXyliSBPo15A1MsX8W3ioxM1PyCiNm6dhnnA",
+        "width": 3840
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111452551716656432858\">Mohannad Sulaiman Alnoaimi</a>"
+        ],
+        "photo_reference": "AV-0GLfW0uxIAW481OyLRCMUgHW1z1Ak5Ss1ZQ4YK1VWLxBTF1KBRV7OKwtIhA9EvvmzrjZtPTxia8Zia9GfsUK_DG60jTKiA8WpcwIKivHfAYOnpxCeI2i-bSsuCdQOZQXYbExNOQzImtoeAVq1NOPSluWwFhfYcWGZRTjnGm2tyzHhE8eYUu5_s9i3XO1orMfXbaCO3VhCqX7o7JvUpc9idOiJk9gKhhCPAOPL9f8MMhicOuATpgVhLJYR9FbN5MAKKFjNiNlO5upOebRxVk8dz631LXO1COcc1vElpdybHIizMDoLQjQ-RNE1cPPDD_FQNur4Rqj2M6st766pJ-78UBhwkdL3LshTyqBzaVJjqjkJLx8P7DAqjaTS9EcmyL6wD0s28uLOoZCVwT-c4Q5CtSRvd-pP7sA",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111452551716656432858\">Mohannad Sulaiman Alnoaimi</a>"
+        ],
+        "photo_reference": "AV-0GLcpTdKtg-Xcz_4rYpjOU0tgui0lAz2Hq8rN7Ticekn5ZaH6Dau4K6y8TZFRpsKMmB54vIWhc69yuagpAjYRfcwuZ1bd_32-Bd5H6NEnRc-vXGrwEBkJgigvolYRKtb3LEVSGCEp2LKRSzUHZfsRQZsvWfMAW_GGZcV5prjWbPvPlq4TbKBw0-2WYq8XrJe0zYzBA9kLgSifXqZd1p1gdvxNaKZZ-AovpwpqZ6B_Q7T0tQsm2uaS8InWs6Woro0Qn-ykodi1-8BGGzav_xU06Atk31KYWcq0P-jZu6dI-TcyUGPnVxrseb_zkaEXckQ4oasCkRGhamdQ4Uh6xQDiehnwoy6xI5sQyEwoNHmbqOvhMfB-UflkqmB95VBQL08kWFNrs8LmrciZT_Ut39uESVh-3OzPAl4",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116289653129569088798\">Sing Chan</a>"
+        ],
+        "photo_reference": "AV-0GLeo9XCbUbczkLfCBbjxMwTSKHpLW1kuBHXBQr1FOjWYNMMoYRBbtZnw5rk52-p27-TpexrUhGra10IGUqfqRr4Ka95loZ99xmR6w1uonWH1a_adWamRYcoRYYPUc08Ke1HCghpbZSJ8z_sEo_1590QiH9HY_PiqVNxXrsGluCN0eCKKC9LxLQuKGvbGg9IQUNJQmkMHv___MZDIJZyVWgbS8X7SiiGz5Sgk0HzkQYtwOoFuHQlXYiIRw1hkb30FK0ewd4xUPmAeetERMaaSVtHKZvWw58DpDqqvx8edWoopjFCzK3tSyGXNDCyB-TPC8poh-jFhDW8XGYj_rAjAz3EHejK7u1CA8aRYrUcka7ZG2d9qzUZ-B_CXvZwllZ18RsB8NZKEWZl-E6mz7BzxEwG7Dw",
+        "width": 1960
+      }
+    ],
+    "place_id": "ChIJkzNHaPOAhYARIchRHn4Eja0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12505656679998801953",
+    "vicinity": "776 Jackson St, San Francisco"
   }
 }
