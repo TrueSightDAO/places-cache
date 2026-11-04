@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:22Z",
+  "fetched_at": "2026-11-04T16:30:57Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Devil's Acre",
   "place_id": "ChIJlYpzYvSAhYAR6qWdgT3askA",
   "result": {
-    "formatted_address": "256 Columbus Avenue, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "256",
+        "short_name": "256",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Columbus Avenue",
+        "short_name": "Columbus Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North Beach",
+        "short_name": "North Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4518",
+        "short_name": "4518",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "256 Columbus Ave, San Francisco, CA 94133, USA",
     "formatted_phone_number": "(415) 766-4363",
     "geometry": {
       "location": {
         "lat": 37.797675,
         "lng": -122.4061667
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7989823302915,
+          "lng": -122.4048797697085
+        },
+        "southwest": {
+          "lat": 37.7962843697085,
+          "lng": -122.4075777302915
+        }
       }
     },
     "name": "The Devil's Acre",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1600"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "0100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1630"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 16:30 \u2013 1:00",
-        "Wednesday: 16:30 \u2013 1:00",
-        "Thursday: 16:30 \u2013 1:00",
-        "Friday: 16:30 \u2013 2:00",
-        "Saturday: 16:30 \u2013 2:00",
-        "Sunday: 16:00 \u2013 22:00"
+        "Tuesday: 4:30\u202fPM\u2009\u2013\u20091:00\u202fAM",
+        "Wednesday: 4:30\u202fPM\u2009\u2013\u20091:00\u202fAM",
+        "Thursday: 4:30\u202fPM\u2009\u2013\u20091:00\u202fAM",
+        "Friday: 4:30\u202fPM\u2009\u2013\u20092:00\u202fAM",
+        "Saturday: 4:30\u202fPM\u2009\u2013\u20092:00\u202fAM",
+        "Sunday: 4:00\u2009\u2013\u200910:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114685816522693032726\">The Devil&#39;s Acre</a>"
+        ],
+        "photo_reference": "AV-0GLdAQ-hCQJJOxEcaihPWAifOmZmZHzAvbkH_DtbAIXV2HHhi4w-mWlsPP0ZUUjgYPByOR_avpb4D6cyPKfDbSvUGhBtzHSGydNGh7rTVUDpP_xnyDYrRSCoxe2DueGIhjkzYmhKxp4pPGd_w25Yi2Xph1ffQQDixBBhbWibYeJE14RX6pFC3axArgktgzsB55oj-nWTw0aQzdOJWU-Sj96ByHMpSd7UdXqs--QX15TPsb3dYjENv8I2ZVT3COQZk9N5DmOxedOJvxKQ2Aoe9UlODgjAqS-ye_MR7_EWXcxyIoo8V61wrkgfu3AJMeHDNElDXlZp1U_wgdczAcLrU4oNQy5R8UR93ouskjfkdkBydadal37iffFOcImvHIMaK-CqXyGMyPM4A7TWLJZvtvuW03nSVOrYt-y_vUKLp32eg",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114685816522693032726\">The Devil&#39;s Acre</a>"
+        ],
+        "photo_reference": "AV-0GLdwVNm2chOPvYYXJmPlylauwiFZM5Y_KZ9po-EIdzgUJUUIDt_MKNE7L0pNKuIJ7JCtb5iEC180wUugyWej2LbX5WZ_r7EKw5ZcskDSGp4xPE115PJezT5RAOtp4EXikcHW_KI9Ao7SQOXQzASjCtGj78SeB78eJtW2ZaNpyGBNq4AS1Eaci_wdtCKf5Mlg0klBPaM8Ar_702nYQwy6xfXaDXgaH6lNhXGZQjUSpG5rQcBVhCDiwmPIRsouSJfBeZSrw5i5AMB4DRKJPOz9c0_JT8tRJdCV_5On_hWeJSevM1MJe67EsCN81tL1aAkLTKv2xmTI0JLGqTCVHTvl94rPiT9SFgyk-2UOQe2xWJv6Eb9rBq9w91iJLawgy81nXMq8sHOgEWm2SgvefM3_ZNMwalXa7_-uJ6dQPkw3hgMSYw",
+        "width": 3835
+      },
+      {
+        "height": 2802,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113281302275377146820\">J-Michael Roberts</a>"
+        ],
+        "photo_reference": "AV-0GLcPpfeC7j8Uzf7_KabSF6PKx-PBcj0hiNRRhSRQ6lvvuaQ3bQpRejAY8JONmdhfrTfZ_rRNze6pdYrRGER44D7mtOunSq8vVgzjzyuqcqegl8NLhAbzUTm1-cDzomJMGmn-mqiJPO1OY_PoizfdM7mjlVy1NE1NGBNI0Cz3xQ64fpTqN2ryvOE9IW7FoZnOTAkg3EvzFX3nGGg6T6VCUTGNTVvQvxVwpr_WZbugFCWUy4a2Au0f0ZNkLtPayYTsIPRS-YjHRUI6-gTxMgcp219opP42lbzek5TtJUJg_dDZ7a5aR3j5Ph2W9ZDGsvox1jF3gywa6_kQJNOXedibtR0YLkNTYfHP13qTN8T90MwX8ErJWsw2RsG5hD3JaNX5Ag0WQd3t_aWcMEoAZ3xoN_Y2e_2ldCjrxEsrCzSJde_J",
+        "width": 1867
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102183033592003929566\">David J Kanwisher</a>"
+        ],
+        "photo_reference": "AV-0GLcyk1knh4E-TbLH3m03ElwqEKtxKd2jxJNIpnpSt1wLOK4k1VYgCIrw5LX2mKcuDvyD_vLBHcXASV-NjKYUaRWKXpGkj-cUp4cZbwkxRJMrSdTxqEO7nBxeOaZmGcY_8zEOQih3RpXLIsw4wtI7OukbCrzjY6HOU4FfsfSSzAtkHxgb5JU0MfuIagPMYPSqgFNKHu8meK8ALyN_tnkmVhjsL9aNlRAOE6c2y4yPnkaBBoIunTsQOJMZJbAolnHeqMlFlwB8keJ_6ls0g7YLw4SDtqBeIxAzoHD7JMUximsBYhPTk73DM3595VzAI4bBheEPzB318uu9C1CL05GyVOSvfGzUXXEQjy-LJx7euDtPt--7YHSoCI8oOqDtYfahog47zr5yJ6LUCjK_pS4yAetw69id",
+        "width": 4080
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114547060807660477558\">Jeff Marrinan</a>"
+        ],
+        "photo_reference": "AV-0GLfsm6TH2iWn7U4igYefmYA-gogTF7eXdJ112rVWeoXiz0qdiDq_EOG-VSzULXHGacB0Mv21prmhAhem00_RIfGXLA5F0rjHj-82F9yboWCESglK-YlPKXd58jiHldU3i8WoQ-zH_bx49dRiG8_GgM5eNO_gY2m5awiEQTfuVQwkIymnp7wSbvd6G2iW7W77jz_JDwb2zjI8ikYkDp8WZOPjYrnfFBl3uQBs-9XJJFuwGgj1Lx1IGBjCvpdUYVyWPUvWcW4qC9Vv_Ev5-gbLxhtyOa9Xn2QT09RWkbxwSoaBCv5_Eqebsgela5j0g8rZXutl4Ek4erBm0Womkb4wzoIiaL-bJL_BYXHg5zc3pxMFsqOTvsTj5rS_v-yDOgQyZxiPuGVu0vj8bnCZYBAcEoaO_jCuVatdIFkHPvwZ8PV-",
+        "width": 4608
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116596246734617098084\">Hadleigh Painter</a>"
+        ],
+        "photo_reference": "AV-0GLdS7TH9B10un1ZUlLQ8zMm4TrHXIZPyyBnsxW58ingl1RhnscWqPQ-0AAF7RPJ4pVg83z5yd0MGLNF9ujD2PNazWbhU27MYrOWRQJHQN0ZXzLdcFJ3JNHpETBx_YQhIuLlqLMaQsMKMJVNxLpPCWXD4CX7pgmLl4E6X-r0HXPqd-fypACCD8U_r_0093xj8VqyWbRgM1aSSLsKMJaYOHTmSphHS0E8jJijEix6IE73VQMrewSeuOdi5PdxcmneRKOL4341o36oCpWytjB0cWq0Jd2xmuPcwtbz7Qhs_yUo6TVx_s4yTm6LLJ5LVlFj2iMZLruuD2dysRXMxPKyQ8kAKG83AJ9iajZGqDdg54yw2btOceG5rEeGkMTQ-YQNjBgn2bK5pmYS7hPrkyK12yTw4Nd865QD1ntnfrk63yLJryQ",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114685816522693032726\">The Devil&#39;s Acre</a>"
+        ],
+        "photo_reference": "AV-0GLe-8X98-BfxjiABw9rAObU0qG8c4NmTQMXw-NLm5oNAoBHByAoCA6QEn2-92rRYMykyZNR-1lmU896N9ZVfxysC28Uy3WEdywjJ9c0JqSlzde20HfXrf-YTm_TLiN9PewAjxdP1OEgdltbAFQqDjIEzfXQ7QXSgygggVgFqKxw-dzyiP8ejX9pdTfqQXNjVATXvwZu3Zl5PRQgl-9vso54PEr_GgU80_0KhG2TWr31JDtcvX5lMQ1RcfNxD__0ZSmqfv0DbjxlN5LqwDwzloKGN_1hbml2DuhGsolthAzcuqOcTBS0775u7sTHFlDk-q-GJbJluo7BaoN6Yf9rcZUZCIlD9ZWnRbIEIZuJx4TSFqk5_u8x2bJMAgeq4-k_caNtsom9EYf9Bg_1LU8M2J2hXPA6S5jjE4w8jR2GiXhLFWw",
+        "width": 3835
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100189329752694272433\">Neesh Shah</a>"
+        ],
+        "photo_reference": "AV-0GLdBPAL2ApRWsqdJ0IVTk_cGoCPWcxAe2PFrJRsc1fQvvMyTrmKNEunP7twKtktfJDjsfaO5CWZBRhPXLxaj03EscbSY894LsJJSo-_DX-3VsCAzr4CKALo3vrCZa2lg9-TwhdKSFgbmlXfLWzEshkAkd011BDOIEG4bFI3WfG7T1to6LRBWWreeLRYnQRAlxO5iHIehdL8ACvLsfsfKFgx48PnmARe_QLc5NxB4gCKDXXnb7zLq4ISZwsIh91IP5_mgtCUGO8a60XtGRR4nE1nD88Y4TzG2CdWbE1JAi4gM-kHgP1SZ0wbBJZ8oh9M0eZ7bTNQL6qd9T7K6v_HUmT7MRCUXTXvblkuTEn3Kgre820a1hXIqgdmIvqs7QIixvHJlOMPSr7IarzmkHh181n-wpFs",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108794940731503696748\">\u30d6\u30e9\u30a6\u30c1\u30ac\u30e0 \u30d9\u30eb\u30c8</a>"
+        ],
+        "photo_reference": "AV-0GLfftJGRi9hPvG5t1PZX6C3aSANz6qo9iqtbUK_6JyTaqPjTvjcnOZuRE3QO6QWiuBjnALsfsMADafGSXdNryQOnLbu_1pWmWajJxJbl8dSjs1BudPfZP1BBd9sVyznYPuFZZVuMcv7Zx_KauXtlnnhRAQ_fAItcsEfrBGsOvMTm25CMfH_Q7fd9V5s9bi4666QCGmdjdHTccisgVIJMlVguRpHX-_WTnWv11x5hOG8pE0Oq6FYR7AFKDQ2-wU2vbxrUU3k-AjiMoE_AxT-VsfHPO3TV7fqwfx3ojuBf3295_XUL5uQd8-fhknDqDXa-CpHyMawfv7PeucCWE0iQ6MVpyRDClPw13KXeL2nLDmpxhRcWoS3eaKKXpFcDKI-tBVHp3ROh4-sP4Jm2OiaLJAdA5TPeHwyuqfN6JWPtRD1TLA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109325069419757858014\">Sneha Somayaji</a>"
+        ],
+        "photo_reference": "AV-0GLe99Hir6R1Wu1a7zu_7aKlUaZphTiBajhpztfhwN0lHBXj8xTPCDnR4EGYDvovBVrJe5qPpHnMEQ_JL8YVIWUo3iYY3g1gtXe9SHzoWdzh6IdZfypqx1B7laKE6ZobGOP5ChEhxiHAA7X6YBm-vGdimlp9xqWeam5tqJlLcT4L7CodbDnpdbP73Hlcid5uaRH62-gSGy2M8FBzFCSUEOJzHvQmj0LEI0S6KZNTsqLQ5ukHW0Lq23AyhyPMn_wtCfZyTH29MscMPD3fqdaMdS19H_w3qiZv42cT2A6kLAaq5Y7d8e4B5WPCPKIvxFaRXgevedefeQGp_Som4zyExf0-qxKIg4icfYV0y2AonDho6jWP5_jF3Y4iOUbUsBvQ2t0T6vd-malzclxNdvJFGbnh4BSU2Hbg",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJlYpzYvSAhYAR6qWdgT3askA",
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4662028521984337386",
+    "vicinity": "256 Columbus Ave, San Francisco",
     "website": "http://www.thedevilsacre.com/"
   }
 }
