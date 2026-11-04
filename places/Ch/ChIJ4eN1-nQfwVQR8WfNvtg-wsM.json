@@ -1,28 +1,164 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:56Z",
+  "fetched_at": "2026-11-04T16:31:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Community Apothecary",
   "place_id": "ChIJ4eN1-nQfwVQR8WfNvtg-wsM",
   "result": {
-    "formatted_address": "271 West 8th Avenue, Eugene, OR",
+    "address_components": [
+      {
+        "long_name": "271",
+        "short_name": "271",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 8th Avenue",
+        "short_name": "W 8th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Eugene",
+        "short_name": "West Eugene",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Eugene",
+        "short_name": "Eugene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lane County",
+        "short_name": "Lane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97401",
+        "short_name": "97401",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "271 W 8th Ave, Eugene, OR 97401, USA",
     "formatted_phone_number": "(503) 470-1593",
     "geometry": {
       "location": {
         "lat": 44.0511618,
         "lng": -123.0965608
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.0524135802915,
+          "lng": -123.0952027697085
+        },
+        "southwest": {
+          "lat": 44.0497156197085,
+          "lng": -123.0979007302915
+        }
       }
     },
     "name": "The Community Apothecary",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLesuNJAIYaQa8WKRR6YUu9XMUOsnwz1OaPXm3orUrel7QX_1n-xNhq8vHpwO90mJaiyAPliz7khsrbsM6nLjDhtsvAu2kry9thl7MniB1kdmu-BCdEE5AAaNpUPqaMrrNUmqVsbEUL5yGQ4xFvisRK1DIueQ8AwG5SprIBrBj3xptznM-4esgBiRU-Ljb2ZzS0oxNdKsgShaPdL1ID4ljV1Qy_vDrUsRYDjGs8fW8F5d2sWIm8PCHDsfGkFGL9Y7CRfVW1gOLOdrM1NIfFBTeDV_Kx9Z2oYzY87RTxJW_BMS2-5vJ9FyPCbcgaKXhdl9-L213wT8_RsqMax3f_nG3N95wuhczkFPvMeD6tNzz6IsVCjSNcDfugpzJNlsskHocxSkkypc2UhabOF5_oG9ahoaQVX4ZW3bmOc7VswsuPTpA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLela79sF3bbC4FOycw4wbi6KjstXTGK9BYPWPM0Eda-lneAAg7GQcUP2Ln7AekWMUjagUc4F7cRxJFC-9mgf1Ot433F4juoh2tYfV6c9zPpYo6M_9xrgOj8SgCLb4jcdgiPV4KsAaH_C52hQnKvqo3iBI61w6VJS24Rq81PEA7H_3lnSVEQ57N6VoLvdlu6esru_q2dTKOQxBy0jfAGzW4CwfKjtgzzL_AxsOFphBHLvj_GIddltc5fqWgW6PCbMKAeiy0G2YrC7Ns3PfgdKD10Cm5MW1c0ku86LJRy_ssTV-GthAiqyfpRM4lLf0BnoU_fI0seuKknxG--aXHmOOnpZzHr54B1c0a_4wvWAkLeAFUHHBRHZg9F7o4exUQjobG6BrKjVWoiAsL6sUEbbfQDfXEXCfpRHgSvkmhkVX8pNA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLewbL821-2ho-NkKMI4TVczWOMf041Fi5q5mLewsUjsxvm6Qz0HhvqnVUeNQgzq7yWU2ui60f0C25xBiGgg6yjjCoqMkrmSgmaIkk7aC0SMcnlc_ueWQPcC4t6YT6WeCzVvWDetf1iTbMXbpbWX7E5sNGw1OC1WPL1gxzd5OCKApDtFN4wWHBIaFlcQc1y_lFw5avrXP2CkJfU6_ryHFq2gMMoobnaD_cC56WqqYhVRFc7rxXlINuzOyDEWFfmrnxqkLmOn2JRtaubOOVJgJLmwEi_DhS-ok0diSik33OsSKtjqDdT7KaJkzFNDeVXYwE0_lQGowBhZBc_-PZN3ZnNA7dHXAnZ0e0-nzBV3mKzqdjw5Z0tjEFmPpbqmUUB0tE8pn3zZuihrW1eX-6mTin1wI2jUsGvgMnfXbPDrBtFeMw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe0QePEH6iGwak9pqt48tipsbXaPLxfOBCtFCPdPnGlCt_8BaKjOVm2JeS6_l6o81egZVR9f3rQJsQXe-cSgBvE12e8ppfl4mlMxaWqEwyCAa2iz3n5xCGwZNLhHGxKmtYaIhhwTqDCCFOhgBmSYFivpnPtvB7b8rw1-jUXB__5n58kj5hiCT3Vve9qjp2WULgVDWfmkDP_r7UvcmJuw59IM9WaW6eFnu0dVi1vWeIO3PP4npnpq2K5mk8Obyuh2hP70OkJnVkIKZjU23usZ_BbTBAKWeb4VtCMJ-pKsgjeunpbejaIHJBDudnxaPZz6yp2k6TdZ68u3vqwbM_hZubBmUvVWZMZFhd6mac0F-CjeBw-v9Mtzb4MW3cfEdZHddgRxrIX6nZmKSDfF0_o101wSmXdtciL7B2hxA3YlE3p0g",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLePMrcyn9349OK2El0_NnPv_sQ3mI9QfRqFIyB0-9WbEh-Ca5g-yNSn1H4XhqUk5_wEh9hHZAsL40-HcW_o8eh3losV5ABbXMiwpVshqYkECDOCmvAPY4wIAm0ioF1rn9E8CP6rSt5CXo2k5NTU2ijqEqAwY6OYsgvM2mkmrQj-anv4D2Ai_Vyi5kZoEtCGkfiky8sBpEXZqW2QyzXKiL63R2WTA4EAABXJq4PuFBBa8eo_jirQyX9ox8ReZg4r1or-oVU1D2XPy2CRCfUTBnjHTwIEzL7p7ByKuO12nmvkIY4FwEQBjldK18xjuQYfzBt10hxKcEI6oN-r2OMxetruc4t3-fcaMglRyKjkyvi7MrCpedWyfrtlJ6CDA9DkSfat8G-dBWdYHWbBoBUlp16glBc2-PkWCI8ssKB-Awnt-w",
+        "width": 4032
+      },
+      {
+        "height": 2710,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103143423120974170136\">The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLecsVvRmswaOD2MisgVhD3xhFtNRCeHI8rOTdGughtqsJx7sg45YtqwlKC4lgcH4IUeBwtREy0RBqnic2ZXYUNf8S7kgKshbbBl-NEQy-7BBxP0TWbo_4evqnhrBkPdxCQ-MhJ8p76Rul4XNloeIWy9dHdrGc35_OkIlo3icMt69MpgaUVVIngvQ-sD08Ri9dNADnoxAkzLHPRIZ-_La0fBUsh6csOfvw2KKOPj1UkrR4oBaH-uSFPFUsiWVi6Q4_FGQBP2F8Dw2IDzk9nxlL7bukmVYwOzwiCP_KMyrDIwGfAAjekFCtVYOpXXEW0ndOI7xIwntKWXqSQBvepl8527YR8wLbr_2mYNFcs_7Max1tvKoq-f-cl2XSwadFKFD-6qSFrZAo5Dmqj2GziF32JjekulaqJVkr-LbA4o6EC7tg",
+        "width": 4031
+      }
+    ],
     "place_id": "ChIJ4eN1-nQfwVQR8WfNvtg-wsM",
-    "website": "https://www.thecommunityapothecary.com/"
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14105906083512805361",
+    "vicinity": "271 W 8th Ave, Eugene",
+    "website": "https://thecommunityapothecary.com/"
   }
 }
