@@ -1,38 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:35Z",
+  "fetched_at": "2026-11-04T16:31:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Tan Hua SF LLC",
   "place_id": "ChIJu0VNuz2BhYARE6pbNmH_dhA",
   "result": {
-    "formatted_address": "1143 Stockton Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "1143",
+        "short_name": "1143",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Stockton Street",
+        "short_name": "Stockton St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Chinatown",
+        "short_name": "Chinatown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1143 Stockton St, San Francisco, CA 94133, USA",
     "formatted_phone_number": "(415) 757-0986",
     "geometry": {
       "location": {
         "lat": 37.7963571,
         "lng": -122.4085269
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.7977031302915,
+          "lng": -122.4071085697085
+        },
+        "southwest": {
+          "lat": 37.7950051697085,
+          "lng": -122.4098065302915
+        }
       }
     },
     "name": "Tan Hua SF LLC",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0530"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "0530"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "0530"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0530"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0530"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0530"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0530"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:30 \u2013 5:30",
-        "Tuesday: 9:30 \u2013 5:30",
-        "Wednesday: 9:30 \u2013 5:30",
-        "Thursday: 9:30 \u2013 5:30",
-        "Friday: 9:30 \u2013 5:30",
-        "Saturday: 9:30 \u2013 5:30",
-        "Sunday: 9:30 \u2013 5:30"
+        "Monday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Tuesday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Friday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fAM"
       ]
     },
-    "place_id": "ChIJu0VNuz2BhYARE6pbNmH_dhA"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100409559711944936320\">L</a>"
+        ],
+        "photo_reference": "AV-0GLenbPj3eQPNAY1qy6N_0WxdkqwTHb85CUNMmlekezQwep26pcu-TbGx7xO9m9UE06Ma9y6jw7r_WTPi1EauxXo71-YovTXz_EDrX4vkLEFJ44GVt1_6un7qKEpqAe2WoPHzoR6wLtOWd_vmVoLLatWuRbdy4z71EzAlo5kz8nDiLwT_EosV-aM0VhzJTHVvSznoc-HpW7o6je2wFEH2rslER5t3KEUsG_AvcT5gCfiRZJpYovBUd-k4qvYQGJi_VDDwaZ6-4E6Oi21bwoL5PQQinfLsnbL1qCH9Q4YQFRXk_-MQZ4pU7fkMW9VEaIPWjUq3LEWo4ev5geGx2gT3fp9vYPmJtKStl0887cD9iIm5xeP5O_AKfh-ExDvJpOfLuIR2xw4fdIZ97AgfDJ4R35nlRRkmlQC1ljiG4gLxgAuDwg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLcqI2SqeBkG1Dh-ujTLe_1DYXT4lXVINEa3o_LDquQJ7A3NHPjsBdrJ86cDmXRi-Y_h7TvahxuewgPkJnSHUFuX6p90pv3wcm8BqWyXABxWwgZMnuJS4vro8TMNwZlUfsKT22_njXUhRk5j7tkxS3cqUvDMLmGBhxLozcLbZnQGfP82OocgQuacQPyAmKS9Yv5DromSp_zNgi8KzbwvPzluKPi7ah49fkGXuMnSF6hLCNdbm7q0O0VzwF9jVWq6sp8acDm00-wGehLkaUJNWVSFZWR8kaB5VUWYp_rjGg9R-SeVD5Emjxyqd1HacgN9pAHwzUwJpmGX0eV-WgN_eWgUG9e8IAAYHjGEphxps7lyZ0MQqA1jZQORX-Rz807KXm2e7AEr331pxKH5bQV-3KXxwh1AUOg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLdK6r9XgLsrLULNtop9apIzYmAifdaBy1HgDhfyubtd492Qk4wWprlB8PPBtxXbVAXrm1NxGgHzUg-xfwkEtm2gF2G6E53O58-Lo5UiFIal_EfbBvcgnLqwTUZHngfI3LeCujRg8xweYmde6mBleghT5bJT8gpn1Sc-ytFL-0JfJhJTTZhbznpCBTjA7Yq37x1c-nC9RIczX8Sk_5w0-fCY8QNk5GneN1-3j-Cm_vpth9ppmcttbinBHH8t6_FLA_0YHUUhlDml_CL2ILhto3Ty0WB_XJNw1YVkdlZSRx2LUWRUJtDQtv2JhaguWYvC2zHdL17SCxfY06KaVciAUAoEQJYQ3-nAN2opwMkpliv3foLOYepvpuYtnFeuCx3Ayqf-jensEflAYNhZnvAYv9pEBoOt",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLcpn_n2vFLZhjjJeC1RngVmrlKaguBUx7GOTmQ4tmZXUL9pv7P_ZsjCk_IygvbDwGA9NocAgX1Qx_7eAIH1RJ_Gr6Ml59eQ3d8nKzLhZe15baoEZbcgRPWwTVFITFIBpF8zZk6ZDtz_ZnGsccjJREZN9le7EB1RC88HTsbL2zhNIL_GY3T1rixitrEdbHZpz5M5_TSOh8FbxOm-xPlx2hNYPBv8W4JfvqNiYqqJnQzmof2jGF26l1rSdyjRuT029uL6CWb6stAPq6l4YOh2cycU1fIxTgSW3G7xF0Bfv49eDY_YCYRcGeaLwoaXglreINb3nX0jBPKLv3ZxY-7h8A6T5tM-OCecv3NU-BUR05E35_JxnEPH6C0ZOBktMZ4j3TJf84HmOi9fTRk3tnKnc_hwa7_JWoE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLeRxCg0iNal14UcAg6vnIFSFodBJVJ5ihRTJDLluNgp2WM3eHH61oO4wigG1Od5rMaH6Be28-TV9f-8sYufXG5PfK_Zaow6MO-OA60Hwly003ZCFo4uuHGnYe1Sp1Vn4Bulzd6cPTF9qHshB6EWclgteGhroXfym-aXDZz7Jyqjl--jRKshNGtbLtsSAhE2PO5G-mAalSziQjWMzxbajnc-JCp6pdJxsu44tqw7gpf8UlxcKy-LvyPhbRujQs7QAfyG5keXFJulcWnXnWKAmhrSyW_EKU1OkaahMdzZnjOuxgex4sFAgC1Aya5nWCZIO_ULoaa48O49h2nrY39NUEiUMhQtMOr4AhCOLoK2Sl5xMsK48nmOCr9-gY2pyDK2sUhAHGXqKFNGButHzrcOeoqIZVo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLcFt9pHyxbOlIc7JM4lmjZorOlzASoG5rCVls4Q2yBRFOtXBRXP7ik3PyqcfgCVrBYZUANNpks010VxDcB-lUp-DDGF5AKBBJ4nvEAvnn1b11f7fOgWLGH4bvXDsaGN4AGcIZbq7RnHle9PyBMklOqp2wLC6wtnSMRvBZKJ7Eq-6IUhpsU60WyjhGkr-cQTNUMlpA5hJ1xF00rSv88I37p5KOclWo3EAnSOV5nI3WmQ4kYP7FyukY87RvC_peC3HNezzap6D5Fsi0NVsmaxDSTyQ69gEJnIZp77_3BHMOMgxKEGNaTJ2qjxmT7ZOG48lBTguKgBBTf0haXiDeeMW5yZEFHXV71qvGyhQB2JvKq1VbB6tkSSU1t1Kw4NGrCqSmpt4uTBmrDMX6U3Dl8hOAXGQ6UYicY",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLfpkMYIT6vNn6R5HsNgGXn1biuZ-mE6OlBftXx2f-dxxe63XLjHrjebdZrZyUzErjBSyaIJAgwgNzPyG-zYiAKWNrj4tvTSrVeLkNg730XjCo8yaGO9H59qwwE1Jcn7J1J6o2lI1H8KJnPmieRixz8FHk7cdA5L6nLBK9RQbXdhvjaVmXb5xmxULLeZcXWPsK1L5STyB5Uv7L4n-rOxxRL8GMPJTFLFrhCYv5K-18GoPbMeiF6SfeX2NLVHUhL1rTlfiLNThLosOrR4YwWTxEifhJEijQ6qo912fY5qjppptQORp1lfCT74g3eGN4bxjNYOOl-dXbVGR0MUcx3D73LHsve-76HQhomsnbkOvknLd-1x5rL8LnwuW53Fkg1uMFeo9JH9oBv-4uBjv56qleklgYqqLcY",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLdJoYBsC7buITMN3ixio0-TJDNxNhYWnUrDPwBP73FBa5pFNQTe5Jc858RlwCvOgyGW94eFahO64DgWHNHVTjKfNeQNSYWzXsOFNtV2OImy7tquiKF40QIFSBHlDlA3VwH3skvSzHs65TEHXgW5IY0pdLJkQVEj9LtRIc1YHqEOSY7KBlxAYt1DMW1S83IBPGiQ8N0zifftemwUNBiG3r-5vu626wCll99d36ddLq4z2phf6w-b-Yc9jX2ulPW8eyrKTwJ1xJNmdSiQhHhcki2YEZ6o9ENsPWU-cEET8tQTE82OUGXHOoHY9om-N0S-26hMjmIQXxYP2QFvQBJCOPzJb6zJTZgeRYHdUovZiMv8Iw9rvCrCd9g8M4pJtQONfHdBy-lggxwp3VJ4J4FAWZ_ggw",
+        "width": 4032
+      },
+      {
+        "height": 1171,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100409559711944936320\">L</a>"
+        ],
+        "photo_reference": "AV-0GLdiI8VfVOxs1WSrK1rML0SeGMOTvmITnyRBroA_NU7HhDuIyT1bx5K0xTwj-wvTNr1-vlXPVlGqDix1DzKi_odlv5r2zhyvGi26nrGhLU1idX0uqG5ZVoDeC1e-7q6IXGngXUTG6gf7DCUt-xlD4THh5izMXmdwbX8D7YYITIieGqkuzNf5cwRVbnIAZKgIxyUl446TxPkpLdLq1ay9l2xCVmbzFU5ck-uJL206G9whiJ1MX3pmlrjOF6A4rmVd8febaDzOFG4s96YH3vNL3xaXsTX83M4aef5cZFoiLG-nXlzUksszpZsXTRWm7v-YfKDP19sRh9sPP9ofN4bJSSt8BAO-Po_l3za4cPzmTxcR7Xhx_ze2M4yMjWwJqzVqI1hoTK0MpvlCc72BiqGNoMyVWcuYeKtz-wZ7UnXi3M1bEA",
+        "width": 1560
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112570730964091659291\">angelo</a>"
+        ],
+        "photo_reference": "AV-0GLcVPoupEC8JUUUM_tkhZB4sAIX7nmxqCjB38bTaF66oq8ZbCxBqZEl4Qj6sxEbhtJoL4bXUk7EUBvVBalkxXhSVIDq5qmyDonaM0rFpQNIA619dKyuOhyr9_ehw18aNoQdZIioGm7cOqx7jQUUA7dduVj0LV4yPXB1jkeeMiXy1IM1BZAxUnn0OnH8H3Nl_YOiAu6MOyMqbpw7VTPyNMQhDvo_X-tw7qL5OqNtz1POsyYUgWyFiWmxQMvqsm0AJ8anxZVwRBmY2bvTQnmnNK3qBOFpl8i2k-bJs5fjM7fgI56RjH5-R-5_4mz9amKm09hPLwNM5lkLNp0t1s7MKcBpVv9EY33VxVM6988AQuS2W8PNu8gXcuaq6-3ehbq5j7RQO1NTpJ6JFieeGK4pytGInjSw",
+        "width": 1800
+      }
+    ],
+    "place_id": "ChIJu0VNuz2BhYARE6pbNmH_dhA",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1186416344847591955",
+    "vicinity": "1143 Stockton St, San Francisco"
   }
 }
