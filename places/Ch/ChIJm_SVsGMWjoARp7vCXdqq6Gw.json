@@ -1,26 +1,194 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:25Z",
+  "fetched_at": "2026-11-04T16:31:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Redwood Village Office",
   "place_id": "ChIJm_SVsGMWjoARp7vCXdqq6Gw",
   "result": {
-    "formatted_address": "3060 Valencia Avenue, Aptos, CA",
+    "address_components": [
+      {
+        "long_name": "3060",
+        "short_name": "3060",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Valencia Avenue",
+        "short_name": "Valencia Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Aptos",
+        "short_name": "Aptos",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Cruz County",
+        "short_name": "Santa Cruz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95003",
+        "short_name": "95003",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4165",
+        "short_name": "4165",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3060 Valencia Ave, Aptos, CA 95003, USA",
     "formatted_phone_number": "(831) 566-9597",
     "geometry": {
       "location": {
         "lat": 36.9767085,
         "lng": -121.8865299
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.9780937302915,
+          "lng": -121.8852432197085
+        },
+        "southwest": {
+          "lat": 36.9753957697085,
+          "lng": -121.8879411802915
+        }
       }
     },
     "name": "Redwood Village Office",
-    "place_id": "ChIJm_SVsGMWjoARp7vCXdqq6Gw"
+    "photos": [
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115133433254358692432\">Six O&#39;Nine</a>"
+        ],
+        "photo_reference": "AV-0GLfGN1k1WoDrhZ1O7-BLiCxQaoRUrhS43eUt5uLRua2k6wOERQvgfhAtjajgTUumQHlUvn-hqW37182POtFfoOL7VCZWNA-uQVqSF9TKVSSEk-2IF6g7g6OyxoIfoy6LnO177Hg004lPRGE6lJe6GCEPNTSExMvsbL7lPLaJy6QCi2beIdr5lPL2-9OryLIo5UvfasYtnCwye5Dxt9kax3k41iIJU7zcymcm82WBnPGRtbDdrcPJT-nYryU8rgyGt3hCVJlZ66H2mpj-bCes53ql_lhewl5QGa2-Cc3LjHi_-5PSkcB7Oc_7rH4WGfwBsLGz8I_zl7hMbO_A5vgxekjYMwCSGSRpGzOiziFEzMGQCH1XiewzsYA4wtM1sFQ96xmSsHZ3qJf-K0B0v1gArAUA9wnZY1g",
+        "width": 4608
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111457945009486928285\">Mo</a>"
+        ],
+        "photo_reference": "AV-0GLfysWnVcWZYsSAtSpE0obYp-IxU7A9TRfkGdUgy6X4b3FigYydFYAw8etljaCi4MplpsdVMpKGR2Td9S50KfNfSjKXGT5Mi1MGtB4fyZq2bFZzPHzJB7UjLN-rdHvTKOsj1vhXKmt7rEu1zp1_tbindX1hZQKmyIdY31_xvB_OMtnZBULAcBRzwT0TXxKnMnkKoNqglMc9umYCX0c66majp5r-I67dlXMDhzxbY_meaYkXt_YtVTz3F_r2GObLxEteCa8c78OrJwVM5cDDmQ0oAvCL0ND8ecdLZtlWySiAASYMR8-6MTWAJ8mF0N6-uroY3sj2GsA3q5_7yOKfFPeynoZknyTh95WBu6eAQ_zSztz8eh-rfN11Iypuigp7ERV5RfPwAYk3ZnThele6pKdtCBQ",
+        "width": 3000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118352996608897343590\">Sheb Isbell</a>"
+        ],
+        "photo_reference": "AV-0GLd_Jozvz4uHLmnxLtelYB8bPQdy_pGafC8ylqcXEXMII1M7XLYXEGv85aRK94i-b1PywfFVKXdMXzjw6ZwIzsuh8Rt6VijD87fmvV-AcbLzogx5KKs4aRXkl401yAqUzAMhtZ6Dmnv7D7cfQ6h2tyux5p2NBDXIId3KNitBNKbOCbUSl3tDyAguksTqHKq7zLyINamFc0RQ4b_BAqpb9TFZ1A8JfeLa2ocoeXRWaiynltTgur8pONd10hPCi5wGvAJ6FBknXDaSqnS-zOGv0218h1c1JKrGlFTbLVIVqMkVxRf4QiPEounxPvx-tDgijexiXcq_lbkWs-359Z_iv3X_bHyaMt7XKoBUF64dIHv9xCf4BjhUW9MkopEpS1vogrEiROzsm9lDCG84cSDLrtEFdWoKUZFf7JsoodzomCOtBA",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118352996608897343590\">Sheb Isbell</a>"
+        ],
+        "photo_reference": "AV-0GLcm0yRjKHnF9KAdleai9EYnPCpK2vbJKDILXAVfzT-P-IVA1p60apvA5zjf_5XcY_bzA3V3Hl35sJPB9EOCf5b5SV1bhLVWhnCJMnOA_30YvuQPpYWQ3ICfA1t_IFYkoYJYwUGJEmeAo2RFe8cNL1c9BR30F32MCy0SHAnq872PiC_qWaTeMyqnAdXJB8QyeJ5uxGlm6b0YNU_-EtsZC8RxDo5RbrZHQ62u0SsphWsOBMDxCU-obSH-P5VZZOKxV10u-Dihl7V-Wjr7RuYV8zhpayjsb-22L7J8439dqgA-M5ZlHeod_uHbDU4FZ09Ql-XGlE0qrr85bcX-Q0D7X97NRHuKEUc6w-2YbSbY-YWymdQ6shetKz1eAxgMRZLRGAWvPJpk2z-wkilI0l-GXR7ltqM0BMwo0p0V7thRng8_",
+        "width": 3600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111457945009486928285\">Mo</a>"
+        ],
+        "photo_reference": "AV-0GLcQAiG9EePOMFtcGpn8PfAzByMM1uMKEprJZzbnC-I05Vysyuw5y8yREefKYAq-Nei1BPpeXfTGiPhZaimJl7AgxSmZ8D6oz4TSddHH8Y-WHKTjBw46jcQDSnsoglv6c8RP4Bd5q2blhdoA5WXEg9t92VuFH7_w2Vg6X5u0j-HDQPey0lx7WNx6X4eHelj6MC5wXNkZCgXy8CQnXNNiKHZNwE0xcNiZW9tzBdVqnZ38jVEbRxl--MUGfoK7fkKkADxTKR-NbSrFOSidQI_brn9XFpNifeHo4Od1oGca5vj-lOxd2IfY_i2LEYY1SpJERXdRsw4cgSbNJx0NqPmya9XwZtreUz04fONBL8Ajs7DDwm2myNIkJ2C4uXYZaBx-FTJ1AKwYr5oDXlLFjq6leMrkvkvmM_8",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111457945009486928285\">Mo</a>"
+        ],
+        "photo_reference": "AV-0GLebOOjLIq6QI7ow9hXA6XktqVpgHTWzEawF80gkebltjYo6cQa-JszJYjT4phB6ozu1_L1BGSlDHFxInqDL4aK5xLa0ay5iX8MdTXsBb5KDx4t7gKN6oHxck84lQfgkRsEcG8n-w6QvskNS8XtMliPrszYk-zz8bHu9VkFNx0PpR6dwj8VedpMBHMjVv1we6e5iAL-_feDBVo_Ro4n1UoBfKTuULmXhbjH9YRzxxkhsnfOdjTilyPkkneFhBXAFlKlQw49YVRDnidUAJUz0R2CxQo0UNbJPQ7REPfgE7i59ymuHnH2TZGFAVIqsFYn0FMZM7yzuaK5LD6SGBokN8okQ8NmEgjfm6WF0al_QvDu25Hrnyt0n9bWIlL_UvFRNV-VeFop_r_4VdhoeV334GaHZyHOmqIc",
+        "width": 3000
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115133433254358692432\">Six O&#39;Nine</a>"
+        ],
+        "photo_reference": "AV-0GLeWUbF74dLOVsy-req9tyYYq3vpEGpbwF-G8xyPfYDlg1XfwII7lAL2UBtIfhJZf0x4CNLk1HiKvMrGfS2SI-sr-wBw4ZXXEvVcHBQkjY4S_OYHEhYqXqVUExIvfoCfrNCFGtjbbQyFJi9LL_4WrT0zx4Jn9YrRBlO_4A6ABXbZejio3h8pAM3vxtmcRFjuLPXM8YZXd_FyLyOxTOTOg8MImuGGUdWmzoH2Gc1cf1RHoTfGIvpuk_B5YsCRODwK9h0M0iiVaCeClzrNNAdn4q-UzWzXm7WQ1LIzCN0z1ujU4udkw5GBd_z7VKPXGQoqY25tV_pl2O0mq4spW39SptGwMWxTumLB8ruy88N1jZIASXoGWUcv-5q2IBBFo1Xy2_wQp4MRXLiklKSsAvjIVpPUww",
+        "width": 2592
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115133433254358692432\">Six O&#39;Nine</a>"
+        ],
+        "photo_reference": "AV-0GLdrJlO3CfQBgk0XyVZrrbACIKAIi0GaDWNvmat9kz4DE8G6qMAS4zLMc3xVfOvF1rE4ch4Y55IpJkFCSubvaexFPCoFENJf-V5jqXgvESaM62DGMwn39QRUg8Hd11-xJqMTtMEcn-22GK8DBdcFeKC7H8p-RKBUeTT8vuhZ9bR1SHwr6ZP1o2skoCgVBitjWUEWfOeoHF43jgADFAwhpTaVHQHmXDqHT7KDp4KKnE6XL1IXvPzHuh7C9pikkobIil_O_WeLRhoAPMGFWj7ftmNKu__aosdIHfVsBgI55HFG_VliguXsIZGKSqqIBAHppYrq1nQ7oE_1aHcnIVNsHCW56TUU-RjJb4xInVTuHEUqaDoF0iArCOzVuahio9uuCbvOsHDlxOEA-b3C1s3-dptenvZ8zKY",
+        "width": 4608
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100732144508450381038\">Carolin Sturtevant</a>"
+        ],
+        "photo_reference": "AV-0GLdh3Hn3w8UyvtYOj2FpV6QknpOL1AHMJ_iKH806aL_FL3BZszGjXu4UBU0efsx738LgeYMaBg8roUHYTq1XsJtwn_xlWg2taa70SXZ4fCRMN0TllI1dNJMZ0WaH3ByOMgco3W26RDRFJlGKtjbzwLDx5OR5BAZOg3M0C_0aZux-00mqbC8I4m3SyIGi2tcudyhHRNILglZ9CSNszbNFOXGYfyIHik96_geT671wTWqUAPjD_ryoX9BOr86nkILzjIx-3PjTeAW2eRUJsJolnKZ6SiYwBZ8j2rI0ysOkCbQC5Q7tOHddFuhVJhSTIihoaqTpTfEkpv2fS5spsr2eaac-7eq5HgvVRXyQ8ML2G2w8AcbmOB5nKlrBdpKAExokXGIQeZcvlCarPTNzUkQ6JIO9f_Oy3Dc",
+        "width": 2448
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118027191958010409401\">Nan Danford</a>"
+        ],
+        "photo_reference": "AV-0GLfDaJ8UUg9uoR7qLiRU9vdg3MaD14j1j7cw6MtxARYxFDwT64cvt65SEWa3tSHJUl95ks6uQEWyLSKLVCE8_QiKa_SaXV7kt8TUfsK9EWT63Esxhc6cKyuuZwaKZwaAdeQNCbe6D7x0txSP2LdviqxjPhK82cbYmJ9w9f4z0AaCvhqtoEYkQgTIGXn6HCeFxvJnNcHRca5YZuX4DvwXRyBuN2byvh-hEvWH_9jE0rUbTB20sLE77kJBDDqSefEhpEmVLt2AWeTkqCPPpZCEDxgKfRBlq5bxWw2uyny21B6QpwkjxskYN-XcU8Nmj1Zw9hRAsKSD2K80ZPAXY3Nyf-wPetM2rE2PCiXaBTiOVHV4kD6fkFJP118bFlFVhilWa1PA7uqn65TBZQkm4weCZWLzqA",
+        "width": 1868
+      }
+    ],
+    "place_id": "ChIJm_SVsGMWjoARp7vCXdqq6Gw",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7847710205545724839",
+    "vicinity": "3060 Valencia Ave, Aptos"
   }
 }
