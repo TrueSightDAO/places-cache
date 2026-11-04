@@ -1,38 +1,272 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:05Z",
+  "fetched_at": "2026-11-04T16:32:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Butter sugar coffee/Ravens society",
   "place_id": "ChIJ92pj1E0FwFQRPy0z3oaCk3g",
   "result": {
-    "formatted_address": "319 South 10th Street, Independence, OR",
+    "address_components": [
+      {
+        "long_name": "319",
+        "short_name": "319",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South 10th Street",
+        "short_name": "S 10th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Independence",
+        "short_name": "Independence",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Polk County",
+        "short_name": "Polk County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97351",
+        "short_name": "97351",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1516",
+        "short_name": "1516",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "319 S 10th St, Independence, OR 97351, USA",
     "formatted_phone_number": "(503) 837-0933",
     "geometry": {
       "location": {
-        "lat": 44.8508677,
+        "lat": 44.85086769999999,
         "lng": -123.1977832
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.85236913029149,
+          "lng": -123.1963789697085
+        },
+        "southwest": {
+          "lat": 44.84967116970849,
+          "lng": -123.1990769302915
+        }
       }
     },
     "name": "Butter sugar coffee/Ravens society",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 7:00 \u2013 16:00",
+        "Monday: 7:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Tuesday: Closed",
-        "Wednesday: 7:00 \u2013 16:00",
-        "Thursday: 7:00 \u2013 16:00",
-        "Friday: 7:00 \u2013 16:00",
-        "Saturday: 7:00 \u2013 14:00",
-        "Sunday: 7:00 \u2013 14:00"
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Sunday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
       ]
     },
-    "place_id": "ChIJ92pj1E0FwFQRPy0z3oaCk3g"
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114340418209354050889\">Kelly Thomas</a>"
+        ],
+        "photo_reference": "AV-0GLfb5pCyB2qnNszhpW4M8KoPILMsGOkzr8pYNGa7nxILTXYHYBXj4qaEr4RcKBlQaqVzCHU0h5IoH1Zc4TYF2_4jtOwLWSePgZOycPQ9PS30-T8ig9hZkV54CMAYv6ybQM5elX5LkzUt2120fdeNw_WWikBAThy6rjSkR4veHcC7H8U4OMpIp9ZVP91PkSs0rwWo_Nx6IgS0ZNWz5Xk7I7fxD7OClmJNmvDV4aiaBxsapkA2EhvKZk5kgaNOnot4q5NOCFH4lU7JP7ETrH0H2pj3v4Q-nNYKgxw7__ay4HXbqLQNA7sWXwomSmXzfH9Rb9zs5myBwst_vL5Kct3d7Hih3gXTGFOryvt3ttn3SLRxjhwjTt3xCE5cs1fhPLENJY2eYjICUPxhPVHGwvsEk4lGunAvX8K36FU2NOCO5tyc",
+        "width": 4000
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLeJPuns-Ltu5T01DinPlhSMSgVqKOKPPxmuGTlv1AyimgRvwTM9xjDkH74n0Ru_hInnJjBihcrXXh2voTNtdAiJvJ0Z8uYnIk0CCX4b5J0JBjarnpI4DdnNIDKkC_AxFxA654PZdgpy2krrp6UhLUxxvgyolP-LGQxvjuPXIzZy-EELuKVH7cKfHuzD41D3LpNX3l2wm6DpzGlXIDsD1E2asjJtBxu7XOs6hgHHvs3HDD-eCcpuYrR--c37yWcmJ8vbK5TaPnFJqjCTbHQ4q5sBVybtyQPkab7dm9u_hWBbO-yhXQkw01j06gmUoPRgxsuahq9bzgM4VYVqMQEjCvY9R0Mxl0vG8QnFMHW4AcXe_bQL61n1fg0BwNw0jBcT1SwHyYNjtMbJjtH8ss9BCrBv97nJ1X0",
+        "width": 2048
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLdJVluCb298yLLZLvRWsk3NuWm2qsVLR6lTD312fqgHuwSyTv6ah2zOng5B06CibEJgcyj0DMQJeeStuZtSwmw9O_rL2zOm4I2Me9j9eUuhmMuwCGIZGIMRk40c_YT31Mx1m6XpNGQyzd7GBDk1hxcDQna79k2hx-RgxTxgZDkcsyS_j3qmUnLT_uS1B21pND_zlT3NTV36r_Uu_vBYvgHBhoazTEV9aGYZ_dZTmz0XI97czYvR3uZhPzCR44_OcQE91yrLF-Kn2U0fEeSbvxWX41Zd76brJflC2L0611zZD0uaes2NLae2yFblsOEp322Jkqr1CJCiovWQO-iUzDHIQ9K0Pyu9aLdffwNoluqGum4uwoYoxhB9RBZ1jSMAwD4viRkl8762zZ3Opq9YYUdKJEQT8dg",
+        "width": 1536
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLcTqTP2bDhi35AnrNCi2CJ3rp2Secnss5VaR_LZY7SEet8pZIE78dLDT0bRg9tT9ydKJTEM89ddmRJi0mTpDJe0SZMEkqicr87ZHL_OQ27GZ97oeBMBUZNajX54Q5c6ZeKfllqTVN1qiSbyDCv1qZeVT15HNrimvXzfBcfE3LT67Aa9toJv2T_Sp5yqT6P6fW1xFlYsEiZ0q9aSaMq1omemsOhS38WeFZ3owyq2uDzXEclqRI-FauHrAsqkPo3kVKAff4-_hA9D2fKTdlJwLFf3l5msdO_lmk0qfw3GhOyWBJrg246MqmE3VJ9JQPPSyUoNZXQrgVFTaUv_GITx6D65mHpi9SUOmOu-J0Yv5lU8WBGqk03chMzz_Klvbxsaqhfr2d0ribdIwXAn8uuvypDMxFk",
+        "width": 800
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108162780708266679183\">Kenny Cortez</a>"
+        ],
+        "photo_reference": "AV-0GLdICrwtpWLixFPfuGUPPUW8z8OAAmQSiPUn7sCaPpMwamjkyb_NbiKUg2f6n4ohEW5OL_LPxW6q0NbfroK4gi4aVBaY_CVzVOltbCcqIenkZOuiV63Tx-6VXvjljfv8BlC1DLbIo8tliV6SngzOlhBgE3yUut8d5IeJhzFl_jsBlOz9iiKgM7tGXsiQnoLkHRfsfbqicEqnO7dXdZgVVGj70ivSyg7PDeOaHgoOUli_fd8k2UVn_1apTNVKAEyAV_AF1GoF9pltbR41x6vGKNhDf9nhJi-5cgW7T9O-nbzdS5KeRizA5JQmBweg_TFLoLqvSctpV2uewkoE9jgG_gZHghXS1R7agGwly6K4X3L40K97lkXBEI7U1PbDRl5s7YXok5dP8xg10FAyMBJJOUjC9adqqmC0A6BED6DPUBFFPQ",
+        "width": 3000
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLcVtmvJlpJZejMgnsOYPpoB39cubPj17kQuudQX2jZAhIaCo8tR0dAgCQzjhkCySFp5nxmJn2QTp1LqD2HDSH4GfuO2QKfV8P9s7Q44KV3D2ZWpracmh-uLnm9ifrESDVMjGVid6y7jwvmvnGx49vpe3tC7sbFb2QRDJKEY07MdD0quXBoYfD-bFwPPuh8grhlkvhOB7L_vAz-jSTGoiFJQhN8q73Zd-BoAcvOmvu1LBiKSbYfZYRCLP7cxDWg9N-8OTQ__DlrmYa_bWmJhqQM6VVD8ZAReC7hPoogcPZm3PJ_-M8qIs3hL3DlJXZn4PsR7XsNw120X3S01WpZRTk6iywRR9HoUlvzrEk0IqA3ns_595YQpefznd6D5q4YmWj522mC6r8Bbi3vtmRPaAWxpFTauZ9I",
+        "width": 500
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLeXyqif7-9BtzcJsw_9IIllVGQ8gvWErjefU95axWaIM55X6BC1TAAadRlhk7c-OEI61VKvHxYNQr26ztO7g0fIiT0n_X4uO3__ui-Odsyq8ZLHqvw15bu3o7LgUU0s7Hj6Lz4-RAR-eBllMKuGuE3rqzmuki8A0Gt9tTegYmwTa-TWLE3yIgdU10PRQii4gze2urZh5wvVE3mL4Vs6-ezv2O48LBWVbctex7hiD7p6pxoRquZw6RjqvarTHw2RJqAXSdbPGrjaiKEk_2Z1lnLHzbDezsuoUqNTijmlFe_wPtBztSlhd5HsdsmJ3FBA6hWMFmEfSgcS2SGqqpJM9XpPhYSRm-eKKDEYPTqQQ0jC6JSTxTW1dXNYnz2Ri5ocG1Ymaq0DpyId2qEWuzGVRoogoG17",
+        "width": 1200
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112923437084959368227\">Butter sugar coffee/Ravens society</a>"
+        ],
+        "photo_reference": "AV-0GLd1isml4tW7Mq0otgbZvX4vJ0A1LU5IHoCXQjtF5t7kfgPQwj4ttUCZX9HuiSlGGE5tNye9YgpJWzJ-m4Jz4cGLVzmrZca7KnZnld6ty-xqBkCXzvXJnb6MTpbyZHY8o0qmhKIGzugqrXOYk5tWWY9ArV9BQg43lgOe_tBOd2UBHhhFf4KXjLZimXu5MYaA7uXwdX78osyztZQWymNOt9yFxfeo909r7g1Lhpnhx6yDWuadsTU4FqqvcxmphrcrVLu2g9n-jcGP350xZrXRk0tuRb8RvayhFEtzKxIKouW-qumXkPzL3vaGuJpjcu4aQ1Hm9hXzfwJ_4-3l1cU-oafQ1x34JxoiEg0Azt76L7jgCLpYsd6pl2D5BNLjSapISc24jmqovD5gshq_q2xnokgB_IoY40c",
+        "width": 1718
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114340418209354050889\">Kelly Thomas</a>"
+        ],
+        "photo_reference": "AV-0GLf3AcTKCrMWvXpgmjm1Z1lplxQzhjWMXZLCPbteAv1-TGO75iMRsiTaDHLydoSwqecvcSL6j_9ERuol451TjOB4HJzvKmG87qMO8wuJgTzLtlnBqeohkQyvO7feM-AWTHNs4vikyq5cGkXZWnsIuLL5fqeZv-gxp34B0W4N6pXtWWCpTgAHtMUnr267nHf9iSzUjlMS1DsYkxMo0JbuFzZTKjaLBqLnn-_It-Bas_xDKmN9TFhQpcEsn0YoczvYNhxZkDam4cj48zNqCVxh54Fyu5vFhiN8UhiMb75gKMm5TBnOB3EjcZlzal37x4BnxauaMVZ3XlWhH86czCKyNi5uwYi-f9ajZytJmcbT0dL_2RgNxdJIBJ8aoDqxu39rD-d0XkzdA6V_eXLMZvI6-J8zM7Ul1pl3m4oSo4B63MoDXw",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106388735267456029089\">Abi Bondo</a>"
+        ],
+        "photo_reference": "AV-0GLdWntMQb80vvtvGm-5MdHfDn10EG6Xf8WERqcQzHST8P7LArWIeCBwwF8zwi0TgWh5sf8VNnXmYh2zptwl3hHy2zB1-RgYaGBXA0bAGacvdUeR1SJD8Vo2hKm5dwYPD_jCI1z7aYA9WwdMcKF61O-RgXd3GAjhxc42ikpQ6s2ayL6iYxGYd2LfANc3RLYFLaYpvIis0xqyQr1Bh64QCZV_6sXzhjJT3KYkbUKyNtFb8_nPiyFCObYUH9X9nX-agjPyCmJwdOQwecXfV4f9YhB71nYV6bIpQRh9LoOBZsh3J8LYjRO9m0owk8TuIEaW2goDW-bf-91IqfRGhwv9BtPdqQFiGjK2VOsSonk6zIRx3Dfp2JjGkNVtcIoFQIzp7X0Y0d3Nqrw8h0-hDKYB7fthw1XE",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ92pj1E0FwFQRPy0z3oaCk3g",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8688431621892943167",
+    "vicinity": "319 S 10th St, Independence"
   }
 }
