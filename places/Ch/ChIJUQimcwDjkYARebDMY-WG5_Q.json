@@ -1,38 +1,273 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:58Z",
+  "fetched_at": "2026-11-04T16:30:30Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary Vintage",
   "place_id": "ChIJUQimcwDjkYARebDMY-WG5_Q",
   "result": {
-    "formatted_address": "7451 Monterey Road, Gilroy, CA",
+    "address_components": [
+      {
+        "long_name": "7451",
+        "short_name": "7451",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Monterey Road",
+        "short_name": "Monterey Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Gilroy",
+        "short_name": "Gilroy",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95020",
+        "short_name": "95020",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7451 Monterey Rd, Gilroy, CA 95020, USA",
     "formatted_phone_number": "(408) 337-1750",
     "geometry": {
       "location": {
         "lat": 37.0074874,
         "lng": -121.569366
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.0088852302915,
+          "lng": -121.5678717697085
+        },
+        "southwest": {
+          "lat": 37.0061872697085,
+          "lng": -121.5705697302915
+        }
       }
     },
     "name": "Apothecary Vintage",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 18:00",
-        "Tuesday: 12:00 \u2013 18:00",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 18:00"
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
       ]
     },
-    "place_id": "ChIJUQimcwDjkYARebDMY-WG5_Q"
+    "photos": [
+      {
+        "height": 2133,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLfE8FFe-fVSwS6p8smUJmALDsauFYq7N_dBv06b31CA6gO25lYkyhLfVl-otFe1gVHSXVk53KYlwtAeAPF9X5rGh_yk8-XwR9g2etxo0MVuNNL2BvgN0jZ7z4pS1hsEpuR5DFAp6tRmZSi2s0lpZsx5pWjdt4PKhT_ht6uofBi2Ne08oJH-jVZcV7o9C-bOVksHIc154fC0ayhwP9MKuoMjdR7JsMLOjO_9KEpB8tiPHW2eo_WQTVwDosUuxYLgFHSW-mTUnw0SsYL5ihYxJ7nWdNO_elnfRCcRvDzm_7EIIvcSbAVUE-Nq-1A8_H84dFX2ASszfD1h5eXpLMUY4yqp6dxd7tYpXTZ8xrFAG9wwxPiggGpBtzNeAQJxesWE-FFHonRrw6GnV9Fd_bDNdxRXqanj--h4kt4ovWgynqDSQQ",
+        "width": 1204
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103190289307628325127\">KDG</a>"
+        ],
+        "photo_reference": "AV-0GLdZKcFKrii3ZwmkaT1CR6udxVflI1x5Mq_RbZcR1Mb4Ek3nSmnMgsFs6u4_p3Q3L3TfL92rlkuJiZyaZHM8snuVEL8c1ElUk2uatShHpGhu-Q287tu0wLPGLN5zUxd9pra3ndRICU-5ZTlxtQM89hjNb6jYL0J0H66p5EcSGJllmGAqk6eBYSFrhV2kUyNbWAniwpg_te8pZItDcLY612N5F3Po5LXa43hiTEvoGd73nnhy6WgoF9PYXXBiH02eVRxXP8fFN14bujS_gXPjX3DGZnP1SsHEydUsEtbDFcjz2xKQEZRqHkJOaNnnfhym2C9yKPYFE5u-y4PVXBiP8zPb5GorNIjhkyTyBrYWTnzTpQwq7ACAmd6hAAn7F8izBphM2V2OjS2HOHNXiSxh-ZlsrhWHT9Guo7tExLBqLW5F_w",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLcev_KIK3PBVphWMMC-kMsgm3YgFv5JZM-cCGf0Rjb8o9lZzfzfNPWq-wPgB41EeBKFnOcN-NqfCAOvpsy7f2XiDcryd6sRQ2LwS60bZ68KrLUJNpuVYbwgjjEjZElfYztfDfl97kcta9_2wqbxFAwzFNpc2AMbTaxCijer8A0sfixpXvYz2JXk_HLwvyns_UUT9qxkE0YDPovLxhgZKYq096Uz9Y58aR9gjdn4BGRPcZthfjJmN1DLOQQ_GOMdmWHB2KHVr0fY5McHQr3o7qNvlA2mrYW4u8KFrzPUgLl7mTFLNmd6yKv9j_K4WCVsFOzjOcACHkhWERIpqhAC_oQ6WojvlR1SuwBYuMdjvfHeBZ0k49wrltHrV0xWxYUd77pfvdb8MnA2Ys3pY5pFWkNGaWq6Bd9nrf4zR90iKS8Qzg",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLeWUXtGQl9ZmWqigKJdFGcwUA4GwlJmN6Ok7KgRb89gFLlWEMCkJ1qXclneuT5B61ZJZFDsohy1w1m2oj0sS1jmwTWpHfyNl0QueqUJoS37QbIROc0fsQnJtj3obmvChKMd21KoPLysLrHQDXjse4nLzF-vaYSYpgJjvH6grs20LfRwY0JRzOJkCYK-JQe0Huy0W01s5Tbj5DlbV9u1Q7DXp8bAa2z9wSHlN85O80TPPVcBy3O8ooxTQIKi3vcoK2dyYgg7auFKSasOqz91QqLBOWQML_0AwCViyiRNoQFzpFeTZi-2YzSiy18QUteYu5GKbnjJMIh6hVRHLxts_d_i6BGtLg0Pj8-MdO52oimCF5ww4LZmk6hFAEcTmRpACiTJhvIaKobBZx_XFkID6h63bvFkw7dCHAy0kaVn2Sep",
+        "width": 3600
+      },
+      {
+        "height": 3696,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103190289307628325127\">KDG</a>"
+        ],
+        "photo_reference": "AV-0GLe46TNVA58Y12QR9Cs1Ff3v7Zqavx06IoD8Oave0GsOGLg4vGOVfDuY2E546iCX_d6GTr8hQ4t14vV8lCcQGbChAbc2kOH-E--o8WnxmLBFd-ys_ytNOeW8cGN1Fy6wHYVJT165juXmTfRxCWR3C91Fm7TQuFxZrT7mNT4RVu2hBzvXtWr5GWk7YLDqrBnQ91avPvvm0zzD50rwKwTqQO1Flw4D75_O5dLeNw1KFPXL8YB78GF2gJEnLV9wlafjPXGre2uVbRyoKl_NSmYXNU3hrpSapl3QiDkVQ6SCmG2tFEvCfERm5UjyseP8OOfl4J_Eiaw22w1EKI5GFATFflSLcQXL6sxOBxY6PXt_PSCSO3CS90IWpSYR1Qf0xk4UNYqaiw1o9mm3f5-xiqoT2AVhqhF9Ib6HeeuXXuxU2zCNVg",
+        "width": 2772
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLenApOI3umLJisO5dJYCcjQAFvkvpC8ppPZqdPvlrHIe6s1lCrANT-FCPzOeVBEfZ17wypSrU-jhP_I5Kq7pXQe_h8Fdh5B1GR5tsdYAcMlIzd6FTLK6M-ZnGW65P65gdBctEkih5HK-Q2vzywQiTKe25GN7caXyWNQVS5UkPQk2bvJFxC1G95EGHyXoo7m4jCwKsqiFo5-AkMpATayTAL48eNSFkYKnYtZQjHek1tsSOsvTLinMfrp0hZDG5NK98zY5pRtRVXM8IP9cgJ2ILmU1O_uFd9OdEc39k62kLnAD3NVLtj-PvFrI9ANlNUZRtZOSEPfKavmOJ2ZOGH5vzpgtC4N1SYwUtW5iWjv_bM31Pxlp4Vm9Wzn1evjd78eUFEFJP6jtNIuzwkRqJMmW85jcQL8AXjTQmlM0XoO-aWKqw",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLf0cPXbtUtKC1jfyj1D8MqW0V9yFTVjKjAtghXOX2bUXuzY5biX0FpXHpDmRF0PDPs213B_3wkh9Thji-_mmRGvssTsnmNLaqnRupGaOdVuGBDnx3e5bI5xtYUekN62n9GMFUj2D6N1kFgedIec2y-1k9F4tgxjJG4tdCEP4-sDd7v7qqOZqgG9zNRM9h1IphRgkESfnCVP9BngX9MIYITwr9A_Owb5K6O0-maqm7jtL50516NPlgf3Sru-aoFvhuqzoxzsbvTppFs1j0nnWr_whPZQEHDZbTYHQ6TG9DiFYPUBbN7hwiYWk_m7FEV-YxhlgzLzFRvAoLqKu6e7SLoJEo_nXJ74EimjuufODoz5GE9hEQS57R1iuEDve9PL3stgd3DlgU9ST135I2arKT5GUMcA5IPeHDVdtEXxuM2K",
+        "width": 4800
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLfwr9HyEkriQQ8reWDMKMVM8bLl_VSJopXG3VKn0i-oxMavz3j7pPURj9LI6jtAcHzAwIw0soi6jkYhsA6ggYccYv1KGqYUgG-9xMnMSFLjhdFuoGAOigvGLm5-JyANooYrRxIf_GXEsNbAUoKlnJtdVLuZ-JrugSnWwruT3wBzEjNrokMb3hwmAQ_M5-i22xxbhRo7LXvZuDLMh0X0JqiTIebk9VPoYtRJPsmCCkGnv6p2wXoxV0LbLZ_881mqL8EPcsRor6SekjkWXZuYSPubz1XgHtXJ5o8YHBsZCs0ii3SF3jAkERRJnaOfWfoZbZrLukVrV7esjPAiRm-j7LieHyPYfq9eY7pDAVMLzveqPQxjkET8Y0hMXJZM31UmFwIxwfnDe0hsnQWAety5JYvTvsUNdnI3_lVD8dV6hsOx3A",
+        "width": 2294
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLfSycrT0yaT8fXDCYS0-McBVxDq_k0Hwu5sEvSU2Z1oAKNqH3QJDN8ML9N1lciOADaq3G7hQzlB5d1SzRXhAagcWk5JZRldFHowskzhVd1kP-Ymj8V9WBH6Yd8bcI77qqesJdtHQM-SFTLj7zLZusSW7eFlvVZvq0dPYLvnACFvFRg6zaf5GZ9ACkrIhEkEplgKw15DygYg3PppJYl-2yC7AuXHOFK4l26tkgGf17hlVD-qOqUwoq1rNvmebpRKl943DqhjbnNBDOiFfhei_5zt1ZgRCPBMPZcM7JlS5fdv5zSj81OD2A2YkQf2l63VYrdBOSHDSvwhTow2yJRCqSeWIL9TMEA3BHCCrREmi2gdIhtPB3wH7S8agh3PJq0wqNKUb3l6h2t0PY3CfIu7Y57ImesyjMzSFveveJS_fP3fHw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112305526550193673405\">Apothecary Vintage</a>"
+        ],
+        "photo_reference": "AV-0GLepfIKyTF4AtXL8QR-4zxhvG6XrOPFWEkLZtXnYObEOx9raxwU1MFyvFzmYGXQpD2IUaPHiF8D-wQT8uQXPsDX3KNWZaw-h-yIEvf06QCmNhSHyDKGM5-k_kTbVJewHd5IjbDhyPuc5d2_-3qw3ny9jAzOdLPEuMbcst7vbKmd55MNTuNHgpnEvD0nFYs6IwDI99nYyQ1TNLZv0PCSAl9MNMUMM1S5XHpc4uRjSG1u7kht1tgXsCupQ2coO_qDoG7WbXrAPZRHpZRUrnmuJ1rtyA1TVZY5T1nmSaTV0qDHARRMYKgLMj7TInv2qss119HoLJ1VOd-M08vJCqSQOJxZpch6YRFYQhr5OSvdm6SzeJwqwJQ3jyyBy4cRN-HxQAdmQ-RWUAmsayIAQCBY6atTA626XcIbTcAfABSeFSkYo4A",
+        "width": 3179
+      }
+    ],
+    "place_id": "ChIJUQimcwDjkYARebDMY-WG5_Q",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17647221984654569593",
+    "vicinity": "7451 Monterey Rd, Gilroy"
   }
 }
