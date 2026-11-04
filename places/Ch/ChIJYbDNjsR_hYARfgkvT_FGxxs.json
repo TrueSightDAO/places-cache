@@ -1,38 +1,224 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:04Z",
+  "fetched_at": "2026-11-04T16:30:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Freedom Community Clinic",
   "place_id": "ChIJYbDNjsR_hYARfgkvT_FGxxs",
   "result": {
-    "formatted_address": "3215 Telegraph Avenue, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "Suite 101",
+        "short_name": "Ste 101",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3215",
+        "short_name": "3215",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Telegraph Avenue",
+        "short_name": "Telegraph Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pill Hill",
+        "short_name": "Pill Hill",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94609",
+        "short_name": "94609",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3215 Telegraph Ave Ste 101, Oakland, CA 94609, USA",
     "geometry": {
       "location": {
         "lat": 37.8212001,
         "lng": -122.2668268
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8225315802915,
+          "lng": -122.2653806697085
+        },
+        "southwest": {
+          "lat": 37.8198336197085,
+          "lng": -122.2680786302915
+        }
       }
     },
     "name": "Freedom Community Clinic",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1230"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 13:00 \u2013 18:00",
-        "Thursday: 13:00 \u2013 18:00",
-        "Friday: 13:00 \u2013 18:00",
-        "Saturday: 12:30 \u2013 16:30",
+        "Wednesday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:30\u2009\u2013\u20094:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107403383733540031397\">crocodile</a>"
+        ],
+        "photo_reference": "AV-0GLdCNYC_C7CpHgTOOSlQUBYorwKFg5iTy2eRGdzTvkpfiRTV2cimbHzOOm4wEkSqxirwWl5Fhmg8myoQeD-EpvJSlgtOsSCBaaPSm6unq-tZ3T7piBXCrJRfQoEtBuDLXqgljit6OO1Nqu5sLeXyBSpMp5kUl-FpZeozyisJwOU84QEQAr-55Jn4zaJ8dLXf95Wg7br2nyq1EYyw1Q5LzmBtUoQUA5NII62BcKljeA2pC6UOYAM3As29cd_EMOckjAWONppZJC4Jo5lHzZXtsjcsdH_bbKfaBnHgBTCl64-bxBJWoySYPQYEhWecmD7N1ilf1nRM5sbBUFw6IgkLjgk23XYKnEjwLUxRzsKegElM7K7oKdfX-KLDQQmgxWN21UUP1C-CYUOHwM2ADzjZiUYn5iuCtnspaA8LhM8txf_x",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107403383733540031397\">crocodile</a>"
+        ],
+        "photo_reference": "AV-0GLcIOIXX4C1lj_Nlxpe70Ydag1hFDIDe3gPr_P07ID32DvHdMlXh2amcEn3DjWEvp_mUOcupmnDdqRXUir5joICa0K15AJvjtfXGtGONOWbAxDsUf6f6cqfnclD_VYR0I9GvL8BvwrZCTB-lPvaHVGR0PkX3tjs7tca8Hc9WHfSwLPjxj4-NDjPOkW4k-X50_V9Hjj3GS4dUj0A8SQCAZa-nY7mGtI3CE36OGqIBJ91t_815gNm0OICoCaoX94maT1xfaEEB9eaRYy8242uTPXJ6N8efHyVYx5vlBV5kvC0f7_nuBk70rTofoUNPhYHZfWXcJrVJImwpGHmBn586FBqSHA25lgn1rxY3fspNpBS5Z9PzID60Pu6nehedcYW7OTgaanqvqc5IrLQDK7QWhsErJsyAukf2aNhOQ6p7WG0_",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107403383733540031397\">crocodile</a>"
+        ],
+        "photo_reference": "AV-0GLeO4Mvi3g9LkqchN4Q8zvLt7IhokD0Nre2yt0N3mgirZjbrbVGC-02uSkUKVz1XpPb9hO7TC2K4n1iS0fAuDZ23AkmP9G4WwxgcsdAkSEZ_l7hnfw7e4Cr1UeIEN_l-ZjhQFTo5lg0_pCiWpKv0egtcewcyT2VdGeSVhAtXtMhsd48l_QiVlX30USh5NPGyGSemmsc6Js2pvCtDo_NHfKiRYg1YpYJ1diHz4njk3YXfwinZ4KA5wrF_ZVKzFu1vfYyKQBejGhCBexa3iZsjmxW2Elq7KBw0iFYEjU1p6n3064RUyUHLzhiSN2Jzbyaf-iIvY0y71cZpw8TifrVrYQjEq5EWCXTabDqfuFlToWGnpxgZUP3rNps_LLYup1lxCFBXZD883qXsrC6x1s0YPEySRyWC_KiHbUUsSLipDSIzFg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107403383733540031397\">crocodile</a>"
+        ],
+        "photo_reference": "AV-0GLcynu6eUf3ASmvHFAnEsfuXoO6QqTV8mYvNLbG4QQ7ko4VQW6yNb2yjklhDclEKwrEMzh5i0Tgri-qCQxW1e578DJJ3wQ6ppUXugaA7Zr0kWwEWpcvNRdlNGaac4gayBoHKunZnnR-bMRzDMZbdRefll7yCkg4oYZqn5WAKGncbP_zlUCHxUgDk05xZRnb6w4kZb4LFqkizA9KMtWv-ZpMFYoYQmwXeLNt0oBJqKFu70xV7SJFKrUU0EXp8RxLYs_Qssp0lGji4Dcc8MUhMmAVL8noSglriiAD75Faxxkm036n1BVKacYOrdAQ_Y7PqIKj7o0KYXD2PEEdsoH15StRwEtV-uysUQ6C8fY47UGPFaOaUOk4JEOjRZs0kahyxfiHNW9MNHO_ptnW522pgnF1LiNa5x7pJFTgNfyOSU3TboA",
+        "width": 3024
+      },
+      {
+        "height": 721,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLcsdYpk3Ap4R_R3wW3KlUhMW3BkQdAux5WLfz78XqCIPIlNEjdAQcswdpNJd7cp_GoLw9l86v4fpaYa78GNEg3sBG4N1VPJJyA5u0yh3uCaeaWUf5sKrTnqZvJrpeWdeOn5Ph97F692oHOaL_KYslkJBSMsvGjAENIJpxuzM4f24KBryPmEoV7w8xC8rJgJ5JiNONtaAORJI7qwB_QZLN0d--yWM_G0ldtnCs2aYkSwmkcaProkbHOiD21KeWd0EjBgbJ8GaDwzdloxJULOZXcTH4744s2bSWItBtg1baN5Ph1rcaVPxyQEbAehlF_1pQjuou3apITok_DlBQpjXk8OI-iobTj8vN18mFaq4REChFuOQlZ7VsWmmS4BMAm4BXcmYRtSSD1ntezEHKZeodd88g",
+        "width": 962
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107403383733540031397\">crocodile</a>"
+        ],
+        "photo_reference": "AV-0GLdAz2AIFhlsRtPdiTuiiyFo1Sfx4LgcU2WBMY3pY8Ht1OImj2HvVL2xl0ncZguj3_OcQWJ1ZtJVZC9mZfioDNkoOzcTZQ4cVX7tZrs3eqEyjICdWLTg_gsMfgqpxg6D2-X_fjoKyXPhHUjlWQfIXEoe-gMhVrV56oOMLFDXNbiOYR3vBho7DAT8dVIdLEgjGEWHXDin4BDEpQobSyvw0xJnd6bR6pN0Lo513drCTAI8X-kNKTxOMBp51nlKVO2iki1sqBOJ250BgjJkZv1LwSztYeSoC3h-cUDZuq1jQj-yCYMvAouwLUV10MmhKpbnRIs5OYH17cVGVlNqbuX0mQLdFwU8MKv3Q2gMt5k1LRU3UoW9cIaSG0FDaZbD_ZXi46kS41QEMuo37h36fnFZGH_oW-Qt1Jpv1hB6j8JvnMUIGQ",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJYbDNjsR_hYARfgkvT_FGxxs",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2001646561619020158",
+    "vicinity": "3215 Telegraph Ave Ste 101, Oakland",
     "website": "http://www.freedomcommunityclinic.org/"
   }
 }
