@@ -1,38 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:09:56Z",
+  "fetched_at": "2026-11-04T07:56:25Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Perish Trust",
   "place_id": "ChIJSzEyLLCAhYAR1CO4N2JlyrU",
   "result": {
-    "formatted_address": "728 Divisadero Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "728",
+        "short_name": "728",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Divisadero Street",
+        "short_name": "Divisadero St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Alamo Square",
+        "short_name": "Alamo Square",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94117",
+        "short_name": "94117",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "728 Divisadero St, San Francisco, CA 94117, USA",
     "geometry": {
       "location": {
         "lat": 37.7763837,
         "lng": -122.4379011
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.77772533029149,
+          "lng": -122.4366244697085
+        },
+        "southwest": {
+          "lat": 37.7750273697085,
+          "lng": -122.4393224302915
+        }
       }
     },
     "name": "The Perish Trust",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 18:00",
-        "Tuesday: 12:00 \u2013 18:00",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 18:00"
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112106597735999520984\">Eric Mar</a>"
+        ],
+        "photo_reference": "AV-0GLdGUitwGUD5N7xqskrgrsMAU8M311O14rNFj3wqNbuX6LoNbeBMnWDmNAmgA3cQDXoeto3kEv3VIqcReu7xg7SEwWiS0RwIFu75Pk2FCWF4kQpr5s4qrUyEU4BX1KgQdAVHd3m_mPmDXPR3STi8he1OQC3yaxCLvvl5BGiBnHvY_4qiZkGSB5ruMDy6lQ0xm3FPb9cVZgXTRa590qAKRAJyU1LkBhHbR8Q_UTPL67cIvEwiNOeRUBKsOJe88eLacLNMKb3qxRbHp3kM-K21DPvSySS6uTfjV6lKMR5FE-s9v-mZk_g_9t660SVmgxMGGRxZ3AueK3CY6tkXpOjs9NV4vCLQVDU3H_u17DBtsKm1sk5Y78vswGNEnWujjyTOIF9Rslcl38w76sun90ME9S07neU",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112106597735999520984\">Eric Mar</a>"
+        ],
+        "photo_reference": "AV-0GLdQ2s45g-dg_dCrdAH--Bi1Z_5kuuKOJ7FBuPZL-jyV3zaDIZFnPFmr76Vo7oCEtWH4Lrc_ObpHSsOPgTT5_7RO_IDs5njAxtkAFDxkjBTNM0REncTqzj3QCxguLdesClXYRNz9Ezp2tynrHg8tZBprBZwCpDhQQdLbFAkoRSbogbNnnc2nrs9ryX8AZsN47-XTtQ6CDqAygR-kq8GCepFfVhVrZUmeBQnoufntNmbsQmr36z3YSUJjdclP_phoHy0DZ9gzkV3TqtLJO-1fxiJ9cjohHi1bcE0Qo_c6DUcdOCKYiXMk0ZgEfaS3hvv6VvsFsBGZICQIVSmsWWdxdIcDn0tVLWicYwdgMe4kSxX_B5swQ0eSGxSVHewlWnvfiWt_dJ1zR2FN4l_jN0PmszpxgXY",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574532729357790876\">Jeesung Chang (jc)</a>"
+        ],
+        "photo_reference": "AV-0GLd9Vil-416ugPwLbrVpfb9xIUbP_gzWxhcehH1ZtUj664I5AeM7XCfL8e-i9gqCmhgELuk1JeSNgAWaW1P6zxGSrPibNtcGucxlsZCVyJb3JG-H3myr89oJbE9c_TpGK30B1HAiXTnWcuvCqXHARVnlZfs42bl8U_NRiJZOZy1DWEYSRtY1knNr2zDDSMHtWHeOvc8cQNuafOWt8unf6lWSG1tpkEXu1RTS9aTufrNHyiLoaxWGGYUqZRgSTeq90pDEz2n74zvorAVlgbuxhXBjkhQilne25FLYpY0ESZqHLJa7XzwTgmTQkqKiXoMa2EBh35b4BGuzyRzZP3uuujAD13y38C1FgJGUvlwSpr2fFzYIWlOBfNrc4RQAF8Oho02QI9RooVxwDEgipucDsUlwG3ITlK4",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110268374571951438168\">Fiona Herse Woo</a>"
+        ],
+        "photo_reference": "AV-0GLdPH-lfnAmzeS70W0iovwtRWAF0ld2CMI-aictXLuSuFdDHg1JQqvc3P6g1mKwjwOLHZqx1tcjZVY4pF3MzjjxVGBZia4stX41ZgQMtQrtEpewZt4z9tiI8Atb7o_CDVfeDcj1y1ho-48xeupXYX5M_5gW81lN1bK7RQhD0JUqacLIK31ihfuCzQWdiAX9QQ6V5MUSPaHDOPR2QTLcDXBq3snFqBask8gzF8b2sZuZr2Z7USxbq2JriZNAQ_GrB9gRpFlYlwY-ke_GhZ0w8HVLxzsIAfWougGLfGLlaiWiJh7m2DIyNbZGZPUbfw30Y8Y6VDiNwYglMcy3dEi4gzaVKyQ2rrcODKB_ViguIKHw48golgri6tDluNtfvumUZ7zXjIG9n7MkuDR3QJGu-rZASJKs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118264204900404669320\">cristina casaldaliga</a>"
+        ],
+        "photo_reference": "AV-0GLcEKeU1M6OtiIEAAN-IZ7OoIInJ-xipK_F5CqhgQ2x07djXN4QVcP6vvxFVSfi1mskD-J-6l_dPngA5YHzEJ_28t5zlmM2AZ2Ek9x9fQCILijjBvjXd1UG75niJTUMMdwPJTmiRgBzR79tdTHzKq7fLvXsdgcAANfwHfeHSfNeuP2XJLBoOlrbROTKSfXo1SET5hhJj4I_sCXrrF9Tt0KlS6XgxXVQ0SxnnJO85oAnpkTPH8Mub5Bvr5R5Lc9Pwy-ZcuRLOpuXd-EutInJ4TbtTDokRW1PT9WLsTGkyB23QqWrvtDCXAgVXyTx8zeaaa0JK7FquwyjQpdn29_lkg22rJtoedhitueYvlIWYDbVzEfqsfMzRjwClxdwjongsKRP6I_JfrV4FTr_BI_YuFVdl4LkksRvqrIoZ_OXKy1Szjw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118264204900404669320\">cristina casaldaliga</a>"
+        ],
+        "photo_reference": "AV-0GLcVBVr1TAXg8h3D9Hob_yFl980wqwEHdUpxEjCOP_4t-222q3L2E5tHceURzhdShWNVgsysUp2uBi7eHE7pMTYGXUDeLMcJF2PlWjFeDpi95f5W4MkQrWsFeYbau7tVDEo8CR-RESt2hIT_XMgSqFoqn7XzwkKbmYDUoDv-Ix8jTHK48SLxTbLABZatc8apc8c1caksI4VCHiH3JNJCk3IbzOqSDi4eLaJbkaC0UbjzL0cZSht3lI7vTOhpkBqv1Nb4ME8BnVsFCKt0WWeU2Obq_uVcTB-CaCiiSfETq0jQ1kgbvvKOZCNOLsxOI9ypOMY70bmIlPvc9Pk3ZthEYWa_ZNR3Jq6Zl5NUaZYjIH0FNeoViVpAby_P0UzchbpVvUGspNHDHiQDMAnr-erywA4OSy3ph2FEJU4rI4FWd8KuZA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114129792564983441289\">Josh Cohen</a>"
+        ],
+        "photo_reference": "AV-0GLcog8sAYO6ywEgabXWLtbTz9hLoy91dt8dvuglj3Hj_KqJ7NlYr_PaBBoBNmfhv2nHe2Qp0bqZlCbcR9npC_-pCdoYHUtaUp9mcwpun_d3vx2oZL6_cgIHiQSUIBZweOnD8VEYp4q1h2vVTGLptyN93Do1YC0_VhPGQpYUMaSzM6VafbVSEeqPlQg817sFUhPOEBzZB26ld7yUOu5eS_bb6ESRqqLtYFKYYjBVUt9r7tsaYFbKDtS0cUfJJuAxWbbN9WihVaUPMP7ZqS-Wu68PuHY2YaIvYfS52TyMdH4q0nHsZTdB_C5aphdaCRIObmNZGTPAkxwpjWsI3aD82QNetcNwu-YDtFtWQPLQJ_ZqemnVotNeS-KBFXR8mi7KL11o6xINp94k0gJ8UVxBf4HSVE-g",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110211973256588916868\">Mariah Horan</a>"
+        ],
+        "photo_reference": "AV-0GLcJxEbO3elUCQHKN43XUb962a3szXdC7dtkcnoI4vizWt11VYbpVcNIg2hpkNFljuEDLIcS68FDFH1yuYl6qpObU0j820vytAZOt9x0PXrBgy4Cn4cD-j1SAZ4IjT9aY1MBtNTvpoyzvXAMdPFg0sZgg9ZL9TbMvHaJ_X0ILAy3Rmk6rbGyNA9aa-LKquGWPf9CifmFd27munkNjHUP-ca3PiGijEC1A6AEXAmfWkWMk0YD5IvMOQWzBH9G0l8Aa2zwQSQnab5SI2Tz3fIb0FCvRqqP-d_DtOw3Vc8755butbP5Kh1YxlfhrdGkpnjjHKPSXYwZfOQddT3I2rPwPgINsnjXYhMqTVRljB9tclgIVSbiYcIieZmoYjZJXTBrWF6QryJ0yV0MDgQQyz8Emsg2bFGfuh0",
+        "width": 4800
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574532729357790876\">Jeesung Chang (jc)</a>"
+        ],
+        "photo_reference": "AV-0GLemi1_cEEYWOBfvsJsiu-hXVTWz6VYabkTAl6Zv_ybHqucTZLOvc2l47uKdRxEcW_zoMdUb9WkYa20lKPBW4RLma-IC7s62eUvt683LF0bFmfoR2-XeMgn9UIU41SKO8ywuO0l_Yf5QLWEq1HTGlgl_5FwxtcgFXHWDXomQ4X8eG_1WPDr8WnsnESAAw2hBS0nRfqvhakHxdaz4t8EpauYL031EciQJEux5SQTOsPKw-Nu6eOCEvAU9_S8W00fhl0iq_U4WS1YVi-yQyWYSCtCOpDkpFLLbt25WNqT_YIaiLqxl448KGaqjMYbARB1Q8P5pUbEZxzurmVNjMMf6dx_2MB41O6kun4cYY-6nh2t3vlHo1Dw4-qKyLAZqNcH6ReyejfVwshSBsTE_1l5Z1ODx9gqZ",
+        "width": 4080
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574532729357790876\">Jeesung Chang (jc)</a>"
+        ],
+        "photo_reference": "AV-0GLd7OcAQ_SxyYLVsXpLofYGxxSHv3JGchbzSD0U1-09SmMwGAofhmjMplkYVASJ8_5a7mLZlYKxSIEr4kaBbHEaLucHrbbTXoE-uzGypsfRB90eyPSFXx3q49tEGDrzmnUESvovoeLJgZxALB77jVwCtUvJNmccgV0lPPxjlanVoxB5X-wDJIi-sMjmPyqhtK4s3xwsS2GAZMA14mGBOCeQHSf2Gy1Usz1Pnr3GWp4bJVyTlOMEWy12wM4FUcSTX-Aq_23Upti8Y7amSi5dsWTaY5zfCHZVx4z9k-NwHLlBwA2GsM4LC31QCMfA8OY_-FstH1qUdjHO92rDGbMI0LFOw7QdsfNkmjHz_op4y1ofYVuHN7O6HyG3AeOCjGGarahDZRgpS9nnwUstnw9wzwOLygA",
+        "width": 3072
+      }
+    ],
     "place_id": "ChIJSzEyLLCAhYAR1CO4N2JlyrU",
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13099393938676523988",
+    "vicinity": "728 Divisadero St, San Francisco",
     "website": "http://www.theperishtrust.com/"
   }
 }
