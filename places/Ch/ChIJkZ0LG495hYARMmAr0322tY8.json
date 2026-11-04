@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:19Z",
+  "fetched_at": "2026-11-04T16:30:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Natrully Herbs & More LLC",
   "place_id": "ChIJkZ0LG495hYARMmAr0322tY8",
   "result": {
-    "formatted_address": "4113 Macdonald Avenue, Richmond, CA",
+    "address_components": [
+      {
+        "long_name": "4113",
+        "short_name": "4113",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Macdonald Avenue",
+        "short_name": "Macdonald Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North & East",
+        "short_name": "North & East",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Richmond",
+        "short_name": "Richmond",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94805",
+        "short_name": "94805",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4113 Macdonald Ave, Richmond, CA 94805, USA",
     "formatted_phone_number": "(510) 424-9206",
     "geometry": {
       "location": {
         "lat": 37.9334717,
         "lng": -122.330353
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.9347477802915,
+          "lng": -122.3290070697085
+        },
+        "southwest": {
+          "lat": 37.9320498197085,
+          "lng": -122.3317050302915
+        }
       }
     },
     "name": "Natrully Herbs & More LLC",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 19:00",
-        "Sunday: 12:00 \u2013 19:00"
+        "Monday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108359057618312872494\">Tonya Rogers</a>"
+        ],
+        "photo_reference": "AV-0GLfyDQYeQ5QJm-N5EVzN0GukTPCAF7eJcoYjH1wjOAfwbuIrrWim9nT5eIY43y8DqkZn6irxQhgI4jRkix7qTeB7W-Vj9Cw_FgYZ5og6UkuCvSLdJrAbULBQl319Ao9ztue0DScCaoHUbmZ2LvW4sDZOqLmJMurJNUh8BVHNet5iSqPaYfIknPi-xnS_OqiBGNYhiUszDqCKfpQ_G5IwyNL5WywQ1bl35SN7f1YUpDfF1iNR-sfG8mLC0S1bokjis-zK6ljBUYRfX0O-Nduj0YLMD_fArYY2qKF0bnt1vt-7_rXH8uuSDRDebgRZrSXeDbrF9KtkeFQr4gQ_C9e6Lj60C_Nbyh9iB5TMtSOGgylKrFwh1_ujcuiFshblWMkCYk7MRgQmUrTdAkNFlUqpUbgk4hiV",
+        "width": 4000
+      },
+      {
+        "height": 425,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117767880715815011614\">Natrully Herbs &amp; More LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcJBT2FaWLnQFNWmOM2VNEWGFrpcHoCCEM0ubagGR3Bu8E-hqDkGyYxvlNsEPOeFmYGa3aUJiLDXw2U6Lw5LlgViu_Ys2_ggw6xjTxviePu45ZP3G0W5pyBBlxQ6SVb_acv6i16m1jFovRI8xM04JQ0ccYk6N-RXSndVXUuXNxK_TgzMNnzcbvn0q_SO-rmQyH_6SNwT1FZpbL-x0M92Yvzzs0DAtcX01JHT0DppHn7D45S5blHqakiwsQODt59V3gl1epkWAZPQLJ4R3p0ctuc6rjH-6hZJuW9g0GBErbOGzT-UzTowIAQ7-nsdFjXk7OjKfLXxl6mzyOuygGxP-K8_yPKfkMV-crLoIwRQo3FmxGGKviQ2nVyvfPrVde4WLeuiy-YHMx4jzYD876hA2YfNA",
+        "width": 758
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113325058292771000887\">Glenn Turner</a>"
+        ],
+        "photo_reference": "AV-0GLeEb2DSpkcLN2VEiPlgqYk5TJ7WE3IPeUjO4IH71DSWMxAN_meB9gkn1mdgybPWRkluhx9zoQGBUAxt58carvhDsRxKGMkqhBfasXXLcErMlSuFaieAEOSjYmGO77ETAlP4xjAJrEcqDhKyG5QqtwAs_ibjlgTWX2_sXGtWykMyLEWiutsD84l_94V0GWVc6RJBBo7ylmA4cvac48z5CyFID8qfwV2wakIMnWvXJgUOsJxXQBYYhJgEVobSbCUgqyfHmw36UacI9XkTAxKgWK-f-qnF_50XVpwq2KAtvgLR3DAiIC025ak9y6Mii6o65F0Ro7sDBsQdJ5UVG8_NAyK6Izi0N6MLqaUFq5AGZXN-_2H7Gf4SmaM-gcI7eXb1pd2MStH6lVbhNRx3D1f_w_8LAkhDJtc",
+        "width": 4608
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117767880715815011614\">Natrully Herbs &amp; More LLC</a>"
+        ],
+        "photo_reference": "AV-0GLfPylvAYwveW-JTxxdq7QtKDH3l6XoW9PvBT_MvIWEwCD2YmwG30fockbntBMwlY874cZ6E9QB-LGkO6QQ7d4e10PI2pMX_FnxMIK7KlbZ7pShxNm4zxaaFEp3EsqO-Rk5YZniRqZp-yYAXZZ0IRMoqOdtUpAV9vlh7N4KB6Nv0_cbaedAtVWmWkKUb0glUGclmY6jP9z6iG7-cXCGNtCArqBH8bZ6VyS66EavbFVBbOITAnx7cWKtbl4UZfBBqdE-HbuPqVNUVzm7a0ex4rLzWXsT9K0QZ2CnQAaTFNhsZmwKxU5DEc1y3F2F8XPlyalLJqgVaKv37bV1BVdG6fBmcoNHh80Rne1_z2f236p_DdP7qLrjx_ZdaB6xu6wQsskADG5McrYCK09LRpUJ-HeEmj60CuuA",
+        "width": 3456
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106048594040559266687\">B W</a>"
+        ],
+        "photo_reference": "AV-0GLc-6rQgBZng9CpRhcZs9465UjXXh2-IBnEIUvLvuGXXSKPELMHf5iGAky0pNik1sG8eNRHMBnnfkWC_OFuM3g2MzmP1zJCYcgS8Mdt5YI3dl0pfIA1zCXWdf_Z3wq0LK4S5b-9jwBUEeWGCf8snhHFxZ0dpvyjcMVLyHp5vo7k8EUtHbAe1JqfgH0GPdlXqRhtnAb_ipJnNkkmtAQ4EAUIF8edrsf3cIayrUvAFaguMPoCTe0z4ap5Al8DOhuXCS40RjhBIHxS44_MFpbd4BKePrKB32CVj9lG84yan8He86izK3yGnRPx28y7cqWFEYrGheiGRgiMqhr07yWCSHJWepDoPNp2K4uIPOtUhR3Y8CHzD6Wz_Dgj39S3ktaOeTn1qYc5UsOtHPOFIlptzUtrWjqI",
+        "width": 2336
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105584107642996058551\">Natrully Herbs &amp; More</a>"
+        ],
+        "photo_reference": "AV-0GLebYIx5CpAEiZnFdpgdkqjohLTR6wCJouikj3BcAMO10oVrisMNo3OiLDtMfZBH0zMdtYYUJ5fyo3rc9SVrua9AGbnzgiIRiAo8Su2O4BcQDi-gQquaHIaGikTR9UBDdaz0_nlJ4tTIaOew5qGLCPW8Z-A8dcuJMcaxAnecjMwdo-10KF70BDBT_OYiBD0HbeUhilV9kvuT--I-qMWlqV1gt5NzID1Jr0OZjRyasvC2BWBNnnC1fyc8ky6iABw7xtPdA7WafrOtBxHL9120wBAX0zMxHfMusGAa9j19VEozkV9SeC0PvL4P7gttuQJpy750lDV_Bn0aGgHlW4cHq2ze9QzlgKy8UdvM2lWPDUrohVARAPLnI4n8Ss2bikWnNBP2LIgv9-L2ttZ5tuTSN9CbTsmrqTg",
+        "width": 3456
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117767880715815011614\">Natrully Herbs &amp; More LLC</a>"
+        ],
+        "photo_reference": "AV-0GLfuVNFBfB6mosa7iP7_5kXDATX2LbRaZj6knSaULfb2VOmAXfkIw9UeyjKu_7-WofCJHIvTRzOKIKH-jGXmbru-PYJstHB_WjKKTRWc-YfsTsumZzTakQowcENkyFRgZCN7rHia_13cPpkEYiXD75NsaU9Q4Ophqz3Piv8EekzPXRe9UMRrmd-L9R9CrZ1Yds2BsZx05f2044jYZV4J_u3Jsdi2yEljirGWBTmlfh7KqYULU-Q8NKhqQrTmmgBdGC8FXC23RfHhdaQDqQzYKgmzgCvMlkL_a7QbK1kA2j7UxFr8xfIiTQo6hKs1M9382Lo2desrAJiFldoo0P5KsRmtniQaoZ2L6dHBBaoLF3BGfLgLjJAzx3RcIeCrMLkZpYS5KmYv95ax5AjNrDUi9uFfZbjDEWY",
+        "width": 2458
+      },
+      {
+        "height": 1899,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117767880715815011614\">Natrully Herbs &amp; More LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdJvV0nKuD4TZeMmZR1wc913OA9ib_xDfo6-QURuRMJywXrdapRuE_PiT0JIeEIlsKLAp_-lh45GpiDeZYRyZoETaPwD55tjt0K5EMFFpyRQ2L-y3G7-0OGXCMVydInbMXxgnIzzWOdiPZipJhtAyI2_bPCaDQaokq5Y6xScysM57QWIOOuMocM_ens7m1Ewt5EKQQ13Mu4gdeCmT69yGmsLEybSH5fAmqR2YTEEbUiRh5582YP4CCDSKTs1hExr2gCI-2PUM6bRicmCjef1-ipbvMbAYq_SE2zz7VZw_0-f5Zqe0dqfSNtprLP_nVdPgLhtMpYMHOwsP8MZfbneFL6ZLVw7YHiL6xvdG6lOrgNxsjDebsHVCOFHQ_1Dw5PC6lLa_yw_84-z3ehZlogGkr6PKc",
+        "width": 1899
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118377417791530995079\">Noel Kay</a>"
+        ],
+        "photo_reference": "AV-0GLftooYLOGG60tejG9-gzJVBrMXStkDJHF1k5lyKuilaBO1GAPtBXXRbx1D_8x8wgCZHIuEFqmzg3QPkhCFIy8dBDHUjLVmESURb8rk9IiC_pdJMZEXxChiENNgefHmUxAZL2PjMPZLvPXJrEpHqQq9___7C7sEbNBGySTBMOXiK4V6VxKxNyhuA3J92dcEw3RXv3JONnG9gO0XxhH6bqB9Kbsayy3JDrrxmVNhbkCB7uSU-3-TJCmIPB0qCdO_JBIkBU1Plk82N0qpMwhOFZVwSfg6GfULcRAh63g4fJiDXTGhldYrKv8xNdt2EkWdqYQr1SyWK-vHSWKl9tEv_G3_cFjV8SJ9OUl53i7e8TkWjN1_B4fAR3Zf4NM3MmMKY7mUS-Sg9ISeEiKmFmMkFu6sMQl_QFTudmcTScI_isMlKeQ",
+        "width": 3024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117767880715815011614\">Natrully Herbs &amp; More LLC</a>"
+        ],
+        "photo_reference": "AV-0GLclTx_1o1BrsKghBGAjNf8hcKlIaYtih9UdxI1t8KxWdhRK-Jo0oXFFTIOgFQttbbZ2xEL0oWT5TYRujvGNH7u3Bu8qlAit8YOZeQpGDX9LoBTo4YXeCox0UlWUP9Vfg4g5vC2B-nUKl86NanEzs2uJLVgrFjHcIzI9ewV3Kh_r558yIl5A--X-TJI5OhXXFn0ncmylDofIiaOnCS-mag8qqpTbEapNVa3bvFns2L3dxqhjA50Hb8qE_8ussMY_T5o_ylclA9BmefKKc1AOJm2O_az6O74yvYojnWcnUn1uqtVO2MilClzbgb-VopUD2Op1yM6HyBLtrSYyye8Wy5WguuBP7mkyj7yDpRuY3kT0jVQO5K4r7ccDizYs0C83t8-_kppIhQyY2mF3h0KJVXtIMVA",
+        "width": 758
+      }
+    ],
     "place_id": "ChIJkZ0LG495hYARMmAr0322tY8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10355383569738326066",
+    "vicinity": "4113 Macdonald Ave, Richmond",
     "website": "http://natrullyherbsandmore.com/"
   }
 }
