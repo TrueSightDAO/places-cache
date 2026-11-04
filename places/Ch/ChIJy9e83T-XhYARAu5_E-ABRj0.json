@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:42Z",
+  "fetched_at": "2026-11-04T16:31:21Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Gathering Thyme",
   "place_id": "ChIJy9e83T-XhYARAu5_E-ABRj0",
   "result": {
-    "formatted_address": "426 Petaluma Boulevard South, Petaluma, CA",
+    "address_components": [
+      {
+        "long_name": "426",
+        "short_name": "426",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Petaluma Boulevard South",
+        "short_name": "Petaluma Blvd S",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Petaluma",
+        "short_name": "Petaluma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sonoma County",
+        "short_name": "Sonoma County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94952",
+        "short_name": "94952",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4247",
+        "short_name": "4247",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "426 Petaluma Blvd S, Petaluma, CA 94952, USA",
     "formatted_phone_number": "(415) 524-8693",
     "geometry": {
       "location": {
         "lat": 38.2309504,
         "lng": -122.6335326
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.23239003029149,
+          "lng": -122.6321067197085
+        },
+        "southwest": {
+          "lat": 38.2296920697085,
+          "lng": -122.6348046802915
+        }
       }
     },
     "name": "Gathering Thyme",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365020480084307790\">Jessica M</a>"
+        ],
+        "photo_reference": "AV-0GLdKs-Sm6WWCBw1GBMkPg4XsSMdYnwqEP0MiPHxWbSz9npc--GeHg0OGbvZVKmSKOk9L6mSLAEP0Xk5GGGH7aNBakf1afplNcdjjZPe03HI6b-LZRYOzGe2JAw57WVrl6hZEKuSqGcKQ6YFi90Ae-UIxwfiJ5kDT6_WcuEOhNA_YDBgXmISo3HZY5RUvHv_-GTSNu8-SYdGvy9JdnvsPLldUjzhwxFAx3IRJS4GiS6Hqkqc5n2BKR44f-DASJw3Lo5jtRTdc4HwBwFdK60trouuLFEZ5qdG96Wto1Ag306UV9Tog01NR9JU3L4xZ6Zu-s6n7JJiyhIDaHLtdLdRhUsXNVzHEUFYKTDqwB9lQzwMewIkL01jlggWLbT-c8Ryu9liOp2AeVzGbiBMGEIpKfXTwgkmX3GDB5_SiNMcthHEy",
+        "width": 2268
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365020480084307790\">Jessica M</a>"
+        ],
+        "photo_reference": "AV-0GLe2XrJDtt8gAG0LF8UwQ4SeHnRALEH2EXP1ZbJ1oO2aAttUXL3jvDkN5cw2MBTSs15EBxrwS89nLZfUWDeavix-V2CSd7c6EGU2CGoEUBl6wBhaarTiB3qkCYJqGf8Mg_LbQxqc8e9Cur9bsTWyw1RWKqp0oK1rQb7x9FTkpnh5QR3ETPG6XJZpMRyPm5xr1s7X-uI0wQ4Ugqcc9axl1x6kwR1z5AAy0-XEax5kdoDwlVXCQK5R1i0eTa_2c9hZtSxR2VoVREI6AM_Klq1cIOIblYeg_6ZVWs7-VFWOQRNNlYO0SsOfPD4YcAiBrVJhQWvR1l03RNQh93IX2G7NZSY-2TJ4Y4ZFraSKtbuzc2CC9zF41pQ7yLBc6I-tnRFdoRQ_SvTnxzfp-pO7pXSRp0lULKpszO4lmhFtrUzFWwnmHA",
+        "width": 2700
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365020480084307790\">Jessica M</a>"
+        ],
+        "photo_reference": "AV-0GLdFI_Um80Hxy0HFs4jCM3FrHoQ-s4sNNAsBgyo0zEg5MzzY8Z3ZqvzUUeFI1RkmE_G36SFsmIzSZps_-g_onvTIwZ0TE3N1kV2DyRW-k_yEo8h4TjlkzoUjVeOB3vODv0m_vGSduOLX-GjOGRPME_FCwz59dZK9k8H26NvdUe8q7ArTr2ykhHSE0XqFickeZw9BYOSJD0Bx1oGnWHpSinGMRvhS2SE59_JBkrVcR8Fw0Umr2GZzfKDMDEA0KzfAexSB-bCPi5Whv16EuQ0bYqK4wbaVMUi9UkDvNx5I4iAmeZ3hQMs--2fraSgTqUoP0ueTFLi-4tjVDqv8NBzWZqKeCJhsJakSaJxnnJyx-aVBEaYgBmzUzkSVmgh6-dojqsGZdNiVWL3Mp7gBQcbYv4-zONSyFi01cgsrF_YbCpam",
+        "width": 2268
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114362980470682197417\">Gathering Thyme</a>"
+        ],
+        "photo_reference": "AV-0GLfsojmRqZ-hmevxiej5_NPI4ZpTYwfBfx0wGGpbINvQYeMTBGu7z9-yvSM33VgCA8Wb8Iln0A4hQPT5bqLffbtnLmhf5ENwc8W0LXhex6fWwVQJB1abnO1u11ib33U1_ky6C8WQ2rGuVwA-cOKn12qKZLdTVQTZkHLkAveViD3Z2cnADbzCjwTe5PHTwGXKD1DoESErYPDTO7fl-Ow4vAIidP3-flZuSyTPfwLnRZio8BXhYixHsJIHQhXg81UJDjkvkCeRO0QkZA7IlJGqiBsagQPBiAjagWAfHIbVSyPZTEThJcGmVNpnZpghcwDPwawAKdm7h7XI9QwTB4MMbTKqiUlGrLMnHQ4RiNUC_ld9HCLmRE8PV1ZOHr6950rDfHB3zoWJBU-QHRwEPZ0-OQ9G-sc",
+        "width": 1512
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114362980470682197417\">Gathering Thyme</a>"
+        ],
+        "photo_reference": "AV-0GLeiWfX9KmzuuSG7t3pfjTM2VeXGIII-H-vOtJS9A9Gg_StC4EvlpLR8jcaU263aSk2UhqQ9EQuwv37qVMEk1HM5l1EdV253y29f3kQmEwnC_05E1snzdVTtbTZmUj9-Q5qTR4x8nbMMZfvbqZV0Ds_DngwyLpyVdsFERW1pJeyezKLnOVZYhhDJk8TAQVJiEBG7bLJWuDanV0gpXk7R6kzvErRWIwS79LDJdcc7zMgHZ4REM4X8AWUzxeoc8KW3Gsy2oQO-dB2oxoRblq3WbkmFl8bm_TgaI3zYfaNTne_4orDDK7rMnX8z20gnAN9yal0quTVH_QogrIBiUYW4k_726OLaA9FfmcIQ-XKcM177U1u5yek2sSKaEk111Wq-xuRTmzx6W5eI-xFMFDaesHOKQedfsNY",
+        "width": 1512
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114362980470682197417\">Gathering Thyme</a>"
+        ],
+        "photo_reference": "AV-0GLeJS5X9bgoZYDrFPc0lZAWpZ5AYnpo7J_9SCTU_9kLUmntHc7QXxsUm9YVYvaLzFMbl6nnG5LR99cMoVQJ_iJhs6Z6KkMRJpZUu1pNRc64jxGGevkVcPKrvyI678JFPGrj_MG6gS6xvmuQymVIe75V8dLkP7lvTcfFJ_C7iQ8xyRhcZQtcPglvoeALlNqTxjX0w1NeCgt02bSmWxEvzzC1lVsd127hoaOqJHgmNDD-VsfUAW0sZSHSRL9HBWsqueEbgOX3IbFhRwbvPVVxs10IKw1KoV-mKk_CoNi5T3KpOhsWpc0cN7pyjzP-JpGd7WtXHStqmchQk_5U8nWp2S4xbL4WFL_haCodcDIyyYadpTCGNfqzDNkMKjKdHaHfdpmAEs-V4FXMXOLKX99hCWN0aVBQ",
+        "width": 1512
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365020480084307790\">Jessica M</a>"
+        ],
+        "photo_reference": "AV-0GLeU-3p4QjZ7BrQONtqIWexwFnFRlnvB2613fvgltZ9JFjwPrFgK3nsxaLL43jifgiKGgrHtAFwJGr0qRJ9bsIZy_N-JoMSmd456OsSqx_xb8ShXhaXp5mf_VGY_8CZN2SKP0L6m4comHivLdUVqFxqkS_dA7KfgPVqL_DaQsP0onkDMkGv9HFeeANsW50BPT5kvvFnoXg4WAqnJlyts10_b_hvsTtEhhEMb8SknL8SMpqVu1EY_ED710RWFC-Qrb1hsMNvJz8gh13G9n8GRY8qbENYhA0v5YpbM9wKlx_0iOz9sBvvaXM1xtjOBBx_3vwFafd5nHiz7GOn2NPSa2A2xYXnjWvEUPCAW_eXhDQOJsbyjndOXRd8GQNdzoICK_gsXo-ncKCejDRTjulibKSnNub0XbUWgYkN_TE-n0JlhPQ",
+        "width": 2700
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114362980470682197417\">Gathering Thyme</a>"
+        ],
+        "photo_reference": "AV-0GLcimHRokfMKMOIJ67CSD7LMBbSrW-E00JuQ-DAlUXezMNsHnQT_8tlT-2Oq3FjXpD6dJhZ20XXkdukgSQNzOHF6-fMZ6Kam-7KGfWExtmzqfMzL4VVVfvv3Yfa08xgccta20CPb7n9GZU98QDKsOR8y4KsRlT9ZRjQ0x0U5d33xuSKQ6OtV9A60ohYPwxpaYG4E_Ic6SM9BvM9Ryekbv38z3iAwbrGziU8fcsW4Ki2qQ_r7AQCG1WxiNgd8UaUfB5fudzBJGTY8EXTR8zgQeufq6plZFj9EHEYqFaOMVNzY8KDvGsxjpmyXpmnGaZ23gg01XkDSAjr1P_OkwtvKL0ZsfLUZsPGT2xeRkjC_nRTvT6R3Au4MbIoT5fM8GGNAGIw6WfRnb8Otelm73QzgHPfkwJY",
+        "width": 1512
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115365020480084307790\">Jessica M</a>"
+        ],
+        "photo_reference": "AV-0GLdwL3cWjYr55IFSOmAYsfMpPCh1FMEZnBB8ABgiFrwVI-IdWG7Mm0_eyCCmlArTdHxY1KEmkCxw19dANwjDMBtnTAxfWFwihIIqyHNgbiK5fJTvZ8rQQHWfOnxptybfYnwrt7bBz3Xz7VHLZBvVNqhDehn-1m4Rx0cTEOzgX4qbqgxu6X4tHqlmA3PuxP1AU1Zv1DfzkP9v2zIMliLcYHiQlcYCuijcjlqmowa27pQiVlREIVgpEqzXSyvzkRGjbXlXytwTwgJVQDz3yt6oURNXFZGDlYKoTUbkxmEMdw1E69T-ox3VZynpdpflM9pvAN9rpRWWdx9MmmT2v-rv5PfKhlA_UM66_ZqaBc-0dLtL_4fEbnk7E_-bgueMFIVX_3MY6EHvC11QC8LQuenJTAr7bze5a3Mskod7g3rH2vsQuQ",
+        "width": 2268
+      },
+      {
+        "height": 2016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114362980470682197417\">Gathering Thyme</a>"
+        ],
+        "photo_reference": "AV-0GLcOgWFBp-HOE2czxZ-DG5J_vRqNXqYD5vCMij0Dq1FQCWalzy9rVKIiBxLBi1bxIhAz4eLjzFR_YQhdNOGb_EkAJU6H-ct9ASb3KaAgk77YfjIhfMX8J00HmnK-AlEkXwB1FF3GUxp05_dQGDj7xwAo_9KmSFQ6K42kXMkDav6glFEk5iu1esmz8i1wONDvlnlHT-zegIF1iPWdXs-GHEsbZJ3-M9h1QxB9c3rTRvtoYMp05fVzqrvjwhc6SeQcZCgS47UyjcN4qwqf4_SkXl26hd_FQCZRTjr_LQXsmN57fKGIOXMsly_jkA2KAJfrP5wDS61kmFG9-XtguXrNndu64c09yFN9T4CsJNvdPM_wpTa6TAVfxfAMe9_wrDG4nSPG5cor4Ahb06hyQZ_86z4sFHRzDpY",
+        "width": 1512
+      }
+    ],
     "place_id": "ChIJy9e83T-XhYARAu5_E-ABRj0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4415218546594803202",
+    "vicinity": "426 Petaluma Blvd S, Petaluma",
     "website": "https://gatheringthyme.com/"
   }
 }
