@@ -1,40 +1,242 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:01Z",
+  "fetched_at": "2026-11-04T16:31:56Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rooted Remedies - The Community Apothecary",
   "place_id": "ChIJ8REHK1anlVQR567_C40SE4I",
   "result": {
-    "formatted_address": "271 West 8th Avenue, Eugene, OR",
+    "address_components": [
+      {
+        "long_name": "271",
+        "short_name": "271",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 8th Avenue",
+        "short_name": "W 8th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Eugene",
+        "short_name": "West Eugene",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Eugene",
+        "short_name": "Eugene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lane County",
+        "short_name": "Lane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97401",
+        "short_name": "97401",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "271 W 8th Ave, Eugene, OR 97401, USA",
     "formatted_phone_number": "(503) 470-1593",
     "geometry": {
       "location": {
         "lat": 44.0511618,
         "lng": -123.0965608
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.0524135802915,
+          "lng": -123.0952027697085
+        },
+        "southwest": {
+          "lat": 44.0497156197085,
+          "lng": -123.0979007302915
+        }
       }
     },
     "name": "Rooted Remedies - The Community Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 17:00",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: 9:00 \u2013 14:00",
-        "Sunday: 10:00 \u2013 13:00"
+        "Tuesday: Closed",
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: Closed",
+        "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3231,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcpoy6HOkhixl_In3AP04u8Zp0PhHswVq_mVzzBgt16XtzTXvuSjWzd39PylduWC6C4mLkX50hahxBzrRCxQEVIT-J6H8HcRHzPTtkeTa6pUHF9LF57VjCADLh42bR4wVliCCcPak0iODEVIArOqHONHrtI0YhEe7qCdh43c2jfIZp7wCedbNGSH6M5f5Xve2uFvAdm__iqKAi5a6U8fjuidzosVJVVlUEZ2zvAWM5qiJEge6w8CbaLZkLoJSXzbBlrJZN3azzD-cVuWqx54Rw2AU1g4K_qfSSlCFarDsyeq0F_CNoNZpMgTiqKny6T6S5zdc1FPX654YnxWXVdISckZZfYOxuKxyTnCL9D1iWnrqwu5o4v4EYCvzZKG4w4U9rs3tLWsPg2YeTbkrKPUAqCj7JCo5fek9KpIMKy1-mFZg",
+        "width": 2663
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeq-BWJ_DzrohIHals53ZbT49U-Ikyp2aEPcLibdaNKjA0l8pqbXEyBGgCPpgqkzsRAjCax1e3u9VJXn4PUBWCNJRXPcHWCPZPJOmexiDoPD6SUpIPryRmCqf-uWknB6RecaKVu2UuCtT6LbjFj4T444ZAm9o5CGmUrLK9dU5jdWKrOewloAnLTLoNxwC0lw2JGGt8uUwwbW2wHUxvXC2DQ60FeAagtyvdO-JmZVIFNP7YGL22Ey06j2J1tJeTLSd-KPg953v6G0NEP2lTjFwbfxPUKQsrnkHVZWK9fhU_Gen8uXW0idA15JWvaWtYjdWlzBPZPtiGvlYfWNoQGy4xBHvg_bXn_6q-dt_3sqT34KIo6XWxOG9SlzgQKFdSrnC3eww3HI1sL8jaEAlfpxStTOmz2xzA",
+        "width": 3024
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeywXgN6Xke6fzg_gbg--H35hZJoWouyDQmDVpfQH3oNEt1F0Wn4hBJ12gO5cIdM6BhAbtYaH4fBOkwPe4XXKYAkDUG6YTTPtxhF32i7xQ9515Wl1AX7mi45xrZSEo5DmyZKb5HlaXeRewKHnHTysu4-wFKRc4Rcfkh-4R4a2PzUWeNLrBrvq6GT_NLtMCyXq-2C9VPAfXudS3ekebK1F3BQQ5cE_E7mT55zfsBwBpfdDRyBSYrtFefgsun0_LhcN-IiJ_VdsxOaUeAYMlPwKsvqKXe0f5IulLPLPFPaKgQ7Cl38XhTsa-Sf1shwWp8CJbLffydo__aQLJdAknVpmIcKkyDm2ekZxQMqkNGW0gOctZ09wevC7b0z8E7BHtOuPffKTZPCArVIyt_gEMtTmvBCL8HIYAGWjxP5vpUhq5SoA",
+        "width": 1512
+      },
+      {
+        "height": 581,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeNTS925K7DQmFepPFJJo6SmpZyiBvS-ekpTPnC1IVIDHWhjca4-3meZNt6CEulW6PrgzHUlUNk8JH04C9fbqfgzWy-fv_Z0MuLGYIiszpXHttR4HHacWC8871w8gRl2HmaYo_54P7YiBRNzcLNSqo1AS8rcZVUMzcBJNbWmbCVbMtCPTOXDwPRvipR_zA70-jB78g1BBvOaihARbx-cLIBUaWXGg2GAC-JMRu9stqzC-HFNhph69vgbJcdJIbHQcmcSDa8PcPgAp8kkXdFE0G47ayqwMiZPkzZqXRY3zXDeBZBWv6nIL_i4V4Wuz3aZfEvnEPRFtwxm_XaIESK1tmFpo2HgULVkAlk1UhWWmdZRjmvd_OCh_ZVncnvbgZkIuqTKqdS-6Z2I1alIsgaFaMzGf9W",
+        "width": 1125
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLejjVVDchVHlGi4W2liG55pX9xdqMFPLVKIQ4IDtMyaQEKtNC8SYwwlJ3VPTTH8Je1XgdC_T5Bo8BuJz06H-gE5w3Ve1t7tiQR2raqWsrOFkrdqnu3WDROhWsfzuou2I6bFOEryv2HzUy1-Qf_M6OaUPnOjduu8P6CTPxnz2O2f7BTVdKXoHGeMvVHSHHgJ_SAi1df7wYMhVj_jreSXQxJP8LWJ1-S1kuaWqiFiXmkRzyNoAtU_lYci0Jclt_2s12BshlBt6K3t5AdvE8XEYIskBeM2q64FGWnRU-qjSxakHQtTFxDAIj5QWxn2ZCATf7-3Dhg2CBTmFkUiCf5RhtgIzTYNQxB5DLDFh9izt5d42YYAEJE5sV-9UpMkH41hhoolnei2nqwlC2FiC-v4Uh59Zc7y7giixycoHhLEuFw5rw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeHqQptUqOuprIZHgGkSrCC4LfPCI8vIuCw4m9VSW_TkWwAxXrmhVHKXzw3vlxJ2YY8ZTEMFojf4wtvFtX37vl6js5eZ6-g_7ZhnREApz9duQep3nk7Yf3MoKKYYkxMDGMPYqpNiRPxLeU1asGI7op4ftzSyIC-9okWsXKuIiUw6U8sBY4EE8j79Cw61jGd357J3e9i4WgTCvSiW5dEibq6A3TT33pzF48J4YNlUrk3inxzplgrJPRBZviwGz3hWwNSOxKcwuaCbB1irUn69CLW6-JYNauHZyI53oEl_FFo-YuJ-GHXcGibABupgOJMGnaljVVwcdMqULLbQ5j_pcZ2lTFfyaYQEFgOUzfekEiryu6JHTzXjdkFY3PXpdO0TAHzRRbbY_Ij25PTRR41tSg7cLowIQoVM3Rk7PFk8rqlPw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcyX1spSTY2w_LpKYskEJBGX2wJ2k_Bmz6rpS4cZNha4ypRtHgeJZiiqdIepBt-hDlvugvLJPsQud5nnnPrIzD0IffSVQSD367-QF_eNL1oFo5M6DNZ6FMVjIGIXslevZ51y5QoVgndS-e0YkyJfcM8cOqtcZfHYq1y0pt4PtYs4hzONDo57rfzWZb1iZ0Gp2OZXnr1buW0oLZdRM3YFJBzOrw94WtZqHZwgEGU8fLMJMtX6n3DmF_PLE6KAApdEXuC8OPOBXlU8fTS4N5vpqyr-tAzkc2tMuYwyFD4d12Gc_R8PXIxVBFcGY10HKh5k922VlDncg9GFRmHSjgLgzvYRrEyd4EUMDXougvyV6htL5NYITeCPKh4GyWFWEjvK9XNKVwXOtEKTC91YXtVLHSKGV4LFXvz3emBb_ECr2qv",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdWYgDXiibd6LDEgvDvfj36HH04xBs9fu31HCe23XyCGoJM4sALuZpF8I-1CyUd9cRlbUZ2Vvdzip6Z8l5FK54T960Ghbi0_epiCgK5WPWoef0ZbW1wtpBcU-3oKoK9S9l4M3-t9Qi1XqE_uDPjyk8FSshoz1eqa4tl-IXQpdkfIsuQ_WqfOF4-0MdTMttFZvaFIE4oR09E4YKREVrNKxXpYlUtrVBL7bZhW7z6hdDRZycn0N8KN67IgT7yN1XYpXF4ZUUjcDwdano8GuKSnKzh4KqA6TpXmtjX-Ya2PTlNqDNH6KGHSQkuocBOcBpt4tgg2Z8bL_a7e-0fhFCTDZsB7ZUUiKM6sVd3c1ZEmLcbWrkqzQ07HT4V5gzA-FJNM39y0TpwNAFd5CaYOzzba7cYR8FK2dTeufPDw9RqxD6b",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdmUNhV-bvKBa7RnhNid0A_-KmRv8jDznkEltnBQkX-PXUbxxSWOdWEvGB74eSUqEKGeorD8lRYLeHcduepJwdlWsuHzUbe82-CBThwZDQ84Hn7L_sa6ZzuSmb5X7fr0zKHO4xRgdRI0Kpb5jNHxz3sFjf_mnnraG6mouyQvx8GmS1Aqkgc6zZjaHshRmv6n54Bn-EMQ2ZVz5Fci490VoIUJ4FZlrjVL78DGPfAMy1BfDb6omWVcki5w1chSQrL3fgwqQ_cQm1QLGnbGkwrOWPK79rqWW3iSJ3o4l_vZ-8fG-lLYbYObHYOfXmvvrULZj6g-8MM277GhTWeIwMpTow6K1vk5UxpuKAbdDq56w2fCZvwKSQJMmvuOnA5Gnhamafmo-bzbeE8YLDYz2lz1X72LHqLmvl_8PMZhpWnmOzjRg",
+        "width": 3024
+      },
+      {
+        "height": 2316,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112041067641277601821\">Rooted Remedies &amp; The Community Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLde4cmnMnzFBlpfgO53jocDLsLKBWObaV1tRxfpEqVpeLOaVbEa8Zxxy_ORvgo3z1ig5xwyc_iLKT0Mf_cUZH0KW_MSZZDtTHzjrfoLbLiBxi3UoU3XF20Os2Fns3H58tQlmolKLMs8-jDeiUPRoS9GNHgDVgXETh_vlCAzdlmFS-7wHibR4KMBWYsrpA3Pmnb9_7MaPhksYkmpZpy8R6ThDyd8ouso96nDHZdRDvVmUnFsKQ4CDu-DTsQkf__22GwCTHHbkpuk6JGLHfaQ0Jjd8zBnGfRdD5lDCb4wdIxregZS5WrdiWt-c_I2RqceQXlfHrfj83hSKUy7qeO9OxYlgRj5m_3XV59uG-zSueNFAaS-D0TecDizX9enhANPtyo9-grxn8OB4P5a_mJLtbuaXQY",
+        "width": 2316
+      }
+    ],
     "place_id": "ChIJ8REHK1anlVQR567_C40SE4I",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9372855646489128679",
+    "vicinity": "271 W 8th Ave, Eugene",
     "website": "http://www.rootedremedies.co/"
   }
 }
