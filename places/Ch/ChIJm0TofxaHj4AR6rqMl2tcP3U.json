@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:23Z",
+  "fetched_at": "2026-11-04T16:30:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Olfactorie Candles Apothecary & Spa",
   "place_id": "ChIJm0TofxaHj4AR6rqMl2tcP3U",
   "result": {
-    "formatted_address": "2052 Mountain Boulevard, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "2052",
+        "short_name": "2052",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Mountain Boulevard",
+        "short_name": "Mountain Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Montclair Business",
+        "short_name": "Montclair Business",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94611",
+        "short_name": "94611",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2816",
+        "short_name": "2816",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2052 Mountain Blvd, Oakland, CA 94611, USA",
     "formatted_phone_number": "(510) 501-6958",
     "geometry": {
       "location": {
         "lat": 37.8266273,
         "lng": -122.209337
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.82794818029149,
+          "lng": -122.2080468697085
+        },
+        "southwest": {
+          "lat": 37.82525021970849,
+          "lng": -122.2107448302915
+        }
       }
     },
     "name": "Olfactorie Candles Apothecary & Spa",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 18:00",
-        "Wednesday: 10:30 \u2013 18:00",
-        "Thursday: 10:30 \u2013 18:00",
-        "Friday: 10:30 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1574,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLe1cOoW-uALAkT-xfyGGt3OJ8q6DMSwB9AG5fCTWs1DnDXUiFcuAAqsow4H8Pv3AM6-RHw4xqzXxKMlrSMHI0c01tgz7WGwMAXcAGVrk77SGQDWf4kW1njRmdQ1lkFM_HFLJyn5B8DMVLpxpVkpjXYLchujkmhqyEmJBzwFD5o-67ARibRPaw9BkjyRleAmlks051LbCiZZog9xh6WiBLNWKZIBojhzMrLJ7mzguO4xrl0UBk5ZqqQRGBJ-zgC4ZpK4aQW96brpcHBcYK03lh-D5vIV8-XHF7xmNqz769RpkztjCx_-yvSgzvTRdrKnn2i0fqelj1MbvpTwp_ftZPxdrfs3l9h7v4Vd0AG4xqBb96uO_JX70BFXqIZrXnBejehsOAWGWF_5YonjzZi2N8MBjA",
+        "width": 2797
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLcPTmdhgUmI7OTZnQypYVZxY2muY8h80TGTUwnn-AduIKYP1Hl_vRRwEiSQ510dcW2TE1df3dO_rxHQpiJQcyKuNid5oW9Ghd2CZJJ8i2eYHKW65WD15B0CFpy09FKeFA7-UgUCb-y48eCts6hSYYC5i0zrgkj6Wo1Fgt6SMmuSgxDxn3YWYu2sKKFEE-emwNVK0_QZUPycV0dyAB2dNbEP42dyC3VranRwYtfdkxjFPt6n7SGXiRTKMvVX_vCvOuwfhI73JCVoAho6d3GxwelDHwTCDXm8n9aerf2d_AcHVDcuujY4rIFth-3tVMYlDWmGJ0A1zYDrqa8VzlCXcdfZ2MExOBpgkZ-74eAuHikumX3UrnWbLhYM-1NgmjW2UeJPsFbJv_yzxk7UM1NeXBpfRpo",
+        "width": 3024
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLdw_wro-tQeAjAnHfmcA8-xiATooV30HifSN8dVLBa27BDiwIjlCw0LXdssPG8kk9gUqtHGVm9GSfpCoqr4UjflqMMXmyDEe0bjIhjyCgM4rbkaqzJwKpwaj-GAmt0vtLiPt8IoH9SMJRKEMWn-rNi8LIVRCrp5f_LWTV3HXkD_q-pH6dsyRYX8AwDY0_w4tyywiq4dUOv3BYnZpMKRf7Y-wLqaVE74tsnJxcV30bwnT8Q3oe7nApVgEhWc03em_gUCIUJwVzMwKpghKLzlaChqkcbHzSGuASWbyxX5l5eZqeqW4ua99ly9wdHpjxjqTRlN-YiagY0YGSCE4xT0xcwQGSU9iye-9fiebdEc48GomOm68Jtpzh5_cHqzdk5hg-bqewP05iKLtRXAdt9GvHio0a4",
+        "width": 1656
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLe38NObHn1TZQqgu_7l9K1ZlSLOu_CIb0QiV9usOckVA0i2kLTNEB6vw_tk3K6g96XEk6p_AqQqsP3o5jGxudooWxNJBI-cSUsCraV0yEWGCkisp7mVKv4C2uObWw84QDbX2V2uzHl1SOw6SEwpvIqPdnowQXipz_TJBjfhkBAiYQxoCnZB4kWBmaGvs1qo1K0v_X6gCoxcUOrI8VFSd3rw9XqjfEuofl338hHjXt3r99EBicR6uqrdXv-tbUvyqbd8qL30dvTabr-_bL8kT8co_mItyGfksRtk-0vljy9mCdUNAz3PzDcHUL3ZLYDMHroJxAjGRpW7qjzbHLF-pf9PtNlBA-xXTLPiL3dxF5vSDWWeGA9qdXHGnAqjbqGL6N8OawfVB1voifUdc0KxDOVNFlDkZ7KYlSBe_G-7HkoLcQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLe3-135W14o65ynYpx0FnhodO5N4BFBd4egRWa-MeLrwcT5eYvkMfPp-JFuWPi0-_Htw_fhM-MTqcIGSPeHtJK33ljOpXDbUsizRm2RyrhDeai-i7wCLqkS5crnVkL_PXEtqR9xK8DK0Yky5My9glRVpIEaBLULsMEffYeC_ujfhh6_PtrtVvTRVljTYkXlnsjLe4ORpyeY9hM31T6Mpo4CJqwhngL-mmanBTNi48Dpfan2PXtWa22zXT16UlnEncadSrkZnF-Opzr1MPThr6nHA04Mb84cPqb0dgfz8S-cLf_K6BImGeVBAsPTZdkxsci90VSpzBlFI3jPsF9roKN0J3eO91MGLbuVNDXZnFmDVDQ--Q9soyggYOzV0bHY2yvJddAArioGNzUAwzJLNG_PO1yxd6E",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLdvfElZldOzmfM5u9cVsKTXyKNT1ghlqSIjy0Afy-56ueL-YuHvF-Nxip2fW1mxIhPXfa8UuOfaLtW0gpYbjX8bIdba0sVyYhUC5opfEoSpcdsUfQumLJsMoZaLeh3sdc1Ye28A4aZKwptNU-RNbIR3QJLiaPU5J-v95Lpky9dMQ5M10uxBWJuJNiDrmjxnIwCaye6ZBxiPOXtQG089GnzqBMQ0vPATwO8V-_K-7dT_HI1hA2H2N618Rn1rn7XE0n6ZTe9zzKQw8mjz16ulAV_fX3PR093ASh4tE7idmvLKNeFAcJUDQRKVn-ingtuEqVbiRy2acd-yM-pydpd5aLLQUtMXdIh62hu7KplQ8uNddoykHkG-lTPDbc3vC5QG3hgGtmuyD66wYZ4OuQdwof5imhQ",
+        "width": 3024
+      },
+      {
+        "height": 3753,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLdP2FXge3No8TDjZWq6l--NNBD8v5R6cH9CHN5cb8OCMaVf3vFlulooO0vnQeIxWjiYwZXKvcr8sc2pJ55epjo9cfFo9ex3zAcO40_MrZmolU-GJ99pC5k5NGO02HiSoeAeDMdjReRZIFcojtB7jGFQab3HopTA1YmiyyCXusa920oFdACHG-1SVABCiWgu1NcTicSH5p-QroWeFfoafmSsufnDI58O6lXLSS_n9ILw-aH4fn5TZlHUZXOBDmDo7aZdizfb8piPHPebVW6qcpVAS1Ymog_soKsMBsUrnIVB2kM1OoMaVrJ0_tfZhNo3K1wcUs680YgfztickgQ9mgveZWZ6Ruwa0eNeryW35ls6DCmdfkjEKm0ZoqLJfux1lDeMz-4jYGbGLgPvP0OPf6EJWxNQagEAKJEM99nx_bB1xg",
+        "width": 2876
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLc83zRJYToWijzL2qlS1deOs1F6mhlkqIro4_tLJBgpLdU5PyTga9G2T8dfbfquG1_WSoczzV77YKNWrKziVASIWL0F0s9P_fszvoY8-Euqbf-OFxXTh5rmWa4QXOl1aA_8wk6XMYJYFmvVzYmlcSwzMatzohVXQM5eVdOSKJfg2bfiTiUoJGvu5Iu0yc5ZYvdDHFisMjS7jHhpPRiDfqxv_RUjOA_ppAyvr-0JneNX7L7SqTi7hoc-Rb8rQNofZpgpvv-Jm1ioXjdAwncLb0nB7JuCGNhWsSF1WRIfnHAE71vUYe-D4cUDG88_OuE4RdY_gzyvA-9rZrOXh8L85Z4Uu6Bcr5XRhya6jBKVocDJnhZ1CrOugmtSIMXoICwQdcd932i8Vat7wH-L_JQFzVne_g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLcAqYc5oUzAtJbudHkgp3NH9_P-lwT6eB04YVkZTXduLkpPGbxjWjFaeVyXuinkiog5d58Vwws7OTcWKWwAPbFqrB1XqKsOZuhJIyl4c_mIThvClHazpIuJgAykFKVkFntDyMy3qeVNZsXIZBXTf-OtnCs6EFVC-troUrto7FGx3GsVeId44rQsQjXTYNBZiEFSVlwkKQ6BCJSCOT0aB3dZq8vjlPFSa4jezOMjRIv4_g3KEbZ1NGtMmkM71i3i0UoAiqV0q6ky6QedHZQQ0wb_ofavF-FssqfYYosYpr-zhuWoezUmksgub7i7PBtA6s53OgTP1T5YZ-p8dBXcCOHfoUbdPJ-YCWwFX40an5oR-fjzuxPh6e7TW7357FfUJJbBRaJGy26MxNQ3gYv2s0KgH8M",
+        "width": 3024
+      },
+      {
+        "height": 3361,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117677561815986247144\">Olfactorie Candles Apothecary &amp; Spa</a>"
+        ],
+        "photo_reference": "AV-0GLdcOcbI-3vAzaod7TVhe3YqwNQxQ2zQUkPJ7fErDaB3ccj4DJzSQEwf0PJKxNhkjxGys_AEO0z4YL4TxQfuXyqCpOG897PGm3YsCgi_Df8my5dAn9u3nQSj4lKlRWHDY_c6-zx3PSWyzzeh_oT37HfFVkwm5lzVXWVuxcyd1LkI4EcMI0g92TKXBu0b-pGhpfrgMRkbsLwxM58K_IREJa4jTjwoG-k_xRBVtQXniNZmhXswkb89ei5DJXVK_O8hLaUkTEpEwUKmBGCZsCrYwaErTFnvp-VH-QrrpaVUTD7Ap-3yci6T8Ydn7mW_m8stgmdcAj0-yS5nzxcphCMDv4i6lMAYcAwEwhDukV9lqbokViFj6WpjnyjvNWMHHbbz8hEAYSi7aU11oN8XmDsckXK7-k1oCE3Xr2OI0PFn31Pm",
+        "width": 2520
+      }
+    ],
     "place_id": "ChIJm0TofxaHj4AR6rqMl2tcP3U",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8448573043144178410",
+    "vicinity": "2052 Mountain Blvd, Oakland",
     "website": "http://www.olfactoriecandles.com/"
   }
 }
