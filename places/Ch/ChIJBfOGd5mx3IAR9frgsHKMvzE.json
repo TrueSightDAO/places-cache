@@ -1,40 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:10Z",
+  "fetched_at": "2026-11-04T16:32:11Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Ursie's Apothecary",
   "place_id": "ChIJBfOGd5mx3IAR9frgsHKMvzE",
   "result": {
-    "formatted_address": "3730 Nelson Street, Riverside, CA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3730",
+        "short_name": "3730",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Nelson Street",
+        "short_name": "Nelson St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Magnolia Center",
+        "short_name": "Magnolia Center",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside",
+        "short_name": "Riverside",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside County",
+        "short_name": "Riverside County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92506",
+        "short_name": "92506",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3730 Nelson St Ste A, Riverside, CA 92506, USA",
     "formatted_phone_number": "(951) 568-4055",
     "geometry": {
       "location": {
         "lat": 33.9497625,
         "lng": -117.397341
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9511793302915,
+          "lng": -117.3959794197085
+        },
+        "southwest": {
+          "lat": 33.9484813697085,
+          "lng": -117.3986773802915
+        }
       }
     },
     "name": "Ursie's Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1309,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfSM7qDKEPwfpC7bBc-2q4psltdQ6L3_w8zNkULAm-Dccmd0bdk4v-cz8MYin6GzPoLI6SPE3E9QNASy5VRFdnnK2BBHZpEphAUVmSaJ8geZV-6YfQaWHDXzeXhYPLri0J4cCh_iVs7yaSwsPwJHq8q815unaZCiroB0_h4PZNsk1odDsq-9LKhmlbKNIzKEwXbmIFDampning4QQt3AphKkDHlzxHzG6FJ2l057xvTwUlP3XRA4yt3BlpZnbw2s715cDV65lBMhEsTBm-dwMCNd2Zp-PRj164XbpsIb24xR_2WABlYO6wmU0pPlww11BDsQu7aldkf3ryFB8lJqzTj4AtwKjJEUhWi9IxYPyFAF2TAV_qMAiTn1oy2-Y8v1A4A5KiV9lQv7hv1VUHnl6LZRwFcvECqxMQHmFGRCeYOzA",
+        "width": 1254
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfOYcVcWcF_vj1zJAys3Rb-JVuSqFAZxxG23Eewsl3AqFmdCoUNjQe_3djzgAw4iKHl_W8F9uMKP7RPgpZOxU9NeseEExd7RFZ84s1UTNULJJxBX1hEUu8AG4PYgxLhY1RX6_wYjyjlsqVncBIs_bLpwCce47fRhg4VjdxAzPlLhXRLzJlXhtrJEJowfB9d3lBQ78EWe0loKlp04YjpPKX3RE4S7uDYaMvls3_Ch5551V1MgqCtQh2qqMcKJhQ-dyfrzlluXT7zKiB07FhmGWBqLgFsy4udSrShOh1d0AL8984LR0dPjoHKllqMrdTPMO0Z1hsZEtYrYHHJo-6lz0ZSeHYVJ5I4jVQgB1b2EBFft9htMU4oiG1z6_cErexMpXhdf2k1LT-o5KZ2UsRjPNtNU2UWNAD2X1LknoEDw__SvA",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcZDXS9PdDPOcfIrhGUzbIimAQOGVg0BhHAV_j255q9FcS4wNHF8poBfNd6fk093VqHsrN5g41hvYV1x3BTYR73EJuY4zOC2hDQfARqJUG7I1wFP-x9Z0hNPfmMSrtmNaKZeljbQ--3QoO4rSDzjOeRS7WTtTw0yUKtQtaiqLWCiteioFeJmX5ohoq6z-uwj1x5wht2qNLj-545Dp0DBwwDP0Ots_4TopKypUz-WqaSp70jXsg34rhfjjRWL9nbvA0duSvkMP8IHVWg0kb56lawW_SkNfbz2I6rXkDB-tFHMKDhun2CCsYbeuqyDpEWjy6DSMaXbx-yIJYpXGkY00tEWQkcNuaXsqMBpkyXpvZAEc0xA2qQi4_LUQF1V_UGWujaD_urziw8ouEYt374TpXXLA",
+        "width": 2048
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcchlqU-XOlm2rjTP9U2ygsF0BgbsAg96ltXQps_seS2JrcYbmgJ877_-U-gkdQsAA1IIGd9Dl3W2lw0iKYSMER9n2R_GNY5qUq3SZW38EP9vXs82rqjcCAWI7G7eQ9GFgRDub2ETBpzSBTR7UMI5HFb4iLkAPXHjJ1cUz16x5zNXxjzOmrFgROllznZrYTdnDJjvvHGiIKL1cK6KhNtMQQH5-tSq5tFvO_hBDiejWh33xUdbXj4QDIGJWblw8clYqrooFCsbKa_SPxFtonrxyxsKwgnyT6PN_5Oteyjmfk5uhBRP38umS6H9Mfyl4EsyCd91JvSCvXmWf6fi-rjJeGuNqsWZB00lnpC6rpcs2pT4whqpxMiDfxWQMe6lgDkJFalpXbk4c2F3prKnwbII6pYNmHd5E",
+        "width": 1800
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcUQ3DP_JeYNMNbwAWC4CB2fatcgs3T6GVxsBoJfS7RBWQV_uiSI26B6BOek-WXztGuGHyM6Hmd9bRMkXil5j-e_o9IzTiGgAHf8GZbQ-T8DSV_Jo1cDjow9i1m1N-ApoCkYRAWrwxiGJXpaggnAgiTknkIwuebepb3nOpOuy6pepm0EHSqROghchR4VF_7zITVFLPQTElAoKz9PU13UlMfLVel31599vw-fr_Xczbb8WrbJ37c8oHjpvxuRrQzkeFXWsOMXFNdjDMty5GGkiiwdFNG_y7HzIoqKmC7aw8NGVrRC79pAOENLVHBiNAg6XOMvuVP1JP_OLWHyfbMIXNeQ7dLkiWRFF--iLXVSU4xuP1HICKlhqwQZxyXvKchYmC_oJIkhmFlKL073oVOMF5T2Ds",
+        "width": 1600
+      },
+      {
+        "height": 3471,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100287409349228916755\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeZSa4oqZRpY95y4K1A9x-mm7_hovmg5K6aWpYp1tfFd-TieFc2Q7V2JWSBjEtYWy5vnxFtut95b7RtDYqCBmDKbLm-6NdFgVWi20lFVrAYeafozWh-VFZIzQXBlTBKgZHEyTkw2pk_ZKZUnSYw3uiIk9L9B68LjHkhedCbcTaHy4AJ2iIAnaf6PKA9buUnH8kYE-65uDRBNYvZ2iVA1iLRoYgN4fHWa-Oh0QcH0jFmfnbGdKyvD9-mkmszgU47g-z_449v1xOPaPqqv3-gjYgDP_HJHrWLbGAaxnEZu2_FnzSNx__ca6eekdYPvRS-pSp5YafsUdPypHwXvwMhpibtnFm0p3esXf4l4zuSLo2NqlTF3ojeyRjKx1TNewzMQeDeWihtg2tiiHiP0K75tXJ-2dZPjbA",
+        "width": 4712
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc5IgWcmdjCNT3OTFbMyj6IydhnkApKexYp-7-tW7Jdp7ax7In0D_VZybGlTX6PlpYJqkKbYasFZGsqJJD4LHelKU57zddPQ_ePyLLhjPX_taasLboYoAw04-4cFae5iXsrFuZDs4M9Pe1qHIKjBglm-cJITAeph_3y4xXOyveEfnuqIvxwjOkRc5-HNG0-XJzSAUOKU_-Tu0T88aWAfMW9isA1cQbxfMAAZvSTiGFZyNPBEvnAWeVlmsWPKmV1kM--M0_UhycPhpobUZwD9LjmNucXq7RxAnYPz4SOmHAtSsCTyKbUd_2PX4zIDNhpjRmbQmIBGkJCbkXAXXf3IW_fswL4n1IsKC6FKA0TdXtFIaNiJLm6YjaVaasbOE5Gx3jllQXrIs9_4rqNTE2VDGsf5wgI-9lyrMBnEsrarJGNLw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLch-JTyGLN9SxHyTs1APcAkuKckjGCtEbkwhEAcSBW6xuOwPc-GOihPeIXmB9a7QdVk0SKTa-RP9kZ7_srJYbd6XsdQOsYVf8XQNS9QKmCbTzppFHsyS3C1IxBcEWFWUZuM5m8EgAUT9eoRX1keqRCeMzHMJdaoSpd8Y2P-SYnvh9XlQI8eWSMFoKuSOZDoG197Xpbn2tvpFuULToTJffly-dHJMcx-V40zCp9a_4tqEII_Dzd0DUjS-xmZkDkEoQRWxCVVuUjswZKsQh4lqN-XV1WDcXHfHGH1gf_no1ltY_Ieme78ww7l0U8l4VeNp6Ck0Fw1B-G4xkNWvIpmtZXij_7xH2BOvYj9wow96dHlYXHMW_WFlA6XiG2ssNMOJxfuvIkKGkwS1vkOeXyhAYM-aBPww1I",
+        "width": 3200
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe-H2Nw3Z5xLcQozl5iwTchxZGaTaMaQO31vA0iEmRERq8NpfeU7G_dhJo0JJPUvYOq5RCp0uQl3cYuqObDfJHekkEJZQ6P_tRw5SU7NgOvROvgOzoqy3M8_L0zN2C5DkMDpNyElRpOD0gcyP7e4bJ4IhYe3GsL-DHc16Wxthy22pI3kTUfG5XR8eIDBjtaXeAm6h6kG5Cm1OQ_JusWDPuuK7a83N5s82AFMVLxEfKZSKcS1jeMoEvFnMi8SYjINqqzaKDJb9bdkr7RlY5u3yg2RA2eI8CiXvRql36WnoR5kebYIr-TXLEyDbLg170u3pBavZvURvC6n0sX5iIxJY2VqxSnsCd2M8Ar9S7Pb_jmKUZPXy1hrITHugo9PQpDE3VcAWlAmlIcJasiV9M7jun3q6U",
+        "width": 2400
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102851165829968986313\">Ursie&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcBF_-4piZYL0U0362lRxj4nVxYPHnIc1Sg5dyp8PWRiHbGvnWDGLds-11LBypyIPxTRYGJTB_FJ-kvmcnTguaYwOapGDhkY2gaLt9ZTduuGju9R_jAHwlqjekNrbMn84_MjQ-uvIKJJM7Xmc4AHO8PCrWcI7iG_TTxQLNcRuHVP0uVlOS-mcHnAAKWP22xfMj830xJTlZhr-AeuCTctjcvbCbvJBfp0-Zn54JXdxarmT5ZND7q620wu5ytPIeYgYeS76sx1SzkNuz_0QRjmSV2KCPpp2aEcN3gPDC9JW9WASnCTcWz4TawXfZ6MxN3xG_gDaglcwitapFIc8j0_KMq8FSASQUwA4IXUhmVdTJ8tuqlMWPBJv4B9lNzT64j0eyuf53mGGOCrjFrk5ZhWK0Ne2KGoo58Q9S0LFtYEWLrAA",
+        "width": 3035
+      }
+    ],
     "place_id": "ChIJBfOGd5mx3IAR9frgsHKMvzE",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3584738252631898869",
+    "vicinity": "3730 Nelson St Ste A, Riverside",
     "website": "http://ursiesapothecary.com/"
   }
 }
