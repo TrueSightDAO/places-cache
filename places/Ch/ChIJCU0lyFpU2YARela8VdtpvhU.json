@@ -1,38 +1,227 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:12Z",
+  "fetched_at": "2026-11-04T16:32:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Herb Shoppe",
   "place_id": "ChIJCU0lyFpU2YARela8VdtpvhU",
   "result": {
-    "formatted_address": "3618 El Cajon Boulevard, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "3618",
+        "short_name": "3618",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "El Cajon Boulevard",
+        "short_name": "El Cajon Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mid-City",
+        "short_name": "Mid-City",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92104",
+        "short_name": "92104",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1515",
+        "short_name": "1515",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3618 El Cajon Blvd, San Diego, CA 92104, USA",
     "formatted_phone_number": "(619) 280-5621",
     "geometry": {
       "location": {
         "lat": 32.7554784,
         "lng": -117.1153036
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7567412802915,
+          "lng": -117.1138469197085
+        },
+        "southwest": {
+          "lat": 32.7540433197085,
+          "lng": -117.1165448802915
+        }
       }
     },
     "name": "Herb Shoppe",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:30",
-        "Wednesday: 10:00 \u2013 17:30",
-        "Thursday: 10:00 \u2013 17:30",
-        "Friday: 10:00 \u2013 17:30",
-        "Saturday: 10:00 \u2013 17:30",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJCU0lyFpU2YARela8VdtpvhU"
+    "photos": [
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111789863927162680778\">Michael Camacho</a>"
+        ],
+        "photo_reference": "AV-0GLezYGlCX954PEv4Dl-6-jff2YkPhAIqcNFcqHdBN8vYky2rO7C_TcDaBzW8TQC5dYRJBpKac6TX46eMeCFBd8_3nGkySx5jncyF3qBOr1EEauSfLbnlmKpEHIqpXmv8bNkoVgc_HWhX9CuNlKgxdXBj_qY07Hgc8i252Fkoz7ecZqZE_EfnRX0xV2fg8m5iv0O2ZO_ZlWLLM3Mz4RgR4W4rj2Iix11dFOyjxPYkltU1B-S7cQVqRXE1arMG_PrAaYurpwGSjGTEsKCy_2fDEawkB51WLOpY9lqDY5HrqOGZkim5RTU2srN3lPLVrKRPRhDq5CGgalOt_xLBqiLrMlGk-uayfQaSs9Gw4LviVi-8opZGdn7NNoJNx7oqxTqiHnBDDl09d-sTYh060EOmk3nMcH1B",
+        "width": 3264
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113602035028459891735\">Currently Boycotting Co.</a>"
+        ],
+        "photo_reference": "AV-0GLdXj4BZf9yzVKxyT3E1rUrQrMEQbwn5O9YKkAv2w9UYX0ic-z6fPLGzOzuL17KPsOI--U3Gqsj-tbrwlea2kQf_ZOttHZS1slnjLXj6kEWBYcNqq3c1QcsHeLq4PQcOtUzrvG2Dg2GdefC24T8FVmsJqibSDOQrttqLPOMdt0hPy7zxa5n_sx4zT1n04p8-lloEPEdtn5oXiKJjGs0ewU0gdNByTsJx_2Vk9Ds8bSZn-QMI2GCP8IbtrrzfPBWTIiRJ_rKyb9XfoCr0fZFN6xE6QGDxagJ44r2FjP3NuuJM1N4Lc5dQ5KRTYRh5j6RvC9W38tYS08FTcMcObP0EncepBIrbCtmnILkLpoF3SXNJMWiSSw1zzOFtarOVxwW0MGSMATIdcwB4elpsqIaJr-uEFn8",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101616491522992631498\">Forrist Cannady</a>"
+        ],
+        "photo_reference": "AV-0GLctEi_FKUdTJer0ZY4WkOptriRtRt2GYIYtQen7i7dJo6C7f7_HVR6sSqXiN9uCCJ0SAF-WgHbt9EK33xlJBtzZzIvb6tyLFnmQh4uFRtg4KJtNVLkmcVRNPjlSfiRT-KO82yRoAL33SSwlMnUf87u8J0szv2ssqLyVmmDUqnmDpoeS8LflqEIGz6GfKpxrtpcbwtuxpdaHbVQ6vIWMfP-1t3K9GpbPxxqhQqsvIANgOcwUH7918PpMB-x0MZ8SnoQHfbYqMSZqJdmM3GyrRRHrpCWVdWlvYCfdwkfKAIbLE1bmtjm7MOhyalR3oZ_8aACzCblYLw1hc46FpG-GK2ncLczMAVt6n1s25GNDncJ0nNc32UiN2YqxuVf2-cboAFm3OcpSVVwv0EFeTMQFyxaJd6n6-fI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113602035028459891735\">Currently Boycotting Co.</a>"
+        ],
+        "photo_reference": "AV-0GLc5G2Qa4qOhgyOK5aXv7rF32QQ8AXsUgA0JMTyX4BvjQLpcOB1h3ALBIZJ4VhflEaYz_wNSR3Isgj5Z0NvvpOweyJbEu9yiZNxtKvM2wSJ1UGQe5pY0Ohakh64Z8BXXzZWmq6mgJgDc82Me-EeQOfyF8WzYUpMGgOsYjMIOmXxQZ8K3ixRAjjGI63sDUO4j5stC3WEyJwqs79upi3XHmufOaxRVuO7AtpXotZwQJrrEglFDYKuCQkkWadCi2LbLItMnY0GgrdjM9ifns-sr_DTsvW7MDfKaDRd4EwkP36_n8WwKk04yQEkktbrzXQn0SrhdvOB82ejwCB1p51tEZ_htrgYaSWzmp6hfvM9vxP1o8ATf_WGOdwKaDnpz7WSFs1AXQt3-UN14O18Dj7h1O-cGCoPVWTI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107359932598883393809\">eva anderson</a>"
+        ],
+        "photo_reference": "AV-0GLeuWUMm8wUNf7kqYlpA6j8-w-s2cxcob0pGgGV0OfPgj0vvsYVKeFaofO4YTukWMnZ6ZFklnoazLXE9NrlF4ojwNaPQIjCVVD_ycTBFOR_WmtV28sgghfbNrkXFvAbySD5ThJmLHb3Dsn6z1khFxdXILVPwXroLHR8A7KCFFBpCuykogcBP0cOYPko_Tz1HOZrOIFSIvl_yT1VBIcNqaIDMwJi4Jxdqztt_aQCMlS49RhbEMPsMCS57RT_mAJRfUbFaOfSPIKXb5gQpLp_rGbeKU3fcMhSPdlrUiPhzhT_2ZoAMbcv8kZOe3RucDLPKuVBfxPPgENr6AhUowZr_gKWgT_mfLZrHuOnZBjDDCXwqXC6Re1gQIh6SzTI_MFL7u8-_wt_nSEis1Ifj1AnT5NxphbIhUfU",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJCU0lyFpU2YARela8VdtpvhU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1566806111128671866",
+    "vicinity": "3618 El Cajon Blvd, San Diego"
   }
 }
