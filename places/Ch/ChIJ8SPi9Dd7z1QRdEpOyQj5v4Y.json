@@ -1,26 +1,184 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:02Z",
+  "fetched_at": "2026-11-04T16:31:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Noohra Sacred Living",
   "place_id": "ChIJ8SPi9Dd7z1QRdEpOyQj5v4Y",
   "result": {
-    "formatted_address": "26 Hawthorne Street, Medford, OR",
+    "address_components": [
+      {
+        "long_name": "Back Entrance",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "26",
+        "short_name": "26",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Hawthorne Street",
+        "short_name": "Hawthorne St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Medford",
+        "short_name": "Medford",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97504",
+        "short_name": "97504",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "7114",
+        "short_name": "7114",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Back Entrance, 26 Hawthorne St, Medford, OR 97504, USA",
     "geometry": {
       "location": {
         "lat": 42.3288945,
         "lng": -122.8669209
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.3302014302915,
+          "lng": -122.8655809697085
+        },
+        "southwest": {
+          "lat": 42.3275034697085,
+          "lng": -122.8682789302915
+        }
       }
     },
     "name": "Noohra Sacred Living",
+    "photos": [
+      {
+        "height": 1990,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLd_WA-_I3dVzAsoT7gr1RrOl5fVzHGM05fNZhRqj33_dmWwLNGSnWgxUQCl0rFWZ2v83FQ70eMkGXdyoeixpsQJjb4rQFt4gL62gqBcaGhnpFHDg1Ao3F95luuCJJPmrWW90buB3mCPF6N7vJ4wC1TKQ6aYWiBaMQTBxRDllU066IcCpHgw1lwVB-e-u8ghPPwy_RMN6IDkVR4o-Ac8CHieKC_9YTva0H5VJ0ahjBcyCeGAuErLBHE6NXzSUr14QQK1KClkXjj91qckbnajPU01VLLdO8C7nGNGT7AUjTlSMnuQJt6bGGR6Q1b6GTeEC08eNJdaz2IhAowa3SBpojSv628DDxQNo36tpbTfIdThP9aEG4UMbfwG0Sk_6LprRYL4qbL3VgjnswCIGlRBXeF0Tr24",
+        "width": 1125
+      },
+      {
+        "height": 1125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLdNlUfnDw311HkDqtg5i2ODMNuI7xHNe79LU-WPoARmMqsE8UYPgrwyEI_JZy_a-9DHmbbZNF2O8Mc4duTyPLuL1AQ5GE8LtxGFQc4xKPVpj5NPiA5ZNOUDHEfLLZpng8UfrKqCsQa7zQWP1qC6YeNJOXCwtsg15B6tJVwMMsWzs8PjkRy2koK4g-iYWS610z9p7xTjFctIZawAXPn23ToVSSWCjCE9F-SgQwDBytuve2rPbn19hX_2lYeBTnNz-Y1y1rY4fsEpMUOSwTy68VhYiz_0G5QX3uljtEYxZcACVa1P02cBwNpWINOJkDm8BS0pPsjdVyt3qg-noB0Pupm5uNuM001wuIUg1rS39F4WFOltXnZIu5QqqZLB5gmmtpiZM-1BZcm6W1Ym3ciVQ_SCxA",
+        "width": 2000
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLeeqnUEWNvqotsaudkisd8ixsIe-amnCh23ECDcIPEDVFDOLvsMD5--eoH1cg9BDAo6ErApe5Q99mn_Bgb4Q5wc2_lcoHsFQ6umc7FSEv3QNBSWZMEK5ajAUs3F-uN6n9uQnedMLLeZlpvtWmwYrKXO3wvJIxT-9eQaOn7tzvZ7jfaWZPz-FhVSXUqsX9UWYt3LUXQldHY-BZwxw4Y1EGyB5xxoJ7f4jOtmIVTQTyHUlhtW6xvgFXHlFtMDBwOTxwdlTuHl5uuWB6ajfvsCSJpOgJycRJ0-lbFsMNejs4tIAeWbqFLUz545g7cKnZzX4M2KBRP528Rj0Gw39IlcwtawFIO_fKTMP5o7dVW14b3PqIiwlG5szMBfghGicpGey7sJPWiUkEnHz7K7aFziCNdmklY",
+        "width": 1125
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLd_b3ZFBV7qLkDvEIYYiabQgg0ORGHL8Igi2r6AggSD0AmuN0V0TbvYlR-AerXkMfAFnUZu4W3cmIderquNUm2JWOfhEa1gAxLMwSOOpQt_aT0cPGQmR_S0fKa8Syz-BYijkobGRaU30EGC9W8rFSjZA8s7ueYrciM5QsuuX_cxL61FDjyHLEKKMAtduZiWNiKVe8tSR8baXfZQZ0DONYoVjKlSnqFtZ7nzbpR-nGNB49yj9yn4evrWtA6pY6fPUera3wVEdeVpUfj2qLzjkKzybPog1mcZYcbEBzpik-03OEtmvikUSHSKSlKCsbcV8D6aZkR-q1jaSGgBYvgOOThorVIHb6FpiEJEEK0yP5vmdMezFcz9hjaoEvCy23Ym5RijA-LNq8VeoPHT4-DT4oH35rw",
+        "width": 1125
+      },
+      {
+        "height": 1602,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLdEtjk3KH_fSZPGPhJxq80KWWbhViVke0DVHxtR2dNNxD3iD2WmUf1CDM64KqSqNE9MHHYrRfReA0xkvwyz8spo9g1IZ_XKgVdyfKca38VKFBDE8rvaOXTb3vFmj4PdSq4ExEMGQV-5Yot6_ejY7OJhz37d-aUn5izIvKlik8khwwq2xiNLNZOGeFOncUSh3e4Txoh7zcWNa6gB5hIQLaiKf_GFr6jlEcvbqUciMdauEcoXPrKEElwJv2oIc_qRcRG8_-uLT143faVg-aEG8dz3vlXPbcHXw4YPMyl8gVl2fIbXLmI_BQ_PdbXUEBp1ukXJI6l7RIdL1Wne1dOPUPTIt7Tp0uK4QIINB5IYNAxM16OD1_EXxdtM7irVKZ4FEqKmIAgmz8ENv7CZCjfWzLbyMr0",
+        "width": 2001
+      },
+      {
+        "height": 993,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLe15iiIMJvnS8WnI1f4ng8edvHUhe_LNupRJQFQjGtX_2rxYDvkBgI7M6ZGK8xW0Vayq05j8V2hecJl4GwyVIyWFhxAajg4CWN5dXhAghOJF3K-sDoh4WITDndmgO7dwgQebAKamR32z6HXxYjTdNlzXXZy_wzTZA3zaJgWtJqDk6Aumyn8OpAiMQjWnm28RNYXbadkp4YH11w_YnLuhwbl9lZXftD3cdShOlrI1PSslCus3bImorLC0ANVMbBvxNZVL-IqxtukAMpgB_8Yp1y-k4va1Q0zkIe2evkmclmDvnER5m7gD5ep5B19hl7p8r_v1OpEDwHZ5xcDmf3-QP5f3b1Vwhib7zeou4RWeTB_gi8rnMcFHOvwpq3EW4QGSmamuP4g2DkOcXHGh9-T95OPl9Xm-bM",
+        "width": 1767
+      },
+      {
+        "height": 1274,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLfRnzBlzP1GITv1zZ0sqNNhigPTEI9L4yWUBXiErM7_Dq-KIFOex0FyuyHp-kD-PLdn0DHeCZ88_2tfiv_aK_7O2ept4UFdUSxjiXpkOmWhwTHvoE3YJQ9AdXrkcg_GPRdEPbJX-jmbFVD61wQb63SWnRuWIcmmBNcX1-QMBxvN-JMjs_3ja5C08L_wHOhhhdUvhVaM2qgk51TeN5-CgUNL7WY0URjXpyLbDXd2U5bd0HuBMOwOYzVFXIm1KsV_v6KRSrAaxp7_RO-ocnrvBhVl8Bw_i7_0fxI82RH3zKj3MA4qjykLRuzjBMlQIyCJRf6UsForers0z-CiVZNOFOcdaNTgUAFn8GDJuC5QfIeZ1C2aQr9-czGoIg2gfsurV-xffgDFTlp4PGDxCXt71ejO_7OJzJA",
+        "width": 1289
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106025574516012650053\">Noohra Sacred Living</a>"
+        ],
+        "photo_reference": "AV-0GLdMy7b58LcDXEOmPli9wJcIb_uBsTxBsAcIG29T9a-LmirvM3FlDUNdp1oCF6N9BfEeUBvlWOzw-8tbCUtzCbrYirS7DrM8Wcek8RMXNnVWdcN_gIt1YZzJZ8vgOS-46vOcmU-uIAte9dtxKTwB3IATZCHW5-FqdYEEOcrrvT1fo2QHsy_lAf_x_z3eia5xosjfrrMKcglcikLimqY5QPmcqBxWv13oBGMZF1QIJ-4tD3VKa5AsoPQATa8NASOUL4HHkLLA--LLStJw0W6uNX9yjBXOj2lBnrX1otMB_5mBcViQrkLT1DKLacNdV_K-S2R_P_jIsMOLBX3y60nA6m8acXflipsZEAKWTsqX6YX08Vbxf32hi9pVH2_VyeVErrxPoW3ntg78xoZ8WQzjFhB_AHco_V8",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJ8SPi9Dd7z1QRdEpOyQj5v4Y",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9709753137766484596",
+    "vicinity": "Back Entrance, 26 Hawthorne St, Medford",
     "website": "https://noohrasacredliving.offeringtree.com/"
   }
 }
