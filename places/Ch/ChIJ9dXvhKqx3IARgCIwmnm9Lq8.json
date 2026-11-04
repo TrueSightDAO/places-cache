@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:07Z",
+  "fetched_at": "2026-11-04T16:32:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mission & Main Mercantile",
   "place_id": "ChIJ9dXvhKqx3IARgCIwmnm9Lq8",
   "result": {
-    "formatted_address": "3625 Main Street, Riverside, CA",
+    "address_components": [
+      {
+        "long_name": "3625",
+        "short_name": "3625",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Riverside",
+        "short_name": "Downtown Riverside",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside",
+        "short_name": "Riverside",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside County",
+        "short_name": "Riverside County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92501",
+        "short_name": "92501",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3625 Main St, Riverside, CA 92501, USA",
     "geometry": {
       "location": {
         "lat": 33.9837457,
         "lng": -117.373551
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.98512618029149,
+          "lng": -117.3722642197085
+        },
+        "southwest": {
+          "lat": 33.9824282197085,
+          "lng": -117.3749621802915
+        }
       }
     },
     "name": "Mission & Main Mercantile",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 9:00 \u2013 20:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102084542345981907576\">STEVEN B</a>"
+        ],
+        "photo_reference": "AV-0GLd9gEVlDjuDyf-tGJ-lh5Y9oPSG9o95OXxgNmx6JkRimwLPaiupmT1un7It4jk4m-QNTd8UFtJJtu_QhP30ng3JYpnsKu3xz-QDmqP1rJbpQDs1S4WJvt560Bca2z19xitJilDXu5O8nhyJdwTHSFCcFMH6egR3Xji2x4_gY9bZ4PdLSQyLk9-tLT_ocu5bMoeEC1hxHuZsoQtMgMwsH2GiulR_CHTlivXZpA_DgAUOhbjCxL4iC0QE8JePklBxue3zidiAoaJvsjOFckI3EhwvCUoP30-svGHOMe6J_d5d9ToXC1_yMB60s2kCwOQlOeJRLtpNIWGaSFD_G0YEawpc2YqfW1V2xLFvwo1Mq8qczkIJ9_zpHP0LfAtRTcGKcSHZfKyKZSeIU5a1qfKtJgYdV7LLBwsdKzK7QbORp72kzA",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102259166774199511099\">Reviews &amp; Runways</a>"
+        ],
+        "photo_reference": "AV-0GLd9FG-5BCIGic_--7JpCuGTCLvoaceY2FBj2j8irbTmGJjzyNDj-vtmvMc8eAY56UpgFGzArNf1xGUO2WRC8OgNivj96LhdfOwPbkOXvhlfkf8zetcJmaWf2ATEeQJrqEHzhDT7MNYQ9AsxpHl9LFNxXkLG3ZcHOdlJcasHT8ltf1Noi0oBsoNSTXPHS-mGcSZ5xsjBRaFwQr1V29DC6V-qsOfH3YFbSrxTG9BFoLNiDDKcAO5FSnGUuCvdLafuhLZmNbn4AUYH3l44mYQTwzMjxr7UPcRkY_82tc01ptUtzJKr1LxSULOF1wN-eMpIYfRYvT8hyhzOqh_oitVrZQu2ODRjEjXiyeZDl_GAq-sC31CxB6rSUMSj4E906Kwm3GlEzS7zFnpT7tgHZashSX9R7do3xwQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102259166774199511099\">Reviews &amp; Runways</a>"
+        ],
+        "photo_reference": "AV-0GLfzuJvXzKQfi_taEz2b1G0YqToXchOJ83EyQZZqXdSOCuZEEAKrQAclpou1HIe1CmkmOtGnYo7aSWDaW74BlFHVjzSVr6aeXCmKnb_HpkhmhEOjJnMhc7NagdjcMiJGFeN3x5dAFnTv-lDtFY847wmxY_AV8bVupIV0bPeJBJ1vTit5F4G4ZIVbPjwaaoeZYT_JvzB6JVM8GNZ9RyNoV_xLhCixGe-yO7DRdm2sFECAriNKoqf56BNIqcozSkRvK8EqYfrp7tTYgsqbWup7ED6I6MmRz2OgXw9SItlhxm1yQBn2eJ6H0y0KfU0-e0mXqU_EMGHeQ789JbxF2Zm-k8J4GBtpdzRAjm8s6Luguf1BPGmbai2dxEBHIjh7ZIa_mVwmccerySsSXjcQjE8QFptK9Up5",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109739906479026893392\">Harry Morris</a>"
+        ],
+        "photo_reference": "AV-0GLfCod6xsF-qUU308OUGu-8Y-kE06r-8ue5tBykDvTb53XN34cu3leD__ROwozAt50dT4JItuvu24Q0E9LsvpMbw789IHoLPyE6k5g8KZYBGjNnFgyvfd7IpU9xGlVdeaCFoHwelCCLU2575JBQPfuA-p21iFFkUkNUu8-aQ482O9LMKAcKFmOXN5Pz6LA-YqfsmmxIdfnWqXGqhOhweFryMTK9kvWKyTA_ghRZh_aJyFRFI2E2mx_H04Uc91qXYELNM3hDnC9KdpeW6dyIPfPqOe9OQp70yLMgYOoMiqLLLaskcai_9weyu68v62XeE93RkvyHbWuAW0W5-xn_gdTIu8pY8Q6wcNOKgjfJW3uDcPSuRzheVvVQq7QtdPEqp3nNYn05C6T2QyApsXV_IqlcE6w",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102259166774199511099\">Reviews &amp; Runways</a>"
+        ],
+        "photo_reference": "AV-0GLflZI-cUt2fsBfayrmgOrG9mCkFy07ZGmV-9n7VaswmaXpCpLvSp-wG4l_-b4YIIYa3W5Y83jSZX3wiN2CB5f6IEHt8jDdlBsT1lnt9uXtF_1WEVa_TjiVc0QF0HCMBwQbZfmGeV3fqyYVkxnl3p9meGsfkQ-dK5cHs9WYLjcyjQ8Z_U03E3M1Tx_bAXY9siswQ8FOaCkFZUSgiFjeU_sBiTwkhF15U-DBtH5SJwVGdN4f5peWRk3ezHkug_5e4ZjmPVlMriuI1NBezXR8HdTriwPFciLXdMp16Tp784hTdVNicL7WBNvwYFXO890bM_A2dfVas1Nng84lXdZlX_dBPv19t4C5Ehqk2yR2d-aIK4s7_TxC-sW17mVf4mWvDG8NYIkNM1Hwyzg4TH2nKjq00ZCI",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116403678336625257895\">Danielle \u201cYellie\u201d Curran</a>"
+        ],
+        "photo_reference": "AV-0GLfFSPYQmiPt-fTmlu8wbk76fw1E_rrGXuBFUm6_uXgicZ9VX0H0qp_7SMSftbzKMcofzbbx7oYGQmcUSp9EV1VOEPVv47drRTP2oLzECF18QjwaG-eGuhyGQGjqU7xbTlqzb2cSqOKSriws_a2_sO7tIn77AIs5Tecp4l4AmyXDADBOolJZG7lhZW6tsos4vCpPvY9t4SWCdb1EBtSf601t4QHhzkF60vc4rHsCnEpvD1E345cVvDEGrC-yoF96O3A-2q_d4zITUzUfpX2GO15QuTF-4q93_FDNgAG0W-VTVyX-aIiBVwo0bfQDc4lg0AFuausJB1IkCLNXmk3S83JIYqtANcoUVS8KifAWAeEOtCaFsgpy98GvkJzMdbpUi8N4z6jZFeZ4z7NsGgyxZM8S_fq643VC1ZcbU54J6gMo4g",
+        "width": 4000
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111285094002420886934\">PsBoston7</a>"
+        ],
+        "photo_reference": "AV-0GLewHtLbLMF0nOmCwjcuXgajgEk2-NWkeETlkSm_QmCHdY4kUt93S5NHV0EoRVlpHb7KKO4h64B68ByZsr7Ys9cPrZwXUF0UTfFQwqPTMet1o6MxO_K5HSu6gjiG9ysjJucADBz8Em5bDRKb5Ugq7v-xlOQl5m6KjiS0RRdMkymYIDEnSoitSCjkXMRDIBS2j9phOo-tegTIHxxmzgXeZ6b04WUPa0I3kjYY8tLNNouzgn65eFf0x-4o-xpN18-TAeY0un3gcgl33YS3KgpdoZ57jJi1JRWHya3klFK18NQK6Ed_k2KqTMHfw32YwBqCqnQmMQMEUKvGJmjCOVRwe5iQ9KDuZnjutfrpsWsV_QXFSbH0d9yCQyXqjIP3ZTRzfqo_ridKKOwnNE4TkNfyL145oRpm",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102259166774199511099\">Reviews &amp; Runways</a>"
+        ],
+        "photo_reference": "AV-0GLcY5aBSW1qeiIoJFdOPbu57HXayDq46Hyuv-aEKSijuRTns114mHW5otidf-SA56I6U-kZSKIbY83LbtujdXNUFP-5DmXBXj64aXeJi9hEqrL-KzVHZl0lj8o360qYwyFvmrSy5_BxO9Jia3eArvO7JUXsXjgvEEiwuYXjR98n3jrLIKKLZJeDmqzTziBEI9p4Ep8aE1dd_oC2JIoAF40wI2N5onxI3HZtbajOqUybeJQhl3QLRMZH9jS0BnWtifk_3R0NV26WJdgDIvsuW6iyiNrADKvbnSy2BA69r7-r4-mWF0ydcebNrdey59bM-GmNTpbclyV54o_6yUscNU_LXnbDmex3zrtmIz6E71P_0NvdjFLiqm3G1QtCdyiDSp68n3fdrnIj5-U-dstISrC-9CkVh",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109739906479026893392\">Harry Morris</a>"
+        ],
+        "photo_reference": "AV-0GLfT7FPLmMNkPrFUDQN9aaMviwa-bp8SUWsC8slycA2_qCD8iC5p0pliywFlRxs7R7U9ElwyHHR4FKjN5LzbKqx-NRs-IfuIhN0Pq0sGi6KmrTd3SipJQ1510o3OnWLs-TAPsjtoS7VBGAFZpJ7fruwKU5Tc3MNmZ9MflPY75uOOVYlO_1-liMrB7GKRLCPQcO8Oxt6VCO4D6S9U7MXNbVDNcf7b47dPd2lSh5t8fAKrqVISnoKYRptdXYRdwPqygNsLeQXq9s6hgykmXgQtgSuLcLcZ_T9bz1v2p-aJqvgMzsIpwYd1paikAkRFPGAEfpOd8tbgHqTGmesbW7q7qk4Y0VphMjvVbq6zN2ByDNXywPnPNIdc8xe2aU7ZnOMVglWDabGNtQcqvKsQBvLdynYtVH88sb8",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100992637744378699025\">J. V. Rychman</a>"
+        ],
+        "photo_reference": "AV-0GLdj-LQw32wj5Rzve7SBWitaITZf9gQJya2z6Zme_rF5aLHrpVb8j0O_xtW2nakUKishMlMoQhjEg62esjmZQEBZIIfmrXPldEzHueurgnuJT-hsasIlfcJN_tFFBAPop40zy4LlzaG6zRqiBn2J6dyc03d0MvXbdQfZN_lrO8El384yOhARZpK6P2uXrHUFedYTFvnK50oeV4KJ8MfPBuednlSgUfKDybA7FbpBwmb-S_PwzZZv_qPyvGdhoWZ4JSgXDx_YpXH8v3k_iMVT5n21thqswChh865sys6Twu82p56qHsXIVuD7AzM9DnxsE9XDCjNzxxUMMDSrTo1BgBHqVAXMliayeQCMiBrzHxhk2VLc1L8YyBKhl7lIOemmERIQY9a7tPtn1micPmyiW46KLMM",
+        "width": 4080
+      }
+    ],
     "place_id": "ChIJ9dXvhKqx3IARgCIwmnm9Lq8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12623235135541617280",
+    "vicinity": "3625 Main St, Riverside",
     "website": "http://blackbirdmercantile.com/"
   }
 }
