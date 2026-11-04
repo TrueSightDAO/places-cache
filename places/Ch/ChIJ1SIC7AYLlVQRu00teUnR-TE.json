@@ -1,40 +1,197 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:48Z",
+  "fetched_at": "2026-11-04T16:31:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Briar Patch Herbs",
   "place_id": "ChIJ1SIC7AYLlVQRu00teUnR-TE",
   "result": {
-    "formatted_address": "4480 Southwest Garden Home Road, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "4480",
+        "short_name": "4480",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest Garden Home Road",
+        "short_name": "SW Garden Home Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southwest Portland",
+        "short_name": "Southwest Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97219",
+        "short_name": "97219",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "4480 SW Garden Home Rd, Portland, OR 97219, USA",
     "formatted_phone_number": "(503) 288-0000",
     "geometry": {
       "location": {
         "lat": 45.4655233,
         "lng": -122.7227747
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.4669157302915,
+          "lng": -122.7213838697085
+        },
+        "southwest": {
+          "lat": 45.4642177697085,
+          "lng": -122.7240818302915
+        }
       }
     },
     "name": "Briar Patch Herbs",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102902100079043771444\">Anita Trumbo</a>"
+        ],
+        "photo_reference": "AV-0GLcYgCMDPd2zgZ_f3tGu_q0zPFcCSKgPNSgSpuAh431nPweC0YVvwR-cboLh703Wy9Q2fII_02fE4OPoY2zYlyfw_CLll0n4rLMsFDr8lhzaDGpZf61xc92wo0DUMTVM6vivWL34Cpl-SpeB2GdUnNgfLrhGjaDuB3RvjA8Vnxa7WEaosZW-WF-mDiGuCftQEZonlignoJsEyjZ1hcM2TL-s6gAdO_zsVGdQTLy07DpcfJvzU2pUK__rywQfXovSxivKLQTVi6fiZ0h7lRWe6kqPjW43axtAbmYa91GRt0Pdhgi1M4vhRLhdF-_sVyFnP1wKgGaikJzX4ztpNeoKPYk3D_Xvl_VVCQBB4y-wneGfxA-32maa_TL_QZoKlk0AX-_eYBGohmGPgX5phHXNh8eeb_r_",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102902100079043771444\">Anita Trumbo</a>"
+        ],
+        "photo_reference": "AV-0GLd1AyFgokdb_TDBFyf34TXHe3Yh9fQLe1BF_GgUMmjIZlJE4b56L5GNF382V3XK-BPiRk1l9YR8RaKGwNiEslYYYmrT6Ykcqa4S1lZ9r8Rz3FmZQKkV_QAOrI2bM5485cdbhCOp6PzfiTpC7UicAbsw7yYoLdmJSopBR5HC0GszkVFAbxdKSsQk-VT6DyM6cVGedQS7T-MxFFu9qzpEHEjd0mPnDsCAtakraAxzfwmSzFwZtbJ6UXt_lD26qLNu5wt-tlnaiOlqbTDzAD5XHfA8fjTRDernJVE9Vbf2KWO7HX4tF3Mh-ri69wfIjjEsxbvMROEdLV5iOJ6e31bw6DYbnJgdeYB8AIrRR6kqwZJv-kCcNcQ2YMkmz0P0XON9YlGSM5cTz4xZNj1WpjhKxpMs6CM",
+        "width": 4032
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107423714700745827120\">Whitney Calvin</a>"
+        ],
+        "photo_reference": "AV-0GLeYj3XzvhZ40XrNzfiuAlQI1N_xaWmn6VwIVn-DJXLM3MBPmXqQbJV81FBdYOZ6-EcbP8YpbRVV4qVq0jIQxucC0hris3ThzHuuxv1KMOFBY5u-lInfWiYFI1rfb8w2mJ5F_N-tHIjpLgpha0PGsTtBl9sJLTelyt7kOjK6rcE-m0_UqLD608wwhEkBmvgaZvCCR5oxkXjkqjfT4837e6jkdDTJxlmOE64os1e_d-bBehG0o3VKfY5knhTpUET8U8XwIoRPVnl9XJyqeWtFig11FjUCzNmhYhzMtsAvVJnT0XAv_wdSSWtZPMULK3tf3yKOEebnyboKKTODWsxiAx6J_R4Up4vIrGQw5-A49p0lynFJq_5vOdYCe8HeB6rcYdNimpF8LKAWo7_CckpUD4eyIdD_",
+        "width": 2047
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118079693762407675590\">Jane Green</a>"
+        ],
+        "photo_reference": "AV-0GLeXE6NvHunEuL-TzRI5TEMWjxJtW0TU8VAovmB4f9MFklAajQK4Y7--8puVe8QAJG3OaZUOR1ygWxxoSUFfxHIU80_3YpRGW2T33IpWG8xgs4jMbP-92oVMkQJx7ke-dG1Q-qynnevXWvu8JmoT90fwPgDvPwGpfK1v8QsXampdvaxaae0Iihyj1q8935IDxaOAAuxRtZcz9kN6b3Wb9oJiWBZ0KIv9DEsC5wmJ0ur-U9fGUVv8c6U_xHzGCGdzh37gTL6qPDGDyR-q6OVczJQVW0EiS1zKSBCvIsXibMqt-OBN2hOAQTHQWzkC4ffPIN0dMyp2R8Sq9PZXVx0pKAmLfASyuzAsVWfwikdMTe90KFrsURT1LEHCNmsC8H4_Y6dVUpJ_A8Z5uffPJ3C5GDOnCg",
+        "width": 2700
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102902100079043771444\">Anita Trumbo</a>"
+        ],
+        "photo_reference": "AV-0GLdZV80M_gVgJh9amocdcMncd0itvbcqBBnrVOc7yvGI8pPpnGZHKDCKlWs5lxtGejZolevD-0eUgo1dywS3s7VRccWpBoEYaJFmi2cq2EEKqFhmfHUznAnrueZhBa5TRUTpBRXQoB54nA_6HO_Vt_WIfJZZjDQ7bNy1XvxaZkbE9atfJ-7Zuo9021_FP0-tyIxsAggxk26ZuhXPPSEK-96_OwXUIfUfgcAjS3dzvkPwJ0uRsxSTFs4Os4Uh_b9C1UO9ZBvLgSWiux3xupTGSbzJb4-VnvYKyVj7bPy_UyFCWmWwNB4eTLg0L672B5xAJuLr1_GoorKFK0Xy0EtBVEFsVFHqSJ6FMo-gE55fOlq5JqM3QneMIO16UvRh5-Pql9DLBAs2k0vosWCqddCYn23oV-o",
+        "width": 4032
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107423714700745827120\">Whitney Calvin</a>"
+        ],
+        "photo_reference": "AV-0GLfF6CNJok0HCjLF-Ecurq2jd-mi632be_78UAP3dViVqRq6qqgGFP4JzxiiIX46DkgHqhAts_RZsEEn1eaeFqE0JuQevALZYrOxlxyLGJOfo2fgU8XXQI42y1yvVYV_ePl2m7WJm83wPFv43JUOLezSP4X70hvPdpPJJROBArjRkRpfBZfAUYRAbDxM0of9N9GkVGgU0oLZw9T2TJjZAFka_L_5zHH84aa-eJUgmQVXqU9lcwXmFbf9rz25jpdY-ni6Ab1tV2HfzJnssZYWhYKcsnhv1XPNW9hq_3G41HXoqY4nZKewV5r0ZYdb3f-H6sGa85wmxULVDSwP0sr4KTWkS4EeIWMv6CLGqV7V0bQPHGZtYKOH0V9Iftyvi90Ra3e3FOyqT3nNpI2v9YpE74YuGA",
+        "width": 2047
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113789971385327232433\">Jamazurunner</a>"
+        ],
+        "photo_reference": "AV-0GLfwAzQyMNnIL9E8t5lFQru2uP2NDEOUFWdu9WEjDLplOhiGaneW8oD0LH0UB8kOPXA9aTmhRo574HDCcYNSxdFdNrh3aPkdXJlcrv1oBsFQWNPHKeITF74iYkkalzcI54whqC5NpmG-8oBmHKPfIBgItVGKPgVq3poJa1AugIusSBtYnEN69T1nTbwd2mg49rFIXOvS_XS5HDG-orF6q6Sk_eX4t67HuikVnZ1lLlDNUWOhvakseYabKq_JQzBWNGdLrXDWjDYQq-mpBQnabGBhpsfm5l14BLrLqPNCpqlfpCwQjqH0Hs0wimTzZb0pT8nWwWybQQT5WrCItGBaTZpQg3wOumkGL1eZradPn2CnjPjsZYBOQ_Zgq7klsJxqaDMTwInixOHKjMcVljPpdm9UvA",
+        "width": 2048
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118079693762407675590\">Jane Green</a>"
+        ],
+        "photo_reference": "AV-0GLew-TAYYCfotyYqLzJXWK68yorsE8iz_d9petdIFR5snp2UnyCodRD53rB8NNljsK0_cWlk2KWonoELSaE8LuzJfds6zIlHDSc9OA1P9ZVRQMefe10MqmkF2kSJWCLmgAKEIYnQBkGXWbZcnvyqJ7heSukr_y03Hljg5K2ChmzwvI3U4UrBBWjn9PUQeL01vXHGZtTNYqVw6U_9TE4HmfVB1baNJxkr8jGMgmKRe2HAbTBgFLGxMfDe0-7FcJlHIA9yu5imuQBMu5dChrY5jTk3x8blKg-wnDwlppQlYKTSl7IEQYtuKiyXKlfuzBXdWDaMEK-y9F3TpFwKhD2NmJuF7EQ0VYrmWi6lIUnH9VjWL5vJxHoCTogori99Cbl5TBAAWtf4l19ZqXSPYERiR-KVk3shguU",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102610778909543972187\">Tricia Lewis</a>"
+        ],
+        "photo_reference": "AV-0GLcMlXNrJQtUMWNTjTSC9u9Ukqci82ZHb-lByhBa_-90jXSQZ75wUbWS60Cp5cWIsGlpRZ6gpyFSpsBjSshOYTsQ6tMuyLXXQTFXKmJyDAxbBdQ6mrCN3UZf3q7f5mhXeLdqz_z57GiJyJG26Mc56gWOYFj2nowxBnXIECUFKgWl81yndyug1iIXHmODph8AUetkgD9dIF7Rki5csFohbHBFzlNEYztsLKw0h2J3H_NuGActlROg-uLRRgiRzwSBszQrgMmiTloV_mu-vBf1WSFduclEetwFo3HKaPrDoIWBxQatbjNCc6gnzkR9ZYF4VTkdv08RG_SmBvfUmVevApTaQGaA8cY-uhUzWc7Ho9eC4jCVB0j8GiJtT3D_XnM8yzgFLGmAfa-jntEukrE18DhivDRGALLhWRHmCbt4l2mHSQ",
+        "width": 4032
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113789971385327232433\">Jamazurunner</a>"
+        ],
+        "photo_reference": "AV-0GLfUF24JqkXLssmHwj4uf7i2fVxlrfIOW11xW2ujvmEwF_SYgZLs7LE2nOicu3IatHhkXFMGyIHNWiVSGbuspv33HfjQVdnn4SJxkY_eL3smFichgQKUkWJKimPtgVTyIr4QF8vsVsNMmQR7sT-5mcJRb6s7S4Y3rNEzuJ5tQQcGoT3q4tDpoeLmxf9AvWQz6VMVxz2Jus0tz395UIXUNO39Y8rKcYusJkwzEbUzkuNvNi-kxNytMJeXH6QwJYhQ8jksTLDFVN8psviH4lH6uapJsvYVugvScTly-OAnUMLZLse5Lkgk1-zUyjcWx2GG68rem2XnBtXftHszP7t2CRUaSM78J-dEGKuGZ8XSjTEsEDzcWMHZqXvnkyBVaS4IGTHBd98FP2iEfLWh28ZGz22YJiU",
+        "width": 1728
+      }
+    ],
     "place_id": "ChIJ1SIC7AYLlVQRu00teUnR-TE",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3601139490555252155",
+    "vicinity": "4480 SW Garden Home Rd, Portland",
     "website": "https://briarpatchherbs.com/"
   }
 }
