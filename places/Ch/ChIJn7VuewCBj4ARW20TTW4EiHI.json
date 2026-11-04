@@ -1,36 +1,195 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:26Z",
+  "fetched_at": "2026-11-04T16:31:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Theory",
   "place_id": "ChIJn7VuewCBj4ARW20TTW4EiHI",
   "result": {
-    "formatted_address": "1644 Telegraph Avenue, Oakland, CA",
+    "address_components": [
+      {
+        "long_name": "1644",
+        "short_name": "1644",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Telegraph Avenue",
+        "short_name": "Telegraph Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Oakland",
+        "short_name": "Downtown Oakland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oakland",
+        "short_name": "Oakland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94612",
+        "short_name": "94612",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "1644 Telegraph Ave, Oakland, CA 94612, USA",
     "geometry": {
       "location": {
         "lat": 37.8066366,
         "lng": -122.269992
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.8080729302915,
+          "lng": -122.2687309197085
+        },
+        "southwest": {
+          "lat": 37.8053749697085,
+          "lng": -122.2714288802915
+        }
       }
     },
     "name": "Theory",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 14:00 \u2013 0:00",
-        "Wednesday: 14:00 \u2013 0:00",
-        "Thursday: 14:00 \u2013 0:00",
-        "Friday: 14:00 \u2013 0:00",
-        "Saturday: 14:00 \u2013 0:00",
-        "Sunday: 14:00 \u2013 0:00"
-      ]
-    },
-    "place_id": "ChIJn7VuewCBj4ARW20TTW4EiHI"
+    "photos": [
+      {
+        "height": 2239,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLcY9zb5jjMfx_4JuQe_UHLUSewC8tvgv4dQ8gO5WxgOoF6vwIj5LSpIE7Y-Z13-jENT_Ypz4912VL7S9h84hYBftolgjbs3W90yd_WD0a_z2F5F0KyPUnK-1O_OUOIBfxRDei_Re1CMOjSldgp0pjHWH_mq72t8tz09XT0TMdl4LbM_VEZSNyJl79uwQpkULJZOI8npZd9vdihHQ237lQz2qm7LpcKWeyWUNNmGK1iXfBRzW8OF-h4egfwFtUjUJrUEKdq3ALkPnc0mPwW8XOhaBhldRzV1Ahsa9_ppie7yuV3bObCEBsxe4T5lxrOIpTDcMEZ7IZf5OU4RWbcJSTxJyK5xzPCv-WRq0zgwCtw-3_x09Wsbw_PiKzXMBg6p2kG6mBhMODw6cqtPbSgqX5l4Niip3Ms",
+        "width": 2239
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111574532729357790876\">Jeesung Chang (jc)</a>"
+        ],
+        "photo_reference": "AV-0GLccpp4wcQFAbpbZn8VGPvtd3zdioYJjnQEtVRhLJDsyqJXTZ3ZoXVGJOX9-U1d9hdNIQb0EroAKUBkpH6KGd8TilNpPPA1Hto_4s2Y0gVYpzwJc4bnHoGo4cbCkdbBnq3YuwWaQ-UDL8YRbbj3X7UWxm-5ndqDHMRMv0Qubq3vy6xt6zMIUl8YwvPsY1dYL2rgCRbaQVKnVCVigtZyZ3yMUNK2ov-agAJKFWFBlzX7AnxCe0nSaNiYYzG_FrBV1i2IN12V6pPT-hybMQm2cgCQml1fPIdylKI0I2hu8qbAcT_CckQomKo9_uExYcRo00G2PuIVLdRyDWNfi5wH1YK1ELYfWJz4MLxj_AzOzwTlGkQgPss_zieDIpbK2oakyTJOrqOr1jO60n8OFOJf6n36Dr6hD",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103090140153072752333\">Wa&#39;il Ashshowwaf</a>"
+        ],
+        "photo_reference": "AV-0GLcNxCo7WEq4NJn7cxYQtuyKo76VAOb3eSH5z8msRMAKx1d5cO6ph2D4skNJdj-jPWTrzFTDE2GyiYgaFPAu-eSKKmwRjPSeYiG5oAiELTgHv_qBtS51HyWLyEU4r66G_wnZOidle-l2wvJCiQptt5SjhRrnSkqw55ZGiCilxo6Oh2NeRyBrCwSZYaGHjhhv5jnojFBmW7Itsi6MkMmY9arxPZvUkkMzefIHd4Wg3v70_Hhj2FJDOOsWio9_atbAYTmPY_FK5DqI9DNO2cMwlKcnXoHEArwpLmmFtSItf0cSwln9u8sT_IrW_Av7uiy4Dm1IR7ilhWmqOeSnKGGqOFWOYfBTFq6siAkUT78lRPpUcGMjcwToTNafvM1kXZR26riVuOGFDdtcX_2hMl7Q3OxhLwG2fOHxt9BXdDkoRZ9MNg",
+        "width": 4032
+      },
+      {
+        "height": 862,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLfXAxI0hYUIFaJofE35w2RnCqz8N1tzh7nRAKfd996YwH10ihzWStZ1wd61MnSECO4VKdu7dzJb30Py5Mwo9iIAQaZh-fSdH0hXqFqLx2UIroXOlHyjfZWiLwQ85qKqzwRNVjQnPfdkDgyy8zbCZppVCcDL4ZgwlXZXMIYjOlt403D630mAye2r4c-msI2YuloCvagJG3MboXy128oqOEU5w3HtvIBhj8YzZHlRf9A5L-9fhu1Y6ZDDWkS3_J8bcQwze8a04xv9eez9L10oYwxybyHp3b70DnJktngvUa6OEuB00F4vd65BbBW3SJzS-2IWR4hOs8VRNTnHcOxg_rKnTGnpz1wplYSrET-Yex67u9ZupZZHvlWdmV-z9fzvyZ3MvExGS4yL0oP4j6oKz0EI1yjmMDuyCK7Y02_Vf6-r",
+        "width": 1157
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104957740822325950720\">Richard P</a>"
+        ],
+        "photo_reference": "AV-0GLdry3zLYs8ZZWBjNx_z9S63uHxid0ch0zR4SP2u3f0VnbleAYjd3hBy_bnKptIeaoZR4VWJhuqb3Sm1khNMzDAsy_sAleff9vXeNVMaTqAd6JmSP5CtzX0qejmMw8fFEpJFj0kAl1a08huzIvEe7x9EHSGEgqNsBt7dnODug0kxJGEu3nw5IswYGea3htcVViw5zSrPJCiFvRytpY95iTB667tgvjEnVrC0zrLF0fBMmIGsrsPNKrmTNabuwsqk7j-pp59zcb-Lhxlp4xVzdt84zgT_AdnlUn3KbLG6fjO4maSlFnYddSMQVSVpAFxM7eFurxCqCqHhe6wKoRK7VCbAlrY2kuATGDQKmWF2ZkarjwA2aqbueXahe0VXCbhILUKQenDiq3HFVyy7I8eNaxYichx_M5U",
+        "width": 3024
+      },
+      {
+        "height": 2507,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLew-xewuZktZ6b80t2Qaq9eYOMryl7z21aJfV9qqTReNt88FrP0WWp7vPvl7BLo40_5PfnwfMc0ppnWGcHhsAIevVDdtm0Gm9I9Npc8kj60DgYfW-DGGgTiVVj8UxX-tilhDePj-iBbh8UUw_qY09Xo0OJssdh2SvL9mRc-SH4CbWSaXlouoK2tWnKZi_0uN59x-hbJaTlvxQf4FMLkWSs27dH0G0dBJrOu0-vgv2KBjBBQxc2Lij3ZKZ4map1SWUqlPfX0k6XJ_Q5QoNqqEUex32kHcyP_NtlAYvsi2TlQYzqTV-9vTjvGg62UrFTaCIdJ6E7TJuzmMoMfmsuyybVxpelJ_-Ec56ntwDrjsl6_ZkgLpBDdZc5_SsMW7vajaD6n6i9sLXGutmPWIdu3fAGyRQ",
+        "width": 2507
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104957740822325950720\">Richard P</a>"
+        ],
+        "photo_reference": "AV-0GLcjiE1tfplP_fYCqtVmSq699ru2KYbsI9pMdEa5bUn5BPqxhj2Wueg-PpCZfzrY60XBW2KIWqOBG74u0zGIHNsOQiVBXh_zBsZkOcVYfHcikcKTYTU_Lg-41VsMG2_6ROIshmDC_8_wmteVytrnmdyvBY_KG-Hq2DH6NehsSA4w9avnOrf2P9GkVQ2-NqVH-CH-urAIkNsx4wnxNIcUcSj2g2TiSSjq7KxijCn7qDX7pYj_bhF1HGxt3l17dlxTnF0KNdhCNuXudSMkGsMu9TVOmPBRZqlNfvJbuuY1Z6xU1yDcgMRlZK0AULoAwY1Z4jyDRNS6lbMZKTZCHKgPIIT99xBwUxvpdFpLAnEl_lWmohv-C1WbYnCi3-n7O0ioRSCLadc2GvPYbznAEGnysiARfQg",
+        "width": 3600
+      },
+      {
+        "height": 856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLeIwk5C3uE3bRDqXQ36ZILgLnmZ7IM1TFOYUwAc49h4dx4h0f6XumdeqLyQ4vdnYkgAw88gahkwHCUR58adNYidfSRKJGfQux-XNqzIKzaNxIDJw7g1naFVMPK4RQ44OkeIoM0HkdtoUh7TF_aNNZ5NLFoV63gk2p941Q2ZI431ZQkefpUirRNPn7yT56O0dWlsk78ac1pvpKqRHxj7E2cGangJ-rxINhTpfa28NivdARRQV7AYfvbPSAteLeHqvx8-quT84enNpqMWEQJ4PZ-PcS19siOYVPI-lnjqze0nuZrXhAKipV16n4Ng0UDmII4A4pr4rDHpSh1Dl5YERSP7OR0LgkLQMFzl7-tIYXfza-UtNo1NsfTS8lO_8-bXI__c43xzVtC5uQMym6M5IIU7iJU",
+        "width": 1142
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112818123607003087369\">Christine Uyemura</a>"
+        ],
+        "photo_reference": "AV-0GLfn7DNk4UJM75IxH8qSw9a7oEkMFkij4Z6WslNlET0Gl0OYcFpb1dHKnkjvS3i0_K6KTiivn4bBreFK89uUzQcggB0tKsBLifVBmBZ8W5-j22LQE46SVa83BUzQccJDWblFLbLw3798Kw6YP5IfZT1VdNVp7zLzez-Mc7IrkkL05Sez0EfYrDzuo94ULan5jMIqLjdI6Sn3zXAKk-nXX1KAAnPTH4zFpoAM1jSLNNA8ZtTthI2naLQzMkoMtnOOxHrw2YvZ5WnKMtjV12i6EzJF82Dyv8xxnXOXITNEmQCeOCxRAils6IpHMDzYFe7T_W8Iej-6VPh7TfHqnzwUNxvHOiRi5s3Fi0AOtKbTvIhUOU9x7QHi-U3qJHEGZFweAkK563dXUQCWggMR3oD5qPwMQw",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103559914926922664471\">Carrie Marx</a>"
+        ],
+        "photo_reference": "AV-0GLfbEzjgIrR2ag6Q8vfKXcv8LvuZMmaJ6Jf-mxOlFNVW7x7MescssMVZ3XuZ5xN-9IKY2brSzzfnvsGgrMjwO9aXpBUhvZkx7XqP6hhMXFAuP8CTvKBnytaMm-OYifD64Wjj43mho0-KdSGNMFlqQf_gzv5m9xcFk5b1IvGdXuNSFerptuX9EiMvbO07iLnZgaK2iqzRPnxM22JyCJfCPDOBVyc_raI-0jAR-wWme_qvFS5ElX85mI5lSGrcix1eWEPhT9WSPgNi8WeRyMELyMGi9Tf_obOnlqPBoixuIxQZMq3c0kFdCcRzcKBkFtxqCo3foSW-jj2EVjW8-pjKv7TexGt7DQ96oma6EM0ppIzWzQgH0fQ_fL-lB7r73ik4eRpT5IDMAoGz_OlEjnahvVHpX5A",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJn7VuewCBj4ARW20TTW4EiHI",
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8252851188942466395",
+    "vicinity": "1644 Telegraph Ave, Oakland"
   }
 }
