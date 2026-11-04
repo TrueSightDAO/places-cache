@@ -1,28 +1,198 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:05Z",
+  "fetched_at": "2026-11-04T16:30:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Madame Mary's Scent Apothecary",
   "place_id": "ChIJc-um7HGPj4ARjzX__93a52o",
   "result": {
-    "formatted_address": "591 Sybil Avenue, San Leandro, CA",
+    "address_components": [
+      {
+        "long_name": "591",
+        "short_name": "591",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Sybil Avenue",
+        "short_name": "Sybil Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Assumption Parish",
+        "short_name": "Assumption Parish",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Leandro",
+        "short_name": "San Leandro",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Alameda County",
+        "short_name": "Alameda County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94577",
+        "short_name": "94577",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "591 Sybil Ave, San Leandro, CA 94577, USA",
     "formatted_phone_number": "(510) 326-6421",
     "geometry": {
       "location": {
         "lat": 37.7213767,
         "lng": -122.145628
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.72284388029151,
+          "lng": -122.1443284697085
+        },
+        "southwest": {
+          "lat": 37.72014591970851,
+          "lng": -122.1470264302915
+        }
       }
     },
     "name": "Madame Mary's Scent Apothecary",
+    "photos": [
+      {
+        "height": 906,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcOF5ZNXKzXwqWBnCtXwN2sz-vCXQ6a36q6UOXw0Oo-iNbCRxU3tQM2eBlITrJ9Z1ajO9VTkOBSpZKJmYga_GpNRxrPas4QTO5NKgRVGnsirH3rtVqa-MSsFVvaLCOXpC7i5CKUMPCu0BQDO_le9pPGWkKjlvh9FYWsj2_xy0ZISnYCv_mdaZmZ_OvAfatGa4Pk4zCOa2lzGFm5uKrXp109GIGm5qCUt3kOgIvZGZX7YdCHGaynO6VveFajjREFv78APIXQO7RxC7jmyauBOUCXz61lcZPXdzpeEfMCEVxmjAZ1jkh8lTAGKU3PdwNvAb1jLWnOIXmseV3nn-RSnNNd9-pnbUJ-ZFwdoNoYBTQaYf2YxJq86ooMIO3RltJtBdAaDfhUHFgwZrnpRnTAHQJgi6gewdg",
+        "width": 960
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc4v6Sya3EDaHsUQIEQnSkMOV9OEn3kTL4Cgz6wo2SUCMa4fzSL7UpLnDIgVL-Pzi1L4uMZAWwZepHi5Xl4MM4GcoUyafIKOWYyc4NtzEc-CfTBdUqbhBzdA0nj0b9qYpKwD1dGnRyUYLHWM0jMTZuCqQ4P3u-foxHgx9IzcFC6hq8uXqxaeuH8_qAkcXti0Ed1iefg9uXxEbhIH-Gz_p_VUgpEE0k587_6kb04l8FEOKaoJuLEiqNsY1ybS67EbcsAY9_rzyuamG1sgpISvj3BbCbHYf9tKm3K5qI3_1j14fu9xlUAg46x9rKH2yUjC8a8RQN7P--rhxC8wmn_gmgIjvCF1KjRivCmqpd86xdxbjxOZ0VXUoA2V8bv5S7XHTSbbA5dH0dtmRGcz9X-KObS15k",
+        "width": 959
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeR9F7Rpqnv1i6Z3SykPo26mStk9rR7zLkBHysH2SP8rW6dGkvVdcx14iPs-kcw43Xamzagu9p2N5wbGQh8pzEzaeDD6hBL56pC7beO6hDth_CdOUdekaTiOQLa3pZBapxtgLr8MTjyhA46ftS1V-re7TyGC-yZwoyJKHEtxnSpY2PFr3pIH9MLbX3y_H0QkMBRmuFoV1AZjdu3uxoqggZ1kCkmriAgk8w16SOLZdwqVf4TeHgjO5cxEgZ4mEcnIxCcfefQGknLgL-Zb5x3-68BrBEYl-sna1tlN6_WTIJBb73WVjJQAPK8RGMwuB6hW4ctLE9y2kOXsbZM8o3_W9II7c1oR9LMGxNHeNSLzDB55SyehsB9JjwnaaLDuC8DeHSgY7YLEJVEl263tUbTlaEGHH0b",
+        "width": 960
+      },
+      {
+        "height": 910,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf6_ir3UPzFLr00Fol8WgDTYDg8a49EaoD7h6RH42SydWl1Kd0XbH0Q6kHooER-LVbmKQMTIE23xVTgNtOUCqCVLfEb546bD3z0IJNqzjZBFKBbiwrSecSV_BWMg_sNxNKzk4WngjadVvjPh5x8Ujev5-bfALT6DG88t0UNomJP6veLs47_Oh7VzORZlxBXbn-WwBpl_GG185SNta-zQ8bZ-p17efwDKz4CMkNP6h1JE9p-Qv6QEvoa1uca2wtVP75b53dFARyUPM624T4Dv96JwWLBaFXap_dTScjqAT3P8vhqIFV0lBQJ_IGQ7jz28zgaKoSZJnp-5dgTX_QcG-kP_FGWq9q-I8zN2fAjDMXyt_KzDq2kzUIu8QcSkywHJIxdsQgiVUwrZtH9kDgme6fjzRKMjhM",
+        "width": 1440
+      },
+      {
+        "height": 846,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeOW_MpMd6fE1InUiv92sP7qACkCdu7p3-gn5aWYOXe7gtxn9F6TD6NjpJdOr_yfBiCdwn8wCCXLorX_0t7WkNgwCC27hY1N_FLyRjL650sRY9Sp8H2mxAwzbQeZViBJIJOCRszYTDOMlZIYt13pJwd-CHZMwnONRpImEXsMemRlQ4YdQaVBsvJKjO0lyP43GkV1HdeMZBZS6cvzSfYtMhqZN0QEePL2T-raPMQ8obGRNZo631w5LjU7__1hLcIFcjAwIcCRmSUH4d0A8kZgNeav-IQ_5wO49Dkdn_DjOxIznPI5jeG9JpQFtaD_44jd6yPcfyUponU6I1lqStATuYWcM6hOEibvGDIskYuGL5TWn7gAtPMXy2oplgdcrAb6E6LQSltwbqfhXX8eApHK2XroJxpnb0",
+        "width": 561
+      },
+      {
+        "height": 701,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcK3nrdLky7F5h4gz33zJ6LvhJQyc9GMHEPoW0-JuijkYE15nObWBntfDhIHnj7fdwXAoKAT33EJrRkhloWMUHMTYRzOFZZBvk0k40NYCG67_FG7CrBG7aXYDGUVbRNCVaCgAuhy0mLAlVhX_OnaDG73lMYmhztLeyghkhBCdBcL_A33G9eyJgG6dZwtYUXCvuEwRsYCGMnMzZhMf6LzLb4iSUI6u_0HRPO0nHglS6Lc6G6qgzv-6A6G3kBCiauUjWxBfKc6JbkSNYq0ZayNBtXQBdmtjBC7MqT6HlnHjaOYrYSa4c4HgR0pLkuWG0-li0AKmcPIfVOFcim-2d7_sUU1_sIjPi5_mI7CG9cAFE6k3VH5VU2fKOWI7hnPdtxbjaO9fP2dEZ754pvE2kORhSvtpey",
+        "width": 526
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdOwEzon_MSETwVP29QDNM2RRiVkDm8Xhk5oQ1QANVg8NhIl2lcoysKbAVN_dvPrESV7P6saQiGATqu-9jetWqR_KhnXW8vdampgdOnsI6Z3W8DxGgWySa79z7DcmecXx69ymHBDth3wo6wpyzJ1qBz9mRsBFWUgLpWTit2P7a3qyO-311Vi4HLTPBmMX6XUpAcUctXZJDfglKpFosck5O5BkvK2Xj2dqb7zrmo8FS_MkDIyXUQct9jtFCfMcCgfiKM5kGD6XyEZ3uUgIozcZwcgwSVXa7vpDyhdc8jJqbYxcHcyZsX2iZlb9nKXl4TI87LOGOfsDVBuwXS2XoRLjWKgclrQbflTnSjfaD46BsoU0PYWYU9B6_wL9ihkt9JQI059aImyhCpRd4vIMHu7cAtc_jhOKM",
+        "width": 732
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd42fGEbziFO0Db6iKqqByeFKhZ2k5WMHViv7TeDpyvx7ntsa3mjVBoHPqJK1VNWwqIk_tkFJRwwVvf6fUayJr56yf9ua_UwYe1EZrF-Yl7oGdvPCWk0xsZ-B32Mz2GFHo-2CRTJvLsV36UFzyh3-ESPuTC8TjOr-9zeUPu5djCacPUW-C98NhqXuj8bn9QUSX_f3vNR0LnVmPIzH15zf6jk67VB-MwQTiRERCK3xGFICgakUIYRHU4lMOlX0C0m7ezSmqIyDWWYhlZsYfTn35kzOnBIDBdbUY26RUM4uFrGzuuvcChw51E90yjJbksVcbMjpVyLQxhB9dyVl4YBpgdCsOZSBGBAUryCaVuaNShgeYFMCTalzi3MBfX4YrAF3PrVcQSFTbCVZ5057IG_obi9foL1a0",
+        "width": 450
+      },
+      {
+        "height": 1114,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcTMoiw1efDUdt0ToyFlBA6Iza5r0oR1Ey2pdKnKe-EM_IxLdWzK81CGozP8dbhQ56hTGjvMKtPX6rvsZXvW5vmhr748zqy3Y5offViyIMy8LPZT4tis0Xig514rmu90321um1xFcxe3CAliRooM3oP6lCL_ZZqXLLd_stKyRHY4CN3vKx1Q9DTEKEjYTf9sBiD-JOgpxwXuyA4Elj7N78QGuZQqB3F7gHDrjmAEkB71vkpj4xVYoxWTsAnvqZLPZrNdoya1qgmqoZxYHaCSC1GdlC9vlu4JomVYgLR3N6kVRjXOCSxV4KX8ll1NPyhlGa1pzHRuDhlR0Iz_LzgQUI2ACbAz87DUuD1HyIzmhndaBHIF3aSN1La05tSWtl_DF3iSCWD9aZYDr24AWqWYNe4vLA",
+        "width": 1125
+      },
+      {
+        "height": 1127,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110732280000946846162\">Madame Mary&#39;s Scent Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfRZdJSNGgJZcbBGFzX__8qx5sY_egRI-Lfo1zR0USY5hvhzRXif7TW8Hl8HMxyU67LjgdIYcfKwXaNBV3an-mpyEJGTNwxz4UNZdRsc0fWjzVoRWhrwW0nc3820ziWAHjGrqIwz7RzKv5vpaw-RJucR_iAGyxlHkmnFcGeuHKUGwDlOKN7VKDCba9Ypgq4m8fItLcEvpRFW7igfexg9xOvm55hb2OAGDRnC2RT1v9MXCas3TQwpr8-fRS31Dgm_cgFzFltcfkpSGv8PYZRRi3MeiTyBm8ntKHIrvR27bGThHZTtyUDFSU0qNtXDnRGKOAWPQx0eBwhzSnT6H9gv9VKta2VNjH5GNvaN21XlBZr9qg8Y8VZGGgsbigPq1pA-PArQRJcLQ2WoW0OlGF_eouo2aI2PiI",
+        "width": 1125
+      }
+    ],
     "place_id": "ChIJc-um7HGPj4ARjzX__93a52o",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7703366334658065807",
+    "vicinity": "591 Sybil Ave, San Leandro",
     "website": "https://madamemary.scentsy.us/"
   }
 }
