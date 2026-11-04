@@ -1,38 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:15Z",
+  "fetched_at": "2026-11-04T16:30:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Tong An Tang",
   "place_id": "ChIJgQtdgAS1j4ARMOehS_4H_5I",
   "result": {
-    "formatted_address": "1043 South De Anza Boulevard, San Jose, CA",
+    "address_components": [
+      {
+        "long_name": "2771",
+        "short_name": "2771",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1043",
+        "short_name": "1043",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South De Anza Boulevard",
+        "short_name": "S De Anza Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West San Jose",
+        "short_name": "West San Jose",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Jose",
+        "short_name": "San Jose",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95129",
+        "short_name": "95129",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1043 S De Anza Blvd #2771, San Jose, CA 95129, USA",
     "formatted_phone_number": "(408) 973-9918",
     "geometry": {
       "location": {
         "lat": 37.3086734,
         "lng": -122.0327714
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.3100013302915,
+          "lng": -122.0313507197085
+        },
+        "southwest": {
+          "lat": 37.3073033697085,
+          "lng": -122.0340486802915
+        }
       }
     },
     "name": "Tong An Tang",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:30 \u2013 19:00",
-        "Tuesday: 11:30 \u2013 19:00",
-        "Wednesday: 11:30 \u2013 19:00",
-        "Thursday: 11:30 \u2013 19:00",
-        "Friday: 11:30 \u2013 19:00",
-        "Saturday: 11:30 \u2013 19:00",
+        "Monday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJgQtdgAS1j4ARMOehS_4H_5I"
+    "photos": [
+      {
+        "height": 810,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLcQO6j4V7fj6Fkf4K0qhP2eXxRvMTPEIHIplnUi3I4z-v-VDs-axaXgUZYFGc8d6906QZKvycULSzqH5K2c8MNmagytOfQ5xMdLGWHcjKtZ8-nNJLB-wD86R7gJy6Yn12_bGz956N-KI-kz68blzeZSjAvMPVVeIIe1Yeg6slVp4NCS2o-aYYZXx5RP_kK5UYixLg7sdeVh7IbD2Pbxp98ORXcm4sZQ1cLaLoLM_W24xRBwwSVq1C6ZbY29OzTtBQAOJ0TKQDOkbyva_B1LeTorlc8Lj3in8S7HeiKFQsG1848bds2zNXP6005Rpawdn3b8yZfx7M3VTLq7XQ_2SKT-V0PR0GOKKDz2-80nRyYEYcMSZnP5kco4aXDy2Ztu0sc4yFSpCfDMwEnlLLhlIyalPjLsQjSDwxOBW_EfEPF4Zg",
+        "width": 1080
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112586149667607531498\">Martin Stein</a>"
+        ],
+        "photo_reference": "AV-0GLexVRezf34oPB8e-0bs1eIhUzGSdRn22IdM1LgGTm3zXz_BsT894bSPjF9F9DOASkc4eTmx0ZzhfnznrO_dqpjDvqG_bDHDhaSHENI3BbUdym2yQuSrwcjRMf1xThJVX9zWbG_ioBLIMN9V8ZlMscHkRyQojMja0m1qgXTHYuR9PfKaVNJk3Vmel-ECdk31vX4UwxT04oNNpV4dMOcZIMUULxDJvoDNhdopl9R7B8CtDublq7pjcmeE0we4GtAKaIryJ4SFSOJ8vvHUINqvxgBaO8M3FUKgCCMVLOH6RwdHVm_J_y-Jp5p8yvZC644HaMYRo60_JOXg4Kf98s1t9i-YMd5y9X9hcFhCMe8w__xwj__fPC2euvuGh1S_oYUX4U602HiAYgMKLIo3Oh8ZrC543nM",
+        "width": 4048
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112586149667607531498\">Martin Stein</a>"
+        ],
+        "photo_reference": "AV-0GLerhEzCLffoQ2DP1KLK76q5OZMraU1nqCyIwq-N4jjS--SSBfk-Ya-G0AnUEz_jlZyIW9bmZ90-0gEs7N1WojPeg38eax7WvAGwxpNSdOnn2RJK2we5YhIkj7kv589cHlcSNijjw0GKbX_lau96ubdhLfCigNWFfmV8ORZXLHki1LDYJFosVRuBgzOJ0dfhDM-GvAk8_0UYv847CIUZ13topbmfzmptiNfoLGSnTd-ayf5oxCRaoLy6f_h6Y32p0vqO6DzkTOvrfP25aIM9EZgnLNKh40fsawF_gL8S-fuGmc0EBDl4M2UuQOfL08txtkePsoV8kSL22WPRlmhGeXopzA1guSckjVSMl5wI2bARs4yI01X2Ir8IHK-HRf6lOdMnvohV4Vof5dNZcFQ2323Odv0",
+        "width": 3036
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLeOb6Izw2kKL6QywbK1eTqwWt18-pNAviYk79BaHtWYddbU6qBmfst4N4Z52BWOo1mNqY9w1GYbQD8NdiymE3TBZWKOrPnCpfkVOEiU-Zc9G-ohPMh57yJeAOX9fyJ3r7nEO0H04v42jWsbvkOPCqXeyt3x2X-EmOOJBgvIKunksSySA7h3Ni3E_POPDon1-2CCaKZQsu-djxbvou_lEnkiYTvwcOijCeRuGdgHLlb6ZuZs1NLOHZ9m9bZvC6jcdsUE-RC1i36zsIvbx6Hc0hx3d7swF5XYlRkkjorS7McfC5nXV9A43G4DnbVpG_e5C5UjAGr8c6Kn-6AHU6AWqYj2NIn1ohfMSPsGs4fos6uPww5UDokX0sPJzbMg-pq9dgH5UpJFXd3kDhjO1GmGohs47zM",
+        "width": 640
+      },
+      {
+        "height": 1009,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLfJXCGBzRwJKjxvVJRQOKVV9YYfFOvgKEmZPlN2Z8d9A8hTikHIkBeyJ4Ha6UxGyCG0xdJIWzo73EtBs_1b3ZeeNRgiFIWrCEexJ9EhA5nV_tdH0M7MEIj8w5QdOC0euZ5Qps_AKHazVvQCyJ0t5RB-S6boRAhVkva6WslokrODZBt0Xa7xgQGSfBnOSH3G5L7e9G1Ch8A4vNrUCUbCVnSrBYJhDUmjUg93P3oXRdoGaBxoZeMV7lC8hHEqC6DAHKqUEZBFIieV-3_URToNNlktkKnc-I7KqYqrizB9Wrxqi0YXH9aqyNdtvW8ffD2JswEAU_chtrenZc7h0T0Wnlif69YzdImQRcsEW9Sxk5lZ6LC2h4CbfDAl-r_gvIIxec5kRAJr_ztwREWGmPvuNUfG2z-hBt4-nTt3Sj_59cn2XQ",
+        "width": 1559
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLdw-p6w7KE756juLmP0FR3U7QCW5f84kzX72pd0ax0nEcW-y23BNPDu_nt3uK5ZWDVWqJqDti3nnw_IniJtwvvb3ozpvvbTbax_WPQWRQ1Nvxxxt5wo1-s4rL0N5nGrLR_MWRBCHW7HzhyWHSzjNtZ91LbVSFQRl9aO8hpGkECoec6ahK-6fhchwD78ZhqaHWUbHKHia00hlfLAtci6mUm0mhlvBIhC1mVs36FJpag8UaVLnWoBNWw3aNa0siskq7SdSVKymZrHqpc4mn0sv1Xmojz2z65v5b1dz7LoBgh5wJgfZpP8S7qKJG3ONUMoAdkGyjOEdiobdI3CFChm2Esj1TTTfzFaHHTsa0NDaA2MGP8xAVqXQgNyBm7AfGQoLlByeocF0pK7bse57NJbd43yMcoQ74w",
+        "width": 640
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107193990345471830637\">jung liang</a>"
+        ],
+        "photo_reference": "AV-0GLfvFaM-i8sKugJ9lXbpZx9MROD4h3FNc9XiZWQJtAby7seja_3ghFQukjuAPwRTqPTsFm008jRp3rVCMiR8xBXPfKJuVFJBdf1VFRLqrRBkriWNABn6jgNRJp5_-8CALIYirn2Hns7Ijvj8tsnf3X9QdUm9oHyOzssB9s0omMnsmmawAoLdK47q8kEkCRHorOS_XCQTjAbHj6VUqdkMExuI6kQgDpmZpW7jKVY8yaFarfD0oOgUM1rtX0xXeXar6EkBTdlvaLnyXcYAi9Ulj9jPYHHMm8hvStaXeEHvVp1j1dz_ixLQSVAZkQfLS5AyDDfxGfG7aIm0zuHEDHYHq_1kmT8H5czzmjrJnHzZnPWqbkoo2ThXGPi9v8t1jYPUD_dbaBnzP-JPE8OCXTV61hUXIB8",
+        "width": 3120
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107193990345471830637\">jung liang</a>"
+        ],
+        "photo_reference": "AV-0GLczdjmYus6la4dwqAJ2x9vq7k4OfTMjFkpNt7zv8tlao9V3RObL5WvlXcdLXWWgbYiNYxS7JBa4pVYJCiE-NqITKiIZIEuTX168eS6Q2ghr4sFC1oEmKVIVlttd-jOwuv8acO5ccMkcTnINO4u-s61-3EJ2t3T0r8Aig9jd14ZgV6keVP-rm5zOKKvq2Hx3l44bC0YpRB-eY8M9FBaYmUUjunbdVJwrxz1uyPm1T-7iN_KLG6UgXmzem2rOprAHwbQBhkgPH8IQZZoNnxFjfBQ5gdT9SNiYzuZmzG91iaXtYFMT8YOjneMjq7SqKFhCHjUrmTinYIWtdtBbJiFhnGhkGAKdzBcV8W0UwZ6AODOIX1CtJXY16bQSHg_EhNYh2n5u16HUSf9EBIdIgEbddb9wMqhY",
+        "width": 4160
+      },
+      {
+        "height": 1559,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLegAV5sZ7_1-Wxo01H4qGmrmmHizu8rNS3lyv6bxXkbqsjkl1Q0M4wLu3sG51ERY3V4-_nmXp4RqkacvPLrJEsfR1-w4o3MOH1PLJbkROkVbDiA9Z-OagJzDKm6jivrfrziP0hL9Isn5c5gfJkAxqZMQR83HQjaLLZ72lKUmrtUck02EsJUwcCSwm7Jphe0c2H8ZVQW_qkGibDopHXnSrNglW1QgQXh28ivRQTJyq4Su6hgCJ5pyFMxwOzmlx0ghzw8tgbiKgqaZ0kFNCU-0I8yusO5BfbFO22ehfn0fRrYQ19T9h_RO9qrlrGN1iW9Pq6mKXGqYCygnGT1itZsIORTk2CrIdrLDx2-zQMK2SenZ_H_Fu_1E16abPY-u0B8FSG9yW4uDtRCGnxjlAJ0bl003vr5d9-B-bw05LqVJpOS-Q",
+        "width": 1009
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109136966439407013191\">Tong An Tang</a>"
+        ],
+        "photo_reference": "AV-0GLdrNLrMgQDQs3QYEp6HMsyg4zn8XGuv-88YBbAuMAHLAJP9I1BIOWqKUtIwQl08zdcHw0PZ0L9q4lNj4AtNOz6Qkh6Jhw5NjWm7QGy80mF0eLCcybtF40LZGyfdHLTIlxHwzZDdpZwUbbfDQXXB6U2OYpx9lrmCYykrcr8mdoL58uZXKIuZ6omHK21LIDs3Fomkzen2QvJ6NsJKxEBCRkXPQp7BhBAPQCu0NJXFlqn95ad9BP8MbtTahaJ1RrAr5zYrTflmsZPfYYPF9dXeJhoE9osxQ0nHHd_a8IJpUQ9vxmmskbPCiZGE8V49u0w5PxkuXKMUtHxmu4DX2S4_c9UF2vHKyOIkHSTt5NglsrHHAQCkrJUc1S0DPjZKJbcDQM3RqMZQqOTr17JSZ1LwGlrRkuKWBleoKZC-7ILh0atLJw",
+        "width": 1024
+      }
+    ],
+    "place_id": "ChIJgQtdgAS1j4ARMOehS_4H_5I",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10592193637370685232",
+    "vicinity": "1043 S De Anza Blvd #2771, San Jose",
+    "website": "https://tongantangherbs.netlify.app/"
   }
 }
