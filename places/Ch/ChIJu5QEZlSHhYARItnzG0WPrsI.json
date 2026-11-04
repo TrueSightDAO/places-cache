@@ -1,40 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:36Z",
+  "fetched_at": "2026-11-04T16:31:16Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Ice Cream Bar",
   "place_id": "ChIJu5QEZlSHhYARItnzG0WPrsI",
   "result": {
-    "formatted_address": "815 Cole Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "815",
+        "short_name": "815",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cole Street",
+        "short_name": "Cole St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cole Valley",
+        "short_name": "Cole Valley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94117",
+        "short_name": "94117",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3907",
+        "short_name": "3907",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "815 Cole St, San Francisco, CA 94117, USA",
     "formatted_phone_number": "(415) 742-4932",
     "geometry": {
       "location": {
         "lat": 37.766458,
         "lng": -122.450251
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.76781598029149,
+          "lng": -122.4488358697085
+        },
+        "southwest": {
+          "lat": 37.7651180197085,
+          "lng": -122.4515338302915
+        }
       }
     },
     "name": "The Ice Cream Bar",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 14:00 \u2013 22:00",
-        "Thursday: 14:00 \u2013 22:00",
-        "Friday: 13:00 \u2013 22:00",
-        "Saturday: 13:00 \u2013 22:00",
-        "Sunday: 13:00 \u2013 22:00"
+        "Wednesday: 2:00\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 2:00\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 1:00\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 1:00\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 1:00\u2009\u2013\u200910:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1547,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116355286106441981384\">David Boyer</a>"
+        ],
+        "photo_reference": "AV-0GLf9SWj3vJLzQR2VHa7djkZSJ1n7eNQ5kWuKGzrccCyxlYMnv56hEIHar5Jv4bdOW-CBKQGHmGCSSNKZlHWHbGC_H4xltPxZ8eTCB503coIPUINAV12vmCeg2RUzkHnz6tHXnJ20fbwlUzkgrcIlGSssMjV71t_dmF8AG6UAKhr3ci1fAdgfQ-8ooDFhBJYmT2w0dlSqdEYDZZncYc3E52AuZ01Eyxi9T02ranfSdhuc5kDQk_W3srdyAC3-5OuuXSR_yPvxPZj6cIc1NejpznouBal3UCDlt9DMnt3cJNswktl7WHS3GQ0VaqiGR_j67JIhMFGbg8IE14WvYp5_dA9mtcC9G9mYsOT3SdhkQc_9f3oaC3J3pYduct8V3gs66B99XJ2EVOq66UtyJBUjHRigP-c",
+        "width": 2321
+      },
+      {
+        "height": 3591,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113467034232693066770\">Alejandro Schutz</a>"
+        ],
+        "photo_reference": "AV-0GLft4j1JNiqv9sxZB8aayLY6bZWRl5EbJpjveO__aEG2entsP1lKHbLNWYW4mycfvifL0YF3Xpa3OdiZRvHHXd8z8M70jWizhiAmJHKtfPlu42QpWMK2T5imqps1qX26j8SCKkGSaffPv0Jk0hmnW5SIQGJq36h1_MEUFILA1_3x2GumHEB2DRas5MD9AGfJpoMGLwFYGKKIQvJW_vGXyUmkMbIS5W2wn6sXgEji52pzbZEBKslN4IDXQCX-2UIB5vYY_9UJVVaA7jOwLLCdXHeqs5znIbL1dRwemUb_XK5yQ-wKTbX5a5c7DDGMDukMKjdukXXVS6gSGXkkli7tvjfT7dtDLn_AVT7PFhWjPZ4PjpzEqKsgafjZxibI8w0LARRXVKYenbqoy3FRs6ayL3bHFw",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108667495110478548130\">Hans Goertz</a>"
+        ],
+        "photo_reference": "AV-0GLfC3OPdQYcu23IWYZjRdWBj-_BOCmEuaw2U6Zci0eayowNeSK1HxAPmaWg-HmwWgVhS9Aj6EisKpPh8JnXU8-tfkmdZe0yYhSB9cbu7yh4j1o4NCa03fQH7Hm-3FEG_XtRoTrt06OoWOxGkR7WGgYCeuwYJCq2TG50hQG25sPlh7_0_RUYFhWud0im_m7vbdukyc8mJsR56EUnPP8m2cmoSy8Xm0q8Ulzw3N6-vD3A-tWY1QOfZ5932BHAb8yXvNu4ONBMxHXdB5cAzlCCOT_58JilKwxuYSXxNCm7_hfxIbqod4Nhy-ncMKDmRx_sTpn5JQROHUSk4VI9FfFgKjY6y-OdUBKHQiR7vWVlb8ptSkVK0kxacq1QeK1K3qFcjeH3Wl6836XB17zYe09sucXW8rLBB",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107043104886333477123\">Komala Chenna</a>"
+        ],
+        "photo_reference": "AV-0GLd8oQqc5rqM6dNMMaVAQSd1T1i4RBbtYE9-uG9vJsR31K2PnTuPNk464utMXScgupdQpQ5KK-vBqPdEi1Cw1aX1tNteg3gDjDNThSPV_Nr0fpIce2MoTL1vkPK_cGhK7iX4E94DtTB-LKVGNC9BSYLUjWZgX5_ZkP2SWYafkv_6hHA0aUvUSZvxAzXqRal8iH4MM-SV_618ngtKGt-56iR33uJkSat_x_VN0KfV8hakufuK9z9LXj77PSEJCHDHRj9nYoawuQmxteFyRJGoAgBknADWprhGyptUJtngfnYwNWIgtfuIigxAHPwPEyGPBncy1TMdntrrv7xoxU9YVXWdOXxdiMYFW0KYYNFux2ypjoZcxjLheiZPtiSK-jddFE782TnejG8hZFv9i1jBS6IqO8B-YAaX0qYkAwTuo7CgNw",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111373657757798268890\">Sarina Iwai</a>"
+        ],
+        "photo_reference": "AV-0GLfpCn-efkWM2NWaDXngyYrVjHwKqdAPKmGXytIy5MPlqoQsIuwGGavWqaE272gH4koxUcrRkVNqfyXbEwN6L7RBsivny4rsMnfJZqchSnjQRF0x-WfrfV9prHvSREF3IgCh_YlU7SzTUwN6IL-l2qeQVgc-rjVX5rn5lthKglWbauPqEW-WtFfhm7hrP0rnvhi1aXBr51sk9uj7UejgmuTi8_3f1OHMzgQchvagKLirGPExMj6w1CQTW_br-VzQHGu8m6TwOVRX8od1kRgaLhybSRP5e9sTGcvy-waWuBCs2Obru3zoMeHVjP056HhvZIFv7tTpYo7_HqyUxykwuaMagOJ4Fd1LxuP5yIEF5u0q3dOgL_ems-WJAkzrxnfwy8W7D93jbiSsyrIPpLMcVWWA-r1bNt0WartMkb3EaxKC3g",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113532067812434887371\">StickZ</a>"
+        ],
+        "photo_reference": "AV-0GLeHOw0ZbRUarC_QoJIiOyB5bEq0Ogip3e3UouymRZb2z0MZdJro4U8y0LFB8Dr_OkmGb5Fo_Fs_lD0U8OrTRSS6JEmc7n5WRp5y1vwR5LSybmLcDBkio27e8ouXlwVYolGA7OCA53MJ9jEfRhAe3mZKiAdrpw_wX_MxPP3DTxoJW_8Zt3gapdGtoKKHc3xVocB5qGLueQtY_V0_O2wUA7ne_iSyF9NaHGY_R4tvNutXE-jKNrlkdGUA-7oQ-DPd6nQ5NKER0rQlQDRtTBmw_PpW5dDr7Svzr-himvAJmFGeUHwT_OTPYl8D0_fxSMKSAfvkz1TbJl8umliiHvTlCVcnk-B2Do15t9lR3Lfy2grM80RJ9_GJ4yw_cUbTeYWEhtR1zZvS2loM22bWle5R85XWD5cn0g-wwy4fVCCZGANR4g",
+        "width": 3600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111002809159356511154\">Dale Legum</a>"
+        ],
+        "photo_reference": "AV-0GLehFXWub9Ou3kh7o9lZBpLlL65Rx7fdgdveRz3Wk20yGDrDuyieCH7mv-sSfmL9h1jy1zlpJpWRtMMfb2krq3Dp30XXRlqwKXvJuwadmJZirjbTOA3vPqwZTYXd9PF87j7OuunBXOYcG0U7zZKEM996V-n9BuhE2JS7QO-MowG5t-NbdV1qjASHOrIWNr-44dTQWVMUS-WICUqzds-A7We0nyNpdxu0QocZU2EnOjF8tT8nQIj52d1CO6ZwaWBizYETK7KgUTk31HHIpdQFIzZQur_A4ofvW4XqHhQl5YB9013ydGRs_C-fnqCpNcK7WD6C5f1iv-_wYw95Oiy8RrMg41UwPJjk8a1p3VmxlAZNwt6ys6r-BcugAbRbZLIDsBmdgNAoRNUurItUMVBDpPX7xXuLXTs-YM0ZfyhQ-8fHyw",
+        "width": 3000
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111562520947395997358\">Chris J</a>"
+        ],
+        "photo_reference": "AV-0GLfSVSVUF75TWZPJlRf35Cqco-zwUm-78CvPabNg05r3HXu6d3v_WO5MEIXFrDhjVh0bPh4MAUlDlMcclIJYI2tr3hZaJPZjfs8CUaWlHeZe28gT1itcWtpbiYPccEUeX4jiGHTFi3u-Qb8XNf5NAqCOBDBvAbqwW0sISgX9mDzaSfWNnsiEA3rVDtuh-qiGruuv2b29tXQtLUH3M5M9BvnhZbb37ejNdlJaVa7oitGXW1gG8UkuR0DKoTBbzJXYDliz_etTrDRIKihkhvBF045BiqK7sD61XFBvFHXvI1SAwmu2bfv4BaO4xL2eLx3iCnV8CKSBhrCTwWlV1jttt4XPKd7JaSKhetEbj-Y5F9-ZLxUCIkxN_0tahkqcSsuc8lb2vrJMfMuXbejqyai-LJsLECZCytrr_GzdfdrEAVpTZA",
+        "width": 4080
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117113406292686509856\">Whitney Moore</a>"
+        ],
+        "photo_reference": "AV-0GLce_4xkl9J02U4A8MEvv-731kLeQKyB3DrLxBiEMOM4PSeTPzU44A-3gzNJbSkzA6t1uCLilgp547Ta1W2hR-FRN_qsdpdw0INsPgwbVfeMRuo9Xm1O2Na0FFIaJbCq_syThR5KWyl3DCxuktKqczixt2ssCkQHAmzAEqs7dPPelUDeCs33-8h6LPkDv1XjaVflevpH-nG3h5N6AypeF6jWJnHgtVl_NG4QK-OrMRlPRzKrT4G_w4yA9JCBKyUPEBFCuDox5tP2glLvEZSfn4A2Ij-Dg3R22VvIgptpdL9yUMHSd6MyCEfGThK5VXWWgpPLtiwxzrfzsiQ9wGQS6L70JHAPOT5RkFfsnv_0fTplqjQ7MdJ8pqwZvL_vzpGKA8-MG72lX5arQFbafv8AB9dnjhI5AVPCHrCSU0Vi9Y38Gg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114047881838094643858\">Cathleen</a>"
+        ],
+        "photo_reference": "AV-0GLdT3Tlh490V1Q3Ui_w5mB4ZjcnG5SM5ulGV0nTtRlXqZs5Wgo0J_xSChkuMPm2r1CrMnfhIzwx6yoCxq7IsoEoVLV-NPGHYhA-6A8uHb2MhmdJPpsAVeCSV-b82HFd63T4UGFeu03G0NhpmXwgHj5iSj2h2VGqxHgHfs0WkQl33LIHzJCZgxQvGcpGJYeiz64VD50GPNS3TzvOrjVfHz-Tzgorw7gE4z7irUf7P4WcLgyrsRVIARK9lY5-hHrRe2vZyOCm5vpo4psySP97ElvrkjeRxdxX11nqU6Ybwq8W1Gbt4-qQmuWBlCNWHCcltYf1Zx8caMRtGeitTmwPsdeUd3xtoIpJ965FwT8lrkc0SVGB5Cv62UJbVzWfP7Em68239osFHulnP5rXJE1auxf0SZ5-9hzOwh2ooTQpP4-wB0A",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJu5QEZlSHhYARItnzG0WPrsI",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14028307416290154786",
+    "vicinity": "815 Cole St, San Francisco",
     "website": "http://theicecreambarsf.com/"
   }
 }
