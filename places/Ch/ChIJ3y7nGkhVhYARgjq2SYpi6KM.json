@@ -1,36 +1,259 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:54Z",
+  "fetched_at": "2026-11-04T16:31:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "French Prairie",
   "place_id": "ChIJ3y7nGkhVhYARgjq2SYpi6KM",
   "result": {
-    "formatted_address": "6277 Bethel Island Road, Bethel Island, CA",
+    "address_components": [
+      {
+        "long_name": "Unit A",
+        "short_name": "Unit A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "6277",
+        "short_name": "6277",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Bethel Island Road",
+        "short_name": "Bethel Island Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bethel Island",
+        "short_name": "Bethel Island",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94511",
+        "short_name": "94511",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6277 Bethel Island Rd Unit A, Bethel Island, CA 94511, USA",
     "geometry": {
       "location": {
         "lat": 38.0161466,
         "lng": -121.641278
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.0175228802915,
+          "lng": -121.6397945697085
+        },
+        "southwest": {
+          "lat": 38.0148249197085,
+          "lng": -121.6424925302915
+        }
       }
     },
     "name": "French Prairie",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 16:00",
-        "Tuesday: 12:00 \u2013 16:00",
-        "Wednesday: 12:00 \u2013 16:00",
-        "Thursday: 12:00 \u2013 16:00",
-        "Friday: 12:00 \u2013 16:00",
+        "Monday: 12:00\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20094:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJ3y7nGkhVhYARgjq2SYpi6KM"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLfAZMM6n91HebC3xeNmqHn7q-hm0ePt8VU3umTt_yywvQU0m-AVR9wITYtZAYMkxn8MX_Vgua2v4FXP6CnOlE_yg-nixujTNmgNCTTYdUrzKdOIWJnkhG3Diu5Bc2Dl90VUeJJFPwEjd1FyEJm3f5ex0I9h1hyJ30EL0on6Hq5QKkZzNRzTPvRrlIWGp7t1jClHPX4fVpZamnAMmCiqaWoN1V5jx7-aZIIrdymRiGOz4AYeLTvJ-w6GXauB88HgjfrHiv8JBzz6eR-bsJUl8AKRqYMovLRnQWxaxvlZsYLSjyy4wso5yJ0WXdgnS2TJTEo90vEXZHhZ-Bc409M3Bwm4l0xxB9GxDMzmkSyfDXBV9maYAI3IRl-_fQ9PRGM78b_f86DatPrq36VRhsdFTRMdSg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLfYxa_919OdseXDs7HSe0Y1YAqYNVzWFLm7Xp_oWEc3Os05R4TC6gWzsoCvZ9SpFkoyOh1wvtkvd8LAl6BrvwoP2HrBz-usjxidx7UVsfjR_Hjtc7qjUGAVZdvtv2KT_rGaa2EtyWYXAKqzZMKb1iejtjYe-EX8LhCljXDkrrC0on5jVhojTEyNjgtzefO4xutdv2PFi0JndfbH0_1KottSOZDd7Lu_CjezcHzm3g2O-0Ry8eFh1FQ_TE2sFPFpWzOhKLUdEjutOS8FwVRiJN_exFkMlMpGgrKdgL7xVHCHEpJYgn_hWAiGmp_Pejq0yOzvx5KQQCu-s9pKmuhegSgbBu45IVbLMYxYQubGYB3xQk2biJu7lCzjNg1oeFTdVc6WqpAI3DEWkEN0O8Luk54OaQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLeAWBN12uPNZSAgouvyEdVBeF_cvfLIvVL6PvlOxKPUBbRSyrqxdnIBQfbubBLBmIneN9kVMEf-IBMFWabDu00IYccdNeWcAVoXFG9xBTEd8xfbaB5v8ADUudLMlB0DQbvnNOJ5XDVkqpKTvPr_p0L9ZXSlzi5_CUm7rv8KkwE33q81UEZRDdaRqCoNA9h7rE7ebUqKHsKp5BNG8-GP_e-i_lMnQdh7P0OsPj-D6LOLprSLyocu0Lg_DiZxJIKcBc9Dj6f7LqHTMhCA_JSp_AUylDnIOIj8Iq1gaR-cBPb7uArowlAlmtvnQWfRDod1MqCQ5lcriEA2jPh_pkQX_gwkiuIh9bnlmKkiSe3e-qMtLa3KMY61F0s3O7RYyZHQ0IBSfwaHFP__xH_6g-xSP1Tkdgc",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLcsH-dQbU-hr4BiGHjsLRKfZalzuTVAfYtKMxhWcJY7GzFkm4fB32_TxMsdZP58LrNMECO4EUDYrsH0vn9uGfxer9Mmqfhf1M3qCjGpjsS5YIuRbcuMopusu7M4_-_xLUNFuuwuz7zajiWdl8DpPa8ZXbqRrIKW2xtl9LfrzvqVgYR3mDXQFyJINyPdZp9DgfROHwMMFu8BkoorpvnM0cOGHlRKfoCyjX8krUQ2-TV9PyeiCVZ7ST79-YSuLOru3KoxAeg4lR8Agem8Ww7t6sPsFiX_OwUo0mdKfnYUr0clX_Ybae7xdog5iOxV1R_muABUc3xwdogjmo9QDXUVFtP577oQXcSTyhUzFEPOsXp1nmzEdSLPtNSNoVRCI47Yv4uVGHf1WyfHxSoAheOOjPN0kDFcrX4",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLdJQKgzeFysIqJgq0nO6JYl8dnPOFgdUv8724WOJDCC31iDx55m8cox4VcAOYqIUkMjcMeDvFk_FE1XAKoycpKidlFwMEpOpHukYEVxGENJiycer_VoUGp8auW9LGW4EWuLJBP4H49wy8wcY86Xujw9qSmBGZe-d6mMsAAwMEvlI0dfI3edjIadjNGgzgPXqLJ0y7gEgwFkTPXB8Zl6hrcY5IxPucLCXmMhSQwJGoTp7B0zHvvq-z5QppkvsV3ddRKk-OBkBIL5bRWWw-RN5BbhPiJX6HlPKDfh27_sNw1W4i-XeokNpBSdVV0MMnOxC_t4lGZjlPCQc2eCmZ54qk41f4HoDGcWgk_SMkmfp8Sei8hlbnsmkqU1gQitI4r9QxkuoRVJEp7U8dUeDrI1wlbCKomppT4",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLchf9lG_NaNBPcmwtIU6S53yWZAOZMhkoztIvgFPPNmMY_akCTLZQH_oiJe3SVQsWSa2R3SKq7L4P33o6FW8PSPe4FpBP-IXHQLCd-iLtfFbQ3Ek0A1GwRCjLMhLiCCeGVjdp3r7dtAG-GiLPDFPIKluIcFR40EXncEf3RZZzbb_EcX1nLxd3iTfvb7U9BB-goXwmOMOBG3HxAc0TA4fO3T6R6ESZIKYqRtedjSkSUPOnZOMJi94mUoZZMzuo06xQhO56KgR0ba3yH-yXH5V0qk0d9y3NtYu6OV0dPYchfy24GRU6TDYYy9V6fKdsyXuXOXf-R4YGKpK-8a8yw0FWtW7Vu9xSaFDWU-Pwokda4aYTNy5eeneEP8ZJZ9l7sDsUZdal_-IXgyDJLkCDyi-J3JIA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLdHMLmC9qomoSmZHKnCscMJc0lYWU02en-Jt3QswNmOILnWPHKU7F5mXiEf-gPH7CWmnzh-5uorQ91zJH8rwbEcjESO78bSTvfJ--UpO-KaVahawzvFgMCI82K-BEHdQI7u4p5z8T2dntqvrdHJV2O-q6XERVwB3hGyD-9Lpm_kziVQGxoH6usHSDZX1TjMMrsOsKoMe_fhbzTMJi-FuDK0tbL_3MhMBntLq4myvXzW_4hwMK9PzwxlG-XmewMDttoKntMjfghX42OdV3muazqxSHyY5IKCtpoMcOnS9oGOhHgZdqcfxRluUVQoGjuc4kiMxYHjXScHf1BZxY903tP-WK16fhRuyvktUkN48axqkm2pLUPL8A7frVjLbP-G9GbmLiZU6LtWWkevGAk4IaoEjDmv",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLcANM7iHzlhslQB4ZEfbX3nFFkPt5-kXIfN6AoKPejMoH9d9mkGgXMP3C6DIenQ_rn2jTXjLHvBwLNrFPqzVQn-h46T7pkQMr9SuhGZ7edEbrh2eC7b6iLPVGaPJZDu-nlpKyr-9q7jtgHiv0JLMspt02UYpD5Y923NJqEWTRhLc3PLqkeafP8IOTFAGwgLeduXTiwzGOL4cyzrQYXqKL6_WrUNADy5eq3uz8H2Z-Kb-1LFkV4F52M2AMruJ4QaMIa3T3JTRPseWQd9tMyUybEmLLchGYThh5sClImJm83jbuHRHymtxwd83E3hzOr2USYdAjYjcG8UIbcY5ae-6O8dt8Ank0jH5vlbS6DmWbEb9AlIiuh1djvAHSFjvr4qvxdqDZljaOB7YxXRIaXpcEh5JnxKoJk",
+        "width": 4032
+      },
+      {
+        "height": 542,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLeNhsTPTwhrnvMsCBCeMBWMQjey8ZkuFGWt7n8b9BRoVLbyQ2DuBTHYrvR7ftkfemIrDC53xo1JargFVccRlDpZvSGxTNh3gIqQYzzuaq8LILehCguca50sW6lIlMZfr0MrZ9MBEYrdmulhLDetXs7x5rnwhC3Cq0lduoy3TNO-bqSYiN5kYkxcuG26UCXzObgMlzr3_vPgn_ho0UCbjfCpSDy6bhgNuzClr2UmCI_LegAKLFJBodsbkSB8tJdrP5Fsk0UBRxuV-jnPH7A3sMPlPODwvslWs122GS0tEm7wRYRVZDLVWku_KANaU6S-QI8ppkHtKKoBcaugNKQebFtGQGY5xvNCD2uBZ1uapl-8gUFUj46f9YEaByWBJXWf02AOvURz5VYRRUAWiFN8uVMfHKAvnYM",
+        "width": 568
+      },
+      {
+        "height": 442,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117263888181670296663\">Lisa Stiles (Have Pitty)</a>"
+        ],
+        "photo_reference": "AV-0GLeTICjk8TCzfCG5ubu_BjgqPGMdk7iApUyNJELG8EGptyWopyPq940PBmxIGj7PucUrtlT_UaeENMWg8ngx9rIAVMUjhXqT0SMLBdUEOg-SQ2CLhVtPQPUiycK68T-xNbqt5VJQrIArL_xDqkvuEwTMb2-sBjYT73QxdwegbJJHQcDkWNcdeYcWxuA5eftebFcewXH5tByOmxSGcAMQXzpdvEmXulW5R6JvI8Y_P-5ahzrPg3hp4Gv3qxOFh4lZ7EwvQ-SPifxEDrAJQxdz5GJdSKcfQMxI-FhuV0rI071hoXZVYKfkFDYzrzxkoo9PvFBAqWJKInEvvgKWpyfngV4TUjHD6z2bB6mcWoVrfnQgOmbZOIhFGluiYD3pikYqkPwzIs6Iv2d2QTUjPdnRf7s93xUWcf0",
+        "width": 617
+      }
+    ],
+    "place_id": "ChIJ3y7nGkhVhYARgjq2SYpi6KM",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11810798368860813954",
+    "vicinity": "6277 Bethel Island Rd Unit A, Bethel Island"
   }
 }
