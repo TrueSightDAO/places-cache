@@ -1,26 +1,195 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:03Z",
+  "fetched_at": "2026-11-04T16:32:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rock Rose Apothecary",
   "place_id": "ChIJ8bFHTqJ_24ARzZSAR2M3tV4",
   "result": {
-    "formatted_address": "29995 Technology Drive, Murrieta, CA",
+    "address_components": [
+      {
+        "long_name": "203g",
+        "short_name": "203g",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "29995",
+        "short_name": "29995",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Technology Drive",
+        "short_name": "Technology Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Murrieta",
+        "short_name": "Murrieta",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside County",
+        "short_name": "Riverside County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92563",
+        "short_name": "92563",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "29995 Technology Dr #203g, Murrieta, CA 92563, USA",
     "geometry": {
       "location": {
         "lat": 33.559898,
         "lng": -117.1371471
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.5611387302915,
+          "lng": -117.1357002697085
+        },
+        "southwest": {
+          "lat": 33.5584407697085,
+          "lng": -117.1383982302915
+        }
       }
     },
     "name": "Rock Rose Apothecary",
+    "photos": [
+      {
+        "height": 2800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdjF1Sxhra-h8uvv6NmFBK_z7swtvAxjd6Mjr2AnzTrhyJJTODiObP4HQpXbJCASO0UErEs47DI5EEfdFH1QUKZtFqaFVSfDQM2hCyFVQYCNelBS0SGClQ1s5bP3Ya78QzhpEAi6UiH3UNmlK7KByuML5lDSwP6QYzwVHTVcNpLkrl2aonG-6zqw3cDJ4ILXsqLGpsDuWQ-CJY1Rd05htco7kIkci2em9dyazDTeqzgc3qNdyDlVbIUG_N8MlbmOtQldK0MZLJhrGv1nLx6Uf50yAhsb1EvmwesO3hY-IT_DklKWkphplGoRil5esQ-Me2kMm2jSI9VlgWdDkPOHWbIsdIsammtW4yRAJaJdhmXdOPjj8sab5hQK-lWmBaw190-MxVh0lpXJKoxPlETDY-igw",
+        "width": 4200
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcLh6jBblNDWUPJ6CVgJ6Gkl-9mXXRbv9nx0tTLmJkijnvKC9R0oo9F6SMU-01Qoupz18skvYCpXDeZkMFcEQuTtN4hn_OmJK3DN3V8gCvaOtJhH_STr0mXUI4pVasO2FyOUoMRCSl3gdTMDCoPW7dJQ5-B1mUcNJy62IsXnE1hNXOChP-cYUoVZiOB-Nrcdw72EIqp0Iiv8WdYviqd08_EKB68n9gpz9fowqH67UETUUSiordqeM5seb6bl6yssJkGOuN5ptTdiKroMIJHHsxdPOeGi1X60Ahxl-dJqim16XbXD9Ne0iyyexEKWgGYJ7TXbL6PpBkSYOUNdP-K--iDlSam8J7OyUVJFYtBjOX-wzPD25k2J_uBOJEBBwXVWOLfenuK6G8Yl3sYA8SJ6radrw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLevwpUihjooCOAA7DnDz9QEevi9klrpzC4TT9YNyDZYwZZE4PCaPDYVOLcMuxMHpKArOEBkx_gtrbAkLM7bt9K8jx03mpqTdRRjBzBp7HI60mJGm6t7dOQBMQtuKOkDxejwu_H3pd33kvvwilb94M3lx_oRkPAIvWRYM3rUvbx1ziYLRj10J6Cy-fjW5_sXY8f3wrAMzMJtjOCTEeW97Cu9lrZnUhs9npH0G61gab_stmZo9vWHAlJGEM_xXvCEvdbGiG0a2g9qF_ak9KCav7HHN5OL_3wJXw9yoBAupZfhZXamwp2CFFibD6GnNHvdu_o6nEagQTX5xSx0biVekaBCRWFztBMV-ClCf76aN-tEzEv7eD1873wM51umqrPbjFC04FKkQK_ekCrOmQdWPFeclhpRrmM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdDCPvBK-g-BtxLF9Hm8Uh3IVaEbXP3jcochYkDD20JghLLSOzb3pVAvxAvGRIl0fMBTGmhMZlbPQHdgcI3SOa3P-wVtIeoccxto0xtPu-EdK7kWnpbWQGNNu6iPwixPPX5xw51uYXXWRKrln7j7p1DgpEYjxeZGAS3YyE_ISCs--Kz6Y2FqemGbI8InrHySwswVE1riAXMtdMUJ6IYc9KNNkOFvtx0R289rbAk1CoXaeaxrURHiEuruLN0j9XtLKAJzJ_wS8NoEDvCxjLyxeTIKXcFAasXrJWv05hdUsQNN_DJgRrSxxR2Pc7c7LYqcp6Ykmpjqy8gvX2ETu8JYJ3bpjwWwqplfN_1LNjv3hdiFupJW7GDUhunDaHE4n-JreFpkqfZK5YpO6MBbT1DSjs_CNI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeBiSJB_nnbhuCHTaLVJ8-OGKycLog3bHfE2FknV5ioRTJCNJD-JZqKQt0nRloYs2itPvqI54aqzOrUYCtuUruZNIqvIZrux2ZYiuVzAOMFQNNXxYiEI2sYJyvLNZs0d5-ioh81cjf5QfjQC63knVTHusAE2NyKZIeoFed1iykO_EbgjQjN_povOZJuJJJDMOHlkE9VV3Sc4pHT5SmMIzLrXImoVsSgU4qPO7EaQAShh3hvx6_-xINszUSF54jOMF7tLXVMJjDqGPLRVewtzj_Sc61x5LGpblkkzzG2AMGJuGFp9v6ccfCnGmbrHxDpEbCG3lTa47gRzSzkAlxzdvnUeri6cXcQq0-qrjVzWBFlT6roZjolEuDad3AiW1JVwcDUJ5tVzhQhIVVqO_y0P1FRyZU",
+        "width": 3024
+      },
+      {
+        "height": 3503,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdinQLWXct5LOiS6-PWVycql7gk4d-UTldDojZmTAaoxnELtDyf9dONEL0R6QVEhMur-gsVQ1jP3TXXNeoXprMQibwwP-YGJ7iGBxviExm90k_pinY4ts1bilIoH3g2b1UIg89GOkPrfLJ3d4ECPXgvFtRJXKFQQWRwOIkDTEtgaRESDYDSZrz042GvEY2iyTaxUMr-tZEszc7mD9j7r1vVe7gw_MMdSmA3EjJNaO3yyiaN3kYqq2LsJ-40P8Ga2JMdvTsOmgISL0TsgX8aZ5EZhf9EBfcyfZmSUwYkrAf1cwZtQBIvmNma57DtvdwnLDL700dz0vWHkZdIg27jL7gwCakSACu0kFpepiI2ADeFbNODtTfx0BdduB-vIszS-RE7iPUrfbneuMtqFv2weBPkb4W2OiA",
+        "width": 2627
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfGL33leEi-i0BJgvP4RWhTt5EAZ9pyyuvVoLzBiwRIo86r8FVKAJMFrT2Ui8B3BG_znR4jgNtfX9qpXaRD_nDmAaO3koQjKYj9Gmx9G-XrJfzkC-fjEQlOBNv7uJnINyrmTRuoZkIojomlOOQisCcDwL9iwHp_NpbcuUHxjv0x6LgouzWvJbuQfVKmrwTry_kOArJKUxLdLZ3KZwQSDuYHOVV6xrcaIvpzFvhCYec6jBwwUWozGuA4Rlo8KRuBfNHy9PNzd8ST-hYSDR6dl-O9f-vWgggZnL2FWmoSELK5f566CyazRB23FEM_iIJl9qioQ8uSXRrJFNH-pdcKWU7Ux-9sZua6m2BFVSwsC1bnGHY6_-e8d0NhD1z2A-_R7elaDfsWOhbmjnUFi7eH87MbSItY",
+        "width": 1242
+      },
+      {
+        "height": 2383,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcbeuIfyPkPun3yuJnPI6YP78o3YLD1MFHWLQxi8hZfoaV9833DdiIdtWKPLYUQLxFHpKGkSFTCgYd413_sXDonysY5hiotjyakjqGeU1CwPVKzVyYrxIe8K9WIrCSxJ1eB5OXCnqx1I2rhYGI62NrFfL5MSosKVO8Iplt6BQQp6N6c-n35DjXrj2P_V1x3KB0IPKlkwhgAefBEHe5yrXVF4xPfVVw3tE5e6bL4cwJE0LdIl7BR_et5FUVKODvp-7dFI8tnBhkh5ABm2dE2lRLE90eudPPHz1zLlKVNnp1ZTaDDOhC6XXtXwGt4XQGwUb1y6W9BreHCMmsaoYc9mxFVdPLe-BIpd8sowbc9O4cXsBWHQlcF8E2CHg-UuR4BeTqBw-nCB47hRZwlfpW2eIa0g_I",
+        "width": 2383
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd5wAX2OFC2Ig1fDarS9JJ-iRfqCOvIjkVD6bKg6-uwQAyHDTn7mLHE5aZZeD4wc18pWkCN9VTh_qciOPb4WiE5VM1W-HMvbkjkL3D4_26_-W_bD_Q8pwir4gveji8Tn1e-RR0h4LEZJ55MXnvbtZFkPFEdec5vid1ne3Hhv2UkZbiSW8ocxpbwgdreSNlZpoxih5nrPCSkCX7zttnQlE_UY-LDlW060h6S7EyMOlvQpqaf_xgrgXF9rpicWGZeKj3r-jqUsRS8xPoEo6rEkv2Pf01RmebqBEO96fMubfN3qJabbis4BAXMfGX1rGgqjWs_vFnpVAtAN0nVT0tGP8wkHZP4PdDBekqivRLDIevPLbwkw-RNRIU_MXYgkngftC0W0KI0l_9VobNGOxJb1WuyO7M",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107459724408767663013\">Rock Rose Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfsi-jy0ZPmsAjuQjgLjfEyhXKFxUSrHWzQHTbi4h_xQQ6kNlAK6VuH-Ym8BYPU9M3shQevr0H_w579z225eYzsSYc06FnsTw0qvdHy8-tjUPBpfeUD_5FV4nFV5AS8B1_rjeyUB4yepaktzqFt-vuDA7MLhNeZDtymEHEMkkuMy6ki2CmtOLliKf6t9tIoM5OdWZ6B01-iGUCpvPeFGD9TT3Q-Bhkdp3qHB6WyY1IyrVD0sSRWf7gPz5FxuOv9N62EARL7jNPCGXLftmHizY1FRANknSHzPdkYWRv91YctmNazdbbyhdqAm8kfV9bt7GVhdhXMo-lCl52IgkZJUTAg9nslnc33EQIPZSk6jZzu0wgLGxzVemDqtpCWSTmx5gVkgJ8iDvLgLAdo0BpFZHfK3nYiz7k",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ8bFHTqJ_24ARzZSAR2M3tV4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6824421709890753741",
+    "vicinity": "29995 Technology Dr #203g, Murrieta",
     "website": "http://www.rockroseapothecary.com/"
   }
 }
