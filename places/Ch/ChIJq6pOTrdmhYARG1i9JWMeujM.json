@@ -1,40 +1,152 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:10:30Z",
+  "fetched_at": "2026-11-04T16:31:10Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Food Safety Consultant - Reasonable and Attainable Food Safety Programs - HACCP, HARPC, FSMA, PCQI",
   "place_id": "ChIJq6pOTrdmhYARG1i9JWMeujM",
   "result": {
-    "formatted_address": "824 Ruth Drive, Pleasant Hill, CA",
+    "address_components": [
+      {
+        "long_name": "824",
+        "short_name": "824",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Ruth Drive",
+        "short_name": "Ruth Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pleasant Hill",
+        "short_name": "Pleasant Hill",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Contra Costa County",
+        "short_name": "Contra Costa County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94523",
+        "short_name": "94523",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "824 Ruth Dr, Pleasant Hill, CA 94523, USA",
     "formatted_phone_number": "(510) 282-3044",
     "geometry": {
       "location": {
         "lat": 37.9651226,
         "lng": -122.0662013
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.9664724302915,
+          "lng": -122.0647365197085
+        },
+        "southwest": {
+          "lat": 37.9637744697085,
+          "lng": -122.0674344802915
+        }
       }
     },
     "name": "Food Safety Consultant - Reasonable and Attainable Food Safety Programs - HACCP, HARPC, FSMA, PCQI",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113317576504916496277\">Apothecary Consulting - Food Safety, HACCP, HARPC, FSMA, PCQI</a>"
+        ],
+        "photo_reference": "AV-0GLdmsiBjZRjQeLifx584JX4WWXwRim0WM56zM-L2tcogXO2cW8rQdqBsfIu_SqReM7Z-L3c0pEDNsxdSh3vvRfR8k-lxc9oDoWD2rQpoiBWDkAYsGOkfR6CaEZDbigAJn9OnlDAoixbUf2I8ex-rtja6-JZey0TIOseaDwPMCQMHfxqCPAON0XrBeYgkGFloigYSWA-znrlNy19usYL1ekfE8k53diORNepbVskIkjsrp1aw2vu68nYogFWjFPR7lWhOnOf5-iFZoU30mLkYRYdbWhkCwpEkb9dHfmDwnys2jN0xt9eC1uoG1s0OaXZKN0j2LrmJ-FnNAIs0FVL5ioZxaJIgrNXdOGvTqZZ7z4YookfRiDkAZmRrIJ_UJwNbSiS1XSU0iOx3pl_lq_XJf6DK7pIQ",
+        "width": 1920
+      },
+      {
+        "height": 512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113317576504916496277\">Apothecary Consulting - Food Safety, HACCP, HARPC, FSMA, PCQI</a>"
+        ],
+        "photo_reference": "AV-0GLfm5wGNmge6oAi-m_wDzxboGk82jjAoQjk6N2WLIOzSn6cLw5L8zKTs8kx_l42MB6mLwojRnywA3n-O7xDvleIhzG4Ac0CoueSZtFJ2E5CBsP92Xbm1GdmZRZsCzdXIznkGNeXPYdpYMPtRvFtpvZobULUQriR0Prh9qCmvnvKZi-kWr_Iip_fgDqVF25n-WndaOIsUJi7Vp2p69gXhD2v8scVxppRevTDDQBCGegmzlUz8daEd5JYAlNBlPB_oUQZr9tCSDfHUT1HiecaGVJEN8Byg0nv3Voty-29V0nd_ibSRdnPFJdYirsHI4oM-I3oW37_BU9Iyh1aYKEsB0sGlVbFKl9jea7LExcshBoI1suOrBImCsAU5EaMuZH4sxPtTeE-Gs9OZms_--ru8lGzoHfdrQ2g",
+        "width": 512
+      },
+      {
+        "height": 396,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113317576504916496277\">Apothecary Consulting - Food Safety, HACCP, HARPC, FSMA, PCQI</a>"
+        ],
+        "photo_reference": "AV-0GLfrN74KQVyfA9aMTPDfT7VMuFp_MGx7Q3T-neErKxBrsOea_KGfnoTJYOzRKP_qjD_uW3RdDkv-ao1R07sZaqamxcSBu7vKafTb6H18kROpxqZOR0LVl-WYZWNkBVaQdMeYp8bHZ0IZ2km5Tqq4UfoDQFMJP73T6fRD0ZWSP3I8bJMNo_OG9R63Lbkdg-L4WjejCAFizZJQWoD8ce0qucQ-r3G8ez11vlt0A75TqadQ4DTRs7mzvE8T99M70HwUqdwPz4n_Dieo3BN2ZeNw-cXV4Pi3-LOMhMrAaoQc7OtqF8cxopbY12yNXEI5QSxledonNRkfxZZFHjIW36oCSlEUIa5natHyKpRpd8C0FWvikSmhxB5QEUvYL4gaDJLv8rOnB4Ktmg4skj4TfN1qPDyBrGk",
+        "width": 1584
+      }
+    ],
     "place_id": "ChIJq6pOTrdmhYARG1i9JWMeujM",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3727325052786268187",
+    "vicinity": "824 Ruth Dr, Pleasant Hill",
     "website": "http://foodsafetyguy.net/"
   }
 }
