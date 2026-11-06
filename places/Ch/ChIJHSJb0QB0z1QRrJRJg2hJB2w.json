@@ -1,40 +1,243 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:25Z",
+  "fetched_at": "2026-11-06T21:00:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Biscuits & Vinyl Record Store",
   "place_id": "ChIJHSJb0QB0z1QRrJRJg2hJB2w",
   "result": {
-    "formatted_address": "316 East Main Street, Talent, OR",
+    "address_components": [
+      {
+        "long_name": "316",
+        "short_name": "316",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Main Street",
+        "short_name": "E Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Talent",
+        "short_name": "Talent",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97540",
+        "short_name": "97540",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "316 E Main St, Talent, OR 97540, USA",
     "formatted_phone_number": "(805) 455-6616",
     "geometry": {
       "location": {
         "lat": 42.2454185,
         "lng": -122.7876187
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.2467611302915,
+          "lng": -122.7862192697085
+        },
+        "southwest": {
+          "lat": 42.2440631697085,
+          "lng": -122.7889172302915
+        }
       }
     },
     "name": "Biscuits & Vinyl Record Store",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLezm99mbpYFQc2RXICslXoNOESeQPfSHDnIJI7DVCgPn3_9yWbaw_kFGh9qpTtIzvRS6Yv7hLp8NsYUYWNgF6a4oxXXSP91vLF53tUNLockkR187WgDplWZ9dChlsFfEmIfTWhmfuZR6TH1tctx99XiK5HH4gES_sfFJEf5CE2L19GRcoUdy7nT6Ddlmsz7RZYxy6q2Tde08OrRlyfYow4tll9BeSLTirFZQldpYhP0W4cK4jOO6DJS2_t67eiWU2TRirKnM7EGKnJhT9MKtKnFyiUooaUGLqJcxnBco72CerjvuwpXhmNnTuG5zaUvwSt4NfLuVElPdA8VwtpEbNBsjTpnEi_FWVqkBFJF941PTO8u7wS0nQUYp_8WMmGLNyzlrTujfFpT2pKnxd8mzRrkuwU",
+        "width": 3024
+      },
+      {
+        "height": 2269,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLdAozTPEG_arDPiO0XTAvXXWgCv1PT9B_5rmjn42-Ll7OYcp5CeUCPrTP_iKZ6SV2nrrjekHEU1-Dr3U-HdB9UEsIx5qJrVKXX28BvffXWc_nAimrxyel2LWri07nFWqxWl3i3OeeMPx5SWyMszWglpLTqxWRD2awopoL4zLGVSyf6KV7EpLFwnm4IVlyt1W-cfg-JtH9jzICIPV26gbicR3dpBMkG-5nUkQRWbVVV-8JLKKbbCHMu2HSRMUoHIOikGLAW-WewEIcukfUkRBNcVguYKcR-im4XBc0_jvV2yirexNuIbcecoXKq7FepCq0dM4ZNvlhxvmnSpx7iH6JxzV5JpUenuLomuN3AU-vXCsnmIcF832adM8w8oFU_aFLtkZfiOkfkraoAKkRWsvFKUdQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLd-Y58mJzQcncRwojBKcRMVRnqJzjw-Zv3o2SvYGbvDd-BHUbWefq37c3lcUnDrlsfbf9RdU7GIhAJm9L0k9uNRoXM0BY0J9Uq_ajqDBC0_B5MBa0_vBw1nP2xy3M8JoKscgVzx4E9OthgVuI00bL1FDSTSFJn8FtJRymWYP93w8Nmzig72T2LKsQkcThBrjJ_LT7EaFbBtBJ61VGmT9VGNrHVyvZFfx6s8yvR_kP65mziQ5rlZnaOrusIPAf92_VCkHbfMHoFGdxbu7Fj2B5D6PIV74q25W5PYx2-lG6NBj2uJfa8IcE_IW3L0B92gR0sF7sQnMw6J4f_iNTA6wInePmHMxTOTqVetJ21A0ZL67VqYa2qO2aVrqZJb3Pf2-VbNhN4-u787ugXto9uhgEym1lI",
+        "width": 3024
+      },
+      {
+        "height": 503,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLds3I7bikKgMQf99oQnQyK_DIrvJVcMU0iXxKBP-qtj58FXekv0M8lFjtPCE0yB7feIlaXbgV8rNQxym0yx9fkt8C22KCkf5Bug9nGle6Jh6HSLahqpNb1VEUMtInU02qX2PBhBiqDWyWkaKKwZtqli1vJUvIQ8cHJzZngFo85tSg2RaqD8vXN6q0DvcyL-u6i68JOltU5rWe3nsIkpUTmvJXni0xrdN8446lilZHdPPj5CAMjVShOMArIRbGgjRt8Hn197E_o0YXNDQfCNXnmQmp2PRow9v6XOl6Mnb6QpFGgNTymN9hF8hy_V-YYP16i3F0dOxN2ru5WiKWgbeGjG65sfsQCfGhKcHEoLCl3jIvB9FRSYIaQTgL7kvQQaCQuUMZF5G0Xt9E9X3EMiw5fI7SDlwHY",
+        "width": 750
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLfnaB0CFFU875Q_r-pcrLj54dMlFbc4KpcAYcN4EmZI0oBk-GXfM1SwhR4C353ZhP0be-6UoVYqYOgVy3ZiySanIq9eLZboZ2hJso_nt3sCiGE7bAGpLeWH8GEkAziDOczjY5oNlhlopKuucry0khkcXNVZGops0P53LLr2QM1Pk3Vecb6Z9lA9boY40kyQxqHLc_ws8CV0iG--MrEJ53cJMjm_dVcjsBZFAftIyAEfgL2PxOaPWKaCF2DARlMozKQtwXn7HAYEXOAAZTl9amVfcZVsus8-AATDSEIWi9AU_2unaaN_oHRV3UviNClm74G4-6QmwmJpPrATGcoNlmvMmZ-DiL1mAOVAbBEiZK-MBzeuE7sRbrBcndBkdsD__C7KXDD5ijmQXBSDtcAJ8XZl1Q",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLdVVKkpFiBw-6qhjqUqHPpy0whzRODG6I2jJM0zca3nb06Dt7LPegtl9G0fCm5-G1LIkH6JZn-biBGF_r1HoPvWDEe_mLEVnaeJ7kIGnLDh2RjDDFlXp4Oswp3P6VhlXAVYdiafP78rZkAK8wtb6Kpluy0hcloNr3whyDGg4gsrPJFlYhQbfdB-3IqoEJwCXPFi_A177YVnpUVvEhmqeCPJO8_n6qI6TWFDejxvCsih0m-A1hhTkKT7E8AWx1e9oG_4IzNc9Ad1HyiST9uzJYgqZLbnGbW_pvEK3HrIewbgkSFwwf7i_QjY628P2Hx1EVm65XHy5uO2D4QXFFM6hw2R6eHnl1JplQDYs5q44aLf0K1K5wa64pvY0kuuxBNPT0YQJ3C48iHAYTvBSm7GbRaKXyqrve0",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110369336591970832449\">Matthew Farrington</a>"
+        ],
+        "photo_reference": "AV-0GLdusLmPm38lCJF-wNu_Wo7YD2sfvySI5RZU5Twk9H97mIC7zvNHged7EgFqKWLs7xU4grmILuPIll06Y2Gc8A1pWUNWUAgM6_-XNw1RSOnLGFex09UmWmKeT_ntfm8byYUAw0b-Cw0hD3ToN1ClQJ7dN-PEeEICG_qcqoyuFklOaveaQf8Tku0SXktsSjg7KLINQOSJaebsC6FQ5xB89HTIkajukRS1hbukGWqKvShfIyN1b1C8S5bIVE8BAziPGBDsu_5S6a_l9IceWKsQRYFM48rFPd3Y-ouUTWgJ5ad4m1ecnNj9_4-M0-ctv8nngGbZTmAduoPA2omWxPWuRN6-VDFPMzjDLsGsyubMNFjgKV1RVWDQPzfIykbPdqY2T3tMPqO-pWQfn78iDThlKfql7fqx5gI",
+        "width": 4032
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112919202903308099013\">Chur Boi</a>"
+        ],
+        "photo_reference": "AV-0GLekIMSKP-QPIzKN_WSv8kHIE3zC4K1Eq9SLQkb5kfq-3RBr38LOEo96kicn5O4ZqDQ3bGWft1xsE2AQwqk2ojzJfWx_2F-WEPlv6xpl6tlEYYtpGbxVNtSffcpk9dIo68HBdPptNqnaC19M8s1InKq744GhQ-lqjtbYYSA1nXj9AJM02TBUT1sSF_PvByaLAqNgmizF8G3u4KNL5rKtLOhiMkQP4-tFUCzAw805i3xYmcFi1I05MdTA0As0_7LE252u58KzDqg2L6NLg6bxb8q_chLiXUaS3kZ_ZMZPXmVTr4qmRsr1XOhZdjIQ10T86I-3bncarD9oJtM77GbMyvbHwmycY-mV69q8GjpDHW38V3M22DnbP6UHqJ4dTKmzVJxC-qoAAEB6s9KAQLP5XWduQqpt",
+        "width": 1920
+      },
+      {
+        "height": 1168,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLdTw-MA1UyTGWTlrW2Qia7-_8SalKxfY_2DgjAAQEY9V7z7Poe1THD0AfbIM91HM4r4HW6mBdXMNcN69zzm3YkPlTcyraGWQ8pdMMLkg7EMQX6XB41tQ0bhyXxm44ED0HwaMWk1hkrMCfhVimA3GUltWP7yMIbMi2I80VHFXrzyRLEjTxjLHrK4Dak3jQ5wHbuWSjTKQKlQIGCbF_IbnBAOSccFLOv-9v0FMYpYKnWtEEZTQ017rtQ9r3QPiWje6YUsffd4_5CjcTAjwpl_d24hY43Obx9rTboIWr6vup669NU11HOY8QRwEbBoKtZQ3RrkG3OiedMobx70L-le93vDj2O6fgA7t76LWEzTJrg-t8Hso1cDJDDsHHauLWlNy2V_SkUebiyTOnO-QUKZQsplCsU",
+        "width": 1170
+      },
+      {
+        "height": 570,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108572480513310450568\">Biscuits &amp; Vinyl Record Store</a>"
+        ],
+        "photo_reference": "AV-0GLfw0EuzcAHtpiSotF-StNPz63bSAY03rvekOWGmuWN2_S3Bi_w_VPvU1rUmpYCpvhlEwPV5Ek8AVTpxX181Irp6FaBHTfsiOqpnRHVGHBbyJ6iAFckyPRfmIzIbMRpbBtSx96pLh6d1jiDzTbmLn_BLQcJOaDd78rRXqp3y4T_IzMPeLLQGquvFTWTZY31-Oc_EvyKUVzWtbO8uMZ_IyIRSUSuSt02-N5cH_NJEZWqehUvcZlohtHi0OWnO62xrGnUWbBrIhETJhrevO7XfeWAi9lsFyNY8dJLVDaT2KI9gMxPCBCtmi0skdBktQGt8KPBHFADsHyy5WMnzfLzmz5hum1vvGj9J5lNEhZ9EPCfF36VULJuRyRaKZrYKcIGr5asxuo0TAbcb2jadhrbRgpDo1oI",
+        "width": 750
+      }
+    ],
     "place_id": "ChIJHSJb0QB0z1QRrJRJg2hJB2w",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7784271194161255596",
+    "vicinity": "316 E Main St, Talent",
     "website": "http://www.biscuitsandvinyl.com/"
   }
 }
