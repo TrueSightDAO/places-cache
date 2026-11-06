@@ -1,38 +1,287 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:15Z",
+  "fetched_at": "2026-11-06T21:00:33Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "WolfCraft Apothecary LLC",
   "place_id": "ChIJE3C6YS6hlVQRCOjUTYDkUyc",
   "result": {
-    "formatted_address": "3153 Southeast Belmont Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "3153",
+        "short_name": "3153",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Belmont Street",
+        "short_name": "SE Belmont St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sunnyside",
+        "short_name": "Sunnyside",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97214",
+        "short_name": "97214",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4028",
+        "short_name": "4028",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3153 SE Belmont St, Portland, OR 97214, USA",
     "formatted_phone_number": "(503) 888-7460",
     "geometry": {
       "location": {
         "lat": 45.5165657,
         "lng": -122.6325433
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5178621302915,
+          "lng": -122.6311509197085
+        },
+        "southwest": {
+          "lat": 45.5151641697085,
+          "lng": -122.6338488802915
+        }
       }
     },
     "name": "WolfCraft Apothecary LLC",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2300"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2300"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 23:00",
-        "Tuesday: 10:00 \u2013 23:00",
-        "Wednesday: 10:00 \u2013 23:00",
-        "Thursday: 10:00 \u2013 23:00",
-        "Friday: 10:00 \u2013 23:00",
-        "Saturday: 10:00 \u2013 23:00",
-        "Sunday: 10:00 \u2013 23:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
       ]
     },
-    "place_id": "ChIJE3C6YS6hlVQRCOjUTYDkUyc"
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLf44eLIxYh2hdPcpbKQBxELlCl0jAwap7-QK5ukQKmbBS01E9CiLI0pP8BvTTrM-OClWU2xJGqA5cVUgX4kwEvwBn3Tqo0EBMwnvsR_HgThEYO8pAtYxkoYXVQ_uP4eaW8sX4Up8j6ZAPiEPwItTlDRWqNkZ8yMSI2_gBXx_ifG6y4Px_xyc4bH-wmiO3V1UAu8WuEc9qkyXQWxF4f7LO6iaeh6j6tVdZIY-hCQH2YcZftgpI6Aioi34FjKvMpqyYOYB_D9lvVmXqMSaIulStfYfGAtiIwIc5-SfFWj5glmpLxznHVmWAV75U9d1YwURU0YZKA5TY5c_wTQnlY-0ijOcOHghi86JtATTK_k-GHybaslBucoB-H29sdWnenmymsnV2RQBvmVGZGbh74Xll3ZAa8i",
+        "width": 3456
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcLugA9tB6VRUJu26lWNlkV1yTFp6JP-7-e979-XE7kujYVz78ITnX9gg7yy1meRk6Iy4ySqrN5OEYhEI2ucHGiKZix6DSF--NpevhciHOqnYl4eU9KIjvxN7G3Hm1JmcK-K2qmrxbPfhHeDRfRMTZox2Z96e7nFmel6w0rfZ8amOtcctjlFRVHh4e28IhfpV61g4gqabp6IMKdPS117_0coILtHaKwXg2n9nQ6fbxF56hcYWl6ljiyFuhnX5n2WL4DfO9qwQlHupO_kLpsYVlNGpfONO2Q1YDope-8emqIEPWqWo7OqmRmoTB1iltgq8-1VFtETqWe-SX66jSoX-S3xmDI6JM_x3TeGB0s6G7jY2dop_PgNpJ0fM77-ruq-Nr4cC-MRdUHvq_cyw9focSp8tLHFZU",
+        "width": 3456
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLetpCmKN_Lzxi1ME-uFidSdIxoVcJsSV34urzHta3rSn9gqvifDeiCFmxjsll5FBaerUXxtrpyTwTFr0O-4UWox89vkE_tz1BnoptHuSTKP1-GSqeHqzwhnUAslapwwxqH7LJp_DA8xFlVZV4RcM7EFLUd18174QF1tZfqxxMgrCzxlUCY2PU-crQmUoUpllUwECJGdVUs336BKL7-CdcNQSiBGgfp5Z3cjG7lbI-J-EmmoLht5qZHL8-LjhtGDYSqRX8gmHULqzXJC9UP42afZWrGjzWAKiGGXSH49Gz_A043bIGDf_kG0-rePXEZRJipyC1uuN6fVXebQ3FfsWRfQSj2v3sqrBYtSR5iquov1j_FLn04WDwYbuonQSVdapz_1MMQhpQ9XlyOeNt9yP_IBvqwwh9U",
+        "width": 3456
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLfGandaj1xPAK0DHc_r2GxAfuZ4YZKt0cuLI567S19MWK1gpysZkUUsbqAYic76sDN-f1bWvkExixTR-XYLhtBNNw2EjMmKAtan58b565r2PodhIRe5v40cdzM0IQysbjWvvJDTlmDGvGnStAc8-1UCM5Wp81T9ZovjzZjZ4MoMVIgs-8k6sZOgOkTFJAGPtKEjzYIBxgpZZvi8TZECexpBlYCBgX7OY-JosgGXGJdmCRYmwE_nTjVlSKXI82YtUucTTPw-R0RrDs8pIYuh1qxIAt8dMAfm6JhmYijPLCzagiEHkQtm7lwmWQ9kdTQxccaB_hrfmltwuh8AI2odUV7kblcQuB3QwFlmOGL10mU8Wggue8LaBG4UDtKGOHIPj3J3Jn8ugGy8gZ34AzS72gjNtCSj864",
+        "width": 3456
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLeh1KHfAOX5QVtSlS9cilO_lHje0A-m6xD24EbXqxIVlTa6R-0v3R9KCVEZP5u4M6L6gomum6m3yKk6cb_1IMLHEFUks0bCu9Wwn79FtDzbHCBy0Xfol6Jh-frK7Ze_YXGCHl9G9Q0ZpXZ1mkKKhkqn9QnwxEiZ4hhVTesn-SemRV-dbmnIQFdb2aSklfNaAFHM3gjOGdAoWwZ0sULB8ma27NVSMdUuuzQBRXbQ1xFfvCUXpw6eXQmUgBWVViRY15cEIAhrufZ7uvF6_mg4CImm-9A_P7vt0G_HnPhQ8w_ayobs2nl1MrLs6jFHRGbbIZosdo2ca3Et-_IgApI_IMkI7vwgCkWlqlsnSZs2CvZHaCntuwtCJj9M0l6o_kGjyz3fFs7unFVOPw2RjLa8teK-j7DVpeE",
+        "width": 3456
+      },
+      {
+        "height": 3849,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108154071099340255520\">Emily CLUGSTON</a>"
+        ],
+        "photo_reference": "AV-0GLch_rpVdMEUIm6cSMrkdHM00AdlfJ1e-TmAZLF6bEqXniCQZv0foopmTxnD94IIuobPuITd49azpVIWAD8S5mgXCchoscdkWCqgUazrFVHNocMBipCwu355rSBD9D7j6xKRdibwZvWfvSWwzioo7WcFHt1jCi__L1k6myIpVacT9NKHDgEHp_jCdhlxnIZyjDnptGW2BOBIccZfDt1lbOUBf8m1hnS1yYUQtr35gDI-kjlifSkVFSk4Tqm_TrCkjj71rxj0uTXDJ3Pa4e6n5yaegqE0UoObKBKURUoCLdu_zJVeAriZ093RQ0LMorx7y93MC97qKOmeHgAb0eoVpv1sGS__lVNV-9kVmMN-qhyct_kioZ31DsQMeeMYjvZpFanS6JvmNIAG8Qr3sdlV6MJoE-I",
+        "width": 3455
+      },
+      {
+        "height": 1734,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdl2DQx6jVRkfWhxg7cXarar_RqDFudyLQUIh-et_8KS-ChyufONoyQZS2RVE3YL8ZEI6HN85UYWftUQgKlQoODpK8Jkvt-y-Z31l0AMJTXe6W5OCbQ3Iw6i7-q-OhL9uL2AGTYmLHmhk0EF3pwkdKaP2MfvQ6ru-JRnl33-EGXsvsALBYk-RE8Uii0DQs7X7W_t19BBnLm7OKIIJjSJaRZjjSaFhhWnz1nBXd6q1GSXFLumjIrI-davvh_vPK6feamLgJAGnMR8DEQjqxnH_YEKvZ7tt_aBobrPx9YtfLuhYEettW2QcE_PrMsvfnulCIv5xwW51ci0Te4Dq7NTKH0tA7WNRlAV824puMGZfHQS6FbYX36dCCPaRgDiUldedzYmPkFfFJPMdPNRYa8vUdsoi5VzIA",
+        "width": 2312
+      },
+      {
+        "height": 3429,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLeTLucSl1ensusk_IroT5nQZq-iYp-cUBov2txUJXytFDmiHacr5iom4oHFP6ra2PnB4RDitEjYgz-Tzp6uD9UMLGYaisldq0GFntVzEbAediNVnQWjGgUnskJ5PPALKLPx3GSMym9D3fUD7v3CA3Z3ipUUWZhJ1ykOFgnCsmKOXRArin6ZUQQkMuinTaKT7crCg4LkkSlJOCrFFdL0cpycIAXLb2VWDUlzOfBs4t32EhSz242nuulgwDutKeyDlwOtMBHUTNhKCLN6gKyTfoq2LflyFpyOKhwGHalwlSjSdlbl2JLfwycFgGYss4_OrtjznNJHjb78tJN_q-V9DesF-tt6XvD2peUvKhSeRevffvcJwLZSddZiuyd92gp_ARLUVZASLUA79ilF8i4qQNw-fg",
+        "width": 3931
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104569545080221523890\">M M</a>"
+        ],
+        "photo_reference": "AV-0GLcYCCk2-XssOaxA-ouRkoEdRzmgJWoTuL_BavLzGAH2Tuzkm739PbpdZDZlR1tx98nj5J6Uiw7z-sGss8JpE3Ne_3s1Z9Hevli-_Bbzw0VdwELchXcCdPjonhryYIS0cW01GVPBET5UQwtqSPUVgEVbjCd_ba5jpw_BgrxKDQBQrhtGxuLUIwV3DobQWPcWqzkZxdr1L3s8SsjmJMFvrUo8Zz59tJIqpZKiuStbCeXQzLjAPhBsvsq-1ITWmQd2CvFRytOZCrAOcGIQmJmsLep-H06WxF82PNNhab_FwABOE8xVKsjxX0NxRHocThyEPkFSZZQFM9_gbhBoRVzf2gvHmvGvs5uI6fRMOnxL6j-Gr_4-6HvZfzpvgne3jbWKHERJAN-uO2BuP0Rf5V8JJpJsWuT0OkQ",
+        "width": 3840
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107978648990636670272\">WolfCraft Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdnzTKF-UxiI-z_e7h3AXy4Errs_MjWNJ-WIxpODvxtaqU0aJGpCXGbTdTaZ12IclCti_yWQkqV1KtfTZdYULx68utwGayLN-b2QACvoT2GukeFU_I1OKKISlAIT4_dx1yC1S-xOvuoKeLXgrrMVq8SPh782VnMp3Od--tjGu35L9J6RgJDGyk949cw5XGPN9WKjoR1I8CDjoIMgmjL9_2ewNmDuCAslNwbJg5ks7UsyLmIq9GEuDxvfuUW8iQ4vTmEDHJYJy5yxlFTi_STCxaVdv-S4M4hUoUXdGJouNcwJeiCCGJvdW1cbpzp3i79zd2NBjTYlfsEwb3dnNe-QxDmENBlcfDWAVfBVyeU8aCi5_F_pUlk7TarMwFUW1Ll4sm9ZZEWdwNY1Xu4mr9IsG3r9xp_eNI",
+        "width": 2448
+      }
+    ],
+    "place_id": "ChIJE3C6YS6hlVQRCOjUTYDkUyc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2833859830258919432",
+    "vicinity": "3153 SE Belmont St, Portland"
   }
 }
