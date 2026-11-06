@@ -1,40 +1,160 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:23Z",
+  "fetched_at": "2026-11-06T21:00:35Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Blue Moon Apothecary",
   "place_id": "ChIJGTZfHLNtlVQRYYFTibVCeZ8",
   "result": {
-    "formatted_address": "11865 Southwest Tualatin Road, Tualatin, OR",
+    "address_components": [
+      {
+        "long_name": "199",
+        "short_name": "199",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "11865",
+        "short_name": "11865",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest Tualatin Road",
+        "short_name": "SW Tualatin Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sherwood - Tualatin North",
+        "short_name": "Sherwood - Tualatin North",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tualatin",
+        "short_name": "Tualatin",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington County",
+        "short_name": "Washington County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97062",
+        "short_name": "97062",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11865 SW Tualatin Rd #199, Tualatin, OR 97062, USA",
     "formatted_phone_number": "(815) 601-7128",
     "geometry": {
       "location": {
         "lat": 45.3916491,
         "lng": -122.7976631
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.3930492302915,
+          "lng": -122.7963147197085
+        },
+        "southwest": {
+          "lat": 45.3903512697085,
+          "lng": -122.7990126802915
+        }
       }
     },
     "name": "Blue Moon Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
+    "photos": [
+      {
+        "height": 1030,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118278524394535166591\">Blue Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeWq3dhN5shzQm59eBYu_6NID7_HT116IHkra3dEikfCZsgHhgHb3klQt09pNtsbYZGv8f7JbzUl3UOuU1knW7yhAEFvM0p--7eElNgngVuBNIBdWmidRQNO6uR4uF_15V3XSYh0deflU0QPmY_sV1flQxYWNsY_4_OFtvZ1eJcLeN7feEeOWNNKLngVcFFxQZTurEx2eKoKiRZeTngxRyGY9xcQEhRko8ONwZMcnxRsHyHq8QGZB-AVCFg099j51IgNHyozLetJihaSfjtFh9rI28PiEtjSnJ_YKHhdwmPW2ziz-nY07Szx2ejPA5QX6JObDCgdAUKULNm_g7F0GgfZpg2UdTBNKcq-jHc4ODo1wZiVE4wmQy2fHMVKONkiUlWQgh9ymSWbhUMUiXfJVLAeiOH27QsW8EUa3B4_mA4UA",
+        "width": 546
+      },
+      {
+        "height": 738,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118278524394535166591\">Blue Moon Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf2AEpOczjy0j6HHU1d9cRZCFCvUSonn5wYzjckqmjQZfdZfty6Lg6q0bQ87dboG1ZpRRvvP76E59SLGvK2_aAQ639AzijsrhNPWh4IJJqWtXoQom1HYpQkqwW_TUJVKOIBCDM0pAAbKV0dTIodSt2tJm9Zpsyv8nRL3XnyV55nwobaHy_SzqtCg_idK5Y3F3FfBY-cqYu3XYApW-6Gz0MTmEiqn1wBbsMublNKOgywFrObhL1WzQ-qAN8H5Ps79LwZsInt-paqMYLmZwm_9b6S8TCczzKl_c7mteQwDMuRPNWjoMPl_X35pCqfPp7w3TR_w1uRbTTRnEFAdvCf-wQu2mgiYhlLtWcbLidyFPjDglEMKv62ucqReNSJzlrGVs9J5rPqDq5hjdT9dUOQnt_MulvE8f5fu0XqwaIIwHLFSQ",
+        "width": 596
+      }
+    ],
     "place_id": "ChIJGTZfHLNtlVQRYYFTibVCeZ8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11491289271672996193",
+    "vicinity": "11865 SW Tualatin Rd #199, Tualatin",
     "website": "https://mybluemoonapothecary.etsy.com/"
   }
 }
