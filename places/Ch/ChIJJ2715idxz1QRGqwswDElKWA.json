@@ -1,40 +1,212 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:29Z",
+  "fetched_at": "2026-11-06T21:00:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Petro Travel Center",
   "place_id": "ChIJJ2715idxz1QRGqwswDElKWA",
   "result": {
-    "formatted_address": "3730 Fern Valley Road, Phoenix, OR",
+    "address_components": [
+      {
+        "long_name": "3730",
+        "short_name": "3730",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Fern Valley Road",
+        "short_name": "Fern Valley Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Phoenix",
+        "short_name": "Phoenix",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97535",
+        "short_name": "97535",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3730 Fern Valley Rd, Phoenix, OR 97535, USA",
     "formatted_phone_number": "(541) 535-3372",
     "geometry": {
       "location": {
         "lat": 42.2804732,
         "lng": -122.8119059
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.28122348029149,
+          "lng": -122.8101326697085
+        },
+        "southwest": {
+          "lat": 42.2785255197085,
+          "lng": -122.8128306302915
+        }
       }
     },
     "name": "Petro Travel Center",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
+    "photos": [
+      {
+        "height": 1192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110707811099341223929\">Petro Travel Center</a>"
+        ],
+        "photo_reference": "AV-0GLeShG-y_nGGE_RZFY7kfRt0QuA21NgY-7x6600q6Um7w6vl0LmxjJpB5mVDyj-EFPr9Rwj7NoIPXJqFzbkqZiagRE6pGkL_QozRXkNJsB5Bzz34UWv4a-yL0H3OpZwbcbjPX0X1-nMlPIyMYiH9cGDltxcslZIQI1OdboCRZAac7xdVnv0qfTOQMnBO2GBfJ_0vufRT9SaH3CIYuaw-7ClgHeCnSyb5var6cFsvqr2iA4XjW4ine-e0uT3PPjDQ9wEGO1VGCa_FOfdkgLs1NoBmZuphTG4qBKIJ0pBhhaY0nnUI5QXSsTtLEm66mYd6_6al-XW3g86mOovW4p0BMiJvSHw5h5uTLZMFXDn8L-5d3FxK4nedhGXuVeFFvXMgqBBOhdhsk2AhxgIhY_d23IKedd4t",
+        "width": 2118
+      },
+      {
+        "height": 3240,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103210557789113405675\">Maggy Marsh</a>"
+        ],
+        "photo_reference": "AV-0GLetXnxw9u4R83phN_t-VQYu2d65fv_dXOQwKnjZQyY2wDPTVh3BImuKpG9hn4evq9n7ly6lVAQb1bUWFIRG6y2Fa_mCsPUW_Nx3gpsPJI-2qEapuF2JqWYYz7IHFpycHOr1SDQkrhBydXNtxib5mibdX_z34OPoUkJrV_L9_AIc7HqDKTZdCT-ZviVe0kYZbhxi9Il1uPNHdln4UCTnQ0BNGwOW7BCPowJbo8gmW0GkWTrO7JaHh6nVZ7f9uqf2OWgFCfvRGIvMvVqC6iuR0EiuTDFMSc5FDXreP1eetr9t-K6FkMTJUu8QwcNKwh0diJtTA-pee0cbFbljs5W_E-l3SyEHDmX3AKI52Ob0FV-VCS0QzIpvAbgh9xYfLosfFCqL5GV-IVPA3RZZFPI2LzelmteldPpS-gv8itHYG76_",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117923446719813381756\">Mark Mcdonald</a>"
+        ],
+        "photo_reference": "AV-0GLdSYeORohMUot701Orc6JtTAxBelykmWSL9HjvzzK32cAq1xT03wNnTuKTpwOfTmbqiAGSQ5frEt64LgpTOYUhMNJaYS4wjL6-n57bMLjzL5AapZDi4tEAJcI1B04osk1u8ciu01kogh5wVjv3PK4P3JoSL9P1nrxx40pd8ZDwRMfj677Bfv7MDTcnqacYg5s8hMDS9VAiOHKoHLReMH8oa0Ktiu-31e2I9byna9WCxSx0FlIch98a2F8_sIRjBCbrH0foqnI0AX7sdspAokSHuiQcKemvRGHXMylx77-_zPgeWiRR8hdfXKpG_5ZKy-H6hsdqqAg0FsCCk7_uUO49nxtMFYo6pnHl1XEsxjz4IzNzLdtXhWXXkik6ocSddZ2FJA76XyfdUcY41ev8lDiKKVrQ",
+        "width": 4032
+      },
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117318705168494140502\">Emmett Avila</a>"
+        ],
+        "photo_reference": "AV-0GLf3lyHxvy4QsBJ5J2KBGwIQKVY8Ebyv3PrC_psSreZVO-KnvweOgpdL-k6yagBou4AcFjrolpQ44niUSagxspg_cMsrWxwePM2lvuwGQwwvWSkrdv7hWz8-1fnpSNRLr132d5KfEz11ajWVoU55o9pqSHPzbzsNpFgZAz0yp2m_91v2CHpGEqjpYucN5BZD9oUSo7Yi9aia3CbOiO-M9wYHHi498LNcmepssog30oIX5bvKDfep1yPYSbaJat0SUJxK2PaPFW-E-fnuukMoHDavVoX0oHEVPaRh1agyt496CJRpB5x97QRv4R7UmAfp7q05Ic8aj0JW6ZnUf3PEftQ6jbrFkcF60D4Uu87HnmJ8curYXXJeumewatK2QcUzNmqE8p4fT--N2vBFzwl1mjUz2nw",
+        "width": 4128
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104700659431747510997\">Alex Jhon</a>"
+        ],
+        "photo_reference": "AV-0GLcnc0fPsYPT4UYjWECGzCl-j0p7NyLac7oleZXQV-v19kP--RbUIIpkJVBkBzOmirxLlBsQjlRfPu0NQJp7Uq_zYSSurk60lYMjifIGmdNzg-79ExwKXsRbJDfGwBwbUYRUWKL8gPlD8_Tt-W9xUh9YwSYClfFSpTDm_ubFBXXQI_r3fQ42nCPgqvkOw1kdJ6FRfEEXUV62CO3G2cPdn5s9FL8RGkrh4U-AN9SgcX0qAgpE_XDffMJBnjmGlNsrj5xpV1AhGHlIvz1ADtvcuvLxquuSAy0DIbWZ73OjnrjcUse9P6SalHYFliHi76_bKHyuVuTpx9yexqKjTH4GTyM1cUUbUStJu_BRrZ4CrpuVT6fCz1a1-A9TQZF0sw2q2hZF2rZQ0PD_5cpSDNh22QICFg",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117696045810721415103\">uugii boogii</a>"
+        ],
+        "photo_reference": "AV-0GLeuveOFzJAcpG8CUYtyhGvpetJBfVb9Nz3eSrvPoDwnU301g5aM8xH-SUEMVTZql85EXMn60A6lEV5JnrxbvxpOVS7HSqCyN6aceXJppwehpHMuuTRMRrRTlUhT1yzwzzmsXXpUv6IB7Ni3YQ584o8oE_2NRAF0a_tsLW7DLhM5i4l0P3vTiWizvEJ4UBz6ERLo1v7TLO7lRzJz9tE_OI10kbs1vzKI6EwY_179D7Bh9YY8H9RcP6hdcsCYHhCXuTAhsyRsWdJVXqzLcUJytFNtPiq1QWU5cb-xFGEENkOMMaHs8SkR7jPfr4OoxZqLIow7L5Eevf0Pgi0DL_4M5bmC2Uvzf4O-wWNYStL8dW16Y1hOHiNjK6t-72r8A05LJ-VAyHyatHNCUP1uLRbHMWXK1dhK",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116120346699115315992\">John Wilson</a>"
+        ],
+        "photo_reference": "AV-0GLfrpozPeTASiQeJt58VDEaIn5nn6n86T8ZmJvQ54w7ScmXbexKd0V_GLDvhhz0855TLYCrzbJYxwQ6Pt80D5tkzRICa65yciELEPtUzfvyum6b7SLUFc9Otxe9f9ltN2R1-g8nZhdt_pzxZ3dfooIJRsJh2-U63652Zb6RPFbHWO2fddM7RZ63azg7jJPGzNIW_OMBIqlAiluIr9D_LiHQAYFKjss2wOPdhMfTok0AcK0X0bOGbz_nKWYfoBUvv0Ec3VDphMun3ygtQ-RTmtlM6UdVTBxJpK93YCJCEHYrjICcBDlBTkYzoMdfBtkJyFZM7Ct6XGhLZU00VsHrOopzZotaM6fEJGAwk_MEPXsv5-io7ydmLLP0DhmXDw9UoAEFbOSvNhm1jUF1N-sBAFiOY3TekGJU",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104700659431747510997\">Alex Jhon</a>"
+        ],
+        "photo_reference": "AV-0GLcpWqqWgz_g6AHlNNysoR2c1uRMz25-bLFw_N_blhU19Z_GcmtXTZTMCKeEwj1gbMimKA0uj71Ksy6uJH8OsJdRRqGbbixXoWd9kYSeeAAdQgWiw1spDsiA7w-LuxlVtH9tw01JY4UDNxv9dc8GhMlt9EWNj2d-hb_uheadS46Yuhou6fvSrCuPPyF6wHlbsLZsY_S_8CMBr_qYJvPV0-ASwpYy05Wa5f0N-7IosNQqnlUgQt_O9J9H7HL4YuD_1olpg-UuCkJGCfJob0EwUoEuWCGwBQ-JAQSg9oxUkt-BivB5zjUQtOR-aYlfcUL3fgtfs0vz-GHJVo28CFpihL-o8TG-oLmpARSU4SDR8CwUJxik6w4JD73InztEkMMpWX11CF-5oXxqXwvleccEep4-pHCk",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117923446719813381756\">Mark Mcdonald</a>"
+        ],
+        "photo_reference": "AV-0GLcOeHwJXY46efBXHLYDl9ck1HgCMt-HlqRQXBausReeHWN16Qy85r7Gg3TFuErTIhZzp01OijrptJWRtiVi6S2aj3M10eHxv_7yJ9ymZReuIhFZFyJPxRESXn7iy8hI1PP2wE43XxjH9UZ05FD3saYUbZC4NrkadlkXZ20nWBJc6GzMAnH9zLk7plxM6XagyB8drE7cSjdp8gU9uD7bV-cgNJUjDCeP2u1sua7CWUXM_gDtAPaqYItqho_w8xv9NwJaY0tA9WWMUVW6_O2pvt3AhHjj76ROYcEww7bs6TRSjyzt1UhpR8r6FdNxyDJ-iVAkq6Vsrq8bSfePOrw7bF0nMc2fCM8WM6VB4Elk3Mtnf-n2oD6ZEmCKpDtFAMShVrgT69iqkyr5MKT34yQnxOzgNiaPY_8",
+        "width": 4032
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101390489813346227651\">Von Goejr</a>"
+        ],
+        "photo_reference": "AV-0GLe5esElGyj_Hv909ajWoj8d8JRgftxSgKdb1l_VfxYfMn8uXbhnqEIxaLsv9XVLW9jFUZ2L6tdrJ-4abBvbr8GN4b51v5Yc-TDekiclwYeYVm7FSL-MnTLLs4eeBNy1Zs3SsyskNRUx2Q1wvX7zlsslwHJ7Ob2y1k3oLBbcFh5SCuxfk0sPSUxB585cqrKEpEvySgeDA-NYkT2wIgWPNh4efQd-EwyeN4wgOuvzRPr0U3BBFPziUg8y-GEjAR4BeiK_maoLnJ94H-RcCxkDxhmISLNLI3_rY07o6zyhc_qkJjNIiupxGK9VCm6OC7nYk0JDsv_J32KEzd77Tx4camjzVBKevhgobvufz1NGdoCcq3nFJrgaanw2818bsHpMvOH9ZnmPyq9qmJYx78feWYbPFdCOsjM",
+        "width": 2448
+      }
+    ],
     "place_id": "ChIJJ2715idxz1QRGqwswDElKWA",
+    "types": [
+      "car_repair",
+      "convenience_store",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6929110397293997082",
+    "vicinity": "3730 Fern Valley Rd, Phoenix",
     "website": "https://www.ta-petro.com/location/or/petro-phoenix"
   }
 }
