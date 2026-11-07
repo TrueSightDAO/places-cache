@@ -1,38 +1,254 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:44Z",
+  "fetched_at": "2026-11-07T15:03:03Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earth Elements Boutique",
   "place_id": "ChIJNbVWKdzhwFQRvTXfkdyMMj4",
   "result": {
-    "formatted_address": "331 Main Street, Springfield, OR",
+    "address_components": [
+      {
+        "long_name": "331",
+        "short_name": "331",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Springfield",
+        "short_name": "Springfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lane County",
+        "short_name": "Lane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97477",
+        "short_name": "97477",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "331 Main St, Springfield, OR 97477, USA",
     "geometry": {
       "location": {
         "lat": 44.0460338,
         "lng": -123.0213074
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.04745963029149,
+          "lng": -123.0199602197085
+        },
+        "southwest": {
+          "lat": 44.04476166970849,
+          "lng": -123.0226581802915
+        }
       }
     },
     "name": "Earth Elements Boutique",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLc9dCkaW5ZPe19mDDlcM4rPKUGr9S3tu-ruFd3kkLDLj6IRBClXScp9bbRwzipkAfAF7yeWL9Xyca3gEFqCHijiPe1H4b0wKfI6kPNKnlGr54ddDXufGHQQwJd_2aqgUHtJIy_UrSnt_xnR9ISOMu31_O4vqENa9pcH1kLFkSinbEIsuS_uk0U8UKsRrIU6Yuk6g9XD40_xkSorpFW1UzknYQTebGN0OTJJQugRjFLiI_oMV9MbS5zslblqQqEL5QKOJ8Ofsedg1cO_j3IGgAEVB1mVkXCox9c3snJnZwMoiFRnvq1hg1ltQXVkRnQyhscBYoRdSM8wvd331IIJJ6P-bi4QTZY_kPp9OfYOhlx0WRFTz77YJJEQH57luk5_Hjj5BL4Dtf9iYtBGFr9YL8_5N4Q",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLeQMTGwohuGik8kc7m_UH8mEYKCsBVI8PjnajNFC8DdRDqDuHFoSKpT1YzNcgyy83w5Iw_ESGgybL0g2ub58X4WzJVS87Axj5F8cnotq9mfMWM3BzPjwilrGVM-YMM0fIJyep-bzBWqZ4fGcCXeq1lLoODphnkwKbtmnrR85T5NYKDkAdMnpxFQ3H0F5YTmbqiuLYgMDnDbWhaeS2mkw0E-6FbIPYnGaK6zwiLCk7M8HV7RNzIQuE9PU2MWF0zdipbQDmPGMj67c0asN5Qe4lwYTCTcPgxIzeDgWgNFwx2pdmAEuB4z6x78hLXDlATSZx6haKwu8l9hY0fsHMkZgKduobW5bFOU9kwLoUSIS_tvlvdKcaaFfJPwW7azn53XhYZKCkeWan3WKVIDiYs11AGbsdA",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103756551295948076660\">L Manning</a>"
+        ],
+        "photo_reference": "AV-0GLfBHOa86VjTHktoUjrMDVSCrJtT6vpUlmwtBrbo56ydUzjk6TN5dQXF7wyBzLGz5_3-rUcIwzzpm0zKjGqX9rL360ggoP_abkUBXtEsVvkgPk6LAB4G1_DfRen5YwIwejIbvnnxNbiHhrbR9e140qiVijVMz4NNcme8pk_KJX0JuxqXO6w6n5BunLbCEGqF2SEJtZhocZC1ZopRqsNIwjWTMrQwI4Y66we_9_q0sm7T0rrOmsXaky2oV6XILvzYoUt2f7Y-s9dorrP3U-PGMZ0QFlJl0VKbilliQHyC-cYxrU72LIlCXdtNMycAExeQMV9TXNuggBU6pq4ZsyP4CmHf9p8JSQQpCoprY_Z6bj9qfCxBxxE83iD76Q9C_8ow6SBkXs1jn1Y1bwNY8aoRcsTw08aCXp8",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLdJbtFr351jTYG6n8Iuh-fv5Xf6b_sz7vtjo3oHyaim938iJA-k3z1E7nwLa1v3PetfjnUhpckibeo4_ES0v1KmGqzxha4L-hhoux0nmS12WaI5TJKLUzh99X20Wook7rRx2jdTVgP8hldjrdDYN0UsJUSy_gk_t2Vzrtzro-RRK716Wnxka8fI_65oKLHdcf4xl-ybkMtXtg4NorWjJo1VausDRR8oaNA4B35cutlOEHgStqtzWqdJVFtpOApCw1IwhrWUiBiqqwfBWTw_DmvxyaaGU_RkI9ORYlnlFe0WRqeXqhtrsNkklFYDaqpKQLa0zXZKr-JUk0E5JIaaDFa2mkfHj4U-QfF1rHn-vctjO6wzfH1-94zw5cH8gZsf6sSnEP_ZMLAhHfseFZkkST1Cyh83P0I",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103756551295948076660\">L Manning</a>"
+        ],
+        "photo_reference": "AV-0GLc3I13hcw81un5x9M4ibmmz6p5JkmOaVuYSfWYH4sN8BSEL0QKBCDpE4oZ2iQmNLSmgaNUheFnSf04uTx2jbEkbtEWYXt_2bx06WdLMN7YDJviJp5U75WIxnsX58V8QetSswEq3D_XPFPV9t_zZ9AC_lQ6k0FPr64LRnDQR53PUhDTuRNbRgdeiiIVja76lkMQwyliPixFKkUNM86F7E-Fsfr9O-uz33U2kx83N3DhvEDXPeYGl7-j7Axcn-SnO05MHUDj9pmTD82v2GFp88dpqFsTv5CHqe0TsfB5XBXRCo2FQeLA9G-mNVQ3_6qkfs-fyPQb0AGWntWCK7nH_J2doKohVmIksqnkopmB3FQVGAQ_ULj3VqmTPqGp0s_nSTk-EK__nWrG1gW_Fiii3STG6DJGLZOQ",
+        "width": 3024
+      },
+      {
+        "height": 2309,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLeaznaSy3wtnmLkXDjJqjqy8vLUBVs0yYGUD_ImY7M2agYc3WZuft9FFHrzCqd846K_LKEGijvabmxZWqYspMVzqGuOBhm7LWT0O0nOW02PFmFkomA11HkqW5hFbATMtJCWJZddVZtvLTK10pKQIPH8fUmznOo-rB8uIJNN3gz5J7qZoMpIuTunXzn5Fs_6oH8uWxrUmk5-zUezARSC3OQfg0Ro7YBbq_8cXqRRQMlNc-is5zv_K8W0C-wPWA7JUpEsrouL3dhiA9RhJYv8Y6TrMJ3fY9bsrfJ7ZzRTjE_GMsCkjdB8o88CGmO41LVr5BTRxPFCKmCGhni-OqzuJRLq3QZ3fYE4M6a9rDjhFGZ4E4_yDIL80mTKta6zA9svsGj7lVIMjvokDT6uwqO63Pawfas",
+        "width": 2442
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLfjKVvfmb4gP22av03uiWqKNYCg8Skc2GOgCzur3DwR4cXfaoiWnSeFmkoiGO0arJDs-F1Z36fGTr_B4kpR5H-P2BfackQbuXm3hKQuK4Zt2w92c-ozV1Ku6D9t54O_rFwU_5i8MvWPt6SEeTUQvjt--i6ACMNhm9CVwwrZjOsNfx6rJMCmzsaFT-GIWJOdL5UWSO87jFtEn4qa4coUWpG4vgZ06N-zET8TB57XjEoa9Ob_tRWBvd2n9e5OIx3L8un6sFj4P1s4lpCmNxdnmWIizAHPxdyYtjRethBauuBfuE02N-5nBSgID0oIs28NkpccVdnCAtQLevES1sNra2MeRyKsHpzcAkvB63UYxNQqJ7w7nmxikz0VjSMqdHxkFmFZbWdno1s5SgazgYJ0zjSWTUU",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLdMzWmKOFDR1A7WWKUJ-lG9alAXEHleWIwd40ToHz00vrBxD6mrKEqe2lzsTWwTyXblL30b15wyZ0S0-c8Xd2BHjMoHeAShVt-5lnsaOVYCEkdnMpc3o8yG8eBIUHqFmnH8w1-HhgDP5W_K29EWZOhEhRZ0LX8Ybahqg7dUokaxRpdmyvPDyJTO7s6S66sNQh4_PWBcnkZK15PcKaGPuqs6fRqIADNLVGzpmRojMZgdJML6vKZG-FD9CyqFMG999YjalLPy1wo2kwYYmMum9P3C-A2WrDNUT7GQFL8cYXy_Jy_fXEAcLvdFq0hjQDpYM4Ft3jJUbR6hfcN5MMqxkEj9jpbQe5hTNxqXskRdWWV67X9Go6K81OXuwQSj8GdRKCnVcHNRTEKEX_Fpy9ST9GfFU0qf",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103756551295948076660\">L Manning</a>"
+        ],
+        "photo_reference": "AV-0GLeFArrkhJmVQhKVWyqmJaY-NSJnsTwgU1pi0-zNdrwWqVqqorFQx7Tt5oWYbD-PX4JXkmXSjZN9KlyoFSeZ_fN3o29e6W6IKgYqnLkHtg7QVx1umnYyYR9ruowZkBsFWilxutJWqEXGKoWQ9um5rAxOjEEYTJKgxVFl_HASfZ4K0JpIkfPbDyJSgGTcwZGqr3tkE5VmD9TxenHXYfSJfryCnonQ-nqQ_AQVKTBPLDpyQu4ag_64STPCQKKExaocdDwixMmEjL51--dyDh2-Tlii04m2oreJr64LANEBV3CZCOUl2WUbjLh2BP_5GnwDmzZJyoY86vROlW9UGK6iQCIUpaG0YlUTtx1Ixs1x5CGa2LVy13s3d_d14AFvCxL2cM4p7KW-ujLdvnjGQzI-Bt1Z168",
+        "width": 3024
+      },
+      {
+        "height": 3498,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107060031040493129469\">Earth Elements Boutique</a>"
+        ],
+        "photo_reference": "AV-0GLfOFWh5pTO8kL64WVtsYuumHs0qVGtYtDIsu-qoUSObmjhPFrBgBiayZkQfhJ_zk2tBfZ9HZMYiNI8ngWHtcyR9zFWeIIPTLK_H85z3R2DMVlvy7b8yfkmtkbdMbUkiJJcgl_iOhXcCTx2HRYMZXI2W8RSKLSCiDRgrjdZaEzR-QAws4j05h4LD2XGmZn05Hgjz-lqUMFyV-Syz_Vt9gOimkZQ7QYuYKM3etFu-ys_Rb1ToiU-2dv2iJ-pJ17hk1CnxkovbbDXpTtmHMbdFB9t7Rem33GmyYtqMdLrrvaxeca-h13K1iK_-kcXZdTCmX6DEf7XkaXXLSHyt5PTDczRitBy-Zf-Z1DtjqKJqHYnlaX45ptrXHkkv2W1xKmB34lW89EqjKVgwL6XjCg4pM4X8Edk",
+        "width": 2799
+      }
+    ],
     "place_id": "ChIJNbVWKdzhwFQRvTXfkdyMMj4",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4481799458155083197",
+    "vicinity": "331 Main St, Springfield",
     "website": "https://www.earthelementsboutique.com/"
   }
 }
