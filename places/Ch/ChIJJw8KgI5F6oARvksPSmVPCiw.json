@@ -1,40 +1,135 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:30Z",
+  "fetched_at": "2026-11-07T01:05:54Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Wild Heart Apothecary",
   "place_id": "ChIJJw8KgI5F6oARvksPSmVPCiw",
   "result": {
-    "formatted_address": "12812 Valentano Avenue, Bakersfield, CA",
+    "address_components": [
+      {
+        "long_name": "12812",
+        "short_name": "12812",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Valentano Avenue",
+        "short_name": "Valentano Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Nottingham Estates",
+        "short_name": "Nottingham Estates",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Bakersfield",
+        "short_name": "Bakersfield",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kern County",
+        "short_name": "Kern County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "93312",
+        "short_name": "93312",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "12812 Valentano Ave, Bakersfield, CA 93312, USA",
     "formatted_phone_number": "(661) 343-6797",
     "geometry": {
       "location": {
         "lat": 35.4176523,
         "lng": -119.1446365
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.4188812302915,
+          "lng": -119.1433048697085
+        },
+        "southwest": {
+          "lat": 35.4161832697085,
+          "lng": -119.1460028302915
+        }
       }
     },
     "name": "Wild Heart Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
     "place_id": "ChIJJw8KgI5F6oARvksPSmVPCiw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=3173436183888743358",
+    "vicinity": "12812 Valentano Ave, Bakersfield",
     "website": "http://www.wild-heart-apothecary.com/"
   }
 }
