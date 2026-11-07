@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:01Z",
+  "fetched_at": "2026-11-07T19:34:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Enlightened Beauty",
   "place_id": "ChIJVVWVJSzRmoARXsxgfp-SMlI",
   "result": {
-    "formatted_address": "530 12th Street, Sacramento, CA",
+    "address_components": [
+      {
+        "long_name": "530",
+        "short_name": "530",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "12th Street",
+        "short_name": "12th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Alkali Flat",
+        "short_name": "Alkali Flat",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento",
+        "short_name": "Sacramento",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95814",
+        "short_name": "95814",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "530 12th St, Sacramento, CA 95814, USA",
     "formatted_phone_number": "(916) 365-7958",
     "geometry": {
       "location": {
         "lat": 38.5841482,
         "lng": -121.4890174
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.58546438029149,
+          "lng": -121.4876028697085
+        },
+        "southwest": {
+          "lat": 38.5827664197085,
+          "lng": -121.4903008302915
+        }
       }
     },
     "name": "Enlightened Beauty",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 12:00 \u2013 20:00",
-        "Wednesday: Closed",
-        "Thursday: 10:30 \u2013 18:30",
-        "Friday: 10:30 \u2013 18:30",
-        "Saturday: 10:30 \u2013 18:30",
-        "Sunday: Closed"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Tuesday: Closed",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 852,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109417392189084311528\">Enlightened Beauty</a>"
+        ],
+        "photo_reference": "AV-0GLekkyOi4b70a5oWmgIvC1jEiQ2NYtj7KMoj8kqvwRKPXQXNkLyLT5n5KspmBwZmQwUFuGlejr02gAb0TEe7vk0g4z7JCsBq_sz3206cDBR6RUCbNP39_a-EKZnFlSAL2Vznjh71BKLLz6kllDcoFLr4R_O7wSomMHBJBG-bi9X61C7-9nIYnbsjv40zql-6331cYWEyoRIglhR50ak7LwgKKRFTm_01yuo9i_BOxCP68CdODSZRX95HbgS0PsUhRUEVws20LdCR9SPbIeOz3b0OdXs9b8UCVepyZ3nbAo49WNR1fU7jLxTAZyrQOu8GrFh9FPCLwZtKOT58hOJMvV7j0XSi6SxUeAnA-2oRu7h115SuRDrcxoK48xgjSOR7yD1FSkURbpfhax4eGQ4zPQuen6Nc",
+        "width": 1284
+      },
+      {
+        "height": 1064,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109417392189084311528\">Enlightened Beauty</a>"
+        ],
+        "photo_reference": "AV-0GLdAQ1SYqMiByUtFWcXM3xY6FwEk8seL4yqRQjcYRm23BpHfppUYwDP3o-gUUG-h3p_zkMFIawKnedbrrZ3CTcdIQyuTBbQlAIIgFsfvlD2jhgUygJxJNw-xO5L9GCRuvC4-xPZimh4nmHkogVZbe9LmAGBO_yqOZdK_9YLIEHk3TzWUmfrqp4SPE_VxgP2tK7M8CPOkX2dGAhaZkhBs3xBRt7FqLmcEdM1NnE0R1LhjH2qUL4yUL0us3sTIYhmpvszXMz47pylnV_lC8dakKSqHrsdsv6qzZiA9d5bvz8wElNtTmgnUhwCxpEe49WNkLGqOOgtgdbd3FUUlhwKIWxYfD0g_OthegEa8tyw2Splax-bhEuEPOr1U3CQCXrErE-CF2IjmgrkTbH8gU3cVy9gMBQ",
+        "width": 1011
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113459111724096763205\">Vlad Dimore</a>"
+        ],
+        "photo_reference": "AV-0GLeCTpSi78Q0FrvQzFOhLLCQS9enTXo8HrJMdCmJdWH-KHzJ49irSXWhZMGmWAfPkMK5BdNV5AJmvmKSAO-Dl0QA_OfpXJE-6rEBTTKXzBknfIN0VJO8IsbPYb4x5onLm9QXPupjEVp510sMgJcZxBvgOGf-97etDuJobrztpmS9--Qp2CC29KcVEQqhNGeFau_N42K6kxSVnqsB2_0duC8EfsAYRJGHIkZicivPDQNOO0gO10CCl6aWZP6SyUp4dHw4aGrCQfsPgzDUhXzrOkdVUtc2wubBrN-mcqAPIzVbaXDAYHLbsk1ZxrAnJE5j7Rw879e78RsFdSopuGpd0pR0v9khlRWON_QsYRjJKfq3m9YiWoWQAq6A4o-YL4Lb5HtBGiei5Wz6TlFSz1wddi3am9kMGCsYPXz_bOcRYcDdWA",
+        "width": 3472
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105111456875780835374\">Heather Diani-Castillo</a>"
+        ],
+        "photo_reference": "AV-0GLe-i8KBVOla6NSs3xIB1EH9Ls7b9_WS9BqNXNRPigjWrbtB8YkiOdNcHbxhxkS5u1-ByDNevdPbEkh6bI9ReHpNxRElLuKgzST0qy8YftVrPjjMx6apW6CbiEgP_jh1_JQtnLK49lrx-fx4GJYbAD6mAHITwjFFNLmOxF4aqdQRRj-de-QB1OKoegiw2rbEkHJx67TM3IxXLvvGvAnJQxAwDL4ub22AVRTlFbmAoVXvURVyZYg0Mfuq36Nnw_AChbyxNl-ThawWSFgg6vsS9RWlqnq1CwPq6z6WgphQMepW-tvu6-2za_zJTbQVX3GT7Fuv_yMXlz-ujIxdFE_7GWbOTOVuaM2dHhb9rb6ytJ-4DTZj9udMk8hSAR6RdvdwoJ1PzHYiXfuI0FLbo3_SCSKBjh499X07nfpibhelIdsbjQ",
+        "width": 3600
+      },
+      {
+        "height": 830,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108247096728289687673\">Morgan Cameron</a>"
+        ],
+        "photo_reference": "AV-0GLdz-ujQc1R8uJkdNL_Le6jG0VeOJFHUHWCtSRSm7HQfGt4g08hSrhE6TCr68COgVIt1oe1H8aqg-36n_DaPOfo8PQvXGq4ehWRUwHuLWf8wK2PE8cKeneCu86q9dbXr26Jx2u0ET8ggiQ2zcnVwzvoKK6-ClStiVWBncqDZESeq_V7PyoPtOGcAe6HOJ0NIwTOLmEepdBsGImLC_iZUvFrITdJY1bIyKwuK0iakKaKVzaAYPHeUJ_Sz1hOfIIqlvg8EC0HngMVLQRNcQQ3_gTvnRzzHL3EWpaV7OiHcR2xSp9qm9Utpehq-LS1lskkTTGGEvpQJkhjDBhlcEboNeDP1kRz6a9Ge8IPPd8FnJ0kqZhqDOJX39zA_y7g_6lLbkN2HlwkW3-2oDo4ofUydfoOlNg",
+        "width": 828
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102863392410309105300\">Hannah Yanica</a>"
+        ],
+        "photo_reference": "AV-0GLexPSahV26f-xdVOZMc_Lf4InN9rmVbHls7slO-urVx5IvJiS_dq1n5UUsACkJW2PWp7LLGtAkkj5oOJI52YvG-sNbj3j2lRJuauJhPig-Kizb1wVWjMfCHPZwM5RNVpEvZ73Ha8HdppFA3DuFq6GjXmILnNjDSoboOy9JvDW0gxzdD-RYABUo6g5RhnmcF3PiA6nXquOG3jSBaFf15mLoYloqADaYWYUjHxZvANBNTd6veSwBD6pGFlG0O92lOLyPutfpauvgXpy94_6cWVM2cf7LMqctSsfkHwGIlhiWaa9SJy5syNfcti41rrd54xogJXWuCFQOeoKesOtCRaghjhyQCmuzXo3Ug9NknL76K5nh58qbvogF9sCZjsgqKNXF7CcCbV51Ey6f6UtOPS5uV2Q",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102292127572181140244\">Aileen Prado</a>"
+        ],
+        "photo_reference": "AV-0GLfjdB9Lo41ngPjL7OlxcyxfqkbW7XYD2Hlf6pSXO3Y1pt4OnrHQgg7ytcierAg2L-4JY5ypiHjZ3tTkupAu7KzwYIHZ6sG9P0JxVcc46M5zQRhD6m8kTU9z-z23cdMuP-S6WFNkAMCQKiKx0gfEKRikHrRpeu5VVmsV0yJiQ7Tna42NqLHsdIhvbhx0KqSo_F5ZsHSI9V0HjZpJoaLbs6IS_ol2a-225aYMjgxc8AripEiOYUkjHxNIwdQsZAPZ0wKNJRE_QYlpuPV72J2QTUWNd1gIIbHZjlI8HVTbnkOUAET-avXXrL_Hgbep9VB9nkDetWPA9GV1x8rdjJbRVu9EvsvYNG_mqChF966d5AIL3hBOjk4usbQWLoVvV5XScBZyBVxLjvtermz7fti8TPN6L9p57khuvSjDkBViFyNrcg",
+        "width": 1080
+      },
+      {
+        "height": 827,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108247096728289687673\">Morgan Cameron</a>"
+        ],
+        "photo_reference": "AV-0GLcQHB0FJC2C_0yQnLNDM5G0Zcyue6vtmZp9IMSopR3T6_ozsbKzrH2cJXD3MyZxA0ZDUlrB7z_ruhM6eYuqGvOMsA4naByo7B2sRFhK6cs5AAASrbJZalZpQGMIExgkNVA6rEo_ylq8HXHZobi7ivqsQm-yeXL3BG1rCpXQFUuO-8hIyjDKhCO4eQyVByO13jKMeZGVulhQtdLBXggQEfj6oVNx3ZzoRwQKGyIwWbkwtDKFPwAkr63pnzKLUR9VleFkNb0oA5uQjl4Q8W2NGTSFcOnsvSHlgXEHiF3_skUyiBOpxF7vh8LkIqM9LiAqn1Kp_rRLWudZuiSpiOnx5pIKILJX2Wae044aO4olE5HXzoxSMF5wAtrC5m5ISV2b4XhnbyDXi9fW2cnucPVWdvzXDYlJD10",
+        "width": 828
+      },
+      {
+        "height": 1282,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109417392189084311528\">Enlightened Beauty</a>"
+        ],
+        "photo_reference": "AV-0GLdXpHjiGrj136Nwy4uiOaMGAZGYsjN4_ITvwG8BzOo6UtErKCH85AobN1QWXebkrO6ayB-VLe3qE-HP4vitYMYBkTYTF85EydM7F6-FurbcbFOl_bb9mgEaLH3qriUjosmF2TWXwm1WpfsJ4v8OwnbZjtTKYCdwuImOCT-sYAXhQ3RlB-Jx8PPg2TNeQNb2_Osz7hzisB8XoftBDH1inAzmSyzU2N9sVUjH3jL61mMbKeQDQpLGnBU4pizoncWInPAr0BVjPhRytqhAzEzDlUNcBAX5qUiDxvwJXkd1I-7Y0fYcalCGCH6bdKOLiHfgi7X8OtLx9sw3ewTjn4qNNAt3PqGfz_1YZeEDXrvfotWrukivIeby_1yJhddKMR--cSXCTncm8mqQLlt9EXrjeBOwi5Qx",
+        "width": 1284
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113459111724096763205\">Vlad Dimore</a>"
+        ],
+        "photo_reference": "AV-0GLcUKPha7GEyPI77_8x7AKhedQzl-tuAxsS1w-9_fDOJdz8j096F0vinPD4geOYrYYLtS_eWm4iJhQPF6ZBUVxN3Eh-HTrm-ayZa-tjfYw0KVMuLKMrZ8dJ-v4VxP31Lm3g2XgDf_vIpZdTvvsnleaR2-fQbEP9nIa8s1mGHasO89FegAn7lib3vtkiuoc1vvAjR9pkDa4vA6rKNHlZrGmFVQAmqh0dZPx3SO5NNKoiOOKUVA5dY8MiAo4-7xhlhZodYqJiNy318z7YkHtGpEHEeit31TpNZ-0XSpjUikhciACk4SpS4-VRd_M9Fjv4ImPzBxNOZN4Jle5VK4QPBXSEER5umFrm7l7xUVmlSFjwUb9OsCAxGiZDFNmdCNedkV8-7BYRzyy7tvMHSqpLMenir3CyUKXwtuRXhUcF4PGdc",
+        "width": 3472
+      }
+    ],
     "place_id": "ChIJVVWVJSzRmoARXsxgfp-SMlI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5922957673663351902",
+    "vicinity": "530 12th St, Sacramento",
     "website": "https://www.enlightenedbeautysacramento.com/contact/"
   }
 }
