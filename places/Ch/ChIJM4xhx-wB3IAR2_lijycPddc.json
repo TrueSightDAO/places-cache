@@ -1,38 +1,267 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:36Z",
+  "fetched_at": "2026-11-07T01:06:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Alchemy Acupuncture & Apothecary",
   "place_id": "ChIJM4xhx-wB3IAR2_lijycPddc",
   "result": {
-    "formatted_address": "1001 Garnet Avenue, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "Unit 220",
+        "short_name": "Unit 220",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1001",
+        "short_name": "1001",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Garnet Avenue",
+        "short_name": "Garnet Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pacific Beach",
+        "short_name": "Pacific Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92109",
+        "short_name": "92109",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1001 Garnet Ave Unit 220, San Diego, CA 92109, USA",
     "formatted_phone_number": "(619) 669-5030",
     "geometry": {
       "location": {
         "lat": 32.7971363,
         "lng": -117.2515148
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7984722802915,
+          "lng": -117.2502881197085
+        },
+        "southwest": {
+          "lat": 32.7957743197085,
+          "lng": -117.2529860802915
+        }
       }
     },
     "name": "Alchemy Acupuncture & Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 13:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJM4xhx-wB3IAR2_lijycPddc"
+    "photos": [
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115651429546498831134\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfCWai4FpJbLOO_dY0g0Qm-jMfY70Z-lAtR7ZzN6DelJCQAIBEoksNXV1HzfNXrjhGEvmvhjPvCqJ6g8j-HqrzX-dk52y3v8gtEo1Zd4cIp5mIkbj7Rej2cAAz0xY80gchO47scAG88yQyZ_J4R_M5E71IsqINHPvIVjTfHgU6EiJfgqudgJXaZ-Z-NjcNwCFIMzulf9aElOSWTm_xEC7Wi5sCV99970fpWzepnD9A0fLrSJZDJcOFmyalNU-0uQFYDopDte5WEbFm-xSZSFMTXsOy66t5hdaxsMiIhZBpcTHZCsVczl9sqC2HD19vyenSLt4zjTZXcsN3ShexLJ3lrDGWBDdRTNJb0pqZsuEfOBuVl9VWupiGKk4RKgi6cmdEIr0FBrDFh1b5k7uf2k8tje9o",
+        "width": 2000
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLexzwfNVOs783vxWFUY8yL-_cFdt0OLQl6gNL3NDY2GbGiAP87dVztqwVakJ5lmQYuT15c9_-bm2eSclkIlNvIt_KdiUBgxN5GlKZR7JJD0J74sGWb0SqKoPQfvHNM5Q3Pvuf_UMVld5q3GOwXbCmo6Mw-fnyD6OBzaRX6u5AScH2KtW25T91CbbdmETOn0Khv9Bux2nkzvVT1czT31scFrzt-Oe_08Y32fIFz9Qg49h4RYcKhJTP4vtSakhzY4HXzerZprL6HlWXmJuQiGQm0RDeqNhkj_TsecFUanW6JSrDJjbh67aWG-gtP8GkXI_2unaXM4y6FkIT95BhOrW2LKsEyscwHqZZx1DgUvpOKoofykzU7DLxV6s1rF2a1wRwO2De3_S6hN-gZeHK0xwUzvulk",
+        "width": 2000
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfwTQDIlHwlTgt2bfPl_Hlf5Mbz_oO3107y5KvPJeiu3mRk4QxmLm9xJGZjhLv7uVRRC0WaFQWEJh2X9mvAeKMyFqRyH26u_yUaz5rf0RLuDBDVYtYfCbi-zU7qEJdvhnzqxDnyoxBBj8ABJ2_v-2w5IKPMZ_tvIR15FNixfngO_waHJ1MdeKmCRS4li9SBFsebfEDb-TeWy_LRdgit4qjBR-bhyDwBqMRBljMibyzHfDcxqtPsTLwnoEBWVqwqfI6Kw6I3x4hUzohepfexl83E-LiEw0aO-JXmMRS8U2V4HZ1_i-CwMXMxI3jLOntHRcpKiqe-U_cSJYVMdADksddUfS_6ho2FF2HnQv0aNLxhd6yE9vLAIJFjWllow4YKSS-ZtmrJU7eyKrKJGPWOdvE8SfMbtJk",
+        "width": 2000
+      },
+      {
+        "height": 489,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfu17QbbyLsSVSVu7tuhPeFDOLsxT9v5lpmP7PiI5Aq1gyB7mvNXaUIgAG-5uapy6jpd9Wh2ySALrSS3jFZ3KF-o81gKy4q3mJGzkHMsMWgp3wwbiPcYKv1_trzOPAHsH6eJitQyaFKMnVpGLSeKonQPPFxuP3p2erMRyBspPsK7G78trw7lJNQOSn48by9I6MFL7QQlMwi-mQrH3g1DIJfWGc--HwRzHiSoSwxhHYWJv4s6-II4nOqST3B4zo6LvY1Xv6uQDaZ2s2IwJrfVFHl6-IrpRVFL0AWaE-l5TLMEle1yMsHdtV6HsdxOyz1gUz2heHYjk1_z5uDQ4t0blSkcLTIVHlIcaS8HsEDqgRlyO8zKiaUkBLKqh2Q5ucPIfBvzFUWCfmdoSgYYu6MZ9dQ1Q",
+        "width": 600
+      },
+      {
+        "height": 348,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcMxKxNXwApyg6_9aS6rWa1NTR4pT1eK4HVycvtzMGB3MTkcU1S3R8ej_ebGZM7SsL9gf8IGqEnOnyLQSlO7xtm4zJWarlmIB45Wy8sIbEGQGjuO1ZrOiq5ZzAR77V6sVMOsnJg1Z7erjdgCe3a-KN72pv05t5WAGg0B5-1eSD1LevM0W0Dk1OJVX-GXTCjlZa8ZvWGAhISFJqSjts-Z1J82ljUZ_wJn4tTmoFEBVtdFCV4XWVurHm3b1sVhu2lPCZoiCv_Mi01jzEFqXV4XCG2qZdMavxHFpPxYOKCSkanwjKZN1zIi7tY6RyuyFCgJ63-XuPiJQog9ununvel72vtzvgr8qMTd8cIjg_U3vcBu9q--Kgrudz6k4nWht0Cqs9msKDHKUeTThWV7MBH73PzCDnUD_A",
+        "width": 348
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLffZpKfgh3WzXLfT_l9P1AIdZs5xDp0eSQrk_6lbYjwsu3VGCEL0d4xjHEMUZvVi8CPyE5D48Tyxs0Ip4_teYU3ppVbfpce07jqp4_ScHEELTHh0TLDiGrqyqp0lgcvjhVZeU4qO-qlL8b9dUG8uw-wm-1DT_bfdvjjJbDkHc8RG3tTXFqW7sl6QygnHSs9rq8N1MdaAZRXZm_2SxN3VFFkit1KYBne1_y4u8GVs8LsA6glV7e_pevpyfdsWPplDzpBOCnYmDDZhfAqbqV_US1dsifLj3Xq5UoUBaURWDNqmZFK7u46xOgpOy4CESQaaMixlFB3sCA-p5upugRRvQuHDi60uM5dZ-4hLWNg8yEtTVU2xR4rhqO-gKe-dO23Uw-gQ2UbQNTWNm-3jnulLxsY98Q",
+        "width": 2000
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcCcEMk1C1pWsZh3l2Dr7Y8NQ2Qh396qftpNcFh8Gdk7F7UtefmQm0drwH4BhY7uCk3H87AXkx3apfNesqghM2hcVeGCl9u-JT-A67roLSt0Y7s3udFzANMmZOkFPRKlIT6pLgllsDyf89CJCGr1JufpneYhlteNLMCr0OlyD-wU-3Z4RlaJv3MDWNr3oDgueQGPjOEAxE4XX2ap5Fkl1HQaXjaaiR_ozY4PsKaSbrk7KWxr9uJk4rEc2yfv--qJcX5IPTJDPriPxrNOkfPzlMet_SPN4q_EHt_KPKBGpW71fiBcSnHHH8XRQo3WVWAmTHFghSXw9wrtnDc5bZDU9300nB-gd1nnb2rO2x9vTS3S-FbYnMF99jyeZyPhnA27ezQlKDdGDzdRir4m4HWoEKgIiw",
+        "width": 2000
+      },
+      {
+        "height": 258,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfPRKUZniEiAsNV9mkkM407N33UGpzkmA9mI_QKSIZ_tOcsgv7KEP_KOJNCtwG0UwttrmMhAGb-W8PRjWGor1Ju8ZfcQsIJuLTxdl_D8ha7XKi7kQ1Q4mSE-Pi9B97sDh4tkbumPWB73XPl3Opn--1Tn6LM8L8uzkoSRqGUYEx5Sg9rfR-pCxyjYmvu8my03XsFTAAzACU9ztHgkd7b4likAHqKw4ZUd4wDIXcyCttdq9cH8Nrg_kUyMH5LZTHvd05Y5VjCC-aALeW86CDc1W3glgsdmtNZ-VaXTBAc7RUREMlIUx2cFmMNwRA2PRueOym51t6MPuX6uMQFeMGforlhVMatV--wPs8zNnnNn0bJuEa6exa50cPUmgye0souIYswjWJIvQTT1rXDzrxqkqgmNw",
+        "width": 258
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdvuFNuWBbbn1yUxK2KinYLfasUqVI5k91MXVx3elFpd3sxDuVdlrXZVqVoo9VqTVoZ9sweEmgs6Gow4T_YgoH-fMaIuH0XufOMdhTZwmEdtMcXAwu7G1nBrMiY5hFwd4506nWg4bN0cQ4lV_1dGO9aA7BjvTnw87hBroltwLeUHDjitNefFv3KlcnR11KFidCA3DfBfkqf_lXKeHGnFxa2jVn8_a_NcsYVIVTEjWw4QzMLIAMK4rBUyU3pNuoBY6UfnfZoL-pcH3ijDQHmc-OCfexsqWgvRToCLrtoo_8xMPK8P5j2jv84RgvqrDki30t9vIz3igOFJnm6tXgIyXQuk8zrNQTOxbDFNW6D0LEJbQNWTzjk8LrtuksK4Wo4ss5VX3_9RTjxdkWrgaT_fxJWDT_sp9A",
+        "width": 500
+      },
+      {
+        "height": 1335,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113458103784969273461\">Alchemy Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLewrYsKU9dcYNsmTcVG1aGlClg5pC7Nj0cwiCB6dOVebxzOqdvFCtU8ULKbvSL_2W4NfJ6kzQ5sNbx91snjdA214f8aaqCtRRdsvCBk-iFSnrnZPFWbsNeeBljW-uLCD5l-AeusH2ZQVH9-DLMgbUsMHArle2SGIBKfPuyE5j1KaXxqFTcxA3aCuVGRoBzS4tY0qtd7KgrpMyOTGmTtujT2dNK7lPXSaGDs75URdxh9DUi-yaajcv8S53-OYjmgvkku9ybeTf87KkUZjDIKb5NddK1OQSb34CTsWOr9xJKBjaiEy5Oo5orQKL8dl6oxMsGjg6rVwngfg59EROJhz4g5qJKez8OUaMAZhAg-Y2Hx7xHMV3ravkiIV3YNcREJEJSPJ-XH6hCMjsZrywkC2LzU_Ouu",
+        "width": 2000
+      }
+    ],
+    "place_id": "ChIJM4xhx-wB3IAR2_lijycPddc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=15525331953013422555",
+    "vicinity": "1001 Garnet Ave Unit 220, San Diego"
   }
 }
