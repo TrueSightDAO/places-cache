@@ -1,28 +1,139 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:39Z",
+  "fetched_at": "2026-11-07T01:06:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Brothers Apothecary",
   "place_id": "ChIJMUVsTLILlVQR0Ud2YUW9nJc",
   "result": {
-    "formatted_address": "825 Southeast Madison Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "Suite C",
+        "short_name": "Ste C",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "825",
+        "short_name": "825",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Madison Street",
+        "short_name": "SE Madison St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southeast Portland",
+        "short_name": "Southeast Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97214",
+        "short_name": "97214",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3438",
+        "short_name": "3438",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "825 SE Madison St Ste C, Portland, OR 97214, USA",
     "formatted_phone_number": "(650) 569-1093",
     "geometry": {
       "location": {
         "lat": 45.5132154,
         "lng": -122.6571018
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5144284302915,
+          "lng": -122.6557354697085
+        },
+        "southwest": {
+          "lat": 45.5117304697085,
+          "lng": -122.6584334302915
+        }
       }
     },
     "name": "The Brothers Apothecary",
+    "photos": [
+      {
+        "height": 1412,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104713864824857256518\">The Brothers Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcxhkpBkY9AMXyow_2GF_fskhUkPBGyYzWMJWsa9K2zV45eJVuCVxHxI-HyDVOEHwU9-6atDkb1FwqjTi5tw3A6qkk-rmA_DsvchjQ2WR64KuKvinbKt-o-OnER9K7KvrUgV-HgAm2Q_gg3KM9WT-8D7c6BXjrPQNwZUHu8FJri99_rUh2W1EKqva1bt9XUhe0Q5c9rVnT23nsYwrjRsFyx9MuzCKPnCP_a8BXWjjXPoM8CQrJ7xqiS5Asb7ibEYKFEUAAj_5sgD3f0GiHLiYMnCco6TMMjfiHYv7tGH6mMLJZ7hwtyRXc9zyDsdrBaBUnpgBCVelfRhh6xa37lGVknTgGE0o-moYsyoFk0E777To7-tTPaEfFhocZMYUkoQf7mT9uVtcC2LzXAyiRMdrgU4nQ",
+        "width": 1562
+      }
+    ],
     "place_id": "ChIJMUVsTLILlVQR0Ud2YUW9nJc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10924814901779515345",
+    "vicinity": "Columbia Supply Co in Portland, OR, USA, 825 SE Madison St Ste C, Portland",
     "website": "http://thebrothersapothecary.com/"
   }
 }
