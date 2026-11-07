@@ -1,40 +1,273 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:50Z",
+  "fetched_at": "2026-11-07T15:03:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Make & Mary",
   "place_id": "ChIJR1aK8SunlVQRWu3xUxR3vks",
   "result": {
-    "formatted_address": "1412 Northeast Alberta Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "1412",
+        "short_name": "1412",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Alberta Street",
+        "short_name": "NE Alberta St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "King",
+        "short_name": "King",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97211",
+        "short_name": "97211",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1412 NE Alberta St, Portland, OR 97211, USA",
     "formatted_phone_number": "(503) 444-7608",
     "geometry": {
       "location": {
         "lat": 45.5589675,
         "lng": -122.6513115
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5603813802915,
+          "lng": -122.6499758697085
+        },
+        "southwest": {
+          "lat": 45.5576834197085,
+          "lng": -122.6526738302915
+        }
       }
     },
     "name": "Make & Mary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLe64r3tcpQ4Q7Odc5xaSWsDHhFli9C23uZfS_T7MV4qMOcp6RehfzfEvnRyVo0WPrQ_nUXs1tRZ_21tO6DEmQ708OKTeOTm9tlRO3YGqzs1CRW6RlFtitJahaPT-qs8E3w0e2cqGBAi_S-Apl2brQagisenIkVrZwqkOJKDF_AXdWFKiqr8wx6XibefXowab1HgWXI4dZnbWjCLbbEwDNldim0miaDpdO67_GPEEvswB_KTrvqgXWpWgTxLnMZzjlfw3uIGoCvYS9fbfrBRnwaxNXO_Ru-PNnXKSzEJBm0nzr_oQrxYvzRqdk93h53bLO1jZMHNMKXNSjKDQu76LXThyX-aChRjR7NFKH5B55D1H0A4Tji-cnXetzUQiymqUqskj6-w6yN3UckvzSfQpwqKZhE",
+        "width": 2151
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLdJM7f7_OTB7eWjbdp03kvEZuYEcChPpZ-y2PYM-Y40EAOQm0EQnlML5jtL5XxOL1AyxPDlDCOPOQmILya7JsfnTRxEC_x0gJbdOa3TEmYYhn0dKPM3hCxM16TfFztZHLV0LfPuTZOaLxDo6UyLvm2vMhWppqQX3XGDQ5I7yEvzbT27SapxuDUxJHyiCe-GSxIbkzij5La7eEDp2Z4ZkrC3ghDB-aWfTErKPyJuv-hQQWRQQ008Hxs7gNhKGi17O6Vcv7Gq9jneugAR2tHCo9NBZaTRpLPB1IrSAAw5R70X_iNlTPu1OGLCcFv50D9MsfrLXyY8kTcuNFfBLuWzB16W43U2iyGK-kA6WOq07QD-wCIv6DVwFXorbRQ7w4_QplUZSETXaj2Q0ITFhI-7AjMa1g",
+        "width": 3024
+      },
+      {
+        "height": 2267,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLcfovvoV1X_Xi10VgVdgTI9GleqnPA_-Jq_NRzBV6xEyWKCcDl1QZkNhY8rLUvZYwcJSnscARE5iAgGcs0CvU9vjMNHVoNwkVzM9aRHYFc72OCh-Q535dOKiJiWrLngKoQnnQcSaxejrZuMaCg9usDn9YwBVNOBNwINTR0YCAilHZqrJKFOrcRhsTErLF9Plhrwn1Cz3RL92LvtGOLLFS4kdsTuCEhAO6YQPPCD-tYVgGeKcf57Jw-88dl5Z1Xf96fh_Rhdi2J4xBbtw3ndUlprr3xNK2yEWeUsbtZULFcQd4F-yNprzM91m9BAuN8cntHMqZNAsrYHP__nxk7BAg4rnuxUbcHsQMUFF1Kdarb1SbxxgodeQO-aBqTwQRcqYbxewRPSCi_nENgVFTBZVobkcg",
+        "width": 3022
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLdVhAcM9jH7Ms2ZUtA4y_qsxQ64MmQWPH-8A_MAQpJgGBoP3Y78Eaf7vYRF8xfASXqvHBEhzYDLnC5-6aM_aEAcRianeF1ZmYiv3r6tHrnRzmFzz96MZtfqqXTCePdGOxzg51endjbTcDgxX4-wbbjP4T7mJp69x1pNnalzo_HpDf84xaRoE3Ok-AV-hK4nTjoODK1BN6OOVbFc76kHRc01uS-BeSvktnb_mjXXuLd-G97CRU1kNgJdfzxknNntO0AVSJcn5iA9HPEVIddSINTzuJeQS02wlU0hQops7g_rooA1ULbuma0LM8NHZoqadYeUSp0zTkfUW7kdiwMpFhq431sRTrFqS2qsvtPJN8JUt46W4V1hEvPu_mKiFvur0MD6OOuuf6Nme3uIPw5muo2JPg",
+        "width": 2400
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLewSrzl6xtwu0WaIRFUeZzd0c7PYSiL_Rj9VoldJa6kg5ghcgSDE4HPfWXoTySsiiHPd9Jb24716ji1HmfESQ89h5yF7DIlkCvII90yVch4lrbb6QG3RmZIFUzHsNPF2WX4iUDZe3wtJoB2WHPc2sthmauF-jgDln0sqPY6mdxwWWxCvBUTODW_3hSm8Sytv45UcLM_c8x83thl7RSjHcheFSWHcPMmXsAb0TFbapLKP24jCAZcb5if3WkPSlGTc-e5YZDl6jKSArBXniutq7PdqgwmR85BQ6_-MV-OxfK0INjBwviUt8SUDH_krlv3ozmj7Ng3I8WH7uN31zuLwHko9nYVpcXs-GccXywp_uBPlMtgGqSTVc_DWiPVYlVtnq0vl7MXNT153Q7M_sPHiFWVhLoQ",
+        "width": 1200
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLf8qHukxs0wxIPOcK-wyw6kyEYgIPezPzi6EJwH-StkEm_j2ZAmZ48h1VkkFjzAcFABTC-id-dT8jRhu3I8Odb42JCfPAZW5NGiRk_re2PqAb2FDSvz3ce1FRFeM-6dodZsbXr0VfMzkoCb2XoDme0ZR12eOFnwzdlDV8t7P5l6cCmN1M-glWBBp9ZETVMMkLYeKY9bAK4QVI5saP55qYFgGqccy1GoFnlD3EINunc78GSv7Ih6e2afYN8AvCjSbZ8m5mlz2mvLbhVLCcFaEqaNWYQgUhpwqH_BmhEzMQ5OH2gu8a2wo0E3sXy3x0hXTG7BE3uLRMhQfH2Nn0Wl2CtLCzfyZPo2n8HblZCnPxKGxFu4_XslM-EFxxMt74Q9SSndolQBugROhzFpJLbn6wnZ7-Azs8w",
+        "width": 3584
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLdK1Uh2fecxhlAR6T6T_0zjjtUvuRIZB5IiPO1fbQtU38iSEWNJh_KwmWeMUyxKu-x1BOh60YusWyA5bwu9T5I9p5FSSQZ4y5m9H6_t9k__68U6aZHzyJB1hr6vhP0sFG63rOCeA-i83_We-zvhAbBbwzCsync0M2OHkl51uZhjF9K5s6WgI3sW35dh2A5chGGS2n1_YovIg-Z8nOD08UgGCYG5hzpx9j51kUMa3Xd_UaLQLACg-n5Rrc3CgMlOnZ6MPQWEGaM8k80suN_qHblhwMF1X_pIQCkAb919plo17jtJAUYdvkQmIQ8jY8AXFAVd-VESkzG8TuaUnAFpFnY31BqvlX6MhSNjHajRG-tFiY6ANgvyT56nfUGF5hvI3jqoqRCKHQ7ZSqsi_UoA612wKOg",
+        "width": 1200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLdUoFB89d-a6cMsLWwgj5Mw409zNLb-ZeSHKzgd_YEROLf4ZAuzbNPtp6hFwDndvTrhd4YLZkOuNbcOvDGy291lPT1nrnFpzh4SeSJkBhAmHm3FNR7ByAPH-kY26nbFB4cOwFkQ9oVetly7iJujpV5QBj8g6_s4IxSSqDYRWwCfe1xL0ZggvpG8UqhNJIYUs_lvkDsxCEdTuH8npEggcCsrB0axPIC0fk-qldc4FHSXUOhNnhZN-Ehk5CQOHE449l2SA27Z5feeXTh9QK71s2ADbYC3cZ6dIimSvUIOsWoZA35_T5Com0ZgGnvOpJr6TYuuRIH5eEvciJe8chmLwMpfSammjT_xo6wysUOx5aPyBSIbt5hKyV3aT5wXAFNk7zbZGbpA7Sg4wSn5jrCMgmhpUck",
+        "width": 3024
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117909858792760956290\">Make &amp; Mary</a>"
+        ],
+        "photo_reference": "AV-0GLfimiX4v-oFxW4-sH2fYafK9oANChGEU3oeb6qtXk_MFveEUMKfbNkMFwQd5EPN3yWwAOraAAmeNAhVnS2YzMkYapbaiJjEsbRF-50LpVOvZEuD90EywQNHpl2xD42RIteljJwDgMSSVn7W2t7yfZ_GTPl22rYfZgWmyZo7_5GWMnlreKlcMO3v4OzCi2vzQ3LqTFuS0RcaQmti9jaa5k6zyyDORNOkcMiZDSGy0N1HLCMITXKiCCh8nJhaLiJ_Q7KGVso0GEI79RIlaMJAhHVOgQwszAWdWSXqwU3KkS2f3kOx3Wp1qWPZCTgFHTwOGZZyF257gQvctZXhrn-LXQ-5MIdVnDP5trHBr7evYTHGq3VWARKLvwlj6OfFlBBvZiV8tuCHne9G52WiJ1DsBUQtyBas5-4",
+        "width": 1200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103309741122306973189\">Amy Sly</a>"
+        ],
+        "photo_reference": "AV-0GLdxjjP8V4XII78UKQevbfVqZywkjRg1aY9GKsAAZQcdQFAPUQWPP8vNpfUw9ZQCDyhG0xMZLy8eGvDjtoqsXBT67_HKk7UT86zdGp4QMmAJngbFFRRnIJvOKSjGadKE1HbXtyVmRnfd_AMHorx2eyUdFTCaCE9jG-P_XseHGcKgJpDy_AtFYBC1vhxJtlU5XIhdSjyGz_CqMOZbHHEbyr65eIXPY7or6ZK902pdnr6Sm6J14q30Mf51laa_TMCdsqhF7-o6mTxWct2nI3tt2jLyXldFgKl_HzHnd8NejMMiNQhBTk2ESZcRID7ZUiiccKN7v37tdiJ3UizZU4vyWCVITa9TZVd_B7wYr3EO2BDBRgARXhZRerX6WjcS66uZyvEI7iDr_Z_5ZuXpbgIQR62bSfY",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJR1aK8SunlVQRWu3xUxR3vks",
+    "types": [
+      "book_store",
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5457930727611034970",
+    "vicinity": "1412 NE Alberta St, Portland",
     "website": "http://www.makeandmary.com/"
   }
 }
