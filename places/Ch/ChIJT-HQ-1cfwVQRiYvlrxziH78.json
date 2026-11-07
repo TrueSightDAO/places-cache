@@ -1,38 +1,205 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:53Z",
+  "fetched_at": "2026-11-07T19:33:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apokalypsis Culture-Change Research and Facilitation",
   "place_id": "ChIJT-HQ-1cfwVQRiYvlrxziH78",
   "result": {
-    "formatted_address": "1280 Pearl Street, Eugene, OR",
+    "address_components": [
+      {
+        "long_name": "1280",
+        "short_name": "1280",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pearl Street",
+        "short_name": "Pearl St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Eugene",
+        "short_name": "Eugene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lane County",
+        "short_name": "Lane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97401",
+        "short_name": "97401",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3540",
+        "short_name": "3540",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1280 Pearl St, Eugene, OR 97401, USA",
     "geometry": {
       "location": {
         "lat": 44.0457991,
         "lng": -123.0899557
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.04712868029149,
+          "lng": -123.0884715197085
+        },
+        "southwest": {
+          "lat": 44.04443071970849,
+          "lng": -123.0911694802915
+        }
       }
     },
     "name": "Apokalypsis Culture-Change Research and Facilitation",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 17:00",
-        "Tuesday: 9:00 \u2013 17:00",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 17:00",
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Saturday: Closed",
-        "Sunday: 9:00 \u2013 17:00"
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114946570194730451371\">Strawberry Laura-Marie</a>"
+        ],
+        "photo_reference": "AV-0GLeEG7cU8VYQCXPGf-hkvOP0CFKmzGy6w3vN959ormBCYQelrHxVJgemHn3CAZmooCYgaLutsbHGsBqm-ttOg79BpPmNYEDG-ew9rm9D_Gu_hlKi7fGAG1pLYc8oExWgZExUnz-U5BhThEgClHQLsFe8JI8z9AHKdiRO6EZBWhRg_mYOy1qDqTPS72MrTk-a6FdqyEGqlCXHK5lIEIkObA3e8Dh-MB9_NM5VbJGDv3tbQi58PEAfIyFV7uVOnqzjLCtzaXWc4rH762L_KYkPh-z71jwzDMC39klCbh1h8EIwWCArMQ_1qmF6jQLUjOG6cSV82hEG6Siq3icpS6C3sS2MCEwvcDKQldmO8UHkXxKXuidO9ukPjp6N1NHCQ9lp_QMfG69LnBeyCI2XCEKX5INCvAjZDoJPYq24xMP8bWdJ2Q",
+        "width": 4624
+      }
+    ],
     "place_id": "ChIJT-HQ-1cfwVQRiYvlrxziH78",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13771974798360284041",
+    "vicinity": "1280 Pearl St, Eugene",
     "website": "https://roquirkehealing.com/"
   }
 }
