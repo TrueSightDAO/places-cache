@@ -1,40 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:54Z",
+  "fetched_at": "2026-11-07T19:34:00Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Point Loma Tea",
   "place_id": "ChIJUQjCgASr3oAR6wRAL70L0ro",
   "result": {
-    "formatted_address": "2770 Historic Decatur Road, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "103",
+        "short_name": "103",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "2770",
+        "short_name": "2770",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Historic Decatur Road",
+        "short_name": "Historic Decatur Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Point Loma",
+        "short_name": "Point Loma",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92106",
+        "short_name": "92106",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2770 Historic Decatur Rd #103, San Diego, CA 92106, USA",
     "formatted_phone_number": "(619) 523-2070",
     "geometry": {
       "location": {
         "lat": 32.739882,
         "lng": -117.211834
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7412460302915,
+          "lng": -117.2104018197085
+        },
+        "southwest": {
+          "lat": 32.7385480697085,
+          "lng": -117.2130997802915
+        }
       }
     },
     "name": "Point Loma Tea",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117619585038993529546\">Jim Gittins</a>"
+        ],
+        "photo_reference": "AV-0GLdhNDTvfltxVuN0xpT-6j1MHuMoSyljHdcnHpU3iezGSRVw04Oop15BTptl43s1TCAWXZWcQm4cw2r9-CxDRGkPNJNFMcng0aGg_ko6_20bAPs-e2GZ9OcIukdD5RWaR1mNqCfeKBgO4XmiZP863YlhkYr0QTzAZDIbpDj33g9IHPLQjsl65plEwZVU9jggISt4IZ2wsLZ-CJ3oJlHRofleRpBOaPelb1fCIT1biWpGaDjA8_ye3v-kDdL3YSeJgZ4GEUIYYRKj9VaLN7XsnfRS2Uubc-VFgoLjtdK4N04RJv3yXnxlGC8h6tZyScmtqYyYkckSa-1ITA1eY_Q0Qj3S08mJdLynCp9pWut7YrWLrExT-NCw5Xbun6qDMBkRiaeobUFKfypmadmH6VA83IVmKOye",
+        "width": 4000
+      },
+      {
+        "height": 1468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116799390429594843944\">elle arnot</a>"
+        ],
+        "photo_reference": "AV-0GLc-fPwqD9tw5pOw3I8rao04NOdsFM5g-LD2ttyPocz8Mc9r5R669Qf7aHu9TW8NJUGoL7n651T7BCQIY2TPwQh8hkO_edgXD9i_TYuqkaI_GkOOM3h8YqelBir5ggWSXuh0PS9WlT3DebATO2pimW1QWQCt7oAmCgry5B7ureb4tHjY9W7mn_8-LAwzkkjGGlbjZ4o929Q6mvXH4MZusXgI5-5hBasTMx_BHI0DwGSV_ssr0UPD3fvO_J31r7KpOPC31ILhb1dssmMcU1v3rAgyTU73svDISCYVz1oKAtCZflRhfxrQ9oEj2VXw5AW8Axs7jP3SE8KvYqQOvkCbTvN5Hlt6-bRJN1rQNjsubZsiru2QH2ZVCcPJhF1ZMyW1uD8QrIj6V0DyN-0qen7l9Fq7FE0",
+        "width": 3264
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111841735265003726542\">Jemlnlx</a>"
+        ],
+        "photo_reference": "AV-0GLeYkdiTLBV0sZPLgeszy10hscde5XFgZZB2KZJFqUnz52zzfhbr9lc4R2GKMPKap7Oj5-vVd2hp9S5l8Grrmisk8EU-l0nE4pl9wAfAXWq94_z8Y63vSx2I7pmote3_HRH6GpGkwsLwOB8wM-kbe3ekP4XTjdAj_ZIEcalZoJWX2Z4UitIxS2cobM4GqUToCd7gyDv7yC9gGXwv7Z67EG0gYhY49RD3pyEJ2vOd5WsxiFSk8B7jrqLxDuhc1Rs7Hehjz-m1fQUQlZV0sAmvgIE5KA0aNfakTzbeSdIx2yfNx9ahnvbarJlQW_HhumrYXGn_c3avTy1edn-EWJicjrhTL3m5ZUcMNySwPnvA28gfimMEM7ToxszA--qs-CAQkNx0MWH1Oz2ICDgHwwRwhbho9qI",
+        "width": 4800
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111521221270574861321\">Point Loma Tea</a>"
+        ],
+        "photo_reference": "AV-0GLcSWD1Kqp8M5AAtZYE5jcvKYGVCcbpQClO4RjOIgG6AksMp61CTwvR-UTnmDytHUCtJw8BJQyLNA0Vvv7kQrvoPAx7DWOGwwO347DmVYTjHOzouBBLAKIZmkxrwUXv2Hv4jkIpKMQU6MhjsVawO8Ju3RLOMSp7RZwVKWGR8Bntk9iwvz63Qr0Dkjb1NaKNPn_3cJQpVebB08K4Q7g6Em-sTjlOk8od97SE-mr2O87rqSkBgSXnsXHaI563L5ggMW6unjeKS2gxKFmlGDjOUowvcskXKuZK-jYI5GW4QsXMntYbzSs9b-eI_XI-KMIZFB1VlVMkD7F4_nDTBVI0leeZXuTENm85mjaa3x7Qn9sF8eO3IhHrcme43S6brrVF98wZkFxWnX-B0stgOcrYmxtzjPe7L",
+        "width": 2184
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115976971531289053321\">Upal Mahbub</a>"
+        ],
+        "photo_reference": "AV-0GLfot134d8MwWa6IW1ecUXOm7yE-JPkNYj4eQp2zylGLhCdo28hirayTahEDFi2q9ekjMu_CjcLwhkRU4bMa6wy5qUD_MXvgWU_8v7DPsJ2bAiO_tk8ScmbeQMVi0Ww_dkpykAk4I1i-zFnwQDrjcI56OBBPoM-ggrYduNMs4IbS1IFf3eCS2MnXy5ujt8NrsUrUXSb1rVyhjQKhZHksr_o0u3d7BfyWhXuLEgVlv_OVe3tFcDhFEkG6udWvVb7PigGYHMu67RXeEMlZnKkePFYXhdMu6eQPQJsChRsM8PYU6J-wLaF_6OA1701nxI4ulhjbxqxO8BxPd0pfOEFbbsz3Zo650u-SsghbSm5FAAYVmFV70c_rkkT2TdHxYw6Vj0UabH0I4PhWrtFbcOJVwPriUgBmRCQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106447521204101666961\">Ned Kelly</a>"
+        ],
+        "photo_reference": "AV-0GLdTLFGA7ZQJM74hozKJ6ZfjRjPmDbuR1vVks2hXC7C8U1LldpN1Q6qDYJj5emoc6d3I2NqqaQHwszWnawwHB2w3qsfq7iJK0B16oeyyYyO2OEoBClbORUdsLIBol6rH07wT-TtKzCISWkfQUr-rGrB8nWw0TbS4uknxtrN1TpBsucoLHsZuSlSjfIe1mVvb-6tyGFTnPG6e6IIcO_q_LMAlBbOv7ih2noneGvmrYau9Hguk95TobM6V0aItWqgMABgqC05PYG51qQgVwlPbE9Y-63sc-YNYOpskTplxBBjid1_LBDllCQ3pCw6AhMNllgmukFyjRjoW1Ms858bZpQCjg15YRRfSkyID1QbnaKK55d-4Wui-8GYfIUXt0QmqSJGYoPnon2kWmqPnujB2EBeCx7lj",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111521221270574861321\">Point Loma Tea</a>"
+        ],
+        "photo_reference": "AV-0GLexDR4y7NmLXw70-3flfiSnEAvDr4hKqo4iTQ1bmvyIiO1lAOixc8mDYdFQ9GcX-urkgi86oN81IuWeqrWnGpglBJ7cghsV5Xe_evDzU5MAj5aPhJGBX4_92M3sSd847SnVQPerYAOLIPj_PfCKhlhQ5V4_g0Vhmv2qHZSzn8cpFjtvuhaWUkV6h-HzDQ6xGKGgbkuTCpNl7piOH1yL4VQpNBPSvdoa3mpQm2OHtGM8Ls9WnqG8nj-0hK9PE_JqUjqTB0rLesBv8E-d4a71GWrCPlV7Ufj2QZBjmqqGtPRcJSZr8U7Lc_pCzlIhgUen-uzhCyLqKFY7s4RvIbtRiQbzaXRStDodqaCjGTIDtm-YX33hslsOcy-_E_uhkrWoGNeZ-taxIZDmsRO9G83Hs0JzcxOt",
+        "width": 1908
+      },
+      {
+        "height": 3201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111841735265003726542\">Jemlnlx</a>"
+        ],
+        "photo_reference": "AV-0GLePej6lmiLJ68w2uhvUD5tzhG1zJgeUXDHMxN_8IkXZg6etzvjdDTB_xkQwrx-gTGDRyqz7cDyvMO-A_7v3-6pAu5WwuESEyvL6vA2SqLPIaXXL2gTFuo-ojzB3dVA9AH3sg4uXoIXJ_EwcYaR93UYMQKPRw1Pu9xY4_VB9umOt-nueSA3NA8yMnNp6JSK7UdzDKvxyx0W1GCMLSrNMZE0Rug-PDXbiL8FntNou_fslYooQRGxdHAbrw4m0LFcfqmWta88LgY0MuEqDzJJuvRQObt1N2m3MvRZ1d9L-9yAjt-xaPb0Qsxi4YtFJKSX1Og2cIPgoXsUPzDXLOjaO9EUYk3jA7_cjEHYLzejtLXSZE-SjccKaZ-ZYuv7NLAYUWJ5qeNqS24wZRWuy5xQY8L84_Q",
+        "width": 4800
+      },
+      {
+        "height": 2969,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106447521204101666961\">Ned Kelly</a>"
+        ],
+        "photo_reference": "AV-0GLc6-o9j1O3kTZ3BGzPLPluzTjLjaiNznfx9BO5YCspbSryaa8NDZxelsh_MNwEFlxlIinsdASAbF3V2o3u_cziIerlPl7rtX7sik0k0PX1e0W_DRXP-b92s-rb2FOQj6jOFLSufR5eh_Ch1BHANStiwTylCzkQuH2xtzoTRVsl58UEYIgmfAG28b_QN9WU_p2SvzbiazR9qJXhdEEoFL7dbaZgAnr0xY12j60qXnn8nJwhKRH9CYCmqk1c0IGdZBc4U-ZwC_8vhnPbaGFrTnn31ihyRUMSF8U-GCUSvuk4-2GgnbigG2WYbygTzRT1o6fwnfPebAvvZ6MYQvk2QUVVqfi_-njwskg5mtUos7qetuf74YNeQEX8x4e7Jk39Z8V1AMMnPvfUoZJT5Yg-djlbHcdk",
+        "width": 3992
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111521221270574861321\">Point Loma Tea</a>"
+        ],
+        "photo_reference": "AV-0GLcIwz5SbQWsOZ_29mNdG95v0iPXBKQ2jizCuRTJYpPBP4oW8sSSdgT58OOsHrot2p4M9DohHtyU-vaiBMoZnNUOVGHubT48nmCPhLt411jy5knCnckLZ8TR51pHxPRB7_gg3DiyynnR7UrINNRTwGxtd5GLZrbIq6YDPE43FA0TlsgBRUwidD5cQSx4yjDYY9vUmg-osDulk1zOo8Gv5LPcC6qAfwJ9MWiHejJg5n3zp-J_S6F5Xvi-FyXjpQwoieb8FDPiZM5_61er19AmQs1jdwxWCdyARDio7olo7g8RIDwCpmf_8TF2devLjA3O_ry0CUpyAubbF39IO7wI5z_J0AXSQb23SU62DX8OPMHO-phM-ZEPIbOJu-QLUE8Bu2FRz5GQDEX6AS8G4SVmSdjnFw2Lf3A",
+        "width": 2184
+      }
+    ],
     "place_id": "ChIJUQjCgASr3oAR6wRAL70L0ro",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13461835143333283051",
+    "vicinity": "2770 Historic Decatur Rd #103, San Diego",
     "website": "https://pointlomatea.com/"
   }
 }
