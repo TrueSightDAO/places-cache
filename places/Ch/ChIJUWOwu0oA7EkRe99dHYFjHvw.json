@@ -1,40 +1,262 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:55Z",
+  "fetched_at": "2026-11-07T19:34:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "High Street Tonics",
   "place_id": "ChIJUWOwu0oA7EkRe99dHYFjHvw",
   "result": {
-    "formatted_address": "267 West 8th Avenue, Eugene, OR",
+    "address_components": [
+      {
+        "long_name": "267",
+        "short_name": "267",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 8th Avenue",
+        "short_name": "W 8th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Eugene",
+        "short_name": "West Eugene",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Eugene",
+        "short_name": "Eugene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lane County",
+        "short_name": "Lane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97401",
+        "short_name": "97401",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "267 W 8th Ave, Eugene, OR 97401, USA",
     "formatted_phone_number": "(458) 215-4814",
     "geometry": {
       "location": {
         "lat": 44.0511682,
         "lng": -123.0964249
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.05242113029149,
+          "lng": -123.0950411197085
+        },
+        "southwest": {
+          "lat": 44.04972316970849,
+          "lng": -123.0977390802915
+        }
       }
     },
     "name": "High Street Tonics",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 20:00",
-        "Wednesday: 12:00 \u2013 20:00",
-        "Thursday: 12:00 \u2013 20:00",
-        "Friday: 12:00 \u2013 22:00",
-        "Saturday: 12:00 \u2013 22:00",
+        "Tuesday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 1:00\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u200910:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116734057646815684327\">Claudia Robles Bello</a>"
+        ],
+        "photo_reference": "AV-0GLcgTf3VqR0BqFEaHCryabRb0GZJZGgEYOVdz_6izLnMyAIdbEGwFK7IFNtqC2gn8JsanP2KffweLgNRaABTfyS07kdvoJaKlv4n39Z5JdycnQRA5lI0qPvQdig2FG69a487xxq3ft-aOypPAAouT0g1r9KQbXDXApjJMYRuR83D0-8EfhJx8t05wbTLP8-jjG2Jc4df878mlUkfzx1VyLyxoS2anGsiTEiUScxJkGVfTo04geb79ip6Jrm1kqyUsSLxRG_8U-V6Xv4vu1p82wbo2slLT5JUGEMuBUuqrGmk3JrZUsR9M96ugOkby9-uGrV4qj7BCACLmrCU1b6Q9cjX8WDrs9zDILtZXQHJcsSPjKxEz0OAnVukydKmBh4tuwpz4GbnrCLUTxO4u_c0Bm0oRTrKpLM",
+        "width": 4080
+      },
+      {
+        "height": 2955,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115299313185131038172\">High Street Tonics</a>"
+        ],
+        "photo_reference": "AV-0GLeRIVTi3pymIkwxvANBovZhce0CWFNH20Y6f0q1Ft1eqY3gbI93Tz1veFZIlTktSecmRLlIwwBb7smIgjGC8FIkyE5xA0ex4MbmqJWpJv-RHoli4v8D4mv5gJ7m3ywxq0xCEoZ4klktGlxjcrjn1qMMl_0mXLVs1NKuDC74J_lZY_GDQurcuDyYOJsschnAlN9km8XziYeogYMICW2rYOBCsVxnp0reiZp-qC1oC7WeNLsO_A-BjrditMgDOv_vCbEEa9w6UnyC0uZ5F8mLAZNQKrrMtR50q8qgSCDy9sLZev6HQQr2KICp7if-eMleMu4k3CnNR13FJei18MoLdYduoGCG2w56t_EtWSWHu_uNDqAzvU9fJ-mOHsOq5wLUF7LFixZ-1z6_DuJn3P4A8-8vKXs",
+        "width": 1970
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116784847015726337224\">Kevin England</a>"
+        ],
+        "photo_reference": "AV-0GLdhgCc-BejdupPHW8vZuyuCRuMZS-CqGoKXI5TpoaODquTQ5zCt5MB-i9wZkAZmCeTXmUT-e21lLHRH3VvAiwzMGnqmAjSStndJp-Al0zuDuAdp9kOvn135nKEpK-vfcOEr7jscihTRBdkdA5V70zWVFdMdMre8Caoxthns7V94Fqpg3CdrpvwHZ55szbtWzUa6feF9TheEbSN7qJQkl0TI1ZWd9Ol-Ka1V6oKv6ig8qJsYtla1ic0z0h5GdC1IakMlZT3NWQoqfeyvj0edYIXKMZNdfDFS6KPDHRQjlHqSXX2Gbx2XDHdKoGK5TSHDoGHDsoKr2jUNLYmmbVeXqGBnz1569kJN_SDd6-BUBUx4IFoESqdJTSgTO2VZLUxVqW2OUJPznurmzYEmPSjywlS6jOGXJGuEfXUqsGr7dep3qQ",
+        "width": 4000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114168355216176408113\">Sarah</a>"
+        ],
+        "photo_reference": "AV-0GLdg8zDr5vimNuP2oR0rTx2AYjuBKgpPbPSy3898QryxQOJqKHrrEPuWbbBPBIbdju6gImclQrm8uofSxEJhUzm4_QXAWDpFUYsAd-1WNOr4Ffl8ubEiniMY0xCwzHLP9KQ2DZkXOU5xrSRwNe9ysmmEzr-K1rvxt7cW7NRAglCZz0m-Ioe5368jF7IA69W2u5hwGsQXfRPZ7YLASI7I3B7GCbtiNGfZgLlg8yWcqA7-tUnRGXkug_yMlisH9EcxK61ezfeMbzZ1PVVhDfyGuYTXWiJO8ekXytNG9FMEP-X7_bPA6_vlS7YPcu22do0J_lx38hnBlqz9ASv1on9q0wXBU0ww-qr2SdwcIKsPTKMCmoWmFyeLWL0M9j4xhuXBC7dPT03tdtx2MKes14hXMclCuU5eArRL7sxWacNDpxYfWQ",
+        "width": 3600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114066948588012324856\">Valentin Serrano</a>"
+        ],
+        "photo_reference": "AV-0GLdx0WhgUeo9AZ1itaVT22G1mZdYYkYTEYJPTjTLRcvaD1CM46qJUg0WZ9tF7VAxct0iObF9th5OK0YKCqXpPIkoz35ueMwNNegv4WkGdsUGSOs2vOolQ4_GpJOKllqMyZnSrqzS2QIqApCxfn4igKhJWsmQ1RIS2d2xUA3Hr1xiRF_-yteOop0iRSN2zX2tZPCWEHqLDD8Ia6zEhCAiHG9PXgqjF9aT3dX5F8TUZLOjkqJXDawhBZt_EhuNz_yTO4AkNJF4DU-MH8OjarYMaiUtjafTE-moXVCJLV92W0wWt-xpDnOWfSCscPMsBRtZ2U8a9oTa1LAWs7tXDbqn6b8PHCiaThQNUprb3s5Tfw8-UCYm9n2CDCcIlOYZI4mN0a4Q63ZeKKIjFXPpfo38fxaSzAQQxb8",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114066948588012324856\">Valentin Serrano</a>"
+        ],
+        "photo_reference": "AV-0GLdwyqMqMWhxfTZOT4tYzLN__evD9sQw6BQeSdKFpUzGWSVMmkuM350FF5LgqIGgBokVfTtnh0IkrkwhoxB4kC3qaKbCtv_K2O2KpWJdzZHoeBdcRbXu9askIk-bJ6bYE2iVVLX3eImvlhYttejoFOia6l-Ic8agBkDN71kQ9HhDQKrn1Dh-LHN0DTXij_Gu7WIwgwy6c3MvHBW9QO0iDIBoStAtPATxhG4RMEcEnGwVn7Pyoi-XNq-BFQGR-bYHul0vrPQiVzeLzeJEHYzAISVVwRafGurzvwVjiZhpz6tJpcI8faY-uZr0F2kuuAb876KHPC1hGNpQjl8t17sMxknatlQf9EZz5i9dmWA7b13eBvcXUa61HwdQvqgAvcW_odpgBdG3yzYDGwS95uEGY8qqi_XciRM",
+        "width": 3000
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101976777769829426881\">Claudia Campbell</a>"
+        ],
+        "photo_reference": "AV-0GLcD-aQqrIpQOBunqGCdd6_LQ9ZofD4hmNzQPdM6pXpMwOCX9ZQ81hXQTWX9hRJYGWLZtV8oopudQKPnsWQew32LGRkAqj1fTJgYYjhshbwBGhSqRjIhwaUeyfcZ9hL7-ciTHiIQ41tOJbKtRXr5ayWuSz-z9i7GONmZjeBsE7s6p-fy--lqPZaOywF64vZ6jzeRIZOqL5x3lf6aBMUzix03vqJMJXBEfkHE9JGquszmtSPjfUG9zkbJe5hjs15I7hzosK5JeNRqQNNdzTPIVqTjpUDcAQXUSrSQUkncXGYZlZxGt5LaKb-GoSpec39CXp4NXSSuqWcXBlAOY-IH3s0ceaJcEUjHdiyc6fNZbBIE62jUEqXKanYG8mxWg8V32b7e8x7e9jUaN0J9xfPl1hCJN2ZNfuK7DVNSVjRABpNyQQ",
+        "width": 3472
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115299313185131038172\">High Street Tonics</a>"
+        ],
+        "photo_reference": "AV-0GLczkNtYPqPPAyeDB6Xfa9QyvOgM9-OxW19bxpIkUyg8NSjM0gmkE8izPdWEkqHuhJDSt-ILqVDXN0uVACCnrB55UCXbLF2C8ajSkiywZMyjdbYkePsV8wDN3WXebCKB5uKco_DKuywjwOyHHB8mSSPEh9wAsEFOROGWyIkgzU758uBb1WmLSJAoZTq-7D6dhDmCyZBHbgwA2Hjlwl4yk2GYuK3b6lJ60N4DEa4NROTgcocreFYxTLLWgRhmweuN0tGC427uKqP70AOhz_WWCzg7Avth-V4CUBmKQSSYSoiT2bV06IXX7pCaqqdLtrLvOQXgmyAlkYxg4CH9d-eFjJ5W-dIua4U7075CAydWMF2_Xku-UeMQOk5ncjWhZcKU0ZGhb7EqFQVLJGeH7NfbUgHwnY8",
+        "width": 2000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114066948588012324856\">Valentin Serrano</a>"
+        ],
+        "photo_reference": "AV-0GLc-5ma7OjWeCxOR5RZOAlak4WwzaAcQ5BX0g35aykGhMjnm90ofydkcD2SiiJaerPBBvb5zZ9aAI3gQX-tAOVlMOpxNgxoEOrGKd_KAxWsLqj_PkWxRNIHR3z-mG2hFH7OlnrtcezmFryrmX0KxlDnETdan2nshdQ6dkm7HHSL1i7CWaclKP7SqYCeg_kAmTLGvq8mqxwjayU9ieN_9uomei8HCTjd0Zfbi3l29BA6BzJ0yNpq2OC6-fWrKK-5I5vpUCbDPbyibetVBnJhtxq9dHn-V8cSIflenTMXRx5vN_1e8QpOfWn3q6Kyr_Q8gyXC-CzPIQ5NUFkt4-wN2WQ4DHlgSO2UD7VPY2X43LDpfkm37YZpZgoTgSA6KQECqegc1x3lvi_Jd3PLwRd52QAUVxdg",
+        "width": 3000
+      },
+      {
+        "height": 2647,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115299313185131038172\">High Street Tonics</a>"
+        ],
+        "photo_reference": "AV-0GLfodICE2LIrJ7t9C3-_i0H4Md90VmA-NX_TyRC1dTnxYkBl4BhpRT6eSWESTMq-tkWm05ydRHXBAMDKGvRL4lElgKbw1Sm-jOzTp-JFP5mjAZfG20b7SjzpTZoGV5X5fINK2itfvMRl5acmUop-vlOYT0emqKYYXqw9CCc0je3nMMk_IMe5lmq3S595usnbbYlw333cass7RhI62r0RrE_yLXxftULnSwXxgSUnUd0y9V1xVP-E0kDdRw4h7W5pjTYvqNoOW_8RLRFSZVRbNc2YKv3FUyEAyljS6KGeH_dtyXS0bNVSm6d_nPUaIwr-9oK4SQw_Pr3-gZHvpigcRJnHFv6JXAe0Q-vdfuFSIf9lS9KL1jNrzQ-f2W_gb09yp2YoNJAgkLmnYfdaYvCYUzzQvSo",
+        "width": 2118
+      }
+    ],
     "place_id": "ChIJUWOwu0oA7EkRe99dHYFjHvw",
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=18167067353053781883",
+    "vicinity": "267 W 8th Ave, Eugene",
     "website": "http://www.highstreettonics.com/"
   }
 }
