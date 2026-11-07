@@ -1,40 +1,222 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:32Z",
+  "fetched_at": "2026-11-07T01:05:56Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Alternative Health Center",
   "place_id": "ChIJKT9gSuv-v1QRJW0jQ5D20FE",
   "result": {
-    "formatted_address": "1826 Lancaster Drive Northeast, Salem, OR",
+    "address_components": [
+      {
+        "long_name": "1826",
+        "short_name": "1826",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lancaster Drive Northeast",
+        "short_name": "Lancaster Dr NE",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East Lancaster",
+        "short_name": "East Lancaster",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Salem",
+        "short_name": "Salem",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Marion County",
+        "short_name": "Marion County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97305",
+        "short_name": "97305",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1826 Lancaster Dr NE, Salem, OR 97305, USA",
     "formatted_phone_number": "(503) 364-0538",
     "geometry": {
       "location": {
         "lat": 44.9517262,
         "lng": -122.9819608
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.9530304802915,
+          "lng": -122.9807047197085
+        },
+        "southwest": {
+          "lat": 44.9503325197085,
+          "lng": -122.9834026802915
+        }
       }
     },
     "name": "Alternative Health Center",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 15:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 270,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117692326590844043711\">Alternative Health Center</a>"
+        ],
+        "photo_reference": "AV-0GLe_pDte5huqoheSLBxcZ0x2g0Ou2M-z_HmAB7FL0-BDXaWFMSl7lLlMHQZRfGzL0B4Rt-Zq7glHhRoQ2vtqxYppZ5raFyapZ8GCTqQs-SLesq4Oq1w0sg6vnt0uXW6ds2GMdAUcf2QRNI-fRD1XkCwo2EMy5NkA62mWqFd9SwgEYOJc6Ggrqbnmn2YYh6NC7CXCIUrrjf0QxU_m1eEdZ_Kb2vo6k9nx30rlGgzMNBewepfWarXObhqwyhtQwNG_vb6n_j6dTtnV-6PtQSqBCZYamkKnk5Da4JTniEbD3tBNGVV_UclBnwjUyAD_59_dkilicBl2J-U6TMWTAkhokS7YsJUZgZNIQ8eFpm_0UduycKcP_kBfQAAdTqiT9CqJcGjc4Frjf7sdd1EFh3CzsT6YpTM",
+        "width": 340
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117692326590844043711\">Alternative Health Center</a>"
+        ],
+        "photo_reference": "AV-0GLfB5l4sl4eun2xaleiy7ATb4aj1veOSZYw0Ej_O_xTTH0VwunkPAhnRySbvhOqdxte0l7IRer5I6yd98Pl113cKB92fBp8BhtRKIZt9U-OzLCThkIs8pp5MC0jt-AJrkumEEmsxyzbSEw3TA9jwJ8aQb6LTBQsHmVhWoiow84ZVyxc1t5c-dAVs9KvjDxK4TkCedfEc1wDBbubjVedcfiqgMT8H5fNUUF2Wf_MbKH8o4yPefVz12jnOkrhjvLyKZxHU_BZSTySMpA-CFRUrPsnK1neT-KyH1k9S6uOTRerbw28ApzVpT3pg_RUhi3-Z6ecZ4srfybAaedTE_ThaYpnme8jybVUGnpk4JCNCrZb2FaUvmv7e2LqQW5L_hz1GokDdlRgn7G-e9ACZ37EzAINd4xo",
+        "width": 4032
+      },
+      {
+        "height": 453,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117692326590844043711\">Alternative Health Center</a>"
+        ],
+        "photo_reference": "AV-0GLdBEKBaelYpPp9lgQIqBe0rl7gqydFulRxX4769vNFGNN06kJkgkJn4wNC_XgZlf6H5AdfFBMrXIHheCEkIjygAE0aAOYVZQdeJeVYFVBrzqr4ERnsW0KinyQqboMt-jXLc2GJNH6T-XncVAoWSqBEq3frolrJlDttu2Kr6JbxzrAitGoWorJZCvMc9RtZzTsdMl6LAhjf0sG7eBnGcP-HEhg2QFb-lnhmlgeNt4VzRwLwAIF15LcC1BajrLm01RQ6Ev8Ldff05nQpTdm7mJdtTbXyah4KZ81Q_ngYM85OMOxUVpEAbN5NuRMmH-6H8JttwGpE4D5DM0n7ei6mNJ7MtZro0BoHEjmImBImiU5jV4Oh2RPymiM3AcoaK5MtJdVayI3IvtYSn8MTQLmHC00Cm4-U",
+        "width": 574
+      },
+      {
+        "height": 350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117692326590844043711\">Alternative Health Center</a>"
+        ],
+        "photo_reference": "AV-0GLdob_c50XGntAkZeezxjJXihB4620YFP1P_mknlZOjmp-OowEpyP70EDtVXOMuOvCgqCnq5epzPuaV-1RFdzRjpiW9klLYWBE-Onqf4rneaZx6HNUWcXtX_3oXQLUyGzNc2UiTSdK9PFMgjyvTrAFVQ_MprCdKPkG2faabo8i11IbUHAdHEB9LDoBc2jKyeoJKdpL36CYYlc3G7GNJghu9v5wbPaadwyGXtkrKK5u_-7wwqlq9XpcBVjOZf1PhYL4Awvl1sMIjCqC8urwp6uPXWT6wUHlwuCuXvr4gxEWqKpLwyLMBAqTFEkCFw672D5yce0gVwcKxRX1qUnDck0x3pLY3kUaNBVyV5OW65aTH8WoN9rvurldKkClazXbiEuzLsfIkwWQSayplINISbycNRD_K7Crs",
+        "width": 629
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117692326590844043711\">Alternative Health Center</a>"
+        ],
+        "photo_reference": "AV-0GLf0JJbxNtHXuyzsxZOI1KovWybn1YPh3YbQ2UoMHO_IJFn553CJ3XptEGnMQ-jsIOvyemRxT6xJHZN8hCy86fbnqk7FCzkmw4Xd55yF5vmROkmgu7sh4Zl3dhkZydpz0QMdPwjqWOBkm8AdQsGl1wbsWpMpWGC6_u-Vub252N8MuRvqI99zxb26d0b-poYbqY2yYQ8LSyfHiYdjnS97yOoW66hmluCZ89jdTtP9MwGtX0GBtNu_OkGSgZT2z5F95QWxUK_44L4sS6Tztlr9NET6Qdu8AdPmprw1WzA8bZawek39OrqZOmn4UOBds7iq_axy8jAKoZaqviyV_amko1gUC8HyuBasmiG0HqF8I2dTIlJYIJ-_ysbBQ1ojqvPVYKdfMbY8yIrhMhMx1U9jcfbmtsZpRH0",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJKT9gSuv-v1QRJW0jQ5D20FE",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5895483011690097957",
+    "vicinity": "1826 Lancaster Dr NE, Salem",
     "website": "http://www.alternativehealthcenter.co/"
   }
 }
