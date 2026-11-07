@@ -1,40 +1,258 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:40Z",
+  "fetched_at": "2026-11-07T15:02:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Roosevelt's Terrariums",
   "place_id": "ChIJMVjIPfOglVQRVqA_pkSvFZE",
   "result": {
-    "formatted_address": "1510 Southeast 44th Avenue, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "101",
+        "short_name": "101",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1510",
+        "short_name": "1510",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast 44th Avenue",
+        "short_name": "SE 44th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Richmond",
+        "short_name": "Richmond",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97215",
+        "short_name": "97215",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1510 SE 44th Ave #101, Portland, OR 97215, USA",
     "formatted_phone_number": "(503) 734-9996",
     "geometry": {
       "location": {
         "lat": 45.5119339,
         "lng": -122.6170488
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5132786802915,
+          "lng": -122.6157585697085
+        },
+        "southwest": {
+          "lat": 45.5105807197085,
+          "lng": -122.6184565302915
+        }
       }
     },
     "name": "Roosevelt's Terrariums",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106921139864507625996\">Roosevelt&#39;s Terrariums</a>"
+        ],
+        "photo_reference": "AV-0GLeyVZ-QM2Y6zVuZARlVyYm-aFZbH55c0ALuEQI6lRUknfkQkMO9sN2GkCy_sxxbaN_s3ylmZzjrmItznZ45O-sYmheVh7dD1YLgnkuo4hzBVrBagSpzE1hew_8W-7YPA-_plnL-XxfHlH-B1qZu-FnYwx23g_toAySa3U2_WF2nOnkCYKnrUXatr4o3I609dYcZRO463vlcpM3mIFSvzNX5qkEkl-b9Z6ZJdAo15FxNUrSLUkGkeNWByV50ojqu81JCLrscNjha-0cCate4pp-gmjN7-4ab4GXwKcsXke4Mu-BZ8rtDiU5BHAI5Mo4JTEOesjJiew5LQV4Ci12x73ayhwEUYa-xqsTXrTFTL9M_doJCjB5QTWq0PcJTGV4js6zRsZ1pF3toXc_V80M_ERKRxZg4wDo",
+        "width": 4800
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106921139864507625996\">Roosevelt&#39;s Terrariums</a>"
+        ],
+        "photo_reference": "AV-0GLfNLVzxtuNpeCVPVWVBld1Zcng3WJWXjR6_PR2yTmE7sP0eCwv98rx-zacPXUOwEzpYaFk6pXyfD5nozr5aFJGSnBMKX9Ju2IBzjQRBkcEUccrmceB4fQP6S3v41EthmiqJIZwqb0zrOJPVB4z8ey5EHmPMPOqVFvsHOAZaFT5HyWzhlKt54UwvD1C7pLWmaq1p9s4yRczbXwinxRKLTnO8qhVQqfiprfROd3xRQWprVfbUZKmT9vprrMc8Ou7SXF6CuShaw-4aztNHIoXiMkECZixOx6wXepSem8nuafMXcdN7HCNM-OC3rBW0dCFPV6F_IjEuatYVJaR2fhvqJnJ_YRfEaN4xi9vi8fnglHHexQlz6HCtUsMOlzeRJ5Hi45MnALDF1t9Mg_t9Et8iRmF1UA",
+        "width": 2048
+      },
+      {
+        "height": 2890,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117999011115552872210\">RK Glass</a>"
+        ],
+        "photo_reference": "AV-0GLext1kx7YBJpFNsH6edB4_SBDTRGIksqa2Tgoiqha8TKeQFqc-ZIYYbDtMrSJIZGkaUZbjRkE4T74-_yVkQfgvZhHFp17PIxcahYtF3CLVrytJMRsDJUelgflKGtAbFYgPxUK7EjPRPoQ4leniS22a10wQ0l85rzC6qW1IsDAEuw5Jgp8U4sU4eqlN3az1GJ9vTML-wd-inTMGVG9lFLvpyB6b5knbHxd82pzdp88Q5VZoXLGpPSJN-DQ87tzgoCiFfPKDXXy-mdmqmn09umvz-XvX0O7H_Iun3j5jhQsitKlcTpBrI6tDVcKYWdzdipZjd3gjH6DdKZjmSpn_5TCIOFztfPN525dg7EzQWfNpP6Mcy0bQD2Ic9hQMZi0zXXSo_BoVfvxqcMQYRYAZMaApZ6Qk",
+        "width": 1960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109741245329619037728\">Max Pietsch (Max)</a>"
+        ],
+        "photo_reference": "AV-0GLeXIHX3Kqn9cXX1uNYl3DWo9r3X526OwIe5syk5lbkm2cFh_tEZgdNeV2R0KeIzx4wO5Am3dMG9k3r_mpVCYr9RKj9LgpMp-KFQiS_vYfROXeaUd3X1B43ZfpHOFlmgn0WDdLv9NfSnAIlpqXZrVpvkLjrNrIpgjRAGfFuvs936T2AOodXCw1wFpcu05t3Are6AYTOxAqiNnVUyUA7TpyVKH5mN9OyTgM5D_t-hf1QCmsK_nXYbhTjg3lRSQnH-ADLBeN0n8FZxklnjhQR_jhOFmbsBbrpMHYCKqxVjCt5QaJ8PSYKMAtV0iTdFisDEa3okaPmj1YdoGAyphLEs5dS--izqHYnAhEw_RRnx9N5F5GEFDONq_wvjl1Flej_xzt774VJhX_GUDkUbEBgac_3znqg",
+        "width": 3024
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117999011115552872210\">RK Glass</a>"
+        ],
+        "photo_reference": "AV-0GLcrndjUNWjYbNrj-_zZT08LOE7SzDLo_iAc5Ze_eyFGsQLg-ip5URP589sQJh3jP7hPDx_hXxIxNIHsj7T4juzSvlQh0UDkM8pDmrETxT3tWkmyjnYodPc8QZ2VlPsgB3HS4G1gHjab7m_YSyavhs92hqqM3catINihTwiZUJuAyrFgt_HVd46t0o0SkWLmBDcTh2X5pRsJwvbFYZ4-ZMVdwA0LxjOue3ZK6jEgFTBIgLGZteFyeXHMwCcYf-ZzYzPrkTghRDVVAjps4-3c9QVbFQRFz6KmNWMUyDWz6un-IiUwwseCOnmVgoR4umziCrinnZ1VdyI6sjw79qWUYN1HkPc1ttpcxGL5a3ovdTbjjWJhwVMMrrpOPOco191B0rNCb1J3hhe7TLdWIV-ab4F-I4k",
+        "width": 4032
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117999011115552872210\">RK Glass</a>"
+        ],
+        "photo_reference": "AV-0GLckjvFDRpIQT-8MVKvBx7un9F3TTUPWMQ4t7ut97ybyWWHzOolUBuIWqe9daXW_fRBGWnkASXOLT4pa-Q-yonHdRSaW7eA1dlcLRCP1qffC6fUV1Crfc9hGl76QSlgwjMeEykOd20J0YbeIs4ttjPI_yOLPl-S92IcsgOpYsSbpJ0jffq-l9IBpqv0seZc4FKFTbAiPHz_u0gG8aIZf0WD5ZIh9Lekm-GBRdkQIve6b08xFQJoez-gQ1-t8Kf9ZhRqYvBBc0LE1nfZaIXwwkcJvlgOoZjAVA35hOOFvMpviiLoMXV2IbiDyNdAVtzBPZnUPfLtsUBVsHKYf73b_zDDkBDI9B7l6HXgZs8ZbonxYRUUMF0eyNf5VtRGbQxJbn-7yTwQkLlTuD1CgbtZVDqCNCQ",
+        "width": 4032
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109856419151695084254\">Mike M</a>"
+        ],
+        "photo_reference": "AV-0GLfg14MTgkFXLnPkGcGDyDQUY86h6WE_0q9jz3O7v7oe-GlEAlfIY7GZT98CRcnxpvXILoh7_4AqHcDH_FJvxvG8UW7dQ8PLnWADTcHDgiOFlG4dh9_JjLRNgEvbE2Z1kqBpL5FGwixe6Stwjtu4yCOfDG2xBsu-a1bEbMniLtJxIUMqP1xWpkMR_u8NnSQAalLjGz2wwfYeqQS6GW3Z19Gp-1b81L3eh6f0vG7_9aWKqMzOtECpr6tI1LmBNjjID0lD4sPq96f9CwyUqqWqCEqd7vsfGxrAlRTegTrHilnn1V1tsMvapBPjf39rHmn8ZJb0RqPTTLZ-4hs8MLp8TAjEKPkDlBjB4wSpHjm0VB3QPGSllGnVE-yw_Fd4XBWiQUfZcksumkYpW6-ojIBvgfsSrQU",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109856419151695084254\">Mike M</a>"
+        ],
+        "photo_reference": "AV-0GLc17MDBLwR1LoyvbQIjsx4k4AYebC_ptirghv-RaLBzaVtTeafpPQvW5I6J0N3yG0fpKAMPWxPBZ8NliiywHpMwFCV57CFp5oAZN9-gp8h6juY2JanFyRNV4d-CpZcve_gxvYseurar_xklCFFyAiIEEJoh29V7uXPn75e2U2FvWgb8lkVxFRvatr0hql0I-X7jThuV2zSib0ZX05lQO2ENybZb8pcq23Elw8k18gNtVMKcJHJxPWUau0uaj1Uz5HEMtRY5zZVjekD2W651dzxeaoJFbE7agZoE9XlvbgSwvJueYpPnwTIQT6_JIEbX6b1DfPVKq5zJOT5BHQsR9dpIenjnqu2--kvLVuxx7UULouUF0tesTVMrNYnNxkClWPXagHaRF8RqnGPFhriBi5bRdu0",
+        "width": 4800
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105460746617052479144\">Kendra H</a>"
+        ],
+        "photo_reference": "AV-0GLdieMCX9Td4_S1KiHB951GTFrnt__MyaxO67YfbUmLBx0ORif_kB3tWqkr6nXlIt8DjxiWl3Lb446ADEBPmvLpOkuU7FNdHcRpuk766kp7jtStORoq0gK1omMqQIkyYrTNlanOCm-J5fVM20xbuinFQiJ3f4rakyxGQwFh7PzytdObMtac0jkLTCGcZqrYuYLTT8QkGbYB4scd65_znqig_rj8-WbMjpdTXldKaS6p1Bp5r_gXvsQQVGpwvjAV_rq4kfG2LTpZSU-TwTet0A9U6Cq-FfMigxP0jWMcIMGmu-GJfkcOiO0kn-Abx1soQm0Bf60gxX0LSek4gmj2HK7eGiQauWAuaKD7tbHpMtlJifsYHxDnnkF99RNE2OoelX3lbGpZ-nh0lj9NLQ_FdOlTgCCmogJM",
+        "width": 3072
+      },
+      {
+        "height": 3557,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118085819315586544016\">Gus Fan</a>"
+        ],
+        "photo_reference": "AV-0GLcGG4QWZHpswQh511F6hsYsNZhq1Jw3R5xOCOX2vsG6i_0K1LUSuUHQOTFZUh621FN6mNa2EI4J1dq-TJC0cgr4R93I4MdgugesAG6jjNYdRZgqahMii9OoI13Fp2N35zD1BGQm2hdalSdjBjJcwi0XMemxxXT0F9z_id1U201SgFCYKQZzFEiO6jBERemuGfXn40rR8oqsgxX2ZPOLaNvX8QftDJxp4ktcjYYwvMOstEAW6kWXnfz6a9UxtOfH6iK9cU4qISlpCw1X8ecTQ8YTSKRyPbDw6BqTFyvNV47mY1V4nObTQoM9MaycN-scr0JD7Z6JikZ6e6MXoFby1--lhbxHrq1PGDyqIbS1SWFsAz8sjZyzVKIsBv-wCVWvEnu6DgUjq-tYTRjsINrQdHvv1Ls",
+        "width": 1661
+      }
+    ],
     "place_id": "ChIJMVjIPfOglVQRVqA_pkSvFZE",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10454454819392299094",
+    "vicinity": "1510 SE 44th Ave #101, Portland",
     "website": "http://www.rooseveltspdx.com/"
   }
 }
