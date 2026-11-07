@@ -1,26 +1,124 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:03Z",
+  "fetched_at": "2026-11-07T19:34:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Legacy Good Samaritan Medical Office Building 2",
   "place_id": "ChIJVZODmvoJlVQRYwcCOHp8zsY",
   "result": {
-    "formatted_address": "1015 Northwest 22nd Avenue, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "1015",
+        "short_name": "1015",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northwest 22nd Avenue",
+        "short_name": "NW 22nd Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Northwest Portland",
+        "short_name": "Northwest Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97210",
+        "short_name": "97210",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1015 NW 22nd Ave, Portland, OR 97210, USA",
     "formatted_phone_number": "(503) 413-7711",
     "geometry": {
       "location": {
-        "lat": 45.5304874,
-        "lng": -122.6968548
+        "lat": 45.5316664,
+        "lng": -122.6970015
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5330804802915,
+          "lng": -122.6956535197085
+        },
+        "southwest": {
+          "lat": 45.53038251970851,
+          "lng": -122.6983514802915
+        }
       }
     },
     "name": "Legacy Good Samaritan Medical Office Building 2",
-    "place_id": "ChIJVZODmvoJlVQRYwcCOHp8zsY"
+    "photos": [
+      {
+        "height": 2327,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110246856500536613741\">Darius Kuzmickas</a>"
+        ],
+        "photo_reference": "AV-0GLc5RsOGiR5ASDnIvkBcyVrCoSd39tRs3GIs0hAhVsEqPkp3gSoaDaqjeex8b_YD5UKDQgUEbmzl4nibPikEieSO17GPnkl71SUXEnX5cOZVb7cWGBj8NgSKoqJS4pE_Ip7-_aOS_Qa1_VSQQYgtd2RLlgrIYrV0bMXb_Jv3uNGGOknp89vYdU1VYz8jQaaHPBh6KOck3kkoE0_JKu1z-_mUxhkX4_42CUNrFthMzR1aAS_5r2NNEIk1EqPpv20O0AHKdKZqpHDeWVyLeUGaMuUU1BYh-zlTxGGatRyT2RD4lAVHuCyPsGgdzr4eHY83xn9eSwPn09KJYwvyVHi-JkyNUTvn9_Or-e4mLU1lZi8TfzKEfHmACLiG20xMaSN5p67FR6WiIJM5OFlB_YT4T1ELhZjNzUQ",
+        "width": 3102
+      }
+    ],
+    "place_id": "ChIJVZODmvoJlVQRYwcCOHp8zsY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=14325524329079637859",
+    "vicinity": "1015 NW 22nd Ave, Portland"
   }
 }
