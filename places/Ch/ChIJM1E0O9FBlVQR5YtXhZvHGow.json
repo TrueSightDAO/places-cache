@@ -1,26 +1,156 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:35Z",
+  "fetched_at": "2026-11-07T01:05:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Herbs in Jars",
   "place_id": "ChIJM1E0O9FBlVQR5YtXhZvHGow",
   "result": {
-    "formatted_address": "210 South College Street, Newberg, OR",
+    "address_components": [
+      {
+        "long_name": "210",
+        "short_name": "210",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South College Street",
+        "short_name": "S College St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Newberg",
+        "short_name": "Newberg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Yamhill County",
+        "short_name": "Yamhill County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97132",
+        "short_name": "97132",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3112",
+        "short_name": "3112",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "210 S College St, Newberg, OR 97132, USA",
     "geometry": {
       "location": {
         "lat": 45.2990041,
         "lng": -122.9725117
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.3003511802915,
+          "lng": -122.9713239697085
+        },
+        "southwest": {
+          "lat": 45.2976532197085,
+          "lng": -122.9740219302915
+        }
       }
     },
     "name": "Herbs in Jars",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118102153859170457980\">Herbs in Jars</a>"
+        ],
+        "photo_reference": "AV-0GLc1N3ow6jU_hrjHjwZASlkOlEBhiuCK-2_wKh39oY2Hm9ktNFiWqFeuqpZi56XH-uT1XIWXrCG-wOy7J5LafUztr3Yfwg3076bFauCpnXB9JT9p8u8EWWcSQDKqdbmEHpwiiAmq5aW2Z33X8f_xO1lVc0YoqOWv334Q6ig9zgDXtsI6A6gjqMD6KD05hptQIH7pXS_BhCOJCLK-2PJDBFSQWx_0d-MtME9JXt1hm83xYUpUTf3xA9lgzFLJopPc1vIuPyBaj50MlRQidwpALXCYYygPe-QMh0yx4T16u7CrS61klZ-f85VMpN7rR7vhYQKjfkjH3biyxN6ly5pU5bMtmuxH0mb3bH1owXQl7nE-4geT1nLmoCDGVa7bv1SzN5RMD9mR3QgojPe9MTknjnNevJjH",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118102153859170457980\">Herbs in Jars</a>"
+        ],
+        "photo_reference": "AV-0GLcHl3x2nCu5HGSzK-i4n57IbYHI88XpAuQqT1-7wxPM6lD5ulNtGR2yWlH1btxnB8lfoasi4LMFDBKsYMoQqiPZwpziFxbmyIRcd4MCpxujbmALusaK6Rn0QG-RTShpr-fhZIUoSPtYWOsCvCQaW6MuYXDx3QucVlt3USGqamsMTIr0ovxF47hYDzr9nDAj-MSEz8CWEIHbAgOF41oujQjMZAcYX3UrIg-fOcZk60JLvdOeYnKXBbX7vjkbGqSI2twgYc4L9e19nt-85YRpPHlCbwMGuYyyXxSxTfsMBbdrmSmieEIXIAZykP-UhrCRAmAJIcWA_nZY_jSoccbbTGpLnQcqkAVhkoDb6ZiFnhH_-swZq-jYDMMcNNOeDUEZPG6kj0DXsjYgYEJsmACkxuQxQhg",
+        "width": 3024
+      },
+      {
+        "height": 4048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105804368581129592404\">Rachel Howard</a>"
+        ],
+        "photo_reference": "AV-0GLcsEnLugb3iaqvntP7SEoeQn1fyqnPI-qvPqNu9novpZbdq9SMo62L9T3wQWq75NhrILTcHf3h9QkL1Xf67dhlyB_KnTNKjmw39jrgqYfxz39kNez1ncJM5twhYk2tJhp3637wvHFMmKogypGFBmk2He9ErSZssVemlH3qpwbToNyjS6fTFbvf2scXqtmBem2u6--gM0TSBaUncxqTj0PBj_VAlz9CVbxz52h7XOkrCXPu5tP9-EnSaeUDRpn4lsNMKH_xG8H76cycsEtMmsOAbAP9cUpS3vZx5Cb8dZJjLslU6sTMUN10lPgTkQS4qTS4qEkNzSNOgD1LoCipT88RgeO84MxjKIL204njFL60n6ckCAN2ZWVPtMboyuSm1iec10CA9cmxlzmB5o8IxnSFDICtX",
+        "width": 3036
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115548754632187745004\">ben howard</a>"
+        ],
+        "photo_reference": "AV-0GLessH2CszHKttilF7Vteygfp5xxOCDtxp7y-erAywvIOJTzKEwjfvQAkAJ0bQMWinqaJjlaXzyl02AKPwE106BIGIeem5S3XdPzJVQJk60mqlY1fcjl5UuPybFavGLuVu71wHtlk07XcW5UIJe0z2BcsX4F2ASpGzfdsogL5av1QYxHu9ocz-uinfrltyinP4UNNkzxrMiHKG2DiUe8zIBwkB32IEILOyp5iB5e4cd5bw2C_mBv53kVzzFi1EIDpuIshQ5hE1fKhhTfUahT9e72ZjnGBApvftxfvSo8VkegTU5mV1aNTsvhUWrRTwYvQ2wE14g3mZ7ZWGPCdJnm2h2h0KIjt3MttDttJE9FQ0TwB3I7FD2NLETaErYdZzUJ_H9ihnbY-LU9qrem7ecXgczLPhY",
+        "width": 4800
+      },
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105804368581129592404\">Rachel Howard</a>"
+        ],
+        "photo_reference": "AV-0GLegN_hq3_R1xy0DCJqhJuxJErdA4oV8uyxWgDW8cWy_5Qc42EZKfz-mKa78lm2sR4DNv0vGxAjwqHYcAfmxY2LnHJZJ3JdzUvqx6ZYJ7Bh6zmcSNVeV-jHhHrLxcViApnhbuYvc4e4ghB2KI0oQWl_j2GxOJYsx_c4nkXhXCIZxXb5c-5GVO1QczeXUWsiXllgKRwe1SBK0NPactn_jJcc0vIt8fAdAt2Va6-WSHZLlgYl68W9K7T4TNbD-CicTlIlF4A2tvT6s6t6s6xQxByzzC0GwvhVa7qiCyTHUvTkr0LqeM78snBrVUWCqYAUJI_SvluJ6zuuHrvVNIuIs1whYRT4BONBaTc3NAcIuUfQYAAh022oRz8CLHQzbZWIu2-kLRuES-dmBbi-BNUNRYKVeDg",
+        "width": 4048
+      }
+    ],
     "place_id": "ChIJM1E0O9FBlVQR5YtXhZvHGow",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10095600985475353573",
+    "vicinity": "210 S College St, Newberg",
     "website": "http://www.herbsinjars.com/"
   }
 }
