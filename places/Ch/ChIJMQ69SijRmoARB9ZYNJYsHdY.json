@@ -1,40 +1,272 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:37Z",
+  "fetched_at": "2026-11-07T01:06:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Allspicery",
   "place_id": "ChIJMQ69SijRmoARB9ZYNJYsHdY",
   "result": {
-    "formatted_address": "3711 J Street, Sacramento, CA",
+    "address_components": [
+      {
+        "long_name": "3711",
+        "short_name": "3711",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "J Street",
+        "short_name": "J St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East Sacramento",
+        "short_name": "East Sacramento",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento",
+        "short_name": "Sacramento",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95816",
+        "short_name": "95816",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3711 J St, Sacramento, CA 95816, USA",
     "formatted_phone_number": "(916) 389-7828",
     "geometry": {
       "location": {
         "lat": 38.570652,
         "lng": -121.4564233
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5718980302915,
+          "lng": -121.4551366697085
+        },
+        "southwest": {
+          "lat": 38.5692000697085,
+          "lng": -121.4578346302915
+        }
       }
     },
     "name": "The Allspicery",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 10:00 \u2013 15:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2985,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106238943444585314048\">The Allspicery</a>"
+        ],
+        "photo_reference": "AV-0GLdB_1DgnJZWMDMVsv-n1KR-Bnjy2fYnBPQFHNeReW71TCz-VZDIndqpuERaNHCK0QiRjh-xd3j4ckvQh2w9AFn0tLlHYeeMNix7r5EdfAlavFsi_5d6hEfUo96r-N_odX3p8Xa6PpV2w8r-qmYLatQLaZuahbsRpPKQJMeL2ziK-NUHnm__wwJT4Wzjk5TDQRNl3sq2ixg0jwhtM9ZP3VLo0aKwFT_bmlOOM2t4Hq8VqFk1iPmWyecYlDDK5kMvyMDD2heq__DTTJrbdPM7rAUUTF0Vbnt9b3lDTjdYkzQLT7CnK3HnZPIatNKN2L4O2kJavEmUByE1AhYGRDW_GgAjeorHWXnXPDxJ0_1ir0P36DLND-EETWIkNRvKOZ90PP_SjN8EObo_693nO8jE2tZ3cNw",
+        "width": 2487
+      },
+      {
+        "height": 959,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105276365091094912711\">April C.</a>"
+        ],
+        "photo_reference": "AV-0GLf7VEfhRSqER7oTi1sQ3Vy2Nr_GITHyrG3nEoDpicZHRDy-LeD6w5QQkdSHx_dEWeTLO_MPK6OndTNINSyEq1OrRIeI5JNozohSk0JQ6YSfNSEFS8Xv6L1UlHRlm9hqOixd40nBnMHuuuqRKPBAa7OTdqiSanBIoi2C-tETt5lszGxZvVZU2c4fXOAI3JMU5TpHkC3h0njS3IdOYLQoNL9yqAMI36FiD17aOttyspttttp_qYhWBv5Yh0kuJzfPRgQMjIQLgQTHVTOa3_Fru2L8-nQhIAY1Cx7iEX2V8pG3vP7ZjBh8xJcN6cBeB_xpa3gi00IbLFdzlWpgsdbaRjK2zEUY-Dzj2Rq7KbZshQOWuwj9B-9Rb7iFq3hGFmdxtnb-G-uFvmMHRpVd58S4n5ryKEnwD3U",
+        "width": 4800
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105783985443917209949\">Ed R</a>"
+        ],
+        "photo_reference": "AV-0GLf_h_pkvCg-tNWozhLy5fVZlRj7Z7Tz8f_N4sMNGYZZwA5eHJ2SETB-rAbSSf8faOxNUKaeAp73gLfwJgPJb4XA76DMPGwqfL7VXrRbPW7-hMwieNHr3KYMmZvvx6PweEAwpf36xymn6Jes-tXVCnqExj0vm8GvnSMklFsINBQDjDE9i9FtFhq7KpaNj6k4HdVue49sFE5Z4FWQnDQg5l-0ELc0khwTXKeR1KwUfXVZjwwSTT22evMDCHBYDiHx88ZpcYBvlXNZBkeHxV81VQctkjUln2DayFIXMKSncGZjBexR9GuwOgupJx0dEGIJw17b7yGj14-9BEUD7vMQvLLI1NIFOsAxr3CL-1Kh_RRi_7b6jKZb8JtB-9WC14CoW_CsjVRhf5o5YkU4K7NShNNiuclR3ng",
+        "width": 4032
+      },
+      {
+        "height": 2272,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104812693050238485038\">Mark Urquhart</a>"
+        ],
+        "photo_reference": "AV-0GLcpfW9oQQfn-JpC5Z6SalftfGOt-BDBKHMl4RFZTWTyyEIEYmtnLAwtJV3OZgLEDikNeuFlNBB4AcsuZ7-9SzebZuCkSlUknB2-_CoeKnlpIEDtjKVRBUQeHdNQ4GvVAbC0KACnOziLWAhxvKSJsmy0XHnwV_uPSKI1TWKlKGwx1_4XvhW5H5r-PRt1KIxGxtPTMyIWFDIfXq00OYI7jYVoG-cbvFyoyqVw3SJUe5YSqrRqHO-Q2K1buwc59slBUQDdJhhFt9iWtrscwDGYJBNjzhUavvyjoZF62E9k9qOCWhra7dxg3aqc7eWj8GT0HCY7wH0Jq_aRb-h7pqK7qWiwAUzGxxsYzlCcSrFj8EbEc08OIDwNYdCWvC4HhMy8LirNd3HtXpY5b3EjSk3TWKfPTJ2s4xfSSyCv8NlJo_tcug",
+        "width": 4032
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117901469378857317406\">Maverick GRey</a>"
+        ],
+        "photo_reference": "AV-0GLcXK6qBuF2MYw0_pN8d67f1thl1TDxymqclI5nhpCoaiHKeRpvPKNSiESrIKP4-TPTNTS0XMXQQZNWWr4mK5s1eMBhyqVY0iAraHhIlg2XFTfgahII-TKP4HaH-9WWeHFm_33lcgKFDZaF6JEeZ8FXRFEoIUOeNavNbnkfpmpgqy0b8hDJJ-Bv-t1nKXbBETEUIGQtf47YXZbUd_dtf8FphtdfYctlO7XAUZfiMUY1b_uym-63N6CVoD4IykJ-3kfTBNjN5pN3Q-AZBp8o92dDpYMiqq3_sLKPsAOncVDZGo1_rn3ajTe7E5y2OC7IutA0wZPVU_RbrmuiatHP5sp9_dUkVg8RbbgGSh_-IFeXnqD1DqgbUBnHLQW2_1hI2s7gw-FEWddhLGvmDdFP7-rYj7F8",
+        "width": 2688
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105276365091094912711\">April C.</a>"
+        ],
+        "photo_reference": "AV-0GLfcIijk42tBlcamFPt8Sl9ofLDR_qiyUVZ6L2PUkZBxeIt03ADec266Rlu_3RSBKTj2BCH0V2afsANlPLJSJOdv_Wm6z6oe_O-zbUIBcThyOna1k2hYwG-AVAsHTysOgr0B1xoWoLVFpdoPRyRnOKSIqXYrs77dKiB4isdX5_PJYbEK_hKp8rMJg_Jm0zk49xwIMqhOhxgVF0gusbBVbtj-ynMmaP_tzX-QWIP0Ik9IPRZxJ2hBZg_3T18sfL8v95kJjUGqTnOPi1FrmuLWabDXmTIOSnYJiUlEbRozAT55pAl30JbPvRoSGZqJaceECQfMVCP6ganQlPnursioYm5pp6uhv1-x84Jrm1ldFpQIDw301Q_fKHRxGGGyRwlFyqjpLIawoFZ9OsR3pLVxETsV5RjwLPk",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100966611074093828082\">Jennifer Kaye</a>"
+        ],
+        "photo_reference": "AV-0GLeh0ibTnl9EVz4l0ZD0FEALz_kmBHIkOhvOY8W69qn3aZZ8hvctkYnj36CIB_zIhoYiysFptU-vw3sh1e6dDQ_VeM8Wx7DoJguZK0l6kMSkQ7-iShfrePUBbn2yhHwT3K9OzCXBjYZc-RAjt_s1wAPNqZNZNZwqJ0tXlX4l2NbRf1bMlUKx8LFGCfLFD6Iq9HWCImecdOx8fBw-2_3WtznqvM3xpPI1PosQO-F2voUHRAeR_UUVLMz7IEZttWcX1l3WrAH7CaPPt5mgOUZIoel0YCErdcUKlcoH6iYqZNxu5XTGNb6cWDiXLWeP1Pz8lEgBfnJa8a2Vse8AEJ_2_oYms8SqnuTXqgiYja0PTqVC7OeBwvmF6pZt-XQm3JkL6MmFls5edgE1imBvlBaK77ajv7o",
+        "width": 4032
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100451961417008967325\">John Kelly</a>"
+        ],
+        "photo_reference": "AV-0GLca5K35T0dotSwDVvJmsKxIBBEMVqFtYjhT1HFWVD0kBrLCaDnmJeDrX73Jmjp0vKBTFOMs9oVJztphvxCtgqzFJgGlLhP0oJ3H-IZClel09SF128jFH_G_jFdA6fcr3nLa9WJx24Nc0f9qw-N2hWBDA8VLNkuGPQNzIBWQi3tlzsOAWKOP0l9_CSAiNksI_6tGNyQkGMhgo32s5ef7K5ahG_XZd1SqXjT7MRQRJL7k2ezOrDTtXDoKhamobJzYafHrsDY0TTdyK9H4pfRJvC0aMnEXcUaNcQM10t_59MilBNVC7hvStkJ7o76Qsf3phsaqzAVZH7I9ojAFUk1mtah3Lz-i_JMQpdI6mgghbc6oiEX-69_lfCgFb2kJB-yEwCAoRoX0N2RBXBxSoSeqyD6B376f",
+        "width": 4608
+      },
+      {
+        "height": 1228,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111401622836432165767\">Travis Murphy</a>"
+        ],
+        "photo_reference": "AV-0GLec72w05IT8g-_qCz3l1YZDCjMWZiXqdesg8lY6mxw9KJInS7ok2DeY-8SG21KY39OMh3jU6fyX6Ng-XuS6cXTdmmwRqiP_Y_PQk9UN7a7FMu0k-u8TrfzFVF_fK663I75xeHM6EF-uytG3fND4hXsFynSeDYW13djUjKLXViFC2naD2wT2i-7Jx5_JXDeyPpxrITAaAFzpgQaaOsaO4_QWBTn-ZWBBrAHuPAtY3x5bRIHcvtdL1PPq543DndnFRqrTGprZLaZ0KdvrMZSt81eAxNxSib8XhPuDPGMMoTcrIsNmotLooATEqOc3AsUedSTEyOwXvjngjC-oEnBZk6UrUu5BdC9twYc8WKIRI2JVNJ4GyHXWwTMZPHrrqp-bPZHsXrTbBIRikw9GDifSTN5Iqdglsr8",
+        "width": 1818
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102320548255097879586\">JonNita Walker</a>"
+        ],
+        "photo_reference": "AV-0GLdkub4G1Ej5D57_btmWA1nzDoSwUYda8ErSdncB30Y1BnNooS6-Hex0NktSARPQgbrKqFat2H4n2VVqcBpIMuY2xNn77Ru0sWPahoL1eTX_jQuPkOOcgrFiYaXKhbJznUO9JpKgAPmGMBQBthRvHr1EOGDEi3IFPpO4ePCC5qRfx5HC0JpePP3S022Au_d6H3O0WJTH46ezmASBUvQOckTuxd4azVstH9oeOIaR9PzU98VMTwB4pI0Tu4999ZHG8fucMkMGS4KsGNcYefua3l-tIsXnsYz98nYS9cuP-LvWCySj2L-hfbRJgTBMdCDYR-gG2RGVtipmwn3DbYkCWxeRDXg22ofwvo1dz4OAu5ieQ7N3NrGzJB03PjShOFw8l9sxauZm7yaJwqbPYCQHcqlHYQiKYtvysXVATxO4fWPfrA",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJMQ69SijRmoARB9ZYNJYsHdY",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15428536922076141063",
+    "vicinity": "3711 J St A, Sacramento",
     "website": "http://www.allspicery.com/"
   }
 }
