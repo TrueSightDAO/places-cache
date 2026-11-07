@@ -1,40 +1,260 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:04Z",
+  "fetched_at": "2026-11-07T19:34:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "If The Broom Fits",
   "place_id": "ChIJVewJVicNlVQRnV4sOllbzKk",
   "result": {
-    "formatted_address": "4145 Southwest 109th Avenue, Beaverton, OR",
+    "address_components": [
+      {
+        "long_name": "4145",
+        "short_name": "4145",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest 109th Avenue",
+        "short_name": "SW 109th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Beaverton",
+        "short_name": "Beaverton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington County",
+        "short_name": "Washington County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97005",
+        "short_name": "97005",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3030",
+        "short_name": "3030",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4145 SW 109th Ave, Beaverton, OR 97005, USA",
     "formatted_phone_number": "(971) 777-1636",
     "geometry": {
       "location": {
         "lat": 45.4901156,
         "lng": -122.789139
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.4915081802915,
+          "lng": -122.7876606197085
+        },
+        "southwest": {
+          "lat": 45.4888102197085,
+          "lng": -122.7903585802915
+        }
       }
     },
     "name": "If The Broom Fits",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 704,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101429374921495474646\">If The Broom Fits</a>"
+        ],
+        "photo_reference": "AV-0GLfbh64GpgRJZh8eu-tEtemq7esEv-TKfQB9VDS63VL3qcUm301UONk74pGoiiKc1FWpF0832ogByDqNG3Cw6YbwW6fGzpvD-kKoO8iuRgeavSQQplE0ftHXIvUGjmdL9fynVEGs1VD0NuDUCfoBXhw49YLAGPrHD8Q93JObNihsiyQ1LP4XDtSvWYCRa0flN9HFUEAjK9_yjJyvXBySsCKfxDTSnYVFlNNef8MS8AZnWX6b_UJCwd7iX-CxrU8An0HbVe3QxHU_Uht-CaQoboBw08r-j-wO0-wu2PWD0FPc0nEKnM2H6ekdnwWB7eP3pq1mijUks27U-mzZmZRwXPs2b1hXR6asVhdc8wbaVvHGty4W23dZC9tf7XjZfaknmQTTJsDSOrh-ilGgSwgVqJF6T9wZ",
+        "width": 960
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101231630221753054290\">Alexis Chinn</a>"
+        ],
+        "photo_reference": "AV-0GLdblve3YkH9lB9HwYPGnlB_hpBkw4khMEvfZv1ptluKGRsFD6rGtizigTLcAmOFS0eDi38kjfT2GPVTtMOvil_6myEI7Bt_wUTG1pjEWdtVfkw4sSIjErnBEx3qywcKPZJxLlOPo6Qy3oagEGruck-Wf9Ki3nOjmjpLYjwxc0J2noPoORt8XnOCCL6PIRHrQDFygMWxQHvIPspgDH15dDGUKc97w-Eo4dhe9eqE-AlKUmEkuUTP9031J0U2fA0aeWQguOwU6HMj2HNdNA73F6tszCShsltUCJ0nCnY6EZ7VL6nehVT4BEhBhr4137raCrjN7yVKZNJ3Rvagnf7kH7QJOUZfR0N1O4L7SgGM2_7liZvRjd6KB5T8FCTsaGId2kRBcu3mkDeVIV0BGdRDf3CTEt4",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108310797609717924009\">Debbie Bailey</a>"
+        ],
+        "photo_reference": "AV-0GLcxWf3XYQhlcoJ56kl-vggOkyB70l0mFciXerAXXQt_M-pPYk2RyllyLcs0l9O-iVxFEbqorb7s6qdh6Noj6mfhKmwNGbxham1y4Vsv_znBwsAxoNzde3-zc5XM7hxbP3MLcm9wvFFMiP__NMsGKFIsfh_ijDevUx1kxx9ZcJxw1uaPQ408BYIdSbHsLsGRIlygO9S4BCUwoJuhfpHRnedOmo-JTlDUMZFUQ3NoO7Qe0ARnAXpTcxYM-6nNcYJzz0ZH7plPFULWImBvxyjtksmCaW5UhBZ0tiHaOq2_pkOXHLN15WvftFeqbSS5LLFH7TIHaQSz6rwmfmEcbuuhuIFOQ60Xr0JB7fq83YYdd_PxEbFZu0bxRytErNau4x0opx9jAk9gaI8s65H3opxD1wrptA",
+        "width": 3024
+      },
+      {
+        "height": 756,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108310797609717924009\">Debbie Bailey</a>"
+        ],
+        "photo_reference": "AV-0GLcYrhzwmD8KiqHZ564K9q2QURsRvJJFtUaTUDLEUvEVvy4Lt1gJ3OGdlNtFc4rIYAy3TEN520dFGFvi6zK1Ndl2pBcPrYTqaviwqCzcdRLWbHYOjHHcGj4F99o1nBbDyqv3_4nrbbCsN8_fhz_CMjPTM_GUMwmcYrORoWnybCREmoQW34r7BPfuXWapZYDZ0762APu2ZS2hTpb6XuFxRKX0DRtj_aBbt7mLMeQAk756mpn6o58e37b0EBHni9p7XlH1bcOrlm2BVHKwZ9LtTloVEPkjiNchUtgyokW6TFprW5hK8zBHNvyA5JYSI6RY3IyYaleHL6j_VE9aN1lFmCFShr4dgx3XyVBJqlrVcmVIutFmqNDqjLpJQTL5e1fumrGlwjoafUk6iRkG1IM3V52Qo8E",
+        "width": 560
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111476951518235472932\">Mark Surby</a>"
+        ],
+        "photo_reference": "AV-0GLdUi25TlU-G-rMMId3940IwHIEVksS8t5wzw0aLVn36nvo-QyvpQa59BGYPOtvWJVYeAoV2-s9wcrsqkY-ljyyBxos2NOy1svX1AFgd8QDdrChlmluJdDqeJmSV_ebd53ez4bxKkFxQo6zbvAhMX_y8wWILwf_wXpbpbaaEqCHdpafVfW-9z0jcGq9XnUlGd09vP2m4V5ZUT4RJ1wX9jK2xtSNWNQyyCT1yLRWwHbYmItsrOSiwG3hNZYDAcMvtYajhNmHDFn1tGI8SYB50hI6v5EcSwKt6ZpQBJdfmnHa-xXa5tYyP7Ne7XhzWWljSaYGnWKm-6HyAiTGfxK8-3QyyKUmGthnUV-DdoQyyMxfDrZ-nANq6fOVTIwnVQxudIf9olUZSCDt8jzBmpqeDWNLz14g",
+        "width": 3024
+      },
+      {
+        "height": 2064,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103096566569507573370\">Ganna</a>"
+        ],
+        "photo_reference": "AV-0GLfQWuJTVzvkxqD-yhpuJBAUI1tyDTQJm3X9iUNCsHMbjBp0ZLfEycv19wUvqTHgaK17AsiLQTTHin0ZMmhWlfvQ5gkVIkDhl0CK23prvjEZqpaqLNj30D0l1jLEyro90aetF_DVsahYg-juEwzk7rCypElmpdqagKf6jT9Bd9YG01KrSzxzjtQVJLbhYiyqOwgvtBfF_0HSQG6HFvNhSSHgHPb5SMOUFg2xWvO73N-7yHdpFGQaTZjILLl2oOoPR7m3fKIM9KHx7JaOtDvfWS8dXWMqMznM8clT3eieuPLIDaoOe7xlV9_sueue21Vvwr4iMCmNfyOVYx44MyNI7bKIzQlgtljbGUKJ0Ux-kFllsXX01CLvxGmmcldG9Ke_h3GFl1o7qvp6c-FVW-KBl8meH9XiMwWZAu7jpGpdsQGeaQ",
+        "width": 1770
+      },
+      {
+        "height": 969,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104979939591519738193\">Leslie Beatty</a>"
+        ],
+        "photo_reference": "AV-0GLdWS2qhy3UTdgq1fCjgC0ytrB5Hac25Pq5RnmHYEJC6ZyJH4XuzcJMtIRPHPYIKhOKrCWCJlfQXNniIPYu4MGhTR_iHw4Vz7oTtr1R1RE2tVcjNTIQ2JJp0u2DLv_c8FOVqLjQ9gAn8qhTGaBqjfq_oO9A_E6xt0Ac6bHpvrDqMhcUNIenjl-OwouD4GVrhH83dc2I5y7gCYcb5qczrxh_1m4-aPCBWsQEtHgMNAywidE7UiSQc5MCRPHe-HsjNGIWDl9I-dFr27t5LClB1bW3Fiu7xFqSokx1LrWTrH8CYMZHKFe9DKe4sZHbeq6VsgiPdUQfgD4M5ea0hr-G7Fht7IAkrXGDPnWk_PSalX4EAnubuclWP-A2lRXyjyFb1eAHR4EtLb8UiDXcBFLrQGIXy3aY",
+        "width": 727
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108310797609717924009\">Debbie Bailey</a>"
+        ],
+        "photo_reference": "AV-0GLfqp0BLz8N1E5LQt_0XaI4jKIhzHQIt1CUhz9e6cQgGwzhqnSoHnrx6hrSOU16QVR26Guy0MbAht7PYMwUntMw5uFNQtB2SBw5Y6Hy9fsyaB1iFpqBPVmH_uXb9PLaA71iIiAcGIpVJFzBpliabAtoMR0q1tvOno0Y0OroHNiu_ITCGKET5goIv8jhWiigQ21tIR4P93fdfWXfZgUUh_ToNnm8tSeUcIkCsO81q9H69IRBsJIq-Bh0Zw3Zl6Qw43nC7G5PggPtZ0lqeJVieB3fZ0K_zJe94vpvaFTEpT1onifh0wXOCqIm03kc_47pLkUZS6-z0VKk5EmBxUk1OMvrOui6wGN18O4eTB2Ugpdg_7UMsJg0bqdsMwdzLgu8CBxsL5Ugg1VfAe-VoVVItPdeVbcs",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101074554544895211557\">Alicia Bruggeman</a>"
+        ],
+        "photo_reference": "AV-0GLfe0_lCVuzTLrKl1Qk_OpTCZje2MtTD1DcN8DeywtFIsu3DML-_XfVlnvSRJS80Ls0-RZBK35CpyO6NHHF6yseuvbxCvH0Ct3z61LILil3u1-EhQIdX0xSugGd27J21oE6EanqpkUcQeZKxL3eKy6edwMoK1czf2-9QIo_y1POHQ08p_SeUpUegLrUaIZtR1NVvdpU0L7IJYiIHGiIpn3B-fQEkXufMW6zezfSlXGq8dwmqWwiXIQ0lwTjGiJxOsxeVqRFm74FCEQxTTuWBPjAhj59W3aobRcQ_FeVmzZXuQ0k2_c2-Mi7tHcuAdsGUXj8ypvLKpVGd0HBFSY1Rdygt6doDic_dAXMe4nhQqeonSvJN4qvpD_rZ07KVvOV3XJrFV6l0ULg1BvQf702DYt8DtWSKe_C7hTKlvfhvgSS8",
+        "width": 4080
+      },
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104207433967719063382\">H Walt</a>"
+        ],
+        "photo_reference": "AV-0GLfumBfyfxWPG-opJMalQXyfbQmmvbS7G3KQjJocgwR31VU5HbwXefdTTrqRRcLueoec2Z7A_KGcvVgDtT4gcEkH3iv22VWFwUO5dAfbtzx9hGZcHtf5HfG40TqxXyXaONvj_T75nyzGIbldamvUqSEES7zr3nW0I2sJyaQbEZMXBBpqGTp1c86kVi7b1hsFWy4bhqgY7JtVqhvql2G4MwI9C8TtEfwjlEcSugX6rbabCmRV02meYJLSg31EFU63EHlas8xY6fxACWTX_JszS0qeZGa3qzYwuBjL9xUl8JdsbL-8qsHEmZ6xe8PR-UrqL9K-U1WdmtFmRw1CjQ4GI9yZwR1zSWuvLjgXeU9cUrkXSBy0EdrSAcifPyT5OEm2FdW9y9_-TFuIpEsa-2cNpgs_7_av",
+        "width": 1520
+      }
+    ],
     "place_id": "ChIJVewJVicNlVQRnV4sOllbzKk",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12235254726444998301",
+    "vicinity": "4145 SW 109th Ave, Beaverton",
     "website": "https://www.facebook.com/ifthebroomfits/"
   }
 }
