@@ -1,26 +1,155 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:11:42Z",
+  "fetched_at": "2026-11-07T15:03:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Applegate Valley Herb Co.",
   "place_id": "ChIJN0az5ZN7xVQR79DVevBnc74",
   "result": {
-    "formatted_address": "1051 Northeast 6th Street, Grants Pass, OR",
+    "address_components": [
+      {
+        "long_name": "PMB#1451",
+        "short_name": "PMB#1451",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1051",
+        "short_name": "1051",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast 6th Street",
+        "short_name": "NE 6th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Grants Pass",
+        "short_name": "Grants Pass",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Josephine County",
+        "short_name": "Josephine County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97526",
+        "short_name": "97526",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1190",
+        "short_name": "1190",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1051 NE 6th St PMB#1451, Grants Pass, OR 97526, USA",
     "geometry": {
       "location": {
         "lat": 42.4493739,
         "lng": -123.3220918
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.4506946802915,
+          "lng": -123.3208363697085
+        },
+        "southwest": {
+          "lat": 42.4479967197085,
+          "lng": -123.3235343302915
+        }
       }
     },
     "name": "Applegate Valley Herb Co.",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112982624636399991053\">Steph Edwards</a>"
+        ],
+        "photo_reference": "AV-0GLcn2wz7FC7jCBe6BIntEvWi1kW-lIOftyeruA-S9756JAhUTPkDPJF-qmoM9nq4Em801mwf1--hihXogeeWl4mNJGXy_tIIrgyyZgIz-id6eXwoIrqZMXJsS0afWG9L88b0Mls9D19RWoP_OfK8gmdd4sWlUzLj2Nj_O4UtI_KGdGaQrauwc6x2j8ehbbVT2bR7QJgM9Glm7DT4NLgUM5hzOyyrONcRhNl3HePjU0mVWYTem29wKtqFjLO3N-uUzNxx4gsjZN1StPdo7Zb1uQ5No8o8rU1-THCA7lVHIAWe892dUtSwRMEzRfbGvnm3toX_58xhhNRDczqkCwYPEDt20lzlL2sHXflObDuovPI-ikyAjLzawlHOytuHSfLHdUBGpqn2FYuUihbl5IcHjQm9UjxSSR0",
+        "width": 3024
+      },
+      {
+        "height": 1510,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109460633510335652911\">Kendra Wayland</a>"
+        ],
+        "photo_reference": "AV-0GLe9EoLIoX0NtMGF_TfElml97n75xk03-wt2oM-nG3HXRmXSopiVgKJQwu63ShF_sxmBgi1uGpF2PA8O0r34l5d59gZUy0tQ24KgUY11cCH6NJwMgF3LYNuFrEyZi04ylGcuZqE8clZxqsqlp6_GPcN-zwF1siDQZlDlcJ-6rR0phCUXZ4fmacXOoDXdbVNMkCpNFHlXXlfI39uSDQRQGVJfmDQQNTMknqU8AIQ3WkMay62iKbGYTqoxijRjXd7dUvb2P6T-unmPWfDWhilvUtwYhCGBWrkyaZw-YDJBVqpnvRS-QhpiUbydlfjuBCkSvEK_iPTJW6wZqmcgd2uOAxDYHPsJ8b7kqLIbNNznOhbjIRaCdVJnO4DMYiDYltxsOYgyYtprpy09RuRIovhFzC6yKI--U5c",
+        "width": 1125
+      },
+      {
+        "height": 1660,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105192168909486765542\">Applegate Valley Herb Co.</a>"
+        ],
+        "photo_reference": "AV-0GLdAKYtRjkijSLoFpVhqe2nA1wsvN4U0_Ol3qxUHz9ySiCLb5sInFQONKLxg0U0YIgYF-oUAqGPr8HTJT5vzySVdDyCHSSlku9473qRRn3kl9nH40t4ElMxQ1a4nLXWYnkrF6Eg0NmouT8s5RxItBmpfJNmHd5CRULHcXdgUGmFSQGxxSO8fOEbp1VroU6gsVMN5Zn5taYofdDWJgXkBK3Ms0_amomhQpMcDnOiqDiMH8GE1zF_TsyRyB3trXhaE1Khxw7hqsRMHVn4VjMJGpBkK9E7fo_hk2Dh0KZ5473jcOH0a_UfAOQWH8RqSTvr8To695gNq4-VsQZ2RyeCjwnZlyIueBbZVeMSkAlxx2I4Joy4CyACQOaLwyjEiZ9yMLlMPkZOylthsgKwhMhzuEuZJ9_Q",
+        "width": 1885
+      },
+      {
+        "height": 2775,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105192168909486765542\">Applegate Valley Herb Co.</a>"
+        ],
+        "photo_reference": "AV-0GLcW_YgOuZ1qYtzlmQz5a8oIYUeELnWKsJG7GddN4th3GuZpNp2yuf7E0aFiFm30vyHR0_Eqdhql4tAB9rrRX_alXuStqxMV60-VWFR0mEInRFw16sTRBIbiKu31CioiC2Io5x5fb-wCKYZXuY8XJbu3lwfLadFRJ0hY4D3NgWYV9pW8EprI6EnpRzPxS506EMrL-SI-tP2uAaKHNasHeF3ATeRQx8cUSYfhLmH7M73UCaqr3pTPSeu4OIZ4ggHMKgMSPN7NXwZAKnXMWnTOT1jM7biaEkCi6MaDs9RwznHq41tx_xa-I6t0BTvmlXrgZnO9KbP9-jdmmFUugy1DjkXzMrM0yjVw9YAVabOZlVdXa6TLiW3Ha8aQvRuVLWPU2f7nmgAsEz9SiskTdW-hUfcC3TU",
+        "width": 1905
+      }
+    ],
     "place_id": "ChIJN0az5ZN7xVQR79DVevBnc74",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13723426772078678255",
+    "vicinity": "1051 NE 6th St PMB#1451, Grants Pass",
     "website": "https://applegatevalleyherbco.com/"
   }
 }
