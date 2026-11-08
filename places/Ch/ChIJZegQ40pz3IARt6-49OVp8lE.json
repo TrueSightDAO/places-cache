@@ -1,36 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:19Z",
+  "fetched_at": "2026-11-08T10:42:29Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Campbell and Carr: Teas and Cultural Apothecary",
   "place_id": "ChIJZegQ40pz3IARt6-49OVp8lE",
   "result": {
-    "formatted_address": "580 Grand Avenue, Carlsbad, CA",
+    "address_components": [
+      {
+        "long_name": "REAR",
+        "short_name": "REAR",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Arcade Shopping Center",
+        "short_name": "Arcade Shopping Center",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "580",
+        "short_name": "580",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Grand Avenue",
+        "short_name": "Grand Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Carlsbad Village",
+        "short_name": "Carlsbad Village",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Carlsbad",
+        "short_name": "Carlsbad",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92008",
+        "short_name": "92008",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Arcade Shopping Center, 580 Grand Ave REAR, Carlsbad, CA 92008, USA",
     "geometry": {
       "location": {
         "lat": 33.1614445,
         "lng": -117.3491078
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.1627302302915,
+          "lng": -117.3476320697085
+        },
+        "southwest": {
+          "lat": 33.1600322697085,
+          "lng": -117.3503300302915
+        }
       }
     },
     "name": "Campbell and Carr: Teas and Cultural Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 14:00 \u2013 18:00",
-        "Wednesday: 14:00 \u2013 18:00",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
-    "place_id": "ChIJZegQ40pz3IARt6-49OVp8lE"
+    "photos": [
+      {
+        "height": 1043,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114979261359588074045\">Campbell and Carr: Teas and Cultural Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLebUA1BUqjXvPYJQIFJLg0Dz-4nsnIvHM-qI1WMcLBsZDFHAx9VUjqj2qs7C3qOwVrIuBkRKvR_0wIrjP_MtOWuv0F3FkfN1RGmLAisbTMbVdT-iCZRQvI9pShGc06Zz_APFWWgObZ3CSWFS_4kQkjBXbEQLbIpwgAYwnPA3az4h86mGgC3pdEDiN14qMCyPTKHxQGFv1vjUe2-EwooBzfjE1wXiNzqSJs8MNhd6e3rBZvPEMNrO2iRgL1US59CNVKc4JCxC5nvLr3utrZUzcOkVlB1RGUc7kBlSL-Cz63lPuekRVbjNQFHpjcoAgUjBLbWsMJ1F3HA4D6pwLqG235-kn7wZSblgCqQi8Vhqgv7h6y9J4vpwlI0X85LSwkdq5lDKotu5rJRhU1PtiizNSCKdrj7vA51ttDEoZ_PkJQ-tg",
+        "width": 1658
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114979261359588074045\">Campbell and Carr: Teas and Cultural Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeKmXbupIk8JUl3wj4h7Esrz15JRTQd5bDUsw7nGn0l_BIYHZdCci_qeN1vByJw5fKJcprCPEclPB1nCEOLaD8nUE8C_jNLfFB5d7Dt9DANzlEY9U0V-1MCBmk7mfJq7pv1Tdakb6vr2tFMCchiLvJwEPAhw9dGF1Rjk7pnZXV99DD28e3bdjQ8eMA2FVc3YrwpcfuNtzvaXarAIqAU0M3N_UWSrMtUYmvytsu4HgXVPFjEnfhXIWmBUbJHtLziWpdOjbQnpGmsqAGreoVHUZJywkatOFh3uyUAMH9ZxeiEAlu3eEIop6xiFipxASIv7c3RJke8rQoq1X6R8dhlkSUWhVG2JrG_wQ4OrLpTxZ3sdAomQOAB0q1XQoTkXKzJJTGpTerLfFZ-EE36zzarqSaKZQxUtKPkWGlDI5WaQ-zpYA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104483075162770902686\">Angela Lopez</a>"
+        ],
+        "photo_reference": "AV-0GLdfREqTuIXC5rLJXA9G6SxAV5nXq99zBn9c32uGgKsxdiXYql09Jc-w6hOv0S79CJ_1XOnatBEB1YrBLcvyoYBQJZiwXCVQZMZypttZTZpvQPjAwlj8SU0gwCobLi4plDuJ3D00hesjoBAAHeixyU7nprHB1gNzZ6rz1QIF5BCMuO5JbtnrBQ9Nh_60UL7IlQF_8aAQC8mI16gcCDEK8S8shK56XuHmmGtaD-JjMcPPYPV9wg8qPySt3xdFcoMzU6eS5UDFk3NJua9tn7k36KVbWzL_BsBjVBD73B2kg62rpQh067ZfFr2DktbrKg8ClSC5mLUGb9t5hvMUyPdVwVXPqW9tMM76kp8zwGy_ybtH4_3V0cstAHmWKbrBMXALQID-i6s1THLkmCE_hkA6AETjI3QbQdkUW9QxGJGVIi8T",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114979261359588074045\">Campbell and Carr: Teas and Cultural Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf4yFAuwUW3012h6OFwcarLmLunhFIg676lpzNxFDVA-P5Gal19vrSVJaiLapmQ6rxJVF7AZnnL0UyOl7WvJAut2dS-q5DPzcPcwngRJBQmSBrxyrKfLwRgxju2R9T3l04zcQTEX14IfOMN-HybvTl6Gsq9tSF8rieOqrAJseQ5kvCyzxFpoNXZMaxLS-AV74qrAGOnL9v8rT3x4UwatieqdvEcnaDOtHiEs32o9qxphP9hLCKKkw275p9RSPU8LaOnnlH6Kv-YGNdImogT23oAhevv3drIvh6lNiLihP6UYzoCZg4le5teT7wzsA_obYhsHJfi3K452wihkH7tYLx6VKVTzc0SnXvC2urPYhIF8_YkdxFV7HNs5J_FWai3muSAdYK8jV-54zUOIYYZv2Uy6aJf5LTumUL-4681eC0l",
+        "width": 3024
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116307135024298064933\">We Do Pros Marketing</a>"
+        ],
+        "photo_reference": "AV-0GLf-l_X-w27nnIEE49TN8owJabWTU9P4D1nhxn7pll5U10WiQQiGbYqSywaUcnJ9A1Gc9p2ir-1IotYTORS5upt6AYTYX_vbH_dPlB1rshEfh2LaypWhaR9glhI48w7M8dR28JR5NRoEeQ8Ff9_D1wtE8QY35H3kBilzd_mnHgkQ4A4dqA9Ng6wt-qElZY9yQKltbndFMeAynaN24qrZuXuuKdqSalQxxbaFsGA_VFrBh400p0BB7HcjhgMRPSHBWfuV6ioLn2wOBZeFvSFrVCrupifcpvQ-1NPwzHmriew8TuJnb7E8szhfxPNdDWNmla-vegjozOd9DcS4YVn08yRxKf1b3LrXQgAx8HsqyDxX9KQfgartV6ohz4T_sES40Mft0dranZe7jGne2A-N1AQGR67vk1Jmmw631k-kCmL8aQ",
+        "width": 1600
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104483075162770902686\">Angela Lopez</a>"
+        ],
+        "photo_reference": "AV-0GLf7JDGwHHfhDFh9ya9obhhqMYBk3cPmeXJnkj53LiIYecXaRj1PDs6yC_BCQVj66SlRn68J0IV1NVRW4tnsfmRG3UyyyUKeGnoBqTqBylO_IE9mvpsHFzNpiYoALMpgg4D6gs_HjnpVOE0ID8fdHNRjAfgD1DuVjxVdTQIY9EBBVCUsCJodUMCGTms0v33TX3_h3FsyTidLAXWxxFyikVBo7GfMSto9UGl_g1w8XNca-F1HXZN7LqIN0a5hjt_LaDIj5xzy8FY1mhcR_OM9oF0e96W_0KwDl5iPCOI16sOakjzsykSiXwqKVlfGEWjgwxT9ldBPUmnE35KvdOhig_Mv5dAY3UMIma5zLUWbwvHfqXoCkx-ekLYkNJP6LZctiVUnCyQZipupsXf0WW02IMMElgZGH3nuKoU_goTI6JJ15g",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114979261359588074045\">Campbell and Carr: Teas and Cultural Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeKpHRVZ7JlaUrnBGo-Kgd87JEvbvAmAZbv_Pegm-SJpxMwt0FTdfMUGtJH8XKr3VgGFPXqqfMlUVQ3IQw-14lq08la69SWLl9vW-BxmF1Rc2GN7_Ia-GnrpBm8QnfPrjSxsKqsZ4QJ5zkLYbfAtmx1sGmPor3LQW6sjIcF8uiKd55aFfXOijdP34_OrHbcUu5CvI0aId64ymY7TNuXeN9Vorev-a05y674-GBGgsyaHT1y8e-HI4YpcIB8hkLIdufOl2CWfTGxxiy_Z9kYorhuxnNbM43RDq4U43VvTDSvcIHLQxuN_GX_VTiA5Tex33wXkBmmntbT-9TiMk2fgq7ir6gJ5cLDqHEqcrqN5VxbBMbuZEH-ZfNRO2j7Bs_q9CmqH8YQgb-Dfb-aJ25UyeJN-m8LwRnoRVNv5VJGbba3SA",
+        "width": 3024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116307135024298064933\">We Do Pros Marketing</a>"
+        ],
+        "photo_reference": "AV-0GLdoV49Zs2bgLVjzAenv_gmCY-aAk7L69VavBDXECoW831pTUy7MaCiifs-5FfqDP5OaNGIR6P5RYBavzLCikYhsfW-lh0pqlC4uEH1OF4u3EyX7NoGDdfqna_xXVI4UlXRx14ivzvfsREt5RQx7ZSoP9R_X5pgjrmNGaZ6SKknvRxhRnK5ckW3hyjw_xdPcQ0ktiNomQKvQgAKJFdz2AllmPfX2NzrhMRXgdVc51HlkG5E0VMPIATUJWuRWxWrm7fPwWJgGbiOcNwE_4fJEI7OqnJNashRjbye_zF6e7rl-kOKR-DRswA4UZHcmBJZ_eZdk-GcMJ4HZvba3YtPiGoOsxwaFRbDK8BiCLJlJuq2urkBqJjQPW3iQhMH8OIt8_sDhIScEUa-dX4xVpIiPC_jrJhQp0azfzEJPwPeHNVEo",
+        "width": 1200
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108594707492544604225\">Clarity</a>"
+        ],
+        "photo_reference": "AV-0GLdsohiIJmSymIV-l4R8Trkjf_tLb3Mt0hrAwtf683bymH2zNCxMzOiRFvhMUg4Tr8tuNeVfr7zQKjIKLWn8QJozq_YSHprFkWnBOqLiy-yRMnK7ohkRJjXhwuCLiTpt5VL-9uUNOnkRi8LT24LBP3tP3DxN3X1f9eCST8La_kYk54d7OVL3JHJq2DDQYO-8zBf4IIbrqlI1lBqgUQ9_bJTxMCqfQ69tSvGWSq8zVc2t8qihcmnl44EwiVDkgsXCdesONski3bqLMEDqKM_iTCVejJ6d3tysUfRUot7VY-KqS85UMSYYjciyhITnUv4YdDMV-keviwtPqLpTb2kGP2jb3671B8ioi-jvmoc32OD9oqt1j2VRerA9QwNlTOw_ev0AZ880wX7_0tWxmEAhV3DLCDVnGamBODlga9V-6uRH",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108594707492544604225\">Clarity</a>"
+        ],
+        "photo_reference": "AV-0GLew6NqX6rEsgBhM5Dq52eUEyUGZLHLKHiSHFTN9IhL1NQZJ1se2Hmi8iQmIvsnC7QJ7_nhajW-0i_xpAgzgGStWTNbxvKjGDdE-qIOmPuVLKmHoWPJoKMwuQaHgxb_tMjNZz1iqkGewrCu-yC5xAsks2J8a7rwTUk9XVhkB6_PdP8xxgpTseVvEkRJgMTfi4WFYVqyB8evPIsnkHDrLCRFYiXNNna68ePiA_kXnXs0289si72bz-nUXe4ouE2HMfcuU8kNxwoJ017YEk1-EOP8dZ6sC-sfd_pR-ypsR9NkJQUPVxFzwa1f_3FYj4qT0DXlHaQbC6xfqRODh4HjpOvPBpVYaFc6Vkrr5kTXfej9Oa7VGO9liEgPDqrWcsmEbUsNuc-ahrfpjP8alBMt1fT6qVge5spXFgZYwPDiP2O0mLA",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJZegQ40pz3IARt6-49OVp8lE",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5904898497810313143",
+    "vicinity": "Arcade Shopping Center, 580 Grand Ave REAR, Carlsbad"
   }
 }
