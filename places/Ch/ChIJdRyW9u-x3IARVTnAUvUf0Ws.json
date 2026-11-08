@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:33Z",
+  "fetched_at": "2026-11-08T10:42:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "DragonMarsh Apothecary & Teas",
   "place_id": "ChIJdRyW9u-x3IARVTnAUvUf0Ws",
   "result": {
-    "formatted_address": "3643 University Avenue, Riverside, CA",
+    "address_components": [
+      {
+        "long_name": "3643",
+        "short_name": "3643",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "University Avenue",
+        "short_name": "University Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Riverside",
+        "short_name": "Downtown Riverside",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside",
+        "short_name": "Riverside",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside County",
+        "short_name": "Riverside County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92501",
+        "short_name": "92501",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3330",
+        "short_name": "3330",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3643 University Ave, Riverside, CA 92501, USA",
     "formatted_phone_number": "(951) 276-1116",
     "geometry": {
       "location": {
         "lat": 33.981788,
         "lng": -117.373697
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9830409802915,
+          "lng": -117.3724165197085
+        },
+        "southwest": {
+          "lat": 33.9803430197085,
+          "lng": -117.3751144802915
+        }
       }
     },
     "name": "DragonMarsh Apothecary & Teas",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 20:00",
-        "Saturday: 12:00 \u2013 20:00",
-        "Sunday: 12:00 \u2013 19:00"
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106916977845076913862\">DragonMarsh Apothecary &amp; Teas</a>"
+        ],
+        "photo_reference": "AV-0GLexlXM0ByNNsdFH7tVxTN0OqhaFOTOTtAY07IFu7CPeQcfRh-TcIsLnN2URryEDJe6LOxtOSo34YNHU5Kc-8dI4W8Ib91UpyhOnEGdzfMi8y0mH-PxuBC9aIk9ONLfctXBxeU_OZGpIyRcXVilDlije5zVOiF9QCX1eafo_wjfnoZgGRz1chKdU_NV0QfRmSvKjCaz-FuGDWrIM_nJFUGo3k06WeOR3bENEyLVCEl09_w_2OqQ9bJi41ghWC7pzo9IBwNRpkjFknUJXV-w8mF1SoXOm9Xchma85CZynJUEDAdi3oEb69BLDSZouJV1abvasgEknsEG-HymvMT7ClWssREoDf2N0lI5T4yAXh7lXr1zYpg7s01AxGolYOQ06q8aZpVAFc08LaJ1ikpjwHVvP6WM",
+        "width": 1244
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106916977845076913862\">DragonMarsh Apothecary &amp; Teas</a>"
+        ],
+        "photo_reference": "AV-0GLeeBkrAx4s3PqSqtU8VVzs6JkS4fPsSmo9yDkqcl-WSMo4pCWWIz-e_3RwBVN3D7zqc_tNs5uq8Z2DqBiXvABg2CySsXVVOVfJusa9rXyvoHAyCIs4BV2o76YvB1Nswxra43rAiirtEmnZzs_tO1-HVWlquI4BLGsTMSDZEWO06fggzSRe2tYQv4Uew_7OUsDWB9k8_rB3K5iD8yBBRkj1x2s4CspS1epXhCnwhxOYxTx-poLmdOevH8S6s33JRS46ArWSIB72JTG-anybcQe2uR4z3dQJ92LVj8v-VWrn0fOcH1R_bmNF37NnFlJD6HJIeWHEr7aNrvnGJPJIN8R7Ye85RBpNtNUfykT-KyNW6WazsBFezua0e28mg9x6AHhmtLTIABJIUnfq_XrQxOXEvrA",
+        "width": 1440
+      },
+      {
+        "height": 1932,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113906391634909113064\">Sonia Olguin</a>"
+        ],
+        "photo_reference": "AV-0GLfq8xQAeeD2vgwRq1voGs0jfGufZmVeeQIv3Znrh9HSrcn8NhkBrsbPSld40nSEHYV6xuRUjJ8WLkqHSAv3A2cLEHWjo63jxCW_OEtuiarfqu6GyEVPW3GLSvKroydPnKRGopAE_L7oemvBYgaOwAPSr5TbPUQj5hy9fmIQBZuqY1XPl5qfOdBQK9hGMV6FNMAnubl5WxIPk4UYYLFuAJUUuFK8ST9Y6KRs60W-gDh0Dfa6B-AdP2ebfMeQbQhJC7EppeCsYXLIivckKOL5IRGTsQwXBdAg7wRqflowJZ-MHnvAbKDR0zcRjWc8eCJIiryMPC0GNWAOYVByrvgKCNacFsT-xDtj_0-TPXhbYQj0joIFbWVz2qLQEVYVKjq6LyaWNhw6Z7dI-EgHu10G2Z6vXQ",
+        "width": 2576
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106916977845076913862\">DragonMarsh Apothecary &amp; Teas</a>"
+        ],
+        "photo_reference": "AV-0GLcbbeQqkbGMSf-ZAbUC7U3XoUZu4EMDVFAu1PamZIluTSrQl-EkHPm4XNxK7cR0gq-6MXJvn_jSx8v3Vxj6gZFx6qi_V8010pWMW5LcbtHtbyGooonVoFZ03C0Xkkfl7BftOW1nQPW3PqPAFF76DdethLhs4sTlw7lFiYCC1n3wZAGM538_ooIS9MHwMZwtwFBDXb1MhNCHjWSaZ_6RksYLA2rDYt_p8S0ss-dkjmqtdyEZyHBG6GdgSZAImUZhMPA-qT_UYS0bliwdOyAHvPGn28c6cgF8wLMpnkrpJcKt60cL4Ep4nNQ51J2zZMKqq5-8O46qk27_F3M6EI4ws6NzrUkaoClKYDmTI7komXRZLdUX2REyhI2kIGnY8N7a-7a0JBTC37enShLtZ2B0L1sYl1YMWoE",
+        "width": 540
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109692195236877441172\">el</a>"
+        ],
+        "photo_reference": "AV-0GLeYmBQaAHxrZuAPuW_-n3s-8wAD3ing7cse0sWZwPPxMA2ix1oNdDwhZ_x3e0OEtv0QnXlj4mu9mlqz3fvyu_YVBpnUtFBLM7YrKL959CZrCYRmEQBzGT_RNIwKGd-HGDAOpMAbud5aI2qYgHbo0sY3A-IbYM1IJVviWbSsAGMWM61oAEZ1DORCNEJXA9S_U6xGW0sLFIKsMyYEwrQATcSfbmYB8YrmwADAtqBBKy-Y7kXLdOep00KSGMPTHeHE9ma3vSufvjOyD5dmtXb4pmpW6N_M59GlH4-D_AXafnQDZ8vn8Yrq09Nh4s2y3mVon--2iRT6zzlFiJzjIZmQnnz9VP9QXt93zM86DfBUPLM0Tl-z6uhWFeGsoRMWqfnWfaAag6lj74AuYLCablEB-iS441MqfK0",
+        "width": 3024
+      },
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110740166216939400020\">Sarah Fry</a>"
+        ],
+        "photo_reference": "AV-0GLcg_lDKNZOa6e_QXsETSwmHgnagSdIGpiV7gAX3caiU5Dk6Fwjztq_dltfPapqL6TbX5xvcO5wZQoMVGvpLfBMLzV4ExI5I4-EEJSMK9pm6cx4GemXrVilmtkANNZI6d67z7FOkkyULFgwOfU6--8OcQGctPOpU7x_a9shYptYXh8v3TXw41iE2_qiNRYPYAirxtT0WKK5RFTa14gzkH6l58ZZA_RcOk8aabNaZD8IONA5sbhzqiJMyY7x48z1M9Lld5ZNP-bXR9iaTg1wB_1eDduuEyMwrz-ZG97Ow1XMZ0l26gkeJasqKNa9nLE9SVImM6K2Rr37SO7N9TpHZfTayG7O6ugLRMzd52e4BN7QWEDDzl8xJAIyTb983BoKRLUQzefAQ9rAZp3Lp-fPM9r0jBAxVsQNGFvMoX4WzVdjg1A",
+        "width": 4608
+      },
+      {
+        "height": 1932,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113906391634909113064\">Sonia Olguin</a>"
+        ],
+        "photo_reference": "AV-0GLeTjPmOqZBWjG8yWj2C9ZOmuxcIFrWEN8H9Qow-xUlK172Mzu4drEC6y3DBfSfIeKSIHMjZO7nZdpV3_HtNUPvMNklxbMqCrRRVE9tC4BAprxeicS7WARJx6uo9UGMDZz4UavOR_TppnBASzf3f0oqQz8yY4xkn5c3TaxZCA6thHM5-mPS1dsY4A-0_r8LYT7z65-VFexgao4-OQkwdlpW76YeVdHvlqOiMiicZ0qzNme9P52xTmau6-QFGiOV5ZgAlH2i17CfbRVxWCUnwLoDsUimKk3G7MQgXK1KTeKmMFpB923qCCMYqG1g0lZ5fw85Rwt0twmq5tbeXibFMyV8vL-1cXzuwttMevNkuxLZXoovzlF-KYf4sxzLXINRXvhcD0CwyXxAI1bT_EhIq-rscrw",
+        "width": 2576
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102785254890170843340\">Sonia Olguin</a>"
+        ],
+        "photo_reference": "AV-0GLcBRkXqEW5OC6LqfMCkCopQm98sC_DavIq6SKJXiy9ppZWhQz7qx-XvocyO4qJ1261ZVMA_l2A9FVx7cA99nxfsBnfg7UGNPu4Sckk4WThCZ3dYnNNXoADsFbdWWGVkhZEMqn0tfFI8gubTBhPJMmNUT9Yp5PcvMKj_a48vhCJpCS8ymJWA2qhAhaij0Dke3DbRwlYrDfTHac-I0Quf_rIuto7eqSOTGevEiKVDcbrQh92f9fY5Jj7UadIwfNhtIbW30fc6XSHaBqN6NQJq1TA9O9DKitCVMo4yZdSK1miC0JCcsRl6n96sFH4cb0xTpfHg5d1eZYVm1RVDg0meWSqQIW09jvO-fhm_HPBrUQXEvavWXnG1zKyjEU81IAdJ9IgjibSpAm-c_q0Nhci7SCHdmESLSNo",
+        "width": 3120
+      },
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106916977845076913862\">DragonMarsh Apothecary &amp; Teas</a>"
+        ],
+        "photo_reference": "AV-0GLfa2yQudDJ0c2rNiAODnhshmYrqVjJv2ac8ptrY-J7mGwLuAsSdS9WnrVn-18VEFDTs2NP5FhlbqkaBJGfbQC5H47Ul-qWOSiaCTYgEpnOPnA0hRsBO-OlW03hJj4I2VB4lUIFkZQJui_2dQCTFqg98Y23qqCen_vUySZ-1kfnd1xpMSVZnHj5WxMrax2WfpqZgdMPrMcWqCWfbvQbrX1eplaIKcuRuSleu_PjJjl-2Moa3JNrQPFpJzBhNCqijn10LbQ0VSueh9qVA52hVjnbh6JiynJ14YcMShmFoyixcFkytPYpsHknv9tKOR2_PIotCKmTUAgquIUpdRLV9WZn-FbzamQNKhogXN5In5hyaNtg50ELJGEP04lLK8DP6nL_wTou-qTzu-Q6h3cHcD9yhAjE",
+        "width": 608
+      },
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106916977845076913862\">DragonMarsh Apothecary &amp; Teas</a>"
+        ],
+        "photo_reference": "AV-0GLdU1w9TGWuayYFBPaY3WIyt_n3zJz-P8EaJygO9D96be5LWb2Uei-g0VHg_SFjFfnecIK9fQXTpj5U2Ox-ekW5bF6htxHpKoo_2t_-_lkyXXimlSZ-bFgA0s3EYs9_DWoZVMWo9_7ySNEwFqmN6siUylSBSRDsdU5D1SUA1TACiIJ62MV10HwJP7hkO0qkOQ_L2yrxKvqLU-ncD6ZyTYbwshmlGi3xXarJ22OTf-PY2GuhRb2nR1DdAYWQJvTeLcD-wHc_8iezBLhiQS3Qo74GZcJBGgqNZo_1GgqjoG6cja83_mXrUaf9jquMj_Fx9rcT8QylOlh-whFx35u9ZJfIpR-evplQl1es2K6z5nJ1M9OC67KCg-dVgjty_VxXo_4sWaBzSEucJkvq5XxkaXbdJYDQ3M88",
+        "width": 960
+      }
+    ],
     "place_id": "ChIJdRyW9u-x3IARVTnAUvUf0Ws",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7769025970706594133",
+    "vicinity": "3643 University Ave, Riverside",
     "website": "http://www.dragonmarsh.com/"
   }
 }
