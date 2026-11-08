@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:34Z",
+  "fetched_at": "2026-11-08T21:19:39Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Prism and Pendulum",
   "place_id": "ChIJdZ2oAx_124ARaOymVYnXjVI",
   "result": {
-    "formatted_address": "106 West Grand Avenue, Escondido, CA",
+    "address_components": [
+      {
+        "long_name": "106",
+        "short_name": "106",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Grand Avenue",
+        "short_name": "W Grand Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Central Escondido",
+        "short_name": "Central Escondido",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Escondido",
+        "short_name": "Escondido",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92025",
+        "short_name": "92025",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2701",
+        "short_name": "2701",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "106 W Grand Ave, Escondido, CA 92025, USA",
     "formatted_phone_number": "(442) 220-1233",
     "geometry": {
       "location": {
         "lat": 33.1216893,
         "lng": -117.0818255
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.1227668302915,
+          "lng": -117.0809092197085
+        },
+        "southwest": {
+          "lat": 33.1200688697085,
+          "lng": -117.0836071802915
+        }
       }
     },
     "name": "The Prism and Pendulum",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 19:00"
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1815,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101426701275084194213\">Laarni Thornton</a>"
+        ],
+        "photo_reference": "AV-0GLf7f4dQQ5bpU-cDH99r0h6vlrYPVlGuw4lzqYgTelYhHa-6GHOK8QUYh4YMdwLEJpV5jeBy236bWwOyROwx_oabGStYtEg-UVeamOd9EwzsnGhk9lTrIAk331NQB-o47KOk0CQOXfRZ-fspRwFyCI_WnSDLz4Au_evRcU0m3R9x11Z2f9HkASonUAoJB23YSzOvF-7zGioMkNwn0JLiMtY3eXI0nmFMvrX0UJqxMlln6NGjON7Gbf3ecAUPCa4-xDmVUVxYxz5_qmCoMLCpQPBx7Bz_mBd1ilQ_0F2-gQ4IV9GK1ZgBkT6B168SEyG5Ik7b6Zek3HnsQerITHBIlJfjgfsqd3zImKC67374rHHRRvyhPY2xLZZ2GaafFff9HZ2BctQJ_j5Pxsz93np4QloEhWfo7v0fJ9NJpyLzcQM57Q",
+        "width": 2886
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105660728178452350434\">The Prism and Pendulum</a>"
+        ],
+        "photo_reference": "AV-0GLfXHLubK7J-Ucv38_4eB48s8-CN3Lkref8f_21m1WlVYJoXleWkFlD3u4KBkWHVjiMTUclQwCHPMV78QyXt-CzqC4mFqarkmFSQ0afOnOthSNI4SeNoCJpbP4pGbyphm1oDbgSBy7_i0nVvI7jB5jHEWDNgnbxETYyZZ-L0SNgtrtJaXh5mqxBERYnCJvBjKjxG1vweuis6cW5B7ya7XCMNtKo2BUibphMFyX4Dd6TrLD1pAuvVIrkmII3dTkjVdCc18xv_BoKQazxlvLUUerdkCd9MA2xmLNOoiDn63Hc3gUyxgTfRq-j96sLBIlT3PpsILtee-K_dHSOgtIF-DQKR4GwjZNMGSYZ_A_IKZpJFwLVVDSVrwDQQWhjgipdMgm0K8HEusDef8JHYKT9uXQfuANE",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105660728178452350434\">The Prism and Pendulum</a>"
+        ],
+        "photo_reference": "AV-0GLfIFg2N1Dr3AfahetQoiK338AbzX4rSfni6daVRtgE5FQtkusCCbEezb6rpJaRMwcde4hzHuaxtKBnVhVPeu0dE1MaGxRWSXk8MoAZYYsiqfD5UsjR4o1RY7SlkaOipABm_fysjjPB3yg3rucdGV3Er7EXXG2-q7I4Xrc8veB2t138UUwyoT5DUt40eNFP4eGl9ZgyKGHHsWd9sDLo72NfGOHN6dly-D4185f7Q4l1iDjJfFxwwx7l_3KPjRZ3T3KbRt_40cLraveVR-Xek6O41F0Y17T37aMByDICI_ouki1YddzUfjCc0mlZjTDi-_xQt_-b_DlEg4BYO4H5i-F5KbCoyjydduMqV6FzR4Comf1B7BIuHjeeMjDnhO8WbwgYYHrOfgDqOhYKAU9clwOwPBLU",
+        "width": 2000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118156435643967203085\">Stacey Roberts</a>"
+        ],
+        "photo_reference": "AV-0GLdtAcoTXIlCnG_4PSAIx5sNhXkpsvTvr6yswqs-Z2ZGNB8CmEsaUYU1SiutQkhIowR4H9P2tgnP8tAY8k0l6Q2Tepu0FkLGjxJQ4nOyqnqNNLJ2zXyajO4UlbjlPhH_V3QxeA5Z3NoEbZp-WTqc5_9G9H1r2VoZ-J3Jv_pPxUK9dQndmsPIQz6zj6-ePC3YlfRzFgddyitYhKyeB6AvuCxmzXkRcFdLT9ZsTgimdyV_vjIYY39icKgIbjyTsrzGk9j2XLukJYekcF53OcpfLlRwDen7ca55ZGirHr8CFC35y3lCTwmOg91Jel3sppPQtV87np_jDhhjIEkAaU4fRRwUxrkdjUKapKJsOFE-chylJodbSAVLYUrRXFwut61Sr2sk75KxD5kKdMg64k0vx-cl-iKQzUkW50qhgaIaa-OoYg",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116158605260303582267\">Sheeva Toraby</a>"
+        ],
+        "photo_reference": "AV-0GLexv_2lLJOV_I72-VolCRu_ZJkTIgvNzoZgXMWS_grUHK0MPxHeeHgmMvt6ZDGwATtvmWgRlEf6cIldqHzINl_F3KOCk0QWu7Tu3rrsFr6-1cPVFxI9psKSqxuCoe2pg4Hsi-cW1uvh62WzO8XvqHa-MJ4urQxSES7OGOSc_q1_ZvDPFCbzkDqExYNDkBcw9xaTULEEnXuTS6oDfLQhwpA9NdYBLZUe-K3RL_v-xic5kCG7XpSII1BODmhBHSHsyaihGR0qX1HysFXULJ9AT32Y9N5AeCB3qCdc89R9tH681Qw_jxQrINckmYUcYYPRIas-EuqGnZU_Jt-uaelYxk-8X3pQbGVzr1m12FvwIDyB0kCoqRHjDheS-Y3GrRMbUomkUERWBoSINrRfrNqamqIXnQk88dDob3WKfNGx5zjGQA",
+        "width": 3024
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116669980955656593955\">Alex</a>"
+        ],
+        "photo_reference": "AV-0GLc4AYdinV0MJ2R_kuoywhAtC02jEvUsnY6L9aLq7DGIYx-xxAH0PymumGlJDpXq8UhcRO47nZH7TH39u1oFsCXs9ARy__2UGkOkoJdBzUfsk6iFBR2qWdFwS3URPhFeYEML4U-Glg9KA_mKoQSSRSdKSNZwGNGnVgcP4emehXu_eFt6PycIQ20s82x8DkZ34l1ApzMvfbiC2kOGCIJTrzfv0JvBHFTeZbJuCverEq_-Y-TRQHryvwRKg4CrubkgiDyiMLpJDE4hrqiS1MX5UaBgoBDjQVrGqKoOlRhvBETTqItRMr-xzpTno8oMBmbuKO_jR3M3RjiasLZVmZXXtbI4lbmg3RLuVvU7s1ViYlce7wlrzhNDAgBoxKm-lZH2MnvuiL4Bam1fiHRU7RGRbEI9GqXA",
+        "width": 2992
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116158605260303582267\">Sheeva Toraby</a>"
+        ],
+        "photo_reference": "AV-0GLdDK0FDD5nOe1KTUVui8YPwXKafNEWKrzj-MetwuGfWBo9uM6vu0yHTMCtZ81_E8muckyJZux8CXVyjz6To8fk47hYIKpeSaF51w9gYuCGNRpafLyhlyFNnx3ZmlaoJJVySHkMMzmNG8p7tEOxkLAaVq6TPwHHXqf1mudrUIhDoQ2jGsGRAHGRq3-izRMuLddMHoVtSRZZ7iYLRl_bZVIWmVAW-32Scfh5_3ZjzZQiA9M-x9SoxARhr2gncn0FcF4cdwM44LZ3KcYo-fU7mFt0V0MUaWMbVHmObebYVFgG0DTXcaOwyH9ZIE782RTzO1Zio8anj8rMaBQVMcWLOFwIwjAM2Me4ojeeayI79MWq--TeEgfRSjTZoFhQ0FmvaIanbk0O_Bqbf7W9dX5OC76TsTZjt_KFyEo5jjEB34Z4d",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105660728178452350434\">The Prism and Pendulum</a>"
+        ],
+        "photo_reference": "AV-0GLe-XWnK5KSdl1fGARKewytZA7qxw-XMK5AK39bUxxwnI9eH43KBnUNoNkW_o71rEv2dMvDStbXLISTgVxzREgXIDU55lVMa6-2cqY8xNMGUiI6X8kozJdtkTx4CnJ5G_BvHzLLcwwUSXhvHkXtV5WRarW5cpEd-V2z8QQCa78gmccQKVrhkOSV2YTch3oFkIWi18XTNnJ7Lobt6TioAYj7CYrspvMVSuxatjTFjCVT3hea6FuAVkjsE_BgQW9-mQgdJE_AtxIukln9isHsvgGETuE2Z8XCiabtHhKAdvq3rYqit7SoLHcqjD81IETfaiF_XXuxSz23YQKC5hmWvWww8o9Q-QrjjaS-wKA8WQO4UZGjp3Ux68Dzpka3DZu_AZ1xLogMZJpfN7RDebtkDjvtbHic",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116420182051280286724\">Alex D</a>"
+        ],
+        "photo_reference": "AV-0GLfFd4dBi9gXDP0GzvZ37zMXD8f1WBOHcV4ZhiD9cxOOyVd369U-LeN7Iq9SvwepIwjghrgQJYjRdviABVp25SO5zApHgtp_qEmpzLpatX8m7zfvyR-0_M2NDMfYfrHYUHFh8Hui_8d2de66pa64po_YP1v0MRRrqsF6JfwqCdmio6Aj1QyblkYfvjVNGbwOnzs4AUIKC6g2De_jFdzhDoLcNibtbJ9Pjj7fdYUFTbOLZGdrYXuQZaPX46WuZm78XjhnaVGVqt3K1Bo4N0xdn59BljQSEa6gzdY8X4ZjW2pwdzbeeALkKoeusKe6o3A8iI7VNc14fjTVII1WKs7aSEf8OvPtB7mO7YWVRlq_ZsHe8ktNMw8koUAoDpklOlD5iWHcLUv3dfthl9M3HTvNwAn-zkC7OO1cfc7A_e-6DHvcUg",
+        "width": 4000
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116669980955656593955\">Alex</a>"
+        ],
+        "photo_reference": "AV-0GLegffE_qYF0LUuSR7Y8GRPtzzFp39qZQt8LolFSwtLdiOj7P97nl36orlfgzRhwThh27DxlByz9RSkZOikxc9arWHc1eFUf6G7kmwjltDXsYOep8idAszFiSn1WJj5iC9gq90m92zoZvInSghgXop0h7jzmJb4EIg6ZGSch-SYaD7EqPZSUb5UFTOhK1gux40zUaQ847yE3RpWqp8bx5O4vPnXY-l8_nJXPRcjeXHkJ5FfkoQsZ126LPZ97l6trqk6h3yuywpepxHMD40PZ3lLlT2eBvYHfK-rnFjpgc9jaRAAYJCRW_oKHUw4fxi2O1noFQWSPX5Ic2R-4bVQVGjnBv2MGykI0YrUgx7vKR3YP6LUS0biXv87oh1vffo6VvUqOn0gKC0noEG2VfrVChRPUU7A",
+        "width": 2992
+      }
+    ],
     "place_id": "ChIJdZ2oAx_124ARaOymVYnXjVI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5948647667673787496",
+    "vicinity": "106 W Grand Ave, Escondido",
     "website": "https://www.theprismandpendulum.com/"
   }
 }
