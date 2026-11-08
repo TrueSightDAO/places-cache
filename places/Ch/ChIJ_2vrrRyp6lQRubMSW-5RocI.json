@@ -1,40 +1,187 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:22Z",
+  "fetched_at": "2026-11-08T10:42:34Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Nana's House Apothecary & Wellness",
   "place_id": "ChIJ_2vrrRyp6lQRubMSW-5RocI",
   "result": {
-    "formatted_address": "144 Southeast Clay Street, Dallas, OR",
+    "address_components": [
+      {
+        "long_name": "144",
+        "short_name": "144",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Clay Street",
+        "short_name": "SE Clay St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Dallas",
+        "short_name": "Dallas",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Polk County",
+        "short_name": "Polk County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97338",
+        "short_name": "97338",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2805",
+        "short_name": "2805",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "144 SE Clay St, Dallas, OR 97338, USA",
     "formatted_phone_number": "(503) 837-1098",
     "geometry": {
       "location": {
-        "lat": 44.9186058,
+        "lat": 44.91860579999999,
         "lng": -123.3160778
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.91986388029149,
+          "lng": -123.3147100697085
+        },
+        "southwest": {
+          "lat": 44.91716591970849,
+          "lng": -123.3174080302915
+        }
       }
     },
     "name": "Nana's House Apothecary & Wellness",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Thursday: Closed",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103395067232005082608\">Nana&#39;s House Apothecary &amp; Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLfWAKynVBVEyBiyodPvYLCcEqd28ZJHa_1T6muIxV1BtSSJUoxjC_wcM5l-F3QhPtK0sbeXGKw3p7Br8C2O_QCEXdN0G20E0_omQRSxxU2LwsB-J_17d7m2amuoZ7tWN6Ougi5vibhzds_Oq0MxAkErroDQR83L6qDu5xqFUhuWP5HCniA7GA7miRE2yYtpn7ks9wu_zpZSY0U2QVwFcNDbXsByNhxL1teGTezin8H05xtePgtXp9VHvsFAvrpWocGRo7Bs-WisXSRgHOh2cLC933pcxm9GIQnCC0ljG77UvgABhC-TmxqYnNCL2wpNzlkm60ukGgMYePcNqQV3zjVO_MqW1KvkSDUjMgtfHWnujbE3jwGeJply44Pk6U0whADDvyK_J4o7VMC9zUdz5zo6HHU",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103395067232005082608\">Nana&#39;s House Apothecary &amp; Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLcxCbrwaxQo4c6n2gjfGvz3ZRK23h8E4s4yW-7GhuHl_CGwkw9gqcPmW_Sjx1_ppUVTXMJj33rNMjkwM9lVdPF1K8HFG7784TDptkM2QqsPgUP8CyhAUr25ejRZJVDYm2VOfiuBi4hdd-4_NmvP0bfTmjlDwOocJbcIZ9EhWHR26nr72JoGWD-hLXKbz56fkPKv5phAZ_f2Rluudb9Mq5lGATQBZYF1YuRLqLAZOB4Fj7R9u6e2Gf7AxhYxu4MRw4_MDmqO1FPB7Q7pWQ7VpVPYEFLrZe2O-nvyCPiwVpxbg4wbVuLc4EBEJAw0xIP6AvAsZTB9dz-S7VgqT4lIgjNvvlS8_cxPoNq4YowvdJ1dh4Ippm4vTVZXjmDdem6ZGr2PmuguBYQxt7XZsj-XsH9NIAA",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJ_2vrrRyp6lQRubMSW-5RocI",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14024580798780453817",
+    "vicinity": "144 SE Clay St, Dallas",
     "website": "https://nanashouseapothecary.com/"
   }
 }
