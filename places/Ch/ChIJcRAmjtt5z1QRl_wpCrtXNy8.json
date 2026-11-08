@@ -1,40 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:29Z",
+  "fetched_at": "2026-11-08T10:42:36Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Violets & Cream",
   "place_id": "ChIJcRAmjtt5z1QRl_wpCrtXNy8",
   "result": {
-    "formatted_address": "150 South Oregon Street, Jacksonville, OR",
+    "address_components": [
+      {
+        "long_name": "150",
+        "short_name": "150",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Oregon Street",
+        "short_name": "S Oregon St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Jacksonville",
+        "short_name": "Jacksonville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97530",
+        "short_name": "97530",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "150 S Oregon St, Jacksonville, OR 97530, USA",
     "formatted_phone_number": "(541) 702-2207",
     "geometry": {
       "location": {
         "lat": 42.3142935,
         "lng": -122.9689498
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.3156747802915,
+          "lng": -122.9674757697085
+        },
+        "southwest": {
+          "lat": 42.3129768197085,
+          "lng": -122.9701737302915
+        }
       }
     },
     "name": "Violets & Cream",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 21:00",
-        "Saturday: 12:00 \u2013 21:00",
-        "Sunday: 12:00 \u2013 19:00"
+        "Wednesday: 12:00\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20099:00\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+        "Sunday: 11:30\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107224292736663998903\">Need ExtraLives</a>"
+        ],
+        "photo_reference": "AV-0GLexv_cFQEvoGqTkPVgEbbh7kuqkAgDlQnjl4bsUyZXh3NnmS-1ana_4TpvOzz9I1VBzfFEGShRVR42bFZDBzMyWYj0MQmXkRXzw00uTg26czqNkBm_HmNjUIb7J83KyDCw8TDU86TTbz2DQ6oc-LbJHtI0l8xo8U-0bqxiozA4noG42yX766X62JofU0Z_lywrG_Xs_p-8E1dQJTjja8QJakK8UcQYPyXF_sRGabvaVkBMDUDtw9kmtZbWT4q1eSRh6oiSWc9pWDD7K-_7CUyCs1WyL8xTQQ6eqUL0brCNUVoV406mt4HypFCc3S2bhAw4JSGUsX5XKFR3IExbcUC03Nela3r97BqfMAD1J1W7CU0IWjSuVA54J_DvBVrAO9TIuRG37sBVHEFPboAucBHD1OQg",
+        "width": 4608
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106448083652322859635\">Violets &amp; Cream</a>"
+        ],
+        "photo_reference": "AV-0GLcOx_ymiMANKVp1J3z9rKgyJNKgldfHu6haDQNtpAJyW8ckRoHscZ9n8OUtfiZxCJUqasUAGRl84qwLFJRv9Y8yzgYYpNb_AC_5Dp16PrHCNI_p_-A5XVBwmEleqDhAQH9SVSL4aQ7tkeu_GEvQHdvlum6_W-RlgHVbD1__3VYXsAC1V4M0wpRvlApS9ycos-FKiAQZfrPGAOlA1S96MHOzx76Cmb_aJsRVnpWPPCDeMyu7ke8bBlnloAolDFyUXnDU9oMqbr6Y6JLJKySgxMWXl9UlXsxpBiw8OI8hoQ2DHgeiCAXMg7-mt-QMy3bt98z8qJcuVvQDdLgerI0S8p-Zt6VFGqFxOT8Y6kAGAOlNPEhYSKjLrP_VD-wjNjjPhOi4HSeDnVBSSbpCB66BOlRHue8",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102610402629470709710\">Benjamin Cline</a>"
+        ],
+        "photo_reference": "AV-0GLezKptdplOsg5dDE6GiwO6xSbM3u4-tTW7Sjxql1zQH5znc0hDVFDV252mn9LDOGa9zvPJIxnY933G5pEKFlCPAro7kOcNY9vP5W5OlFlt-3HRzfmr492SF9myr4WlLnsQiS855tWqHLYTE2CVpVcZHhUX-lzmfUKUG4HsaedBgz_quXrQ_Hi-KXVnOdVSa6WLcLdgh1c6db9SLCkixcSBbD6rdC8r8UGudN-wYhfYhYPtG_UKe_bvJ3S8o7KRkj-KhVEdqWEZmSnzJ3flYibaKxzxVfYTIGDKWkkkhMvQHMkDB-OvOx84eT-7DHW7URpRvK8MjiEQLZ2ZXNqDBhmVsPEeL2k1ffaYcXFsa2_s3OspW3XlT_XYC-Hp4lVMJIQ5SvR4Tg5T9I4iITi09s4f7ug",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109399830352266891356\">Donna Wanna</a>"
+        ],
+        "photo_reference": "AV-0GLe70GVmggxX6Pkn3UucocwY0nPnv8gzYYhbw3BhMstvOvtWrQL9cesVEvD6ioFxpDjEv2SsV-q6IF02W82Xrm7bN9fq0TqXtiXNy6MSWOitJg9gLUj5Dx5v_PN7j0fWn0vFRgUAPUzGgCcA-9wJkTHqLctajx70X6AofcJ27PQ-KO_DDWmZxQVAgnEJGVZrqPK4c8UYrJ878LaCCxg5_lHmo7aLULBuw1xFQ6IYwYWOFyJqs337X6pxh3n4C8cD6qCQOgr1eyYqxisTA6ewY2XYxPzBJZJjbZh_zKbP4WT-J1ZzUmA-j_NANohZsJ4PxVtIkw14nR0L8ia5H_hRJ3jUMslpeaNIR2_CQ73IDLjuf6sRwCiRwgESDy7eQgodwCHZdENU8pq6j5qnJAHzt_XIULWatTLcHdLWHx-V9wa_",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109399830352266891356\">Donna Wanna</a>"
+        ],
+        "photo_reference": "AV-0GLczirKV6DGHPhL0lrwFqU2TXYUT7UNcX51Ay8qCbIL8OESso4L_z0u_ZEiQDtm1vBuGlLAADdyDKg_7Sk16bqWBiOyqdIDbDnCVOJokonypTF-cT7jwA7OtJr5ER-9jxuaOWIJgbv_Zj6lTtzvx4D4AOCIflT4ARZ1mnldyH1VkyTx35BxQ0ac4PnrZ-7I80E1L5Z3LO5JlnHEv61fomJ-P9pOnVl9nQHxHGebCFtJBwdX81jCfqwQaNwYTmxRc5O7ThtckjOYNjDwccAF-VJeUhVuCDm0_-B8O8BeLz94blc05niVaxtbtz0iG9OjxxFv8PjJmDPsZoPJk85igB5sjDzwPh9eSRW-FFsa4nQEtgWuW5wEU9Kv3ZB2Tr6st7ebzX4pGHToSsnZem9q_kMoosf_zbuTMN15YR8sjrJjKKg",
+        "width": 3600
+      },
+      {
+        "height": 1944,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106883614854751926768\">Charles Huang</a>"
+        ],
+        "photo_reference": "AV-0GLfc-Xv3O-fkVwFli2JX6EYj7hqBh4tFvn-bU9PzGF281KYE1sDmpQEwBx-sGzcq1LHImrK1G56fwW_AIvnbBeTg3YHCDc5JY0DvLl-rQoWvOg0ZOzS97tRxYBXg5x_jGJwCvLlDQ_WOsaLT-v4q-5SoGqebMQTAIUZaQmcvCEXv_xqyKDkNZGB0rZM7llzQ_LMZGeO6YrNz5DnLR9t1U17zxzllefxpadCCl6if4wxyHVlcfDDE9Zmvo708coIv--tgbLQqKptc17aXoLB2PI5_vmJBw0CW4JFxeq0vPd40oG-ZTasKaFEcV6_sbwI7iNQVWxzLaEOaKAuG67ahHM1Vcx-20FA3N1rPdQT5m2KNwTECbCRCUNz9gN28k0abwCDCQ_852LVafb5yYB63DEsR5Q",
+        "width": 2592
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115677768787942038947\">Sapphire Bang</a>"
+        ],
+        "photo_reference": "AV-0GLc6YFQJ57htH6E0lA6kg9zv1x_4pUL0j8A5Wz1Ui_lAaHsmpNYSBq4TpN0a_5qCP25chT9qvR46ITcOdHOqSxZW4lqOulSApTzFXxBNKHqyaZGW6h94B2__kx65D11kgZ01Mw91b3Ilxj1Ul-yxbtX_xIDcvmXgI2G2GtcY4JzK0pWaOlAAowr3iBhr1EKmATm-qAsg1g3BScY4aj6EaeQY11n_XD-6lOmWxSIhTeF75i4PDUNd9538N3KOMIBeq77mardrb8cbghZJVthG6Her9D-evKx83uV_i9oUkzBzA5mgKcom2Er70lKSOqG3ANfs5-YKkRNk9hA8v4TEoryjXcRevjfOkcHrBVf8TsI9qWniBZOyLyKYhkZUW0yMDgqzzkokKWlVyrgOBoTWLHNIknKExbubhAONTqM3lD8Y",
+        "width": 3060
+      },
+      {
+        "height": 463,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106448083652322859635\">Violets &amp; Cream</a>"
+        ],
+        "photo_reference": "AV-0GLdecjxitJbAD_Ne6T_Qm7y2VLHi0pXnAhhPOrD3wwG7DpreFEsbrRNs44m0x7zH4pma5pZC3DoRG9cGFCTH8deE7LcsSNgK5m-0vknrL5fLIySaQlAcI3QkT60qoZUfUsEEmwRV89Zfrxy9VH7otBtG9VoSQ5zaKL3Qk-_HW8jKOQkXKSWQ33-FnNkGH7dSG-0jbLuNaxpqivTv06MmJif9Hb6mrFdaXnSeQX8pj2qSjJ-zDWPnvTGCzvIv470zLlkX5O4gz1ZKEVJEIJXX1yHANGZZAINP0Ef6SPLafwAR-7sBszSugooAhKBWWRAxC5YZuLayt51dQ9eMsGtKg4JeIPGbm8GgunBj_ABqVAtt8KFC6Ogh0tyQ41C1uu0l0E7uP6xOyCFivxQPT9qoU4dWIrX80rM",
+        "width": 821
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116003483208165197937\">Jason Rider</a>"
+        ],
+        "photo_reference": "AV-0GLdgfYLPfAltMNemGP-iPspI_X-K4SHtAaoM7fosmDMY8LU5aoJ_BeaXQeeXZjSqJm3NN9jUk5R5g1hqn_Tid2uuV1wAdD4a7JIlHDV4eubwI5NLDBu_JTTtyKWTsd9bGkO1TMSJTv9vTSGlWF68muyytGHX8L2JUiDijj_PqsVNedNi0TNp0JUkAJkMTJcZuRl-ymNlOmhsYC0fQgcYrHWQV3i3NNeQHSDhiwTBMSB0diRtSt9YsRds2DmrfX2L39lBRqAI9Q1lQwWkqLUkawbV1sUXIbI5Q-zMHP7Gus9UybJ1GTdU844AdGHhCjNOIJQ4k94oqjiSJ4KLA_6X9s_OOKHITQp81Frf3yWcjHwheCyIX_AHsV7Omm3qgPFARsCnPWfafteC1IVP58LHC_uQHdyF",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106764865937181680592\">Mike</a>"
+        ],
+        "photo_reference": "AV-0GLcRIPi3w61pP8hyt-soNdsf00FgW4-sXXdT8I5IzYrOopXTxxDbNOmrrFURwCE8GmgvJW6P_FZNm7PUhOeOxi1p_jxlWW-LQiENtu60LDBZ6U4kFZVAYgp7SRsQKv6F6PoaOwHlJ4vnpV6SvGz-bkZO9MIKxKJr-SavFXulFUvYCfoe4BYkHaCBF5EZNOz96J52-j38ybSbDeNp_npGUspgKloOD_6NaA7bIO1j3wSvz9w7Okof5YTvmZ-J3UmE1JvmIZ1cYWEUX96cmg7c0sQFaLykNgkV-rpZNmhGP8pZCqBHbfm3BLFa8CrAXo8CMZ-Se24CU3UASc3Y_Z3ItoUXIadharV2MZwU8cRFwsBNSsb1FZ7YzvXJLmmuB3FlCfSVkomTCJuUHacLCVA5HDqEQ0NATxo",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJcRAmjtt5z1QRl_wpCrtXNy8",
+    "types": [
+      "establishment",
+      "food",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=3402284504342723735",
+    "vicinity": "J. Orth Building, 150 S Oregon St, Jacksonville",
     "website": "http://violetsandcream.com/"
   }
 }
