@@ -1,40 +1,272 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:11Z",
+  "fetched_at": "2026-11-08T02:39:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earthwell Refill",
   "place_id": "ChIJWz6UofFU2YARGEKPBkyDVHg",
   "result": {
-    "formatted_address": "4114 Adams Avenue, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "4114",
+        "short_name": "4114",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Adams Avenue",
+        "short_name": "Adams Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Kensington",
+        "short_name": "Kensington",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92116",
+        "short_name": "92116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4114 Adams Ave, San Diego, CA 92116, USA",
     "formatted_phone_number": "(619) 888-1190",
     "geometry": {
       "location": {
         "lat": 32.763418,
         "lng": -117.1069421
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7648024302915,
+          "lng": -117.1056425197085
+        },
+        "southwest": {
+          "lat": 32.7621044697085,
+          "lng": -117.1083404802915
+        }
       }
     },
     "name": "Earthwell Refill",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1030"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1030"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 18:00",
-        "Wednesday: 10:30 \u2013 18:00",
-        "Thursday: 10:30 \u2013 18:00",
-        "Friday: 10:30 \u2013 18:00",
-        "Saturday: 10:30 \u2013 17:00",
-        "Sunday: 10:30 \u2013 17:00"
+        "Tuesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLc0Kaqq6aPHA3UnmZ-1CPHs_1Onqn9H5utFd1tdUgrtcig_IkKEUytQJBovC_KqzraURYFrzzcH-VOKSerkQNuoGnkwSE0hWNP6SXRzO-zTM3mZDHhxoO0nAKAvFh53XxQj0D10T9LnDjCHAI0HIySlh5PRYzzGFl66LoYpaCEPZqvAsJIawisQ4J2oxMhoMNQAo2rhpflALkEqRCFN_ygCgmzWqe-u2TcWH82sNUlJFZ1Wj4yj-Nwr_HXroipePKVuUNBXB2hY6wvWgChT9U11VXtVihr8KtkxyewQxFs19jCkjT7hTdiNvY2g7Zhf2UZYe27NTCnmeUXLC5LXGcI6JvuzCq3CCkbcZaNrDtksjcBVaIqNSmkGYxvDuv9Hpow4eqXgx-gUJ8ZKCr9jPFV4pgc",
+        "width": 960
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLeBUuR6GpSYBsiHMb2_0PNcW9p0pW-kzl5INKkTlDFwdcqMYcMDQK6JcOkwoILlbl7qI7YNDecbLY-FABWdEnZ5NqU16RwCIxySdDUwZ_6sE4TJ5VXfzBimB9hPSUFXli2Pw1bBXwkZ5x5ZuAOWcVu0gfowfJJYVWEigECoZpzeugpnB2z5heU7eeIjxPX-H34cggKwx5HNSCamXaEQfNR1NW7mev7UxofSeCyjeMjxM39z_2bBKcgwWw6nLVCZExotvc_mdQ_gwhU4njzKly5CKMu2SbNo0VTAbWucMEtyvESA46zxo19Mzx9HYr9JG_3lQzuwMevSpcYWIzrDXaf_AK5u1QrtVkuwp1WJ99aMGFB47BuLpgGwHpLhEQ5GVHCHJmLiM8dyZN8rGCy7bOzQJrA",
+        "width": 480
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLcAooFmQIQnMwlDpARBDJj4zlIu2_VScZIcg__dkutriyK2aZC2Y_4yxX8kUeTbq-L_wNEmzfpACSjAiQj9Ap1uC18XGmF0fvhYjQEF3pp6YMb60Z2URK-Tax3-K1cyA9jAQ4FdnNjdppCTIMuoYo1xf3Q3zbEvAg7Ubau74hlKs6Xr4DJ6VUq6-wBUpF2arLgECtLNaPTMi0j747OXVT4xYfdYSOTb4v-fxccsj_hZOKKH76PC1efTGaIhawwpd4OFa_jC_sNz9ybYk426DHebPl8tqVqwfCyLJApzgB0BnzvUCBpB9V7kkQituQwfd-e6o7KHorfvFdkGrXRKiK2M5XldzHoY6H_1kZsJdGxmlCr3RXgQJPer-TFSVWPxUVDtpSMBKBieSPzejxtgQtADNCA",
+        "width": 640
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLfNgWdTc2K4sf_wW65ctHih5QeA7iqcPiC20lC19i9DdJAQb9lShpvQw8MNthWkkszkpZ4eJyyYkTkFd11ylBA6VC-gE5xX9FeouWaLVGrE_11PRFC0BIPnSvCJytS49hV4zY2WJYQCi8LzWIuA-gJ5KUnrVwI3Il6ojMGkLJlPKuAxG85YmCC1mMRCva5m0UhbkkWe7RPxGKMt3rcJfq8cob5NwsFNbKoigreaRK5ZVanSRhgZNZ5apLSTX_gH8NcTEfk5oIACMG3nmfiVcoUy-bf8dDyD2ccn32yUIJailryegOaSN1JNK2nM043102gE5RLhWpZxHDe3hOGvcxHaJtr71m0DiF1RMyBUFw4z4OFDWzDTECx3XW67n2U9hF2L-eXE0bB_XG39QQJm_7F6s2c",
+        "width": 2016
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLfaaNz299sr6FXQXbhOYdHBSFJivanI4xOMB3PENFn_46MNCxmXtURqAFIqYB_GhKjryJqVQcbWfEsM3bd4Ef0V42z5hsIUStry2Mgws-EhtyVOj93_t98a0Pu-tfvboi77eP18KyCGxwBwnPJIZA3N86t4YMZsWSwdcD2lZhDgwvNs8Z-OsmJw0xUzxVMHhp-hLisA9c46gpjlLhXQROik_D-bKayWqO2Rh2dmF7AlTxbnKHJTzwQPx6_a65Z0ns2aUxBek0z3ImhlIQbwT_zZ35EW6brfCTVo5vZwrMwWOPavAFzlsngx1aN33MuIMIxpXpv7p7ptC7INHFDTpUiDEQRB-sJvC_f39bzE-vIh-wDIH9dHuIMOhhBVekkBRwVUeNLUrI4PSpfJ47stD2EUxdhxQPY",
+        "width": 640
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLfcrUMfb3eyPSNwXIQI13MeClaCgSIUx2Wn67Y_psVtn7NF3EzAFJGQE8ouNWb3dhyPt2gyoyWVnuRu3LaXKaowhvkj9sebdXeWZMrmfImxbjYk0G7bkr4S91aPLN5gBnLSQ2MT9ZKWRy6XBL5gAXIfWlHAg8qbNGNTCTYlyu71y2kDT99J_kNs_pA0gcNt_DvXgC7FGWWoM1EkUm21_HVUNq_oD9p1YqihFXSCU6VEFEEB9k8NAACGz7ljZhbrgZTgl5kBdJk--HVMBmlaS8E-T9PsI3C4Tjz8MubDbYWGA7PsgIKVW6GTWczXT-ghfUKBwfQlTV0OVWZuD_frMLsg6IJRkFe-KzVTPOZCNbAsY3oKwjziDL1cFsfKpKb1xaNB21pbE6ZKnlHLw5FfpkMFPy0",
+        "width": 480
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLc1lxGAneroCReFevJsUOIK0zbA_1Mf8x_c8dWvGgcu-5v1YsdXMmrmEOI672B3FL8pzk-KirXH_Oh2Q5hOVPuxA6ObsF2rvGia0S_OPMpgRRFCI7cLPHZukXHMlQEonRYifFhmGVem-F-gfLoHJwbQGDq7nv9eDgouhJo5qMKPEHrSm5UBkledQ23rN1oiuskC05wU0aOuK_ZIgivkjggKaSwMcs2icpks-e6lh3aNRBfi4MVwQvAAi-vDmGTg-LszcXlr700HKDQ6jXxHm8cT0z6yayRF61Pw9qARedmWHF61eA6X2Ew9K7hfvQ6K_I2EqQGgiHMjEOd2HleazWoOUQwkBBRBfqxUFUB6PhLekOb-4oxa6KkYEuodJjVju-96FwIXTDJXvqsxRJt5rcJYp7mapLs",
+        "width": 640
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104513844140879243779\">Lizbeth Rodriguez</a>"
+        ],
+        "photo_reference": "AV-0GLdXseu2-p6FzThWtv4f2TmBr46bfZG-SojjUTvKO-rA4pJBVWTMWifX4mMsi8KFKGK7t6tUllOGcm1wZ1FgIZgWmFmusojg7aDOp3VyTj_ApS0miMfQmPDD-1H0FeqAnqG2qZbnLs5mMHozKOQIgv1YwYYoVf3SgKSvkShDxLTrX53wgFXppOs_VRoJoPnV8cRIVClXlmiOf9L_3E50TbBZpTAsTgcY6yhr82jX6GEfpT9JHZ_QJYY4SguEfyfBoOhJ5RMiBhtgMFBeAXmc1vdr8Difp1Nux402MppW07KQkK2GJONJf-X_0AUh1Iby4CMI_RFKlV22Zj7y_CK6RX5HiunLa4EuNqsDISUPBP7WxRqrXmpDMpzZaV8BGtkx6KA-0_L9F68jQnjCjHw3udGVJ7ZdfaU",
+        "width": 3024
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLdlpgfpdA8PJ27wjc4D0u9JymVyir3bAzQsE0Mt7fy8PDcB6lL_PrId1kCbt0Li4CuSfqZnMCrZ3L7nVDzInf-ljfRZuKwJ8gvMxhVGpgEfGartsy-Fo3khB5Prb9oUSi5vu7AP3qjWHBZ7ERv8TPkyqPlJF0gEtvdlyk7nUvsiEmXMztsA7TbRMW5bgrb4YD02VW61JCgygTjSURTeoYnNH5H555GQNmNsUE3syHWqtCTtq8oEfucRz99tUMxDsMmZLTDNyCA5LFKhd5kgUYlJPvH3oCPIQNLr-6gQ_LsWpVWWxsCN7PJBi4Foum3oBvgs1iw2cccxzA6PBcPULJx8rL83hzb10PDpEaYmIZpEHZ1rJLSxIATT9tpUehpaLYnvLoLiD1cxtlqvBUUAcuqlg1OQrGc",
+        "width": 640
+      },
+      {
+        "height": 384,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101235752630741396281\">Earthwell Refill</a>"
+        ],
+        "photo_reference": "AV-0GLfkVOlO-lMf7TiFn4EeKdrG7NmnRclSHrcFuE1HH78mJJl4M-jFgPshQg2Y2xBrVRyRB7dTLLSTP4PDBmNoIoiHXBP0dY78IVcmiWZBqJQFeUnxu8YXtczVZLHsYwjqStGt9FBHnl7CZPj-eS6ABeVAzdZ6hmu3fCj_NRye_PGGYxBKjNn827jLo1jn1z1sMrPHxt1oe_sItXBkBsieAvDJoiWRrnypEVMtZYljJT_5-VS6UDuvPKIqTN_wE3tNBQfKDZMKqeu_OP54GMcvU7clHbTnft8kzwBKtzNNaC0NAJhjrq91Fv5x0GfZPnBhjC9ln2xeoSsHZIerpHsz3xdZuUgjKb_NxgjAJBjW2luCVAjyEBCV7Jw0m9a5a0xI7UHKqTdlT_yKqhGcu4iWfOZgxv4",
+        "width": 512
+      }
+    ],
     "place_id": "ChIJWz6UofFU2YARGEKPBkyDVHg",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8670699545145852440",
+    "vicinity": "4114 Adams Ave, San Diego",
     "website": "http://www.earthwellrefill.com/"
   }
 }
