@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:07Z",
+  "fetched_at": "2026-11-08T02:39:37Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rare Earth",
   "place_id": "ChIJWVZWY1Rzz1QRpwLhHjzc0ws",
   "result": {
-    "formatted_address": "33 North Main Street, Ashland, OR",
+    "address_components": [
+      {
+        "long_name": "33",
+        "short_name": "33",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Main Street",
+        "short_name": "N Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ashland",
+        "short_name": "Ashland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97520",
+        "short_name": "97520",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "33 N Main St, Ashland, OR 97520, USA",
     "formatted_phone_number": "(541) 482-9501",
     "geometry": {
       "location": {
         "lat": 42.1974124,
         "lng": -122.7157016
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.1987371802915,
+          "lng": -122.7142590697085
+        },
+        "southwest": {
+          "lat": 42.1960392197085,
+          "lng": -122.7169570302915
+        }
       }
     },
     "name": "Rare Earth",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1630"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 17:00",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 12:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 17:00",
-        "Sunday: 13:00 \u2013 16:30"
+        "Tuesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 1:00\u2009\u2013\u20094:30\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115286136410830287655\">Yael Willey</a>"
+        ],
+        "photo_reference": "AV-0GLfmCdw5VSP7QB7z-Ixn21mp9OKyEqca5EI87F4JkDMYIDnNVkLFY4pM-rXgk2zr38AxjvZ_exePCXXbpknAH7dRl0BVpZGgVhPultW3g64XNom4yZtaW92pR2ufNEiwnyu6IVUaC_cIDVgPl3Q9BNc_klCJAK9VUM2P6slz2O3ECeWpFKkqGrDvVsHOFX3Gi4ebEe67ntaUTuMhKlvwshd9MQ_RphpyNTEiiW23AG6BYXCNIxgDj8P6sxMQxo9VmjSoySgT5xWu_hlr4NCHl08XY5Zbmq7nvUX7QQD7RzhZhKHHUow1bGOF7HvYMRUSygR1PcOaY6rubjVOehuWBpsNtBaZe7gDJEieSs_ruX3V6V2NO5QdlKT2KAfq_ZeDfIjoviIG0rHFZQEwGkNBK4UxETc",
+        "width": 3024
+      },
+      {
+        "height": 2675,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106376268867821401178\">Rare Earth</a>"
+        ],
+        "photo_reference": "AV-0GLda75qny72_OX1_AOrHCMk87Ms5Bxr9BKCfRhKr0qL7xB9CTboSVJ84Y4nE8Mm4VHAmoG2O2sQQE3gLOYwor7IgUGZngbrq0BXeAZllzSaNq_MESBuPxF8IbeBBJ6dc6jqJI4pufwGV0XINapofvL8WEHyha8iWX_EpRzQi4l4MbHFmAaD_VmwdTA0_N0AQcJt8zeuMgBSOcsHpMil-jUhwxShuAx8JCRF8sDqjTcn7PKdP1517CgMUdx0-qyRh4K9JycwIh4aC6JdsjXE08Curdbv4t3l6EYy0wFOX9sRwl5DMha589oisNGpwtiZ6bnU9lIztjpezf2fuVNShvmvXqf1M-KMcefJoRmGl0Qbh2yhqOHMUj5XxGIIU59iFcskrI2id03gwJYRWMcG5vt0QcOk1Rns",
+        "width": 3021
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107018288822684340687\">Bruce Schafer</a>"
+        ],
+        "photo_reference": "AV-0GLf0Q8R5Iqm7HNiPVoo8wBmSjARypaO2xHJR_eYZlRA295_Nb51sRqjLTQYF28tdqHoRFLwOiadFxIscy4TZwsC9VqtApgm1uDJdX7crRe50G6a5V2ks8IZfO_FFxBt2STfCWT9RduvN62e6jpVhxDHQhgwh59iMkcssGv9Rl0OHuu06wxFHX6vX-Pj4WhIae6xjrl76xBWWG6O0sF-ZXESBBl1WIqBvg9IqWrr801kzT5uz4lSHfJZn0VdVvmgqGnjjelfcbsyn9FM-uAK_i-zmp8iGWQ-pGpfJg2EqhInZy23lxW51On1T2QQQF96Fz7rnvoJr4F3mm2XfYl0XZgzPWvwnhx88NuTKfcHuJ_8ZXtzls2Mcyr2AlJwldHrlZmkGkiwhVxTZWnjp770KVB04NJEs",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104065009778156554058\">Colton Adams</a>"
+        ],
+        "photo_reference": "AV-0GLcaUmDWRjL4itoEU3YHKkkCe4Z0IkGOM6koUNpg_SeFnNFTNe5RiNtR0aJ0s6Kqcf1SoUNYezSW9erRTbzuYrrUyb8LWhDNz6j39Br8HS7gg9Pf1-ggFv9QqWRQJkvIXky9GGNr2n7UC7ZHU67XzurnVvGVZI-FUmfJ5mVg-d0qpJjAGZ2wRBLoXUWfpD5Mppq-suckO2U-5NIBixU1OEzcaF7t1W3oG83zfhkpC1KnB84ha96q-jGpqX_gnoGEUxm0OsHzpyFs441wOmCqysb39lfJ-yjkjp_FVZR5bXjce6A1MHwWAQWFJycD9BJcFUO2lzWIP2TTfWnqwL2JNrCtFc6evKfl_S3IOj9M2y4JVL51N9IdJYEGkvpmOyBxjJNuStSQB68cUDZq38euJtRUKYcnCil4zsk2nUBMpG7CbQ",
+        "width": 3024
+      },
+      {
+        "height": 955,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106376268867821401178\">Rare Earth</a>"
+        ],
+        "photo_reference": "AV-0GLdUlPs1qMoWTtVzwZcGCqK3jopz2xGrbOqxH3l4pQkqLmilFXa0_XqPHt_4sV3P1j_Is5zL-RaEtq1Fq3-Kvkwzh-fiFfzwGOt6CByU0_rX53mKUaY4O-oDDdQQ-DmX6jgYbmuYGfzgcRQgmavn7emqD6Ykeb6D6gS_VZ-BKDs_MpZQQ9klATVXJLA01_d3Hv9HN0m4MND6bi4whCYEX0eEM879h8eVGlcHOIFU7WHfi4P2DdUEtIJni3ge8a-zlnM1FQFIG1lit_tPxSnEB_j7z5xaPDWAmqIVCol4jl6Rme4lKvO5j4YMPHqKvv0lyDBkngs_Lkdqv_wRIwEJFk4o0kM3xWLbpPz4X1h-H_MiY2dkWIaweli4zPH5-NOT3cfj_tQniGzpmdNMs2m2N5T5uQ",
+        "width": 716
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117995041713491523446\">Colin May</a>"
+        ],
+        "photo_reference": "AV-0GLcVu6pugW7kZHvOJKE5-hZB6DGWKZ--8wSrzDn7hPoVWqJvCMsY2Tst0DLnvq-Cu39QAQz6SKjILozDgRJPs0zS-OHJ6Z_AAe_YxX-T0PTnXl4PqCQb8Bz_q9dPxvgQQb7SpMERwdAMU44vp0NEFYroyz4tR5rvhT553ddePCzYtQvnJmX9hPUzDaeRUBnvnAotAIhM4A6_2gwx5_CfCepay5rdYbXd64nFWO9uI2HPH0GsYOSfQJPcpnQd7xsRkwPOmevOCZBpKlWFsw6WkB77hPg1SK8VJOcWZJorOc2krOo35z7GYw6gJY8iyUKJOUKGMX_nsVBx-79YmVR1hrnD7RX6bQjDYdClyhIPaWaR4FGRQdrMXDxYPnOKDcu_PTon_N3jmlGwOHx7CZ3M7Hd3cNFHgUI",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117054335928964929880\">Eugene Voznesensky</a>"
+        ],
+        "photo_reference": "AV-0GLcoKzQ0oCeMZbRlhNbocVtjvSw66EafEJamjJzAHCWVwsGdSGxRXoN0x5ydlLAaVL-3tZ5FEyde9hoTXN6R3t4LiBXMhRkaZE0CjM_h4xFh-PtskTjWHJQM3HVN57KgvozDYyYBmk64W0s5ytQL4_tMRzAlacIVEV1tnET1p2NVVVm_b8yGxeww5RJcg9Nbe25M8MgOtbXI0ehRJS4bAuXl1v0VVI_gxUasFmPWs8tsvEE4kE36UJWci-ab47XOUcS9Ha-Wib8RtsyEnBhLUdsBpvqSdL29mfdvPqc9EXdpXA6T_M7o3AviQaTx0CZF1Qt9GE3wTJ0UOA8XFdLMgWn2mcIuMAEfzDwvO33hXrCiJKtWPkggp6IZJYVHBF2TbaQPTISI0Yjl9TWfKBuHAWJ0H1Auz8hFIBd1N7Rw3mBWfg",
+        "width": 3024
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107462067074954507837\">What to do in Southern Oregon</a>"
+        ],
+        "photo_reference": "AV-0GLcyuXnaPH-frDcuP8YaAiI_906NixHPKImgee21DBrZxkzLAxAp4nf_ywsmrZvzBCIDVn6UXQU0HQPp9qGEjHq1ZF9yaClkZ2QSBvoZlv6c_z8CwWlXvXW-6weN8CPDjNeCL9tzqzdTgW_vtEH5P-3oMML0VHhpbHno54e9TqaulHpnthzIEkM6WYjyTuY9KOdheP36LTafMfgt5eTKjYfnEUMz636_R_8x47rKe2yZWxIPAJ_P6x31B3g3CUA9rP4KMJ4Ma-EncHxnx0LJ9OdCcpb-SWRLczobTym6xccK5Dl55XMISUj8PRVB9MERSPTBIqKi2dgwv2Xm1O3boy-xX4aMUmjkfwLeghVOVsc_NO0AFSBG_ZcBySVM26gsBSIstHGQojbBLLVIUEamzcwvHTg",
+        "width": 2160
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106376268867821401178\">Rare Earth</a>"
+        ],
+        "photo_reference": "AV-0GLcpyDQIETB5nKORe5zkWtG6qSnPbX7A2RGgTo0TuaUKPm4elwJrGoFcnncR2z3eNU_S1TVToqZZHfdfsJUfwT95ApuTvGAQw3SvbKL7ZWX00N1wRwIZRC6YbrsvRreJi_SyZ6W2pDE3RLpX3vqYLQqiwZxIX7WmzQ2v9pLCMRTuH44GnKLnxxCZU1GW2lTdr_NDwgjnAO78hTUcB6w2Spf1kyac67VG7FqPRAvnK5bKlhO_YAmtdlxoexCP5NhxsoLu3eDZOfQiDoatytre3TfCl5n9M26m6fKhyMaAlAnV77D2GNY-xpBMmyVDBccHZgQWD5wTSyHRLg_AMyPOWhkeN_LJLfp-03j9n6m_TTgW39ML0AfxRBsFoNNb5Cx2M01todsi1qELfTpSMI6Ir0dacu8",
+        "width": 3024
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108449817750032059960\">Cherry B</a>"
+        ],
+        "photo_reference": "AV-0GLeoUt0RRspxF2wFkgQXrYgqaBHjRyjV4bELSLz5oedl1lE7Xk-1z9YDnqSXXgZxqHAvwCl3Y6AqKaqit9kfVIlP5e0shmCxHATfqvHLQdoUc--ZB2quTKZxphm96rzpl3h6SccSNX9en7P69WAG2sl6bvgFE_cd33tIyiWgjGntZbBGIRKaZK9PuGSGZhlC9vARmWq10O7abiBC4Qz6D6cl4s-4aDTVlYd_VVtyqtFlX_n2907d5fvfZDlfrChhjWlWOco526jFJO0CirGiWQXm7lH0EzZJKzpzOl8nQkGx33zxs1SyzkuixJDx_WlXQViET9LnsVl8UUmxpNCTY5-mZ-Dn8jmbf71OqI8A2Mrkr0dHoPPIPz1ib21fudQ5_F6D436b_k3YazTvO1lotB_b3NOW",
+        "width": 3264
+      }
+    ],
     "place_id": "ChIJWVZWY1Rzz1QRpwLhHjzc0ws",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=852266905277366951",
+    "vicinity": "33 N Main St, Ashland",
     "website": "http://www.rareearthashland.com/"
   }
 }
