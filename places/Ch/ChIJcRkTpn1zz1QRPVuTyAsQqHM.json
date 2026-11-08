@@ -1,28 +1,140 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:30Z",
+  "fetched_at": "2026-11-08T10:42:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Hawthorn Wellness",
   "place_id": "ChIJcRkTpn1zz1QRPVuTyAsQqHM",
   "result": {
-    "formatted_address": "109 Clear Creek Drive, Ashland, OR",
+    "address_components": [
+      {
+        "long_name": "Suite 101",
+        "short_name": "Ste 101",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "109",
+        "short_name": "109",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Clear Creek Drive",
+        "short_name": "Clear Creek Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ashland",
+        "short_name": "Ashland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97520",
+        "short_name": "97520",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "109 Clear Creek Dr Ste 101, Ashland, OR 97520, USA",
     "formatted_phone_number": "(541) 708-3935",
     "geometry": {
       "location": {
         "lat": 42.2009378,
         "lng": -122.7100992
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.2023489802915,
+          "lng": -122.7088462697085
+        },
+        "southwest": {
+          "lat": 42.1996510197085,
+          "lng": -122.7115442302915
+        }
       }
     },
     "name": "Hawthorn Wellness",
+    "photos": [
+      {
+        "height": 3647,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114089114835137773399\">Hawthorn Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLcq4ReCT_w5UPFDm-yuADxW7PYPMFgvErVWa8orwLjCs34y_cgQ0A6bReOfxGVsiXbNRLHPLuyPE0nAFhXPO4qJCc1a3zEqvqQ8DUG20z9zraOh-IHpzQRVocaj8TP_pKHEKZYG8u1tKwD9pc7GAEWJx9ofz_oz08F_opNAs3OJYKRozsfIimOxSgnRVrtTtqWyw_qk_9QlGbdj7nSKI5XbmEUoxrkjHUF6RNxWfHdToiHtYIAXYabHwmu_ShkAJKXk-KDGufwxuU0xg_vCCRTq9W7xsr8Wj0S-y-bSazICq9iLP3wc2fkIP4Z5DrR8kS9Dc7t62ELYd1U8PD8HhdsbN74d-A6MPeRnFyV66l6Jm62mr3r59O0FAk24AePKIE2s-pWXcT2v9dCaVMArFhtasg",
+        "width": 2715
+      },
+      {
+        "height": 2647,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114089114835137773399\">Hawthorn Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLc2_vx9m2dgrlOWdN_Kox6sbdrkoHEpQbhq6oLJaWLa01AmcxQ3-C8nPzJnnbY0pl7iSHaYe08SFYDq8jGhVGxqPdC_2_octSNnLOQSzZG7uWtgSDT0Lr0QX6Ii7eyFsHEmh9qjTMHE1IaWN03xXCZNGjdEcOWkLpzO9F9BduIsbcAUB65nDa_fSPMUm9Z6ggJvEgqwbWVcP6kOChWGFMRJSuVKpObT1jSlqoD00jD-bVc3SntFPUMWklrHO_2rs-O4pr5jaKjlFIe_AX5iDh0J7sDiW-1wCfZHRLXDs-6XyeCmuHRZe5cKBbljySttniVzukmzK1PvnCg2w-5iKoHKZEFle-Ygp823zUOVAIgUpyH2pMX8Qo5rgUcmHJ2R9XeDjNFK1DXxBYRbKwFfhZbeg-s",
+        "width": 3556
+      },
+      {
+        "height": 2747,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114089114835137773399\">Hawthorn Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLcpKuXahTCtS2J_0ocujzRqxvppD8MLHhlRM-YUBAsoZUd-8giNmX93FGz2WpWIzkvwIZoqG-xPHhdbvUMLCqnqeOHRz5SKEfjzo4NZ-jFJcSfOKZv3wEdnMzCuxNML3NcuSs051tBCUdO17oDo7AdD5QCtB64_6eOIaKp3Dm5uoiI4Zwp64NkhbSk5NHRM3xciw9vuMGNaIN6ofDvjTUP37Ot6JCK3ZDU4Fw7xKtG8R1WRQbEkyGPMXtftsFj-tJrOjOYVxvSmJHnROCJU-Otns-VWuGio790ZEUG0GQi2qIEg7ZDkKwEutgY_MYC3gQziub4JLTl7FgEOcfF7asc6LHsCgC_R0vVXW2RkRn5Dl-DMfSEgN9A2sGKWdF6rpAl4ejEdCgUbEcfS58QXKNJgMfQjk4Q",
+        "width": 3690
+      }
+    ],
     "place_id": "ChIJcRkTpn1zz1QRPVuTyAsQqHM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8333928753244887869",
+    "vicinity": "109 Clear Creek Dr Ste 101, Ashland",
     "website": "http://hawthornwellness.com/"
   }
 }
