@@ -1,40 +1,231 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:17Z",
+  "fetched_at": "2026-11-08T02:39:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Primrose Apothecary",
+  "name": "Handcrafted Primrose Organics Apothecary",
   "place_id": "ChIJYSH3WwCnlVQRwSt1SujHiK4",
   "result": {
-    "formatted_address": "8737 Northeast Clackamas Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "7819",
+        "short_name": "7819",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Stark Street",
+        "short_name": "SE Stark St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Montavilla",
+        "short_name": "Montavilla",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97215",
+        "short_name": "97215",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7819 SE Stark St, Portland, OR 97215, USA",
     "formatted_phone_number": "(971) 258-8022",
     "geometry": {
       "location": {
-        "lat": 45.5330116,
-        "lng": -122.5728093
+        "lat": 45.5194019,
+        "lng": -122.5830615
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.52063868029149,
+          "lng": -122.5817145197085
+        },
+        "southwest": {
+          "lat": 45.51794071970849,
+          "lng": -122.5844124802915
+        }
       }
     },
-    "name": "Primrose Apothecary",
+    "name": "Handcrafted Primrose Organics Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: Closed",
         "Saturday: Closed",
-        "Sunday: Closed"
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdiZmSbtsrh3lVt_GfYP5cBaJU6WI-WSL82ikCC11j_20mNfWZlCZSCpRAEkuqaeiI-mDHuhQnpBVkxdhYeMMgkg16LxXoyA7EYWzrj-uFpfkYn_AjnW1V0GYSzLgjHNV0Xxw2frRm7oc2M9hwSwCQ534vGkSLeHWUtQSMBYraa-tEnCGD1Uyho1MyjMRWTqNO4vVt25GSbmJBfsg39XUmza_eVRj7VhD8cmp1aCz1yRRRcGFXTJjQHKsnBcKHyfO2SE4p36cINbkQY2IIaIXKRMBuBddcB_gAEdI-L3kOkfGWg-qf5n4mpgsFEfE5JtTdPssvd778A62ajBfpMi5TQUtwRSW_AwY2QrypVpxXLNJ5-IMTtWBhK8ePeW2Hg1r0hXsIe524yiVYeplN2otXtdD8dMAw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcWmGSYTfAUbMN1HcToGfC7JEsYial1aWQTfdih6py4s4mdV5EPsoeUP5LX_sbndj-_bwtlGDKOToYp6422VptkJVmlUobTuyL2BjtKZX-11pVkrOuyqPgcMkIsagKvIULKNp09j77QnBTTGaio39_aenNYMynbQoMr0aC0jFgyUH3SDHn34iWfP_75L6FgbYaqLKR03p2090rz8YlIT2DYZg9sVx3XT6P28YCNyw-FpwAerRITjL7y4mGEiMQANf5eKjEWHuLw2BcJgZdbkV3TtYO5INJ03ZEBpb_XVNkvuSupKshrM_uCJYM08Z670g2dZOHj7FOKiEnIIsuvi0Y4ZKoqUvQmGS7v_OMihaMKZZoTu2-fYgiCqEcUrlJElHy7MnAAVN3mO8QTDrw9rWw41w",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLexqKZ232P0cmtcLcNhTixJuut7oISVj-1nT72mhL0Zn7fTv7rsVIsmYWRBuDTuWAWf_SQDg7oVOSAn97yWTQegBR4X9vM7vKhJnaO48pDxF9JTMs9-AsX1qNXm1YCK4ee7oE8G3BfWYwlAW_PPgnPGPx5L7rmBBeogMyuFxohHnoWBj01AEFxODwoLFuI6p9GbOtYrpCu9BUILQfExnXEXgNDLEKYyS8Q35NKGC8UhfAlUL08YZfmH4RF70zTcpzjB4jQe1qUOOf0dCKmFhDo53spSOXBsj2VK-dB0yHeaTaVE6sPm2A09kaLumGtn_pn1V4d_Q2yUrwXbI-itV-OS3JYKZBRPulkCWOHD-kTL77UalJ0UJJzUi8bggXxjwrne9B8dF7cKbJ9AJMD_6QSCbq8",
+        "width": 3024
+      },
+      {
+        "height": 2304,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcoEkb1M5xD_OcQ2HGCY6YIBJ4VHKnOSzhnzmeWUxTjosc21TFzbVbu9wyFGh3utsZWFReW8dJkKfdYajCI9WwqsBhyfakef13W6EKCxgmej96mXsdX_Ci8iGC8LdwWQOKKbF1-YBNU6kl3trjWx03LuBoIztL6VSjdX-fKNXi0kjB_sZvr8S3ycGVQBu-udO95xhz4YkiSG51jMDCh7Vse26G2yY4DJN5aIp-HVqYU1qhgD-ioIPmWjQy0WMQAGyxDJPVBEVQ5k6Xd7TL4udHyFjBvLgxD9SeGJnZbDbpQFyjyUXpU611YDor4yNhqrtmqTIr1t3Y0h_4Vyvfg1jWiDCJWSGaoNGcLYU-bdDKF6Jp0KcfgFBbW3o3rdnxHIrGgjuabeDCQaz1RV4XGp-IfUvPs",
+        "width": 1536
+      },
+      {
+        "height": 3054,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLedwkCLj4f3oVWlJhDQY6OjgTd3i17i6ATh66_Rhzn-uoAYVawITTvmAldEN63qA5MuWqqCqh2sM3tIiRZi__6C2qzudH91TNCnqytH0hXohSWsE6M3YBfX4ADkQdL02JPFqV90IePIthr-dxLbjEUlsbtYa32etHqu1_bXk19yCoxzNb96wTr6D-6lMUbPH1hZUw59fKTad6StXAzZyrZ43tQZj3MMn-p_Ul2qc9jDmsK7CPHwqufSYKzIzj1nz2d6EDNUaVSesamYyjeuPHo-eVVYJ8J9YKylg4W08uSECbGVMMal8Pa3MKW8j1I1d7yw2D6XW4_0ZK4ja9mUT5AaDTBQfLQAtDAXDlK5USzt_tKrje5a47pMGBotFEOqROUddojEjpRv8hhDVtLjmqx9x2J9RiVXVfOe5AKjwN0Azg",
+        "width": 2641
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLevxJU0_GHYeuRSRuO5hbBbl9WSwEF6mFnlBEund37ZTIifsRze-fdKOmYfuTqk5RyfUOXWyJNqwW8R_zzYVfSgE4moXOokKAIDBePioTYM47NKZS4yRsDe7HeauXfYWlfAoCXnL5VEz0UAbU8ZQDbS_nTHUDNYuyyj4KSOswQCJSRn3AlqaxMAGLBk2K2VSIdwMK67Ea2i05b1B0u8n3a0X9cpKvgIpUzVgBnnFqNIz8gMeqrjqgKyap4wURbZx8CadGvvQk1oTc2h0TqMahTpAWHRWw1EDay07QFK_NjG8WTeg6sTNBL-fAFuYp6gm_aFoPwoc0z2vHeQHKb1Isn2Q5npI5Y4eg01wyWe0kJif1l6vcOGNgMNWDlSx3V8l_1b8fMEpzczdhh8meKyaslbMfIp",
+        "width": 3024
+      },
+      {
+        "height": 622,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101372124204781884182\">Pekio Vergotis</a>"
+        ],
+        "photo_reference": "AV-0GLcTQJ2aSJwBAkOYDCw9unL07y6RcBMQClKpLC5YbBgFQCWu9dHbBAuHSqytKyH08jnvsULWA7A9IR9fPD0FhWzLjgc1Gm55nRyCrw7J6G8nQ_UOhHbSGRBebvXb3cdRqKrEEiAXabfzrqroFIIQLWJzmmJHMI_DaH_U21C0La1R1DWdY7k8w6zvzFzRW-Tp64aUXCoK_kjnwy7hLtH_meX3MdYG4p_Jnw6ILrBM_R1bCpq7hHhSU66qWO8lJ_AhxM_P8-XM12_vfEtQsKwooUNJKwBewQ-kuVu9XA3HuZuXIfowpxOQiqMUqERMq3L5mrQ8PlCHmKlf8X1b_J6bksDrPIYxM7tKkvavLk9KNu_8BN_CDkX1iVQIeXrSMhmDF8QKRE9jwnVuunMpkp5ksRq_YerL",
+        "width": 1000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeXKEIIyBdX6LkXIcAkHXUd_HpGibQWYvB_GrQj5PNiJuVXDoW9x2Yw7q91ax7ID-vekhV6XrwzEINu87ToCNBXZkzMmBh7KMoiPyH7MVwH2P18TZdCteX6pwmrk5maGNI6EgrYsWZw4jFFOI8cdsqZbxAYpqnc5UjefTlLueTOPdKxES1g9bmme_43OhQmtQ6RR0NA0C6MnD8BrDXUgsrWSsoxEbd5z2OdrzkKBjuYoJNI6klLOrfBGfC4xMWSbkbBXBGyuJr04uW-h5MckRFj-MevT6Bo-kG36BYRvbEd2lo3ndErvcZbRTRrMksDD9txPUmem2VxaeEXzoqQwOXgEJ8vLzbMojMLmw9YfelKq-qoQFJj-6OLJsj3dQjWDej2AOw_7uOeRQBZzpPbGhO3IOSXSmo410V7IXWZwa-Urw",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdeR661ZxlDAyS8vhK3pzMiJiLBrEyH1PDe36PWyB5fxf_IHS0y2GmMQ5mtzMlZAAXedW9CZTMc3vYmwAiSJet1jufzk6L6B8Yq4goxE2q2pG-sKHqigFmrXjVeecpydV4PtRoIWL4fa-JFCaabhDeITPIY8V--KAko9bJOy7-Vv76EBDP_nxv21fIdRqUIsPXDkDuhEZD2_oLcJgktiI-sy5LGd3_ebMA3aHggITgh4neyNkt0DU19tqtFmxpDUf0IhRv5THGtT2ZVriUfNjro-Oods9o89axTCa36gA-POEHJeHZYlX-XqyUrEbvb5fd3Ic2_Fw1ZC7igZxKFHzOT9cHcYMHLeoH_HaVHn3stJWw1Fh6fY9jH37alfUOedgTKoearyxnbazMSKjo9cfgwZbg",
+        "width": 3024
+      },
+      {
+        "height": 958,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115090265728169618614\">Handcrafted Primrose Organics Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeXemUbjLy92jFa10Let2wLZQCUJ_8pu72ClVP3WpbjyIfI5KLr7GNUdq69NiQ3lJld2741Pjs0jwLv86YchKSQx_jELS5YMFqKsj4QgGq9naHrj5DP4DUDYfGy8vxgeWFMWe7gHmIVbiytFK3Oieh4aXrACRX4hex72asxG5Ae7FJ2a9_5J4HqQB4UEnsMjcGjp49qHUd3pUMydnx0wAueuq-J6uuGYNV0Q0ipRkTaY0QJPwAXgxsfFs4i_fvXazDJKaBgkBdglmo028fOymJU8iFoaAFZRwI-QgT8LQJBkVxElGQvbwYsUOrnKNFmb2i2JeiUrXnuwdaUh52lFXuBAt8CIVZSZPITKfHFIRC7uECMkCoyp8HxmfC41ZdMZGVdDsE8X4cB16xJirYHLVuh4Ggwb3A",
+        "width": 1242
+      }
+    ],
     "place_id": "ChIJYSH3WwCnlVQRwSt1SujHiK4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=12576521759927643073",
+    "vicinity": "7819 SE Stark St, Portland",
     "website": "http://primroseapothecary.com/"
   }
 }
