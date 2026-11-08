@@ -1,38 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:20Z",
+  "fetched_at": "2026-11-08T10:42:32Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Through The Veil",
   "place_id": "ChIJZxR7OyQPlVQRdHSY_Og9OHg",
   "result": {
-    "formatted_address": "6698 Northeast Alder Street, Hillsboro, OR",
+    "address_components": [
+      {
+        "long_name": "6698",
+        "short_name": "6698",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Alder Street",
+        "short_name": "NE Alder St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hillsboro",
+        "short_name": "Hillsboro",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington County",
+        "short_name": "Washington County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97124",
+        "short_name": "97124",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6698 NE Alder St, Hillsboro, OR 97124, USA",
     "geometry": {
       "location": {
         "lat": 45.5297249,
         "lng": -122.9122057
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5311173802915,
+          "lng": -122.9108172697085
+        },
+        "southwest": {
+          "lat": 45.52841941970851,
+          "lng": -122.9135152302915
+        }
       }
     },
     "name": "Through The Veil",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 19:00",
-        "Sunday: 11:00 \u2013 18:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100420237032609997857\">JACO RECORD STUDIOS</a>"
+        ],
+        "photo_reference": "AV-0GLcD5eFf5HMoM3hxezCxFn24JygRvaqQGn-xPUyllbYlE_VnADSSdXedclVEYsA-6sj9CMz0f_OFL-GWDVbN_hXRyIR8jJ7caTSnXz-gGORfNn5jmabKo6-DDGdaIpUSoZwBr3ky20-YAai4yh_F5mO3u5oYAKavND4ckSyscVoYb7kLT9IgCJMDi9eAR0yYtuf8f3KA7bqA3jVwMZrX7Br5woc5tlsFsHfwzIf-M7KsMyZqBW1Vo_GFgEOZ2jYFJ_-US_F19UdOHp6ruAybrgZ6Xjn5PKedOpG7UW3Oye9F2mFYPL35p77pSfZyajFi9JnH4jAXG08AEVluthBrmoET-q0bztMwm_ietscJTEQgdL9ksdMrLzWI8NLB8-EY5Hxh9XpO2mIXLbvwYIXvPB_gRbsvmZthvuZ2veqf6CZOfA",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104812912914694854246\">Through The Veil</a>"
+        ],
+        "photo_reference": "AV-0GLcrJh8oYATv-Gvve7vyt0sz2KQ5N_uuYyN0RCWXVvDibZmgJ_K8q07TnO7Qm8ydVl9Q6r418EO6pSjaDBLbg9dVnw4HvdD7go07xVhWgHm9ibMnsDa8SIIj2lQaoab9Xa_xThXy5lxi7mmHBEzEFENUfae0mUWkJ1xsgA7JGEcuyz_qVMedU1AvXHQHDtspD97AE6JQnv0BPcU4YGBZuKyMeDOY7DbskaWv0Q6v-xBFGU3QRqXE-TZNW7VaO5zWCkafnPfJJ-PfGCtF7nXenbkGA5KSImjJqmuhOYnC1ydpMtZi5JulA0PUIQmctOKAVEQXq6DX4MzGQJTEjQyWinD_DdXS8C6gxDuSLXlI-FFg-0FyYoZRbzDvERUKX-i7gLgxcOGmrp9SE8ALua1JbzOkwBU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113691649396222587748\">Mae O</a>"
+        ],
+        "photo_reference": "AV-0GLetVBtcylSBUTdRnloJDCG_Fzzv9s0yIUv4j091DpRsxge_Y4BKqwDJCuAgj68utUANojApOkJrQkB-YsTd3zFlTmvblnBSLHVDJoIWkMjBSnYFZCwZcqDr4zDL_vjOyfxbWGD2CtBco8HdXMNhMFHCUZL6OeAQ-FEqLye2WwtmkoROTJTrnb_j0-oYUh-EaT25782G4sOmylykfim0MkG3Ga4oS_icJUYFerBi73IHxUFBvRSjOS6_hc1ABsUHKKNvTGiinYe1MilUSTo2EMjM_cLVPIK0T_Bb1WSSAmm58FRj1lO5kFRG7-eQT3952yrgShzIBk0WQt55crHFfq8DbOqDV8B4D9XC4hzHOorvACE4XIF_5W8v7DY0hwi0mWUQHtIQ_JUzmGPhpthlAkdbPPg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111251442811544583867\">Alex Chinn</a>"
+        ],
+        "photo_reference": "AV-0GLfgdginEEc-S9Hg0894Mj0vOT4MoUlRTWXZb1tNEn2IMIYW9CZFBr2NUfIS-31pO6-Gf5D_1zFn0kcShCdMCBQ7IyYkvAfF32ZhASc4OiFX2qbYV8Sx3hQHxqSEqbU6tFvC1seFb5-banPQ2gHYW-_FSjnYoFX1s1X0EWl7aj2cenPg56PXP4-q5Cm4NlpqWa-rORkkXrVHTw3-Y6UezIChqgnblN28oIzA3iHB7laArbkA0mQs2HK2EU7u2T3rDHE0LXW2T9-D-hkVsYHWuR_Xe3PCR-Bu2zQhfE44w-Mt_T8KlFp5JMnnVw3pC4HyLh8chwqBIn-oPdMJ6jzmgZmiACoAUEiYDzmaPgtMUyE6JHHUDTMsAaUfcCT3S-SB4-fFjNT2ypvRUVD2cuxLoqdMhYY",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111251442811544583867\">Alex Chinn</a>"
+        ],
+        "photo_reference": "AV-0GLdmDUA6hXupwTshHl15U-Zl6tcaiFWmVIkWS4pgFmmZS0GHR4m-9Xne8TBvidp1PjMNTz7g9UryIoq_gMHDuVFyk7krv9Y1vt69JSwcHZHql9c5JUv3Ntm-jE07d1TitRi0tBPXBoVcEY-nQmHrENI1KYcIhKmeololcvlSAbvvMDlZihpylPQUoGcqghQyENfM54Pr-qGUl1yb8yMrkjVM45HBpEx7eD1CPww6DvwxQGKz6DWlZPHpf5UII9CWKBKuz1sE9J10ngUjExaypAhdbfc5_vlQdARHVEpcQWVl-A4QLxr3D_99RFA29Uod17IxUFAQIZbhA9I1wdXdA-xtg30r4Gdybsz8N0ynuStqJmE6jt-PryTT1I_lbNIokxX81AFRU5Blf9YEK8r5AuKNvfEu8Eg",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110829661928531360839\">Mariano Polinesi</a>"
+        ],
+        "photo_reference": "AV-0GLdIuqdd5zNNNsamPrKvnDg5BL2PfCJ2ien3EEr2hN4VRLWuefC1N3ANYj6seqbXENUlItfUnq7lfvf4-xFmQwDRi3_YmYGBRT-Z_H0tRmcHlRt3EMMy_7Olo0-1-I8WS_W8z4rT9lSGtRoDF7NfdJEmHa8zwS5IlMm9hThoGUIViXYPXWezwm9wXDQEkUwkFSca2R70u63Ut-sDIfwI-2wWMxG_edksxCziAKpZfX-JXcG57QJPRn70m67qeap3MYdpi657NfjO-dWrQl0zHgU026ymmACtLnzHnnohqkEzvguBUufsLs-Zb_232YUK8eNrOrcjxb-72oZURjyC4Rk2PGLJ6f3qZ8LBNgSXcmGDS1XrKlDjcunMwP9Glu0-iKCpOuZfG7JMQamks-NVplYHkv9J",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104812912914694854246\">Through The Veil</a>"
+        ],
+        "photo_reference": "AV-0GLdNZa-M8OCwvP3B_YdqzMS0trteeZ8lUiFcl0BiH0MHwDO6jqmGOtuBCENzp54XcP_-bnRfCCbCVRXkXB0GnWH26rkK8qTQBh3To_W9Sd1gmHs5JfBnXPHJ4F4sHqsXtX0gPSY5O5lNuSFJePyrb7BACyvlgCCyRbP9stWg9DhK74T0qQppIFPPC0mDvad-UyCBKy9OC9MoBc4vPfMaLmcGa-8fySE-HG-qhkpzdTAAUXl2xac0yrEitsk-vE6z24FcJ9Ri4zhKd1vUXlFmVud5cPdka9LlOnuNjhk9bbHHK-tdyp2JRl7g5Q-8uoRkjJaXsFWu_BxMvPlzhgs48KOZXLthMgg2jzWj2Xq-QfEsF9BlvQ61w2EE7zqD222FSfYLrgDTFEPrT1sMVXSkM1D7xjya85U",
+        "width": 3024
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105515344150076983029\">John Lee</a>"
+        ],
+        "photo_reference": "AV-0GLcNTxNqbzDXLFztkFjprQOEg_gTUoNZwGSJXyuhVM_oO-kbGyEzm7uraYs-GjBcfvEbidqKRp4UymezMXe0J9XRCZDSGIJYwSSYhgQkR44VpkThTIqX14YSgsIQK3TYVTOpn8ywhibX3RBVokq06__dSBgiMtIevX41M5A_u9fjaG3z0Tce-UJUKT-b91GPYmFRhivAL_4lUzSP9dEhfrTb0TYq-uRGjtlp0m6E5KwHNgfAyoBtV1f7HWQN_Ds1TKUnG0EEsliPV9SvoU3ph1EiMMy1pu-9l6dyOE-lWHlOAv3aSEw-Dbg6OHASaPmJNmHax4lpObYmwwcpksDbIEdjHktrqcQyJbZ1VvFkowMkgqPvqa-9DZOsgFGcWOM2HfYBijd8mUM364u1QG5-VFiCgD8",
+        "width": 4080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104119969667472311211\">NILESH BAHIR (NeiL)</a>"
+        ],
+        "photo_reference": "AV-0GLeNXc6Ihjw6HUO0ZQP2ZOAHd4KQ89fwOPFfh3aYDUsuJ6axF8TcIONPBD20t6IhBy7fCHA3Q5OtcsbBdyhRlecUuZmmiRsCJ_TlkgVd8C-Q39QkNNI-uhu9jkl_LtDOjx9A-G0gi9UrtEJ2tOfD-509OAQoEPkUSRAIMEchLla_Fj3uJnqOhCwerjS1cWtQw8N0flZAb3nR-Zp4IQ8DjUefK3W3apovvVyQQbBIHPuDRscd6qXF2u8aSbZrm7TQh9dD9_jfipZ00cPbORMtlnmVzqNMG9Yfffm3dh2WIXHT8FFZZEv-LXAasqDj0ZUxJhMS831RKtvIBqKHLGtf4qZZBeb8sTeaVNeITQp8WseP16H2tp2apHB-j7cSsFd3vK4U_zimUn-5K0i4PCXbhkj95DeCfWpg0LIXtWlVQiS1Lg",
+        "width": 1908
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104300304744904334001\">Carla Clay</a>"
+        ],
+        "photo_reference": "AV-0GLf95jmgqTn9wzoGdP2VbR9HhOwVZ0s1wjCEdKE4_dCaqwELOrOZZB63lXfHYJMWhiYmiOHQM7lg0go4rov46zH0PkigCPBs0j8iC8X2X9rThzSY_n4kydAPScB1bGZ5-GKzo_1lZZq2ls1UUimAXAXNP9j2o82zeTmm7ZKny_-Wg98xOtFPocgssST32BrIcfjZOTjXsRZmGiDQ4tMKdq10Q3VbDboRXX8AjsOcla_MRQAzg85LuA2Nk12mT1AHeNDTYegagdmVP32ZjdIBpg4nuOdIMMYaRo80ameNQtgAk7yVbuWwby7kiH188Fd1p6DEfjXWa_at_wVIr5iWMrNN654fdy8AsbIcQpzM10HX7nTvmjy6l0KK3jfxBnVzls_y2J79bOBTtNMSd7vAFGDrBI4",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJZxR7OyQPlVQRdHSY_Og9OHg",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8662741954126705780",
+    "vicinity": "6698 NE Alder St, Hillsboro",
     "website": "https://www.throughtheveilshop.com/"
   }
 }
