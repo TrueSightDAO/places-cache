@@ -1,38 +1,207 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:44Z",
+  "fetched_at": "2026-11-08T21:19:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Plants and Provisions",
   "place_id": "ChIJhbxiiH7RmoARycZTniqgm-w",
   "result": {
-    "formatted_address": "3400 Broadway, Sacramento, CA",
+    "address_components": [
+      {
+        "long_name": "3400",
+        "short_name": "3400",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Broadway",
+        "short_name": "Broadway",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Oak Park",
+        "short_name": "Oak Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento",
+        "short_name": "Sacramento",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95817",
+        "short_name": "95817",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2801",
+        "short_name": "2801",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3400 Broadway, Sacramento, CA 95817, USA",
     "geometry": {
       "location": {
         "lat": 38.5523034,
         "lng": -121.4694764
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.55369753029149,
+          "lng": -121.4680412197085
+        },
+        "southwest": {
+          "lat": 38.5509995697085,
+          "lng": -121.4707391802915
+        }
       }
     },
     "name": "Plants and Provisions",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 14:00 \u2013 17:00",
-        "Friday: 14:00 \u2013 17:00",
+        "Thursday: 2:00\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 2:00\u2009\u2013\u20095:00\u202fPM",
         "Saturday: Closed",
-        "Sunday: 12:00 \u2013 16:00"
+        "Sunday: 12:00\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 633,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109572582170477502176\">Plants and Provisions</a>"
+        ],
+        "photo_reference": "AV-0GLeHF2Vfayc0bEikLqk52piy48RAoJr_XDh7uVhVYK8uAWEU50iUJRtvz0Emn1LdfW2k6wnZz9Ge1-rV6b7wRkFYYXq43y81V__pJ0w3zlsYPNlYtE5bnpTDrAajYX2oMgyNvTzNY8mEtY7DnXTfNAZScx6yIZ9c9VtpY4lUOgcy0oBMA4XVKok--UHraNIRYtJh_i6C8NRSXDlMLCfuz_tjuOkjqyBUxhjeW7IE0HYuZZQ51kbF5SaZPiZLVn3aA2oOTGOJuaJaMyU-FRfRFd1SCwDGFKRvwJ_9l6kUAzZvKs23yi1_0k9ySo6o3xjEpcJ0Vz6ORD5oaso9MF-zUNdRp41px6XhbstmmfUkbMFM_ZWi3PzR87MYoPeo5nV18J_VYoRfmyEGgpqX5Zgj_Dn5zcjoibqR3yRuS2wcTIQj",
+        "width": 555
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107716036918816482880\">Jailyn Channell</a>"
+        ],
+        "photo_reference": "AV-0GLeU3H8wGbd9dHwuu8DstA4uxJQBbZarbEQkSBa3J2B1hyyTDgNPcw500IcuJK59uOb1kbzNR2LDKyw7m-DI90mpruzcF4LPKhWd2VEwg4xuWpehDeVZYyzoFYddBKrRrrwSuiTS9mRhzT5i7FdaJ_Hg6BIxHDGc1TVvaaa8HK9N5Qgfq1eeNSK_iBjpP2-KEyU252R7VbprnQtd-ISBE289fhcmxR-C7ELAeeXnDDb8SZ9r2rFUuCU9y0r-EwkMPiwsXCMQbHnrIwcbkgKgwxGd3O9E-1ODwO3iDBj79LDF6T7Bv41qQkAbBVgCW35mkL4WVBX7s9JlGwoQKNSKlHCyKyDWcjwzrYlFGuxlsRRa_zCop1h6sChkjPwOTXbmpZmnCd3_EtYarZ9oK1Z1hTYkBVR2jRHNluXeIp5bFjQs7Q",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107716036918816482880\">Jailyn Channell</a>"
+        ],
+        "photo_reference": "AV-0GLfngaBsAhmcvqUehIPENWnKwcyt9NYByV-nVNI-jmfT7JLXlR5IlUqu-1GCciH7GpaaoAGQezsrmeOCWAIEL9tEQVA0cZrd0MQ-gZeESWjfY95MrgbpZgoGpygfCmYQ2ahOvFYL3yvQ-vBXPiHLiTjji-JJ8l2lz-vfXik0CYmG6HLoLnVVK0yZ8_PkYLUsr280XzdMuQBXPRm_l38ZAjLbFWGDfIh9STYLBVBUUULEuE1AnmbrlfNDEMtbV9Lomp543hL9MDb7j8zf5uRil4WZB3AIfXZIJVsSIzPMDzFpttdMVhyg_NAdMN8aX2LKKvRrJTCYAJ4F89QnzbHlTekzyU4Fqh2MqvBjotxh0MqrfoVyGPKiPiFyFyTkYKgolJU3XeU3DbYnpl1dzFV5983SiPC49jpv3Lmv4s01vQYf",
+        "width": 3000
+      },
+      {
+        "height": 633,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109572582170477502176\">Plants and Provisions</a>"
+        ],
+        "photo_reference": "AV-0GLdN7R5uJISQTxIvcA1Bvy6D8kWFGBkhsA9_NJrZufla4OtCmIcaxCdBdSRapx82vtKE5-mys4nFJPfG_uK1wGO1D_3FdeJaxCu2l1G7lAnATCFA2qneOi6NzwUJeT7BlWU3U-bWaNUo5OVpVRtWQkE2KbEOT69C2jNYqZ3fqlbfrSvors3uZPjkZcV_BPsXBmpQGDm3VkxuBU_YeESOq1ol08Xoq4_kRdz-ZMzD4BTpqIZqX9C2iMVTxBeoBOv5Mi-s6QLdbUt2pe-09HsJGocCAWq-EYGM8RjQEQtdGQFRMQV27VqM6X452q48o7fjcaEPIjjhbSno4DilGNjznkOPyePWOc-4_S20Yz87tEigyabn0cXRhRsg7mg3uvhZxdoRW0GIdKxi7CaUEMKjjxtv6G-pNbuwaMscO4-Q01EPxg",
+        "width": 475
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107716036918816482880\">Jailyn Channell</a>"
+        ],
+        "photo_reference": "AV-0GLcbT2_v5dSNGTX2-z00LbWkn2mOEWzTq_P_B-kLs7cJK7muJGMQhrvhLW6ayPV9p51LT-BeZFxj71kAqRtq601AEI93Gn9NBiMmUX0GlAR7N-B-kBd7FPRaj6KAVdtoQxhFQ9mEK0c2VeyB48pFbzX-8bHctmWS4ownVo5O5Ya61-U-HCl0TXkW9nZ2yScv5-qwBKDtAS3We-Zpkx9iCUPZoS7MlzYkyXhf-44s2763lIpfBaig6Y3V2-QYy9Ok78jtN1kLk_fngsY8-Ay26tV84vgBioxb0pcK29j_pkzozLqL-pTcTAWjPRafrysnRy7qc4mu0HharHvAuPivNgYcGPmjmVUXszlqIKaVs0qCJ48zEIVUWIwZqTUBJj_BmaJYZmzGEyVrCAQ5thhxM7dq5XkbyEvncOlMgP0V7o3h9Q",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJhbxiiH7RmoARycZTniqgm-w",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17049396919246505673",
+    "vicinity": "3400 Broadway, Sacramento",
     "website": "https://www.plantsandprovisions.com/"
   }
 }
