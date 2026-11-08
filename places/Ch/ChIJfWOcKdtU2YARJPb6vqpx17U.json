@@ -1,40 +1,259 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:41Z",
+  "fetched_at": "2026-11-08T21:19:42Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Adorations Botanical Artistry",
   "place_id": "ChIJfWOcKdtU2YARJPb6vqpx17U",
   "result": {
-    "formatted_address": "7960 Silverton Avenue, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "107",
+        "short_name": "107",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "7960",
+        "short_name": "7960",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Silverton Avenue",
+        "short_name": "Silverton Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Miramar",
+        "short_name": "Miramar",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92126",
+        "short_name": "92126",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7960 Silverton Ave #107, San Diego, CA 92126, USA",
     "formatted_phone_number": "(619) 225-1915",
     "geometry": {
       "location": {
         "lat": 32.891341,
         "lng": -117.1495314
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.8926883802915,
+          "lng": -117.1480777197085
+        },
+        "southwest": {
+          "lat": 32.8899904197085,
+          "lng": -117.1507756802915
+        }
       }
     },
     "name": "Adorations Botanical Artistry",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1300"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1400"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 13:00",
-        "Wednesday: 9:00 \u2013 14:00",
-        "Thursday: 9:00 \u2013 14:00",
-        "Friday: 9:00 \u2013 14:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLcFfRVh1KV8FEZYVKqx0w3eEfySNlhIMhf1SEmYF9qlwmP-CkTRUexd9_S2U3FM9G_ocvMqOXkKQFozSsVJde-6gfwb341QZragHAXC7Mwxd4b8Phkn46EpTFrHTBy-7I3OZpz3eBQfok55yR-aUHuRtOS_ty3egLp_XltpdQtTnWx58dOPsGrpxTgctngb84uez7BtQO4RETtEX8JESIQmsM4I14bYLzDGEHGyympkfdFwvj29ZKaf3tKTM21efMFHTic66kLQldhvj_8036Nkofu16y1MX3JuNs24ZYgasl7ByOIMWLc4-MAqDxmdmivIHdkX8FPrDnRORZT-KcTRYQ9FRcfUE5ZhnOo2EsKypzn2LX6x70MnZ5GJt5tSt-X3D6v5GXH8mfoRyc0XJmoYZ60",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLcjyYOzIrmtNLoOakZvjmGc9ObKG3A9ivDBGHRW_ojzoGvXCXbJcVlJUGymZIregO-U7u8LGDccReT2mXWiGUtt0J1QITBEnj0sZi637MiIlEwyaP5f0INcRSE7FfFeOw7U4oZgXaTtCMnlQO_9lEMyMyneE5kyGq-0JjNkE_-Z0XGFqnkvGHH7pBgCnnZN0ehtmVyZTAue0iL_0gCgOO8W1MyCCe1UFgd0evIjgfpsLBbUosUS_sTODlxQ0m-3XgDuy2tE5kTtv8pJ_oO-pMOzmfES6CYXDhIVZGpnRFeKF-foZ9PoAkLLfSgb8WUAbiOa9n80fsSeGsGF-D76Ssy5y9M4O89OXV8amymnyLkSaZgGV_EFvsM3cUxtWaBdn2Ca0A5ktJoddNtniPpwLG6v33E",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLeaUtGVAvX75kih9uFCiqit2iEeAU_6mCoB8EP2LDsMw7EFrfkgavn50WcoPtvKgBs2atn6fYGENnP3xuZawc0A8AyWUBHgv9pqQsRMmAL6qbvL5eXh1hGsHtJWjmxv7eyEGlX_SmzYzRl47WqS5p2FpJ7zPLwYC_A00sE3DrG-UdRR3IuvR9ju18NWJgZ7SOe-6ahoeYC4dmmfEtLxWPZPqxSLlWrO2hVQqfdn53kM84DFfVcf7b80jNw7LcegT6aozdvWe7PA6WuCp9k73gvXdItSi-MEkaWaZS91BrzNjO4aAN2nVAUxp3Q1KyKUS8KbeGx00_HGuilD6TDQswUcntfUhEjB4acxPLZ6yIwt6k-ntStLJvKr6l1gFK2sZ8zARJ2bpZNbIu8JO0wRRQFxo2A",
+        "width": 4800
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLePfuWB-lKOLmnr9CgfRIo3bA4iYbL4gotCOW9rKadK1rnmYr7TjnT3yEqvQW2C_MU11NuAnh6KhQWLsqvlmn_luq2RMpqV2BLMX3Zy-DidneSppieat3NLf6HVZFb3Oc_xHty1fE6G3_YGaQIPF2M6-STmFojA_zrIJZhv3ddIeR8sHaayHdNYVTo-6hoPD2eYx_mmbxtST5sMkIqEx1wOWHRbQah16MAIpw2cCIZaOPvFaFOjRlfWTQg8r9z2VS6pVYooZqPImqQvcckov5sB-ABPGVGeNNfkUgphaWv28vLCfi0gVnisQibR-u9cS6OBXlRy1SzejbDqvNKBNQjqDgYe-6soHf6D7j9MXVnv0acvTpzr41YiB_rz6EIE66o5FtnfowNY-QrtVyOgiCHtOw",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLc53bYtGjIompPZWgXEJ_WeWoeuDbM9uCyutXv0_P0Ira1l6IQS-6rVbLwo_gyWOEG0KihnAyOfBaOe9Ejfoeh_t-x99EelkFCTb5PFchP627GpBHwkD_cuKAmk_1OqxGih4-_3ttRg59NOQV3YCXSh3lB5AnLf5qXk3lKe4pFzr-fUCQ0NaX24YQd3lJlwGi3EGgEX55Gu-KKftZmckzME0pyBQv-BDyrI65UPNa7P3Ap2SnTzciU9qyfNYsEBr5PFcEGm91lAMT5znmjsZYDktxPsjRHCDnFloXHsiUWIoLXWoofpFpn7CkmybpcftgMtSF9vZI9WZ9f65-XCxCduKRhxKj_KRiagbaVP1NulZ0z28w5ACBh36Sg68kB2oqvDj5NGdi5JSyIad3sMvZ13vNafW2ZwC_7n9AzyTxf7lA",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLc5G1FJodVn0H53ys6iYUoUNywaxLOLZAlWUIJ7HqNmJX3UFlhqGKRJwp15V0ecZRZjKUbLYOf_JwGuDShyuvrrdvn6SnkR9dOXWRGuiC35yLFDIawOYulJV2z8Hh_NOTaRzs5BWwjA38z1HnWP3UPYdL7L4n89cTmaJsYCmcaXDEs3ejAbkWEhorw-Uid2XhwXqwXaEg9wLFvRCdKmhO8ECO9K766zTykkstMCz4AZWJHtNIGfpwl5W-A-1Iw1k9wN91-4pFJWlSPXRY1eZSGLPUzyB5aOaEZaBFQ7R8gAxSfVV03qajoaJE8NqIaRf4_1HY8zeRYjS_luzqbYpjck5Hpt5Emjcbt-KYN1A-eSYiJ5MPk9fkO8fexIbMH52cOVrdDPsmxPwp2NJy7wjYnTMy829Xs",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLeF5lY_8dI413Fs7IVQw3OX8DdAYrqbfzezwtSNp-9-4bTlo8TYRgI96Nbk63G1YE5dxjI6T7V2Ikccu6pAwMBrq5zoc0qo3X0mJ2usyo_zxhnvl_fxtyN2l39w2oarvZCJiTsZqK-e9DrRL18JdJZEN5PKNvw8FoaT9rIZe2HvKfIJ1n8dC-3mYWd0HGp4yp45V0nL4r5MggVi9Y8HavCG6Nr050673Utjlcr9FtCEsGvY4fKmxvwI1g3Ih8CJtuAf7WmNiJA5M4733r55Cwo8ztBKvscF01yvN5qkG5RnNzQMVBwWIEuG2rYf7TqQgR1s8X96wuncB6swYW3b592h8hy_sJJoQS_E0TLm3YfiqjfSYiigx3MffBzjCBjwy-gE6mvanldv1eRtzPDa5038ereZ",
+        "width": 1365
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLc5iF2SAQ7SaR0ha4BVnLzY5E9j8TVUcPDKLY0NXTpo_SpsweOaVfNHuTeVRttRY0CzDOnI65f9r05XW1q3IeI3XFlp9In9xk-muWr2E13iKVFxH7FA5zVXXRwIF0GguoYqsTX80adZfr75qCfxYBjqd1DmiyPY1NMY-oNzJQZeX9bNQ7x0S6Shpu5BGw42bhrcVibppZ0ok_SVgWYUROwsWPRK_SigAWFAT4HxKxEkYxN_ChuOG1ew4SrPD9fduU2HepgOoGGNvp5VxGbYKsuBZow2QRNaV7-f1zHSBJ4fCxCfUg1NG5hkkmdtWCEkGEZVlZADjed7s2xEwn5Kw5ybboe--7RdQJIUVlDW8AaK3V5DKS8NuQHX5uT6Q4K8naofTmwL2FM89UqKKKwplWBg5kCeigo",
+        "width": 4800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102189264609381330827\">Adorations Botanical Artistry</a>"
+        ],
+        "photo_reference": "AV-0GLfdcpFeV5-vd-OxiuFjHWUKCIq1sLsj6F0bRk0uNRobs46RZ80xhovMexOSodLKc-ASN5bAohqPuh7Av7M4UwKG0UMJNWqdVtgsSbCJGnxpwUD7cyFmQNxyt-PL83fbZl0yyDg5SPQ6ZXVA_nYCsOO-wfQZitDWtfIChm2wG8a1TS9SFbhAQwsUnWtKQ_WBVgjbJF-70V8Q485H4t7EG2QMiW9aidqVs_ral4sL8vFFvLzFzW4L_4XbeOrXDe7lLIsnf_EMtUipVPMeiADxaRHQoLYgnV6gTPIeUdwne2Pd2-bk6tTzA_-yjo5j0Xx4wzZtxf9NcEbc264EecLaq34EHrkwlZfs-lxu6z_UfgGFMtHTn8UL1AicvLNH3ls7atONeFgEfGRKOsf7UTHDinjBFLaWTLnPgPu-fz9NkdoF2g",
+        "width": 4032
+      },
+      {
+        "height": 666,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109343121576261135218\">Anna Kittitanaphan</a>"
+        ],
+        "photo_reference": "AV-0GLfm9FSLzcVPZwoq_fhL44ZtNmJsrDr7olVmdT8im0qIp4BBnkFTRIb3zqtDzreoC_GgO0HGZhNAXm-OtTUpfiPxVNQQP99gs7Fev-5QgoP03k-jNvqLEfliuHF3o6PGu_Io8z_irA0hOoX7saA-S-_Iqz4_VIknG9hs_uKqidzmeJe6LMLV4ct8VSlatyXAy0rrgf3L3doLhtFgIgXopDj1r5ly111Zu7Dt0gfM-jJchG1K_gNxVlJSe-o7131iwidxmWF3b44LZKSrBQOMy0RgykfrMQVBjukISGrcxTrpYi_yIlx4fjpr8FHtkEjGYVCNBbCzaNckjtaUeUFXxkayRu61l7Xi4wKUHppXVqIPwRNI5SGUu4QLdM0RUCuA34vQ1e5pYuPVRd5qYpozP5-X-OIwEfI",
+        "width": 1000
+      }
+    ],
     "place_id": "ChIJfWOcKdtU2YARJPb6vqpx17U",
+    "types": [
+      "establishment",
+      "florist",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13103066619020244516",
+    "vicinity": "7960 Silverton Ave #107, San Diego",
     "website": "http://www.adorations.com/"
   }
 }
