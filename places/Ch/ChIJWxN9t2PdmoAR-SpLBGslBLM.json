@@ -1,40 +1,281 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:10Z",
+  "fetched_at": "2026-11-08T02:39:39Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Botanica Village Apothecary",
   "place_id": "ChIJWxN9t2PdmoAR-SpLBGslBLM",
   "result": {
-    "formatted_address": "10112 Fair Oaks Boulevard, Fair Oaks, CA",
+    "address_components": [
+      {
+        "long_name": "5",
+        "short_name": "5",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "10112",
+        "short_name": "10112",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Fair Oaks Boulevard",
+        "short_name": "Fair Oaks Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fair Oaks",
+        "short_name": "Fair Oaks",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95628",
+        "short_name": "95628",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10112 Fair Oaks Blvd #5, Fair Oaks, CA 95628, USA",
     "formatted_phone_number": "(916) 709-2280",
     "geometry": {
       "location": {
         "lat": 38.6409341,
         "lng": -121.2699806
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6423224802915,
+          "lng": -121.2687144697085
+        },
+        "southwest": {
+          "lat": 38.6396245197085,
+          "lng": -121.2714124302915
+        }
       }
     },
     "name": "Botanica Village Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: Closed"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLekcT7L5a1ZbAQBqyPn21j3fFYuP_SXnsDU2ClnpM3NSRpxG51JWiuWWvQVTMdjZc01wDOz68Zh53BWb1B8ZRm7mOK0g5Tnic2egb_HYTJRh4yfOuSkFsnm5BL1vFL0ZuEfW4AJtk5FWuAnlrRW5knohFO88Y-B_zrlObAmDuqyQUOmLZuCfVFzdowae778unQ_9l53f3qLJAnY1v3lf2xI09aYxtKGue350aiNWDPtTOIwg9vzeS1TFHXvmtsGVk_0r8Jjcxa_KuL4SERWM1boCvP06zmW8XaEz95wlB4iIvvCTxweKxYELwLgCflPvu4iNHooIW2fQcB4XPClbcUmxrXHpKfOAA7hMg_C5PJ2coH-q_6dBxFIwdMWQyQQTqWEgZVY-nJQsQ4VsyueBJ62N9U",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc4P0HfZ-IcnEEbWH743leFzAWQArpZwTR4U1tN3PnKoiUoWCP7WZJQki9-ksvHWZhNgj3n6y_Hcx9IU1lQKVtouG0HYl32qIcGWrAWr_ZJwjANNuyQa171ifCtZI44_oNNZEhYHjDqBOL2N9pe1Amf4-Q4TiJrczyN4hS3aPUo1MNgm443nDoX7-FK6VuIcgJj73Okg2x2V3zKGNOcKV5MToRjnwZIFzGJet6tSn1MS0MxZmUYAlN1xVkIkPCuUYgbqjWnhnpCr9Rzj-lzd8gGbANWmr6sAYZ7sb4rbIwYqiXx8S-tl3nlsCd89SbS0dhhPtWwANDXwhTOVZH6yFuhnaSHln1agPLCQSHCUmAYg8fiFFycfbtxUNt87qI5Xx9pdAeMyePJkqFfd6byqyEmY9cc",
+        "width": 3024
+      },
+      {
+        "height": 2500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcch1hcOJOWnmKeoOvWgoI_HHO7BsK_ig0NjByjN3BXwMdoFF8emiJ-Rj8FMZ0jH27COmBkSFyuUzrmfXcrRP7amDtoYG1SoLGFIxFscvgyJH-KG3Pmh_rNEi_Ydb9itomt6xzTZIDYJB0hYxZMp5vJYaXqefh-SOQRvLEeRyGWxkTZGWBHXmesS_TNvE3ajJ9doUctjvBxihYu5J3I6O4Q-6xShu5_Nlm1o89wkFHmw81JHkLlZIDhvbrxEUpRt_IrxKgXJmlB0eXFjTdfv88ejSFZ553DuFhsRIhGQLJlvhVQf5N5iTG0beni8Wusg0d6dXOJbRFC1Pc2jUe5Nu9dDtWB-Dkhq3RC_0LI5NmqFyUij3WI7J-mEx2y0m5nng59gq0vBp76vbcPP3lMw8DVXyk",
+        "width": 2500
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeqkDN1i3gJiyUWjoig_98bwBaRgHisAs72vRJKRFc9flYTxaEfJxCJlsy1aAekAauW5W3lPJ_WtHGCVazMQdi7SCHQ3plE4gmIxap9pjBB5RGTlSQI4hUBeqdOCDFcEsfp7uqXLbLMybZKEMDrMgQIHboj7KZalHPTEs-mTqtO7gZQ0p5iaAjjO3aKL-gI7Fofk82NRVrGMUIL4xPNdYW36_pPIdye8zCQrQUZVza9_-fjjAbgcnerWJa--ASRxXf33BSHXOrOC_QkkXi2r9Bzgmc8CCOg5XNAycDJWyleRyDLbN0mEyjS1OVWdkDezYmS5F9NscSk2CGCONbdP6AQWwVz_3cQhv_YBOem9QB0u9ZgvnWkoN0CbS3LFSRbrt-LY6QUwxrHMM77pYi6m1HxRq3bGGZLm8dB-d7t1a4o4Q",
+        "width": 3024
+      },
+      {
+        "height": 1135,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdUy_d6MG-lC-tpvkrWdwnU8wsZcoLsykJypq-8wvkqzMoaINtGzJd3CGN8L6-zogJmDW4AXzRyTpJbahph5Sk9YOutwzz621fFTVMMBBnMv7Hgx15AFinQZQGt0SuUTWBy73Idcg2IUelcjlOe7ZNN5AxklF2DIzM-nLMIM7ifa-gizoG5XeqYu9wz6eCfAi6yXV-tzWhpSyg6nSIzoEO6j42gNMgnm2GbUvLKltD_UiNKzBHoTEAesEzpAfvfrhYkzs88l52bZhiHrjQ2vL_Igxi-DmPi-o8ns0pVm4X2LjE7yzI7Mt3lZIwp5gaHyxZN7CujrBmogltD2tyGkAY4_IECq9Z3r6cvWwuDKfwPdn9fxT6xHgkef_DtDDN2-H6jmNF0duQEwHzDQFX60VERzG6dk1TmCFCXR88mxR-RYw",
+        "width": 1035
+      },
+      {
+        "height": 496,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103603150582055240166\">Deborah Jane</a>"
+        ],
+        "photo_reference": "AV-0GLcLjFvyPa3OHii3NahrhGfH10_L27-oxOvNJDzeafxlVlodQ9C76EJ0Y2xNQrrVVFqLVR7cnQEdIZoKjhTFZYIlojbpMRo850zrH1MR2YIRbvEfTZLJ46ZlxbDMoqyEVIM6oDHLJZDHge1_mrfoNcU1-wGQHFpTQaCBUUiGYLui8Q9fJEpbAybin1TLVQ9M9Pw0l3bR3D2I2Bg68GQ1W9KcqSGrj3K7bmAQ6PWTyM7oHgVJ5Q8IJMujoaFuZpe0knSpIvOngtBAPYQibk1aUE0A6ID761gRzMsNFQRyc9C9IFozRe5lSC2fts8LwsMxm4Y6oRaY5CNlEjYZDFDTf7R-t2JDqHEHcRahXPzPx45XoFhmwn8Z2Zk3kE6_joSevzKl9LBIVhKPk7D9_GorsjGHFeX6wpw",
+        "width": 750
+      },
+      {
+        "height": 2782,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfDmihLFCLxqyAkVEKDAs_D7WDWasrVKA9g7ck6mZpg_h8-IMU6Wf6t0A-Vfp3_XOEqNgtcKwfHK_kmdY5sCS-PX-4jjrEwF_JkNP3q5yuSZuVJeO5uLDmeVvHKdmEGW5tRqd2TAnBSOoPvSHLd1uf5Av46LxsaZ6dqLVCi4-zD75qKCLa7rqiB-eN15ohbIBhLNN_Gq5lZjZl6AymAeE3ycKjP3uD-K42dIM0wFGpDRfu6r-V5ROCN56c0lh2Rb2otz4IPttjQ90vZWG_G5a5PogkRCjYIt94UR5edXXoMRFcMrleFa-rhcXq9hal5B254AxsvSJShpY7FoXVRn0c2NgDpCySNOXPLf8DZG93C1eaR6Xz9iQ8L3Mh2LjCgMTC3BKuojFh592jr_YbwvFx8k34",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfPey5M20ZtkmtJ8fYHlxs6KYkQX7B5j57spjTL9yLV79vljaKK3fLpWYt75oa7wxXQ-oY8PdlbfXVqarosTcf5aHOgzrWoun6giwdjYZjqJGjaTdtzBzdiOs9OVpFTyzTAo0HxYXk_vENNGP4k4krTp01VeikaHSSoXt1Z7OwKyFfn-4O3Pozj_OyC4Ff1yfreWAxg_9C2oWOmLXsHhB7DYvB-7ADPSY6H41xgy240qO83txjL9Y65FiF2BTAyfV3V2YypgNsNxTaizCz1dQ-KXFBZcMjy6QEFK2l8uml-9R0gHX5UpSt4oWec9fmSmlrLlENhUYUYsmTQDegS9UL1k0rjgcmBlhD_48HwCtu1BHUNEOGsL0pZneFLtEDmcLV0rCAYp1M7U4vwfKGMmPf7I1izoZMs4_YEckg9VErt",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLepN38USwTIx3_MTrSmHLzNWSeYAFrAjEVDeMt-264eZCHJXAP_BfG_y4hfrvV--nJSTCkXlLfhjlTcfoJ8uSMf2Mvg87o5d6V63B3uJU4JYyAkB9_imZMFfsiHjk0nrlkktZMcTm_KQzGiSk9wB8J5UXfj8_TVHvZ7iXgVHlUTLwPED2lnMjML-3phBnxnjAs_xv-tNz471tkrb0xEkwrtIp30V92U-S7KXbUxHrmS_RAQks15DcUih-ttdkSPw4AjcBIMAtWg2V4jyOsLNGCGQhTuUAvl_Qdjg8D1ha_6miIkSZMIBiAq-hIJC0AksRLbfuh2uFCoB4ZHU-4ociBLjl68uV80ya1dqiByQCWB7oCQcmEgn5N8DEi2E1rCAPMU38vzOiH7-2xaWo2S15ygYkoEvP4ROkaTHVwB1m394g",
+        "width": 4032
+      },
+      {
+        "height": 2870,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113465634329061839381\">Botanica Village Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc3wASblaSgjBTvblxvRFFgdKm3IOx3g7DPbvUO6r2euiDz7BV_zod0dU-666LVH0X7Zigqo__vcIgCdwKvgat4VfTjyJqTUMttpYx_Q41TbMkEMjZWsdenqGYkr79IIaNAOEOoOeHjhBQLT0S1q2U1ByKBuTfVSiJgVEIerRGaGEkOQYyxAcPz39ke7_mt3gS47Bt-2qoWyqc3S7DLhHGXfy_ninV4FHa6ncD7rHTcfc2UzV3C3omqtyO5Cy5pBzUedv-kMa7bXuyPXIxeoe5KAp_eJ8VU7erc380T5dhh77N7MG7jzEbNr9wPbnxwVs9DN6qjur-dzXwYgqx20HGp8dB3zGoud4UKKREeZAe6dmZYAbBaA7ewOZznHdkiZ6pRR7LuLdyCG4Y1aRCF5OXCd4o",
+        "width": 3596
+      }
+    ],
     "place_id": "ChIJWxN9t2PdmoAR-SpLBGslBLM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12899476374259706617",
+    "vicinity": "THE MARSHALL BUILDING, 10112 Fair Oaks Blvd #5, Fair Oaks",
     "website": "http://botanicadeb.com/"
   }
 }
