@@ -1,28 +1,197 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:47Z",
+  "fetched_at": "2026-11-09T01:09:43Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Paloma Salon + Apothecary",
   "place_id": "ChIJiXa9Gf2r3oARnIOBtwfkJyc",
   "result": {
-    "formatted_address": "3683 Voltaire Street, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "3683",
+        "short_name": "3683",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Voltaire Street",
+        "short_name": "Voltaire St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Point Loma Heights",
+        "short_name": "Point Loma Heights",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92106",
+        "short_name": "92106",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3683 Voltaire St, San Diego, CA 92106, USA",
     "formatted_phone_number": "(619) 432-2512",
     "geometry": {
       "location": {
         "lat": 32.739717,
         "lng": -117.2287078
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7411182802915,
+          "lng": -117.2275629197085
+        },
+        "southwest": {
+          "lat": 32.7384203197085,
+          "lng": -117.2302608802915
+        }
       }
     },
     "name": "Paloma Salon + Apothecary",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107160017594922453132\">Berg\u00e9 Garcia</a>"
+        ],
+        "photo_reference": "AV-0GLd0Zp3GW6iwXlEuxkJn-1gsdXIlES8mZ9R055oylQ8J_DSnDAphk5kwG-kx0OziYML-ruwYxbAlgsb0stZH2fZUqyYnlOczP17xzqfCM7ARMOeKiNSS0hlH4ZwiibckXkVvIIJiid2jcc98RUYvvNOLVy5zQbVZ5SNnUuacqmvBaUQHiszoDO1HNzqaFhjeFuW7BAnRvCvoab2dA0pjA0d8jSqBECUJ_NPYfuB3jJYiyj228DP_SIBEnzknKrn5XnbBgTrs9TbfJve8zCR3QI2_ftGXBXLXlc1mycf9rNlZNhM9Vociblf9xyCttTQTpmLQPC9-RyjfKO_7qlrcv4yjEhrahwTVWtTalNM1GsxuGv8Pxz3opS9W7BM3BoOKVLQgWY3wEbPd8JRkL1cJvLC6nYz0XRg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107160017594922453132\">Berg\u00e9 Garcia</a>"
+        ],
+        "photo_reference": "AV-0GLeYuSnZ2IFiYaciw4j56a5Lpf0D5i_7d9SZRbecFrfj0zjJK83L_9r5-qYXSA6a64v5xv-gAaoipBctYJdRPXemGF9M5CyRkr553RV8Y0P0ewB8KpSiavyTMSsyTF7kNggpAdAgFoovomfxrckYXe1rDNyrH0FvTfDu4dUbcZMpJ7hujX__0AVww1AdbvvUdYUTevsbA3k-XcBsVsZB-e_ZbK6Hme5-ePkH2bA70qNqgHuAo6TNXC6zXhUmC_uKyJeeA9tohS9SGOMmK2XXuwr3MnQTfWukIbkw_WUnlFRw9Sas4W3TnG2r12hZXru5sdzIYr0IUDkzG4dBBo5OCCotJHf8HjAwZLLOFYb116M8zRieI3_RdQ_IEryWl1_2PwQlXtrRPkJKAC4k3rdeU6nEWh4",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107160017594922453132\">Berg\u00e9 Garcia</a>"
+        ],
+        "photo_reference": "AV-0GLew-IiiF4qnj-nU_IajFc529I4wm9jxgbmoVCp25Cv6w12DnO-qB12KCJOC_uHzWmQHF6jUyx8plOleU_9lkmWxO4wJV-R3uh81SlRM7Shke3hh42nNA6NDd7KjzuApyBBVLM1Bg77UR4-4GzsSXTKX7d4OtePUM571BSAoK9Puko9cTlJ2ykypq3_QNMtPZ7n61Su7ZrsaXF1w79Qua8ojt1_nrzo2Eh_kUxV4Mj1k3MP6B5ziUDATLeK4Sx-IwCyRfFj07x8XIN0sK68QhFmXXUfNfXdUIQ7SavfEEqTEgQUkc4fXq5mMOjqvouc6-jCxWoR9QhYZNWJtqpj7r2OLyTyWrepLxhkVaVEf4BwM-I8haO6Kh6qpoM8lKfdJ8v2-MnD3AVUnZpZNDmpevkHQ6ZrPy1c",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105727544503224607487\">Paloma Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLczDoZyQDoKKO9ObO1kIGiE6adFb7Iv7Q0Ue5kxnF6EDrzLMK-PN-SXeIb-fAee4hHPKUy3ezghEBR1EBtMnbnrHwguyDq25kq7i37ClKCKs6GsDuITYbv_aMD7-31f7PlRWS704EvsvbwRaHuzybXNrY1Trp6b7VHhnal2PhTl6M_XCj6e-Kb2Y1CBPs__d56_7JWXmFk_rXwt-J3mNpDQr6OV0ilfYRljEi03gDksJs-gBSt2SExrw3r-3VUXJP340tOtkoVYE7wVppaF_GtjyJ4x4HpfoLeIzHgJ_ra0oKYZSnHgKq0U9w-D4vg4jSZANXKi35Z86CQIuuFpF6aFd8d7j6btkr7JOYN867Yb8tBTJsconBCDI5p8s2LfTxAy8JzxILRS0g1T2iih-pF8nH8",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105727544503224607487\">Paloma Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfx1Oi-Oi_mAsb5eI0dEMJYOk7mok_h10Q4lOcr-zBu2_Zqsn-0WwQPgrh2hhaV8yStTNXltJiGNi39rm5zDR-4CfkdSQf9SPKz21MN1zVLDkN6GrzELCAvItCqOBENMIYdsHA3Gf0nRdPMaLFbyFcE8B_spZl2J75LSN_oVuEmj4M2smqwrCyKJnh16RtmgrHtM9pcsdg4Fq1fUw8oGLRjLBYfaVOCKZ6saYUxDy-05J49mrGUpNF6Yyxfx_Qxzxgu422qJ7KYUkyUWrNzlkpzjncj5g2GotjfPTDCmBoAlmVOPnZ_G0Pw7w5RQBDQswskll0eQT-o-aW_6MAy-pPrvznbDBdh1tW_gRQxmcHtVzJ5QGWdN4xikVgE7nkSy0T3N4zgss4Ar6_LmxRSAFlRiWo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114510881931645914468\">berge garcia</a>"
+        ],
+        "photo_reference": "AV-0GLerEPIGPRhrqcwcfgGuZFV6L_Tssaq3TOGeFW-WfY3YvNorSM7gOeYYbmIGVwGaMZGObzkmqzwC1sBVAYIPaP66B4n5x8JFjjTCbRzfcfT_FvrMs3LQ_Jf1mVYZGxRB5YhqBbJG2oYc03ubUvR7U8gvH47AlXH46TkgI_F5BzjX_2q91B-053TewkNTUUOzePD9WXtpkCkOHODqhvR11AWxufq_sF4QY78pTnzMpNym0VY93TaOCIr6JaxCB9S8g4od4WOr6cyonHkOsoxQ91gic2lXPNCOcsrHnIigSZ_OdH4f-hMjMnnVx19e6Wb6bEaC6XAp8gYG_qBnbvb9Z8fnqxsgk5td2xy0-O3uZVHfq5U1XOQhBcXTRporexSnR8L_mxF-XcIvLN1TbhpsYcvMP9sh4e0",
+        "width": 3024
+      },
+      {
+        "height": 1941,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114510881931645914468\">berge garcia</a>"
+        ],
+        "photo_reference": "AV-0GLc3iSkhTTBk4EIECPIReV5NHNDYzSGb2EKHgxIAwil_gWP9YVO-KQHnatJ450dCZbwotlNUgNnTzqsGzyPPDZBkFg5vz1VZRNbs01BynNq3BkmzQqjOLcJRnd995pxyX0lsRpb8TXxuovYMSEifGZketazwGQPrEd5Fevng4yBJKJ9pv9ZIjUzwmd140cvnJDbL6XuE9W_oOHtPS8MNXhefI06xBiskL9aKw2iQ24fbKpeP8oJOwJ0bKBNGbbCEfc9-lSy9yacth5LLUAQciR3Wi2BA5C3nSZQYOjPfijW7F1Yzuf9W-kf8hCVEhB3FeZbvlwsweL5pUFhYB5sUk6-wEMe6a7fTEmHV89-GrJVRFxhoy_cw73FgFADR-iR80axs2h9hlLSChb-3_2c2qLP_-XMfIrzYDmh73T9JvKfVZA",
+        "width": 1284
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105727544503224607487\">Paloma Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdwFcPG-ONEtgTLnmij6gDxmCdG0oYFABDxGdi8fw6jzAtnCDQ7dI64VtnmowrpBVMP7I8ZsjImMuMFjHjAOOxfXWbEsfgIs1XL8NkUtprDPVOTSqxIS1i3yTyaaD2uj5aD7IEx-x-I1R667Jgv8G7hiEdcy7Q7SAcZnagKTvRJn31DQYXVylv2P0KFXaNGE9vqIjY07EHG_BcobDyxnaVCgTOdGXYjU_5PFri93grCnvUgBPwTMUhBX6NFLvMKYAdllwIrFDFaceT3Q3zu03RyWD-u7Y8FDmn8jHq1tX8AKtkvj_xDCm15PUT4NiSmWeS29yixxpx1-MZV5UIF5gJI5mqGiojkVp1uA9uQG8LxYiUghG8mEK-QQko2n77X5ObWiXcPR6Kfx2GZyC_5K94rzUs",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114510881931645914468\">berge garcia</a>"
+        ],
+        "photo_reference": "AV-0GLekwcCbCh3jyXduPvOxaWIMgO8k_gZUZbWdOMeocuXDWKE4e-V3le2PY4nyfQO-P2Cs4KIxQNTNimNEW2jICESEy8vhlnetprlLmRWnpS-oDzDf7J8hFcx0KgBxyN7gmxsm5u0yv__4dlry3BsEe6ZDXZTP_YLHmxc5085CDPcRp3Ak-fRSPt3arXFr4nBUDuyevy05JsUfZjUibf26Lowx5T9xsBSM48Fn1DBxavNwQ0T61iVFBFWnL3kAfE0WUkHhwlYSh2Gywy-tyNEmrWf6VDV428IvYf3YWcmfuPhpEbGhwAiZB3VhYYARh56EAdeBqcYggl34P8ugRgSPaepFQu6e7q0IWT9_A0uIopHUH53bJWGSIGtviVX0mhc4fMHGvKmL5kcEtGrfF4GeYBXpySGGgUg4WiBayCpWPv6ULQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107160017594922453132\">Berg\u00e9 Garcia</a>"
+        ],
+        "photo_reference": "AV-0GLdcqsykIFhwO2oFLoX8AOIFBoxWDENsGghTCEc-o9ektGuKAGpFl-YYVjnJTZ1dBHAiT6J5BtAh8yQfpEGjugp3M6wstXG9WnQXGMHhlXxs94sDrt-DTMB2hDsq6mRMPzeEMNpqVknGaz0PYtKL4qdn_yErpkLTjDml_fRewcO4nAxEEqPzHDPmQC9lN1Tdi3pWtRbfaIc8VRhGS3NU7nhJfiw_cvv9NaK5O0bhXtHcRmA4gg4WQa6txts7VTywotPoWLM-f3hbqJFf75A2wVlkbY-9jv1R_yKbFaH7-mqOvUwiArig8nHuqKJoqnTnldPv7gSCCXizspRTrKkiOizeJsgnP8F0W80FykR8FkhEruiCzDsOO-E6adL-XQmZ9ZAmarlEiMgOFrfdYriq7shm-mdzY84",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJiXa9Gf2r3oARnIOBtwfkJyc",
+    "types": [
+      "establishment",
+      "hair_care",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2821474413365527452",
+    "vicinity": "3683 Voltaire St, San Diego",
     "website": "http://paloma-salon-sd.com/"
   }
 }
