@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:13Z",
+  "fetched_at": "2026-11-09T19:59:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Erba San Clemente",
   "place_id": "ChIJx0afe2703IAR7DtWrhxiFcY",
   "result": {
-    "formatted_address": "114 Avenida Del Mar, San Clemente, CA",
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "114",
+        "short_name": "114",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Del Mar",
+        "short_name": "Avenida Del Mar",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Clemente",
+        "short_name": "San Clemente",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Orange County",
+        "short_name": "Orange County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92672",
+        "short_name": "92672",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "114 Avenida Del Mar #1, San Clemente, CA 92672, USA",
     "formatted_phone_number": "(949) 492-2355",
     "geometry": {
       "location": {
         "lat": 33.4270515,
         "lng": -117.6136708
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.4283780802915,
+          "lng": -117.6122527197085
+        },
+        "southwest": {
+          "lat": 33.4256801197085,
+          "lng": -117.6149506802915
+        }
       }
     },
     "name": "Erba San Clemente",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 17:30",
-        "Tuesday: 10:00 \u2013 17:30",
-        "Wednesday: 10:00 \u2013 17:30",
-        "Thursday: 10:00 \u2013 17:30",
-        "Friday: 10:00 \u2013 17:30",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Monday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJx0afe2703IAR7DtWrhxiFcY"
+    "photos": [
+      {
+        "height": 433,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111319803634405545964\">cbdsanclemente.comERBA</a>"
+        ],
+        "photo_reference": "AV-0GLdn8An5NwG0u3QAwaJvW86eXuoUqnYxpYtkfJxsJPedgrqAM62ogSi3WgU9gb7ZMyvQy78s_o5L9ee3LLceRMQ-agXiJY0u31P-Mbe1Ev1M14aK2rEmjEitoVxaWaI76b8-qqNDcSDBoDoOcVgvCW6ac7mkvg8oNK9ETn9MZI2V2gX1m9_FNSLWAxEcPHy4RuBfTNQx89_VSe--H-uaG6vaK2AuFNY5jk3N8yXCJ_jHWsD0uDouO4qeaKlQlHhgWM4mxdW2m1a8BnQDykZvs5ck01K_lFayr2B95IQi31MPTw3L-X0iwRC_pLVWN8QptdmXdGSkKxjW9c3Plu4rxB1sNdSFCpclFzb4yyBmJFIm8hifLoksSc6xrNWTGxz_pOpeRO7vCWBtopQcj8TSOFoWfWV4BZk",
+        "width": 650
+      },
+      {
+        "height": 3850,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102084542345981907576\">STEVEN B</a>"
+        ],
+        "photo_reference": "AV-0GLeYQwtG3EFpM3I5lpgfVeI_Kw2HTyK2mFVYC8IJ56Dq-l9BOe6t5UPEUksJXyDoOk6lW46C_R7-H35ypqcIaBJk8k0cBH95UrGsrvIKco5pqAxJh5l4_g7zmWMZHRaNzsQ7CTNU3Xaxgt9zy5UlezSUI-DI4WibRGzhhDKMQy5YrnFFX_-Cmn6RW_HlJQhYlscsvQe7z5Lqxt8idgndbQWsqGM5M5Nvyeh6Lm1qVsT8e2YPJwAAw5QDYlkGRIac_9VZsOONiLNmA4K2rjuu04xiRkagTN1RK3_LMK6KD1-w8EdaYDtB_OcbTz0_K7D1DmgHhYeo3WZ-MlOUrkTAwqztpC4aadrqVmfh3Y7e5gmWImQlGZiEfK3oJ1NXPZdbvqKfyGPAF5zzt_20fKwUHsKJ-XpTTnFraNDuWcOMDpuAKw",
+        "width": 2888
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLeA2H_siGQBcAu-nB_SNNhNSDm2gq4rUAME2ZJk8yQwHvfxFWUzn5EqMU6NyPW5AV_p2RbqUK--Ck4uxZ2jalN1GiN2kwM1sAPUakm71MRSACuj7Kcs9zvEdwra1fT5Rti_Y-DJoU1gkXvX5ROgaRhk8RRtPX44an6xhOfwmRO703cSJ-CbLeqyD0yuWs6A575LNJC6crusEUIRVzI5Aag_IAcxjOsMtJ-_MG2cn-_kwhZLvsfQVm0W9ulE2DKMNnebz7BoM9_g_pLq4YZFEFaXDFcVFPawkMkdxoVbpnLnBZBPhw_sEXzJbYyC6VQzx3kPuYm8yz2CM2-rfmKI3QE7KmnUwM2bE1jn4SQHQk9kBBvDbdVvb93zTl8AUKutCNvixSzQSi4iFWaNKU1n_ckeV23TSS6bf_wIi3tTY7QTjw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLd-TENGxg8bnO2JOkxJEnd8EV7gf4jCCWOaNJtjycQ7UpF8F5tsdWbDSamxOmXMYQmKybdvtT0RKRIF4ac2szjHb2LYwnJVhB7a-aR0ernbhdbkpkwxJrlmGEKKEyJhvryCM17-DpTmSYLrnQ5GHlmgr6mWX9n9S5z5sYPGxQmJXALmJrRjuY84DFJGNuSQ3QxrV8z8_Hi_yyDjbuOoRTnQvmHPk2fwEM68p9PKTRHSfk6TSFgsTR1harQjSpPGvs_gPGtb6zD3y2G-_QLuJrjF3I_XIwLsp4ghCiRqS3PPFAUSmWES-LM47jRcJXyCWMqQczN8Pu6T5H4hbOt6QXqLuJyRzxUaxz2IceF1BIcQoLmvAMS6eoslmBLg4xK769KHZ49ox3mTc2WeFz_70-3B7L_EQEztOfHn4o9Ney8t",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLdEN7KnXoBTJH_6yK1NzU1M8s_x-mQXKNc0A126n3VUNauZ4gaRBEEyCL4XKN4ZhiKSSiiOpJfQpKJeAX5mNEnpdckgt9CKykis8iyWafpUP6nf7tWUhQveoTJpdPZxB2IWKOkDiinvm36H1MdVSBhVha_pf92igFU2YT3W4Ug_gXKSmuZiZHxGv0Adw9VpY3-Vg0qLEoimcVkoxceHm1FgNsoB7XurA-yxTnM29zKu3wBjFDjFKX61O4cAr_U6OvUd3f42193UbRMmVD96zs8JcDQCkD_8pk2m8qpQdfZJNdh1fQv7RfeiMS9boX1MYYTjZFSVwVmqRoqpx7eUqOq7WZ1VbyHMWkhAMt_r0RssjWdncYwiaXZlXFGvRj3ShmHb7kuOTQ6XHgA6p5Vwst0nawFJ6XQs0GmH3VkGDjrJ",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLfctnYsPv77RPV1qqczzhQRnjk_-m4IDTZ1WvySAEZpqzqchKAjkGvbq18QQrCu43SxLOF1nFrj1aS5xlL6cJf032knpemXsMER4ZmVXigGlOVtw8XwwTYnRmV1MEzdbxe9yRJItGbxdZYQayJfDdS_LNaHW7dRvmVdqRNddFZe7XFBKtK2onk0uLOXgW0YSC70p3-MkPN_44kK58p71OpkV2o2pcbggqVJb2GACpDGPiLEbhqVGYEPk_aF_GM-LcyHXK_eTRbsgBA8OEDTZgjEz6oSW1ZSxgI-EKHcpjKSRTWuDX2xk78WnYuHbJnB03AGZBM3hInZtKwz8cH--mNvsFLfd9SHnHCrmfFtNoGKrMEmjYD0mNGittqZvZC9MKHTy9qorXqmWuGxIhM7OPn_sOJaTkq2D_iV7gLQWdrY",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLcxSppvBIfQYnafXDJYsMouGJLmFNkGyiRZfedIC_QmfbdnGkRi8XCXY2n_wJQdQLb05sW_O_JzJFk3XyjMpLz9gkR2G0wW6TJW_F3jXlWxnrDvQDvROw72s5z65KS9qSzFrnaE8cGUr_97gABsjHHpfXAW3-0ba0Pk42zi3jp5WgxoILyQrsV_plUv--j4PYtWanZ9ZaQIbK6W1VrkRFW5055BZ4uIxkK8fkHvux0EuFa7gmcRx9VeIKqmVti9jQ8w0pnF03FEC9NvJAW27pJKaXFF12SITnZ5bj7TKIyPZNt5rzwuL2x8FmcsWnWJ-M3XOUys4e8zmkFOcYyQBpDADFEt4jegGet44CD9Iw_cgkAyMsb_SxIwg10dwoZh2Ow82LMm4FOeRm8iDswg9dGX36S7DEncaPUNMnskmSftzw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100088762981256154501\">shawn smith</a>"
+        ],
+        "photo_reference": "AV-0GLfKLqk4UNPtMYD6aeRYLpImZWGbpMP87LQbJsbFmS9kyq9xbiHRhcwjLxkhkbskLZ_l9lmTjOsSkoBCtXfLBO_e84gdZHjygmYxNQiFdnGUKw7bCuyt7wRZ-N_dYAkYRh9sBk-f9vSVHNwIhm70-wBUckuTx-TGPaEerH0_3Z1OGpvR9ihiQJjDtFPC_xYywycn2_xs1eQhUWCgzUvwaN6srwKfa9x7McCDsf_W14sNwyOpMr081rYEN56YtgGpVLltMSyNxsOoEtym8Iomu2oT3rtzIipRhQUCRZKL_tdwMpKTazI5_lk8kXu1-4V8eJ8P7fY7r_uWq7o0lWxYpqUXUOin7kT6TDSaEvar6w1-iFhYN0PNg0KLGa7fVxRrojCZK8Q6tlc50k1l0i0pnVL84Ut4fGAhri8GryAqhAY5Ow",
+        "width": 3600
+      },
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105666880910498421910\">CBD sanclemente</a>"
+        ],
+        "photo_reference": "AV-0GLdswpnnHlmyKYq8qcKalbkhZiSWCxuIIlcUGpoEHlwsNed5lqhXvg4Zz1dNff-Qb0xsLrw_SD9KLozIKg5Zm3axg3j1H0DpDmuEoyrmmoxQjgh4AEDc7jiL6AqviREjM1r-cmFjVa-EF8nUM52S1M8mk4rNLY8Cw4P5sZ3-AoJH8JBYFpiGcwLgE5e--pbn54TxKtWZ1ld-_cluMv2K-6PCXUw4g24D9Z-b8UBBZgsAyGSpuUyCg-NB5QT3FabokjxceGdEla-4ZZFsclSQKXj8QNTfYU4InYUZhYmIyhiQ2pCKl50XF004e42KeoNIBFFMnPpbqNnif-2O4Is3GxnCjW1zkQM3_5u_IHmgdEXrnzajNyrs4izrZOiv3qb2sePC0nRd1GRRV3NMP_FP7-qaC5hU",
+        "width": 1540
+      },
+      {
+        "height": 1010,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117101802289778471251\">null Yates</a>"
+        ],
+        "photo_reference": "AV-0GLd_HzIP5aZDQDEO5Z_Gj7Gy7S96A_s0jf6LKIND6OGfn0MaN8lbf_t0FUpoqXWbZMKA2SoCOroGqk68X-FJ2XZAciaLnGVxXpeRkLFig5acbQhdzy95-LdBxGw5G9lSzosb0U3Oz5OFFtcpTx9HXE1JaCrlTvoRViHv9mpN7UjVloP6q6TfXVuz8fU8zYCLrymwxeD_qmdQOXGGgI8m4xVTLbNU1kTVOOYqu58L8I44GzeO_5BR9nQ5eHagvlKAWOcdD9GEZlse4d4bF9JvBUlhFb7KOsHeLTei5UKLe4HrmHp7W_EeCam3NKUel6URe4FZb6IPnlVLNH1Kt8rAVqgDGWzVpke8-BUjxxdxUfcNGZhi99mKEieEtDhuJG3gstJXW_BGBY556U-2UAgHyN9Ru7Z0IwI",
+        "width": 984
+      }
+    ],
+    "place_id": "ChIJx0afe2703IAR7DtWrhxiFcY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14273422469344148460",
+    "vicinity": "114 Avenida Del Mar #1, San Clemente"
   }
 }
