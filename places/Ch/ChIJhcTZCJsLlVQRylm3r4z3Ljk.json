@@ -1,38 +1,191 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:45Z",
+  "fetched_at": "2026-11-09T01:09:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rose City Healing",
   "place_id": "ChIJhcTZCJsLlVQRylm3r4z3Ljk",
   "result": {
-    "formatted_address": "9115 Southwest Barbur Boulevard, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "9115",
+        "short_name": "9115",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest Barbur Boulevard",
+        "short_name": "SW Barbur Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southwest Portland",
+        "short_name": "Southwest Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97219",
+        "short_name": "97219",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9115 SW Barbur Blvd, Portland, OR 97219, USA",
     "formatted_phone_number": "(503) 462-3240",
     "geometry": {
       "location": {
         "lat": 45.459117,
         "lng": -122.7096584
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.4605051302915,
+          "lng": -122.7082372197085
+        },
+        "southwest": {
+          "lat": 45.4578071697085,
+          "lng": -122.7109351802915
+        }
       }
     },
     "name": "Rose City Healing",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 19:00",
-        "Tuesday: 12:00 \u2013 19:00",
-        "Wednesday: 12:00 \u2013 19:00",
-        "Thursday: 12:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 18:00",
+        "Monday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJhcTZCJsLlVQRylm3r4z3Ljk"
+    "place_id": "ChIJhcTZCJsLlVQRylm3r4z3Ljk",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4120502892706093514",
+    "vicinity": "9115 SW Barbur Blvd, Portland"
   }
 }
