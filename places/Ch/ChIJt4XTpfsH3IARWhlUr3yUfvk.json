@@ -1,40 +1,268 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:10Z",
+  "fetched_at": "2026-11-09T19:59:00Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sahkara Acupuncture and Apothecary",
   "place_id": "ChIJt4XTpfsH3IARWhlUr3yUfvk",
   "result": {
-    "formatted_address": "3252 Holiday Court, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "118",
+        "short_name": "118",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3252",
+        "short_name": "3252",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Holiday Court",
+        "short_name": "Holiday Ct",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Jolla",
+        "short_name": "La Jolla",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92037",
+        "short_name": "92037",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3252 Holiday Ct #118, La Jolla, CA 92037, USA",
     "formatted_phone_number": "(619) 307-9706",
     "geometry": {
       "location": {
         "lat": 32.8708103,
         "lng": -117.232602
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.87234498029149,
+          "lng": -117.2313135697085
+        },
+        "southwest": {
+          "lat": 32.8696470197085,
+          "lng": -117.2340115302915
+        }
       }
     },
     "name": "Sahkara Acupuncture and Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1530"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 15:30",
-        "Wednesday: 13:00 \u2013 19:30",
-        "Thursday: 13:00 \u2013 19:30",
-        "Friday: 10:00 \u2013 17:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:30\u202fPM",
+        "Wednesday: 1:00\u2009\u2013\u20097:30\u202fPM",
+        "Thursday: 1:00\u2009\u2013\u20097:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Saturday: Closed",
-        "Sunday: 10:00 \u2013 17:00"
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 737,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe29NHHwe-HE0XAwv5wEotZa_qd1h7_pkfS0vA1lSe1SZdYjx9CyXZygS5fSxJic6qZqYC5c-RC-EtT_6uWRnYQMrW4Dnk2jzO_gtoTTMwGD4y-7tPqWr_1bIvlBZL9dYeB2iYde4v6-Go0ihKh4BtWJaHMBjapK-jr7-lp0bEb0tEqJNQdhi_fE8C64PG6X-f51BAo4Q3U5tNzaDRxrMAy1uaVxByaV0dH22cTeVI1nNzvMT6Y--3PYHz3qXHZPIsyeHg67NVdkQ9_V1jD_Hl-2j4yBmychhYjW4-FFDwRnVpE5IXBSL6VenopaTSQ894ZoikDrj-UM1rBMK4XenL-YZh2OG4B4kUVMcbekoQhI-JKEx1h-07WxHr_f4vM3BTl7wIlDFTeao-umB_0xwuGCncoAFo",
+        "width": 750
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110083959410009775121\">Tisha Cuffee</a>"
+        ],
+        "photo_reference": "AV-0GLdWKuSI9_WQ0aItag39abIV0UoTGALo3thhhTtLmKZFV2WTIhFIttyXg_hhZjx3mi8-3HUniBP-lY2sgrX0gOf9wwxqCJz4_Gz5E2UUjoJkJczwVKp4SCw0xeQs3GXu8IQe39vXnAp0i8vV7009I9NXwYsGRQUuB3Eg8yNyL3xnAJa_-j2O07jO_xji8ESxMvXDSh7FRNBBrpwhJdTR8vP-IDBjj6htj2avZEA1gqOW1QMhlI1rgLB_7Yf_DKmfE5PzVMdGOmB3NXwdqiY55ORZ00qb9TDnOCnbmSfJwfFDBzsgiy727YSxb3AJ-SrLMvV0ZhRGmvkmZ5Z0ywGEIPsNUj4xX1FnStvN6KD6ubrduQcgDqvgA2uP5_EjmwPz94qn4o3dEwLptq61tIziA91pkCM_U-A",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111899051181935990997\">Shilan Hameed</a>"
+        ],
+        "photo_reference": "AV-0GLdZyEtZ1gXw0XMuMeH-ygApjnC9nnml0v7lNZAjwAu5JJNvaWkzeRfB1NC70_qcix6s4qXB3C-e5KBHuB4wyURS1UjMwVei1BO38O6Rn4c_j-naKRQ0Ps2i8bCCoUxBnCP-yh2hMYbnzDVf3nJ7s37qRfVTVtxhjnABJHdjMjD_Q02PKKRL3CFozM1uV2pEV3tiKIayUtLTK4hwuOCr0qGXr6s7jbcirIHJsiYs5MmjLciIbVyNK78adDVbFDMO-BdWm85V1WcMnWSa3Yotm5DX8R94PvPq4bX8O4UHz8two2Qr0zWOiQsBqJ6d-B1kO2rtjiVp2ikpnmoKQguz0mEsQTxbVAeK7c_lr0YVkrrA2XfHbq-_UmscI90FUI_jjCcm3nG1z-qtajIf8PpgPVYooJaUW7i5ev84SLH00xtNTA",
+        "width": 2268
+      },
+      {
+        "height": 2659,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeh5Gkma-sG83o9oTonPqaEDKnz0lt4j7wV61n-R59686HoeegLEa1IYOvH5A0HzYLfcGqViPgD46z0Pp2Tq3ywZUqhYh5crab-4IJG63VhK0pepsoWmGm7IdhOX0NYbzttxbtm6WwLzeVu0weg3oc7oCRA8plMCMoj6iTDqcPpTIhuN9um8xNIDUdUdtWNihk_1tuudtwTXXOO8DOV39DyDbDGt6520yrAoHRQ9MqqQXZ34PghIu9QuonIrihDbfDnhG_DUsLrv7IOU4cY3Uqeml7wU72MbkRDwwiaCMhOP1Jb9sIKbkMJ48uZRJyY_WkCxy4CH3cIO6lrWJQjaeSuAVoK3ri6jU-h1Z-2QwgDc2J3SUHtdkYAu3bGspiocxuYXRFKovsAc1dv-4KUQTsqsw",
+        "width": 2305
+      },
+      {
+        "height": 3420,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcYKRptxO9lNQ-gtuMUyqH7Eeys9RGLjTVUrcn2e7O1W5OMvNlkA50vf_r8cAhjjFPewfANG-mO7bqB2Fp6oTVDbS9lxfVKk4obAefdmhFJ6LjNeUS7s8nHMXTXHxnbcv38SbkAcSLe67Sth3fIQRV_YmNMtukuri9UNY7lFpuGnv8MwIczstBblMrPoGanvU2iXVlIfPXaEXEGQuFlkgCCrmRs_Mmwz66ei2ntpUp68OLj40ZC2E_tP_sg8yivb81Fnxte_YllPDgDUcJFaxNK7-kba2gy-_okUmOWplexTxLZUopzCAGIUcyWTGid3z8rYLeTz6At-FEurvchKDmDgHPwnhW5-reDkwXgf0EWD8RhfRHu4g5m5QtDZ5MF57IzDMtIVFEhc3VsAbaP_36GGRY",
+        "width": 2927
+      },
+      {
+        "height": 1164,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd6llf3lldZ47LZV1aFRFdXyJj287xE6925S6gkzk7lhabMYwYQddLS9qZw207k2gP3BBLpQazNV2lqmFZCfg1292e06SzL0p8eSC6wq5KVRr6p4YEfQFvKCD_A9z5FZh9tEn3p4sgzLvCIJhFZBcZOgUYLbMI6QbKti3YsT_oe9PAlAW2GHwIgfbwLOFqMS45j40GdQGfBEexUEr7diTkP2aJbFzvccTHR3oSbFdeHoDKVQYJKadsUpmq5QUUyjTLahStsafjTuq5_7IUbXUz-bYwzGT-qw8ECq6wCT-hiql24Y0QRVjt3wllT-Cvw2aIKBySGOVVqXYGwy4sTmfjFV66R0R8tlHVo0KwzyZzwWCRwCWBzFiGRmlDu0kZwJVKsLRlPyYb_MKjdgnrbixHylYk",
+        "width": 1170
+      },
+      {
+        "height": 2025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd6qilfvxQNqH1OD_MgLS5VWMo4sECMwXmqLtQMB4OLnxFvCSs6k7BnDycstWWHavUIzo1_dBHWdqujvo6IfqiiN0zrv-vUVk1peiNcNLxqYMV7OOFfoKDZd88vHk_i2ukKR8-7HX3liWFXQp2bbaIC4ZGRtLAFdgTZgr9ndM3cJvT2JFJiLSf-JTaH2yNrdUhfj_2qGCNH2LEFQARn1dFsv3QegaNHq9xoWXNVb99q9P2MiNeRBs77pc_FMKNYK5H0JFsFN1scHMsfftaYWOru7U_ytD-JF5xGPkX-vZM2VBi0ZqyLND8Ws6BLeRxs-dIrP-W4bPj_0portwZEsZE9GCx3scHNUN2RTqnRMvd3S6xbruBM0He5UqOE1i5kfosKlYZRzZ_cDDyfTHiAxkejJjjoyoY",
+        "width": 2025
+      },
+      {
+        "height": 740,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcofLBhL4yGubxSBAZMEH4B7xJkO8FcLCUe7hxE2kA3oZ3AS9Gnj8HDMx1BBLFAXWyBSd6C4d3pNP6eOCdGfgGOaRY93Xz2xrjsOVgqI65WOmiDOHp-DJhMOiM6kk9FuU3HbbRPZtsk8cLVkz0JrF2HWHL6uW0XyqiAxXiJoZMnsm9ta8kgE_dlzsxVy7liOb9CzFGZa7Cj23qO_aTF2A_iZ0YEiBPRB5RxrUA1CwM8Bj1yhS_3r2W0HtBqvxEf4SmleCJeOZe125aVFB_FL5r_ID1M1ARgh8V-JDFfeVqT6WE8khAFZdSlY1XL80B1IuLk5YTeuChBE3RR3QcVWok4t1F548Gn8fETLRl59tl0J7N7CRUCp4ABpZ-EYDBcgxRU4cuzBwyKO8oCxWrVVDUvIZswfrk",
+        "width": 750
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111899051181935990997\">Shilan Hameed</a>"
+        ],
+        "photo_reference": "AV-0GLfZmbjhhxaLGwG7orEpvvfVw0jsNUTqPEHzcZgkeWGs9Jtyi5vTsHZDZSoPksfuK-czNYXzzKCBdKG7ORk3AoNixBu3reekQguiDt1CAW6X85lcHNHSkxBFD3ZEYPrBz6A2TMOAGrbH9WqPzjK34Y1EoxThPuZ5ALsod-fFS6jDYX361fun9e828XA7Srp8UFGAsx2EM3lB27q6Y-FjNLAB4IJgxgtFrTz1iaVAg54gUV1-ag-5AVEMQd9y-4BjuTRop4c3esQfOJRau8M_V9y33ZCxHPnwhh7xrpwNR8DyYq6n8R_uVWkHICm3pwbtIKfMwj-uJvjVLly0PZjQrhFeuQmtFOvbrchR7pvTnrbxDYb2Klsx-b4svKqfXKEODtXA4S_UFR2T7MdIPM1acEgO6aWFrb9u7SYoDgTzuI8SAQ",
+        "width": 2700
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104428088865173726777\">Sahkara Acupuncture and Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeP-59qfbI2hzXcXGNj21Avz4N2uCme3r1279IjeNJdW5Yngesl815dswSrcf8TOewMtrzG9ZqssEva6SAjsW7uTbSA-IyMpOjNv6HrZSheSwfrlxpPpTp30LCSM2rAYoh80wlkdm_WaMxphSaH67c_WMPmjYcx7NG-Z2TNPG6RWOa47A-2ilFDQWlMxNyDkI44buJG_dYsXiUvaO98tmNZyUzksh9orXH6utbW8k8_9uTZcnHCKexsiMOnfxq9uVNgEoXBKkQi1kEAGbRHArJA95dQ-5J1ALhjvlC_2OGzFKnbytD3qQ6XjgEKs3zWa4deI-LIPxgH3Ch0KyxXl9ZQ3id2Ygny_g1CuglSbIanyOcDClp51j_ye0imsJ3IK9CU3taNsvDfsvwpqjcMd0AGSj0",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJt4XTpfsH3IARWhlUr3yUfvk",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17977970025747978586",
+    "vicinity": "3252 Holiday Ct #118, La Jolla",
     "website": "https://www.sahkaraacu.com/"
   }
 }
