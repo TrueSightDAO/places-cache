@@ -1,38 +1,178 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:53Z",
+  "fetched_at": "2026-11-09T01:09:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Moon and Ember Apothecary",
   "place_id": "ChIJl4qPGCxV2YARi64AGltM9h0",
   "result": {
-    "formatted_address": "7224 Camino Degrazia, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "7224",
+        "short_name": "7224",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Camino Degrazia",
+        "short_name": "Camino Degrazia",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Linda Vista",
+        "short_name": "Linda Vista",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92111",
+        "short_name": "92111",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7224 Camino Degrazia, San Diego, CA 92111, USA",
     "formatted_phone_number": "(708) 692-6717",
     "geometry": {
       "location": {
         "lat": 32.7723381,
         "lng": -117.1659736
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7737895302915,
+          "lng": -117.1645572197085
+        },
+        "southwest": {
+          "lat": 32.7710915697085,
+          "lng": -117.1672551802915
+        }
       }
     },
     "name": "Moon and Ember Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 8:00 \u2013 17:30",
-        "Wednesday: 8:00 \u2013 17:30",
-        "Thursday: 8:00 \u2013 17:30",
-        "Friday: 8:00 \u2013 17:30",
-        "Saturday: 8:00 \u2013 17:30",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJl4qPGCxV2YARi64AGltM9h0"
+    "place_id": "ChIJl4qPGCxV2YARi64AGltM9h0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2158997025532718731",
+    "vicinity": "7224 Camino Degrazia, San Diego"
   }
 }
