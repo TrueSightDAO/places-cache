@@ -1,40 +1,234 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:04Z",
+  "fetched_at": "2026-11-09T19:58:55Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Popp's Apothecary and Oddities",
   "place_id": "ChIJpQPZVePzxVQRZBjUzVogSMg",
   "result": {
-    "formatted_address": "21891 Oregon 62, Shady Cove, OR",
+    "address_components": [
+      {
+        "long_name": "21891",
+        "short_name": "21891",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Oregon 62",
+        "short_name": "OR-62",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Shady Cove",
+        "short_name": "Shady Cove",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jackson County",
+        "short_name": "Jackson County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97539",
+        "short_name": "97539",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9418",
+        "short_name": "9418",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21891 OR-62, Shady Cove, OR 97539, USA",
     "formatted_phone_number": "(541) 263-8007",
     "geometry": {
       "location": {
         "lat": 42.6161402,
         "lng": -122.8118885
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.6174419302915,
+          "lng": -122.8103570697085
+        },
+        "southwest": {
+          "lat": 42.6147439697085,
+          "lng": -122.8130550302915
+        }
       }
     },
     "name": "Popp's Apothecary and Oddities",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 18:00 \u2013 20:00",
+        "Wednesday: 6:00\u2009\u2013\u20098:00\u202fPM",
         "Thursday: Closed",
         "Friday: Closed",
-        "Saturday: 9:00 \u2013 17:00",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLdZsHD5qiMm-LuScq64Gz95OCpauCS6bbx0j_j-NzlhiN6IYKcoI6mxJ7MCASWBo0bbh2TdoSRwsslDx4ZD2bKxeUe_MZa5a2uiEgj0EQmpgK0sHkt66Soc1TGtnubTtzNWAEiiNUI6Cm4MgonbxG044M6epnEKJS_XwDtJ2wupkAVkIVdAeoNUE_CiogU9P1gPygUQH9j4-Z4qhAMpn2zSDk2vSPZ_1MC3sGbtTogzNuWyulsZxj7lAXdMMJfO5GD7HiOipb9G488cFe8kSDfyeDHZOH5uw17uEg5IAxa0m7Oj6_NwhAeI4G1pWNoXhBzyakH7WuvhcPbc2PiroK5MHcMXdkF3d6uUIADUQdXGxWGe3c7Y7_F6jxRsZuBPu8q1z1KvAtx3nSeE5YBiT0OvLQ",
+        "width": 3024
+      },
+      {
+        "height": 501,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLeQ9vZutYKdm9t4-cajuJqMjh_muGw0NBuYrbw_9YIx8obUwAC6HasCTGKQUe2pUJLF8Ve1Lm5dRehRq-Buu5jCknt6PJL2yV1MrjAnjY7fNSAc4vmUh-_OWkuiG_Czglg-r-VBEKdrfylENAHlIgNqYRlLwOr71sVvwoywStkecC50Gu6I9Nfi6UTeDqQyS7-LbgbqWjqDMFfb1_O8PDTKx2aYkvQj2O3zuW9BVTiu68Znfq5XceAmeWdoMAFmKwwXInkxgf4dJPdR2Pd_7yznubs9YyNdUfjk0MFkRDolLcdcJP5O6o7fRS_mctpgJX0_x7y1xxysm5zHvsrl-jCSMPwohBAkUmy6FFlgD8mCQr4jKgfFKtTkizFlU4DaiIHqkrO7GgxWbvlBEtv2uNMedgaHZYM",
+        "width": 888
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLcOz21MzBbM5-gc7sPusrq3YjQftPyC4DeL2sQybgcJ5DFnj9fO9Di9SepYC2S1qzCukf9Vf1J_YgyOYlkjpfrDvt0phDDIaBxemwXcfrirfgEXgD2q48OoYUOVU_wxedw0wqJnflG8nPidrIEmJe6ELxlDt6rYfMVNLX3ONnT1ZIyzdvzOrqyaMgltzRvT3uM6kDL6C0G0ZCBwyg3wh9xk8nhQf3jnR0ydHeZDDg0WynWrFEFS_kCrYGZdDmpHw8eiDB1Rq-hfMcF24dg_89QYvqvCguQESEpKwzXpKmt0fG2SYU7pObjrZcZsnLt9xK9QItrA_g9_XRae94yG2ydfFhh-Uvvzs35RyH8Q85Aog0Dzs45STDFvdklE4wlJfULpGCe2cuIhM7LTA_yC5cmzTMOi",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLcIEViTH_mUhaaqti0dDBR0KDZTvbKDRlhLQj0dy1DzVDnz9K1wXtUS7DYmrZD2s8kWZF8i2p88DxWwrMiiTS4kMkCtFM9KDGo6z2Iuw7M9SwFaVBimCoVeWO0n2oj-lSPklSXnqGGbibVzPrqSmYroDatGwUxxN9IQ59EYKZs9QsyoOTi497sdhFn9E7Tj6h06rnHshlp9TH7YGEarh0BOJlF7fphNMZd4Vl-xX7eHZmMcTbWrpoDpaVyXv-drER-ft48GOTNRBQG5gCcMxLdmn-QxRqe_NiVt8aRnJD0H7TDPWmub23k4NexZeUE_KjBNCaPN1HZgCcuS3leYp-VXBhJiKA52kr21RyasfnMq-lNSef7fh4Zzg8D_AmD4-OAz-DAw7cqCNB8WTE0-9jV704I",
+        "width": 3024
+      },
+      {
+        "height": 501,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLfZ_0M2YZiQQbPMCSMm9zm4UxIO8ivcQK1HAuEyI6GF8VeF3w15lrPM9STmKMvdFeotzZRD6c-dFH_wiuGmGtkuEWxv-8yzf1XicKE0jKAS6vPwYP0Aez3Ku40mHXOsIYbPELsO2pf9hOKxvWy-bEepHohicIPcTu487HUYSdi1G_p4L-UcLuOLgNXD2S3_cxxl0tlIqUqU0ZaAkl-LP5hW1D2QMfmj-PaaIgHdu-QBNZDIsOLKTTetan7PYedUdJd6MGyi2rdHcXedqdiZ5WADLyMpsb7Bpj3W9b3m5Ul-nLknjE0vR5_Fn4y9MIxmr8mfpyArDoJNGcEAVIdKXaH6l1tNnEOhUm4gxPQlrXz9dNFECUvAdYb6NXAdrCyuSs77BW3dcQXPmpAuDcTem3MY0eQ",
+        "width": 888
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLcXejMaxvFYHkO0DxhXcwXqvW-xsoE57LzFU2Yj3vfQ0RkcSGjgO2nIB17e1jbTw-9DaeaGSBZ3rdKYhBZI0VDMjN4ctYGr5HCP6ov5ZAlmBAW2tZ9JP11aZ_iKgGFkjWPAk46EPvM3SvzwTLvicrXYF-IFpfqJAfVo3GaRFl1coEsExMEkkrNgIsHmL1MHknzgouZl5T_dYox_IP9Ncqo7CfhG9wSkASzO8zJaOr2ZORrlW2F4PwSexLNvmgL9ljLqP6EvS6wAj38_WXPG2Q1-_ehlcBzBb3wovV59YZl7_gyt1BfrWlo3HWM1EupM_J4TSvvpGkZ7FuWFt5mnYVmXgxZM8aPWVpkrTqHsxo_1uPcoHKaZKe9Ot_aV8GnxHf62_YdsFbcHCeVL1MKb48xUyQI",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLf_VgXOfjTjgStq1Qrte1BoNP2y7NGc6-gkKUVfax3fzftrdHC_6rKNw0swz0mXj7pant-51aKFRYmYZymuMqcdaOVkxpMvKjqTIPfjzd3e4EvHArrRLvYCHyVOESbVUoYi4skxVuf_g2mFrD-AV5HiXqcwSV-VH-nEP4yjoBTPDcKtAUg4Z4ggz9h6rlH1xx5ArC8qauw6HJRJk1Wf9O2ubfwptNVHYy9tTCVW0mEsMZIPEplHaMCasA5_LD8oxQNy4sGzFCC8vYteq9a6X8fFudC21kx08NPLK4gLGVy5umztV3gdPeitpjt8jA5tksYKgPIy3MDIwThJSCdWwISubhtMccuX9L6AS64EkzxzoLlliTd-0_6A-tWdk4ywcOPXFa9U952eNTjzMP4H0Rjqy-4g44M",
+        "width": 3024
+      },
+      {
+        "height": 501,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLcLKlaf1sERPtIY_avAIzsbXlWU8zwvzFcJxCtHuFch7FQ9dNN6REazcy3XEPCLCfp9swhx00ORD2wrbA-jg99x389X_DbmH3-pCUMpB1TgTxw8F6MLLEDMeuqNRQ8r0O4SpPt74J6iFmR0qrsXolVhfsUKidMHVPx30e0PSj5Eq6CARXfSSElwGUSnmOF7vntce6f2ViIgCLFGWjilaJaNe3ZgF9G7vJ5mEkE6xhBd1JZq997oKlqYpGzpn7k5E77vqYQngr24_lBQl3abjT7jV2F6GKkqB8KmAMFfIlplLGqB9KPYo8_fFVTsPfWPBfdf7J--Q57v1XTxBVQss4G7sINZ3hnzoKeRzGWO418vtwYBfFSelSR3SdKUndhKnqyv3euC3T3HSz1sHwp14QoMrFbHrc4",
+        "width": 888
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLfCY-3C2VHMyz8QJMWmqP8AeZVI0JG84biIJJZfyIpTBtkK8Jxio4qjQojWDFJIMmIksvIYJlkL3mAsCtlGNmLCqOabVNRaqrTzmr00Iis85pB0S0LWf2Lgu8HvzisMptn-cwYxlVF56NfpIrPM_vH90AJuWd7ZFcgqIB0Rh5jP14AVyvrQYIzzYKc1FMj6yuq-DobAbOxWnSacpbxcV79cQR43QC7tk6snHEyCZKWjmN7YvWkS2gfibyo2I0v8hzC4JgnmbzDgPOw0EgBOlXttUmXpQLIvOODpnKQ3T2H4w9kGF4GDjmlaQKWg-JezepqY_00ozbmOa-1At-hdvw47h_rrbhOkr0MJR5hWQ_AeofESPzXOS-mtQrOSkpHbtNDiUAtHOYGrUp6RoYHqZGaq77QyOIU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101768872862689381024\">Popp&#39;s Apothecary and Oddities</a>"
+        ],
+        "photo_reference": "AV-0GLcFQ44gpfnzSmRvNr9JbkUCeN0xZu6bef6xpSJbrGHnwuiaBU32RKBs9FQQ4vmZok21fH5ALQcop_TQDggAiAy_TWYjHlE0Wny86jqjhuN8d1r9OP_wFQn5bCaU8RQPF-Jwe18Gn44s4WsgE_UrLzVY-bNIy3SH45M89hZrqcCVERlYr0f7IvDRxQkjMXRvwhZsTvmQgbuFjvXARtlyjtrr9XdkdlDuW0ur_Nhu_M1TQLHs2MPyr7GhFOfN9PrxYLby99W6wdIBbxFIPDLgYc5VE-XCdGbhbb-i8EnrDB-kmNeNrxp9tU7WuQcDiZ0JX9ShBLtNaBjxpyk4yHhw6044-kvtkEfDph1fT1EGfuTnaxs9n0hp4VDdqC-pwA74iKl6LanrFZAJn3eNXFlDxSqryrK-ii4",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJpQPZVePzxVQRZBjUzVogSMg",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14431820580281129060",
+    "vicinity": "21891 OR-62, Shady Cove",
     "website": "http://www.poppsapothecary.com/"
   }
 }
