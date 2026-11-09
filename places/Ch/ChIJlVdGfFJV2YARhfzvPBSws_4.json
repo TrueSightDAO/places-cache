@@ -1,38 +1,206 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:55Z",
+  "fetched_at": "2026-11-09T01:09:47Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Duong Xuan Duong",
   "place_id": "ChIJlVdGfFJV2YARhfzvPBSws_4",
   "result": {
-    "formatted_address": "6947 Linda Vista Road, San Diego, CA",
+    "address_components": [
+      {
+        "long_name": "F",
+        "short_name": "F",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "6947",
+        "short_name": "6947",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Linda Vista Road",
+        "short_name": "Linda Vista Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Linda Vista",
+        "short_name": "Linda Vista",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92111",
+        "short_name": "92111",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6947 Linda Vista Rd F, San Diego, CA 92111, USA",
     "formatted_phone_number": "(858) 492-9835",
     "geometry": {
       "location": {
         "lat": 32.7856692,
         "lng": -117.1692372
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.7869335802915,
+          "lng": -117.1679113197085
+        },
+        "southwest": {
+          "lat": 32.7842356197085,
+          "lng": -117.1706092802915
+        }
       }
     },
     "name": "Duong Xuan Duong",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 13:00",
-        "Tuesday: 10:00 \u2013 13:00",
-        "Wednesday: 9:30 \u2013 17:30",
-        "Thursday: 9:30 \u2013 17:30",
-        "Friday: 10:00 \u2013 17:30",
-        "Saturday: 9:30 \u2013 17:30",
-        "Sunday: 9:30 \u2013 17:30"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20091:00\u202fPM",
+        "Wednesday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Sunday: 9:30\u202fAM\u2009\u2013\u20095:30\u202fPM"
       ]
     },
-    "place_id": "ChIJlVdGfFJV2YARhfzvPBSws_4"
+    "place_id": "ChIJlVdGfFJV2YARhfzvPBSws_4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=18353206507433098373",
+    "vicinity": "6947 Linda Vista Rd F, San Diego"
   }
 }
