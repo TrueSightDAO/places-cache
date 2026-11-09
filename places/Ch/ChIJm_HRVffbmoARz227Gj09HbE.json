@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:12:57Z",
+  "fetched_at": "2026-11-09T01:09:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Token Beauty Salon + Apothecary",
   "place_id": "ChIJm_HRVffbmoARz227Gj09HbE",
   "result": {
-    "formatted_address": "1715 Professional Drive, Sacramento, CA",
+    "address_components": [
+      {
+        "long_name": "1715",
+        "short_name": "1715",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Professional Drive",
+        "short_name": "Professional Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sacramento",
+        "short_name": "Sacramento",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Sacramento County",
+        "short_name": "Sacramento County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "95825",
+        "short_name": "95825",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2104",
+        "short_name": "2104",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1715 Professional Dr, Sacramento, CA 95825, USA",
     "formatted_phone_number": "(916) 891-5720",
     "geometry": {
       "location": {
         "lat": 38.5965993,
         "lng": -121.3874457
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.5979507302915,
+          "lng": -121.3860115197085
+        },
+        "southwest": {
+          "lat": 38.5952527697085,
+          "lng": -121.3887094802915
+        }
       }
     },
     "name": "Token Beauty Salon + Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:30",
-        "Wednesday: 10:00 \u2013 18:30",
-        "Thursday: 10:00 \u2013 18:30",
-        "Friday: 10:00 \u2013 18:30",
-        "Saturday: 10:00 \u2013 16:00",
-        "Sunday: Closed"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcHpVq6eBTW4PjwSUCDCCSJbVwXGQpGARtbGvPc2JC1O6QWpGz_b4H7KHNFS7YDfCDSS1FZ_vKGUsVS9hkp6NOLvD7_l8aP0d-J_6eONQxXsLAG1MJk80gxa-dfmjMxYrAoq8g0pH7b_yTX0DDfDvSKm05js0WXj6iwaIC2dMQHFlI9SNCs45ooFGHM0bFGlalGLhim1AlbAfUJXk_hYZzcUiNmA6y8xhqjAJwROce4FNoE_JhLU3Ysu5c5VW3beIWX8xFDqpQAddh_YXGFk5d7_y7eEuz0luTQq79_1Ma_4hSyaoUIElLC1ppXQdLNqeXGsfpaImqBPLfTYdP6_AzumOhqz7IjHxlBcUnO9p3Pt4JgDq1GwKC7z_ezPAIouY7DbTDzY7UMewugB8eMjYtzd_gReUKMIeOKks3_vPJK",
+        "width": 2142
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcvcKyYN5U9-VebEW20leJLd58MoAKB5w4Q5rGgbvkH0YNIUmCL08lVBfZqz3MW5drOMKzqzJOoC_aEdewGuSBLFi3FEEGJjW3a-BTCp5p82hCyftM1p8i1nMYYd3dftbI2SScvteWkWcOfzCmsn3Hn6AtxeO8BBZD1nzO4o-b9DKJR3mfcBPl-5etBgaF18CkXwl_dPnRYrSU6hn0F9fIu9Jelk_O9m9T3tn-5B5qddpX9pM-y1YdSYk6RFnNEd1VbU9gxTbGkhxe7xuWYjeBiuiePd0mdhtWUBz2fm-q7vT11yf8hDT59BC-LnfBET_-XCCISmIVxfB4G7hh9qBQlz8DoeiG7MKFuOiu4-0Z26ZYxbNW1GF-mWdoS7jgunE7YtQj6Nh18o49R6zaVbydkAMvYmsT1IprUGEQueuJA0g",
+        "width": 2142
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfyhKpWA87-splVTqPXdIR2Uj6P8ESXeZ0-Sn8xuIHNGWIDgvmHWvIZZKKa0AG3SX9kIvPYRfeAeJUKYPGRqBnLyBdsTs19zACOmT0iVNJvseL_r8dd-LBTZwf1px0f9e_Pv3DBipNND18qpDOTMMSWwh9QObSKCo1wiaX51mjYYUnB39JnT66BfIMICNu4QOPncv3goSUxu08uoGQhurN59MSIMELM8jtqHQKXFqUfyT9qi5FDQCJ28myshpZQ0B1B-5KqJRWI1uY22NHt_SU_pilB91qpmNehm0u_XeuwOgW2AFR_Xy4WBTHHgY7SCl50Vp9EBcITViJfU9JspQHRi6vr8Y4Gt_jfUquyigtqkYoBNukn8W9Hrt4EXGdxC9vlOmwYArl1KHGXNyNLEKn4Rm_YseKZFvalnwvMQo6gVg",
+        "width": 2142
+      },
+      {
+        "height": 3672,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLep0gLT-ka07cIZuZvdFG6cHJoEH_RF8WAXHcxy9B2lZ0u6LIMYjOHYMMSgJ1dG2AAMtT3TE69zNRErsBn5Cwg46VN1rd3vhxj4dfJEIAluRH0JArcNyNFkMrn5KhvQEU5V0HTEETw3F1_MyQdSqwxtzGSS6k-cpL1cG2NZ__op6Zs7h0vE8qkGXqu2r4MldfXfWTyZnNWv-N3yfdXPLQnPLTOYi9vkDQ5vElQcBwdnCIIrBuFA_GW1EUOZ3cKop7AbVkykwszMh2XQalP5cfxCF7g0NGnkGJ10J4uNc5Op4dL4e6_2n_sBLID5v7JmAJNn04BCbJAESz9chAkzKWxPUElffeQAEtkU6UrsSyoBZcgyXj29ZfszHbRd5rGIW6dDYbXMoVth52NYDex7tTm_zyaLgA72iBiq0zh1JDti",
+        "width": 2066
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcR0D6OGdt5v-fn8Q6FXsi70KoJ5vdJDaj6rFr-Yi671yiSKM9l8o6TswSBJj5e8L8xSLt0GAbaNTmWZ5pJaWhen0K18Z1C7E9FS93k4TjNvSmvwHs3LM1dEWPdQ0YyWnxiZpqTPby_zeIbcTnTLzNyhlsQfLKM4OxBYyOg2hb1Sy8HKTNtiCLcS7MDdBOENOulGRtvtmrmhJ-7SW95HEUiq0yLM_voP5KX3cXmbbeIq1SpIJWFxsrQ1CNmRzs8BhSwHZP_zCUC_C2O3f-PGjjpOUovJA8ppDLhH0AS3yc98XIpxRtvgRLPNOeY_4tgsTkax7ex3oUoTuiXVgSJU2_rK1pIp66DNLmSmvhCOu_4R1v8_Bvga3SuHk-rCVSXjj8-SMfEEiIep756AHCHnwNNvoeR2qUxgvl1yTGL49IEww",
+        "width": 2142
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109897131394636083290\">Janice Saechao</a>"
+        ],
+        "photo_reference": "AV-0GLcgRdbKd8cbAjn8V5dKtlo1DoNC4fF2a8pfyg78atHPbxk3ggU2sCcuHfE2B0ljtck4oiB6Y7abV87-N5KeJyefw_etpoy55g0BsxY2BEttOd_6NHbiv7cfuFLqILkKY7VCZMpXw7AzC7gtp9NiRobKJ7OzHAAna0vGXH2eGsISxVvjE_EP7iQXSVnZUUcvIv5LizEfzWTosNB7uE8HtyjHk_zd4gz7BkN3k62M0wdGlPHA7kEJuOfMiKAumCR4GwVK4mxyhIJ0eFEgXzIsHzfUtPyy3RO7gZqTuB9jMehbK3rV4cB3RFxHBvqSIlk5DBAtTGtS8nSgUeAkj8xl7GblwGFeeUd7cHSxO30Od4eruHH8Xbc97cfmKYibOFVSfG0Yef9yg7BZWIz0tYDUmoZlvxSzijLUf6gPDsVkmOqWDA",
+        "width": 3600
+      },
+      {
+        "height": 2856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfbBs2UgtxtpuFbNNg30CHyOBxKmmRPeBVlM3EQu04Dg5Zkzv6SDt-EflqKz_aiKHruzn2roOq7On6HalrCfFsibZwN4W4qU1InIgVbXvVqKTI5L5ERK7W2Ed6rVfVhOx6-68pATUb5zi36TOZpzw-KdSMQqWxm5UdZ60fGImct45XlnNXf0uT1JNXTt41iikSiQp8bun-4JXWBAQmrgyqFOnNH4xWuQT7GxEp2jfakcFWEq9ZNtWixYB-jUHnuqT8Kx2TfTh60slreZg3sSYGZeF8HOpBIIZ4z8ei-Jv-G6OY7MAnlB1A468WdZ2CkgSEjQgIqgignxWfBb1yf70wxcE5F8ToklnEhdEHnFc2rE4uY5dQabfgN3_uF3ZnLFGw-gOz8sHsFSas_DZNY9h7vj-QZnv0lQpmHZB-THfdMEg",
+        "width": 2142
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107716388078840817023\">Justis Pedersen-Cueto</a>"
+        ],
+        "photo_reference": "AV-0GLcTddtsB--tAJ35RvfmcLMqvUESVUXAhyCibHghtUwdmRQ_lzH-jAyq-775WltK4jiLDZ8y3XZSwcQ7Ox8120O8dyJdrLBBrMKfT8puBoPxlCX15AN_aDulwhJ1ALIu932d_H9mHO6xEa4Z88dCfdLEQ1f31a-FH9Ig6GC7Kx7Vu5pvL3sx0m9iWMlcufYAiNbEXFLTmgMtcFMIRHYhWu_L7O9Joid2BW7aFGM-p8Sr8zMuN8WJUnCilZ1OrXWEB5H7T2bVouwrRP1xv9zZOR2cSI7fdqVQVz2ur6bEKf_w6DRaKpZ_ZNYUrQWvZrvSZ3zufCdn0rVDfqy4S9RnwsZ1rCfq2JMZ1YQsoH2Mv-3D0a2YMIPKVsnNFVV1IWsmws9VcNGsSG8ITZmWIn6TMxJpKV00xRzGEM1_hgC5ObeH_Q",
+        "width": 3600
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe1Jc0Zssju8dfU76D-8oSiqvy2qoXkkYYV-KCPmAsj7zM-X3oVGzF5nok7jRZ0-XWYr14lInJln1RM1czDUIW7DFh_n6szQcWyAtBvexgrb99L1NaGcDS9P4v5ChZG1ZIcAgrMThxfykra5p8MgW6cPj2ljp6WqGk2_huLRY0FPvRWlkuL2wdmFUsSRzBHeamTEY3Hn8FLPg_Rsp3BpC9RDnR2hiJk29eoR81Mrpgk6LQC1D65fItb40QouhNnYyWuOFSgVafaNPjXh84EMMjW3GA8C7egwEq9gtF6f5n7xNimVXxPY4laPIOuX56eVJKUjRAmFy7pdqWGLHJri2GBIXKsjZNbd25CqwetlkyDJYAd3WVVaTHMnXHhXhQsLM4vYalPf6lJ3v3UsrYRECBX9KvxwcZ_-F0G99YXwbIhuQ",
+        "width": 2160
+      },
+      {
+        "height": 3672,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113736735820470618452\">Token Beauty Salon + Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLczBtCznTZ-ja6ThjTPNWfJyV7eMumUMncUYp0c0_uajawmAsE0mtXzH43bgS5YlpZ4-c-VbtFq-jR-O3X-rvEq86scCafshpgPkd5ZiFZv0DapGWiJq4BpFy6hOxagR1IGZ2Gsb7Q2jyUdognn4bUIVVUej5N6xX-41jbe5WICEC5E3sft2TmqjSvnoIy3giFonF_fqK8fcCPCILXOax8MYrP5Ts-1wN0_ue-wyD-F1au-dVWfgQaPtatpZiIYh0rXF2ZfyG8b_khXmADkF5gvk3v7KC7fMzikUZH8SLoFOjpgizM8jbiOVaPfmwK1teWT-Xd1F9vqs3w65RaWJ7tZZwxBCn-IiBPtntVz5RN_EzByeBbWd4DXF6Ia-6DaV1aJYLp04dVLEIx5dprZyGdVSKSK6RcrhHwEXEgBNcNbMA",
+        "width": 2066
+      }
+    ],
     "place_id": "ChIJm_HRVffbmoARz227Gj09HbE",
+    "types": [
+      "establishment",
+      "hair_care",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12762424251688644047",
+    "vicinity": "1715 Professional Dr, Sacramento",
     "website": "http://www.token-beauty.com/"
   }
 }
