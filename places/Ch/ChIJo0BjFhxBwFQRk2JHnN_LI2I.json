@@ -1,38 +1,249 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:00Z",
+  "fetched_at": "2026-11-09T01:09:52Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Trickster\u2019s Apothecary and Nonnu & Lola\u2019s Home Bakery",
   "place_id": "ChIJo0BjFhxBwFQRk2JHnN_LI2I",
   "result": {
-    "formatted_address": "812 Southwest 4th Street, Corvallis, OR",
+    "address_components": [
+      {
+        "long_name": "812",
+        "short_name": "812",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southwest 4th Street",
+        "short_name": "SW 4th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Corvallis",
+        "short_name": "Corvallis",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Benton County",
+        "short_name": "Benton County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97333",
+        "short_name": "97333",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4423",
+        "short_name": "4423",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "812 SW 4th St, Corvallis, OR 97333, USA",
     "geometry": {
       "location": {
         "lat": 44.5574994,
         "lng": -123.2659622
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.5589708302915,
+          "lng": -123.2644778197085
+        },
+        "southwest": {
+          "lat": 44.55627286970851,
+          "lng": -123.2671757802915
+        }
       }
     },
     "name": "The Trickster\u2019s Apothecary and Nonnu & Lola\u2019s Home Bakery",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:00 \u2013 20:00",
+        "Monday: 12:00\u2009\u2013\u20098:00\u202fPM",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 12:00 \u2013 20:00",
-        "Saturday: 12:00 \u2013 20:00",
-        "Sunday: 12:00 \u2013 20:00"
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20098:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcQ5oVydJRUfRNv5SEK-N9TQoEu_outiux38k_vB_SKxzzcVU_EQKe21QceavkXyvkngdI3jkMBSuxliA1j_MO4O5A4GwjPpCM0QZmcW_klvs4K5jcDM_Woy-NXoHXQHq5lqG656kcfB35C09EZALo0JT4d1ne0O1q9y8xGPsvzvlEWfHqJVODT4Bgm13CQOCVPzNem_eyz_xg_xdNCMBJkFrWleRTYZtlH1KaCqLie21ymCNucY3r1Gcc5Yrn0H8ZVijJiW-O62SVocDN_t4cuPpyvTgedBoo_eUc50C2LSBQseVC3yluzon8oVaaAbe9ogAPe5_vaLsGuiWjHDo5wKW211v2B96GixCz8CGOi2j_rcC2nUcbeKflM2lFgRmP2bBp52tjbuXRoAG2lqJwSQyHIgF8mB32w8H0E7zy9-w",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLfpCDCR_1ewrEwkj5-bc6B7v8b3zGfxD6j3hIaeHvDKXLO0m-D3PKBr1qPyGFz8DMFeld0gVNVHKMp7AXBel7VkP4GaGu4zdOoJdwpk1O0Hyds0QQblR9s6HgNZma30OScqx5iWOSfS5etskFM57CnVvB-7tRue3v1fs6x-Sbr-9wTuhp7JqlaIC7DLVoBddOGJh702eH9E15T8DYgZW0EvbWJt3klmz-Nabrlp3DQ5RnT50lmsWoLpZQC4Q5-YLq2VYhCsHc8WaYpjRRlzq02HKPlrg-YZGf7DN-MFewTP7ZZ7ujUvlRXBgYDBUbu39ASBS6E7KWElMeumF88joC_BTOxPRrQH6yLZJWOge_3u3FSXLhjxWDhSrQ6axk5-oDXDHHRwHgDqisPzli80D5ZyuXNGV5ZPfvDZkY-OOx_xFw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdowq9FRGfOysZd6QnMUAJ4JXQdYPUGmR3QunK-Ys6ydJwTwyoVlFSSwEZHHrswiE_OVcBmBLKTMYxeK-E5OcmcM_hOF7oXLnTi6hhNlct483ve7zfbqtGoMjxUlfgouAjsRJ4v4ds8JGZZ811teZAKWBho0PFIrFloFgQ6DaEORDMDsQtx5a0IR55dkjaq0hxrBYoNBg6da5ikCcxOl0eZLBJHkSu5kE4fNASAdRhS94YwfEM9Ra0t32m_tMAnI45rqxrDYNpZvQ3QQ6FMHxSbIwhME5dWqOPxUMD2si7sMOhb5FTRFe6hrrFnGA7-iuJDtoN0heH_fLKihkEejjEXHi2L5_CGWci2B8OwnBHFThqSLvlBQXtgT6p-Dr0fZegWXFCgmjaO_lwS5jmE3jxDR6M2n1coe8NMvAO4X-ZymA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLc7p9ui1t3gUluVtztkw0Mnzoqwye-UL8jmtcXhxgsbAXMmULfIKPVp0VV-4lsVFWuBkCUjZzpN1sYM4mkleC1YIx1vXuyrfEC9odcE5Ur9HGBi0xI9zh_oQER0MxjN1JrTerRqvWrixlK8qwFzhYAEOOOLKhRWe8UF0WIDDU929CrZQ_43rgFW5EWv40xRvUD_wa3g8b7A7jjLL3_mtu7B--BTQFLstZeEiqluZUMEUxVVW-mmPWg91YBwce4EJIzEvbeWkkWUA-z3nqPEsRXqtV8gjoxb-nNiInOvg_ZYRzhfkeOyUJpHY_x3_jcodzch6f_mRplRd7ue3JPv0sjx4Mkjxv0t1pOPoMrmWsdQfm7fzuFya44WilK1vz-nGdI8dGxTqZfqP3WaoXSJhlJFZmUt_D02eFpOyQPKAg04xA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLdGg6DxWGp-4uuGBBNQhePWMrROXCb0aP99-nW9o1svqEPSCpKbLYkEpAYTHKkr_OqhyyXsLyyAbYNOjmZoBfraDLLj-GjZj651SB6fW2-_kZd7cOw56YlZbPuDxKdDl2v_vl73UVhu9lDfUWuB-e_bHUp2dqf9ulU_L7SYj3LFEiOIUkOhG8xudU7GOLPos9wffPfx5gROJZsK1jBb0gk_UaAP38c7cbIPBSjb7A3hmzP03iEh5q0ANWNjZN9ayA218FUwvY4uOTQeguWNc8B8sDlxfzU4tzt9QnX9CS5s3r3GOESPNSbUMzMAi313o05i1yLPsxm0UEixvv7z2cAMcFEPot7OyLCBOZoiS0CX3Jiec7DVvzfumLNqEaZlvCfnXfS8fgJztZFNaSU6ZKIcJDiqiZECX1pMAr-dbxe_",
+        "width": 3024
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107004035260402802549\">Casper Oliver &amp; Co</a>"
+        ],
+        "photo_reference": "AV-0GLf-m1KfG-KS5eWbQlX6SU8SBBVaONqiqBRDWrFGiuFRNoVv8EUNSZYu1pVFWKy_VLpVNPq0riY6_urWy_BM1FoC5g9SXPHbK3kRKYQM8nX07XIuaZJ7VUq0BXt_cnKgWBE3iF44Uq3UGDa1n_0ca3pUjT9QNWqMOOQXBYq6WjVuzvL8xkGP0tUgt-O69TqzxKPNPhpsQ9QMGf3euakW9BY6hOhZhVxPNtJQl-XP6AasFjFAbzRBNYo6egE5Yg2s6ArijksrM_nDx27ZAZ2wqILMF13e2XK2NF6ddGJWOrrKf5Dvc-RApHogv4-bPYXCZSAxC7U9ThqBTF7a-eZizq5Stv22zxNnuvakoL48Qj3weej81lIwEnPkKlYfzsVv8U-BR1Xq33QZQhQ6ZsqkvvgfAYeyjXmItgORBcJ177r_hA",
+        "width": 3468
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112047103719984967269\">Nonnu &amp; Lola\u2019s Home Bakery / The Trickster\u2019s Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLcAfcnrNWn4AkAzab4mVEXjTV7h-ThXfpBm-uH5aZ6n_tpZwo_c3Jcab4l5ed_YVSZwygiE8Q_JPZiNkZRE843XDb-0Pj7un7vWgn1kySHEyLTWhnHWN1FdNKMJYdXbBBhAHSweN_lDdfUC-KRPGaZwfhRh4gKvchydHCG84vu7objFWT-2Z-AEpjpI3kZyrcW4sbWrpl6DWR4kwgMadDrbHGMb3lieD7wvk_eK18ZEd3D22A2KgbXsMEgjSGMtqRnFLT31EidSNK8ZdmOg2eRG4iaCIvDirA0XDLOHRSRa6iQR8KigixQ-X56RvhpgJYyaPf3rs3w4v9IKRIHVJaIUWdcDwaRzNCWR6tfC9JcHO9XxgNGdxwWSbMF5b6_1QHnpoz5LIUIYYja7IbyDyazG1BzFHIwdx2kHhY_KyWNxvg",
+        "width": 3024
+      },
+      {
+        "height": 1181,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100328452315389492642\">Casper Oliver</a>"
+        ],
+        "photo_reference": "AV-0GLcqz7YlNt3NxSKsbf9Nh-xZarQtzeykLMcTNpr0BDLSGYdQYFfE5MK3TO5cGEwV5kAH21eRpfGgF_24GRjNKilO0iMDXNYLlGiwVYo1_NCATfbO2CUQo9fOlWrnVpbNFC2r1nsatOhlgeElul6Kl9pjfmVPHlHPmF9BKBF3EB4CO7IKqTyXvHiVxnOzkl_yopdO8TS1nZAlsbwiFBh0V9CpfyetRYAzkNWUKCQmHvHgLjq7oa8sYUYRLKUJtIzMhJtKlnGlcC2b5i0qZOcYjC_iw413ll-ksbsHH1PzVzNfxKuMrUrYmjj_ZiiHdY3SwPYYIL3J9lnaPMEZZ8IPiAfDSfv2ivePMqClujSDznLBs6zuTBak5itUTjfFlgw6VM2hlPg9Nvpp8-N7iOF7ifFIuC1GN9LCi-uCAANPftLUbA",
+        "width": 1080
+      },
+      {
+        "height": 1181,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100328452315389492642\">Casper Oliver</a>"
+        ],
+        "photo_reference": "AV-0GLenl5slq_86ghrpgJonE00TBjrjHA-SBuLco1OX-6pTkjIo0c9urVfGaonhSgpsLzqF1P-afIF3rNP6ae4FURyUNhy5rwgSqjlNcKW78xbI0WEd6ts1I8nLhIkryi1MhU_Vpt4UFfnb3ViicEY_3Z4gEAqPYtgmSHr8e5ueUxPBWys_KFA68AjAIIBGPXNMU2V0SNwcFx_R47eBusz8gtywtFQR4lZkK774wJz5WpqrNXX_d_RqULzPkYAsq6REzxCOQCAYksx7sYWVTJXU2vcCeWoXzfB-Nl9zJIxl9wJw6INGXloVeWnRmwwdm5BQi69EvC60bvlXswgtl1bJR99H-JZyaImJ8ECZz4Mf18AafK8hfNF17D20CO3qPEGCqrLOaoOsmgoq7WLlwiIO5cm-qXvLuwjHOOgkhqxnqVzK",
+        "width": 1080
+      },
+      {
+        "height": 1181,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100328452315389492642\">Casper Oliver</a>"
+        ],
+        "photo_reference": "AV-0GLdlxsJd9oSlnh3ul1HqZr_Zd_NrkuhWl5aC8ZgnTKBldhfNZx-au9Boh3152-FogD0qn_VfFYvWVykgObTLqVs2vhon_dduElPOZ1H0_F6I48rE2V3-5ZfceuBeMnpRY1PpQsHMVK8nLHeKNGZAg1CQrUDu3vfaLfiPC-xjaLMIKxTxxmxMQt8R6Xt-FsK0M4bFyBkbquwW8MBB0rZdYrRvoDdNI2xQYvunDO6w6LD2zziN60S0xgV0IoF19HGLmdc-okeK22AFHj99dQAPFxEjy_JWSAxteQ8g7Mio8Kav8vzV8Ux3VxcpxciVD7LNT6Fn-9Iqcgv36BX3LF-17r55RXF0oYEA10S_G1RSwqx-Vvzkg1INFRvg9_8NdsD0Bx3d9l0gPGpBpsZgaM3w2u3JFjpO6wevYHZctFeLMAQp-A",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJo0BjFhxBwFQRk2JHnN_LI2I",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7071720001161880211",
+    "vicinity": "812 SW 4th St, Corvallis",
     "website": "https://trickstersapothecary.com/"
   }
 }
