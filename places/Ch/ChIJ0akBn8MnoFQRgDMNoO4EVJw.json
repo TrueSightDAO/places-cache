@@ -1,26 +1,206 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:46Z",
+  "fetched_at": "2026-11-10T02:53:08Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Alchemystic",
   "place_id": "ChIJ0akBn8MnoFQRgDMNoO4EVJw",
   "result": {
-    "formatted_address": "208 South Main Street, Moscow, ID",
+    "address_components": [
+      {
+        "long_name": "Unit 3A",
+        "short_name": "Unit 3A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "106",
+        "short_name": "106",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East 3rd Street",
+        "short_name": "E 3rd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Moscow",
+        "short_name": "Moscow",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Latah County",
+        "short_name": "Latah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83843",
+        "short_name": "83843",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8135",
+        "short_name": "8135",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "106 E 3rd St Unit 3A, Moscow, ID 83843, USA",
+    "formatted_phone_number": "(208) 874-7551",
     "geometry": {
       "location": {
-        "lat": 46.7327077,
-        "lng": -117.0010295
+        "lat": 46.7325124,
+        "lng": -117.0009838
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.7337800302915,
+          "lng": -116.9996335697085
+        },
+        "southwest": {
+          "lat": 46.7310820697085,
+          "lng": -117.0023315302915
+        }
       }
     },
     "name": "Alchemystic",
+    "photos": [
+      {
+        "height": 788,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLc97uiSWmU2dqumpix-9UZuG06ut_7MZ9O0T-8BRQNlV8TGVGJBPNFPCqlMbqfRa3zrlvt-dbYo54mA8_z45QURmiTmfqA_pSyb9VBlIteI3HRzCscX7wjYej0Pv_WInaoRdyJH06ymG1zF-KHkQ7zMw9vUDLbUt9LFPAlwKTWoPxvCCcuflYPgSjDHLWR1zQsXWSZxjKXMgHZX9uLuhcgb13TCctNqHFmmQ07zGVU7sDMmLKcinQH0hVzuxuGbYgtN8Iyp9S69zUBfH8vEigkKN1hGLh8CNQjc1KgygcvohNyyR3u-IB6MQvLqlbAOgvZZMbESeQfrxNEP1YLyLlzzm7XBve3Xhwb38DZ6cDRFWgVnHcMbgVEkPoD1kxDLDVhbGK-AVsoIcSJEa3sW-zv8kMz87LtyUxNBRcWrxUh48g",
+        "width": 940
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLdNJZ1ojEF_XlrUnZbrW5CxomgNxIuXNOSTUKJNs2uj5njFF0gjLXIG24RxcBz8AkQWst6hZEZaywnD5QmQ6VVNe26B4bzm5lxcFapGycYgd2VmTPkBCKG1WiEM7mzZLotScbKUxd_WptzDX-bd-cjEob1yFxcI_VqJLlYYkCm_4Tuxx05l_CPQIh3WMsGc_TtBYxSLt0_jj5llmrB-GRQHvK2CbrW8Ewr95vNW5cBd6IbqnBXqKfr1WS2NQGYx51NohtSfXdHvr54C4KWWeirq2nz-bE7MXwebJXMAprMWknDxF54DSEl5N_8XR9IPVPaeBB0xAzh-5d5yDk45V-gd6_U92etYyJhHmzuS1-dXRc7-C3Pv0ciSC7ZBUT31XUQyPU7Zh7I4dQqUjjBI2tLPC-DL1gR7SwzP4knCFChFYQ",
+        "width": 2048
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLe4ibENo24A0N32n1oRDuwcMobO_favUfGh8zai-ncNmfds0nUdU1leWMkgOPZI2WwlM8gdR7IGIa36egm_24gtSiX7Z-CfpYllV414NHXCJqJWCvUNZOxAi2t6nVRFG92cprA7lQTUBAeNyUtKldlmEt3EX49usk9wlO6_-Y-Mln7j1E19JTjQ904dIo8huCxo4hIwl_uJhUomxs-uih8utOx-q8RpF-BbZjQ4R0u56R7imG--XAKqDpvMFI6IHKXDePfOwVpUPVMUcYDwIUXqRTtsCrL3Xvb-OmLfzbVGvQiITrhTLdS4GWSlyn24GUir6jWtIKV16IOJ6RfUdV4GWIgPThR3bd3Uw7LGFHhvO7Okt6HkbGA5OYX_keDfx1bCuxaQrWQB1jKpc4YDV-wSRSO0sWylYJCINSQ6SRerzQ",
+        "width": 819
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLdsdrUre_pAyNCeaWowM_PbQwMayNtQBzUCzTBtzPl2YGnBp8Oa2Ds8H06vNrycOAYJaoHTBf8YMPI7r9sxvZqottJYkDdnnJlSZqt7XEqmyruVcNKgu8RCBmyuqsCMxk5xlWEOCVxr1mMcECNzODokzi5K8hfrfyZZx43ngCayf_oMtEIYY4vJ7EhekrjgiNPqqqTrDvQd5I7nZd8e0GNzcVTaho6-zS5zLXlJzTXjzkqZRy48FKukVz-ak8VX2OCnaTMs_8_uW5VXkrdN1p8_1p9iTBpC-cCazQ64e6OHpHSGVGqRLxA1KM1yVUfg2PFsiQ7iV0pjUxKvo5xL9F8PkEPxMmJnLJ2lU7lDlUjV2Hq6IaHMXGfMSr8ErC0onqJf8n6lTwcag5hA9wR8wFrS9tJ9KA00VEIwZBN0L9Rf",
+        "width": 2048
+      },
+      {
+        "height": 1118,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102686576599521338992\">Sara June</a>"
+        ],
+        "photo_reference": "AV-0GLeSYrCMUNIrd5kCT2STZroLmNSUfkI3u_a-rjliTU9eYGQx8beV6rwlMNFrzVLFT3tRSCvCqEKqUBNKTQnQzJIPr6Mbrm-oaG3ckS-f31gdkUCy_fxGX5JftGZlBzf_Kwuyh9ILe8M2SgqHHSmIZabq25Cl5kX_oSanw9N0ZQVvPRdoDznolOSccwWfTOCGKbIBqzhCf9hhkyUNcC12BAHybE5Sl8jVuCDTRbgp0M9Klh93J2XAW9jMyVzdi0oV7yFtrLCAlI3kDwbTmQ-pBKutih6i_dM6o8Jja9cT63fdXCF4BO8EKB8A2p4TNpz55krS946BehPby1mH2D1YZ0Vkb3ElSdBPqPe3ZQLcM7KHOCq5zjn0wpxw18sg__miaWSCpX5I8RTWW86FGyd3qBqscRC4",
+        "width": 1305
+      },
+      {
+        "height": 1131,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLdy7ncGkvKPfsuIpAeo5MxTzNOlbrzgIg3ryOf3I6P5M_vk_FV7-CBk-LGStEHMhIJ-KiYPBxWX4hWmsvhFl4k7s9DgfRsyAsA5C-tHIbBCCKqIaRJqkd0k_VVZ9K7Nx4zFP1lHAvPiIJDhPLv6FtFVTpNPZsRAr4o4CQKexnIvt5aiEj_1NWCyAvn9loT92mUmEvXjpDerYpc9Cw5O4ry5wrHFDSsWkGDaHgB8tmx8ko91_DJZF784iyvJ1XvaDRN6fmX0l-KsDEZEHjOhXvW-_oZScHiLnm4c-RCYMzt0KYBkBK_5XpEDn5MFx9ixvn2EonqNlAAhQlmZWi53h2hQExleAAQDG9wC4lMXb-ILW0tLZHHpmORCV1ZXXGEgxOUt0J93n-o-BUN-pTZp--VG5uNRHKVTACC2HnrVxIz_Dw",
+        "width": 1440
+      },
+      {
+        "height": 894,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLcG3EGK8RY7TKgXuGFWWzmRzPz1JpIUM0ThBjZvx94ZFq8DoM28rj6O3_b1zbLJ_nBIOkteoMeyvLDQL4U8rnIqzNtOm6fd2o2xvPiIbLz5ifX6CGtiVvMXWAfxs33M1Y61l7CqFlv5wI1_ap9hVcVcKW6pDDrqp_raaaXC5NlV4khWbr7qfYDtZcn7qXO1HiZFRWSe1BQA_zUOSP9d_W3bqbngYkN1xQCN7g6s7C5L_ZGWjuvaX245QBotIBMhcBwOgJEZ3FyRUViKmG3FWt6tkxL7mlYkhdXHZZslDWAmrR5bEVqhqpl4DlBoz4kQoQ3PMrhBoTKC-Sy0Ip2M1w2UAgMmkF38YI6xFCPLxAyDfc3p5ydxKV4jPjCA2uPu-wgzOBP6AKl5XtlbfiIzNqFNgBu0f6u6_WjOFawz3n16Xw",
+        "width": 1440
+      },
+      {
+        "height": 1042,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLfDx494viglkaYh4hRbiZ5qoRSvC5l9ZvVQyynl3WjJazK7OZjuzx02OPnCgLgAJCLwfIK_ykflAr3_aMF1S9GjVjilokMxZ2EkFFQiaRyKnk4ihYdLV8hU2-xmREm_MJ-p9XiBt_Vo3nQYlbnNDZ02r3ayofglW_SKjDLyT1jHe28fMM2_dOg8tmV0pQzx7jc_e_E7SUZdOphK8GZLfuHsTEOj6BlURjKD94lXpmXx-wBAgDPUo4N6KLqjsICUd22aDDaDL9A4T6jJyApIn-GNZGGJkQ1-VCFwDhKdE8bZRw4YbeKatZoIiOac5L8WomCEHSm74cUDtw-FxS1z_mrLywoYLeHn_L1Ghg_PjQzQBbdoWR7_H9fc58BkL13-y_MThAi4GR6qfDemS6DvUWBAYIH3ta87F2G-y01iaO-rIA",
+        "width": 2048
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116968988815988447171\">Alchemystic</a>"
+        ],
+        "photo_reference": "AV-0GLd_dm9Dt0V1gdijYbQjp-zENSkHl5FgVzNnxrCtwV-QXniY3GwGiyS9M3RGcvG3D9p5f9-bjD8Zix8MBEWbbfQ6B93Kh2D9XrFCUyWfEeN92iUtqwMpxp_1a7cSx3EzcZQliqywClMGBtnvqN25FeeIROc2lTYiOcmbJ21ICCGUw_VhmHe57AHGES_LSWzck_-cwcn-gEQ39GaQ2YmyR6F_drt46nVED2mlQv7rZpo-4-Nay9AwoLKOhypjLMhCyoeEy3cNUIV8O7kXyGVFG_z5mdndxSFjCqQD-Ko-Ek6-xbRckzI4IHEIy4KcFdfDgttQy7oJgFw9HW4qHE4A7PE9XFWBCVFTXAikZ8zwpZ1w6VlToP9JZpKofS191trq_92Sjj6Gouqu3Kk_ezR7vIQJoz5Mg7vLqpmBuY4ORTIYMQ",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115004889373613833971\">Brenda Kennedy</a>"
+        ],
+        "photo_reference": "AV-0GLepXv99MViJA720ansJUYkNmp2SYGKi6zKtWAylMpdhgAJPUMgAfH-k9Afpml_A4SwhLBBcNAoAtnL-EdgVBsWykHKfZwYQRcVZuPb2Iqi3-lsnUhM5jZxGl7e8APYeYeI056AqHuljYpU2PLPD5IXQvL4Z1Xo1Q2qLgXmasayDCCT00KhvLaONxfVGN_0LerROovI2jwZ4x9Cdzt1_1fxJ165sb-Eq9cmuiIPJe2Yqn1VAWbpLtKr23h0D0kVFojjNOpdkKsqPbu0IQE0MEcNH8QAz9IfyhNJDNGQbK48VDihbEZosowJV9Snnx2nHpNmdQppvOaaIxlGvKW_JC0xJ8_7JUaU_ALpG1qUUTalgasnrTmXV0Xs9FxWrBvYixGCxukL7q891ggOJbqK2NdHjE9Wd",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ0akBn8MnoFQRgDMNoO4EVJw",
+    "types": [
+      "establishment",
+      "health",
+      "jewelry_store",
+      "point_of_interest",
+      "school",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11264633990894400384",
+    "vicinity": "106 E 3rd St Unit 3A, Moscow",
     "website": "https://www.alchemystic-apothecary.com/"
   }
 }
