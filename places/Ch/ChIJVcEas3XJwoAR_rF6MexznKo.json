@@ -1,38 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:25Z",
+  "fetched_at": "2026-11-10T02:52:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "La Healing Plants",
   "place_id": "ChIJVcEas3XJwoAR_rF6MexznKo",
   "result": {
-    "formatted_address": "7401 Pacific Boulevard, Huntington Park, CA",
+    "address_components": [
+      {
+        "long_name": "7401",
+        "short_name": "7401",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Pacific Boulevard",
+        "short_name": "Pacific Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Huntington Park",
+        "short_name": "Huntington Park",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90255",
+        "short_name": "90255",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5738",
+        "short_name": "5738",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7401 Pacific Blvd, Huntington Park, CA 90255, USA",
     "formatted_phone_number": "(323) 537-2054",
     "geometry": {
       "location": {
         "lat": 33.972284,
         "lng": -118.2255019
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9737090802915,
+          "lng": -118.2240304697085
+        },
+        "southwest": {
+          "lat": 33.97101111970851,
+          "lng": -118.2267284302915
+        }
       }
     },
     "name": "La Healing Plants",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 11:00 \u2013 18:00",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
+        "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Saturday: Closed",
-        "Sunday: 10:00 \u2013 16:00"
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
-    "place_id": "ChIJVcEas3XJwoAR_rF6MexznKo"
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLfEKTZqpTSBwtGJBXI3QFb339itTuJHs01RgmZwIJHhWdoWOjXyxZiSrDjX44Miy_eOJ_rSv1xN6OS2wJ39cDnMqQjefcwV0By-_GuzbOHtgfmU9CzoOxaiqOHre5eWGwmqXk4m4b4XlrjdWKet-1pm7FyKPXygIBdVgpOPgcF7uIVIEQ5IIaNI4EAsK2Bwxw7OUu5Vx8Pd5MZ851hAYjG5ZpDgTYgrWteLe6SaEl_btiKr3ajmYZKiLbHvO5O-sFO3BUKg5JRbqKMQzeuQ_lIu8V2mX3wgM9wmDCqG07MTUK3aYRbbTdWzbrfRn9YXwT1iSJTawmSNs91eNIWjH6ua720i0e889aQU9H7hWvfMtJILZU2pIXETx-QPHIVKp1J4drs_6Ljyx3RNsYqTeMSUSYRq",
+        "width": 1024
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLf1gKD-EJoMaeYFjI2PlGfJ84j8B8EQJ67aAlOXhop_DEzHIw9vx3EaWI-N85o2BPzY_I3aYyvi49_bo1Gnjtr3o-vAcXga5embrXT8fOmGitNR_69zMZpDpUpnMgvMfwvV4tQeF7wb6Ynefxtqdpop6LsDamoYP-Pq8CXD4WChRtYlR7yisy0HUieEIRiUGKY61q8FivejP6P905VkqE_8zxbFOlDSxPViFSXBnSsjlnavHg1kVmp57WC1OLPs233LGH_hNK56MihjmCb-ltVAyonv_2J8Yi68WRjPsFt4bqsyafAZvrTdFnhgtRB0E0i28xqbkxMcvoV3JFopVA7VfvwaetTSpTxYUllj03YMlkV-wNBLhsVNCYDd3e07_-pcx-PZt8HL6sK3ftd-72JtChyx",
+        "width": 768
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLccLUIAUCJJbZKKhh6LKI8NAu3zIqjz9pKXp12_ECKpq5RRJSEX9YhUO7YyCiRMRPpax5cQfY9xOlR_idmoiwO5i1dsedTh5CcbS9yQu5ZH4fvop3wT0QTjUoB0bUj6arXSsP8U8LOXotN1USaZGYP1KWnKbzM-tQwAy-oJIGljbXsSBbQh1DaaY24U3ah-DC8OEjyx8_ugDisSU5SNbouXrwqLYXi5g7ll10OGzzZuvtojtsMVj0UDA2dUF5Ef4HUcafKd_vYnd7Cmyn2fqRmyRhxAqppWD3Ijmb0oKRmrgjPZHPR06-yt8qoELkUe2Fd-ZXbj8J2EN9YNOxjf0fXrLQMjm0pQwqdusjhyOQ_Swm0adGrRkc-LCTYQkrKM_VHstjq28WCfxTftM4GOFYzLyjs",
+        "width": 768
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLeeEOXTjiP0KZ9FTzjmOS-EL7FfOZmECHBkdp7VyfGp4-JnzpC_KkmluvbqE16wwB8Xzuf1gaWQkjqBRfuBYw4s8trK9nuCnh6UvBaa0dGhoZmUURq9ZntmBat6T3FGjHlAcjjJo6TNz65dyzB1gVlqCPJ2SiytEie5dM6F6YOOUmFUYP_uih1UY8cuMi3oyD8Wg_b-Z09BUry7w7e7Mxuzx1NPb3FmS4PZmpaWYQgNXQekLlgId2PvMSguy_7vUCZw79WjTjnTa3CJIOQTgPTkLnzpmvEDwVkwWaRav3Elh81vfiyvkYgHZfL8i3YCZWQRfLQML9_5bH8VuwbR7uFLh2K2cibIkZq3SypHM5sdp2uyx1wt9V3r-IMG2KU8G5sdpZ1MuAf7oAQJTNaNeTMcwU054-g",
+        "width": 1024
+      },
+      {
+        "height": 576,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLd7uz8C57XlLptmhyYl18fnZGoE3pHZh3vwORSjtZBwFqYO2N8HiVwkLqJyJ08AYXvZJngwbH6YuoICzmOtnxscxqHIc10SxWmOQb-eNqdkOQQQOaWdjFIAjf2x-B_oGRgpSk98ty-407wFvX2IMu4IM8ZBO0cDyC-ra47wC9fgiuhnG9PL1-rCtOgU_qYT24-ltsvehLsyhUkma5PGwqNhBOvcO8mBeQTJytQnHp3O-E9crQfkxNdaxesRw9rr7pxGQBLA_ZOwRbsIKkT4AUofIDRyTNUE43cMcv1cxR7DyhRGtC8SqepGwYtDppFcY_ljjJGLgxILl31fjQFvyrTkl1CnWomcoZfVgz3tnl7MqGzX3F3fwlAnYP_3VqoRq3-OxMxamK0RGJyG1nrDAp4FGzhAvPU",
+        "width": 1024
+      },
+      {
+        "height": 1230,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLcEmuQXfAoOg7Zr86AT2z6rsrafcgaHs32HV6u-OrKyI4wd7bT_6JufiJ46tHfl5fLN8POO4HArerHlujBGTFw22IhvaeKZRfdqf6KgQooyb070EXNJqNvqL07egZtx9OVoesfH3lhAXZM2-Zcs9oiW2j-BDfNBfQyw8MS4QEc8NSTIlMyHKVBXhwDCijLLQmmT4Zkr2hltkWKEcnYKooGwRAjodYj7xJr6jlVSdToAiADxb1LZE3jk5zO5DjUX2jAxrk8BRY1EcGbEmDQXEPYAwumjsrlFXjkvBYFHkkHeBP5if8J7imKHUj4A1EwnlbYhHvi8tGwoVDB7yOreKEtBJogS9wWkaR4nAVYhYNJ_jpjnBeTUOUH_IwYvX85E7oCwLOssnNh4SgDOUXSA0qUZVc9rPmM",
+        "width": 828
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLeTGgKk8cp5LvCVcmM-kfmU9ShhIp0Cp6THh3xqZlvpBCy8lDfDyATqTjaOn6MpZZeqdAwUOQkE7ZR-YIvVueRFVoqGtzU3Ha_BjWue1wSgz2oCRwPHQ-4fMCg1ftIaoNcOVgU-L1W_3BdmYMIQsShGZEr0FMrqUW-CbxoyRLgFfgiAdxKWn7u28CzUSToCbl9F7CVBYJVitOPufrpmNSiN2zDXA3AaiG75UEq1Zs0fWetZmfVScefm0o7vnz_prDEsRWz6Bl_ZgNv7fQrKrQucHjfXl3OVkQnkzERz3-iPWeeb-Xdc7Yda3aWWuYtwRPofdy4QLq2aKUJ5ZbXfKAjOsbJTQuLRMmpGDEuKW47Gmy1eFOnlGWDa-M-XA-O9OQRJzOUew80HGZgPVmBZtNJ3Ag",
+        "width": 1024
+      },
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLc6BevFLRM3mKPOuhzecjNub7I7Rz0fgk-gEcWHdxsu-dl8BY9r8TlzRDK61wcmnwtbEvX5qy0IomTyodE9wAB1t98wDFGn9eSti5rMF5IPRT9XYOpMnzF4KIKj0LhW8jg_FIIdBNYXfaWNVnMeE6x9X5v1SVjhe_XcAxQyeeuhU3ki45PTrJ23oq3F-ERT5xj3g2hEwz_5xaESC1CANE68yKCR-DPexpSS3-wgPl41s8JZO8EzfGoNFNpHSr4AUYuTqYu5U_Zfr2kFdAQwiZPorLgYFeqmDtuRQS9lSvTAXZTtUjWRQx_CByvTNqhKXi9p1v1MQlDU06tFuZIlI0E_k5bZJGzpgtfxnfBz9z57QONp7k2ue5aBzkv4IcGwwEckk6oCJnSoPgfLXoEnq0hYOYslRBo",
+        "width": 2048
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLdFjk5NeoZaX_7ANbc_b3f_grIebQmivc4Fjy46XVlfUHNhiuLsKklZWQFzGjjRlpJdSmgb16fHTyn7IscKf0Ml-NihuqojP9yVkgsVlqFgjz87u0C9j55ZigxclfNrD39oPz2ilefgO246FBU7z-eTiW7yNTn68lJzreoDqad0v4PfCdYmof5jY77pgDSaJvmqIrxgUtggCECk9K0a6krGl8N_quAU0WJHAtWw2oeu_ezFHiQ72xMSUMNFVhELPRBMDDl7nCsg7UdTOGLPCou8YcdSgOH8DfV3kUppSOg6C8r4dsz_VscpP8ssO1--XBEcHjXxtgKI3tiQRLUxtLLBu40f4-qnVqwESmb6Y50AWfmgmZty4FYHIJiYWfdOy44c6FPEkybKkgXRrYDCG5J93Is",
+        "width": 768
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114656242602908866000\">La Healing Plants</a>"
+        ],
+        "photo_reference": "AV-0GLcIffp0Zt-qDFBA_vmm0N_3SuUWCvFx9tXMPQvx3vX3F7j0JHWuO25zXYjmaFlJuKzCZLtCGntJ6ryZqLjeAV-6vmdkWRIQCrYFLcEnY-f-_jZa_nert6P2WmIW56gncZ3W-PkrHEkBeYUY9JJeX_IkR4KbjxafQ7bPX-nVWYA6yass5m4B5ZKQkq3euBqT5RvdpbiUIAL2fW0AkAxDt9KTX-4cWxZdOGwFq8C4Kg2TZckQKBoL0EC78m9PgsKdVJRxrYyrymECl45XYEDL4ABFQJP7dKP7Um-qGbd2OqkDuSylCZ55qBmidQwwg7kW7UsHj5xQBNWL43qLcYgIzQ_xitd6GvR4UTBRlEeHI7RiLP7WBASeHhr0Mz6000J4ojpvpHiZ7CRVAKkm4xxdPJZpvaxK",
+        "width": 768
+      }
+    ],
+    "place_id": "ChIJVcEas3XJwoAR_rF6MexznKo",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12293828541094212094",
+    "vicinity": "7401 Pacific Blvd, Huntington Park"
   }
 }
