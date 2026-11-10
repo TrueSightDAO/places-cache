@@ -1,40 +1,242 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:50Z",
+  "fetched_at": "2026-11-10T02:53:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Peony Acupuncture & Apothecary",
   "place_id": "ChIJ1yrcVPXGYVMRoqX-ePy12IM",
   "result": {
-    "formatted_address": "302 North 5th Street, Coeur d'Alene, ID",
+    "address_components": [
+      {
+        "long_name": "302",
+        "short_name": "302",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 5th Street",
+        "short_name": "N 5th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Coeur d'Alene",
+        "short_name": "Coeur d'Alene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kootenai County",
+        "short_name": "Kootenai County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83814",
+        "short_name": "83814",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2814",
+        "short_name": "2814",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "302 N 5th St, Coeur d'Alene, ID 83814, USA",
     "formatted_phone_number": "(208) 292-4829",
     "geometry": {
       "location": {
         "lat": 47.6752933,
         "lng": -116.7794379
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.67661208029149,
+          "lng": -116.7781956697085
+        },
+        "southwest": {
+          "lat": 47.67391411970849,
+          "lng": -116.7808936302915
+        }
       }
     },
     "name": "Peony Acupuncture & Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 18:00",
-        "Wednesday: 9:00 \u2013 18:00",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe98gcO_8RepPmFA4ed0o888XwBXqVjCgYS8-4ZiwM-BmJJLoF2vJrU9GpF4hVZrI-NDCcUqDfHrQ5dVIR7oBNzO9Y-AVkpSwEHL1O22Qx2W4du5ru3SvUExYqhsXjxWK0f8SY9GMlQNAoB3MB3bjA2aJekJnewtZSRaxojDCTMxa0j9hzcwzw018dCj-TU-D6tujdL6HpR6sPEpStmIHrBnnSMEBjXNiJEbW2wUPl2i6nCcAZsGkllRuUGcbeL-_uzl3r4v_4mmZ-fVfqUQt8NN36GEVZW5Gq0UR-HWNC5S8TXP0R9PQJLRPThR5Pqh-jTIDPIW2MZ9QWxG5gOx3sIQ9jAKrdU7UZuroiLgL0rHlVHIEvcblXk-ioSF70l6MBMyQnCjvlacnM5A6XTKOFnsw",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfm-2hyMZxkKfsucwzgMjyw84vSI1VgTr0uk417XN5Rzc60j7egon_-B8dsovYXicOzxLnw9gwwB1EO2T9mlRENDPkHcXILsdFJYVU-aI7uGUxCsAEYVKKdOCaz7lERqIX9GfPDs3xGfcdr8wJETnjjglHmQbw5TM_M9IQgdmulAx55fkgR9S4DK71coOGWz_mNnKysQwuexMokLammBHt9KCX1iXy99NpFBDSusrKrOFXyPCl42nh_zQOXyChcJLWm4gMv6LFZmLiAae1VEYh0u_Eoaqb39c2r1-LZHrkl-lUTI5udka8HIVm-WYOz0erTgA_0WO1vsw1kYMq-FIfIx9Z6hP-_xHKS86rD0xY7QkmZWpPf9NufP3233mz_3dNG4mq-aSEzlflAPSzDOf3XClM",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfTfLPmphmqd_7aQ3VOnOcQOvFHMqlWiSZFqqxSg8EYRWjN91sZdwyID3bTJkwf5ahn4tHUMa_ODq2yW9Fm8-l2JUZY-_NT2E_tmavA-_ZyazSA_DsoK1oPsvSDyRZYBs3tk1yBDWvrHyO4_FQ4SIb47rDXGGiPIM8uN8gL86VWb_wEYUT273XenvZfNZ2QKgYdgteCeNzE65l8WVLmsf0U_zIObxyX3jQjkmXhlsuJFOiD9GHcatP3Yu-luUM0Ns5iPItQsLnZbExVVp53w9uuREuJi6IlsocZg8iL8bHYYNKwHUBZuZoNmAnbtqYFWsMGXB2pLMNCsq2g4JaoEtVWbkCXjpmDj49ITeRqcfunqlPKYvszSAvY4YbLKC9kTAeZlKfW7XASXQDY3d7-8es80VrvYeM",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfwHSe5oZZaJl3b-ui8PmDdRWn8FVvFpLEhbzAJtn1bcXF4cWkSW6ehkBpT-wP1viKBG5BL0FBaA-aTyaxj8DwEA0TOucWe6ZPMQHQbl5Iekn4-tASAz4S-pX4hq6golQa-eI4KL9SXrere-QZIDCP7xY_xv31PjBq_vRJaPytVTC4Lf1IU5fxsDW8p5qtCenvPi-15JqERlHKxPsMoN6RQDIHLvRwAHxKWe9GCSowGvp5cXU0PEPkd4erZthcCAa1wZLyP8tnUaTMYrVvGEaXI8BZTykhgG5Hhfl2XtCjgDqlK7gR1qHQPc76eeHFuW7u97XDJK9MnH0UT8k9FpS_ECd-HOa9JVMOGfsaPHNXa4ol_gLIUNeMCzX05OAnpbfpkPsR7IMHnInQ5Hw-gDXPxGw",
+        "width": 4032
+      },
+      {
+        "height": 597,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe47dE1A6jb7EEKM0vMMVgSYlA3montiJ8IkgfdgSHu96YieKA5gYmh_WhgPScmCbswqknMiT3N1a8VGNmkGVb2Z90LBRZsKrRzymzKyh3j4uTdGgYreU1Ee2T2X9zyzuYsOpAM4uaUTwqL8ZhCtK4bjSwRRmnh8IsxRNwtyeXIBcJP4WVBaw5Uzxdhp-S_sp-NTVSTU3RSIOxc-48pyjgEZUC9pJZcomsycGWv6HhnmR3tA8RG7hNl5SOXotfWyd-QrA9WtsdaAamVR4Yzu9mLQXaG25b-HMOYZbI7xWJ6XOaNonI6tUmrTc8E9XyRdSXUEgOuYWZjX8mKzhk6sUnSBQXWYH-hXc-C891RDBZB8_CmM_sWhdTC1L8V13D1k5suDXbXVBScAq1BLN1XQXnBB7My",
+        "width": 597
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLciKdUm37eLQ_GaoPkAYZ7r0BasZEgnw6v2rn9r2UiUm3y8RsPMygU1NTAnu_sjbJKveVDZP2d4Z3ZOQ3IsLJk8SXS3ZbUQkkxQSsjGeELb3eMxleDDWXvJ_Qi5tBlYtFktG_XD3EwueBz-Lew4NZWNg1SYP1RjkpgF5TjAW02usd0MK_1oAEKB0bQU9H_avt8XhTRFeHsnTsRSVQkrYE8sDf6NSbi3mgPr_CnpVCYcNx8LiiqH_hSfYQnWGNKMG9LggQsPJJJa1Eji--OFGur19fCqexzD4eR6HNO9wNqiYr4TBCufPSlhg0A64mzA6VR1T2hvm32MHk_4Zu4azlxyKMOKgfKfOrdIc2aTad5ZkOzhnlnNAWSwt2c-l2TPcU1DJ-sT-qk-1DTDesh3RtJESWA2IPY",
+        "width": 2250
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcgKWYwbt36EVJPZS-uXVOt5AxUaP-Kqyws6xoc-L0FzcqoS8SPXYeD_spP2VFyvf05v9f5S3MXTkDzbe4iQzzIFR9yUlHA-LnmLeQo0vyjpkUuUoBfuvGSZzSQT_prXd_BhASM6fklseZ_5Z27qnAvrnub7_nK08RokTUUGYoB9bnFXxK2P1wsVjWgvH35RyyO0TtPgh4_PcvTEIMbej8VQ15t_FUExzWhcvgzF1WJcdcKddpXf_xg4BQy-a6uSkw6E4ejp2xTIuVbQ85hWQ83HYRu_KBD2NQFNnNc24cem_5E6xkLqfrF0TID78wgJccV48tEthH4dOQGbF_Y-0qGdlnTgkZuidYTyQDJX8b7UR8_ZXGxNG-Dn5OHI8Ff-JMcCSN8O7K39IuBQ5ziJyGOXkAu",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcvqKvU4eMYIZYh2tNJ86ZV6neUDB_h_46uOBJIMTjUW6P-xEpfF02gCSRlv0AhtS87neto4NcxATMeJSKQz0znaudrQnfBnJlF6a04ZkU1UKpTAJTk00tvKPQa4eA-lADnN7PjP_IiCB1EtaXEfDQId2I9fFVTgyQaGc_RHRaWvHpn291sokz3H864Uma3wcblhp9FqfaV_8tfntaS5LcfFg_-4ncbzibDyk-99-OkeBaN0RlbBCvOTXQD2NAzI4Rn0BkKUxMcctGPWpnBNLNXPDcFebCvx_coICywDag-v4uwEP3m7mdJXOlwT-JcyXGpcMSCdvO2YRGniTr73SYIDJCEymQQ-MrROxLitgrm2M0BwocmCMFW_TN6Bw1iP01FZ-ssQMowJ68zgTgCrPq-8A",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969493731698407902\">Peony Acupuncture &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfHlsW_CYYo5-nZO2vNHfqnaD70YqV6-A8Y_KOiD1gOqA6nj1nsmHlkmx-Nv1GfgGWQQ16z9qQXINgpgoSS1XY-m2VeAPvi7YKELt6QQYgqRnz5uD6A2UfqnD0hv4cC8w1E_7CdDsgrywmKoxLv9Ir63YW1c14zOqXUE3tfdrODDikFdnPRNlUIPF8tmFO5XZVSFn6AYW0F-bjcAejcANu6CySEKMO_tkDKAjghSwMpMYAObo5PjiOYa8SzjNH0b5JLz4udw4rcbMsShRYp82uHUY8Y1QBm3dyIMXt1GCi-liEMjO6dvrdrM07YhDLU-bxSifRtlssVtKfiKV0bT-y6D6cPCECNHwzhqrDGhOxLlxlfW6zKlPnTXsYfDhy3W6nSR7LVB04jWkIes6eUux8fpfh6sJU",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJ1yrcVPXGYVMRoqX-ePy12IM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9500543509904401826",
+    "vicinity": "302 N 5th St, Coeur d'Alene",
     "website": "http://www.peonyacupuncture.com/"
   }
 }
