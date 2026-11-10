@@ -1,38 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:31Z",
+  "fetched_at": "2026-11-10T02:52:54Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Centro de Nutricion Cuevas",
   "place_id": "ChIJh6SPF6fPwoARFas_hwvJhrk",
   "result": {
-    "formatted_address": "738 South Atlantic Boulevard, Los Angeles, CA",
+    "address_components": [
+      {
+        "long_name": "738",
+        "short_name": "738",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Atlantic Boulevard",
+        "short_name": "S Atlantic Blvd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Los Angeles",
+        "short_name": "Los Angeles",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90022",
+        "short_name": "90022",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3214",
+        "short_name": "3214",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "738 S Atlantic Blvd, Los Angeles, CA 90022, USA",
     "formatted_phone_number": "(323) 261-1156",
     "geometry": {
       "location": {
         "lat": 34.0215,
         "lng": -118.156679
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.02288848029149,
+          "lng": -118.1554663697085
+        },
+        "southwest": {
+          "lat": 34.0201905197085,
+          "lng": -118.1581643302915
+        }
       }
     },
     "name": "Centro de Nutricion Cuevas",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 18:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJh6SPF6fPwoARFas_hwvJhrk"
+    "place_id": "ChIJh6SPF6fPwoARFas_hwvJhrk",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13368593595246816021",
+    "vicinity": "738 S Atlantic Blvd, Los Angeles"
   }
 }
