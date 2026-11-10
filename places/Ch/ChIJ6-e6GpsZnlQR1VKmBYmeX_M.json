@@ -1,38 +1,286 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:03Z",
+  "fetched_at": "2026-11-10T02:53:30Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Good Medicine Apothecary",
   "place_id": "ChIJ6-e6GpsZnlQR1VKmBYmeX_M",
   "result": {
-    "formatted_address": "301 West 2nd Avenue, Spokane, WA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "301",
+        "short_name": "301",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 2nd Avenue",
+        "short_name": "W 2nd Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Spokane",
+        "short_name": "Downtown Spokane",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99201",
+        "short_name": "99201",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "4306",
+        "short_name": "4306",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "301 W 2nd Ave Ste A, Spokane, WA 99201, USA",
     "geometry": {
       "location": {
         "lat": 47.6542807,
         "lng": -117.4166906
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6557473802915,
+          "lng": -117.4153398197085
+        },
+        "southwest": {
+          "lat": 47.6530494197085,
+          "lng": -117.4180377802915
+        }
       }
     },
     "name": "Good Medicine Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1400"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1400"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1400"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 17:00",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Monday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113969110404358477816\">Good Medicine Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcwpEIMpivGEfnheElTOKmt8uyJbGvnZNlTcCgwMAcQzfYcffVs6rrkYIXO3SjqeqDCfFRqcKjwM5RaO2VU3lueMTkmqqunV2FGvSk4ZzSWsvCztAn1MFxm9rwT0vrUXWrvJBA8b5OpGSwn1hkhjUsd1FLZSYmWpDHalqY6p9e-tJYdBEY2lT8N1CXkOSprV_Yg-2cA7yq_aLL-2YIdA_eZmXFpFfJKE0hlLK6ilJ072XIFRtxN7lQRw7SgCwdUMwglaI4Cyq3Pm-zMXwqTgacmj_vlJW2FBDZTAWIClRpLHgvjk4F3U7WVZdQfTxrFNtJeJJSoqvuro3VG_9Ia8c4BPtVrURBG9juB52LcrGeGjYGD-GvFjgPB-x7flWXnEBV_EwTBRdmP2zelnOKPQ4r0HTEl4OQ82AEg3hNf_i2C",
+        "width": 4032
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105485123026694149159\">Sierra Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLdai6LzJv5k7HLHyC0zZgKjuUV229hABPkQ0nSBunnnVMEXVQ66Kt_uIjN_AUZM1KOcMRcZJu5YhEGWSGXpKar45pAOpCFWFT-T5dJldRco56fmdn5qfbPo_I9FgbGvIDhPsCaTwI1Dcd2iZPPXFWKhHRRFry4pbWZGch83kH7Al8Moxyv7EMsVfrqPttkkPbFjwaOA_RyXLMOBPQhXcste9bQQT4S5XGKrNHAW3lbhaz0Rk2SqEXdht2zzp5ag1a5yc4sDuELCrHn4qUCOQ-jlDSOhdMr9AV2Fe-vLyBEf-qzxxzI9hfve8kaGyVL9FovWZAq6CToL04Ih1orWZZHLrOqgunzrFOw1dq4SmZkjwVovjMXjm9BYkYbDMIYmyWYssCbhFxFDyFVB5wIbdMaXdSc8ikSQkrnKPYFesQavMg",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105485123026694149159\">Sierra Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLcDGXzh-Jo96xUEXXKCiF-W7nHgNele8nf61GAssU4GDrIa1DASvNOYbKTqNgo8KolXHg85FuamUn088J7S9ZRfSHNfJJM8NRF3fAonCHeEFMcBco9o2vAp3hDfRCIG7XHvbdwJ7u6ZmP6aCUrCNESh6Jjh8_Rfz2Srmga8oHN2Smq4APQBozmKHMm_7zzC-_btBk7ONSX50EEE3NXZvM-VSvXAgarQY5hT_RmZ8S6J0YNrJj5oxivZYDu5gFKqzUOquDIqtNx9blLBUyblXfLia7hwLHAeTRf8FtPCCiC_MjntA775o97-kKwAVJ25rdMsunxbhZWpSk6xTX-dKTl3BovNXMWZrg_0Ry-WCHisRwu_HZ1VAfb3oq76DgT5xGVEgUwYvooRUjt6IuyyBPv39oWRkPVxG1wf4yCHkfvG",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105485123026694149159\">Sierra Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLdEUNykvVExII_yfZvdMdvtLdNNXtnQjb2OgReKYxYMVQhk4bHLobhPCKSN7CU4KYQuECSEjCi7-YP57GTymVlQKTAIVISCOpJNoyFYIV62a4sQRsg0xlwzWIFu9eD-ISuIRgcCfTq5lTBeaVvQ6jsr-z-wxNprvxsdS6qtnNrBHTWCPsVuTeayn2TpR2VdaXnPBqi6DebnHneIhg1e-fTdhwM8YUb7a-ro15_sGKEd97fqgS86MLx52qqUVLYiRqqdz0buFkQ7IcspYlTFIrl_oIkEXGwYM4BNac4vPIw_wGpvivkf9R8QkARneTmjqmHyZGR_pBS4ff1-Iy3EMUBabVH73kKDyYI6CwnIJk64RN0MzmflbH3ndW7HoV_lfePmQWCLUwin6eVWIBZatgQY4ueL2YMGqm1nmzAnO9rqmw",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105485123026694149159\">Sierra Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLckEC2hHNqEbmypyVmZt4nQyX12Dxp2CjhvlgWO0Ec0Hmb_0ynesUuEvohRrEzCwyjS4nYxyaK0ZaoVu8TfyMIAcEvFMFIbsSDFfYy_AG0m0r9MYumg4hFcJavgZ3B3smQWcHVoK0Aott6w05PEQtZmgq2HKsys9sImZkoMdqSnYd0_yBSbK2Kgmukoi5veo8yqHcLdbs2quT7Nv7sjsLRluqDNn8D884vS4RQIbKeRumtLHXnZ_WaQUDkmIwzKLF05S5GmY6yoYfqrYmD9qVh4MXqZ1Wq91lh5FuqEdHSmiwKEauADzbu15bL8v7CocKys0pNr36IE5o57-QB_DyMq45FiMuoniwpmLY2wmobHC_NkyyBpDaZHNf4MGspdDBVfPNlyf1h31OQIaupt_gYTjNEgEtvqCdpTua_eGR0T",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113969110404358477816\">Good Medicine Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdyXlLlDVb2boAhs8euT6KSIcTQ7vsnncir7upBXkywswqm1bAQkGz7rTq5FOhZC1rz2sZshjklQAw6yOqdoxxKNEY12IvLNOSXQgLtYF4lVrZq7llI6ySCro8yT8fi9KLy6IG3xjSPtPYKbx7U_lnMt8scw4hWHj0Y68Z4bNIK28XwbqAzGjlu2T1jOaswgoI-TcQo7zKHwvKvXz49LGWPo4BLfYJbaYoiK6PYn6LT65PHrropQlV63KDrprIAvouQlnfCSrC3kumVRd5e7QPikFPK5p5JRp-8Y96uREn-3kEHcIphGwCoETIeUYBrsm2Q2GpeLaLOqWjl8NxjAalQNqoM-vI_XgYN7qGi2xYLLAv_JwQo6vjPp7_-UsA0dIj2sFquJOawfATli5tN-det1SXi24RFSIxfm_0W9POM",
+        "width": 3200
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105485123026694149159\">Sierra Sanchez</a>"
+        ],
+        "photo_reference": "AV-0GLduNiFyvhbTEuQ2XA0b4uTRR936XueTZa63eBR2ZSY2tpCuKuA0b6dIOyDJOZVdwoESfeAUgVOPlw9PCP-R_tvJxuKnuXhYPlM-uwbBvlYAhwXHZadzkAfMaPdqhOOoGkGYWC20pM5oYgNbRa-tRe7WEQsADFepeJFzbTnHRrbdqCK7ODgUICjTRsQjnWP_ge8jvOPbERT9GKX4hf0cdARQHulWloy7OZWGh7vpxLjm8Icqf-WQhoA10fiD_jtADlFfzDZlqhC92bnU5Ay8Vtv7SbQhyuZADiaJ6wUULP25H3kUwH7gzHF5utlik0Did8cZS7RBjbyNb37oMRqyO5Rk0LQjOgLVN2H5no099H8ixlWl8aQ7e6sk-Ake0yeEOTzbbyVy5lya6q9STk84A-dFeowXwwI4olNYjjDylq905g",
+        "width": 3600
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110760575619105739132\">Gsxr Girl</a>"
+        ],
+        "photo_reference": "AV-0GLdj0heoJ-FkaOpPxxgr7EvmgcTQWf5IQUrBLnP8q5kHGP0EuA2MMqjSnRqSd_9TkI4NDYy-bAzEmuRyNBros-Ehr9uuB3jKJnCiEwTzSzxzwIbe2gkoPx4kN4YucUwbs1CjnpwtXqZpmVtD610edydIKGBBkGwPizn7t-Ttjm5KaP8JxikhWcamT6Rk6on3su36RGNJLxZXyUB9rM_GCstUDBem5QUfPYrv5FS7TodKtz47NfPtquwD6gX41y8IlNpIZWW7m4N52LJixpq366ODUEh5AdpKd9SK8uOfFbJ0sFGTNzAePJjghsakLcgdnSXDsDcVHGZJaz4QTtzy525UXOvJHH0mRW5YnXV9zMg2eRQ9TP7z1Y7qlYOTebow-jHxE4ENItl-Upao6Bx8JljVi15ZmmGXIbfrNC7DUYYf",
+        "width": 1242
+      },
+      {
+        "height": 1616,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113969110404358477816\">Good Medicine Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfYQ1WXkWW68jlB8lcMJbduOXlLVAmEROL5h4z4epUTNAOgjBGM2LpMhRgVahl6OBiwbKAg7H6VE2p86JWN9JrI9cEPUnScLIzaOd-ygKr3dZ9OYSoDSZoMLKyCi7LXLDePx75ohyIo81F9QMPJgzLiVgcfu0t5_-GZAjjQjLe6ldTuypixpLSuUCfl6RPINgijHLxIshMQEpNyUVXXBc-8cnuZyYovFjq6Jjhe_2o4s_GxIaU1UyHnsqnCbIixdYJBSQKodbNxZyHTzjoE2TYjpVpA5i5kdcP3C0Vo-HpIYI-5b_HdK6IcNLl31Wsx0wkqacUuIeg8PuqPvZ6AUNAkZprCfsYzN1S7zUdsqSrHwbRy-vjWccdNOeYvevYTeN3xBOr9RFP6nO2OvzsRiEynng-8ZqbA0IreIN6wliLR",
+        "width": 1080
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110760575619105739132\">Gsxr Girl</a>"
+        ],
+        "photo_reference": "AV-0GLfvYHZSdZRTsWwcdGxJ1fDwzjFz4I83t_9gO62EI1_5Kns2aWdVKewYmRl9BW1Il67Y6ox9Y4jPzJKVhq1ulskgylaBNOpjpc1JLth8535r6ZCxuhkT9wN1X89NkYWAvLxu-DG_wnlLJ6u7fbiNhdtz2Ay2nfl7iZo2RB1MQqmEBnxZ1jEy7e7Ks2M1YkPLLQMJNn3otq8cOXR0iD74cn8Kg7Qav6IQcxQuG9dqU_NLvXzwz6biGQgSZLhOJuWgiNytgVZD_Pk5IYmTsIuCZ0Jw3tBXT3ABokcmbQaD6sdtHjtxGWwuG8yjmKmzblBG7oFhI39RsVYZU-zTHepCAGzA-UOlyAcniEcfKwnAqqTuTiPXgvgFw4jDHvps4o7oR36Hz8FyjYiHzmmWlnheMf-tCXjK75aOz7A-cNz6d1-D9A",
+        "width": 1242
+      }
+    ],
     "place_id": "ChIJ6-e6GpsZnlQR1VKmBYmeX_M",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17536909785346495189",
+    "vicinity": "301 W 2nd Ave Ste A, Spokane",
     "website": "https://www.instagram.com/goodmedicineapothecary?igsh=YW1zeGk2YjI0dWhk&utm_source=qr"
   }
 }
