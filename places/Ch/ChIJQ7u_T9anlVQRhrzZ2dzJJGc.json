@@ -1,40 +1,255 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:41Z",
+  "fetched_at": "2026-11-10T02:53:01Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Casa de Ritual",
   "place_id": "ChIJQ7u_T9anlVQRhrzZ2dzJJGc",
   "result": {
-    "formatted_address": "1412 Northeast Alberta Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "1412",
+        "short_name": "1412",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Alberta Street",
+        "short_name": "NE Alberta St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "King",
+        "short_name": "King",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97211",
+        "short_name": "97211",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5044",
+        "short_name": "5044",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1412 NE Alberta St, Portland, OR 97211, USA",
     "formatted_phone_number": "(503) 444-7608",
     "geometry": {
       "location": {
         "lat": 45.5589675,
         "lng": -122.6513115
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5603813802915,
+          "lng": -122.6499759697085
+        },
+        "southwest": {
+          "lat": 45.5576834197085,
+          "lng": -122.6526739302915
+        }
       }
     },
     "name": "Casa de Ritual",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1619,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLcQf6yb2XUe2jljN7BF-sDarjQtXncTjZ2nQ0rLX8TBYRL0R5wA7U8C75z2r8-vu9Szfer3a9xq-1BqtxDT9b0VCEsjX_tiGZEqjKhw2uRtIi2FIAH6sC31n5iNlIDM--m5UAECyBHBWVZqjn-OExcUD-eOdEdppxXGMEbfnLhwJG0bmfrGVrvPXc-FCApZB86HO4aSWQg6CNscV5sZZ4Ggo_JUiUeKHcg5X2fhuntKEhCEA2wwIZaieI46oiWIseuV_JGiJmSnjLSFn6RmEDj8EtOD467DxsiZk7THUKAXn58Wn-cItuDw6QtQaAeTjVjgttRaviuSACnSigEFNIiu1ITQm762CrnPQ8p3KIc6tMMza6ZIGfaSPWlkxCeoSjaUsOZTN4n7iUSIHQbt6Yy5RcnUhik9EQV0ay37mD2u",
+        "width": 1619
+      },
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLdnpW7u1zFjaHRus3yPUs9DXa9UXWGLSxjdSV_LsyYdJETA50juMXQex3sxsi-as3R5Mf7MJhNYqBQG0dmPMGeqh7xgo_yz1PsC_Es72GK6FeGTmUZQReOnl99Ep_HkUFBMZ3IQycoHYmAopxKhXveSgSk1sEvuCYkt0rA-Y_XeSG_TXnxfngJMDpN-eFG0pfVqyY9r3u2cIjUc_JNMahWucCZV0NkMzmYKgd_POx4Xdi8U9oeneUBfbOd6FhhFPaIO7TGPlX7AMecdlWF_6_aNnItkkt9Hp9uRFXV-7WvGhg4gleDBEawjSjSJxcGCKc3yXR0q1y8bhWNTyNmMgRBFQLzMmRUoq_wvYS7OsAACyGJRYwdknXqjERB90ZR7ZjqVKSz-2noLJoxW4ySM1fviJqrkDwg",
+        "width": 1000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLd7nzPBbivoIz4jyd1taQ9JzyBuN4HtbUDS7BPhKDml0vZ7mlhUDmQ3djbIeKNNatwOrblJXacV_TclpPv5WRiXiEMpZ9kat0SpImYlbbiDkXZRpD6vwPkkw60YfmgOc3hsFralSCXUzB0NIK-gd5wOv6m54m6h6rvTWrrQsWnN3DzeBtqRvwva2_Nl_X-5J-cVw180Lka7XIOsD75jCG0S82tm29MNG5kUSSipXLVDKUkiRClvfa-xmPDEwkEI1PupyE0Ui_Al0zdJf2UrEJ_xTMebPizn7eAetSyd3f5qdMThqLM3DJifhiH9IRGdz_PrPiMiHfesmZ0jbZMJigLW1K2xNzcz0xkmc8-j5EyXFQhypdAxPLDahu5kUwnXzmkspv0x6sNApbbCPe_dXC7C5T5jR_4icN515wdEUdhPIw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLf--EC7Zsp_K7rlpJTUhOuvXWsdPD5eRG9jHLwqpGeinTvhiW6BuueSvwt_PG2IgFZWxY_WvtDmKGE4eXsrY4JpRQehKQDgRiaxwvy1V2Ja9JQInawT5DxkCITP7wnchlqV5AYHPlI3mwQtjcxuUdX5LT0G108fEh0s8p-kPu2McUZ0GMAm3HLzOCpwuRNBIyXZyW7-Acvj44s2pV8yJZvIjk91bX5oZTw7xqd3z6A-I9bUKob70r3yiko2oTQaKzrRsPcfpRbXDk7nWXIpx8C_yEIZI_xVNfSYPKRWpksU6pyQPptHYDH7J34IyLvL99lxmFSWkih5rn0wnkKeY763sNjDiAYvUuIcIW_ZkSispmLhC8g0D7ufZ3FP_MuFC5xnL_XXyQBg8RLvI5inaBfTuGxCKSPluBHMtNb824yW",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLcYld8KdS8YOGAzm6WTA97es1keP_awktw3PBipgy4PxA4yRA4W7KJN_jZaGbC8PJ2xzspkxtXCMzphHBJuYR2vi_kHGUQJn2L0RdJlWUNm8gfO2ZwUCsqyraOU0KZSk0L8hYMmHSsiLv9dBWpCExdXFWHc3K56xoC22QVWFMGhLCSxORs0GNmB00P3kTbC67-Ji9MUMZ8gPj_XvIb699VKoltNtzyP2jxWujxYYppgwSSlLMBEC3NpKiV0oEf7Tt-63kSrWGMF3ttQqx2Rk59t7GPPOgjsnvw71GUJqhBC-Pzip8H2whKPynjqL-J-_m8-IK8gUQI1KfcZdl5YAbTdB_PasKjlHRqJYGy3ZpffvnuFhKvV6B97xYF_IdKId2T1TYeQqYZPVcdGxM8xNmUOrtNlR11wQiKL6tS3yYrw",
+        "width": 3024
+      },
+      {
+        "height": 1147,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLfWITB0NRy3taP8hJ0Hx8kzl42tPRbu0E7HpSCLShYuZCWnlxGAmlu1ycrpQXVS2nw3e4YlyccOW7V8p8O3x2tdJfNzzu_ezEd2orFtgYGHqGWr5UK5pASr0HrJe4me2HPebE0tGN08nrqiAwYnf4MCs2np00WxV9uWEzs5rCZR_93AGB-DQO9QAfi3dOLTFNUd2w3LUEZ3xSjahsOlpA79gS91IQh4pLEZ7vqzOlSk4T8P9Li-TnO_SmJR2YvDiUuLdNrXS7q02NUgzSatyven1972ZRWa2rfdeoX6HVieJH7YKb48xxVSTCX_kWRc42j9AXXcNjlgeXnHj9sse3gdm7hAhMtW4H_OzPxhpmsuVO-r5IpAjILwSD3FNB7cMFqhGfuZ7jaWMKlSKVbzpnU_n0AQwHBZRQuF7R4fiR0LUQ",
+        "width": 1170
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116379093706706369394\">Casa de Ritual</a>"
+        ],
+        "photo_reference": "AV-0GLeewl-0nPM_YawXuUXHSKMczgAykM81tLJLtZehd1iboe8EJ9DxrTKNyioXpxjzWF8YX8mW58q7BsZnu0jSzZpwiDRxKJTWzrhcO25ZLVOwlItkP8A04fsp6IgZGsql9yqbrHV8-ZBGfRI8Rx4IEfBJPhwhsbh8vHgCECAu5d6yahsweAcxbcctd4aTVPw7-2939JWbqX1h_5NnaPnIDJz6_NYjhENAoONFB94t-JtdAhYPwmsvfPv0aAqcHbRLyEOampbHT1FLLkmH_Bt_K4Yz6bWM95gV4-7uZBdQNhX6ReFNBMbCigNNeCd4J4ydgFkFkdWHCs0A1JH1H-v8c680Vtkh0PfgHxKWJsCkstFouCB1A3UDCPe3HZF0ZRbH9OcyBm3G2K0biegck46EUwGwwJj08oZxh-oqNCd6gFgOPw",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJQ7u_T9anlVQRhrzZ2dzJJGc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7432287235453074566",
+    "vicinity": "1412 NE Alberta St, Portland",
     "website": "http://www.casaderitual.com/"
   }
 }
