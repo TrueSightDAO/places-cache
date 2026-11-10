@@ -1,28 +1,189 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:02Z",
+  "fetched_at": "2026-11-10T02:53:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Happy Hippie",
   "place_id": "ChIJ5cy3F3f_YVMR2rwAUWOdkPs",
   "result": {
-    "formatted_address": "9 North Main Street, Deer Park, WA",
+    "address_components": [
+      {
+        "long_name": "9",
+        "short_name": "9",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Main Street",
+        "short_name": "N Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Deer Park",
+        "short_name": "Deer Park",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99006",
+        "short_name": "99006",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9 N Main St, Deer Park, WA 99006, USA",
     "formatted_phone_number": "(509) 844-8705",
     "geometry": {
       "location": {
         "lat": 47.9547076,
         "lng": -117.4772182
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.9560523802915,
+          "lng": -117.4757241197085
+        },
+        "southwest": {
+          "lat": 47.9533544197085,
+          "lng": -117.4784220802915
+        }
       }
     },
     "name": "The Happy Hippie",
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLfWP1ODBAs9w5TK8vECid7eOfkX-UQZOwUmQxxw7ObRvAL1tOMsGyXCVz3j0di5IDzIYe87-z4-ApDue7781Jzsdavj5NMOi9IG3e_Vd44_Zjsgn_w-KyxIJ7djvSDEOB9feqqvutejPpXVyxQwBoHWAlhq5sBPWHevxSFKY5Dbq4ay9jEVlg51qK6Lb18QJmc2uk_KysetnhNRR_mC5tqkCjWl7OydUqiOCHEeQIxl-8Khgg6ukYmbyOLWOgXZgeS7R8ZOM_65nFJLNp1GNkHZhRIAmigDJZ4ZNKvzQ9Rw5VWpPVhIEqmgcsIzpqVf_Qz436sgVE5iug30txWd9JeQQOmogdCdIqiThFcJWPqOfkKKx9fyRfJ8EERp37udpEKOq0GgQIhRieTLpdwNZHffNt8",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLdzwnd_jmexeRxC7Tv0cK1phrAq6RiOGjz6SQJQ1AkrnaBMeC3o-cJbCRUMZuFqKEOLzbMtXHfHG2-YZGvyF66NiYJrXD9xyfSkWq-wKnaN4cXsnIK_j6HkfXScsBEZAtEBAt9ALg_YKu1gFG8gOuEHMT7-JAx7rwWEi8oESMtfAc2BQPX5gCGo6K3oJtmuiAHDiPqeCSXLUOTqQ5e7Ueg6PX9LtAZ5fEApx1RPJJBoafQtHopCFl7bbewyI_6Q9C5YbaGKmbWv968qvi5v14MRgsndniAj1NJJIi5gSJ7pupSWKUN3hSNLxuYM7F6UP-R82xJpmTMFo3Pe9vwiElywlnIHVrRrgmvFbnUe6wk82USEwpBs29ulu0eoUAobxYvivXal5cqLkoBtSfFuwJPjBJOyX_V260nvuQ3SPcnl",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLdufqXzEGrtnY7I9Tj0ycjfGmN1m191nbwzwnXRpGFdI9PQPzvVQlgljflfHfeMCoMIrPGLGK1UuOax9iokw0WoRg6qMSis1MgYi5vxtd61tETQn5Dylz6TWXJh1GPu9R-jdOrr4myoJSc9a5UFRZYPAlaYDY-8UF3OBObzHZXR-4uc6s9bI9TcXpJbmgNCioJUh1efpgBuoztqkGeRMAmG2ZMGH-PDhdVgWZUClyCKGk0YuEeToIVJ3RZvNcdbj0D9sgLLk7bqaFw5QHBmr2Jrgj-iYmlQZquzDXjQW2uSjeCmh9evZ9hekPr4D71RVt6BejF4d3ndacIB0WTFIX34wDRWg2GG56KPrgV_MadvwxGxXi9NbxOhOYyzUx3V7eQOIE69wva6B-JMK07fGFllwKxBKAI",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLdq1Ofgz9UkRjzE0Qtkq4OR5wWeWRRr5BeheK3Vznje3i7CIVNFwOGGiHPKknNDCGi7Lg-5I_il0MOSiBQUP2g5ZuoLRhRP72396va-c2ekAzUsjtWPrA6qnEiqDAQlBe7vU7gxzxwg2ABjjQMKJ3oFiX6WvQL0ZQ51MOSMMTx4XXQLK6CLC5rG-9qZ3bbttICEb5W0EMh28726tFngEiaJPjqAgdW44axtN0o4ZAM2rXi3_ODdQJpzkOIEMb6ZM4kWtj4ntBCzinQuUTzmGkpENm-Vkj2gc5ZybMqKITmkmW7W5ptFJcgpO0nE7BXpFQFqT3j_fbT6VnMCc5EeaVcbN2uYhKHoz_5z2XkM8oY9CfLgBGox3MsaUZw_uXkcBw6H_hvQK3_t7TGaILgXRwIVYSLVkznbU-l_2tJtLQLb",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLdeUy1d6WQygkiJIHVN4OGv4AInGv8sYH_rgk8hX7lnq64qrXAbdWBn-p4uOPPV1oo5gl_pUaLnNVckOYq_65Yed77OdA9R9iW94grlk5JUxQftiZcskAn5e5d28xZqojGBjMVvRWLpVCUpzTaEKmvYnABrz77mQ8fFogE-IiGaWnc9WfNsL812ZKfc6pgiW_9QHtjouCydVg8DYI8mgzwqNA2FCxKHLWLQa1eOEM6pdNo0qaFCUU4PBl9nSq-zzz3sj34hMpcPD-Vo8MNDYIkdjjK-EU-AoDBAeTXonoz6JUQUyj6c7AaxPo19fXnvTt9tmQKhDSAKzjygL463pLR_gfZl53YFASfB1UOMAPPRT1yvTqZh8drRG1564vRphIFlVvspV539g5xlvx5db7Rz6U2vfSbxo8UjH0ytfPhTlw",
+        "width": 3000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLcvoAv-MPXMbvcl_HF3K15RM1oPyH79rZGjeu_jo9ULY5PIoF4pgvjnutyvNePdKPsc-e_NSs5zc2HyZLyIyoqvZRN-ipDHE5vn_bSO1c6P4G1XZsd5aQFlYvMkgIR6LQJRqmlYgbUg0y5g_Plk03PjYSogTdmneeC3iCRk81Cc8OUxVLJ2nHeaYWDzwnh3ezwFLln7xuaqw_R7fSA-WXM75Y2FZCjNMdhT-ZNzkFR5n3x6ZCVu3YvzC7PJ6sGxVDdVFa71zgcA65YO63F9L3676E8856lWglM-oBc9bfl9jY3cAfdMVXVnY7HuA9IPeW388L1bvw1kBYEIOUCs5NX5uRlATDdFrAyX1Ra9Gj5kA6-uYh1wD54j_dc74d_05gAGhKnr0uOw4s289dk7Kt9COP8M",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLc_AcmDhu3WxJMlY_67Gq8YStScJTsvKFQk_fa7mxdlRwsStouzyltqSTlo2c0rm4T4qKNLG4dAgD9yyZJ2Rou6z29SRLOml_BB4JXI9wwM_00-s-u-_yk5Klf255yjPb5SnKSzIVckHqfdEsWpwHORWidJhaKT9Ue9M_N_ecCubXKg93Inry8zWmSNC_sSW-_JQeegYUemNBB8Zp4kNhdf4OTAuPFP8exgOLcpsAEjXQ2LCgOPxgcp3LkRhG72F_MzkNoovRenaz_6PFDbdPAbBhWMeRCcGtYwCmAey62rV5emgRdq-Iqk7xg7dX1Ni10zMNoaBwy33zZ1a7aG9klJzlxp6LeXJhHaC2dJB-hjVM9QRIjfRQpek3ISltLOW_CSkyyEpY7uYnxyJAPjeMRxhFk",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113946376402486822720\">The Happy Hippie</a>"
+        ],
+        "photo_reference": "AV-0GLcM7Z4SVXuwzgqiZSTnwo-8bxL8ZbCY1XxGd70MH4q2Kw4Y150612_xAWzWBF7J-6JqIUJcedwWMz4oPXcZ8wY9eqLbt6Vt3OFdmf1UqvGfatque0eEfPZru-R8B8qzTfZeWhMPJ06XNMQkXrJEIkaPcX_BV_prN1neveYt3buy9b8yo8o6SuyhqRKS-M1hrPI-pZxJtx3Bhcp1e0cf069dJtDiXSIVGE6nhEThzXNpADBWGMW5hhActZw02rhbU0VhbiEL9vHN8LqqnR94hUEw99hRfmlseE2FvSm8uCl-2vRt2DH3JEBpxsWQ5V_nfUdCLcIUckaWH-c4ReZU2b_nHENC1rmHGrRdz1iYSew7f3fv6AspdnOimj0-5MexdrD4CjWjoh-MV6Dpg1F1tFfUGsiZdSymXdgYsUi1MY1ndg",
+        "width": 3000
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115890966122323441086\">Gabrielle Hardin</a>"
+        ],
+        "photo_reference": "AV-0GLdn4htjvAcDFICWYRP2Z4LJFbQVqXjl3zSm3pUWijg_Fiyhla6KkgZAAhQt_gTz0XnLoWgIC2zxOGe5kHdXt9owlnNdgjD9SmykNY0ZKfd8TyePzeU5iqdWg6N2ZqR2ZE9ZeghqH8RZIrj2JU_l59dFKfQ8MkbEcWnSifNfp9D5_UFNlLLcUzvixACoZEBjrxLCqQRpIgV1PCJCSWaZQLY1Y3n6GksiF5eennb7Ji_2cwODtbyvSXvZpD7AXLVeXAlnRIqkMesN_MFjzYglXSiL9HTHc_rq_dHeJO6w07CBgK--dJ4yXN3pKws4GB36Y4k_DKjbwWkFdDoH8ZrGFcEKZRPK9UgH5Ik-I7ovhuoEudzaKsI_H6NkJYEaCzXBFzHLgqr00ilVEajVaGKpMP32YBk-uelXyPuSBs4GOszGRA",
+        "width": 1242
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103557138572303129947\">Adelayda Ish</a>"
+        ],
+        "photo_reference": "AV-0GLcGY9SxLkVtQUcYMRai2KSBMxoi8Au2ZuahJYFdf4dahrGfTjRYqlG9CbIjvT9SG0_IXU713M5IuEpPXl__tSjRLW36Frf1X1mWf33Q2RJViAoowIJpref1PVWoSRJ6hnEd-vuCrk3ljWuOWop2Y_OrVhZXfNuC0nf0cqAAsfgZxtl12AQqiExxIB7Zx7-gR85byoHR-5BKHo2ylT4a4QbZ_DfWEuDb8uCv_4Ep_YOutR8V5Ge1DAADs8-zV0nbr2PYDHN5T-9Ic0f-NbvgUdveh4KYYY1uHhMPHm0hJL0FRep0xONaRRKVa12yQ5A6PgQFrTkRF8b4NaF0D1aOs2eMGwbvLu12l9nAyRNMhg7ObP4xw5Xy9AE6OVXksJEyNgJA8CmF0-nCmvpI91OB5VkPztgxLfdKR3f9wFv84OUhYg",
+        "width": 720
+      }
+    ],
     "place_id": "ChIJ5cy3F3f_YVMR2rwAUWOdkPs",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=18127161550052572378",
+    "vicinity": "9 N Main St, Deer Park",
     "website": "https://chelseazacher.glossgenius.com/"
   }
 }
