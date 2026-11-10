@@ -1,26 +1,107 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:57Z",
+  "fetched_at": "2026-11-10T02:53:22Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Functional Apothecary",
   "place_id": "ChIJ51OAgfVXrlQRMvpxB-sffAs",
   "result": {
-    "formatted_address": "SW, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "SW",
+        "short_name": "SW",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "Southwest Ada County Alliance",
+        "short_name": "Southwest Ada County Alliance",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83709",
+        "short_name": "83709",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "SW, Boise, ID 83709, USA",
     "formatted_phone_number": "(208) 917-1828",
     "geometry": {
       "location": {
         "lat": 43.5822853,
         "lng": -116.314068
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.5837714302915,
+          "lng": -116.3127764697085
+        },
+        "southwest": {
+          "lat": 43.5810734697085,
+          "lng": -116.3154744302915
+        }
       }
     },
     "name": "Functional Apothecary",
-    "place_id": "ChIJ51OAgfVXrlQRMvpxB-sffAs"
+    "place_id": "ChIJ51OAgfVXrlQRMvpxB-sffAs",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=827571525832014386",
+    "vicinity": "SW, Boise"
   }
 }
