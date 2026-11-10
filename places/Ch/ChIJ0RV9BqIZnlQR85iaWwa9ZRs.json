@@ -1,38 +1,287 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:45Z",
+  "fetched_at": "2026-11-10T02:53:06Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Anam Cara Healing Center",
   "place_id": "ChIJ0RV9BqIZnlQR85iaWwa9ZRs",
   "result": {
-    "formatted_address": "7 South Howard Street, Spokane, WA",
+    "address_components": [
+      {
+        "long_name": "Suite 210",
+        "short_name": "Ste 210",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "7",
+        "short_name": "7",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Howard Street",
+        "short_name": "S Howard St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Spokane",
+        "short_name": "Downtown Spokane",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99201",
+        "short_name": "99201",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7 S Howard St Ste 210, Spokane, WA 99201, USA",
     "geometry": {
       "location": {
         "lat": 47.6569713,
         "lng": -117.420852
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.65827648029149,
+          "lng": -117.4196129697085
+        },
+        "southwest": {
+          "lat": 47.6555785197085,
+          "lng": -117.4223109302915
+        }
       }
     },
     "name": "Anam Cara Healing Center",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 7:00 \u2013 18:00",
-        "Tuesday: 7:00 \u2013 18:00",
-        "Wednesday: 7:00 \u2013 18:00",
-        "Thursday: 7:00 \u2013 18:00",
-        "Friday: 7:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 18:00",
-        "Sunday: 9:00 \u2013 18:00"
+        "Monday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2331,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLdz735YT0TsAGmrKA8A2E1C_-3GHz-ovkns9HGy6LS0iDB6fm77y4QAempMHW5kl_sJNX8o-t2E1P_4-lgv3w-jBASaGeR0z-ao25E5UzzbKXLPzNLKXzwsRyVdMJ_vQQkZ0e_LFdSKf8TxYgTbddemvXcN4xul5UUpw4dRri_mvNUDVOaRz4uv0pVDBNeP7YxSrFoVR-cMdOdAlPiXQ4fL5S-hhJYqPDyuaTGp8MJ7CcuJO0TQXJRib7Hq8bwU2kI0q_anWgpDjz4CweKTb_hC1BUwBKloM4itxmVCA5gwQNoEm7kKacHBaS5bMDeKrzpV6Ly4Soij6CtivJ1cRpgISoBJS-iVK0IQN_nrTUecPRmDqoj7Le3gG-Tkd4Ha6ktYn2LxGveJmxojpDVpGNeDkO0",
+        "width": 3263
+      },
+      {
+        "height": 3263,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLfJPBu8Dy7FmqpMSYGnQp1Moqa3XJyFeMDRPiQRmId0-dGGZJ3AnxXxh3FToYCrYJ2m9an8GFwTwqMw_DqPViSfh8E38tzrkRWGYXEnpg05oEBIoHBa-CWGNj9I0w-V07gNiIgU-qBrpII5uVfqvcBfk_jV-cknNsuzCRZUc53MJ5KbzCRWcti5GPaNDqcQOtp822XZT0e8lsguwuAqzLDGTPOP4bOoDYgZUHEKDYrbHuK5h7oBdXY0HQ5KIXC_NQmb4Nbe53LDoQss8KWAvKM3-hDuLplc9jtnil2x10U9en6aF90Vn24KjFPCeQOlATaX8bkksyg5fsl0vJ9IBp_Y6PTBNEUsd2MTGcNuFXLsp08r-zWxMEy3RBenJW8IqI16Oru-qbSj6_deyGBJP0QLyHFs",
+        "width": 2331
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLca1ESUJop-iFFHnlBBtj_ZtsQsbYMGzOHWOvSFfAOYv5qlmCz-yJjMfvAwDGH1BwgnP54EObDTqx2SimcsvTVXd13n4rSI5xedpf9cVKvYQX368LSApbcvjifRWiyXeTSqOnPXpFSanBi4ATkz1yUFz4BiqfDywZzxHs-WzAQ8bAFvv7Rgq3re6fIo5RTFAct0cLBKZRVQFuDpNAa4LpRPNzBfDDVlITIAxAGIR7rCPf4EfbH7pTedEk105_jgEUvdqCWhdVUk0JZaDFc9UCRG61kMx9Ngkfk8-g1RfY9kZ96-odoB5hGPmCzAYkec9LQ8aMIR80uvczE1zJfoTKfEQvJrO4PS_9sGibHVxP7zq_L3XSPdnpj1vzPHmRlJ-_R_9dq44MzZiKcZspqNdSoLa9w",
+        "width": 720
+      },
+      {
+        "height": 1760,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLdiul3eWzVgSFh1J38XfgJDEdvoSx42Hr8EwxlE-31HNN4rXOUd0zX0cRGdtFXtJw7RkTHzs43SNZidQQ0fPAhW55uil5hE80dpucrJ9otp1V5F-0avMLRQBvuAXXSs8Zvow06OfkfBv5L9sdp1qGXBfna9Dzn7ofMaYNvL0fa2KEUaUiMvbeP9uT65PzbGJBt5q__6AmxLrIirQ__TJy6ZP6wZSxRkGq_5RCrXW8fTBJtS3OGzfhaWRDygVE-E05JXf9EMdoM-vD05HbHIlVT14xsn6zWyDXCgCyEBm56kJ0OVgnvgaq8lVgRXJaGvXp1mG2CMkbHe1qCxgIWapHqegZ7ks02-wah-tWHxygJS15NEcLuuE_SFj2u4ubk6emOVUy8kp6qyT4k3sLmgJMBPhyjO",
+        "width": 2395
+      },
+      {
+        "height": 1760,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLeMGFGumbdDDTkM1JILIQBLQWPv9enqgDNX4Of-e1Xx5BLPLGNp09L2SkyLtSBj2p7KqQJoVtTy6M2jKsSklf0oXRU1npcHPpbyjLSSP76MXjGBmIuCUC2EDFILR-DgNCmhq1D69eQM4lbgtXzumVArV63vrskaJ4KkavviY9HJwPigdYxp6G3KBs3_HZrt2LFra3JXhYkk3xStz07kaTv6Ja6PXe8D9GgrzelyaFMmmPMNP2VVBzZKpkvDxaodL12tRfQ_bQO7CENM--jh4A1KWk2mOt6ynHVWO8F4o1z1sye-Go6fEtQbCS7u2js57cumqfE2MbwP1SvE424OvZxQdW8mVYxs7HLBUXeInLHrHGBe5nX9hnfdEMx_qkPJ3ffsRDxh3htJWo7qCXE1-4Dafpig",
+        "width": 2146
+      },
+      {
+        "height": 2511,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLeOdLbK9fnBmbwnnPYcvW6O0nWQ_7KcU38c40lpMt_td5PB3XW7i_l7JR6bq2KciCSclV87vMUxA65DP9UOVBEOMO8aeVq2qhD9V_sq-vd6t0C2bbinvN7rul8rwbqLL9V5FYZkFx6PsTNUyLbnCIQkpLzLR8Cqa43qYaSPJFoiga5UlMhq94QlgB0Sd60I1apsP-TE1YVG23DTmYs-SAcj-D_CQ3KKMvG6r0sIq23J75p9tSqOrPNuwviyYpO2V48NxyUE09kUvxn7SBdt7qPiJaET3jsFvK9FwY0wlEYrAoZRG7xC9-b8z5SbD6zZoOaY5PWicjtVGMz_Q5Oz8lBeJcmez0MZx41dOyPEHUEWgsKTg1ZfjkwaqE6svfcso6T2YFnLMe2c0V4xRAKuAUy_pQ3v9s8",
+        "width": 1760
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLfC6F1sAjaclt6IiOtWgfiz1jcUf8Z4zyiYCZM_vatqEzHwt4ZN2s-x3PEoxiiVrkBngNjx3Dsd52-gW_kxypm4-xh1ac-5OE7OVE_YsEhJul0NQpqz9CzVG2c-rg1Kw5IFzfRXikZAciVnzdeKUq55sQ2OWRb-2BAhqI5JwPDWPb2yRIk84sL4O87Gf37wh8xRjK2cTdds8rsSlNG0GjmSI4CQax5rduvy9-hpZoV-D7MWWHGQ3qcVtMpCaVZ85Tc24G17NRkSq4ZbRkjNwphK-AGQhQrMfY_MEQcDoy_kPucfUCSpBRnzqFIhfXmjH-6W3UeNwUD_0QqeBRdE077xQ0AUnwvDWc2NizANbhfM_RqkIg9z11r_eASJksoZdmf_b3x3IyDqo9seKWT8gWHeAKVCFgAWTmS_Kb6ixK0sJA",
+        "width": 1536
+      },
+      {
+        "height": 3263,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLeVQym0tXWg7I0-pjdx1LyxQzuO6Bn95KBWKxLUIT3AR7BN7p_Woh3muZfLY1kieh8FVPumSwdXogjRiR-Fo1TXzge7iWE4GS_VMIk_inOVTYriV1l-6W6x-ml2YH3CiFoan_4y7c40lxL865nNMRuXfliTL0GCA07uNZVZOlWIoElLDZD_zp9Gw-aNsMl_b8TlZl7CjqdcwJ8ICLVVtoYzbLW2gNTb-0rJ2bdpcTeOHSqWbw3AWwTMItECqNrDAkUnMcOULmrh_KEKueear5XuBEs-dSTZDZlNHbYLU-j05RPsdc76lAkjsB0e4JbhX_MHbLIXYuIWhXEsbX3RfMzoa91N05K9oTpOqpO_i3OQ1vODZ3WP53nQp1TbCBoMmpPW1hRjRKdYMwLJGaC2zEOV09Q",
+        "width": 2331
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLfOztxDSu1DMM5lP4GxRLE8Z-EMmsS2Ds2WKIx0nv8T_UvI76C9pCYe2WJJhFgmqzQZS4xnu5JqR7d2UUTWC0PIMQLXeCty4PPHZXAfPmb4xPaSdZTwFWON2Z4xquklX92P1039mFMfpvzizx58wX2xalzghycEoFplzNJ-2Aj8cnaOM-iXM4m-R4Ewhkf2ZKY-8bczcD8rJOxtAlZ1zFbX-giEUewLBaAVfHTQlXOXFziwlmCBoJ_LCT1uOEDnswuWfEEX8BULdWswc0hQzDz6za5eWjBZ4ofLP-KUAt6CA4BfqkTtiysdnTv1pSs6cgkfKMgUQ2QSy39Lafb3dXyFxJsOb1tpKJGJdd_5dkIrFsPUzor0YU87It-U2U8CPTFPiBoXx23KSziTd2bN-f7cXZQ",
+        "width": 1536
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114480711969894984589\">Anam Cara Healing Center</a>"
+        ],
+        "photo_reference": "AV-0GLc8n0cNatvhLX3_IbGkAUIN_oDGin_J1m1-UxHhIOEFq4QVD6iZaXgalK20b_Vqlw3TYWMYIWiXkNBFIOC6068XmrjMZvfWdJLTt7P8dL9r2CN7n7IY4jDnsYdzYn5SDHpuZF6iN3GKb1XZaYvo8JcgHLreyVPgBPgmEJ5YSbsxGQCNEfrjsAlnytgwf-Bmc8r58m0iYOyKlNGBhBaXxSDxgfd4ECgkn95edsDG1CJin5u0lSUJck_ebTsJFe1oPJmqbqKbw3MqTONyrDQ-dYxk62EthMbU_K71WvzfcMhf2Wa6sFZtquyfd_5rCn_inDhFEWxnROtA0y-rWWSRKtB5yLVltmVZMWa0oV03XPB9GGb-gu_-jolKV4Sl-Mb1oa3pXYFSiQHIksuBE4oFfMSlqtmdQ-bb0SD5PUQQ-zpjrQ",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJ0RV9BqIZnlQR85iaWwa9ZRs",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=1974191846676142323",
+    "vicinity": "7 S Howard St Ste 210, Spokane",
     "website": "http://anamcarahealing.center/"
   }
 }
