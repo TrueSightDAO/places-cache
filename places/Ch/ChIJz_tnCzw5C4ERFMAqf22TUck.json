@@ -1,40 +1,203 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:20Z",
+  "fetched_at": "2026-11-10T02:52:46Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Polk Apothecary LLC",
   "place_id": "ChIJz_tnCzw5C4ERFMAqf22TUck",
   "result": {
-    "formatted_address": "27 Northeast Killingsworth Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "27",
+        "short_name": "27",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Killingsworth Street",
+        "short_name": "NE Killingsworth St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Humboldt",
+        "short_name": "Humboldt",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97211",
+        "short_name": "97211",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2623",
+        "short_name": "2623",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "27 NE Killingsworth St, Portland, OR 97211, USA",
     "formatted_phone_number": "(718) 869-1697",
     "geometry": {
       "location": {
-        "lat": 45.5628686,
+        "lat": 45.56286859999999,
         "lng": -122.6661492
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5641454802915,
+          "lng": -122.6647749197085
+        },
+        "southwest": {
+          "lat": 45.5614475197085,
+          "lng": -122.6674728802915
+        }
       }
     },
     "name": "Polk Apothecary LLC",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 18:00",
-        "Wednesday: Closed",
-        "Thursday: 9:00 \u2013 18:00",
-        "Friday: Closed",
-        "Saturday: 9:00 \u2013 18:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: Closed",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111648589255889054518\">Brown Beauty &amp; Wellness Foundation</a>"
+        ],
+        "photo_reference": "AV-0GLfhFWFWoaHCfESFEMwHX8lWkIXlQSLO-kZge8zhBJUcefvGgb7ZSMSeitiv6wJ1p53uFSaKBsA1M4OP8v2tipQkKo2vxhbkmCZuDue6lKVY1pQPkwu3aLwW6UBlk78Lw6mJDpawpX3_4ZpkcOWZSkzIpFYZmOe-BZO9Ds8NYjZu3fZ4jrbEI7yZu4wDJhn_UpAjJgcD98-tYCf_NK19Ix7ha6s21MGovZ1DgwJHSQ0c_m2LBnc3cA5EofF4ch1sJCipluvGRQ3CFROeDB9MK-_FPLKFhiN7piPG7JL3fr9TqU069cjjtjm8_htM1wP06b3jBm0fafVZ-cssHhybQSuxrvyXBIpNw6Z_OtXcmYMJqJISHNh9aSmhdSbJdIMH2NnlDHpdHYGyPgdNZZtksOohSZHDH78",
+        "width": 4032
+      },
+      {
+        "height": 2282,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117892017940723150927\">Polk Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLd2mpj2j60C9F_cd-yz9vXUIDbjbFKTYbqu3NpkDlSEInm0s7aQddADwd58d12SbPdZ1tnKBBkMU84Zo34Dwfb9tcLKnnUJnWr0VBKylCsaoxj5IvBC6SbprhKPy-UNQRRHRpl3954LITlsxTx8oIbcjarpvlBvFKjsfCHSxo5GkV2H0h3pc3jHrnfVnl72d_x1wN3YPxuGIXih6nghvXNkiW4-t-EFaquBqEKEHEgUygjq6lu6uuoofQirxHLrk2-1FWFQwoIdjiMsLvhZhjjD8KLHSTxOemedhC4kxZppel0PCaCh3tYL4j4sgCC6Ff-izBgp9jFONp20y63bESjQn19SdJxPaclGKCHegg6zfVC0tT0xd9nXA0f8arHJYL5MVyZpCSJwQAbEIAC5XvwpOX6dxOG_I4PJjwedXh_vfQ",
+        "width": 1284
+      },
+      {
+        "height": 1959,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117892017940723150927\">Polk Apothecary LLC</a>"
+        ],
+        "photo_reference": "AV-0GLeNDNzdADHjMW28XadKJg_IJ8bCx2l3YJ8uhNZ27GESVQjy_SmUaY6cch3HWuzCY-a41SaPUtPZVQiYpCImhjushrnATKkIjeQH3wHgYn000oMl-v_d71fjS1ov0Oa9xR8Akum4aO1ZOLqlSOWxXOs-NVvRbMzlwmtT_AytKXMcsVcgeq-kAYWlyBoS2YghTmzC9D75Tg4iAtOFSLs3GAgk9Nmyy71_lJQc2YJ8R_HdHZyXtt4L_LHvBbpSn6SqzcM_gm2jSlKOyHVRkdvwatlWYLl6pv0jscMUSqUzJVk6vHqEgrbpdFIDN_fMbnIOZXZi7MN6o28I2WGjWHEAHAYKrDb_A4KyPNRi1KJgFeuW3JdF-8tULAabijtqi2csVGfly9g2wnT1zZ_9MnlfSSH95DssLHBvHxbmRkUP-RiP",
+        "width": 1284
+      }
+    ],
     "place_id": "ChIJz_tnCzw5C4ERFMAqf22TUck",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=14506537973231304724",
+    "vicinity": "27 NE Killingsworth St, Portland",
     "website": "http://www.polkapothecary.com/"
   }
 }
