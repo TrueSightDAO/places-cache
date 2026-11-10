@@ -1,38 +1,174 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:07Z",
+  "fetched_at": "2026-11-10T02:53:32Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Fehu Farm Apothecary",
   "place_id": "ChIJ6bN1D4I1lFQRgJgmP8KjeLY",
   "result": {
-    "formatted_address": "40600 Northeast 221st Avenue, Amboy, WA",
+    "address_components": [
+      {
+        "long_name": "101",
+        "short_name": "101",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "40600",
+        "short_name": "40600",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast 221st Avenue",
+        "short_name": "NE 221st Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Amboy",
+        "short_name": "Amboy",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Clark County",
+        "short_name": "Clark County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98601",
+        "short_name": "98601",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3850",
+        "short_name": "3850",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "40600 NE 221st Ave #101, Amboy, WA 98601, USA",
     "geometry": {
       "location": {
         "lat": 45.9152767,
         "lng": -122.4471566
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.9166002802915,
+          "lng": -122.4456140197085
+        },
+        "southwest": {
+          "lat": 45.9139023197085,
+          "lng": -122.4483119802915
+        }
       }
     },
     "name": "Fehu Farm Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1400"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 14:00",
-        "Thursday: 10:00 \u2013 14:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 14:00",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
         "Sunday: Closed"
       ]
     },
     "place_id": "ChIJ6bN1D4I1lFQRgJgmP8KjeLY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13148439166786640000",
+    "vicinity": "Building 1-1, 40600 NE 221st Ave #101, Amboy",
     "website": "https://www.fehufarmapothecary.com/"
   }
 }
