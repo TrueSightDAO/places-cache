@@ -1,40 +1,254 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:00Z",
+  "fetched_at": "2026-11-10T02:53:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Earth Fairy Holistics",
   "place_id": "ChIJ5TPeq-PHYVMRv4tEMpom14U",
   "result": {
-    "formatted_address": "2202 North Government Way, Coeur d'Alene, ID",
+    "address_components": [
+      {
+        "long_name": "2202",
+        "short_name": "2202",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Government Way",
+        "short_name": "N Government Wy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Coeur d'Alene",
+        "short_name": "Coeur d'Alene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kootenai County",
+        "short_name": "Kootenai County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83814",
+        "short_name": "83814",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2202 N Government Wy, Coeur d'Alene, ID 83814, USA",
     "formatted_phone_number": "(208) 770-7544",
     "geometry": {
       "location": {
-        "lat": 47.6973797,
-        "lng": -116.7857918
+        "lat": 47.69734829999999,
+        "lng": -116.7859962
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.69859823029149,
+          "lng": -116.7846102197085
+        },
+        "southwest": {
+          "lat": 47.6959002697085,
+          "lng": -116.7873081802915
+        }
       }
     },
     "name": "Earth Fairy Holistics",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 16:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLf5VpPY-BR5L3ay5xwoAuiXOeSjnxQKbYN-PZ8wtaCbOV0fHRxtqRfSJQ-iK1596c3osuFRgLOE-ps4AzicL-4Yk44P1WnXe9hdgfPMqy4i433ICLZdce1M09PrKZYPBlOY9b2ilWXqzSSfEVaLCnbLpIEzZd7_5w_NSFYF2G3-qv60rnI4RoFRRnC-W1riUeoyrLzIgBjNJTahvE1j6s76O9mKIZG_nmacvnEqaOr3MMTyLCKh_mvGwnO1xMpHkuybKzrcJPEtJm-cqrZXEbZBaVGjs92TaSoitRqXqap5NxLRlfjlu6YLeUnGJ4wf950d0NX8JQ35ro2XOA4h5jgyEBTYdg6Z5PKf8ZwvaQz4wnY3psPYmd33H0KQTm-cl44tJoYZu8WRpMI5ez7Y7zC5xA",
+        "width": 3024
+      },
+      {
+        "height": 2700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLd95vQ9n_EcuTHYOY7zE-M3vXbe3OCj47IBCD-ZMJV0IWyGEk_itll4Rzg1IssFxVKpdAzV-M2Oi7TnlvOL-9cZXvioX6Hi0-ryUE6Rhlhv-KcFFd3PxD0bpmtQ1JUeMArpTa2T2WeYY-aQVppJaxDo4dc6IWd7LJVEK0Xc5MLnSZOVQ-c0NyJKdD0prQRrjlkhovQ21eW34OMwxzObmVFBc4bInWTDrj45xdoXGoK_g3W7GjSlG9Gwp7ncePgBhaWp0fWeicMIdE3WJhFkNGdMnnTMENAwr1LZT1grhXfjzQGg9xQZqEaWTGpLOXqdjATW6bKWpaRAsOeAnLjHhN25pQBcg0lwVkMm1ZaTJGOighM1e3Nk2FwSf9qRXvn4KMbDyTl41bfZ6Sccg4BteCmI1rB_h5yGf5LbuMOpjrDD",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLc3a7nYCLB-0zgiCxT6BUN5laqSLgTrRTXRyS33VF3m2pMbL1r2NATt6iPJl7UPJ0R3vGb9rgbTZjeFM5Idc0gxbqU2HB8jTz2Uyu3CSuECZiDEHKuxeCyT6DPaET7irA_GZxO8olHY_LN_P0OrxjMXeC9X97Tt3NQC8gmekwoc9an9Rf_PrAnU7E4bxO378QHVgwSql0hVHwDZAM2xFKQA50u_AcLisAXgDL41NXFFsFs3zNAUDlymHw3vrjq_olaSwRrSkCfGxjSHsVxd5o_2n5qGwE03vOokD_WbrrDGvanm421soSn-MUZIzb2iHLW9Ez4-33G-I9SPAE7vqu07vWfRKJh5m7egolE_HTjJ9-bVQ__2AkmnuIhzgjSJ6qmfOfVNs3E5ZdI_HXTYcylxoJw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLeKlVBGC-X4ZK7LtEdmoDF5sa6JbGXtkA0mxyHbBrcWN_v2MVle3zYipg0jMax-_FZWQLNekC4wEG_W0CoM6vyX5owPPyJLE8vcUEmfIH9KI08DcJXT9EWO_xQKnKNxilQmU0pO2DIjV3TN6lrP7_-njrEMgAIp456rFVP2mcSjDjdryY2crY1CZWyNB0jhsrMQnKFpc8D7816wd3OmINVeVoUJeCWKEyo6w2gzNPdLRvP0D7XReds5o8EsTjz_bRRm6I0Q8Vr3VnXoEdMtSwrcc3BYX73eFbuKdTqWtIXatsmjHHup9oToVeXTLAHtbZ2JtB8Kzi_EXcitIJlqU0YmWbRGVnPSl7ozqXvY2O-UqzFnNd1sfxK6VWgH6XTVLEgd_4UKu5aQgXHSaUCtO5p1KbGGOJEgNGJBWTLUooDLAQ",
+        "width": 2700
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLfbRQ7kVHBLlSdp9vuzexirVRQBnVb8bgAqLLacipKy3oNTlXkkuEnYL_98V-5Pnwc8OJAipesXNXco33mx2x763x9Pa7amJW5ILxDczGPhI5zJq0cFsqunYXXKcbDdfVEaYdtI0qsbqlH2qhIEZploAJ-V4O_dpY_WIPGPY3K2JWFAk3fU0J-BHoROlLBzR4rIrLr9JanLhxg5uuCf5-DV18z39WmguMgEzTvXYgrC_RRWf2A6zhvm3cA8SfZGAigjQjhxefLNSqze9VDNAE4Fwfn1vz9aLknlLhEiLYxzVw0e29Yo36fszfw5o-IhRHFR7mJqyfxH3YAwPx0WoHMtFXHLxxGlwFTeXtlAYq3IlqThdDkG1ayDrQi84Z9vbGFB3KvA3g-ip0e3Dmr4m4iiE-Oxiz0",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLd5KxxvNIRdS-2BeG4WAeGM3pjR_F1VBTGM0Vm7y_FQv9vJsstc0mNUYOHx9ZAxb8LwbEl8qHQfXxeMmsxALbVj00_XD9BoP4z4fsSgvxy8uLMvTfwyWcniJHhr_afHlt3TI9M_H1lTUGKdYK_B-xyxNaSvASZJyBlBJGidfOrrx-3TO9QiZjYWDd1nl_PugJWoT_eS5wiy-S3txSolpj8XHMKq2sQNAc7hy74yru6-gD34Vguu4bKpmvUH_zRKLHsPmqY7XXokqX9GSEjltkvjyLHgDbTY1ax4ppzjlNFL_54TDV0aIFJnV-5x955TVyCmj3DJ5Fcy1lf_VpOlke7dLCN49EM9cAU9hKSIdsK17zOd2OHIXXumJK0ykgPMBurjX002vwzNoyaa7oV27SIJ7DU",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLdkfLBdZUVzcvzaPIPKudowTL8YoyWWMjTfk89seVQFBjO28IIOFPDvEWYeJ2fFr-Ur0ofaPfqVPHXOZ4Cx-gHr6fqsB66Doq_Fjxb9XQmLANIWsF1BquGL062GqJzZbwE2RQm9M0-VvF6TewjCuGKP-hKCII5xgQ1j7Kzu6hmfc09R_EC518N-24MTqCzw9cOWuBxL1kaawAtFFQBtJAIrt2H-yDRiPpYroTDJQzQ-6e6Owg52cpRR8_IrgjOmaJUI8myeDKpWQZN0pRk7534JDTfE8hDJZ_gnJ2ni-eE4BP5TPcMXgZTBMmR0ALuPV-PPO6L-om6HetsaYUywJ20A93d-Bodvjpf6ctDYdYuQiJbUYBkpnqiwPUiE9Bv6ypDX9NEkhla7PTtxP3-ltwX0beIN8MlbPRjakheQ8KbTdw",
+        "width": 2700
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLclW9TJtxETTXjalM9WvNX8-mNoxn8nTo0qO6hyrM4KbhmK6TCaxpjNKLYASJkVC-7mvuPsy1aAdPugwZA5KpPTLMsFXW5KTO6boXMARVTg7tfVaN1oz1N0H4azbxn0ZCAOt_bVO8SyCuIpvo0Wz8GJt8xNbxKCFbP0XZkMfB6WlG8TjTR2VQJJ6z8qPwm4I_3uRSRk39HUZPo8hMBkBaB-tFxlyBcwbm_9vyvOPf0IiXzg7C2zU3ZndS3E0Iw0PLdcmRkhcCsaiI2Z5BQtdwAplyac5JLhz635k2Jn3ls6fyKh8OPAcswZTX3COxpKWSWCgM8I04DwPIh8fgo1f9oeLXNdU819TqpryaZMbE69r9R5D7g-Rx0n88QXkKYKBm3p143-u07LJrCUPtPkJRkUwS0",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLek3Yfk6olqbd0JNRT9_lMffBR3cy8dzMOnDDf7e2s19DsAqlZdhnBqFBtu0DkP_2JuMVoRq5cZGuY_6jGxYiPb_7NC7qKONJ-shdPtGWwrOFU88BA907YTsrx4O7vAaW2aVyO6V3le4RN87tRur5guMIp422L2wY2Ft_3DJVm3C29ZCMJ6a6QpolM7VjtFrZrhsbDY9xHJhBqA6CtoQKf-zy9s0afryS69sK5Hm_NECfaYwzUjEVukoVJqx8Il5juGvgKzh072zudZb7GDpMyTx6Ff2ycLxrHn2f0k6M_Jmpf_ZYGw3hr6_LSldL3UuIsMfX5kSxZ4Hf0VYnqIfus2qTJcgWkJjwis7DX7iTWlzTN1bSt_BCXlP8g8dPcTTFQx-jC-PSxVypZ0p5HZRru_cGoz",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113530200883375861069\">Earth Fairy Holistics</a>"
+        ],
+        "photo_reference": "AV-0GLcQYwDhi69s4423WS7buf78kOQQddzdNkR68Lh6ACqKyPytpl8tSOBuqoCzu_zAwcQ4kUDqvnmTUoQmN8Rzf-Mist0RyqEMOi2b6zu-ZD63Hp9y8iwNhK4ZEhoS1rFLZMWMSVJezL04zrTw2eGg2RwqqKDo1ua2cyE2P-4GRCOzDWCrPHh2IoBaJS0wYWr18QMDdm81GuiiB6un3RRw1WpDKuO4tABu3HYn5REPX-X3imYSR9WmAyyuBvgXEOPqaYRmiEEDK0j578UVq8e6YdWeVGj0EwuOvLSTbMLveqzhOU6D-q86XqK25XwvN28s_sUWMIuopkSzi3yiVQfTsiBmw6W4p6z7Om9yaOem_6IjEe7U8GTG-YsUnwbS3gXs_s1Y4PcaOwosmLD4T-a7pomwUA5pMAWJdhr1yxfjt7B8",
+        "width": 2700
+      }
+    ],
     "place_id": "ChIJ5TPeq-PHYVMRv4tEMpom14U",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9644219570747378623",
+    "vicinity": "2202 N Government Wy, Coeur d'Alene",
     "website": "http://www.earthfairyholistics.com/"
   }
 }
