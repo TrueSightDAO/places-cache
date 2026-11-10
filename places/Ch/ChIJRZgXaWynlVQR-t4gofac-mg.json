@@ -1,40 +1,272 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:42Z",
+  "fetched_at": "2026-11-10T02:53:04Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "La Sirena Botanica",
   "place_id": "ChIJRZgXaWynlVQR-t4gofac-mg",
   "result": {
-    "formatted_address": "1722 Northeast Alberta Street, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "1722",
+        "short_name": "1722",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Alberta Street",
+        "short_name": "NE Alberta St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vernon",
+        "short_name": "Vernon",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97211",
+        "short_name": "97211",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1722 NE Alberta St, Portland, OR 97211, USA",
     "formatted_phone_number": "(916) 877-0240",
     "geometry": {
       "location": {
         "lat": 45.5589071,
         "lng": -122.6471543
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5603466802915,
+          "lng": -122.6458470197085
+        },
+        "southwest": {
+          "lat": 45.5576487197085,
+          "lng": -122.6485449802915
+        }
       }
     },
     "name": "La Sirena Botanica",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 17:30",
-        "Wednesday: 10:30 \u2013 17:30",
-        "Thursday: 10:30 \u2013 17:30",
-        "Friday: 10:30 \u2013 18:00",
-        "Saturday: 11:00 \u2013 17:30",
-        "Sunday: 11:00 \u2013 5:30"
+        "Tuesday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:30\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111221657105766034346\">Chaz Vitale</a>"
+        ],
+        "photo_reference": "AV-0GLfA8nUFMKtFvgZfXqnK1V2M-ZLFGdrlhCCj3tdT6dxifZEsyvLoxsn09Oh6OGSZMm0MLPHMP9-UNBfeojb_qCSzXrt27wZmtXI-ZwcxeTJOtj6GXYkfhQNe31ySUtdtNPMrJP-qT-6CuDo-y4X1r4xY9134KTUvvBGhV_DWyUXCprwIxAccxxTzf7Izcy-WieJ6GXZc_pjpy7bCIAkWI4KtBEwsVUimeLU1mXGu_kKRiAx5jV-y6dwFyeTeP9KPLT79YohqfEBLuEkKI32j0QIFGe_2frXmMW9sxHKTtHQbztZoqVnYOfwLmD67dHrgmycaCdEm2xRlH5xzf2cdHeNV2eQTGCNJ4If-cRkPSo0aCTssHFKLiluje1hLa9nLOY0DZjLtzYqyTabuhqq5ymIa-bo",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115341892132337102151\">La Sirena Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLcXaII5hR4j3Lbtx_G2Jy6zsWQLSPnXEUMzRBEVj3N762ReJVAyeT3uYgwF8O0kQUC4rFUzRYTpXzgCHr8KZzXN0mFDBR9z-iCi4Rvgq0tktyTf0YTxPj-W6VRVEwPqJebEAiAhSwG62SlGaskVhC8bQP2AauyUCN0WNFa7ElRuayo1FzJasHqjmdvkJYtIZpNAiLa4t0WvBHM2trqPhj-UC_iNhfwRtmwQPNvnUignOyk3GVpr98h2NYOcGZxaZSh9pG4wlEOX9zQQkXk6LmpA-QNR_P0TZQDUKPrAVwOKDNRcBbOD_0tkmo1yHjvnQ3EIB9trC_vsjz2v2GihkTv6_06qZqX-Br5HDX0Ngo6V50lKzZL6qkTYOgocTD-1TJf2sX0HeXzvzlGF3n128u8UNIc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111221657105766034346\">Chaz Vitale</a>"
+        ],
+        "photo_reference": "AV-0GLfTHq_qm0GJ-p62vPhJ7QAuGMYBF-l6gEDh2UOxYCIaxIBtKRv8DBOcO9SwAFfFN0HPZmXmqtZQWiSKxSQR03ROaOWhoOakol0CBxvYKD-F00FvHznzKED5EIvqcHVgJSGo1Mke18-zL_wgqL9YIljDkD3pZVQmqjac63a1RNFvyjceh-IO6FcHqKKx_Uhrnb5qNVbqfMOWfP11VhENhrnC1o0_6VLLL9WU56mzRy3lK1euxY6rZFsLHNo9x3qJRliGCGMMTfxuDHwLAsbcBkuU2fkWw9KbfXbC-mqcEt6MGwUCdOMl8jSSEFrBOHmpBnImJdLuRsYJ125KOUx0QOZjQOovDKkSb1SKAL6MZY9zgEqyc6dgcRH75-CTCtxdKV36UJwEL5Zb8JIVImfWLOZ80ixSfCw",
+        "width": 3024
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110783374526160677214\">A.H</a>"
+        ],
+        "photo_reference": "AV-0GLerBLotoSbjh9w_-wjaLBikjOb7_2tEkwVM8XBpWSPCGsfMtXIEvRwt3VQ_iI5ux-VwaVS7pAO5-wzfT5ec-uyyKMUs0hRid4HYv_5Qr6RF8FXKyf9OD8WGabPzc0Jelsz7WUtIww5ty7t6roqsgW9N98bpNego30ApwV9lMQfJXkFKk6WtaFbbvmmjULIK2V-GTBstCMFz0P0xHSj_RkLiYa4U2sWt3nA2OQIzT6slVOEkEibur_VmUtKk7zevMbKnYdnE6hUwdT34BhQwlooKiGFjM6vJwdUfMtRiQGo8GVPLITvcllbkEOBG3h8LFRvJmS5z9U9F77eB7pJVLCvhckhRvWOs2ao6QxFF5QFXXR8fsF7e4jmYoP4lsStE2CjQNJCOUwIUyuJf9DNPMXIvmCM",
+        "width": 1080
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109398396636242745933\">Katrina Malachowski</a>"
+        ],
+        "photo_reference": "AV-0GLdHv00qhZbdFm8JJifnlyOoIw4StcaH7MzyO5B0ndLXcq5WbKD1KlR8RRUwH0zRouqUT6YaM3N8HxZeVUoqTL2KBLGAO_J7AVtHR9yP0oY4jWI8NVAmkPWGUK7rBoYeD-Xe-9BpB5F6QavfW6wb90LtnS76p7LXWv_OYYUkTYvPAYVsLLLczx7ybx0gPyTgnxQPiqzheJSQKz0_S25gVXyn34oK1ygVEoW3Ijo_k8-glXT4dyQ3rhpvDdXOI-qWruaqv3diQxsMj6grRpu5gQWlNvKS9Sm4VRoDeCKRDbsJ1PC9hX4wLWarkQC1FwLabZdb0muYtf1ZAs5JHsnj7Fl804jBcD_PwfY8H8cIoEMdOa1VuS6ngtRjdqgimk4IxOpO1WgTfk3NUVXZb9bclcahk5N8_-C10MhG46HKlhEskw",
+        "width": 3600
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115341892132337102151\">La Sirena Botanica</a>"
+        ],
+        "photo_reference": "AV-0GLcu_FXAwcdaAKDrtAiXGsPMKKhslSDeybbo_1Dg9HMOJahgOfd7louaOgXRTdWx3grW5WnLMJzzCNy38dwpJGiNQZRkkuE4ARmYsuKduvAm9_w6WqsUioYhlEtcbwRe9h0pfvU17dC1jW0bGH_-jU6TARZc5t065E2irigUpqp740pPcFvrY9U41vtIfA7M3w-PH7ol6FiP1AlH3WC9vMqjG592VnGBSVjMaHGeIyMTig5lbAOfOIj-QtVts60EIVgvySfoZJoofOvvyZpbE8ja8amT7GeVZzfRmcykR67OjYsbkLiLmvV3vl0fgSoo2c2nRgu56k1obNgAMcol4RnOuLgN58NpLhy1jklQJ40G7PL7t5neOzNbYYmoEwxFV3N-Khc_Ih6bziPc8l2WaOb4uR6nRiM",
+        "width": 480
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102889211570013007929\">Josie W.</a>"
+        ],
+        "photo_reference": "AV-0GLcDXdOWuG61UeuBKw9bmDjdKGkP1HxobN22dMQkjODnESzC6OpkocWGLKthNy-vQSpYqPQ-9l4R4GiVTsolVMyD4Ta4pMkO6Pu8MiTeJGJ5n6k_eat-tvGRM7PpVlBOZ1eZJBbKC0LLAjqY6lRY0MTmnDz8BA5svfvHFDlddLcixZRir2ePvgPMOhx3ZTDUKSjfiFYXk1U0TSVJ7fFWxC1XE2KSDdzXewhcO8tTmG0DxXc8JGy06KDw5YyJg8Gm9lLJwjKFbERk-jZUWBl9zVkucZPmMO7js4UCgihZwhk7IlzERC8QJV5UM9bS5J5l2iRj5-UXQIr6KtOOpyznT1_QlkEoB3uaoM-TQauRP_mqVgytXeo5QG1CKj5cutmmOrFiCimu4knI92nUOmvnNbNxVfvw",
+        "width": 1848
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111221657105766034346\">Chaz Vitale</a>"
+        ],
+        "photo_reference": "AV-0GLfjjNpHYRfNNo4l-xWRMzws9HkutuBbEoncIluP5-6TapOm1uaDMXZYZCjXRe3e_jtdZhSRxDEBIAtu1YhrW7iubUAO-xunDRVg9Kk4TAXyq8_YD8AdTsMfwvo5F3oLl8u7kojr03oaQAAwhTNCKm2jOEnKUEFOghrybqFAn7Jp-n0nVW5tAXxZ4h2cyCD1CM1AD6dyNF2atF6PiTbEFaI62tcaiqRWoTA5EmJTyTWJ2NwvwccNJ8uonkvEvaZwCF3XCXWrK6H1Osc-7GJcTxAqmeyHoqn-WGayMa4nBCOQipdB09ZTsiew2F0HceM-uq37ydaIAJhSFWVJaZTwe2cyGHqlx-UcuHLAsNJ2rX0uK00Ka_6lbnyFoDCeWZi3Wn00UfhHFuMfAni0tUwz7WCsywreHdU",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109398396636242745933\">Katrina Malachowski</a>"
+        ],
+        "photo_reference": "AV-0GLdTzUhcJLHK4gVTTCPf9GsrQfcr5kuC0b9PNCKxRi2sw8QMo1bhMJmVaEJcbxWtT7YVsTwgxjXVw3gWfpSpoVMa0L-_f4FLoi8Ev8XdDKUu9OeiQfnaaGD_MAbONrvfockRph3cn_8zXTj0sdFO1wIYfVwaSRVS57RcGHvxywZwRulZMqUdLOWfq1klHmbu7tSZ3ePkUCOA7Mg5MR4I-gK1O9CcqkNsaoAJ3ecc-1GcqaMjmEmFshLArR2FzP5lWBHJV5S2kIGyjGwgkYGD5vjQKxfh9ElGdD4blB7JOdBXoOxIcYan12bZUp-SfD-8paaGoZFkI5s6ePnkrGBmWoMonV4E8k3_s0Tn2IHPoq1BAkE3ETxJ2nyHoeiulUbqLqqZR59HWUG97JVvGj9bpGskxCv_b8IC0eiOFxRDMFc-5g",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111221657105766034346\">Chaz Vitale</a>"
+        ],
+        "photo_reference": "AV-0GLe343aG3_ZuuYhA7NlU1-erX_VS74mr_U3nW10reqUPQq_gke61EmxHkuvl28wgVjD1IZ66JBIsB3r6Mh-FJskk-8lzMzjJ2gVfbOsV-gw8IUP6z6oMVbCOgRlnqIgCKbN5JSWQP2PdodagBAo162KogByN7J42mo2EaiErwJDkyVnt08wRJPhRyETjC4TJAfj5_FnzTVW1Uemt-nFlUgYhbWUOXIALtAs2IHASpQMSzSdIvY5SkNaNouQImpqH0hbv79vmZa1pSZsAikLhicig7XC-70L1JDsFeHK_pwDbizAih5o4nfZRQ9d73A3V3y2dpE4-6pKSqY1oFGH67GIYTKAJBauooRCbBiFPug3SKmOejRdnR8c6V7OSUvfxyQTUIpSPlw0pS_g-4OHiBsF5OOo",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJRZgXaWynlVQR-t4gofac-mg",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7564531107201343226",
+    "vicinity": "1722 NE Alberta St, Portland",
     "website": "https://instagram.com/la_sirena_botanica_?igshid=OGQ5ZDc2ODk2ZA=="
   }
 }
