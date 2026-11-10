@@ -1,40 +1,166 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:49Z",
+  "fetched_at": "2026-11-10T02:53:12Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Vervain Collective",
   "place_id": "ChIJ0wIVh7n4rlQRQ98hS0WNrzc",
   "result": {
-    "formatted_address": "310 North 17th Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "310",
+        "short_name": "310",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 17th Street",
+        "short_name": "N 17th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Downtown",
+        "short_name": "West Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "310 N 17th St, Boise, ID 83702, USA",
     "formatted_phone_number": "(208) 274-3274",
     "geometry": {
       "location": {
         "lat": 43.6225583,
         "lng": -116.2124048
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.62397338029151,
+          "lng": -116.2110581197085
+        },
+        "southwest": {
+          "lat": 43.62127541970851,
+          "lng": -116.2137560802915
+        }
       }
     },
     "name": "The Vervain Collective",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 17:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 554,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627310134823499280\">Kelsey Jae</a>"
+        ],
+        "photo_reference": "AV-0GLcMwPm07WN3ipkfSQ_dZTEWD4DAzlKijHS9emDu-7cDi1kgzFBZ2XXcTMFXegYBpmAOdczoWKPMDrKGoYZoSc8OepMZNnaMglrMBNbyWC1ZeAYINCkbY9c32y9MCrnzYfTZf5lsVDzax_buw09HP7h3oRz8jSqfF-ZlEobSFRzJC7DOpK5l6IgriseaztFZXn6yaJLAhdKgSVTb70EVVKcPvO4vMmIXcOKfdPmG3vkorB3JlEqQC7ejfneoBieJAE37QSR_zc2Lz7WuOT07KAsorlk5WCBk_E1AfDSmIi_5Zy9WpLd-dhacVbxRIQPAg3KQrvaQKhOXcFNY4OME4o3cLEs8e1sxulz0M09uJZP2ccCITWt-Dg7UtQtcsvn_Ud5FcfkOyxYNVl0W4MTxQkyKcgd8tVI",
+        "width": 750
+      },
+      {
+        "height": 2666,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108077039293725437557\">The Vervain Collective</a>"
+        ],
+        "photo_reference": "AV-0GLcaNN3p94CpgVLAeq9GyEi7isxbyWPouCZ7Sx6Cu7TcT7Dan7JJKZ-oQ22DFPtUG-QYKhzvVXH4KNWk--DNibqbT52z1xEi50QqoMfhB1s3Di22y0b8WTIC_AeUTW7iQPjUXEnxn-XDlM1r83AcOdfRXckVlkdHURBtku1AhOQNNnS4tWxlQfnSx_oCscIPEZuAC7qD_IptxAaiKt13Aql83T1JUoy69UlQ6mTXDVEBUFz0zoR5E1Mnga1GApK2i8JjlfX4j0saisOVC8JfwCuIGPwiWbTcSN9Bxf0JrtTZB6fXJo-AZlFxj_bZipCRt0pLmZJ610g_Vo_od083WNHk2Cc9VIm-n1B31K_fygzlcTVfA2ZWlrJuDQ8lP4p8mJeuqFHIF4AkqrYU7S4KeIlzm9v999tNMynYoTjF-GVTLA",
+        "width": 1777
+      },
+      {
+        "height": 564,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627310134823499280\">Kelsey Jae</a>"
+        ],
+        "photo_reference": "AV-0GLcSGEin6tj_SGL6v57YyeUNgEGB-mtwCedfAhFFeNyX0OB-N7OM4NLOfmubmkk7aPNdkppGe5rnkWAETRoeB-ll3i8I62T2v2KbUwWdmr7cnjNooY6yTZ8U-C0rc7HAAYLAkAkfU0gW_OxgiwckLvCFUBKOggNGeZdWxUUO1JMh9zfwIUP7kWgXev3gryw2nkZ8svc9re3h_193oo6TmRJr9Yv4U1SXj9oc4YPaGIvrc5IJKEOGZ6Qb5oqScp42iCL6j7lZDdC-b1LyC9BJW-FPuxcYnZP6nZIzfXdy4wIcvomod8cEaVeWU10RjkCQRbWaJQX8NhQw9hoNR2R1ARi3an8prR75cXuRNH43zDoZUyZ1LtNFNbVxsoVEk66vixbEjNbokVtnuQ5svM_fEoLYkhiNGP8",
+        "width": 739
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115916097447221455730\">Telara Oliver</a>"
+        ],
+        "photo_reference": "AV-0GLeYJCda6gtK3sevbcp4v-QmNQCJYPFufdNZDaP_I7BohoqTLZf0GiSoyFXAheJavM-y81moPBQsmepHGs4ER2WA1DxHlXfjc6A46Mw74dHOenG3u_6s-BFjzgipI4SCydGpoQLzEishPHs8h_jy461uEeGhPvG1HurkS0iug85vM4nA6hA5VFCoYeeH3oJGNzuMoVb2L5BNl5BV5owCl-HM5I7eqf2HZQYHGKwB4NdDlAnGSKfz9j1jeltsndp0TYQu1hy2pbEZMCIIcMyjfUoBvLt-kmjCmQ45kNm3tQm9er43QY66u_RHJjzYpouIleNGShgnbmg78ZDo5FyyG8KqEKWhO0rJev1mNDJtMo_mUdtrIx7j-S-xHrvAx_cIv_IkbrWUgjuTnaFUahV7ScSeBN4CjtI",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112627310134823499280\">Kelsey Jae</a>"
+        ],
+        "photo_reference": "AV-0GLdlv_v1MNaNsMXPbayIgQGYjfLoC1hDOYTH_P5oiwqjv3HawHWbyNr3w2v_uVa1AYmse5s8WZpV38HJQgi12e0iiPcPRAVSlYbngM4b-myQshv6PAC12Sjvd28Y3EAIqCndfYbJQ1Ogs1ixvtSJpZo0jNSuGoKMoQ4yyX0tYkMlsFHUe2MLaxg8NdP9sHEehBqsh5El51k5soB_v1bRAV7IXbG8gJb7xrSD-sxmedKuoNrY75Cabv7h3oi_cqutUim07UOtfuBNnwgBM5916zohqlcLuYWOEYwb-s35nr0uZF3ezfthfTA4cjuSSBTMHmJvZNTm0efjCwMQKhJdoodvDqoIkn2vl2qUfRWzDDe05zpTL4YVKssl1DeJ-KMbRegeUHAdftyD_85rDm3XyY5guy_QAmo",
+        "width": 4032
+      },
+      {
+        "height": 4050,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108077039293725437557\">The Vervain Collective</a>"
+        ],
+        "photo_reference": "AV-0GLffSdHLO5zvHW9nia-I9O5NJx6sasDUiX7l4oCBGsdRIQnZxEVR5ZRPeEkPJ8yFUNQaCHL0GD0AI0Cw1dHGqxuxbxdF8pBXxHfDHp2IQFRGNL_xTCTXYB6BYcJpFYxZ7ilS2ph-00Udvj0E7VeGpEEFmmxD8Cc6K_98GC88mMH2PYCwnQieEgyN46ZX282Iu6oDFPwYb2SPQCmxLRGTbymaaWLPDIL0g6nlWfM445WvDeQH-tsj1AwIChXZjgacYFerxsfOKS0Xc62qI1I8SIlKhehBHX2mMVqyeU0YqVk_wDU-7DAGK3HKI_D1m8PkE5H2qutTox8wq5m_9Fdw4RMqQC969ctaHoN7VEmnVpqQF_p4moT0_MFrC7RtOl_CRcpIx5-xwfX4dPPvrT3Sq0Hspsmz6toQkNXzwKCuvmLLQw",
+        "width": 3240
+      }
+    ],
     "place_id": "ChIJ0wIVh7n4rlQRQ98hS0WNrzc",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4012581121763172163",
+    "vicinity": "310 N 17th St, Boise",
     "website": "http://www.thevervaincollective.com/"
   }
 }
