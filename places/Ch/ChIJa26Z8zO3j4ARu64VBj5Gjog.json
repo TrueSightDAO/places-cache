@@ -1,38 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:40Z",
+  "fetched_at": "2026-11-10T02:52:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "E & W Natural Way",
   "place_id": "ChIJa26Z8zO3j4ARu64VBj5Gjog",
   "result": {
-    "formatted_address": "762 West Dana Street, Mountain View, CA",
+    "address_components": [
+      {
+        "long_name": "762",
+        "short_name": "762",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Dana Street",
+        "short_name": "W Dana St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Old Mountain View",
+        "short_name": "Old Mountain View",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mountain View",
+        "short_name": "Mountain View",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94041",
+        "short_name": "94041",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "762 W Dana St, Mountain View, CA 94041, USA",
     "formatted_phone_number": "(650) 968-2970",
     "geometry": {
       "location": {
-        "lat": 37.3924803,
-        "lng": -122.0792027
+        "lat": 37.3924624,
+        "lng": -122.0792081
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.3937649802915,
+          "lng": -122.0778874697085
+        },
+        "southwest": {
+          "lat": 37.3910670197085,
+          "lng": -122.0805854302915
+        }
       }
     },
     "name": "E & W Natural Way",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJa26Z8zO3j4ARu64VBj5Gjog"
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106829565763706603998\">Andrew</a>"
+        ],
+        "photo_reference": "AV-0GLdOH8RY3U7nNiQcH80QRg34yIn68cXdKjQfrFscpJniOte0unsy4079IGsdLB79yOi1hEOqLXpPrB0cfX7QsdQgFSl-yObcUBoMN9lhaG0Kb2mPTA617OPxoAdJ3NjPtNcDVNVNbWgK2_e9a1BypJZQhGtfSpWst1uv2wLCaPWYrJWgPsSa-OtvIOLWdhgm4scP8Ann2anGc9zUlGmWCcH8xJZoecKjwRt9A3-4gdfw4TzpUv3jQkOv2APFWLQmrHSjN9cIQTEg5gKtqeqzuwXdrXhkjTKaeG5KH8D6d3iwK9hMrriD6alObX9Of90bfQUHTiinE2aAYJbmN_t_iH7VIX2icAdSJLc71fnomAbfnc6CfmvZ6-WoqmYcg3x9QtPtotA5QwST-N4kC0-ruHlKKfOLanM",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLfsMHxdVtDyHmQdEtTaCj45oDGR94OWOSkHs6EkXglUfuKDPDCy9t-dNWjp7q9zpRQhHtyhV7plxTSUdLtYgIS3kQYLWXZu3J8GFr102Zk-nv2rom-ltutjJRdVWG_iFmO_4GCiJLWun088_As7EDcoGSGUwiQBOJdYPfe30fmxew6SJ60rW_oShxh_R_j7y72pPs8AgUHrhiEVMZqk96ubQGcW8SGpV1dNT0s8N4Z6PjebYUPi9bsspIMGi4Y7YDsh1sNa7S90pvgztrvEpb_lFxtPuK2zowjmUlfYNNBAU6eUbLGviyXKTAsF82p4aWKEvANvyVgrNnQu9p2Z3as8C9xt7b-tUhGJxXO8G1OF3gOXWqccNY7BkskB9Ee5RzAS1LN7b_lx885PcOVlz2E5Dg",
+        "width": 4160
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111966406395774639868\">Deniece Smith, Realtor</a>"
+        ],
+        "photo_reference": "AV-0GLe5VBv3nNFKQD8xPCVXpGY0OeMXYwMwYnYcbetHeJOMOmEktfAMRn_0UapwgLtc-qy6QZpVXhpFRvKLJDKOW8FS0Lx92yY0zAWfHnt_ovnSPnQylzevVJP8YF17rPO5bDQ1FPK-7ZGQKbaJOGTNYuq22EEGxfq62-K-ZOcgHA5LA0Os0k_Sty8N8CZJVGclY2NWVysbPdAHCLp0tXx83Nyuu-5_N0WS17Bqp-ctDa2pXyyBrTxAlPG33y4c34p-1b64YaVHTlUz_LAtRuBC4mQaO_hM7aRgdvXUmszZzpn21C3TFdULb--UjDa5t-47EnugX_rKpBqyKSYO-P3bxjpVSLOBUWtRGx7xUmuxR8vYFUOJ1vkMUeF2ZmH-eXYwWqtLRJiiv7CMQphXHz7CJl79vq1glvE",
+        "width": 3024
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLcvzhF9KsYww8NCgr6KJjS0bXvmlSyIQioarJpF_1dfj4u4jkqKow1oFSWS9C4v0U-5HNMHwz8HKC7lGf9GLV9JesCJWzdwX8DfcAMTLYI1PNOO0jJShvmGt5zI9LhrnohiMsozw_VSw6j0lKeyoeQQ9LcHoBtmZiFcGm9YTlJiNGZGsbXPvr57ybwfsApwV47dgZO5SD6o06baCd1Ad9tDAUkkeOzi0drSqP1BznHvsGvGce7FGRaZ-kwfFKexE2ko4IIKvPd8ekxsljmolmkBqwlspdGByNQOAom-t0e19YRshzTGoNtpX2gB5_YQCfjc2PsHoWoAkvs1zP-zb5AAAaBfXI-uVm6tvQaWxvgO_eisrQdrWCwKM0KqhFu4hTLYw0iGkA5QptMBfoqIPiq23UXOK4Q",
+        "width": 4160
+      },
+      {
+        "height": 2864,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLcS7oHtde7LBqcSScT-3HCOq8lUVEWNpWb0xDXs5hLjrEVlAUZT92bWh9pzbL2Fs7HRKkHZKyjn5JC7WS42FEPANWPGU-S27wAtjAuooKv-k-kj88bdM2dc7svJSS5FmvFt7NNJ98-It3lKvl4ZDHNSSgpR6a9hTLnFyHzD-PXX-fpIbCtPq4z3gP3OAGlfSPnKiGft4pdS9lzLWBIVLw5KoKBaKyeRFjnbGqg1uEpxT8LUMg7RXshvk1dr_A3YhX2ZhnJ17n6ameizOdPYNv5wB0KQneBNjrrQ1MQS-sVvPQZ3_i8bE8rmstGUgTVlx0_NwhZ4Zcj-14yBEKNTzpL8s6bCVWIsG_2zu82O7hW2mjZ3g9TCua9krdf9tHFsRRvxVIpkEzaU159OYKxs2QW7PQ",
+        "width": 2874
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLeY4IcWMISZ6sSQvJjOEV_VDq0XMEzv1aSy81IIul0ZPtXSKpVIilDPkSSafLgyeaVSMPUjExmpSoEzlzxe8HnchbRHKvzJt-8v3iXdLsQaRcYB85iWj7GZeHAAwJHlPD1zNhOjYVZINH3J9Rtv30c6M4v9G4A3-0deBnSwg-3PqWhzevuTgVswqqbx0E9WqDUyoxBp054H4P9PZdkTUb3S7dqcdWDUtSj5W6xek6hwLmb85Uh047AWyp2HRoZLBkS48x5xeQVJ4h-oChPK6fMD-esDaaIUZJw_R4QxQK0yKMwGxIt3oywJt3bTWEa0noPvsqSwkyzWVdlkXdb2MPQG8fsHOL6nsJd80RHhrsb6WSjCYeY87DoQfUa31BuCvkW7M1DPvKnslwp6D_aY2pGH_g",
+        "width": 4160
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105950893337355482374\">Frances Liu (\u53f0\u5317-\u5289\u4eae\u6167)</a>"
+        ],
+        "photo_reference": "AV-0GLcskXWaoRBbr6EOEIFn2zcOFvzeIsO6qNyCQ10TGu6D7_4TMmOdxoZZHkpjD2uDUL_-k8z37Zv7hnrSLlfLm4FixrgQJfBaug6wxBzCaDTOxVcGjozxKtaNlhQF4XfP8Dax2bX7TrfGE6Exa7pDbEBDUCIgrrafrmXCvcYokvdQbWG5j2979hCrW5dHC2XalpVoSA7C7lCs-8OXhuhrd4AHqfGqfCJjJLEZ830mUHV6uC4bpk8Q9hRWxTMDkuxHZzqqwJ2noDSO7Vt2Xi9rA0zMu9VwNg0cYQBgcxfvqmkHYgH4AqGVjoFEA5hzLSN4GZLYHWk0xB6HpGGHte4w4SYVweuWBZ-TD88nHk-sNtS3hgduqtEcOWGwMp-cKxTBqsnuWuyQhCLKYuxZCbW3-F0j1uU",
+        "width": 3600
+      },
+      {
+        "height": 3088,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLfX6z3OQE2HA53KTIJ0__FuIEj6IVRcrI7Nom6FHac2PiLwuoO_iXwKGITwxFSBVXYxzENcmz9h5DyrZZw0-9Ts-nLEmvRueyEHffPaLYvLJeoFhx7ygC6jvnYnP8UsK_uv6TnCS4Y2d2eXgT4-Alu5uSiU6CzTGOic8VSzJt6XqeCvRXzCL0wDXZ95WY8JiSVqM4caDh62jpne2O5pjX2dqSlJBToIs6yGVDT837jzFXgTe890z0oPZEc5Pqolp7RepSq8YRF6Pu1XegHn8FZxn3IzdZOKztDWdErP9-YTSV9sZ8NE4juorwAS-YHfcXiyZ2CnjON2W6uzYm2EzUSc7d_uHB9bKOz-jplbXnM9m1KtjzMK7VMqptYOnK1thY2vMwji0ehp80ddPDrnrJKL8Cc",
+        "width": 4160
+      },
+      {
+        "height": 3088,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117875987563872032638\">Marilyn Ritter</a>"
+        ],
+        "photo_reference": "AV-0GLd_SZ_wx1Kl6L0y7eLftb-JhI3P2vQEAEbCylS5cJWsU1wSTy-nekk_f_u4tiQ8umwUN-olW4Qz5bz9APWCSgpZBmEXsYoavZaHaNnWIbf-HmTf1gxPw3PwzVIXr_isuDgBATPl_YKsklUf42j0UevdV-mm82eRD-je32rBqY864HuPWaCf0rG4uCnf_OztWlGoNuxGzC4w9-jGNyHvfwxanH993zHZY3QRXv_3eJhQie-zrjDWQo3MwHDzvp8ggx5wcZ0cyXbibmQqHJjCBKLrN1_GR5hi4QROTwP5EQ7f_klMwWYCzvgkO60ge_EBLPLLV6hO2E8-thmBejmEwNrVD_35GAkWvru2bA393eKb91-7xb_26ChLjGnhA0DOT3ilSqDVlTG_p7_ufIMMJbZ4xlw",
+        "width": 4160
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105950893337355482374\">Frances Liu (\u53f0\u5317-\u5289\u4eae\u6167)</a>"
+        ],
+        "photo_reference": "AV-0GLebTj-6SpUWVvfu0gJOasYi90bbma0ytVWSRkGgCdn11qkBXDR9YsjSy_RQwXJz-L_d0GTqsW_4uBbZ_uShQrvq9P4hluM6r-oLQbGor3ZCLtBZ2cHnwKRk0zo5BQN-wrn0K1izF2JTrZ8DRvuHwXDVDpWQ-zPvvvsLfsjJmZ1fchW5rJzBJ8CMbOBTHobNstHMHi8tekxZ2Aij-f1kh23JOyDNcWVibwV9oy0TSwsd2chLbU3sMML_1aLk2fhixaC5pdAKQs5vCRGrP5MAI4IMWk4CemZf-jXgMlFKxmDLz7dOlbaZAqFaYvfUy6dLZH8laKbFEXIeEvzK7wp8jQPtyXQ0bPQ9rNHIhgLe8-I0VuuqqF7uUNITLJwIyIZnDDJFe7prVXF1b2KW3JVTBSJlvw",
+        "width": 3600
+      }
+    ],
+    "place_id": "ChIJa26Z8zO3j4ARu64VBj5Gjog",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9839879468055113403",
+    "vicinity": "762 W Dana St, Mountain View"
   }
 }
