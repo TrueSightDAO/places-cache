@@ -1,26 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:37Z",
+  "fetched_at": "2026-11-10T02:52:57Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Services | A New Holistic Life",
   "place_id": "ChIJVVW5Ikyij4ARFMNM0X_Q2fM",
   "result": {
-    "formatted_address": "797 Arguello Street, Redwood City, CA",
+    "address_components": [
+      {
+        "long_name": "797",
+        "short_name": "797",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Arguello Street",
+        "short_name": "Arguello St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Centennial",
+        "short_name": "Centennial",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Redwood City",
+        "short_name": "Redwood City",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Mateo County",
+        "short_name": "San Mateo County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94063",
+        "short_name": "94063",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "797 Arguello St, Redwood City, CA 94063, USA",
     "formatted_phone_number": "(650) 503-8164",
     "geometry": {
       "location": {
         "lat": 37.4886492,
         "lng": -122.2355362
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.49006573029151,
+          "lng": -122.2340914697085
+        },
+        "southwest": {
+          "lat": 37.48736776970851,
+          "lng": -122.2367894302915
+        }
       }
     },
     "name": "Services | A New Holistic Life",
-    "place_id": "ChIJVVW5Ikyij4ARFMNM0X_Q2fM"
+    "photos": [
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLfdIxbr7nrLquDfuz1xwLU6U52dTYXLQP5gD3ljAxLZS5rlp3fJI8q-V8NDBSkQN1JplCz67dthWo_LgTW1WdC2gXcxvWvRPdBgogU54xpoVKbFp2i6AYVn1Y_kVgymsQRhzUCj27cQ6Z-63kw44kwdTiBIpLDNl_4KnreJnfcNL4XsUTY9qQdlTOPv51TbdBNCwJtAx6XencmFDIwg7wlUq_s7_DohsMTVNmaTRE7B2cnZQ4q9xP4kHV9spggExa8EoUm4w7SlFZESR60pl06FIykw9IZak2TD-einjzT50S0wE_rXLmLF64ZSWvVoB37k3zUXqR3DtVGDItKtk354VaREHoTt0BFAq4xoArASXnmZkEV8dWuwCHa2_k7BsLk9rJxoaumRKR1ASYldNIpeJpSd",
+        "width": 2016
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLd23nY8yy_4bb-M4XDDXzFBEZxgAGCE7fPAlTqGN2y0FRy18eWLGBshjwUwYuiYQwyqe6hpuUsMnY7dG_XRNDF9M3pTP9f-1IWeTxi_Rraa6LVaUGBZvP-e3aAr4FMAHskypVe5vUfMdinwLvG5Z-lxZxLDV8SGKIhNoiVtduG9wxQeWazYd8OKFwr8ApLSw8YsSu59EaegpQ8YE68rQQ-MJzAP5Vz0-wSQWdi4LPJX4XFZ-jtb1VGnKVf23rX6b0PNbKGrRZfyVyezDE6neZF3MU5smj9q6eSAPVTCwyBKTfXH-w5JBX2_jIZF1hkRRghFJCXx64Zt4VMDON7nLI-peTb29376zFtdlU_q-sUDEbtn0sQMOLotRLnHquvzacjmLr4vp4xq1Bk22BHyKdcxye-WgAE",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLdpBODL6ruErzXGFck1vfc8fXvsEq2Ju21bec60EENrHfr80vR5qPEawBYHyai9c6HP9zp2RUNluITyp2Qnju2_Kal4eyRwYuYgf025P9P6mcrFYiado99D0doLEgTLZQwG_yLac6XaFxJwIethViDWN74VPXLT_k3OsQNEFpidS6lgqBBZXLDbHG0GbCt9ck3AswstXnDZJ6hEtnDvc7VMsHaji7_vjQpbcieVjdZgrnNCXPGoA9JfDs99ViL6gwFyZwKBoSKNcTLjeu2RTgxzEg8DCktyyQs12BInBK-v_Q_D6wcRIJJpyqHbxwjjh3mAe8tzW7iZMbjWr8_O4Ynisb-2GGsPtWXdzOf2RPxp0UK6k6LdRrokWEcSP_ZTi96CEFKhxLn_hWrkqRrDjfB1f2B-ERc",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLecczaTWAiVZjj4jFZAKuxJ3BOtlHPXUfFP11C4YTQEqOulGv7npkr4X3zioS_xCazcPawimy1tKi0teus5yjCpibs5e3rONEoG0csiXjF2usGbYJrMSG7cvIn3G6CDC5EVjtoaR9PPgszo0cpeCMLNsfQ375XM5zPk_jySKgZMQhEhuyBoEpXPKdjaj-HbetFVQ1BPlRNETB70temyJwmtwsaK1902k3aqnTIS2Zk2xHVk656ygDsoWtRAW4t3jtbW6ibz7N_mh5i3k4yBiM-LgTiU9JPfdhI5flr-cZsNXAIdDKvDZzLB6Zzotb8WDe3Bj78PCSJnBFeJuiz8UB8yuBNUf75m_KoWjqe3lZlT7IPkeXQEJV4Wihltgc6_GtFSiJHV9fo-rYkk8o4Hg2WMabA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLc0X72JAyiC_ThB6-zx4FV3D6e46Vh_W2cm4zX80qCVDn5x57SGtaYEDvWm_ahZlX68s8COcjXAp8XykqemqRebYXmd0fXxPFIJC9f6s6gb3iMlUIscYevzi22FaCGyxuaARtI83PBarmdT1iHZmaW3iFXAlDHwUN3a8FILflIKN4B5yuSg3KzN3-ZQ-3zz5UhBNbpHfHcCVhhx63QpZAOaXa44kAMf0syF9WGCVS2UCEe517NhzSePKwvKu6S4VoH8BEexSGrnZKW-NdKJdXkPMeTV2gbJt51soiQBdBxBqDqj5CcbzSJhLu5oeN5GwQ7oXUpcUYi3oeqUeVT2rIBwHiB40X7tz7OSTbEIZHBgBR5whPAES3FyeVdp_YsiCf4HJW9G-FLrBYeofQroLwj6bMVv",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLfphb4p7UMFeAfuJnbdtD--RJU3q0yv9fS_n5JKszZAHnyOy_Sb6gD-bvYWP91rq1_ilYXYiHkqOkzHDYvoddz8beM3MM9bbprk1PWh8mrzS5phP_7q5_lzK9mlO2CcOGXp1WZfSDJdbtmHzq_cN_c8Q4Vril9SS-y5WuhlFfCiDPRNC-2yyF0qy_eKDbzpC8bYnZ52HY8Os0etUZ_fW7w9HYavJK7d-RhT_388nMwzcpQ7pWI9lk70FVAVTD-vi1FSwhjrtcDIWWLaoEf6zkRDY1LoMZ06pBkwN8aa-hiQ9FloL63kdK4s5ircOAvPim3vojjvzb_K_N_j4x4g-aJCYzOD3nMg0m8tO1--GfoLG8w-vxpvnzYlXWWv9Xj4BMq_l2Nq-vEBRmeFNgnu_TDLCLj8wys",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLfu0tf21Z8kvIivYJwCLDBhDMCgETv6i7KjSNZpUzYG8utGTjXcX3bHB1aLxmZy2bvWj-AKVRlSN_tPoC5mprVh8aTZv8SE9m8CkdAiw7C2Kbqo0qE7VFMbkBLRZCrxJIG13uBbe-AusB5xbC_eW_hOGO6xf1_RFkWKl6AAmj_JKGhLLqCC1Fg77PDHHXFqe6KepruqOTEG31A_pAH6ilJuVMy-qdTCafrr_DjhW7_29alfROoBJ2obp5G-UAc1DmrssqWZFbSfoXcao9Za8sjMS3bwUMEPjEpISENcRLD2bk-ZCqFNsFRHXdAwL01dDOWJbQAqkzZJgQlGC1Q3b5BPrQhxJqsZUjUwsQmZsCRYpFuWEVBR36uEdSjhTKQ2My_OKHeuul0n8dU-h5_GlWAlp2HX",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLfZTnOB3dAULep18JGenpTnirRoSTVq9YPpG18RdLn6K4Wpumo423lPZUmtLsUUnIneMa-Ronqg5Qw9qe2XoT3HNwSM_7KvFjDcswQUUpLml2FqJ8BiBFS7Zxln7KluPfa6EXPa6LBtF7UnJ5eayhDBDtUp1Z4pSsQVU_sTEKZAqsQllJjcJTPJNnhx9hmnvlIWUAIZ1pItu7gQob1j3dQA8OKGpq6aVKwtx6pR6aAguZPYAiamXCSIyxfsBqP4KfNQxyt7mOl1w1kB_OklnAj-3OJ4w19QV7N63MM2qPhh4f2tW1iseqINGVuBpLBvXq63xvR1n2GOKdLk1l3VMvzhkWRzlzQApDLUeIsUwsqcEKCeiUwr38cX2Cmo5tK6_6hE11CV3_KaiIP7JftO9K4bsmo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLewi5ERFTJG3tXtzPdq5dbCJn5Z0V9otz6F1uqXHzJxsd9lTmpVnYimGeVTgCGfVUn3VJQlJVdreD2ZO9pwjPo2vIIUbrQes1MC_BBrkzNa8kzaO08EnqczJNYIAtcO4SLHfobhI0RQ5a_xWtGLgLFRM_TRBu4y2C_cYhk5_wYg4p2-ql6T9hCI4ub2rwEae-ows7Ji2N3EZfUjGjppNkMgZ3ZbP0N7qUqtvvloGxGiUCGUgWRp9qePWhZVASydyzmp0G6mRqSXR78EAcWQ0FMRgfIhO5IQwusEnWjFz4HfMtzorrsm9S7TcB6OSK_ADTKJuCSA2OYPx4UcHy0VH8QF4XXxb-OxcmWdKWZzH_bQsJkPAK2jCEz6nAYmA0aEKVTqL8oSDXpaFkkWLrr9EoEp550",
+        "width": 4032
+      },
+      {
+        "height": 1512,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105884518127657576062\">Services | A New Holistic Life</a>"
+        ],
+        "photo_reference": "AV-0GLeb5Br6O6xHwQ99ZW_dQIGKWdIJeT1ZxE6AC5ug2YYk_LFtAt0LxYOXiLHEX505ygJYJzVjxzet_0HPF-aSp3MfPgHrTUFFu5RC2p5SoCQTXTyqxBAHdtoow-_7b5WuDf3UWpztDJAtD-DykRwOHO4XhJX06khOQADgU_iYeC2Gf66H_mYqgAoNgTS-C6o6wXm8VkoDMjxC_u5inM1vpxcrqfyBY4CQdMZ98Ql2P5crkp5UfRi9_U3_yp6aojXUksXYRNDzRkmTPtP3jmgCGTSzdS5BMRQNzoRJHZh0yFpZ7KeCZZphCQnGZ-DV8QULqbOL29hJTnbFKL1cXeeUsbfRUY32MEdZYthlceCUgqrGnmAzmuly6YsUo59V5Aws6yKOF4-DWmYa8MOM9kl1oroiV9wv",
+        "width": 2016
+      }
+    ],
+    "place_id": "ChIJVVW5Ikyij4ARFMNM0X_Q2fM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17571304668553593620",
+    "vicinity": "797 Arguello St, Redwood City"
   }
 }
