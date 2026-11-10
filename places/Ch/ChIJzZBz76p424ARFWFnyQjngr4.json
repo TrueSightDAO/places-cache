@@ -1,40 +1,263 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:19Z",
+  "fetched_at": "2026-11-10T02:52:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Mojave Rain Salon & Apothecary",
+  "name": "Mojave Rain Salon | Hair Extensions Temecula",
   "place_id": "ChIJzZBz76p424ARFWFnyQjngr4",
   "result": {
-    "formatted_address": "33321 Temecula Parkway, Temecula, CA",
+    "address_components": [
+      {
+        "long_name": "101",
+        "short_name": "101",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "33321",
+        "short_name": "33321",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Temecula Parkway",
+        "short_name": "Temecula Pkwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Temecula",
+        "short_name": "Temecula",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Riverside County",
+        "short_name": "Riverside County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92592",
+        "short_name": "92592",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "33321 Temecula Pkwy #101, Temecula, CA 92592, USA",
     "formatted_phone_number": "(951) 395-0177",
     "geometry": {
       "location": {
         "lat": 33.4859643,
         "lng": -117.0772801
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.4873270802915,
+          "lng": -117.0758508697085
+        },
+        "southwest": {
+          "lat": 33.4846291197085,
+          "lng": -117.0785488302915
+        }
       }
     },
-    "name": "Mojave Rain Salon & Apothecary",
+    "name": "Mojave Rain Salon | Hair Extensions Temecula",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 16:00",
-        "Wednesday: 9:00 \u2013 16:00",
-        "Thursday: 9:00 \u2013 16:00",
-        "Friday: 9:00 \u2013 16:00",
-        "Saturday: 9:00 \u2013 16:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLeoODRgW3E3sUzK3X65ZGmgzHj-DZFPi87Msh5dAb8PbFTSnDDWMkL2uo6bpxWr2cesV0VS3sVvCNae9r72NcX-eitDKUTtQolXxC2V5BEn1z0RCFAqoO1R4YfoZA2EctLK3o0T1Zte7hcSwCOogcgu7A3Iv2pHFZzeKqPua1NWGTh__RZzNwjupmSQy2bqR-VBE1h8zLgHNdUB4CRa7Rbw1InOGDOaQWoKoc_IomR0Imakf6lxCEoVvLV2RAW7zSr6xfbw99fNFpGUYyRMqN1bd3tTpWCSiPCcKejxvaGL_jgpCzAT-7ErJLRWa0eVT-L9eppWXsAIYu0eXgMyD_KWjl7cMzY1uWVCXTALZdQoSHue-55oEDYVeHcEH6fmVTFt-tsCiC_m2ypdioieL1ISHNvsoDbuKh-1Ap7tJMmMEQ",
+        "width": 3200
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLf2KSfeg93z0vK5Ra4j5tb-XnA91Myj9LVeWYL3iFbeedy79RPhGMsoiIvfPj5s9zZEQAq6VP_TVkGVROyDLhQk3L_2nVSvXwdqJ1Phk5BawJZBrPYKyfHZIvxC64N5IwzCNJhyWaBjimtaACypDYaIS3H9TGo6kTwJZLXcg_wJRZSxyw2cwaObUuH_wlx6-xE-B5gAslnzGAiDwNVKDlV8I1wNoyiae8LjoM-VyL1PJKujTFealGMyaWU__UTxmgzrn5ZW4S_bfsPh9MCIJC1kElj4EPewpPT2wcdm4vLWX-PeKwvpQpHxjpWXN23434mv6HGfFq7nZJWwO21brL-DTcZGEecXY90pOyXWmWiZLQEElhQGX6ffY5QgvjFbsNIT360WluHoB_Z8M6SyYF6O_Tm9c7Ag83jWeJAw--1F",
+        "width": 3024
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLdEhnYGNq1aEJUA82O529NHf18-Sp2aMK9YvuEfTqUPoJ7W1zPIO7VzWvP_-ukQhR9ZZox9UmqydGAMCILSpxexxpT2jw1vGhniEUVyQghq8rg0V5bs0c71e2yM5K54ormfpp1uALEOTeQtaqNr6PgJ_ZJOtT1eDNM-BiMkWeCXgO5147pay6d5266qHgyHT2qc8lNBUX2izhglmKWv2oRrllfgSY7MkyhnwLGfVzbCtjKw_0rMZdJXr-OQPrzCLUaNI3-shJFM__9uW_K2Ni0j1_nMlJoPkaLf08VRIhzp7-lGLLIdC9S2Z7rRbr4q_4qPoDDuZUHcz3PqeCxifK7mqMYae6PjAcwfgwZXnCZx3qBP6eL-Uv-M9Ss50mE-cVZLFsQkokFLdSvfU9xy5YMd2YQ",
+        "width": 4800
+      },
+      {
+        "height": 1201,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLfBvEgT0DiBg-e-DsdNrC2kmA1AZEIvpZpqiAWfLq8JOvqdiUFkXCRKjCrJG4wFxAvWChlNDK8rYnQF3z9ni2Q4tddvjcs5JchDxKzvX9xD9UqyhzVjxKhNJqzbEvRPYvvSBa3tPTJ3q8FRev8VN0gIdqaoFFFdkeXhA8S00lFScbRxdtfC_TNhdTxKWyNynZ9BcmIipH5UhfLTYTT_in7E2xoM4rsVx1GWcYMOaLFec-JqYHga_JOe1URjsm8JLUncZGnPoL_sY6GXXpdNvwBZGE2s428_g1BiQMqNNEHZc6IeRGEJydh7z1nsHysvePjtviGWXimZMXIuzJMKRaVWaUsR0mU6L8jE7ckzQyMSBOOp3A02IC5F84N_BhZRMuj78BhgnsZt7ZM2FbcDTWKq4BI",
+        "width": 1170
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLfrSpkOOxiNekSrqqclIe_Nuet_mGjMH51wyw3V16r8CfA0dTSmT78BWbJJkbigk88tSZqu8Qvere9xPDK2TH-wpGE5jbylUDtALxa4KiyImfui93pIJOu1ZWcR2hMfeKGW3B5WUC7L2_k3oGWjeKT3k1tI_6zcZB05P33aQEjFHVdbtX_c3niPcWANP8uyfrH6dtsoxC3qpcQobTMysfuoTZfvQwwmyyAN2-tZOH04BSztGHLnYPoSM1uxbXr5NhcQxxduiItc607l4ABVJTbJs8V4Gk9i1XP0hnyTQZXYB8Rg53Wsf5tufrBceE5FK-7kWoZD4z3GXN6YZQ_3qZ5yXcwjof3fHH2MQhJOp3OZRXyPo8CZ2XZA6Drm9OJ1KFoBhJE5IIlqaQXf2nCe4DKHiFjrnSYx2CHRCEzRj_XK7w",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLch1qfx-jcXpDh8_1gWw82pn0Y9iKStNCooi5zv1_N_tHqM8gJNpwo_ntPnHUwGd_g9twcTITN5AypMqMlYKMnQ0DC-ods4KYuew5ryOKML0yOEXTAm2C6RyWLjDScMv8G4GyzEVNR1hQ3oLH0IP7GSThfAH9XRoqgREy7hNOMV_eyCIuGc2OHfxv0zm6lMBA680MxZCS79-lgyYx1DWbv4amsa3VFvEcB2LKsnZqn0islkmZqsBPt3yi4t0-Ok-cOHdBuHy0MYyCQFljrP18RjYVQTQNXNULviHsq9H9DBzq6E7li2gOVZWu2SWZlygaowlJmGXpMl85YlcVUufZCHIven_Z8SwH7xDJDvd77Q7uTU5cCTy89eu5wDtc8sM9AdRCcgf7plvUMWwvL2qVzTSr6JJKsEKVHqiKstCjJ87g",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLf9hnz_GjPtc1OBqyR0jnZ55VQcAHX3sBA3bTZ8Gcq74uldCreozAsZDRtEvpvrZL_dPZ7sDPx-wfdaSviZf523GKA8zPtr3PL2FasTvlfWOgDHZinQnfmO62jwzePnu1RZ634fdHhXxf8IE6fIot9TKKsuN9kmr0jdSIHQ8KA9iInsqi33RHWMgCNyvXU5s8_-Wujgs-qPsrJOXaKXYpoSWXRO06UTi9tNWTxfubjEjKsfBE2sX3PghV40-r94k14VgfdWRyj6NJYnZKyzjC0_uQcdnpwDuGS0Y4jNYSICvVxBUmv33D7Shi2gmnCC1Ggo6oHDMvx-ov9QodQ4u9GAa003yJipuGaEcJx3Avd4RCkUl8Mnf1LVhrObHahc9Ha7nZBSMub1tQVl5tNji4A8hCwDXtk",
+        "width": 3200
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLfDdaMQH9vddROPIMqRmUmj1P0c9hcpXRCuPI5nJM734rWYhj3kC6BDEch78-6gjpOZR4Svnqd9iJ7nqJPg2E3hAD09Y8R18GPduCvfe6vqe7o92rx8-DG9ujd-03r2mEDlnR2iRds6CigQdKaYAyyG2kfUqMVG8lF-ueeYBnGNctbMFDSKXO7LCk30RZpb9JX0rk7n34Thd5bnid2ZL978j2IQBxzXyNqoJTmigK3RkUnihVjQ-g3tBRV1_jB1XsNpF6cHWuIBxZX9gG22CpC0uEzAPw9ZX4KAwTelD4OTHr0_wYza2xIT4v5bFr-8c2DRNq62MZ68Hg3NX6qvDuQHTkDGC0oboGHPvAK8NWYKX6q-N-EorPxikMws9HomP5SIpoQiWXzocettjLW3ba6pow",
+        "width": 3200
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLfRephXbum6M7jGikqEXbh5_Rhn8uzr8Fsa8OOTHQ0bLOlUO-6I5wf2K5Zen_KqYdyTu6FQ3mpkLF29CpyIOlCyZA52hIxRinsJB1a0jR_BxpBMU2N02QMz7bPFWKEl_io-R4Mjr8dZrwZjDN7w6aObuJk6IddNo639mp0rvfkIbpmolY3b0_MPOg4OtP61NeVtIpoGIE3ea7uSZEk_GElO5SO-1bDT762bWNC-V2_K9XibF-RibhhRptaFVf0X-pjYjMv9Yrcsr1yGGZACOSXMdhp7wKV6CCECukqW3EQbgQDDZazsPCk_HB4evCUo3nkFK3CF7hxGHHh_gw0WHfii3TaQk18HH5wGxj5-WSdiTNsfXV6ZVg9etIauCRlEBtkGTjR_9GSzW7L6GIyxnbQZyMpYAT-DT8IGqS4DFQ7oHA",
+        "width": 3200
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108638129188826923947\">Mojave Rain Salon | Hair Extensions Temecula</a>"
+        ],
+        "photo_reference": "AV-0GLfts62PFYmfy10pAtq-cCSfc7iZ4dhW4laXv13fw7LQIyjnDAt9J39E0TxYUnmiLFeJfCr8wpskkLeOk6oIa1mHV-qsoFdsuQWpWiSbW1o1z_0g_Gx66afb10UJ67qSYGAjzYbQQ1xYMGKqYbI1oObPdx4BnLZQXXGcSWjZka6TpqxydEltGhN6TMSmSLOyecLyTEiOfY1b4rDNWn4qlHacJHCgSxbXveJ5tTjwr-UlGbS8xhAh87vIUp8L2QNUDrN3YdThizc3ZdlICX29N4bu6L-IPOyvyn2reqHY_Hycw0rLR4Q0-clwdzFclk-T5LT3XFRBlZYMF-whaUic6t1VcBOUdMO7F5sxKtqqgPIToVg-D1NLxcuaETMSGpVBd3EkuMoFPCX6Tz0RHNRoQriLmfhH6uU",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJzZBz76p424ARFWFnyQjngr4",
-    "website": "http://www.mojaverainsalon.com/"
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "hair_care",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13727788639103443221",
+    "vicinity": "33321 Temecula Pkwy #101, Temecula",
+    "website": "http://www.mojaveextensionbar.com/"
   }
 }
