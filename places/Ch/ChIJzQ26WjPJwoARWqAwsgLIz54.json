@@ -1,38 +1,229 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:26Z",
+  "fetched_at": "2026-11-10T02:52:50Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Advanced Holistic Alternative",
   "place_id": "ChIJzQ26WjPJwoARWqAwsgLIz54",
   "result": {
-    "formatted_address": "3317 East Gage Avenue, Huntington Park, CA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "3317",
+        "short_name": "3317",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Gage Avenue",
+        "short_name": "E Gage Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Huntington Park",
+        "short_name": "Huntington Park",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Los Angeles County",
+        "short_name": "Los Angeles County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "90255",
+        "short_name": "90255",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5508",
+        "short_name": "5508",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3317 E Gage Ave Ste A, Huntington Park, CA 90255, USA",
     "formatted_phone_number": "(323) 583-8938",
     "geometry": {
       "location": {
         "lat": 33.9802436,
         "lng": -118.2067616
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.9815740302915,
+          "lng": -118.2053728197085
+        },
+        "southwest": {
+          "lat": 33.9788760697085,
+          "lng": -118.2080707802915
+        }
       }
     },
     "name": "Advanced Holistic Alternative",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 17:00",
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJzQ26WjPJwoARWqAwsgLIz54"
+    "photos": [
+      {
+        "height": 599,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107483714951726345658\">Advanced Holistic Alternative Centro de nutricion y control de peso</a>"
+        ],
+        "photo_reference": "AV-0GLc01-WfK4533v27Vih6PpvA3DwA08R8Ywv_gEfS95TkHPK4p-EPk8PQJ8IYBfyFN_lB3S15vlPEAAnnO85xfwudtsSs2t7xPGhuC8gzwnwAny21gJulMPbckJPUnI7UISQerPcYdT6vrdAV5AhvdaEt1afiKbZCuf4Vq3GYp8Tutl_7M1ganXDlzqFvqpLoQ-kcV61ZtVEtwwttV9X0tUGGsmG4kyHdssJjIes0wMFoodxxajF8kgTByr5bKYXcujuMJjcZHRQaFY3foFQv5llN8GSEux77R1DQ61JCmGQmOfPbNmKnsz0seeQ4cQ-fIjtZIrtDr5_K-MsFzs9hwNHJH9U9GKBqbtMu79BjRLMnj9z1Znp6Q48lI3VR8TpWOs6y4R0uRjpTIdqp_FvCBCBwBYq1FUE",
+        "width": 600
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107483714951726345658\">Advanced Holistic Alternative Centro de nutricion y control de peso</a>"
+        ],
+        "photo_reference": "AV-0GLceK_oDU4BlLWI6CeJp3xpbkHKgfcAPKP9yZo1tZT5GTw5apTG3g5fVpJRJnmXpUDiiYOuDAAbSY07yIAgiuwA13X3bm_zNUP3httkYGkIJznHPvAml2Q18TFVrLG2A1x03sAHuFEojoN92z1GdKXtQIYg_coUX2nLt8KInD-HP_g0uBl3dn5-OEPogzV6lAjIMy-h1yvm8ava42LMxi7r2sXAaGNm5alvedKr8u7n_8v69uzVcbjzdgYYhzNSKH6_ZmwfwK5GeEPuCvTF6xfkIepVSKHQ6lYo4_VnYPsO35bv_a9zSiugGJBaJ6ik63FBmtG0krbIa4YYd6pQ1Deaf9WGXpdZe6-oYqm7k_abS58XJSAlG6yuyTx5j7pN5H2P4l_ua0crXZ8r_s_BxcKQGLCeMfZI",
+        "width": 600
+      },
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107483714951726345658\">Advanced Holistic Alternative Centro de nutricion y control de peso</a>"
+        ],
+        "photo_reference": "AV-0GLc7_uXhxOBWSq4gqy__xU6-pF8-AebkWtJ1jX3oK7FH4E_S34fRItE8rL4Jcm6LSUHNEHkkHvtRZP-HP-NITOqGVrbziniWZo4uhwL5BVlLlI78iK0r2KviNM6pI_jGVknDFlWTIq3dZMysSazS1majWeTvAUi3qoes-W0Gs0037uqqzQCKv7MHewxfFeUWz8G4P-kavCILLCRomZLHd4kvfLBo8jWuP8jJ9KMSMUo0cRpV4fqeymQu02sTr4e-B_7ffZbcOMUfYDtNIjtcZrHXb-CdC04KoaOaRpXkI5dKhI2j5sSEjyTN3_njPfa70M2YvmYmZcJL8r7LnbJCrGlIwZkDTQdVn7B-UTCzgSlvjDO7xeV3zitE_LLt5eeBVQGvwgLgnNRj3_S_Jwkwrrnk-Vj1",
+        "width": 600
+      },
+      {
+        "height": 924,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107483714951726345658\">Advanced Holistic Alternative Centro de nutricion y control de peso</a>"
+        ],
+        "photo_reference": "AV-0GLfVKFLG82R2BGz6JKy2A-v3bSR8dmkEQJZ3VJ-QSxmCbTulnIY0UW8H-23ZAQcjLvMnVKmijsSkiUtGK-eYDAdrFpYX_zhF2Fh_TMf4uithk4VyqoKAlm1DXoKlXkdMUpLHmUHAQPn3tRse4yDqY2spPNs6MQSYAUjkYjSwQ9whRJSOnkJ8bcAnKiXdAI4cwY-obvs5O0rqXX-_r3483WvkzgSCaWfierC1cfi9KrByTHaYXWWMtjcEgsyGGCZmEi4budJTIC28zcDOeMyBt6Gvn_1EqHNal16LzlUr8oir0YB0o4PhNndfDrKYZTYiHKPzf0yOXAewfzRwUiSko-DrSX_Bdpfuufay3ifLvkDhN95yC757WlEx5AUziDRdM9Uo64OhgQ5Iq7BP2JEphtd46PVrSTQ",
+        "width": 1640
+      }
+    ],
+    "place_id": "ChIJzQ26WjPJwoARWqAwsgLIz54",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11443585092076740698",
+    "vicinity": "3317 E Gage Ave Ste A, Huntington Park"
   }
 }
