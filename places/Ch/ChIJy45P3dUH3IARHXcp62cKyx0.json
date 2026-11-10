@@ -1,26 +1,188 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:13:17Z",
+  "fetched_at": "2026-11-10T02:52:42Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "CeeCee & Bee Apothecary",
   "place_id": "ChIJy45P3dUH3IARHXcp62cKyx0",
   "result": {
-    "formatted_address": "10459 Roselle Street, San Diego, CA",
-    "formatted_phone_number": "(858) 461-8947",
+    "address_components": [
+      {
+        "long_name": "10459",
+        "short_name": "10459",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Roselle Street",
+        "short_name": "Roselle St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Sorrento Valley",
+        "short_name": "Sorrento Valley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego",
+        "short_name": "San Diego",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Diego County",
+        "short_name": "San Diego County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "92121",
+        "short_name": "92121",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "10459 Roselle St, San Diego, CA 92121, USA",
     "geometry": {
       "location": {
         "lat": 32.8953502,
         "lng": -117.2195638
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.89667023029149,
+          "lng": -117.2181852197085
+        },
+        "southwest": {
+          "lat": 32.89397226970849,
+          "lng": -117.2208831802915
+        }
       }
     },
     "name": "CeeCee & Bee Apothecary",
-    "place_id": "ChIJy45P3dUH3IARHXcp62cKyx0"
+    "photos": [
+      {
+        "height": 2751,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeYZNZ8mkvYk8pkz4zusLlodALt01re3cb_OcF10TOvLFVFA3bApmDp2JLGMz3gY5V_q0IiTfPQfBep2GbXq3AC1VeBiWwdCFPE-lNHt6OrtxDD4ZFc_qwHWwrhlRz36WO22iimMOHR3zoc7wza5zW7uWnL7RYiFkfFZGjjWFf9rVs7hEuiFRvtdgEQge48W0_wGE1Dx36m8EVO_my5ngGpz4UDmL2L3G6Ky9ynrhBDR9VIj_SgcMJMxcoiReIVwoInYgZfYdIW6gdcoLu-RDZci_Sf5P9X1Wqly1OM6uR6MOYVbFvlQmzC8_2HG2-OomKo6gEKtIp45hMV-3G-vnN596hCigP9UtsapQOynq2XPVrgV1FVVmF5sQL21dHOtB8lO3ps3skqBRXX81CJfn3C4xPpR40",
+        "width": 4126
+      },
+      {
+        "height": 1214,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcbLrGk3O4WI0OQQ039yJ8KHHYpWwqVKcnWwohEsqMYm6RKUt1fUe4p82w5a-6ghEua_-tIgTsjpJrpS185_IP9xw4ZA1IcG0n0pc_pVdL_Zq74vgqhaGZkbSgEcabxxGFyORkMkEcSqLKecfcbvlhK4_W8zk1v1A1eQmPxIVZCMWpw4j_HVi4uDI41al_mzxn8JrPQrILB3QfOLJKnTmT7YkhbEg2eHuHda8gnPY7NNAgyQuP78Iy_NvYrsacokAqLvGCBfLLD2aTiCDoLFFXK_1pGsnXl2zouGsxs1uz5pDWlvCR2TB8aUWMyymWugM81M3mbBwVSBiwuOytKbiGPex_ppkX62hcqwtr0_i8Ouopz589vBwO2Y65CFE-LWaOZuvn1ohbdPYDYFi5sBsxN8o3_MWM",
+        "width": 1094
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdWMcqFQ0YjRnsHe_gNoDTyM9V32RNczi1CKARMt97n7hfFCJsSVfyuikWxMjcQWyimDeGv2xZHgm_Kt69742vOaCxNy_nzsu_iskJO4dxfu7L3W0skmqJ2MMhw-0Q-kVzpQqJPlMIikyCbRalehrwWz8KUJH09_krRe0zm4YAtmsYzw3jaLuX7iJr1ZcHl9uB2C4RcW_I_ShMIhTWrH-ET3Vy55zrd6__gy1ugLF8PNbEIr0662qbcRVkjDo_zyjgLeOSnmd31x_BFdez-RsYtgI5UBFij5UGjPYzjrsZXKeLeDuI2diwN7SKuron5tvfEfyJTbTScqRdPp5QPYGgw1_CGHjVN5ITTke8LC4iky-LgDw8qn1ArSbgwQm2k8d7XDSzEqXSu8GPF09LNQ-rmscBTTEQ",
+        "width": 1000
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLddN2xw9WhGf4oDULOEww2umpH7fssAItxYkngKC71396i_c-YADA20oIFxvhiDe-TgFJXAoOC0UmDXYwpGNi_AfeKevSH5edGyTwu0lL03WhSg7h7Yigj4asNXZH4uUR47ArWWm96UKcWz5PVBVCeDg08DRd80Fw1ilTKRaVZsgiVqwot3EW9RtPSQYOZUiAeWHsLgiOIXXgON_Vp7k5OLELFgQWjvqz_WwHC70bniOgydO7EIMa3yEGu5P0NbaHPLWNSIT_aKWis-FGsNIg6oLrTvw1D6NHU-VlEoyagjCyjq1C3U5-ErxQ9RpPsNKNlE7eGTAPY8792J-DvjEbFZIGgsUhrXkKfbnuex6T4qKDsA3TaUNQw4qF7DDS2zh_37odWUnITXIiUhYu_Wab2M6v1y",
+        "width": 4800
+      },
+      {
+        "height": 417,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcnDxyihXrecEewYusOVbDBcEFSfm9UB1VRbdMIXtm0iLt4K3_m-WESMZo2pYA3UtBQZP4qFQwiCRBB-y8rj2lBjXr-gioX7YwCMAP5d9L3gMZtZqvOe7JMFcBx1EtNwFQcdX2Zntib1FWyCvsK4FfmkAN9jG3osh-LoCTSb0hVZzJgGJYFNGVvpdX_2jB6VQG0rWaWg0xqzpyVwliy93rfXMKlxsRWYF7iiFNIk6VWoIJuvKtq5ErsX3VuR9SVrmDZfJEeoz8saJrUd0RwPY68__rn6KlLHHuKExYE056crin_g9NXAIvt30kZq4728IginUSopoVtyP13lUtA65XcqXgzzafr_7HsLTRID2D9Ad7f0m1IrSa9pfM0fMi4T2uWGK5SmF7SrmZ3H9eROJdrFpE",
+        "width": 540
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLddGUnxNf2BOFKsx4HNJ9ZIkGEiH0MqD0aCZgF1_Zj5fb7t7PWGw_XqWhs1O2DSVhMYnUMWf4QX2-5Vgct1lmKv7dCU0lIGQEfDJvx5Ya3tyd0QsznimJP1P2JNNjYgHF0J-b5YL8W_vKeLngBLuHGX6YIMToQJV_35Bo_ZI9iBVmdWG2HoagG6ZgkY7zH_hdm5sogDEjihpVSeJd4XdmaTeo4BLJTrEvHt6ur1bCu7kRe0mHu5kkqerXN6rPk2f8k7bhypXmAEH_5rELWZbe-psKfZG8_AelCURpEj1xqsSQMV2fNCqLYxPHG93GbKol9A1O3N7-CpfQsEbC_hdRjc-Lj8ctPDA9RdCiFdPk2QyBGx2KpKStGeiiS6u4UFB9EjQKl84JQG71pZnlrVA_LH7UVa",
+        "width": 720
+      },
+      {
+        "height": 1657,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcPZFaNhyYv4T2ClSef3OCc74YJG_BQ--tQKfOqtcFozP9MrEsF5X9xKJV-pOgxfdnIfdftfIH-6cv4zynH2nmOv18gIetoa0Cfkisxca4Dp_nKH6rF6lc3Qac6vqy7XszEUNHM-kM9r_QQnElcZQ2HriYDDxeV8Xu2hQmCKnwnu4k4CAixZigJ9O49gluBtk-GlIzl5lqG5-9dQd84oZ0rhVDfxPmZHf6scHgVAZmbyy0qd0we01ntTj5WGVchQ2W0gLgSqqImJ0iwebiOCu_lUSfI-UQk3m4RjBnUCg5EL7uZ98hokZAyxs292UEejmIYSWpaYFLYqgqDq44S3MrkDlgXQtn_M7LKZbo0Aiu9IG7mRNy_zIzZYW_4P5rkXkgXi0H7ypS_j0BkV5Ij-QRy3aOluwk",
+        "width": 2532
+      },
+      {
+        "height": 1214,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdCygftxI9uOH9uuTDrt3lGMpLKlsFt9ND-XdSFs1QE_O8sA02akr9rCNHE8b6EMDxpnYkiaE28wK2IGaRR6k_2SCwhVJN2Kwv0_prjm6YilwbbOePkmbg4bD4vAPBPwe8msT401A5oQ5b79JTc6ZBJwZsk0MKVP2yF04xYiRnE80qBUmz8A_NLYFUhtXml8j7uqrUVqHmZs-2k2nPckcrFKeG3rxmUpyJrKsUiNMMxFnbvGoaAkXFsgEZdr7JtljMG6C5uiXERehT0VxppAKUrLKq-0pFZs__JLo8hv5d-VcMmKZYxLXdS8UQb64BYbATfQ6Qll5PY4ZkIw4K_msyZbAoSOsTOIio3jU-a8jnDtoBjt6dHYARn184OgL5UCx8CUfnb-R35SJ9QNq6UICRhYA",
+        "width": 1094
+      },
+      {
+        "height": 875,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101469558583446669270\">CeeCee &amp; Bee Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdssvgRAWCFs7DKmrqrXdVE5xdDOgIy-xCnBz61Iax8yZCsC-RDMtOGTfztGS43tjx5lVk9fscRH1NUcM5qjEVpfChCQdDnGOb8BXAHGre3bEEI-vKNGq0JNaWP1rHt1mJ-Hb3UvJD-__X03pV9u34L-RG09Au-7rxbdaUPzSVtnHdM6CG9WAexJZlYVVfvdaUJccH510WsWNyxBgSfUvP3X4pAkA70Ivq6w2En0JA73VV6F_jyIonieHVv-94Ol2Cb3f9XtUc7-xym1Cm2Q11WNhd1EteVc5OhrKpLHDcOt0LAbVZ4KK2VCUfbSh5VVSTfV3NF7yFGICSRsbrzCO3K1S7v4hnlY_LAue0dHbDmVM5iZe5f5osFgSAfvKfJMB_7Ln-tn7upQOwkb293gDmdyXs",
+        "width": 875
+      }
+    ],
+    "place_id": "ChIJy45P3dUH3IARHXcp62cKyx0",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2146821088815445789",
+    "vicinity": "10459 Roselle St, San Diego"
   }
 }
