@@ -1,40 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:23Z",
+  "fetched_at": "2026-11-11T22:58:00Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Bella Vardo",
   "place_id": "ChIJFYETKCRXrlQRtc4h3aqFGCk",
   "result": {
-    "formatted_address": "5400 West Franklin Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "Suite l",
+        "short_name": "Ste l",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "5400",
+        "short_name": "5400",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Franklin Street",
+        "short_name": "W Franklin St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Boise Bench",
+        "short_name": "Boise Bench",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83705",
+        "short_name": "83705",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5400 W Franklin St Ste l, Boise, ID 83705, USA",
     "formatted_phone_number": "(208) 794-8393",
     "geometry": {
       "location": {
         "lat": 43.6031487,
         "lng": -116.2487517
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6044988302915,
+          "lng": -116.2474737697085
+        },
+        "southwest": {
+          "lat": 43.60180086970851,
+          "lng": -116.2501717302915
+        }
       }
     },
     "name": "Bella Vardo",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 13:00 \u2013 17:00",
-        "Wednesday: 13:00 \u2013 18:00",
-        "Thursday: 13:00 \u2013 18:00",
-        "Friday: 13:00 \u2013 17:00",
-        "Saturday: 13:00 \u2013 18:00",
+        "Tuesday: 1:00\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 1:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 1:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 1:00\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 422,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLe9b3uPiCbxTjY_jdiqndPO4mE7BX4ih5M-kFA9Wr003XxFBAP8l87wT1Zh11NoDYZeB9IJ1nfl-bgnM929UBNQ5m713B-hxZQU80yOpfog6vfZv3_g0EssD6OvHxIZemx1GHNGbdNDCAZyoxqIH_fAb9dyQ9636l58B5qoo3hm-Usbxhw1g4UTRSbylCvyEkpeMQ2KXPE6C-YgTPMxfig1cqVxqj2gEwZCVExQcfKgrac7cru9xtcfj-mupiFgKXNIHIGXs4l3wqwaCHc0oodOsEm9cfgZlOv7yjfjLg7U2s1UFPRcWF85cA7CpVrEB_W9-Do7PaskrfEOx-jIOSdRadq8c5tQ5s8S1j9_nCcsJNuVz4XmUfBr4vxRaoDEo_BNW0XKfo8Dpmx1upemhxGr4lfP",
+        "width": 750
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLdiM8Lf0Y4EuGIK90iXo-o7v_u6uW4LoRRb3giPtsexMDIo02OXM40JVUSwqbhctzlo4fLp8MaKT68LLlJDpO6-5yKm3TRgF7kAl0yX36hJ3gM-RhA7fE0TFTh3MO5UzkFk7rVLJ95vxfCeDEAkCufcf8Evx1FoOw26T6qiM8CchatHDDpzFoqRwOoZ1F-cotQp3N0iUhTPVzorrQcO0dWVd9C7G_8zv-buJ15z0_bJATt9YRsMDN_H8ZfUgHnG3UnuLdatKxUbHl86PHkjNMztJoZ_lAl7Jz3udFhRRn2XoGM4hi12E4ySBT63NzJZ6afIL7Kz-QeuexOwVm5BCdaIx1rO_-ByjcJ96Q4eQ1yDL5b3YRMtyO6jhBaFPcU21EpjVHEO-oAPTE5dRKQobbQqzis",
+        "width": 4032
+      },
+      {
+        "height": 1881,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLe_9gyy32Uz2falidCKLQMv2jsZwVxTwPAzVxixpcFcE_EnLbgDI89kxIngqdvl33Ce1iGv6mTzNFn6wA1iurwlmLGajMCauwHtgJzIyV0iTTo-SbZEWQdpri3-dBIxm3TZZ7E8yyXlfkzolMEM_beIWmS1r47o_GMssnCap5OHDIZTJ-CjtfPUVwAd36vqRnP3pCjF3Z5wIAKOFo3MGga7Ev-YjO2puYN0BU8eiIbMzCyw3zj6tpIz3AzYtVlthmCMVsgLL7xTs3djQTRaozx3Avf36DpuZcSsoOILbYXS9epcYMVX12xcYbW98FkaIJySe8LCPA4_CqBMysjVkMacP16I3v-vVuHQrdIomBIzaFjoKBR4NZWt6uG8V7aHUrOtxtDMnS-KVAurVd9Od3tjTaje",
+        "width": 3041
+      },
+      {
+        "height": 2284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLdIJEEYnT8xSGDexaTr1ummK5dvKvtImfouRwpym48YBscymrkaLIblj4thCUtuSjiMRkFUUQArRz0m2GdDMlZB1e-Ynvok7X_GY0k9lL2xZbiBg8ha7N7hDzj6kMTCWUBvKqrDux_74w1Kvl71OfKKLsGp6RwyKE2vUOXSPXQj9rqFSDRSJe-hlJWzvUtsHEWosnCLDCirhWkkr1EW00UUbDkkTjy0cndAk9agVEjZyVfyXN5HcSthcg2-nHpxF4doy5U2HRF6qtS8ernqgoS5juJBTFR8gwBYc9fdF54CNukg5kCk7owznuZuBSP9SKo_5T5GK0fpMCjRrDH856NbjOKwlnlxcG_vOS1xG418D5ugsiA4FM7dXpNZvLQ4THEOP5zAKAS2wdtrYPYpQs1N-2Q",
+        "width": 4024
+      },
+      {
+        "height": 2307,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLd6RjNg6LVGRhvbEB1u4ALiM0NwOr4U1Kw8E_svmeciyclnvTgz1xrp5TsS0okU_V89UGq2GrqaCL_CW7Wxo-SnBYwi3OV1zJq7EEr1qMgdXt0BVihzE-sbO67vHau6Rq8Gs7V4NaSAgNbE59Z2ITXc57vUGOwy6v9bnjh3pWPGo3lo80Kji0WJjRcrhSAMTDzpQfZYYUhOQbxwV-6nLvKnWv44d27Zn_pmdMPojZuN7I7A8RxRdN08Npb_vPV36gZUh70V2aTY-MwY_iKh0tiMBhj-8K1C4kejos574qy9wOfmP10DwZjyPSL3rR8MSa7Kod60ZR7BVLffuR72qD3po7wY_jRDKZzzHk17xY4d-Br_Wibmd7YrRc4zh4LJL6BjpK56KB5gmrP__YMDMIK7ONM",
+        "width": 3836
+      },
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116856595374906712398\">Sunnie Simmons</a>"
+        ],
+        "photo_reference": "AV-0GLep2Je0axlBAWOzniyME2GLk6xXpC0PZxQtWxzxkl9K1Yr3WS4J--VFNlfwGMTNQjJFTUaM02Yw7KOGTSJDNVdey7703KahyyCBDYZR_gFoUkEpWJ9CtfDDoEdiUWHp7xzkA-6ohe_txRm7rpmYcmJMonEC3NTefya8oloYxS_XQPc6dV2Alfr7Jae2vwuhm9U7E1dXsDo9g5I7xgt-Y1OU7sGBtfYo9QLhrsvv3um8ze6mu6YpFSn_q4WQL8e3qVHWrKoiKvfCKPxzR5NCOXGgkHkIF3SCBG5_hp48hkM2CE85ORpImxZrY7mXHqimJwGntKsyYIBVtszVb2Cdrhk6r4bkyz9s0F-PfKHkj5N_pVuSU75SiO8W6Qs-wPmnmF_FABhK2PPAjtBKsaMZ3QcRT5A",
+        "width": 1080
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLeJF4u6NzDWcvHoR9R2C85jvcBiFpl4MtD4NrpsRc6-a_qfZFxHTnyLS6LtxbKvJ3yfOIZxSSo6QJzBD9lEyoGUNwqR332gVRU_77FmWzuv63M7jv4JvDSHgTJNS-UgTVqgDNLhzkliIM7RqkDJRqYm6rUVuFE2L_azTvVkSzNkY6iNubeZrGBDHxCx4Lijx-QQTAPTBGeMKAkkx89RaGZxIHQxPL4hRzD30UU0L2rrdMPiE-KzHWhA7dY3LfoDzpMCDnU7mQuebBbYieMN5jWn_HUYs8Kej_EALKBtOZ6NZQwTbG6Hc7nrWt0yKLFAPDi7IUbpQNukxAirrXFT_QE1iLXikW7BBE54ET8v2Ld1uktsK-ZFZlvdnWDJ_yIGr5fFeJ9pRdBW9-Q2SR7krH-Nm-80Zll_PWNbO7UARQRd",
+        "width": 3024
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLdWjl6gOC0YmAUh6znwTr6xKYvI8hGNDFWf40nhpY2WsIvyF5slavrKKvoEB_C_2JbLEY8QsZJy11UZ2y3chlZXEZM7iYmI27YUa1H1icaYDP9nkAd2VeGp4on8THzy3NwSyfyEXfxIEhqoqGgVbN3nv8A79mU8NfIuazpbeGUhKRMhwcJ17nus1AFj7C_Z4IMpoF8-cw8BwqEHHmVOTRDadYJfzsv2xy7cbEyhvQnxkd77I7ZXh3EuVpI8C6ZY5YBziY-uyMt5gLlw7vyxkUXCMPCpRqT7rzgVc7MAuM6OEVM5wf8WirVVAXhvtHPTSqIeH5cThA7K34B29uKTbXrXsaPPnoUGTcamBj5Zjc7YYvuYHWFCfchP0tFt3Y_B3ZZPjPihz_Dc9ttJBAbLQoUjb18",
+        "width": 720
+      },
+      {
+        "height": 2269,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLd0f_yPE2nSiL_JKej6fLX-49me94RLaZdfiw0y7lflA2gBXcjP_SjuCT7M6ij0lcEhtEuaopgrsIH9Qe3jKujGGW9KHInKFK3zfACCJ_oSvwdyH4hRgBYKYAGZqv1GjhMv-faon9_ZC__NOzHJgxstk-w1CqipiAr4Qi_00GiJ_2SDIpBbztpUYuhy_vcYE6an-malcQgGjISiSbwGgx4fooQlXFuFj-3xoIm0FETRjpC4De6MP_VbZwlMYcA_d9ytHDxI5iujl_c9-XmoLBkVXMfkzycwHdmHrm89sD_O3Y9iY0cO90zpS3w5wl1u8o7UoIpYYPB_ctVHFx1gtv0c7YufEZyYlpYpd7ZFKthwQCz8ubE9X3_fD6Ndml4VRPHv01f3Kd_gIyusOBrdKn64dBE",
+        "width": 4032
+      },
+      {
+        "height": 3869,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103148622508005031754\">Bella Vardo</a>"
+        ],
+        "photo_reference": "AV-0GLfh8i8eBc48gjbAlHbjDJhvmzapzIw81G6gdezfkSLBqGWMtKvkRXxFp3Ta7l8n2nmdU4hYXhA_VTpJcuLagZ5jiTTFFr-RHWOwwhBsgVcSvat4uzIqzH4nxQXw8VJsnwAn6p5mdmOy_pnsp59z-2tA7jnT9PdRDCp6m_6PMFsdqd7vae_-MGnTnRgloMtvsnAE_-MA_hZA_7CspyL4ixcLaDyLqbrDgTaJ4HshhTZgv-ZMOTEskpMSR2z0ux3a4U_g3B_Va7ceQoneQUHgNCQ6n5zw9vA7QN8UJrx_wwEAR0OfoJdj8l-7KNbmstq5dXzzaAi3nUI-G0L9kVy76VH6Uk9zEPPyl9nB6XrqVrUkJzQo9QsVNk2jWWFa-6v675i_WNUACxOX8_TVsr48ysZVxU0kx6s",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJFYETKCRXrlQRtc4h3aqFGCk",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2961263723897015989",
+    "vicinity": "5400 W Franklin St Ste l, Boise",
     "website": "http://bellavardo.com/"
   }
 }
