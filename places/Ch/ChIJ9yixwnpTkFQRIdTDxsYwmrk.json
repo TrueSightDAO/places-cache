@@ -1,40 +1,247 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:15Z",
+  "fetched_at": "2026-11-11T22:57:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Gig Harbor Apothecary",
   "place_id": "ChIJ9yixwnpTkFQRIdTDxsYwmrk",
   "result": {
-    "formatted_address": "6659 Kimball Drive, Gig Harbor, WA",
+    "address_components": [
+      {
+        "long_name": "Suite C307",
+        "short_name": "Ste C307",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "6659",
+        "short_name": "6659",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Kimball Drive",
+        "short_name": "Kimball Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Gig Harbor",
+        "short_name": "Gig Harbor",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98335",
+        "short_name": "98335",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2000",
+        "short_name": "2000",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6659 Kimball Dr Ste C307, Gig Harbor, WA 98335, USA",
     "formatted_phone_number": "(253) 777-0533",
     "geometry": {
       "location": {
         "lat": 47.318765,
         "lng": -122.58583
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.32020378029149,
+          "lng": -122.5843957197085
+        },
+        "southwest": {
+          "lat": 47.31750581970849,
+          "lng": -122.5870936802915
+        }
       }
     },
     "name": "Gig Harbor Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeheK-4wHGNp3AvuLBJp970sVRNZpnjpMOqAi7lEYoVmi1t8hj_hzJwuhcBQymPD_dzmftJFtp0dW2CGtil31XJHacpaF_6lKyl4ple3GFQitlXO-m_v65PKCJdWbSGI69NSsBiNuMgkCsvY3PV7Haxw4gQYYSFrIXlsILrVaJr-VfCdP7SFc7xWGOn6P0Foyk7343rMRP7m_Gly-SC0BHdUf3QPDlgMGOmu2AE_IUNNDI7yaTnD27k39Ex40DUgmqiyIRfG_NR28POi-pIPOhOEv8VbNFaB8APJ0jaVncTrwp27yuJNymMzL8tvlzZMQI49IT5j21CqQQDXK7KpT4GFsVvYmscm6IYH329ZPaHnrw4NAaA7xFm6RGuKBt6KmpnGUkIANWqAyEumq8Wp7GZ5dupWj0",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeKzHkD7RqOx5AUMSYfOKffJBQaTtQ6udP9_aLVLBWflUt6zme87Ffgx43CweaqfMrjjK3M6gQzzcIVGm4BsuQCUnAm9ONzkR_KsvfnqsSfPMzC8gIN2vPQTNnYaOdErLTG0HKEdntTouhritjBYZHW7AXC86jYTx9-LaB-VI5hTnXW3SSbiqzATDXwhbiAdt3IaDdTm42kujqf_IxtFYNBwdAqa-QQoyG7h8PpBPgL-blqc4rzo5PYNB53bvZJOLOy7E37dbZ0x5Ff50qaYh0rqEOY9URyXKLAVoeYGQC8Gw6hw6VVMPe3WsaVD_gz75mfBn3n3Vi-6jWM2kqGxcpaNd5PSfsRRsr_SMMaES3xapVxEq6Xd6hvCprxBiCskaCmI0sWICuwHfbHlQaxDyo0FoMW5ZA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeMEzLiJGjFe8gKabaJQlcgjSaoe08YWKB9GhVYNbMIuT4XMCI8KAivR7K22DPJmvkbc17Qrnc18PCOvAxeh_M7n3t0XPDXz7iIlxTt3Rq_KUVJ1v-HxapW5dlZuBlMaGgt58F4B2ycQcZkSlpeWuKtnajYOnyzUL1Lm2ismVA9uvHbjsgxnNxI09qm7yf8h7Y1JpDYOQWvAutkYBiS6YgovWNd05JVYFidO3U8FYWR8Ha2bUjOaCEi1T6z9cwjyfkY78fRm7xQyQMMRqAEwONIoVqn1CmWgCmVUQ-iFWFh-d4_1HekCFviB590WVmosUvYpppdZQWOp73_VLzm9zXkZglkfYV5JEGT2hQB8o4Jx_xrfa6oevYiUiPXwwD0WEOfvoo49QXRafJXzxmIjY78_QO0ZI4",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf52estYyUaiBUXv0ylP7IP5dFyyKAG1uahqSwPA4cLt9csjWxel6ah5l1xDqxsbvrA9vOiKUsHC3zlLxQPuV67-Aq4rEUbS3_ogcr-ASGVjCQHPZ-SQzHxq0Opu3wT10Sya9wChQC-EfP3ABDzspUuaDDSEqKbYEkqgzmIAVF3bIoJ0YO_aRp6-KVkTWT4KG80I84DY6wMe9jZYN_so3YttqDRiTT4QqEwL9e2ZbBWPsMOPl_-9pG0aq96XIHMod5ytYYi0zy18sbUbTCkqnuSqUXxoAn4IfCCQT-XwaxvPTCAf4aU7FWiK9GrzjiZcUx6_E1b32mFZAk3sfDOg2peHyS4iNxPA_-P_v6r8vsrIMLgeHfnK-pVA0pOxBdl_Cb_CvCnWhyhDBDOoFeAVPu6mVc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeYNeNRGPcBsJyfhXr16FO7pwXhIw_UKImII3_aQI7Q6l_XF2Qp5PyTjl_xjd4B0_h6LcCxyfyX_gHucrBiq6qEz9gJ_X8AcMNUv5Vxc5UO7WPz7ehCmE1aSr8EOkCYUpj48ZqjGrd1qrPj3v3JsNj9tNbDikSnGS1ppji6PIJw--2skRYVP0yVLNnXnbR93I9G7L4JHHcLT6rhuPUuKcUMsgX4vsnXhSpDo5WRzZblxxd1CiAjVv2-p5XiKqAyJIpKOjBtPe9J1V02slTkG5Aeo7HDuD4m1ppBHV1Sqoptq0UtX5GYrgVxaddn_ZRVV3Il6iB5lwAN4wpX_drepn-rPXlr7suM8kaHI4QRfX9eBxdooUIxq-96Qz5R9U8-Lljn1YEi5tukpXAG9_3AqFBR9OIpj5I",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcTq72kLCxiVFLULJjeHvB0begjLHb9FLmBbxI-4Q1AWuf0SfiPcoIJDVmD2oWhJogvkPoLdDOd_kjZVHw_Q2mUEdIzBVeIiCQf9fw5wNIJ-XHGtbO_MG7xJJ2TblKbzywDHStI8Mr2fxDLW_yVIW77RAWi4ShuGB-NGCbujMGsXcZcMExHYD4vsDrJkraotl0hFe4YVznORM-8tC3Xw7zeMPAz9qMMZeTpXGfXDVfUIqrjHhbEmHjqFbaids6K1s2pmFB7PogTd702vdeMbIURmBIlrzL_Od05OgGkty9CX5XlXhfksbPCmrEEMN1YIGAoB9prFC6kw0JTagTU49m-LRkRSTMk1rdqUq91k4khthW5XE-Ak_t1ih8VnCy3Ani0O8-inSLml6WVIdHNvVQxp443w7g",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdfd3E-Jeu-enjH1SJKFCRqe0ogp09HrKpFgw1uRe2rxDXnOWX9N4foMGZSca60SvZIm3bfNk0EcEhyXuoZbSwouoT_LtTGrBv4sh3yx4U1za7bUMzt-RKDZnj-Aq8oILXd_TdjWKOUhFtQyFlcekmS9fS4Yw6HqenKY4pSrdM5yENXjK367KbQxKHh0kvzcStM3yRFZxwJh722Uz-Bxfi6pdGNuNEUWD3BrZudRd4HqzxIGl4J7wburCAgaBrJlUtBC7mpy-7xwEzDFV_S-XIRpcb5vvWaq29yBXUHCDFwW-8XcWogx1O_AdMnucAp5flLgCGA4OYb9wQD7IOglxRT0BHm1daY0Uz2otiLl4rcctPFuDzz8MisO0NJEe2aXsz_4gNVTYlo_qLIfrFuoQ63gWI",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcSuhz1nZnz0HT9ujPNpwz3JlYKf8EEm-G_Kxcqu7yA6n4S1Q-vdHtI3bFeJE7zkpolHfqwO8Ud-HsrTUeqVg2nGjZlkrkd4opuhcuifL0MBqxFDVlM2etnRsOQSNTDajXbp8m1N6U9cdHJsW1mtA57O7SX5jWw1vtr0JyslgZ6mNaHA69IVmaOsLF1Eg_NhL6a6369wHC2dUHApAHJo-OZOf-4FvHKfLX571cMa1mWwIAevvjLVS9_HBzwxYyOBt6iYAUAub-kdSV5txEzt6otlTXtJnfjgfcvyHPByZewb-KCYjD5iI_8r83-2mSxUDrTWEe6cisvEwzBp-oiNFsxEWkSY6O4vriCMhG3muhwF05Rm3C7r2JLPe1y0-rCLrZS1UI4vWR1p3QM0iWMkCn9y5ndLoY",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe7yhPgQo1AVCOdOt9dS50qMsFZ4TItXCLQqy3q9EXJQHSvnMzWdQJNy2tH1LwwEj0vIQiGJ9LuVlDqKPJLIFiHMxRIsyBaZKYpHemKGdipk2p3-7kCUgWcXCECpnfJsLCQEyvwCZLhybBK6nhh7QEwQNot5LxlGGth15qoGfUl7w1nBlu3pn-PAA-mhRICiP8cc2OpU3FwXaVqKDoK2KnQSv1td5W84FnsSCi6btUYIYKDnsxx1vfv_2eqyzFEjvGVQyvI5nNdFqDdbZBrMZOwrn0V7NBQAhcBy-X75rndwrd0EMZGGEu4IwyOqiaPK6VXjRIMJb5XhqwP7Zpi3m7Ya7NKbXtBGCVmGt1YY2Tht-x_FCxmfJOrgQ2KKWTpWp-lXpE5HzNc-cQCcDWC_hGtmU2x",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117339431541308211545\">Gig Harbor Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdkyhgtWI3X29jgciRI3m1iweZ4ZBdvXfPGtLStAyxDVCHqiq02qlwQfizuyItFLuC2grIDFXAWDJ0KHayI2sNlrD6QSsNZaz5WUDMwlDRsfnK3Ub24SvXej_A8DaPDzwnc0neOXxalSHy8m5-02wcnX90tmmSgWD5mXC-E3i57ZRerEhZ-bAjtaDtFMz5io4Vo8MU-w_3RKcnayh3PECRAtPDdok6lKVI1IkO6U38uTaEIvOnugzf7qGpZ4QWv_iTe6_zZLP34VIjvRhCN-R2knrjqu0ULErdGZLbKoN0OOdx4T6jGBqztd0QHMZvpUasJjlbdYHZtmUEh6a83GlVf4MO4HUf6fX7Rv54JVzPE83J5_A1x-0ZtIYX0CYu_9HG8os4bS3DM7sSVD0lFbUwLyZffJrI",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJ9yixwnpTkFQRIdTDxsYwmrk",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13374055673726489633",
+    "vicinity": "6659 Kimball Dr Ste C307, Gig Harbor",
     "website": "http://gigharborapothecary.com/"
   }
 }
