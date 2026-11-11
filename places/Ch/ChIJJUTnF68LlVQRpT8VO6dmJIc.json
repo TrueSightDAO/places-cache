@@ -1,40 +1,268 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:35Z",
+  "fetched_at": "2026-11-11T22:58:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Wilderness Maven Apothecary",
   "place_id": "ChIJJUTnF68LlVQRpT8VO6dmJIc",
   "result": {
-    "formatted_address": "6032 Southeast Milwaukie Avenue, Portland, OR",
+    "address_components": [
+      {
+        "long_name": "6032",
+        "short_name": "6032",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Milwaukie Avenue",
+        "short_name": "SE Milwaukie Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Southeast Portland",
+        "short_name": "Southeast Portland",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Portland",
+        "short_name": "Portland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Multnomah County",
+        "short_name": "Multnomah County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97202",
+        "short_name": "97202",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5345",
+        "short_name": "5345",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6032 SE Milwaukie Ave, Portland, OR 97202, USA",
     "formatted_phone_number": "(503) 313-0998",
     "geometry": {
       "location": {
-        "lat": 45.4789212,
-        "lng": -122.6491035
+        "lat": 45.47892119999999,
+        "lng": -122.6491036
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.48022803029149,
+          "lng": -122.6478915697085
+        },
+        "southwest": {
+          "lat": 45.47753006970849,
+          "lng": -122.6505895302915
+        }
       }
     },
     "name": "Wilderness Maven Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 9:00 \u2013 18:00",
-        "Saturday: 9:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfL_FgagpHXmHws5pym3foO6j0fr8GSrfEtljKEqe3ndjJJOqRGKoqIJvOqxY7SolMlYe2GIpBQFqtfBekf4M2u7YhT1DzffOHYANt7fhLkA0PAVJVrwGIXEhaEhRwE9SyN0hNBDeLds886GSfeiRpUuJgwRcS5tqmZxHoyiU5w1Dg4fe7k9tUjIwrg-QYoDS8suA6_XRXcyMfbjYyN35vsYpGtSbORi_oTiEBY9jTZuHenbj4X3rTWVj2b_FGSSUlUbnnhuy-jKDYQ5fuA-CoG7Wk3myw-33-E46hJPJMDbQwn_Td5DxqLQEn79gh_PPhIlXGCvYOxfGaCtBvYya4I9aVUYwfDJ8Syckhss8qGxpSDKsDhPvJUJEmtmnYZ6F58YJ8GPXO66X0KlATPZo5RX2p-qEoiAfiSZNC3Cz6N",
+        "width": 3600
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLch3-5k1TL61twvCsm6A86I5qnsRep4hDlAibVAgbi_Ix4a8KX7a5kjklaPIIH3aRgW7ETax8R1EH4b55hStD5k8d0jziAFPldXAptdvpu8oWruUN50n_AcS6rs--rI0vEBvuPqk5YzBy1KwDsPMQQMiGVEWNjM1AykqRlOXJzaMbFxydFMdI3rNHnJbXicEITvozOgFtKi-1ylyeVPFofqNjUYSBDtUE13sP-ZHwl8MZVTxH4vqWHVkj1QG0PqPDbWGUBHR81CJEXK88ZsFyoaLmv_8Px4yyxQIoTq1AY-3-UxQgssYYbfFE2dBoZx38FNEVNXJAGOqSLarE9P8wvHraBVkKQOSGlEsttT6RF2QL9wB9WooGi7o4ADFxV0Z4lC8xUcFpG1brPlPnfxI-8vfUQyfAyTckKmqfJvvQjwCg",
+        "width": 3600
+      },
+      {
+        "height": 2090,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdSpFST7JcgYv9oDnlbQcQPzoToky1NaBUm5YQyQrEK8QAejLxb4WOS-7qD-fXPwC_YWyoQfYQ3RuGORerkOLQ-DTYIHaA_ED2neJxEdAlOvx5V4kYJhmHkqg5VwcmR08VT1UcGPyOIESr5i1Dtu4ME030nuFUD2sF4VcqaTwh__vffiZcR9P_JJ7C4x5GbjHAlPtRQo-3O78OvHoutYPrNEeEchgYBq5oE7ReYeNY5Xe-0Ellr94RjwH21KYi-dazPAB9aGJG0db1WA-7QTUu63bVDn09DbFUYYHMLFBOf78n0fXS9Mg2Cfr5pH_FeMaKGRSkOFHsBUq2lCbMGNg3deG4jVJbOYZAUjpI4PfDva-zwyDaaZnyskIib-P2tGr0hJC1uFnj_Bv9nBfR_Bv-I1R10CnnBCZ08ZqxD_rJNCg",
+        "width": 2786
+      },
+      {
+        "height": 2400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdwCTrr_Fa09-JcmGRQVAcDYzdtMPSZ1I4KuBl0h2v4gI2ETedG8hgwOM_jf_xJJ5TOxKBpph7rbx4qYXm4F-WxByQhFUfpsBnfHlstJjLPr1Xs8dcp7J0VQDGeYqazLwKM054k-ZUvUV9UQf-gz3pn0lo0vp96dQsb6H1DjeuvARad7SmbfYsZi0AI7mdWGyTCpdo-UBFTWuVkqrvg6IeRl1aQppecuzOeRkYpwKhb0g2gviLkdC7sxK5z1kqtfRNthY_xVXEKL_rJ5lc6f8dWhUfZNb-B5LSzuknzpM_UznwDveuUftvA-0CSTkBg2KpDTfF-O_VJkoCX8ylsk1zW9aiP2uCXgpFls_ztnFNXiUbdM8JjEQPu8SuQU9KkS3apmw5Cq9oUHYTvU7OmbYtt1QWvms69xC7EbA3vgPtl",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcMD1hMBGO2B5VcdsbKqS6ql4Hh73lxfnMymj5X92RbU17E_yomyw9f78awsK_n1cAWpstU8kiKCDPXco4IXjhXSZf98VnuM_mG8wjhgFxc0eRbR2cB2vRhRODZEjQulbcRFcKB_-p9Tgdlsc8gGt0XZC29HUPtpuMA-PjkG4vkSDekUZMqxRWO_fe-iCHL1as620ceHaqhNCzJfvtzXYzX9ral06zvEXPW7DF_UMWgOSRzdvluYOstBcqiw_p0iEquzlzD8MkAsN7gaLZaP7gC9YcVmnL8r9yWRjysKtLpGPWd8yG4zwc3K59PByT9klbjvf-bEh6sS2trgx3nNjkGhqT9Nau11KU4wQEW6AevXOxgtszv3AdzxIaVU56mZy0WkquF1v7q0jViKmSQQ28HMtrwWz-jDpCz4tuwczckYQ",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfApHvgzxZn2mb5W3o4XbRoQ4QwsRpBQYnuHs8Pyv_LjfF14BklyJ43vqOmatsJXzLosytz9TSmf-22UJwb5CFihQxUqkPWpnfNo26tR0N6txgX3bmVqtqmZXZwZLnnehAs49agQ55ZLDdf2fVYnoc4RuhxEvvFYPI2ildiGKGG-lPRNl7jTNZfZ3rb60LexxrVdn2Kcyg3iSHHbiN14yf4ikZ1g1wtgD-3Z9XHZYqwOESXWRfe6Fl-DPQa38sWEBmNqpauQw-KcqcI7IApi6OwoIFZRzQ8_LQiVg7y2ESqI1wR9NkG9VeEgA0c6kpZDOztWYM7gXojP81_yGaKc6yQ0tZM-mKeQKUVN5mBdn36cJn9r2mo3Zg5x2e6JEHXfpiO1rAH4JbjZAdL76hy_RvGrMuOS65_rgBjYowz9xCC",
+        "width": 2400
+      },
+      {
+        "height": 2742,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLexfwgo6CDQCdpPHpslfz14Wj2f4c7XnUFFDtD4-pdWc75fa9D11dvSdy76s04JsVHf6StWCA2iRo21R9dK3BrLYqKRbBbtqlZ4SgMGiAg6vmD_khBglzYXo6waJKv39tg_4vWQcg-aGE3jkyEd08NL6jPV5sWwZwH9okdpiluPl6XOn3XU1g2Ah5p9kFe_0zwXAFxAXaenSlkEAlCXoT2kRFdmvoWTuTFYT0nkyyHC9PJm9D3IN2icvXG7SzsrCRvOAXGkb0SCKR5dlO21ShisO9R6DquqC_3mN7WupRLnmG_BxmWUtP_ZTe7s9gEzg4ylDKIyCJHAvG0S-M5Aqirh163v_fX83AphsjvvH5nK9drKcNoUmfauINSU___wYZejsSYzv0xzkzxu6O7hu8Earo0iLSeMcx0kUJACstvulg",
+        "width": 2742
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcNsu3QnjJvYNgmrotQotuyhn2v_YQs-PNyw4TiSTsRxN0xZ7MGXqt_Pv4FSH_DWP26h8z7v0AAkzQZmx4MZr9HPHvVkCCKk9fVEaCiJiMzrDvVQMEa19X31MdsU4Y0eiCAVkpIy2rQe59RPiQN8Jf0tToAmiVXVomNTjheFLdyeDwTx7UsuUhNk7_yVO8tk9QUV0a7AYXxcGYIssKomv8tfzBg20aPse0qq2FZWsqSLFgJDKY_JAwK5O76-zTLJ85khOi6CY_YbgCpVSgS53uZuxVUizG6wCIt6C3EJW_UH7ewb2MCLxuC18cr8jlAIjccCr4ywx4z4jrfWb6wmNhiddsjZAQf3SBhPJ_V8nJBTKJm7bBtOMmMAMS8rpGW1kvkm9hJ5TUNxYpRpcTR3zVPlg3RRBXEv8ZVRcv30eKm",
+        "width": 2400
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLff7aSLSY-2V-HiLvwLqqVY-Kl9y7Ow4rrnW5ygkh-qcI8E8qAGHWTLKCTscL_jGn9twRjDbzgEa4Xf3BeoIOAPV8Uwwq2BV6Xjhflm60PWiF_-bIFR7VjTqGB7atKXf2R4V6Bb2rfmRTKgcszRARYNJiY_LR9uIhF7Ma7NT3u5UyGxk4ZXMj0h5RlXRaWdeQDT3adYqh-W19ni_VHbz7iYP85L6AaXl_4Qrm_xJBi12bqNqKhHJOZqNAUcd1qeJXrdTLWkKHZZ_kaAzyFDOsaa0CiREl2Fa5FBSZp_fofmf3uFDa0tqyi33FQSHoicE9VNbrrTK-g_7viS257XCz5y0yybxsw3yq1EVmMuaHJjmUDq_682dVF0qQSCmyYY9zHhM0QH74IvIS8WkCyBMheuIdZbb1t-GbM7IAiGFm4C1g",
+        "width": 2400
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117160606578486339711\">Wilderness Maven Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLef-wQwdQAr5nIZyM7ZvTLnEbDVasmAGB8Ruju_T-_Y45k2MI7VeVKMhOO8GzZ7xu77kEeOd_UafOGdUcKgxnHALoHmpOBnIT3jFI9padi4a_ns_zqiFyKsBtg6YVELg6-WqPTcOYO9BOBaZyJwJ04cniT-S2ngENtowtKEHr6SnFHWy-wdW1zOCp7A702SlZOw8c4Els05dXVHPAjD9BwLG-gWz4xDbs23x_e_TgicUxpEOqgprmNofbxa22aoR-k27H2qSv0N2Q1Sm0v2gaFXkZQgq3KBwjar1HNccXSr_T_M-sQCgALK96Cvl7MOFxdEd3DKt7J3__aolO2poobgXldATEbQS1t6mg3Hv3Y7y-A4FV_h2ELmNk2t4PO1KNS_hmx3ysK04KLZnSAw6GMaMvK4VmmaUd4sigGIKfkjAQ",
+        "width": 2400
+      }
+    ],
     "place_id": "ChIJJUTnF68LlVQRpT8VO6dmJIc",
-    "website": "http://www.thewildernessmaven.com/"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=9738021162718674853",
+    "vicinity": "6032 SE Milwaukie Ave, Portland",
+    "website": "https://www.thewildernessmaven.com/"
   }
 }
