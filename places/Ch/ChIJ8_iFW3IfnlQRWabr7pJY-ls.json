@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:11Z",
+  "fetched_at": "2026-11-11T22:57:46Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Stone Crazy",
   "place_id": "ChIJ8_iFW3IfnlQRWabr7pJY-ls",
   "result": {
-    "formatted_address": "2918 North Argonne Road, Millwood, WA",
+    "address_components": [
+      {
+        "long_name": "2918",
+        "short_name": "2918",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Argonne Road",
+        "short_name": "N Argonne Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Millwood",
+        "short_name": "Millwood",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99212",
+        "short_name": "99212",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2150",
+        "short_name": "2150",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2918 N Argonne Rd, Millwood, WA 99212, USA",
     "formatted_phone_number": "(509) 939-9197",
     "geometry": {
       "location": {
         "lat": 47.6838105,
         "lng": -117.2823215
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6851567302915,
+          "lng": -117.2811693197085
+        },
+        "southwest": {
+          "lat": 47.6824587697085,
+          "lng": -117.2838672802915
+        }
       }
     },
     "name": "Stone Crazy",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 18:00",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
-    "place_id": "ChIJ8_iFW3IfnlQRWabr7pJY-ls"
+    "photos": [
+      {
+        "height": 856,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116990835466672838812\">Jenny Dykes</a>"
+        ],
+        "photo_reference": "AV-0GLfRdG1kCeQYXxr5Qn1bnXPs2GdC80caIiNb36wARwTu2moUnvMgsrYCeQH1JBDhOen_HyDdtOiEYTFZqzPEI45yt-zCeUwZzt3Q-zGcEyz-wiWgWE-fMw4mo_jzf1W0rSwWlTpO-Bw61D-w1EIJOWWC6oBfxF23eaIQNB_6EChnumFdn_kgmHCembpSd7ReK-aAMtpjZ-1Mx87SA9CCn-WqPT4L4gztWZ90OwP5tfKdPlrQWM80E2MjoVqq519uV5Ug37i8m59V-RfWgrtY0wDfXtEYTe8qVYgLK3NmQ6vAsqPlqEEHFj4jediWL2xbUfjr4_LTetq4ZuuwlJFWJXUHGDS-46j77xS29SZYRFFhXLtnPwly5zuMzymGGU9l6Jr4cEkgFbMHkqy6lQO86pJzxaswZv769bVCdyUkgQlb6g",
+        "width": 1500
+      },
+      {
+        "height": 1168,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLd2KapeTUZNj9mB8Ze3aIWBkkQyMKbEysuoKxVx5MNZUhNT0aYnlosr0XT-Wy6LNJ-VkgNR5G1-0zI_Y7g9zN0DDMdZnGeLsvJoV85YxHYDyfKqzkstEvV-A83t7zko804_uaP8L1r1KlLS1fggy3ovo2vemZqeja1L2Onv3HL00D9rZtijhcLofq1W9LLrEvHZyUYFlPGryAUQkiIWB_a-aseF6RXvPzHcjjF4NP2JgBRn1tIWzG7u4LoEpKvmZxH2EB1CQ4xVEwMFBy8kXX2UjBmbbRvUEtX1tkF-e7GPYsKVkbkSP00UOQXaJxeKuqZcXsTBfDMdZDt_rcPEClQ6N5kZL93ozJpteerZkJpTlsf8q8W1K_m9VZ6FYopRX2t8w5GfcfMcmdPvdcUW__3HDQ",
+        "width": 886
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109105093486503702805\">wendy ziel</a>"
+        ],
+        "photo_reference": "AV-0GLfgd-Gwq2IWDFZQJuww51OSk0taXL-uOZ8JdB0O_me5tMpOKSYoXPcCKTDyJaltk_1vc-K_7zIw1hAng9HHSjgIM9tuiMqxMWPAMTDngSAJQ0d882EeXArRHpmDruGbNYy2nxB-41jxhnOWdDEYuZl7QdpsU5i8yXNoJT6QsPd8O0pgAgR9laF8rXZmplPCEnL15V4OAASh8SS2YnkPPByaotLe6LtabBrzMOjpBhJnMaGN8rWvwu3q91b4AHAulTxJoUDQ_36BlDfEaxrH1VE7d1GwbxlqoE1DqB4-jNkAmtX6v5-aj66WygP9E05-NyNI2Wi8ZrcSfJ6Glok9uqOWCcmKaF_r0osIzjx1vAaSsMcfjqfOqbqp1nPLzW2NA1qnxsDq0jYsqOFravP-O2ax8TwHCCO6di-tFUx-FaK3_A",
+        "width": 4032
+      },
+      {
+        "height": 1793,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLfdadtQFGy1eVo12gs2zuUjgTP7N_wS-1p4mVf09qYxXMbaXzf93MAWOj28l-XptLNcTYBRx7QbyHTyPovrzqDWu_m3QrGEIXlG6bU3gzy8celcc5DfSEmoZrf6zSQ6iMnBjVzUifzeBMouyc0VjlGH33FjhdCtG9Ibcm2d-lPxBLtUsI5BiHP6uUWu02uaMVJNpp2g-0eFC-q8QaCK8d3_J1yQnsVTVDvhdygCUy7lOWkY53rBK39x55ruguPig7zfGLo9jpZIcwmDUUveH_2eizUSIlFE7ff9_9AUfFgXsPFfisE-tagEKGhqdkTF5UiAfuHsB-IeCFdtFHB-jl_9_6w54xx8ndGJauBq-fO01t20he8J3dmFnsfkL71AhZaDu2I12FIij93rrEr8xiwEzP9Brkh4of9qpfgXlKtKzQ",
+        "width": 2120
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLdDZY4ZJxvbw3__J7j3iNmUyFOn7uDmmS4L1BXIXPBbKg4DtxwbQ1zJhWClGD-8R7YqR6JdjqqaIWod9hdGmp2DQw1rHcIUnlb-fTp9-_B15IfdI88hcwxW6R1tkGqR-AQqkKXRc0FLFBz-oSZlLyiUPZIpHOAGcDohGDVwdLsrfQAJBhONE8E6oaoPVS86pDcH-cnn4uM4RLhlgaDZnqPqrA_Z-oy4ePyciDZU3DVogOgRhPOlsaHCKq_HRmHLn3kUTBp6sU3lGUqCFFld-Yr9G7_WtuLtIt5eSu9dUbNxmDi0aPp9S4ch8OInXP7aIbcgHv2vV1xB5bDQKdk9KKQOOgBXHM5Ys4vlYz3RJdtWRviCFo6OkZOHiWRtvoxVvP5feUBRlQYx0VUbcm7ooTWmq4Y7EgB_L2Gio25p02r0",
+        "width": 2184
+      },
+      {
+        "height": 1630,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLcWdGnSOqi4w19bUSVYQThEso9wjisAcQIBJYkLFfYtqzpLDU5fd9TM5mSgJuSbj1jGax357Kg7naV_WhouQHlNDxvrvfIapVLmkcRBqHbGg5JdnikLWmC3NwHw0q5iBB9PYebNn-9ZyuOFxVsBBgYHJsV3ql1t5TNmCQOS-aLa6-W8O12s_cYEXx58XTpQrsIpboX7IY5JJpiy5tCbawEsUlFF7e2szy2kP3TBfzWnbCEUJHrLT6D8GPmH8jBJWXiPzNoVx-HXrsMkdthPwhFlfxEAlE0ordUAtHGmyoC0qqTI-TNKf-sx7be3QWr9aUIOz8cqa0wUMs1L9mS-96MhUQ2-Lxkkgza03G-PbLCi4-NF6nYEse-ChDtwE7Wl2yDL2PnwHSCbGjOwHseHQzbzQxe-qn8",
+        "width": 1032
+      },
+      {
+        "height": 1475,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLeN2L3T3toFl6btFT6_DLg9okZrQiu8LrnWpz-pqC0nAP3n8ZbTQBclk8JwFOBaZX2BFNlK_jibIBbgwJ9cX98lb83UywmeBfE9NHiTxsXeCMvp6RsIXJl0GA9f67jjzji2xetgZkHyK_6cBgAtvMHcC_w08TYWTg3W2nGux6FkYC9OztAdE82oIZUhRMMAaIlFAOM8V8uFVCtPoC2LOqG01R_cL4jJkaHmfX9D_5GBdkt6ifYUsB0lrI5bspuUQpxKO0murjQP5V1gPNLEZpBCdy18rESrz6Oywf4Ch5DlLKA7gGTaqbRAHqWQTv1axRUFml_X7zIdeIjuOcFcNDM4iCGqBIh94L8_5bA5lOKq0NxcdeyRm8lIHTkBqr7PaHaikOjOzqfoq-tbyoROcCM-42_-PbslOpaH7lZB18m59g",
+        "width": 1860
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116432514458892097340\">Jenni Collins</a>"
+        ],
+        "photo_reference": "AV-0GLcviuet6SK1hbGcXBIbcAp_DHKQ5FcIBJeJypEhKlYiX4EvJwAjEL6_N9dgDwtKqHOAIuy4FgDEAOA_s8tVfXuzjQrhGB7TVk-tqBgTmVz-tpTbGypWSzsonNW0LrqTJkpRa77fkas4ZKKhhV2dAe7QxDXqLPG6TwKjcXr32t9EezD8vtglVS46OpzHv2F1Qv8oHKZHxgZkCEQJ59OOo-CMZtzNkcfoMvV91x50D1yMcX60jANxT_BdoLkEoZZba-mnDCknKG_V-14E0EnkUAWrknkcFeaFjTJTBLinlhHnSfQOWnbG2_0lucg1cv0hYJSVCzT30IHUrbESheAdG_Hu0gxtaUxM_H-5NamWHET7NMy6zOeClyeXA-tApO1N9DiRoYyzaRYJgDX82WEqm-lJRpFV_ykl8uX42M2_YjGEpw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113117406275913850533\">wes P</a>"
+        ],
+        "photo_reference": "AV-0GLf7-MXsIK8gIFyWP4MxQJfPxx4Qj-XrLS1W4Deupd1gwxTGgHt3ujlRaQw7yt29GnUkQYiypRX3ZgmWl7W-SspR19_TlRcVfCZ5Yi0zo3Ht5pcRpj98YT_DDsrwCICkPfXy4COBNklk-DJ2Ctp-_SylmcnB4vEnZ3dXXPN5tuMCxKX_Gvgh5ss1oZTI_SUGuRf5aOPR7B49j4M56VxwcJuDMmkm-3FtX3aZsNYTD_AF4l6e2jm2iZ1Ib55CGBJh3NRMA65UMOP_t79cBZVHW-tSJ6HC4wE-GeRRF_COEsORk2jZ4-LmD46vJgnWG6j2QUI30egtDQNhPM2pjc9grG7GDrEB0C8wq10YCWXC-pi5doP2VjhBfJl-RFfMbMywUABVesxhlgrOLFdavZEyWPRnMVMI_KZo9CXtebRR59Pm",
+        "width": 3024
+      },
+      {
+        "height": 1773,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116541160765654548218\">Stone Crazy</a>"
+        ],
+        "photo_reference": "AV-0GLdIxGu3MUMmEAC9lu3TaDJlp5T5o7zifFY6EysXYCRCP2mYGOiDfIcyz80mrumZnQrQFOWKtFPIKTL0inCLyQNRIyJwkVvQp1ASXVPti3ZRRQj4q09eA2_xLI2azShYl4b_AYcushdQb_LqFK5U12ZQByHuHo4h4SoYDlSGa03L4QrvaPmVN3MK8cCFCrsyO-g_3OA4Lgxu_mSgaBQ_9duF1aJFoIuNhKQ1CTyOOuGeC4W_UsH7V6ENaq24S7vZxUnnMS2uaoK75tZpgTQwL87fPevT9gKenqTTKngafWU9DkLT2V_-ccmbvb7-TYmbRFelaUw3xkqVKuiPzfQfQhlXFZnvDRky5I8A5iaTD19vlcIHas0pLt8bY2js5yOcKu4DnqFBsaro5fAN8QRRIC25X_6HAalsAArVKfzbkZbDRw",
+        "width": 1854
+      }
+    ],
+    "place_id": "ChIJ8_iFW3IfnlQRWabr7pJY-ls",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6627707189725996633",
+    "vicinity": "2918 N Argonne Rd, Millwood"
   }
 }
