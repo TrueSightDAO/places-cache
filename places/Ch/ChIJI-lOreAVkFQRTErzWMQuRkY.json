@@ -1,38 +1,280 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:30Z",
+  "fetched_at": "2026-11-11T22:58:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sfingiday",
   "place_id": "ChIJI-lOreAVkFQRTErzWMQuRkY",
   "result": {
-    "formatted_address": "601 North 35th Street, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "601",
+        "short_name": "601",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 35th Street",
+        "short_name": "N 35th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Fremont",
+        "short_name": "Fremont",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98103",
+        "short_name": "98103",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "601 N 35th St, Seattle, WA 98103, USA",
     "geometry": {
       "location": {
         "lat": 47.6505726,
         "lng": -122.3510932
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6519767802915,
+          "lng": -122.3496874697085
+        },
+        "southwest": {
+          "lat": 47.6492788197085,
+          "lng": -122.3523854302915
+        }
       }
     },
     "name": "Sfingiday",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 19:00",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 19:00",
-        "Sunday: 10:00 \u2013 19:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116661009400953855200\">Sarah Renee</a>"
+        ],
+        "photo_reference": "AV-0GLcKkiV6xq64VgFgLzOcc7knnv6p6mC4TmLomj-4HKjV-48fTtN3sTzvk-lxbGITOXEKAV4zknR5SKtpePkQw9OOWztkJ0DRK0hVUDuCV7vN4iDY8da8rg4WiCef4EQoGIVcyWRlMSQBoUvZ11jP7UJwwZIPBqWMrfpiTKVvPg4p69hJKaNcqr_qc2oSGKTNUIIHZPs65-NrSJ5Hq6DZW2SMvPXIW15chm9X6-m3KIxM262UZBbLufk2yUjXkLqUr0_tFJr4F9sVx3MJfXAM9_1xHb8mzrO0Zen0PKFK7c5MaWpyj3ZpP-p_pOSIhyoGVJ0UTrHiSr4eZDaCqxQFQXcjhA1ar0mDxnJSiZs0JnbVVR0HxgNINuydFIUHxs2QbFh7n_0QjPuMijVZKk4YoDW7wA",
+        "width": 2268
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117486090359313007913\">Sfingiday</a>"
+        ],
+        "photo_reference": "AV-0GLc61BDX71cudNeJ7htR0TGTFjJS47ewuXa_lbMsm5AizkYV-YYcSGTKGg0xdtnkdIbr2WFXBYjaeOIC7lPH31HDQcdsu0WLv7pKS63CK-RVBjy9D-JPKsvteMVcEiYYR1MJbo_R84V-XMTJeFt1PEU7_CvwW1BfrLXMqaC4FHNZy7b82hEZf3A7pHmsazeM2rhWKuR3zHmTQLImrGiI84WyTCg-lSQYyWHigvJDqz5AAJfb4xluqOj6SDW5aXywtJQYn8kJz_DMqaymRuJViiVjdzr5VACxF8-Q3LnWn1-1wUAu-jF5R-qVl5oADh7s6CCRM1i6SBPt23XsdHyRC4MdUZPVQ08k56mYmadQlVnSkbR_ZMI2M5I8WzhW2oXLBWU1it3M3gMlS0mvMBW2YRlLvpo",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117486090359313007913\">Sfingiday</a>"
+        ],
+        "photo_reference": "AV-0GLcLQwBpyiX_dJU0F71tVD1lCQJCpMELFDJ-Qpjko-6ODNSTngwNXEU2wu4jS9y2_c2jfmS0rr8wF0GBzjcwnWRRowaESp6cOTBQwSZ6UkIJ8ixBmDdCzy6M_s8mxXRwmQcIK2wqzHIQoHv5Yguj2pJJW61r5Br0qIlHYIl7soCrnfuwT-B9m4OxHqFJP6bcJsxvuXu-HCfkLhq3F8R-qUnyNVcEJwC6X0D38lewfpycxTFWCIpH_ut0JcbDQ-QqFNb3qX26YFwrDOsIJ9s5aPiwHoIHnHqw3lPHWAWnRoaxSTxiRo05q5V-thpLy9xFr9WqivgKURkfCRnMcafJjlC4tjpRGvDqwumR4D8eRyyOpTYpSMPw1jBojZybcE95tZOCS4ZnsTiEkyc9E2t6z34sNRk",
+        "width": 4032
+      },
+      {
+        "height": 4313,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112956913252245741318\">Rachel Solby Park</a>"
+        ],
+        "photo_reference": "AV-0GLeb2eKIEpgW5QjTkSJ3h1s27QPjpV97ttuBnku_mJipLgOi-5qGj_Gyw3mezGN2arKQkyPiin8tuHiwBo61s0lHXVSBOIX6YMKqfntEP2NV0FBGLmVbHjHNGo6ruZLBrOvM72e5yR9jF3NdDNrT_3IkRvaY0uH-Uebf24i6aNnlJ-xrqqIGWwSptD8qj2sbFGHUiTk0HcWDjOwB4bVMspS9XYLkatFCbk1JZ3ih-C9FBmtmo0YRCk-yGvcSdy2URIWuslqRd1xuK_jgy8ejUavgt21kr898hPKThF8f9zW9v82Bt9OaY67uirfAd2fGxHrIs_Puin4s7Lqmratcng10-3-DM-5JratN7mRbnS_dEIhYIZyk5OIAMnnjISIcOyayJrXySp5yItUnzpddcXCPqtZ8BmI",
+        "width": 3852
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116661009400953855200\">Sarah Renee</a>"
+        ],
+        "photo_reference": "AV-0GLeMjXT4pYO5ixVnb2CYpOuLWAMKDU5YQwaGCTV8ICKpjosuGmNDxmUv_yi0QTdJGRwSzVL3hNurjLlE8jYr2aB0QwzxFhQAzOA91Ps-c95WusQjOIplU3gRo2vct5BIU654PUpm7WLQSafmmnDuVi17_M3Bg1uD6ClkQzW5a87mjkoqpneQWcPTBUmZHWGcO5LPcq-cguqmsM7kvc6g0pglSXALBiU7T7vuqTsXkMJcH855u2DLySePHtmmph2s18Ajrv1q_gLaE0kZBw1drj2r5QNKRw0xLzojuiM0V_hyw_9dFsnXRjz9bHObVsADVyWcQgsp7KmcV84UTyjJzDYFr8qXRkYxNUwp8aAMLa2VPuqaO1nuPMkcK_TMBsP-2Ma1bkL15VsGJVYfFBXGGg",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117486090359313007913\">Sfingiday</a>"
+        ],
+        "photo_reference": "AV-0GLdmWX3jQG2LCcAjawQOJ56tP05itn6MEMRADhfXf8-cUeF3tvj8UkQk9OLm3_t3c6C7pcXjR9Zr68OtrDS4uRqWnQgMJBBbkHCUTLoqyb3mt7AKPqlQ1e-jaxsy37nIgYTwTtSs_WjuGUNmBK2BTwHdT7V9ChY5fe5LmDMUgJkuD5GGAadiQVF39g3Vz2Ey62SoxZef2yOAgLRp-BMaivPmMAE00itkWB4DKporl7BmiV0UXrLD3KA-xAyzx6LBmZBxoCRi3uriODt1nia3KiLm56LvdO2o1cDMwIXgszYY87YgJXs9p5ggTFedplYV5ZNVN1-Rnuz__269JWaq275YigiEb41_5TqlXAmovVfp-LNU0iMhGjTQ5FwRhU5rkRegOICTCkwA2zDdWds5HKYHrJkrvGs",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113760455315913727538\">Daniel H.</a>"
+        ],
+        "photo_reference": "AV-0GLdEN5mWNLmlh5MIxvZLqNa6ViDMsK7bIh89ICcgN-BMhLd4_cKas5GSH_debRIH7xvRzDQU6_a0eimoFXXQBOoccBSj3jrwXbNIjbpJPSh0Y-kIK4rFNFiGSolVsok3stV5xKA0P0-kOJV_9VE3AYHV_JcWoPYpk81RieKKQ-FRBf05y6GF5xMfESKb7Pg1G8Lo0A5Pvh7jV5Z2MHGgikqmNq63iVAlVYWUZBfYqCtkg9z51shJ4s0Xfz77apEKXSEov4-Cy-VlUKSnFJXxPDj1ck_J1KmwOf4Mq5VNX5zCfvwY8mPKE6Dl3NVS9gEOCx-ZXkE8xCUYjCEx31qr6ymywFh58OQAVDbhT_lYr7sZpTTYBt5xP_99iqdHe3gk8ZZBYbjHfy218HD2lMy0Ilp-3UkV8jo",
+        "width": 4032
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112511607647363130590\">Casey Peetz</a>"
+        ],
+        "photo_reference": "AV-0GLe0MOE3Lq9GPDIFdaLWnjAr2LGZl9UqSMz258SVkETVCKtmYlNW0anzYKdjCOr5A7RpFUb5cpt1H-t93d9Lfr9xWhDWfbSxyvrv1Mw7u7hy5uylLYKPK_BdCKQXx2PgMo2-6U64wu3cAd5hablRZByH4ow43TPU-wSwHKDPM7J7BpYZKG0YItoHQigNDPj8WPg8HEy40R_39QULLFP2mWxd5fEHVPxDBquu2V21XDFlrdu15prfVM_wUy8za0Z_bafE2XUTRRBAB2h5cUYh1r7YguAJjrs67vmYtxQ7XQ-vph3YypzSGZOHUeyJvHz51jbuB1nQEjUC7aGRI2Q1RBSFG99pxLQUEsOk_-n03IgPeHIweGw1Gf5klCW_VODd7ixUlVCXlTnVOwnoFPlaXjfMUZ_E8dS4XR1tq99wCswliQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112511607647363130590\">Casey Peetz</a>"
+        ],
+        "photo_reference": "AV-0GLeuybBX3MNy6GNa3auUszeUOcBr8so0LdX6boTOM9TYHjsQGT25wDI9TjK5wrrH59rl85qVF3wyIXXEeU6WLJ_yiOGakOJ9cj1Mourei9eOlmm1-lcnUBdVrnphio8_rOOQimhm4f9BOUXVjKPXDT1kEkL8PqxSQcRpWlQ6DSqmFMPuyGr5Uy3rzCBh7XTx4EhKDBBstATMXKWAgW94XaAIhYSCBWsdI7FIKxzV2OpYrkvBO2N4SOF6_Ey4sSzWs0iGecR7BF5ECfSjRBL-WIZdJ95wrDVeVjONwYZ9XIOHOaIcnaVG42t_9derbBqBYDJgHQlu7ncQYcZ89lmp8Ldvj0qEdsMSHXvEaYvfq2E66_6X0Kq56rcy9p-72S3EtVHKISzsCmWB9_YBd4cxPH2yTvR6xKVdFGWyLyfCZIMw7A",
+        "width": 1816
+      },
+      {
+        "height": 4416,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112956913252245741318\">Rachel Solby Park</a>"
+        ],
+        "photo_reference": "AV-0GLfg9oQpB7sg9Z6VgXv2AOuKgV02fafK2p-KwgBSbmhPlHveFKLV5ouVEuoetc9EAyMGPV4LBPQhpM17G3ojpGXcwGEutHu1gDYFrHO3vO_YY9EeYihsLEB2BkIbOeJelPOZencQwh21DmSkBeplK6RvjHVC-vs3mJbqEATl-FMbb8kjDqy7Wa5D2YMKihwUB3_3D8Tm9dKQykSEGsLG76xjpCn5AfsZ8zFSSrQpC6rtJkhurRfisnW70gChOGRwspXrCYNW82mwiUiAR-4v2jKwu0jqx3qHAhdWlhiYG294xQ9PpcLhm-RzAWHHqHwQVo3-kEBgfJthWUjDO-W3D2IVen_WcDp_VuHYIdlf6wuaV2GdGhRYU7hrv2HJ162Q4dJlD0_GY1WUdZ3xNvuD_1i-MTg",
+        "width": 3852
+      }
+    ],
     "place_id": "ChIJI-lOreAVkFQRTErzWMQuRkY",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5063786251865508428",
+    "vicinity": "601 N 35th St, Seattle",
     "website": "http://www.sfingiday.com/"
   }
 }
