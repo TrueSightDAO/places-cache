@@ -1,40 +1,170 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:26Z",
+  "fetched_at": "2026-11-11T22:58:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Sister Sage Herbs",
   "place_id": "ChIJGYg7ohlBkFQRs5lR5ZjEDw4",
   "result": {
-    "formatted_address": "1534 Western Avenue, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "1534",
+        "short_name": "1534",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Western Avenue",
+        "short_name": "Western Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown Seattle",
+        "short_name": "Downtown Seattle",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98101",
+        "short_name": "98101",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1534 Western Ave, Seattle, WA 98101, USA",
     "formatted_phone_number": "(206) 898-2101",
     "geometry": {
       "location": {
         "lat": 47.609585,
         "lng": -122.3422449
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.61091408029151,
+          "lng": -122.3410200697085
+        },
+        "southwest": {
+          "lat": 47.60821611970851,
+          "lng": -122.3437180302915
+        }
       }
     },
     "name": "Sister Sage Herbs",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 9:00 \u2013 17:00",
-        "Saturday: 9:00 \u2013 17:00",
-        "Sunday: 9:00 \u2013 17:00"
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 682,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102140802760077677543\">Sister Sage Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdwpUzMGcLFsjTggQub7ZRPjjHXK6PYcddAneasKD2PQfdA1BTGwEI9BEoFSzFLSljO0lMXQRId6PtETNyD-97PiAvVDYZgRYz_StSlyBfa1TL_R4WBy4kFu9i9BiVRLTJfhOi-PWYy2iTqrs1MJ0txTLL8mQg3kXTirqyUv73Z1GuljAs1hkGGRr4Q6yZdaz-N7yQFexHQbEavzJ1jmw70qP0UsDoiDDfTuTK_6E6xOpljHFtuiYNr73GEVAdhNDGqdfvfDVPnCO2kqHXTaK6_tVqZNiSHMQl16YWeK5FbBuwCJyHifm3CFSuXLj59qzAsYv1eR6ewTzhuQPJAbsZSfmag7K3GnaGTFFBqMzFmFT40W2hDqXcbMngwjSkLgzQSJEl9IM2PyQkz84sQ3ZCdF1o",
+        "width": 1024
+      }
+    ],
     "place_id": "ChIJGYg7ohlBkFQRs5lR5ZjEDw4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1013244602143054259",
+    "vicinity": "1534 Western Ave, Seattle",
     "website": "http://www.sistersageherbs.com/"
   }
 }
