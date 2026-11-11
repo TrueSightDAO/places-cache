@@ -1,40 +1,264 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:20Z",
+  "fetched_at": "2026-11-11T22:57:55Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Boise Refillery Co",
   "place_id": "ChIJD-ikRRJVrlQRcQYqNBhb0yY",
   "result": {
-    "formatted_address": "10530 West Fairview Avenue, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "10530",
+        "short_name": "10530",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Fairview Avenue",
+        "short_name": "W Fairview Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Boise",
+        "short_name": "West Boise",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83704",
+        "short_name": "83704",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10530 W Fairview Ave, Boise, ID 83704, USA",
     "formatted_phone_number": "(208) 544-6287",
     "geometry": {
       "location": {
         "lat": 43.6201208,
         "lng": -116.313447
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6214103302915,
+          "lng": -116.3120868697085
+        },
+        "southwest": {
+          "lat": 43.6187123697085,
+          "lng": -116.3147848302915
+        }
       }
     },
     "name": "Boise Refillery Co",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 19:00",
-        "Wednesday: 10:00 \u2013 19:00",
-        "Thursday: 10:00 \u2013 19:00",
-        "Friday: 10:00 \u2013 19:00",
-        "Saturday: 10:00 \u2013 19:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1873,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112618744693714319767\">Boise Refillery Co</a>"
+        ],
+        "photo_reference": "AV-0GLejkkR6MN--YovfaF7MPvGYeUNjsKxrZP3oK7ANoQFLpXxlSYF5pE7UKlz0wwCKVgRTuMcBJy7Dw4GBBEQV7VVnZaPCu2kjEGz4Ps8UFRRkOTpvn6DGixQLjb-yutp3Bip0iTQqXh4g_k2otgXwweVnOGQ4kUE9cEC_mfkupHmOa8e1s6xgOruqxGkEKJM5D7nw86kZguePTttRRZrqfbbuIScMGx2rlruxm1N5qqFz8duQ8w3yLmLcFnAnkplrvONrAO6M5spx4UgciwYII2jpCRx2ZgPAIJVRe11X3eiz37cw-sYWU85cS-t75pXJun8LhF-ixZz6yxW5xel27Xm15nSlfM_Uu68UovxRABJXDYd2FTCJlOmgs-HC0tlcEOK5xO6TNlgLAXux3haAX4pPpUnHK6s8Th3SRIK43VNX",
+        "width": 3884
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112618744693714319767\">Boise Refillery Co</a>"
+        ],
+        "photo_reference": "AV-0GLcaIXwfL_BCjbjPJ7uQ0ndFwhctKWKJJGIU-JRMSKrwfna1UaEYihQwKwFr9WDlrqGoISGNimVqUCmCdutupuRCI0L025_ItsOI1o1g2hH9mxghYZ_--WISaslK309zo3EYv9h2fXVlc1-4Ucmm15Nirr7L1PEMsAgq9YH1R0qCr-AT8Kn6LTr28VTabDe10lYrnY7GIkq30u0YPO53691-7IsfPkxQxS-aIeOStvgbYUKup1tUZFuzZIYh3t0kmTexdAtOAs5qbdFt-ny8X8hEjMnugkMJVulhDarrWChb1CaLQyod-HLGKEB8VpDkvwSVDKI-Uyf6F5nCkUmfeIZgiwFmD2LQEGb35STVheoaWXTEdjKYNlPn2VHy_sPHrvYLgT82k0jdHi2vIhWfDPfGEb6pMkOPyWXaslidovQ4Fg",
+        "width": 3024
+      },
+      {
+        "height": 1965,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100834052240654502976\">Chardoney Juarez</a>"
+        ],
+        "photo_reference": "AV-0GLcNEgxR0XGbsQf5Bc37gMm3y-ly0GRxBhA4JO8HZIArFAAQ_1jVoIJ-dE0veOXjhWGoNEoM1DISK-jmdRljPQCojqxw8YGwT6vaMWc0Gea6kIrMabJL94RCG0g7pZWqfiZ1JmFd20EGm7wAojTbVY865av_qBqIhbFqKKvm9KvaPxysj1chG18SaIndrTj-cbuVIq5agKK_jRPcpJW3rK6d9y_g7GfX18BMmfuU4e8jgAUZuagA9aBl1StmirMnlFNlYrmhktS6Vf1kfYha60y68ytMwYFCjwBqz8kdRKxp2WS6HzFMITzoTAFDuHaso0wZ15WYpsT5eDYAJ-ZdM0-vdFa6epwbSJ6qCxPOIgMLk8yyfDQxRrol6n6pzcOXF1klFO5c6MTt50UsUTrnwUkTTXMX-TgBOck6zt6ZX8xB",
+        "width": 1473
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113599753079502620403\">J J</a>"
+        ],
+        "photo_reference": "AV-0GLcW22tjR2vDLjMkovnQZ8ZufRzjYdey_J9NguigSMCIP6pP6Ldq1185qP8C1Js5vULXAkcJ6oQ3aWJygN07ScDh9e9uYyfMrcMsre0SlCuB_klhg8HX4Y5Wls8EkaNaAlq3Or2osW82JmADVgO-84v6KgqHzzu09qn0X063-8OADiGAsOPuuaDdciV3X8AzrGN5QiHsz5EPzTH0jg5hrLwYxoF8RfMKpzhyM7V0tMCvdvFf8AdqtBCF2pjdtbDiI-12ggo5d9Z8IXxrmRgYLVqex5WtpHbQL7aNP-sTgN1tnxXFs4whpJIo3e_CjpH74Pn8ykL60SnK4pSNA3v0-jPlts5_pMt2orJCyyEaklum4eIVzP5NbYkTXlB0xBWq1irhhA9qsvwzCGK3cAGrli_0tyhKciyXr-THOKp0QQn4",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112618744693714319767\">Boise Refillery Co</a>"
+        ],
+        "photo_reference": "AV-0GLe55UH0YG5Qw0vSh-70nhFOnE85FZ_yENzjE1bwrFHSYOPChuTKij-eH8qWWS--4-roRhB8nSVnblAyEgwTvyy9AMGxnpWxkwb1QMlg8ZQFK3I2r4_cW0O9hoQolNKYudtWcDCGMSpUI4-Pm7extx5Ydq6z6PLf9_8W5ap_rX_EVGAHTvoBp-nirtE4N8aw_gWLFx4VX-TINTaikPON3XFr8a97Mnm9htwvX8x2hKJZIFS89FeEj0R_KbjT5EckPpTLte9DMqtaH6LvD3Rj-71tEXbaKlBKz6TuqR3-oqe4oYz90QLKVbSAc-vflKdRh1QMQ-eoCxxy_Ub7F_eHua3j1cg_-R0TIyx45ia26SRt0czZsSOJORAUr3HTnZ763EFThFw9NbA3Bh3H_hVOGQIkQH0hZLyxrlzS-9MrZCib",
+        "width": 4032
+      },
+      {
+        "height": 2745,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100834052240654502976\">Chardoney Juarez</a>"
+        ],
+        "photo_reference": "AV-0GLcfdfAt2wMVUD0okKIJvbrvHJZwHjQRUMP2rbKgObpwt1OHC0vTWQgGQTDBd8mp81Y_pVuebo0jD1bHuVs0HeTaLjSsCyv5CRWVYL-hKjAqGdg9kCR98evLA9ByLZAoO5wmYQTwKZZgu8Uvr_sKO72YF-yLrK4N7CSSVMZXF00f5TatLXipTpv4cFzZn2XWHRObxDJ6rAfyGA4_1JMgV8TpA9g5ep_RGW2b5abQc7vwHWgaT1F51lgh2McTIeUx-m-WXm81GBMsA1IgvpHuBhQUcbroLbhzvvifRYb77Y8WggIh21R3uIFju5p8NT5K0KFcMBrBHvL3LFXe5WKdtgVwjYIGG7MBBYLNHeyZeQruL4KFhu1q2-wpEOBPe6m52Q8ovcxU4Fy8V022uH1NmK9VNgvcv_fkcXhdDGIlPvkx",
+        "width": 1733
+      },
+      {
+        "height": 3894,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112618744693714319767\">Boise Refillery Co</a>"
+        ],
+        "photo_reference": "AV-0GLcUd0RZiILXX0jTCfkzNS9pxRoqTkXxxtYFfNknYnidIOmfPXfGp_bfSp82XR4eG21rt7-eWn8U8zQYg9jtM-WWqmEMT-34qYKJD1aUZKxMh3rHgmEZVLvK7BG-ltrNZR2tjUYwQg9rYE01Hy3F-4ClJ-5W51FnAsOPUlG1Bip4FDyeR9h6qOtHxunBWq8BUNyMJ7CVwI4DKWYcScjKtQY1e2Rgn-0_Tsqxt6eU9xgCU7Z4bfTbbwA2sH8YvNY7kfKOT9-KhTKCd5_UeozZnqA6b9TwrkoxnxHNynT_-Mn8aSXHzITDpd6X19NzD_r87OcsliYqbWb2elA0Czbw-731QWys7p2CM0T1ASAsCbDq-elbC6GXq6boRIM4VrVcpmn-QQV-gGQUwbc7cLxtGanD0dejvL1E_NeIVBFTXNJKOg",
+        "width": 1828
+      },
+      {
+        "height": 918,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101865218203415595225\">Johnny Ju\u00e1rez</a>"
+        ],
+        "photo_reference": "AV-0GLf7YDMH2ZNMLXRntspqHn1__6Eeivnhk04hihSsUpz-rO7B2lmOaOsz1joWw9tbkRk0ZEWxX3wuoIIx1zZmrwN_YyYUaNAsrDChg8xvVEoXuwaP6TJhgjAXVegKcxOsbP0TpYZEV5JOBeulVSVmWz-rfP-bbQ3JD5dDhtwpTLUv8SUx25MKiDng9lkZuIBdIBsaPELB6EiNJXU6o5EKW1NVBufa-yom_UBsisas9yBx6w2fW8r0D9B78k07H-AryLfb9-fJVSzQaXEZeQ7QorOepTgsfTXLjV4FXsNJB_wEmTm6EXIrSuXLEC8LHzKgNpEOmdxaLVOKjTJJSXWmVcH6A-FIFEkEMEtfaYRA4ljFf8RwYUHPO_A3I3KX1DVDo3dmgKGdToOG5ZAKpJDo1sbE2YyeUVMry3g_C3OEUkMvMw",
+        "width": 1224
+      },
+      {
+        "height": 1569,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100834052240654502976\">Chardoney Juarez</a>"
+        ],
+        "photo_reference": "AV-0GLeEU_8BZSEZc5SU3o01KFkRNCrn9r2YocK5ZLSSGfpeClO7ZX4zY-vh_4lMcRd1hcE5BZ7aH77fYJLn0rr4FsLWOQoLLKptRVeHAKzF-Wx2k_AEU1hVGwtb2w_RC14HBFPdLglxJn73ardbPrsXL_PB_jYlwf1xfh2CelQsCABjVo-oCgrBm2TnDdRgOAxwavno-17bGGObfkI9_ACKSRVs-2ZnHRqZD4DuMyzj-nTCZcXhPnxJWR1L1I_kcj1foF0kowiMzzs796KoXOJbkmwFetW6eP4HFIDeWfp9lYcuUB_pyQZsOyZtOFSDGNMSqrBLjUNRq3KmA0QC7zKYiwCeXGLxef_ceAvLorfYP49qhB7KhOS0aFAeBakjC6RJSAdrEqUfnV1eCmjPCIQvUNK2Z1kswKJmDQcHq5ENKI9dVg",
+        "width": 3120
+      },
+      {
+        "height": 1813,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100834052240654502976\">Chardoney Juarez</a>"
+        ],
+        "photo_reference": "AV-0GLeaojk4FI7vXq00QAsmihTe3AP-ofsmRv7n-Gel3D8brjOv-yCgFJ8mbRNtSBFZJXN48PPoab9_Tg2e-bXaMtUIoE44nYcc9vqfkXcvH9tyD0jaqielSBqINPkPBxqQooIBoj9XthyAh25auYv13tpCJe6Q31eEeeRPpfQjqFmWcJPXdow3b_P9M4uqDr0LfktmvmZRpya8rRA1PU6kgC5jsfI7i9LVR1iDobdrtNoEcPAGIapxO05njrE8Zvx809P0T9Vde4hZ-gJrM9dxD9ACW1FMuSBZG9WvcoLGObaphlhjgX7La67hgVkuf-S_KahsgM1Y8L2B4BmZmEvGj4-u2RydYduwFl8pehVaTITojbTjedUIG8ScDokFbduQLahP3H1kWipccsKGlRQQl2irfmZD9MRw9RykZhzp5nVo",
+        "width": 3338
+      }
+    ],
     "place_id": "ChIJD-ikRRJVrlQRcQYqNBhb0yY",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2797679953039722097",
+    "vicinity": "10530 W Fairview Ave, Boise",
     "website": "https://www.boiserefillery.com/"
   }
 }
