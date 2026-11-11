@@ -1,40 +1,254 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:16Z",
+  "fetched_at": "2026-11-11T22:57:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Janjou P\u00e2tisserie",
   "place_id": "ChIJAQAAABD8rlQR4zSLYGcUk30",
   "result": {
-    "formatted_address": "1754 West State Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "1754",
+        "short_name": "1754",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West State Street",
+        "short_name": "W State St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North End",
+        "short_name": "North End",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1754 W State St, Boise, ID 83702, USA",
     "formatted_phone_number": "(208) 297-5853",
     "geometry": {
       "location": {
         "lat": 43.6255532,
         "lng": -116.2110261
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6268323802915,
+          "lng": -116.2095779697085
+        },
+        "southwest": {
+          "lat": 43.6241344197085,
+          "lng": -116.2122759302915
+        }
       }
     },
     "name": "Janjou P\u00e2tisserie",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 8:00 \u2013 14:00",
-        "Friday: 8:00 \u2013 14:00",
-        "Saturday: 8:00 \u2013 14:00",
-        "Sunday: 8:00 \u2013 14:00"
+        "Thursday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112696988313839530155\">Jenny L</a>"
+        ],
+        "photo_reference": "AV-0GLdXyOMXxZaeFuZRps3BfgIqg9Yvurz2Hu5BDw4Y80C-7VqTdzsCQeL-Bof_gIi7kGtL2BC9Ku_T0Z9236xSCbWITL8yC6Q645flFRw-SUAYNCME-zzTy-g7YWLz0gn0K7rMLg3sP85rzPoW2RAF3Ygs2shGkCBbK3L0p60KiIAt5jyx4vgGpYs_QZv7nTV8-hIX2E6hKhVu1-80QTQcL_4nnro6HQqEwEp0AUR4ew7IGD2d6OFxil7woIkL0rm_bC14PCCKo4NEbIMjfnBpdPtKLMHjw4uBp6TD5NgyQ4oYTwQqTEMbcm3Qub7gGtbZKiwjBUp-CfOrLPxIgQ9vr3gRX_HiLsdDTYCvd5oqStsxgMhh1dC4GI5aqml2oHG6nQJKf2ZQvJ8Wq7NzU2rH7n7Wg14",
+        "width": 4000
+      },
+      {
+        "height": 1571,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100575736352528556135\">Janjou P\u00e2tisserie</a>"
+        ],
+        "photo_reference": "AV-0GLfyc_ImTICgWphdDU8he0gfgQTMAQ0aWlvvdCj5C_GxLWGaByDDaPNkAVOAbAf9e3fJwhw0zJOll2A3fT0VnrSYGWGrGXyWr37ighH8Do2VK2z0i7y3aSMRYtbYz9HzrEkkWV40Oqav24mtYBQLKprzG9LTfdX4GqUmq_NlShjy499FV69BKJcHOZIMLEeKyYfxJIbs-94F9T-NL06oWWVSZfYjGLkia7XwZeps4shP9iqBtEGlBmRugsE3mTaIjggA2hjsK5ti_L4h2yhkZ6c-2qYGqFeSLkXIA2DJ5BFUVptMc82Gx6NrctFxE-_OwvrD3HVC0BsM3PLFPgMSDXAZ6gyshTHtBbt6i90eXjfqHl2EhSsEJRK0Z2FVEw02f9WwBmkmKu30MB8q1ixThyps9A",
+        "width": 1571
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117284845977021814905\">Emma Sever</a>"
+        ],
+        "photo_reference": "AV-0GLf_X3d3zfa-yTBfeMhgZTjqvGoTGYHbkYF8Dw1oBZmQlRq1lBytb79mhyFveodA03lUDN3h8Tj459bveOlw6GnZ4fMnTbTNqY0ZhrD-5UpQVBV6yf0k8K96AIBoQccvYVWGaU96wgEP7YkmYEkEolUy7EZftXkmZl2pUmdcYryv5VWuwMS4F3gB1Q3NOioZWrcEPGSPMb21LMTCXT3yjPW2VG6GK-S5VTidk7lCis0KLoRu2LCe0Xyi70bVbDVBFOJqcgebljwdge7DFvvwz46iTq0-MbXadFGU3MKNi9ZifTCxJ_gFvltynCJKtaZGicqfA8Xu3yCpAeZkBpz2hehO0yURAl-HaJRqybnv3IgDQm53_Wtr4FIpmV1VbG5_8WFvVSg-HdyPVSBU_LSD1icQmpWVdUT4-NFjVyemBO8q",
+        "width": 3024
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113107871146417133904\">Tamara Rod</a>"
+        ],
+        "photo_reference": "AV-0GLdB4KR206bMLHP8GTLfrBVAWKvS_CdvWrb-fmElF_BWdSgmhIG5hrYOK1GdaylKsGtf2qGQuqh3IR5xecD4KWdeJfuYMzpniQTL0-brZt4zIjYReqDEHFa4BYWBIPz-6rUwOjrOdJCDpDPVstSS5K33rCWxzXIxBibeZcNNF-ZdNByS098vRRUCiF1Joc5_wmEncMv-_fv0STcIErvl6fG2kQ7NHbzxSI4j-xuGOkw_j6kd3VXqGfiOhRDUviazupk2qybyYoaFjJtAZKw7gpmwapjZXDUkzqV_p8W9YSMg6FNVJGTn4wddcAQ0jvYTwHRizlQzZhgZkJKVSLFfGYvJ33AHP6eMOyRwlVjYvegQM4xt6kJDBXpqmjhFoGmJM-X6RIATAmJLg0fjzH-GMTAfErPMUlVD6V-IoU6vCxlQcQ",
+        "width": 4000
+      },
+      {
+        "height": 3475,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114591391878145528956\">Kristin K</a>"
+        ],
+        "photo_reference": "AV-0GLfG-HAnV06bvzjJ2TXljnDXips8RLopznANEhiThEFOlMGxCtT5yHwnzEEVc-1jw853qAmDlM3vtrgPbL3-e0PRUBR6o2QvdIPRxW072L_s66tdki5mItFWFMV4xU3CVzdr1PMrIrpA7scSMka6Bff_Zy50ctkKUwwxNEYDIX4alDOZ1GQwUoto1vB46wDIpIvB7HRvDdZLlRPcHezB4x31PxZs0jFGNRKXbtPX6rmn7avXdMuq50LZ4b8iUdGkGuQD1noxTrhMVaO6ygp20O2h2181cebllCcAo_lqK8Cg_pSFCzcC9GMYsuUQPWtJ8SMHkyrHiZHHaBrjt06CL9miaB1OOJrm2TcuR-lhrPGlYJ3RoeuKpyzn-0GUqZilgrxeifYsTEbVraQd4ktyJSlSVX8xiFaK72sIn_6JAPnaEg",
+        "width": 2467
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106158392528425939357\">Claire R</a>"
+        ],
+        "photo_reference": "AV-0GLchetravw4CnDvfyg_5tBzcLjj73y1f3ZZz0q-V-1gdchCubOxNx7NmLeJVCFBpwxA2wVLaZ-SHhlB7-4kN2h4S8rcHU5ew96AC8y5SmKuvMxiIqh8NdUieaM9Khe_VYKahtwGFxlN2TVppoMAVa_RVM28KJqeT09RnKsZGKfxjA6hsDtt2nWyZHlAA8JzEZIBWZSxd4Q-9nfa9Dxun5pUauKBS3_xwtlWDKmrT-Q2B-SOvWKd-hJch5XBUktKtGGnr9AtVjHBiQ_M7CkNVAyNi_Rsgx9cCgfUB9kAAOUzn7M1xWcjL3FxpyX7-PNmmFbVkShpOkYmw1mOStWgdoYlFfZbb2fD6uv7lKGxR3eAYxNwo0ljZMAbXtoHRP0ZfFBLBGOMzeF8vWMZOolUBAZYkTkOAjU1W0b19vYt0ZmvvSg",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112576905768444103043\">Andrei Lopatenko</a>"
+        ],
+        "photo_reference": "AV-0GLe8bSLETvUOxisn_UWgD3olsWU2zwT4wFZlPpFw0Wq95fagFSdS6Dxo-qon5xOahpAvfuuIgs4x7UAPUiaYtRUZEJc82AI88cYWqxDODsJPKUy-avirDc_Ueyp4qjVmCaq29eaN3mFahV4LEpTexARKRhkWPkWrdFGtH5GYsgN018TE7NHWHiHERu82_D-U3ogc8G3Q6dD_aGoQs-tubBd8mIDdP7BHjnx5qkxTv5BJRheR9NZhsRG-9DzQPtB_W5Ok5CZn-2pp4Ua-GHnS90ZN5ICIvQwccpzqcMV0zD_nYRLQdjYXJtbJnjQaB16P3_zDdqnWwLgd801XhcsFYb18T9e_hJ-2Su4Epqd5CvFzHpoQTqMIIF8cBP62zfw9lWQyGebg956KAnF1CBQzvOha1VSG-B4",
+        "width": 3600
+      },
+      {
+        "height": 3599,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106457678867234551524\">James Drennan</a>"
+        ],
+        "photo_reference": "AV-0GLd5s5rS71DNNvnz7oB_qH7r8BzEDVF4MIYVkPLnnO-4mEj-k4O3qizQaIH9SQIP795SFejcoUtwdH0vXJ8UEpCjSDmKWtd9FkkoGNEXW64Xi-FGnuBsCBcXjhrB4vhSD1wCsJ1yUUDe4Eduv7HuYRoUk2oPmlU3KRF3vZdjHboHalpDk6tOBnr0Ox7ZihypcAO4npRsDFt0u3uqr7jpnBoCwuCKGhlcPAf9xS8bIOEZm8FSLIMVLrrGiTrCm-EcOTd8BJJUowSETFAp6DYTIrbq1KeY0PFZKd0xXYdJfJ3hhmD7f2RCttlDbetI_ax8jZdpiveMeLDPiDIqilp1Z5vmQBgCmM6RfSR9yCaMxAGCEm8yG_JhU_2hfLpsNCXhxw8LnI4wDUhBwF6luI2A1bmikS3_eb3uugertN_qk6PQ",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107082389246578197913\">LWexplores</a>"
+        ],
+        "photo_reference": "AV-0GLfdzV3c_mY2ZKdWa3Gb4op3998a2mYZULfndB2zMyafBZbBrv49hc8xMcNWpTNO35XYCj32xRqnxLl7bhSZkWBJ9F4_OdILHScNp_PM9LnTmcfSxl2T2HdQ__7SGMLSnM3BNG9S7cQLpPGSQ-vqUyGd13zFQkUM18FenMb0r6KCK2i6TpMFVS8fwS7nFuOu58FzN6e9t1UfXfjeK98i4MLISGxeHa1iLadMioTvLGOCBKPuXtOGUwWRRTAkUmeqcWd1-z4HZ1ZIdaLCcZYOOfyJK4DsaTNj-pQicE5zpOPK1uMq3m-CTLkhHIdsIrHhRj1D5a5uxt_j-zJlqvVDbZLsANDyo73jWyOjIS8cKa5098AW6HLkohaJ2y_2dSvPuvwTmBaT4W6Y4Q-tVw3yU2ENuPZIIB94eho7pxOZZgo",
+        "width": 3024
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114870416758108365256\">Rachel Anderson</a>"
+        ],
+        "photo_reference": "AV-0GLfNzFTcNM_nnDcwSCnqMNHoliVZcVZXbpSo0XmgWSeOKhZjpQLujcaDden50yZdIIGfxQG5S0S-WZwIeWfOdaTU7_hF8kqOxA_psEp0ksXGXNCkZbtBtrQyz5n-8M7N1VXFuHNV32xpwZNh3U6XzV9mUNQVTOkVEMRFc9uvRK_2DU4GEYVhuQYjqxFK98iXT6DPc4BaBdzf7uVoWK1PKTw8T2RPmr_2aY4KQqjpVDX-AW6gcYKGdL6rEZUvMsYX_R-s3Es3wWWoUwVKERaZJASIdGHR0hxlxn6oaUA8uwG2ASxIDIxozqGFDEWKZcAU0VI0smEqtbrZB-Hte2HM-b5yPazk02AqRqRPo39HpFur-7EfOQnWEUM2bcq9HjjwZl3f_gd6dQxlMq6KjM4nFDfisKgEiFzRSKLO3oP49wouuw",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJAQAAABD8rlQR4zSLYGcUk30",
+    "types": [
+      "bakery",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9048598510551381219",
+    "vicinity": "1754 W State St, Boise",
     "website": "http://www.janjou.com/"
   }
 }
