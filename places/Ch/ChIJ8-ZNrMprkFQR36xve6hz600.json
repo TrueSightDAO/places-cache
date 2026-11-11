@@ -1,28 +1,157 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:08Z",
+  "fetched_at": "2026-11-11T22:57:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Audrey\u2019s Holistic Skin Care",
   "place_id": "ChIJ8-ZNrMprkFQR36xve6hz600",
   "result": {
-    "formatted_address": "4531 Rainier Avenue South, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "3819",
+        "short_name": "3819",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Edmunds Street",
+        "short_name": "S Edmunds St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rainier Valley",
+        "short_name": "Rainier Valley",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98118",
+        "short_name": "98118",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3819 S Edmunds St, Seattle, WA 98118, USA",
     "formatted_phone_number": "(206) 734-8210",
     "geometry": {
       "location": {
-        "lat": 47.5619252,
-        "lng": -122.2878465
+        "lat": 47.5584816,
+        "lng": -122.2845701
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.5598305802915,
+          "lng": -122.2832211197085
+        },
+        "southwest": {
+          "lat": 47.5571326197085,
+          "lng": -122.2859190802915
+        }
       }
     },
     "name": "Audrey\u2019s Holistic Skin Care",
+    "photos": [
+      {
+        "height": 1104,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100841012824874789252\">Jennifer Crampton</a>"
+        ],
+        "photo_reference": "AV-0GLfO1ZerUoW58CxPz3PGk0I9Oxx9xvLMjIXsKpcJf8Gq9e0xBAxT0gwBzkDPbCD2Ne3bsLn4ICAmznR9lrW-npqOqWH9M63sdmoUZoSo8JBXuz8LpTG3tTr9tqZYVw0RvARjiZ-sdAEFAJPJEsWr9i37xxuFvhe6Zk-ysGpWLvodXehVzhhaJBC5FybDPi4SurGBnF5NLBkUBUhlFqlUfQzv9R6c0vbTx7OYAW-cUrVXXTKA9UNXXoIjXxJyIb0XwYz248QNcS9aXgL4k4XoH-IliitDDvL8uJN2afdAFQWD4T4uOJxmsU17hVpcUKOgADf-2dbdeHFLa-Uth3kcX58ne4V7tt77xCf_BLyMtaK_dDPVx-4laGK3miqkGwB4my_vhhwX0-vg7IRTtkfNljFbTQR4",
+        "width": 750
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100841012824874789252\">Jennifer Crampton</a>"
+        ],
+        "photo_reference": "AV-0GLfJzn69sqdu6CD6CAQN_fPqwnYrYMk1MY0EXfNMVqIU_Kkzxs9CWCzVPTdmBuXECXSrLl6kKP6Kr89U-RSQ7HNAcaWDzMqbOjgSEQOBxKlsub6jxn5T5tWFrczrBxiUMYEcxBId7zVw7i1-H8d2kxvjMIso4M0VcY79QtDQcgg6_6puftkwmPKVZ8301X6nKcSpd4HXjvIlr4ckEok2HszrqpxVBbuXQn6HQmOEaRBq107lmup_ol40bsxrF0oYEEZoCWTzqr6AZ5M8jKl1zlNYK-Ooed64jdrBjenfzoiJ8kUcBdxNDzLeLtoVXySBIH2R95C7Mv0neMXE1l1iPZyn3fGBBCGkTYv0N2-MwzudvpmP7W-ySNCmg08y2mJCpjb7BWT2Kn_FUfYPnaSEdYHQlQU",
+        "width": 2000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100841012824874789252\">Jennifer Crampton</a>"
+        ],
+        "photo_reference": "AV-0GLf2zddm2YCwxCxRaw1WFIjS2jdLpcZghqmke02HCgugSb9ZlEmMDHu2Gth_jxrjWSoyKmIAj8EE3OJ2w7cQ_pHemotKEk_4a7wfrSykbiV-tegESDZJr-DUGWXZZAZIBRqBV5hnkkj-6NxkjHuuej7Q0mnUegVc7iE-UAR5X_7nb6mc_fkoyWDB0Y4h5yQc1OWk-cgBktEwh2VOD0znaFnc024RVUQtMOl5rUyNbVs0VLo7MPjZ_7EC_RjEhPH3GoTFOKvqVGhrrChAD1rHMXa8sGVdo-lDsOTpwtH9yj1txW-lTToHCIoilxy_ruyoRM7Ni3ZoO2iNA2aozE1FXWpIIJ72_kJWjwuh_ffeoGiINjusKIf6GuMo8vRrp4DUmAL-KWpWYtuwQme41hgEmSTmKnTo",
+        "width": 2000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106640436697405334529\">Anita</a>"
+        ],
+        "photo_reference": "AV-0GLea9Bb6X_Er6hvPSwP5xsrJH3GDcZQNTWa5ZbJ7JZsiDBsEPJTW_4840FsZFXt6VbwA5_e3i9VWhPyHfNY_qTVHQDFil_cTSfgyZOgFLXXhpMiL7hn1dz7V0t7Wr-TfdxeWxC96DjTvg5eMm6NGyo8vo2Xqc1_dySHQBtzb5r1iRp93iuSDiHx4qpRcizB41G3kDbP6RImc89FL9Vqf4CGdkwlR3hTjS1Z88i5msMYaVZGEny86NltZT4DyGFuWdmpKHnQE7gEIl5ERfeaZzV3z863jgguHJ11lXNOkiXJCUlPE-7g7esYMoHHRJ7bwS8NXjAlvtOHX1rR4Qg_ldRLMEPFF_j5vgkOM5Uqh5Q72CAVsZomWyVG1bsXSEjRO6mmwOQ_aPHsZJzQyTgPh6j6jtF0nNL4",
+        "width": 2700
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106594593730284167389\">Audrey\u2019s Holistic Skin Care</a>"
+        ],
+        "photo_reference": "AV-0GLcXiEO3N-WPRatkmVqOHwUujfOXFv59To5sF_63UIpHzO6jeMOAudyniKFO0TzY3clo6OzS-WIJBCCQtfgU8BMlviJUjKc6rvDHrO9vrqrhJKkV2Mc8IQE1rTp-UKxMH_WzMZYiTghupf9_5zMwutKpRXoXGc9torV-l3LxutrdSboP5VlMMJuTF5X0GQ7C47ZNBvkwSOkYIIK-3Cyu_7dhd19NRExOP1QbTmss_gDGH1-aLY0HzdOO8Wyz2ARDwOvMEQQgY4tqdnrO15f2Holsw05lchK9jYFjs8sw1y8lsuFXC09F1e3mywJSlF27pXfkq58cnSFX59pBMAt4c5fOcRZd61kVqX8vbQ-FlhsaWfpw1RO2DBrB6WAOiQYHTkHEyfs30dn9eWdsk3zpG-hfTbo",
+        "width": 1024
+      }
+    ],
     "place_id": "ChIJ8-ZNrMprkFQR36xve6hz600",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=5614708527910071519",
+    "vicinity": "3819 S Edmunds St, Seattle",
     "website": "http://www.helloaudreys.com/"
   }
 }
