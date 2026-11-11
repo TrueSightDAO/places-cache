@@ -1,24 +1,120 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:19Z",
+  "fetched_at": "2026-11-11T22:57:53Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "FleurSana Apothecary",
   "place_id": "ChIJC_zb3bdrkFQRxFT-IaiVmI4",
   "result": {
-    "formatted_address": "3616 34th Avenue South, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "3616",
+        "short_name": "3616",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "34th Avenue South",
+        "short_name": "34th Ave S",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mount Baker",
+        "short_name": "Mt. Baker",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98144",
+        "short_name": "98144",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "6913",
+        "short_name": "6913",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3616 34th Ave S, Seattle, WA 98144, USA",
     "geometry": {
       "location": {
         "lat": 47.5710032,
         "lng": -122.2896565
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.57233123029151,
+          "lng": -122.2884564697085
+        },
+        "southwest": {
+          "lat": 47.56963326970851,
+          "lng": -122.2911544302915
+        }
       }
     },
     "name": "FleurSana Apothecary",
-    "place_id": "ChIJC_zb3bdrkFQRxFT-IaiVmI4"
+    "place_id": "ChIJC_zb3bdrkFQRxFT-IaiVmI4",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10275127099203146948",
+    "vicinity": "3616 34th Ave S, Seattle"
   }
 }
