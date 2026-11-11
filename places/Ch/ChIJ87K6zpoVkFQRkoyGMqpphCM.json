@@ -1,38 +1,203 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:10Z",
+  "fetched_at": "2026-11-11T22:57:43Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mithril Moon Herbs",
   "place_id": "ChIJ87K6zpoVkFQRkoyGMqpphCM",
   "result": {
-    "formatted_address": "6711 4th Avenue Northwest, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "6711",
+        "short_name": "6711",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "4th Avenue Northwest",
+        "short_name": "4th Ave NW",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Phinney Ridge",
+        "short_name": "Phinney Ridge",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98117",
+        "short_name": "98117",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5009",
+        "short_name": "5009",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "6711 4th Ave NW, Seattle, WA 98117, USA",
     "formatted_phone_number": "(617) 335-0246",
     "geometry": {
       "location": {
         "lat": 47.6781745,
         "lng": -122.361835
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6795230802915,
+          "lng": -122.3603213197085
+        },
+        "southwest": {
+          "lat": 47.6768251197085,
+          "lng": -122.3630192802915
+        }
       }
     },
     "name": "Mithril Moon Herbs",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 12:00 \u2013 19:00",
-        "Saturday: 12:00 \u2013 19:00",
-        "Sunday: 13:00 \u2013 17:00"
-      ]
-    },
-    "place_id": "ChIJ87K6zpoVkFQRkoyGMqpphCM"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLf5rq7zh4dNHHemBr7QTRh11jtmZAzOU5CpH55LX8lArTHsN16WHP7S9N-gapjXNGGtTo8nzSKz_cdzWVzbDGvnA38FeTqcZY0dDgeBEGiKr7-IqxR4k7da30MsBwTsL0TAM5NnXywJSaqSWODha9pvm5a5Rnt300VxVvec9NbvpGd9TfbUj9QDuqR6ycZB_fPkH9yHLuO4t04BQqwCHoMOrCrse2ar0tE4xxmKbuMYFMyrRBowwGGZySBuqC_Vg7wYfzcOfFFp4Xcy_-110RO44-hDG1lS8XSOt3l_AWPP8R-wfMeG7ggy-vOvzv8XG0xxtRBon9TmjqHexwZ0CQWEAzcWWCtA0njVRCRazh5i83UG2h6KrCX3W3ByfQEMJ5EeLd8hZ45vw7hDivepg0dkqXWR",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdUnExKnbEBxUSzL6z24t7AuTOE5VV9kouRPEDwIqyBo7gDS4Uo7FC_b5Yx6IQvGJm9Kbd5ACPTqvsTJnKPDua2wWrGtXbpLsIrKM18nXGipXGC9-gsqCD0XP0vQJvCkS8GU7aWkoJAtHzqLODd017TcOEx1KHfkzqI_eQXQdXD1AcfmRrY3uBL9zDXY3euGHZGoeSFLyCL1P2PeHK7KrpSfrrqeO4yqZN965H-QapjVj78BqDc-xX6q3SztcznI6nsetsSzydunQzHGhPtTWAR3XXvtXfRvif8AkkUXHR_Oi8ioycBe_N25EyhUkDGsXXCYC8r3XafUTAivRiNL5Wcg381aM0vx9IK655P07B-YF2x25a8zQMMOIMC_pOKss8dQDqrDWnAwkj5Ux5-We9ZnaM",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdtEloo8ogLNjfSXt59pp6Ktsa41YQWR2Mquyhf5fN204iGxia7p_pNgI4-4gA3fib2ebW9sXp_hfZUwA60LDTu1AlQWj856N-UagqaObE4GoqlRw-uyiw5Gv0oh1_FjR9w6wi1MwOTo3uPIM2TbvKG2JMzJkgyttMPjMvqq2a7TvffbAxFl5w351VuuF4xowJ85YAln-Ju1tPhghRRjrYdLCXKjpudZzRjEGHm7HD6BbOsU62cZYYzvPEGnv0gTnq4CNb2ZbIYTeIQ0ZvKH5kZW-3fr1YLtQ30nfJihm9xMt5SoACfS2-uYkeEkFmelNfff7-w9Wou34W5xT5XpxPlkeGHm9JSdZfw-OSjx56PE7hAMy_SlnXTmMkRvj5PP6JuIyZs3gm6Kc0HjZEWbWfnN-g",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLegSaVWNY85DtnHzV-2tTStT6CHDh2Io62laXlKf_C1WfXUVcLBVxV9XocZzGQA_8fUJbSY0YoQF-0ImE0hOEvtOnH3ibozWxf1EJN2HKGvrv9N897HGqmCetsccv2EAiHlU53RBk4XQttUOVMML5xNwdi1uUfbz-yBptEBhbLbqT8ui1wZbb8biHQkOKvbqMq7S7b1ZLHalBWm_K5B2LkkhyM6CcSjHFESjnSIvBw8kSX-N1q8OjNJqahbXQQEvfp_gt0WibQnpr5rbkbDGmy5H7UpKh5tuvk7He1s2fu19AoQm1gbSg3rgXbZUBA_i7pGYnZ2PzOqsje6Memdz0YJz6lS1QVrsKnIEJTxfVBVMvvzUZsheNocxL-sv4VKmBad-TmCIpoz5KbrriNM-7M251bPes0",
+        "width": 1080
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLfUzBMrOhu4KI0tNGaLcAo35IFijTp9aYtGX_22AySnncRa-N3ejX9RbLsSfh4m49nWHBlCxgI0V6H0Q5VE8epA9ZUF66URNPPNpoulr9te9bZeEHVFhyKbNGngQiUJ3-s5yA51F1VnIQ2RsUzMvM6yYpqSM5ZTFqOwSUaSxQ62zyPUhc40w0JppwZQ5VjpaNChymXaT-51q0u_p67c4hHxc_ZpavwVsI15spacTWoLPS7ebmyPC1A9zF9BWMcHjrchQlrRTvL6FjhfK1GOd2q1tOX7L0MvdCC9wFnW2ntkFQg9nXgaO9Gvqs7WE6HzHGnd8b8fBwGR9Nx5urvG5KMl4ejbPaQBqpsqdlrkO_Le1c4cZsYzJLhf7gBA7CkEZrf2yMbovIJsoDTX9phmEH-xWA",
+        "width": 935
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdMef9LVA1fiFeQyqmwr4GLOwmR3uZ8isRTeQmfuEGXNF8HS277t8vKnL6GO-dEA10m9ipdnlOHGm9FLmYl1LWoCcXfzsatJ6o99wtYNoM8vrOpHri6JU-Nn0xcmOrpR3nwUnjZzEEAtOm1yu1AsvAIbvG1aHvpmIa0JZDHfECwBVx4jFi0-iIaBtks635Jz_MciE3CE7WulqrsUO4cTMKv_daSuAz177jsQsiySKCYyhtFCGe2sp2sFTgSMNBH32dirUe7Qb6pKQbdFipSr_nNJx5oHhjP5pvDrnmH3aTP-o4XiFbxc1rvZmvhY8YJVVwbAhL51OhaA_aaR_oXj4L1l5D4WY9X5Tz2tA_5FFvFWDYsFcbZRvhhlye2uf3lUIVgUkCdzPwjAviE4ajO1emUhBce",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLdBDzVTE4SFw6n6bfpjYLcmYoMWWAKNVFdM2MoUhehUCuCAWUM6So8Av6QKbCIlVyvVeNd1NG61CTjV4ajnwywP5meDhNwjB_GWGvIAE2-ddKE0w2GM_Ovr06lDkdQBcOy3OUQhcDP2f60Fn-k4ZX1G3MYf9EXguGLKNAC41e8YXTd6G1cfI_EgekdxQWMoZ_sovEmVTY-cqCGe9aaMDZwuWmpPRz7mq0TAJ_HqmcEVkeF3PhojEg-6aqwWbmBS0xdh2kKdJ0jwuRvy3vPxd-O3sz63xLmtGK4SKqFIvPA5nEAng01mQqmbuyTOO4vDtQAuSvfYhZOieAmjT1klEura-EVnKJBoY5HwdFGVgSAT0XgSsbBOhuqP6n3fYxZBP6JMWSi8AoXz1CuMf--oB9E-sw94eGk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeSKZQV-RPsAelJPosS9sNq4EAZQhPfINgMRH-eDJ52IiOyX20Y4I2DCVV5PuoMmf4Abw800ls8HOI_2A-27wBtoZnDwWqxEh670muixGHhwX9ZU-umq4hwVyfAUb_lR2-TRCrnuItE4ObDJjYHRPEaJ_he7QHyJXs36qoA90M1weO918Rru0z5RxSLWxsVCG3WZW8aR3DK4NSdMR0bs5ZFiOiL0Yxqw98CWEVLgD3mYEn19iuJ_pVZkIFKoZ9x4owvxk_WyQm1-aGIN41qCZpj0gbR6Ib8WI2Pb_WxNjVJJ33GocBQceag12oyDdpphTbuhtTyCimaXSkpY5vG-ECYI9_2RgGUuJW436-0a6QJEsSWRCsVV0zHlirOrtz9fE17gQwTqp3hM3DvVbQMCFL4olQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLcJ9X-ZIWW15rnP7JCuAQA1-94-iHFmAlUWy5z3FPkNPjtCvdCSqUPwjHUIqwWdMWbk04K17oNsQwtLZ2SyFQZ4ZgJ6eFQpwj4K_OJe_nXEbLP8NSyZ9_shvSFqPqhxd7sKzluVDLDmCRzFPlEVe4I6jDt3rCbMFTY-pjNxWSb_0ou_jdf2K-3sEopeHaOqAzm95NPw33It_df6cNoIXA0Ye4rM5nV8bMqHfqQ3pFFacsggIhyri7eJO9r-MN4OTs-M64HweY3D2pHjJ7fR_pXGTxhDtGxO3U-Ct-g2zBJ0_RQjOIMC2VvbRAEx6feIMG-TiXuU8j_CGm9zwwYHKOtWnCxUUV-1HjsR70WrSis3RS2OingsnBSikYg9avg9tSbYQq56vzIS_aXVUdZnYmtZLf_fE0c",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115327732476541518795\">Mithril Moon Herbs</a>"
+        ],
+        "photo_reference": "AV-0GLeIyhYwiCmlMb3jzc-Bcj877_AbsqxrrD_B5K6rGw3gK4cCH9AFBLW3npcetZkMmg2iOb2TNyW_SgmrvaSqbn-TGeOaED5V7qqiRx1e_52A-sor9p1-uncq_WydHgdeQHY-XUQ3XnlogIxchkajt-NhNMFfFc3BhDb86Xy7mQ-pY6zuPcnGvHEA4xvYBkviqDF2qV28dnqCP22swLH3UU2iLHqzh3wv9cejJ3aldS2JGWS5P2HOO3TOwuL1uPsBq0LUxcWUrt5EkqLJfclPI1hHiA3drC5M_ldkCWIu4sebWbV4Fc1D27MwOiYw3xarCDmwLFhMA4BEj5wd7-52pr_cozYIx-Z5RtykXAsbyDPuGEgm6b31yGy5j59N70aVfQRixvjJlD9bLZVkYP0Zy3MHgoR1KCg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ87K6zpoVkFQRkoyGMqpphCM",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2559286667966319762",
+    "vicinity": "6711 4th Ave NW, Seattle"
   }
 }
