@@ -1,38 +1,275 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:21Z",
+  "fetched_at": "2026-11-11T22:57:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "MANNA",
   "place_id": "ChIJEUHCxE_Vw1QR76vzZWq2oGM",
   "result": {
-    "formatted_address": "510 East Sherman Avenue, Coeur d'Alene, ID",
+    "address_components": [
+      {
+        "long_name": "510",
+        "short_name": "510",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Sherman Avenue",
+        "short_name": "E Sherman Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Coeur d'Alene",
+        "short_name": "Coeur d'Alene",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kootenai County",
+        "short_name": "Kootenai County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83814",
+        "short_name": "83814",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "510 E Sherman Ave, Coeur d'Alene, ID 83814, USA",
     "geometry": {
       "location": {
         "lat": 47.673303,
         "lng": -116.7792273
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6747102802915,
+          "lng": -116.7778391697085
+        },
+        "southwest": {
+          "lat": 47.6720123197085,
+          "lng": -116.7805371302915
+        }
       }
     },
     "name": "MANNA",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 17:00",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110904439437307153693\">Our Town CDA</a>"
+        ],
+        "photo_reference": "AV-0GLfbYz5SthoHeDji2zolhtSmu3j4VoxG6oGvvNaXdpyQ9i9M9tEfoWDgqv3VXX5x8n5zzsO_xnYL5nY33Vm4bCTIM7rCZ1LF50pC2INqB1xyLbsjw6f8V0bzHqdgfWCq4tg2xHE7Zq6lnIn3B9HvVRi6ATyecfh_RCNVSwZ6kBPpV7VfDYIn4ZfMOZLL1jB6HzjhGQcHzmwZg5Awy2nzQbyLAeecQuqx86tx4_xBt3iX-0s0RJv31Dt3yj1yXvxkq2rIkZWTNY9DfscfFVUy9upPfHWg3BsPaZbzSrpD_31IeGq8SEKWG6F3nWG2Dnq0NsSb-AHOthBWmrbFzVXWqb-sbJSqtRG-MGDgmrbcxxartpoStaNtJ8975Td8Q4CquUu6dp5CiSVmPNsbJtGU9c4nf3Y",
+        "width": 4032
+      },
+      {
+        "height": 1797,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLey0svF9FqSoBe64svlFhq_jSoMJRUytYpv3KenF3n138wmppYp9EmHASw-vFvRs_1P1JteVbWI0qCeWLkOH3Pf6Rt9PNg3BJ92NF2IoMzNmGdhz3u0TIZwnGTaX7pq65w69XXvl7AbYBe-1izm9fkQJjARmXlk8EH1B2jU5eGXnj9tzvpHRpEmxcC4oUz_9_wv1ACfk5mJxZwh8ean4IppHXA-znNZXxhbsnRlgKehDDSgqcxJTTDG_OSA_C8QGvunCQJjGIk4yA6ufF4EcC8Zq_hSu3Ee5zZ6bl0CJhjrdzIKHN8HVEQLwe_ezbEEobZLSmBVFfBzutHG-8aj3qsVW820_icp2UEHvARLMURxHaPqRGor4_tp9gmv7vQqg3Rfbx1LZNUa1bn4dTfO-AGMFR1QRe8",
+        "width": 4032
+      },
+      {
+        "height": 3023,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLdE6x9OBjskMuffK3rFEAAUCrkngd1TxITjsAt30esk8_gMhBaLN-BAK02PeoEsWvUP9GlVG0t7DNSk4Xay-qJKAEujKffGbHctqfk7QkyBNeEwcZIWeCIu-CsTISFj6lpwqEMxnpBcjPItHB_ietj73MW2tydCGukvdEZ8hMOyuprozMVouJ4Cxx-nLhTMh9YeshqepbS4JZfklnTNd_4mb-Qb3Lv2Sw2P1ERkUALl52NEj2PBCB_hzXBje59i-DUzGFV8Cdsb3jLBXlIg6W59JkVQ7-6G8tCnjJLCAgDKD3qINX11c-7z8pIN2rX0Ap18aUoZfRvrdakjDe3HQRvW3hVdBinAM4vhoR79RRzn0M48QSXU__aQ6Ro53xWNcdRvSDopm0m5gsf8n-zTFArNQFM",
+        "width": 3023
+      },
+      {
+        "height": 2717,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLe9nNZuxpgSzBek4tfpEpE1p1o2KSVvUUHBm8Be3TdRcPrTGO4u3MGY4Zo6yFIVeP9PeKA8Sjl8pQfHZI043sCRLrS4nmqIsQgApoO5rKks1ko4b7OPjwQWmmgdmjb3ouVXnxPFqjmJlA_5SgsNa-v1k0hw4oVsiYVJTtSh8lmlccCA8UaIgA5r-F_gny6XQ3CxDq60VVY3pqly0gkQrmM3owBsU1rlyLNHP2lwt2UzklghPXzNdmDJdw1QL0AdyOh59Z2DG0BryASsPe2pTbk4MmbdXliKzq6bAWdbCwnT9yTM0LIDFBeBNVD_0ifiNFr31zwq3xrn7FdISG6JDnpg9LVPjFFD53YhwL6CjCKe5c7aG3amZSXGDZB4oAQj5-DB5zvH5rzgCVXWep6TAJEvx-k1-h5VGOrJcbX64AVbww",
+        "width": 2717
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLeQKCRrlM5qVwxalz80RnCSlzTGJnP4D9O2evk5GxgoEV4ZKrxslsHsQs5vBrizIBxPgBz092kw-GRwByLiMCwwbaWHjK8mfSxujTy0MMiogT2CdwIurFXvIDqFdUws13LUXKNN5T73n3-GSmRsr0HIEfWj444nI4K6btvwy0u3-3NShru2kiBY44RMMowCJbpc9IRbgQuyTLMb0FZIzMKHoPzWDyPI6NsijcvOLgaJ1r636xL2vxvL8QCoIvpAz9B0KbW4swfXqHdIqHfWvsfTz9rTWDhsv_lSBy5jFP5qnff91tevN9u4PpZuF9CHbyub0F6m0LfTvIfAdeJDy6c6LU6MXfxrbKJEZMLnla6qul41pCMUOxDbSxKmB6A-uDMCUzyTrOsiExpU_UHm4A3NbSwjYGsich6qM3S3DVmM5A",
+        "width": 3024
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLdjziLbGvQDxPq2uji0mrbJVlhL2Wxfpvww-PveKYIniXHpw4a9hocbnFE5kzKOUN1cgaPEaiKd0YmgjEebCLT0kDncPjV50hCeygSJqqkugree5nKsVBYgx1mxsJXtsCAGfgjE4X2ORDGOH5MZQYM_TAy_VkIAA3RmI1Y43uJgHFs6k0MSDYN1tC9ote-r2HR225DZSr5wJkRRphImoCi0B4bDK9DwP7OeedSQT3aXOpO-t664FsRBhVB5qZEHtXVZORbUFC0_M2MkszGoPSzPtgmbpmwtMBeO6goXb1t2Ik4RKPmaXDpUFEO1Rg341OEGvulZENkb1kEEXQc8mR426jBqz-MGTnl_09lzDZCgDI-fcC7F1oNw3yDplkJ8jVd0kQBpzojbKX7Vxk2Kv816TicPD5I",
+        "width": 1080
+      },
+      {
+        "height": 1274,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLfVZaWV41ofjnCCdqtZwLcbdD5HQvMxqis2RmY2W3xAID_ajhNA-rR8zJgLBqRPppZ_X1PFcm6bpFCuQ6J2-PCbSlAfieYhO14HK3sEYHj4mJt2GkKGXVV5D18HyqwNLINt3uZRCJH3-wN6-NVfuFCaduVtVK5U-1WknsAQa7D5HduXdK0raxlxRpHY18W4KSPZCsAZqZraE9_f3O1slsKc946nl-5L4aQJ1-wtnR_Y-MNvPIdAunBXXjXsmtoYOA2wCunAgfMH4LZEjT6SWEdpEsqz_EY0IT0OjruQihTnVEAFz_DZ2sj2US2xvF7NSxLcOU76nTXgVeiqBY-LXdsN7JmHyEkbKPw2I6dALVUD2kz7gtWT8-z_zp9Uh-SpxHSDdzGW46UFq_XPaSGP8ZudA86NykPrMZ7l8Vf047H1",
+        "width": 930
+      },
+      {
+        "height": 2874,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLfBeukfDJxEXP1ZokERNr4CG9F3WYnotj4l_VdAUvEIDMaAQBgVTr6-hqxG-KLaA36cid8cw0bWBYqgumrRzHqbWP-yfpuRW-zj_81vHmx0H7-7s5UoiStCQx8UIM9u-PoBUvMHL-SFmYcutNb5r4dt9dcUZCPZCxnPgtvurHQexwNTnFnoh43T20ot_wZ-LMvD6x_tmG6bkp2grUzoEw1v4azkbkOqbO-Hf1E8Ot8eITgfW2JJ09q4_cViNEQusACVuwe5cgcLzEj1n10b2BbuP7WGF_KiMcv6JPnYHU74N3ny5TbPvX-sXNVFPNEtS4n_YGweHMAC865ayyPvt18XTx39H7ncC1gkkcUCSqd3VyBEmk1PrHbx0CmEypDSPejweRtbDQRifx79auFL6fTwJUI",
+        "width": 2874
+      },
+      {
+        "height": 584,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLe4z7zg_-CuHBvUgR1jawiec5AnSTATnqtoTfVjDSCo_lRvpist7gIHviNewxHh6BMpugggiosisggoG3HwWBb-pbb_HAUu72OZGQIBYFRWcz8yHt2DbrJj7WlATXoYugRdBb6SbNV4SOKxduUz9_5htpd4zkoR6PDm1Stqp9ncmC5ep6viGiwmB92XYxy8D3eDhwS7kmAQIiL8KmKve1BEYJHbRI2vB322gWeG8CP4j8J7aFeoWpibfpw_YeTxoTf9mXBWTKEOQKgsI9Iio_Fgha6t9VK4T67S4hwvN-hh3brcVMhc3C9bqF2cjo_mnnNwtzGIcGekk8GcytejbRlMN_7lQZ-7tZHtxXWdC4tPPBHDvW2usZ02uFM6aARZRJohaM986QsE4Pkr-BYqyOr9mvo",
+        "width": 584
+      },
+      {
+        "height": 1150,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110874285828777144317\">MANNA</a>"
+        ],
+        "photo_reference": "AV-0GLeZ5Tk2HXG_xg0Uisl9jJ1S8nENNkr94xv_yycZz9S3nRiLGC4yvDoFnug8rpqkGa2ERi1fBvy1-Ly1AYP21sxUcVq2D-2kXbxE-QZ6FfKl8NhCk_Cqw5Ojaarvd24WTLCW1wBSYITy10WhW5TGwmy1Q6MG-ocSImD9x-ArCB5RH_USJ7CliBCHXlamhxXilnAueDw1LigaxhR38B7OWwAQyF0kTZoWcHmpyYxyCPgRmrH9jrVpSQqbER8Id99e1F8JJ7K7Q4z7pHsbL6cL6wgtcP8Hojw3polBuzvzEqnGEyV6gC4wrCbkbzud8eFjzEz5iVA5JUIWOl8t-Q8zKfa3-5yP3rjto-HKNZuqxc3gJp29z9EQR2s0T3Inzufx15zvjiys5wfGCIy10hbiVVqfDaI-q7rt5LOUH8wz0aTPVw",
+        "width": 1148
+      }
+    ],
     "place_id": "ChIJEUHCxE_Vw1QR76vzZWq2oGM",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "home_goods_store",
+      "jewelry_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7178938374121827311",
+    "vicinity": "510 E Sherman Ave, Coeur d'Alene",
     "website": "http://www.themannashop.com/"
   }
 }
