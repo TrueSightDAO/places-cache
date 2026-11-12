@@ -1,40 +1,282 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:46Z",
+  "fetched_at": "2026-11-12T21:01:51Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Hawthorn & Honey",
   "place_id": "ChIJNWL0ZwBVkFQRb_os3HYYT8c",
   "result": {
-    "formatted_address": "2703 North Proctor Street, Tacoma, WA",
+    "address_components": [
+      {
+        "long_name": "2703",
+        "short_name": "2703",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Proctor Street",
+        "short_name": "N Proctor St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North End",
+        "short_name": "North End",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tacoma",
+        "short_name": "Tacoma",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98407",
+        "short_name": "98407",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2703 N Proctor St, Tacoma, WA 98407, USA",
     "formatted_phone_number": "(253) 590-1113",
     "geometry": {
       "location": {
         "lat": 47.2722328,
         "lng": -122.4887328
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.2735748302915,
+          "lng": -122.4874645697085
+        },
+        "southwest": {
+          "lat": 47.2708768697085,
+          "lng": -122.4901625302915
+        }
       }
     },
     "name": "Hawthorn & Honey",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 18:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3926,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106475015141353739689\">Jesse A</a>"
+        ],
+        "photo_reference": "AV-0GLcJppAIY6ax8yfzAabYBKgeAzgd4rzYX5BHhtSJN-MxGsA90NsXDf50MZe_WDdlKmWuCkv1x9S6l6_R-EC5Y6Eui2cJ9qkBsVCI6wonBnlSxZ8MzWOwFp0fB7Ve8SqHTIhN45TCokJz_7Zj-I6ZynvDyp_48jQDq8JEBBLmvlSgulC7cm3IV-WAVLvDgK2gA7Qg8o3XLCp7KtIdVwhSM_jFpg1ePzfTpiYKy5h2nvJpwvbkkNFHCJMm-J3HVtbPsVO4NDg2lFWHoZXujtyWsav1o_FvsHewjZmA-7jVkWWFu8AE3exhTD3XyojC6gkBdVnKmXNyh8FQ2tgq6XyXPUfxaRnYlrJ0kTVBakyjYI7SJfjGOmJNvzkzTHtZLv3NkukPWvooG744Aepk4MhOzbOZh2KOBBCE-E__x8UplIw7rw",
+        "width": 2944
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLfonUyGwfDPNndPYP1ym-SWCvc6PyWq_2yGxDMh3fi_nWtxnHEGSlSoO4JwApaaDDomd9LjE42BBDAFY3PEEW8SgvBGQUUPBxrXyuwMYCqU9L0oap2S88u7V3C9_Yl3xasX0nw8m97eRhxazEjatD44svKpJ-IzxjU1FtTMOOOpU8vwFa2QDV5pyr9N98znQFNyrMpxodbFemXY9wKFGUQLM6ukS6WMf3kzY-2SqO3Ttdt-rawgLRxm6-HXLRxU7-JKK1qxW3WWSklvi803KlwTtLLYGvcpTvDBT3jZGZEU2ryo4wq0BUPV9AjYsuRRbJFgYGQ2RMXb51ig_MzKaHrBGymM-XCyaZAgpDWSghaOMyZJGAUx4bnDWQd1OZRBBvJBwpcIVXeqgY5rvMOSTG3PTzz7AYNVBfnBcVODmBbpJw",
+        "width": 3024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103501374550415683818\">Hawthorn &amp; Honey</a>"
+        ],
+        "photo_reference": "AV-0GLdhMR01fcyw6RQzc5n99eedjM9gjntzZ2ao_gqs9R_2yeauVVhEJN8vfI0cOL4EPG3p30qNQA1UBdO_cAy3Z3X7rJtSrt0Q0W6VFhy3e8tLyctfuwNtg8Q8cXGaJPXtV68I__ysdsmrhBPn-ifU_OQDTOC2U4uZ_D0T9ytGdsPRF8cJSK-0VRtt0Y75xDzqLHzeOXQGjcbVtrzSpegrXJ3uPGk1I4YFVXZMwIQIY3WpH1ehrwXvWg7XQv6mo1nubz4wCkSHo8ZEfrAmKEhFIORue5KxM9l88tfuqYs7942IgB1ZvK0_D6xD7rFfGISHA5L4HtzRRf3g_0xAyAjozvl0aj9lKzm-pZj2FQ2AdRFP_8llTRPch6vELVEz9sXqGaQ0busd0061WBLx9RJu_BfAOsNVlbisSirc-BX4pZtzSg",
+        "width": 1067
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLfy_QNnU1Fpm0tCA5q_vAKgsW1SJMMoyuHRquiN_nOr7XNlINzE6XmJ-c8QxMvQ3YqOQlXv8x3wbADrtQfkpJ2mlL3azxW7XTLqIsF7Uy_Jb5dqxhodeUoTdc2TjikorqCOmeShNZFdO_tcCvwVKFkzDBSDX2KiDJRo54AGU07erVvrtJ_yKuUo4oMnBBx-Y-VLOyg5VGkZxXPepoE7xd8YvxWl_WwO11r2IKxMQ2VB8IGVuufzFZeTwXWFdZ99xP--ZCuQzRt7Rr_k1RQGtze_fE1SdvVWOBG2VZmLJ67KdNXq9Zcy0QQxqSktwQoo4yKHIw3OwUveMpXyG7Yvyz-xqu90yXnjCXxxeq2BsdRM_ZwrJZKyq8OMt1DPu2xQhtAK918NtYqAE-J2Josk5HjgFBgXwgjCcvqGImwQwFAslg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106475015141353739689\">Jesse A</a>"
+        ],
+        "photo_reference": "AV-0GLfzmwMG0txcFwdaWAEvCAxBdX-Rn9Gk2YztviUKRW4XIryl1bKq6288tCIrLiNK-EHn9WlFBhH-Q9bd3Zh1_f-ip-N0FKzC-tWqxQnx9Jnj5Cy1L5dTWeZwLeQ6x5Ec4K2K1wWkYPbcht3nWcd7b1jmA6rbQHDDX4w-i47blEC9-b2vvbywZ1ZvudrBKDkRuX5Fw-bUlHtoRglWFSrx494aorH2t7NF0I8lG0W-kJoc9MDgl6vjhwusG1QagUtGkf-UwS-WdFCJpHxR6BFS3hYm9CtBJyFsPu8E8PQkgKH65vO87xwlNObeN15RkIofDg0gwqGe3K1sNjSlHS3BJe71osl0KnkZaLRiEeafUsxAX2iyx08tVmwd0RGIFkwyu81PHbDsBmtM1Ye2Wx6Py8XUXpVuQjJgmmFA8UUfL3PROw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLed530BeB0yh32cV6uSOGhy3Y1cJ7HJQ2DX6azFf91a28SDSPDe8oFZu00LhH4B990pnkRLv562AI2V84PFXvwSPePs-Fw_6chaO7x4upbLSdpk9yEwCtKJkF4kZDF1zOFDQ7kr1vYqBX1PNHlty50dYjXTolpHSYcg2cJZ027lgmCQrsYRLVhyXMSHdLWX2EXsKm7_C_JvsTW6_j--6oAr6opdH6h0svIlLuOeOYrUl2SeF_pYnHpCzashh-6sB8lnCOQt_Oz7xQn-ETxfQrybprDBIkAjsASNsTGDpBfIOW7GxRK6oqcvI-_zX5vZR5QYdZ8-aEYHR_iKKjIwPbXTqC3eXp5MwhDHmFcFodHan0kHgBCSKV4Y2k80LrMAMdpnrA8kEi22BW0gK-nkfR-3QtvwmUFjxkOF-BR4mH7y",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLfNQGEYkGl6eWQQRgYcaZGB5zmxP-vRJz-D1Tx2tPcDW3Qj4p6YU9UK3sRO_CSMuXbSn-__nTW9L3sxJ39GeoLC2rzxsc9u9qaxY_RY0nAhMudDErykpBo1Y90FzrjrlXTf9SFbKmathKDgMe2TLNkRQEhXC9xnYJQF2MdB80znvczde0x_X2k2MyygU5ptxlcg1yE7qz5waalqkROjP3NoNNBfz3y5yorURnS_VVYWPpTpxe2ONc4s_ehAcPYSQ7yDR8s9B-ku2fytomg2IKZSZ4KnDM0DpGO135UZj3UpNFtyNthvo0TBePbNRr5x9x7y7NR4Rc9qMlqc3gsbvlx81Tic66uyXJb7S8vRCogR1_ToWBFXh-PWBkh8cfp4ttuVZI8l2H-q5iK1HoCaHdCExphGYmmF_O2vDTwKj7RBdQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLemvBZiaGhKA7BEZ3WLRWLGSDfvIy4hFSTG-T3EUkj79OfwOwsKb-xaKJg9zR3TC4y3njqWQM9AfPJUTJZGeXhQ0SvFtu36rsXLlr_sgFvntmOeoMPZh5L25PLMHtSqLDfaaK3zv80GPztA8Xa8M-GCSNoOPooyEnURzStnEQRJLbnvXF-ZUlHXNcsnp_aEFN7apQoWkb2bVSIts-NOYr47x3gn-5WRu8tX3aKksJscaA0jGnUE9ofsGAAaaO7Rik6NBb6BeRuI6FmQIoVg94ZRNjQd5fmQ-jkm7oqbOPSyoeNZcNHhPD4Vxfas7ORI-WF-kbr4h6C-10B0i409wd715UbpN7d-0HG3HOP4EVWZmTA_4xp_KfZI5ZTSgZ7ruEu6nPvHxk2T9DQTnLjoonRpPzIkWSNeU2-mI0uY2M2TmA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113988646651705798948\">Sana</a>"
+        ],
+        "photo_reference": "AV-0GLee_qtZsyCpqn9g1-I8dsbwzngOj2T0qZ88sStl7A23IHsj3m-leNo5qmI1eBKZI13JT-k9__s5A1ZVX3D0gjq6o3Y5XX8AwzKJL7gchAtfLyEfWK8DH74oVPWw9v0KDTEzK_Nt7xHIUl79hJXQzboOPwAZ7i5OVNegHYwaGSlAV1IKZHWzYrWsEv_CxE7Ug8nBxFm0zGFPZNHvjzx8FmYnG4PsZUxjJ6aCGnXB0M-J3jrQbtgVRApuvslixkOOwPC5JcA9yCNb6KjYMpc8w-6jneTyC1lkblGqqNEXfAECivx4pjIWd8bVL2s8Oz4Xgov5OOEAJvOo-qokkSytW746HbiAGLIqjayNj7o_0A5E-eEea_voYJWtzSLYCLIdfMnKpmZSUkEk7f2RHPgeJe01VL_DWRPQL3gzxB4ucbt9tQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106475015141353739689\">Jesse A</a>"
+        ],
+        "photo_reference": "AV-0GLdWQTRrTqErA8A2VdugHd5wS-NIW8xidn010njvtKUWv7te14rmTipJUBjvOpY6zXsFGG9CdkPoyIKD7WkBMkdjKCBUomjvo8TBCAYo2x_xxKbjl2K_E3Kpd1hKTmZoy_ldRdHDXD2eTJASP8jreRaXBFhx4ukiDX89d1CbzdACbGziEuZhUnM4pws7kd8uzDSNA46Pqpu2xr4XSIsBrLmbOaQRIdCiZKbxFR3KMoAE4cpxVjNVGNy_XfcX97s-a4QZkGvvsDM61YxApKNUKWZV7XSE4DpLjt8yXavslq-GQ_nqs87oq_TEZt2JylXmpU7xuSDgs4Qx236LTFtiEMkz0ldwqXuTImvQRbwZC7EdCHzmwl4t7rAplIh7USbeBnDShc7-qZ20tUNa6GAXh0uFa0NT-MUbPcwQovT44aOX8A",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJNWL0ZwBVkFQRb_os3HYYT8c",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14361724635486943855",
+    "vicinity": "2703 N Proctor St, Tacoma",
     "website": "https://www.hawthornandhoney.com/"
   }
 }
