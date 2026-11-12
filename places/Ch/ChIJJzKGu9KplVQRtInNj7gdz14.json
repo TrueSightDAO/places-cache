@@ -1,40 +1,270 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:36Z",
+  "fetched_at": "2026-11-12T21:01:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Dandelion Teahouse & Apothecary",
   "place_id": "ChIJJzKGu9KplVQRtInNj7gdz14",
   "result": {
-    "formatted_address": "109 West 7th Street, Vancouver, WA",
+    "address_components": [
+      {
+        "long_name": "109",
+        "short_name": "109",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West 7th Street",
+        "short_name": "W 7th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Esther Short",
+        "short_name": "Esther Short",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Vancouver",
+        "short_name": "Vancouver",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Clark County",
+        "short_name": "Clark County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98660",
+        "short_name": "98660",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "109 W 7th St, Vancouver, WA 98660, USA",
     "formatted_phone_number": "(360) 718-7642",
     "geometry": {
       "location": {
         "lat": 45.6262637,
         "lng": -122.6723012
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.6277042802915,
+          "lng": -122.6709484697085
+        },
+        "southwest": {
+          "lat": 45.6250063197085,
+          "lng": -122.6736464302915
+        }
       }
     },
     "name": "Dandelion Teahouse & Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 16:00",
-        "Wednesday: 10:00 \u2013 16:00",
-        "Thursday: 10:00 \u2013 16:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 10:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118400307183877938876\">Dandelion Teahouse &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeVvPr6jEWrqikf6mWNQVb9y3SkHbpCCMY6DQKhvLRPyxie-icoQGjXJQ3tqZesrbW__aNcfgB5ElhSduRGOmC6j9Bs-SYxOEUc2eymI2BuwSEiiyTa20uwxc6fDexGhNYwmKn_z3Vysi4-BzGApxe3s3bY_EDiPGJdvtRO4tdgHmI13Ph14UoMW-paa0oNdm1M56g9Fi6nTkQx_x7EvgxF4BWvMiMpE1jLLm_Q74ouyfg_7sYoUZEtc0R9qf45JarkPWUgXEjchwNgQOgw_ciTOcVNdz-M4Ns05AYsjgofpRJ1F1H99RJfb2eJglEWGqeM4vVPED7v9_elVUrf5aqWLaE7gQUSd-VOaCpQtCU08qxeVZPbuwozpBEzkatmwkeAHqjg1lNH-xYLxVRTS-0uHA",
+        "width": 4800
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118400307183877938876\">Dandelion Teahouse &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcrRkaay5BGKlFn5IeSLYBDL6Fe9MBiGdnZJlkdufas6ktRrzSgA5A83aAff_1vd5kUkUj9NDj68G6PZRypx_aUm7JDCrEKUW8-PmHWK6z2IchDKVm2zVlCYuuwyRMTcgj1XXUKP2Y61izwD6r9OpfvC1KfX9Rly0PipTcV9eUCAHbj5mwCvX3QKl5KHYRs4y0ybfB34Bz2jGPHkxeSORD6kkVFvNrbBljHhdYnGorH7uFVLt35lRs4Wz2uxXzhpqmjQDWM4m_qPeqBoagGibovyjsAtrZ6R1fqOsH_469wSXInCVLjRUjGZd0WdUvlOfyiVIAnmO2FKR8kGQYhPtBo7CLO7whHnFgXUsOWFcnVrEKMsx8UwqDevpA60PLkAHih-WFsXJ1f1eow2yIJqIRWnRY",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114805156570583669839\">Deedee Chiang</a>"
+        ],
+        "photo_reference": "AV-0GLeSoqUrwC7FktRJi-9ERh0Tb25t6b0aJgEYmA5t61C6NTVCDsTXMCj21qeyJbabJISHtm6gN50Cn6VwzXMeG0cVhq4RR9k5_hNbGDnTj4qBN8RIhMoEQhG468lwHlgGipCAiGof1IgqhQNhVjhj-PpTCO6FcKanJ-UgTifz67-C2PL1pEPxTXRlmQYJEi_Z5jcd6OLzX7xmZzIHlH1sOBvb-p8ZgWAqoh4ptfLsasxyEOAu1nY5esRCGyvSc7P6t2oip_arDWmSx9btcobvcmfbn-p2PL-v95yF7YhHaq0_cxOtd9Vob0auaNd-uK5tq6jWfEo7a4LvxPyQPe3QhJcSfizLcj6c5CU-08zAyf2HQ84dSMgFt0GUcsukdmM51uvemcWj_ed6Xvjzl0ksEWRVQvu-",
+        "width": 3024
+      },
+      {
+        "height": 3199,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118400307183877938876\">Dandelion Teahouse &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdTu10shuXsKy8ANCpx3-iB0gGpjLpRR_J0M_qj3k13mYKfb0mt08F44SjI5N5dQll9A5aE9qyXR4BWcQYATlKb7bwiZVrJmqVX-fonT_fZ5RtMScHK2MVFtuW9DAxQBK-Va46YJ3zRoh7kX3W86sVkfrVk-1TDl0xcB2eH4CNuoqEzs3LkLFmdaG1DyYt3O0dJc2RU_PnJuKJRloeUzm4OLnDbLMjtFziHqKil6XkGGWodf5SDwD4ofs45n842mObAczOCvhbiBXiu81cCNDlLnLMErwZR3oG079F_f3A3fAPTLLE-lwF6-Ki6HULwEifmZPKanSnxPLkt4TpWh6k_MPlZR3a8mT-4p2NB3JtHNOyu7pugoATlbcq4Ek4IN-9tq2h04SBVCTudyTQgEWmnDUg",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117964939755146426983\">Orange_Popsicle</a>"
+        ],
+        "photo_reference": "AV-0GLekbAoplrwMD1EviL9o93XM8Kn5LunnnYkF1hBGRNKRN5ZAm-NwiqqoxkZtPmwLmlqlKO9BQp55YrnllwfXxF1HTBN3cYCwTTjGiu4CmdXs4Go5m0Fbw2eZ6XSnVtIMgvcfTkx4aEQkG6wdeS_w0bMDil0O3lrD9QtEBRVF5x6adTtdj5EdOY5Pee2wee38uUqdtfQfXmOeTXKl_QsgfLdfJ_gG5z6X45ybLo2ruFvf-b8WNKarLx-D_z9lL1YZ9OTB_gp19tOoB-oTWj3GNrIxSH8xdSRll6ahThMgDPlsYJtW41h4roRK1DoL4fCBmnMrS-x6UYZQhWKUUUO8T9CIZfhdQSie0eedgLSCqhNOxAwet90CG79CQPm1UlvntRv6BeTHGvK84kVGXctPAkXK2Eo-u7UnASSGyPM30FgjGw",
+        "width": 3024
+      },
+      {
+        "height": 3929,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118400307183877938876\">Dandelion Teahouse &amp; Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfbkerlMZzRm0Na3hgkyODN3N_oDIdrYeNaPvzDtmeNTd9DFAs-ruLKlPb3utf4TGPGVkBY0w0OsRC8JDIF0TsX4CmxuzydQLs4HFmYMTAWjYz5OwF1p-6YHpKCYR9DWFRrwJgvgWx3H39cgQnyXrl3ndx8JgjgfDyqLBqO4HQURZqz8gKiKYJjE1VNrok5GAGiDTWwfye8kWk6BFdFEVa-D4TVIaVCwtioDe1YK1C2Uo54dTx9WE9gRxzXTCs5X_TvgLM-vW3PLjGpwlwqA4U2ZsrT7z-K6CoSH4kOiav_ujysKb4R16kEHjfS6H2G71iSh2b_0dAbfk2gOcByFKiZJyBxKrDbu9SMIYvsA87J2KjQ7GQL8L_-4l50CsPLnv75nCqyo-LTBVbP_Pc-lF5QRQ",
+        "width": 3929
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117964939755146426983\">Orange_Popsicle</a>"
+        ],
+        "photo_reference": "AV-0GLcxQg8z6o-WvzyZDE5CXr9SoFO6OCzoAp6RQ9A_QdLwqqXyqWvxxm03qLmVFj_tpdUm0OwM-PT9IujwfSanx8SAc5jE8Y8DNbgq7AE8m-CjgUrr2n6PG0S7S9WdfN5MPSAIDLvEzSUMVRJHqlY2W-lZ90B5kwc05w02NJw_zokJ_8iqcgGrwuk95pQlwNJqh0LB7YnGcPmXijG_DYDh59ulHnMwewojR7CfptWddIG6JzA3ILfoSDlN5pJpPN7RP5sALr7OGivoR--W8YjnJoTo6jjU3yYUIeOiF6Y1_HmMdDh_r6TzCFaMJGjQ1dxMowWD8Dh2D2AIdU6h12oxB5-jMYs21fEcgMDCG59VSas8_2Ldvb5lAGxqRiN0M3alJACFdaMQ_mEyNUKRxf3BPJah5Z2F0pE9y7JU-oda8OZ8vw",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117092466695190551075\">Elija Bandersnatch</a>"
+        ],
+        "photo_reference": "AV-0GLfcV6w-bMiNMEPtLlb9OaXFc3rwaCd69CnnW17Sluz2s50bo-xIkKUbvHvrKchwMxbkBrHvNHcoDppOoAyAV4yuFF5e8v36Pa35NXXqGTJr1YS6wW3pcjVXIngNMCbyq5alZR4Uln8Gbd5bAr6RhsSlPR5JYuC2SbdOd9Rt4X4jGkj1PdbL9aMxPpYq0uxiJj1Mlee-uIcH-u6v8Gx4gAWRJAh6qfWZGUxmhE0xPWpUIXgcLiLsgkKtWSTaW3JwaI7hGe8IuUjxQEb2JonkfZWJ5nsnx1MBARNehxYFfhZL9eEy3jWVyF3hjeZTUd-XkC4cJ0z1ov3o1_IgVtPbZoMattmC_ZGDhgh7b1R8CFbcXIuUn93gHnnM9wqPV5dOz1FxxYNNAUeCzOtSy9Wjmn1U5no9",
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117654323500286223711\">Nes Borne</a>"
+        ],
+        "photo_reference": "AV-0GLcXjZ0KUzpZDrVYQMWxdKxxXD43PH2ohCJDvP_55eAi7UPW8FGsiUPSuUq_vkhy7cKxf74WvmDoMCOBM57AugUP5_hn6ZqOCwEuUxUYYpSMGj6puwDZ1zT-1_OXLZ9BrMLIadXyH8YjW_U_NwHfyczoWcXXDxHJBwWHEENfp1TiRfx2PY47QN-Gs2WFxpW_kDG9h2vDFo2Ghjw4D_x_RXim7gAvuq_Q5tDaI1-DbnL7vkQwXIu_HH0sTr1prry4g7PkGWMopL1rL9i-Q_l0NbsDoKg_V0L2VeLLW40DcZjufwmmt9OGnStB85v61LtT40W2cS7FRuVXftR5yHIHzOOaJuYlLBkfcXyO7fUZoPPWXRRUjMR-OyTUgPCKv_rVy9SFcE1TK_YgCQzPGPh4eeM_8-64FqCFBnQOujuKMjwNPA",
+        "width": 3024
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106424274989376658456\">N A</a>"
+        ],
+        "photo_reference": "AV-0GLc45xE-kdEjEyqzcgKO3u_BrYtldRTGqVG9dVxMQNe06vXLsYKRk1o6vm-7o_OkUli55Pncy4dBNf_-wQoEZJkDh_tcSug8-obTz9Lmzcl3NGasVTNYUfZsCdA11x0NuOqTpRNOEY_fN6p6Xopp5QJi4Ur4sAKjhNM0BHmX5cDYW08S3IU0C4P1Oc0BtCV1uL0VW9399J3XpUILjZXixMIJ8a4m1BO_Bo-e7_z-o0VAtMda3KQaXX0RfRQc-EpllKNnX_ybH-bMPa3YrQDyuaDvKZnbT6kVr7JoYoR30Zkt1VZI0K3Eu_SJuiOsH_g3VPOx2N35qg_-aEGng9Ji-JVRsrCUuea5R_QmdgRFnED0XgGpgNvv_MpNlA1nXC0CJ7vgMHEosEs8UUWLk6Cu3Hpgps6y",
+        "width": 3072
+      }
+    ],
     "place_id": "ChIJJzKGu9KplVQRtInNj7gdz14",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6831711838268131764",
+    "vicinity": "109 W 7th St, Vancouver",
     "website": "http://dandelionteahouse.com/"
   }
 }
