@@ -1,40 +1,230 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:50Z",
+  "fetched_at": "2026-11-12T21:01:53Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "MiraBee Aesthetics",
   "place_id": "ChIJOy7fikj9kFQRhcZs3sTOGq4",
   "result": {
-    "formatted_address": "13921 Meridian East, Puyallup, WA",
+    "address_components": [
+      {
+        "long_name": "Suite 200B",
+        "short_name": "Ste 200B",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "13921",
+        "short_name": "13921",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Meridian East",
+        "short_name": "Meridian E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Puyallup",
+        "short_name": "Puyallup",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Pierce County",
+        "short_name": "Pierce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98373",
+        "short_name": "98373",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "13921 Meridian E Ste 200B, Puyallup, WA 98373, USA",
     "formatted_phone_number": "(253) 202-8133",
     "geometry": {
       "location": {
         "lat": 47.1295059,
         "lng": -122.2924169
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.13084978029151,
+          "lng": -122.2911875697085
+        },
+        "southwest": {
+          "lat": 47.12815181970851,
+          "lng": -122.2938855302915
+        }
       }
     },
     "name": "MiraBee Aesthetics",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1630"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 19:00",
-        "Wednesday: 11:00 \u2013 19:00",
-        "Thursday: 11:00 \u2013 19:00",
-        "Friday: 11:00 \u2013 19:00",
-        "Saturday: 11:00 \u2013 16:30",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLfxK4Em5uNZF8Arn8FBxC39t5kjnY8PST6cixZIhJuB2pImFhBYFqC3M1ySaAx95y53oRG2tSGsyqw2DQRtaAcmIqOHP85X33h-nz3dKWgKzehiyBsbalIy_WrlpLoUNVb2HTN85rzd3weHDtPILTL_v9iI4r1ghgyx5NGBa5w0AeH8WB1Pk0Om6FYDvpbxnfz82tYbrXvPcbZP1MeeYdDhNsRG-m5PNraTVUNwJYqQx_0QNbr6ndZUpRzgIjRB30FrKFKNOhg4eTIfbBBETjdjXCs5grb5yPad3avFo_DyIJHORKxT7Dov-IXyX3pNS61RFK3vAefassOkTLXJwvg309PUg4_HWf0jcv1Me_XW7wu9ZzkBP5oHXAvRQIOvsqKDc1IvAhZLySzDRUK56Q8FUHLPnlZ-oTBu129l67zu",
+        "width": 3024
+      },
+      {
+        "height": 2780,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLflUSfNF4bmG5bhxMMEIcimli5Ic2evT3mlZDuR5ZioxywkBozL7k0RDeEA8dCDhscb4OEhlzPISnj_6xlXelDCPF45_ajw5XOfH1-p8DDRrxB86u1srUpAde2hhCKPrKyHFCfb4AnNO5ZlVubtSAwSXZIjFSYGG93c0dNv88bipDogYeYHoJN7ACECd8F7IP8I5Axf-YOkqtmj8SFtv_BGLMX-4ME6B6U72yc3emtVRurEYSSg6ieejEgBx1bF4v3v80NmXz5fbhInNldKyBnxx2VDq3sf23P3b9k-WzMSFyIDBNxr-ukx7al27bwY_JNBSZXwmI2CC1qVYr4t9fFNQGUO87UjAX5wjVCO-ejD-pIfPEcnsluGjv60yW0sFEMFoEJ1X1H23rCvHHAK99ttiHnppoAS64IIHDrZ6LVr",
+        "width": 2940
+      },
+      {
+        "height": 2379,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLdJlotLaXG62kS_1lLD1xcx9fOUQLzP44r4v_yDCiXVs7K_hVmuD1WbnQtW-wMVuOCOTE6o59EMc_4Pgvi2TzX1Z8OgGVIDwjylRFQSzNLY7zAHV1mOoFvdtgrKplPSPmKCx-UhAU3LM5tbbNLJJA260mr6_2RAYWqdos0DTcwUAPSyw-znTSdzCyattttmsGe3pSLYvRJVlAyJHn6l4AOTrf-VyE4bs0_kWnhTYwGG6ictZCK0H31iHyHOvxJGQcZ7a8DcUbNihoE_d_li5m1wiVjvoXWEMR4PwrEj5RDtgxayV6-zVhy6bn6Z_cLujUESSvXKNbZAZAdhbJqusz4CBUmBjmeOH7I67iRo0wNadZKkL5SXXbqp8gYL9DqZOHvbUC5DxNF9AbD_XDVu017aTNq2",
+        "width": 3358
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLdBBPGvzpzry_QnjgqyArcHIac9mgWCB2IHkRmS81age7azzJTkFGbo4DAWcdgF4Jr9m-8tazASGCI9O0s0eJmhTBkRSWiUW9XKr-VmdTEvTCLzM6FGA7r_gSgT5HOP_VBEFg858XA_ekJIKAPzpSiLVgavMrvCKc0OT6ZCDKP6x-uor0xqPLCsBtnxTfUdMerLRO6SMqK9KTLQLBVeeAmmNXYh1FOwHtEixy3gjLtcd8TK28hEQuBKv91szUx44E9ato3U5Fhay5lPQT0AYY9HABmbzZmG0_CAZd6sBK91gr9gduAszwaratr2FfPhxO_7zu6A52FITswWs3UThGgOvLTDMZ5iTTqSud-zcxfhTr5lHzgOdyC9ogWJjpIYJy7iRLB8Z9l4jkyLOkCpcIvHFBUoIsZV4iFr85qaOc3mfw",
+        "width": 3024
+      },
+      {
+        "height": 3707,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLca8XukNZ6WW0BcHjo-flpFf3PLKPWwsdRUXCIxytJEkFmpooANbbiPDZg1XGCtDmzrEkc7BdJqiEo4JoOMaWsVwWAyakWMQKUIPWdve-T79YN3E7pG4KvsJoZIXBWofiSasXj2-9zuFWIRHOSFe_M-nVZo6-he7ba9_DL75mlrgmtSJJjfqHyilUtWK5MlfH95UsdbG7aTGZOx3MkfUqbfLKWckhCXPhI812pq1bax9Dy7k8tg9af7deALR45GOlc8s2Yl8dlAUb7dcPJdJwtdQeJkO-rNL2O_aO09EkKEry-r9VwxMd279V1nCTpdag4LQXgd1wZy6CH5ahLgOKASOqk6XnW0aqCkqGaH3qWAvBoYGHJ-CHn_Gk6fo52ZqvbIohTdG1wUlDDNoTOFQi_nkVxtlhg3h5suBbyi46H8",
+        "width": 2899
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103667708356588806697\">MiraBee Aesthetics</a>"
+        ],
+        "photo_reference": "AV-0GLco2NvQ-c3GLdShsyRThFX8VGHNgXKBDfIlXOWoxN17Qn7Um5HslkM3cX6NyhFCRlBdTa86YxrrJhVuH4G_2PheQ7XKTB3ttEX9tM5QrX29VKWaH8nTv26tOfhb3tt6WJcAKlLBXGg9qqcSfFjajLOChqGJEmM9cSs6xuQhGJE19LkLZGJnyrsmzfLOY5QWztJ5-V_cMZ8zD5QK_IWrU4wkEGAScaRX5uVRR_OBvvl5C1y_pHvIGdAwz7pK0hjxCaxdTvQfBl6JBfAMxcG0Cl8ss5lX7PIcZim_ML9IaQH0IHemlhStqSYrD2HBv1JTEwJhPPdNw1wXix3bdLWom92EuiKjNgb9RKxPOTjjm_HrS5xhdy1P_Mrje1l2Fsw319aJSFYtrmJiH_h1SsINGEpDNoTEbPnwPsgKKDMPHFZagw",
+        "width": 3000
+      }
+    ],
     "place_id": "ChIJOy7fikj9kFQRhcZs3sTOGq4",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "hair_care",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=12545567056934520453",
+    "vicinity": "13921 Meridian E Ste 200B, Puyallup",
     "website": "https://www.mirabeeaesthetics.com/"
   }
 }
