@@ -1,38 +1,216 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:45Z",
+  "fetched_at": "2026-11-12T21:01:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Boise Tonic Co.",
   "place_id": "ChIJNV2_3GRVrlQRofMWTWXciRI",
   "result": {
-    "formatted_address": "2840 Wildwood Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "2840",
+        "short_name": "2840",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Wildwood Street",
+        "short_name": "Wildwood St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Boise",
+        "short_name": "West Boise",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83713",
+        "short_name": "83713",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2840 Wildwood St, Boise, ID 83713, USA",
     "geometry": {
       "location": {
         "lat": 43.6308476,
         "lng": -116.3212272
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6321991302915,
+          "lng": -116.3202066197085
+        },
+        "southwest": {
+          "lat": 43.6295011697085,
+          "lng": -116.3229045802915
+        }
       }
     },
     "name": "Boise Tonic Co.",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: Closed",
-        "Friday: Closed",
-        "Saturday: Closed",
-        "Sunday: 0:00 \u2013 0:00"
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
       ]
     },
+    "photos": [
+      {
+        "height": 1057,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLcocOkL8qIu3j0HidNfjnIsyOXAuuAiI-qloAo8r9CzEV4sYeYkjJMpt7_iQXOmGzD4etPFnWqHBECSDEmMLoPyNs2mnvt6GjaDnBR8uN63YEWh8yScuw4GBEQgUOuCHB-Z3JwhoM5PWv56rk4zLcr1YAlvX3LcsY_izr48jvsna55P83IapeNmGOBcG9TGAOZiLrEIH_tylWsxcPFFtu5KqPao5p6jZa9wUMWAubjdOOmh9IgHfx3GSPLsGYkBzSeChh9XgevEmkF6dMJ2WIRzer2hRqVR-ml4NsufjkQh92WQSN8G4m9cNUtymfPJYz-ODIjGX3QrE1r7spBW9QLJZ3p3ZYPDc6HAty2aDfxLQPPprwD7oxhSrE39A-prC5GCEWu2pWRrCGp8-hvwA9k_C1DDbE408p90LJbPSt2P0Q",
+        "width": 1080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLdSpDPwMtOfGH-jFk6oS1e1Tj-WUIObXaz2zbb3dgA6tXadsKooMSCaw0kGvpPc9DZJEojKBtqrMgK-ZHx2ulgGNlkTxwPLv9SkEeGQSZneIKB6HJjHkT69PSZkUGFKwEsAjfS8yKgsIGfYPYLU7YyPVVKakVwC7htoSZb5LeRFHn29qXWv6tmWxy4k3P8Yw2xcAYSC9utFs2abmpXJQu91AEicP_g9g2LJLQjwpAdQWtdpGzfRBxzZnA5TLJT6-ORgkjL0t2CkLvCk2KJU7Re5SE3ydQzg3Np1DXV4UoeV6kb67MI0wpIKacPEXGwnwk8ZjfGGDnzImAKFHO1PNoCk1df2OPR1K2KAK0oVZcPXcZNrE7avA23lKF8TdKU_X550OJrBpskNXi2vKfYKTgWMSpY",
+        "width": 3000
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLe-xilXXpon10zAGVck9fkKc74ZlFXSzWLrKWWAHkohqOCdO07aO8YqMdo3tW0EU2s02pTM1fA8u3RBdUUU-8kGmA_bX9vFG6TFgp55WFW_SdnN9eRWfDg3jYApyybWrdUZtlEyYhknasAsdnEIFBx4ZFRRg57D4aDaJpGmJyH1pNyugTtPP50z7sRp3AwOYnofklSMWaQkTWqTZ6CnKP4DaOeJyfo7wbNprs23Y9YM4IYkxAZTLiQxWCFVebAwUdtpVH5xhP6jJ2vr1SfT6kSzN93RrPoelxjmDnTyz-TC1hbBdb8DUoyrVHJ37tFsvIkpCvHBY97-snuoHTTK6nm-DvpUH1LvHPlhkpqMCNwUNVv0Xjy5uM8nSRH1P_zCQNTV-Ymu7NlcNtdexWu-yM3R5ZfkrM4",
+        "width": 1440
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111189827216438590791\">jacqueline crawford</a>"
+        ],
+        "photo_reference": "AV-0GLchejDP1rsTbnyq7kohk2IDwbmPWgh4piILpc8TosZrmTnrEELhg2aez70ocDuIevMwn_R9TvdSL0gtH4JB7kjNkei2tZV_dud4zrEiFpibSD2Bb2EaJfvvFmsL2WQmkleP8M188FJZ_D8EXz9tYOy0IIuJg5jZrtZpI8vgGiTqvXuz1HbMAe7ohpZGFNbtMZ7qkaupkOGWi4EbqVM7ZIx5OjcF_qOikXMPZ-CQI1_yYs0UftqJ9NiRYBS2vBccbJ9WiqZzL0qWidOai1pXQmyacigWYqlDZoh4NL9MLfQ5BBLqDtGHzBr048j1ped5Jsd19IgKKCIPcHTbLuqNpsFbr7YkdrcAoxRri0p6NwUz-e8hrBIUvV-TcKwG9kH7sRaWearEcf7Z1BonwesAj_Phljj7",
+        "width": 3264
+      },
+      {
+        "height": 2025,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLfggB4MJq1o4vAiJV7h9DsUST5SLjykA2L7ekQlbtvVx-xWalhYq_ryFoMEUdetFkZqPJtYqFu8bchocgvS-ivOwli9zerRQk4vezWu9r_3-Jg0JFjVmMUb28goi4nOd4vLsOhpcNjMTilThVMbb4e0oL2iWC5Qn2ShqmqT6jlL-GktCUz6FlDrYPrvVT73xjcUre_xxbxVsEOVfJFX0BU5ZZa6OhnDNrHRjq9sk00yCRRVo5Plz72-MWVzVlsSTxbG_iQK3-Hijkh5yL-tGkEeltWIFXo9vyU2GAErsPaODyTNYimWGNoKiwCR9U2JotdSQHBUKdFaaJATvnWdS0VX27WXpeW9XpBC9Or5hWjm7z5zjVtDw7wh42TMqMc7R0akuS3R9gwC9HXMKL-X455vcoE",
+        "width": 1620
+      },
+      {
+        "height": 1472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLe2J3fDV6kCd5N_QvpEDcHB90FRT9iN-qMabN788i_bCuhyVXg6pVTEgryYzRk31WuMQLPOe2MzP6sdZ8KOjfaiX_YWhnqOXT0gC1n7y_5kzU8H6R90cUYLhiZ7j-iZMWCFxHPWg3dliN8PcBnj51DVpwcjXK6JCyTvA9aLbkOtAxCDUGuPRQPTDtfTEMupKi5vFTJNCHS5md1PkYpt_S3gIe-ijrAtZJ7ql18qbJYW-Ac14lQlJirahLpQKcqf8el3ixMe_eP-xfoWkL-hKzf8B4nhXTaDfO12mKOtAYZU463jsg6GOUHZ8T5PYIbvxySp6FWgnAgqHaFVE6WoXVKeBED8VZDocpNNqpVTsEIwYLBUfRWC53lgr2o5Hc7ybCxW_c9uMgY11DAvWpynq02g5LFB4Cq6oTME8ereJZ9Yzw",
+        "width": 704
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLdTdSNH5g4JRPS1RsS3ernc_ca7XiI4I0hV4Jz-89is6rozX0lV3G6bV9QKFwA2Cg456CClOrrQArFSA9oEGWk67eExwoDgppxYb6KDTNJujcZXHot-w8aEPbgynWa2NFqnYfdEAn4DEBm85G3YCfRMvvsQ2GkNTuHueE3lIOAG2CT5I7JIiMMnwiz7XkroO0X_0HeqaJr_1174MJgZMQWoi34s3R8OD3CsfWRk1MhtUt_IXrpGUadgnRlxUfrFDUKLlLyGidtSpQZ8CuqFeptPmyKgogMdOBelo_9YjL59jkOQKKhR4uhguGnYNxsGrcgzwDUedzxlcV-Y7yhLsMphKW-yLKgPRJabvG7MONWkEWXNWSP8Y5k1y3njqhoGeOfjebqPBHgmcczV_5eOgdVkZQK1dUA",
+        "width": 3000
+      },
+      {
+        "height": 1292,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111189827216438590791\">jacqueline crawford</a>"
+        ],
+        "photo_reference": "AV-0GLc359HAaESFzurwCE0IKjnhzdW2OjT7BM483oStiXUknLektUlY3NuselRqh6DfMeqs2Cpmqvt2aHFkNM-ORFvkNqbELN3Un2nx-2gHkecgsOnSGI7oElfwnQNh9dF08tQn_veXKA3tA3FetTvFvMiCqbu0EHmHNbBaF4DIkHiIGKEFz-Ecjw--FNQ2ATFcibmn6-TcTQBcBEXn08uLGfbnpCZeuCLIcBDQLzwK8j-ZbLOnHhB1e41gw4o9vkEd61mr1gOaBVRRXbTFN8tnIm0OCIWh-phVuyFkU5sBMXTM3ZwDuDnuutfsY1DbUYdn3aYgiu_xhmo7wOMVNLS4zFi36rY0rW_AZ59FaMaHB_YSvfhb7uUiZKzjKFEAonLf2iFulVP7XZz_8vh3HQcv2xCam36htAoczh6dUMVMB3vDKA",
+        "width": 1218
+      },
+      {
+        "height": 2361,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108716764092167788671\">Boise Tonic Co.</a>"
+        ],
+        "photo_reference": "AV-0GLd8uePLcK5jWGyPaHRVDgTYRYzqKXeQwT9TscvadqYewlW_LezvdbiIJhRp0SXl0f_CJTmEGqj7PE83wrTduXN9NhqxcKrAaVoTyWtSkL6yVaDjEscLdVR4kUpg0Dn-bkyIxrcGfogEqF_I-vD4IQHge8kDa3ugp0qa13ZSHTCgKWwYkn_HgLC3KClJpI_1SXwsjq2aZD2C6lVwZUOJDYgRvH9FJ9QcNNTdLtUGT8eHVHSrsuMO0zQu4j2cF093NWFRApSSpPXjGvRW79v6Dr-FcjOZAvylw6KvEhVIyY_CWfvc0DkmkqcrblQUnEhzXGmyJ2WK_oDdW-vNKaPQXD0DXPOa0tqTSiQ7ZxesXYdsakZrLEkvl0rjvaxJvkRx-LvMfvduzUfktnv8NDKxK193Xd8",
+        "width": 3087
+      },
+      {
+        "height": 1844,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111189827216438590791\">jacqueline crawford</a>"
+        ],
+        "photo_reference": "AV-0GLd7EUIPiO8cIlz76v_375CJvZoVJFBNJ7d-EhB5WAenUjjr-VR5cn7uoOnYHOIq4V4PCnUQsyTLDJfk2cWMZTOUmEvm3Ju_I3H0D6fBPZyTMmdWnG86Er1FVMIuUQZDZ9K_qLLZfuetYJVgHuXj9T8K3hHn-AhvVSxE4kozfZslwLt2OWAJ1zOctnJi2Zw5P1qHSJa81QCKlevrW4uDUKck-r_v1jRm8harLyeYvWq1u01ZDtv1uY8MK5U31woUmoFqkFKJonikAiECat1Hs6MLVRnBRGQzFAYWTUZgGD9i_228epbsMndtzpsKOZUgkqKX2toJXeQ1AxYK_nrj39ZR6dkol8CBBpT89jxAkgBoEtpXBzfrP05s-ryLNIDPbUsFvCa3TCQICsnxWNaM8uqDs-8VVlZJeIHZlYV-z6DJ-g",
+        "width": 853
+      }
+    ],
     "place_id": "ChIJNV2_3GRVrlQRofMWTWXciRI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1335841092135220129",
+    "vicinity": "2840 Wildwood St, Boise",
     "website": "http://www.boisetonicco.com/"
   }
 }
