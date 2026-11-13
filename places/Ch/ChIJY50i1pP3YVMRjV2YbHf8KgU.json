@@ -1,38 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:21Z",
+  "fetched_at": "2026-11-13T17:59:52Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Everlark Apothecary",
   "place_id": "ChIJY50i1pP3YVMRjV2YbHf8KgU",
   "result": {
-    "formatted_address": "12002 East Blanchard Road, Elk, WA",
+    "address_components": [
+      {
+        "long_name": "12002",
+        "short_name": "12002",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Blanchard Road",
+        "short_name": "E Blanchard Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Elk",
+        "short_name": "Elk",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99009",
+        "short_name": "99009",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9611",
+        "short_name": "9611",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "12002 E Blanchard Rd, Elk, WA 99009, USA",
     "formatted_phone_number": "(509) 342-4246",
     "geometry": {
       "location": {
         "lat": 47.9854987,
         "lng": -117.2441557
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.9881777302915,
+          "lng": -117.2428249197085
+        },
+        "southwest": {
+          "lat": 47.9854797697085,
+          "lng": -117.2455228802915
+        }
       }
     },
     "name": "Everlark Apothecary",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 17:00",
-        "Tuesday: 9:00 \u2013 17:00",
-        "Wednesday: 9:00 \u2013 17:00",
-        "Thursday: 9:00 \u2013 17:00",
-        "Friday: 9:00 \u2013 17:00",
-        "Saturday: 9:00 \u2013 17:00",
-        "Sunday: 9:00 \u2013 17:00"
+        "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
-    "place_id": "ChIJY50i1pP3YVMRjV2YbHf8KgU"
+    "photos": [
+      {
+        "height": 764,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLermy_H4StDY4faYT8DK0U21TMlJlVoTks720kXFxz0NMs0s6zSBWtfCWVfQR8txr1v-7Q-l9QbKIvHdiDyfktv6T9IEbmUcMYVeMdtoYyy5GubuTk1ymvPKiqL6j-b2qp8xo5Q0lEpUwFQT5oI2tZawClUZHyZmd5Wfkxqhc9jgnW9dr5A5iY-Tclw2YdW6f3R59WkH-7JrE1lNjPB8ytGoSH6pZW6etFYhJBnBY-v2DQpcqhdttqhxjfy4UUkyaA_HBc7wkjJVpwgbJCMPPfgY5n4oM-Tk57xZfJhfv0VMDmAvjPj5h8rwyaJCIwnFiDaY3KGns06EJomyiUGtiNXi2LUmjvUq00jJhbLTTg3_1kIp781hOh_uLrS0g2xrXfdL9Id4SrlZxiskrx6kPaOhhsKlFrtymAO8_DkIyz_ZA",
+        "width": 503
+      },
+      {
+        "height": 756,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfEhfMt95s9_z4kWYlcij7ApKqAgFHkyZ02b8IzQGDWxuZT21RFmXs9GtGek8_ogHKbzVh3jjsyPqq3HrmJiNgHFnIc0Psukm0mqGlP-jT-1Zk2pDcAJlxfE4C47VfCsU9JAHwY-I6lSA-g4MJfKOR9dRX3YXhzJZaHCP8OhWo1BG0a39FEa8GLTWVrT8Su3ZFY7gSIDwl3YneOO9kSFM21_4BO195QuNc-nVUwpVwLpQjvWYYTZRv9Q1QbuUYDdSNd8G0aoHhxgqfa3j0b929iB9KaDapb-ZUQyVp58Cj_WEocAi_mCs1G-YgFmmW5iH4tW6SfS1yOghkVqSxA3ql7GkRu3SqHN7lKyZVjzkM_A4O_myw7_6vtcyrV261LongJdE-b41Z_FpSJpJ_uJQwdH_l462T1Yxe7siDQrkrCzA",
+        "width": 507
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdq6fTnbB2kVWhY3tZ5a6lj0Gd9qCSxkWeLNB-e32F6B8QiTsOvFlFepnedPGLNTe7uSHBJz54bK3dptJwicUvnHP5yYhFDxWFoNpyH4gUQomR7UYSZm0ZA-rJzckztmxwae-NQV0Jlf4Bv6d9IHz0I95SD6gozpxGfb84eU2YgOEHPr5lz-ONSjLluX6wPJtxqjfRjMn44mvLWPfybDlMDalaap2tDiV1W4bVjgk2fL4wKVod_MqSuuMupyh4EOXVJfjt2EewL2FHXcGYWjnJ0qterecLYCXs5gErXmfbHz36HLRLg_2GozXlOHKgQuNvI3HcDkUbz-0HgLR98AObBf1_BFqE9FVoEEXGjxIMcdsRWEsMhhK4LLRgRtmRT20ErSkQRcQFizNFa3C59Cd1nMEwXLKaiq0NpBjOmO8kMvw",
+        "width": 1024
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfPuc2aslFyZwvoKyAKIsTY4AT0LNWnU__v2omSXW0_JFW170v3bpq0OIbda-ryOFYwxPmPY02ImRPpIX1nWb7s1JvB5onr2j4vTKyrR0pJ6zV9N614X8t40F0K7iaRNLUABCvqp8E40QGbp8zslwLg9KfZUINbg58niDSKu8HTvnxwC408tWo9zOjUVHXSTnc23VQgz-k5ebQMzkvLxv3_8LSRE6_OqSSzl-JS8oTBUnDsCPeYPjGXmE6U47y1nxo2EtZi4psM6S8KKaQrNO1ifqclb7-yTNZCCKBd1Pssj0C9MX3hPiQQ23WsRcn21Ve32TNRGkQirbtjcIf3r0oQuWXayiJ1J75gY2FFS9Wqunlz3tFiaWUBBoLpbz2Go_NelRdhB17SPBoGd9aB3uTBqAKotbPJBPXm8UzeB6bZ",
+        "width": 1024
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfYlQOo5exVapRP47mmCPx4Wu-wfeln-yy0pKRG5K0a17_05DMkNxCoDnepJrz-_YYOirF201N5ddt8nrRxa6cUjHHzxyB_NhePOUTUXd8vMgUGFqNyDlO4AzG_upkdoJO2d5GzibbjuO9l53DJIw713ELpIOy1_1L0R69N6crewBKmAFTbIVG69bGAeKaSNBbfsidHSQADs1dW2mSpdYTZK6tJsfLpBMXZ2aaF856gk32bLDTGl3M29QF2e4t4GcqtHDdoAXgLWQvUEvXuLKtRm-Fvis4Nw69xLY5-XgWymAaXUEystDdyV69KFgYGRDjLje-IbLiRzr9QNKh9c0y_ptauGMMhf4buk1KU2iMbXqnc4SdDpjzNoqeNmDsbIeJuDuKKCCPSqoqo-F6ev9qbXPxNNfzas8I6zYTPI873LA",
+        "width": 1536
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcRojBbwjHkfQxmdDpidVVOb3MkgIWmtp42FFHGjLrhXs_pcC6LjUWtdtpb1PQPArSckNLGe85b-rs3ZfbRtWEx9zwWzGaG2xbtY0rD9Wkr0gdKRX5r4TACU3wTBJK9gOUqeSG3OKGZOwvKQoaHXpSUWCWXcLVnTy1JVTu77o62ryZmDwwCM33isRwOwDmxPf-C3p5JKZ6TospPEhmvsnp6CwtZSeEp1vjh_2AimXsjvQIkABKgrPPmcqUhH1Aq3UFWQsnbyAQYdkjd3TRQnkFea4obH7KMAjVvtidAAIUedOwEDXF_qZH5IGWWjTWqJ87LfPVGJfJ92BvIpk25HA0B3ih6aS7HjLHhanC-zl0wIZIvdmTA_wg0vZQFSFvY8YjWl8w28HLANf1z3TVcwH3vIUfWemCFzQiysQXklHXf",
+        "width": 1340
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfp5FmHhaNLZ_4Ft1uK2x1BseWdy8ewMj_9cbozEI4JBLi2n2cZk-F6Po7uR6xOEVL5iALPacLVMK6gkwTh8XbXVwPRMyGFuWyF20e3GM_URamn54RPv8811WQjQHkicf4uCvVld9pbKsymA6WqGeycWB2KYUEPVBxnuSCSpG6eurwDEd04119vuPYroNKew9nbTiIhpnKcgVK0GcBVc6X24tmceEl5QPfEbdXBuw_Z7r8zIHLVPPHEmFX5Rsw7j-EJzUzS9sv-QoLbGSX2UL-sTX7cu_zPusKnTaXEovKDVodcCjFJdijPibJUTyprN999S3NaLmuyYvGL1NAf2or2kf4jW170RBo5-VKuuCHn73LyvfV79a8qWmaNtarFbBSaRNHYmJmD60NXkDD97s_9bo6U3TnoHxJ1unAF4Z9z_Q",
+        "width": 1343
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdU_iVWI2QOpTSQkwbiA3qC97OnjOoSp346dYMwkahThLaLejKuT4MzYw-iO0WjFmfCbdTbwTdce8J7Hi-pb6Py6EQqYqgWh9O8qdKsxe9donEdj6X-Np47cjI5ZWbFQdf8AR69tn-iJRhLKgMr3H8-WajcPT0hx8_JpA3f7WaZmhEgsg_jhYPMhb-fa9UVH_8eEdj-sojsmhdJqHBDiXj528X_NzTHo7FNIMMBBuRsCvkOWtsiQ_8Fx5f61bsB9HvFwd8zw1q5q7iuR5aVDv8YRPwGHJ6HL7GVBIFPV3Q0IcUou0Fg7fqVFL50f3An0F_SAZpp4QWjKfME5PtLzSFbdlB5YjTfQSB6-MjmZpJk18AOCty9Q12tAXVRMpPOrbhbvD-Mv623zb8W4MzyEp6A0qnXiOL56Jq4zrpQwZXVFA",
+        "width": 1335
+      },
+      {
+        "height": 835,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe7BuuwUokcCsGaXGw_jb-E6bJE_9uachEC7XHW-Kp38hgdRmjBFd2v2eKUx5fCcj-ChXNiN5WsRk2or0jONlq6mHppbA9qOEh3PnIDEw_ZhyA2mdpSSc9LzKp1gEv8B2kp2qWVyscd0DvqU7KKHU-OQVzZt84_jMfMY9Pg7talhSkWVIchd9Q4JJEg3pkAOjolQR1qALiX3CVoDtdgNVsSDcOe97pxeNuqK7BV6bt3TiqFOWFPcKzG8ue0iJbHC-d1j2u001uobNBNSz64LUG5ndC_HDM5TKc4sEDfG2Hy2GDW0ZfNXrLdNbnjMg8T6HkCnaf4EFfLaeJuFe0TT1Wh56m525yHe2OCwRMHhsBeFPcvhLXK7bRW-t6lOSe8x0JNZ1Zn1STkwBPk-1i9we4lf-EHF8onr2zQSwCizj2ymg",
+        "width": 1024
+      },
+      {
+        "height": 688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104819261228025013487\">Everlark Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLerTdonToEsXRtQWjGJHKV5JUS-W0qwrsPxpNxt9vwzNXqTGYOmaPilKV3lG0MRv-FzgbM4AA3DtMXUEQacVP2skNBQ_ORhuVh4wtkoS_bCSRX5Twn1BvkmBPbqAprZpyWLyRlezAPUcZ05TqauW3A4cPlcDSb-FC9CzUQWtdSYHLZ-vlQTsNrXvUkDjLlgylG-ZZUy5JE_EtzP8ULf8pWegDtCbvxRePYvAkaCkXa5_ILrdwz_QubPPsT8fiYpfkV3a5K4-pydrSY6tL6YmMXhZAG6_2kuAJNTYJh-2N32qg6Vhk1gopxw80G8-1M68LfAbCr94xruyHl3bThcunSjBV0Hgde1FBIEIKvqPlKJH8bVVP6mPacWU-VQ5n37GHwvbHx_2aa9mxNQS0IjAdTbJJHzkFpPAXkDfYMiqJVIlw",
+        "width": 506
+      }
+    ],
+    "place_id": "ChIJY50i1pP3YVMRjV2YbHf8KgU",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=372387509064719757",
+    "vicinity": "12002 E Blanchard Rd, Elk"
   }
 }
