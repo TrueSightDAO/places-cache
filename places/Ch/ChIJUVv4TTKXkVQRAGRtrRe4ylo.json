@@ -1,40 +1,260 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:09Z",
+  "fetched_at": "2026-11-13T17:59:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Apothecary of Shelton",
   "place_id": "ChIJUVv4TTKXkVQRAGRtrRe4ylo",
   "result": {
-    "formatted_address": "620 West Cota Street, Shelton, WA",
+    "address_components": [
+      {
+        "long_name": "620",
+        "short_name": "620",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Cota Street",
+        "short_name": "W Cota St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Shelton",
+        "short_name": "Shelton",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mason County",
+        "short_name": "Mason County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98584",
+        "short_name": "98584",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2242",
+        "short_name": "2242",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "620 W Cota St, Shelton, WA 98584, USA",
     "formatted_phone_number": "(360) 888-3007",
     "geometry": {
       "location": {
         "lat": 47.2128216,
         "lng": -123.1069511
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.2140657302915,
+          "lng": -123.1056207697085
+        },
+        "southwest": {
+          "lat": 47.2113677697085,
+          "lng": -123.1083187302915
+        }
       }
     },
     "name": "The Apothecary of Shelton",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: Closed",
-        "Thursday: 12:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 18:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLefGf1CIZm_3h3w5k7hGvQz-FmD9Wp_MDyTJRECUtmTdStsIxURwBr0ueSXJUZk3OVaJpPCxQkE4iJ-qOKLaYeTukK8I2j5JC-ydyuSszPcsSv9mXpXSjYW6MQEgCPMUYcPobGxCo7UTJ3dN5WxfxGT_mcK_5EMG8VxUwXoMyn2yUoIBrWBsWbCJxEbFxhRjWLVws1XRlNXG3jGXCzu7rZU4R5lqFgUkCB7O_HHpTY5AfjWaMf7R7s1Y0J2gCzL2MpXAMo579rDM-aUWZKmaaReO3cpgwXVg2YNFF4D9oRSSfPbsug54uMkLQjSegdPWFWBRsQZc2hO8G1DHut93LoHY41BtWHtb65vXiBJwuht1p6DFJ9RzKHE_BBBmcm9toP13zwF_l-cKoHchnvZ4jgqHMaqARvoiB7TV12Lkw9F3w",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLcZ6P7x7HWPirwWrP_y-KmdYnKqxdHW6RerZu6UBXchsoPKs-rpS1g8UrZih5ueHgfDvf-rrzGJdMhlLsloaqMLj_2CpEdZZ85cWU7N7GwHvUHxz_JuTTxoPUjYBZyjAnLNcGEeGpENwUquGwfkSeYPyxrfgX30-UJ1tjwIJyQHpo3Cc9ZHLScp9qQjlAjRlGrP50Ck32FKb3tkBjyAkE1iApOzrOtx7fMPDec21Ksh5HuLpjkM4JDzitBiMQLoItVL_5FVriFn2bOxF2YVJk-DR7L6u0PBh6-vxZ2j91fGeNfYM7hBzbtDODtCPPYf2yTBHpUEU5xMsGN26txP5hKUGMbjUGMk0oApBF8zDyiB4NNJKTPUDm0hyaGkDR25YbIRag6d_pppk4hck7-6f1v-HQre6LlipvgkJQq0CqNYPA",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLdQgmgmkwm15tg02VRlIc_nTayXGfZwYviaN_JusHZ_bqhiaRaL76Sm8pUfE6N5OvDITF1XVBCeULKPd-OFFMOSE_riLJoDGN6GhThub5-2nLAmVVF7XK6Z7SxXQRaBdVPXqvUFLnEoZ6ufa1APasoMrfq1Xr3KoJebyU9ZDgJs8oS25fnq_Rt4PjDsh53gi7qbvemNRF4jP4IPun5A982enLbnceVs9mNcHcHHpr4Ca0f0mtAIp8w96R9aiyC3fu0BbBWehAE7KHzFHVN-KRpav4cugwvYFGZeZ7hdPYYqtQAnqLDnXl7mZ1OqV3atVjgQv1cYWpUCvHBh1qMLHH9m4xjDKGxELKdX8HD1CHpefGWUn3Um3VfThVpTFdIJqsTROsWJSEhAbD7ObjQkVKpifnA-7eiRHQwJNJCPfuhIvA",
+        "width": 4800
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLeovTttGXzVcfzMDbK-dV_hl3VXADbPykRD1Fii_l3JZYHZ4ZL4pKVj8BvTHCjphoJEXId1L3XEw6lGiVWkwJNI5F_TaYp0h0X1WQHzyHeLOB1Gz5tqOp5S-FEPxjr-VuzSLNuZjDy3hOwtr5YFgi6hHqBV-rCipZeWHH5dKrE4auYCdHj-OZyePE_jWAbtbab6tylGQBKlVe37xqu-aZH4bgZj_hvZ9LHnsZ5fvA4FurkzW6Z9A75NX5C47a6MbG2xDrrmsY701RsOhvqSeMDgikhRYt9bLome36Gm5R6I61NJ-tFzrqJBzdwTgOWScNLDUxKtwP1cuzTIi8FjN3Fjrct7ljJO0KR2S-0zY3XDVYUrVGiwPPWTZANkwODblLW3_zBGB9F1xN_SHanb7r4GEKJw4RKYwAiFeMmg6m3Iog",
+        "width": 4800
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLeFDr47F02ZRsMDJcyuwn7PjQYSaUhdtwlyaqXNrUiYcoMb_7k93CnToL4V-kkYzfX7LgkeWgjYayTbJ9wV44jj4eIkho0FzKc4Ig3eBO_bF3FyoklXgn5WWY-o4mUvHatkVHiWWXQ0Ljjf_Sf9bPiwvRkam6fUEUeM3VmmNJATg5v9g4vUN2DE6CYR1eD2uA5jrr2oDpET9ZB5KyeYrArWVVQVo33JrqJHqc-LkU1SWOTuFZvs6MwbSQqROAHoA2Gdkae6_NNVqCR84y9IwiIKkwrUPxR3WhHimcG6r4XJ5hxe-BZaDfTfX0ggqCbZwajvj6Mob0T5EZ47jJZOY8Pm-cX7NGVyfeHVFCDJiNe7eKS6IsPJnaPLCKzECUoPA4i0cxEPGU7ofd2HSqIWkSzjZybw7WPLCx8nw0vbGH_zRA",
+        "width": 3600
+      },
+      {
+        "height": 985,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLey0sX1mv2bDe390e7gwXlHsLcI_Vectpn06lRusK2ABpGK0Nzh7EI6V24dcS1ZEJHyZcFDoxbOUNS7I3M3AfsVqYiV9H9uM9lTIG2JIUC5xGYLjyAmrkfbSUaSBVqxbqyHbvr0gZCxl-b4Hsp7b8HU97_3vqjLerv5jKDVf01DAYmpa0NIz-apzWbXXbYfJ2PWpdvGkv7e9RQ0pVNQw6eXL31MdFFXKpIvPAibgls_xbN5C88rP5V_5R5KHfNWbOpXOtxwRk1WS1fUICGtRTiVRmAu8oqcRDCjOnAxs2PUSmArYWyqD5pYrfOUBqa7eChG36IGnzp1kxHD6eOzPchbyyOk0NSV08FH1gdNFMP09hTnefRP99Qns8s3H9xNWxA-LypvbUrypLdx9FT1EDLv7-tD2IDdlLf501Y3E631Xg",
+        "width": 750
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLc3wX-fGLyE53yx8pUGzmex6G1wouALTqKHtaSiMfx1_dYbptj6blaJ49TJRJ21iUWzKzi_44OD9NFrJSXNN9-aNVlOi3LelTGR-U_0hQFQVzaOi_JNKWpJbG8-L7OkelpF-17J8fWU30KTtjOfFNKYxxYqdyHJkYhh4njq55K4e_UswgSx9YMdkYq2Yi49uKYKXEwgW47BxRPACkhK8TWcwNMmkoG22DCPCMaRHTt-7p3Hb-P9o102cqlLhx2aa6FBrxyzvTP5JqpuWZOoD2xWM7QEuGWIbqzBnktN0FKjA1k5mzE_KdZ_3pRtXOjNgT6QmMedGSlVjDZZUnKhBOe-QVHyl2aoJ_SMxme5w2ZFNgNHNHi-7xn6zNxSa7svFqlgrxe_B-vtqrIJ9_TdnbRDNtvsVPUshP6oPd0kKAXk5A",
+        "width": 4800
+      },
+      {
+        "height": 1334,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLesTkfpDnrt6MDqeoC2fqVqTZy3QTrwTbxcvPw6N8wXrwfl8NqGUfjyY-yRDxWNvKy5lgiEGmYUMe7VYiJr7Rs0fPZT4vqI7yr4uBYe4gYgtEUSypaWnOHo7-AEg-P6MhAclCEYKTkUB_217z2tSu_dv0IBSTNyFz8ie6irDDCCYeYBQo9SNjFnsrnT_EjkZJ5Msg29PyYtgM4QB4ljlOC6w0qsQYHSDXA5A2tFX7hvO2o7P-E5tFEMU3iEyNflZdgzlhscm3wg-3FrIe9nFyYzBtf6zxk_HGxorg5SwKp741P1J1Kjoy83Rry_xrGUZgfKWYlnt0rgvlSkbLEexzg3cyWKAASNXuEV2J3a70EAHg8x9By_UCz1bYzKMkRb82_Pn7uq60uuSyEF0_OdK804eGbs8J1a-GJIA-pu2Rd04g",
+        "width": 577
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLeb9abCum-yVTRhKw0kIv8VrQYXgcMsa36WEl5VLxm4Yas3suOXOdrgzdOSU0uJCSr3RPE4RUhB9zmQ2_h9DkiA8G7gLWxrUz3Ukc6419hmuYNwV048IDcEn3Ad2KiwNoODh7gT5Y87f__Di64HceNxbDLHu2VnASvrFBijrdGGYLOmyuNZav4kXYnpehnl2mnHfl_Qtv8m8PCJPk0IGHR2Y8bN3K7rEGCL1ZAbNrYn3mkX88lYEVU0bDrmewc-TdpQjj75O_fT1Lpmc1plcWdxlPF7B6045xuFCtxTaIMC4NmzVMUNA_d59SR_IV0DU01EdV2HjW5TPeEfaaZcjg1duMTLtnqdCEjRhUWhMrwtlCCZiGYkQ1ILkbjNmA7xGlQPWvblDe4xyEmxwP28bVWrJrEZvuWS73lsm2e0zHMbkg",
+        "width": 3600
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107254060184579066237\">Mika L</a>"
+        ],
+        "photo_reference": "AV-0GLeyX_ODOja3T39aKpaGfApFkICj7qK3wDYbicu-P_bURRoZkZ0vIDLSw0BcsiBpyIOEY3t_MABt1LmKnM3S3WbmbVAoe_3x8Y6Z1bWe9TNrq6PtrHJrRYYF7D0EChub6-2DUQILuTyhyxO3hwLNtPUyNqF_mYz2Ow_o7GqcJceVRwEAllumOXsEJcCPhOMmV_aAcjYvC04t3UZlTYZTnGPMaLw9mqxyy9tfQVPWElQJyzDIeNxKl_YhOMwcuWIufBMKSzC1rpav1pCuYwBizLAI7lm2LAyEOSQfJcyzZZHmSWrx9kwmDivdgfjySFm8hUGwFerFDze68DBBN34kb8fNpanPQ4PlcCAL2I1DXYzJLtOBV0StIxGeqJAjXMC0InPgMCBSc6Da77XPr2_d0fiUz7CxIut0NgVjZdRL-zhTRg",
+        "width": 4800
+      }
+    ],
     "place_id": "ChIJUVv4TTKXkVQRAGRtrRe4ylo",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6542243820542452736",
+    "vicinity": "620 W Cota St, Shelton",
     "website": "http://www.apothecaryofshelton.com/"
   }
 }
