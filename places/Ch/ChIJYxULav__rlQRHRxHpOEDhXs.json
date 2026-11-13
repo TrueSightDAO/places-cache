@@ -1,28 +1,165 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:24Z",
+  "fetched_at": "2026-11-13T17:59:57Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Oil Studio Skincare",
   "place_id": "ChIJYxULav__rlQRHRxHpOEDhXs",
   "result": {
-    "formatted_address": "3113 West State Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "3113",
+        "short_name": "3113",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West State Street",
+        "short_name": "W State St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Veterans Park",
+        "short_name": "Veterans Park",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83703",
+        "short_name": "83703",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3113 W State St, Boise, ID 83703, USA",
     "formatted_phone_number": "(805) 698-7431",
     "geometry": {
       "location": {
         "lat": 43.6336398,
         "lng": -116.2262599
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6348940802915,
+          "lng": -116.2250316697085
+        },
+        "southwest": {
+          "lat": 43.6321961197085,
+          "lng": -116.2277296302915
+        }
       }
     },
     "name": "Oil Studio Skincare",
+    "photos": [
+      {
+        "height": 687,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLfpDX_GyCPeCDX-ac9n8-xZhveqK4kMzn2nXkb05AbrL6yZTvMkFQWre2GyTLDVqUMqRUoTO07QK-06LLiFqmJxDLUZ_QFzDTFr2GbTxv6vcuvrVpUoF86d0eOrBW48I8JwyQItJXAgD9x_jE-AfxqOCgPwEcxv0R-zXnoTLrYHWzDh46q_qNLxCdgbv_rZB323UjNhvLMwfL0I7J32tt3Kg0Ix-pNjR0PGpJvKSAAqO2vYsqmMbQRCa5wRhXjZzqg8cDtbGIrCty9tuY-q3fLZFKhhW4pOgkxmCQenQiO53LhBnNae1PxyYDZ0WNKmiiMsJn2aPJwpxwmJtyEiL6xTHVjDE5zsZDAfKTrjCoESdClbt0tVoCRhlSVzXg59Bad6UKVOEYJzqrVCH-H6ReuAESjeTypnNpHHPLQuoLw4RA",
+        "width": 1024
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLe72bXFE2P-FaBAES8CV9Dpg1i6Z7qnLf8BWRLUJe5RH2j7lWSCfYk6IFT1Csahy89xKb1YgbV1ILkPLckHS74ay9FtoyFXIk0ZSIAggrclMo3O2nPPW6o-IFAjR2sX0DvuRpg-hw8THov2CPYPNZPgEaLJdCcXYu2BLo-NWlLVcREgX4PS2fd8_LBE9vM3i7jVsC8gRiuJDzurIPbHBMy4j_eWs7h-71qBg7gY9FMzBWroQxarDH4qxjW8CLHGXqtdAEQhsOrK9s2FYV2hseya6EbueNu4-UqvK942rB0X1wIZx-fHugp40NZg-VLIfzy-SihYRvyM9IZOD-50xWZkK9bI6SzTtDxyasjT0RHNRjywlZHUg497cbpiXYNJf2r3IxrpQELtGqfI_OKwvw7BCxI",
+        "width": 2400
+      },
+      {
+        "height": 687,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLeIqfFxn8ta4Ow3prLJwmWSYXjf6TsqoJG3t9iANlE1STpDdZJlruaG4Km_PgGXk5GfNmp55FPoXKvoME6OxzrfunsS4e_CHChP22DGQGhf5V9qW_t-_rMxPegz557F-geVigK4EMqkqNPDvKUMFMzBiUcnQCkjZI53Ta6sUJDTFTWnEUm-Vt9Oye1JsqJnsDjLMH-VNUusW8nZzfdelCO4m5hzfwLt2y5i6vP_WVG8cyaBcOlaLfJ7ioYgAnvLTcTP3crTmbatOqdK5cI-AiolY-89u-XTUZBM72YF0-fiMY8bArzcvMrNKC0rGzgML9CHvTlujiVVwed8xUBXG_1cDP6qofvmM7t-thXkPgRbYIY5IVczbst1mmLA6d8Qf859AIX4WHwMCCR3nxAMyfP0NEzzXNqnAq111M9A4DvQSg",
+        "width": 1024
+      },
+      {
+        "height": 681,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLfMxtMovJx_WNHHn8TuU5ARtazeEwdWBDUJbZFyWN_Wv5bOsjB7uXiFMmUcY4McDttP1G2OEYRmoMuj2T_A5BKm5bv8koKoBtDu-a_kQjaf4b2fFuAd93Mhb77q-SUdZmtrHdrC46hCyQhtjuF-L7wS0NIxAyjQ5WMYrMvCkei-d5etgTWJ1_oxwv627pvIxSiCHTn9hSVfn5-he6mBblpgRDipv-QeHac8GeT8-XtZNbGg0yhjvxSfeDEmXcWrzqyzkxOvX_jgjw6UHGY_BWg5itU-MS6VYC1wxbJxlpO8jqsHX0vT0je_lPfCxKEd4YcWHiu5HxJmqBEMF1FExWbv1rTXp-PejBCjATTzL5WA1CbXMqwfsK9oopA9t0o9-yRG720JbPjj7iYA5REvKWJ8XB3TbkRASWkwFHnTk5mnGA",
+        "width": 1024
+      },
+      {
+        "height": 687,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLcFu39Iv2gIP_y72rG8mOvpEKNDqtUAnI9RLl9wbZSEvLL2w1qia5URNBiHPbMVn6QJGBTxk0W5H77TSpPn2sSm2gqUO1YxM-_9oUfssTPatzrvtciCDBfxK00mJbHPuHJ4ORancpu_3P9fn7-iGPnH1jOYzD1H6n6V18s3-MGD8U3w_f_E_Kf3E0XbQdkSDjIuyosVrwQPHe3gv5N7cEI3TviNsThFdk668OjBRKGWQIxsgqi-akj-xLVn98abwLzK_vmElHE2mqp99KIeXGTmOz9fNIjsUndhvhxhOs2RTrO3c-lKvxdVe2IBlLl_HBIU7O1VWJabmOi7E1AkIQPOvI1Z5PFIWSdmLr_rN6Fum03fwa9dodxCy92EUF03mjNKOxL7AYsTG5xTKYdCrEbruCaRVnvBET64Mz0GBC7KKA",
+        "width": 1024
+      },
+      {
+        "height": 681,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110950874261804809444\">Oil Studio Skincare</a>"
+        ],
+        "photo_reference": "AV-0GLeuSa88pPIRU4P5UREaAYYdAmu_FATrAlAnH5QAIA_fQK2CXDHeZ6-KEyeqKjclHYLmu0qpoY3wudnX8K6aYckw6ZtUH4aPVJO2u5GUIbZHQecKLNm2l6MTwzcFlnvsZyQ2qIuuSnp8D_cI57A42UZlJ0nznJCGRpNtveeOlG8Ga_x3FxUi8mlg7IBIRNaHHPPVnm5lSaraTEKSU4UkhmFhO2XlhpqPaijC2yunrhcTiDLruXFECaXGKEKQz8yk5DEhcstwzprpPhX6q8Xv1U4kqRWjQZDcwl7G-Ygb_Bqzq4R58tgieBtAC_M2THdU93DCnoCTgWnaKpDfRrry_rX1aUikrA8l3-5LaIWnijas-p0ABMm7lbgApBnvov2_IPiFKJJ2aIKJxURVo4nISJw5d6GUZi7H0Z9m0fTiUCdFyg",
+        "width": 1024
+      }
+    ],
     "place_id": "ChIJYxULav__rlQRHRxHpOEDhXs",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=8900524506226301981",
+    "vicinity": "3113 W State St, Boise",
     "website": "http://www.oilstudioskincare.com/"
   }
 }
