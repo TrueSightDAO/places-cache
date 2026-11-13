@@ -1,26 +1,105 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:08Z",
+  "fetched_at": "2026-11-13T09:54:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Idaho Apothecary",
   "place_id": "ChIJUUlW11Y1oFQRS6EOMUrjn_U",
   "result": {
-    "formatted_address": "1039 21st Street, Lewiston, ID",
+    "address_components": [
+      {
+        "long_name": "1039",
+        "short_name": "1039",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "21st Street",
+        "short_name": "21st St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lewiston",
+        "short_name": "Lewiston",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Nez Perce County",
+        "short_name": "Nez Perce County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83501",
+        "short_name": "83501",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1039 21st St, Lewiston, ID 83501, USA",
     "formatted_phone_number": "(208) 707-6625",
     "geometry": {
       "location": {
         "lat": 46.4098906,
         "lng": -117.0010386
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.41129953029149,
+          "lng": -116.9997196197085
+        },
+        "southwest": {
+          "lat": 46.40860156970849,
+          "lng": -117.0024175802915
+        }
       }
     },
     "name": "Idaho Apothecary",
-    "place_id": "ChIJUUlW11Y1oFQRS6EOMUrjn_U"
+    "place_id": "ChIJUUlW11Y1oFQRS6EOMUrjn_U",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=17699114968379466059",
+    "vicinity": "1039 21st St, Lewiston"
   }
 }
