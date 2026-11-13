@@ -1,40 +1,245 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:57Z",
+  "fetched_at": "2026-11-13T02:03:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Yore Apothecary & More",
   "place_id": "ChIJQ3fveJFNrlQRt9Acdn-ByJc",
   "result": {
-    "formatted_address": "1305 2nd St S, Nampa, ID",
+    "address_components": [
+      {
+        "long_name": "1305 2nd St S, Ste 136, Nampa ID 83651",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Nampa",
+        "short_name": "Nampa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Canyon County",
+        "short_name": "Canyon County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83686",
+        "short_name": "83686",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1305 2nd St S, Ste 136, Nampa ID 83651, Nampa, ID 83686, USA",
     "formatted_phone_number": "(208) 832-8795",
     "geometry": {
       "location": {
         "lat": 43.5769555,
         "lng": -116.559699
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.5784582302915,
+          "lng": -116.5583153197085
+        },
+        "southwest": {
+          "lat": 43.5757602697085,
+          "lng": -116.5610132802915
+        }
       }
     },
     "name": "Yore Apothecary & More",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110940317114951757613\">Yore Apothecary &amp; More</a>"
+        ],
+        "photo_reference": "AV-0GLdCVRrKnajKzjpvgXg2Ao_p0ZIL8b_CBk4irivPHL36B-mLl1KrcNRQrmDVsp-SC-pxHYpbSfHEp9hXz5BQoJN_TKJuW38W6PRMyjNPnWlga9oMvHXbsL5igJWROki0ax4keD82pGtKXOOLEujfUNtteE4WNhFWHiyG6Mxj_rUyNm4N63stwxGizYQeOewNCAaBSTGfcvlYtbKRi4EKjorQC7w7qSucqPC5T9GQxoFDrVpzqB3e_6hSEjok1c5mMy6ofj7KGQGT1xwniWOtp0msv9rJFeghAA7bjjQkE3yTheov2LPdm50KYj15rgcR98r1Dgrbfbn-fowqlLPpJAwt44i8u5f0SA-hef-sNZNNwgqG-L_kCuFAkt7sScDDqS2jxIw_yBuaK_0F8Be-CaKmQajASpo",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLcmbnXoqCADLbs6oTmKXgnaIrY-UKEsV9IVF-rKxce_hfl5AIhcmhhGRaUhWCXRVU2xP7EE0FjpyeibZ2Uh9uCuJ2epdxeD0RWEQkbgQEuA3aDK391CyAp9i2Vk0swopEmXI00-5hjl3yBzhDl9UCsRCnH19C2t9hjN5aKDaNZsnfqxgvtzN1TH0m0YlrLSG62VMvRvrBQRVfrbyQrMFOSGJGWpFWRmuQFkxg7elJP48SWuHv4f9c-upIztMAsjvZEiXVZTU0ee2PytASdbxoWTbJvUIiSeqxF67GsNMLMAxjvA3OD9Ab6lB8WI0gBEC57aRjwO_hPcjAJKVs_hzZGFVZdpXkYvrw4L3cbci8qim_IQtG4UdhbBRQVyMzgrnUE3TxMzCO_S57rdEKuJ4Y_2x8BaPl8",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLfJBELn6kPR20tUYRqzJ2rg4dMY7nnpH7dNa6Y-cYQ0mZMkBxQq1mTjCIXfqqnhsXAlrJhAIbRjtHjK59pX0HSAtszmMm3L7YtEkSaoOEPWCvy46gJOeaOMH8rJr4VaiXSGX1xXOwEZ4Rq33pzCb7C2GQH_x2ydXEh74wQo5qKlgR0ux1v4yjdbAjBbeZlL-6qErpoYNA4eB9LM_UQxRs2kKG9Q07CGt8guvZjzEsvjCyB7VEyJNXX_fnuvY9EX1Mv2Sqvru8K8TRaLL7G_-Cezb2gUGS5DkF2mmxyPeEBDCht7vxBMeC70syEk_30nD9fiX9bH1auaxaMyAObplbI4GVeAIULfyBlpwSaOHSMqiR9SzTuGRGmISVLVhyPLhEB1SHEK0KUbRSnHOabpBbLkD_k",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLeGLUIol5WqDHQSBUVNR6liwj1ihe8C1hMa926lxJnR9t5o1uD0ohqc6cJRHBvMz_rqsmb7NR2rXfGFlH8Jxw071LPpYOdJim5GjSrkzzU91PzleG-i0CQd52vvxORSBDjkEOjMWnqtkPldTzpJq1qmA4qQsjC1eqHge8nxw1paVMf5RpNHmTFchY8a9LtPuIvRFAqVlHRVcGD1vGiBQ9zhlBA9xpTbCPlhJ7mYUuPS3G6O4SU9NQ-wNE7a4Xa-sLjadUDedPENfv8sbLrZKwrOOIBrMBB_LjoSsunAxp1sTs7BXntYfIij71sru8n6ZpRXomCNB6ldqIBQJXxL7Ax8A9hPhRcTxRms6cpiSxbSu43sTCa60_VKwYNAlHIpf6VFM6UM92M02CODSYfLGs55OjecfN8",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLfW3TzHveqLbMyiIf7hC7Q_-JEmVb7LBHn5WEPkhKpa3JVxcY3l07MN4veHOGCJQ8EyR4iy1mMwtA2doyom3AHfOt4c7jKPpJzc89Qejzug2sbUgUi_UZmNPi-_gM_5g69Hq7TYP2y5z61w9wrlyWWJ3JVaN69MToB4jgQsNRj0PksVV-J4bSmvxfxA5l1LzA6ncKe3Fc63ixwYhukDYAtxiRAPR-ww3GhtnITFuL_UPIiuRk8dtR4COuHvP_SZ4gF2AzFDP3ljM-Ge3ko7rW3ZbGzxtO_QYaJQHj8xmy1URnQMSgktgjuZ-Ty6xN0AMeOx-i-igvU0Rvm7u4bv_YKO2U0S9SJghMlkJSdM3dshWc9e5VyorT8ivQN3XjqJGecWWJe4wdiCOJfoQ0WMMnAcfHE",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLd-bDcgNhUIke7i7IpzNGECxp9ogUjPpvybQ3ply10lsUwpndWr7uW7gwInMMeDBq7qU4SIehZ9Sd0zZn73ner2tviO26c9JGEQVBQf9g8X3FnvEGq4_c_VfWsAXZGaluMos7CV91CO5zBkMBRu2hjj6UBF44vNyZEwGfMdUT0Bw68oYPVVBwaZqkP2pViKkCKTI6cz5uqog-Lf0WTUhCrZ9KtN7cSE9-DHxVAeYTw6FhRogUHt9BEccuq7AUS71kr8xJQxMrDwfubkADyyX6-7UO5UeoaVTaaPwruKITCjVEZGI5LidG9kEj3BEAkWumhU_i8YKLn5q_w5L775dzHXMt0K58WdIjG8K3exL4dtvgWdqyJnQVr-kInCcniPJV-ze8PxFjmrOgmVELRnNY3B53o",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLdZgGBYNIu5mtfpOq0hK4s_sgAEKUuaHg-8MGw3J48TX5b391CgxAYZ8Q_v4JdbYIM4okJWrexDFtGEjnsnwPKKEsgLZHN2DL0sxS3JlUR-MNoMuo-hfmHXvbZyCZf3yik59htkM9WuLrPnR-4u-lZ3A-d5x0h_KCtxPw33QTkumnx9Qf_F5f1D7MUyCVOUnozqL_Zxd_RoscnI3Y6bQLzJM4eRKW-UVTn-AjvRzhl0pVz4tCz9lae7gNZzqVEKLuBkM-BpgNufYOBUhKQZl649eaYBWkgPZODuTW0TDriXSFvKfhci4Zzq_-cLBQ0YFD0c97crDrh7ZatEUTWFndycz80d8yvS4udVa-aPuIuJBMAx7t5a30872zj5AgnRh1RLoUBgbwgMD5dr27ovc8dFcQg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118325691533243731904\">Kayla Halona</a>"
+        ],
+        "photo_reference": "AV-0GLdjqnlcd1V5LxMOAjolYWT27vcU0d_-TzucRzesnCTXSABpzfIDVCSCNUhD0b0Jh1WS2IJwE9YOIT7Qen3IC5U3z8XAaLZB0xYYgwJYcZCqyBrQvSHZCrxyIFK6uQo0RuB9vOz0QqEojcNw2F5kAu-dTlztjeQfexdhLCiLWnkdP8QlyhAS5NvCaG-AVGTPS6WDunxjwp3cxOQiKuWWWkI4A1CTky_hHTOJxluZO8R--OhbmKEea2uQ5H3ii8C93kcwtep4H2MSY0lRh569_32KAixM-zDuL9BKJK4NjxatMrV7ssRQywWGK979s84eg-cDS15OSq2Oy9iBn6Tia10cKEFZ0prT04P7O_Q7KaPOBg8pcNBDCIX90_PC0G6A3W9xcJvObp7k6BsMRRJdC-EbgFHaH7M",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLdT-FRcN1-agfdcuwLXrDygp4GFYC8iIJn5nb7p_31KShBcpzTvAXmVQfCAEQdU1uyHH_S8v5CYXqqmfdWqjnQQe0qotiqyVcqQxisIgKwuTV8K4ra2Ogre-iMISfBgUpRFpOtD_mVUrYKBUzQ7SNoc6IZxpazRjyPWzrIEqNaRy1NCqN1NNe0eV1cmdPIuuyh8CgNKRRajWVkgG7ec5AdqmZ9YxGt6mnqTpx88LV4R7g_K4IMLT4aZBM8x6GIOkUhI5tpk1blUYEvaUbjev27fuAgwbvyZBc-tVi0TdANIcwEyTsajuO5QsiQYk7SlBxAg2fDkPevy-wwXsT4-buDBTO1KjLV-tBffVtHqAtg70QWpYFGOaJ_2ov6kk85H4ecQb21zbEhup_II-TJY-rPVHY0mSH8",
+        "width": 3024
+      },
+      {
+        "height": 3832,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115988873230732082213\">Lenette Jackson</a>"
+        ],
+        "photo_reference": "AV-0GLf9CwnOPD91xuqEx-eCYG0-fWuUQrHNKbbcXuyFKbLxYxPJB_CkCLb5repWIPdoTc1JKch2fpmBasW3w4D8OMJcQ49yZnPpJnLjk7rEsY7U6yK-QRuQXXerbRQZmXcA_7nQQGxd6AC-tNujjo8dPsGQcIvDYFLMmZ7WpE0sCkZgW0uwRxY-mj1depHXWfKXquBWy9dguHjus-ZaDqdTCRXKj_AssBPPJa0vQRCgNqHzP0oAX9gKsj_K_oNgmCUSBkEQgIeUaZTj6AMmTC9sA6tQMfAWvSQzLw0RS6bLX44GK3af-hId3P7Aq6jNOr5tXYpuFMSyrdtS3sl6qrLbiaYUP1kikKgQkNOt0H9GjWvbZKObRcenFSCX2i5iEGN0jhG2CvJZvdN_fOIQpOdo4BrWvVo",
+        "width": 2950
+      }
+    ],
     "place_id": "ChIJQ3fveJFNrlQRt9Acdn-ByJc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10937134079511679159",
+    "vicinity": "1305 2nd St S, Ste 136, Nampa ID 83651, Nampa",
     "website": "http://www.yoreapothecary.com/"
   }
 }
