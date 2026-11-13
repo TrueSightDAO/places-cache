@@ -1,28 +1,190 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:29Z",
+  "fetched_at": "2026-11-13T23:48:17Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "NW Apothecary",
   "place_id": "ChIJZzCalwZtlFQRWAXj6uLSoLA",
   "result": {
-    "formatted_address": "1145 14th Avenue, Longview, WA",
+    "address_components": [
+      {
+        "long_name": "1145",
+        "short_name": "1145",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "14th Avenue",
+        "short_name": "14th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Longview",
+        "short_name": "Longview",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Cowlitz County",
+        "short_name": "Cowlitz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98632",
+        "short_name": "98632",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1145 14th Ave, Longview, WA 98632, USA",
     "formatted_phone_number": "(360) 560-7811",
     "geometry": {
       "location": {
         "lat": 46.1350919,
         "lng": -122.9369583
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.1363565802915,
+          "lng": -122.9355329697085
+        },
+        "southwest": {
+          "lat": 46.13365861970851,
+          "lng": -122.9382309302915
+        }
       }
     },
     "name": "NW Apothecary",
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc4w1K7ygqqor-W99FPuIGRr6j2ambixUF00YJ0zlxJntTlq30w2AmM-eUE0Ie7S-94y3M3pJKXk_8id5Aazo4nYyIEAGlbh4M80ydnyOtIXqLZ7k2yxSVBHnl6P47Kz9Zc5NvUjkBkH2yX6uFRymDXO5KsJSjYH26mxdXCcm8UW-bDWMPMzo2m82QypGY8-qSiIa4kVoJGdECUo1pgEFJLISC8j2AvjvAa3LIqb6Cay0-ud36NaTYk2M8VhHOA_QKHgg4uetTn6nZHigy0ivJw5wB8PLf3PoKdKDYPBlPo6W0biA-HIMg4bvwQ9-DnQFe-rTA0o9VCnHGfmR7_A_L2jZRx1b5yha_jHm8tn-c7z0M0ntaexD2N0jZ9aSlWRcTzN0bzFIsiUxs_OBaasX2aECoLIo8",
+        "width": 4000
+      },
+      {
+        "height": 1024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdOMpnYzdWBHE09KLv86qhKJ64Zae8vu7hdhz1eBBVXwfib_KbzZ5v7JfnDQNHsTp6vFKs_6Z_3o728FYLBjPe8Q8zM3s94iWzbrcj1qE7qJTA_20NsXRtg2QK83TLb0X4SZy2uOC7LQDBGbqNAqJ9fhBn_DK8HRzLyDetXwyabQLFVYnF2aCjH-lJqEwEyrg64wiRL1slGFLaruETQOFJyEmlTBNoF_MOnGf41wI8uXlU6JS7mwOV0ANi3uhS2AgWkwNvNhTpuSF3O7NqZezO-NlzKypDXBGm7Yq3TRulPupJi7QA7SEtVA6johgaJx1eKKqliZlbdG3XHiBW8HyznOnLMErpRdNl5YytH3t2y9Txbce2ScYQPYPT403g0_Bhz6J-P-Cfus7HWW05BmwPV-Q",
+        "width": 1024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdbZTV4pYoY8nuaJe4bUUvJ7kYBJp5wPfjXI-UxSimKfVZ2OeLxQo8BDt2Kzx3oDWArM45u5_ZPC7hGL73xMdeoSyBpzG1kF7nn-uuMA90SwSPLjtVfAwN3nk__5kw7OgXAw_dffzJ1t--zmu7rBpIKRfW7JXV_OulYej8zdKJl8Wo9uXSNij9A1Ki1aSZrTgqamqFdriJIDRUFxwu61nVxvNpgiTCsEWNcF-TxP3DQ1a4D4z3JfGH-YJF36X927umt-REkVCOyoaevrDzTTYqWeTEWXdvh4kTE4HaCEeIvfHxaXI8WX4gQzYvZnVXJpXR8QvJDhvpQiQSUxlugfYJfrORV5Xj00ChgFPPEQ9WjLfpD4p4sN1Tuwr6-JFz-C04bN7dqsAcpquz2c1CcLITtfm4uvJA",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLd5tGNpCDsk3BJ7IajgL-NXA39XzL4rS4ATmL7_oEPqFs2lD7tEk5g9wndL-9CxKYnJsO6sVEcLWtQFofmHy_A5jhNOrTyTUZFv-f_rxzkaVM75ofHW4I52uKJNLgppHihzxUDR3U34uRLjBPZC5UDpIzY6MVvO0ts3vcELzyJ9QGsAdLcksygbu0CLPZx-UkhTJH4oB5qz-c5lYKU_yayUb2YPOTkQ8gEIn8gX_P4P-n_YpUMMExeodGMn121vm6R_1tPkyjNpRFRKnSiPyCHQZKWoZf95rrMNEHAjLncj9ZI8x1wFz7GfTlfDk2CpBNTC0yjrGgtot4Kwf7Dol6CCOhExJwciIW40yWKBV2WsJ310-tfygWswRfJM-jugRsS-iumM3Au47GyleJhzcf7xTZ3CYu0",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdOc02eji9nA2Skh6lhOkTy3TMFfW-IPVRtMsBGQSk6-ItvoZYxgw9ReFzxuXoFWx9d642QMuFQWoNCqm1I-84XRzKxl2_VR7zjQbWqOj_bldiOQwIQfjsD8KZW8o9mkYujj_D3DbQbzdYvyBNVML2Zy1iNZ9TROOqZkLHQO4rAYc4Gd47KwxaDgiLkdu_uSeK4AN6xH6Ahou4yYi_xqCro5BBGlgkn16--NPqFjA74go45Ccxx_WA4MJmbhXysOVFD3ifxpz9kfd3XXosCWnch8hPxrVRFbZZ_EMmwmRMl6Oyanda_1w2wDCwG1UNiGN48ZHNDU3ICh9KPZ2biJn5zJh20yXY_tIsWrbITXxhPhp8n87wwDRi1glo1-mAu9S6Rah-zsZdpMZikoZ5-fbFQbV39",
+        "width": 4000
+      },
+      {
+        "height": 3300,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcbVq0EBQHPHkJdweSBWDiReCWxgczedwYb3FrShXrmX9PiyOjBT7-7v5XAPGJ5gX7hhsFy2UkEbX-DQvvi0ms7OEJzaWCm73zR6nOGpQPWW_yVohm-LdQ07QuPJXyriHD-vwt6PtjfSRaaQdMB5fbRSO8w0QT_kL3wh-NqaAsupuGkm3W1jnvyfh6bMcwsgO0fTpXsc6cQnTUI48IEj9kkA6-IjBcZ37xvdTiWyYWhFWz0LUzw2vZNP-T_ArggjH2gsIzNejGVndjpP9OtKTE6BSITiW3Egx9aE2mcDPHBQkSECd3dAcW5slhNJJFzYI1ydYPNVWfQmvrJuftQNHdwtOcb-pqOKodAzWjpZHqlvon-NVkiOUf-AZKOZo7eoCvn3DZu60KrJ-2IlD_TiLC9SXc9dg8",
+        "width": 2550
+      },
+      {
+        "height": 2550,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeeYg7qK_IVp9HjLGWbO_Vn0mL8n5czPl-Rep1nLTKtxzMhLcpWyczEDD5jbmFfN8QoeGX9NF1sVYbVpQf4_NHYIJ24uYY_bxxiAp9NpF_8jh4_E3Fcbnq_MhjXH75uKlNBo0MGWOQbSXxoTPmh7L1Ei0XtQuqY2DhOTpHYcKkWeXo_ENDhc4lV-Ksx264t-yZNKWEU3TnnJ9RQaTkCLtQNtylIltbzsc2EY2rfmMKTz0uQSUFqg_1djPiZbCR5eiQ8lYKep9jJyG8rBQuFl6Wb0ciTF1HP_yolgqEHiQK0CgVOSUtuXlt6XfM6I-MyQiKVyWcJzDAwWjtG_2g11oE5_lVKvkF3vfsAGndU80mW8O30voopWqW2XjZQG6e-kDS8l3NWPAOYqzdzLQ4JxfYsRBGUdlTQbCVO310_yqiz",
+        "width": 3295
+      },
+      {
+        "height": 2550,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdENr585pfSmelWqZxSssvmI8dO0atgyjyjsOssUYqn_q-arKOGCN1CJYqPhGEXahhEDmxy-eWWcwJ__En2x2ZWU06i0HoaOxQ1aQ0w2dtdhhbMmo7-b9Rvs-8dpW9lMDPFSnMojt_8MuhSch7UCi8YtmFyxvu9hDeM2tfdFcgTMNmLFhauoz3rGPLuSRbWYm31usV40O0fx2i8sh5zM7UQZ7fzN6G9-l_0SzfpK4VHa01i5vBGN09gowMWsPiXscQyeRe173sNIfOwE_thCDMWt6E3421IDIaMn2O9CGjzXKUGzy47h-MxIy9alDHaCjmAqw2KP9z9UvODMiQvhnR8BbtdxHaOCNn-iOU_xlGSxHMiHVBjl-vkkBKJ0Eb7snTJyuWXZHSWVVpUh-H-_kJ11Gt6k7lW8Lsy_vM3DrKNWQ",
+        "width": 3295
+      },
+      {
+        "height": 1667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110636163113869349539\">NW Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLehuTv7SpSynv-Ya3Obmvkj0QDnBBGl_CTv0vGoploo3ZJvoNpmq3Z8Iov-u4JqnRxekrXrIkL1EKH2Lz_c04nFZhTfsGZY_RbmafFRkKAXzBip2FLWXtsJYqUxycydIGEV42MPg8rK3OB0utzT23p-54yfwoO1E-aK1aiXxKYlT4kTxU0QYdghQv8Dme7s7N8oXURHZLz-8GWTpOpwY0r50w-UC4OvO3dAhq0u3znm1ZwAqRUgC3EEqCX4ts6ob9TjbwLvwKVnEZnXLvmocBXsG8i84zUTijof3KaVmu_zXl3OomOqGWLL1UAyKwINVbv2rHHkwJ5MhqLek5UXh7Et2UoqSGX1StfqybPNpzH53bssSATbOrNDf27gaIv2k5Mn4rWvWbLc2Ujk927zQviKeNVXoflQmVNaOZOc3Z7oaQ",
+        "width": 2223
+      }
+    ],
     "place_id": "ChIJZzCalwZtlFQRWAXj6uLSoLA",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=12727404418994210136",
+    "vicinity": "1145 14th Ave, Longview",
     "website": "https://nwapothecary.com/"
   }
 }
