@@ -1,40 +1,211 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:17Z",
+  "fetched_at": "2026-11-13T17:59:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Metaphysical Massage & Reiki",
   "place_id": "ChIJVwRCXbo5lVQRwMXDksTJMT8",
   "result": {
-    "formatted_address": "105 Northeast 3rd Street, McMinnville, OR",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "105",
+        "short_name": "105",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast 3rd Street",
+        "short_name": "NE 3rd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "McMinnville",
+        "short_name": "McMinnville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Yamhill County",
+        "short_name": "Yamhill County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97128",
+        "short_name": "97128",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "105 NE 3rd St Ste A, McMinnville, OR 97128, USA",
     "formatted_phone_number": "(503) 713-7331",
     "geometry": {
       "location": {
         "lat": 45.2102119,
         "lng": -123.1988777
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.21157043029149,
+          "lng": -123.1975831697085
+        },
+        "southwest": {
+          "lat": 45.2088724697085,
+          "lng": -123.2002811302915
+        }
       }
     },
     "name": "Metaphysical Massage & Reiki",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 18:00",
-        "Wednesday: 10:00 \u2013 18:00",
-        "Thursday: 10:00 \u2013 18:00",
-        "Friday: 10:00 \u2013 18:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560090932682974066\">Metaphysical Massage &amp; Reiki</a>"
+        ],
+        "photo_reference": "AV-0GLfUYIvwlIamFN1bSbFveVzvAUZs-7-o5CWkDOigTJ2vssdWAvwwbGLBUGv2mOhAYXFpwsw_v53aradp4vf-skI0yYXr_p6BZRE0R59GshHYeUzD3yqq2R-Hw9EQYRMvjUTJXbFqJSKQDCLuKeZEOMYPjnEM1A-UlWMYHM6LxKLg5ABOQsSxhnmvCp0z-1cnbHOWSr60Bw3wMqW-wOGdbqk3Jx4fPR6xiBmX5Nv3JmjEdsSNth_xBP-SUzHJend37dOskM85DCFllS6buCBOU-f8ey1gZtMQBCwudS6U6yzJcNfVIW_nLIVqcdvQMnmte44cgs-ZTsg6kVn2AysVYVWjubvFzgcVWgoSayM4owrwlbHIEQaTy62_kE3-qeOZVKR4UQhDK_rqxNby_kNGDaEkdTP2J3Hr1wG85LIDaREjGw",
+        "width": 1775
+      },
+      {
+        "height": 1186,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560090932682974066\">Metaphysical Massage &amp; Reiki</a>"
+        ],
+        "photo_reference": "AV-0GLeKqYd6n2BSqTH9jCnJ6lyL_l5JiICxue7uo6OENdR5nPOyaeXAToQMmaCJ47au3kBabefsdxM-NNIkDA7xCA2_bJrrXojjSeNn8OC_XcDib3l_UXAmu_TytYScpifZr4vdZEdD5agTaDdqcEjZYMj_C3Os3SrROkjNQNhikl2dqM95atLB355jm44zBdTZnN388mxloKtmd5lH_LdpteLXrDZHUCpFoRfyWHSOtM1dHm4vS6G6ONkasHLcBrE0uxqXL-PeS-EG2Lj1DCyPUJL-O3mE3-R0w6RUvkkzXrpjJ6M4DrINFZqpfQmBb3Uyh_NuNBcM452-_88S-40Qkn0KZe49R5zHGsfotP2jbucGH4pS7oTEtI715tmEXxdFGdJAKfSjIa8nbhPIrKhsnnoDaSSz0OA",
+        "width": 1792
+      },
+      {
+        "height": 767,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560090932682974066\">Metaphysical Massage &amp; Reiki</a>"
+        ],
+        "photo_reference": "AV-0GLcMNzFL8G3IDJvlI15q79iUiU8b2YhghG0QiJi2EfFXdiNIAM0Rhy0FOVzkichqCUtMXTiyAt584a7LFl2Oab7kZLl55rdHKU4vrw4vXApviT46ihcF_W_J-VzSSMlCFgvDtRNEMN10U5v76xq13LF4xBEGFqsWufkjvh4ACyFNEDgrtLXRobFW4UFd-23nCSWOEOVEQJKcKLBrpVhnTxHDGjwUyGRdKBrLQPzC9P9P79YCLaBhxj3ak-U1F4XSppRh8yZ3o4XHgxfEG9U0y3WSGZcFPbdclMZ7DdwpeCylsJHflX2M-bPu2M5rbGwgLngolemfK16qNVQ_d16spImOfEHK6_C68S1hlutB1lP5wpfo8bnra8-V3EOCU-S_ONFNEliDRCAMcAxpS1N5TPdyoflL",
+        "width": 960
+      },
+      {
+        "height": 1186,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560090932682974066\">Metaphysical Massage &amp; Reiki</a>"
+        ],
+        "photo_reference": "AV-0GLcE-8DwXeSGqAUs3x1Ph7n4QS1wHNu3Ax1H2e1_c909kKKZNMWz_s04mxGYVPY1o66rl1qbMbF4CaOdLHc02SOeiclv9FDgmwM3EvM2EitQ5nH1SxkiB--cfepKi9Npwf2GQB5Z625o4gA8YYKKAOLu699Lzadi3qfdthP9cdFmmh46RR2RkfQvEZY4ciZccUSyl5gIu8e-6pvzU4MWOvVMzTUdAcLzQqjktwShlvtgqrQiZNNtLAvVy6yqv8mQDpTWUE3U4WcqLeQD554qEZAvYR8V95hNAGxyTf2tLJrH7JawRciDcdjeqJ58OTQaxAv9PhiAQnwHl9vNjl4_5adkpsLA-O8eqb4tq_1rIRVbnrFTbe2xQtCDXlE9kzE6elgraih8-Iz7SFww1aLQF_jThxQ",
+        "width": 1792
+      },
+      {
+        "height": 1196,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103560090932682974066\">Metaphysical Massage &amp; Reiki</a>"
+        ],
+        "photo_reference": "AV-0GLeIaeI3bQIHLDwcpfUNmAdrjqOsVjBYL9iRrr0IuiE8RNNdA1DYRdHCH_aVlXpwLHP8vnWrVPMdiEzK5E-5-fskKru6uAiSwWq8PfskOkRa9UTcvhh4Zrcz2PgNjI7Wb3S9n4wjRsnNbGEP82Fwf3ahr71SKcheLS-YxIlVckSCqB-16Brf7tceCgciRFWetXEkIlTsgi3EwJkLvZvF_8WaefmmZ7Du3LWNXXgGb_pbp7FD6jZyM-JEkprfnMB4PJ3eEvbgssom3aRfrFBWWPuMZ3PTJo-8-VQTbQ4LlC0jr9QVp8hgk_yZsYXtOM9PsDSHZ6FpqK5iosiP7sCkDWGTg80fMsRSvakuKz3BbWKbcbKp9Ik9wS46VSg2fPsGfEBgJwoG9EPaqM-_7Bpyvryqn4o",
+        "width": 1792
+      }
+    ],
     "place_id": "ChIJVwRCXbo5lVQRwMXDksTJMT8",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=4553642544361358784",
+    "vicinity": "105 NE 3rd St Ste A, McMinnville",
     "website": "http://massageandhealingenergy.com/"
   }
 }
