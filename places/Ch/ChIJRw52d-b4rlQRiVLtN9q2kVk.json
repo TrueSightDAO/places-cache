@@ -1,26 +1,124 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:58Z",
+  "fetched_at": "2026-11-13T02:03:48Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "SALON APOTHECARY STUDIO 19",
   "place_id": "ChIJRw52d-b4rlQRiVLtN9q2kVk",
   "result": {
-    "formatted_address": "1197 West Main Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "1197",
+        "short_name": "1197",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Main Street",
+        "short_name": "W Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_TEMPORARILY",
+    "formatted_address": "1197 W Main St, Boise, ID 83702, USA",
     "formatted_phone_number": "(208) 968-9684",
     "geometry": {
       "location": {
         "lat": 43.6176669,
         "lng": -116.2080662
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6191166302915,
+          "lng": -116.2066349197085
+        },
+        "southwest": {
+          "lat": 43.6164186697085,
+          "lng": -116.2093328802915
+        }
       }
     },
     "name": "SALON APOTHECARY STUDIO 19",
-    "place_id": "ChIJRw52d-b4rlQRiVLtN9q2kVk"
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112424625312053705715\">J X</a>"
+        ],
+        "photo_reference": "AV-0GLdC7vNlZOEoWugVNjGHf9rvy5tBPUzZwEDQyKyA3R6mag5FFYDXoE5h6J-Xji-mdGzt2Eip4DKfmvkzNhxAR3rM03V0k2UT3jG4cwTodZMel2QL6eR-be3wN91E_go719BBofuKj3n6m0gF1oXetdUuuhqI9OdgGiD_KM4B6QOdIOpN8pNqunXq2sphVAx7tlwQdxORyifq15ULh4RaKaBa-yRirMEHyn7XPLgie18d307XeVerYZVZ4tZGrg_HMBRxcwLCJikdaq5gTH_ARo1W_BlPPHFpqRrEHbWe36vIJ8xINt2-SBH0XAwpHBCDisuDsnUqeQunsEKzvNMbhbPWujGpYIrq4gKoAu3d4IH6Ys3O777kbv5PcvR7eC7IvuhLY8yNaCDRyWJhOfC2FcCf2g",
+        "width": 2448
+      }
+    ],
+    "place_id": "ChIJRw52d-b4rlQRiVLtN9q2kVk",
+    "types": [
+      "establishment",
+      "hair_care",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=6454140789356057225",
+    "vicinity": "1197 W Main St, Boise"
   }
 }
