@@ -1,40 +1,200 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:14:59Z",
+  "fetched_at": "2026-11-13T02:03:50Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Devine Wellness and Relaxation",
+  "name": "Marigold",
   "place_id": "ChIJSSE9uBvxmVQRuKJt5vIZs0c",
   "result": {
-    "formatted_address": "200 East 4th Avenue, Ellensburg, WA",
+    "address_components": [
+      {
+        "long_name": "200",
+        "short_name": "200",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East 4th Avenue",
+        "short_name": "E 4th Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ellensburg",
+        "short_name": "Ellensburg",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kittitas County",
+        "short_name": "Kittitas County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98926",
+        "short_name": "98926",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "200 E 4th Ave, Ellensburg, WA 98926, USA",
     "formatted_phone_number": "(509) 255-3150",
     "geometry": {
       "location": {
-        "lat": 46.9954186,
-        "lng": -120.5456212
+        "lat": 46.99540349999999,
+        "lng": -120.545748
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.9967593302915,
+          "lng": -120.5444899197085
+        },
+        "southwest": {
+          "lat": 46.9940613697085,
+          "lng": -120.5471878802915
+        }
       }
     },
-    "name": "Devine Wellness and Relaxation",
+    "name": "Marigold",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:30 \u2013 18:30",
-        "Wednesday: 10:30 \u2013 18:30",
-        "Thursday: 10:30 \u2013 18:30",
-        "Friday: 10:30 \u2013 18:30",
-        "Saturday: 11:00 \u2013 16:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113108084108778660410\">Jana Flora</a>"
+        ],
+        "photo_reference": "AV-0GLdoQRaOg05Dt6WATRMBvSN-7JReYUnkqidB74cgd4sYPoaqYtnwZ9C-bpKJQE1k9Aby6XS3vyhFvH_owk--eLfgKaXcXcCuSbmVc_S7wCvZVvA5l1uw7LYhNgQqOeq3DqbTBFYxKTmfhuv_Fu116FsqgQHsq1Fy7gXej6h54Zlu8T6LP9wsarH3a5uUge6-QVE1tNui3t2JSLo2xb1x5DBFqI70weqdHbwC-LUAXrq-bGu_6Up9bBGTjdx_pUaWgVpjxC8ZWA_5E55wnKzN0yRh1rJ7Mb88bJUeCGpCEE_FpGTKHYl_nI5C3roM6mAfpGfQ-BhyH6krKio-B6bJULaYWnHKSEJhSR79XCZbXqED4Er0Ex9lLoxF7COkg93jtzsZRRGR0EwadH-9S4TuE1fulFw",
+        "width": 2448
+      },
+      {
+        "height": 1153,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108538121629661681660\">Devine Wellness and Relaxation</a>"
+        ],
+        "photo_reference": "AV-0GLdmou0XzcJPO6qe9IkT7zqL5KJfl9uffEoM_klAOEGJsPM9rpgVIhjictgw2bnWxSmmHWBGhQtlfawzcTG4O_Squ55VpOvE4WiNj6vcRnkqKkw8SKfJtGhw_O6TL7WDQo1EjWMuNoRqGhvGKThVgywR8ca-KXAwjZMzeFZT7EpV59g5qHUQOlFSJRvEbqPl_tUePP-z540CU3G8foetp4IBYZvkZ_RfjeDATiT0A9Be86q0Mobr3hNVEIiJi73zURxx0QSiD7Q7yA48umYzmn3UTt_F4j7MrgqaoDkOwwZMTCzDFEDHgyN1VnwwMHPDMEmkUuC2Hrbn9WbwUOLpwLF9nTK67c0Bg20V9kndz7eIxQmcxm9jm_0QCp0kO0weVAl5VIgzvXXUIWQJw17Ug3UsXrqnG0s",
+        "width": 2048
+      }
+    ],
     "place_id": "ChIJSSE9uBvxmVQRuKJt5vIZs0c",
-    "website": "http://www.devinewellness.net/"
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5166501728562815672",
+    "vicinity": "200 E 4th Ave, Ellensburg",
+    "website": "http://www.marigoldhaven.co/"
   }
 }
