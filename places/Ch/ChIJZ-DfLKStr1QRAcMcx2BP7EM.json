@@ -1,28 +1,114 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:25Z",
+  "fetched_at": "2026-11-13T23:48:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Healing Herbs Sayer Apothecary",
   "place_id": "ChIJZ-DfLKStr1QRAcMcx2BP7EM",
   "result": {
-    "formatted_address": "898 North Garnet Creek Avenue, Star, ID",
+    "address_components": [
+      {
+        "long_name": "898",
+        "short_name": "898",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Garnet Creek Avenue",
+        "short_name": "N Garnet Creek Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Star",
+        "short_name": "Star",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83669",
+        "short_name": "83669",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "8002",
+        "short_name": "8002",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "898 N Garnet Creek Ave, Star, ID 83669, USA",
     "formatted_phone_number": "(208) 800-2180",
     "geometry": {
       "location": {
         "lat": 43.7002805,
         "lng": -116.470095
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.7015993302915,
+          "lng": -116.4688417197085
+        },
+        "southwest": {
+          "lat": 43.6989013697085,
+          "lng": -116.4715396802915
+        }
       }
     },
     "name": "Healing Herbs Sayer Apothecary",
     "place_id": "ChIJZ-DfLKStr1QRAcMcx2BP7EM",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=4894374172120892161",
+    "vicinity": "898 N Garnet Creek Ave, Star",
     "website": "http://sayerapothecary.square.site/"
   }
 }
