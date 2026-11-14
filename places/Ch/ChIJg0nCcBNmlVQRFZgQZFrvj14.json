@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:44Z",
+  "fetched_at": "2026-11-14T14:26:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Main Street Mercantile",
   "place_id": "ChIJg0nCcBNmlVQRFZgQZFrvj14",
   "result": {
-    "formatted_address": "21610 Main Street Northeast, Aurora, OR",
+    "address_components": [
+      {
+        "long_name": "21610",
+        "short_name": "21610",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street Northeast",
+        "short_name": "Main St NE",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Aurora",
+        "short_name": "Aurora",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Marion County",
+        "short_name": "Marion County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Oregon",
+        "short_name": "OR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "97002",
+        "short_name": "97002",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "9222",
+        "short_name": "9222",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21610 Main St NE, Aurora, OR 97002, USA",
     "formatted_phone_number": "(503) 678-1044",
     "geometry": {
       "location": {
-        "lat": 45.2317541,
-        "lng": -122.7557468
+        "lat": 45.2318028,
+        "lng": -122.7557824
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.23313003029151,
+          "lng": -122.7545164697085
+        },
+        "southwest": {
+          "lat": 45.23043206970851,
+          "lng": -122.7572144302915
+        }
       }
     },
     "name": "Main Street Mercantile",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 324,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100016531301666373108\">Main Street Mercantile</a>"
+        ],
+        "photo_reference": "AV-0GLfiZcN2EuxJH_m8lTnD0qTOn_dA_NhCk9_kKayhsWJrOL-E6XCA4RfsQd0ztpalNFYflDowhSgXH1zYO-AdGJQsjqn_mBmVqL_7hoSPP0wlJmBMhPhW1Ow35K53SgPdoeYYKRrajn28rUr1fFT9ZNee6J4bB-NBDmEXI9Lwj12jSR3KfN0-SlsPB_D_vDqhVaKsuYdsbUEpQl4L0dkSzCGCQBHIyXLutU_23UGusgeKvGROyYTS57suUphPmz-BpmybM47kJ_XEKu02ESYkxhd3HKKC-qdY2meZdsX5VH3g3B1YPVFT-Ov1ezlttYrGAeqhgT5HMH7aUuUTgpXBfmvpooYN3mAwJz5WZiPRByc2p85sbdaJ7tbjP9lbMiiEQixF0WdYs44rrNT9oiW2nJyNOsQ",
+        "width": 800
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106674924510546903320\">Michael ODonnell</a>"
+        ],
+        "photo_reference": "AV-0GLcHYxdI7ilZw9VYgXiwCtfu7Rkd3xZJQAgwofl1NTp3kffz1aUzFvx-f5mTeCqgYb_7XzsvNh7-9F57eoyjFipNKHGQy-mF1AU79xKfidZ-KziQEfOMu4rGy4ppqVnxwwwUzqJ_dWWGGsVMGXOP9--DxZ1jOuIoXR8NEE9esCVeopsTctM42YCdgar2pwJThd7VentmSKlq6tcZXrh3HTUgMc7xCgoxjRl6e-K3GB-BKfzpao0jq8mbchZ5K4sGzVp0KMeSALdxqJnNv7Y12-OJOa2_NKph6J38sFMI-e2eo65ReKl1X3dmmQ7-ijXmRTrPf3c5V5rYw7b-Sag2duKR1hOJBMl81b9WP0Gf8F0nB2yKJThlLYJA2WFWjn72fBrrIATknWooBVznJNNuZmyUkf0q-Yk",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106674924510546903320\">Michael ODonnell</a>"
+        ],
+        "photo_reference": "AV-0GLfhD7qvdHPjArxHJ-ZaXN5szeeDy2W2rwt-hmuBNxTztgv8fT58dT0OBOQVE_wbEU2xMcWY0-IBYKFwaFCoGNb_ycShFt8TYObgLdLkPcTQjowd7DIjDGbZQaTEHE0oGdRPhsQXo2Eq2CSYvcVleKIbpsXZwJYilHGiG5N5t79L0rGqbeJcKDgFkBRLSa05_dK1JFn4uUWFPO0J37Cd10Drs_iUBCX4DuUtJKqDH4mWaGBLwvEfBvQLazeFc5oOWQNemOywSdhnkf4quhgi_PjSFJDvz7r90HKG-_9OMtIzK3cBb_ZdVUU4nmrZXKoA-mMiR3r2JX0zN-pMxk9-gNnOiiM4oHi-IB5_1LKjx2EGcrCcDvVHZ0d8KRBMBFRu9ydX1bHFh0hbxgjMavo-pjY_cjg",
+        "width": 4032
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100016531301666373108\">Main Street Mercantile</a>"
+        ],
+        "photo_reference": "AV-0GLeWQNDlesSprdeGqDZ8Lly0PYofuyPU2MmqO3eTvshiBPj6vN7JVeN5TbjQevIZP0Hojc-HRhH_wrbRB_mByRrHDc17EM6trHE1BSTOHZYbF1pVUgawim9AANTFxRzsZHj_SBb23qS-8asMaNCvpNhbVWsrovYwMm-50LrsmdcxxUi2vHZovt5vftWkidmMR1bN4jkB7Zt715P3rEoDRo-fk3icJNujEmYXo-IT7rY0fJav8zSRL7jxcXcrVNs3s2qiA5d1T4BlVpZXZ2tLIolFyFDGJOHtFx_8CHZAmiveNPV84MnJxEAm8Rxa-wVRf2pm5xayhFFX6T2sibn7ONlaNbytpN2pYlFXHCWJF27RNiX3B7Y8C2d-xwuJFHRHvUoiMcGCIZ-caWEgX_j4eJVRbV7kU9Q",
+        "width": 1920
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106674924510546903320\">Michael ODonnell</a>"
+        ],
+        "photo_reference": "AV-0GLc6zscz1hFsQqaqLVZiYzRDR40P2DcgOcK-VCgKzMFx4WJgJIjsDU5eGO0nHAcNfQ0lZac-oJkD3lez2Q3UUtDj_9duaKakTlbEPsET2b4Rkw95CvuKSdW8F6Ec76xGjRf2mPOuFpnwllhuVt58sf4BmcKjH9wP3rAPcYnLmeuFrK94tW_hyO5mVoKc2M72lJvcJP6rdE8jy3B2CXovj2n2WZiA-DfyAM2pJSQcdRrK06OackPBa_WpE4tCLmdUXnUKWHaH907GMY9p_-pJ02126hR583vyWAxyrGTd5Y1Vk1NblSyV-ghxaqA4yxUanlwbMWNByFaRQABHD3A5z-OphrmXSRcfutZ5ToqXDsXbLZaGdWdYGX5Sgp5bV6czRBCLBHTKQEq0PZFpxZhCTJaRKOjRRNs",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106674924510546903320\">Michael ODonnell</a>"
+        ],
+        "photo_reference": "AV-0GLdduXiUMhV-zU1EvMVeoKRFt9urQratgFXx-y7BCm3ztXhYL5UyKdMCcoZUmX5tPo3DsruYNEhL6x7o7gajb2ivPNO2gT6Ox1ypVqGMD7naPXcnV1nN4AKA0mWa5cJtrg-oTg7xtnFaapotPcpWmFremMPGWretJu5LiRaC-3487-7uBYMJ2DXjt7hP3-WzRQzNz1a2SQ7fD8sAcwrPY0-EkchDsdLxQX2RYk9xJwel_YlKNq6JyV-tqa51OQQ5bQ2dHH7BX2MrFXeY7d-JrD3kF812i3BAg6nyqDjuN2f4jy3Ez-5oRy1EOk3H1U5yDaqrl7vzO90O1zfo08Xi7MbWusWCjXk7xRHUhLdRjnX6n_5JqCjHmyjU014GlmS-MblYKF0DEy66wUmXXx0fp0pp98ZziY4",
+        "width": 3024
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100016531301666373108\">Main Street Mercantile</a>"
+        ],
+        "photo_reference": "AV-0GLczP22AcHuhrVfgvJO61koa9c_wErSiRL7TCJMwMD_AHENmLTMuoJIrCMgH7uYv2EwU60KJDSmmyR_SyMcROX_JudnaaGRs4DlWD4Izwcu6-rw6cVAYOwnp31WiPKnrxk52t0JxzpCK2BsYr8ClmZka_S_ChIR2gB2rp9cAAK6mM2QoOxQfs4Ip_gaA-yhc9GbeqPaRJwCYiUUdT1dGRNGvo0e8RS943i65gQndP0ePfBs9nk8oPcou7X4v8HjkDVsTAX8S2YHJnaWj0HNEXx1y18AJODnDI44EyxQqwwi5MKUx55XMVJ7XITLTM3ZU3dYmIciOiiMXt1Lb-diK5t3G7CRKPHRqPg1wK2CZeoM27meeB2r594Si4zWZMGN9-HGHNWIdd1Fqid3svObNs7Lemb5t4dY",
+        "width": 1920
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106674924510546903320\">Michael ODonnell</a>"
+        ],
+        "photo_reference": "AV-0GLf4LVm_hlBhjUV-IG4XtShL7cs2FyTi4Y0yr1sHvwlFuO8TpAsnC5855YtauYbSqR4uNIblHCn10rgZA1ixSoUgD2EhP6GN2QH2__QTzBBNafS2j2jPsCMDLXvTD5zsRfu_c1JQPAOw-A-jCMx1ZpTFy9J8jLZYpTdrRTLaM-PbwpA0BIfvq1ECkaatqneXe64ffWHYe2DtGQp21F_FkN9DiY2YPZgRYwM7GCLGasBoL5dhIDLPDehwxi1OTXp3mEk4kVHdcq_5YKqiIMaGmQiiGc2BWy6pNW4xNgTqubt3ZCu4_C0FSLwy-CGKodkmefHpD9ISKx5BcpXIh5T-a9OdrEe6WpsF4eLBQy0qIPfCW4MjvDhBG9BrRNubQR5oc4sIpsmt1eD1Z_HC07ZpO1xvJss",
+        "width": 4032
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106479544564095027260\">S Fox</a>"
+        ],
+        "photo_reference": "AV-0GLefTEG7i9xHE4Nh3OJNWGAfCNAk1mXiMWma6W349GsyXPoM3PPk2EuTvEo5Kd2jhsAUtsRemCW1FT7FnrFdrpGVp1kdIdawLzvHdC-hzU11nRmH523q-DfusGJdGMS2CaK-8kedjJx5WB4nonOxrab0ooekrPU1glhbF7O94XSfwkrsKdGFP27mnL14wyhxrVkY65yI7odiYbdWaJPciHxNRwb5yQS5OzbfMdpfJYkoZSjLaCztF02HwgSAmNs2_iGQgiW-MLNfT-BSQejPglC23I8Cuyp5t2TcZ0kfWWfMdyVy96qcPBMWrMdTpavIAPg1-zEH49cGE0nIs74YZPQK8Fm783A-vXI0gV3thjyy9wDlBJ_0lZpSycv5ERvo1I9jVMKXfn_mG2kNBPE6T1xn9nY",
+        "width": 1080
+      },
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100016531301666373108\">Main Street Mercantile</a>"
+        ],
+        "photo_reference": "AV-0GLd0VA2BkOZRQ64WMh8RUWbiaFK4f08gZi8uaPsnxO8h14Jl7g3pnINVlR-IVP4yNB9IX6VJppjFKq_yNakZ2nsKIwzviHV3A_H7yx8SHItg92w0CmpQ7sn3V6EW4yx5iHNbl4F6haegVuTIyIf9uVLqPp5eB6_Seec5PpxYY4AFpF7giTvo8IgNrJC9eogl7MEM03U6AggSqktMam0Ok_2CI5D5lU7mDpT-KNMuEsodrVKcWnD9Q1kdfgnGYLwYENPKQXoNT6l_6r6Xj5CDTA7ykbHqa4A8fru2tP6YllGPfHeWSWTTp6I5znqzchRccM3yKze1p3Ls8zVqbZhiTFUfMta60XxJsG-YbfAwIKFTkxyf_5pzAZYVFQIKfCFO3MNEiRUHjEMsHosZBfDRLYZ60hM",
+        "width": 1920
+      }
+    ],
     "place_id": "ChIJg0nCcBNmlVQRFZgQZFrvj14",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=6813927932739754005",
+    "vicinity": "21610 Main St NE, Aurora",
     "website": "https://www.mainstrmerc.com/"
   }
 }
