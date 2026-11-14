@@ -1,40 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:01Z",
+  "fetched_at": "2026-11-14T14:26:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Modern Apothecary",
   "place_id": "ChIJm0LT8vH5rlQRGqNNOPeE6pU",
   "result": {
-    "formatted_address": "413 South 8th Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "Suite B",
+        "short_name": "Ste B",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "413",
+        "short_name": "413",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South 8th Street",
+        "short_name": "S 8th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "413 S 8th St Ste B, Boise, ID 83702, USA",
     "formatted_phone_number": "(208) 805-2450",
     "geometry": {
       "location": {
-        "lat": 43.6129935,
+        "lat": 43.61299349999999,
         "lng": -116.2063032
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.61429673029149,
+          "lng": -116.2048629197085
+        },
+        "southwest": {
+          "lat": 43.61159876970849,
+          "lng": -116.2075608802915
+        }
       }
     },
     "name": "Modern Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 18:00",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeDDtx7hs4AMi5F1OkgwvwoyXP22Bm-S-HXkQ7H0YDa_oe9fPTNIbm22pLJohu3TLKWJkZZvJd5oAmgyuVjbWUAUHPpGh__SC6CPwLITT5kwgyoP08xVgqdFRL5xKBQMXGSe1VB4IeZR6gsd7hFckKk-_paatMeOCDgM0yNpKQUt_ALA0cNP0LUgnxiKbR13h2rDBBRwlCJ365IKFqQJ_sTOE5tKIHZiztNRwPi6VvlscxmiDGUQ7OahPBkUcdE8QpF61IshRXp48WL7IRiz6LuWRHEriz4mXRPz3rysL4yd8mkZDqMbOuS40YssooOzxwfU2Bt2wKTPlhNLo04Bn5YDvG8gYMME5JaG8MXTi2b5P_SnRqt-JbCIWgYgZch_yaiP0sQ_9yJ13ZBF9xSyTqzAm_wlDURXOcdFIcvJreV2Q",
+        "width": 3600
+      },
+      {
+        "height": 659,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdma9sSXtzMDjlgZwAAK9RxVtbcLlLamlznV4cXpon1TjZD8ptq73xBjA8TajOkGYVrORD4owTK1dLXyBa_Q80bxtR0P69dVZxX4VZEh4aTu98d4kh7nvNtV8B5fMFUorobGW_uUAyba6s72h1bPwO1GuF3h0tDtEec1dyngSS4dKpAxtY4tSrj64Uq7i6RbHgFD2l-hLnC2s0wB0Dz0yIkxLDkavHsVXafGmozLJo9oUbznPk5v56L7eQJZor8x0v72NSF8d9ZfDvgfIWTmT2sfR5Qg2cZQ8GwnByOMSznJyzm9SCSlLpx6WaDi5qy2lMH0VK2aKpZe4IYw8HWNmN4qBk_vdcElnJy0IbUBT1PS9bZJGO7why4Vc6QsnBGc9F4yVLfDuxsRXsKe83CTaN6NmPjGgR7Y0POo-RIzZs2lA",
+        "width": 1170
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc4gUN9qzxDI4IeOZo89iO3p2XsiKTVDER2xVZjFxgO34kz5rYcqQulPulqmN0sHOUgLjgfYe7ibcYIhFISqldw8j5M7d4ehbdew9yWqgJetuppQLi2LppHxumtJr1VPta2cXLRh3IAB8CgBUQ5ZXEiODxhNrTtInSWO91aPpiPh-jV5pWfDds8Fq5hCUV_BiBa095UTfCvmExS5phwLIiGsud8OKcF4T09_73xlHCVzcppbjub_UyVJWyiN0PaBZrIz8A9H6mEven_wucWISJdhVuGVxV0PkCm4GXHo3QxexMOMsrQ2WFj3WB62Sbi1MHISLUwsJdziDJRTj7ptHNicP8O3TiHkhrf7TDSza6kwYNKVmTxKxws0_TLfanU_G8zFHkKHL59yA2y-a3RQMRzbMs19B0Sh97-f1Rdpuxt",
+        "width": 1170
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcU2vRSzZyxQiYJXkLEO3K0-lnI0eg8w1i1T8NPmlHEmdqrMWP3FolCUmzlBjT5lluoiR788kQKEISvGtKGCM9FPzlGbUWnl3ml7xvDNHDUoRhUKD0Oe2j1Nq8dKS3mXSlCLqKx4b2jkuh307PPyuCg-o9nzuIR0mCSs7_KMc7NnT1KUUZErp2Y0Knr8id_DX27xFUxrXKTnThcCJz2W80iRqAsxMkE0Y92LPgZk-8A2-RqP03j07sCfarBSH7fOi1kNHSdHcbBH3ow8c2XT9P9T7eTsFoKW5x85Eza53YQqH51sLfasnrWDuaSXVSUN3-1Fp6DdGndNpCgkMSkfBSoUhpoOoeH3iZ8kfysSXuy0NKv5ZFjzuk77OZ_nKFlTRSI45SC_PKavUvQ3oRJs8SeWrKCje6RxDbSH2zo65oGCw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc4y_nDPX4vQjq4FPzAVaKyN_5HQWvQmIRcasHcFGu-XgB4toHvDwBbTtR1wnG1Lm_cHPdhr3OEkZrPbPyQo1cfkCQmRDOnssdpopd5g4g5U__7er_ECq_hPiyb6mwnPMHl_H5qBSMbltqFKaWFGk7ZIAo16JXDKeWgANONp3ZsyMHlDoQyng4sy81FRY4O8TMCJEj6IobOAnpY_PlxRGAljjsjk6UeR7tU1uOAGA7sAfvFpt9Z6rmNqnxMlUMuabUELiz9WyMxbzu2ZPfCot6C_bEEIX_KnTDAQM60RzzDlBG-1FZfkPuESkuDGkfYfduscda0S4WYBTuqUINDN3lg3Hi8nOc1fZtXqh2WDVmO311S80Xt1PfeWQwr2aFW7PCGaC8kIaUFwMnr7M8_1mx-UfeOSMl00gT-0tvE-ycD",
+        "width": 3600
+      },
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfYlsQa60sb1DURnrnbx2K7AdTtRymeu5wR_SHKnA74R-dIpffx6s2tOQNPOECHO0TYzroRLhf6LjAS-56SGDCaaObJU_pG7KqAx3CwfVoUds4hbLO3Z37Tewy0WMnbULZ_l4SESVPnynS47fFcOmY94_OTIUi07jqkHU2lBb4-bWv8t1ucrTtAFnl_RDzzhgeWsOD0KZjLxHdVitXbCtV2Dv0062wE2DYGFeL-rO0pDprPNHwiWpYAK7sZZahhwzQNAK3hrrhoJreFdl3Fnv2YAdnQDxFomotL_eRyPdta0YBH8sKwFDjARxmWOOfbdtaDtrzenig0yquQ-IdMII3K-6025-5BL9SeReFk7IIFItyRa0MrSKVCri-Dy3pjCNfKqsvtlFRyUT06ZeIz2iHeNdT0NgW2TIhwAzuz3GsG",
+        "width": 1170
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfdGrGJkGyd_UCrhN2l1VO8VvzQkKcHUVzXx3nL6lOyCAXvzkfOB_ERP5_icyfTmnxXxbs9CCKnP8tINSPL1fWRrRKef61Mr9WAMNmH6NuSR_gTg20ee2rgeVCdgtaRobPIWeT9MUZ4YU1ExpcmfzXLSMvB0lMVahxwgnjIsHVwiUIU6LRq7XvlDcl3x5SViPiFaIZthXCTOpXQv8_1BVMsnDWnk0-5-f2db-5mZfjJ5qe8UkeJkWqxOopPXOTCY5f2s5UUnnD7qP31yTGoAKD_IxKuLXdmJ4qb008-zCaO5f6MEq7iNuriepFcaYqFEDhmnurVn4R2nOmA5_--XcDrwZwZ3Hi7E8hmi03gqqjAZq0pBoSZH-UdkK39JF-uKfXnLew2Qt8Tajg5LymHDfnqehF4H5zz9pzTwU3aZL2MCw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcI2k2_uVX_OaYpjeUxoRqXH-0ibWxtPaNj8awYO4H1rQpR8SVZGGqG4g0c-uWmqdnKSTrncsCcehzy8f2vw-Xq2VoONUuvd060f5CFcHPz3eAGmNB5gkGIdJTpv5bSUNx5E3yGElwKJOT1hfqDk8J_pmL0zQSIQMi4bw4wunWd9eN7lKkLz6bDuXzTnbOgLTv4YQ76D4zyR7MxJ4NvvWdzkf2g3d14GvbXBhFk4O6uK3FUgOB2wJDFtwoF3KxAXAcO4GsyQMT9IsksXPpjfR0-Jwet1W9XfPlRsbKS6HKCRYYliQgLvLYz2h6S6D4yM1WMXhHPeS9dE4jl-4lGg5TPe9RpDoD3TnSbM_MSzrttVuWBk_zKlHN8aP5i__IEoOE337u42eBxIJKjdQeeIwoGV0E4uOIIyqAWv4fA6RO7",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLczyhlXehz2Jc3-TqntMfBAWfQgDE5mfndJEeeCeNtx90iA1gVHl4x0sh8OuBTDRwx8gUHmxTHJAIVE6-MZED0fTSnqQZ8H5SW0KwykqjA2fDnXj0Jj4ELWJjbyraNGxhvlStAaHr41-59vLImkQcW9PDerhs1fTkyRthrANjHg7aWaZRd1S_21Xarw_fPJ7l9x1Rc-5Rd-ondCBhowLfAUzbMHquPeelD_dQ-72JBLu94rhZXFFLPjsANUgB_QXNRK-zOdnDpvRcp9Ty4WlVQQAMpMWEn_GXYzms9ZeNfW2mdehvcPS0-t4B0WUyLlnOGFqfVge5rWatL8VFF_g7Dd3NjR7dGYDN91qyPAMx-2AXARNMiYBDXFw_mwb1PP6k_Umx4gHkrE7G-m5F9OKtVngE-tqyLZfGUxAube6mxd8A",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101894857821343514806\">Modern Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdZsdj5TM9ECx5xScRLu9WcRsHSkXP3hTyMislFwDySi3waol3jUStoZ5u71AK7VIqZVM4-vOBBQ9Gp0V6K1zsx9s-RFD-Rjt1zvRCjdkBW1bmrLGU9MY27NPnczH4nInMl7vfxgfCg5chc9c7C25D1UpTgwk939C2SdOGDk60iWmDOoVZNCJXWSV2DDC0Chdr_JPtxZ3Epj5gogsUi7VN5sO-RPWOoEAh4jpxAGlC8Lelch7o6J3iKl7wCbSPrWh2VbhkR-Ge4Z_OYsZ2bkoGQuIX_V7K_hsePDw5ngN90K3djSS-NYolqAkIOX_aFqSS3oNwvEE70EOTHkKYZZ2CtsdDr2eqrvpcf-Gv4Vz4wPt3s2pWg9rC2_SinGeWyODmN9kYTdtxJP5UiPP9mRFIhrBLesZh-LpIThFjzvJnlIg",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJm0LT8vH5rlQRGqNNOPeE6pU",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10802592853537956634",
+    "vicinity": "413 S 8th St Ste B, Boise",
     "website": "http://modernapothecaryboise.com/"
   }
 }
