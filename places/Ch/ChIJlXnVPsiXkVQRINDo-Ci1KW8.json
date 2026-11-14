@@ -1,40 +1,251 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:58Z",
+  "fetched_at": "2026-11-14T14:26:33Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "The Rosarium & Rosarium Blends",
   "place_id": "ChIJlXnVPsiXkVQRINDo-Ci1KW8",
   "result": {
-    "formatted_address": "408 Washington Street Southeast, Olympia, WA",
+    "address_components": [
+      {
+        "long_name": "408",
+        "short_name": "408",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Washington Street Southeast",
+        "short_name": "Washington St SE",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Historic District",
+        "short_name": "Historic District",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Olympia",
+        "short_name": "Olympia",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Thurston County",
+        "short_name": "Thurston County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98501",
+        "short_name": "98501",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "408 Washington St SE, Olympia, WA 98501, USA",
     "formatted_phone_number": "(360) 464-4503",
     "geometry": {
       "location": {
         "lat": 47.0446715,
         "lng": -122.900238
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.0459964802915,
+          "lng": -122.8989694697085
+        },
+        "southwest": {
+          "lat": 47.0432985197085,
+          "lng": -122.9016674302915
+        }
       }
     },
     "name": "The Rosarium & Rosarium Blends",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLf0_nbB8-6r2mUry-C46gVJ_Se8VNGp7U3mKaDIbStyoLQTxj9_wtwBfASPTOw1wFIs934DxUZzJKWjQ26Sm9a3ZsFC-0Eq3klb2cCGVBgITtqfKV01CrL7yzaJFEdAFcKlFNg0bSLtdLw11i1-Ub3FfaNdvhe3EVITKM9Ywo6oNAKky_HyyebGoGn12mz5SFY12Ast2XarT8jmnWiLhEuDkwkOAnNlgSDOAu8jsqmXy_lQxISyPfCLd2rvSVQNzJ1S78fOzt86LEvG3iflIrCWpl4Df5uKOrF0nRvRa_WBITczUUvP_phJYmNiWoRJgjrClS0_O9m_7GaKL3VhaUY6YT1aF6-gxZhJcQIx4m-FF4Scv_RO9seOGJuzaUvgNJhZFNdgTodSXUayEjxGoEML4uzwITukjua9OSUJBMTQGA",
+        "width": 3000
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLekUOdgcVANPlsTIARdgWz-F5595FN5GEXrU7rOxxipHCRu09Ve0biXf1jf0TaZbHrp0uuLzyB9Uz3YqvdKTJ0PTNc0FrGODhp9S3Nqv7IWUxZpPE13AUUE9syW0gyyQ6b5Zo73VjEi26R2pjABSfIcRwM0hcUwcLX_7I60_wmdId56gswcNQfDO02ko57eJKEtKLb1RR2_Jvt9ikJ0Ji2UUB3h0yfI8b9L_11IvqSt3KfZs90dfzUcsywS9f2M5BjjrMofj7wod-H7r0WZhrculEQblA9buML3ExmhpZ3i5Ovezg256aHwPBYhcd9y4fGuddrfAGwoSrmmJLisCGgOUWPUttufik7B4TN6K0--Sm-0GDczDAFjV_vPT9DmO_BFCbWljH-Z23J3oLGyN-cE92-JlGb1OazQeEGHouq6mQ",
+        "width": 4000
+      },
+      {
+        "height": 466,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLfW3hDwOojzvjDPpQhuEUJwgI_Twn_I7oOuu7RVGdPGS-GMTLBKMgIaSvdTD82OU-1RGWoJFp-v7RovMVqYzCGsyfmUnQ1pruv3xKMqskZuTaCHUTV4qUsC7hrJr821prC0H2LGVKt8WETg5AY6apPLc0ARr-bgpL3i5uU5Fy9KAR4MLTon-oBGDoR-UKJBz77JQxdw-Wp9iR-dhOCYj12epi41maeDHAExUyfqxk1MgExbXzNg7d0i7I-FS95QVUlqthku2rZGf_kv4px3PaLnBH258uRPMpHDMlgATteZmiLueNUm7Kg6xsU5v0p9fS1Im74-_UbjdfEysexmyo1loAjdRsEUd_fvdsv569LMpfszqP6cVdDErliINa_wfy8AhP0Qjkk9JiMokPss3F4IzQ",
+        "width": 902
+      },
+      {
+        "height": 1182,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLfm8wiPCdgK1jG149KGPeG_oMtBMC8E2CmB0uGVC2wiFvdKwjLIxSfXiQB_-1iv7gYGHQrbHxxBfv6HF2aIYcZe40YPUiBFWDSJWHpWZ5U9QKpaxKyJAMaYm54P9T2r0_T0tmeyvRX7Akgn-l-DFy9u95ugUX2W7l01C0wy_YDmIfKUnRdjRnpIWSdtp46o-I4M8CyzdVJ-XJbrZ9wlqDfcnLIQbiQ_AQSO4qsGvD424wDOa8pNDmkokLxTK-vAO22-3hptKU5emx1W04iE7CqDFtxvxFrDY7dg4FVrQzFNVIfxwPlVeVZ0IRb3GGMQVqSEY067PNBNf4N_uMngZMWp2iys2JQ58je6TfAm5iz7ROi6OcRZSQdKkFf3fFtZBU7BuYpiRt2hHRPPGXzoSz6G8tQ",
+        "width": 1178
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLe_cLvo44Qh4KRLbgpCrn05PWtQmKjIvPasgbdkKERKwlwVlNOS5WTZeLKu9aeT5PihYxJVUzlCXfLXeMWOUbRcqeg-hcIJXiZDcnaTveBle_DSf4bVFk7ZLf-XfxWx2QID6-XUxKJss8alHB_4jk6d5DWZVK4FrCctv_ycwhTwgRUQf9mz5p04kxjUF-By0d2Y_4B2vyS9sEgWBh-AZFLVPEztgd9afVr7SHYXAYdxFdr_UFX1q3UUuxYKwA0JRNQDD8ihvuO4gZZDrxJks_F-H0uMPy3ZqcUq-tB1q3OXKoa3y1LLQohHY5iNa6MSQRKxbJd6FGABpW6-ig2qTvyfE1Ai7oZbYfBrDifZ7NzAtVxnIt34rXWwtbR06p-qLxlGl7_VPOTYpHOmGu9wrgEzUys",
+        "width": 3000
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116324183819056343331\">Tammy French</a>"
+        ],
+        "photo_reference": "AV-0GLfb31vWrS_i72puHuPCbw5O-4m2E0N0Q5-qTMtD1olXdEQQGfqGDhuvi_19U9eZOmLu2n4D9RRpauormqyznJYxHU1-DrVVNRzA8_gfvweCqN4U-gFwnlm3AYoBoFvFzUSqnVCoDBe5gEp47OQZTE5spTcgjVwvc53TvSBJiK3KtercGL7Eox3AOAp16B4OzZ8h4kArm3PnVzvuI0u2ooooD83SrdZAcn-UNfoLyHY5IqmGA1roSUEQIxj9ze3gm2FJjVIns1HWGKhJEFmrWRCo8X7n5R2itc_bcxgFX1BtIu3u14fGcRVfxfFt_21AFh4lY5DpacJ19Ov_WBHLw14xr-4U8tyUCm2vCGmZ9Moz8Q4P_lsO_0ZhDpw8DiO7dpl-EDLTIqz4iuzGAzMRSMrFPfAWSpWjz2tbAc-kpy_Xpg",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116324183819056343331\">Tammy French</a>"
+        ],
+        "photo_reference": "AV-0GLcAul5NYfi3Vge3iN8t0Vv8cDie5moTcfRxnrr6GK57MneGgncTOFBjsWxJGehXyPmCy0mJSZnfcKLQJJQ0UseSlD-hnpjmFCNr9AndYns2J2MbF8K6V6Xnb6_bIku4n2REWPd2xr7sSdeNnUvynRQOmGxebn0IT3XqBCWOsQcf7qWi3SJkMucOSEY9mzYflcyb0A5icwKy3Ew4SOmlDtpvGMc9_4cxXvRweG5a6vrUMB2jCGLsXwta6m1DTZmpD0dhvusHnXwt-am92NWIZBkmpVn1-pCp2CMKai0ckDzyBgQ3DVdZI5Wn19Z2K2LGmm0sVDph5aA34hNxewt7GQSQr2yIVKtz6W2cyypCo7w6E1cfwgsQrB0wNlB1Ndv_24zCSv3Hn1ZbQS4mHplagKiT3dwpJud6Le8GPcJjRkIsng",
+        "width": 3072
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLda-TBOiIF5nD1wijPjQN7uHDxQzIdizpJEH1aZdZAQqCUtR51b_BmLU_bSTqvOh-URAF2QTTf3vBAjO0vcyLeQyNXMYqJdZTkDsBtSvwKKlNVhpFVqCrI4LkMNtDGrWUaZ2_GZo4xYiVf_Ampd4yb9NGO5mrs7KRxzEVKeb1vpCCSVlgeEK41uvRxKZ2ccU4ePLfpHBAbsmVwQTbyHZ4NPwaxKGbupT-Fs6ZL-BBMw8bnFUhJ6Kec5bU4b2OWjVmIEAMG5H7l12csnHe4Z2-DUV449j7xFI93kf4DisRW3YL8GD3UGnETSGY6Y2zb_8fz3SbI5FPGVXyZ_7Yl1bJqY2jpJwf4pqEpGSKWm63BtPnImNt6KfjeJOarK4HEqTYrBtyy7Kdou6prJVg9pNTgR2ZAQYW7r8oWzPXdzXT1X",
+        "width": 4000
+      },
+      {
+        "height": 2712,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLc1RBuxsB3xr6kxvW55J1DX-ap5OXlKBY7uR87sNwTnYhVTGKqGPs9kfoksujX5875ibnghI9ZHtaQjAC-vZ9-qwK3zmfu9YtGa2talqzpC0OIUEhPo8xS7d13PRx9N0j5NF1O8dKx20XQvbqrbZEYLIO7qNX1Q_9myw4wAeW6Vc5ElzdIza20cFnb7O_szlQASYtV6Ml9JCXVw0ot0VpjaHkge_o5FQ2h4844-pKNekpn0EZhwMMLxov1kdCyf8PWHK66DOCDA-PmxzXFduE4r_ufirUAUaMPAZtz3QNhKAlD5Ksy6BKSIHFPzv4x_UcJVFV__-ssIs6GjzrvFwnHhn9_KOTEAWwYQ8r-teEWkb5hyRZ1l72GlyKV47cCXNBo8wwR8Lwiba5tKgLcZyjxTyYk",
+        "width": 2712
+      },
+      {
+        "height": 1176,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115217950581219712444\">The Rosarium &amp; Rosarium Blends</a>"
+        ],
+        "photo_reference": "AV-0GLeIv7Fs76zJw0zFC-ivZ1VWdTOfTo77SZ-nEKMh8S9vr7abmyxSfEdw4RV-w6SSkMtzTMzxeClW9TvqgMhdgFKLcPQ2MZKHG-vFqmHFArWbnnOPZ0ppoo-tltVMLO3XN61tErYtejF6nMYcRTIzM2r2be1nRotc-y2PwI7sQKf0E1_3cPmYeDh1bbAKxBhKU7JcFBBEm1yGQCVPO5Zuz9OBkXe7oPVI3UJiTrX711aEDKvrR5ZfKyWaGZwhtz53Vyz6k4FgcvIPzAXu-ci_NqrAomriumZ3VHH8jcImJF-9VlExjYJygFQ0QCf0EAFAAo8nbZOc3vchXch37VZiTEUK3dxVbCHSrFtqExr-w3X4ZqSD0o1QiD9ImWnc8ira8506QNnKp0-D9m0pRIS_Zztzwmg",
+        "width": 1186
+      }
+    ],
     "place_id": "ChIJlXnVPsiXkVQRINDo-Ci1KW8",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=8010132599834464288",
+    "vicinity": "408 Washington St SE, Olympia",
     "website": "https://rosariumblends.com/"
   }
 }
