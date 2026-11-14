@@ -1,40 +1,242 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:03Z",
+  "fetched_at": "2026-11-14T14:26:41Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "208 Med Spa & IV Lounge",
   "place_id": "ChIJmb1Is9pnplQRLreSDW4l1m8",
   "result": {
-    "formatted_address": "125 Commerce Street, McCall, ID",
+    "address_components": [
+      {
+        "long_name": "D11",
+        "short_name": "D11",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "125",
+        "short_name": "125",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Commerce Street",
+        "short_name": "Commerce St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "McCall",
+        "short_name": "McCall",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Valley County",
+        "short_name": "Valley County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83638",
+        "short_name": "83638",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "125 Commerce St D11, McCall, ID 83638, USA",
     "formatted_phone_number": "(208) 408-0976",
     "geometry": {
       "location": {
-        "lat": 44.8970698,
-        "lng": -116.0923288
+        "lat": 44.897065,
+        "lng": -116.0924
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.8983712302915,
+          "lng": -116.0910793697085
+        },
+        "southwest": {
+          "lat": 44.8956732697085,
+          "lng": -116.0937773302915
+        }
       }
     },
     "name": "208 Med Spa & IV Lounge",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 15:00",
-        "Wednesday: 10:00 \u2013 15:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Thursday: Closed",
-        "Friday: 10:00 \u2013 15:00",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Saturday: Closed",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 270,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLe3ZnVMrq17hBxyI7e7bgRPkcmZdByvYBdSmc7oG_J99YWo6HZHd3YY0bNK_Xk9gfLf_SPs8q3OlmjPFv3s9gpCTL8ZPsk1bX28v2QBFm4mPK0aH2spDOUzfijDuuRcaUK11taUT--O-gEe-jLR8c51QM7kcdgWyT1vbH6yx88iCOlFGJVN-Jopaqhu05JSDa0CgX-baidzM0dVqQsbup0x7DcZlywooIHbMpH_wrMGe0m8Sd55PYioaW3GXsBS4KHBmb882g5fLWE4s5rNkjISV-_HM2tYI5KxYHzdMRUyi4iL9Di2Qmv5wxedc4ApO0y80nrnFduFvWQoTb0YlGQW2LA74JPchq7H5Xb-c82BfGMWDq2OaHTyS4LjvHGRmtgNUzuHMENvvpnKgvb4TO1eyboar7I",
+        "width": 480
+      },
+      {
+        "height": 510,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLedCcTnaIOXhmglUTQCBVMeaf4tx0DJsCUGC6RKyiGCPn8ler2Jh59u9Tdi08d4DL-Y4jWPbbsppOXIkcb0W1DAmeCtQA2miOYEZWhGFQlvqdl9xqptMxlrEXTAQwKdK5XCfUtAi1w7t_kUhUvrGfMT6J9OT0yGGOAG0Mq1G3U_v6hcNVowQjEIw_v95__AgdHl8TXrNB7TgK1plsWh38ivykSMLGhSQAC-EseGrnuf_VozZja8dFIV8XPnFNMODRpOoMgKtaXNvtGFnDiGtffjorTrU5itb9OhzrlhFLLA-NiVC6S4z5g8DKCkg0YCLOD9KOdbW0X6RAtFMCS6kOvIyOUfUSQZcaVf_M-qLdhmdEloD8u0MCgG5nEiaelRr93ENVFhaO_FxqIEpE_0h3f0bjM-NrXAnJRwqitgTvScAg",
+        "width": 765
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdJks52uvTxuOaC4daCz_yZq8gNur_aecv7XKTokptHRqJPFfb65QtchVNONIaij3WJLWjmqJH5eQChlmUapdt1AA6GJ8oyLsdCxD47ndiLeilaEciMg5sybyjoXUWpwuWCLTySRwxo8lnHXh2IPF5xZgJbHpiv8rt99h4U7b_pjnOsQXjzyE5iknmcdF0Gt_Q_HHT0Hom63X1ENEmVjxPSQUApEGmgLwO6U8MBEAWXbr_W3gGgXcoGaeVEQOI5POc0BzuRDU9e5u_c-3kKtGxa1Bi60TVOxgOIqu-axSCCL-uiqsfKOOJBvXHRjBb8VpDMP1rVUro28zDIhfDJj1SZ9Rv7eZFNrVF2ZaSvmqDsTkIBwWhDmv5dxjV2OmItmd8UyXz0mTU3xEWKW0XxBu6znXU5hhU",
+        "width": 960
+      },
+      {
+        "height": 2011,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLfseitD-O2uNqMG2Qe-mOBWtpETdLcSoGOnw9Jj8xj4MziJm9Z4zNbM7xGAVYdvppRFhpkCZAYiJ6iuKSPTUej_xRH72_1r_h0fPsv9ftNGGCfd7TGvyHfos7rrgvVPerE9eA9C7ZRRBEKECK0gxzz6bt4YHxPGD_A4qHkItt5IV8_3pgKgdCPyQ8Yi-HDhq99dGX5QG8yRMntePt8YjMiUlB-3q59Cs7VfLyeo6KM47quxeAH_KxJRuRec6fyDmzbPF37NnnMm_QDRSFMkHC2rEgVjuL0shjnVUl8YfRMLCAM6PwixTjl5RjJRBWUxJ_yjqrPu-s0pMAf-GicKKn9eYOgFh24cOnRBCxIQrzoRCGb9dOuaDOVdql1TU2kPFTThfxr4Hc0MzG3ob8OxDSZQgKa-5QC7MKzWiC4Sg-vSNw",
+        "width": 1609
+      },
+      {
+        "height": 510,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLemKuA5tG7OQg6vGxdRYZkKoL9yHHHEeZr332kiiVB9N2TAnFYTXK3O3nrePYcJU-kKKiwgoj-Jlu5If19dSvXS-f_lGjnRWikY3qD2_Ac-BBeoJJS814sPf9Px0BOIttTcPgwMcH0lF0JqvvPCSGbg2YoajqM8aJpeJebkDi7_67-I1UmD5Ugm_N0nfDMnM331EaBfidki7ZTaokjvaMShDGzBPBzosKtNBqTOqcslRsziol2wk58Wt8Lu3bPbOUdPWqrBj7qZFiEWW04oNfnXluU2NlFBqkKAtzzBTh8TDvfy611KJiayL6zocK8yqMWHpRjEGmttNCUP0NCACjPLUrW84VvJ2AaL7oXFQh0OwVCZRy9KlihFaDAOr59CAYmfrSwHe-DM53NbEaMQ41cGtr2OQrrgrlvLYHgEPJFbhw",
+        "width": 765
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLean19ngZ5QGxYhQBwZg_SzZd0CM3PA1r8Aesq1qiC9Y1M1k0ikOuSMeOna6JBbtH8PVcPiKwtgNYgtbSi3Ho2I4_9iy-kDdNQzcWqJ9IzrSrvw-zISPv62zFi43brxcf0ACKb3nJCXs7zwWkhQBjG555j2oTnL7wpi3AVU-8ESclKg5bCDf1-AX9FyF99HuDm8xFhfqCY9j0RMkX_FDVTt_vkViLe01pPpsbrilAGPIiGRHaW3N-6F-wzjtRC275M3FaOVWMIthu9pGesDgkVE6d6SzNW7jrA6vWAKyKnSsaQw9D9mMWwuMIeoHQtxQEwsFKkrCI3N87AGAg87HHYDj7GZ0VmgOOqsxgvAR5pyV6CVrQ5F_d4w071Vgk0WISvXy84taQRUPH7tcvXyQfJz39bv_FokfeTBQkDoWwz3Aw",
+        "width": 2048
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLeXWy4NBhxCF98qNCpSDfVyzt31ujNqms6vwGv-fFurSOwf-R2QaZVZElzsppIw1gsO13puPLwknurHxgo-M-VJYKb0DIp5YJgKoW0HpgMdI68YFHmYlwUBAMpfuH1jWQz-2k-4K5BZx55NuR6zOmdfpth8OZsXMOuRjlXNiD9lxn9DtdkPSdR42foUwKvLhD7_3xu8LHehv1FYcn59LwF5XOmhfjsVNd8PhKGzhz5IqIuanmdlI_jlMl9jtjX60Et6DEE9TSbVixEsvelzfaxtNUPzOXCF0Asc7C-B08srjiBE6rSeIgg-yBfH9BHAByczrj-Wgc_B2UkX8HWb-FYTz6U9otN8PmTEXNCvq-QcHMTtT5qP79ql9fkVW0BVgSxUI5jKOIh4DEsejq2hC195VmNGc9_xIWPADLe464U8Ew",
+        "width": 1365
+      },
+      {
+        "height": 510,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLeoTn-2a2KW1jY4dhXcn-7YZUtxmZeQrs3Me8gf3xkmIbtHNbYjitRDWiPFxvYsUrOCMm6RTxSt9KGUEQ7qtVsbNSmnXbTANEJFVQsnN2Iv-7f13F1jGFUGgEzNXhEKDLlnQtVoRJRHK46VgcM4jl9PK_ICsBaCwELJyzHjThA4CT6_NzJeVDeJ2C73KzWORA4crpRl7EVECy1dxzx3MiZczY_-rEhjYxNBXJa9-K0196O4vRvFQjOjEW9bfQbzjMnt5DjU6RWFS7UjcgMsaTg_827YRV7xDFdi0KgEHer7ffKxx2SZJdneIKMgfVm6_Y69ycKfSs8C21HABOg10NTFg680_0-AV_CpZi7tgz06xHJj8bY75qI7Nij6sHLGDMBgm5K-X3riw6UZQIEXKKu78-M",
+        "width": 680
+      },
+      {
+        "height": 2333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdTE7Jl6fwrTveqjGpkI0ewrc7NPx5NTuZxlyAzkGsCd5GAacvY9nYXR-sGcTTmgmzhCKojnVc63ib1o24E8ksj3bREzdiuAmMuC3cVm1PB7b0hUTy3-EdM0-qIN_Zg9-CvhqhLA7L5gtsCnZCWzMs2RDKiq0OvMYdBO63gOeR7zPGOMB7O2k6ztNbBUIKOrC2YT98sV9DPvPLa5plSBkMsSBAOx8hlzom6Qqt1ECSzNGaW4EtxyHHY1qrPi8Kplg8qI_zrhMQJYJg0D3QF9fOplqaiEWE62FV9IB_wbaXgJ3V_UxyB7O20_fEAlQPIxF2VnTwd1KKfixXAIHUqx4aWvO3mpoNIc6yaCIFunVjFCeltmoKd42ymR6R6zPi7nJAGNhdV8A6otgdZdDzGiLG2a0pX",
+        "width": 3498
+      },
+      {
+        "height": 510,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112230276039421564599\">208 Med Spa &amp; IV Lounge</a>"
+        ],
+        "photo_reference": "AV-0GLdrXxoRXZpo-7yCrC6eBp8V_sK8NErru21RQC20BV0YHlYv-hCOJqzaGJ0FHxYHnjidCeqtPzjwzRhed40BWNVOIgi-jy3nV_KSaFRnTpMR0XxkvlZ5AJUD4dhaB-aqOfOTZCJYro8zTFbA3mvg0n_y1qRFkGr4G37UHzZJuVaYeBmsGDPhu93-5Tmacy6j3YsZ5Vkufc9mXXpWgXp47K_I_QOR6ZYdas0_tji8uBx_PYzwpqkYyIOD3pqUfphw-lwwf2MLWmKt8y0G8O56tVB0KGbaO4PmSxxa4uAyxUKJ7dK71C2BAgJaS3Lc7umwA82UzAjo1YeWtlLGNdvXLLb84gOAXYUxzvAYFCowfB-imkzE7wrIeqQnEGXucbrEjUupWQbQ64afmp6hRDP3dwhTT_M",
+        "width": 765
+      }
+    ],
     "place_id": "ChIJmb1Is9pnplQRLreSDW4l1m8",
-    "website": "https://www.208medspa.com/"
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "url": "https://maps.google.com/?cid=8058669737830430510",
+    "vicinity": "125 Commerce St D11, McCall",
+    "website": "https://208medspa.com/"
   }
 }
