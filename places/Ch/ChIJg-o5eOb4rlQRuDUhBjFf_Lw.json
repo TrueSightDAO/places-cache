@@ -1,26 +1,114 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:42Z",
+  "fetched_at": "2026-11-14T14:26:13Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "SALON APOTHECARY STUDIO 6",
   "place_id": "ChIJg-o5eOb4rlQRuDUhBjFf_Lw",
   "result": {
-    "formatted_address": "1109 West Main Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "1109",
+        "short_name": "1109",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Main Street",
+        "short_name": "W Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1109 W Main St, Boise, ID 83702, USA",
     "formatted_phone_number": "(208) 890-1366",
     "geometry": {
       "location": {
         "lat": 43.6176669,
         "lng": -116.2078821
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6188983802915,
+          "lng": -116.2061647697085
+        },
+        "southwest": {
+          "lat": 43.61620041970851,
+          "lng": -116.2088627302915
+        }
       }
     },
     "name": "SALON APOTHECARY STUDIO 6",
-    "place_id": "ChIJg-o5eOb4rlQRuDUhBjFf_Lw"
+    "place_id": "ChIJg-o5eOb4rlQRuDUhBjFf_Lw",
+    "types": [
+      "establishment",
+      "hair_care",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=13617864037422413240",
+    "vicinity": "1109 W Main St, Boise"
   }
 }
