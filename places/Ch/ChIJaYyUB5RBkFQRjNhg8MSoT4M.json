@@ -1,40 +1,246 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:32Z",
+  "fetched_at": "2026-11-14T06:56:15Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Spruce Apothecary",
   "place_id": "ChIJaYyUB5RBkFQRjNhg8MSoT4M",
   "result": {
-    "formatted_address": "4156 California Avenue Southwest, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "4156",
+        "short_name": "4156",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "California Avenue Southwest",
+        "short_name": "California Ave SW",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Junction",
+        "short_name": "Junction",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98116",
+        "short_name": "98116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4156 California Ave SW, Seattle, WA 98116, USA",
     "formatted_phone_number": "(206) 933-3002",
     "geometry": {
       "location": {
         "lat": 47.5648603,
         "lng": -122.3864807
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.5662143802915,
+          "lng": -122.3852925197085
+        },
+        "southwest": {
+          "lat": 47.5635164197085,
+          "lng": -122.3879904802915
+        }
       }
     },
     "name": "Spruce Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 10:00 \u2013 17:00",
-        "Sunday: 10:00 \u2013 17:00"
+        "Wednesday: Closed",
+        "Thursday: Closed",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdBpdLbePII7wehBiCC9NdlUDlJrrviryPuvn9nEWyy2U9SAhs9gyBiYskWLvby8oBKbYVoUCFXlqgUeAX5OC3nWHAo9FlxVKmMKZ3Rbmw0VJjU8ss9AdZb8_qcjLYoUbB7kV_gG0BcuXWN7UrpRgL7yWbLl1SDwpGBv1_o-jq60BJIJEapAC76UOECuaja15zzWaT00Q53WWwYlCoh9Y7CwUI1E5N_300mayBtfOpMQcYUxarad0PmYjSZB86NSo5dtq1kZx4KxZObUJ-4KYzeyXgT_FXDUbP-7MwTOFaPhvkgRg5rOJshkIU87Sj-7oRFO9g4EtsI0TWCAycFqrH6aQJEoZWm_0ArkNfhkB7B5Ir3iZmM6M26G8yuF8FuWTtE68Z9VQ8Cnm5ITvA4Lzif8DyjKFzhY0hjeYyCMGLiDg",
+        "width": 1067
+      },
+      {
+        "height": 1153,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLca5Z2ccV1PSHxFU1vcqjEwK6FjYEzeobJ7irCULg1LTdeIx_ISOAQbVUseNG-ju7g_ikNEAHoQKA0TZQMR0cBjaZuIKaLUPHfkRd8eMiB4pEseT-lcHSIkGl9ntgy4aeBYTLKVT88HE68nz2tX3o91t3K84dp_z6bgVG7_TlFc6-xjhrheG_0UA94XXCLAm4Epkm2XONv-PWJSE43pn0L7V1DAXhTpFnVHN2RifyMyjQUfZ-_ycV7IK5S2Az3sXcSDWoj33wLEIc4aIOzJAKkh7TBgKqBapid8UBBpH70eVhEWFiLxGxduEijs_5QxNooYZK49-7bwI6VWzbl8qr6yv1I6ecog-BRXWVXqI2pGmT6sS-H_TJT4u3r3SxkIWri7XsCkY31qKS4clvB64TgK7Zzr",
+        "width": 2048
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcL-ox_DIYfjIF3OWvJOjg8TCBEo0SpwPAZoAYU7TPych_xtPGyxHB02ReclFkgvv1xXUHEjz6oC-GKKP_wnmRN1vMo3V6khKd-uoLGtAuq2yGVORf7EgdRfmTCiDs8mfx1KjGE6bLZiiqpOoghrth3DZYOoZDlO2nwi9alq2tvQ6CNbfsArEitrLBX3dB6rV9tDcAyvVAMRRAz2KeI4BJ8mtVW90NmEyijjb0vbsNAxKcR0-OsAsyKRbRierOFbFkYqt4a-T5v7DEQFDqIPRslx4IMMYSYu-0O7thySPalnnIqWSxOTsNjfh4W5vzkNtYQIHntiOuxdae93v9jnIeej3bvDXC5mmtzA3GNiBt9xoPvcyPNAaANR-qPRrEH-Wz5XOqz9GfZc9XFRWLe9UYYTFKTRj_yOIwLbeugPcmQYA",
+        "width": 1067
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcXQ-ltl_pz0BEAygej0QrqjQR65ADAxi030wgleDFMQkR2wgRKoHt8VTIhsHMq8GBijlm_xuHBc6lb4sJPlVnCrc8-vgFUc8QwfTEwyLByj0jjlYIP4da4jw6frFQuH5JP1DoLMPYzvUiv5Hp42vm4JVMoTu694JpLgmvQMkUiq50aRGR8UYx0efpZKmeB6uCFRSfbAQtkdk3MCDr_30qLgddPPAJYS6KB8CR4eCLn8iMPHcaJxQEX_2fDVMNCJfwAQUVCF8ORhXGyunhIZ8SqFzEaCP72TbBHm38ErP5buoUr5kx_CNxL0HJzx-6Rba1egszSJa3NtdbaWVYhCif7J6wKzK35FIo4PQyejAUjcoRxyholFUcnZHBhlCZ1P0L0ktihRpE-u3fkAI3zsYz9rgAGX6FO7BiREqfoxuJVkg",
+        "width": 1067
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcsxz7y9J4HuX6wjUf-9MpM6O3wTc4YNcCNHK8W4IHJ8o8x8iQZ78271xjluMK5j2vpB1yqwIDZPsDNAppyaCqAVTno9BAzHhrxzYn0otT6osJNZrpugfchB2XHT-WYTivAspkhRv3w3gsPHI7fHeELUd-6iXfdUnsRb1ycriKmnCRPT5zz9opcNfqOjMge9S1bLkSC6whzKWFeK9I0N3CTgKtOPygGxNKdAVQdMUux4-02fl49kIItiwApww6wbNTuq5K4CAWW990rIPG_gvCCsa60lT_yuscLiF9gIouQJz1kc1qrzRRJP8S7eP7ia-XjgUFavz6VHzXpcNMmcfuRSLD1lxm9c_U8YF0QjrN6N1imre0HPbjCYQFcCs7B8KzC7vO6p4iaI6VoC55BEtKmIXJPUqYt09aZNkBzYrfI",
+        "width": 1067
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112906656284339358881\">Miles Taylor</a>"
+        ],
+        "photo_reference": "AV-0GLcE8ssHkCxMKU1XFOtP3vyfq0R4yye_R5piL90P1jJZhOdcQnbCgX4KpraLXEY6vHqwTBGsRLSFBDzAuu393erAK7-SbwM6wZSU1YWEiaDhL4v80D8lMZ2LCgFWSnUxLrJW084F9LRELqE0FkxxBPdwWGnJczh1QpuM0N_KQco7rek2f3PbBAA6NbkMwZPW8EHcw4ExnBtZvpNi3fewOSMh4NDOn5UQ134YGBPHIwf8-lL0amYfZnWDVYle9qkGAq_tpiVdDOktj4cJjeIg5U4QzkgGYtEtiuKW9224OdtgvhhouPdPc6oY4lncBe-Itb_TM3ddDJEEALcOvRY-vfQ_n-jHHKPHBfyYrgleqYE58KTVbxEHVNkcBHCxmZlwaJNgmCTfvryq5fbQUwcYumPBZsJ5HuwyYfHfICaUm405",
+        "width": 3072
+      },
+      {
+        "height": 1600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993884963872529206\">Spruce Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe6RBNd9p4rJmVFj-z7b2BMjZwx9dvVToHkAVA7l4zdt1TEqL0ckthncUM2-Ym6lGzvdYZbXModWc3-L5GZ_kNUPewf2Kaj9C1QRLXH0GO9EoXMQwZHR9kOkWkUukFW7rJmIztjsqLyVvGyOv39Fev_ZobrXZCt0PhUJxSRUqJsHeaC6_V53uxD-C4qIVBDZ11ujlAjvYYme-p2sVcrramo7J9Fx-KcOYI_BXmUFbR62SMYEKHopXOZUvKPB-OmfYb8Blx-vQxHmGPg1NPmK2qaY6-YpwTqepslC3GX0BierGrSvrDg4My8TVb4i1j-cyzHLhbXLk3AbEEqMAPf_hqxJClB4gpQ_hVEVokBIvSg-6RKUMqkcyCuv_6HyPRLNHqQe2JhB-RGsHGS9DtwM62zbwUZF3q5fcf232mTkU4iaA",
+        "width": 1067
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109930653523767030643\">Alexandra Thompson (Alexa)</a>"
+        ],
+        "photo_reference": "AV-0GLcpNSCkyBFaft8o8OeDVdJU3kyw8UrEGfeaQ5PfTJotrLQ1uMudLO5K_r-gnkwtMDLI6zKh9gfCUeMFfc7Y6nbe880nd8OZwjRfkUX-QEESmCN3fE78Oa5TWBDZMfocK41Be8_H8s6VJw1_nuva7Ppi7OiPlV9VOPIQNXZ02u8MzPCw7xTl7mT7NJo6TBC26eBT2hdITR__MwkmGK2v0BhSv00UqI7gn5YUCmBEKi2pcUqxAdRgQ3zc33AAeqmb_bPyb9SGou55cUKIOfRpkJhwN5JqvUwoTBM35-AAAG3ga3VZMs2swaMExv-dUp5ye4p29aaBC1HGqolGM2wV41wbm_WNlD056tQM7ABLL7PS22BFjsyCewpY81U_M9eEwYyI9bqHeOn-edmW9AGwUUXEzSw",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100343341792588782277\">Lauren Turner</a>"
+        ],
+        "photo_reference": "AV-0GLdV-8FOCNhHoxp6ISjWu8ZW2ZARUgcoclZypAsqW-8U_fVBsR6REjTc1YJIiuCPuO8L8lXv4xg9P0bpkQuuksAmIp80yAjl0QTp0KIZOlBa5BC-gYCtOD5LR6FcAOv-xsQ6rnHWaEWTbN8bPwFyvUeOGUfjlkyKvUvjsQy13oJ8e0nIqYFv-Pq5j9HNGJ023XhmuyePY9JasbUQjWMhwgJnYwRW09rEzbUzknFQYnHi8T2v_EooTzJh-Qqm5niJEK7GszsM7EXb9wDVifoYE6bjkGN3ZcyVVmpBxLeZ8z8Y0KfV8WIsGaVuZ8DrTU5cpTKiEicToxrw3MTTyGz2xcXprMMUo7VpT91ntGYxJsx-BEZs679VwOeQwOOlj1OPzH5PGX5kUgnMRDjuymEojDdW8g",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100343341792588782277\">Lauren Turner</a>"
+        ],
+        "photo_reference": "AV-0GLeQIRCGY0vH8aLANsdZ6kcDSCUi0Om2QUZbJ4vSXYe0YcQn_tQVVDOXB4iLvIgOu5X9lk3p-Q-A90JHdq2NNIWfmJ1Dt8PEuLmr5RuBofddE-dEgU1uyffr8UYBDlTeznxKbXSf8qZ1YXgvpfbysmVdDiVL_eCpBjZ4QBQbNQeW9brW3vNoorfr3QR9bq8cVcejWXCTRGlvBz_E6eyfB8t3CHz9-QBy7E3USV-oXr3IOWExhAhkInPUmtTTCEYNsSGdqg0f276D1C3lKKjAwpxdQZIieWr-VFTnll2yVsaEtEv4mZ7dDvrbdKXS7Np8gjT8NAODciHh1lZGWWii-wFRv_YsQxAgLCq3JUom8ImhSPEiCvUFo9WnWidJEA5umbYxczkDLbH4pWskdu9_Y9GZLjurMe4",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJaYyUB5RBkFQRjNhg8MSoT4M",
+    "types": [
+      "beauty_salon",
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "health",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=9461966905928636556",
+    "vicinity": "4156 California Ave SW, Seattle",
     "website": "https://spruceapothecary.co/"
   }
 }
