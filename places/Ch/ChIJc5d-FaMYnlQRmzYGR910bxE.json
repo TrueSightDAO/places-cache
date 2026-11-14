@@ -1,40 +1,253 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:33Z",
+  "fetched_at": "2026-11-14T14:25:59Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Greencastle Soap at Maker's Apothecary",
   "place_id": "ChIJc5d-FaMYnlQRmzYGR910bxE",
   "result": {
-    "formatted_address": "6401 East Sprague Avenue, Spokane Valley, WA",
+    "address_components": [
+      {
+        "long_name": "6401",
+        "short_name": "6401",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Sprague Avenue",
+        "short_name": "E Sprague Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Spokane Valley",
+        "short_name": "Spokane Valley",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99212",
+        "short_name": "99212",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6401 E Sprague Ave, Spokane Valley, WA 99212, USA",
     "formatted_phone_number": "(509) 466-7223",
     "geometry": {
       "location": {
-        "lat": 47.6572454,
-        "lng": -117.3179786
+        "lat": 47.6572545,
+        "lng": -117.3179783
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6586413802915,
+          "lng": -117.3165212697085
+        },
+        "southwest": {
+          "lat": 47.6559434197085,
+          "lng": -117.3192192302915
+        }
       }
     },
     "name": "Greencastle Soap at Maker's Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 10:00 \u2013 17:00",
-        "Wednesday: 10:00 \u2013 17:00",
-        "Thursday: 10:00 \u2013 17:00",
-        "Friday: 10:00 \u2013 17:00",
-        "Saturday: 10:00 \u2013 15:00",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcH4kApRDtceYDknY7fxAPqKDuBZ8sGJlA7uEIgFuRyiEB6rOj-c5Cw2tbRQLJOLAjsNPbXafvZZ-Y42UgfcO5KzrUpGxlVwDRAOy0_e-_c2yiOshx0XrRR-f5oIlYgQayEAbAVPckp60U3yA7PsGNPFFAXxZQ9euje8prORcZC7SMojroEdcB6oJhq-hnJOeYsO5vRn7WmjahA6Jl0XH0SEZUgPoq6I1Ex8Q9mivkyL_Av9t9G4CB6RhI-NyShD8wXKv_qh-38cKF-eNcePx5Z2gdXbiFEuzz5A00cdOL8lldzx6sjtEnxfCcgXTIkwB3Dxwe3Y_T6ZSSym2mlHEgNdU8YfIqs44xgy3h1sv8T2PwSuNgUh0itUGGyqOoxxB6IWCVk1LOJKK66A1zRu_Ty9TNkSWU4-zNE2ffuPukUVA",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcASjvrByixcnSXQqSt4rUwiedoIGydmGq1uYCHZJxoFXZay9NGk6Pp1O9cs9lMVE1rtX39_riFkL2r5w6gmDcayKqIxikRzuFUnbmOGJpnqg5mhiHPySMAl14ybn4urxPC4zutovtcZM2A-tn2b-XbmX1ty59g_kvJVAYltEd5SN-JGpsC8m7X-aEFmhT0xUwb-2G7kbtXO6ObJCDlWdjJ-QQ7QzUsl2q-Tvx5ZFXJJAqEVzVRASUZa_1Wldq4VWCA6G14c_xEqKru--J0xX2CwnQKGRBVTN8CG68WM66i7Q8M-Wpp-srr4wxuU5TdSmc_9ZL1dt02buhZ1skQDMs2-0vKTskZ87Nx9ClSnTxrsXdW06KlRsQer8bw55NPSJadQFJIwc7InEIHZZKhVYed8k7P04o6tZdIayZtnCM25g",
+        "width": 3600
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdcr5rQ2AyuYKshB3fXVBPif02JiupK73r9yLbX_fpoWlSUS9AzoKwDnzvaIa9Szj25402CWnL5kC5ymbqQHzfJveP47KYPALbAyglUQ68yOX0RLjclhavwWyQEXpSe6lgeYeKVFeebjIp8Jyize3De3dyrf0GZAPGfHuiGYaPkTKcKTNX3qxPcd5Y4Se9NojjcZWgvIv--zEd_ofQ-MsEWRvM6mEADJmiPjU7OuO8-0rAee1NcnQTH47ZO6E5Wb0Rbk0mIaOK-tQrr-MaIFJfXx3b92lmyXhhKHdOczllGc6uAkdBkB6_Ebx7bmOH521IBRMvDq6n_gLfeAqSvSTMrG4lL7pbMc4wj3_l2BPUN5Ed0Bl2rn0N0ekoPlM7jLU_Z41oFOn5z1zXUTpwLXpJPO7sHtoTwA7sRvpWz77nm",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102969984782479294706\">Jenna Weiner</a>"
+        ],
+        "photo_reference": "AV-0GLcsch-jNjAZkNq34xd9cWAT9zkWDHM8PQodsA4RHhflWClTHbX05KmCZesuiBzrPdYKdqanIpvdrHUJD8f-i7pe76W0wsP7HZF7AQPNcKHD0zvsA_aEzOTCV-BvnDcnQWB8jjXXmGJi6EBGyHqhfe0EmI4g2wCoIRL0YMG2LUw08TjWwiZVy6mNuCodEnLSS4pDMdgl-2hdYipoZHXFy-xog5Ss51Sjklowz2TvSNw1HQuX2Zc4p03O8BB1gqK0HulbVAAG6DFXE3J1fEB1Fsk6aXfx_kMAWxsMKF0kcGZFE72cO--8yDbsUUXFwgPz655XXTId7uFOgEHaMY8fSP7hjFxmJXM4062M1aVhTaUch1lleiMSjW1M0lS_NfP4SYBFJmt2qw00rhQXTY9a2dfQQswzAT4",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcbCY1fnVWhajxFH1xFhjUPgw8b3ybWKkGTbZhz9Rknwzthn291N_pyWLSrlGPCSryGvShKTQvsiz39WmSqH1MM54RYTr-ja-gtH7cRhjzQyBdTKsTMisSbPPYHL1fkx7Is-dinSjXden2LGJyyx9sXBGJLU5BtQ-l_2aeKVOrzJelxWAvrM6B8IWjDuXhDsN9JHHrtDT0hNjdIXt3qXCiROOqutXhami0BKoh_MtW9wO0ld1NOmeAJlN5Hh6dCw5i7qZY9f35oFHtyMv0hCl3LPVgVRWK_llwIOsLsgYqNGVGXq2yIHY7pJeXd9Bf2Nko4XjE5Z9MR_x84zvvL4trCy3mSEJUYba-AMkYoNyqQPXGy89s8tc0UwmJ94tC8AQDxI6CyGudLgl1N5SPkM4UvRfXFuvh2iiiuuAJmTcoUpQ",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfajgtC59ZM_kzjcfxn1V6URzSgVW4MYIbvDHOpDEwurMo_cKOJyrFux_6Mk5H8SCF_FRBRLghajxPOIo-mIPYuAEM4LQ7x34MqfidcmwI1OFgYjf3X_NEbAt_mrFYVsn8s576MS7W0FH5Rvzv7g-rc57CnhWvl4GNzCM2uxXjHG_CQH3NXBPY5QLHaT7wa9VWB-gCq88a2ha6Fq42eZrFXs1VqwegNA8RU0mEq5HGTq1CrlzTh5eu80__e5G9cogSPodBavTxF19HqZZO19mc5n00tMUxAtMkgBp4vZBAf44T3nuHk-BbWo3PT2Ak94RObKt3N6TeeP585y1x74B4_bK2z4HZCLU4F-J3hd9wJmJk3UGqou_lgpp0TULxdUxnesrUB5eKE8JpRjF3o_NjnX6FlQFj06_ParjdqioJ45Q",
+        "width": 4800
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcFS8DIFuG4YP2FAKLlRPGdxAOQcZNAFy2ceu0UUGt_CUzC2BYyi6izF_sGpIKsX4C9TIoVe5kU2zzKk3rLDz5N9Es8m1geI8lpKW5cvQA3jDk3jsPICu-J7E-tpopfxZ8MqZueTJb3spY-b6uv7RQg57hy4ASnd_n1AO3x8SNKZMsFq13WCA3JMZPaJwkJNmU4V7sBWr69h_VX7E9tcMwYKfaT3X8K5DD_nHmQmYspT0ZCxFgs495Hr0DIsuO6rhrAvuRDSBuTCOY3a5i9JCtqhMX2frVAnTAPhJxHLZ1VsOazCItO6eU_kk-TR5UpiG4EKAsY5x3GUfAC3ix7dvQXN-F0Dapcv29LO-0vrlMRYujVBCrnK9ZMoawqGRa5xMCDu7MoGZM0b9AOGNaWMg9SoUFNojLztyNPiNaITXYeNQ",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf981_ySSk1xM3u1qvsjh-gdCtAJo4mF2jt82leUtqLIOqzIBpovbzcy0B5o4QZVA0Jg0zpfdCpt7Vhdze4IEDJtHYdo9W7ehKDTdOPCaOvCDHSG0C0afF8BeM6Faa8CYcjv6ohv6y79fUDZYpvvwPimxP0fdLW9tAffwEjfB9LGJjqf8MYdQmWtBSNazxnzGBJlKnkBSsHzY3Mi6ljpmNn-_kKY9k1RAgX3h1Ft4h7yD6OKrqKeZkYS9_QRVKWcsbr-0GW3RnEbjc88noRUNHIAxkppfya1GL0wb4lmDsLK-_3daDa-Nm1TIXCZq2XrK_YcKPxvsGoQP6b3RK-zwv2qd2cvUly_cDuH3PXE4kYPTLtYmSLP0Rj-WUZ1oLbkTA2OH8MD60qLeSkraTyz5te1cu08exYbmPe9iLd2cKm",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116143322022012388867\">Tracy Suarez</a>"
+        ],
+        "photo_reference": "AV-0GLd3nVWBEYI-w9nzU8Vou9kGVOIgJhrtqryA92BsPhFnDwmT_PMYb19PyJQmqCyfzxH8fB-MWWHW4mq9ufwGNkjFsFYWvp7B7-LDEySR0glG_PdtKBD5inV9U_VtB5eiFVtr5Kp5amtR0rtdytYrxvwE4pGlgJJqbVxvzZnrelz-Mg-0Re6nruHOlMZwY3AqHS_a4eL3bFdwI0u3K6BoYCuZF36VZZbZCKLJImNuLMH6hLhiRALMfEvkK5QGgRyoploq3mK2LKrCrNitBp3ASZD_cMTdKR0y0IpEwR7irtVJF1_CV08DgLPRo0NFvFg_bKmYv7113mCP4azl63LqflxBTBEgWtD0yK0So7LIvCuFvUP3_ViL7UJCHPra2PZK84bn6nTkSKoJivM5LegYhBpSeg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111207899491653325526\">Greencastle Soap at Maker&#39;s Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeyrZz4edK3bag35SXpq4HgpeBaU00WBd1GcoUbUIN-oPjLF71cB98GSvjOwqxzIuJU_VCf5QKDWQrXTPQZWL-J-BZ8G3kFX6JpFXzIbPOFW0D1-NP3Edwrwp_i24gYncNlNuzPVAWwYPdSQ7e-vLLXVULUnYYezbENvJenwf0kRG2z7Zt00ge8urIpIVA6OlssXlffdGovdG10vx43EZrnuDS5Sbn9tlVdIdii2xJP7IBxPm9fIiG9mXR5n2Tc4I9xFR6opjKqFfuAFXJiB65izft049Dw94Gm_X29Z62NKNmQt0IiVxh77PDWFSLNftiNmCvqU0bmwwNOQ_TiE0Fi0C9IsGVJhhkFVwZFnqRYf343fn5lWkF50WzMsKg1It2qVRpl0aACtVcNkfIjjrDZf0hzn-U",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJc5d-FaMYnlQRmzYGR910bxE",
-    "website": "http://www.greencastlesoap.com/"
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1256351314787841691",
+    "vicinity": "6401 E Sprague Ave, Spokane Valley",
+    "website": "https://greencastlesoap.com/"
   }
 }
