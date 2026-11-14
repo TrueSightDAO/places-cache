@@ -1,40 +1,262 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:52Z",
+  "fetched_at": "2026-11-14T14:26:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Bainbridge Apothecary and Tea Shop",
   "place_id": "ChIJj7cLjgw_kFQRE4Zqnd1uQc8",
   "result": {
-    "formatted_address": "450 Winslow Way East, Bainbridge Island, WA",
+    "address_components": [
+      {
+        "long_name": "450",
+        "short_name": "450",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Winslow Way East",
+        "short_name": "Winslow Way E",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Winslow",
+        "short_name": "Winslow",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Bainbridge Island",
+        "short_name": "Bainbridge Island",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Kitsap County",
+        "short_name": "Kitsap County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98110",
+        "short_name": "98110",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "450 Winslow Way E, Bainbridge Island, WA 98110, USA",
     "formatted_phone_number": "(206) 618-4858",
     "geometry": {
       "location": {
-        "lat": 47.6249752,
+        "lat": 47.62497519999999,
         "lng": -122.5162936
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6262589802915,
+          "lng": -122.5149453197085
+        },
+        "southwest": {
+          "lat": 47.6235610197085,
+          "lng": -122.5176432802915
+        }
       }
     },
     "name": "Bainbridge Apothecary and Tea Shop",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 12:00 \u2013 17:00"
+        "Wednesday: 12:00\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106415018461769027157\">Rama Ramachandra</a>"
+        ],
+        "photo_reference": "AV-0GLczM4OvpINKa-4nJxz4ns_yHsY3D2CLtRbplVLG6Tr40N3fX-UOpj9RRYcLINm8zsNcJt-Y-Pa2ah64Zuq4Nox-ZGmn_HAh6AHKsh5yfbrZNr99OnLovfsepoPZolVyKUUdp7weVzkP2EdC-575xq2yZsxQDCW6W6YtfyLS_Jh8FLqC9mEVRTjszeZBcDQgHnZXystFvQNzN2fHseAeywMYB-8H4PCHwSk5GZ-VsWk_1IQJURKTHI2zqgG6aAD-6M7rtn8QXSvw5WxbdJKvQbmfIcmVI3My0-mLmyZzMJQsXj6fjulnj7q0h_oE5-b7lSkzLSUj2d4pDY15pxAErij-fCHD2DBwJD5mkxvjh3e-uuveMZsyDoAYC9BCtgYeUPsLpYreWd5-0gg8LbKUOSUVc64",
+        "width": 4032
+      },
+      {
+        "height": 444,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113186435564379059165\">Bainbridge Apothecary and Tea Shop</a>"
+        ],
+        "photo_reference": "AV-0GLejTd0vU7zKxqwW4qXbEWXbPsflud4cdD75iRjks-MctOGUwzO8vx3RhqgWh5bn2n59d9Ed82hhw2V0jXrzd_G5ZMhGu81teoyjuudbriCZzOdHI0i9wc04Dja1cw9s96rYOAOUAUdOfeRDv9NSiQHZQ5ixBrlobE2YDWUl_GkA8_UpA3rche1NzV8D8SUpxOwyzLynr6m3Z-g8A8ZisHO3miaVS3yvUHp7m9_8lKg9SmREsAN0vSlaWMIK52-XM8vOlbPreHMB2MrwRZp8aYdMLkD5V0wM6iPBDLOPerCDorpQt6XqK9vctek0H3fsoExzCo5pMASKm6g_QucEXPCUe-mof9b7HZTQpmfSwu4GHefhd09JvvVq6tu7VjPJF-rDNY57XASaKhM6FiFr9r3JIvJUUyQ",
+        "width": 1900
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115230858499194720105\">danny monk</a>"
+        ],
+        "photo_reference": "AV-0GLepyUZ17St07OBSCw-HcDvqEi_RtetWL08mA6CZCO1RaqkQtRu0Pr4gcFIC39NhjEDFeLKCh3h3tU-sR2hy7jPGR3Jwp-fIsrmWJd4WfClLA8A_Xl5CtlGH79djTGHP4-k-rUwDncg4IHR6lzRjwxnQKpQRhFF0u2saST16DALSFD45tnXAkOLeta_sOzLo4PuSTx0Id01jMunGVop4kNbTEwqchlaI-Sc0y6hImFwhdqixat495XfKp9OUN76kARJQCE7hOdo_KPoiFaoedf_PxLy5ydAuAuHDb412Z4Gw6mrf7pK_kUGxLMJ2z9xo3LQbtCrm2pYStnmSR_s9fXCd26y6Bh2e116eEo-7LCJ6V7nPxKc59Gkh3o66m6e3Nze486r3lS6dvLbZ00ilTugOGQ",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103057965745399347910\">Vaibhav Bhasin</a>"
+        ],
+        "photo_reference": "AV-0GLchV9qyGTCB9XBPiVksCQ3UmeJ-oo4Wj1159198ZlA224KnnXgXNJ5s2RT0cToGkG4B6woVHWE23ps07dvXL2CjCNIbUF1gRC9ioBs0bXo1TnLQgh6U0BBmHCWDU3SiR3LHBacnsiwD9gN2zIqZYHoj0c0Xgg_cqs7U6jYQDYwlahJaj8fPpSz_shvb4_8gMbWsQ5sb2QdDoHSo2MfY8cBldUGArg2Q8m0eW1jpb357ftJ0IuQquFIQf2axfFBWDhWwqbKLBVrojUDS144YWrE5Bv7E1zSmRjNrLvDijTrM9i6LDfO4OyIbxHaOc1_yPSnLFf_X7GyFXV5fnmuirxFDea814jBunxp8r1ZeLcLezERy8f6auf3mzjElRcGr_h9yIfwlkLxGHv9XXEwQz3HUcSzVvow",
+        "width": 4032
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113186435564379059165\">Bainbridge Apothecary and Tea Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdYFDsZZDM1QF80i5J6kWcoKvUknYYbdR8FAo43t6MYP4jZkj826LTMa4lbUNtVlkU1lqj98DSzMu6xsMdBNWITjIxxV5IA5qC7qRS39UJ1eT6hPjGtlvQra6SMiGBOcTtHrpAiKmYUTmhCCWK3R8FWPwSUtXbbJ_WFX4jmR25pij2DVZ0dVISARkYodGHN7aBQgNxUndVmTUQ_6jYEbzu_JBrMXsbb4-5_V5BpXqywTMAJEFrSEumEYweMSooyO-4GDo8C4tsFqMPNBP0geU-OL1P43LQoP_uymJ2-oc9OWOAfag4Yeahf7N6EREhplzCjmrkZeaPlOhZfPEoJ15ewu8GWyEqfzxL005YeObFORr7HMSzdpSRO-UgW5Ci6YW3u5lBi2Xgb5qsHXEnnBqPHyrw",
+        "width": 960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110574026160411180922\">Melissa Friehauf</a>"
+        ],
+        "photo_reference": "AV-0GLf9JknW5bajpWNhjopYNTUfzXKjetavtxTcu7DKzSNtf1ZIiw8Bt-0QS1jVzJAnYsuO03CbgSUH7ImDl4MfRfdgGCqypjSmBWPQA6UrZr6gdZeaferaF35nJA6LfglmD7N_Hga4UqN5gY__Tz7BjKQTJCI8oTOMjOxzi7jnzRiFGLDYlV7p9waa5yf79GsjkgpPhLQD_iGQIzfmdCowAjMbu1pKQvW9fywuiv3ORhMFmG0ZnnpABXK6Smp8j5UflkLWmwqb2xav3cdh-d_AcY9G8iZgHCDueN505XiNV3OdT5ahTi9pE_IlYEv_HJGcCf4igA5lqoTh3XvMOVfOFWdBrK15n0XXE3VgMIy51N5yGwz97EbJ-JzVM01Ff4BC9MP9RBNntnyW1IA2hUgAKNEt1Xk",
+        "width": 3024
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113186435564379059165\">Bainbridge Apothecary and Tea Shop</a>"
+        ],
+        "photo_reference": "AV-0GLc7Ah43SqoiPULzCjYuqpdXcn8xjajMQYeb77F3bxv06bdZcxTIPnzXZa2fTuve0WfGT_1uxFiOG_YnbRRobabU6A7jYkA2TFc3azN68-JekFUmjVsDxeit7JFlXoUrtbZcvRI50Ay8Qs-XORTEVay8WDoO9kCq5H3wg2Pq4nuy1762vcvf1g9R7bRjLcY11KZ1GmXCaN0P8EMxwd07b063uYXqKWAyylcBw1nYGlnocTwXR5ktGPnWK8JG9VzSYPWEmivpjajKLDLs8XwAbu7HZvwGbX0fFPvDiyWuLmqgBd3eveGzKXeyj3mBhtaAPNWnxS5T7xHp_l0qyeRGuSz0mJ7OMa8sH2tqXWmFLEme2d8yEyKe_NJtgn3cXxLKpKujyPuuoUYZwMmtQR0D1CDz5w",
+        "width": 960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112476993113687410677\">Madison Farrell</a>"
+        ],
+        "photo_reference": "AV-0GLdwLTLrkGsLXgClHQofCgdgIWUdW6twblerCBL0Yg5-4Xy9peMk9bo8SGkL9bpgvYb86WTuWexQM0SmFPwldH59aQ7bw9_2sLyMy6ZRziI_1npS3isGNGjdynhSAwgbRYDiWgKo6mxYUKxbKeWOs-yciGdtYIdU0kL2gV1Zf2q0sS_8euvDQL9R1YZJv91FUcLflkZqauvBABlYXZbveML1GGCKrAEfS9AIPUbvoM79Sm4EJ9sTuoF5qhCQhXB1z35NQ0ICxc7Ebc0UnjvwqvB9MGmylBAH4l-AzYTfcSrEq6V9R6KKrnbY8wjmYDnN9WpobfYHm2qEAvAw-8f9PJEH07awpsXsgu0ITgSMOcosBXxSUVqAZNUQnXohQ0W3LUfZDv5OC-Ax-J_aXtTKolzI-7I",
+        "width": 3024
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113186435564379059165\">Bainbridge Apothecary and Tea Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdyOajOF14N9NHG5nYBJSppJ_LtCROag7eth4Cocx2Y9AXfg4-BohRDdJ1TpoE7fpjJTIjtG_d-bLK5bwyTdNwxHRfYOskJrk_A-z8FeJFV9qF91spduSkk9f7TuG5Ff1YqUqgQrrhK-7NwWrqNAkqMFgbBsMqNms_azvqbkZw04FBgyup6hK-Et-J9-32RN3cDvGFzPcvIVd5MTdyuGAtR4Jfrtcy4i_T3LwxH2cBF6cpU7vg4GqcZx5TSDBubrm9Q9IvxGQAQG4mU93ULXP63w-Z6ugXdo9Kr1OoN88Knskkgks8hQ2CshYenWDKBeism6AvTut0JMaps_8K6llYMK9Mnbed9aNS66o3nL1iZ-qZWa4qEbTIov7gehkMxZMf4v5Vl71EmimbzuRA0zPl5M6B8",
+        "width": 720
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103057965745399347910\">Vaibhav Bhasin</a>"
+        ],
+        "photo_reference": "AV-0GLfwZGNgO1JAQAOT0fG1hI_zQRaaACcF-HIc8D9N4z4lUfPkdiUzl3idcOXANEn0tyb3XqFW5vvX8_RnRnWS_N3ox5yQV2VqSFAlOSk3Y65Z-WOVp1pnMgS9moSa-6NZV7Tmt_U1L817zZecG-RBAdM8jNlgLy2xgHzmh2SZ-iTYzND-K00JrsHb7JqA8RURj7AZzcsx_DUC2XASvLFoTDAQuXxqRQzG8hpLlJSkeUih--AosdbHXeiL8o9-JpAPkVknniM1BknwStdS-3ibGBf4QJ0xG-sAge3WRgnhuMr_aZXzsJ-Xa_H5gA6wqLXh9Ja9JKfpSpiYZcAAUlKhEeC3ZfMXPmCYwdEsMILQCEU3l8nqsDZ6u49lbbF2D5XYEn8Z3LV9ibRfAwY0wAPUvBx9SQI",
+        "width": 3456
+      }
+    ],
     "place_id": "ChIJj7cLjgw_kFQRE4Zqnd1uQc8",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14934339737445107219",
+    "vicinity": "450 Winslow Way E, Bainbridge Island",
     "website": "https://www.bainbridgeapothecaryandteashop.com/"
   }
 }
