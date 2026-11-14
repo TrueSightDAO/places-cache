@@ -1,28 +1,189 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:34Z",
+  "fetched_at": "2026-11-14T14:26:02Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Live Well With Carmen",
   "place_id": "ChIJcQw30GTlYVMRkw5wvwdT840",
   "result": {
-    "formatted_address": "15325 North Newport Highway, Mead, WA",
+    "address_components": [
+      {
+        "long_name": "15325",
+        "short_name": "15325",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Newport Highway",
+        "short_name": "N Newport Hwy",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mead",
+        "short_name": "Mead",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99021",
+        "short_name": "99021",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15325 N Newport Hwy, Mead, WA 99021, USA",
     "formatted_phone_number": "(509) 991-3437",
     "geometry": {
       "location": {
         "lat": 47.7972809,
         "lng": -117.3508729
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.7985908802915,
+          "lng": -117.3492220697085
+        },
+        "southwest": {
+          "lat": 47.7958929197085,
+          "lng": -117.3519200302915
+        }
       }
     },
     "name": "Live Well With Carmen",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLfO2-zgoBR2oNMWjdO3RUawrgMVofclPCovXH_2TYq78Uhi4m_IKLXVH0igwM-WGlE1yW66siiQ1Zr0bVNv2PrBQ9B-Q78fRzRJg5bn38M8lJXLiE6H-qv8N9ScY4Kp3Yuy9cK-1aHKr4x6iwWJALct-y7-C_wt1_e0BhI1WHYS5PckeGOTUm134dQgZyBKzXgUfYBZZUBJ34tALsd2hXMKcG31esf1IEkS0QQZALZ3vsByBzq1bJ3mdjBF6bp73VT0JgbTMlmrrEz2r8xz0vl5SxYnjm986KuE9gTyFCJCexpWH5XvNV3I3QrylcAg1Ajc1XA-UFbuuGCV6OzCaNNxmMiWER9oMPd4_h0gLqCyJOBHOWLzT-OseRNZsODqWQOkjsVJC_rYcrsANx19JGg07UM",
+        "width": 3024
+      },
+      {
+        "height": 2360,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLdtA8goxqMXgXYhdjr2cvDqLMnHgpSU8Kct7aIjFmljnYCt3PTx66pfEO0NhNzQ55YzfgZJb0y29SoZjCuI8XyKJWNFuGdUVKREbK7L0mK3ZPdwo9a4aeyl8essa7ncx7A0LUBFlVM_EAtbp_yGYB7VDBMyZVPGA80qNv6hDhBW4bjsCWUR2jCD9RfrmcAbV7mNX7K0tzWHO4kr819BSC-7KON3cBi3Sn3I-1dlrEgOeJExESDGaxaml-WFtetgk7t0BnzPwLa8DjCFknpDhuH5eKr1vMHw6N03rMzQycM23kSX3dgutskmSxCx3f3zW2CR0LKjPv414kOG-1AmhPf4EJc2hSQ3sAGe9FobiIWBIXoNf00d-7HDTVRb3vbNCYpApOeiBUbqW9SzhbDeHdN0JYPweyM",
+        "width": 1834
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLeFeC_qp6SWqbFh8xQCau0Nb5SnhUR2h0t56N_XO3cBJyfOfTBv0DRgMsw_RXCjjidDRtHabZXLadnQ_yJSSrGA4u6xKbahP4eOFTc-Lk-QBpCp9EJc4GSKUJUMrs6xwbL3TUh3HaIfrtK5r3DYh6UJcqT8S-s-vEl2RlDyG87utE8n4bmCiSODCCnvRG10pCwyLbYPkCc361HMKgvX09r9Ki9li4vVkYyCPynjBxLZ9Ot8XU-sickM2-4coX5LRILSt00SxtP7e1Y7rVn4H8gp9VbGVq_qaXUuJR53SO2jy-VZSqRNzAjEFyXO1GqJm0Re2u9SfbP8udXZV38eA4rkCizmGRTSo5F2foz_2zJuMnu08CMHBnUAcKKkjxMpcesL5blAxw7g_iqLjRUKohK8TkU",
+        "width": 3024
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLdDwKWnM2a_P985gqQZ5oVbYlXB3BCr5C-JCXOH3aCAszuYSGfy3G9QtiWccnIU3lVb_j9w5IGYkmIGK3y01wmKriBAaTqklZ7JBoiNULYqHHYKh_wf-bt2BMQw6qwPh2ZL-jV3vw8a3BudaFSe88jzrY9MX_xaXo00AUNHdTX3wvHIYx-ngLzGAjHV28yzd4nVWMSXNe6W8k_GlAncooEI3FrE3W7or1Y6eyyy1x0p-RzkUy1pviUKRulj-Npo3NdzVVZ7-gtyKHrD0LvfBVDYR1H8NYbu4RMX7wMSLam466XRnw2DqP95yNnQIUCwie6MHfA08FRrTd9nICSd3f3AqEO7B-bu2vMDSd6t0gLecjMppcZbM2S-iP3gZQE5ykVvII4-gWBVD3Gu9tzJCkvHo6A",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLeTuFK--6eJlg8WcDNYGYW47ZDMNRXure02wzsFXuDgBWR-hz8Wy76YC4yic23RyKzYqswx98bbFvbeYIJOa98AKYhMOpFv-ED-Ev0Q3HAKkosEyj5eTZNxqnKmPV4vLla7S_NLDz9bCKw-mtppYwsncS93Yox1nGSqtIq3pRafO-8QPQ2RvoE3Vrc8pH9TB-3iZKsLbbLevIiXYh17Jt31wYZAz4iOuAMJZ-FSMRke1inbMhFpxXeoNFZpRHcPnLKfptJLZ778wyJG3mDq_iujz_NOKGtiwbqPFQfaZUqByoH9UX3Am8xEBT9J_RPzrExf150g1h7c79S1uk-wryP4tL57_tfgPjonfek3g_10eY39UobaytmcKz2rV4z9Q4GBH1btYQsqyZp_uLNCzctD-Q",
+        "width": 720
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLdRNrLG1PLaEwJGPkGo8oKIo9a823ySvafceYec0RBJfzzJzWcdcmw_pCFmVfgNuc5E-m07kIr3cvN8uQdXmDdjezu00J1v9bn7kErryVbJHfClyDFmOXpbxqr5nVUUuTVknWZB01XT5Q1l4hg0HP0pEiCvhgPd-kIMKzN7WcZmVdIEck3rXsFy3eRb9EsR8u3fVtjFejb-dDGmhzOM9DTTpRGo97-lzilScpBWY5V-W5xoh2l8GU7VJApPuqI_P4A-Gh3XOekP-IWmJi9HwE2PUXGF51QeocUyHnGQkY_wJEwOkUjVd1_hjSBTh3lisLPX5HNqVIi6Nrm5-81JiZ4KgNo1Q2IKLNc1CM2TLuryTi4O7B7ZIxeVDPsXZXgxlfG0omEStQkaKbFazQ0iP0AR_xxH",
+        "width": 3024
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLcCHzKUmiIEvCLWtrvxUIByhA6VLH46knIXGwkITWkCni3RhMRf6nS2tzkTiJCktMHrubOXFGeiadNRejRJ8rVfmQYGpUAwswZ_i7dyr696cBOWpvMbrQZdMdHQ9tYAgSq2AKU2WI_7tZKdcsNRZB_YymrD62pG2i8XGNcQYWdb_jHqNADqFETW7I8vEsqhXvkMpj4taTDMT3vkfeLVeF-AI9dOUWLGXuna5nyjFOI61uK7RaOHgt_AviKxgVgIzHc6qKrMCr0J6JcOxqbAO-oFNQm8oU6mG0MJUYtGR5yfjt4VIA-NdlPBGxpJQRdPvWP1tWM-vj13ROpMLtTVAs9Zn6NPEAu8viHKZu-KBwKu035fkYqQ9RZ1b0-1bmdIrzEoDGtycBJJ8QcKxsHiHPJtG7TxRik",
+        "width": 480
+      },
+      {
+        "height": 3054,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLeqyoGEJtxF2WiJqn6kjQRgrNlUcQC0wRn6iqFb93pRiHoi1RLLsTfNDe_WQ7uNHv__l3wnzMaLl9ThQO9K7kvjLYNc98ONtnHMWF8BNIUV7PvbhVcJNqxGpYtQbgIXKzJgKg5Dwoba_KPVS9dm-EDLe1Cdei4zeUwNYX_3dp02FmAIjnASM9dkHc-QxQ-NVhC2_gzh48a4dU9fzSDBzzDGaJEpB7Wd-Mld_JhLh8ka-iCEqMTUw5lLbnRCHOFXBTgJteIuvSVxE_3kySEVw98C9xGYMaMo1AQeDJuUqcJzj9sJU7j0jU-jChVBmxZEDWfkbz8Lfdq6aCyQQtz9zj_tx1_sXOEIj_Y2DP5wDFdKuqqIH9QGrGUUdxAmtuf9YcLIdD0kI5pNvfven-vX6tzKWFk",
+        "width": 2296
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLdX6WOpDP2pvobx4Ht1aLtAKRDEfDjPMn4UztCGg3So9ndqzlQdmYxwbr0iK79OSFX3TXDDRGbiZcb6klbXeQM0RQ74RSjtNRCUxcLiLRz59EiP_DRWFUS2CG7YEOFqLjGtj-pMJY_dtgzPIkuFlgm4_s5tOZ65zFdbEm96M-s3hi_-jovdWWb-Ugtzv6h6WSZehQpsA5aYM4J9anjomisXOgweKxc0a5GqA86Hb3X1unAmVOw-1UTHe_mDHfPUbyEJHa4wymxNG6Trv6jWmPz2_YBfQRIejIS9Ga9HS9a9yK5A0N2Px1einRG_u-AktMXv3hsFt2lNMa3eP6HtZ5vbSuGkiFVrU9qrBFaUb9-SRFmawMjyERBfSGRwDerr7lbNKMjTRZ3Tc29EDgOduEhy71MQsBU",
+        "width": 4032
+      },
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104349873320991698299\">Live Well With Carmen</a>"
+        ],
+        "photo_reference": "AV-0GLeszAHpsAlYgEr1aeG2OaL63uQZeXpryO0pxvaxJNrLqPycDeDz0mezCIITtukfEVFUHLm6l7EafLFLsKG1HRAOI0IqE8EO6OdgSfc7OmrRX81MViP4RQAhiOxH-pG9PIpKUYEzJuwvNFnuMucCroN7CMT6fIHXV1N-PUR0SXg-seKVcTGBOwhFsE_FOuC49uoNP0lhu3aFXf3Qun38oJchLDM_o699QeoM2NLXkexbG-KHU90iW5wuO9m9ESq5YuC1NJpptkv2gH6MXBziKr23JpiAWdKnfqmBuodmFWBNcLTXEwA8kVnPikP5R5ooo_UnhfB4WvQymRgNu4kG1RPVhbCs7XuK8THwqcWXYkp1hfSISafglAMsK7L5uQxBez-TGo8EPn1Otw27tN3Qps4afj8",
+        "width": 750
+      }
+    ],
     "place_id": "ChIJcQw30GTlYVMRkw5wvwdT840",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10228610471430196883",
+    "vicinity": "15325 N Newport Hwy, Mead",
     "website": "http://livewellwithcarmen.com/"
   }
 }
