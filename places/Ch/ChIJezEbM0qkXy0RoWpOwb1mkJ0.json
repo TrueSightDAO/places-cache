@@ -1,38 +1,198 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:37Z",
+  "fetched_at": "2026-11-14T14:26:05Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Honey + Mud Farms",
   "place_id": "ChIJezEbM0qkXy0RoWpOwb1mkJ0",
   "result": {
-    "formatted_address": "216 North 9th Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "216",
+        "short_name": "216",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North 9th Street",
+        "short_name": "N 9th St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Downtown",
+        "short_name": "Downtown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83702",
+        "short_name": "83702",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "216 N 9th St, Boise, ID 83702, USA",
+    "formatted_phone_number": "(208) 509-4989",
     "geometry": {
       "location": {
         "lat": 43.6171006,
         "lng": -116.2035141
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.61850683029149,
+          "lng": -116.2022699697085
+        },
+        "southwest": {
+          "lat": 43.61580886970849,
+          "lng": -116.2049679302915
+        }
       }
     },
     "name": "Honey + Mud Farms",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: 11:00 \u2013 17:00",
-        "Tuesday: 11:00 \u2013 15:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 1208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104158606332786414546\">Honey + Mud Farms</a>"
+        ],
+        "photo_reference": "AV-0GLe8PYTT2-0-DJmP6VpLT2BIMFIjWvAgo7UnIjXn-p0Ozw5eND3yfhL0EXIx7dTqVJiiViwrmq9QQ245xdeVghSxsuFdX4aR6Mm3El25khepBGwMrLssM16eNzwTnmH-2OX1zdjnRpP4r6ZKBs_3eMm76hlP3pFqMjw-Hx02qTmuFa42HpbLD8f4tBDiP0wyL1Ol4xE7_2_MaYzLnKSFIpJq3LYreXZUFCt1SmluZ5x1Gw6pl7dn1U0fxpm_cq43ojGLvvZirrSP3s7S6-g4tyEAF9VXivv32NNmJGM9AI9vOhws9Q9r1YXbAcTjcSZ0H7tTN9O6z7TwfUKxak8iTzX4BiSiK4qZHf1nC-TUJIbQyQhj2LrvrjMALvBNtLJshMAGG7m_YAK3MHchw3WgblIV9nlVR0CjVrzZ85Vh1TcC",
+        "width": 867
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104158606332786414546\">Honey + Mud Farms</a>"
+        ],
+        "photo_reference": "AV-0GLfLgigBsFEtUf_IunLGJ_P_MTuWnIbcEIXdN02E8PWS9wWGcnnpAi71ZU7W7d33mouypEfo4jJFYUL63hpe4Ug5V7HZ7uEX7yInhnvStpcohsTaYzRPhwt3qxON1LQmpSNJt_4Cj7JQG0MnaQLWnAa_yINXs2AhElvIp-OmUtihZYsyHLs4s2gJLKvqIKLTd5HfQd2vreNe2FE85ABaFMiqILmJKGZGuVuWc79rKoZkdzh42JuTO7O5zS917KhdteujqsLify-CTSKHDAG9C2paZ974k0Nbd7xt3tSnFgzrpH4CQYJT4DWCur58bVOq2uL31ovBpSauT9m872fU3no6X_FkOXa41Q1kSiCSYqGNGNUGiUQiJQUvM_1Qtk6TMX2Q7juXq44K7vIZhIuw7WA9ApExhoFMDSQ98QWAUY34lg",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLfCjQ7oKRWaFJF4-kjkJiCWo5fHZL4ewC7q1roQCcd0H9igGprURrNNxQV1wzKRh7y939ZasLOLWY49sCALeLFosmoYT3t7vNTv78nbO0kZ8_-I7m6gqv_67egeWTVy2lDFsvKxqAfDexS0SRKslitsRGiqPiRff--6XWc4EwG1PtGpYSSBw6UJuMRNQKvBQvnW3QUsxRT7ovSu98AIRZogF4y7toZrGZExY6jEppqpNg7pw1tvI_g3jKOmXia645WkemLvKQckA1RdYy0GSEpWuyde-INfV4W3jLcoKBDyCcRSLmvfw7Jr3hP1-GKyqzBMX9h1ywGUzku4a4-b-VwI6O9d4_6eCjKaKLUhVg_65QnK78BFVkrS_TGALLnF7doOX9sExRUdqmr31AhoFW9sPfnG5Q6U1xuCDk6Lx1iI",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104158606332786414546\">Honey + Mud Farms</a>"
+        ],
+        "photo_reference": "AV-0GLcYvk-BI4UuuT3i60UavRZrxSPAGMtQaE4OI8rpNMeXC4PETgVB4jKJf2e2oN1EI1PrtPtJte8atBdHuws4LOmgMEgdSFyQcCt3Y8Ww6o3fYn9PMh-tzd-rIfKRjfsN70eUMoY42SMD2Agk8fLoXmnBWRD4QzvFnq2yeSaPcCoYi5KXuyMf6y83MZc-gGL-wRbHAU1LvEnTqkKjw2d5pbmK8rgyMhCyTbIR1gnCIItV6t73Nx60W7KYQ0y3DaYwmXELSua4MADkmh1MIdiYmRykF4uGG7jefk98dPY7SB0q-QGm1BarXF97VXqiHr159pXcWPr-K55bEDiidYQznDdz1xTyxTGnEnynnMP_ihs0jotfrJsH3iF2UpcpYmWG8mY4YbuXjsRpgP95wgwV7vgtqROGpva5duFR-qvza6SC7A",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLf-CVQMvHns-udRkQ82qhMtNvhQNxiCGW2gMnc1_SDG5PNxgF-clOCSZowSs4F7GpmWKMgk-p_QY_uWFA8-eJ71goVq8fhJwtb2UUCJ_moUfCX65NkRJftrkvaGo_VNvkSLJiMUR13ngNy2Z87fm_6IncnKsiSOk5LAaLkjywPVjhSgd2glbNeO46fmuximS1qLt-ia2AsPH2_R-kswa0WDGuqdysfSj3rDVNifguOiaAz80_V6i_txU1dLukkRK-xftRelud4h3d2Q_xXvqC4YNOhVDtOrcSeuVnsislzEebRZEkHrQhZpNPdHEr2-gOEyLc66MY17YT1XKeTLDLx6tvWLL1pIMgt_V5cxXVgnql9-DiKAznIkA4CuXga9AWOjOhPqtSwvtCcSm9i9FpzyxfmW113FYl-qFV9F_Av9VA",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLea4v-gKbL_8G41H-h5BfnpHkDPoDQYNLiCAHNu660n4UxN6P8FZUq7ehVksNLXNI2KYtMWifUWAl80Rzo-EiCHt0xTPjgqnAvaETmFObOWPgB88tjP0LsFD4kFFcxGYmSpopwUsm81Ho8YOgBmF1ayB0C43IQPXGNpbF06r8TYK7F9Biobar54rKjMJdgnd7CJ6At6ZlDWrZbHBWJe0TC9U0gnw2pWeVeSemrnQHavq1LMdp_nU8GJtI0Sq0CAZxYhzT83-QDsXVTKE7oGAThV6WoOa3GGyfpfXmILW1soRjaeizUkWNdi1h4-x00TPgkl2wyy2YnNB6pJE0IJ-jGLcmFynX2sk-rk08_-41mgAEaucax9iLP1ut8Iu0sKCa71LNHiebQQppmHcD-LcYXFPIVoN5k_TnuifZX_VbBz0Q",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLexlo9Ok6sC0NHMx552bqXy4qdcZ95JjRJ4Mio5HjhfCGdXMayXddArZrn1ybYM7gV1n8lNwU61GvGUIf1ej8_GM3MPJWFD8AnMvGq8lJ_HLk4SIsbmWlKKL7114SITg4emnkazGNNr3zRipq20I1rLU8A0oZ1LMgXQU6xRpc0hY4_3PvG4e5yNTE3lgKp8iYqQcMR8iCcQonZIz8-ujgottyX54PSB6rLND1I2dyjNl2zcWPr5JvPBE0daGJ0XAIYKkIHnGyykhn5ZbScfkmfIIk_TpI2YXo4_BIfP-zxpUMYB9H3R4XQYcs740SFvV0mv0UqNqZxCXft3c7qS-9WPrMXn3A_bqlP8kNukBIwIxxKzRxry2tXKui5FmB5MSTQJMYLKhbVsIksxwt_lkZgn2DhFvLyOXzy3zXwOLX3WLw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLeviw4L-5hmLjqKeJvlTtzyel1wkWA86OhynX8E2Ecu34aux86Y3yXNmsmq1kHzIkfXT1XYRfhwDV0j78llAfBn5zcMT0hmYii-tM5a8PphgY7IlCXOFWo4od-JeMDIbFIXUEhxWGAnaOIuVhmRR_lbxfiGb5mB5SIinaU0J8fiO1kgqk1myVRonVxX1l42tl08IU_gXJa_qJ9hurk73Ou0xde02nWcE3KKwT2It4ZZyPxybQ698EhXwBCIXQ-LZzK0wS2OXc1Alx_h_nLUpLeasxicphSakwD2vXXEB69N23-aMw6L7b02Vgkyuyr0vH84s1dahVPq9nNkjIgjkH-JhEGvraM2CyWhSmBzCdlxOmBmBYWCumLgv4WhH3WLHt3hwNOTl77PKHncKAfDzp8chl1sxS-a4HKGuf9m28-P",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLf1C9pVjdGMVhbr2sjUaZ--5_N5t3RQ22xk3TQ7h2LZLQSkTB-elW07oJYT6GXxXUOLFmzh7V4eE8b_eoFLpwQMsgIThKPYevW5MKs9Alx7TaEBhA_FYrPHri9-OgpEy93M7EXuUaBt3M_BoI765POI7hoNiR9Y1WfDAmeM8vdUNWAVGezskZyo-XBQGqDMHnr9PAznOKrqJkRqdcKdMLQJycAWJ4vHpOHUgz6EgjI_4Su7nRNmbJwwNQIhWmuKCCfUaILiw8IL0z9sVC5hSkjCtP4J6avCNLRD7XKygg9krBjk5QwJ6O53Js9aKPpSZjKOqPsXbS-7tLN4xKhoDo5N9J-Xwuqt8iEZm2B3gfigRuL26DlMu9wMhjVx15O8nF66bvCBos0knZXXAUcSYvdlJAMT8M2HkbQZyE-0yBDGHQ",
+        "width": 3600
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108580385607196979146\">LeeAnn</a>"
+        ],
+        "photo_reference": "AV-0GLfnuFQ-Q4eS6Q0qzRY32QvbgMcPdqYLlFiBO4-fduOnGNzEdI7YxQpQQ1q6lA74yx_8BmQRrzTTOVoEpqGSKHBsQuz7NIT7HkLOblrbuXeHCaYlw9mWEuqlZuuXq1ISVAhZP0SwOSIX5wXy1qDLKOWNpFIsaL2Dhl-m5ePAk5p0KfrbqgwfvJOMH0UTL85W9KWhtx2FGnSpl9LTTHQZschSEHD-g1uKjrQiY_YQnFbkoIrQwAJGBjK4l9ozxUgLnYFz5Vi8QoPqA5F9ziOUNhAc-90wJEi-FPjozACZBZoY76OZJSiLejpAzEnfvzwPb9xS_kMRsVJF1kd42lKV6PJ_001Zg4xNuM0TQ8q7yjGy5729appVZddbefjhvpIYSMkuZHkajaGmenSaF_P2i7MhXtRshvLS4ZIaNTBY41nFRw",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJezEbM0qkXy0RoWpOwb1mkJ0",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11353687625779014305",
+    "vicinity": "McCARTY BUILDING, 216 N 9th St, Boise",
     "website": "https://honeyandmud.com/"
   }
 }
