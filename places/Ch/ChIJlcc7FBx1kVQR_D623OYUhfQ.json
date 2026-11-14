@@ -1,40 +1,191 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:59Z",
+  "fetched_at": "2026-11-14T14:26:36Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Bucks Spices and Teas",
   "place_id": "ChIJlcc7FBx1kVQR_D623OYUhfQ",
   "result": {
-    "formatted_address": "209 5th Avenue Southeast, Olympia, WA",
-    "formatted_phone_number": "(360) 634-2135",
+    "address_components": [
+      {
+        "long_name": "149",
+        "short_name": "149",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Beech Hill Road",
+        "short_name": "Beech Hill Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Deer Isle",
+        "short_name": "Deer Isle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Hancock County",
+        "short_name": "Hancock County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Maine",
+        "short_name": "ME",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04627",
+        "short_name": "04627",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "149 Beech Hill Rd, Deer Isle, ME 04627, USA",
+    "formatted_phone_number": "(603) 347-8896",
     "geometry": {
       "location": {
-        "lat": 47.0440497,
-        "lng": -122.89991
+        "lat": 44.2276657,
+        "lng": -68.6486894
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.22901583029149,
+          "lng": -68.64728741970849
+        },
+        "southwest": {
+          "lat": 44.2263178697085,
+          "lng": -68.6499853802915
+        }
       }
     },
     "name": "Bucks Spices and Teas",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 16:00",
-        "Thursday: Closed",
-        "Friday: 11:00 \u2013 16:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:30 \u2013 16:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117310322226792081185\">PinetopJackson</a>"
+        ],
+        "photo_reference": "AV-0GLeeHHGPzCcy-BpxeAYHp1ni_X8crENmCKdkaLTfdrV8-DcVuY2Ze9x--X35-nMlxtYyL5PF2qVpZ7kLYxVqZtFmgV420Vo-POh6S1RDBIeThyA2JEm-7tkO3EBuev2RJczWRgmw0A5jaXjdFV3Qc-49dAKPb6xvJyToem1Tx3K-gs-tRN0j4U-SRGY4i4m6-dJgBgJnR4xATVGHmLT0YMUHc5s302C6MZzeOVhHSsaKq5tOIAKlgP3WTFfh_OKp7nuEcmHzh_71rZySuAUl59uKQZYXZadNTkirRWiyVoMWjCmJSIDWdSfOkYr7r-aFzgXMfUkfbQyVQb5WPocJctWjTR1_rva_b8qDDMyWbqklp7TlB08OD1QO2qmOl4aPS30kOyQytML8zaqMaZCSaJCK5zs",
+        "width": 2560
+      },
+      {
+        "height": 445,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115430513872557254213\">Bucks Spices and Teas</a>"
+        ],
+        "photo_reference": "AV-0GLcOrI6xo6LquVu9N-LSpWhlgW92VNbvwLNSv1vNBm9tdVs_BzCcXccau81Mp4DJugPY2DoEByEPVhmyQbswuVuMScesSLL-Rq9w53UA7IpGu_IVgnAhscHFqU50zPgspzy4ipQEF7OOGHw_njiNGc0oHuqCvOCbUiRhCAWm9W14ztQWN-qRbXDFCqy1V05rHR-qZmHBe4E8aRbOC-oyVLk4V4inxfm18vxdjIijrkdPbM1GhKqIuuTEDmcuE_rD3qSgphun1MuSyfKRCVQRY5P45n6FSkJofaAVpp5kLp8jqr2ud5jjvKauiwZy9zby1LhKrNOiFGNqYC_OU48csnA8uFdU3E8tovBXMDHy1cHFnItzdWXXd1Py0xxpn55UduZvF8EDUnQT5YdhKb1DyDCes_8VvPckopWoUcDErVqOlQ",
+        "width": 445
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102280672719449256491\">Chris Huish</a>"
+        ],
+        "photo_reference": "AV-0GLdmhAXupVx0nFZ9VSpVwFXTBsYvZuAs41Uv93jdFFn65mR6ykSnWgSWhFiq--ZQ2dvNT7_rhzD7DUFssHO3gLDkFD3M_KwswTgViNRT2yIGEv6G8ntQU7wiUIMJ_pZ75o0sYelYrzVqihpXNYN5kZPse0qwnar-13stNfMwp9x_13_j2yhesCRSN1xk1PoQq6bH83D40eGhVxXyPh1JylG_APXWkhX5kQlxY4HBsWvFRvs5wYkxd_1ceMLEiivUFbSPmkb5q-Zq5MliAPefxc_ZXKtusAx5pJyFrIre3vHM1Hcrrn-StYxv485VKPH7jrAuaV7XJpSDde2ipTDVB77YPbtw-IR8z33vgoqXoVHun5Fima5KpjfttrkN0gi5QVT6Jyox1ya5H34v4STzRByjRhk",
+        "width": 3840
+      },
+      {
+        "height": 445,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115430513872557254213\">Bucks Spices and Teas</a>"
+        ],
+        "photo_reference": "AV-0GLeoTyaDH1360s0FdlBHyjculq_fM54NpXANcu-IWKQMXCkfimbdiQ4U9hpi_uay_lXElEN4dYuuPXR4rtaHJi0QKAyVDKkdt6SeDp4Lm2XJKZ6Lu9Lo4wVynAWrJ2odxhrbI9GWO5YG45H0nVAjaaUGLuor9-pmzZgN4idTW6rRotCJ_6H7zMaQrahmU6BzXb2iWK2r3gvRGZPQWSd8Gb2xJcmHE5143Wg6eD-2ktkzKdw0wQclolH9NVunbTAwb-nUMfnS_XtcTAxxGGPl9Wra15rVmMRqoqvHSWkMpmz9kFPTMSnf8zqHawE-UPPj5p8rNjdv62F-hu4N8yT3LBgVrf9_blnDvHXFNY-VwZ76VFov2gk6i91-0Mi86Q3Lj5EiXsLK6Nta0aHHDtpwkR5LaDUW9Sc",
+        "width": 445
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102280672719449256491\">Chris Huish</a>"
+        ],
+        "photo_reference": "AV-0GLcS4JPbypflaq7ERzdR1HVvBKpTZKNv8pEgZaduKHNTKzT4UH6d55LKm6P7qtxZrsRq4zXwoJCUYLb8qXTHV0CrLq5KondND_w52tejcjElWnEMEUU01cNq1H6mqMIgMrhLh3iQ3-6ZguEg99bwonHQpLIlGf9poq4hGpkK8k1ITDwpWXXZYsVa7QTPp3XTiZNSV6iFq0TnJNEg-O7iki61vbr5S6XAKHEUuQc5MBJ_nvu4X8wQaeN-F9tzGs8yHDo-aYgzlPf8atJ1grI6UTWf665Emf0iBKNJssSeU3gY4Qu9V075fFIRKx4lkoBPsdY5BNbCSHIFXD36uYHgO4cnajMBoRNruqPLGf6L53bdo-GbZ_ojgbUJ1lUrgvgS7Eca7wzzh57fMKezctvBmcpPm2Q",
+        "width": 3840
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102280672719449256491\">Chris Huish</a>"
+        ],
+        "photo_reference": "AV-0GLf1ryFwLadQ5x4e-0z72CcY5rijz8Dpdx_bcCotOYjRYh4a6N5bnykmGc1YiTWqvQu5KPr7Er1C0R_pcmG_kLSdX31kp9uIEtYvFwLuduesAJgkBqoo4cS5qSPpVB5PqNao7l7TqM92X8WyEEGSmeDHmNl9MUaYtCKIYkWZFtB6UIaOx08C3gZijleBPUYthon9CukP9wujgssGt5ar3BKkVVt3phfvATcM6uqrVjcBme230hMRR-O8N0mOk5oHrIWGlv0GohxT_t3UOXhJbcruloum5mrJSEBB_UEo-wwMIwYIaehKaMLSHbXdCA2nYPnPNa5D4JGDKa_sk8URhfmIPiMuQf2X6Yt2Zo4n3x4xWg9iFtMJiOhIBcK-IvFxquF07g0uZTEzruVHNRIYryl47gJiMeY",
+        "width": 3840
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110317422598495432331\">Peony</a>"
+        ],
+        "photo_reference": "AV-0GLdOrGPMseupBJN6Rzlnw-YGpVu22gCBL6WPFtyQPPy0o3kgMkmFm-lGJnMOlYJGFRSCzXVEJqJfL8asBOPU_sFXJ_W0v-YqVJ-BtaygsenCwRmgPRfP656YFFMEz349MNmK1A-X-cUEnfLAttSuUvZpsIRgwf3mn20k5cDtpzlbWkkKGLLk2q8OAT0pGJou4L0m80fk5GoAagqbdG_hOCzAjScBEHHQEY28EoJQxADInOXfGek0HL27J1790hVYcA9F1azbZDF5zjDT4MWlyPJi0IrCZbLHiStojODYCJtcgnEWA4VdKIX5QzqFi2QkmhptMAFzw62AyEywU8xypHfo4F2_h9zLDeC3z77jsZxvJBzebwbsN0STeyTqbG6inZyFPv4PKCYl_rywZcV58jekX6Ds",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115973594542565576123\">nathan Ireland</a>"
+        ],
+        "photo_reference": "AV-0GLc99Mp8zJsAVBJUkAGYvxHtyAyqMokKPywHW8IyfTvHmO5mRIpARjr0M1ULe0BeNi7WEDQOJWIv0LDTa72TP-oGHxRZVJSu-pZxMQrLew5M7sLkBnih4goB_WOnEdlcgRiFGCTtb8MwdSNVD4eqvHz60uW7B1VOWnrB0CZHu9Q28PJGouBOBvHmeNFQy-NLQ3E4Uhl5tEdBYpwRX9D54Q9zAJEPctNi5bKoAIB93SDJDGSTg5R5qT6D80IeFwZ2bEE_onoVYaOpIKMvbRC-PtObBwn_mZOsQh7DSzBX_t4faeYxrnwBXQYQDjpXsspgjbbEuwWmOzXG2KzP-H6hQZRvGMy_cdm7axyXqzwIkfTDiLcrUT4QJzC5qJ8VdSnmROqw_h45dr85i42D0QJ3caFxLDY",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105408037422148502783\">Lez Gogo</a>"
+        ],
+        "photo_reference": "AV-0GLdsfFhFh8bIaauCDx1lFs1533BdoSpkmovZsFi8JffnWGBc8i88By9gwlhAuXItPG4b_3R5ca5FUcTkWs3uE-rCIaYwy6M12hTbG23yZW_Vhvi-PedVujQdEDDMOHUt4wBGiGItWcxDSUzF3lECQqvPtnRXTsiAYFESh4ZACu8JqK9r1UtrctN742Uye8-7aM2cidKco4-bXemeP-YaIeLLS8gMbVufwVnCZh5TeVBJ6nrE2rC72vcZj2xbla6c8w3Cpl_AnY5USP8c7pivT9UL5rRgI9-QlJo5N80Gc3T3_B3K051_fRdEflEAjcWDc6woXhms36Ns4XgkKUPD7QVPlm0pYfPUw-TVgnsmEd_Ds8SoG2vb7Fi30oSm4F-LgmTr3nFJnZtDaF6GZGgtTFljjHY",
+        "width": 3024
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102280672719449256491\">Chris Huish</a>"
+        ],
+        "photo_reference": "AV-0GLcSm9uGIFB21mnrWYx78kNiELQGPENW9x5RCIN_WVnJU-3nKxw_ofUYTV3pJ3SgCmQovx9oUFGCE9icsJUfCVtybGNamraUa__IIGSZDnv0Ghi7TIb4Zg05LXpL703S00OJJuAfZ9WGom8sApzuKTxfswK5qzl6eZ7Jpp2i6fy6rBPh2UwFD179zmoKfyi-C-Yb8IEAEUhwQlp6Ff5d2YjpZUtd_6mfB0UgWakdSHEtRmglOmwyKgmoppPcZsNRdX6wMBxmb0FyRfxeuOpnKJoJ9qbU5X5kO31ViBkFGWjwPOPe5zQmxLx6i2cw7fRfRD8ilmzIK3AmxfJCCEjVN6NaIGxSAyPLhOtTt5omUgKu-OEVZS52S9FMIONOI3hYcq6KaHOXJl8Go-IlI9VvrZN8B13cpkI",
+        "width": 3840
+      }
+    ],
     "place_id": "ChIJlcc7FBx1kVQR_D623OYUhfQ",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17619512098934898428",
+    "vicinity": "149 Beech Hill Rd, Deer Isle",
     "website": "http://bucksspices.com/"
   }
 }
