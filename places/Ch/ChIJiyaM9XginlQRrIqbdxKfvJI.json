@@ -1,40 +1,252 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:49Z",
+  "fetched_at": "2026-11-14T14:26:25Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Lorien Herbs & Natural Foods",
   "place_id": "ChIJiyaM9XginlQRrIqbdxKfvJI",
   "result": {
-    "formatted_address": "1102 South Perry Street, Spokane, WA",
+    "address_components": [
+      {
+        "long_name": "1102",
+        "short_name": "1102",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Perry Street",
+        "short_name": "S Perry St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East Central",
+        "short_name": "East Central",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99202",
+        "short_name": "99202",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3525",
+        "short_name": "3525",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1102 S Perry St, Spokane, WA 99202, USA",
     "formatted_phone_number": "(509) 456-0702",
     "geometry": {
       "location": {
         "lat": 47.6452874,
         "lng": -117.390173
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6467019802915,
+          "lng": -117.3888504697085
+        },
+        "southwest": {
+          "lat": 47.6440040197085,
+          "lng": -117.3915484302915
+        }
       }
     },
     "name": "Lorien Herbs & Natural Foods",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:00",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 16:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1482,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107367814725572229321\">Lorien Herbs &amp; Natural Foods</a>"
+        ],
+        "photo_reference": "AV-0GLfPj_5KDmaF9aZExKfayN1TEp2e_QBzMm61BAC5_gKEj_HAhIvyJoxm5a7NDh3p79HUcJ2RPj9oIJ-iOnwsoMnmUp-EUGixposC3SRDIHzFEJc02StkPmjWc4VtdSZbW01ncEfESvGcNUThdi1yfq2t6DHwj5I0V70dS7D3J4EO18zQQZUz3PsSgcb5be1Oh5xVmGMmeWX45I13fKs3XXoKsIiRVG42l5uXoJO5hrkpjwahdyLDH1fezm76Hq849eceGRiMCtBY57buzLzIhX4d_rzk8M49-fJBrHvdjRER4RfnnSAqj8vFJWGy_M_70LmPS4gf-az6VrjnQjaUGpYn_nB8KmbrVst9MnSO4fva8fM8CqtivFkKg1fnR4Pzm0_azIXMSyOHykU_3-d207qTrVSGTIo",
+        "width": 4800
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100993992904036204459\">Ken Breshears</a>"
+        ],
+        "photo_reference": "AV-0GLdC6I2ddPLnz75wOCUOTKWuC6JeZUZFXJFT0h_ZnIQiXWd3L0Z65sTTW2y4nSSA6LAt5IImOUk1UvOv0zIuapIqQ7xMD6NBFXmZjcGh-KH8z2AhpFS8f8mJcdCLJTT1LXtemtT-xakEOVXEQMaZygdNXVugcOlKXRS0HUKAB_3uk1pDpi4onmuZRrLNyfXOD1pfNmNeYIugwl-i2_WgmtbIX5rqorMAgZ_qqxQ5hVzfa-yvxgV1r01pSBZO_1rCb5jWZzhyBwbKzyDRnpszGYdlQMnEo4cxW9yTWnnKeChlWVX5nPWkNPLOl34GZzKZe3Y4HLkk8tenylX4MzlIVUoOfg5z4YRzSee_UIMzImGk-fl4WfQGKy3798h9x4Q7SAAJWMxXg5DrmjsivCHjaxI2ypU",
+        "width": 3072
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107367814725572229321\">Lorien Herbs &amp; Natural Foods</a>"
+        ],
+        "photo_reference": "AV-0GLe-UiEJxYD1yrsjC0eT5p7aV4Il5YN_0h92bGLS5lxjXDE5hmw1xfykAUD44gaWT0P_FN5OxzGPB4cInZpuqm1wK9WgYjOZRdma6wdjCDyX0vHTXMWFD3vvG3-coY-tbMb8-wwzTqsMwqHF2QYmiaqe201JtPsbi2YfdRxbIlk7qrSMUR0A7WYU18lGYGlGmF-QIyyg2Ybm_r2GfVQHf3qA1pO_vvZGUm44H-NrphZpvq2UGYPHOy_VFWWs3siJ43g38ZWXPFzXkNRRbujVn9Vks_73SJ_yw29ojz3LPQ3m4NOAav9CqQBqTBbtcfiexMbyTZvRC4jBC6Cletrp_0T1ovkopvqKe7YaxNKBMMNEJbkcswEHFbydiPSDJiY7DzFG6sSROcTwoUYr3m6Gh-0jig",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548197728791883715\">Dave Dwyer</a>"
+        ],
+        "photo_reference": "AV-0GLdIZZ8lUkIrdUSmOSVphY6Ryh5QgVXiDpJC9TfgrgeM-PsKBHvRr5bG7J4XEbtpzrpvYzUS3GaiorVg8FKuMAkoYOdE2lFDzeUD_9STvxzaoSA1GSc9Ss4UtHT9cTRRSYyhEbeslg-n5vC_J0Ihk0ffzOivdUg5-G6F9d3Br0yRP3daNta0M70U8SM5hW1xPawleSWqkjxj9mqm2yj4g4IUBmIw2wFZT8T7jnueUzATFJiu1l9Qj7Am175P5QyufAhnj_WFx2t0Jpr1lxn5e6h7TkqWLFpFaBBewLvTd7eXqDluNHN-u8dZa6ZsfQfP6gGykZ8q4MZMMtL1Q0lLR4iNgwmcF1W7P_IcPTMPdGKf6WLU4YHa3FXHjSWbcEu5E5ZPaSLR0ZHl5yj1eAkJlBF9J3xaLKo",
+        "width": 3024
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107961108280618320841\">Steph K. Equestrian (Steph Bradshaw)</a>"
+        ],
+        "photo_reference": "AV-0GLcZbUhuDiJNqJsmyKv-8ai2oRGxYNCVaDHvZtkyR_ByLS8j4-OMt_HfKGSBHXuxUuIrWHkk48do1Z1GmaoIjcBAIgEnfkbcKPuFDTsVYuS0Iz50DjuDC69w9ZDUcfQlhKoDg5WxXeCppP4yd4kxgKGahVDnW4NFJKgh2AF06KImsEWM5V4g_ubq38ooKZ5Xe9A6p6dQvM3md6Ot9aHeKJFEjCpABwAZgKmRPAuCtV9XgWaQj1tHK4BpHnwEuTWhDFAGTGvK28WagcEXJxCYrp0z85ETLSpycxTZ_3-eNI4sPF1FoIZV0q5zyqZyx5kz0lJFMAmo-uLaCSPl_J5xhVdCMlS4xtPvM5Z-Bn2Cin2tvC_r-KNgbMzVR0fdf8ekVAr28fteqHOzaLdRzEndjPz6_yaRgKje7E5Oc3VrR9JbIQ",
+        "width": 4000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105378403564440015925\">Chuck Messinger</a>"
+        ],
+        "photo_reference": "AV-0GLc2hm8GWundLXiz2uNfGpr0QWdY5BtxhZ7_G69tbojQjnEcRXxgjClsW_jZcH20Xbaxa6YrLxV2KtjsdIkcIEcPxFvAWXOKCZffyvLVvoHVFUVCH98B28kVxQJo3CK6_Wxjqh7UMBTIJabgRajlyoxeNssHkece_sQfoAA6itmMh6jFWsO9wRwQOIxf62AmEXaUrwZPJbWXGsXPmY2xh2PLcFqgJFWSM2yngiLr0qhzfydgCped3U30L2s8TQgJvBKU8Ilu5heNQpMxpP7aOkXmI4enbd_wvVc7t8QL9MGd0QJdUBM7uOioOeu1mWI3itbcwyiZUUWAH6DiXmI-1MT9Qq4F7uXyp5CvQqvfe6DbeRxtpT1lGhlo6ZMugb97KQfMkAFEXcLsz1OgvvgTIePqmdoP",
+        "width": 2700
+      },
+      {
+        "height": 4320,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117673180526626962126\">Michelle Hedgecock</a>"
+        ],
+        "photo_reference": "AV-0GLfJSLO-X0uJnvmgMonuJB4lXIlIw7NkKID1Ds_GmmtKQ9ePnzPXzPa1muW8HJECVjCyDI_quizujlFzY23EO9RkHyNnw0FFEX_MXzkQMS9_L3htwpNsAzp5SJLoiRYxeRpxTwip_PzXKG1vkMiK6YpVd7-urBTtZLZVPYlap_6uFE3-AJU6mtq-VtuzlD4ppe89oJ4oG_VDrQyPi_upCFEJ_HabPQ7QAx8A8Gna0THYm9jQx3eTfQIC8m1lJlhHtY4cXL0G6tpS3bGqEOOOdYGIlxeGDkja22wh6RWH21RYFurGW8jZzkMTVOp4MY3CiJIA-KtqtuFBIkZ8n1Hh2G_PSit2Hh4VqMHfUNsP4J8rX6Ll5EHM1YggOWn3Bex0Y2P2YSjheiyfNshgjbpg8fG99x4",
+        "width": 2432
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105548197728791883715\">Dave Dwyer</a>"
+        ],
+        "photo_reference": "AV-0GLcZ3pa7MOCB78qEnk1ddxHX20DdfXAeKdBwI7ugCY5T63wcirVjmyqvqb0uRSGLhWl64Dt0oXSebZZAdcXoQrQLsTl8fhysDtjPwcHWgpwGx-ErwTmd5IOJa9LwHY09lyyPRhToLEYQA-MmLWPdnG0d3KH3f8mfe7CHKIONjTFu7eYrR1Vh9q4dS1JZJ248UyNSrYEGjMbZibarXlUkGkWBCM3y98iFvgrowJvWl9RtbmVf5daATOgj2sqRnH7bUVuhjtlcyRFBN3q4ALzndOnSw-WxVijqCo5Zndji7C6QuSkukx2kAcbVPdJKH1o2_x_xk7c8FbsA5Sb7ucXy6Dlr9ULYnKTQH6LMEipSiawj0bo4doqEYgpdzPAGxuk9R8dVs44y3q2YS9xMxOVohrENbQ",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJiyaM9XginlQRrIqbdxKfvJI",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10573500926823991980",
+    "vicinity": "1102 S Perry St, Spokane",
     "website": "http://www.lorienherbs.com/"
   }
 }
