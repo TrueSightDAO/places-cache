@@ -1,26 +1,121 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:54Z",
+  "fetched_at": "2026-11-14T14:26:31Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Apothecary Northwest",
   "place_id": "ChIJjWnwNm0VkFQReH-J8zPc2pw",
   "result": {
-    "formatted_address": "1906 3rd Avenue West, Seattle, WA",
+    "address_components": [
+      {
+        "long_name": "1906",
+        "short_name": "1906",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "3rd Avenue West",
+        "short_name": "3rd Ave W",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "West Queen Anne",
+        "short_name": "West Queen Anne",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Seattle",
+        "short_name": "Seattle",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98119",
+        "short_name": "98119",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2607",
+        "short_name": "2607",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1906 3rd Ave W, Seattle, WA 98119, USA",
     "formatted_phone_number": "(206) 650-4031",
     "geometry": {
       "location": {
         "lat": 47.6362694,
         "lng": -122.360681
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.6376283802915,
+          "lng": -122.3594799697085
+        },
+        "southwest": {
+          "lat": 47.6349304197085,
+          "lng": -122.3621779302915
+        }
       }
     },
     "name": "Apothecary Northwest",
-    "place_id": "ChIJjWnwNm0VkFQReH-J8zPc2pw"
+    "place_id": "ChIJjWnwNm0VkFQReH-J8zPc2pw",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11302588330526998392",
+    "vicinity": "1906 3rd Ave W, Seattle"
   }
 }
