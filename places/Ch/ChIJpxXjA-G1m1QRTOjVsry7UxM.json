@@ -1,26 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:06Z",
+  "fetched_at": "2026-11-14T14:26:45Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Riverside Apothecary",
   "place_id": "ChIJpxXjA-G1m1QRTOjVsry7UxM",
   "result": {
-    "formatted_address": "300 Elberta Avenue, Cashmere, WA",
+    "address_components": [
+      {
+        "long_name": "300",
+        "short_name": "300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Elberta Avenue",
+        "short_name": "Elberta Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cashmere",
+        "short_name": "Cashmere",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Chelan County",
+        "short_name": "Chelan County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98815",
+        "short_name": "98815",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "1046",
+        "short_name": "1046",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "300 Elberta Ave, Cashmere, WA 98815, USA",
     "geometry": {
       "location": {
         "lat": 47.5221921,
         "lng": -120.465127
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.5236201302915,
+          "lng": -120.4637751197085
+        },
+        "southwest": {
+          "lat": 47.5209221697085,
+          "lng": -120.4664730802915
+        }
       }
     },
     "name": "Riverside Apothecary",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLc-85DSyHTCzQs34zXDHiA0wW0rtj9-_fYUmckpFe6Xcf1rtp83OhvK8n6v5Tt66VQ_ZXsIxVY7mzSTmgijtb67eKUO1dVK5KPvitU7AZ6juk9yyQLoz-wcW0uKqk39XC9LBy0xI9l1w3tBB23_gS1mPj7FDmObl0SVz3eyOEyKV5-xA0XB7Nnq9KvzF9q-9nL1XrVCRzb0rIwgZ2uDJ2PEBDrzZtZb6VykqG8yvToetTDeq891_v1z35ugwn1jrpRHMWgfERWM-dakUltXsrcON88x_H4zIcknfAmc0ebn53UVhuCzj-Y1CLJibFgU-jGgavECvYUA4eZD--7Buk-UwYgFahexo_5QiZckOSf_5on3p3UTOKY31VWNg75XUAGPvcchFwfSRgy1RZO8NcgkVIc",
+        "width": 4032
+      },
+      {
+        "height": 3081,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLenTd5RUczXjUf9_mpF2gChxwWIVTtOjoGyplCvrcZUE7sdTmrhgTRtTnadEfHrUDV7z04B0eSvPeEXrKtEBqHA3tQw1vYtL4trcUIWAEOmsamGPvnYubN3GmvIUo_cB23XybxtLCz35alvjdOJd6JG8u7jo_Zvuz7ACEBpdajXDYPcMYiDLs3NS3N0tI4_fhjacT7qLsGuoH_XNtbbi0K9Y9fviPRLbisOPfPbavL-Sr7GIw32z5zpiyGD_OmitP-1ZVQNZH_u2rlM4BtfoSIy9aZsfWJZbs3H1NWnBhM19Y0WCNJECcD-Zn_35RtHCEfxZZEVNOzoziBKsQIZGkQGJqW0yU9e-hUO23m6tBBxM-v-d7orUQvXLHtiJKgK6atwR4I5Y6E683-Lwi_GDAD1wSjO",
+        "width": 2219
+      },
+      {
+        "height": 2316,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe6AYNIkrjPYakZ-hfRwc6m21J0Kr_M0lAtmPsTxG6bMkQrZLgfHUU66rKTFJUZBURfN6P-YA6sAAzkR2_n4VwDpRwBgJRys25zsXumangnhLgN_u4R7lndYtOkzKxei_Hq_auWHdA08lfE9GyWi6ZsW6BvkWctFovZODEvxCU2WO3499medugeFtJLMnD0wDnljDCNKQ-y3SWYRNr3Sc0kf3BXGd0IffJSgFw1XF7j-kvT9K0FJALhuCsdKX7PjpVFcmtm6NhVsMsVcxtL_nv-ewiZZ4sfZjJTLcoJvqYgonZlvyKdlTezXAaeNC60dN4fNuKYHioxXnyp6cigWjkpL5hIGbUXKlWzfGxyj8c_LKkJ-97Lyjrzr0QJU54NS7t1zL2fRV_psKbJTTsRioRyO-2aldM",
+        "width": 1820
+      },
+      {
+        "height": 2428,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeEietoyovQWa2qxteAML_B2GOlyKuC8wLhIWZ8v3aMyGTBDHvtOJ0QzBKh7vseOh2HepYgjgLufV89CxLcXse7p-HJlgjWmoTIsbec9sneDJgy8d1_jC4Bl06G5p9joj0s8SfYlHelVElER1BagzY0mmBSu1HQj_w3MDjgMBnKIKPTLP6dQB1UY0LxcWAkiz0m5ExQ654OyMm-kMfPQIQuBdTLQQRMSDo1mDHBY9FBUFrEkKSheUWaCXN3b5r361qoh9sPvgj-hadcweOfouSkdK57veDIiTxlY9Ml_jAyeBrltUV9WxK6xWn0pVAxUZvvDKA3NNFPd1SBrqpFg3Xa3qCzw2edGrDnaH2qbPNL8ZOwxpe6W7szFJNuJODwBfUomJu-pYIBRh1vfKYPyFYj0ls",
+        "width": 2344
+      },
+      {
+        "height": 2454,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcArTh7RTpDgLM0663avdOrR6laYmY3SmeaPesEqORnr0GXj0DladS730Tap2rxvTUJ-mr5BVhVIqA1wfRyBZb5a2apJMBr45LVVeV2YiZA2ZUKjRpvYVJcHvj5R7WkOD7t7qaz_oFT6LhBK4_otr5mi61pB9e2QRU2tJBhynZ55frkC6Kr1S1QhYO1gv2Fr55dCR4tO2Ur5QS5syPoIcT7S8cwmF5n3GzWK1xt54b3AiZ329CZOrl6WdzZnw6FPE5yDInhkaKQn_bBHlZzyStWs0Cszatld-5w3FLWljLgMFw7VLDd_Trj8ss5cWBwutoT4dd69CW9QMEher81maqOXcXjgozOLKsdVNa2ZABi5YW9QvCI-Ll0T4BS_CkQoHbq7jgHYC8HrobCy0FW-tbq9jfjvz0",
+        "width": 1826
+      },
+      {
+        "height": 1755,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfA1mWGyl25G7mg4VSnLWa386PmvvQ-envx1FLcOMmvn4tPwDP0H9rNH25ywPRMKI827hTCzcTw-UYENJGlzmo-lOXHKTsbGQSeTj69IYVMK-BaWWVg364n9mcKGZqaw2Xm21Nyfwh48iW2OL6hRWGxifnTiTs5thCPMRcjUVsMMAzj4nZWwkvrr3MrAH37EnjZx_XYRbHJIXS8t_Q8Dy-kg2FLcxYrQd-Arh_kVahs-x4_m7oC6lXchqbAKZRNPGJwZhtGLggz6WPKBwf_3laY9S4cDeIbYm7YR9WGAV4IEsTxZt5lmiAs3bqhQ5Y_vz39Wen1_EZpJAcUzDeLSr6WLp8HX1iKfYcGDhYdxXi-s4M_XJxyEzgIXwPeTRvXnwFj_1UolC652yYtp2FkTWze3cnrWk0",
+        "width": 4030
+      },
+      {
+        "height": 3366,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfhk9SLkzbcQOVdMaDjJcXMVRvkDS9-OCwtcl7wp-FetApiHOUu36FDjVf69pgriHkSVCk-HUK1fGmna7pEpeF1noeXIafZvZgOjY_bBkJbnV9Uf7WLoO0dRSVjlOaoXcnrpR1XdSDSX9X31GovYwK5mDK_kgTgO2tCqoscd68Mun6ufy_maHv72U5kdjd2LpjUyNBdocdf3xU4UsYDrfPLq4Cen4l3DM18T-q-IyaKY8NEanJ2jIaATE4B8KagY5SO2eBJ8eynLTHVoAdhDpDcFX9dkY_UVuYoSffSl0hduT66ZI2fsrjKNsvMCeINFv4LmaxRT5OU088izNxF3ya5fvl62kO_Yx2M9OpMVrcXUzJe7ObHLVNgFpBAbDGq2mCrJZ9VhWLHSE1tVXq_ExyZ908",
+        "width": 1751
+      },
+      {
+        "height": 2479,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfGUpF9vwNBKZzyR3z2n43jkzU9OOywQJuBHfaQq3mH-lYQNvU9rqYTqI0dDs0cxbBU1qzxQkMVo2JagCqZQCddzpo5gVbXMotY6ClGq3wzMEt2DhA8pEF9r-zvee-sLic5YTKzU5e9e4-Z-iL6KD6Hd6Sc30wQHiF6GbGpRFM08KnIpf3MMHbUmrONBA1A7X2PqdttV9dplbwLwN7w-FKmSGxC3WmeN1M4HQLxp9wKdBre_6Q5PaHaVb1qiVaNCcAeEgk3iay8aubgmoAM_G3SVng2BvmycsAP5TxO-kfuuQNRAgagX9YVmxPxQ3fsBNkr1pMZOSces7_VlDrQlbGY32Tp-ZQlmN25Czd60N3yXehB5X4eOKOLGBaUHWf0Kg7H9rfxI6T8Fof6opgMz9u8cQ",
+        "width": 1688
+      },
+      {
+        "height": 2653,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcHQdHxK3xxMR0YRoPsPWJgg5yD-1jrq7x5wtGtp5uPBkJSRKZ1iLlYC4z2DGGudsrDa5jKdVDRVxNoBxIjP3UqPdVOeRg9OviAC9zKyl9dEmzIWc9d_Mfk8NZl30D8eEchYnhZqHIp3D73XUVBcwh1-TXq50hbH-QmGSEOe2aI688V1CCqJeZxJuPiW1SQQJpnrdr8N-Uy8owGNtuNxCTzF1NsMNcQtHXGcqScPNIJ-zJU0p9_j3paN5DyabnIz501EuiWBqAbzTvx6DWyELhfZ3YLoM_lPgi0ejuURigCFPzDimyZOg7AR2AOdB1fw8yNl8UdLladvomlkLbIcBwI6Aq7_PSqiPlTVjz63pdxK_Wml0zv2LAo9cKczjNk5CmvCDRejXFuzOcE-6WIIdNJU9w",
+        "width": 1796
+      },
+      {
+        "height": 2975,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100309637212322638200\">Riverside Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdGjbUvtHjw7BtVSoHyaOvFd9Q7yFB0T92WapWGng59hlfXPZJTs9lB9uuzwuCc2joMC_kyCP5a3kZgGvSl3zQpI-2HHB7sQc42Hrn30DnGEneay8kZJ0kitGiXMSFb7xl1csoCG4H5lQRYLUp2kWa0YrE8I_YPNrhBcLeA7GL_6Fp9N4s-ji5iAOlIl0ioxqVkP-4YhLwaFknPVaSzyr9z5rJh-1GypBX9Hg2YNfF-HDKSovcBUotCTMXFfDTEW8IaCNQDCWx2h4HMph7pRqz7DR2dB0BzIiizaPIA6bOplrpNWmTKyjXjkiZOxOlyjytMGxgkMd1f6X8-2cGPAd_BI8GAHtTw2wa-KpKdv5XuBkZ-bKPomIXq2v_DgXrO01fNwjXNkbKK1B1jBRGwZHJG7Aiw",
+        "width": 1575
+      }
+    ],
     "place_id": "ChIJpxXjA-G1m1QRTOjVsry7UxM",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=1392663128916224076",
+    "vicinity": "300 Elberta Ave, Cashmere",
     "website": "http://riversideapothecary.com/"
   }
 }
