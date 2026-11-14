@@ -1,38 +1,196 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:45Z",
+  "fetched_at": "2026-11-14T14:26:19Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Rebel Roots Apothecary | The Accidental Plant Shop",
   "place_id": "ChIJgV7PIkNRrlQRehlaD3q60gk",
   "result": {
-    "formatted_address": "151 West Galvani Drive, Meridian, ID",
+    "address_components": [
+      {
+        "long_name": "Suite 150",
+        "short_name": "Ste 150",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Galvani Drive",
+        "short_name": "W Galvani Dr",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Meridian",
+        "short_name": "Meridian",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83642",
+        "short_name": "83642",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "CLOSED_PERMANENTLY",
+    "formatted_address": "151 W Galvani Dr Ste 150, Meridian, ID 83642, USA",
     "geometry": {
       "location": {
         "lat": 43.5762904,
         "lng": -116.3957367
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.5777085302915,
+          "lng": -116.3943922197085
+        },
+        "southwest": {
+          "lat": 43.5750105697085,
+          "lng": -116.3970901802915
+        }
       }
     },
     "name": "Rebel Roots Apothecary | The Accidental Plant Shop",
-    "opening_hours": {
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 18:00",
-        "Thursday: 11:00 \u2013 18:00",
-        "Friday: 11:00 \u2013 18:00",
-        "Saturday: 11:00 \u2013 18:00",
-        "Sunday: 13:30 \u2013 17:00"
-      ]
-    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLef7xdveo3Hpc-nRSx6hoX4rPROpEo_Q7ICsAtZjgGB3obEiCo5hEbz08_2OikEAduYErIRuU_HnJu3dHtFpDo9-oZocDaH2W5arSUHB8VLjeQPeLrIJl9-6fEGRjbQ8OyRqGQCi_fhvrAWTLPuLvnQ5K-MPlk_7ggy6tOfJEPgd1siq56Did7f9wTMq3Ox9S5XEQsN0RQfDMg9MvZfj-CKXx3k2BEcy6uhbFXECI_BFlY3CKRn33aMXHFZhijdVh9v_eP7-4W4SkqOO1sBpMrzUTbgmf2GVZrEgimkABjUDtIif3o9L-ez30p9djZ2_v615mhHGlcpDEPsCB92St_gwYZhe_hp1xDnQo8_w6adrdqw18gd_eOSIql9vObECqfHjc6FpLwFXa1amM3uAObq0jzU3cu451Kao9zuj93dEA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdt079oOCGYds5FuVzztkniRD8wU6EbZxx89mXYjxTxv-qs2BEefkbs7EoG_DyfUDrpgjbjPUtDFHC07Bm2XjKgETKfyg73FQBoZTiEXprRfkiwYLyPxX2ga-J2AQBOfP92_nQEak7q7bCYx5LRlGfLPlwrf5CG2i_La22v4ifneEYxquMyjpRUt8a9GuSEpy2yErNSOPf7xvUWS6DMm4_P-QA3a0XnWJ_nUUaTNXK8DEIYiHWVTukFKhtZwNka_NdqnM_r-ZL7qz_W8FPCmAZYvnN22uAQLg8uLKOXOPgUHCdrqafrFdEzNIjc3RNyxLsCfWWqaxh4_MKeqNOxvNJ7C7wB4NPSX--YO_vzPAg2Yzbsth-mfHeN03wm0mEwDsvj4bAQfpPpByxkKaLao6LlRDi_1f-DKQkBVpKiZ5DRNQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLcmokynJDoavEMazSSi3_J5OqVvSb9s2atT_PywqEigWDSXOEeTwqBKLVSnIbCa4vSLU6kjnvaRKGlO5U5RfKN66kBOw990n4Y9zha8Ml0U7_P9MBJNnDkJYrogvp4aN6aIPQ6hZ9G00e5soP-KxScL43eH9X-GQbLaZpb4wUtzO8_FfqWcDA3fjlOFsIdq0UE3r9MzB0sPgz7PngTfbQRDlrL9ycaqGjmYKYRX3YuJFQg0l2sOC0T8qm6nu9y0qzdvZ2eHCk-n4CTapWCig6zFbq4SUdybNpDA1QFhkp0176GOuodai48-zT5NcKhGnfg4K86b5j5-klt9GVwiHoSrG_KJamIJbuBPv-Wqp2_3OP5eqSvVkBA74BoWov0JWpFYd173MViNqQUJVyjTghuIwfb8c-g5Jx-rkPQkh32I",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLekaVgtesbPYOJUHk03UsI-K632yKLAalJLGiOMA23xGJMi6aCa781_GdLDw6XRQ6HhELBYWcpENiw7DcOS4AvEbOZdjQJEwjM_nQNUSGZ8tgmttxlRp8N7U1isC7y2iP23J32fORdA6fjFsglUuSavZRyVliNQwlmjOnYn8wq8YB8mWVKDB4tiTX-dxDSAJ5DZR2M6QKEXvQvLC7xUjafV3nrHGPpbKJ2itTKLyV8rFGq9PXiluR9NWJp9Lvra1l737KeqWT21GP667VYbWWrnExNKwUhStpThLKjnziVu8GIODaMwSzJachqV5O8wZ4XK1QWPFBbWHS-6Y7u15p3fly_1rOZ-ZVbuFmB9uP5rrNQD7-6DqqWRPD2VbaUGXkIS4mW4z3U4WAkDUBUIK_jqmMHfU5Fx2WO2IudKKFS2_w",
+        "width": 2293
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdZZh3KHRJ7gG5GD7TXfb4nKvU31QNifyM8sVvbg61YCFWu3lvHilxrtDCjRsPqbYb7HzPUo9QXTKU9HMhxDfjXpI2AZgLT4O6ENxVNO6d7m-ZRh07fA9lIOTLjVneVwGjwA57gTY9SDH_fNncmvr3nkCqxZ_o7eOybyXoQUgdaMQ3C-NHUQG50LUqoxtJhjDdhyG7O8iMjqxOm86O7W-9ZNfPxUptljPwYPFyVyqZi88mlJ3-cAnz44QuOqLr0VtTDLdl_DaOAnREQhq3RYv5AyS6hHdvz_hmp496re6VWff-573gE1v8tLYmNOPYs93dPBl1aEwGllEAIpXYeVVpBzEN4tjzx2rnwauO4DQhU93VW7adgvD34aAQ3kXnH73NnfsoABgivhLLL_IABXDNu08HtixWI5G0axvgBsydYYQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLdv63zqIeoEPCyq92O6looW03mXGzobH3tHcB3LWZc8-eAdhs_BjVEdKxqmiYKE6j7yrJFcyLh48yEjzn6vbYtxdETsP0zlV3XuCjPB9wcvSf37LnEe8BxwlWdhCS9cBLod1nuE90E-GNb8CmDleshx05ZEnDv6fDuDAAgHbZgcFGs6Lcp5jAGEKU5NG2Ytb_BdMK0AFHiAy1ExnwOthZQCXBnikdZASw5dD41-cv8JJOQ_e7Mc0C5k80tzsEKXGJquDxMmE1vwcsS18dlP1JGpxerxkEsVg8mlKLzyye49xbXhkwmJzZP8U1bMNsni-tfbY7assLuuVcsYtfr8-RiglgB2Cfqbi5nwLrU2TjgEUDmbaKiK8dGz593W0cJs36nMGSDarYQeFiuw8_h8FZ9Ljd2-orCFMKKW4N4n3tST4A",
+        "width": 3024
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLcp7JHcWiYBMFOhgY1qASFX_DcTy8r8xw1VUSKPPcc4WQOiQcAfA052E9feXBwKTKk3BJTb0lPKtDMdnLgUpRqoBQ9z1oz-lLeDZEwrjAMZyvoG6yUWf32D9-MP-e68VNEHvtqYgZKT2sWbWGXw7yD6YAR4lWgv7dx8GhcWSuqspEqwfiuZhyFr7mZKarz2WZwOEDB2jzIB5IXvoHk-vcc_U6zqdwlXqQeF4Cl9rc9EWcb1gsYFzXDznounC_csYVg5L4AJZmcgRdHx2FbfGJSoTSurJZlululHLpQ_-lkLBeOhWTQR3e9VerxmFS6gf80B80WmBsLxX-C5xZl5QWteelWVhEUc1xJLIFNuvCXo_u3K6Es4GXX3ndEM_0sGhfcqmxYYp4PQZAnmTx4qDja0VuF2QtksrKag_gnX8jeCeg",
+        "width": 2293
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfGl1ZfIWiTDpCCJz7PARayveMXcqoog1sB7V20jzyROJ4lLZ5m19eMmzkBX4TD451sf9zN0Hk0Ltp_5SWm63PUIgxLwAOfCdDL3BxQo671BxNIspdCz-8gqCR9_dX08wW1KdD4v4sBIjmR9wC6xO8jb03hQ_DFlgFtk0pRo5doEpSMmf0zIIb73nXpCeKwcaIgLa1Pq1bwCiKfmakceGv2GWNKw0VSATr22KYwbJGyeA9UQ2tSrdnS-gZb4-xwDh9dsRZWGTQH6OON6_Qzb6KejrImiG3zHixmxMgfKN2tKjkHZK9ILbLt8tXaLGjpNbUXoKvqm7RGbcqwdY9Cvu9LdgIksNDPxbNwiJ711ZCDv5mtJYZBfyGjPsNbpJABlv1I0hnxZ9TsHFqqhGARUgcuM8d-MRt4d6GaGhXDBEYJiw",
+        "width": 2343
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfS7WS_XedUnthR8jg6Zmrnb8vVHDBKTmbJkLsMYuKt9NT-vG0ePEqFYh6TzSpUeNa7gOyZXIffGC-04Fu3o4r5j_6fG5sUJ9rP6DCvamZ3rKvVI8_JrtXDmkDGhZphKxXIdFwhUiHSDn2DrgAVXil8ZMGOGal889i04b3KQwekAsde8sdPRe6Q2Wza3P7A2MhpReaMgF-zvUYxi2H2TybVLTMS3RtayffOYmASPsoN0m2TubC2LGfNPzHqu7NrNneSzL3nY1IwAi1-FOYDDaa5eh_3WQ_dWBkPTOPFyyRsZx3xJIAVoaufDOQwZ8vVl_B618iDqKBIZl3Q4MMswRgyxXnrExSXHNgHcLGdvgukZD8VYgovydFsLDj5qKkNo3-yuN68Wq43s1QVW8zeRHshTOWy9EtfqHj0IhybRbt4SQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118435447752414386018\">Rebel Roots Apothecary | The Accidental Plant Shop</a>"
+        ],
+        "photo_reference": "AV-0GLfobQMKrm23UebmQpIF5PKoIX6tiNQWe3mnwtH2yqHqpYm8_YPlO8yZh5jU6ooHkLdFyxXGLpH6J6RVhrzg013YOnXl7ueSQynGnzzbY4lHzT1CoJa7doBqCCTHBohSSNF7PUTVaU4esQUoTg9j3XRd4wzPJ4xML5SbLSkBY8eVVqt5xXQHBMt8nFrc-sYyYi2HUGDqGVsyoNLgjnySAwAesKvduScMJBiQ4NwJZ8CEuv35KzbE5O9T40L8ptJQAflx-oqf5rlJ1XbeBKOlExnlajy67QAIZa1z8b0dIEOZwEiIAvufuo02NBkVLt2AlgoJyU01FpYjiI_11ke59I2kfmEHkYVVKMdsZVx1Mb3L01iQegLXTR86VS0XW87gD0cxCkjJdxXXpMTx04PpuvqjzFgmD7KgcGhmPBZzNRAuiA",
+        "width": 3024
+      }
+    ],
     "place_id": "ChIJgV7PIkNRrlQRehlaD3q60gk",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=707833124856928634",
+    "vicinity": "151 W Galvani Dr Ste 150, Meridian",
     "website": "http://www.rebelrootsapothecary.com/"
   }
 }
