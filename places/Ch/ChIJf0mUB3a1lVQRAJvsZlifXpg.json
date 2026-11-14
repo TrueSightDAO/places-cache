@@ -1,38 +1,214 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:39Z",
+  "fetched_at": "2026-11-14T14:26:07Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
+    "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Battle Ground Farmers Market",
   "place_id": "ChIJf0mUB3a1lVQRAJvsZlifXpg",
   "result": {
-    "formatted_address": "15 Northeast Grace Avenue, Battle Ground, WA",
+    "address_components": [
+      {
+        "long_name": "15",
+        "short_name": "15",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Northeast Grace Avenue",
+        "short_name": "NE Grace Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Battle Ground",
+        "short_name": "Battle Ground",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Clark County",
+        "short_name": "Clark County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98604",
+        "short_name": "98604",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 NE Grace Ave, Battle Ground, WA 98604, USA",
     "geometry": {
       "location": {
         "lat": 45.781619,
         "lng": -122.5289153
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.78303658029149,
+          "lng": -122.5277164197085
+        },
+        "southwest": {
+          "lat": 45.78033861970849,
+          "lng": -122.5304143802915
+        }
       }
     },
     "name": "Battle Ground Farmers Market",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
         "Thursday: Closed",
-        "Friday: 14:00 \u2013 19:00",
-        "Saturday: 9:00 \u2013 14:00",
+        "Friday: Closed",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLd-WByhvIO-skielbp7f8PvboR3y5VzFotkbK0UZyvcWRATCeEe-vI5Ys0U6-TSZoqupkQ7Trx2crsexB3ucHjFLhSbHikAfh509wnw3q-N9t1cEboKtVj1pfoRf7Ly7pq4T-pyQrXPsR87wemKXfXT3OdaeL3MHIELWhDy3176tkQJhRzu4s2MCFhb3rsDc0bIwfXZEXCDKjj9NMNcy42MXzp1YyRhvmQmsCE7kK_frlUaU-ZGYvfVLdTYfWGHGL5_UVsm_dBefBY2h7OF3r6f1hyJdKinssoCvjCa_y2WLXsYLWQ5RkjnezqBkJ-p74nU13aC3qFT7ysYEMfKrAppl_X73Oqfxf1VuBtLl_fSu7znoP32Ms5F0UY6C9vPqhqGiOqoTOzlxgP2_Ey6dG0GWrxG-8Tqck3HnLTA4DE24g",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111204854268237190920\">Miles Whitling</a>"
+        ],
+        "photo_reference": "AV-0GLcGyAOzCUj8A6UJvx7jrfeAn36TMvR8ZBFmNLuYKFVxy-pd0meWjw4GUTU9H0smhk_VOfrPnSMOeCEBRqusBU6w68yjUEQuyhyYcgo2thc6xPFFUxuJHZf3gyKOsOygVlqKiEtamuRo-6RtBmxvQ_yzCnJTHVfXbQ9HY2Fmy-rShEZKsUr0S5v1k6JIspgxf-Ec7CKF8jdUx94tlfs05eBZ5guz0Fo8F4EXzf1Jg-potIAg2rfhqUTey48gyIrF9PcXKM7eTWugj9QhL2k5BYHUw7s5PWTdZPVI4BOgJjIl_JY92pmedWp5shF1GN45FX9guxfAvIrBj5iISej-QwW4IdlAcZLincF0OZiRt4b7qk7vTA_wHnk4VILRdaSVkieE5V13Jn_I2hJl_w16bEtzq3bzRKWa5zCgt75uLAO1rw",
+        "width": 3024
+      },
+      {
+        "height": 3955,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLcnObtAxP6d9oAhAPC3g4VFgPfTngXPwnjXWZa7clSo5IgwUAu-uJCoW_LBmsQAlJ8Wl-O2Hni5lbyBb0TE6QfzXTbh-kAP9c9n_bjb3jGWxveQYSiwuSKTQSxJ8J-PAUQqOR4aamzXoEZEAqQaT2f4MfgqW8tzdxNxA1Vyu4GZmCNWfn0CPvtCgt0CDBoznbhHe0CIK1tcDTjEA6phYBASXHygD_OlJh-e9zMjPKL9ucAH_9J1caYr6HrfRYNgdFhX3ztKu7Uj7fzf3ZJ6FrO1lH3CrhHDdSxbgOocyatCizbl7jBIudOC3DD9P59CekPYGQTcSjGJcKfFlMpK7BHW0tgMjvQzwoTAxIwayLhmV0_kPIHjGV-8hUQ9WQGdT43oxN28uOBUSgZgnBJoizJjoizGIYNwi7ZE1FDS2x7TpQ",
+        "width": 2966
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLcYmV7lbkZCsRG8tlsg1Jc2gF6FkQt_u0QIMMFI9uMQ9yrG2CkewTO7_voZVJB0LvP3W-hbz4VQ20Hn0PIH7SsOLF_tGd3DuVB1zRgF-V4vSX3cVtj5Y45lszoFqtpbS2vbhzjm38gnYM3RFX59TsOYNz0bt_keE7uVi7cWtvCHWPvNx32meUTnPMCTAPjNWnw_YiD6MSkQW-s37x-B0zPGhSAxSSlEQ9GMMab5ykfS2ddS32OkdX4_cT-OX9gKYdsO6vLYIhZrZHcESsITmWNxd4w3GRgHPQRKRpUvm0KJgTglyiX-CxMZiYipud6KS20feuv-avP0KfbkQxnMCz-fBEnk5aGP7oJcwC53iizk9oVLlJvGH1VN66SRahF8n7BRL08Nklbeuc_eW4OE5FEyu_ankGXI0El5FqAx1v3Ggw",
+        "width": 4800
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLeA8HAJDoILYH2Se7sxUzh1y8kO9y-dM6Y08XhrfG5EVlna4m6jCYG_6vMFBjDZXgzJIPBzOzq04k7ZUEMwqrfdyX3h8tgb-nyepLj-UaoIf28lkpaPq7Fyi4PJJsVP_xm9iytlKrZenBWsF8xHvzGd2ZP9zny-3YvD4lpw_2gur20Vnim38X4bHZW0tPJ3NT4Av8t2QkgveKFVWs85h47FDjVYV09ATOb-836B86rCkl7EQJ00jVhxDvV1gEOJs5Tf6ydWIAkEmKvvwcbErT4mSrEZPpysKH72DzLYUEKNfuB7L10R50SpqFCnuqRrsD_YnrzKah854CbZFmH2R6nDUAfWOvkjQzrVuB3kFHEhJQPtp3a5kd1vagL3XZoakhugIn29LqNOVnM0RohqYDuFGueP_ZrHnS0nWv8bvmdO",
+        "width": 1365
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLd1bf3Ycu7ECSwsJOzTJfd6OkH5ekVAtkQ8kdphetyYPYdCEI_cQt9wJ06IoMzIEjPGVCMxeLagPT-xop7IZrDBiEomb7J0SIZQTvRT37OeFDUJzihNCsMdkDgR4mjS2D8yNQl6k380MhBWergll7Xu_kYCtE-ij4yw2OmRefMXQ8f0ymy3vMMpArDd1ARNCgbxgK7PsEeXWq_G7m6pGnjrYSdO0sx1jb4VoMnxxrOHrCkZ1PQElDtV4bxQlpS8OJnlQswpL1hdJXNf1KtvwfuEH2u7GsJNju7KfbeyzMHWN8Dr_sBK4NDzZhjOQoJ1bYbvoF6lFXV3gsDiSSbUvQ2v-Icez-qkJXjyMXjZSn6B5-z7p6zkBh8801PVsC0AIFD8WOfMmSnIKF1AxV7qmWvVyUzancGP8uI06ql2AYu3TA",
+        "width": 1365
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLd_xzt64lQ38-J-6knmO5Cmp2c8WoAoh8ZTwe00E60_vKkrMLl_CUucOQPh4E_FglTirkW1Dv3kbZoJb0_FJ_yPes5OzOH39KPFGMPSWccPpgU_GkMqeBUgbHuzcBj_PSqdTgCDwIQAgyc8fKkBmjhmVu25vhMQFLoFqZIfTpKQNX--NAwaX8PGxE5Sdl3EemrC1lo8vw8qKuGTH2fJdqlSFgQrX6qZjUu0WvOFxdRPvKxiZBdltvUIr74lNUIcSD02w6OqsfrkspbegFp3ygb7GLA4SmNtOkGSMzjv20vj_D8nc1Hj92VX55j0imDASqSZSs5DfHFtMiwuLj-sAYgI9ATjJG78RLDG19uH7MQmYOFMPZ0UwR58aRGAf8mQvcvyC5Ui0uyBCYW64cVG9fX6RqpZMhQldRZnRVpdWYDzRg",
+        "width": 4032
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110553500235470957321\">Battle Ground Farmers Market</a>"
+        ],
+        "photo_reference": "AV-0GLfwfXWCq5mIlWfwIk7fyuy6M0IfvUUU2MkG1wr-jlv7ilduadFLsQAryCYrgZyIUVVh7P2F6wm93iWQnbMhF1z5t1Xe8BU1ktGOl2MAzLsM0Khbngpymh5yDJQlLg2Cd2a-rhQSKd9vu83huBezrhxAd0-DBgh-7qH_dsb38W3scVga1qLBC0vA_8HATBpLt1HhWt2EgQXKettKNLkocj3p7jEwoXM-ylJsO8hTIN3dddbyElCsRMWxeRmAzDIY6mpTUpVPxq_m0b3mbSJSjled29bCAhukd6Q5XmEz5fgUe3mi3vzjPn8b5LOUc5qGUNadWJnCSFJMrl5bMis2alhhlZEgYKKEM8XsVSz5HTgkiOSPpg8V8Ef8IZku7G2PAZ3pCFyvj_1AKsXYxau-78NQfbmQUsYZR69x6Y5QCuaS",
+        "width": 1365
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112320769074152277759\">Clover 4 Wagyu</a>"
+        ],
+        "photo_reference": "AV-0GLcW_DPuUgWKut0khhnPEVZsEIQ0OsJxgQKNR2DmqxfEFPSIs77ry1h-dLD8_aIV7tidCkFBSnf_rF8nJYsx2HWWP4_29NjmQDpcdr7It32I4BmoSuNzgar4m8WtZNCFJmTiy7sgS6EH_b9GItR6B7YRAs8SlJEqrbvv2wkBznjKergzQ8PWwcO9P1nhWW7DjDeEXPc-I3TYKLKrNvmO_ic95-uZopoZrvlFDxAbvimyKZWlt9YkkOdJkZm0cXLyHbUTNtndl2GwHNAiWPUHz-8jO2EMeZqWheWeWELnO9gO4sQRYLYv135WIwYMTl_56U1vhQj8RM4i0NSbYQf2auVm0HUgcc8fb7RdTFJuV1QOEy7fB0f0hw1MwKsuOVuqpP7VMuxfBrQiv6dHxIpMvCiYBDNZvj89nrAu4W_apeTt",
+        "width": 4000
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111204854268237190920\">Miles Whitling</a>"
+        ],
+        "photo_reference": "AV-0GLeuJMZmwiDm7odJqDUzYtYhJAkGgEUs6zWNuK-c5nAMOdvvFdHmzb_Xhr4jbtWzvguj_nF4CG88IRed2d5gCftRT2czecI4hBr7ClBli7LxpTmwPSwEf7NkdlM76AhSt1h6nblcIBKBpI3vCb_PLIr0_yEYIDaMLdkdG2ObHEUHpM9NBkRmYzry_0vAyraAQIvpA_55TtuD6OV8E1IExQKcFPw9aWsCCVAdAIbC2xTMyCZXuxu3SHvKFiXlMp3FdxIXNCxgr0I9qDaFNGjNYJsRnA39jXpfCuLIndeEBogc0oo50Wi4MFlP0ZWXXMRTsHAcddv9tU6Q1VBB-jM25PVwWTLgIzC6iZe5ewz00tkyrkNVXkfgcW_SA94oxln7FZCEe7R-KNQm25cFksBxo5QaR_yttEjkE_uC4EAQW-iHQg",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJf0mUB3a1lVQRAJvsZlifXpg",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10979388143608568576",
+    "vicinity": "15 NE Grace Ave, Battle Ground",
     "website": "https://www.bgfm.org/"
   }
 }
