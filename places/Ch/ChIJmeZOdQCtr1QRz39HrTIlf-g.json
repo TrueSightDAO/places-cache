@@ -1,28 +1,118 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:04Z",
+  "fetched_at": "2026-11-14T14:26:43Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Washhouse Apothecary",
   "place_id": "ChIJmeZOdQCtr1QRz39HrTIlf-g",
   "result": {
-    "formatted_address": "218 North Main Street, Star, ID",
+    "address_components": [
+      {
+        "long_name": "218",
+        "short_name": "218",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Main Street",
+        "short_name": "N Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Star",
+        "short_name": "Star",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83669",
+        "short_name": "83669",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "218 N Main St, Star, ID 83669, USA",
     "formatted_phone_number": "(208) 830-6226",
     "geometry": {
       "location": {
         "lat": 43.6939475,
         "lng": -116.4900494
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6952973802915,
+          "lng": -116.4888220197085
+        },
+        "southwest": {
+          "lat": 43.6925994197085,
+          "lng": -116.4915199802915
+        }
       }
     },
     "name": "Washhouse Apothecary",
+    "photos": [
+      {
+        "height": 1750,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115754482683750877953\">Bryan Fisher</a>"
+        ],
+        "photo_reference": "AV-0GLfUv5SWnOVUKGbAnJuZJakJaOWaQgtn8qYNamk4-HeIeos2oOjrgQlUhMviDM-RiZhpux13SvUbCR-II1l2miSb2tY1xkGBCStrPXm1PeabBggkWtHvUcq9zpAeYzttQHljy4tjVjqxlAW5Tz-X2sN-6DS8ER74Zo4MNPGsl2JZKDQ1loderMVG-_0pNjeYnKuHqjoqLkYH-QNWa8IYUxIPBmlkjsH8NiFZWxPEzgR_O5C-TxZrphS1VC_B6DvUPZUATXg3sz9QpgdBk2E6D5yp4lExZNWufTNNd03CsnIVkX6U6CxNtI8Fdg02pxIABWK_C13GpnQH_8K-EUUzTVLNtH95wkCH3kpeSqlklVN33g9fwEGYwLwiaX7LpY2v9U_uZE2g9ZsYlyvBaGq4HuNqjOoKPNDPVobARhq5JQLtSQ",
+        "width": 2773
+      }
+    ],
     "place_id": "ChIJmeZOdQCtr1QRz39HrTIlf-g",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16753150038427271119",
+    "vicinity": "218 N Main St, Star",
     "website": "http://shopwashhouse.com/"
   }
 }
