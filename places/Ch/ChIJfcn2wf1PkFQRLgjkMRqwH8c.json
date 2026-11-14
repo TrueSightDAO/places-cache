@@ -1,40 +1,238 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:15:41Z",
+  "fetched_at": "2026-11-14T14:26:10Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Mind+Set Apothecary + Restoreum",
   "place_id": "ChIJfcn2wf1PkFQRLgjkMRqwH8c",
   "result": {
-    "formatted_address": "17917 Vashon Highway Southwest, Vashon, WA",
+    "address_components": [
+      {
+        "long_name": "17917",
+        "short_name": "17917",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Vashon Highway Southwest",
+        "short_name": "Vashon Hwy SW",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Vashon",
+        "short_name": "Vashon",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98070",
+        "short_name": "98070",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5204",
+        "short_name": "5204",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "17917 Vashon Hwy SW, Vashon, WA 98070, USA",
     "formatted_phone_number": "(206) 408-7012",
     "geometry": {
       "location": {
-        "lat": 47.4442042,
+        "lat": 47.44420419999999,
         "lng": -122.460906
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.44555383029149,
+          "lng": -122.4593538697085
+        },
+        "southwest": {
+          "lat": 47.44285586970849,
+          "lng": -122.4620518302915
+        }
       }
     },
     "name": "Mind+Set Apothecary + Restoreum",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 11:00 \u2013 17:00",
-        "Thursday: 11:00 \u2013 17:00",
-        "Friday: 11:00 \u2013 17:00",
-        "Saturday: 11:00 \u2013 17:00",
-        "Sunday: 11:00 \u2013 17:00"
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114106956067181712233\">Chris Acker</a>"
+        ],
+        "photo_reference": "AV-0GLcgtyWy9R-oVEvNk-cTN7ALuB-_RIGEeigbX3SMltEbsJ_kTD6xRTCNRN7lkm8_c137C2u6RQD8D8rAEAoOUbIEJGFVm49hlb89PTvUSkwWkcTEX1jW2pBY2A7AXGnLoyE8YWrZpIXyQSantdQ79SSBUfhj8tmvJ9X3sKzb1W5g-LQLbFoTrMbLpTpSI16ycenHsu1QKbgAfJTajFwOQp01DJauyvUCgmE1R7O4bGQbEFK-Hqr4xDqmgrkXtNxOvBclUqePdHxscWr-vUxSXeW5CSkxMvFn3RwyhZ3BTi-FzIqxZBQLONGTorTF7gNTC037-N8O72szpdkyhRvB5tZN7Aq7Wr9cYTL5oyURC7SUq3_AVsBqO8ditQ86h-kChPzYXqZVX-HObmdkHdbwgfwq8SLK2RGj70gMfCOO0xsgWw",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114106956067181712233\">Chris Acker</a>"
+        ],
+        "photo_reference": "AV-0GLfKXbc510OkuahigF92wbIDpMdz32pr43C_GllKV84bYRN28JT42QEEPiCTs0vR4DVKlLxWeM0NaYR7zMqVFGtXnLiWdjsn5B3cSh4qpRgOZUgEN_xKe8gyf9Yi7Qc7hY0XLX13f7XwJuVnjxGQDWdHjwAEZTyo9ZKalZJn85fhi1CSonQ9fkeavJpgHkd4AFkh0vAoXjk-Wn0lJZgUG1QbqTyaY_9uffDby6ka72PRH2OoEZGs9TdwMluM74xGrxi2pXbrq78xU8WykUsCR6qrXRhAYozL1U0aQXs2ZzfISpUovzPqXghGlLMUO1bQ6P18yQiYcVBLy-pZHSeBdREVSSqjJzhXCfRep59cwdr5IzYaXWCz9-JMNbEKvdKElmW5NpFfybpfIoOXi5V4TMHQM6WTCcE4aoaGuvVOFXU-",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114106956067181712233\">Chris Acker</a>"
+        ],
+        "photo_reference": "AV-0GLeYKHvtBFIbKsX5erFNEdYrIAzxXtdTpL_58BaX6-vDh_rOWLtv94CuQDzdoO8OESciH82Yz_7VqX9lA9DkuceSotLe9koQa0oFL4PPHYn3TW2hAX2IS2ooYVvJwDWYbpfgrNWpiPTixeU4vOJ4Yiufs3RmdITZqZwykyj89YJk34f7KB1UjcPBImWJNG6s5mSlsySvNZ7Kso2mTuvMiDcLrHTw7Aqw5fV7BQI-dOrN7YFbyrJhq2oZO7U6YU4Q9k94L62QiDpeaXCAQ-FJrZmmbMKSMNi9xs9xSCk363-L7M-cc_vp_nWzFTT2Qhy8XETml7c_GeL73aBnJNyKxdGaVrmXlY17ZAg8a-0c0h-x1VcWu8YYI53EZbw9cpObS56YY7uuxROnQcaErNcDCjrvDtiFZtAsxJBIS1ZlcCWzzA",
+        "width": 3024
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108900657787416120360\">Emily Townsend</a>"
+        ],
+        "photo_reference": "AV-0GLdfXDJDIRaHXmnwrSzyS1Lgtm3K2DADTDiFsWqkvys_ZQdgoXivwjTlVN1N9dvmJrD0KliwLzrn3WvIBYGGefmUyqOPrMGJn6gfZ2kNWMa6b3mnuw12TJmBF3DllHGb9ioJd3oF4B7soY0QNHt28hRI13e8nAkaWw-d1x9KpUjMiecbJDh0xNb6yE8hdPO_Hp87GAFtgYNd3EDbAKduj1xRlgYvuVC0wo2SlqwBxc1waRdG1BA3Fv52cNuQFz5n4U-zFS5QGxaX_gBSLcBKsvksRlLLMnFx_Wg6bQrebwB5JC5abutxqlSXEdpaqBDei21t3QnsAix6jBnKQt5lZkBwBakeNCwHxTiaAJHJfLzgVCtBEcfoYX66R-I6QXgVK4UUmL2_uzEZg1sKK7aVSykvqvzXEbpXXaeHEhXKC4nSJg",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114106956067181712233\">Chris Acker</a>"
+        ],
+        "photo_reference": "AV-0GLcDsJIVaUivg-WQu8aFl9cmuwAWtxeIdG6jc_RMFsAeA_z67MmvLSTvPHfU5IvaeUpw71TYKWM3BKv9lbCnhuKmMYvXLteoRRkHWbrkIozCpaADHIHmRE6PFzMB1MFIEBIBjgxJqxikZhV4QkxZdmxPj-5EbPlJKmixrlqj-bh0F1RBn0JPmJ0AKl_lB9DdilIgLnSSrK9iuR0TQY35FSNvrPqUarQmUHM_vlLPI23ajQmBuCq-JwcO7Ih0FnPyVe0M2_K-Tv5S7h9hKJeuKDlqTRx6rr3mqumFyMj_e7NVcjY6qsU2iSDvLQ7PhfSJXrG0ZfTfQ7qnO2WTTAQ5JNJH9haedbBEl8qH3IA0T5TKxvYrIibu6bCJnXwunv1tnRt3LnzwOwGrpY0eX5TTzvzmcwh2t3xrnLMoZDnFK4QNxQ",
+        "width": 3024
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113539451351996119279\">Mimi</a>"
+        ],
+        "photo_reference": "AV-0GLdasTf19lntaANhUJiR2nJ4JGMhOcbclKWQdSpFbqlUF6KRFyW6-Cpu1ICIVQ-9BQigAW-Gr9boCFOyMvqrPidpz2lp7DGKErUI7EgV9Rus8jdfcZflaIz5kDMtMYBFq8Y1rcanzF8eO_tGh8UjTw-nE2OmF6Ruimr3LzLzcrMURishshpR-62P2lTtaMck0kvVsNS9pH26RVXTBrnLdItDDMDOZVYhfGcNknq0AqquvLS0YFviY6r7iR294nGIagTJD_8tM0fGpgsdPWrILHvDGjgkpxPUyokIhVLgVw84zCufCkX0ecsa3hnNLGhpCqgJlqMgy_xW2Eyn_Cr0ctG9Ibur76bS1DTpBcfQgXCwkEP33t0hoFoGGUoEA1MuY2wo7BjsETOLYsG0DVjJhBrx_yhXm6tC3jUf5xo4iOBfTw",
+        "width": 3600
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118024658478722886074\">Dylan Wilder</a>"
+        ],
+        "photo_reference": "AV-0GLe4rFf-Zaqkzy2-r0biFAkyr0WZ2OXiTtjkxmPtLcU16xALowTPWFs6ADFJHcaBNEYo5XysRqvSLsS2nQX6hsKipsKT7ZeIybXNoXvg23fW_6tItVqERc2_J-okkr4JYJmfUj0N_ZkxgIePfRfi6OdzhfvcAbz2uaBaoJ6aEwR6AkHdUpNNn9f0FZtBPeLw6VVNOy-TowpSQbU_EIW9atHQAtJImAITnmsW1zUAF168ZzAgIdd4hRWoRM-s_XHtd7jd5cQyM2Cs0CIriXiToCnK1qWRXQk2MH6-spQ1FOgIJFfcMV-gum4xq_1dbSqXDv5Dm4qHpBSZCHfruMMe8mYKVq29U4-1uJx8q-_fA7xb_kc7WYUNrDo2ByWosxttyl9o7JshjyuyFr2rLCzIGNzzxsVV4YSB4aEMU4a-a-KvIw",
+        "width": 3600
+      }
+    ],
     "place_id": "ChIJfcn2wf1PkFQRLgjkMRqwH8c",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=14348380564378355758",
+    "vicinity": "17917 Vashon Hwy SW, Vashon",
     "website": "https://mindsetapothecary.com/"
   }
 }
