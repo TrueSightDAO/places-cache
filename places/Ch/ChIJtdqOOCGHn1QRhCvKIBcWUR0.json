@@ -1,38 +1,269 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:17Z",
+  "fetched_at": "2026-11-15T17:56:40Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Glassphemy",
   "place_id": "ChIJtdqOOCGHn1QRhCvKIBcWUR0",
   "result": {
-    "formatted_address": "135 Southeast Kamiaken Street, Pullman, WA",
+    "address_components": [
+      {
+        "long_name": "135",
+        "short_name": "135",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Southeast Kamiaken Street",
+        "short_name": "SE Kamiaken St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pullman",
+        "short_name": "Pullman",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Whitman County",
+        "short_name": "Whitman County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99163",
+        "short_name": "99163",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2614",
+        "short_name": "2614",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "135 SE Kamiaken St, Pullman, WA 99163, USA",
     "formatted_phone_number": "(509) 332-1971",
     "geometry": {
       "location": {
-        "lat": 46.7291716,
+        "lat": 46.72917160000001,
         "lng": -117.180127
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.73054493029149,
+          "lng": -117.1787010697085
+        },
+        "southwest": {
+          "lat": 46.72784696970849,
+          "lng": -117.1813990302915
+        }
       }
     },
     "name": "Glassphemy",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 10:00 \u2013 20:00",
-        "Tuesday: 10:00 \u2013 20:00",
-        "Wednesday: 10:00 \u2013 20:00",
-        "Thursday: 10:00 \u2013 20:00",
-        "Friday: 10:00 \u2013 20:00",
-        "Saturday: 10:00 \u2013 20:00",
-        "Sunday: 10:00 \u2013 20:00"
+        "Monday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+        "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJtdqOOCGHn1QRhCvKIBcWUR0"
+    "photos": [
+      {
+        "height": 700,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLf16LGf06OKO6lfebsLHHMme_eKS8nhm72ZHOEbH7IW1zisX03TaODUf_fAylqsnHwOJ51jR2SdpgSoMtO4lHZkB3sE-cA-1LdPGDIJ3AIZHkjKCvSNoy0jwaRfI15bhYMm1OvmdXddIkBfDU7vdxVqtCd_uAKGAz_63-jX6Mndq9sbCqg7t2NyNNqk53Pi-gbYBkf6k1Ylaf0GQ40Tf6ayJwOifH7XQ4yx9GTotr29QG1T0uS-OhBGSL-CO8L-pDPKj19odSBPqqAJp4Bo36EytlRq5E7N6CJ7VOQReIoQHvmOHF-uZQ9oS5-5VYqUKkwl1QbGS6ThrkWHnf6xij0t_oX9W91XbvW0jUhBvrAyB9Xj-UFywWGDXLP_WKDcWZI3BDkdaNX7OgFLRP0SI2LI3yfYooY",
+        "width": 472
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLf5y3Xmh_o6v0tnkzOWbGhEepbREllvPe5Ywqs5L4Ju9qgvg7Zlj6MKLUjy5LzrS4J93AuF-Gk4LO2jqcYz3kbsMQhZhdXOYqnvFq0bSgY8mdY6VTMZPJAVYwCQALpulih1Lmc6DQ2OLyH7X56oQgKEkMtMllGXO5ClFqMJvuxhjmZ7A2rOPTWQk4YTftk_l2WchOc3kTG1SjXGdH2PViU4TroWuOyJNvq3gB5xLg4nKnI51cKYHTIPV5Nixxe2z-ArgEqbSLkGI_62Y7sx4ayApWNgnbiFoe_GD0H9NPiSLC-nqbprPnxT57lBWAsn6IA8YQmVojDRsOzlC93U-_bMf0uuaIeAmiVT1Cl93c8I1BWI2Tt2MJlOsv0nOH2deJqD1EDEI6YS_RYYOZkNnR0P85A",
+        "width": 1536
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101383224972462301507\">D Wheeler</a>"
+        ],
+        "photo_reference": "AV-0GLcqjzAXGGVWYi3m4Yems9qWM_LGGz26leIHxORNWdYCNrkTDApGIhMhg8qXp-yAj9Dpthncl9KbP-ytQMa_DMxBZmaeWf_XFYDEUu_E01yC7maF_VfgV7WiN02_4dBvJcnrOAR8iZtwWtJdv-HMxYhTvIJc_eiDDae82tq_DG8ZjUCLcgEIslKoNJCAOCIEme2YBe2uCl50Iqvsg0diB4N42t3FyzzQh7_cdQyRjDeg1nRMjX4_dcVY7QvaCUILQT1QiRF1KXX51cb6T2UsFM0W8nL1BJR5JBCGDjUccFLxIZP5q2hkd6c2EZ5Xj3kRAEntthAizDF34LlVeukjINWSA5DNhIBHuDrqq--A3b4Pvs1BrbasgridRGLSBnbXSPmOjJyPPIFXn55wysGBLQagIGfihXU",
+        "width": 1080
+      },
+      {
+        "height": 3179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLdCphORvPHqI8G5626MN-4ygAABUn96ZLR6ew8z_6PQ4I2gttxuugDb2FHfItHS4xt5TPSCdNcskQ36XBkTk4QJTm0KiXBXtvvzFauk1Eiriq8zMyeQCT2wzmKUMrwNz26nyYabLoxUeE0zY-wQnDMXFv6zNIjf-yhHEyJK_hTJKCyiZX-s0P3QlEeA6oH8USbSl7Ddvwaz3CDMLcjVVRNZ3xYFQY01FGqv0AcM8DOu2hP_39dUcohEN_jECimQTSGdncWtpqoYQTFtOuobdEV3wQ9z3zuXdvmKFX_wB_2LmX8qecBE7Ok_3hDVvGkMUOolJyAXxpuUPEULv5mejmXKNVH_p3MNiBxkNdg5JigwjhKJj8QFaz30BGnDYOgYOmOZcCwWUuiauPlDJvFIKPqIPjc",
+        "width": 4800
+      },
+      {
+        "height": 2292,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLcy9eVW3YwFVLeDD74ixtkF_NCqN-Ffa2aV8qXrwO1twoFEZdQ4efmp3g8549QX-uLacOLUrihZhBYWUPxxaj2-KVfI9Wv0CAqr809PU0V9Rp_lHdlY39FwjSJPMWehlscBUheUFYtGeu3RwwmbknN7vYqyJMcq0uECSf2WrfPy9Mjld5JyyeRI0wbrbORf5vVVA4a65sKongDobEK4eX0PVrkhaDXTqmepKsC-vyZvFH07SSpzUHSu_4hXKCJvu73P14CF9c5RRfKGbdmABJW6RKyAwH_4cDZvizHU_atTqsXOYPkK_lTQFXPu7Mxd81AekFy97eOxkPlw6E3K5k9Ffim18AoCOP6rpOPKfRw2wodJtrL-kiP6gYaMJXbA269ww2QNCugNEdfJQD5Q3V_gQ5Z3",
+        "width": 3460
+      },
+      {
+        "height": 3175,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLeVPGbf4L137zbEqBj7QDq-AA4KtUOQyBVmnKKimeKVmGmxhulhL66vs8_SnXX3DN2dwOBa_gYzgX26VPYoWsL8H6gMjq02nTtsE87ymCNA49-zNLEayQDIb4nqgk6g5NyPAP_zhicrpmQAXYaHBAD7XBO34I3Mdu4gkPfJVk0-ODWCDuWOOov92IgO5ghg3MVbcfBzIjJWblzTIJGhwNjTSksh1hVenQg1OjdKd4gXOaXbPhwXpYThNEVGQGHgqJzl-FrHLO0L9IcUaJtq0dxtAcCxyPT7xTH9SWOPL1LNHZCHn8CQcEg6ThSR-pZeigai6uCCtBzPnaPBiBjswm_KcwHUDIlenouqS7OSAri12bTwhponRkNcd0JR8aVevFQFL8O68ilwdeEuK32e-xEzkwNgZWo",
+        "width": 3456
+      },
+      {
+        "height": 1628,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105412458626395730647\">Crystal Lady</a>"
+        ],
+        "photo_reference": "AV-0GLdkye_0S1Tx83gKuPSwDYSjMkmTExLZK_Z3wYrcqhdpxD3ZjVhvh0zJCUa_yCLIztfQWAiEZ3RXNTFXllbG2Pmvh0ohQnlFWEkBFMDyoNSUGoGFytIPmPWdN2EokUi34W8xytMBY4juaKyz8-jr2BDkpvDkaztXjjgIfG2PpRGibs_TJP3BQ2i7RyyEGWMqBBjtzqBOpcw-uNN-vpnjtS14qy6mu4aoUpRgl7lF5bYPFC4VkCX_OZ1nKsHjkKJwc9nyG4XPwWZ42xrUzc3His5DqhT7tcS7Jt2kHlTHhoUZlRdM8FAdNjRkdq0b7b4_r47-QISp8EoYbgjGGdmZ0e-yzpAfZhY3r391F592A_EhC1vLKmqVG0eyQlT-LP8irumAeRQfbU1uUe41ZfadUFdvhoYz",
+        "width": 2160
+      },
+      {
+        "height": 3179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLcstTMnKJhzHj_zx8e-OVXe9HQMwvy5TbleeU-iA8vVwgE1VJD_8yHJxQqkpMEaKSQ3VNC29F0G7FrDTcq5rjKy4w4oM95YDFAaK1Il6w9zGhb977lr4KrGvxYCAT_xJQOoqO2hk0SSKyOHgW2jeUSyRGTFuCX0TDY6B7bP-Ne_Z6CqrveRAG1mwgBAQqTEPrbzkqwnaPwbMytF_-ck-jJR-iX3Rn7OptryvClmRhg34vZ5GGzooEAmKAyc6YZWxJNe-_4or66wuXChe363MRKhJB2Y6HgpeqmVZq6WH_0gjyRpkAB1eOCP0TAGLaioxUClgd0GRoBMVmGeaCJwMgwnCrtghi5aBSvsdhbX0eWn-OcDM34F2A_dUZmILUKOlJmbtaNYbXuraf1sMqdxx4jY5g0",
+        "width": 4800
+      },
+      {
+        "height": 3290,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLfP9g7Fu-esxWrcK8cpMbKOlck5ZSOSGmRPDev7ZU7mGXjvMbJ1oMcDSDNuEeE5JnR5KJneoo1vV0r0PDDM4Ip9pq97SlxAC6F34Q6vTlP2Ar4nPa0hRbLOVdZ7RlVEnPvufsWcLRM26bqJXOMyMaiXbPEDWUcUCp7IpqVc0bwxdlYW_XNvwzwoi3-i2u6jqnDdtKnOkGFc9NmdCy_r38e-VQmB5Loti7JulZET_ywxLUQXhRh6Z0AyCD8UfWeXHMACQqyboQPa6M0j3Pp9uhAQw4k_vHNGXFgjl_uQhELuxumJ_bKUPD43VbrnhS3b5wy8SWJT7mdcjVvz2Pv48cPhPoVPfTQFC2dt-JAygmNHlj_4bpDY5xfL5rZvqhNFCtd0uP_h2nlrMCVRcp_V8y33DXFp",
+        "width": 2480
+      },
+      {
+        "height": 3179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106868333242356568174\">Glassphemy</a>"
+        ],
+        "photo_reference": "AV-0GLf4qXYf2qey021T_WdriJdQi58SA0i5UnVFXY2LDhWYyN7v6UG-eegftmgmuCp9Txs4f1WqtNEBEqxmVTspmQDjRIFvSRYh7KMv-yOfBFiQ19OnriqQFz-zAahdFOoJ0yRWVuKJMrZ8IFQX6qkTeN6y4dgbZZA_Rx-TwE-3i0nl7ChFXFPvAQ3z5eESqpQlhIgF1N4bwpV9AZSEtAD21hhhBL7v0ZDkMLALi-OQsW9tQkUynmbRfOtsgWeyN0dA-FAnyRVc_vpCmGwEQDj5lnPkKODG_51NiGi1E5z5yyXQx9eQztR_sjpg2DkhSPn0wbIaw66BYqEBfqHcNZvub24yc85qg7seVLpa9qdJlWUutoaUjE5ti3GtTC32SH1Ue57IYznsc0hsgxJR8CFicyhWMlY",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJtdqOOCGHn1QRhCvKIBcWUR0",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2112493988803652484",
+    "vicinity": "135 SE Kamiaken St, Pullman"
   }
 }
