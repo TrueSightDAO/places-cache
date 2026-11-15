@@ -1,38 +1,256 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:16Z",
+  "fetched_at": "2026-11-15T17:56:38Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "We vape &tobacco",
   "place_id": "ChIJsfF2JwBFlFQRb45kFJ2a6aM",
   "result": {
-    "formatted_address": "1490 Dike Access Road, Woodland, WA",
+    "address_components": [
+      {
+        "long_name": "1490",
+        "short_name": "1490",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Dike Access Road",
+        "short_name": "Dike Access Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Woodland",
+        "short_name": "Woodland",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Cowlitz County",
+        "short_name": "Cowlitz County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98674",
+        "short_name": "98674",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1490 Dike Access Rd, Woodland, WA 98674, USA",
     "formatted_phone_number": "(564) 208-8626",
     "geometry": {
       "location": {
         "lat": 45.9273153,
         "lng": -122.7596913
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.9286404802915,
+          "lng": -122.7584524697085
+        },
+        "southwest": {
+          "lat": 45.9259425197085,
+          "lng": -122.7611504302915
+        }
       }
     },
     "name": "We vape &tobacco",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 9:00 \u2013 22:00",
-        "Tuesday: 9:00 \u2013 22:00",
-        "Wednesday: 9:00 \u2013 22:00",
-        "Thursday: 9:00 \u2013 22:00",
-        "Friday: 9:00 \u2013 22:00",
-        "Saturday: 9:00 \u2013 22:00",
-        "Sunday: 9:00 \u2013 21:00"
+        "Monday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
       ]
     },
-    "place_id": "ChIJsfF2JwBFlFQRb45kFJ2a6aM"
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110092174690603996099\">We Vape n tobacco</a>"
+        ],
+        "photo_reference": "AV-0GLfeyE34MrT9A45aFW884nWRHG9WXUW2TjIBhbbWQkVZgraxp_PoWDqxxJwppQPvXbGzSY9RxKN9tji39IiXeYbo2lc_7T9LhzHf1DTwqM0Jq3eaAV1jLEMDG622GXRJOXcMrJgCNat9c0EStpBjfjB9QRp1Lgcd9ex0ViUQ8g48mgYy4400SRhGMeaYHaoyWP64KJkCzh_e6wHxOB2kitBwUEI6fyPMU5TohaduARpS45MrlxNb5FX5xJTfCnf-OrTaT1PZLV5ilPrHaGiYH8OjvpwF13D8TpeQBnmsq3y6Zf2mooTfzgV8pJTDMuwSTSo8HZC3gIsGpwZ4m6WskGm822cFU6Ld4v7DOxFXc-3Ad37egHmUGVAcy-ghqRJEhfwFOx_EopFIGf8lrAmxBkIjTqd_zkkZHZ1ne8GzzX6GzA",
+        "width": 1600
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109039563043344760979\">Zaid A Zaid</a>"
+        ],
+        "photo_reference": "AV-0GLekVnuqHzpht7YlUalmVHflGM-6HBltdY7TsXUriAVffOdBnp6sI9zv6LGF33IjKTxrc13BSYYMwNgcpC4BzdyBULbXzmdx5DwltA_XLGy2dIX9Dv_wjFPKmt4iBH-sFcbBaGYvtdBslqqP48hDcrEbY3bIbjnt1EjcXplPl5uODFRaflKARueE60nkRZkIzFDzj7OB0oXojE5XmQRUycAtoM6Q2J0Dt0_hoUaGoSYzQfQlbcZ8D5pfgwkl6WGdOKf9wwfZIKDVHoKlDSigPCTVDYrUBFQP5LrnmmpMAqkoytRLmrYaavJVI-JIZis0uHS1N6YbIrMZI-jjUuoPXz8d3lBjWUF651Kz5a2OTso086ql5NQzf071QU1cbyPnBL5o356ZFWYNGgfUsLG6IgcMq8vx3wx8iDuBZM2TEZfU5A",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110092174690603996099\">We Vape n tobacco</a>"
+        ],
+        "photo_reference": "AV-0GLea9muN6e-if0W3WDrEP9OapDk0Og8Wj39pxPZ3rpeXbR6FJs1Fgpx-oz7aa3jtSCpYtt2r-eC1HA0ttQvVv_ka98UXNL97O8e6rYu1ZpAj2wM6rnRd2SBQg-532FzW9e9uU5pJsS3jBYYjTXWHYc6F7i0mwkmfIc6MkniBFPxtII4owqtleCHac0nhCNgx1VpuO5vbcDEkblHb1G9bIWS08yQFUt-bPJF1wbafF9tsm76658uhSkEk3ZA-E1DKgS_mnEuEmLnMme1Weka0q1Q3PtnwtAgRcmvIux_lTWmRWFsEx5za0PSy4TV2vO3-SyfRdIfBb-4C6DTNINXz2DRGHE8aMq0neosIvdwqTzb0kLEOtZZQzW0A1Epnjr9ZaQvgh5_jyK_QvWbcsMyoAx5BNPLX4KLbJrtVPb6a74SZRQ",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109039563043344760979\">Zaid A Zaid</a>"
+        ],
+        "photo_reference": "AV-0GLfC-tTwFVPpsjoCn-KdcUNpjnd2tLx3o2DKsAj7Ujepcr9slGYMdgGYl5j1JAuvd95AFG9xIM9oYWhzbQbiyX-VySBBJLgBQRBeS8amRCU_tUOuYjAHkMtFXzzvN0S304dYsQNrh-hTMiRBB1SJ8r2hdC67KzbY9G-jgbniMfUr0CNyRu0x2Gc2mN0qVhz1jKKClXmJOqBuLpPAnRufcqPyqaMOBJWjf_IjmJyz6qb-75ENAlP_9FB1HCzZHUbH2aAdkvmIZHMGJnZcNbiA7sfn8tYc7L-l-ULivKDyH09KJ9L2zoSJ77XvBWrEj5RQ_2O0XqeEHVHX31lR9BYUgIt6064OG53rcI5sRZNMg69QhAXxFo3MA3Av56yPEOeoBPKinEURa9qQyjUxAbApnCf_MbmRW7vb3tIqxQ1cI4Dz",
+        "width": 3000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110092174690603996099\">We Vape n tobacco</a>"
+        ],
+        "photo_reference": "AV-0GLfM99gsSPvVAuqmt-6GHHcZaH6SxjPRnnw26OleaF_x4FduhajcBxJpYEuv6TziqkmawjJ6KB4CqFpfD9fJJnD5z7cinYNS2tS5WHJ-5yykJWvj_z-ofTB572lpsREA3TQxJsn-M5EGOalhjTTcBhBNDjHApvpeN2vYnVjLVPxFRiQ3bA9Ldo951Ybl5-pLdcRLEJXOpFXLQ1hWUEyb2IX7RDxy4qWRPD78AXZIPBfUj-lnYlnxMk5iWvz8FMreOSw4V6VLjkF2NKfB1HgpRcyVwiIO7WQH8u86rf91y8hik5BF1G0aZAY9gN7J4e_Urtol_M6aZ1M5EbtfGU0DBrE7sdTW4ac5dEa_5Ugd1oQK58eUmrQarkBvqpEVynFAx5zJgpKNWCqsQhBbLjF2TvXKY48XrEmLjuHbr07SemxQNA",
+        "width": 3000
+      },
+      {
+        "height": 1848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103860424887223121539\">Herve Andrieu</a>"
+        ],
+        "photo_reference": "AV-0GLeNn03zL_jOMJ8VCQVKfxuu_mIf4Qjw-yHIjlD6_OfJabyEUZ24YXbigH7b6fAC9gV-KMpVfoI2yO9cw5gDUV0tgeSGSdZzcjovnlxPux46LOE9nOV6lFAgx0b3CtpGKMlFohhvwOOnJvkxhB-5MHnIUFAYJyN43miXNxSilKdmZdSrtJYdBgunu1lrlNEN52SvkSoCe-GTcMC7cdLqFvYIf-KzMubjuP3rZk9oo1tJFdxZ8LYu3MOK5xYeP04lFv6-XsRklprK2Eza9MC1yCaqcFPRffTbGtVH3V_az8WHjaRe51njo6eA9tSA_6hQUMKzdw5E89M5NEhXlvZwd-HiSkMawOLnGBgD521pUyQ2CS98piaQ8FDa-EGV-L9LKAwSKqubWExN_Vijs-fof1qfSC_L2tpnjALuwdDzcv3f9w",
+        "width": 4000
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110092174690603996099\">We Vape n tobacco</a>"
+        ],
+        "photo_reference": "AV-0GLdSpTR2Kw67q8MhfhS1KkNizSjWbhX3HdNR5kPOqZM7sjFrV7hD0i6TPD5oioOgu0FszQAEq_aFSF-5r04MWTirA-J1pI7FhyJqYDSOe5-d-GB2iJjrlE6mA1l72VL728iAcJ5VFyuEh3d3FkYKjc_SaOSXdjp8l5UqZi0ldunx6dc-UhdcMcPgeZ0_TLLC56x4JjmvZa4jesoq0ECIMuCscO3kcQ6mAenhFvFkDiSADxnnCDpBDjKS-gWMkhALodFMO_-CHzRh4-rwMTiWtZ7yfcY-Eaw6r3g485nQCES_cvEA-W5kAoqM6_M6XWnQ-gpUbf-QzzXxjKwrmif3f0SI05DEb6eJ3KwYgJDE1G4M0trZBFi7HlKLNx_HndDep2BM3aWX14kBvKWPrxk2BGs7iQ_av0tNtKz_bh0OaaXm_Q",
+        "width": 1600
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110092174690603996099\">We Vape n tobacco</a>"
+        ],
+        "photo_reference": "AV-0GLd4p1taNuxqH6LAsOa6sKfKQ3kQB3lCG-XaxICpVnodN4hjbfarKy-iOr7Lz0ldVdqb5Ml1NBtFm-riIPplsg1L5-G12CAbbstnC4VurnSlfelolFt6aaAbA9gIlVgHawq8ShcfHzRcO3zIQ5pNj-ZaRgGZaWZFIp-NnXfP1o0zRtPoKLDwq5AWoKwPOCynToTCKSoi6w7J0AVBS4blesRdLP8wGcFotVZNXSq_UIN_lUypFsId9OZvgZUKQ3FX9KmBagWdCf3AoUa5o3ve0N8DWdY1UKZAP9fIsD2EtB03XOBebrBdu15VknGxyimI-Kot81WudAjH9ouKkYG34VwDaUbeg17cm8lQjHyap_a8h-Ng9Rh4-QGKw-mQco_x55glo8zqzaMyBWOgHN5fo7ZJzEG0uw9nKz0AEin5PTTutQ",
+        "width": 1600
+      }
+    ],
+    "place_id": "ChIJsfF2JwBFlFQRb45kFJ2a6aM",
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=11811141497198513775",
+    "vicinity": "1490 Dike Access Rd, Woodland"
   }
 }
