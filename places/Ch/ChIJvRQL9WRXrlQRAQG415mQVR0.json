@@ -1,26 +1,139 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:20Z",
+  "fetched_at": "2026-11-15T17:56:47Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
-    "website",
-    "geometry"
+    "formatted_phone_number",
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "October Violet Apothecary",
   "place_id": "ChIJvRQL9WRXrlQRAQG415mQVR0",
   "result": {
-    "formatted_address": "4136 East Blueberry Street, Meridian, ID",
+    "address_components": [
+      {
+        "long_name": "4136",
+        "short_name": "4136",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "East Blueberry Street",
+        "short_name": "E Blueberry St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Meridian",
+        "short_name": "Meridian",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83642",
+        "short_name": "83642",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "4136 E Blueberry St, Meridian, ID 83642, USA",
     "geometry": {
       "location": {
-        "lat": 43.5883621,
-        "lng": -116.3427884
+        "lat": 43.5883622,
+        "lng": -116.3428113
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.58964823029149,
+          "lng": -116.3414630697085
+        },
+        "southwest": {
+          "lat": 43.5869502697085,
+          "lng": -116.3441610302915
+        }
       }
     },
     "name": "October Violet Apothecary",
+    "photos": [
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116872742385216454695\">October Violet Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLexp8r2UzixC6Vd4RM3SErX_uNcAuYBYTVCKCEnx2WGhttv9cH-52_bSVY23Kh8_u6tdNeESOABqvXqUG6u26D9b7EIM5WzhAivwQgSQaOiuPev_dQgFoCpwOyDOJJosRu3H2H3ZiK5_JBbovJzv6bMXwdjIMGMWbAJCEN9eBPy0e49YFI9QKGWFkJ1L5Y6UVkWmxNUHmq1qY5V3L4PQvNO3dcNgUaPQaqqbTip7mvoNqSaPllHuH_AO00w7SfTbQj-G3OOnJEeTIwIAzFSabPENYvAnMKrBCJXmywiYlm94fmTbbdefmsl04mFunKg0gtXHwRbMCZoZSHf_vag2i9rbJ1fcGx3oTSbuYfmX5NRlF7WdRUMlVBZsxrT4FfPEtjbG7DFeR-sp2o9oKUPwSx0-_E",
+        "width": 1440
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110489185241075800621\">Jessica Ahlers</a>"
+        ],
+        "photo_reference": "AV-0GLcyn-1KzBdFVYQgHR01b_ACGejZFgqQP-54wkQmBvUPCjE8HeHHnkufJsC5ylf4uocS_RhsdS2GAXCgScaUj_PpvBhWu_Yej2UCFbS4x9-cbiKnEu9d4ws7ob_HzJxRJFD9nRETSw-pUj1_EoHxS8YH4z9EIEnStsj4vLybKoKuZSq836CHtIRAzvPoHexX4Rldu9HDIBDwMwx4n-lXixv_HMv6Xc2i_z4iOgvZhc2Xjap1hqxSBX4fvIHb_7nMMRvQHk2FLW1YcEZEN72dFBughB7L8JdPPxGsQ2UI3OK0qWc4hqIn70LN2Vlsd62hSazaJRAb-oqJEkerGupfXWZ75Effz3HfJiqEGZTQlpsT_6UmAb_GjbXviZKJ5yYN-RlT8UQ8aGKLe4tYvQYmknuLjZZ8-1Q",
+        "width": 3024
+      },
+      {
+        "height": 1014,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116872742385216454695\">October Violet Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcCNqUqLbrLT_I8UxQy-Xq38_r5UhKwmj3C78F2oZi7kCaC1WaRO39eyyjWH9vnPab_JTk_n7c7xInRxV2JnJkPq99hFmJsqW2MhPFju02cr9ejSv7FEg1gISXmLjEeokMjcrXrqpzFYjBXoybHnfWd3ElfejI1cBWFhEkVXSsXky2pkb6P3R7MZh7ar-yw1ZFcW4RAokYBhUz-LiXyCfmlrxZCafIG4Q_53WZrmhy6iZt6Yu-pNWNQEYaKvfiUBvcrL50zaoMtK50JBmpkRBdWNd26V-L_xcfP7xGuhqNAvq7wRV74IM9Jdm4Y_HIob6A0q8jAnlzUua70GwSE0Zro9qvzno_cIxEQFZ6DyfX3lHZsdPlHp5OseGTcj5L4ue7wlt0skx8QsRoTSf7HoIg5Kfw",
+        "width": 1177
+      },
+      {
+        "height": 3246,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116872742385216454695\">October Violet Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLedGdTAlnCh8P0TBVgL0J7P6PIuIVomnfb3QR4EMezDI7kb6O6tilyuM1IrJws5i7RyD5uV2echOiKAA8E8fd_l9gLt82VRPKoGXeml7fydq5nQUJODDOLoR1zCvzQJx09xkzgWeh_DQptvIaIg11GtWHmsP5APLMEq2do_C3WncJU-4AO2JxJxce6w7q7jttkgPM_ZrEfN2_XpaNFbv5Y7CCxLSY6gmVZxi0ibwud7o75h6SF-MCY1gzxQhUj5XWNPrQrZMZ2L0uz0Q8LEAjckE9ccpjf6B4gLMDul8smAimcWbTBQpxXeGI06DWhmN0RevXpURAqix8-UX_G1EpxdcKpKvdO9BsVIqYcwqyGxBJFXHIBDbBcTVx_zA34BKuKv6D0TjZV2gH4AIYzTSrh3OYVV17E",
+        "width": 3219
+      }
+    ],
     "place_id": "ChIJvRQL9WRXrlQRAQG415mQVR0",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=2113754590543872257",
+    "vicinity": "4136 E Blueberry St, Meridian",
     "website": "https://www.octoberviolet.com/"
   }
 }
