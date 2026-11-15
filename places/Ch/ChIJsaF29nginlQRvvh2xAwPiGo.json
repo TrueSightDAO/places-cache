@@ -1,40 +1,279 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:12Z",
+  "fetched_at": "2026-11-15T11:25:28Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Veda Lux Boutique",
   "place_id": "ChIJsaF29nginlQRvvh2xAwPiGo",
   "result": {
-    "formatted_address": "1106 South Perry Street, Spokane, WA",
-    "formatted_phone_number": "(509) 475-1674",
+    "address_components": [
+      {
+        "long_name": "1106",
+        "short_name": "1106",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "South Perry Street",
+        "short_name": "S Perry St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "East Central",
+        "short_name": "East Central",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99202",
+        "short_name": "99202",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3525",
+        "short_name": "3525",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1106 S Perry St, Spokane, WA 99202, USA",
+    "formatted_phone_number": "(509) 970-8899",
     "geometry": {
       "location": {
         "lat": 47.6451934,
         "lng": -117.390369
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.64656713029151,
+          "lng": -117.3888129197085
+        },
+        "southwest": {
+          "lat": 47.64386916970851,
+          "lng": -117.3915108802915
+        }
       }
     },
     "name": "Veda Lux Boutique",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 18:00"
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110638047838782810954\">Barbara Safranek</a>"
+        ],
+        "photo_reference": "AV-0GLc0QUx6vfZnBcSEcyMvFyO95_IWlWIqXsvKlIOESsBAGD4EwG69eZqWJrsZ_Zah9cU88DCwAZ2p3nkucJXQptYpNXinLywYVQnKQbGzMSVFT-dp_wx9VVChhm90EEobzA-RM6qmUKfBmZOtywsTyUeHqKjLnA9mCauYvkWWJwxuVVczsfQZiWXCloDSWfwnON38oGbLfOQkJy-WpQeHRzOSujd_yaRpp_iC04jEn2_PsK1UOrTlUevpnhNeRqBLGGmaGpXtb6heZTpoWNXHcEMyI0Ur7fWGM3zVasspEc3TJxRRjhEOKOVP8Flidmenl5YQ54D2ILljq0vGDdkFLLctHzhgu_Ghub0IV27JgRFQnpLtDgFKYSRuRYRBwyrZibwKiFUo0-gnA-WTZWOBSkD9lP7E",
+        "width": 4032
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101827826683857597146\">Eva Zertuche</a>"
+        ],
+        "photo_reference": "AV-0GLe6jPm48oL4iCioG01kVxCBDZU5q8a9D8L2JcxO7KGeDrLJ5LdJbvEKkf9P8P-JXboTLVB8TuYwP0lYagL4b6-vmU_UXoBX-klUP59yNIMFZ5spiQCXuUxLp8VKn2nskP-pxV_U9ZQmkdXSu26zMM0jNB75g1gMivwFQPbRT4yN41idKtRxgjWd9bxqkjq9jOKdtTCtQCsf7TmnvPfVc-1KYOn2niHRWTfrIEEXlQeJlDt-C2FIOZUkgj02oIbAdJzae3yEWgrHvls9DXyT2IKRYyVXnhmmcnm5smPhi5Hk2wylY7vfaT-P3rV5MtU_nEBnU6ivOmv7LzhWTyuwobSi4nMHnZifIDgcOE8fBB_5ikYaDWBTAVfQOv2F7JaPwrIpW6V8VWde4rbAnwwXsNh3ERM",
+        "width": 3600
+      },
+      {
+        "height": 3891,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107768779481347944792\">Steph K</a>"
+        ],
+        "photo_reference": "AV-0GLcNY1-u2PbiDWyKaWtp9HRAivTGiH1hG2LQgeCYm94w4d2BgEqOS6Ms2dMJuHnrbFzhInMckD2xX4sGbgiMN3gfvYjO_5N70IBbBASulm4WQY5xIup2CyLgdY453GDaKpWMpvho6ui88WP8ruEgcR4vA6gm2Le_htHOlqCdT2JuB3SZksXZz3ngpvP8Wx7Td4WFnATjVIjg-3Rff3Qe_0wpJ02CpFMVkVYgc-EPn_t9lM9x7VNYxqAVazjckACiySCpE6HarNQDW0YSPNGzBk5EHn5OHAoxGbc2EMF41rA-FlcQ71LK93ToHX40WfhgDsqXJtvPMvZrpHnPqMBTcZHzrtyAF5wOVP4WWjSXOqOH-HIm8B-3qhIgWzZxxVEiY18PgrG_9i2NhgTPO6okHc18y9qHaoqxaP0-F-ma7NeA",
+        "width": 3021
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111488831251573542750\">Benjamin Allen</a>"
+        ],
+        "photo_reference": "AV-0GLcnbb2oDi65FhAkOvngzo9H3xcuoOiIFHEpp_Bviv67Vw47C4F2CCMypaeV7lyaIdGgyaprNub1xcNbOT1fhHAijtpHoB6uOfr7hR87aZ90cO2qSobzno0mJEgFoPHjL2bqbldKZBgvRDpZTcaplUFyQ372jLEPjl2u-Jvbt5nqmQJCBW8cRnRtBzABa9Su0mncI8tYz2bCoBihYP0XTnXgQZh1o3m0ZuRfQqomWLZ34yI7Zn2p_otrtpoQODVadyO-e3o7akkcl6HWfZOIn4pz46m3vGZM_IAL6Lx8JNPQEOERsdO1Lngmho8LHYpwGyRFKsGJQZCrumBH_lNr5kFLrTh06x6QMI-0208qGmszcm7B0Vba2P-dd13rj9rJWNOAt1Yxtc77sUyR3MwrAbnNNmqiLcg",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111488831251573542750\">Benjamin Allen</a>"
+        ],
+        "photo_reference": "AV-0GLeTHuz3eDT7nqSR84xVdBI38D8u5av6iuFVgICnysRNEbHO_cuTged_WFBY_Xo-JsU5HCYQpCRJbtNQTpU-AMu5iPgWQd0KxD-L4L2wi3iBpZbrhlVFRCM_k6oiMWY8wslDsezXTtuvt6SuAEJWp9WlK9cCbvaGgMUw24-8WJaeW7fW5b-w0ArMcBwlfyk4CzbMXWu5nYxQC0wSHjqiogkdCqwXiFpLqvksUidY_xppnenfH6rTQ7du7SCmbAl7U6cWCyiqXXiuG79-t-F3fAoup-dry7B7UPJpdGtE2h3wnEgmpmLjXO0_zcwfFeN5wQ9Ewz-9ETLoGVdu9T8OYPyoyyUlmSLJoOeHYTWXcHQ5EYFNCBLA5Z56XSM53K0zYLIJoabd2SiqTObXLVMkmRR7CA",
+        "width": 4032
+      },
+      {
+        "height": 3399,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110638047838782810954\">Barbara Safranek</a>"
+        ],
+        "photo_reference": "AV-0GLeQsxvZaBiLpiq6U3sMxsd-Ja14SfdMO_ojqaXuesriFZuskABxiK9Bk67-sk-uKZDL-X6stScvms9alEEcVDsZXB_ypMOl9l8LCMMRtTSPdwMilW27RUaXuaFbITY7DkJBVfKiDn0HR3Q54yJ-qBgdPCc5uopVpv4ksv3cTQBwDVe0Xrm61OCUeoNgt0sLRxWGhuGI-SfqBw0by56azrc0lpFvmp6COoe6zvnyPYUv-6OqX9pTcl1sXmStYjIh5j042sNV2P3r0n0tviKIEx9-XVamWwdGnW1jjXRQO9c0T9_l7EaA0UFXk___WhDGgI-DkcruMnXg7frJnXPfjUuUHIm0LsxFCujnEbYY16y1MERpYCmSv2rDf0FUozRgERCgDj2tc2wc033YV9aB8ZBOlv_Ok1c",
+        "width": 3465
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110638047838782810954\">Barbara Safranek</a>"
+        ],
+        "photo_reference": "AV-0GLdv8NF7vsa5osF0JMYtp9ZH82I_oNOV9N9REmEqeXq9JMXR8ioQMX0sndQKVIWPzD4PMcEOSkBG5WMURQBgIDgBRpMyeAKUBo57Ey06t64Cs1bmNA0Dp1FOIKZ6YMS_oq17GvL-TuARMYDanVkL6yLcX2WGcdqCqfBAWizSdOKgUxK0eBjuvFu25bocKoSG322ZH5NPEVIFXQqS-RGl5ZyU8_6WVAfmp1FIFuQMX6kpUhpoA5e8kkmhKMC5-QADYHL9Ts9-kll1CjctHjZoxVM-n-lEzQqDVeqGAC-HEGgC-ZDER5pHl7CHZ9W29JgrfigSanIJcKiKurcaBvADfkckh1jXsywft0NyCkmra0iTsQLxNIKCMBkgrIjul9_pezulYAW3ST5lrH6jJaaOEqDEuA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111488831251573542750\">Benjamin Allen</a>"
+        ],
+        "photo_reference": "AV-0GLfCAO4bnd2DI3EkMJRFlj3qpk3VpVw9eoWYQQrDoi3YPtY5tFlIG4tc8AxGBPkv1X5yVhUKlQZazKtWzFOrnPVwDHI-kZQambYZxAvzvsnH4gXgl7Kvx2wEguJLHw09CLDkgBiqPtArDea1z7Uesw2dUHth8cheS00H2NU2GxHfNEloKwUVG1XjzKpTHFya9ZostiUAFNcIN1_6lyR1ajfo9Na0fsGKfyhBcPe8OM02a6K3oCIxsM7lhxpnvjjDuM2bEmqbuEsYPChpwRq2ApYp55qYs2cuzFin6yzLC3pyOR3Z6pWXSMqph17b91ca45EkqjHscGxHF1l38iGg32zK3Ia_c4MxbFM_M0ypjMX3HZEI4o3EL20wVgH04df6fkMsbEjTQ7OmQ_jse-G6Kw0eFQ",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111488831251573542750\">Benjamin Allen</a>"
+        ],
+        "photo_reference": "AV-0GLcbrL4DPgrSyiXIRWOB2mJJBYEV2D24ZYvkD0vJmem_onllbeNP9pLdDpGZ23LN7UbqDccImcQFa569yBb7w303KicE0FkN8H9O5NoHnWhQwxaNmbMJI-qwySMZkvYSHMrypOWXYWyE3GWJOH3j3Ik8RQBZUsFEI28IRtHFQKPtCJefC24z0PezzPgrBMdRdsvWyRjnIsWV-2HfDpprkbfkcjFioJ9ogwf5hkxC6twO1iV_6cA4aoXtYQmUKY0MTUBOKqY-YeJC1fjSiwwtMXvxMCbc029G8VOzqHDgRKjTkqytVaZJx3QSZ8PMjJlYDBcqkSq47h7427274yjEc3Vpes1nOdjvwoXvrpfflT6Ay1k1TgJmf3nEio6GHtHBNJuecUNzo3QkH7FRN2pSZWQCgg",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111488831251573542750\">Benjamin Allen</a>"
+        ],
+        "photo_reference": "AV-0GLczQ19M2waIOg7NsKxPz_MpwTLEqyWQ-U0DoZ_PSbmt5dQtNz3k0E_3ZxkEK1CX6kO2ufUPAooIhmJ9ew2E9BFOSH-hi_Hk6NkaDNFYVmxyjXKVUhK2bQLmWVtL80d1DEd7OTURFarg9_Gvj-DQ2UzPrJwleNZt4yOTZJ5-Ac_3EoSklbV9w127fTccBU4q9xXhyxFtyg6NaeK5A8NY2fMFt4FbiAWwe9_ersYOuC7OYS03T_unfk-c3iw1-DTlVYuUTklv95NU9SJjIuY0cHhXtAi9ijubSi6A6iilF3tHKh0yshUliP7SoXsJmNoz1W5TvAxUrLtYwLVJJu0T1Fof_lCS8VrDcJOoF154vhi25JMJLLtbVfbsQ4zW1gTLyXUMTTDXxhGZ9YkJW5K3a4gO7gg",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJsaF29nginlQRvvh2xAwPiGo",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7676402112363165886",
+    "vicinity": "1106 S Perry St, Spokane",
     "website": "http://vedalux.com/"
   }
 }
