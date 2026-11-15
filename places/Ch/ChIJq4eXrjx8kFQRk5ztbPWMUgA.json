@@ -1,40 +1,236 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:07Z",
+  "fetched_at": "2026-11-15T11:25:24Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Plume Apothecary",
   "place_id": "ChIJq4eXrjx8kFQRk5ztbPWMUgA",
   "result": {
-    "formatted_address": "209 Main Avenue South, North Bend, WA",
+    "address_components": [
+      {
+        "long_name": "209",
+        "short_name": "209",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Avenue South",
+        "short_name": "Main Ave S",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North Bend",
+        "short_name": "North Bend",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98045",
+        "short_name": "98045",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "209 Main Ave S, North Bend, WA 98045, USA",
     "formatted_phone_number": "(425) 888-3222",
     "geometry": {
       "location": {
         "lat": 47.4942532,
         "lng": -121.786878
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.4956630302915,
+          "lng": -121.7854335697085
+        },
+        "southwest": {
+          "lat": 47.4929650697085,
+          "lng": -121.7881315302915
+        }
       }
     },
     "name": "Plume Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
         "Wednesday: Closed",
-        "Thursday: 14:00 \u2013 18:00",
-        "Friday: 14:00 \u2013 17:00",
-        "Saturday: 12:00 \u2013 16:00",
+        "Thursday: 2:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 2:00\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20094:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107442105129138688349\">Plume Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLf-dQLCEh2arh9AlL0Ad81fCKBWoTD2LCXNaKf5Dkjx6458lVsCEFlen-FULHqTRIQLCHNSM3t2Ygl1wER-H2z_oWSFnPOdHblprBsIEZ23lI-C_XiI5dpff-wIhL0mV_SLycBQGPSslc6mhtfz9WF48cV1w4fksFKBnTmpsFhs_SBpxHZcl7hmsA_Od3D8TWlYadP5vbTmQNs1gnW-Y03LttD8BM7GNvx3XVV8TWyTh1UZFDgh-1orfaDmf0oRuCV8K7TOnN1ROLmcS2h_cTo_el95fU2puZtEggTMZv79TG5xqrcHGSfuLhg0hLYh02lnXGBE8vX0qq8sua-P7h41fjuU1ebdhxhhm1IXrOeLhltg9pbAgFbyPlHQfS6XrJKZzgqXWyeqrQSO04hW3vbVLUU",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107442105129138688349\">Plume Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeNFeVT2o7ysPjH0RX7HqSFza78FYiI4aYfXKmKXo09tqQAf2BZrwHzIputZeCHpkCR20VF8hOBE9N962d0sKTyREMWSCgwHFvy4biKENf43RssXH3Br5eUeUXhNUKtj-G0QiQ_uOiqI_NcUXFgl2h6eon_JiYjV_M0lvOTW8zxknjdBQyLLnRNMECNL6k1LBVdVjGZPlebCCrIsi83VVfJnRdpB80rCd0h7JyLi88-1mRfpGcVW0iCpaBfeXxfMyPfeGuVMxSTB6wv3VA_9cCJTDrkWgOKhZq4F9xZ4b4LA74Ocq6JVE3Mx6nML0kDBBIoGLiwsSFKsw4N769NZPLmvz9BlzJyidGt1AeU1WJVJwFFG4vlZCEBVYhtEdhgfh1uAp1lgI1A-NgE2tCWPy87Y5H2XsA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107442105129138688349\">Plume Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeHHi8s_46Ldxot-Ek6LC5W5iVxRBRay_xTigY_yULNRLBl3idSRH_SSamM5aYWf6D_y4-4XDr6J8zs6o-Yo6Acyi1htmC_xxgYKLhhOVWPUbRXlYjDWM_mwymWz7vqUvTSOMthcni88X5k6ngIOB-WxBrwPoB2Cpb8OTpEmx6uMxhP4paQMOmhi80IQTUiyDdCPmEZF32h01hSDFiSQW4I9AMP0RXRq3SQYooKUXrVmyT4bWzFQlKpuxp7KrvvZ5zTzd5w41Ik6xBFV0D9S_qDcdwLimKSNesBPkOxUYg2Gknn4AQNgRZhGw0tr1miLKACBFJ-ZKC6Ka-xsQlJHRzcld3b8lF9yDXGRJDlq_BOPf6R1mhvKHjm35wf9Ieu1dTkK_L6JC1PjYYnSS9MKYEOTa0",
+        "width": 3024
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100076079188715697755\">Sharon Hockenbury</a>"
+        ],
+        "photo_reference": "AV-0GLdhaIEuPaJZp9qjXAUgFtttWe2FFAUjQAuXQ6W58I69oyDCsid1wJoDpRT9N4CK92pDmO7PAIeVD2ChL937zwKV4qE_MWQgFu5KuZKoQnejMPdv2N7MB4T8QRBHuEJRk_q_mpDvPJlEW-5kyW_oO4zFBeTMGwDZVN8A7Rjkpj06hshr1fDuGQiiB66QN5FPgG36shQ1tHsgFwPRQiq1vMnD_Vfo-_VEUDXmDMOkOPiBPx21GRdOj_BiMOO4qZwWTS80-75y2X9PxeyRdGCJ4MboUEMChCkhWNlOzGWP2ppZjBlvA8gH7C6OkcicJT1sURhWRh7x6H9x6a8kEnaBrWnPXBCBg-anrp0XDzYFK7wN__rvcMMX6OOj8EM2VsbrlK2ExOE2hC21ycZUez8v4y2msrg",
+        "width": 3492
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107442105129138688349\">Plume Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfolb7cVQ-ckT157C_WfZ6QKbg_1OqCuko3cCkq30md9kW6MEvYNwtYP6L5ZrHYyF4mIXf-MAiz7hBM8A8BW-23GKzcxIsEcxjngwpMAmKuiwIp8yQpQdZkWK9xyuMApgUMJiqc9a3k84eO8itjfe9NLkRqkf3LDrKzoENZrs5XliunwxbAhaqoCLw6lamJIKK5juxq6I9U2aDHP-FXgQ9s9ELFv_6TgaEQil5x9PmzF8Qpl7ldX0bMp6YFH1oyCcLO3vadDEiEfEkV9d7D6aO0cpzyBXD7Rg79g4_X0GT-4dfrnDrPoDfP6omGnIoMjmNrMQAWGuJzFfVD87Yd4br5reEdLFj_PPxEe2QWh4_kpWskBdjzbFhafLSXJAkanT1M6yU8TiUdeUpQWg86sjZanVQ",
+        "width": 3024
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100076079188715697755\">Sharon Hockenbury</a>"
+        ],
+        "photo_reference": "AV-0GLfFTi2BInfZVs1g_t0-gKQnR5CWQgYgbdDk94cFrYUjh26_Q4KpwNFZ7FUClNwW-p4rf0o5fK7zH2o602IDT8Rq0iBsWguZavlPAMoIlXMl-wzLKOfYnztZ47Y6pFyr_F-gYbeicAHdW0xCB1v2-p5K8QEN3DqfyWST8zgO-QlC2Ne45HVUEp4FJXiMX3yqmRmKcKMu-Z9D1Cr2zGXDkxwPwek3yfZ1tLtXZWLSTGrxm80_oF2AhhKzqmKHo_GK4xX3nIXo9qJT3-0So6-90FTsiCImaetOdJVGeThq16XbbXZ9a_PYkfFYky91Q3jjhziGRRtX9Dvx_0C2MD-2xRYZLFe6zG-xWQSuwc4zSaqI4sG61mwJ8FJablr6n8rcQ6iGw-O-8Cagm8E_WAwBojYUqz6gasc",
+        "width": 3492
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107442105129138688349\">Plume Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeF_oyfewwU0l53Tq2_5a5jxEY10_1Vzg7RBxJLOgJy29dVOZpK26x4TLp24IZP6OaO2WDlcs3RzPYCg7IzbFqwVbmr6n84aLIcPKk01a6FHt-5zTFBO1EyYkBDqhxVkC4EW1ddwMUNbWKYL3fvDYTywa3ZNVIUAS3gmQ1Ce_TW3Lyue5B5OlGUMAWc8cAcSx7if7t9j5GSKrN_Sc7iLI-qA0RGqpGs9BtbnSFV7mCz4l5yjE74XsGX3i9vk3oo4z7g27KrnF9CIL_1jHZPByDADyZiQ20eUNDnhun2DMlbBkawxHPnhvzkZ3roHyskJFBZbCW-uFkWlcJEL8p0lrr-Nl_k7Pypv0BYi0KBa3y2j3aaivEmRZ81tKejNvX3uAusXdll2JHv9RiqdYGqPwz1uss",
+        "width": 3024
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100076079188715697755\">Sharon Hockenbury</a>"
+        ],
+        "photo_reference": "AV-0GLf3EhLzVLOATtEuDL6cSKvOnK7Fnevp8lV1lHC1t85_4Nc8AXkbWIXZ9-h55owodvKhc8sFtKSqmTS2vK8eRbeH1LZBnYUB7x_SrXvs_nt2cA0ewjn6d3_ISpt8L5Fur3q95yeB4WjlH0cPj1Nt5WFd92YeqakriP7hlHV9FLRudQ3-36qDFMGbsz8z_WrUqniaJYYht-pmpvEvjkrzcGFD4Ds_uEesOE48mBXgnrT4E9gfAP2rBEUF6fDrT8gKVcG0MCUE9x1Lfz7sx1lOrccFe4tSbjDKepmpx3d_1WBIqcMR07W4-Bn-pXuOuf5DWLJBY4WjFT4Ne3RTGzXDyp6Kxi4gBEh8FOJOpPbJTVesg-QLUQmC87_XzpMShHeO-GgFM97taPMEbaCPdUYfKrbgcEUkizQ",
+        "width": 3492
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100076079188715697755\">Sharon Hockenbury</a>"
+        ],
+        "photo_reference": "AV-0GLckctNOJXi2PKQnF3ohbwG8xhu_bb3xn4l9E3A0uCdgiwupENLLfJoDBmcGTuPEMKbfyZYmhYVFRYC9KyqwDMAM91ih2Fa1_QTAeOQS4C5ZD6Jnzi7f_S8mDU03VvhtPxRS8tgazeWXv6txzdMjn8XUbGeI9yqu5m9w5_FzoYL4W9ZSsT4kXB6bdR8DkEi3UAI6bWqz8-xGIfUKcZDQ_1oUj7UdTIV3QFcZjENJgdGUD1rIGpmxeo2bhzXoyKuSOdul6O_kHSIkRSEiCIXuhuS0K7k18p3jmTfuP-Yv_YiuqoilgUy3Mo56uY9DZqnDRHCxAZMKeogvipKKJmc9kaePGkeL6Jj2lLfbAZDMsM2kQOy7vP8Uuw-t88pp0MGnpXiIDwFyXsEMRkoU-OkfeUarn4Q",
+        "width": 3492
+      },
+      {
+        "height": 4656,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100076079188715697755\">Sharon Hockenbury</a>"
+        ],
+        "photo_reference": "AV-0GLc6cKeh8GFWWF9T7c2C08_YFZElHol-yV5CRMhOL7kwMPHQDaXnX_Pe3bdHTmZ8rLfV2hBW7EGAYgnQtmuAhHGrcRk7oDGZ52EEfXp9ORLwdlpoFGdSqoNY5VV749djIwQbjSM51Wh6BhpmK6A7b_PCxsxekxMIB2vME8IWOQ4kd2hl5uoQGFL27I781ap0JvWuM1Dn2k54S6PnzriWHvsCcgs6JrQygOKxp45cUreSzn7TPNXTqCcVQ1GaDOtfiH1xMrWnDqqrY1grStv4OAMx8SO2yX16eldbSAf1QjgYkmZq63wbv2hz7FLGDNmQJXdSteoB0RSHSa1-4N5tOCYJfLprs86ige_NpURZ_P_oVkNZsZ_56lW0v_jZPl2C5m2hUClbLI3D0kEipwLXIpIBn7pbohY",
+        "width": 3492
+      }
+    ],
     "place_id": "ChIJq4eXrjx8kFQRk5ztbPWMUgA",
+    "types": [
+      "establishment",
+      "food",
+      "gym",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=23235933812661395",
+    "vicinity": "209 Main Ave S, North Bend",
     "website": "https://sharonmaureen.com/plume-apothecary/"
   }
 }
