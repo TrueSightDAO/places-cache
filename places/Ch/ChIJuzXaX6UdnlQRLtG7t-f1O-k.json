@@ -1,40 +1,209 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:19Z",
+  "fetched_at": "2026-11-15T17:56:44Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Infused Wellness",
   "place_id": "ChIJuzXaX6UdnlQRLtG7t-f1O-k",
   "result": {
-    "formatted_address": "413 West Hastings Road, Spokane, WA",
+    "address_components": [
+      {
+        "long_name": "413",
+        "short_name": "413",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "West Hastings Road",
+        "short_name": "W Hastings Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99218",
+        "short_name": "99218",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "413 W Hastings Rd, Spokane, WA 99218, USA",
     "formatted_phone_number": "(509) 863-9027",
     "geometry": {
       "location": {
         "lat": 47.7683857,
         "lng": -117.4202162
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.7699645802915,
+          "lng": -117.4188056197085
+        },
+        "southwest": {
+          "lat": 47.7672666197085,
+          "lng": -117.4215035802915
+        }
       }
     },
     "name": "Infused Wellness",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 11:00 \u2013 17:30",
-        "Wednesday: 11:00 \u2013 17:30",
-        "Thursday: 11:00 \u2013 17:30",
-        "Friday: 11:00 \u2013 17:30",
-        "Saturday: 11:00 \u2013 17:00",
+        "Tuesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Thursday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Friday: 11:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+        "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111489763191738759881\">Infused Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLfxZH7unidSngJSxQ5-RrwIgozxMIp29Wh5l-5E-SG6xfEo8VnzaKyV98hYj-2ohfLvJwCUwGFra98a5m60Bktl1cia6wOhUuxt38bxoV4x-T_6XO11ot-1FMj74Tz-PT_y2qOZteQWLuSXob_7WHKb6ub-cUuZR5_1EnBxaZRC8vOzmJ-UyxcGhuVGyhMeP629N9h02dmJsfRBtEQUS3rC_FQa4qHEh_pFF1F38h7BsFyE-rFfuzp0AQdj3T9WkaUwbZW-Rr7kcGV2balusNWmVfGOQlYaxM6KtDHLPYzqh2ilsblfcJQBawXmbC116H-NSw_7DS1ONjWlANrAWLOAQijGTdqKNKIuHg4jdQUtBc5xo8mOWcqsL44HIGlI8BunOiAYH2rIaz0l36Y4tTEA3TJVHUE",
+        "width": 425
+      },
+      {
+        "height": 425,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111489763191738759881\">Infused Wellness</a>"
+        ],
+        "photo_reference": "AV-0GLdUlpvQppTBO6QVu5T30Z2ajxXfTAvMRYS9lDFv7p9yP0pFAMX5F5jFJn6edrDAq14Rnb459Yf6LYAU7GC-EMs_1pV-E2BHrEg89XKx39vGr2smeUCuvmR2-YfoM6bUvvvP1N0CXddTxj3qURXg9NAuLYUe-ltUEIZvV4k5qQCaT80LBv9ELwY3rUhOyBavuSQkGoBYcyV7o2Bf0SjIAfBbPGhRsZl-8sY8h9_0pX_w0vi8nrSibAxTeiUTSYbii2sPWM1AIHlV_BP8EIhR19427_VOI99AHuKAUQibXvB_8XPwMywj2z2Eyv1VdHJNUbAfE7uqL3fZyJgN86w8wJkUj9Q6TgY1f8_ZdIXLr2YnwnA12LYwGXLKHIVw2v4IwJ5Sr3reiTcjm4sgaWJ51u11U0M",
+        "width": 640
+      },
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118413213258684327095\">Eli A</a>"
+        ],
+        "photo_reference": "AV-0GLdco0imOhzHnVTBFW4Smv0skxaBL6EGDYh5coOzaZlDoyHspCF7Dd1Mewfzy22hpBZ1CeoA8J6Ex6kVZ5KN4C_mPWPNfErm8fMXBGCJD-ZhGPj9mO4GmJan98dnWXvaGA1N_eu0TjdTWR2QRaD-XBXvgVPe6VITC8Jrhe8d4yO9Fy9quCKZK2kpI9GqnDwvtxeEd2s0PYaWI2wUpxu9gkcAwB6nQLVlSicx5Hg2IyFTs_arm7YIDjfB7l4-gpwI9NdSCMENqji79YyEab_97Y4kZ8ySYWsh7XMw89L_iSbOe1H210wacHLfVAicQeA1Ja6Gdi8B5IfjyfFQnbqwptBbmcyj3xZ-z4iBDz548ZvL2pBg3C0P9eNoAds3zvW_iUB1RS5laUCEWKLGy0b4gORvuWA",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113714711775987344131\">Stevie Rose</a>"
+        ],
+        "photo_reference": "AV-0GLdcSkQ_FgCf2o_jCDZJRGp26t0CWfQRMiej2-RriUaPRqRpzssRltM-cYlAs8KFr-Y2HhgipjWyIuhecokJD3jF8uToKpURC5qX-vChwqAxq_J0LYoqh5YHv29btDCXnSM6rYAa8xHElXXd3OP9duPJTk8M15YlsrxBAFKsueHKiAfrUHjr_WdP_0gMKDejyvcSWWLdCUDoJ8Y8lIz7su5mkJburPMeTydes73uH8MSjVCLBqdngbNcvxdB722jzzBpjvAVPjQr_H05a-h4Ci1WahiBX33_6OpZqpVy8r9NJ_FQ6rNc8-VXw7pWJVn0aTO1irej0y9lbnWTpwq5NQkD-N3aCvOxO4FHfkOufJcUdabVUE9rlXheMd0AG0tZHcVKW2eGazAH0RuLOzr58jfm9Q",
+        "width": 4032
+      }
+    ],
     "place_id": "ChIJuzXaX6UdnlQRLtG7t-f1O-k",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "health",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=16806296810031927598",
+    "vicinity": "413 W Hastings Rd, Spokane",
     "website": "http://www.infused-wellness.com/"
   }
 }
