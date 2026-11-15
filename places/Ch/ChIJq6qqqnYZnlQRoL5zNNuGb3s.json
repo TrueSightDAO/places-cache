@@ -1,26 +1,100 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:08Z",
+  "fetched_at": "2026-11-15T11:25:26Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "geometry"
+    "geometry",
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Amanda's Herbal Apothecary",
   "place_id": "ChIJq6qqqnYZnlQRoL5zNNuGb3s",
   "result": {
-    "formatted_address": "Spokane, Spokane, WA",
+    "address_components": [
+      {
+        "long_name": "Spokane",
+        "short_name": "Spokane",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Audubon-Downriver",
+        "short_name": "Audubon-Downriver",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Spokane County",
+        "short_name": "Spokane County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "99205",
+        "short_name": "99205",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Spokane, WA 99205, USA",
     "formatted_phone_number": "(509) 263-0492",
     "geometry": {
       "location": {
         "lat": 47.7000724,
         "lng": -117.4517076
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.7014211302915,
+          "lng": -117.4503358197085
+        },
+        "southwest": {
+          "lat": 47.6987231697085,
+          "lng": -117.4530337802915
+        }
       }
     },
     "name": "Amanda's Herbal Apothecary",
-    "place_id": "ChIJq6qqqnYZnlQRoL5zNNuGb3s"
+    "place_id": "ChIJq6qqqnYZnlQRoL5zNNuGb3s",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=8894476065115979424",
+    "vicinity": "Spokane"
   }
 }
