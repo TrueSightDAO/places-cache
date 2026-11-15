@@ -1,40 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:21Z",
+  "fetched_at": "2026-11-15T17:56:49Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Make Apothecary",
   "place_id": "ChIJwYbN8AEPkFQR4BcWTLGDTk8",
   "result": {
-    "formatted_address": "18728 Bothell Way Northeast, Bothell, WA",
-    "formatted_phone_number": "(425) 780-7003",
+    "address_components": [
+      {
+        "long_name": "10121",
+        "short_name": "10121",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Main Street",
+        "short_name": "Main St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bothell",
+        "short_name": "Bothell",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "King County",
+        "short_name": "King County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98011",
+        "short_name": "98011",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "3425",
+        "short_name": "3425",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10121 Main St, Bothell, WA 98011, USA",
+    "formatted_phone_number": "(425) 205-8959",
     "geometry": {
       "location": {
-        "lat": 47.7642513,
-        "lng": -122.2078512
+        "lat": 47.7600022,
+        "lng": -122.2045397
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.7612972302915,
+          "lng": -122.2031840697085
+        },
+        "southwest": {
+          "lat": 47.7585992697085,
+          "lng": -122.2058820302915
+        }
       }
     },
     "name": "Make Apothecary",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 16:00",
-        "Wednesday: 12:00 \u2013 16:00",
-        "Thursday: 12:00 \u2013 16:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: Closed"
+        "Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Thursday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Friday: 12:00\u2009\u2013\u20098:00\u202fPM",
+        "Saturday: 12:00\u2009\u2013\u20096:00\u202fPM",
+        "Sunday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 664,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfnG-IF4BRho9vyu5rZKmOz28uC_Fn9ipreKl3I9CHPFmM7ew0_a66JhBRNVmXs0PuRZqo2IVIgtz7x4SmTPqJeK6jSj3e3SZ3vWWJ8zPGSgKL_mz1NoEwUhZqEfdRYlqySwuZPdHhv9wU_oyPV7JVLw4YVEAMVk2YnJgv4rBFQGHuV3zZsjWjs-8RK2W2BsIiuWl9gIlkoHk85QWJ2Evl5z7mpBUskU9Oivu9Z36c6wARt7CUn_1pu8My0oW6yrrJzuMfpHLWJGqsjtZh7I-d7-5RRrk1AFaP3LBzCoIlncUD8g72kS-IkEl1vCzFyIQEzAWmIKNyNWAq-t65EpFfu5yYnEwf_TlL86odwrOJ2jZwQjR4nbtLZB3IEt1hn1FyCHWk1fryroFawj5btxEk2z-tfM58h7551Wx4_Bk3EkA",
+        "width": 1180
+      },
+      {
+        "height": 3193,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdqTI-ZCk-7-WeUaT-mzkhOyhL_2vVH3p0OG9HsXuUmdkEDyUqz3yTyJ1zvxEfET5Grfjd1V9__CKmaBCoqxCw-P6Z6igX6ry-KrmH5ejU_WjyzaF5jrkuNqWH8hEMzD6qtiJQuaE7DFaM22WRd5SSnqtlB5PZToCrcsb004pxzST8GwknaOsLDQviobol7bUo1NUnlNqhA8dA8YFtAKrGoo-6Y6f0nvVw_fwtiQvvb9F415mjpv6LBT0Khv-aJFX05pv3-KrFWUytILfxMX_LEckJ7aFr_aQBbMzlxxesclVpQQbCq3Vlg3uGk7sZ7xMv872XUWWO8AyigIVrQ5B9vOSx7UtjwHs4NesqZTUN9VHcUGeGPPr2TylYz4WmMkW6tzWxjTgbz0a9RPiBJyC2Rmtc",
+        "width": 4800
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLeFF4jn9OFbWCimWsUzpFXrwrgjtDmw9bBUDUneeyKa6aybHAiTmPe0R9Ks4mgzfA60YyrAuPaCKLK8zPR8BUoMycJYyrGczciiAGStDMrtVJAL8jeSlRMSX7ZXkGHJ_2euFxryvMiSfX66peA-jN-oskJBoPH5xXTcYo8F_KKrUi0ciRBiJBEzQP_lYehdFtvApOWE-MmSEbvyg83U5hRRgxbRfaE-j1tlzlJP36gttUh50DxKAZgv3Nw8bYG_8HYHJ1IY6ivrU5XpbFqD8Um84jyZnqbSZFghbfGq9TxFkMYWfzyLnPtouf8f4bkOAb5P4KPkDJ4ijzWkn4MHp9-HYbv4DOioNdQPm5xDBogRwrbopII2EQyhNbchksa53NgsBnqAhoTKcLLvRMGfTEILgjrxtF4",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcy_o_m_Js2-Zi5uNww3DNpVGgTETmk2AeA3lKjV9rWULRZhl8jGvAF-A5d2mnWqA3H27YllWaFfRGnA-Go2ZwCMA5In_hhjyjxYfM7xSkD93Od99n5f3pgxmsO6Q8AS2tGZUGeewuI60NS3NWTeBuo79ELBXf14amRXo8Rly803Gvq4QGN-yP3fk9SPhhnybYefdNc1AYcOc_1mKUU_oEZLedjTmJgbLgsb1gjxZo4TFunEnGPQS8qdojuLv2CFWUny-fgeUGDpP4adwFMcAm3_Ks4v4lmnz-63AyzNk2oNWIaqt4ChJrbXdfUs0wNyIZwZV7YQSugr46sT5z4iP-JnGBc6-jI0sCNWnHML38Uu_QUH47UQmlrQ55W8FxaUB0TZ_c-6tv7NkL4GTIFn5Cz3K4",
+        "width": 1440
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111717982292627257280\">Jacob S</a>"
+        ],
+        "photo_reference": "AV-0GLdBwWUY3lE_U8HsA4Rth3exw8WjCMmu6YID3URoOG6tazBmfrSEpI-yZu0EnMUKv8fI6k4zWQ3pxDj5CSx-IC5vKV63S4YtpzcwQ_vE66i1c8Cq7agMSx3YgxBw2DQmN_V_h74jqOhBbMjGJDJEv_Egmg_BC3Ce-tPcLUuy_41uuxSoW0-VMs8WAKfyDh8FsRwEJF9877g5pFYBmPIdtgbSb5joot_mhGeFj-CZbuUr178C3Ijfh5yHdlztapDBk9BtrJb_aUk7pcUXykmZft7vhq5zRElAaY93CFBGdNOJeVfYDkiRd3S7_HtkWhjePJyaUb96nunG_JGTX_N4Y_xfHHYch6Wd8T4C13ovglS0x8s5-dY_Ik2EimD2hgGj5ogQC4G1-UkxfXt9SbN3vHWs9QPT0wRnvZUZCWDCK_YBew",
+        "width": 1440
+      },
+      {
+        "height": 1795,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLfX2Cdh6YPE6Fof00XJs1_CtIxBbeKAuxU9VhctYbgFBo-U72FiV2bebaVNyO5I9HPY8lcd1G-hLKKvDpDfBw2UUm4NoPFmEeR6-TMMlIi5js-6Lvrn0zWd2exC3-RmHxBwNEJmYtgUhcq2zFUcWqJyc4mJu5wsCCx65yaycwOS-dQeqjn0B7bofIG3x2zM4Kz4uZS3hD6M46chsEUpgYG1MHhzeUvlPXOpa_z81atwkrdpiR29Ti1kLqTEctlWZACrULhhRHLHW96BdV1vYxN3CdyxYHFlSEUbfEfhhI9LonPFJLznoPsf2AxXvz_dPHNXJPwxR-QYpuBTUFstJsqhxBjqCOMBBp6HuidFnyGTEwyRmOqBsL1JFov-CV1TDd5EJNiVhf1Xb7TuCk4ZWagRhAEm3Jc",
+        "width": 1440
+      },
+      {
+        "height": 3193,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdUboxTRxxye5SdhxZKHkT1upK2y1sfKDocGGCXP3Q_TkV1O4jbljqZQ5Buqr7JTDghoHLBfnCFbssC_4z3EMtFkiaM2zA3lB4UiXvAxGs_VgcS5_ELJOwifnfIDYnbyTDBmCUb_diqX0-l4qmqPohVIt6DfZnWUNSkMShrHmUwDP9fVf3e3ipyU873aaQQ2G-ECvu0W673XMhul1mPg3qoCn_NCEAdE88ajfRo5mg-r_gAVCwZYh50H1Xm8rSJYfNmZ7fvSampzCshBPFTm7V5KZBtn2Ow3lOnC9nAFNkpyeygcVqqbILi0KnrkQdTtQHlSxL7s6ltMRVpr-NxZCLVmaURFXJZDZ72qNWLEQaNpSbbsaNEZ2gxoKAtEsylsFoeIxp7RqGXiW_DWH_Eo5docTs",
+        "width": 4800
+      },
+      {
+        "height": 1795,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLcgUB_WXapXYGc_rCkkmRBN6XI7DkMNlHkpMr8sQGPa7YaFqONFROU_oWQdllNJLfp2Ezr1IVFH-zc0J4aMCOH0sKs2im6IGFkQ2dA540IdKJBK-xQ_vBdhTVC5xRADA6YWKDy6f1wYV2YKwuDLhAFexXmYkedp1Vj9BNML6ANSig4WekQYbK3whRHCs2UdwLqyC2g88_hW1l6a-C3RdC8963MFze-Y4l6OtuqxaZK6d8TZl0ARj-uLVxJWf8P5n27S-vkl2l87cs8ho3UX6LibZkc6Dg7n8jQmbgsWtJWztmZkuKOdxIbGEQ3NcxygpM53WmcyootyQzLTtH-uruKeGUr3x5YtxDSoq2Rsn4wlzAZJ-IemBRatxmlanlHkugxdN_hBiYk_ICf0EMCH0cKICMQ",
+        "width": 1440
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLdj7Mhvuy7fdEXwt2kFPdC8_kWepzp32BlWEcrpckytEys1QJhcwXiIjQ0kJ4vXvqbQynJnJ3tniE_5yTfcFMyUEXHTO9ZJNwJovAS-ZUQmUV5gLO-Vs9HsLAARzul2jBE8-qs7qWWYaeaQ0fZJBctUBIu_cLO3bPnFnfRHVTgY3SnOU0saLJ4i2UJFsU7GmVHiHri0tmnaLV-kfRP79F-ABga0qem_TjgWlkFGY2dt0u47jIgh6IPObEp-wCDaCkQhTHhVk-TW2WvTTLzaQkP-FlHJsunOT4bbVI1Kxet7ue_PN_7XDxqVf5g8y5IKIrbhWklBh-MkknaERPmZZWpZ86Rwx0O4bSaeCK3ss9o2IauXn9o7jEHFVmxjUYeEMUgbYzmuVStMDUlBT5OjZUNZU9Y",
+        "width": 4032
+      },
+      {
+        "height": 1730,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100570792426114416191\">Make Apothecary</a>"
+        ],
+        "photo_reference": "AV-0GLe-B5y4WptGTJw-pw9Smy3AVdBx_AuYR6HspKy3ICgJw9OAn1bPk2ZCJxLPiVg1la0GTFuCpCftk2s3WElhC8cA5YTQrAIldOsG2KF3jN0MoZbd5as4fCh0Dz7HPFrSakr_1sP9CoQAkEihrTfmGJh064bnbFoHfgDoyPkNhYybhPI47vCuZ7YQUGFNw6sAShl3WYr5GRPxzmMnQaiDBWdMPqyIVUu38joeSgy49Q1W5p3ZgzSeGXCJrB05_dmNCdPPxWdkcOyDwkd2UJ7NBQDSvIrsuOEeMMTHfmuCtq9lgTGlouOo7aWmZL6X_-hz2kTn-Blt3qouO1sozZHsu8SSrkrwEENNniXFjPmKUQZe7FrBGfaTR7NPjlwtTY0jieEGtuo4MvqjWztUBBGdytAy15Q",
+        "width": 1754
+      }
+    ],
     "place_id": "ChIJwYbN8AEPkFQR4BcWTLGDTk8",
+    "types": [
+      "establishment",
+      "home_goods_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=5714649774688704480",
+    "vicinity": "10121 Main St, Bothell",
     "website": "http://makeapothecary.com/"
   }
 }
