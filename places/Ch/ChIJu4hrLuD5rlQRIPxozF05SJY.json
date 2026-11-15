@@ -1,38 +1,271 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:18Z",
+  "fetched_at": "2026-11-15T17:56:42Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Botanica San Mateo Boise",
   "place_id": "ChIJu4hrLuD5rlQRIPxozF05SJY",
   "result": {
-    "formatted_address": "530 North Orchard Street, Boise, ID",
+    "address_components": [
+      {
+        "long_name": "530",
+        "short_name": "530",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "North Orchard Street",
+        "short_name": "N Orchard St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Boise Bench",
+        "short_name": "Boise Bench",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Boise",
+        "short_name": "Boise",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ada County",
+        "short_name": "Ada County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Idaho",
+        "short_name": "ID",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "83706",
+        "short_name": "83706",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "530 N Orchard St, Boise, ID 83706, USA",
     "formatted_phone_number": "(208) 514-8052",
     "geometry": {
       "location": {
         "lat": 43.609632,
         "lng": -116.2430642
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.6110664802915,
+          "lng": -116.2417870697085
+        },
+        "southwest": {
+          "lat": 43.6083685197085,
+          "lng": -116.2444850302915
+        }
       }
     },
     "name": "Botanica San Mateo Boise",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1400"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 12:30 \u2013 19:00",
-        "Tuesday: 12:30 \u2013 19:00",
-        "Wednesday: 12:30 \u2013 19:00",
-        "Thursday: 12:30 \u2013 19:00",
-        "Friday: 12:30 \u2013 19:00",
-        "Saturday: 14:00 \u2013 19:00",
+        "Monday: 12:30\u2009\u2013\u20097:00\u202fPM",
+        "Tuesday: 12:30\u2009\u2013\u20097:00\u202fPM",
+        "Wednesday: 12:30\u2009\u2013\u20097:00\u202fPM",
+        "Thursday: 12:30\u2009\u2013\u20097:00\u202fPM",
+        "Friday: 12:30\u2009\u2013\u20097:00\u202fPM",
+        "Saturday: 2:00\u2009\u2013\u20097:00\u202fPM",
         "Sunday: Closed"
       ]
     },
-    "place_id": "ChIJu4hrLuD5rlQRIPxozF05SJY"
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLd_XqYAxTq7ph4lEEMUeP3I3HWApq85QgHhZxM1qn7KQjfnaXORadWX-XJEzmxGoHlLJEkqixx7uWzP2syuVyoK2TLSg4yBDTSIOQ_0OL3o1JDRoWDkNpSLhYvS048BqW1XghHLW7-OCHL9aTVvzCjnSmjy50L14qL5gsdydEU5JaG2nTo7kzRcIQj0Ngu1pphX2V5reJA_iJn030Gmy8dtAOSq7mgTqmTffWe60zQJ8VKRW73DZCtvvBEjbQ_wJ0wvTtVYZ0O8UfLSC6WQSWfSyHXKOxfMGxrc1B9-hmHr3uWgrMVsa7VGMA0OGbmAMe84JgfvSg1O55DZvqUDEImP4OMSQhQGVKhHrwvzY21Y3WIA3pdDArOrntoY-fcf9WsLoDNMgmE0gp8svpn0QDubmy2a5aY",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110330735617027737189\">Oscar Gomez</a>"
+        ],
+        "photo_reference": "AV-0GLej0MGGnWdv-nWHWlPCQKSJIEBHQPBpo1KKZKZiumuwRGHsA6jEJV9jVn33MwND_dUA0Vdo3DouUw-l2BseigKm-55fhRzVs9tnFVgbSJClXAYYF_1MXbB_Lo1X-ivw2DjefHMGMoHMSImXGg_XbT5N__gKFPYxTGbjPzvNrmZxDpc9U5sP3Jds-4JA8XcxJKo8TYmDoOOgPGfhJyTn0Ul4Yaq-p6wb3pIa_ByiYqs3afNhmiQBvjcrgd7vYNBBjIjGMXpdl_VbNRzsrifHzqSJ8Cuco5P36mslpY454_n74QPGP9KEM3NbQgOpzAtD9Yf60sujR_qf5xZhiZZscAxz_3t9eB2HFuF3ZFPQwzrg8TVb5Ia416E-9Lj-r5j4uVfCYY42nXsQQPYIbQ0PNa0ECQ",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLeKELjx7ZL__4jgyyjxBpeTlt-BaJwV0mSqz7YB8I0mOZ-5NdXz-WHeeVv6G9N4riXco6c-30uI3PiUwt125vzFOfYGYxW5LetiQs341oMYot-LvU4vDldC5f9i3PEP1pOHKtMROplcpF60YgEQJ-_z0yAXTmwVkHJMvkulkLrJPCSoNolXuqyddAvIUF-lI-oQLEWJAlhPyyoHm3J8utdaetzo-SSqB0tBpYSOIYKh3u5dpJ7Wgm1HzFKLTtOHtqY5kvCq5t_xamgGZZzTPEjL77xvbvoNjpsxtR23A-eUd_hwyUwLpS6vxe2S2GIAMBp9XU6yqSiMrbkm1UXrVUEO3J811VYiY0mMJOjWaafPZnRuJePLUXbweR8XfwarRBvylm9DiNUbLm3PENiqIoPEgss",
+        "width": 2560
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110330735617027737189\">Oscar Gomez</a>"
+        ],
+        "photo_reference": "AV-0GLcr4-TKbFyaITaWEb-NVuOMWlFwOyBhuUkDyW9xN_p5pa1TFWhL-J9hhB_Kya7BFXbNy_0g1A3HU-Znj1-rkO76DQ5DYo9LqxMQDly9BuyWXCuaZf5zGn4oLhkBsSbuvSmNcujSM5W19npMzc7rDGhDgFD_hayaJCkzDY_l7DHN-9kRMQYPAEWw8A4MNNYOMPIm_D-d8dEePHih5tqaXOc_SXB8ETKT7-xEfTW_Be2QMwdttHX9O02g8upM1600kQ7VburIEfNeGq9lf3eZzQBD5sELgUdvDprGeUGJrGmIxVYUe9sVCzqe6zfbVH-afjIo2VjidNJqMbjNdFitUz149HKdzlyZDcNBk_cr_B9pSBqNn2DGxmcMIQD9G9EmfCNNMxZFCcX80jVAgkJbkGO9iykTPXU",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110330735617027737189\">Oscar Gomez</a>"
+        ],
+        "photo_reference": "AV-0GLekz5IqMV97cdZpiS2R0SifPiUCBPo8crN6C2NtsanZSFcvIn6kqGMWP9e3ewR5cHGB8c4_b_4tCnwNURG-Ssrx8bNTjb6CL0zyAjHsBhozDKjw8x7sdQzfPRNvF80DSb3lUDAhFjlzNd62TT5o7WvwCYxBMji_9ArkdlJC1I1m_ctcuIUYJGrDMr3jSVdFEeM7YsoyPuqLjTITQKv16dcBMvIXIjbdQAsaTfHecc3ljY0sRLoayBo6ttWoa1xPNNirVveEUZEKDZfDsRC-btg0J7oKV2RMkEDoWRT78Zn_EqcfkvKY1F0m_IW5zNuaiP_tHf-Q-6zKl-IwNI7D905bZ-5LjgPViR-gtUVEQcaovD83H08n8WqE5nYL9LavS1Ux2Fp9L7jYhKXG7ZjPw_9MAdz6ovI",
+        "width": 2560
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLc3FVAa9EnxfcnDvGcPMTHZR50ws7LzfkI7iEbVNgpCjK8rU1cbve5aGGlMz4JGEnSu6yQN37EfqKyCJrF4lCisKWWT21x43IjoDNRkjkKNGBMrUsi4i8a2u9wURpbm-J8JPfBsU3gTN2Y48E04kk9m8Qdcr78UIqgd4eMAiyOqgopGlptoT6yRFb4bRQuJMvezBNWHsmRzBOm468EV168BAo_5yThcO-ze_J0nZ6Fs7ZcePzgRBsBvfHW9rdoIO19f6Pwzg3cZAw2NbhDOLRMCPLdlJWqC_IPmVw4GiLvWbkMnPT_4PRePc1dwsCOeRVTF8Vnc2c2Lyd5ok75Jg1XeZrfVOOMvnfluYKbbOXk9-0lky1algCautZZ_nc2jZmIaQcNdFppSWyH0klgrW6faGggFnFg",
+        "width": 2560
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLdejXIY1xnU7nksAgsiBWwndgSxXBtH4qeqmAvhEcllIZrXcSrf27jz7HYJnfVUcrkPXv-XxgPh8GH42SC0_z29ks0hKU03reGd4rKvb9iR6EUNo4IDp23n58D6lcSVBF20q74rSeiiXzik--ZDsHbcngo977zOFhs1l-mBD4s7WHrnKFcJt-66dAYRj4rBHpZ46bVYTVP-kFFwvPS_eLCaXW5x3Hs1qAvkWMG9HuI8nLfL9RHsIfN_ScspwJ0aV1Ta9w3VtDL_xT6ufz98jK2WVQ3vot8HpuHD4Z7CY1dsDAVcjafoNSct24NXCE7cv8kfQnbajpYmYLZ1lnTbs775guhzf1dKbI22wVCbcbKkEOU0maXnpWQ4y1CgkL2tYIN--nnJegVrC__R0VLxdlg0M4I",
+        "width": 2560
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110330735617027737189\">Oscar Gomez</a>"
+        ],
+        "photo_reference": "AV-0GLctkj6G-brjGkrsQSnu5N73-grRhNgpS5UvGZm83d8NoKgBVHxOqXXS3kRjp0fCo5sj55vNQA2Had6ihwgAvxJ48XsXbdkV8XbD_-lg8YQekkxg_RrVYJ8LtkawY0xnWRvFF-loQZHxOX7YovyjZZLzbWtEHJRspaVyJXCaDjLirgS8X6J64CQdiSOM6EZFk-GARsyn1C-_erlISqK1pDtJBkfS2JVS9wn1ltJqBZZ_NI0J1FTIxLSRa186aMl7htMAI777kz8vbY0SqZdo8bBFxj_SpN5tiYqH7Lgjz8KSGHVHaZtmE6gMkkeJ-SHxTt7-CdFBFvScIIf2HAytPdey4NcfOwL9nB83o5G2KktfsevC9QTpxnaX-pr6na3cclmAoKyGqqBzgWJhx8QUgtqqkg",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLeTmzywFEm7XAgO-u-uKvWr_i57Uc4huP81Gp09NYiJNgNeHSQRD5sVp6mbvyqikBd-KQsRR5bamUK3UOZg8-gF2OI29oIENhvc35Ni5wqNN5BhsTnlL7w48KfRdGAc8y9VWe4-AEpCKGcZwAG1flGvyTRxuhEcjcUtMcL_qGPtw_C6Z-tbOaTThrCaybw1Fq-WaXpcqYLZRYICK6ENcxYbhypN2kIapQsQZn5Z-Vg-Q9wKAQBC1qL0EOooWa39HCQ51-GIRdqYWodwBt2xuvQ4NHi5XT682vmefAvqlLskhW9JDfUcTw8SDNvB-chwsWVrSNPGVOsNTz8XAnZ6A8GRSpijTvT_ql-jxCpBxzov7XU3cMQx9rbecuNY8yryfBCq-fmVB_vTt5_jneNeh-hhpLSueis",
+        "width": 2560
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113104110850970515562\">Botanica San Mateo Boise</a>"
+        ],
+        "photo_reference": "AV-0GLcP_SPWeVmsxVQ6zht88qBIIkBalyM5S0ar45AwhBmINTNaoVeH1LI5wCqAZYo7tyZAd83iPGKt6ddPmAiUP5MTqLJaQvDwwydjjDRlSJhnhLLmD32rx4daDiFoLeVfnryPFAg9wvn3BfafrCg45-c48Xl8VpAbUVgKkrUFs_boEWxA72ZKb5matGEAzcuE56ouRtW9EjvS4yBQQC6g-43Z1ucF70pTiVnz1J8d9TN2Hlga4cX0tejlcM2g3Ws_aTcGK8l-YjzYtI97YpHJd4y6TQed5ri_zG6EgwfOU7Yv7XVnicF2ogb7-Cu2Jh88n7OKp23pln4U0_v0cmgwfyTrJ9S0dspFCgl-nSpY7AcPqF8zTWKvFC8xu9fT7y9OjWJo-6YGzhSH5BnimI16HgeTSfoi",
+        "width": 2560
+      }
+    ],
+    "place_id": "ChIJu4hrLuD5rlQRIPxozF05SJY",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=10828968379036531744",
+    "vicinity": "530 N Orchard St, Boise"
   }
 }
