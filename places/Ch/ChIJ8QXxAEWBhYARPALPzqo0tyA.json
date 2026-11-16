@@ -1,32 +1,124 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:28Z",
+  "fetched_at": "2026-11-16T02:58:58Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Pure Natural Miracles",
   "place_id": "ChIJ8QXxAEWBhYARPALPzqo0tyA",
   "result": {
-    "formatted_address": "1855 Filbert Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "1855",
+        "short_name": "1855",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Filbert Street",
+        "short_name": "Filbert St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Union Street",
+        "short_name": "Union Street",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94123",
+        "short_name": "94123",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1855 Filbert St, San Francisco, CA 94123, USA",
     "formatted_phone_number": "(415) 235-9591",
     "geometry": {
       "location": {
         "lat": 37.7986232,
         "lng": -122.4298696
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.80004573029151,
+          "lng": -122.4285396197085
+        },
+        "southwest": {
+          "lat": 37.79734776970851,
+          "lng": -122.4312375802915
+        }
       }
     },
     "name": "Pure Natural Miracles",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 9:00 \u2013 17:00",
+        "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
         "Wednesday: Closed",
         "Thursday: Closed",
         "Friday: Closed",
@@ -34,7 +126,98 @@
         "Sunday: Closed"
       ]
     },
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLeZiGq3wOJOq_eE4yBhtez6WXAjVbB6sim3NYwYWkIBgWBDfLwMaBFvNChjaFa-ZndDj8vvIEQp0j-Mfu916__cWC1u-othVeHLW_v5oz5bLuSy9SDUSrgK7lJD7SNVJtoPVN6m2raK01sqTInQAM4i02y0FFLLZUOPD7iKtf_HuDUgSWKMnJ2FDbuNm4gcDuLgjj2NR1mBS97Lg3GqFbI9azp9QKqzIYq3qy0QERgayG9KIan0Qc-amQBct5Yd3qGSPTQsm_OpYljUGreL7KRat_k_T1GHaJING75UOk7-o6pYBsfDxC4sXRSczaonKofp-3aQqsrg_hSP0oQvoPPsDfjYdx5hyVrKN0Q5DJjKMjVx06bCYQbOwAk3oMh3bIQi-itwmAxCN5L7k64x_4zS9Go",
+        "width": 1920
+      },
+      {
+        "height": 1818,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLetOPjhagd7TZeQW3-MuPUPAm_vqpAKgxRbM8LI7Cx1_RazWQOkLX0950MKOgqK_Bprlnu5NyanC6CIPA0v0ZaNgHRbHYabmFzJDcCLEQdlQnxgbv-DmTuiBMX0mJVZ_WLt8kKhP-Eo2rYP6qopkY-7qK-JgTjEWNrtWqrsjR7_aWPSLbttdtgF-1w1r4i5B6-txp1QQMnvJ-_N6CKq4WsLkih5gUD0t5aNM11KAV8o2r_P4s7Xgs2cXjiNtDgtFSePEHFduXGL80ooTjaT258qsFrHFIDDhZDeGo7DmEcLfk5szfvtaOHKNzcHFTXXXGtpNFppg2_Bwm1V8z6Fnx6DqltYWjFFhoiIYiYydA3yAoFH0MTjePeSaBYO_6sWlivK3flcP9xKmtY3Y1wFWU7LxRMG",
+        "width": 2044
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLdbALB_27yrzKNfqDlXqEksHXpKp1ILWQRL--WA1iNeeIC5OW4_AjRdtlJjPYKIWWQzcG67bQVwDcfpnalVZUBguS2h0FusnvHjI9EBQW7ZObKCKsHBNPDbNSm326coFqAWBiDRvcFC4ErX8AZQOAynoE50i0xLV4K4W5HOtiz3Wlwe4-1YDbNaTecnamfhXIoPWgmZJWuHuNIalKk9DyKR3Jcdff7JJu2f-VIv7AgUnwuoRlkE0zDbMNI0-G0gyQrrfqcgeXJR4ksFyIeTxAQaZgdIoVxGOWtkjT450WBggqDGs1C0H16JXZdrFIgCkR0i9KBzcJGWloEZ8pzYMPjSMZEtf3Q-dIQVcLKinE_RSqX1Y6roV9FB96YPA6K-X-bUCsuJUcS3h6wwyvBA7BDjbkhX",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLfotwFwSlixB3PcqCm_Tp9KzFlJxv27gTOuLWTH7pH9cIQZ5c3ugB6KqBOYh1X5dSWNiWTt_oPWxPyBPYVFezApkDQjsrX2B_xv0tJmaIRi9YPBykr7tUpl3uvaVS7nwWQWmfO6FOxmQ-Gn8XyRf66EVoXI61ufuqESvLWg_7eTdDsvfjCoe_XlN2p2dHKtHyS5cGkZ35GRyGkzJ8iJsp5oG_He3Im1wjGm2M7YSb4vws-IAz69XZTIO3Y3tkGieLEFXed0s2EhWsGpzlqwPHuZB20i-0UPtrZQ0tyGSBFsqdwInS9YRgHuLFIBEExAgn223WPxmYIplrz2DtLfTc-MacfqmVDCQwIOwQSRZtiElgdhi6cly3lv6vg3oue82Q0wSntH1FlLK1gqCKQrajKY2hLbshM",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLf4iq1clYEmR2MBxTgNLgPncD0H9MtmnB_S2HbH3uw-ZAl2EUtDWHgRw4eodhD3eyyDdArd2tNgcux1GoGnM8EtBp82yLuaNClNonT4hQZtiwWQcVWNAw7vnjnYwdnqBJHePfZ-MC1EJEBXNLq7Lcmgsuo1c4jy2GkQB_JfG_hUeA87VIGUNpV0ZN0bKfWYD7OJki39PYrBpPpIC1Z-tpvkoiQzvQ1utAsVUbOFrwqBDXrBkpOAonLNZ4VkvLU28bRWLJWLW0oY9JCD4513T3R5ZEP-E3cRgROc4h1IQnqqEotmh2kv-a0GmlHMShRnhw9W5tE-dOSfnzKEL72PqeTDvGrucxMOXoImWVTgeVgZxAuhq8guOgFC2l-UFBIt8NmStgpkQqA9VKObzd-_clVoIEU",
+        "width": 1080
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLcquiEAsP9j1N5vas_ZWI3WJD0ICEgZPeuJ4o4yl6GFkO3aVAQbzbkackQmA5ywttJJYj32ywCs4r-cvypiFhmy7PvpcIpQeqjYWyf1TsWeksy6wx7iCdHcobq86V88vGeQ98pb1cDnQ2CcmvnsacfU75bgS62I1h_H5zwzHbLvWn7qSW2PNTSFIL0RcbbmznBgq2l-GB0oXygLxc2Xi-JWkReCvcwJzQ68Hq0n5wkKVezZQo5Dmzt_1JcXwd3bUlogfiaTrLZjVlbkoJFlbtQ-HIcls01PKy7R5x_mYdOdxUW05nTTxPSDUmyXM0A1B60Cws-U_PnQIYupO6s3DZDXFNbAEiRRDEojuKPv6slkvXYSAyCn6PQK6N1UUU-2nEHdedFEDWDysNmyUXx6_0MCJEzuvLc",
+        "width": 1080
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLe9LQqUW_J2ziN0wxDnXpLz-sfg_R6sTYTMwVWhG_XlEDYPkNIDaurckPGaMyRsl--C2HFGUZKpb1vEuD_wls1Nh5N7VvjFCAbFgbONwDvG_FcwNtz5dDqtx68nOj4gd3XvKv9vX5qukLvTO9JaB6qKoLe0DZ1nkxjBi6_YkJc0C4rNE9wjxCJZC-hfeR9ZXduRgrQQRpOpW2m2hMkwyzYbMPkQRqtR2gK1meIvOQdIBlfOJ_FuQ2X9aOhb8Hf_JS4H0A2-OJfNOaTO7dLKvaymzacnkuevfSIH_i1NWcH7FVq2P4e8bzY-YELTlo9Q_bI2bY0ZgJ9KzFauqIGYJ1mUY-88JdmsXma2E5YcRHlgTHcV7Unr4RM7uc9Om4eiV3Axwa9ps2OJSdYUDcgCOnV8_04",
+        "width": 2160
+      },
+      {
+        "height": 725,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLfXoUfiZeKFF5wxFdQbL0QsSzNiOisiQ6BjCJVPCeIw1LTKZwei5mY7-9psz0Xqmh71iXyQx_TqhgKjtxAyoJo1O5ZwyXlso5hO4hvXqY9Kve6-tGd1Zo9iKgu5-cYwxEgeJJZqsngtE7GbD1Xhc1Qo653vfK7nF4q68lq0_fRgpQ_RRYfh1nCJ-bFGgQc9a3EWVhK6mIFSrocQrBECuD1l794Tyfvwegxjhzs6W-TSE46W1myRKaaWU-pIvQxhYNr-9xbu8r-W9NrPKveNn3pxwdxUBISDGjH87zr7DEGwiglD0b4ok9k2aiT8EhWd2WnA-nEYaj4QjniB9vsJDi_GvUQ4qjOWGvW4F0Y0Yvg1_-J6niJcEPkEzDinfcGfNCzqmAPuVmcYFl-gBuINtZx3dAg",
+        "width": 686
+      },
+      {
+        "height": 825,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLctc1K43hFhFeownm18dL_nElEwzuzMlEnuQisMT0zSW91eHcf-HYBT7JaCCx2h6mzL6sxzqKY-Uel2FpFg-Bwl4v0vFemcmkW8Ht-9ZSkvDCP7-yhJTtt5eXLGkxnWFEEOoB_L4l0yWU3SCVEcfwW76GygwLGwUbG6SEbp-x7YS78OUX-Y2f1H9otAMBEPmssP3xZjqeNV_U1f5oz2oYavvKNFRxWEQU0AXVOnuTA9ZyngXNhzxohI5yOSyXOLhUCRQlonQ5M6IoHSvVfdNWq8EiLDUr5jbhMKeDDj77OIlNJsE6tJrYhtZrKNYBCU156kgiAZRZmLEI2bP4Kha4RysjShz7hNmKLtjaaySyydNnRXaGD7pjFiwifyXryjdn-tq3ujXnymUq6t7swARkN17OM",
+        "width": 715
+      },
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113003877090380732866\">Pure Natural Miracles</a>"
+        ],
+        "photo_reference": "AV-0GLek1Ai-Xp7lPq_9F_Kz9YQGAHrHhfjqjuvw2hKtDzyK8wZG21BhiG69EYY1ZRQe5wu8b2UT9aU5c4VXIMB-elGDjXkDbMXzv53VQe44iA8HpsOEYeLNazgSq3DQX_zXNMuSx8Kdi7QYqrPVAB_6g7cCuW_RHP6B-5ovadbGn_BZSXSM1jCXMNTrUCjP6YquxptpZDJ6MG1-Qf35OpkFUCO3Y0dmOFQlC2T4Nyo0k-ouCWHizeUcg__toEZn52Q7x-mFayhmQoeemDgTQiGbME6EE3PqOwjGd4wme756apm9R8nWubC_rZMHdZYbYMiA_llKVh3lpLRt33TprMe1DIfFSPfNs9Jr0ys8z8U_rvljMWunDBMvz8wg7La_6ykc69AHMNO5zaZ1PUQQJFiZb8LaT1M",
+        "width": 1080
+      }
+    ],
     "place_id": "ChIJ8QXxAEWBhYARPALPzqo0tyA",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=2357410838170501692",
+    "vicinity": "1855 Filbert St, San Francisco",
     "website": "https://www.purenaturalmiracles.com/"
   }
 }
