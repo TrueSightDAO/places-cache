@@ -1,38 +1,289 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:27Z",
+  "fetched_at": "2026-11-16T02:58:54Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
   "name": "Natural Market",
   "place_id": "ChIJXQo5cceAhYAR5NzbFWEUvro",
   "result": {
-    "formatted_address": "1853 Webster Street, San Francisco, CA",
+    "address_components": [
+      {
+        "long_name": "5",
+        "short_name": "5",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1853",
+        "short_name": "1853",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Webster Street",
+        "short_name": "Webster St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94115",
+        "short_name": "94115",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "2837",
+        "short_name": "2837",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1853 Webster St #5, San Francisco, CA 94115, USA",
     "formatted_phone_number": "(415) 870-0619",
     "geometry": {
       "location": {
         "lat": 37.7880445,
         "lng": -122.4321586
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.78944798029149,
+          "lng": -122.4308278197085
+        },
+        "southwest": {
+          "lat": 37.78675001970849,
+          "lng": -122.4335257802915
+        }
       }
     },
     "name": "Natural Market",
     "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2300"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2300"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2300"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2359"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2359"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
       "weekday_text": [
-        "Monday: 7:00 \u2013 23:00",
-        "Tuesday: 7:00 \u2013 23:00",
-        "Wednesday: 7:00 \u2013 23:00",
-        "Thursday: 7:00 \u2013 23:00",
-        "Friday: 7:00 \u2013 23:59",
-        "Saturday: 8:00 \u2013 23:59",
-        "Sunday: 8:00 \u2013 23:00"
+        "Monday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Tuesday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Wednesday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Thursday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+        "Friday: 7:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u200911:59\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
       ]
     },
-    "place_id": "ChIJXQo5cceAhYAR5NzbFWEUvro"
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112424467437638530815\">Anita Ngai</a>"
+        ],
+        "photo_reference": "AV-0GLd3pE745-rN_NygCsrc4zmorB3GR2SjRkxPTNbYQfIBLG9_-H5GjvHzrk-tQmh_01yPUmjk4zBnKaL9sA9NjKWRQkrSivQoY2bg_xZxDqN8jv_XvLysAZr25Y7BFWvlNN5w65QXwuHnqVVi6SRBJL23tAK_e4b2r_2y0_zJSG3f9LbB8soyp7SDeQqtxO9Q2NmmdbiiQ9-k6nhN4bSy00m7BuVqS0N5ncpNE5EUKA8eCEWEAvwHG6Br81RArVGQyAAR4_Pk4TjcHIn04XpZRUhp7rp-MpWKNYOkzffLF0llYTyWFxaAHZDeLqNnFRUuQmdwf4FR9AIBKjqVliikFpMw1Brg6BRHSRYg0X0piXKkvN-lYetUmRTsz8WrHwrxcReRW4vXuIXaN93vx56ivHDLcA",
+        "width": 4032
+      },
+      {
+        "height": 2564,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLdccRctaAzFQva5CpbRXweN4OuAfXBnUZ23f6-oqLBe80u_7ewLAbXD_dsmpIv4r46OAtSadBFtyTJm0Ry7JTg4Qy9kXy-h3NRv660xk58tTOReraqPyBjnu_WrWM3Z5ACdL9o-3Q8ljxcmzSRnPjoTA1ht1MrROXid27AOMAZ0_eOOYONJwnapJpULnpGQuY1inzd9L_b7wjGqZxpeQzR7M7Jouw68pyf78K04K7jsu-tN4Uc82SJMIk6HzVQeNclgwZ247LPBbLwHAUrw37SKeITC7QshOUzU2uaSr_Ce6rEsA-Zd5601W9iHwCLOGN7W3nJ-DNSg53W41haxOV136bPUf7487ine-j-lyRwNiHct8Eev4VKguPDv92m_OlpP2e_lZEg8-Fhip1f7yWmQ6v0",
+        "width": 2564
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117169233488783742904\">turtwig86</a>"
+        ],
+        "photo_reference": "AV-0GLcXt65o03esmh4DEcnTX4ebtPw3ooDPmmG3rw7pzbLAXd8aai_eYpJ-V7noMJtB7NcCgp3d9yduzqFeHmSy_hru3LNT4RBKw6tALwROorAx5AItMOjnD03YN3GUTDwWtOCdSzX8Zu75sbWjxGsO6SN7lPHdXkXfVeeyNevldOaiH8upA7MW3f8SVsjLpBFmrGZYjOGxO46wmUPyWfz4iNmnCbYMi7PpISGI-PY8q_OzTMR_BSDSDvnEbTmFoiER99E9v-W7dVLz-zdlUxQHu784GLTiRABUTG4wUTELe112bKzeG_EXeaFEcY0M2T-1echxDFV0wPHdH-0hPqYu73HECFXAaWXTlNlCaUYDwpmONAhTyBfw20atOgvHxNO--YlZyWl_k_pQ57U7d4e2eLei_I5r",
+        "width": 4032
+      },
+      {
+        "height": 2208,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLfkpK7emaDtAmv5yCDXDbCJnPJpu7AWdyd8zkAua-ap_GwxglQo3xCZrkhf3HhI2uDwqtkFcDj-jCcxmDntMGBKgJZMuav9CULYy-J2Ta_xILzsksTr5fdXtaagqiE8HeXpOrbxOEOilVHN5bujdMOVmfYBf21Mg1DK659ZuYfQURPdAOHqTyxEVzZbM1iqDrgegmTvaigpJGd_KjUOBWzIzWH_HYMzPwLHAzUsIW5KtM-wQo_2IfZoPz6_v42Uygjzbqg9ixdJvwuiqFat5b2nGvZJGeHRPPnSijUtcjP1u2kK6c5_3XjjqJ35f_r4cgKIQmJKCD2EzEJsBQHsA9PgyC_tUeh6oFIPafVHHB9EfwyMAqT3GVGWLH11UOWpHU5IZy7nbM7lVfPSKiQ0ICJK64qcdD0",
+        "width": 2208
+      },
+      {
+        "height": 2920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111096344623823643646\">robdude1969</a>"
+        ],
+        "photo_reference": "AV-0GLcmnMlxhxOMKZ3MbrxNOrMkQE7dKjvfN2j-IBWm3DNrQn3C2anCQ6nLVRF9aEB7ymIM0ZAB-ANs_WVH1VZaAIn8u-ivmxxjtU5tL65lT8I5-WXEFLJNJPLcvS6pUFsjgexlCwYM5NXKKZVSbMimKVZ7ujXpS6hPNLYFddIpQsWciOKxtVXuuRvdU6YtwG00_wGC9LmA_NyDPXq4g6fGXhFqhYodBbq6KvUfkyBDr2HYm7XJI2c8MNYhY-JPwVJhrUAy_pT5iH_mJOHHO3VaA7uMAznLoXU4UcmEpLYrcTZPeOXPe57Kv2SqiDpEbE8zxWpl6VWoj0dE9wI9HGmhgsViw-MCTh-J4vSztjLhUja4JY4hwNiGA9XOMvmmBM8bKS2-RlQDSJeRzinQMwP3hORIAfU",
+        "width": 3894
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111096344623823643646\">robdude1969</a>"
+        ],
+        "photo_reference": "AV-0GLedSCMUjwB2mfW_WEgfUDwWjIeAXcitM8Cg6mWI6QPfnL2M8BzDLsqQhdbmDMHw3Ab8ffIAYnQhC_b1SQ-vHK-mCIeT0Ks3qF6V1n6HBoZ3xu9jkw3TvakT2hnusd0XF5tW4j3OZe2kgvc3tbMXmCsrQxmLQLwJS_EY_GOkq3n0QKPOXiuo83JuVprz7VBYwRbDjZvPpaFfO7k86RA0yyTqb_i48NH1OFaW3YLOvJtJMYATzt6A7fIV8OOzoJFuv13XzJCiMWbbd-rIrJCWqDhqGJYHag5petO72H_ML0yJUXbojfhC2PmtOJLCUtbWmC7AgD3_78grE8UsbEIJGfVDSkRw2jB-G3lcFOTTyMjdtSTFiP1niLQ6-bMk1oo99XKU_5XBZRe2kkSjwNy5j63QmlY",
+        "width": 3024
+      },
+      {
+        "height": 992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLe13GmJeNmpQFU3dmqTDcKBJY4zgXAr77wMUcgQoT7FUXA3p96dDZ95Q7bfFlttueZwZ8mrJx5e9i62hMN94zcuGeMG4tnMLg3dT6D6B4PvLYRhjIriBqC2tqiOfbQcpIWsQbJwhfRCR63TS1sMo4cAdKqur9Ebak17k5KedFLvAs8O70OAIAZO_cbVzMrzmYfxuBl5n6wMB8tG7UivkCrjRqyQ7Mc89wKWXXYfENfpGiQYZTJXclGP3jMvma8YNqFrbbB-ctDPrgeXkw_IMR5jaSlIiCxP05H9NkTwQ9ZrVguVLmoHNAhxKSDZTHVmXxIIOxOH6XsHWB3jlf0VUeZylexiZP_k10r828EyDoz2wvalkRg3FteJrA67kO9fn7NUMLMaCRi55pyTm-OAU1VrOw",
+        "width": 1323
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100961299064612689899\">Brian Lewis</a>"
+        ],
+        "photo_reference": "AV-0GLd0ToAwIl-Y6B9em7ytfJKGDUIFKK12gx4WeHk4wz3qaMBg87ulUaikj9jtmcs1SxOnLZnWZKgYlZKNzUtsRIYpN5W9IzLFSn8G0RkXKyNcnSYVF7NoKja43fycTHHfRUejpcgQlaR4ikLPiiN9fxntKanMyFAL1rglYBAIyOsQxWo7U1zopcSxxgxic6yqf-nKANBB2mHkBch1nEyrtNudcyCJV0ELtDQCsagzXEtFZhpFWhG9gBcpYhbcmHArd0fZ5gkvWrn1BlMsRDhueDqFG5mNxN53pmfq0Pm4GQlKsWia47IWIwjwbHhkEfGA7tFIhNcR5lB7dXUJTJqoz1O5OIFdBko3HGSgJScJu16pXHHCCPE4D_cKXHE3010NhCja6kY6uM2mvGCblWMde524BPwJu0ki3Z2r-yj9_BXfUA",
+        "width": 4080
+      },
+      {
+        "height": 1112,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Trap Speed 1320</a>"
+        ],
+        "photo_reference": "AV-0GLeh3kz-Y1tR8pFXZBY9sQphhoXle5Xapb_znLMu1Ew8hycIy4VaHyy9qUwvTV9i-bm7JzRD5IoRW5mmlRu5tfsAw6_pY5SIuzXpqmGRUIK6CJM-y6OwX6QeVqaGlqH3v54iIVxkf675QYgHZAh7VyCI2TlkHLCIIA04isibjxRr4UlsvnDKqXspOg9d6Ok04z5ar3cbp-x7Zd0bj8NrxWy9IfMOUWCULWId3AIeMTf-lbZAllTSAJJhmTtweZfaoz2cBDAVJT0kn0pgeFW3BjTnWZ3uX6aGCdepYHi1fcRuVY5hcv-44oX0r4pIPG8W-WLzMwdPMpi1OWVy1RjQAiVuE1a0NQ4YdNH4qf9SQM5LLcIvHT3L7ZPaQBOYVckS58ke0PAk3Fc6wmAsde7ItiQN4no",
+        "width": 1080
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102613773228575480219\">Sebastian Raphael</a>"
+        ],
+        "photo_reference": "AV-0GLftJSwpMDJiXjIL3FaYkJtD8QB4EOQqi82zjw-D9UK3kfY4SCEKwjFFysBXemX0wnXRyJHtcwPjsxk8_F9MQQ0NbosP5c5ehD5bPnFKH44QrBCYMUiE8dBoFLvAWFALN3SkSuC_tPg5SxD1qLOO4RdJgZkwg23oklZdTI0dji_JDkpGPoHyfLFUa5ejpUf42huA_ptBmoOE9jBdMVjbKI-fyF0dhE2z30vfx3tpug9pMm-nxz54C_AM-TJePPFp1sA6aQpYmVC4m7heM6eUHHIkVoXuUYIuKjSCnY6D_dzP0nJ-h_R7nobPQgZMmlRCgK7_SDIH1LeyagVA0UpmKjL68_QM3EoSJpSWjMNYtVvjJfZQ99Q5xQ3lVHIEPlajSzpjkgshW3Kfnj7NgZtDtQS8J-jE9D-OC8mwfDk9fEh-nA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJXQo5cceAhYAR5NzbFWEUvro",
+    "types": [
+      "establishment",
+      "food",
+      "grocery_or_supermarket",
+      "liquor_store",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=13456215143840734436",
+    "vicinity": "1853 Webster St #5, San Francisco"
   }
 }
