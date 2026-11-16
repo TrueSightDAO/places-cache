@@ -1,40 +1,278 @@
 {
-  "_source": "bootstrap_from_hit_list",
-  "fetched_at": "2026-05-03T06:16:24Z",
+  "fetched_at": "2026-11-16T02:58:50Z",
   "fields_requested": [
-    "place_id",
-    "name",
+    "address_component",
+    "business_status",
     "formatted_address",
     "formatted_phone_number",
-    "website",
     "geometry",
-    "opening_hours"
+    "name",
+    "opening_hours",
+    "photos",
+    "place_id",
+    "types",
+    "url",
+    "vicinity",
+    "website"
   ],
   "google_status": "OK",
-  "name": "Wicklanders Roots Apothecary",
+  "name": "Wicklanders",
   "place_id": "ChIJy1dHm7NVhVQRztm2PvdgKtU",
   "result": {
-    "formatted_address": "1508 3rd Street, Marysville, WA",
+    "address_components": [
+      {
+        "long_name": "Suite A",
+        "short_name": "Ste A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1508",
+        "short_name": "1508",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "3rd Street",
+        "short_name": "3rd St",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Marysville",
+        "short_name": "Marysville",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Snohomish County",
+        "short_name": "Snohomish County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Washington",
+        "short_name": "WA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "98270",
+        "short_name": "98270",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "long_name": "5002",
+        "short_name": "5002",
+        "types": [
+          "postal_code_suffix"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1508 3rd St Ste A, Marysville, WA 98270, USA",
     "formatted_phone_number": "(206) 841-6769",
     "geometry": {
       "location": {
         "lat": 48.0506129,
         "lng": -122.1766119
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.0521146302915,
+          "lng": -122.1752670197085
+        },
+        "southwest": {
+          "lat": 48.04941666970851,
+          "lng": -122.1779649802915
+        }
       }
     },
-    "name": "Wicklanders Roots Apothecary",
+    "name": "Wicklanders",
     "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: 12:00 \u2013 18:00",
-        "Wednesday: 12:00 \u2013 18:00",
-        "Thursday: 12:00 \u2013 18:00",
-        "Friday: 12:00 \u2013 18:00",
-        "Saturday: 12:00 \u2013 18:00",
-        "Sunday: 12:00 \u2013 16:00"
+        "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+        "Sunday: 12:00\u2009\u2013\u20094:00\u202fPM"
       ]
     },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103208463027623659261\">Lily Morgan</a>"
+        ],
+        "photo_reference": "AV-0GLewwmQBZPbOWnhZvPmM3yhM9LHaBkKLDYKLgpNViaLIU_TX3_pUVNHLnDrrMIx9tLU09a39gasn_nnAVo4ggHhNr2_SNLLBDgV8QGjibh2YbSxpLFsfhcZ0m0TTvcLHxH-1BgqbFYhzuSUlsYMkBhkp6-G9e6VVd47mQNG4MOMfuTKKObo7aO2rZ8ekij2MObTDXdGG8dYqslAoDYVtwkOoIXjZJJZL8sazJ4N6u0MaTPlnDLdhMkts1IxmuLXr6N4Y_EkX7aeAbiwOOJM0L9vobyvlrugHGKbysOkk4PQOpZaPD1TJ0SiIhqHVnt23-3yPSOQYzKURJvfXQVwKIf_lUsGpUwcZhhe4YRn4UbP-9NCSc0QJuSPudkbfPkL31q6WSArardf7Bxb132AAsrhttEo",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116230255261155657242\">Andrea Rocker</a>"
+        ],
+        "photo_reference": "AV-0GLeHp01JpFGnu7uaFEI01bJJRpsZOLJoaAhaU00YDIzozQkKhKLV3yE5pOLoqM_Rrr_G3ii1f8Ffls0ziJMkaqTVkjFWj4XrzaD0B0fGP-Zx44mHTGcdiyvYYA6xIpYjt_y5CqafYIUNe39jsyNk3OGCJO_7lQvum_bis0360wgXRwO9WBS8vecTnw0ETM8eOFZQoNX6rx_laBf7jenyZkcE8ASu00Ts18KoxLHSD30pL7HpTOz81h3iIfjmNlmCHun4wmpjABO50MxmgSWUbTVmFKvT_h8zkGIv4swdloVjgm35qT-Ox5TFp_iDQT2VWx27D9Gts3AQBWU_nyxHfiiqc6mjqwgScgmxpLzK5U-2ApIp70Nwrfji53fgOnbWWqQMbnPqA-uNv5ghCZERp4c3Gg",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101370294109237408997\">Jennifer Lazo</a>"
+        ],
+        "photo_reference": "AV-0GLc_3oCjfUlhvVsAggBOEpM-jm0ob-s2_4I4AHx5qBNRNx7czNSbSPgkYo-xakualzF3EMFcg8YgkCTc6u8Z6QODXMuyYu-39O_06SH3EXJwP1jlkniDnlkw4SHiVX3FtM2FktBXV_mw-IvrKejSFmTvr1-g4zbKRpTSsKVjEtrZEmYGwz7iTsrtSASRKxb9cEjhAQU6AXJUvXhukufZpnUqbhFXp6AmlIHfplag8UMw2c3KNZuVuM4e3ZCdsHsqteTJJTCR3_AAxw4DvDmsDrymqVdnACLfXty1JxsZKAYN8dLjtvcT4hbg0p_T0Kjq-rmmxGFtbwP-yUWP5hK3Jsr4xfZ1UUwhOOHa4pVblGbuCLuhIo3qTRfX5Jjc7tHq-ILqalfemalSaz_gpDdOTkegZUU",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116316414098953394180\">Josh Maple</a>"
+        ],
+        "photo_reference": "AV-0GLcQYG2jmJPY7oXH7RV-UX_DdNJrJ-ooi8mFFZeduA7rSlJ_mszvY3KESOOz6Ateiq5TF1m2pyMbeePF8kfVzCjl4THoiWd1YCeGLGpZ80DWrT6tIKwNaRE3usShuxUWHWvuBKG6Q9VHKLLjBHCFBjKWMEkBHc2uT-mSGwP8twU0Q9qyux-yeNOeeqjPE055O97q0htzdo8eWQtje3oxQryv13WJ6Lm-rOhfe1hGcND6Vo2g4M6fRb4PQVBAh16E9Hg9l1xcAyv0PgTDccSunW3ygmHhjxrerjuCu3KLk4IjtcdPnb6u4aJFQcygdWmLgDXWyWcVEN_rfTkv6c-Pgdw_bJd97UbeB2TM9DUmO7fYAEivUya_9uBzvHOlfieoSs6rGxsi3UXRmLBV6KM76kyZhJU",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101370294109237408997\">Jennifer Lazo</a>"
+        ],
+        "photo_reference": "AV-0GLexX6Hs5kduwArob2fsItSXddCHudFk_t3Bm93y5tVFQJGE5u4uHBrJ6RusCH6DhyeRVrOGe8bR1iEmBLeGEF9M-rge9NUqo6ruM9CZfgQQvPNYB79r_m5AKWw0qifXYKBAnAKsR2KlPjLBnGwFMt4LI4u0M5M1D1dFlguk-o58zFjxDKcJUkINkpdwn-M5J7elNIvSW_xpozHndDtSsIKl82GeIKwRQ3bIxuHfj0d4StfalmOM-DFJp50hfg8-g6oUZ1tXaUSo9Or5smCoGPqCxCiixjSu3qbwMR3QGhQdjvkmgyLbEhrLc8-mzKZH4ixf96qvJmqZN3rKz1H-UomVPcWVyd96f4GXFZ_qL2jMKXOS_W9OoKHzVS7jSAFLDt0r7aP1yxMyxOwnnUNaLI0t6VA",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103208463027623659261\">Lily Morgan</a>"
+        ],
+        "photo_reference": "AV-0GLcfNmqTXkR6zhhjj9VXX6ObmqRny6sei9s1dOt8D_e2TIcc6VTJB3pilNuP71fU7r5bboSQzoYyBpnwOfdLUHiyXMI0Oct9q-YXMXgzjlwuUcvbM_NA_r0CU1ilUDwWKt2qcmWLtlRqZ5hyLc7nsq0-SWXFC3SeH2VjXoWxon34vMdWkUxly4tFg2p_ttfn-hElC-0wMSndC5FLI7HI0FdFtdtd5q3BfjNezg0KZeEbXd5u3cfpmrxAvMF1tsvuYk-GPfJmRqazrl2xJHYAMmbiqpxTqfWtWQ-p_EdHwh7tvJcI8wpPq5IowzIJICT6xwkJyvVxhhsaO3sJTw7S2Plf6Q33P810bjSzd9IV18PIki63zyitt3Lee7N0OE013KRC45ydxkpOkqaDQqxwvpM17I6x",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116230255261155657242\">Andrea Rocker</a>"
+        ],
+        "photo_reference": "AV-0GLeqiQBIFAYmrj6sybMorpVh3fvkqHss1lToNaJgLy7nl7ls0s-a9-kc4fwwFRO6pKF5u6l34W0bOIwwSbivGDyVsynXTaOjV-itvgvdEvT6u-Dk5fMSofF3zdGl29RnDaaF06HAMA11EezeCHLUPX-SjAhZk5rCeSzKI6DkCvTGO_N3bNhPnCvqybIWmYK1eDe4iW6Fc6XyGrgQRkhLEwel6lxFCgTmcvwXpz7KYv2_sGoc3WE7roaTjNnF09RMqSr8bSYxcusN0k8UFLOE9ByinJspfGtuc6kqoGwGtRM0FzR4dJ_9WyB0S1uMNcu3tCxCqljqsndokG6r6-qgV3KmiuR5rL84VpMHYEi_M2UHQsuqwxtukSjX1ncF9ATNixg8kbBn-hoYMRiB40Pyc02AWhoh",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103208463027623659261\">Lily Morgan</a>"
+        ],
+        "photo_reference": "AV-0GLeUD3OcyUGruOUF3tTnhDCeDXx9On1joVe30CIxpV4irwV56FNfHxSxGYN1zR4IMGdQIhbLvg8ZSJAh-oywf0o4eLqnlmESzYA0GOufGTKpTEOIeoM8pikeGcBhJDo6_ud97dO1KTj4bNJOEopKxpbNgiFrcJ31dWiVE40gnEPRzrJPaROWY4FbpLk0HD3vKmfP2dvAhEY_XIx_BIaIN5fD_KZSxeKLF6Gd8HoP1d3QSIxalhkzscFSbBX4hNMHkbMUUJV97ir5lE_MIk4LaP4Mw-4LdoA2wyIeoBvKPzXT_byOgyVFHdCqgbWSFQchDNblU6bdiWfu8rmz4Z_8CrknypviJES5xZcTanApReFxPtI_57bHQCDuZHyvLhIddRFEFpGGLqYmoMRPXMT9Xtjazvs",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116230255261155657242\">Andrea Rocker</a>"
+        ],
+        "photo_reference": "AV-0GLejrP4l7Ovi4_nEl3IbJYipxQEjNeeq4tYlidU6k-ccrZXf5ElGKrftSNCqWVy8HK-NKR16eRuwl6uQUJ-iZBX24XkLFzvKqi2Xr2Ps40bDw-LjIHzOQBe_41mCGjHAru3oIkkarO4LIqeJudBDKaHFVSgwh3T4bzYqEGwJBAjg3Tm3R3ERk7cIH0aaCLH0Pwv_TPqx_uz8sfu96z6xG586V-Jd-afVzw0qGA7cmlglJEDfGwmIzfNlq9HBrle3OWtmyM8KMIZtPwskAEmJEerukY3uG8X26WaoaLfmpO8UZZ50ZCsaKf-zK7RqH66cQrk4unvQ4SZGpqaal1vq5Whr5RDaMTFS_YnSX7uIy9EzzDuR6y6hBsGcBhYHZQhscSz_cxAx9dhgmjOWhgQ-uJZ4Npq-Ft4",
+        "width": 4032
+      },
+      {
+        "height": 480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110020723238602217639\">Tera Cortez</a>"
+        ],
+        "photo_reference": "AV-0GLdul926mswcwfdfjtK5tjZLk4z-PpLxCM21cY52VYlFN6y8n7qvzqGwANevcWVWB3LnO9yOM2IX1SMmHs6azGMWfEKwNRtIZVAt_ywa4GoH9JQLDf0TNlxWkObiuFFDgzjCU2qA5yOru_86uhGvfQZ2aGsL5GBtTLHRjP-SRWQXoIRrdbHAGasepQaR1_W88AjActbNqxYVvG0joch8I8P7Fb15_3FeXMun-Rc4lvRO3biDYBAHwwZ8iKAqGpaPTyaAR7lzponqIpHeL3IUjxm-iWNMzEl2FgHUDyu_hqPKRja7qgmolAtGzR-Obe6S4uo0uS7w2zMfpVPe6toIHpbVkiB4alvnOc4bZqON6-kARQoCHbSL3Z3VfTjPdZasl5yrLwBYFKdgE0MQx2QJvwGiQSUzNqM",
+        "width": 360
+      }
+    ],
     "place_id": "ChIJy1dHm7NVhVQRztm2PvdgKtU",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=15360196094125857230",
+    "vicinity": "1508 3rd St Ste A, Marysville",
     "website": "http://www.wicklanders.shop/"
   }
 }
